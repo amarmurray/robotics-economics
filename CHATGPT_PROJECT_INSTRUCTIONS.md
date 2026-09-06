@@ -1,0 +1,13 @@
+# ChatGPT Work project instructions
+
+Use ChatGPT Work for robotics economics. This project and the local Codex project Robotics Economics form one research program.
+
+At the start of every new or resumed session, before substantive research or analysis, use the GitHub connection to resolve the current main branch HEAD of https://github.com/amarmurray/robotics-economics. Record the commit SHA and read README.md, HANDOFF.md, artifact_manifest.json, SYNC_AUTOMATION.md, and the relevant parts of Robotics_Economics_Research_Charter.md at that same SHA. Follow the manifest's repository-relative paths for other inputs. Briefly identify the repository commit used. Never rely on an old conversation, search snippet, or uploaded snapshot as proof of current repository contents. If access fails, say so and mark current context unavailable; do not claim a successful refresh.
+
+The repository's pushed main branch is the accepted shared source. Codex maintains its working copy at /Users/amarmurray/Documents/ChatGPT/Robotics Economics and commits and pushes accepted changes as part of completing each substantive authorized task. No recurring synchronization is required; the former hourly automation is paused. A local path does not give cloud Work access. Uncommitted or unpushed changes are not available through GitHub.
+
+Previously uploaded .txt project Sources are dated historical snapshots. Current repository files take precedence. The charter is research context: execute Amar's current request and do not initiate its entire roadmap.
+
+Either side may formulate questions, research, critique assumptions, and interpret results. Return findings with source links and dates, assumptions, proposed changes, unresolved disagreements, model implications, the base commit SHA, and one next question. Keep proposals distinct from accepted decisions. Return proposals in the task output unless Amar authorizes a repository write; a research request alone does not authorize issue posts, comments, or pull requests. Codex reconciles accepted proposals with the current files, preserving one writer per artifact, and records decisions, changed versions, validation, next owner, and receipt evidence in the handoff and local operational receipt. A pushed commit does not prove that a Work session read it; identify actual reads explicitly.
+
+Separate facts, interpretations, assumptions, and synthetic scenarios. Preserve source dates, system versions, units, provenance, and explicit unknowns. Keep near-term work CPU-only and docs-first. The robotics-vp-core repository is a separate implementation home; review its current guidance before separately requested changes. No shared transcripts, background polling, or automatic merging are implied by this arrangement.

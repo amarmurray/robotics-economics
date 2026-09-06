@@ -1,0 +1,94 @@
+{
+  "schema_version": 3,
+  "snapshot_id": "repo-session-2026-09-06-v0.5",
+  "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
+  "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
+  "shared_source": {
+    "repository": "amarmurray/robotics-economics",
+    "url": "https://github.com/amarmurray/robotics-economics",
+    "visibility": "private",
+    "branch": "main",
+    "read_policy": "Resolve remote main HEAD at each Work session start; fetch required files at that same commit SHA.",
+    "publication_policy": "Validate and make a scoped commit and normal push after each substantive authorized Codex task."
+  },
+  "codex_project": {
+    "id": "f260f846-281f-4d68-9086-44afe32bd163",
+    "label": "Robotics Economics",
+    "registration": "verified"
+  },
+  "chatgpt_project": {
+    "id": "g-p-6a9cdcdb891c819190d2ea406ab0a03c",
+    "label": "robotics economics",
+    "url": "https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project"
+  },
+  "artifacts": [
+    {
+      "repository_path": "Robotics_Economics_Research_Charter.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/Robotics_Economics_Research_Charter.md",
+      "name": "Robotics_Economics_Research_Charter.md",
+      "version": "0.5",
+      "sha256": "30eda1eea63143d1a927fa2db36df7b93154079e86965d42eacb74b9e7a139e7"
+    },
+    {
+      "repository_path": "AGENTS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/AGENTS.md",
+      "name": "AGENTS.md",
+      "version": "repo-session-2026-09-06-v0.5",
+      "sha256": "2c80f1715168d0eed1a0ded37a1e7eaa9a15e67960d7d2558146316f7b9b4503"
+    },
+    {
+      "repository_path": "README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
+      "name": "README.md",
+      "version": "repo-session-2026-09-06-v0.5",
+      "sha256": "7f7b72f98b1683d440e139f012fa645f1ce9bb1d83ff0797cf552b6b142e8f62"
+    },
+    {
+      "repository_path": "HANDOFF.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
+      "name": "HANDOFF.md",
+      "version": "repo-session-2026-09-06-v0.5",
+      "sha256": "7124cd282186796ac85a1160649fb742de308adf9e5668f1e7b3b8a28853f92b"
+    },
+    {
+      "repository_path": "SYNC_AUTOMATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/SYNC_AUTOMATION.md",
+      "name": "SYNC_AUTOMATION.md",
+      "version": "repo-session-2026-09-06-v0.5",
+      "sha256": "29cee726df4c6d65cafd476b3ecf5ed0d767d8223e53fea5b6f865a15398410b"
+    },
+    {
+      "repository_path": "CHATGPT_PROJECT_INSTRUCTIONS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CHATGPT_PROJECT_INSTRUCTIONS.md",
+      "name": "CHATGPT_PROJECT_INSTRUCTIONS.md",
+      "version": "repo-session-2026-09-06-v0.5",
+      "sha256": "6501d755404199d66f1f20498513108d78f895413ab82786406099536850babd"
+    }
+  ],
+  "manifest_repository_path": "artifact_manifest.json",
+  "receipt_record": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/sync_receipt.json",
+  "receipt_scope": "Ignored local operational metadata: actual publication, connector access, app-setting verification, observed Work reads, commit SHAs, and this manifest hash. Excluded from the shared artifact set.",
+  "excluded_operational_records": [
+    "sync_receipt.json",
+    "work/",
+    "incoming/",
+    "logs/"
+  ],
+  "historical_snapshots": [
+    "/Users/amarmurray/Documents/Codex/2026-09-05/le/outputs/robotics-economics",
+    "/Users/amarmurray/Documents/Robotics_Economics_Research_Charter.md",
+    "Earlier uploaded ChatGPT project sources"
+  ],
+  "context_exchange": {
+    "mode": "session_start_repository_read",
+    "periodic_polling": false,
+    "uploaded_source_refresh": false,
+    "automatic_transcript_sharing": false
+  },
+  "previous_automation": {
+    "id": "sync-robotics-economics",
+    "name": "Sync robotics economics",
+    "status": "PAUSED",
+    "role": "Superseded by per-session repository review."
+  }
+}
