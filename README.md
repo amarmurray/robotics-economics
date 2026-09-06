@@ -21,4 +21,4 @@ Each substantive authorized Codex task ends with validation, accepted artifact a
 
 The earlier uploaded project sources, prepared Documents/Codex output folder, and original Documents charter are historical snapshots. Routine exchange now uses the repository, with no separate source-upload chores. The previous hourly Sync robotics economics automation is PAUSED; there is no periodic polling. Existing task context and transcripts do not update automatically.
 
-The research roadmap is context. Models, datasets, and implementation work begin with the next requested research task. The repository transition's next required step is verifying that Work can read the published repository; consult `HANDOFF.md` and the operational receipt for actual results.
+The research roadmap is context. Models, datasets, and implementation work begin with the next requested research task. Repository publication and GitHub connector access are verified; consult `HANDOFF.md` and the operational receipt for the exact checks. Each Work session reads the current repository commit for its own context.

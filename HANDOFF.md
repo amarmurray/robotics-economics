@@ -1,6 +1,6 @@
 # Robotics Economics — current handoff
 
-Handoff ID: repo-session-2026-09-06-v0.5.
+Handoff ID: repo-access-verified-2026-09-06-v0.5.
 
 ## Accepted direction
 
@@ -41,8 +41,8 @@ Return findings, evidence links and dates, assumptions, validation, unresolved d
 
 ## Next owner and question
 
-Codex completes repository publication and verifies that the ChatGPT Work GitHub connection can read the published charter, handoff, and manifest at one identified `main` commit. Any required account-access action is stated explicitly. Record the actual outcome in the operational receipt; if access remains unavailable, keep that limitation visible.
+Repository publication and GitHub connector access were verified on 6 September 2026. This Codex task fetched the published charter, handoff, and manifest through the ChatGPT GitHub connector at one identified `main` commit and verified their complete contents against the local files. Detailed commit and file-read evidence is in the local operational receipt. Each Work session still resolves and reads its own current `main` commit; this connector check does not claim that a separate Work session consumed the files.
 
-After repository access is verified, either project can begin the next research task requested by Amar. No research run has been initiated by this setup.
+The next owner is Amar or either project acting on the next requested research task. No research run has been initiated by this setup. The remaining workflow is session-start repository review and normal publication of accepted task changes; no periodic synchronization is required.
 
 One next research question: Which narrow warehouse carton or tote-handling deployment should anchor the first complete economic case?
