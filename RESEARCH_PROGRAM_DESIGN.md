@@ -1,6 +1,6 @@
 # Physical labor, humanoid deployment, and the organization of production
 
-Version 0.8 · 25 October 2026 · Research program design
+Version 0.9 · 25 October 2026 · Research program design
 
 ## 1. Purpose and accepted direction
 
@@ -22,6 +22,7 @@ Amar's 25 October 2026 clarification establishes these requirements:
 - Preserve the distinct research on robotics business models, asset ownership, commercial arrangements, and value capture among providers, operators, integrators, and financiers. Customer structure and commercial arrangements interact; neither replaces the other.
 - Compare incumbent adoption, acquisition/holdco transformation, and AI-native enterprise formation as customer development pathways. These are not mutually exclusive ownership categories. Permit coexistence and specialization across value-chain stages.
 - Explicitly study capital-funded AI-native operating newcos on the customer side: differentiated humanoid/digital-agent production, faster adoption of widely available robots, and capacity or availability advantages. Compare standalone newcos, platforms creating new businesses, acquisition-led transformation, and hybrids; use Thrive Holdings as a structural comparator.
+- Make the full LLM/digital-AI ecosystem a substantial research workstream: model development and physical inputs; scaling, deployment and nondeployment; retrospective/prospective economic effects; economic-role and workflow evaluation; multi-agent coordination; lab competition and deployment companies; and dependent/complementary businesses. Use it both for tested multivariate analogies and direct contributions to robotics, site/enterprise operations, and humanoid R&D.
 - Deliver a substantive written report, an interactive dashboard with meaningful toggles, reproducible supporting artifacts, and a continuing research roadmap after an initial seven-day campaign.
 
 These requirements govern the design. Geographic defaults, coverage targets, forecasting horizons, and particular implementation choices below are revisable working assumptions, not additional user commitments. Preparing this design does not start the seven-day run or claim its outputs exist.
@@ -173,10 +174,11 @@ An evidence-labeled deployment/learning network, candidate data-aggregation arra
 - How do digital agents change planning, order handling, inventory, procurement, dispatch, exception handling, maintenance, and evaluation?
 - When do shared supervision, queues, communication, correlated failure, and recovery limit fleet productivity?
 - How does the preferred process design change as physical and digital capabilities improve at different rates?
+- How should models, digital agents, conventional optimizers, ERP, warehouse/manufacturing systems, routing/scheduling, maintenance, and fleet controllers share state, decisions and execution across a site, enterprise, and value chain?
 
 ### Required treatment
 
-Compare the same process under human-led operation, digital-agent assistance, isolated robotic deployment, mixed fleets, and coordinated physical-digital operation where relevant. Specify dependencies and shared resources. Avoid adding a digital productivity uplift and a robot uplift when both describe the same removed work or bottleneck.
+Compare the same process under human-led operation, digital-agent assistance, isolated robotic deployment, mixed fleets, and coordinated physical-digital operation where relevant. Human-led operations improved by digital AI are an explicit evolving comparator. Distinguish model reasoning or action generation, tool/solver calls, business-system transactions, supervisory control, and lower-level execution; specify state, interfaces, decision authority, feedback, latency and recovery. Workstream H supplies comparative evidence and directly tested contributions, including enterprise/site integration and robotics R&D. Specify dependencies and shared resources. Avoid adding a digital productivity uplift and a robot uplift when both describe the same removed work or bottleneck.
 
 Define the decision architecture, evidence available to each participant, operating objectives, constraints, and feedback. Compare simple rules, centralized scheduling, hierarchical control, and decentralized allocation where they answer the question. A named swarm architecture is a design candidate until its productive contribution is established.
 
@@ -257,11 +259,32 @@ Use one actor/role map across F and G. A vertically integrated provider can also
 
 Commercial-arrangement comparisons, asset/control/right maps, reconciled customer/provider/operator/financier economics, and conditional value-capture and integration strategies. Connect these results to customer adoption, fleet coordination, learning access, deployment capacity, and market structure.
 
-## 11. Integrated interpretation and standards of progress
+## 11. Workstream H: the digital AI ecosystem, economic deployment, and direct contributions to robotics
+
+This is a substantial, continuing component of the program. Its detailed scope, evidence standards, source seeds, and initial deliverables are in [LLM_ECOSYSTEM_RESEARCH_MODULE.md](LLM_ECOSYSTEM_RESEARCH_MODULE.md). End markets and value chains remain the organizing level; H supplies empirical comparisons and mechanisms that connect to every other workstream.
+
+Study the full chain from capital, research talent, data, semiconductor design/fabrication/packaging, memory, networking, data centers, power, cooling, land and construction through training/post-training, inference, models, cloud distribution, agent runtimes/tools, applications, integrators/deployment companies, operating enterprises, and final demand. Track material, compute, cash, information, contractual and control relationships separately. Study open and proprietary models and competing ecosystems; a list of labs is insufficient.
+
+Maintain two explicit uses of findings:
+
+1. **Comparative evidence:** test which mechanisms from digital-model development, supply, deployment/nondeployment, economic impact, benchmarking, multi-agent organization, competition and complementary businesses help explain humanoid outcomes. State source and target conditions, confounders, differences, predictions, falsifiers and permitted modeling use. Do not transplant scaling exponents, adoption rates or market structures without target evidence.
+2. **Direct contributions:** trace how models, agents, tools and infrastructure change embodied capability, fleet/site/enterprise coordination, and robotics research productivity. A model can occupy several technical roles; identify inputs, outputs, execution substrate, response times, complements, costs and the evidence supporting each role. Digital-to-robot integration is an engineering claim, not an analogy.
+
+Study capability overhang as a dated, population-specific gap between demonstrated capability, reproducible workflow performance, economic attractiveness, organizational readiness, delivered capacity and realized use. Distinguish evidence of nondeployment from unmeasured performance. Separate pretraining, post-training/reinforcement learning, inference effort, model routing, harness/tool/memory changes and multi-agent organization as sources of improvement.
+
+Investigate retrospective effects with appropriate identification and prospective effects with conditional scenarios. Preserve differences among benchmark performance, operational deployment, company outcomes and economy-wide change. Examine model-provider competition for inputs, capital, distribution and customers; customer deployment companies and lab-linked firms; integration/ownership/data rights; and the possibility that value shifts between models and complements over time.
+
+Use joint digital/physical scenarios. Compare current operations, digital improvements alone, robotic changes at the existing digital baseline, and combined redesign for matched output/quality and demand. Attribute shared improvements once. Consider digital-first preparation, concurrent progress and physical-first sequences where plausible, rather than requiring a fixed ladder. Include robotics R&D contributions and conditional feedback from physical automation into the infrastructure supplying AI; respect lead times and shared resource budgets.
+
+As a revisable planning default, allocate approximately one-third of first-week substantive research attention to H and its integration with A–G, counting shared work once. The module needs a substantial report section, dedicated dashboard workspaces, source/benchmark cards, explicit analogy tests, direct-contribution maps and a transparent joint scenario. It must change or constrain concrete research/deployment judgments, including through negative or nontransfer findings. It is not an exhaustive one-week survey of digital AI and does not defer the physical-labor program.
+
+## 12. Integrated interpretation and standards of progress
 
 For each material conclusion, state the mechanism, supporting evidence, competing explanation, confidence, pivotal assumptions, and observation that would change the view. Distinguish a measured result from an inference and from a scenario.
 
 Use one versioned data and calculation source for report tables, dashboard visuals, and exports. The dashboard must allow movement from an end-market conclusion to the source observations and assumptions behind it. A scenario change should recompute the affected outputs or explicitly explain why it does not.
+
+The initial report must also explain what the digital AI ecosystem teaches conditionally, where analogies fail, how digital systems directly contribute to physical production and robotics R&D, and how joint progress changes the deployment baseline and sequence.
 
 The initial report should answer: where is physical labor concentrated; what can current systems plausibly serve; what improvements unlock further stages; what slows deployment after capability is available; how do fleets, learning, and digital coordination change sequencing; how do customer ownership and organization change adoption by market and stage; and which robotics business models and control arrangements create and capture value?
 
@@ -269,9 +292,9 @@ Measure research progress through improved explanations, validated mechanisms, b
 
 The first week's executable specification is `WEEK_ONE_RESEARCH_SPEC.md`. Its launch text is `CODEX_GOAL.md`. Open questions and longer investigations live in `RESEARCH_ROADMAP.md`. Those files describe planned work until an actual campaign records evidence and outputs.
 
-## 12. Initial source anchors
+## 13. Initial source anchors
 
-These are starting sources and methodological anchors checked during design preparation. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
+These are starting sources and methodological anchors checked during design preparation. The additional digital-AI, economic-deployment, enterprise-integration and direct-robotics source set is in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
 
 - [BLS OEWS industry-specific tables](https://www.bls.gov/oes/2025/may/oessrci.htm) and [technical notes](https://www.bls.gov/oes/2025/may/oes_tec.htm): employment/wage baseline with scope and classification limits. Employment counts are not physical-work hours or full-time equivalents, and wages are not fully loaded compensation.
 - [BLS National Employment Matrix](https://www.bls.gov/emp/tables/industry-occupation-matrix-industry.htm): alternative/supplementary coverage and industry-occupation relationships. Reconcile overlap with OEWS; distinguish historical base-year estimates from published projections.
@@ -282,12 +305,14 @@ These are starting sources and methodological anchors checked during design prep
 - [OpenAI–Thrive Holdings partnership, 1 December 2025](https://openai.com/index/thrive-holdings/) and [Thrive Holdings capital update, 12 August 2026](https://www.thriveholdings.com/thrive-holdings-fundraise): primary descriptions supporting the structural comparator in Workstream F; company claims require appropriate attribution. Neither establishes physical-labor substitution or the financeability of a new humanoid operator.
 - [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [long-running work](https://learn.chatgpt.com/docs/long-running-work): a goal needs observable outputs, verification, checkpoints, and explicit completion/blocker states. Actual continuation depends on the runtime, available resources, and goal state.
 
-## 13. Decision record
+## 14. Decision record
 
 Accepted correction: organize the research around physical labor end markets, value chains, staged deployment, evolving capability, learning/control, physical-digital coordination, and competing ownership routes. Superseded sequencing: mandatory warehouse-first case, second-market deferral, and dashboard only after that case. Preserved disciplines: dated evidence, transparent assumptions, consistent units and populations, conditional adoption gates, no double-counting, and separate implementation-repository scope.
 
 Ownership clarification, 25 October 2026: customer ownership/organization is an explicit determinant of adoption, capital allocation, automation appetite, and value-chain position. The prior provider/asset/control/value-capture inquiry is retained as Workstream G under a distinct name. This expands the design to seven linked workstreams; it does not delete the earlier questions.
 
 AI-native entry clarification, 25 October 2026: make customer-side capital formation and entrepreneurial entry explicit, including differentiated operating design, equal-technology adoption leads, and conditional labor-capacity advantages. Preserve pure newco formation alongside acquisition and hybrid platforms; investigate competition and financing rather than assuming technical productivity becomes market share. Seven workstreams remain in place.
+
+Digital ecosystem addition, 25 October 2026: added substantial Workstream H and a dedicated module, bringing the design to eight linked workstreams. Learn from the full digital-AI value chain through explicit analogy tests and direct capability/contribution maps; expand coordination to site/enterprise systems and model robotics R&D contributions. Maintain moving digital-improved baselines and joint scenarios, source/target evidence separation, and all prior customer-newco and provider/asset/control questions.
 
 Prepared outcome: a revised program and a launchable first-week specification. Pending outcome: activation and execution of the research campaign in Codex, followed by the actual report, dashboard, model, and revised roadmap.

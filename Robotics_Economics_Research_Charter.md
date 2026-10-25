@@ -1,8 +1,8 @@
 # Robotics Economics: Research Charter
 
-Version 0.8 · 25 October 2026 · Amar Murray
+Version 0.9 · 25 October 2026 · Amar Murray
 
-This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.8 retains and clarifies Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.9 retains and extends Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
 
 This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
@@ -12,7 +12,7 @@ Develop the understanding, evidence base, and working models needed to shape str
 
 The central question is: **Where, how, and in what sequence can humanoids and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
 
-The program connects seven research decisions:
+The program connects eight research decisions:
 
 1. Map physical labor, productive processes, and operating heterogeneity across end markets and value-chain stages.
 2. Relate current provider/system capabilities and research progress to conditional improvement and scaling pathways.
@@ -21,8 +21,11 @@ The program connects seven research decisions:
 5. Study productive coordination among physical robots, digital agents, people, and infrastructure.
 6. Investigate customer ownership, governance, capital allocation, automation appetite, operating authority, and implementation capacity as determinants of adoption and value-chain position; compare incumbent, acquisition/holdco, and AI-native development pathways.
 7. Preserve the distinct inquiry into robotics business models, provider/operator/integrator/financier roles, asset ownership, commercial/control/data rights, integration, and value capture, including coexistence.
+8. Study the full digital-AI ecosystem as substantial comparative evidence and a direct contributor to embodied capability, fleet/site/enterprise coordination, and humanoid R&D. Cover physical inputs/model development, scaling and deployment/overhang, economic effects, benchmarks, multi-agent systems, lab/input/capital/customer competition, deploycos and complementary businesses; test analogies and joint capability paths explicitly.
 
 Customer-side AI-native entry is an explicit research thesis: can capital fund a new operating business or platform that competes through differentiated humanoid/digital-agent deployment, earlier adoption of broadly available technology, or conditional labor-capacity advantages? Examine financing through ramp, demand capture, incumbent response, and build/acquire/hybrid choices by end market and value-chain stage. Use Thrive Holdings as an organizational comparator, with the physical/industrial extension and greenfield cases treated as hypotheses. Keep customer formation separate from robotics-provider business models while linking their economics.
+
+The detailed digital-AI workstream is `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. It receives substantial first-week research attention and reporting, with explicit evidence on both sides of each analogy, direct-contribution/interface maps, and digital-improved human-led baselines. Enterprise/site coordination includes ERP, inventory, production systems, routing/scheduling, maintenance, and exception workflows; robotics R&D is a separate contribution channel. Shared improvements and resource budgets are counted once.
 
 Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
@@ -99,6 +102,7 @@ Allocate outsourced and shared work consistently. A facility's operating industr
 | Physical-digital fleets and control | How do robots, software agents, people, and infrastructure allocate work and shared resources? | Coordination archetypes and mechanism models |
 | Customer ownership, organization, and adoption | How do the adopting business's governance, capital allocation, appetite, authority, capacity, and value-chain position change deployment? | Customer profiles, adoption mechanisms, pathway and coexistence comparisons |
 | Robotics business models, asset ownership, and value capture | How should robots be supplied, operated, financed and controlled; which participants capture gains? | Commercial and actor/rights maps; customer/provider/operator/financier economics; integration strategies |
+| Digital AI ecosystem and direct contributions | What transfers conditionally from model development, supply, deployment, economics, evaluation and competition; how do digital systems directly change robotics and the organization? | Ecosystem dossiers, analogy tests, benchmark cards, role/interface and R&D maps, joint digital/physical scenarios |
 | Interpretation | What changed, which conclusions follow, which are uncertain, and what deployment decision should change? | Integrated report, interactive dashboard, and decision memos |
 
 Maintain connected maps of **physical labor/end markets**, **productive value chains**, and **providers and their ecosystems**, with ownership, data, and coordination relationships. End markets and value-chain stages organize the synthesis; provider and task detail explain the mechanisms. Link them through common activity and cohort identities. Each map must support factual description and traceable changes to model inputs and conclusions.
@@ -277,7 +281,7 @@ The first edition contains:
 3. Qualitative deployment theses and staged penetration models for a contrasting set of market-stage cohorts.
 4. Substantive analyses of data aggregation, learning/control, physical-digital fleet coordination, and shared rollout constraints.
 5. Market-stage comparisons of customer ownership/organization and adoption, including incumbent/acquisition/newco pathways, plus distinct robotics business-model, asset/control, and value-capture comparisons.
-6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model.
+6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model, with a substantial digital-AI ecosystem chapter and dedicated linked workspaces for ecosystem evidence, tested analogies and direct contributions.
 7. Reproduction instructions, an acceptance audit, and a ranked roadmap of unresolved questions and follow-on research.
 
 Continue substantive work through the research window, using checkpoints and priority questions to deepen the edition. Do not confuse seven named stages with a week of elapsed execution, invent research performed during a pause, or manufacture inputs to complete a visual. At the deadline publish the strongest verified edition and clearly identify incomplete requirements.
@@ -313,6 +317,8 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.9 — 25 October 2026:** Added substantial Workstream H and a dedicated digital-AI ecosystem module: full physical/digital value chain, deployment/overhang, economic evidence, benchmarking, multi-agent coordination, lab competition/deploycos and complementary businesses. Distinguished multivariate analogies from direct robot/site/enterprise/R&D contributions; added evolving digital baselines, joint scenarios, source/target records, two dashboard workspaces and ten roadmap questions (41 total). Preserved all prior workstreams and prepared-only campaign status.
 
 - **0.8 — 25 October 2026:** Made capital-funded customer-side AI-native entry explicit, including operating-design, equal-technology adoption-timing, and capacity/availability hypotheses. Added funding/runway, customer acquisition, competitive response, and standalone/platform/build/acquire/hybrid comparisons; sourced the Thrive Holdings analogy. Expanded the roadmap to 31 open questions while preserving seven workstreams and the separate provider/asset/control inquiry.
 

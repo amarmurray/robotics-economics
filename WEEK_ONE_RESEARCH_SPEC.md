@@ -1,6 +1,6 @@
 # Week-one research campaign specification
 
-Version 1.2 · Prepared 25 October 2026 · Status: not activated
+Version 1.3 · Prepared 25 October 2026 · Status: not activated
 
 ## 1. Purpose, organizing unit, and authority
 
@@ -11,6 +11,8 @@ The organizing unit is **end market × value-chain stage × operating archetype 
 Default scope is a **United States quantitative labor anchor**, combined with global coverage of relevant providers, research, supply chains, financing, ownership models, and deployment evidence. Record these as revisable assumptions. Use the latest reasonably harmonized historical baseline, preserving each observation's actual year. Date each current-evidence snapshot, beginning at activation; use the design's observed baseline and conditional 0–2, 3–5, and 6–10-year horizons. Explicit calendar-year comparison points may be added without treating them as predictions. State currency base year, inflation treatment, time intervals, and conversion conventions explicitly.
 
 The campaign extends CPU-first, docs-first work to a lightweight executable model and local dashboard in this repository. It does not authorize hardware purchases, GPU spending, paid data purchases, outreach, public posts, changes to another repository, or external dashboard hosting. Use public evidence and labeled scenarios; do not incorporate confidential employer material.
+
+Workstream H is a substantial part of this same campaign. Read `LLM_ECOSYSTEM_RESEARCH_MODULE.md` for its detailed scope and evidence standards; this specification governs first-week acceptance. As a revisable planning default, devote approximately one-third of substantive research attention to H and its integration with A–G, counting shared research once. Record material reallocations and their reasons; do not pad work to meet an effort percentage.
 
 This document prepares the campaign. Reading or publishing it does not start research or establish a running background process.
 
@@ -70,6 +72,22 @@ Core question families are:
 6. How do customer ownership, governance, capital allocation, automation appetite, implementation capacity, and value-chain position affect adoption, including incumbent/acquisition/newco pathways and coexistence?
 7. Which robotics business models, asset/control arrangements, and roles for providers, operators, integrators, and financiers create and capture value, and how do they interact with customer adoption?
 
+### Substantial digital-AI ecosystem module
+
+Cover all seven digital-ecosystem subjects specified by Amar: development and physical supply; scaling and deployment/nondeployment; historical/prospective market effects; economic benchmarking; multi-agent coordination; model-producer competition for inputs/capital/customers and deploycos; and companies built on or linked to labs. Distinguish comparative analogies from direct technical contributions. Include inference economics, organizational complements, moving incumbent baselines, model dependence and rights, and shared physical-resource feedback.
+
+The first edition must contain:
+
+- One connected ecosystem dossier mapping physical inputs, model production, inference/distribution, agent/tooling layers, deployment firms, operating customers and dependent businesses. Use a dated coverage map rather than claiming every actor is covered.
+- Two contrasting digital end-market/value-chain deployment dossiers connecting capability, actual use or nondeployment, economic outcomes and organizational conditions. Include retrospective methods and prospective implications; use source vintages correctly.
+- Three direct-contribution maps: embodied capability/control; fleet/site/enterprise integration including ERP, routing/scheduling and operations systems; and robotics R&D. Distinguish observed results, announced products, conventional interfaces and proposed combinations.
+- At least six explicit analogy tests spanning several subjects, including material nontransfer conditions or candidate counterexamples. A failed analogy can be a useful result; do not manufacture positive transfers.
+- Benchmark cards across professional outputs, organizational workflows, agent coordination and embodied control, with system/harness versions, budgets, intervention and measurement limits.
+- One transparent joint digital/physical mechanism scenario with matched output/quality and demand, evolving digital-improved human/incumbent comparators, identifiable interactions and source-linked assumptions. Labeled scenarios are acceptable when calibration is unsupported.
+- A substantial report chapter integrated with the other workstreams and dedicated dashboard workspaces. Explain how the evidence changes or constrains at least three concrete research questions, deployment scenarios or organizational comparisons; rejected transfers and bounded null findings count.
+
+Reuse connected dossiers across these requirements. Preserve unresolved coverage in the roadmap; a source directory or analogy list alone is insufficient. Model scope remains local CPU research, with no implied authority to run hardware or GPU experiments from cited papers.
+
 ## 4. Analytical and modeling requirements
 
 ### Economic activity and useful output
@@ -87,6 +105,18 @@ Record system configuration, software version, environment, autonomy/control mod
 Investigate improvement as a response surface conditional on experience coverage, data quality, training method, compute, embodiment, environment, integration, and coordination. Fit empirical relationships only where comparable observations support them. Report fit domain, uncertainty, confounding, and extrapolation limits.
 
 Do not assume a universal scaling exponent, a monotonic data multiplier, or a calibrated relationship between benchmark scores and economic output. Where evidence is insufficient, implement clearly labeled mechanism-based scenarios or parameter bounds. Keep physical improvements, autonomy improvements, adaptation costs, intervention burden, and integration efficiency separable.
+
+### Digital/physical comparisons, benchmarks, and direct-contribution claims
+
+Define the digital source population and the robotics target separately. Each proposed analogy identifies a mechanism, required similarities, material differences, evidence on each side, target prediction, falsifier, and permitted use (question, qualitative prior, mechanism structure, or calibrated parameter). Numerical transfer needs target-specific justification. Keep a measured source effect separate from a hypothetical target coefficient.
+
+A benchmark result is tied to a configuration, task/workflow distribution, evaluation method, budget, assistance, latency and failure definition. It does not by itself identify an occupation's automatable share, firm productivity, or adoption. Record outcome quality, intervention/recovery, repeated-workflow reliability and end-to-end costs. Historical studies remain dated; later changes in models, work selection or methodology can make an old estimate unsuitable for current inference.
+
+For direct contributions, record the model's role, inputs/outputs, interface and execution substrate, timing, available state, authority and fallback, alternative implementation, effect on outcomes, and evidence setting. Distinguish simulated policy tests, live fleet data collection, enterprise product announcements, conventional system interfaces, and demonstrated integrated production. Do not compose separate papers into an observed end-to-end result.
+
+At matched output quality and demand, compare: existing operations; digital improvement alone; robotic improvement at the existing digital baseline; and combined deployment/redesign. The combined effect need not equal the sum of individual effects. Track digital contributions to human-led operations as well as to robots, and avoid counting a shared foundation-model, scheduling or learning improvement twice. Explore different relative rates of digital capability, embodied policy, hardware, integration and organization change.
+
+Research-acceleration cases require a fixed capability or engineering objective, baseline, human time, model/training/inference resources, failed experiments, validation and calendar time. A generated reward function or better simulated score is not automatically a quantified reduction in robotics development cost. Model potential feedback from robotics into AI infrastructure as conditional and resource-constrained.
 
 ### Conditional penetration waterfalls and adoption cohorts
 
@@ -173,6 +203,10 @@ The cell key joins market, chain stage, operating archetype, geography, and peri
 | Entry case | entry_case_id; market/stage/adopter/pathway IDs; product and customer; proposed advantage; incumbent comparator and response; system/arrangement links; capability and economic thresholds; formation/ramp/expansion cash flows; funding assumptions and milestones; demand/retention/served-output constraints; entry window; disconfirming evidence. |
 | Commercial arrangement | arrangement_id; actor/role map; system/cohort/adopter links; sale/lease/service/license/partnership/operation terms; robot/model/data/control rights; funder and risk allocation; pricing; cash and value allocation; effective dates. |
 | Scenario | scenario_id/version; model/evidence snapshot; horizons; input overrides; dependencies; resource budgets; allocation and demand policies. |
+| Digital ecosystem relationship | relationship_id; dated actor/asset/system IDs and value-chain roles; material/compute/cash/data/distribution/control link; capacity/commitment/availability status; terms; evidence; shared-resource budget links. |
+| Benchmark card | benchmark_id/version; model/policy/harness/tool versions; population and tasks; evaluator; human comparator; budget; assistance; latency; costs; failure/recovery; result/uncertainty; operating applicability and limits. |
+| Analogy test | analogy_id; source mechanism/population/evidence; target market-stage question; required similarities/differences; confounders; target prediction/falsifier; source and target statuses; permitted model use; affected scenario/question IDs. |
+| Direct contribution | contribution_id; digital system/version; embodied/operations/R&D role; inputs/outputs/interfaces; execution/timing/state/authority; comparator; resources; evidence setting; effect/delay; target capability/cohort/scenario links. |
 | Evidence | evidence_id; precise claim; URL/document locator; publisher; observation/publication/retrieval dates; scope; source class; limitations; conflicts. |
 | Question | question_id; decision consequence; priority rationale; dependencies; evidence target; stopping condition; status; next action/owner. |
 
@@ -182,25 +216,27 @@ Separate source provenance from epistemic status. A manufacturer statement may b
 
 Produce a written report, executable local dashboard, CSV/JSON evidence package, versioned scenarios, reproducible model, acceptance audit, and durable roadmap. Register final artifact paths and versions in the repository manifest.
 
-The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, AI-native entry and financing cases with competitive response, robotics business models and value capture, strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
+The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, AI-native entry and financing cases with competitive response, robotics business models and value capture, a substantial digital-AI ecosystem/evidence/direct-contribution chapter, integrated strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
 
 Use **one authoritative calculation engine** for dashboard outputs, report tables, and scenario exports. Documentation must provide exact environment, build, run, and regeneration commands. Store locked dependencies where appropriate and use deterministic seeds when simulations require randomness. A fresh local launch should use the saved evidence snapshot without requiring new external credentials. No public deployment is required.
 
-### Nine linked dashboard views
+### Eleven linked dashboard views
 
 1. **Economic atlas:** end markets, value-chain stages, labor/value measures, coverage statuses, residual categories, and baseline automation.
 2. **Market deployment explorer:** selected cell, workflow context, competing configurations, conditional waterfall, economic outcomes, and adoption timeline.
 3. **Provider and system landscape:** versioned capabilities, evidence conditions, deployment phase, supply relationships, and alternatives.
-4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, and limits of extrapolation.
+4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, benchmark/economic applicability, capability-to-use gaps, relative digital/embodied/hardware progress, and limits of extrapolation.
 5. **Fleet and bottleneck view:** commissioning cohorts, active stock, productive output, retirements, shared resource use, and binding constraints.
-6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries.
+6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries; robot/fleet/site/enterprise roles, ERP/WMS/MES and routing/scheduling interfaces, and separate robotics R&D contributions.
 7. **Customer structure and adoption:** ownership/governance profiles, capital access/allocation, automation appetite, operational authority, implementation capacity, customer pathways, value-chain position, and adoption outcomes; linked newco entry, funding/runway, build/acquire/hybrid, demand/share, and incumbent-response comparisons.
 8. **Robotics business models and value capture:** commercial arrangements, provider/operator/integrator/financier roles, asset/control/data rights, cash requirements, risk allocation, integration, and coexistence. Link to the selected customer profiles.
-9. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
+9. **Digital AI ecosystem:** physical inputs, model development and inference, cloud/distribution, tools/agents, deployment companies, dependent businesses and adopting end markets; dated resource, capital, data, control and commercial relationships. Qualitative edges remain distinct from measured flows.
+10. **Analogy and direct-contribution workbench:** source/target mechanisms and evidence, required conditions, transfer limits, model-role/interface maps, benchmark cards, joint digital/physical comparisons and implications for existing research questions.
+11. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
 
-Shared filters include market, stage, archetype, geography, period/horizon, system, customer profile, customer pathway, commercial arrangement, scenario, and evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
+Shared filters include market, stage, archetype, geography, period/horizon, system/model/harness, digital/physical value-chain layer, contribution role, customer profile, customer pathway, commercial arrangement, scenario, and source/target evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
 
-Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, and incumbent response timing when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
+Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, incumbent response timing, relative digital/embodied progress, inference/coordination costs and integration availability when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
 
 Display meaningful ranges and appropriate rounding. Show missing inputs and unavailable estimates explicitly. A synthetic example may demonstrate functionality, but must have persistent labeling and remain excluded from empirical aggregates.
 
@@ -218,6 +254,8 @@ Run focused checks that address concrete analytical and interface risks:
 - Change material scenario inputs; confirm actual recalculation, or explain a locally insensitive result through model constraints.
 - Drill from a displayed result through its calculation and assumptions to specific evidence records and source locators.
 - Confirm observed evidence remains fixed when scenario controls change; test unknown versus zero and insufficient-data states.
+- Verify analogy source and target evidence remain distinct; unsupported transfers cannot silently set calibrated parameters. Trace direct-contribution claims to their demonstrated setting and interface.
+- Exercise a joint digital/physical comparison, including an improved human-led baseline, shared resource limits and non-additive effects without duplicate benefits. Check that changing digital assumptions affects the intended roles and populations only.
 - Export and reload a scenario; reproduce its outputs and confirm a documented local launch.
 
 Use a small set of meaningful fixtures and adverse cases. Do not mirror every implementation detail with tests or repeat a passing test without a concrete reason. Record pass, partial, blocked, or failed for each acceptance requirement, with consequences and next action.

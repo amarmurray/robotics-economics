@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "program-design-2026-10-25-v0.8",
+  "snapshot_id": "program-design-2026-10-25-v0.9",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -26,29 +26,29 @@
       "repository_path": "Robotics_Economics_Research_Charter.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/Robotics_Economics_Research_Charter.md",
       "name": "Robotics_Economics_Research_Charter.md",
-      "version": "0.8",
-      "sha256": "b2394bd447a437c7166f62a02850c2311a68e4443b137993ca51f24e4a2755ef"
+      "version": "0.9",
+      "sha256": "4a9fea2f275807d84c373931c279bd0387ad74229a461d481752e4f71ea673a5"
     },
     {
       "repository_path": "AGENTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/AGENTS.md",
       "name": "AGENTS.md",
-      "version": "program-design-2026-10-25-v0.8",
-      "sha256": "01c76615b3008035cddc032a0085a59a9ebfc1b32d891baf2a5bd4de0eefa1b0"
+      "version": "program-design-2026-10-25-v0.9",
+      "sha256": "124f15b7d167953e096963c9cf5951cf37d65e72c362895df6706554fa90eb7f"
     },
     {
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "program-design-2026-10-25-v0.8",
-      "sha256": "d25690d5a68c68b0f2a79801fba2012f2a5c689faa87082ef9d75c9c5e9fbdbf"
+      "version": "program-design-2026-10-25-v0.9",
+      "sha256": "b8b67e12f25f410bf1163e40e25c120a835972a80c7fe5d81b3ade01ca520911"
     },
     {
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "program-design-2026-10-25-v0.8",
-      "sha256": "a548b11ebf610d4fec9d0aeb2a37cb61913dff109fd9da69819984e203782317"
+      "version": "program-design-2026-10-25-v0.9",
+      "sha256": "642a48fb74b67ab5764f474e9409802a7e1daf013e38e2527c943815e7bfb070"
     },
     {
       "repository_path": "SYNC_AUTOMATION.md",
@@ -61,36 +61,43 @@
       "repository_path": "CHATGPT_PROJECT_INSTRUCTIONS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CHATGPT_PROJECT_INSTRUCTIONS.md",
       "name": "CHATGPT_PROJECT_INSTRUCTIONS.md",
-      "version": "program-design-2026-10-25-v0.8",
-      "sha256": "8b36a2d58cdcfd36319f75f73ef7259ca15371133341e0168c4f56a8a7f8d135"
+      "version": "program-design-2026-10-25-v0.9",
+      "sha256": "bd95a3a5d58b8c4a0cc259488b2f5cfa45e14bb5cbb7f0df5ae0a1e7bbaa267d"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_PROGRAM_DESIGN.md",
       "name": "RESEARCH_PROGRAM_DESIGN.md",
-      "version": "0.8",
-      "sha256": "d7a44bc7de2f8b1c17c2a60c7649b256a96260917121fa76c0d33f5d3992da53"
+      "version": "0.9",
+      "sha256": "3cd4ae4530d7103164a526ed4d4541ddb882cd77b25623fc071c045b802560b7"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/WEEK_ONE_RESEARCH_SPEC.md",
       "name": "WEEK_ONE_RESEARCH_SPEC.md",
-      "version": "1.2",
-      "sha256": "ab0483a80691f4fd68fc457bc5567a587f82753c85f7daac4bbd31ebf469729d"
+      "version": "1.3",
+      "sha256": "fc4f9be24f8838f2faca18e17918b54e09fd099bab6df8c9c88bdca228173f32"
     },
     {
       "repository_path": "CODEX_GOAL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CODEX_GOAL.md",
       "name": "CODEX_GOAL.md",
-      "version": "0.8",
-      "sha256": "99ee582daf4370cc67c6c79fcd0cc98504d75e8758d614977d2c7188034719ce"
+      "version": "0.9",
+      "sha256": "0406c25fa69c65918b4cbfce6d3fc6760a030411dabf4030fff6afeb766536cb"
     },
     {
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "1.2",
-      "sha256": "542b3d76ca5bbc939a90a2cb0166ddabd571fee4b487ce00e173c2cc528ea98e"
+      "version": "1.3",
+      "sha256": "49429a270361f6ffc215a4a98e9eaf546df71708f54a5d1d3145b132507b5fc0"
+    },
+    {
+      "repository_path": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/LLM_ECOSYSTEM_RESEARCH_MODULE.md",
+      "name": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
+      "version": "1.0",
+      "sha256": "60d39daf68a90fd80c6b9b4858aa380ff72fa01883832b9bba7acd8d7da004c1"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -126,9 +133,11 @@
     "roadmap": "RESEARCH_ROADMAP.md",
     "campaign_status": "prepared_not_activated",
     "organizing_unit": "end market × value-chain stage × operating archetype × geography × time",
-    "workstream_count": 7,
+    "workstream_count": 8,
     "ownership_scope": "Customer ownership/organization and adoption; separate retained robotics business-model, asset/control, and value-capture inquiry.",
-    "open_question_count": 31,
-    "customer_entry_scope": "Capital-funded AI-native operating newcos and platforms; operating-design, same-technology adoption-timing and conditional labor-capacity advantages; funding, demand, competition and build/acquire/hybrid comparisons."
+    "open_question_count": 41,
+    "customer_entry_scope": "Capital-funded AI-native operating newcos and platforms; operating-design, same-technology adoption-timing and conditional labor-capacity advantages; funding, demand, competition and build/acquire/hybrid comparisons.",
+    "digital_ecosystem_module": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
+    "digital_ecosystem_scope": "Substantial full-value-chain digital AI evidence; multivariate analogies; direct robot/site/enterprise/R&D contributions; moving baselines and joint digital/physical scenarios."
   }
 }

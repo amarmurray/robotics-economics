@@ -1,20 +1,22 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.8.
+Handoff ID: program-design-2026-10-25-v0.9.
 
 ## Accepted direction
 
 Amar rejected a narrow warehouse/carton-handling case as the first research step because its analytical level and implied purpose omitted the broader learning/control and economic-deployment questions. On 25 October 2026 he specified an end-market/value-chain program beginning with physical labor in the economy, qualitative deployment views, current and potential humanoid capabilities, improvement/scaling pathways, bottlenecks, and data aggregation.
 
-The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Amar subsequently clarified that ownership means the customer/adopter's ownership and organization: capital access/allocation, automation appetite, operating authority, implementation capacity, and value-chain position change adoption by end market and stage. He explicitly requested retaining the prior ownership analysis under a separate category. The design therefore has seven linked workstreams: F covers customer ownership/organization and adoption; G preserves robotics business models, asset/control/data rights, provider/operator/integrator/financier roles, vertical integration, and value capture. Incumbent, acquisition/holdco, and AI-native pathways remain customer development routes, with coexistence and feedback between structures and automation.
+The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Amar subsequently clarified that ownership means the customer/adopter's ownership and organization: capital access/allocation, automation appetite, operating authority, implementation capacity, and value-chain position change adoption by end market and stage. He explicitly requested retaining the prior ownership analysis under a separate category. That clarification established distinct inquiries: F covers customer ownership/organization and adoption; G preserves robotics business models, asset/control/data rights, provider/operator/integrator/financier roles, vertical integration, and value capture. Incumbent, acquisition/holdco, and AI-native pathways remain customer development routes, with coexistence and feedback between structures and automation.
 
-Amar further specified a customer-side AI-native newco thesis: raise capital and enter physical/industrial markets through differentiated deployment, faster adoption of accessible humanoids, or greater useful capacity than a constrained human labor base. Investigate market-share gains and incremental demand, fundraising/financing through ramp, and incumbent responses. Keep standalone newcos, platforms creating operating companies, acquisition-led transformation, and hybrid routes separate. Thrive Holdings is a sourced structural analogy; the proposed physical/industrial extension remains a hypothesis. Seven workstreams and the prior provider/asset/control/value-capture inquiry are preserved.
+Amar further specified a customer-side AI-native newco thesis: raise capital and enter physical/industrial markets through differentiated deployment, faster adoption of accessible humanoids, or greater useful capacity than a constrained human labor base. Investigate market-share gains and incremental demand, fundraising/financing through ramp, and incumbent responses. Keep standalone newcos, platforms creating operating companies, acquisition-led transformation, and hybrid routes separate. Thrive Holdings is a sourced structural analogy; the proposed physical/industrial extension remains a hypothesis. That addition preserved the prior customer and provider/asset/control/value-capture inquiries.
+
+Amar subsequently requested a large digital-AI ecosystem module covering the full value chain, development/scaling, deployment and overhang, historical/prospective economic effects, economic-role benchmarks, multi-agent coordination, lab/input/capital/customer competition and deploycos, and businesses built on or linked to labs. Workstream H now supplies both tested multivariate analogies and direct technical contributions, extending to site/enterprise/ERP/routing/scheduling and humanoid R&D. Digital-improved human/incumbent operations and joint digital/physical paths are explicit comparators. All earlier workstreams remain in place.
 
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
 ## Current preparation and execution status
 
-- Charter/design v0.8, campaign specification v1.2, and roadmap v1.2 include customer-side AI-native formation/funding/competition alongside the retained ownership and provider inquiries. The nine dashboard views now include entry, runway, build/acquire/hybrid, demand/share, and incumbent-response comparisons; the roadmap contains 31 open questions.
+- Charter/design v0.9, digital-AI module v1.0, campaign specification v1.3, and roadmap v1.3 define eight workstreams, eleven linked dashboard views, and 41 open questions. The substantial H module includes connected ecosystem/deployment dossiers, direct-contribution maps, benchmark/analogy cards, joint scenarios, and concrete implications for A–G; approximately one-third research attention is a revisable planning default.
 - `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
 - `CODEX_GOAL.md` is prepared activation text.
 - `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
@@ -33,7 +35,7 @@ Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`
 
 ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
+`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope, evidence methods, source seeds, and integration; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
 
 ## Superseded and preserved decisions
 
@@ -55,7 +57,7 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: Amar activating the prepared goal in the existing Codex project; then Codex executing the first campaign.**
 
-Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, and robotics business-model/value-capture comparisons.
+Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, robotics business-model/value-capture comparisons, and digital-ecosystem evidence/direct-contribution and joint-capability scenarios.
 
 One next research question: **Across which end-market/value-chain configurations do current and plausible future humanoid capabilities enable successive productive-deployment stages, and how do data/coordination effects, customer ownership/organization, and robotics commercial/asset/control arrangements interact to alter the preferred sequence?**
 
