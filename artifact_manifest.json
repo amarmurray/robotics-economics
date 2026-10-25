@@ -1,6 +1,6 @@
 {
-  "schema_version": 3,
-  "snapshot_id": "repo-access-verified-2026-09-06-v0.5",
+  "schema_version": 4,
+  "snapshot_id": "program-design-2026-10-25-v0.6",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -26,29 +26,29 @@
       "repository_path": "Robotics_Economics_Research_Charter.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/Robotics_Economics_Research_Charter.md",
       "name": "Robotics_Economics_Research_Charter.md",
-      "version": "0.5",
-      "sha256": "30eda1eea63143d1a927fa2db36df7b93154079e86965d42eacb74b9e7a139e7"
+      "version": "0.6",
+      "sha256": "bd3138f63209931df29a9e8678842cd60095d5002109bd54d298295da8179f2f"
     },
     {
       "repository_path": "AGENTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/AGENTS.md",
       "name": "AGENTS.md",
-      "version": "repo-session-2026-09-06-v0.5",
-      "sha256": "2c80f1715168d0eed1a0ded37a1e7eaa9a15e67960d7d2558146316f7b9b4503"
+      "version": "program-design-2026-10-25-v0.6",
+      "sha256": "36a15babcf22402d19837c49f18745c3fb57d73e441b938c0c7b0a4db4822204"
     },
     {
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "repo-access-verified-2026-09-06-v0.5",
-      "sha256": "bdbca3139ea8bff82f509c9abbcacdc87f0cc4a504c45dcb7d582d2ea7b65fda"
+      "version": "program-design-2026-10-25-v0.6",
+      "sha256": "afc17cad67655c7c0ffb555a50a4f5ea5560d24401b99166381cade5c3ddb0e5"
     },
     {
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "repo-access-verified-2026-09-06-v0.5",
-      "sha256": "a4434f57277e7efff97a1c4b5fca87ba68576262e99749ff782fa187ac34b3df"
+      "version": "program-design-2026-10-25-v0.6",
+      "sha256": "1f0f520b38e9248b70e039f5d1568928ae270326deeb09edf3d49de310f14a8e"
     },
     {
       "repository_path": "SYNC_AUTOMATION.md",
@@ -61,8 +61,36 @@
       "repository_path": "CHATGPT_PROJECT_INSTRUCTIONS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CHATGPT_PROJECT_INSTRUCTIONS.md",
       "name": "CHATGPT_PROJECT_INSTRUCTIONS.md",
-      "version": "repo-session-2026-09-06-v0.5",
-      "sha256": "6501d755404199d66f1f20498513108d78f895413ab82786406099536850babd"
+      "version": "program-design-2026-10-25-v0.6",
+      "sha256": "b62437f07e340fd1f67d1a8c34b36b51d9a4789818c2450d37d095daf8dcf46c"
+    },
+    {
+      "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_PROGRAM_DESIGN.md",
+      "name": "RESEARCH_PROGRAM_DESIGN.md",
+      "version": "0.6",
+      "sha256": "fc97a76af85636ee8499effd0f0a3c4a443ba62d3d18db88e3506dad3f0ba621"
+    },
+    {
+      "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/WEEK_ONE_RESEARCH_SPEC.md",
+      "name": "WEEK_ONE_RESEARCH_SPEC.md",
+      "version": "1.0",
+      "sha256": "1e1e98efbdcebfcf194cf526724ed37c9290bf62a55c5d214d049d6d104dcda9"
+    },
+    {
+      "repository_path": "CODEX_GOAL.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CODEX_GOAL.md",
+      "name": "CODEX_GOAL.md",
+      "version": "0.6",
+      "sha256": "2724823c263d806a195e480a9a6390de926ae5043ecbcfe7162c58524715d4d7"
+    },
+    {
+      "repository_path": "RESEARCH_ROADMAP.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
+      "name": "RESEARCH_ROADMAP.md",
+      "version": "1.0",
+      "sha256": "e7f197eb7469bd9cd71ac4eb1a3c7961d3859e07c1eb39630b869faecf210fb2"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -90,5 +118,13 @@
     "name": "Sync robotics economics",
     "status": "PAUSED",
     "role": "Superseded by per-session repository review."
+  },
+  "program": {
+    "design": "RESEARCH_PROGRAM_DESIGN.md",
+    "campaign_spec": "WEEK_ONE_RESEARCH_SPEC.md",
+    "goal": "CODEX_GOAL.md",
+    "roadmap": "RESEARCH_ROADMAP.md",
+    "campaign_status": "prepared_not_activated",
+    "organizing_unit": "end market × value-chain stage × operating archetype × geography × time"
   }
 }

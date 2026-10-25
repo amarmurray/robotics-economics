@@ -1,24 +1,42 @@
-# robotics economics
+# Robotics economics
 
-Paired Codex and ChatGPT Work research using a shared private GitHub repository.
+Research on physical labor, staged humanoid deployment, learning/control, physical-digital coordination, and the organization of production.
 
-- Shared accepted source: https://github.com/amarmurray/robotics-economics, branch `main`.
+## Current direction
+
+Charter **v0.6, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
+
+The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, and where incumbent adoption, holdco transformation, or AI-native newcos are advantaged or coexist.
+
+## Read and launch
+
+| File | Role |
+| --- | --- |
+| `Robotics_Economics_Research_Charter.md` | Accepted charter, evidence/accounting principles, and project continuity |
+| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, six workstreams, and revisable defaults |
+| `WEEK_ONE_RESEARCH_SPEC.md` | Seven-day campaign deliverables, model/dashboard requirements, and acceptance criteria |
+| `CODEX_GOAL.md` | Ready-to-paste `/goal` for activation in the existing Codex project |
+| `RESEARCH_ROADMAP.md` | Stable research questions, dependencies, completion criteria, and follow-on work |
+| `HANDOFF.md` | Current accepted state, preparation/execution status, and next owner/action |
+| `AGENTS.md` | Agent scope, source discipline, and publication workflow |
+| `artifact_manifest.json` | Registered source paths, versions, and content hashes |
+| `SYNC_AUTOMATION.md` | Session-start repository context and publication protocol |
+| `CHATGPT_PROJECT_INSTRUCTIONS.md` | Saved app instructions; presence does not prove live settings were updated |
+
+**Status: design and campaign handoff prepared; seven-day execution not started here.** The first campaign's report, dashboard, datasets, and model are future deliverables. Read `CODEX_GOAL.md` in the Codex project and activate it when ready. The window starts at actual activation, not at the date of this file.
+
+## Shared project locations
+
+- Shared accepted source: https://github.com/amarmurray/robotics-economics, private, branch `main`.
 - Canonical local working copy: `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`.
 - Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`.
-- ChatGPT Work project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
-- Charter: `Robotics_Economics_Research_Charter.md`, version 0.5, 6 September 2026.
-- Current research state and next action: `HANDOFF.md`.
-- Registered artifact paths, versions, and hashes: `artifact_manifest.json`.
-- Session-start and publication workflow: `SYNC_AUTOMATION.md`.
-- Saved ChatGPT project settings text: `CHATGPT_PROJECT_INSTRUCTIONS.md`.
-- Local operational verification: `sync_receipt.json`, excluded from the shared research state.
+- ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
+- Local operational receipt: `sync_receipt.json`, excluded from shared research artifacts.
 
-The shared artifact set contains the charter, `AGENTS.md`, this README, `HANDOFF.md`, `SYNC_AUTOMATION.md`, `CHATGPT_PROJECT_INSTRUCTIONS.md`, and the artifact manifest. The saved settings text records intended project instructions; its presence in Git does not itself prove that the app settings were updated.
+At each Work session start, resolve current remote `main` and read required files at that exact commit. Identify the revision used. Unpushed local changes and old uploaded sources are not the current shared state. A repository publication does not itself establish that another session has read it.
 
-At the start of each Work session, resolve the current remote `main` HEAD and read the charter, handoff, manifest, and required files at that exact commit SHA. Report the SHA used and any access failure. This avoids treating an older uploaded source or remembered context as current. GitHub authorization must cover this personal private repository; CLI access alone does not establish access through Work's connector.
+After substantive authorized work, validate, update accepted artifacts/handoff/manifest, make a scoped commit, and publish normally while preserving unrelated changes and divergence. Work proposals remain in task output unless repository writing is authorized. Do not force-push or silently merge conflicting work.
 
-Each substantive authorized Codex task ends with validation, accepted artifact and handoff updates, refreshed manifest hashes, a scoped commit, and a normal push. Unaccepted Work findings return as proposals for reconciliation. Work leaves proposals in task output unless a repository write is explicitly authorized. Publication and observed Work consumption are separate events recorded by commit SHA.
+The former hourly **Sync robotics economics** automation remains paused. The finite research goal is separate from that legacy job. No background transcript sharing, hourly source uploads, or automatic polling is implied.
 
-The earlier uploaded project sources, prepared Documents/Codex output folder, and original Documents charter are historical snapshots. Routine exchange now uses the repository, with no separate source-upload chores. The previous hourly Sync robotics economics automation is PAUSED; there is no periodic polling. Existing task context and transcripts do not update automatically.
-
-The research roadmap is context. Models, datasets, and implementation work begin with the next requested research task. Repository publication and GitHub connector access are verified; consult `HANDOFF.md` and the operational receipt for the exact checks. Each Work session reads the current repository commit for its own context.
+The separate `robotics-vp/robotics-vp-core` implementation repository can inform research questions. This program does not authorize changes to its controllers, training, rewards, or hardware execution.

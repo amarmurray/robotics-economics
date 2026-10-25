@@ -1,21 +1,27 @@
 # Robotics Economics: Research Charter
 
-Version 0.5 · 6 September 2026 · Amar Murray
+Version 0.6 · 25 October 2026 · Amar Murray
 
-This charter establishes a paired Codex and ChatGPT Work research workspace and a first sequence of work. It incorporates deployment economics, fleet learning, market penetration, end markets, provider competition, product generations, and supply chains. Version 0.5 makes the private robotics-economics repository the shared accepted source and uses repository review at the start of each Work session. It retains the research framework and sourced provider reference set from earlier versions. It contains research specifications and selected evidence, rather than a calibrated market forecast. Both app projects and the private repository have been created; actual publication and Work access are tracked separately in the handoff and local operational receipt. Standalone datasets, financial models, and the interactive interface remain planned work. The roadmap supplies context; work begins from the user's current request.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.6 adopts Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+
+This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
 ## Purpose and decisions
 
-Develop the judgment, evidence base, and working models needed for strategy, strategic finance, deployment economics, and fleet monetization at a robotics company.
+Develop the understanding, evidence base, and working models needed to shape strategy and staged deployment at a humanoid robotics company.
 
-The central question is: **Which deployments should happen, in which sequence, on what commercial terms, and how should their cash generation and learning alter subsequent deployment choices?**
+The central question is: **Where, how, and in what sequence can humanoids and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
 
-The program connects four decisions:
+The program connects six research decisions:
 
-1. Where customer demand and provider economics support deployment today.
-2. Which deployments improve capabilities or information relevant to future markets.
-3. Which capital, organizational, and supply constraints determine the feasible pace of expansion.
-4. Where value accrues across customers, robot providers, integrators, service networks, and suppliers.
+1. Map physical labor, productive processes, and operating heterogeneity across end markets and value-chain stages.
+2. Relate current provider/system capabilities and research progress to conditional improvement and scaling pathways.
+3. Develop staged penetration waterfalls and deployment portfolios under shared supply, integration, service, supervision, and financing constraints.
+4. Examine data aggregation, transfer, learning, evidence acquisition, and control, including how deployments affect subsequent capability.
+5. Study productive coordination among physical robots, digital agents, people, and infrastructure.
+6. Compare incumbent adoption, holdco acquisition/transformation, and AI-native newcos, including coexistence and role specialization across value chains.
+
+Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
 ## Paired Codex and ChatGPT Work workspace
 
@@ -34,12 +40,12 @@ Keep this research program in `amarmurray/robotics-economics`. For implementatio
 | Existing Ixion Git repository, after scoped review | Implementation assigned to it through an explicit artifact migration or integration decision |
 | CSV tables initially | Inspectable end-market, provider, robot-version, deployment, capability, evidence, transfer, and supply records |
 | Python and notebooks | Scenario calculations, adoption dynamics, sensitivity analysis, and later stochastic models |
-| Excel | Transparent first cash-flow model; finance-facing review and presentation of scenarios |
-| Interactive interface, after the first case | Explore end markets, customer workflows, provider positioning, robot generations, adoption waterfalls, transfer paths, and supply constraints |
+| Excel, when useful | Optional transparent review/export surface reconciled to the authoritative calculation engine |
+| Interactive dashboard in the first research campaign | Explore end markets, value chains, capabilities, staged penetration, physical-digital coordination, data/transfer, and ownership scenarios from the same evidence and model |
 
-Begin the financial model in Excel for inspection. When dynamic simulation moves into Python, reconcile the two on fixed cases and make one engine authoritative. Changes made in a review workbook must be deliberately incorporated into that engine. Multiple models or agents should work from explicit file versions and handoffs, with one writer per file at a time.
+Use one transparent, versioned calculation engine for report figures, dashboard views, and exports. Select a lightweight CPU implementation appropriate to the question. A workbook is optional and must reconcile to the same engine if produced. Multiple agents work from explicit versions and handoffs, with one writer per file at a time.
 
-Use public sources and clearly labeled synthetic cases for this personal program. Its first stages fit the existing CPU-only, docs-first plan and do not depend on new hardware or GPU training.
+Use public sources and clearly labeled scenarios for this personal program. Evidence-led research, CPU models, and a local interactive dashboard are in scope. New hardware or GPU training is not required to investigate broader deployment and learning questions.
 
 ### Repository exchange and dialogue
 
@@ -55,37 +61,43 @@ The earlier hourly Sync robotics economics automation is PAUSED. There is no per
 
 ## Relationship to existing Ixion work
 
-The repository's June 2026 deployment-economics reorientation specifies deterministic, typed, additive, CPU-only work with reproducible receipts and explicit unavailable states. It places humanoid hardware unlikely before 2028. This is the relevant planning constraint; the older README contains earlier training and hardware dates.
+The separately scoped Ixion repository's June 2026 deployment-economics reorientation describes a deterministic, typed, additive, CPU-only implementation posture with reproducible receipts and explicit unavailable states. Its hardware calendar is a dated project-planning assumption, not a robotics-market forecast or a restriction on this research program's intellectual scope. This research may analyze hardware, training economics, and fleet architectures without authorizing their execution or purchases.
 
-A limited read of current files found:
+A limited read at the cited June 2026 implementation snapshot found:
 
 - `src/deployment/task_economics.py`: normalized task and resource-pressure inputs for evidence-source routing. These scores are distinct from currency-denominated commercial cash flows.
 - `src/economics/pricing.py`: pricing functions that impose a human-wage benchmark cap. The new research should treat that cap as an explicit contract assumption and examine when its denominator and outside option are appropriate.
 - `src/economics/data_value.py`: an estimator relating novelty features to productivity changes. Its existence does not establish empirical learning value or transfer between real deployments. The current near-term program does not call for training it.
 
-These are reuse candidates and conceptual antecedents. A full implementation audit has not been performed. Commercial modeling should make its units, evidence, and accounting boundaries explicit and preserve the existing frozen control and reward baseline.
+These are reuse candidates and conceptual antecedents. A full implementation audit has not been performed. Research models should make their units, evidence, and accounting boundaries explicit and may compare alternative control and coordination arrangements. Any later separately authorized integration into Ixion must review and preserve its applicable frozen control/reward boundaries unless that task explicitly authorizes a change.
 
-## Unit of analysis: a deployment opportunity
+## Unit of analysis: end markets and value chains
 
-The principal demand record is an **end market × value-chain stage × task bundle × site archetype × geography × time period**. A modeled deployment joins that opportunity to a **provider × robot configuration × software/autonomy version × integration arrangement × contract**. This permits the same customer opportunity to be evaluated under multiple competing solutions while preserving its identity and denominator.
+The principal analytical cell is **end market × value-chain stage × operating archetype × geography × time**. Begin with the distribution and organization of physical labor and its supporting digital processes. Investigate which configurations of humanoids, other machines, software agents, people, and infrastructure can change those processes over successive deployment stages.
 
-An industry label alone is too coarse for the operating decisions. For example, logistics contains receiving, storage, replenishment, picking, packing, and shipping, each containing tasks with different workflow dependencies. A task bundle should include the supporting work required to produce the customer outcome, including loading, recovery, inspection, and handoffs where relevant.
+Use the hierarchy economy → end market → value chain → productive process/operating archetype → work and capability requirements → candidate systems and organizational arrangements. Tasks and task bundles supply supporting mechanisms; a single task is not the program's entry gate.
 
-Define output as accepted units of useful work at a stated service level. Distinguish attempted tasks, successful tasks, billed activity, robot-hours, and human-hours actually removed from a roster. Count complementary tasks separately while preventing their simultaneous inclusion as substitute deployments or duplicated labor savings.
+Detailed deployment records may additionally identify task bundles, site cohorts, providers, robot configurations, software/autonomy versions, integration arrangements, and contracts. Preserve a stable identity for the underlying activity when several systems or organizational routes compete to serve it.
+
+Keep labor headcounts, annual hours, physical-work shares, compensation, accepted output, robot-hours, and removed payroll distinct. Show evidence and assumptions for conversions. Task descriptions or importance/frequency ratings do not establish time shares. Keep measured employment coverage separate from scenario estimates of physical-work hours.
+
+Allocate outsourced and shared work consistently. A facility's operating industry and its customer's served end market are different views of the same activity, not independent labor pools. Preserve workflow dependencies, complementary tasks, and the demand constraints that determine whether improved capability increases useful output.
 
 ## The connected analytical map
 
 | Layer | Questions and records | Main output |
 | --- | --- | --- |
-| End markets and customer value chains | Who performs each process, who buys, what outcome matters, what is the present alternative? | Market and workflow map |
+| Physical labor, end markets, and value chains | Where is physical work organized, who performs it, which outputs and digital processes matter, and where do operating archetypes differ? | Economic atlas, labor crosswalks, and process maps |
 | Providers, products, and competitive position | Which companies and specific systems can serve each task, on what evidence, economics, commercial terms, and delivery capacity? | Versioned provider map and task-specific competitive comparisons |
 | Deployment economics | What are the customer and provider cash flows at equal output and service quality? | Price feasibility, contribution, payback and NPV by scenario |
 | Adoption and penetration | Which technically possible deployments become economical, operationally ready, funded, and actually installed? | Dated penetration waterfall and installed-base scenarios |
 | Learning and task transfer | Which capabilities could improve, where could they transfer, and who captures the resulting gains? | Directed transfer hypotheses and incremental cash-flow effects |
 | Robot supply chain | Which components, manufacturing capacity, integration crews, service resources, and financing constrain expansion? | Supply relationships, bottleneck scenarios and value-capture map |
-| Interpretation | What changed, which conclusions follow, which are uncertain, and what decision should change? | Short research and decision memos |
+| Physical-digital fleets and control | How do robots, software agents, people, and infrastructure allocate work and shared resources? | Coordination archetypes and mechanism models |
+| Ownership and competitive structure | When do incumbent adoption, holdco transformation, or AI-native newcos create and capture value; how can they coexist? | Market-stage pathway comparisons |
+| Interpretation | What changed, which conclusions follow, which are uncertain, and what deployment decision should change? | Integrated report, interactive dashboard, and decision memos |
 
-Maintain three equally developed maps: **end markets**, **customer deployment value chains**, and **providers and their ecosystems**. The provider map includes the supply chain that manufactures, integrates, finances, and supports each system. Link all three through the particular task and deployment opportunity. Each map must support both factual description and changes to model inputs and conclusions.
+Maintain connected maps of **physical labor/end markets**, **productive value chains**, and **providers and their ecosystems**, with ownership, data, and coordination relationships. End markets and value-chain stages organize the synthesis; provider and task detail explain the mechanisms. Link them through common activity and cohort identities. Each map must support factual description and traceable changes to model inputs and conclusions.
 
 ## Provider market map and economic connections
 
@@ -120,9 +132,9 @@ A commercial deployment cohort is not necessarily a hardware generation. When a 
 
 For every modeled task, specify the physical envelope and workload: object distribution, payload at the relevant posture, reach, grasp, travel path, surfaces, workstation geometry, handoffs, and quality standard. Then distinguish nominal specifications from accepted throughput, intervention frequency and duration, charging and maintenance downtime, recovery behavior, and deployment effort. State whether performance is autonomous, teleoperated, assisted, or under undisclosed control. Missing performance metrics remain uncalibrated.
 
-### Initial provider and robot reference set
+### Historical seed provider and robot reference set
 
-These are research anchors selected for this program. The sources below were reviewed on 5 September 2026. This is a bounded starting set, not a complete survey or a claim that every deployment announcement remains current.
+The following references were assembled for charter v0.5 and reviewed on 5 September 2026. They are retained as a historical seed set, not a required provider shortlist, current capability census, or committed personal hardware choice. Refresh each claim, expand provider coverage from the market map, and preserve superseded versions before using these sources in the first campaign.
 
 | Provider | Initial reference and role | Deployment and capability evidence | Modeling treatment |
 | --- | --- | --- | --- |
@@ -131,7 +143,7 @@ These are research anchors selected for this program. The sources below were rev
 | Boston Dynamics | **2026 production version of electric Atlas** as the industrial comparison; keep the earlier electric prototype in a separate historical record | The January 2026 launch describes planned shipments to Hyundai's RMAC and Google DeepMind. The product page separately describes Hyundai sequencing field tests. [Production-version announcement](https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/); [Atlas product and deployment history](https://bostondynamics.com/products/atlas/) | Automotive sequencing/material handling is an initial research focus. Preserve pilot evidence and announced production-version shipments as distinct events; do not automatically attribute earlier test results to the new configuration. |
 | Apptronik | **Apollo used in reported 2025 pilots**, plus separate **Apollo 2 bipedal** and **Apollo 2 wheeled** references for later detailed coverage | Mercedes-Benz describes intralogistics testing and teleoperated data collection. Apptronik describes a Jabil manufacturing/pilot relationship. Its current Apollo 2 page identifies both mobility configurations. [Mercedes-Benz testing](https://group.mercedes-benz.com/company/production/production-network/mbdfc-humanoid-robots.html); [Jabil collaboration](https://apptronik.com/news-collection/apptronik-and-jabil-collaborate-to-scale-production); [Apollo 2](https://apptronik.com/apollo/apollo-2) | Track automotive and manufacturing tasks, production learning, and manufacturing scale-up. Do not carry Apollo pilot results into Apollo 2 by default. Apollo 2 introduction date and task-specific performance require further evidence. |
 
-Unitree remains the initial personal platform reference; the commercial reference is selected separately for each task. The research fits the current docs-first, CPU-only plan. Further Unitree models and other vendors enter as separately identified records when they answer a concrete task or market question.
+No personal platform is selected by the revised research design. Add provider/system records when they matter to end-market deployment pathways or capability research, including relevant non-humanoid alternatives. The historical references above do not limit coverage.
 
 Agility subsequently reported more than 100,000 totes moved at GXO's Flowery Branch facility. This provides a vendor-reported cumulative activity observation. It does not, on its own, identify robot-hours, fleet size, intervention burden, sustained units per hour, or returns. [Agility's activity update](https://www.agilityrobotics.com/content/digit-moves-over-100k-totes)
 
@@ -157,25 +169,19 @@ Store deployment phase and evidence provenance separately. Useful phases include
 
 At each update, retain the old view, add the dated evidence, identify the applicable product/task/site population, and propose any changed assumptions. Rerun only affected cases, then record changes to feasibility, price boundaries, adoption, provider share, capital needs, and learning hypotheses. Preserve contradictory observations for review. New announcements trigger review rather than automatically becoming forecast inputs.
 
-The eventual interactive view should allow movement from **end market → workflow → task → competing provider/system versions**, and back from **provider → deployments → customer markets → suppliers and learning opportunities**. An as-of-date selector and scenario comparison should show both the changing evidence and its modeled consequences.
+The first-campaign dashboard starts with **end markets → value-chain stages → operating configurations and deployment pathways**, with drill-down into tasks, provider/system versions, evidence, coordination, and ownership. Reverse views connect providers to deployments, markets, suppliers, and learning opportunities. As-of-date and scenario controls show the evidence and modeled consequences. The complete interaction and validation specification is in `WEEK_ONE_RESEARCH_SPEC.md`.
 
-## Penetration waterfall
+## Staged penetration and deployment capacity
 
-Start each waterfall with a consistent denominator: eligible sites, task volume, or task-hours in a defined geography and period. Do not mix them or convert total industry revenue directly into robot revenue.
+Model penetration by end-market/value-chain cohort, operating configuration, system version, geography, and period. Develop qualitative stage views before supplying unsupported numbers. The first framework links relevant physical work → capability-compatible work → feasible production configurations → economically attractive configurations → ready demand → deliverable capacity → installed and retained productive capacity → realized useful output and labor effects.
 
-| Stage | Gate to quantify |
-| --- | --- |
-| Total relevant activity | Distinct sites and task volume; current installed automation and remaining baseline |
-| Task-addressable activity | Task bundles and environments covered by the specified solution |
-| Technically feasible activity | Throughput, quality, reliability, physical fit and required human assistance |
-| Economically attractive activity | Customer benefits and provider returns at explicit prices and terms |
-| Operationally and institutionally ready demand | Integration fit, process redesign, procurement, buyer budget, training and acceptance |
-| Deliverable deployments | Hardware supply, deployment slots, service headroom and financing available in the period |
-| Installed and retained deployments | Actual starts, ramp-up, utilization, failures, exits, replacements and expansions |
+Maintain one denominator within each waterfall panel. Link hours, sites, robots, output, and currency through explicit conversion tables rather than subtracting unlike units. Gates are conditional on preceding eligibility, and dependence among physical difficulty, reliability, integration, and economics must remain visible.
 
-Estimate gates for matched cohorts. Sequential percentages are conditional on the previous stage; they are not independent probabilities. Preserve the relationship between difficult environments, low reliability, integration cost, and adoption instead of applying unrelated aggregate haircuts.
+Pair the waterfall with deployment-stage scenarios ranging from bounded assisted operation to integrated fleets and coordinated physical-digital processes. These stages are not a universal mandatory ladder. Explain the capability, organizational, and resource conditions needed for each transition, including possible delays or regressions.
 
-Keep an installed-base stock and a flow of new deployments. Incremental installations are bounded by ready unserved demand, hardware availability converted into deployment capacity, integration capacity, support headroom, and deployable capital. Track retirements and replacements separately so cumulative shipments are not mistaken for an active fleet.
+Keep active capacity as a stock with new deployment, ramp, retirement, replacement, and retention flows. Allocate shared hardware, integration teams, service headroom, supervision, and financing across markets. Track useful output separately from machines shipped or installed. Model demand expansion and new services separately from substitution of the baseline labor pool.
+
+Capability-improvement relationships, learning transfer, coordination effectiveness, buyer readiness, and ownership pathway are separate scenario inputs. An improvement affects only the populations and compatible system versions justified by evidence or an explicitly labeled assumption. See `RESEARCH_PROGRAM_DESIGN.md` and `WEEK_ONE_RESEARCH_SPEC.md` for the detailed contracts.
 
 ## Cash generation and learning value
 
@@ -193,9 +199,9 @@ Use three scenario families: no transfer, limited transfer within related tasks,
 
 The clean overall comparison is the discounted value of a deployment policy with the proposed learning opportunity versus an otherwise comparable policy without it, including all incremental costs. If learning already changes future cash flows in that comparison, do not add a separate data-value premium to the same result. Do not count the same learning benefit separately for every contributing deployment.
 
-## First cash-flow model
+## Deployment-level economic module
 
-Specify one site, one task bundle, an operating horizon, and comparable output and service quality under manual and robot-assisted operation.
+Use this module when it explains an end-market deployment conclusion. It is not a prerequisite for economy-wide mapping, learning/control research, or the first dashboard. Specify the relevant cohort or site, process configuration, horizon, and comparable output/service quality under the baseline and robot-assisted operation.
 
 For each period:
 
@@ -206,9 +212,9 @@ For each period:
 
 Customer operating savings are `B_t - A_t - P_t`. Provider operating cash contribution is `P_t - O_t`. Place one-time integration and hardware investments at their actual dates, then calculate each party's NPV with separately stated required returns, taxes or other included cash-flow items, and residual-value assumptions. Avoid subtracting depreciation as a cash outflow after already counting capex.
 
-The first question is whether a price interval exists that satisfies both parties' requirements. Use actually avoidable customer costs; redeployed time and removed payroll are distinct outcomes. Demand and utilization should be consistent with the modeled process bottleneck. Added capacity creates value only under an explicit demand and monetization assumption.
+For a specified commercial configuration, test whether a price interval exists that satisfies both parties' requirements. Use actually avoidable customer costs; redeployed time and removed payroll are distinct outcomes. Demand and utilization should be consistent with the modeled process bottleneck. Added capacity creates value only under an explicit demand and monetization assumption.
 
-The first model should show sensitivities to technical availability, useful throughput, intervention demand, integration cost, useful life, price, and actually avoided human staffing. All numerical inputs begin as unfilled or explicitly illustrative until sourced.
+The economic module should show sensitivities to technical availability, useful throughput, intervention demand, integration cost, useful life, price, and actually avoided human staffing. All numerical inputs begin as unfilled or explicitly illustrative until sourced.
 
 ## Minimum research records
 
@@ -216,7 +222,9 @@ Start with inspectable tables. Add a database only when relationships and update
 
 | Record | Required content |
 | --- | --- |
-| Opportunity | Stable ID; end market; value-chain stage; task bundle; site archetype; geography; denominator; base period |
+| Market-stage cell | Stable ID; end market; value-chain stage; operating archetype; geography; time; denominator and coverage status |
+| Labor/activity allocation | Source industry/occupation identity and vintage; employment, hours, physical-work-share assumptions, weights, units, uncertainty, and unallocated share |
+| Opportunity | Stable ID linked to the market-stage cell; detailed process/task bundle where needed; system/organization configuration; site cohort; base period |
 | Organization and roles | Stable organization ID; provider, customer, operator, integrator, supplier, software developer, financier, and asset-owner roles; dated relationships |
 | System version | Stable system ID; provider ID; model; hardware revision; configuration; end effector; autonomy/software provider and version; dates; predecessor; upgrade compatibility; unknown fields |
 | Capability observation | System ID; task ID; environment and workload; control mode; metric; value and unit; measurement window; assistance and setup conditions; linked evidence |
@@ -227,6 +235,9 @@ Start with inspectable tables. Add a database only when relationships and update
 | Scenario | Opportunity and system-version IDs; model version; linked evidence IDs; input assumptions; contract; integration arrangement; horizon; capital policy; competitor response |
 | Transfer relationship | Source and destination task/system IDs; data access and reuse rights; hypothesized shared capability; training and validation costs; expected operational effect; beneficiary; uncertainty; evidence and validation status |
 | Supply relationship | Supplier or resource category; customer/component relationship; substitute options; quantity per deployment; capacity or lead-time assumption; source and date |
+| Coordination configuration | Physical/digital agents; human support; process dependencies; decision authority; shared resources; control assumptions; measured versus proposed effects |
+| Ownership/pathway | Incumbent, acquisition/holdco, or newco route; asset, model, customer, data/learning rights; contracts; capital/transition assumptions; coexistence links |
+| Research question | Stable ID; decision relevance; current state; evidence/method; dependencies; disconfirming evidence; next action and completion criterion |
 | Interpretation and change | Previous view; new evidence; changed assumptions; affected scenarios; resulting ranking or timing changes; unresolved questions |
 
 Use evidence classes such as observed result, vendor-reported claim, sourced estimate, engineering assumption, and synthetic example. Attach evidence to particular claims and parameters. A reported pilot, order, shipment, and production deployment represent different observations.
@@ -247,27 +258,31 @@ Use focused tasks across both projects for distinct outcomes: end-market and wor
 
 New evidence should trigger a dependency review. For example, a supported reduction in intervention minutes changes the support-cost assumption, which may change the viable price interval, then eligible customer cohorts, then the adoption scenario, and finally component demand and financing needs. If the evidence only covers one task or environment, propagate it only there.
 
-The learning method is active: Amar predicts important directions and tradeoffs before inspecting a scenario, explains why the results follow, and defends the conclusions in a short memo. Mathematical concepts enter as the decisions require them: cost accounting and cash flows first; constrained optimization, queueing, learning curves, causal inference, and value of information as the corresponding mechanisms enter the model.
+The learning method is active: Amar predicts important directions and tradeoffs before inspecting a scenario, explains why the results follow, and defends the conclusions in a short memo. Mathematical concepts enter as the decisions require them: accounting, constrained optimization, queueing, learning response models, causal inference, and value of information. There is no fixed requirement that a cash-flow exercise precede learning, control, or coordination questions.
 
-## First complete case
+## First seven-day research campaign
 
-Proposed starting scope: a warehouse material-flow value chain, with a narrow carton or tote-handling task selected for the first deployment model. This is a modeling choice, not a claim that it is the most attractive market.
+Execute the program-level first edition defined in `WEEK_ONE_RESEARCH_SPEC.md` when Amar activates `CODEX_GOAL.md` in the Codex project. Record the actual start, a deadline 168 hours later, resource/runtime interruptions, and input repository revision. The goal has not been started merely because these documents exist.
 
-Produce a connected case containing:
+The first edition contains:
 
-1. A value-chain map and five to ten candidate task bundles, with consistent opportunity IDs.
-2. A provider-by-task comparison for Unitree G1 EDU, the Digit commercial reference, and electric Atlas; Apollo/Apollo 2 initially enter as separate coverage candidates. Include the current process and relevant alternative automation. Mark missing evidence explicitly; do not invent comparable performance scores.
-3. One operating and cash-flow model comparing the current process and specified robot-assisted scenarios, beginning with the best-supported task reference and labeled sensitivity cases.
-4. An adoption waterfall for the defined site cohort with sourced inputs, labeled gaps, and explicit provider allocation assumptions.
-5. A small transfer map containing two or three explicit hypotheses to adjacent tasks and system versions, including a no-transfer case.
-6. A supply and integration constraint scenario showing what could limit provider rollout.
-7. A two-page interpretation: deployment conditions, price boundaries, provider positioning, capital needs, highest-value missing evidence, and conditions that would change the recommendation.
+1. A broad end-market and value-chain map of physical labor, with coverage and accounting boundaries explicit.
+2. A current provider/system capability map and evidence-contingent progress/scaling scenarios.
+3. Qualitative deployment theses and staged penetration models for a contrasting set of market-stage cohorts.
+4. Substantive analyses of data aggregation, learning/control, physical-digital fleet coordination, and shared rollout constraints.
+5. Market-stage comparisons of incumbent adoption, holdco transformation, and AI-native newcos, including coexistence.
+6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model.
+7. Reproduction instructions, an acceptance audit, and a ranked roadmap of unresolved questions and follow-on research.
 
-Broaden to a second end market after this case can be rerun and explained. Compare which primitives generalize and which assumptions need to change. Build a private interactive view once the underlying definitions and first calculations are stable enough to make its controls meaningful.
+Continue substantive work through the research window, using checkpoints and priority questions to deepen the edition. Do not confuse seven named stages with a week of elapsed execution, invent research performed during a pause, or manufacture inputs to complete a visual. At the deadline publish the strongest verified edition and clearly identify incomplete requirements.
 
-An appropriate sustainable default is one substantive session each week, with optional short reading or question-capture sessions. Progress is measured in completed, reproducible cases and improved judgment. Several strong cases over time can become a portfolio demonstrating market interpretation, commercial modeling, and deployment decision-making.
+The warehouse/carton-handling case is no longer the required starting point. Specific cases are selected later according to how they explain important market-stage mechanisms. The broader program can continue for months as capabilities, evidence, and data access evolve; the first campaign does not exhaust it.
 
-## Completion standard for a research case
+## Completion standards
+
+The program-level first-week acceptance criteria are authoritative in `WEEK_ONE_RESEARCH_SPEC.md`. They require substantive breadth, traceable evidence, coherent scenarios, functioning dashboard controls, matched report outputs, and an explicit continuing roadmap. A missing parameter may limit a quantitative conclusion; it does not justify silently narrowing the program to a single task.
+
+For later detailed deployment cases:
 
 - The question, boundary, units, baseline, and decision are explicit.
 - Important inputs can be traced to evidence or a labeled assumption.
@@ -292,6 +307,8 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.6 — 25 October 2026:** Adopted Amar's end-market/value-chain organizing level and strategy/deployment objective. Replaced warehouse-first, mandatory Excel-first, and delayed-dashboard sequencing with a prepared seven-day research campaign and continuing roadmap. Added capability/scaling, learning/control/data aggregation, physical-digital fleet coordination, and competing ownership/coexistence pathways. Preserved evidence, accounting, versioning, and separate Ixion scope.
 
 - **0.5 — 6 September 2026:** Adopted the private amarmurray/robotics-economics repository and main branch as the shared accepted source. Replaced hourly uploads with repository review at each Work session's start, commit-pinned reads, and scoped commit/push publication after substantive authorized Codex tasks. Paused the earlier hourly automation; preserved explicit proposal review, access verification, and the separate Ixion implementation boundary.
 

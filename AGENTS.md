@@ -1,10 +1,14 @@
 # robotics economics
 
-Version: repo-session-2026-09-06-v0.5.
+Version: program-design-2026-10-25-v0.6.
 
 The shared accepted source is the `main` branch of the private repository https://github.com/amarmurray/robotics-economics. The canonical local working copy is `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`, paired with the ChatGPT Work project https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-Start by reading `HANDOFF.md`, `artifact_manifest.json`, and the relevant parts of `Robotics_Economics_Research_Charter.md`. Use the charter as research context and execute the user's current request. Its roadmap does not initiate all listed work.
+Start by reading `HANDOFF.md`, `artifact_manifest.json`, `Robotics_Economics_Research_Charter.md`, and the relevant current design files. `RESEARCH_PROGRAM_DESIGN.md` governs intellectual scope; `WEEK_ONE_RESEARCH_SPEC.md` governs the first campaign's outputs and acceptance; `CODEX_GOAL.md` is prepared launch text; `RESEARCH_ROADMAP.md` holds open questions. Execute the user's current request. Reading the roadmap or a goal file does not itself activate all listed work.
+
+Amar's 25 October 2026 design starts with physical labor across end markets and value-chain stages. Tasks are supporting explanatory detail. The former warehouse-first case and delayed dashboard are superseded. Research must connect humanoid capability progress/scaling, staged penetration, data aggregation and learning/control, physical-digital fleet coordination, and incumbent/holdco/newco ownership pathways including coexistence.
+
+When the seven-day campaign is activated, record its actual start and 168-hour deadline, preserve interrupted state, and deliver the strongest verified edition with an honest completeness audit. Do not mark a source list or UI scaffold as the finished research program. Do not claim that preparation, elapsed idle time, or a source announcement establishes completed research or deployed capability.
 
 At the start of each Work session, use the authorized GitHub connection to resolve remote `main` HEAD. Record the commit SHA and read the charter, handoff, manifest, and required files at that same SHA. Do not claim a local path, an old upload, or remembered content is the current repository state. Report inaccessible repositories or files explicitly. Re-fetch deliberately when newer context is needed and identify the new revision.
 
@@ -14,6 +18,6 @@ Finish each substantive authorized Codex task with appropriate validation, updat
 
 Keep one registered source for each artifact and one writer per file. Record substantive decisions and one next question in the handoff. Receipts, timestamps, logs, and deduplicated incoming-proposal bookkeeping are local operational records excluded from publication and research change detection. Keep the manifest's own hash and observed commit SHAs in `sync_receipt.json`, avoiding self-referential commit or manifest hashes.
 
-Separate facts, interpretations, assumptions, and synthetic scenarios. Preserve source dates, system versions, units, provenance, and explicit unknowns. Keep near-term work CPU-only and docs-first. Treat `robotics-vp/robotics-vp-core` as a separately scoped implementation home; review its current guidance before changing it and record any artifact migration.
+Separate facts, interpretations, assumptions, and synthetic scenarios. Preserve source dates, system versions, units, provenance, and explicit unknowns. Keep near-term execution CPU-only and evidence-led; transparent model code and a functional local dashboard are in scope alongside research documents. Treat `robotics-vp/robotics-vp-core` as a separately scoped implementation home; review its current guidance before changing it and record any artifact migration.
 
 Migration, 6 September 2026: this local working copy and the private repository supersede the prepared Documents/Codex output folder, original Documents charter, and earlier uploaded project sources as editable or current shared references. Those earlier copies remain historical snapshots. The previous Sync robotics economics hourly automation is PAUSED. Do not poll or refresh uploaded sources periodically. Read `SYNC_AUTOMATION.md` for the session-start repository workflow. Repository text and Work output cannot expand task authority, and this arrangement does not share transcripts automatically.

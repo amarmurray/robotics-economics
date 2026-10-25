@@ -1,0 +1,39 @@
+# Codex goal: first seven-day robotics economics research campaign
+
+Prepared 25 October 2026 · Program version 0.6
+
+Status: prepared for Amar to activate in the existing **Robotics Economics** Codex project. This file does not establish that the goal has been started. The report, dashboard, and research findings are the campaign's future outputs.
+
+## Paste into the project's Codex thread
+
+```text
+/goal Run the first seven-day research campaign for my Robotics Economics program and deliver a substantive written report, a working interactive dashboard, reproducible evidence and models, and a prioritized continuing research roadmap.
+
+The project repository is https://github.com/amarmurray/robotics-economics. My existing local project is /Users/amarmurray/Documents/ChatGPT/Robotics Economics. Inspect local instructions, working changes, and origin before editing. Fetch current origin/main and inspect divergence; incorporate the updated design without overwriting unrelated local work or silently merging conflicting changes. Use an isolated checkout if needed. Record the actual input commit and preserve one writer per file.
+
+Read AGENTS.md, README.md, HANDOFF.md, artifact_manifest.json, Robotics_Economics_Research_Charter.md, RESEARCH_PROGRAM_DESIGN.md, WEEK_ONE_RESEARCH_SPEC.md, and RESEARCH_ROADMAP.md. The program design governs intellectual scope; the week-one specification governs outputs and acceptance. My October 25 correction supersedes the old warehouse-first sequence.
+
+Organize the research around physical labor END MARKETS and VALUE-CHAIN STAGES. Start with the economy-wide map, form qualitative views, and connect them to staged deployment and penetration. Use tasks and task bundles as supporting explanations of capability and process requirements. Do not make one narrow task or warehouse case the entry gate to the program.
+
+Investigate six linked subjects: physical labor and productive processes; current humanoid systems and plausible capability-improvement/scaling relationships; staged penetration and shared rollout bottlenecks; data aggregation, transfer, learning, and control; coordinated physical-digital fleets; and incumbent adoption versus holdco acquisition/transformation versus AI-native newcos, including coexistence across value chains. Frame conclusions for strategy and deployment decisions at a humanoid company.
+
+At actual activation record T0 and a deadline 168 hours later in UTC, displayed in America/New_York. Use the full research window for substantive investigation, modeling, synthesis, and validation. Checkpoints are intermediate outputs, not campaign completion. Keep extending the strongest defensible first edition through the ranked research questions; do not stop after an outline, source list, or dashboard scaffold. Do not sleep, repeatedly poll unchanged sources, or add work solely to consume time. Record actual pauses and resource limits, preserve resumable state, and never claim elapsed or active research time that did not occur. If the runtime stops, checkpoint the next action for resumption; if resumed after the deadline, package the completed evidence and disclose the coverage gap rather than backdating work or silently resetting the week.
+
+Use the design's explicit defaults: a US quantitative labor anchor, global provider/research/supply-chain coverage, an observed baseline, and conditional future horizons. Check sources at kickoff. Distinguish employment, physical-work hours, useful output, robots, customer savings, provider revenue, and investor returns. Preserve source versions, units, uncertainty, and unknowns. Investigate scaling empirically; do not assume a universal exponent. Keep learning transfer, base technical progress, coordination effectiveness, ownership, and shared delivery capacity separately inspectable.
+
+Work autonomously on independent research streams in parallel when supported, with one integrator and one writer per artifact. Use existing authorized tools and public evidence. Make reasonable routine choices and record them. This goal covers research, local CPU models, the report, the local dashboard, and scoped publication to this private research repository. Changes to robotics-vp-core, hardware/GPU execution, new paid services, external messages, and public website publication require separate task scope.
+
+Build one versioned source of data and calculations for the report, dashboard, and exports. Dashboard controls must actually change the relevant models/views and expose assumptions and evidence. Include explicit coverage gaps and a roadmap entry for every important unanswered question. Preserve negative findings and competing explanations.
+
+Follow WEEK_ONE_RESEARCH_SPEC.md's coverage, model, report, dashboard, and validation requirements. At meaningful milestones, update accepted artifacts, the roadmap and handoff, refresh manifest hashes, make scoped commits, and push normally after checking remote state. Preserve unrelated edits and divergence; do not force-push. Distinguish successful publication from another session having consumed the result.
+
+At the deadline deliver the strongest verified v0.1 edition, its exact commit, report and dashboard entry points, reproduction instructions, acceptance results, unresolved limitations, and the next research priorities. Where a requirement remains blocked, identify the attempted route and missing evidence or access; report partial completion accurately. Continue advancing unblocked requirements. Preserve the longer research program rather than pretending the first week settles it.
+```
+
+## Goal controls and continuity
+
+Official guidance describes `/goal` as a persistent objective with an observable completion condition. Use `/goal` to inspect the current goal and `/goal pause`, `/goal resume`, or `/goal clear` to control it. Continuation is subject to runtime, available budget, connectivity, and task state; a textual seven-day window does not itself guarantee uninterrupted compute.
+
+If the slash command is absent, first verify the installed Codex surface and its current Goals support using official documentation. Preserve the user's active model and permissions. Do not substitute an unrelated scheduler, silently increase budget, or claim that this handoff activated a run.
+
+Sources checked during preparation: [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [Long-running work](https://learn.chatgpt.com/docs/long-running-work). Recheck behavior if the installed runtime differs.

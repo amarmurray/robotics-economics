@@ -1,48 +1,60 @@
-# Robotics Economics — current handoff
+# Robotics economics — current handoff
 
-Handoff ID: repo-access-verified-2026-09-06-v0.5.
+Handoff ID: program-design-2026-10-25-v0.6.
 
 ## Accepted direction
 
-Amar requested paired Codex and ChatGPT Work projects, then chose a shared repository that Work reviews at the start of each session. The hourly upload-based approach is superseded. Charter v0.5 records repository ownership, commit-pinned Work reads, publication at the end of substantive authorized Codex tasks, and explicit proposal reconciliation. The economic research content remains unchanged.
+Amar rejected a narrow warehouse/carton-handling case as the first research step because its analytical level and implied purpose omitted the broader learning/control and economic-deployment questions. On 25 October 2026 he specified an end-market/value-chain program beginning with physical labor in the economy, qualitative deployment views, current and potential humanoid capabilities, improvement/scaling pathways, bottlenecks, and data aggregation.
 
-## Project and repository locations
+The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Ownership analysis compares incumbent adoption, holdco acquisition/transformation, and AI-native newcos, including coexistence by end market and value-chain stage.
 
-- Shared accepted source: https://github.com/amarmurray/robotics-economics, private repository, branch `main`.
-- Canonical local working copy: `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`.
-- Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`.
-- ChatGPT Work project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
-- ChatGPT project ID: `g-p-6a9cdcdb891c819190d2ea406ab0a03c`.
-- Earlier prepared output files, the original Documents charter, and uploaded project sources are historical snapshots. They are no longer the primary shared state.
+The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
-## Shared artifact set
+## Current preparation and execution status
 
-- `Robotics_Economics_Research_Charter.md`, v0.5: research reference and repository exchange protocol.
-- `AGENTS.md`: local task and publication guidance.
-- `README.md`: project locations, ownership, and entry point.
-- `HANDOFF.md`: accepted direction and next action.
-- `SYNC_AUTOMATION.md`: session-start repository context guide; filename retained for migration continuity.
-- `CHATGPT_PROJECT_INSTRUCTIONS.md`: saved project settings text, with actual app-setting verification recorded separately.
-- `artifact_manifest.json`: repository-relative and local paths, versions, and content hashes.
+- Charter v0.6 and the detailed design adopt that correction.
+- `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
+- `CODEX_GOAL.md` is prepared activation text.
+- `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
+- **The seven-day campaign was not activated by this preparation task.** No week-one report, dashboard, datasets, or model results are claimed to exist.
+- Live ChatGPT project settings and the user's local checkout were not modified by publishing repository documents. Saved instructions were updated in Git only.
 
-## Repository transition and verification
+US quantitative labor coverage with global provider/research/supply-chain analysis, an observed baseline plus conditional horizons, and initial breadth/depth targets are revisable working defaults. They should be recorded as such at kickoff. No additional preference question is required to begin the prepared campaign.
 
-The private repository and local `origin` provide the publication route. Initial commit/push results, remote branch SHA, connector authorization checks, app-setting verification, and observed Work reads belong in local `sync_receipt.json`. This handoff records the stable transition state and does not claim that its containing commit is already published or consumed. Consult the receipt or perform a fresh check before reporting completion. Receipts, logs, timestamps, and incoming-proposal bookkeeping are operational records outside the shared research state.
+## Canonical artifacts and ownership
 
-Work needs a GitHub connection authorized to read this personal private repository. Local GitHub CLI access is a separate capability. If the connector cannot resolve the repository, record the actual response and required access action in the operational receipt rather than inferring that the repository is absent.
+Shared accepted source: https://github.com/amarmurray/robotics-economics, private, `main`.
 
-The earlier hourly automation **Sync robotics economics**, ID `sync-robotics-economics`, is PAUSED. There is no periodic polling, automatic upload refresh, or automatic shared transcript. Work reads the repository when a session begins. Each substantive authorized Codex task validates its accepted changes, updates artifacts and manifest, commits only those changes, and performs a normal push; unrelated working edits and conflicts are preserved.
+Canonical local working copy: `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`.
 
-## Work session and return handoff
+Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`.
 
-Resolve the current remote `main` HEAD and record its SHA. Read the charter, this handoff, the manifest, and required files at that exact SHA. If access fails, report the missing input; an older upload is historical context, not the latest accepted state. Do not silently mix revisions within one analysis.
+ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-Return findings, evidence links and dates, assumptions, validation, unresolved disagreements, and one next question in task output with the input commit SHA. Work proposals remain proposals until reconciled under the user's authorized task. Write to `proposals/` only when repository writing is explicitly authorized. Do not infer authorization to create GitHub issues, comments, or other external posts. Accepted state is republished through the repository.
+`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
 
-## Next owner and question
+## Superseded and preserved decisions
 
-Repository publication and GitHub connector access were verified on 6 September 2026. This Codex task fetched the published charter, handoff, and manifest through the ChatGPT GitHub connector at one identified `main` commit and verified their complete contents against the local files. Detailed commit and file-read evidence is in the local operational receipt. Each Work session still resolves and reads its own current `main` commit; this connector check does not claim that a separate Work session consumed the files.
+Superseded: mandatory warehouse-first case, deferral of broader markets until that case is finished, mandatory Excel-first modeling, and deferral of the dashboard. Historical provider references in the charter are seeds to refresh, not a binding shortlist or personal hardware selection.
 
-The next owner is Amar or either project acting on the next requested research task. No research run has been initiated by this setup. The remaining workflow is session-start repository review and normal publication of accepted task changes; no periodic synchronization is required.
+Preserved: explicit evidence dates and versions, source/assumption distinctions, common denominators and no double-counting, customer/provider accounting, separate capability and information value, conditional transfer, one source of truth for calculations, scoped publication, and the separate Ixion implementation boundary. CPU analysis and a local dashboard fit the evidence-led research posture. Old implementation hardware dates are not market forecasts or permanent intellectual constraints.
 
-One next research question: Which narrow warehouse carton or tote-handling deployment should anchor the first complete economic case?
+## Session and publication workflow
+
+Resolve current remote `main`; read the charter, handoff, manifest, and relevant design/spec files at that same SHA. Identify the input revision and unavailable sources. Do not substitute historical uploads as current state. The repository does not share transcripts automatically.
+
+The former hourly **Sync robotics economics** job remains paused. A finite research goal is not a reactivation of that job. Read `SYNC_AUTOMATION.md` for the established publication protocol.
+
+Each authorized substantive task validates its outputs, updates accepted artifacts and semantic handoff state, refreshes manifest hashes, makes a scoped commit, and publishes normally after checking remote state. Preserve unaccepted edits and conflicts. Operational receipts and repeated execution logs remain outside the accepted research set. Publication and observed consumption are separate facts.
+
+At goal activation record actual T0, T0+168-hour deadline, input commit, active resources, and resumable execution state. At the deadline deliver the strongest verified edition with a requirement-by-requirement audit and gaps. A pause or resource limit is not successful completion, and elapsed time is not evidence of active research.
+
+## Next owner and action
+
+**Next owner: Amar activating the prepared goal in the existing Codex project; then Codex executing the first campaign.**
+
+Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, and ownership comparisons.
+
+One next research question: **Across which end-market/value-chain configurations do current and plausible future humanoid capabilities enable successive productive-deployment stages, and how do data/coordination effects and ownership arrangements alter the preferred sequence?**
+
+Earlier coordination history: the shared repository replaced upload-based exchange on 6 September 2026. Older Documents copies and uploaded sources remain historical snapshots. Detailed publication/access receipts are operational records; check the current remote state before claiming a later revision has been consumed.
