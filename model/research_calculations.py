@@ -126,17 +126,67 @@ def tac_cost_summary(dataset):
     return result
 
 
+def onboard_timing_summary(package):
+    """Rounded source arithmetic; no deadline or sustained-throughput estimate."""
+    metrics = {}
+    for claim in package["evidence"]:
+        for metric in claim.get("quantities", []):
+            key = metric["metric_id"]
+            if key in metrics:
+                raise ValueError("Duplicate onboard metric: " + key)
+            metrics[key] = metric
+    inputs = [("OWQ-M27", "Hz"), ("OWQ-M02", "ms"), ("OWQ-M03", "ms")]
+    values = []
+    scope = None
+    for key, unit in inputs:
+        metric = metrics[key]
+        if metric["unit"] != unit:
+            raise ValueError("Wrong onboard source unit: " + key)
+        context = (metric["population"], metric["period"])
+        if scope is not None and scope != context:
+            raise ValueError("Onboard arithmetic mixes source populations or periods")
+        scope = context
+        value = number(metric["value"])
+        if value <= 0:
+            raise ValueError("Onboard timing/rate inputs must be positive")
+        values.append(value)
+    rate, median, mean = values
+    interval = Decimal(1000) / rate
+    calculated = dict(zip(("OWQ-C01", "OWQ-C02", "OWQ-C03"),
+                          (interval, interval - median, mean - interval)))
+    stored = package["calculations"]
+    if len(stored) != 3 or {c["calculation_id"] for c in stored} != set(calculated):
+        raise ValueError("Expected exactly three onboard source calculations")
+    for row in stored:
+        if row["unit"] != "ms" or number(row["value"]) != calculated[row["calculation_id"]]:
+            raise ValueError("Stored onboard arithmetic disagrees")
+    return {"status": "source_arithmetic_not_deadline_qualification",
+            "calculations": {key: {"value": float(value), "unit": "ms"} for key, value in calculated.items()},
+            "deadline_miss_rate": None, "sustained_policy_throughput": None,
+            "missing_reason": "Rounded component-sum summary statistics do not identify a full cycle, sustained operation or deadline-miss distribution."}
+
+
 def research_summary(root=ROOT):
     field = json.loads((root / 'data/field_support_denominators.json').read_text())
     coordination = json.loads((root / 'data/coordination_reproducibility.json').read_text())
     dataset = next(x for x in coordination['reconstructed_datasets']
                    if x['dataset_id'] == 'HCR-DATA-TAC-GEMINI-COSTS')
-    return {'schema_version': 'observed-research-summary/0.1',
+    result = {'schema_version': 'observed-research-summary/0.2',
             'calculation_code_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             'source_snapshot_sha256': {name: hashlib.sha256((root / 'data' / name).read_bytes()).hexdigest()
                                       for name in ['field_support_denominators.json', 'coordination_reproducibility.json']},
             'field_support': field_support_summary(field),
             'tac_costs': tac_cost_summary(dataset)}
+    if __package__:
+        from .packages import load_accepted_packages
+    else:
+        from packages import load_accepted_packages
+    accepted = {p['path'] for p in load_accepted_packages(root)['packages']}
+    path = 'data/onboard_workload_qualification.json'
+    if path in accepted:
+        result['onboard_timing'] = onboard_timing_summary(json.loads((root/path).read_text()))
+        result['source_snapshot_sha256'][Path(path).name] = hashlib.sha256((root/path).read_bytes()).hexdigest()
+    return result
 
 
 if __name__ == '__main__':

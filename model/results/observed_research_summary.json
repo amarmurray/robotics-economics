@@ -1,5 +1,5 @@
 {
-  "calculation_code_sha256": "aa76de107a452a6c02cc667a23ad7d9e28319ccd4d05024012f33d3a81449bb6",
+  "calculation_code_sha256": "a7d6f7e4ca03fc9e8b89e736a6fccdbaceafe4dc85b86ae338002cb68eb28710",
   "field_support": {
     "calculations": {
       "FSD-CALC-01": {
@@ -30,10 +30,31 @@
     "paid_labor_saving_missing_reason": "Phase means do not identify complete paid support or removable staffing.",
     "status": "source_arithmetic_not_model_parameters"
   },
-  "schema_version": "observed-research-summary/0.1",
+  "onboard_timing": {
+    "calculations": {
+      "OWQ-C01": {
+        "unit": "ms",
+        "value": 40.0
+      },
+      "OWQ-C02": {
+        "unit": "ms",
+        "value": 0.1
+      },
+      "OWQ-C03": {
+        "unit": "ms",
+        "value": 1.0
+      }
+    },
+    "deadline_miss_rate": null,
+    "missing_reason": "Rounded component-sum summary statistics do not identify a full cycle, sustained operation or deadline-miss distribution.",
+    "status": "source_arithmetic_not_deadline_qualification",
+    "sustained_policy_throughput": null
+  },
+  "schema_version": "observed-research-summary/0.2",
   "source_snapshot_sha256": {
     "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-    "field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30"
+    "field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
+    "onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
   },
   "tac_costs": {
     "all_displayed_cost_usd": 740.34,

@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from model.coordination_transactions import comparison
 from model.treasury import financial_witnesses
+from model.monthly_deployment import monthly_witnesses
 
 
 def exports():
@@ -16,6 +17,7 @@ def exports():
     for name, source, calculate in (
         ("coordination_witnesses", "model/coordination_transactions.py", comparison),
         ("treasury_witnesses", "model/treasury.py", financial_witnesses),
+        ("monthly_deployment_witnesses", "model/monthly_deployment.py", monthly_witnesses),
     ):
         result[name] = {
             "schema_version": "isolated-research-witness/0.1",
@@ -24,6 +26,10 @@ def exports():
             "code_path": source,
             "result": calculate(),
         }
+        sources = [source]
+        if name == "monthly_deployment_witnesses":
+            sources.append("model/treasury.py")
+        result[name]["source_hashes"] = {path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest() for path in sources}
     return result
 
 

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.4",
-  "edition_status": "campaign_in_progress_integrated_report_0.3",
+  "edition_status": "campaign_in_progress_integrated_report_0.4",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -91,12 +91,15 @@
         "research/digital_infrastructure.md",
         "reviews/evidence_review_h_infrastructure.md",
         "research/coordination_reproducibility.md",
-        "reviews/coordination_review.md"
+        "reviews/coordination_review.md",
+        "research/onboard_workload_qualification.md",
+        "reviews/onboard_qualification_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
         "finding": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries.",
-        "continuation": "Pinned TAC cost rows/model+patch and RMF interfaces, plus Astranomy task-source and horizon distinctions, improve reproducibility. Exact executed configuration, full all-attempt costs and target physical validity remain incomplete."
+        "continuation": "Pinned TAC cost rows/model+patch and RMF interfaces, plus Astranomy task-source and horizon distinctions, improve reproducibility. Exact executed configuration, full all-attempt costs and target physical validity remain incomplete.",
+        "onboard_qualification": "New source-pinned Thor recipe and measurement-code audit preserve missing execution manifest, component timing boundary and conflicting tables; complete real-time qualification remains absent."
       },
       "gap": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -111,11 +114,14 @@
         "research/digital_ecosystem.md",
         "data/digital_evidence.json",
         "research/digital_infrastructure.md",
-        "reviews/evidence_review_h_infrastructure.md"
+        "reviews/evidence_review_h_infrastructure.md",
+        "research/digital_trajectory_design.md",
+        "reviews/digital_trajectory_design_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic."
+        "finding": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic.",
+        "trajectory_design": "Three independent annual channels and numerical witnesses have an accepted design; no time-varying runner is claimed."
       },
       "gap": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -992,11 +998,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "research/digital_trajectory_design.md",
+        "reviews/digital_trajectory_design_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models."
+        "finding": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models.",
+        "trajectory_design": "Three independent annual channels and numerical witnesses have an accepted design; no time-varying runner is claimed."
       },
       "gap": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -1074,12 +1083,15 @@
         "HANDOFF.md",
         "reviews/acceptance_review.md",
         "model/TREASURY_CORE.md",
-        "reviews/treasury_core_review.md"
+        "reviews/treasury_core_review.md",
+        "model/MONTHLY_DEPLOYMENT.md",
+        "reviews/monthly_deployment_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
         "finding": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
-        "integrated_edition": "The isolated stage1 financial core now tests exact cash/reservation/deposit/credit settlement; no monthly physical/entrant integration or automatic reinvestment is established."
+        "integrated_edition": "The isolated stage1 financial core now tests exact cash/reservation/deposit/credit settlement; no monthly physical/entrant integration or automatic reinvestment is established.",
+        "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete."
       },
       "gap": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -1155,13 +1167,16 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "dashboard/EVIDENCE_FILTERS.md",
+        "reviews/evidence_facets_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Available cell/year/status/search controls show scope and real parameters recalculate. Dedicated geography, system/harness, embodiment, resource-class and openness filters are absent; text search and full-record inspection are not equivalent."
+        "finding": "Available cell/year/status/search controls show scope and real parameters recalculate. Dedicated geography, system/harness, embodiment, resource-class and openness filters are absent; text search and full-record inspection are not equivalent.",
+        "evidence_facets": "Exact-field/missingness/conjunction helpers and browser source drilldowns passed; source wording and unclassified records remain explicit."
       },
-      "gap": "Available cell/year/status/search controls show scope and real parameters recalculate. Dedicated geography, system/harness, embodiment, resource-class and openness filters are absent; text search and full-record inspection are not equivalent.",
+      "gap": "Exact recorded geography/system/embodiment/harness/openness/license evidence filters are implemented. Dedicated resource-grade classification and comprehensive normalized/typed joins remain absent; these evidence fields do not change modeled populations.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
     },
     {

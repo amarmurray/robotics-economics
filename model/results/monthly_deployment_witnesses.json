@@ -1,0 +1,5641 @@
+{
+  "schema_version": "isolated-research-witness/0.1",
+  "status": "synthetic_unintegrated_not_empirical_calibration",
+  "code_sha256": "2fe8ad382176e0febc359a02334343e901dc55386b5ce1412bd45468f24ca425",
+  "code_path": "model/monthly_deployment.py",
+  "result": {
+    "witness_8_funded": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "witness-8-funded",
+        "months": 4,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 1,
+            "demand_units_by_month": [
+              100,
+              100,
+              100,
+              100
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "support_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shipping_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [
+          {
+            "order_id": "one",
+            "month": 0,
+            "quantity": 1,
+            "accepted_quantity": 1
+          }
+        ],
+        "collections": [],
+        "opening_components": 4,
+        "opening_finished": 0,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 2,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 1,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 1,
+            "rejected": 0,
+            "shipped": 1,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 390000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 2,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 1
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 1,
+            "start_consumed": 0,
+            "closing": 1,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 1
+          },
+          "support": {
+            "slots": 1,
+            "used": 1,
+            "existing_supported": 0,
+            "new_supported": 1,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 1,
+              "supported_units": 1,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 25,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 25,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 390000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 280000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 120000,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 3,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 1
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 1
+          },
+          "components": {
+            "opening": 1,
+            "qualified_receipts": 0,
+            "service_consumed": 1,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 1,
+            "existing_supported": 1,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 1,
+              "supported_units": 1,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 100,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 100,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 280000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 120000,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 270000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 130000,
+            "buyer": 6000000
+          }
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "start-one-1",
+          "origin": "one",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "incumbent",
+          "started_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "accepted_at": {
+            "month": 1,
+            "phase": 4
+          },
+          "shipped_at": {
+            "month": 1,
+            "phase": 5
+          },
+          "commissioned_at": {
+            "month": 2,
+            "phase": 4
+          }
+        }
+      ],
+      "events": [
+        {
+          "event_id": "monthly:witness-8-funded:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "start",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "started",
+          "reason": "",
+          "invoice_id": "monthly:witness-8-funded:m0:start:one",
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "requested_quantity": 1,
+          "components_consumed": 2
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-3",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "acceptance",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "accepted",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-8-funded"
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-4",
+          "at": {
+            "month": 1,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "shipped",
+          "reason": "",
+          "invoice_id": "monthly:witness-8-funded:m1:ship:start-one-1",
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "earliest_commission_month": 2
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-5",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-6",
+          "at": {
+            "month": 2,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "installed",
+          "reason": "",
+          "invoice_id": "monthly:witness-8-funded:m2:commission:start-one-1",
+          "provenance": "synthetic_monthly_plan:witness-8-funded"
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-7",
+          "at": {
+            "month": 2,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 25,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 25,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-8",
+          "at": {
+            "month": 3,
+            "phase": 3
+          },
+          "action": "existing_support",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "supported",
+          "reason": "",
+          "invoice_id": "monthly:witness-8-funded:m3:support:start-one-1",
+          "provenance": "synthetic_monthly_plan:witness-8-funded"
+        },
+        {
+          "event_id": "monthly:witness-8-funded:physical-9",
+          "at": {
+            "month": 3,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-8-funded",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 100,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 100,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 0
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 4000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 4000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": []
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 270000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 270000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 3600000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 3600000
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 130000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 130000
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "monthly:witness-8-funded:m0:start:one",
+            "payer": "provider",
+            "payee": "manufacturer",
+            "face_cents": 3600000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "start",
+            "paid_cents": 3600000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-8-funded:m1:ship:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-8-funded:m2:commission:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 2,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 2,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 2,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 110000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-8-funded:m3:support:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 3,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 3,
+              "phase": 3
+            },
+            "due_at": {
+              "month": 3,
+              "phase": 3
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "support",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "monthly:witness-8-funded:m0:start:one:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-8-funded:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m0:start:one:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-8-funded:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 3600000,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -3600000
+              },
+              {
+                "actor_id": "manufacturer",
+                "delta_cents": 3600000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m1:ship:start-one-1:issue",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-8-funded:m1:ship:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m1:ship:start-one-1:pay",
+            "at": {
+              "month": 1,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-8-funded:m1:ship:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m2:commission:start-one-1:issue",
+            "at": {
+              "month": 2,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-8-funded:m2:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m2:commission:start-one-1:pay",
+            "at": {
+              "month": 2,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-8-funded:m2:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 110000,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -110000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 110000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m3:support:start-one-1:issue",
+            "at": {
+              "month": 3,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-8-funded:m3:support:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-8-funded:m3:support:start-one-1:pay",
+            "at": {
+              "month": 3,
+              "phase": 3
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-8-funded:m3:support:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-8-funded",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 3,
+          "phase": 7
+        }
+      }
+    },
+    "unfunded_future_receipt": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "unfunded-future-receipt",
+        "months": 4,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 1,
+            "demand_units_by_month": [
+              100,
+              100,
+              100,
+              100
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "support_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shipping_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [
+          {
+            "order_id": "one",
+            "month": 0,
+            "quantity": 1,
+            "accepted_quantity": 1
+          }
+        ],
+        "collections": [
+          {
+            "invoice_id": "future-receipt",
+            "month": 1
+          }
+        ],
+        "opening_components": 4,
+        "opening_finished": 0,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 4,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 1000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 1000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 4,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 1000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 7000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 0
+          }
+        },
+        {
+          "month": 2,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 4,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 7000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 0
+          },
+          "closing_cash_cents": {
+            "provider": 7000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 0
+          }
+        },
+        {
+          "month": 3,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 4,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 7000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 0
+          },
+          "closing_cash_cents": {
+            "provider": 7000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 0
+          }
+        }
+      ],
+      "units": [],
+      "events": [
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "start",
+          "unit_ids": [],
+          "status": "blocked",
+          "reason": "funding:insufficient_unencumbered_cash",
+          "invoice_id": "monthly:unfunded-future-receipt:m0:start:one",
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "requested_quantity": 1,
+          "components_consumed": 0
+        },
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-3",
+          "at": {
+            "month": 1,
+            "phase": 2
+          },
+          "action": "collect_opening_receivable",
+          "unit_ids": [],
+          "status": "settled",
+          "reason": "",
+          "invoice_id": "future-receipt",
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "cash_settled_cents": 6000000
+        },
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-4",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-5",
+          "at": {
+            "month": 2,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-future-receipt:physical-6",
+          "at": {
+            "month": 3,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 1
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 1000000,
+            "cash_cents": 1000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 1000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "future-receipt",
+            "payer": "buyer",
+            "payee": "provider",
+            "face_cents": 6000000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 2
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 2
+            },
+            "policy": "full_or_nothing",
+            "cancellable": false,
+            "grace_months": 0,
+            "category": "operating",
+            "paid_cents": 0,
+            "cancelled_cents": 0,
+            "outstanding_cents": 6000000,
+            "status": "not_yet_payable"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "future-issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "future-receipt",
+            "requested_cents": 6000000,
+            "settled_cents": 0,
+            "provenance": "synthetic_preexisting_receivable_not_robot_sale",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          }
+        ]
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 1000000,
+            "cash_cents": 7000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 7000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "future-receipt",
+            "payer": "buyer",
+            "payee": "provider",
+            "face_cents": 6000000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 2
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 2
+            },
+            "policy": "full_or_nothing",
+            "cancellable": false,
+            "grace_months": 0,
+            "category": "operating",
+            "paid_cents": 6000000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:unfunded-future-receipt:m0:start:one",
+            "payer": "provider",
+            "payee": "manufacturer",
+            "face_cents": 3600000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "start",
+            "paid_cents": 0,
+            "cancelled_cents": 3600000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "future-issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "future-receipt",
+            "requested_cents": 6000000,
+            "settled_cents": 0,
+            "provenance": "synthetic_preexisting_receivable_not_robot_sale",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-future-receipt:m0:start:one:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-future-receipt:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-future-receipt:m0:start:one:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "blocked",
+            "reference_id": "monthly:unfunded-future-receipt:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+            "reason": "insufficient_unencumbered_cash",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-future-receipt:m0:start:one:cancel",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-future-receipt:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-future-receipt:m1:collect:future-receipt",
+            "at": {
+              "month": 1,
+              "phase": 2
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "future-receipt",
+            "requested_cents": 6000000,
+            "settled_cents": 6000000,
+            "provenance": "synthetic_monthly_plan:unfunded-future-receipt",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "buyer",
+                "delta_cents": -6000000
+              },
+              {
+                "actor_id": "provider",
+                "delta_cents": 6000000
+              }
+            ],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 3,
+          "phase": 7
+        }
+      }
+    },
+    "funded_without_components": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "funded-no-parts",
+        "months": 4,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 1,
+            "demand_units_by_month": [
+              100,
+              100,
+              100,
+              100
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "support_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shipping_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [
+          {
+            "order_id": "one",
+            "month": 0,
+            "quantity": 1,
+            "accepted_quantity": 1
+          }
+        ],
+        "collections": [],
+        "opening_components": 0,
+        "opening_finished": 0,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 0,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 0,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 2,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 0,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 3,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 0,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        }
+      ],
+      "units": [],
+      "events": [
+        {
+          "event_id": "monthly:funded-no-parts:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "start",
+          "unit_ids": [],
+          "status": "blocked",
+          "reason": "start_components_after_service_reserve",
+          "invoice_id": "monthly:funded-no-parts:m0:start:one",
+          "provenance": "synthetic_monthly_plan:funded-no-parts",
+          "requested_quantity": 1,
+          "components_consumed": 0
+        },
+        {
+          "event_id": "monthly:funded-no-parts:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:funded-no-parts",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:funded-no-parts:physical-3",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:funded-no-parts",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:funded-no-parts:physical-4",
+          "at": {
+            "month": 2,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:funded-no-parts",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:funded-no-parts:physical-5",
+          "at": {
+            "month": 3,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:funded-no-parts",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 1
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 4000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 4000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": []
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 4000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 4000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "monthly:funded-no-parts:m0:start:one",
+            "payer": "provider",
+            "payee": "manufacturer",
+            "face_cents": 3600000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "start",
+            "paid_cents": 0,
+            "cancelled_cents": 3600000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "monthly:funded-no-parts:m0:start:one:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:funded-no-parts:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:funded-no-parts",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:funded-no-parts:m0:start:one:cancel",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:funded-no-parts:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:funded-no-parts",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 3,
+          "phase": 7
+        }
+      }
+    },
+    "unfunded_commissioning": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "unfunded-install",
+        "months": 4,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 1,
+            "demand_units_by_month": [
+              100,
+              100,
+              100,
+              100
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "support_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shipping_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [
+          {
+            "order_id": "one",
+            "month": 0,
+            "quantity": 1,
+            "accepted_quantity": 1
+          }
+        ],
+        "collections": [],
+        "opening_components": 4,
+        "opening_finished": 0,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 2,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 1,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 3610000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 10000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 1,
+            "rejected": 0,
+            "shipped": 1,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 10000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 0,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 2,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 0,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 0,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 3,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 1,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 0,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 0,
+            "manufacturer": 3600000,
+            "deployment_vendor": 10000,
+            "buyer": 6000000
+          }
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "start-one-1",
+          "origin": "one",
+          "status": "transit",
+          "accept_when_ready": true,
+          "ready_month": 2,
+          "operator_id": "incumbent",
+          "started_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "accepted_at": {
+            "month": 1,
+            "phase": 4
+          },
+          "shipped_at": {
+            "month": 1,
+            "phase": 5
+          },
+          "commissioned_at": null
+        }
+      ],
+      "events": [
+        {
+          "event_id": "monthly:unfunded-install:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "start",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "started",
+          "reason": "",
+          "invoice_id": "monthly:unfunded-install:m0:start:one",
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "requested_quantity": 1,
+          "components_consumed": 2
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-3",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "acceptance",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "accepted",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-install"
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-4",
+          "at": {
+            "month": 1,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "shipped",
+          "reason": "",
+          "invoice_id": "monthly:unfunded-install:m1:ship:start-one-1",
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "earliest_commission_month": 2
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-5",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-6",
+          "at": {
+            "month": 2,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "blocked",
+          "reason": "funding:insufficient_unencumbered_cash",
+          "invoice_id": "monthly:unfunded-install:m2:commission:start-one-1",
+          "provenance": "synthetic_monthly_plan:unfunded-install"
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-7",
+          "at": {
+            "month": 2,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-8",
+          "at": {
+            "month": 3,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "blocked",
+          "reason": "funding:insufficient_unencumbered_cash",
+          "invoice_id": "monthly:unfunded-install:m3:commission:start-one-1",
+          "provenance": "synthetic_monthly_plan:unfunded-install"
+        },
+        {
+          "event_id": "monthly:unfunded-install:physical-9",
+          "at": {
+            "month": 3,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:unfunded-install",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 0
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 3610000,
+            "cash_cents": 3610000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 3610000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": []
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 3610000,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 3600000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 3600000
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 10000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 10000
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "monthly:unfunded-install:m0:start:one",
+            "payer": "provider",
+            "payee": "manufacturer",
+            "face_cents": 3600000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "start",
+            "paid_cents": 3600000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:unfunded-install:m1:ship:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:unfunded-install:m2:commission:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 2,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 2,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 2,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 0,
+            "cancelled_cents": 110000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          },
+          {
+            "invoice_id": "monthly:unfunded-install:m3:commission:start-one-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 3,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 3,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 3,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 0,
+            "cancelled_cents": 110000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "monthly:unfunded-install:m0:start:one:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m0:start:one:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:unfunded-install:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 3600000,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -3600000
+              },
+              {
+                "actor_id": "manufacturer",
+                "delta_cents": 3600000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m1:ship:start-one-1:issue",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m1:ship:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m1:ship:start-one-1:pay",
+            "at": {
+              "month": 1,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:unfunded-install:m1:ship:start-one-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m2:commission:start-one-1:issue",
+            "at": {
+              "month": 2,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m2:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m2:commission:start-one-1:pay",
+            "at": {
+              "month": 2,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "blocked",
+            "reference_id": "monthly:unfunded-install:m2:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "insufficient_unencumbered_cash",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m2:commission:start-one-1:cancel",
+            "at": {
+              "month": 2,
+              "phase": 4
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m2:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m3:commission:start-one-1:issue",
+            "at": {
+              "month": 3,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m3:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m3:commission:start-one-1:pay",
+            "at": {
+              "month": 3,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "blocked",
+            "reference_id": "monthly:unfunded-install:m3:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "insufficient_unencumbered_cash",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:unfunded-install:m3:commission:start-one-1:cancel",
+            "at": {
+              "month": 3,
+              "phase": 4
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:unfunded-install:m3:commission:start-one-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:unfunded-install",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 3,
+          "phase": 7
+        }
+      }
+    },
+    "paid_rejected_start": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "all-rejected",
+        "months": 4,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 1,
+            "demand_units_by_month": [
+              100,
+              100,
+              100,
+              100
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "support_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shipping_slots": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [
+          {
+            "order_id": "one",
+            "month": 0,
+            "quantity": 1,
+            "accepted_quantity": 0
+          }
+        ],
+        "collections": [],
+        "opening_components": 4,
+        "opening_finished": 0,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 4,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 2,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 1,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 4000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 1,
+            "rejected": 0,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 1,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 1,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 2,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 1,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 1,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 3,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 1,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 1,
+            "finished": 0,
+            "transit": 0,
+            "installed": 0
+          },
+          "components": {
+            "opening": 2,
+            "qualified_receipts": 0,
+            "service_consumed": 0,
+            "start_consumed": 0,
+            "closing": 2,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 1,
+            "used": 0,
+            "existing_supported": 0,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 1,
+          "shipping_slots": 1,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 100,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 400000,
+            "manufacturer": 3600000,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          }
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "start-one-1",
+          "origin": "one",
+          "status": "rejected",
+          "accept_when_ready": false,
+          "ready_month": null,
+          "operator_id": null,
+          "started_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "accepted_at": null,
+          "shipped_at": null,
+          "commissioned_at": null
+        }
+      ],
+      "events": [
+        {
+          "event_id": "monthly:all-rejected:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "start",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "started",
+          "reason": "",
+          "invoice_id": "monthly:all-rejected:m0:start:one",
+          "provenance": "synthetic_monthly_plan:all-rejected",
+          "requested_quantity": 1,
+          "components_consumed": 2
+        },
+        {
+          "event_id": "monthly:all-rejected:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:all-rejected",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:all-rejected:physical-3",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "acceptance",
+          "unit_ids": [
+            "start-one-1"
+          ],
+          "status": "rejected",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:all-rejected"
+        },
+        {
+          "event_id": "monthly:all-rejected:physical-4",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:all-rejected",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:all-rejected:physical-5",
+          "at": {
+            "month": 2,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:all-rejected",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:all-rejected:physical-6",
+          "at": {
+            "month": 3,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:all-rejected",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 100,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 1
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 4000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 4000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": []
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 4000000,
+            "cash_cents": 400000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 400000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 3600000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 3600000
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "monthly:all-rejected:m0:start:one",
+            "payer": "provider",
+            "payee": "manufacturer",
+            "face_cents": 3600000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "start",
+            "paid_cents": 3600000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "monthly:all-rejected:m0:start:one:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:all-rejected:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:all-rejected",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:all-rejected:m0:start:one:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:all-rejected:m0:start:one",
+            "requested_cents": 3600000,
+            "settled_cents": 3600000,
+            "provenance": "synthetic_monthly_plan:all-rejected",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -3600000
+              },
+              {
+                "actor_id": "manufacturer",
+                "delta_cents": 3600000
+              }
+            ],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 3,
+          "phase": 7
+        }
+      }
+    },
+    "witness_4_static_allocation": {
+      "schema_version": "monthly-deployment/0.1",
+      "scope": "synthetic_isolated_stage_2_fixture",
+      "quantity_basis": "integer_robots_components_exact_rational_expected_service",
+      "manufacturing_cash_basis": "bundled_per_start_including_consigned_components",
+      "ownership": "provider_owned_all_units_operator_assignment_only",
+      "plan": {
+        "plan_id": "witness-4-static-allocation",
+        "months": 2,
+        "operators": [
+          {
+            "operator_id": "incumbent",
+            "requested_additions": 4,
+            "demand_units_by_month": [
+              1000,
+              1000
+            ],
+            "opening_installed": 2
+          },
+          {
+            "operator_id": "entrant",
+            "requested_additions": 10,
+            "demand_units_by_month": [
+              1000,
+              1000
+            ],
+            "opening_installed": 0
+          }
+        ],
+        "allocation_cycle": [
+          "incumbent",
+          "incumbent",
+          "entrant"
+        ],
+        "qualified_component_receipts": [
+          0,
+          0
+        ],
+        "commissioning_slots": [
+          3,
+          3
+        ],
+        "support_slots": [
+          5,
+          5
+        ],
+        "shipping_slots": [
+          10,
+          10
+        ],
+        "system": {
+          "system_id": "SYN-MONTHLY-ONE",
+          "work_id": "SYN-ACCEPTED-BUNDLE",
+          "components_per_start": 2,
+          "service_components_per_robot_month": 1,
+          "bundled_start_cents": 3600000,
+          "shipping_cents": 10000,
+          "commissioning_cents": 100000,
+          "support_cents_per_robot_month": 10000,
+          "assembly_lead_months": 1,
+          "commissioning_lead_months": 1,
+          "full_output_units_per_robot_month": 100,
+          "first_month_ramp_numerator": 1,
+          "first_month_ramp_denominator": 4
+        },
+        "starts": [],
+        "collections": [],
+        "opening_components": 7,
+        "opening_finished": 5,
+        "provider_actor": "provider",
+        "manufacturing_vendor_actor": "manufacturer",
+        "deployment_vendor_actor": "deployment_vendor"
+      },
+      "months": [
+        {
+          "month": 0,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 5,
+            "transit": 0,
+            "installed": 2
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 2,
+            "transit": 3,
+            "installed": 2
+          },
+          "components": {
+            "opening": 7,
+            "qualified_receipts": 0,
+            "service_consumed": 2,
+            "start_consumed": 0,
+            "closing": 5,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 3,
+            "commissioned": 0
+          },
+          "support": {
+            "slots": 5,
+            "used": 2,
+            "existing_supported": 2,
+            "new_supported": 0,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 3,
+          "shipping_slots": 10,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 2,
+              "supported_units": 2,
+              "demand_units": 1000,
+              "ramped_capacity_units": {
+                "numerator": 200,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 200,
+                "denominator": 1
+              }
+            },
+            {
+              "operator_id": "entrant",
+              "assigned_installed": 0,
+              "supported_units": 0,
+              "demand_units": 1000,
+              "ramped_capacity_units": {
+                "numerator": 0,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 1000000,
+            "manufacturer": 0,
+            "deployment_vendor": 0,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 950000,
+            "manufacturer": 0,
+            "deployment_vendor": 50000,
+            "buyer": 6000000
+          }
+        },
+        {
+          "month": 1,
+          "opening_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 2,
+            "transit": 3,
+            "installed": 2
+          },
+          "closing_stock": {
+            "wip": 0,
+            "rejected": 0,
+            "finished": 2,
+            "transit": 0,
+            "installed": 5
+          },
+          "components": {
+            "opening": 5,
+            "qualified_receipts": 0,
+            "service_consumed": 5,
+            "start_consumed": 0,
+            "closing": 0,
+            "protected_unconsumed_for_existing": 0
+          },
+          "flows": {
+            "started": 0,
+            "accepted": 0,
+            "rejected": 0,
+            "shipped": 0,
+            "commissioned": 3
+          },
+          "support": {
+            "slots": 5,
+            "used": 5,
+            "existing_supported": 2,
+            "new_supported": 3,
+            "unsupported_installed": 0
+          },
+          "commissioning_slots": 3,
+          "shipping_slots": 10,
+          "outputs": [
+            {
+              "operator_id": "incumbent",
+              "assigned_installed": 4,
+              "supported_units": 4,
+              "demand_units": 1000,
+              "ramped_capacity_units": {
+                "numerator": 250,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 250,
+                "denominator": 1
+              }
+            },
+            {
+              "operator_id": "entrant",
+              "assigned_installed": 1,
+              "supported_units": 1,
+              "demand_units": 1000,
+              "ramped_capacity_units": {
+                "numerator": 25,
+                "denominator": 1
+              },
+              "accepted_output_units": {
+                "numerator": 25,
+                "denominator": 1
+              }
+            }
+          ],
+          "opening_cash_cents": {
+            "provider": 950000,
+            "manufacturer": 0,
+            "deployment_vendor": 50000,
+            "buyer": 6000000
+          },
+          "closing_cash_cents": {
+            "provider": 600000,
+            "manufacturer": 0,
+            "deployment_vendor": 400000,
+            "buyer": 6000000
+          }
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "opening-finished-1",
+          "origin": "opening_stock",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "incumbent",
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "commissioned_at": {
+            "month": 1,
+            "phase": 4
+          }
+        },
+        {
+          "unit_id": "opening-finished-2",
+          "origin": "opening_stock",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "incumbent",
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "commissioned_at": {
+            "month": 1,
+            "phase": 4
+          }
+        },
+        {
+          "unit_id": "opening-finished-3",
+          "origin": "opening_stock",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "entrant",
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": {
+            "month": 0,
+            "phase": 5
+          },
+          "commissioned_at": {
+            "month": 1,
+            "phase": 4
+          }
+        },
+        {
+          "unit_id": "opening-finished-4",
+          "origin": "opening_stock",
+          "status": "finished",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": null,
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": null,
+          "commissioned_at": null
+        },
+        {
+          "unit_id": "opening-finished-5",
+          "origin": "opening_stock",
+          "status": "finished",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": null,
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": null,
+          "commissioned_at": null
+        },
+        {
+          "unit_id": "opening-installed-incumbent-1",
+          "origin": "opening_stock",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "incumbent",
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": null,
+          "commissioned_at": null
+        },
+        {
+          "unit_id": "opening-installed-incumbent-2",
+          "origin": "opening_stock",
+          "status": "installed",
+          "accept_when_ready": true,
+          "ready_month": null,
+          "operator_id": "incumbent",
+          "started_at": null,
+          "accepted_at": null,
+          "shipped_at": null,
+          "commissioned_at": null
+        }
+      ],
+      "events": [
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-1",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "action": "existing_support",
+          "unit_ids": [
+            "opening-installed-incumbent-1"
+          ],
+          "status": "supported",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-2",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "action": "existing_support",
+          "unit_ids": [
+            "opening-installed-incumbent-2"
+          ],
+          "status": "supported",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-3",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-1"
+          ],
+          "status": "shipped",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 1
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-4",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-2"
+          ],
+          "status": "shipped",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 1
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-5",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-3"
+          ],
+          "status": "shipped",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 1
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-6",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-4"
+          ],
+          "status": "blocked",
+          "reason": "future_commissioning_slots",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 1
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-7",
+          "at": {
+            "month": 0,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-5"
+          ],
+          "status": "blocked",
+          "reason": "future_commissioning_slots",
+          "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 1
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-8",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [
+            "opening-installed-incumbent-1",
+            "opening-installed-incumbent-2"
+          ],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 200,
+            "denominator": 1
+          },
+          "demand_units": 1000,
+          "output_units": {
+            "numerator": 200,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-9",
+          "at": {
+            "month": 0,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "operator_id": "entrant",
+          "capacity_units": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "demand_units": 1000,
+          "output_units": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-10",
+          "at": {
+            "month": 1,
+            "phase": 3
+          },
+          "action": "existing_support",
+          "unit_ids": [
+            "opening-installed-incumbent-1"
+          ],
+          "status": "supported",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-11",
+          "at": {
+            "month": 1,
+            "phase": 3
+          },
+          "action": "existing_support",
+          "unit_ids": [
+            "opening-installed-incumbent-2"
+          ],
+          "status": "supported",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-12",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "opening-finished-1"
+          ],
+          "status": "installed",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-13",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "opening-finished-2"
+          ],
+          "status": "installed",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-14",
+          "at": {
+            "month": 1,
+            "phase": 4
+          },
+          "action": "commission",
+          "unit_ids": [
+            "opening-finished-3"
+          ],
+          "status": "installed",
+          "reason": "",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation"
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-15",
+          "at": {
+            "month": 1,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-4"
+          ],
+          "status": "blocked",
+          "reason": "commissioning_outside_horizon",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 2
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-16",
+          "at": {
+            "month": 1,
+            "phase": 5
+          },
+          "action": "ship",
+          "unit_ids": [
+            "opening-finished-5"
+          ],
+          "status": "blocked",
+          "reason": "commissioning_outside_horizon",
+          "invoice_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5",
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "earliest_commission_month": 2
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-17",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [
+            "opening-finished-1",
+            "opening-finished-2",
+            "opening-installed-incumbent-1",
+            "opening-installed-incumbent-2"
+          ],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "operator_id": "incumbent",
+          "capacity_units": {
+            "numerator": 250,
+            "denominator": 1
+          },
+          "demand_units": 1000,
+          "output_units": {
+            "numerator": 250,
+            "denominator": 1
+          }
+        },
+        {
+          "event_id": "monthly:witness-4-static-allocation:physical-18",
+          "at": {
+            "month": 1,
+            "phase": 6
+          },
+          "action": "operate",
+          "unit_ids": [
+            "opening-finished-3"
+          ],
+          "status": "completed",
+          "reason": "",
+          "invoice_id": null,
+          "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+          "operator_id": "entrant",
+          "capacity_units": {
+            "numerator": 25,
+            "denominator": 1
+          },
+          "demand_units": 1000,
+          "output_units": {
+            "numerator": 25,
+            "denominator": 1
+          }
+        }
+      ],
+      "unshipped_requested_additions": {
+        "incumbent": 2,
+        "entrant": 9
+      },
+      "opening_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 1000000,
+            "cash_cents": 1000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 1000000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": []
+      },
+      "closing_treasury": {
+        "schema_version": "treasury-core/0.1",
+        "scope": "synthetic_stage_1_financial_core_only",
+        "currency": "USD",
+        "actors": [
+          {
+            "actor_id": "provider",
+            "opening_cash_cents": 1000000,
+            "cash_cents": 600000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 600000
+          },
+          {
+            "actor_id": "manufacturer",
+            "opening_cash_cents": 0,
+            "cash_cents": 0,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 0
+          },
+          {
+            "actor_id": "deployment_vendor",
+            "opening_cash_cents": 0,
+            "cash_cents": 400000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 400000
+          },
+          {
+            "actor_id": "buyer",
+            "opening_cash_cents": 6000000,
+            "cash_cents": 6000000,
+            "restricted_cents": 0,
+            "reserved_cents": 0,
+            "minimum_cash_cents": 0,
+            "available_cents": 6000000
+          }
+        ],
+        "invoices": [
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 3
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 3
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "support",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 3
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 3
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "support",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 0,
+            "cancelled_cents": 10000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 0,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 0,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 0,
+            "cancelled_cents": 10000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 3
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 3
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "support",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 3
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 3
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "support",
+            "paid_cents": 10000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 1,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 110000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 1,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 110000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 110000,
+            "issued_at": {
+              "month": 1,
+              "phase": 1
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "commission",
+            "paid_cents": 110000,
+            "cancelled_cents": 0,
+            "outstanding_cents": 0,
+            "status": "paid"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 0,
+            "cancelled_cents": 10000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          },
+          {
+            "invoice_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5",
+            "payer": "provider",
+            "payee": "deployment_vendor",
+            "face_cents": 10000,
+            "issued_at": {
+              "month": 1,
+              "phase": 4
+            },
+            "eligible_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "due_at": {
+              "month": 1,
+              "phase": 5
+            },
+            "policy": "full_or_nothing",
+            "cancellable": true,
+            "grace_months": 0,
+            "category": "ship",
+            "paid_cents": 0,
+            "cancelled_cents": 10000,
+            "outstanding_cents": 0,
+            "status": "cancelled"
+          }
+        ],
+        "deposits": [],
+        "credits": [],
+        "reservations": [],
+        "events": [
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2:issue",
+            "at": {
+              "month": 0,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1:pay",
+            "at": {
+              "month": 0,
+              "phase": 3
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2:pay",
+            "at": {
+              "month": 0,
+              "phase": 3
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m0:support:opening-installed-incumbent-2",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1:issue",
+            "at": {
+              "month": 0,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2:issue",
+            "at": {
+              "month": 0,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3:issue",
+            "at": {
+              "month": 0,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4:issue",
+            "at": {
+              "month": 0,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5:issue",
+            "at": {
+              "month": 0,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-2",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3:pay",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-3",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4:cancel",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-4",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5:cancel",
+            "at": {
+              "month": 0,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m0:ship:opening-finished-5",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1:issue",
+            "at": {
+              "month": 1,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2:issue",
+            "at": {
+              "month": 1,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1:issue",
+            "at": {
+              "month": 1,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2:issue",
+            "at": {
+              "month": 1,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3:issue",
+            "at": {
+              "month": 1,
+              "phase": 1
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3",
+            "requested_cents": 110000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1:pay",
+            "at": {
+              "month": 1,
+              "phase": 3
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-1",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2:pay",
+            "at": {
+              "month": 1,
+              "phase": 3
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m1:support:opening-installed-incumbent-2",
+            "requested_cents": 10000,
+            "settled_cents": 10000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -10000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 10000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1:pay",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-1",
+            "requested_cents": 110000,
+            "settled_cents": 110000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -110000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 110000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2:pay",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-2",
+            "requested_cents": 110000,
+            "settled_cents": 110000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -110000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 110000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3:pay",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_payment",
+            "status": "settled",
+            "reference_id": "monthly:witness-4-static-allocation:m1:commission:opening-finished-3",
+            "requested_cents": 110000,
+            "settled_cents": 110000,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [
+              {
+                "actor_id": "provider",
+                "delta_cents": -110000
+              },
+              {
+                "actor_id": "deployment_vendor",
+                "delta_cents": 110000
+              }
+            ],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4:issue",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5:issue",
+            "at": {
+              "month": 1,
+              "phase": 4
+            },
+            "kind": "invoice_issue",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4:cancel",
+            "at": {
+              "month": 1,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-4",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          },
+          {
+            "event_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5:cancel",
+            "at": {
+              "month": 1,
+              "phase": 5
+            },
+            "kind": "invoice_cancel",
+            "status": "completed",
+            "reference_id": "monthly:witness-4-static-allocation:m1:ship:opening-finished-5",
+            "requested_cents": 10000,
+            "settled_cents": 0,
+            "provenance": "synthetic_monthly_plan:witness-4-static-allocation",
+            "reason": "",
+            "postings": [],
+            "reservation_uses": []
+          }
+        ],
+        "as_of": {
+          "month": 1,
+          "phase": 7
+        }
+      }
+    }
+  },
+  "source_hashes": {
+    "model/monthly_deployment.py": "2fe8ad382176e0febc359a02334343e901dc55386b5ce1412bd45468f24ca425",
+    "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f"
+  }
+}

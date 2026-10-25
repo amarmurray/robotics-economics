@@ -22,6 +22,8 @@ All empirical/model distinctions, equations, time conventions, resource boundari
 
 In the joint comparison tables (Improvement, Digital AI ecosystem, or Analogies), select **Trace inputs and costs**. The dialog shows the four matched branches, their human/digital, robot operating and annual capital costs, accepted robot output, retained human hours, exact inputs and engine function excerpts. It uses the current scenario at its final horizon; changing the display-year filter does not change that reference horizon. These are synthetic coefficients with no empirical calibration sources. This drilldown covers joint comparisons only.
 
+Open **Evidence fields** to filter exact recorded geography, system/configuration, embodiment, harness, openness layer or license. These selectors change evidence navigation only. Missing fields are selectable and are excluded by a chosen explicit value; compound source descriptions retain their original wording. See [filter semantics and remaining gaps](dashboard/EVIDENCE_FILTERS.md). With Node installed, run `node tests/test_facets.js` for the browser helper's exact-field checks.
+
 ## Export and reload
 
 The export command writes deterministic files under `model/results/`:
@@ -33,7 +35,7 @@ The export command writes deterministic files under `model/results/`:
 - `observed_atlas_summary.json`: official-statistics source-row arithmetic and reconciliation, computed independently of scenario inputs.
 - `observed_research_summary.json`: audited field-study ratios/mean contrasts and archived benchmark-cost reconstruction, when those input packages are accepted.
 
-The separate `export_experiments.py` command writes `treasury_witnesses.json` and `coordination_witnesses.json`. These contain isolated synthetic settlement and protocol examples, with code hashes and event traces. They do not change the annual scenario outputs or calibrate their coefficients. See [the treasury core](model/TREASURY_CORE.md) and [coordination fixture](model/COORDINATION_TRANSACTION_FIXTURE.md) for their narrower scope. The full report incorporates these exports and rejects stale experiment code hashes.
+The separate `export_experiments.py` command writes `treasury_witnesses.json`, `coordination_witnesses.json` and `monthly_deployment_witnesses.json`. These contain isolated synthetic settlement, protocol and paid-physical-flow examples, with code/dependency hashes and event traces. They do not change the annual scenario outputs or calibrate their coefficients. See [the treasury core](model/TREASURY_CORE.md), [coordination fixture](model/COORDINATION_TRANSACTION_FIXTURE.md) and [monthly fixture](model/MONTHLY_DEPLOYMENT.md) for their narrower scope. The full report incorporates these exports and rejects stale experiment code/dependency hashes.
 
 The page's **Export scenario** button downloads the same current engine result, including changed parameters. **Export selected cohort CSV** downloads all annual rows for the selected cell scope. The file input in the sidebar reloads an exported scenario and recalculates it. To rerun one saved result from the command line:
 

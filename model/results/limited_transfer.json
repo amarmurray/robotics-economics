@@ -731,11 +731,11 @@
       "unit": "constant 2026 USD/site/year at matched output"
     }
   ],
-  "engine_sha256": "d31f2b93a639b24b288f9a4c5915a05bd342a63c28e02e75ff8407db2c411f0f",
+  "engine_sha256": "0c35c6f2602d29a60a6bc187c013c0e4dd9a3597064cf67bed5a1ecc616a8d07",
   "evidence_package_index": {
     "path": "data/package_index.json",
     "schema_version": "accepted-evidence-packages/1.0",
-    "sha256": "cd71ad37d2d3721d4fb91350433a0b56ccee9fabff47eaf9919d312fb33794f9"
+    "sha256": "4c0b4e026ade208904791909f4acf2d84803a32690b7193682f22fc7823e8499"
   },
   "evidence_snapshot_hashes": {
     "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
@@ -746,6 +746,7 @@
     "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
     "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
     "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
+    "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
     "data/physical_evidence.json": "24d330c9e1f0f1e3961b8f69fa42afeb8c1c6ffeecbd8d3d9cef617702c71ad2",
     "data/quadruped_operator_followup.json": "fad1adb14e9c228125793f4a75aa0d408d5bb38ce1589f85387d2e0f2b2948d3"
   },
@@ -8552,7 +8553,7 @@
     "empirical_aggregate_inclusion": false,
     "geography": "US illustrative deployment pool; no national extrapolation"
   },
-  "model_version": "0.1.0",
+  "model_version": "0.1.1",
   "newco": {
     "assumptions": {
       "acquisition_premium_usd": 250000,
@@ -9393,7 +9394,7 @@
     "years": 8
   },
   "preset": "limited_transfer",
-  "scenario_hash": "706ee75cd2884168ce0bcd271b68519418c9105e6f9da9ce7182ce887f2d7b39",
+  "scenario_hash": "a32acfe7ee6c2b99a044424906e79cf274f3c1929ba6da4444c1b9bbcdcfe3cb",
   "schema_version": "robotics-economics-model/0.1",
   "status": "synthetic_illustration"
 }

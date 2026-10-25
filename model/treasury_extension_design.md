@@ -2,7 +2,7 @@
 
 Design proposal v0.2a · 25 October 2026 · **Not implemented or calibrated**
 
-Implementation update: the [stage 1 financial core](TREASURY_CORE.md) now executes the bounded settlement portions of this design. The complete extension described here, including monthly physical allocation, common entrant supply and service/default consequences, remains unimplemented. The proposal's numerical examples remain synthetic.
+Implementation update: the [stage 1 financial core](TREASURY_CORE.md) executes bounded settlement portions, and the [stage 2 monthly fixture](MONTHLY_DEPLOYMENT.md) connects paid actions to one provider-owned physical plan and static assignments. The complete extension described here, including commercial cash/title schedules, common entrant demand and company-wide service/default consequences, remains unimplemented. The proposal's numerical examples remain synthetic.
 
 This proposal extends the executable mechanisms in [METHODS.md](METHODS.md). It changes no current engine code or saved result. The numerical examples below are synthetic accounting witnesses, not observations about robot companies, financing availability or commercial terms. Implementation should follow an independent design challenge and a scoped acceptance decision.
 

@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.2. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.3. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -66,7 +66,7 @@ Version 0.2. These are bounded claims and hypotheses for Amar to challenge after
 
 **Mechanism and status.** Payment timing, restrictions, rejected production, receivables and shared resource reservations can block a profitable order. This is a finance/accounting proposition with an isolated settlement core and exact synthetic test witnesses, not a measured robot-provider financing constraint.
 
-**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The full monthly physical/financial extension remains incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
+**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The [isolated monthly fixture](model/MONTHLY_DEPLOYMENT.md) now links paid actions and assigned supported output, while commercial cash/title schedules, competition and company-wide obligations remain incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
 
 **Strongest objection.** Deposits, supplier credit, asset finance or patient equity may bridge the gap; the assumed manufacturing-payment boundary can dominate the result. Their existence and terms must be explicit, not assumed free.
 

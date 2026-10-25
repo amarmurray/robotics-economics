@@ -1,12 +1,12 @@
 # Robotics Economics — integrated research report
 
-Edition 0.3, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.4, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. Work continues through available execution windows. No uninterrupted-compute or full-week-work claim is made.
 
-The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination and learning-data follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
+The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination, learning-data and onboard-workload follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
 
 Begin with the executive argument for the decision logic, then use the economic atlas to orient the technical, organizational and supply evidence. The common-engine section connects those findings to conditional scenarios. Detailed source locators, explicit conflicts and unknowns remain in the chapters and their machine-readable evidence packages; no favorable headline substitutes for their operating boundary. This expanded edition deliberately retains the full source analysis rather than compressing it into a short investment thesis.
 
@@ -93,6 +93,8 @@ The learning-data follow-up changes the denominator for a capability-investment 
 The benchmark reconstruction also makes a material comparison less ambiguous. TheAgentCompany's archived displayed costs include non-perfect attempts, whereas Astranomy's reported conditional cost covers a successful subset. A cheaper-looking number can therefore measure a different event. The reconstructed table improves source-side accounting without resolving omitted infrastructure, other model use, human work or the executed monetary-limit configuration. Astranomy's paused simulation further separates action-clock success from elapsed-time service in a changing environment. Those distinctions constrain any attempt to price physical orchestration from an agent benchmark.
 
 Finally, the pinned coordination interfaces locate a concrete systems question: what is known after a request is accepted, a response times out, or cancellation is acknowledged? Admission, assignment, execution and reconciliation have distinct authorities. A retry may repeat an action whose first acknowledgement was lost; cancellation acceptance need not reverse partial effects or establish a physical stop. A durable business identifier helps maintain intent, but it cannot alone make an external action and a local record one atomic transaction. A credible coordination contribution needs explicit failure handling and a strong deterministic baseline before a language model is added. Local fault tests can establish software behavior under declared assumptions; a compatible installed stack and target operating data are still needed for production claims.
+
+The onboard-compute follow-up gives that timing boundary a concrete implementation example. NVIDIA's published Thor/GR00T optimization recipe is inspectable and reports a large reduction in its component-sum timing. The released measurement code, repeated observation, warm-up rules and conflicting source tables constrain the claim: it does not establish sustained sensor-to-actuator deadlines, runtime memory headroom or the target robot's accepted service. Module specifications and a faster benchmark remain useful inputs to qualification. A deployment decision still needs the exact workload, concurrent perception, action horizon, thermal/power conditions and closed-loop outcomes. The [onboard qualification analysis](research/onboard_workload_qualification.md) records the missing run artifacts and preserves the distinct task populations.
 
 ### Decisions to make next, and the evidence that could reverse them
 
@@ -1046,6 +1048,63 @@ For RQ-SC-05, qualify a workload/configuration before selecting an onboard compu
 
 The next useful public-evidence step is a matched robotics workload on a pinned embedded module and software stack, documenting memory use, end-to-end latency, sustained power and accepted output. A parallel supplier step is to identify disclosed product-specific qualification and delivery evidence. Neither an aggregate capex series nor a product page supplies those measurements. Public data may not resolve OEM allocations or negotiated commercial terms; those fields stay null and become later access-dependent questions.
 
+### Focused follow-up: Onboard workload qualification and operating deadlines
+
+Authoritative analysis: [research/onboard_workload_qualification.md](research/onboard_workload_qualification.md).
+
+Research edition 0.1, 25 October 2026. This bounded H/I follow-up addresses RQ-SC-05 and the robot/control contribution map. It adds one same-board policy comparison and an explicit qualification gap; it does not update scenario coefficients. The associated records are `data/onboard_workload_qualification.json`. Requested worker configuration was GPT-6 Astra / Ultra; actual serving identity and effort remain unverified. Repository provenance is recorded separately in ignored `sync_receipt.json`.
+
+#### Finding and decision
+
+A primary NVIDIA recipe makes a substantially stronger claim possible than the Orin/Thor specification comparison in HI-003/004: a particular GR00T N1.7 policy pipeline can be exported, quantized and benchmarked on a Jetson AGX Thor Developer Kit using inspectable code. The tutorial reports approximately 81 ms for its baseline TensorRT pipeline and 39.9 ms for an optimized mixed-precision pipeline on that same device. These are vendor-reported short benchmark results, not measurements reproduced here. The intervention combines graph restructuring and precision changes; it does not identify a pure hardware or quantization effect. [OWQ-E01](https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/2fcbe216dbaf6301103e03a177a1980a426c6ae7/src/content/tutorials/vla/groot_n17_on_thor.md#performance)
+
+The important limit emerges from the released harness. Its quantity called “E2E” is the elementwise sum of separately measured preprocessing, backbone and action-head timing arrays. The default recipe repeats the first observation of the first recorded episode. The published median is therefore not a measured sensor-to-actuator cycle, sustained policy frequency or hard deadline guarantee. No recovered artifact supplies a long-duration latency distribution together with board power, temperature, memory occupancy, competing workloads and accepted physical output. This is a useful partial result: a qualified optimization candidate exists, while the required deployment measurement remains missing. [OWQ-E02](https://github.com/NVIDIA/Isaac-GR00T/blob/9c7e746b2cd37a810070a98ef41d290a07e806c2/scripts/deployment/benchmark_inference.py#L168)
+
+#### The matched source comparison
+
+The tutorial file was last changed on 13 August 2026; its optimization patch was added on 31 July. Those are source-file commit dates, not disclosed experiment dates. The upstream code is pinned to 8 July 2026. Actual experiment dates are unspecified. The exact source revisions and SHA-256 content digests are recorded in the evidence package.
+
+| Item | Published configuration or result | Qualification boundary |
+| --- | --- | --- |
+| Device and operating mode | Jetson AGX Thor Developer Kit, JetPack 7.2; MAXN; `nvpmodel -m 0`, `jetson_clocks` | Exact tested board revision, measured watts, cooling, ambient temperature and thermal soak are not supplied. MAXN is a mode, not measured power. |
+| Workload | `GR00T-N1.7-LIBERO/libero_10`, LIBERO_PANDA; one camera, batch one, four denoising steps | A simulated manipulation checkpoint and recorded input; no matched production assembly/tote result. Exact checkpoint and dataset revisions are not pinned by the download commands. |
+| Software | CUDA 13.0 container base, PyTorch 2.10.0, TensorRT 10.15.1.29; ModelOpt 0.39.0 for quantization | The recipe identifies versions but does not provide the original container digest, generated-engine hashes or complete measured-run manifest. |
+| Baseline TensorRT | Approximately 81 ms reported E2E; backbone 27.0 ms, action head 45.0 ms | Baseline recipe uses FP32 vision, BF16 language/action head and BF16 auxiliary components. |
+| Optimized TensorRT | 39.9 ms median, 41.0 ms mean, 1.8 ms standard deviation in expected output; backbone 13.56 ms, action head 17.18 ms medians | Mixed recipe uses FP8 vision, NVFP4 language/action-head weights with selected FP8 layers, FP16 auxiliary components; graph restructuring also changes execution. |
+| Measurement population | Twenty measured iterations per timing array; advertised five warm-up iterations | Code actually uses ten preprocessing warm-ups, five eager warm-ups, seven compiled warm-ups and at least ten TensorRT warm-ups under defaults. |
+
+All numbers in this table refer to the tutorial's reported configuration or its published recipe. None is a robot duty-cycle measurement. The optimized runtime hoists cross-attention keys/values, precomputes timestep constants, fuses projections and captures the action head in a CUDA graph. These changes and mixed precision are bundled; the two-row comparison cannot assign their separate effects. The reported cosine similarity of 0.999743 is a forward-output comparison, not an accepted manipulation success rate. [OWQ-E01; OWQ-E02]
+
+The recipe is materially inspectable. We downloaded source text only, checked the static patch against its pinned repository copy, applied it to the thirteen relevant source files, and parsed the twelve resulting Python files without importing or executing the workload. The patch applied successfully; raw downloads lacked an executable bit expected on one export script, producing a file-mode warning rather than a content rejection. This verifies a source patch, not an install, engine build, inference result or license clearance. No model weights, datasets, GPU runtime or hardware were used.
+
+#### What the timing includes—and what it omits
+
+`benchmark_components` times backbone and action-head calls with CUDA synchronization before and after each stage. Input processing is benchmarked separately and its same timing array is reused across backend comparisons. `compute_e2e_from_components` then sums those arrays; the summary takes the median of the sums and computes frequency as `1000 / median_ms`. It does not time a single uninterrupted production request. Adding component medians would also not necessarily reproduce the median of their sums. [OWQ-E02, functions `benchmark_data_processing`, `benchmark_components`, `compute_e2e_from_components`, `main`]
+
+The recipe invokes `BenchmarkConfig` without enabling `use_trajectory`, whose default is false; the harness extracts episode zero, step zero. A trajectory option exists, but its existence does not establish that the published latency used it. Model loading, engine construction, video capture, observation freshness, network serving, final action denormalization/robot command transport, actuator dynamics and safety handling are outside the measured component sum. The code times `action_head.get_action` and discards its result; it does not measure motor execution or a completed task. There are no recovered per-iteration result arrays tied to the published run.
+
+For the tutorial's advertised 25 Hz, the corresponding nominal interval is 40 ms. The reported 39.9 ms median leaves only 0.1 ms against that interval, while the reported mean is 1.0 ms above it. These are arithmetic comparisons using rounded, component-sum statistics, not a target robot's validated deadline or an estimate of the fraction of missed cycles. The source frequency of 25.1 Hz is the rounded reciprocal of 39.9 ms. Neither a reciprocal median nor a mean determines sustained throughput under queueing, thermal limits and contention. A robot might execute an action chunk with a faster independent low-level controller, but the correct scheduling and feedback contract must then be specified and tested; the nominal policy-call frequency is not its motor-control frequency.
+
+Memory qualification is similarly incomplete. The tutorial's approximately 60 GB free-space recommendation concerns disk storage for containers, engines and assets, not peak runtime RAM. The pipeline's 8192 MB builder-workspace default is a build limit, not a measured runtime footprint. The harness explicitly deletes prior policy instances to avoid holding two full copies simultaneously, with a comment referring to Orin out-of-memory behavior. That comment is evidence of a software resource precaution, not a measured Orin/Thor capacity comparison. HI-003/004 remain the source of module memory specifications; actual memory occupancy, headroom for perception and worst-case concurrent workloads remain null. [OWQ-E01 Hardware; OWQ-E02 `PipelineConfig.workspace`, policy cleanup]
+
+#### Conflicts and adverse applicability evidence
+
+The downloadable patch contains a second performance table: 93.8 ms baseline TensorRT and 38.9 ms optimized mixed NVFP4, with a 144.9 ms eager baseline. Its own header says JetPack 7.2. The tutorial instead reports approximately 81 ms, 39.9 ms and approximately 126 ms and explains a prior 2.41× comparison as a JetPack 7.1 baseline. Without run manifests, that explanation does not resolve why the patch table itself names 7.2. We retain separate source tables and an unresolved provenance mismatch; we do not select the most favorable endpoints or calculate a cross-table speedup. [OWQ-E03](https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/522b964711d2a02cd880f0a2f2cea7ef313d14fc/public/code-samples/groot_n17_on_thor/groot-n17-trt-optimization.patch), added README “Optimized TensorRT Result”]
+
+The patch also reports 97.3% success versus 97.5% for PyTorch, averaged over three rounds of a 200-episode **LIBERO Spatial** closed-loop benchmark on Thor. This is a different named task suite from the `libero_10` timing checkpoint. No associated trial-level outcomes, seeds, exact evaluated checkpoint digest or statistical noninferiority test were recovered from these artifacts. The tutorial's “no measurable loss” statement cannot establish equivalent physical task competence, nor can the Spatial result be attached silently to the timed checkpoint. It is retained as an attributed vendor claim with a distinct population. [OWQ-E03]
+
+The tutorial itself gives deployment counterevidence: the bundled policy server accepts no TensorRT-engine path and serves PyTorch only. Serving the optimized runtime requires a separately implemented wrapper. Its warning about older patched scripts hanging or segfaulting during interpreter shutdown also shows why output timing does not qualify process lifecycle behavior; the inspected patch adds explicit engine cleanup. Neither issue proves failed deployment, but both create integration work excluded from the latency table. [OWQ-E01, “Deploying in Your Own Code” and Step 10]
+
+As a bounded alternative screen, NVIDIA's Isaac ROS 5.0 performance documentation is unusually explicit about its own metric: throughput targets less than 5% frame loss, can include runs slightly above that target, and averages five runs after discarding the minimum and maximum. “Latency” is first-sent-frame to first-received-frame in a separate 30 Hz trial, omitted without a valid measurement. This is not a percentile distribution of all steady-state frames. Its publicly listed Orin/Thor rows therefore do not resolve the missing deadline qualification merely because they have millisecond labels. No cross-board performance ratio is imported into this follow-up. [OWQ-E04](https://nvidia-isaac-ros.github.io/v/release-5.0/performance/index.html#methodology)
+
+#### Consequences for the existing economic cells
+
+For `CELL-M05-auto-assembly-US-2025` and `CELL-M08-3pl-tote-US-2025`, the source supports investigating an onboard policy optimization before committing to a larger compute module or remote inference architecture. It does not establish accepted assemblies or totes per hour. The target tests require the exact camera/proprioception inputs, action horizon, control/replanning contract, concurrent perception load, safety/recovery process and accepted-output denominator. Quantization must be evaluated on that task distribution, including consequential failures. These are model-structure and diligence implications, not empirical coefficients.
+
+The actual Unitree G1/Go2 configurations in `physical_evidence.json` have no evidenced installation of this Thor/LIBERO pipeline. Optional Orin language on a product page cannot establish compatibility with the inspected NVFP4 engines; the tutorial explicitly requires rebuilding architecture-specific TensorRT engines when hardware or static batch changes. Neither configuration inherits the benchmark. Conversely, a smaller conventional controller or a specialized fixed machine can remain sufficient for the matched service. Module selection should follow the workload and deadline rather than the newest platform label.
+
+The highest-value missing artifact is a single immutable run bundle: board/carrier revision and power configuration; checkpoint/dataset/container/engine hashes; actual action horizon and sensor input shapes; raw timestamp and deadline-miss records; memory/power/thermal traces over a stated duration; and matched closed-loop outcomes with retries and human assistance. Its collection would require a separately authorized execution environment; this CPU-only investigation does not initiate it. A second priority is reconciliation of the two published tables and the Spatial-versus-`libero_10` success linkage. Accessible OEM supply, negotiated prices, supported deployment scale and full customer service costs remain separate unknowns. The bounded conclusion is an inspectable optimization recipe with incomplete execution provenance and unqualified sustained operation, not an onboard-control performance certification.
+
 ## 7. Physical supply, embodiments, quadrupeds and drones
 
 Authoritative chapter: [research/physical_supply_field.md](research/physical_supply_field.md).
@@ -1266,14 +1325,14 @@ Generated source: [scenario_summary.csv](model/results/scenario_summary.csv). No
 
 | preset | status | scenario_hash | year | active_stock_expected_units | baseline_equivalent_hours | cumulative_baseline_equivalent_hours | newco_peak_funding_usd | newco_funding_gap_usd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| reference | synthetic_illustration | cd23b3d2c40819f591a20d0726fa249b70cb86e5567f8aac68f6a2450f9a0543 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666667 | 1084000.0 | 484000.0 |
-| delayed_supply | synthetic_illustration | 707df6b6fb59067b2113535d849d9070f697c848c325eea94cc25b2cd793bdc2 | 2033 | 60.0 | 100824.9357142857 | 249689.80714285714 | 1084000.0 | 484000.0 |
-| service_stress | synthetic_illustration | 1044570b833e1ece8b594129642494aba88cb50e994b698fbf4e42f358772d9b | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
-| ample_supply_unready | synthetic_illustration | 818ca52cc07a1515e209894b4e1a58a63beda39b499cf505de259e04fd6fbbc7 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
-| digital_first | synthetic_illustration | fda0ca20a27b9d5f8634047d4cfc685dd506699912f112c7de4f293bfa4773cc | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
-| limited_transfer | synthetic_illustration | 706ee75cd2884168ce0bcd271b68519418c9105e6f9da9ce7182ce887f2d7b39 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
-| newco_raas | synthetic_illustration | fa1cad903b2e02f219031b299009702bf7bfcd9530df333cbc6fa105866e910d | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
-| prompt_response | synthetic_illustration | 1d4ff1284f5d8b0fe2d3597540023b0e633ccd2c1ad229eb6847e04489f66136 | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
+| reference | synthetic_illustration | d42704289a888a774588195e30eb9c32df937a7f94fdde54b343d32fb25d194e | 2033 | 44.0 | 74393.33571428571 | 376256.0416666667 | 1084000.0 | 484000.0 |
+| delayed_supply | synthetic_illustration | 7fcb04339026a773e623b7c503012a2f2fd5785da0443ee66b016ef61b9e393f | 2033 | 60.0 | 100824.9357142857 | 249689.80714285714 | 1084000.0 | 484000.0 |
+| service_stress | synthetic_illustration | 2fd809c3d402ec2348433fe5ed4f9be2fda59fa24fbbd860ca4554145450092c | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
+| ample_supply_unready | synthetic_illustration | a4ffcdf958631136e4bba49220388ff5c00c122f890bde9cecc0666aa57dbe24 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
+| digital_first | synthetic_illustration | b7ced032ad62ff359409351bdb2e2861da0a4154c4970b7dd4e474e5a3dff0c9 | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
+| limited_transfer | synthetic_illustration | a32acfe7ee6c2b99a044424906e79cf274f3c1929ba6da4444c1b9bbcdcfe3cb | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
+| newco_raas | synthetic_illustration | 5a426480e73326dce11668f56daee4ffe89ffe4842460ccf37e9bb2da01e430e | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
+| prompt_response | synthetic_illustration | 8f6c3a7f7af6c0a62b18e55c152e0b3731ff0da84d2bd22bd58d53f5efd5a9bb | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
 
 ### What the scenario contrasts teach
 
@@ -1284,6 +1343,15 @@ Ample supply with unready customers produces 35,302 cumulative baseline-equivale
 Digital-first produces 297,633 robot-delivered baseline-equivalent hours, compared with 376,256 in the reference. Less robot deployment is not necessarily a welfare loss: the human-led alternative also improves, changing the incremental economic case. This preset changes both human time reduction and robot coordination; it does not isolate either channel. Hold coordination fixed for a one-control comparison of the human-time mechanism. The model does not estimate economy-wide welfare from these scenario outputs.
 
 In the separate monthly entrant case, delayed incumbent response requires peak funding of $516,500; prompt response requires $716,000 and exposes a $116,000 gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
+
+
+### Corrected hardware comparison and the next dynamic baseline
+
+Model 0.1.1 corrects a high-memory accounting omission: its synthetic $800 annual configuration charge now appears in both robot branches. Previously C10 omitted that charge, overstating the cost interaction by $800. The same additional power burden already applied to both branches. At 2,000 operating hours, each robot branch incurs $832 above its standard-board counterpart under the specified electricity price. All numerical fields in the eight standard presets remain unchanged; engine, catalog and evidence-provenance hashes are regenerated. The [independent correction review](reviews/high_memory_cost_review.md) records the comparison against the previous committed version.
+
+The next digital extension has a [reviewed design](research/digital_trajectory_design.md), with [independent numerical witnesses](reviews/digital_trajectory_design_review.md), but no implemented annual trajectory runner yet. It proposes three independently specified synthetic paths: human time reduction, signed robot coordination, and annual additional robot digital-service cost. Every annual adoption gate, resource-cost comparison and operating result must use the same contemporaneous values. A lower robot-service price can change cash margins without changing competence; an improving human baseline can weaken adoption even when the combined robot process also gets cheaper.
+
+Implementation must reproduce the corrected scalar engine on constant paths, preserve stock when economic eligibility changes, retain adverse/nonmonotone paths and keep direct changes separate from deployment-mediated learning. The proposed service-cost path does not supply a token-use, failed-attempt or latency model. Existing all-vintage software upgrades, current-condition screening and separate initial-year commercial/monthly-entry references remain explicit limitations. Design acceptance alone does not close the evolving-comparator requirement.
 
 
 ## 9. Local experiments: cash settlement and transaction state
@@ -1306,7 +1374,30 @@ Generated source: [treasury_witnesses.json](model/results/treasury_witnesses.jso
 | witness_5_unpaid_fee | entrant | 8,000.00 | Full-or-nothing fee remains unpaid; no automatic overdraft |
 | witness_7_earmark_consumed | payer | 0.00 | Own invoice consumes earmark; unrelated payment is blocked |
 
-The funded and unfunded paths are alternative worlds, not balances to add. A financial settlement test does not prove that a robot was manufactured, commissioned, supported or reassigned. The yield case tests the payment boundary only; the fee case tests an unpaid liability only. Shared physical allocation, service withdrawal, recovery, customer competition and endogenous reinvestment still need to be connected to the monthly ledger. The core also lacks an automatic payment scheduler, credit-maturity collection/default and interest accrual. Actual financing terms and supplier working capital remain separate empirical questions.
+The funded and unfunded paths are alternative worlds, not balances to add. A financial settlement test does not prove that a robot was manufactured, commissioned, supported or reassigned. The stage-1 yield case tests the payment boundary only; the fee case tests an unpaid liability only. The core also lacks an automatic payment scheduler, credit-maturity collection/default and interest accrual. Actual financing terms and supplier working capital remain separate empirical questions.
+
+
+### Monthly physical progress must also be paid and supported
+
+The next isolated fixture connects that cash core to integer unit identities, compatible components, deterministic accepted/rejected counts, shipment, commissioning and supported service. It uses one provider-owned system, fixed operator assignments and preplanned actions. Opening robots are historically funded stocks; their acquisition cost lies outside the horizon. Output is an exact rational synthetic service flow, not measured customer throughput.
+
+Generated source: [monthly_deployment_witnesses.json](model/results/monthly_deployment_witnesses.json). Each row below is a separate constructed world; closing stocks count units, cash is USD, and output shows each operator's last modeled month. Source hashes cover both the monthly implementation and the treasury dependency.
+
+
+| Witness | Closing physical stocks | Provider closing cash, USD | Last-month accepted service |
+| --- | --- | ---: | --- |
+| witness_8_funded | wip: 0; rejected: 0; finished: 0; transit: 0; installed: 1 | 2,700.00 | incumbent: 100 |
+| unfunded_future_receipt | wip: 0; rejected: 0; finished: 0; transit: 0; installed: 0 | 70,000.00 | incumbent: 0 |
+| funded_without_components | wip: 0; rejected: 0; finished: 0; transit: 0; installed: 0 | 40,000.00 | incumbent: 0 |
+| unfunded_commissioning | wip: 0; rejected: 0; finished: 0; transit: 1; installed: 0 | 0.00 | incumbent: 0 |
+| paid_rejected_start | wip: 0; rejected: 1; finished: 0; transit: 0; installed: 0 | 4,000.00 | incumbent: 0 |
+| witness_4_static_allocation | wip: 0; rejected: 0; finished: 2; transit: 0; installed: 5 | 6,000.00 | incumbent: 250; entrant: 25 |
+
+A paid start at month 0, phase 5 is accepted at month 1, phase 4 and can ship in phase 5 of that same month. With one-month commissioning lead, it commissions at month 2, phase 4 and delivers 25 units at phase 6 under one quarter-rate ramp; its next full month delivers 100. There is no extra finished-stock month or second annual half-year penalty. If commissioning cash is missing, the already paid unit remains in transit and produces zero. If the start is rejected, its manufacturing expense and consumed components remain sunk.
+
+The static shared-allocation case begins with five finished and two installed units. Common support and commissioning limits permit two new incumbent assignments and one entrant assignment, leaving two finished units. The entrant's first-month output is 25, even though its request is ten robots. This tests conservation and actual assignment; it does not connect the separate ENTRY-FG-01 business, simulate customer competition, or establish an entrant return.
+
+Existing installed support has strict priority. Receipts arriving after its phase-3 support attempt cannot retroactively repair that month's service; any unsupported opening installed unit blocks additions under this deliberately conservative policy. Contingent prepayment bookings can be canceled when work is not delivered, while previously earned obligations are not erased. The fixture does not schedule every opening company obligation, model sale/lease terms or operator cash, enforce default/recovery, or make endogenous investments. See [methods and limitations](model/MONTHLY_DEPLOYMENT.md) and [independent review](reviews/monthly_deployment_review.md). The full shared-treasury/entrant requirement remains partial.
 
 ### Coordination: retained uncertainty is sometimes the correct result
 
@@ -1331,6 +1422,8 @@ When authoritative lookup is unavailable, blocking a retry can prevent a duplica
 ### Inspecting the scenario calculation
 
 The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference remains one annual site at the final horizon, without learned increments; changing the display year does not turn it into an installed-fleet estimate. A changed scenario invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
+
+The **Evidence fields** panel adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license selectors. Missing fields can be selected explicitly. A compound geography description remains the source's compound value, and a license label leaves commercial and hardware rights to the full artifact terms. These filters change evidence navigation only; they do not reclassify unknown records or alter scenario populations. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete. See [filter semantics](dashboard/EVIDENCE_FILTERS.md).
 
 
 ## 10. What remains unresolved

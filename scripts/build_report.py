@@ -20,6 +20,7 @@ FOLLOWUPS = {
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md')],
  'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md')],
  'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
+ 'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
 }
 def chapter(text, depth=1):
     lines=text.splitlines()
@@ -38,13 +39,13 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.3, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.4, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. Work continues through available execution windows. No uninterrupted-compute or full-week-work claim is made.
 
-The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination and learning-data follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
+The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination, learning-data and onboard-workload follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
 
 Begin with the executive argument for the decision logic, then use the economic atlas to orient the technical, organizational and supply evidence. The common-engine section connects those findings to conditional scenarios. Detailed source locators, explicit conflicts and unknowns remain in the chapters and their machine-readable evidence packages; no favorable headline substitutes for their operating boundary. This expanded edition deliberately retains the full source analysis rather than compressing it into a short investment thesis.
 
@@ -85,13 +86,25 @@ Digital-first produces {n('digital_first','cumulative_baseline_equivalent_hours'
 In the separate monthly entrant case, delayed incumbent response requires peak funding of ${n('newco_raas','newco_peak_funding_usd')}; prompt response requires ${n('prompt_response','newco_peak_funding_usd')} and exposes a ${n('prompt_response','newco_funding_gap_usd')} gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
 """)
     else:out.append('Scenario exports are not yet available; no numerical result is claimed in this build.')
+    out.append('''### Corrected hardware comparison and the next dynamic baseline
+
+Model 0.1.1 corrects a high-memory accounting omission: its synthetic $800 annual configuration charge now appears in both robot branches. Previously C10 omitted that charge, overstating the cost interaction by $800. The same additional power burden already applied to both branches. At 2,000 operating hours, each robot branch incurs $832 above its standard-board counterpart under the specified electricity price. All numerical fields in the eight standard presets remain unchanged; engine, catalog and evidence-provenance hashes are regenerated. The [independent correction review](reviews/high_memory_cost_review.md) records the comparison against the previous committed version.
+
+The next digital extension has a [reviewed design](research/digital_trajectory_design.md), with [independent numerical witnesses](reviews/digital_trajectory_design_review.md), but no implemented annual trajectory runner yet. It proposes three independently specified synthetic paths: human time reduction, signed robot coordination, and annual additional robot digital-service cost. Every annual adoption gate, resource-cost comparison and operating result must use the same contemporaneous values. A lower robot-service price can change cash margins without changing competence; an improving human baseline can weaken adoption even when the combined robot process also gets cheaper.
+
+Implementation must reproduce the corrected scalar engine on constant paths, preserve stock when economic eligibility changes, retain adverse/nonmonotone paths and keep direct changes separate from deployment-mediated learning. The proposed service-cost path does not supply a token-use, failed-attempt or latency model. Existing all-vintage software upgrades, current-condition screening and separate initial-year commercial/monthly-entry references remain explicit limitations. Design acceptance alone does not close the evolving-comparator requirement.
+''')
     experiments = ROOT/'model/results/treasury_witnesses.json'
     if experiments.exists():
         treasury=json.loads(experiments.read_text())
         coordination=json.loads((ROOT/'model/results/coordination_witnesses.json').read_text())
-        for packet in (treasury,coordination):
+        monthly=json.loads((ROOT/'model/results/monthly_deployment_witnesses.json').read_text())
+        for packet in (treasury,coordination,monthly):
             if hashlib.sha256((ROOT/packet['code_path']).read_bytes()).hexdigest()!=packet['code_sha256']:
                 raise SystemExit('Stale isolated experiment export: '+packet['code_path'])
+            for path,digest in packet.get('source_hashes',{}).items():
+                if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
+                    raise SystemExit('Stale experiment dependency: '+path)
         out.append('''## 9. Local experiments: cash settlement and transaction state
 
 These experiments are separate, deterministic **synthetic software witnesses**. They do not supply empirical coefficients, alter the eight deployment scenarios, or establish a jointly funded physical fleet. The treasury design's full monthly physical integration remains incomplete. The coordination fixture neither imports nor runs RMF/ROS and controls no robot. Their narrow purpose is to make important failure cases reproducible before attempting a larger model or target installation.
@@ -115,7 +128,30 @@ Generated source: [treasury_witnesses.json](model/results/treasury_witnesses.jso
             account=next(a for a in treasury['result'][key]['actors'] if a['actor_id']==actor)
             table.append(f"| {key} | {actor} | {account['cash_cents']/100:,.2f} | {meaning} |")
         out.append('\n'.join(table))
-        out.append('''The funded and unfunded paths are alternative worlds, not balances to add. A financial settlement test does not prove that a robot was manufactured, commissioned, supported or reassigned. The yield case tests the payment boundary only; the fee case tests an unpaid liability only. Shared physical allocation, service withdrawal, recovery, customer competition and endogenous reinvestment still need to be connected to the monthly ledger. The core also lacks an automatic payment scheduler, credit-maturity collection/default and interest accrual. Actual financing terms and supplier working capital remain separate empirical questions.
+        out.append('''The funded and unfunded paths are alternative worlds, not balances to add. A financial settlement test does not prove that a robot was manufactured, commissioned, supported or reassigned. The stage-1 yield case tests the payment boundary only; the fee case tests an unpaid liability only. The core also lacks an automatic payment scheduler, credit-maturity collection/default and interest accrual. Actual financing terms and supplier working capital remain separate empirical questions.
+''')
+        out.append('''### Monthly physical progress must also be paid and supported
+
+The next isolated fixture connects that cash core to integer unit identities, compatible components, deterministic accepted/rejected counts, shipment, commissioning and supported service. It uses one provider-owned system, fixed operator assignments and preplanned actions. Opening robots are historically funded stocks; their acquisition cost lies outside the horizon. Output is an exact rational synthetic service flow, not measured customer throughput.
+
+Generated source: [monthly_deployment_witnesses.json](model/results/monthly_deployment_witnesses.json). Each row below is a separate constructed world; closing stocks count units, cash is USD, and output shows each operator's last modeled month. Source hashes cover both the monthly implementation and the treasury dependency.
+''')
+        table=['| Witness | Closing physical stocks | Provider closing cash, USD | Last-month accepted service |','| --- | --- | ---: | --- |']
+        for key,case in monthly['result'].items():
+            row=case['months'][-1]
+            stocks='; '.join(f'{name}: {value}' for name,value in row['closing_stock'].items())
+            outputs=[]
+            for output in row['outputs']:
+                value=output['accepted_output_units']
+                rendered=str(value['numerator']) if value['denominator']==1 else f"{value['numerator']}/{value['denominator']}"
+                outputs.append(output['operator_id']+': '+rendered)
+            table.append(f"| {key} | {stocks} | {row['closing_cash_cents'][case['plan']['provider_actor']]/100:,.2f} | {'; '.join(outputs)} |")
+        out.append('\n'.join(table))
+        out.append('''A paid start at month 0, phase 5 is accepted at month 1, phase 4 and can ship in phase 5 of that same month. With one-month commissioning lead, it commissions at month 2, phase 4 and delivers 25 units at phase 6 under one quarter-rate ramp; its next full month delivers 100. There is no extra finished-stock month or second annual half-year penalty. If commissioning cash is missing, the already paid unit remains in transit and produces zero. If the start is rejected, its manufacturing expense and consumed components remain sunk.
+
+The static shared-allocation case begins with five finished and two installed units. Common support and commissioning limits permit two new incumbent assignments and one entrant assignment, leaving two finished units. The entrant's first-month output is 25, even though its request is ten robots. This tests conservation and actual assignment; it does not connect the separate ENTRY-FG-01 business, simulate customer competition, or establish an entrant return.
+
+Existing installed support has strict priority. Receipts arriving after its phase-3 support attempt cannot retroactively repair that month's service; any unsupported opening installed unit blocks additions under this deliberately conservative policy. Contingent prepayment bookings can be canceled when work is not delivered, while previously earned obligations are not erased. The fixture does not schedule every opening company obligation, model sale/lease terms or operator cash, enforce default/recovery, or make endogenous investments. See [methods and limitations](model/MONTHLY_DEPLOYMENT.md) and [independent review](reviews/monthly_deployment_review.md). The full shared-treasury/entrant requirement remains partial.
 
 ### Coordination: retained uncertainty is sometimes the correct result
 
@@ -133,6 +169,8 @@ Generated source: [coordination_witnesses.json](model/results/coordination_witne
 ### Inspecting the scenario calculation
 
 The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference remains one annual site at the final horizon, without learned increments; changing the display year does not turn it into an installed-fleet estimate. A changed scenario invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
+
+The **Evidence fields** panel adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license selectors. Missing fields can be selected explicitly. A compound geography description remains the source's compound value, and a license label leaves commercial and hardware rights to the full artifact terms. These filters change evidence navigation only; they do not reclassify unknown records or alter scenario populations. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete. See [filter semantics](dashboard/EVIDENCE_FILTERS.md).
 ''')
     out.append('''## 10. What remains unresolved
 

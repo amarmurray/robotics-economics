@@ -109,15 +109,19 @@
       "dependencies_and_completion": "Deeper after HC-01. Complete a bounded comparison when exposure denominators and failure conditions are available.",
       "findings": [
         "BMW exposure lacks complete intervention/support denominators; hospital handoffs and inspection-image quality show operating-system limits.",
-        "Hospital follow-up identifies retained safety accompaniment/handling, phase-time gains and unresolved mission-success counts; no complete paid-support denominator."
+        "Hospital follow-up identifies retained safety accompaniment/handling, phase-time gains and unresolved mission-success counts; no complete paid-support denominator.",
+        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported."
       ],
       "artifacts": [
         "research/capability_learning.md",
         "data/capability_evidence.json",
         "research/field_support_denominators.md",
-        "data/field_support_denominators.json"
+        "data/field_support_denominators.json",
+        "research/onboard_workload_qualification.md",
+        "data/onboard_workload_qualification.json",
+        "reviews/onboard_qualification_review.md"
       ],
-      "next_action": "Obtain a matched all-person-time/accepted-delivery cohort; preserve urgent exclusions and unresolved counts."
+      "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
     },
     {
       "question_id": "RQ-HC-04",
@@ -181,7 +185,8 @@
       "findings": [
         "Learning consumes validation cash and changes future thresholds; annual stock funding is exogenous and does not close a reinvestment treasury.",
         "A reviewed treasury proposal specifies real cash, due obligations, shared entrant cohorts and no duplicated manufacturing charges; full physical/financial integration remains pending.",
-        "An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified."
+        "An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified.",
+        "The isolated monthly fixture now couples paid starts, rejection, shipment, commissioning and supported output with integer identities. Static shared assignments pass conservation, but operator cash, commercial title contracts, competition and annual-engine integration remain absent."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -190,9 +195,12 @@
         "reviews/treasury_design_review.md",
         "model/TREASURY_CORE.md",
         "model/treasury.py",
-        "reviews/treasury_core_review.md"
+        "reviews/treasury_core_review.md",
+        "model/MONTHLY_DEPLOYMENT.md",
+        "model/monthly_deployment.py",
+        "reviews/monthly_deployment_review.md"
       ],
-      "next_action": "Integrate one monthly physical ledger and enforce event phases before adding common entrant/incumbent allocations; retain separate annual reference until conservation tests pass."
+      "next_action": "Apply sale/lease/provider-service contracts and distinct actor cash/title schedules to the same monthly physical plan before integrating one entrant/incumbent demand ledger."
     },
     {
       "question_id": "RQ-SP-04",
@@ -453,7 +461,8 @@
       "findings": [
         "The monthly newco case exposes ramp, receivables and committed-funding gaps; no automatic follow-on capital or empirical financeability is assumed.",
         "Treasury design separates economic feasibility, contractual eligibility, liquidity survival and physical deliverability; no capital availability is inferred.",
-        "An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified."
+        "An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified.",
+        "The isolated monthly fixture now couples paid starts, rejection, shipment, commissioning and supported output with integer identities. Static shared assignments pass conservation, but operator cash, commercial title contracts, competition and annual-engine integration remain absent."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -461,9 +470,12 @@
         "model/treasury_extension_design.md",
         "model/TREASURY_CORE.md",
         "model/treasury.py",
-        "reviews/treasury_core_review.md"
+        "reviews/treasury_core_review.md",
+        "model/MONTHLY_DEPLOYMENT.md",
+        "model/monthly_deployment.py",
+        "reviews/monthly_deployment_review.md"
       ],
-      "next_action": "Integrate one monthly physical ledger and enforce event phases before adding common entrant/incumbent allocations; retain separate annual reference until conservation tests pass."
+      "next_action": "Apply sale/lease/provider-service contracts and distinct actor cash/title schedules to the same monthly physical plan before integrating one entrant/incumbent demand ledger."
     },
     {
       "question_id": "RQ-OS-07",
@@ -578,13 +590,16 @@
       "evidence_method": "Separate training/post-training, inference, harness/tools, model routing and coordination; use matched populations across capability, workflow, economic and adoption gates.",
       "dependencies_and_completion": "W1 mechanism/benchmark map alongside LLM-01/04. Fit only comparable observations; record unsupported response surfaces as scenarios.",
       "findings": [
-        "Supplier scale, benchmark capability and organization-level productivity have different units and denominators; no universal deployment conversion is used."
+        "Supplier scale, benchmark capability and organization-level productivity have different units and denominators; no universal deployment conversion is used.",
+        "A reviewed three-path annual digital design keeps human improvement, signed coordination and robot service cost independent. Exact point witnesses pass; a time-varying runner remains unimplemented."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/digital_trajectory_design.md",
+        "reviews/digital_trajectory_design_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Implement and independently test the versioned annual path resolver and coherent gate/output propagation; require corrected scalar equivalence and actual moving-comparator reversal."
     },
     {
       "question_id": "RQ-LLM-03",
@@ -685,7 +700,8 @@
       "findings": [
         "Three direct-contribution maps keep robot control, fleet/site/enterprise interfaces and R&D separate; integration completeness remains to be tested.",
         "Source-pinned RMF callbacks and retry semantics make integration responsibilities concrete without asserting LLM uplift or stack interoperability.",
-        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result."
+        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
+        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -693,9 +709,12 @@
         "research/coordination_reproducibility.md",
         "model/COORDINATION_TRANSACTION_FIXTURE.md",
         "model/coordination_transactions.py",
-        "reviews/coordination_fixture_review.md"
+        "reviews/coordination_fixture_review.md",
+        "research/onboard_workload_qualification.md",
+        "data/onboard_workload_qualification.json",
+        "reviews/onboard_qualification_review.md"
       ],
-      "next_action": "Specify and independently verify one compatible installation and target business-state contract; compare with a strong deterministic baseline. Preserve unknown outcomes if external reconciliation/finality is unavailable."
+      "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -810,13 +829,17 @@
       "evidence_method": "Versioned latency/memory/bandwidth/precision/power requirements; separate controllers, onboard policies, remote inference and training; qualify substitution.",
       "dependencies_and_completion": "W1 architecture/constraint map with HC-02, FD-02 and LLM-01/08; deeper on sustained workload measurements. Headline TOPS does not complete it.",
       "findings": [
-        "Orin/T5000 LPDDR and H200 HBM differ in architecture, bandwidth, power and use; they are not fungible supply or performance units."
+        "Orin/T5000 LPDDR and H200 HBM differ in architecture, bandwidth, power and use; they are not fungible supply or performance units.",
+        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/onboard_workload_qualification.md",
+        "data/onboard_workload_qualification.json",
+        "reviews/onboard_qualification_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
     },
     {
       "question_id": "RQ-SC-06",

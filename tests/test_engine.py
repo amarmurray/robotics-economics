@@ -11,6 +11,22 @@ from model.packages import load_accepted_packages
 
 
 class ModelAccounting(unittest.TestCase):
+    def test_high_memory_is_the_same_hardware_in_both_robot_branches(self):
+        controls={"capability":1,"capability_progress":0,"uptime":1,
+                  "intervention_minutes":0,"digital_efficiency":0,
+                  "coordination":0,"digital_cost_usd":0}
+        standard=run_scenario(controls)
+        high=run_scenario({**controls,"onboard_configuration":"high_memory"})
+        for old,new in zip(standard["joint"],high["joint"]):
+            self.assertEqual(new["C00"],old["C00"])
+            self.assertEqual(new["C01"],old["C01"])
+            # Explicit witness: $800 annual board charge plus $32 electricity
+            # at 2,000 hours, 0.1 extra kW, $0.16/kWh, in each robot branch.
+            for branch in ("C10","C11"):
+                self.assertAlmostEqual(new[branch]-old[branch],832)
+            self.assertAlmostEqual(new["C11"]-new["C10"],600)
+            self.assertAlmostEqual(new["cost_interaction"],old["cost_interaction"])
+
     @classmethod
     def setUpClass(cls):
         cls.c=catalog()

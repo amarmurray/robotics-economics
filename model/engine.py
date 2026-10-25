@@ -82,9 +82,11 @@ def operation(cell, system, p, cap, digital=True):
     support_hours = 2000 * p["intervention_minutes"] / 60 + system["maintenance_hours_year"]
     memory_extra = 800 if p["onboard_configuration"] == "high_memory" else 0
     electricity = available_hours * (system["power_kw"] + (0.1 if memory_extra else 0)) * .16
-    opex = system["maintenance_usd_year"] + support_hours * 38 + electricity
+    # The board configuration is shared by both robot comparison branches.
+    # Its annual resource charge must not depend on additional digital software.
+    opex = system["maintenance_usd_year"] + support_hours * 38 + electricity + memory_extra
     if digital:
-        opex += p["digital_cost_usd"] + memory_extra
+        opex += p["digital_cost_usd"]
     return {"accepted_units": accepted_units, "available_robot_hours": available_hours,
             "support_hours": support_hours, "robot_operating_cost_usd": opex,
             "human_hours_per_unit": cell["human_hours_per_unit"] * (1 - d),

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.3.
+Handoff ID: week-one-2026-10-25-in-progress-0.4.
 
 ## Accepted direction
 
@@ -63,11 +63,25 @@ The isolated `model/treasury.py` core implements immutable integer-cent actor ba
 
 The separate `model/coordination_transactions.py` fixture exercises four paired dispatch experiments (eight traces) and two cancellation traces. Durable local intent plus an explicitly assumed authoritative external lookup/finality contract blocks blind retry under ambiguity. Unknown remains unknown, partial effects survive cancellation, and discovered conflicts revoke current completion credit. This is a serial cooperative mock with a deliberately weak comparator, not an installed RMF replay, production prototype or physical/economic performance estimate. The next step needs a compatible installation and strong conventional baseline before target claims.
 
-The dashboard's joint comparison tables now expose exact engine-derived intermediate costs, inputs, function excerpts and scenario hashes. Independent review caught a stale-scenario modal race; scenario changes now invalidate the trace. Full result lineage elsewhere remains incomplete. `scripts/export_experiments.py` generates separate synthetic witness exports; the report verifies their code hashes. The original engine, numerical catalog, eight scenario outputs, evidence packages and the user's staging plan remain unchanged.
+The dashboard's joint comparison tables now expose exact engine-derived intermediate costs, inputs, function excerpts and scenario hashes. Independent review caught a stale-scenario modal race; scenario changes now invalidate the trace. Full result lineage elsewhere remains incomplete. `scripts/export_experiments.py` generates separate synthetic witness exports; the report verifies their code hashes. At that edition, the original engine, numerical catalog, eight scenario outputs, evidence packages and the user's staging plan remained unchanged.
 
 The requirement register remains **47 bounded items met and 17 partial**. Current validation and independent-review scope are in `ACCEPTANCE_AUDIT.md` and the new treasury, coordination, lineage and report-integration reviews. No new source claims or empirical coefficients were introduced by these software witnesses. Publication receipts remain local operational records, and publication does not establish another session's consumption.
 
 **Next question:** Can one monthly physical ledger enforce cash and resource reservations together, including exact completion/shipment/commissioning phases, before an entrant and incumbent compete for the same supported fleet? Preserve the existing reference edition until that integration passes independent conservation and adverse-case tests. Learning from the full report can begin immediately when Amar engages. The original campaign deadline remains unchanged.
+
+## Monthly progress and workload-qualification edition
+
+The approximately 36,000-word `REPORT.md` now contains five reviewed follow-ups, including onboard workload qualification. The eleven-package registry contains 130 claims. The Thor/GR00T recipe is source-inspectable, but its component-sum latency, first-observation replay, differing warm-ups and conflicting published tables do not establish sustained deadlines, runtime resource headroom or accepted physical output. A guarded source-arithmetic helper reproduces the nominal interval comparisons while keeping deadline-miss rate and sustained throughput unknown.
+
+`model/monthly_deployment.py` connects the accepted treasury to one provider-owned integer physical plan, with exact rational service output. Six generated witnesses cover phase timing, static shared assignments, future receipts, absent components, unpaid commissioning and paid rejection. Independent replay and seeded adverse plans pass. This is an isolated fixture: separate operator cash/title contracts, competition, mandatory-company/default scheduling, autonomous investment and the annual/newco bridge remain outside it. `scripts/export_experiments.py` includes both monthly and treasury dependency hashes.
+
+A consequential inherited model defect was corrected in version 0.1.1: the synthetic high-memory annual charge now appears in both robot comparison branches. All 34,659 numerical fields across the eight standard presets remain identical; high-memory C10 rises by $800 and the cost interaction falls by $800. Engine/catalog/source fingerprints and saved exports were regenerated. The previous committed edition remains available for exact historical reproduction.
+
+The dashboard adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license filters. Missingness is selectable and source-reference drilldowns remain accessible. Resource-grade classification and comprehensive typed joins remain incomplete. The approved `research/digital_trajectory_design.md` specifies three independent annual paths and exact point witnesses; the trajectory runner is still unimplemented.
+
+Current validation: 92 Python tests, 17 facet assertions, strict evidence validation, independent source/model/design reviews, browser source/trace/filter checks and deterministic exports. The acceptance register remains 47 bounded met and 17 partial. No new empirical coefficients or claimed field execution were introduced. The original T0/deadline and the user's staging plan are preserved.
+
+**Next actions:** implement the reviewed annual digital-path resolver with constant-path equivalence; apply alternative sale/lease/service cash/title contracts to the same monthly physical plan before integrating shared entrant/incumbent demand. Advance target workload qualification only when new execution artifacts or separately authorized measurements are available. Keep the fulsome report as the primary handoff, and use the walkthrough when Amar engages.
 
 ## Canonical artifacts and ownership
 

@@ -8,6 +8,7 @@
 <label>Scenario year<select id="year-filter"></select></label>
 <label>Evidence search<input id="evidence-search" type="search" placeholder="System, actor, claim, status…"></label>
 <label>Source status<select id="status-filter"><option value="all">All evidence statuses</option></select></label>
+<details><summary>Evidence fields</summary><p class="scope-note">Exact recorded fields. These filters change evidence only. Missing fields are excluded by a selected value; source drilldowns remain accessible.</p><div id="evidence-facets"></div><button id="clear-facets" class="wide">Clear evidence fields</button><div id="facet-scope" class="scope-note" role="status"></div></details>
 <div class="scope-note">Model filters select a constructed cohort. Evidence without a cell link appears as a labeled reference record.</div>
 <h2>Scenario assumptions</h2><label>Saved scenario<select id="preset"></select></label>
 <div id="controls"></div><button id="reset" class="wide">Reset to saved scenario</button>
@@ -20,4 +21,4 @@
 <footer><a href="/model/METHODS.md" target="_blank">Methods and limitations</a><span id="model-hash"></span><button id="download-csv">Export selected cohort CSV</button></footer>
 </main></div>
 <dialog id="evidence-dialog"><button id="close-dialog" class="close">Close ×</button><div id="evidence-detail"></div></dialog>
-<script src="/dashboard/app.js"></script></body></html>
+<script src="/dashboard/facets.js"></script><script src="/dashboard/app.js"></script></body></html>

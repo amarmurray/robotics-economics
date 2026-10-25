@@ -88,3 +88,48 @@ reviews/coordination_fixture_review.md  86458201894d4d85a37ce23a7aaa69e48efda328
 ```
 
 No report, builder, exporter, implementation or source dossier was edited by this reviewer. This is acceptance of accurate integration at the recorded snapshot, not publication or completion of the campaign.
+
+## Final addendum: edition 0.4 integration
+
+The lead authorized a final bounded recheck of the **36,045-word edition 0.4**: the onboard-workload follow-up and one new executive paragraph; section 8's high-memory correction and proposed digital trajectories; section 9's six monthly-deployment rows and interpretation; and the evidence-filter note. **Disposition: pass. No integration correction is required.** This supersedes the earlier snapshot hashes and counts for these integration artifacts, without expanding into a new source audit of every report chapter.
+
+The onboard analysis appears in full exactly once within the digital-infrastructure chapter. Its paired package is explicitly accepted. The executive paragraph accurately describes an inspectable recipe and vendor-reported component-sum speed improvement while preserving missing sustained sensor-to-actuator deadlines, runtime memory headroom, environmental conditions and target accepted service. It does not transfer the benchmark to a named Unitree configuration or infer robot throughput from the reciprocal median.
+
+The integrated follow-up retains the tutorial-versus-patch timing conflict, separate `libero_10` timing and LIBERO Spatial success populations, repeated-observation default, warm-up discrepancy, incomplete run provenance, disk-storage versus runtime-memory distinction, and PyTorch-server/TensorRT-wrapper limitation. Static patch applicability remains separate from runtime reproduction. This recheck read the accepted dossier and [its independent primary-source review](onboard_qualification_review.md); no primary source was fetched again.
+
+Section 8 accurately reports the accepted correction to the synthetic high-memory comparison: an omitted 800 USD annual charge is restored to C10, reducing the overstated interaction by the same amount. The conditional 832 USD witness includes 2,000 hours of additional power at the specified rate; it is not a measured board cost. The report distinguishes unchanged standard-preset numerical fields from regenerated version/provenance hashes. These statements match [the independent correction review](high_memory_cost_review.md), whose corrected engine hash matches the current engine.
+
+The trajectory paragraph correctly calls the next extension a reviewed design with point witnesses and **no implemented annual trajectory runner**. It preserves three separate paths—human time reduction, signed robot coordination and robot digital-service expense—and requires contemporaneous values throughout admission and operation. It does not claim token-use, failed-attempt or latency economics. Constant-path compatibility, stock preservation, adverse/nonmonotone paths and separation from deployment-mediated learning remain requirements for future implementation. The all-vintage upgrade convention, current-condition screening and separate initial-year commercial/monthly-entry reference remain limitations. This conclusion relies on [the independent design review](digital_trajectory_design_review.md), not on a new execution of the proposed paths.
+
+The monthly section agrees with [the completed stage 2 review](monthly_deployment_review.md). All six table rows exactly reproduce final-month physical stocks, provider cash and per-operator rational output from the exported artifact. The heading says **last-month** output, so witness 8's table value 100 does not conflict with the separately explained first-month output 25. The static allocation table's incumbent 250 and entrant 25 are separate operator outputs in one common stock pool; each table row remains an alternative constructed world rather than additive fleet evidence.
+
+The interpretation preserves paid start/acceptance/shipment/commissioning phases, sunk rejected-unit costs, zero output from unfunded transit, one first-month ramp, strict existing-support priority and the phase-4 receipt restriction. It distinguishes cancellable unperformed prepayments from previously earned obligations. Static assignment is explicitly separate from ENTRY-FG-01, customer competition and entrant returns. The text does not turn paid physical progress into a company-wide mandatory-payment/default/recovery scheduler, operator-cash model, title contract or autonomous investment policy. The full shared-treasury/entrant requirement remains partial.
+
+The evidence-filter paragraph matches [the independent facet review](evidence_facets_review.md) and the filter methods. It describes exact source fields, selectable missingness and compound values, preserves artifact-license limits, and makes no scenario-population or empirical-value change. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete.
+
+Read-only checks confirmed:
+
+- All **five complete follow-ups** and the current executive chapter each appear exactly once after the builder's documented transformation.
+- All **three experiment packets** exactly equal fresh authoritative function results after JSON normalization. Their primary code hashes and every declared dependency hash match current files. The monthly packet explicitly includes both `monthly_deployment.py` and `treasury.py`.
+- Every one of the **six monthly table rows** matches the exported final-month stocks, cash and exact rational service, without a new economic formula in the builder.
+- All **49 local Markdown link occurrences**, comprising **43 distinct local file targets**, resolve.
+
+The exporter was imported and its return values compared without invoking its file writer. The report was not rebuilt by this reviewer. The builder's hash checks detect changed declared code/dependency bytes against these packets; they do not authenticate artifacts, establish complete transitive dependencies for arbitrary future modules, or guarantee an atomic hot-reload snapshot.
+
+Final edition 0.4 SHA-256 identities:
+
+```text
+REPORT.md                               f70a6a72ad5126b055ac7ba61d5be95b12459802410ae1948d2733cace3c85bc
+scripts/build_report.py                  7280630b7fc836e3041726ba447dc15b3d11fa8873422ef4173d68a2f12f0337
+scripts/export_experiments.py            ee31b252baad52634face201b46536b17b313ca2d64461bfd73607f479508a1e
+research/integrated_decisions.md         f7d8e2ceab3974773666f1ecd6a1408b0915d2c889031ba92178ec57b4889e42
+research/onboard_workload_qualification.md ce6a6a7a6d067eb78b55760efcf45c92fa2d349734b9bab91f33d3ce9eaace32
+research/digital_trajectory_design.md    142ca7bfb5b478f2ef1885700b6809720cb0c8232cb22e4fd44206ec9eb5d16f
+model/engine.py                         0c35c6f2602d29a60a6bc187c013c0e4dd9a3597064cf67bed5a1ecc616a8d07
+model/results/treasury_witnesses.json    164ed55dc23dbee6d65d62d2e46f9fbd1d04ff43602474680d3b3721fdc5b9cc
+model/results/coordination_witnesses.json 9e3a63f4368a3c21f4ec1cd0f55e6b51ea30402facc1e66ac7b45a983b774fd5
+model/results/monthly_deployment_witnesses.json 4a388bff561ed890460a048787a38e3882f5aebe63ea0cf7aadd5a725fc20e15
+dashboard/EVIDENCE_FILTERS.md            6283d764dca6369eaaf3f35fac444f9fc17c8ad2c21a0a86e068640c6babdfff
+```
+
+This final addendum accepts the specified report integration at the recorded snapshot. It does not claim a new whole-report primary-source audit, a completed trajectory implementation, full company/physical-engine validation, empirical calibration, browser certification or publication. No further work is required for this bounded integration review.

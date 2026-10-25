@@ -1,10 +1,33 @@
 import copy
 import unittest
 from model.research_calculations import research_summary, tac_cost_summary, field_support_summary, ROOT
+from model.research_calculations import onboard_timing_summary
+from unittest.mock import patch
 import json
 
 
 class SourceArithmetic(unittest.TestCase):
+    def test_onboard_summary_preserves_qualification_missingness(self):
+        packet=json.loads((ROOT/'data/onboard_workload_qualification.json').read_text())
+        summary=onboard_timing_summary(packet)
+        self.assertEqual([v['value'] for v in summary['calculations'].values()],[40,.1,1])
+        self.assertIsNone(summary['deadline_miss_rate'])
+        self.assertIsNone(summary['sustained_policy_throughput'])
+        with patch('model.packages.load_accepted_packages',return_value={'packages':[]}):
+            result=research_summary()
+        self.assertNotIn('onboard_timing',result)
+        self.assertNotIn('onboard_workload_qualification.json',result['source_snapshot_sha256'])
+
+    def test_onboard_wrong_units_populations_and_stale_arithmetic_fail(self):
+        original=json.loads((ROOT/'data/onboard_workload_qualification.json').read_text())
+        for field,value in [('unit','seconds'),('population','different task suite'),('period','different run'),('value',None),('value',-1)]:
+            packet=copy.deepcopy(original)
+            metric=next(q for e in packet['evidence'] for q in e.get('quantities',[]) if q['metric_id']=='OWQ-M02')
+            metric[field]=value
+            with self.assertRaises(ValueError):onboard_timing_summary(packet)
+        original['calculations'][0]['value']=50
+        with self.assertRaises(ValueError):onboard_timing_summary(original)
+
     def test_published_rows_and_conflict_remain_separate(self):
         result = research_summary()
         field = result['field_support']

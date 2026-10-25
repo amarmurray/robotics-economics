@@ -1,0 +1,702 @@
+{
+  "schema_version": "onboard-workload-qualification-1.0",
+  "version": "2026-10-25-v0.1",
+  "retrieved_at": "2026-10-25T17:43:10Z",
+  "status": "bounded_owner_draft_awaiting_independent_review",
+  "repository_provenance": "Ignored sync_receipt.json; observed repository commit is operational provenance",
+  "model_configuration": {
+    "requested": "GPT-6 Astra / Ultra",
+    "verification": "Inherited worker serving model and effort not independently introspectable"
+  },
+  "scope": {
+    "workstreams": [
+      "H1",
+      "H2",
+      "H4",
+      "I"
+    ],
+    "question_ids": [
+      "RQ-SC-05"
+    ],
+    "cell_ids": [
+      "CELL-M05-auto-assembly-US-2025",
+      "CELL-M08-3pl-tote-US-2025"
+    ],
+    "source_boundary": "One same-board policy comparison; ROS methodology alternative screen; no matched Orin/Thor speed ratio",
+    "adds_labor_totals": false,
+    "calibrates_engine": false,
+    "hardware_or_gpu_run": false,
+    "model_or_dataset_download": false
+  },
+  "evidence": [
+    {
+      "evidence_id": "OWQ-E01",
+      "schema_version": "evidence-1.0",
+      "title": "Isaac GR00T 1.7 on Jetson Thor: pinned tutorial",
+      "url": "https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/2fcbe216dbaf6301103e03a177a1980a426c6ae7/src/content/tutorials/vla/groot_n17_on_thor.md",
+      "publisher": "NVIDIA",
+      "publication_date": "2026-08-13",
+      "observation_period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "retrieved_at": "2026-10-25T17:43:10Z",
+      "source_class": "primary",
+      "epistemic_status": "vendor_reported_benchmark_and_reproduction_recipe",
+      "claim": "The same Thor developer kit recipe reports approximately 81 ms baseline TensorRT and 39.9 ms optimized mixed NVFP4 E2E median, but supplies no measured sustained power, memory occupancy or physical service output. Optimizations and quantization change together.",
+      "locator": "Performance; How the Optimization Works; Hardware/Software; Steps 1, 3.1\u20133.2, 5, 6, 9.3, 10; Deploying in Your Own Code",
+      "limitations": "Twenty iterations and component-derived timing are not a control deadline. Exact experiment date, board revision, model/dataset revision, run manifest and raw samples are absent from recovered artifacts. Source file date is not experiment date. No independent hardware reproduction.",
+      "quantities": [
+        {
+          "metric_id": "OWQ-M01",
+          "metric": "Baseline TensorRT E2E median",
+          "value": 81,
+          "unit": "ms",
+          "denominator": "20 reported timing iterations; median of component sums",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Performance table",
+          "qualifier": "approximately"
+        },
+        {
+          "metric_id": "OWQ-M02",
+          "metric": "Optimized mixed NVFP4 E2E median",
+          "value": 39.9,
+          "unit": "ms",
+          "denominator": "20 reported timing iterations; median of component sums",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Step 9.3 expected output"
+        },
+        {
+          "metric_id": "OWQ-M03",
+          "metric": "Optimized mixed NVFP4 E2E mean",
+          "value": 41.0,
+          "unit": "ms",
+          "denominator": "20 reported timing iterations; arithmetic mean of component sums",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Step 9.3 expected output"
+        },
+        {
+          "metric_id": "OWQ-M04",
+          "metric": "Optimized mixed NVFP4 E2E standard deviation",
+          "value": 1.8,
+          "unit": "ms",
+          "denominator": "20 reported timing iterations; np.std, not standard error",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Step 9.3 expected output; OWQ-E02 summary code"
+        },
+        {
+          "metric_id": "OWQ-M05",
+          "metric": "Advertised reciprocal-median frequency",
+          "value": 25.1,
+          "unit": "Hz",
+          "denominator": "1000 / reported E2E median in milliseconds; not sustained loop throughput",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Performance; Step 9.3 expected output"
+        },
+        {
+          "metric_id": "OWQ-M06",
+          "metric": "Reported measured iterations",
+          "value": 20,
+          "unit": "iterations",
+          "denominator": "Each timing array in short benchmark",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Performance"
+        },
+        {
+          "metric_id": "OWQ-M07",
+          "metric": "Batch size",
+          "value": 1,
+          "unit": "observations per batch",
+          "denominator": "Static exported engine batch",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "published_recipe_setting",
+          "locator": "Performance; Step 9.3 batch warning"
+        },
+        {
+          "metric_id": "OWQ-M08",
+          "metric": "Camera count",
+          "value": 1,
+          "unit": "cameras",
+          "denominator": "Observation camera views in reported timing setup",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "published_recipe_setting",
+          "locator": "Performance"
+        },
+        {
+          "metric_id": "OWQ-M09",
+          "metric": "Denoising steps",
+          "value": 4,
+          "unit": "steps per policy call",
+          "denominator": "Action-head flow-matching loop",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "published_recipe_setting",
+          "locator": "Performance"
+        },
+        {
+          "metric_id": "OWQ-M10",
+          "metric": "Calibration samples",
+          "value": 10,
+          "unit": "samples",
+          "denominator": "Quantization calibration input selection; not validation episodes",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "published_recipe_setting",
+          "locator": "Step 9.3"
+        },
+        {
+          "metric_id": "OWQ-M11",
+          "metric": "Final action cosine similarity",
+          "value": 0.999743,
+          "unit": "cosine similarity",
+          "denominator": "Expected forward-output comparison against PyTorch; not accepted-task rate",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Step 9.3 expected output"
+        },
+        {
+          "metric_id": "OWQ-M12",
+          "metric": "Recommended free disk space",
+          "value": 60,
+          "unit": "GB of storage",
+          "denominator": "Container, generated engine builds and assets; not runtime memory",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_storage_recommendation",
+          "locator": "Hardware",
+          "qualifier": "approximately"
+        },
+        {
+          "metric_id": "OWQ-M27",
+          "metric": "Advertised rounded policy frequency",
+          "value": 25,
+          "unit": "Hz",
+          "denominator": "Introductory rate claim; not validated sustained control",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Introduction"
+        }
+      ],
+      "publication_date_kind": "source_file_last_commit",
+      "access": "full_primary_web_text_and_pinned_raw_source",
+      "source_versions": {
+        "tutorial_commit": "2fcbe216dbaf6301103e03a177a1980a426c6ae7",
+        "upstream_code_commit": "9c7e746b2cd37a810070a98ef41d290a07e806c2",
+        "patch_commit": "522b964711d2a02cd880f0a2f2cea7ef313d14fc"
+      },
+      "content_sha256": "a57f61e51d158e9f829a6b12c9022fc84bc6a3f8802c036b851dc370d62f6d52"
+    },
+    {
+      "evidence_id": "OWQ-E02",
+      "schema_version": "evidence-1.0",
+      "title": "Pinned GR00T timing harness and applied optimization patch",
+      "url": "https://github.com/NVIDIA/Isaac-GR00T/blob/9c7e746b2cd37a810070a98ef41d290a07e806c2/scripts/deployment/benchmark_inference.py",
+      "publisher": "NVIDIA",
+      "publication_date": "2026-07-08",
+      "observation_period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "retrieved_at": "2026-10-25T17:43:10Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_code_inspection_not_workload_execution",
+      "claim": "E2E is an elementwise sum of separately measured preprocessing and synchronized backbone/action-head timings. Default recipe uses episode 0 step 0, with mode-specific warm-ups; it does not measure uninterrupted sensor-to-actuator latency.",
+      "locator": "benchmark_inference.py: prepare_model_inputs; compute_e2e_from_components (lines 168\u2013170); benchmark_data_processing; benchmark_components; BenchmarkConfig; main; build_trt_pipeline.py: _run_benchmark and PipelineConfig.workspace",
+      "limitations": "CPU-only source inspection. No model, dataset, container, engine or GPU execution. Code configuration identifies default recipe semantics, not proof of exact undisclosed run arguments. No original per-iteration timing arrays recovered.",
+      "quantities": [
+        {
+          "metric_id": "OWQ-M13",
+          "metric": "Preprocessing warm-up iterations",
+          "value": 10,
+          "unit": "iterations",
+          "denominator": "Each separate preprocessing benchmark call",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "code_default_setting",
+          "locator": "benchmark_data_processing and main"
+        },
+        {
+          "metric_id": "OWQ-M14",
+          "metric": "Eager GPU warm-up iterations",
+          "value": 5,
+          "unit": "iterations",
+          "denominator": "Default BenchmarkConfig.warmup passed to benchmark_components",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "code_default_setting",
+          "locator": "BenchmarkConfig and main"
+        },
+        {
+          "metric_id": "OWQ-M15",
+          "metric": "Compiled GPU warm-up iterations",
+          "value": 7,
+          "unit": "iterations",
+          "denominator": "Default warmup + 2 for torch.compile mode",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "code_default_setting",
+          "locator": "main, compiled branch"
+        },
+        {
+          "metric_id": "OWQ-M16",
+          "metric": "TensorRT GPU warm-up iterations",
+          "value": 10,
+          "unit": "iterations",
+          "denominator": "max(default warmup + 5, 10)",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "code_default_setting",
+          "locator": "main, TensorRT branch"
+        },
+        {
+          "metric_id": "OWQ-M17",
+          "metric": "TensorRT builder workspace default",
+          "value": 8192,
+          "unit": "MB",
+          "denominator": "Build workspace limit; not runtime footprint or installed RAM",
+          "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+          "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+          "measurement_status": "code_default_setting",
+          "locator": "build_trt_pipeline.py PipelineConfig.workspace"
+        }
+      ],
+      "publication_date_kind": "upstream_source_commit",
+      "related_urls": [
+        "https://github.com/NVIDIA/Isaac-GR00T/blob/9c7e746b2cd37a810070a98ef41d290a07e806c2/scripts/deployment/build_trt_pipeline.py",
+        "https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/522b964711d2a02cd880f0a2f2cea7ef313d14fc/public/code-samples/groot_n17_on_thor/groot-n17-trt-optimization.patch"
+      ],
+      "base_benchmark_sha256": "2cd4051a145cd2ce37a8cdf98244ce35a33f768dd8b15643b5705597eb4a29c0",
+      "patched_benchmark_sha256": "31e4fcf562d256257269c5c4d943cfb503ec831e34126b2da6847694f171ba33",
+      "access": "pinned_source_download_and_patch_application_without_imports"
+    },
+    {
+      "evidence_id": "OWQ-E03",
+      "schema_version": "evidence-1.0",
+      "title": "Optimization patch: discrepant timing table and separate Spatial success claim",
+      "url": "https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/522b964711d2a02cd880f0a2f2cea7ef313d14fc/public/code-samples/groot_n17_on_thor/groot-n17-trt-optimization.patch",
+      "publisher": "NVIDIA",
+      "publication_date": "2026-07-31",
+      "observation_period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+      "retrieved_at": "2026-10-25T17:43:10Z",
+      "source_class": "primary",
+      "epistemic_status": "vendor_claim_with_unresolved_run_provenance",
+      "claim": "Patch README reports a second timing table labelled JetPack 7.2: baseline TensorRT 93.8 ms and optimized 38.9 ms. It also claims 97.3% versus 97.5% success across three 200-episode LIBERO Spatial rounds. These cannot be silently joined to the tutorial timing setup.",
+      "locator": "Patch added scripts/deployment/README.md, Optimized TensorRT Result; full patch lines 68\u201391",
+      "limitations": "Tutorial numbers and patch numbers differ. Tutorial attributes prior 2.41x comparison to JetPack 7.1 but patch itself names 7.2. No run manifests reconcile this. Spatial task suite differs from libero_10; trial outcomes, checkpoint digest, seeds and statistical noninferiority analysis not recovered.",
+      "quantities": [
+        {
+          "metric_id": "OWQ-M18",
+          "metric": "Patch baseline TensorRT E2E",
+          "value": 93.8,
+          "unit": "ms",
+          "denominator": "Patch timing table; original sample manifest unavailable",
+          "population": "Patch README GR00T N1.7 LIBERO timing table on AGX Thor, labelled JetPack 7.2 MAXN; exact checkpoint/run manifest unspecified",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Optimized TensorRT Result"
+        },
+        {
+          "metric_id": "OWQ-M19",
+          "metric": "Patch optimized mixed NVFP4 E2E",
+          "value": 38.9,
+          "unit": "ms",
+          "denominator": "Patch timing table; original sample manifest unavailable",
+          "population": "Patch README GR00T N1.7 LIBERO timing table on AGX Thor, labelled JetPack 7.2 MAXN; exact checkpoint/run manifest unspecified",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_reported_short_benchmark",
+          "locator": "Optimized TensorRT Result"
+        },
+        {
+          "metric_id": "OWQ-M20",
+          "metric": "Claimed optimized Spatial success",
+          "value": 97.3,
+          "unit": "percent",
+          "denominator": "Mean success over three rounds of 200 episodes, per source",
+          "population": "Patch README LIBERO Spatial closed-loop benchmark on Thor, averaged over three rounds of 200 episodes; not the named libero_10 timing checkpoint",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_claim_unrecovered_trial_artifacts",
+          "locator": "Paragraph below patch timing table"
+        },
+        {
+          "metric_id": "OWQ-M21",
+          "metric": "Claimed PyTorch Spatial success",
+          "value": 97.5,
+          "unit": "percent",
+          "denominator": "Mean success over three rounds of 200 episodes, per source",
+          "population": "Patch README LIBERO Spatial closed-loop benchmark on Thor, averaged over three rounds of 200 episodes; not the named libero_10 timing checkpoint",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_claim_unrecovered_trial_artifacts",
+          "locator": "Paragraph below patch timing table"
+        },
+        {
+          "metric_id": "OWQ-M22",
+          "metric": "Spatial episodes per round",
+          "value": 200,
+          "unit": "episodes",
+          "denominator": "One closed-loop simulation round, per source",
+          "population": "Patch README LIBERO Spatial closed-loop benchmark on Thor, averaged over three rounds of 200 episodes; not the named libero_10 timing checkpoint",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_claim_unrecovered_trial_artifacts",
+          "locator": "Paragraph below patch timing table"
+        },
+        {
+          "metric_id": "OWQ-M23",
+          "metric": "Spatial rounds",
+          "value": 3,
+          "unit": "rounds",
+          "denominator": "Reported aggregation rounds; seeds and raw outcomes unavailable",
+          "population": "Patch README LIBERO Spatial closed-loop benchmark on Thor, averaged over three rounds of 200 episodes; not the named libero_10 timing checkpoint",
+          "period": "Experiment date unspecified; optimization patch committed 2026-07-31",
+          "measurement_status": "vendor_claim_unrecovered_trial_artifacts",
+          "locator": "Paragraph below patch timing table"
+        }
+      ],
+      "publication_date_kind": "patch_source_commit",
+      "content_sha256": "6a818bfcbb149c0f0efa8567ecc0fd6909613bc53e00e08f66bb81c8c601d5a3",
+      "access": "full_patch_text_static_download_equal_to_pinned_repository_bytes"
+    },
+    {
+      "evidence_id": "OWQ-E04",
+      "schema_version": "evidence-1.0",
+      "title": "Isaac ROS 5.0 performance metric definition",
+      "url": "https://nvidia-isaac-ros.github.io/v/release-5.0/performance/index.html",
+      "publisher": "NVIDIA",
+      "publication_date": "2026-09-21",
+      "observation_period": "Release 5.0 update 2026-09-21; experiment dates unspecified",
+      "retrieved_at": "2026-10-25T17:43:10Z",
+      "source_class": "primary",
+      "epistemic_status": "vendor_benchmark_methodology",
+      "claim": "Isaac ROS summary latency is first sent frame to first received frame in a separate 30 Hz trial, not a steady-state tail distribution. Throughput targets less than 5% frame loss with some reported runs above target, averaging five runs after discarding min and max.",
+      "locator": "Performance Summary, Methodology; benchmark package Updates table for release date",
+      "limitations": "Bounded alternative screen only: no individual result card, board comparison or deadline calibration is admitted. Release date is not each experiment date; versioned web path can still change.",
+      "quantities": [
+        {
+          "metric_id": "OWQ-M24",
+          "metric": "Latency trial input frequency",
+          "value": 30,
+          "unit": "Hz",
+          "denominator": "Separate first-frame timing trial",
+          "population": "Isaac ROS 5.0 published performance summary methodology",
+          "period": "Release 5.0 update 2026-09-21; actual experiment dates unspecified",
+          "measurement_status": "vendor_method_setting",
+          "locator": "Methodology"
+        },
+        {
+          "metric_id": "OWQ-M25",
+          "metric": "Throughput target frame-loss threshold",
+          "value": 5,
+          "unit": "percent",
+          "denominator": "Offered frames in auto-tuned throughput trial; some runs exceed target",
+          "population": "Isaac ROS 5.0 published performance summary methodology",
+          "period": "Release 5.0 update 2026-09-21; actual experiment dates unspecified",
+          "measurement_status": "vendor_method_setting",
+          "locator": "Methodology",
+          "qualifier": "strictly_less_than_target_not_guaranteed"
+        },
+        {
+          "metric_id": "OWQ-M26",
+          "metric": "Throughput runs before trimming",
+          "value": 5,
+          "unit": "runs",
+          "denominator": "Discard minimum and maximum before averaging remaining runs",
+          "population": "Isaac ROS 5.0 published performance summary methodology",
+          "period": "Release 5.0 update 2026-09-21; actual experiment dates unspecified",
+          "measurement_status": "vendor_method_setting",
+          "locator": "Methodology"
+        }
+      ],
+      "publication_date_kind": "release_update_date",
+      "related_urls": [
+        "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_benchmark/index.html"
+      ],
+      "access": "full_primary_web_text"
+    }
+  ],
+  "benchmark_cards": [
+    {
+      "benchmark_id": "OWQ-B01",
+      "title": "Thor same-device GR00T N1.7 baseline versus bundled optimized mixed precision",
+      "evidence_ids": [
+        "OWQ-E01",
+        "OWQ-E02",
+        "OWQ-E03"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "qualification_status": "inspectable_recipe_not_sustained_deployment_qualification",
+      "measured_here": false,
+      "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+      "observation_period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "hardware": {
+        "board": "Jetson AGX Thor Developer Kit",
+        "revision": null,
+        "revision_missing_reason": "Not stated for measured run",
+        "power_mode": "MAXN; nvpmodel -m 0; jetson_clocks",
+        "measured_power_w": null,
+        "measured_power_w_missing_reason": "No power trace recovered",
+        "thermal_environment": null,
+        "thermal_environment_missing_reason": "No ambient, cooling or soak record recovered"
+      },
+      "software": {
+        "jetpack": "7.2",
+        "cuda_container_base": "nvidia/cuda:13.0.0-devel-ubuntu24.04",
+        "pytorch": "2.10.0",
+        "tensorrt": "10.15.1.29",
+        "modelopt": "0.39.0",
+        "upstream_commit": "9c7e746b2cd37a810070a98ef41d290a07e806c2",
+        "optimization_patch_commit": "522b964711d2a02cd880f0a2f2cea7ef313d14fc",
+        "container_digest": null,
+        "container_digest_missing_reason": "Tutorial gives mutable image tag and build procedure, not original measured-run digest"
+      },
+      "workload": {
+        "checkpoint": "nvidia/GR00T-N1.7-LIBERO/libero_10",
+        "checkpoint_revision": null,
+        "checkpoint_revision_missing_reason": "hf download command has no revision; original digest not supplied",
+        "dataset": "demo_data/libero_demo for timing; IPEC-COMMUNITY/libero_10_no_noops_1.0.0_lerobot for calibration",
+        "camera_input_shapes": null,
+        "camera_input_shapes_missing_reason": "Tutorial identifies one camera but no input tensor dimensions bound to measured run",
+        "action_horizon": null,
+        "action_horizon_missing_reason": "Harness reads checkpoint; no exact printed run manifest recovered",
+        "input_selection": "Default recipe repeats episode 0 step 0; use_trajectory defaults false",
+        "batch_metric_id": "OWQ-M07",
+        "camera_metric_id": "OWQ-M08",
+        "denoising_metric_id": "OWQ-M09",
+        "calibration_metric_id": "OWQ-M10"
+      },
+      "baseline": {
+        "precision": "ViT FP32; LLM/DiT/aux BF16",
+        "execution_profile": "baseline",
+        "latency_metric_id": "OWQ-M01"
+      },
+      "treatment": {
+        "precision": "ViT FP8; LLM and DiT mixed NVFP4 with FP8 exceptions; aux FP16",
+        "execution_profile": "optimized; KV hoisting, timestep precomputation, fusion and action-head CUDA graph",
+        "latency_metric_id": "OWQ-M02",
+        "isolates_precision_effect": false
+      },
+      "timing": {
+        "statistic": "Median of elementwise component-time sums, preprocessing measured separately and shared across modes",
+        "included": "Input processor/collation and dtype conversion; synchronized backbone; synchronized action-head get_action",
+        "excluded": "Load/build; live camera capture; sensor freshness; network server; final robot-action postprocessing/transport; actuators; safety handling; completed service",
+        "raw_samples": null,
+        "raw_samples_missing_reason": "Not linked in recovered tutorial/patch bundle",
+        "sustained_duration": null,
+        "sustained_duration_missing_reason": "Twenty short measurement iterations do not disclose thermal steady-state duration",
+        "deadline_miss_fraction": null,
+        "deadline_miss_fraction_missing_reason": "No actual end-to-end per-request deadline distribution"
+      },
+      "memory": {
+        "installed_spec_source": "HI-004",
+        "runtime_peak_bytes": null,
+        "runtime_peak_bytes_missing_reason": "No measured peak/runtime allocation trace",
+        "concurrent_workload_headroom_bytes": null,
+        "concurrent_workload_headroom_bytes_missing_reason": "No concurrent perception/control trace",
+        "not_runtime_ram": [
+          "OWQ-M12 disk recommendation",
+          "OWQ-M17 builder workspace"
+        ]
+      },
+      "acceptance": {
+        "source_metric": "Forward cosine similarity plus separately claimed Spatial simulation success",
+        "physical_service_output": null,
+        "physical_service_output_missing_reason": "No matched physical accepted assembly/tote cohort",
+        "human_support": null,
+        "human_support_missing_reason": "No physical deployment episode measured",
+        "retries": null,
+        "retries_missing_reason": "No run-level closed-loop trial artifact recovered"
+      },
+      "model_use": "Qualitative architecture/measurement design only; no engine coefficient, control guarantee or OEM supply estimate"
+    }
+  ],
+  "calculations": [
+    {
+      "calculation_id": "OWQ-C01",
+      "description": "Nominal interval corresponding to advertised 25 Hz",
+      "formula": "1000 / 25",
+      "value": 40.0,
+      "unit": "ms",
+      "denominator": "Source advertised 25 Hz nominal interval and rounded component-derived latency; not target robot deadline",
+      "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+      "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "measurement_status": "source_arithmetic_only_not_execution_measurement",
+      "input_metric_ids": [
+        "OWQ-M27"
+      ],
+      "source_evidence": [
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "permitted_use": "Explain metric boundary; not calibrated scenario input or deadline-miss estimate",
+      "input_context": "25 Hz is tutorial introductory advertised rate, not exact reciprocal of rounded 39.9 ms; full metric OWQ-M27 below."
+    },
+    {
+      "calculation_id": "OWQ-C02",
+      "description": "Nominal interval minus reported component-sum median",
+      "formula": "40 - 39.9",
+      "value": 0.1,
+      "unit": "ms",
+      "denominator": "Source advertised 25 Hz nominal interval and rounded component-derived latency; not target robot deadline",
+      "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+      "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "measurement_status": "source_arithmetic_only_not_execution_measurement",
+      "input_metric_ids": [
+        "OWQ-M02"
+      ],
+      "source_evidence": [
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "permitted_use": "Explain metric boundary; not calibrated scenario input or deadline-miss estimate",
+      "input_calculation_ids": [
+        "OWQ-C01"
+      ]
+    },
+    {
+      "calculation_id": "OWQ-C03",
+      "description": "Reported component-sum mean minus nominal interval",
+      "formula": "41.0 - 40",
+      "value": 1.0,
+      "unit": "ms",
+      "denominator": "Source advertised 25 Hz nominal interval and rounded component-derived latency; not target robot deadline",
+      "population": "Vendor tutorial GR00T-N1.7-LIBERO/libero_10 on Jetson AGX Thor Developer Kit, JetPack 7.2, batch 1, one camera, four denoising steps",
+      "period": "Experiment date unspecified; tutorial source last changed 2026-08-13; code base 2026-07-08 and patch 2026-07-31",
+      "measurement_status": "source_arithmetic_only_not_execution_measurement",
+      "input_metric_ids": [
+        "OWQ-M03"
+      ],
+      "source_evidence": [
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "permitted_use": "Explain metric boundary; not calibrated scenario input or deadline-miss estimate",
+      "input_calculation_ids": [
+        "OWQ-C01"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "OWQ-X01",
+      "evidence_ids": [
+        "OWQ-E01",
+        "OWQ-E03"
+      ],
+      "issue": "Tutorial approximately 81/39.9 ms versus patch 93.8/38.9 ms; patch labels JetPack 7.2 while tutorial describes prior 2.41x ratio as JetPack 7.1. Exact run differences unrecovered.",
+      "resolution": "Unresolved; keep source tables separate; no favorable endpoint selection or cross-table ratio."
+    },
+    {
+      "conflict_id": "OWQ-X02",
+      "evidence_ids": [
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "issue": "Tutorial blanket five warmups versus mode-specific code defaults.",
+      "resolution": "Record both; inspectable recipe uses ten preprocessing, five eager, seven compiled and ten TensorRT warmups; actual run arguments not recovered."
+    },
+    {
+      "conflict_id": "OWQ-X03",
+      "evidence_ids": [
+        "OWQ-E01",
+        "OWQ-E03"
+      ],
+      "issue": "Spatial closed-loop success claim differs from libero_10 timing checkpoint; no linked evaluation manifest.",
+      "resolution": "Separate populations; no equivalence or physical competence inference."
+    }
+  ],
+  "application_tests": [
+    {
+      "application_id": "OWQ-A01",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "source_evidence": [
+        "OWQ-E01",
+        "OWQ-E02",
+        "OWQ-E03"
+      ],
+      "target_evidence": [],
+      "target_evidence_missing_reason": "No matched accepted assembly or tote-output cohort for this checkpoint/board/runtime",
+      "hypothesis": "Onboard pipeline optimization could reduce policy-call delay within a robot-assisted service",
+      "required_test": "Exact policy and observation freshness, action horizon, concurrent workloads and scheduling; raw latency/power/memory traces over sustained duration; accepted closed-loop outputs including failures, retries and assistance",
+      "falsifier": "Optimization changes task error or tail delay enough that accepted service does not improve, or mechanical/support bottlenecks dominate",
+      "permitted_use": "Measurement requirements and qualitative architecture comparison only"
+    },
+    {
+      "application_id": "OWQ-A02",
+      "system_ids": [
+        "SYS-UNITREE-G1-BASE-20261025",
+        "SYS-UNITREE-GO2-EDU-20261025"
+      ],
+      "source_evidence": [
+        "OWQ-E01"
+      ],
+      "target_evidence": [],
+      "target_evidence_missing_reason": "Accepted physical configurations do not identify installation of this Thor/LIBERO pipeline",
+      "hypothesis": "Optional embedded compute could host a compatible policy after separate validation",
+      "required_test": "Verify module/carrier/software/policy/embodiment compatibility; rebuild hardware-specific engines; qualify field power and service outputs",
+      "falsifier": "Hardware, precision support, engine static shapes or embodiment interface incompatible",
+      "permitted_use": "No transfer of latency or competence to named robots"
+    }
+  ],
+  "priority_gaps": [
+    {
+      "gap_id": "OWQ-G01",
+      "priority": 1,
+      "missing": "Immutable original run bundle: board/carrier, checkpoints, dataset, container, engine hashes, actual arguments and raw timing arrays",
+      "consequence": "Cannot independently reconcile tables or reconstruct exact measured execution"
+    },
+    {
+      "gap_id": "OWQ-G02",
+      "priority": 1,
+      "missing": "Sustained thermal/power/memory/concurrent workload traces with actual deadline distribution",
+      "consequence": "Cannot qualify duty cycle, worst-case latency or operating energy"
+    },
+    {
+      "gap_id": "OWQ-G03",
+      "priority": 1,
+      "missing": "Matched target closed-loop physical service cohort and quantified assistance/recovery",
+      "consequence": "No accepted assembly/tote throughput or removed-labor estimate"
+    },
+    {
+      "gap_id": "OWQ-G04",
+      "priority": 2,
+      "missing": "Spatial success trial data and exact relationship to timed checkpoint",
+      "consequence": "No statistical equivalence or error-severity transfer"
+    },
+    {
+      "gap_id": "OWQ-G05",
+      "priority": 2,
+      "missing": "Accessible qualified OEM allocation, prices, integration support and customer service cost",
+      "consequence": "No supply availability, margin or adoption calibration"
+    }
+  ],
+  "external_evidence_registry": {
+    "HI-003": "data/digital_infrastructure_evidence.json",
+    "HI-004": "data/digital_infrastructure_evidence.json"
+  },
+  "cpu_validation": {
+    "method": "Downloaded source text, independently checked pinned patch byte equality, applied to relevant source files and parsed Python ASTs without imports",
+    "result": "Patch applies; twelve Python files parse; raw source mode warning on export script documented",
+    "limits": "No container/dependency install, model/data download, engine build, benchmark execution or hardware qualification"
+  },
+  "coverage": {
+    "claim_records": 4,
+    "matched_benchmark_cards": 1,
+    "source_arithmetic_records": 3,
+    "sustained_execution_artifact_recovered": false,
+    "public_search_stop": "Exact inspectable recipe found; missing original execution/qualification artifact retained rather than adding unrelated platform results"
+  }
+}
