@@ -4,16 +4,16 @@ Research on physical labor, staged humanoid deployment, learning/control, physic
 
 ## Current direction
 
-Charter **v0.6, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
+Charter **v0.7, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
 
-The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, and where incumbent adoption, holdco transformation, or AI-native newcos are advantaged or coexist.
+The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, how customer ownership/organization changes adoption and value-chain position, and how robotics business models, asset/control arrangements, and value capture interact with those customer structures. Incumbent adoption, holdco transformation, and AI-native newcos remain customer development pathways to compare; provider, operator, integrator, and financier roles remain a distinct research area.
 
 ## Read and launch
 
 | File | Role |
 | --- | --- |
 | `Robotics_Economics_Research_Charter.md` | Accepted charter, evidence/accounting principles, and project continuity |
-| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, six workstreams, and revisable defaults |
+| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, seven workstreams, and revisable defaults |
 | `WEEK_ONE_RESEARCH_SPEC.md` | Seven-day campaign deliverables, model/dashboard requirements, and acceptance criteria |
 | `CODEX_GOAL.md` | Ready-to-paste `/goal` for activation in the existing Codex project |
 | `RESEARCH_ROADMAP.md` | Stable research questions, dependencies, completion criteria, and follow-on work |

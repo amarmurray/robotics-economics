@@ -1,6 +1,6 @@
 # Physical labor, humanoid deployment, and the organization of production
 
-Version 0.6 · 25 October 2026 · Research program design
+Version 0.7 · 25 October 2026 · Research program design
 
 ## 1. Purpose and accepted direction
 
@@ -18,7 +18,9 @@ Amar's 25 October 2026 clarification establishes these requirements:
 - Connect current provider/system capabilities to plausible future progress, including an explicit investigation of humanoid improvement and scaling relationships.
 - Give learning, control, and coordination substantive treatment. Physical robots and digital agents can jointly reorganize productive processes.
 - Study both directions of causation: capabilities and coordination shape deployment choices; deployments, experience, and operating arrangements shape later capabilities.
-- Compare incumbent adoption, acquisition and transformation through a holding company, and new enterprises designed around physical and digital AI. Permit coexistence and specialization across value-chain stages.
+- Treat ownership first as the ownership, governance, and organization of the customer adopting humanoids. Investigate how capital access and allocation, investment appetite, decision rights, implementation capacity, and value-chain position affect adoption by end market and stage.
+- Preserve the distinct research on robotics business models, asset ownership, commercial arrangements, and value capture among providers, operators, integrators, and financiers. Customer structure and commercial arrangements interact; neither replaces the other.
+- Compare incumbent adoption, acquisition/holdco transformation, and AI-native enterprise formation as customer development pathways. These are not mutually exclusive ownership categories. Permit coexistence and specialization across value-chain stages.
 - Deliver a substantive written report, an interactive dashboard with meaningful toggles, reproducible supporting artifacts, and a continuing research roadmap after an initial seven-day campaign.
 
 These requirements govern the design. Geographic defaults, coverage targets, forecasting horizons, and particular implementation choices below are revisable working assumptions, not additional user commitments. Preparing this design does not start the seven-day run or claim its outputs exist.
@@ -28,6 +30,8 @@ These requirements govern the design. Geographic defaults, coverage targets, for
 The primary analytical cell is:
 
 `end market × value-chain stage × operating archetype × geography × time`
+
+Within each cell, distinguish customer/adopter cohorts by ownership, governance, operating organization, and value-chain role. These attributes stratify the economic map; they do not replace its end-market organizing level. Parent, operating company, site operator, procurement buyer, and beneficiary may be different actors.
 
 Examples of operating archetypes include a large standardized facility, a small dispersed service business, a variable outdoor site, and a mixed physical-digital operation. These categories are starting distinctions to refine with evidence.
 
@@ -114,6 +118,7 @@ A capability evidence map, a scaling-literature assessment, alternative progress
 - What fraction of relevant physical work is serviceable under each specified system and process configuration?
 - Which configurations are economically attractive to both the customer and provider, and which customers are ready to implement them?
 - What limits actual rollout: robot supply, installation/integration teams, service coverage, human support, working capital, financing, or buyer readiness?
+- How do customer ownership, capital allocation, automation appetite, operating authority, and implementation capacity change readiness, adoption depth, timing, and scale within a market-stage cell?
 - How should a humanoid company sequence end markets and value-chain stages when opportunities compete for those shared resources?
 - How do substitution, complementary productivity, demand expansion, and newly feasible services contribute differently?
 
@@ -122,6 +127,8 @@ A capability evidence map, a scaling-literature assessment, alternative progress
 For each dated, matched cohort, show relevant physical work → capability-compatible work → feasible production configurations → economically attractive configurations → operationally ready demand → deliverable capacity → installed and retained productive capacity → realized useful output and labor effects.
 
 A waterfall uses a consistent denominator within a panel. If the model changes from hours to sites, robots, output, or currency, expose the conversion and its assumptions in a linked panel. Conditional gates are not independent percentages. Model joint eligibility or explain conditional estimates for a matched cohort, and show which constraint binds.
+
+Stratify adoption cohorts by customer profile where evidence supports it. Aggregate penetration using compatible activity weights, not unweighted counts of businesses or overlapping ownership labels. Compare fixed customer composition with explicit acquisition, entry, exit, and repositioning scenarios. Reclassifying an acquired operation does not create a second labor pool. Changes to ownership may change the feasible operating configuration; expose that mechanism rather than attaching a universal adoption multiplier to a label.
 
 Pair the waterfall with deployment stages: bounded assisted operation, repeatable productive operation, integrated multi-robot workflows, coordinated physical-digital processes, and more extensive enterprise redesign. These are analytical stage labels, not a mandatory universal ladder. Markets can enter through different configurations, pause, regress, or skip an arrangement.
 
@@ -177,43 +184,68 @@ Treat coordination effectiveness as a scenario variable separate from robot comp
 
 Physical-digital process maps, coordination archetypes by end market, and at least one transparent mechanism model connecting coordination to productive capacity and deployment economics.
 
-## 9. Workstream F: ownership, competitive structure, and investment
+## 9. Workstream F: customer ownership, organization, and adoption
 
-### Questions
+### Scope and questions
 
-- Where are incumbents best positioned to adopt, and which assets or constraints explain that position?
-- When does acquiring and transforming an existing business offer access, cash flow, data, and process control worth the acquisition and transformation costs?
-- When can a new enterprise designed around AI gain share or create new demand despite customer acquisition, asset, and financing requirements?
-- How can these structures coexist within an end market or occupy different value-chain stages?
-- Where should a humanoid provider sell equipment, provide a service, partner with an operator, or own parts of the operating system?
+The primary subject is the business adopting humanoids to produce goods or services. Investigate its ownership and governance, financing relationships, operating organization, and location in the value chain. The customer's legal owner, economic sponsor, capital allocator, process controller, buyer, site operator, and beneficiary need not be the same actor.
 
-### Common comparison
+- How do customer structures differ within an end market and value-chain stage, and which mechanisms change adoption readiness, timing, depth, and scale?
+- Who can finance deployment, who wants to invest, who has authority to change the process, and who can implement the change? Keep these four questions distinct.
+- How do investment horizons, competing capital demands, procurement, managerial incentives, risk appetite, and ability to retain gains affect the chosen deployment?
+- How do incumbent adoption, acquisition/holdco transformation, and AI-native enterprise formation alter the customer's operating model and value-chain position?
+- Which customer structures coexist, consolidate, enter, specialize, or move into adjacent stages as automation becomes feasible?
 
-Compare incumbent adoption, acquisition/holdco transformation, and newco formation against matched customer outcomes. Treat provider-owned robotics-as-a-service, leasing, partnerships, and platform roles as arrangements that can overlay these routes; they are not always mutually exclusive categories.
+### Comparison and causal treatment
 
-Evaluate capital intensity, asset specificity, brownfield conversion, process standardization, customer/distribution access, market fragmentation, data/learning rights, financing, residual values, integration burden, and demand uncertainty. Include the time and resources required for transition, not only an imagined steady state.
+Describe ownership/control attributes, market tenure, enterprise formation or transformation, operating organization, and AI-native process design separately. A sponsor-backed holdco may acquire incumbents and also create a new operation. An incumbent may build a new facility; a new entrant may acquire existing assets. Franchise, public, family-controlled, holdco, and AI-native labels describe different dimensions and may overlap.
 
-Separate value creation from value capture. Identify the owner of operating assets, robot assets, models, data access, and customer relationships. Acquisition price may already reflect part of the expected improvement; new enterprises may need to fund customer acquisition and spare capacity. Robotics providers and end-market operators can have different preferred arrangements.
+Test mechanisms from market conditions and customer structure through capital availability/allocation, appetite and investment criteria, authority over workflows and sites, benefit capture, and implementation capacity to deployment decisions and outcomes. These mechanisms can have opposing effects. Do not assume that sponsor backing implies faster adoption, that closely held ownership implies patience, or that organizational scale implies available capital. Evidence about willingness to automate should identify the observed decision or be labeled an assumption.
 
-The output is a conditional view of which structures are advantaged and when. It is not a universal winner, a recommendation to acquire a specific business, or a claim that value created necessarily becomes investor return.
+Compare customer profiles within matched market conditions and, for at least one comparison, a common technical/workload baseline. Then examine explicit redesign and value-chain repositioning scenarios. Keep an explanatory counterfactual separate from evidence of a causal effect: adopters can select into ownership structures, financing, technologies, and markets. Commercial terms from Workstream G can relax one constraint while shifting it to a different party.
+
+Investigate feedback in both directions. Existing ownership and organization affect adoption; feasible automation may alter acquisition attractiveness, entry, outsourcing, vertical scope, and future customer composition. Track control and financing constraints at the relevant parent, operating-company, and site levels. The framework is multivariate and conditional on end market and value-chain stage.
 
 ### Output
 
-Market-stage comparisons of deployment/ownership routes, coexistence scenarios, capital and control maps, and strategic implications for a humanoid company.
+Customer-structure maps, mechanism-based adoption comparisons, customer-cohort penetration scenarios, and views on value-chain repositioning, competitive structure, coexistence, and investment outcomes. Explain which mechanism changes the deployment decision and what evidence could reverse the conclusion.
 
-## 10. Integrated interpretation and standards of progress
+## 10. Workstream G: robotics business models, asset ownership, and value capture
+
+### Scope and questions
+
+Preserve the program's prior inquiry into how robotics is supplied, operated, financed, and monetized. This is a distinct research area linked to customer adoption. It covers providers, operating companies, integrators, software/orchestration suppliers, asset owners, and financiers; it is not limited to robot purchase versus lease.
+
+- Which arrangements fit a customer's operating requirements and constraints: equipment sales, leasing, robotics-as-a-service, usage or outcome pricing, integration, software licensing, managed operations, partnerships, or joint ventures?
+- Who owns and controls robot assets, models, workflows, customer relationships, and data/learning rights; who funds deployment, bears operating and residual-value risks, and receives the gains?
+- When should a robotics provider sell or partner, and when could owning or operating part of the productive business improve outcomes enough to justify capital and organizational demands?
+- Where might durable returns accrue across hardware, integration, operation, software, learning, and finance, and what supports coexistence among integrated firms and specialists?
+
+### Common comparison and connection to adoption
+
+Compare arrangements against matched customer outcomes, with customer profiles from Workstream F held explicit. Include deployment investment, acquisition or greenfield capital where applicable, integration, transition time, utilization, support, working capital, financing, residual values, and customer acquisition. Separate value created from the cash flows and risks assigned to each participant. Anticipated improvement can already be reflected in acquisition prices or commercial terms.
+
+Treat business ownership, robot-asset ownership, operational authority, and model/data rights as distinct fields. Leasing or RaaS can change upfront customer cash needs while creating provider or financier requirements; it does not eliminate system-wide capital constraints. Joint ventures can change both customer governance and commercial risk allocation. Record both effects rather than forcing the arrangement into one category.
+
+Use one actor/role map across F and G. A vertically integrated provider can also be an operator or adopter; record its several roles without counting the activity, revenue, financing capacity, or learning gain twice. Customer value-chain repositioning belongs in F; the comparative economics and contractual/control allocation of supplying or operating robotics belongs in G. Reuse the same boundary decision and calculations where these meet.
+
+### Output
+
+Commercial-arrangement comparisons, asset/control/right maps, reconciled customer/provider/operator/financier economics, and conditional value-capture and integration strategies. Connect these results to customer adoption, fleet coordination, learning access, deployment capacity, and market structure.
+
+## 11. Integrated interpretation and standards of progress
 
 For each material conclusion, state the mechanism, supporting evidence, competing explanation, confidence, pivotal assumptions, and observation that would change the view. Distinguish a measured result from an inference and from a scenario.
 
 Use one versioned data and calculation source for report tables, dashboard visuals, and exports. The dashboard must allow movement from an end-market conclusion to the source observations and assumptions behind it. A scenario change should recompute the affected outputs or explicitly explain why it does not.
 
-The initial report should answer: where is physical labor concentrated; what can current systems plausibly serve; what improvements unlock further stages; what slows deployment after capability is available; how do fleets, learning, and digital coordination change sequencing; and which organizational structures are advantaged by market and stage?
+The initial report should answer: where is physical labor concentrated; what can current systems plausibly serve; what improvements unlock further stages; what slows deployment after capability is available; how do fleets, learning, and digital coordination change sequencing; how do customer ownership and organization change adoption by market and stage; and which robotics business models and control arrangements create and capture value?
 
 Measure research progress through improved explanations, validated mechanisms, better-constrained assumptions, and changed strategic judgments. Preserve disagreements and negative findings. Do not require a physical robot demonstration or a completed microeconomic case before the program can contribute.
 
 The first week's executable specification is `WEEK_ONE_RESEARCH_SPEC.md`. Its launch text is `CODEX_GOAL.md`. Open questions and longer investigations live in `RESEARCH_ROADMAP.md`. Those files describe planned work until an actual campaign records evidence and outputs.
 
-## 11. Initial source anchors
+## 12. Initial source anchors
 
 These are starting sources and methodological anchors checked during design preparation. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
 
@@ -225,8 +257,10 @@ These are starting sources and methodological anchors checked during design prep
 - [DataMIL](https://robin-lab.cs.utexas.edu/datamodels4imitation/): task- and policy-dependent data selection. A performance influence estimate requires a separate economic interpretation.
 - [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [long-running work](https://learn.chatgpt.com/docs/long-running-work): a goal needs observable outputs, verification, checkpoints, and explicit completion/blocker states. Actual continuation depends on the runtime, available resources, and goal state.
 
-## 12. Decision record
+## 13. Decision record
 
 Accepted correction: organize the research around physical labor end markets, value chains, staged deployment, evolving capability, learning/control, physical-digital coordination, and competing ownership routes. Superseded sequencing: mandatory warehouse-first case, second-market deferral, and dashboard only after that case. Preserved disciplines: dated evidence, transparent assumptions, consistent units and populations, conditional adoption gates, no double-counting, and separate implementation-repository scope.
+
+Ownership clarification, 25 October 2026: customer ownership/organization is an explicit determinant of adoption, capital allocation, automation appetite, and value-chain position. The prior provider/asset/control/value-capture inquiry is retained as Workstream G under a distinct name. This expands the design to seven linked workstreams; it does not delete the earlier questions.
 
 Prepared outcome: a revised program and a launchable first-week specification. Pending outcome: activation and execution of the research campaign in Codex, followed by the actual report, dashboard, model, and revised roadmap.

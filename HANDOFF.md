@@ -1,18 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.6.
+Handoff ID: program-design-2026-10-25-v0.7.
 
 ## Accepted direction
 
 Amar rejected a narrow warehouse/carton-handling case as the first research step because its analytical level and implied purpose omitted the broader learning/control and economic-deployment questions. On 25 October 2026 he specified an end-market/value-chain program beginning with physical labor in the economy, qualitative deployment views, current and potential humanoid capabilities, improvement/scaling pathways, bottlenecks, and data aggregation.
 
-The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Ownership analysis compares incumbent adoption, holdco acquisition/transformation, and AI-native newcos, including coexistence by end market and value-chain stage.
+The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Amar subsequently clarified that ownership means the customer/adopter's ownership and organization: capital access/allocation, automation appetite, operating authority, implementation capacity, and value-chain position change adoption by end market and stage. He explicitly requested retaining the prior ownership analysis under a separate category. The design therefore has seven linked workstreams: F covers customer ownership/organization and adoption; G preserves robotics business models, asset/control/data rights, provider/operator/integrator/financier roles, vertical integration, and value capture. Incumbent, acquisition/holdco, and AI-native pathways remain customer development routes, with coexistence and feedback between structures and automation.
 
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
 ## Current preparation and execution status
 
-- Charter v0.6 and the detailed design adopt that correction.
+- Charter/design v0.7, campaign specification v1.1, and roadmap v1.1 incorporate the customer-ownership clarification while preserving the prior inquiry. The dashboard specification now has separate customer/adoption and robotics business-model/value-capture views; the roadmap contains 28 open questions.
 - `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
 - `CODEX_GOAL.md` is prepared activation text.
 - `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
@@ -53,8 +53,8 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: Amar activating the prepared goal in the existing Codex project; then Codex executing the first campaign.**
 
-Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, and ownership comparisons.
+Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, and robotics business-model/value-capture comparisons.
 
-One next research question: **Across which end-market/value-chain configurations do current and plausible future humanoid capabilities enable successive productive-deployment stages, and how do data/coordination effects and ownership arrangements alter the preferred sequence?**
+One next research question: **Across which end-market/value-chain configurations do current and plausible future humanoid capabilities enable successive productive-deployment stages, and how do data/coordination effects, customer ownership/organization, and robotics commercial/asset/control arrangements interact to alter the preferred sequence?**
 
 Earlier coordination history: the shared repository replaced upload-based exchange on 6 September 2026. Older Documents copies and uploaded sources remain historical snapshots. Detailed publication/access receipts are operational records; check the current remote state before claiming a later revision has been consumed.

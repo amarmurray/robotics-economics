@@ -1,10 +1,10 @@
 # Week-one research campaign specification
 
-Version 1.0 · Prepared 25 October 2026 · Status: not activated
+Version 1.1 · Prepared 25 October 2026 · Status: not activated
 
 ## 1. Purpose, organizing unit, and authority
 
-Produce a defensible first edition of a research program that develops strategy and deployment judgment for work at a humanoid robotics company. Explain physical-labor end markets, evolving production capabilities, feasible deployment sequences, and alternative routes to industrial transformation. Connect deployment economics to learning, coordination, ownership, and value capture.
+Produce a defensible first edition of a research program that develops strategy and deployment judgment for work at a humanoid robotics company. Explain physical-labor end markets, evolving production capabilities, feasible deployment sequences, and alternative routes to industrial transformation. Connect deployment economics to learning, coordination, customer ownership/organization, and robotics business models and value capture. Customer ownership is a determinant of adoption; provider, robot-asset, and commercial arrangements remain a separate linked inquiry.
 
 The organizing unit is **end market × value-chain stage × operating archetype × geography × time**. Tasks and task bundles provide diagnostic resolution when a mechanism requires it. A narrow warehouse case, a particular robot, or an initial task taxonomy is not a prerequisite for this campaign.
 
@@ -52,7 +52,9 @@ Build a top-level classification that accounts for the economy's physical-labor 
 
 Give every top-level category a coverage status: quantified, qualitatively screened, known evidence gap, not yet researched, or excluded with rationale. Show residual and unmapped activity. Economy-wide coverage means an explicit coverage map, not a claim that every activity has a calibrated forecast.
 
-Develop **at least six contrasting market-stage cells across at least four end markets**, subject to accessible evidence. Contrast capital intensity, environmental variability, labor economics, fragmentation, demand, and installed-asset constraints. For each, document the value chain, relevant systems and alternatives, economics, waterfall, bottlenecks, pathway comparison, learning links, and uncertainties.
+Develop **at least six contrasting market-stage cells across at least four end markets**, subject to accessible evidence. Contrast capital intensity, environmental variability, labor economics, fragmentation, demand, installed-asset constraints, and customer ownership/organization. For each, document the value chain, relevant systems and alternatives, economics, waterfall, bottlenecks, pathway comparison, learning links, and uncertainties.
+
+Within at least two of those cells, seek comparisons between two plausible customer profiles and relevant commercial arrangements, subject to evidence. These are mechanism comparisons within the existing coverage target. Hold technical capability and workload fixed in a comparison, then distinguish any scenario that changes process design or value-chain position. A scenario is not proof of an ownership effect.
 
 Do not invent inputs to satisfy coverage counts. A cell with insufficient evidence can be deeply investigated and still remain unquantified. Explain the resulting limitation in the acceptance audit and preserve the specific research needed.
 
@@ -63,8 +65,8 @@ Core question families are:
 3. Which improvements would change feasibility, economics, penetration, or deployment order?
 4. What limits installation, productive utilization, support, financing, and expansion across markets?
 5. How do deployment experience, data aggregation, learning transfer, and coordination affect subsequent choices?
-6. When do incumbent adoption, acquisition and transformation, and AI-native enterprise formation succeed or coexist?
-7. Who creates value, who captures it, and what evidence would change a humanoid company's strategy?
+6. How do customer ownership, governance, capital allocation, automation appetite, implementation capacity, and value-chain position affect adoption, including incumbent/acquisition/newco pathways and coexistence?
+7. Which robotics business models, asset/control arrangements, and roles for providers, operators, integrators, and financiers create and capture value, and how do they interact with customer adoption?
 
 ## 4. Analytical and modeling requirements
 
@@ -116,11 +118,21 @@ Distinguish capability improvement, information that changes a later decision, a
 
 Model coordination among robots, digital agents, people, inventories, and shared infrastructure. Consider dispatch, scheduling, exception resolution, procurement, supervision, and workflow redesign. Include congestion, correlated failures, intervention queues, and coordination costs where relevant. Deployment changes experience; learning and coordination can change deployment feasibility and order.
 
-### Ownership and organizational pathways
+### Customer ownership, organization, and adoption
 
-Compare three underlying routes: adoption by an incumbent, acquisition and transformation through a holding company, and an AI-native new enterprise. Evaluate them within matched market conditions, including capital intensity, customer acquisition, asset specificity, fragmentation, switching costs, and workflow redesign.
+Stratify customer cohorts within each market-stage cell by separately recorded ownership/control attributes, financing relationships, investment criteria, operating organization, and value-chain role. Distinguish parent, operating company, site, procurement buyer, process controller, and beneficiary. Incumbent/new entrant describes market position; acquisition/holdco transformation describes a development route; AI-native describes process design. These are overlapping dimensions, not mutually exclusive ownership bins.
 
-Treat provider-owned robotics-as-a-service, financing, partnerships, licensing, and joint ventures as overlays on these routes. Allow coexistence across stages and customer cohorts. Include acquisition or greenfield capital and time where relevant; do not assume that an ownership route creates a technical advantage.
+Model the mechanisms connecting customer structure to ability to finance, appetite to invest, authority to change operations, implementation capacity, and retention of benefits. Link those mechanisms to adoption timing, depth, scale, and chosen configurations. Do not use an unexplained ownership-label multiplier or infer appetite from a label. Preserve opposing mechanisms and selection/confounding limits in empirical comparisons.
+
+Use compatible activity weights to aggregate customer cohorts. Distinguish fixed customer composition from entry, acquisition, consolidation, outsourcing, and movement across value-chain stages. Reclassifying an acquired operation does not create new underlying work. Changed operating configurations require explicit costs, timing, and capability assumptions.
+
+### Robotics business models, asset ownership, and value capture
+
+Retain the distinct comparison of equipment sales, leases, robotics-as-a-service, usage/outcome pricing, integration, software, managed operations, partnerships, joint ventures, and provider vertical integration. Evaluate who supplies, operates, owns, finances, controls, bears risk, and retains gains for matched customer outcomes. Include acquisition or greenfield capital and transition time where relevant.
+
+Join these arrangements to customer profiles. A commercial structure can change adoption constraints while moving cash requirements or risks to providers, operators, or financiers; reconcile all relevant resource and cash budgets. Joint ventures can affect both governance and commercial terms. One entity may fill several roles, so use a common actor/role map and eliminate internal transfers in any consolidated view. Keep underlying customer ownership distinct from robot-asset ownership and model/data rights.
+
+Produce a cross-comparison of customer profiles and commercial arrangements, identifying which combination changes deployment feasibility, timing, productive scale, and value allocation. Preserve supplier integration, asset ownership, and value-capture questions as substantive research rather than reducing them to financing controls.
 
 ## 5. Compact data contracts
 
@@ -133,14 +145,16 @@ The cell key joins market, chain stage, operating archetype, geography, and peri
 | Market | market_id; parent/classification codes; boundary; geography; economic baseline; coverage status; residual allocation. |
 | Chain | chain_id; market_id; stage; upstream/downstream dependencies; actors; output; double-counting rule. |
 | Work | work_id; cell key; useful output; baseline labor/resource requirements; diagnostic task links; conversion rules. |
-| Cohort | cohort_id; work_id; population and denominator; operating conditions; system/pathway; commissioning period; stock-flow states. |
+| Adopter | adopter_id; parent/operator/site/buyer/beneficiary actor IDs; ownership/governance attributes; market tenure; operating organization; capital access/allocation; investment criteria and appetite evidence; process authority; implementation capacity; value-chain roles; effective dates. |
+| Cohort | cohort_id; work_id; adopter_id; population, denominator and activity weight; operating conditions; system/pathway/arrangement IDs; commissioning period; stock-flow states. |
 | System | system_id; provider; embodiment/configuration; hardware/software versions; availability; upgrade compatibility; alternatives. |
 | Capability | capability_id; system/work/environment; metric/value/range/unit; exposure duration; assistance; evidence and deployment status. |
 | Dataset | dataset_id; location/version/hash; composition; collection window; coverage; license/access/reuse rights; limitations. |
 | Exposure | exposure_id; cohort/system/dataset links; workload; informative coverage; redundancy; observation process; collection cost. |
 | Transfer | transfer_id; source exposure/capability; destination; mechanism; response/delay; training costs; rights; beneficiary; validation status. |
 | Coordination | coordination_id; participants; mechanism; shared resources; information assumptions; costs; measured or scenario effects. |
-| Pathway | pathway_id; underlying route; overlays; buyer/operator/asset/data owners; terms; investment; cash and value allocation. |
+| Pathway | pathway_id; adopter IDs; incumbent expansion/acquisition/transformation/new-entry route; origin/destination value-chain roles; transition costs and timing; cohort reclassification and activity conservation. |
+| Commercial arrangement | arrangement_id; actor/role map; system/cohort/adopter links; sale/lease/service/license/partnership/operation terms; robot/model/data/control rights; funder and risk allocation; pricing; cash and value allocation; effective dates. |
 | Scenario | scenario_id/version; model/evidence snapshot; horizons; input overrides; dependencies; resource budgets; allocation and demand policies. |
 | Evidence | evidence_id; precise claim; URL/document locator; publisher; observation/publication/retrieval dates; scope; source class; limitations; conflicts. |
 | Question | question_id; decision consequence; priority rationale; dependencies; evidence target; stopping condition; status; next action/owner. |
@@ -151,11 +165,11 @@ Separate source provenance from epistemic status. A manufacturer statement may b
 
 Produce a written report, executable local dashboard, CSV/JSON evidence package, versioned scenarios, reproducible model, acceptance audit, and durable roadmap. Register final artifact paths and versions in the repository manifest.
 
-The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, ownership comparisons, strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
+The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, robotics business models and value capture, strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
 
 Use **one authoritative calculation engine** for dashboard outputs, report tables, and scenario exports. Documentation must provide exact environment, build, run, and regeneration commands. Store locked dependencies where appropriate and use deterministic seeds when simulations require randomness. A fresh local launch should use the saved evidence snapshot without requiring new external credentials. No public deployment is required.
 
-### Eight linked dashboard views
+### Nine linked dashboard views
 
 1. **Economic atlas:** end markets, value-chain stages, labor/value measures, coverage statuses, residual categories, and baseline automation.
 2. **Market deployment explorer:** selected cell, workflow context, competing configurations, conditional waterfall, economic outcomes, and adoption timeline.
@@ -163,12 +177,13 @@ Use **one authoritative calculation engine** for dashboard outputs, report table
 4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, and limits of extrapolation.
 5. **Fleet and bottleneck view:** commissioning cohorts, active stock, productive output, retirements, shared resource use, and binding constraints.
 6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries.
-7. **Ownership and value capture:** incumbent/holdco/newco comparisons, commercial overlays, capital requirements, market structure, and coexistence.
-8. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
+7. **Customer structure and adoption:** ownership/governance profiles, capital access/allocation, automation appetite, operational authority, implementation capacity, customer pathways, value-chain position, and adoption outcomes.
+8. **Robotics business models and value capture:** commercial arrangements, provider/operator/integrator/financier roles, asset/control/data rights, cash requirements, risk allocation, integration, and coexistence. Link to the selected customer profiles.
+9. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
 
-Shared filters include market, stage, archetype, geography, period/horizon, system, pathway, scenario, and evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
+Shared filters include market, stage, archetype, geography, period/horizon, system, customer profile, customer pathway, commercial arrangement, scenario, and evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
 
-Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, and ownership terms when modeled. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
+Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, and commercial terms when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
 
 Display meaningful ranges and appropriate rounding. Show missing inputs and unavailable estimates explicitly. A synthetic example may demonstrate functionality, but must have persistent labeling and remain excluded from empirical aggregates.
 
@@ -177,7 +192,8 @@ Display meaningful ranges and appropriate rounding. Show missing inputs and unav
 Run focused checks that address concrete analytical and interface risks:
 
 - Validate stable IDs, joins, schemas, dimensions, conversion rules, missingness, and scenario versions.
-- Reconcile cohort stock flows, compatible population totals, waterfall denominators, and shared resource budgets.
+- Reconcile cohort stock flows, compatible population totals, waterfall denominators, customer-cohort activity weights, ownership transitions, and shared resource budgets.
+- Verify customer ownership/governance and robot-asset/commercial arrangements are separate dimensions; compare a customer-profile change at fixed technical capability and trace its adoption mechanism. Check a commercial-term change for the corresponding customer and provider/financier cash and capacity effects.
 - Verify that displacement, demand expansion, provider revenue, and learning value are not double-counted.
 - Compare dashboard and report outputs with the authoritative engine on saved scenarios.
 - Exercise representative crossfilters; verify consistent scope and denominators in every affected view.

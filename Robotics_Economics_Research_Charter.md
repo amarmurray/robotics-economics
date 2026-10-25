@@ -1,8 +1,8 @@
 # Robotics Economics: Research Charter
 
-Version 0.6 · 25 October 2026 · Amar Murray
+Version 0.7 · 25 October 2026 · Amar Murray
 
-This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.6 adopts Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.7 retains and clarifies Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
 
 This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
@@ -12,14 +12,15 @@ Develop the understanding, evidence base, and working models needed to shape str
 
 The central question is: **Where, how, and in what sequence can humanoids and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
 
-The program connects six research decisions:
+The program connects seven research decisions:
 
 1. Map physical labor, productive processes, and operating heterogeneity across end markets and value-chain stages.
 2. Relate current provider/system capabilities and research progress to conditional improvement and scaling pathways.
 3. Develop staged penetration waterfalls and deployment portfolios under shared supply, integration, service, supervision, and financing constraints.
 4. Examine data aggregation, transfer, learning, evidence acquisition, and control, including how deployments affect subsequent capability.
 5. Study productive coordination among physical robots, digital agents, people, and infrastructure.
-6. Compare incumbent adoption, holdco acquisition/transformation, and AI-native newcos, including coexistence and role specialization across value chains.
+6. Investigate customer ownership, governance, capital allocation, automation appetite, operating authority, and implementation capacity as determinants of adoption and value-chain position; compare incumbent, acquisition/holdco, and AI-native development pathways.
+7. Preserve the distinct inquiry into robotics business models, provider/operator/integrator/financier roles, asset ownership, commercial/control/data rights, integration, and value capture, including coexistence.
 
 Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
@@ -94,7 +95,8 @@ Allocate outsourced and shared work consistently. A facility's operating industr
 | Learning and task transfer | Which capabilities could improve, where could they transfer, and who captures the resulting gains? | Directed transfer hypotheses and incremental cash-flow effects |
 | Robot supply chain | Which components, manufacturing capacity, integration crews, service resources, and financing constrain expansion? | Supply relationships, bottleneck scenarios and value-capture map |
 | Physical-digital fleets and control | How do robots, software agents, people, and infrastructure allocate work and shared resources? | Coordination archetypes and mechanism models |
-| Ownership and competitive structure | When do incumbent adoption, holdco transformation, or AI-native newcos create and capture value; how can they coexist? | Market-stage pathway comparisons |
+| Customer ownership, organization, and adoption | How do the adopting business's governance, capital allocation, appetite, authority, capacity, and value-chain position change deployment? | Customer profiles, adoption mechanisms, pathway and coexistence comparisons |
+| Robotics business models, asset ownership, and value capture | How should robots be supplied, operated, financed and controlled; which participants capture gains? | Commercial and actor/rights maps; customer/provider/operator/financier economics; integration strategies |
 | Interpretation | What changed, which conclusions follow, which are uncertain, and what deployment decision should change? | Integrated report, interactive dashboard, and decision memos |
 
 Maintain connected maps of **physical labor/end markets**, **productive value chains**, and **providers and their ecosystems**, with ownership, data, and coordination relationships. End markets and value-chain stages organize the synthesis; provider and task detail explain the mechanisms. Link them through common activity and cohort identities. Each map must support factual description and traceable changes to model inputs and conclusions.
@@ -181,7 +183,7 @@ Pair the waterfall with deployment-stage scenarios ranging from bounded assisted
 
 Keep active capacity as a stock with new deployment, ramp, retirement, replacement, and retention flows. Allocate shared hardware, integration teams, service headroom, supervision, and financing across markets. Track useful output separately from machines shipped or installed. Model demand expansion and new services separately from substitution of the baseline labor pool.
 
-Capability-improvement relationships, learning transfer, coordination effectiveness, buyer readiness, and ownership pathway are separate scenario inputs. An improvement affects only the populations and compatible system versions justified by evidence or an explicitly labeled assumption. See `RESEARCH_PROGRAM_DESIGN.md` and `WEEK_ONE_RESEARCH_SPEC.md` for the detailed contracts.
+Capability-improvement relationships, learning transfer, coordination effectiveness, customer ownership/governance and readiness, customer development pathways, and commercial/asset/control arrangements are separate scenario inputs. Ownership primarily describes the adopting business in the customer workstream; robot ownership and supplier business models remain a distinct linked inquiry. Customer structures affect funding, investment appetite, process authority, implementation capacity, and value-chain position through specified mechanisms, not a universal label-based adoption multiplier. Use activity-weighted customer cohorts and conserve underlying activity when ownership or value-chain roles change. An improvement affects only the populations and compatible system versions justified by evidence or an explicitly labeled assumption. See `RESEARCH_PROGRAM_DESIGN.md` and `WEEK_ONE_RESEARCH_SPEC.md` for the detailed contracts.
 
 ## Cash generation and learning value
 
@@ -236,7 +238,9 @@ Start with inspectable tables. Add a database only when relationships and update
 | Transfer relationship | Source and destination task/system IDs; data access and reuse rights; hypothesized shared capability; training and validation costs; expected operational effect; beneficiary; uncertainty; evidence and validation status |
 | Supply relationship | Supplier or resource category; customer/component relationship; substitute options; quantity per deployment; capacity or lead-time assumption; source and date |
 | Coordination configuration | Physical/digital agents; human support; process dependencies; decision authority; shared resources; control assumptions; measured versus proposed effects |
-| Ownership/pathway | Incumbent, acquisition/holdco, or newco route; asset, model, customer, data/learning rights; contracts; capital/transition assumptions; coexistence links |
+| Customer/adopter profile | Parent/operator/site/buyer/beneficiary actors; ownership/governance attributes; capital allocation; investment criteria and appetite evidence; authority; implementation capacity; value-chain role |
+| Customer pathway | Incumbent expansion, acquisition/holdco transformation, new entry and repositioning; transition timing/costs; cohort identity and reclassification; coexistence links |
+| Robotics commercial/asset/control arrangement | Provider/operator/integrator/financier roles; robot/model/data/workflow rights; sale/lease/service/partnership/integration terms; funding, risks, cash and value allocation |
 | Research question | Stable ID; decision relevance; current state; evidence/method; dependencies; disconfirming evidence; next action and completion criterion |
 | Interpretation and change | Previous view; new evidence; changed assumptions; affected scenarios; resulting ranking or timing changes; unresolved questions |
 
@@ -270,7 +274,7 @@ The first edition contains:
 2. A current provider/system capability map and evidence-contingent progress/scaling scenarios.
 3. Qualitative deployment theses and staged penetration models for a contrasting set of market-stage cohorts.
 4. Substantive analyses of data aggregation, learning/control, physical-digital fleet coordination, and shared rollout constraints.
-5. Market-stage comparisons of incumbent adoption, holdco transformation, and AI-native newcos, including coexistence.
+5. Market-stage comparisons of customer ownership/organization and adoption, including incumbent/acquisition/newco pathways, plus distinct robotics business-model, asset/control, and value-capture comparisons.
 6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model.
 7. Reproduction instructions, an acceptance audit, and a ranked roadmap of unresolved questions and follow-on research.
 
@@ -307,6 +311,8 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.7 — 25 October 2026:** Clarified customer ownership and organization as determinants of adoption, capital allocation, automation appetite, implementation capacity, and value-chain position. Retained the previous provider/asset/control/value-capture research as a distinct seventh workstream. Added separate adopter/commercial records and dashboard views; expanded the roadmap to 28 questions with prior provider questions preserved.
 
 - **0.6 — 25 October 2026:** Adopted Amar's end-market/value-chain organizing level and strategy/deployment objective. Replaced warehouse-first, mandatory Excel-first, and delayed-dashboard sequencing with a prepared seven-day research campaign and continuing roadmap. Added capability/scaling, learning/control/data aggregation, physical-digital fleet coordination, and competing ownership/coexistence pathways. Preserved evidence, accounting, versioning, and separate Ixion scope.
 

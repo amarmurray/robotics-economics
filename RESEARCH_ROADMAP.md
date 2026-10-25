@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-Version 1.0 · Prepared 25 October 2026. **All 24 questions below are OPEN.** This document specifies investigations; it does not claim completed research or execution.
+Version 1.1 · Prepared 25 October 2026. **All 28 questions below are OPEN.** This document specifies investigations; it does not claim completed research or execution.
 
 [RESEARCH_PROGRAM_DESIGN.md](RESEARCH_PROGRAM_DESIGN.md) defines the program. [WEEK_ONE_RESEARCH_SPEC.md](WEEK_ONE_RESEARCH_SPEC.md) defines the initial report, dashboard, and supporting artifacts. This roadmap supplies the continuing question portfolio.
 
@@ -59,20 +59,35 @@ Dependencies reference stable question IDs. “Complete” means bounded complet
 | RQ-FD-03: When do shared supervision and coordination become bottlenecks? | Test whether apparent fleet economies survive correlated exceptions. | Model queues, intervention duration, common failures, communications, and escalation capacity. | Deeper after FD-02 and HC-03. Complete with workload sensitivity and correlated-failure stress cases. |
 | RQ-FD-04: Which workflows become possible only through joint physical-digital redesign? | Examine new productive arrangements beyond separate automation tools. | Compare integrated and fragmented process designs, control boundaries, costs, and adoption requirements. | Deeper after PL-04 and FD-01/02. Advance when a falsifiable comparison can be specified. |
 
-## 6. Ownership and competitive structures
+## 6. Customer ownership, organization, and adoption
 
 | ID and question | Decision relevance | Evidence and method | Boundary, dependencies, and completion trigger |
 | --- | --- | --- | --- |
-| RQ-OS-01: How do incumbent adoption, an acquisition-led holdco, and a native newco compare? | Separate installed customer access from redesign freedom and integration costs. | Compare equal-output scenarios, capital needs, organizational constraints, and learning access. | W1 structural comparison after PL-03/04 scope definition. Unknown advantages remain hypotheses. |
-| RQ-OS-02: Which ownership boundaries determine who captures learning gains? | Distinguish hardware ownership from control, customer relationships, and data rights. | Map asset, software, workflow, financing, and data contracts; examine bargaining alternatives. | W1 rights-and-value map after DL-01 and FD-02. Deeper upon disclosed terms or authorized evidence. |
-| RQ-OS-03: When does owning operations create an advantage over selling robots or software? | Test integration benefits against capital intensity and organizational burden. | Compare deployment feedback, distribution, margins, learning access, and opportunity costs. | Deeper after OS-01/02 and DL-04. Complete with explicit counterexamples and break-even conditions. |
-| RQ-OS-04: What supports coexistence among integrated firms, platforms, operators, and specialists? | Avoid assuming one ownership model dominates every market. | Examine heterogeneity, interoperability, multi-homing, specialization, and competitive responses. | W1 competing hypotheses after OS-01/02. Deeper scenarios follow observed switching and partnership evidence. |
+| RQ-OS-01: How do customer ownership and governance affect adoption within a market-stage cell? | Explain capital access/allocation, investment criteria and automation appetite, rather than assigning an effect to a label. | Build adopter profiles; compare financeability, willingness, operating authority and implementation capacity under matched technical conditions; retain opposing mechanisms and selection limits. | W1 structural comparison alongside PL-03 and SP-01. Complete when relevant actor levels, mechanisms, unknowns, and alternative explanations are explicit. |
+| RQ-OS-02: Who can authorize process changes and retain adoption and learning benefits? | Identify parent, operator, site, buyer and beneficiary constraints that change readiness and rollout. | Map governance, procurement, premises/workflow control, investment responsibility, data access and gain retention; join BM-02's rights map. | W1 customer-decision map after PL-03 and DL-01 scope definition. Deepen with disclosed operating/governance evidence. |
+| RQ-OS-03: How do incumbent adoption, acquisition/holdco transformation, and AI-native entry change customer value-chain position? | Test ownership and organization as both causes and consequences of automation. | Compare acquisition, organic expansion, outsourcing and entry under common output assumptions; include capital, transition and customer-acquisition costs; conserve activity under reclassification. | W1 pathway hypotheses after OS-01 and PL-04 scope definition. Deeper alongside BM-03; complete a bounded case when transition mechanisms and costs are inspectable. |
+| RQ-OS-04: Which customer structures coexist, consolidate, specialize, or gain share as automation improves? | Connect customer heterogeneity to market penetration and competitive structure. | Model activity-weighted customer cohorts, entry/exit and role transitions; test fixed composition against changed composition without double-counting labor. | W1 conditional hypotheses after OS-01/03 and SP-01. Deeper with observed adoption, financing, acquisition and entry evidence. |
+
+## 7. Robotics business models, asset ownership, and value capture
+
+| ID and question | Decision relevance | Evidence and method | Boundary, dependencies, and completion trigger |
+| --- | --- | --- | --- |
+| RQ-BM-01: Which commercial arrangements fit different customer structures and adoption constraints? | Compare equipment sales, leases, services, usage/outcome pricing, software, managed operations and partnerships. | Join adopter profiles to matched-output economics; trace capital, support, utilization, cash timing and risk across parties. | W1 cross-comparison alongside OS-01/02 and SP-02. Deepen when commercial terms and performance exposure are observable. |
+| RQ-BM-02: How do asset ownership, operational control and model/data rights allocate costs, risks and gains? | Preserve the prior asset/control/learning-value inquiry and explain bargaining positions. | Use one actor/role and rights map for customer, provider, operator, integrator and financier; distinguish business ownership from robot ownership and access rights. | W1 rights-and-value map after DL-01 and FD-02 scope definition; joins OS-02. Disclosed terms or authorized evidence trigger deeper comparison. |
+| RQ-BM-03: When does a robotics provider benefit from owning or operating a productive business rather than supplying it? | Preserve the prior provider-integration question; test feedback and control benefits against capital and organizational burden. | Compare sell, partner, managed-operation and integration routes; include acquisition/greenfield capital, customer access, learning rights, transition time and opportunity costs. | Deeper after BM-01/02, OS-03 and DL-04 scope definition. Complete with counterexamples and explicit break-even conditions. |
+| RQ-BM-04: Where can durable value be captured across robotics provision, operation, integration, software and finance? | Explain conditional investment outcomes and coexistence among integrated firms and specialists. | Reconcile value creation and participant cash flows; examine specialization, interoperability, switching, competition and alternatives; distinguish transfers from additional value. | W1 competing hypotheses after BM-01/02. Deeper with terms, utilization, operating costs and competitive evidence. |
+
+### Scope clarification and continuity
+
+On 25 October 2026 Amar clarified that customer ownership/organization affects adoption and value-chain position, and explicitly retained the previous ownership analysis under a separate category. OS-01 through OS-04 now address customer structures and their transitions. The prior asset/control/learning-rights inquiry continues in BM-02; the prior provider-owning-operations question continues in BM-03; commercial structures and supplier/operator coexistence continue in BM-01/04. Earlier wording remains in repository history. These scope changes do not mark any question answered.
+
+Use common actor and cohort IDs across OS and BM. A provider can also be an operator or adopter; several roles do not imply several independent labor pools, revenue opportunities or sources of finance.
 
 ## Recommended follow-on campaigns
 
 1. **Comparative production and penetration.** Combine PL, HC, and SP across contrasting value chains. Graduate from maps to quantitative cohorts when labor denominators, capability requirements, and shared constraints can be reconciled. Produce conditional penetration scenarios and identify their strongest disconfirming observations.
 2. **Learning and coordinated fleets.** Combine DL and FD. Begin with access and evaluation feasibility; then compare aggregation, deployment selection, and supervision policies. Graduate to experiments only with authorized data, compatible measurements, and a credible baseline. Simulation remains labeled synthetic evidence.
-3. **Ownership, organization, and competition.** Combine OS with the first two campaigns. Compare incumbents, holdcos, native newcos, and mixed structures under common production assumptions. Graduate when differences follow from explicit rights, costs, and capabilities rather than narrative preference; retain market-specific coexistence outcomes.
+3. **Customer structures, robotics business models, and competition.** Combine OS and BM with the first two campaigns. Compare customer ownership/governance, incumbent/acquisition/newco pathways, and commercial/asset/control arrangements as linked dimensions. Graduate when adoption and value-capture differences follow from explicit mechanisms, rights, costs, and capabilities; retain market-specific coexistence outcomes.
 
 ## Question lifecycle and refresh
 
