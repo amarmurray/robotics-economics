@@ -1,0 +1,1238 @@
+{
+  "schema_version": "0.1",
+  "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.4",
+  "edition_status": "campaign_in_progress",
+  "requirements": [
+    {
+      "requirement_id": "W1-001",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "One connected ecosystem dossier mapping physical inputs, model production, inference/distribution, agent/tooling layers, deployment firms, operating customers and dependent businesses. Use a dated coverage map rather than claiming every actor is covered.",
+      "status": "met",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "H's connected physical-input \u2192 model \u2192 inference/tooling \u2192 deployment/customer map is dated and explicitly incomplete. Talent/data markets and current contract/control coverage need expansion."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-002",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "Two contrasting digital end-market/value-chain deployment dossiers connecting capability, actual use or nondeployment, economic outcomes and organizational conditions. Include retrospective methods and prospective implications; use source vintages correctly.",
+      "status": "met",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "H contrasts observed customer-support productivity with software-development evidence and its later selection/measurement problem. Organizational conditions, vintages and prospective implications remain separate."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-003",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "Three direct-contribution maps: embodied capability/control; fleet/site/enterprise integration including ERP, routing/scheduling and operations systems; and robotics R&D. Distinguish observed results, announced products, conventional interfaces and proposed combinations.",
+      "status": "met",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "H has three direct-contribution maps: embodied control, fleet/site/enterprise interfaces, and robotics R&D. Demonstrated systems, documented interfaces, announced products and proposed combinations are distinguished. Interface reproducibility remains open."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-004",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "At least six explicit analogy tests spanning several subjects, including material nontransfer conditions or candidate counterexamples. A failed analogy can be a useful result; do not manufacture positive transfers.",
+      "status": "met",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Eight H analogy cards specify source/target evidence, conditions, falsifiers and permitted uses. Rejected numerical transfers count as findings; they do not calibrate the engine."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-005",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "Benchmark cards across professional outputs, organizational workflows, agent coordination and embodied control, with system/harness versions, budgets, intervention and measurement limits.",
+      "status": "partial",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries."
+      },
+      "gap": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-006",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "One transparent joint digital/physical mechanism scenario with matched output/quality and demand, evolving digital-improved human/incumbent comparators, identifiable interactions and source-linked assumptions. Labeled scenarios are acceptable when calibration is unsupported.",
+      "status": "partial",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic."
+      },
+      "gap": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-007",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial digital-AI ecosystem module",
+      "requirement": "A substantial report chapter integrated with the other workstreams and dedicated dashboard workspaces. Explain how the evidence changes or constrains at least three concrete research questions, deployment scenarios or organizational comparisons; rejected transfers and bounded null findings count.",
+      "status": "met",
+      "artifacts": [
+        "research/digital_ecosystem.md",
+        "data/digital_evidence.json",
+        "research/digital_infrastructure.md",
+        "reviews/evidence_review_h_infrastructure.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "H report chapters and digital/analogy workspaces materially constrain the human comparator, coordination architectures, learning-transfer claims and supply assumptions. Several concrete implications are developed, not merely counted."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-008",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "One connected humanoid/quadruped supply and value-chain map covering the component, manufacturing, software, deployment, service, finance and customer layers; a dated key-player coverage register with regional coverage, known relationships and unknowns. Include onboard compute/memory and separate training/remote-inference resources.",
+      "status": "partial",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "IJ maps the connected supply/service chain and regional coverage; HI separates embedded LPDDR from remote/training HBM. Named qualified suppliers, facilities, allocations and regional alternatives remain thin beyond a few inspected relationships."
+      },
+      "gap": "IJ maps the connected supply/service chain and regional coverage; HI separates embedded LPDDR from remote/training HBM. Named qualified suppliers, facilities, allocations and regional alternatives remain thin beyond a few inspected relationships.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-009",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "Two sourced system/component configuration maps, one humanoid and one quadruped. Record unknown BOM quantities, costs, suppliers, yields and capacity explicitly; no fabricated cost breakdowns. Architecture and qualification differences must remain visible.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "IJ pins G1 base and Go2 EDU configurations and retains unknown BOM quantities, supplier/cost/yield/capacity fields. Base/optional packages and exact-memory uncertainty are visible; these are not costed teardowns."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-010",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "At least two matched embodiment comparisons linked to existing deeper cells, considering human/digital-improved baselines and relevant simpler or mixed-system alternatives. Compare useful output/quality, whole-system economics, support, data and supply needs; mark infeasible options rather than manufacturing equivalence.",
+      "status": "partial",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "IJ provides utility-inspection and medical-delivery comparisons linked to deep cells, with feasibility and matched-service boundaries. Whole configured costs/support exposure are unknown; medical delivery is an explicitly foreign mechanism comparison, not calibrated US hospital logistics."
+      },
+      "gap": "IJ provides utility-inspection and medical-delivery comparisons linked to deep cells, with feasibility and matched-service boundaries. Whole configured costs/support exposure are unknown; medical delivery is an explicitly foreign mechanism comparison, not calibrated US hospital logistics.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-011",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "One transparent time-indexed component \u2192 qualified production \u2192 commissioning \u2192 supported fleet scenario and scale-target backcast, integrated with the common engine. Test slower qualification/ramp, constrained supply or service, and a case where another constraint binds. Preserve inventory, yield boundaries, replacement/spare demand, shared allocations, financing and explicit uncertainty.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Engine has dated components, assembly/WIP, finished inventory, transit, commissioning, support, replacement/spares and a target backcast. Delayed-supply, service-stress and unready-demand presets exercise different constraints. Financing remains the declared annual-envelope approximation."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-012",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "At least five artifact/version-specific openness cards spanning a commercial platform such as Unitree, open hardware, middleware/interfaces, model/policy/data releases, and drone software. Separate access, source, reproducibility and commercial rights; explain economic hypotheses against the digital-model comparator.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Six IJ artifact-specific cards cover SDK, open hardware, middleware, policy/model and drone software. Commit/license pins distinguish code rights from hardware, data, commercial-use and practical dependencies; independent checks were bounded, not a complete legal/reproducibility audit."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-013",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "Three substantive quadruped deployment dossiers across at least two sectors, seeking at least one operator-supported routine-use case and one material limitation, nondeployment or stalled-use investigation. Cases may overlap those attributes. Record attempts and gaps if public evidence cannot establish the requested operating status; a vendor announcement does not fill that gap.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Three quadruped dossiers span manufacturing/infrastructure; BMW supports repeated operator-reported use, while Blyth and Northern Lights preserve trial/commissioning limits. Routine exposure, retention and independently audited economics remain unknown."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-014",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "Three contrasting drone comparison dossiers across at least two operating/business models, including a material constraint or negative finding. Use inspection, delivery, agricultural services or other cases selected for decision relevance. Distinguish measured activity/outcomes, modeled economics, regulatory conditions and vendor claims.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "PG&E inspection, Rwanda delivery and agricultural-service budgets supply three contrasting drone cases and negative evidence. The corrected main/sensitivity road comparators, historical adverse cost direction and hypothetical budgets remain explicit."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-015",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "At least four explicit physical-system transfer/nontransfer tests, including a failed or materially limited candidate, covering more than one of operational scaling, supply/industrial structure, openness, coordination and learning. These do not replace H's six digital analogy tests. Link direct complementarity or real shared inputs separately from analogy.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Five physical transfer tests span service quality, geography, openness, coordination and fixed-cost utilization. They identify failed/limited transfers and do not replace H's tests or become numerical coefficients."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-016",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
+      "requirement": "Substantial report sections and two linked dashboard views for supply/production and embodiment/deployment comparisons. Explain how I/J evidence changes or constrains at least three concrete market, scale, architecture, customer-entry or provider strategy judgments. Negative findings count.",
+      "status": "met",
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json",
+        "reviews/evidence_review_physical.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "IJ report sections and the supply/embodiment workspaces constrain service acceptance, architecture choice, inspection-newco requirements and support-limited scaling. Lack of configured prices is a substantive conclusion, not a fabricated ranking."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-017",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "1. **Economic atlas:** end markets, value-chain stages, labor/value measures, coverage statuses, residual categories, and baseline automation.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Atlas workspace exposes 15 families, employment and occupation measures, residual/reference accounting, qualitative stages/baseline automation and unknown physical hours. National reference totals are labeled when cell filters change."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-018",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "2. **Market deployment explorer:** selected cell, workflow context, competing configurations, conditional waterfall, economic outcomes, and adoption timeline.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Deployment workspace joins the selected cell, workflow evidence, conditional cohort waterfall, scenario economics and timeline. Its synthetic 12-site population per cell is separate from employment and observed deployments."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-019",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "3. **Provider and system landscape:** versioned humanoid/quadruped/other-system capabilities, key-player and regional coverage, evidence conditions, deployment phase, supply/commercial relationships, openness artifacts, and alternatives.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Provider workspace exposes versioned configured systems, phase/status, alternatives, supply relationships and source records. Regional coverage is partial and records require drilling down for some dimensions."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-020",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, benchmark/economic applicability, capability-to-use gaps, relative digital/embodied/hardware progress, and limits of extrapolation.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Improvement workspace shows scenario capability trajectories and empirical learning/benchmark records. It lacks a complete independently evolving digital/hardware/integration comparison and calibrated response surfaces outside the studies' limited settings."
+      },
+      "gap": "Improvement workspace shows scenario capability trajectories and empirical learning/benchmark records. It lacks a complete independently evolving digital/hardware/integration comparison and calibrated response surfaces outside the studies' limited settings.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-021",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "5. **Fleet and bottleneck view:** commissioning cohorts, active stock, productive output, retirements, shared resource use, and binding constraints.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Fleet workspace displays commissioning, active stock, retirement, output and the shared-resource budget. MR verifies stock/flow and supported-site boundaries in the stated expected fractional-unit model."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-022",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical\u2013digital dependencies, rights, costs, and beneficiaries; robot/fleet/site/enterprise roles, ERP/WMS/MES and routing/scheduling interfaces, and separate robotics R&D contributions.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Learning workspace connects exposure, validation, same-configuration transfer and source rights/interface records. Rights-conditioned usable-data selection, cross-embodiment transfer, enterprise transaction/recovery dynamics and executable R&D critical paths remain absent."
+      },
+      "gap": "Learning workspace connects exposure, validation, same-configuration transfer and source rights/interface records. Rights-conditioned usable-data selection, cross-embodiment transfer, enterprise transaction/recovery dynamics and executable R&D critical paths remain absent.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-023",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "7. **Customer structure and adoption:** ownership/governance profiles, capital access/allocation, automation appetite, operational authority, implementation capacity, customer pathways, value-chain position, and adoption outcomes; linked newco entry, funding/runway, build/acquire/hybrid, demand/share, and incumbent-response comparisons.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Customer workspace links explicit profile mechanisms and a monthly entrant cash/share case. It does not model changing ownership composition or acquisition-driven transitions across the common fleet; the entrant case is a separate reference scenario."
+      },
+      "gap": "Customer workspace links explicit profile mechanisms and a monthly entrant cash/share case. It does not model changing ownership composition or acquisition-driven transitions across the common fleet; the entrant case is a separate reference scenario.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-024",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "8. **Robotics business models and value capture:** commercial arrangements, provider/operator/integrator/financier roles, asset/control/data rights, cash requirements, risk allocation, integration, and coexistence. Link to the selected customer profiles.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Commercial workspace separates business ownership, robot title, workflow/data rights and customer/provider/financier cash. FG records broader arrangements; unknown contract terms remain unknown. Full company financing is separately partial below."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-025",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "9. **Digital AI ecosystem:** physical inputs, model development and inference, cloud/distribution, tools/agents, deployment companies, dependent businesses and adopting end markets; dated resource, capital, data, control and commercial relationships. Qualitative edges remain distinct from measured flows.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Digital workspace presents the layered ecosystem, dated relationships and HI resource evidence. Qualitative links are not represented as measured material/cash flow widths."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-026",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "10. **Analogy and direct-contribution workbench:** source/target mechanisms and evidence, required conditions, transfer limits, model-role/interface maps, benchmark cards, joint digital/physical comparisons and implications for existing research questions.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Analogy workspace provides source/target tests, direct-contribution maps, benchmark records and engine joint comparisons. Evidence can be opened with limitations and locators."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-027",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "11. **Robotics supply and production:** component/facility/system relationships; input and memory/compute classes; capacity/qualification/ramp, inventory/yield/spares, shared allocations, cost and capability links, bottleneck timeline and scale-target backcast.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Supply workspace exposes component classes, inventory, production pipeline, shared resources, bottleneck scenarios and backcast. Named real configurations are not silently equated with synthetic BOM coefficients."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-028",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "12. **Embodiment and deployment comparison:** market-stage fit, matched output/quality and economics, human/simpler/mixed-system alternatives, quadruped field dossiers, drone transfer/nontransfer evidence, openness layers and source maturity.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Embodiment workspace joins field dossiers, rights and matched synthetic alternatives. Specialized-cost factors and a half-output mixed process are assumptions, not total configured-cost observations or demonstrated feasible substitutes."
+      },
+      "gap": "Embodiment workspace joins field dossiers, rights and matched synthetic alternatives. Specialized-cost factors and a half-output mixed process are assumptions, not total configured-cost observations or demonstrated feasible substitutes.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-029",
+      "section": "6. Deliverables and dashboard behavior",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "13. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Evidence/scenario workspace compares eight presets, displays assumptions and hashes, opens source records and exports results. Contradictions and missingness remain inspectable; a statistical confidence distribution is not established."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-030",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Validate stable IDs, joins, schemas, dimensions, conversion rules, missingness, and scenario versions.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Stable IDs and inspected joins work; source-row arithmetic and scenario fingerprints are reproducible. `validate_evidence.py` enforces evidence-ID uniqueness and selected reference keys, not the full date/unit/population/null-reason contract, all dimensions or every relationship ID."
+      },
+      "gap": "Stable IDs and inspected joins work; source-row arithmetic and scenario fingerprints are reproducible. `validate_evidence.py` enforces evidence-ID uniqueness and selected reference keys, not the full date/unit/population/null-reason contract, all dimensions or every relationship ID.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-031",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Reconcile cohort stock flows, compatible population totals, waterfall denominators, customer-cohort activity weights, ownership transitions, and shared resource budgets.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "MR checks cohorts, physical flows, common waterfall populations and shared budgets. Global profile selection does not establish customer-cohort activity weights or ownership transitions; no acquisition-transition stock ledger exists."
+      },
+      "gap": "MR checks cohorts, physical flows, common waterfall populations and shared budgets. Global profile selection does not establish customer-cohort activity weights or ownership transitions; no acquisition-transition stock ledger exists.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-032",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Verify customer ownership/governance and robot-asset/commercial arrangements are separate dimensions; compare a customer-profile change at fixed technical capability and trace its adoption mechanism. Check a commercial-term change for the corresponding customer and provider/financier cash and capacity effects.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Profile changes act through authority, delay, implementation slots, finance/payback gates at fixed technical inputs. Sale/lease/RaaS alter counterparties' cash and capacity conditions; business and robot ownership remain distinct."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-033",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Verify that displacement, demand expansion, provider revenue, and learning value are not double-counted.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Baseline output, expansion, removed payroll assumptions, provider transfers and optional learning are separated. No duplicate data premium appears. The separate entrant case must not be added to the common fleet as independently feasible output."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-034",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Check entry cases for matched output/quality, conserved market share/activity, explicit funding gaps, capacity versus served-demand constraints, and alternative incumbent responses. Confirm that a parent-company formation or acquisition is not counted as new underlying productive activity; show a same-robot-access counterfactual.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Entry case conserves captured/remaining activity, bounds served output by capacity/demand, exposes funding gaps and prompt/delayed incumbent response at the same robot access. Conditional unfunded paths are not realized firms; acquisition does not create new underlying output."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-035",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Compare dashboard and report outputs with the authoritative engine on saved scenarios.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Lead's exact eight-export/report-row reconciliation and BR establish the current common-engine path. Observed atlas totals use the separate authoritative source-row transformation. Regeneration remains required after changes."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-036",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Exercise representative crossfilters; verify consistent scope and denominators in every affected view.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "BR exercised two contrasting cells \u00d7 two years \u00d7 13 views. Shared-pool, fixed-horizon, initial-capability and newco exceptions are explicitly labeled. This validates representative available filters, not absent dimensions or every combination."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-037",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Change material scenario inputs; confirm actual recalculation, or explain a locally insensitive result through model constraints.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "MR verifies consequential changes in digital, support, yield, learning, funding and response inputs; BR confirms a changed result/hash. Locally inactive validation expense with transfer disabled has an explained mechanism."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-038",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Drill from a displayed result through its calculation and assumptions to specific evidence records and source locators.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "UI offers assumption tables, methods, source dialogs and complete saved records. There is no complete result-specific lineage from every displayed metric to its exact equation/input/locator; generic evidence links are not calibration links."
+      },
+      "gap": "UI offers assumption tables, methods, source dialogs and complete saved records. There is no complete result-specific lineage from every displayed metric to its exact equation/input/locator; generic evidence links are not calibration links.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-039",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Confirm observed evidence remains fixed when scenario controls change; test unknown versus zero and insufficient-data states.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "BR confirms evidence unchanged under scenario changes and an explicit empty state; tests reject null numerical overrides. Observed physical hours/payroll remain null, while scenario zero is a distinct quantity."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-040",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Verify analogy source and target evidence remain distinct; unsupported transfers cannot silently set calibrated parameters. Trace direct-contribution claims to their demonstrated setting and interface.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Analogy cards preserve source/target sides and prohibit unsupported effect-size transfer. Direct-contribution status and demonstrated interfaces are labeled; neither cards nor source counts silently set calibrated parameters."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-041",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Exercise a joint digital/physical comparison, including an improved human-led baseline, shared resource limits and non-additive effects without duplicate benefits. Check that changing digital assumptions affects the intended roles and populations only.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Engine/MR exercise the four costs, improved human comparator, non-additive interaction and shared deployment resources. Digital assumptions affect declared operational roles; the comparison is a mechanism exercise, not causal identification."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-042",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Reconcile component and finished-system inventories, assembly/qualification yields, work-in-progress timing, commissioning, replacement versus net additions, spares and shared resource allocations; exercise a delayed-qualification or constrained-service case.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "MR verifies compatible component, finished-stock, WIP, transit, commissioning, retirement/replacement and spares identities, plus delayed qualification/service stress. Fractional annual flows do not establish a discrete factory schedule."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-043",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Check that the scale-target backcast uses declared units and necessary-condition logic; supply feasibility cannot silently become demand or adoption.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Backcast declares stock/units, lagged starts/commissioning and replacement requirements. It is a necessary-condition witness; a target beyond the 72-site reference pool does not become demand, orders or financed adoption."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-044",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Verify embodiment comparisons use matched output/quality and total configured costs; overlapping or complementary drone/quadruped/humanoid work cannot duplicate economic activity or gains.",
+      "status": "partial",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Synthetic alternatives conserve matched output and avoid duplicate mixed-process gains. Real whole-system cost and acceptance equivalence remain unestablished for the sourced embodiment comparisons; hypothetical factors cannot close that gap."
+      },
+      "gap": "Synthetic alternatives conserve matched output and avoid duplicate mixed-process gains. Real whole-system cost and acceptance equivalence remain unestablished for the sourced embodiment comparisons; hypothetical factors cannot close that gap.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-045",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Verify artifact-level openness and drone/quadruped observation status; released code, missions, announced capacity and modeled economics remain distinct from realized productive outcomes.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Source reviews inspect artifact-specific rights and consequential field statuses. PG&E flight/imagery, Rwanda outcomes/cost, trial/routine use and announced capacity remain distinct. No blanket openness or mission-to-profit conversion is accepted."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-046",
+      "section": "7. Acceptance and verification",
+      "subsection": "Thirteen linked dashboard views",
+      "requirement": "Export and reload a scenario; reproduce its outputs and confirm a documented local launch.",
+      "status": "met",
+      "artifacts": [
+        "dashboard/app.js",
+        "model/METHODS.md",
+        "reviews/model_review.md",
+        "reviews/browser_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Local launch is documented without third-party dependencies; API tests, MR and BR cover export/recalculation/reload. Historical reproduction requires the matching engine/catalog revision, not merely a saved parameter object."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-SCOPE",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "All ten workstreams; 10\u201315 end-market families and explicit residuals",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "A\u2013J have substantive chapter coverage, 15 market families and explicit business/admin/self-employment residuals. Quantified employment coverage is not quantified physical-work coverage."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-CELLS",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Six contrasting market-stage cells across at least four end markets",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Six contrasting deep cells span manufacturing, logistics, facilities, healthcare, construction and utilities. They have service boundaries, alternatives, deployment pathways and negative evidence; economic depth is uneven."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-PROFILES",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "At least two cells with matched customer profiles and commercial arrangements",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "FG compares M08 tote handling and M11 floor cleaning across customer profiles and commercial arrangements while holding technical service assumptions fixed. Actual causal ownership effects and complete contracts remain unavailable."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-ENTRY",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "One substantive same-robot-access entrant/incumbent formation/funding/competition case",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "FG and engine provide a substantive same-robot-access formation/funding/share/response case, alongside a 15-market entry screen. It is a synthetic testable case, not an observed investable return."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-ACCOUNTING",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Employment, paid/physical hours, accepted output, payroll avoidance, revenue and surplus separated",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Employment, observed/unknown hours, accepted units, baseline-equivalent hours, payroll avoidance, revenue and consolidated cost are explicitly separated. No employment \u00d7 2,080 conversion or occupational-share automation estimate is accepted."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-TRAJECTORY",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Capability, transfer, hardware, integration and coordination mechanisms independently inspectable",
+      "status": "partial",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models."
+      },
+      "gap": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-WATERFALL",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Matched conditional populations and stock-flow deployment stages",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Technical/economic/readiness predicates use the same heterogeneous sites; installed and realized output remain bounded by supported site workloads. The source cells' empirical gates remain unquantified."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-RESOURCES",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Shared hardware, integration, support and capital pools not spent repeatedly across cells",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Within the six-cell fleet, hardware, integration, support and customer/provider envelopes are allocated once. Entrant/backcast reference exercises are explicitly separate and cannot be summed as claims on those resources."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-LEARNING",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Deployment/exposure/rights/learning feedback and no duplicate data premium",
+      "status": "partial",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Optional exposure/validation changes future same-system capability without a duplicate premium. Rights, useful-data selection, target transfer, portfolio choice and causal improvement coefficients remain insufficient for a calibrated deployment-learning policy."
+      },
+      "gap": "Optional exposure/validation changes future same-system capability without a duplicate premium. Rights, useful-data selection, target transfer, portfolio choice and causal improvement coefficients remain insufficient for a calibrated deployment-learning policy.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-CASH",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Customer/provider/operator/financier budgets and consolidated internal transfers reconcile",
+      "status": "partial",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger."
+      },
+      "gap": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-REPORT",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Substantive integrated report with H/I/J depth and strategic implications",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Integrated report develops H/I/J and cross-workstream strategy, with unknowns and source-backed adverse findings. Length exceeds guidance and can be condensed; it does not call the campaign finished."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-ENGINE",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "One calculation engine for dashboard/report/exports, reproducible offline launch",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Dashboard/API, saved scenarios and quantitative report exports use one engine; observed-statistics transformations are separately authoritative. Offline launch instructions and version hashes are present."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-DATA",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Compact record contracts and stable source/target/evidence IDs; units and unknowns explicit",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Six compact JSON packages and `data/SCHEMA.md` document stable IDs, quantities, units, dates, statuses and unknowns. Semantic normalization/enforcement remains partial under W1-030; 96 records are not 96 independent sources."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-CONTROLS",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Applicable shared filters show scope; real controls recalculate and unsupported controls disabled",
+      "status": "partial",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Available cell/year/status/search controls show scope and real parameters recalculate. Dedicated geography, system/harness, embodiment, resource-class and openness filters are absent; text search and full-record inspection are not equivalent."
+      },
+      "gap": "Available cell/year/status/search controls show scope and real parameters recalculate. Dedicated geography, system/harness, embodiment, resource-class and openness filters are absent; text search and full-record inspection are not equivalent.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-ROADMAP",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Prioritized continuing questions with dependencies, evidence needs and stopping conditions",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "The 55-question ledger and ranked continuation queue retain dependencies, evidence needs, decision consequences and stopping conditions. Access-dependent questions are distinguished from immediately tractable public-source/CPU work."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-TIME",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Preserve T0 and deadline; continue substantive ranked work during available window",
+      "status": "partial",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "T0 is preserved as 2026-10-25 15:52:14 UTC and deadline as 2026-11-01 15:52:14 UTC, exactly 168 hours including the local DST change. Continuation is active; future work/window completion cannot be certified at this early cutoff."
+      },
+      "gap": "T0 is preserved as 2026-10-25 15:52:14 UTC and deadline as 2026-11-01 15:52:14 UTC, exactly 168 hours including the local DST change. Continuation is active; future work/window completion cannot be certified at this early cutoff.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    },
+    {
+      "requirement_id": "W1-REVIEW",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Independent evidence, accounting/model and acceptance review",
+      "status": "met",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Separate evidence, accounting/model, browser and this acceptance review exist, with consequential findings and recorded correction dispositions. Audits remain bounded; this is not universal source or experimental verification."
+      },
+      "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
+      "next_action": "Preserve checks after changes; continue campaign evidence priorities."
+    },
+    {
+      "requirement_id": "W1-PUBLICATION",
+      "section": "Cross-cutting prose obligations",
+      "subsection": "",
+      "requirement": "Scoped validated commit and normal private-repository push; preserve unrelated work",
+      "status": "unmet",
+      "artifacts": [
+        "REPORT.md",
+        "ACCEPTANCE_AUDIT.md",
+        "RESEARCH_ROADMAP.md",
+        "HANDOFF.md",
+        "reviews/acceptance_review.md"
+      ],
+      "validation": {
+        "review": "reviews/acceptance_review.md",
+        "finding": "Scoped commit, clean preservation of unrelated work and normal private-remote push have not yet been established at this review cutoff. Lead must append the actual publication receipt; local artifacts alone do not satisfy this item."
+      },
+      "gap": "Scoped commit, clean preservation of unrelated work and normal private-remote push have not yet been established at this review cutoff. Lead must append the actual publication receipt; local artifacts alone do not satisfy this item.",
+      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+    }
+  ],
+  "status_counts": {
+    "met": 46,
+    "partial": 17,
+    "unmet": 1
+  },
+  "publication_cutoff_note": "W1-PUBLICATION is assessed before this checkpoint commit/push. Actual publication results belong in ignored sync_receipt.json; subsequent checkpoint review can update its historical status."
+}

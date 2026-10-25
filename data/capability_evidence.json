@@ -1,0 +1,1990 @@
+{
+  "schema_version": "capability-package/0.1",
+  "metadata": {
+    "title": "Capabilities, improvement, learning/control and coordination: first substantive evidence wave",
+    "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
+    "as_of_date": "2026-10-25",
+    "status": "intermediate_partial_research_not_campaign_completion",
+    "scope": "B/D/E; global provider/research coverage; matched US cell implications",
+    "actual_model_verification": "Requested GPT-6 Astra Ultra; this agent cannot independently verify serving-model/reasoning configuration.",
+    "search_result_slots_requested": 75,
+    "search_count_note": "Result slots requested across15 search calls; not75 independent verified sources.23 retained primary-source evidence records.",
+    "source_verification_limit": "Public primary text and papers, not independent site audit; unknown operation metrics remain null.",
+    "external_evidence_refs": [
+      {
+        "evidence_id": "FG-E008",
+        "owner": "customer_value",
+        "use": "BrainOS/Karcher rights comparator only; data ownership does not imply exclusive learning rights."
+      },
+      {
+        "evidence_id": "H-AUTORT-2024",
+        "owner": "digital_ecosystem",
+        "use": "Research fleet collection/control evidence; avoid duplicated source count."
+      },
+      {
+        "evidence_id": "H-RMF-INTERFACE",
+        "owner": "digital_ecosystem",
+        "use": "Same source asCAP-E023; not independent corroboration."
+      }
+    ],
+    "version": "0.1.1",
+    "review_corrections": {
+      "date": "2026-10-25",
+      "review": "reviews/evidence_review_capabilities.md",
+      "scope": "RECAP evaluation population and source wording; arXiv version metadata and bounded v4 comparison; prospective evidence-status labels",
+      "verification": "Owner directly checked arXiv submission histories and relevant v4/v2 text; independent reviewer also inspected RECAP Figure9 image. No experiment replication."
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "CAP-E001",
+      "schema_version": "capability-evidence/0.1",
+      "title": "BMW: humanoid pilot and Leipzig programme",
+      "publisher": "BMW Group",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en",
+      "publication_date": "2026-02-27",
+      "publication_date_missing_reason": null,
+      "observation_period": "2025 Spartanburg pilot; December 2025 Leipzig test; future 2026 pilot",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_reported_observation",
+      "claim": "Figure 02 moved more than 90,000 components over around 1,250 operating hours and supported over 30,000 X3 vehicles; BMW selected a highly automated body shop with integration expertise. AEON underwent a Leipzig test in December 2025.",
+      "locator": "Sections 'Successful pilot at BMW Group Plant Spartanburg' and 'First pilot project with humanoid robots in Europe'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "No shift-by-shift autonomy, intervention, downtime, staffing, cost or robot-count denominator. Future summer 2026 AEON pilot status is not verified by this February release.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/Germany",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E002",
+      "schema_version": "capability-evidence/0.1",
+      "title": "F.02 contributed to production of 30,000 cars",
+      "publisher": "Figure AI",
+      "url": "https://www.figure.ai/news/production-at-bmw",
+      "publication_date": "2025-11-19",
+      "publication_date_missing_reason": null,
+      "observation_period": "11-month deployment; six months daily runtime as stated",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Figure reports 90,000+ loaded parts and 1,250+ operational hours; 84-second total cycle/37-second loading were requirements, >99% placement was a target and zero interventions per shift was a goal. Forearm failures informed Figure 03 wrist redesign; Figure 02 returned to HQ for retirement.",
+      "locator": "'Deployment Overview'; 'Hardware Reliability and Learnings'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Targets are not realized measurements. 'Minimal hardware failures' has no count or exposure-adjusted rate. 10-hour shifts and deployment months do not imply continuous operation for every elapsed hour.",
+      "conflicting_evidence_ids": [
+        "CAP-E001"
+      ],
+      "conflict_note": "Figure describes 11-month deployment; BMW describes support within ten months. Preserve different calendar boundaries; do not average.",
+      "retrieved_at": "2026-10-25",
+      "geography": "US",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E003",
+      "schema_version": "capability-evidence/0.1",
+      "title": "BMW Figure 03 sequencing project",
+      "publisher": "BMW Group",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en",
+      "publication_date": "2026-06-25",
+      "publication_date_missing_reason": null,
+      "observation_period": "June 2026 project announcement",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_announced_plan_or_configuration",
+      "claim": "Figure 03 logistics sequence is components from unsorted containers to a sequencing trolley, then tugger train or STR transport to assembly employees. BMW also uses virtual factory tools for manual ergonomics and AIQX quality inspection.",
+      "locator": "'Next step with the next-generation Figure 03 robot'; 'BMW iFACTORY applications'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Prospective workflow, not a measured sustained production result. Do not inherit Figure 02 throughput/reliability or attribute BMW digital gains to humanoids.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E004",
+      "schema_version": "capability-evidence/0.1",
+      "title": "GXO multi-year Agility RaaS agreement",
+      "publisher": "GXO Logistics",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "publication_date": "2024-06-27",
+      "publication_date_missing_reason": null,
+      "observation_period": "Late 2023 proof of concept; June 2024 commercial deployment",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_reported_observation",
+      "claim": "GXO deployed Digit and Agility Arc under a multi-year RaaS agreement at a SPANX facility; Digit moves totes from AMRs/cobots onto conveyors.",
+      "locator": "Opening paragraphs and descriptions of Agility Arc/SPANX",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "No installed robot count, unit price, staffing, intervention, elapsed operating hours or ROI calculation.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E005",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Digit moves over 100,000 totes",
+      "publisher": "Agility Robotics",
+      "url": "https://www.agilityrobotics.com/content/digit-moves-over-100k-totes",
+      "publication_date": "2025-11-20",
+      "publication_date_missing_reason": null,
+      "observation_period": "Cumulative commercial deployment through publication",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Digit moved over 100,000 totes at GXO Flowery Branch; manufacturer describes AMR-to-conveyor and floor stacking and a pipeline blending traditional control, teleoperated demonstrations, RL and simulation.",
+      "locator": "Opening milestone; 'Deploying Humanoids'; 'Translating AI Hype'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Cumulative cycles do not give per-robot throughput, accepted output quality, assistance burden or positive ROI. Customer confirms commercial arrangement in CAP-E004, not this cumulative metric.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E006",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Mercedes Digital Factory Campus: Apollo and MO360",
+      "publisher": "Mercedes-Benz Group",
+      "url": "https://group.mercedes-benz.com/company/production/production-network/mbdfc-humanoid-robots.html",
+      "publication_date": "2025-03-18",
+      "publication_date_missing_reason": null,
+      "observation_period": "March 2025 testing",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_reported_observation",
+      "claim": "Apollo collects production-environment data; employees transfer knowledge through teleoperation and augmented reality; autonomous operations are described as the next step. MO360 chatbots and virtual agents also support human production staff.",
+      "locator": "Apollo paragraphs; 'Artificial intelligence for everyone'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Testing/data collection cannot be classified as autonomous labor replacement. No causal productivity estimate or deployed exposure.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "Germany",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E007",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Atlas Robotics Metaplant Application Center opens",
+      "publisher": "Boston Dynamics",
+      "url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
+      "publication_date": "2026-09-21",
+      "publication_date_missing_reason": null,
+      "observation_period": "September 2026 RMAC opening",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "RMAC is operational as a testbed/training center; Atlas is training on automotive logistics/sequencing. Future expansion, 25,000 group units and 30,000-unit annual production facility are plans.",
+      "locator": "Opening; RMAC operations; 'About Boston Dynamics'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Training-center operation is not commercial production throughput. Article calls Atlas 'currently in development'; no trial success, intervention or productive fleet size.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/South Korea",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E008",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Hyundai CES 2026 robotics strategy",
+      "publisher": "Hyundai Motor Group",
+      "url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-group-announces-ai-robotics-strategy--to-lead-human-centered-robotics-era-at-ces-2026",
+      "publication_date": "2026-01-05",
+      "publication_date_missing_reason": null,
+      "observation_period": "2026 announcement; 2028/2030 targets",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_announced_plan_or_configuration",
+      "claim": "Atlas factory sequencing is planned from 2028 and assembly from 2030, conditional on process validation; product specification says up to 50 kg lifting.",
+      "locator": "Full article sections 'What is Boston Dynamics Atlas Robot Designed For?' and deployment paragraph",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Dates and payload are announced plans/specifications, not sustained field performance. Header KST date is 2026-01-06; dateline is January 5. Do not use page AI summary as evidence.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/South Korea",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E009",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Walker S2 product specification",
+      "publisher": "UBTECH",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Live page inspected 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Walker S2 page claims autonomous battery exchange within three minutes, dual-battery management and 15 kg payload within a 0–1.8 m workspace.",
+      "locator": "'Autonomous Battery Swapping'; 'Deep Squat and Stoop Lifting'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "24/7 language is design/marketing, not measured availability. Payload/endurance/reliability test conditions and interventions are missing.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "China",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E010",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Walker S industrial application cases",
+      "publisher": "UBTECH",
+      "url": "https://www.ubtrobot.com/en/humanoid/solutions/industry",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Live page inspected 2026-10-25; case dates unspecified",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Page describes Walker S/S1/S2/S Lite at SANY, Foxconn, BYD, NIO, Geely and others, including coordinated AMR/AGV logistics and three weeks of S Lite training at Zeekr.",
+      "locator": "'Industrial Application Cases' and 'Walker S Series'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Configurations and sites differ. >99% visual-inspection accuracy and 10-second sorting claims lack sample denominator, quality distribution and exposure. Vendor case narrative is not independently confirmed shift operation.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "China",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E011",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Unitree G1 configuration and caveats",
+      "publisher": "Unitree Robotics",
+      "url": "https://www.unitree.com/g1/",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Live page inspected 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "G1 and G1 EDU differ in joints, optional hand, development support and arm load. Standard arm load about 2 kg, EDU about 3 kg; approximately two-hour battery life. Some sample functions remain in development/testing.",
+      "locator": "Parameter table; footnotes 2,5,8,9",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Arm load changes with posture; battery workload undefined. Base price excludes tax/shipping and does not buy an integrated production solution. Hardware availability is not autonomous task competence.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "China/global",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E012",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Unitree H2 Plus research reference design",
+      "publisher": "Unitree Robotics",
+      "url": "https://www.unitree.com/news/40/",
+      "publication_date": "2026-06-01",
+      "publication_date_missing_reason": null,
+      "observation_period": "Announcement; availability planned late 2026",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "H2 Plus combines H2, Sharpa hands and Jetson Thor; rated arm payload 7 kg, peak 15 kg, 128 GB unified memory and about three-hour battery life; availability expected late 2026.",
+      "locator": "'A State-of-the-Art Humanoid Robot'; 'Availability'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Academic development/reference design, not a verified productive installation. Specifications, supported software release and configured availability need separate confirmation.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "China/global",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E013",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Tesla Q3 2026 Update Exhibit 99.1",
+      "publisher": "Tesla / SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "publication_date": "2026-10-21",
+      "publication_date_missing_reason": null,
+      "observation_period": "Q3 2026 reporting period",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_filing",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Tesla reports Optimus manufacturing began in Fremont; capacity table labels California 'Early Ramp', Texas 'Construction', with no numeric Optimus capacity.",
+      "locator": "Page 6 'Manufacturing & Hardware', Robotics paragraph and capacity table",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Manufacturing status does not establish autonomous productive work, shipments, retained operational stock, uptime or outside-customer output.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E014",
+      "schema_version": "capability-evidence/0.1",
+      "title": "NEO home robot and Expert Mode",
+      "publisher": "1X Technologies",
+      "url": "https://www.1x.tech/neo",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Live page inspected 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "NEO page describes basic/foundational autonomy, scheduled expert remote supervision for unfamiliar complex chores, and remote control.",
+      "locator": "'Expert Mode'; 'Grows With You'; 'Utility'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "No measured household service hours, task success distribution, remote assistance fraction, household sample or unit economics. A product offer is not verified fully autonomous housekeeping.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/Norway",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E015",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Redwood AI architecture",
+      "publisher": "1X Technologies",
+      "url": "https://www.1x.tech/discover/redwood-ai",
+      "publication_date": "2025-06-10",
+      "publication_date_missing_reason": null,
+      "observation_period": "June 2025 model description",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Redwood is a 160M-parameter transformer running around 5 Hz onboard NEO; offboard speech-to-speech model extracts goals. EVE/NEO action decoders and success/failure training signals are described.",
+      "locator": "'Cross-Embodiment Architecture'; 'Runs Fully On-board'; 'Voice Control'; 'Learns from Success and Failure Data'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "No matched quantitative ablation, deployment success denominator or cost. Do not equate 5 Hz action model with low-level safety/control loop frequency.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/Norway",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E016",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Sanctuary Physical AI milestones",
+      "publisher": "Sanctuary AI",
+      "url": "https://sanctuary.ai/milestones/",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Year-labelled milestones 2024–2026; retrieved 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Sanctuary claims 2026 wire-harness insertion at line speed with 99.5%+ task success and a commercial order; notes 2025 task-specific low-DOF end effectors and 2024 one-policy Phoenix/Franka demonstration.",
+      "locator": "'Completed Milestones'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Unspecified robot embodiment, customer/site, cycle time, trial count, exposure, intervention, reject criteria and sample selection. Do not assign the 99.5% claim to a general-purpose biped.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "Canada/customer location unknown",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E017",
+      "schema_version": "capability-evidence/0.1",
+      "title": "DHL Stretch deployment and MOU",
+      "publisher": "DHL Group",
+      "url": "https://group.dhl.com/en/media-relations/press-releases/2025/dhl-group-signs-mou-with-boston-dynamics-and-accelerates-cross-business-automation-strategy.html",
+      "publication_date": "2025-05-13",
+      "publication_date_missing_reason": null,
+      "observation_period": "Commercial use since 2023; status May 2025",
+      "retrieval_date": "2026-10-25",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_reported_observation",
+      "claim": "DHL reports commercial Stretch container unloading since 2023, unloading rates up to 700 cases/hour, and conveyor/palletizer integration; more than 1,000 additional units is an MOU path.",
+      "locator": "'Case unloading rates of up to 700 cases per hour'; opening MOU",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Peak 'up to' rate is not fleet average or paid-hour productivity. Case unloading differs from Digit tote transfer; prospective 1,000 units are not installed stock. Page metadata May 9 conflicts with visible May 13 dateline; visible dateline retained.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "US/UK/Europe",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E018",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Data Scaling Laws in Imitation Learning for Robotic Manipulation",
+      "publisher": "Hu, Lin et al.",
+      "url": "https://arxiv.org/html/2410.18647v3",
+      "publication_date": "2024-10-24",
+      "publication_date_missing_reason": null,
+      "observation_period": "Controlled manipulation experiments; initial submission 2024; inspected v3",
+      "retrieval_date": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "research_evidence",
+      "claim": "More than 40,000 demonstrations and 15,000 rollouts support diversity-dependent improvement on four tasks. Fits use six data points, with 1–32 objects/environments; repeated demonstrations saturate and action-network size did not improve monotonically.",
+      "locator": "Sections 3–7; Fig.5; Table1; Table2; footnote1 in §4.2",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication. Submission history directly retrieved and inspected on2026-10-25; exact version date verified.",
+      "limitations": "Publication date denotes initial submission; inspected v3 dated2025-10-13. Fits concern normalized partial-credit score gap, not commercial success/output. Only two tasks drive detailed fit; two more test collection recipe; no task-level generalization or universal exponent. Newer v4 exists; only specified core sections compared, not a complete semantic diff.",
+      "conflicting_evidence_ids": [],
+      "version": "arXiv:2410.18647v3",
+      "retrieved_at": "2026-10-25",
+      "geography": "China research",
+      "status": "verified_primary_text_scope_limited",
+      "initial_submission_date": "2024-10-24",
+      "inspected_version_date": "2025-10-13",
+      "inspected_version_submitted_at": "2025-10-13T01:44:42Z",
+      "version_history_url": "https://arxiv.org/abs/2410.18647v3",
+      "publication_date_role": "initial_submission_date",
+      "newer_version_check": {
+        "version": "arXiv:2410.18647v4",
+        "submitted_at": "2026-06-26T02:30:53Z",
+        "url": "https://arxiv.org/html/2410.18647v4",
+        "retrieved_at": "2026-10-25",
+        "locators": [
+          "Section4.2 and footnote1",
+          "Section4.3 diversity/repetition distinction",
+          "Tables1 and2"
+        ],
+        "result": "Checked core results unchanged: six-point normalized-score-gap fits;1191-pair extrapolation remains unverified; Table1 success85.0/92.5/87.5/90.0percent; Table2 small/base/large U-Net scores0.88/0.90/0.83. Preserve v3 snapshot; no full-version semantic comparison or experiment replication."
+      }
+    },
+    {
+      "evidence_id": "CAP-E019",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Open X-Embodiment: datasets and RT-X",
+      "publisher": "Open X-Embodiment Collaboration",
+      "url": "https://arxiv.org/html/2310.08864v9",
+      "publication_date": "2025-05-14",
+      "publication_date_missing_reason": null,
+      "observation_period": "2023–2025 research; inspected v9",
+      "retrieval_date": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "research_evidence",
+      "claim": "Repository spans 22 embodiments, but experiments train on nine manipulator embodiments; 3,600 evaluations across six robots. RT-1-X improves mean success on small-data tasks, but Google-robot setting gives 73% versus RT-1 92%. RT-2-X emergent-skills scores 75.8% versus RT-2 27.3%.",
+      "locator": "§IV-C; Table I; §V; Table II; §VI",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication. Submission history directly retrieved and inspected on2026-10-25; exact version date verified.",
+      "limitations": "Known embodiments and coarsely aligned 7D end-effector actions; not generalization to new robots or radically different modalities. Table I does not support blanket claim larger model beats every baseline (91% vs 92% on Google setting). No production economics.",
+      "conflicting_evidence_ids": [],
+      "version": "arXiv:2310.08864v9",
+      "source_internal_conflict": "Narrative 'outperforms' in large-data discussion is broader than Table I; retain the table values.",
+      "retrieved_at": "2026-10-25",
+      "geography": "International research collaboration",
+      "status": "verified_primary_text_scope_limited",
+      "initial_submission_date": "2023-10-13",
+      "inspected_version_date": "2025-05-14",
+      "inspected_version_submitted_at": "2025-05-14T15:22:36Z",
+      "version_history_url": "https://arxiv.org/abs/2310.08864v9",
+      "publication_date_role": "inspected_version_date"
+    },
+    {
+      "evidence_id": "CAP-E020",
+      "schema_version": "capability-evidence/0.1",
+      "title": "DataMIL: selecting data with datamodels",
+      "publisher": "Dass et al.",
+      "url": "https://robin-lab.cs.utexas.edu/datamodels4imitation/",
+      "publication_date": "2025-05-14",
+      "publication_date_missing_reason": null,
+      "observation_period": "2025 research; arXiv:2505.09603v1",
+      "retrieval_date": "2026-10-25",
+      "source_class": "research_project_and_paper_abstract",
+      "epistemic_status": "research_evidence",
+      "claim": "DataMIL selects training samples using target-policy influence; target validation loss, temporal clustering and target co-training are central. It evaluates more than 60 simulation/real tasks and four real-world OXE target tasks including new Tiago embodiment.",
+      "locator": "'Proxy Metric'; 'Co-Training with Target'; 'OXE Results'; 'What data does DataMIL select?'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Selection needs target data and computation. Visually similar observations can have helpful or harmful action distributions; no demonstrated market-wide transferable dataset value.",
+      "conflicting_evidence_ids": [],
+      "version": "arXiv:2505.09603v1",
+      "date_evidence_url": "https://arxiv.org/abs/2505.09603",
+      "retrieved_at": "2026-10-25",
+      "geography": "US research",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E021",
+      "schema_version": "capability-evidence/0.1",
+      "title": "pi0.5 open-world generalization",
+      "publisher": "Physical Intelligence",
+      "url": "https://www.pi.website/blog/pi05",
+      "publication_date": "2025-04-22",
+      "publication_date_missing_reason": null,
+      "observation_period": "2025 research",
+      "retrieval_date": "2026-10-25",
+      "source_class": "research_project_and_paper",
+      "epistemic_status": "research_evidence",
+      "claim": "pi0.5 combines heterogeneous knowledge sources and controls mobile manipulators in unseen homes; paper evaluates three homes and stage-completion rubrics. Authors acknowledge semantic and motor mistakes.",
+      "locator": "Blog 'Generalization to new homes' and 'Where do we go from here?'; paper §V and Fig.7",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "New-home generalization is not a representative household service audit; tasks and quality rubrics remain bounded. Human feedback, resets, sample sizes and economic outcomes require granular review.",
+      "conflicting_evidence_ids": [],
+      "supporting_url": "https://arxiv.org/html/2504.16054",
+      "version": "pi0.5, April 2025 publication",
+      "retrieved_at": "2026-10-25",
+      "geography": "Research homes; unspecified geography",
+      "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E022",
+      "schema_version": "capability-evidence/0.1",
+      "title": "pi*0.6: a VLA that learns from experience",
+      "publisher": "Physical Intelligence et al.",
+      "url": "https://arxiv.org/html/2511.14759v2",
+      "publication_date": "2025-11-18",
+      "publication_date_missing_reason": null,
+      "observation_period": "2025 research; inspected v2",
+      "retrieval_date": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "research_evidence",
+      "claim": "RECAP uses demonstrations, on-policy experience and expert corrections. On-robot training more than doubles throughput for the diverse-laundry experiment evaluated on button-up shirts and for espresso. Diverse-laundry training covers11 item types; simple laundry iterations use300 trajectories on four robots per iteration. SectionVI-C describes box iterations as600 autonomous trials and360 intervention trials; AppendixA-F calls the600 demonstrations.",
+      "locator": "SectionVI-A Laundry(diverse items); SectionsVI-B/C; Figures7–12; SectionVII; AppendixA-F Dataset composition",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication. Submission history directly retrieved and inspected on2026-10-25; exact version date verified.",
+      "limitations": "Initial submission2025-11-18; inspected v2 dated2025-11-19. Diverse-laundry quantitative evaluation covers button-up shirts only, not the full11-type training mixture. Success uses task-specific deadlines and human quality annotation. Figure9 box-throughput point estimate first declines then improves; overlapping early error bars do not establish a statistically significant decline. Research results do not establish typical24/7 deployment economics. SectionVII retains human reward labeling, interventions and episode resets; updates are batch/offline. Inconsistent box-data terminology prevents inferring that all600 trials are unassisted or equating them with a measured labor cost.",
+      "conflicting_evidence_ids": [],
+      "version": "arXiv:2511.14759v2",
+      "retrieved_at": "2026-10-25",
+      "geography": "Research environments; unspecified geography",
+      "status": "verified_primary_text_scope_limited",
+      "initial_submission_date": "2025-11-18",
+      "inspected_version_date": "2025-11-19",
+      "inspected_version_submitted_at": "2025-11-19T04:34:49Z",
+      "version_history_url": "https://arxiv.org/abs/2511.14759v2",
+      "publication_date_role": "initial_submission_date",
+      "source_internal_conflict": "SectionVI-C calls600 box episodes per iteration autonomous trials; AppendixA-F Dataset composition calls them demonstrations. Both give360 correction/intervention episodes; collection assistance cannot be resolved from terminology alone.",
+      "training_population": "Diverse laundry trained on11 item types; simple laundry and other task-specific mixtures separately described.",
+      "evaluation_population": "Diverse-laundry quantitative experiment: button-up shirts only. Separate simple/targeted laundry, double espresso and box-assembly evaluations."
+    },
+    {
+      "evidence_id": "CAP-E023",
+      "schema_version": "capability-evidence/0.1",
+      "title": "Open-RMF integration interfaces",
+      "publisher": "Open Robotics / Open-RMF",
+      "url": "https://openrmf.readthedocs.io/en/latest/interfacing/index.html",
+      "publication_date": null,
+      "publication_date_missing_reason": "Undated live page; retrieval date does not establish publication date.",
+      "observation_period": "Documentation snapshot retrieved 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "source_class": "maintainer_documentation",
+      "epistemic_status": "manufacturer_or_maintainer_claim",
+      "claim": "Fleet state, destination, pause/mode and complete-path interfaces offer different levels of control; door/lift integration is explicit. Observation-only fleets restrict traffic-management options.",
+      "locator": "'Robot fleet integration'; integration-feature table; 'Door integration'",
+      "verification": "Primary text retrieved with Exa web_fetch and inspected; no independent field replication.",
+      "limitations": "Documentation is not evidence of an economic uplift or LLM deployment; rolling/latest documentation not release-pinned. Same source appears in H-RMF-INTERFACE, not independent corroboration.",
+      "conflicting_evidence_ids": [],
+      "retrieved_at": "2026-10-25",
+      "geography": "Generic international interfaces",
+      "status": "verified_primary_text_scope_limited"
+    }
+  ],
+  "systems": [
+    {
+      "system_id": "SYS-FIGURE-02",
+      "schema_version": "system/0.1",
+      "provider": "Figure AI",
+      "hardware_version": "Figure 02",
+      "embodiment": "biped humanoid",
+      "status": "production pilot completed; retired",
+      "geography": "United States",
+      "period": "2025",
+      "software_version": "Control/software version undisclosed",
+      "evidence_refs": [
+        "CAP-E001",
+        "CAP-E002"
+      ],
+      "alternatives": [
+        "fixed arm plus fixture redesign",
+        "human plus existing STRs"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "production pilot completed; retired"
+    },
+    {
+      "system_id": "SYS-FIGURE-03",
+      "schema_version": "system/0.1",
+      "provider": "Figure AI",
+      "hardware_version": "Figure 03",
+      "embodiment": "biped humanoid",
+      "status": "sequencing project announced",
+      "geography": "United States",
+      "period": "2026",
+      "software_version": "Software version undisclosed",
+      "evidence_refs": [
+        "CAP-E003"
+      ],
+      "alternatives": [
+        "wheeled mobile manipulator",
+        "human plus tugger/STR"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "sequencing project announced"
+    },
+    {
+      "system_id": "SYS-DIGIT-GXO",
+      "schema_version": "system/0.1",
+      "provider": "Agility Robotics",
+      "hardware_version": "Digit at GXO",
+      "embodiment": "biped mobile manipulator",
+      "status": "commercial RaaS deployment reported",
+      "geography": "United States",
+      "period": "2024–2025",
+      "software_version": "Agility Arc; policy version undisclosed",
+      "evidence_refs": [
+        "CAP-E004",
+        "CAP-E005"
+      ],
+      "alternatives": [
+        "AMR docking/conveyor redesign",
+        "fixed transfer arm",
+        "human plus AMR"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "commercial RaaS deployment reported"
+    },
+    {
+      "system_id": "SYS-APOLLO-MB",
+      "schema_version": "system/0.1",
+      "provider": "Apptronik",
+      "hardware_version": "Apollo at Mercedes",
+      "embodiment": "biped humanoid",
+      "status": "teleoperation/data collection and autonomy testing",
+      "geography": "Germany",
+      "period": "2025",
+      "software_version": "MO360 integration; policy version undisclosed",
+      "evidence_refs": [
+        "CAP-E006"
+      ],
+      "alternatives": [
+        "AMR",
+        "human kitting",
+        "fixed automation"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "teleoperation/data collection and autonomy testing"
+    },
+    {
+      "system_id": "SYS-ATLAS-RMAC",
+      "schema_version": "system/0.1",
+      "provider": "Boston Dynamics",
+      "hardware_version": "electric Atlas product at RMAC",
+      "embodiment": "biped humanoid",
+      "status": "training center; production plan",
+      "geography": "United States / South Korea",
+      "period": "2026",
+      "software_version": "Policy version undisclosed",
+      "evidence_refs": [
+        "CAP-E007",
+        "CAP-E008"
+      ],
+      "alternatives": [
+        "specialized arms",
+        "human plus AMRs"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "training center; production plan"
+    },
+    {
+      "system_id": "SYS-AEON-BMW",
+      "schema_version": "system/0.1",
+      "provider": "Hexagon Robotics",
+      "hardware_version": "AEON",
+      "embodiment": "wheeled humanoid/mobile manipulator",
+      "status": "initial factory test; later pilot planned",
+      "geography": "Germany / Switzerland",
+      "period": "2025–2026",
+      "software_version": "Configuration and policy version undisclosed",
+      "evidence_refs": [
+        "CAP-E001"
+      ],
+      "alternatives": [
+        "fixed metrology/arms",
+        "human plus carts",
+        "biped"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "initial factory test; later pilot planned"
+    },
+    {
+      "system_id": "SYS-WALKER-S2",
+      "schema_version": "system/0.1",
+      "provider": "UBTECH",
+      "hardware_version": "Walker S2",
+      "embodiment": "biped humanoid",
+      "status": "vendor industrial applications/specifications",
+      "geography": "China",
+      "period": "2025–2026",
+      "software_version": "BrainNet2.0/Co-Agent; deployment release undisclosed",
+      "evidence_refs": [
+        "CAP-E009",
+        "CAP-E010"
+      ],
+      "alternatives": [
+        "AGV plus fixed arm",
+        "human plus conveyors"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "vendor industrial applications/specifications"
+    },
+    {
+      "system_id": "SYS-UNITREE-G1",
+      "schema_version": "system/0.1",
+      "provider": "Unitree Robotics",
+      "hardware_version": "G1 / G1 EDU",
+      "embodiment": "biped research/development platform",
+      "status": "product specifications; some functions in development",
+      "geography": "China / global research",
+      "period": "2026 snapshot",
+      "software_version": "Configuration-dependent hands/control; no production policy verified",
+      "evidence_refs": [
+        "CAP-E011"
+      ],
+      "alternatives": [
+        "research arms",
+        "specialized automation"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "product specifications; some functions in development"
+    },
+    {
+      "system_id": "SYS-UNITREE-H2PLUS",
+      "schema_version": "system/0.1",
+      "provider": "Unitree Robotics",
+      "hardware_version": "H2 Plus",
+      "embodiment": "biped research reference design",
+      "status": "announced late-2026 availability",
+      "geography": "China / global research",
+      "period": "2026",
+      "software_version": "H2 + Sharpa hands + Jetson Thor + Isaac GR00T",
+      "evidence_refs": [
+        "CAP-E012"
+      ],
+      "alternatives": [
+        "G1 EDU",
+        "arms plus mobile base"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "announced late-2026 availability"
+    },
+    {
+      "system_id": "SYS-OPTIMUS-Q326",
+      "schema_version": "system/0.1",
+      "provider": "Tesla",
+      "hardware_version": "Optimus Q3 2026",
+      "embodiment": "biped humanoid",
+      "status": "manufacturing early ramp; productive task evidence missing",
+      "geography": "United States",
+      "period": "Q3 2026",
+      "software_version": "Hardware/software iteration not specified",
+      "evidence_refs": [
+        "CAP-E013"
+      ],
+      "alternatives": [
+        "fixed automation",
+        "human plus digital systems"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "manufacturing early ramp; productive task evidence missing"
+    },
+    {
+      "system_id": "SYS-NEO-REDWOOD",
+      "schema_version": "system/0.1",
+      "provider": "1X Technologies",
+      "hardware_version": "NEO / Redwood",
+      "embodiment": "biped domestic humanoid",
+      "status": "product offer; basic autonomy and remote expert mode",
+      "geography": "United States / Norway",
+      "period": "2025–2026",
+      "software_version": "Redwood June2025 architecture; live product configuration may differ",
+      "evidence_refs": [
+        "CAP-E014",
+        "CAP-E015"
+      ],
+      "alternatives": [
+        "human housekeeping",
+        "specialized appliances",
+        "wheeled manipulator"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "product offer; basic autonomy and remote expert mode"
+    },
+    {
+      "system_id": "SYS-SANCTUARY-INDUSTRIAL",
+      "schema_version": "system/0.1",
+      "provider": "Sanctuary AI",
+      "hardware_version": "2026 industrial Physical AI configuration",
+      "embodiment": "unspecified industrial robot; not assumed biped",
+      "status": "vendor customer-validation/order claim",
+      "geography": "Canada / customer geography unspecified",
+      "period": "2026",
+      "software_version": "Task-specific end effector; software/hardware versions unspecified",
+      "evidence_refs": [
+        "CAP-E016"
+      ],
+      "alternatives": [
+        "fixed industrial arm",
+        "human assembly"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "vendor customer-validation/order claim"
+    },
+    {
+      "system_id": "SYS-STRETCH-DHL",
+      "schema_version": "system/0.1",
+      "provider": "Boston Dynamics",
+      "hardware_version": "Stretch at DHL",
+      "embodiment": "specialized mobile case-unloading manipulator",
+      "status": "operator-reported commercial use",
+      "geography": "United States / UK / Europe",
+      "period": "2023–2025",
+      "software_version": "Deployment configuration/version undisclosed",
+      "evidence_refs": [
+        "CAP-E017"
+      ],
+      "alternatives": [
+        "human unload",
+        "telescopic conveyor",
+        "humanoid"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "operator-reported commercial use"
+    },
+    {
+      "system_id": "SYS-PI05-MOBILE",
+      "schema_version": "system/0.1",
+      "provider": "Physical Intelligence",
+      "hardware_version": "pi0.5 mobile manipulators",
+      "embodiment": "wheeled bimanual mobile manipulators",
+      "status": "research evaluation",
+      "geography": "Research homes; geography not enumerated",
+      "period": "2025",
+      "software_version": "pi0.5",
+      "evidence_refs": [
+        "CAP-E021"
+      ],
+      "alternatives": [
+        "human service",
+        "specialized appliances",
+        "biped"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "research evaluation"
+    },
+    {
+      "system_id": "SYS-PI06-RECAP",
+      "schema_version": "system/0.1",
+      "provider": "Physical Intelligence",
+      "hardware_version": "pi*0.6 RECAP",
+      "embodiment": "task-configured research manipulators",
+      "status": "research evaluation including factory box scenario",
+      "geography": "Research environments; geography not enumerated",
+      "period": "2025",
+      "software_version": "pi*0.6 RECAP v2 paper",
+      "evidence_refs": [
+        "CAP-E022"
+      ],
+      "alternatives": [
+        "human work",
+        "specialized espresso/box/laundry machinery"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
+      "availability": "research evaluation including factory box scenario"
+    }
+  ],
+  "capabilities": [
+    {
+      "capability_id": "CAP-OBS-001",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-FIGURE-02",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "useful_output": "Sheet-metal parts correctly positioned for welding",
+      "environment": "BMW body shop; existing automated line",
+      "evidence_refs": [
+        "CAP-E001",
+        "CAP-E002"
+      ],
+      "metrics": [
+        {
+          "name": "components",
+          "value": 90000,
+          "unit": "parts",
+          "denominator": "reported deployment",
+          "qualifier": ">",
+          "period": "2025",
+          "population": "BMW body shop; existing automated line",
+          "measurement_status": "operator_or_manufacturer_reported_result"
+        },
+        {
+          "name": "operating exposure",
+          "value": 1250,
+          "unit": "hours",
+          "denominator": "reported deployment",
+          "qualifier": "approximately",
+          "period": "2025",
+          "population": "BMW body shop; existing automated line",
+          "measurement_status": "operator_or_manufacturer_reported_result"
+        },
+        {
+          "name": "supported vehicle production",
+          "value": 30000,
+          "unit": "vehicles",
+          "denominator": "reported deployment",
+          "qualifier": ">",
+          "period": "2025",
+          "population": "BMW body shop; existing automated line",
+          "measurement_status": "operator_or_manufacturer_reported_result"
+        }
+      ],
+      "status": "operator-reported productive pilot",
+      "assistance": "Autonomy regime and intervention counts undisclosed; vendor zero-intervention statement is a target.",
+      "limitations": [
+        "10-hour shift pattern does not equal 10 uninterrupted autonomous hours",
+        "Robot count and runtime aggregation boundary unresolved"
+      ],
+      "geography": "United States",
+      "period": "2025",
+      "exposure_duration_hours": 1250,
+      "exposure_missing_reason": null,
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-002",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-DIGIT-GXO",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "useful_output": "Totes transferred AMR to conveyor / floor stack",
+      "environment": "GXO Flowery Branch SPANX",
+      "evidence_refs": [
+        "CAP-E004",
+        "CAP-E005"
+      ],
+      "metrics": [
+        {
+          "name": "cumulative transferred totes",
+          "value": 100000,
+          "unit": "totes",
+          "denominator": "reported facility deployment",
+          "qualifier": ">",
+          "period": "2024–2025",
+          "population": "GXO Flowery Branch SPANX",
+          "measurement_status": "operator_or_manufacturer_reported_result"
+        }
+      ],
+      "status": "commercial operation; cumulative throughput vendor-reported",
+      "assistance": "Teleoperated demonstrations used in training; live intervention fraction undisclosed.",
+      "limitations": [
+        "Operating hours, robot count, attempts/rejects, staffing and costs absent"
+      ],
+      "geography": "United States",
+      "period": "2024–2025",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-003",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-WALKER-S2",
+      "cell_id": null,
+      "useful_output": "Industrial handling and battery replenishment",
+      "environment": "Configuration-specific industrial environment",
+      "evidence_refs": [
+        "CAP-E009",
+        "CAP-E010"
+      ],
+      "metrics": [
+        {
+          "name": "payload",
+          "value": 15,
+          "unit": "kg",
+          "denominator": "manufacturer configuration",
+          "qualifier": "specification",
+          "period": "2025–2026",
+          "population": "Configuration-specific industrial environment",
+          "measurement_status": "manufacturer_specification"
+        },
+        {
+          "name": "battery exchange time",
+          "value": 3,
+          "unit": "minutes",
+          "denominator": "one exchange",
+          "qualifier": "within; vendor claim",
+          "period": "2025–2026",
+          "population": "Configuration-specific industrial environment",
+          "measurement_status": "manufacturer_reported_result"
+        }
+      ],
+      "status": "manufacturer specification/application claims",
+      "assistance": "Autonomy claimed; productive intervention and exception handling statistics unavailable.",
+      "limitations": [
+        "No empirical 24/7 availability",
+        "No independent operator measurements"
+      ],
+      "geography": "China",
+      "period": "2025–2026",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-004",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-UNITREE-G1",
+      "cell_id": null,
+      "useful_output": "Developer locomotion/manipulation platform",
+      "environment": "Unspecified test workload",
+      "evidence_refs": [
+        "CAP-E011"
+      ],
+      "metrics": [
+        {
+          "name": "standard arm maximum load",
+          "value": 2,
+          "unit": "kg",
+          "denominator": "one arm; posture dependent",
+          "qualifier": "about; specification",
+          "period": "2026 snapshot",
+          "population": "Unspecified test workload",
+          "measurement_status": "manufacturer_specification"
+        },
+        {
+          "name": "EDU arm maximum load",
+          "value": 3,
+          "unit": "kg",
+          "denominator": "one arm; posture dependent",
+          "qualifier": "about; specification",
+          "period": "2026 snapshot",
+          "population": "Unspecified test workload",
+          "measurement_status": "manufacturer_specification"
+        },
+        {
+          "name": "battery life",
+          "value": 2,
+          "unit": "hours",
+          "denominator": "unspecified workload",
+          "qualifier": "about; specification",
+          "period": "2026 snapshot",
+          "population": "Unspecified test workload",
+          "measurement_status": "manufacturer_specification"
+        }
+      ],
+      "status": "product specification",
+      "assistance": "Manual controller supplied; sample functions may be under development.",
+      "limitations": [
+        "No productive task throughput"
+      ],
+      "geography": "China / global research",
+      "period": "2026 snapshot",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-005",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-UNITREE-H2PLUS",
+      "cell_id": null,
+      "useful_output": "Research/reference platform",
+      "environment": "Unspecified test workload",
+      "evidence_refs": [
+        "CAP-E012"
+      ],
+      "metrics": [
+        {
+          "name": "rated arm payload",
+          "value": 7,
+          "unit": "kg",
+          "denominator": "arm",
+          "qualifier": "specification",
+          "period": "2026",
+          "population": "Unspecified test workload",
+          "measurement_status": "manufacturer_specification"
+        },
+        {
+          "name": "peak arm payload",
+          "value": 15,
+          "unit": "kg",
+          "denominator": "arm",
+          "qualifier": "specification",
+          "period": "2026",
+          "population": "Unspecified test workload",
+          "measurement_status": "manufacturer_specification"
+        }
+      ],
+      "status": "announced specification",
+      "assistance": "Teleop/data capture stack described; no measured independent task performance.",
+      "limitations": [
+        "Availability late2026 planned"
+      ],
+      "geography": "China / global research",
+      "period": "2026",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-006",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-SANCTUARY-INDUSTRIAL",
+      "cell_id": null,
+      "useful_output": "Moving-conveyor wire-harness plug insertion",
+      "environment": "Unnamed Tier1 automotive supplier",
+      "evidence_refs": [
+        "CAP-E016"
+      ],
+      "metrics": [
+        {
+          "name": "task success",
+          "value": 99.5,
+          "unit": "percent",
+          "denominator": "trials; count undisclosed",
+          "qualifier": ">=; vendor claim",
+          "period": "2026",
+          "population": "Unnamed Tier1 automotive supplier",
+          "measurement_status": "manufacturer_reported_result"
+        }
+      ],
+      "status": "vendor customer-validation claim",
+      "assistance": "Interventions and recovery policy undisclosed.",
+      "limitations": [
+        "Cannot infer humanoid embodiment",
+        "Cycle rate, exposure and rejection rubric absent"
+      ],
+      "geography": "Canada / customer geography unspecified",
+      "period": "2026",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    },
+    {
+      "capability_id": "CAP-OBS-007",
+      "schema_version": "capability/0.1",
+      "system_id": "SYS-STRETCH-DHL",
+      "cell_id": null,
+      "useful_output": "Cases unloaded from trailer/container",
+      "environment": "DHL logistics; conveyors/palletizers",
+      "evidence_refs": [
+        "CAP-E017"
+      ],
+      "metrics": [
+        {
+          "name": "unloading rate",
+          "value": 700,
+          "unit": "cases/hour",
+          "denominator": "active unloading; workload unspecified",
+          "qualifier": "up to",
+          "period": "2023–2025",
+          "population": "DHL logistics; conveyors/palletizers",
+          "measurement_status": "operator_or_manufacturer_reported_result"
+        }
+      ],
+      "status": "operator-reported commercial deployment",
+      "assistance": "Human setup/recovery workload unspecified.",
+      "limitations": [
+        "Rate not paid-hour average",
+        "Not equivalent to tote transfer",
+        "MOU units not installed stock"
+      ],
+      "geography": "United States / UK / Europe",
+      "period": "2023–2025",
+      "exposure_duration_hours": null,
+      "exposure_missing_reason": "No comparable measured robot-hour exposure in inspected source.",
+      "interventions_per_hour": null,
+      "intervention_missing_reason": "No measured intervention count with compatible exposure denominator."
+    }
+  ],
+  "learning_relationships": [
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-DIVERSITY-001",
+      "evidence_refs": [
+        "CAP-E018"
+      ],
+      "classification": "empirical_relationship",
+      "source_system": "UMI demonstrations; Diffusion Policy with DINOv2 visual encoder",
+      "inputs": [
+        "number of environment-object pairs",
+        "demonstrations per pair",
+        "visual-encoder architecture"
+      ],
+      "output": "normalized score gap and task success on unseen objects/environments",
+      "fit_domain": "1–32 objects/environments; six fit points; two primary tasks; two additional collection-recipe tasks",
+      "findings": "Repeated demonstrations saturate; 32 pairs×50 demos proposed for similar task difficulty; action U-Net scaling does not improve monotonically.",
+      "uncertainty": "Four tasks; tester partial-credit rubric; no new-task transfer; 1191-pair extrapolation left untested by authors.",
+      "permitted_model_use": "Data-diversity/selection mechanism and sensitivity bounds; no general productivity coefficient.",
+      "universal_exponent": null,
+      "missing_reason": "No supported universal humanoid scaling law."
+    },
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-RTX-002",
+      "evidence_refs": [
+        "CAP-E019"
+      ],
+      "classification": "empirical_relationship",
+      "source_system": "RT1-X and RT2-X; nine training manipulators",
+      "inputs": [
+        "cross-embodiment mixture",
+        "model capacity",
+        "web pretraining",
+        "history"
+      ],
+      "output": "task success",
+      "fit_domain": "3600 trials across six robots; known modalities/embodiments",
+      "findings": "Positive transfer in small-data settings; RT1-X negative comparison on Google robot 73% vs92%; RT2-X emergent75.8% vs27.3% baseline, generalization61% vs62%.",
+      "uncertainty": "Different task distributions; not a power-law fit; no unseen-embodiment proof.",
+      "permitted_model_use": "Directed, conditional transfer edges; negative/neutral transfer scenarios."
+    },
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-DATAMIL-003",
+      "evidence_refs": [
+        "CAP-E020"
+      ],
+      "classification": "empirical_method_result",
+      "source_system": "Target-policy data influence and OXE prior",
+      "inputs": [
+        "target demonstrations",
+        "candidate prior trajectories",
+        "selection computation",
+        "target co-training"
+      ],
+      "output": "target task success",
+      "fit_domain": ">60 simulation/real tasks; four real-world target tasks",
+      "findings": "Task-aware selection can outperform semantic similarity; visually similar actions can help or harm.",
+      "uncertainty": "Target data and proxy validation required; no generic dollar value per robot-hour.",
+      "permitted_model_use": "Price collection/selection/evaluation separately; transfer value conditional on rights and validation."
+    },
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-PI05-004",
+      "evidence_refs": [
+        "CAP-E021"
+      ],
+      "classification": "empirical_relationship",
+      "source_system": "pi0.5 mobile manipulators",
+      "inputs": [
+        "home diversity",
+        "heterogeneous robot/web data",
+        "high-level semantic training"
+      ],
+      "output": "new-home task/stage completion",
+      "fit_domain": "Three unseen homes in paper; bounded household tasks",
+      "findings": "New-environment transfer demonstrated; model still makes semantic/motor mistakes.",
+      "uncertainty": "No representative household time-use sample, full-service success or labor saving estimate.",
+      "permitted_model_use": "Qualitative prior for adaptation costs; not calibrated household penetration."
+    },
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-RECAP-005",
+      "evidence_refs": [
+        "CAP-E022"
+      ],
+      "classification": "empirical_relationship",
+      "source_system": "pi*0.6 RECAP",
+      "inputs": [
+        "offline RL",
+        "target demonstrations",
+        "on-policy trials",
+        "expert corrections",
+        "training iterations"
+      ],
+      "output": "successful tasks per hour and success within task deadline",
+      "fit_domain": "Simple/targeted laundry; diverse-laundry quantitative evaluation restricted to button-up shirts despite11-type training; espresso double-shot; box assembly; two iterative updates studied",
+      "findings": "More than doubled throughput for the button-up-shirt diverse-laundry evaluation and espresso; box-throughput point estimate initially decreases before later gain, with overlapping early error bars. Simple-laundry iterations omit expert corrections while box iterations include them; human labels/resets remain.",
+      "uncertainty": "Task deadlines200/500/600s; human quality labels; no representative field operating-cost denominator. Human reward labels, interventions and resets remain; batched offline updates. SectionVI-C calls600 box episodes autonomous trials, AppendixA-F calls them demonstrations; do not infer fully unassisted collection or a statistically significant early throughput decline.",
+      "permitted_model_use": "Learning can affect throughput and recovery; preserve training costs/delays and nonmonotonic scenario."
+    },
+    {
+      "schema_version": "learning/0.1",
+      "geography": "Research/field contexts specified in evidence",
+      "period": "2024–2026 evidence snapshot",
+      "status": "source_verified_scope_limited",
+      "relationship_id": "LEARN-HARDWARE-006",
+      "evidence_refs": [
+        "CAP-E002"
+      ],
+      "classification": "observed_manufacturer_design_feedback",
+      "source_system": "Figure02 BMW -> Figure03 wrist",
+      "inputs": [
+        "field failures",
+        "mechanical redesign",
+        "validation and new manufacture"
+      ],
+      "output": "reliability improvement expected; magnitude unmeasured",
+      "fit_domain": "Forearm failure point at single deployment",
+      "findings": "Field exposure informs removal of wrist distribution board/dynamic cabling.",
+      "uncertainty": "Improvement magnitude unreported; retrofit not established.",
+      "permitted_model_use": "New-generation benefit only until compatible retrofit proven."
+    }
+  ],
+  "transfer_edges": [
+    {
+      "schema_version": "transfer/0.1",
+      "geography": "Source and target contexts as stated",
+      "period": "As-of2026-10-25",
+      "status": "positive specific-task research evidence",
+      "training_cost": null,
+      "delay": null,
+      "rights": null,
+      "missingness_reason": "Transfer-specific cost, delay and commercial reuse rights not public in inspected sources.",
+      "transfer_id": "TR-CAP-001",
+      "source": "RT-X other manipulator data",
+      "destination": "Google Robot emergent skill tasks",
+      "mechanism": "Co-training with capacity and shared action representation",
+      "evidence_refs": [
+        "CAP-E019"
+      ],
+      "validation_status": "positive specific-task research evidence",
+      "effect": "75.8% vs27.3%; not generalization-column improvement",
+      "beneficiary": "Research policy user; commercial rights not established"
+    },
+    {
+      "schema_version": "transfer/0.1",
+      "geography": "Source and target contexts as stated",
+      "period": "As-of2026-10-25",
+      "status": "negative comparison",
+      "training_cost": null,
+      "delay": null,
+      "rights": null,
+      "missingness_reason": "Transfer-specific cost, delay and commercial reuse rights not public in inspected sources.",
+      "transfer_id": "TR-CAP-002",
+      "source": "RT-X combined mixture",
+      "destination": "RT1-X Google Robot familiar tasks",
+      "mechanism": "Same capacity spread across heterogeneous mixture",
+      "evidence_refs": [
+        "CAP-E019"
+      ],
+      "validation_status": "negative comparison",
+      "effect": "73% vs92% specialized RT1",
+      "beneficiary": "No benefit inferred"
+    },
+    {
+      "schema_version": "transfer/0.1",
+      "geography": "Source and target contexts as stated",
+      "period": "As-of2026-10-25",
+      "status": "research new-embodiment result",
+      "training_cost": null,
+      "delay": null,
+      "rights": null,
+      "missingness_reason": "Transfer-specific cost, delay and commercial reuse rights not public in inspected sources.",
+      "transfer_id": "TR-CAP-003",
+      "source": "OXE prior with selected samples",
+      "destination": "Tiago-Sink target",
+      "mechanism": "Target-conditioned influence selection plus co-training",
+      "evidence_refs": [
+        "CAP-E020"
+      ],
+      "validation_status": "research new-embodiment result",
+      "effect": "Qualitative positive; no numerical general coefficient",
+      "beneficiary": "Target policy developer"
+    },
+    {
+      "schema_version": "transfer/0.1",
+      "geography": "Source and target contexts as stated",
+      "period": "As-of2026-10-25",
+      "status": "design response observed; field effect unquantified",
+      "training_cost": null,
+      "delay": null,
+      "rights": null,
+      "missingness_reason": "Transfer-specific cost, delay and commercial reuse rights not public in inspected sources.",
+      "transfer_id": "TR-CAP-004",
+      "source": "Figure02 BMW forearm experience",
+      "destination": "Figure03 new hardware generation",
+      "mechanism": "Wrist-electronics redesign",
+      "evidence_refs": [
+        "CAP-E002"
+      ],
+      "validation_status": "design response observed; field effect unquantified",
+      "effect": null,
+      "beneficiary": "Figure; customers conditional on delivery/reliability validation"
+    },
+    {
+      "schema_version": "transfer/0.1",
+      "geography": "Source and target contexts as stated",
+      "period": "As-of2026-10-25",
+      "status": "unvalidated target transfer; scenario only",
+      "training_cost": null,
+      "delay": null,
+      "rights": null,
+      "missingness_reason": "Transfer-specific cost, delay and commercial reuse rights not public in inspected sources.",
+      "transfer_id": "TR-CAP-005",
+      "source": "Digit standardized tote operations",
+      "destination": "Unstructured household service",
+      "mechanism": "Possible shared perception/grasping only",
+      "evidence_refs": [
+        "CAP-E005",
+        "CAP-E014",
+        "CAP-E019"
+      ],
+      "validation_status": "unvalidated target transfer; scenario only",
+      "effect": null,
+      "beneficiary": "Unknown"
+    }
+  ],
+  "coordination_archetypes": [
+    {
+      "schema_version": "coordination/0.1",
+      "geography": "Site-specific or generic interface",
+      "period": "2024–2026 snapshot",
+      "status": "observed_interface_or_architecture_not_causal_effect",
+      "coordination_id": "COORD-GXO-001",
+      "participants": [
+        "Digit",
+        "AMR",
+        "conveyor",
+        "Agility Arc",
+        "human operators"
+      ],
+      "evidence_refs": [
+        "CAP-E004",
+        "CAP-E005"
+      ],
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "mechanism": "Facility mapping/workflow definition -> Arc orchestration -> physical transfer",
+      "decision_authority": "Workflow/fleet orchestration described; low-level safety and exception authority not disclosed",
+      "state": "Facility map/workflow; exact APIs unknown",
+      "timing": "Undisclosed",
+      "comparator": "Human transfer plus AMRs or fixed transfer automation",
+      "shared_resources": [
+        "AMR arrival stream",
+        "conveyor",
+        "supervisor",
+        "workspace"
+      ],
+      "measured_effect": null,
+      "missing_reason": "No isolated coordination productivity experiment",
+      "model_implication": "Use throughput min(robot station,AMR feed,conveyor,demand); count coordination benefit once."
+    },
+    {
+      "schema_version": "coordination/0.1",
+      "geography": "Site-specific or generic interface",
+      "period": "2024–2026 snapshot",
+      "status": "observed_interface_or_architecture_not_causal_effect",
+      "coordination_id": "COORD-BMW-002",
+      "participants": [
+        "Figure02/03",
+        "STR/tugger",
+        "fixed weld robots",
+        "BMW Smart Robotics",
+        "production IT",
+        "humans"
+      ],
+      "evidence_refs": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "mechanism": "Standardized interfaces connect loading/sequencing with existing automation",
+      "decision_authority": "Production workflow controls integration; specific LLM control authority unverified",
+      "state": "Part/fixture/trolley state and production schedules; published interface details absent",
+      "timing": "84s total/37s loading requirement belongs Figure02 cell only",
+      "comparator": "Digitally improved human work and existing fixed automation",
+      "shared_resources": [
+        "line takt",
+        "fixtures",
+        "transport",
+        "support"
+      ],
+      "measured_effect": null,
+      "missing_reason": "No causal coordination increment or staffing comparison",
+      "model_implication": "Do not count vehicle output as robot-created output; robot is one complementary station."
+    },
+    {
+      "schema_version": "coordination/0.1",
+      "geography": "Site-specific or generic interface",
+      "period": "2024–2026 snapshot",
+      "status": "observed_interface_or_architecture_not_causal_effect",
+      "coordination_id": "COORD-RMF-003",
+      "participants": [
+        "heterogeneous fleet managers",
+        "Open-RMF",
+        "doors",
+        "lifts",
+        "integrator"
+      ],
+      "evidence_refs": [
+        "CAP-E023"
+      ],
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "mechanism": "State reporting plus optional destination/pause/path authority and infrastructure messages",
+      "decision_authority": "Integration level determines available coordination actions",
+      "state": "Robot position/floor/path plus door/lift state",
+      "timing": "Interface-dependent; no latency service-level guarantee in source",
+      "comparator": "Independent fleets or human dispatch; conventional optimizer",
+      "shared_resources": [
+        "corridors",
+        "lifts",
+        "doors",
+        "charging",
+        "network"
+      ],
+      "measured_effect": null,
+      "missing_reason": "Documentation only; no quantified operational uplift",
+      "model_implication": "Control permissions/infrastructure availability must gate simulated benefits; observation-only is not full controllability."
+    }
+  ],
+  "market_implications": [
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-001",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "geography": "United States",
+      "period": "2025 baseline; conditional future",
+      "status": "interpretation",
+      "evidence_refs": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003",
+        "CAP-E006",
+        "CAP-E007"
+      ],
+      "useful_output": "Accepted components loaded/sequenced at required takt and quality",
+      "human_baseline": "Human loading/kitting with existing automated transport, fixtures and digital quality tools",
+      "digital_only": "Planning/ergonomics/quality exception aids; measured labor effect unknown",
+      "specialized_alternative": "Fixed arms/custom grippers/fixtures and AMRs",
+      "mixed_configuration": "Humanoid bridges variable human-designed manipulation; fixed robots weld; STRs transport",
+      "conditional_unlock": "Sustained takt, measured intervention/recovery, hardware durability and integration cost",
+      "conclusion": "Best-supported humanoid entry is a bounded complementary station; broader line staffing/economics remain unmeasured."
+    },
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-002",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "geography": "United States",
+      "period": "2024–2025 baseline; conditional future",
+      "status": "interpretation",
+      "evidence_refs": [
+        "CAP-E004",
+        "CAP-E005",
+        "CAP-E017"
+      ],
+      "useful_output": "Accepted standardized tote transferred to downstream flow",
+      "human_baseline": "Human transfer plus AMRs/conveyors",
+      "digital_only": "WMS/dispatch/arrival scheduling; effect must be measured separately",
+      "specialized_alternative": "Docking/lift/conveyor modification or fixed/mobile transfer arm",
+      "mixed_configuration": "Digit plus existing AMR/conveyor, human exception support",
+      "conditional_unlock": "Peak-hour throughput, supervisor queue, charge/downtime, safety and all-in cost",
+      "conclusion": "Commercial revenue is established by operator announcement; comparative ROI and labor replacement are not. Stretch carton-unloading rates cannot be assigned to tote transfer."
+    },
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-003",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "geography": "United States",
+      "period": "2025 baseline; conditional future",
+      "status": "interpretation",
+      "evidence_refs": [
+        "CAP-E014",
+        "CAP-E021",
+        "CAP-E022",
+        "CAP-E023"
+      ],
+      "useful_output": "Area cleaned to specified cleanliness plus explicit separate clutter-removal services",
+      "human_baseline": "Cleaner using powered equipment and digital scheduling",
+      "digital_only": "Routing/work orders/inventory scheduling improve existing crews",
+      "specialized_alternative": "Autonomous scrubber/vacuum for traversable floors",
+      "mixed_configuration": "Specialized cleaner plus human clutter/exceptions; manipulator only when added service validated",
+      "conditional_unlock": "Clutter handling, chemicals/wet-floor safety, accepted cleanliness, service staffing",
+      "conclusion": "Home manipulation research does not establish full commercial cleaning; divide complementary output rather than assign total floor-cleaning hours to humanoids."
+    },
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-004",
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "geography": "United States",
+      "period": "2025 baseline; conditional future",
+      "status": "interpretation",
+      "evidence_refs": [
+        "CAP-E023"
+      ],
+      "useful_output": "Correct item delivered with chain-of-custody and service deadline",
+      "human_baseline": "Porters/couriers plus dispatch",
+      "digital_only": "Queue prioritization and scheduling; no uplift calibrated",
+      "specialized_alternative": "Wheeled hospital delivery AMR with lift/door integration",
+      "mixed_configuration": "AMR transport plus human loading/handover; manipulator only at validated boundaries",
+      "conditional_unlock": "Infrastructure permissions, infection control, routing around people, exception recovery",
+      "conclusion": "Institutional integration and shared elevators may bind before bipedal mobility; clinical care capability is outside this evidence."
+    },
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-005",
+      "cell_id": "CELL-M04-construction-install-US-2025",
+      "geography": "United States",
+      "period": "2025 baseline; conditional future",
+      "status": "known_evidence_gap",
+      "evidence_refs": [
+        "CAP-E018",
+        "CAP-E019"
+      ],
+      "useful_output": "Installed element accepted under trade/site quality requirements",
+      "human_baseline": "Tradespeople with digital plans, lifts and power tools",
+      "digital_only": "Design coordination, scheduling and measurement",
+      "specialized_alternative": "Task-specific drilling/layout/lifting machinery",
+      "mixed_configuration": "Human-supervised specialty robot and human finishing",
+      "conditional_unlock": "Weather/terrain, forceful manipulation, task variation, tool changes and recovery",
+      "conclusion": "Inspected tabletop and structured-factory transfer evidence cannot calibrate construction installation eligibility."
+    },
+    {
+      "schema_version": "market-implication/0.1",
+      "implication_id": "CAP-MKT-006",
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "geography": "United States",
+      "period": "2025 baseline; conditional future",
+      "status": "interpretation_pending_field_lane",
+      "evidence_refs": [
+        "CAP-E019",
+        "CAP-E023"
+      ],
+      "useful_output": "Actionable inspected condition leading to maintenance decision; repair separate",
+      "human_baseline": "Inspector with sensors/digital analytics",
+      "digital_only": "Anomaly prioritization and maintenance planning",
+      "specialized_alternative": "Fixed sensors, quadrupeds, drones",
+      "mixed_configuration": "Sensor platform plus human engineering/repair",
+      "conditional_unlock": "Access, inspection data quality, downstream action, and intervention resources",
+      "conclusion": "Humanoid dexterity matters only for proven interaction/repair needs; sensor missions are not repair output. Field dossiers owned by I/J."
+    }
+  ],
+  "questions": [
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q001",
+      "priority": "highest",
+      "decision_consequence": "Changes viability and support-limited fleet scale in current entry cells.",
+      "question": "What are measured intervention arrivals, duration, queue bursts and accepted throughput for Digit and Figure across full shifts?",
+      "evidence_target": "Operator logs with robot count, scheduled/active time, failed attempts, resets, quality and retained staffing.",
+      "stopping_condition": "Compatible multi-shift denominator and full support allocation or explicit field-access block.",
+      "status": "open_public_evidence_gap",
+      "next_action": "Search operator technical presentations and safety/operations disclosures; field access requires separate authority."
+    },
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q002",
+      "priority": "highest",
+      "decision_consequence": "Determines whether deployment generates transferable learning or mostly repetitive production.",
+      "question": "Which source deployments improve target performance after controlling diversity, policy version, compute and target data?",
+      "evidence_target": "Held-out task/site/embodiment ablations including negative transfer, total costs and rights.",
+      "stopping_condition": "At least one target-specific learning edge validated with cost/delay; otherwise scenario only.",
+      "status": "partially_answered_research_not_commercial",
+      "next_action": "Extract full DataMIL and contemporary VLA target comparisons; preserve no-transfer baseline."
+    },
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q003",
+      "priority": "high",
+      "decision_consequence": "Separates software upgrades from new-generation capex and downtime.",
+      "question": "Which improvements can existing fleets actually adopt?",
+      "evidence_target": "Hardware/software compatibility and warranty/validation requirements; retrofit cost and downtime.",
+      "stopping_condition": "Version-specific supported upgrade matrix for one commercial fleet.",
+      "status": "open",
+      "next_action": "Trace Figure02 retirement/Figure03 and Digit platform support disclosures."
+    },
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q004",
+      "priority": "high",
+      "decision_consequence": "Tests economic value of biped versus cheaper/more reliable specialization.",
+      "question": "At matched useful output, does humanoid flexibility offset support and integration costs against fixed/wheeled alternatives?",
+      "evidence_target": "Matched output, quality, staffing, redesign/maintenance costs, demand mix and operating exposure.",
+      "stopping_condition": "At least one source-supported comparative estimate or threshold-only model with missing inputs.",
+      "status": "open",
+      "next_action": "Deepen automotive fixture loading and 3PL tote bridge alternatives with atlas/FG/I teams."
+    },
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q005",
+      "priority": "high",
+      "decision_consequence": "Determines whether coordinated scale adds throughput or congestion.",
+      "question": "Which coordination decisions and infrastructure permissions measurably improve a heterogeneous site?",
+      "evidence_target": "Control/state/API boundaries, common resource utilization, fallback, latency and before/after service outcomes.",
+      "stopping_condition": "One causal or carefully matched operational comparison; otherwise mechanism-only.",
+      "status": "interface_mechanism_established_effect_unknown",
+      "next_action": "Join Open-RMF/Arc interface records to hospital and 3PL operator observations."
+    },
+    {
+      "schema_version": "question/0.1",
+      "geography": "Global provider/research; US target cells",
+      "period": "As-of2026-10-25",
+      "evidence_refs": [],
+      "question_id": "CAP-Q006",
+      "priority": "medium",
+      "decision_consequence": "Limits recency/global ranking errors.",
+      "question": "What current operator-supported results exist for AEON, Apollo, Walker, Sanctuary, NEURA/Fourier and Asian providers beyond the inspected announcements?",
+      "evidence_target": "Dated operator/certification/technical data rather than orders and edited demonstrations.",
+      "stopping_condition": "Regional/provider coverage register with explicit negative or unavailable evidence.",
+      "status": "partial_global_coverage",
+      "next_action": "Target Chinese-language operator reports and current 2026 technical disclosures."
+    }
+  ],
+  "benchmark_cards": [
+    {
+      "benchmark_id": "CAP-BM001",
+      "schema_version": "benchmark/0.1",
+      "evidence_refs": [
+        "CAP-E018"
+      ],
+      "geography": "China research; held-out scenes",
+      "period": "Research reported in v3 dated2025-10-13; initial submission2024-10-24",
+      "status": "research_empirical",
+      "system_version": "UMI/Diffusion Policy/DINOv2 v3 experiments",
+      "evaluator": "Study authors; randomized policy rollouts, task score criteria",
+      "population": "Two primary scaling tasks; four tasks in collection-recipe validation",
+      "training_budget": "Over40000 demonstrations in whole study; 32pairs×50 demonstrations per task in recipe",
+      "evaluation_budget": "Over15000 robot rollouts in whole study; Table1 means/SD over8 unseen environments",
+      "human_comparator": null,
+      "human_comparator_missing_reason": "No matched human throughput evaluation",
+      "assistance": "Human demonstrations, manually initialized/scored evaluations; not a service staffing audit",
+      "latency": null,
+      "cost": null,
+      "missingness_reason": "End-to-end latency/cost not extracted or not reported",
+      "metrics": [
+        {
+          "metric": "task success",
+          "task": "Pour Water",
+          "value": 85,
+          "std_dev": 19.4,
+          "unit": "percent",
+          "denominator": "success trials per environment; mean/SD across8 environments",
+          "period": "Research reported in v3 dated2025-10-13; initial submission2024-10-24",
+          "population": "Two primary scaling tasks; four tasks in collection-recipe validation",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "task": "Mouse Arrangement",
+          "value": 92.5,
+          "std_dev": 9.7,
+          "unit": "percent",
+          "denominator": "success trials per environment; mean/SD across8 environments",
+          "period": "Research reported in v3 dated2025-10-13; initial submission2024-10-24",
+          "population": "Two primary scaling tasks; four tasks in collection-recipe validation",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "task": "Fold Towels",
+          "value": 87.5,
+          "std_dev": 17.1,
+          "unit": "percent",
+          "denominator": "success trials per environment; mean/SD across8 environments",
+          "period": "Research reported in v3 dated2025-10-13; initial submission2024-10-24",
+          "population": "Two primary scaling tasks; four tasks in collection-recipe validation",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "task": "Unplug Charger",
+          "value": 90,
+          "std_dev": 14.1,
+          "unit": "percent",
+          "denominator": "success trials per environment; mean/SD across8 environments",
+          "period": "Research reported in v3 dated2025-10-13; initial submission2024-10-24",
+          "population": "Two primary scaling tasks; four tasks in collection-recipe validation",
+          "measurement_status": "author_reported_research_result"
+        }
+      ],
+      "failure_recovery": "Task-specific completion rubric; no field intervention-rate estimate",
+      "operating_limit": "Score-gap curve distinct from success and useful output; no task-level generalization; no universal exponent",
+      "initial_submission_date": "2024-10-24",
+      "inspected_version_date": "2025-10-13",
+      "version_history_url": "https://arxiv.org/abs/2410.18647v3",
+      "newer_version_check": "v4 dated2026-06-26 exists; checked Section4.2/Table1/Table2 core results unchanged; see CAP-E018 for bounded comparison."
+    },
+    {
+      "benchmark_id": "CAP-BM002",
+      "schema_version": "benchmark/0.1",
+      "evidence_refs": [
+        "CAP-E019"
+      ],
+      "geography": "International lab research",
+      "period": "2023–2025; v9 inspected",
+      "status": "research_empirical",
+      "system_version": "RT1/RT1X/RT2/RT2X; 35M RT1 and55B RT2X variants as paper",
+      "evaluator": "Collaborating researchers",
+      "population": "Six evaluated robots; nine-embodiment training mixture",
+      "training_budget": "Mixed robot datasets; model-specific recipe and web co-training",
+      "evaluation_budget": "3600 total evaluation trials across experiments",
+      "human_comparator": null,
+      "human_comparator_missing_reason": "No matched human task productivity comparison",
+      "assistance": "Dataset demonstrations and research evaluation; resets and production staffing not costed",
+      "latency": "3–10Hz policy inference; RT1 local andRT2 cloud",
+      "cost": null,
+      "missingness_reason": "No commercial per-output cost",
+      "metrics": [
+        {
+          "metric": "task success",
+          "setting": "Google Robot six familiar skills,TableI",
+          "system": "RT1",
+          "value": 92,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "setting": "Google Robot six familiar skills,TableI",
+          "system": "RT1X",
+          "value": 73,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "setting": "Emergent skills,TableII",
+          "system": "RT2",
+          "value": 27.3,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "setting": "Emergent skills,TableII",
+          "system": "RT2X",
+          "value": 75.8,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "setting": "Generalization,TableII",
+          "system": "RT2",
+          "value": 62,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        },
+        {
+          "metric": "task success",
+          "setting": "Generalization,TableII",
+          "system": "RT2X",
+          "value": 61,
+          "unit": "percent",
+          "denominator": "evaluation trials in setting",
+          "period": "2023–2025; v9 inspected",
+          "population": "Six evaluated robots; nine-embodiment training mixture",
+          "measurement_status": "author_reported_research_result"
+        }
+      ],
+      "failure_recovery": "Not a commercial long-shift reliability study",
+      "operating_limit": "Known modalities/embodiments; different columns cannot be pooled or interpreted as a universal transfer gain",
+      "initial_submission_date": "2023-10-13",
+      "inspected_version_date": "2025-05-14",
+      "version_history_url": "https://arxiv.org/abs/2310.08864v9"
+    },
+    {
+      "benchmark_id": "CAP-BM003",
+      "schema_version": "benchmark/0.1",
+      "evidence_refs": [
+        "CAP-E022"
+      ],
+      "geography": "Research home/office/factory scenarios; unspecified locations",
+      "period": "Research reported in v2 dated2025-11-19; initial submission2025-11-18",
+      "status": "research_empirical",
+      "system_version": "pi*0.6 RECAP",
+      "evaluator": "Authors; human annotations of multiple quality indicators",
+      "population": "Simple/targeted laundry; diverse-laundry quantitative evaluation on button-up shirts only; double espresso; box assembly",
+      "training_budget": "Simple laundry300 trajectories on4 robots per iteration; SectionVI-C box600 autonomous trials+360 intervention trials per iteration; AppendixA-F calls the600 demonstrations. Do not infer600 unassisted trials.",
+      "evaluation_budget": null,
+      "evaluation_budget_missing_reason": "Per-condition total trial counts not extracted from full appendix in this wave",
+      "human_comparator": null,
+      "human_comparator_missing_reason": "No fully costed matched human service workflow",
+      "assistance": "Demonstrations, human corrections,reward labels,episode resets; offline batch retraining",
+      "latency": null,
+      "cost": null,
+      "missingness_reason": "End-to-end operational cost/inference latency not extracted",
+      "metrics": [
+        {
+          "metric": "allowed episode duration",
+          "task": "simple laundry / double espresso",
+          "value": 200,
+          "unit": "seconds",
+          "denominator": "evaluation episode",
+          "measurement_status": "evaluation_protocol",
+          "period": "Research reported in v2 dated2025-11-19; initial submission2025-11-18",
+          "population": "Simple-laundry and double-espresso evaluation episodes"
+        },
+        {
+          "metric": "allowed episode duration",
+          "task": "diverse laundry: button-up-shirt evaluation",
+          "value": 500,
+          "unit": "seconds",
+          "denominator": "evaluation episode",
+          "measurement_status": "evaluation_protocol",
+          "period": "Research reported in v2 dated2025-11-19; initial submission2025-11-18",
+          "population": "Button-up shirts; policy trained on11 item types"
+        },
+        {
+          "metric": "allowed episode duration",
+          "task": "box assembly",
+          "value": 600,
+          "unit": "seconds",
+          "denominator": "evaluation episode",
+          "measurement_status": "evaluation_protocol",
+          "period": "Research reported in v2 dated2025-11-19; initial submission2025-11-18",
+          "population": "Box-assembly evaluation episodes"
+        }
+      ],
+      "failure_recovery": "Failure includes quality defects and deadline; box throughput point estimate initially declines before subsequent improvement; overlapping early error bars do not establish a statistically significant decline.",
+      "operating_limit": "Relative throughput gain target-specific; diverse-laundry quantitative gain is for button-up shirts, not all11 training item types or a general industry coefficient. Human collection/label/reset costs and ambiguous box-data terminology remain.",
+      "initial_submission_date": "2025-11-18",
+      "inspected_version_date": "2025-11-19",
+      "version_history_url": "https://arxiv.org/abs/2511.14759v2",
+      "training_population": "Diverse-laundry policy trained on11 item types; evaluation subset differs from training mixture."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# First-checkpoint acceptance audit
+
+**Disposition: publishable as an early, explicitly bounded research edition. The seven-day campaign is not complete.** The governing scope remains the week-one specification v1.4 and the ten-workstream research design. The original 168-hour window remains in [HANDOFF.md](HANDOFF.md); this audit does not reset it or imply uninterrupted execution.
+
+The [requirement register](acceptance_register.json) records all 64 extracted requirements individually. “Met” means the stated bounded artifact/check exists at this checkpoint; it is not a claim of empirical calibration or final campaign acceptance. “Partial” identifies a substantive remaining boundary, even where a useful implementation or dossier exists. The [independent acceptance review](reviews/acceptance_review.md) evaluates the integrated result separately from the implementation owner and lead.
+
+## What is available
+
+The [report](REPORT.md) integrates seven substantive chapters covering the broad labor atlas, six contrasting cells, capability and learning evidence, customer organization and entry, robotics value capture, digital AI and infrastructure, and physical supply/field comparisons. Full chapter text is retained in `research/`; the assembled report is about 23,000 words, above the 8–15k guidance. Preserving source boundaries and module depth motivated that choice; a shorter decision edition remains an editorial improvement rather than evidence of completed research.
+
+The atlas covers fifteen market families with explicit residuals. The first six evidence packages contain 96 claim-level records, plus system, benchmark, analogy, customer, commercial, supply, openness and field-dossier objects. These are evidence records, not 96 independent corroborating sources. Counts describe coverage, not evidentiary quality. The 55-question ledger retains original questions and completion conditions, with bounded findings and open work.
+
+The [local dashboard](dashboard/index.html), launched through [REPRODUCE.md](REPRODUCE.md), has thirteen views, real scenario controls, source drilldowns and JSON/CSV export. Its common CPU engine includes conditional site eligibility, shared resources, qualified components, assembly and commissioning lags, retained/replacement stock, supported output, commercial cash, a matched digital/physical contrast and a separate monthly entrant reference. Eight saved scenarios reproduce from the same engine. **Every numerical scenario input is synthetic and uncalibrated.** Observed employment is computed separately from official source rows; no modeled site or robot is included in empirical totals.
+
+## Verification and corrections
+
+Independent source reviews are available for [markets/customers](reviews/evidence_review_markets_customers.md), [capabilities/learning](reviews/evidence_review_capabilities.md), [digital/infrastructure](reviews/evidence_review_h_infrastructure.md), and [physical/field evidence](reviews/evidence_review_physical.md). They document checked sources, methods, limitations and corrected findings. The reviews do not independently verify every source, corporate claim or experiment.
+
+Consequential source corrections include the evaluated clothing population in RECAP, version dates and prospective deployment labels, Rwanda's adverse historical cost and road-comparator boundaries, PG&E's mixed output quality, and Astranomy's successful-episode-only cost denominator. The evidence preserves unresolved contradictions and missing observations rather than treating them as zero.
+
+The [independent model review](reviews/model_review.md) found and verified fixes for two high-severity defects: robot output could reach sites without installed robots, and assembly rejects were omitted from accepted-unit economics. Engine-source provenance and fixed-reference time labels were also corrected. It exercised 150 randomized/adverse combinations and 87,114 checks without remaining failures in the reviewed model. Fifteen repository tests pass, including local API launch, adverse resource constraints, stock/component/cash identities and export/reload. Saved scenario JSONs were recomputed exactly; the report consumes the generated summary and does not calculate an independent economic model.
+
+The [browser review](reviews/browser_review.md) exercised all thirteen views, 52 cell/year/view combinations, actual recalculation, evidence invariance, eight-scenario comparison, empty-state behavior, source dialogs and export/reload. A desktop screenshot was inspected. This is not a full mobile, accessibility or multi-browser audit.
+
+The evidence validator passes its actual checks: unique evidence IDs and supported cross-package evidence-reference joins. It is **not** a complete semantic schema validator for every date, unit, population, locator, null reason or arbitrary relationship field. Source-owner and independent reviews cover portions of those contracts; comprehensive automated validation remains partial.
+
+At publication integration, exact observed repository commit identifiers were moved to the ignored operational receipt per AGENTS.md. Numerical assumptions and source findings were unchanged. Regenerated scenario fingerprints reflect this metadata change. Content hashes in earlier reviews identify their reviewed snapshots; the artifact manifest identifies the final published artifacts.
+
+## Material gaps
+
+| Area | Remaining limitation and consequence |
+| --- | --- |
+| Empirical deployment economics | Full accepted-output exposure, intervention/support, retention, negotiated terms and avoidable staffing remain missing in most cells. No calibrated TAM, ROI ranking or payroll-removal estimate is justified. |
+| Benchmarks and digital integration | Some budgets, immutable harness/interface pins and complete cost/latency methods remain unextracted. Paused simulation and successful-episode cost cannot establish physical service economics. |
+| Shared finance | Annual capital envelopes constrain the fleet but refresh exogenously. One-site lifecycle cash is reconciled; a revolving consolidated provider treasury, financing/default and cash reinvestment are absent. |
+| Customer entrant | Demand, capacity, receivables and funding gaps reconcile within the monthly case. Its ten robots are not booked against the annual fleet's shared supply/commissioning pools; those outputs must not be added as jointly feasible. |
+| Deployment/control | Fractional annual cohorts are a continuous relaxation. Discrete deployment schedules, queue/congestion, correlated failure and task-level recovery are unmodeled. |
+| Learning/R&D | Optional same-configuration transfer is an unvalidated hypothesis with explicit costs. No causal cross-embodiment curve or fixed-objective R&D critical-path model is established. |
+| Physical supply/embodiment | Real configuration maps preserve unknown BOM quantities, costs, yields and accessible qualified capacity. Numerical specialized/mixed alternatives remain synthetic; unpriced real comparisons do not establish the lowest-cost feasible design. |
+| Dashboard scope | Cell/year/search/status filters work, but not every geography, provider/harness, component grade or openness layer has a dedicated typed filter. Fixed-reference tables disclose their exceptions to the year/cell controls. |
+| Verification breadth | Independent reviews sample consequential sources. They do not reproduce training, run hardware, audit firms or certify every schema field. Actual serving model/effort cannot be independently verified despite explicit Astra/Ultra launch requests. |
+| Publication/continuity | A private-repository push proves publication, not consumption by another session or synchronization of the unavailable canonical Mac checkout. Operational receipts hold publication results. |
+
+## Continuing work
+
+The next investigations target field support/accepted-output denominators, non-Spot operator evidence, and benchmark/coordination reproducibility. The ranked [roadmap](RESEARCH_ROADMAP.md) also specifies shared-finance integration, qualified supply access, labor crosswalks and equal-technology entrant competition. These priorities address decision-sensitive gaps rather than simply adding source or view counts.
+
+The checkpoint is useful for inspecting mechanisms, tracing evidence and selecting the next deployment questions. At the original deadline, the strongest verified edition must be assessed again against all requirements, with remaining gaps stated explicitly. No elapsed-time or source-count proxy substitutes for that assessment.

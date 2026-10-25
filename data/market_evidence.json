@@ -1,0 +1,3583 @@
+{
+  "schema_version": "market-evidence-1.0",
+  "version": "0.1.2",
+  "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
+  "as_of": "2026-10-25",
+  "status": "substantive_first_wave_partial",
+  "geography": "US labor anchor; foreign deployment evidence explicitly scoped",
+  "baseline_period": "2025",
+  "classification_vintages": {
+    "industry": "2022 NAICS",
+    "occupation": "2018 SOC"
+  },
+  "evidence": [
+    {
+      "evidence_id": "A-BLS-EP2025",
+      "schema_version": "evidence-1.0",
+      "claim": "2025 historical National Employment Matrix employment is 170280.8 thousand jobs; wage/salary 160458.6 thousand and unincorporated self-employed 9822.3 thousand. The 2035 column is a projection and is not used as an observed baseline.",
+      "url": "https://www.bls.gov/emp/tables/employment-by-major-industry-sector.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-09-08",
+      "observation_period": "2025",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_statistics",
+      "epistemic_status": "historical_estimate",
+      "locator": "Table 2.1, Employment 2025 column and ownership footnote",
+      "limitations": "Date is page last modification. Rounded components differ by 0.1 thousand. Industry jobs include nonphysical work; no physical hours inferred.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-BLS-DETAIL2025",
+      "schema_version": "evidence-1.0",
+      "claim": "Detailed 2025 industry employment permits facilities/waste split and six deep-cell context denominators.",
+      "url": "https://www.bls.gov/emp/tables/industry-employment-and-output.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-09-08",
+      "observation_period": "2025",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_statistics",
+      "epistemic_status": "historical_estimate",
+      "locator": "Table 2.11, 2025 National Employment Matrix code and Employment 2025 columns",
+      "limitations": "Date is page last modification; Exa metadata reports August27 initial vintage. Summary rows overlap child rows. Hospital all-ownership row overlaps state/local government; use private-only row in additive market accounting. Output is gross output in chained2017 dollars, not wages or value added; omitted from market totals.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {},
+      "source_sha256": "51d59f6565e919d4e2d4cd2aa71b435e316c18939bacc31c80bf16b39bb86a15",
+      "acquisition_method": "Direct HTTPS and HTML table parser; selected exact rows retained in source_rows"
+    },
+    {
+      "evidence_id": "A-BLS-DEFINITIONS",
+      "schema_version": "evidence-1.0",
+      "claim": "National Employment Matrix measures jobs, not individual workers; self-employment means unincorporated self-employed.",
+      "url": "https://www.bls.gov/emp/documentation/definitions.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-08-27",
+      "observation_period": "2025 baseline definitions",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_methodology",
+      "epistemic_status": "definition",
+      "locator": "Employment Data Definitions",
+      "limitations": "Counts differ from CPS persons and from OEWS coverage; cannot reconcile by silently substituting one for another.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-BLS-OEWS2025",
+      "schema_version": "evidence-1.0",
+      "claim": "May2025 OEWS contains 155495730 wage/salary jobs; wages are straight-time gross pay, excluding employer benefit costs and several pay premiums.",
+      "url": "https://www.bls.gov/news.release/ocwage.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-05-15",
+      "observation_period": "2025-05",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_statistics",
+      "epistemic_status": "historical_estimate",
+      "locator": "Release introduction; Technical Note Occupational employment and wages; Table1",
+      "limitations": "Nonfarm establishment survey excludes most agriculture, self-employed, private household workers and unpaid family workers. Full- and part-time workers included. Annual wage convention using2080 hours is not measured annual hours.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-BLS-OEWS-TABLE",
+      "schema_version": "evidence-1.0",
+      "claim": "Selected physically intensive major occupation groups and detailed diagnostic occupations have measured employment/wage rates, not measured physical-work shares.",
+      "url": "https://www.bls.gov/news.release/ocwage.t01.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-05-15",
+      "observation_period": "2025-05",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_statistics",
+      "epistemic_status": "historical_estimate",
+      "locator": "Table1, named occupation rows",
+      "limitations": "Detailed rows are nested within major groups; never sum both. An occupation name does not identify automatable hours or replaceable employment.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-BLS-OEWS-SCOPE",
+      "schema_version": "evidence-1.0",
+      "claim": "May2025 OEWS uses2018 SOC and2022 NAICS, six panels November2022\u2013May2025, excludes most agriculture and private households.",
+      "url": "https://www.bls.gov/oes/2025/may/oes_tec.htm",
+      "publisher": "US Bureau of Labor Statistics",
+      "publication_date": "2026-05-15",
+      "observation_period": "2022-11/2025-05 sampling panels; estimates2025-05",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_methodology",
+      "epistemic_status": "definition",
+      "locator": "Scope of survey; occupational and industry coding systems",
+      "limitations": "Exa retrieved historical technical note; direct historical industry-specific URLs redirected to OES home in this session. No industry occupation estimates fabricated from redirected pages.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-ONET-TASKS",
+      "schema_version": "evidence-1.0",
+      "claim": "O*NET task-frequency rating values indicate percentage of respondents choosing a frequency category, not percentage of work time.",
+      "url": "https://www.onetcenter.org/dictionary/31.0/csv/task_categories.html",
+      "publisher": "National Center for O*NET Development",
+      "publication_date": null,
+      "observation_period": "O*NET31.0",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "official_methodology",
+      "epistemic_status": "definition",
+      "locator": "Task Categories final explanatory paragraph",
+      "limitations": "Cannot estimate annual physical hours from task-frequency categories or importance scores.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {
+        "publication_date": "No dated publication displayed in retrieved source."
+      }
+    },
+    {
+      "evidence_id": "A-BMW-2026",
+      "schema_version": "evidence-1.0",
+      "claim": "BMW reports Figure02 pilot in Spartanburg during2025 moved >90000 components, supported >30000 X3 and accumulated about1250 operating hours over ten months.",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en",
+      "publisher": "BMW Group",
+      "publication_date": "2026-02-27",
+      "observation_period": "2025 ten-month pilot",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_primary",
+      "epistemic_status": "operator_reported",
+      "locator": "Section on first pilot at Spartanburg; paragraphs beginning Within ten months and In total",
+      "limitations": "Pilot supporting sheet-metal positioning, not autonomous car manufacturing. Operating hours are not calendar exposure or paid hours; intervention, accepted quality and economics undisclosed. Do not infer 10h\u00d75days continuous operation from shift language.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {},
+      "metrics": [
+        {
+          "metric": "components_moved",
+          "value": 90000,
+          "comparison": "greater_than",
+          "unit": "components",
+          "denominator": "pilot cumulative"
+        },
+        {
+          "metric": "operating_exposure",
+          "value": 1250,
+          "comparison": "approximately",
+          "unit": "robot operating hours",
+          "denominator": "pilot cumulative"
+        }
+      ]
+    },
+    {
+      "evidence_id": "A-GXO-2024",
+      "schema_version": "evidence-1.0",
+      "claim": "GXO announced multiyear RaaS deployment of Digit and Arc at SPANX, moving totes from AMRs to conveyors following late2023 proof of concept.",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "publisher": "GXO",
+      "publication_date": "2024-06-27",
+      "observation_period": "2024 commercial agreement after2023 pilot",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_primary",
+      "epistemic_status": "operator_reported",
+      "locator": "Paragraphs As part of the RaaS agreement and In the SPANX facility",
+      "limitations": "Source establishes bounded live operation and arrangement, not fleet counts, throughput, interventions, cash savings, fees or national logistics serviceability.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-ISS-2026",
+      "schema_version": "evidence-1.0",
+      "claim": "ISS reports >800 cleaning cobots across21 countries and30% floor-cleaning efficiency improvement at multiple UK facilities; sensors and cleaning staff remain central.",
+      "url": "https://www.issworld.com/insights/blog/technology-and-innovation-in-cleaning",
+      "publisher": "ISS",
+      "publication_date": "2026-03-19",
+      "observation_period": null,
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_primary",
+      "epistemic_status": "operator_reported",
+      "locator": "Cobots and cleaners: A collaborative force; From routine to responsive",
+      "limitations": "Observation period, exact efficiency denominator, sample, robot configuration and controlled comparator undisclosed. Global fleet and UK effect cannot calibrate US labor savings. March19 is page datePublished metadata.",
+      "geography": "Global; UK efficiency claim",
+      "status": "retrieved",
+      "missingness": {
+        "observation_period": "Source does not report observation window."
+      },
+      "metrics": [
+        {
+          "metric": "cleaning_robots",
+          "value": 800,
+          "comparison": "greater_than",
+          "unit": "robots",
+          "denominator": "ISS deployment across21countries"
+        },
+        {
+          "metric": "reported_efficiency_increase",
+          "value": 30,
+          "unit": "percent",
+          "denominator": "unspecified floor-cleaning efficiency measure at multiple UK facilities"
+        }
+      ]
+    },
+    {
+      "evidence_id": "A-HOSPITAL-2024",
+      "schema_version": "evidence-1.0",
+      "claim": "ChristianaCare qualitative study observed89 deliveries in33hours across23sessions, with107 reported human interventions including72 elevator assists.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892717/",
+      "publisher": "Birkhoff et al.; Delaware Journal of Public Health",
+      "publication_date": "2024-12-01",
+      "observation_period": "2022-11/2022-12",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_authored_research",
+      "epistemic_status": "historical_observation",
+      "locator": "Abstract; Design and Sample; Results; DOI10.32481/djph.2024.12.05",
+      "limitations": "Single900-bed hospital, purposeful qualitative sample, early rollout, no intervention durations or cost comparator. Listed categories72+20+4+7+7+1 sum111 versus headline107; overlap/error unresolved. Do not use categories as exclusive partition or extrapolate as current platform rate.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {},
+      "metrics": [
+        {
+          "metric": "observed_deliveries",
+          "value": 89,
+          "unit": "deliveries",
+          "denominator": "23 observation sessions"
+        },
+        {
+          "metric": "observation_time",
+          "value": 33,
+          "unit": "observer hours",
+          "denominator": "23sessions"
+        },
+        {
+          "metric": "reported_interventions",
+          "value": 107,
+          "unit": "intervention events",
+          "denominator": "89 observed deliveries"
+        }
+      ],
+      "conflicts": [
+        "Intervention-category sum111 differs from headline107; unresolved."
+      ]
+    },
+    {
+      "evidence_id": "A-HOSPITAL-2026",
+      "schema_version": "evidence-1.0",
+      "claim": "ChristianaCare reports three cobots completed >48600 deliveries during2022\u201325 pilot across >80 patient areas, but could not meaningfully augment complex/time-sensitive nursing workflows; value concentrated in high-volume nonurgent deliveries.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13048758/",
+      "publisher": "Smith and Weber; Delaware Journal of Public Health",
+      "publication_date": "2026-03-31",
+      "observation_period": "2022/2025",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_authored_research",
+      "epistemic_status": "operator_reported",
+      "locator": "Abstract; Nurses Shaping Robotic Innovation in the Hospital Setting; paragraph By the end of the grant period",
+      "limitations": "Perspective reports project findings; not independently audited cost evaluation. March31 PMC publication vs March issue DOI metadata. Cumulative deliveries not exposure-normalized rate. $1.5m grant is program funding, not robot price or complete cost.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {},
+      "metrics": [
+        {
+          "metric": "deliveries",
+          "value": 48600,
+          "comparison": "greater_than",
+          "unit": "deliveries",
+          "denominator": "three-cobot grant-period cumulative"
+        },
+        {
+          "metric": "grant",
+          "value": 1500000,
+          "unit": "nominal USD",
+          "denominator": "three-year research pilot program"
+        }
+      ]
+    },
+    {
+      "evidence_id": "A-HILTI-JAIBOT",
+      "schema_version": "evidence-1.0",
+      "claim": "Jaibot semi-automated overhead drilling uses digital drilling plans, Hilti cloud/tablet/total station, human operation and automatic within-reach drilling/progress feedback.",
+      "url": "https://www.hilti.com/content/hilti/W1/US/en/business/business/trends/jaibot.html",
+      "publisher": "Hilti",
+      "publication_date": null,
+      "observation_period": null,
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "manufacturer_primary",
+      "epistemic_status": "vendor_reported",
+      "locator": "The Solution; Safer Work; Increased Speed and Accuracy; Fewer Errors",
+      "limitations": "US commercial page, not audited project outcomes. Whole-project preparation, obstruction, rework, transit and downstream installation remain. Up-to8hour battery statement is rated design claim.",
+      "geography": "US",
+      "status": "retrieved",
+      "missingness": {
+        "publication_date": "No dated publication displayed in retrieved source.",
+        "observation_period": "Source does not report observation window."
+      }
+    },
+    {
+      "evidence_id": "A-JAIBOT-UAE2021",
+      "schema_version": "evidence-1.0",
+      "claim": "ALEC One Zaabeel Jaibot field case examines workflow, productivity, quality, safety and organizational changes for MEP drilling.",
+      "url": "https://www.iaarc.org/publications/2021_proceedings_of_the_38th_isarc/implementation_of_a_robotic_system_for_overhead_drilling_operations-a_case_study_of_the_jaibot_in_the_uae.html",
+      "publisher": "Xu, Holgate, Coban and Garcia de Soto; IAARC",
+      "publication_date": "2021-11-02",
+      "observation_period": "One Zaabeel project; precise observation dates not established in retrieved abstract",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "field_case_research",
+      "epistemic_status": "historical_research",
+      "locator": "ISARC2021 paper abstract",
+      "limitations": "Only abstract directly reviewed here; no numerical effect calibrated. Foreign construction project does not establish US market penetration.",
+      "geography": "UAE",
+      "status": "retrieved",
+      "missingness": {}
+    },
+    {
+      "evidence_id": "A-NATIONALGRID-2023",
+      "schema_version": "evidence-1.0",
+      "claim": "National Grid tested Spot for three days at Blyth converter site; data/results under review and permanent rollout conditional.",
+      "url": "https://www.nationalgrid.com/who-let-the-dogs-out",
+      "publisher": "National Grid",
+      "publication_date": "2023-02-17",
+      "observation_period": "three-day trial before2023-02-17",
+      "retrieved_at": "2026-10-25T15:59:28.714609+00:00",
+      "source_class": "operator_primary",
+      "epistemic_status": "operator_reported",
+      "locator": "Paragraphs North Sea Link interconnector and results of the pilot",
+      "limitations": "Trial, not evidence of routine retained fleet or outage reduction. Visual/thermal/acoustic/LiDAR data are intermediate outputs; no realized maintenance economics.",
+      "geography": "UK",
+      "status": "retrieved",
+      "missingness": {}
+    }
+  ],
+  "markets": [
+    {
+      "market_id": "M01",
+      "schema_version": "market-1.0",
+      "name": "Agriculture, forestry and fishing",
+      "label": "Agriculture, forestry and fishing",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "11"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Land/input preparation \u2192 growing/raising \u2192 harvesting \u2192 grading/packing; food manufacturing remains M05.",
+      "economic_baseline": {
+        "employment": 1462.4,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Land/input preparation",
+        "growing/raising",
+        "harvesting",
+        "grading/packing; food manufacturing remains M05."
+      ],
+      "baseline_automation": "Mechanized field systems, milking, tractors and specialized harvesting are incumbent alternatives; human dexterity remains crop/season specific.",
+      "bottlenecks": "Harvest window, terrain, weather, biological damage and service coverage constrain useful output.",
+      "newco_screen": "Specialty crop or service newco is a hypothesis; land, seasonal cash and off-take matter more than generic robot access.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-03",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M02",
+      "schema_version": "market-1.0",
+      "name": "Mining and resource extraction",
+      "label": "Mining and resource extraction",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "21"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Exploration \u2192 extraction \u2192 onsite handling \u2192 processing/inspection; utility generation remains M03.",
+      "economic_baseline": {
+        "employment": 573.5,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Exploration",
+        "extraction",
+        "onsite handling",
+        "processing/inspection; utility generation remains M03."
+      ],
+      "baseline_automation": "Heavy specialized mobile equipment and fixed processing; quadruped/drone inspection is a complement.",
+      "bottlenecks": "Hazardous-area qualification, abrasion, downtime and remote service.",
+      "newco_screen": "Inspection service entry may precede owning resource extraction; leases and mineral access constrain greenfield competition.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-04",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M03",
+      "schema_version": "market-1.0",
+      "name": "Utilities and infrastructure operation",
+      "label": "Utilities and infrastructure operation",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "22"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Generation/supply \u2192 transmission/distribution \u2192 asset inspection \u2192 maintenance.",
+      "economic_baseline": {
+        "employment": 601.3,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Generation/supply",
+        "transmission/distribution",
+        "asset inspection",
+        "maintenance."
+      ],
+      "baseline_automation": "SCADA, fixed sensors, drones, quadrupeds and technician crews; sensing does not repair equipment.",
+      "bottlenecks": "Image/measurement quality, access permission, asset criticality, cyber/integration and actionability.",
+      "newco_screen": "Service entrant can sell qualified inspection; regulated asset access and incumbent contracts restrict integrated newco.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-05",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M04",
+      "schema_version": "market-1.0",
+      "name": "Construction",
+      "label": "Construction",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "23"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Design/procurement \u2192 site preparation \u2192 structure \u2192 MEP/interior installation \u2192 handover.",
+      "economic_baseline": {
+        "employment": 8266.7,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Design/procurement",
+        "site preparation",
+        "structure",
+        "MEP/interior installation",
+        "handover."
+      ],
+      "baseline_automation": "BIM/layout, power tools, prefabrication and specialized drilling compete with humanoids.",
+      "bottlenecks": "Changing geometry, trade coordination, obstructions, quality and schedule access.",
+      "newco_screen": "Specialist robotic subcontractor is plausible conditional thesis; project utilization and bonding/working capital remain gates.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-06",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M05",
+      "schema_version": "market-1.0",
+      "name": "Manufacturing",
+      "label": "Manufacturing",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "31",
+        "32",
+        "33"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Inbound materials \u2192 parts fabrication \u2192 assembly \u2192 quality \u2192 outbound; in-plant logistics allocated here.",
+      "economic_baseline": {
+        "employment": 12633.7,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Inbound materials",
+        "parts fabrication",
+        "assembly",
+        "quality",
+        "outbound; in-plant logistics allocated here."
+      ],
+      "baseline_automation": "Fixed cells, conveyors, AMRs, fixtures and humans; Figure02 is bounded automotive pilot evidence.",
+      "bottlenecks": "Takt, accepted quality, recoverability, integration downtime and downstream capacity.",
+      "newco_screen": "Greenfield process redesign may help but equal-tech incumbents retain products, demand and qualification advantages.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-07",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M06",
+      "schema_version": "market-1.0",
+      "name": "Wholesale distribution",
+      "label": "Wholesale distribution",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "42"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Supplier receipt \u2192 stockholding \u2192 break-bulk/value-added service \u2192 business delivery.",
+      "economic_baseline": {
+        "employment": 6059.5,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Supplier receipt",
+        "stockholding",
+        "break-bulk/value-added service",
+        "business delivery."
+      ],
+      "baseline_automation": "Forklifts, WMS, conveyors, picking aids and AMRs.",
+      "bottlenecks": "SKU mix, peak utilization, loading, commercial relationships and inventory funding.",
+      "newco_screen": "Automation-oriented distributor needs customer/vendor access and working capital, not only robot supply.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-08",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M07",
+      "schema_version": "market-1.0",
+      "name": "Retail",
+      "label": "Retail",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "44",
+        "45"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Receipt \u2192 shelf availability \u2192 service/checkout \u2192 returns; owned store replenishment remains here.",
+      "economic_baseline": {
+        "employment": 15440.9,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Receipt",
+        "shelf availability",
+        "service/checkout",
+        "returns; owned store replenishment remains here."
+      ],
+      "baseline_automation": "Self-checkout, digital inventory, cleaning machines and human replenishment.",
+      "bottlenecks": "Customer access, irregular products, aisle congestion, shrink and store economics.",
+      "newco_screen": "Newco store format thesis competes with e-commerce and same-tech retail chains; shelf labor is not total retail employment.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-09",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M08",
+      "schema_version": "market-1.0",
+      "name": "Transportation and warehousing",
+      "label": "Transportation and warehousing",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "48",
+        "492",
+        "493"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Transport receipt \u2192 storage/picking \u2192 tote/carton transfer \u2192 dispatch/delivery.",
+      "economic_baseline": {
+        "employment": 6639.5,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Transport receipt",
+        "storage/picking",
+        "tote/carton transfer",
+        "dispatch/delivery."
+      ],
+      "baseline_automation": "AMRs, conveyors, fixed handling and WMS; Digit integrates with this existing stack.",
+      "bottlenecks": "Handoff synchronization, peaks, exceptions, support and contract duration.",
+      "newco_screen": "Focused automated3PL entry needs committed customers and ramp funding; transferred incumbent volume is not new demand.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-10",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M09",
+      "schema_version": "market-1.0",
+      "name": "Accommodation and food service",
+      "label": "Accommodation and food service",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "72"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Ingredient/linen receipt \u2192 preparation/housekeeping \u2192 guest service \u2192 clearing/sanitation.",
+      "economic_baseline": {
+        "employment": 14202.1,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Ingredient/linen receipt",
+        "preparation/housekeeping",
+        "guest service",
+        "clearing/sanitation."
+      ],
+      "baseline_automation": "Kitchen equipment, dishwashers, fixed food automation and delivery/cleaning robots.",
+      "bottlenecks": "Food safety, flexible objects, peak service, dispersed sites and customer experience.",
+      "newco_screen": "Narrow format or central-production entry can redesign workflow; fragmented demand and acquisition costs remain.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-20",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M10",
+      "schema_version": "market-1.0",
+      "name": "Healthcare and social assistance",
+      "label": "Healthcare and social assistance",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "62 private"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Supply preparation \u2192 internal delivery \u2192 clinical/care service \u2192 sanitation/discharge.",
+      "economic_baseline": {
+        "employment": 23290.0,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Supply preparation",
+        "internal delivery",
+        "clinical/care service",
+        "sanitation/discharge."
+      ],
+      "baseline_automation": "Pneumatic tubes, AGVs, carts and specialist hospital delivery cobots; clinician work is separate.",
+      "bottlenecks": "Urgency, chain of custody, elevators/doors, staff workflow and protected implementation time.",
+      "newco_screen": "Nonclinical logistics operator thesis is narrower than healthcare replacement; hospital qualification/customer access dominate.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-18",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M11",
+      "schema_version": "market-1.0",
+      "name": "Facilities and building services",
+      "label": "Facilities and building services",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "5612",
+        "5617"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Contract/specification \u2192 occupancy scheduling \u2192 floor/room cleaning and grounds work \u2192 quality verification.",
+      "economic_baseline": {
+        "employment": 2474.1,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Contract/specification",
+        "occupancy scheduling",
+        "floor/room cleaning and grounds work",
+        "quality verification."
+      ],
+      "baseline_automation": "Scrubbers, vacuums, sensor scheduling and cleaning teams; humanoid form not prerequisite.",
+      "bottlenecks": "Accessible floor area, edges/washrooms, setup/refill, site permission, retained staffing and service contracts.",
+      "newco_screen": "Specialized robotic cleaning newco plausible with same-machine incumbent counterfactual; routing and retention decide economics.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-DETAIL2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-MATRIX-561200",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-561700",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M12",
+      "schema_version": "market-1.0",
+      "name": "Waste and remediation",
+      "label": "Waste and remediation",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "562"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Collection \u2192 transfer \u2192 sorting/recovery \u2192 disposal/remediation.",
+      "economic_baseline": {
+        "employment": 520.8,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Collection",
+        "transfer",
+        "sorting/recovery",
+        "disposal/remediation."
+      ],
+      "baseline_automation": "Collection vehicles, conveyors, sortation/vision and human quality checks.",
+      "bottlenecks": "Contamination, variable feedstock, safety, recovered-material demand and permits.",
+      "newco_screen": "Sorting/inspection service entry can use specialized systems; facility permits and feedstock contracts constrain full newco.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-DETAIL2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-MATRIX-562000",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M13",
+      "schema_version": "market-1.0",
+      "name": "Personal, household and repair services",
+      "label": "Personal, household and repair services",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "81"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Customer diagnosis \u2192 repair/personal service \u2192 cleaning/return; paid household work included where source covers.",
+      "economic_baseline": {
+        "employment": 6575.7,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Customer diagnosis",
+        "repair/personal service",
+        "cleaning/return; paid household work included where source covers."
+      ],
+      "baseline_automation": "Human service, specialized tools and diagnostic software; broad general home robotics unproven here.",
+      "bottlenecks": "Travel, household variability, trust, liability and low site repetition.",
+      "newco_screen": "Dispersed-service newco requires route density and customer trust; no evidence of broad humanoid serviceability.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-21",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M14",
+      "schema_version": "market-1.0",
+      "name": "Education and public services",
+      "label": "Education and public services",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "61 private",
+        "federal government",
+        "state/local government"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Public/education service delivery \u2192 buildings/campus operations \u2192 maintenance/security.",
+      "economic_baseline": {
+        "employment": 27557.6,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Public/education service delivery",
+        "buildings/campus operations",
+        "maintenance/security."
+      ],
+      "baseline_automation": "Digital administration, custodial machinery, transport and human professionals.",
+      "bottlenecks": "Procurement, budget, public-site permissions, safety and benefits crossing departments.",
+      "newco_screen": "Operating entry often contract service rather than replacing public institution; budget/authority constraints must be specific.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-17",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-SECTOR-22",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-SECTOR-23",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    },
+    {
+      "market_id": "M15",
+      "schema_version": "market-1.0",
+      "name": "Arts, recreation and visitor services",
+      "label": "Arts, recreation and visitor services",
+      "parent_id": "US-Economy",
+      "classification_codes": [
+        "71"
+      ],
+      "classification_vintage": "2022 NAICS; ownership-adjusted BLS sector convention",
+      "geography": "US",
+      "period": "2025",
+      "status": "quantified_employment_qualitatively_screened",
+      "coverage_status": "quantified",
+      "physical_work_coverage_status": "known_evidence_gap",
+      "boundary": "Venue setup \u2192 admission/event/service \u2192 grounds/custodial/asset maintenance.",
+      "economic_baseline": {
+        "employment": 2681.7,
+        "unit": "thousand wage-and-salary jobs",
+        "denominator": "BLS2025 industry employment; all occupations in mapped industry",
+        "evidence_refs": [
+          "A-BLS-EP2025"
+        ],
+        "physical_work_hours": null,
+        "physical_work_share": null,
+        "annual_hours": null,
+        "missingness_reason": "No representative paid-hours and physical-work-time-share measurement matched to these industries; job counts not converted."
+      },
+      "value_chain": [
+        "Venue setup",
+        "admission/event/service",
+        "grounds/custodial/asset maintenance."
+      ],
+      "baseline_automation": "Specialized cleaning/grounds machines, ticketing software and human visitor care.",
+      "bottlenecks": "Demand seasonality, public interaction, event peaks and asset heterogeneity.",
+      "newco_screen": "Venue-service entrant can aggregate routes but customer concentration and seasonal capacity impair utilization.",
+      "interpretation_status": "analytical_screen_not_empirical_automation_rate",
+      "evidence_refs": [
+        "A-BLS-EP2025"
+      ],
+      "residual_allocation": "Employer-industry view. In-house support included here; outsourced support remains supplier industry and is not added again.",
+      "source_row_calculation": {
+        "metric": "employment_2025_thousands",
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "terms": [
+          {
+            "source_row_id": "A-BLS-SECTOR-19",
+            "coefficient": 1
+          }
+        ],
+        "unit": "thousand2025 wage/salary jobs",
+        "status": "observed_source_row_aggregation"
+      }
+    }
+  ],
+  "cells": [
+    {
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M05",
+      "name": "Auto assembly and material presentation",
+      "label": "Auto assembly and material presentation",
+      "stage": "Auto assembly and material presentation",
+      "operating_archetype": "Large brownfield automotive line",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Motor vehicle manufacturing",
+        "employment_context": 285.8,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Sheet-metal components correctly placed into welding fixtures at takt, per scheduled shift",
+      "value_chain": "Receiving/sequencing \u2192 component presentation \u2192 fixture loading \u2192 welding \u2192 inspection",
+      "system_alternatives": "Figure02 pilot; fixed robot/fixture; AMR plus human; digital-improved manual handling",
+      "technical_requirements": "Known part geometry and fixture access; validated placement, machine interlocks and recoverability",
+      "economics": "Compare configured workcell cost per accepted component including supervision, scrap, line stoppage, integration and complementary automation. Whole-vehicle value cannot be attributed to component loading.",
+      "pathway_comparison": "Existing OEM has plant/process authority and established demand; acquisition changes ownership but not activity; greenfield entrant needs product demand and qualification before a labor advantage matters.",
+      "bottlenecks": "Takt sensitivity, shared line downtime, operator response and hardware/software compatibility.",
+      "learning_links": "Repeatable part/fixture data may transfer to similar loading; SKU/tool changes require validation. All plant learning rights unknown.",
+      "evidence_conclusion": "2025 operator pilot, with measured cumulative activity and operating exposure; no scalable ROI or national serviceable fraction established.",
+      "evidence_refs": [
+        "A-BMW-2026",
+        "A-BLS-DETAIL2025"
+      ],
+      "waterfall": {
+        "denominator": "Sheet-metal components correctly placed into welding fixtures at takt, per scheduled shift",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Known part geometry and fixture access; validated placement, machine interlocks and recoverability"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    },
+    {
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M08",
+      "name": "3PL tote handoff",
+      "label": "3PL tote handoff",
+      "stage": "3PL tote handoff",
+      "operating_archetype": "Large contract warehouse with AMRs and conveyor",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Warehousing and storage",
+        "employment_context": 1865.7,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Correctly transferred totes reaching destination conveyor within dispatch window, per shift",
+      "value_chain": "Customer order/WMS \u2192 AMR transport \u2192 tote transfer \u2192 conveyor \u2192 downstream packing/dispatch",
+      "system_alternatives": "Digit+Arc+AMRs; fixed transfer cell; conveyor redesign; human/AMR combination",
+      "technical_requirements": "Matched tote sizes/weights, safe handoff, recoverable failures and orchestrator interfaces",
+      "economics": "Compare total process cost per accepted tote and avoided staffing; include AMRs/conveyor/Arc, maintenance, charging, peak demand and contract costs. RaaS price and intervention burden unknown.",
+      "pathway_comparison": "GXO-style operator can aggregate integration capability but customer owns demand and may control facility. Focused3PL entrant needs contracted volume/runway; same-Digit incumbent can erase timing advantage.",
+      "bottlenecks": "AMR/conveyor mismatch, exception queue, peak utilization, contract termination and integration/service supply.",
+      "learning_links": "Shared tote geometry supports within-workflow transfer; destination WMS, site and customer data rights may block pooling.",
+      "evidence_conclusion": "Operator-confirmed commercial arrangement and live bounded workflow; activity-normalized economics undisclosed.",
+      "evidence_refs": [
+        "A-GXO-2024",
+        "A-BLS-DETAIL2025"
+      ],
+      "waterfall": {
+        "denominator": "Correctly transferred totes reaching destination conveyor within dispatch window, per shift",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched tote sizes/weights, safe handoff, recoverable failures and orchestrator interfaces"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    },
+    {
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M11",
+      "name": "Commercial floor cleaning",
+      "label": "Commercial floor cleaning",
+      "stage": "Commercial floor cleaning",
+      "operating_archetype": "Multi-site outsourced facilities contracts",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Facilities support plus services to buildings/dwellings",
+        "employment_context": 2474.1,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Square metres passing specified cleanliness and coverage inspection per cleaning window",
+      "value_chain": "Client specification \u2192 occupancy/scheduling \u2192 preparation \u2192 scrubbing/vacuuming \u2192 edges/detail \u2192 inspection/rework",
+      "system_alternatives": "Autonomous scrubber/vacuum; manual ride-on or walk-behind; human team plus sensor scheduling; humanoid hypothesis",
+      "technical_requirements": "Navigable floor, obstacle/occupancy policy, setup/refill and finish quality with retained detail labor",
+      "economics": "Compare full shift/site cleaning cost for equal inspected area and quality. Include route preparation, manual follow-up, transport, refill, supervision and contract risk.30% UK efficiency claim is not US payroll-saving calibration.",
+      "pathway_comparison": "Large contractor can share deployment teams but client retains site/data access; local independent may have authority but limited capital. Same equipment accessible to newco and incumbent, so route density/contracts/implementation are differentiation hypotheses.",
+      "bottlenecks": "Accessible floor share, small dispersed sites, manual residuals, customer contract term and redeployment of idle machines.",
+      "learning_links": "Navigation maps/site exceptions may lower deployment burden; occupancy scheduling improves human baseline independently and cannot be double counted.",
+      "evidence_conclusion": "Large operator reports global use and selectedUK efficiency; US specific accepted-area/total-labor panel missing.",
+      "evidence_refs": [
+        "A-ISS-2026",
+        "A-BLS-DETAIL2025"
+      ],
+      "waterfall": {
+        "denominator": "Square metres passing specified cleanliness and coverage inspection per cleaning window",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Navigable floor, obstacle/occupancy policy, setup/refill and finish quality with retained detail labor"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    },
+    {
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M10",
+      "name": "Hospital internal supply delivery",
+      "label": "Hospital internal supply delivery",
+      "stage": "Hospital internal supply delivery",
+      "operating_archetype": "Large multi-floor acute-care hospital",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Hospitals private only; all-ownership contextual reference6818.4",
+        "employment_context": 5653.8,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Correct authorized delivery with intact chain of custody within urgency-class SLA",
+      "value_chain": "Pharmacy/supply request \u2192 prepare/load \u2192 dispatch \u2192 elevator/door transit \u2192 authorized handoff \u2192 clinical use",
+      "system_alternatives": "Moxi-style wheeled mobile manipulator; AGV; pneumatic tube; carts/porters; digital-improved request batching",
+      "technical_requirements": "Separate routine/nonurgent from time-critical demand; elevator/door access, custody and recipient availability",
+      "economics": "Cost per accepted on-time delivery includes loading/unloading, human assists, system integration and scheduling. A grant is research funding, not unit cost; time released is not removed nursing payroll.",
+      "pathway_comparison": "Health system owns clinical safety and access but pharmacy, nursing, facilities andIT share authority. Specialist newco can supply logistics service; outsourced service still needs hospital implementation capacity.",
+      "bottlenecks": "Urgency mismatch, fragmented handoffs, elevators/doors, frontline adoption and recurring support.",
+      "learning_links": "Route/door data transfer within compatible buildings; urgent clinical prioritization and informal coordination are not learned merely from accumulating deliveries.",
+      "evidence_conclusion": "2022\u201325 pilot>48600 deliveries,2026 conclusion limits clinical-work substitution;2022 direct observations reveal assistance burden but not current rate.",
+      "evidence_refs": [
+        "A-HOSPITAL-2026",
+        "A-BLS-DETAIL2025",
+        "A-HOSPITAL-2024"
+      ],
+      "waterfall": {
+        "denominator": "Correct authorized delivery with intact chain of custody within urgency-class SLA",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Separate routine/nonurgent from time-critical demand; elevator/door access, custody and recipient availability"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    },
+    {
+      "cell_id": "CELL-M04-construction-install-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M04",
+      "name": "MEP/interior installation",
+      "label": "MEP/interior installation",
+      "stage": "MEP/interior installation",
+      "operating_archetype": "Variable building project with coordinated BIM and accessible unfinished interior",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Building equipment contractors",
+        "employment_context": 2602.1,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Accepted anchor holes at specified coordinates/depth/diameter, per project work package",
+      "value_chain": "Design coordination/BIM \u2192 layout \u2192 overhead drilling \u2192 hangers \u2192 MEP install \u2192 inspection",
+      "system_alternatives": "Jaibot specialized drill; digital layout plus human drilling; prefabrication; proposed humanoid tool operation",
+      "technical_requirements": "Finalized geometry, unobstructed route/soffit, rebar handling, total-station setup and valid coordinates",
+      "economics": "Compare entire work-package cost and schedule at equal accepted installations; include design coordination, transport/setup, operator, rework and downstream bottlenecks. Hole rate is not complete installation productivity.",
+      "pathway_comparison": "General contractor controls sequencing/site access, subcontractor suppliescrew/tool; robotics subcontractor/newco may aggregate work but bears mobilization/idle risk. Acquisition buys relationships, not automatic process control.",
+      "bottlenecks": "Trade conflicts, design changes, obstruction, project pipeline, equipment transport and bonding/working capital.",
+      "learning_links": "BIM-to-execution and as-built feedback supports site coordination; physical/geometric variability limits transfer between projects.",
+      "evidence_conclusion": "Commercial semi-automated US product and foreign field-case evidence; no measured US market-wide productivity/penetration.",
+      "evidence_refs": [
+        "A-HILTI-JAIBOT",
+        "A-BLS-DETAIL2025",
+        "A-JAIBOT-UAE2021"
+      ],
+      "waterfall": {
+        "denominator": "Accepted anchor holes at specified coordinates/depth/diameter, per project work package",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Finalized geometry, unobstructed route/soffit, rebar handling, total-station setup and valid coordinates"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    },
+    {
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "schema_version": "market-cell-1.0",
+      "market_id": "M03",
+      "name": "Generation/substation asset inspection",
+      "label": "Generation/substation asset inspection",
+      "stage": "Generation/substation asset inspection",
+      "operating_archetype": "Restricted fixed industrial asset with repeatable routes",
+      "geography": "US",
+      "period": "2025",
+      "evidence_as_of": "2026-10-25",
+      "status": "deep_qualitative_evidence_partial_economics",
+      "coverage_status": "qualitatively screened",
+      "denominator": {
+        "measure": "Electric generation transmission distribution",
+        "employment_context": 420.5,
+        "unit": "thousand2025 wage/salary jobs",
+        "is_physical_work_denominator": false,
+        "is_additive_to_market": false,
+        "evidence_refs": [
+          "A-BLS-DETAIL2025"
+        ],
+        "matched_activity_population": null,
+        "missingness_reason": "Industry employment is context only; market-stage work share/output population not measured."
+      },
+      "useful_output": "Asset observations meeting sensor-quality and defect-detection requirements within inspection interval; actionable findings tracked separately",
+      "value_chain": "Route planning \u2192 data capture \u2192 defect review \u2192 work order \u2192 repair \u2192 verified asset availability",
+      "system_alternatives": "Spot/other quadruped with sensors; fixed sensors; aerial drone; wheeled sensor cart; human technician",
+      "technical_requirements": "Reach/access plus calibrated sensor data quality, repeatable alignment, detection performance and safe communications",
+      "economics": "Cost per decision-quality inspection includes payload, human review, false positives/negatives, maintenance and repair follow-through. Avoided outage benefit requires causal evidence; mission counts alone insufficient.",
+      "pathway_comparison": "Utility retains asset/security authority; integrator supplies payload/site mapping. Service entrant can access contracts but cannot assume regulated asset ownership or monetize all avoided outages.",
+      "bottlenecks": "Operational access, sensor/IQA thresholds, cyber approval, site qualification and unresolved observation-to-action link.",
+      "learning_links": "Repeated routes improve comparability/anomaly baselines; asset types and failure distributions govern transfer. Inspection-only systems do not establish manipulation capability.",
+      "evidence_conclusion": "UK operator three-day trial is bounded comparison for US cell; US routine economic evidence missing in atlas and tracked inI/J.",
+      "evidence_refs": [
+        "A-NATIONALGRID-2023",
+        "A-BLS-DETAIL2025"
+      ],
+      "waterfall": {
+        "denominator": "Asset observations meeting sensor-quality and defect-detection requirements within inspection interval; actionable findings tracked separately",
+        "population_value": null,
+        "status": "conditions_specified_no_estimated_shares",
+        "missingness_reason": "No representative matched activity population and joint eligibility distribution. No independent percentage gates multiplied.",
+        "gates": [
+          {
+            "gate_id": "relevant_work",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Representative baseline useful-output quantity unavailable."
+          },
+          {
+            "gate_id": "technical_serviceability",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Reach/access plus calibrated sensor data quality, repeatable alignment, detection performance and safe communications"
+          },
+          {
+            "gate_id": "economic_attractiveness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Comparable full costs and avoidable staffing unavailable."
+          },
+          {
+            "gate_id": "organizational_readiness",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Cohort-specific authority, finance and implementation sample unavailable."
+          },
+          {
+            "gate_id": "deliverable_capacity",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Shared qualified hardware, integration and support allocation not measured."
+          },
+          {
+            "gate_id": "retained_productive_output",
+            "value": null,
+            "unit": "same accepted-work units per matched period",
+            "missingness_reason": "Matched commissioning, retention and accepted-output data unavailable."
+          }
+        ]
+      },
+      "scenario_horizons": [
+        {
+          "horizon": "0\u20132 years",
+          "status": "conditional",
+          "condition": "Validate bounded repeatable process, assistance and whole-system cost before broader rollout."
+        },
+        {
+          "horizon": "3\u20135 years",
+          "status": "conditional",
+          "condition": "Expand only if multi-site transfer, support and demand meet tested thresholds; calendar alone changes nothing."
+        },
+        {
+          "horizon": "6\u201310 years",
+          "status": "conditional",
+          "condition": "Enterprise redesign remains hypothetical and competes with simpler automation and digitally improved incumbents."
+        }
+      ]
+    }
+  ],
+  "occupation_screen": [
+    {
+      "occupation_id": "SOC-31-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "31-0000",
+      "label": "Healthcare support",
+      "employment": 7901670,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 19.62,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-35-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "35-0000",
+      "label": "Food preparation and serving",
+      "employment": 13680750,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 17.86,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-37-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "37-0000",
+      "label": "Building/grounds cleaning and maintenance",
+      "employment": 4548260,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 19.66,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-45-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "45-0000",
+      "label": "Farming/fishing/forestry within OEWS scope",
+      "employment": 435200,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 19.96,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-47-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "47-0000",
+      "label": "Construction and extraction",
+      "employment": 6425160,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 31.42,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-49-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "49-0000",
+      "label": "Installation maintenance repair",
+      "employment": 6086190,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 30.44,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-51-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "51-0000",
+      "label": "Production",
+      "employment": 8565760,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 24.81,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    },
+    {
+      "occupation_id": "SOC-53-0000",
+      "schema_version": "occupation-screen-1.0",
+      "soc_2018": "53-0000",
+      "label": "Transportation and material moving",
+      "employment": 13677150,
+      "employment_unit": "OEWS wage/salary jobs",
+      "mean_hourly_wage": 23.96,
+      "wage_unit": "nominal2025 USD/hour; straight-time wage rate",
+      "period": "2025-05",
+      "geography": "US",
+      "status": "historical_estimate",
+      "evidence_refs": [
+        "A-BLS-OEWS-TABLE",
+        "A-BLS-OEWS-SCOPE"
+      ],
+      "physical_share": null,
+      "missingness_reason": "Occupation group is screening boundary, not measured work-time share."
+    }
+  ],
+  "source_rows": [
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "TE1000",
+      "title": "Total, all industries",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 170280.8,
+      "source_row": [
+        "Total, all industries",
+        "TE1000",
+        "Summary",
+        "170,280.8",
+        "176,198.5",
+        "5,917.6",
+        "3.5",
+        "0.3",
+        "41,009.8",
+        "50,044.2",
+        "2.0"
+      ],
+      "source_row_id": "A-BLS-MATRIX-TE1000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "TE1100",
+      "title": "Self-employed workers",
+      "industry_type": "Line item",
+      "employment_2025_thousands": 9822.3,
+      "source_row": [
+        "Self-employed workers",
+        "TE1100",
+        "Line item",
+        "9,822.3",
+        "9,974.2",
+        "151.9",
+        "1.5",
+        "0.2",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-TE1100",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "TE1200",
+      "title": "Total wage and salary employment",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 160458.6,
+      "source_row": [
+        "Total wage and salary employment",
+        "TE1200",
+        "Summary",
+        "160,458.6",
+        "166,224.3",
+        "5,765.7",
+        "3.6",
+        "0.4",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-TE1200",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "110000",
+      "title": "Agriculture, forestry, fishing, and hunting",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 1462.4,
+      "source_row": [
+        "Agriculture, forestry, fishing, and hunting",
+        "110000",
+        "Summary",
+        "1,462.4",
+        "1,484.1",
+        "21.6",
+        "1.5",
+        "0.1",
+        "459.7",
+        "519.2",
+        "1.2"
+      ],
+      "source_row_id": "A-BLS-MATRIX-110000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "210000",
+      "title": "Mining, quarrying, and oil and gas extraction",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 573.5,
+      "source_row": [
+        "Mining, quarrying, and oil and gas extraction",
+        "210000",
+        "Summary",
+        "573.5",
+        "577.3",
+        "3.8",
+        "0.7",
+        "0.1",
+        "592.9",
+        "703.4",
+        "1.7"
+      ],
+      "source_row_id": "A-BLS-MATRIX-210000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "220000",
+      "title": "Utilities",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 601.3,
+      "source_row": [
+        "Utilities",
+        "220000",
+        "Summary",
+        "601.3",
+        "660.1",
+        "58.8",
+        "9.8",
+        "0.9",
+        "526.6",
+        "673.0",
+        "2.5"
+      ],
+      "source_row_id": "A-BLS-MATRIX-220000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "230000",
+      "title": "Construction",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 8266.7,
+      "source_row": [
+        "Construction",
+        "230000",
+        "Summary",
+        "8,266.7",
+        "8,677.4",
+        "410.7",
+        "5.0",
+        "0.5",
+        "1,725.8",
+        "1,939.6",
+        "1.2"
+      ],
+      "source_row_id": "A-BLS-MATRIX-230000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "420000",
+      "title": "Wholesale trade",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 6059.5,
+      "source_row": [
+        "Wholesale trade",
+        "420000",
+        "Summary",
+        "6,059.5",
+        "6,184.7",
+        "125.2",
+        "2.1",
+        "0.2",
+        "2,139.9",
+        "2,714.7",
+        "2.4"
+      ],
+      "source_row_id": "A-BLS-MATRIX-420000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "510000",
+      "title": "Information",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2861.9,
+      "source_row": [
+        "Information",
+        "510000",
+        "Summary",
+        "2,861.9",
+        "3,012.9",
+        "151.0",
+        "5.3",
+        "0.5",
+        "2,754.0",
+        "3,782.0",
+        "3.2"
+      ],
+      "source_row_id": "A-BLS-MATRIX-510000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "520000",
+      "title": "Finance and insurance",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 6739.3,
+      "source_row": [
+        "Finance and insurance",
+        "520000",
+        "Summary",
+        "6,739.3",
+        "6,893.6",
+        "154.3",
+        "2.3",
+        "0.2",
+        "3,285.1",
+        "3,915.2",
+        "1.8"
+      ],
+      "source_row_id": "A-BLS-MATRIX-520000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "530000",
+      "title": "Real estate and rental and leasing",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2456.7,
+      "source_row": [
+        "Real estate and rental and leasing",
+        "530000",
+        "Summary",
+        "2,456.7",
+        "2,539.7",
+        "83.0",
+        "3.4",
+        "0.3",
+        "2,851.3",
+        "3,474.3",
+        "2.0"
+      ],
+      "source_row_id": "A-BLS-MATRIX-530000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "540000",
+      "title": "Professional, scientific, and technical services",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 10779.2,
+      "source_row": [
+        "Professional, scientific, and technical services",
+        "540000",
+        "Summary",
+        "10,779.2",
+        "11,705.9",
+        "926.7",
+        "8.6",
+        "0.8",
+        "3,229.0",
+        "4,133.5",
+        "2.5"
+      ],
+      "source_row_id": "A-BLS-MATRIX-540000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "550000",
+      "title": "Management of companies and enterprises",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2623.7,
+      "source_row": [
+        "Management of companies and enterprises",
+        "550000",
+        "Summary",
+        "2,623.7",
+        "2,730.4",
+        "106.7",
+        "4.1",
+        "0.4",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-550000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "560000",
+      "title": "Administrative and support and waste management and remediation services",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 9013.1,
+      "source_row": [
+        "Administrative and support and waste management and remediation services",
+        "560000",
+        "Summary",
+        "9,013.1",
+        "9,093.5",
+        "80.4",
+        "0.9",
+        "0.1",
+        "1,239.5",
+        "1,500.8",
+        "1.9"
+      ],
+      "source_row_id": "A-BLS-MATRIX-560000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "610000",
+      "title": "Educational services; state, local, and private",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 14892.5,
+      "source_row": [
+        "Educational services; state, local, and private",
+        "610000",
+        "Summary",
+        "14,892.5",
+        "14,990.7",
+        "98.2",
+        "0.7",
+        "0.1",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-610000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "620000",
+      "title": "Healthcare and social assistance",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 24454.6,
+      "source_row": [
+        "Healthcare and social assistance",
+        "620000",
+        "Summary",
+        "24,454.6",
+        "26,704.4",
+        "2,249.8",
+        "9.2",
+        "0.9",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-620000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "710000",
+      "title": "Arts, entertainment, and recreation",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2681.7,
+      "source_row": [
+        "Arts, entertainment, and recreation",
+        "710000",
+        "Summary",
+        "2,681.7",
+        "2,834.8",
+        "153.1",
+        "5.7",
+        "0.6",
+        "461.3",
+        "578.0",
+        "2.3"
+      ],
+      "source_row_id": "A-BLS-MATRIX-710000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "720000",
+      "title": "Accommodation and food services",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 14202.1,
+      "source_row": [
+        "Accommodation and food services",
+        "720000",
+        "Summary",
+        "14,202.1",
+        "14,809.5",
+        "607.4",
+        "4.3",
+        "0.4",
+        "1,307.8",
+        "1,644.7",
+        "2.3"
+      ],
+      "source_row_id": "A-BLS-MATRIX-720000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "810000",
+      "title": "Other services (except public administration)",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 6575.7,
+      "source_row": [
+        "Other services (except public administration)",
+        "810000",
+        "Summary",
+        "6,575.7",
+        "6,822.6",
+        "246.8",
+        "3.8",
+        "0.4",
+        "780.1",
+        "942.4",
+        "1.9"
+      ],
+      "source_row_id": "A-BLS-MATRIX-810000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "900000",
+      "title": "Government, excluding state and local education and hospitals",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 11500.5,
+      "source_row": [
+        "Government, excluding state and local education and hospitals",
+        "900000",
+        "Summary",
+        "11,500.5",
+        "11,536.6",
+        "36.1",
+        "0.3",
+        "0.0",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-900000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "910000",
+      "title": "Federal government",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2903.3,
+      "source_row": [
+        "Federal government",
+        "910000",
+        "Summary",
+        "2,903.3",
+        "2,804.8",
+        "-98.5",
+        "-3.4",
+        "-0.3",
+        "1,263.5",
+        "1,293.4",
+        "0.2"
+      ],
+      "source_row_id": "A-BLS-MATRIX-910000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "561200",
+      "title": "Facilities support services",
+      "industry_type": "Line item",
+      "employment_2025_thousands": 180.4,
+      "source_row": [
+        "Facilities support services",
+        "561200",
+        "Line item",
+        "180.4",
+        "191.3",
+        "10.9",
+        "6.1",
+        "0.6",
+        "29.0",
+        "33.5",
+        "1.4"
+      ],
+      "source_row_id": "A-BLS-MATRIX-561200",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "561700",
+      "title": "Services to buildings and dwellings",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2293.7,
+      "source_row": [
+        "Services to buildings and dwellings",
+        "561700",
+        "Summary",
+        "2,293.7",
+        "2,352.6",
+        "58.9",
+        "2.6",
+        "0.3",
+        "279.4",
+        "342.0",
+        "2.0"
+      ],
+      "source_row_id": "A-BLS-MATRIX-561700",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "562000",
+      "title": "Waste management and remediation services",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 520.8,
+      "source_row": [
+        "Waste management and remediation services",
+        "562000",
+        "Summary",
+        "520.8",
+        "554.5",
+        "33.7",
+        "6.5",
+        "0.6",
+        "124.4",
+        "156.7",
+        "2.3"
+      ],
+      "source_row_id": "A-BLS-MATRIX-562000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "336100",
+      "title": "Motor vehicle manufacturing",
+      "industry_type": "Line item",
+      "employment_2025_thousands": 285.8,
+      "source_row": [
+        "Motor vehicle manufacturing",
+        "336100",
+        "Line item",
+        "285.8",
+        "306.0",
+        "20.2",
+        "7.1",
+        "0.7",
+        "362.0",
+        "456.4",
+        "2.3"
+      ],
+      "source_row_id": "A-BLS-MATRIX-336100",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "493000",
+      "title": "Warehousing and storage",
+      "industry_type": "Line item",
+      "employment_2025_thousands": 1865.7,
+      "source_row": [
+        "Warehousing and storage",
+        "493000",
+        "Line item",
+        "1,865.7",
+        "1,902.4",
+        "36.7",
+        "2.0",
+        "0.2",
+        "133.6",
+        "171.1",
+        "2.5"
+      ],
+      "source_row_id": "A-BLS-MATRIX-493000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "622000",
+      "title": "Hospitals; state, local, and private",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 6818.4,
+      "source_row": [
+        "Hospitals; state, local, and private",
+        "622000",
+        "Summary",
+        "6,818.4",
+        "7,150.0",
+        "331.6",
+        "4.9",
+        "0.5",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-622000",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "6220P0",
+      "title": "Hospitals; private",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 5653.8,
+      "source_row": [
+        "Hospitals; private",
+        "6220P0",
+        "Summary",
+        "5,653.8",
+        "5,940.3",
+        "286.5",
+        "5.1",
+        "0.5",
+        "1,043.8",
+        "1,378.2",
+        "2.8"
+      ],
+      "source_row_id": "A-BLS-MATRIX-6220P0",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "6220Y0",
+      "title": "Hospitals; state and local",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 1164.6,
+      "source_row": [
+        "Hospitals; state and local",
+        "6220Y0",
+        "Summary",
+        "1,164.6",
+        "1,209.6",
+        "45.0",
+        "3.9",
+        "0.4",
+        "383.4",
+        "494.2",
+        "2.6"
+      ],
+      "source_row_id": "A-BLS-MATRIX-6220Y0",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "238200",
+      "title": "Building equipment contractors",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 2602.1,
+      "source_row": [
+        "Building equipment contractors",
+        "238200",
+        "Summary",
+        "2,602.1",
+        "2,800.2",
+        "198.1",
+        "7.6",
+        "0.7",
+        "\u2014",
+        "\u2014",
+        "\u2014"
+      ],
+      "source_row_id": "A-BLS-MATRIX-238200",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "221100",
+      "title": "Electric power generation, transmission and distribution",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 420.5,
+      "source_row": [
+        "Electric power generation, transmission and distribution",
+        "221100",
+        "Summary",
+        "420.5",
+        "475.5",
+        "55.0",
+        "13.1",
+        "1.2",
+        "424.0",
+        "563.2",
+        "2.9"
+      ],
+      "source_row_id": "A-BLS-MATRIX-221100",
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US"
+    },
+    {
+      "source_row_id": "A-BLS-MATRIX-31-330",
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "31-330",
+      "title": "Manufacturing",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 12633.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Manufacturing",
+        "31-330",
+        "Summary",
+        "12,633.7",
+        "12,705.8",
+        "72.1",
+        "0.6",
+        "0.1",
+        "5,604.1",
+        "6,515.4",
+        "1.5"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-MATRIX-44-450",
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "44-450",
+      "title": "Retail trade",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 15440.9,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Retail trade",
+        "44-450",
+        "Summary",
+        "15,440.9",
+        "15,413.4",
+        "-27.5",
+        "-0.2",
+        "0.0",
+        "2,367.4",
+        "3,047.7",
+        "2.6"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-MATRIX-48-490",
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "48-490",
+      "title": "Transportation and warehousing",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 6639.5,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Transportation and warehousing",
+        "48-490",
+        "Summary",
+        "6,639.5",
+        "6,846.8",
+        "207.3",
+        "3.1",
+        "0.3",
+        "1,397.4",
+        "1,740.2",
+        "2.2"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-MATRIX-6110P0",
+      "source_id": "A-BLS-DETAIL2025",
+      "matrix_code": "6110P0",
+      "title": "Educational services; private",
+      "industry_type": "Summary",
+      "employment_2025_thousands": 4048.8,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Educational services; private",
+        "6110P0",
+        "Summary",
+        "4,048.8",
+        "4,150.9",
+        "102.1",
+        "2.5",
+        "0.2",
+        "412.9",
+        "481.1",
+        "1.5"
+      ]
+    }
+  ],
+  "accounting": {
+    "view": "employer_industry_with_explicit_unallocated_residuals",
+    "market_employment_sum_thousands": 128979.5,
+    "other_business_industries_thousands": 25460.8,
+    "other_admin_support_thousands": 6018.2,
+    "unincorporated_self_employed_unallocated_thousands": 9822.3,
+    "reported_wage_salary_total_thousands": 160458.6,
+    "reported_total_thousands": 170280.8,
+    "rounding_residual_thousands": 0.0,
+    "selected_major_occupation_jobs": 61320140,
+    "selected_major_occupation_share_of_oews": 0.3943525651797641,
+    "occupation_selection_status": "Analyst-selected physically intensive groups; not exhaustive, not exclusively physical, not automatable employment. Not additive to market view.",
+    "rules": [
+      "Market families reconcile to wage/salary reference using explicit residuals; self-employment remains unallocated.",
+      "Other business residual includes51,52,53,54,55 and contains physical work such as datacenters, laboratories, real-estate maintenance; it is not assumed nonphysical.",
+      "Other admin/support=NAICS56 minus5612 minus5617 minus562; temporary-agency work remains here until destination weights available.",
+      "M10 uses private healthcare. Public hospitals and schools stay M14; all-ownership hospital deep context is a nonadditive reference.",
+      "Market M13 includes private-household employment where national matrix covers it; OEWS excludes private households. Unpaid household care is outside employment accounts, explicit unmeasured activity.",
+      "A customer value-chain view must redistribute supplier activity with weights summing to1 including unallocated; no such allocation estimated in this edition.",
+      "Source rounding tolerated only to0.1thousand in displayed reconciliation.",
+      "No employment\u00d72080 conversion and no task-frequency\u2192time-share conversion."
+    ],
+    "excluded_unmeasured": [
+      "Unpaid household work/care",
+      "Military-specific occupation detail",
+      "Destination assignment of self-employment and temporary help",
+      "Physical activity inside residual business sectors"
+    ],
+    "oews_employment_total_jobs": 155495730,
+    "oews_employment_total_evidence_refs": [
+      "A-BLS-OEWS2025",
+      "A-BLS-OEWS-TABLE"
+    ],
+    "oews_employment_total_unit": "May2025 OEWS wage/salary jobs",
+    "oews_employment_total_period": "2025-05",
+    "residual_source_row_calculations": {
+      "other_business_industries_thousands": {
+        "terms": [
+          {
+            "source_row_id": "A-BLS-MATRIX-510000",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-520000",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-530000",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-540000",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-550000",
+            "coefficient": 1
+          }
+        ],
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "unit": "thousand2025 jobs"
+      },
+      "other_admin_support_thousands": {
+        "terms": [
+          {
+            "source_row_id": "A-BLS-MATRIX-560000",
+            "coefficient": 1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-561200",
+            "coefficient": -1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-561700",
+            "coefficient": -1
+          },
+          {
+            "source_row_id": "A-BLS-MATRIX-562000",
+            "coefficient": -1
+          }
+        ],
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "unit": "thousand2025 jobs"
+      },
+      "unincorporated_self_employed_unallocated_thousands": {
+        "terms": [
+          {
+            "source_row_id": "A-BLS-MATRIX-TE1100",
+            "coefficient": 1
+          }
+        ],
+        "formula": "sum(coefficient * source_row.employment_2025_thousands)",
+        "unit": "thousand2025 jobs"
+      }
+    },
+    "rounding_residual_definition": "Reported total minus sum of displayed components; positive means reported total is larger.",
+    "wage_salary_rounding_residual_thousands": 0.1,
+    "all_jobs_rounding_residual_thousands": 0.0
+  },
+  "questions": [
+    {
+      "question_id": "A-Q-HOURS",
+      "priority": "high",
+      "decision_consequence": "Prevent false laborTAM/penetration precision",
+      "next_action": "Join industry occupation employment with representative paid-hours and measured within-occupation activity shares, retaining outsourced allocations.",
+      "completion_criterion": "Each physical-hour conversion factor has matched population/date evidence or explicit bounded assumption.",
+      "status": "open"
+    },
+    {
+      "question_id": "A-Q-HOSPITAL-SLA",
+      "priority": "high",
+      "decision_consequence": "Determine viable routine hospital logistics boundary",
+      "next_action": "Seek post2025 delivery records by urgency class, elevator integration state and human-support duration; reconcile107 vs111 intervention counts.",
+      "completion_criterion": "Accepted on-time output and total human labor compared within same site/cohort.",
+      "status": "open"
+    },
+    {
+      "question_id": "A-Q-CLEANING-CONTRACT",
+      "priority": "high",
+      "decision_consequence": "Compare newco/contractor adoption with same robot access",
+      "next_action": "Combine customer lane contract terms with US area-quality coverage and fully allocated support/setup minutes.",
+      "completion_criterion": "Matched site economics survive contract termination/low utilization and improved human scheduling.",
+      "status": "open"
+    },
+    {
+      "question_id": "A-Q-PORTFOLIO",
+      "priority": "high",
+      "decision_consequence": "Select deployment sequence under shared capacity",
+      "next_action": "Measure integration days, support hours, qualified hardware and customer demand for six cells; keep unavailable coefficients null.",
+      "completion_criterion": "Portfolio ranking reacts to measured resource bottlenecks and adverse cases, not employment-size proxies.",
+      "status": "open"
+    }
+  ],
+  "source_rows_columns": [
+    "title",
+    "matrix_code",
+    "industry_type",
+    "employment2025_thousands",
+    "employment2035_projection_thousands",
+    "change_thousands",
+    "change_percent",
+    "employment_cagr_percent",
+    "gross_output2025_billion_chained2017USD",
+    "gross_output2035_projection_billion_chained2017USD",
+    "output_cagr_percent"
+  ],
+  "sector_source_rows": [
+    {
+      "source_row_id": "A-BLS-SECTOR-00",
+      "source_id": "A-BLS-EP2025",
+      "title": "Total employment",
+      "classification_code": "\u2014",
+      "employment_2025_thousands": 170280.8,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Total employment",
+        "\u2014",
+        "153,542.5",
+        "170,280.8",
+        "176,198.5",
+        "16,738.4",
+        "5,917.6",
+        "10.9",
+        "3.5",
+        "100.0",
+        "100.0",
+        "100.0",
+        "1.0",
+        "0.3"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-01",
+      "source_id": "A-BLS-EP2025",
+      "title": "Self-employed workers",
+      "classification_code": "\u2014",
+      "employment_2025_thousands": 9822.3,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Self-employed workers",
+        "\u2014",
+        "9,491.6",
+        "9,822.3",
+        "9,974.2",
+        "330.7",
+        "151.9",
+        "3.5",
+        "1.5",
+        "6.2",
+        "5.8",
+        "5.7",
+        "0.3",
+        "0.2"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-02",
+      "source_id": "A-BLS-EP2025",
+      "title": "Total wage and salary employment",
+      "classification_code": "\u2014",
+      "employment_2025_thousands": 160458.6,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Total wage and salary employment",
+        "\u2014",
+        "144,050.9",
+        "160,458.6",
+        "166,224.3",
+        "16,407.7",
+        "5,765.7",
+        "11.4",
+        "3.6",
+        "93.8",
+        "94.2",
+        "94.3",
+        "1.1",
+        "0.4"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-03",
+      "source_id": "A-BLS-EP2025",
+      "title": "Agriculture, forestry, fishing, and hunting",
+      "classification_code": "11",
+      "employment_2025_thousands": 1462.4,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Agriculture, forestry, fishing, and hunting",
+        "11",
+        "1,479.0",
+        "1,462.4",
+        "1,484.1",
+        "-16.6",
+        "21.6",
+        "-1.1",
+        "1.5",
+        "1.0",
+        "0.9",
+        "0.8",
+        "-0.1",
+        "0.1"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-04",
+      "source_id": "A-BLS-EP2025",
+      "title": "Mining, quarrying, and oil and gas extraction",
+      "classification_code": "21",
+      "employment_2025_thousands": 573.5,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Mining, quarrying, and oil and gas extraction",
+        "21",
+        "760.2",
+        "573.5",
+        "577.3",
+        "-186.7",
+        "3.8",
+        "-24.6",
+        "0.7",
+        "0.5",
+        "0.3",
+        "0.3",
+        "-2.8",
+        "0.1"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-05",
+      "source_id": "A-BLS-EP2025",
+      "title": "Utilities",
+      "classification_code": "22",
+      "employment_2025_thousands": 601.3,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Utilities",
+        "22",
+        "556.0",
+        "601.3",
+        "660.1",
+        "45.3",
+        "58.8",
+        "8.1",
+        "9.8",
+        "0.4",
+        "0.4",
+        "0.4",
+        "0.8",
+        "0.9"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-06",
+      "source_id": "A-BLS-EP2025",
+      "title": "Construction",
+      "classification_code": "23",
+      "employment_2025_thousands": 8266.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Construction",
+        "23",
+        "6,461.4",
+        "8,266.7",
+        "8,677.4",
+        "1,805.3",
+        "410.7",
+        "27.9",
+        "5.0",
+        "4.2",
+        "4.9",
+        "4.9",
+        "2.5",
+        "0.5"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-07",
+      "source_id": "A-BLS-EP2025",
+      "title": "Manufacturing",
+      "classification_code": "31, 32, 33",
+      "employment_2025_thousands": 12633.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Manufacturing",
+        "31, 32, 33",
+        "12,309.8",
+        "12,633.7",
+        "12,705.8",
+        "323.9",
+        "72.1",
+        "2.6",
+        "0.6",
+        "8.0",
+        "7.4",
+        "7.2",
+        "0.3",
+        "0.1"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-08",
+      "source_id": "A-BLS-EP2025",
+      "title": "Wholesale trade",
+      "classification_code": "42",
+      "employment_2025_thousands": 6059.5,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Wholesale trade",
+        "42",
+        "5,780.7",
+        "6,059.5",
+        "6,184.7",
+        "278.8",
+        "125.2",
+        "4.8",
+        "2.1",
+        "3.8",
+        "3.6",
+        "3.5",
+        "0.5",
+        "0.2"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-09",
+      "source_id": "A-BLS-EP2025",
+      "title": "Retail trade",
+      "classification_code": "44, 45",
+      "employment_2025_thousands": 15440.9,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Retail trade",
+        "44, 45",
+        "15,558.8",
+        "15,440.9",
+        "15,413.4",
+        "-117.9",
+        "-27.5",
+        "-0.8",
+        "-0.2",
+        "10.1",
+        "9.1",
+        "8.7",
+        "-0.1",
+        "0.0"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-10",
+      "source_id": "A-BLS-EP2025",
+      "title": "Transportation and warehousing",
+      "classification_code": "48, 492, 493",
+      "employment_2025_thousands": 6639.5,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Transportation and warehousing",
+        "48, 492, 493",
+        "4,858.7",
+        "6,639.5",
+        "6,846.8",
+        "1,780.8",
+        "207.3",
+        "36.7",
+        "3.1",
+        "3.2",
+        "3.9",
+        "3.9",
+        "3.2",
+        "0.3"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-11",
+      "source_id": "A-BLS-EP2025",
+      "title": "Information",
+      "classification_code": "51",
+      "employment_2025_thousands": 2861.9,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Information",
+        "51",
+        "2,749.5",
+        "2,861.9",
+        "3,012.9",
+        "112.4",
+        "151.0",
+        "4.1",
+        "5.3",
+        "1.8",
+        "1.7",
+        "1.7",
+        "0.4",
+        "0.5"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-12",
+      "source_id": "A-BLS-EP2025",
+      "title": "Finance and insurance",
+      "classification_code": "52",
+      "employment_2025_thousands": 6739.3,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Finance and insurance",
+        "52",
+        "6,034.7",
+        "6,739.3",
+        "6,893.6",
+        "704.6",
+        "154.3",
+        "11.7",
+        "2.3",
+        "3.9",
+        "4.0",
+        "3.9",
+        "1.1",
+        "0.2"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-13",
+      "source_id": "A-BLS-EP2025",
+      "title": "Real estate and rental and leasing",
+      "classification_code": "53",
+      "employment_2025_thousands": 2456.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Real estate and rental and leasing",
+        "53",
+        "2,088.5",
+        "2,456.7",
+        "2,539.7",
+        "368.2",
+        "83.0",
+        "17.6",
+        "3.4",
+        "1.4",
+        "1.4",
+        "1.4",
+        "1.6",
+        "0.3"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-14",
+      "source_id": "A-BLS-EP2025",
+      "title": "Professional, scientific, and technical services",
+      "classification_code": "54",
+      "employment_2025_thousands": 10779.2,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Professional, scientific, and technical services",
+        "54",
+        "8,658.4",
+        "10,779.2",
+        "11,705.9",
+        "2,120.8",
+        "926.7",
+        "24.5",
+        "8.6",
+        "5.6",
+        "6.3",
+        "6.6",
+        "2.2",
+        "0.8"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-15",
+      "source_id": "A-BLS-EP2025",
+      "title": "Management of companies and enterprises",
+      "classification_code": "55",
+      "employment_2025_thousands": 2623.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Management of companies and enterprises",
+        "55",
+        "2,292.6",
+        "2,623.7",
+        "2,730.4",
+        "331.1",
+        "106.7",
+        "14.4",
+        "4.1",
+        "1.5",
+        "1.5",
+        "1.5",
+        "1.4",
+        "0.4"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-16",
+      "source_id": "A-BLS-EP2025",
+      "title": "Administrative and support and waste management and remediation services",
+      "classification_code": "56",
+      "employment_2025_thousands": 9013.1,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Administrative and support and waste management and remediation services",
+        "56",
+        "8,823.2",
+        "9,013.1",
+        "9,093.5",
+        "189.9",
+        "80.4",
+        "2.2",
+        "0.9",
+        "5.7",
+        "5.3",
+        "5.2",
+        "0.2",
+        "0.1"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-17",
+      "source_id": "A-BLS-EP2025",
+      "title": "Educational services; private",
+      "classification_code": "61",
+      "employment_2025_thousands": 4048.8,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Educational services; private",
+        "61",
+        "3,471.9",
+        "4,048.8",
+        "4,150.9",
+        "576.9",
+        "102.1",
+        "16.6",
+        "2.5",
+        "2.3",
+        "2.4",
+        "2.4",
+        "1.5",
+        "0.2"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-18",
+      "source_id": "A-BLS-EP2025",
+      "title": "Healthcare and social assistance; private",
+      "classification_code": "62",
+      "employment_2025_thousands": 23290.0,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Healthcare and social assistance; private",
+        "62",
+        "18,557.3",
+        "23,290.0",
+        "25,494.8",
+        "4,732.7",
+        "2,204.8",
+        "25.5",
+        "9.5",
+        "12.1",
+        "13.7",
+        "14.5",
+        "2.3",
+        "0.9"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-19",
+      "source_id": "A-BLS-EP2025",
+      "title": "Arts, entertainment, and recreation",
+      "classification_code": "71",
+      "employment_2025_thousands": 2681.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Arts, entertainment, and recreation",
+        "71",
+        "2,166.7",
+        "2,681.7",
+        "2,834.8",
+        "515.0",
+        "153.1",
+        "23.8",
+        "5.7",
+        "1.4",
+        "1.6",
+        "1.6",
+        "2.2",
+        "0.6"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-20",
+      "source_id": "A-BLS-EP2025",
+      "title": "Accommodation and food services",
+      "classification_code": "72",
+      "employment_2025_thousands": 14202.1,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Accommodation and food services",
+        "72",
+        "12,994.0",
+        "14,202.1",
+        "14,809.5",
+        "1,208.1",
+        "607.4",
+        "9.3",
+        "4.3",
+        "8.5",
+        "8.3",
+        "8.4",
+        "0.9",
+        "0.4"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-21",
+      "source_id": "A-BLS-EP2025",
+      "title": "Other services (except public administration)",
+      "classification_code": "81",
+      "employment_2025_thousands": 6575.7,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Other services (except public administration)",
+        "81",
+        "6,420.6",
+        "6,575.7",
+        "6,822.6",
+        "155.1",
+        "246.8",
+        "2.4",
+        "3.8",
+        "4.2",
+        "3.9",
+        "3.9",
+        "0.2",
+        "0.4"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-22",
+      "source_id": "A-BLS-EP2025",
+      "title": "Federal government",
+      "classification_code": "\u2014",
+      "employment_2025_thousands": 2903.3,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "Federal government",
+        "\u2014",
+        "2,756.9",
+        "2,903.3",
+        "2,804.8",
+        "146.4",
+        "-98.5",
+        "5.3",
+        "-3.4",
+        "1.8",
+        "1.7",
+        "1.6",
+        "0.5",
+        "-0.3"
+      ]
+    },
+    {
+      "source_row_id": "A-BLS-SECTOR-23",
+      "source_id": "A-BLS-EP2025",
+      "title": "State and local government",
+      "classification_code": "\u2014",
+      "employment_2025_thousands": 20605.5,
+      "unit": "thousand jobs",
+      "period": "2025",
+      "geography": "US",
+      "source_row": [
+        "State and local government",
+        "\u2014",
+        "19,272.0",
+        "20,605.5",
+        "20,781.3",
+        "1,333.5",
+        "175.8",
+        "6.9",
+        "0.9",
+        "12.6",
+        "12.1",
+        "11.8",
+        "0.7",
+        "0.1"
+      ]
+    }
+  ],
+  "sector_source_rows_columns": [
+    "title",
+    "NAICS2022",
+    "employment2015_thousands",
+    "employment2025_thousands",
+    "employment2035_projection_thousands",
+    "change2015to25_thousands",
+    "change2025to35_thousands",
+    "change2015to25_percent",
+    "change2025to35_percent",
+    "distribution2015_percent",
+    "distribution2025_percent",
+    "distribution2035_percent",
+    "cagr2015to25_percent",
+    "cagr2025to35_percent"
+  ],
+  "normalization_note": "Source-row IDs and explicit sums support exact recomputation of all15 market employment values and residuals. Source raw rows preserve historical and projected columns; only employment2025_thousands enters observed calculations."
+}

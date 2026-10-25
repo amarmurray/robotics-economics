@@ -32,7 +32,11 @@ Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, make
 | `SYNC_AUTOMATION.md` | Session-start repository context and publication protocol |
 | `CHATGPT_PROJECT_INSTRUCTIONS.md` | Saved app instructions; presence does not prove live settings were updated |
 
-**Status: design and campaign handoff prepared; seven-day execution not started here.** The first campaign's report, dashboard, datasets, and model are future deliverables. Read `CODEX_GOAL.md` in the Codex project and activate it when ready. The window starts at actual activation, not at the date of this file.
+**Status: campaign active; first integrated checkpoint available.** This is not a completed seven-day edition. The original window runs from October 25, 2026 at 11:52:14 EDT to November 1 at 10:52:14 EST (168 elapsed hours). Preserve that window on resumption.
+
+Read [REPORT.md](REPORT.md), [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md), and [REPRODUCE.md](REPRODUCE.md). Launch the thirteen-view local dashboard with `python3 scripts/serve.py` and open `http://127.0.0.1:8765`. The fifteen-market atlas, six deeper cells and source-backed dossiers are in `research/` and `data/`. The shared CPU model and eight saved scenario runs are in `model/`.
+
+All numerical deployment scenarios are synthetic and uncalibrated. Observed employment, field evidence and supplier disclosures remain separate from scenario inputs. Reviews found and corrected material source-boundary and model-accounting errors; remaining gaps and ongoing work are explicit in the audit, handoff and roadmap.
 
 ## Shared project locations
 

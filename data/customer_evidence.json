@@ -1,0 +1,1281 @@
+{
+  "schema_version": "robotics-economics-evidence/0.1",
+  "module": "F/G customer organization and robotics value capture",
+  "version": "0.1.1",
+  "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
+  "evidence_as_of": "2026-10-25",
+  "runtime_verification": {
+    "requested_model": "GPT-6 Astra",
+    "requested_reasoning": "Ultra",
+    "actual_model": null,
+    "actual_reasoning": null,
+    "missingness_reason": "Delegated runtime does not expose a verifiable active model/reasoning identifier; do not claim requested configuration was achieved."
+  },
+  "scope": "First-wave public-source findings, two matched mechanism comparisons, a conditional same-robot-access entrant scenario and structural comparators. Not a completed campaign or calibrated ownership-effect estimate.",
+  "evidence": [
+    {
+      "evidence_id": "FG-E001",
+      "claim": "GXO and Agility announced a multi-year RaaS deployment of Digit and Arc at a SPANX facility following a late-2023 proof-of-concept. The stated workflow moves totes from AMRs to conveyors.",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "publisher": "GXO",
+      "publication_date": "2024-06-27",
+      "observation_period": "Pilot late 2023; commercial deployment announced June 2024",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Opening three paragraphs and paragraph beginning In the SPANX facility",
+      "geography": "US",
+      "limitations": "Customer/operator announcement corroborates named commercial setting, not independent performance. Robot count, revision, fees, title, SLA, uptime, staffing, duration in years and training rights are undisclosed. First-in-industry claim not independently validated.",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E002",
+      "claim": "GXO discloses fixed-price closed-book/hybrid and cost-plus open-book contracts. Fixed components generally cover warehouse, technology and equipment; variable components relate to volumes and labor. Actual-cost deviations affect fixed-price profit; cost-plus reimburses allowable cost plus a specified margin.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1852244/000185224426000007/gxo-20251231.htm",
+      "publisher": "GXO / SEC",
+      "publication_date": "2026-02-25",
+      "observation_period": "Fiscal year ended 2025-12-31",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_regulatory_filing",
+      "epistemic_status": "reported_contract_structure",
+      "locator": "Item 7, Business Overview, paragraph beginning Our business model is asset-light",
+      "geography": "Global",
+      "limitations": "Company-wide contractual description; no basis to assign one of these customer contract forms to SPANX. Specified margin need not be a percentage. Contract detail does not identify realized automation savings.",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E003",
+      "claim": "GXO reports that new customers/sites require time, operational focus and capital; some warehouse infrastructure costs are recovered over the customer relationship, exposing unrecovered capital to default. It identifies bidding, pricing, service quality and customer insourcing as competitive constraints.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1852244/000185224426000007/gxo-20251231.htm",
+      "publisher": "GXO / SEC",
+      "publication_date": "2026-02-25",
+      "observation_period": "Fiscal year ended 2025-12-31",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_regulatory_filing",
+      "epistemic_status": "reported_business_risks",
+      "locator": "Item 1A, competition, new-customer onboarding and customer-default risk paragraphs",
+      "geography": "Global",
+      "limitations": "Qualitative risk disclosure, not measured newco CAC, default frequency or rollout delay. It establishes mechanisms to model rather than numerical coefficients.",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E004",
+      "claim": "ISS says it is deploying more than 800 sweep/vacuum/scrub robots across 21 countries and using a site-specific Cobot Framework covering justification, robot selection and privacy. Its digital scheduling uses activity sensors and user requests.",
+      "url": "https://www.issworld.com/insights/blog/technology-and-innovation-in-cleaning",
+      "publisher": "ISS",
+      "publication_date": "2026-03-19",
+      "observation_period": "Deployment program described as of publication; exposure window undisclosed",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "From routine to responsive and Cobots and cleaners subsections",
+      "geography": "Global",
+      "limitations": "Deploying is not a verified count of retained productive robots. No site-level exposure, hardware/software mix, costs or counterfactual controls. The US cell uses global evidence as a structural comparator, not a US deployment denominator.",
+      "quantities": [
+        {
+          "value": 800,
+          "relation": "greater_than",
+          "unit": "robots",
+          "denominator": "ISS-described deployment program",
+          "period": "as reported March 2026",
+          "population": "21-country ISS program",
+          "measurement_status": "company_reported_not_audited_active_stock"
+        },
+        {
+          "value": 21,
+          "unit": "countries",
+          "denominator": "ISS-described deployment program",
+          "period": "as reported March 2026",
+          "population": "ISS program",
+          "measurement_status": "company_reported"
+        }
+      ],
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E005",
+      "claim": "ISS reports 30% improved floor-cleaning efficiency at multiple UK customer sites, while describing human assessment and additional cleaning after robot work.",
+      "url": "https://www.issworld.com/insights/blog/technology-and-innovation-in-cleaning",
+      "publisher": "ISS",
+      "publication_date": "2026-03-19",
+      "observation_period": "Undisclosed site observation windows",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Cobots and cleaners, paragraph beginning The devices also reduce physical strain",
+      "geography": "UK",
+      "limitations": "Efficiency numerator, denominator, baseline, sample size and paid-hours removal are not disclosed. Do not use 30% as a US labor saving, total-facility productivity estimate or humanoid coefficient.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E006",
+      "claim": "Tennant and Brain announced an exclusive next-generation floorcare technology agreement, a bundled equipment/autonomy offer sold by Tennant and recurring autonomy revenue for Tennant. Tennant disclosed a $32 million investment and a board seat.",
+      "url": "https://investors.tennantco.com/news/news-details/2024/Tennant-Company-and-Brain-Corp-Sign-Exclusive-Technology-Agreement-To-Accelerate-Robotic-Floor-Cleaning-Innovation-and-Adoption/default.aspx",
+      "publisher": "Tennant",
+      "publication_date": "2024-02-22",
+      "observation_period": "Agreement announced 2024-02-22; X4 launch then planned for Q2 2024",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Opening bullets; X4 ROVR paragraph; paragraph beginning With this agreement and starting; final investment paragraph",
+      "geography": "Global",
+      "limitations": "Exclusivity concerns specified next-generation floorcare technology, not every Brain product or a universal robotics monopoly. No fee split, customer prices, margins, asset title or realized ROI disclosed.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E007",
+      "claim": "ABM describes monthly fixed-price, square-foot, cost-plus, hourly and transaction-price service contracts. Most contracts are cancellable without a substantive penalty, with a majority requiring 30–90 days notice.",
+      "url": "https://www.sec.gov/Archives/edgar/data/771497/000077149725000031/R10.htm",
+      "publisher": "ABM / SEC",
+      "publication_date": "2025-12-19",
+      "observation_period": "Fiscal year ended 2025-10-31",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_regulatory_filing",
+      "epistemic_status": "reported_contract_structure",
+      "locator": "Note 2, Contracts with Customers; Contract Types subsections",
+      "geography": "Primarily US business; consolidated filing",
+      "limitations": "Company-wide disclosure, not a robot purchase/lease contract or proof that every cleaning contract has the same cancellation right. High historical retention and short contractual notice can coexist.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E008",
+      "claim": "The retrieved BrainOS/Kärcher agreement licenses rather than sells software, ties use to service access, leaves operational-data ownership with the end user, and grants Brain a perpetual nonexclusive improvement-use license. Operational-data export is governed by subscription provisions rather than automatically assured by ownership. Personal data is excluded from the operational-data definition; aggregated data not linked to the end user is also excluded from defined Operational Data under section 5.2.",
+      "url": "https://s1.kaercher-media.com/media/file/261106/kira-b100-eula-2-2025.pdf",
+      "publisher": "Kärcher-hosted Brain Corporation Subscription Agreement",
+      "publication_date": null,
+      "observation_period": "Retrieved artifact; applicable effective term is contract-specific",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_legal_terms",
+      "epistemic_status": "documented_terms_specific_to_artifact",
+      "locator": "Sections 2, 3, 4.1–4.3, 5.2, 6 and 10.3",
+      "geography": "Kärcher North America contracting form; territorial and legal applicability subject to agreement",
+      "limitations": "Filename suggests 2-2025 while extracted document title identifies v2021_12; effective date unresolved. This is an available standard form, not an executed ISS/Tennant/GXO contract. Do not transfer rights to other products. Improvement permission is not proof that data improves models or produces exclusive gains. End-user ownership must therefore be interpreted within the defined data category, not extended automatically to aggregated unlinked data.",
+      "publication_date_missingness_reason": "No reliable publication/effective date established from retrieved document.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "artifact_version": "Filename kira-b100-eula-2-2025.pdf; extracted title EULA_Karcher Subscription Agreement v2021_12; conflict unresolved"
+    },
+    {
+      "evidence_id": "FG-E009",
+      "claim": "OpenAI announced an ownership stake and embedded research/product/engineering collaboration with Thrive Holdings, initially focused on accounting and IT services. Thrive is described as investing in, acquiring and building businesses.",
+      "url": "https://openai.com/index/thrive-holdings/",
+      "publisher": "OpenAI",
+      "publication_date": "2025-12-01",
+      "observation_period": "Partnership announcement December 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Opening five paragraphs",
+      "geography": "Global",
+      "limitations": "Ownership stake size, detailed governance, exclusivity, data rights, cash terms and realized productivity not provided. Digital services comparator only; no physical-deployment economics established."
+    },
+    {
+      "evidence_id": "FG-E010",
+      "claim": "Thrive announced more than $2 billion new capital at a $12 billion valuation, more than $3 billion cumulative capital raised and more than 70 owned/operated businesses; it describes embedded engineers and a new built-environment technical/regulatory services platform.",
+      "url": "https://www.thriveholdings.com/thrive-holdings-fundraise",
+      "publisher": "Thrive Holdings",
+      "publication_date": "2026-08-12",
+      "observation_period": "Company description August 2026",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "First four substantive paragraphs",
+      "geography": "Global",
+      "limitations": "Financing and operating counts are issuer claims. No audited platform returns, quantified causal AI savings, asset financing terms, or humanoid deployments. A new parent/platform is not necessarily new underlying productive capacity.",
+      "quantities": [
+        {
+          "value": 2000000000,
+          "relation": "greater_than",
+          "unit": "USD new capital",
+          "denominator": "announced financing event",
+          "period": "2026-08-12",
+          "population": "Thrive Holdings",
+          "measurement_status": "issuer_reported"
+        },
+        {
+          "value": 12000000000,
+          "unit": "USD valuation",
+          "denominator": "announced financing valuation",
+          "period": "2026-08-12",
+          "population": "Thrive Holdings",
+          "measurement_status": "issuer_reported_not_cash_or_return"
+        },
+        {
+          "value": 70,
+          "relation": "greater_than",
+          "unit": "owned/operated businesses",
+          "denominator": "company-described portfolio",
+          "period": "2026-08-12",
+          "population": "Thrive Holdings",
+          "measurement_status": "issuer_reported_not_new_operating_capacity"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E011",
+      "claim": "Hadrian announced $260 million new capital, a factory expansion loan arrangement and planned Arizona manufacturing expansion; it described an operating Torrance factory, proprietary Opus software and factories-as-a-service.",
+      "url": "https://www.hadrian.co/blog/series-c",
+      "publisher": "Hadrian",
+      "publication_date": "2025-07-17",
+      "observation_period": "Operating Torrance footprint at announcement; Arizona/full-operation timing forward-looking",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Opening financing paragraphs, Arizona bullet, Opus paragraph and About Hadrian",
+      "geography": "US",
+      "limitations": "Disclosure language is ambiguous on the split of equity and loan facility: do not add $260m to an assumed loan amount. No verified utilization, profitability, realized ramp date or common-technology causal comparison. Proprietary software and defense-market conditions limit analogy to an off-the-shelf humanoid operator."
+    },
+    {
+      "evidence_id": "FG-E012",
+      "claim": "Brain reports an unnamed grocery retailer deployment across more than 100 locations, with 33,649 labor hours reallocated in 2024 and over $2.1m annual value.",
+      "url": "https://www.braincorp.com/resources/major-grocery-retailer-enhances-cleaning-operations-and-efficiency-with-tennant-t380-amrs-powered-by-brainos-r",
+      "publisher": "Brain Corp",
+      "publication_date": "2025-06-18",
+      "observation_period": "Labor hours 2024; annual-value period/basis unspecified",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "How did a leading grocery retailer transform store operations with automation?",
+      "geography": "Global",
+      "limitations": "Vendor case with unnamed customer, unreported robot exposure and unavailable value methodology. Reallocated time is not payroll eliminated. The implied value/hour must not be treated as a wage or independent cash saving. Kept as qualified supporting/counterevidence, not calibration.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E013",
+      "claim": "ISS announced a three-year European cleaning-service expansion effective July 2025, using existing customer knowledge across three countries.",
+      "url": "https://www.issworld.com/insights/news-and-press/iss-signs-new-deal-with-global-technology-company",
+      "publisher": "ISS",
+      "publication_date": "2025-05-26",
+      "observation_period": "Three-year agreement effective July 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_company_disclosure",
+      "epistemic_status": "attributed_company_claim",
+      "locator": "Opening agreement paragraphs",
+      "geography": "Europe",
+      "limitations": "Unnamed customer; termination options, pricing, robot use and gain-sharing are undisclosed. Stated nominal duration is not proof of guaranteed robot-cost recovery.",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ]
+    },
+    {
+      "evidence_id": "FG-E014",
+      "claim": "GXO reports completing the Wincanton acquisition in April 2024, with June 2025 competition approval conditional on divesting certain UK grocery contracts.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1852244/000185224426000007/gxo-20251231.htm",
+      "publisher": "GXO / SEC",
+      "publication_date": "2026-02-25",
+      "observation_period": "Acquisition April 2024; approval June 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_regulatory_filing",
+      "epistemic_status": "reported_corporate_event",
+      "locator": "Item 7, Acquisition",
+      "geography": "UK",
+      "limitations": "This is an actual logistics acquisition/control constraint, not evidence that the acquisition was AI-native or that it created extra underlying service activity. No acquisition automation return is inferred."
+    }
+  ],
+  "actors": [
+    {
+      "actor_id": "FG-A-GXO",
+      "name": "GXO Logistics",
+      "roles": [
+        "customer_of_robot_supplier",
+        "logistics_operator",
+        "integrator",
+        "employer",
+        "supplier_to_apparel_brand"
+      ],
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E002",
+        "FG-E003"
+      ],
+      "status": "reported"
+    },
+    {
+      "actor_id": "FG-A-SPANX",
+      "name": "SPANX",
+      "roles": [
+        "served_end_market_customer",
+        "fulfillment_beneficiary"
+      ],
+      "evidence_ids": [
+        "FG-E001"
+      ],
+      "status": "reported",
+      "unknowns": [
+        "premises title",
+        "precise procurement and process-consent rights",
+        "contract form"
+      ]
+    },
+    {
+      "actor_id": "FG-A-AGILITY",
+      "name": "Agility Robotics",
+      "roles": [
+        "robot_OEM",
+        "software_provider",
+        "RaaS_counterparty"
+      ],
+      "evidence_ids": [
+        "FG-E001"
+      ],
+      "status": "reported",
+      "unknowns": [
+        "asset-owning entity",
+        "funding source",
+        "training rights",
+        "RaaS fee and SLA"
+      ]
+    },
+    {
+      "actor_id": "FG-A-ISS",
+      "name": "ISS",
+      "roles": [
+        "facility_service_operator",
+        "customer_of_robot_suppliers",
+        "employer",
+        "implementation_organization"
+      ],
+      "evidence_ids": [
+        "FG-E004",
+        "FG-E005",
+        "FG-E013"
+      ],
+      "status": "reported"
+    },
+    {
+      "actor_id": "FG-A-ABM",
+      "name": "ABM Industries",
+      "roles": [
+        "facility_service_operator",
+        "employer",
+        "contract_counterparty"
+      ],
+      "evidence_ids": [
+        "FG-E007"
+      ],
+      "status": "reported"
+    },
+    {
+      "actor_id": "FG-A-TENNANT",
+      "name": "Tennant",
+      "roles": [
+        "equipment_OEM",
+        "sales_channel",
+        "service_network",
+        "autonomy_reseller",
+        "Brain_investor"
+      ],
+      "evidence_ids": [
+        "FG-E006"
+      ],
+      "status": "reported"
+    },
+    {
+      "actor_id": "FG-A-BRAIN",
+      "name": "Brain Corp",
+      "roles": [
+        "autonomy_software_provider",
+        "data_licensee"
+      ],
+      "evidence_ids": [
+        "FG-E006",
+        "FG-E008"
+      ],
+      "status": "reported"
+    },
+    {
+      "actor_id": "FG-A-KARCHER",
+      "name": "Kärcher",
+      "roles": [
+        "equipment_supplier",
+        "service_and_training_counterparty"
+      ],
+      "evidence_ids": [
+        "FG-E008"
+      ],
+      "status": "documented_standard_form"
+    },
+    {
+      "actor_id": "FG-A-NEWCO",
+      "name": "Illustrative AI-native physical-service operating newco",
+      "roles": [
+        "end_market_service_seller",
+        "robot_customer",
+        "employer",
+        "workflow_operator"
+      ],
+      "evidence_ids": [],
+      "status": "scenario_not_observed_company"
+    }
+  ],
+  "adopter_profiles": [
+    {
+      "adopter_id": "FG-AD-3PL",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "parent_actor_id": "FG-A-GXO",
+      "operator_actor_id": "FG-A-GXO",
+      "buyer_actor_id": "FG-A-GXO",
+      "beneficiary_actor_ids": [
+        "FG-A-GXO",
+        "FG-A-SPANX"
+      ],
+      "ownership_governance": "Public corporation with customer-contract/site constraints; owner label does not determine adoption.",
+      "market_tenure": "incumbent",
+      "operating_organization": "multi-site specialist logistics operator",
+      "capital_access": "Actual RaaS adoption observed; amount/terms of deployment capital unknown.",
+      "capital_allocation": "Technology/equipment recovery can be embedded in customer contracts.",
+      "appetite_evidence": "Pilot followed by multi-year commercial agreement, not inference from listing status.",
+      "process_authority": "GXO operates logistics; exact SPANX/customer approvals unknown.",
+      "implementation_capacity": "Arc/AMR integration disclosed; standardized repeatability across sites unmeasured.",
+      "value_chain_roles": [
+        "outsourced fulfillment",
+        "warehousing"
+      ],
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E002",
+        "FG-E003"
+      ],
+      "status": "evidence_linked_profile"
+    },
+    {
+      "adopter_id": "FG-AD-OWNER",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "parent_actor_id": null,
+      "operator_actor_id": null,
+      "buyer_actor_id": null,
+      "beneficiary_actor_ids": [],
+      "ownership_governance": "Integrated brand/retailer insourcing fulfillment; matched counterfactual, no named observed adopter.",
+      "market_tenure": "incumbent",
+      "capital_access": "Internal competing capital projects; no dollar budget assumed from label.",
+      "capital_allocation": "Direct robot/integration investment competes with core product investments.",
+      "appetite_evidence": null,
+      "process_authority": "Assume same premises/workflow authority as 3PL comparison, then test consent constraints separately.",
+      "implementation_capacity": "Matched technical baseline; extra engineering needed is a separate scenario.",
+      "value_chain_roles": [
+        "own-account fulfillment"
+      ],
+      "evidence_ids": [
+        "FG-E003"
+      ],
+      "status": "counterfactual_profile",
+      "missingness_reason": "Hypothetical same-workload comparator; actual actor and procurement data unavailable."
+    },
+    {
+      "adopter_id": "FG-AD-SERVICE",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "parent_actor_id": "FG-A-ISS",
+      "operator_actor_id": "FG-A-ISS",
+      "buyer_actor_id": null,
+      "beneficiary_actor_ids": [
+        "FG-A-ISS"
+      ],
+      "ownership_governance": "Service contractor operates in a client-controlled site; allocation depends on service contract.",
+      "market_tenure": "incumbent",
+      "capital_access": "Corporate procurement/support may pool deployments; financing availability unquantified.",
+      "capital_allocation": "Recoverable site integration and asset redeployability matter under contract termination.",
+      "appetite_evidence": "Documented robot deployment program and site-level justification framework.",
+      "process_authority": "Client access, privacy and work specification constrain deployment; exact contracts unknown.",
+      "implementation_capacity": "Robot selection plus worker review and digital scheduling, per ISS; causal benefit unmeasured.",
+      "value_chain_roles": [
+        "outsourced cleaning",
+        "facility operation"
+      ],
+      "evidence_ids": [
+        "FG-E004",
+        "FG-E005",
+        "FG-E007",
+        "FG-E013"
+      ],
+      "status": "evidence_linked_profile_with_cross_company_contract_comparator",
+      "missingness_reason": "ABM terms provide sector mechanism evidence; not imputed as ISS contract terms."
+    },
+    {
+      "adopter_id": "FG-AD-FACILITY",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "parent_actor_id": null,
+      "operator_actor_id": null,
+      "buyer_actor_id": null,
+      "beneficiary_actor_ids": [],
+      "ownership_governance": "Facility owner/operator employing cleaners directly; constructed comparison.",
+      "market_tenure": "incumbent",
+      "capital_access": "Local asset budget unknown; sale or lease/RaaS tested conditionally.",
+      "capital_allocation": "Capture remains at site only to extent labor or service cost can actually be avoided.",
+      "appetite_evidence": null,
+      "process_authority": "Assume equivalent cleaning permission, physical layout and service standard for controlled comparison.",
+      "implementation_capacity": "No contractor network assumed; training/support must be purchased or developed.",
+      "value_chain_roles": [
+        "in-house facility maintenance"
+      ],
+      "evidence_ids": [
+        "FG-E006",
+        "FG-E007"
+      ],
+      "status": "counterfactual_profile",
+      "missingness_reason": "No matched experimental pair observed."
+    },
+    {
+      "adopter_id": "FG-AD-NEWCO",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "parent_actor_id": "FG-A-NEWCO",
+      "operator_actor_id": "FG-A-NEWCO",
+      "buyer_actor_id": "FG-A-NEWCO",
+      "beneficiary_actor_ids": [
+        "FG-A-NEWCO"
+      ],
+      "ownership_governance": "New operating company; ownership sponsor/equity fraction left unspecified.",
+      "market_tenure": "new_entrant",
+      "capital_access": "Scenario commitment only; no observed funding or automatic refinancing.",
+      "capital_allocation": "Formation, commissioning, robot fees, CAC, working capital and operating losses all require funding.",
+      "appetite_evidence": "Defined investment thesis, not empirical adoption evidence.",
+      "process_authority": "Customer premises consent required despite AI-native work design.",
+      "implementation_capacity": "Synthetic engineering/ramp inputs; no inherent newco multiplier.",
+      "value_chain_roles": [
+        "physical service contractor"
+      ],
+      "evidence_ids": [
+        "FG-E003",
+        "FG-E007",
+        "FG-E008"
+      ],
+      "status": "synthetic_entry_profile"
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison_id": "FG-CMP-01",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "adopter_ids": [
+        "FG-AD-3PL",
+        "FG-AD-OWNER"
+      ],
+      "fixed_baseline": [
+        "same tote geometry",
+        "same accepted handoffs and quality",
+        "same robot/software and RaaS price",
+        "same intervention/uptime",
+        "same layout and direct operating resource requirements"
+      ],
+      "varied_mechanisms": [
+        "contractual savings retention",
+        "authority to change customer process",
+        "investment recovery period",
+        "implementation resources",
+        "capital allocation priority"
+      ],
+      "conclusion": "Fixed-price 3PL can retain cost improvement until repricing; cost-plus may pass savings to shipper. In-house owner avoids the external margin split but must supply integration and operating capability. No general winner from ownership alone.",
+      "counterevidence": "GXO is already adopting and investing; a presumed slow incumbent is not the only relevant comparator.",
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E002",
+        "FG-E003"
+      ],
+      "status": "mechanism_comparison_not_causal_estimate"
+    },
+    {
+      "comparison_id": "FG-CMP-02",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "adopter_ids": [
+        "FG-AD-SERVICE",
+        "FG-AD-FACILITY"
+      ],
+      "fixed_baseline": [
+        "same accessible floor and cleanliness standard",
+        "same accepted area/service period",
+        "same configured scrubber and subscription",
+        "same retained human setup/review and supplies"
+      ],
+      "varied_mechanisms": [
+        "contract duration versus asset life",
+        "who retains reduced effort",
+        "client permission/privacy",
+        "ability to redeploy asset across sites",
+        "training and support density"
+      ],
+      "conclusion": "A contractor can pool assets and support but bears contract-loss/redeployment risk; an owner-operator can align asset and building horizon but may lack implementation capacity. Short termination notice can dominate low upfront RaaS pricing.",
+      "counterevidence": "Service operators already deploy specialized robots; reallocated hours and vendor annual value are not evidence of payroll removal.",
+      "evidence_ids": [
+        "FG-E004",
+        "FG-E005",
+        "FG-E006",
+        "FG-E007",
+        "FG-E012",
+        "FG-E013"
+      ],
+      "status": "mechanism_comparison_not_causal_estimate"
+    }
+  ],
+  "commercial_arrangements": [
+    {
+      "arrangement_id": "FG-CA-GXO-RAAS",
+      "type": "RaaS_with_fleet_software",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "actor_roles": {
+        "provider": "FG-A-AGILITY",
+        "operator": "FG-A-GXO",
+        "end_market_customer": "FG-A-SPANX",
+        "financier": null,
+        "asset_owner": null
+      },
+      "observed_terms": "Multi-year agreement includes Digit and Arc; customer-operated logistics workflow.",
+      "asset_title": null,
+      "operational_control": "GXO logistics with Arc orchestration; precise remote/local authority unpublished.",
+      "model_rights": null,
+      "data_rights": null,
+      "price": null,
+      "risk_allocation": null,
+      "missingness_reason": "Public announcement does not publish negotiated legal/financial terms. RaaS label alone is insufficient.",
+      "evidence_ids": [
+        "FG-E001"
+      ],
+      "status": "observed_contract_form_terms_incomplete"
+    },
+    {
+      "arrangement_id": "FG-CA-TENNANT-BUNDLE",
+      "type": "equipment_plus_autonomy_subscription",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "actor_roles": {
+        "equipment_supplier": "FG-A-TENNANT",
+        "software_supplier": "FG-A-BRAIN",
+        "service_channel": "FG-A-TENNANT"
+      },
+      "observed_terms": "Tennant sells bundled equipment/autonomy and receives recurring autonomy revenue; agreement-specific next-gen exclusivity.",
+      "asset_title": null,
+      "model_rights": "Technology supplied by Brain; executed end-user rights not disclosed by this announcement.",
+      "data_rights": null,
+      "price": null,
+      "risk_allocation": "Sales/service network and autonomy roles documented; split of cash flow and warranty obligations unknown.",
+      "missingness_reason": "No end-user quote, revenue split or executed contract.",
+      "evidence_ids": [
+        "FG-E006"
+      ],
+      "status": "announced_commercial_structure"
+    },
+    {
+      "arrangement_id": "FG-CA-BRAIN-KARCHER",
+      "type": "software_service_license",
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "actor_roles": {
+        "software_provider": "FG-A-BRAIN",
+        "equipment_service_provider": "FG-A-KARCHER",
+        "end_user": "contract-specific"
+      },
+      "observed_terms": "Software use while services active; end user responsible for operation; assignment requires approval.",
+      "asset_title": "Not established by software subscription agreement.",
+      "model_rights": "Software ownership reserved to Brain/licensors; limited license to run.",
+      "data_rights": "End user owns operational data; Brain receives enduring nonexclusive service/improvement license; export limited by subscription schedule. Aggregated data not linked to the end user falls outside the defined Operational Data category; personal data is excluded as defined in the agreement.",
+      "price": null,
+      "risk_allocation": "Contractual software warranty/remedy and liability limits exist; site/output obligations not equivalent to guaranteed accepted cleaning outcome.",
+      "missingness_reason": "Unsigned standard form; effective version conflict and particular service schedule unresolved.",
+      "evidence_ids": [
+        "FG-E008"
+      ],
+      "status": "artifact_specific_documented_terms"
+    },
+    {
+      "arrangement_id": "FG-CA-SALE",
+      "type": "equipment_sale",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "observed_terms": null,
+      "asset_title": "Scenario: buyer after payment/delivery; exact contract controls.",
+      "model_rights": "Separate software license may remain necessary.",
+      "data_rights": "Separate negotiated rights; never inferred from title.",
+      "funding": "Buyer/asset financier pays acquisition; supplier funds production and receivables.",
+      "risk_allocation": "Buyer utilization/residual-value exposure, with warranty/service allocation explicit.",
+      "status": "comparative_mechanism",
+      "evidence_ids": [
+        "FG-E006",
+        "FG-E008"
+      ]
+    },
+    {
+      "arrangement_id": "FG-CA-LEASE",
+      "type": "asset_lease",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "observed_terms": null,
+      "asset_title": "Scenario: lessor retains title.",
+      "model_rights": "Not conveyed automatically.",
+      "data_rights": "Not conveyed automatically.",
+      "funding": "Lessor funds asset; lessee funds integration, deposits, staff and losses.",
+      "risk_allocation": "Credit, cancellation, maintenance and residual-value terms matter; a lease does not fund the whole newco.",
+      "status": "comparative_mechanism",
+      "evidence_ids": [
+        "FG-E007",
+        "FG-E008"
+      ]
+    },
+    {
+      "arrangement_id": "FG-CA-OUTCOME",
+      "type": "usage_or_outcome_service",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "observed_terms": null,
+      "asset_title": "Negotiated.",
+      "operational_control": "Provider needs authority sufficient to manage accepted-output risk; client controls access and upstream flow.",
+      "model_rights": "Negotiated separately.",
+      "data_rights": "Negotiated separately.",
+      "funding": "Provider/operator carries fixed capacity cost and collection risk; minimum volumes/deposits may shift part back to client.",
+      "risk_allocation": "Accepted output/quality measurement, idle time, exclusions and customer-caused interruption determine who bears utilization risk.",
+      "status": "comparative_mechanism",
+      "evidence_ids": [
+        "FG-E002",
+        "FG-E007"
+      ]
+    },
+    {
+      "arrangement_id": "FG-CA-INTEGRATED",
+      "type": "managed_operations_JV_or_provider_vertical_integration",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "observed_terms": null,
+      "asset_title": "Split by JV/operating entity/lessor; consolidated accounting eliminates internal transfers.",
+      "operational_control": "May unify workflow engineering but depends on customer premises and governance.",
+      "model_rights": "Investment does not automatically establish software/data control.",
+      "data_rights": "Contractual access/reuse constraints survive integration.",
+      "funding": "Acquisition/greenfield price, corporate overhead, WC and operating losses in addition to robot assets.",
+      "risk_allocation": "More controllable operating feedback but end-market demand and service liability become provider exposure.",
+      "status": "comparative_mechanism",
+      "evidence_ids": [
+        "FG-E003",
+        "FG-E009",
+        "FG-E011",
+        "FG-E014"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "FG-P-PURE",
+      "origin": "greenfield operating newco",
+      "parent_architecture": "standalone",
+      "advantage_hypothesis": "Clean workflow design and fast decision cycle without acquisition premium.",
+      "burdens": [
+        "no inherited customers or revenues",
+        "qualification/CAC",
+        "commissioning/ramp cash",
+        "site consent"
+      ],
+      "evidence_ids": [
+        "FG-E003",
+        "FG-E011"
+      ],
+      "status": "conditional_hypothesis"
+    },
+    {
+      "pathway_id": "FG-P-BUILDER",
+      "origin": "multiple greenfield operating newcos",
+      "parent_architecture": "platform/holdco",
+      "advantage_hypothesis": "Reusable integration, capital allocation, support and procurement if task/site transfer is real.",
+      "burdens": [
+        "central overhead before scale",
+        "simultaneous funding calls",
+        "cross-market transfer may fail",
+        "parent formation itself creates no output"
+      ],
+      "evidence_ids": [
+        "FG-E009",
+        "FG-E010"
+      ],
+      "status": "conditional_hypothesis_structural_comparator_only"
+    },
+    {
+      "pathway_id": "FG-P-ACQUIRE",
+      "origin": "existing operating businesses acquired",
+      "parent_architecture": "independent or holdco",
+      "advantage_hypothesis": "Purchase customers, staff, licenses, site knowledge and cash flow to shorten commercial ramp.",
+      "burdens": [
+        "acquisition premium may prepay anticipated AI gains",
+        "legacy assets/contracts",
+        "integration and change-of-control consents",
+        "debt limits and possible regulatory remedies"
+      ],
+      "evidence_ids": [
+        "FG-E003",
+        "FG-E009",
+        "FG-E010",
+        "FG-E014"
+      ],
+      "status": "conditional_hypothesis_with_observed_acquisition_mechanism"
+    },
+    {
+      "pathway_id": "FG-P-HYBRID",
+      "origin": "acquire anchor operations and build new capacity/partner selectively",
+      "parent_architecture": "operating platform",
+      "advantage_hypothesis": "Use anchor distribution and domain capability while building robot-suitable capacity.",
+      "burdens": [
+        "both integration and greenfield execution risks",
+        "intercompany transfer accounting",
+        "customer/channel conflict",
+        "overhead and capital allocation contention"
+      ],
+      "evidence_ids": [
+        "FG-E009",
+        "FG-E010",
+        "FG-E011"
+      ],
+      "status": "conditional_hypothesis"
+    }
+  ],
+  "entry_cases": [
+    {
+      "entry_case_id": "ENTRY-FG-01",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "adopter_id": "FG-AD-NEWCO",
+      "pathway_ids": [
+        "FG-P-PURE",
+        "FG-P-BUILDER",
+        "FG-P-ACQUIRE",
+        "FG-P-HYBRID"
+      ],
+      "product": "Quality-accepted facility service bundles; normalized model unit, not a measured square-metre rate.",
+      "initial_customer": "Commercial premises procuring repeatable cleaning service; no signed customer is claimed.",
+      "operating_scope": "Local cluster; procurement, site access, digital scheduling, robot-supported production, retained human quality review and exceptions, billing.",
+      "minimum_configuration": "Model fixture of 10 identical accessible robots; support and setup implicit in explicit retained costs. Humanoid fit is conditional, while current specialized scrubber is the evidenced competitor.",
+      "proposed_advantages": {
+        "operating_design": "Test lower retained resource use only in a separate redesign override.",
+        "adoption_timing": "Same technology and commercial terms; delayed and prompt incumbent response are separate counterfactuals.",
+        "capacity": "Test required quality and staff availability; no assumption that robot supply is unlimited."
+      },
+      "incumbent_comparators": [
+        "digital-improved human service",
+        "specialized autonomous cleaning equipment",
+        "prompt same-robot operator",
+        "delayed same-robot operator"
+      ],
+      "scenario_id": "ENTRY-FG-01",
+      "authoritative_inputs": "model/assumptions.json",
+      "authoritative_engine": "model/engine.py",
+      "quantitative_status": "synthetic_stress_fixture_not_market_forecast",
+      "cash_boundary": [
+        "formation/setup",
+        "customer acquisition",
+        "commissioning/ramp losses",
+        "robot payments",
+        "retained staff/supplies",
+        "enterprise overhead",
+        "collection lag",
+        "committed funding; no automatic refinance"
+      ],
+      "demand_constraints": [
+        "delivered output <= accepted productive capacity",
+        "delivered output <= won and retained demand",
+        "share taken subtracts incumbent output",
+        "unmet demand and new demand separately bounded",
+        "acquisition reclassifies existing activity"
+      ],
+      "funding_milestones": [
+        "Conditional customer acceptance and site/process authority before rollout commitment",
+        "Repeated accepted quality and measured intervention/support cost before fleet expansion",
+        "Retention, cash collection and same-robot competitor response before follow-on capital"
+      ],
+      "invalidators": [
+        "prompt incumbent matches cost/service and wins on customer relationships",
+        "contract ends before recoverable deployment cost is earned",
+        "accepted-output or support rates fail minimum configuration",
+        "funding expires before commissioning/collections",
+        "specialized cleaner beats humanoid at matched service",
+        "learning rights or supplier access prevent claimed differentiation"
+      ],
+      "evidence_ids": [
+        "FG-E003",
+        "FG-E004",
+        "FG-E005",
+        "FG-E006",
+        "FG-E007",
+        "FG-E008"
+      ],
+      "status": "bounded_conditional_comparison"
+    }
+  ],
+  "analogy_tests": [
+    {
+      "analogy_id": "FG-AN-THRIVE",
+      "source_evidence_ids": [
+        "FG-E009",
+        "FG-E010"
+      ],
+      "source_population": "Owned digital-service businesses and embedded AI engineering platform",
+      "target_population": "Physical-service operating newcos, acquisitions and hybrid platform",
+      "mechanism": "Aligned operational authority, capital allocation and embedded deployment teams can reduce organization/interface frictions.",
+      "required_similarities": [
+        "Control over workflows",
+        "reusable engineering with sufficient domain overlap",
+        "ability to retain gains and fund ramp"
+      ],
+      "material_differences": [
+        "hardware capex and residual value",
+        "safety and site access",
+        "spares/maintenance and travel",
+        "qualified robot supply",
+        "physical acceptance and noncopyable capacity",
+        "local demand and utilization"
+      ],
+      "prediction": "Platform benefit should appear in lower all-in deployment cost or faster repeatable operation net of central overhead, at matched accepted output.",
+      "falsifier": "Standalone firms or prompt incumbents match outcomes while platform overhead, integration burden or funding concentration consume the savings.",
+      "permitted_model_use": "Qualitative mechanism structure only; no transferred valuation, adoption rate, return or robot-cost coefficient.",
+      "status": "bounded_structural_analogy_not_validated_physical_transfer"
+    },
+    {
+      "analogy_id": "FG-AN-HADRIAN",
+      "source_evidence_ids": [
+        "FG-E011"
+      ],
+      "source_population": "Funded proprietary manufacturing operator selling physical output",
+      "target_population": "Customer newco using widely accessible humanoids",
+      "mechanism": "Operating business can bundle equity and factory financing to form physical capacity and sell outcomes.",
+      "required_similarities": [
+        "Demand qualification",
+        "financing tied to operational milestones",
+        "physical production quality"
+      ],
+      "material_differences": [
+        "proprietary software/process stack",
+        "defense demand and procurement",
+        "capital intensity",
+        "specific manufacturing process versus general service"
+      ],
+      "prediction": "Target must demonstrate bankable or equity-financeable demand and ramp milestones independent of AI branding.",
+      "falsifier": "No customer commitment or finance at viable terms despite positive assumed unit contribution.",
+      "permitted_model_use": "Existence of financing/formation pathway and questions only; no borrowed capital availability or productivity coefficient.",
+      "status": "limited_structural_analogy"
+    }
+  ],
+  "model_constraints": [
+    {
+      "constraint_id": "FG-MC-01",
+      "statement": "Keep customer ownership/organization, robot asset title, commercial terms and model/data rights as separate dimensions.",
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E002",
+        "FG-E008"
+      ]
+    },
+    {
+      "constraint_id": "FG-MC-02",
+      "statement": "An annual fixed-price service, cost-plus contract and hourly billing can retain different portions of the same physical productivity benefit; calculate from the explicit contract, never a label multiplier.",
+      "evidence_ids": [
+        "FG-E002",
+        "FG-E007"
+      ]
+    },
+    {
+      "constraint_id": "FG-MC-03",
+      "statement": "RaaS/customer cash relief creates provider or financier investment and service obligations; no system-wide capex disappearance. Include early termination and asset redeployability.",
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E007"
+      ]
+    },
+    {
+      "constraint_id": "FG-MC-04",
+      "statement": "Data ownership must not automatically grant export, exclusivity, training rights, transfer effectiveness or a second additive data premium.",
+      "evidence_ids": [
+        "FG-E008"
+      ]
+    },
+    {
+      "constraint_id": "FG-MC-05",
+      "statement": "Keep incumbent same-robot response and moving digital-only/specialized baselines. Incumbents have observed adoption and can compete through bundled service, pricing and installed relationships.",
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E003",
+        "FG-E004",
+        "FG-E006"
+      ]
+    },
+    {
+      "constraint_id": "FG-MC-06",
+      "statement": "Reallocated time and reported customer value are not measured payroll savings. Demand and service quality determine whether capacity becomes paid revenue.",
+      "evidence_ids": [
+        "FG-E005",
+        "FG-E012"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "FG-Q-01",
+      "roadmap_ids": [
+        "RQ-OS-05",
+        "RQ-OS-06",
+        "RQ-BM-01"
+      ],
+      "priority": "highest",
+      "decision_consequence": "Whether newco survives and whether service contracts can fund deployment",
+      "evidence_target": "Matched customer contract cancellation/renewal, pricing, payment lag, rollout outlays, supplier RaaS fee and termination terms",
+      "next_action": "Search public procurement contracts and disclosed leases for a matched physical-service case; then compare positive margin with minimum financing need.",
+      "stopping_condition": "One coherent contract/cash boundary with adverse termination and equal-technology response; leave unavailable parameters explicit.",
+      "status": "ACTIVE"
+    },
+    {
+      "question_id": "FG-Q-02",
+      "roadmap_ids": [
+        "RQ-OS-01",
+        "RQ-OS-02",
+        "RQ-BM-02"
+      ],
+      "priority": "high",
+      "decision_consequence": "Who can authorize a deployment and retain gains",
+      "evidence_target": "Two matched adopter cohorts holding workload and system fixed, with observed approval/implementation time and retention of savings",
+      "next_action": "Seek buyer-side capital-policy and pilot-to-rollout disclosures; do not use legal ownership as instrument for adoption.",
+      "stopping_condition": "A comparison with measured mechanism or explicitly unresolved causal identification.",
+      "status": "BLOCKED_ON_MATCHED_EVIDENCE"
+    },
+    {
+      "question_id": "FG-Q-03",
+      "roadmap_ids": [
+        "RQ-BM-02",
+        "RQ-DL-01"
+      ],
+      "priority": "high",
+      "decision_consequence": "Feasible learning network and provider/customer lock-in",
+      "evidence_target": "Executed humanoid contract or authoritative model/data terms, plus actual export and reuse rights",
+      "next_action": "Locate public Digit/other deployment terms; compare with artifact-specific BrainOS terms without transferring them.",
+      "stopping_condition": "Collect/store/access/export/train/redistribute/commercialize rights assigned separately to named actors.",
+      "status": "OPEN"
+    },
+    {
+      "question_id": "FG-Q-04",
+      "roadmap_ids": [
+        "RQ-OS-07",
+        "RQ-BM-03"
+      ],
+      "priority": "high",
+      "decision_consequence": "Build, acquire, platform or hybrid choice",
+      "evidence_target": "Acquisition price and transformation capex; customer retention and cash generation; standalone greenfield comparator",
+      "next_action": "Trace one operator acquisition and one pure operating-newco ramp, separating announced from productive capacity.",
+      "stopping_condition": "Scenario threshold at which purchased customer access/engineering saves more than premium, legacy transition and overhead.",
+      "status": "OPEN"
+    },
+    {
+      "question_id": "FG-Q-05",
+      "roadmap_ids": [
+        "RQ-OS-04",
+        "RQ-BM-04"
+      ],
+      "priority": "medium",
+      "decision_consequence": "Durability of entry advantage and value capture after convergence",
+      "evidence_target": "Renewal prices, multi-vendor switching, same-robot incumbent adoption and support-density economics",
+      "next_action": "Seek repeat contract cohorts and competition disclosures, including failed pilots and lost customers.",
+      "stopping_condition": "Evidence distinguishing persistent operating advantage from transient timing and selected pilot success.",
+      "status": "OPEN"
+    }
+  ],
+  "coverage_audit": {
+    "two_profile_comparisons": "Provided as explicit mechanism comparisons; no causal or calibrated ownership effect claimed.",
+    "entry_case": "Conditional same-access case specified; numerical execution delegated to common engine.",
+    "organizational_forms": "Pure operating newco, platform creating newcos, acquisition and hybrid kept separate.",
+    "provider_scope": "Sale, lease, RaaS, software, usage/outcome, managed operations/JV and integration analyzed separately from customer ownership.",
+    "sources": "Primary company disclosures, SEC filings and a specific standard legal artifact; no independent unit-economics audit.",
+    "model_terms": "Most exact robot/service financial and data terms remain unavailable.",
+    "runtime": "Configuration requested but actual identifier unavailable to specialist."
+  },
+  "entry_screen": [
+    {
+      "screen_id": "FG-SCR-M01",
+      "market_id": "M01",
+      "value_chain_stage": "Field and post-harvest services",
+      "entry_hypothesis": "Seasonal service capacity or standardized post-harvest production",
+      "principal_constraint": "Outdoor variability, seasonality, travel and specialized machinery",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M02",
+      "market_id": "M02",
+      "value_chain_stage": "Inspection and maintenance support",
+      "entry_hypothesis": "Verified site inspection or local service availability",
+      "principal_constraint": "Qualification, site relationships and sensing-to-repair boundary",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M03",
+      "market_id": "M03",
+      "value_chain_stage": "Asset inspection",
+      "entry_hypothesis": "Integrate sensing with maintenance decisions",
+      "principal_constraint": "Permissions, site density, human review and action workflow",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M04",
+      "market_id": "M04",
+      "value_chain_stage": "Installation support",
+      "entry_hypothesis": "Repeatable local package or prefabrication service",
+      "principal_constraint": "Changing sites, subcontract boundaries, skilled supervision and project cash timing",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M05",
+      "market_id": "M05",
+      "value_chain_stage": "Bounded manufacturing process",
+      "entry_hypothesis": "Sell accepted parts/subassemblies from redesigned production",
+      "principal_constraint": "Qualification, scrap, bottleneck equipment, program demand; Hadrian has proprietary technology",
+      "evidence_ids": [
+        "FG-E011"
+      ],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M06",
+      "market_id": "M06",
+      "value_chain_stage": "Wholesale distribution",
+      "entry_hypothesis": "Shared supported capacity for smaller customers",
+      "principal_constraint": "Density, integration, customer switching; preserve overlap with M08",
+      "evidence_ids": [
+        "FG-E003"
+      ],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M07",
+      "market_id": "M07",
+      "value_chain_stage": "Store operation",
+      "entry_hypothesis": "Robot-supported service across store cluster",
+      "principal_constraint": "Public-space interference; existing retailer/operator automation; time reallocation not cash",
+      "evidence_ids": [
+        "FG-E012"
+      ],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M08",
+      "market_id": "M08",
+      "value_chain_stage": "Fulfillment and intralogistics",
+      "entry_hypothesis": "Win service contracts on reliability or available capacity",
+      "principal_constraint": "Active incumbents, onboarding capital, volume commitments and contract form",
+      "evidence_ids": [
+        "FG-E001",
+        "FG-E002",
+        "FG-E003"
+      ],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M09",
+      "market_id": "M09",
+      "value_chain_stage": "Preparation and back-of-house",
+      "entry_hypothesis": "Standardized output or extended availability",
+      "principal_constraint": "Hygiene, peak demand, customer experience and specialized alternatives",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M10",
+      "market_id": "M10",
+      "value_chain_stage": "Nonclinical internal logistics",
+      "entry_hypothesis": "Qualified supply delivery/support service",
+      "principal_constraint": "Clinical governance, urgency, integration and retained staff; throughput not nursing value",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M11",
+      "market_id": "M11",
+      "value_chain_stage": "Routine facility cleaning",
+      "entry_hypothesis": "Local recurring service with digital scheduling, robots and human review",
+      "principal_constraint": "Contract/asset mismatch, service density and prompt same-robot competition",
+      "evidence_ids": [
+        "FG-E004",
+        "FG-E005",
+        "FG-E006",
+        "FG-E007",
+        "FG-E008"
+      ],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M12",
+      "market_id": "M12",
+      "value_chain_stage": "Sorting and handling",
+      "entry_hypothesis": "Accepted material recovery or waste-service capacity",
+      "principal_constraint": "Contamination, varied inputs, commodity prices and specialized sorting",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M13",
+      "market_id": "M13",
+      "value_chain_stage": "Personal, household and repair services",
+      "entry_hypothesis": "Narrow recurring route-based service",
+      "principal_constraint": "Travel, heterogeneous sites, trust, liability and customer acquisition; general humanoid service unproven",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M14",
+      "market_id": "M14",
+      "value_chain_stage": "Education and public support operations",
+      "entry_hypothesis": "Procurement-qualified maintenance or logistics",
+      "principal_constraint": "Budget/procurement cycles, accountability and authority; no ownership coefficient",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    },
+    {
+      "screen_id": "FG-SCR-M15",
+      "market_id": "M15",
+      "value_chain_stage": "Venue operations",
+      "entry_hypothesis": "Off-hours preparation, cleaning and logistics",
+      "principal_constraint": "Peak variability, public interaction and idle capacity",
+      "evidence_ids": [],
+      "status": "qualitative_hypothesis_not_penetration_estimate",
+      "geography": "US target; cited comparator geography retained separately"
+    }
+  ],
+  "evidence_snapshot_closed_at": "2026-10-25T15:58:40Z",
+  "research_method": {
+    "search_tool": "Exa Search and Fetch",
+    "search_queries": 7,
+    "requested_search_result_slots": 35,
+    "note": "Result slots are not unique validated sources; selected primary pages were fetched and claim-level records distinguish disclosure from independent evidence. No paid services or external messages used."
+  }
+}

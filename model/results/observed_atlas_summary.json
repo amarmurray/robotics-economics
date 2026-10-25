@@ -1,0 +1,302 @@
+{
+  "checks": {
+    "all_market_values_recomputed_from_source_rows": true,
+    "total_reconciliation_within_source_rounding": true,
+    "wage_salary_reconciliation_within_source_rounding": true
+  },
+  "geography": "US",
+  "limitations": [
+    "Market-family boundaries are an analyst crosswalk; arithmetic source-row reproduction does not validate physical-work attribution.",
+    "Industry and occupation views overlap and must never be summed.",
+    "The occupation subset is neither exhaustive physical labor nor automatable employment."
+  ],
+  "market_count": 15,
+  "market_employment": {
+    "evidence_ids": [
+      "A-BLS-EP2025"
+    ],
+    "formula": "sum(markets[].economic_baseline.employment)",
+    "unit": "thousand wage-and-salary jobs",
+    "value": 128979.5
+  },
+  "market_source_calculations": [
+    {
+      "derived_employment_thousands": 1462.4,
+      "equals_recorded_market_value": true,
+      "market_id": "M01",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-03"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 573.5,
+      "equals_recorded_market_value": true,
+      "market_id": "M02",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-04"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 601.3,
+      "equals_recorded_market_value": true,
+      "market_id": "M03",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-05"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 8266.7,
+      "equals_recorded_market_value": true,
+      "market_id": "M04",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-06"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 12633.7,
+      "equals_recorded_market_value": true,
+      "market_id": "M05",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-07"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 6059.5,
+      "equals_recorded_market_value": true,
+      "market_id": "M06",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-08"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 15440.9,
+      "equals_recorded_market_value": true,
+      "market_id": "M07",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-09"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 6639.5,
+      "equals_recorded_market_value": true,
+      "market_id": "M08",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-10"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 14202.1,
+      "equals_recorded_market_value": true,
+      "market_id": "M09",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-20"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 23290.0,
+      "equals_recorded_market_value": true,
+      "market_id": "M10",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-18"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 2474.1,
+      "equals_recorded_market_value": true,
+      "market_id": "M11",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-MATRIX-561200"
+        },
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-MATRIX-561700"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 520.8,
+      "equals_recorded_market_value": true,
+      "market_id": "M12",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-MATRIX-562000"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 6575.7,
+      "equals_recorded_market_value": true,
+      "market_id": "M13",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-21"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 27557.6,
+      "equals_recorded_market_value": true,
+      "market_id": "M14",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-17"
+        },
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-22"
+        },
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-23"
+        }
+      ]
+    },
+    {
+      "derived_employment_thousands": 2681.7,
+      "equals_recorded_market_value": true,
+      "market_id": "M15",
+      "source_row_derivation_available": true,
+      "source_row_terms": [
+        {
+          "coefficient": 1,
+          "source_row_id": "A-BLS-SECTOR-19"
+        }
+      ]
+    }
+  ],
+  "oews_total_jobs": {
+    "evidence_ids": [
+      "A-BLS-OEWS2025"
+    ],
+    "formula": "explicit source denominator in accounting record",
+    "unit": "OEWS wage-and-salary jobs",
+    "value": 155495730.0
+  },
+  "other_administrative_support": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "source rows 56\u22125612\u22125617\u2212562",
+    "unit": "thousand wage-and-salary jobs",
+    "value": 6018.2
+  },
+  "other_business_industries": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "source rows 51+52+53+54+55",
+    "unit": "thousand wage-and-salary jobs",
+    "value": 25460.8
+  },
+  "period": "2025 industry; May 2025 occupation",
+  "physical_work_hours": null,
+  "physical_work_hours_missing_reason": "No representative annual-hours and physical-work-share mapping. Employment is not physical hours or robot TAM.",
+  "scenario_inputs_used": false,
+  "selected_occupation_jobs": {
+    "evidence_ids": [
+      "A-BLS-OEWS-TABLE"
+    ],
+    "formula": "sum(eight mutually exclusive major occupation groups); no detailed children added",
+    "unit": "OEWS wage-and-salary jobs",
+    "value": 61320140.0
+  },
+  "selected_occupation_share": {
+    "evidence_ids": [
+      "A-BLS-OEWS2025",
+      "A-BLS-OEWS-TABLE"
+    ],
+    "formula": "selected occupation jobs / OEWS population; not a physical-work share",
+    "unit": "fraction of OEWS employment",
+    "value": 0.3943525651797641
+  },
+  "status": "derived_from_saved_official_statistics",
+  "total_reconstructed": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "reconstructed wage/salary + self-employed",
+    "unit": "thousand jobs",
+    "value": 170280.8
+  },
+  "total_source": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "source row TE1000",
+    "unit": "thousand jobs",
+    "value": 170280.8
+  },
+  "wage_salary_reconstructed": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "market families + explicit business and admin residuals",
+    "unit": "thousand wage-and-salary jobs",
+    "value": 160458.5
+  },
+  "wage_salary_rounding_difference": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "reconstructed \u2212 reported; tolerate 0.1 thousand source rounding",
+    "unit": "thousand jobs",
+    "value": -0.1
+  },
+  "wage_salary_source_total": {
+    "evidence_ids": [
+      "A-BLS-DETAIL2025"
+    ],
+    "formula": "source row TE1200",
+    "unit": "thousand wage-and-salary jobs",
+    "value": 160458.6
+  }
+}

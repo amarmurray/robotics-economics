@@ -1,0 +1,25 @@
+year,resource_id,unit,opening_inventory,qualified_net_receipts,service_required,service_consumed,assembly_consumed,rework_consumed,other_allocations,closing_inventory
+2026,actuator_h,compatible component units,0.0,600.0,0.0,0.0,480.0,0,0,120.0
+2026,actuator_q,compatible component units,0.0,210.0,0.0,0.0,150.0,0,0,60.0
+2026,embedded_lpddr_boards,compatible component units,0.0,37.5,0.0,0.0,32.5,0,0,5.0
+2027,actuator_h,compatible component units,120.0,900.0,0.0,0.0,80.0,0,0,940.0
+2027,actuator_q,compatible component units,60.0,315.0,0.0,0.0,10.0,0,0,365.0
+2027,embedded_lpddr_boards,compatible component units,5.0,56.25,0.0,0.0,4.166666666666666,0,0,57.08333333333333
+2028,actuator_h,compatible component units,940.0,1920.0,7.68,7.68,160.0,0,0,2692.32
+2028,actuator_q,compatible component units,365.0,672.0,1.92,1.92,0,0,0,1035.08
+2028,embedded_lpddr_boards,compatible component units,57.08333333333333,120.0,0.24,0.24,6.666666666666666,0,0,170.17666666666665
+2029,actuator_h,compatible component units,2692.32,1920.0,18.240000000000002,18.240000000000002,400.0,0,0,4194.08
+2029,actuator_q,compatible component units,1035.08,672.0,3.84,3.84,0,0,0,1703.24
+2029,embedded_lpddr_boards,compatible component units,170.17666666666665,120.0,0.54,0.54,16.666666666666668,0,0,272.9699999999999
+2030,actuator_h,compatible component units,4194.08,1920.0,25.92,25.92,79.99999999999994,0,0,6008.16
+2030,actuator_q,compatible component units,1703.24,672.0,4.8,4.8,0,0,0,2370.4399999999996
+2030,embedded_lpddr_boards,compatible component units,272.9699999999999,120.0,0.74,0.74,3.3333333333333313,0,0,388.8966666666666
+2031,actuator_h,compatible component units,6008.16,1920.0,31.68,31.68,0,0,0,7896.48
+2031,actuator_q,compatible component units,2370.4399999999996,672.0,4.8,4.8,0,0,0,3037.6399999999994
+2031,embedded_lpddr_boards,compatible component units,388.8966666666666,120.0,0.86,0.86,0,0,0,508.0366666666666
+2032,actuator_h,compatible component units,7896.48,1920.0,35.52,35.52,80.0,0,0,9700.96
+2032,actuator_q,compatible component units,3037.6399999999994,672.0,4.8,4.8,0,0,0,3704.8399999999992
+2032,embedded_lpddr_boards,compatible component units,508.0366666666666,120.0,0.9400000000000001,0.9400000000000001,3.333333333333333,0,0,623.7633333333332
+2033,actuator_h,compatible component units,9700.96,1920.0,30.72,30.72,213.33333333333334,0,0,11376.906666666666
+2033,actuator_q,compatible component units,3704.8399999999992,672.0,2.88,2.88,53.333333333333336,0,0,4320.626666666666
+2033,embedded_lpddr_boards,compatible component units,623.7633333333332,120.0,0.76,0.76,13.333333333333334,0,0,729.6699999999998

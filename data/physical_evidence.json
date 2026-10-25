@@ -1,0 +1,1369 @@
+{
+  "schema_version": "physical-evidence-1.0",
+  "version": "physical-first-wave-2026-10-25-v0.2",
+  "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
+  "retrieved_date": "2026-10-25",
+  "status": "substantive_intermediate_edition",
+  "model_configuration": {
+    "requested": "GPT-6 Astra / Ultra",
+    "verification": "Inherited worker has no runtime model/effort introspection; Astra/ultra appears in available delegation metadata, actual worker setting unverified."
+  },
+  "scope_notes": [
+    "Foreign and historical episodes are comparators to US atlas anchors, not US labor or adoption estimates.",
+    "Evidence status and source provenance are separate. Null is unknown, never zero.",
+    "No deployment economics or supplier qualified capacity inferred from product pages.",
+    "Money in the Missouri source is nominal USD as published March 2025; no inflation adjustment."
+  ],
+  "evidence": [
+    {
+      "evidence_id": "PHY-E01",
+      "schema_version": "evidence-1.0",
+      "title": "BMW Hams Hall 25-year update",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0455457EN/production-milestone-for-bmw-group-plant-hams-hall:-british-engine-plant-celebrates-25-years?language=en",
+      "publisher": "BMW Group",
+      "publication_date": "2026-02-09",
+      "observation_period": "2024 to publication",
+      "retrieval_date": "2026-10-25",
+      "locator": "SpOTTO robotic dog / Fully connected digital twin sections",
+      "claim": "Customer describes continuing visual, thermal and acoustic collection into plant digital twin.",
+      "epistemic_status": "customer_reported_repeated_use",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "No robot-specific accepted inspections, labor, uptime, cost or ROI; plant-wide energy changes not attributed to robot.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E02",
+      "schema_version": "evidence-1.0",
+      "title": "Who let the dogs out?",
+      "url": "https://www.nationalgrid.com/who-let-the-dogs-out",
+      "publisher": "National Grid",
+      "publication_date": "2023-02-17",
+      "observation_period": "Three-day Blyth trial before publication",
+      "retrieval_date": "2026-10-25",
+      "locator": "Trial duration and results-review paragraphs",
+      "claim": "Spot with visual, thermal, acoustic and lidar payloads was tested at North Sea Link; permanent deployment awaited assessment; Roboverse Reply assisted.",
+      "epistemic_status": "customer_reported_trial",
+      "source_class": "primary",
+      "access": "primary_text_in_search_index",
+      "limitations": "No current fleet continuation inferred; full direct request timed out/403.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E03",
+      "schema_version": "evidence-1.0",
+      "title": "How to train your robot",
+      "url": "https://www.equinor.com/magazine/svein-ivar-the-robot-trainer",
+      "publisher": "Equinor",
+      "publication_date": "2026-01-13",
+      "observation_period": "At publication; exact commissioning window unknown",
+      "retrieval_date": "2026-10-25",
+      "locator": "Training / A dog with a desk job / Not here to replace people",
+      "claim": "Northern Lights Roberta requires site-route and operator training, digital-twin and physical tests; operators dispatch from Sture; autonomous fault detection and mission planning are goals.",
+      "epistemic_status": "operator_reported_commissioning_and_use",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "No mission exposure, unattended-operation rate, OEM/model identification in text, payroll or ROI.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E04",
+      "schema_version": "evidence-1.0",
+      "title": "EPIC 3.41 Drone Enablement and Operational Use final report",
+      "url": "https://www.pge.com/assets/pge/docs/about/corporate-responsibility-and-sustainability/pge-epic-project-3.41.pdf",
+      "publisher": "Pacific Gas and Electric",
+      "publication_date": "2025-05-27",
+      "observation_period": "2022-04 to 2025-05",
+      "retrieval_date": "2026-10-25",
+      "locator": "Version 1.0; printed pp.15–17, Tables 3/4 (one-based PDF pp.19–21); printed pp.17–20, sections 4.4–4.5 and Tables 5/6 (PDF pp.21–24); printed p.14 waiver (PDF p.18)",
+      "claim": "Demonstration 2: Vendor A met flight criteria but failed image quality; Vendor B had connectivity, waypoint and imagery limitations. Later Vendor A was disqualified; Vendor B met Templeton flight criteria but failed Silverado criteria. Later image capture was unevaluated because known hardware did not meet PG&E standards; sensor-alert integration was deferred. BVLOS permission and flight success did not establish accepted inspection output.",
+      "epistemic_status": "operator_reported_test_results",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Vendors anonymized; test sample not a fleet reliability denominator; no realized cost per accepted inspection.",
+      "retrieved_at": "2026-10-25T16:14:53Z"
+    },
+    {
+      "evidence_id": "PHY-E05",
+      "schema_version": "evidence-1.0",
+      "title": "Drone blood delivery in Rwanda",
+      "url": "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(22)00048-1/fulltext",
+      "publisher": "Nisingizwe et al., Lancet Global Health",
+      "publication_date": "2022-04",
+      "observation_period": "Delivery 2017-03-17–2019-12-31; administrative 2015–2019",
+      "retrieval_date": "2026-10-25",
+      "locator": "Methods: Comparison of delivery times / Blood product expirations; Results: Table 1 shows / As hospitals use their vehicles; Tables 1–2; Discussion final two paragraphs and limitations; DOI 10.1016/S2214-109X(22)00048-1; April 2022 issue 10(4):e564–e569",
+      "claim": "20 facilities; 12,733 delivered orders, 5,517 emergency. Mean 49.6 min (95% CI 49.1–50.2) includes order preparation/packaging; median 41 min excludes it. Main estimated-road comparator is hospital-origin round trip; center-origin one-way sensitivity gives median advantages of 19 min (CBT estimates) and 28.5 min (Google Maps). The 67% expiration reduction is an interrupted-time-series estimate per facility at 12 months. Authors state drone delivery was more expensive than road delivery in Rwanda at publication; cost-effectiveness remains unresolved.",
+      "epistemic_status": "retrospective_observational_study",
+      "source_class": "primary",
+      "access": "primary_full_text_via_search_provider",
+      "limitations": "Nonrandomized and no control group; planned road-record collection was prevented by COVID-19 restrictions, so road counterfactual is estimated. Time comparison excludes drone preparation; all-in mean includes it. No cost amount, provider margin, causal health outcome or current performance established; accepted clinical-SLA fraction not reported.",
+      "retrieved_at": "2026-10-25T16:14:53Z",
+      "alternate_url": "https://pubmed.ncbi.nlm.nih.gov/35303465/",
+      "access_history": "Initial edition used PubMed abstract; revised after independent Exa retrieval of publisher full text on 2026-10-25. April 2022 is the journal issue date.",
+      "publication_date_type": "journal_issue"
+    },
+    {
+      "evidence_id": "PHY-E06",
+      "schema_version": "evidence-1.0",
+      "title": "Aviation Statistics",
+      "url": "https://aero.nd.gov/studies/aviation-statistics/",
+      "publisher": "North Dakota Aeronautics Commission",
+      "publication_date": null,
+      "observation_period": "2025",
+      "retrieval_date": "2026-10-25",
+      "locator": "Acres Sprayed by Aerial Applicators",
+      "claim": "33 licensed unmanned applicators reported services across nearly 185,000 acres in 2025.",
+      "epistemic_status": "administrative_reported_activity",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Not unique acreage, robot count, profit, quality-adjusted output or labor displacement; publication date unstated.",
+      "retrieved_at": "2026-10-25T15:55:22Z",
+      "publication_date_missing_reason": "Undated live source"
+    },
+    {
+      "evidence_id": "PHY-E07",
+      "schema_version": "evidence-1.0",
+      "title": "Economics of Drone Ownership for Agricultural Spray Applications",
+      "url": "https://extension.missouri.edu/publications/g1274",
+      "publisher": "University of Missouri Extension",
+      "publication_date": "2025-03",
+      "observation_period": "Hypothetical budgets, March 2025",
+      "retrieval_date": "2026-10-25",
+      "locator": "Tables 1–3; Recommendations; flight-hour constraint paragraphs",
+      "claim": "T40 scenarios: farmer 1,000 acres/year $12.27/acre; custom operator 4,000 acres/year $7.39/acre. Allocated investments $56,000/$94,500.",
+      "epistemic_status": "published_hypothetical_economic_model",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Not observed margins; financing, utilization, crew and application windows matter. Text gives inconsistent comparator wording for 980-acre threshold; do not use as validated break-even.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E08",
+      "schema_version": "evidence-1.0",
+      "title": "Unitree G1 product parameters",
+      "url": "https://www.unitree.com/g1/",
+      "publisher": "Unitree Robotics",
+      "publication_date": null,
+      "observation_period": "Live page snapshot 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "locator": "G1 Parameter: base versus EDU, and footnotes",
+      "claim": "Base G1: 23 joints; PMSM, crossed-roller bearings, dual encoders; 8-core CPU; depth camera/lidar; 9,000mAh 13-series battery; EDU options differ.",
+      "epistemic_status": "manufacturer_specification",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "No serial hardware revision, supplier BOM, production yield/cost, policy capability or service economics. Optional Orin not exact module.",
+      "retrieved_at": "2026-10-25T15:55:22Z",
+      "publication_date_missing_reason": "Undated live source"
+    },
+    {
+      "evidence_id": "PHY-E09",
+      "schema_version": "evidence-1.0",
+      "title": "Unitree Go2 product parameters",
+      "url": "https://www.unitree.com/go2/",
+      "publisher": "Unitree Robotics",
+      "publication_date": null,
+      "observation_period": "Live page snapshot 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "locator": "Four-column AIR/PRO/X/EDU table; joint and accessory rows",
+      "claim": "Go2 EDU: 12 motor sets, eight-core CPU, optional Orin 40–100 TOPS, lidar, camera, foot sensors, 15,000mAh battery; developer access differs by SKU.",
+      "epistemic_status": "manufacturer_specification",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Not a field-qualified industrial-inspection package; unknown CPU SKU/memory/firmware revision/BOM costs/yield.",
+      "retrieved_at": "2026-10-25T15:55:22Z",
+      "publication_date_missing_reason": "Undated live source"
+    },
+    {
+      "evidence_id": "PHY-E11",
+      "schema_version": "evidence-1.0",
+      "title": "Mobis collaboration with Boston Dynamics",
+      "url": "https://bostondynamics.com/news/hyundai-mobis-forms-strategic-collaboration-framework-with-boston-dynamics/",
+      "publisher": "Boston Dynamics / Hyundai Mobis",
+      "publication_date": "2026-01-07",
+      "observation_period": "Announcement",
+      "retrieval_date": "2026-10-25",
+      "locator": "Main announcement paragraphs",
+      "claim": "Mobis states it will supply Atlas actuators.",
+      "epistemic_status": "announced_supply_relationship",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "No qualified delivered actuator count, unit economics, committed capacity or exclusivity established.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E12",
+      "schema_version": "evidence-1.0",
+      "title": "ANYmal X product",
+      "url": "https://www.anybotics.com/robotics/anymal-x/",
+      "publisher": "ANYbotics",
+      "publication_date": null,
+      "observation_period": "Live page snapshot 2026-10-25",
+      "retrieval_date": "2026-10-25",
+      "locator": "Ex-proof up to Zone 1 IIB; technical specifications",
+      "claim": "Manufacturer states ATEX/IECEx up to Zone 1 IIB and IP67; 2026 specifications are marked coming soon.",
+      "epistemic_status": "manufacturer_specification",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Certificate and site-specific equipment applicability not independently audited; no deployment count or economics.",
+      "retrieved_at": "2026-10-25T15:55:22Z",
+      "publication_date_missing_reason": "Undated live source"
+    },
+    {
+      "evidence_id": "PHY-E13",
+      "schema_version": "evidence-1.0",
+      "title": "FAA Dallas UTM authorization",
+      "url": "https://www.faa.gov/newsroom/faa-makes-drone-history-dallas-area",
+      "publisher": "FAA",
+      "publication_date": "2024-07-30",
+      "observation_period": "2024 authorization",
+      "retrieval_date": "2026-10-25",
+      "locator": "Authorization and route-sharing paragraphs",
+      "claim": "Wing/Zipline authorized shared-airspace operations with UTM route/data exchange; initial flights then expected in August.",
+      "epistemic_status": "regulatory_authorization",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Historical permission, not realized traffic scale or a current general operating rule.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E14",
+      "schema_version": "evidence-1.0",
+      "title": "unitreerobotics/unitree_sdk2 license",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2/blob/d1abf001220d3e5f59e00a0c4aaa595e00089a4a/LICENSE",
+      "publisher": "unitreerobotics/unitree_sdk2",
+      "publication_date": "2026-10-15",
+      "observation_period": "Pinned repository commit d1abf001220d3e5f59e00a0c4aaa595e00089a4a",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "BSD-3-Clause applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E15",
+      "schema_version": "evidence-1.0",
+      "title": "unitreerobotics/unifolm-world-model-action license",
+      "url": "https://github.com/unitreerobotics/unifolm-world-model-action/blob/3e198de68de55f93f24b3ad623dd499390aaee45/LICENSE",
+      "publisher": "unitreerobotics/unifolm-world-model-action",
+      "publication_date": "2026-03-18",
+      "observation_period": "Pinned repository commit 3e198de68de55f93f24b3ad623dd499390aaee45",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "CC-BY-NC-SA-4.0 applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E16",
+      "schema_version": "evidence-1.0",
+      "title": "open-dynamic-robot-initiative/open_robot_actuator_hardware license",
+      "url": "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/66af1522b4fba0ec4a1d7790e66f5e4652208d30/LICENSE",
+      "publisher": "open-dynamic-robot-initiative/open_robot_actuator_hardware",
+      "publication_date": "2022-09-06",
+      "observation_period": "Pinned repository commit 66af1522b4fba0ec4a1d7790e66f5e4652208d30",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "BSD-3-Clause applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E17",
+      "schema_version": "evidence-1.0",
+      "title": "ros2/rclcpp license",
+      "url": "https://github.com/ros2/rclcpp/blob/e2386a0ec6d062579d44ca2f27574c554b42adc1/LICENSE",
+      "publisher": "ros2/rclcpp",
+      "publication_date": "2026-10-22",
+      "observation_period": "Pinned repository commit e2386a0ec6d062579d44ca2f27574c554b42adc1",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "Apache-2.0 applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E18",
+      "schema_version": "evidence-1.0",
+      "title": "octo-models/octo license",
+      "url": "https://github.com/octo-models/octo/blob/241fb3514b7c40957a86d869fecb7c7fc353f540/LICENSE",
+      "publisher": "octo-models/octo",
+      "publication_date": "2024-07-31",
+      "observation_period": "Pinned repository commit 241fb3514b7c40957a86d869fecb7c7fc353f540",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "MIT applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E19",
+      "schema_version": "evidence-1.0",
+      "title": "PX4/PX4-Autopilot license",
+      "url": "https://github.com/PX4/PX4-Autopilot/blob/22b15b91fba5e79f01248d1c644ef942382af517/LICENSE",
+      "publisher": "PX4/PX4-Autopilot",
+      "publication_date": "2026-10-25",
+      "observation_period": "Pinned repository commit 22b15b91fba5e79f01248d1c644ef942382af517",
+      "retrieval_date": "2026-10-25",
+      "locator": "LICENSE",
+      "claim": "BSD-3-Clause applies to repository artifact, subject to scope/conditions.",
+      "epistemic_status": "inspected_license",
+      "source_class": "primary",
+      "access": "direct_raw_file_and_GitHub_commit_API",
+      "limitations": "Dependency licenses, nonrepository hardware rights and contractual operating rights require separate checks.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E20",
+      "schema_version": "evidence-1.0",
+      "title": "Octo Base 1.5 model card",
+      "url": "https://huggingface.co/rail-berkeley/octo-base-1.5/blob/ee3c10e8edd6ce2e8b1e8744d3c6fba4097bed48/README.md",
+      "publisher": "RAIL Berkeley",
+      "publication_date": "2024-05-21",
+      "observation_period": "Model revision ee3c10e8edd6ce2e8b1e8744d3c6fba4097bed48",
+      "retrieval_date": "2026-10-25",
+      "locator": "Model metadata and card license",
+      "claim": "Octo Base 1.5 card declares MIT.",
+      "epistemic_status": "inspected_model_metadata",
+      "source_class": "primary",
+      "access": "HuggingFace_model_API",
+      "limitations": "Checkpoint execution and upstream dataset rights not audited; model weights not downloaded.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E21",
+      "schema_version": "evidence-1.0",
+      "title": "Open Robot Actuator Hardware contents",
+      "url": "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/tree/66af1522b4fba0ec4a1d7790e66f5e4652208d30",
+      "publisher": "ODRI",
+      "publication_date": "2022-09-06",
+      "observation_period": "Pinned repository",
+      "retrieval_date": "2026-10-25",
+      "locator": "README mechanics/electronics/step-by-step instructions",
+      "claim": "Contains Solo8/Solo12 mechanics, electronics, actuator assembly/testing and calibration resources.",
+      "epistemic_status": "inspected_repository_structure",
+      "source_class": "primary",
+      "access": "full_text",
+      "limitations": "Not a manufacturing yield, current sourcing or commercial reliability audit.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    },
+    {
+      "evidence_id": "PHY-E22",
+      "schema_version": "evidence-1.0",
+      "title": "Woodside Spector source recovery attempt",
+      "url": "https://www.woodside.com/media-centre/news-stories/story/introducing-spector-a-woodside-robotics-first",
+      "publisher": "Woodside",
+      "publication_date": "2023-08-02",
+      "observation_period": "Historical account",
+      "retrieval_date": "2026-10-25",
+      "locator": "Search-index excerpt; live URL redirected to news index",
+      "claim": "Indexed operator excerpt says inspectors receive imagery through FUSE.",
+      "epistemic_status": "partial_primary_access",
+      "source_class": "primary",
+      "access": "search_index_excerpt_only",
+      "limitations": "Full source could not be recovered in this wave; not counted as a full deployment dossier.",
+      "retrieved_at": "2026-10-25T15:55:22Z"
+    }
+  ],
+  "deployments": [
+    {
+      "deployment_id": "PHY-Q01",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": "CELL-M05-auto-assembly-US-2025",
+      "market": "manufacturing",
+      "stage": "plant maintenance and digital-twin capture",
+      "geography": "UK, Hams Hall",
+      "period": "2024–2026-02-09",
+      "system_id": "SYS-SPOT-BMW-CONFIG-UNDISCLOSED",
+      "status": "customer_reported_repeated_use",
+      "accepted_outcome": "Usable condition observations incorporated into maintenance/planning workflow",
+      "evidence_ids": [
+        "PHY-E01"
+      ],
+      "metrics": [],
+      "human_roles": [
+        "Plant experts interpret data and act"
+      ],
+      "unknowns": [
+        "Missions/exposure",
+        "Rejected data",
+        "Labor before/after",
+        "All-in cost",
+        "Software version",
+        "Downtime",
+        "Contract/data rights"
+      ],
+      "model_implication": "Do not count plant maintenance as assembly labor displacement; information updates need an action/value counterfactual."
+    },
+    {
+      "deployment_id": "PHY-Q02",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market": "utilities",
+      "stage": "converter inspection",
+      "geography": "UK, North Sea Link Blyth",
+      "period": "Three days before 2023-02-17",
+      "system_id": "SYS-SPOT-NATIONALGRID-TRIAL",
+      "status": "trial_results_under_review",
+      "accepted_outcome": "Repeatable imagery of energized converter assets",
+      "evidence_ids": [
+        "PHY-E02"
+      ],
+      "metrics": [
+        {
+          "metric": "Blyth trial duration",
+          "value": 3,
+          "unit": "days",
+          "denominator": "one converter-site trial",
+          "status": "customer_reported",
+          "period": "Three days before 2023-02-17",
+          "population": "UK, North Sea Link Blyth"
+        }
+      ],
+      "human_roles": [
+        "National Grid engineering review",
+        "Roboverse Reply integration"
+      ],
+      "unknowns": [
+        "Outcome of investment review",
+        "Repeat-use exposure",
+        "Accepted inspection count",
+        "Contract/ownership",
+        "ROI"
+      ],
+      "model_implication": "Keep trial outside established productive-stock totals; unchanged pilot status is absence of confirmation, not proof of abandonment."
+    },
+    {
+      "deployment_id": "PHY-Q03",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market": "industrial infrastructure",
+      "stage": "CO2 facility inspection",
+      "geography": "Norway, Northern Lights",
+      "period": "As reported 2026-01-13",
+      "system_id": "SYS-ROBERTA-OEM-UNCONFIRMED",
+      "status": "commissioning_and_operator_assisted_use_reported",
+      "accepted_outcome": "Remote condition/gas inspection feeding operating decisions",
+      "evidence_ids": [
+        "PHY-E03"
+      ],
+      "metrics": [],
+      "human_roles": [
+        "Robot/site training",
+        "Operations-team training",
+        "Sture control-room dispatch and review"
+      ],
+      "unknowns": [
+        "OEM and exact hardware/software",
+        "Unattended mission population",
+        "Intervention rate",
+        "Savings",
+        "Staffing ratio"
+      ],
+      "model_implication": "Commissioning and staff capacity are separate deployment constraints; autonomous planning goal cannot set current parameter."
+    },
+    {
+      "deployment_id": "PHY-D01",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market": "utilities",
+      "stage": "transmission/substation inspection",
+      "geography": "US, California",
+      "period": "2022-04–2025-05",
+      "system_id": "SYS-PGE-VENDORS-A-B-ANONYMOUS",
+      "status": "field_demonstration_with_failures",
+      "accepted_outcome": "Inspection imagery meeting PG&E IQA/DQA standards",
+      "evidence_ids": [
+        "PHY-E04"
+      ],
+      "metrics": [],
+      "human_roles": [
+        "Remote pilot",
+        "Visual observers where required",
+        "IQA/DQA image review",
+        "Dock/network preparation"
+      ],
+      "unknowns": [
+        "Vendor identity",
+        "Commercial fleet size",
+        "Cost/accepted inspection",
+        "Later versions"
+      ],
+      "model_implication": "Require measurement acceptance after successful mission; higher image quality may conflict with clearance/safety and payload.",
+      "test_progression": "Later Demonstration 3: Vendor A disqualified; Vendor B Templeton flight criteria met, Silverado not met; image capture not evaluated because known hardware below PG&E standards; distribution-sensor alert integration deferred."
+    },
+    {
+      "deployment_id": "PHY-D02",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "market": "healthcare",
+      "stage": "blood distribution to facilities",
+      "geography": "Rwanda, 20 health facilities",
+      "period": "2017-03-17–2019-12-31",
+      "system_id": "SYS-ZIPLINE-RWANDA-HISTORICAL",
+      "status": "historical_repeated_delivery_observed_in_study",
+      "accepted_outcome": "Target service requirement: blood orders delivered in clinically usable time; study does not report an accepted clinical-SLA fraction",
+      "evidence_ids": [
+        "PHY-E05"
+      ],
+      "metrics": [
+        {
+          "metric": "Delivered blood product orders",
+          "value": 12733,
+          "unit": "orders",
+          "denominator": "20 facilities during observation window",
+          "status": "retrospective_observation",
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 health facilities"
+        },
+        {
+          "metric": "Emergency orders",
+          "value": 5517,
+          "unit": "orders",
+          "denominator": "12733 delivered orders",
+          "status": "retrospective_observation",
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 health facilities"
+        },
+        {
+          "metric": "Mean drone delivery time including order preparation and packaging",
+          "value": 49.6,
+          "unit": "minutes/order",
+          "denominator": "Study delivery-time analysis reported with emergency-order results; exact time-sample n not separately stated",
+          "status": "retrospective_observation",
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 health facilities",
+          "confidence_interval_95": [
+            49.1,
+            50.2
+          ],
+          "locator": "Results paragraph beginning Table 1 shows"
+        },
+        {
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 study health facilities",
+          "metric": "Median drone time excluding preparation/packaging",
+          "value": 41,
+          "unit": "minutes",
+          "denominator": "Facility-level delivery-time comparison in Table 1; distinct from all-order pooled mean",
+          "status": "retrospective_observation",
+          "interquartile_range": [
+            33,
+            49
+          ],
+          "locator": "Results Table 1 and preceding paragraph"
+        },
+        {
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 study health facilities",
+          "metric": "Median delivery advantage against center-origin one-way road alternative, CBT estimates",
+          "value": 19,
+          "unit": "minutes",
+          "denominator": "Table 2 matched facility comparisons; estimated one-way road counterfactual minus drone time excluding preparation",
+          "status": "observed_drone_vs_hypothetical_road_sensitivity",
+          "locator": "Results paragraph beginning As hospitals use their vehicles; Table 2"
+        },
+        {
+          "period": "2017-03-17–2019-12-31",
+          "population": "Rwanda, 20 study health facilities",
+          "metric": "Median delivery advantage against center-origin one-way road alternative, Google Maps",
+          "value": 28.5,
+          "unit": "minutes",
+          "denominator": "Table 2 matched facility comparisons; estimated one-way road counterfactual minus drone time excluding preparation",
+          "status": "observed_drone_vs_hypothetical_road_sensitivity",
+          "locator": "Results paragraph beginning As hospitals use their vehicles; Table 2"
+        },
+        {
+          "period": "2015–2019 administrative series aligned to facility intervention dates",
+          "population": "Rwanda, 20 study health facilities",
+          "metric": "Estimated reduction in expired blood units per facility at 12 months",
+          "value": 67,
+          "unit": "percent",
+          "denominator": "Interrupted-time-series model counterfactual at 12 months after each facility began drone service; no control group",
+          "status": "observational_interrupted_time_series_estimate",
+          "locator": "Results blood expirations analysis and Figure 2"
+        }
+      ],
+      "human_roles": [
+        "Preparation/packing",
+        "Dispatch",
+        "Clinical receiving",
+        "Inventory management"
+      ],
+      "unknowns": [
+        "All-in cost",
+        "Provider margin",
+        "Causal health outcomes",
+        "Current aircraft/software",
+        "US comparability",
+        "Accepted clinical-SLA fraction",
+        "Matched cost-effectiveness after valuing time and waste",
+        "Exact delivery-time sample n separately from all/emergency order counts"
+      ],
+      "model_implication": "Delivery advantage depends on road-service organization and preparation boundary; retain historical adverse cost direction without fabricating dollars. Network reliability, inventory pooling and delivery are complementary; avoided waste cannot be added again as independent inventory benefit.",
+      "accepted_outcome_status": "analytical_target_not_observed_pass_rate",
+      "historical_cost_direction": "Authors state drone delivery was more expensive than road delivery in Rwanda at publication; no amount or cost-effectiveness estimate supplied."
+    },
+    {
+      "deployment_id": "PHY-D03",
+      "schema_version": "deployment-1.0",
+      "anchor_cell_id": null,
+      "market": "agriculture",
+      "stage": "crop application",
+      "geography": "US, North Dakota activity / Missouri hypothetical economics",
+      "period": "2025 activity; March 2025 model",
+      "system_id": "SYS-AGRAS-T40-MODEL-ONLY",
+      "status": "administrative_activity_plus_separate_hypothetical_economics",
+      "accepted_outcome": "Applied area meeting agronomic timing/coverage/drift requirements",
+      "evidence_ids": [
+        "PHY-E06",
+        "PHY-E07"
+      ],
+      "metrics": [
+        {
+          "metric": "Licensed unmanned applicators",
+          "value": 33,
+          "unit": "operators",
+          "denominator": "North Dakota 2025 licensed reporting population",
+          "status": "administrative_report",
+          "period": "2025",
+          "population": "North Dakota licensed unmanned applicators reporting 2025 services",
+          "evidence_ids": [
+            "PHY-E06"
+          ]
+        },
+        {
+          "metric": "Reported serviced acreage",
+          "value": 185000,
+          "unit": "acres (approximately)",
+          "denominator": "North Dakota 2025; unique versus repeated acreage unresolved",
+          "status": "administrative_report",
+          "period": "2025",
+          "population": "North Dakota licensed unmanned applicators reporting 2025 services",
+          "evidence_ids": [
+            "PHY-E06"
+          ]
+        },
+        {
+          "metric": "Farmer modeled cost",
+          "value": 12.27,
+          "unit": "USD/applied acre",
+          "denominator": "1000 acres/year hypothetical T40 operation",
+          "status": "scenario_in_source",
+          "period": "March 2025 hypothetical budget",
+          "population": "Missouri Extension hypothetical T40 farmer/custom operation; not observed North Dakota operators",
+          "evidence_ids": [
+            "PHY-E07"
+          ]
+        },
+        {
+          "metric": "Custom modeled cost",
+          "value": 7.39,
+          "unit": "USD/applied acre",
+          "denominator": "4000 acres/year hypothetical T40 operation",
+          "status": "scenario_in_source",
+          "period": "March 2025 hypothetical budget",
+          "population": "Missouri Extension hypothetical T40 farmer/custom operation; not observed North Dakota operators",
+          "evidence_ids": [
+            "PHY-E07"
+          ]
+        }
+      ],
+      "human_roles": [
+        "Crew",
+        "Mix/refill",
+        "Travel",
+        "Cleaning",
+        "Repair",
+        "Customer scheduling"
+      ],
+      "unknowns": [
+        "Actual operator profit",
+        "Comparable agronomic efficacy",
+        "Unique acreage",
+        "US total",
+        "Demand won"
+      ],
+      "model_implication": "Use costs only as model structure; capacity within application windows and realized booked acreage jointly determine utilization. Farmer/custom budgets change aircraft, crew and travel/cleaning assumptions together; do not estimate a same-system scale coefficient from their cost ratio.",
+      "budget_configuration_differences": "Missouri Table 2 changes farmer/custom system jointly: 1/2 aircraft, 1/2 crew, 20/60 daily road miles, 0.5/1 cleaning hours/day, and 21/30 USD labor cost/hour. The 1000/4000 acres/year comparison is not a pure utilization change holding technology and production inputs fixed."
+    }
+  ],
+  "configurations": [
+    {
+      "system_id": "SYS-UNITREE-G1-BASE-20261025",
+      "schema_version": "configuration-1.0",
+      "status": "manufacturer_specification",
+      "geography": "China-origin; regional delivery/qualification not audited",
+      "period": "snapshot 2026-10-25",
+      "embodiment": "biped humanoid",
+      "hardware_version": "G1 base SKU; serial revision undisclosed",
+      "software_version": null,
+      "software_missing_reason": "Not disclosed",
+      "evidence_ids": [
+        "PHY-E08",
+        "HI-003"
+      ],
+      "components": [
+        {
+          "component_id": "G1-JOINTS",
+          "role": "locomotion/manipulation",
+          "quantity": 23,
+          "unit": "joint degrees of freedom",
+          "details": "6/leg, 5/arm, 1 waist; internal-rotor PMSM; crossed-roller bearing; dual encoder; quantities are configured joints, not per-start scrap allowance",
+          "supplier": "Unitree system; upstream part makers unknown"
+        },
+        {
+          "component_id": "G1-COMPUTE",
+          "role": "onboard control/compute",
+          "quantity": null,
+          "unit": "boards/system",
+          "missing_reason": "CPU specified as 8-core; board count/SKU/memory unknown",
+          "details": "EDU high-compute Orin option is not base G1 specification"
+        },
+        {
+          "component_id": "G1-SENSING",
+          "role": "perception",
+          "quantity": null,
+          "unit": "devices/system",
+          "missing_reason": "Depth camera + 3D lidar stated, exact sensor SKUs and count not audited"
+        },
+        {
+          "component_id": "G1-ENERGY",
+          "role": "energy",
+          "quantity": 9000,
+          "unit": "mAh nominal pack capacity",
+          "details": "13-series lithium pack; quick release; 54V 5A charger; local air cooling; not measured productive duty cycle"
+        },
+        {
+          "component_id": "G1-INTERCONNECT",
+          "role": "communications",
+          "quantity": null,
+          "unit": "interfaces/system",
+          "missing_reason": "Board/radio quantities not disclosed",
+          "details": "WiFi6/Bluetooth5.2, hollow joint electrical routing"
+        }
+      ],
+      "manufacturing_cost": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "qualified_annual_capacity": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "assembly_yield": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "memory_capacity": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "industrial_service_qualification": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      }
+    },
+    {
+      "system_id": "SYS-UNITREE-GO2-EDU-20261025",
+      "schema_version": "configuration-1.0",
+      "status": "manufacturer_specification",
+      "geography": "China-origin; regional delivery/qualification not audited",
+      "period": "snapshot 2026-10-25",
+      "embodiment": "quadruped sensor carrier",
+      "hardware_version": "Go2 EDU SKU; serial revision undisclosed",
+      "software_version": null,
+      "software_missing_reason": "Not disclosed",
+      "evidence_ids": [
+        "PHY-E09",
+        "HI-003"
+      ],
+      "components": [
+        {
+          "component_id": "GO2-JOINTS",
+          "role": "locomotion",
+          "quantity": 12,
+          "unit": "motor sets/system",
+          "details": "Aluminum motor assemblies; joint heat-pipe cooling; reported maximum refers to largest joint, not all joints"
+        },
+        {
+          "component_id": "GO2-COMPUTE",
+          "role": "onboard compute",
+          "quantity": null,
+          "unit": "boards/system",
+          "missing_reason": "8-core CPU; optional high-compute Orin 40–100 TOPS; exact SKU/memory unknown"
+        },
+        {
+          "component_id": "GO2-SENSING",
+          "role": "perception",
+          "quantity": null,
+          "unit": "devices/system",
+          "missing_reason": "Exact sensor BOM not disclosed",
+          "details": "4D lidar, wide-angle camera; EDU foot force sensors and depth camera"
+        },
+        {
+          "component_id": "GO2-ENERGY",
+          "role": "energy",
+          "quantity": 15000,
+          "unit": "mAh nominal EDU pack capacity",
+          "details": "33.6V 9A charger; manufacturer 2–4h endurance not accepted inspection-hours"
+        },
+        {
+          "component_id": "GO2-STRUCTURE",
+          "role": "structure/connectivity",
+          "quantity": null,
+          "unit": "components/system",
+          "missing_reason": "BOM unknown",
+          "details": "Aluminum alloy/engineering plastic; WiFi6, Bluetooth, 4G/GPS; docking compatibility in EDU"
+        }
+      ],
+      "manufacturing_cost": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "qualified_annual_capacity": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "assembly_yield": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "memory_capacity": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      },
+      "industrial_service_qualification": {
+        "value": null,
+        "reason": "Not disclosed in inspected primary specifications"
+      }
+    }
+  ],
+  "openness_cards": [
+    {
+      "artifact_id": "PHY-O01",
+      "schema_version": "openness-1.0",
+      "layer": "commercial platform SDK",
+      "artifact": "unitreerobotics/unitree_sdk2",
+      "version": "d1abf001220d3e5f59e00a0c4aaa595e00089a4a",
+      "version_date": "2026-10-15",
+      "license": "BSD-3-Clause",
+      "evidence_ids": [
+        "PHY-E14"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "SDK source BSD-3-Clause permits conditioned reuse/modification/distribution; purchased robot hardware and firmware excluded",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "Hardware manufacture, installed firmware/policy, telemetry and service rights unresolved",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "Unitree controls SDK/platform releases",
+      "reproducibility_gap": "Hardware manufacture, installed firmware/policy, telemetry and service rights unresolved",
+      "economic_hypothesis": "Integration entry may be cheaper; no measured cost effect and no right to copy whole robot"
+    },
+    {
+      "artifact_id": "PHY-O02",
+      "schema_version": "openness-1.0",
+      "layer": "model/world-model code",
+      "artifact": "unitreerobotics/unifolm-world-model-action",
+      "version": "3e198de68de55f93f24b3ad623dd499390aaee45",
+      "version_date": "2026-03-18",
+      "license": "CC-BY-NC-SA-4.0",
+      "evidence_ids": [
+        "PHY-E15"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "Repository CC-BY-NC-SA-4.0; noncommercial restriction material",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "Each checkpoint, base dependency and dataset requires separate rights review",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "Unitree repository maintainers",
+      "reproducibility_gap": "Each checkpoint, base dependency and dataset requires separate rights review",
+      "economic_hypothesis": "Cannot assume default commercial training/deployment rights from SDK license"
+    },
+    {
+      "artifact_id": "PHY-O03",
+      "schema_version": "openness-1.0",
+      "layer": "open hardware documentation",
+      "artifact": "open-dynamic-robot-initiative/open_robot_actuator_hardware",
+      "version": "66af1522b4fba0ec4a1d7790e66f5e4652208d30",
+      "version_date": "2022-09-06",
+      "license": "BSD-3-Clause",
+      "evidence_ids": [
+        "PHY-E16",
+        "PHY-E21"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "BSD-3-Clause repository; Solo mechanics/electronics/assembly/testing documentation available",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "Purchased components, firmware repositories, manufacturing yield/lifetime and current suppliers unresolved",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "ODRI repository maintainers",
+      "reproducibility_gap": "Purchased components, firmware repositories, manufacturing yield/lifetime and current suppliers unresolved",
+      "economic_hypothesis": "More reproducible research hardware; independent manufacture still consumes sourcing, calibration and qualification"
+    },
+    {
+      "artifact_id": "PHY-O04",
+      "schema_version": "openness-1.0",
+      "layer": "middleware client library",
+      "artifact": "ros2/rclcpp",
+      "version": "e2386a0ec6d062579d44ca2f27574c554b42adc1",
+      "version_date": "2026-10-22",
+      "license": "Apache-2.0",
+      "evidence_ids": [
+        "PHY-E17"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "rclcpp Apache-2.0 source; applies to pinned client-library artifact",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "ROS distribution, DDS implementation, proprietary drivers and deployed safety case separate",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "ROS 2 project maintainers",
+      "reproducibility_gap": "ROS distribution, DDS implementation, proprietary drivers and deployed safety case separate",
+      "economic_hypothesis": "Interface/code reuse can reduce duplication; does not make every robot firmware open"
+    },
+    {
+      "artifact_id": "PHY-O05",
+      "schema_version": "openness-1.0",
+      "layer": "robot policy code and released model",
+      "artifact": "octo-models/octo",
+      "version": "241fb3514b7c40957a86d869fecb7c7fc353f540",
+      "version_date": "2024-07-31",
+      "license": "MIT",
+      "evidence_ids": [
+        "PHY-E18",
+        "PHY-E20"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "Octo code MIT; Base 1.5 card MIT at independently pinned model revision",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "Open-X constituent dataset rights, trained-policy fit, runtime and safety validation separate",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "Octo / RAIL maintainers",
+      "reproducibility_gap": "Open-X constituent dataset rights, trained-policy fit, runtime and safety validation separate",
+      "economic_hypothesis": "Copyable policy reduces some starting effort; adaptation and physical validation remain"
+    },
+    {
+      "artifact_id": "PHY-O06",
+      "schema_version": "openness-1.0",
+      "layer": "drone flight-control software",
+      "artifact": "PX4/PX4-Autopilot",
+      "version": "22b15b91fba5e79f01248d1c644ef942382af517",
+      "version_date": "2026-10-25",
+      "license": "BSD-3-Clause",
+      "evidence_ids": [
+        "PHY-E19"
+      ],
+      "status": "rights_inspected_build_and_hardware_not_tested",
+      "geography": "license scope; deployment jurisdiction separate",
+      "period": "retrieved 2026-10-25",
+      "source_and_access": "PX4 Autopilot BSD-3-Clause source at pinned commit",
+      "hardware_manufacturing_rights": "Not established for complete commercial robot",
+      "firmware_control": "Only within identified artifact; installed vendor firmware not audited",
+      "models_data": "Board hardware, drivers/submodules, aircraft qualification, airspace permission and operator service separate",
+      "commercial_operation": "License of artifact is not operating/service authorization",
+      "governance": "PX4 project maintainers",
+      "reproducibility_gap": "Board hardware, drivers/submodules, aircraft qualification, airspace permission and operator service separate",
+      "economic_hypothesis": "Software ecosystem can support complementary vendors; no automatic hardware/operating rights"
+    }
+  ],
+  "embodiment_comparisons": [
+    {
+      "comparison_id": "PHY-C01",
+      "schema_version": "embodiment-comparison-1.0",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "geography": "US utility target; UK/Norway evidence comparators",
+      "period": "current evidence with hypothetical alternatives",
+      "status": "matched_service_analytical_comparison_unpriced",
+      "service": "Accepted condition inspection of a specified energized asset/route at required resolution, coverage and interval",
+      "evidence_ids": [
+        "PHY-E02",
+        "PHY-E03",
+        "PHY-E04",
+        "PHY-E12"
+      ],
+      "alternatives": [
+        {
+          "configuration": "Human with digital route/gauge/thermal capture and remote review",
+          "fit": "Benchmark subject to access and outage limits",
+          "cost_status": "Unknown matched cost"
+        },
+        {
+          "configuration": "Fixed sensors/cameras",
+          "fit": "Candidate when stable viewpoints cover required conditions",
+          "cost_status": "Unknown installation/coverage cost"
+        },
+        {
+          "configuration": "Wheeled inspection platform",
+          "fit": "Candidate for accessible level routes; stairs require redesign or exclusion",
+          "cost_status": "Unknown"
+        },
+        {
+          "configuration": "Quadruped plus validated sensing payload",
+          "fit": "Candidate for stairs and rough access; still requires accepted measurements and expert action",
+          "cost_status": "Unknown"
+        },
+        {
+          "configuration": "Drone",
+          "fit": "Candidate for overhead/outdoor views; PG&E shows mission completion insufficient",
+          "cost_status": "Unknown"
+        },
+        {
+          "configuration": "Humanoid",
+          "fit": "No evidence of superior economics for sensing-only service; manipulation could change boundary",
+          "cost_status": "Unknown"
+        }
+      ],
+      "switch_condition": "Stair/terrain access or hazardous-zone qualification can exclude lower-cost candidates; removing access obstacles or installing adequate fixed sensors can remove quadruped mobility value.",
+      "break_even": "Choose minimum annualized full-service cost among feasible alternatives; inspection quality and response interval are constraints, not price discounts.",
+      "double_counting_rule": "One asset inspection and one downstream avoided-loss counterfactual; mixed drone/ground collection does not create duplicate inspections."
+    },
+    {
+      "comparison_id": "PHY-C02",
+      "schema_version": "embodiment-comparison-1.0",
+      "anchor_cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "geography": "Rwanda source network; US healthcare-logistics target requires new data",
+      "period": "2017–2019 source; current target uncalibrated",
+      "status": "matched_service_analytical_comparison_unpriced",
+      "service": "Deliver a specified usable blood order from supply node to receiving facility by required deadline, preserving handling quality",
+      "evidence_ids": [
+        "PHY-E05"
+      ],
+      "alternatives": [
+        {
+          "configuration": "Human road courier with improved dispatch/inventory",
+          "fit": "Distinguish current hospital-origin pickup round trip from center-origin one-way dispatch; use current road access and digital routing",
+          "cost_status": "Unknown matched route cost"
+        },
+        {
+          "configuration": "Fixed-wing drone plus ground handling",
+          "fit": "Historical observed delivery; loading, receiving and inventory remain",
+          "cost_status": "Authors state higher delivery cost than road in Rwanda at publication; amount and cost-effectiveness remain unknown"
+        },
+        {
+          "configuration": "Local inventory with replenishment",
+          "fit": "Alternative meeting timing at carrying/waste cost; quantify demand and shelf life",
+          "cost_status": "Unknown matched cost"
+        },
+        {
+          "configuration": "Ground robot/humanoid",
+          "fit": "Not established as substitute for rural interfacility aerial leg; indoor handoff may complement",
+          "cost_status": "Unknown; no equivalence assumed"
+        }
+      ],
+      "switch_condition": "Road travel delay, order urgency, facility separation and sufficient eligible payload demand alter feasibility; dense reliable roads and batched delivery may reverse preference.",
+      "break_even": "Annualized aircraft/network plus launch/receive/handling/oversight costs versus road/inventory alternative at equal service; do not use travel-time savings as cash savings.",
+      "double_counting_rule": "Count inventory/waste improvement once within total delivered-order economics; distinguish interfacility from internal hospital transport.",
+      "source_counterfactual_boundary": "Main source road comparator is hospital-origin round trip; source sensitivity assumes center-origin one-way delivery. Drone median comparison excludes preparation/packaging; overall mean includes it."
+    }
+  ],
+  "transfer_tests": [
+    {
+      "analogy_id": "PHY-T01",
+      "schema_version": "analogy-1.0",
+      "source_evidence_ids": [
+        "PHY-E04"
+      ],
+      "target_evidence_ids": [
+        "PHY-E02",
+        "PHY-E03"
+      ],
+      "source": "PG&E drone mission and imagery tests",
+      "target": "Utility ground-robot inspection",
+      "mechanism": "Navigation success and information acceptance are separate gates",
+      "required_conditions": "Sensor outputs drive equivalent maintenance decisions",
+      "material_differences": "Flight constraints and camera standoff differ from grounded robot sensing",
+      "prediction_or_falsifier": "Target mission success can rise without accepted inspection rate rising; falsify with jointly measured target route/image/decision outcomes showing equivalence",
+      "status": "supported_structure_unquantified_transfer",
+      "permitted_model_use": "Separate mission, data acceptance and downstream action gates; no copied success rate",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "analogy_id": "PHY-T02",
+      "schema_version": "analogy-1.0",
+      "source_evidence_ids": [
+        "PHY-E05"
+      ],
+      "target_evidence_ids": [
+        "PHY-E03"
+      ],
+      "source": "Rwanda order delivery time/waste outcomes",
+      "target": "Humanoid replacement of industrial labor",
+      "mechanism": "Geographic network service gain from aerial transport",
+      "required_conditions": "Matching service, distance, payload, deadline, inventory and demand",
+      "material_differences": "Aircraft avoids road geography; humanoid contact work cannot inherit aerial travel shortcut; changing road-dispatch organization materially changes time advantage, and faster delivery did not establish lower cost.",
+      "prediction_or_falsifier": "Travel-time advantage disappears or reverses where road/geographic bypass is absent",
+      "status": "material_nontransfer",
+      "permitted_model_use": "No drone time/waste coefficient in humanoid labor productivity; use network-design questions only",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "analogy_id": "PHY-T03",
+      "schema_version": "analogy-1.0",
+      "source_evidence_ids": [
+        "PHY-E19",
+        "PHY-E21"
+      ],
+      "target_evidence_ids": [
+        "PHY-E14",
+        "PHY-E15"
+      ],
+      "source": "PX4 software and ODRI hardware layers",
+      "target": "Commercial Unitree platform ecosystem",
+      "mechanism": "Accessible complements can reduce duplicated integration/R&D",
+      "required_conditions": "Compatible interfaces, usable licenses, reproducible dependencies and support",
+      "material_differences": "SDK rights do not provide manufacturing package; UniFoLM repository noncommercial terms differ",
+      "prediction_or_falsifier": "Independent integration time may fall while manufacturing/qualification cost persists; measure target engineering hours and rights-complete reproducibility",
+      "status": "conditional_mechanism_rights_boundary_verified",
+      "permitted_model_use": "Qualitative entry/switching hypothesis; no openness multiplier",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "analogy_id": "PHY-T04",
+      "schema_version": "analogy-1.0",
+      "source_evidence_ids": [
+        "PHY-E13"
+      ],
+      "target_evidence_ids": [
+        "PHY-E02",
+        "PHY-E03"
+      ],
+      "source": "FAA UTM shared flight-intent authorization",
+      "target": "Mixed robot/person/site fleet coordination",
+      "mechanism": "Shared intentions and operating authority can avoid resource conflicts",
+      "required_conditions": "Common identity, reservations, failure rules and reliable state exchange",
+      "material_differences": "Airspace regulation/separation differs from aisles, doors, charging and human proximity; authorization is not measured throughput",
+      "prediction_or_falsifier": "Compare queue/conflict/intervention rates before/after target coordination; integration burden can exceed saved waiting",
+      "status": "conditional_unmeasured",
+      "permitted_model_use": "Shared resource/coordination mechanism; no copied fleet ratio",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "analogy_id": "PHY-T05",
+      "schema_version": "analogy-1.0",
+      "source_evidence_ids": [
+        "PHY-E07"
+      ],
+      "target_evidence_ids": [
+        "PHY-E01",
+        "PHY-E03"
+      ],
+      "source": "Agricultural ownership-cost/utilization model",
+      "target": "Inspection fleet and independent service entrant",
+      "mechanism": "Fixed cost spread over accepted demand with timing constraints",
+      "required_conditions": "Booked usable workload and support coverage in relevant time windows",
+      "material_differences": "Agriculture seasonality differs from continuous assets; source economics hypothetical",
+      "prediction_or_falsifier": "Lower purchase price may fail to improve returns if review/support or booked demand binds",
+      "status": "accounting_mechanism_not_empirical_coefficient",
+      "permitted_model_use": "Cost structure and capacity-window sensitivities only",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    }
+  ],
+  "supply_links": [
+    {
+      "relationship_id": "PHY-S01",
+      "from": "qualified rotary actuator classes",
+      "to": "G1/Go2 assembly",
+      "status": "architecture_observed_supplier_details_unknown",
+      "evidence_ids": [
+        "PHY-E08",
+        "PHY-E09"
+      ],
+      "restriction": "Separate configuration-compatible pools; 23 G1 joints and 12 Go2 motors do not prove interchangeability",
+      "schema_version": "supply_links-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "relationship_id": "PHY-S02",
+      "from": "NVIDIA Orin family options",
+      "to": "Unitree EDU configured compute",
+      "status": "manufacturer_option",
+      "evidence_ids": [
+        "PHY-E08",
+        "PHY-E09",
+        "HI-003"
+      ],
+      "restriction": "Exact module and LPDDR capacity unresolved; do not pool embedded memory with training HBM",
+      "schema_version": "supply_links-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "relationship_id": "PHY-S03",
+      "from": "Hyundai Mobis",
+      "to": "Boston Dynamics Atlas actuators",
+      "status": "announced_future_supply",
+      "evidence_ids": [
+        "PHY-E11"
+      ],
+      "restriction": "No delivered/qualified volume in this evidence",
+      "schema_version": "supply_links-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "relationship_id": "PHY-S04",
+      "from": "site/integrator capacity",
+      "to": "qualified inspections",
+      "status": "operator_reported_required_complement",
+      "evidence_ids": [
+        "PHY-E01",
+        "PHY-E02",
+        "PHY-E03",
+        "PHY-E04"
+      ],
+      "restriction": "Commissioning, networking, expert review and maintenance continue after robot delivery",
+      "schema_version": "supply_links-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    },
+    {
+      "relationship_id": "PHY-S05",
+      "from": "policy/code/design artifacts",
+      "to": "integration and R&D",
+      "status": "rights_specific_complement",
+      "evidence_ids": [
+        "PHY-E14",
+        "PHY-E15",
+        "PHY-E16",
+        "PHY-E17",
+        "PHY-E18",
+        "PHY-E19",
+        "PHY-E20",
+        "PHY-E21"
+      ],
+      "restriction": "Copying artifact does not deliver components, warranty, commercial rights or qualified service",
+      "schema_version": "supply_links-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25"
+    }
+  ],
+  "priority_gaps": [
+    {
+      "question_id": "PHY-G01",
+      "priority": "first",
+      "question": "What are accepted-inspection, intervention, recovery and expert-review denominators for repeated quadruped routes?",
+      "decision": "Whether supported deployment cost beats digitally improved inspection",
+      "next_action": "Locate operator technical presentations/annual procurement reports with exposure and cash boundaries; do not contact externally without scope",
+      "stop": "At least one matched route cohort with accepted output and support work, or documented public-data absence",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    },
+    {
+      "question_id": "PHY-G02",
+      "priority": "first",
+      "question": "Which exact compute/memory, actuators and spares are qualified per hardware revision?",
+      "decision": "Whether shared supply bottleneck is real and substitutable",
+      "next_action": "Read product service/developer manuals, dated supplier disclosures and repair catalogues",
+      "stop": "Configuration-specific BOM/service compatibility with explicit unknown upstream vendors",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    },
+    {
+      "question_id": "PHY-G03",
+      "priority": "first",
+      "question": "Did National Grid UK trial reach repeated operation, and which use cases were rejected?",
+      "decision": "Trial-to-adoption transition",
+      "next_action": "Search later customer disclosures with same site/system identifiers",
+      "stop": "Dated operator continuation/nonadoption evidence; silence stays unknown",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    },
+    {
+      "question_id": "PHY-G04",
+      "priority": "second",
+      "question": "What contracts govern inspection data reuse, telemetry, repair and policy deployment?",
+      "decision": "Entrant differentiation and learning-value capture",
+      "next_action": "Inspect public SDK/product terms and artifact dependency licenses",
+      "stop": "Rights matrix for one real deployed configuration without inferring customer contract terms",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    },
+    {
+      "question_id": "PHY-G05",
+      "priority": "second",
+      "question": "Do actual agricultural service and medical delivery margins survive full labor/capital/quality costs?",
+      "decision": "Transfer of operating business model",
+      "next_action": "Find public audited operator accounts and route/window-specific studies",
+      "stop": "Comparable accepted-service cost and delivered-demand evidence or explicit unresolved gap",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    },
+    {
+      "question_id": "PHY-G06",
+      "priority": "second",
+      "question": "How do industrial quadruped alternatives beyond Spot compare in actual operator cohorts?",
+      "decision": "Regional supplier/service and architecture comparison",
+      "next_action": "Retrieve ANYmal/DEEP/Ghost customer evidence; DEEP seed returned HTTP 520 in this wave",
+      "stop": "At least one additional non-Spot operator-supported case with configuration/environment boundaries",
+      "schema_version": "priority_gaps-1.0",
+      "geography": "source-specific; see evidence",
+      "period": "snapshot 2026-10-25",
+      "status": "open"
+    }
+  ],
+  "coverage": {
+    "quadruped_dossiers": 3,
+    "drone_dossiers": 3,
+    "actual_system_maps": 2,
+    "layered_openness_cards": 6,
+    "physical_transfer_tests": 5,
+    "matched_embodiment_comparisons": 2,
+    "limits": [
+      "One routine-use case is customer-reported, not independently audited route telemetry.",
+      "Matched comparisons unpriced; no defensible whole-system cost ranking.",
+      "Model scenario implementation belongs to common engine; this file supplies constraints and evidence, not a second calculator.",
+      "Player map is partial; qualified capacity and actual manufacturing costs remain unknown."
+    ]
+  },
+  "external_evidence_registry": {
+    "HI-003": "data/digital_infrastructure_evidence.json",
+    "HI-004": "data/digital_infrastructure_evidence.json",
+    "HI-005": "data/digital_infrastructure_evidence.json"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1",
+  "edition": "campaign-in-progress-0.1",
+  "evidence": [
+    {
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "schema_version": "0.1",
+      "evidence_id": "HI-001",
+      "claim": "IEA estimates 485 TWh total global data-center electricity consumption in 2025 and projects roughly 950 TWh in 2030; AI-focused demand is a subset.",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "publisher": "International Energy Agency",
+      "publication_date": "2026-04-16",
+      "observation_period": "2025 historical estimate; 2030 conditional projection",
+      "source_class": "intergovernmental_analysis",
+      "epistemic_status": "sourced_estimate_and_projection",
+      "locator": "Executive summary: updated data centre electricity demand outlook",
+      "limitations": "Not all LLM use; projection is not observed demand; no robot OEM resource allocation.",
+      "quantities": [
+        {
+          "value": 485,
+          "unit": "TWh/year",
+          "period": "2025",
+          "denominator": "all global data centers",
+          "status": "historical_estimate",
+          "population": "all global data centers"
+        },
+        {
+          "value": 950,
+          "unit": "TWh/year",
+          "period": "2030",
+          "denominator": "all global data centers",
+          "status": "central_projection",
+          "population": "all global data centers"
+        }
+      ],
+      "missingness_reason": null
+    },
+    {
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "schema_version": "0.1",
+      "evidence_id": "HI-002",
+      "claim": "TSMC reports US$13.84bn Q3 2026 capex and US$40.64bn YTD capex; these are expenditure, not qualified robot component capacity.",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/f53a64fd40fc0b453f94e077e5aba8cad506f27b/3Q26%20ManagementReport.pdf",
+      "publisher": "TSMC",
+      "publication_date": "2026-10-15",
+      "observation_period": "quarter ended 2026-09-30; YTD 2026",
+      "source_class": "issuer_financial_report",
+      "epistemic_status": "issuer_reported_financial_observation",
+      "locator": "Section V CapEx; Section I Revenue Analysis",
+      "limitations": "Consolidated foundry population; no specific robot allocation, cost, grade or yield.",
+      "quantities": [
+        {
+          "value": 13.84,
+          "unit": "billion current USD",
+          "period": "2026 Q3",
+          "denominator": "TSMC consolidated capex",
+          "status": "issuer_reported",
+          "population": "TSMC consolidated capex"
+        },
+        {
+          "value": 40.64,
+          "unit": "billion current USD",
+          "period": "2026 YTD Q3",
+          "denominator": "TSMC consolidated capex",
+          "status": "issuer_reported",
+          "population": "TSMC consolidated capex"
+        }
+      ],
+      "missingness_reason": null
+    },
+    {
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "schema_version": "0.1",
+      "evidence_id": "HI-003",
+      "claim": "Jetson AGX Orin 64GB specification lists LPDDR5, 204.8GB/s and 15\u201360W; not a matched robot performance measurement.",
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+      "publisher": "NVIDIA",
+      "publication_date": null,
+      "observation_period": "live product snapshot retrieved 2026-10-25",
+      "source_class": "manufacturer_specification",
+      "epistemic_status": "vendor_specification",
+      "locator": "Jetson Orin Technical Specifications: AGX Orin 64GB memory/power columns",
+      "limitations": "Exact software and robot workload unpinned; NX/Nano introductory and table differences not resolved; no supply allocation.",
+      "quantities": [
+        {
+          "metric": "memory_capacity",
+          "value": 64,
+          "unit": "GB",
+          "denominator": "Jetson AGX Orin 64GB configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson AGX Orin 64GB",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "memory_bandwidth",
+          "value": 204.8,
+          "unit": "GB/s",
+          "denominator": "Jetson AGX Orin 64GB configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson AGX Orin 64GB",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "module_power_min",
+          "value": 15,
+          "unit": "W",
+          "denominator": "Jetson AGX Orin 64GB configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson AGX Orin 64GB",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "module_power_max",
+          "value": 60,
+          "unit": "W",
+          "denominator": "Jetson AGX Orin 64GB configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson AGX Orin 64GB",
+          "status": "manufacturer_specification"
+        }
+      ],
+      "missingness_reason": "Product-page original publication date not disclosed in retrieved text"
+    },
+    {
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "schema_version": "0.1",
+      "evidence_id": "HI-004",
+      "claim": "Jetson T5000 specification lists 128GB LPDDR5X, 273GB/s, 40\u2013130W and FP4-sparse compute; do not compare directly to Orin INT8 TOPS.",
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+      "publisher": "NVIDIA",
+      "publication_date": null,
+      "observation_period": "live product snapshot retrieved 2026-10-25",
+      "source_class": "manufacturer_specification",
+      "epistemic_status": "vendor_specification",
+      "locator": "Jetson Thor Series Modules Quick Specs: T5000",
+      "limitations": "No sustained robotics workload measurement or delivery capacity; module power is not whole robot power.",
+      "quantities": [
+        {
+          "metric": "memory_capacity",
+          "value": 128,
+          "unit": "GB",
+          "denominator": "Jetson T5000 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson T5000",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "memory_bandwidth",
+          "value": 273,
+          "unit": "GB/s",
+          "denominator": "Jetson T5000 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson T5000",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "module_power_min",
+          "value": 40,
+          "unit": "W",
+          "denominator": "Jetson T5000 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson T5000",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "module_power_max",
+          "value": 130,
+          "unit": "W",
+          "denominator": "Jetson T5000 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "Jetson T5000",
+          "status": "manufacturer_specification"
+        }
+      ],
+      "missingness_reason": "Product-page original publication date not disclosed in retrieved text"
+    },
+    {
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "schema_version": "0.1",
+      "evidence_id": "HI-005",
+      "claim": "H200 uses 141GB HBM3e at 4.8TB/s; not interchangeable with embedded LPDDR modules.",
+      "url": "https://www.nvidia.com/en-us/data-center/h200/",
+      "publisher": "NVIDIA",
+      "publication_date": null,
+      "observation_period": "live product snapshot retrieved 2026-10-25",
+      "source_class": "manufacturer_specification",
+      "epistemic_status": "vendor_specification",
+      "locator": "Higher Performance With Larger Faster Memory; benchmark footnotes",
+      "limitations": "Vendor benchmark comparisons vary batch sizes and workloads; no robotics inference throughput inferred.",
+      "quantities": [
+        {
+          "metric": "memory_capacity",
+          "value": 141,
+          "unit": "GB",
+          "denominator": "H200 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "H200",
+          "status": "manufacturer_specification"
+        },
+        {
+          "metric": "memory_bandwidth",
+          "value": 4.8,
+          "unit": "TB/s",
+          "denominator": "H200 configured module/GPU",
+          "period": "product snapshot 2026-10-25",
+          "population": "H200",
+          "status": "manufacturer_specification"
+        }
+      ],
+      "missingness_reason": "Product-page original publication date not disclosed in retrieved text"
+    },
+    {
+      "schema_version": "0.1",
+      "evidence_id": "HI-006",
+      "claim": "Micron reports 26 multiyear take-or-pay SCAs, $32bn customer financial commitments mostly deposits, and vast majority of calendar2027 HBM supply contracted; new fab initial output and meaningful ramp differ. Humanoid memory demand discussion is forward-looking.",
+      "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+      "publisher": "Micron Technology",
+      "publication_date": "2026-09-30",
+      "observation_period": "FY2026 Q4 ended 2026-09-03; forward plans2027\u20132031",
+      "retrieved_at": "2026-10-25",
+      "geography": "global",
+      "source_class": "issuer_prepared_earnings_remarks",
+      "epistemic_status": "issuer_claim_and_forward_guidance",
+      "locator": "Manufacturing expansions; Strategic customer agreements update; Data center; Physical AI",
+      "limitations": "No customer-specific robot allocations, product qualification yields or disclosed humanoid BOM. Commitments/deposits are not additional revenue. Forecast capacity and humanoid memory requirements are not observations.",
+      "quantities": [
+        {
+          "value": 26,
+          "unit": "agreements",
+          "denominator": "signed SCAs",
+          "period": "FYQ4 2026 remarks",
+          "status": "issuer_reported",
+          "population": "signed SCAs"
+        },
+        {
+          "value": 32,
+          "unit": "billion USD commitments",
+          "denominator": "26 SCAs and extensions, mostly cash deposits",
+          "period": "FYQ4 2026 remarks",
+          "status": "issuer_reported",
+          "population": "26 SCAs and extensions, mostly cash deposits"
+        }
+      ]
+    }
+  ],
+  "search_coverage": {
+    "requested_search_results": 15,
+    "unique_primary_sources_used": 6,
+    "search_note": "Three targeted searches at five requested results each; direct fetches verify six cited sources. Requested result count is not full-text review count."
+  }
+}

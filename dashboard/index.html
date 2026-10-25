@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Robotics Economics · Research Observatory</title><link rel="stylesheet" href="/dashboard/style.css"></head>
+<body>
+<header><div><span class="eyebrow">ROBOTICS ECONOMICS / RESEARCH EDITION 0.1</span><h1>From capability to productive deployment.</h1><p>End markets, shared constraints, organization and evidence in one local research workspace.</p></div><div class="header-tools"><a href="/REPORT.md" target="_blank">Report ↗</a><a href="/REPRODUCE.md" target="_blank">Reproduce ↗</a><button id="download-json">Export scenario</button></div></header>
+<div class="persistent-warning"><strong>Synthetic mechanism scenarios.</strong> All numerical model inputs are illustrative and uncalibrated. Sourced evidence is separate. Fractional robot/site quantities are a continuous relaxation, not an executable factory plan.</div>
+<div class="layout"><aside>
+<h2>Shared scope</h2><label>Market-stage cell<select id="cell-filter"><option value="all">All six modeled cells</option></select></label>
+<label>Scenario year<select id="year-filter"></select></label>
+<label>Evidence search<input id="evidence-search" type="search" placeholder="System, actor, claim, status…"></label>
+<label>Source status<select id="status-filter"><option value="all">All evidence statuses</option></select></label>
+<div class="scope-note">Model filters select a constructed cohort. Evidence without a cell link appears as a labeled reference record.</div>
+<h2>Scenario assumptions</h2><label>Saved scenario<select id="preset"></select></label>
+<div id="controls"></div><button id="reset" class="wide">Reset to saved scenario</button>
+<label class="upload">Reload exported scenario<input id="import" type="file" accept="application/json,.json"></label>
+<div id="run-state" role="status">Loading local engine…</div>
+</aside><main>
+<nav id="views" aria-label="Research views"></nav>
+<div class="view-heading"><div><span id="view-kicker" class="eyebrow"></span><h2 id="view-title"></h2></div><span id="scope" class="chip"></span></div>
+<section id="content" aria-live="polite"><p>Loading evidence and deterministic model…</p></section>
+<footer><a href="/model/METHODS.md" target="_blank">Methods and limitations</a><span id="model-hash"></span><button id="download-csv">Export selected cohort CSV</button></footer>
+</main></div>
+<dialog id="evidence-dialog"><button id="close-dialog" class="close">Close ×</button><div id="evidence-detail"></div></dialog>
+<script src="/dashboard/app.js"></script></body></html>

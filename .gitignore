@@ -4,3 +4,7 @@ work/
 incoming/
 .DS_Store
 logs/
+
+# Reproducible Python execution caches
+__pycache__/
+*.py[cod]

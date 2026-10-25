@@ -1,0 +1,1416 @@
+{
+  "schema_version": "digital-evidence-v0.1",
+  "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
+  "as_of": "2026-10-25",
+  "status": "first_wave_substantive_checkpoint_not_campaign_completion",
+  "runtime_configuration": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "ultra",
+    "verified_actual_model": null,
+    "verified_actual_reasoning": null,
+    "missing_reason": "Child runtime exposes tool-supported model names but no authenticated introspection establishing this agent's selected model/reasoning."
+  },
+  "source_accounting": {
+    "search_calls": 5,
+    "requested_search_result_slots": 25,
+    "interpretation": "Sum of numResults, not 25 unique validated sources; fetches are additional. Duplicate versions are not independent corroboration.",
+    "rejected_route": "A guessed DrEureka arXiv identifier resolved to an unrelated mathematics paper; rejected before use and replaced through title search."
+  },
+  "evidence": [
+    {
+      "evidence_id": "H-QJE-2025",
+      "claim": "GPT-3-based suggestions increased resolved customer issues per agent-hour by 15% on average in one firm; novice gains and expert quality effects differed.",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "publisher": "Quarterly Journal of Economics / Brynjolfsson, Li, Raymond",
+      "publication_date": "2025-02-04",
+      "observation_period": "Rollout primarily fall 2020 and winter 2021; study publication 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "peer_reviewed_operating_study",
+      "epistemic_status": "historical_causal_estimate_with_identification_assumptions",
+      "locator": "Abstract; IV.A AI Rollout; IV.C Empirical Strategy; V; VIII",
+      "quote": "Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average.",
+      "limitations": "Staggered rollout with parallel-trend/selection assumptions; single software-support firm and subcontractors; suggestions subject to human discretion; not a current frontier-model estimate, wage effect, avoided-payroll estimate, or physical-work coefficient.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 5172,
+          "unit": "agents",
+          "denominator": "study sample",
+          "period": "study observation window",
+          "population": "customer support workers at one firm and subcontractors",
+          "measurement_status": "observed_sample"
+        },
+        {
+          "value": 15,
+          "unit": "percent relative increase",
+          "denominator": "issues resolved per agent-hour",
+          "period": "post-adoption within study",
+          "population": "study agents",
+          "measurement_status": "estimated_average_treatment_effect"
+        }
+      ],
+      "system": "GPT-3-based suggestion system; human owns chat",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-METR-2026",
+      "claim": "Newer developer experiment cannot reliably identify current productivity uplift because AI enthusiasm changes participation and task selection; concurrent agents complicate time measurement.",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "publisher": "METR",
+      "publication_date": "2026-02-24",
+      "observation_period": "Original February\u2013June 2025; follow-up started August 2025, interpreted February 2026",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_organization_methodological_update",
+      "epistemic_status": "research_evidence_with_material_selection_limit",
+      "locator": "Opening six paragraphs; Wider adoption; Details of productivity study",
+      "quote": "our data is only very weak evidence for the size of this increase.",
+      "limitations": "Not evidence that 2025 slowdown persists in 2026; later raw estimates have confidence intervals crossing zero and non-random inclusion; reports of large speedups are not reliable causal estimates.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 57,
+          "unit": "developers",
+          "denominator": "follow-up participants",
+          "period": "follow-up from August 2025",
+          "population": "experienced open-source developers",
+          "measurement_status": "observed_sample"
+        },
+        {
+          "value": 143,
+          "unit": "repositories",
+          "denominator": "follow-up study repositories",
+          "period": "follow-up",
+          "population": "participating projects",
+          "measurement_status": "observed_sample"
+        },
+        {
+          "value": 19,
+          "unit": "percent longer task time",
+          "denominator": "AI-disallowed task time",
+          "period": "February\u2013June 2025",
+          "population": "original study",
+          "measurement_status": "historical_randomized_estimate",
+          "confidence_interval": [
+            2,
+            39
+          ]
+        },
+        {
+          "value": -18,
+          "unit": "percent change in task time",
+          "denominator": "AI-disallowed task time",
+          "period": "follow-up",
+          "population": "10 returning developers",
+          "measurement_status": "selection_compromised_raw_estimate",
+          "confidence_interval": [
+            -38,
+            9
+          ]
+        },
+        {
+          "value": -4,
+          "unit": "percent change in task time",
+          "denominator": "AI-disallowed task time",
+          "period": "follow-up",
+          "population": "47 newly recruited developers",
+          "measurement_status": "selection_compromised_raw_estimate",
+          "confidence_interval": [
+            -15,
+            9
+          ]
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-CENSUS-2026",
+      "claim": "Firm adoption, function breadth and worker task use are distinct diffusion margins; 18% firm use and 32% employment-weighted use describe broad AI, not LLM-only or physical automation.",
+      "url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf",
+      "publisher": "Census CES / Bonney et al.",
+      "publication_date": "2026-04",
+      "observation_period": "November 2025\u2013January 2026 reference period; supplement fielded December 2025\u2013February 2026",
+      "retrieved_at": "2026-10-25",
+      "source_class": "government_working_paper",
+      "epistemic_status": "observational_survey",
+      "locator": "Abstract; Sections 1\u20132 measurement architecture; discussion of two-week versus six-month frames",
+      "quote": "An important limitation is that worker-use measures are reported by firm respondents rather than directly by employees",
+      "limitations": "Question changed effective November 17 2025; no direct time-series comparison to earlier narrow wording; worker-use reference is six months vs firm-use two weeks; firms' performance correlations are not causal; anticipated 22% future use is expectation not observation.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "publication_date_precision": "month; landing-page metadata says April 15 and search PDF metadata April 25, so no unverified day chosen",
+      "quantities": [
+        {
+          "value": 18,
+          "unit": "percent firms",
+          "denominator": "BTOS represented firms",
+          "period": "November 2025\u2013January 2026",
+          "population": "US BTOS business population",
+          "measurement_status": "survey_estimate"
+        },
+        {
+          "value": 32,
+          "unit": "percent employment-weighted firms",
+          "denominator": "employment in represented firms",
+          "period": "November 2025\u2013January 2026",
+          "population": "US BTOS business population",
+          "measurement_status": "survey_estimate"
+        },
+        {
+          "value": 57,
+          "unit": "percent adopting firms",
+          "denominator": "AI functional adopters",
+          "period": "supplement",
+          "population": "firms using AI",
+          "measurement_status": "three_or_fewer_functions"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-GDPVAL-2025",
+      "claim": "GDPval evaluates specified professional work products; its reported inference-speed/cost comparison omits oversight and integration and cannot measure complete-job automation.",
+      "url": "https://openai.com/index/gdpval/",
+      "publisher": "OpenAI",
+      "publication_date": "2025-09-25",
+      "observation_period": "GDPval first release, 2025-09",
+      "retrieved_at": "2026-10-25",
+      "source_class": "vendor_benchmark_report",
+      "epistemic_status": "research_benchmark",
+      "locator": "What GDPval measures; How we grade; Early results; Limitations",
+      "quote": "these figures reflect pure model inference time and API billing rates",
+      "limitations": "One-shot prompt/reference-file tasks; human authors also create reference outputs; no enterprise responsibility, discovery, iterative client feedback or physical execution; released subset can affect future contamination.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 1320,
+          "unit": "tasks",
+          "denominator": "full GDPval first release",
+          "period": "2025 release",
+          "population": "44 knowledge-work occupations across nine industries",
+          "measurement_status": "benchmark_design"
+        },
+        {
+          "value": 220,
+          "unit": "tasks",
+          "denominator": "gold public subset",
+          "period": "2025 release",
+          "population": "same selected occupations",
+          "measurement_status": "benchmark_design"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-AGENTCOMPANY-V3",
+      "claim": "Gemini 2.5 Pro with OpenHands 0.28.1 completed 30.3% of 175 simulated-company tasks, showing the difference between isolated deliverables and tool-mediated workflows.",
+      "url": "https://arxiv.org/html/2412.14161v3",
+      "publisher": "TheAgentCompany authors / arXiv",
+      "publication_date": "2025-09-10",
+      "observation_period": "v3 benchmark/model snapshot",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "simulated_workflow_benchmark",
+      "locator": "Introduction; Sections 3\u20137; results table; Appendix D",
+      "quote": "the best performing model, Gemini 2.5 Pro was able to autonomously perform 30.3%",
+      "limitations": "Not live firm output or current 2026 frontier; simulated coworkers; fixed self-hosted systems; model and harness versions differ; API costs omit integration and humans; full run budget/latency not fully extracted in first wave.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 30.3,
+          "unit": "percent tasks fully successful",
+          "denominator": 175,
+          "period": "v3 reported experiments",
+          "population": "simulated software-company benchmark",
+          "measurement_status": "benchmark_result"
+        },
+        {
+          "value": 39.3,
+          "unit": "percent partial-credit score",
+          "denominator": "benchmark maximum checkpoint score",
+          "period": "v3",
+          "population": "same",
+          "measurement_status": "benchmark_result"
+        },
+        {
+          "value": 4.2,
+          "unit": "USD nominal API cost per instance",
+          "denominator": "evaluated instances, no prompt caching",
+          "period": "v3 pricing basis",
+          "population": "Gemini 2.5 Pro/OpenHands 0.28.1",
+          "measurement_status": "author_cost_calculation"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-COORDINATION-2026",
+      "claim": "Updated peer-reviewed coordination study supports task-specific architecture testing; universal scaling claims are weaker than January blog wording.",
+      "url": "https://www.nature.com/articles/s42256-026-01268-y",
+      "publisher": "Nature Machine Intelligence / Kim et al.",
+      "publication_date": "2026-07-24",
+      "observation_period": "Published experiment of 260 configurations; six benchmarks",
+      "retrieved_at": "2026-10-25",
+      "source_class": "peer_reviewed_benchmark_study",
+      "epistemic_status": "research_evidence",
+      "locator": "Abstract; Main; MAS domain-dependence; Methods; Limitations",
+      "quote": "We therefore interpret this threshold as a practical selection rule rather than a universal scaling principle.",
+      "limitations": "Six benchmark clusters; only 20 instances/configuration for SWE-bench and Terminal-Bench; within-domain architecture selection more stable than cross-domain prediction; most descriptive coefficients fail cluster-robust correction; no physical congestion, collision, hardware or service costs. Sampling differs: SWE-bench Verified uses a 20-task subset sampled with seed 42; Terminal-Bench uses the first 20 of an 89-instance snapshot, per Data availability.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 260,
+          "unit": "configurations",
+          "denominator": "experiment",
+          "period": "July 2026 article",
+          "population": "five architectures and three LLM families over six benchmarks",
+          "measurement_status": "experiment_design"
+        },
+        {
+          "value": 0.373,
+          "unit": "cross_validated_R_squared",
+          "denominator": "six-benchmark fitted model",
+          "period": "July 2026 article",
+          "population": "tested configurations",
+          "measurement_status": "reported_model_fit"
+        },
+        {
+          "value": 87,
+          "unit": "percent correct best-architecture selection",
+          "denominator": "held-out within-domain configurations",
+          "period": "July 2026 article",
+          "population": "tested domains",
+          "measurement_status": "reported_validation"
+        },
+        {
+          "value": 94,
+          "unit": "percent correct sign",
+          "denominator": "16 additional model\u00d7benchmark configurations",
+          "period": "validation",
+          "population": "SWE-bench Verified / Terminal-Bench",
+          "measurement_status": "reported_validation"
+        }
+      ],
+      "model_families": [
+        "GPT-5-nano/mini/5",
+        "Gemini 2.0 Flash / 2.5 Flash / 2.5 Pro",
+        "Claude Sonnet 3.7 / 4 / 4.5; 3.7 unavailable in two added benchmarks"
+      ],
+      "budget": "Matched per-system reasoning-token ceilings and tool-call access; reported mean reasoning-token budget approximately 4,800; split across agents; iteration ceilings are termination controls",
+      "supersedes": "H-COORDINATION-BLOG-2026",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-COORDINATION-BLOG-2026",
+      "claim": "January Google blog describes the earlier 180-configuration/four-benchmark version; it must not replace the expanded July article.",
+      "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "publisher": "Google Research",
+      "publication_date": "2026-01-28",
+      "observation_period": "Earlier 180-configuration study",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_organization_summary",
+      "epistemic_status": "superseded_version_for_current_synthesis",
+      "locator": "Opening; predictive model",
+      "quote": "Through a controlled evaluation of 180 agent configurations",
+      "limitations": "January R\u00b2 = .513 and 80.9% financial-task uplift differ from later expanded result; preserve as version history only.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-AUTORT-2024",
+      "claim": "AutoRT demonstrates foundation-model-guided physical data collection, not autonomous commercial production: 53 total robots collected approximately 77k episodes over seven months with mixed policies.",
+      "url": "https://arxiv.org/html/2401.12963v2",
+      "publisher": "Google DeepMind / AutoRT authors",
+      "publication_date": "2024-07-02",
+      "observation_period": "7-month experiment reported in v2; four office buildings",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "physical_research_deployment",
+      "locator": "Sections 4.5\u20134.6 and 5; Table 1; Section 5.1",
+      "quote": "our measure of success for AutoRT is the diversity of the collected data",
+      "limitations": "53 total differs from >20 simultaneous; humans reset scenes and supervise 3\u20135 mobile robots; selection and distribution shift severe; no accepted-output cost or enterprise/ERP productivity claim; episode count is not training value.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 73293,
+          "unit": "episodes",
+          "denominator": "scripted-policy trials",
+          "period": "7-month collection",
+          "population": "AutoRT office mobile manipulators",
+          "measurement_status": "observed_research_activity",
+          "success_rate_percent": 21
+        },
+        {
+          "value": 3060,
+          "unit": "episodes",
+          "denominator": "teleoperated trials",
+          "period": "same",
+          "population": "same",
+          "measurement_status": "observed_research_activity",
+          "success_rate_percent": 82
+        },
+        {
+          "value": 936,
+          "unit": "episodes",
+          "denominator": "RT-2 trials",
+          "period": "same",
+          "population": "same",
+          "measurement_status": "observed_research_activity",
+          "success_rate_percent": 4.7
+        },
+        {
+          "value": 53,
+          "unit": "robots",
+          "denominator": "total used, not simultaneous",
+          "period": "7months",
+          "population": "study fleet",
+          "measurement_status": "observed_research_activity"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-RMF-INTERFACE",
+      "claim": "Open-RMF exposes mixed observation/control integration and door interfaces; control rights determine feasible coordination even before any LLM is added.",
+      "url": "https://openrmf.readthedocs.io/en/latest/interfacing/index.html",
+      "publisher": "Open-RMF documentation",
+      "publication_date": null,
+      "observation_period": "latest documentation retrieved 2026-10-25; immutable version not stated",
+      "retrieved_at": "2026-10-25",
+      "source_class": "technical_documentation",
+      "epistemic_status": "conventional_interface_evidence",
+      "locator": "Robot fleet integration; integration-feature table; Door integration",
+      "quote": "RMF is specifically designed to allow this type of \u201cmixed levels of control\u201d",
+      "limitations": "Documentation, not measured LLM uplift; latest URL not pinned release; publication_date null because not stated; sampled page describes fleet/door messages, not a complete ERP transaction protocol.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "missingness_reasons": {
+        "publication_date": "No publication date in fetched documentation"
+      },
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-DREUREKA-2024",
+      "claim": "GPT-4 generated reward and domain-randomization candidates that supported real-world quadruped/manipulation transfer, with training and physical validation remaining necessary.",
+      "url": "https://arxiv.org/html/2406.01967v1",
+      "publisher": "DrEureka authors / arXiv",
+      "publication_date": "2024-06-04",
+      "observation_period": "RSS 2024 experiments, v1",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "physical_experimental_evidence",
+      "locator": "Methods; Tables I\u2013II; domain-randomization baselines; VIII Limitations",
+      "quote": "we train policies for all 16 configurations and evaluate all policies in the real world",
+      "limitations": "16 DR configurations and three training seeds per configuration; best-of-candidates selection matters; no policy-selection mechanism established; proprioceptive tasks and existing simulation assets; runtime comparison against CEM/BayRn is not total humanoid R&D savings.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 16,
+          "unit": "DR configurations",
+          "denominator": "generated candidates",
+          "period": "study",
+          "population": "tested locomotion/manipulation methods",
+          "measurement_status": "experiment_design"
+        },
+        {
+          "value": 3,
+          "unit": "hours wall-clock runtime",
+          "denominator": "DR method comparison",
+          "period": "study",
+          "population": "DrEureka baseline comparison",
+          "measurement_status": "reported_experiment_timing",
+          "comparators_hours": {
+            "CEM": 10,
+            "BayRn": 20
+          }
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-ASTRANOMY",
+      "claim": "Astranomy shows strong simulated manipulation from Astra but also high latency/API costs under paused simulation without walltime or retry limits.",
+      "url": "https://research.nvidia.com/labs/srl/projects/astranomy/",
+      "publisher": "NVIDIA research",
+      "publication_date": null,
+      "observation_period": "Current page retrieved 2026-10-25; research seeds identify October 2026, exact publication date not visible in extract",
+      "retrieved_at": "2026-10-25",
+      "source_class": "vendor_research_report",
+      "epistemic_status": "simulated_control_benchmark",
+      "locator": "Figure 2; Sections4.1/4.2 Tables3/A11; Section7 Study Limitations; full225267-character extraction retrieved2026-10-25",
+      "quote": "Control runs at 15 Hz with simulation paused during inference.",
+      "limitations": "Five fixed-seed episodes per120 tasks; medium reasoning; simulation paused during inference. Sections4.1/4.2 report timing and cost conditional on successful episodes, not cost including failures per delivered success. Agentic usage covers447 of449 successes. Estimated walltime adds rollout and inference, not a real-world dynamic test. Section7 explicitly does not establish statistical significance of configuration differences, and excludes insertion/assembly and highly dynamic tasks. No physical economics calibration.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "missingness_reasons": {
+        "publication_date": "Exact publication date not visible in fetched page; seed date not promoted to verified metadata"
+      },
+      "quantities": [
+        {
+          "value": 74.8,
+          "unit": "percent success",
+          "denominator": "120 tasks \u00d7 five episodes",
+          "period": "page snapshot",
+          "population": "Astra Agentic, simulated DROID",
+          "measurement_status": "benchmark_result"
+        },
+        {
+          "value": 13.37,
+          "unit": "seconds per model call",
+          "denominator": "Agentic inference calls in successful episodes",
+          "period": "page snapshot",
+          "population": "Astra Agentic",
+          "measurement_status": "reported_average"
+        },
+        {
+          "value": 36.4,
+          "unit": "USD mean API cost of usage-covered successful episode",
+          "denominator": "447 usage-covered successful episodes out of449 successes; failed episodes excluded",
+          "period": "pricing published2026-10-01; benchmark retrieved2026-10-25",
+          "population": "Astra Agentic",
+          "measurement_status": "source_reported_conditional_cost"
+        },
+        {
+          "value": 18.56,
+          "unit": "seconds per model call",
+          "denominator": "Direct policy calls in successful episodes",
+          "period": "page snapshot",
+          "population": "Astra Direct",
+          "measurement_status": "reported_average"
+        },
+        {
+          "value": 97.8,
+          "unit": "percent of estimated episode duration",
+          "denominator": "rollout duration plus inference duration for successful episodes",
+          "period": "benchmark snapshot2026-10-25",
+          "population": "Astra Agentic policy",
+          "measurement_status": "source_reported_estimated_walltime_share"
+        },
+        {
+          "value": 447,
+          "unit": "episodes with token usage",
+          "denominator": "449 successful Agentic episodes;600 attempted episodes across120 tasks",
+          "period": "benchmark snapshot2026-10-25",
+          "population": "Astra Agentic policy",
+          "measurement_status": "source_reported_usage_coverage"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-FTC-2025",
+      "claim": "Selected cloud\u2013lab partnerships combine equity, cloud-spend commitments, distribution and information/control rights, with potential switching and input-access implications.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study",
+      "publisher": "Federal Trade Commission",
+      "publication_date": "2025-01-17",
+      "observation_period": "Information to September 2024 plus public information through January 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "regulator_primary_summary",
+      "epistemic_status": "historical_relationship_evidence",
+      "locator": "Key Findings; final scope paragraph",
+      "quote": "Commitments that require AI developers to spend a large portion of their CSP partner\u2019s investment on cloud services",
+      "limitations": "Three selected partnerships, not whole industry or current October 2026 contract inventory; potential competition concerns not proven realized harm; summary of report fetched, underlying confidential terms unavailable.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-DEPLOYCO-2026",
+      "claim": "OpenAI announced a majority-owned deployment company and agreement to acquire Tomoro, combining lab access, implementation staff and investor/customer channels.",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "publisher": "OpenAI",
+      "publication_date": "2026-05-11",
+      "observation_period": "Announcement 2026-05-11; transaction completion not verified",
+      "retrieved_at": "2026-10-25",
+      "source_class": "issuer_announcement",
+      "epistemic_status": "announced_corporate_arrangement",
+      "locator": "Launch paragraphs; Accelerating deployment; closing condition",
+      "quote": "The acquisition is subject to customary closing conditions, including applicable regulatory approvals",
+      "limitations": "More than $4 billion initial investment is launch/commitment language, not independently audited cash spent; approximately 150 staff would transfer after closing; partner portfolio counts are channels, not deployments; no verified productivity or financial outcome.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 4,
+          "unit": "USD billion, lower bound announced initial investment",
+          "denominator": "OpenAI Deployment Company",
+          "period": "launch announcement",
+          "population": "issuer disclosed capital",
+          "measurement_status": "announced_not_cash_verified"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-ODE-2026",
+      "claim": "Ode issuer reports a standalone Anthropic / Blackstone / Hellman & Friedman-linked AI-services company built on Fractional AI, acquired in May 2026.",
+      "url": "https://www.ode.com/press/anthropic-blackstone-and-hellman-friedman-introduce-ode-with-anthropic-an-enterprise-ai-services-firm",
+      "publisher": "Ode",
+      "publication_date": "2026-07-15",
+      "observation_period": "July 2026 introduction; issuer states May 2026 acquisition",
+      "retrieved_at": "2026-10-25",
+      "source_class": "issuer_announcement",
+      "epistemic_status": "issuer_reported_corporate_arrangement",
+      "locator": "Opening three paragraphs; About Ode",
+      "quote": "Ode is built on the foundation of Fractional AI, the applied AI services firm acquired in May 2026",
+      "limitations": "Issuer statement supports disclosed acquisition status; cap table, exclusive model rights, customer outcomes and margins not disclosed here; service-company formation is not operating-customer ownership.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-SAP-2026",
+      "claim": "SAP announces governed assistants/agents spanning planning, logistics, manufacturing, asset/service and ERP; phased 2026 availability is not measured deployment impact.",
+      "url": "https://news.sap.com/2026/05/more-autonomous-supply-chain/",
+      "publisher": "SAP / Dominik Metzger",
+      "publication_date": "2026-05-14",
+      "observation_period": "2026 phased availability announcement",
+      "retrieved_at": "2026-10-25",
+      "source_class": "vendor_product_announcement",
+      "epistemic_status": "announced_features",
+      "locator": "AI grounded in real operations; Joule Assistants; autonomous agents",
+      "quote": "General availability will be phased throughout 2026, starting now.",
+      "limitations": "No agent-specific availability or installed-outcome validation in first wave; no demonstrated integration with cited robot systems; roadmap cannot establish a joint production system.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-CHINCHILLA-2022",
+      "claim": "Compute-optimal training research supports domain-specific allocation among model/data/compute, not a universal robotics scaling coefficient.",
+      "url": "https://arxiv.org/html/2203.15556v1",
+      "publisher": "Hoffmann et al. / DeepMind",
+      "publication_date": "2022-03-29",
+      "observation_period": "2022 training experiments v1",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "historical_training_scaling_experiment",
+      "locator": "Sections 3.1\u20133.4; Table 2; Section 4",
+      "quote": "there is significant uncertainty extrapolating out many orders of magnitude",
+      "limitations": "Text-pretraining loss and downstream evaluations under specified fixed-training compute; optimizer/data differences; no inference-lifetime or physical data cost optimum; exponents not robot reliability or productivity coefficients.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-HOSPITAL-2026",
+      "claim": "ChristianaCare's 2022\u201325 nurse-led pilot delivered operational value in nonurgent flows but did not meaningfully augment complex time-sensitive nursing despite tested EHR/elevator integration.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13048758/",
+      "publisher": "Delaware Journal of Public Health / ChristianaCare authors",
+      "publication_date": "2026-03-31",
+      "observation_period": "Three-year pilot 2022\u20132025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "operator_authored_research_reflection",
+      "epistemic_status": "physical_operating_evidence",
+      "locator": "Abstract; Nurses Shaping Robotic Innovation",
+      "quote": "current cobot capabilities were unable to meaningfully augment nurses\u2019 complex and often time-sensitive patient care workflows",
+      "limitations": "Reflection and aggregate reported delivery activity, not randomized productivity or full cost study; grant-funded; no LLM contribution attribution; delivered count is not payroll avoided.",
+      "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
+      "quantities": [
+        {
+          "value": 48600,
+          "unit": "deliveries, lower bound",
+          "denominator": "three cobots over grant period",
+          "period": "2022\u20132025",
+          "population": "more than 80 patient areas, one health system",
+          "measurement_status": "operator_reported_activity"
+        }
+      ],
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "target_parameters_allowed": []
+    }
+  ],
+  "benchmarks": [
+    {
+      "benchmark_id": "H-BM01",
+      "evidence_ids": [
+        "H-GDPVAL-2025"
+      ],
+      "category": "professional_outputs",
+      "version": "GDPval initial release, September 2025",
+      "systems": "GPT-4o, o4-mini, o3, GPT-5, Claude Opus 4.1, Gemini 2.5 Pro and Grok 4.",
+      "harness": "One-shot prompt with reference files",
+      "population": "1,320 tasks; 220 public gold tasks; 44 knowledge-work occupations across nine industries.",
+      "budget": null,
+      "budget_missing_reason": "Exact per-model token/compute budget not extracted from announcement",
+      "tool_access": "Artifact creation from provided context; specific tool configuration must be recovered from paper",
+      "human_involvement": "Expert task writers/reference outputs and blind graders",
+      "acceptance": "Paired output preference, win/tie/loss; not full job acceptance",
+      "retries": "One-shot framing",
+      "timing_cost": "Headline approximately 100\u00d7 comparison includes inference time and API billing only; excluded from target calibration.",
+      "failure_severity": "Professional-output defect, not deployed consequential decision",
+      "external_validity": "Task selection, one-shot context, omission of workflow ownership and physical action",
+      "contamination": "The public 220-task subset requires contamination checks for later models."
+    },
+    {
+      "benchmark_id": "H-BM02",
+      "evidence_ids": [
+        "H-AGENTCOMPANY-V3"
+      ],
+      "category": "organizational_workflow",
+      "version": "arXiv 2412.14161v3",
+      "systems": "Gemini 2.5 Pro / OpenHands 0.28.1 is the reported top configuration.",
+      "harness": "OpenHands CodeAct with browser, terminal, self-hosted company applications and simulated coworkers.",
+      "population": "175 tasks in a simulated software firm.",
+      "budget": null,
+      "budget_missing_reason": "Exact step ceiling and full latency were not extracted in this wave.",
+      "human_involvement": "Human-designed tasks/checkpoint evaluators; simulated coworkers",
+      "acceptance": "Full task success distinct from partial checkpoint credit",
+      "retries": null,
+      "retries_missing_reason": "Not fully extracted",
+      "timing_cost": "27.2 average steps and $4.20 nominal API cost per instance, assuming no prompt caching.",
+      "failure_severity": "Environment/interaction failures; no live customers",
+      "external_validity": "No real company outcome or currentmodel ceiling",
+      "contamination": "Self-hosted static benchmark; release permits later familiarity"
+    },
+    {
+      "benchmark_id": "H-BM03",
+      "evidence_ids": [
+        "H-COORDINATION-2026"
+      ],
+      "category": "agent_coordination",
+      "version": "Nature article, 24 July 2026; 260 configurations.",
+      "systems": "GPT-5 family; Gemini 2.0/2.5; Claude Sonnet 3.7/4/4.5.",
+      "harness": "Single-agent and independent, centralized, decentralized and hybrid multi-agent systems.",
+      "population": "Six benchmarks. Four have 50\u2013100 instances per configuration. SWE-bench Verified uses 20 tasks sampled with seed 42; Terminal-Bench uses the first 20 tasks of an 89-instance snapshot.",
+      "budget": "Matched per-system reasoning-token ceilings and tool access; reported mean approximately 4,800 tokens. Budgets are split across agents.",
+      "human_involvement": "Task/evaluator construction, no live production operators",
+      "acceptance": "Benchmark-specific task success and within-domain architecture ranking.",
+      "retries": "Completion, consensus, per-agent budget exhaustion and iteration ceilings; exact ceiling table remains to be extracted.",
+      "timing_cost": "Coordination overhead measured; no robot supervisory or physical cost",
+      "failure_severity": "Trace error propagation, not accident rate",
+      "external_validity": "Six benchmark clusters; most coefficients fail robust inference. The approximately 45% rule is not universal.",
+      "contamination": "Static benchmarks and small added-domain subsets"
+    },
+    {
+      "benchmark_id": "H-BM04",
+      "evidence_ids": [
+        "H-ASTRANOMY"
+      ],
+      "category": "embodied_control",
+      "version": "Page snapshot retrieved 25 October 2026; main 120-task benchmark.",
+      "systems": "GPT-6 Astra, medium reasoning, in Direct, Agentic and Orchestrated configurations; simulated DROID.",
+      "harness": "Persistent Codex, direct API, or oversight of Cosmos3-Nano-Policy.",
+      "population": "120 pick-and-place tasks \u00d7 five fixed-seed episodes.",
+      "budget": "15 Hz simulation paused during inference; no walltime/retry limit; task action-step limits; 8,192 completion tokens per call.",
+      "human_involvement": "Simulation setup and prompts; no real productive deployment.",
+      "acceptance": "RoboLab success and completion score",
+      "retries": "No walltime or retry limit in disclosed setup.",
+      "timing_cost": "Successful episodes only: Agentic13.37 seconds/call, inference97.8% of estimated rollout+inference duration; TableA11 $36.40 mean over447 usage-covered successes of449, pricing2026-10-01. Failed-episode costs excluded; not total cost per delivered success.",
+      "failure_severity": "Simulated manipulation;not real damage/downtime",
+      "external_validity": "Five seeds per task; significance of configuration differences not established by authors. Paused simulation does not test dynamic real-world responsiveness. Insertion/assembly and highly dynamic tasks excluded.",
+      "contamination": "Zero-shot claim;independent training-contamination audit unavailable"
+    },
+    {
+      "benchmark_id": "H-BM05",
+      "evidence_ids": [
+        "H-DREUREKA-2024"
+      ],
+      "category": "robotics_research_acceleration",
+      "version": "arXiv 2406.01967v1",
+      "systems": "GPT-4, Eureka, reward-aware physics prior and RL-trained policies.",
+      "harness": "Existing task simulators; 16 domain-randomization candidates; three training seeds per configuration; physical validation.",
+      "population": "Quadruped locomotion, LEAP hand cube rotation and quadruped globe walking.",
+      "budget": "Candidate, RL training and real-evaluation budgets. Complete human-hours and total compute cost remain unknown.",
+      "human_involvement": "Engineered simulation, robot setup and physical validation; minimal safety support in globe demonstrations.",
+      "acceptance": "Velocity/distance, cube rotation/time-to-fall and globe balance.",
+      "retries": "Best and average results across candidates; not one-shot engineering.",
+      "timing_cost": "Three hours versus ten for CEM and twenty for BayRn in a bounded domain-randomization comparison; not whole R&D.",
+      "failure_severity": "Some ablations yielded unsafe, jerky policies; physical validation remains necessary.",
+      "external_validity": "No systematic policy-selection mechanism; proprioceptive tasks; not general humanoid R&D.",
+      "contamination": "Missing-prior ablation addresses a potential leakage mechanism but does not prove all training data unseen."
+    }
+  ],
+  "analogies": [
+    {
+      "analogy_id": "H-AN01",
+      "mechanism": "Training input allocation improves a bounded capability before integration and operation determine value.",
+      "source": "Text-model pretraining loss under fixed training FLOPs",
+      "source_evidence": [
+        "H-CHINCHILLA-2022"
+      ],
+      "source_status": "supported_within_study_domain",
+      "target": "Manufacturing/material-handling embodied policy improvement",
+      "target_evidence": [
+        "H-AUTORT-2024",
+        "H-DREUREKA-2024"
+      ],
+      "target_status": "numerical_transfer_unsupported",
+      "required_similarities": [
+        "Comparable objective and held-out distribution",
+        "Explicit compute/data quality budget",
+        "Inputs can be varied independently"
+      ],
+      "material_differences": [
+        "Embodied experience costly and correlated",
+        "Physical validation, embodiment and real-time control",
+        "Training loss differs from accepted output"
+      ],
+      "prediction": "Held-out site performance improves only when added data covers relevant failures and policy can exploit it.",
+      "falsifier": "Added low-diversity data or extra model compute fails to reduce target-site intervention burden.",
+      "permitted_use": "model_structure_only; no copied exponent",
+      "alternative_explanations": [
+        "Data curation and optimizer improvements rather than scale",
+        "Hardware/integration bottleneck"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN02",
+      "mechanism": "Digital replication can scale quickly once infrastructure exists; physical rollout remains constrained by manufactured and supported assets.",
+      "source": "Digital deployco services/qualified infrastructure chain",
+      "source_evidence": [
+        "H-DEPLOYCO-2026",
+        "H-FTC-2025"
+      ],
+      "source_status": "arrangements_observed; marginal_replication_cost_not_quantified",
+      "target": "Fleet commissioning and service",
+      "target_evidence": [
+        "H-AUTORT-2024",
+        "H-HOSPITAL-2026"
+      ],
+      "target_status": "naive_software_speed_transfer_rejected",
+      "required_similarities": [
+        "Replicable configuration",
+        "Available compatible inputs and operational support"
+      ],
+      "material_differences": [
+        "Robot units, site adaptation, spares and depreciation",
+        "Building access and installation",
+        "Inference infrastructure itself is physical"
+      ],
+      "prediction": "Installation/support capacity can bind after technically capable policies exist.",
+      "falsifier": "Target evidence establishes negligible site/support work with qualified supply slack across representative expansion.",
+      "permitted_use": "capacity_constraint_structure; not_adoption_rate",
+      "alternative_explanations": [
+        "Weak customer demand",
+        "Unit economics not favorable"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN03",
+      "mechanism": "Model accessibility can increase integration value, but platform integration can also absorb complements.",
+      "source": "DeployCo/Ode implementation businesses and cloud-model relationships",
+      "source_evidence": [
+        "H-DEPLOYCO-2026",
+        "H-ODE-2026",
+        "H-FTC-2025"
+      ],
+      "source_status": "corporate_structure_supported; durable_profitability_unknown",
+      "target": "Robot integrator/operator/provider boundary",
+      "target_evidence": [
+        "H-RMF-INTERFACE",
+        "H-HOSPITAL-2026"
+      ],
+      "target_status": "plausible_unproven_rent_transfer",
+      "required_similarities": [
+        "Implementation remains scarce",
+        "Customer can contract for measurable output",
+        "Portability and rights allow reuse"
+      ],
+      "material_differences": [
+        "Physical downtime and liability",
+        "Assets and service geography",
+        "OEM interface/control restrictions"
+      ],
+      "prediction": "Integrator advantage depends on lower repeat deployment cost or superior retained operating output.",
+      "falsifier": "OEM bundles remove independent integrator margins or interfaces eliminate costly adaptation.",
+      "permitted_use": "business_model_hypothesis; no_margin_multiple",
+      "alternative_explanations": [
+        "Temporary labor scarcity",
+        "Cross-subsidy or distribution advantage"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN04",
+      "mechanism": "Deployment access provides learning only through usable observations, access rights, selection and validated feedback.",
+      "source": "QJE experience/learning heterogeneity and Census breadth",
+      "source_evidence": [
+        "H-QJE-2025",
+        "H-CENSUS-2026"
+      ],
+      "source_status": "bounded_learning_evidence; no_universal_data_moat",
+      "target": "Cross-site robotic fleet learning",
+      "target_evidence": [
+        "H-AUTORT-2024",
+        "H-DREUREKA-2024"
+      ],
+      "target_status": "conditional_transfer_only",
+      "required_similarities": [
+        "Observable errors and outcomes",
+        "Rights to train/reuse",
+        "Compatible destination and validation"
+      ],
+      "material_differences": [
+        "Failed episodes not equivalent to expert demonstrations",
+        "Embodiment and environment distribution shift",
+        "Safety and physical reset cost"
+      ],
+      "prediction": "Novel, usable exposure predicts held-out improvement better than raw installed robot count.",
+      "falsifier": "More deployments create redundant/low-quality data, inaccessible rights or no target improvement.",
+      "permitted_use": "directed_transfer_graph_with_null_edges",
+      "alternative_explanations": [
+        "General base model improvement",
+        "Better control hardware"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN05",
+      "mechanism": "Benchmark improvements need acceptance, workflow and intervention accounting before economic interpretation.",
+      "source": "GDPval/TheAgentCompany vs operating productivity studies",
+      "source_evidence": [
+        "H-GDPVAL-2025",
+        "H-AGENTCOMPANY-V3",
+        "H-QJE-2025",
+        "H-METR-2026"
+      ],
+      "source_status": "measurement_boundary_supported",
+      "target": "Robotic control benchmarks to productive service",
+      "target_evidence": [
+        "H-ASTRANOMY",
+        "H-HOSPITAL-2026"
+      ],
+      "target_status": "benchmark_to_payroll_conversion_rejected",
+      "required_similarities": [
+        "Matched task distribution and quality",
+        "Equivalent time and recovery limits",
+        "Full resource accounting"
+      ],
+      "material_differences": [
+        "Paused inference in simulation",
+        "Physical irreversibility and shared queues",
+        "Customer qualification and demand"
+      ],
+      "prediction": "Adding walltime/retry/quality constraints changes cost per accepted output and sometimes ranking.",
+      "falsifier": "Representative target operating trials show benchmark rank and economics remain stable under complete boundaries.",
+      "permitted_use": "evaluation_contract_only",
+      "alternative_explanations": [
+        "Benchmark selection",
+        "Harness differences rather than model capability"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN06",
+      "mechanism": "Coordination improves decomposable work but incurs message, state and verification costs.",
+      "source": "260-configuration Nature coordination study",
+      "source_evidence": [
+        "H-COORDINATION-2026"
+      ],
+      "source_status": "within_domain_conditional_evidence",
+      "target": "Manufacturing/hospital fleets and enterprise orchestration",
+      "target_evidence": [
+        "H-RMF-INTERFACE",
+        "H-HOSPITAL-2026",
+        "H-AUTORT-2024"
+      ],
+      "target_status": "more_agents_always_better_rejected; architecture_hypothesis_plausible",
+      "required_similarities": [
+        "Decomposable work",
+        "Fresh shared state",
+        "Explicit authority and validation",
+        "Budget-matched comparator"
+      ],
+      "material_differences": [
+        "Physical congestion and correlated hardware failure",
+        "Latency deadlines",
+        "Human queues and building interfaces"
+      ],
+      "prediction": "Extra agents help independent diagnosis/planning more than tightly sequential transaction/control loops.",
+      "falsifier": "Controlled target trials show no net gain after supervision and coordination resources or simple rule/solver matches performance.",
+      "permitted_use": "coordination_mechanism_with_positive_zero_negative_scenarios",
+      "alternative_explanations": [
+        "Single stronger model",
+        "Conventional optimizer advantage"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M10-hospital-logistics-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN07",
+      "mechanism": "Lab-linked deployment platforms can combine capital, distribution and implementation, but service-company formation differs from physical operating-newco formation.",
+      "source": "DeployCo and Ode announced arrangements",
+      "source_evidence": [
+        "H-DEPLOYCO-2026",
+        "H-ODE-2026"
+      ],
+      "source_status": "issuer_arrangements_only",
+      "target": "AI-native physical service/manufacturing entrant",
+      "target_evidence": [
+        "H-HOSPITAL-2026"
+      ],
+      "target_status": "physical_newco_financeability_unproven",
+      "required_similarities": [
+        "Access to customers and implementation authority",
+        "Financing through ramp",
+        "Measured retained contribution"
+      ],
+      "material_differences": [
+        "End-market customer acquisition",
+        "Asset replacement and utilization",
+        "New productive capacity vs acquisition relabeling"
+      ],
+      "prediction": "An entrant must fund enterprise ramp beyond robot financing and beat same-technology incumbent.",
+      "falsifier": "Funding exhaustion or incumbent digital adoption removes lead before positive cumulative cashflow.",
+      "permitted_use": "financing_and_actor_role_structure; no_capital_access_or_valuation_parameter",
+      "alternative_explanations": [
+        "Partner distribution rather than technology advantage",
+        "Incumbent control of demand"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    },
+    {
+      "analogy_id": "H-AN08",
+      "mechanism": "Digital assistance can improve incumbent human operations and change the incremental robot hurdle.",
+      "source": "QJE support study plus METR counterevidence and Census organizational distinction",
+      "source_evidence": [
+        "H-QJE-2025",
+        "H-METR-2026",
+        "H-CENSUS-2026"
+      ],
+      "source_status": "heterogeneous_digital_effects_supported",
+      "target": "Human-led physical service workflows plus planning/admin",
+      "target_evidence": [
+        "H-HOSPITAL-2026",
+        "H-SAP-2026"
+      ],
+      "target_status": "human_baseline_effect_unknown_in_specific_cells",
+      "required_similarities": [
+        "Digital intervention applies to relevant bottleneck",
+        "Quality maintained",
+        "Released time can be productively used"
+      ],
+      "material_differences": [
+        "Physical tasks may dominate",
+        "Human support work shared with robots",
+        "No causal SAP deployment estimate"
+      ],
+      "prediction": "Digital-only baseline can lower robot incremental savings; joint complementarity can offset it.",
+      "falsifier": "Digital intervention does not affect cost, capacity or quality of target human process.",
+      "permitted_use": "2x2_scenario_structure; no15percent_transfer",
+      "alternative_explanations": [
+        "Demand/selection changes",
+        "Simultaneous workflow redesign"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ]
+    }
+  ],
+  "direct_contributions": [
+    {
+      "contribution_id": "H-DC01",
+      "role": "robot_control_and_reasoning",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ],
+      "evidence_ids": [
+        "H-AUTORT-2024",
+        "H-ASTRANOMY"
+      ],
+      "digital_input": "Images, a language objective, robot proprioception, descriptions of available policies, and history.",
+      "output": "A proposed task/policy selection or validated end-effector targets.",
+      "interface": "VLM scene description \u2192 LLM proposal and affordance filtering \u2192 scripted, learned or teleoperated policy. Astranomy's host validates the action.",
+      "execution": "A low-level robot controller is separate from the language planner. AutoRT is physical; Astranomy is simulated.",
+      "timing": "Autonomous collection is not productive throughput. Astranomy pauses simulation during inference.",
+      "authority": "Supervisors and guardrails retain operating authority; a model proposal does not prove success.",
+      "acknowledgement": "Measured state, episode outcomes and task-progress feedback.",
+      "fallback": "Reject unsupported tasks and stop or escalate to a human; recovery is not assumed perfect.",
+      "comparator": "The same embedded policy/controller without the additional reasoning layer, or simpler policy-selection rules.",
+      "observed_effect": "Diverse physical data collection in AutoRT; simulated manipulation success in Astranomy.",
+      "target_effect": null,
+      "missing_reason": "No matched commercial-output, staffing and cost experiment.",
+      "resources": "Inference, time, teleoperator availability, reset work and safety monitoring.",
+      "model_implication": "Separate planning latency, inference cost, intervention probability and quality. Hold mandatory embedded software fixed across the robot row."
+    },
+    {
+      "contribution_id": "H-DC02",
+      "role": "fleet_site_enterprise",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ],
+      "evidence_ids": [
+        "H-RMF-INTERFACE",
+        "H-SAP-2026",
+        "H-HOSPITAL-2026",
+        "H-COORDINATION-2026"
+      ],
+      "digital_input": "ERP orders and priorities; WMS/MES and inventory state; robot poses/routes; building state; staff capacity.",
+      "output": "A candidate allocation, route, schedule, work order or business transaction.",
+      "interface": "ERP/WMS/MES decision layer \u2192 validated task API \u2192 fleet manager \u2192 robot. Open-RMF messages include fleet_states, destination_requests, mode_requests, path_requests, DoorState and DoorRequest.",
+      "execution": "Conventional fleet traffic/building control is documented; SAP agents are announced. A combined LLM-to-robot production stack is not observed in these sources.",
+      "timing": "State freshness, deadlines, queues and confirmation latency must be explicit.",
+      "authority": "The customer process owner approves policy; the fleet manager controls robots. A read-only fleet cannot be commanded. Transaction permissions are not inferred.",
+      "acknowledgement": "Task acceptance/rejection, mission state, door state and inventory/work-order reconciliation.",
+      "fallback": "Idempotent transactions, timeouts, replanning and a human exception queue are proposed design requirements.",
+      "comparator": "A human planner and conventional solver/dispatcher with the same information.",
+      "observed_effect": "Interface feasibility and operator workflow limits; no isolated LLM productivity uplift.",
+      "target_effect": null,
+      "missing_reason": "No integrated production experiment isolates the LLM contribution.",
+      "resources": "Integration engineering, human supervision, inference, network and shared corridors/lifts.",
+      "model_implication": "Add control-rights and integration-readiness gates. Coordination can hurt performance. Separate urgent and nonurgent hospital cohorts."
+    },
+    {
+      "contribution_id": "H-DC03",
+      "role": "robotics_R_and_D",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ],
+      "evidence_ids": [
+        "H-DREUREKA-2024",
+        "H-METR-2026"
+      ],
+      "digital_input": "Simulator code, task objectives, safety constraints, training statistics and a physics prior.",
+      "output": "Candidate code, rewards, domain-randomization ranges and experiment proposals.",
+      "interface": "Generated candidate \u2192 code checks \u2192 separately authorized training \u2192 physical validation \u2192 compatible policy release.",
+      "execution": "A research workflow with RL training and hardware validation. This campaign reviews evidence; it does not run those experiments.",
+      "timing": "The engineering critical path includes training, hardware-test availability and human review.",
+      "authority": "Engineers accept candidates and validation results; automatic production deployment is not implied.",
+      "acknowledgement": "Reproducible results and held-out physical tests.",
+      "fallback": "Discard unsafe or ineffective candidates, retain the baseline, or redesign with human input.",
+      "comparator": "A fixed engineering objective with human-designed/search baselines and matched validation resources.",
+      "observed_effect": "Bounded DrEureka performance and method-runtime comparisons. METR identifies changing coding-uplift measurement problems.",
+      "target_effect": null,
+      "missing_reason": "No total humanoid R&D human-hours or validated-improvement coefficient.",
+      "resources": "Human review, failed candidates, training compute, simulation assets and hardware tests.",
+      "model_implication": "Apply R&D gains to validated release cost/delay only after bottleneck accounting, not as a universal scaling multiplier."
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "H-REL01",
+      "actors": [
+        "Microsoft",
+        "OpenAI"
+      ],
+      "roles": [
+        "cloud",
+        "lab"
+      ],
+      "links": [
+        "equity / revenue sharing",
+        "cloud spending",
+        "model distribution",
+        "information/control"
+      ],
+      "evidence_ids": [
+        "H-FTC-2025"
+      ],
+      "status": "Historical selected partnership; not a current contract census"
+    },
+    {
+      "relationship_id": "H-REL02",
+      "actors": [
+        "Amazon",
+        "Anthropic"
+      ],
+      "roles": [
+        "cloud",
+        "lab"
+      ],
+      "links": [
+        "investment",
+        "cloud resources",
+        "distribution/strategicrights"
+      ],
+      "evidence_ids": [
+        "H-FTC-2025"
+      ],
+      "status": "historical"
+    },
+    {
+      "relationship_id": "H-REL03",
+      "actors": [
+        "Alphabet",
+        "Anthropic"
+      ],
+      "roles": [
+        "cloud",
+        "lab"
+      ],
+      "links": [
+        "investment",
+        "cloud resources"
+      ],
+      "evidence_ids": [
+        "H-FTC-2025"
+      ],
+      "status": "Historical; terms vary by network edge"
+    },
+    {
+      "relationship_id": "H-REL04",
+      "actors": [
+        "OpenAI",
+        "OpenAI Deployment Company",
+        "Tomoro"
+      ],
+      "roles": [
+        "lab",
+        "implementation business",
+        "acquisitiontarget"
+      ],
+      "links": [
+        "majority ownership / control",
+        "model / technical access",
+        "agreed acquisition"
+      ],
+      "evidence_ids": [
+        "H-DEPLOYCO-2026"
+      ],
+      "status": "May 11 announcement; closing not verified"
+    },
+    {
+      "relationship_id": "H-REL05",
+      "actors": [
+        "TPG",
+        "Advent",
+        "Bain Capital",
+        "Brookfield",
+        "OpenAI Deployment Company"
+      ],
+      "roles": [
+        "capital partners",
+        "customer channels",
+        "deployment business"
+      ],
+      "links": [
+        "initial investment",
+        "portfolio access"
+      ],
+      "evidence_ids": [
+        "H-DEPLOYCO-2026"
+      ],
+      "status": "Announced; portfolio companies are not counted as deployments"
+    },
+    {
+      "relationship_id": "H-REL06",
+      "actors": [
+        "Anthropic",
+        "Blackstone",
+        "Hellman & Friedman",
+        "Ode",
+        "Fractional AI"
+      ],
+      "roles": [
+        "lab",
+        "capital",
+        "services operator",
+        "acquired services firm"
+      ],
+      "links": [
+        "model/engineering",
+        "investment",
+        "issuer-reported acquisition"
+      ],
+      "evidence_ids": [
+        "H-ODE-2026"
+      ],
+      "status": "July issuer description; cap-table details unknown"
+    },
+    {
+      "relationship_id": "H-REL07",
+      "actors": [
+        "SAP",
+        "operating customers"
+      ],
+      "roles": [
+        "ERP/operations platform",
+        "adopter / process owner"
+      ],
+      "links": [
+        "software agents",
+        "business data",
+        "workflow permissions"
+      ],
+      "evidence_ids": [
+        "H-SAP-2026"
+      ],
+      "status": "Announced phased availability; outcomes unverified"
+    }
+  ],
+  "dossiers": [
+    {
+      "dossier_id": "H-DOS01",
+      "type": "connected_ecosystem",
+      "boundary": "Physical inputs \u2192 model development \u2192 inference/distribution \u2192 agents/tools \u2192 implementation \u2192 operating customer \u2192 accepted output.",
+      "evidence_ids": [
+        "H-FTC-2025",
+        "H-DEPLOYCO-2026",
+        "H-ODE-2026",
+        "H-CENSUS-2026",
+        "H-CHINCHILLA-2022"
+      ],
+      "infrastructure_extension": "digital_infrastructure_evidence.json; HI-prefixed IDs",
+      "finding": "Implementation, rights, customer channels and physical inputs mediate capability. Financial and ownership relationships are separate from generic model access.",
+      "gaps": [
+        "Current partnership contract inventory",
+        "Realized deployment-company margins and customer outcomes",
+        "Research talent and data-market coverage",
+        "Open-model commercial substitution"
+      ]
+    },
+    {
+      "dossier_id": "H-DOS02",
+      "type": "digital_end_market",
+      "market": "Business software and customer-support services",
+      "chain_stage": "After-sales support and problem resolution",
+      "evidence_ids": [
+        "H-QJE-2025"
+      ],
+      "finding": "Assisted humans resolve issues faster with heterogeneous effects. Training and workflow integration condition the outcome.",
+      "counterfactual": "Human agents with the same work and without AI recommendations. Publication in 2025 does not change the study's historical observation window.",
+      "target_bridge": "Physical customer support, dispatch and exception handling: qualitative mechanism only."
+    },
+    {
+      "dossier_id": "H-DOS03",
+      "type": "digital_end_market",
+      "market": "Software development and maintenance",
+      "chain_stage": "Mature-repository issue implementation and research software",
+      "evidence_ids": [
+        "H-METR-2026"
+      ],
+      "finding": "Changing selection and concurrent-agent work undermine task-time uplift measurement; the current magnitude is not identified.",
+      "counterfactual": "AI allowed versus disallowed for randomized submitted tasks, with selection of participants and tasks.",
+      "target_bridge": "Robotics R&D must measure validated engineering output, active human time, compute and the critical path."
+    }
+  ],
+  "joint_scenario_contract": {
+    "scenario_id": "H-JOINT-01",
+    "status": "uncalibrated_mechanism_for_authoritative_engine",
+    "cell_ids": [
+      "CELL-M05-auto-assembly-US-2025",
+      "CELL-M08-3pl-tote-US-2025",
+      "CELL-M11-floor-cleaning-US-2025",
+      "CELL-M10-hospital-logistics-US-2025",
+      "CELL-M04-construction-install-US-2025",
+      "CELL-M03-utility-inspection-US-2025"
+    ],
+    "output_boundary": "Matched accepted output, quality, demand and period. Required embedded software remains fixed across the robot row.",
+    "costs": [
+      "C00: human-led, existing digital operations",
+      "C01: human-led, additional digital intervention",
+      "C10: robot-assisted, existing digital operations",
+      "C11: robot-assisted, additional digital intervention"
+    ],
+    "robot_incremental_saving": "C01 - C11",
+    "joint_saving": "C00 - C11",
+    "cost_interaction": "C11 - C10 - C01 + C00; a negative value indicates complementary cost reduction.",
+    "no_double_counting": "Do not add the joint gain to individual gains. Allocate shared integration, inference and support costs once.",
+    "uncalibrated_parameters": [
+      "Digital human productivity",
+      "Robot planning latency and inference cost",
+      "Coordination capacity effect",
+      "Review and intervention burden",
+      "Integration amortization"
+    ],
+    "prohibited_transfers": [
+      "QJE 15% \u2192 physical work",
+      "GDPval 100\u00d7 \u2192 whole workflow",
+      "Nature 45% \u2192 robot coordination threshold",
+      "Astranomy success \u2192 physical uptime",
+      "DrEureka three hours \u2192 total humanoid R&D"
+    ]
+  },
+  "next_priorities": [
+    {
+      "question_id": "H-Q01",
+      "priority": "highest",
+      "question": "What is cost per accepted physical output under walltime-bounded reasoning compared with a conventional controller or optimizer?",
+      "next_action": "Successful-episode cost selection and timing now recovered from full Sections4.1/4.2; obtain failed-attempt costs and independent walltime-bounded physical target trials before deriving a commercial break-even latency.",
+      "stopping_condition": "A versioned timing/cost boundary and an independent physical target comparison, or a precise evidence gap."
+    },
+    {
+      "question_id": "H-Q02",
+      "priority": "highest",
+      "question": "How much does digital-only improvement alter selected human-incumbent baselines?",
+      "next_action": "Find operator or causal studies in healthcare logistics, manufacturing planning or utilities maintenance; separate supporting digital work from physical hours.",
+      "stopping_condition": "A matched outcome/quality/cost estimate, or an explicit null target parameter."
+    },
+    {
+      "question_id": "H-Q03",
+      "priority": "high",
+      "question": "Which deployment-company capabilities and rights produce portable deployment advantages and retained returns?",
+      "next_action": "Verify Tomoro closing; seek Ode/DeployCo customer outcomes and contract rights.",
+      "stopping_condition": "Dated transaction status and a full operating-cost/outcome case, or a public-evidence gap."
+    },
+    {
+      "question_id": "H-Q04",
+      "priority": "high",
+      "question": "How should agent architecture change with base-model capability and workflow dependencies?",
+      "next_action": "Extract Nature's code and exact configuration/budget tables; expose qualitative conditions without calibrating a robot coefficient.",
+      "stopping_condition": "A reproducible benchmark card and a target experiment design."
+    },
+    {
+      "question_id": "H-Q05",
+      "priority": "high",
+      "question": "Does AI shorten validated robotics development after compute and physical-test constraints?",
+      "next_action": "Extract DrEureka candidate costs and policy-selection details; seek matched human engineering hours and hardware-validation costs.",
+      "stopping_condition": "A fixed-objective full-resource comparison, or a specific field-access requirement."
+    }
+  ],
+  "coverage": {
+    "H1": "Connected to the lead infrastructure artifact; talent, data and post-training are not comprehensively covered.",
+    "H2": "Bounded training scaling and benchmark/deployment distinctions; no quantitative overhang estimate.",
+    "H3": "Two contrasting primary-source workflow dossiers plus Census diffusion evidence.",
+    "H4": "Five benchmark cards with explicit missing budgets.",
+    "H5": "Current peer-reviewed coordination evidence and three interface/contribution maps.",
+    "H6": "Historical FTC relationships plus announced deployment companies; a current complete contract map is missing.",
+    "H7": "Services/platform dependency analysis; durable profits and open-model competition remain unresolved."
+  }
+}

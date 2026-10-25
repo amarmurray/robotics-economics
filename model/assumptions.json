@@ -1,0 +1,341 @@
+{
+  "schema_version": "robotics-economics-model/0.1",
+  "model_version": "0.1.0",
+  "epistemic_status": "synthetic_illustration",
+  "currency": "constant 2026 USD; no inflation, tax or terminal value",
+  "geography": "US illustrative deployment pool; no national extrapolation",
+  "denominator": "Each cell contains 12 synthetic sites. Accepted service units differ across cells. Only baseline-equivalent human hours are additive across cells; they are not employment or payroll.",
+  "base_year": 2026,
+  "systems": [
+    {
+      "system_id": "SYN-H",
+      "label": "Illustrative mobile manipulator",
+      "embodiment": "humanoid/mobile manipulation",
+      "price_usd": 60000,
+      "manufacture_cost_usd": 36000,
+      "actuator_units": 24,
+      "actuator_pool": "actuator_h",
+      "board_units": 1,
+      "maintenance_usd_year": 3500,
+      "maintenance_hours_year": 30,
+      "power_kw": 0.6,
+      "service_life_years": 5,
+      "status": "synthetic_configuration_not_a_product_BOM"
+    },
+    {
+      "system_id": "SYN-Q",
+      "label": "Illustrative sensor quadruped",
+      "embodiment": "quadruped sensing",
+      "price_usd": 40000,
+      "manufacture_cost_usd": 24000,
+      "actuator_units": 12,
+      "actuator_pool": "actuator_q",
+      "board_units": 1,
+      "maintenance_usd_year": 3000,
+      "maintenance_hours_year": 25,
+      "power_kw": 0.4,
+      "service_life_years": 5,
+      "status": "synthetic_configuration_not_a_product_BOM"
+    }
+  ],
+  "cells": [
+    {
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "market_id": "M05",
+      "label": "Manufacturing \u00b7 assembly feeding",
+      "stage": "assembly support",
+      "system_id": "SYN-H",
+      "output_unit": "accepted component handoff",
+      "annual_units_per_site": 16000,
+      "human_hours_per_unit": 0.12,
+      "robot_units_per_hour": 8,
+      "wage_usd_hour": 36,
+      "capability_threshold": 0.62,
+      "physical_fit": "bounded parts and fixtures; does not model general assembly",
+      "specialized_cost_factor": 0.69,
+      "specialized_fit": "fixed flow with redesigned fixtures"
+    },
+    {
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "market_id": "M08",
+      "label": "Logistics \u00b7 tote handoffs",
+      "stage": "intralogistics",
+      "system_id": "SYN-H",
+      "output_unit": "accepted tote handoff",
+      "annual_units_per_site": 24000,
+      "human_hours_per_unit": 0.08,
+      "robot_units_per_hour": 12,
+      "wage_usd_hour": 30,
+      "capability_threshold": 0.6,
+      "physical_fit": "bounded tote geometry and traffic",
+      "specialized_cost_factor": 0.62,
+      "specialized_fit": "conveyor or AMR with standard transfer stations"
+    },
+    {
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "market_id": "M11",
+      "label": "Facilities \u00b7 floor cleaning",
+      "stage": "routine maintenance",
+      "system_id": "SYN-H",
+      "output_unit": "accepted cleaning zone",
+      "annual_units_per_site": 6000,
+      "human_hours_per_unit": 0.32,
+      "robot_units_per_hour": 3,
+      "wage_usd_hour": 25,
+      "capability_threshold": 0.7,
+      "physical_fit": "accessible floors; humanoid system is a scenario candidate only",
+      "specialized_cost_factor": 0.58,
+      "specialized_fit": "autonomous scrubber on unobstructed floors"
+    },
+    {
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "market_id": "M10",
+      "label": "Healthcare \u00b7 hospital logistics",
+      "stage": "internal distribution",
+      "system_id": "SYN-H",
+      "output_unit": "accepted supply delivery",
+      "annual_units_per_site": 4800,
+      "human_hours_per_unit": 0.4,
+      "robot_units_per_hour": 2.5,
+      "wage_usd_hour": 33,
+      "capability_threshold": 0.74,
+      "physical_fit": "nonclinical supplies; infection and access controls assumed satisfied",
+      "specialized_cost_factor": 0.71,
+      "specialized_fit": "AMR on accessible routes with human loading"
+    },
+    {
+      "cell_id": "CELL-M04-construction-install-US-2025",
+      "market_id": "M04",
+      "label": "Construction \u00b7 installation support",
+      "stage": "onsite installation",
+      "system_id": "SYN-H",
+      "output_unit": "accepted material-positioning service",
+      "annual_units_per_site": 3200,
+      "human_hours_per_unit": 0.6,
+      "robot_units_per_hour": 1.5,
+      "wage_usd_hour": 45,
+      "capability_threshold": 0.83,
+      "physical_fit": "high variability; fit threshold excludes many illustrative sites",
+      "specialized_cost_factor": 0.82,
+      "specialized_fit": "lift equipment plus human crew; no autonomous installation claim"
+    },
+    {
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market_id": "M03",
+      "label": "Utilities \u00b7 condition inspection",
+      "stage": "asset maintenance",
+      "system_id": "SYN-Q",
+      "output_unit": "accepted inspection record",
+      "annual_units_per_site": 4000,
+      "human_hours_per_unit": 0.48,
+      "robot_units_per_hour": 2,
+      "wage_usd_hour": 48,
+      "capability_threshold": 0.64,
+      "physical_fit": "ground route sensing; human review and repair retained",
+      "specialized_cost_factor": 0.75,
+      "specialized_fit": "fixed sensing where the observation points are covered"
+    }
+  ],
+  "customer_profiles": {
+    "incumbent": {
+      "label": "Incumbent, routine approval",
+      "ready_delay_years": 1,
+      "authority_sites": 10,
+      "site_cash_limit_usd": 120000,
+      "implementation_sites_year": 4,
+      "max_payback_years": 5,
+      "explanation": "Scenario: approval delay, 10 of 12 sites under process authority, local cash ceiling and annual implementation slots."
+    },
+    "constrained": {
+      "label": "Incumbent, constrained site authority",
+      "ready_delay_years": 2,
+      "authority_sites": 6,
+      "site_cash_limit_usd": 50000,
+      "implementation_sites_year": 2,
+      "max_payback_years": 3,
+      "explanation": "Scenario: lower cash and implementation capacity plus narrower authority; ownership label itself has no multiplier."
+    },
+    "integrated": {
+      "label": "Integrated operating organization",
+      "ready_delay_years": 0,
+      "authority_sites": 12,
+      "site_cash_limit_usd": 160000,
+      "implementation_sites_year": 6,
+      "max_payback_years": 6,
+      "explanation": "Scenario: unified workflow authority, cash allowance and engineering slots. No causal ownership effect is inferred."
+    }
+  },
+  "defaults": {
+    "years": 8,
+    "capability": 0.8,
+    "capability_progress": 0.025,
+    "uptime": 0.85,
+    "intervention_minutes": 3,
+    "digital_efficiency": 0.15,
+    "coordination": 0.15,
+    "digital_cost_usd": 1500,
+    "integration_hours": 70,
+    "integration_budget_hours": 2400,
+    "support_budget_hours": 12000,
+    "customer_capital_usd": 2400000,
+    "provider_capital_usd": 2000000,
+    "customer_profile": "incumbent",
+    "arrangement": "sale",
+    "price_multiplier": 1,
+    "learning_transfer": 0,
+    "learning_cost_usd": 20000,
+    "demand_expansion": 0,
+    "demand_capture": 0.35,
+    "newco_funding_usd": 600000,
+    "formation_route": "build",
+    "qualification_delay": 0,
+    "expansion_delay": 2,
+    "supply_multiplier": 1,
+    "assembly_yield": 0.9,
+    "spares_rate": 0.04,
+    "retirement_years": 5,
+    "onboard_configuration": "standard",
+    "target_active_stock": 100,
+    "target_year": 7,
+    "labor_avoidability": 0.75,
+    "incumbent_response_month": 18
+  },
+  "presets": {
+    "reference": {
+      "label": "Illustrative reference",
+      "overrides": {}
+    },
+    "delayed_supply": {
+      "label": "Qualification and ramp delay",
+      "overrides": {
+        "qualification_delay": 2,
+        "expansion_delay": 4,
+        "supply_multiplier": 0.65
+      }
+    },
+    "service_stress": {
+      "label": "Service and spare-parts stress",
+      "overrides": {
+        "support_budget_hours": 3500,
+        "spares_rate": 0.2,
+        "intervention_minutes": 9
+      }
+    },
+    "ample_supply_unready": {
+      "label": "Ample supply, customer readiness binds",
+      "overrides": {
+        "supply_multiplier": 4,
+        "customer_profile": "constrained",
+        "customer_capital_usd": 200000
+      }
+    },
+    "digital_first": {
+      "label": "Improved digital human baseline",
+      "overrides": {
+        "digital_efficiency": 0.35,
+        "coordination": 0.2
+      }
+    },
+    "limited_transfer": {
+      "label": "Directed within-system learning hypothesis",
+      "overrides": {
+        "learning_transfer": 0.04
+      }
+    },
+    "newco_raas": {
+      "label": "Entrant service contract; response month 18",
+      "overrides": {
+        "arrangement": "raas",
+        "incumbent_response_month": 18
+      }
+    },
+    "prompt_response": {
+      "label": "Entrant service contract; immediate incumbent response",
+      "overrides": {
+        "arrangement": "raas",
+        "incumbent_response_month": 0
+      }
+    }
+  },
+  "assumptions": [
+    {
+      "id": "A-MODEL-POP",
+      "status": "synthetic_illustration",
+      "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration."
+    },
+    {
+      "id": "A-MODEL-OUTPUT",
+      "status": "synthetic_illustration",
+      "description": "Accepted quality is fixed. Capability is an uncalibrated threshold index, not a benchmark score. Unserved work remains human-led. New installations have half-year productive exposure."
+    },
+    {
+      "id": "A-MODEL-SUPPLY",
+      "status": "synthetic_illustration",
+      "description": "Qualified component receipts are net of outside commitments and upstream yield. H and Q actuators are incompatible. Only a hypothetical common embedded LPDDR board pool is shared; HBM/training resources are outside this pool."
+    },
+    {
+      "id": "A-MODEL-TIME",
+      "status": "synthetic_illustration",
+      "description": "Assembly takes one annual period; accepted systems can ship on completion; commissioning takes one further period. Fractional flows are deterministic expected units, not a discrete factory schedule."
+    },
+    {
+      "id": "A-MODEL-YIELD",
+      "status": "synthetic_illustration",
+      "description": "Each start consumes its full BOM; final assembly yield applied once at completion. Rejected units have no salvage. No upstream yield or scrap deduction is repeated."
+    },
+    {
+      "id": "A-MODEL-CAPITAL",
+      "status": "synthetic_illustration",
+      "description": "Annual non-revolving customer/provider funding envelopes; capital is reserved at shipment. Cash generated does not automatically expand those envelopes. Annual resource cost uses straight-line capital consumption, while separate cash views count investments at deployment."
+    },
+    {
+      "id": "A-MODEL-LEARN",
+      "status": "synthetic_illustration",
+      "description": "Transfer default is zero (no assumed transfer, not evidence of observed zero). Optional within-system directed transfer changes future capability after exposure and validation cost; no separate data-value premium."
+    },
+    {
+      "id": "A-MODEL-FINANCE",
+      "status": "synthetic_illustration",
+      "description": "Entrant standalone project uses the same unit technology and commercial terms as incumbent. Funding is an assumed equity commitment, not evidence of availability. Entry demand capture is explicit, with price response, ramp, and share conservation."
+    },
+    {
+      "id": "A-MODEL-LABOR-CASH",
+      "status": "synthetic_illustration",
+      "description": "Only the explicitly assumed labor_avoidability fraction of released labor value is treated as avoided cash for customer eligibility/payback. Default 0.75 is not an observed payroll result. Matched resource-cost tables value all released time; observed payroll removed remains null."
+    }
+  ],
+  "newco": {
+    "scenario_id": "ENTRY-FG-01",
+    "robots": 10,
+    "robot_price_usd": 60000,
+    "units_per_robot_month_after_downtime": 100,
+    "reference_uptime": 0.85,
+    "price_per_unit_usd": 100,
+    "response_price_per_unit_usd": 80,
+    "variable_cost_per_unit_usd": 30,
+    "human_cost_per_unit_usd": 75,
+    "overhead_month_usd": 25000,
+    "formation_and_site_usd": 300000,
+    "upfront_customer_acquisition_usd": 50000,
+    "acquisition_premium_usd": 250000,
+    "raas_robot_month_usd": 1500,
+    "commissioning_months": 3,
+    "receivable_months": 1,
+    "won_demand_service_months": [
+      300,
+      450,
+      600,
+      750,
+      900,
+      1000
+    ],
+    "response_demand_retention": 0.7,
+    "share_transfer_fraction": 0.7,
+    "unmet_demand_fraction": 0.2,
+    "new_demand_fraction": 0.1,
+    "incumbent_baseline_units_month": 5000,
+    "unmet_baseline_units_month": 1000,
+    "expansion_ceiling_units_month": 1000
+  },
+  "input_commit": "operational repository revision retained in ignored sync_receipt.json"
+}

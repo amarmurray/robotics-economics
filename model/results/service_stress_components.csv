@@ -1,0 +1,25 @@
+year,resource_id,unit,opening_inventory,qualified_net_receipts,service_required,service_consumed,assembly_consumed,rework_consumed,other_allocations,closing_inventory
+2026,actuator_h,compatible component units,0.0,600.0,0.0,0.0,0,0,0,600.0
+2026,actuator_q,compatible component units,0.0,210.0,0.0,0.0,150.0,0,0,60.0
+2026,embedded_lpddr_boards,compatible component units,0.0,37.5,0.0,0.0,12.5,0,0,25.0
+2027,actuator_h,compatible component units,600.0,900.0,0.0,0.0,0,0,0,1500.0
+2027,actuator_q,compatible component units,60.0,315.0,0.0,0.0,10.0,0,0,365.0
+2027,embedded_lpddr_boards,compatible component units,25.0,56.25,0.0,0.0,0.8333333333333333,0,0,80.41666666666667
+2028,actuator_h,compatible component units,1500.0,1920.0,0.0,0.0,80.0,0,0,3340.0
+2028,actuator_q,compatible component units,365.0,672.0,9.600000000000001,9.600000000000001,0,0,0,1027.4
+2028,embedded_lpddr_boards,compatible component units,80.41666666666667,120.0,0.08,0.08,3.333333333333333,0,0,197.00333333333333
+2029,actuator_h,compatible component units,3340.0,1920.0,0.0,0.0,80.0,0,0,5180.0
+2029,actuator_q,compatible component units,1027.4,672.0,19.200000000000003,19.200000000000003,0,0,0,1680.2
+2029,embedded_lpddr_boards,compatible component units,197.00333333333333,120.0,0.16,0.16,3.333333333333333,0,0,313.51
+2030,actuator_h,compatible component units,5180.0,1920.0,3.6363636363636362,3.6363636363636362,400.0,0,0,6696.363636363636
+2030,actuator_q,compatible component units,1680.2,672.0,24.0,24.0,0,0,0,2328.2
+2030,embedded_lpddr_boards,compatible component units,313.51,120.0,0.21515151515151515,0.21515151515151515,16.666666666666668,0,0,416.6281818181818
+2031,actuator_h,compatible component units,6696.363636363636,1920.0,3.6363636363636362,3.6363636363636362,0,0,0,8612.727272727272
+2031,actuator_q,compatible component units,2328.2,672.0,24.0,24.0,0,0,0,2976.2
+2031,embedded_lpddr_boards,compatible component units,416.6281818181818,120.0,0.21515151515151515,0.21515151515151515,0,0,0,536.4130303030303
+2032,actuator_h,compatible component units,8612.727272727272,1920.0,3.6363636363636362,3.6363636363636362,400.0,0,0,10129.090909090908
+2032,actuator_q,compatible component units,2976.2,672.0,24.0,24.0,0,0,0,3624.2
+2032,embedded_lpddr_boards,compatible component units,536.4130303030303,120.0,0.21515151515151515,0.21515151515151515,16.666666666666668,0,0,639.5312121212121
+2033,actuator_h,compatible component units,10129.090909090908,1920.0,3.6363636363636362,3.6363636363636362,0,0,0,12045.454545454544
+2033,actuator_q,compatible component units,3624.2,672.0,14.4,14.4,53.333333333333336,0,0,4228.466666666667
+2033,embedded_lpddr_boards,compatible component units,639.5312121212121,120.0,0.13515151515151516,0.13515151515151516,4.444444444444445,0,0,754.9516161616161

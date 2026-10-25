@@ -1,0 +1,932 @@
+{
+  "schema_version": "0.1",
+  "status": "campaign_in_progress",
+  "questions": [
+    {
+      "question_id": "RQ-PL-01",
+      "question": "Where does physical labor sit across major end markets and value-chain stages?",
+      "status": "PARTIAL",
+      "owner": "economic_atlas",
+      "decision_consequence": "Establish the opportunity universe before selecting deployments.",
+      "evidence_method": "Combine industry, occupation, hours, and workflow evidence; reconcile overlapping populations.",
+      "dependencies_and_completion": "W1 map. No prerequisite. Complete when coverage, denominator choices, and material gaps are visible.",
+      "findings": [
+        "Fifteen US market families and explicit residuals reconcile to BLS wage-and-salary employment; physical-work hours remain unknown."
+      ],
+      "artifacts": [
+        "research/economic_atlas.md",
+        "data/market_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-PL-02",
+      "question": "Which activities recur across otherwise different value chains?",
+      "status": "PARTIAL",
+      "owner": "economic_atlas",
+      "decision_consequence": "Identify shared capabilities without erasing environmental differences.",
+      "evidence_method": "Compare handling, inspection, movement, setup, cleaning, and recovery across markets; document exceptions.",
+      "dependencies_and_completion": "W1 taxonomy after PL-01. Deeper validation when comparable operating observations become available.",
+      "findings": [
+        "Handling, transport, cleaning and inspection recur, but payload, urgency, quality and process authority prevent assuming equivalent workflows."
+      ],
+      "artifacts": [
+        "research/economic_atlas.md",
+        "data/market_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-PL-03",
+      "question": "Who buys, performs, and benefits from each activity?",
+      "status": "PARTIAL",
+      "owner": "economic_atlas",
+      "decision_consequence": "Prevent duplicated labor pools and misplaced revenue estimates.",
+      "evidence_method": "Trace customers, contractors, site operators, and beneficiaries; reconcile hours, spending, and output.",
+      "dependencies_and_completion": "W1 bounded accounting after PL-01. Complete with worked cross-market reconciliation and unresolved allocation rules.",
+      "findings": [
+        "GXO/client and contractor/facility examples separate buyer, operator and beneficiary; overlapping value-chain views are not additive labor pools."
+      ],
+      "artifacts": [
+        "research/economic_atlas.md",
+        "data/market_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-PL-04",
+      "question": "Where would process redesign alter the opportunity more than worker substitution?",
+      "status": "OPEN",
+      "owner": "economic_atlas",
+      "decision_consequence": "Compare existing operations with purpose-built production arrangements.",
+      "evidence_method": "Map workflows, complements, demand limits, and redesign costs; compare equivalent useful outputs.",
+      "dependencies_and_completion": "Deeper, after PL-02/03. Advance when two contrasting processes have defensible baselines.",
+      "findings": [],
+      "artifacts": [],
+      "next_action": "Use first-wave evidence to specify a tractable next investigation; no bounded answer claimed."
+    },
+    {
+      "question_id": "RQ-HC-01",
+      "question": "What capabilities are demonstrated for dated system configurations?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Separate available capabilities from announcements and aspirations.",
+      "evidence_method": "Build versioned observations of autonomy, throughput, reliability, recovery, and assistance; retain test conditions.",
+      "dependencies_and_completion": "W1 evidence matrix in parallel with PL-01/02; iteratively join the evolving market map. Complete with explicit unknowns and comparison limits.",
+      "findings": [
+        "Versioned records distinguish industrial pilots, planned deployment, research evaluations and manufacturing ramp; goals are not achieved reliability."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-HC-02",
+      "question": "Which capability improvements unlock new workflow coverage?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Identify discontinuities in addressability rather than extrapolating headline specifications.",
+      "evidence_method": "Map capability requirements and complementary thresholds; test alternative progression sequences.",
+      "dependencies_and_completion": "W1 hypothesis scaffold after HC-01. Deeper upon repeated, comparable performance evidence.",
+      "findings": [
+        "Public studies support task-specific diversity, policy and hardware mechanisms; no general capability-to-economic-output coefficient is identified."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-HC-03",
+      "question": "What limits scaling from demonstrations to sustained operation?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Distinguish software improvement from durability, power, support, manufacturing, and integration constraints.",
+      "evidence_method": "Analyze failure, intervention, uptime, yield, and maintenance evidence; model interacting bottlenecks.",
+      "dependencies_and_completion": "Deeper after HC-01. Complete a bounded comparison when exposure denominators and failure conditions are available.",
+      "findings": [
+        "BMW exposure lacks complete intervention/support denominators; hospital handoffs and inspection-image quality show operating-system limits."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-HC-04",
+      "question": "How portable are improvements across bodies, software versions, and environments?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Estimate upgrade value and avoid treating every installed robot as current-generation capacity.",
+      "evidence_method": "Compare transfer evaluations, compatibility, retraining, validation, and retrofit requirements.",
+      "dependencies_and_completion": "Deeper after HC-01/02. Trigger on comparable version changes; retain no-transfer scenarios.",
+      "findings": [
+        "RT-X includes positive, neutral and adverse target comparisons; source policy/version and target embodiment must remain explicit."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SP-01",
+      "question": "What distinguishes successive penetration stages in each value chain?",
+      "status": "PARTIAL",
+      "owner": "lead/models_dashboard",
+      "decision_consequence": "Define testable transitions from isolated activity to integrated production.",
+      "evidence_method": "Specify capability, economics, organizational, and evidence gates; distinguish deployment depth from adoption breadth.",
+      "dependencies_and_completion": "W1 stage map after PL-01 and HC-02. Complete when transition criteria are observable.",
+      "findings": [
+        "The engine separates conditional eligibility, assembly, shipment, commissioning, retained stock and supported output within a synthetic population."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SP-02",
+      "question": "Which constraints bind several markets simultaneously?",
+      "status": "PARTIAL",
+      "owner": "lead/models_dashboard",
+      "decision_consequence": "Prevent independent adoption forecasts from consuming the same scarce resources.",
+      "evidence_method": "Map manufacturing, capital, integration, service, energy, and operator capacity; reconcile allocations.",
+      "dependencies_and_completion": "W1 constraint scaffold after SP-01. Deeper quantification requires capacity and utilization evidence.",
+      "findings": [
+        "Compatible parts, integration, support and funding are shared pools; constrained and ample-supply scenarios can bind elsewhere."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SP-03",
+      "question": "How do learning, cash generation, and capacity expansion interact?",
+      "status": "PARTIAL",
+      "owner": "lead/models_dashboard",
+      "decision_consequence": "Explain acceleration, congestion, and stalled rollout.",
+      "evidence_method": "Build conditional stock-flow scenarios with installation, retirement, reinvestment, and support limits.",
+      "dependencies_and_completion": "Deeper after SP-02 and DL-04. Complete when conservation checks and adverse scenarios hold.",
+      "findings": [
+        "Learning consumes validation cash and changes future thresholds; annual stock funding is exogenous and does not close a reinvestment treasury."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SP-04",
+      "question": "Where do humans and specialized automation remain complements or preferred alternatives?",
+      "status": "PARTIAL",
+      "owner": "lead/models_dashboard",
+      "decision_consequence": "Avoid equating humanoid feasibility with adoption or displacement.",
+      "evidence_method": "Compare matched outcomes, flexibility, process changes, and switching costs by cohort.",
+      "dependencies_and_completion": "W1 competing hypotheses after PL-02 and HC-01. Deepen where evidence could reverse a penetration scenario.",
+      "findings": [
+        "Specialized cleaning, fixed sensing and mixed operation remain explicit alternatives; real matched full-cost estimates are mostly unavailable."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DL-01",
+      "question": "Who can collect, aggregate, reuse, and learn from deployment data?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Identify feasible learning networks and beneficiaries.",
+      "evidence_method": "Trace contractual rights, access boundaries, formats, incentives, and demonstrated reuse.",
+      "dependencies_and_completion": "W1 rights map. Public disclosure gaps remain pending; contracts or authorized interviews trigger revision.",
+      "findings": [
+        "BrainOS operational-data ownership coexists with durable nonexclusive improvement-use rights; aggregate/unlinked-data exclusions matter."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DL-02",
+      "question": "Which experience transfers across value chains, and why?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Distinguish fleet size from useful learning diversity.",
+      "evidence_method": "Construct directed transfer hypotheses; seek held-out evaluations, negative transfer, and embodiment controls.",
+      "dependencies_and_completion": "W1 hypotheses after PL-02 and HC-04 scope definition. Deeper validation requires comparative data.",
+      "findings": [
+        "Directed transfer is conditional on configuration and target distribution; no generic robot-hour learning coefficient survives the evidence."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DL-03",
+      "question": "When does aggregation improve learning more than local specialization?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Evaluate shared models, data pooling, and local adaptation.",
+      "evidence_method": "Compare coverage, redundancy, label quality, distribution shift, and aggregation costs.",
+      "dependencies_and_completion": "Deeper after DL-01/02. Complete a bounded result only with comparable evaluation conditions.",
+      "findings": [
+        "Scaling and RT-X evidence favor conditional diversity/selection, with nonmonotonic comparisons; quantity alone does not establish benefit."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DL-04",
+      "question": "Which deployments should be selected for production and learning together?",
+      "status": "PARTIAL",
+      "owner": "capability_learning",
+      "decision_consequence": "Evaluate current output against future capability and information gains.",
+      "evidence_method": "Compare deployment portfolios with no-learning baselines, incremental costs, and alternative explanations.",
+      "dependencies_and_completion": "W1 decision scaffold after DL-01/02. Deeper modeling when gains can be bounded without double counting.",
+      "findings": [
+        "Production and learning objectives can differ; the current engine uses an unvalidated same-system transfer mechanism and no data-value premium."
+      ],
+      "artifacts": [
+        "research/capability_learning.md",
+        "data/capability_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-FD-01",
+      "question": "Where do digital agents and physical robots share a production workflow?",
+      "status": "PARTIAL",
+      "owner": "capability_learning/digital_ecosystem",
+      "decision_consequence": "Locate complementary planning, transaction, sensing, and execution work.",
+      "evidence_method": "Map information and material flows, handoffs, authorities, and customer outcomes.",
+      "dependencies_and_completion": "W1 architecture map after PL-02/03. Complete with concrete cross-market examples and evidence labels.",
+      "findings": [
+        "AutoRT, Open-RMF and enterprise-interface maps distinguish models, conventional schedulers, transactions and physical controllers."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-FD-02",
+      "question": "Which decisions belong locally, centrally, or with human supervision?",
+      "status": "PARTIAL",
+      "owner": "capability_learning/digital_ecosystem",
+      "decision_consequence": "Relate coordination architecture to latency, resilience, and learning.",
+      "evidence_method": "Compare scheduling, control, intervention, and model-update timescales; specify failure modes.",
+      "dependencies_and_completion": "W1 competing designs after FD-01. Deeper testing requires observed workloads and communications constraints.",
+      "findings": [
+        "Task allocation, traffic negotiation, enterprise records and low-level safety/control need distinct authority; interfaces do not prove closed-loop operation."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-FD-03",
+      "question": "When do shared supervision and coordination become bottlenecks?",
+      "status": "PARTIAL",
+      "owner": "capability_learning/digital_ecosystem",
+      "decision_consequence": "Test whether apparent fleet economies survive correlated exceptions.",
+      "evidence_method": "Model queues, intervention duration, common failures, communications, and escalation capacity.",
+      "dependencies_and_completion": "Deeper after FD-02 and HC-03. Complete with workload sensitivity and correlated-failure stress cases.",
+      "findings": [
+        "Support is shared in the model; source agent results have within-domain limits and paused-simulation timing cannot establish fleet response capacity."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-FD-04",
+      "question": "Which workflows become possible only through joint physical-digital redesign?",
+      "status": "OPEN",
+      "owner": "capability_learning/digital_ecosystem",
+      "decision_consequence": "Examine new productive arrangements beyond separate automation tools.",
+      "evidence_method": "Compare integrated and fragmented process designs, control boundaries, costs, and adoption requirements.",
+      "dependencies_and_completion": "Deeper after PL-04 and FD-01/02. Advance when a falsifiable comparison can be specified.",
+      "findings": [],
+      "artifacts": [],
+      "next_action": "Use first-wave evidence to specify a tractable next investigation; no bounded answer claimed."
+    },
+    {
+      "question_id": "RQ-OS-01",
+      "question": "How do customer ownership and governance affect adoption within a market-stage cell?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Explain capital access/allocation, investment criteria and automation appetite, rather than assigning an effect to a label.",
+      "evidence_method": "Build adopter profiles; compare financeability, willingness, operating authority and implementation capacity under matched technical conditions; retain opposing mechanisms and selection limits.",
+      "dependencies_and_completion": "W1 structural comparison alongside PL-03 and SP-01. Complete when relevant actor levels, mechanisms, unknowns, and alternative explanations are explicit.",
+      "findings": [
+        "Matched logistics and cleaning comparisons trace governance through authority, capital, implementation and contract terms, not ownership multipliers."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-02",
+      "question": "Who can authorize process changes and retain adoption and learning benefits?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Identify parent, operator, site, buyer and beneficiary constraints that change readiness and rollout.",
+      "evidence_method": "Map governance, procurement, premises/workflow control, investment responsibility, data access and gain retention; join BM-02's rights map.",
+      "dependencies_and_completion": "W1 customer-decision map after PL-03 and DL-01 scope definition. Deepen with disclosed operating/governance evidence.",
+      "findings": [
+        "Client permissions, service contracts and data/software terms divide workflow authority and retained gains."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-03",
+      "question": "How do incumbent adoption, acquisition/holdco transformation, and AI-native entry change customer value-chain position?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Test ownership and organization as both causes and consequences of automation.",
+      "evidence_method": "Compare acquisition, organic expansion, outsourcing and entry under common output assumptions; include capital, transition and customer-acquisition costs; conserve activity under reclassification.",
+      "dependencies_and_completion": "W1 pathway hypotheses after OS-01 and PL-04 scope definition. Deeper alongside BM-03; complete a bounded case when transition mechanisms and costs are inspectable.",
+      "findings": [
+        "Incumbent, formation, acquisition and hybrid routes have different access, capital and legacy obligations; parent formation creates no productive output."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-04",
+      "question": "Which customer structures coexist, consolidate, specialize, or gain share as automation improves?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Connect customer heterogeneity to market penetration and competitive structure.",
+      "evidence_method": "Model activity-weighted customer cohorts, entry/exit and role transitions; test fixed composition against changed composition without double-counting labor.",
+      "dependencies_and_completion": "W1 conditional hypotheses after OS-01/03 and SP-01. Deeper with observed adoption, financing, acquisition and entry evidence.",
+      "findings": [
+        "Coexistence and consolidation remain hypotheses; evidence does not establish causal market-share effects of customer organization."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-05",
+      "question": "Where can a customer-side AI-native operating newco win through production design, adoption timing, or capacity availability?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Test entrepreneurial entry by market/stage, including ordinary robots available to incumbents on the same terms.",
+      "evidence_method": "Compare useful-output economics and customer propositions against legacy and robot-adopting incumbents; model demand won, delivered output, competitive response, and persistence of any advantage.",
+      "dependencies_and_completion": "W1 bounded entrant case after OS-01/03, HC-02 and SP-01 scope definition. Deeper when customer access, operating exposure and response timing can be bounded.",
+      "findings": [
+        "Fifteen entry screens and the same-robot reference case distinguish operating design, adoption timing and capacity availability."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-06",
+      "question": "What capital and milestones can support formation and scaling of a humanoid-enabled operating newco?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Separate economic attractiveness, financeability, actual capital access, and survival through ramp.",
+      "evidence_method": "Model enterprise and robot-asset funding, working capital, ramp losses, runway, customer acquisition and expansion; test delay and funding-gap scenarios with BM-01/02.",
+      "dependencies_and_completion": "W1 conditional financing case alongside OS-05. Financing terms remain assumptions until evidenced; deepen with disclosed comparable terms or authorized operating data.",
+      "findings": [
+        "The monthly newco case exposes ramp, receivables and committed-funding gaps; no automatic follow-on capital or empirical financeability is assumed."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-OS-07",
+      "question": "When should an industrial AI operating platform create new businesses, acquire incumbents, or combine routes?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Evaluate a physical/industrial Thrive-like model without conflating a new holdco with new operating capacity.",
+      "evidence_method": "Compare capital, time to customers, inherited constraints, shared engineering/procurement/learning, overhead and competition; distinguish standalone, newco-builder, acquisition and hybrid forms.",
+      "dependencies_and_completion": "W1 structural comparison after OS-03 and OS-05/06 scope definition, linked to BM-03. Primary-source analogies frame hypotheses; deeper work requires demonstrated cross-business effects.",
+      "findings": [
+        "Thrive is a sourced organizational comparator, not proof of physical automation returns; acquisition and new formation remain distinct."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-BM-01",
+      "question": "Which commercial arrangements fit different customer structures and adoption constraints?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Compare equipment sales, leases, services, usage/outcome pricing, software, managed operations and partnerships.",
+      "evidence_method": "Join adopter profiles to matched-output economics; trace capital, support, utilization, cash timing and risk across parties.",
+      "dependencies_and_completion": "W1 cross-comparison alongside OS-01/02 and SP-02. Deepen when commercial terms and performance exposure are observable.",
+      "findings": [
+        "Seven arrangement records and cash comparisons show that moving asset funding can change whose resource constraint binds."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-BM-02",
+      "question": "How do asset ownership, operational control and model/data rights allocate costs, risks and gains?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Preserve the prior asset/control/learning-value inquiry and explain bargaining positions.",
+      "evidence_method": "Use one actor/role and rights map for customer, provider, operator, integrator and financier; distinguish business ownership from robot ownership and access rights.",
+      "dependencies_and_completion": "W1 rights-and-value map after DL-01 and FD-02 scope definition; joins OS-02. Disclosed terms or authorized evidence trigger deeper comparison.",
+      "findings": [
+        "Robot ownership, operational authority and improvement rights are separate; customer/provider/financier transfers cancel in consolidation."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-BM-03",
+      "question": "When does a robotics provider benefit from owning or operating a productive business rather than supplying it?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Preserve the prior provider-integration question; test feedback and control benefits against capital and organizational burden.",
+      "evidence_method": "Compare sell, partner, managed-operation and integration routes; include acquisition/greenfield capital, customer access, learning rights, transition time and opportunity costs.",
+      "dependencies_and_completion": "Deeper after BM-01/02, OS-03 and DL-04 scope definition. Complete with counterexamples and explicit break-even conditions.",
+      "findings": [
+        "Operating a customer business adds demand, execution and working-capital risks; no observed general vertical-integration premium is identified."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-BM-04",
+      "question": "Where can durable value be captured across robotics provision, operation, integration, software and finance?",
+      "status": "PARTIAL",
+      "owner": "customer_value",
+      "decision_consequence": "Explain conditional investment outcomes and coexistence among integrated firms and specialists.",
+      "evidence_method": "Reconcile value creation and participant cash flows; examine specialization, interoperability, switching, competition and alternatives; distinguish transfers from additional value.",
+      "dependencies_and_completion": "W1 competing hypotheses after BM-01/02. Deeper with terms, utilization, operating costs and competitive evidence.",
+      "findings": [
+        "Distribution, integration, service and rights are plausible capture mechanisms; negotiated prices and realized margins are mostly undisclosed."
+      ],
+      "artifacts": [
+        "research/customer_value.md",
+        "data/customer_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-01",
+      "question": "How does the full physical/digital value chain produce and deliver model capabilities?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Explain development, inference, integration and resource constraints rather than relying on lab profiles.",
+      "evidence_method": "Map capital, research/data, chips/fabrication/memory/networking, energy/land/data centers, models/cloud/tools, deployers and users; separate actual capacity, commitments and announcements.",
+      "dependencies_and_completion": "W1 connected ecosystem dossier; no prerequisite. Deepen with dated financial, technical and infrastructure evidence.",
+      "findings": [
+        "Connected ecosystem and infrastructure dossiers distinguish power, qualified hardware, training, inference, distribution and operating adoption."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-02",
+      "question": "How do scaling, inference economics, capability and organizational complements translate into deployment or overhang?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Relate technical progress to usable and adopted output without assuming an automatic conversion.",
+      "evidence_method": "Separate training/post-training, inference, harness/tools, model routing and coordination; use matched populations across capability, workflow, economic and adoption gates.",
+      "dependencies_and_completion": "W1 mechanism/benchmark map alongside LLM-01/04. Fit only comparable observations; record unsupported response surfaces as scenarios.",
+      "findings": [
+        "Supplier scale, benchmark capability and organization-level productivity have different units and denominators; no universal deployment conversion is used."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-03",
+      "question": "What has digital AI changed across end markets and value-chain stages, and what could change next?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Ground prospective robotics reasoning in heterogeneous deployment outcomes and changing comparators.",
+      "evidence_method": "Two contrasting deployment dossiers; distinguish causal studies, surveys, telemetry and vendor cases; measure output/quality/cost and identify confounding, nondeployment and vintage.",
+      "dependencies_and_completion": "W1 evidence synthesis joined to PL-01/03; deeper on reproducible firm/market evidence. Historical findings are not automatically current estimates.",
+      "findings": [
+        "Historical support-worker improvement and developer-study selection limits demonstrate heterogeneous effects; neither supplies a physical labor coefficient."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-04",
+      "question": "Which economic-role and organizational benchmarks predict sustained productive work?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Connect evaluations to operating requirements, costs, supervision and useful output.",
+      "evidence_method": "Benchmark cards with task distribution, model/harness/tool versions, budget, human comparator, latency, intervention, failure/recovery and evaluator limits.",
+      "dependencies_and_completion": "W1 crosswalk alongside HC-01 and LLM-03; deeper when benchmark results can be joined to actual operating outcomes.",
+      "findings": [
+        "Five benchmark cards retain harness, budget and validity boundaries; successful-episode cost is not all-attempt cost per success."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-05",
+      "question": "When do multiple agents improve productive coordination, and which mechanisms transfer to mixed physical-digital systems?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Test architecture, shared state, division of work, communication, constraints and correlated failures.",
+      "evidence_method": "Compare single and multi-agent systems at matched resource budgets; map sequential/parallel work, conventional solvers, supervision, queues and geographic/physical constraints.",
+      "dependencies_and_completion": "W1 mechanism comparisons alongside FD-01/02. No universal agent-count scaling coefficient; deepen with workload and failure evidence.",
+      "findings": [
+        "The July2026 coordination paper supersedes earlier blog breadth and supports bounded architecture testing, not a universal multi-agent law."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-06",
+      "question": "How do model producers compete for capital, inputs, distribution, customers and deployment capacity?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Understand scarcity, investment, partnerships, vertical scope and deployment companies.",
+      "evidence_method": "Date actor/resource/rights relationships; compare open/proprietary and lab/cloud/deployco roles; distinguish equity, control, supply commitments and realized availability.",
+      "dependencies_and_completion": "W1 ecosystem dossier with LLM-01 and BM-01/02; deeper as current terms, utilization and customer outcomes become observable.",
+      "findings": [
+        "Commitments, investments, cloud relationships and distribution are mapped; source totals do not reveal robot-specific allocation or profitability."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-07",
+      "question": "Which businesses built on or linked to labs create and retain value, and why?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Inform robotics complements, integrators, operators, asset arrangements and AI-native customer platforms.",
+      "evidence_method": "Compare applications, tooling, inference/cloud, deploycos, services and operating enterprises; map API/equity/distribution/data dependencies, switching and substitution.",
+      "dependencies_and_completion": "W1 conditional comparisons with OS-03/07 and BM-01/04. Lab affiliation alone is not evidence of control or durable returns.",
+      "findings": [
+        "Deployment-company and ownership channels are documented with transaction-status limits; announced structure is not realized return."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-08",
+      "question": "How can digital systems contribute directly from robot policy through fleet/site/enterprise and value-chain coordination?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Specify staging overlap and integration with ERP, routing, scheduling, inventory, maintenance and physical execution.",
+      "evidence_method": "Role/interface maps, timing/state/authority, model vs solver/controller responsibilities; separate demonstrated integrations from proposed combinations and compare conventional alternatives.",
+      "dependencies_and_completion": "W1 embodied and site/enterprise contribution maps alongside FD-01/02 and HC-01; deeper with end-to-end operating evidence.",
+      "findings": [
+        "Three direct-contribution maps keep robot control, fleet/site/enterprise interfaces and R&D separate; integration completeness remains to be tested."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-09",
+      "question": "How can digital AI change the time, cost and attainable capability of robotics R&D, and what physical-resource feedback follows?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Connect research/code/data/simulation/reward/design assistance to future humanoid improvement rather than only runtime performance.",
+      "evidence_method": "Fixed-objective comparisons of human time, compute, failed experiments, validation and calendar time; map conditional robotics contributions to AI construction/manufacturing/maintenance with lead times.",
+      "dependencies_and_completion": "W1 R&D contribution map alongside HC-02/04, DL-01/03 and SP-02. Avoid unsupported universal acceleration or recursive-growth assumptions.",
+      "findings": [
+        "R&D mechanisms and physical-infrastructure feedback are bounded; no full-project critical-path reduction or capacity gain is inferred."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-LLM-10",
+      "question": "Which digital-to-robotics analogies survive multivariate comparison, and how do joint capability paths change deployment choices?",
+      "status": "PARTIAL",
+      "owner": "digital_ecosystem/lead",
+      "decision_consequence": "Transfer mechanisms selectively, update human-led baselines, and identify complementarity or substitution.",
+      "evidence_method": "Analogy ledger with source/target evidence and falsifiers; joint digital-only/robot-only/combined scenarios at matched output, quality and demand; preserve nontransfer findings.",
+      "dependencies_and_completion": "W1 at least six analogy tests and one joint mechanism scenario after relevant LLM scopes; explain effects on at least three decisions/questions. Deepen with target evidence.",
+      "findings": [
+        "Eight analogy tests preserve source/target separation; matched four-way cost scenarios expose moving baselines and nonadditive effects."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-01",
+      "question": "Which configured-system inputs, suppliers and qualified processes connect humanoids/quadrupeds to productive output?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Identify actual dependencies across actuation, compute/memory, energy, sensors, manufacture and service.",
+      "evidence_method": "Versioned component/facility/system graph; two sourced configurations, geography, qualifications, alternatives and unknowns.",
+      "dependencies_and_completion": "W1 connected map alongside HC-01 and SP-02; no complete proprietary BOM assumed. Deepen with supplier and production evidence.",
+      "findings": [
+        "G1 and Go2 configuration maps identify accessible architecture but preserve unknown supplier quantities, yields, costs and qualified volume."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-02",
+      "question": "What input, investment, qualification and service paths make explicit scale targets feasible over time?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Test dates and production/fleet/output targets against necessary physical and financial conditions.",
+      "evidence_method": "Forward and backcast scenarios; component/finished inventories, yields, starts/completions, lead times/ramp, commissioning, spares/replacements and shared allocations.",
+      "dependencies_and_completion": "W1 conditional model after SC-01 and SP-02 scope; deeper with qualified capacity and cohort/service exposure. Complete a bounded path only with conservation and adverse cases.",
+      "findings": [
+        "Time-indexed inventory/production/commissioning backcasts state necessary resources, not demand or adoption forecasts."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-03",
+      "question": "What explains changes in robot/component cost and performance as volume grows?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Separate manufacturing learning, design improvement, purchasing power, input cycles, utilization and price subsidy.",
+      "evidence_method": "Comparable generations, cost/price definitions and production volumes; test alternative response forms and confounding.",
+      "dependencies_and_completion": "W1 hypothesis/evidence map with HC-02 and SC-01; fit only adequate comparable data. Deeper with cost and yield observations.",
+      "findings": [
+        "Supplier specifications and investment do not identify robot production learning curves; empirically calibrated cost decline remains open."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-04",
+      "question": "Which embodiments and mixed systems best serve each market-stage outcome, and when does that change?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Avoid assuming humanoid feasibility means economic preference.",
+      "evidence_method": "Matched output/quality and configured-system economics for biped/wheeled manipulation, quadrupeds, fixed/specialized systems, drones where comparable and people; include redesign and retrofit.",
+      "dependencies_and_completion": "W1 two comparisons in existing cells after PL-02, HC-01 and SP-04 scopes; deeper when rankings can be constrained by operating evidence.",
+      "findings": [
+        "Two unpriced real matched comparisons preserve quality, support and infeasibility; numerical specialized alternatives are expressly synthetic."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-05",
+      "question": "How do compute, memory, control and power/thermal choices constrain capability, cost and supply?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Link model scaling to feasible onboard/remote architectures and duty cycles.",
+      "evidence_method": "Versioned latency/memory/bandwidth/precision/power requirements; separate controllers, onboard policies, remote inference and training; qualify substitution.",
+      "dependencies_and_completion": "W1 architecture/constraint map with HC-02, FD-02 and LLM-01/08; deeper on sustained workload measurements. Headline TOPS does not complete it.",
+      "findings": [
+        "Orin/T5000 LPDDR and H200 HBM differ in architecture, bandwidth, power and use; they are not fungible supply or performance units."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-06",
+      "question": "What is actually open, reproducible and commercially usable in robotics ecosystems?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Distinguish platform availability, SDK access, hardware, firmware, models/data and practical dependency.",
+      "evidence_method": "Five or more layered artifact/version/license cards; inspect rights/dependencies/governance and preserve conflicts.",
+      "dependencies_and_completion": "W1 map alongside DL-01 and BM-02; deepen with pinned releases, manufacturing/operation reproduction and clarified terms. No blanket company label.",
+      "findings": [
+        "Six commit-pinned openness cards distinguish SDK, source, weights, hardware and commercial restrictions."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-07",
+      "question": "How does each form of openness change innovation, adoption, entry, repair, dependence and value capture?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Test Unitree/platform, open-hardware and open-model economics against digital OSS mechanisms.",
+      "evidence_method": "Compare development, manufacture, validation, integration and support costs; identify who captures savings and which complements remain scarce.",
+      "dependencies_and_completion": "W1 hypotheses after SC-06 and LLM-07/10 scopes, linked to OS-05/07 and BM-04; deeper with target-side deployment/economic evidence.",
+      "findings": [
+        "Repair, integration and adoption hypotheses are linked to particular rights; released code is not demonstrated economic benefit."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-SC-08",
+      "question": "How do shared inputs, geography, sourcing and industrial structure change supply and competition?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field/models_dashboard",
+      "decision_consequence": "Evaluate common bottlenecks, regional access, make/buy/integration, substitution, excess capacity and bargaining power.",
+      "evidence_method": "Supplier/contract/capacity graph across robots, drones, digital AI and other uses; dated trade/procurement conditions where material; no generic shared-pool assumption.",
+      "dependencies_and_completion": "W1 structural map with SC-01/02, LLM-06 and BM-04; deeper upon qualified allocation, access and commercial evidence.",
+      "findings": [
+        "Shared component constraints are conditional on compatibility and access; geographic/player coverage remains incomplete."
+      ],
+      "artifacts": [
+        "model/METHODS.md",
+        "model/engine.py"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-QD-01",
+      "question": "Where are quadrupeds used productively, with which configurations, customers and business models?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Give quadrupeds direct economic coverage and identify deployable market stages.",
+      "evidence_method": "Three dossiers across at least two sectors; operator-supported routine use where available, precise system/payload/autonomy/site dates, alternatives and missing economics.",
+      "dependencies_and_completion": "W1 sector/player map and dossiers alongside PL-01, HC-01, OS-01 and BM-01; deeper with retained deployment and exposure evidence.",
+      "findings": [
+        "Three quadruped dossiers span operator-supported inspection settings, with retention/support and non-Spot evidence gaps."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-QD-02",
+      "question": "How do sensing, missions and data become useful decisions, actions and customer outcomes?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Separate inspection activity from asset benefit, payroll removal or new service value.",
+      "evidence_method": "Trace data quality, review/diagnosis, work orders, repair/action, outcomes and all human work; match frequency/coverage/service requirements and false alarms.",
+      "dependencies_and_completion": "W1 mechanisms within QD-01 cases, joined to FD-01 and LLM-08; deeper with action and outcome records. Avoided losses stay conditional without identification.",
+      "findings": [
+        "Inspection requires usable imagery and action workflows; PG&E provides both successful missions and material output limitations."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-QD-03",
+      "question": "What enables or stalls sustained quadruped fleet scale and transferable learning?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Test uptime, exceptions, docking, service density, integration, data rights and expansion beyond favorable sites.",
+      "evidence_method": "Exposure-based reliability and support; negative/limited cases; cohort/selection analysis; mixed fleets and cross-embodiment transfer hypotheses.",
+      "dependencies_and_completion": "W1 bounded operational findings after QD-01 scope, linked to HC-03/04, DL and SC-02; deepen with logs, maintenance and unsuccessful deployments.",
+      "findings": [
+        "Field sensing alone does not prove sustained service economics or cross-site learning; full operating support remains a next evidence priority."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DR-01",
+      "question": "Which drone deployment outcomes and failures illuminate physical automation economics?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Build empirical comparisons across inspection, delivery, agriculture or other relevant service models.",
+      "evidence_method": "Three contrasting dossiers across at least two models; operator/research evidence, activity vs outcomes, human work, modeled vs observed economics and operating permissions.",
+      "dependencies_and_completion": "W1 bounded pack alongside PL-01 and QD-01; no inference that flight approvals or economics apply to ground robots. Deepen with comparable operating data.",
+      "findings": [
+        "Delivery, inspection and agricultural cases retain adverse costs, changing configurations and counterfactual boundaries."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DR-02",
+      "question": "Which drone supply-chain, platform, openness and value-capture mechanisms transfer to robotics?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Learn from manufacturing, components, software, channels, operators and concentration without asserting identical industry structure.",
+      "evidence_method": "Source/target mechanism cards with common inputs and incompatible grades/requirements, rights, competing explanations, predictions and falsifiers.",
+      "dependencies_and_completion": "W1 transfer/nontransfer tests with SC-01/06/08, BM-04 and DR-01; deeper when target evidence justifies parameter or structure changes.",
+      "findings": [
+        "Artifact rights and operating/supply comparisons support bounded hypotheses, not imported humanoid productivity coefficients."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    },
+    {
+      "question_id": "RQ-DR-03",
+      "question": "Where do aerial and ground robots substitute, complement, coordinate or exchange useful data?",
+      "status": "PARTIAL",
+      "owner": "physical_supply_field",
+      "decision_consequence": "Inform future mixed physical-digital organizations and deployment order.",
+      "evidence_method": "Matched outcome comparison or explicit complementary workflow; scheduling/supervision/interfaces, human response, learning limits and conserved benefits.",
+      "dependencies_and_completion": "W1 bounded hypotheses with SC-04, QD-02, DR-01 and FD-01/02; at least four I/J transfer tests overall, including a limited/failed candidate. Deeper with integrated field evidence.",
+      "findings": [
+        "Aerial and ground systems cover different access/sensing functions; no duplicate additive output or universal substitution is assumed."
+      ],
+      "artifacts": [
+        "research/physical_supply_field.md",
+        "data/physical_evidence.json"
+      ],
+      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+    }
+  ],
+  "edition_note": "First integrated checkpoint: bounded findings do not close the multi-month questions. All original IDs and completion conditions retained."
+}

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.10-launch1.1.
+Handoff ID: week-one-2026-10-25-in-progress-0.1.
 
 ## Accepted direction
 
@@ -16,16 +16,30 @@ Amar also requested a full humanoid/quadruped supply and value-chain inquiry, in
 
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
-## Current preparation and execution status
+## Current campaign state
 
-- Charter/design v0.10, digital-AI module v1.1, physical-supply and quadruped/drone modules v1.0, campaign specification v1.4, and roadmap v1.4 define ten workstreams, thirteen linked dashboard views, and 55 open questions. The substantial H module includes connected ecosystem/deployment dossiers, direct-contribution maps, benchmark/analogy cards, joint scenarios, and concrete implications for A–G; approximately one-third research attention is a revisable planning default. I/J add connected supply/configuration and layered-openness maps, time-indexed scale/backcast scenarios, matched embodiment comparisons, three quadruped and three drone evidence dossiers, physical transfer tests and two dashboard views; shared cases and effort are counted once.
-- `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
-- `CODEX_GOAL.md` launch revision 1.1 stores the full execution prompt, including Astra Ultra, explicit multi-agent lanes/waves, independent review, one-writer coordination, semantic checkpoints and initial boot actions. A short /goal can point directly to this file and its linked specifications; no second paste or recursive activation is needed. The intellectual design remains v0.10.
-- `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
-- **The seven-day campaign was not activated by this preparation task.** No week-one report, dashboard, datasets, or model results are claimed to exist.
-- Live ChatGPT project settings and the user's local checkout were not modified by publishing repository documents. Saved instructions were updated in Git only.
+The user activated launch revision 1.1. Campaign `week-one-2026-10-25` is **in progress**, not a completed seven-day edition. The accepted input revision and exact runtime receipts are in ignored `work/campaign_state.json` and `sync_receipt.json`; the launch input was the repository's `Persist full Astra Ultra multi-agent research launch prompt` revision. Preserve this campaign window on resumption.
 
-US quantitative labor coverage with global provider/research/supply-chain analysis, an observed baseline plus conditional horizons, and initial breadth/depth targets are revisable working defaults. They should be recorded as such at kickoff. No additional preference question is required to begin the prepared campaign.
+- Actual recorded T0: **2026-10-25T15:52:14Z**, displayed **October 25, 2026, 11:52:14 EDT (America/New_York)**.
+- Deadline: **2026-11-01T15:52:14Z**, displayed **November 1, 2026, 10:52:14 EST (America/New_York)**. Exactly 168 elapsed hours; the local clock changes during the window.
+- Activation was recovered from prepared-only remote state, with no prior campaign record found. The canonical Mac working copy is not mounted in this cloud execution, so its unpushed state and divergence could not be inspected. A fresh cloud checkout preserves that unseen work.
+- Six specialist launches explicitly requested `gpt-6-astra` with `ultra`; the collaboration tool accepted those requests. Actual serving identity/effort is not independently introspectable. Lead settings cannot be selected or verified by the available tools. Do not describe either as independently verified Astra Ultra execution.
+- Seven concurrent slots include the lead. First wave: A/C atlas; B/D/E capabilities/learning; F/G customer/value capture; H digital ecosystem; I/J supply/field evidence; common models/dashboard. Lead integrates and adds H infrastructure research. Independent review follows in freed slots.
+- H receives a dedicated specialist plus lead infrastructure investigation and joint-model integration. This is a substantive allocation, not a measured claim of one-third elapsed compute. Preserve H depth in subsequent waves and record consequential reallocation.
+
+The governing scope remains charter/design v0.10, digital module v1.1, I/J modules v1.0 and week-one specification v1.4. All ten workstreams and thirteen linked views remain required. `acceptance_register.json` records individual checks and remaining gaps; absence of a failed test is not acceptance. Early synthetic models demonstrate mechanisms and remain excluded from empirical totals.
+
+## First integrated checkpoint
+
+The first research edition contains fifteen market families with residuals, six deeper market-stage cells, 96 claim-level evidence records in six packages, a seven-chapter integrated report, a common synthetic CPU engine, eight saved scenarios and thirteen linked local dashboard views. Start with `REPORT.md`, `REPRODUCE.md` and `ACCEPTANCE_AUDIT.md`. The report deliberately retains the full substantive chapter text (about 23,000 words), exceeding the 8–15k guidance to preserve source boundaries and cross-workstream analysis; a shorter decision-facing edition remains a worthwhile editorial task.
+
+Independent evidence reviews corrected study populations/version dates, prospective claim labels, drone cost/comparator boundaries and benchmark cost denominators. Independent model review corrected output at uninstalled sites and missing reject costs in accepted-system economics. Fifteen executable tests, 87,114 independent accounting checks across 150 adverse scenarios, evidence-ID validation, and browser smoke/crossfilter/export checks passed for the reviewed snapshot. Read the individual reviews for scope; these tests do not establish calibration or full acceptance.
+
+Material gaps remain: complete field support/accepted-output denominators, empirical whole-system economics, benchmark/harness reproducibility, qualified supply access, discrete operating schedules, a revolving provider treasury, and joint resource accounting for the separate monthly entrant case. Specialized dashboard filters are incomplete. No investment or penetration forecast is validated. The 55-question ledger retains original IDs and completion conditions, with bounded findings rather than premature closure.
+
+The next wave has separate files for field support denominators, non-Spot operator evidence, and coordination/benchmark reproducibility. Existing checkpoint artifacts are frozen except for final review corrections. Continue those investigations and the ranked roadmap within the original window; do not infer that work occurred during any interruption.
+
+US labor denominators, global systems/supply coverage and conditional horizons remain explicit defaults. No live ChatGPT project settings, canonical Mac files, legacy sync automation, or separately scoped implementation repository were modified. Publication does not establish that another Work session consumed the result.
 
 ## Canonical artifacts and ownership
 
@@ -57,10 +71,10 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 ## Next owner and action
 
-**Next owner: Amar activating the prepared goal in the existing Codex project; then Codex executing the first campaign.**
+**Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, robotics business-model/value-capture comparisons, digital-ecosystem evidence/direct-contribution and joint-capability scenarios, qualified supply and scale feasibility, embodiment/openness comparisons, and quadruped/drone field evidence.
+First active bounded question: **Which claims about accepted output, human support, economic returns and qualified capacity survive primary-source scrutiny across the six market-stage cells?** Integrate the source-backed dossiers and common engine, independently review consequential source claims and model conservation, publish a scoped validated milestone, then continue the highest-value unresolved questions through the available window.
 
-One next research question: **Across which end-market/value-chain configurations do current and plausible future robotic systems enable successive productive-deployment stages, and how do embodiment, qualified supply, learning/coordination, customer organization and commercial/control arrangements change the preferred sequence and feasible scale?**
+One writer per file: each specialist owns its research/evidence pair; implementation owns model/dashboard/tests/scripts/reproduction; lead owns report, schema, acceptance, roadmap, handoff and manifest. Reviewers write separate audit artifacts and request owner corrections. Exact active assignments and next actions remain in ignored operational state while running.
 
-Earlier coordination history: the shared repository replaced upload-based exchange on 6 September 2026. Older Documents copies and uploaded sources remain historical snapshots. Detailed publication/access receipts are operational records; check the current remote state before claiming a later revision has been consumed.
+Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly and continue the original elapsed-time window.
