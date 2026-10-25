@@ -1,0 +1,939 @@
+{
+  "schema_version": "physical-requirements-source-rows/1.0",
+  "sources": [
+    {
+      "path": "data/sources/physical_requirements/ors_2025_complete.xlsx",
+      "url": "https://www.bls.gov/web/ors/ors-complete-dataset.xlsx",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "publication_date": "2026-01-16",
+      "observation_period": "2025 preliminary third wave; August 2023 through July 2025 samples",
+      "sha256": "c3440f528b50700654ef823c16da1db543c1fae4477ea7897603386c61f3d1c0",
+      "bytes": 6880047
+    },
+    {
+      "path": "data/sources/physical_requirements/oesm25nat.zip",
+      "url": "https://www.bls.gov/oes/special-requests/oesm25nat.zip",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "publication_date": "2026-05-15",
+      "observation_period": "May 2025 estimates; six panels November 2022 through May 2025",
+      "sha256": "b5855a37f3e03e779f6fbf173d3bbc94aeeff33426aef32fa95ce6d025bab1af",
+      "bytes": 279525
+    }
+  ],
+  "retrieved_at": "2026-10-25",
+  "ors_sheet": "ORS 2025 dataset",
+  "ors_data_row_count": 73710,
+  "ors_rows": [
+    {
+      "source_row": 41258,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00001262",
+        "SERIES TITLE": "Percent of civilian janitors and cleaners, except maids and housekeeping cleaners that required fine manipulation",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01262",
+        "ESTIMATE TEXT": "Percent of workers that required fine manipulation",
+        "CATEGORY CODE": "036",
+        "CATEGORY": "Fine manipulation",
+        "ADDITIVE CODE": "B36",
+        "ADDITIVE": "Fine manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 41276,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00000771",
+        "SERIES TITLE": "Percent of civilian janitors and cleaners, except maids and housekeeping cleaners that required gross manipulation",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00771",
+        "ESTIMATE TEXT": "Percent of workers that required gross manipulation",
+        "CATEGORY CODE": "034",
+        "CATEGORY": "Gross manipulation",
+        "ADDITIVE CODE": "B34",
+        "ADDITIVE": "Gross manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 41319,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00001216",
+        "SERIES TITLE": "Percent of civilian janitors and cleaners, except maids and housekeeping cleaners that required work in low postures",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01216",
+        "ESTIMATE TEXT": "Percent of workers that required work in low postures",
+        "CATEGORY CODE": "001",
+        "CATEGORY": "Low postures",
+        "ADDITIVE CODE": "B01",
+        "ADDITIVE": "Low postures",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">95",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "35",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 41356,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00000830",
+        "SERIES TITLE": "Percent of civilian janitors and cleaners, except maids and housekeeping cleaners that required reaching at or below the shoulder",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00830",
+        "ESTIMATE TEXT": "Percent of workers that required reaching at or below the shoulder",
+        "CATEGORY CODE": "018",
+        "CATEGORY": "Reaching at or below the shoulder",
+        "ADDITIVE CODE": "B18",
+        "ADDITIVE": "Reaching at or below the shoulder",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 41364,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00000831",
+        "SERIES TITLE": "Percent of civilian janitors and cleaners, except maids and housekeeping cleaners that required reaching overhead",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00831",
+        "ESTIMATE TEXT": "Percent of workers that required reaching overhead",
+        "CATEGORY CODE": "016",
+        "CATEGORY": "Reaching overhead",
+        "ADDITIVE CODE": "B16",
+        "ADDITIVE": "Reaching overhead",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "92.4",
+        "STANDARD ERROR": "2.5",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 41369,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00000997",
+        "SERIES TITLE": "Civilian janitors and cleaners, except maids and housekeeping cleaners; Percent of the day that workers were required to sit, mean",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00997",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to sit, mean",
+        "CATEGORY CODE": "078",
+        "CATEGORY": "Sitting",
+        "ADDITIVE CODE": "Z78",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "2.3",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": "6",
+        "SERIES FOOTNOTE": "9,P"
+      }
+    },
+    {
+      "source_row": 41386,
+      "cells": {
+        "SERIES ID": "ORUP1000020X00001003",
+        "SERIES TITLE": "Civilian janitors and cleaners, except maids and housekeeping cleaners; Percent of the day that workers were required to stand, mean",
+        "2018 SOC CODE": "372011",
+        "OCCUPATION": "Janitors and cleaners, except maids and housekeeping cleaners",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01003",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to stand, mean",
+        "CATEGORY CODE": "077",
+        "CATEGORY": "Standing",
+        "ADDITIVE CODE": "Z77",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "97.7",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": "6",
+        "SERIES FOOTNOTE": "8,P"
+      }
+    },
+    {
+      "source_row": 60080,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00001262",
+        "SERIES TITLE": "Percent of civilian construction laborers that required fine manipulation",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01262",
+        "ESTIMATE TEXT": "Percent of workers that required fine manipulation",
+        "CATEGORY CODE": "036",
+        "CATEGORY": "Fine manipulation",
+        "ADDITIVE CODE": "B36",
+        "ADDITIVE": "Fine manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "96.1",
+        "STANDARD ERROR": "2.2",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 60098,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00000771",
+        "SERIES TITLE": "Percent of civilian construction laborers that required gross manipulation",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00771",
+        "ESTIMATE TEXT": "Percent of workers that required gross manipulation",
+        "CATEGORY CODE": "034",
+        "CATEGORY": "Gross manipulation",
+        "ADDITIVE CODE": "B34",
+        "ADDITIVE": "Gross manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 60141,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00001216",
+        "SERIES TITLE": "Percent of civilian construction laborers that required work in low postures",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01216",
+        "ESTIMATE TEXT": "Percent of workers that required work in low postures",
+        "CATEGORY CODE": "001",
+        "CATEGORY": "Low postures",
+        "ADDITIVE CODE": "B01",
+        "ADDITIVE": "Low postures",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 60179,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00000830",
+        "SERIES TITLE": "Percent of civilian construction laborers that required reaching at or below the shoulder",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00830",
+        "ESTIMATE TEXT": "Percent of workers that required reaching at or below the shoulder",
+        "CATEGORY CODE": "018",
+        "CATEGORY": "Reaching at or below the shoulder",
+        "ADDITIVE CODE": "B18",
+        "ADDITIVE": "Reaching at or below the shoulder",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 60187,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00000831",
+        "SERIES TITLE": "Percent of civilian construction laborers that required reaching overhead",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00831",
+        "ESTIMATE TEXT": "Percent of workers that required reaching overhead",
+        "CATEGORY CODE": "016",
+        "CATEGORY": "Reaching overhead",
+        "ADDITIVE CODE": "B16",
+        "ADDITIVE": "Reaching overhead",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "75.8",
+        "STANDARD ERROR": "6.1",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 60192,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00000997",
+        "SERIES TITLE": "Civilian construction laborers; Percent of the day that workers were required to sit, mean",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00997",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to sit, mean",
+        "CATEGORY CODE": "078",
+        "CATEGORY": "Sitting",
+        "ADDITIVE CODE": "Z78",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "10.8",
+        "STANDARD ERROR": "2.0",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "9,P"
+      }
+    },
+    {
+      "source_row": 60208,
+      "cells": {
+        "SERIES ID": "ORUP1000026N00001003",
+        "SERIES TITLE": "Civilian construction laborers; Percent of the day that workers were required to stand, mean",
+        "2018 SOC CODE": "472061",
+        "OCCUPATION": "Construction laborers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01003",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to stand, mean",
+        "CATEGORY CODE": "077",
+        "CATEGORY": "Standing",
+        "ADDITIVE CODE": "Z77",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "89.2",
+        "STANDARD ERROR": "2.0",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "8,P"
+      }
+    },
+    {
+      "source_row": 65776,
+      "cells": {
+        "SERIES ID": "ORUP1000030Z00001262",
+        "SERIES TITLE": "Percent of civilian team assemblers that required fine manipulation",
+        "2018 SOC CODE": "512092",
+        "OCCUPATION": "Team assemblers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01262",
+        "ESTIMATE TEXT": "Percent of workers that required fine manipulation",
+        "CATEGORY CODE": "036",
+        "CATEGORY": "Fine manipulation",
+        "ADDITIVE CODE": "B36",
+        "ADDITIVE": "Fine manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 65785,
+      "cells": {
+        "SERIES ID": "ORUP1000030Z00000771",
+        "SERIES TITLE": "Percent of civilian team assemblers that required gross manipulation",
+        "2018 SOC CODE": "512092",
+        "OCCUPATION": "Team assemblers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00771",
+        "ESTIMATE TEXT": "Percent of workers that required gross manipulation",
+        "CATEGORY CODE": "034",
+        "CATEGORY": "Gross manipulation",
+        "ADDITIVE CODE": "B34",
+        "ADDITIVE": "Gross manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 65821,
+      "cells": {
+        "SERIES ID": "ORUP1000030Z00001216",
+        "SERIES TITLE": "Percent of civilian team assemblers that required work in low postures",
+        "2018 SOC CODE": "512092",
+        "OCCUPATION": "Team assemblers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01216",
+        "ESTIMATE TEXT": "Percent of workers that required work in low postures",
+        "CATEGORY CODE": "001",
+        "CATEGORY": "Low postures",
+        "ADDITIVE CODE": "B01",
+        "ADDITIVE": "Low postures",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "65.7",
+        "STANDARD ERROR": "10.3",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 65871,
+      "cells": {
+        "SERIES ID": "ORUP1000030Z00001003",
+        "SERIES TITLE": "Civilian team assemblers; Percent of the day that workers were required to stand, mean",
+        "2018 SOC CODE": "512092",
+        "OCCUPATION": "Team assemblers",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01003",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to stand, mean",
+        "CATEGORY CODE": "077",
+        "CATEGORY": "Standing",
+        "ADDITIVE CODE": "Z77",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "95.6",
+        "STANDARD ERROR": "3.0",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "8,P"
+      }
+    },
+    {
+      "source_row": 72415,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00001262",
+        "SERIES TITLE": "Percent of civilian laborers and freight, stock, and material movers, hand that required fine manipulation",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01262",
+        "ESTIMATE TEXT": "Percent of workers that required fine manipulation",
+        "CATEGORY CODE": "036",
+        "CATEGORY": "Fine manipulation",
+        "ADDITIVE CODE": "B36",
+        "ADDITIVE": "Fine manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "87.1",
+        "STANDARD ERROR": "4.2",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 72433,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00000771",
+        "SERIES TITLE": "Percent of civilian laborers and freight, stock, and material movers, hand that required gross manipulation",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00771",
+        "ESTIMATE TEXT": "Percent of workers that required gross manipulation",
+        "CATEGORY CODE": "034",
+        "CATEGORY": "Gross manipulation",
+        "ADDITIVE CODE": "B34",
+        "ADDITIVE": "Gross manipulation",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": ">99.5",
+        "STANDARD ERROR": "-",
+        "DATA FOOTNOTE": "36",
+        "STANDARD ERROR FOOTNOTE": "15",
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 72476,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00001216",
+        "SERIES TITLE": "Percent of civilian laborers and freight, stock, and material movers, hand that required work in low postures",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01216",
+        "ESTIMATE TEXT": "Percent of workers that required work in low postures",
+        "CATEGORY CODE": "001",
+        "CATEGORY": "Low postures",
+        "ADDITIVE CODE": "B01",
+        "ADDITIVE": "Low postures",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "93.6",
+        "STANDARD ERROR": "1.4",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 72512,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00000830",
+        "SERIES TITLE": "Percent of civilian laborers and freight, stock, and material movers, hand that required reaching at or below the shoulder",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00830",
+        "ESTIMATE TEXT": "Percent of workers that required reaching at or below the shoulder",
+        "CATEGORY CODE": "018",
+        "CATEGORY": "Reaching at or below the shoulder",
+        "ADDITIVE CODE": "B18",
+        "ADDITIVE": "Reaching at or below the shoulder",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "98.7",
+        "STANDARD ERROR": "0.7",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 72519,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00000831",
+        "SERIES TITLE": "Percent of civilian laborers and freight, stock, and material movers, hand that required reaching overhead",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00831",
+        "ESTIMATE TEXT": "Percent of workers that required reaching overhead",
+        "CATEGORY CODE": "016",
+        "CATEGORY": "Reaching overhead",
+        "ADDITIVE CODE": "B16",
+        "ADDITIVE": "Reaching overhead",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "52.1",
+        "STANDARD ERROR": "5.5",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "P"
+      }
+    },
+    {
+      "source_row": 72525,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00000997",
+        "SERIES TITLE": "Civilian laborers and freight, stock, and material movers, hand; Percent of the day that workers were required to sit, mean",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "00997",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to sit, mean",
+        "CATEGORY CODE": "078",
+        "CATEGORY": "Sitting",
+        "ADDITIVE CODE": "Z78",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "6.3",
+        "STANDARD ERROR": "1.4",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "9,P"
+      }
+    },
+    {
+      "source_row": 72542,
+      "cells": {
+        "SERIES ID": "ORUP1000059Q00001003",
+        "SERIES TITLE": "Civilian laborers and freight, stock, and material movers, hand; Percent of the day that workers were required to stand, mean",
+        "2018 SOC CODE": "537062",
+        "OCCUPATION": "Laborers and freight, stock, and material movers, hand",
+        "REQUIREMENT": "Physical demands",
+        "ESTIMATE CODE": "01003",
+        "ESTIMATE TEXT": "Percent of the day that workers were required to stand, mean",
+        "CATEGORY CODE": "077",
+        "CATEGORY": "Standing",
+        "ADDITIVE CODE": "Z77",
+        "ADDITIVE": "Percent of work day",
+        "DATATYPE CODE": "01",
+        "DATATYPE": "Percentage",
+        "ESTIMATE": "93.7",
+        "STANDARD ERROR": "1.4",
+        "DATA FOOTNOTE": null,
+        "STANDARD ERROR FOOTNOTE": null,
+        "SERIES FOOTNOTE": "8,P"
+      }
+    }
+  ],
+  "ors_missing_keys": [
+    {
+      "soc": "512092",
+      "estimate_code": "00997"
+    },
+    {
+      "soc": "512092",
+      "estimate_code": "00830"
+    },
+    {
+      "soc": "512092",
+      "estimate_code": "00831"
+    }
+  ],
+  "ors_footnotes": {
+    "1": "Estimate is less than 0.5 percent.",
+    "2": "Estimate is less than 0.05 hours.",
+    "3": "Estimate is less than 0.05 pounds.",
+    "5": "Standard error is less than 0.05.",
+    "6": "Standard error is less than 0.5.",
+    "7": "This estimate is the mode for the category group.",
+    "8": "Standing estimates include time spent standing or walking.",
+    "9": "Sitting estimates include time spent sitting or lying down.",
+    "10": "This estimate is present when workers have the flexibility to choose, there is no assigned time to do either, or no external factors cause either.",
+    "11": "Workers with minimum education requirements are not included in the percentage of workers with literacy requirements.",
+    "12": "A short demonstration is preparation time necessary to successfully perform a job and includes 4 hours or less.",
+    "15": "The standard error is not available for this estimate.",
+    "16": "Estimate is less than 5 percent.",
+    "17": "Estimate is less than 10 percent.",
+    "18": "Estimate is less than 15 percent.",
+    "19": "Estimate is less than 20 percent.",
+    "20": "Estimate is less than 25 percent.",
+    "21": "Estimate is less than 30 percent.",
+    "22": "Estimate is less than 35 percent.",
+    "23": "Estimate is less than 40 percent.",
+    "24": "Estimate is less than 45 percent.",
+    "25": "Estimate is less than 50 percent.",
+    "26": "Estimate is greater than 50 percent.",
+    "27": "Estimate is greater than 55 percent.",
+    "28": "Estimate is greater than 60 percent.",
+    "29": "Estimate is greater than 65 percent.",
+    "30": "Estimate is greater than 70 percent.",
+    "31": "Estimate is greater than 75 percent.",
+    "32": "Estimate is greater than 80 percent.",
+    "33": "Estimate is greater than 85 percent.",
+    "34": "Estimate is greater than 90 percent.",
+    "35": "Estimate is greater than 95 percent.",
+    "36": "Estimate is greater than 99.5 percent.",
+    "P": "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+  },
+  "ors_file_information": {
+    "1": [
+      "2025 Occupational Requirements Survey Estimates\n\nSource: U.S. Bureau of Labor Statistics, Occupational Requirements Survey\nwebsite: www.bls.gov/ors\nemail: orsinfo@bls.gov\nphone: 202-691-6199\n\nRelease date: 1/16/2026",
+      "Technical note:\n\nSample size - The ORS is a nationally representative establishment-based survey. Estimates are produced from a probability sample of 27,100 establishments. There were 10,700 private industry and 2,200 state and local government responding establishments that provided approximately 50,600 occupational observations. \n\nThe 2025 estimates represent 148,672,800 civilian workers. \n\nThe 2025 estimates are the aggregate of two annual samples collected between August 2023 and July 2025 as part of the third wave of ORS. Estimates are preliminary until the entire third wave sample is collected and aggregated to produce final estimates. \n\nStandard errors - Standard errors provide users a measure of the precision of an estimate to ensure that it is within an acceptable range for their intended purpose. Collected and imputed data are included in the standard error calculation. For further information and how to use the standard errors see www.bls.gov/ors/se.htm. \n\nConcepts, design, calculation and imputation methodology are available in the Handbook of Methods, see www.bls.gov/opub/hom/ors/home.htm."
+    ],
+    "2": [
+      "Field",
+      "Field Description"
+    ],
+    "3": [
+      "Series ID",
+      "Unique 20 character code identifying the specific estimate series."
+    ],
+    "4": [
+      "Series title",
+      "Description of the series id."
+    ],
+    "5": [
+      "SOC 2018 code",
+      "6-digit occupation code as defined 2018 Standard Occupational Classification (SOC) system, see www.bls.gov/soc."
+    ],
+    "6": [
+      "Occupation",
+      "Description of the occupation code."
+    ],
+    "7": [
+      "Requirement",
+      "Main requirement type: physical demands, environmental conditions, education, training, and experience, as well as cognitive and mental requirements."
+    ],
+    "8": [
+      "Estimate code",
+      "The unique code for the datatype and specific requirement."
+    ],
+    "9": [
+      "Estimate text",
+      "Description of datatype and specific requirement."
+    ],
+    "10": [
+      "Category code",
+      "The code indicating the group of related estimates."
+    ],
+    "11": [
+      "Category",
+      "Description of a group of related estimates."
+    ],
+    "12": [
+      "Additive code",
+      "The code indicating the group of related estimates that sum to together."
+    ],
+    "13": [
+      "Additive",
+      "Description of related estimates that sum to together. "
+    ],
+    "14": [
+      "Datatype code",
+      "The code indicating the estimate measurement."
+    ],
+    "15": [
+      "Datatype",
+      "Description of the estimate measurement."
+    ],
+    "16": [
+      "Estimate",
+      "Estimate value. "
+    ],
+    "17": [
+      "Standard error",
+      "Standard error associated with the estimate."
+    ],
+    "18": [
+      "Data footnote",
+      "Footnote code associated with the series id's data value. See footnote codes tab for more information."
+    ],
+    "19": [
+      "Standard error footnote",
+      "Footnote code associated with the series id's standard error. See footnote codes tab for more information."
+    ],
+    "20": [
+      "Series footnote",
+      "Footnote code associated with the series id. See footnote codes tab for more information."
+    ]
+  },
+  "oews_sheet": "national_M2025_dl",
+  "oews_archive_member": "oesm25nat/national_M2025_dl.xlsx",
+  "oews_workbook_sha256": "852250997ceff9b721ff68f63e877d818f9c1ec8b1b69dd367958faedd5282b2",
+  "oews_data_row_count": 1401,
+  "oews_rows": [
+    {
+      "source_row": 720,
+      "cells": {
+        "AREA": "99",
+        "AREA_TITLE": "U.S.",
+        "AREA_TYPE": "1",
+        "PRIM_STATE": "US",
+        "NAICS": "000000",
+        "NAICS_TITLE": "Cross-industry",
+        "I_GROUP": "cross-industry",
+        "OWN_CODE": "1235",
+        "OCC_CODE": "37-2011",
+        "OCC_TITLE": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+        "O_GROUP": "detailed",
+        "TOT_EMP": 2209760,
+        "EMP_PRSE": 0.5,
+        "JOBS_1000": null,
+        "LOC_QUOTIENT": null,
+        "PCT_TOTAL": null,
+        "PCT_RPT": null,
+        "H_MEAN": 18.64,
+        "A_MEAN": 38760,
+        "MEAN_PRSE": 0.2,
+        "H_PCT10": 13.77,
+        "H_PCT25": 15.5,
+        "H_MEDIAN": 17.71,
+        "H_PCT75": 21.18,
+        "H_PCT90": 24.17,
+        "A_PCT10": 28640,
+        "A_PCT25": 32240,
+        "A_MEDIAN": 36840,
+        "A_PCT75": 44060,
+        "A_PCT90": 50270,
+        "ANNUAL": "",
+        "HOURLY": ""
+      }
+    },
+    {
+      "source_row": 988,
+      "cells": {
+        "AREA": "99",
+        "AREA_TITLE": "U.S.",
+        "AREA_TYPE": "1",
+        "PRIM_STATE": "US",
+        "NAICS": "000000",
+        "NAICS_TITLE": "Cross-industry",
+        "I_GROUP": "cross-industry",
+        "OWN_CODE": "1235",
+        "OCC_CODE": "47-2061",
+        "OCC_TITLE": "Construction Laborers",
+        "O_GROUP": "detailed",
+        "TOT_EMP": 1096780,
+        "EMP_PRSE": 0.8,
+        "JOBS_1000": null,
+        "LOC_QUOTIENT": null,
+        "PCT_TOTAL": null,
+        "PCT_RPT": null,
+        "H_MEAN": 25.02,
+        "A_MEAN": 52030,
+        "MEAN_PRSE": 0.3,
+        "H_PCT10": 16.87,
+        "H_PCT25": 18.57,
+        "H_MEDIAN": 22.66,
+        "H_PCT75": 28.72,
+        "H_PCT90": 37.54,
+        "A_PCT10": 35090,
+        "A_PCT25": 38620,
+        "A_MEDIAN": 47120,
+        "A_PCT75": 59740,
+        "A_PCT90": 78090,
+        "ANNUAL": "",
+        "HOURLY": ""
+      }
+    },
+    {
+      "source_row": 1163,
+      "cells": {
+        "AREA": "99",
+        "AREA_TITLE": "U.S.",
+        "AREA_TYPE": "1",
+        "PRIM_STATE": "US",
+        "NAICS": "000000",
+        "NAICS_TITLE": "Cross-industry",
+        "I_GROUP": "cross-industry",
+        "OWN_CODE": "1235",
+        "OCC_CODE": "51-2090",
+        "OCC_TITLE": "Miscellaneous Assemblers and Fabricators",
+        "O_GROUP": "broad",
+        "TOT_EMP": 1405030,
+        "EMP_PRSE": 0.5,
+        "JOBS_1000": null,
+        "LOC_QUOTIENT": null,
+        "PCT_TOTAL": null,
+        "PCT_RPT": null,
+        "H_MEAN": 22.43,
+        "A_MEAN": 46660,
+        "MEAN_PRSE": 0.2,
+        "H_PCT10": 16,
+        "H_PCT25": 17.97,
+        "H_MEDIAN": 21.47,
+        "H_PCT75": 24.61,
+        "H_PCT90": 31.19,
+        "A_PCT10": 33280,
+        "A_PCT25": 37380,
+        "A_MEDIAN": 44650,
+        "A_PCT75": 51200,
+        "A_PCT90": 64880,
+        "ANNUAL": "",
+        "HOURLY": ""
+      }
+    },
+    {
+      "source_row": 1164,
+      "cells": {
+        "AREA": "99",
+        "AREA_TITLE": "U.S.",
+        "AREA_TYPE": "1",
+        "PRIM_STATE": "US",
+        "NAICS": "000000",
+        "NAICS_TITLE": "Cross-industry",
+        "I_GROUP": "cross-industry",
+        "OWN_CODE": "1235",
+        "OCC_CODE": "51-2090",
+        "OCC_TITLE": "Miscellaneous Assemblers and Fabricators",
+        "O_GROUP": "detailed",
+        "TOT_EMP": 1405030,
+        "EMP_PRSE": 0.5,
+        "JOBS_1000": null,
+        "LOC_QUOTIENT": null,
+        "PCT_TOTAL": null,
+        "PCT_RPT": null,
+        "H_MEAN": 22.43,
+        "A_MEAN": 46660,
+        "MEAN_PRSE": 0.2,
+        "H_PCT10": 16,
+        "H_PCT25": 17.97,
+        "H_MEDIAN": 21.47,
+        "H_PCT75": 24.61,
+        "H_PCT90": 31.19,
+        "A_PCT10": 33280,
+        "A_PCT25": 37380,
+        "A_MEDIAN": 44650,
+        "A_PCT75": 51200,
+        "A_PCT90": 64880,
+        "ANNUAL": "",
+        "HOURLY": ""
+      }
+    },
+    {
+      "source_row": 1389,
+      "cells": {
+        "AREA": "99",
+        "AREA_TITLE": "U.S.",
+        "AREA_TYPE": "1",
+        "PRIM_STATE": "US",
+        "NAICS": "000000",
+        "NAICS_TITLE": "Cross-industry",
+        "I_GROUP": "cross-industry",
+        "OWN_CODE": "1235",
+        "OCC_CODE": "53-7062",
+        "OCC_TITLE": "Laborers and Freight, Stock, and Material Movers, Hand",
+        "O_GROUP": "detailed",
+        "TOT_EMP": 2950280,
+        "EMP_PRSE": 0.4,
+        "JOBS_1000": null,
+        "LOC_QUOTIENT": null,
+        "PCT_TOTAL": null,
+        "PCT_RPT": null,
+        "H_MEAN": 20.32,
+        "A_MEAN": 42260,
+        "MEAN_PRSE": 0.1,
+        "H_PCT10": 15.03,
+        "H_PCT25": 17.35,
+        "H_MEDIAN": 19.35,
+        "H_PCT75": 22.56,
+        "H_PCT90": 26.51,
+        "A_PCT10": 31270,
+        "A_PCT25": 36090,
+        "A_MEDIAN": 40240,
+        "A_PCT75": 46920,
+        "A_PCT90": 55140,
+        "ANNUAL": "",
+        "HOURLY": ""
+      }
+    }
+  ],
+  "oews_exact_code_presence": {
+    "372011": 1,
+    "472061": 1,
+    "512092": 0,
+    "537062": 1
+  },
+  "oews_aggregate_aliases": {
+    "37-2011": 1,
+    "47-2061": 1,
+    "51-2090": 2,
+    "53-7062": 1
+  },
+  "boundary": "Source rows and category aliases only; no multiplied employment, inferred physical hours or robot-addressable totals."
+}

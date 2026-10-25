@@ -1,0 +1,1838 @@
+{
+  "boundary": "Four selected occupations linked qualitatively to existing market-stage cells; not a national physical-labor or robot-addressability estimate.",
+  "exact_code_matches": 3,
+  "join_policy": "Exact detailed code match only; preserve unmatched codes, duplicate classification aliases and survey-population differences. No employment multiplication.",
+  "occupations": [
+    {
+      "cell_ids": [
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "crosswalk_id": "PRC-372011",
+      "employment": {
+        "denominator": "national cross-industry occupation employment",
+        "epistemic_status": "official_employment_estimate",
+        "period": "May 2025; six panels November 2022 through May 2025",
+        "population": "OEWS nonfarm establishments, ownership 1235; full- and part-time jobs",
+        "unit": "wage-and-salary jobs",
+        "value": 2209760
+      },
+      "evidence_ids": [
+        "PRC-001",
+        "PRC-002",
+        "PRC-003",
+        "PRC-004",
+        "PRC-005"
+      ],
+      "join_status": "exact_code_population_mismatch",
+      "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+      "oews_source_row": 720,
+      "physical_work_hours": null,
+      "physical_work_hours_missing_reason": "ORS marginal requirement incidence/duration and OEWS jobs do not supply a matched annual physical-work-hour denominator.",
+      "population_equivalent": false,
+      "requirement_ids": [
+        "372011-01003",
+        "372011-00997",
+        "372011-00771",
+        "372011-01262",
+        "372011-00830",
+        "372011-00831",
+        "372011-01216"
+      ],
+      "requirements": {
+        "fine_manipulation": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "01262",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Fine manipulation required",
+          "metric": "fine_manipulation",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-01262",
+          "series_id": "ORUP1000020X00001262",
+          "soc_2018": "37-2011",
+          "source_row": 41258,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required fine manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "gross_manipulation": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00771",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Gross manipulation required",
+          "metric": "gross_manipulation",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-00771",
+          "series_id": "ORUP1000020X00000771",
+          "soc_2018": "37-2011",
+          "source_row": 41276,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required gross manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "low_postures": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "bound": 95.0,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": ">95",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "01216",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "35"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 95 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Low postures required",
+          "metric": "low_postures",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-01216",
+          "series_id": "ORUP1000020X00001216",
+          "soc_2018": "37-2011",
+          "source_row": 41319,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required work in low postures",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "reaching_at_below_shoulder": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00830",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Reaching at or below shoulder required",
+          "metric": "reaching_at_below_shoulder",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-00830",
+          "series_id": "ORUP1000020X00000830",
+          "soc_2018": "37-2011",
+          "source_row": 41356,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching at or below the shoulder",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "reaching_overhead": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "92.4",
+            "unit": "percent of workers",
+            "value": 92.4
+          },
+          "estimate_code": "00831",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Overhead reaching required",
+          "metric": "reaching_overhead",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-00831",
+          "series_id": "ORUP1000020X00000831",
+          "soc_2018": "37-2011",
+          "source_row": 41364,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching overhead",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "2.5",
+            "unit": "percentage points",
+            "value": 2.5
+          }
+        },
+        "sitting_mean": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "2.3",
+            "unit": "percent of workday (mean)",
+            "value": 2.3
+          },
+          "estimate_code": "00997",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "9",
+              "P"
+            ],
+            "standard_error": [
+              "6"
+            ]
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Sitting estimates include time spent sitting or lying down.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "Standard error is less than 0.5."
+            ]
+          },
+          "label": "Mean workday sitting or lying down",
+          "metric": "sitting_mean",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-00997",
+          "series_id": "ORUP1000020X00000997",
+          "soc_2018": "37-2011",
+          "source_row": 41369,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to sit, mean",
+          "standard_error": {
+            "bound": 0.5,
+            "comparison": "<",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_threshold",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Exact standard error is not published; footnote specifies less than 0.5."
+          }
+        },
+        "standing_mean": {
+          "cell_ids": [
+            "CELL-M11-floor-cleaning-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "97.7",
+            "unit": "percent of workday (mean)",
+            "value": 97.7
+          },
+          "estimate_code": "01003",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "8",
+              "P"
+            ],
+            "standard_error": [
+              "6"
+            ]
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Standing estimates include time spent standing or walking.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "Standard error is less than 0.5."
+            ]
+          },
+          "label": "Mean workday standing or walking",
+          "metric": "standing_mean",
+          "occupation": "Janitors and cleaners, except maids and housekeeping cleaners",
+          "requirement_id": "372011-01003",
+          "series_id": "ORUP1000020X00001003",
+          "soc_2018": "37-2011",
+          "source_row": 41386,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to stand, mean",
+          "standard_error": {
+            "bound": 0.5,
+            "comparison": "<",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_threshold",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 37-2011; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Exact standard error is not published; footnote specifies less than 0.5."
+          }
+        }
+      },
+      "robot_addressable_jobs": null,
+      "robot_addressable_jobs_missing_reason": "No configured robot capability, workflow coverage, accepted output or economic substitution estimate is inferred.",
+      "soc_2018": "37-2011"
+    },
+    {
+      "cell_ids": [
+        "CELL-M04-construction-install-US-2025"
+      ],
+      "crosswalk_id": "PRC-472061",
+      "employment": {
+        "denominator": "national cross-industry occupation employment",
+        "epistemic_status": "official_employment_estimate",
+        "period": "May 2025; six panels November 2022 through May 2025",
+        "population": "OEWS nonfarm establishments, ownership 1235; full- and part-time jobs",
+        "unit": "wage-and-salary jobs",
+        "value": 1096780
+      },
+      "evidence_ids": [
+        "PRC-001",
+        "PRC-002",
+        "PRC-003",
+        "PRC-004",
+        "PRC-005"
+      ],
+      "join_status": "exact_code_population_mismatch",
+      "occupation": "Construction laborers",
+      "oews_source_row": 988,
+      "physical_work_hours": null,
+      "physical_work_hours_missing_reason": "ORS marginal requirement incidence/duration and OEWS jobs do not supply a matched annual physical-work-hour denominator.",
+      "population_equivalent": false,
+      "requirement_ids": [
+        "472061-01003",
+        "472061-00997",
+        "472061-00771",
+        "472061-01262",
+        "472061-00830",
+        "472061-00831",
+        "472061-01216"
+      ],
+      "requirements": {
+        "fine_manipulation": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "96.1",
+            "unit": "percent of workers",
+            "value": 96.1
+          },
+          "estimate_code": "01262",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Fine manipulation required",
+          "metric": "fine_manipulation",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-01262",
+          "series_id": "ORUP1000026N00001262",
+          "soc_2018": "47-2061",
+          "source_row": 60080,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required fine manipulation",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "2.2",
+            "unit": "percentage points",
+            "value": 2.2
+          }
+        },
+        "gross_manipulation": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00771",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Gross manipulation required",
+          "metric": "gross_manipulation",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-00771",
+          "series_id": "ORUP1000026N00000771",
+          "soc_2018": "47-2061",
+          "source_row": 60098,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required gross manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "low_postures": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "01216",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Low postures required",
+          "metric": "low_postures",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-01216",
+          "series_id": "ORUP1000026N00001216",
+          "soc_2018": "47-2061",
+          "source_row": 60141,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required work in low postures",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "reaching_at_below_shoulder": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00830",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Reaching at or below shoulder required",
+          "metric": "reaching_at_below_shoulder",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-00830",
+          "series_id": "ORUP1000026N00000830",
+          "soc_2018": "47-2061",
+          "source_row": 60179,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching at or below the shoulder",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "reaching_overhead": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "75.8",
+            "unit": "percent of workers",
+            "value": 75.8
+          },
+          "estimate_code": "00831",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Overhead reaching required",
+          "metric": "reaching_overhead",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-00831",
+          "series_id": "ORUP1000026N00000831",
+          "soc_2018": "47-2061",
+          "source_row": 60187,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching overhead",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "6.1",
+            "unit": "percentage points",
+            "value": 6.1
+          }
+        },
+        "sitting_mean": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "10.8",
+            "unit": "percent of workday (mean)",
+            "value": 10.8
+          },
+          "estimate_code": "00997",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "9",
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Sitting estimates include time spent sitting or lying down.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Mean workday sitting or lying down",
+          "metric": "sitting_mean",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-00997",
+          "series_id": "ORUP1000026N00000997",
+          "soc_2018": "47-2061",
+          "source_row": 60192,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to sit, mean",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "2.0",
+            "unit": "percentage points",
+            "value": 2.0
+          }
+        },
+        "standing_mean": {
+          "cell_ids": [
+            "CELL-M04-construction-install-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "89.2",
+            "unit": "percent of workday (mean)",
+            "value": 89.2
+          },
+          "estimate_code": "01003",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "8",
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Standing estimates include time spent standing or walking.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Mean workday standing or walking",
+          "metric": "standing_mean",
+          "occupation": "Construction laborers",
+          "requirement_id": "472061-01003",
+          "series_id": "ORUP1000026N00001003",
+          "soc_2018": "47-2061",
+          "source_row": 60208,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to stand, mean",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 47-2061; private industry plus state/local government",
+            "source_text": "2.0",
+            "unit": "percentage points",
+            "value": 2.0
+          }
+        }
+      },
+      "robot_addressable_jobs": null,
+      "robot_addressable_jobs_missing_reason": "No configured robot capability, workflow coverage, accepted output or economic substitution estimate is inferred.",
+      "soc_2018": "47-2061"
+    },
+    {
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "crosswalk_id": "PRC-512092",
+      "employment": {
+        "denominator": "national cross-industry occupation employment",
+        "epistemic_status": "official_employment_estimate",
+        "period": "May 2025; six panels November 2022 through May 2025",
+        "population": "OEWS nonfarm establishments, ownership 1235; full- and part-time jobs",
+        "unit": "wage-and-salary jobs",
+        "value": null,
+        "value_missing_reason": "No exact 51-2092 detailed employment row. The workbook's broader 51-2090 category is not Team Assemblers alone."
+      },
+      "evidence_ids": [
+        "PRC-001",
+        "PRC-002",
+        "PRC-003",
+        "PRC-004",
+        "PRC-005"
+      ],
+      "join_status": "no_exact_employment_code",
+      "occupation": "Team assemblers",
+      "oews_source_row": null,
+      "physical_work_hours": null,
+      "physical_work_hours_missing_reason": "ORS marginal requirement incidence/duration and OEWS jobs do not supply a matched annual physical-work-hour denominator.",
+      "population_equivalent": false,
+      "requirement_ids": [
+        "512092-01003",
+        "512092-00997",
+        "512092-00771",
+        "512092-01262",
+        "512092-00830",
+        "512092-00831",
+        "512092-01216"
+      ],
+      "requirements": {
+        "fine_manipulation": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "01262",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Fine manipulation required",
+          "metric": "fine_manipulation",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-01262",
+          "series_id": "ORUP1000030Z00001262",
+          "soc_2018": "51-2092",
+          "source_row": 65776,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required fine manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "gross_manipulation": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00771",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Gross manipulation required",
+          "metric": "gross_manipulation",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-00771",
+          "series_id": "ORUP1000030Z00000771",
+          "soc_2018": "51-2092",
+          "source_row": 65785,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required gross manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "low_postures": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "65.7",
+            "unit": "percent of workers",
+            "value": 65.7
+          },
+          "estimate_code": "01216",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Low postures required",
+          "metric": "low_postures",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-01216",
+          "series_id": "ORUP1000030Z00001216",
+          "soc_2018": "51-2092",
+          "source_row": 65821,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required work in low postures",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "10.3",
+            "unit": "percentage points",
+            "value": 10.3
+          }
+        },
+        "reaching_at_below_shoulder": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          },
+          "estimate_code": "00830",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "label": "Reaching at or below shoulder required",
+          "metric": "reaching_at_below_shoulder",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-00830",
+          "series_id": null,
+          "soc_2018": "51-2092",
+          "source_row": null,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": null,
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          }
+        },
+        "reaching_overhead": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          },
+          "estimate_code": "00831",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "label": "Overhead reaching required",
+          "metric": "reaching_overhead",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-00831",
+          "series_id": null,
+          "soc_2018": "51-2092",
+          "source_row": null,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": null,
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          }
+        },
+        "sitting_mean": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percent of workday (mean)",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          },
+          "estimate_code": "00997",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [],
+            "standard_error": []
+          },
+          "label": "Mean workday sitting or lying down",
+          "metric": "sitting_mean",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-00997",
+          "series_id": null,
+          "soc_2018": "51-2092",
+          "source_row": null,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": null,
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_published",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": null,
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "No matching row is published in the source workbook; absence does not identify zero or a reason for nonpublication."
+          }
+        },
+        "standing_mean": {
+          "cell_ids": [
+            "CELL-M05-auto-assembly-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "95.6",
+            "unit": "percent of workday (mean)",
+            "value": 95.6
+          },
+          "estimate_code": "01003",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "8",
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Standing estimates include time spent standing or walking.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Mean workday standing or walking",
+          "metric": "standing_mean",
+          "occupation": "Team assemblers",
+          "requirement_id": "512092-01003",
+          "series_id": "ORUP1000030Z00001003",
+          "soc_2018": "51-2092",
+          "source_row": 65871,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to stand, mean",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 51-2092; private industry plus state/local government",
+            "source_text": "3.0",
+            "unit": "percentage points",
+            "value": 3.0
+          }
+        }
+      },
+      "robot_addressable_jobs": null,
+      "robot_addressable_jobs_missing_reason": "No configured robot capability, workflow coverage, accepted output or economic substitution estimate is inferred.",
+      "soc_2018": "51-2092"
+    },
+    {
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "crosswalk_id": "PRC-537062",
+      "employment": {
+        "denominator": "national cross-industry occupation employment",
+        "epistemic_status": "official_employment_estimate",
+        "period": "May 2025; six panels November 2022 through May 2025",
+        "population": "OEWS nonfarm establishments, ownership 1235; full- and part-time jobs",
+        "unit": "wage-and-salary jobs",
+        "value": 2950280
+      },
+      "evidence_ids": [
+        "PRC-001",
+        "PRC-002",
+        "PRC-003",
+        "PRC-004",
+        "PRC-005"
+      ],
+      "join_status": "exact_code_population_mismatch",
+      "occupation": "Laborers and freight, stock, and material movers, hand",
+      "oews_source_row": 1389,
+      "physical_work_hours": null,
+      "physical_work_hours_missing_reason": "ORS marginal requirement incidence/duration and OEWS jobs do not supply a matched annual physical-work-hour denominator.",
+      "population_equivalent": false,
+      "requirement_ids": [
+        "537062-01003",
+        "537062-00997",
+        "537062-00771",
+        "537062-01262",
+        "537062-00830",
+        "537062-00831",
+        "537062-01216"
+      ],
+      "requirements": {
+        "fine_manipulation": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "87.1",
+            "unit": "percent of workers",
+            "value": 87.1
+          },
+          "estimate_code": "01262",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Fine manipulation required",
+          "metric": "fine_manipulation",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-01262",
+          "series_id": "ORUP1000059Q00001262",
+          "soc_2018": "53-7062",
+          "source_row": 72415,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required fine manipulation",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "4.2",
+            "unit": "percentage points",
+            "value": 4.2
+          }
+        },
+        "gross_manipulation": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "bound": 99.5,
+            "comparison": ">",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_range",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": ">99.5",
+            "unit": "percent of workers",
+            "value": null,
+            "value_missing_reason": "Only the published range is known; its boundary is not the underlying point estimate."
+          },
+          "estimate_code": "00771",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [
+              "36"
+            ],
+            "series": [
+              "P"
+            ],
+            "standard_error": [
+              "15"
+            ]
+          },
+          "footnotes": {
+            "estimate": [
+              "Estimate is greater than 99.5 percent."
+            ],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": [
+              "The standard error is not available for this estimate."
+            ]
+          },
+          "label": "Gross manipulation required",
+          "metric": "gross_manipulation",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-00771",
+          "series_id": "ORUP1000059Q00000771",
+          "soc_2018": "53-7062",
+          "source_row": 72433,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required gross manipulation",
+          "standard_error": {
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "not_available",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "-",
+            "unit": "percentage points",
+            "value": null,
+            "value_missing_reason": "Standard error unavailable per footnote 15."
+          }
+        },
+        "low_postures": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "93.6",
+            "unit": "percent of workers",
+            "value": 93.6
+          },
+          "estimate_code": "01216",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Low postures required",
+          "metric": "low_postures",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-01216",
+          "series_id": "ORUP1000059Q00001216",
+          "soc_2018": "53-7062",
+          "source_row": 72476,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required work in low postures",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "1.4",
+            "unit": "percentage points",
+            "value": 1.4
+          }
+        },
+        "reaching_at_below_shoulder": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "98.7",
+            "unit": "percent of workers",
+            "value": 98.7
+          },
+          "estimate_code": "00830",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Reaching at or below shoulder required",
+          "metric": "reaching_at_below_shoulder",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-00830",
+          "series_id": "ORUP1000059Q00000830",
+          "soc_2018": "53-7062",
+          "source_row": 72512,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching at or below the shoulder",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "0.7",
+            "unit": "percentage points",
+            "value": 0.7
+          }
+        },
+        "reaching_overhead": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "workers in the specified ORS occupation, not work hours",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "52.1",
+            "unit": "percent of workers",
+            "value": 52.1
+          },
+          "estimate_code": "00831",
+          "evidence_ids": [
+            "PRC-003",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Overhead reaching required",
+          "metric": "reaching_overhead",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-00831",
+          "series_id": "ORUP1000059Q00000831",
+          "soc_2018": "53-7062",
+          "source_row": 72519,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of workers that required reaching overhead",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "5.5",
+            "unit": "percentage points",
+            "value": 5.5
+          }
+        },
+        "sitting_mean": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "6.3",
+            "unit": "percent of workday (mean)",
+            "value": 6.3
+          },
+          "estimate_code": "00997",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "9",
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Sitting estimates include time spent sitting or lying down.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Mean workday sitting or lying down",
+          "metric": "sitting_mean",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-00997",
+          "series_id": "ORUP1000059Q00000997",
+          "soc_2018": "53-7062",
+          "source_row": 72525,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to sit, mean",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "1.4",
+            "unit": "percentage points",
+            "value": 1.4
+          }
+        },
+        "standing_mean": {
+          "cell_ids": [
+            "CELL-M08-3pl-tote-US-2025"
+          ],
+          "estimate": {
+            "comparison": "=",
+            "denominator": "each sampled job's workday, summarized as a mean",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "93.7",
+            "unit": "percent of workday (mean)",
+            "value": 93.7
+          },
+          "estimate_code": "01003",
+          "evidence_ids": [
+            "PRC-002",
+            "PRC-006"
+          ],
+          "footnote_codes": {
+            "estimate": [],
+            "series": [
+              "8",
+              "P"
+            ],
+            "standard_error": []
+          },
+          "footnotes": {
+            "estimate": [],
+            "series": [
+              "Standing estimates include time spent standing or walking.",
+              "These are preliminary estimates and represent the first and second sample year of a multi-year sample period."
+            ],
+            "standard_error": []
+          },
+          "label": "Mean workday standing or walking",
+          "metric": "standing_mean",
+          "occupation": "Laborers and freight, stock, and material movers, hand",
+          "requirement_id": "537062-01003",
+          "series_id": "ORUP1000059Q00001003",
+          "soc_2018": "53-7062",
+          "source_row": 72542,
+          "source_sheet": "ORS 2025 dataset",
+          "source_text": "Percent of the day that workers were required to stand, mean",
+          "standard_error": {
+            "comparison": "=",
+            "denominator": "standard error of the indicated ORS estimate",
+            "epistemic_status": "official_preliminary_estimate",
+            "measurement_status": "published_point",
+            "period": "2025 preliminary reference year; samples August 2023 through July 2025",
+            "population": "ORS civilian workers in 2018 SOC 53-7062; private industry plus state/local government",
+            "source_text": "1.4",
+            "unit": "percentage points",
+            "value": 1.4
+          }
+        }
+      },
+      "robot_addressable_jobs": null,
+      "robot_addressable_jobs_missing_reason": "No configured robot capability, workflow coverage, accepted output or economic substitution estimate is inferred.",
+      "soc_2018": "53-7062"
+    }
+  ],
+  "published_ors_rows": 25,
+  "scenario_inputs_used": false,
+  "schema_version": "physical-requirements-summary/1.0",
+  "source_hashes": {
+    "data/physical_requirements_crosswalk.json": "e0d81d81e4fc33d24b9e22e5e69069488af1ddb79404e9811f952cef27b9af2f",
+    "data/sources/physical_requirements/oesm25nat.zip": "b5855a37f3e03e779f6fbf173d3bbc94aeeff33426aef32fa95ce6d025bab1af",
+    "data/sources/physical_requirements/ors_2025_complete.xlsx": "c3440f528b50700654ef823c16da1db543c1fae4477ea7897603386c61f3d1c0",
+    "data/sources/physical_requirements/selected_rows.json": "daf9ab9cf7d4fdc2a91d25475e3d8828c667ed72002f9c43a929498004edc026",
+    "model/physical_requirements.py": "45945a1ace785b2a80b0292b7745912cc540254f11616830207188ef8717bb02"
+  },
+  "status": "observed_subset_with_explicit_join_limits",
+  "unpublished_selected_rows": 3
+}

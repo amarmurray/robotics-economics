@@ -7,6 +7,8 @@ From the repository root:
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_evidence.py
+python3 scripts/extract_physical_requirements.py --check
+python3 scripts/build_physical_requirements.py --check
 python3 scripts/export_scenarios.py
 python3 scripts/export_experiments.py
 python3 scripts/export_trajectory.py
@@ -68,3 +70,9 @@ The tests cover inventory/cohort/financial invariants and adverse scenarios, inc
 Evidence loads from the saved snapshot at browser startup. Reload the browser after adding evidence files. Restart the server after changing Python code; it deliberately has no background auto-reloader. Regenerate exports and the report after an accepted model or evidence change. No command here publishes a website or modifies an external service.
 
 Annual-input browser helpers can be checked with `node tests/test_scenario_io.js` alongside `node tests/test_facets.js` and `node --check dashboard/app.js`. The regression fixture in `tests/fixtures/annual_scalar_v0_1_1.json` checks all 69,315 pre-existing numerical fields across sixteen cases; its generation hash identifies the prior scalar engine. No missing cloud implementation or prior interrupted test is treated as recovered validation.
+
+## Reproduce the physical-requirements crosswalk
+
+The unchanged BLS ORS workbook and OEWS national ZIP are preserved under `data/sources/physical_requirements/`. The source manifest records their URLs, release/observation periods and byte hashes. `python3 scripts/extract_physical_requirements.py --check` scans the two worksheets and compares the saved row extraction, including missing keys and footnote codes. The reader uses only Python's standard library; it does not recalculate or modify either workbook. A separate bundled-library comparison was used during review.
+
+`python3 scripts/build_physical_requirements.py --check` verifies the evidence package and observed summary from the extracted rows. To deliberately regenerate reviewed outputs, run both commands without `--check`, then run evidence validation, the scenario exporters and report builder. A source hash change requires source review; do not relabel a different workbook as the accepted snapshot. The dashboard loads this package only through the explicit registry and displays it in the atlas. Changing a synthetic scenario does not change the observed requirements. Missing occupation matches, unavailable values and threshold footnotes remain distinct. No physical-hours or robot-addressability calculation is performed.

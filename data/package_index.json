@@ -68,6 +68,12 @@
       "path": "data/onboard_workload_qualification.json",
       "status": "accepted",
       "owner_lane": "physical_supply_field"
+    },
+    {
+      "package_id": "physical_requirements",
+      "path": "data/physical_requirements_crosswalk.json",
+      "status": "accepted",
+      "owner_lane": "sole_lead"
     }
   ]
 }

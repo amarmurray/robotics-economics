@@ -28,7 +28,7 @@ The conventional combined case is the relevant counterfactual for additional orc
 2. **Value capture:** separate changes in resource use from payments among customer, model supplier, OEM and operator. Workstream K's model-architecture comparison must price adaptation, inference, supervision and rights explicitly before attributing margin to a superior policy.
 3. **Capability and learning:** keep service prices, policy capability and deployment-mediated exposure separate. A model company reporting lower inference expense supplies no automatic robot-capability coefficient. A larger simulated installed base supplies no empirical learning effect.
 
-The annual path now addresses the evolving-comparator mechanism in W1-006. W1-TRAJECTORY remains partial: hardware retrofit diffusion, contract vintages, failure/recovery queues and engineering critical paths still need their own mechanisms and evidence. A physical-requirements/employment crosswalk and K dossiers remain subsequent research work; this implementation does not claim those missing artifacts exist.
+The annual path now addresses the evolving-comparator mechanism in W1-006. W1-TRAJECTORY remains partial: hardware retrofit diffusion, contract vintages, failure/recovery queues and engineering critical paths still need their own mechanisms and evidence. The separate [physical-requirements crosswalk](physical_requirements_crosswalk.md) now provides observed requirement and classification boundaries, without calibrating these paths. K dossiers remain subsequent research work.
 
 ## Boundaries retained and verification
 

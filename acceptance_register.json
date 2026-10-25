@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "campaign_in_progress_annual_digital_0.5a",
+  "edition_status": "campaign_in_progress_annual_and_physical_crosswalk_0.5",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -321,11 +321,15 @@
         "dashboard/app.js",
         "model/METHODS.md",
         "reviews/model_review.md",
-        "reviews/browser_review.md"
+        "reviews/browser_review.md",
+        "research/physical_requirements_crosswalk.md",
+        "data/physical_requirements_crosswalk.json",
+        "reviews/physical_requirements_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Atlas workspace exposes 15 families, employment and occupation measures, residual/reference accounting, qualitative stages/baseline automation and unknown physical hours. National reference totals are labeled when cell filters change."
+        "finding": "Atlas workspace exposes 15 families, employment and occupation measures, residual/reference accounting, qualitative stages/baseline automation and unknown physical hours. National reference totals are labeled when cell filters change.",
+        "physical_requirements": "Four-occupation crosswalk: 25 published ORS rows, three absent rows, three exact-code OEWS matches with population mismatch and one unmatched code. Source byte hashes, full-sheet extraction and second-parser comparison pass. No national physical-hour or robot-addressability total."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1363,5 +1367,5 @@
     "partial": 21,
     "unmet": 0
   },
-  "publication_cutoff_note": "Original campaign ongoing. Annual-path implementation verified by the sole lead. Five conditional K targets added to the register; their research remains OPEN. Publication receipts live in sync_receipt.json."
+  "publication_cutoff_note": "Original campaign ongoing. Annual paths and new BLS crosswalk verified by the sole lead. Five conditional K targets remain research-OPEN; national physical-hour and integrated company finance gaps remain. Publication receipts are local."
 }

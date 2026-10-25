@@ -11,13 +11,18 @@
       "evidence_method": "Combine industry, occupation, hours, and workflow evidence; reconcile overlapping populations.",
       "dependencies_and_completion": "W1 map. No prerequisite. Complete when coverage, denominator choices, and material gaps are visible.",
       "findings": [
-        "Fifteen US market families and explicit residuals reconcile to BLS wage-and-salary employment; physical-work hours remain unknown."
+        "Fifteen US market families and explicit residuals reconcile to BLS wage-and-salary employment; physical-work hours remain unknown.",
+        "Four occupations now have a source-verified ORS/OEWS crosswalk. Twenty-five requirement rows and three absent rows are preserved; three exact occupation-code employment matches retain population mismatch, while Team Assemblers lacks an exact match. No requirement incidence or standing share is converted into national physical hours or robot-addressable jobs."
       ],
       "artifacts": [
         "research/economic_atlas.md",
-        "data/market_evidence.json"
+        "data/market_evidence.json",
+        "research/physical_requirements_crosswalk.md",
+        "data/physical_requirements_crosswalk.json",
+        "model/physical_requirements.py",
+        "reviews/physical_requirements_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Reconcile a specific site/service workflow, industry/outsourcing allocation and compatible annual exposure before extending occupation-level context into physical-work hours."
     },
     {
       "question_id": "RQ-PL-02",
@@ -211,11 +216,13 @@
       "evidence_method": "Compare matched outcomes, flexibility, process changes, and switching costs by cohort.",
       "dependencies_and_completion": "W1 competing hypotheses after PL-02 and HC-01. Deepen where evidence could reverse a penetration scenario.",
       "findings": [
-        "Specialized cleaning, fixed sensing and mixed operation remain explicit alternatives; real matched full-cost estimates are mostly unavailable."
+        "Specialized cleaning, fixed sensing and mixed operation remain explicit alternatives; real matched full-cost estimates are mostly unavailable.",
+        "ORS posture/manipulation marginals constrain questions about configured embodiment and support but do not select humanoids over specialized machines. Fine manipulation includes keyboarding, and an occupation can cover several services; alternatives need matched accepted output and complete local work/support evidence."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/physical_requirements_crosswalk.md"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -1145,5 +1152,5 @@
       "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
     }
   ],
-  "edition_note": "Original 55 questions and ten K questions retain their completion conditions. Annual paths add bounded synthetic findings to RQ-LLM-10; K research remains OPEN and empirical gaps are not closed."
+  "edition_note": "Original 55 questions and ten K questions retain their completion conditions. Annual paths and a four-occupation observed crosswalk add bounded findings; K research stays OPEN and broader empirical/finance gaps remain."
 }

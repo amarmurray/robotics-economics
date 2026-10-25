@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.5a, campaign in progress. Annual digital-path integration is accepted; the missing cloud physical-requirements crosswalk remains subsequent work. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.5, campaign in progress. Annual digital paths and a source-verified physical-requirements/employment crosswalk are integrated. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -12,7 +12,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture; the crosswalk remains unfinished. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 
 
 ## Contents
@@ -252,6 +252,69 @@ The highest-priority quantitative gap is matched **accepted output plus total hu
 A separate denominator program should join industry/occupation data to representative hours and measured work shares, retain self-employed and outsourced activity, and validate allocation weights. Until then, the atlas supports a broad map and conditional deployment judgment but cannot support national physical-hour penetration, robot TAM or a market-size-ranked rollout forecast.
 
 Public evidence can improve source coverage, configurations, contract terms and reported outcomes. Several decisive questions require field records: staffing actually avoided, intervention duration, failed attempts, accepted quality, site utilization, commercial pricing and customer-specific authority. Missing access is recorded as a research dependency, not inferred unfavorable economics. The saved questions `A-Q-HOURS`, `A-Q-HOSPITAL-SLA`, `A-Q-CLEANING-CONTRACT` and `A-Q-PORTFOLIO` define bounded next actions and completion criteria.
+
+### Focused follow-up: Physical requirements and employment classifications
+
+Authoritative analysis: [research/physical_requirements_crosswalk.md](research/physical_requirements_crosswalk.md).
+
+Edition 0.5. The four selected occupations connect physical requirements to existing manufacturing, construction, cleaning and logistics cells. The sources support a comparison of job requirements and employment classifications. They do not identify the number of jobs or hours that a configured robot can perform. The machine-readable record is [physical_requirements_crosswalk.json](data/physical_requirements_crosswalk.json); the report and dashboard consume the same [observed summary](model/results/physical_requirements_summary.json).
+
+The economic question is which additional evidence would change a deployment decision. A robot serving an occupation must fit a production process, accepted-service requirement, quality standard and operating environment. An occupation can contain several processes and several industries. A high standing or manipulation measure is therefore useful for identifying investigation needs, while employment supplies scale context. Neither gives a robot's feasible service volume or the customer's avoidable payroll.
+
+#### Sources, vintages and scope
+
+The [BLS ORS complete workbook](https://www.bls.gov/web/ors/ors-complete-dataset.xlsx), released January 16, 2026, reports preliminary reference-year 2025 estimates from two samples collected between August 2023 and July 2025. The full third-wave sample was not yet final. BLS cautions that ORS estimates are not a time series for measuring changes across releases. The saved workbook and its technical note retain this boundary. [PRC-001]
+
+The [May 2025 OEWS national download](https://www.bls.gov/oes/special-requests/oesm25nat.zip), released May 15, 2026, uses a different survey and estimation design. Its six panels run from November 2022 through May 2025. The national rows selected here are cross-industry wage-and-salary employment for ownership code 1235. These are jobs including full- and part-time employment, not a physical-hours measure or an occupation's assignment to one end market. The [OEWS technical note](https://www.bls.gov/oes/current/oes_tec.htm) preserves the covered sectors and wage definitions. [PRC-004/005]
+
+The original files were downloaded from the official BLS links and retained unchanged with content hashes. The extraction scans 73,710 ORS data rows and 1,401 OEWS rows, retaining 25 published requirements, three absent requested requirements and five employment source rows. The latter include two representations of the same broader assembler category. These are counts of inspected records, not independent corroborations or new economic activity. Exact sheet, row, series, estimate code and footnotes are preserved in [selected_rows.json](data/sources/physical_requirements/selected_rows.json).
+
+This is a fresh extraction in the canonical Mac checkout. The earlier unpublished cloud crosswalk was unavailable. Its reported checks are not counted as verification of this packet.
+
+#### What the measurements mean
+
+Seven dimensions are selected for each occupation: mean workday standing, mean workday sitting, gross manipulation, fine manipulation, reaching at or below shoulder level, overhead reaching and low postures. Their denominators differ. Standing and sitting are mean shares of the workday. The other five records are percentages of workers whose jobs require an activity at some point. They are not percentages of the workday devoted to that activity. [PRC-002/003]
+
+[BLS definitions](https://www.bls.gov/ors/factsheet/orsprofiles.htm) include walking in standing; sitting also includes lying down and qualifying choice-of-position situations. These are exhaustive postural classifications, not a division between physical and digital production. A worker can reason, speak, inspect, enter information or operate equipment while standing. The distinction matters for the annual digital scenarios: an improvement in human information work may affect a physical workplace without reducing a measured standing requirement. [PRC-002/005]
+
+[Gross and fine manipulation](https://www.bls.gov/ors/factsheet/gross-and-fine-manipulation.htm) can occur concurrently, and the third-wave fine-manipulation definition includes keyboarding. Gross manipulation covers handling with the hand; fine manipulation includes actions primarily using the fingers. Neither label is a robot dexterity benchmark. These marginals cannot be summed to measure total physical work, multiplied to estimate their joint occurrence, or used to rank control architectures without object, force, reach, timing and recovery requirements. [PRC-003/007]
+
+Ranges and missingness remain explicit. The source's `>99.5` and `>95` are preserved as bounds, with the underlying point value unknown. The [range methodology](https://www.bls.gov/ors/factsheet/range-estimates.htm) distinguishes endpoint ranges from other ranges based on a one-sided confidence-interval method. The workbook's standard-error footnote 6 means below 0.5 percentage points; footnote 15 means unavailable. A printed dash alone does not tell the reader which applies. The three absent Team Assemblers rows remain unpublished; no sitting estimate is created by subtracting standing from 100. [PRC-006]
+
+#### Four operating comparisons
+
+**Facilities and building services.** Janitors and cleaners have a published mean standing share of 97.7% of the workday and gross/fine manipulation incidence above 99.5%. The matched OEWS occupation has 2,209,760 jobs. These national occupation measures cover more than floor cleaning. They do not establish how much of a customer's workload an autonomous scrubber, a mobile manipulator or a humanoid could complete. The existing cleaning cell therefore still needs a workflow inventory: open floors, edges, stairs, waste, surfaces, tools, chemicals and exceptions, together with the associated service standard and human work. A broad manipulation requirement cannot be used to exclude specialized floor equipment or to award a humanoid all of the occupation's employment. [PRC-002/003/004]
+
+**Construction.** Construction laborers have an 89.2% mean standing share, 96.1% fine-manipulation incidence and 75.8% overhead-reaching incidence, with 1,096,780 OEWS jobs in the matched code. These are separate marginal estimates. They do not identify a single group jointly performing all three requirements or the frequency of any specific installation task. Changing geometry, access, material presentation, tooling, transport and responsibility for exceptions remain central to a deployment case. The national wage-and-salary denominator also omits self-employed construction work, and the occupations in a particular site package need not match this broad laborer category. [PRC-002/003/004/005]
+
+**Logistics and material handling.** Hand laborers and freight, stock and material movers have a 93.7% mean standing share and 52.1% overhead-reaching incidence. OEWS reports 2,950,280 jobs in the exact occupation code. The occupation spans industries and workflows; the existing 3PL tote-handoff cell is one supporting case, not its full economic definition. A standardized tote interface may eliminate part of a reaching or manipulation burden, while other workers in the occupation handle different loads or routes. Measure the local mix, accepted transfers, peak windows and interventions before assigning any of these national jobs to the cell. [PRC-002/003/004]
+
+**Manufacturing and assembly.** ORS publishes a 95.6% mean standing share for Team Assemblers and 65.7% incidence of low-posture requirements. The latter has a published standard error of 10.3 percentage points. The selected sitting and two reaching estimates are absent, so the packet cannot establish a complete posture/reach profile. There is no exact `51-2092` employment match in the current OEWS workbook. Its `51-2090 Miscellaneous Assemblers and Fabricators` category contains 1,405,030 jobs and appears once as broad and once as detailed. Those two rows do not represent 2,810,060 jobs, and neither is substituted for the Team Assemblers population. The exact employment join remains unknown. [PRC-002/003/004]
+
+#### Why exact codes are only the first join
+
+ORS civilian workers combine private industry with state and local government, excluding the federal government, military, agriculture, private household workers and the self-employed. OEWS includes federal executive and Postal employment and certain agricultural industries, while excluding the self-employed and other specified populations. The exact-code matches for three occupations are therefore labeled **population mismatch**, not interchangeable denominators. [PRC-005]
+
+Even after population reconciliation, converting a mean workday percentage into annual physical-work hours requires a compatible work schedule, annual exposure and an operational definition of physical work. A requirement that is present for many workers can consume little time, occur alongside another requirement, or be served by an existing specialized machine. National occupation employment also requires an industry/outsourcing allocation before it can be assigned across the atlas's end-market families without duplication. No such weights or annual-hour conversions are invented here.
+
+#### Decision changes and next evidence
+
+1. **The deployment screen needs a measured service denominator.** Use occupation employment to locate substantial labor pools, then establish the actual workflow and accepted output in a market-stage cell. Do not place an ORS percentage directly into the penetration waterfall's physical-hours or capability gates.
+2. **Embodiment and intelligence must be evaluated together.** Reaching, posture, loads and tooling constrain the configured body and integration. A model release or cross-embodiment claim supplies no proof that these local requirements are met at the necessary quality and reliability. Workstream K's OEM, licensed-model, open-adaptation and model-led-operator comparison needs the same service test and full support boundary.
+3. **The human baseline remains a live competitor.** The presence of keyboarding within fine manipulation and of information work within standing illustrates why physical workplaces can improve digitally. The annual model can explore the consequence, but this crosswalk supplies no coefficient for human efficiency, coordination or robot digital-service expense.
+
+The immediate K research question is which architecture reduces adaptation and support effort for one defined service while preserving required hardware, rights and reliability. Before making that comparison quantitative, collect the same task distribution, accepted-output definition, all intervention and recovery work, latency budget, available robot configuration, license/data rights and cash costs for the alternatives. Unknown terms remain unknown. This crosswalk improves the question and its measurement boundaries; it does not settle an investment or penetration forecast.
+
+#### Observed crosswalk from preserved BLS workbooks
+
+| Occupation (SOC 2018) | Exact-code OEWS jobs | Mean workday standing, % | Workers requiring fine manipulation, % | Workers requiring overhead reach, % | Join boundary |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Janitors and cleaners, except maids and housekeeping cleaners (37-2011) | 2,209,760 | 97.7 | >99.5 | 92.4 | exact_code_population_mismatch |
+| Construction laborers (47-2061) | 1,096,780 | 89.2 | 96.1 | 75.8 | exact_code_population_mismatch |
+| Team assemblers (51-2092) | Not published / no exact match | 95.6 | >99.5 | Not published / no exact match | no_exact_employment_code |
+| Laborers and freight, stock, and material movers, hand (53-7062) | 2,950,280 | 93.7 | 87.1 | 52.1 | exact_code_population_mismatch |
+
+Generated from [physical_requirements_summary.json](model/results/physical_requirements_summary.json). ORS requirements and OEWS employment have different populations. Published ranges and absent rows remain explicit. No row is multiplied into physical-work hours or robot-addressable jobs; the original workbooks, source rows and all standard-error footnotes are retained for reproduction.
 
 ## 3. Capabilities, learning and physical-digital coordination
 
@@ -1010,7 +1073,7 @@ The conventional combined case is the relevant counterfactual for additional orc
 2. **Value capture:** separate changes in resource use from payments among customer, model supplier, OEM and operator. Workstream K's model-architecture comparison must price adaptation, inference, supervision and rights explicitly before attributing margin to a superior policy.
 3. **Capability and learning:** keep service prices, policy capability and deployment-mediated exposure separate. A model company reporting lower inference expense supplies no automatic robot-capability coefficient. A larger simulated installed base supplies no empirical learning effect.
 
-The annual path now addresses the evolving-comparator mechanism in W1-006. W1-TRAJECTORY remains partial: hardware retrofit diffusion, contract vintages, failure/recovery queues and engineering critical paths still need their own mechanisms and evidence. A physical-requirements/employment crosswalk and K dossiers remain subsequent research work; this implementation does not claim those missing artifacts exist.
+The annual path now addresses the evolving-comparator mechanism in W1-006. W1-TRAJECTORY remains partial: hardware retrofit diffusion, contract vintages, failure/recovery queues and engineering critical paths still need their own mechanisms and evidence. The separate [physical-requirements crosswalk](research/physical_requirements_crosswalk.md) now provides observed requirement and classification boundaries, without calibrating these paths. K dossiers remain subsequent research work.
 
 #### Boundaries retained and verification
 

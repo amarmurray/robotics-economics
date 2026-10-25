@@ -12,6 +12,7 @@ from model.engine import catalog, run_scenario
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages
 from model.research_calculations import research_summary
+from model.physical_requirements import physical_requirements_summary
 
 
 def main():
@@ -25,6 +26,8 @@ def main():
     research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
     (args.output/"observed_atlas_summary.json").write_text(json.dumps(atlas,indent=2,sort_keys=True)+"\n")
     (args.output/"observed_research_summary.json").write_text(json.dumps(research,indent=2,sort_keys=True,allow_nan=False)+"\n")
+    if "data/physical_requirements_crosswalk.json" in accepted:
+        (args.output/"physical_requirements_summary.json").write_text(json.dumps(physical_requirements_summary(),indent=2,sort_keys=True,ensure_ascii=False,allow_nan=False)+"\n")
     specs = [(key,{},None) for key in catalog()["presets"]]
     if args.scenario:
         saved = json.loads(args.scenario.read_text())

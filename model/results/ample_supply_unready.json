@@ -736,7 +736,7 @@
   "evidence_package_index": {
     "path": "data/package_index.json",
     "schema_version": "accepted-evidence-packages/1.0",
-    "sha256": "4c0b4e026ade208904791909f4acf2d84803a32690b7193682f22fc7823e8499"
+    "sha256": "65f23d1b976953121ccf8de6e079cd6f5785b4680a3332e5679b228b21af3d24"
   },
   "evidence_snapshot_hashes": {
     "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
@@ -749,6 +749,7 @@
     "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
     "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
     "data/physical_evidence.json": "24d330c9e1f0f1e3961b8f69fa42afeb8c1c6ffeecbd8d3d9cef617702c71ad2",
+    "data/physical_requirements_crosswalk.json": "e0d81d81e4fc33d24b9e22e5e69069488af1ddb79404e9811f952cef27b9af2f",
     "data/quadruped_operator_followup.json": "fad1adb14e9c228125793f4a75aa0d408d5bb38ce1589f85387d2e0f2b2948d3"
   },
   "fleet": {

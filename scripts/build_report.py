@@ -16,6 +16,7 @@ CHAPTERS = [
  ('Physical supply, embodiments, quadrupeds and drones','physical_supply_field.md'),
 ]
 FOLLOWUPS = {
+ 'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md')],
  'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md')],
@@ -39,7 +40,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.5a, campaign in progress. Annual digital-path integration is accepted; the missing cloud physical-requirements crosswalk remains subsequent work. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.5, campaign in progress. Annual digital paths and a source-verified physical-requirements/employment crosswalk are integrated. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -51,7 +52,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture; the crosswalk remains unfinished. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 ''']
     contents=[]
     headings=[f'{i}. {title}' for i,(title,_) in enumerate(CHAPTERS,1)]+[
@@ -67,6 +68,24 @@ The initial editions were produced in a cloud checkout. This continuation uses t
         out.append(f'## {i}. {title}\n\nAuthoritative chapter: [research/{name}](research/{name}).\n\n'+chapter((ROOT/'research'/name).read_text()))
         for follow_title,follow_name in FOLLOWUPS.get(name,[]):
             out.append(f'### Focused follow-up: {follow_title}\n\nAuthoritative analysis: [research/{follow_name}](research/{follow_name}).\n\n'+chapter((ROOT/'research'/follow_name).read_text(),depth=2))
+    physical = json.loads((ROOT/'model/results/physical_requirements_summary.json').read_text())
+    for path, digest in physical['source_hashes'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:
+            raise SystemExit('Stale physical-requirements summary dependency: '+path)
+    def reported(q):
+        if q['value'] is not None:
+            return f"{q['value']:,.1f}" if 'percent' in q['unit'] else f"{q['value']:,.0f}"
+        if q.get('comparison') and 'bound' in q:
+            return q['comparison']+str(q['bound'])
+        return 'Not published / no exact match'
+    physical_table = ['| Occupation (SOC 2018) | Exact-code OEWS jobs | Mean workday standing, % | Workers requiring fine manipulation, % | Workers requiring overhead reach, % | Join boundary |',
+                      '| --- | ---: | ---: | ---: | ---: | --- |']
+    for row in physical['occupations']:
+        req = row['requirements']
+        physical_table.append(f"| {row['occupation']} ({row['soc_2018']}) | {reported(row['employment'])} | {reported(req['standing_mean']['estimate'])} | {reported(req['fine_manipulation']['estimate'])} | {reported(req['reaching_overhead']['estimate'])} | {row['join_status']} |")
+    # Place the observed table directly after its economic-atlas follow-up, not in the synthetic model section.
+    insert_at = next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Physical requirements'))+1
+    out.insert(insert_at, '#### Observed crosswalk from preserved BLS workbooks\n\n'+ '\n'.join(physical_table) + '\n\nGenerated from [physical_requirements_summary.json](model/results/physical_requirements_summary.json). ORS requirements and OEWS employment have different populations. Published ranges and absent rows remain explicit. No row is multiplied into physical-work hours or robot-addressable jobs; the original workbooks, source rows and all standard-error footnotes are retained for reproduction.')
     summary=ROOT/'model/results/scenario_summary.csv'
     out.append('## 8. Common-engine scenarios and interpretation\n\nAll results in this section are **synthetic illustrations**. Each selected cell has a named service unit; unlike services must not be summed as a single output quantity. Assumed labor avoidability is separate from observed payroll removal. Fractional fleets represent continuous cohort relaxations, not an integer deployment schedule. Annual capital envelopes are assumptions; they do not establish available financing. See [model methods](model/METHODS.md) for exact scope and limitations.\n')
     if summary.exists():

@@ -1,0 +1,25 @@
+{
+  "schema_version": "physical-requirements-sources/1.0",
+  "retrieved_at": "2026-10-25",
+  "download_route": "Official BLS links downloaded in browser after shell HTTP retrieval returned 403; source workbooks are unmodified.",
+  "sources": [
+    {
+      "path": "data/sources/physical_requirements/ors_2025_complete.xlsx",
+      "url": "https://www.bls.gov/web/ors/ors-complete-dataset.xlsx",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "publication_date": "2026-01-16",
+      "observation_period": "2025 preliminary third wave; August 2023 through July 2025 samples",
+      "sha256": "c3440f528b50700654ef823c16da1db543c1fae4477ea7897603386c61f3d1c0",
+      "bytes": 6880047
+    },
+    {
+      "path": "data/sources/physical_requirements/oesm25nat.zip",
+      "url": "https://www.bls.gov/oes/special-requests/oesm25nat.zip",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "publication_date": "2026-05-15",
+      "observation_period": "May 2025 estimates; six panels November 2022 through May 2025",
+      "sha256": "b5855a37f3e03e779f6fbf173d3bbc94aeeff33426aef32fa95ce6d025bab1af",
+      "bytes": 279525
+    }
+  ]
+}
