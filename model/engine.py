@@ -12,6 +12,7 @@ import json
 import math
 from pathlib import Path
 from .packages import accepted_package_hashes
+from .trajectories import CHANNELS, resolve_paths, parameters_at
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSUMPTIONS = ROOT / "model" / "assumptions.json"
@@ -161,7 +162,9 @@ def eligible_sites(cell, system, p, t, cap):
     return sites, e
 
 
-def fleet_model(c, p):
+def fleet_model(c, p, resolved_paths=None):
+    base_parameters = p
+    resolved_paths = resolved_paths or resolve_paths(p, c["base_year"], BOUNDS)
     cells = c["cells"]
     systems = {s["system_id"]: s for s in c["systems"]}
     stocks = {x["cell_id"]: [] for x in cells}
@@ -171,7 +174,8 @@ def fleet_model(c, p):
     finished = {s: 0.0 for s in systems}
     production_queue, transit_queue = [], []
     years, cell_rows, component_rows, production_rows = [], [], [], []
-    for t in range(int(p["years"])):
+    for t in range(int(base_parameters["years"])):
+        p = parameters_at(base_parameters, resolved_paths, t)
         year = c["base_year"] + t
         prior_stock = {cid: sum(q for _, q in cohorts) for cid, cohorts in stocks.items()}
         retired = {}
@@ -292,7 +296,9 @@ def fleet_model(c, p):
                               "accepted_baseline_units": baseline_output, "accepted_expansion_units": expansion_output,
                               "baseline_equivalent_hours": baseline_output*unit_h,
                               "released_human_hours": baseline_output*op["human_hours_per_unit"],
-                              "capability": cap, "learning_increment": learned[sid], "sites": sites,
+                              "capability": cap, "exogenous_capability": capability_at(p, t),
+                              **{name: p[name] for name in CHANNELS},
+                              "learning_increment": learned[sid], "sites": sites,
                               "waterfall": stage_values, "waterfall_unit": "baseline-equivalent human hours/year",
                               "economics": econ, "binding_constraints": limiting or (["capability/economics/readiness"] if not shortage else [])})
         # Pooled future supply is subtracted once from pooled demand, never once per cell.
@@ -479,22 +485,46 @@ def backcast(c, p):
             "reason":"Resource witness and latest start dates, not a forecast. Requires sufficient qualified receipts including spares, orders, retained demand and financed production. Target may exceed the 72-site demonstration pool; no expanded demand is inferred."}
 
 
-def run_scenario(overrides=None, preset="reference"):
+def run_scenario(overrides=None, preset="reference", digital_paths=None):
     c = catalog()
     p = parameters(overrides,preset)
-    fleet = fleet_model(c,p)
+    resolved = resolve_paths(p, c["base_year"], BOUNDS, digital_paths)
+    fleet = fleet_model(c,p,resolved)
+    initial = parameters_at(p, resolved, 0)
+    annual = []
+    for t in range(int(p["years"])):
+        current = parameters_at(p, resolved, t)
+        cap = capability_at(p, t)
+        annual.append({"year": c["base_year"] + t, "period_index": t,
+                       "capability": cap, "scope": "exogenous_capability_reference",
+                       "effective_digital_parameters": {name: current[name] for name in CHANNELS},
+                       "comparisons": joint_comparisons(c, current, cap)})
     evidence=accepted_package_hashes(ROOT)
     engine_sha256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
-    fingerprint = hashlib.sha256(json.dumps({"model":c,"parameters":p,"engine_sha256":engine_sha256},sort_keys=True).encode()).hexdigest()
+    model_source_hashes = {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+                           for name in ("model/engine.py", "model/trajectories.py")}
+    fingerprint = hashlib.sha256(json.dumps({"model":c,"parameters":p,
+        "resolved_digital_paths":resolved,"model_source_hashes":model_source_hashes},sort_keys=True).encode()).hexdigest()
     result = {"schema_version":c["schema_version"],"model_version":c["model_version"],"status":"synthetic_illustration",
               "input_commit":c["input_commit"],"scenario_hash":fingerprint,"preset":preset,"parameters":p,
-              "engine_sha256":engine_sha256,
+              "engine_sha256":engine_sha256,"model_source_hashes":model_source_hashes,
+              "digital_paths":copy.deepcopy(digital_paths),"resolved_digital_paths":resolved,
+              "joint_by_year":annual,
+              "reference_scopes":{
+                  "joint":"Final-year alias of joint_by_year; exogenous capability, no learned increment",
+                  "commercial":"Initial capability and resolved year-zero digital conditions held over life; not a path cash forecast",
+                  "newco":"Separate monthly normalized entrant case; no annual digital-path linkage",
+                  "backcast":"Fixed-target necessary-condition resource witness; no annual digital-path linkage",
+                  "installed_vintage":"current_conditions_all_installed_legacy; no upgrade cost or compatibility diffusion",
+                  "learning_exposure":"Supported available robot-hours, not accepted-service hours or validated training yield",
+                  "output_gate":"Current acquisition/payback eligibility also caps existing output; not optimal continuation policy",
+                  "capital":"Exogenous nonrevolving annual allowances; no path-aware provider treasury"},
               "metadata":{"currency":c["currency"],"geography":c["geography"],"denominator":c["denominator"],"empirical_aggregate_inclusion":False},
               "evidence_snapshot_hashes":evidence["hashes"],"evidence_package_index":evidence["index"],
               "catalog_cells":c["cells"],"assumptions":c["assumptions"],"customer_mechanisms":c["customer_profiles"][p["customer_profile"]],
-              "fleet":fleet,"joint":joint_comparisons(c,p,capability_at(p,p["years"]-1)),
-              "commercial":cash_allocation(c,p),"newco":newco_model(c,p),"backcast":backcast(c,p),
-              "commercial_by_cell":[cash_allocation(c,p,cell) for cell in c["cells"]],
+              "fleet":fleet,"joint":annual[-1]["comparisons"],
+              "commercial":cash_allocation(c,initial),"newco":newco_model(c,p),"backcast":backcast(c,p),
+              "commercial_by_cell":[cash_allocation(c,initial,cell) for cell in c["cells"]],
               "limitations":["No model coefficient is a calibrated market estimate; all synthetic cells are excluded from empirical labor totals.",
                 "Site eligibility uses constructed matched cohorts, not products of independent gate shares.",
                 "Annual model uses expected fractional robots and a greedy allocation heuristic; it is not an optimizer or a factory plan.",

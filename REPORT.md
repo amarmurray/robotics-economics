@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.4, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.5a, campaign in progress. Annual digital-path integration is accepted; the missing cloud physical-requirements crosswalk remains subsequent work. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -10,9 +10,9 @@ The report uses a US quantitative labor anchor with global provider, research an
 
 Begin with the executive argument for the decision logic, then use the economic atlas to orient the technical, organizational and supply evidence. The common-engine section connects those findings to conditional scenarios. Detailed source locators, explicit conflicts and unknowns remain in the chapters and their machine-readable evidence packages; no favorable headline substitutes for their operating boundary. This expanded edition deliberately retains the full source analysis rather than compressing it into a short investment thesis.
 
-Six specialist launch requests explicitly selected GPT-6 Astra / Ultra and were accepted. Actual serving model/reasoning is not independently exposed; lead settings cannot be verified or changed through the available tools. That limitation is disclosed rather than silently treated as a verified configuration.
+The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The original Mac checkout was unavailable. Work occurred in a fresh cloud checkout, preserving unseen local edits. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture; the crosswalk remains unfinished. Publication to the private repository does not establish consumption by a separate Work session.
 
 
 ## Contents
@@ -978,6 +978,48 @@ The next priorities are: obtain an exact TAC run manifest and explain its effect
 
 Verification used Exa primary-page retrieval, direct public GitHub/raw-source inspection, local standard-library parsing, source hashing and arithmetic checks. A separate reviewer reproduced all 175 saved rows and totals, both sampled trace hashes, model/call counts, repricing and event spans, and checked the RMF control-flow claims. Review corrections added the declared cherry-pick and the no-response cancellation qualification; no benchmark or robot was executed. The requested model was GPT-6 Astra with Ultra reasoning; the serving model/reasoning configuration is not exposed for independent verification. Claims above rest on inspected sources, not a claimed serving identity.
 
+### Focused follow-up: Annual digital scenarios and the moving adoption comparison
+
+Authoritative analysis: [research/annual_digital_scenarios.md](research/annual_digital_scenarios.md).
+
+Status: implemented synthetic mechanism, model 0.2.0. The annual-path design is now executable through the common model, local API, dashboard and exports. This is a new local implementation of the accepted design; the unpublished cloud edits described in the supplied handoff were unavailable and are not claimed as recovered or verified.
+
+The decision question is whether a robot investment stays attractive as its human-led alternative also improves. A lower combined production cost is insufficient: the customer compares that cost and the commercial payments with the best available alternative, while delivery still depends on support, components, capital and installation. The model now makes that comparison at every year rather than holding the digital baseline fixed across the horizon.
+
+#### Three changes with different meanings
+
+The resolver accepts independently specified annual levels for human time reduction, signed robot coordination and the robot's additional digital-service expense. These replace their scalar settings in that year's economic ranking, site eligibility, manufacturing-demand signal and operating output. Omitted channels repeat the scalar. Capability and funded learning remain separate mechanisms. Full-horizon validation rejects missing periods, nonfinite values, booleans and unknown fields before fleet calculations; there is no smoothing or extrapolation.
+
+Human efficiency reduces the hours required by the human comparator and the human work retained after robot service. Coordination changes accepted robot capacity before the site-demand cap; it can worsen. Robot digital-service expense changes resource costs and the model's assumed cost-plus payments. It is an annual service bundle, not a per-token inference price. Neither a cheaper service nor favorable coordination directly improves the capability index, hardware qualification or learning transfer.
+
+These distinctions follow the [accepted design](research/digital_trajectory_design.md) and its [independent design review](reviews/digital_trajectory_design_review.md). The digital dossier's H-QJE-2025 and H-METR-2026 evidence motivates heterogeneous human baselines; H-COORDINATION-2026 and the [benchmark/coordination analysis](research/coordination_reproducibility.md) motivate signed coordination and a strong conventional comparison. The [learning-data analysis](research/learning_data_economics.md) separates collection from validated improvement. These sources constrain the interpretation. **None supplies the levels or slopes of the synthetic paths.**
+
+#### What the six counterfactuals establish
+
+The generated [annual comparison](model/results/annual_digital_comparison.json) contains six five-year paths with learning disabled: a constant reference, improving human efficiency, cheaper robot service, worsening coordination, a joint path, and the same improving human process with conventional robot control and no additional coordination/service bundle. Every result retains its complete inputs, annual comparisons, fleet ledger, source hashes and limitations.
+
+In the tote-handoff illustration, an improving human baseline lowers both the human-only and combined resource costs. It can nevertheless close new robot admission because the human alternative improves more. The existing robot stock remains on the ledger. Its output can fall under the inherited current-eligibility cap; that is a limitation of the continuation rule, not evidence that an operator would optimally idle or retire the robot. The report's generated table shows the exact costs and gate outcomes without independently recalculating them.
+
+A cheaper robot-service bundle can restore positive customer savings under the assumed contract. The resource saving and the allocation of that saving are different quantities: the cost-plus rule passes a price reduction to the customer and reduces the provider's dollar markup. The exact toy witness reduces resource expense by $1,500, raises customer cash gain by $1,725 and reduces provider recurring margin by $225. The net resource gain remains $1,500. This does not establish actual pricing, margin or bargaining behavior.
+
+The conventional combined case is the relevant counterfactual for additional orchestration. It retains the same digitally improved human process, configured robot, maintenance, required control and site software. It removes only the added coordination effect and robot digital-service bundle. C10 alone is insufficient because it also removes the human digital improvement. The extra bundle may help or harm; the six scenarios do not identify a real scheduler's performance.
+
+#### What changes for the research program
+
+1. **Deployment sequencing:** screen adoption against the contemporaneous human-led alternative. A favorable robot-cost trend alone cannot justify faster penetration. Inspect the customer contract and payback gate as well as consolidated resource cost.
+2. **Value capture:** separate changes in resource use from payments among customer, model supplier, OEM and operator. Workstream K's model-architecture comparison must price adaptation, inference, supervision and rights explicitly before attributing margin to a superior policy.
+3. **Capability and learning:** keep service prices, policy capability and deployment-mediated exposure separate. A model company reporting lower inference expense supplies no automatic robot-capability coefficient. A larger simulated installed base supplies no empirical learning effect.
+
+The annual path now addresses the evolving-comparator mechanism in W1-006. W1-TRAJECTORY remains partial: hardware retrofit diffusion, contract vintages, failure/recovery queues and engineering critical paths still need their own mechanisms and evidence. A physical-requirements/employment crosswalk and K dossiers remain subsequent research work; this implementation does not claim those missing artifacts exist.
+
+#### Boundaries retained and verification
+
+Annual admission and lifetime margins extrapolate current conditions over the assumed life; they are not forward-looking valuations of the entire path. All compatible installed cohorts receive current software and price conditions without upgrade expense or rollout delay. Supported available robot-hours remain the learning-exposure variable, even when economic eligibility suppresses accepted service. Annual capital budgets are nonrevolving allowances. The separate monthly entrant, treasury, monthly physical fixture and initial-year commercial tables are not one jointly feasible company model.
+
+The [implementation review](reviews/annual_trajectory_review.md) records sole-agent verification rather than a new independent review. The frozen model 0.1.1 comparison covers every existing numerical field across eight presets and both onboard configurations. Adverse cases test overlap, harmful coordination, cost-only changes, stock retention after admission reversal, zero capability, invalid late periods and shared resource accounting under nonconstant paths. API/CLI replay and the browser's selected-year table, trace and export/reload use the same result object. No GPU, robot, external service or empirical calibration was executed.
+
+**Next question:** which measured physical requirements and support obligations would change one of these adoption comparisons enough to alter the preferred deployment sequence or model-provider architecture?
+
 ## 6. Digital infrastructure and physical production
 
 Authoritative chapter: [research/digital_infrastructure.md](research/digital_infrastructure.md).
@@ -1325,14 +1367,14 @@ Generated source: [scenario_summary.csv](model/results/scenario_summary.csv). No
 
 | preset | status | scenario_hash | year | active_stock_expected_units | baseline_equivalent_hours | cumulative_baseline_equivalent_hours | newco_peak_funding_usd | newco_funding_gap_usd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| reference | synthetic_illustration | d42704289a888a774588195e30eb9c32df937a7f94fdde54b343d32fb25d194e | 2033 | 44.0 | 74393.33571428571 | 376256.0416666667 | 1084000.0 | 484000.0 |
-| delayed_supply | synthetic_illustration | 7fcb04339026a773e623b7c503012a2f2fd5785da0443ee66b016ef61b9e393f | 2033 | 60.0 | 100824.9357142857 | 249689.80714285714 | 1084000.0 | 484000.0 |
-| service_stress | synthetic_illustration | 2fd809c3d402ec2348433fe5ed4f9be2fda59fa24fbbd860ca4554145450092c | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
-| ample_supply_unready | synthetic_illustration | a4ffcdf958631136e4bba49220388ff5c00c122f890bde9cecc0666aa57dbe24 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
-| digital_first | synthetic_illustration | b7ced032ad62ff359409351bdb2e2861da0a4154c4970b7dd4e474e5a3dff0c9 | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
-| limited_transfer | synthetic_illustration | a32acfe7ee6c2b99a044424906e79cf274f3c1929ba6da4444c1b9bbcdcfe3cb | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
-| newco_raas | synthetic_illustration | 5a426480e73326dce11668f56daee4ffe89ffe4842460ccf37e9bb2da01e430e | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
-| prompt_response | synthetic_illustration | 8f6c3a7f7af6c0a62b18e55c152e0b3731ff0da84d2bd22bd58d53f5efd5a9bb | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
+| reference | synthetic_illustration | 58ac28d7c8e5c4ac9a5b11b5dc4c478b146d2eea1ec7b78a40a783ac0bb6af3a | 2033 | 44.0 | 74393.33571428571 | 376256.0416666666 | 1084000.0 | 484000.0 |
+| delayed_supply | synthetic_illustration | 3d7ccd0a90ffeef3ea49be480a54eb407108ac9141a6c5e64ce7d75cdcc1859c | 2033 | 60.0 | 100824.93571428572 | 249689.80714285717 | 1084000.0 | 484000.0 |
+| service_stress | synthetic_illustration | a08d2d8b87ae82291e2e7264e5dcbf539e3b1ec1083a52b330c1e93677230a24 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.79999999999 | 1084000.0 | 484000.0 |
+| ample_supply_unready | synthetic_illustration | e9c385c17c409795014106082fad1bfece05c38aeb13771b48a632dcc5864bdf | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
+| digital_first | synthetic_illustration | 90cc35e24ea04a18f56dad71ba21dc6557c423d68dbfb4955f764f935f745f6c | 2033 | 38.0 | 63079.71428571429 | 297632.6 | 1084000.0 | 484000.0 |
+| limited_transfer | synthetic_illustration | 461199bd05277dcf348d40ee1a2bc7fa8747ae58f2b21e8dff8065080708f2a9 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
+| newco_raas | synthetic_illustration | 1f0c60f9b19f9f5e21269a5f98413f1dbcfc6d33382c46295a1d5232d7a1c784 | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 516500.0 | 0 |
+| prompt_response | synthetic_illustration | 4b7f4f58c60d50d0b621d552d4fa2ebca659084fe45297d8da5e3d6ef71b81e8 | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 716000.0 | 116000.0 |
 
 ### What the scenario contrasts teach
 
@@ -1345,14 +1387,22 @@ Digital-first produces 297,633 robot-delivered baseline-equivalent hours, compar
 In the separate monthly entrant case, delayed incumbent response requires peak funding of $516,500; prompt response requires $716,000 and exposes a $116,000 gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
 
 
-### Corrected hardware comparison and the next dynamic baseline
+### Annual digital paths and a moving alternative
 
-Model 0.1.1 corrects a high-memory accounting omission: its synthetic $800 annual configuration charge now appears in both robot branches. Previously C10 omitted that charge, overstating the cost interaction by $800. The same additional power burden already applied to both branches. At 2,000 operating hours, each robot branch incurs $832 above its standard-board counterpart under the specified electricity price. All numerical fields in the eight standard presets remain unchanged; engine, catalog and evidence-provenance hashes are regenerated. The [independent correction review](reviews/high_memory_cost_review.md) records the comparison against the previous committed version.
+Model 0.2.0 implements the reviewed three-channel design and retains the corrected 0.1.1 hardware boundary. Constant paths preserve all 69,315 existing numerical fields across eight presets and both configurations. The six generated counterfactuals below use the same tote-handoff cell at 2030, five scenario years and no learned increment. Values are synthetic constant-2026 USD/site/year; reference resource costs and customer contract savings are separate measures.
 
-The next digital extension has a [reviewed design](research/digital_trajectory_design.md), with [independent numerical witnesses](reviews/digital_trajectory_design_review.md), but no implemented annual trajectory runner yet. It proposes three independently specified synthetic paths: human time reduction, signed robot coordination, and annual additional robot digital-service cost. Every annual adoption gate, resource-cost comparison and operating result must use the same contemporaneous values. A lower robot-service price can change cash margins without changing competence; an improving human baseline can weaken adoption even when the combined robot process also gets cheaper.
+Generated source: [annual_digital_comparison.json](model/results/annual_digital_comparison.json).
 
-Implementation must reproduce the corrected scalar engine on constant paths, preserve stock when economic eligibility changes, retain adverse/nonmonotone paths and keep direct changes separate from deployment-mediated learning. The proposed service-cost path does not supply a token-use, failed-attempt or latency model. Existing all-vintage software upgrades, current-condition screening and separate initial-year commercial/monthly-entry references remain explicit limitations. Design acceptance alone does not close the evolving-comparator requirement.
+| Counterfactual | Digital human C01 | Joint C11 | Robot resource value versus C01 | Customer savings | Economic sites / 12 | Installed expected robots |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| cheaper_robot_service | 49,560.00 | 26,273.94 | 23,286.06 | 7,696.37 | 12 | 10.00 |
+| constant_reference | 49,560.00 | 27,473.94 | 22,086.06 | 6,316.37 | 12 | 10.00 |
+| conventional_combined | 38,040.00 | 28,197.71 | 9,842.29 | -2,266.46 | 0 | 4.00 |
+| improving_human | 38,040.00 | 25,606.06 | 12,433.94 | -922.71 | 0 | 10.00 |
+| joint_paths | 38,040.00 | 24,406.06 | 13,633.94 | 457.29 | 12 | 10.00 |
+| worsening_coordination | 49,560.00 | 39,958.74 | 9,601.26 | -3,047.23 | 0 | 8.00 |
 
+The improving-human case lowers combined resource cost while closing new robot admission. Existing stock persists; the inherited acquisition/payback eligibility cap can suppress modeled output and is not an optimal continuation rule. Cheaper additional robot service can change that commercial result without directly changing capability. The conventional combined case retains the digital human baseline and required robot control, removing only the incremental coordination/service bundle. These alternatives neither calibrate an actual product nor form a jointly funded company model. See the [annual analysis](research/annual_digital_scenarios.md) and [implementation review](reviews/annual_trajectory_review.md).
 
 ## 9. Local experiments: cash settlement and transaction state
 
@@ -1421,7 +1471,7 @@ When authoritative lookup is unavailable, blocking a retry can prevent a duplica
 
 ### Inspecting the scenario calculation
 
-The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference remains one annual site at the final horizon, without learned increments; changing the display year does not turn it into an installed-fleet estimate. A changed scenario invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
+The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference follows the selected annual year and its resolved digital conditions, without learned increments; it remains a matched site contrast, not an installed-fleet estimate. A changed scenario or selected scope invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
 
 The **Evidence fields** panel adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license selectors. Missing fields can be selected explicitly. A compound geography description remains the source's compound value, and a license label leaves commercial and hardware rights to the full artifact terms. These filters change evidence navigation only; they do not reclassify unknown records or alter scenario populations. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete. See [filter semantics](dashboard/EVIDENCE_FILTERS.md).
 
@@ -1430,6 +1480,6 @@ The **Evidence fields** panel adds exact recorded geography, system/configuratio
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 
-The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
+Workstream K adds ten still-open frontier-model questions, to be integrated into the existing views and common evidence/model structure. No K dossier or architecture result is claimed merely because its scope is registered. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
 The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.

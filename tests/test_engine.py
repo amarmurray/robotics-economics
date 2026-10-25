@@ -37,6 +37,18 @@ class ModelAccounting(unittest.TestCase):
             {"arrangement":"lease","support_budget_hours":200,"onboard_configuration":"high_memory"},
             {"provider_capital_usd":0}, {"labor_avoidability":0},
             {"capability":1,"capability_progress":0,"uptime":1,"intervention_minutes":0,"coordination":.6,"digital_efficiency":0,"labor_avoidability":1})]
+        # Existing stock, resource, demand and cash invariants also cover changing
+        # comparators and adverse annual coordination, across both configurations.
+        import random
+        rng = random.Random(418)
+        for i in range(12):
+            paths = {"schema_version": "digital-annual-paths/0.1", "base_year": cls.c["base_year"],
+                     "epistemic_status": "synthetic_assumption",
+                     "digital_efficiency": [rng.uniform(0, .6) for _ in range(8)],
+                     "coordination": [rng.uniform(-.4, .6) for _ in range(8)],
+                     "digital_cost_usd": [rng.uniform(0, 20000) for _ in range(8)]}
+            cls.runs.append(run_scenario({"years": 8, "assembly_yield": .25 + .05*i,
+                                          "onboard_configuration": "high_memory" if i%2 else "standard"}, digital_paths=paths))
 
     def test_component_and_finished_goods_conservation(self):
         for r in self.runs:

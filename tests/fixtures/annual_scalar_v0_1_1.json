@@ -1,0 +1,83 @@
+{
+  "cases": {
+    "ample_supply_unready/high_memory": {
+      "numeric_fields": 4339,
+      "sha256": "4d4eaa7c8b0bbdf9933c3916f796fc8b4a1f2872a0e0526e681044fbe6c2158a"
+    },
+    "ample_supply_unready/standard": {
+      "numeric_fields": 4339,
+      "sha256": "3f8c787d92da06b4e2361868781af72ac8359ef9496029237d69cbb4a2b38202"
+    },
+    "delayed_supply/high_memory": {
+      "numeric_fields": 4307,
+      "sha256": "902b535b657eda1343d22f8694397851f52325361b3a7401e6e928dca962dc31"
+    },
+    "delayed_supply/standard": {
+      "numeric_fields": 4307,
+      "sha256": "0aa45c1722e213f231aca606dad571398967fca368df8263d45509dea05dc40e"
+    },
+    "digital_first/high_memory": {
+      "numeric_fields": 4339,
+      "sha256": "750c7570e63ba9d4d233f570adcff214e560d01bb32a6bed3006d301f3b8176f"
+    },
+    "digital_first/standard": {
+      "numeric_fields": 4339,
+      "sha256": "6c228b657ca41c8d174f8c3c6c3725b5537e888840b77fa4122fa5c41469a150"
+    },
+    "limited_transfer/high_memory": {
+      "numeric_fields": 4339,
+      "sha256": "de0a11a37880141f5350fe7e8bad1c0271c93aaaad1d3172c942a1070e1ba465"
+    },
+    "limited_transfer/standard": {
+      "numeric_fields": 4339,
+      "sha256": "0de17838163afb20eaff8995bdc2ca58e328b2614837cf9a015cc4ef8cdc66f8"
+    },
+    "newco_raas/high_memory": {
+      "numeric_fields": 4327,
+      "sha256": "73403834feae6b5d504d84de9dd9e224e2efa32906cf938a84ee8f72c6836748"
+    },
+    "newco_raas/standard": {
+      "numeric_fields": 4328,
+      "sha256": "08c294ecc6ea84cd1583ef2b2f8f2980e27ce6dab97435aa4ae957f7ac7c0918"
+    },
+    "prompt_response/high_memory": {
+      "numeric_fields": 4328,
+      "sha256": "cd90260b9e63f77ff24ed1f3fba4f4fb413f13dab6674a6d38ce782aac9eb841"
+    },
+    "prompt_response/standard": {
+      "numeric_fields": 4329,
+      "sha256": "ce849321efa567f1da4ba0fdc4fa6bd189d4bc4b0dd352f7dc41101fb3d333f0"
+    },
+    "reference/high_memory": {
+      "numeric_fields": 4339,
+      "sha256": "bbc74d569f0780d17d1feb2870b201c481f779d8f47562af160d763723168917"
+    },
+    "reference/standard": {
+      "numeric_fields": 4339,
+      "sha256": "75b57f45111f7a39b4b14a50025fa3c2e2092e14cf761a0225cec27c5a66ed16"
+    },
+    "service_stress/high_memory": {
+      "numeric_fields": 4338,
+      "sha256": "cea15a4aa3307ec0155cb2a8a272f162741be20648dc2f91dea958378b4a3615"
+    },
+    "service_stress/standard": {
+      "numeric_fields": 4339,
+      "sha256": "870e55f36feabe9e3894090bb686fb8eaaa83de983b57ff6d0c13cdcf21f003f"
+    }
+  },
+  "comparison": "Every pre-existing numeric field in the listed result sections; added path metadata and provenance identities excluded.",
+  "engine_sha256": "0c35c6f2602d29a60a6bc187c013c0e4dd9a3597064cf67bed5a1ecc616a8d07",
+  "model_version": "0.1.1",
+  "sections": [
+    "parameters",
+    "catalog_cells",
+    "customer_mechanisms",
+    "fleet",
+    "joint",
+    "commercial",
+    "commercial_by_cell",
+    "newco",
+    "backcast",
+    "embodiment_comparisons"
+  ]
+}

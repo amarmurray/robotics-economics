@@ -80,16 +80,19 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > 200000:
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
-            allowed = {"overrides", "preset", "cell_id"} if endpoint == "/api/joint-trace" else {"overrides", "preset"}
+            allowed = {"overrides", "preset", "digital_paths"}
+            if endpoint == "/api/joint-trace":
+                allowed |= {"cell_id", "year"}
             if not isinstance(request,dict) or set(request)-allowed:
                 raise ValueError("Expected preset and overrides")
             overrides = request.get("overrides",{})
             if not isinstance(overrides,dict):
                 raise ValueError("overrides must be an object")
             if endpoint == "/api/joint-trace":
-                self.send(200,joint_trace(request.get("cell_id"),overrides,request.get("preset","reference")))
+                self.send(200,joint_trace(request.get("cell_id"),overrides,request.get("preset","reference"),
+                                         digital_paths=request.get("digital_paths"),year=request.get("year")))
             else:
-                self.send(200,run_scenario(overrides,request.get("preset","reference")))
+                self.send(200,run_scenario(overrides,request.get("preset","reference"),digital_paths=request.get("digital_paths")))
         except (ValueError,TypeError,json.JSONDecodeError) as exc:
             self.send(400,{"error":str(exc)})
 

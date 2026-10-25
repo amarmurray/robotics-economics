@@ -25,13 +25,13 @@ def main():
     research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
     (args.output/"observed_atlas_summary.json").write_text(json.dumps(atlas,indent=2,sort_keys=True)+"\n")
     (args.output/"observed_research_summary.json").write_text(json.dumps(research,indent=2,sort_keys=True,allow_nan=False)+"\n")
-    specs = [(key,{}) for key in catalog()["presets"]]
+    specs = [(key,{},None) for key in catalog()["presets"]]
     if args.scenario:
         saved = json.loads(args.scenario.read_text())
-        specs = [(saved.get("preset","reference"),saved.get("parameters",saved.get("overrides",{})))]
+        specs = [(saved.get("preset","reference"),saved.get("parameters",saved.get("overrides",{})),saved.get("digital_paths"))]
     summary = []
-    for preset, overrides in specs:
-        result = run_scenario(overrides,preset)
+    for preset, overrides, digital_paths in specs:
+        result = run_scenario(overrides,preset,digital_paths=digital_paths)
         (args.output/f"{preset}.json").write_text(json.dumps(result,indent=2,sort_keys=True,allow_nan=False)+"\n")
         final = result["fleet"]["years"][-1]
         summary.append({"preset":preset,"status":"synthetic_illustration","scenario_hash":result["scenario_hash"],"year":final["year"],
@@ -44,6 +44,11 @@ def main():
                 w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
         with (args.output/f"{preset}_joint.csv").open("w",newline="") as f:
             w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(result["joint"][0]));w.writeheader();w.writerows(result["joint"])
+        annual = [{"year": year["year"], "capability": year["capability"],
+                   **year["effective_digital_parameters"], **row}
+                  for year in result["joint_by_year"] for row in year["comparisons"]]
+        with (args.output/f"{preset}_joint_by_year.csv").open("w",newline="") as f:
+            w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(annual[0]));w.writeheader();w.writerows(annual)
     with (args.output/"scenario_summary.csv").open("w",newline="") as f:
         w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(summary[0]));w.writeheader();w.writerows(summary)
     print(f"Exported {len(summary)} scenarios to {args.output}")

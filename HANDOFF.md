@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.4.
+Handoff ID: week-one-2026-10-25-in-progress-0.5a.
 
 ## Accepted direction
 
@@ -20,7 +20,29 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 are now OPEN in both roadmap and question ledger. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current campaign state
+## Current checkpoint: annual digital paths, edition 0.5a
+
+The active objective remains to execute the roadmap through the original November 1 deadline. The canonical Mac checkout is available and is the current execution location. Use **one agent only**. Earlier multi-agent assignments and cloud-location statements below describe historical execution, not the current resource instruction. The platform goal was observed active during this continuation; no reset or new campaign was created.
+
+Model 0.2.0 implements the independently reviewed annual-path design: human efficiency, signed coordination and robot digital-service expense resolve separately in each year's comparison, ranking, admission, manufacturing demand and operation. The common engine supplies annual tables, selected-year traces, JSON/CSV and six reproducible counterfactuals. The dashboard retains thirteen views and supports explicit paths, validation, reset and exact export/reload. `REPORT.md` edition 0.5a integrates the analysis and generated table; it remains the primary research deliverable.
+
+Verification completed: 107 Python tests, 32 JavaScript assertions, strict evidence validation (eleven packages, 130 claims), exact compatibility across all 69,315 previous numerical fields in sixteen scalar cases, and browser year/trace/path/replay checks. All thirteen views rendered without console errors. Current verification is by the sole lead; the previous independent design review did not review this implementation. The acceptance register now contains the original 64 checks plus five conditional K outputs: 48 bounded met and 21 partial. K research remains OPEN, and all numerical paths are synthetic.
+
+Decisions: preserve current-condition lifetime screening, the installed-stock continuation limitation, free compatible software updates and supported-hours learning exposure as explicit inherited boundaries. Keep monthly entrant, treasury, paid-physical and year-zero commercial references separate. A lower combined resource cost alone cannot establish stronger adoption when the human alternative improves. K's future architecture comparisons must separate resource savings from the payments and rights through which parties capture value.
+
+The unpublished cloud annual-path/crosswalk files were unavailable here. This checkpoint implements annual paths from the accepted design and does not claim recovery of those edits. The pre-existing untracked regression fixture was preserved. The physical-requirements crosswalk is still missing, as is the cloud-only commercial stage-3 design; the commercial extension is unimplemented. Historical interruption, tests or elapsed time do not count as newly completed work.
+
+**Next execution checklist:**
+
+1. Build a fresh, primary-source-verified physical-requirements/employment crosswalk. Reconcile occupation codes, population and survey vintages; preserve missing matches, threshold-footnote versus unavailable cells, and unknown physical hours. Start with the four occupations described in the supplied cloud handoff, using available evidence to identify exact source rows.
+2. Reconcile that packet with the atlas and report, acceptance and dashboard source navigation; run source-arithmetic and reproduction checks. Publish a scoped checkpoint with refreshed manifest and current remote verification.
+3. Advance a bounded K comparison: Physical Intelligence, Skild and a contrasting integrated/open model architecture, with version, release/access, compatible system, rights, support and full-cost boundaries. Reuse existing market cells and views; leave unsupported targets OPEN/PARTIAL.
+4. Continue the ranked field-support, shared-finance, conventional-coordination, equal-technology entrant and supply/workload questions. Reconstruct and review the stage-3 commercial design before implementation; retain separate annual and monthly scopes until their shared accounting is actually validated.
+
+**Next question:** which observed physical requirements and support obligations would change the preferred model-provider architecture or deployment sequence at matched accepted service?
+
+## Campaign activation history (preserved)
+
 
 The user activated launch revision 1.1. Campaign `week-one-2026-10-25` is **in progress**, not a completed seven-day edition. The accepted input revision and exact runtime receipts are in ignored `work/campaign_state.json` and `sync_receipt.json`; the launch input was the repository's `Persist full Astra Ultra multi-agent research launch prompt` revision. Preserve this campaign window on resumption.
 
@@ -31,7 +53,7 @@ The user activated launch revision 1.1. Campaign `week-one-2026-10-25` is **in p
 - Seven concurrent slots include the lead. First wave: A/C atlas; B/D/E capabilities/learning; F/G customer/value capture; H digital ecosystem; I/J supply/field evidence; common models/dashboard. Lead integrates and adds H infrastructure research. Independent review follows in freed slots.
 - H receives a dedicated specialist plus lead infrastructure investigation and joint-model integration. This is a substantive allocation, not a measured claim of one-third elapsed compute. Preserve H depth in subsequent waves and record consequential reallocation.
 
-The governing scope remains charter/design v0.10, digital module v1.1, I/J modules v1.0 and week-one specification v1.4. All ten workstreams and thirteen linked views remain required. `acceptance_register.json` records individual checks and remaining gaps; absence of a failed test is not acceptance. Early synthetic models demonstrate mechanisms and remain excluded from empirical totals.
+The governing scope is now charter/design v0.11, digital module v1.1, I/J modules v1.0, K module v1.0 and week-one specification v1.5. Eleven workstreams are in scope, with K subject to its explicit late-addition evidence/resource conditions, and thirteen linked views remain required. `acceptance_register.json` records individual checks and remaining gaps; absence of a failed test is not acceptance. Early synthetic models demonstrate mechanisms and remain excluded from empirical totals.
 
 ## First integrated checkpoint
 
@@ -95,7 +117,7 @@ Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`
 
 ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` owns I; `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` owns J, with common evidence/actor/system/resource records; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions; `POST_RESEARCH_STAGING.md` owns the agreed application/learning sequence after the first edition. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
+`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` owns I; `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` owns J; `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` owns K, with common evidence/actor/system/resource records; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions; `POST_RESEARCH_STAGING.md` owns the agreed application/learning sequence after the first edition. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
 
 ## Superseded and preserved decisions
 
@@ -124,8 +146,8 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate transition: **Use the verified edition to help Amar explain and challenge one deployment decision, then select the next research block by value of information.** The walkthrough and thesis register are ready for that discussion. Within the continuing research window, the next executable model block is the reviewed monthly treasury/shared-resource mechanism; operator full-cost data and exact benchmark manifests remain separate evidence needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the current checkpoint checklist above: source-verified physical requirements, then bounded K architecture evidence alongside the existing ranked gaps. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
-One writer per file: each specialist owns its research/evidence pair; implementation owns model/dashboard/tests/scripts/reproduction; lead owns report, schema, acceptance, roadmap, handoff and manifest. Reviewers write separate audit artifacts and request owner corrections. Exact active assignments and next actions remain in ignored operational state while running.
+One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
 Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly and continue the original elapsed-time window.

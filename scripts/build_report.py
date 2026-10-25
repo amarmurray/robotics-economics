@@ -18,7 +18,7 @@ CHAPTERS = [
 FOLLOWUPS = {
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md')],
- 'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md')],
+ 'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md')],
  'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
  'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
 }
@@ -28,7 +28,7 @@ def chapter(text, depth=1):
     if lines and lines[0].startswith('# '): lines=lines[1:]
     lines=[('#'*depth+x if x.startswith('#') else x) for x in lines]
     s='\n'.join(lines).strip()
-    s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../RESEARCH_', '(RESEARCH_')
+    s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../reviews/','(reviews/').replace('(../RESEARCH_', '(RESEARCH_')
     for path in (ROOT/'research').glob('*.md'):
         s=s.replace('('+path.name+')','(research/'+path.name+')')
     return s
@@ -39,7 +39,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.4, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.5a, campaign in progress. Annual digital-path integration is accepted; the missing cloud physical-requirements crosswalk remains subsequent work. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -49,9 +49,9 @@ The report uses a US quantitative labor anchor with global provider, research an
 
 Begin with the executive argument for the decision logic, then use the economic atlas to orient the technical, organizational and supply evidence. The common-engine section connects those findings to conditional scenarios. Detailed source locators, explicit conflicts and unknowns remain in the chapters and their machine-readable evidence packages; no favorable headline substitutes for their operating boundary. This expanded edition deliberately retains the full source analysis rather than compressing it into a short investment thesis.
 
-Six specialist launch requests explicitly selected GPT-6 Astra / Ultra and were accepted. Actual serving model/reasoning is not independently exposed; lead settings cannot be verified or changed through the available tools. That limitation is disclosed rather than silently treated as a verified configuration.
+The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The original Mac checkout was unavailable. Work occurred in a fresh cloud checkout, preserving unseen local edits. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture; the crosswalk remains unfinished. Publication to the private repository does not establish consumption by a separate Work session.
 ''']
     contents=[]
     headings=[f'{i}. {title}' for i,(title,_) in enumerate(CHAPTERS,1)]+[
@@ -86,14 +86,23 @@ Digital-first produces {n('digital_first','cumulative_baseline_equivalent_hours'
 In the separate monthly entrant case, delayed incumbent response requires peak funding of ${n('newco_raas','newco_peak_funding_usd')}; prompt response requires ${n('prompt_response','newco_peak_funding_usd')} and exposes a ${n('prompt_response','newco_funding_gap_usd')} gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
 """)
     else:out.append('Scenario exports are not yet available; no numerical result is claimed in this build.')
-    out.append('''### Corrected hardware comparison and the next dynamic baseline
-
-Model 0.1.1 corrects a high-memory accounting omission: its synthetic $800 annual configuration charge now appears in both robot branches. Previously C10 omitted that charge, overstating the cost interaction by $800. The same additional power burden already applied to both branches. At 2,000 operating hours, each robot branch incurs $832 above its standard-board counterpart under the specified electricity price. All numerical fields in the eight standard presets remain unchanged; engine, catalog and evidence-provenance hashes are regenerated. The [independent correction review](reviews/high_memory_cost_review.md) records the comparison against the previous committed version.
-
-The next digital extension has a [reviewed design](research/digital_trajectory_design.md), with [independent numerical witnesses](reviews/digital_trajectory_design_review.md), but no implemented annual trajectory runner yet. It proposes three independently specified synthetic paths: human time reduction, signed robot coordination, and annual additional robot digital-service cost. Every annual adoption gate, resource-cost comparison and operating result must use the same contemporaneous values. A lower robot-service price can change cash margins without changing competence; an improving human baseline can weaken adoption even when the combined robot process also gets cheaper.
-
-Implementation must reproduce the corrected scalar engine on constant paths, preserve stock when economic eligibility changes, retain adverse/nonmonotone paths and keep direct changes separate from deployment-mediated learning. The proposed service-cost path does not supply a token-use, failed-attempt or latency model. Existing all-vintage software upgrades, current-condition screening and separate initial-year commercial/monthly-entry references remain explicit limitations. Design acceptance alone does not close the evolving-comparator requirement.
-''')
+    annual_path = ROOT/'model/results/annual_digital_comparison.json'
+    if not annual_path.exists():
+        raise SystemExit('Missing annual comparison; run scripts/export_trajectory.py')
+    annual = json.loads(annual_path.read_text())
+    for path, digest in annual['source_hashes'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:
+            raise SystemExit('Stale annual comparison dependency: '+path)
+    out.append("### Annual digital paths and a moving alternative\n\nModel 0.2.0 implements the reviewed three-channel design and retains the corrected 0.1.1 hardware boundary. Constant paths preserve all 69,315 existing numerical fields across eight presets and both configurations. The six generated counterfactuals below use the same tote-handoff cell at 2030, five scenario years and no learned increment. Values are synthetic constant-2026 USD/site/year; reference resource costs and customer contract savings are separate measures.\n\nGenerated source: [annual_digital_comparison.json](model/results/annual_digital_comparison.json).")
+    lines = ['| Counterfactual | Digital human C01 | Joint C11 | Robot resource value versus C01 | Customer savings | Economic sites / 12 | Installed expected robots |',
+             '| --- | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for name, result in annual['results'].items():
+        final = result['joint_by_year'][-1]
+        joint = next(x for x in final['comparisons'] if x['cell_id'] == annual['cell_id'])
+        cell = next(x for x in result['fleet']['cells'] if x['cell_id'] == annual['cell_id'] and x['year'] == final['year'])
+        lines.append(f"| {name} | {joint['C01']:,.2f} | {joint['C11']:,.2f} | {joint['robotics_saving_on_digital_baseline']:,.2f} | {cell['economics']['customer_savings_usd']:,.2f} | {sum(x['economic'] for x in cell['sites'])} | {cell['active_stock']:,.2f} |")
+    out.append('\n'.join(lines))
+    out.append("The improving-human case lowers combined resource cost while closing new robot admission. Existing stock persists; the inherited acquisition/payback eligibility cap can suppress modeled output and is not an optimal continuation rule. Cheaper additional robot service can change that commercial result without directly changing capability. The conventional combined case retains the digital human baseline and required robot control, removing only the incremental coordination/service bundle. These alternatives neither calibrate an actual product nor form a jointly funded company model. See the [annual analysis](research/annual_digital_scenarios.md) and [implementation review](reviews/annual_trajectory_review.md).")
     experiments = ROOT/'model/results/treasury_witnesses.json'
     if experiments.exists():
         treasury=json.loads(experiments.read_text())
@@ -168,7 +177,7 @@ Generated source: [coordination_witnesses.json](model/results/coordination_witne
 
 ### Inspecting the scenario calculation
 
-The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference remains one annual site at the final horizon, without learned increments; changing the display year does not turn it into an installed-fleet estimate. A changed scenario invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
+The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference follows the selected annual year and its resolved digital conditions, without learned increments; it remains a matched site contrast, not an installed-fleet estimate. A changed scenario or selected scope invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
 
 The **Evidence fields** panel adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license selectors. Missing fields can be selected explicitly. A compound geography description remains the source's compound value, and a license label leaves commercial and hardware rights to the full artifact terms. These filters change evidence navigation only; they do not reclassify unknown records or alter scenario populations. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete. See [filter semantics](dashboard/EVIDENCE_FILTERS.md).
 ''')
@@ -176,7 +185,7 @@ The **Evidence fields** panel adds exact recorded geography, system/configuratio
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 
-The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
+Workstream K adds ten still-open frontier-model questions, to be integrated into the existing views and common evidence/model structure. No K dossier or architecture result is claimed merely because its scope is registered. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
 The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.
 ''')

@@ -5,6 +5,7 @@ const fmt = (v, decimals=0) => v === null || v === undefined ? 'Unknown' : typeo
 const money = v => v === null || v === undefined ? 'Unknown' : '$'+fmt(v);
 const title = s => String(s).replaceAll('_',' ').replace(/\b\w/g,x=>x.toUpperCase());
 const safeURL = v => typeof v === 'string' && /^https?:\/\//.test(v) ? v : null;
+let digitalPaths=null;
 let boot, result, activeView='atlas', overrides={}, requestId=0, allRecords=[], evidenceById=new Map(), comparisonResults=null, detailRequestId=0, activeTraceHash=null;
 const viewNames = [
  ['atlas','01','Economic atlas'],['deployment','02','Market deployment'],['providers','03','Providers & systems'],
@@ -46,7 +47,7 @@ function table(rows,columns){if(!rows.length)return empty('No records in this sc
 function cellLabel(id){return boot.catalog.cells.find(x=>x.cell_id===id)?.label || id;}
 function selectedCells(){return boot.catalog.cells.filter(x=>$('cell-filter').value==='all'||x.cell_id===$('cell-filter').value);}
 function selectedRows(allYears=false){const ids=new Set(selectedCells().map(x=>x.cell_id));return result.fleet.cells.filter(x=>ids.has(x.cell_id)&&(allYears||x.year===Number($('year-filter').value)));}
-function selectedJoint(){const ids=new Set(selectedCells().map(x=>x.cell_id));return result.joint.filter(x=>ids.has(x.cell_id));}
+function selectedJoint(){const ids=new Set(selectedCells().map(x=>x.cell_id));return result.joint_by_year.find(y=>y.year===Number($('year-filter').value)).comparisons.filter(x=>ids.has(x.cell_id));}
 function sum(rows,key){return rows.reduce((n,x)=>n+(x[key]||0),0);}
 function scopeName(){return $('cell-filter').value==='all'?'Six illustrative cells':cellLabel($('cell-filter').value);}
 function bars(values){const max=Math.max(1,...values.map(x=>x[1]));return values.map(([name,v])=>`<div class="bar-row"><span>${esc(title(name))}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.max(0,v/max*100)}%"></div></div><span class="bar-value">${fmt(v)}</span></div>`).join('');}
@@ -74,19 +75,19 @@ function cards(records,limit=30,applyFilters=true){const filtered=applyFilters?r
 function recordsFor(pattern,packagePattern=null){return allRecords.filter(r=>pattern.test(r.key)&&(!packagePattern||packagePattern.test(r.path)));}
 function evidenceSection(pattern,packagePattern=null,limit=20){return cards(recordsFor(pattern,packagePattern),limit);}
 function docs(pattern){const paths=boot.documents.filter(x=>pattern.test(x));return `<div class="links">${paths.map(x=>`<a href="/${esc(x)}" target="_blank">${esc(title(x.split('/').pop().replace('.md','')))} ↗</a>`).join('')}</div>`;}
-function jointTable(){return `<p class="small">Reference comparison at final scenario year ${result.fleet.years.at(-1).year}, with exogenous capability progression and no learned increment. The annual-year filter does not change this fixed horizon table.</p>`+table(selectedJoint(),[['cell_id','Matched annual site',v=>esc(cellLabel(v))],['C00','Human baseline',money,true],['C01','Digital human',money,true],['C10','Robot + required software',money,true],['C11','Joint system',money,true],['robotics_saving_on_digital_baseline','Robot value vs digital human',money,true],['cost_interaction','Cost interaction',money,true],['cell_id','Calculation',v=>`<button class="ref" data-calculation="${esc(v)}">Trace inputs and costs ↗</button>`]]);}
+function jointTable(){const annual=result.joint_by_year.find(y=>y.year===Number($('year-filter').value)),p=annual.effective_digital_parameters;return `<p class="small">Reference comparison for ${$('year-filter').value}, using that year’s digital conditions and exogenous capability with no learned increment. This is matched site economics, not realized fleet savings. Human time reduction: ${fmt(p.digital_efficiency*100,1)}%; coordination: ${fmt(p.coordination*100,1)}%; additional robot service: ${money(p.digital_cost_usd)}/robot-year.</p>`+table(selectedJoint(),[['cell_id','Matched annual site',v=>esc(cellLabel(v))],['C00','Human baseline',money,true],['C01','Digital human',money,true],['C10','Robot + required software',money,true],['C11','Joint system',money,true],['robotics_saving_on_digital_baseline','Robot value vs digital human',money,true],['cost_interaction','Cost interaction',money,true],['cell_id','Calculation',v=>`<button class="ref" data-calculation="${esc(v)}">Trace inputs and costs ↗</button>`]]);}
 function showEvidence(id){++detailRequestId;activeTraceHash=null;const record=evidenceById.get(id);$('evidence-detail').innerHTML=record?`<div class="eyebrow">SAVED EVIDENCE · NOT A SCENARIO OVERRIDE</div><h2>${esc(id)}</h2>${cards([record],1,false)}`:empty(`Unresolved evidence reference ${id}. See validation report; do not infer a source.`);$('evidence-dialog').showModal();}
 
 
 async function showCalculation(cellId){
  const detailId=++detailRequestId;
- const snapshot=result;activeTraceHash=snapshot.scenario_hash;
+ const snapshot=result;const selectedYear=Number($('year-filter').value);activeTraceHash=snapshot.scenario_hash;
  $('evidence-detail').innerHTML='<h2>Calculation trace</h2><p>Loading the current scenario calculation…</p>';
  $('evidence-dialog').showModal();
  try{
-  const response=await fetch('/api/joint-trace',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cell_id:cellId,preset:snapshot.preset,overrides:snapshot.parameters})});
+  const response=await fetch('/api/joint-trace',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cell_id:cellId,preset:snapshot.preset,overrides:snapshot.parameters,digital_paths:snapshot.digital_paths,year:selectedYear})});
   const trace=await response.json();if(detailId!==detailRequestId)return;if(!response.ok)throw Error(trace.error);
-  if(trace.scenario_hash!==snapshot.scenario_hash||result.scenario_hash!==snapshot.scenario_hash)throw Error('The engine or assumptions changed. Recalculate the scenario before tracing it.');
+  if(trace.scenario_hash!==snapshot.scenario_hash||result.scenario_hash!==snapshot.scenario_hash||Number($('year-filter').value)!==selectedYear)throw Error('The engine or assumptions changed. Recalculate the scenario before tracing it.');
   const rows=trace.branches.map(b=>({branch:b.branch,...b.calculation,operating:b.robot?b.calculation.provider_operating_cost_usd:0}));
   $('evidence-detail').innerHTML=`<div class="eyebrow">SYNTHETIC CALCULATION · ${esc(trace.reference_year)}</div><h2>${esc(cellLabel(cellId))}</h2><p>${esc(trace.scope)}</p>`+
    notice(esc(trace.source_boundary),true)+
@@ -95,8 +96,8 @@ async function showCalculation(cellId){
    table(rows,[['branch','Branch'],['robot_accepted_units','Robot accepted units/year',v=>fmt(v,2),true],['retained_human_hours','Retained human hours/year',v=>fmt(v,2),true]])+
    `<p class="small">C00: human baseline; C01: digital human; C10: robot with required software; C11: joint system. Total resource cost adds the three cost columns. This values labor opportunity cost; removed payroll remains unknown. Price transfers are excluded.</p>`+
    `<p>Robot value against the digital baseline: C01 − C11 = ${money(trace.comparison.robotics_saving_on_digital_baseline)}. Cost interaction: C11 − C10 − C01 + C00 = ${money(trace.comparison.cost_interaction)}.</p>`+
-   `<details><summary>Exact cell, system and scenario inputs</summary><pre>${esc(JSON.stringify({cell:trace.cell,system:trace.system,parameters:trace.parameters},null,2))}</pre></details>`+
-   `<details><summary>Engine equations and literal assumptions</summary>${trace.functions.map(f=>`<h3>${esc(f.path)}:${f.start_line} · ${esc(f.function)}</h3><pre>${esc(f.source)}</pre>`).join('')}</details>`+
+   `<details><summary>Exact cell, system and scenario inputs</summary><pre>${esc(JSON.stringify({cell:trace.cell,system:trace.system,effective_parameters:trace.parameters,scalar_parameters:trace.scalar_parameters,resolved_digital_paths:trace.resolved_digital_paths},null,2))}</pre></details>`+
+   `<details><summary>Engine equations and literal assumptions</summary>${[...trace.functions,...trace.path_functions].map(f=>`<h3>${esc(f.path)}:${f.start_line} · ${esc(f.function)}</h3><pre>${esc(f.source)}</pre>`).join('')}</details>`+
    `<p class="small">Scenario ${esc(trace.scenario_hash)}<br>Engine SHA-256 ${esc(trace.engine_sha256)}</p><a href="/model/assumptions.json" target="_blank">Saved synthetic assumptions ↗</a> · <a href="/model/METHODS.md" target="_blank">Methods and limits ↗</a>`;
  }catch(error){if(detailId===detailRequestId)$('evidence-detail').innerHTML=empty('Calculation trace unavailable: '+error.message);}
 }
@@ -133,13 +134,13 @@ const renderers={
   `<div class="card"><h3>Conditional cash balance · USD</h3>${chart(n.rows,'month',[['cash_balance_usd','Cash balance','#00796e']])}<p class="small">${esc(n.limitation)}</p></div>`+
   `<div class="card"><h3>Capacity, demand and delivered service · units/month</h3>${chart(n.rows,'month',[['capacity_units','Newco capacity','#00796e'],['demand_units','Won demand','#b86020'],['served_units','Delivered','#326c9c'],['incumbent_same_robot_capacity_units','Incumbent same robot capacity','#82729d']])}</div>`+
   `<details><summary>Inspect exact entrant assumptions and full monthly cash path</summary><pre>${esc(JSON.stringify(n,null,2))}</pre></details>`;},
- commercial(){const ids=new Set(selectedCells().map(x=>x.cell_id));const cases=result.commercial_by_cell.filter(x=>ids.has(x.cell_id));return notice('Customer business ownership and robot-asset ownership are separate dimensions. Prices redistribute value; manufacturer resource expenditure is not customer price. Cash tables are fixed initial-capability, one-site lifetime reference comparisons; the calendar-year filter does not change them. They are incremental to an assumed avoidable baseline and include deployment investment once.',true)+
+ commercial(){const ids=new Set(selectedCells().map(x=>x.cell_id));const cases=result.commercial_by_cell.filter(x=>ids.has(x.cell_id));return notice('Customer business ownership and robot-asset ownership are separate dimensions. Prices redistribute value; manufacturer resource expenditure is not customer price. Cash tables hold initial capability and year-zero digital conditions for the full one-site lifetime; the calendar-year filter does not change them. They are incremental to an assumed avoidable baseline and include deployment investment once.',true)+
   cases.map(c=>`<div class="card"><h3>${esc(cellLabel(c.cell_id))} · ${esc(c.arrangement)}</h3><p class="small">${esc(c.scope)}</p><p>Robot owner: <strong>${esc(c.rights.robot_asset_owner)}</strong> · Workflow authority: ${esc(c.rights.workflow_authority)} · Data reuse: ${esc(c.rights.data_reuse)}</p>${table(c.cashflows,[['period','Period'],['customer_cash_usd','Customer',money,true],['provider_cash_usd','Provider',money,true],['financier_cash_usd','Financier',money,true],['consolidated_incremental_cash_usd','Consolidated',money,true]])}</div>`).join('')+
   evidenceSection(/commercial|arrangement|rights|business_model|value_capture/,/customer/,18);},
  digital(){return notice('Edges in this workspace describe dated contractual, physical, data or control relationships. They are not measured material/cash flow widths. Onboard embedded memory is never pooled with datacenter HBM or training resources.',true)+docs(/digital|infrastructure|coordination_reproducibility|onboard_workload_qualification/)+
   `<div class="flow"><span>Power · sites · equipment</span><i>→</i><span>Compute · memory · networks</span><i>→</i><span>Training / inference</span><i>→</i><span>Models · tools · distribution</span><i>→</i><span>Deployment firms / operating customers</span></div>`+
   evidenceSection(/ecosystem|relationship|supply_chain|actor|infrastructure|deployment_dossiers|digital_dossiers|^dossiers$|value_chain/,/digital|infrastructure/,36)+`<h3>Coordination reproducibility and execution boundaries</h3>`+evidenceSection(/benchmark_audits|interface_ledger|mechanism_constraints/,/coordination_reproducibility/,16)+
-  `<h3>Moving physical-production counterfactual</h3>`+jointTable()+notice('The human digital-efficiency control changes the human baseline as well as retained human work in robot sites. Coordination and inference cost change robot operations separately. No QJE, coding-study or benchmark coefficient is imported.');},
+  `<h3>Moving physical-production counterfactual</h3>`+jointTable()+notice('The human digital-efficiency control changes the human baseline as well as retained human work in robot sites. Coordination and the annual robot digital-service bundle change robot economics separately; this bundle is not a per-token inference price. No QJE, coding-study or benchmark coefficient is imported.');},
  analogy(){return `<h3>Matched 2 × 2 scenario</h3>`+jointTable()+notice('Costs value labor opportunity cost at fixed accepted output and quality. C01 − C11 is robotics value against a digital-improved human baseline. C11 − C10 − C01 + C00 is the cost interaction; positive values can reveal overlapping savings. This is a scenario contrast, not a causal estimate.',true)+
   `<h3>Source/target analogy tests and direct contributions</h3>`+evidenceSection(/analog|transfer_tests|direct_contribution|contribution|benchmark/,null,40);},
  supply(){const year=Number($('year-filter').value),b=result.backcast;return notice('Supply tables refer to the common pool for all six cells. Qualified receipts are already net of external commitments and upstream yield. Assembly yield is applied once. Humanoid and quadruped actuators remain incompatible; shared embedded boards are a hypothetical compatible pool.',true)+
@@ -162,8 +163,30 @@ const renderers={
 
 function comparisonTable(){const ids=new Set(selectedCells().map(x=>x.cell_id));return table(comparisonResults.map(r=>{const cells=r.fleet.cells.filter(x=>ids.has(x.cell_id)&&x.year===r.fleet.years.at(-1).year);return {preset:r.preset,stock:sum(cells,'active_stock'),hours:sum(cells,'baseline_equivalent_hours'),cumulative:sum(r.fleet.cells.filter(x=>ids.has(x.cell_id)),'baseline_equivalent_hours'),gap:r.newco.funding_gap_usd};}),[['preset','Saved scenario'],['stock','Final selected active stock',v=>fmt(v,2),true],['hours','Final baseline-equivalent h',v=>fmt(v),true],['cumulative','Cumulative baseline-equivalent h',v=>fmt(v),true],['gap','Fixed newco reference funding gap',money,true]]);}
 function render(){if(!result)return;describeFacets();const v=viewNames.find(x=>x[0]===activeView);setText('view-kicker',`WORKSPACE ${v[1]} / 13`);setText('view-title',v[2]);setText('scope',`${scopeName()} · ${$('year-filter').value}`);$('content').innerHTML=renderers[activeView]();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===activeView));setText('model-hash',`Engine ${result.model_version} · scenario ${result.scenario_hash.slice(0,14)}`);}
-function updateControls(){for(const group of controlGroups)for(const [key]of group[1]){const el=$('p-'+key);if(el){el.value=result.parameters[key];const output=$('v-'+key);if(output)output.textContent=fmt(result.parameters[key],3);}}}
-async function run(){const id=++requestId;setText('run-state','Recalculating authoritative Python model…');try{const response=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset:$('preset').value,overrides})});const data=await response.json();if(!response.ok)throw Error(data.error);if(id!==requestId)return;const oldYear=$('year-filter').value;result=data;if(activeTraceHash&&activeTraceHash!==result.scenario_hash){++detailRequestId;activeTraceHash=null;$('evidence-detail').innerHTML=empty('The scenario changed. Close this dialog and trace the updated comparison.');}$('year-filter').innerHTML=result.fleet.years.map(x=>`<option value="${x.year}">${x.year}</option>`).join('');$('year-filter').value=result.fleet.years.some(x=>String(x.year)===oldYear)?oldYear:String(result.fleet.years.at(-1).year);updateControls();render();setText('run-state',`Recomputed · ${result.scenario_hash.slice(0,12)} · evidence unchanged`);}catch(error){setText('run-state','Model error: '+error.message);$('run-state').classList.add('error');}}
+function invalidateTrace(message){if(activeTraceHash){++detailRequestId;activeTraceHash=null;$('evidence-detail').innerHTML=empty(message);}}
+function updateControls(){
+ for(const group of controlGroups)for(const [key]of group[1]){
+  const el=$('p-'+key);if(el){el.value=result.parameters[key];const output=$('v-'+key);if(output)output.textContent=fmt(result.parameters[key],3);
+   el.disabled=Boolean(digitalPaths&&(Object.hasOwn(digitalPaths,key)||key==='years'));
+   el.title=el.disabled?'Annual paths override this control. Clear paths to change the horizon.':'';
+  }
+ }
+ for(const key of ScenarioIO.channels)$('path-'+key).value=digitalPaths?.[key]?.join(', ')||'';
+ const years=result.fleet.years;setText('path-horizon',`${years.length} annual levels: ${years[0].year}–${years.at(-1).year}. Clear paths before changing the horizon.`);
+ setText('path-status',digitalPaths?'Annual paths applied. Supplied levels replace their scalar controls.':'Constant values from the scalar controls are applied each year.');
+}
+async function run(){
+ const id=++requestId;setText('run-state','Recalculating authoritative Python model…');
+ try{
+  const response=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset:$('preset').value,overrides,digital_paths:digitalPaths})});
+  const data=await response.json();if(id!==requestId)return false;if(!response.ok)throw Error(data.error);
+  const oldYear=$('year-filter').value;result=data;digitalPaths=result.digital_paths;
+  invalidateTrace('The scenario changed. Close this dialog and trace the updated comparison.');
+  $('year-filter').innerHTML=result.fleet.years.map(x=>`<option value="${x.year}">${x.year}</option>`).join('');
+  $('year-filter').value=result.fleet.years.some(x=>String(x.year)===oldYear)?oldYear:String(result.fleet.years.at(-1).year);
+  updateControls();render();$('run-state').classList.remove('error');setText('run-state',`Recomputed · ${result.scenario_hash.slice(0,12)} · evidence unchanged`);return true;
+ }catch(error){if(id!==requestId)return false;setText('run-state','Model error: '+error.message+'. Display and export retain the last valid result.');$('run-state').classList.add('error');return false;}
+}
 function download(name,text,type){const url=URL.createObjectURL(new Blob([text],{type}));const link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),500);}
 function csv(rows){const keys=Object.keys(rows[0]||{});const quote=v=>'"'+String(typeof v==='object'?JSON.stringify(v):v??'').replaceAll('"','""')+'"';return [keys.map(quote).join(','),...rows.map(r=>keys.map(k=>quote(r[k])).join(','))].join('\r\n');}
 function buildFacets(){
@@ -192,14 +215,16 @@ async function init(){
  buildControls();buildFacets();const statuses=[...new Set(allRecords.filter(x=>x.key==='evidence').map(x=>recordStatus(x.value)).filter(x=>typeof x==='string'))].sort();$('status-filter').innerHTML+='<optgroup label="Saved provenance/status labels">'+statuses.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')+'</optgroup>';
  $('controls').addEventListener('input',e=>{const k=e.target.dataset.parameter;if(k&&$('v-'+k))$('v-'+k).textContent=fmt(Number(e.target.value),3);});
  $('controls').addEventListener('change',e=>{const k=e.target.dataset.parameter;if(k){overrides[k]=boot.choices[k]?e.target.value:Number(e.target.value);comparisonResults=null;run();}});
- $('preset').addEventListener('change',()=>{overrides={};comparisonResults=null;run();});$('reset').addEventListener('click',()=>{overrides={};run();});
- ['cell-filter','year-filter','status-filter'].forEach(id=>$(id).addEventListener('change',render));$('evidence-search').addEventListener('input',render);
+ $('preset').addEventListener('change',()=>{overrides={};digitalPaths=null;comparisonResults=null;run();});$('reset').addEventListener('click',()=>{overrides={};digitalPaths=null;comparisonResults=null;run();});
+ $('apply-paths').addEventListener('click',async()=>{const previous=digitalPaths;try{digitalPaths=ScenarioIO.annualPaths(boot.catalog.base_year,Object.fromEntries(ScenarioIO.channels.map(k=>[k,$('path-'+k).value])));comparisonResults=null;if(!await run())digitalPaths=previous;}catch(error){digitalPaths=previous;setText('path-status','Path error: '+error.message);}});
+ $('clear-paths').addEventListener('click',()=>{digitalPaths=null;comparisonResults=null;run();});
+ ['cell-filter','year-filter','status-filter'].forEach(id=>$(id).addEventListener('change',()=>{invalidateTrace('The selected scope changed. Close this dialog and trace the selected comparison.');render();}));$('evidence-search').addEventListener('input',render);
  $('views').addEventListener('click',e=>{if(e.target.dataset.view){activeView=e.target.dataset.view;location.hash=activeView;render();}});
  document.addEventListener('click',async e=>{const ref=e.target.closest('[data-evidence]');if(ref)showEvidence(ref.dataset.evidence);const calculation=e.target.closest('[data-calculation]');if(calculation)showCalculation(calculation.dataset.calculation);if(e.target.id==='compare-presets'){e.target.disabled=true;e.target.textContent='Calculating saved scenarios…';comparisonResults=await Promise.all(Object.keys(boot.catalog.presets).map(preset=>fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset})}).then(r=>r.json())));render();}});
  $('close-dialog').addEventListener('click',()=>$('evidence-dialog').close());$('evidence-dialog').addEventListener('close',()=>{++detailRequestId;activeTraceHash=null;});
  $('download-json').addEventListener('click',()=>download('robotics-scenario-'+result.scenario_hash.slice(0,10)+'.json',JSON.stringify(result,null,2),'application/json'));
  $('download-csv').addEventListener('click',()=>download('selected-cohorts.csv',csv(selectedRows(true)),'text/csv'));
- $('import').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;const saved=JSON.parse(await file.text());$('preset').value=saved.preset||'reference';overrides=saved.parameters||saved.overrides||{};await run();}catch(error){setText('run-state','Import error: '+error.message);}});
+ $('import').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;const saved=ScenarioIO.savedInput(JSON.parse(await file.text()),boot.catalog.presets);$('preset').value=saved.preset;overrides=saved.overrides;digitalPaths=saved.digital_paths;comparisonResults=null;await run();}catch(error){setText('run-state','Import error: '+error.message);}});
  if(viewNames.some(x=>x[0]===location.hash.slice(1)))activeView=location.hash.slice(1);
  await run();
  }catch(error){$('content').innerHTML=notice('Could not load local model: '+esc(error.message));}

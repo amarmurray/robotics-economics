@@ -744,13 +744,18 @@
       "evidence_method": "Analogy ledger with source/target evidence and falsifiers; joint digital-only/robot-only/combined scenarios at matched output, quality and demand; preserve nontransfer findings.",
       "dependencies_and_completion": "W1 at least six analogy tests and one joint mechanism scenario after relevant LLM scopes; explain effects on at least three decisions/questions. Deepen with target evidence.",
       "findings": [
-        "Eight analogy tests preserve source/target separation; matched four-way cost scenarios expose moving baselines and nonadditive effects."
+        "Eight analogy tests preserve source/target separation; matched four-way cost scenarios expose moving baselines and nonadditive effects.",
+        "Model 0.2.0 now applies independent annual human-efficiency, signed coordination and robot-service cost levels coherently. A better human alternative can close new robot admission despite falling combined resource cost; retained stock and legacy continuation limits remain visible. Six synthetic counterfactuals are not calibrated target estimates."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/annual_digital_scenarios.md",
+        "model/trajectories.py",
+        "model/results/annual_digital_comparison.json",
+        "reviews/annual_trajectory_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Constrain the synthetic channel paths and model-architecture comparison with matched target costs, support exposure and rights; retain multivariate analogy and incomplete dynamic-finance boundaries."
     },
     {
       "question_id": "RQ-SC-01",
@@ -1140,5 +1145,5 @@
       "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
     }
   ],
-  "edition_note": "Original 55 questions and completion conditions retained. Integrated report and isolated software witnesses add bounded findings; they do not close empirical or shared-physical-model gaps. Ten new user-requested K questions are OPEN; no new K empirical findings are claimed."
+  "edition_note": "Original 55 questions and ten K questions retain their completion conditions. Annual paths add bounded synthetic findings to RQ-LLM-10; K research remains OPEN and empirical gaps are not closed."
 }

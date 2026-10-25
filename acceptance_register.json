@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
-  "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.4",
-  "edition_status": "campaign_in_progress_integrated_report_0.4",
+  "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
+  "edition_status": "campaign_in_progress_annual_digital_0.5a",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -17,7 +17,7 @@
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "H's connected physical-input \u2192 model \u2192 inference/tooling \u2192 deployment/customer map is dated and explicitly incomplete. Talent/data markets and current contract/control coverage need expansion."
+        "finding": "H's connected physical-input → model → inference/tooling → deployment/customer map is dated and explicitly incomplete. Talent/data markets and current contract/control coverage need expansion."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -109,22 +109,26 @@
       "section": "3. Breadth and depth requirements",
       "subsection": "Substantial digital-AI ecosystem module",
       "requirement": "One transparent joint digital/physical mechanism scenario with matched output/quality and demand, evolving digital-improved human/incumbent comparators, identifiable interactions and source-linked assumptions. Labeled scenarios are acceptable when calibration is unsupported.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "research/digital_ecosystem.md",
         "data/digital_evidence.json",
         "research/digital_infrastructure.md",
         "reviews/evidence_review_h_infrastructure.md",
         "research/digital_trajectory_design.md",
-        "reviews/digital_trajectory_design_review.md"
+        "reviews/digital_trajectory_design_review.md",
+        "research/annual_digital_scenarios.md",
+        "model/trajectories.py",
+        "model/results/annual_digital_comparison.json",
+        "reviews/annual_trajectory_review.md"
       ],
       "validation": {
-        "review": "reviews/acceptance_review.md",
-        "finding": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic.",
-        "trajectory_design": "Three independent annual channels and numerical witnesses have an accepted design; no time-varying runner is claimed."
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Three independent annual paths propagate through common-engine costs, ranking, admission, manufacturing demand and operating output. Six exported counterfactuals preserve matched service and interaction identities; all 69,315 old scalar numeric fields match; selected-year trace and browser export/reload verified.",
+        "trajectory_design": "Historical independent design review remains valid for its contract; this implementation received sole-lead checks under the one-agent constraint."
       },
-      "gap": "Engine supplies matched four-way human/digital/robot/joint resource costs with an explicit interaction. Digital efficiency is a scenario setting, not an independent time-evolving digital trajectory; the target economics remain synthetic.",
-      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+      "gap": "Bounded synthetic mechanism met. No empirical path calibration, optimal continuation policy or joint company treasury is established.",
+      "next_action": "Use physical requirement/support evidence and K model architecture terms to constrain a consequential matched-service comparison."
     },
     {
       "requirement_id": "W1-007",
@@ -203,7 +207,7 @@
       "requirement_id": "W1-011",
       "section": "3. Breadth and depth requirements",
       "subsection": "Substantial physical supply, embodiment, quadruped and drone modules",
-      "requirement": "One transparent time-indexed component \u2192 qualified production \u2192 commissioning \u2192 supported fleet scenario and scale-target backcast, integrated with the common engine. Test slower qualification/ramp, constrained supply or service, and a case where another constraint binds. Preserve inventory, yield boundaries, replacement/spare demand, shared allocations, financing and explicit uncertainty.",
+      "requirement": "One transparent time-indexed component → qualified production → commissioning → supported fleet scenario and scale-target backcast, integrated with the common engine. Test slower qualification/ramp, constrained supply or service, and a case where another constraint binds. Preserve inventory, yield boundaries, replacement/spare demand, shared allocations, financing and explicit uncertainty.",
       "status": "met",
       "artifacts": [
         "research/physical_supply_field.md",
@@ -406,7 +410,7 @@
       "requirement_id": "W1-022",
       "section": "6. Deliverables and dashboard behavior",
       "subsection": "Thirteen linked dashboard views",
-      "requirement": "6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical\u2013digital dependencies, rights, costs, and beneficiaries; robot/fleet/site/enterprise roles, ERP/WMS/MES and routing/scheduling interfaces, and separate robotics R&D contributions.",
+      "requirement": "6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries; robot/fleet/site/enterprise roles, ERP/WMS/MES and routing/scheduling interfaces, and separate robotics R&D contributions.",
       "status": "partial",
       "artifacts": [
         "dashboard/app.js",
@@ -689,7 +693,7 @@
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "BR exercised two contrasting cells \u00d7 two years \u00d7 13 views. Shared-pool, fixed-horizon, initial-capability and newco exceptions are explicitly labeled. This validates representative available filters, not absent dimensions or every combination."
+        "finding": "BR exercised two contrasting cells × two years × 13 views. Shared-pool, fixed-horizon, initial-capability and newco exceptions are explicitly labeled. This validates representative available filters, not absent dimensions or every combination."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -891,7 +895,7 @@
       "requirement_id": "W1-SCOPE",
       "section": "Cross-cutting prose obligations",
       "subsection": "",
-      "requirement": "All ten workstreams; 10\u201315 end-market families and explicit residuals",
+      "requirement": "All ten workstreams; 10–15 end-market families and explicit residuals",
       "status": "met",
       "artifacts": [
         "REPORT.md",
@@ -902,7 +906,7 @@
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "A\u2013J have substantive chapter coverage, 15 market families and explicit business/admin/self-employment residuals. Quantified employment coverage is not quantified physical-work coverage."
+        "finding": "A–J have substantive chapter coverage, 15 market families and explicit business/admin/self-employment residuals. Quantified employment coverage is not quantified physical-work coverage."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -982,7 +986,7 @@
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Employment, observed/unknown hours, accepted units, baseline-equivalent hours, payroll avoidance, revenue and consolidated cost are explicitly separated. No employment \u00d7 2,080 conversion or occupational-share automation estimate is accepted."
+        "finding": "Employment, observed/unknown hours, accepted units, baseline-equivalent hours, payroll avoidance, revenue and consolidated cost are explicitly separated. No employment × 2,080 conversion or occupational-share automation estimate is accepted."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1000,15 +1004,19 @@
         "HANDOFF.md",
         "reviews/acceptance_review.md",
         "research/digital_trajectory_design.md",
-        "reviews/digital_trajectory_design_review.md"
+        "reviews/digital_trajectory_design_review.md",
+        "research/annual_digital_scenarios.md",
+        "model/trajectories.py",
+        "model/results/annual_digital_comparison.json",
+        "reviews/annual_trajectory_review.md"
       ],
       "validation": {
-        "review": "reviews/acceptance_review.md",
-        "finding": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models.",
-        "trajectory_design": "Three independent annual channels and numerical witnesses have an accepted design; no time-varying runner is claimed."
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Human efficiency, signed coordination and robot digital-service expense now have separate annual paths. Exogenous capability and funded transfer remain separate. Hardware retrofit diffusion, contract vintages, recovery queues and R&D critical paths remain incomplete.",
+        "trajectory_design": "Historical independent design review remains valid for its contract; this implementation received sole-lead checks under the one-agent constraint."
       },
-      "gap": "Capability, learning, supply, integration and coordination have distinct mechanisms/controls. Digital progress is static per scenario; hardware retrofit diffusion, queue/recovery processes and engineering critical paths lack independent dynamic models.",
-      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+      "gap": "Current-condition lifetime screening, all-vintage software updates and supported-hours learning retain the legacy boundaries; no integrated path-aware finance or hardware/engineering diffusion model.",
+      "next_action": "Design consequential continuation/contract-vintage and hardware/support mechanisms with evidence before extending annual path claims."
     },
     {
       "requirement_id": "W1-WATERFALL",
@@ -1258,12 +1266,102 @@
       },
       "gap": "No first-checkpoint publication gap; verify each subsequent publication separately.",
       "next_action": "Preserve unrelated work and verify normal publication of each accepted continuation."
+    },
+    {
+      "requirement_id": "W1-K-ROSTER",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Late-added frontier robotics-model and economic layer",
+      "requirement": "Dated frontier model/OEM/open ecosystem roster with explicit coverage gaps.",
+      "status": "partial",
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "RESEARCH_ROADMAP.md",
+        "data/question_ledger.json"
+      ],
+      "validation": {
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+      },
+      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
+      "next_action": "Investigate RQ-FM-01/06/07 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+    },
+    {
+      "requirement_id": "W1-K-DOSSIERS",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Late-added frontier robotics-model and economic layer",
+      "requirement": "Three contrasting frontier-model dossiers including Physical Intelligence and Skild AI.",
+      "status": "partial",
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "RESEARCH_ROADMAP.md",
+        "data/question_ledger.json"
+      ],
+      "validation": {
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+      },
+      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
+      "next_action": "Investigate RQ-FM-01/02/05 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+    },
+    {
+      "requirement_id": "W1-K-CARDS",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Late-added frontier robotics-model and economic layer",
+      "requirement": "Linked release, configured deployment and artifact/data-rights cards; preserve training, onboard and inference distinctions.",
+      "status": "partial",
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "RESEARCH_ROADMAP.md",
+        "data/question_ledger.json"
+      ],
+      "validation": {
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+      },
+      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
+      "next_action": "Investigate RQ-FM-02/04/07/09 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+    },
+    {
+      "requirement_id": "W1-K-ARCHITECTURES",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Late-added frontier robotics-model and economic layer",
+      "requirement": "Conditional matched-service comparison of integrated OEM, licensed independent, open adapted and model-led operating architectures, with human/specialized baselines.",
+      "status": "partial",
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "RESEARCH_ROADMAP.md",
+        "data/question_ledger.json"
+      ],
+      "validation": {
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+      },
+      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
+      "next_action": "Investigate RQ-FM-03/05/08 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+    },
+    {
+      "requirement_id": "W1-K-IMPLICATIONS",
+      "section": "3. Breadth and depth requirements",
+      "subsection": "Late-added frontier robotics-model and economic layer",
+      "requirement": "At least three evidence-backed changes to existing workstream questions or strategic conclusions; join findings into the existing thirteen views.",
+      "status": "partial",
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "RESEARCH_ROADMAP.md",
+        "data/question_ledger.json"
+      ],
+      "validation": {
+        "review": "reviews/annual_trajectory_review.md",
+        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+      },
+      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
+      "next_action": "Investigate RQ-FM-10 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
     }
   ],
   "status_counts": {
-    "met": 47,
-    "partial": 17,
+    "met": 48,
+    "partial": 21,
     "unmet": 0
   },
-  "publication_cutoff_note": "Independent first-cutoff review retains its historical pending-publication judgment. The lead subsequently verified first-checkpoint publication; exact repository revisions and push receipts remain ignored operational records."
+  "publication_cutoff_note": "Original campaign ongoing. Annual-path implementation verified by the sole lead. Five conditional K targets added to the register; their research remains OPEN. Publication receipts live in sync_receipt.json."
 }

@@ -1,8 +1,8 @@
-# Executable mechanism model, edition 0.1
+# Executable mechanism model, version 0.2.0
 
 This is an executable, uncalibrated mechanism model, not a forecast of robot adoption or a unit-economics estimate for any named product. Every numerical model input in `assumptions.json` is synthetic. The model's purpose is to expose accounting constraints and consequential assumptions while empirical evidence is assembled. Its 72 constructed sites never enter observed employment totals. `model/evidence.py` separately derives observed atlas statistics from saved official-statistics rows, including all 15 family crosswalks and residuals.
 
-The authoritative scenario function is `model.engine.run_scenario(overrides, preset)`. The local HTTP API, dashboard and exported JSON/CSV all call that function. There is no independent spreadsheet or browser economic calculator. The browser performs display formatting, selection and compatible-row aggregation. The engine also supplies embodiment comparison costs. Scenario IDs include the engine source hash, assumption catalog and effective parameters. Evidence-package hashes are recorded separately because the quantitative model is not calibrated from those sources.
+The authoritative scenario function is `model.engine.run_scenario(overrides, preset, digital_paths=None)`. The local HTTP API, dashboard and exported JSON/CSV all call that function. There is no independent spreadsheet or browser economic calculator. The browser performs display formatting, selection and compatible-row aggregation. The engine also supplies embodiment comparison costs. Scenario IDs include the engine and trajectory-resolver source hashes, assumption catalog, scalar inputs and complete resolved annual paths. Evidence-package hashes are recorded separately because the quantitative model is not calibrated from those sources.
 
 ## Units, populations and dates
 
@@ -37,9 +37,19 @@ The 2 × 2 table uses annual **resource/opportunity cost**, not observed cash sa
 | C10 | Robot-assisted operation with required embedded software, without the additional digital intervention |
 | C11 | Combined system with changed human time, coordination and digital operating expense |
 
-`C01 − C11` is robotics value against the digital-improved baseline. `C11 − C10 − C01 + C00` is the cost interaction; negative means complementary cost savings. The contrast is not a causal estimate. Digital assumptions can improve the incumbent enough to reduce robot adoption. The table is a final-horizon reference using exogenous capability, without the optional learned increment; its scope is labeled in the dashboard. Annual cohort economics use the actual period's modeled capability.
+`C01 − C11` is robotics value against the digital-improved baseline. `C11 − C10 − C01 + C00` is the cost interaction; negative means complementary cost savings. The contrast is not a causal estimate. Digital assumptions can improve the incumbent enough to reduce robot adoption. The table follows the selected calendar year, using its resolved digital conditions and exogenous capability without the optional learned increment. The `joint` export remains a final-year alias; `joint_by_year` contains every annual reference. Annual fleet economics use the actual period's modeled capability, including its separately funded learned increment.
 
 Observed payroll removed remains null. A separate, visible `labor_avoidability` assumption determines the fraction of released labor value treated as avoided customer cash. Default 0.75 is illustrative. At zero avoidability, labor-time release alone does not satisfy the customer cash/payback gate. No demand-revenue credit or information-value premium silently fills the difference.
+
+## Annual digital levels and reference boundaries
+
+`digital_paths` uses schema `digital-annual-paths/0.1`, the catalog base year and `epistemic_status: synthetic_assumption`. Optional channel arrays are `digital_efficiency` (0–0.6), `coordination` (−0.4–0.6) and `digital_cost_usd` (0–20,000 constant-2026 USD per supported robot-year). Every supplied array must have exactly `years` finite numeric levels. Booleans, nulls, extra fields, wrong years/versions and invalid late periods are rejected before calculation. No interpolation, extrapolation, compounding or last-value carry is allowed. An omitted channel repeats its scalar; a supplied channel replaces that scalar in every period.
+
+The same resolved parameters drive each year's economic ranking, eligibility, planned manufacturing demand, operation and released human hours. Baseline-equivalent hours retain the fixed original activity denominator. Digital paths do not directly change capability, hardware, learning or component capacity. They can change admission and hence subsequent supported exposure. `reference_scopes` records inherited limitations: all compatible installed vintages receive current software/price conditions for free; supported available hours can accrue despite an economic output cap; admission and lifetime-margin tests extrapolate current conditions rather than valuing the future path.
+
+One-site lifetime commercial references freeze initial capability and resolved year-zero digital conditions. The normalized monthly entrant, fixed-target backcast and isolated treasury/monthly experiments have no new path linkage. Annual funding envelopes still refresh exogenously. Consequently no joint company cash feasibility or optimal continuation policy is established.
+
+The [annual analysis](../research/annual_digital_scenarios.md) connects six engine-generated counterfactuals to decisions. The [implementation audit](../reviews/annual_trajectory_review.md) records exact 0.1.1 scalar compatibility and sole-lead verification. The earlier [design](../research/digital_trajectory_design.md) and independent design review are preserved as historical contracts, not silently relabeled implementation reviews.
 
 ## Conditional deployment and shared resources
 

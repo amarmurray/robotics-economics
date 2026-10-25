@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const io=require('../dashboard/scenario_io.js');
+const fields={digital_efficiency:'0.15, 0.25, 0.35',coordination:'0.2, -0.4, 0.2',digital_cost_usd:'500, 2000, 500'};
+const path=io.annualPaths(2026,fields);
+assert.deepEqual(path.coordination,[.2,-.4,.2]);
+assert.deepEqual(path.digital_cost_usd,[500,2000,500]);
+assert.equal(io.annualPaths(2026,{}),null);
+assert.equal(Object.hasOwn(io.annualPaths(2026,{coordination:'0, 0, 0'}),'digital_efficiency'),false);
+for(const value of ['1,,2','1,','1, NaN','1, Infinity','1, false','[1,2]'])assert.throws(()=>io.annualPaths(2026,{coordination:value}));
+const presets={reference:{}};
+const saved={preset:'reference',parameters:{years:3.0},digital_paths:path,resolved_digital_paths:{}};
+assert.deepEqual(io.savedInput(JSON.parse(JSON.stringify(saved)),presets),{preset:'reference',overrides:{years:3},digital_paths:path});
+assert.deepEqual(io.savedInput({preset:'reference',parameters:{years:4}},presets),{preset:'reference',overrides:{years:4},digital_paths:null});
+assert.throws(()=>io.savedInput({...saved,preset:'missing'},presets));
+assert.throws(()=>io.savedInput({resolved_digital_paths:{}},presets));
+assert.throws(()=>io.savedInput({parameters:[]},presets));
+console.log('15 annual input/import assertions passed');

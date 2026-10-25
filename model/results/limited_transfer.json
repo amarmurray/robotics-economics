@@ -657,6 +657,7 @@
     "ready_delay_years": 1,
     "site_cash_limit_usd": 120000
   },
+  "digital_paths": null,
   "embodiment_comparisons": [
     {
       "assumptions": "Specialized total cost = digital human resource cost \u00d7 explicit cell factor + 5000 annual capital allowance. Mixed system splits output and entire process cost 50:50; no duplicated full-output benefits. Neither comparison is a measured feasible configured design.",
@@ -731,7 +732,7 @@
       "unit": "constant 2026 USD/site/year at matched output"
     }
   ],
-  "engine_sha256": "0c35c6f2602d29a60a6bc187c013c0e4dd9a3597064cf67bed5a1ecc616a8d07",
+  "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
   "evidence_package_index": {
     "path": "data/package_index.json",
     "schema_version": "accepted-evidence-packages/1.0",
@@ -763,6 +764,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 32999.58952380953,
@@ -790,6 +794,7 @@
           "robot_accepted_units": 2979.0476190476193,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -909,6 +914,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 26847.9,
@@ -936,6 +944,7 @@
           "robot_accepted_units": 2234.285714285714,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -1055,6 +1064,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 21207.44571428572,
@@ -1082,6 +1094,7 @@
           "robot_accepted_units": 11916.190476190477,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -1201,6 +1214,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 19726.11428571429,
@@ -1228,6 +1244,7 @@
           "robot_accepted_units": 3723.809523809524,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -1347,6 +1364,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 15737.914285714292,
@@ -1374,6 +1394,7 @@
           "robot_accepted_units": 17874.285714285714,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -1493,6 +1514,9 @@
         "capability": 0.8,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 11179.971428571434,
@@ -1520,6 +1544,7 @@
           "robot_accepted_units": 4468.571428571428,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 0,
@@ -1637,6 +1662,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 34366.97238095238,
@@ -1664,6 +1692,7 @@
           "robot_accepted_units": 3072.142857142857,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -1783,6 +1812,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 28049.70133928571,
@@ -1810,6 +1842,7 @@
           "robot_accepted_units": 2304.1071428571427,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -1927,6 +1960,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 22232.98285714286,
@@ -1954,6 +1990,7 @@
           "robot_accepted_units": 12288.571428571428,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -2071,6 +2108,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 20705.35982142858,
@@ -2098,6 +2138,7 @@
           "robot_accepted_units": 3840.1785714285716,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -2215,6 +2256,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 16592.52857142857,
@@ -2242,6 +2286,7 @@
           "robot_accepted_units": 18432.85714285714,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -2361,6 +2406,9 @@
         "capability": 0.8250000000000001,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 11892.150000000003,
@@ -2388,6 +2436,7 @@
           "robot_accepted_units": 4608.214285714285,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8250000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 1,
@@ -2505,6 +2554,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 35734.355238095246,
@@ -2532,6 +2584,7 @@
           "robot_accepted_units": 3165.2380952380954,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -2649,6 +2702,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 29251.50267857143,
@@ -2676,6 +2732,7 @@
           "robot_accepted_units": 2373.928571428571,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -2793,6 +2850,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 23258.52000000001,
@@ -2820,6 +2880,7 @@
           "robot_accepted_units": 12660.952380952382,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -2937,6 +2998,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 21684.60535714287,
@@ -2964,6 +3028,7 @@
           "robot_accepted_units": 3956.5476190476193,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -3081,6 +3146,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 17447.142857142862,
@@ -3108,6 +3176,7 @@
           "robot_accepted_units": 18991.42857142857,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -3227,6 +3296,9 @@
         "capability": 0.8500000000000001,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 12604.328571428572,
@@ -3254,6 +3326,7 @@
           "robot_accepted_units": 4747.857142857142,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.8500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0,
         "period_index": 2,
@@ -3371,6 +3444,9 @@
         "capability": 0.8762952380952381,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 37172.581549931965,
@@ -3398,6 +3474,7 @@
           "robot_accepted_units": 3263.1565532879813,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0012952380952380952,
         "period_index": 3,
@@ -3515,6 +3592,9 @@
         "capability": 0.8788857142857143,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 3.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 30640.098283163265,
@@ -3542,6 +3622,7 @@
           "robot_accepted_units": 2454.602244897959,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 3.0,
         "learning_increment": 0.0038857142857142857,
         "period_index": 3,
@@ -3659,6 +3740,9 @@
         "capability": 0.8788857142857143,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 24443.454915918366,
@@ -3686,6 +3770,7 @@
           "robot_accepted_units": 13091.211972789115,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0038857142857142857,
         "period_index": 3,
@@ -3803,6 +3888,9 @@
         "capability": 0.8788857142857143,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 22816.053627551024,
@@ -3830,6 +3918,7 @@
           "robot_accepted_units": 4091.003741496598,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0038857142857142857,
         "period_index": 3,
@@ -3947,6 +4036,9 @@
         "capability": 0.8788857142857143,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 18434.58862040817,
@@ -3974,6 +4066,7 @@
           "robot_accepted_units": 19636.81795918367,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.0038857142857142857,
         "period_index": 3,
@@ -4093,6 +4186,9 @@
         "capability": 0.8788857142857143,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 13427.200040816328,
@@ -4120,6 +4216,7 @@
           "robot_accepted_units": 4909.204489795918,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.875,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.0038857142857142857,
         "period_index": 3,
@@ -4239,6 +4336,9 @@
         "capability": 0.9051809523809524,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 38752.49477115646,
@@ -4266,6 +4366,7 @@
           "robot_accepted_units": 3370.721451247165,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.005180952380952381,
         "period_index": 4,
@@ -4383,6 +4484,9 @@
         "capability": 0.9165142857142857,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 3.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 32448.980984693873,
@@ -4410,6 +4514,7 @@
           "robot_accepted_units": 2559.6934693877547,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 3.0,
         "learning_increment": 0.016514285714285714,
         "period_index": 4,
@@ -4529,6 +4634,9 @@
         "capability": 0.9165142857142857,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 25987.034821224493,
@@ -4556,6 +4664,7 @@
           "robot_accepted_units": 13651.698503401361,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.016514285714285714,
         "period_index": 4,
@@ -4675,6 +4784,9 @@
         "capability": 0.9165142857142857,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 24289.958051020418,
@@ -4702,6 +4814,7 @@
           "robot_accepted_units": 4266.155782312925,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.016514285714285714,
         "period_index": 4,
@@ -4821,6 +4934,9 @@
         "capability": 0.9165142857142857,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 19720.90520816327,
@@ -4848,6 +4964,7 @@
           "robot_accepted_units": 20477.547755102038,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.016514285714285714,
         "period_index": 4,
@@ -4965,6 +5082,9 @@
         "capability": 0.9165142857142857,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 3.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 14499.13053061225,
@@ -4992,6 +5112,7 @@
           "robot_accepted_units": 5119.386938775509,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9,
         "expansion_commissioned": 3.0,
         "learning_increment": 0.016514285714285714,
         "period_index": 4,
@@ -5111,6 +5232,9 @@
         "capability": 0.9360095238095238,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 40438.67317442177,
@@ -5138,6 +5262,7 @@
           "robot_accepted_units": 3485.5211791383217,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.01100952380952381,
         "period_index": 5,
@@ -5255,6 +5380,9 @@
         "capability": 0.9628857142857143,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 34678.15078316326,
@@ -5282,6 +5410,7 @@
           "robot_accepted_units": 2689.2022448979587,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.037885714285714286,
         "period_index": 5,
@@ -5401,6 +5530,9 @@
         "capability": 0.9628857142857143,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 27889.25971591837,
@@ -5428,6 +5560,7 @@
           "robot_accepted_units": 14342.411972789116,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.037885714285714286,
         "period_index": 5,
@@ -5547,6 +5680,9 @@
         "capability": 0.9628857142857143,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 26106.31862755103,
@@ -5574,6 +5710,7 @@
           "robot_accepted_units": 4482.003741496599,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.037885714285714286,
         "period_index": 5,
@@ -5693,6 +5830,9 @@
         "capability": 0.9628857142857143,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 21306.09262040817,
@@ -5720,6 +5860,7 @@
           "robot_accepted_units": 21513.61795918367,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.037885714285714286,
         "period_index": 5,
@@ -5837,6 +5978,9 @@
         "capability": 0.9628857142857143,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 4.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 15820.120040816333,
@@ -5864,6 +6008,7 @@
           "robot_accepted_units": 5378.4044897959175,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.925,
         "expansion_commissioned": 4.0,
         "learning_increment": 0.037885714285714286,
         "period_index": 5,
@@ -5983,6 +6128,9 @@
         "capability": 0.9674857142857144,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 42160.27330503402,
@@ -6010,6 +6158,7 @@
           "robot_accepted_units": 3602.732517006803,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.017485714285714285,
         "period_index": 6,
@@ -6129,6 +6278,9 @@
         "capability": 0.9900000000000001,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 2.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 35981.59017857143,
@@ -6156,6 +6308,7 @@
           "robot_accepted_units": 2764.928571428571,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 2.0,
         "learning_increment": 0.04,
         "period_index": 6,
@@ -6275,6 +6428,9 @@
         "capability": 0.9900000000000001,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 29001.528000000006,
@@ -6302,6 +6458,7 @@
           "robot_accepted_units": 14746.285714285716,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 6,
@@ -6421,6 +6578,9 @@
         "capability": 0.9900000000000001,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 27168.380357142873,
@@ -6448,6 +6608,7 @@
           "robot_accepted_units": 4608.214285714286,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 6,
@@ -6567,6 +6728,9 @@
         "capability": 0.9900000000000001,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 22232.98285714286,
@@ -6594,6 +6758,7 @@
           "robot_accepted_units": 22119.42857142857,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 6,
@@ -6713,6 +6878,9 @@
         "capability": 0.9900000000000001,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 3.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 16592.52857142857,
@@ -6740,6 +6908,7 @@
           "robot_accepted_units": 5529.857142857142,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9500000000000001,
         "expansion_commissioned": 3.0,
         "learning_increment": 0.04,
         "period_index": 6,
@@ -6859,6 +7028,9 @@
         "capability": 0.9989619047619048,
         "cell_id": "CELL-M03-utility-inspection-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4000,
           "annual_customer_cash_gain_before_capex_usd": 43881.87343564625,
@@ -6886,6 +7058,7 @@
           "robot_accepted_units": 3719.9438548752833,
           "system_resource_capital_usd": 30866.666666666664
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.023961904761904764,
         "period_index": 7,
@@ -7005,6 +7178,9 @@
         "capability": 1,
         "cell_id": "CELL-M04-construction-install-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 3200,
           "annual_customer_cash_gain_before_capex_usd": 36462.31071428571,
@@ -7032,6 +7208,7 @@
           "robot_accepted_units": 2792.8571428571427,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 7,
@@ -7149,6 +7326,9 @@
         "capability": 1,
         "cell_id": "CELL-M05-auto-assembly-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 16000,
           "annual_customer_cash_gain_before_capex_usd": 29411.742857142854,
@@ -7176,6 +7356,7 @@
           "robot_accepted_units": 14895.238095238094,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 7,
@@ -7293,6 +7474,9 @@
         "capability": 1,
         "cell_id": "CELL-M10-hospital-logistics-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 4800,
           "annual_customer_cash_gain_before_capex_usd": 27560.07857142858,
@@ -7320,6 +7504,7 @@
           "robot_accepted_units": 4654.761904761905,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 7,
@@ -7439,6 +7624,9 @@
         "capability": 1,
         "cell_id": "CELL-M08-3pl-tote-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 24000,
           "annual_customer_cash_gain_before_capex_usd": 22574.828571428574,
@@ -7466,6 +7654,7 @@
           "robot_accepted_units": 22342.85714285714,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 7,
@@ -7585,6 +7774,9 @@
         "capability": 1,
         "cell_id": "CELL-M11-floor-cleaning-US-2025",
         "commissioned": 0.0,
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15,
         "economics": {
           "accepted_units": 6000,
           "annual_customer_cash_gain_before_capex_usd": 16877.4,
@@ -7612,6 +7804,7 @@
           "robot_accepted_units": 5585.714285714285,
           "system_resource_capital_usd": 44200.0
         },
+        "exogenous_capability": 0.9750000000000001,
         "expansion_commissioned": 0.0,
         "learning_increment": 0.04,
         "period_index": 7,
@@ -8356,7 +8549,7 @@
           "SYN-Q": 27523.809523809523
         },
         "learning_validation_cash_usd": 40000.0,
-        "released_human_hours": 58459.45069836735,
+        "released_human_hours": 58459.45069836734,
         "resource_budgets": {
           "customer_capital_usd": 2400000,
           "integration_hours": 2400,
@@ -8539,6 +8732,688 @@
       "unit": "constant 2026 USD/site/year at matched accepted output"
     }
   ],
+  "joint_by_year": [
+    {
+      "capability": 0.8,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 41791.99999999999,
+          "C11": 34531.17714285714,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2507.1771428571374,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 34588.82285714286,
+          "robotics_saving_on_digital_baseline": 24820.822857142863,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 37732.57142857143,
+          "C11": 32031.885714285716,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2339.314285714281,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 25568.114285714284,
+          "robotics_saving_on_digital_baseline": 17528.11428571429,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 34349.71428571428,
+          "C11": 29949.14285714286,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2199.428571428565,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 18050.85714285714,
+          "robotics_saving_on_digital_baseline": 11450.857142857149,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 38052.57142857142,
+          "C11": 31610.285714285714,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2461.71428571429,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 31749.714285714286,
+          "robotics_saving_on_digital_baseline": 22845.714285714294,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 51378.28571428571,
+          "C11": 41698.57142857143,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2680.28571428571,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 44701.42857142857,
+          "robotics_saving_on_digital_baseline": 32341.428571428572,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 46502.38095238094,
+          "C11": 36121.283809523804,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 2842.9028571428644,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 56038.716190476196,
+          "robotics_saving_on_digital_baseline": 42814.716190476196,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 0,
+      "scope": "exogenous_capability_reference",
+      "year": 2026
+    },
+    {
+      "capability": 0.8250000000000001,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 40393.142857142855,
+          "C11": 33163.79428571429,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2538.6514285714366,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 35956.20571428571,
+          "robotics_saving_on_digital_baseline": 26188.20571428571,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 36566.85714285714,
+          "C11": 30892.4,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2365.5428571428565,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 26707.6,
+          "robotics_saving_on_digital_baseline": 18667.600000000006,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 33378.28571428571,
+          "C11": 28999.57142857143,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2221.28571428571,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 19000.42857142857,
+          "robotics_saving_on_digital_baseline": 12400.428571428576,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 36716.85714285714,
+          "C11": 30304.625,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2491.767857142855,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 33055.375,
+          "robotics_saving_on_digital_baseline": 24151.375000000007,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 49738.99999999999,
+          "C11": 40096.169642857145,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2717.1696428571595,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 46303.830357142855,
+          "robotics_saving_on_digital_baseline": 33943.830357142855,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 44637.23809523809,
+          "C11": 34298.106666666674,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 2884.868571428582,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 57861.893333333326,
+          "robotics_saving_on_digital_baseline": 44637.893333333326,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 1,
+      "scope": "exogenous_capability_reference",
+      "year": 2027
+    },
+    {
+      "capability": 0.8500000000000001,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 38994.28571428571,
+          "C11": 31796.411428571424,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2570.1257142857066,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 37323.588571428576,
+          "robotics_saving_on_digital_baseline": 27555.588571428576,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 35401.142857142855,
+          "C11": 29752.91428571429,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2391.771428571432,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 27847.08571428571,
+          "robotics_saving_on_digital_baseline": 19807.085714285717,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 32406.857142857145,
+          "C11": 28050.000000000004,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2243.142857142855,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 19949.999999999996,
+          "robotics_saving_on_digital_baseline": 13350.000000000004,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 35381.142857142855,
+          "C11": 28998.964285714283,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2521.8214285714203,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 34361.03571428572,
+          "robotics_saving_on_digital_baseline": 25457.035714285725,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 48099.71428571428,
+          "C11": 38493.76785714286,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2754.0535714285797,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 47906.23214285714,
+          "robotics_saving_on_digital_baseline": 35546.23214285714,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 42772.09523809523,
+          "C11": 32474.92952380952,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 2926.834285714285,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 59685.07047619048,
+          "robotics_saving_on_digital_baseline": 46461.07047619048,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 2,
+      "scope": "exogenous_capability_reference",
+      "year": 2028
+    },
+    {
+      "capability": 0.875,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 37595.428571428565,
+          "C11": 30429.02857142857,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2601.600000000006,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 38690.97142857143,
+          "robotics_saving_on_digital_baseline": 28922.97142857143,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 34235.42857142857,
+          "C11": 28613.428571428572,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2417.9999999999927,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 28986.571428571428,
+          "robotics_saving_on_digital_baseline": 20946.571428571435,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 31435.428571428572,
+          "C11": 27100.428571428572,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2264.9999999999927,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 20899.571428571428,
+          "robotics_saving_on_digital_baseline": 14299.571428571435,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 34045.428571428565,
+          "C11": 27693.303571428572,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2551.875,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 35666.69642857143,
+          "robotics_saving_on_digital_baseline": 26762.696428571435,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 46460.42857142857,
+          "C11": 36891.36607142857,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2790.9375,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 49508.63392857143,
+          "robotics_saving_on_digital_baseline": 37148.63392857143,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 40906.952380952374,
+          "C11": 30651.75238095238,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 2968.800000000003,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 61508.247619047615,
+          "robotics_saving_on_digital_baseline": 48284.247619047615,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 3,
+      "scope": "exogenous_capability_reference",
+      "year": 2029
+    },
+    {
+      "capability": 0.9,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 36196.57142857143,
+          "C11": 29061.645714285718,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2633.0742857142905,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 40058.35428571428,
+          "robotics_saving_on_digital_baseline": 30290.354285714282,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 33069.71428571428,
+          "C11": 27473.942857142858,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2444.228571428568,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 30126.057142857142,
+          "robotics_saving_on_digital_baseline": 22086.05714285715,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 30464.0,
+          "C11": 26150.857142857145,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2286.8571428571377,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 21849.142857142855,
+          "robotics_saving_on_digital_baseline": 15249.142857142862,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 32709.714285714283,
+          "C11": 26387.64285714285,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2581.928571428565,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 36972.357142857145,
+          "robotics_saving_on_digital_baseline": 28068.357142857156,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 44821.142857142855,
+          "C11": 35288.96428571429,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2827.821428571435,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 51111.03571428571,
+          "robotics_saving_on_digital_baseline": 38751.03571428571,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 39041.80952380953,
+          "C11": 28828.575238095244,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 3010.7657142857206,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 63331.42476190475,
+          "robotics_saving_on_digital_baseline": 50107.42476190475,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 4,
+      "scope": "exogenous_capability_reference",
+      "year": 2030
+    },
+    {
+      "capability": 0.925,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 34797.71428571428,
+          "C11": 27694.262857142854,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2664.548571428575,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 41425.73714285715,
+          "robotics_saving_on_digital_baseline": 31657.737142857146,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 31904.0,
+          "C11": 26334.457142857147,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2470.457142857136,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 31265.542857142853,
+          "robotics_saving_on_digital_baseline": 23225.54285714286,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 29492.571428571428,
+          "C11": 25201.285714285717,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2308.7142857142826,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 22798.714285714283,
+          "robotics_saving_on_digital_baseline": 16198.71428571429,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 31373.999999999996,
+          "C11": 25081.982142857145,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2611.982142857145,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 38278.017857142855,
+          "robotics_saving_on_digital_baseline": 29374.017857142862,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 43181.85714285714,
+          "C11": 33686.56250000001,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2864.7053571428696,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 52713.43749999999,
+          "robotics_saving_on_digital_baseline": 40353.43749999999,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 37176.666666666664,
+          "C11": 27005.39809523809,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 3052.7314285714237,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 65154.601904761905,
+          "robotics_saving_on_digital_baseline": 51930.601904761905,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 5,
+      "scope": "exogenous_capability_reference",
+      "year": 2031
+    },
+    {
+      "capability": 0.9500000000000001,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 33398.85714285713,
+          "C11": 26326.879999999997,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2696.0228571428743,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 42793.12,
+          "robotics_saving_on_digital_baseline": 33025.12,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 30738.28571428571,
+          "C11": 25194.97142857143,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2496.6857142857116,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 32405.02857142857,
+          "robotics_saving_on_digital_baseline": 24365.02857142858,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 28521.142857142855,
+          "C11": 24251.714285714283,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2330.5714285714203,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 23748.285714285717,
+          "robotics_saving_on_digital_baseline": 17148.285714285725,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 30038.28571428571,
+          "C11": 23776.32142857143,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2642.03571428571,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 39583.678571428565,
+          "robotics_saving_on_digital_baseline": 30679.678571428576,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 41542.57142857142,
+          "C11": 32084.16071428571,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2901.58928571429,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 54315.83928571429,
+          "robotics_saving_on_digital_baseline": 41955.83928571429,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 35311.5238095238,
+          "C11": 25182.220952380947,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 3094.6971428571414,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 66977.77904761906,
+          "robotics_saving_on_digital_baseline": 53753.77904761906,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 6,
+      "scope": "exogenous_capability_reference",
+      "year": 2032
+    },
+    {
+      "capability": 0.9750000000000001,
+      "comparisons": [
+        {
+          "C00": 69120.0,
+          "C01": 59352.0,
+          "C10": 31999.999999999993,
+          "C11": 24959.49714285714,
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "cost_interaction": 2727.4971428571444,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 44160.502857142856,
+          "robotics_saving_on_digital_baseline": 34392.502857142856,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 57600.0,
+          "C01": 49560.00000000001,
+          "C10": 29572.571428571424,
+          "C11": 24055.485714285714,
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "cost_interaction": 2522.914285714287,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 33544.514285714286,
+          "robotics_saving_on_digital_baseline": 25504.514285714293,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 48000.0,
+          "C01": 41400.00000000001,
+          "C10": 27549.714285714283,
+          "C11": 23302.14285714286,
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "cost_interaction": 2352.428571428565,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 24697.85714285714,
+          "robotics_saving_on_digital_baseline": 18097.85714285715,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 63360.0,
+          "C01": 54456.00000000001,
+          "C10": 28702.57142857142,
+          "C11": 22470.660714285706,
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "cost_interaction": 2672.0892857142753,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 40889.33928571429,
+          "robotics_saving_on_digital_baseline": 31985.3392857143,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 86400.0,
+          "C01": 74040.0,
+          "C10": 39903.2857142857,
+          "C11": 30481.758928571428,
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "cost_interaction": 2938.4732142857247,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 55918.24107142857,
+          "robotics_saving_on_digital_baseline": 43558.24107142857,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        },
+        {
+          "C00": 92160.0,
+          "C01": 78936.0,
+          "C10": 33446.38095238095,
+          "C11": 23359.043809523806,
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "cost_interaction": 3136.662857142859,
+          "interpretation": "Negative cost interaction means complementary savings; positive means overlap or added cost. Scenario contrast, not causal estimate.",
+          "joint_saving": 68800.9561904762,
+          "robotics_saving_on_digital_baseline": 55576.956190476194,
+          "unit": "constant 2026 USD/site/year at matched accepted output"
+        }
+      ],
+      "effective_digital_parameters": {
+        "coordination": 0.15,
+        "digital_cost_usd": 1500,
+        "digital_efficiency": 0.15
+      },
+      "period_index": 7,
+      "scope": "exogenous_capability_reference",
+      "year": 2033
+    }
+  ],
   "limitations": [
     "No model coefficient is a calibrated market estimate; all synthetic cells are excluded from empirical labor totals.",
     "Site eligibility uses constructed matched cohorts, not products of independent gate shares.",
@@ -8553,7 +9428,11 @@
     "empirical_aggregate_inclusion": false,
     "geography": "US illustrative deployment pool; no national extrapolation"
   },
-  "model_version": "0.1.1",
+  "model_source_hashes": {
+    "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+    "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+  },
+  "model_version": "0.2.0",
   "newco": {
     "assumptions": {
       "acquisition_premium_usd": 250000,
@@ -9394,7 +10273,58 @@
     "years": 8
   },
   "preset": "limited_transfer",
-  "scenario_hash": "a32acfe7ee6c2b99a044424906e79cf274f3c1929ba6da4444c1b9bbcdcfe3cb",
-  "schema_version": "robotics-economics-model/0.1",
+  "reference_scopes": {
+    "backcast": "Fixed-target necessary-condition resource witness; no annual digital-path linkage",
+    "capital": "Exogenous nonrevolving annual allowances; no path-aware provider treasury",
+    "commercial": "Initial capability and resolved year-zero digital conditions held over life; not a path cash forecast",
+    "installed_vintage": "current_conditions_all_installed_legacy; no upgrade cost or compatibility diffusion",
+    "joint": "Final-year alias of joint_by_year; exogenous capability, no learned increment",
+    "learning_exposure": "Supported available robot-hours, not accepted-service hours or validated training yield",
+    "newco": "Separate monthly normalized entrant case; no annual digital-path linkage",
+    "output_gate": "Current acquisition/payback eligibility also caps existing output; not optimal continuation policy"
+  },
+  "resolved_digital_paths": {
+    "base_year": 2026,
+    "coordination": [
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "digital_cost_usd": [
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500
+    ],
+    "digital_efficiency": [
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "epistemic_status": "synthetic_assumption",
+    "precedence": "Supplied annual levels replace scalars; omitted channels repeat scalars.",
+    "schema_version": "digital-annual-paths/0.1",
+    "units": {
+      "coordination": "proportional change in accepted robot capacity before the site cap",
+      "digital_cost_usd": "constant 2026 USD per supported full robot-year; additional service bundle",
+      "digital_efficiency": "fraction of baseline human hours removed at matched service"
+    }
+  },
+  "scenario_hash": "461199bd05277dcf348d40ee1a2bc7fa8747ae58f2b21e8dff8065080708f2a9",
+  "schema_version": "robotics-economics-model/0.2",
   "status": "synthetic_illustration"
 }
