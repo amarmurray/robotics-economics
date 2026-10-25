@@ -1,8 +1,8 @@
 # Robotics economics research roadmap
 
-Version 1.5 · Campaign in progress, 25 October 2026. The 55 stable questions remain the continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
+Version 1.6 · Campaign in progress, 25 October 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 
-[RESEARCH_PROGRAM_DESIGN.md](RESEARCH_PROGRAM_DESIGN.md) defines the program. [WEEK_ONE_RESEARCH_SPEC.md](WEEK_ONE_RESEARCH_SPEC.md) defines the initial report, dashboard, and supporting artifacts. This roadmap supplies the continuing question portfolio. [LLM_ECOSYSTEM_RESEARCH_MODULE.md](LLM_ECOSYSTEM_RESEARCH_MODULE.md) specifies substantial Workstream H. [ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md](ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md) and [QUADRUPED_AND_DRONE_RESEARCH_MODULE.md](QUADRUPED_AND_DRONE_RESEARCH_MODULE.md) specify substantial I/J and their connections to the rest of the program.
+[RESEARCH_PROGRAM_DESIGN.md](RESEARCH_PROGRAM_DESIGN.md) defines the program. [WEEK_ONE_RESEARCH_SPEC.md](WEEK_ONE_RESEARCH_SPEC.md) defines the initial report, dashboard, and supporting artifacts. This roadmap supplies the continuing question portfolio. [LLM_ECOSYSTEM_RESEARCH_MODULE.md](LLM_ECOSYSTEM_RESEARCH_MODULE.md) specifies substantial Workstream H. [ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md](ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md) and [QUADRUPED_AND_DRONE_RESEARCH_MODULE.md](QUADRUPED_AND_DRONE_RESEARCH_MODULE.md) specify substantial I/J and their connections to the rest of the program. [FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md](FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md) specifies independent and integrated frontier robotics models as Workstream K.
 
 Research begins with end markets, value chains, and physical labor organization. Task decomposition supports measurement and explanations; a warehouse case is not a prerequisite for broader investigation.
 
@@ -127,9 +127,26 @@ Use common actor and cohort IDs across OS and BM. A provider can also be an oper
 | RQ-DR-02: Which drone supply-chain, platform, openness and value-capture mechanisms transfer to robotics? | Learn from manufacturing, components, software, channels, operators and concentration without asserting identical industry structure. | Source/target mechanism cards with common inputs and incompatible grades/requirements, rights, competing explanations, predictions and falsifiers. | W1 transfer/nontransfer tests with SC-01/06/08, BM-04 and DR-01; deeper when target evidence justifies parameter or structure changes. |
 | RQ-DR-03: Where do aerial and ground robots substitute, complement, coordinate or exchange useful data? | Inform future mixed physical-digital organizations and deployment order. | Matched outcome comparison or explicit complementary workflow; scheduling/supervision/interfaces, human response, learning limits and conserved benefits. | W1 bounded hypotheses with SC-04, QD-02, DR-01 and FD-01/02; at least four I/J transfer tests overall, including a limited/failed candidate. Deeper with integrated field evidence. |
 
+## 11. Frontier robotics models and intelligence-layer economics
+
+New, user-authorized Workstream K during the existing campaign. Preserve the original research clock and one-agent usage limit; this scope is high-priority but does not retroactively establish empirical findings.
+
+| Question | Decision relevance | Evidence/method | Boundary and completion |
+| --- | --- | --- | --- |
+| RQ-FM-01: Which labs and firms occupy which frontier robotics-model and deployment roles? | Identify the economic industry structure rather than a publicity roster. | Build global dated actor/model/OEM/customer/rights/distribution map; separate transactions, partners, model releases and operating use. | W1 bounded roster with role and coverage uncertainty. Links BM-01/03, LLM-07, SC-03. |
+| RQ-FM-02: What training, data and evaluation mechanisms actually improve cross-task and cross-embodiment policies? | Constrain capability/scaling and transfer assumptions. | Analyze physical/human/synthetic data, RL, prompting, compute, held-out quality, duration, adaptation costs and negative transfer. | W1 evidence/response cards; deeper with comparable versioned data. Links HC-02/04, DL-02/03. |
+| RQ-FM-03: How do independent, integrated and open model architectures affect complete operating cost and reliability? | Translate policies into viable customer services. | Compare inference, model fee, onboard/remote compute, integration, supervision, accepted throughput and validation at matched service. | W1 mechanism case; no unobserved operating calibration. Links FD-01, SC-01, BM-01. |
+| RQ-FM-04: Who can access and reuse embodied data, policy fine-tunes and operating feedback? | Determine data network feasibility and who captures learning benefits. | Trace customer/OEM/lab/deployer rights, quality, reuse, training, validated improvements and diffusion. | W1 rights/learning map; deeper with contracts. Links DL-01, OS-02, BM-02. |
+| RQ-FM-05: Which model-lab commercial structures retain durable economic value? | Test margins, pricing, specialization and integration. | Compare subscriptions/API, license, support, services, open models, bundled OEM, model-led deployco, acquisition and JV. | W1 conditional structure map; deeper on real terms. Links BM-01/03/04, OS-07. |
+| RQ-FM-06: How do capital, compute, physical data and customer access shape the competitive equilibrium? | Explain input scarcity and model-company strategy. | Date capital/deployment/computing/robot data relationships and supplier/cloud distribution; no announcement-to-capacity shortcut. | W1 resource/actor map; deeper if actual expenditures and terms available. Links SC-02, LLM-06. |
+| RQ-FM-07: When do accessible or open embodied models weaken proprietary lab or OEM dependencies? | Assess independent manufacturing/customer entry and switching. | Verify weights, code, recipes, licenses, base models, data, reproduction, adaptation, servicing and field qualification. | W1 contrasting openness cards; deeper for commercial performance. Links SC-04, LLM-07/10. |
+| RQ-FM-08: Can external frontier intelligence enable AI-native industrial newcos to win? | Test entry timing, equal-technology incumbent response, capital and differentiation. | Four-architecture case, matched demand/work and entrant/incumbent access, funding, acquisition and response. | W1 bounded scenario where evidence permits, else explicit partial. Links OS-05/06/07, SP, BM. |
+| RQ-FM-09: Which embodied model capabilities support quadrupeds, different effectors and enterprise coordination? | Separate transfer, complementary control and false generality. | Map model/system/harness/release/embodiment, field vs simulation, planning/controller/ERP and reliability. | W1 scoped transfer hypotheses; deeper on field outcomes. Links QD, FD, LLM-08. |
+| RQ-FM-10: How do model-layer architectures change deployment sequencing and distribution of value? | Tie model-company research into consequential robotics decisions. | Reconcile policy effects, capital, rights, model economics, customer/OEM/provider cash and competing explanations. | W1 three decision implications or explicit gaps; deeper with matched empirical cases. Links A–J. |
+
 ## Current ranked continuation queue
 
-This ordering reflects decision consequence and public-evidence tractability, not invented precision. The first usable edition is a checkpoint; continue these investigations during the original 168-hour window. Source disagreements and model defects take priority over adding more company names.
+Integrate K questions at the next safe checkpoint according to decision value; the user's single Astra Max usage cap remains in force and existing model defects/evidence gaps retain priority. This ordering reflects decision consequence and public-evidence tractability, not invented precision. The first usable edition is a checkpoint; continue these investigations during the original 168-hour window. Source disagreements and model defects take priority over adding more company names.
 
 | Rank / question links | Bounded next action and evidence need | Decision consequence and stopping condition |
 | --- | --- | --- |
@@ -153,6 +170,8 @@ Public-source research and CPU tests can advance these blocks now. Site logs, ne
 
 5. **Physical industrial scale and embodiment strategy.** Deepen SC with HC, SP and BM: qualified component capacity, manufacturing learning, co-design, regional sourcing, scale backcasts, open ecosystems and changing value capture. Refresh configurations and capacity evidence rather than extrapolating a fixed BOM.
 6. **Quadruped field economics and drone comparison.** Deepen QD/DR across the end-market program: retained deployments, human support, maintenance/action outcomes, failed cases, mixed fleets and bounded supply/organizational transfers. Public cases define questions for later authorized operating data; no outreach is implied.
+
+7. **Frontier robotics model-layer economics.** Extend B/D/E/F/G/H/I/J with dated policy/model/company roles, open versus integrated economics, cross-embodiment transfer, rights, independent versus vertically integrated supply and financing, and changing productive deployment decisions.
 
 ## Question lifecycle and refresh
 

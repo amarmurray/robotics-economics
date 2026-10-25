@@ -18,6 +18,8 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **Accepted post-research sequence, 25 October 2026:** See `POST_RESEARCH_STAGING.md`. After the first verified edition, prioritize Amar's deep guided understanding, a defensible thesis register, high-value follow-on research, and an evolving deployment decision dashboard. Then pursue practitioner validation (stage 5), research-backed robotics career conversations (stage 6), and a testable original physical-digital fleet coordination contribution (stage 7), as evidence warrants. No forced full-week wait and no predetermined startup. Sunday-afternoon provisional reminders are November 15, November 22 and December 6, 2026; Instinct was emailed the plan.
 
+**New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 are now OPEN in both roadmap and question ledger. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
+
 ## Current campaign state
 
 The user activated launch revision 1.1. Campaign `week-one-2026-10-25` is **in progress**, not a completed seven-day edition. The accepted input revision and exact runtime receipts are in ignored `work/campaign_state.json` and `sync_receipt.json`; the launch input was the repository's `Persist full Astra Ultra multi-agent research launch prompt` revision. Preserve this campaign window on resumption.
@@ -116,6 +118,9 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 `LEARNING_WALKTHROUGH.md` prepares an Amar-led evidence/model walkthrough; `THESIS_REGISTER.md` records six bounded claims with mechanisms, objections and disconfirming observations. They follow the concurrent accepted post-research plan and can be used before the deadline. Preparation of these aids does not establish Amar's mastery, complete the campaign, initiate practitioner outreach or activate a startup/prototype program. The initial numerical edition and its explicit gaps remain available for challenge.
 
 ## Next owner and action
+
+**New active scope:** Reconcile the current published K module and registered questions at a safe checkpoint, while retaining the single-agent usage cap. First select a bounded model-provider versus OEM/open/operating-business economic comparison; preserve the existing field, treasury and learning evidence/model priorities and register residual questions.
+
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 

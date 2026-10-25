@@ -1,6 +1,6 @@
 # Physical labor, robotics deployment, and the organization of production
 
-Version 0.10 · 25 October 2026 · Research program design
+Version 0.11 · 25 October 2026 · Research program design
 
 ## 1. Purpose and accepted direction
 
@@ -25,6 +25,7 @@ Amar's 25 October 2026 clarification establishes these requirements:
 - Make the full LLM/digital-AI ecosystem a substantial research workstream: model development and physical inputs; scaling, deployment and nondeployment; retrospective/prospective economic effects; economic-role and workflow evaluation; multi-agent coordination; lab competition and deployment companies; and dependent/complementary businesses. Use it both for tested multivariate analogies and direct contributions to robotics, site/enterprise operations, and humanoid R&D.
 - Map the full humanoid/quadruped supply and value chains, key inputs, qualified production and support capacity, key players, embodiment tradeoffs and layered openness. Connect these to cost/capability improvement and time-indexed feasibility of explicit deployment-scale targets.
 - Include quadrupeds as a major deployment research module throughout the economic program, and use drone deployments, companies, supply chains and business models as substantial but bounded empirical comparisons. Preserve different physical functions, operating conditions, institutions and evidence quality.
+- Treat frontier robotics-model laboratories and their technical/commercial intelligence layer as substantial Workstream K, connecting research/data/compute to deployment contracts, OEM and open alternatives, customer entry and captured value.
 - Deliver a substantive written report, an interactive dashboard with meaningful toggles, reproducible supporting artifacts, and a continuing research roadmap after an initial seven-day campaign.
 
 These requirements govern the design. Geographic defaults, coverage targets, forecasting horizons, and particular implementation choices below are revisable working assumptions, not additional user commitments. Preparing this design does not start the seven-day run or claim its outputs exist.
@@ -306,7 +307,15 @@ Use the same actor/system/resource/rights/evidence graph as I and A–H. J adds 
 
 Outputs include a sector and player coverage map, contrasting quadruped deployment dossiers, drone comparison dossiers, economic and operational mechanisms, explicit transfer/nontransfer tests, and a linked embodiment/deployment dashboard. First-week dossiers reuse existing market-stage cells where appropriate; they are not six additional full market studies. The week-one specification sets bounded minima while the roadmap preserves the larger inquiry.
 
-## 14. Integrated interpretation and standards of progress
+## 14. Workstream K: frontier robotics-model intelligence and industry economics
+
+Read [FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md](FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md), the substantial scope authority for K. Analyze Physical Intelligence, Skild AI and other independent models, integrated OEM efforts, compute/tool platforms, regional alternatives and open policies. Do not infer a universal model-layer economic equilibrium from company labels, financing announcements or benchmark claims.
+
+Investigate development resources and learning/scaling; trained policy versus configured robot/system; access, adaptation, inference and operating reliability; partnerships/customer deployment and data rights; OEM/independent/open/model-led operational business structures; competition for capital and physical training resources; bargaining, margins and value capture. Preserve observed field evidence and models/scenarios separately. Compare architectures at matched accepted output, include the changing digitally improved human baseline, integrate resource and cash constraints, and examine AI-native operating-newco implications.
+
+Crosslink K explicitly to B/D/E/F/G/H/I/J, shared model/system/OEM/customer/deployment identities and the same authoritative calculation engine. Ten new open questions are registered as RQ-FM-01..10. The running campaign preserves its recorded T0/deadline and previously reviewed results; the user's usage cap calls for **one Astra Max agent**, not additional researchers. Reuse existing thirteen dashboard views and record partially integrated K scope honestly.
+
+## 15. Integrated interpretation and standards of progress
 
 For each material conclusion, state the mechanism, supporting evidence, competing explanation, confidence, pivotal assumptions, and observation that would change the view. Distinguish a measured result from an inference and from a scenario.
 
@@ -322,7 +331,7 @@ Measure research progress through improved explanations, validated mechanisms, b
 
 The first week's executable specification is `WEEK_ONE_RESEARCH_SPEC.md`. Its launch text is `CODEX_GOAL.md`. Open questions and longer investigations live in `RESEARCH_ROADMAP.md`. Those files describe planned work until an actual campaign records evidence and outputs.
 
-## 15. Initial source anchors
+## 16. Initial source anchors
 
 These are starting sources and methodological anchors checked during design preparation. The additional digital-AI, economic-deployment, enterprise-integration and direct-robotics source set is in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. Physical supply/openness and quadruped/drone anchors are in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` and `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
 
@@ -335,7 +344,7 @@ These are starting sources and methodological anchors checked during design prep
 - [OpenAI–Thrive Holdings partnership, 1 December 2025](https://openai.com/index/thrive-holdings/) and [Thrive Holdings capital update, 12 August 2026](https://www.thriveholdings.com/thrive-holdings-fundraise): primary descriptions supporting the structural comparator in Workstream F; company claims require appropriate attribution. Neither establishes physical-labor substitution or the financeability of a new humanoid operator.
 - [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [long-running work](https://learn.chatgpt.com/docs/long-running-work): a goal needs observable outputs, verification, checkpoints, and explicit completion/blocker states. Actual continuation depends on the runtime, available resources, and goal state.
 
-## 16. Decision record
+## 17. Decision record
 
 Accepted correction: organize the research around physical labor end markets, value chains, staged deployment, evolving capability, learning/control, physical-digital coordination, and competing ownership routes. Superseded sequencing: mandatory warehouse-first case, second-market deferral, and dashboard only after that case. Preserved disciplines: dated evidence, transparent assumptions, consistent units and populations, conditional adoption gates, no double-counting, and separate implementation-repository scope.
 
@@ -348,3 +357,5 @@ Digital ecosystem addition, 25 October 2026: added substantial Workstream H and 
 Embodiment and physical-ecosystem addition, 25 October 2026: added substantial I and J modules, bringing the design to ten workstreams. Quadrupeds are first-class economic/deployment systems; humanoid/quadruped inputs, manufacturing, memory/compute, embodiment and openness receive detailed treatment. Drone cases supply bounded empirical comparisons. Added time-indexed scale feasibility/backcasting, two linked dashboard views and fourteen open questions while preserving H and all prior customer/provider inquiries.
 
 Prepared outcome: a revised program and a launchable first-week specification. Pending outcome: activation and execution of the research campaign in Codex, followed by the actual report, dashboard, model, and revised roadmap.
+
+Frontier robotics-model clarification, 25 October 2026: substantial K added during active execution. Independent model labs, vertically integrated OEMs, open policies and model-led operators are explicit economic alternatives, with data/compute, licensing, learning, customer/newco and value-capture connections. Preserve prior results, original clock and single-agent usage cap.

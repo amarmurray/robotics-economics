@@ -1,10 +1,10 @@
 # Robotics Economics: Research Charter
 
-Version 0.10 · 25 October 2026 · Amar Murray
+Version 0.11 · 25 October 2026 · Amar Murray
 
-This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid and quadruped deployment, embodiment and supply, learning/control, physical-digital coordination, and the organization of production. Version 0.10 retains and extends Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid and quadruped deployment, embodiment and supply, learning/control, physical-digital coordination, and the organization of production. Version 0.11 retains and extends Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
 
-This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
+This is an accepted research design and a currently active campaign with published interim research/model/dashboard artifacts. Such checkpoints do not establish final completion or calibrated industry forecasts. Preserve its actual T0/deadline. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
 ## Purpose and decisions
 
@@ -12,7 +12,7 @@ Develop the understanding, evidence base, and working models needed to shape str
 
 The central question is: **Where, how, and in what sequence can humanoids, quadrupeds, other appropriate machines and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
 
-The program connects ten research decisions:
+The program connects eleven research decisions:
 
 1. Map physical labor, productive processes, and operating heterogeneity across end markets and value-chain stages.
 2. Relate current provider/system capabilities and research progress to conditional improvement and scaling pathways.
@@ -24,12 +24,15 @@ The program connects ten research decisions:
 8. Study the full digital-AI ecosystem as substantial comparative evidence and a direct contributor to embodied capability, fleet/site/enterprise coordination, and humanoid R&D. Cover physical inputs/model development, scaling and deployment/overhang, economic effects, benchmarks, multi-agent systems, lab/input/capital/customer competition, deploycos and complementary businesses; test analogies and joint capability paths explicitly.
 9. Map the full humanoid/quadruped supply and value chain, key inputs and players, qualified manufacturing and service capacity, embodiment tradeoffs and layered openness; connect them to distinct improvement/cost/capacity mechanisms and time-indexed scale feasibility.
 10. Make quadruped deployments a major empirical module and learn from drone deployments, operating models, players and supply chains through bounded transfer tests, including failures and differences.
+11. Investigate independent and integrated frontier robotics-model labs and open model ecosystems as a distinct economic layer: research/data/compute inputs, trained policies, inference and integration, OEM/customer/deployer choices, capital, access rights and value capture.
 
 Customer-side AI-native entry is an explicit research thesis: can capital fund a new operating business or platform that competes through differentiated humanoid/digital-agent deployment, earlier adoption of broadly available technology, or conditional labor-capacity advantages? Examine financing through ramp, demand capture, incumbent response, and build/acquire/hybrid choices by end market and value-chain stage. Use Thrive Holdings as an organizational comparator, with the physical/industrial extension and greenfield cases treated as hypotheses. Keep customer formation separate from robotics-provider business models while linking their economics.
 
 The detailed digital-AI workstream is `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. It receives substantial first-week research attention and reporting, with explicit evidence on both sides of each analogy, direct-contribution/interface maps, and digital-improved human-led baselines. Enterprise/site coordination includes ERP, inventory, production systems, routing/scheduling, maintenance, and exception workflows; robotics R&D is a separate contribution channel. Shared improvements and resource budgets are counted once.
 
 Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, makes humanoid/quadruped supply and value chains, components (including actuation, onboard compute and memory), manufacturing/qualification/ramp, embodiment choices, key players and layered openness substantial research subjects. Workstream J, detailed in `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`, makes quadruped deployments a major empirical module and uses drone deployment, operating, supply-chain and ecosystem evidence through bounded comparisons. Distinguish capability improvement, production cost learning, qualified supply, supported operational scale and economic penetration. Compare embodiments within the existing end-market map; trace time-indexed scale feasibility and preserve human, specialized-machine and mixed-fleet alternatives. SDKs, released weights, open hardware and commercial rights are separate. Use shared records and count activity, resources and benefits once.
+
+New Workstream K is specified in `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md`, linking Physical Intelligence, Skild AI and other labs, OEM model developers, open policies and model-led deployers to the whole industrial value chain. It was added during the active campaign, without restarting it or expanding the user's one-agent Astra Max resource constraint.
 
 Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
@@ -324,6 +327,9 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.11 — 25 October 2026:** Added substantive frontier robotics model-layer Workstream K and ten new OPEN questions; scoped comparisons among lab, integrated OEM, open model and model-led deployment structures, preserving the active campaign, thirteen existing dashboard views and user's single-agent usage cap.
+
 
 - **0.10 — 25 October 2026:** Added substantial Workstreams I and J with dedicated supply/embodiment/openness and quadruped/drone modules. Distinguished capability, cost learning, qualified manufacture, field scale and penetration; added component/time/stock-flow/backcast requirements, artifact-level openness and bounded drone comparisons. Expanded to ten workstreams, thirteen dashboard views and 55 open questions. Preserved H, customer newcos, provider/asset/control research and prepared-only campaign status.
 

@@ -1,6 +1,6 @@
 # Week-one research campaign specification
 
-Version 1.4 · Prepared 25 October 2026 · Status: not activated
+Version 1.5 · Active campaign · Late Workstream K scope, 25 October 2026
 
 ## 1. Purpose, organizing unit, and authority
 
@@ -110,6 +110,14 @@ The first edition must contain:
 - Substantial report sections and two linked dashboard views for supply/production and embodiment/deployment comparisons. Explain how I/J evidence changes or constrains at least three concrete market, scale, architecture, customer-entry or provider strategy judgments. Negative findings count.
 
 Dossiers are connected evidence packages, not six additional full market analyses. A single case can satisfy multiple perspectives transparently. If a minimum remains unsupported, preserve the attempted evidence route and consequence in the acceptance audit and roadmap; do not invent estimates or call a source directory a completed module.
+
+### Late-added frontier robotics-model and economic layer
+
+Read [FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md](FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md). Include model laboratories, model-to-embodiment integration, open and proprietary alternatives, hosted versus onboard inference, data/adaptation rights, deployment-led learning, capital, commercial terms and captured value. This is an authorized addition to the already-running campaign; do not reset T0, repeat completed work or spawn agents beyond the user's **single Astra Max** usage constraint.
+
+Where remaining resources and evidence permit, seek a dated frontier model/OEM/open ecosystem roster, three contrasting dossiers including Physical Intelligence and Skild AI, evidence/version/rights cards, a four-architecture matched-service economic scenario, and three cross-workstream decision implications. Record unmet portions as partial continuing research without inventing evidence. Reuse existing six deeper market-stage cells, thirteen dashboard views and one calculation engine.
+
+Distinct records: lab role/ownership; model and checkpoint version; compatible configured robot, control/harness and embodiment; training and adaptation inputs; inference architecture, on-device compute/memory and latency; access/license and data/fine-tune rights; evaluated versus actual productive field performance; provider/OEM/operator/customer economic roles, costs and cash transfers. Do not infer model quality equals economically accepted output.
 
 ## 4. Analytical and modeling requirements
 
@@ -250,6 +258,8 @@ The cell key joins market, chain stage, operating archetype, geography, and peri
 | Embodiment comparison | comparison_id; matched market/work/output/quality; system configurations and alternatives; fit, costs/resources and complements; infeasibility; break-even conditions; evidence/scenario links. |
 | Openness artifact | artifact_id/layer/version/license/source; rights/dependency chain; access/reproducibility; interfaces; modification/manufacture/operation conditions; governance; unresolved conflicts. |
 | Mission/outcome | deployment/cohort/system IDs; activity and exposure; autonomous/assisted mode; human work; data quality; actionable finding/decision/action/outcome links; comparator; failure/selection limits. |
+| Frontier robotics model | lab/model/release/checkpoint IDs; policy/harness/embodiment context; data/training/adaptation/inference resources; access/license and use rights; eval/field availability; customer/OEM/operator terms; source/uncertainty. |
+| Model architecture alternative | matched cell/output/quality; integrated OEM, independent licensed, open adapted and model-led operator structures; incremental full costs, benefits, data rights, infrastructure, payer, limits and evidence/scenario status. |
 | Evidence | evidence_id; precise claim; URL/document locator; publisher; observation/publication/retrieval dates; scope; source class; limitations; conflicts. |
 | Question | question_id; decision consequence; priority rationale; dependencies; evidence target; stopping condition; status; next action/owner. |
 
@@ -279,6 +289,8 @@ Use **one authoritative calculation engine** for dashboard outputs, report table
 12. **Embodiment and deployment comparison:** market-stage fit, matched output/quality and economics, human/simpler/mixed-system alternatives, quadruped field dossiers, drone transfer/nontransfer evidence, openness layers and source maturity.
 13. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
 
+For Workstream K, link model lab/lineage, release, compatibility, license/access, OEM-versus-independent provider, data/control rights, inference/adaptation and model-led operating structure into existing relevant views. A new fourteenth view is not required in this resource-limited campaign.
+
 Shared filters include market, stage, archetype, geography, period/horizon, system/model/harness, embodiment/configuration, component/resource/qualification class, openness layer, digital/physical value-chain layer, contribution role, customer profile, customer pathway, commercial arrangement, scenario, and source/target evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
 
 Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, incumbent response timing, relative digital/embodied progress, inference/coordination costs and integration availability, component allocation/qualification, yield/ramp/expansion lead times, memory/compute/power configuration, replacement/spares and support requirements when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
@@ -305,6 +317,7 @@ Run focused checks that address concrete analytical and interface risks:
 - Check that the scale-target backcast uses declared units and necessary-condition logic; supply feasibility cannot silently become demand or adoption.
 - Verify embodiment comparisons use matched output/quality and total configured costs; overlapping or complementary drone/quadruped/humanoid work cannot duplicate economic activity or gains.
 - Verify artifact-level openness and drone/quadruped observation status; released code, missions, announced capacity and modeled economics remain distinct from realized productive outcomes.
+- Check K comparisons for actual model/release and compatible hardware evidence, field versus benchmark status, permissioned data reuse, training versus onboard/inference resource differences, and no duplicated provider/OEM/operator/customer revenue or uncalibrated model gains.
 - Export and reload a scenario; reproduce its outputs and confirm a documented local launch.
 
 Use a small set of meaningful fixtures and adverse cases. Do not mirror every implementation detail with tests or repeat a passing test without a concrete reason. Record pass, partial, blocked, or failed for each acceptance requirement, with consequences and next action.
