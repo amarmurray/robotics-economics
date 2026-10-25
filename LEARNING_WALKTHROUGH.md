@@ -38,6 +38,8 @@ A replacement consumes production and commissioning resources without necessaril
 
 Open **Analogies & contributions** and inspect the four-way cost comparison: human baseline, additional digital improvement, robotics with its required embedded software, and the combined system. Note that this is a fixed-horizon reference; the calendar-year selector does not change that table.
 
+Select **Trace inputs and costs** for one cell. Reconcile each total from human/site digital cost, robot operating cost and annual capital consumption. Inspect accepted robot output and retained human hours, then open the exact inputs and engine equations. Identify which values would require target-site evidence before this comparison could support a deployment decision; every coefficient here is synthetic.
+
 Explain these two quantities:
 
 - Robotics value against an improved human baseline: `C01 − C11`.
@@ -57,7 +59,7 @@ Then compare sale, lease and service arrangements. Identify who owns the robot, 
 
 Compare the saved RaaS entrant and prompt-incumbent-response cases. The entrant and incumbent have the same robot technology and terms. Explain how demand, price, ramp and receivables can change the entrant's funding requirement without changing the robot. These are synthetic comparisons, not evidence of available financing or attainable market share.
 
-The current monthly entrant is separate from the annual shared-resource model. Do not add their outputs or assume both fleets can claim the same components. The [treasury proposal](model/treasury_extension_design.md) describes the next accounting extension; it is not yet an implemented capability.
+The current monthly entrant is separate from the annual shared-resource model. Do not add their outputs or assume both fleets can claim the same components. The [treasury proposal](model/treasury_extension_design.md) describes the full accounting extension. Its [isolated financial core](model/TREASURY_CORE.md) now tests payments, reservations, deposits and explicit credit, but does not yet integrate physical supply or the entrant. Explain why a passed cash-settlement witness cannot establish delivered service.
 
 **Check your understanding:** give one case where the deployment is economically attractive but temporarily unfundable, and another where funding exists but the physical service cannot be delivered.
 

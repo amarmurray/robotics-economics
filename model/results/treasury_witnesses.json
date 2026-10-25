@@ -1,0 +1,1339 @@
+{
+  "schema_version": "isolated-research-witness/0.1",
+  "status": "synthetic_unintegrated_not_empirical_calibration",
+  "code_sha256": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
+  "code_path": "model/treasury.py",
+  "result": {
+    "witness_1_unfunded": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "provider",
+          "opening_cash_cents": 5000000,
+          "cash_cents": 3000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 1000000,
+          "available_cents": 2000000
+        },
+        {
+          "actor_id": "payroll",
+          "opening_cash_cents": 0,
+          "cash_cents": 2000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 2000000
+        },
+        {
+          "actor_id": "supplier",
+          "opening_cash_cents": 0,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        },
+        {
+          "actor_id": "buyer",
+          "opening_cash_cents": 6000000,
+          "cash_cents": 6000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 6000000
+        },
+        {
+          "actor_id": "lender",
+          "opening_cash_cents": 2000000,
+          "cash_cents": 2000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 2000000
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "payroll",
+          "payer": "provider",
+          "payee": "payroll",
+          "face_cents": 2000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 2000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "start",
+          "payer": "provider",
+          "payee": "supplier",
+          "face_cents": 4000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 0,
+          "cancelled_cents": 0,
+          "outstanding_cents": 4000000,
+          "status": "defaulted"
+        },
+        {
+          "invoice_id": "sale",
+          "payer": "buyer",
+          "payee": "provider",
+          "face_cents": 6000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 1,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 1,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 0,
+          "cancelled_cents": 0,
+          "outstanding_cents": 6000000,
+          "status": "not_yet_payable"
+        }
+      ],
+      "deposits": [],
+      "credits": [
+        {
+          "credit_id": "loan",
+          "lender": "lender",
+          "borrower": "provider",
+          "limit_cents": 2000000,
+          "authorized_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "available_from": {
+            "month": 0,
+            "phase": 2
+          },
+          "available_until": {
+            "month": 1,
+            "phase": 2
+          },
+          "maturity": {
+            "month": 2,
+            "phase": 3
+          },
+          "revolving": false,
+          "purposes": [
+            "working_capital"
+          ],
+          "drawn_cents": 0,
+          "repaid_cents": 0,
+          "outstanding_cents": 0,
+          "undrawn_cents": 2000000
+        }
+      ],
+      "reservations": [],
+      "events": [
+        {
+          "event_id": "issue-payroll",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "payroll",
+          "requested_cents": 2000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-start",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-sale",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "sale",
+          "requested_cents": 6000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "commit",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "credit_authorize",
+          "status": "completed",
+          "reference_id": "loan",
+          "requested_cents": 2000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "pay-payroll",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "payroll",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "payroll",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "blocked-start",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "blocked",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "insufficient_unencumbered_cash",
+          "postings": [],
+          "reservation_uses": []
+        }
+      ]
+    },
+    "witness_1_funded_next_month": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "provider",
+          "opening_cash_cents": 5000000,
+          "cash_cents": 5000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 1000000,
+          "available_cents": 4000000
+        },
+        {
+          "actor_id": "payroll",
+          "opening_cash_cents": 0,
+          "cash_cents": 2000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 2000000
+        },
+        {
+          "actor_id": "supplier",
+          "opening_cash_cents": 0,
+          "cash_cents": 4000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 4000000
+        },
+        {
+          "actor_id": "buyer",
+          "opening_cash_cents": 6000000,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        },
+        {
+          "actor_id": "lender",
+          "opening_cash_cents": 2000000,
+          "cash_cents": 2000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 2000000
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "payroll",
+          "payer": "provider",
+          "payee": "payroll",
+          "face_cents": 2000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 2000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "start",
+          "payer": "provider",
+          "payee": "supplier",
+          "face_cents": 4000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 4000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "sale",
+          "payer": "buyer",
+          "payee": "provider",
+          "face_cents": 6000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 1,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 1,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 6000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        }
+      ],
+      "deposits": [],
+      "credits": [
+        {
+          "credit_id": "loan",
+          "lender": "lender",
+          "borrower": "provider",
+          "limit_cents": 2000000,
+          "authorized_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "available_from": {
+            "month": 0,
+            "phase": 2
+          },
+          "available_until": {
+            "month": 1,
+            "phase": 2
+          },
+          "maturity": {
+            "month": 2,
+            "phase": 3
+          },
+          "revolving": false,
+          "purposes": [
+            "working_capital"
+          ],
+          "drawn_cents": 2000000,
+          "repaid_cents": 2000000,
+          "outstanding_cents": 0,
+          "undrawn_cents": 0
+        }
+      ],
+      "reservations": [],
+      "events": [
+        {
+          "event_id": "issue-payroll",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "payroll",
+          "requested_cents": 2000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-start",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-sale",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "sale",
+          "requested_cents": 6000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "commit",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "credit_authorize",
+          "status": "completed",
+          "reference_id": "loan",
+          "requested_cents": 2000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "draw",
+          "at": {
+            "month": 0,
+            "phase": 2
+          },
+          "kind": "credit_draw",
+          "status": "settled",
+          "reference_id": "loan",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "lender",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "provider",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "pay-payroll",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "payroll",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "payroll",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "pay-start",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 4000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -4000000
+            },
+            {
+              "actor_id": "supplier",
+              "delta_cents": 4000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "collect-sale",
+          "at": {
+            "month": 1,
+            "phase": 2
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "sale",
+          "requested_cents": 6000000,
+          "settled_cents": 6000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "buyer",
+              "delta_cents": -6000000
+            },
+            {
+              "actor_id": "provider",
+              "delta_cents": 6000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "principal",
+          "at": {
+            "month": 1,
+            "phase": 3
+          },
+          "kind": "principal_repay",
+          "status": "settled",
+          "reference_id": "loan",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "lender",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        }
+      ]
+    },
+    "witness_2_start_costs_once": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "provider",
+          "opening_cash_cents": 10000000,
+          "cash_cents": 8800000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 8800000
+        },
+        {
+          "actor_id": "supplier",
+          "opening_cash_cents": 0,
+          "cash_cents": 7200000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 7200000
+        },
+        {
+          "actor_id": "buyer",
+          "opening_cash_cents": 6000000,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "start-1",
+          "payer": "provider",
+          "payee": "supplier",
+          "face_cents": 3600000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 3600000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "start-2",
+          "payer": "provider",
+          "payee": "supplier",
+          "face_cents": 3600000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 3600000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "one-accepted-sale",
+          "payer": "buyer",
+          "payee": "provider",
+          "face_cents": 6000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 1,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 1,
+            "phase": 2
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 6000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        }
+      ],
+      "deposits": [],
+      "credits": [],
+      "reservations": [],
+      "events": [
+        {
+          "event_id": "issue-start-1",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "start-1",
+          "requested_cents": 3600000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-start-2",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "start-2",
+          "requested_cents": 3600000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-one-accepted-sale",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "one-accepted-sale",
+          "requested_cents": 6000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "cash-start-1",
+          "at": {
+            "month": 0,
+            "phase": 2
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "start-1",
+          "requested_cents": 3600000,
+          "settled_cents": 3600000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -3600000
+            },
+            {
+              "actor_id": "supplier",
+              "delta_cents": 3600000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "cash-start-2",
+          "at": {
+            "month": 0,
+            "phase": 2
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "start-2",
+          "requested_cents": 3600000,
+          "settled_cents": 3600000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -3600000
+            },
+            {
+              "actor_id": "supplier",
+              "delta_cents": 3600000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "collect",
+          "at": {
+            "month": 1,
+            "phase": 2
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "one-accepted-sale",
+          "requested_cents": 6000000,
+          "settled_cents": 6000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "buyer",
+              "delta_cents": -6000000
+            },
+            {
+              "actor_id": "provider",
+              "delta_cents": 6000000
+            }
+          ],
+          "reservation_uses": []
+        }
+      ]
+    },
+    "witness_3_restricted_deposit_refunded": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "provider",
+          "opening_cash_cents": 3000000,
+          "cash_cents": 3000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 3000000
+        },
+        {
+          "actor_id": "customer",
+          "opening_cash_cents": 3000000,
+          "cash_cents": 3000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 3000000
+        },
+        {
+          "actor_id": "supplier",
+          "opening_cash_cents": 0,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "start",
+          "payer": "provider",
+          "payee": "supplier",
+          "face_cents": 4000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": true,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 0,
+          "cancelled_cents": 4000000,
+          "outstanding_cents": 0,
+          "status": "cancelled"
+        }
+      ],
+      "deposits": [
+        {
+          "deposit_id": "deposit",
+          "payer": "customer",
+          "payee": "provider",
+          "face_cents": 2000000,
+          "placed_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "refund_eligible_at": {
+            "month": 1,
+            "phase": 2
+          },
+          "restricted": true,
+          "refunded_cents": 2000000,
+          "outstanding_cents": 0
+        }
+      ],
+      "credits": [],
+      "reservations": [],
+      "events": [
+        {
+          "event_id": "issue-start",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "place",
+          "at": {
+            "month": 0,
+            "phase": 2
+          },
+          "kind": "deposit_place",
+          "status": "settled",
+          "reference_id": "deposit",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "customer",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "provider",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "blocked-start",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "blocked",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "insufficient_unencumbered_cash",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "cancel-start",
+          "at": {
+            "month": 1,
+            "phase": 1
+          },
+          "kind": "invoice_cancel",
+          "status": "completed",
+          "reference_id": "start",
+          "requested_cents": 4000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "refund",
+          "at": {
+            "month": 1,
+            "phase": 2
+          },
+          "kind": "deposit_refund",
+          "status": "settled",
+          "reference_id": "deposit",
+          "requested_cents": 2000000,
+          "settled_cents": 2000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "provider",
+              "delta_cents": -2000000
+            },
+            {
+              "actor_id": "customer",
+              "delta_cents": 2000000
+            }
+          ],
+          "reservation_uses": []
+        }
+      ]
+    },
+    "witness_5_unpaid_fee": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "entrant",
+          "opening_cash_cents": 800000,
+          "cash_cents": 800000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 800000
+        },
+        {
+          "actor_id": "financier",
+          "opening_cash_cents": 0,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "availability",
+          "payer": "entrant",
+          "payee": "financier",
+          "face_cents": 1000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 0,
+          "cancelled_cents": 0,
+          "outstanding_cents": 1000000,
+          "status": "defaulted"
+        }
+      ],
+      "deposits": [],
+      "credits": [],
+      "reservations": [],
+      "events": [
+        {
+          "event_id": "issue-fee",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "availability",
+          "requested_cents": 1000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "blocked-fee",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "blocked",
+          "reference_id": "availability",
+          "requested_cents": 1000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "insufficient_unencumbered_cash",
+          "postings": [],
+          "reservation_uses": []
+        }
+      ]
+    },
+    "witness_7_earmark_consumed": {
+      "schema_version": "treasury-core/0.1",
+      "scope": "synthetic_stage_1_financial_core_only",
+      "currency": "USD",
+      "actors": [
+        {
+          "actor_id": "payer",
+          "opening_cash_cents": 10000000,
+          "cash_cents": 0,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 0
+        },
+        {
+          "actor_id": "payee",
+          "opening_cash_cents": 0,
+          "cash_cents": 10000000,
+          "restricted_cents": 0,
+          "reserved_cents": 0,
+          "minimum_cash_cents": 0,
+          "available_cents": 10000000
+        }
+      ],
+      "invoices": [
+        {
+          "invoice_id": "A",
+          "payer": "payer",
+          "payee": "payee",
+          "face_cents": 10000000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 10000000,
+          "cancelled_cents": 0,
+          "outstanding_cents": 0,
+          "status": "paid"
+        },
+        {
+          "invoice_id": "B",
+          "payer": "payer",
+          "payee": "payee",
+          "face_cents": 100000,
+          "issued_at": {
+            "month": 0,
+            "phase": 1
+          },
+          "eligible_at": {
+            "month": 0,
+            "phase": 2
+          },
+          "due_at": {
+            "month": 0,
+            "phase": 3
+          },
+          "policy": "full_or_nothing",
+          "cancellable": false,
+          "grace_months": 0,
+          "category": "operating",
+          "paid_cents": 0,
+          "cancelled_cents": 0,
+          "outstanding_cents": 100000,
+          "status": "defaulted"
+        }
+      ],
+      "deposits": [],
+      "credits": [],
+      "reservations": [
+        {
+          "reservation_id": "A-reserve",
+          "invoice_id": "A",
+          "actor_id": "payer",
+          "original_cents": 10000000,
+          "remaining_cents": 0
+        }
+      ],
+      "events": [
+        {
+          "event_id": "issue-A",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "A",
+          "requested_cents": 10000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "issue-B",
+          "at": {
+            "month": 0,
+            "phase": 1
+          },
+          "kind": "invoice_issue",
+          "status": "completed",
+          "reference_id": "B",
+          "requested_cents": 100000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "reserve",
+          "at": {
+            "month": 0,
+            "phase": 2
+          },
+          "kind": "reservation_create",
+          "status": "completed",
+          "reference_id": "A-reserve",
+          "requested_cents": 10000000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "block-B",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "blocked",
+          "reference_id": "B",
+          "requested_cents": 100000,
+          "settled_cents": 0,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "insufficient_unencumbered_cash",
+          "postings": [],
+          "reservation_uses": []
+        },
+        {
+          "event_id": "pay-A",
+          "at": {
+            "month": 0,
+            "phase": 3
+          },
+          "kind": "invoice_payment",
+          "status": "settled",
+          "reference_id": "A",
+          "requested_cents": 10000000,
+          "settled_cents": 10000000,
+          "provenance": "synthetic_treasury_design_witness",
+          "reason": "",
+          "postings": [
+            {
+              "actor_id": "payer",
+              "delta_cents": -10000000
+            },
+            {
+              "actor_id": "payee",
+              "delta_cents": 10000000
+            }
+          ],
+          "reservation_uses": [
+            [
+              "A-reserve",
+              10000000
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

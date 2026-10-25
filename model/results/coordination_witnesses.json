@@ -1,0 +1,1102 @@
+{
+  "schema_version": "isolated-research-witness/0.1",
+  "status": "synthetic_unintegrated_not_empirical_calibration",
+  "code_sha256": "b7b6e38b54ee0c5e3a1e3103fa67b8f87e7141dd42cb95e53477130650d4e9d4",
+  "code_path": "model/coordination_transactions.py",
+  "result": {
+    "schema_version": "synthetic-coordination-witness/0.1",
+    "calibration": "none; no timing, wage, throughput or incident-rate estimate",
+    "naive_output_missing_reason": "Comparator has no reconciled business-output ledger; API acceptance is not counted as output.",
+    "cases": [
+      {
+        "policy": "naive",
+        "fault": "lost_ack",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 2,
+        "synthetic_effect_units": 4,
+        "excess_effect_units": 2,
+        "accepted_business_outputs": null,
+        "business_record": null,
+        "authoritative_lookup_available": true,
+        "lookup_calls": 0,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "naive-2",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 3,
+            "event": "synthetic_execution",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          }
+        ]
+      },
+      {
+        "policy": "durable",
+        "fault": "lost_ack",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 1,
+        "synthetic_effect_units": 2,
+        "excess_effect_units": 0,
+        "accepted_business_outputs": 1,
+        "business_record": {
+          "business_key": "order-1",
+          "units": 2,
+          "status": "completed",
+          "task_id": "task-1",
+          "external_state": "completed",
+          "revision": 1,
+          "moved_units": 2,
+          "cancel_requested": 0,
+          "accepted_output": 1
+        },
+        "authoritative_lookup_available": true,
+        "lookup_calls": 2,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "acknowledgement_lost",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 3,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 4,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": "task-1",
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 5,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 6,
+            "event": "resend_blocked",
+            "business_key": "order-1",
+            "status": "accepted"
+          },
+          {
+            "sequence": 7,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 8,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 9,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 10,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "completed",
+            "task_id": "task-1",
+            "external_state": "completed",
+            "revision": 1,
+            "moved_units": 2,
+            "cancel_requested": 0,
+            "accepted_output": 1
+          }
+        ]
+      },
+      {
+        "policy": "naive",
+        "fault": "restart",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 2,
+        "synthetic_effect_units": 4,
+        "excess_effect_units": 2,
+        "accepted_business_outputs": null,
+        "business_record": null,
+        "authoritative_lookup_available": true,
+        "lookup_calls": 0,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 1,
+            "event": "dispatcher_restart_cache_lost"
+          },
+          {
+            "sequence": 2,
+            "event": "client_restart"
+          },
+          {
+            "sequence": 3,
+            "event": "dispatch_accepted",
+            "request_id": "naive-1",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 4,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 5,
+            "event": "synthetic_execution",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          }
+        ]
+      },
+      {
+        "policy": "durable",
+        "fault": "restart",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 1,
+        "synthetic_effect_units": 2,
+        "excess_effect_units": 0,
+        "accepted_business_outputs": 1,
+        "business_record": {
+          "business_key": "order-1",
+          "units": 2,
+          "status": "completed",
+          "task_id": "task-1",
+          "external_state": "completed",
+          "revision": 1,
+          "moved_units": 2,
+          "cancel_requested": 0,
+          "accepted_output": 1
+        },
+        "authoritative_lookup_available": true,
+        "lookup_calls": 2,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "acknowledgement_lost",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 3,
+            "event": "dispatcher_restart_cache_lost"
+          },
+          {
+            "sequence": 4,
+            "event": "client_restart"
+          },
+          {
+            "sequence": 5,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 6,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": "task-1",
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 7,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 8,
+            "event": "resend_blocked",
+            "business_key": "order-1",
+            "status": "accepted"
+          },
+          {
+            "sequence": 9,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 10,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 11,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 12,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "completed",
+            "task_id": "task-1",
+            "external_state": "completed",
+            "revision": 1,
+            "moved_units": 2,
+            "cancel_requested": 0,
+            "accepted_output": 1
+          }
+        ]
+      },
+      {
+        "policy": "naive",
+        "fault": "cache_eviction",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 2,
+        "synthetic_effect_units": 4,
+        "excess_effect_units": 2,
+        "accepted_business_outputs": null,
+        "business_record": null,
+        "authoritative_lookup_available": true,
+        "lookup_calls": 0,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "other-0",
+            "task_id": "task-2",
+            "business_key": "other-order-0",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "dispatch_accepted",
+            "request_id": "other-1",
+            "task_id": "task-3",
+            "business_key": "other-order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 3,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-4",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 4,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 5,
+            "event": "synthetic_execution",
+            "task_id": "task-4",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          }
+        ]
+      },
+      {
+        "policy": "durable",
+        "fault": "cache_eviction",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 1,
+        "synthetic_effect_units": 2,
+        "excess_effect_units": 0,
+        "accepted_business_outputs": 1,
+        "business_record": {
+          "business_key": "order-1",
+          "units": 2,
+          "status": "completed",
+          "task_id": "task-1",
+          "external_state": "completed",
+          "revision": 1,
+          "moved_units": 2,
+          "cancel_requested": 0,
+          "accepted_output": 1
+        },
+        "authoritative_lookup_available": true,
+        "lookup_calls": 2,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "acknowledgement_lost",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 3,
+            "event": "dispatch_accepted",
+            "request_id": "other-0",
+            "task_id": "task-2",
+            "business_key": "other-order-0",
+            "accepted_output": false
+          },
+          {
+            "sequence": 4,
+            "event": "dispatch_accepted",
+            "request_id": "other-1",
+            "task_id": "task-3",
+            "business_key": "other-order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 5,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 6,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": "task-1",
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 7,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 8,
+            "event": "resend_blocked",
+            "business_key": "order-1",
+            "status": "accepted"
+          },
+          {
+            "sequence": 9,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 10,
+            "event": "authoritative_lookup",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 11,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": "queued",
+            "revision": 0,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 12,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "completed",
+            "task_id": "task-1",
+            "external_state": "completed",
+            "revision": 1,
+            "moved_units": 2,
+            "cancel_requested": 0,
+            "accepted_output": 1
+          }
+        ]
+      },
+      {
+        "policy": "naive",
+        "fault": "lookup_unavailable",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 2,
+        "synthetic_effect_units": 4,
+        "excess_effect_units": 2,
+        "accepted_business_outputs": null,
+        "business_record": null,
+        "authoritative_lookup_available": false,
+        "lookup_calls": 0,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 1,
+            "event": "dispatcher_restart_cache_lost"
+          },
+          {
+            "sequence": 2,
+            "event": "client_restart"
+          },
+          {
+            "sequence": 3,
+            "event": "dispatch_accepted",
+            "request_id": "naive-1",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 4,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 5,
+            "event": "synthetic_execution",
+            "task_id": "task-2",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          }
+        ]
+      },
+      {
+        "policy": "durable",
+        "fault": "lookup_unavailable",
+        "status": "synthetic_local_fault_witness_not_RMF_or_physical_validation",
+        "requested_units": 2,
+        "external_task_count": 1,
+        "synthetic_effect_units": 2,
+        "excess_effect_units": 0,
+        "accepted_business_outputs": 0,
+        "business_record": {
+          "business_key": "order-1",
+          "units": 2,
+          "status": "unknown",
+          "task_id": null,
+          "external_state": null,
+          "revision": -1,
+          "moved_units": 0,
+          "cancel_requested": 0,
+          "accepted_output": 0
+        },
+        "authoritative_lookup_available": false,
+        "lookup_calls": 2,
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:order-1",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "acknowledgement_lost",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 3,
+            "event": "dispatcher_restart_cache_lost"
+          },
+          {
+            "sequence": 4,
+            "event": "client_restart"
+          },
+          {
+            "sequence": 5,
+            "event": "lookup_unavailable",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 6,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "unknown",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 7,
+            "event": "resend_blocked",
+            "business_key": "order-1",
+            "status": "unknown"
+          },
+          {
+            "sequence": 8,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "order-1",
+            "units": 2,
+            "state": "completed",
+            "moved_units": 2,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 9,
+            "event": "lookup_unavailable",
+            "business_key": "order-1"
+          },
+          {
+            "sequence": 10,
+            "event": "business_record",
+            "business_key": "order-1",
+            "units": 2,
+            "status": "unknown",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          }
+        ]
+      }
+    ],
+    "cancellation_cases": [
+      {
+        "complete_before_stop": false,
+        "after_cancel_ack": {
+          "business_key": "cancel-order",
+          "units": 3,
+          "status": "cancel_pending",
+          "task_id": "task-1",
+          "external_state": "active",
+          "revision": 1,
+          "moved_units": 1,
+          "cancel_requested": 1,
+          "accepted_output": 0
+        },
+        "final_record": {
+          "business_key": "cancel-order",
+          "units": 3,
+          "status": "canceled",
+          "task_id": "task-1",
+          "external_state": "stopped",
+          "revision": 4,
+          "moved_units": 2,
+          "cancel_requested": 1,
+          "accepted_output": 0
+        },
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:cancel-order",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 3,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "active",
+            "moved_units": 1,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 4,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "active",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 1,
+            "moved_units": 1,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 5,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "cancel_pending",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 1,
+            "moved_units": 1,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 6,
+            "event": "cancel_acknowledged",
+            "task_id": "task-1",
+            "accepted": true,
+            "observed_stopped": false
+          },
+          {
+            "sequence": 7,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "active",
+            "moved_units": 2,
+            "revision": 3,
+            "cancel_requested": true
+          },
+          {
+            "sequence": 8,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "cancel_pending",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 3,
+            "moved_units": 2,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 9,
+            "event": "terminal_observation",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "stopped",
+            "moved_units": 2,
+            "revision": 4,
+            "cancel_requested": true
+          },
+          {
+            "sequence": 10,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "canceled",
+            "task_id": "task-1",
+            "external_state": "stopped",
+            "revision": 4,
+            "moved_units": 2,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          }
+        ]
+      },
+      {
+        "complete_before_stop": true,
+        "after_cancel_ack": {
+          "business_key": "cancel-order",
+          "units": 3,
+          "status": "cancel_pending",
+          "task_id": "task-1",
+          "external_state": "active",
+          "revision": 1,
+          "moved_units": 1,
+          "cancel_requested": 1,
+          "accepted_output": 0
+        },
+        "final_record": {
+          "business_key": "cancel-order",
+          "units": 3,
+          "status": "needs_review",
+          "task_id": "task-1",
+          "external_state": "completed",
+          "revision": 4,
+          "moved_units": 3,
+          "cancel_requested": 1,
+          "accepted_output": 0
+        },
+        "trace": [
+          {
+            "sequence": 0,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "uncertain",
+            "task_id": null,
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 1,
+            "event": "dispatch_accepted",
+            "request_id": "business:cancel-order",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "accepted_output": false
+          },
+          {
+            "sequence": 2,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "accepted",
+            "task_id": "task-1",
+            "external_state": null,
+            "revision": -1,
+            "moved_units": 0,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 3,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "active",
+            "moved_units": 1,
+            "revision": 1,
+            "cancel_requested": false
+          },
+          {
+            "sequence": 4,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "active",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 1,
+            "moved_units": 1,
+            "cancel_requested": 0,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 5,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "cancel_pending",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 1,
+            "moved_units": 1,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 6,
+            "event": "cancel_acknowledged",
+            "task_id": "task-1",
+            "accepted": true,
+            "observed_stopped": false
+          },
+          {
+            "sequence": 7,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "active",
+            "moved_units": 2,
+            "revision": 3,
+            "cancel_requested": true
+          },
+          {
+            "sequence": 8,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "cancel_pending",
+            "task_id": "task-1",
+            "external_state": "active",
+            "revision": 3,
+            "moved_units": 2,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          },
+          {
+            "sequence": 9,
+            "event": "synthetic_execution",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "completed",
+            "moved_units": 3,
+            "revision": 4,
+            "cancel_requested": true
+          },
+          {
+            "sequence": 10,
+            "event": "terminal_observation",
+            "task_id": "task-1",
+            "business_key": "cancel-order",
+            "units": 3,
+            "state": "completed",
+            "moved_units": 3,
+            "revision": 4,
+            "cancel_requested": true
+          },
+          {
+            "sequence": 11,
+            "event": "business_record",
+            "business_key": "cancel-order",
+            "units": 3,
+            "status": "needs_review",
+            "task_id": "task-1",
+            "external_state": "completed",
+            "revision": 4,
+            "moved_units": 3,
+            "cancel_requested": 1,
+            "accepted_output": 0
+          }
+        ]
+      }
+    ]
+  }
+}

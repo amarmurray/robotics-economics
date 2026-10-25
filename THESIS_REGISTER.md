@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.1. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.2. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -40,15 +40,15 @@ Version 0.1. These are bounded claims and hypotheses for Amar to challenge after
 
 ## T4 — Coordination value depends on execution and transaction semantics
 
-**Mechanism and status.** A planner's proposed task, API acceptance, assignment and physical completion are distinct states. Retries and cancellation can leave partial effects requiring reconciliation. Pinned source code supports these interface boundaries; no LLM uplift or observed incident rate is inferred.
+**Mechanism and status.** A planner's proposed task, API acceptance, assignment and physical completion are distinct states. Retries and cancellation can leave partial effects requiring reconciliation. Pinned source code supports these interface boundaries. The local fault fixture demonstrates conditional retry and reconciliation behavior under explicit mock assumptions; no LLM uplift or observed incident rate is inferred.
 
-**Evidence and scope.** [Coordination reproducibility](research/coordination_reproducibility.md), including Open-RMF request IDs, callbacks and cancellation behavior. Benchmark coordination results retain their own harness and domain limits.
+**Evidence and scope.** [Coordination reproducibility](research/coordination_reproducibility.md), including Open-RMF request IDs, callbacks and cancellation behavior. The [local transaction fixture](model/COORDINATION_TRANSACTION_FIXTURE.md) adds deterministic witnesses with an explicit authoritative lookup/finality assumption. It does not run RMF or verify an installed stack. Benchmark coordination results retain their own harness and domain limits.
 
 **Strongest objection.** A target installation may already supply durable identity, authorization and reconciliation outside the inspected components. Additional LLM orchestration may be unnecessary, or beneficial only in a narrow exception path.
 
 **Decision implication.** Establish a deterministic baseline and one business-state contract before claiming an end-to-end physical-digital system. Budget failed attempts, human recovery and elapsed time as distinct inputs.
 
-**What changes the view.** A compatible local software fixture showing improved modeled accepted throughput or recovery cost under declared assumptions, while preserving state under duplicate requests, timeout-after-acceptance, restart and partial cancellation. That verifies software/model behavior; physical throughput or cost claims still require target operating evidence. Source pins alone do not establish installed-system correctness.
+**What changes the view.** The current fixture preserves uncertainty and partial effects under constructed faults, but uses a deliberately naive baseline and unpriced mock lookup. The next test requires a compatible installation, its actual business-state contract and a strong deterministic comparator before claiming throughput or recovery-cost improvement. Software/model behavior alone cannot establish physical throughput or cost; those claims still require target operating evidence. Source pins alone do not establish installed-system correctness.
 
 ## T5 — Lower collection-stage cost is not necessarily cheaper validated capability
 
@@ -64,9 +64,9 @@ Version 0.1. These are bounded claims and hypotheses for Amar to challenge after
 
 ## T6 — Positive unit economics does not guarantee funded deployment
 
-**Mechanism and status.** Payment timing, restrictions, rejected production, receivables and shared resource reservations can block a profitable order. This is a finance/accounting proposition with a reviewed implementation proposal and exact test witnesses, not a measured robot-provider financing constraint.
+**Mechanism and status.** Payment timing, restrictions, rejected production, receivables and shared resource reservations can block a profitable order. This is a finance/accounting proposition with an isolated settlement core and exact synthetic test witnesses, not a measured robot-provider financing constraint.
 
-**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md). Actual commercial credit terms are not supplied by these synthetic witnesses.
+**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The full monthly physical/financial extension remains incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
 
 **Strongest objection.** Deposits, supplier credit, asset finance or patient equity may bridge the gap; the assumed manufacturing-payment boundary can dominate the result. Their existence and terms must be explicit, not assumed free.
 

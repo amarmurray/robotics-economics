@@ -16,6 +16,7 @@ from model.engine import BOUNDS, CHOICES, catalog, run_scenario
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
+from model.lineage import joint_trace
 
 
 def evidence_snapshot():
@@ -70,7 +71,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send(200,target.read_bytes(),mime)
 
     def do_POST(self):
-        if urlparse(self.path).path != "/api/run":
+        endpoint = urlparse(self.path).path
+        if endpoint not in {"/api/run", "/api/joint-trace"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
@@ -78,12 +80,16 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > 200000:
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
-            if not isinstance(request,dict) or set(request)-{"overrides","preset"}:
+            allowed = {"overrides", "preset", "cell_id"} if endpoint == "/api/joint-trace" else {"overrides", "preset"}
+            if not isinstance(request,dict) or set(request)-allowed:
                 raise ValueError("Expected preset and overrides")
             overrides = request.get("overrides",{})
             if not isinstance(overrides,dict):
                 raise ValueError("overrides must be an object")
-            self.send(200,run_scenario(overrides,request.get("preset","reference")))
+            if endpoint == "/api/joint-trace":
+                self.send(200,joint_trace(request.get("cell_id"),overrides,request.get("preset","reference")))
+            else:
+                self.send(200,run_scenario(overrides,request.get("preset","reference")))
         except (ValueError,TypeError,json.JSONDecodeError) as exc:
             self.send(400,{"error":str(exc)})
 

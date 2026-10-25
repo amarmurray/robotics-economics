@@ -8,6 +8,7 @@ From the repository root:
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_evidence.py
 python3 scripts/export_scenarios.py
+python3 scripts/export_experiments.py
 python3 scripts/build_continuation.py
 python3 scripts/build_report.py
 python3 scripts/serve.py --port 8765
@@ -19,6 +20,8 @@ The page presents thirteen linked research views. Select a market-stage cell and
 
 All empirical/model distinctions, equations, time conventions, resource boundaries and incomplete requirements are documented in [model/METHODS.md](model/METHODS.md). This is an intermediate executable edition. It does not establish calibrated robot unit economics or completion of the full seven-day research campaign.
 
+In the joint comparison tables (Improvement, Digital AI ecosystem, or Analogies), select **Trace inputs and costs**. The dialog shows the four matched branches, their human/digital, robot operating and annual capital costs, accepted robot output, retained human hours, exact inputs and engine function excerpts. It uses the current scenario at its final horizon; changing the display-year filter does not change that reference horizon. These are synthetic coefficients with no empirical calibration sources. This drilldown covers joint comparisons only.
+
 ## Export and reload
 
 The export command writes deterministic files under `model/results/`:
@@ -29,6 +32,8 @@ The export command writes deterministic files under `model/results/`:
 - `scenario_summary.csv`: selected summary measures for all saved presets.
 - `observed_atlas_summary.json`: official-statistics source-row arithmetic and reconciliation, computed independently of scenario inputs.
 - `observed_research_summary.json`: audited field-study ratios/mean contrasts and archived benchmark-cost reconstruction, when those input packages are accepted.
+
+The separate `export_experiments.py` command writes `treasury_witnesses.json` and `coordination_witnesses.json`. These contain isolated synthetic settlement and protocol examples, with code hashes and event traces. They do not change the annual scenario outputs or calibrate their coefficients. See [the treasury core](model/TREASURY_CORE.md) and [coordination fixture](model/COORDINATION_TRANSACTION_FIXTURE.md) for their narrower scope. The full report incorporates these exports and rejects stale experiment code hashes.
 
 The page's **Export scenario** button downloads the same current engine result, including changed parameters. **Export selected cohort CSV** downloads all annual rows for the selected cell scope. The file input in the sidebar reloads an exported scenario and recalculates it. To rerun one saved result from the command line:
 

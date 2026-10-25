@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.2.
+Handoff ID: week-one-2026-10-25-in-progress-0.3.
 
 ## Accepted direction
 
@@ -49,11 +49,25 @@ US labor denominators, global systems/supply coverage and conditional horizons r
 
 The package loader now uses an explicit acceptance registry across server, scenario provenance and validation. Strict checks cover required claim metadata, dates or explicit reasons, quantity context and evidence references; wide-table/source semantics remain a separate review responsibility. New source packets are included in the relevant dashboard views.
 
-The treasury extension is a reviewed design proposal only. Its next implementable step is a monthly actor/obligation/resource ledger with exact cash, reservation, event-phase and shared-entrant witnesses. It does not yet close the current annual-envelope or separate-newco resource gap. Continue the ranked roadmap; do not repeat exhausted public-source requests without a new artifact.
+The treasury extension now has an isolated financial settlement core, described in the integrated edition below. Its full monthly physical/resource ledger and shared-entrant integration remain pending. It does not yet close the current annual-envelope or separate-newco resource gap. Continue the ranked roadmap; do not repeat exhausted public-source requests without a new artifact.
 
 First-checkpoint publication was verified against private remote main. Current publication receipts and exact revisions remain in ignored operational files. The requirement register now records 47 bounded items met and 17 partial, with campaign time still ongoing. Neither the counts nor the functioning dashboard imply completion of the 168-hour goal.
 
 `POST_RESEARCH_STAGING.md` preserves the accepted learning/application sequence. It can begin with the verified early edition without waiting for the deadline. It does not reset or retroactively deactivate the already recorded campaign. Practitioner outreach, public release and other-repository implementation remain separately authorized actions.
+
+## Fulsome integrated report edition
+
+The user explicitly preferred a fulsome report over piecemeal handoffs. `REPORT.md` now integrates the seven broad research chapters, all four reviewed follow-ups within their corresponding chapters, updated executive implications, the eight common-engine scenarios, and a new section on isolated cash/transaction experiments. The approximately 33,000-word report has a contents list and retains detailed source boundaries. `research/` remains the authoritative chapter source; `scripts/build_report.py` assembles the report from those sources and generated numerical exports.
+
+The isolated `model/treasury.py` core implements immutable integer-cent actor balances, invoices, own-obligation earmarks, restricted/spendable deposits and explicit funded revolving/nonrevolving credit. Its six financial snapshots test a positive assumed start/sale spread blocked by timing, a funded alternative, one-time start charges, refunds, an unpaid fee and atomic earmark consumption. It does not simulate monthly physical supply, service withdrawal, recovery, automatic maturity collection, interest, reinvestment or the entrant's shared fleet. The full shared-finance requirement remains partial.
+
+The separate `model/coordination_transactions.py` fixture exercises four paired dispatch experiments (eight traces) and two cancellation traces. Durable local intent plus an explicitly assumed authoritative external lookup/finality contract blocks blind retry under ambiguity. Unknown remains unknown, partial effects survive cancellation, and discovered conflicts revoke current completion credit. This is a serial cooperative mock with a deliberately weak comparator, not an installed RMF replay, production prototype or physical/economic performance estimate. The next step needs a compatible installation and strong conventional baseline before target claims.
+
+The dashboard's joint comparison tables now expose exact engine-derived intermediate costs, inputs, function excerpts and scenario hashes. Independent review caught a stale-scenario modal race; scenario changes now invalidate the trace. Full result lineage elsewhere remains incomplete. `scripts/export_experiments.py` generates separate synthetic witness exports; the report verifies their code hashes. The original engine, numerical catalog, eight scenario outputs, evidence packages and the user's staging plan remain unchanged.
+
+The requirement register remains **47 bounded items met and 17 partial**. Current validation and independent-review scope are in `ACCEPTANCE_AUDIT.md` and the new treasury, coordination, lineage and report-integration reviews. No new source claims or empirical coefficients were introduced by these software witnesses. Publication receipts remain local operational records, and publication does not establish another session's consumption.
+
+**Next question:** Can one monthly physical ledger enforce cash and resource reservations together, including exact completion/shipment/commissioning phases, before an entrant and incumbent compete for the same supported fleet? Preserve the existing reference edition until that integration passes independent conservation and adverse-case tests. Learning from the full report can begin immediately when Amar engages. The original campaign deadline remains unchanged.
 
 ## Canonical artifacts and ownership
 

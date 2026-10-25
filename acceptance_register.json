@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.4",
-  "edition_status": "campaign_in_progress_continuation_0.2",
+  "edition_status": "campaign_in_progress_integrated_report_0.3",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -406,11 +406,14 @@
         "dashboard/app.js",
         "model/METHODS.md",
         "reviews/model_review.md",
-        "reviews/browser_review.md"
+        "reviews/browser_review.md",
+        "model/COORDINATION_TRANSACTION_FIXTURE.md",
+        "reviews/coordination_fixture_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Learning workspace connects exposure, validation, same-configuration transfer and source rights/interface records. Rights-conditioned usable-data selection, cross-embodiment transfer, enterprise transaction/recovery dynamics and executable R&D critical paths remain absent."
+        "finding": "Learning workspace connects exposure, validation, same-configuration transfer and source rights/interface records. Rights-conditioned usable-data selection, cross-embodiment transfer, enterprise transaction/recovery dynamics and executable R&D critical paths remain absent.",
+        "integrated_edition": "A separate local transaction fixture tests explicit failure-state behavior; it is not integrated into dashboard fleet dynamics and does not run a compatible RMF installation."
       },
       "gap": "Learning workspace connects exposure, validation, same-configuration transfer and source rights/interface records. Rights-conditioned usable-data selection, cross-embodiment transfer, enterprise transaction/recovery dynamics and executable R&D critical paths remain absent.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -714,11 +717,14 @@
         "dashboard/app.js",
         "model/METHODS.md",
         "reviews/model_review.md",
-        "reviews/browser_review.md"
+        "reviews/browser_review.md",
+        "model/lineage.py",
+        "reviews/lineage_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "UI offers assumption tables, methods, source dialogs and complete saved records. There is no complete result-specific lineage from every displayed metric to its exact equation/input/locator; generic evidence links are not calibration links."
+        "finding": "UI offers assumption tables, methods, source dialogs and complete saved records. There is no complete result-specific lineage from every displayed metric to its exact equation/input/locator; generic evidence links are not calibration links.",
+        "integrated_edition": "Joint-comparison rows now expose engine-derived intermediate costs, exact inputs, function excerpts and scenario hashes. Other result-specific lineage remains incomplete."
       },
       "gap": "UI offers assumption tables, methods, source dialogs and complete saved records. There is no complete result-specific lineage from every displayed metric to its exact equation/input/locator; generic evidence links are not calibration links.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -1066,11 +1072,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "model/TREASURY_CORE.md",
+        "reviews/treasury_core_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger."
+        "finding": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
+        "integrated_edition": "The isolated stage1 financial core now tests exact cash/reservation/deposit/credit settlement; no monthly physical/entrant integration or automatic reinvestment is established."
       },
       "gap": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."

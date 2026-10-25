@@ -1,17 +1,32 @@
-# Robotics Economics — first integrated research checkpoint
+# Robotics Economics — integrated research report
 
-Edition 0.1, campaign in progress. This is a substantive early checkpoint, **not completion of the seven-day campaign**.
+Edition 0.3, campaign in progress. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. Work continues through available execution windows. No uninterrupted-compute or full-week-work claim is made.
 
-The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. Read the latest [continuation findings](CONTINUATION_FINDINGS.md), [reproduction instructions](REPRODUCE.md), the [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) with the findings. The local dashboard entry is `python3 scripts/serve.py`.
+The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination and learning-data follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
+
+Begin with the executive argument for the decision logic, then use the economic atlas to orient the technical, organizational and supply evidence. The common-engine section connects those findings to conditional scenarios. Detailed source locators, explicit conflicts and unknowns remain in the chapters and their machine-readable evidence packages; no favorable headline substitutes for their operating boundary. This expanded edition deliberately retains the full source analysis rather than compressing it into a short investment thesis.
 
 Six specialist launch requests explicitly selected GPT-6 Astra / Ultra and were accepted. Actual serving model/reasoning is not independently exposed; lead settings cannot be verified or changed through the available tools. That limitation is disclosed rather than silently treated as a verified configuration.
 
 The original Mac checkout was unavailable. Work occurred in a fresh cloud checkout, preserving unseen local edits. Publication to the private repository does not establish consumption by a separate Work session.
 
+
+## Contents
+
+- [1. Executive argument and strategic implications](#1-executive-argument-and-strategic-implications)
+- [2. Economic atlas and deployment pathways](#2-economic-atlas-and-deployment-pathways)
+- [3. Capabilities, learning and physical-digital coordination](#3-capabilities-learning-and-physical-digital-coordination)
+- [4. Customer formation, adoption and provider value capture](#4-customer-formation-adoption-and-provider-value-capture)
+- [5. Digital-AI ecosystem, benchmarks and direct contributions](#5-digital-ai-ecosystem-benchmarks-and-direct-contributions)
+- [6. Digital infrastructure and physical production](#6-digital-infrastructure-and-physical-production)
+- [7. Physical supply, embodiments, quadrupeds and drones](#7-physical-supply-embodiments-quadrupeds-and-drones)
+- [8. Common-engine scenarios and interpretation](#8-common-engine-scenarios-and-interpretation)
+- [9. Local experiments: cash settlement and transaction state](#9-local-experiments-cash-settlement-and-transaction-state)
+- [10. What remains unresolved](#10-what-remains-unresolved)
 
 ## 1. Executive argument and strategic implications
 
@@ -66,6 +81,28 @@ The physical and digital supply analyses converge on a practical rule: qualify t
 Supplier investment and customer commitments can support expansion but have different accounting meanings. Micron's take-or-pay arrangements illustrate how supply assurance and supplier financing can coexist with customer commitments and restricted uncommitted availability. TSMC's reported capital expenditure illustrates investment already made, without identifying a robot OEM's allocation. Deposits, expenditure, revenue and delivered output must remain separate. A supply backcast gives necessary conditions for a scale target; it does not establish demand or adoption.
 
 For a humanoid company, these findings favor a sequence of testable service propositions with explicit alternatives, measurable acceptance, known process authority and visible support obligations. They do not establish a universal sector ranking. The next investment-worthy evidence is a matched cohort showing accepted output, all human support, retention, full costs and rights. Public disclosures often establish only some of those links. Where they stop, the report preserves a bounded conclusion and a precise next question rather than inventing a margin or penetration rate.
+
+### What the deeper investigations change
+
+The hospital follow-up strengthens the case for defining service eligibility before discussing automation rates. The Guro study excludes urgent requests from its evaluated mission population, while routine handling and a trained accompanying safety operator remain part of the observed arrangement. Its reported success percentage disagrees with the ratio implied by its eligible and completed counts. The report retains both and does not select a convenient reliability coefficient. The Qilu comparison supplies distribution and retrieval phase timings; those shorter phases cannot establish whole-shift payroll removal. The operational question becomes whether a proposed service can satisfy its acceptance standard after counting all residual handling, oversight, failure and recovery work. The source-specific denominators and unresolved economic methods appear in the hospital follow-up in the customer chapter.
+
+The non-Spot quadruped investigation reaches a similarly useful but narrower conclusion than a broad inspection-adoption claim. TenneT's operator-coauthored offshore study shows that a legged platform can traverse and inspect portions of a difficult environment. Instrument visibility varies by room; inaccessible doors, prohibited areas, safety rules and unfinished integration constrain what service the platform can complete. Later onshore pilot material shows additional inspection development, but project duration and a programmed mission repertoire do not disclose productive exposure, retained fleet use or realized avoided labor. The evidence supports a configured inspection proposition with explicit exclusions. It does not establish abandonment, successful scale, or the economics of replacing a human visit. Both possibilities remain open where the operational record stops.
+
+The learning-data follow-up changes the denominator for a capability-investment decision. Cobalt's cloud-cost comparison concerns one collection-stage resource, and its simulated collection and separate physical evaluation have different populations. DexWild demonstrates useful human-data collection and robot-grounding experiments, while changes in dataset size and within-batch sampling mix are different interventions. Neither paper establishes a general price per unit of commercially validated capability. A robotics company choosing between teleoperation, portable human capture, simulation and additional robot deployment needs the full incremental collection, filtering, training, recovery-coverage and held-out validation cost at a fixed target. Lowering one input burden may be valuable; the value depends on which bottleneck actually limits the target policy.
+
+The benchmark reconstruction also makes a material comparison less ambiguous. TheAgentCompany's archived displayed costs include non-perfect attempts, whereas Astranomy's reported conditional cost covers a successful subset. A cheaper-looking number can therefore measure a different event. The reconstructed table improves source-side accounting without resolving omitted infrastructure, other model use, human work or the executed monetary-limit configuration. Astranomy's paused simulation further separates action-clock success from elapsed-time service in a changing environment. Those distinctions constrain any attempt to price physical orchestration from an agent benchmark.
+
+Finally, the pinned coordination interfaces locate a concrete systems question: what is known after a request is accepted, a response times out, or cancellation is acknowledged? Admission, assignment, execution and reconciliation have distinct authorities. A retry may repeat an action whose first acknowledgement was lost; cancellation acceptance need not reverse partial effects or establish a physical stop. A durable business identifier helps maintain intent, but it cannot alone make an external action and a local record one atomic transaction. A credible coordination contribution needs explicit failure handling and a strong deterministic baseline before a language model is added. Local fault tests can establish software behavior under declared assumptions; a compatible installed stack and target operating data are still needed for production claims.
+
+### Decisions to make next, and the evidence that could reverse them
+
+The next deployment decision should begin with one accepted service and a credible alternative, chosen from the broader atlas. Define the customer, process authority, output and quality standard, timing, exclusions and residual human work. Then identify the mechanism that could make the proposed configuration better: a different operating design, improved technical coverage, lower total service cost, additional useful capacity, or a temporary adoption lead. Each mechanism has a different counterexample. A simpler machine may defeat a general embodiment on stable work; a digitally improved human process may remove the apparent savings; a prompt incumbent may eliminate an entrant's timing advantage; unsupported operating work may consume the released labor.
+
+Next, separate economic value from commercial terms and liquidity. Match all alternatives on the same delivered service before allocating price, title, maintenance, control and data rights. Test the cash dates as well as lifetime margins. A refundable deposit, asset lease or supplier commitment changes who bears funding and performance exposure, and may change whether execution is possible. It is not an additional resource saving. The current annual fleet and separate monthly entrant reference illustrate parts of this logic, but their separate resource pools still prevent a joint financeability conclusion.
+
+Research should then target the observation most likely to change that decision. For an inspection proposition, retained measurement quality and avoided follow-up visits may matter more than another mission count. For hospital logistics, complete handling and recovery exposure may dominate a faster transport phase. For an entrant, customer qualification, collections, retention and funded commissioning may matter more than the next robot-price announcement. For a coordination contribution, a reconciled adverse trace may be more informative than another agent score. Public-source work should stop at a documented missing artifact when additional searches merely repeat the same disclosure. Target-site measurement or practitioner validation can follow when separately authorized.
+
+The accepted learning sequence can begin from this report while the campaign continues. Amar's first task is to explain these boundaries, challenge the six initial theses and identify the smallest observation that would change a preferred course. Understanding is not inferred from having a dashboard or reading a report. The thesis register and guided walkthrough supply prompts; they do not predetermine a startup, employer, investment or technical contribution.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -377,6 +414,58 @@ The highest-value next evidence is full-shift accepted output and intervention l
 
 For reproducibility, all numerical observations are linked to their source and locator in the evidence JSON; specifications, targets, qualitative interpretations and scenario mechanisms have separate status. Figures from different tasks are never pooled into a universal capability score. Benchmark curves are not inputs to the economic engine unless a later target-specific calibration is explicitly accepted.
 
+### Focused follow-up: Learning-data economics and validation boundaries
+
+Authoritative analysis: [research/learning_data_economics.md](research/learning_data_economics.md).
+
+Continuation finding, 25 October 2026. This follows the first checkpoint's unresolved data-input and robotics-R&D questions. [Structured evidence](data/learning_data_economics.json) preserves the inspected versions and quantities. No result here changes a numerical deployment-model parameter.
+
+The decision is whether to fund a data pipeline, not whether demonstrations are generally useful. Two current primary papers expose different bottlenecks: Cobalt improves shared simulation infrastructure and operator access; DexWild changes the embodiment and location of human demonstration collection. Both can reduce a particular collection burden without establishing cheaper accepted physical service, faster complete R&D, or a reusable commercial dataset of known cost.
+
+#### Cobalt's inexpensive demonstrations are a cloud-cost scenario
+
+[Cobalt v2](https://arxiv.org/html/2605.19138v2), submitted 20 May 2026 after the initial 18 May version, describes cloud teleoperation using smartphones and other devices. Its architecture separates client sessions, media streaming and simulation services, with an in-memory state exchange and vectorized simulations. That is a direct digital contribution to robotics data production, rather than an analogy from an unrelated industry.
+
+Section IV-B's cost example assumes an NVIDIA T4 instance at an estimated $0.92 per hour and 120 demonstrations per user-hour. It reports $7.67 per thousand demonstrations without vectorization and $1.92 with the proposed sharing. The authors limit active sessions to four per GPU for user experience despite reporting feasible teleoperation at eight. Those are **conditional compute charges**, not an audited labor-inclusive cost per usable demonstration. The arithmetic prices the cloud resource. It does not price the operators, onboarding, unsuccessful attempts, task construction, curation, policy training, hardware or physical validation. Calling the fourfold compute reduction a fourfold reduction in the complete data-production cost would change the denominator.
+
+The same paper provides a useful, different empirical object: Table V contains 7,510 recorded demonstrations and 50.61 hours, comprising 6,746 crowdsourced manipulation demonstrations plus 764 user-study demonstrations. Six manipulation tasks range widely in recorded duration. These are trajectory hours, not a disclosed payroll or fully loaded project-labor account. The paper selects demonstrations within the 50th percentile for total path length and evaluates Table VI simulation policies over 50 rollouts per task. Exact before/after curation counts remain unextracted. The low kitchen-task results (0.02–0.12 across the four reported policies) show why a large collection count is not equivalent to a solved target service.
+
+Section IV-D separately reports a physical Franka Lift experiment: 98 expert demonstrations train BC-RNN, with 52% success over 25 rollouts. This is a small real-robot learning result, beyond a hardware illustration. It remains distinct from the crowdsourced simulation pilot and Table VI evaluation, and neither establishes retained field-service reliability. Those populations must not be pooled. Likewise, a simulated-client stress test measures system load, not how many trained humans can simultaneously operate physical robots at an acceptable safety and task-success standard. The source's small device/training studies inform interface design; they do not establish a world-scale labor supply curve or a universal productivity coefficient for novice operators.
+
+The operational inference is specific: vectorization can reduce the compute share of a simulated collection workflow when concurrency, latency and utilization permit. If labor, task development, quality filtering or physical validation dominates total cost, the whole-program saving can be much smaller. The next investment test should measure these shares and useful target-policy gain at fixed validation quality.
+
+#### DexWild changes collection embodiment, with a target-grounding obligation
+
+[DexWild v2](https://arxiv.org/html/2505.07813v2) was submitted on 17 May 2026, a year after the original 12 May 2025 submission. Its human-worn collection system combines motion capture and cameras, then co-trains human and robot demonstrations. The inspected paper reports 9,290 human demonstrations across 93 environments, separate from 1,395 robot demonstrations used for target grounding. Its comparative study reports 201 demonstrations per hour for the human-worn system and 43 for the Gello-based robot-teleoperation comparator across five representative tasks.
+
+That is a reported collection-rate comparison. It is not the same as a labor-inclusive dollar-cost ratio, and it does not establish that a human demonstration and robot demonstration have identical learning value. The paper identifies haptic feedback, resets and hardware setup as practical differences, but the inspected description does not expose a complete cost ledger or enough participant/timing detail to independently reconstruct the whole comparison. Faster capture at a location also does not settle travel, setup, processing and rejection costs across locations.
+
+The downstream pipeline is explicit enough to reveal additional work: tracking reconstruction, filtering, outlier handling, smoothing and retargeting. Appendix VII-C discards episodes when wrist pose cannot be reliably tracked for more than 75% of the duration. That criterion should not be mistaken for a reported rejection fraction; the denominator of attempted versus retained collection is still needed. Table V provides training steps and batch size, but those are not a measured GPU-hour or dollar bill.
+
+The target-policy results also resist a generic scaling rule. Appendix Table III's task rows are not monotonically improving: spray performance changes from 0.605 at half of the human dataset to 0.565 at the full dataset; toy-cleanup scores initially decline before rising at the full dataset. The average improves across the listed fractions, but the author's broader “steady” wording should not erase task-level variation. These are reported point estimates; uncertainty and matched repeated evaluations are needed before attributing significance to a particular decrease.
+
+Table IV provides a second warning: increasing the human sampling share, changing the robot:human training-batch ratio from 1:2 to 1:5 reduces the reported mean score in both in-distribution and in-the-wild comparisons. These ratios concern samples within a training batch, not the sizes of collected datasets. Human-only results are much weaker in those inspected tasks. The paper expressly retains robot demonstrations to bridge the embodiment gap and identifies missing recovery examples and lack of tactile information as limitations. A lower-cost upstream data source therefore comes with a composition and target-grounding problem, not an automatic replacement for robot-specific evidence.
+
+#### What changes in the research model and investment question
+
+The existing engine correctly leaves useful-data production and causal learning response uncalibrated. These studies strengthen that boundary. Exposure hours, recorded trajectories, retained datasets, target-training mixtures and validated policies should be separate quantities. Rights and actual access remain additional conditions, not consequences of publicly available paper text.
+
+A prospective collection ledger should distinguish:
+
+1. Attempted collection and all paid human time, including onboarding, resets and quality checks.
+2. Recorded and retained demonstrations, with explicit rejection reasons and the same population/time window.
+3. Compute, equipment, task construction, travel, processing and physical target-validation costs.
+4. Dataset composition, source/target embodiment, rights and reuse restrictions.
+5. Change in held-out target policy performance at matched accepted output and operating quality, including recovery and support.
+
+The economic objective is the full incremental cost of a validated target capability, not minimum cloud spend per recorded trajectory. A pipeline can improve one stage yet leave the critical path unchanged because hardware access or validation remains limiting. Conversely, cheaper portable capture could be valuable precisely because it expands environmental diversity, even when it does not reduce total operator hours proportionally. Those are separable, testable mechanisms.
+
+For a humanoid company, this favors a small matched collection-and-validation experiment before a generalized data-factory investment: fixed target tasks, alternate collection mixes, complete human/compute accounts, common policy/evaluation budgets and retained failure/recovery coverage. The public sources support the mechanism and identify risks; they do not supply a commercial wage, usable-data yield, program ROI or field learning coefficient.
+
+#### Stopping condition and remaining evidence
+
+This bounded public-source investigation stops with two versioned primary cases that materially distinguish compute cost, collection rate and target usefulness. It does not add a speculative total cost to fill missing components. The next step requires the underlying study logs/supplements or a new controlled operating dataset: full collection person-hours, failed/rejected episodes, target-training/validation compute, equipment amortization and rights. If those remain unavailable, retain the null full-cost estimate and test sensitivities explicitly rather than call the data pipeline commercially validated.
+
 ## 4. Customer formation, adoption and provider value capture
 
 Authoritative chapter: [research/customer_value.md](research/customer_value.md).
@@ -543,6 +632,92 @@ Second, seek matched pilot-to-rollout comparisons that observe approval authorit
 
 These gaps are registered as `FG-Q-01` through `FG-Q-05`, linked to the existing OS/BM roadmap. The next bounded question is: **Can a robot-supported service contract recover all commissioning, customer-acquisition and working-capital costs before cancellation or same-technology competition removes its surplus, and who must finance the intervening cash deficit?**
 
+### Focused follow-up: Hospital service, support and economic denominators
+
+Authoritative analysis: [research/field_support_denominators.md](research/field_support_denominators.md).
+
+Bounded second-wave findings · 25 October 2026 · Version 0.1.1
+Evidence and reproducible arithmetic: [field_support_denominators.json](data/field_support_denominators.json). The existing [capability dossier](research/capability_learning.md) and its evidence package remain frozen. Requested Astra Ultra settings cannot be independently verified from this delegated runtime.
+
+Two additional primary hospital studies improve the evidence beyond cumulative delivery announcements. One identifies the people present during a mission while defining success as occurring without any human intervention; that wording needs interpretation alongside the staffed workflow. The other compares transport phases with manual delivery over six months. Neither yet supplies a verified, complete labor-cost denominator. The useful advance is a sharper distinction between **a mission without correction, a delivery with human handling and supervision, and a service with lower total paid support**.
+
+The endoscope study's published means support two arithmetic contrasts: AMR-assisted distribution is **56.41 seconds, or 33.48%, lower** than the manual distribution mean; retrieval is **21.36 seconds, or 23.39%, lower**. These are transport-phase comparisons, not staffing savings. The medication-delivery study also exposes a new internal count conflict: 108 completed missions out of 122 eligible implies 88.52%, whereas the paper reports 87.03% overall success. Both numbers are retained; neither is silently repaired into a calibration input.
+
+The cases concern specialized wheeled transport in South Korea and China. They inform the mechanisms and comparator for the US hospital-logistics cell, `CELL-M10-hospital-logistics-US-2025`; their measured values are not transferred to US nursing labor or humanoid performance. No common-model parameter changes are made.
+
+#### 1. Guro medication delivery: corrective intervention is only one part of support
+
+[Lee et al., Digital Health](https://pmc.ncbi.nlm.nih.gov/articles/PMC13039597/) studied one DOGU IROI robot on a pharmacy-to-emergency-department route at Korea University Guro Hospital. A web request, secure medication drawer and communication module integrated the robot with a shared, staff-only TK50M elevator. The robot moved from the pharmacy at B2F to the emergency department at 1F. This configured route is the unit of evidence—not hospital-wide material handling.
+
+The primary full text and [public JATS record](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13039597/fullTextXML) were retrieved and inspected. The JATS electronic publication date is **31 March 2026**. Search/DOI metadata giving February 2026 is not used as the authoritative publication date. Observation occurred **18–29 June 2025**.
+
+##### The matched mission cohort
+
+Section 2.4 reports 135 logged delivery requests and excludes 13 urgent runs, leaving 122 eligible nonurgent missions: 80 weekday and 42 weekend missions. Missions were selected to cover high- and low-congestion conditions; they followed clinical demand, with inter-mission gaps ranging from six to 1,044 minutes. These are sampled missions over a calendar window. They do not establish continuously staffed robot-hours, full-fleet utilization, or a fixed number of deliveries per shift.
+
+Section 2.4 defines success literally as the robot “completing the entire route and handing over the medication without any human intervention.” Our distinction between **corrective assistance and routine handling or safety presence** is a contextual interpretation of the human roles disclosed in sections 2.3–2.4. The paper does not formally delimit its intervention term, so the tension between that wording and the staffed workflow remains explicit. Failure includes remaining stationary for more than one minute **or** requiring manual assistance because of passenger/cargo obstruction. Consequently, a failed mission is not automatically an intervention event, and the number of failures cannot be multiplied by an assumed recovery duration.
+
+The source identifies the human work more explicitly than most deployment announcements:
+
+| Role or activity | What the study establishes | Missing economic denominator |
+| --- | --- | --- |
+| Trained accompanying operator | Accompanied the robot for medication-handling safety and recorded passenger/cargo observations. Presence also applied during the study's no-correction workflow. | Time devoted to accompaniment versus research annotation; whether/how accompaniment could be removed after validation; paid staffing allocation. |
+| Pharmacist | Prepared medication, loaded the drawer and initiated delivery. | Incremental loading/interface time versus the existing courier workflow. |
+| Support staff | Requested/dispatched the robot and usually retrieved medication at the destination before handing it to a nurse. | Dispatch, monitoring, retrieval and transfer minutes; concurrent work and avoidable paid time. |
+| Nurse | Sometimes retrieved medication directly when support staff were unavailable. | Frequency and duration of the additional walk/interface/verification tasks. |
+| Exception response | Corridor, communication and elevator-blockage failures were classified. | Recovery time, number of people, repeated attempts and ultimate medication delivery after a failed mission. |
+
+A safety observer in a research trial does not prove permanent commercial escort requirements. It does prove that “no corrective intervention” cannot be read as “no person present” or “zero human support” for this observed sample. Conversely, keeping an escort in the cost boundary forever without further evidence would also overstate what the study establishes.
+
+##### What can be calculated—and what cannot
+
+Section 3.2 reports 14 failures: eight elevator blockages, two elevator-call communication errors and four corridor-navigation failures. These categories sum correctly. Thus **8/14 = 57.14% of classified failures were elevator blockages**. That is a failure-composition statistic, not an intervention rate or a share of staff time. The study-selection calculation **122/135 = 90.37%** also holds for the logged request cohort; it does not estimate the eligible share of all hospital transport demand.
+
+The overall success figures conflict. Section 2.4 gives 122 eligible missions, section 3.2 gives 14 failures, and section 3.4 analyzes 108 completed trials. Those counts are internally consistent with each other, and **108/122 = 88.52%**. Section 3.1 nevertheless states **87.03%** overall success, a difference of about 1.49 percentage points. The source does not explain a different denominator or additional exclusions. The JSON records the count-implied percentage as an **audit calculation only** and leaves the selected success probability null. Arithmetic alone cannot establish which published field is erroneous.
+
+Another boundary remains uncertain: sections 2.6–2.6.1 describe questionnaires after a four-week testing phase, whereas mission dates span June 18–29. The relationship between these phases is not explained. No four-week robot exposure is reconstructed from the survey wording.
+
+##### Service quality and the proposed dispatch improvement
+
+The fitted elevator-operating-rate threshold is 59.01%, and the paper reports 95.52% success in the selected lower-congestion subgroup. This is an association and a threshold fitted in the study sample. It is not a prospective experiment demonstrating the causal effect of a congestion-aware dispatch policy. Restricting dispatch to quiet periods may defer useful work or shift urgent deliveries to people. Filtering out non-elevator failures to reach approximately 100% is particularly unsuitable as an all-cause service-success claim.
+
+Elevator waiting and travel analyses use the **108 completed trials**. Their delay relationships therefore omit the failed-mission burden and cannot determine end-to-end service time. Table 1's temporal definitions and section 3.4's shorthand are not fully identical; the package does not rebuild a mission cycle from those plots. The public paper says the underlying datasets are available from the corresponding author on request, rather than providing a retrieved mission-level dataset. No outreach was made.
+
+The 22 survey respondents comprise seven pharmacists, seven support staff and eight nurses. Support staff report higher usability, while nurses and pharmacists acquire small handling/interface tasks. Overall NASA-TLX scores do not differ significantly across the groups. These are subjective workload comparisons, not a before/after time-and-motion estimate of labor removed. The next useful experiment would measure normal handling, accompaniment and exception recovery alongside all requested services, including urgent/manual fallbacks and deferrals.
+
+#### 2. Qilu endoscope transport: a genuine comparator with an incomplete cost boundary
+
+[Shi et al., Gastrointestinal Endoscopy](https://www.giejournal.org/article/S0016-5107(25)02075-9/fulltext), also indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/41076017/), reports a prospective comparison at Qilu Hospital of Shandong University. Direct [PubMed metadata](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41076017&retmode=xml) records electronic publication on **10 October 2025** and the journal issue in May 2026. An earlier indexed publisher-history extract gave October 9, but that history was not reproduced by the current fetch; it remains a metadata discrepancy, while the directly verified PubMed date is selected. The study itself ran **21 May–21 November 2024**.
+
+One day in each five-day week was randomly assigned to manual transport; the remaining four used AMR-assisted transport. The study included 5,393 manual and 21,048 AMR-assisted endoscope deliveries and describes a system of eight AMRs. This provides an actual manual comparator with a stated allocation procedure, unlike a robot-only cumulative counter. It is randomization by day, however; the accessible abstract does not expose adjustment for clustered observations, route mix, daily workload or within-day service conditions.
+
+| Reported phase | Manual mean | AMR-assisted mean | Arithmetic contrast |
+| --- | ---: | ---: | ---: |
+| Distribution | 168.48 seconds | 112.07 seconds | 56.41 seconds lower; 33.48% of manual mean |
+| Retrieval | 91.32 seconds | 69.96 seconds | 21.36 seconds lower; 23.39% of manual mean |
+
+The abstract reports `P < .001` for each phase comparison. The calculations above simply subtract the published means and divide by the corresponding manual mean. They do not reconstruct a new significance test, a labor-saving estimate or a service throughput rate. The phases are not added together to claim person-time savings: matched pairing, failure handling and phase sample counts are unavailable from the retrieved text.
+
+The AMR-assisted group reports a rounded delivery-failure rate of **0.15%**, compared with no unsuccessful manual deliveries. This is relevant counterevidence to reading lower mean time as dominance on every service dimension. The exact failed-delivery numerator is not reconstructed by multiplying 0.15% by 21,048; that creates a fractional count and presumes an unverified denominator. The abstract also does not reveal whether the included deliveries denote attempts or accepted completions, how failed cases enter the timing calculations, or the detailed acceptance and adverse-event rules. It does not establish autonomous endoscope reprocessing or clinical-quality equivalence merely by transporting endoscopes.
+
+The authors report **2.18 FTE of transport workload reduction** and approximately **12.8% ROI**. These are retained as attributed findings with unaudited methods, rather than silently discarded or accepted as inputs. The public publisher page, despite its `/fulltext` path, exposed the abstract and references through retrieval; direct retrieval returned HTTP 403. The detailed FTE-hours convention, measured support tasks, maintenance allocation, price, depreciation/financing boundary and ROI horizon were not verified. Workload expressed in FTE also does not prove that payroll positions were removed.
+
+For a customer/operator comparison, the missing bridge is now concrete: identify all loading, unloading, monitoring, cleaning, recovery and maintenance person-minutes for the same transport population, then show which paid hours can actually be avoided. Until then, this study supports a specialized-transport time benchmark and a promising cost-evaluation lead. It does not calibrate a humanoid or a US hospital staffing model.
+
+#### The ChristianaCare discrepancy remains open
+
+The earlier [ChristianaCare observation](https://pmc.ncbi.nlm.nih.gov/articles/PMC11892717/) retains its stated 107 interventions and its categories totaling 111. Its 33 hours are observer-hours from 23 sessions, with 89 end-to-end deliveries. No matched intervention-duration series has been found, and the discrepancy is not resolved by comparing it with later cumulative delivery totals.
+
+The [operator's blueprint landing page](https://christianacare.org/us/en/for-health-professionals/nursing/nurse-led-innovation) points to [Charting Nurse-led Innovation](https://issuu.com/christianacare/docs/charting_nurse-led_innovation), whose publisher record is dated 19 December 2025. This is the follow-up report referenced by the later hospital perspective. Its existence and metadata were verified, but the report's body was not retrieved: indexed extraction exposed only its title/description, and direct report/embed access returned 403. The package makes no claim about unseen contents. The 107-versus-111 conflict, and the lack of a matched support denominator for more than 48,600 later cumulative deliveries, remain explicit.
+
+#### Model implication and stopping decision
+
+Three additions are justified now. First, separate **normal handling, safety presence and exception correction** in the service model. A single intervention rate misses two of these. Second, retain service eligibility and demand displacement: a low-congestion or nonurgent robot schedule must account for deliveries deferred or completed by people. Third, use the specialized endoscope system as evidence that process-time improvement is measurable with a comparator, while requiring a separate paid-labor bridge before claiming savings.
+
+The next evidence packet must join request IDs, accepted receipt and timing, robot active/down hours, staff task-duration logs and failed/manual fallback outcomes. The appropriate economic quantity is total relevant person-minutes per accepted service, compared at matched urgency, payload, route and quality. Neither calendar time nor cumulative deliveries supplies that quantity by itself.
+
+This wave stops after two empirical case audits and bounded follow-up access attempts. The Guro supplement was sought through its publisher link, PMC attachment and public EuropePMC supplementary archive; attempts returned a preparation HTML page or timed out, including a 45-second archive retry with zero bytes received. The Qilu full methods and ChristianaCare report body were not accessible through the attempted primary routes. No paid access, correspondence, broad new search campaign or invented calibration was used. The JSON contains five transparent arithmetic checks, three unresolved source conflicts and the missing-denominator requirements. Existing checkpoint artifacts and common-model assumptions remain unchanged.
+
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 
 Authoritative chapter: [research/digital_ecosystem.md](research/digital_ecosystem.md).
@@ -695,6 +870,111 @@ H1 is connected to the lead's infrastructure dossier; this wave does not complet
 5. **Measure validated robotics R&D acceleration.** Recover candidate-selection, compute, human-review and physical-test costs for DrEureka and contrasting work. The completion criterion is fixed-objective validated engineering output and critical-path cost/time, not more generated candidates.
 
 These priorities connect directly to market sequencing, deployment architecture, learning investment, provider boundaries and same-technology incumbent/newco comparisons. They require public research first; unavailable field measurements remain explicit gaps rather than invented calibration.
+
+### Focused follow-up: Benchmark reproducibility and transaction authority
+
+Authoritative analysis: [research/coordination_reproducibility.md](research/coordination_reproducibility.md).
+
+Version 0.1.1 · 25 October 2026 · Next-wave H/E research supplement. The observed launch repository revision is recorded in ignored `sync_receipt.json`. This extends [the digital ecosystem dossier](research/digital_ecosystem.md); it does not replace its first-checkpoint evidence or claim completion of the continuing campaign. Machine-readable records and the reconstructed task-cost table are in [coordination_reproducibility.json](data/coordination_reproducibility.json).
+
+Three findings change what can be reproduced or inferred. TheAgentCompany publishes enough task-level results to establish that its reported average includes unsuccessful tasks, but the effective monetary limit is unresolved. Astranomy documents substantial configuration detail and a pinned task-list source, while its policy harness and complete failed-episode costs remain unavailable in the inspected public material. Open-RMF supplies concrete conventional integration mechanisms, including validation, request IDs and completion callbacks; these mechanisms have narrower semantics than an enterprise transaction or proof of physical completion.
+
+All numerical reconstruction below concerns the source benchmark. None supplies a physical throughput, labor-substitution, cost-learning or adoption coefficient. Reading code establishes a documented/implemented interface at a source revision, not a deployed installation, tested interoperability or measured benefit from an LLM.
+
+#### TheAgentCompany: recoverable failure costs, incomplete run provenance
+
+The [v3 paper](https://arxiv.org/html/2412.14161v3), dated 10 September 2025, reports Gemini 2.5 Pro with OpenHands 0.28.1 at 30.3% full completion, 39.3% partial-credit score, 27.2 model calls and about $4.20 per instance. The run is much older than the paper version: the experiment directory is dated 10 May 2025, two sampled trajectories carry that date, and its initial repository commit was 11 May. It is a dated configured-system result, not a current frontier ceiling. The paper fixes simulated coworkers and LLM evaluators to Claude-3-5-Sonnet-20241022; those environment calls are distinct from the agent being evaluated. [HCR-E001–005]
+
+The [archived run report](https://github.com/TheAgentCompany/experiments/blob/8cc10953909b88b2aa856b05134c344b505e5fcd/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/README.md) exposes all 175 task rows and identifies 53 perfect completions. Its “Details” section declares **OpenHands CodeAct PyPI release 0.28.1 with cherry-pick PR 7679**, using `gemini-2.5-pro-preview-05-06`. The two raw-trace checks below corroborate that declared model identity. Its more precise mean is $4.23. The README bytes are identical at the initial result commit and the inspected repository head, SHA-256 `dd989928d67a2b9b42a4e0872b520958821ef718e0b22183b88224b69841ad71`. Reconstructing the displayed, cent-rounded costs gives:
+
+| Source-benchmark accounting boundary | Reconstructed amount | Interpretation |
+| --- | ---: | --- |
+| All 175 evaluated task rows | $740.34 | Agent API-cost estimate across the recorded suite, including non-perfect results. |
+| The 53 perfectly completed tasks | $80.85 | Successful-subset cost; it is not the cost of attempting the full suite. |
+| The 122 non-perfect tasks | $659.49 | About 89.1% of the displayed total. Some earn partial credit; this is not proof that their work has zero value. |
+| Full-suite cost divided by 53 perfect completions | About $13.97 | An accepted-output-normalized benchmark ratio, conditional on this heterogeneous task mix and full-completion criterion. |
+
+These are arithmetic reconstructions, not new experiments, actual invoices, retry-until-success estimates or business margins. Each row is rounded to cents; the aggregate can differ from the unrounded sum by up to $0.875 if each row uses ordinary nearest-cent rounding. The tasks differ in value and difficulty. Dividing the total by 53 does not turn them into interchangeable business services.
+
+The pinned [summary implementation](https://github.com/TheAgentCompany/TheAgentCompany/blob/98b68ef82a47690c316f42fddb05baafaab56851/evaluation/summarise_results.py#L91) explains the denominator: it extracts distinct model-response usage records from agent trajectories, calculates token costs assuming no prompt caching, and divides total trajectory cost by trajectory count, without filtering for success. The Gemini pricing branch names `gemini-2.5-pro-preview-05-06` and dates its price reference to 8 May 2025. This method does not price the separate NPC/evaluator runs, environment hosting, setup, recovery labor or omitted infrastructure-failure attempts. The runner documentation explicitly says errors may skip tasks and evaluation can be resumed. The 175 completed rows cover the benchmark population; they do not prove that no earlier setup or runtime attempts were discarded. [HCR-E004]
+
+A bounded spot check independently decompressed two published trajectories, without executing agent code. A successful `pm-create-plane-issue` trace contains eight distinct calls to `gemini-2.5-pro-preview-05-06`; the published pricing formula reconstructs $0.21672, matching the report's $0.22. A zero-score `sde-close-all-prs` trace contains 100 calls and reconstructs $95.91578, matching $95.92. Their first-to-last recorded-event spans are approximately 40.48 seconds and 1,285.55 seconds respectively. These are trace spans, not complete service cycle times: initialization, grading and infrastructure operations lie outside the sampled boundary. Two purposively selected traces cannot estimate average or tail latency for the suite. [HCR-E005]
+
+The [9 May harness revision](https://github.com/TheAgentCompany/TheAgentCompany/blob/3a1777e23eec4c075ab095b5a814634b843db031/evaluation/run_eval.py#L31) pins OpenHands 0.28.1 in `pyproject.toml`, sets `max_iterations=100` and `max_budget_per_task=4`, disables prompt extensions/history truncation and uses a no-op condenser. Its 300-second sandbox timeout, 900-second initialization timeout and 600-second grading timeout are not a single task-wide wall-clock deadline. The script's task-image tag is `1.0.0`; no image digest manifest or exact executed configuration accompanies the inspected report. [HCR-E003]
+
+The declared patch matters to reproducibility: [OpenHands PR 7679, “Fix cached tokens”](https://github.com/OpenHands/OpenHands/pull/7679), was merged on 3 April 2025 at 01:11:19 UTC, with merge commit `d7f651a06c231fac1448c0c4a3ffd92c8be682c6`. Its stated purpose is to handle `None` cached-token values. The report identifies the cherry-pick; it does not identify the resulting local executed tree or establish that the patch explains any budget discrepancy. A bare OpenHands 0.28.1 label omits this declared modification. [HCR-E014]
+
+The configured budget of four cannot be promoted to a verified four-dollar evaluation ceiling. Archived no-cache repricing substantially exceeds it, including the sampled $95.92 trace. Different runtime cost accounting, ineffective model pricing, local overrides or a different executed configuration could explain this; the inspected evidence does not select among them. The historical source revision is a reproducible candidate configuration close to the run date, not proof of exact executed code. A future replication needs the actual patched config/tree, price-accounting behavior, dependency/image digests, restart policy and all-attempt logs. Simply running current `main` would also change OpenHands: the repository history records an upgrade to 0.42.0 in July 2025.
+
+#### Astranomy: a task-source pin is not a policy-harness pin
+
+The existing H dossier already resolves the consequential cost and clock qualification. [Astranomy §4.2/Table A11](https://research.nvidia.com/labs/srl/projects/astranomy/) prices **successful episodes only**. Agentic token usage covers 447 of 449 successes, from 600 attempts. Its $36.40 mean therefore cannot be compared directly with TheAgentCompany's all-instance mean, nor converted into all-attempt cost per accepted output by dividing by the reported success rate. Failed episodes may have different call counts and token histories, and two successful episodes also lack usage. [HCR-E006; existing H-ASTRANOMY]
+
+This audit adds the version boundary. The page's raw HTML links its task previews to [RoboLab commit `ad45d4f…`](https://github.com/NVlabs/RoboLab/tree/ad45d4f974725d020f82c2b0d77d78533aeba2b3), committed 12 September 2026. That is a genuine immutable task-source reference. The hero's **Code** link instead points to `gitlab-master.nvidia.com/xuningy/robolab/-/tree/main/policies/ai_native`; attempted retrieval from this session failed with HTTP tunnel 403. No public immutable policy-harness commit or exact Codex/served-model build was found in the inspected report and linked public sources. The link failure does not establish what access others may have. The report itself acknowledges limited visibility into serving infrastructure and internal processing. [HCR-E007–008]
+
+The mutable report was retrieved as 1,265,231 HTML bytes with SHA-256 `087ea1e189899e73b742922f4be463eee0e60204b919f8e89e53618e503271d4`. This fingerprints what was inspected; it is not a publisher version or a stored full archive. An exact publication timestamp remains unverified. The protocol and final-configuration table make the following settings inspectable:
+
+| Boundary | Reported configuration | Reproducibility implication |
+| --- | --- | --- |
+| Population and sampling | 120 tasks, five episodes each, seeds 0–4; ablations on a selected 30-task subset | Retain task and seed, including failures; do not pool ablation populations with the full benchmark. |
+| Shared input and budget | Astra, medium reasoning, three 384 × 216 views; 8,192 completion tokens per call, including reasoning and tool/action output | A per-call token ceiling is not an episode cost ceiling. Exact served-model and harness builds remain unresolved. |
+| Direct temporal configuration | 3–15-action chunks on 90 tasks, historical 1–15 chunks on 30; three observations at t−14, t−7 and t | The pooled result is not one completely uniform action-horizon condition. Preserve this cohort distinction in replication. |
+| Agentic configuration | Persistent full text/visual history; planning and motion feedback retained; optional tools disabled; one target held for 1–5 steps | Persistent history helps explain token growth; optional Python/image tools are not part of the reported default merely because an ablation enables them. |
+| Orchestrated configuration | Cosmos3-Nano-Policy proposals, Astra review/edit/takeover, 15-step review horizon; optional native tools disabled | A second controller adds its own timing and cost boundary; general model calls alone are not the full system bill. |
+| Clock and stopping | 15 Hz simulated control; simulation paused for inference; no walltime or retry limit; task-specific action-step limit | No observed response while the world keeps changing, and no physical deadline-constrained success estimate. |
+
+The linked public RoboLab code supplies relevant conventional machinery: `eval/episode.py` obtains `max_steps` from `env.max_episode_length`, while `core/environments/config.py` takes `episode_length_s` from the task class. For example, the pinned `FoodPackingByColorTask` sets 120 seconds of simulated episode length. That does **not** establish the exact configuration or maximum real elapsed time of Astranomy's corresponding run, since its policy-side overrides are unverified and inference pauses the simulation. The required next evidence is an executed configuration manifest, not a conversion from simulated seconds to worker productivity. [HCR-E007]
+
+Timing is also conditional on successful episodes. The report's 13.37 seconds per Agentic call and 97.8% inference share use estimated duration formed from rollout duration plus inference time; network delay is included in Astra inference. The demonstration with delays inserted is an estimate under sequential inference and real-time action execution, not a measured physical trial. The report expressly withholds statistical significance for configuration differences. Source-side capability remains informative; real-time deployment, full cost and target-side generalization remain open.
+
+I additionally inspected the public cost-chart, inference-timing, full-results and failure-viewer script references. Those inspected assets did not expose a complete all-attempt token ledger. This is a bounded negative retrieval finding, not proof that such data do not exist. Prompt displays, example videos and a task-source pin are useful counterevidence to a claim of no disclosure; they do not close the missing executable-harness and accounting boundaries.
+
+#### Open-RMF: implemented coordination with layered authority
+
+The first H dossier cites mutable introductory documentation. This audit pins three **separate components**, without asserting they form a tested compatible deployment:
+
+| Component | Inspected release and immutable revision | Source date |
+| --- | --- | --- |
+| `rmf_ros2` | 2.14.0, `7f7b247a618c22f76bf01ff0fb393f72317f6d9a` | Commit 25 September 2026 |
+| `rmf_api_msgs` | 0.7.0, `2f25a8590ae9aace6f56125b752a88b688c5634e` | Commit 18 September 2026 |
+| `rmf-web` | 0.3.0, `7aa265337936a5bd9a920b3fa2360a43244a015c` | Release published 5 August 2025 |
+
+The [task-request schema](https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/task_request.json) requires a task category and description; the description must match a schema supported by a fleet. Optional start time, priority, labels, requester and fleet restrictions communicate scheduling intent. A requester string is not itself proof of business authorization. The task-state schema separately represents queued, underway, completed, failed and canceled states, and distinguishes dispatch status from task progress. [HCR-E009]
+
+In the pinned [dispatcher implementation](https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_task_ros2/src/rmf_task_ros2/Dispatcher.cpp#L446), a valid dispatch request creates a task ID, pushes a bid notice, and responds `success: true` with task state. That response establishes entry into the dispatch process, **not** successful assignment or physical execution. The dispatcher caches responses by request ID in bounded process memory, with `_max_size = 50`; the implementation is not a durable enterprise idempotency ledger. It republishes lingering dispatch commands, expiring them after ten seconds in this revision. After a task is dispatched, the dispatcher explicitly treats it as the fleet adapter's responsibility. [HCR-E010]
+
+Fleet admission and actuation are separate. [`FleetUpdateHandle`](https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp) exposes request-consideration callbacks after feasibility checks. Defaults depend on the API layer: its delivery and cleaning callbacks require enablement, while `EasyFullControl` documents an accept-all default that can be restricted. No universal deployment permission policy follows from those defaults. [`EasyFullControl::RobotCallbacks`](https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/EasyFullControl.hpp#L337) delegates navigation, stop and action execution to the integrator. The integrator calls `CommandExecution::finished()` when a navigation/docking command successfully finishes and supplies activity-linked state updates. This is a concrete feedback responsibility; a generated plan cannot substitute for robot feedback. [HCR-E011]
+
+Cancellation also has a bounded meaning. [`TaskManager::_handle_cancel_request`](https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/src/rmf_fleet_adapter/TaskManager.cpp#L3036) validates the cancel schema and sends a success response when `cancel_task` accepts the operation. For an active task, that method calls the active task's cancel function and returns; it does not wait for an observed physical stop or reversal of business effects. Cancellation acceptance must therefore be distinguished from final robot state and any inventory/order reconciliation. If `cancel_task` returns false, the inspected handler sends no success response; it does not emit an explicit negative cancellation reply there. A caller may instead encounter a response timeout, whose cause requires reconciliation. This audit does not characterize a safety-rated emergency-stop system. [HCR-E012]
+
+The pinned [web task route](https://github.com/open-rmf/rmf-web/blob/7aa265337936a5bd9a920b3fa2360a43244a015c/packages/api-server/api_server/routes/tasks/tasks.py#L219) validates the response and stores task state/request records after successful dispatch. The application attaches a user dependency to task routes; actual authentication configuration and business permissions require installation-specific inspection. Its [`RmfService.call`](https://github.com/open-rmf/rmf-web/blob/7aa265337936a5bd9a920b3fa2360a43244a015c/packages/api-server/api_server/rmf_io/rmf_service.py#L73) creates a fresh UUID on every call, publishes over ROS, and defaults to a five-second response timeout. The source describes a pub/sub pseudo-service with possibly multiple or out-of-order responses. A timeout is not evidence that the request had no effect; retrying the HTTP operation creates a new ROS request ID in this implementation. Dispatcher response caching therefore cannot, by itself, deduplicate repeated business requests. This is a code-derived failure-mode hypothesis, not an observed incident. [HCR-E013]
+
+The resulting integration boundary is explicit:
+
+| Stage | Observed source mechanism | Remaining target responsibility |
+| --- | --- | --- |
+| ERP/WMS/MES business intent | No end-to-end business connector verified in this audit | Own order validity, stock/reservation state, task-to-business-ID mapping and who may commit changes. |
+| Model proposal | No LLM uplift established by these RMF sources | Validate against service requirements and allowed commands; compare with a deterministic alternative. |
+| Task API admission | Typed category/description and response/state schemas | Preserve request identity across retries and distinguish acceptance from assignment/completion. |
+| Fleet assignment/admission | Bidding, feasibility and fleet consideration callbacks | Configure permitted work and confirm adapter capability at the target site. |
+| Robot execution | Integrator navigation/stop/action callbacks and progress/completion feedback | Keep robot state authoritative; handle stale feedback, interrupted work and partial physical effects. |
+| Cancellation/reconciliation | Cancel request/response plus evolving task state | Observe terminal state, reconcile physical goods and business records, then release/reassign work. |
+
+This applies as an architecture question to the existing tote-logistics, hospital-logistics and floor-cleaning cells. It supplies no evidence that these exact component versions are used in GXO, a hospital or ISS, nor that humanoid or LLM orchestration improves those workflows.
+
+#### Executable implications and bounded next steps
+
+The common economic engine should retain independently selectable inference/service cost, failed-attempt work, elapsed-time loss, integration cost and accepted-output probability. These findings do not calibrate their values. A source-side replay can test accounting and protocol invariants before any physical deployment study:
+
+1. **Cost denominator:** reconstruct all 175 archived TAC rows and keep perfect/non-perfect counts. Join all model calls, NPC/evaluator usage and infrastructure restarts before labeling an amount total cost per accepted output. The saved JSON table reproduces the displayed-cost calculation offline.
+2. **Clock:** require both action-clock and elapsed-clock fields, all-attempt distributions and target service deadlines. Reject a transfer from paused-simulation success to a continuously changing physical environment without target evidence.
+3. **Transaction state:** exercise timeout-after-acceptance, duplicate business request, restart, late response and cancel-after-partial-execution cases against one pinned compatible RMF installation. Success means reconciled terminal state and no duplicate business effect, not merely HTTP success. These are proposed validation cases, not tests executed here.
+
+The narrow audit stops after establishing the source pins, reconstructing the available denominator, sampling contrasting raw traces and tracing request/response/execution responsibilities. It did not spend API credits, install/run the benchmarks, execute ROS, operate robots, contact maintainers or obtain paid data. The 175 archived trajectories total about 308 MB compressed; only two were decompressed in this wave. A complete cost/latency replay and an installation-specific transaction test are deliberately separate work, not claimed validation.
+
+The next priorities are: obtain an exact TAC run manifest and explain its effective monetary ceiling; obtain Astranomy's full failed/successful usage ledger and immutable policy configuration; then select one compatible RMF release set and a target operator's business-state contract. Stop a public-source branch when the required artifact is absent or inaccessible after the documented direct-source checks, preserving the null. Reopen it when a new artifact or target-site source becomes available. No outreach or physical experiment is authorized by this document.
+
+Verification used Exa primary-page retrieval, direct public GitHub/raw-source inspection, local standard-library parsing, source hashing and arithmetic checks. A separate reviewer reproduced all 175 saved rows and totals, both sampled trace hashes, model/call counts, repricing and event spans, and checked the RMF control-flow claims. Review corrections added the declared cherry-pick and the no-response cancellation qualification; no benchmark or robot was executed. The requested model was GPT-6 Astra with Ultra reasoning; the serving model/reasoning configuration is not exposed for independent verification. Claims above rest on inspected sources, not a claimed serving identity.
 
 ## 6. Digital infrastructure and physical production
 
@@ -909,6 +1189,74 @@ This edition supplies three quadruped dossiers across manufacturing/infrastructu
 
 The highest-priority next work is a matched recurring inspection cohort: accepted outputs, interventions, review hours, repeat visits, downtime and full configured costs. Next retrieve the disposition of the Blyth trial and configuration-specific service manuals/BOM compatibility. Then inspect data/repair rights and add non-Spot operator cases with comparable exposure. Actual agricultural-service and medical-delivery economics should be investigated before using either as proof of an attractive operating business. The JSON records precise stopping conditions; additional publicity without those denominators would not resolve the decision.
 
+### Focused follow-up: Non-Spot operator evidence and retained-deployment limits
+
+Authoritative analysis: [research/quadruped_operator_followup.md](research/quadruped_operator_followup.md).
+
+Follow-up edition 0.2 · 25 October 2026 · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+
+This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The requested Astra/Ultra configuration remains unverified at runtime.
+
+The consequential result is that industrial inspection coverage can remain incomplete after autonomous navigation works. TenneT’s 2018 offshore trial assessed 385 instruments in three rooms, with room-specific inspectable shares of 92%, 85% and 54%. Hidden valves, doors and operating restrictions constrained coverage. Its later onshore program explicitly selected points suited to the robot, while the public evaluation material left costs and results unfilled. Neither episode supports a percentage reduction in maintenance employment. The public record also does not establish that either project was abandoned.
+
+#### Episode QOF-D01: offshore ANYmal B300, 2018
+
+The [field study](https://doi.org/10.1007/978-981-15-9460-1_18) by Gehring and colleagues includes TenneT authors Marcel Potz and Lars Gerstenberg alongside ANYbotics researchers. Its ETH bibliographic wrapper dates publication to January 2021; the observed deployment occurred in 2018 on an unnamed TenneT offshore HVDC platform in the North Sea. This is firsthand, operator-coauthored evaluation, with supplier participation—not independent third-party telemetry. The full chapter was retrieved through Exa; a separate direct ETH PDF request returned HTTP 429. Section and figure locators are retained rather than inventing PDF page offsets. [QOF-E01]
+
+The tested system was ANYmal B300 with a prototype inspection payload, not today’s ANYmal X. The chapter describes stronger actuators for steep stairs, onboard visual/thermal/acoustic sensing, lidar-based mapping and a charging station. It does not publish a software build or serial revision. A qualified operator could program missions, observe status and intervene remotely. The supplied GUI produced a post-mission report covering navigation, inspection and unexpected events.
+
+##### Exposure and the service denominator
+
+Section 6 reports more than 30 autonomous missions over two weeks. One illustrated route covered 19 points of interest. The study reports an average tour time of approximately 25 minutes, including six minutes of inspection on average; the timing sample and distribution are not specified. Those figures describe route timing and a field-test window. They do not establish 30 successful missions out of 30 attempts, continuous two-week unattended uptime, or a productive rate applicable to every instrument. The contemporaneous [manufacturer announcement](https://www.anybotics.com/news/worlds-first-autonomous-offshore-robot/), dated 25 October 2018, instead describes a one-week September pilot and a video mission with 16 points. The publication does not explain whether these are different subsets or phases. They remain distinct observations; this edition does not average the windows or add the routes. [QOF-E01 §6/Fig.11; QOF-E02]
+
+The study’s more useful denominator is its coverage assessment: 385 instruments across a pump room, water-treatment room and HVA/C room. It reports that 92%, 85% and 54% of the respective points could be inspected. Individual room counts are absent, so even a pooled percentage cannot be calculated defensibly. These are coverage results, not repeated-measurement precision, defect-detection sensitivity, mission reliability or completed maintenance actions. They also concern an evaluated subset, not a complete inventory of every mandatory site inspection. Several HVA/C valves faced walls or were otherwise hidden from view. [QOF-E01 §6]
+
+Section 3.1 adds two upstream constraints. About half the site was inaccessible to both people and the robot while energized because of discharge risk; access occurred during the annual shutdown. Of approximately 200 rooms, the authors identify 50 as interesting for robot inspection during normal operation. Neither ratio is a measured labor-substitution share. The robot did not erase the site’s operating restrictions.
+
+##### Human work and unfinished integration
+
+Field engineers needed safety training. The test team installed Wi-Fi and charging infrastructure because the working areas lacked a wireless network. Commissioning involved manually guiding a mapping pass, a second pass to register inspection points using an AR marker, defining pressure/temperature criteria, editing paths, and programming reactions to communications loss and unexpected obstacles. Simulation and real-site tests followed. Waiting for operator instructions at an unknown obstacle is a specified fallback, not evidence that its labor cost was zero. [QOF-E01 §§3.1, 4.3, 5]
+
+The study identifies closed doors as a major remaining barrier. Fire rules prevented automating every door in both directions; the authors proposed manipulation as a possible solution. An arm might also improve sensor visibility and operate switches, but its reliability and economics were not tested in this case. The conclusion describes daily inspection as a future possibility relative to monthly human inspections and says platform control-system integration and long-distance communications still needed work. The demonstrated local Wi-Fi GUI must therefore not be read as an already operational, integrated onshore maintenance service. [QOF-E01 §7]
+
+The inspected sources give no intervention count, reviewer minutes, verified defect dispositions, avoided trips, maintenance work orders, downtime avoided, all-in purchase/support price, battery replacement cost or routine-use continuation. No acceptance tolerance is provided for the room-coverage percentages. Useful data acquisition is demonstrated; a priced, fully accepted inspection-and-action chain is not.
+
+#### Episode QOF-D02: Sparky at Wateringen, 2024
+
+The strongest operator artifact is [Thijs Pruijssers’ TenneT presentation](https://www.nen.nl/media/wysiwyg/Presentatie_TenneT_Digitale_transformatie_onder_hoogspanning.pdf), hosted publicly by NEN and dated 18 September 2024 on its title slide. Slide 11 describes a nine-month January–September 2024 pilot at a 380/150 kV substation. That is a stated project window, not nine months of measured robot exposure. Slide 13 visibly depicts an ANYbotics-branded quadruped with visual, thermal and ultrasonic sensors, lidar, a spotlight and optional measurement payloads; it does not pin the hardware/software revision. A [same-day operator post](https://www.linkedin.com/posts/thijspruijssers_innovation-digitalization-ai-activity-7242222109484023808-_RHU) confirms a visit discussing Sparky and inspection learning with other European transmission operators. Neither source establishes a retained production fleet. [QOF-E03, QOF-E04]
+
+A provenance detail matters: slide 10 reproduces a planning card dated **24 October 2022** inside the 2024 presentation. It calls for selecting 36 points that are frequently inspected and can be inspected well by a robot, securing communications, ensuring physical access, assigning robot maintenance, testing output quality and cost savings, and reviewing whether to scale. Its cost, benefit and result fields are blank. Thus 36 is a planning selection, not a completed measurement count or proof that the 2024 pilot covered all required assets. Visual review and PDF text extraction confirm the older footer and empty financial fields. [QOF-E03 slide 10]
+
+This selection rule could yield a high pass rate within the chosen route while leaving expensive residual human visits untouched. A matched service evaluation needs the original scheduled inspection inventory, excluded points and the retained human route. A robot that eliminates an entire mandatory visit has a different economic proposition from one that collects more frequent readings while people still visit for the remaining checks. Both can be valuable, but their labor accounting differs.
+
+##### What the public economic claims actually establish
+
+In a [June 2024 interview](https://solarmagazine.nl/nieuws-zonne-energie/i37700/robothonden-en-drones-efficienter-werken-aan-betrouwbaar-hoogspanningsnet-en-meer-capaciteit), Pruijssers describes 37 inspection missions at Wateringen and says deployment across 350 locations could save 55,000 person-hours per year. The statement is conditional on broad deployment being considered; it is not an observed annual saving, a staffing reduction or a utilization study. It does not net out commissioning, human review, exceptions or robot servicing. [QOF-E05]
+
+An [August 2024 trade-press visit](https://energeia.nl/slimme-technologie-bespaart-op-schaarse-menskracht/) describes 31 programmed missions and reports €90,000 **excluding sensors**. Unlike August’s explicitly programmed repertoire, June’s 37-mission figure does not specify whether it describes a repertoire or executions, or over what counting interval. The figures therefore cannot establish a subtraction, trend, completion rate or accepted-inspection denominator. The price is a reported figure without a procurement contract, tax basis, service term or full configuration; it cannot be used as deployed lifecycle cost. The article describes a two-person human access rule and potential release of technician time. This motivates measuring a route’s staffing boundary, but does not verify net saved labor. [QOF-E06]
+
+A [June NRC site report](https://www.nrc.nl/nieuws/2024/06/13/de-onderhoudsinspecteur-bij-de-hoogspanningscentrale-van-tennet-iseen-robothond-a4856397) observes inspectors reviewing a robot photograph on a tablet and interpreting the absence of a leak. This is concrete evidence of human interpretation within the inspection workflow, albeit one reported scene rather than a time study. It describes the test lasting to the end of 2024, differing from the September presentation’s January–September window. That discrepancy is retained. The reports do not justify a claim that the robot independently diagnosed, authorized and executed corrective maintenance. [QOF-E07]
+
+The interviews also discuss fixed sensors, drones, data-driven maintenance and network capacity. Their combined benefits cannot all be assigned to Sparky. In particular, weather-based dynamic line rating is not a measured quadruped effect. No avoided-outage or network-capacity coefficient is taken from these accounts.
+
+#### What changes relative to National Grid and PG&E
+
+| Question | Earlier checkpoint | What this follow-up adds | Remaining limit |
+| --- | --- | --- | --- |
+| Does a ground robot cover the required measurement set? | National Grid’s three-day trial gives no accepted-output denominator | Offshore study reports a 385-instrument assessment and material room-specific gaps | No all-site mandatory inventory, per-room counts or repeated accuracy study |
+| Does mobility imply useful inspection? | PG&E flight success did not establish image acceptance | ANYmal can reach rooms yet fail to see hidden instruments; doors can block routes | No transferable numerical failure rate across aircraft and ground robots |
+| Is pilot success representative? | Trial status remains distinct from routine use | TenneT planning explicitly selects inspectable points | Actual excluded work and residual human route are unpublished |
+| Does the service remove labor? | Remote operation and review remain complements | Tablet review is observed in press; operator describes a two-person access baseline and conditional network opportunity | No net time study, staffing change or full support cost |
+| Did the customer retain or abandon the system? | National Grid continuation remains unknown | A later, separate TenneT program is documented | It does not prove continuation of the 2018 platform cohort; post-2024 rollout/exit remains unknown |
+
+References to the checkpoint reuse `PHY-E02` and `PHY-E04`; they are not new independent evidence. Both TenneT episodes remain foreign utility-inspection comparators, not observations of US utility labor or adoption.
+
+#### Bounded search result and next evidence request
+
+The search covered operator/coauthored technical results, later procurement/pilot outcomes, and adverse cost/selection evidence. Grace’s Düren case was also examined. Its [supplier-published account](https://www.anybotics.com/news/anymal-contributes-to-chemical-facility/) quotes a customer’s extrapolated 1.5% annual uptime increase after describing six months of regular operation. It does not disclose the failure counterfactual, complete costs or accepted-output denominator. A later distributor republication is the same evidence lineage. It was therefore not promoted to an independent operator-economic validation or added as a third dossier. BASF and PETRONAS searches mainly returned supplier descriptions of trials and partnerships, so they were not used to pad coverage. [QOF-E08; search log in JSON]
+
+This bounded investigation found two decision-relevant episodes but no public, complete cost per accepted inspection and no verified 2025–26 retention decision for either TenneT cohort. Search absence is not evidence of abandonment. The next valuable artifact is a dated pilot closeout with: the full due-inspection inventory; selected and excluded points; attempts, accepted measurements and interventions; reviewer/support hours; maintenance actions and their counterfactual; a complete supplier/integrator cost schedule; and the scale, repeat, redesign or stop decision. That would distinguish labor substitution from improved monitoring, and technical possibility from a repeatable operating business.
+
 ## 8. Common-engine scenarios and interpretation
 
 All results in this section are **synthetic illustrations**. Each selected cell has a named service unit; unlike services must not be summed as a single output quantity. Assumed labor avoidability is separate from observed payroll removal. Fractional fleets represent continuous cohort relaxations, not an integer deployment schedule. Annual capital envelopes are assumptions; they do not establish available financing. See [model methods](model/METHODS.md) for exact scope and limitations.
@@ -938,7 +1286,54 @@ Digital-first produces 297,633 robot-delivered baseline-equivalent hours, compar
 In the separate monthly entrant case, delayed incumbent response requires peak funding of $516,500; prompt response requires $716,000 and exposes a $116,000 gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
 
 
-## 9. What remains unresolved
+## 9. Local experiments: cash settlement and transaction state
+
+These experiments are separate, deterministic **synthetic software witnesses**. They do not supply empirical coefficients, alter the eight deployment scenarios, or establish a jointly funded physical fleet. The treasury design's full monthly physical integration remains incomplete. The coordination fixture neither imports nor runs RMF/ROS and controls no robot. Their narrow purpose is to make important failure cases reproducible before attempting a larger model or target installation.
+
+### Treasury: a positive assumed spread can coexist with a cash shortfall
+
+The first financial core records legal actors, cash, obligations, disjoint earmarks, restricted deposits and explicit credit contracts. It settles invoices against actual available balances with recorded event order. A future receivable or an undrawn commitment cannot be spent as current cash. Paying an invoice consumes its own earmark once; an unrelated invoice cannot use that reservation. Principal repayment changes the loan balance rather than being labeled an operating expense. All figures below are constructed accounting examples in USD.
+
+Generated source: [treasury_witnesses.json](model/results/treasury_witnesses.json). The complete events and counterparty balances are retained there. See [the core boundary](model/TREASURY_CORE.md) and [independent review](reviews/treasury_core_review.md).
+
+
+| Financial witness | Selected actor | Closing cash, USD | Interpretation |
+| --- | --- | ---: | --- |
+| witness_1_unfunded | provider | 30,000.00 | Payroll paid; proposed start blocked before future collection |
+| witness_1_funded_next_month | provider | 50,000.00 | Explicit draw funds the start; later collection and principal repayment complete |
+| witness_2_start_costs_once | provider | 88,000.00 | Two starts paid; one accepted sale collected; no second manufacturing charge |
+| witness_3_restricted_deposit_refunded | provider | 30,000.00 | Restricted deposit cannot fund start; refund restores original provider cash |
+| witness_5_unpaid_fee | entrant | 8,000.00 | Full-or-nothing fee remains unpaid; no automatic overdraft |
+| witness_7_earmark_consumed | payer | 0.00 | Own invoice consumes earmark; unrelated payment is blocked |
+
+The funded and unfunded paths are alternative worlds, not balances to add. A financial settlement test does not prove that a robot was manufactured, commissioned, supported or reassigned. The yield case tests the payment boundary only; the fee case tests an unpaid liability only. Shared physical allocation, service withdrawal, recovery, customer competition and endogenous reinvestment still need to be connected to the monthly ledger. The core also lacks an automatic payment scheduler, credit-maturity collection/default and interest accrual. Actual financing terms and supplier working capital remain separate empirical questions.
+
+### Coordination: retained uncertainty is sometimes the correct result
+
+The local fixture compares blind resubmission with a durable business-intent ledger plus explicit authoritative reconciliation. Each policy receives the same invented order, fault and mock lookup capability. The deliberately naive comparator is a weak baseline, not an evaluation of a mature industrial integrator or an LLM. The reconciler relies on an added ability to find all tasks for a business key and establish dispatch finality; the inspected RMF sources do not establish that capability.
+
+Generated source: [coordination_witnesses.json](model/results/coordination_witnesses.json). “Effect units” are invented irreversible actions, with no mapping to deliveries, elapsed time, wages or physical throughput. “Verified records” counts reconciled local completion; the naive comparator has no such ledger and therefore reports unknown rather than crediting API responses as completed business work.
+
+
+| Injected fault | Policy | External tasks | Synthetic effect units | Verified local records |
+| --- | --- | ---: | ---: | ---: |
+| lost_ack | naive | 2 | 4 | Unknown |
+| lost_ack | durable | 1 | 2 | 1 |
+| restart | naive | 2 | 4 | Unknown |
+| restart | durable | 1 | 2 | 1 |
+| cache_eviction | naive | 2 | 4 | Unknown |
+| cache_eviction | durable | 1 | 2 | 1 |
+| lookup_unavailable | naive | 2 | 4 | Unknown |
+| lookup_unavailable | durable | 1 | 2 | 0 |
+
+When authoritative lookup is unavailable, blocking a retry can prevent a duplicate while leaving completion unverified. A local journal cannot make a remote effect and its local acknowledgment atomic. Even an empty lookup is insufficient if the original request might arrive later. Separate cancellation traces retain partial effects after acknowledgment, and completion racing with cancellation requires review. This establishes behavior of the constructed protocol under its declared assumptions, not incident rates or economic benefits in an installed system. See [fixture methods and limits](model/COORDINATION_TRANSACTION_FIXTURE.md) and [independent review](reviews/coordination_fixture_review.md).
+
+### Inspecting the scenario calculation
+
+The dashboard's joint comparison tables now expose the four branches through **Trace inputs and costs**. The trace calls the same engine and shows human/site digital cost, robot operating cost, annual capital consumption, accepted robot output and retained human hours. Exact inputs, source-function excerpts and matching scenario/engine hashes are available in the dialog. The reference remains one annual site at the final horizon, without learned increments; changing the display year does not turn it into an installed-fleet estimate. A changed scenario invalidates an open trace. This closes a bounded explanatory gap, while result-specific lineage for the rest of the dashboard remains incomplete.
+
+
+## 10. What remains unresolved
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 

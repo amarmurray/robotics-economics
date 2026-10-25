@@ -1,4 +1,4 @@
-# Campaign acceptance audit — reviewed continuation
+# Campaign acceptance audit — integrated report edition
 
 **Disposition: publishable as an early, explicitly bounded research edition. The seven-day campaign is not complete.** The governing scope remains the week-one specification v1.4 and the ten-workstream research design. The original 168-hour window remains in [HANDOFF.md](HANDOFF.md); this audit does not reset it or imply uninterrupted execution.
 
@@ -10,11 +10,11 @@ The first checkpoint was published normally to private main and verified against
 
 Four additional independently reviewed investigations are summarized in [CONTINUATION_FINDINGS.md](CONTINUATION_FINDINGS.md): hospital support denominators, non-Spot utility inspection, benchmark/coordination reproducibility and learning-data economics. Ten accepted packages now contain 126 claim records. The explicit package registry is shared by the API, scenario provenance and strict validator. Current validation checks claim metadata, dates or explicit unknown reasons, quantity context and supported evidence references; it does not certify source truth or all semantic dimensions. The [package-validation review](reviews/package_validation_review.md) records independent adverse fixtures and scope.
 
-The new source-arithmetic helper reproduces five hospital calculations and the 175-row benchmark cost reconstruction separately from scenarios. Independent reviews verified its failure-cost, unit and unresolved-conflict boundaries. The treasury/resource extension has a reviewed design, but is not implemented; the shared-finance requirement remains partial. Scenario numerical assumptions and economic outputs have not changed in this continuation. Evidence provenance and available source records have changed, so exports must be regenerated.
+The new source-arithmetic helper reproduces five hospital calculations and the 175-row benchmark cost reconstruction separately from scenarios. Independent reviews verified its failure-cost, unit and unresolved-conflict boundaries. The treasury/resource extension now has an isolated financial core; its full monthly physical integration remains unimplemented and the shared-finance requirement remains partial. The eight annual/entrant reference scenarios retain their prior numeric inputs and outputs. Separate experiment exports are labeled synthetic and excluded from those scenario totals.
 
 ## What is available
 
-The [report](REPORT.md) integrates seven substantive chapters covering the broad labor atlas, six contrasting cells, capability and learning evidence, customer organization and entry, robotics value capture, digital AI and infrastructure, and physical supply/field comparisons. Full chapter text is retained in `research/`; the assembled report is about 23,000 words, above the 8–15k guidance. Preserving source boundaries and module depth motivated that choice; a shorter decision edition remains an editorial improvement rather than evidence of completed research.
+The [report](REPORT.md) integrates seven substantive chapters covering the broad labor atlas, six contrasting cells, capability and learning evidence, customer organization and entry, robotics value capture, digital AI and infrastructure, and physical supply/field comparisons. The four reviewed follow-ups now sit within the corresponding chapters, followed by common-engine scenarios and isolated cash/transaction experiments. Full source text is retained in `research/`; the assembled report is about 33,000 words. The user explicitly preferred a fulsome integrated report over piecemeal handoffs, so the edition retains detailed source boundaries and module depth rather than compressing to the original 8–15k guidance.
 
 The atlas covers fifteen market families with explicit residuals. The first six evidence packages contain 96 claim-level records, plus system, benchmark, analogy, customer, commercial, supply, openness and field-dossier objects. These are evidence records, not 96 independent corroborating sources. Counts describe coverage, not evidentiary quality. The 55-question ledger retains original questions and completion conditions, with bounded findings and open work.
 
@@ -26,7 +26,7 @@ Independent source reviews are available for [markets/customers](reviews/evidenc
 
 Consequential source corrections include the evaluated clothing population in RECAP, version dates and prospective deployment labels, Rwanda's adverse historical cost and road-comparator boundaries, PG&E's mixed output quality, and Astranomy's successful-episode-only cost denominator. The evidence preserves unresolved contradictions and missing observations rather than treating them as zero.
 
-The [independent model review](reviews/model_review.md) found and verified fixes for two high-severity defects: robot output could reach sites without installed robots, and assembly rejects were omitted from accepted-unit economics. Engine-source provenance and fixed-reference time labels were also corrected. It exercised 150 randomized/adverse combinations and 87,114 checks without remaining failures in the reviewed model. Fifteen repository tests pass, including local API launch, adverse resource constraints, stock/component/cash identities and export/reload. Saved scenario JSONs were recomputed exactly; the report consumes the generated summary and does not calculate an independent economic model.
+The [independent model review](reviews/model_review.md) found and verified fixes for two high-severity defects: robot output could reach sites without installed robots, and assembly rejects were omitted from accepted-unit economics. Engine-source provenance and fixed-reference time labels were also corrected. It exercised 150 randomized/adverse combinations and 87,114 checks without remaining failures in the reviewed model. That first review ran fifteen repository tests, including local API launch, adverse resource constraints, stock/component/cash identities and export/reload. Saved scenario JSONs were recomputed exactly; the report consumes the generated summary and does not calculate an independent economic model.
 
 The [browser review](reviews/browser_review.md) exercised all thirteen views, 52 cell/year/view combinations, actual recalculation, evidence invariance, eight-scenario comparison, empty-state behavior, source dialogs and export/reload. A desktop screenshot was inspected. This is not a full mobile, accessibility or multi-browser audit.
 
@@ -34,13 +34,23 @@ At the first checkpoint, the evidence validator checked unique evidence IDs and 
 
 At publication integration, exact observed repository commit identifiers were moved to the ignored operational receipt per AGENTS.md. Numerical assumptions and source findings were unchanged. Regenerated scenario fingerprints reflect this metadata change. Content hashes in earlier reviews identify their reviewed snapshots; the artifact manifest identifies the final published artifacts.
 
+## Integrated-edition verification
+
+The current repository suite passes **68 tests**: the earlier 31 checks, 22 isolated treasury tests, 13 coordination-state tests and two calculation-lineage tests. Strict evidence validation still passes ten accepted packages, 126 claims, 192 reported quantity objects and 46 explicit-null markers, with no errors or warnings. These counts are checks of the stated artifacts, not empirical validation.
+
+The [treasury-core review](reviews/treasury_core_review.md) evaluates settlement and reservation mechanics within the isolated financial boundary. The [coordination-fixture review](reviews/coordination_fixture_review.md) records three corrected state defects: conflicts could be cleared, a late-discovered duplicate could retain completion credit, and restored authoritative feedback at the same revision could leave a transient unknown state uncleared. Thirteen tests, seven independent adverse probes and deterministic exports pass on the corrected coordination snapshot. Its complete-history/finality lookup remains an explicit mock assumption.
+
+The [lineage review](reviews/lineage_review.md) verifies all six cells, adverse settings, engine/hash/horizon agreement, HTTP validation and stale-response behavior after the modal race was corrected. Browser checks traced every cell, changed cell/year/preset scope, and rendered all thirteen views without JavaScript errors. A desktop screenshot was inspected and the cost/output tables separated for readability. These checks do not certify mobile accessibility or every browser.
+
+The [report integration review](reviews/report_integration_review.md) checks synthesis against the accepted dossiers and preserves source conflicts, support denominators, timing and calibration limits. All four follow-ups occur once in their intended chapters. Local report links resolve. The original numerical engine, catalog, evidence packages, saved reference scenarios and user staging plan remain byte-for-byte unchanged; the question ledger adds bounded findings. Both new experiment exports reproduce exactly after JSON serialization and carry their calculation-code hashes.
+
 ## Material gaps
 
 | Area | Remaining limitation and consequence |
 | --- | --- |
 | Empirical deployment economics | Full accepted-output exposure, intervention/support, retention, negotiated terms and avoidable staffing remain missing in most cells. No calibrated TAM, ROI ranking or payroll-removal estimate is justified. |
 | Benchmarks and digital integration | Some budgets, immutable harness/interface pins and complete cost/latency methods remain unextracted. Paused simulation and successful-episode cost cannot establish physical service economics. |
-| Shared finance | Annual capital envelopes constrain the fleet but refresh exogenously. One-site lifecycle cash is reconciled; a revolving consolidated provider treasury, financing/default and cash reinvestment are absent. |
+| Shared finance | Annual capital envelopes constrain the fleet but refresh exogenously. One-site lifecycle cash is reconciled; the isolated settlement/credit core is not integrated into a consolidated monthly physical treasury, default/service consequences or cash reinvestment. |
 | Customer entrant | Demand, capacity, receivables and funding gaps reconcile within the monthly case. Its ten robots are not booked against the annual fleet's shared supply/commissioning pools; those outputs must not be added as jointly feasible. |
 | Deployment/control | Fractional annual cohorts are a continuous relaxation. Discrete deployment schedules, queue/congestion, correlated failure and task-level recovery are unmodeled. |
 | Learning/R&D | Optional same-configuration transfer is an unvalidated hypothesis with explicit costs. No causal cross-embodiment curve or fixed-objective R&D critical-path model is established. |
@@ -51,6 +61,6 @@ At publication integration, exact observed repository commit identifiers were mo
 
 ## Continuing work
 
-The next investigations target field support/accepted-output denominators, non-Spot operator evidence, and benchmark/coordination reproducibility. The ranked [roadmap](RESEARCH_ROADMAP.md) also specifies shared-finance integration, qualified supply access, labor crosswalks and equal-technology entrant competition. These priorities address decision-sensitive gaps rather than simply adding source or view counts.
+Reviewed follow-ups now bound the publicly retrievable field support, non-Spot operator and benchmark/coordination evidence; unresolved costs, retention and executed manifests remain open. The ranked [roadmap](RESEARCH_ROADMAP.md) also specifies shared-finance integration, qualified supply access, labor crosswalks and equal-technology entrant competition. These priorities address decision-sensitive gaps rather than simply adding source or view counts.
 
 The checkpoint is useful for inspecting mechanisms, tracing evidence and selecting the next deployment questions. At the original deadline, the strongest verified edition must be assessed again against all requirements, with remaining gaps stated explicitly. No elapsed-time or source-count proxy substitutes for that assessment.
