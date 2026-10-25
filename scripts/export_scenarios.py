@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from model.engine import catalog, run_scenario
 from model.evidence import economic_atlas_summary
+from model.packages import load_accepted_packages
+from model.research_calculations import research_summary
 
 
 def main():
@@ -18,7 +20,11 @@ def main():
     parser.add_argument("--scenario",type=Path,help="Reload an exported scenario JSON containing parameters or overrides")
     args = parser.parse_args()
     args.output.mkdir(parents=True,exist_ok=True)
-    (args.output/"observed_atlas_summary.json").write_text(json.dumps(economic_atlas_summary(),indent=2,sort_keys=True)+"\n")
+    accepted={p["path"] for p in load_accepted_packages(ROOT)["packages"]}
+    atlas=economic_atlas_summary() if "data/market_evidence.json" in accepted else {"status":"not_available","reason":"Market evidence package has not been explicitly accepted."}
+    research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
+    (args.output/"observed_atlas_summary.json").write_text(json.dumps(atlas,indent=2,sort_keys=True)+"\n")
+    (args.output/"observed_research_summary.json").write_text(json.dumps(research,indent=2,sort_keys=True,allow_nan=False)+"\n")
     specs = [(key,{}) for key in catalog()["presets"]]
     if args.scenario:
         saved = json.loads(args.scenario.read_text())

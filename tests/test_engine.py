@@ -7,6 +7,7 @@ import unittest
 
 from model.engine import ROOT, catalog, run_scenario
 from model.evidence import economic_atlas_summary
+from model.packages import load_accepted_packages
 
 
 class ModelAccounting(unittest.TestCase):
@@ -133,11 +134,14 @@ class ModelAccounting(unittest.TestCase):
         self.assertEqual(run_scenario({"qualification_delay":10,"target_year":2})["backcast"]["status"],"infeasible_lead_time")
 
     def test_evidence_immutable_and_scenarios_reproducible(self):
-        paths=list((ROOT/"data").glob("*_evidence.json"))
+        snapshot=load_accepted_packages(ROOT)
+        paths=[ROOT/p["path"] for p in snapshot["packages"]]
         before={p:hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
         r=run_scenario({"digital_efficiency":.5,"learning_transfer":.1})
         loaded=json.loads(json.dumps(r));again=run_scenario(loaded["parameters"],loaded["preset"])
         self.assertEqual(r,again)
+        self.assertEqual(set(r["evidence_snapshot_hashes"]),{p["path"] for p in snapshot["packages"]})
+        self.assertEqual(r["evidence_package_index"],snapshot["index"])
         self.assertEqual(before,{p:hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
 
     def test_invalid_unknown_and_null_inputs_rejected(self):

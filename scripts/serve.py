@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import mimetypes
 import sys
@@ -15,19 +14,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from model.engine import BOUNDS, CHOICES, catalog, run_scenario
 from model.evidence import economic_atlas_summary
+from model.packages import load_accepted_packages, PackageError
+from model.research_calculations import research_summary
 
 
 def evidence_snapshot():
-    packages = []
-    for path in sorted((ROOT / "data").glob("*_evidence.json")):
-        raw = path.read_bytes()
-        try:
-            payload = json.loads(raw)
-        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-            packages.append({"path":str(path.relative_to(ROOT)),"error":str(exc)})
-            continue
-        packages.append({"path":str(path.relative_to(ROOT)),"sha256":hashlib.sha256(raw).hexdigest(),"data":payload})
-    return packages
+    return load_accepted_packages(ROOT)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -48,7 +40,15 @@ class Handler(BaseHTTPRequestHandler):
             docs += ["model/METHODS.md","REPRODUCE.md"]
             if (ROOT/"REPORT.md").exists():
                 docs.insert(0,"REPORT.md")
-            self.send(200,{"catalog":catalog(),"bounds":BOUNDS,"choices":CHOICES,"evidence_packages":evidence_snapshot(),"documents":docs,"observed_summary":economic_atlas_summary()})
+            try:
+                snapshot=evidence_snapshot()
+                accepted={p["path"] for p in snapshot["packages"]}
+                atlas=economic_atlas_summary() if "data/market_evidence.json" in accepted else {"status":"not_available","reason":"Market evidence package has not been explicitly accepted."}
+                research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
+                self.send(200,{"catalog":catalog(),"bounds":BOUNDS,"choices":CHOICES,"evidence_packages":snapshot["packages"],
+                    "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research})
+            except (ValueError,KeyError,OSError) as exc:
+                self.send(503,{"error":str(exc)})
             return
         if path == "/api/health":
             self.send(200,{"status":"ok","model_version":catalog()["model_version"],"local_only":True})

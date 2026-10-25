@@ -8,6 +8,7 @@ From the repository root:
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_evidence.py
 python3 scripts/export_scenarios.py
+python3 scripts/build_continuation.py
 python3 scripts/build_report.py
 python3 scripts/serve.py --port 8765
 ```
@@ -27,6 +28,7 @@ The export command writes deterministic files under `model/results/`:
 - `{preset}_joint.csv`: matched digital/physical 2 × 2 resource-cost comparisons.
 - `scenario_summary.csv`: selected summary measures for all saved presets.
 - `observed_atlas_summary.json`: official-statistics source-row arithmetic and reconciliation, computed independently of scenario inputs.
+- `observed_research_summary.json`: audited field-study ratios/mean contrasts and archived benchmark-cost reconstruction, when those input packages are accepted.
 
 The page's **Export scenario** button downloads the same current engine result, including changed parameters. **Export selected cohort CSV** downloads all annual rows for the selected cell scope. The file input in the sidebar reloads an exported scenario and recalculates it. To rerun one saved result from the command line:
 
@@ -49,7 +51,7 @@ Unknown parameter names, null quantitative overrides, nonfinite values, out-of-r
 
 ## Files and validation boundaries
 
-`model/assumptions.json` is the numerical source of truth. `model/engine.py` supplies scenario calculations; `model/evidence.py` supplies observed-statistics transformations. `data/*_evidence.json` and `research/*.md` hold independently authored source-backed records and analysis. `scripts/serve.py` exposes a read-only local catalog and a pure recalculation endpoint. It blocks `.git`, operational paths and arbitrary workspace files.
+`model/assumptions.json` is the numerical source of truth. `model/engine.py` supplies scenario calculations; `model/evidence.py` and `model/research_calculations.py` supply observed-data transformations. `data/package_index.json` explicitly lists accepted evidence packages; filenames alone do not grant acceptance. `model/packages.py` loads that same registry for the server, provenance hashes and validator. See [PACKAGE_VALIDATION.md](model/PACKAGE_VALIDATION.md) for documented aliases, required context and null handling. `research/*.md` holds the associated analysis. `scripts/serve.py` exposes a read-only local catalog and a pure recalculation endpoint. It blocks `.git`, operational paths and arbitrary workspace files.
 
 The tests cover inventory/cohort/financial invariants and adverse scenarios, including zero supply, absent capability, low yield, high service burden, no payroll avoidability and limited funding. Evidence validation checks unique claim IDs and cross-package evidence references. `node --check dashboard/app.js` checks client syntax when Node is installed. Browser interaction/visual checks are reported separately in the campaign acceptance audit; successful unit tests alone do not validate every crossfilter or prove empirical calibration.
 

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.1.
+Handoff ID: week-one-2026-10-25-in-progress-0.2.
 
 ## Accepted direction
 
@@ -43,7 +43,17 @@ The next wave has separate files for field support denominators, non-Spot operat
 
 US labor denominators, global systems/supply coverage and conditional horizons remain explicit defaults. No live ChatGPT project settings, canonical Mac files, legacy sync automation, or separately scoped implementation repository were modified. Publication does not establish that another Work session consumed the result.
 
-- `POST_RESEARCH_STAGING.md` records the accepted seven-stage post-research learning, validation, career and contribution plan; this is distinct from activating the pending research campaign.
+## Reviewed continuation edition
+
+`CONTINUATION_FINDINGS.md` summarizes four independently reviewed follow-ups: hospital service/support denominators; TenneT non-Spot inspection coverage and selective pilots; benchmark cost/configuration and RMF transaction boundaries; and learning-data collection versus validated-capability cost. The accepted evidence registry now names ten packages with 126 claims. The source-arithmetic helper independently reproduces five hospital comparisons and all 175 archived TAC cost rows; source conflicts and null full-cost/payroll estimates remain visible. No empirical coefficient was copied into the synthetic scenario engine.
+
+The package loader now uses an explicit acceptance registry across server, scenario provenance and validation. Strict checks cover required claim metadata, dates or explicit reasons, quantity context and evidence references; wide-table/source semantics remain a separate review responsibility. New source packets are included in the relevant dashboard views.
+
+The treasury extension is a reviewed design proposal only. Its next implementable step is a monthly actor/obligation/resource ledger with exact cash, reservation, event-phase and shared-entrant witnesses. It does not yet close the current annual-envelope or separate-newco resource gap. Continue the ranked roadmap; do not repeat exhausted public-source requests without a new artifact.
+
+First-checkpoint publication was verified against private remote main. Current publication receipts and exact revisions remain in ignored operational files. The requirement register now records 47 bounded items met and 17 partial, with campaign time still ongoing. Neither the counts nor the functioning dashboard imply completion of the 168-hour goal.
+
+`POST_RESEARCH_STAGING.md` preserves the accepted learning/application sequence. It can begin with the verified early edition without waiting for the deadline. It does not reset or retroactively deactivate the already recorded campaign. Practitioner outreach, public release and other-repository implementation remain separately authorized actions.
 
 ## Canonical artifacts and ownership
 
@@ -73,11 +83,15 @@ Each authorized substantive task validates its outputs, updates accepted artifac
 
 At goal activation record actual T0, T0+168-hour deadline, input commit, active resources, and resumable execution state. At the deadline deliver the strongest verified edition with a requirement-by-requirement audit and gaps. A pause or resource limit is not successful completion, and elapsed time is not evidence of active research.
 
+## Learning transition available now
+
+`LEARNING_WALKTHROUGH.md` prepares an Amar-led evidence/model walkthrough; `THESIS_REGISTER.md` records six bounded claims with mechanisms, objections and disconfirming observations. They follow the concurrent accepted post-research plan and can be used before the deadline. Preparation of these aids does not establish Amar's mastery, complete the campaign, initiate practitioner outreach or activate a startup/prototype program. The initial numerical edition and its explicit gaps remain available for challenge.
+
 ## Next owner and action
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-First active bounded question: **Which claims about accepted output, human support, economic returns and qualified capacity survive primary-source scrutiny across the six market-stage cells?** Integrate the source-backed dossiers and common engine, independently review consequential source claims and model conservation, publish a scoped validated milestone, then continue the highest-value unresolved questions through the available window.
+Immediate transition: **Use the verified edition to help Amar explain and challenge one deployment decision, then select the next research block by value of information.** The walkthrough and thesis register are ready for that discussion. Within the continuing research window, the next executable model block is the reviewed monthly treasury/shared-resource mechanism; operator full-cost data and exact benchmark manifests remain separate evidence needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: each specialist owns its research/evidence pair; implementation owns model/dashboard/tests/scripts/reproduction; lead owns report, schema, acceptance, roadmap, handoff and manifest. Reviewers write separate audit artifacts and request owner corrections. Exact active assignments and next actions remain in ignored operational state while running.
 

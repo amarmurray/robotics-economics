@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.4",
-  "edition_status": "campaign_in_progress",
+  "edition_status": "campaign_in_progress_continuation_0.2",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -89,11 +89,14 @@
         "research/digital_ecosystem.md",
         "data/digital_evidence.json",
         "research/digital_infrastructure.md",
-        "reviews/evidence_review_h_infrastructure.md"
+        "reviews/evidence_review_h_infrastructure.md",
+        "research/coordination_reproducibility.md",
+        "reviews/coordination_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries."
+        "finding": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries.",
+        "continuation": "Pinned TAC cost rows/model+patch and RMF interfaces, plus Astranomy task-source and horizon distinctions, improve reproducibility. Exact executed configuration, full all-attempt costs and target physical validity remain incomplete."
       },
       "gap": "Five H and three BDE benchmark cards span the requested domains. Complete version/harness, all-attempt budgets, intervention and deployment overhead are not recovered consistently; paused simulations and successful-run costs need especially clear boundaries.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -555,13 +558,17 @@
         "dashboard/app.js",
         "model/METHODS.md",
         "reviews/model_review.md",
-        "reviews/browser_review.md"
+        "reviews/browser_review.md",
+        "data/package_index.json",
+        "model/PACKAGE_VALIDATION.md",
+        "scripts/validate_evidence.py"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Stable IDs and inspected joins work; source-row arithmetic and scenario fingerprints are reproducible. `validate_evidence.py` enforces evidence-ID uniqueness and selected reference keys, not the full date/unit/population/null-reason contract, all dimensions or every relationship ID."
+        "finding": "Stable IDs and inspected joins work; source-row arithmetic and scenario fingerprints are reproducible. `validate_evidence.py` enforces evidence-ID uniqueness and selected reference keys, not the full date/unit/population/null-reason contract, all dimensions or every relationship ID.",
+        "continuation": "Explicit accepted-package registry and strict metadata/date/null/quantity/reference checks now pass. Wide-table semantics, all typed dimensions and source truth are not universally validated."
       },
-      "gap": "Stable IDs and inspected joins work; source-row arithmetic and scenario fingerprints are reproducible. `validate_evidence.py` enforces evidence-ID uniqueness and selected reference keys, not the full date/unit/population/null-reason contract, all dimensions or every relationship ID.",
+      "gap": "Full semantic dimension/conversion and all typed-relationship validation remain incomplete despite stronger explicit-record integrity checks.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
     },
     {
@@ -1213,7 +1220,7 @@
       "section": "Cross-cutting prose obligations",
       "subsection": "",
       "requirement": "Scoped validated commit and normal private-repository push; preserve unrelated work",
-      "status": "unmet",
+      "status": "met",
       "artifacts": [
         "REPORT.md",
         "ACCEPTANCE_AUDIT.md",
@@ -1222,17 +1229,17 @@
         "reviews/acceptance_review.md"
       ],
       "validation": {
-        "review": "reviews/acceptance_review.md",
-        "finding": "Scoped commit, clean preservation of unrelated work and normal private-remote push have not yet been established at this review cutoff. Lead must append the actual publication receipt; local artifacts alone do not satisfy this item."
+        "review": "ACCEPTANCE_AUDIT.md",
+        "finding": "First checkpoint scoped commit and normal private-main push verified against remote; exact operational receipt retained in ignored sync_receipt.json. This does not prove consumption by another session."
       },
-      "gap": "Scoped commit, clean preservation of unrelated work and normal private-remote push have not yet been established at this review cutoff. Lead must append the actual publication receipt; local artifacts alone do not satisfy this item.",
-      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+      "gap": "No first-checkpoint publication gap; verify each subsequent publication separately.",
+      "next_action": "Preserve unrelated work and verify normal publication of each accepted continuation."
     }
   ],
   "status_counts": {
-    "met": 46,
+    "met": 47,
     "partial": 17,
-    "unmet": 1
+    "unmet": 0
   },
-  "publication_cutoff_note": "W1-PUBLICATION is assessed before this checkpoint commit/push. Actual publication results belong in ignored sync_receipt.json; subsequent checkpoint review can update its historical status."
+  "publication_cutoff_note": "Independent first-cutoff review retains its historical pending-publication judgment. The lead subsequently verified first-checkpoint publication; exact repository revisions and push receipts remain ignored operational records."
 }

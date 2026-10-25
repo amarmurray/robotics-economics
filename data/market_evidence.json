@@ -156,14 +156,16 @@
           "value": 90000,
           "comparison": "greater_than",
           "unit": "components",
-          "denominator": "pilot cumulative"
+          "denominator": "pilot cumulative",
+          "population": "Figure 02 sheet-metal positioning pilot at BMW Spartanburg"
         },
         {
           "metric": "operating_exposure",
           "value": 1250,
           "comparison": "approximately",
           "unit": "robot operating hours",
-          "denominator": "pilot cumulative"
+          "denominator": "pilot cumulative",
+          "population": "Figure 02 sheet-metal positioning pilot at BMW Spartanburg"
         }
       ]
     },
@@ -208,13 +210,15 @@
           "value": 800,
           "comparison": "greater_than",
           "unit": "robots",
-          "denominator": "ISS deployment across21countries"
+          "denominator": "ISS deployment across21countries",
+          "population": "ISS-reported cleaning robot deployments across 21 countries"
         },
         {
           "metric": "reported_efficiency_increase",
           "value": 30,
           "unit": "percent",
-          "denominator": "unspecified floor-cleaning efficiency measure at multiple UK facilities"
+          "denominator": "unspecified floor-cleaning efficiency measure at multiple UK facilities",
+          "population": "Floor-cleaning efficiency claim at multiple UK facilities; exact sample undisclosed"
         }
       ]
     },
@@ -239,19 +243,22 @@
           "metric": "observed_deliveries",
           "value": 89,
           "unit": "deliveries",
-          "denominator": "23 observation sessions"
+          "denominator": "23 observation sessions",
+          "population": "Purposefully observed cobot delivery sessions at one ChristianaCare hospital"
         },
         {
           "metric": "observation_time",
           "value": 33,
           "unit": "observer hours",
-          "denominator": "23sessions"
+          "denominator": "23sessions",
+          "population": "Observer time for the same 23 delivery-observation sessions"
         },
         {
           "metric": "reported_interventions",
           "value": 107,
           "unit": "intervention events",
-          "denominator": "89 observed deliveries"
+          "denominator": "89 observed deliveries",
+          "population": "Human interventions in the 89 observed deliveries; category overlap unresolved"
         }
       ],
       "conflicts": [
@@ -280,13 +287,15 @@
           "value": 48600,
           "comparison": "greater_than",
           "unit": "deliveries",
-          "denominator": "three-cobot grant-period cumulative"
+          "denominator": "three-cobot grant-period cumulative",
+          "population": "Three-cobot ChristianaCare research pilot across reported patient areas"
         },
         {
           "metric": "grant",
           "value": 1500000,
           "unit": "nominal USD",
-          "denominator": "three-year research pilot program"
+          "denominator": "three-year research pilot program",
+          "population": "ChristianaCare three-year research pilot program; grant funding, not robot purchase price"
         }
       ]
     },

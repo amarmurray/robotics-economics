@@ -1,0 +1,625 @@
+{
+  "schema_version": "field-support-denominators/1.0",
+  "version": "0.1.1",
+  "metadata": {
+    "title": "Hospital logistics support denominators: bounded second-wave audit",
+    "as_of": "2026-10-25",
+    "input_commit": "Published first integrated checkpoint; see ignored sync_receipt.json",
+    "status": "bounded_research_wave_complete_not_campaign_completion",
+    "scope": "Two hospital transport cases; one detailed mission audit and one primary-abstract comparative benchmark; existing ChristianaCare conflict preserved",
+    "model_configuration": "Requested GPT-6 Astra Ultra; actual serving model/reasoning not independently verifiable",
+    "author_role": "capability_learning",
+    "frozen_checkpoint_preserved": [
+      "research/capability_learning.md",
+      "data/capability_evidence.json"
+    ],
+    "related_atlas_cell_id": "CELL-M10-hospital-logistics-US-2025",
+    "transfer_boundary": "Korean medication delivery and Chinese endoscope transport are separate contexts, not US nursing-labor calibration.",
+    "bounded_stop": "Stop after examining two empirical cases, supplementary access attempts and the existing hospital-report follow-up. No outreach, paid access, generic coefficient fitting or model edits.",
+    "search_result_slots_requested": 32,
+    "search_count_note": "Seven search queries requested 32 result slots; neither number denotes independent retained sources.",
+    "checkpoint_note": "Wave built against published first integrated checkpoint; existing checkpoint pair unchanged by this wave.",
+    "review_correction": "Independent review: literal Guro intervention definition separated from contextual interpretation; Qilu primary date/affiliations clarified; display-text spacing normalized. Quantitative values unchanged."
+  },
+  "evidence": [
+    {
+      "evidence_id": "FSD-E001",
+      "title": "Feasibility of autonomous medication delivery robots considering elevator utilization in high-traffic hospital environments",
+      "authors": "Yourack Lee et al.",
+      "publisher": "Digital Health / SAGE; full text in PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13039597/",
+      "doi": "10.1177/20552076261437181",
+      "publication_date": "2026-03-31",
+      "publication_date_basis": "EuropePMC primary JATS epub date 31 March 2026; DOI search metadata February 1 conflicts and is not selected",
+      "observation_period": "2025-06-18/2025-06-29",
+      "retrieved_at": "2026-10-25",
+      "geography": "Korea University Guro Hospital, Seoul, Republic of Korea",
+      "source_class": "peer_reviewed_operator_research",
+      "epistemic_status": "reported_field_feasibility_observation_with_internal_conflicts",
+      "verification": "Full primary text retrieved through Exa and public EuropePMC JATS API; methods/results/limitations inspected.",
+      "additional_primary_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13039597/fullTextXML",
+      "locator": "Sections 2.1–2.7, 3.1–3.5, 4.5; Table 1; Data Availability Statement",
+      "claim": "One robot on a routine pharmacy-to-emergency-department route; 135 requests, 13 urgent exclusions, 122 eligible missions, 14 reported failures and 108 completed missions. Trained operator accompanied robot; pharmacists/support staff/nurses handled load/retrieval. Reported 87.03 percent success conflicts with counts.",
+      "limitations": [
+        "Single robot/site, short prospective feasibility window, selected nonurgent missions; no matched timed human courier control.",
+        "Four-week survey phase wording differs from June 18–29 mission window; relation not reconciled.",
+        "Raw datasets available from corresponding author upon request; no public mission dataset retrieved and no outreach authorized.",
+        "No complete escort/support duration, operating-hour exposure, intervention-event count or cost denominator.",
+        "Site-specific 59.01 percent elevator-usage threshold was fitted within this dataset; no prospective randomized dispatch-policy trial."
+      ]
+    },
+    {
+      "evidence_id": "FSD-E002",
+      "title": "The effect of autonomous mobile robots on improving endoscope reprocessing efficiency: a prospective comparative trial (with video)",
+      "authors": "Yuqing Shi, Jianrong Bai, Meiling Zhou et al.",
+      "publisher": "Gastrointestinal Endoscopy",
+      "url": "https://www.giejournal.org/article/S0016-5107(25)02075-9/fulltext",
+      "additional_primary_url": "https://pubmed.ncbi.nlm.nih.gov/41076017/",
+      "doi": "10.1016/j.gie.2025.09.056",
+      "publication_date": "2025-10-10",
+      "publication_date_basis": "PubMed primary HTML and EFetch XML directly verify electronic publication on October 10, 2025; journal issue is May 2026. An earlier indexed publisher-history extract gave October 9, but that history was not reproduced in the current fetch and is retained only as a metadata discrepancy.",
+      "observation_period": "2024-05-21/2024-11-21",
+      "retrieved_at": "2026-10-25",
+      "geography": "Qilu Hospital of Shandong University, Jinan, China",
+      "source_class": "peer_reviewed_operator_research",
+      "epistemic_status": "reported_comparative_observation_abstract_verified",
+      "verification": "Primary publisher and PubMed abstracts inspected. PubMed HTML and EFetch XML directly verify the electronic date and Shinva affiliations. The fulltext-named publisher URL yielded abstract/references, not detailed methods; direct publisher retrieval returned HTTP 403. Do not imply full-method verification.",
+      "locator": "Abstract Methods/Results; publisher Publication History and affiliations",
+      "claim": "One manual transport day randomly selected each five-day week, four AMR days; 5393 manual and 21048 AMR-assisted deliveries included; 8 AMRs; lower reported distribution/retrieval mean times and 0.15 percent AMR delivery failure rate. Authors report 2.18 FTE workload reduction and 12.8 percent ROI.",
+      "limitations": [
+        "Randomization is by day, not individual delivery; day clustering, route/order mix and adjusted analysis unavailable in accessible abstract.",
+        "Definition of included delivery versus accepted completion, failed-case timing treatment and phase-specific sample sizes are not exposed.",
+        "Loading/unloading, exception handling, cleaning/reprocessing, staff monitoring and maintenance minutes are not separately exposed.",
+        "FTE and ROI calculation methods/cost boundary inaccessible; reported figures are not accepted calibration.",
+        "Transport elapsed-time contrasts do not establish paid labor removal, nursing substitution or humanoid economics."
+      ],
+      "author_context": "PubMed HTML/XML lists Jun Cheng and Xiaoming Zhu at Shinva Medical Instrument Co, Ltd, Zibo, Shandong, China. The abstract disclosure states no conflicts related to this study. Affiliation does not establish a conflict or an independent financial audit.",
+      "metadata_primary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41076017&retmode=xml",
+      "metadata_locator": "PubMed: citation_author_institution/expanded affiliations and Epub date; EFetch XML: ArticleDate[@DateType=\"Electronic\"] and AuthorList/Author/AffiliationInfo for Jun Cheng and Xiaoming Zhu.",
+      "unreproduced_indexed_metadata": {
+        "url": "https://www.giejournal.org/article/S0016-5107(25)02075-9/abstract",
+        "locator": "Article Info → Publication History in an Exa indexed search extract",
+        "excerpt": "Received February 26, 2025; Accepted September 29, 2025; Published online October 9, 2025",
+        "retrieved_at": "2026-10-25",
+        "verification_status": "Previously retrieved indexed excerpt; publication history not reproduced by the current page fetch. Direct PubMed electronic date selected; discrepancy retained."
+      }
+    },
+    {
+      "evidence_id": "FSD-E003",
+      "title": "Integrating Collaborative Robots into a Complex Hospital Setting",
+      "authors": "Susan D. Birkhoff et al.",
+      "publisher": "Delaware Journal of Public Health",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892717/",
+      "publication_date": "2024-12-01",
+      "observation_period": "2022-11/2022-12",
+      "retrieved_at": "2026-10-25",
+      "geography": "ChristianaCare, US",
+      "source_class": "peer_reviewed_operator_research",
+      "epistemic_status": "historical_observation_with_unresolved_count_conflict",
+      "verification": "Primary full text inspected during this session's independent market review; retained here only for continuity of the denominator gap.",
+      "locator": "Abstract; Design and Sample; Results",
+      "claim": "23 observation sessions, 33 observer-hours, 89 end-to-end deliveries; 107 headline interventions versus categories totaling 111.",
+      "limitations": [
+        "Observer-hours are not automatically robot operating-hours or paid support-hours.",
+        "No intervention-duration series or representative current-platform staffing denominator.",
+        "No follow-up source retrieved here resolves 107 versus 111; do not replace either number or combine with later cumulative deliveries."
+      ],
+      "same_source_as": "A-HOSPITAL-2024"
+    },
+    {
+      "evidence_id": "FSD-E004",
+      "title": "Blueprint for Charting Nurse-led Innovation",
+      "publisher": "ChristianaCare",
+      "url": "https://christianacare.org/us/en/for-health-professionals/nursing/nurse-led-innovation",
+      "additional_primary_url": "https://issuu.com/christianacare/docs/charting_nurse-led_innovation",
+      "publication_date": "2025-12-19",
+      "publication_date_basis": "Issuu publisher record date; ChristianaCare page embeds this report. Not a verified report revision/effective date.",
+      "observation_period": "Report describes multi-year ChristianaCare initiative; detailed contents not retrieved",
+      "retrieved_at": "2026-10-25",
+      "geography": "ChristianaCare, US",
+      "source_class": "operator_report_metadata",
+      "epistemic_status": "document_existence_verified_contents_unverified",
+      "verification": "Operator landing page and embedded report metadata retrieved. Issuu text extraction returned title/description only; direct report/embed requests 403.",
+      "locator": "Operator landing-page introduction and Issuu publication metadata",
+      "claim": "A 2025 operator blueprint exists and is the cited follow-up route; accessible content does not supply new support denominators.",
+      "limitations": [
+        "Report contents not source-verified in this wave.",
+        "No resolution of 107/111 conflict or matched 48, 600 cumulative-delivery support exposure inferred."
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "FSD-GURO-01",
+      "market_id": "M10",
+      "related_atlas_cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "geography": "KR-Seoul",
+      "period": "2025-06-18/2025-06-29",
+      "evidence_refs": [
+        "FSD-E001"
+      ],
+      "configured_system": {
+        "robot": "DOGU IROI, one Level 3+ medication-delivery robot as classified by authors",
+        "integration": "Web request, secure drawer, TK50M staff-only shared elevator with communication module; 1 Hz elevator/robot logs",
+        "workflow": "Support staff dispatch; pharmacist loads/starts; robot travels pharmacy B2F to emergency department 1F; support staff or nurse retrieves medication.",
+        "alternative": "Existing support-staff manual courier route, not measured in a matched time/cost comparison"
+      },
+      "accepted_output_definition": "The paper defines success as the robot \"completing the entire route and handing over the medication without any human intervention\" (Section 2.4).",
+      "failure_definition": "Stationary for more than 1 minute at any point OR manual assistance due to passenger/cargo obstruction. Failed missions are not equivalent to intervention-event count.",
+      "exposure": {
+        "calendar_window": "2025-06-18/2025-06-29",
+        "eligible_missions": 122,
+        "mission_log_frequency_hz": 1,
+        "operating_robot_hours": null,
+        "observer_hours": null,
+        "paid_support_hours": null,
+        "missingness_reason": "Calendar window and sampled requests provided; no aggregate matched robot/observer/paid-support duration."
+      },
+      "metrics": [
+        {
+          "metric_id": "FSD-G-M01",
+          "value": 135,
+          "unit": "requests",
+          "denominator": "all requests logged",
+          "period": "2025-06-18/2025-06-29",
+          "population": "one route/robot",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M02",
+          "value": 13,
+          "unit": "requests",
+          "denominator": "135 logged requests; urgent runs excluded",
+          "period": "2025-06-18/2025-06-29",
+          "population": "urgent requests",
+          "measurement_status": "author_reported_selection_count"
+        },
+        {
+          "metric_id": "FSD-G-M03",
+          "value": 122,
+          "unit": "eligible missions",
+          "denominator": "135 requests minus 13 urgent exclusions",
+          "period": "2025-06-18/2025-06-29",
+          "population": "nonurgent missions",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M04",
+          "value": 14,
+          "unit": "failed missions",
+          "denominator": "122 eligible missions according to methods",
+          "period": "2025-06-18/2025-06-29",
+          "population": "three classified failure types",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M05",
+          "value": 108,
+          "unit": "completed trials",
+          "denominator": "successful-delivery timing analysis",
+          "period": "2025-06-18/2025-06-29",
+          "population": "completed mission subset",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M06",
+          "value": 87.03,
+          "unit": "percent",
+          "denominator": "described by authors as all trials; inconsistent with other counts",
+          "period": "2025-06-18/2025-06-29",
+          "population": "claimed overall mission success",
+          "measurement_status": "author_reported_conflicted"
+        },
+        {
+          "metric_id": "FSD-G-M07",
+          "value": 8,
+          "unit": "failed missions",
+          "denominator": "14 classified failures",
+          "period": "2025-06-18/2025-06-29",
+          "population": "elevator blockage",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M08",
+          "value": 2,
+          "unit": "failed missions",
+          "denominator": "14 classified failures",
+          "period": "2025-06-18/2025-06-29",
+          "population": "elevator-call communication",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M09",
+          "value": 4,
+          "unit": "failed missions",
+          "denominator": "14 classified failures",
+          "period": "2025-06-18/2025-06-29",
+          "population": "corridor self-drive",
+          "measurement_status": "author_reported_field_count"
+        },
+        {
+          "metric_id": "FSD-G-M10",
+          "value": 95.52,
+          "unit": "percent",
+          "denominator": "missions with EOR < 59.01 percent; subgroup size not extracted",
+          "period": "2025-06-18/2025-06-29",
+          "population": "selected low-congestion subgroup",
+          "measurement_status": "author_reported_subgroup_result"
+        },
+        {
+          "metric_id": "FSD-G-M11",
+          "value": 59.01,
+          "unit": "percent elevator operating rate",
+          "denominator": "one-hour window assigned by mission start hour",
+          "period": "2025-06-18/2025-06-29",
+          "population": "same-sample Youden-optimal threshold",
+          "measurement_status": "fitted_site_specific_threshold"
+        },
+        {
+          "metric_id": "FSD-G-M12",
+          "value": 22,
+          "unit": "respondents",
+          "denominator": "7 pharmacists + 7 support staff + 8 nurses",
+          "period": "survey after described four-week phase; relationship to mission dates unresolved",
+          "population": "occupational survey",
+          "measurement_status": "author_reported_survey_count"
+        }
+      ],
+      "human_support": {
+        "safety_accompaniment": "A trained operator accompanied the robot for medication-handling safety and annotations. This presence coexists with the paper's literal \"without any human intervention\" success definition; distinguishing presence from corrective assistance is our contextual interpretation.",
+        "normal_handling": "Request/dispatch, pharmacy loading/start, destination retrieval/verification and subsequent handoff remain human tasks.",
+        "failure_recovery": "Failure modes recorded; response duration, staffing identity, recovery attempts and final medication delivery not quantified.",
+        "intervention_count": null,
+        "support_minutes_per_accepted_delivery": null,
+        "support_minutes_missingness_reason": "Failed-mission definition includes timeout without required manual assistance; no support-duration data or matched accepted-output denominator."
+      },
+      "service_quality": {
+        "urgent_delivery": "13 urgent requests excluded; service is nonurgent.",
+        "success_rate_for_calibration": null,
+        "success_rate_missingness_reason": "Reported 87.03 percent conflicts with 108 completed/122 eligible; preserve conflict until source resolves.",
+        "timing_boundary": "Elevator delay analysis uses 108 completed trials, excluding failed missions. Table 1 wait/travel definitions differ slightly from Section 3.4 prose; do not reconstruct full service cycle from plot correlations.",
+        "burden": "No significant overall NASA-TLX differences across occupational groups; support staff median SUS about 77.5, but nurses/pharmacists acquire microtasks. Survey is not measured labor minutes.",
+        "threshold_policy_status": "Avoiding congestion is a proposed dispatch strategy. Low-congestion subgroup success is not causal benefit of deploying such a policy; filtering non-elevator failures cannot establish all-cause 100 percent reliability."
+      },
+      "conflict_ids": [
+        "FSD-CONFLICT-01",
+        "FSD-CONFLICT-02"
+      ],
+      "calculation_refs": [
+        "FSD-CALC-01",
+        "FSD-CALC-02",
+        "FSD-CALC-03"
+      ],
+      "permitted_use": "Measure failure modes, mission selection and required staffing dimensions; test congestion-aware dispatch locally. No wage, staffing or universal reliability coefficient.",
+      "definition_interpretation": "Our contextual interpretation distinguishes corrective assistance from routine loading, retrieval and safety accompaniment, because Sections 2.3–2.4 disclose those human roles. The paper does not formally delimit the intervention term; preserve the tension between its literal definition and the staffed workflow."
+    },
+    {
+      "case_id": "FSD-QILU-02",
+      "market_id": "M10",
+      "related_atlas_cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "geography": "CN-Jinan",
+      "period": "2024-05-21/2024-11-21",
+      "evidence_refs": [
+        "FSD-E002"
+      ],
+      "configured_system": {
+        "robot": "Eight AMRs in an endoscope distribution/retrieval system; model/version not verified from accessible abstract.",
+        "integration": "Outpatient endoscopy rooms and reprocessing transport; detailed integration boundary not retrieved.",
+        "workflow": "Distribution and retrieval of endoscopes, not clinical endoscopy itself or autonomous reprocessing.",
+        "alternative": "Manual transport on one randomly selected day in each five-day week; AMR transport on remaining four days."
+      },
+      "accepted_output_definition": null,
+      "accepted_output_definition_missingness_reason": "Abstract says included deliveries and gives failure rate, but does not expose attempt/completion counting or required quality acceptance rules.",
+      "exposure": {
+        "calendar_window": "2024-05-21/2024-11-21",
+        "manual_deliveries_included": 5393,
+        "amr_deliveries_included": 21048,
+        "robot_count": 8,
+        "operating_robot_hours": null,
+        "observer_hours": null,
+        "paid_support_hours": null,
+        "missingness_reason": "Delivery totals and calendar design do not expose operating hours or staff support time; 21048 cannot be multiplied by phase means to recover labor."
+      },
+      "metrics": [
+        {
+          "metric_id": "FSD-Q-M01",
+          "value": 5393,
+          "unit": "deliveries included",
+          "denominator": "manual transport arm",
+          "period": "2024-05-21/2024-11-21",
+          "population": "outpatient endoscope transport",
+          "measurement_status": "author_reported_study_count"
+        },
+        {
+          "metric_id": "FSD-Q-M02",
+          "value": 21048,
+          "unit": "deliveries included",
+          "denominator": "AMR-assisted transport arm",
+          "period": "2024-05-21/2024-11-21",
+          "population": "outpatient endoscope transport",
+          "measurement_status": "author_reported_study_count"
+        },
+        {
+          "metric_id": "FSD-Q-M03",
+          "value": 8,
+          "unit": "robots",
+          "denominator": "AMR-assisted system",
+          "period": "2024-05-21/2024-11-21",
+          "population": "study fleet",
+          "measurement_status": "author_reported_configuration"
+        },
+        {
+          "metric_id": "FSD-Q-M04",
+          "value": 112.07,
+          "unit": "seconds",
+          "denominator": "AMR distribution phase; phase sample count not exposed",
+          "period": "2024-05-21/2024-11-21",
+          "population": "AMR-assisted arm",
+          "measurement_status": "author_reported_mean",
+          "reported_plus_minus": 33.19,
+          "dispersion_definition": "Abstract reports±; full-method interpretation not independently verified."
+        },
+        {
+          "metric_id": "FSD-Q-M05",
+          "value": 168.48,
+          "unit": "seconds",
+          "denominator": "manual distribution phase; phase sample count not exposed",
+          "period": "2024-05-21/2024-11-21",
+          "population": "manual arm",
+          "measurement_status": "author_reported_mean",
+          "reported_plus_minus": 69.4,
+          "dispersion_definition": "Abstract reports±; full-method interpretation not independently verified."
+        },
+        {
+          "metric_id": "FSD-Q-M06",
+          "value": 69.96,
+          "unit": "seconds",
+          "denominator": "AMR retrieval phase; phase sample count not exposed",
+          "period": "2024-05-21/2024-11-21",
+          "population": "AMR-assisted arm",
+          "measurement_status": "author_reported_mean",
+          "reported_plus_minus": 21.08,
+          "dispersion_definition": "Abstract reports±; full-method interpretation not independently verified."
+        },
+        {
+          "metric_id": "FSD-Q-M07",
+          "value": 91.32,
+          "unit": "seconds",
+          "denominator": "manual retrieval phase; phase sample count not exposed",
+          "period": "2024-05-21/2024-11-21",
+          "population": "manual arm",
+          "measurement_status": "author_reported_mean",
+          "reported_plus_minus": 24.89,
+          "dispersion_definition": "Abstract reports±; full-method interpretation not independently verified."
+        },
+        {
+          "metric_id": "FSD-Q-M08",
+          "value": 0.15,
+          "unit": "percent failures",
+          "denominator": "AMR-assisted deliveries; exact integer numerator not exposed",
+          "period": "2024-05-21/2024-11-21",
+          "population": "AMR transport arm",
+          "measurement_status": "author_reported_rounded_rate"
+        },
+        {
+          "metric_id": "FSD-Q-M09",
+          "value": 0,
+          "unit": "reported unsuccessful deliveries",
+          "denominator": "manual transport arm",
+          "period": "2024-05-21/2024-11-21",
+          "population": "manual transport arm",
+          "measurement_status": "author_reported_study_count"
+        },
+        {
+          "metric_id": "FSD-Q-M10",
+          "value": 2.18,
+          "unit": "FTE workload reduction",
+          "denominator": "author calculation; FTE hours/cost/support boundary unavailable",
+          "period": "2024-05-21/2024-11-21",
+          "population": "endoscope transport workload",
+          "measurement_status": "author_reported_unaudited_method"
+        },
+        {
+          "metric_id": "FSD-Q-M11",
+          "value": 12.8,
+          "unit": "percent ROI",
+          "denominator": "author calculation; horizon/cost/support boundary unavailable",
+          "period": "2024-05-21/2024-11-21",
+          "population": "robotic system",
+          "measurement_status": "author_reported_approximate_unaudited_method"
+        }
+      ],
+      "human_support": {
+        "normal_handling": "Not quantified in accessible abstract; do not set loading/unloading, monitoring, exception recovery or cleaning support to zero.",
+        "intervention_count": null,
+        "support_minutes_per_accepted_delivery": null,
+        "support_minutes_missingness_reason": "Full-method and task time budget not retrieved; FTE headline is insufficient.",
+        "staff_reduction_observed": null,
+        "staff_reduction_missingness_reason": "Workload expressed as FTE does not establish payroll positions removed."
+      },
+      "service_quality": {
+        "time_comparison": "Authors report P<.001 for distribution and retrieval phase comparisons; clustered design/adjustment unverified.",
+        "failure_rate": "0.15 percent AMR failures versus no reported manual failures; no exact AMR integer count reconstructed.",
+        "end_to_end_clinical_quality": "Adverse-event outcome listed, but detailed event definitions/results not exposed; no sterility/patient-outcome equivalence assumed."
+      },
+      "calculation_refs": [
+        "FSD-CALC-04",
+        "FSD-CALC-05"
+      ],
+      "permitted_use": "Retain phase-time benchmark as comparative source evidence; prioritize obtaining FTE/support calculation methods. Do not use reported FTE/ROI as common engine assumptions."
+    }
+  ],
+  "calculations": [
+    {
+      "calculation_id": "FSD-CALC-01",
+      "case_id": "FSD-GURO-01",
+      "evidence_refs": [
+        "FSD-E001"
+      ],
+      "formula": "122 / 135",
+      "value": 0.9037037037037037,
+      "unit": "eligible-mission fraction",
+      "numerator_metric_id": "FSD-G-M03",
+      "denominator_metric_id": "FSD-G-M01",
+      "status": "legitimate_same_request_cohort_arithmetic",
+      "interpretation": "90.37 percent of logged requests enter the nonurgent study; this is selection coverage for this sample, not all hospital demand eligibility.",
+      "denominator": "135 logged delivery requests, including the 13 urgent requests excluded from the eligible-mission analysis.",
+      "population": "Requests logged for one DOGU IROI pharmacy-to-emergency-department route at Korea University Guro Hospital; this is study-selection coverage.",
+      "period": "2025-06-18/2025-06-29"
+    },
+    {
+      "calculation_id": "FSD-CALC-02",
+      "case_id": "FSD-GURO-01",
+      "evidence_refs": [
+        "FSD-E001"
+      ],
+      "formula": "8 / 14",
+      "value": 0.5714285714285714,
+      "unit": "fraction of classified failures",
+      "numerator_metric_id": "FSD-G-M07",
+      "denominator_metric_id": "FSD-G-M04",
+      "status": "legitimate_failure_composition_arithmetic",
+      "interpretation": "57.14 percent of classified failures were elevator blockages. Not intervention rate, staffing ratio or fraction of all service time.",
+      "denominator": "14 classified failed missions; the numerator is the eight elevator-blockage failures.",
+      "population": "Failure-type composition among the reported failed nonurgent missions on the Guro study route; not all requests, intervention events or service time.",
+      "period": "2025-06-18/2025-06-29"
+    },
+    {
+      "calculation_id": "FSD-CALC-03",
+      "case_id": "FSD-GURO-01",
+      "evidence_refs": [
+        "FSD-E001"
+      ],
+      "formula": "108 / 122",
+      "value": 0.8852459016393442,
+      "unit": "count-implied completion fraction",
+      "numerator_metric_id": "FSD-G-M05",
+      "denominator_metric_id": "FSD-G-M03",
+      "status": "audit_only_conflicted_not_selected_for_calibration",
+      "interpretation": "88.52 percent from stated counts differs from reported 87.03 percent by 1.49459 percentage points. Preserve both; no invented reconciliation or preferred rate.",
+      "denominator": "122 eligible nonurgent missions; the numerator is the 108 completed trials reported in the timing analysis.",
+      "population": "Guro study mission cohort, evaluated only as a count-consistency audit; conflict with the published overall success percentage remains unresolved.",
+      "period": "2025-06-18/2025-06-29"
+    },
+    {
+      "calculation_id": "FSD-CALC-04",
+      "case_id": "FSD-QILU-02",
+      "evidence_refs": [
+        "FSD-E002"
+      ],
+      "formula": "168.48 - 112.07",
+      "value": 56.41,
+      "unit": "seconds difference in reported distribution means",
+      "input_metric_ids": [
+        "FSD-Q-M05",
+        "FSD-Q-M04"
+      ],
+      "relative_formula": "(168.48 - 112.07) / 168.48",
+      "relative_value": 0.33481718898385565,
+      "status": "legitimate_contrast_of_published_group_means",
+      "interpretation": "Reported AMR distribution mean is 56.41 seconds or 33.48 percent lower. This is a contrast of phase means, not measured person-time savings or an accepted full-service rate.",
+      "denominator": "Published distribution-phase group means; the relative contrast divides by the manual mean of 168.48 seconds. Phase-specific sample counts are not exposed.",
+      "population": "Qilu outpatient endoscope distribution: manual-day and AMR-assisted-day group means within the comparative study, not pooled delivery counts or measured person-time.",
+      "period": "2024-05-21/2024-11-21"
+    },
+    {
+      "calculation_id": "FSD-CALC-05",
+      "case_id": "FSD-QILU-02",
+      "evidence_refs": [
+        "FSD-E002"
+      ],
+      "formula": "91.32 - 69.96",
+      "value": 21.36,
+      "unit": "seconds difference in reported retrieval means",
+      "input_metric_ids": [
+        "FSD-Q-M07",
+        "FSD-Q-M06"
+      ],
+      "relative_formula": "(91.32 - 69.96) / 91.32",
+      "relative_value": 0.23390275952693826,
+      "status": "legitimate_contrast_of_published_group_means",
+      "interpretation": "Reported AMR retrieval mean is 21.36 seconds or 23.39 percent lower. Do not sum with distribution to infer person-time without matched pairing and timing methods.",
+      "denominator": "Published retrieval-phase group means; the relative contrast divides by the manual mean of 91.32 seconds. Phase-specific sample counts are not exposed.",
+      "population": "Qilu outpatient endoscope retrieval: manual-day and AMR-assisted-day group means within the comparative study, not pooled delivery counts or measured person-time.",
+      "period": "2024-05-21/2024-11-21"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "FSD-CONFLICT-01",
+      "evidence_id": "FSD-E001",
+      "claim_a": "122 eligible, 14 failed, 108 completed missions",
+      "claim_b": "87.03 percent overall success",
+      "resolution": null,
+      "resolution_missingness_reason": "Full text and JATS repeat inconsistent figures; no retrieved raw data/correction reconciles them.",
+      "model_action": "No selected success probability; keep arithmetic audit separate."
+    },
+    {
+      "conflict_id": "FSD-CONFLICT-02",
+      "evidence_id": "FSD-E001",
+      "claim_a": "Mission dates June 18–29, 2025",
+      "claim_b": "Survey after entire four-week delivery-testing phase",
+      "resolution": null,
+      "resolution_missingness_reason": "Relation between mission collection window and survey/testing period not specified; do not invent four-week exposure.",
+      "model_action": "Keep observation dates and survey phase separately labeled."
+    },
+    {
+      "conflict_id": "FSD-CONFLICT-03",
+      "evidence_id": "FSD-E003",
+      "claim_a": "107 reported interventions",
+      "claim_b": "72 + 20 + 4 + 7 + 7 + 1 = 111 category events",
+      "resolution": null,
+      "resolution_missingness_reason": "Existing conflict preserved; operator blueprint text not retrieved and no new resolving source found.",
+      "model_action": "Do not calculate a current intervention/staffing rate or combine with 48, 600 later cumulative deliveries."
+    }
+  ],
+  "missing_denominator_contract": {
+    "accepted_output": "Unique request ID, payload/service standard, urgency, destination receipt, quality/timeliness acceptance, manual fallback outcome.",
+    "exposure": "Robot active/idle/down hours for the same missions, staff observation windows and failed/cancelled request inclusion.",
+    "normal_support": "Timed preparation/loading/unloading/verification, dispatch/monitoring, cleaning/charging and coordination by role.",
+    "exception_support": "Time-to-detect/respond/recover; number of people and assistance episodes; remote/on-site distinction; eventual accepted service.",
+    "comparator": "Matched route, urgency, payload mix, time of day and service quality for human/digital/specialized alternatives.",
+    "economic_bridge": "Avoidable paid labor versus redeployment; costs and overhead; no automatic multiplication of elapsed phase time by delivery count.",
+    "prospective_policy_test": "Congestion-aware dispatch must report deferred/urgent/manual deliveries and delay distribution, not only success of selected low-traffic runs."
+  },
+  "retrieval_attempts": [
+    {
+      "target": "Guro primary full text",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13039597/fullTextXML",
+      "date": "2026-10-25",
+      "result": "retrieved 128286 byte JATS; epub date verified"
+    },
+    {
+      "target": "Guro supplementary PDF 1",
+      "url": "https://journals.sagepub.com/doi/suppl/10.1177/20552076261437181/suppl_file/sj-pdf-1-dhj-10.1177_20552076261437181.pdf",
+      "date": "2026-10-25",
+      "result": "Exa live-crawl timeout; direct PMC attachment returned 1817 byte HTML preparation page, not PDF"
+    },
+    {
+      "target": "Guro public supplementary archive",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13039597/supplementaryFiles",
+      "date": "2026-10-25",
+      "result": "Initial 25 second timeout; bounded 45 second retry timed out with zero bytes received. No supplementary data extracted."
+    },
+    {
+      "target": "Qilu full methods",
+      "url": "https://www.giejournal.org/article/S0016-5107(25)02075-9/fulltext",
+      "date": "2026-10-25",
+      "result": "Exa eventually retrieved abstract/references; direct request 403. No detailed FTE/support methods extracted."
+    },
+    {
+      "target": "ChristianaCare blueprint",
+      "url": "https://issuu.com/christianacare/docs/charting_nurse-led_innovation",
+      "date": "2026-10-25",
+      "result": "Primary metadata only; direct report and operator-linked embed 403. No content verification."
+    }
+  ],
+  "model_constraints": [
+    "Existing common-model calibration unchanged; support_minutes_per_accepted_delivery remains unknown in both cases.",
+    "Failure or no-correction success is distinct from human presence and normal handling labor.",
+    "Calendar duration, sampled missions and cumulative deliveries are not interchangeable exposure denominators.",
+    "Selection of nonurgent or low-congestion jobs changes service coverage and may shift urgent/fallback work to humans.",
+    "Comparative phase-time improvement and workloadFTE are distinct from payroll removal, financing return and humanoid advantage.",
+    "Current US hospital cell may use these cases only as mechanism/comparator evidence until target-side validation."
+  ]
+}

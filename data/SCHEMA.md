@@ -11,3 +11,7 @@ Every quantitative input to `model/engine.py` is either an explicitly labeled sc
 Operational records live in ignored `work/` and `sync_receipt.json`. Accepted research artifacts and exact content hashes are registered in `artifact_manifest.json`. The manifest does not contain its own hash or containing commit ID.
 
 One writer owns each artifact during a wave. Lead owns report, acceptance audit, schema, roadmap, handoff and manifest. Specialists own their assigned research/evidence pairs. Implementation owns model, dashboard, scripts, tests and reproduction instructions. Independent review writes separate review artifacts and requests corrections from the owning writer.
+
+## Accepted-package discovery and executable validation
+
+`package_index.json` explicitly lists accepted source packages. `model/packages.py` is the common loader for dashboard/API, scenario evidence provenance and validation. Filename patterns do not grant acceptance. The stricter contracts, documented aliases, explicit null reasons, quantity-context inheritance and reference checks are in [PACKAGE_VALIDATION.md](../model/PACKAGE_VALIDATION.md). Validation does not determine claim truth or the semantics of every wide source table. Source arithmetic remains separate from synthetic model parameters; `model/research_calculations.py` reconstructs the hospital and archived benchmark figures without executing formula strings.

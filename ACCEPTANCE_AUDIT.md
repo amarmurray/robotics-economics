@@ -1,8 +1,16 @@
-# First-checkpoint acceptance audit
+# Campaign acceptance audit — reviewed continuation
 
 **Disposition: publishable as an early, explicitly bounded research edition. The seven-day campaign is not complete.** The governing scope remains the week-one specification v1.4 and the ten-workstream research design. The original 168-hour window remains in [HANDOFF.md](HANDOFF.md); this audit does not reset it or imply uninterrupted execution.
 
 The [requirement register](acceptance_register.json) records all 64 extracted requirements individually. “Met” means the stated bounded artifact/check exists at this checkpoint; it is not a claim of empirical calibration or final campaign acceptance. “Partial” identifies a substantive remaining boundary, even where a useful implementation or dossier exists. The [independent acceptance review](reviews/acceptance_review.md) evaluates the integrated result separately from the implementation owner and lead.
+
+## Continuation status
+
+The first checkpoint was published normally to private main and verified against the remote; exact commit and publication receipts are retained in ignored `sync_receipt.json`. The register therefore now has **47 bounded requirements met, 17 partial, none wholly unmet**. Campaign timing remains partial/ongoing. The independent first-cutoff review remains historical and correctly records publication as pending at its own cutoff.
+
+Four additional independently reviewed investigations are summarized in [CONTINUATION_FINDINGS.md](CONTINUATION_FINDINGS.md): hospital support denominators, non-Spot utility inspection, benchmark/coordination reproducibility and learning-data economics. Ten accepted packages now contain 126 claim records. The explicit package registry is shared by the API, scenario provenance and strict validator. Current validation checks claim metadata, dates or explicit unknown reasons, quantity context and supported evidence references; it does not certify source truth or all semantic dimensions. The [package-validation review](reviews/package_validation_review.md) records independent adverse fixtures and scope.
+
+The new source-arithmetic helper reproduces five hospital calculations and the 175-row benchmark cost reconstruction separately from scenarios. Independent reviews verified its failure-cost, unit and unresolved-conflict boundaries. The treasury/resource extension has a reviewed design, but is not implemented; the shared-finance requirement remains partial. Scenario numerical assumptions and economic outputs have not changed in this continuation. Evidence provenance and available source records have changed, so exports must be regenerated.
 
 ## What is available
 
@@ -22,7 +30,7 @@ The [independent model review](reviews/model_review.md) found and verified fixes
 
 The [browser review](reviews/browser_review.md) exercised all thirteen views, 52 cell/year/view combinations, actual recalculation, evidence invariance, eight-scenario comparison, empty-state behavior, source dialogs and export/reload. A desktop screenshot was inspected. This is not a full mobile, accessibility or multi-browser audit.
 
-The evidence validator passes its actual checks: unique evidence IDs and supported cross-package evidence-reference joins. It is **not** a complete semantic schema validator for every date, unit, population, locator, null reason or arbitrary relationship field. Source-owner and independent reviews cover portions of those contracts; comprehensive automated validation remains partial.
+At the first checkpoint, the evidence validator checked unique evidence IDs and selected reference joins only. The continuation replaces that limited check with the explicit registry and stricter metadata/quantity validation described above. Comprehensive semantic normalization, wide-table interpretation and every typed relationship remain partial; passing syntactic integrity does not establish empirical validity.
 
 At publication integration, exact observed repository commit identifiers were moved to the ignored operational receipt per AGENTS.md. Numerical assumptions and source findings were unchanged. Regenerated scenario fingerprints reflect this metadata change. Content hashes in earlier reviews identify their reviewed snapshots; the artifact manifest identifies the final published artifacts.
 

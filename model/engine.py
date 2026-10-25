@@ -11,6 +11,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+from .packages import accepted_package_hashes
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSUMPTIONS = ROOT / "model" / "assumptions.json"
@@ -480,13 +481,14 @@ def run_scenario(overrides=None, preset="reference"):
     c = catalog()
     p = parameters(overrides,preset)
     fleet = fleet_model(c,p)
+    evidence=accepted_package_hashes(ROOT)
     engine_sha256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     fingerprint = hashlib.sha256(json.dumps({"model":c,"parameters":p,"engine_sha256":engine_sha256},sort_keys=True).encode()).hexdigest()
     result = {"schema_version":c["schema_version"],"model_version":c["model_version"],"status":"synthetic_illustration",
               "input_commit":c["input_commit"],"scenario_hash":fingerprint,"preset":preset,"parameters":p,
               "engine_sha256":engine_sha256,
               "metadata":{"currency":c["currency"],"geography":c["geography"],"denominator":c["denominator"],"empirical_aggregate_inclusion":False},
-              "evidence_snapshot_hashes":{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest() for path in sorted((ROOT/"data").glob("*_evidence.json"))},
+              "evidence_snapshot_hashes":evidence["hashes"],"evidence_package_index":evidence["index"],
               "catalog_cells":c["cells"],"assumptions":c["assumptions"],"customer_mechanisms":c["customer_profiles"][p["customer_profile"]],
               "fleet":fleet,"joint":joint_comparisons(c,p,capability_at(p,p["years"]-1)),
               "commercial":cash_allocation(c,p),"newco":newco_model(c,p),"backcast":backcast(c,p),

@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1",
+  "edition_status": "accepted_bounded_continuation",
+  "scope": "Learning data input economics; no model calibration",
+  "evidence": [
+    {
+      "evidence_id": "LEC-001",
+      "claim": "Cobalt reports a conditional cloud charge reduction from $7.67 to $1.92 per 1,000 demonstrations; operator and whole-program costs are not included in that arithmetic.",
+      "url": "https://arxiv.org/html/2605.19138v2",
+      "publisher": "arXiv; paper authors",
+      "publication_date": "2026-05-20",
+      "observation_period": "Experiments reported in inspected version; exact collection dates not disclosed in extracted methods",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_research_preprint",
+      "epistemic_status": "author_reported_experiment_or_explicit_cost_scenario",
+      "locator": "IV-B RQ4 Cost Efficiency; arXiv Submission history for version date",
+      "limitations": [
+        "Assumes estimated T4 hourly price and 120 demonstrations per user-hour; not an observed fully loaded cost.",
+        "No labor wage, complete rejected-attempt denominator or physical-validation costs; simulated collection.",
+        "Four active users per GPU chosen for user experience; feasible eight-user teleoperation does not establish the same latency or cost-service quality."
+      ],
+      "quantities": [
+        {
+          "value": 0.92,
+          "unit": "USD per instance-hour",
+          "denominator": "one T4 instance-hour",
+          "population": "estimated GCP T4 instance",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "source scenario assumption"
+        },
+        {
+          "value": 120,
+          "unit": "demonstrations per user-hour",
+          "denominator": "one user-hour",
+          "population": "hypothetical collection rate in cost arithmetic",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "source scenario assumption"
+        },
+        {
+          "value": 7.67,
+          "unit": "USD per 1,000 demonstrations",
+          "denominator": "1000 recorded demonstrations",
+          "population": "nonvectorized compute scenario",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "source derived cost scenario"
+        },
+        {
+          "value": 1.92,
+          "unit": "USD per 1,000 demonstrations",
+          "denominator": "1000 recorded demonstrations",
+          "population": "Cobalt shared compute scenario",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "source derived cost scenario"
+        }
+      ]
+    },
+    {
+      "evidence_id": "LEC-002",
+      "claim": "Cobalt reports a 7,510-demonstration simulation/user-study pilot and, separately, 98 expert physical Franka Lift demonstrations with BC-RNN achieving 52% over 25 physical rollouts. Neither is a full labor account or field-service outcome.",
+      "url": "https://arxiv.org/html/2605.19138v2",
+      "publisher": "arXiv; paper authors",
+      "publication_date": "2026-05-20",
+      "observation_period": "Experiments reported in inspected version; exact collection dates not disclosed in extracted methods",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_research_preprint",
+      "epistemic_status": "author_reported_experiment_or_explicit_cost_scenario",
+      "locator": "IV-C Table V and Table VI; IV-A user-study design; IV-D separate real-robot experiment",
+      "limitations": [
+        "Known quality rule selects within the 50th percentile for total path length; exact before/after counts remain unextracted.",
+        "The small expert physical-robot experiment and the crowdsourced simulation pilot are separate populations and must not be pooled.",
+        "Small device study and simulated-client stress tests do not establish paid operator productivity at physical fleet scale."
+      ],
+      "quantities": [
+        {
+          "value": 7510,
+          "unit": "recorded demonstrations",
+          "denominator": "pilot dataset including user study",
+          "population": "Cobalt Table V",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported count"
+        },
+        {
+          "value": 50.61,
+          "unit": "recorded trajectory hours",
+          "denominator": "pilot dataset including user study",
+          "population": "Cobalt Table V",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported duration"
+        },
+        {
+          "value": 50,
+          "unit": "evaluation rollouts per task",
+          "denominator": "one task and policy evaluation",
+          "population": "six simulated manipulation tasks",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported evaluation design"
+        },
+        {
+          "value": 98,
+          "unit": "expert demonstrations",
+          "denominator": "physical Franka Lift training set",
+          "population": "Cobalt IV-D physical Franka Lift",
+          "period": "inspected paper experiment; dates not disclosed",
+          "measurement_status": "author reported experiment"
+        },
+        {
+          "value": 52,
+          "unit": "percent success",
+          "denominator": "25 physical Franka Lift evaluation rollouts",
+          "population": "Cobalt IV-D physical Franka Lift",
+          "period": "inspected paper experiment; dates not disclosed",
+          "measurement_status": "author reported experiment"
+        },
+        {
+          "value": 25,
+          "unit": "evaluation rollouts",
+          "denominator": "physical Franka Lift BC-RNN experiment",
+          "population": "Cobalt IV-D physical Franka Lift",
+          "period": "inspected paper experiment; dates not disclosed",
+          "measurement_status": "author reported experiment"
+        }
+      ]
+    },
+    {
+      "evidence_id": "LEC-003",
+      "claim": "DexWild reports 201 versus 43 demonstrations/hour across five tasks; this is a collection-rate comparison with distinct embodiments, not a full-cost or equal-useful-data ratio.",
+      "url": "https://arxiv.org/html/2505.07813v2",
+      "publisher": "arXiv; paper authors",
+      "publication_date": "2026-05-17",
+      "observation_period": "Experiments reported in inspected version; exact collection dates not disclosed in extracted methods",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_research_preprint",
+      "epistemic_status": "author_reported_experiment_or_explicit_cost_scenario",
+      "locator": "Section V collection-efficiency discussion and Figure 8; Appendix VII-B/C; arXiv Submission history; IV-A human and robot dataset counts",
+      "limitations": [
+        "Full user-study participant/timing and cost ledger not recovered in inspected text.",
+        "Human demonstration requires processing/retargeting and robot data grounding.",
+        "Tracking threshold is not actual rejection fraction; training steps do not price GPU use."
+      ],
+      "quantities": [
+        {
+          "value": 201,
+          "unit": "demonstrations per hour",
+          "denominator": "one reported collection hour",
+          "population": "DexWild human-worn collection across five tasks",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported comparison"
+        },
+        {
+          "value": 43,
+          "unit": "demonstrations per hour",
+          "denominator": "one reported collection hour",
+          "population": "Gello-based robot teleoperation across five tasks",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported comparison"
+        },
+        {
+          "value": 9290,
+          "unit": "demonstrations",
+          "denominator": "human dataset, separate from 1,395 robot demonstrations",
+          "population": "DexWild human demonstration dataset",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported count"
+        },
+        {
+          "value": 93,
+          "unit": "environments",
+          "denominator": "reported dataset",
+          "population": "DexWild human demonstration environments",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported count"
+        },
+        {
+          "value": 1395,
+          "unit": "robot demonstrations",
+          "denominator": "separate robot-grounding dataset",
+          "population": "xArm and LEAP hand V2 Advanced",
+          "period": "inspected paper experiment; dates not disclosed",
+          "measurement_status": "author reported count"
+        }
+      ]
+    },
+    {
+      "evidence_id": "LEC-004",
+      "claim": "DexWild dataset-size averages improve across the listed fractions while individual task rows are nonmonotonic; increasing the human sampling share, changing the robot:human training-batch ratio from 1:2 to 1:5 lowers the reported mean in two inspected evaluation settings. Robot grounding and recovery limitations remain.",
+      "url": "https://arxiv.org/html/2505.07813v2",
+      "publisher": "arXiv; paper authors",
+      "publication_date": "2026-05-17",
+      "observation_period": "Experiments reported in inspected version; exact collection dates not disclosed in extracted methods",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_research_preprint",
+      "epistemic_status": "author_reported_experiment_or_explicit_cost_scenario",
+      "locator": "Appendix Tables III/IV; Section VI Limitations",
+      "limitations": [
+        "Point estimates without an independent significance calculation; no universal optimum or exponent.",
+        "Scores reflect task-specific scoring rubrics, not commercial success or labor productivity.",
+        "Only inspected tasks/configurations; no cross-market transfer coefficient.",
+        "The 1:2 and 1:5 ratios refer to sampling within each training batch, not collected dataset sizes (III-B and V-A)."
+      ],
+      "quantities": [
+        {
+          "value": 0.605,
+          "unit": "task score",
+          "denominator": "spray task evaluation at 50% human dataset",
+          "population": "Table III spray",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported point estimate"
+        },
+        {
+          "value": 0.565,
+          "unit": "task score",
+          "denominator": "spray task evaluation at 100% human dataset",
+          "population": "Table III spray",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported point estimate"
+        },
+        {
+          "value": 0.751,
+          "unit": "mean task score",
+          "denominator": "in-the-wild evaluation at training-batch robot:human 1:2",
+          "population": "Table IV(b) spray/toy average",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported point estimate"
+        },
+        {
+          "value": 0.509,
+          "unit": "mean task score",
+          "denominator": "in-the-wild evaluation at training-batch robot:human 1:5",
+          "population": "Table IV(b) spray/toy average",
+          "period": "inspected paper experiment or cost scenario",
+          "measurement_status": "author reported point estimate"
+        }
+      ]
+    }
+  ],
+  "research_question_ids": [
+    "RQ-DL-03",
+    "RQ-LLM-01",
+    "RQ-LLM-09",
+    "RQ-HC-04"
+  ],
+  "full_cost_per_validated_target_capability": null,
+  "unknown_reason": "No complete labor, attempt/rejection, equipment, processing, training and target-validation account in inspected sources."
+}

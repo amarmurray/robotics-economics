@@ -1,0 +1,629 @@
+{
+  "schema_version": "quadruped-operator-followup-1.0",
+  "version": "2026-10-25-v0.2",
+  "retrieved_at": "2026-10-25T16:29:17Z",
+  "status": "bounded_substantive_followup_with_unresolved_operating_economics",
+  "model_configuration": {
+    "requested": "GPT-6 Astra / Ultra",
+    "verification": "Inherited worker runtime model/effort not introspectable; actual setting unverified"
+  },
+  "scope": {
+    "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+    "foreign_comparator_only": true,
+    "adds_labor_totals": false,
+    "no_numerical_model_calibration": true,
+    "full_service_cost_denominator_obtained": false
+  },
+  "evidence": [
+    {
+      "evidence_id": "QOF-E01",
+      "schema_version": "evidence-1.0",
+      "title": "ANYmal in the Field: Solving Industrial Inspection of an Offshore HVDC Platform with a Quadrupedal Robot",
+      "url": "https://doi.org/10.1007/978-981-15-9460-1_18",
+      "publisher": "Gehring et al.; ANYbotics and TenneT coauthors; Springer",
+      "publication_date": "2021-01",
+      "observation_period": "2018 offshore field tests",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary",
+      "epistemic_status": "operator_supplier_coauthored_field_study",
+      "locator": "Sections 3.1, 4.3, 5, 6, 7; Figures 7 and 11; book chapter pp.247–260",
+      "claim": "ANYmal B300 study reports more than 30 autonomous missions over two weeks and assesses 385 instruments, with 92%, 85%, 54% room-specific inspectability. Closed doors, fire rules, visibility and incomplete platform-control/long-distance integration constrain full service.",
+      "limitations": "No per-room n, attempt/completion denominator, intervention/review time, accepted defect dispositions, full costs or retained operation. Supplier coauthorship; not independent telemetry. No numerical transfer to current ANYmal or US utility labor. Timing statistics are averages with sample size and distribution unspecified.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [
+        {
+          "metric": "Autonomous missions reported",
+          "value": 30,
+          "unit": "missions",
+          "denominator": "Two-week field-test window; attempts/completions and intervention counts not separately tabulated",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_field_observation",
+          "locator": "Section 6",
+          "qualifier": "strictly_greater_than"
+        },
+        {
+          "metric": "Field-test window",
+          "value": 2,
+          "unit": "weeks",
+          "denominator": "Calendar window described in study; not continuous autonomous exposure",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_field_observation",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Instruments evaluated for inspectability",
+          "value": 385,
+          "unit": "instruments",
+          "denominator": "Combined pump, water-treatment and HVA/C rooms; not all mandatory site inspections",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_coverage_assessment",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Inspectable point share, pump room",
+          "value": 92,
+          "unit": "percent",
+          "denominator": "Evaluated points in pump room; room-specific n not published",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_coverage_assessment",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Inspectable point share, water-treatment room",
+          "value": 85,
+          "unit": "percent",
+          "denominator": "Evaluated points in water-treatment room; room-specific n not published",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_coverage_assessment",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Inspectable point share, HVA/C room",
+          "value": 54,
+          "unit": "percent",
+          "denominator": "Evaluated points in HVA/C room; room-specific n not published",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "operator_supplier_coauthored_coverage_assessment",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Points on illustrated route",
+          "value": 19,
+          "unit": "points of interest",
+          "denominator": "One illustrated mission, not the 385-instrument inventory",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "reported_route_configuration",
+          "locator": "Section 6 / Figure 11"
+        },
+        {
+          "metric": "Average inspection tour duration",
+          "value": 25,
+          "unit": "minutes/route",
+          "denominator": "Reported approximate average tour time including travel and inspection; timing sample size and distribution unspecified",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "reported_approximate_average_route_time",
+          "locator": "Section 6"
+        },
+        {
+          "metric": "Average inspection component of tour",
+          "value": 6,
+          "unit": "minutes/route",
+          "denominator": "Reported average inspection time within approximately 25-minute average tour; timing sample size and distribution unspecified; not all-in operator labor",
+          "population": "Unnamed TenneT offshore HVDC platform, North Sea; three evaluated rooms",
+          "period": "2018",
+          "measurement_status": "reported_average_inspection_time",
+          "locator": "Section 6"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "publication_date_type": "ETH repository wrapper month",
+      "artifact_version": "ANYmal B300 with prototype payload; software/serial revision undisclosed",
+      "alternate_url": "https://doi.org/10.3929/ethz-b-000360083",
+      "retrieval_notes": "DOI full text retrieved through Exa. Direct ETH bitstream request returned 429; no direct PDF success claimed."
+    },
+    {
+      "evidence_id": "QOF-E02",
+      "schema_version": "evidence-1.0",
+      "title": "World’s First Autonomous Offshore Robot",
+      "url": "https://www.anybotics.com/news/worlds-first-autonomous-offshore-robot/",
+      "publisher": "ANYbotics",
+      "publication_date": "2018-10-25",
+      "observation_period": "September 2018",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary",
+      "epistemic_status": "supplier_report_of_pilot",
+      "locator": "Opening paragraph; Successful Pilot Installation",
+      "claim": "Supplier describes one-week September pilot and a video mission with 16 points, whereas later coauthored study describes two weeks and one 19-point route.",
+      "limitations": "No explanation of subset/phase difference; do not pool exposure or interpret later study as independent replication.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [
+        {
+          "metric": "Pilot window described by supplier",
+          "value": 1,
+          "unit": "week",
+          "denominator": "Specific pilot installation in announcement",
+          "population": "TenneT unnamed offshore platform",
+          "period": "2018-09",
+          "measurement_status": "supplier_report",
+          "locator": "Opening paragraph"
+        },
+        {
+          "metric": "Video mission points",
+          "value": 16,
+          "unit": "points of interest",
+          "denominator": "One showcased video mission",
+          "population": "TenneT unnamed offshore platform",
+          "period": "2018-09",
+          "measurement_status": "supplier_report",
+          "locator": "Successful Pilot Installation"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "QOF-E03",
+      "schema_version": "evidence-1.0",
+      "title": "TenneT Digitale Transformatie onder hoogspanning",
+      "url": "https://www.nen.nl/media/wysiwyg/Presentatie_TenneT_Digitale_transformatie_onder_hoogspanning.pdf",
+      "publisher": "Thijs Pruijssers, TenneT; public NEN host",
+      "publication_date": "2024-09-18",
+      "observation_period": "Planning card dated2022-10-24; pilot window January–September2024",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary",
+      "epistemic_status": "operator_presentation_of_pilot_and_planning",
+      "locator": "Physical PDF slides 1,10–17; slide 10 footer 2022-10-24; slide 11 window; slide 13 photo/specs; slide 16 manual comparison",
+      "claim": "Operator describes nine-month pilot window. Reused 2022 planning card chooses 36 robot-suitable points, requires networking/access/robot maintenance and quality/cost evaluation; cost, benefit and result cells blank. Slide 13 visibly depicts ANYbotics-branded quadruped.",
+      "limitations": "Planning targets are not completed outputs. Nine months is not measured autonomous uptime. Exact robot/software version, coverage of required inspection universe and full costs unreported. Later rollout/exit not established.",
+      "access": "direct_public_PDF_text_and_visual_review",
+      "quantities": [
+        {
+          "metric": "Selected inspection-point target",
+          "value": 36,
+          "unit": "points",
+          "denominator": "Planning card chooses frequent, robot-inspectable points; not accepted completed measurements",
+          "population": "TenneT ground-robot program planning",
+          "period": "2022-10-24 card reused2024-09-18",
+          "measurement_status": "operator_planning_target",
+          "locator": "Slide 10"
+        },
+        {
+          "metric": "Stated pilot duration",
+          "value": 9,
+          "unit": "months",
+          "denominator": "January–September 2024 project window; not actual robot-operating hours",
+          "population": "380/150 kV TenneT onshore substation",
+          "period": "2024-01 through2024-09",
+          "measurement_status": "operator_described_project_window",
+          "locator": "Slide 11"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "retrieval_notes": "Direct PDF downloaded and extracted with pdftotext. Slide 13 rendered and inspected; exact model not assigned from image. Slide 10 older date and blank cost fields retained."
+    },
+    {
+      "evidence_id": "QOF-E04",
+      "schema_version": "evidence-1.0",
+      "title": "Sparky inspection learning visit with European TSOs",
+      "url": "https://www.linkedin.com/posts/thijspruijssers_innovation-digitalization-ai-activity-7242222109484023808-_RHU",
+      "publisher": "Thijs Pruijssers, TenneT program lead",
+      "publication_date": "2024-09-18",
+      "observation_period": "Visit described as preceding day",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary",
+      "epistemic_status": "named_operator_first_person_account",
+      "locator": "Opening post",
+      "claim": "Operator describes sharing Sparky/autonomous-inspection learning and discussion of a cross-TSO image database under development.",
+      "limitations": "Visit/learning activity not a routine-use acceptance decision, measured database benefit, open-data license or deployment scale.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "QOF-E05",
+      "schema_version": "evidence-1.0",
+      "title": "Robothonden en drones – efficiënter werken aan betrouwbaar hoogspanningsnet en meer capaciteit",
+      "url": "https://solarmagazine.nl/nieuws-zonne-energie/i37700/robothonden-en-drones-efficienter-werken-aan-betrouwbaar-hoogspanningsnet-en-meer-capaciteit",
+      "publisher": "Solar & Storage Magazine interview with TenneT Thijs Pruijssers",
+      "publication_date": "2024-06-08",
+      "observation_period": "At June2024 interview",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary_interview_hosted_by_trade_press",
+      "epistemic_status": "named_operator_interview_claims",
+      "locator": "Question Hoe past jullie robothond in dit verhaal?; conditional Zetten we daar overal robothonden in",
+      "claim": "Operator describes 37 inspection missions at Wateringen and conditional 55,000 person-hours/year opportunity if robots were deployed across 350 locations under consideration.",
+      "limitations": "Prospective network scenario, not net observed labor saving; no acceptance, utilization, support or payroll denominator. Fixed-sensor/drone benefits elsewhere in interview must not be attributed to quadruped. The 37-mission figure does not identify a repertoire or execution-count construct or counting interval.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [
+        {
+          "metric": "Inspection missions described",
+          "value": 37,
+          "unit": "inspection missions",
+          "denominator": "37 missions described at Wateringen; repertoire versus execution count and counting interval unspecified",
+          "population": "Wateringen Sparky",
+          "period": "2024-06",
+          "measurement_status": "named_operator_interview_claim",
+          "locator": "Robot question"
+        },
+        {
+          "metric": "Locations in conditional rollout comparison",
+          "value": 350,
+          "unit": "locations",
+          "denominator": "Operator network scope cited for hypothetical broad rollout",
+          "population": "TenneT Netherlands",
+          "period": "2024-06",
+          "measurement_status": "named_operator_reported_network_scope",
+          "locator": "Robot question"
+        },
+        {
+          "metric": "Conditional network labor-saving opportunity",
+          "value": 55000,
+          "unit": "person-hours/year",
+          "denominator": "If broad deployment across 350 locations; no net support/review/commissioning deductions supplied",
+          "population": "Hypothetical TenneT network deployment",
+          "period": "2024-06 scenario",
+          "measurement_status": "operator_prospective_scenario",
+          "locator": "Robot question"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "QOF-E06",
+      "schema_version": "evidence-1.0",
+      "title": "Slimme technologie bespaart op schaarse menskracht",
+      "url": "https://energeia.nl/slimme-technologie-bespaart-op-schaarse-menskracht/",
+      "publisher": "Energeia, Wouter Hylkema; named TenneT personnel interviewed",
+      "publication_date": "2024-08-30",
+      "observation_period": "At August2024 site visit",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "secondary_site_reporting_with_named_operator_quotes",
+      "epistemic_status": "reported_site_visit_and_interview",
+      "locator": "Sparky description; Meer dan een gimmick",
+      "claim": "Reports 31 programmed missions, two-person human access rule, and EUR 90,000 robot price excluding sensors. Named operator statements emphasize data consistency and maintenance planning.",
+      "limitations": "Reported price lacks contract, tax/service/configuration boundary and is not full deployment cost. August explicitly describes 31 programmed missions; June’s 37 has unspecified construct/interval, so the figures are not a comparable change in inventory or completed output. Reported staffing mechanism is not measured net payroll reduction.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [
+        {
+          "metric": "Programmed mission inventory",
+          "value": 31,
+          "unit": "missions",
+          "denominator": "Programmed repertoire, not attempts/completions",
+          "population": "Wateringen Sparky",
+          "period": "2024-08",
+          "measurement_status": "trade_press_report",
+          "locator": "Sparky description"
+        },
+        {
+          "metric": "Reported robot price excluding sensors",
+          "value": 90000,
+          "unit": "EUR nominal",
+          "denominator": "One robot excluding sensors; taxes, version, service and procurement terms unspecified",
+          "population": "Wateringen robot as reported; not generic ANYmal price",
+          "period": "2024-08",
+          "measurement_status": "unverified_reported_price",
+          "locator": "Meer dan een gimmick"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "QOF-E07",
+      "schema_version": "evidence-1.0",
+      "title": "De onderhoudsinspecteur bij de hoogspanningscentrale van Tennet is een robothond",
+      "url": "https://www.nrc.nl/nieuws/2024/06/13/de-onderhoudsinspecteur-bij-de-hoogspanningscentrale-van-tennet-iseen-robothond-a4856397",
+      "publisher": "NRC, Laura Bergshoef",
+      "publication_date": "2024-06-13",
+      "observation_period": "June2024 site report",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "secondary_site_reporting_with_direct_observation",
+      "epistemic_status": "reported_direct_observation_and_operator_interview",
+      "locator": "Geen plas vloeistof; Docking station",
+      "claim": "Reporter describes inspectors checking a robot image on tablet and interpreting no leak; article says test phase to end 2024.",
+      "limitations": "Single observed review scene not labor time study; test-window endpoint differs from September operator slides. No net inspection cost, false-alarm rate or verified autonomous maintenance action.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "QOF-E08",
+      "schema_version": "evidence-1.0",
+      "title": "ANYmal Significantly Contributes to Grace’s Chemical Facility Uptime",
+      "url": "https://www.anybotics.com/news/anymal-contributes-to-chemical-facility/",
+      "publisher": "ANYbotics with attributed Grace customer quotes",
+      "publication_date": "2022-11-24",
+      "observation_period": "First six months described; exact start not stated",
+      "retrieved_at": "2026-10-25T16:29:17Z",
+      "source_class": "primary",
+      "epistemic_status": "supplier_case_study_with_customer_attribution",
+      "locator": "ANYmal Increases Facility Uptime; customer quotation beginning The extrapolation; Long-Term Maintenance Strategy",
+      "claim": "Supplier account describes six months of routine operation; customer quote frames 1.5% annual uptime gain as extrapolation. Düren remains pilot for potential global expansion.",
+      "limitations": "Not independent operator publication or measured causal uptime study; failure counterfactual, full cost and accepted-output denominator absent. Not promoted to third economic dossier.",
+      "access": "primary_full_text_via_Exa",
+      "quantities": [
+        {
+          "metric": "Claimed annual uptime improvement",
+          "value": 1.5,
+          "unit": "percent as worded by source",
+          "denominator": "Extrapolated over one year for one plant; percentage versus percentage-point basis not clarified",
+          "population": "Grace Düren chemical/glass-furnace facility",
+          "period": "First six months described before2022-11-24; annual extrapolation",
+          "measurement_status": "supplier_published_customer_extrapolation",
+          "locator": "Customer uptime quotation"
+        }
+      ],
+      "target_parameters_allowed": []
+    }
+  ],
+  "deployments": [
+    {
+      "deployment_id": "QOF-D01",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market": "utilities",
+      "stage": "offshore_converter_condition_inspection",
+      "geography": "North Sea, unnamed TenneT platform; not US",
+      "period": "2018",
+      "system_id": "SYS-ANYMAL-B300-TENNET-2018",
+      "system_version": "B300 with prototype inspection payload; software and serial revision unknown",
+      "status": "historical_field_feasibility_test",
+      "evidence_ids": [
+        "QOF-E01",
+        "QOF-E02"
+      ],
+      "accepted_outcome": "Target: required measurements with decision-useful quality, traceable review and needed maintenance response",
+      "accepted_outcome_status": "analytical_service_definition_not_observed_full_pass",
+      "observed_output": "More than 30 autonomous missions and 385-instrument coverage assessment; no full accepted inspection/action denominator",
+      "human_roles": [
+        "Offshore safety training",
+        "Install Wi-Fi and charging",
+        "Manual mapping and marker-assisted point registration",
+        "Configure thresholds, routes and fallback",
+        "Observe reports and take remote control when needed",
+        "Maintenance action not documented"
+      ],
+      "workflow": [
+        "Map and define point",
+        "Plan and simulate route",
+        "Execute route and sense",
+        "Produce report",
+        "Qualified interpretation and maintenance response needed; final links not measured"
+      ],
+      "adverse_findings": [
+        "HVA/C coverage 54%; hidden/wall-facing valves",
+        "Closed doors and fire rules constrain routes",
+        "Operating discharge restrictions remain",
+        "Long-distance communications and platform control-system integration unfinished"
+      ],
+      "economics": {
+        "all_in_capital_cost": null,
+        "recurring_cost": null,
+        "cost_per_accepted_inspection": null,
+        "missing_reason": "Not disclosed in coauthored study or supplier announcement"
+      },
+      "retained_use": {
+        "status": "unknown",
+        "reason": "No dated continuation/abandonment evidence recovered;2024 onshore pilot is different cohort"
+      },
+      "missingness": [
+        "Complete due-inspection inventory and selected/excluded points",
+        "Mission attempts, accepted measurements and rejections",
+        "Review, intervention and robot-service hours",
+        "Verified defect dispositions and maintenance work orders",
+        "Full lifecycle capex/opex with contract boundary",
+        "Dated routine-use continuation, scale or exit decision",
+        "Per-room instrument counts",
+        "Explicit image/measurement acceptance tolerance"
+      ],
+      "model_implication": "Separate site-access eligibility, inspection-point coverage, repeatability, review and corrective action. Do not pool room percentages or transfer 2018 test outcomes to current platforms."
+    },
+    {
+      "deployment_id": "QOF-D02",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "market": "utilities",
+      "stage": "onshore_substation_condition_inspection",
+      "geography": "Wateringen, Netherlands; not US",
+      "period": "2024 pilot; exact end inconsistent across public sources",
+      "system_id": "SYS-SPARKY-TENNET-WATERINGEN-2024",
+      "system_version": "ANYbotics-branded quadruped depicted by operator; exact SKU/software unknown",
+      "status": "operator_described_pilot_with_public_interviews",
+      "evidence_ids": [
+        "QOF-E03",
+        "QOF-E04",
+        "QOF-E05",
+        "QOF-E06",
+        "QOF-E07"
+      ],
+      "accepted_outcome": "Target: complete required inspection route with accepted readings and disposition; selected-point capability alone is insufficient",
+      "accepted_outcome_status": "analytical_service_definition_not_observed_full_pass",
+      "observed_output": "Operator/public reports describe a 31-mission programmed repertoire, a separate 37-mission figure with unspecified construct/interval, and pilot activity; no validated attempts-to-accepted-output or intervention denominator",
+      "human_roles": [
+        "Program and commission missions",
+        "Secure communications and physical access",
+        "Assign robot maintenance",
+        "Inspectors review photographs on tablet",
+        "Technicians interpret and respond to faults"
+      ],
+      "selection_bias": "2022 planning card reused in 2024 selects 36 frequent points that robot can inspect well; does not establish all required inspection coverage",
+      "economics": {
+        "all_in_capital_cost": null,
+        "reported_partial_price_evidence": "QOF-E06",
+        "recurring_cost": null,
+        "cost_per_accepted_inspection": null,
+        "claimed_labor_opportunity_evidence": "QOF-E05",
+        "missing_reason": "Price excludes sensors; no contract, total support/review resources or realized net annual labor study"
+      },
+      "retained_use": {
+        "status": "unknown_after_2024_pilot",
+        "reason": "No 2025–26 operator closeout/scale/stop record recovered in bounded search"
+      },
+      "missingness": [
+        "Complete due-inspection inventory and selected/excluded points",
+        "Mission attempts, accepted measurements and rejections",
+        "Review, intervention and robot-service hours",
+        "Verified defect dispositions and maintenance work orders",
+        "Full lifecycle capex/opex with contract boundary",
+        "Dated routine-use continuation, scale or exit decision",
+        "Counting construct/interval for June 37 missions and comparability with August 31 programmed missions",
+        "Resolved pilot end September versus December 2024",
+        "Exact hardware/software version"
+      ],
+      "model_implication": "Model complete avoided human visits separately from increased measurement frequency with residual visits. Treat conditional network labor savings as scenario claim, never calibrated savings."
+    }
+  ],
+  "external_evidence_registry": [
+    {
+      "evidence_id": "PHY-E02",
+      "path": "data/physical_evidence.json",
+      "role": "National Grid trial comparator; existing evidence reused"
+    },
+    {
+      "evidence_id": "PHY-E04",
+      "path": "data/physical_evidence.json",
+      "role": "PG&E image acceptance comparator; existing evidence reused"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "QOF-C01",
+      "evidence_ids": [
+        "QOF-E01",
+        "QOF-E02"
+      ],
+      "issue": "Two-week study versus one-week announcement;19-point route versus 16-point video",
+      "disposition": "Possible different phases/subsets not established; preserve both and do not pool."
+    },
+    {
+      "conflict_id": "QOF-C02",
+      "evidence_ids": [
+        "QOF-E03",
+        "QOF-E05",
+        "QOF-E06",
+        "QOF-E07"
+      ],
+      "issue": "36 selected planning points, June 37 missions with unspecified construct/interval, August 31 programmed missions; Jan–Sep operator window versus end 2024 press test phase",
+      "disposition": "Distinct or unspecified constructs/versions/windows; no subtraction, trend, common completion denominator or accepted-output rate inferred."
+    }
+  ],
+  "transfer_test": {
+    "analogy_id": "QOF-T01",
+    "source_evidence_ids": [
+      "QOF-E01",
+      "QOF-E03"
+    ],
+    "target_evidence_ids": [
+      "PHY-E02",
+      "PHY-E04"
+    ],
+    "source": "TenneT point coverage and selected-route planning",
+    "target": "US utility inspection embodiment choice and existing National Grid/PG&E comparisons",
+    "mechanism": "Required service completion depends on access, line of sight, data acceptance and residual human work",
+    "material_differences": "HistoricalB300/European site restrictions, modern onshore pilot, UK trial and US aerial tests are distinct configurations and sites",
+    "prediction": "A high selected-route pass rate can coexist with unchanged mandatory human visits when excluded points remain",
+    "falsifier": "A matched target inventory shows complete visits eliminated, accepted coverage retained, and net human/support resources falling",
+    "permitted_model_use": "Represent separate eligibility/coverage/acceptance and residual-service constraints; no coefficient transfer"
+  },
+  "priority_next_artifacts": [
+    {
+      "priority": 1,
+      "artifact": "Operator pilot closeout with selected/excluded inventory and accepted measurement log",
+      "decision": "Complete service feasibility and residual human route"
+    },
+    {
+      "priority": 2,
+      "artifact": "Time study including review, exceptions, commissioning and robot maintenance",
+      "decision": "Net deployable labor capacity rather than gross walking time"
+    },
+    {
+      "priority": 3,
+      "artifact": "Procurement and support price schedule with exact configuration",
+      "decision": "Lifecycle cost per accepted inspection"
+    },
+    {
+      "priority": 4,
+      "artifact": "Dated repeat/scale/redesign/stop decision and current fleet cohort",
+      "decision": "Retained use versus trial"
+    }
+  ],
+  "search_log": {
+    "tool": "Exa web_search_exa and web_fetch_exa; direct public PDF HTTP/pdftotext; slide 13 visual inspection",
+    "query_count": 12,
+    "requested_result_slots": 62,
+    "count_warning": "62 requested search-result slots include duplicate and irrelevant hits; not 62 independent validated sources. Eight evidence records represent source lineages relevant to two cases and one rejected promotion.",
+    "queries": [
+      {
+        "query": "Customer operator published evaluation of ANYmal robot routine industrial inspection missions success rate intervention BASF Siemens Energy plant",
+        "num_results_requested": 6,
+        "outcome": "Operator/technical discovery; coauthored TenneT paper found"
+      },
+      {
+        "query": "ANYmal quadruped inspection long-term deployment primary technical study failures maintenance hours months offshore TotalEnergies Shell",
+        "num_results_requested": 6,
+        "outcome": "TenneT technical results and supplier-only offshore leads"
+      },
+      {
+        "query": "ANYmal TenneT 2018 offshore inspection platform Gehring Isler Potz field feasibility study 385 instruments 2021",
+        "num_results_requested": 5,
+        "outcome": "Paper full text, ETH location and contrasting supplier window"
+      },
+      {
+        "query": "W R Grace Düren ANYmal inspection robot André Kubitzky plant uptime 1.5 percent operator 2024 2025",
+        "num_results_requested": 5,
+        "outcome": "Vendor publication/republications; no independent operator cost denominator"
+      },
+      {
+        "query": "site.basf.com ANYmal robot Ludwigshafen inspection evaluation",
+        "num_results_requested": 5,
+        "outcome": "Mostly supplier trial descriptions; not operator results"
+      },
+      {
+        "query": "TenneT operator ANYmal robot offshore inspection 2025 2024 routine operation contract results",
+        "num_results_requested": 5,
+        "outcome": "Operator 2024 presentation found; no same-cohort retention"
+      },
+      {
+        "query": "Grace company annual sustainability report Düren ANYmal autonomous robotic inspections maintenance Kubitzky",
+        "num_results_requested": 5,
+        "outcome": "Corporate sustainability landing and recycled supplier case; not claimed report audit"
+      },
+      {
+        "query": "PETRONAS ANYmal robotic inspection operator study missions intervention success results technical paper",
+        "num_results_requested": 5,
+        "outcome": "Supplier trial/partnership accounts; no stronger accepted-output denominator"
+      },
+      {
+        "query": "TenneT 2024 January September nine month substation robot pilot ANYmal 36 inspection points Thijs Pruijssers",
+        "num_results_requested": 5,
+        "outcome": "Operator post and Wateringen reporting"
+      },
+      {
+        "query": "TenneT Sparky Wateringen ANYmal robot pilot evaluation results 2025 2026",
+        "num_results_requested": 5,
+        "outcome": "2024 pilot reporting; no fetched later closeout"
+      },
+      {
+        "query": "site.tennet.eu Sparky robot inspections Wateringen",
+        "num_results_requested": 5,
+        "outcome": "Operator post plus press; no operator-site quantitative closeout"
+      },
+      {
+        "query": "TenneT robothond Sparky pilot kosten kwaliteit inspecties resultaten",
+        "num_results_requested": 5,
+        "outcome": "Dutch-language quality/cost search; conditional savings and partial price"
+      }
+    ],
+    "stop_reason": "Two episodes materially change service-coverage and selection judgment; repeated targeted and Dutch-language searches did not recover complete accepted-output economics or later retention. Absence is not abandonment.",
+    "access_limits": [
+      "ETH direct bitstream 429; full chapter recovered through Exa",
+      "Corporate sustainability search did not constitute full report audit",
+      "No external contact, paid procurement data, field telemetry or benchmark execution"
+    ]
+  },
+  "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)"
+}

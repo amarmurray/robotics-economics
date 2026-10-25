@@ -6,7 +6,7 @@ Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Eviden
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. Work continues through available execution windows. No uninterrupted-compute or full-week-work claim is made.
 
-The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. Read [reproduction instructions](REPRODUCE.md), the [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) with the findings. The local dashboard entry is `python3 scripts/serve.py`.
+The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. Read the latest [continuation findings](CONTINUATION_FINDINGS.md), [reproduction instructions](REPRODUCE.md), the [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) with the findings. The local dashboard entry is `python3 scripts/serve.py`.
 
 Six specialist launch requests explicitly selected GPT-6 Astra / Ultra and were accepted. Actual serving model/reasoning is not independently exposed; lead settings cannot be verified or changed through the available tools. That limitation is disclosed rather than silently treated as a verified configuration.
 
@@ -918,14 +918,14 @@ Generated source: [scenario_summary.csv](model/results/scenario_summary.csv). No
 
 | preset | status | scenario_hash | year | active_stock_expected_units | baseline_equivalent_hours | cumulative_baseline_equivalent_hours | newco_peak_funding_usd | newco_funding_gap_usd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| reference | synthetic_illustration | c1159d455458d55940240379b3854211bc0ea7f91a8276303eeeb6087b1d5c30 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666667 | 1084000.0 | 484000.0 |
-| delayed_supply | synthetic_illustration | c4c861fec0b685c68a9e3ea4cafafb6deeb9c22a1e885767dec4b0f9aff72788 | 2033 | 60.0 | 100824.9357142857 | 249689.80714285714 | 1084000.0 | 484000.0 |
-| service_stress | synthetic_illustration | f948fe91684f8a94b7e290f31ab92bcb607dff953648bf11a39c9483a1172971 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
-| ample_supply_unready | synthetic_illustration | 7b1acf2231d377798e4c33cc2ebed131b355b76d4b128ca7de17933afd654b66 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
-| digital_first | synthetic_illustration | d6e6a43f0eba2461c0153282b97c3a7019d221dddc6c1699f7af3e90982b760a | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
-| limited_transfer | synthetic_illustration | 9c67a39d548a73455162187be862b0746bf7f3a25be2fa9eb3bed28eaa13fcdf | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
-| newco_raas | synthetic_illustration | 29e7aed8d70dc08f8266e09531f4ee0ab2e28b7dc5603b5dc6aa88837b3f9bba | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
-| prompt_response | synthetic_illustration | 8bd42cd39685031938537759b028ce72c80345471d213e361cd86217812dadbb | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
+| reference | synthetic_illustration | cd23b3d2c40819f591a20d0726fa249b70cb86e5567f8aac68f6a2450f9a0543 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666667 | 1084000.0 | 484000.0 |
+| delayed_supply | synthetic_illustration | 707df6b6fb59067b2113535d849d9070f697c848c325eea94cc25b2cd793bdc2 | 2033 | 60.0 | 100824.9357142857 | 249689.80714285714 | 1084000.0 | 484000.0 |
+| service_stress | synthetic_illustration | 1044570b833e1ece8b594129642494aba88cb50e994b698fbf4e42f358772d9b | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
+| ample_supply_unready | synthetic_illustration | 818ca52cc07a1515e209894b4e1a58a63beda39b499cf505de259e04fd6fbbc7 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
+| digital_first | synthetic_illustration | fda0ca20a27b9d5f8634047d4cfc685dd506699912f112c7de4f293bfa4773cc | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
+| limited_transfer | synthetic_illustration | 706ee75cd2884168ce0bcd271b68519418c9105e6f9da9ce7182ce887f2d7b39 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
+| newco_raas | synthetic_illustration | fa1cad903b2e02f219031b299009702bf7bfcd9530df333cbc6fa105866e910d | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
+| prompt_response | synthetic_illustration | 1d4ff1284f5d8b0fe2d3597540023b0e633ccd2c1ad229eb6847e04489f66136 | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
 
 ### What the scenario contrasts teach
 
@@ -933,7 +933,7 @@ The delayed-supply case ends with 60 active expected units versus 44 in the refe
 
 Ample supply with unready customers produces 35,302 cumulative baseline-equivalent hours. Service stress produces 68,534. These are constructed counterexamples to the proposition that manufacturing capacity alone determines useful scale. They do not estimate the prevalence or magnitude of those bottlenecks in actual markets.
 
-Digital-first produces 297,633 robot-delivered baseline-equivalent hours, compared with 376,256 in the reference. Less robot deployment is not necessarily a welfare loss: the human-led alternative also improves, changing the incremental economic case. The model does not estimate economy-wide welfare from these scenario outputs.
+Digital-first produces 297,633 robot-delivered baseline-equivalent hours, compared with 376,256 in the reference. Less robot deployment is not necessarily a welfare loss: the human-led alternative also improves, changing the incremental economic case. This preset changes both human time reduction and robot coordination; it does not isolate either channel. Hold coordination fixed for a one-control comparison of the human-time mechanism. The model does not estimate economy-wide welfare from these scenario outputs.
 
 In the separate monthly entrant case, delayed incumbent response requires peak funding of $516,500; prompt response requires $716,000 and exposes a $116,000 gap under the same assumed commitment. Equal robot access does not guarantee equal commercial survival. This comparison isolates an assumed response mechanism; it is not evidence that those prices, demand shares or financing commitments are attainable. Its robots are not separately allocated from the annual fleet resource pool, so the two paths must not be added as jointly feasible output.
 

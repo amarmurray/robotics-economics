@@ -1,0 +1,2480 @@
+{
+  "schema_version": "coordination-reproducibility/0.1.1",
+  "as_of": "2026-10-25",
+  "status": "next_wave_bounded_source_audit_not_campaign_completion",
+  "runtime_configuration": {
+    "requested_model": "GPT-6 Astra",
+    "requested_reasoning": "Ultra",
+    "actual_serving_model": null,
+    "actual_reasoning": null,
+    "verification": "Not exposed for independent verification; no identity claim."
+  },
+  "scope": {
+    "workstreams": [
+      "H4",
+      "H5",
+      "E"
+    ],
+    "owning_lane": "customer_value next-wave coordination audit",
+    "previous_artifacts_extended": [
+      "research/digital_ecosystem.md",
+      "data/digital_evidence.json"
+    ],
+    "source_accounting": "Same-source overlap with existing H records is not independent corroboration; primary code inspection is separate evidence type.",
+    "target_parameters_allowed": [],
+    "numerical_physical_productivity_transfer": "prohibited; no target-side calibration supplied",
+    "execution": "Public-source retrieval, local CPU parsing/hashing/arithmetic only; no paid model calls, robot/ROS execution, installation or outreach."
+  },
+  "source_pins": [
+    {
+      "system": "TheAgentCompany experiment report",
+      "revision": "8cc10953909b88b2aa856b05134c344b505e5fcd",
+      "date": "2025-05-11",
+      "role": "initial_result_commit; report byte-identical at inspected head",
+      "evidence_refs": [
+        "HCR-E002"
+      ]
+    },
+    {
+      "system": "TheAgentCompany historical harness",
+      "revision": "3a1777e23eec4c075ab095b5a814634b843db031",
+      "date": "2025-05-09",
+      "role": "candidate source matching declared OpenHands 0.28.1 dependency; exact executed commit unverified",
+      "evidence_refs": [
+        "HCR-E003"
+      ]
+    },
+    {
+      "system": "TheAgentCompany summary source",
+      "revision": "98b68ef82a47690c316f42fddb05baafaab56851",
+      "date": "2025-11-17",
+      "role": "inspected source; later than benchmark run",
+      "evidence_refs": [
+        "HCR-E004"
+      ]
+    },
+    {
+      "system": "TheAgentCompany inspected trajectory repository",
+      "revision": "f9b1e9411fcb554e76509a0e1bc8fe7f8b0e69d6",
+      "date": "2026-08-01",
+      "role": "immutable retrieval snapshot; event timestamps May 10 2025",
+      "evidence_refs": [
+        "HCR-E005"
+      ]
+    },
+    {
+      "system": "RoboLab public task source",
+      "revision": "ad45d4f974725d020f82c2b0d77d78533aeba2b3",
+      "date": "2026-09-12",
+      "role": "Astranomy-linked task-source pin; not full policy run manifest",
+      "evidence_refs": [
+        "HCR-E007"
+      ]
+    },
+    {
+      "system": "rmf_ros2",
+      "release": "2.14.0",
+      "revision": "7f7b247a618c22f76bf01ff0fb393f72317f6d9a",
+      "date": "2026-09-25",
+      "role": "independent component inspection; no full-stack compatibility claim",
+      "evidence_refs": [
+        "HCR-E010",
+        "HCR-E011",
+        "HCR-E012"
+      ]
+    },
+    {
+      "system": "rmf_api_msgs",
+      "release": "0.7.0",
+      "revision": "2f25a8590ae9aace6f56125b752a88b688c5634e",
+      "date": "2026-09-18",
+      "role": "independent schema release inspection",
+      "evidence_refs": [
+        "HCR-E009"
+      ]
+    },
+    {
+      "system": "rmf-web",
+      "release": "0.3.0",
+      "revision": "7aa265337936a5bd9a920b3fa2360a43244a015c",
+      "date": "2025-08-05",
+      "role": "release-publication date; independent web-bridge inspection",
+      "evidence_refs": [
+        "HCR-E013"
+      ]
+    },
+    {
+      "system": "OpenHands PR 7679 upstream patch",
+      "revision": "d7f651a06c231fac1448c0c4a3ffd92c8be682c6",
+      "date": "2025-04-03",
+      "role": "Upstream merge commit of patch declared cherry-picked into CodeAct 0.28.1; not the executed local tree",
+      "evidence_refs": [
+        "HCR-E014"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "HCR-E001",
+      "claim": "TheAgentCompany v3 reports Gemini 2.5 Pro/OpenHands 0.28.1 on 175 simulated-company tasks; NPC/evaluator model is fixed Claude-3-5-Sonnet-20241022; paper cost is token-priced agent API use assuming no prompt caching.",
+      "url": "https://arxiv.org/html/2412.14161v3",
+      "publisher": "TheAgentCompany authors / arXiv",
+      "publication_date": "2025-09-10",
+      "publication_date_missing_reason": null,
+      "observation_period": "Paper v3; result run dated May 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "research_paper",
+      "epistemic_status": "source_reported_benchmark",
+      "locator": "Section 4.1 Cost per instance; Sections 6–7 and Table 1; AppendixD",
+      "limitations": "Dated simulated environment; no current frontier claim or full organization cost. Source overlaps existing H-AGENTCOMPANY-V3, not independent corroboration.",
+      "external_evidence_refs": [
+        "H-AGENTCOMPANY-V3"
+      ],
+      "quantities": [
+        {
+          "metric": "full completion",
+          "value": 30.3,
+          "unit": "percent tasks",
+          "denominator": 175,
+          "period": "v3 table",
+          "population": "Gemini 2.5 Pro/OpenHands 0.28.1 simulated tasks",
+          "measurement_status": "source_reported_benchmark"
+        },
+        {
+          "metric": "mean agent API cost",
+          "value": 4.2,
+          "unit": "nominal USD per instance",
+          "denominator": "evaluated task instances",
+          "period": "v3 table",
+          "population": "same",
+          "measurement_status": "source_rounded_cost_estimate"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E002",
+      "claim": "Archived Gemini run report has 175 priced task rows and 53 perfect completions. Displayed costs total 740.34 USD, including 659.49 USD across 122 non-perfect tasks; all-suite cost per perfect completion is approximately 13.97 USD. The Details section declares OpenHands CodeAct PyPI release 0.28.1 with cherry-pick PR 7679 and model gemini-2.5-pro-preview-05-06.",
+      "url": "https://github.com/TheAgentCompany/experiments/blob/8cc10953909b88b2aa856b05134c344b505e5fcd/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/README.md",
+      "publisher": "TheAgentCompany experiment maintainers",
+      "publication_date": "2025-05-11",
+      "publication_date_missing_reason": null,
+      "observation_period": "May 10 2025 run; initial result commit May 11",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_experiment_artifact",
+      "epistemic_status": "source_table_plus_reviewer_arithmetic",
+      "locator": "Results per File; Summary; parsing procedure in reconstructed_datasets[0]; Details section for declared patched harness and exact model",
+      "limitations": "Displayed rows rounded to cents, not exact invoices. Partial-credit outputs may retain value; tasks heterogeneous. Does not include unrecorded restarts, NPC/evaluator calls or hosting.",
+      "publication_date_role": "initial_result_commit_date",
+      "source_sha256": "dd989928d67a2b9b42a4e0872b520958821ef718e0b22183b88224b69841ad71",
+      "identical_at_inspected_head": "f9b1e9411fcb554e76509a0e1bc8fe7f8b0e69d6",
+      "quantities": [
+        {
+          "metric": "tasks",
+          "value": 175,
+          "unit": "tasks",
+          "denominator": "entire displayed run",
+          "period": "2025-05-10",
+          "population": "Gemini archived run",
+          "measurement_status": "source_reported"
+        },
+        {
+          "metric": "perfect completions",
+          "value": 53,
+          "unit": "tasks",
+          "denominator": 175,
+          "period": "2025-05-10",
+          "population": "same",
+          "measurement_status": "source_reported"
+        },
+        {
+          "metric": "non-perfect tasks",
+          "value": 122,
+          "unit": "tasks",
+          "denominator": 175,
+          "period": "2025-05-10",
+          "population": "same",
+          "measurement_status": "reviewer_count_from_source"
+        },
+        {
+          "metric": "all displayed costs",
+          "value": 740.34,
+          "unit": "nominal USD",
+          "denominator": "175 evaluated task rows",
+          "period": "2025-05-10 cost basis",
+          "population": "same",
+          "measurement_status": "reviewer_sum_of_cent_rounded_source_rows"
+        },
+        {
+          "metric": "non-perfect displayed costs",
+          "value": 659.49,
+          "unit": "nominal USD",
+          "denominator": "122 non-perfect task rows",
+          "period": "2025-05-10 cost basis",
+          "population": "same",
+          "measurement_status": "reviewer_sum_of_cent_rounded_source_rows"
+        },
+        {
+          "metric": "accepted-output-normalized benchmark cost",
+          "value": 13.968679245283019,
+          "unit": "nominal USD per perfect completion",
+          "denominator": "53 perfect completions after 175 attempted tasks",
+          "period": "2025-05-10 cost basis",
+          "population": "same",
+          "measurement_status": "reviewer_arithmetic_not_economic_calibration"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E003",
+      "claim": "A historical May 9 harness revision pins OpenHands 0.28.1, 100 iterations and configured max_budget_per_task 4; sandbox/init/evaluator timeouts have distinct boundaries.",
+      "url": "https://github.com/TheAgentCompany/TheAgentCompany/blob/3a1777e23eec4c075ab095b5a814634b843db031/evaluation/run_eval.py",
+      "publisher": "TheAgentCompany maintainers",
+      "publication_date": "2025-05-09",
+      "publication_date_missing_reason": null,
+      "observation_period": "Source revision one day before reported run",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_candidate_configuration_not_verified_executed_manifest",
+      "locator": "get_config lines 31–65; init_task_env; run_evaluator; linked pyproject.toml and run_eval.sh",
+      "limitations": "No source establishes exact executed commit/config. Task-image tag 1.0.0 is not image digest. Archived no-cache costs exceed 4, so actual monetary enforcement/accounting unresolved;300 s is not whole-task deadline. The run report separately declares cherry-pick PR 7679; the candidate dependency pin alone omits this modification. See HCR-E014.",
+      "publication_date_role": "source_commit_date",
+      "additional_urls": [
+        "https://github.com/TheAgentCompany/TheAgentCompany/blob/3a1777e23eec4c075ab095b5a814634b843db031/pyproject.toml",
+        "https://github.com/TheAgentCompany/TheAgentCompany/blob/3a1777e23eec4c075ab095b5a814634b843db031/evaluation/run_eval.sh",
+        "https://github.com/TheAgentCompany/TheAgentCompany/blob/98b68ef82a47690c316f42fddb05baafaab56851/evaluation/README.md"
+      ],
+      "quantities": [
+        {
+          "metric": "configured max_iterations",
+          "value": 100,
+          "unit": "controller iterations",
+          "denominator": "one task",
+          "period": "2025-05-09",
+          "population": "historical candidate harness",
+          "measurement_status": "source_configuration"
+        },
+        {
+          "metric": "configured max_budget_per_task",
+          "value": 4,
+          "unit": "budget field value; USD semantic requires runtime accounting",
+          "denominator": "one task",
+          "period": "2025-05-09",
+          "population": "same",
+          "measurement_status": "source_configuration_not_verified_hard_spend_cap"
+        },
+        {
+          "metric": "sandbox timeout",
+          "value": 300,
+          "unit": "seconds",
+          "denominator": "sandbox command/config boundary",
+          "period": "2025-05-09",
+          "population": "same",
+          "measurement_status": "source_configuration_not_episode_deadline"
+        },
+        {
+          "metric": "initialization hard timeout",
+          "value": 900,
+          "unit": "seconds",
+          "denominator": "init_task_env command",
+          "period": "2025-05-09",
+          "population": "same",
+          "measurement_status": "source_configuration"
+        },
+        {
+          "metric": "evaluation hard timeout",
+          "value": 600,
+          "unit": "seconds",
+          "denominator": "grading command",
+          "period": "2025-05-09",
+          "population": "same",
+          "measurement_status": "source_configuration"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E004",
+      "claim": "Summary code computes cost across all agent trajectories, prices unique consecutive response IDs without prompt caching, and does not filter for successful tasks. Runner docs allow skipping errors and resumption.",
+      "url": "https://github.com/TheAgentCompany/TheAgentCompany/blob/98b68ef82a47690c316f42fddb05baafaab56851/evaluation/summarise_results.py",
+      "publisher": "TheAgentCompany maintainers",
+      "publication_date": "2025-11-17",
+      "publication_date_missing_reason": null,
+      "observation_period": "Pinned current source with Gemini pricing branch citing May 8 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_accounting_rule",
+      "locator": "calculate_cost lines 34–38; analyze_traj_json_file lines 91–117; analyze_folder lines 120–150; summary lines 295–305; evaluation/README.md Run Evaluation",
+      "limitations": "Inspected summarizer source is pinned later than run; two sampled trajectories reproduce its values, not full byte-for-byte rerun. Error skipping means completed rows do not disclose all infrastructure attempts. Does not price external NPC/evaluator process calls.",
+      "publication_date_role": "containing_commit_date_not_file_change_date",
+      "additional_urls": [
+        "https://github.com/TheAgentCompany/TheAgentCompany/blob/98b68ef82a47690c316f42fddb05baafaab56851/evaluation/README.md"
+      ],
+      "price_model_id": "gemini-2.5-pro-preview-05-06",
+      "price_formula": "For each distinct recorded response: prompt_tokens*(0.00000125 if prompt_tokens<=200000 else0.0000025) + completion_tokens*(0.00001 if prompt_tokens<=200000 else0.000015). USD, no cache discount; per-response threshold.",
+      "full_suite_unrounded_replay": false
+    },
+    {
+      "evidence_id": "HCR-E005",
+      "claim": "Two independently decompressed archived traces corroborate the README-declared gemini-2.5-pro-preview-05-06 model and reproduce one successful low-cost and one zero-score 100-call high-cost result; recorded-event spans are available but not full cycle time.",
+      "url": "https://raw.githubusercontent.com/TheAgentCompany/experiments/f9b1e9411fcb554e76509a0e1bc8fe7f8b0e69d6/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/trajectories/traj_sde-close-all-prs-image.json.gz",
+      "publisher": "TheAgentCompany experiment maintainers",
+      "publication_date": "2025-05-11",
+      "publication_date_missing_reason": null,
+      "observation_period": "Recorded events May 10 2025; inspected immutable snapshot f 9 b 1 e 941",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_experiment_artifact",
+      "epistemic_status": "independent_bounded_parse_of_published_traces",
+      "locator": "tool_call_metadata.model_response model/id/usage; first and last timestamp; matching README task rows",
+      "limitations": "Purposive sample 2 of 175, not average/tail estimate. Event span excludes initialization/grading; UTC offset absent in source timestamps. No agent execution or full-suite replay.",
+      "publication_date_role": "initial_run_result_commit_date",
+      "additional_urls": [
+        "https://raw.githubusercontent.com/TheAgentCompany/experiments/f9b1e9411fcb554e76509a0e1bc8fe7f8b0e69d6/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/trajectories/traj_pm-create-plane-issue-image.json.gz"
+      ],
+      "sampled_traces": [
+        {
+          "task_id": "pm-create-plane-issue",
+          "compressed_sha256": "71c4c9f0852a5db6c096becc5be7bb6e508a9a8b16599a3af59e3aeb9ffba94b",
+          "model_id": "gemini-2.5-pro-preview-05-06",
+          "first_timestamp": "2025-05-10T01:25:44.787455",
+          "last_timestamp": "2025-05-10T01:26:25.268661",
+          "calls": 8,
+          "repriced_usd": 0.21672,
+          "recorded_span_seconds": 40.481206
+        },
+        {
+          "task_id": "sde-close-all-prs",
+          "compressed_sha256": "e7f5b76703e2eefcaab71efb74f73cb2bf29f8bf599334c4f23a4e60e84ef52d",
+          "model_id": "gemini-2.5-pro-preview-05-06",
+          "first_timestamp": "2025-05-10T07:55:39.847453",
+          "last_timestamp": "2025-05-10T08:17:05.401353",
+          "calls": 100,
+          "repriced_usd": 95.91578,
+          "recorded_span_seconds": 1285.5539
+        }
+      ],
+      "sample_field_units": {
+        "calls": "distinct recorded LLM responses per selected trajectory",
+        "repriced_usd": "USD under source no-cache formula per selected trajectory",
+        "recorded_span_seconds": "seconds first-to-last recorded event per selected trajectory"
+      },
+      "quantities": [
+        {
+          "metric": "sampled trace count",
+          "value": 2,
+          "unit": "trajectories",
+          "denominator": 175,
+          "period": "retrieved 2026-10-25",
+          "population": "archived Gemini run",
+          "measurement_status": "reviewer_sampling_not_random"
+        },
+        {
+          "metric": "successful trace span",
+          "value": 40.481206,
+          "unit": "seconds",
+          "denominator": "first-to-last recorded event",
+          "period": "2025-05-10",
+          "population": "pm-create-plane-issue",
+          "measurement_status": "reviewer_timestamp_difference_not_total_cycle_time"
+        },
+        {
+          "metric": "zero-score trace span",
+          "value": 1285.5539,
+          "unit": "seconds",
+          "denominator": "first-to-last recorded event",
+          "period": "2025-05-10",
+          "population": "sde-close-all-prs",
+          "measurement_status": "reviewer_timestamp_difference_not_total_cycle_time"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E006",
+      "claim": "Astranomy reports successful-episode-only timing/cost, 447 usage-covered Agentic successes out of 449; paused 15 Hz simulation, no walltime/retry limit, 8192-completion-token cap per call. Final Direct configuration differs across 90 and 30 task cohorts.",
+      "url": "https://research.nvidia.com/labs/srl/projects/astranomy/",
+      "publisher": "NVIDIA research",
+      "publication_date": null,
+      "publication_date_missing_reason": "No exact publication date verified; retrieved page and version facts kept separate.",
+      "observation_period": "Report snapshot retrieved 2026-10-25; API pricing October 1 2026",
+      "retrieved_at": "2026-10-25",
+      "source_class": "vendor_research_report",
+      "epistemic_status": "source_reported_simulated_control_protocol",
+      "locator": "Section 2; Section 3.4/Table 2; Sections 4.1/4.2/TableA 11; Section 7",
+      "limitations": "Already-resolved successful-only cost and paused-clock findings are crosslinked, not presented as new independent corroboration. No all-attempt cost ledger, physical deadline test, statistical-significance claim or exact served-model build verified.",
+      "external_evidence_refs": [
+        "H-ASTRANOMY"
+      ],
+      "source_sha256": "087ea1e189899e73b742922f4be463eee0e60204b919f8e89e53618e503271d4",
+      "source_bytes": 1265231,
+      "source_snapshot_archived": false,
+      "source_hash_role": "retrieved_HTML_fingerprint_not_publisher_version",
+      "quantities": [
+        {
+          "metric": "Agentic cost mean",
+          "value": 36.4,
+          "unit": "nominal USD per usage-covered successful episode",
+          "denominator": "447 successful episodes with usage;449 total successes;600 attempts",
+          "period": "October 1 2026 API prices",
+          "population": "Agentic RoboLab 120",
+          "measurement_status": "source_reported_conditional_cost"
+        },
+        {
+          "metric": "Agentic mean inference latency",
+          "value": 13.37,
+          "unit": "seconds per model call",
+          "denominator": "model calls in successful episodes",
+          "period": "report snapshot",
+          "population": "Agentic RoboLab 120",
+          "measurement_status": "source_reported_success_conditioned_latency"
+        },
+        {
+          "metric": "completion-token cap",
+          "value": 8192,
+          "unit": "completion tokens per call",
+          "denominator": "one model call including reasoning/tool/action output",
+          "period": "report snapshot",
+          "population": "all policy forms",
+          "measurement_status": "source_protocol_not_episode_budget"
+        },
+        {
+          "metric": "control frequency",
+          "value": 15,
+          "unit": "simulated control steps per second",
+          "denominator": "simulation running between inference pauses",
+          "period": "report snapshot",
+          "population": "DROID RoboLab",
+          "measurement_status": "source_protocol_not_real_elapsed_control_rate"
+        }
+      ],
+      "configuration": {
+        "reasoning_effort": "medium",
+        "episode_seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "task_count": 120,
+        "walltime_limit": null,
+        "walltime_limit_missing_reason": "Explicitly not imposed by source",
+        "retry_limit": null,
+        "retry_limit_missing_reason": "Explicitly not imposed by source; task-specific action-step limit remains",
+        "agentic_optional_tools": "disabled by default; persistent history/planning/motion feedback retained",
+        "direct_horizon_cohorts": [
+          {
+            "tasks": 90,
+            "action_steps_min": 3,
+            "action_steps_max": 15
+          },
+          {
+            "tasks": 30,
+            "action_steps_min": 1,
+            "action_steps_max": 15
+          }
+        ],
+        "exact_codex_build": null,
+        "exact_codex_build_missing_reason": "Not disclosed in inspected report",
+        "all_attempt_cost_per_accepted_output": null,
+        "all_attempt_cost_missing_reason": "Failed-episode costs and 2 successful usage records missing"
+      }
+    },
+    {
+      "evidence_id": "HCR-E007",
+      "claim": "Astranomy task previews link an immutable RoboLab task-source commit; public runner uses env.max_episode_length and environment configuration reads task episode_length_s. This is not proof of the private policy run configuration.",
+      "url": "https://github.com/NVlabs/RoboLab/blob/ad45d4f974725d020f82c2b0d77d78533aeba2b3/robolab/tasks/README.md",
+      "publisher": "NVIDIA / NVlabs RoboLab maintainers",
+      "publication_date": "2026-09-12",
+      "publication_date_missing_reason": null,
+      "observation_period": "Pinned RoboLab task-source revision linked by current report",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_public_task_source_not_executed_policy_manifest",
+      "locator": "Astranomy task-preview href; robolab/eval/episode.py lines 99–102, 155; robolab/core/environments/config.py lines 194–204; FoodPackingByColorTask line 38",
+      "limitations": "Policy harness/overrides unavailable; public task-source commit is not an immutable complete Astranomy run pin. Simulated episode duration excludes waiting during paused inference.",
+      "publication_date_role": "commit_date",
+      "additional_urls": [
+        "https://github.com/NVlabs/RoboLab/blob/ad45d4f974725d020f82c2b0d77d78533aeba2b3/robolab/eval/episode.py",
+        "https://github.com/NVlabs/RoboLab/blob/ad45d4f974725d020f82c2b0d77d78533aeba2b3/robolab/core/environments/config.py",
+        "https://github.com/NVlabs/RoboLab/blob/ad45d4f974725d020f82c2b0d77d78533aeba2b3/robolab/tasks/benchmark/food_packing_by_color_task.py"
+      ],
+      "quantities": [
+        {
+          "metric": "FoodPackingByColor episode_length_s",
+          "value": 120,
+          "unit": "simulated seconds",
+          "denominator": "one public task configuration",
+          "period": "commit 2026-09-12",
+          "population": "FoodPackingByColorTask at linked RoboLab commit",
+          "measurement_status": "source_configuration_not_verified_Astranomy_run_limit"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E008",
+      "claim": "Astranomy hero Code link targets an unpinned NVIDIA GitLab path; retrieval failed 403 from this session. Inspected public cost/timing/failure scripts do not expose a complete all-attempt usage ledger.",
+      "url": "https://research.nvidia.com/labs/srl/projects/astranomy/",
+      "publisher": "NVIDIA research",
+      "publication_date": null,
+      "publication_date_missing_reason": "No exact publication date verified; retrieved page and version facts kept separate.",
+      "observation_period": "Direct source/link inspection 2026-10-25",
+      "retrieved_at": "2026-10-25",
+      "source_class": "retrieval_audit",
+      "epistemic_status": "bounded_access_and_disclosure_observation",
+      "locator": "Raw HTML hero-action Code href; cost-success/full-results/inference-timing/failure-events/tool-call-viewer scripts",
+      "limitations": "A session 403 does not prove no other user can access code or data; no credential bypass attempted. Inspected assets are not an exhaustive internet search. Public prompts and examples provide partial disclosure.",
+      "linked_code_url": "https://gitlab-master.nvidia.com/xuningy/robolab/-/tree/main/policies/ai_native",
+      "retrieval_error": "urlopen error Tunnel connection failed:403 Forbidden",
+      "inspected_asset_urls": [
+        "https://research.nvidia.com/labs/srl/projects/astranomy/article/cost-success.js?v=d5002067c466",
+        "https://research.nvidia.com/labs/srl/projects/astranomy/article/assets/task-rollout/inference-timing.js?v=78069c3d5df3",
+        "https://research.nvidia.com/labs/srl/projects/astranomy/article/full-results.js?v=7b132fa201a8",
+        "https://research.nvidia.com/labs/srl/projects/astranomy/article/assets/task-rollout/data/failure-events.js?v=a9f98867c2df",
+        "https://research.nvidia.com/labs/srl/projects/astranomy/article/tool-call-viewer.js?v=821a8c334531"
+      ],
+      "immutable_policy_harness_commit": null,
+      "immutable_policy_harness_commit_missing_reason": "Not found in inspected report/linked accessible sources"
+    },
+    {
+      "evidence_id": "HCR-E009",
+      "claim": "RMF API schemas require task category/description and separate request success, dispatch state and ongoing task status; requester is an optional string, not proof of enterprise authorization.",
+      "url": "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/task_request.json",
+      "publisher": "Open-RMF maintainers",
+      "publication_date": "2026-09-18",
+      "publication_date_missing_reason": null,
+      "observation_period": "rmf_api_msgs 0.7.0 source",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code_schema",
+      "epistemic_status": "implemented_message_contract",
+      "locator": "task_request properties/required; dispatch_task_response oneOf; task_state $defs.status and $defs.dispatch",
+      "limitations": "Schema establishes message semantics, not deployment authorization or physical success. Component release pin is not a tested compatible full stack.",
+      "publication_date_role": "release_commit_date",
+      "additional_urls": [
+        "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/dispatch_task_request.json",
+        "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/dispatch_task_response.json",
+        "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/cancel_task_request.json",
+        "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/cancel_task_response.json",
+        "https://github.com/open-rmf/rmf_api_msgs/blob/2f25a8590ae9aace6f56125b752a88b688c5634e/rmf_api_msgs/schemas/task_state.json"
+      ]
+    },
+    {
+      "evidence_id": "HCR-E010",
+      "claim": "RMF dispatcher validates requests, queues bidding then responds success; bounded in-process response cache uses request IDs; lingering dispatch commands expire after 10 s. Dispatched work becomes fleet-adapter responsibility.",
+      "url": "https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_task_ros2/src/rmf_task_ros2/Dispatcher.cpp",
+      "publisher": "Open-RMF maintainers",
+      "publication_date": "2026-09-25",
+      "publication_date_missing_reason": null,
+      "observation_period": "rmf_ros 2 2.14.0",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_control_flow_not_runtime_test",
+      "locator": "ApiMemory lines 150–180; handle_api_request 446–563; cancel_task 639–738; publish_lingering_commands 945–984",
+      "limitations": "Acceptance is not assignment/completion. Cache is bounded process memory, not durable enterprise idempotency. Actual deployment settings, behavior under load and installed version unverified.",
+      "publication_date_role": "release_commit_date",
+      "quantities": [
+        {
+          "metric": "cache _max_size field",
+          "value": 50,
+          "unit": "cache sizing field",
+          "denominator": "dispatcher process",
+          "period": "2026-09-25",
+          "population": "rmf_ros 2 2.14.0",
+          "measurement_status": "source_code_constant_not_strict_observed_entry_count"
+        },
+        {
+          "metric": "lingering command timeout",
+          "value": 10,
+          "unit": "seconds",
+          "denominator": "unacknowledged dispatch command",
+          "period": "2026-09-25",
+          "population": "same",
+          "measurement_status": "source_code_constant_not_service_deadline"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E011",
+      "claim": "RMF fleet callbacks admit feasible supported requests; EasyFullControl integrates navigation/stop/action callbacks, with integrator-provided completion and activity feedback. Defaults differ between API layers.",
+      "url": "https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/EasyFullControl.hpp",
+      "publisher": "Open-RMF maintainers",
+      "publication_date": "2026-09-25",
+      "publication_date_missing_reason": null,
+      "observation_period": "rmf_ros 2 2.14.0",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code_interface",
+      "epistemic_status": "implemented_integration_contract",
+      "locator": "EasyFullControl lines 50–53; RobotCallbacks 337–375; CommandExecution 378–426; FleetUpdateHandle consider_delivery/cleaning/patrol/composed callbacks",
+      "limitations": "Header contract does not establish site installation or correct operator authorization. No LLM coordination gain or safety-certified behavior inferred.",
+      "publication_date_role": "release_commit_date",
+      "additional_urls": [
+        "https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/FleetUpdateHandle.hpp",
+        "https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/include/rmf_fleet_adapter/agv/RobotUpdateHandle.hpp"
+      ]
+    },
+    {
+      "evidence_id": "HCR-E012",
+      "claim": "Fleet TaskManager validates cancellation then replies success if cancel_task accepts; active-task cancellation calls cancel and returns rather than waiting for physical stop or business rollback. When cancel_task returns false, this handler sends no success response and does not emit an explicit negative reply there.",
+      "url": "https://github.com/open-rmf/rmf_ros2/blob/7f7b247a618c22f76bf01ff0fb393f72317f6d9a/rmf_fleet_adapter/src/rmf_fleet_adapter/TaskManager.cpp",
+      "publisher": "Open-RMF maintainers",
+      "publication_date": "2026-09-25",
+      "publication_date_missing_reason": null,
+      "observation_period": "rmf_ros 2 2.14.0",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_control_flow_not_runtime_test",
+      "locator": "cancel_task 1555–1580; _handle_cancel_request 3036–3049",
+      "limitations": "Cancellation acknowledgement does not establish completed cancellation/physical stop. No assessment of emergency-stop safety or all phase-specific cancellation code. No-response and caller timeout must not be treated as proof that the task is absent or physically stopped.",
+      "publication_date_role": "release_commit_date"
+    },
+    {
+      "evidence_id": "HCR-E013",
+      "claim": "rmf-web task route persists RMF task state/request after successful dispatch; bridge generates fresh UUID per call and defaults to 5 s response timeout. Repeated HTTP call therefore has a new ROS identity in this implementation.",
+      "url": "https://github.com/open-rmf/rmf-web/blob/7aa265337936a5bd9a920b3fa2360a43244a015c/packages/api-server/api_server/rmf_io/rmf_service.py",
+      "publisher": "Open-RMF maintainers",
+      "publication_date": "2025-08-05",
+      "publication_date_missing_reason": null,
+      "observation_period": "rmf-web 0.3.0",
+      "retrieved_at": "2026-10-25",
+      "source_class": "source_code",
+      "epistemic_status": "implemented_interface_plus_explicit_failure_mode_inference",
+      "locator": "RmfService lines 19–27 and 73–102; routes/tasks/tasks.py 219–239; app.py 203–205",
+      "limitations": "Timeout-after-acceptance duplicate effect is a code-derived hypothesis, not observed incident. User dependency exists; target deployment auth/policy unverified. Distinct older web release not asserted compatible with newer core/schema pins.",
+      "publication_date_role": "release_publication_date",
+      "additional_urls": [
+        "https://github.com/open-rmf/rmf-web/blob/7aa265337936a5bd9a920b3fa2360a43244a015c/packages/api-server/api_server/routes/tasks/tasks.py",
+        "https://github.com/open-rmf/rmf-web/blob/7aa265337936a5bd9a920b3fa2360a43244a015c/packages/api-server/api_server/app.py",
+        "https://github.com/open-rmf/rmf-web/releases/tag/0.3.0"
+      ],
+      "quantities": [
+        {
+          "metric": "default response timeout",
+          "value": 5,
+          "unit": "seconds",
+          "denominator": "RmfService.call request-response wait",
+          "period": "release 2025-08-05",
+          "population": "rmf-web 0.3.0",
+          "measurement_status": "source_code_default_not_physical_execution_deadline"
+        }
+      ]
+    },
+    {
+      "evidence_id": "HCR-E014",
+      "claim": "The archived run report declares OpenHands CodeAct PyPI release 0.28.1 with cherry-pick PR 7679. Upstream PR 7679, Fix cached tokens, merged on 3 April 2025 and states that it handles None cached-token values.",
+      "url": "https://github.com/OpenHands/OpenHands/pull/7679",
+      "publisher": "OpenHands maintainers; TheAgentCompany experiment maintainers",
+      "publication_date": "2025-04-03",
+      "publication_date_role": "upstream_PR_merge_date; run declaration published 2025-05-11",
+      "publication_date_missing_reason": null,
+      "observation_period": "Upstream patch April 2025; declared benchmark submission May 2025",
+      "retrieved_at": "2026-10-25",
+      "source_class": "primary_experiment_declaration_and_upstream_PR_metadata",
+      "epistemic_status": "declared_patch_identity_not_verified_executed_local_tree",
+      "locator": "Archived experiment README #Details; GitHub PR title/body/merged_at/merge_commit_sha/head.sha",
+      "limitations": "Neither source proves the resulting executed local tree/configuration or explains the runtime monetary-budget discrepancy. Model identity is also declared directly in the README and corroborated by two trace samples.",
+      "additional_urls": [
+        "https://github.com/TheAgentCompany/experiments/blob/8cc10953909b88b2aa856b05134c344b505e5fcd/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/README.md#details",
+        "https://api.github.com/repos/OpenHands/OpenHands/pulls/7679"
+      ],
+      "declared_harness": "OpenHands CodeAct PyPI release 0.28.1 + cherry-pick PR 7679",
+      "declared_model_id": "gemini-2.5-pro-preview-05-06",
+      "declared_patch_original_url": "https://github.com/All-Hands-AI/OpenHands/pull/7679",
+      "canonical_patch_url": "https://github.com/OpenHands/OpenHands/pull/7679",
+      "upstream_merged_at": "2025-04-03T01:11:19Z",
+      "upstream_merge_commit": "d7f651a06c231fac1448c0c4a3ffd92c8be682c6",
+      "upstream_PR_head_commit": "6defbdf1b30e2b84f5551e78308b4e6161472fc1",
+      "executed_local_tree": null,
+      "executed_local_tree_missing_reason": "README specifies cherry-pick by PR, not resulting local tree/configuration digest."
+    }
+  ],
+  "reconstructed_datasets": [
+    {
+      "dataset_id": "HCR-DATA-TAC-GEMINI-COSTS",
+      "evidence_refs": [
+        "HCR-E002",
+        "HCR-E004"
+      ],
+      "source_url": "https://raw.githubusercontent.com/TheAgentCompany/experiments/8cc10953909b88b2aa856b05134c344b505e5fcd/evaluation/1.0.0/20250510_OpenHands-0.28.1-gemini-2.5-pro/README.md",
+      "source_sha256": "dd989928d67a2b9b42a4e0872b520958821ef718e0b22183b88224b69841ad71",
+      "period": "May 10 2025 archived benchmark run",
+      "population": "175 simulated-company tasks, one archived row per task",
+      "measurement_status": "transcribed_source_rows_with_reviewer_perfect_indicator",
+      "columns": {
+        "task_id": "source task name",
+        "checkpoint_max": "available checkpoint points per task",
+        "checkpoint_earned": "earned checkpoint points per task",
+        "calls": "reported distinct model calls per task",
+        "cost_usd": "reported nominal USD agent API-cost estimate per task rounded to cents",
+        "perfect": "reviewer Boolean checkpoint_earned==checkpoint_max"
+      },
+      "rows": [
+        {
+          "task_id": "admin-ask-for-meeting-feedback",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 35,
+          "cost_usd": 1.99,
+          "perfect": true
+        },
+        {
+          "task_id": "admin-check-employees-budget-and-reply-2",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 31,
+          "cost_usd": 1.84,
+          "perfect": true
+        },
+        {
+          "task_id": "ds-answer-spreadsheet-questions",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 52,
+          "cost_usd": 5.25,
+          "perfect": true
+        },
+        {
+          "task_id": "ds-sql-exercise",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 9,
+          "cost_usd": 0.1,
+          "perfect": true
+        },
+        {
+          "task_id": "finance-budget-variance",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 27,
+          "cost_usd": 1.74,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-check-for-invalid-passwords-and-ask-for-valid-passwords",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 25,
+          "cost_usd": 0.89,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-collect-feedbacks",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 18,
+          "cost_usd": 0.6,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-collect-multiple-valid-passwords",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 51,
+          "cost_usd": 4.07,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-delete-and-insert-user",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 29,
+          "cost_usd": 2.28,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-get-valid-password",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 21,
+          "cost_usd": 0.81,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-new-grad-job-description-2",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 34,
+          "cost_usd": 2.15,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-new-grad-job-description-3",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 45,
+          "cost_usd": 3.78,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-new-grad-job-description",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 37,
+          "cost_usd": 2.07,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-pick-interviewer-1",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 20,
+          "cost_usd": 0.86,
+          "perfect": true
+        },
+        {
+          "task_id": "hr-resume-screening",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 25,
+          "cost_usd": 1.17,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-assign-issues",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 41,
+          "cost_usd": 3.63,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-change-channel-ownership",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 8,
+          "cost_usd": 0.14,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-check-backlog-update-issues",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 17,
+          "cost_usd": 0.81,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-create-channel-message",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 18,
+          "cost_usd": 0.49,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-create-channel-message-medium",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 65,
+          "cost_usd": 4.92,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-create-channel-new-leader",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 22,
+          "cost_usd": 0.78,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-create-plane-issue",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 8,
+          "cost_usd": 0.22,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-schedule-meeting-1",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 15,
+          "cost_usd": 0.42,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-schedule-meeting-2",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 15,
+          "cost_usd": 0.41,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-send-notification-to-corresponding-user",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 30,
+          "cost_usd": 1.62,
+          "perfect": true
+        },
+        {
+          "task_id": "pm-update-plane-issue-from-gitlab-status",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 7,
+          "calls": 18,
+          "cost_usd": 1.88,
+          "perfect": true
+        },
+        {
+          "task_id": "qa-update-issue-status-according-to-colleagues",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 21,
+          "cost_usd": 0.86,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-change-license-easy",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 19,
+          "cost_usd": 0.42,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-change-license-hard",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 19,
+          "cost_usd": 0.4,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-close-an-issue",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 5,
+          "cost_usd": 0.11,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-collect-open-issues",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 6,
+          "cost_usd": 0.14,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-copilot-arena-server-easy-add-suffix",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 13,
+          "cost_usd": 0.35,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-copilot-arena-server-new-endpoint",
+          "checkpoint_max": 9,
+          "checkpoint_earned": 9,
+          "calls": 33,
+          "cost_usd": 2.09,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-copilot-arena-server-setup",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 7,
+          "calls": 40,
+          "cost_usd": 2.52,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-copy-issues-to-plane",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 12,
+          "cost_usd": 0.51,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-create-new-release",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 15,
+          "cost_usd": 1.04,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-create-new-repo",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 22,
+          "cost_usd": 1.01,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-delete-all-repos",
+          "checkpoint_max": 1,
+          "checkpoint_earned": 1,
+          "calls": 25,
+          "cost_usd": 2.74,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-delete-stale-branch",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 5,
+          "cost_usd": 0.05,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-dependency-change-1",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 10,
+          "cost_usd": 0.15,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-fix-factual-mistake",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 8,
+          "cost_usd": 0.11,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-implement-hyperloglog",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 6,
+          "calls": 44,
+          "cost_usd": 2.41,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-install-go",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 8,
+          "cost_usd": 8.55,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-install-openjdk",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 5,
+          "cost_usd": 0.07,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-issue-label-management",
+          "checkpoint_max": 1,
+          "checkpoint_earned": 1,
+          "calls": 10,
+          "cost_usd": 0.6,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-move-page-to-cloud",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 19,
+          "cost_usd": 0.91,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-reply-community-issue-with-fixed-reply",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 7,
+          "cost_usd": 0.29,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-run-linter-on-openhands",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 2,
+          "calls": 11,
+          "cost_usd": 0.19,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-summarize-recent-issues",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 4,
+          "calls": 22,
+          "cost_usd": 2.23,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-sync-from-origin-repo",
+          "checkpoint_max": 1,
+          "checkpoint_earned": 1,
+          "calls": 16,
+          "cost_usd": 0.3,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-update-issue-status-on-plane",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 3,
+          "calls": 22,
+          "cost_usd": 3.01,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-write-a-unit-test-for-append_file-function",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 25,
+          "cost_usd": 1.84,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-write-a-unit-test-for-search_file-function",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 5,
+          "calls": 54,
+          "cost_usd": 3.03,
+          "perfect": true
+        },
+        {
+          "task_id": "sde-implement-buffer-pool-manager-bustub",
+          "checkpoint_max": 12,
+          "checkpoint_earned": 11,
+          "calls": 99,
+          "cost_usd": 14.7,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-milestone-meeting",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 4,
+          "calls": 51,
+          "cost_usd": 34.99,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-monthly-attendance-slides",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 36,
+          "cost_usd": 2.76,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-update-sprint-cycles",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 40,
+          "cost_usd": 34.83,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-move-bustub-wiki",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 15,
+          "cost_usd": 1.13,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-report-unit-test-coverage-to-plane",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 23,
+          "cost_usd": 1.13,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-run-all-unit-test",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 26,
+          "cost_usd": 1.17,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-troubleshoot-dev-setup",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 3,
+          "calls": 16,
+          "cost_usd": 0.67,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-populate-salary-increase-memo",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 5,
+          "calls": 76,
+          "cost_usd": 27.07,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-read-survey-and-summarise",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 31,
+          "cost_usd": 2.63,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-check-attendance-payroll",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 41,
+          "cost_usd": 3.58,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-check-attendance-one-day",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 40,
+          "cost_usd": 2.97,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-green-card-consultation",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 44,
+          "cost_usd": 3.36,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-pick-interviewer-2",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 4,
+          "calls": 28,
+          "cost_usd": 1.44,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-add-new-moderator",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 30,
+          "cost_usd": 1.48,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-update-gitlab-issue-from-plane-status",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 2,
+          "calls": 5,
+          "cost_usd": 0.12,
+          "perfect": false
+        },
+        {
+          "task_id": "example",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 3,
+          "calls": 18,
+          "cost_usd": 0.64,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-present-gitlab-info-as-ppt",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 3,
+          "calls": 8,
+          "cost_usd": 0.49,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-send-hello-message",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 3,
+          "calls": 6,
+          "cost_usd": 0.08,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-reply-community-issue-by-asking-npc",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 3,
+          "calls": 10,
+          "cost_usd": 0.48,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-add-all-repos-to-docs",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 4,
+          "calls": 37,
+          "cost_usd": 4.69,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-collect-requests-and-compute-total-price",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 32,
+          "cost_usd": 1.81,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-substantial-presence-test",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 1,
+          "calls": 10,
+          "cost_usd": 0.18,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-check-attendance-multiple-days-department-with-chat",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 47,
+          "cost_usd": 3.82,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-check-attendance-multiple-days",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 25,
+          "cost_usd": 1.06,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-create-career-ladder",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 43,
+          "cost_usd": 3.64,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-create-employee-manual",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 20,
+          "cost_usd": 1.28,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-copy-plane-issues-to-gitlab",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 5,
+          "cost_usd": 0.05,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-distribute-information",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 1,
+          "calls": 20,
+          "cost_usd": 1,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-monitor-new-bug-issues",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 11,
+          "cost_usd": 0.22,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-prepare-meeting-with-customers",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 3,
+          "calls": 33,
+          "cost_usd": 9.82,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-create-new-characters",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 15,
+          "cost_usd": 0.2,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-find-api",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 2,
+          "calls": 7,
+          "cost_usd": 0.57,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-analyze-outing-bills",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 3,
+          "calls": 52,
+          "cost_usd": 5.19,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-plan-personnel-for-new-project",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 3,
+          "calls": 61,
+          "cost_usd": 5.88,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-organise-report-sus-data",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 18,
+          "cost_usd": 0.71,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-find-signatories",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 40,
+          "cost_usd": 3.15,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-qualified-bill-ask-for-reimburse",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 34,
+          "cost_usd": 2.67,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-make-slides-introduce-leadership",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 11,
+          "cost_usd": 0.29,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-massive-resume-screening",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 33,
+          "cost_usd": 1.95,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-projects-analytics",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 2,
+          "calls": 8,
+          "cost_usd": 0.17,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-apply-tax-credit",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 3,
+          "calls": 76,
+          "cost_usd": 30.18,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-fix-table-values-and-missing-answers",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 2,
+          "calls": 38,
+          "cost_usd": 4.65,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-janusgraph-exercise",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 2,
+          "calls": 58,
+          "cost_usd": 6.16,
+          "perfect": false
+        },
+        {
+          "task_id": "qa-escalate-emergency",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 1,
+          "calls": 12,
+          "cost_usd": 0.25,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-create-new-gitlab-project-logo",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 1,
+          "calls": 34,
+          "cost_usd": 4.52,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-sotopia-create-agent-wo-repo",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 2,
+          "calls": 16,
+          "cost_usd": 0.31,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-sotopia-update-ci",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 1,
+          "calls": 7,
+          "cost_usd": 0.1,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-coffee-shop-database-management",
+          "checkpoint_max": 10,
+          "checkpoint_earned": 3,
+          "calls": 59,
+          "cost_usd": 6.22,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-check-employees-budget-and-reply",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 54,
+          "cost_usd": 5.34,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-format-excel-sheets",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 46,
+          "cost_usd": 24.81,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-expense-validation",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 29,
+          "cost_usd": 1.6,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-revenue-reconciliation",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 30,
+          "cost_usd": 2.47,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-add-wiki-page",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 2,
+          "cost_usd": 0.02,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-check-high-priority-issue",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 1,
+          "calls": 16,
+          "cost_usd": 1.06,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-create-sqlite-database",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 2,
+          "calls": 21,
+          "cost_usd": 1.19,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-debug-crashed-server",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 2,
+          "calls": 52,
+          "cost_usd": 2.5,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-ask-for-issue-and-create-in-gitlab",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 28,
+          "cost_usd": 1.74,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-create-teammate-channel-from-spreadsheet",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 4,
+          "cost_usd": 0.04,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-update-project-milestones",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 3,
+          "cost_usd": 0.04,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-copy-table-from-pdf-to-xlsx",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 50,
+          "cost_usd": 12.7,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-fix-rising-wave-datatype",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 12,
+          "cost_usd": 0.23,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-sotopia-create-agent",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 14,
+          "cost_usd": 0.24,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-write-a-unit-test-for-scroll_down-function",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 1,
+          "calls": 4,
+          "cost_usd": 0.04,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-check-employees-budget-and-reply-and-record",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 49,
+          "cost_usd": 5.69,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-get-best-vendor-quote",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 79,
+          "cost_usd": 13.91,
+          "perfect": false
+        },
+        {
+          "task_id": "bm-classify-nationality",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 36,
+          "cost_usd": 3.28,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-create-10k-income-report",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 51,
+          "cost_usd": 6.2,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-r-d-activities",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 39,
+          "cost_usd": 3.97,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-create-commit-table-for-all-gitlab-users",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 8,
+          "cost_usd": 0.32,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-run-janusgraph",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 1,
+          "calls": 15,
+          "cost_usd": 0.26,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-mass-survey",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 1,
+          "calls": 2,
+          "cost_usd": 0.03,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-sotopia-dev-container",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 1,
+          "calls": 36,
+          "cost_usd": 1.95,
+          "perfect": false
+        },
+        {
+          "task_id": "research-reproduce-figures",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 1,
+          "calls": 32,
+          "cost_usd": 1.78,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-arrange-meeting-rooms",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 8,
+          "cost_usd": 0.18,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-ask-for-upgrade-reimbursement",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 30,
+          "cost_usd": 1.91,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-employee-info-reconciliation",
+          "checkpoint_max": 7,
+          "checkpoint_earned": 0,
+          "calls": 17,
+          "cost_usd": 0.67,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-make-spreadsheet",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 29,
+          "cost_usd": 1.78,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-mass-forms-filling",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 28,
+          "cost_usd": 1.77,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-remove-pages-pdf",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 28,
+          "cost_usd": 1.75,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-translate-sales-chat",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 22,
+          "cost_usd": 1.07,
+          "perfect": false
+        },
+        {
+          "task_id": "admin-watch-video",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 23,
+          "cost_usd": 0.95,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-answer-numerical-data-question",
+          "checkpoint_max": 6,
+          "checkpoint_earned": 0,
+          "calls": 33,
+          "cost_usd": 3.25,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-calculate-spreadsheet-stats",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 100,
+          "cost_usd": 62.17,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-find-meeting-spreadsheet",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 56,
+          "cost_usd": 15.42,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-merge-multiple-sheets",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 64,
+          "cost_usd": 28.9,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-predictive-modeling",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 3,
+          "cost_usd": 0.03,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-stock-analysis-slides",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 0,
+          "calls": 18,
+          "cost_usd": 0.72,
+          "perfect": false
+        },
+        {
+          "task_id": "ds-visualize-data-in-pie-and-bar-chart",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 45,
+          "cost_usd": 10.9,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-invoice-matching",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 32,
+          "cost_usd": 5.28,
+          "perfect": false
+        },
+        {
+          "task_id": "finance-nonqualified-bill-ask-for-reimburse",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 18,
+          "cost_usd": 0.85,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-check-attendance-multiple-days-department",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 56,
+          "cost_usd": 6.26,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-internal-tooling-slides",
+          "checkpoint_max": 10,
+          "checkpoint_earned": 0,
+          "calls": 12,
+          "cost_usd": 0.28,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-organize-talent-info",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 6,
+          "cost_usd": 0.08,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-pick-interviewer-3",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 8,
+          "cost_usd": 0.13,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-resume-categorization",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 34,
+          "cost_usd": 2.26,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-salary-analysis",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 47,
+          "cost_usd": 4.93,
+          "perfect": false
+        },
+        {
+          "task_id": "hr-transfer-group",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 27,
+          "cost_usd": 1.9,
+          "perfect": false
+        },
+        {
+          "task_id": "ml-generate-gradcam",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 5,
+          "cost_usd": 0.07,
+          "perfect": false
+        },
+        {
+          "task_id": "ml-grade-exam",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 0,
+          "calls": 53,
+          "cost_usd": 5.72,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-ask-issue-assignee-for-issue-status-and-update-in-plane",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 19,
+          "cost_usd": 1.05,
+          "perfect": false
+        },
+        {
+          "task_id": "pm-present-engineer-group-members",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 40,
+          "cost_usd": 3.25,
+          "perfect": false
+        },
+        {
+          "task_id": "research-answer-questions-on-paper",
+          "checkpoint_max": 12,
+          "checkpoint_earned": 0,
+          "calls": 27,
+          "cost_usd": 1.17,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-add-one-gitlab-pipeline",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 5,
+          "cost_usd": 0.07,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-change-branch-policy",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 2,
+          "cost_usd": 0.02,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-check-and-run-unit-test",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 41,
+          "cost_usd": 2,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-close-all-gitlab-issues",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 69,
+          "cost_usd": 56.79,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-close-all-issue-on-all-project-under-tac-workspace",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 14,
+          "cost_usd": 0.28,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-close-all-prs",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 100,
+          "cost_usd": 95.92,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-delete-all-project-under-plane",
+          "checkpoint_max": 1,
+          "checkpoint_earned": 0,
+          "calls": 17,
+          "cost_usd": 1.36,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-find-answer-in-codebase-1",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 3,
+          "cost_usd": 0.04,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-find-answer-in-codebase-2",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 2,
+          "cost_usd": 0.02,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-find-answer-in-codebase-3",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 26,
+          "cost_usd": 2.13,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-implement-covering-index-in-janusgraph",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 100,
+          "cost_usd": 6.92,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-implement-raft-in-go",
+          "checkpoint_max": 10,
+          "checkpoint_earned": 0,
+          "calls": 3,
+          "cost_usd": 0.03,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-migrate-package-manager",
+          "checkpoint_max": 8,
+          "checkpoint_earned": 0,
+          "calls": 8,
+          "cost_usd": 0.1,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-pitch-idea-to-manager",
+          "checkpoint_max": 5,
+          "checkpoint_earned": 0,
+          "calls": 3,
+          "cost_usd": 0.03,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-repo_profile_pic",
+          "checkpoint_max": 3,
+          "checkpoint_earned": 0,
+          "calls": 6,
+          "cost_usd": 0.08,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-report-agent-repos",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 10,
+          "cost_usd": 0.27,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-run-rising-wave-locally",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 12,
+          "cost_usd": 0.28,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-update-dev-document",
+          "checkpoint_max": 4,
+          "checkpoint_earned": 0,
+          "calls": 17,
+          "cost_usd": 0.34,
+          "perfect": false
+        },
+        {
+          "task_id": "sde-update-readme",
+          "checkpoint_max": 2,
+          "checkpoint_earned": 0,
+          "calls": 11,
+          "cost_usd": 0.24,
+          "perfect": false
+        }
+      ],
+      "formulae": {
+        "total_cost": "sum(row.cost_usd)",
+        "perfect_count": "sum(row.perfect)",
+        "nonperfect_cost": "sum(row.cost_usd for row if not row.perfect)",
+        "suite_cost_per_perfect": "total_cost/perfect_count"
+      },
+      "computed_summary": {
+        "row_count": 175,
+        "perfect_count": 53,
+        "all_displayed_cost_usd": 740.34,
+        "perfect_displayed_cost_usd": 80.85,
+        "nonperfect_displayed_cost_usd": 659.49,
+        "suite_cost_per_perfect_usd": 13.968679245283019
+      },
+      "rounding_bound": {
+        "value": 0.875,
+        "unit": "USD maximum absolute total rounding discrepancy",
+        "denominator": "175 rows times 0.005 USD",
+        "period": "source price basis May 2025",
+        "population": "all displayed task-cost rows",
+        "measurement_status": "reviewer_bound_conditional_on_nearest_cent_rounding"
+      },
+      "limitations": "No invoice or full-suite raw-token replay; non-perfect includes partial credit; does not count unrecorded infrastructure/restart attempts or NPC/evaluator cost."
+    }
+  ],
+  "benchmark_audits": [
+    {
+      "audit_id": "HCR-AUDIT-TAC",
+      "external_evidence_refs": [
+        "H-AGENTCOMPANY-V3"
+      ],
+      "evidence_refs": [
+        "HCR-E001",
+        "HCR-E002",
+        "HCR-E003",
+        "HCR-E004",
+        "HCR-E005",
+        "HCR-E014"
+      ],
+      "resolved": [
+        "Exact preview model declared in archived README and corroborated by two raw traces",
+        "All 175 displayed rows costed, including 122 non-perfect",
+        "Historical OpenHands 0.28.1 candidate source pinned; README-declared cherry-pick PR 7679 traced upstream",
+        "Per-command versus episode clock boundaries distinguished"
+      ],
+      "unresolved": [
+        "Exact executed patched tree/config/image digests",
+        "Effective runtime monetary ceiling versus no-cache repricing",
+        "All infrastructure attempts/restarts and environment-model cost",
+        "Full-suite elapsed-time and quality-adjusted target output"
+      ],
+      "cost_denominator": "reported mean across agent trajectories, not successes only",
+      "full_cost_per_accepted_business_output": null,
+      "full_cost_missing_reason": "No target service-value weights, all-attempt/environment/integration cost or complete run provenance",
+      "allowed_use": [
+        "accounting structure",
+        "source benchmark comparison with matched denominator"
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "audit_id": "HCR-AUDIT-ASTRANOMY",
+      "external_evidence_refs": [
+        "H-ASTRANOMY"
+      ],
+      "evidence_refs": [
+        "HCR-E006",
+        "HCR-E007",
+        "HCR-E008"
+      ],
+      "resolved": [
+        "Immutable public task-source pin",
+        "Final default configuration and Direct 90/30 horizon cohort difference",
+        "Policy Code link inspected; retrieval 403 documented",
+        "Successful-only denominators already resolved by H and retained"
+      ],
+      "unresolved": [
+        "Immutable policy harness, exact served-model/Codex build and overrides",
+        "All 600 attempt token/latency records including 151 failures and 2 missing successful usage records",
+        "Physical deadline-constrained performance while environment changes",
+        "Statistical significance and target distribution"
+      ],
+      "cost_denominator": "447 usage-covered successful Agentic episodes; not all attempts per success",
+      "all_attempt_cost_per_accepted_output": null,
+      "missingness_reason": "Failed-episode costs and missing successful usage prevent reconstruction",
+      "allowed_use": [
+        "controller architecture hypotheses",
+        "latency/accounting requirements"
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "audit_id": "HCR-AUDIT-RMF",
+      "external_evidence_refs": [
+        "H-RMF-INTERFACE"
+      ],
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E010",
+        "HCR-E011",
+        "HCR-E012",
+        "HCR-E013"
+      ],
+      "resolved": [
+        "Separate pinned release components",
+        "Dispatch acceptance before assignment/execution",
+        "Fleet/integrator completion responsibility",
+        "Cancel acceptance distinct from physical terminal state",
+        "Fresh web-call UUID and finite response wait",
+        "Bounded volatile dispatcher response cache"
+      ],
+      "unresolved": [
+        "One tested compatible complete installation",
+        "Operator business authorization/identity/ERP reconciliation",
+        "Target-site failure/retry/idempotency behavior",
+        "Measured incremental LLM benefit"
+      ],
+      "deployment_observed": false,
+      "runtime_protocol_tests_executed": false,
+      "allowed_use": [
+        "integration mechanism design",
+        "future conventional versus model-assisted test contract"
+      ],
+      "target_parameters_allowed": []
+    }
+  ],
+  "interface_ledger": [
+    {
+      "interface_id": "HCR-IF-01",
+      "stage": "business request to task proposal",
+      "state_read": "order/inventory/service requirements",
+      "authority": "target operator business system; not verified here",
+      "command": "proposed task",
+      "acknowledgement": null,
+      "failure_signal": null,
+      "record_update": "business order/reservation mapping required",
+      "evidence_refs": [],
+      "epistemic_status": "proposed_target_requirement",
+      "missingness_reason": "No ERP/WMS/MES installation or connector audited"
+    },
+    {
+      "interface_id": "HCR-IF-02",
+      "stage": "HTTP task call to ROS request",
+      "state_read": "validated request body",
+      "authority": "web route user dependency; deployment config unresolved",
+      "command": "dispatch/cancel payload with fresh request UUID",
+      "acknowledgement": "first matched response within default 5 s or HTTP 500 timeout",
+      "failure_signal": "timeout or negative response",
+      "record_update": "task state/request stored after dispatch success",
+      "evidence_refs": [
+        "HCR-E013"
+      ],
+      "epistemic_status": "source_code_contract"
+    },
+    {
+      "interface_id": "HCR-IF-03",
+      "stage": "dispatch admission to bidding",
+      "state_read": "request category/description/schema",
+      "authority": "dispatcher",
+      "command": "bid notice with generated task ID",
+      "acknowledgement": "success plus queued task state",
+      "failure_signal": "schema error or later failed_to_assign",
+      "record_update": "dispatch/task state",
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E010"
+      ],
+      "epistemic_status": "source_code_contract"
+    },
+    {
+      "interface_id": "HCR-IF-04",
+      "stage": "fleet acceptance to robot command",
+      "state_read": "feasibility/configuration/robot state",
+      "authority": "fleet adapter consideration callbacks and configured integrator",
+      "command": "navigation/stop/action callback",
+      "acknowledgement": "activity-linked updates and integrator finished callback",
+      "failure_signal": "stopped/blocked/error/task state as implemented",
+      "record_update": "task/robot progress",
+      "evidence_refs": [
+        "HCR-E011"
+      ],
+      "epistemic_status": "source_code_contract"
+    },
+    {
+      "interface_id": "HCR-IF-05",
+      "stage": "cancel request to terminal-state reconciliation",
+      "state_read": "task ID and active/queued task state",
+      "authority": "fleet TaskManager after assignment",
+      "command": "validated cancellation",
+      "acknowledgement": "success when cancellation accepted",
+      "failure_signal": "A false return (for example no matching task or emergency state) sends no success response in the inspected handler; caller may time out. No explicit negative reply is emitted there; target runtime behavior untested.",
+      "record_update": "cancellation metadata and task progression; ERP rollback not established",
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E012"
+      ],
+      "epistemic_status": "source_code_contract_plus_target_gap"
+    }
+  ],
+  "mechanism_constraints": [
+    {
+      "constraint_id": "HCR-MC-01",
+      "evidence_refs": [
+        "HCR-E002",
+        "HCR-E004",
+        "HCR-E006"
+      ],
+      "statement": "Keep cost_per_attempt, conditional_success_cost and total_all_attempt_cost_per_accepted_output as distinct fields; do not fill one from another when missing failed costs.",
+      "model_implication": "Do not calibrate common engine inference cost from Astranomy 36.40 or TAC 4.23 without denominator/target match.",
+      "calibration_status": "none"
+    },
+    {
+      "constraint_id": "HCR-MC-02",
+      "evidence_refs": [
+        "HCR-E003",
+        "HCR-E005",
+        "HCR-E006",
+        "HCR-E007"
+      ],
+      "statement": "Keep action/simulation clock, recorded trace span, full elapsed service time and request-response timeout distinct.",
+      "model_implication": "Elapsed-time loss and failed deadline effects remain separate assumptions; no 15 Hz physical productivity transfer.",
+      "calibration_status": "none"
+    },
+    {
+      "constraint_id": "HCR-MC-03",
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E010",
+        "HCR-E011",
+        "HCR-E012",
+        "HCR-E013"
+      ],
+      "statement": "Count accepted physical output only after authoritative terminal execution and business-state reconciliation, not dispatch HTTP/API success.",
+      "model_implication": "Integration/recovery work and duplicate-effect risk need explicit scenario structure and target evidence.",
+      "calibration_status": "none",
+      "target_cell_refs": [
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M11-floor-cleaning-US-2025"
+      ],
+      "target_evidence_status": "No evidence these operators use inspected RMF versions"
+    }
+  ],
+  "proposed_validation_cases": [
+    {
+      "case_id": "HCR-TEST-01",
+      "test": "Replay all TAC archived token/response IDs and join evaluator/NPC/infrastructure attempts",
+      "pass_condition": "Known run population/cost coverage; failures and restarts reconciled",
+      "executed": false,
+      "evidence_refs": [
+        "HCR-E002",
+        "HCR-E004",
+        "HCR-E005"
+      ]
+    },
+    {
+      "case_id": "HCR-TEST-02",
+      "test": "Match paused action-clock and elapsed-clock records under a target deadline",
+      "pass_condition": "All attempts retain failure, latency and deadline outcome; physical applicability separately evidenced",
+      "executed": false,
+      "evidence_refs": [
+        "HCR-E006",
+        "HCR-E007"
+      ]
+    },
+    {
+      "case_id": "HCR-TEST-03",
+      "test": "One compatible RMF installation: timeout after acceptance, duplicate business request, process restart, late response, cancel after partial execution",
+      "pass_condition": "No duplicate business effect; terminal physical state and business record reconcile",
+      "executed": false,
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E010",
+        "HCR-E011",
+        "HCR-E012",
+        "HCR-E013"
+      ]
+    }
+  ],
+  "priority_gaps": [
+    {
+      "gap_id": "HCR-GAP-01",
+      "priority": 1,
+      "question": "What exact config/images/runtime accounting produced the archived TAC result, including effective spend cap?",
+      "evidence_refs": [
+        "HCR-E003",
+        "HCR-E005"
+      ],
+      "next_artifact": "Executed run manifest, image digests, budget/tracker metadata",
+      "stop_condition": "If absent from primary run artifacts after bounded checks, preserve null and do not substitute candidate source defaults."
+    },
+    {
+      "gap_id": "HCR-GAP-02",
+      "priority": 1,
+      "question": "What are Astranomy failed-episode costs and exact immutable policy/model/Codex configuration?",
+      "evidence_refs": [
+        "HCR-E006",
+        "HCR-E008"
+      ],
+      "next_artifact": "Public complete all-attempt ledger and run/harness manifest",
+      "stop_condition": "Code link inaccessible and public report/assets lack ledger; stop current public-source branch, reopen when accessible artifact appears."
+    },
+    {
+      "gap_id": "HCR-GAP-03",
+      "priority": 2,
+      "question": "What latency distribution remains after counting all attempts and preparation/recovery?",
+      "evidence_refs": [
+        "HCR-E004",
+        "HCR-E005",
+        "HCR-E006"
+      ],
+      "next_artifact": "Full run timestamps and infrastructure attempt ledger",
+      "stop_condition": "Do not infer full-suite mean/tails from two selected traces or success-only calls."
+    },
+    {
+      "gap_id": "HCR-GAP-04",
+      "priority": 1,
+      "question": "Which compatible RMF versions and operator business authority/reconciliation contract are deployed in a target cell?",
+      "evidence_refs": [
+        "HCR-E009",
+        "HCR-E010",
+        "HCR-E011",
+        "HCR-E012",
+        "HCR-E013"
+      ],
+      "next_artifact": "Operator installation manifest, adapter contract, business-ID mapping and fault-test trace",
+      "stop_condition": "Without a target installation, retain implemented interface evidence and proposed test design, not field deployment claims."
+    },
+    {
+      "gap_id": "HCR-GAP-05",
+      "priority": 2,
+      "question": "Does added model orchestration improve accepted output after latency, recovery and integration relative to conventional RMF or digital-improved humans?",
+      "evidence_refs": [
+        "HCR-E006",
+        "HCR-E011"
+      ],
+      "next_artifact": "Matched target-side treatment/comparator evidence",
+      "stop_condition": "No numerical digital-to-physical transfer without target result; current benchmark/code evidence insufficient."
+    }
+  ],
+  "verification": {
+    "methods": [
+      "Exa primary full-page retrieval",
+      "direct public GitHub API/raw-source retrieval for versions and omitted code metadata",
+      "standard-library parsing and SHA256",
+      "175-row arithmetic reconstruction",
+      "two published gzipped trajectory parses",
+      "bounded code-path inspection"
+    ],
+    "benchmark_execution": false,
+    "robot_or_ros_execution": false,
+    "paid_api_calls": false,
+    "outreach": false,
+    "full_tac_trajectory_replay": false,
+    "stopping_boundary": "Source/version/denominator audit and implementation boundary established; next wave remains open.",
+    "independent_review": "Separate reviewer reproduced all 175 rows/totals and both sampled trace hashes, model names, call counts, repricing and event spans; checked RMF control-flow claims. Owner incorporated declared patch provenance and cancellation no-response qualification. No runtime replication."
+  },
+  "input_state_record": "Observed launch repository revision is recorded in ignored sync_receipt.json; external research source revisions remain in source_pins.",
+  "revision_history": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-25",
+      "changes": [
+        "Launch repository state points to ignored sync_receipt.json; external source pins preserved.",
+        "Declared CodeAct 0.28.1 + PR 7679 patch and README model identity added.",
+        "Cancellation false/no-response qualification added.",
+        "Human-facing JSON prose spacing normalized."
+      ],
+      "review_status": "Owner corrections awaiting reviewer recheck"
+    }
+  ]
+}

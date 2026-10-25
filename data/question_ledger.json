@@ -108,13 +108,16 @@
       "evidence_method": "Analyze failure, intervention, uptime, yield, and maintenance evidence; model interacting bottlenecks.",
       "dependencies_and_completion": "Deeper after HC-01. Complete a bounded comparison when exposure denominators and failure conditions are available.",
       "findings": [
-        "BMW exposure lacks complete intervention/support denominators; hospital handoffs and inspection-image quality show operating-system limits."
+        "BMW exposure lacks complete intervention/support denominators; hospital handoffs and inspection-image quality show operating-system limits.",
+        "Hospital follow-up identifies retained safety accompaniment/handling, phase-time gains and unresolved mission-success counts; no complete paid-support denominator."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Obtain a matched all-person-time/accepted-delivery cohort; preserve urgent exclusions and unresolved counts."
     },
     {
       "question_id": "RQ-HC-04",
@@ -176,13 +179,16 @@
       "evidence_method": "Build conditional stock-flow scenarios with installation, retirement, reinvestment, and support limits.",
       "dependencies_and_completion": "Deeper after SP-02 and DL-04. Complete when conservation checks and adverse scenarios hold.",
       "findings": [
-        "Learning consumes validation cash and changes future thresholds; annual stock funding is exogenous and does not close a reinvestment treasury."
+        "Learning consumes validation cash and changes future thresholds; annual stock funding is exogenous and does not close a reinvestment treasury.",
+        "A reviewed treasury proposal specifies real cash, due obligations, shared entrant cohorts and no duplicated manufacturing charges; implementation is still pending."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "model/treasury_extension_design.md",
+        "reviews/treasury_design_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Implement and challenge minimal monthly funded-versus-counterfactual paths without mixing separate activity units."
     },
     {
       "question_id": "RQ-SP-04",
@@ -244,13 +250,16 @@
       "evidence_method": "Compare coverage, redundancy, label quality, distribution shift, and aggregation costs.",
       "dependencies_and_completion": "Deeper after DL-01/02. Complete a bounded result only with comparable evaluation conditions.",
       "findings": [
-        "Scaling and RT-X evidence favor conditional diversity/selection, with nonmonotonic comparisons; quantity alone does not establish benefit."
+        "Scaling and RT-X evidence favor conditional diversity/selection, with nonmonotonic comparisons; quantity alone does not establish benefit.",
+        "Cobalt cloud-cost arithmetic and DexWild collection/mixture results separate compute, human collection, retained data and validated target capability."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/learning_data_economics.md",
+        "data/learning_data_economics.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Seek complete attempt/retention/person-time/target-validation cost at fixed target quality; no generic data-hour learning coefficient."
     },
     {
       "question_id": "RQ-DL-04",
@@ -295,13 +304,15 @@
       "evidence_method": "Compare scheduling, control, intervention, and model-update timescales; specify failure modes.",
       "dependencies_and_completion": "W1 competing designs after FD-01. Deeper testing requires observed workloads and communications constraints.",
       "findings": [
-        "Task allocation, traffic negotiation, enterprise records and low-level safety/control need distinct authority; interfaces do not prove closed-loop operation."
+        "Task allocation, traffic negotiation, enterprise records and low-level safety/control need distinct authority; interfaces do not prove closed-loop operation.",
+        "Pinned RMF interfaces separate request admission, assignment, callbacks, cancellation acceptance and observed physical completion."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/coordination_reproducibility.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Specify one business-state contract and compatible release set before a transaction-state replay."
     },
     {
       "question_id": "RQ-FD-03",
@@ -312,13 +323,15 @@
       "evidence_method": "Model queues, intervention duration, common failures, communications, and escalation capacity.",
       "dependencies_and_completion": "Deeper after FD-02 and HC-03. Complete with workload sensitivity and correlated-failure stress cases.",
       "findings": [
-        "Support is shared in the model; source agent results have within-domain limits and paused-simulation timing cannot establish fleet response capacity."
+        "Support is shared in the model; source agent results have within-domain limits and paused-simulation timing cannot establish fleet response capacity.",
+        "API timeout and fresh request-ID behavior expose a possible duplicate-effect risk; code inspection is not an observed deployment incident."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "data/coordination_reproducibility.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Test timeout-after-acceptance, restart and partial cancellation on a declared local software fixture; no external or physical action implied."
     },
     {
       "question_id": "RQ-FD-04",
@@ -426,13 +439,15 @@
       "evidence_method": "Model enterprise and robot-asset funding, working capital, ramp losses, runway, customer acquisition and expansion; test delay and funding-gap scenarios with BM-01/02.",
       "dependencies_and_completion": "W1 conditional financing case alongside OS-05. Financing terms remain assumptions until evidenced; deepen with disclosed comparable terms or authorized operating data.",
       "findings": [
-        "The monthly newco case exposes ramp, receivables and committed-funding gaps; no automatic follow-on capital or empirical financeability is assumed."
+        "The monthly newco case exposes ramp, receivables and committed-funding gaps; no automatic follow-on capital or empirical financeability is assumed.",
+        "Treasury design separates economic feasibility, contractual eligibility, liquidity survival and physical deliverability; no capital availability is inferred."
       ],
       "artifacts": [
         "research/customer_value.md",
-        "data/customer_evidence.json"
+        "data/customer_evidence.json",
+        "model/treasury_extension_design.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Require exact adverse cash/reservation/event-order witnesses before treating proposal as implemented finance."
     },
     {
       "question_id": "RQ-OS-07",
@@ -528,13 +543,15 @@
       "evidence_method": "Map capital, research/data, chips/fabrication/memory/networking, energy/land/data centers, models/cloud/tools, deployers and users; separate actual capacity, commitments and announcements.",
       "dependencies_and_completion": "W1 connected ecosystem dossier; no prerequisite. Deepen with dated financial, technical and infrastructure evidence.",
       "findings": [
-        "Connected ecosystem and infrastructure dossiers distinguish power, qualified hardware, training, inference, distribution and operating adoption."
+        "Connected ecosystem and infrastructure dossiers distinguish power, qualified hardware, training, inference, distribution and operating adoption.",
+        "Two primary data-pipeline cases add a bounded learning-input cost account; operators, curation and target validation cannot be treated as free."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/learning_data_economics.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Recover full data-production cost shares and rights before investing in broad collection scale."
     },
     {
       "question_id": "RQ-LLM-02",
@@ -579,13 +596,16 @@
       "evidence_method": "Benchmark cards with task distribution, model/harness/tool versions, budget, human comparator, latency, intervention, failure/recovery and evaluator limits.",
       "dependencies_and_completion": "W1 crosswalk alongside HC-01 and LLM-03; deeper when benchmark results can be joined to actual operating outcomes.",
       "findings": [
-        "Five benchmark cards retain harness, budget and validity boundaries; successful-episode cost is not all-attempt cost per success."
+        "Five benchmark cards retain harness, budget and validity boundaries; successful-episode cost is not all-attempt cost per success.",
+        "Archived TAC175-row costs include non-perfect results; Astranomy successful-only costs and inaccessible policy harness remain different boundaries."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/coordination_reproducibility.md",
+        "model/research_calculations.py"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Obtain exact executed TAC run/price-accounting manifest and complete Astranomy usage ledger; preserve null if absent."
     },
     {
       "question_id": "RQ-LLM-05",
@@ -647,13 +667,15 @@
       "evidence_method": "Role/interface maps, timing/state/authority, model vs solver/controller responsibilities; separate demonstrated integrations from proposed combinations and compare conventional alternatives.",
       "dependencies_and_completion": "W1 embodied and site/enterprise contribution maps alongside FD-01/02 and HC-01; deeper with end-to-end operating evidence.",
       "findings": [
-        "Three direct-contribution maps keep robot control, fleet/site/enterprise interfaces and R&D separate; integration completeness remains to be tested."
+        "Three direct-contribution maps keep robot control, fleet/site/enterprise interfaces and R&D separate; integration completeness remains to be tested.",
+        "Source-pinned RMF callbacks and retry semantics make integration responsibilities concrete without asserting LLM uplift or stack interoperability."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/coordination_reproducibility.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Select compatible components and a deterministic comparator; require reconciled business and physical terminal states."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -664,13 +686,15 @@
       "evidence_method": "Fixed-objective comparisons of human time, compute, failed experiments, validation and calendar time; map conditional robotics contributions to AI construction/manufacturing/maintenance with lead times.",
       "dependencies_and_completion": "W1 R&D contribution map alongside HC-02/04, DL-01/03 and SP-02. Avoid unsupported universal acceleration or recursive-growth assumptions.",
       "findings": [
-        "R&D mechanisms and physical-infrastructure feedback are bounded; no full-project critical-path reduction or capacity gain is inferred."
+        "R&D mechanisms and physical-infrastructure feedback are bounded; no full-project critical-path reduction or capacity gain is inferred.",
+        "Faster collection or cheaper cloud simulation does not identify a shorter fixed-objective R&D critical path; robot grounding/recovery still constrain validation."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/learning_data_economics.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Build a complete collection-training-validation resource ledger for one fixed target capability."
     },
     {
       "question_id": "RQ-LLM-10",
@@ -834,13 +858,16 @@
       "evidence_method": "Three dossiers across at least two sectors; operator-supported routine use where available, precise system/payload/autonomy/site dates, alternatives and missing economics.",
       "dependencies_and_completion": "W1 sector/player map and dossiers alongside PL-01, HC-01, OS-01 and BM-01; deeper with retained deployment and exposure evidence.",
       "findings": [
-        "Three quadruped dossiers span operator-supported inspection settings, with retention/support and non-Spot evidence gaps."
+        "Three quadruped dossiers span operator-supported inspection settings, with retention/support and non-Spot evidence gaps.",
+        "Two TenneT ANYmal episodes add operator-coauthored offshore coverage and a later selective pilot, with later routine retention unknown."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
-        "data/physical_evidence.json"
+        "data/physical_evidence.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Seek dated pilot closeout and retained operating scope; do not infer abandonment from public silence."
     },
     {
       "question_id": "RQ-QD-02",
@@ -851,13 +878,15 @@
       "evidence_method": "Trace data quality, review/diagnosis, work orders, repair/action, outcomes and all human work; match frequency/coverage/service requirements and false alarms.",
       "dependencies_and_completion": "W1 mechanisms within QD-01 cases, joined to FD-01 and LLM-08; deeper with action and outcome records. Avoided losses stay conditional without identification.",
       "findings": [
-        "Inspection requires usable imagery and action workflows; PG&E provides both successful missions and material output limitations."
+        "Inspection requires usable imagery and action workflows; PG&E provides both successful missions and material output limitations.",
+        "385-instrument coverage assessment and robot-suitable point selection show why navigation and selected measurements do not establish complete mandatory visits."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
-        "data/physical_evidence.json"
+        "data/physical_evidence.json",
+        "research/quadruped_operator_followup.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question\u2019s original completion condition before closing it."
+      "next_action": "Recover full due-inspection inventory, excluded points, residual human route and actions taken from readings."
     },
     {
       "question_id": "RQ-QD-03",

@@ -1,0 +1,53 @@
+{
+  "calculation_code_sha256": "aa76de107a452a6c02cc667a23ad7d9e28319ccd4d05024012f33d3a81449bb6",
+  "field_support": {
+    "calculations": {
+      "FSD-CALC-01": {
+        "value": 0.9037037037037037
+      },
+      "FSD-CALC-02": {
+        "value": 0.5714285714285714
+      },
+      "FSD-CALC-03": {
+        "status": "audit_only_conflicted_not_selected_for_calibration",
+        "value": 0.8852459016393442
+      },
+      "FSD-CALC-04": {
+        "relative_value": 0.33481718898385565,
+        "unit": "seconds difference of published phase means",
+        "value": 56.41
+      },
+      "FSD-CALC-05": {
+        "relative_value": 0.23390275952693823,
+        "unit": "seconds difference of published phase means",
+        "value": 21.36
+      }
+    },
+    "conflict_disposition": "Retain both; do not select a calibrated success probability.",
+    "guro_count_implied_success_percent": 88.52459016393442,
+    "guro_reported_success_percent": 87.03,
+    "paid_labor_saving": null,
+    "paid_labor_saving_missing_reason": "Phase means do not identify complete paid support or removable staffing.",
+    "status": "source_arithmetic_not_model_parameters"
+  },
+  "schema_version": "observed-research-summary/0.1",
+  "source_snapshot_sha256": {
+    "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
+    "field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30"
+  },
+  "tac_costs": {
+    "all_displayed_cost_usd": 740.34,
+    "full_business_cost": null,
+    "full_business_cost_missing_reason": "Separate environment models, infrastructure, omitted attempts and human work are not fully priced.",
+    "nonperfect_cost_fraction": 0.8907934192398087,
+    "nonperfect_count": 122,
+    "nonperfect_displayed_cost_usd": 659.49,
+    "perfect_count": 53,
+    "perfect_displayed_cost_usd": 80.85,
+    "rounding_assumption": "Each displayed row rounded independently to nearest cent.",
+    "rounding_bound_usd": 0.875,
+    "row_count": 175,
+    "status": "reconstructed_cent_rounded_source_API_costs_not_business_economics",
+    "suite_cost_per_perfect_usd": 13.968679245283019
+  }
+}

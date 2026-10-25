@@ -695,14 +695,23 @@
       "unit": "constant 2026 USD/site/year at matched output"
     }
   ],
-  "engine_sha256": "5ff697ba757c04edf75bda597867e1b17e4b7e854b04210148bf8ed693bd9ea0",
+  "engine_sha256": "d31f2b93a639b24b288f9a4c5915a05bd342a63c28e02e75ff8407db2c411f0f",
+  "evidence_package_index": {
+    "path": "data/package_index.json",
+    "schema_version": "accepted-evidence-packages/1.0",
+    "sha256": "cd71ad37d2d3721d4fb91350433a0b56ccee9fabff47eaf9919d312fb33794f9"
+  },
   "evidence_snapshot_hashes": {
     "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
+    "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
     "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
     "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
     "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
-    "data/market_evidence.json": "8d421372f2dccd8e690e717b4158fe56820b179545926fced468e18d9519ded2",
-    "data/physical_evidence.json": "24d330c9e1f0f1e3961b8f69fa42afeb8c1c6ffeecbd8d3d9cef617702c71ad2"
+    "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
+    "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
+    "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
+    "data/physical_evidence.json": "24d330c9e1f0f1e3961b8f69fa42afeb8c1c6ffeecbd8d3d9cef617702c71ad2",
+    "data/quadruped_operator_followup.json": "fad1adb14e9c228125793f4a75aa0d408d5bb38ce1589f85387d2e0f2b2948d3"
   },
   "fleet": {
     "cells": [
@@ -9360,7 +9369,7 @@
     "years": 8
   },
   "preset": "delayed_supply",
-  "scenario_hash": "c4c861fec0b685c68a9e3ea4cafafb6deeb9c22a1e885767dec4b0f9aff72788",
+  "scenario_hash": "707df6b6fb59067b2113535d849d9070f697c848c325eea94cc25b2cd793bdc2",
   "schema_version": "robotics-economics-model/0.1",
   "status": "synthetic_illustration"
 }

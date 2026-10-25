@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "program-design-2026-10-25-v0.10-postresearch1.0",
+  "snapshot_id": "week-one-in-progress-0.2",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "e419efa6c28d6b12b78fd475f03282ce2fafab572a292e236d0823943970cf87",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "e579fe707ac4b98fc92b48c5f0a56bcc1f70955acfcebd763de5fc3d41b97cd4",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "AGENTS.md",
@@ -58,11 +58,25 @@
       "sha256": "7371447ac166ff5137e376a51eb5a8fe9e55e7920159590a8d442f209428b3a0"
     },
     {
+      "repository_path": "CONTINUATION_FINDINGS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CONTINUATION_FINDINGS.md",
+      "name": "CONTINUATION_FINDINGS.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "c4db9faf6c52c46b2498a31af4570281982d4b00a29fbe028455df0e81936216"
+    },
+    {
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "program-design-2026-10-25-v0.10-postresearch1.0",
-      "sha256": "00cd347621d5b03270ec4665e05451285c225dd4dd0015ad334cddc99770d3ae"
+      "version": "week-one-in-progress-0.2",
+      "sha256": "7efafdf7cca957702e977e797569792d8b99d7a3f6d24741931719dbf0e2ad3a"
+    },
+    {
+      "repository_path": "LEARNING_WALKTHROUGH.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/LEARNING_WALKTHROUGH.md",
+      "name": "LEARNING_WALKTHROUGH.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "d88f3ff9c45a18c5aa4dead2d530fa890208db91fda65f772b5bff7e5e626a60"
     },
     {
       "repository_path": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
@@ -70,6 +84,13 @@
       "name": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
       "version": "1.1",
       "sha256": "c8b100f45eed1412ac63b75f764e30a608145f9e63952d6d0d8825a04714c0fe"
+    },
+    {
+      "repository_path": "POST_RESEARCH_STAGING.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/POST_RESEARCH_STAGING.md",
+      "name": "POST_RESEARCH_STAGING.md",
+      "version": "1.0",
+      "sha256": "3c3112ecd84f897f38eff04e25114dadc73075a492e1a522a9505f052f06e645"
     },
     {
       "repository_path": "QUADRUPED_AND_DRONE_RESEARCH_MODULE.md",
@@ -82,22 +103,22 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "week-one-in-progress-0.1",
-      "sha256": "7dbcbabd05fa4cc95c6f0c56cd143619862d2ba78b274d974e37b4f09b65697e"
+      "version": "week-one-in-progress-0.2",
+      "sha256": "c7e7d1dca5e2c8de45b98e6448d11b57ec89332357836cb37e605a94f5f5affa"
     },
     {
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "1cc4339596c4a9bfa44eca49db562cf6ae2aaa6c3f4d5df29f62cb6900af4c40",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "821b16a51e907661fa728079ba214e7cff01cc4dc998d41aa30f0dc8336db5b5",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "05e3f66908a5b04ca178ca9aad1ad3300afcafde45ff56243d6ee888852c0693",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "bb812819a8bb730fa338dd8ecf566b0740294e68094a34bf1deca77c5c7744ea",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -110,8 +131,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "week-one-in-progress-0.1",
-      "sha256": "0dc55eead580f1e9b85b879775489388c15f28334ad43f03a066f3badd3bd011"
+      "version": "week-one-in-progress-0.2",
+      "sha256": "aa99119e2c90f9f1105ac250671cce0cc6cc0bd8ea71897dd65f999c4aec6ed7"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -135,6 +156,13 @@
       "sha256": "29cee726df4c6d65cafd476b3ecf5ed0d767d8223e53fea5b6f865a15398410b"
     },
     {
+      "repository_path": "THESIS_REGISTER.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
+      "name": "THESIS_REGISTER.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "45a6dabe3a20656521510d9a77a43ec40c02f00c5733b45fddf22f36c738465a"
+    },
+    {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/WEEK_ONE_RESEARCH_SPEC.md",
       "name": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -145,15 +173,15 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "a01ae18bdb92ddefa2670419c9680388865712966ad2208d0175ef107a42dbfb",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "fbb0ac0b493614c8416268e9e63f7b1c46200e31fcccedeb9e760c73d5fe1a26",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "b6e0a4051a0e6b6dd2243bd9f23e570d97a0c9f8062d910cf8e35c01991850a4",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "a92f894e68b54dfdb82f2005c181e51b868ed85ee87eb27419b231fb5ffeb88c",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "dashboard/index.html",
@@ -173,8 +201,8 @@
       "repository_path": "data/SCHEMA.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/SCHEMA.md",
       "name": "SCHEMA.md",
-      "sha256": "4f7ef0f7807cc5617ea52e705cffc2c829a5049203d0fdc951cebc27d07cf624",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "6efb70555cbbdcbdc6cc0f6173b19b7c5afd219c99e8bccbef9ad8cd8e34b7f9",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "data/capability_evidence.json",
@@ -182,6 +210,13 @@
       "name": "capability_evidence.json",
       "sha256": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
       "version": "week-one-in-progress-0.1"
+    },
+    {
+      "repository_path": "data/coordination_reproducibility.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/coordination_reproducibility.json",
+      "name": "coordination_reproducibility.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264"
     },
     {
       "repository_path": "data/customer_evidence.json",
@@ -205,11 +240,32 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "data/field_support_denominators.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/field_support_denominators.json",
+      "name": "field_support_denominators.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30"
+    },
+    {
+      "repository_path": "data/learning_data_economics.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/learning_data_economics.json",
+      "name": "learning_data_economics.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db"
+    },
+    {
       "repository_path": "data/market_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/market_evidence.json",
       "name": "market_evidence.json",
-      "sha256": "8d421372f2dccd8e690e717b4158fe56820b179545926fced468e18d9519ded2",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
+      "version": "week-one-in-progress-0.2"
+    },
+    {
+      "repository_path": "data/package_index.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/package_index.json",
+      "name": "package_index.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "cd71ad37d2d3721d4fb91350433a0b56ccee9fabff47eaf9919d312fb33794f9"
     },
     {
       "repository_path": "data/physical_evidence.json",
@@ -219,11 +275,18 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "data/quadruped_operator_followup.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/quadruped_operator_followup.json",
+      "name": "quadruped_operator_followup.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "fad1adb14e9c228125793f4a75aa0d408d5bb38ce1589f85387d2e0f2b2948d3"
+    },
+    {
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "71b3433bfc326df8c9cd8102dee95d968aab6247ba63f2e0593554389363aa65",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "7836525b765c496c5445209add50dc61e546f0f4e8ebbff140f73bf902a7096b",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/METHODS.md",
@@ -231,6 +294,13 @@
       "name": "METHODS.md",
       "sha256": "ac847020447182ee2afc96e00305f11f1e3ecd93cb8cfee087ddaf094f2eb721",
       "version": "week-one-in-progress-0.1"
+    },
+    {
+      "repository_path": "model/PACKAGE_VALIDATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/PACKAGE_VALIDATION.md",
+      "name": "PACKAGE_VALIDATION.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "85ee38b593c0fef0ebb9f6c9f4c7e1643f18578bbbed63dc3eb94481fc393886"
     },
     {
       "repository_path": "model/__init__.py",
@@ -250,8 +320,8 @@
       "repository_path": "model/engine.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/engine.py",
       "name": "engine.py",
-      "sha256": "5ff697ba757c04edf75bda597867e1b17e4b7e854b04210148bf8ed693bd9ea0",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "d31f2b93a639b24b288f9a4c5915a05bd342a63c28e02e75ff8407db2c411f0f",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/evidence.py",
@@ -261,11 +331,25 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "model/packages.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/packages.py",
+      "name": "packages.py",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "31a2d23da1bda414039b56277bdaf9891f79b321185ef90b92fb5285a8ff91f0"
+    },
+    {
+      "repository_path": "model/research_calculations.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/research_calculations.py",
+      "name": "research_calculations.py",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "aa76de107a452a6c02cc667a23ad7d9e28319ccd4d05024012f33d3a81449bb6"
+    },
+    {
       "repository_path": "model/results/ample_supply_unready.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/ample_supply_unready.json",
       "name": "ample_supply_unready.json",
-      "sha256": "3b57a64857f1431d3bc9b8994e093e01ede1606b3ea1544aea0c668cc606708c",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "125614cab7a58d8a43b6b3fe2334956faf9cb21ebfc6c7a2aa9a7d8e0eac3ce3",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/ample_supply_unready_components.csv",
@@ -292,8 +376,8 @@
       "repository_path": "model/results/delayed_supply.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/delayed_supply.json",
       "name": "delayed_supply.json",
-      "sha256": "3ed818926560a425bf199531bd5c081e78b8d296c0188b818790b06eb83aab7d",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "7a4421bc05553334e64b42af7044903e2e01d6f8cb45ad0a75b5e52487bd7044",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/delayed_supply_components.csv",
@@ -320,8 +404,8 @@
       "repository_path": "model/results/digital_first.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/digital_first.json",
       "name": "digital_first.json",
-      "sha256": "47f3b03f452bfeb2b30be87304104b08731080ff8c7082d6d01ce5ac41cc3deb",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "09464cb51eb1725ab9041a5d63c40e26ce9e3194e07fe4fa8d0dac51f238bf40",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/digital_first_components.csv",
@@ -348,8 +432,8 @@
       "repository_path": "model/results/limited_transfer.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/limited_transfer.json",
       "name": "limited_transfer.json",
-      "sha256": "ff4b0ee2011c96b67797e908d216370a5ee82ef6b21ec1fbfd45ffab3a3c0485",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "09b3854fe68e321b9d796a1643204c202e067468d5f5dec30986776ca981583b",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/limited_transfer_components.csv",
@@ -376,8 +460,8 @@
       "repository_path": "model/results/newco_raas.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/newco_raas.json",
       "name": "newco_raas.json",
-      "sha256": "72ebcd25356cbdda0077a8efa65fc6f10e1a4b1ff382f7ad52f4200d30b66673",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "d507bdd3cc76751a0263bc3d98f1479175cc771f83112c548e7aaed06353195e",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/newco_raas_components.csv",
@@ -408,11 +492,18 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "model/results/observed_research_summary.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/observed_research_summary.json",
+      "name": "observed_research_summary.json",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "5c103f01832ffc089d9a0081478d7f89bcfe7414630a1dc53ca92fcaf622d1f5"
+    },
+    {
       "repository_path": "model/results/prompt_response.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/prompt_response.json",
       "name": "prompt_response.json",
-      "sha256": "84653897e21b6f0847eef86b609d10e37a06a3e4222f4410ac0255284ff45fb1",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "7c1b00f185e756cab8f9594c44da64e3d303e331362e0279ae1595f78f2d66e9",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/prompt_response_components.csv",
@@ -439,8 +530,8 @@
       "repository_path": "model/results/reference.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/reference.json",
       "name": "reference.json",
-      "sha256": "79af319874a9d3b85e0c231f43c74d0d01a089f5928ade5c6f1aa1ab052d1fc1",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "974d5c571ccbccebc0ee52d54efbdfaf613daecff0c2f4925242d1d411efddcc",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/reference_components.csv",
@@ -467,15 +558,15 @@
       "repository_path": "model/results/scenario_summary.csv",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/scenario_summary.csv",
       "name": "scenario_summary.csv",
-      "sha256": "2f7961174add760cbb4e461535aa317a4acbcc1e1b0764ed917ee9d808e77271",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "dc2b1cbf238142eb5ee8bd80929ac2d3165e3a3e5e4a6a9838c0506b6249354e",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/service_stress.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/service_stress.json",
       "name": "service_stress.json",
-      "sha256": "b7e9edd98f4aec0c405e6905ed108f5601246d08d6579a533bea14cd717811cf",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "2beda05b41ce1c5da6152fad4de7392c8ae2dfb560ac093b1cdaef336275a14f",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "model/results/service_stress_components.csv",
@@ -499,11 +590,25 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "model/treasury_extension_design.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/treasury_extension_design.md",
+      "name": "treasury_extension_design.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "d51761bc01b2829dae746b085f7dcd245b8b6445136cc8f3495b6d4a6f1d095d"
+    },
+    {
       "repository_path": "research/capability_learning.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/capability_learning.md",
       "name": "capability_learning.md",
       "sha256": "8d0932c91efe10c6fc67277c63a54b910b1ae5afdf9fcd45746b378af07d6f81",
       "version": "week-one-in-progress-0.1"
+    },
+    {
+      "repository_path": "research/coordination_reproducibility.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/coordination_reproducibility.md",
+      "name": "coordination_reproducibility.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "25a8ab99517124baadbc0f2dd100c677405f26321672fcbc3d188e2f2f2fe533"
     },
     {
       "repository_path": "research/customer_value.md",
@@ -534,6 +639,13 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "research/field_support_denominators.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/field_support_denominators.md",
+      "name": "field_support_denominators.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "99536e68ea8721b6a7e451c5c7db7c02584584d0d55b9caa00d3974899b100fe"
+    },
+    {
       "repository_path": "research/integrated_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/integrated_decisions.md",
       "name": "integrated_decisions.md",
@@ -541,11 +653,25 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "research/learning_data_economics.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/learning_data_economics.md",
+      "name": "learning_data_economics.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "7927496db592684728b447c7c2b4b7127a0df115c5aad3d7b0c3218e3a468b3a"
+    },
+    {
       "repository_path": "research/physical_supply_field.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/physical_supply_field.md",
       "name": "physical_supply_field.md",
       "sha256": "dac196e12f350d5823eb2db9caae28ecdac7a421923c6f7b7156b14c0c0a76fd",
       "version": "week-one-in-progress-0.1"
+    },
+    {
+      "repository_path": "research/quadruped_operator_followup.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/quadruped_operator_followup.md",
+      "name": "quadruped_operator_followup.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "828996bf73dae1ff3e0f9e82e939f7dcc63babac917c02bf61e77feab5e52a0c"
     },
     {
       "repository_path": "reviews/acceptance_review.md",
@@ -558,8 +684,15 @@
       "repository_path": "reviews/browser_review.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/browser_review.md",
       "name": "browser_review.md",
-      "sha256": "e6d1b5204c306359e54a6274a6208a080ec506388e568223b4f7fe1d2501fc46",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "fe82a8cd5caf1a0b380ec494e79e2cdac4b3d683b13091c0c4d9f4ad05bba439",
+      "version": "week-one-in-progress-0.2"
+    },
+    {
+      "repository_path": "reviews/coordination_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/coordination_review.md",
+      "name": "coordination_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "321cedc3ffbac6d1ca4a6b0c5abba9091bd312ffbb63648205756e8f59b422d7"
     },
     {
       "repository_path": "reviews/evidence_review_capabilities.md",
@@ -590,11 +723,32 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "reviews/field_support_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/field_support_review.md",
+      "name": "field_support_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "f1e30073cf22a647fd51ceead80b94f7835d1b77e2e27a91b36722d7b7b88cb2"
+    },
+    {
       "repository_path": "reviews/lead_review.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/lead_review.md",
       "name": "lead_review.md",
-      "sha256": "d51f15a9195e73bb350ad306de0cc43bf3624d266f634a3b32f25cf197263aa6",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "e53d6762088cc15afe7a0bc817bd50c1faf944dee094c34faff99e95b059c067",
+      "version": "week-one-in-progress-0.2"
+    },
+    {
+      "repository_path": "reviews/learning_data_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/learning_data_review.md",
+      "name": "learning_data_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "5e10bccdb2cb37b3f5240e73b44af333e7faa785f043280600c1c5e68991d73f"
+    },
+    {
+      "repository_path": "reviews/learning_transition_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/learning_transition_review.md",
+      "name": "learning_transition_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "a4603c3e83fff222bc87cb17b7b8c0281d14d31363cc31084b53a3b82bb13348"
     },
     {
       "repository_path": "reviews/model_review.md",
@@ -604,53 +758,88 @@
       "version": "week-one-in-progress-0.1"
     },
     {
+      "repository_path": "reviews/package_validation_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/package_validation_review.md",
+      "name": "package_validation_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "29dc179107f3024194d9101532a1d5eac9c3677ed6c4c0e42ef44a47c7b65351"
+    },
+    {
+      "repository_path": "reviews/quadruped_followup_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/quadruped_followup_review.md",
+      "name": "quadruped_followup_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "9cf6d1bb143403401a92d41dfa8a617475a6176d7d51591deef606c3c2bb30ee"
+    },
+    {
+      "repository_path": "reviews/treasury_design_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/treasury_design_review.md",
+      "name": "treasury_design_review.md",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "37913eebed72397141812717a960de0026d25add416adcc4e79c4c15a8a3da7e"
+    },
+    {
+      "repository_path": "scripts/build_continuation.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_continuation.py",
+      "name": "build_continuation.py",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "0a50ca99ce6002a2f7af74f4e0f10eb2fb5df75b3ddb5b280e3b4e77cd20b690"
+    },
+    {
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "2fe8f387976737cee9b8e9278b028cc8b7004b3220a7dd83278c902d8295ab29",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "289a45992bfe26b77fc9ac1c1cb3b70c799bd2eb5ec67b759565e1b61581f790",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "scripts/export_scenarios.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_scenarios.py",
       "name": "export_scenarios.py",
-      "sha256": "86be845d5dbf4f105712ce0c0ef3583f4067a923151b9ea6892de095af0b05f1",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "f2277179f1670c38c5ee068e1e3225b06c399635e78e3aedfbcb8dc2c4323913",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "85cbadcb49add686d910d986cac4ed4b367bd9ade84744830b7031e9d22dee93",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "7afad92e642dbb810b3ca281910c4dd6b835c7620353fbf2a324510fe9b7b4af",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/validate_evidence.py",
       "name": "validate_evidence.py",
-      "sha256": "995600a52d0d81b4ecdd78a7ccd0d29d17a892a414a074d2dc6130d4a7df981e",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "02de176d6627cf45a0a0758765ee0e3b1ab7f8abcec4b0476ce9ba57bfd76960",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "tests/test_api.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_api.py",
       "name": "test_api.py",
-      "sha256": "95c01e087c1e83c8ecc239526e7ca1343a68bdcf3f8b9332dfbcb4c72bf282b0",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "6d736b10a078edc66a271957ce31afa6fb57a13e137c1d0ca8bee0cd34351db8",
+      "version": "week-one-in-progress-0.2"
     },
     {
       "repository_path": "tests/test_engine.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_engine.py",
       "name": "test_engine.py",
-      "sha256": "924d6f89b849799ec387c3bdd3a7aa8edb1a12ad5278266374b0c18951db108d",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "044e032c08d219e64338098c190209afb7941a3a10063269b7c50742247a0ce9",
+      "version": "week-one-in-progress-0.2"
     },
     {
-      "repository_path": "POST_RESEARCH_STAGING.md",
-      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/POST_RESEARCH_STAGING.md",
-      "name": "POST_RESEARCH_STAGING.md",
-      "version": "1.0",
-      "sha256": "3c3112ecd84f897f38eff04e25114dadc73075a492e1a522a9505f052f06e645"
+      "repository_path": "tests/test_evidence_validation.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_evidence_validation.py",
+      "name": "test_evidence_validation.py",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "6fb0306247e2e1181937b04a4e93707b7dff5550daacdc41149b426660d6ee3c"
+    },
+    {
+      "repository_path": "tests/test_research_calculations.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_research_calculations.py",
+      "name": "test_research_calculations.py",
+      "version": "week-one-in-progress-0.2",
+      "sha256": "9e2885f62a56da8a203a30f322a6df19865904fbf05af5ee9aa661b63e530a08"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -684,8 +873,8 @@
     "campaign_spec": "WEEK_ONE_RESEARCH_SPEC.md",
     "goal": "CODEX_GOAL.md",
     "roadmap": "RESEARCH_ROADMAP.md",
-    "campaign_status": "in_progress_first_checkpoint",
-    "organizing_unit": "end market × value-chain stage × operating archetype × geography × time",
+    "campaign_status": "in_progress_reviewed_continuation",
+    "organizing_unit": "end market \u00d7 value-chain stage \u00d7 operating archetype \u00d7 geography \u00d7 time",
     "workstream_count": 10,
     "ownership_scope": "Customer ownership/organization and adoption; separate retained robotics business-model, asset/control, and value-capture inquiry.",
     "open_question_count": 55,
@@ -700,6 +889,10 @@
     "report": "REPORT.md",
     "acceptance_audit": "ACCEPTANCE_AUDIT.md",
     "reproduction": "REPRODUCE.md",
-    "post_research_staging": "POST_RESEARCH_STAGING.md"
+    "post_research_staging": "POST_RESEARCH_STAGING.md",
+    "continuation_findings": "CONTINUATION_FINDINGS.md",
+    "accepted_evidence_registry": "data/package_index.json",
+    "learning_walkthrough": "LEARNING_WALKTHROUGH.md",
+    "thesis_register": "THESIS_REGISTER.md"
   }
 }

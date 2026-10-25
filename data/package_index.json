@@ -1,0 +1,67 @@
+{
+  "schema_version": "accepted-evidence-packages/1.0",
+  "status": "explicit_accepted_package_registry",
+  "description": "Only these reviewed evidence packages are loaded by the dashboard, scenario provenance and validator. New research files require an explicit reviewed addition; filenames do not grant acceptance.",
+  "packages": [
+    {
+      "package_id": "capability",
+      "path": "data/capability_evidence.json",
+      "status": "accepted",
+      "owner_lane": "capability_learning"
+    },
+    {
+      "package_id": "customer",
+      "path": "data/customer_evidence.json",
+      "status": "accepted",
+      "owner_lane": "customer_value"
+    },
+    {
+      "package_id": "digital",
+      "path": "data/digital_evidence.json",
+      "status": "accepted",
+      "owner_lane": "digital_ecosystem"
+    },
+    {
+      "package_id": "digital_infrastructure",
+      "path": "data/digital_infrastructure_evidence.json",
+      "status": "accepted",
+      "owner_lane": "lead"
+    },
+    {
+      "package_id": "market",
+      "path": "data/market_evidence.json",
+      "status": "accepted",
+      "owner_lane": "economic_atlas"
+    },
+    {
+      "package_id": "physical",
+      "path": "data/physical_evidence.json",
+      "status": "accepted",
+      "owner_lane": "physical_supply_field"
+    },
+    {
+      "package_id": "field_support",
+      "path": "data/field_support_denominators.json",
+      "status": "accepted",
+      "owner_lane": "capability_learning"
+    },
+    {
+      "package_id": "quadruped_followup",
+      "path": "data/quadruped_operator_followup.json",
+      "status": "accepted",
+      "owner_lane": "physical_supply_field"
+    },
+    {
+      "package_id": "coordination_reproducibility",
+      "path": "data/coordination_reproducibility.json",
+      "status": "accepted",
+      "owner_lane": "customer_value"
+    },
+    {
+      "package_id": "learning_data",
+      "path": "data/learning_data_economics.json",
+      "status": "accepted",
+      "owner_lane": "lead"
+    }
+  ]
+}
