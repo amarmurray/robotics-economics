@@ -4,7 +4,7 @@ Research on physical labor, staged humanoid deployment, learning/control, physic
 
 ## Current direction
 
-Charter **v0.9, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
+Charter **v0.10, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
 
 The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, how customer ownership/organization changes adoption and value-chain position, and how robotics business models, asset/control arrangements, and value capture interact with those customer structures. Incumbent adoption, holdco transformation, and AI-native newcos remain customer development pathways to compare; provider, operator, integrator, and financier roles remain a distinct research area.
 
@@ -12,13 +12,17 @@ AI-native operating newcos on the customer side are an explicit entry thesis: ca
 
 The full LLM/digital-AI ecosystem is substantial Workstream H, detailed in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. Cover development/physical inputs, scaling and deployment/overhang, retrospective/prospective economic effects, economic benchmarks, multi-agent systems, producer/input/capital/customer competition and deploycos, and lab-linked/complementary firms. Use explicit multivariate analogy tests and direct-contribution maps for robot/fleet/site/enterprise/ERP/routing/scheduling and robotics R&D. Update digital-improved human baselines and joint physical-digital scenarios; keep source and target evidence distinct.
 
+Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, makes humanoid/quadruped supply and value chains, components (including actuation, onboard compute and memory), manufacturing/qualification/ramp, embodiment choices, key players and layered openness substantial research subjects. Workstream J, detailed in `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`, makes quadruped deployments a major empirical module and uses drone deployment, operating, supply-chain and ecosystem evidence through bounded comparisons. Distinguish capability improvement, production cost learning, qualified supply, supported operational scale and economic penetration. Compare embodiments within the existing end-market map; trace time-indexed scale feasibility and preserve human, specialized-machine and mixed-fleet alternatives. SDKs, released weights, open hardware and commercial rights are separate. Use shared records and count activity, resources and benefits once.
+
 ## Read and launch
 
 | File | Role |
 | --- | --- |
 | `Robotics_Economics_Research_Charter.md` | Accepted charter, evidence/accounting principles, and project continuity |
-| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, eight workstreams, and revisable defaults |
+| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, ten workstreams, and revisable defaults |
 | `LLM_ECOSYSTEM_RESEARCH_MODULE.md` | Full digital-AI value chain, economic evidence, tested analogies, direct contributions, and joint digital/physical scenarios |
+| `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` | Physical inputs and value chains, embodiment economics, time-indexed production/scale feasibility and layered openness |
+| `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` | Major quadruped deployment module, drone empirical comparisons, field economics and bounded transfer |
 | `WEEK_ONE_RESEARCH_SPEC.md` | Seven-day campaign deliverables, model/dashboard requirements, and acceptance criteria |
 | `CODEX_GOAL.md` | Ready-to-paste `/goal` for activation in the existing Codex project |
 | `RESEARCH_ROADMAP.md` | Stable research questions, dependencies, completion criteria, and follow-on work |

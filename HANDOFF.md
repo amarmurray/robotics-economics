@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.9.
+Handoff ID: program-design-2026-10-25-v0.10.
 
 ## Accepted direction
 
@@ -12,11 +12,13 @@ Amar further specified a customer-side AI-native newco thesis: raise capital and
 
 Amar subsequently requested a large digital-AI ecosystem module covering the full value chain, development/scaling, deployment and overhang, historical/prospective economic effects, economic-role benchmarks, multi-agent coordination, lab/input/capital/customer competition and deploycos, and businesses built on or linked to labs. Workstream H now supplies both tested multivariate analogies and direct technical contributions, extending to site/enterprise/ERP/routing/scheduling and humanoid R&D. Digital-improved human/incumbent operations and joint digital/physical paths are explicit comparators. All earlier workstreams remain in place.
 
+Amar also requested a full humanoid/quadruped supply and value-chain inquiry, including memory/onboard compute, actuation, key players, embodiment choices, openness and time to feasible scale. Quadrupeds are a major module in their own right, and drones supply substantial deployment, operating, supply and business-model evidence with explicit limits. Workstreams I/J and two dedicated modules implement this addition. Separate capability progress, production cost learning, qualified manufacture, supported fleet scale and penetration; use matched outcomes, layered rights and a common resource/activity graph. All prior H, customer-newco and provider/asset/control questions remain.
+
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
 ## Current preparation and execution status
 
-- Charter/design v0.9, digital-AI module v1.0, campaign specification v1.3, and roadmap v1.3 define eight workstreams, eleven linked dashboard views, and 41 open questions. The substantial H module includes connected ecosystem/deployment dossiers, direct-contribution maps, benchmark/analogy cards, joint scenarios, and concrete implications for A–G; approximately one-third research attention is a revisable planning default.
+- Charter/design v0.10, digital-AI module v1.1, physical-supply and quadruped/drone modules v1.0, campaign specification v1.4, and roadmap v1.4 define ten workstreams, thirteen linked dashboard views, and 55 open questions. The substantial H module includes connected ecosystem/deployment dossiers, direct-contribution maps, benchmark/analogy cards, joint scenarios, and concrete implications for A–G; approximately one-third research attention is a revisable planning default. I/J add connected supply/configuration and layered-openness maps, time-indexed scale/backcast scenarios, matched embodiment comparisons, three quadruped and three drone evidence dossiers, physical transfer tests and two dashboard views; shared cases and effort are counted once.
 - `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
 - `CODEX_GOAL.md` is prepared activation text.
 - `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
@@ -35,7 +37,7 @@ Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`
 
 ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope, evidence methods, source seeds, and integration; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
+`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` owns I; `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` owns J, with common evidence/actor/system/resource records; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
 
 ## Superseded and preserved decisions
 
@@ -57,8 +59,8 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: Amar activating the prepared goal in the existing Codex project; then Codex executing the first campaign.**
 
-Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, robotics business-model/value-capture comparisons, and digital-ecosystem evidence/direct-contribution and joint-capability scenarios.
+Read `CODEX_GOAL.md`, inspect local changes and remote state, incorporate this published design without losing unrelated work, and activate the goal. Begin with the end-market/value-chain map and evidence architecture, then iteratively connect capabilities, staged penetration, learning/coordination, customer-structure/adoption comparisons, robotics business-model/value-capture comparisons, digital-ecosystem evidence/direct-contribution and joint-capability scenarios, qualified supply and scale feasibility, embodiment/openness comparisons, and quadruped/drone field evidence.
 
-One next research question: **Across which end-market/value-chain configurations do current and plausible future humanoid capabilities enable successive productive-deployment stages, and how do data/coordination effects, customer ownership/organization, and robotics commercial/asset/control arrangements interact to alter the preferred sequence?**
+One next research question: **Across which end-market/value-chain configurations do current and plausible future robotic systems enable successive productive-deployment stages, and how do embodiment, qualified supply, learning/coordination, customer organization and commercial/control arrangements change the preferred sequence and feasible scale?**
 
 Earlier coordination history: the shared repository replaced upload-based exchange on 6 September 2026. Older Documents copies and uploaded sources remain historical snapshots. Detailed publication/access receipts are operational records; check the current remote state before claiming a later revision has been consumed.

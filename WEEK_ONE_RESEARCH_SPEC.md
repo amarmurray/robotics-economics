@@ -1,6 +1,6 @@
 # Week-one research campaign specification
 
-Version 1.3 · Prepared 25 October 2026 · Status: not activated
+Version 1.4 · Prepared 25 October 2026 · Status: not activated
 
 ## 1. Purpose, organizing unit, and authority
 
@@ -12,7 +12,9 @@ Default scope is a **United States quantitative labor anchor**, combined with gl
 
 The campaign extends CPU-first, docs-first work to a lightweight executable model and local dashboard in this repository. It does not authorize hardware purchases, GPU spending, paid data purchases, outreach, public posts, changes to another repository, or external dashboard hosting. Use public evidence and labeled scenarios; do not incorporate confidential employer material.
 
-Workstream H is a substantial part of this same campaign. Read `LLM_ECOSYSTEM_RESEARCH_MODULE.md` for its detailed scope and evidence standards; this specification governs first-week acceptance. As a revisable planning default, devote approximately one-third of substantive research attention to H and its integration with A–G, counting shared research once. Record material reallocations and their reasons; do not pad work to meet an effort percentage.
+Workstream H is a substantial part of this same campaign. Read `LLM_ECOSYSTEM_RESEARCH_MODULE.md` for its detailed scope and evidence standards; this specification governs first-week acceptance. As a revisable planning default, devote approximately one-third of substantive research attention to H and its integration with the other workstreams, counting shared research once. Record material reallocations and their reasons; do not pad work to meet an effort percentage.
+
+Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, makes humanoid/quadruped supply and value chains, components (including actuation, onboard compute and memory), manufacturing/qualification/ramp, embodiment choices, key players and layered openness substantial research subjects. Workstream J, detailed in `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`, makes quadruped deployments a major empirical module and uses drone deployment, operating, supply-chain and ecosystem evidence through bounded comparisons. Distinguish capability improvement, production cost learning, qualified supply, supported operational scale and economic penetration. Compare embodiments within the existing end-market map; trace time-indexed scale feasibility and preserve human, specialized-machine and mixed-fleet alternatives. SDKs, released weights, open hardware and commercial rights are separate. Use shared records and count activity, resources and benefits once.
 
 This document prepares the campaign. Reading or publishing it does not start research or establish a running background process.
 
@@ -71,6 +73,9 @@ Core question families are:
 5. How do deployment experience, data aggregation, learning transfer, and coordination affect subsequent choices?
 6. How do customer ownership, governance, capital allocation, automation appetite, implementation capacity, and value-chain position affect adoption, including incumbent/acquisition/newco pathways and coexistence?
 7. Which robotics business models, asset/control arrangements, and roles for providers, operators, integrators, and financiers create and capture value, and how do they interact with customer adoption?
+8. Which digital-AI ecosystem mechanisms transfer, and how do digital systems directly improve robots, organizations and robotics R&D?
+9. How do components, qualified production, physical supply, embodiment choices and openness change feasible scale, timing, economics and entry?
+10. What do actual quadruped deployments and bounded drone comparisons reveal about useful output, operating scale, business models and deployment sequence?
 
 ### Substantial digital-AI ecosystem module
 
@@ -88,6 +93,24 @@ The first edition must contain:
 
 Reuse connected dossiers across these requirements. Preserve unresolved coverage in the roadmap; a source directory or analogy list alone is insufficient. Model scope remains local CPU research, with no implied authority to run hardware or GPU experiments from cited papers.
 
+### Substantial physical supply, embodiment, quadruped and drone modules
+
+Read `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` and `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`. I/J receive dedicated substantial analysis and outputs, integrated with A–H. Preserve H's approximately one-third attention default; count shared work once. Select cases that resolve several questions and reuse the existing six deeper market-stage cells. Do not silently expand this into an obligation to complete a separate market study for every robot family or component.
+
+The first edition must contain:
+
+- One connected humanoid/quadruped supply and value-chain map covering the component, manufacturing, software, deployment, service, finance and customer layers; a dated key-player coverage register with regional coverage, known relationships and unknowns. Include onboard compute/memory and separate training/remote-inference resources.
+- Two sourced system/component configuration maps, one humanoid and one quadruped. Record unknown BOM quantities, costs, suppliers, yields and capacity explicitly; no fabricated cost breakdowns. Architecture and qualification differences must remain visible.
+- At least two matched embodiment comparisons linked to existing deeper cells, considering human/digital-improved baselines and relevant simpler or mixed-system alternatives. Compare useful output/quality, whole-system economics, support, data and supply needs; mark infeasible options rather than manufacturing equivalence.
+- One transparent time-indexed component → qualified production → commissioning → supported fleet scenario and scale-target backcast, integrated with the common engine. Test slower qualification/ramp, constrained supply or service, and a case where another constraint binds. Preserve inventory, yield boundaries, replacement/spare demand, shared allocations, financing and explicit uncertainty.
+- At least five artifact/version-specific openness cards spanning a commercial platform such as Unitree, open hardware, middleware/interfaces, model/policy/data releases, and drone software. Separate access, source, reproducibility and commercial rights; explain economic hypotheses against the digital-model comparator.
+- Three substantive quadruped deployment dossiers across at least two sectors, seeking at least one operator-supported routine-use case and one material limitation, nondeployment or stalled-use investigation. Cases may overlap those attributes. Record attempts and gaps if public evidence cannot establish the requested operating status; a vendor announcement does not fill that gap.
+- Three contrasting drone comparison dossiers across at least two operating/business models, including a material constraint or negative finding. Use inspection, delivery, agricultural services or other cases selected for decision relevance. Distinguish measured activity/outcomes, modeled economics, regulatory conditions and vendor claims.
+- At least four explicit physical-system transfer/nontransfer tests, including a failed or materially limited candidate, covering more than one of operational scaling, supply/industrial structure, openness, coordination and learning. These do not replace H's six digital analogy tests. Link direct complementarity or real shared inputs separately from analogy.
+- Substantial report sections and two linked dashboard views for supply/production and embodiment/deployment comparisons. Explain how I/J evidence changes or constrains at least three concrete market, scale, architecture, customer-entry or provider strategy judgments. Negative findings count.
+
+Dossiers are connected evidence packages, not six additional full market analyses. A single case can satisfy multiple perspectives transparently. If a minimum remains unsupported, preserve the attempted evidence route and consequence in the acceptance audit and roadmap; do not invent estimates or call a source directory a completed module.
+
 ## 4. Analytical and modeling requirements
 
 ### Economic activity and useful output
@@ -96,7 +119,7 @@ Separate employment, paid labor hours, physical-work hours, compensation, value 
 
 Model equivalent accepted output and service quality. Distinguish time released, labor redeployed, payroll actually avoided, and capacity expanded. Added capacity creates revenue only with explicit demand and monetization assumptions. Keep displacement of existing work separate from demand expansion, newly feasible services, and any resulting additional labor.
 
-Compare humanoids with relevant alternatives, including specialized automation, process redesign, digital agents, and human–machine combinations. Provider coverage follows current evidence and market relevance; the old charter's reference roster is neither exhaustive nor compulsory.
+Compare configured humanoids, quadrupeds and relevant alternatives, including wheeled/mobile manipulation, specialized/fixed automation, drones where outcomes overlap, process redesign, digital agents, and human–machine combinations. Quadrupeds are also studied as direct end-market deployments; drones can be substitutes, complements or bounded comparators depending on the mechanism. Provider coverage follows current evidence and market relevance; the old charter's reference roster is neither exhaustive nor compulsory.
 
 ### Capability trajectories and evidence-contingent response surfaces
 
@@ -141,6 +164,20 @@ Allocate scarce hardware, components, integration crews, human support, maintena
 Represent multi-period commissioning and support where material. A transparent allocation rule is acceptable; label whether it is a heuristic or optimization result. Do not let each market independently spend the same resource pool.
 
 Reconcile customer, provider, asset-owner, and operator economics. Include deployment investment, integration, ramp losses, recurring support, collection timing, working capital, replacements, and financing boundaries. Accounting earnings are not deployable cash. Distinguish total value creation from its allocation among parties.
+
+### Physical supply, embodiment and scale feasibility
+
+Distinguish capability response, production learning/cost, qualified manufacturing capacity, supported field scale and economic penetration. Declare whether a target is annual production/shipments, cumulative units, retained active stock, useful output or economic share. Use the configured system and compatible component classes, not generic robot counts or pooled semiconductor/memory totals.
+
+Conserve qualified components and finished systems across inventory, assembly starts, yield/rework, acceptance, shipments and commissioning. Model expansion/qualification lead times, funding and ramp; dates and output remain scenarios unless observed. Record whether a quantity is before or after yield so the same loss is not applied twice. Existing fleets consume spare parts, maintenance and human support; replacements are separate from net additions. A manufacturer announcement, nameplate capacity or supply agreement does not establish available qualified supply.
+
+Join shared resource budgets to upstream component/facility/grade and geographic availability. Attribute demand from competing robot configurations and other sectors once; permit substitution only with explicit technical compatibility, qualification, cost and timing. Record supplier relationships, access terms and incomplete visibility. For each scale scenario, backcast necessary inputs and capacity milestones; feasible supply remains separate from economic demand, adoption and realized output.
+
+Matched embodiment comparisons must preserve output/quality, workload and system boundaries, including payloads, software, site redesign, labor, maintenance, downtime and financing. Track complementary work and mixed fleets without duplicating addressable activity or information benefits. Performance/cost improvements may change both resource requirements and market eligibility; link those changes explicitly and separate compatible retrofits from new generations.
+
+Classify openness by artifact/layer/version and verified rights/dependencies. A public SDK, model release or geometry file cannot mechanically assign an openness label or adoption/cost multiplier to an entire system. Compare practical reproducibility, integration, manufacturing, repair, qualification and governance, and preserve unresolved licensing/access conflicts.
+
+Quadruped and drone dossiers distinguish successful missions/data collection, actionable findings, decisions/actions, realized business outcomes and labor/cash effects. Record robot/flight exposure, operator/reviewer/intervention/repair work, outages, failed attempts, route/site selection and censored or discontinued cases. Do not transfer drone regulatory conditions, cost curves or physical capabilities to ground robots without target evidence. I/J use the same analogy and evidence standards as H while preserving their own required coverage.
 
 ### Learning, data, and physical–digital coordination
 
@@ -207,6 +244,12 @@ The cell key joins market, chain stage, operating archetype, geography, and peri
 | Benchmark card | benchmark_id/version; model/policy/harness/tool versions; population and tasks; evaluator; human comparator; budget; assistance; latency; costs; failure/recovery; result/uncertainty; operating applicability and limits. |
 | Analogy test | analogy_id; source mechanism/population/evidence; target market-stage question; required similarities/differences; confounders; target prediction/falsifier; source and target statuses; permitted model use; affected scenario/question IDs. |
 | Direct contribution | contribution_id; digital system/version; embodied/operations/R&D role; inputs/outputs/interfaces; execution/timing/state/authority; comparator; resources; evidence setting; effect/delay; target capability/cohort/scenario links. |
+| Component/configuration | component_id/grade; system/version; role; units per assembly start; performance envelope; supplier/facility; qualification/substitutes; cost/price basis; evidence and unknowns. |
+| Supply capacity | resource/facility/geography/time; nameplate vs qualified output; yield boundary; commitments and allocations; inventory; expansion/qualification/funding stage; lead time; evidence. |
+| Production/service flow | starts, accepted completions, work in progress, finished inventory, shipments and commissioning; compatible cohort spares/replacements/repair/refurbishment/retirement; units and period. |
+| Embodiment comparison | comparison_id; matched market/work/output/quality; system configurations and alternatives; fit, costs/resources and complements; infeasibility; break-even conditions; evidence/scenario links. |
+| Openness artifact | artifact_id/layer/version/license/source; rights/dependency chain; access/reproducibility; interfaces; modification/manufacture/operation conditions; governance; unresolved conflicts. |
+| Mission/outcome | deployment/cohort/system IDs; activity and exposure; autonomous/assisted mode; human work; data quality; actionable finding/decision/action/outcome links; comparator; failure/selection limits. |
 | Evidence | evidence_id; precise claim; URL/document locator; publisher; observation/publication/retrieval dates; scope; source class; limitations; conflicts. |
 | Question | question_id; decision consequence; priority rationale; dependencies; evidence target; stopping condition; status; next action/owner. |
 
@@ -216,15 +259,15 @@ Separate source provenance from epistemic status. A manufacturer statement may b
 
 Produce a written report, executable local dashboard, CSV/JSON evidence package, versioned scenarios, reproducible model, acceptance audit, and durable roadmap. Register final artifact paths and versions in the repository manifest.
 
-The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, AI-native entry and financing cases with competitive response, robotics business models and value capture, a substantial digital-AI ecosystem/evidence/direct-contribution chapter, integrated strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
+The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, AI-native entry and financing cases with competitive response, robotics business models and value capture, a substantial digital-AI ecosystem/evidence/direct-contribution chapter, substantial physical supply/embodiment/openness and quadruped/drone evidence sections with time-indexed scale analysis, integrated strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
 
 Use **one authoritative calculation engine** for dashboard outputs, report tables, and scenario exports. Documentation must provide exact environment, build, run, and regeneration commands. Store locked dependencies where appropriate and use deterministic seeds when simulations require randomness. A fresh local launch should use the saved evidence snapshot without requiring new external credentials. No public deployment is required.
 
-### Eleven linked dashboard views
+### Thirteen linked dashboard views
 
 1. **Economic atlas:** end markets, value-chain stages, labor/value measures, coverage statuses, residual categories, and baseline automation.
 2. **Market deployment explorer:** selected cell, workflow context, competing configurations, conditional waterfall, economic outcomes, and adoption timeline.
-3. **Provider and system landscape:** versioned capabilities, evidence conditions, deployment phase, supply relationships, and alternatives.
+3. **Provider and system landscape:** versioned humanoid/quadruped/other-system capabilities, key-player and regional coverage, evidence conditions, deployment phase, supply/commercial relationships, openness artifacts, and alternatives.
 4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, benchmark/economic applicability, capability-to-use gaps, relative digital/embodied/hardware progress, and limits of extrapolation.
 5. **Fleet and bottleneck view:** commissioning cohorts, active stock, productive output, retirements, shared resource use, and binding constraints.
 6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries; robot/fleet/site/enterprise roles, ERP/WMS/MES and routing/scheduling interfaces, and separate robotics R&D contributions.
@@ -232,11 +275,13 @@ Use **one authoritative calculation engine** for dashboard outputs, report table
 8. **Robotics business models and value capture:** commercial arrangements, provider/operator/integrator/financier roles, asset/control/data rights, cash requirements, risk allocation, integration, and coexistence. Link to the selected customer profiles.
 9. **Digital AI ecosystem:** physical inputs, model development and inference, cloud/distribution, tools/agents, deployment companies, dependent businesses and adopting end markets; dated resource, capital, data, control and commercial relationships. Qualitative edges remain distinct from measured flows.
 10. **Analogy and direct-contribution workbench:** source/target mechanisms and evidence, required conditions, transfer limits, model-role/interface maps, benchmark cards, joint digital/physical comparisons and implications for existing research questions.
-11. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
+11. **Robotics supply and production:** component/facility/system relationships; input and memory/compute classes; capacity/qualification/ramp, inventory/yield/spares, shared allocations, cost and capability links, bottleneck timeline and scale-target backcast.
+12. **Embodiment and deployment comparison:** market-stage fit, matched output/quality and economics, human/simpler/mixed-system alternatives, quadruped field dossiers, drone transfer/nontransfer evidence, openness layers and source maturity.
+13. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
 
-Shared filters include market, stage, archetype, geography, period/horizon, system/model/harness, digital/physical value-chain layer, contribution role, customer profile, customer pathway, commercial arrangement, scenario, and source/target evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
+Shared filters include market, stage, archetype, geography, period/horizon, system/model/harness, embodiment/configuration, component/resource/qualification class, openness layer, digital/physical value-chain layer, contribution role, customer profile, customer pathway, commercial arrangement, scenario, and source/target evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
 
-Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, incumbent response timing, relative digital/embodied progress, inference/coordination costs and integration availability when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
+Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, incumbent response timing, relative digital/embodied progress, inference/coordination costs and integration availability, component allocation/qualification, yield/ramp/expansion lead times, memory/compute/power configuration, replacement/spares and support requirements when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
 
 Display meaningful ranges and appropriate rounding. Show missing inputs and unavailable estimates explicitly. A synthetic example may demonstrate functionality, but must have persistent labeling and remain excluded from empirical aggregates.
 
@@ -256,6 +301,10 @@ Run focused checks that address concrete analytical and interface risks:
 - Confirm observed evidence remains fixed when scenario controls change; test unknown versus zero and insufficient-data states.
 - Verify analogy source and target evidence remain distinct; unsupported transfers cannot silently set calibrated parameters. Trace direct-contribution claims to their demonstrated setting and interface.
 - Exercise a joint digital/physical comparison, including an improved human-led baseline, shared resource limits and non-additive effects without duplicate benefits. Check that changing digital assumptions affects the intended roles and populations only.
+- Reconcile component and finished-system inventories, assembly/qualification yields, work-in-progress timing, commissioning, replacement versus net additions, spares and shared resource allocations; exercise a delayed-qualification or constrained-service case.
+- Check that the scale-target backcast uses declared units and necessary-condition logic; supply feasibility cannot silently become demand or adoption.
+- Verify embodiment comparisons use matched output/quality and total configured costs; overlapping or complementary drone/quadruped/humanoid work cannot duplicate economic activity or gains.
+- Verify artifact-level openness and drone/quadruped observation status; released code, missions, announced capacity and modeled economics remain distinct from realized productive outcomes.
 - Export and reload a scenario; reproduce its outputs and confirm a documented local launch.
 
 Use a small set of meaningful fixtures and adverse cases. Do not mirror every implementation detail with tests or repeat a passing test without a concrete reason. Record pass, partial, blocked, or failed for each acceptance requirement, with consequences and next action.

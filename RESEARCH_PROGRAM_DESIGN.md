@@ -1,14 +1,14 @@
-# Physical labor, humanoid deployment, and the organization of production
+# Physical labor, robotics deployment, and the organization of production
 
-Version 0.9 · 25 October 2026 · Research program design
+Version 0.10 · 25 October 2026 · Research program design
 
 ## 1. Purpose and accepted direction
 
-Develop the understanding, evidence, and models Amar needs to help shape strategy and staged deployment at a humanoid robotics company. The program begins with physical labor across the economy, organized by end markets and value chains, and asks how changing humanoid capabilities, learning systems, data aggregation, physical-digital coordination, and organizational structures alter the paths to productive deployment.
+Develop the understanding, evidence, and models Amar needs to help shape strategy and staged deployment at a humanoid robotics company. The program begins with physical labor across the economy, organized by end markets and value chains, and asks how changing humanoid, quadruped and other relevant system capabilities, physical supply chains, learning systems, data aggregation, physical-digital coordination, and organizational structures alter the paths to productive deployment.
 
 The central question is:
 
-**Where, how, and in what sequence can humanoids and digital agents transform physical production and services, what must improve for each stage to become viable, and which deployment and ownership arrangements can create and capture the resulting value?**
+**Where, how, and in what sequence can humanoids, quadrupeds, other appropriate machines and digital agents transform physical production and services, what must improve for each stage to become viable, and which deployment and ownership arrangements can create and capture the resulting value?**
 
 Amar's 25 October 2026 clarification establishes these requirements:
 
@@ -23,6 +23,8 @@ Amar's 25 October 2026 clarification establishes these requirements:
 - Compare incumbent adoption, acquisition/holdco transformation, and AI-native enterprise formation as customer development pathways. These are not mutually exclusive ownership categories. Permit coexistence and specialization across value-chain stages.
 - Explicitly study capital-funded AI-native operating newcos on the customer side: differentiated humanoid/digital-agent production, faster adoption of widely available robots, and capacity or availability advantages. Compare standalone newcos, platforms creating new businesses, acquisition-led transformation, and hybrids; use Thrive Holdings as a structural comparator.
 - Make the full LLM/digital-AI ecosystem a substantial research workstream: model development and physical inputs; scaling, deployment and nondeployment; retrospective/prospective economic effects; economic-role and workflow evaluation; multi-agent coordination; lab competition and deployment companies; and dependent/complementary businesses. Use it both for tested multivariate analogies and direct contributions to robotics, site/enterprise operations, and humanoid R&D.
+- Map the full humanoid/quadruped supply and value chains, key inputs, qualified production and support capacity, key players, embodiment tradeoffs and layered openness. Connect these to cost/capability improvement and time-indexed feasibility of explicit deployment-scale targets.
+- Include quadrupeds as a major deployment research module throughout the economic program, and use drone deployments, companies, supply chains and business models as substantial but bounded empirical comparisons. Preserve different physical functions, operating conditions, institutions and evidence quality.
 - Deliver a substantive written report, an interactive dashboard with meaningful toggles, reproducible supporting artifacts, and a continuing research roadmap after an initial seven-day campaign.
 
 These requirements govern the design. Geographic defaults, coverage targets, forecasting horizons, and particular implementation choices below are revisable working assumptions, not additional user commitments. Preparing this design does not start the seven-day run or claim its outputs exist.
@@ -87,7 +89,7 @@ An end-market atlas with dated denominators, value-chain maps, operating archety
 
 ### Questions
 
-- Which configured humanoid systems can currently serve relevant work, and what is known about sustained productive operation?
+- Which configured humanoid, quadruped and other relevant systems can currently serve relevant work, and what is known about sustained productive operation?
 - Which dimensions prevent further entry: manipulation, payload, mobility, endurance, long-horizon reliability, recovery, adaptation, integration effort, or human intervention?
 - How could data diversity, training/inference compute, model design, hardware, control, simulation, and workflow redesign change those dimensions?
 - Which improvements transfer across embodiments, environments, software generations, and customer sites?
@@ -108,6 +110,8 @@ Maintain three explicit categories:
 Fit a power law only where the data and comparison support it. Also consider thresholds, saturation, diminishing returns, hardware limits, distribution shift, and correlated failures. A benchmark trend is not a universal humanoid improvement exponent or an automatic commercial productivity forecast.
 
 The linkage is explicit: an assumed improvement changes particular capability requirements, which changes eligible market-stage configurations, operating outcomes, costs, and subsequent adoption. Preserve an unchanged-capability case and cases with limited transfer. Retrofit and software compatibility determine whether existing fleets share in an improvement.
+
+Use I to separate capability scaling from component performance, manufacturing cost learning and qualified supply expansion; use J to examine field reliability and deployment evidence across embodiments. An improvement curve does not by itself establish a production or adoption timeline.
 
 ### Output
 
@@ -276,9 +280,33 @@ Investigate retrospective effects with appropriate identification and prospectiv
 
 Use joint digital/physical scenarios. Compare current operations, digital improvements alone, robotic changes at the existing digital baseline, and combined redesign for matched output/quality and demand. Attribute shared improvements once. Consider digital-first preparation, concurrent progress and physical-first sequences where plausible, rather than requiring a fixed ladder. Include robotics R&D contributions and conditional feedback from physical automation into the infrastructure supplying AI; respect lead times and shared resource budgets.
 
-As a revisable planning default, allocate approximately one-third of first-week substantive research attention to H and its integration with A–G, counting shared work once. The module needs a substantial report section, dedicated dashboard workspaces, source/benchmark cards, explicit analogy tests, direct-contribution maps and a transparent joint scenario. It must change or constrain concrete research/deployment judgments, including through negative or nontransfer findings. It is not an exhaustive one-week survey of digital AI and does not defer the physical-labor program.
+As a revisable planning default, allocate approximately one-third of first-week substantive research attention to H and its integration with the other workstreams, counting shared work once. The module needs a substantial report section, dedicated dashboard workspaces, source/benchmark cards, explicit analogy tests, direct-contribution maps and a transparent joint scenario. It must change or constrain concrete research/deployment judgments, including through negative or nontransfer findings. It is not an exhaustive one-week survey of digital AI and does not defer the physical-labor program.
 
-## 12. Integrated interpretation and standards of progress
+## 12. Workstream I: robotics supply chains, embodiments, and open ecosystems
+
+This substantial module is specified in [ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md](ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md). Map the full physical and economic chain for humanoids and quadrupeds, including materials, motors/actuators/transmissions, bearings/encoders, hands, sensors, onboard chips and memory, batteries/power/thermal systems, structures, communications, tooling, manufacturing/test/calibration, software/data, integration, service/spares, finance and customer output. Trace suppliers and qualified substitution at the configuration and component-class level. Keep planned capacity, qualified output, shipments, commissioning and productive use distinct.
+
+Investigate five connected forms of scale separately: capability; manufacturing learning and unit cost; qualified production capacity; supported operational scale; and economic penetration. Build time-indexed component, production and service constraints, including inventory, yields, ramp/qualification and lead times, investment, working capital, replacements and shared-resource allocations. For a specified scale target, show a forward path and a backcast of necessary input/capacity conditions. Capacity feasibility does not establish adoption.
+
+Treat embodiment as an economic design variable: bipedal and wheeled humanoids/mobile manipulators, quadrupeds with or without arms, wheel-legged hybrids, AMRs, fixed/specialized automation, drones and human-machine configurations. Compare accepted output/quality, physical fit, process changes, whole-system cost, support, and alternatives in the same market-stage cell. Investigate hardware/software co-design, compute-memory-power tradeoffs, transfer and retrofit compatibility, and mixed-fleet complementarities. Do not sum overlapping embodiment opportunities.
+
+Map key players across upstream components, OEMs, manufacturing, models/software, payloads, deployment, service and finance, with geographic coverage and documented supply/control relationships. Study modularity, integration, make/buy choices, competing uses of inputs, regional access, and shifting value capture. Openness is a matrix of hardware, firmware, SDK/interfaces, models, training, data, commercial rights, reproducibility and governance. Unitree is an artifact/configuration-specific ecosystem case, not a blanket open-source classification. Test how each type of openness changes entry, costs, dependence, repair, innovation and rents, using H's digital evidence without copying effects.
+
+Outputs include a connected supply/value-chain map and player registry; sourced configured-system/component maps; matched embodiment comparisons; a time-indexed scale-feasibility model and backcast; layered openness cards; substantive report coverage; and a supply/production dashboard linked to the common economic model.
+
+## 13. Workstream J: quadruped deployments and drone comparative evidence
+
+This is a major, continuing empirical module, detailed in [QUADRUPED_AND_DRONE_RESEARCH_MODULE.md](QUADRUPED_AND_DRONE_RESEARCH_MODULE.md). Quadrupeds enter the main labor/end-market atlas, capability/economics/learning research, customer and provider business-model comparisons, scenarios, and dashboard. They are both economically relevant systems in their own right and a source of conditional evidence for humanoid deployment.
+
+Study industrial inspection and maintenance, utilities/energy, manufacturing, construction/mining, infrastructure/public services, and other material use cases with dated operator evidence. Distinguish sensor-carrying robots, manipulation configurations, research platforms and deployment packages. Examine remote operation, autonomy and exception handling, routine missions, asset-data/maintenance integration, charging/docking, payloads, service support, commercialization, nondeployment and stalled or discontinued uses. Missions or data points are not automatically useful maintenance outcomes or payroll savings.
+
+Use drone cases to investigate specific mechanisms: sensing/inspection workflows, logistics and service networks, agricultural operations, remote supervision, heterogeneous fleets, manufacturing, component standardization, software/openness, customer channels and value capture. Separate aerial physical constraints, aviation permissions, mission/output units, geography and commercial structure from ground-robot conditions. Do not assume drone economics, reliability, regulatory timetables or supplier concentration transfer to humanoids. Preserve failures, selection limits and nontransfer findings.
+
+Use the same actor/system/resource/rights/evidence graph as I and A–H. J adds deployment/mission/outcome observations and explicit comparison links; it does not create a separate total addressable market. Source and target evidence stay separate. Distinguish direct complementarity, actual substitution, data/control transfer, supply-chain overlap and structural analogy. A shared inspection workflow may involve a drone, quadruped, software agent and human repair crew, with benefits allocated once.
+
+Outputs include a sector and player coverage map, contrasting quadruped deployment dossiers, drone comparison dossiers, economic and operational mechanisms, explicit transfer/nontransfer tests, and a linked embodiment/deployment dashboard. First-week dossiers reuse existing market-stage cells where appropriate; they are not six additional full market studies. The week-one specification sets bounded minima while the roadmap preserves the larger inquiry.
+
+## 14. Integrated interpretation and standards of progress
 
 For each material conclusion, state the mechanism, supporting evidence, competing explanation, confidence, pivotal assumptions, and observation that would change the view. Distinguish a measured result from an inference and from a scenario.
 
@@ -286,15 +314,17 @@ Use one versioned data and calculation source for report tables, dashboard visua
 
 The initial report must also explain what the digital AI ecosystem teaches conditionally, where analogies fail, how digital systems directly contribute to physical production and robotics R&D, and how joint progress changes the deployment baseline and sequence.
 
+It must also explain embodiment choice, qualified component/manufacturing/service capacity and time to specified scale; what quadruped field deployments establish; which drone mechanisms transfer or fail; and how openness and supplier structure change entry and value capture.
+
 The initial report should answer: where is physical labor concentrated; what can current systems plausibly serve; what improvements unlock further stages; what slows deployment after capability is available; how do fleets, learning, and digital coordination change sequencing; how do customer ownership and organization change adoption by market and stage; and which robotics business models and control arrangements create and capture value?
 
 Measure research progress through improved explanations, validated mechanisms, better-constrained assumptions, and changed strategic judgments. Preserve disagreements and negative findings. Do not require a physical robot demonstration or a completed microeconomic case before the program can contribute.
 
 The first week's executable specification is `WEEK_ONE_RESEARCH_SPEC.md`. Its launch text is `CODEX_GOAL.md`. Open questions and longer investigations live in `RESEARCH_ROADMAP.md`. Those files describe planned work until an actual campaign records evidence and outputs.
 
-## 13. Initial source anchors
+## 15. Initial source anchors
 
-These are starting sources and methodological anchors checked during design preparation. The additional digital-AI, economic-deployment, enterprise-integration and direct-robotics source set is in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
+These are starting sources and methodological anchors checked during design preparation. The additional digital-AI, economic-deployment, enterprise-integration and direct-robotics source set is in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. Physical supply/openness and quadruped/drone anchors are in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` and `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`. The campaign must verify available vintages at kickoff, preserve the versions actually used, and expand the evidence base. This list does not constitute a completed literature review or market assessment.
 
 - [BLS OEWS industry-specific tables](https://www.bls.gov/oes/2025/may/oessrci.htm) and [technical notes](https://www.bls.gov/oes/2025/may/oes_tec.htm): employment/wage baseline with scope and classification limits. Employment counts are not physical-work hours or full-time equivalents, and wages are not fully loaded compensation.
 - [BLS National Employment Matrix](https://www.bls.gov/emp/tables/industry-occupation-matrix-industry.htm): alternative/supplementary coverage and industry-occupation relationships. Reconcile overlap with OEWS; distinguish historical base-year estimates from published projections.
@@ -305,7 +335,7 @@ These are starting sources and methodological anchors checked during design prep
 - [OpenAI–Thrive Holdings partnership, 1 December 2025](https://openai.com/index/thrive-holdings/) and [Thrive Holdings capital update, 12 August 2026](https://www.thriveholdings.com/thrive-holdings-fundraise): primary descriptions supporting the structural comparator in Workstream F; company claims require appropriate attribution. Neither establishes physical-labor substitution or the financeability of a new humanoid operator.
 - [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [long-running work](https://learn.chatgpt.com/docs/long-running-work): a goal needs observable outputs, verification, checkpoints, and explicit completion/blocker states. Actual continuation depends on the runtime, available resources, and goal state.
 
-## 14. Decision record
+## 16. Decision record
 
 Accepted correction: organize the research around physical labor end markets, value chains, staged deployment, evolving capability, learning/control, physical-digital coordination, and competing ownership routes. Superseded sequencing: mandatory warehouse-first case, second-market deferral, and dashboard only after that case. Preserved disciplines: dated evidence, transparent assumptions, consistent units and populations, conditional adoption gates, no double-counting, and separate implementation-repository scope.
 
@@ -314,5 +344,7 @@ Ownership clarification, 25 October 2026: customer ownership/organization is an 
 AI-native entry clarification, 25 October 2026: make customer-side capital formation and entrepreneurial entry explicit, including differentiated operating design, equal-technology adoption leads, and conditional labor-capacity advantages. Preserve pure newco formation alongside acquisition and hybrid platforms; investigate competition and financing rather than assuming technical productivity becomes market share. Seven workstreams remain in place.
 
 Digital ecosystem addition, 25 October 2026: added substantial Workstream H and a dedicated module, bringing the design to eight linked workstreams. Learn from the full digital-AI value chain through explicit analogy tests and direct capability/contribution maps; expand coordination to site/enterprise systems and model robotics R&D contributions. Maintain moving digital-improved baselines and joint scenarios, source/target evidence separation, and all prior customer-newco and provider/asset/control questions.
+
+Embodiment and physical-ecosystem addition, 25 October 2026: added substantial I and J modules, bringing the design to ten workstreams. Quadrupeds are first-class economic/deployment systems; humanoid/quadruped inputs, manufacturing, memory/compute, embodiment and openness receive detailed treatment. Drone cases supply bounded empirical comparisons. Added time-indexed scale feasibility/backcasting, two linked dashboard views and fourteen open questions while preserving H and all prior customer/provider inquiries.
 
 Prepared outcome: a revised program and a launchable first-week specification. Pending outcome: activation and execution of the research campaign in Codex, followed by the actual report, dashboard, model, and revised roadmap.

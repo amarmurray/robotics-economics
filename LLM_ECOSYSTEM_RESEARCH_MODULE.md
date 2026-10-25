@@ -1,6 +1,6 @@
 # Digital AI ecosystem: comparative evidence and direct contributions to robotics
 
-Version 1.0 · Prepared 25 October 2026 · Research specification; campaign not activated
+Version 1.1 · Prepared 25 October 2026 · Research specification; campaign not activated
 
 ## 1. Purpose, scope, and relationship to the program
 
@@ -13,7 +13,7 @@ The module has two connected purposes:
 
 A finding can serve both purposes, but each requires its own evidentiary argument. Digital adoption is not a calibrated forecast of physical adoption. Technical integration is not proof that two industries have matching economics.
 
-H is the eighth workstream, alongside A–G. End markets, value-chain stages, operating archetypes, geography, and time remain the organizing dimensions. Benchmarks and individual tasks provide diagnostic evidence. RESEARCH_PROGRAM_DESIGN.md governs the whole program; WEEK_ONE_RESEARCH_SPEC.md governs the initial campaign; RESEARCH_ROADMAP.md retains stable open questions.
+H remains substantial Workstream H within the ten-workstream program, linked to A–G and the added physical supply/embodiment and quadruped/drone workstreams I/J. End markets, value-chain stages, operating archetypes, geography, and time remain the organizing dimensions. Benchmarks and individual tasks provide diagnostic evidence. RESEARCH_PROGRAM_DESIGN.md governs the whole program; WEEK_ONE_RESEARCH_SPEC.md governs the initial campaign; RESEARCH_ROADMAP.md retains stable open questions.
 
 This document specifies research and introduces dated source seeds. It claims no completed ecosystem census, calibrated forecast, research run, model result, or deployed dashboard. Public-source investigation, CPU analysis, and local software are within scope. Training, GPU expenditure, hardware experiments, paid access, outreach, and changes to the separately scoped implementation repository are not activated by this module.
 
@@ -166,7 +166,7 @@ Within the main 168-hour campaign, produce:
 - One transparent joint digital/physical mechanism scenario using the authoritative CPU model; label it uncalibrated if evidence does not support calibration.
 - Source and benchmark cards, versioned inputs, and a substantive report chapter with integration into A–G.
 
-Add a **digital ecosystem map** and an **analogy/direct-contribution workbench** to the nine existing dashboard views, for eleven total. The first links actors, resources, models, deployments, and dependent firms. The second exposes source/target evidence, transfer conditions, contribution interfaces, the 2×2 comparison, assumptions, and outcomes.
+Include a **digital ecosystem map** and an **analogy/direct-contribution workbench** within the thirteen linked dashboard views defined by the current campaign specification. The first links actors, resources, models, deployments, and dependent firms. The second exposes source/target evidence, transfer conditions, contribution interfaces, the 2×2 comparison, assumptions, and outcomes.
 
 Shared filters and lineage must remain consistent with the main dashboard. Scenario controls must recalculate; factual observations must remain fixed. Verify that joint effects reconcile, transferred coefficients are labeled, resource budgets are respected, and missing evidence cannot appear as validated performance.
 
@@ -197,3 +197,11 @@ These sources seed investigation; they are not exhaustive, a current vendor cens
 | [SAP supply-chain announcement, 14 May 2026](https://news.sap.com/2026/05/more-autonomous-supply-chain/) | Describes phased 2026 features. Seed enterprise-interface questions while independently checking availability, deployment, and realized productivity. |
 | [Compute-optimal training research, 2022](https://arxiv.org/abs/2203.15556) | Investigates training allocations within a specified fixed-budget research context. Do not transfer its relationship unchanged to agent systems, robotics, or current operating economics. |
 | [OpenAI reasoning research, September 2024](https://openai.com/index/learning-to-reason-with-llms/) | Vendor research on training and test-time compute. Useful retrospective evidence about specified systems; not a universal scaling curve or proof of enterprise impact. |
+
+## 10. Physical ecosystems and deployment evidence
+
+Read [ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md](ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md) and [QUADRUPED_AND_DRONE_RESEARCH_MODULE.md](QUADRUPED_AND_DRONE_RESEARCH_MODULE.md) for the expanded physical side. Join digital training/remote-inference inputs to actual compatible robotics supply dependencies; onboard processors/memory, actuators, production qualification and field service have distinct units, lead times and constraints. Use the shared component/capacity graph and preserve different forms of scale.
+
+Compare digital open-model economics with artifact-specific hardware, firmware, SDK, model/data and commercial rights. Unitree/platform access, open research hardware and drone software are different cases, not a single robotics equivalent of OSS. Quadruped and drone field observations can constrain H's organizational/coordination analogies and direct-contribution hypotheses, but do not replace H's digital dossiers or minimum analogy tests. Extend direct-contribution maps to relevant quadruped and mixed-fleet configurations and retain the moving human/digital baseline.
+
+Count cross-module research once, retain H's approximately one-third attention default, and use common actor/system/work/resource/evidence IDs. Comparative evidence, actual shared inputs, demonstrated integration and proposed combinations remain different relationships.

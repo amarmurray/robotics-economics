@@ -1,8 +1,8 @@
 # Robotics Economics: Research Charter
 
-Version 0.9 · 25 October 2026 · Amar Murray
+Version 0.10 · 25 October 2026 · Amar Murray
 
-This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.9 retains and extends Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid and quadruped deployment, embodiment and supply, learning/control, physical-digital coordination, and the organization of production. Version 0.10 retains and extends Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
 
 This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
@@ -10,9 +10,9 @@ This is the accepted program design and a prepared research campaign, not a comp
 
 Develop the understanding, evidence base, and working models needed to shape strategy and staged deployment at a humanoid robotics company.
 
-The central question is: **Where, how, and in what sequence can humanoids and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
+The central question is: **Where, how, and in what sequence can humanoids, quadrupeds, other appropriate machines and digital agents transform physical production and services; what must improve for each stage to become viable; and which deployment and ownership arrangements create and capture value?**
 
-The program connects eight research decisions:
+The program connects ten research decisions:
 
 1. Map physical labor, productive processes, and operating heterogeneity across end markets and value-chain stages.
 2. Relate current provider/system capabilities and research progress to conditional improvement and scaling pathways.
@@ -22,10 +22,14 @@ The program connects eight research decisions:
 6. Investigate customer ownership, governance, capital allocation, automation appetite, operating authority, and implementation capacity as determinants of adoption and value-chain position; compare incumbent, acquisition/holdco, and AI-native development pathways.
 7. Preserve the distinct inquiry into robotics business models, provider/operator/integrator/financier roles, asset ownership, commercial/control/data rights, integration, and value capture, including coexistence.
 8. Study the full digital-AI ecosystem as substantial comparative evidence and a direct contributor to embodied capability, fleet/site/enterprise coordination, and humanoid R&D. Cover physical inputs/model development, scaling and deployment/overhang, economic effects, benchmarks, multi-agent systems, lab/input/capital/customer competition, deploycos and complementary businesses; test analogies and joint capability paths explicitly.
+9. Map the full humanoid/quadruped supply and value chain, key inputs and players, qualified manufacturing and service capacity, embodiment tradeoffs and layered openness; connect them to distinct improvement/cost/capacity mechanisms and time-indexed scale feasibility.
+10. Make quadruped deployments a major empirical module and learn from drone deployments, operating models, players and supply chains through bounded transfer tests, including failures and differences.
 
 Customer-side AI-native entry is an explicit research thesis: can capital fund a new operating business or platform that competes through differentiated humanoid/digital-agent deployment, earlier adoption of broadly available technology, or conditional labor-capacity advantages? Examine financing through ramp, demand capture, incumbent response, and build/acquire/hybrid choices by end market and value-chain stage. Use Thrive Holdings as an organizational comparator, with the physical/industrial extension and greenfield cases treated as hypotheses. Keep customer formation separate from robotics-provider business models while linking their economics.
 
 The detailed digital-AI workstream is `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. It receives substantial first-week research attention and reporting, with explicit evidence on both sides of each analogy, direct-contribution/interface maps, and digital-improved human-led baselines. Enterprise/site coordination includes ERP, inventory, production systems, routing/scheduling, maintenance, and exception workflows; robotics R&D is a separate contribution channel. Shared improvements and resource budgets are counted once.
+
+Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, makes humanoid/quadruped supply and value chains, components (including actuation, onboard compute and memory), manufacturing/qualification/ramp, embodiment choices, key players and layered openness substantial research subjects. Workstream J, detailed in `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`, makes quadruped deployments a major empirical module and uses drone deployment, operating, supply-chain and ecosystem evidence through bounded comparisons. Distinguish capability improvement, production cost learning, qualified supply, supported operational scale and economic penetration. Compare embodiments within the existing end-market map; trace time-indexed scale feasibility and preserve human, specialized-machine and mixed-fleet alternatives. SDKs, released weights, open hardware and commercial rights are separate. Use shared records and count activity, resources and benefits once.
 
 Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
@@ -98,7 +102,8 @@ Allocate outsourced and shared work consistently. A facility's operating industr
 | Deployment economics | What are the customer and provider cash flows at equal output and service quality? | Price feasibility, contribution, payback and NPV by scenario |
 | Adoption and penetration | Which technically possible deployments become economical, operationally ready, funded, and actually installed? | Dated penetration waterfall and installed-base scenarios |
 | Learning and task transfer | Which capabilities could improve, where could they transfer, and who captures the resulting gains? | Directed transfer hypotheses and incremental cash-flow effects |
-| Robot supply chain | Which components, manufacturing capacity, integration crews, service resources, and financing constrain expansion? | Supply relationships, bottleneck scenarios and value-capture map |
+| Robot supply, embodiment and ecosystems | How do components, compute/memory, architecture, qualification, production learning/ramp, support and openness change feasibility and expansion? | Configured-system/component maps, supply/backcast scenarios, openness cards and value capture |
+| Quadruped and drone deployment evidence | What do actual operating systems establish about useful outcomes, field scaling, customer/provider models and conditional transfer? | Sector/player coverage, deployment dossiers, bounded analogies and matched embodiment comparisons |
 | Physical-digital fleets and control | How do robots, software agents, people, and infrastructure allocate work and shared resources? | Coordination archetypes and mechanism models |
 | Customer ownership, organization, and adoption | How do the adopting business's governance, capital allocation, appetite, authority, capacity, and value-chain position change deployment? | Customer profiles, adoption mechanisms, pathway and coexistence comparisons |
 | Robotics business models, asset ownership, and value capture | How should robots be supplied, operated, financed and controlled; which participants capture gains? | Commercial and actor/rights maps; customer/provider/operator/financier economics; integration strategies |
@@ -242,7 +247,9 @@ Start with inspectable tables. Add a database only when relationships and update
 | Evidence | Stable ID; metric or claim; value and unit; source and locator; observation date; retrieval date; applicable population; evidence class; uncertainty; superseded record |
 | Scenario | Opportunity and system-version IDs; model version; linked evidence IDs; input assumptions; contract; integration arrangement; horizon; capital policy; competitor response |
 | Transfer relationship | Source and destination task/system IDs; data access and reuse rights; hypothesized shared capability; training and validation costs; expected operational effect; beneficiary; uncertainty; evidence and validation status |
-| Supply relationship | Supplier or resource category; customer/component relationship; substitute options; quantity per deployment; capacity or lead-time assumption; source and date |
+| Supply/configuration relationship | Component/resource grade; configured system/BOM quantity; supplier/facility/geography; qualification/substitution; yield boundary; inventory; available versus planned capacity; expansion and lead times; spares/replacement; dated evidence |
+| Openness artifact | Hardware/firmware/SDK/model/data/interface layer; version/license/dependencies; access, reproduction and commercial rights; governance; uncertainties |
+| Embodiment and field comparison | Matched activity/output/quality; alternatives and complements; mission/exposure/human-work records; data-to-action/outcome link; economics; transfer limits and evidence status |
 | Coordination configuration | Physical/digital agents; human support; process dependencies; decision authority; shared resources; control assumptions; measured versus proposed effects |
 | Customer/adopter profile | Parent/operator/site/buyer/beneficiary actors; ownership/governance attributes; capital allocation; investment criteria and appetite evidence; authority; implementation capacity; value-chain role |
 | Customer pathway | Incumbent expansion, acquisition/holdco transformation, new entry and repositioning; transition timing/costs; cohort identity and reclassification; coexistence links |
@@ -281,7 +288,7 @@ The first edition contains:
 3. Qualitative deployment theses and staged penetration models for a contrasting set of market-stage cohorts.
 4. Substantive analyses of data aggregation, learning/control, physical-digital fleet coordination, and shared rollout constraints.
 5. Market-stage comparisons of customer ownership/organization and adoption, including incumbent/acquisition/newco pathways, plus distinct robotics business-model, asset/control, and value-capture comparisons.
-6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model, with a substantial digital-AI ecosystem chapter and dedicated linked workspaces for ecosystem evidence, tested analogies and direct contributions.
+6. An integrated written report and functional interactive dashboard drawing on the same versioned evidence and model, with substantial digital-AI, physical supply/embodiment/openness, and quadruped/drone evidence sections; dedicated linked workspaces include ecosystem evidence, tested analogies/direct contributions, supply/production and embodiment/deployment comparisons.
 7. Reproduction instructions, an acceptance audit, and a ranked roadmap of unresolved questions and follow-on research.
 
 Continue substantive work through the research window, using checkpoints and priority questions to deepen the edition. Do not confuse seven named stages with a week of elapsed execution, invent research performed during a pause, or manufacture inputs to complete a visual. At the deadline publish the strongest verified edition and clearly identify incomplete requirements.
@@ -317,6 +324,8 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.10 — 25 October 2026:** Added substantial Workstreams I and J with dedicated supply/embodiment/openness and quadruped/drone modules. Distinguished capability, cost learning, qualified manufacture, field scale and penetration; added component/time/stock-flow/backcast requirements, artifact-level openness and bounded drone comparisons. Expanded to ten workstreams, thirteen dashboard views and 55 open questions. Preserved H, customer newcos, provider/asset/control research and prepared-only campaign status.
 
 - **0.9 — 25 October 2026:** Added substantial Workstream H and a dedicated digital-AI ecosystem module: full physical/digital value chain, deployment/overhang, economic evidence, benchmarking, multi-agent coordination, lab competition/deploycos and complementary businesses. Distinguished multivariate analogies from direct robot/site/enterprise/R&D contributions; added evolving digital baselines, joint scenarios, source/target records, two dashboard workspaces and ten roadmap questions (41 total). Preserved all prior workstreams and prepared-only campaign status.
 
