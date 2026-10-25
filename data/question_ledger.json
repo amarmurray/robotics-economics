@@ -1014,100 +1014,135 @@
     {
       "question_id": "RQ-FM-01",
       "question": "Which labs and firms occupy which frontier robotics-model and deployment roles?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Identify the economic industry structure rather than a publicity roster.",
       "evidence_method": "Build global dated actor/model/OEM/customer/rights/distribution map; separate transactions, partners, model releases and operating use.",
       "dependencies_and_completion": "W1 bounded roster with role and coverage uncertainty. Links BM-01/03, LLM-07, SC-03.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Nine actor records separate model, OEM, platform, open-policy, deployment and transaction-counterparty roles. Global coverage is bounded; China, continental Europe and additional labs need direct follow-up."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-02",
       "question": "What training, data and evaluation mechanisms actually improve cross-task and cross-embodiment policies?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Constrain capability/scaling and transfer assumptions.",
       "evidence_method": "Analyze physical/human/synthetic data, RL, prompting, compute, held-out quality, duration, adaptation costs and negative transfer.",
       "dependencies_and_completion": "W1 evidence/response cards; deeper with comparable versioned data. Links HC-02/04, DL-02/03.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "S1 cumulative per-step evaluation with recovery and Figure whole-task held-out-home evaluation have different denominators. Data-only loss scaling and adaptation anecdotes do not establish a general capability/economic curve."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-03",
       "question": "How do independent, integrated and open model architectures affect complete operating cost and reliability?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Translate policies into viable customer services.",
       "evidence_method": "Compare inference, model fee, onboard/remote compute, integration, supervision, accepted throughput and validation at matched service.",
       "dependencies_and_completion": "W1 mechanism case; no unobserved operating calibration. Links FD-01, SC-01, BM-01.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Four common-service architectures are designed, but actual compatibility and target costs are unknown. No numerical ranking is implemented."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-04",
       "question": "Who can access and reuse embodied data, policy fine-tunes and operating feedback?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Determine data network feasibility and who captures learning benefits.",
       "evidence_method": "Trace customer/OEM/lab/deployer rights, quality, reuse, training, validated improvements and diffusion.",
       "dependencies_and_completion": "W1 rights/learning map; deeper with contracts. Links DL-01, OS-02, BM-02.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Pi hosted terms and most deployment data/fine-tune contracts remain unknown. OpenVLA code/model-card declarations conflict; code access or data possession does not establish cross-customer reuse permission."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-05",
       "question": "Which model-lab commercial structures retain durable economic value?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Test margins, pricing, specialization and integration.",
       "evidence_method": "Compare subscriptions/API, license, support, services, open models, bundled OEM, model-led deployco, acquisition and JV.",
       "dependencies_and_completion": "W1 conditional structure map; deeper on real terms. Links BM-01/03/04, OS-07.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Pi managed input, Skild model/deployment integration, Figure OEM co-design and OpenVLA adaptation describe different responsibility/cost boundaries; durable margins remain unobserved."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-06",
       "question": "How do capital, compute, physical data and customer access shape the competitive equilibrium?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Explain input scarcity and model-company strategy.",
       "evidence_method": "Date capital/deployment/computing/robot data relationships and supplier/cloud distribution; no announcement-to-capacity shortcut.",
       "dependencies_and_completion": "W1 resource/actor map; deeper if actual expenditures and terms available. Links SC-02, LLM-06.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Zebra filing discloses March 27 closing and $20m consideration including $9m cash, $9m equity fair value and $2m escrow. Skild ARR/recognized revenue and Figure compute commitment remain distinct issuer quantities, not cash available for deployment or realized returns."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-07",
       "question": "When do accessible or open embodied models weaken proprietary lab or OEM dependencies?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Assess independent manufacturing/customer entry and switching.",
       "evidence_method": "Verify weights, code, recipes, licenses, base models, data, reproduction, adaptation, servicing and field qualification.",
       "dependencies_and_completion": "W1 contrasting openness cards; deeper for commercial performance. Links SC-04, LLM-07/10.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Pinned OpenVLA interface/card explicitly excludes unseen-body zero-shot deployment and contains unresolved weight-rights declarations. Accessible artifacts can be an outside option only with adaptation, support and effective permissions."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-08",
@@ -1126,31 +1161,41 @@
     {
       "question_id": "RQ-FM-09",
       "question": "Which embodied model capabilities support quadrupeds, different effectors and enterprise coordination?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Separate transfer, complementary control and false generality.",
       "evidence_method": "Map model/system/harness/release/embodiment, field vs simulation, planning/controller/ERP and reliability.",
       "dependencies_and_completion": "W1 scoped transfer hypotheses; deeper on field outcomes. Links QD, FD, LLM-08.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "FieldAI separates body-specific dynamics, missions and fleet coordination; DeepMind separates VLA, embodied reasoning and on-device roles. Product descriptions do not prove configured quadruped or enterprise service outcomes."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     },
     {
       "question_id": "RQ-FM-10",
       "question": "How do model-layer architectures change deployment sequencing and distribution of value?",
-      "status": "OPEN",
-      "owner": "frontier_models",
+      "status": "PARTIAL",
+      "owner": "sole_lead/frontier_models",
       "decision_consequence": "Tie model-company research into consequential robotics decisions.",
       "evidence_method": "Reconcile policy effects, capital, rights, model economics, customer/OEM/provider cash and competing explanations.",
       "dependencies_and_completion": "W1 three decision implications or explicit gaps; deeper with matched empirical cases. Links A–J.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Five source-grounded implications now connect benchmark denominators, rights/learning, control/compute, organization/transfers and open outside options to existing A–J decisions. Numerical architecture value allocation remains next."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "reviews/frontier_models_review.md"
+      ],
+      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
     }
   ],
-  "edition_note": "Original 55 questions and ten K questions retain their completion conditions. Annual paths and a four-occupation observed crosswalk add bounded findings; K research stays OPEN and broader empirical/finance gaps remain."
+  "edition_note": "Original 55 questions plus ten K questions retained. K now has bounded source findings, while customer-newco outcomes, private terms, target costs and the numerical architecture comparison remain open/partial."
 }

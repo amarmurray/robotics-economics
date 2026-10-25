@@ -26,6 +26,7 @@ class LocalAPI(unittest.TestCase):
         self.assertEqual(len(data["catalog"]["cells"]),6)
         self.assertEqual(data["observed_physical_requirements"]["exact_code_matches"],3)
         self.assertFalse(data["observed_physical_requirements"]["scenario_inputs_used"])
+        self.assertEqual(data["observed_frontier_models"]["transaction"]["cash_consideration"],9)
         with urllib.request.urlopen(self.base+"/") as f:self.assertIn(b"app.js",f.read())
         def run(body):
             req=urllib.request.Request(self.base+"/api/run",data=json.dumps(body).encode(),headers={"Content-Type":"application/json"})
@@ -54,6 +55,7 @@ class LocalAPI(unittest.TestCase):
             self.assertEqual(data["observed_summary"]["status"],"not_available")
             self.assertEqual(data["observed_research_summary"]["status"],"not_available")
             self.assertEqual(data["observed_physical_requirements"]["status"],"not_available")
+            self.assertEqual(data["observed_frontier_models"]["status"],"not_available")
             atlas.assert_not_called();research.assert_not_called()
 
 

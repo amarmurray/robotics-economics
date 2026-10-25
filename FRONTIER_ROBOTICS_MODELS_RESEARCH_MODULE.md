@@ -1,6 +1,6 @@
 # Frontier robotics models: the economics of embodied intelligence
 
-Version 1.0 · Accepted scope 25 October 2026 · Workstream K · Added to an active campaign
+Version 1.1 · Accepted scope 25 October 2026 · Workstream K · Added to an active campaign
 
 ## Purpose and industrial position
 
@@ -28,7 +28,7 @@ Map relationships separately: equity funding, cloud/compute purchases, model lic
 ## 2. Global discovery set (dated research seeds, not rankings)
 
 - **Physical Intelligence:** π policy lineage, data-efficient adaptation and the October 2026 Pi API beta for hosted fine-tuning and inference. Test cross-embodiment service and partner-feedback mechanisms, integration requirements and network dependence.
-- **Skild AI:** Skild Brain/S1 lineage, training/physical self-play, claimed customer/revenue footprint and April 2026 Zebra/Fetch robotics-division acquisition. Investigate the integration of foundation models, installed robots, orchestration, enterprise channels and operating support.
+- **Skild AI:** Skild Brain/S1 lineage, training/physical self-play, claimed customer/revenue footprint and Zebra/Fetch robotics-business sale completed March 27, 2026 and announced April 15. Investigate the integration of foundation models, installed robots, orchestration, enterprise channels and operating support.
 - **Generalist:** GEN-1.5 and physical in-context learning; evaluate one/few-shot tasks versus reliable long-horizon service and adaptation cost.
 - **Dyna Robotics:** human-video/world-action scaling claims and model-led customer deployment. Separate issuer ROI statements from independent cash-flow and accepted-output evidence.
 - **FieldAI:** risk-aware field foundation models, uncertainty and physics-based autonomy; examine outdoor/variable environments as a different commercial and technical regime.
@@ -97,7 +97,7 @@ These are publisher descriptions, research releases and repositories: **not** a 
 | Source | Use and limitation |
 | --- | --- |
 | [Physical Intelligence Pi API beta, 13 Oct 2026](https://www.pi.website/blog/api-beta) | Hosted adaptation/inference on varied robot applications; issuer notes connectivity limitations, not audited fleet margins. |
-| [Skild acquired Zebra/Fetch robotics division, 15 Apr 2026](https://skild.ai/blogs/skild-zebra) | Model+deployment organization structure, not verified synergy. |
+| [Skild acquisition announcement, 15 Apr 2026](https://skild.ai/blogs/skild-zebra) | Model+deployment organization structure, not verified synergy. |
 | [Skild deployment/revenue claims, 10 Sep 2026](https://skild.ai/blogs/skild-crosses-100m-arr) | Issuer ARR/customer and deployment assertions, not validated profit or learning coefficient. |
 | [Generalist GEN-1.5, 19 Aug 2026](https://generalistai.com/blog/gen-1.5) | Bounded one/few-shot task evidence; no enterprise extrapolation. |
 | [Dyna-2 scaling study, Aug 2026](https://www.dyna.co/dyna-2) | Human-video and human-to-robot transfer hypothesis; retain domain, fit and held-out limits. |
@@ -106,9 +106,11 @@ These are publisher descriptions, research releases and repositories: **not** a 
 | [RLWRLD company](https://www.rlwrld.ai/en/company) | Dexterity and industrial training-data claims; verify terms/field economics. |
 | [Google DeepMind Gemini Robotics](https://deepmind.google/models/gemini-robotics/) | VLA/ER/on-device releases and access regimes; keep model cards versioned. |
 | [NVIDIA Isaac GR00T platform, July 2026](https://developer.nvidia.com/blog/develop-humanoid-robot-policies-end-to-end-with-nvidia-isaac-gr00t/) | Model, tooling, compute and openness roles; do not infer operating autonomy from tooling. |
-| [Figure Helix 2.5, Sep 2026](https://www.figure.ai/news/helix-2.5-zero-shot-30-home-generalization) | Vertically integrated model/data/robot comparator; vendor evaluations remain bounded. |
+| [Figure Helix 2.5, Sep 2026](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) | Vertically integrated model/data/robot comparator; vendor evaluations remain bounded. |
 | [Genesis GENE-26.5, May 2026](https://www.genesis.ai/news/press-release-gene-265) | Issuer integrated model/hand/data announcement, not proof of human-level operation. |
 | [OpenVLA repository](https://github.com/openvla/openvla) | Open code and model checkpoints; repo specifies upstream base-model license dependencies. |
 | [LeRobot/SmolVLA documentation](https://github.com/huggingface/lerobot/blob/main/docs/source/smolvla.mdx) | Fine-tuning/dev access; production integration and rights separately evaluated. |
 
 This module authorizes no GPU training, physical experiment, paid purchase, outreach, new-agent spawn, alternate research campaign or changes to robotics-vp-core.
+
+Source-anchor correction in version 1.1: the Figure URL is corrected, and Zebra's [Q1 2026 filing](https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/zbra-20260404.htm) distinguishes March 27 transaction completion from the April 15 announcement. Intellectual scope, the campaign window and the one-agent limit are unchanged.

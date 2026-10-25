@@ -14,6 +14,7 @@ CHAPTERS = [
  ('Digital-AI ecosystem, benchmarks and direct contributions','digital_ecosystem.md'),
  ('Digital infrastructure and physical production','digital_infrastructure.md'),
  ('Physical supply, embodiments, quadrupeds and drones','physical_supply_field.md'),
+ ('Frontier robotics models, deployment and value capture','frontier_models.md'),
 ]
 FOLLOWUPS = {
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
@@ -40,7 +41,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.5, campaign in progress. Annual digital paths and a source-verified physical-requirements/employment crosswalk are integrated. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.6, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk and a substantial frontier-model evidence chapter are integrated. The quantitative four-architecture model remains unfinished. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -56,9 +57,9 @@ The initial editions were produced in a cloud checkout. This continuation uses t
 ''']
     contents=[]
     headings=[f'{i}. {title}' for i,(title,_) in enumerate(CHAPTERS,1)]+[
-        '8. Common-engine scenarios and interpretation',
-        '9. Local experiments: cash settlement and transaction state',
-        '10. What remains unresolved',
+        '9. Common-engine scenarios and interpretation',
+        '10. Local experiments: cash settlement and transaction state',
+        '11. What remains unresolved',
     ]
     for heading in headings:
         anchor=re.sub(r'[^a-z0-9 -]', '', heading.lower()).replace(' ', '-')
@@ -86,8 +87,17 @@ The initial editions were produced in a cloud checkout. This continuation uses t
     # Place the observed table directly after its economic-atlas follow-up, not in the synthetic model section.
     insert_at = next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Physical requirements'))+1
     out.insert(insert_at, '#### Observed crosswalk from preserved BLS workbooks\n\n'+ '\n'.join(physical_table) + '\n\nGenerated from [physical_requirements_summary.json](model/results/physical_requirements_summary.json). ORS requirements and OEWS employment have different populations. Published ranges and absent rows remain explicit. No row is multiplied into physical-work hours or robot-addressable jobs; the original workbooks, source rows and all standard-error footnotes are retained for reproduction.')
+    frontier = json.loads((ROOT/'model/results/frontier_model_summary.json').read_text())
+    for path, digest in frontier['source_hashes'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:
+            raise SystemExit('Stale frontier-model summary dependency: '+path)
+    transaction=frontier['transaction']
+    table=['| Seller-disclosed transaction item | USD millions |','| --- | ---: |']
+    for key,label in [('cash_consideration','Cash consideration'),('equity_fair_value','Long-term investment fair value'),('escrow_fair_value','Indemnification escrow fair value'),('total_consideration','Reported total consideration'),('net_assets_sold','Reported net assets sold'),('seller_gain','Reported seller gain')]:
+        table.append(f"| {label} | {transaction[key]:,.0f} |")
+    out.append('### Reproduced acquisition disclosure\n\n'+ '\n'.join(table) + '\n\nGenerated from [frontier_model_summary.json](model/results/frontier_model_summary.json). Completion was March 27, 2026; announcement was April 15. Components reconcile to the reported total, and consideration less net assets reconciles to seller gain. These are seller accounting amounts, not Skild operating margin or an all-cash purchase. No model-customer economics are inferred.')
     summary=ROOT/'model/results/scenario_summary.csv'
-    out.append('## 8. Common-engine scenarios and interpretation\n\nAll results in this section are **synthetic illustrations**. Each selected cell has a named service unit; unlike services must not be summed as a single output quantity. Assumed labor avoidability is separate from observed payroll removal. Fractional fleets represent continuous cohort relaxations, not an integer deployment schedule. Annual capital envelopes are assumptions; they do not establish available financing. See [model methods](model/METHODS.md) for exact scope and limitations.\n')
+    out.append('## 9. Common-engine scenarios and interpretation\n\nAll results in this section are **synthetic illustrations**. Each selected cell has a named service unit; unlike services must not be summed as a single output quantity. Assumed labor avoidability is separate from observed payroll removal. Fractional fleets represent continuous cohort relaxations, not an integer deployment schedule. Annual capital envelopes are assumptions; they do not establish available financing. See [model methods](model/METHODS.md) for exact scope and limitations.\n')
     if summary.exists():
         rows=list(csv.reader(summary.open()))
         if rows:
@@ -133,7 +143,7 @@ In the separate monthly entrant case, delayed incumbent response requires peak f
             for path,digest in packet.get('source_hashes',{}).items():
                 if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
                     raise SystemExit('Stale experiment dependency: '+path)
-        out.append('''## 9. Local experiments: cash settlement and transaction state
+        out.append('''## 10. Local experiments: cash settlement and transaction state
 
 These experiments are separate, deterministic **synthetic software witnesses**. They do not supply empirical coefficients, alter the eight deployment scenarios, or establish a jointly funded physical fleet. The treasury design's full monthly physical integration remains incomplete. The coordination fixture neither imports nor runs RMF/ROS and controls no robot. Their narrow purpose is to make important failure cases reproducible before attempting a larger model or target installation.
 
@@ -200,11 +210,11 @@ The dashboard's joint comparison tables now expose the four branches through **T
 
 The **Evidence fields** panel adds exact recorded geography, system/configuration, embodiment, harness, openness-layer and license selectors. Missing fields can be selected explicitly. A compound geography description remains the source's compound value, and a license label leaves commercial and hardware rights to the full artifact terms. These filters change evidence navigation only; they do not reclassify unknown records or alter scenario populations. Dedicated resource-grade filtering and comprehensive typed joins remain incomplete. See [filter semantics](dashboard/EVIDENCE_FILTERS.md).
 ''')
-    out.append('''## 10. What remains unresolved
+    out.append('''## 11. What remains unresolved
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 
-Workstream K adds ten still-open frontier-model questions, to be integrated into the existing views and common evidence/model structure. No K dossier or architecture result is claimed merely because its scope is registered. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
+Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison is a design with unknown target costs; its numerical implementation and sensitivities remain unfinished. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
 The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.
 ''')

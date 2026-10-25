@@ -1,0 +1,105 @@
+{
+  "architecture_costs_available": false,
+  "as_of": "2026-10-25",
+  "coverage": {
+    "contrasting_dossiers": 4,
+    "gaps": [
+      "China and continental-European model/OEM ecosystems need direct follow-up",
+      "Generalist and Dyna mechanisms are not yet separately audited here",
+      "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
+      "Four-architecture calculation and sensitivities remain unimplemented",
+      "No robot, model training or GPU/hardware workload was run"
+    ],
+    "mapped_actors": 9,
+    "not_exhaustive": true,
+    "rights_cards": 8,
+    "scenario_coefficients_imported": false
+  },
+  "model_benchmark_ranking_available": false,
+  "operating_quantity_boundary": "ARR, recognized revenue and paying-customer count retain their separate denominators; no combined revenue or margin is calculated.",
+  "scenario_inputs_used": false,
+  "schema_version": "frontier-model-summary/1.0",
+  "skild_issuer_reported_quantities": [
+    {
+      "bound": 100000000,
+      "comparison": ">",
+      "denominator": "annual recurring revenue run-rate claim, not cumulative recognized revenue",
+      "epistemic_status": "issuer_reported",
+      "period": "As of 2026-09-10",
+      "population": "Skild company-reported business",
+      "precision_note": "Issuer says crossed $100M; displayed threshold is not an exact audited figure.",
+      "quantity_id": "K-Q-SKILD-ARR",
+      "unit": "USD per year",
+      "value": null,
+      "value_missing_reason": "Issuer reports crossing $100M ARR, not an exact point estimate."
+    },
+    {
+      "denominator": "cumulative recognized revenue, preceding ten months",
+      "epistemic_status": "issuer_reported",
+      "period": "Ten months through 2026-09-10",
+      "population": "Skild company-reported deployments",
+      "quantity_id": "K-Q-SKILD-RECOGNIZED",
+      "unit": "USD",
+      "value": 50000000
+    },
+    {
+      "bound": 60,
+      "comparison": ">=",
+      "denominator": "company-reported customer count",
+      "epistemic_status": "issuer_reported",
+      "period": "As of 2026-09-10",
+      "population": "Skild company-reported business",
+      "quantity_id": "K-Q-SKILD-CUSTOMERS",
+      "unit": "paying customers",
+      "value": null,
+      "value_missing_reason": "Issuer gives 60+, not an exact count."
+    }
+  ],
+  "source_conflicts": [
+    {
+      "conflict_id": "K-C-S1-DATE",
+      "details": "Primary S1 HTML metadata says August 18, 2026 and its timeline says August release; issuer promotion was dated August 25; September 10 issuer text says two weeks earlier and NVIDIA says last week. Do not infer one exact release date or immutable weights from these statements.",
+      "evidence_ids": [
+        "K-E003",
+        "K-E005",
+        "K-E014"
+      ],
+      "status": "unresolved_exact_launch_date"
+    },
+    {
+      "conflict_id": "K-C-VLA-RIGHTS",
+      "details": "Pinned HF card declares checkpoints MIT while pinned code README says base-model conditions apply. Code-layer MIT is documented separately; effective model/deployment rights are not resolved here.",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ],
+      "status": "unresolved_effective_model_terms"
+    }
+  ],
+  "source_hashes": {
+    "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+    "model/frontier_models.py": "c656205668ba2687d4792a32912c7f3127990412cd2360ee2651e46bbbd90ebc"
+  },
+  "status": "bounded_source_synthesis_not_company_valuation",
+  "transaction": {
+    "announcement_date": "2026-04-15",
+    "boundary": "Seller disclosed accounting amounts. Total consideration is not all cash, and seller gain is not buyer/model operating profit. Escrow availability is conditional.",
+    "cash_consideration": 9.0,
+    "checks": {
+      "consideration_components_match": true,
+      "net_assets_components_match": true,
+      "seller_gain_matches": true
+    },
+    "completion_date": "2026-03-27",
+    "equity_fair_value": 9.0,
+    "escrow_fair_value": 2.0,
+    "evidence_ids": [
+      "K-E006"
+    ],
+    "net_assets_sold": 15.0,
+    "seller_gain": 5.0,
+    "status": "source_arithmetic_reproduced",
+    "total_consideration": 20.0,
+    "unit": "USD millions"
+  }
+}

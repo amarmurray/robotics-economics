@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-Version 1.8 · Campaign in progress, 25 October 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
+Version 1.9 · Campaign in progress, 25 October 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 
 [RESEARCH_PROGRAM_DESIGN.md](RESEARCH_PROGRAM_DESIGN.md) defines the program. [WEEK_ONE_RESEARCH_SPEC.md](WEEK_ONE_RESEARCH_SPEC.md) defines the initial report, dashboard, and supporting artifacts. This roadmap supplies the continuing question portfolio. [LLM_ECOSYSTEM_RESEARCH_MODULE.md](LLM_ECOSYSTEM_RESEARCH_MODULE.md) specifies substantial Workstream H. [ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md](ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md) and [QUADRUPED_AND_DRONE_RESEARCH_MODULE.md](QUADRUPED_AND_DRONE_RESEARCH_MODULE.md) specify substantial I/J and their connections to the rest of the program. [FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md](FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md) specifies independent and integrated frontier robotics models as Workstream K.
 
@@ -149,6 +149,12 @@ New, user-authorized Workstream K during the existing campaign. Preserve the ori
 Edition 0.5a implements the accepted annual digital design with sole-agent verification. [The analysis](research/annual_digital_scenarios.md) and six engine-generated counterfactuals now expose changing human alternatives, signed coordination and robot-service costs. Flat paths match all 69,315 earlier numeric fields; current-condition admission, stock continuation, software vintage and cash-model limitations remain explicit. This is a bounded RQ-LLM-10 advance, not empirical calibration or campaign completion.
 
 Edition 0.5 now adds a fresh [physical-requirements/employment crosswalk](research/physical_requirements_crosswalk.md), verified against the original BLS workbooks. Three exact-code joins still have incompatible populations; the Team Assemblers employment match and three selected ORS rows remain missing. No annual-hours or automation share is inferred. Next compare a bounded K model-provider/OEM/open/operator architecture using these requirement boundaries and existing deep cells. Preserve the field-denominator and shared-finance priorities below. The stage-3 commercial extension remains unimplemented, and its described cloud-only design is not a verified local artifact. Use one agent throughout.
+
+## Frontier-model evidence checkpoint
+
+Edition 0.6 integrates [four contrasting K dossiers](research/frontier_models.md), model/release/rights records and a bounded nine-actor role map, including the acquisition counterparty separately. Important revisions are the intervention-dependent S1 metric, Figure's trained-behavior versus held-out-home scope, the OpenVLA license-declaration conflict, and the cash/noncash/date distinctions in the Zebra transaction. The source packet supplies no numerical productivity or cost coefficient.
+
+Immediate next block: implement the conditional four-architecture economic comparison through the common engine. Hold accepted output/quality and configured hardware assumptions consistent; retain human/digital and specialized alternatives. Separate adaptation/training/inference/support resource expenses from model fees and other transfers; test actor consolidation, transfer cancellation, break-even fees and intervention/adaptation sensitivities. Keep source unknowns intact and label any invented inputs synthetic. This is still required work, not a completed scenario. Then extend high-value regional/provider evidence and the ranked field/finance gaps below.
 
 ## Current ranked continuation queue
 

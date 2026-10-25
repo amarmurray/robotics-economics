@@ -9,6 +9,7 @@ python3 -m unittest discover -s tests -v
 python3 scripts/validate_evidence.py
 python3 scripts/extract_physical_requirements.py --check
 python3 scripts/build_physical_requirements.py --check
+python3 scripts/export_frontier_models.py --check
 python3 scripts/export_scenarios.py
 python3 scripts/export_experiments.py
 python3 scripts/export_trajectory.py
@@ -76,3 +77,9 @@ Annual-input browser helpers can be checked with `node tests/test_scenario_io.js
 The unchanged BLS ORS workbook and OEWS national ZIP are preserved under `data/sources/physical_requirements/`. The source manifest records their URLs, release/observation periods and byte hashes. `python3 scripts/extract_physical_requirements.py --check` scans the two worksheets and compares the saved row extraction, including missing keys and footnote codes. The reader uses only Python's standard library; it does not recalculate or modify either workbook. A separate bundled-library comparison was used during review.
 
 `python3 scripts/build_physical_requirements.py --check` verifies the evidence package and observed summary from the extracted rows. To deliberately regenerate reviewed outputs, run both commands without `--check`, then run evidence validation, the scenario exporters and report builder. A source hash change requires source review; do not relabel a different workbook as the accepted snapshot. The dashboard loads this package only through the explicit registry and displays it in the atlas. Changing a synthetic scenario does not change the observed requirements. Missing occupation matches, unavailable values and threshold footnotes remain distinct. No physical-hours or robot-addressability calculation is performed.
+
+## Reproduce frontier-model source boundaries
+
+`data/frontier_model_economics.json` contains the accepted primary-source claims, actor/model/rights records, four dossiers and unpriced architecture alternatives. Code and model-card revisions are pinned separately; public model weights and GPU/robot workloads were not executed. `python3 scripts/export_frontier_models.py --check` validates actor/relationship joins, rights uncertainty and explicit absent costs, then reproduces Zebra's seller-disclosure arithmetic. Run without `--check` only to regenerate the reviewed summary, followed by scenario exports and the report builder. The report and local API consume this same source summary.
+
+The helper never adds ARR to cumulative recognized revenue, treats equity/escrow as cash, or ranks incompatible benchmark scores. Evidence filters navigate the new records within the existing thirteen views. Provider roles, model/rights cards and the observed transaction are separate from synthetic scenario controls. The four-architecture economic calculator is a next task, not an already implemented feature.

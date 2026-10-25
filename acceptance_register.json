@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "campaign_in_progress_annual_and_physical_crosswalk_0.5",
+  "edition_status": "campaign_in_progress_frontier_model_evidence_0.6",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1276,54 +1276,66 @@
       "section": "3. Breadth and depth requirements",
       "subsection": "Late-added frontier robotics-model and economic layer",
       "requirement": "Dated frontier model/OEM/open ecosystem roster with explicit coverage gaps.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
-        "data/question_ledger.json"
+        "data/question_ledger.json",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "model/frontier_models.py",
+        "reviews/frontier_models_review.md"
       ],
       "validation": {
-        "review": "reviews/annual_trajectory_review.md",
-        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+        "review": "reviews/frontier_models_review.md",
+        "finding": "Dated nine-actor role map includes eight model/ecosystem actors and Zebra as transaction counterparty. Regional gaps remain explicit; no market census or share is claimed."
       },
-      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
-      "next_action": "Investigate RQ-FM-01/06/07 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+      "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
+      "next_action": "Use the accepted source boundaries in the conditional architecture calculation and expand consequential regional/field evidence."
     },
     {
       "requirement_id": "W1-K-DOSSIERS",
       "section": "3. Breadth and depth requirements",
       "subsection": "Late-added frontier robotics-model and economic layer",
       "requirement": "Three contrasting frontier-model dossiers including Physical Intelligence and Skild AI.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
-        "data/question_ledger.json"
+        "data/question_ledger.json",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "model/frontier_models.py",
+        "reviews/frontier_models_review.md"
       ],
       "validation": {
-        "review": "reviews/annual_trajectory_review.md",
-        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+        "review": "reviews/frontier_models_review.md",
+        "finding": "Four substantial contrasting dossiers cover Pi, Skild, Figure and OpenVLA, with source-specific economic mechanisms and missing terms."
       },
-      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
-      "next_action": "Investigate RQ-FM-01/02/05 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+      "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
+      "next_action": "Use the accepted source boundaries in the conditional architecture calculation and expand consequential regional/field evidence."
     },
     {
       "requirement_id": "W1-K-CARDS",
       "section": "3. Breadth and depth requirements",
       "subsection": "Late-added frontier robotics-model and economic layer",
       "requirement": "Linked release, configured deployment and artifact/data-rights cards; preserve training, onboard and inference distinctions.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
-        "data/question_ledger.json"
+        "data/question_ledger.json",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "model/frontier_models.py",
+        "reviews/frontier_models_review.md"
       ],
       "validation": {
-        "review": "reviews/annual_trajectory_review.md",
-        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+        "review": "reviews/frontier_models_review.md",
+        "finding": "Six model/release records and eight artifact-rights cards preserve exact pins where available, unknown configurations/contracts and the unresolved OpenVLA rights declarations."
       },
-      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
-      "next_action": "Investigate RQ-FM-02/04/07/09 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+      "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
+      "next_action": "Use the accepted source boundaries in the conditional architecture calculation and expand consequential regional/field evidence."
     },
     {
       "requirement_id": "W1-K-ARCHITECTURES",
@@ -1334,38 +1346,46 @@
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
-        "data/question_ledger.json"
+        "data/question_ledger.json",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "model/frontier_models.py",
+        "reviews/frontier_models_review.md"
       ],
       "validation": {
-        "review": "reviews/annual_trajectory_review.md",
-        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+        "review": "reviews/frontier_models_review.md",
+        "finding": "Four matched-service alternatives are designed, with unknown compatibility and costs. No numerical architecture scenario or sensitivity is implemented."
       },
-      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
-      "next_action": "Investigate RQ-FM-03/05/08 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+      "gap": "Target compatibility and costs are unknown; the conditional resource-and-transfer model and sensitivity checks remain unimplemented.",
+      "next_action": "Implement the shared-engine conditional comparison, with source unknowns kept separate from labeled assumptions and model fees separated from resource consumption."
     },
     {
       "requirement_id": "W1-K-IMPLICATIONS",
       "section": "3. Breadth and depth requirements",
       "subsection": "Late-added frontier robotics-model and economic layer",
       "requirement": "At least three evidence-backed changes to existing workstream questions or strategic conclusions; join findings into the existing thirteen views.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
-        "data/question_ledger.json"
+        "data/question_ledger.json",
+        "research/frontier_models.md",
+        "data/frontier_model_economics.json",
+        "model/frontier_models.py",
+        "reviews/frontier_models_review.md"
       ],
       "validation": {
-        "review": "reviews/annual_trajectory_review.md",
-        "finding": "Accepted scope and open questions are registered; substantive K deliverables have not been completed or empirically verified. Conditional late-addition target, subject to remaining evidence/resources."
+        "review": "reviews/frontier_models_review.md",
+        "finding": "Five explicit implications connect metric boundaries, data reuse, control/compute placement, organization/value capture and effective outside options to A–J; records are joined to existing views."
       },
-      "gap": "K research remains OPEN. Scope registration and related synthetic annual paths do not satisfy this output.",
-      "next_action": "Investigate RQ-FM-10 with one agent, retaining release/field/rights/cost distinctions and existing validated work."
+      "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
+      "next_action": "Use the accepted source boundaries in the conditional architecture calculation and expand consequential regional/field evidence."
     }
   ],
   "status_counts": {
-    "met": 48,
-    "partial": 21,
+    "met": 52,
+    "partial": 17,
     "unmet": 0
   },
-  "publication_cutoff_note": "Original campaign ongoing. Annual paths and new BLS crosswalk verified by the sole lead. Five conditional K targets remain research-OPEN; national physical-hour and integrated company finance gaps remain. Publication receipts are local."
+  "publication_cutoff_note": "Original campaign ongoing. K source/role/dossier/card/implication artifact targets are bounded met; quantitative architecture economics remain partial. Review is sole-lead; publication receipts are local."
 }

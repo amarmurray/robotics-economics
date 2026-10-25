@@ -1,0 +1,1176 @@
+{
+  "schema_version": "frontier-model-economics/1.0",
+  "as_of": "2026-10-25",
+  "status": "bounded_primary_source_research",
+  "evidence": [
+    {
+      "evidence_id": "K-E001",
+      "claim": "Pi announced a beta workflow for uploaded demonstrations, Pi-managed fine-tuning and hosted inference. The post leaves the latest served checkpoint unnamed and reports connectivity challenges in some early applications.",
+      "urls": [
+        "https://www.pi.website/blog/api-beta"
+      ],
+      "publisher": "Physical Intelligence",
+      "publication_date": "2026-10-13",
+      "observation_period": "Early beta collaborations described on 2026-10-13",
+      "retrieved_at": "2026-10-25",
+      "locator": "API workflow; early-access examples; cloud-hosted inference paragraph",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_product_and_partner_claim",
+      "limitations": "Selected examples are not a compatible-hardware guarantee, SLA, support-cost denominator or complete commercial agreement. Unoccupied cabs do not establish zero remote human support."
+    },
+    {
+      "evidence_id": "K-E002",
+      "claim": "Pinned openpi provides pi0, pi0-FAST and pi0.5 checkpoint locators, platform examples and remote-inference code. The repository LICENSE is Apache-2.0. Its README estimates different GPU-memory needs for inference and fine-tuning.",
+      "urls": [
+        "https://github.com/Physical-Intelligence/openpi/blob/215abfb217dbac7d5f1273282331b9b1866c0479/README.md",
+        "https://github.com/Physical-Intelligence/openpi/blob/215abfb217dbac7d5f1273282331b9b1866c0479/LICENSE"
+      ],
+      "publisher": "Physical Intelligence",
+      "publication_date": null,
+      "observation_period": "Pinned source inspected 2026-10-25; README updates include September 2025",
+      "retrieved_at": "2026-10-25",
+      "locator": "README Requirements, Model Checkpoints and Remote Inference; LICENSE",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_source_and_maintainer_estimate",
+      "limitations": "Repository code, externally hosted weights, training-data rights and the separate hosted beta contract are distinct. GPU-memory guidance is not onboard power/latency or accepted-output qualification; no model was run. The pinned README lists PyTorch LoRA and pi0-FAST support as unavailable; the general requirements table is not proof of every framework feature.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-PI-INFERENCE-MEMORY",
+          "value": null,
+          "unit": "GB GPU memory",
+          "denominator": "single-GPU repository inference estimate",
+          "population": "openpi reference software modes",
+          "period": "Pinned README as of 2026-10-25",
+          "epistemic_status": "maintainer_estimate",
+          "value_missing_reason": "Published lower bound, not an exact memory requirement.",
+          "comparison": ">",
+          "bound": 8
+        },
+        {
+          "quantity_id": "K-Q-PI-LORA-MEMORY",
+          "value": null,
+          "unit": "GB GPU memory",
+          "denominator": "single-GPU repository LoRA fine-tuning estimate",
+          "population": "openpi reference software modes",
+          "period": "Pinned README as of 2026-10-25",
+          "epistemic_status": "maintainer_estimate",
+          "value_missing_reason": "Published lower bound, not an exact memory requirement.",
+          "comparison": ">",
+          "bound": 22.5
+        },
+        {
+          "quantity_id": "K-Q-PI-FULL-MEMORY",
+          "value": null,
+          "unit": "GB GPU memory",
+          "denominator": "single-GPU repository full fine-tuning estimate",
+          "population": "openpi reference software modes",
+          "period": "Pinned README as of 2026-10-25",
+          "epistemic_status": "maintainer_estimate",
+          "value_missing_reason": "Published lower bound, not an exact memory requirement.",
+          "comparison": ">",
+          "bound": 70
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E003",
+      "claim": "S1 compares video-context and language-conditioned policies in author-reported internal studies. The 66% versus 9% unseen-task result is an average cumulative per-step score with human recovery during evaluation, not an autonomous whole-task completion rate.",
+      "urls": [
+        "https://www.skild.ai/blogs/s1"
+      ],
+      "publisher": "Skild AI",
+      "publication_date": "2026-08-18",
+      "observation_period": "S1 study described in August 2026; exact public launch timing differs across sources",
+      "retrieved_at": "2026-10-25",
+      "locator": "ICL scaling laws; internal benchmark and intervention description; article:published_time metadata",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_internal_evaluation",
+      "limitations": "Source states matched data/architecture except prompt embedding/compute; full immutable run manifests and target service-cost denominators were not supplied. No universal scaling exponent or fleet productivity coefficient is inferred.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-S1-ICL",
+          "value": 66,
+          "unit": "percent",
+          "denominator": "author-described average cumulative per-step success with recovery interventions",
+          "population": "Internal unseen-task benchmark, 100k-hour training condition",
+          "period": "S1 August 2026 study",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-S1-LANGUAGE",
+          "value": 9,
+          "unit": "percent",
+          "denominator": "same cumulative per-step evaluation boundary",
+          "population": "Internal unseen-task language-conditioned baseline, 100k-hour training condition",
+          "period": "S1 August 2026 study",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E004",
+      "claim": "S1 describes roughly 380 post-training demonstrations as an interpolated crossing with its one-video prompting reference. It also reports that sufficiently extensive post-training exceeds that reference; prompting does not eliminate pretraining, scene preparation, validation or production support.",
+      "urls": [
+        "https://www.skild.ai/blogs/s1"
+      ],
+      "publisher": "Skild AI",
+      "publication_date": "2026-08-18",
+      "observation_period": "Internal demonstration-efficiency comparison in S1 post",
+      "retrieved_at": "2026-10-25",
+      "locator": "ICL demonstration efficiency; plant-potting timeline; Data Engine",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_internal_comparison",
+      "limitations": "The crossing is approximate and task-specific. Collection-hours claims are not a full adaptation-cost or time-to-qualified-service measurement; exact public release date remains unresolved across metadata and relative announcements."
+    },
+    {
+      "evidence_id": "K-E005",
+      "claim": "Skild reported more than $100 million ARR, $50 million recognized revenue since deployments began ten months earlier, and 60+ paying customers. It separately described deployed work, work towards deployment and pilots in different customer examples.",
+      "urls": [
+        "https://skild.ai/blogs/skild-crosses-100m-arr"
+      ],
+      "publisher": "Skild AI",
+      "publication_date": "2026-09-10",
+      "observation_period": "As of 2026-09-10; recognized revenue over preceding ten-month deployment period",
+      "retrieved_at": "2026-10-25",
+      "locator": "Opening operating claims and NVIDIA/Foxconn, Sumitomo and Mitsui examples",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_financial_and_deployment_claim",
+      "limitations": "ARR and cumulative recognized revenue have different time bases and are not additive. No audited margin, retention, installed-unit count or complete accepted-output/support ledger is established.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-SKILD-ARR",
+          "value": null,
+          "unit": "USD per year",
+          "denominator": "annual recurring revenue run-rate claim, not cumulative recognized revenue",
+          "population": "Skild company-reported business",
+          "period": "As of 2026-09-10",
+          "epistemic_status": "issuer_reported",
+          "comparison": ">",
+          "precision_note": "Issuer says crossed $100M; displayed threshold is not an exact audited figure.",
+          "bound": 100000000,
+          "value_missing_reason": "Issuer reports crossing $100M ARR, not an exact point estimate."
+        },
+        {
+          "quantity_id": "K-Q-SKILD-RECOGNIZED",
+          "value": 50000000,
+          "unit": "USD",
+          "denominator": "cumulative recognized revenue, preceding ten months",
+          "population": "Skild company-reported deployments",
+          "period": "Ten months through 2026-09-10",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-SKILD-CUSTOMERS",
+          "value": null,
+          "unit": "paying customers",
+          "denominator": "company-reported customer count",
+          "population": "Skild company-reported business",
+          "period": "As of 2026-09-10",
+          "epistemic_status": "issuer_reported",
+          "value_missing_reason": "Issuer gives 60+, not an exact count.",
+          "comparison": ">=",
+          "bound": 60
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E006",
+      "claim": "Zebra disclosed completion of its robotics-automation sale to Skild on March 27, 2026. Its filing reports $20 million consideration comprising $9 million cash, $9 million fair value of a long-term investment and $2 million fair value of indemnification escrow. The joint announcement was April 15.",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/zbra-20260404.htm",
+        "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/skild-ai-acquires-zebra-technologies--robotics-automation-busine.html"
+      ],
+      "publisher": "Zebra Technologies",
+      "publication_date": null,
+      "observation_period": "Transaction completed 2026-03-27; quarter ended 2026-04-04; announcement 2026-04-15",
+      "retrieved_at": "2026-10-25",
+      "locator": "Note 7, Robotics automation; consideration/net-assets table and minority-stake/escrow paragraph; joint announcement",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "company_filing_transaction_disclosure",
+      "limitations": "These are seller accounting disclosures in USD millions, not Skild operating margin or a $20 million all-cash purchase. Equity fair value is not cash available for robot deployment; the escrow is conditional.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-ZBRA-CASH",
+          "value": 9,
+          "unit": "USD millions",
+          "denominator": "Cash consideration",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-EQUITY",
+          "value": 9,
+          "unit": "USD millions",
+          "denominator": "Fair value of long-term investment",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-ESCROW",
+          "value": 2,
+          "unit": "USD millions",
+          "denominator": "Fair value of indemnification escrow",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-TOTAL",
+          "value": 20,
+          "unit": "USD millions",
+          "denominator": "Reported total consideration",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-GOODWILL",
+          "value": 6,
+          "unit": "USD millions",
+          "denominator": "Allocated goodwill sold",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-TECHNOLOGY",
+          "value": 3,
+          "unit": "USD millions",
+          "denominator": "Identifiable intangible technology sold",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-INVENTORY",
+          "value": 3,
+          "unit": "USD millions",
+          "denominator": "Inventories sold",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-OTHER-NET-ASSETS",
+          "value": 3,
+          "unit": "USD millions",
+          "denominator": "Other net assets sold",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-NET-ASSETS",
+          "value": 15,
+          "unit": "USD millions",
+          "denominator": "Reported net assets sold",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        },
+        {
+          "quantity_id": "K-Q-ZBRA-GAIN",
+          "value": 5,
+          "unit": "USD millions",
+          "denominator": "Reported seller net gain",
+          "population": "Zebra sale of robotics-automation business to Skild",
+          "period": "Completion 2026-03-27, Q1 ended 2026-04-04",
+          "epistemic_status": "company_filing_reported_amount"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E007",
+      "claim": "Helix 2.5 reports 56% versus 9% whole-task success in unseen homes for Index-pretrained versus scratch policies, with task-specific data and other stated conditions held fixed. Each of three behaviors has its own fixed checkpoint; zero-shot describes the evaluation homes and objects.",
+      "urls": [
+        "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+      ],
+      "publisher": "Figure",
+      "publication_date": "2026-09-17",
+      "observation_period": "Publisher-run three-behavior evaluation across 30 Bay Area homes",
+      "retrieved_at": "2026-10-25",
+      "locator": "Index pretraining comparison; Evaluating Three Whole-Body Behaviors; Detailed Eval Criteria",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "vendor_reported_physical_evaluation",
+      "limitations": "Task-specific training occurred elsewhere. Safety intervention aborts and fails a rollout. Rounded percentages are not matched to S1 per-step scores; an industrial production population, total operating cost and exact configured hardware revision are not established.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-FIG-INDEX",
+          "value": 56,
+          "unit": "percent",
+          "denominator": "whole-task completion; safety intervention aborts/fails trial",
+          "population": "Figure three-behavior held-out-home evaluation",
+          "period": "2026-09-17 report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-FIG-SCRATCH",
+          "value": 9,
+          "unit": "percent",
+          "denominator": "whole-task completion under same stated evaluation conditions",
+          "population": "Figure scratch-policy comparator",
+          "period": "2026-09-17 report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-FIG-HOMES",
+          "value": 30,
+          "unit": "homes",
+          "denominator": "unseen Bay Area evaluation environments",
+          "population": "Figure company-run evaluation",
+          "period": "2026-09-17 report",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E008",
+      "claim": "Figure reports a data-only transfer-loss study using four runs over an eightfold pretraining-data range, with model size and downstream training held fixed. It separately reports a compute commitment and a rate of human-experience collection.",
+      "urls": [
+        "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+      ],
+      "publisher": "Figure",
+      "publication_date": "2026-09-17",
+      "observation_period": "Helix 2.5 study and company input claims as described 2026-09-17",
+      "retrieved_at": "2026-10-25",
+      "locator": "Human-to-Humanoid Robot Transfer Scaling Law; Its Time to Scale Up",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "vendor_reported_scaling_and_input_claim",
+      "limitations": "Held-out action-prediction loss, whole-task success, collection volume and economic output are different quantities. A commitment is not expenditure or delivered compute; no universal capability or cost-learning exponent is inferred.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-FIG-DATA-RANGE",
+          "value": 8,
+          "unit": "fold",
+          "denominator": "largest/smallest nested human-pretraining data subset",
+          "population": "Four Figure data-scaling runs with fixed model size and downstream training",
+          "period": "2026-09-17 report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-FIG-COMMITMENT",
+          "value": 3500000000,
+          "unit": "USD",
+          "denominator": "reported compute commitment, not expenditure or delivered capacity",
+          "population": "Figure company-reported Helix input commitment",
+          "period": "As stated 2026-09-17",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E009",
+      "claim": "Pinned OpenVLA code supplies a model-serving interface, robot/dataset-specific action unnormalization and adaptation/evaluation examples. Its code license is MIT; its README explicitly notes inherited Llama-2-related model restrictions.",
+      "urls": [
+        "https://github.com/openvla/openvla/blob/c8f03f48af692657d3060c19588038c7220e9af9/README.md",
+        "https://github.com/openvla/openvla/blob/c8f03f48af692657d3060c19588038c7220e9af9/LICENSE"
+      ],
+      "publisher": "OpenVLA maintainers",
+      "publication_date": null,
+      "observation_period": "Pinned repository inspected 2026-10-25; original release 2024-06-13",
+      "retrieved_at": "2026-10-25",
+      "locator": "Getting Started; Explicit Notes on Model Licensing & Commercial Use; LIBERO evaluation and troubleshooting",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_repository_contract",
+      "limitations": "Published instructions were not executed. A REST policy server is not an industrial safety/controller/enterprise system. Library examples and simulation results do not establish field service economics.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained."
+    },
+    {
+      "evidence_id": "K-E010",
+      "claim": "The pinned OpenVLA-7B model card labels checkpoints MIT and identifies Llama-2 ancestry, while the pinned repository README warns of inherited Llama Community License conditions. The card excludes zero-shot use on unseen embodiments/setups and prescribes adaptation for those cases.",
+      "urls": [
+        "https://huggingface.co/openvla/openvla-7b/blob/47a0ec7fc4ec123775a391911046cf33cf9ed83f/README.md",
+        "https://huggingface.co/openvla/openvla-7b/blob/47a0ec7fc4ec123775a391911046cf33cf9ed83f/config.json",
+        "https://github.com/openvla/openvla/blob/c8f03f48af692657d3060c19588038c7220e9af9/README.md"
+      ],
+      "publisher": "OpenVLA maintainers",
+      "publication_date": null,
+      "observation_period": "Hugging Face revision 47a0ec7fc4ec123775a391911046cf33cf9ed83f, last-modified metadata 2026-02-17",
+      "retrieved_at": "2026-10-25",
+      "locator": "Model card license metadata, Model Summary and Uses/Out-of-Scope; config llm_backbone_id; repository licensing note",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_conflicting_artifact_declarations",
+      "limitations": "Commercial-use rights remain unresolved in this study; neither a metadata tag nor a repository code license is used as a blanket permission for model weights or component datasets. No weights were downloaded or executed.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained."
+    },
+    {
+      "evidence_id": "K-E011",
+      "claim": "FieldAI describes a form-factor-specific dynamics layer, a risk-aware mission layer and a multi-robot coordination layer, and claims a local autonomy stack without required external compute or connectivity.",
+      "urls": [
+        "https://www.fieldai.com/technology"
+      ],
+      "publisher": "FieldAI",
+      "publication_date": null,
+      "observation_period": "Live technology page inspected 2026-10-25",
+      "retrieved_at": "2026-10-25",
+      "locator": "One intelligence, three layers; Data and compute efficient",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_architecture_claim",
+      "limitations": "Specific release/configuration, latency, power, field reliability and economic denominators were not established from this page. Universal-brain positioning does not remove body-specific integration.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained."
+    },
+    {
+      "evidence_id": "K-E012",
+      "claim": "RLWRLD positions RLDX as an industrial dexterity model using factory skill data and fine-tuning across embodiments, with offices and customer-partnership positioning spanning Korea, Japan and the United States.",
+      "urls": [
+        "https://www.rlwrld.ai/en/company"
+      ],
+      "publisher": "RLWRLD",
+      "publication_date": null,
+      "observation_period": "Live company page inspected 2026-10-25",
+      "retrieved_at": "2026-10-25",
+      "locator": "Company principles, RLDX and office listings",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_role_and_product_claim",
+      "limitations": "No capacity or customer count is inferred from animated counters captured as zero. Unsourced labor-share statements are excluded from the economic atlas. Contract/data rights and production outcomes remain unverified.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained."
+    },
+    {
+      "evidence_id": "K-E013",
+      "claim": "DeepMind distinguishes Gemini Robotics 2 VLA control, Robotics ER 2 embodied reasoning and Robotics On-Device 2 local VLA roles; the reviewed page directs prospective testers to a waitlist.",
+      "urls": [
+        "https://deepmind.google/models/gemini-robotics/"
+      ],
+      "publisher": "Google DeepMind",
+      "publication_date": null,
+      "observation_period": "Live models page inspected 2026-10-25",
+      "retrieved_at": "2026-10-25",
+      "locator": "Models and Research partners sections",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_product_and_access_description",
+      "limitations": "A live product page is not an immutable executable release or a compatible-hardware/SLA matrix. Model roles, access and on-device claims do not establish end-to-end organizational autonomy.",
+      "publication_date_missing_reason": "Exact publication date not verified for this pinned artifact or live page; retrieval date and source/version identity are retained."
+    },
+    {
+      "evidence_id": "K-E014",
+      "claim": "NVIDIA describes its training, simulation and deployment collaboration with Skild using NVIDIA infrastructure and tools, while repeating S1/company performance claims. Its September 10 article dates the launch relatively, differently from the S1 page metadata.",
+      "urls": [
+        "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
+      ],
+      "publisher": "NVIDIA",
+      "publication_date": "2026-09-10",
+      "observation_period": "Partner article published 2026-09-10",
+      "retrieved_at": "2026-10-25",
+      "locator": "Opening paragraphs; Learning New Work From One Video; From Research to Factory Work",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "supplier_partner_description",
+      "limitations": "Partner repetition is not an independent performance or revenue audit. Training, simulation and serving resources stay separate from qualified robot hardware; the exact S1 public launch date is not resolved by relative wording."
+    }
+  ],
+  "model_labs": [
+    {
+      "actor_id": "K-A-PI",
+      "label": "Physical Intelligence",
+      "roles": [
+        "independent_model_lab",
+        "hosted_adaptation_and_inference",
+        "public_research_code_and_checkpoints"
+      ],
+      "geography": "US; reviewed beta describes partner examples in US, Japan and Switzerland",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E001",
+        "K-E002"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: independent model lab, hosted adaptation and inference, public research code and checkpoints. US; reviewed beta describes partner examples in US, Japan and Switzerland."
+    },
+    {
+      "actor_id": "K-A-SKILD",
+      "label": "Skild AI",
+      "roles": [
+        "model_lab",
+        "deployment_and_integration",
+        "acquired_AMR_and_orchestration_business"
+      ],
+      "geography": "US; issuer describes Japan manufacturing/kitchen relationships",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E003",
+        "K-E005",
+        "K-E006"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: model lab, deployment and integration, acquired AMR and orchestration business. US; issuer describes Japan manufacturing/kitchen relationships."
+    },
+    {
+      "actor_id": "K-A-FIGURE",
+      "label": "Figure",
+      "roles": [
+        "integrated_robot_OEM",
+        "in_house_model_and_data"
+      ],
+      "geography": "US; held-out-home study is Bay Area",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E007",
+        "K-E008"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: integrated robot OEM, in house model and data. US; held-out-home study is Bay Area."
+    },
+    {
+      "actor_id": "K-A-OPENVLA",
+      "label": "OpenVLA research collaboration",
+      "roles": [
+        "open_policy_research",
+        "code_and_model_artifacts"
+      ],
+      "geography": "Research collaboration; no commercial deployment footprint inferred",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: open policy research, code and model artifacts. Research collaboration; no commercial deployment footprint inferred."
+    },
+    {
+      "actor_id": "K-A-FIELDAI",
+      "label": "FieldAI",
+      "roles": [
+        "field_autonomy_model_and_stack",
+        "deployment_integration"
+      ],
+      "geography": "Geography not established by reviewed technology page",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E011"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: field autonomy model and stack, deployment integration. Geography not established by reviewed technology page."
+    },
+    {
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLWRLD",
+      "roles": [
+        "industrial_dexterity_model_lab",
+        "factory_data_partnerships"
+      ],
+      "geography": "Korea, Japan and US office locations disclosed",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E012"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: industrial dexterity model lab, factory data partnerships. Korea, Japan and US office locations disclosed."
+    },
+    {
+      "actor_id": "K-A-DEEPMIND",
+      "label": "Google DeepMind",
+      "roles": [
+        "model_lab",
+        "VLA_and_embodied_reasoning",
+        "on_device_model"
+      ],
+      "geography": "Global product positioning; no deployment geography census",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E013"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: model lab, VLA and embodied reasoning, on device model. Global product positioning; no deployment geography census."
+    },
+    {
+      "actor_id": "K-A-NVIDIA",
+      "label": "NVIDIA",
+      "roles": [
+        "compute_supplier",
+        "training_simulation_and_deployment_platform",
+        "model_ecosystem_complement"
+      ],
+      "geography": "Global platform/input role; no robot deployment total inferred",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E014",
+        "OWQ-E01"
+      ],
+      "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
+      "summary": "Roles: compute supplier, training simulation and deployment platform, model ecosystem complement. Global platform/input role; no robot deployment total inferred."
+    },
+    {
+      "actor_id": "K-A-ZEBRA",
+      "label": "Zebra Technologies",
+      "roles": [
+        "robotics_business_seller",
+        "minority_equity_recipient_at_transaction_close"
+      ],
+      "geography": "US filing/transaction counterparty; wider footprint not mapped",
+      "status": "dated_transaction_counterparty",
+      "summary": "Seller of the robotics automation business; received cash, equity investment and conditional escrow consideration at closing. Not counted as another model supplier or deployment.",
+      "evidence_ids": [
+        "K-E006"
+      ],
+      "economic_boundary": "Transaction role as of March 27, 2026; current stake percentage and later ownership changes are not established."
+    }
+  ],
+  "frontier_models": [
+    {
+      "model_id": "K-M-PI-API-20261013",
+      "actor_id": "K-A-PI",
+      "label": "Pi API beta (latest served checkpoint unnamed)",
+      "release_or_version": "Beta announced 2026-10-13; exact hosted checkpoint unknown",
+      "interface": "Uploaded data to managed fine-tuning; hosted inference gateway",
+      "embodiment": "Several issuer partner applications; no verified compatibility matrix",
+      "model_revision": null,
+      "model_revision_missing_reason": "Launch post does not name an immutable served checkpoint.",
+      "status": "beta_issuer_examples",
+      "evidence_ids": [
+        "K-E001"
+      ],
+      "related_system_ids": [
+        "SYS-PI05-MOBILE",
+        "SYS-PI06-RECAP"
+      ],
+      "relationship_limit": "Related Pi research systems only; not equated with the beta checkpoint or its compatibility.",
+      "summary": "Uploaded data to managed fine-tuning; hosted inference gateway. Configuration boundary: Several issuer partner applications; no verified compatibility matrix."
+    },
+    {
+      "model_id": "K-M-PI05-OPEN",
+      "actor_id": "K-A-PI",
+      "label": "openpi pi0.5 base and platform examples",
+      "release_or_version": "openpi repository 215abfb217dbac7d5f1273282331b9b1866c0479",
+      "interface": "Robot-specific transforms, normalization and optional remote websocket policy serving",
+      "embodiment": "Published ALOHA/DROID/UR5 examples; actual setup transfer unverified here",
+      "model_revision": "Public checkpoint locators; checkpoint bytes not downloaded",
+      "status": "source_inspected_not_executed",
+      "evidence_ids": [
+        "K-E002",
+        "CAP-E021"
+      ],
+      "summary": "Robot-specific transforms, normalization and optional remote websocket policy serving. Configuration boundary: Published ALOHA/DROID/UR5 examples; actual setup transfer unverified here."
+    },
+    {
+      "model_id": "K-M-SKILD-S1",
+      "actor_id": "K-A-SKILD",
+      "label": "Skild S1",
+      "release_or_version": "S1; August 2026 source timeline, exact public launch date unresolved",
+      "interface": "Video demonstration in context to robot actions; production terms/harness unspecified",
+      "embodiment": "Issuer manipulation/locomotion claims; no complete qualified configuration matrix",
+      "model_revision": null,
+      "model_revision_missing_reason": "No immutable public checkpoint/harness pin established.",
+      "status": "issuer_evaluation_and_deployment_claims",
+      "evidence_ids": [
+        "K-E003",
+        "K-E004",
+        "K-E005",
+        "K-E014"
+      ],
+      "summary": "Video demonstration in context to robot actions; production terms/harness unspecified. Configuration boundary: Issuer manipulation/locomotion claims; no complete qualified configuration matrix."
+    },
+    {
+      "model_id": "K-M-HELIX25",
+      "actor_id": "K-A-FIGURE",
+      "label": "Helix 2.5",
+      "release_or_version": "2026-09-17 release; one fixed checkpoint per evaluated behavior",
+      "interface": "Whole-body policy inside Figure system; outside-OEM interface/terms unknown",
+      "embodiment": "Figure humanoid; exact hardware revision not established by inspected article",
+      "model_revision": null,
+      "model_revision_missing_reason": "Exact executable weights/harness not released in the inspected material.",
+      "status": "vendor_physical_evaluation",
+      "evidence_ids": [
+        "K-E007",
+        "K-E008"
+      ],
+      "related_system_ids": [
+        "SYS-FIGURE-02",
+        "SYS-FIGURE-03"
+      ],
+      "relationship_limit": "Existing Figure system records are related OEM context, not proof of this evaluation hardware identity.",
+      "summary": "Whole-body policy inside Figure system; outside-OEM interface/terms unknown. Configuration boundary: Figure humanoid; exact hardware revision not established by inspected article."
+    },
+    {
+      "model_id": "K-M-OPENVLA7B",
+      "actor_id": "K-A-OPENVLA",
+      "label": "OpenVLA-7B",
+      "release_or_version": "Model-card revision 47a0ec7fc4ec123775a391911046cf33cf9ed83f; code revision c8f03f48af692657d3060c19588038c7220e9af9",
+      "interface": "Image/language to normalized 7-DoF end-effector deltas plus per-robot/dataset unnormalization",
+      "embodiment": "Specific seen embodiment/domain combinations; unseen setups require adaptation according to model card",
+      "model_revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+      "status": "metadata_and_code_inspected_not_executed",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ],
+      "summary": "Image/language to normalized 7-DoF end-effector deltas plus per-robot/dataset unnormalization. Configuration boundary: Specific seen embodiment/domain combinations; unseen setups require adaptation according to model card."
+    },
+    {
+      "model_id": "K-M-GEMINI-ROBOTICS2",
+      "actor_id": "K-A-DEEPMIND",
+      "label": "Gemini Robotics 2 / ER 2 / On-Device 2",
+      "release_or_version": "Live page as retrieved 2026-10-25; immutable artifacts not inspected",
+      "interface": "VLA control, embodied reasoning and local VLA are separate roles",
+      "embodiment": "Publisher claims bi-arm/humanoid/multi-robot use; complete compatibility and support terms unknown",
+      "model_revision": null,
+      "model_revision_missing_reason": "Live product description and waitlist do not pin an executable model.",
+      "status": "issuer_product_description",
+      "evidence_ids": [
+        "K-E013"
+      ],
+      "summary": "VLA control, embodied reasoning and local VLA are separate roles. Configuration boundary: Publisher claims bi-arm/humanoid/multi-robot use; complete compatibility and support terms unknown."
+    }
+  ],
+  "model_rights_cards": [
+    {
+      "artifact_id": "K-R-PI-CODE",
+      "actor_id": "K-A-PI",
+      "openness_layer": "repository_code",
+      "license": "Apache-2.0",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "commercial_use_resolved_missing_reason": "Only this code-layer license was inspected; complete deployed-system rights not assessed.",
+      "label": "Physical Intelligence: repository code",
+      "status": "documented",
+      "limitations": "Applies to inspected repository code; not a finding about every external weight, dataset or beta contract.",
+      "evidence_ids": [
+        "K-E002"
+      ]
+    },
+    {
+      "artifact_id": "K-R-PI-BETA",
+      "actor_id": "K-A-PI",
+      "openness_layer": "hosted_model_and_customer_data",
+      "license": null,
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "Physical Intelligence: hosted model and customer data",
+      "status": "unknown",
+      "limitations": "No complete commercial, reuse, retention, fine-tune ownership or service agreement was established from the beta announcement.",
+      "evidence_ids": [
+        "K-E001"
+      ],
+      "license_missing_reason": "No complete commercial, reuse, retention, fine-tune ownership or service agreement was established from the beta announcement."
+    },
+    {
+      "artifact_id": "K-R-PI-WEIGHTS",
+      "actor_id": "K-A-PI",
+      "openness_layer": "external_checkpoint_weights",
+      "license": null,
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "Physical Intelligence: external checkpoint weights",
+      "status": "unknown",
+      "limitations": "Published GCS checkpoint locators are separate artifacts; effective weight/data commercial terms not independently resolved here.",
+      "evidence_ids": [
+        "K-E002"
+      ],
+      "license_missing_reason": "Published GCS checkpoint locators are separate artifacts; effective weight/data commercial terms not independently resolved here."
+    },
+    {
+      "artifact_id": "K-R-VLA-CODE",
+      "actor_id": "K-A-OPENVLA",
+      "openness_layer": "repository_code",
+      "license": "MIT",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "commercial_use_resolved_missing_reason": "Only this code-layer license was inspected; complete deployed-system rights not assessed.",
+      "label": "OpenVLA research collaboration: repository code",
+      "status": "documented",
+      "limitations": "Code license does not settle the base-model or training-dataset rights.",
+      "evidence_ids": [
+        "K-E009"
+      ]
+    },
+    {
+      "artifact_id": "K-R-VLA-WEIGHTS",
+      "actor_id": "K-A-OPENVLA",
+      "openness_layer": "model_weights",
+      "license": "Conflicting declarations: MIT model card; inherited Llama Community License note in README",
+      "rights_status": "conflicting",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "OpenVLA research collaboration: model weights",
+      "status": "conflicting",
+      "limitations": "Preserve both pinned declarations. Commercial-use rights are unresolved in this study; do not choose a permissive metadata label as a complete answer.",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ]
+    },
+    {
+      "artifact_id": "K-R-VLA-DATA",
+      "actor_id": "K-A-OPENVLA",
+      "openness_layer": "component_training_datasets",
+      "license": null,
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "OpenVLA research collaboration: component training datasets",
+      "status": "unknown",
+      "limitations": "Open X-Embodiment mixture points to component datasets; no blanket reuse or commercial permission was established for all components.",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ],
+      "license_missing_reason": "Open X-Embodiment mixture points to component datasets; no blanket reuse or commercial permission was established for all components."
+    },
+    {
+      "artifact_id": "K-R-SKILD",
+      "actor_id": "K-A-SKILD",
+      "openness_layer": "model_license_customer_data_and_service",
+      "license": null,
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "Skild AI: model license customer data and service",
+      "status": "unknown",
+      "limitations": "Acquiring a robotics business and operating with customers does not establish all cross-customer training rights or service obligations.",
+      "evidence_ids": [
+        "K-E003",
+        "K-E005",
+        "K-E006"
+      ],
+      "license_missing_reason": "Acquiring a robotics business and operating with customers does not establish all cross-customer training rights or service obligations."
+    },
+    {
+      "artifact_id": "K-R-FIGURE",
+      "actor_id": "K-A-FIGURE",
+      "openness_layer": "integrated_model_hardware_customer_data",
+      "license": null,
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "commercial_use_resolved_missing_reason": "Deployment permission not established.",
+      "label": "Figure: integrated model hardware customer data",
+      "status": "unknown",
+      "limitations": "An OEM-run benchmark does not disclose third-party model licensing, adaptation ownership or customer-data reuse contracts.",
+      "evidence_ids": [
+        "K-E007",
+        "K-E008"
+      ],
+      "license_missing_reason": "An OEM-run benchmark does not disclose third-party model licensing, adaptation ownership or customer-data reuse contracts."
+    }
+  ],
+  "dossiers": [
+    {
+      "dossier_id": "K-D-PI",
+      "actor_id": "K-A-PI",
+      "label": "Physical Intelligence: managed model input, local deployment responsibilities",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Shared model infrastructure may reduce a robot builder's ML infrastructure and iteration burden if adaptation transfers and hosted control meets the service constraint.",
+      "established_scope": "The beta workflow and selected partner examples are announced; openpi offers separate inspectable research artifacts.",
+      "remaining_unknowns": [
+        "Exact beta model/version policy",
+        "Price and SLA",
+        "Data/fine-tune reuse rights",
+        "All-attempt accepted-output and human support",
+        "Network tail/fallback cost"
+      ],
+      "evidence_ids": [
+        "K-E001",
+        "K-E002"
+      ],
+      "summary": "Economic hypothesis: Shared model infrastructure may reduce a robot builder's ML infrastructure and iteration burden if adaptation transfers and hosted control meets the service constraint. Evidence boundary: The beta workflow and selected partner examples are announced; openpi offers separate inspectable research artifacts."
+    },
+    {
+      "dossier_id": "K-D-SKILD",
+      "actor_id": "K-A-SKILD",
+      "label": "Skild: model development with acquired deployment channels",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Owning more deployment/orchestration functions may improve distribution and feedback while adding operating, service and capital obligations.",
+      "established_scope": "Issuer S1 experiments and financial claims; seller filing verifies the robotics-business transaction and consideration structure.",
+      "remaining_unknowns": [
+        "Audited lab/deployment contribution margins",
+        "Retention and accepted-service denominators",
+        "Release-date/harness pin",
+        "Cross-customer training rights",
+        "Separation of support labor and model revenue"
+      ],
+      "evidence_ids": [
+        "K-E003",
+        "K-E004",
+        "K-E005",
+        "K-E006",
+        "K-E014"
+      ],
+      "summary": "Economic hypothesis: Owning more deployment/orchestration functions may improve distribution and feedback while adding operating, service and capital obligations. Evidence boundary: Issuer S1 experiments and financial claims; seller filing verifies the robotics-business transaction and consideration structure."
+    },
+    {
+      "dossier_id": "K-D-FIGURE",
+      "actor_id": "K-A-FIGURE",
+      "label": "Figure: integrated whole-body model and hardware",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "OEM co-design can connect body, controller, behavior data and validation; its advantage is conditional on service outcomes and portability economics.",
+      "established_scope": "Publisher-run unseen-home comparison with task-specific checkpoints and whole-task grading; data-only loss scaling claim.",
+      "remaining_unknowns": [
+        "Exact evaluation hardware/software release",
+        "Industrial service equivalence",
+        "Complete training/inference/support expense",
+        "Third-party license/data terms",
+        "Transfer beyond the three behaviors"
+      ],
+      "evidence_ids": [
+        "K-E007",
+        "K-E008"
+      ],
+      "summary": "Economic hypothesis: OEM co-design can connect body, controller, behavior data and validation; its advantage is conditional on service outcomes and portability economics. Evidence boundary: Publisher-run unseen-home comparison with task-specific checkpoints and whole-task grading; data-only loss scaling claim."
+    },
+    {
+      "dossier_id": "K-D-OPENVLA",
+      "actor_id": "K-A-OPENVLA",
+      "label": "OpenVLA: inspectable adaptation baseline with layered rights",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Accessible code/models can strengthen an operator's outside option if integration, adaptation, support and effective rights are affordable.",
+      "established_scope": "Pinned code/model card and action interface inspected; explicit unseen-embodiment limit and licensing conflict retained.",
+      "remaining_unknowns": [
+        "Resolution of weight/base-model declarations",
+        "Dataset-specific rights",
+        "Target hardware/control adaptation",
+        "All-attempt latency/output/support cost",
+        "Commercial qualification and service owner"
+      ],
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ],
+      "summary": "Economic hypothesis: Accessible code/models can strengthen an operator's outside option if integration, adaptation, support and effective rights are affordable. Evidence boundary: Pinned code/model card and action interface inspected; explicit unseen-embodiment limit and licensing conflict retained."
+    }
+  ],
+  "architecture_alternatives": [
+    {
+      "comparison_id": "K-ARCH-OEM",
+      "label": "Integrated OEM policy and robot",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "status": "matched_service_design_not_quantitatively_implemented",
+      "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
+      "roles": [
+        "OEM model producer",
+        "robot maker",
+        "operator/customer"
+      ],
+      "mechanism": "Co-design and internal model transfers may simplify responsibility; outside licensing and interoperability remain contract questions.",
+      "empirical_compatibility": "not_established",
+      "qualification_gap": "No inspected source proves all four architectures on one equivalent configured robot and production service.",
+      "annual_resource_cost_usd": null,
+      "annual_resource_cost_usd_missing_reason": "Matched target data, adaptation, inference, integration, support, replacement and financing terms are unavailable; no vendor ROI or synthetic cost ranking is presented.",
+      "model_payment_usd": null,
+      "model_payment_usd_missing_reason": "Negotiated terms unobserved; model payment is a transfer, not automatically net resource consumption.",
+      "evidence_ids": [
+        "K-E007",
+        "K-E008",
+        "PRC-002",
+        "PRC-003",
+        "PRC-005"
+      ],
+      "summary": "Co-design and internal model transfers may simplify responsibility; outside licensing and interoperability remain contract questions. Matched compatibility and target costs remain unestablished."
+    },
+    {
+      "comparison_id": "K-ARCH-LICENSED",
+      "label": "Independent licensed policy with matched robot",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "status": "matched_service_design_not_quantitatively_implemented",
+      "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
+      "roles": [
+        "model supplier",
+        "robot OEM",
+        "integrator",
+        "operator/customer"
+      ],
+      "mechanism": "Potentially buy shared model/adaptation services while retaining robot/site responsibilities; inference, support and reuse terms must be priced.",
+      "empirical_compatibility": "not_established",
+      "qualification_gap": "No inspected source proves all four architectures on one equivalent configured robot and production service.",
+      "annual_resource_cost_usd": null,
+      "annual_resource_cost_usd_missing_reason": "Matched target data, adaptation, inference, integration, support, replacement and financing terms are unavailable; no vendor ROI or synthetic cost ranking is presented.",
+      "model_payment_usd": null,
+      "model_payment_usd_missing_reason": "Negotiated terms unobserved; model payment is a transfer, not automatically net resource consumption.",
+      "evidence_ids": [
+        "K-E001",
+        "K-E002",
+        "PRC-002",
+        "PRC-003",
+        "PRC-005"
+      ],
+      "summary": "Potentially buy shared model/adaptation services while retaining robot/site responsibilities; inference, support and reuse terms must be priced. Matched compatibility and target costs remain unestablished."
+    },
+    {
+      "comparison_id": "K-ARCH-OPEN",
+      "label": "Open policy with adaptation and support",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "status": "matched_service_design_not_quantitatively_implemented",
+      "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
+      "roles": [
+        "open artifact contributors",
+        "integrator/internal team",
+        "robot OEM",
+        "operator/customer"
+      ],
+      "mechanism": "Explicit engineering and qualification replace the assumption that accessible model artifacts deliver a free turnkey system.",
+      "empirical_compatibility": "not_established",
+      "qualification_gap": "No inspected source proves all four architectures on one equivalent configured robot and production service.",
+      "annual_resource_cost_usd": null,
+      "annual_resource_cost_usd_missing_reason": "Matched target data, adaptation, inference, integration, support, replacement and financing terms are unavailable; no vendor ROI or synthetic cost ranking is presented.",
+      "model_payment_usd": null,
+      "model_payment_usd_missing_reason": "Negotiated terms unobserved; model payment is a transfer, not automatically net resource consumption.",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010",
+        "PRC-002",
+        "PRC-003",
+        "PRC-005"
+      ],
+      "summary": "Explicit engineering and qualification replace the assumption that accessible model artifacts deliver a free turnkey system. Matched compatibility and target costs remain unestablished."
+    },
+    {
+      "comparison_id": "K-ARCH-OPERATOR",
+      "label": "Model-led deployment provider or operator",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "status": "matched_service_design_not_quantitatively_implemented",
+      "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
+      "roles": [
+        "model/deployment provider",
+        "robot OEM or acquired hardware business",
+        "customer"
+      ],
+      "mechanism": "More workflow and field responsibility can move to the provider; customer, asset, data and service boundaries still require actual contracts.",
+      "empirical_compatibility": "not_established",
+      "qualification_gap": "No inspected source proves all four architectures on one equivalent configured robot and production service.",
+      "annual_resource_cost_usd": null,
+      "annual_resource_cost_usd_missing_reason": "Matched target data, adaptation, inference, integration, support, replacement and financing terms are unavailable; no vendor ROI or synthetic cost ranking is presented.",
+      "model_payment_usd": null,
+      "model_payment_usd_missing_reason": "Negotiated terms unobserved; model payment is a transfer, not automatically net resource consumption.",
+      "evidence_ids": [
+        "K-E003",
+        "K-E005",
+        "K-E006",
+        "PRC-002",
+        "PRC-003",
+        "PRC-005"
+      ],
+      "summary": "More workflow and field responsibility can move to the provider; customer, asset, data and service boundaries still require actual contracts. Matched compatibility and target costs remain unestablished."
+    }
+  ],
+  "benchmark_cards": [
+    {
+      "benchmark_id": "K-B-S1",
+      "label": "S1 internal unseen-task scaling comparison",
+      "model_ids": [
+        "K-M-SKILD-S1"
+      ],
+      "metric_boundary": "Average cumulative per-step scoring; recovery interventions used, especially for baseline",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "issuer_reported_internal_evaluation",
+      "evidence_ids": [
+        "K-E003",
+        "K-E004"
+      ],
+      "summary": "Average cumulative per-step scoring; recovery interventions used, especially for baseline. No calibrated commercial-service effect."
+    },
+    {
+      "benchmark_id": "K-B-HELIX25",
+      "label": "Helix 2.5 held-out-home whole-task evaluation",
+      "model_ids": [
+        "K-M-HELIX25"
+      ],
+      "metric_boundary": "Whole-task completion; safety intervention aborts/fails; trained behaviors, unseen homes/objects",
+      "whole_task_success_established": "publisher reports rounded aggregate; exact trial ledger not obtained",
+      "commercial_service_calibration": false,
+      "status": "vendor_physical_evaluation",
+      "evidence_ids": [
+        "K-E007",
+        "K-E008"
+      ],
+      "summary": "Whole-task completion; safety intervention aborts/fails; trained behaviors, unseen homes/objects. No calibrated commercial-service effect."
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "K-REL-ZBRA-SKILD",
+      "to_actor_id": "K-A-SKILD",
+      "type": "business_sale_with_cash_equity_and_escrow",
+      "completion_date": "2026-03-27",
+      "announcement_date": "2026-04-15",
+      "economic_boundary": "Count transaction once; cash, equity fair value and escrow are components of consideration, not additional purchases. No capability/learning benefit is inferred.",
+      "evidence_ids": [
+        "K-E006"
+      ],
+      "from_actor_id": "K-A-ZEBRA"
+    },
+    {
+      "relationship_id": "K-REL-NV-SKILD",
+      "from_actor_id": "K-A-NVIDIA",
+      "to_actor_id": "K-A-SKILD",
+      "type": "training_simulation_deployment_collaboration",
+      "economic_boundary": "Compute/tool supplier relationship; not independent validation of customer economics or fungible onboard resource capacity.",
+      "evidence_ids": [
+        "K-E014"
+      ]
+    }
+  ],
+  "source_revisions": {
+    "openpi": {
+      "repository": "Physical-Intelligence/openpi",
+      "commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+      "README_git_blob": "d16e43d4790c60d9e22e67c58a407594fa6fb772",
+      "LICENSE_git_blob": "f49a4e16e68b128803cc2dcea614603632b04eac"
+    },
+    "openvla": {
+      "repository": "openvla/openvla",
+      "commit": "c8f03f48af692657d3060c19588038c7220e9af9",
+      "README_git_blob": "075feef94adfeb802d1d89856159a974bf5358f8",
+      "LICENSE_git_blob": "04f26a7d0bfdeb89ce54681c695a40df21aa6d96"
+    },
+    "openvla_model_card": {
+      "revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+      "README_sha256": "16449c659127df8f4d0f43958be0d114be41e94317f5fc72740d84eab99c5624",
+      "config_sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1",
+      "weights_downloaded": false
+    }
+  },
+  "source_conflicts": [
+    {
+      "conflict_id": "K-C-S1-DATE",
+      "status": "unresolved_exact_launch_date",
+      "details": "Primary S1 HTML metadata says August 18, 2026 and its timeline says August release; issuer promotion was dated August 25; September 10 issuer text says two weeks earlier and NVIDIA says last week. Do not infer one exact release date or immutable weights from these statements.",
+      "evidence_ids": [
+        "K-E003",
+        "K-E005",
+        "K-E014"
+      ]
+    },
+    {
+      "conflict_id": "K-C-VLA-RIGHTS",
+      "status": "unresolved_effective_model_terms",
+      "details": "Pinned HF card declares checkpoints MIT while pinned code README says base-model conditions apply. Code-layer MIT is documented separately; effective model/deployment rights are not resolved here.",
+      "evidence_ids": [
+        "K-E009",
+        "K-E010"
+      ]
+    }
+  ],
+  "coverage": {
+    "mapped_actors": 9,
+    "contrasting_dossiers": 4,
+    "rights_cards": 8,
+    "scenario_coefficients_imported": false,
+    "not_exhaustive": true,
+    "gaps": [
+      "China and continental-European model/OEM ecosystems need direct follow-up",
+      "Generalist and Dyna mechanisms are not yet separately audited here",
+      "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
+      "Four-architecture calculation and sensitivities remain unimplemented",
+      "No robot, model training or GPU/hardware workload was run"
+    ]
+  },
+  "external_evidence_registry": {
+    "CAP-E021": "data/capability_evidence.json",
+    "CAP-E022": "data/capability_evidence.json",
+    "OWQ-E01": "data/onboard_workload_qualification.json",
+    "PRC-002": "data/physical_requirements_crosswalk.json",
+    "PRC-003": "data/physical_requirements_crosswalk.json",
+    "PRC-005": "data/physical_requirements_crosswalk.json"
+  }
+}

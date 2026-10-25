@@ -13,6 +13,7 @@ from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages
 from model.research_calculations import research_summary
 from model.physical_requirements import physical_requirements_summary
+from model.frontier_models import frontier_model_summary
 
 
 def main():
@@ -28,6 +29,8 @@ def main():
     (args.output/"observed_research_summary.json").write_text(json.dumps(research,indent=2,sort_keys=True,allow_nan=False)+"\n")
     if "data/physical_requirements_crosswalk.json" in accepted:
         (args.output/"physical_requirements_summary.json").write_text(json.dumps(physical_requirements_summary(),indent=2,sort_keys=True,ensure_ascii=False,allow_nan=False)+"\n")
+    if "data/frontier_model_economics.json" in accepted:
+        (args.output/"frontier_model_summary.json").write_text(json.dumps(frontier_model_summary(),indent=2,sort_keys=True,ensure_ascii=False,allow_nan=False)+"\n")
     specs = [(key,{},None) for key in catalog()["presets"]]
     if args.scenario:
         saved = json.loads(args.scenario.read_text())

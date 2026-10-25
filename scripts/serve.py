@@ -18,6 +18,7 @@ from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
 from model.lineage import joint_trace
 from model.physical_requirements import physical_requirements_summary
+from model.frontier_models import frontier_model_summary
 
 
 def evidence_snapshot():
@@ -48,8 +49,9 @@ class Handler(BaseHTTPRequestHandler):
                 atlas=economic_atlas_summary() if "data/market_evidence.json" in accepted else {"status":"not_available","reason":"Market evidence package has not been explicitly accepted."}
                 research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
                 physical=physical_requirements_summary() if "data/physical_requirements_crosswalk.json" in accepted else {"status":"not_available","reason":"Physical requirements package has not been explicitly accepted."}
+                frontier=frontier_model_summary() if "data/frontier_model_economics.json" in accepted else {"status":"not_available","reason":"Frontier-model package has not been explicitly accepted."}
                 self.send(200,{"catalog":catalog(),"bounds":BOUNDS,"choices":CHOICES,"evidence_packages":snapshot["packages"],
-                    "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical})
+                    "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
             return
