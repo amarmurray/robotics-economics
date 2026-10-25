@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.7.
+Handoff ID: program-design-2026-10-25-v0.8.
 
 ## Accepted direction
 
@@ -8,11 +8,13 @@ Amar rejected a narrow warehouse/carton-handling case as the first research step
 
 The intended competence is strategy and staged deployment at a humanoid company. Physical-digital swarms/fleets and productive coordination are central, with bidirectional links between deployment choice and subsequent capability/learning. Amar subsequently clarified that ownership means the customer/adopter's ownership and organization: capital access/allocation, automation appetite, operating authority, implementation capacity, and value-chain position change adoption by end market and stage. He explicitly requested retaining the prior ownership analysis under a separate category. The design therefore has seven linked workstreams: F covers customer ownership/organization and adoption; G preserves robotics business models, asset/control/data rights, provider/operator/integrator/financier roles, vertical integration, and value capture. Incumbent, acquisition/holdco, and AI-native pathways remain customer development routes, with coexistence and feedback between structures and automation.
 
+Amar further specified a customer-side AI-native newco thesis: raise capital and enter physical/industrial markets through differentiated deployment, faster adoption of accessible humanoids, or greater useful capacity than a constrained human labor base. Investigate market-share gains and incremental demand, fundraising/financing through ramp, and incumbent responses. Keep standalone newcos, platforms creating operating companies, acquisition-led transformation, and hybrid routes separate. Thrive Holdings is a sourced structural analogy; the proposed physical/industrial extension remains a hypothesis. Seven workstreams and the prior provider/asset/control/value-capture inquiry are preserved.
+
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
 ## Current preparation and execution status
 
-- Charter/design v0.7, campaign specification v1.1, and roadmap v1.1 incorporate the customer-ownership clarification while preserving the prior inquiry. The dashboard specification now has separate customer/adoption and robotics business-model/value-capture views; the roadmap contains 28 open questions.
+- Charter/design v0.8, campaign specification v1.2, and roadmap v1.2 include customer-side AI-native formation/funding/competition alongside the retained ownership and provider inquiries. The nine dashboard views now include entry, runway, build/acquire/hybrid, demand/share, and incumbent-response comparisons; the roadmap contains 31 open questions.
 - `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
 - `CODEX_GOAL.md` is prepared activation text.
 - `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.

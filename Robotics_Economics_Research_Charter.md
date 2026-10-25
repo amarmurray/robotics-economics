@@ -1,8 +1,8 @@
 # Robotics Economics: Research Charter
 
-Version 0.7 · 25 October 2026 · Amar Murray
+Version 0.8 · 25 October 2026 · Amar Murray
 
-This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.7 retains and clarifies Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
+This charter governs the paired Codex and ChatGPT research program in physical labor, humanoid deployment, learning/control, physical-digital coordination, and the organization of production. Version 0.8 retains and clarifies Amar's 25 October 2026 correction: begin with end markets and value chains, develop qualitative views and staged penetration models, and investigate how capability improvements, data aggregation, bottlenecks, and ownership change deployment pathways. It supersedes the warehouse-first case, mandatory Excel-first sequence, and delayed dashboard. The detailed design is `RESEARCH_PROGRAM_DESIGN.md`; first-week deliverables and acceptance are in `WEEK_ONE_RESEARCH_SPEC.md`; launch text is `CODEX_GOAL.md`; open questions are in `RESEARCH_ROADMAP.md`.
 
 This is the accepted program design and a prepared research campaign, not a completed market study or an activated seven-day run. Models, datasets, report, and dashboard remain campaign outputs to be produced. Existing historical source notes are retained as dated research seeds. They must be refreshed before they support current claims.
 
@@ -21,6 +21,8 @@ The program connects seven research decisions:
 5. Study productive coordination among physical robots, digital agents, people, and infrastructure.
 6. Investigate customer ownership, governance, capital allocation, automation appetite, operating authority, and implementation capacity as determinants of adoption and value-chain position; compare incumbent, acquisition/holdco, and AI-native development pathways.
 7. Preserve the distinct inquiry into robotics business models, provider/operator/integrator/financier roles, asset ownership, commercial/control/data rights, integration, and value capture, including coexistence.
+
+Customer-side AI-native entry is an explicit research thesis: can capital fund a new operating business or platform that competes through differentiated humanoid/digital-agent deployment, earlier adoption of broadly available technology, or conditional labor-capacity advantages? Examine financing through ramp, demand capture, incumbent response, and build/acquire/hybrid choices by end market and value-chain stage. Use Thrive Holdings as an organizational comparator, with the physical/industrial extension and greenfield cases treated as hypotheses. Keep customer formation separate from robotics-provider business models while linking their economics.
 
 Tasks and task bundles enter as explanatory detail. The organizing research and presentation level is end markets and value-chain stages. The first milestone is a broad, evidence-grounded research edition with a written report and functioning interactive dashboard; the program continues through a prioritized multi-month roadmap.
 
@@ -311,6 +313,8 @@ The economic framework above is a proposed research design developed for this di
 - [Ixion: data-value estimator](https://github.com/robotics-vp/robotics-vp-core/blob/c06143ac3e073a3838578aaf2c64eeabab867c30/src/economics/data_value.py) — existing estimator code inspected, without running or validating it.
 
 ## Change record
+
+- **0.8 — 25 October 2026:** Made capital-funded customer-side AI-native entry explicit, including operating-design, equal-technology adoption-timing, and capacity/availability hypotheses. Added funding/runway, customer acquisition, competitive response, and standalone/platform/build/acquire/hybrid comparisons; sourced the Thrive Holdings analogy. Expanded the roadmap to 31 open questions while preserving seven workstreams and the separate provider/asset/control inquiry.
 
 - **0.7 — 25 October 2026:** Clarified customer ownership and organization as determinants of adoption, capital allocation, automation appetite, implementation capacity, and value-chain position. Retained the previous provider/asset/control/value-capture research as a distinct seventh workstream. Added separate adopter/commercial records and dashboard views; expanded the roadmap to 28 questions with prior provider questions preserved.
 

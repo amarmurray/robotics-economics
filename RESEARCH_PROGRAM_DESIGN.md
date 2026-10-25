@@ -1,6 +1,6 @@
 # Physical labor, humanoid deployment, and the organization of production
 
-Version 0.7 · 25 October 2026 · Research program design
+Version 0.8 · 25 October 2026 · Research program design
 
 ## 1. Purpose and accepted direction
 
@@ -21,6 +21,7 @@ Amar's 25 October 2026 clarification establishes these requirements:
 - Treat ownership first as the ownership, governance, and organization of the customer adopting humanoids. Investigate how capital access and allocation, investment appetite, decision rights, implementation capacity, and value-chain position affect adoption by end market and stage.
 - Preserve the distinct research on robotics business models, asset ownership, commercial arrangements, and value capture among providers, operators, integrators, and financiers. Customer structure and commercial arrangements interact; neither replaces the other.
 - Compare incumbent adoption, acquisition/holdco transformation, and AI-native enterprise formation as customer development pathways. These are not mutually exclusive ownership categories. Permit coexistence and specialization across value-chain stages.
+- Explicitly study capital-funded AI-native operating newcos on the customer side: differentiated humanoid/digital-agent production, faster adoption of widely available robots, and capacity or availability advantages. Compare standalone newcos, platforms creating new businesses, acquisition-led transformation, and hybrids; use Thrive Holdings as a structural comparator.
 - Deliver a substantive written report, an interactive dashboard with meaningful toggles, reproducible supporting artifacts, and a continuing research roadmap after an initial seven-day campaign.
 
 These requirements govern the design. Geographic defaults, coverage targets, forecasting horizons, and particular implementation choices below are revisable working assumptions, not additional user commitments. Preparing this design does not start the seven-day run or claim its outputs exist.
@@ -121,6 +122,7 @@ A capability evidence map, a scaling-literature assessment, alternative progress
 - How do customer ownership, capital allocation, automation appetite, operating authority, and implementation capacity change readiness, adoption depth, timing, and scale within a market-stage cell?
 - How should a humanoid company sequence end markets and value-chain stages when opportunities compete for those shared resources?
 - How do substitution, complementary productivity, demand expansion, and newly feasible services contribute differently?
+- How much adoption occurs through incumbent transformation versus new entrants winning existing or incremental demand, and how does competitive response change the deployment sequence?
 
 ### Waterfall and stock-flow structure
 
@@ -206,9 +208,31 @@ Compare customer profiles within matched market conditions and, for at least one
 
 Investigate feedback in both directions. Existing ownership and organization affect adoption; feasible automation may alter acquisition attractiveness, entry, outsourcing, vertical scope, and future customer composition. Track control and financing constraints at the relevant parent, operating-company, and site levels. The framework is multivariate and conditional on end market and value-chain stage.
 
+### AI-native operating newcos and industrial platforms
+
+Explicitly investigate a capital-funded customer-side entrant: a newly formed business that uses humanoids and digital agents to sell a physical good or service in an end market. It may buy broadly available robots and need not manufacture robots or own frontier models. Ask whether it can raise appropriate capital, establish operations, win customers, and expand through a differentiated production system, faster adoption than incumbents, or both. This is a substantive enterprise-formation thesis within F, with procurement and provision arrangements linked to G.
+
+Keep three potentially overlapping advantages inspectable:
+
+1. **Operating design:** redesign facilities, work allocation, physical-digital coordination, supervision, learning, and the customer offer around robotic production. Test the resulting system against comparable human-led, digital-only, specialized-automation, and incumbent humanoid configurations.
+2. **Adoption timing:** a newco deploys economically useful, broadly available humanoids while incumbent adoption is delayed. Include equal access to robot technology and commercial terms; proprietary robotics is not a prerequisite for this hypothesis. Compare delayed and prompt incumbent adoption, price responses, partnering, and acquisition or exit scenarios.
+3. **Capacity and availability:** robot capacity could become easier to expand or more reliably available than a local human labor base. Test production at required quality and reliability, delivery/support limits, and hiring constraints. A cost advantage is not required for a capacity-constrained-market hypothesis; robot abundance itself remains a conditional supply assumption.
+
+For each selected entry thesis, state the product/service, initial customer and value-chain stage, operating scope, minimum viable configuration, and proposed source of advantage. Compare full cost per accepted output and the service proposition, including uptime, intervention, integration, maintenance, facilities, complementary equipment, digital systems, and customer acquisition. Separate superiority to a legacy incumbent from superiority to an incumbent using the same technology.
+
+Model capital from formation through commissioning, ramp, and repeatable operation: upfront investment, enterprise overhead, working capital, operating losses, cash runway, and later expansion. Identify evidence milestones for successive funding commitments. Distinguish attractive unit economics, a plausible financing case, and observed access to capital. Enterprise funding and robot-asset financing are linked but different; illustrative equity, leasing, debt, vendor or customer-backed arrangements require explicit availability and terms assumptions. Do not assume financing appears when needed or that an AI-native label warrants venture-style returns or valuation.
+
+Connect production capacity to demand that can actually be won and fulfilled. Separate share taken from incumbent output, capture of existing unmet demand, and demand expansion or newly feasible services. Specify customer acquisition, qualification, switching, pricing, retention, and contract timing where material. Incumbents respond; evaluate how long an adoption lead persists, whether investment is recovered, and what survives convergence in robot capability. Customer relationships, operating knowledge, site networks, learning rights and execution capabilities are candidate advantages to test, not automatic moats. Provider-mediated learning may also spread improvements to competitors.
+
+Compare four organizational forms: a standalone operating newco; a platform that creates multiple operating newcos; acquisition and transformation of existing businesses; and a hybrid that builds, acquires, and partners across stages. A holding company can own newly created subsidiaries as well as acquired businesses. Record each operation's origin separately from the parent's ownership architecture. Test shared deployment engineering, procurement, capital allocation, software, and learning against transfer limits, overhead, and correlated capital demands.
+
+**Thrive Holdings comparator, checked 25 October 2026:** [OpenAI's December 2025 announcement](https://openai.com/index/thrive-holdings/) describes Thrive as investing in, acquiring, and building businesses, with technical teams embedded in operations; [Thrive's August 2026 update](https://www.thriveholdings.com/thrive-holdings-fundraise) describes capital raising, owned operating businesses, and internal AI deployment across its platforms. Its stated expansion includes technical and regulatory services for the built environment. These are company descriptions of an organizational model, not evidence of humanoid production economics. The proposed physical/industrial extension and the pure operating-newco variant are research hypotheses.
+
+The required result is a conditional answer to: which market-stage cells could support entry, under which capability, financing, demand, and incumbent-response conditions; should the entrant build, acquire, or combine routes; and what evidence would invalidate the thesis?
+
 ### Output
 
-Customer-structure maps, mechanism-based adoption comparisons, customer-cohort penetration scenarios, and views on value-chain repositioning, competitive structure, coexistence, and investment outcomes. Explain which mechanism changes the deployment decision and what evidence could reverse the conclusion.
+Customer-structure maps, mechanism-based adoption comparisons, customer-cohort penetration scenarios, explicit newco formation/funding/competition cases, build/acquire/hybrid platform comparisons, and views on value-chain repositioning, competitive structure, coexistence, and investment outcomes. Explain which mechanism changes the deployment decision and what evidence could reverse the conclusion.
 
 ## 10. Workstream G: robotics business models, asset ownership, and value capture
 
@@ -255,6 +279,7 @@ These are starting sources and methodological anchors checked during design prep
 - [Data Scaling Laws in Imitation Learning for Robotic Manipulation](https://arxiv.org/html/2410.18647v3): evidence about particular manipulation-policy scaling experiments. Data diversity and demonstration counts need separate treatment; fitted domains and extrapolation must remain visible.
 - [Open X-Embodiment / RT-X](https://arxiv.org/html/2310.08864): conditional transfer research. Specify source and target contexts rather than assuming cross-market generalization.
 - [DataMIL](https://robin-lab.cs.utexas.edu/datamodels4imitation/): task- and policy-dependent data selection. A performance influence estimate requires a separate economic interpretation.
+- [OpenAI–Thrive Holdings partnership, 1 December 2025](https://openai.com/index/thrive-holdings/) and [Thrive Holdings capital update, 12 August 2026](https://www.thriveholdings.com/thrive-holdings-fundraise): primary descriptions supporting the structural comparator in Workstream F; company claims require appropriate attribution. Neither establishes physical-labor substitution or the financeability of a new humanoid operator.
 - [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex) and [long-running work](https://learn.chatgpt.com/docs/long-running-work): a goal needs observable outputs, verification, checkpoints, and explicit completion/blocker states. Actual continuation depends on the runtime, available resources, and goal state.
 
 ## 13. Decision record
@@ -262,5 +287,7 @@ These are starting sources and methodological anchors checked during design prep
 Accepted correction: organize the research around physical labor end markets, value chains, staged deployment, evolving capability, learning/control, physical-digital coordination, and competing ownership routes. Superseded sequencing: mandatory warehouse-first case, second-market deferral, and dashboard only after that case. Preserved disciplines: dated evidence, transparent assumptions, consistent units and populations, conditional adoption gates, no double-counting, and separate implementation-repository scope.
 
 Ownership clarification, 25 October 2026: customer ownership/organization is an explicit determinant of adoption, capital allocation, automation appetite, and value-chain position. The prior provider/asset/control/value-capture inquiry is retained as Workstream G under a distinct name. This expands the design to seven linked workstreams; it does not delete the earlier questions.
+
+AI-native entry clarification, 25 October 2026: make customer-side capital formation and entrepreneurial entry explicit, including differentiated operating design, equal-technology adoption leads, and conditional labor-capacity advantages. Preserve pure newco formation alongside acquisition and hybrid platforms; investigate competition and financing rather than assuming technical productivity becomes market share. Seven workstreams remain in place.
 
 Prepared outcome: a revised program and a launchable first-week specification. Pending outcome: activation and execution of the research campaign in Codex, followed by the actual report, dashboard, model, and revised roadmap.

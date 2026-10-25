@@ -1,6 +1,6 @@
 # Week-one research campaign specification
 
-Version 1.1 · Prepared 25 October 2026 · Status: not activated
+Version 1.2 · Prepared 25 October 2026 · Status: not activated
 
 ## 1. Purpose, organizing unit, and authority
 
@@ -55,6 +55,8 @@ Give every top-level category a coverage status: quantified, qualitatively scree
 Develop **at least six contrasting market-stage cells across at least four end markets**, subject to accessible evidence. Contrast capital intensity, environmental variability, labor economics, fragmentation, demand, installed-asset constraints, and customer ownership/organization. For each, document the value chain, relevant systems and alternatives, economics, waterfall, bottlenecks, pathway comparison, learning links, and uncertainties.
 
 Within at least two of those cells, seek comparisons between two plausible customer profiles and relevant commercial arrangements, subject to evidence. These are mechanism comparisons within the existing coverage target. Hold technical capability and workload fixed in a comparison, then distinguish any scenario that changes process design or value-chain position. A scenario is not proof of an ownership effect.
+
+Screen AI-native operating-newco entry qualitatively across the end-market map. Within at least one of the deeper market-stage cells, develop a substantive entrant-versus-incumbent formation, funding, and deployment comparison. This uses the existing coverage target. Include equal access to robot technology, alternative incumbent adoption/response timing, and build/acquire/hybrid choices; use explicit scenarios where evidence cannot support calibration.
 
 Do not invent inputs to satisfy coverage counts. A cell with insufficient evidence can be deeply investigated and still remain unquantified. Explain the resulting limitation in the acceptance audit and preserve the specific research needed.
 
@@ -126,6 +128,20 @@ Model the mechanisms connecting customer structure to ability to finance, appeti
 
 Use compatible activity weights to aggregate customer cohorts. Distinguish fixed customer composition from entry, acquisition, consolidation, outsourcing, and movement across value-chain stages. Reclassifying an acquired operation does not create new underlying work. Changed operating configurations require explicit costs, timing, and capability assumptions.
 
+### AI-native customer entry, financing, and competitive response
+
+The customer-side newco is an operating business selling an end-market product or service using humanoids and digital agents. Include standalone formation, a platform creating multiple newcos, acquisition-led transformation, and hybrid routes. A holdco may own either newly created or acquired operations. Preserve the distinction between a new parent company and genuinely new operating capacity.
+
+Investigate operating-design advantage, adoption timing with widely available robots, and capacity/availability advantage as separate, potentially combined mechanisms. Compare against a human-led incumbent and an incumbent adopting the same technology; include digital-only or specialized automation where relevant. Evaluate quality-adjusted accepted output, full operating cost, reliable capacity, and the customer offer. Treat cheaper, more productive, or more abundant humanoids as conditions to test, not baseline facts.
+
+Specify formation, commissioning, ramp, and expansion cash flows, including robot and complementary assets, integration, overhead, customer acquisition, working capital, and losses before repeatable operation. Identify funding requirements, runway, possible funding sources/terms, and milestone conditions. Separate unit economics, financeability, and actual capital access. Link enterprise funding to robot ownership/financing from the commercial-arrangement model without treating a lease as financing the whole business.
+
+Distinguish installed productive capacity, demand won, delivered output, revenue, and retained contribution. For a matched period and service, delivered entrant output cannot exceed either productive capacity or demand it can serve. Reconcile incumbent and entrant activity, share transfers, unmet demand, and demand expansion. Do not convert a cost advantage directly into market share or count transferred work as additional market labor.
+
+Model alternative incumbent responses and the duration of an adoption lead. Examine price competition, customer retention, imitation, partnership, acquisition, and convergence in robot performance where material. Funding may run out before steady-state economics become attractive. Identify what could remain differentiated after incumbents adopt and whether fleet learning benefits the entrant, its provider, or both.
+
+Use the Thrive Holdings analogy to investigate capital formation, owned operating platforms, and embedded deployment engineering. Check the sources in the design at kickoff. Keep the physical/industrial extension and greenfield variant explicitly hypothetical. Public financing announcements for an analogy do not establish that a proposed entrant can raise money.
+
 ### Robotics business models, asset ownership, and value capture
 
 Retain the distinct comparison of equipment sales, leases, robotics-as-a-service, usage/outcome pricing, integration, software, managed operations, partnerships, joint ventures, and provider vertical integration. Evaluate who supplies, operates, owns, finances, controls, bears risk, and retains gains for matched customer outcomes. Include acquisition or greenfield capital and transition time where relevant.
@@ -153,7 +169,8 @@ The cell key joins market, chain stage, operating archetype, geography, and peri
 | Exposure | exposure_id; cohort/system/dataset links; workload; informative coverage; redundancy; observation process; collection cost. |
 | Transfer | transfer_id; source exposure/capability; destination; mechanism; response/delay; training costs; rights; beneficiary; validation status. |
 | Coordination | coordination_id; participants; mechanism; shared resources; information assumptions; costs; measured or scenario effects. |
-| Pathway | pathway_id; adopter IDs; incumbent expansion/acquisition/transformation/new-entry route; origin/destination value-chain roles; transition costs and timing; cohort reclassification and activity conservation. |
+| Pathway | pathway_id; adopter IDs; business origin and parent/platform links; incumbent expansion/acquisition/transformation/new-entry route; build/acquire/partner choices; origin/destination value-chain roles; transition costs and timing; cohort reclassification and activity conservation. |
+| Entry case | entry_case_id; market/stage/adopter/pathway IDs; product and customer; proposed advantage; incumbent comparator and response; system/arrangement links; capability and economic thresholds; formation/ramp/expansion cash flows; funding assumptions and milestones; demand/retention/served-output constraints; entry window; disconfirming evidence. |
 | Commercial arrangement | arrangement_id; actor/role map; system/cohort/adopter links; sale/lease/service/license/partnership/operation terms; robot/model/data/control rights; funder and risk allocation; pricing; cash and value allocation; effective dates. |
 | Scenario | scenario_id/version; model/evidence snapshot; horizons; input overrides; dependencies; resource budgets; allocation and demand policies. |
 | Evidence | evidence_id; precise claim; URL/document locator; publisher; observation/publication/retrieval dates; scope; source class; limitations; conflicts. |
@@ -165,7 +182,7 @@ Separate source provenance from epistemic status. A manufacturer statement may b
 
 Produce a written report, executable local dashboard, CSV/JSON evidence package, versioned scenarios, reproducible model, acceptance audit, and durable roadmap. Register final artifact paths and versions in the repository manifest.
 
-The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, robotics business models and value capture, strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
+The **report** should aim for 8,000–15,000 substantive words as guidance, with charts and appendices where helpful. Include an executive argument, market/value-chain atlas, capability landscape, improvement scenarios, penetration and supply constraints, learning/coordination analysis, customer-structure/adoption comparisons, AI-native entry and financing cases with competitive response, robotics business models and value capture, strategic implications, and unresolved questions. Preserve disagreements and alternative explanations. Length and apparent certainty are not completion metrics.
 
 Use **one authoritative calculation engine** for dashboard outputs, report tables, and scenario exports. Documentation must provide exact environment, build, run, and regeneration commands. Store locked dependencies where appropriate and use deterministic seeds when simulations require randomness. A fresh local launch should use the saved evidence snapshot without requiring new external credentials. No public deployment is required.
 
@@ -177,13 +194,13 @@ Use **one authoritative calculation engine** for dashboard outputs, report table
 4. **Improvement explorer:** empirical response surfaces where supported, scenario trajectories otherwise, sensitivities, and limits of extrapolation.
 5. **Fleet and bottleneck view:** commissioning cohorts, active stock, productive output, retirements, shared resource use, and binding constraints.
 6. **Learning and coordination view:** exposure, aggregation, directed transfer, physical–digital dependencies, rights, costs, and beneficiaries.
-7. **Customer structure and adoption:** ownership/governance profiles, capital access/allocation, automation appetite, operational authority, implementation capacity, customer pathways, value-chain position, and adoption outcomes.
+7. **Customer structure and adoption:** ownership/governance profiles, capital access/allocation, automation appetite, operational authority, implementation capacity, customer pathways, value-chain position, and adoption outcomes; linked newco entry, funding/runway, build/acquire/hybrid, demand/share, and incumbent-response comparisons.
 8. **Robotics business models and value capture:** commercial arrangements, provider/operator/integrator/financier roles, asset/control/data rights, cash requirements, risk allocation, integration, and coexistence. Link to the selected customer profiles.
 9. **Scenario and evidence workbench:** scenario comparison, assumption changes, confidence, source drilldowns, contradictory evidence, and export.
 
 Shared filters include market, stage, archetype, geography, period/horizon, system, customer profile, customer pathway, commercial arrangement, scenario, and evidence status where applicable. Views must show their active scope. A filter may leave an explicitly labeled reference total unchanged, but must not silently mix selected and unselected populations.
 
-Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, and commercial terms when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
+Scenario controls should alter model inputs and recalculate dependent outputs. Include economically relevant controls for capability/intervention, integration, shared support/hardware/capital, learning/transfer, coordination, demand expansion, customer capital/investment criteria and implementation capacity, commercial terms, entrant funding/ramp, demand capture, and incumbent response timing when modeled. Customer-profile changes must expose the parameters or mechanisms changed; a label alone must not mechanically create an adoption advantage. Disable unsupported controls with a reason. Keep observed evidence visually and computationally separate from hypothetical overrides.
 
 Display meaningful ranges and appropriate rounding. Show missing inputs and unavailable estimates explicitly. A synthetic example may demonstrate functionality, but must have persistent labeling and remain excluded from empirical aggregates.
 
@@ -195,6 +212,7 @@ Run focused checks that address concrete analytical and interface risks:
 - Reconcile cohort stock flows, compatible population totals, waterfall denominators, customer-cohort activity weights, ownership transitions, and shared resource budgets.
 - Verify customer ownership/governance and robot-asset/commercial arrangements are separate dimensions; compare a customer-profile change at fixed technical capability and trace its adoption mechanism. Check a commercial-term change for the corresponding customer and provider/financier cash and capacity effects.
 - Verify that displacement, demand expansion, provider revenue, and learning value are not double-counted.
+- Check entry cases for matched output/quality, conserved market share/activity, explicit funding gaps, capacity versus served-demand constraints, and alternative incumbent responses. Confirm that a parent-company formation or acquisition is not counted as new underlying productive activity; show a same-robot-access counterfactual.
 - Compare dashboard and report outputs with the authoritative engine on saved scenarios.
 - Exercise representative crossfilters; verify consistent scope and denominators in every affected view.
 - Change material scenario inputs; confirm actual recalculation, or explain a locally insensitive result through model constraints.

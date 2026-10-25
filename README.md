@@ -4,9 +4,11 @@ Research on physical labor, staged humanoid deployment, learning/control, physic
 
 ## Current direction
 
-Charter **v0.7, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
+Charter **v0.8, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
 
 The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, how customer ownership/organization changes adoption and value-chain position, and how robotics business models, asset/control arrangements, and value capture interact with those customer structures. Incumbent adoption, holdco transformation, and AI-native newcos remain customer development pathways to compare; provider, operator, integrator, and financier roles remain a distinct research area.
+
+AI-native operating newcos on the customer side are an explicit entry thesis: capital formation, differentiated physical-digital production or faster adoption of widely available robots, conditional labor-capacity advantages, customer acquisition, incumbent response, and build/acquire/hybrid platform choices. Preserve pure newco formation; use Thrive Holdings as a sourced structural comparator, not proof of physical-deployment economics.
 
 ## Read and launch
 
