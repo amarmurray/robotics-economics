@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "week-one-in-progress-0.1",
+  "snapshot_id": "program-design-2026-10-25-v0.10-postresearch1.0",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -61,8 +61,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "week-one-in-progress-0.1",
-      "sha256": "9904e272222cee2cc0d6dfdb36493cc4ab13dabb5804bf302b090c69c91a54a7"
+      "version": "program-design-2026-10-25-v0.10-postresearch1.0",
+      "sha256": "00cd347621d5b03270ec4665e05451285c225dd4dd0015ad334cddc99770d3ae"
     },
     {
       "repository_path": "LLM_ECOSYSTEM_RESEARCH_MODULE.md",
@@ -644,6 +644,13 @@
       "name": "test_engine.py",
       "sha256": "924d6f89b849799ec387c3bdd3a7aa8edb1a12ad5278266374b0c18951db108d",
       "version": "week-one-in-progress-0.1"
+    },
+    {
+      "repository_path": "POST_RESEARCH_STAGING.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/POST_RESEARCH_STAGING.md",
+      "name": "POST_RESEARCH_STAGING.md",
+      "version": "1.0",
+      "sha256": "3c3112ecd84f897f38eff04e25114dadc73075a492e1a522a9505f052f06e645"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -678,7 +685,7 @@
     "goal": "CODEX_GOAL.md",
     "roadmap": "RESEARCH_ROADMAP.md",
     "campaign_status": "in_progress_first_checkpoint",
-    "organizing_unit": "end market \u00d7 value-chain stage \u00d7 operating archetype \u00d7 geography \u00d7 time",
+    "organizing_unit": "end market × value-chain stage × operating archetype × geography × time",
     "workstream_count": 10,
     "ownership_scope": "Customer ownership/organization and adoption; separate retained robotics business-model, asset/control, and value-capture inquiry.",
     "open_question_count": 55,
@@ -692,6 +699,7 @@
     "launch_prompt_revision": "1.1",
     "report": "REPORT.md",
     "acceptance_audit": "ACCEPTANCE_AUDIT.md",
-    "reproduction": "REPRODUCE.md"
+    "reproduction": "REPRODUCE.md",
+    "post_research_staging": "POST_RESEARCH_STAGING.md"
   }
 }

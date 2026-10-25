@@ -16,6 +16,8 @@ Amar also requested a full humanoid/quadruped supply and value-chain inquiry, in
 
 The first requested research milestone is a full-week Codex campaign producing a written report, toggleable interactive dashboard, reproducible evidence/model, and a prioritized continuing roadmap. Unresolved questions remain available for a multi-month program as capabilities and data access evolve.
 
+**Accepted post-research sequence, 25 October 2026:** See `POST_RESEARCH_STAGING.md`. After the first verified edition, prioritize Amar's deep guided understanding, a defensible thesis register, high-value follow-on research, and an evolving deployment decision dashboard. Then pursue practitioner validation (stage 5), research-backed robotics career conversations (stage 6), and a testable original physical-digital fleet coordination contribution (stage 7), as evidence warrants. No forced full-week wait and no predetermined startup. Sunday-afternoon provisional reminders are November 15, November 22 and December 6, 2026; Instinct was emailed the plan.
+
 ## Current campaign state
 
 The user activated launch revision 1.1. Campaign `week-one-2026-10-25` is **in progress**, not a completed seven-day edition. The accepted input revision and exact runtime receipts are in ignored `work/campaign_state.json` and `sync_receipt.json`; the launch input was the repository's `Persist full Astra Ultra multi-agent research launch prompt` revision. Preserve this campaign window on resumption.
@@ -41,6 +43,8 @@ The next wave has separate files for field support denominators, non-Spot operat
 
 US labor denominators, global systems/supply coverage and conditional horizons remain explicit defaults. No live ChatGPT project settings, canonical Mac files, legacy sync automation, or separately scoped implementation repository were modified. Publication does not establish that another Work session consumed the result.
 
+- `POST_RESEARCH_STAGING.md` records the accepted seven-stage post-research learning, validation, career and contribution plan; this is distinct from activating the pending research campaign.
+
 ## Canonical artifacts and ownership
 
 Shared accepted source: https://github.com/amarmurray/robotics-economics, private, `main`.
@@ -51,7 +55,7 @@ Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`
 
 ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
-`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` owns I; `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` owns J, with common evidence/actor/system/resource records; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
+`RESEARCH_PROGRAM_DESIGN.md` is the detailed scope authority; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` owns H scope; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` owns I; `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` owns J, with common evidence/actor/system/resource records; the charter retains shared principles and continuity; `WEEK_ONE_RESEARCH_SPEC.md` owns first-campaign outputs and acceptance; `CODEX_GOAL.md` owns launch text; `RESEARCH_ROADMAP.md` owns stable open questions; `POST_RESEARCH_STAGING.md` owns the agreed application/learning sequence after the first edition. Guidance files point to these rather than independently redefining them. The manifest registers the shared artifacts.
 
 ## Superseded and preserved decisions
 
