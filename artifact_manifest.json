@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "program-design-2026-10-25-v0.10",
+  "snapshot_id": "program-design-2026-10-25-v0.10-launch1.1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -47,8 +47,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "program-design-2026-10-25-v0.10",
-      "sha256": "5d481adab7cbee8a472aa9e4831bb4203062a6fa99e9c8759c2deba0b8b6872a"
+      "version": "program-design-2026-10-25-v0.10-launch1.1",
+      "sha256": "48e0f1f3db3fce9047bc9e5c47e4b40e5d87ce2fa7e523793e99323c8437c5e6"
     },
     {
       "repository_path": "SYNC_AUTOMATION.md",
@@ -82,8 +82,8 @@
       "repository_path": "CODEX_GOAL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/CODEX_GOAL.md",
       "name": "CODEX_GOAL.md",
-      "version": "0.10",
-      "sha256": "2ea35f7778563034060a7d74e6e9e824b2851f168d318a0ed3733555f88afa3f"
+      "version": "0.10-launch1.1",
+      "sha256": "7371447ac166ff5137e376a51eb5a8fe9e55e7920159590a8d442f209428b3a0"
     },
     {
       "repository_path": "RESEARCH_ROADMAP.md",
@@ -156,6 +156,7 @@
     "dashboard_view_count": 13,
     "physical_supply_module": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
     "quadruped_drone_module": "QUADRUPED_AND_DRONE_RESEARCH_MODULE.md",
-    "physical_ecosystem_scope": "Humanoid/quadruped inputs and value chains, qualified production and field scale, embodiment economics, key players and layered openness; substantial quadruped deployments and bounded drone empirical comparisons."
+    "physical_ecosystem_scope": "Humanoid/quadruped inputs and value chains, qualified production and field scale, embodiment economics, key players and layered openness; substantial quadruped deployments and bounded drone empirical comparisons.",
+    "launch_prompt_revision": "1.1"
   }
 }

@@ -1,17 +1,17 @@
 # Codex goal: first seven-day robotics economics research campaign
 
-Prepared 25 October 2026 · Program version 0.10
+Prepared 25 October 2026 · Program version 0.10 · Launch prompt revision 1.1
 
 Status: prepared for Amar to activate in the existing **Robotics Economics** Codex project. This file does not establish that the goal has been started. The report, dashboard, and research findings are the campaign's future outputs.
 
-## Paste into the project's Codex thread
+## Full execution prompt
 
 ```text
-/goal Run the first seven-day research campaign for my Robotics Economics program and deliver a substantive written report, a working interactive dashboard, reproducible evidence and models, and a prioritized continuing research roadmap.
+/goal Run the first seven-day research campaign for my Robotics Economics program and deliver a substantive written report, a working interactive dashboard, reproducible evidence and models, and a prioritized continuing research roadmap. Use multiple research agents with GPT-6 Astra and Ultra reasoning where supported. Begin substantive research after bootstrapping the project; do not stop at a proposed plan.
 
 The project repository is https://github.com/amarmurray/robotics-economics. My existing local project is /Users/amarmurray/Documents/ChatGPT/Robotics Economics. Inspect local instructions, working changes, and origin before editing. Fetch current origin/main and inspect divergence; incorporate the updated design without overwriting unrelated local work or silently merging conflicting changes. Use an isolated checkout if needed. Record the actual input commit and preserve one writer per file.
 
-Read AGENTS.md, README.md, HANDOFF.md, artifact_manifest.json, Robotics_Economics_Research_Charter.md, RESEARCH_PROGRAM_DESIGN.md, LLM_ECOSYSTEM_RESEARCH_MODULE.md, ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md, QUADRUPED_AND_DRONE_RESEARCH_MODULE.md, WEEK_ONE_RESEARCH_SPEC.md, and RESEARCH_ROADMAP.md. The program design governs intellectual scope; the week-one specification governs outputs and acceptance. My October 25 correction supersedes the old warehouse-first sequence.
+Read AGENTS.md, README.md, HANDOFF.md, artifact_manifest.json, Robotics_Economics_Research_Charter.md, RESEARCH_PROGRAM_DESIGN.md, LLM_ECOSYSTEM_RESEARCH_MODULE.md, ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md, QUADRUPED_AND_DRONE_RESEARCH_MODULE.md, WEEK_ONE_RESEARCH_SPEC.md, and RESEARCH_ROADMAP.md. The program design governs intellectual scope; the week-one specification governs outputs and acceptance. My October 25 correction supersedes the old warehouse-first sequence. When this file is invoked by a shorter /goal launcher, treat the full execution prompt and linked specifications as the active requirements. Do not ask me to paste this file again or recursively relaunch the same goal. If this campaign already has an activation record, recover its actual state and deadline rather than creating a duplicate campaign or resetting the clock.
 
 Organize the research around physical labor END MARKETS and VALUE-CHAIN STAGES. Start with the economy-wide map, form qualitative views, and connect them to staged deployment and penetration. Use tasks and task bundles as supporting explanations of capability and process requirements. Do not make one narrow task or warehouse case the entry gate to the program.
 
@@ -27,13 +27,37 @@ At actual activation record T0 and a deadline 168 hours later in UTC, displayed 
 
 Use the design's explicit defaults: a US quantitative labor anchor, global provider/research/supply-chain coverage, an observed baseline, and conditional future horizons. Check sources at kickoff. Distinguish employment, physical-work hours, useful output, robots, customer savings, provider revenue, and investor returns. Preserve source versions, units, uncertainty, and unknowns. Investigate scaling empirically; do not assume a universal exponent. Keep learning transfer, base technical progress, coordination effectiveness, customer structure, commercial/asset/control arrangements, and shared delivery capacity separately inspectable.
 
-Work autonomously on independent research streams in parallel when supported, with one integrator and one writer per artifact. Use existing authorized tools and public evidence. Make reasonable routine choices and record them. This goal covers research, local CPU models, the report, the local dashboard, and scoped publication to this private research repository. Changes to robotics-vp-core, hardware/GPU execution, new paid services, external messages, and public website publication require separate task scope.
+MULTI-AGENT EXECUTION CONTRACT
+
+I am selecting GPT-6 Astra with Ultra reasoning. Preserve that configuration for the lead and delegated research/review agents wherever the runtime supports it. Verify the actual configuration; disclose unavailable settings and do not silently substitute another model or claim a configuration you could not select.
+
+Use collaboration tools proactively whenever independent work can proceed in parallel or independent review would improve quality. You are the lead researcher and integrator: own the argument, priority queue, definitions, evidence architecture, model consistency and final acceptance. Perform substantive investigation and integration while delegating bounded questions.
+
+Organize specialist assignments around six logical lanes:
+1. Economic atlas, end-market/value-chain analysis and deployment pathways.
+2. Robot capabilities, improvement evidence, learning/control, data and coordination.
+3. Customer structures, AI-native newcos, financing, competition and provider value capture.
+4. Digital-AI ecosystem research and direct robot/site/enterprise/R&D contributions.
+5. Physical supply chains, manufacturing scale, embodiments, openness, quadruped deployments and drone comparisons.
+6. Quantitative models, data engineering, dashboard implementation and reproducibility.
+
+Split or regroup lanes as research develops. Schedule waves within the runtime's actual concurrency limit; these are responsibilities, not a requirement for six simultaneous workers. Keep multiple useful investigations active when capacity permits, preserve H's substantial emphasis, and reassign completed workers to consequential questions or independent review.
+
+Every assignment needs a bounded question and decision consequence, relevant constraints and current versions, required evidence and comparison, expected output and assigned files, dependencies and a stopping condition. Require findings, counterevidence, uncertainties, source locators and model implications; a research plan alone is insufficient.
+
+Maintain one writer per file at a time. Use assigned files or isolated worktrees and integrate through shared schemas and stable IDs. Avoid duplicated searches and independent rewrites of shared reports or interfaces. Use independent review for consequential claims, model/accounting logic and acceptance; reviewers inspect underlying sources and artifacts and identify concrete corrections.
+
+Maintain lean semantic handoffs preserving the objective and completion criteria; structural constraints, definitions, units and dependencies; accepted decisions and material rationale; my corrections, rejected approaches and unresolved ideas; findings and versions; active assignments and exact next actions. Replacement agents should resume without reconstructing the conversation or repeating completed research.
+
+Work autonomously using existing authorized tools and public evidence. Make reasonable routine choices and record them. Ask only when a consequential unresolved choice, access limitation or scope boundary genuinely requires my input, while continuing unaffected work. This goal covers research, local CPU models, the report, the local dashboard, and scoped publication to this private research repository. Changes to robotics-vp-core, hardware/GPU execution, new paid services, external messages, and public website publication require separate task scope.
 
 Build one versioned source of data and calculations for the report, dashboard, and exports. Dashboard controls must actually change the relevant models/views and expose assumptions and evidence. Include explicit coverage gaps and a roadmap entry for every important unanswered question. Preserve negative findings and competing explanations.
 
-Follow WEEK_ONE_RESEARCH_SPEC.md's coverage, model, report, dashboard, and validation requirements. At meaningful milestones, update accepted artifacts, the roadmap and handoff, refresh manifest hashes, make scoped commits, and push normally after checking remote state. Preserve unrelated edits and divergence; do not force-push. Distinguish successful publication from another session having consumed the result.
+Follow WEEK_ONE_RESEARCH_SPEC.md's coverage, model, report, dashboard, and validation requirements. Maintain a requirement-by-requirement coverage register from the start. The report's 8,000–15,000-word range is guidance rather than a padding target. Implement the thirteen linked dashboard views and all H/I/J minima; reuse connected cases without duplicating denominators. Create an executable baseline early, then deepen and challenge it throughout the campaign. Templates, placeholder prose, source directories, decorative controls and fabricated inputs do not satisfy completion. At meaningful milestones, update accepted artifacts, the roadmap and handoff, refresh manifest hashes, make scoped commits, and push normally after checking remote state. Preserve unrelated edits and divergence; do not force-push. Distinguish successful publication from another session having consumed the result.
 
 At the deadline deliver the strongest verified v0.1 edition, its exact commit, report and dashboard entry points, reproduction instructions, acceptance results, unresolved limitations, and the next research priorities. Where a requirement remains blocked, identify the attempted route and missing evidence or access; report partial completion accurately. Continue advancing unblocked requirements. Preserve the longer research program rather than pretending the first week settles it.
+
+Begin now: recover the current repository and campaign state, verify the runtime/model and collaboration capabilities, establish shared schemas and the acceptance register, assign the first parallel investigations, and start substantive research. Give me a brief boot status containing the input commit, actual model/reasoning configuration, T0/deadline, initial agent assignments and any genuine execution limitation. Then continue working.
 ```
 
 ## Goal controls and continuity

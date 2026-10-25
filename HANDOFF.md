@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: program-design-2026-10-25-v0.10.
+Handoff ID: program-design-2026-10-25-v0.10-launch1.1.
 
 ## Accepted direction
 
@@ -20,7 +20,7 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 - Charter/design v0.10, digital-AI module v1.1, physical-supply and quadruped/drone modules v1.0, campaign specification v1.4, and roadmap v1.4 define ten workstreams, thirteen linked dashboard views, and 55 open questions. The substantial H module includes connected ecosystem/deployment dossiers, direct-contribution maps, benchmark/analogy cards, joint scenarios, and concrete implications for A–G; approximately one-third research attention is a revisable planning default. I/J add connected supply/configuration and layered-openness maps, time-indexed scale/backcast scenarios, matched embodiment comparisons, three quadruped and three drone evidence dossiers, physical transfer tests and two dashboard views; shared cases and effort are counted once.
 - `WEEK_ONE_RESEARCH_SPEC.md` defines the campaign outputs and acceptance checks.
-- `CODEX_GOAL.md` is prepared activation text.
+- `CODEX_GOAL.md` launch revision 1.1 stores the full execution prompt, including Astra Ultra, explicit multi-agent lanes/waves, independent review, one-writer coordination, semantic checkpoints and initial boot actions. A short /goal can point directly to this file and its linked specifications; no second paste or recursive activation is needed. The intellectual design remains v0.10.
 - `RESEARCH_ROADMAP.md` seeds open questions; none is marked answered merely because the design exists.
 - **The seven-day campaign was not activated by this preparation task.** No week-one report, dashboard, datasets, or model results are claimed to exist.
 - Live ChatGPT project settings and the user's local checkout were not modified by publishing repository documents. Saved instructions were updated in Git only.
