@@ -1,0 +1,30 @@
+# Sole-lead review: regional releases, artifact rights and operator evidence
+
+Disposition: **bounded source extension accepted after the checks below**. The same agent researched, extracted and reviewed it under the user's one-agent instruction. This is not independent peer review, model execution, legal clearance or empirical calibration of the scenario engines.
+
+The Exa pass returned 40 results across three search angles, reduced to 36 exact unique URLs before primary-artifact follow-up. Eight source searches are retained in ignored operational notes. Primary GitHub and Hugging Face metadata/files were pinned; known commit dates precede the pass's initial 26 October 2026 source cutoff. Mutable operator/blog sources retain publication and retrieval dates. Public dataset cards were read; gated dataset bytes, model weights and vendor code were not executed or downloaded.
+
+## Material findings and source checks
+
+- RLDX code is Apache-2.0; inspected public PT/MT-ALLEX weights use the noncommercial RLWRLD Model License v1.0. Code, weights, derivatives, conditional redistribution and private enterprise permission are distinguished. Parameter counts are reported metadata, not tensor or runtime verification.
+- RLDX ALLEX's 86.8 average combines two binary measures and two graded-progress measures. Paper sections 6.3/G.3 retain task-specific fine-tuning, 24 trials, restricted spatial conditions and plastic-ball pouring. The average is not a complete customer-job probability.
+- RLDX Table 9's printed counts and stated scoring weights imply 13/18 score sums, versus its printed 16/20. Direct HTML and the original v2 PDF, page 53, agree. The PDF was rendered and visually inspected; its SHA-256 is `882fba553790218cd215276818c0a8efd41c74db7d9b525d464d762f0850cea9`. The source values remain intact and the empirical effect unresolved; no corrected measurement is substituted.
+- The 71.22/43.70 ms RLDX p50 comparison reproduces the rounded 1.63 ratio for the named desktop/input setup. Median inference is kept separate from tail latency, complete robot-loop deadlines and the AWS-described training/simulation resources.
+- Unitree VLA code metadata, public weights and a selected dataset have different declarations. The referenced WMA repository still matches the existing PHY-E15 pin. Its earlier analogy wording is narrowed to that specific repository; the original source claim is preserved.
+- AgiBot GO-1, data collection and GE-Sim are distinct artifacts/activities. Alpha and Beta are not summed. The actual repository release entry is September 19, 2025; this is kept distinct from March's method introduction and subsequent issuer/model-card dates.
+- RynnBrain's released cognition bases are separate from the exact evaluated VLA policy, which remains unidentified in the inspected release listings. Reported complete-task and progress means reconcile separately. Counts implied by the 20-trial protocol are marked reconstructed, not raw-log verification. The attached RTX 4090 and distinct control loops are not relabeled onboard inference capability.
+- CJ's September 3/21 sources describe one two-robot packing deployment and related technical/development roles. The event is counted once, and no exact RLDX checkpoint/title/throughput is inferred. LOTTE's skill capture and conditional 2030 deployment target remain separate from current productive robotic service.
+
+## Executable boundaries
+
+The source packet now contains 30 claims, 16 role records, 14 model/release records, 20 rights cards, eight dossiers, six benchmark cards and two deployment/reference cards. The role map includes operator, hardware and transaction counterparties; it is not a count of 16 model companies. Existing system and WMA/SDK identities are reused rather than duplicated. All four target architecture costs and qualification remain unknown.
+
+Nine additional tests exercise mixed progress/full-success semantics, the Table 9 conflict, distinct Rynn metrics and implied counts, p50 units, noncommercial clearance, unsupported model attribution, duplicated deployment events, benchmark-calibration guards and invalid source quantities. Existing acquisition arithmetic and prior source tests remain intact. The strict metadata validator reports 13 accepted packages, 167 claims, 317 reported quantities and 81 explicit-null quantity markers, with zero structural errors or warnings. Those results verify metadata and stated checks, not source truth or paper correctness.
+
+The calculated summary never imports a regional benchmark or license declaration into scenario coefficients. Report/dashboard tables distinguish source arithmetic from synthetic scenarios and preserve missing commercial costs, complete rights, checkpoint identity and supported field-scale evidence. The full repository suite passes 190 Python tests, and the browser helpers retain 36 assertions. All 130,535 typed numeric fields across thirteen prior scenario/experiment artifacts are unchanged after provenance regeneration; the assumptions file is unchanged. Browser checks expose the source discrepancy, layered rights and operator boundaries with working primary-source links.
+
+## Remaining limits
+
+The review covers selected sources, not every dependent file, dataset, license history, trial log or possible public checkpoint. A missing item in the inspected release set is not proof of global absence. Private permissions can differ from public grants. Partner roles and a joint-development agreement do not identify an exact executed system. A self-reported operating use is stronger than a plan but still lacks full support/quality/time/cost denominators here.
+
+Paper task metrics and configurations remain useful evidence of component capabilities and research directions. Their limits do not justify dismissing the whole model or supplier, and the isolated Table 9 discrepancy does not establish intent or invalidate unrelated experiments. It does require source clarification before using that specific empirical effect. Broader regional, operator-economic and field-qualification work remains open; the campaign is not complete.

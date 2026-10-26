@@ -118,3 +118,8 @@ See [ARCHITECTURES.md](ARCHITECTURES.md) for the explicit resource, allocation a
 ## One shared entrant/incumbent market
 
 [Stage 4](SHARED_ENTERPRISE.md) now adds a common recurring demand ledger, funded human shifts, enterprise obligations, output invoices and actual equity transfers to the same monthly physical/commercial/Treasury loop. The primary Customer adoption view uses this result. It replaces independent entrant capacity in the new world; historical ENTRY-FG-01 remains separate and is never added. Human and robot delivery reconcile once in `WORK-FLOOR-BUNDLE-SYN-02`; no cleaning-zone or labor-hour conversion is inferred. Loan schedules, autonomous reinvestment, recovery, empirical costs and annual/K architecture bridges remain open.
+
+
+## Regional reported-metric and rights boundaries
+
+[The regional K source audit](../research/regional_frontier_models.md) adds publisher-defined task metrics, artifact grants and operator references to the evidence layer. `frontier_models.regional_source_arithmetic` checks reported means/units and preserves a PDF/HTML count-to-score discrepancy without inventing a corrected empirical effect. Mixed progress is not complete service; a desktop median or control-loop frequency is not an onboard deadline. Public noncommercial weights, permissive code/base releases and private commercial agreements are separate scopes. These source records change no synthetic model parameter or numerical scenario output.

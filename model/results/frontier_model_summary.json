@@ -1,24 +1,178 @@
 {
   "architecture_costs_available": false,
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "coverage": {
-    "contrasting_dossiers": 4,
+    "contrasting_dossiers": 8,
+    "deployment_cards": 2,
     "gaps": [
-      "China and continental-European model/OEM ecosystems need direct follow-up",
-      "Generalist and Dyna mechanisms are not yet separately audited here",
-      "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
-      "Actual matched architecture costs, rights and qualified service remain unknown; the separate synthetic calculator supplies no empirical estimate.",
-      "No robot, model training or GPU/hardware workload was run"
+      "Regional coverage remains selective; continental Europe and additional Asian/US developers need follow-up.",
+      "Generalist and Dyna mechanisms are not yet separately audited here.",
+      "Private model pricing, data/fine-tune rights, fleet support, asset title and margins remain unavailable.",
+      "Exact evaluated RynnBrain-VLA checkpoint and complete deployed-stack rights remain unestablished.",
+      "RLDX Table 9 arithmetic requires source clarification; no corrected measured effect is inferred.",
+      "Actual matched architecture costs and qualified customer service remain unknown; the synthetic calculators supply no empirical estimate.",
+      "No robot, model training or GPU/hardware workload was run."
     ],
-    "mapped_actors": 9,
+    "mapped_actors": 16,
+    "model_release_records": 14,
     "not_exhaustive": true,
-    "rights_cards": 8,
+    "rights_cards": 20,
     "scenario_coefficients_imported": false
   },
+  "deployment_cards": [
+    {
+      "accepted_output_rate": null,
+      "accepted_output_rate_missing_reason": "No complete quality/time/support denominator in the inspected operator announcements.",
+      "asset_owner": null,
+      "asset_owner_missing_reason": "Deployment is not a disclosed title or financing arrangement.",
+      "counting_rule": "One two-robot event, repeated in September 3 and September 21 sources; count once.",
+      "deployment_id": "K-DEP-CJ-YANGJI-202609",
+      "event_identity": "CJ-YANGJI-OLIVE-YOUNG-2026-09",
+      "evidence_ids": [
+        "K-E020",
+        "K-E021"
+      ],
+      "geography": "Yangji, Yongin, South Korea",
+      "label": "CJ Yangji Olive Young cushioning insertion",
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "model_id": null,
+      "model_id_missing_reason": "Sources name RFM cooperation but do not identify the executed checkpoint on these robots.",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-ROBOTIS",
+          "role": "hardware cooperation"
+        },
+        {
+          "actor_id": "K-A-AIDIN",
+          "role": "hand technology cooperation"
+        },
+        {
+          "actor_id": "K-A-RLWRLD",
+          "role": "RFM cooperation"
+        }
+      ],
+      "operator_actor_id": "K-A-CJ",
+      "reported_robot_count_quantity_id": "K-Q-CJ-YANGJI-ROBOTS",
+      "service_boundary": "Cushioning material placed into boxes in customer-order packing",
+      "status": "operator_reported_operating_use",
+      "summary": "Operator-reported real packing use; exact model, configuration, support, title and economics remain unresolved."
+    },
+    {
+      "deployment_id": "K-DEP-LOTTE-DATA-PLAN",
+      "event_identity": "LOTTE-SKILL-DATA-AND-PLAN-2026-06",
+      "evidence_ids": [
+        "K-E019"
+      ],
+      "geography": "Seoul, South Korea",
+      "label": "LOTTE workplace data capture and conditional 2030 plan",
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "model_id": null,
+      "model_id_missing_reason": "The account names the RLDX family, not a qualified deployed hotel-service checkpoint.",
+      "operator_actor_id": "K-A-LOTTE",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No current productive robot fleet count established by the inspected account.",
+      "service_boundary": "Hotel skill capture across worksite activities; intended later robotic service",
+      "status": "reported_data_activity_and_conditional_future_deployment",
+      "summary": "Worksite data activity and planned deployment remain separate from current accepted robotic service."
+    }
+  ],
   "model_benchmark_ranking_available": false,
   "operating_quantity_boundary": "ARR, recognized revenue and paying-customer count retain their separate denominators; no combined revenue or margin is calculated.",
+  "regional_source_checks": {
+    "allex": {
+      "evidence_ids": [
+        "K-E016"
+      ],
+      "metric": "mean of heterogeneous binary and progress task scores",
+      "recomputed_mean": 86.8,
+      "reported_mean": 86.8,
+      "whole_job_success_probability": null,
+      "whole_job_success_probability_missing_reason": "Full completion cannot be reconstructed from mixed progress averages."
+    },
+    "cross_model_ranking_available": false,
+    "rldx_latency": {
+      "eager_p50_ms": 71.22,
+      "evidence_ids": [
+        "K-E017"
+      ],
+      "hardware": "RTX 5090 and Core Ultra 7 265K desktop",
+      "optimized_p50_ms": 43.7,
+      "recomputed_ratio": 1.6297482837528605,
+      "reported_ratio": 1.63,
+      "scope": "Reported all-modality p50 inference setup; no tail/embedded/complete-robot-loop guarantee."
+    },
+    "rldx_table9": {
+      "corrected_empirical_effect": null,
+      "corrected_empirical_effect_missing_reason": "Counts, scoring rule and printed score column disagree; which source entry requires correction is unknown.",
+      "evidence_ids": [
+        "K-E030"
+      ],
+      "rows": [
+        {
+          "condition": "real",
+          "printed_counts": {
+            "fail": 7,
+            "full": 9,
+            "partial": 8
+          },
+          "printed_percent": 66.7,
+          "printed_score": 16.0,
+          "score_from_printed_counts_and_rule": 13.0,
+          "score_reconciles": false,
+          "trials": 24
+        },
+        {
+          "condition": "augmented",
+          "printed_counts": {
+            "fail": 2,
+            "full": 14,
+            "partial": 8
+          },
+          "printed_percent": 83.3,
+          "printed_score": 20.0,
+          "score_from_printed_counts_and_rule": 18.0,
+          "score_reconciles": false,
+          "trials": 24
+        }
+      ],
+      "scope": "Verified in direct HTML and visually in arXiv v2 PDF page 53. Conditional reconstruction is not corrected measured performance.",
+      "source_conflict_present": true,
+      "status": "unresolved_source_arithmetic"
+    },
+    "rynn_trials": {
+      "evidence_ids": [
+        "K-E028",
+        "K-E029"
+      ],
+      "regimes": [
+        {
+          "full_completions_implied_by_percentages": 52,
+          "protocol_trials": 60,
+          "raw_trial_logs_verified": false,
+          "recomputed_final_success_percent": 86.66666666666667,
+          "recomputed_process_percent": 91.27666666666667,
+          "regime": "single",
+          "reported_final_success_percent": 86.67,
+          "reported_process_percent": 91.28
+        },
+        {
+          "full_completions_implied_by_percentages": 55,
+          "protocol_trials": 60,
+          "raw_trial_logs_verified": false,
+          "recomputed_final_success_percent": 91.66666666666667,
+          "recomputed_process_percent": 94.14,
+          "regime": "generalist",
+          "reported_final_success_percent": 91.67,
+          "reported_process_percent": 94.14
+        }
+      ],
+      "scope": "Three trained tasks; 20 randomized trials per task. Process and final-success metrics remain distinct; implied counts are arithmetic, not a trial-log audit."
+    },
+    "scenario_inputs_used": false,
+    "status": "bounded_source_arithmetic_not_runtime_validation"
+  },
   "scenario_inputs_used": false,
-  "schema_version": "frontier-model-summary/1.0",
+  "schema_version": "frontier-model-summary/1.1",
   "skild_issuer_reported_quantities": [
     {
       "bound": 100000000,
@@ -74,11 +228,20 @@
         "K-E010"
       ],
       "status": "unresolved_effective_model_terms"
+    },
+    {
+      "conflict_id": "K-C-RLDX-TABLE9",
+      "corrected_empirical_effect_available": false,
+      "details": "Table 9 states 1/0.5/0 scoring. The printed counts imply score sums 13 and 18, while the printed score column gives 16 and 20. Both direct HTML and PDF page 53 show these values. Which entry needs correction is unresolved; conditional arithmetic is not a corrected measured result.",
+      "evidence_ids": [
+        "K-E030"
+      ],
+      "status": "unresolved_in_inspected_v2"
     }
   ],
   "source_hashes": {
-    "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
-    "model/frontier_models.py": "c656205668ba2687d4792a32912c7f3127990412cd2360ee2651e46bbbd90ebc"
+    "data/frontier_model_economics.json": "a5a624353d24c6bda6326efe4a96f4bfc2bcbfc1853a4d8d56feacea620d96f6",
+    "model/frontier_models.py": "485f2ffa4f5bed2bc2a6505e5f46b85fa9130d57ddd2dcbfffe45e13f0a1ab77"
   },
   "status": "bounded_source_synthesis_not_company_valuation",
   "transaction": {

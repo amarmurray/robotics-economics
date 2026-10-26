@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.9.
+Handoff ID: week-one-2026-10-25-in-progress-0.10.
 
 ## Accepted direction
 
@@ -20,7 +20,29 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: shared entrant market and cash, edition 0.9
+## Current checkpoint: regional model evidence and cloud continuation, edition 0.10
+
+Amar requested handoff to cloud Codex after this checkpoint. Continue the existing campaign in one execution environment with **one agent only**; do not restart the week or activate the historical specialist plan. Preserve T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z**. A transfer request or repository push is not confirmation that a cloud task started or consumed the files. Exact publication and transfer receipts stay in ignored operational records. Local research should not run concurrently with the successor.
+
+The accepted regional extension is [research/regional_frontier_models.md](research/regional_frontier_models.md), integrated into `REPORT.md` edition 0.10 and the existing dashboard. It separates RLDX, Unitree, AgiBot and RynnBrain releases, public code/weight/data rights, evaluated configurations and operator relationships. RLDX's ALLEX average combines binary success and graded progress. Its original v2 PDF page 53 and HTML preserve a Table 9 count/rule/score discrepancy; no corrected measured effect is invented. RynnBrain final/process metrics remain separate, and the exact evaluated VLA checkpoint remains unidentified in the inspected release listings. CJ's two-robot packing deployment is one event with hardware/model-development roles but unknown exact checkpoint, support and economics. LOTTE skill capture and a conditional 2030 target are not current productive deployment.
+
+There are now 13 accepted packages, **167 claims, 317 reported quantities and 81 explicit-null markers**. K contains 30 claims, 16 role records (not 16 model companies), 14 model/release records, 20 rights cards, eight dossiers, six benchmark cards and two deployment/reference cards. Primary release/card/license revisions are pinned. Public source grants do not establish full-stack commercial clearance; private enterprise terms remain unknown. No model weights, gated dataset bytes, vendor workloads or hardware were executed.
+
+Validation: **190 Python tests and 36 JavaScript assertions passed**. Strict evidence validation reports zero errors/warnings. All **130,535 typed numeric fields across thirteen prior scenario/experiment artifacts remain unchanged**, and the assumptions file is unchanged. The source helper reproduces bounded arithmetic and guards metric, license and deployment identities; this does not validate a paper's empirical result or calibrate scenarios. The review is sole-lead under the usage cap. The acceptance register remains **53 bounded met and 16 partial**. See [the regional review](reviews/regional_frontier_review.md), `ACCEPTANCE_AUDIT.md` and `REPRODUCE.md`.
+
+**Cloud resumption checklist:**
+
+1. Resolve current private remote `main` and record the exact input SHA. Read `AGENTS.md`, this handoff, the manifest, charter, design, K module, week-one spec and roadmap at that same revision. Use a clean cloud checkout of the accepted state. Do not infer access to local ignored receipts, source caches or unpublished Mac files.
+2. Verify manifest content hashes and the existing reproduction checks before extending accepted files. Preserve source dates, versions, conflicts and nulls. Fetch original primary artifacts again when needed; the published source records and review identify them. Local PDF/cache paths are not portable dependencies.
+3. Continue the consequential Generalist/Dyna and operator-facing evidence gaps: exact released/evaluated/deployed systems, adaptation/qualification resources, recurring support, access/contract rights, customer operating authority and qualified supply. Stop an exhausted public-source block at a documented disclosure gap. Connect findings to the shared monthly customer/physical/cash case without inventing prices or copying benchmark scores into coefficients.
+4. Preserve the broad A–J program, substantial H and I/J modules, customer-side standalone/acquisition/hybrid entry and distinct provider/operator/integrator/financier inquiry. The selective K audit is not a complete census. Remaining model work includes explicit loan servicing/maturity, reinvestment/recovery, build/acquire/hybrid shared cases and annual/architecture bridges; do not expand abstract finance at the expense of consequential evidence.
+5. Work within the existing CPU/public-source/private-repository authorization. No outreach, issues/comments, paid services, GPU/robot runs, public hosting or other-repository edits. Validate, update accepted artifacts and this handoff, refresh manifest hashes, make scoped commits and normal pushes to main after inspecting divergence. Never force-push, auto-merge divergence or claim another session consumed a push. At the deadline provide the strongest verified edition and an honest completeness audit.
+
+The working Mac execution clone is recorded in local `work/ACTIVE_EXECUTION.json`. The original canonical Mac checkout remains preserved and unreconciled, with distinct user work including an untracked legacy fixture; Finder Keep Downloaded is enabled. Its reconciliation is a separate local maintenance step, not a dependency for cloud research. Do not overwrite it or represent cloud files as having updated it. The approved Xcode build-cache cleanup was completed locally after checking for active builds/open cache files; it did not change source repositories.
+
+**Next question:** which public operator/model arrangement identifies the exact system, commercial rights, recurring support and accepted output well enough to supply a real counterpart to the shared monthly customer case?
+
+## Previous checkpoint: shared entrant market and cash, edition 0.9
 
 The goal continues through the original November 1 deadline with **one agent only**. Execution remains in the verified local clone of this repository recorded in ignored `work/ACTIVE_EXECUTION.json`; the canonical Mac folder is preserved and Finder “Keep Downloaded” is authorized/enabled. Its original Git checkout is not assumed reconciled. Preserve the unrelated original fixture and all other user work. Operational receipts retain input/publication revisions and execution paths; no campaign clock reset or independently verified serving-model identity is implied.
 
@@ -147,7 +169,7 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate execution follows the current checkpoint checklist above: pursue consequential regional K and operator/service evidence against the now-shared monthly customer/physical/cash case, while keeping remaining financial mechanisms explicit. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the cloud resumption checklist above, preserving the completed regional K audit and pursuing consequential operator/service evidence against the shared monthly customer/physical/cash case, while keeping remaining financial mechanisms explicit. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 

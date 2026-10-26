@@ -1,7 +1,7 @@
 {
-  "schema_version": "frontier-model-economics/1.0",
-  "as_of": "2026-10-25",
-  "status": "bounded_primary_source_research",
+  "schema_version": "frontier-model-economics/0.2",
+  "as_of": "2026-10-26",
+  "status": "bounded_regional_source_synthesis",
   "evidence": [
     {
       "evidence_id": "K-E001",
@@ -459,6 +459,729 @@
       "source_class": "primary_publisher_material",
       "epistemic_status": "supplier_partner_description",
       "limitations": "Partner repetition is not an independent performance or revenue audit. Training, simulation and serving resources stay separate from qualified robot hardware; the exact S1 public launch date is not resolved by relative wording."
+    },
+    {
+      "evidence_id": "K-E015",
+      "title": "RLDX-1 code and public weight terms",
+      "claim": "The pinned RLDX-1 repository declares Apache-2.0 for code, while the PT and MT-ALLEX model cards and license files apply the noncommercial RLWRLD Model License v1.0, including derivative models. PT and MT-ALLEX are distinct checkpoints with different reported parameter counts.",
+      "urls": [
+        "https://github.com/RLWRLD/RLDX-1/blob/cf67c31f7f168ebbca6d06e8c3c23914cb94435c/README.md",
+        "https://github.com/RLWRLD/RLDX-1/blob/cf67c31f7f168ebbca6d06e8c3c23914cb94435c/LICENSE.md",
+        "https://huggingface.co/RLWRLD/RLDX-1-PT/resolve/38fb9498af6650915a79cd44cb3169026072081d/README.md",
+        "https://huggingface.co/RLWRLD/RLDX-1-PT/resolve/38fb9498af6650915a79cd44cb3169026072081d/LICENSE.md",
+        "https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX/resolve/3bb83830b8466bb64663d14d1c35f6687d3f641b/README.md"
+      ],
+      "publisher": "RLWRLD",
+      "publication_date": null,
+      "observation_period": "Pinned code July 31, 2026 and public model repositories last modified October 13, 2026",
+      "retrieved_at": "2026-10-26",
+      "locator": "README checkpoints/license; model cards; Model License sections 1, 3.1 and 3.3",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_artifact_specific_terms",
+      "limitations": "The public weight grant does not disclose negotiated enterprise permissions or prices. Share-alike is conditional on distribution; a royalty-free research grant is not commercial deployment clearance. Tensor contents and actual model execution were not verified.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RLDX-PT-PARAMS",
+          "value": 6.9,
+          "unit": "billion reported parameters",
+          "denominator": "one RLDX-1-PT checkpoint; not active parameters or measured compute",
+          "population": "RLDX-1-PT model card",
+          "period": "inspected October 2026",
+          "epistemic_status": "publisher_reported_quantity"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-MT-PARAMS",
+          "value": 8.1,
+          "unit": "billion reported parameters",
+          "denominator": "one RLDX-1-MT-ALLEX checkpoint; not a universal RLDX-family size",
+          "population": "RLDX-1-MT-ALLEX model card",
+          "period": "inspected October 2026",
+          "epistemic_status": "publisher_reported_quantity"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E016",
+      "title": "RLDX ALLEX metric and adaptation boundary",
+      "claim": "The ALLEX headline average combines binary conveyor/selection measures with partial-progress scores for card manipulation and pouring. The paper specifies task-specific fine-tuning, 24 trials per task, interpolated conveyor speeds, a restricted card-test height and plastic balls for pouring. It reports that neither baseline completed the full pouring task despite positive progress scores.",
+      "urls": [
+        "https://arxiv.org/html/2605.03269v2",
+        "https://www.rlwrld.ai/en/rldx-1"
+      ],
+      "publisher": "RLWRLD authors",
+      "publication_date": "2026-05-06",
+      "observation_period": "ALLEX laboratory tests reported in arXiv v2; blog dated May 7",
+      "retrieved_at": "2026-10-26",
+      "locator": "Section 6.3; Appendix G.3; technical blog Table 4",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "author_reported_physical_evaluation",
+      "limitations": "The 86.8 average is not a fleet uptime or autonomous complete-job probability. Progress distributions, production support exposure and actual customer economics are not established; we did not run the policies.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-CONVEYOR",
+          "value": 87.5,
+          "unit": "percent of task-specific score",
+          "denominator": "binary task success under the paper protocol",
+          "population": "RLDX-1 ALLEX conveyor manipulation",
+          "period": "arXiv 2605.03269v2 evaluation",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-SELECTION",
+          "value": 91.7,
+          "unit": "percent of task-specific score",
+          "denominator": "binary selection success under the paper protocol",
+          "population": "RLDX-1 ALLEX object selection",
+          "period": "arXiv 2605.03269v2 evaluation",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-CARD",
+          "value": 97.2,
+          "unit": "percent of task-specific score",
+          "denominator": "three-stage progress score under the paper protocol",
+          "population": "RLDX-1 ALLEX card manipulation",
+          "period": "arXiv 2605.03269v2 evaluation",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-POUR",
+          "value": 70.8,
+          "unit": "percent of task-specific score",
+          "denominator": "four-stage progress score under the paper protocol",
+          "population": "RLDX-1 ALLEX pot-to-cup manipulation",
+          "period": "arXiv 2605.03269v2 evaluation",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-MEAN",
+          "value": 86.8,
+          "unit": "percent mean task-specific score",
+          "denominator": "unweighted mean of four heterogeneous task metrics; not whole-job completion",
+          "population": "four ALLEX benchmark tasks",
+          "period": "May 2026 report/blog",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-ALLEX-TRIALS",
+          "value": 24,
+          "unit": "trials per task per policy",
+          "denominator": "each ALLEX task in Appendix G.3; task-specific scoring retained",
+          "population": "ALLEX benchmark",
+          "period": "arXiv v2 Appendix G.3",
+          "epistemic_status": "author_reported_protocol"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E017",
+      "title": "RLDX median latency on a named desktop",
+      "claim": "The technical report/blog reports a lower median inference latency after static-graph/CUDA-graph and kernel optimization for a stated ALLEX input configuration on an RTX 5090 and Core Ultra 7 265K desktop.",
+      "urls": [
+        "https://www.rlwrld.ai/en/rldx-1",
+        "https://arxiv.org/html/2605.03269v2"
+      ],
+      "publisher": "RLWRLD authors",
+      "publication_date": "2026-05-07",
+      "observation_period": "Published inference experiment; not this research runtime",
+      "retrieved_at": "2026-10-26",
+      "locator": "Technical blog section 6.1/Table 3; report inference-optimization comparison",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "author_reported_inference_benchmark",
+      "limitations": "The median and named desktop/input configuration are retained. No p95/p99, worst-case deadline, embedded-board power budget, camera-to-actuator latency or supported task throughput is established.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RLDX-P50-EAGER",
+          "value": 71.22,
+          "unit": "milliseconds",
+          "denominator": "p50 reported inference latency, all-modality variant",
+          "population": "RTX 5090 plus Core Ultra 7 265K; ALLEX dual-view 192x256, four frames, chunk 40, four denoising steps",
+          "period": "published May 2026",
+          "epistemic_status": "author_reported_inference_benchmark"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-P50-OPT",
+          "value": 43.7,
+          "unit": "milliseconds",
+          "denominator": "same reported p50 setup after graph and kernel optimization",
+          "population": "same all-modality configuration",
+          "period": "published May 2026",
+          "epistemic_status": "author_reported_inference_benchmark"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-P50-SPEEDUP",
+          "value": 1.63,
+          "unit": "ratio",
+          "denominator": "reported eager latency divided by optimized latency",
+          "population": "same p50 inference comparison",
+          "period": "published May 2026",
+          "epistemic_status": "author_reported_inference_benchmark"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E018",
+      "title": "RLWRLD training and simulation infrastructure roles",
+      "claim": "The AWS/RLWRLD coauthored account places training on p5e/p5en H200 instances and simulation evaluation on g6e L40S instances, with scheduled Capacity Blocks, Slurm/ParallelCluster, S3 and Lustre. These are distinct from the desktop inference experiment.",
+      "urls": [
+        "https://aws.amazon.com/blogs/physical-ai/putting-dexterous-robots-to-work-how-rlwrld-builds-physical-ai-with-aws/"
+      ],
+      "publisher": "AWS and RLWRLD contributors",
+      "publication_date": "2026-06-22",
+      "observation_period": "Infrastructure described by the supplier and model developer",
+      "retrieved_at": "2026-10-26",
+      "locator": "Compute; Distributed training; Data pipeline and storage",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "supplier_customer_coauthored_technical_account",
+      "limitations": "The source is a provider/customer account, not an audited training-cost or availability ledger. Total nodes, paid compute, effective data reuse, serving cost and qualified onboard capacity are not established."
+    },
+    {
+      "evidence_id": "K-E019",
+      "title": "LOTTE data collection and conditional deployment target",
+      "claim": "The coauthored AWS account describes hotel skill capture and dedicated on-site space at LOTTE, with a multi-year data partnership under discussion and full-scale robot deployment targeted for 2030 subject to safety validation and operating tests.",
+      "urls": [
+        "https://aws.amazon.com/blogs/physical-ai/putting-dexterous-robots-to-work-how-rlwrld-builds-physical-ai-with-aws/"
+      ],
+      "publisher": "AWS and RLWRLD contributors",
+      "publication_date": "2026-06-22",
+      "observation_period": "Described hotel assessment/data collection and future conditional plan",
+      "retrieved_at": "2026-10-26",
+      "locator": "Deployment in action: LOTTE HOTEL & RESORT",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "supplier_customer_coauthored_plan_and_data_activity",
+      "limitations": "Data collection, a dedicated space and a deployment target do not establish current productive robot exposure, a signed service duration, accepted throughput, customer payments or model margins. The operator contract was not inspected."
+    },
+    {
+      "evidence_id": "K-E020",
+      "title": "CJ operator-reported live packing deployment and named partners",
+      "claim": "CJ reports two dual-arm humanoid robots inserting cushioning material in customer-order packing at its Yangji Olive Young logistics center. The same announcement names Robotis for hardware, Aidin Robotics for hands and RLWRLD for RFM collaboration, without identifying the deployed checkpoint or exact hardware configuration.",
+      "urls": [
+        "https://www.cjlogistics.com/ko/newsroom/news/NR_00001386"
+      ],
+      "publisher": "CJ Logistics",
+      "publication_date": "2026-09-03",
+      "observation_period": "Robots reported recently operating at Yangji, Yongin, South Korea",
+      "retrieved_at": "2026-10-26",
+      "locator": "Deployment paragraphs; partner-role paragraph; FAQ (English paraphrase of Korean source)",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "operator_reported_operating_use",
+      "limitations": "The publication establishes an operator-reported operating use, not audited throughput, autonomy, labor removal, ROI, ownership or a confirmed RLDX-1 deployment. Named partnership roles are not a complete system bill of materials.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-CJ-YANGJI-ROBOTS",
+          "value": 2,
+          "unit": "robots",
+          "denominator": "one reported site deployment; later repetition of the same event is not another installation",
+          "population": "dual-arm humanoids at CJ Yangji Olive Young packing line",
+          "period": "reported September 3, 2026",
+          "epistemic_status": "operator_reported_count"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E021",
+      "title": "CJ-RLWRLD co-development and customer authority",
+      "claim": "CJ describes a September 18 MOU expanding RFM co-development, logistics data/requirements and planned waybill-orientation PoCs. It identifies a 2025 equity investment and earlier cooperation. The repeated two-robot site reference is the same operating event documented in K-E020.",
+      "urls": [
+        "https://www.cjlogistics.com/ko/newsroom/news/NR_00001393"
+      ],
+      "publisher": "CJ Logistics",
+      "publication_date": "2026-09-21",
+      "observation_period": "September 18, 2026 agreement; earlier investment/cooperation; planned logistics PoCs",
+      "retrieved_at": "2026-10-26",
+      "locator": "MOU, joint RFM development and PoC paragraphs (English paraphrase of Korean source)",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "operator_announced_development_relationship",
+      "limitations": "Co-development, investment, operational requirements and productive service are different claims. The article does not reveal model/fine-tune/data reuse rights, exclusivity, asset title, SLA, prices or measured economic returns."
+    },
+    {
+      "evidence_id": "K-E022",
+      "title": "Unitree VLA code declaration and public model-weight license",
+      "claim": "The UnifoLM-VLA-0 repository records a January 29 code/weight release and declares BSD-3-Clause in package metadata. The pinned UnifoLM-VLA-Base model card and LICENSE instead specify CC-BY-NC-SA-4.0 for the model. No standalone root license file was present in the inspected VLA repository listing.",
+      "urls": [
+        "https://github.com/unitreerobotics/unifolm-vla/blob/ff6c39aeb0454cfb95418c66aef40ca777f935c1/README.md",
+        "https://github.com/unitreerobotics/unifolm-vla/blob/ff6c39aeb0454cfb95418c66aef40ca777f935c1/pyproject.toml",
+        "https://huggingface.co/unitreerobotics/UnifoLM-VLA-Base/resolve/06fee5014922ba6791cfe48d1e4aefac995dd8a2/README.md",
+        "https://huggingface.co/unitreerobotics/UnifoLM-VLA-Base/resolve/06fee5014922ba6791cfe48d1e4aefac995dd8a2/LICENSE"
+      ],
+      "publisher": "Unitree Robotics",
+      "publication_date": null,
+      "observation_period": "VLA repository commit January 29, 2026; model repository snapshot March 6, 2026",
+      "retrieved_at": "2026-10-26",
+      "locator": "README release/checkpoints; pyproject license; model-card License and LICENSE",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_artifact_specific_terms",
+      "limitations": "The code declaration and model grant concern different artifacts. This is not a full dependency or legal-clearance audit, and no complete production policy was executed. The public noncommercial grant does not establish private commercial terms.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established."
+    },
+    {
+      "evidence_id": "K-E023",
+      "title": "Unitree dataset and deployment-code layers differ",
+      "claim": "The selected G1_Dex1_Stack_Block dataset card declares Apache-2.0. The VLA real-robot recipe points to the separate unifolm-world-model-action deployment guide; that repository has the separately inspected noncommercial license in PHY-E15, while SDK2 has the BSD grant in PHY-E14.",
+      "urls": [
+        "https://huggingface.co/datasets/unitreerobotics/G1_Dex1_Stack_Block/resolve/0b3905f83f5ef5fe64a44af3a1d829830192e7e5/README.md",
+        "https://github.com/unitreerobotics/unifolm-vla/blob/ff6c39aeb0454cfb95418c66aef40ca777f935c1/README.md"
+      ],
+      "publisher": "Unitree Robotics",
+      "publication_date": null,
+      "observation_period": "Pinned dataset September 16, 2026 and existing pinned SDK/WMA sources",
+      "retrieved_at": "2026-10-26",
+      "locator": "Dataset metadata and License; VLA real-robot deployment instructions",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_layered_artifact_declarations",
+      "limitations": "One dataset card does not license every dataset, weight, dependency or hardware design. A linked deployment recipe is not a complete rights/compatibility assessment; G1 family references do not establish the same configured hands or control stack.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established."
+    },
+    {
+      "evidence_id": "K-E024",
+      "title": "GO-1 released research artifacts and noncommercial grants",
+      "claim": "GO-1 was introduced in a March 10, 2025 project post; the pinned repository records a September 19 open-source entry. Its repository code/data declaration and the public GO-1 model card specify CC-BY-NC-SA-4.0. The repository documents a remote inference interface and separate platform examples.",
+      "urls": [
+        "https://github.com/OpenDriveLab/AgiBot-World/blob/98f136ea6b345db1a08451a2f543d67c1789a809/README.md",
+        "https://huggingface.co/agibot-world/GO-1/resolve/0bc37be9caa20b5b3d4a569ec462409072d3e244/README.md",
+        "https://agibot-world.com/blog/go1/"
+      ],
+      "publisher": "AgiBot-World collaboration",
+      "publication_date": null,
+      "observation_period": "Method announcement March 10, 2025; code-release entry September 19; inspected model revision September 21",
+      "retrieved_at": "2026-10-26",
+      "locator": "README News/License/model interface; model-card License",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_artifact_release_and_terms",
+      "limitations": "Announcement, code release, checkpoint snapshot and production qualification are different milestones. Public research access does not establish a commercial platform agreement or accepted-output economics. AgiBot G1 and Unitree G1 retain separate identities.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established."
+    },
+    {
+      "evidence_id": "K-E025",
+      "title": "AgiBot World collection scale and reuse boundary",
+      "claim": "The Beta dataset card reports one million-plus trajectories from 100 collection robots and 2976.4 recorded hours. Alpha has its own updated task/hour description. Both public cards declare noncommercial terms and metadata exposes an access-agreement gate.",
+      "urls": [
+        "https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta/resolve/2252b3fdc88dc67fa5d5e4b771e1b86f5e71c278/README.md",
+        "https://huggingface.co/datasets/agibot-world/AgiBotWorld-Alpha/resolve/128665c9e0244c45d1cbe5c13f5a4706afd24f27/README.md"
+      ],
+      "publisher": "AgiBot-World collaboration",
+      "publication_date": null,
+      "observation_period": "Beta release entry March 1, 2025; pinned Alpha/Beta metadata September/October 2025",
+      "retrieved_at": "2026-10-26",
+      "locator": "Dataset-card overview, release notes and license/access declaration",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "publisher_reported_dataset_collection",
+      "limitations": "The corpus and overlap were not audited from raw data. Alpha/Beta are not added; collection robots and trajectories are not commercial deployments or accepted service jobs. Public cards were inspected without accessing gated dataset bytes.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-AGIBOT-BETA-TRAJECTORIES",
+          "value": null,
+          "unit": "trajectories",
+          "denominator": "reported Beta collection; precise episode count not inspected",
+          "population": "AgiBot World Beta",
+          "period": "card snapshot October 2025",
+          "epistemic_status": "publisher_reported_quantity",
+          "bound": 1000000,
+          "comparison": ">",
+          "value_missing_reason": "Publisher reports one million-plus, not an inspected exact count."
+        },
+        {
+          "quantity_id": "K-Q-AGIBOT-BETA-ROBOTS",
+          "value": 100,
+          "unit": "data-collection robots",
+          "denominator": "collection hardware reported for this dataset; not an installed productive fleet",
+          "population": "AgiBot World Beta",
+          "period": "card snapshot October 2025",
+          "epistemic_status": "publisher_reported_quantity"
+        },
+        {
+          "quantity_id": "K-Q-AGIBOT-BETA-HOURS",
+          "value": 2976.4,
+          "unit": "recorded dataset hours",
+          "denominator": "recorded trajectory duration; not productive robot-hours",
+          "population": "AgiBot World Beta",
+          "period": "card snapshot October 2025",
+          "epistemic_status": "publisher_reported_quantity"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E026",
+      "title": "GE-Sim 2.0 is a simulator with layered licenses",
+      "claim": "GE-Sim 2.0 publishes an action-conditioned video/world simulator and names June 25 code/weight release and October 17 evaluation/robot-support updates. Its README distinguishes Apache upstream code from other noncommercial code/data, and separately identifies openpi/Gemma terms for the served pi05 policy.",
+      "urls": [
+        "https://github.com/AgibotTech/GE-Sim-V2/blob/508c60f1a737a54ad2aaa974e63489c7f0c1b1a2/README.md"
+      ],
+      "publisher": "AgiBot GE-Sim team",
+      "publication_date": null,
+      "observation_period": "Pinned October 20, 2026 repository snapshot",
+      "retrieved_at": "2026-10-26",
+      "locator": "README News, Architecture, Running and License",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_research_simulator_and_terms",
+      "limitations": "Generated rollouts are not physical deployment exposure. G01/G02 in this source identify supported robot configurations, not a verified GO-2 policy release. Every component and checkpoint needs its own rights/qualification check; no simulator or policy was run.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established."
+    },
+    {
+      "evidence_id": "K-E027",
+      "title": "RynnBrain base releases and evaluated policy identity",
+      "claim": "The repository records July 16, 2026 release of RynnBrain 1.1 base checkpoints. Pinned 2B/9B cards identify Qwen3.5 bases, image-text-to-text pipelines and Apache-2.0 declarations; the code has an Apache license. The paper separately reports post-trained RynnBrain-VLA policies.",
+      "urls": [
+        "https://github.com/alibaba-damo-academy/RynnBrain/blob/5b8641993fd265300dba89f079d9b708ffe19ed4/README.md",
+        "https://github.com/alibaba-damo-academy/RynnBrain/blob/5b8641993fd265300dba89f079d9b708ffe19ed4/LICENSE",
+        "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain1.1-2B/resolve/36069aa841fc58f500d307316cbfdf379777ce8a/README.md",
+        "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain1.1-9B/resolve/22faf91e92a87a3d72d0b61fdae78cf864445a45/README.md",
+        "https://arxiv.org/html/2607.17977v2"
+      ],
+      "publisher": "Alibaba DAMO Academy / Hupan Lab authors",
+      "publication_date": null,
+      "observation_period": "July 16 release entry; pinned code August 10 and base cards September 9, 2026",
+      "retrieved_at": "2026-10-26",
+      "locator": "README Model Zoo; model-card metadata; report sections 4 and 5.6",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_release_layer_and_reported_policy",
+      "limitations": "The inspected base-model release listings do not identify the exact checkpoint/revision used for the reported VLA tests. Permissive base/code declarations do not alone resolve trained policy, controller, data, hardware or service rights/qualification.",
+      "publication_date_missing_reason": "Artifact-level declarations are pinned by repository revision; a distinct publication date for each declaration was not established."
+    },
+    {
+      "evidence_id": "K-E028",
+      "title": "RynnBrain real-robot metrics and controlled comparison",
+      "claim": "The paper separates final complete-task success from subtask progress over three tasks with 20 trials each. It compares per-task RynnBrain-VLA with one jointly trained multi-task/multi-embodiment policy. The Qwen-initialization comparison uses matched downstream data and settings; other baselines use different action-chunk lengths.",
+      "urls": [
+        "https://arxiv.org/html/2607.17977v2"
+      ],
+      "publisher": "Alibaba DAMO Academy / Hupan Lab authors",
+      "publication_date": "2026-07-31",
+      "observation_period": "Controlled author-reported real-robot evaluation",
+      "retrieved_at": "2026-10-26",
+      "locator": "Sections 4.5 and 5.6; Table 6",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "author_reported_physical_evaluation",
+      "limitations": "These trained-task experiments do not establish zero-shot factory service, a universal scaling law or a causal cross-embodiment transfer coefficient. Trial logs, exact executed checkpoints, complete support exposure and customer economics were not verified.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RYNN-TRIALS",
+          "value": 20,
+          "unit": "trials per task per policy",
+          "denominator": "randomized initial object placements under the authors protocol",
+          "population": "three Table 6 tasks",
+          "period": "arXiv 2607.17977v2",
+          "epistemic_status": "author_reported_protocol"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-FLOWERS",
+          "value": 85,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA single flowers",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-WINE",
+          "value": 80,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA single wine",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-UTENSILS",
+          "value": 95,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA single utensils",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-MEAN",
+          "value": 86.67,
+          "unit": "percent mean complete-task success",
+          "denominator": "unweighted mean over the three named tasks",
+          "population": "RynnBrain-VLA single",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-FLOWERS",
+          "value": 85,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA generalist flowers",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-WINE",
+          "value": 95,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA generalist wine",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-UTENSILS",
+          "value": 95,
+          "unit": "percent complete-task success",
+          "denominator": "20 trials for the named task; not subtask progress",
+          "population": "RynnBrain-VLA generalist utensils",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-MEAN",
+          "value": 91.67,
+          "unit": "percent mean complete-task success",
+          "denominator": "unweighted mean over the three named tasks",
+          "population": "RynnBrain-VLA generalist",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-PROC-FLOWERS",
+          "value": 87.5,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA single flowers",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-PROC-WINE",
+          "value": 88.0,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA single wine",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-PROC-UTENSILS",
+          "value": 98.33,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA single utensils",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-SINGLE-PROC-MEAN",
+          "value": 91.28,
+          "unit": "percent mean subtask progress",
+          "denominator": "unweighted mean of the three per-task progress scores",
+          "population": "RynnBrain-VLA single",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-PROC-FLOWERS",
+          "value": 88.75,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA generalist flowers",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-PROC-WINE",
+          "value": 97.0,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA generalist wine",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-PROC-UTENSILS",
+          "value": 96.67,
+          "unit": "percent subtask progress",
+          "denominator": "average completed-subtask fraction within the named task; not full-trial success",
+          "population": "RynnBrain-VLA generalist utensils",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-GENERALIST-PROC-MEAN",
+          "value": 94.14,
+          "unit": "percent mean subtask progress",
+          "denominator": "unweighted mean of the three per-task progress scores",
+          "population": "RynnBrain-VLA generalist",
+          "period": "arXiv v2 Table 6",
+          "epistemic_status": "author_reported_experiment"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E029",
+      "title": "RynnBrain workstation, control loops and embodiment adapter",
+      "claim": "The real-robot protocol uses an attached RTX 4090 workstation. The deployment design separates a coordination loop from interpolation/control, and uses embodiment-specific action masks. G1 additionally needs a separate SONIC latent representation and hand outputs, rather than an unmodified generic action vector.",
+      "urls": [
+        "https://arxiv.org/html/2607.17977v2"
+      ],
+      "publisher": "Alibaba DAMO Academy / Hupan Lab authors",
+      "publication_date": "2026-07-31",
+      "observation_period": "Author-reported deployment framework and experimental hardware",
+      "retrieved_at": "2026-10-26",
+      "locator": "Sections 4.2-4.4 and 5.6 Deployment and Action Space",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "author_reported_control_configuration",
+      "limitations": "Control-loop rates are not measured model inference throughput. The source does not establish an embedded-board deadline, network-tail guarantee, all-robot compatibility or the rights to a complete deployed stack.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RYNN-COORD-HZ",
+          "value": 30,
+          "unit": "Hz",
+          "denominator": "nominal low-frequency coordination loop; not model inference Hz",
+          "population": "reported RynnBrain deployment framework",
+          "period": "arXiv v2 sections 4.3-4.4",
+          "epistemic_status": "author_reported_configuration"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-CONTROL-HZ",
+          "value": 200,
+          "unit": "Hz",
+          "denominator": "nominal high-frequency interpolation/control loop",
+          "population": "reported RynnBrain deployment framework",
+          "period": "arXiv v2 sections 4.3-4.4",
+          "epistemic_status": "author_reported_configuration"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-CHUNK",
+          "value": 32,
+          "unit": "action steps per predicted chunk",
+          "denominator": "model action chunk, not an inference frequency",
+          "population": "RynnBrain-VLA",
+          "period": "arXiv v2 section 4.4",
+          "epistemic_status": "author_reported_configuration"
+        },
+        {
+          "quantity_id": "K-Q-RYNN-RTC-TRIGGER",
+          "value": 5,
+          "unit": "executed steps per inference trigger",
+          "denominator": "RTC trigger rule; timing unit is not asserted as a measured throughput",
+          "population": "RynnBrain-VLA",
+          "period": "arXiv v2 section 4.4",
+          "epistemic_status": "author_reported_configuration"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E030",
+      "title": "RLDX synthetic-data table count/score conflict",
+      "claim": "In Table 9 the printed full/partial/failure counts sum to 24 in both conditions, but applying the stated weights 1, 0.5 and 0 does not reproduce the Score column. The same discrepancy is present in direct HTML and the visually inspected original PDF page 53.",
+      "urls": [
+        "https://arxiv.org/html/2605.03269v2",
+        "https://arxiv.org/pdf/2605.03269v2#page=53"
+      ],
+      "publisher": "RLWRLD authors",
+      "publication_date": "2026-05-06",
+      "observation_period": "Additional ALLEX grasping experiment in arXiv v2",
+      "retrieved_at": "2026-10-26",
+      "locator": "Appendix G.5, Table 9, PDF page 53",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "source_arithmetic_conflict_verified",
+      "limitations": "It is unresolved whether counts, scoring description or reported scores need correction. Conditional arithmetic is not a corrected measured result. No effect estimate or scenario coefficient is imported from this table.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-RLDX-T9-N",
+          "value": 24,
+          "unit": "trials per condition",
+          "denominator": "each Table 9 condition under the stated full/partial/fail scoring rule",
+          "population": "additional ALLEX grasping experiment",
+          "period": "arXiv v2 Appendix G.5/Table 9",
+          "epistemic_status": "published_protocol_with_source_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-REAL-FULL",
+          "value": 9,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 real",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-REAL-PARTIAL",
+          "value": 8,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 real",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-REAL-FAIL",
+          "value": 7,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 real",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-REAL-SCORE",
+          "value": 16,
+          "unit": "reported weighted score sum",
+          "denominator": "sum column under the stated weights 1, 0.5, 0; does not reconcile with counts",
+          "population": "Table 9 real",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-REAL-RATE",
+          "value": 66.7,
+          "unit": "reported percent score",
+          "denominator": "published score divided by 24; not a resolved empirical completion rate",
+          "population": "Table 9 real",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-AUGMENTED-FULL",
+          "value": 14,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 augmented",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-AUGMENTED-PARTIAL",
+          "value": 8,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 augmented",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-AUGMENTED-FAIL",
+          "value": 2,
+          "unit": "reported trial outcomes",
+          "denominator": "one of 24 trials in this condition; counts retained as printed",
+          "population": "Table 9 augmented",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-AUGMENTED-SCORE",
+          "value": 20,
+          "unit": "reported weighted score sum",
+          "denominator": "sum column under the stated weights 1, 0.5, 0; does not reconcile with counts",
+          "population": "Table 9 augmented",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        },
+        {
+          "quantity_id": "K-Q-RLDX-T9-AUGMENTED-RATE",
+          "value": 83.3,
+          "unit": "reported percent score",
+          "denominator": "published score divided by 24; not a resolved empirical completion rate",
+          "population": "Table 9 augmented",
+          "period": "arXiv v2 page 53",
+          "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
+        }
+      ]
     }
   ],
   "model_labs": [
@@ -549,15 +1272,24 @@
       "label": "RLWRLD",
       "roles": [
         "industrial_dexterity_model_lab",
-        "factory_data_partnerships"
+        "factory_data_partnerships",
+        "research_policy_publisher",
+        "industrial_data_and_model_partner"
       ],
       "geography": "Korea, Japan and US office locations disclosed",
       "status": "bounded_primary_source_role_map",
       "evidence_ids": [
-        "K-E012"
+        "K-E012",
+        "K-E015",
+        "K-E016",
+        "K-E017",
+        "K-E018",
+        "K-E019",
+        "K-E021",
+        "K-E030"
       ],
       "economic_boundary": "Roles can coexist. Do not count the same robot, resource, customer payment or deployment separately for every role.",
-      "summary": "Roles: industrial dexterity model lab, factory data partnerships. Korea, Japan and US office locations disclosed."
+      "summary": "RLDX research code and restricted public weights, industrial data/model relationships and named training infrastructure are now inspected. Experimental metrics and commercial qualification remain distinct."
     },
     {
       "actor_id": "K-A-DEEPMIND",
@@ -606,6 +1338,118 @@
         "K-E006"
       ],
       "economic_boundary": "Transaction role as of March 27, 2026; current stake percentage and later ownership changes are not established."
+    },
+    {
+      "actor_id": "K-A-UNITREE",
+      "label": "Unitree Robotics",
+      "roles": [
+        "robot_OEM",
+        "research_policy_and_dataset_publisher"
+      ],
+      "geography": "China / global research; existing SYS-UNITREE-G1 reference",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E022",
+        "K-E023"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "Different Unitree code, model and dataset artifacts carry different declarations; complete commercial service qualification remains unknown."
+    },
+    {
+      "actor_id": "K-A-AGIBOT",
+      "label": "AgiBot / AgiBot-World collaboration",
+      "roles": [
+        "robot_OEM_ecosystem",
+        "research_policy_and_dataset_publisher",
+        "world_simulator_developer"
+      ],
+      "geography": "AgiBot-World project; published hardware/data workflow, not a deployment census",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E024",
+        "K-E025",
+        "K-E026"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "GO-1 policy, data collection, Genie Studio and GE-Sim research are separate layers; collection/simulated activity is not counted as productive fleet deployment."
+    },
+    {
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "Alibaba DAMO / Hupan Lab research collaboration",
+      "roles": [
+        "embodied_foundation_model_research",
+        "base_model_and_code_publisher",
+        "posttrained_policy_research"
+      ],
+      "geography": "Author-reported DAMO/Hupan affiliations; experiment operating geography not established",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E027",
+        "K-E028",
+        "K-E029"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "Permissive released cognition bases and reported VLA experiments are separate artifacts; exact evaluated policy revision remains unidentified."
+    },
+    {
+      "actor_id": "K-A-CJ",
+      "label": "CJ Logistics",
+      "roles": [
+        "operating_customer",
+        "strategic_investor",
+        "data_and_performance_requirements_partner"
+      ],
+      "geography": "Yangji, Yongin, South Korea operating claim; broader logistics partnership",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E020",
+        "K-E021"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "The operator reports one two-robot packing deployment and separately describes model co-development and earlier equity participation."
+    },
+    {
+      "actor_id": "K-A-LOTTE",
+      "label": "LOTTE HOTEL & RESORT",
+      "roles": [
+        "worksite_data_partner",
+        "prospective_operating_customer"
+      ],
+      "geography": "Seoul hotel skill-capture site in supplier/developer account",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E019"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "On-site skill collection and a conditional 2030 deployment target do not establish current productive robot service."
+    },
+    {
+      "actor_id": "K-A-ROBOTIS",
+      "label": "ROBOTIS",
+      "roles": [
+        "hardware_partner_named_by_operator"
+      ],
+      "geography": "Named in CJ Korean logistics ecosystem; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E020"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "CJ identifies a hardware cooperation role; the announcement does not specify the deployed model/configuration or purchase terms."
+    },
+    {
+      "actor_id": "K-A-AIDIN",
+      "label": "Aidin Robotics",
+      "roles": [
+        "robotic_hand_partner_named_by_operator"
+      ],
+      "geography": "Named in CJ Korean logistics ecosystem; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E020"
+      ],
+      "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
+      "summary": "CJ identifies a hand-technology cooperation role; exact deployed hand configuration and rights are not established."
     }
   ],
   "frontier_models": [
@@ -712,6 +1556,139 @@
         "K-E013"
       ],
       "summary": "VLA control, embodied reasoning and local VLA are separate roles. Configuration boundary: Publisher claims bi-arm/humanoid/multi-robot use; complete compatibility and support terms unknown."
+    },
+    {
+      "model_id": "K-M-RLDX-PT",
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLDX-1-PT",
+      "release_or_version": "May 6, 2026 release entry; pinned model snapshot",
+      "interface": "Pretrained VLA with embodiment-conditioned interfaces",
+      "embodiment": "Public manipulation mixture; task/configuration adaptation required",
+      "model_revision": "38fb9498af6650915a79cd44cb3169026072081d",
+      "status": "released_research_policy_public_grant_noncommercial",
+      "evidence_ids": [
+        "K-E015"
+      ],
+      "summary": "Pretrained VLA with embodiment-conditioned interfaces. Configuration boundary: Public manipulation mixture; task/configuration adaptation required."
+    },
+    {
+      "model_id": "K-M-RLDX-ALLEX",
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLDX-1-MT-ALLEX",
+      "release_or_version": "May 2026 family release; pinned model snapshot",
+      "interface": "Mid-trained policy with functionality modules and task-specific fine-tuning",
+      "embodiment": "ALLEX benchmark: 48 controlled joints and motor-current-derived torque signals",
+      "model_revision": "3bb83830b8466bb64663d14d1c35f6687d3f641b",
+      "status": "released_research_policy_public_grant_noncommercial",
+      "evidence_ids": [
+        "K-E015",
+        "K-E016",
+        "K-E017",
+        "K-E030"
+      ],
+      "summary": "Mid-trained policy with functionality modules and task-specific fine-tuning. Configuration boundary: ALLEX benchmark: 48 controlled joints and motor-current-derived torque signals."
+    },
+    {
+      "model_id": "K-M-UNITREE-VLA0",
+      "actor_id": "K-A-UNITREE",
+      "label": "UnifoLM-VLA-0 / VLA-Base",
+      "release_or_version": "January 29, 2026 repository release entry",
+      "interface": "VLA training/inference code and separately licensed public base weights",
+      "embodiment": "Unitree G1 research tasks; configured hands/control and target service need qualification",
+      "model_revision": "06fee5014922ba6791cfe48d1e4aefac995dd8a2",
+      "status": "released_research_policy_public_grant_noncommercial",
+      "evidence_ids": [
+        "K-E022",
+        "K-E023"
+      ],
+      "summary": "VLA training/inference code and separately licensed public base weights. Configuration boundary: Unitree G1 research tasks; configured hands/control and target service need qualification.",
+      "related_system_ids": [
+        "SYS-UNITREE-G1"
+      ],
+      "relationship_limit": "Family reference only; not a validated match to the base G1/EDU configuration or a production service.",
+      "deployment_dependency_refs": [
+        "PHY-O02"
+      ]
+    },
+    {
+      "model_id": "K-M-GO1",
+      "actor_id": "K-A-AGIBOT",
+      "label": "AgiBot Genie Operator-1 (GO-1)",
+      "release_or_version": "March 10, 2025 method introduction; September 19 code-release entry",
+      "interface": "ViLLA policy, fine-tuning and remote-inference interface",
+      "embodiment": "AgiBot G1/Genie Studio, AgileX and simulator examples remain configuration-specific",
+      "model_revision": "0bc37be9caa20b5b3d4a569ec462409072d3e244",
+      "status": "released_research_policy_public_grant_noncommercial",
+      "evidence_ids": [
+        "K-E024",
+        "K-E025"
+      ],
+      "summary": "ViLLA policy, fine-tuning and remote-inference interface. Configuration boundary: AgiBot G1/Genie Studio, AgileX and simulator examples remain configuration-specific."
+    },
+    {
+      "model_id": "K-M-GESIM2",
+      "actor_id": "K-A-AGIBOT",
+      "label": "GE-Sim 2.0",
+      "release_or_version": "June 25, 2026 code/weight-release entry; October 17 update",
+      "interface": "Action-conditioned video/world simulator with separately served policies",
+      "embodiment": "Genie-01/G01 and Genie-02/G02 robot-configured simulation; not physical deployment",
+      "model_revision": null,
+      "status": "research_simulator_code_and_release_links_inspected",
+      "evidence_ids": [
+        "K-E026"
+      ],
+      "summary": "Action-conditioned video/world simulator with separately served policies. Configuration boundary: Genie-01/G01 and Genie-02/G02 robot-configured simulation; not physical deployment.",
+      "code_revision": "508c60f1a737a54ad2aaa974e63489c7f0c1b1a2",
+      "model_revision_missing_reason": "The pinned repository release links were inspected, but individual simulator checkpoint revisions were not audited."
+    },
+    {
+      "model_id": "K-M-RYNN11-2B",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain 1.1-2B base",
+      "release_or_version": "July 16, 2026 release entry",
+      "interface": "Image/text/video cognition, grounding and planning base",
+      "embodiment": "Qwen3.5-2B-derived base; not equated with a released evaluated action policy",
+      "model_revision": "36069aa841fc58f500d307316cbfdf379777ce8a",
+      "status": "released_cognition_grounding_base",
+      "evidence_ids": [
+        "K-E027"
+      ],
+      "summary": "Image/text/video cognition, grounding and planning base. Configuration boundary: Qwen3.5-2B-derived base; not equated with a released evaluated action policy."
+    },
+    {
+      "model_id": "K-M-RYNN11-9B",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain 1.1-9B base",
+      "release_or_version": "July 16, 2026 release entry",
+      "interface": "Image/text/video cognition, grounding and planning base",
+      "embodiment": "Qwen3.5-9B-derived base; not equated with a released evaluated action policy",
+      "model_revision": "22faf91e92a87a3d72d0b61fdae78cf864445a45",
+      "status": "released_cognition_grounding_base",
+      "evidence_ids": [
+        "K-E027"
+      ],
+      "summary": "Image/text/video cognition, grounding and planning base. Configuration boundary: Qwen3.5-9B-derived base; not equated with a released evaluated action policy."
+    },
+    {
+      "model_id": "K-M-RYNN-VLA-REPORTED",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain-VLA reported evaluation policies",
+      "release_or_version": "arXiv 2607.17977v2",
+      "interface": "Post-trained flow-matching action policies with embodiment-specific execution",
+      "embodiment": "Astribot S1, Tianji-Wuji and Unitree G1/SONIC laboratory configurations",
+      "model_revision": null,
+      "status": "reported_policy_exact_checkpoint_unidentified",
+      "evidence_ids": [
+        "K-E027",
+        "K-E028",
+        "K-E029"
+      ],
+      "summary": "Post-trained flow-matching action policies with embodiment-specific execution. Configuration boundary: Astribot S1, Tianji-Wuji and Unitree G1/SONIC laboratory configurations.",
+      "related_system_ids": [
+        "SYS-UNITREE-G1"
+      ],
+      "relationship_limit": "G1 family reference only. Paper-specific SONIC/hand configuration and the exact VLA checkpoint are not supplied by a generic G1 product record.",
+      "model_revision_missing_reason": "Exact evaluated model/checkpoint revision was not identified in the inspected source set."
     }
   ],
   "model_rights_cards": [
@@ -844,6 +1821,232 @@
         "K-E008"
       ],
       "license_missing_reason": "An OEM-run benchmark does not disclose third-party model licensing, adaptation ownership or customer-data reuse contracts."
+    },
+    {
+      "artifact_id": "K-R-RLDX-CODE",
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLDX repository code",
+      "openness_layer": "repository_code",
+      "license": "Apache-2.0",
+      "public_grant": "permissive_declaration",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "status": "documented",
+      "limitations": "Applies to code at the pinned revision; model weights and third-party components have separate terms.",
+      "model_ids": [
+        "K-M-RLDX-PT",
+        "K-M-RLDX-ALLEX"
+      ],
+      "evidence_ids": [
+        "K-E015"
+      ],
+      "commercial_use_resolved_missing_reason": "Layer-specific declaration inspected; complete deployed-system rights have not been cleared."
+    },
+    {
+      "artifact_id": "K-R-RLDX-WEIGHTS",
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLDX PT and ALLEX public weights",
+      "openness_layer": "model_weights",
+      "license": "RLWRLD Model License v1.0 (noncommercial)",
+      "public_grant": "noncommercial_only",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "Noncommercial limitation includes derivative models; share-alike is conditional on distribution. Separate enterprise permission/price is unknown.",
+      "model_ids": [
+        "K-M-RLDX-PT",
+        "K-M-RLDX-ALLEX"
+      ],
+      "evidence_ids": [
+        "K-E015"
+      ]
+    },
+    {
+      "artifact_id": "K-R-UNITREE-VLA-CODE",
+      "actor_id": "K-A-UNITREE",
+      "label": "UnifoLM-VLA package declaration",
+      "openness_layer": "repository_code_metadata",
+      "license": "BSD-3-Clause (package declaration)",
+      "public_grant": "permissive_declaration",
+      "rights_status": "metadata_declaration",
+      "commercial_use_resolved": null,
+      "status": "metadata_declaration",
+      "limitations": "pyproject declares BSD; no standalone root LICENSE was present in the inspected listing. Dependency and complete-stack rights are not audited.",
+      "model_ids": [
+        "K-M-UNITREE-VLA0"
+      ],
+      "evidence_ids": [
+        "K-E022"
+      ],
+      "commercial_use_resolved_missing_reason": "Layer-specific declaration inspected; complete deployed-system rights have not been cleared."
+    },
+    {
+      "artifact_id": "K-R-UNITREE-VLA-WEIGHTS",
+      "actor_id": "K-A-UNITREE",
+      "label": "UnifoLM-VLA-Base public weights",
+      "openness_layer": "model_weights",
+      "license": "CC-BY-NC-SA-4.0",
+      "public_grant": "noncommercial_only",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "The model card and license file apply a noncommercial public grant; code metadata does not replace that grant.",
+      "model_ids": [
+        "K-M-UNITREE-VLA0"
+      ],
+      "evidence_ids": [
+        "K-E022"
+      ]
+    },
+    {
+      "artifact_id": "K-R-UNITREE-STACK-DATA",
+      "actor_id": "K-A-UNITREE",
+      "label": "G1_Dex1_Stack_Block selected dataset card",
+      "openness_layer": "dataset",
+      "license": "Apache-2.0 (dataset-card declaration)",
+      "public_grant": "permissive_declaration",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "status": "documented",
+      "limitations": "Only this pinned dataset-card declaration was inspected; it does not license every G1 dataset, model, controller or hardware asset.",
+      "model_ids": [
+        "K-M-UNITREE-VLA0"
+      ],
+      "evidence_ids": [
+        "K-E023"
+      ],
+      "commercial_use_resolved_missing_reason": "Layer-specific declaration inspected; complete deployed-system rights have not been cleared."
+    },
+    {
+      "artifact_id": "K-R-GO1-CODE",
+      "actor_id": "K-A-AGIBOT",
+      "label": "AgiBot-World repository code/data declaration",
+      "openness_layer": "repository_code_and_data",
+      "license": "CC-BY-NC-SA-4.0",
+      "public_grant": "noncommercial_only",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "README scope declaration retained; third-party rights and commercial platform contracts remain separate.",
+      "model_ids": [
+        "K-M-GO1"
+      ],
+      "evidence_ids": [
+        "K-E024"
+      ]
+    },
+    {
+      "artifact_id": "K-R-GO1-WEIGHTS",
+      "actor_id": "K-A-AGIBOT",
+      "label": "GO-1 public model card",
+      "openness_layer": "model_weights",
+      "license": "CC-BY-NC-SA-4.0 (model-card declaration)",
+      "public_grant": "noncommercial_only",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "Public card grant is not a negotiated commercial Genie Studio agreement.",
+      "model_ids": [
+        "K-M-GO1"
+      ],
+      "evidence_ids": [
+        "K-E024"
+      ]
+    },
+    {
+      "artifact_id": "K-R-AGIBOT-DATA",
+      "actor_id": "K-A-AGIBOT",
+      "label": "AgiBot World Alpha/Beta data cards",
+      "openness_layer": "dataset_collection_variants",
+      "license": "CC-BY-NC-SA-4.0; public access-gate declaration",
+      "public_grant": "noncommercial_only",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "Variant overlap and raw corpus contents were not audited; public cards and access terms were inspected, not gated dataset bytes.",
+      "model_ids": [
+        "K-M-GO1"
+      ],
+      "evidence_ids": [
+        "K-E025"
+      ]
+    },
+    {
+      "artifact_id": "K-R-GESIM-COMPONENTS",
+      "actor_id": "K-A-AGIBOT",
+      "label": "GE-Sim code/data and served-policy layers",
+      "openness_layer": "component_scoped_code_data_and_policy_dependencies",
+      "license": "Apache upstream components; other code/data CC-BY-NC-SA; pi05 Gemma terms",
+      "public_grant": "mixed_component_terms",
+      "rights_status": "documented",
+      "commercial_use_resolved": false,
+      "status": "documented",
+      "limitations": "No blanket grant is inferred for all simulator/model checkpoints. The README separates scopes; per-file/weight qualification remains necessary.",
+      "model_ids": [
+        "K-M-GESIM2"
+      ],
+      "evidence_ids": [
+        "K-E026"
+      ]
+    },
+    {
+      "artifact_id": "K-R-RYNN-CODE",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain repository code",
+      "openness_layer": "repository_code",
+      "license": "Apache-2.0",
+      "public_grant": "permissive_declaration",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "status": "documented",
+      "limitations": "Code license does not identify the exact evaluated VLA policy, controller rights or field qualification.",
+      "model_ids": [
+        "K-M-RYNN11-2B",
+        "K-M-RYNN11-9B"
+      ],
+      "evidence_ids": [
+        "K-E027"
+      ],
+      "commercial_use_resolved_missing_reason": "Layer-specific declaration inspected; complete deployed-system rights have not been cleared."
+    },
+    {
+      "artifact_id": "K-R-RYNN-BASE-WEIGHTS",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain 1.1 2B/9B base cards",
+      "openness_layer": "base_model_weights",
+      "license": "Apache-2.0 (model-card declarations)",
+      "public_grant": "permissive_declaration",
+      "rights_status": "documented",
+      "commercial_use_resolved": null,
+      "status": "documented",
+      "limitations": "Cognition/base releases are distinct from the post-trained policies in the real-robot evaluation; complete data/controller/hardware rights are not cleared.",
+      "model_ids": [
+        "K-M-RYNN11-2B",
+        "K-M-RYNN11-9B"
+      ],
+      "evidence_ids": [
+        "K-E027"
+      ],
+      "commercial_use_resolved_missing_reason": "Layer-specific declaration inspected; complete deployed-system rights have not been cleared."
+    },
+    {
+      "artifact_id": "K-R-RYNN-VLA-IDENTITY",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "Exact evaluated RynnBrain-VLA policy",
+      "openness_layer": "evaluation_checkpoint",
+      "license": "Not identified for the executed evaluation policy",
+      "public_grant": "not_identified",
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "status": "unknown",
+      "limitations": "No exact policy revision/grant was identified from the inspected release listings. This is not a claim that no other public artifact exists.",
+      "model_ids": [
+        "K-M-RYNN-VLA-REPORTED"
+      ],
+      "evidence_ids": [
+        "K-E027",
+        "K-E028"
+      ]
     }
   ],
   "dossiers": [
@@ -929,6 +2132,91 @@
         "K-E010"
       ],
       "summary": "Economic hypothesis: Accessible code/models can strengthen an operator's outside option if integration, adaptation, support and effective rights are affordable. Evidence boundary: Pinned code/model card and action interface inspected; explicit unseen-embodiment limit and licensing conflict retained."
+    },
+    {
+      "dossier_id": "K-D-RLDX",
+      "actor_id": "K-A-RLWRLD",
+      "label": "RLWRLD: research weights, licensed deployment and operator data",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Specialized model/adaptation and worksite data relationships may complement incumbent hardware and process authority; public research release can coexist with separately priced enterprise rights.",
+      "established_scope": "Public code/model terms, bounded laboratory protocols, a source-arithmetic discrepancy and named operator/developer relationships are inspected.",
+      "remaining_unknowns": [
+        "Private commercial model/data rights and pricing",
+        "Exact checkpoint in the CJ operating robots",
+        "All-attempt support/accepted-output economics",
+        "Resolution of Table 9 counts/scoring discrepancy",
+        "Field hardware and long-horizon qualification"
+      ],
+      "evidence_ids": [
+        "K-E015",
+        "K-E016",
+        "K-E017",
+        "K-E018",
+        "K-E019",
+        "K-E020",
+        "K-E021",
+        "K-E030"
+      ],
+      "summary": "Economic hypothesis: Specialized model/adaptation and worksite data relationships may complement incumbent hardware and process authority; public research release can coexist with separately priced enterprise rights. Evidence boundary: Public code/model terms, bounded laboratory protocols, a source-arithmetic discrepancy and named operator/developer relationships are inspected."
+    },
+    {
+      "dossier_id": "K-D-UNITREE",
+      "actor_id": "K-A-UNITREE",
+      "label": "Unitree: one brand, several artifact grants",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Accessible code and selected data can support adaptation, while weight, controller and hardware constraints can still bind independent operation.",
+      "established_scope": "VLA code metadata, model license, one dataset card and links to the separately registered WMA/SDK artifacts are distinguished.",
+      "remaining_unknowns": [
+        "Full dependency/license assessment",
+        "Configured G1 hands/controller compatibility",
+        "Commercial weight permission",
+        "Target support, latency tails and accepted-work economics"
+      ],
+      "evidence_ids": [
+        "K-E022",
+        "K-E023"
+      ],
+      "summary": "Economic hypothesis: Accessible code and selected data can support adaptation, while weight, controller and hardware constraints can still bind independent operation. Evidence boundary: VLA code metadata, model license, one dataset card and links to the separately registered WMA/SDK artifacts are distinguished."
+    },
+    {
+      "dossier_id": "K-D-AGIBOT",
+      "actor_id": "K-A-AGIBOT",
+      "label": "AgiBot: data/policy/platform and simulation layers",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "An integrated hardware/data/platform ecosystem can distribute research complements while retaining differentiated commercial integration and qualification.",
+      "established_scope": "GO-1 public grant, Alpha/Beta collection/access declarations and GE-Sim component scopes are inspected; no corpus or simulated rollout is counted as productive deployment.",
+      "remaining_unknowns": [
+        "Raw corpus overlap and quality",
+        "Commercial platform/data/model terms",
+        "Adaptation cost and field service exposure",
+        "Simulator-to-physical validation"
+      ],
+      "evidence_ids": [
+        "K-E024",
+        "K-E025",
+        "K-E026"
+      ],
+      "summary": "Economic hypothesis: An integrated hardware/data/platform ecosystem can distribute research complements while retaining differentiated commercial integration and qualification. Evidence boundary: GO-1 public grant, Alpha/Beta collection/access declarations and GE-Sim component scopes are inspected; no corpus or simulated rollout is counted as productive deployment."
+    },
+    {
+      "dossier_id": "K-D-RYNN",
+      "actor_id": "K-A-ALIBABA-DAMO",
+      "label": "RynnBrain: permissive base contribution and policy qualification",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "A general embodied base can contribute to downstream robotics R&D; policy fine-tuning, control adapters and hardware qualification remain separate productive inputs.",
+      "established_scope": "Public base/code identities and the paper-specific real-robot protocol/control stack are distinguished, with final success and process metrics kept separate.",
+      "remaining_unknowns": [
+        "Exact executed VLA policy revision and release mapping",
+        "Complete controller/data/weight rights",
+        "Tail latency and embedded deployment",
+        "Field support and customer operating economics"
+      ],
+      "evidence_ids": [
+        "K-E027",
+        "K-E028",
+        "K-E029"
+      ],
+      "summary": "Economic hypothesis: A general embodied base can contribute to downstream robotics R&D; policy fine-tuning, control adapters and hardware qualification remain separate productive inputs. Evidence boundary: Public base/code identities and the paper-specific real-robot protocol/control stack are distinguished, with final success and process metrics kept separate."
     }
   ],
   "architecture_alternatives": [
@@ -1092,6 +2380,121 @@
         "K-E008"
       ],
       "summary": "Whole-task completion; safety intervention aborts/fails; trained behaviors, unseen homes/objects. No calibrated commercial-service effect."
+    },
+    {
+      "benchmark_id": "K-B-RLDX-ALLEX",
+      "label": "RLDX ALLEX mixed task-score average",
+      "model_ids": [
+        "K-M-RLDX-ALLEX"
+      ],
+      "metric_boundary": "Two binary task/selection measures plus two graded progress scores; 24 trials per task, task-specific fine-tunes.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "author_reported_mixed_metrics",
+      "evidence_ids": [
+        "K-E016"
+      ],
+      "summary": "86.8 is a mixed task-score mean, not a complete-job or uptime probability.",
+      "series": [
+        {
+          "key": "CONVEYOR",
+          "quantity_id": "K-Q-RLDX-ALLEX-CONVEYOR",
+          "metric_kind": "binary_task_success"
+        },
+        {
+          "key": "SELECTION",
+          "quantity_id": "K-Q-RLDX-ALLEX-SELECTION",
+          "metric_kind": "binary_selection_success"
+        },
+        {
+          "key": "CARD",
+          "quantity_id": "K-Q-RLDX-ALLEX-CARD",
+          "metric_kind": "graded_progress"
+        },
+        {
+          "key": "POUR",
+          "quantity_id": "K-Q-RLDX-ALLEX-POUR",
+          "metric_kind": "graded_progress"
+        }
+      ],
+      "reported_mean_quantity_id": "K-Q-RLDX-ALLEX-MEAN",
+      "trials_quantity_id": "K-Q-RLDX-ALLEX-TRIALS",
+      "model_relationship": "Per-task fine-tunes of the mid-trained ALLEX lineage; exact executed fine-tune revisions were not verified."
+    },
+    {
+      "benchmark_id": "K-B-RLDX-LATENCY",
+      "label": "RLDX all-modality desktop p50 inference",
+      "model_ids": [
+        "K-M-RLDX-ALLEX"
+      ],
+      "metric_boundary": "Same reported all-modality desktop setup; median inference time only.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "author_reported_inference_benchmark",
+      "evidence_ids": [
+        "K-E017"
+      ],
+      "summary": "RTX 5090 desktop p50 improvement does not establish embedded deadline tails or service throughput.",
+      "eager_quantity_id": "K-Q-RLDX-P50-EAGER",
+      "optimized_quantity_id": "K-Q-RLDX-P50-OPT",
+      "reported_ratio_quantity_id": "K-Q-RLDX-P50-SPEEDUP",
+      "model_relationship": "Reported all-modality ALLEX variant/setup; exact executed checkpoint/software build was not independently reproduced."
+    },
+    {
+      "benchmark_id": "K-B-RYNN-VLA",
+      "label": "RynnBrain-VLA task success and process progress",
+      "model_ids": [
+        "K-M-RYNN-VLA-REPORTED"
+      ],
+      "metric_boundary": "Three fine-tuned tasks, 20 randomized trials each; full success and fractional subtask progress reported separately.",
+      "whole_task_success_established": true,
+      "whole_task_success_scope": "Only the specified author-reported laboratory trial criterion, not general service qualification.",
+      "commercial_service_calibration": false,
+      "status": "author_reported_physical_evaluation",
+      "evidence_ids": [
+        "K-E028",
+        "K-E029"
+      ],
+      "summary": "Separate task-specific and jointly trained policy results; no cross-model ranking or commercial success probability.",
+      "tasks": [
+        "FLOWERS",
+        "WINE",
+        "UTENSILS"
+      ],
+      "trials_quantity_id": "K-Q-RYNN-TRIALS",
+      "regimes": [
+        "SINGLE",
+        "GENERALIST"
+      ],
+      "source_quantity_prefix": "K-Q-RYNN-"
+    },
+    {
+      "benchmark_id": "K-B-RLDX-TABLE9",
+      "label": "RLDX Table 9: unresolved score/count reconciliation",
+      "model_ids": [
+        "K-M-RLDX-PT"
+      ],
+      "metric_boundary": "Printed outcome counts and weighted scores disagree under the printed 1/0.5/0 rule.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "source_arithmetic_conflict_verified",
+      "evidence_ids": [
+        "K-E030"
+      ],
+      "summary": "Original PDF page 53 and HTML agree on the discrepancy; no corrected empirical effect is asserted.",
+      "outcome_weights": {
+        "FULL": 1,
+        "PARTIAL": 0.5,
+        "FAIL": 0
+      },
+      "trials_quantity_id": "K-Q-RLDX-T9-N",
+      "conditions": [
+        "REAL",
+        "AUGMENTED"
+      ],
+      "source_quantity_prefix": "K-Q-RLDX-T9-",
+      "corrected_empirical_effect_available": false,
+      "model_relationship": "Task-specific fine-tunes initialized from the pretrained model for ALLEX grasping; this is not the unchanged public MT-ALLEX checkpoint."
     }
   ],
   "relationships": [
@@ -1116,6 +2519,47 @@
       "evidence_ids": [
         "K-E014"
       ]
+    },
+    {
+      "relationship_id": "K-REL-CJ-RLWRLD",
+      "from_actor_id": "K-A-CJ",
+      "to_actor_id": "K-A-RLWRLD",
+      "type": "operator_announced_model_co_development",
+      "evidence_ids": [
+        "K-E020",
+        "K-E021"
+      ],
+      "economic_boundary": "Partner role and September 18 MOU are recorded; exact deployed checkpoint, data rights and commercial terms remain unknown."
+    },
+    {
+      "relationship_id": "K-REL-CJ-ROBOTIS",
+      "from_actor_id": "K-A-CJ",
+      "to_actor_id": "K-A-ROBOTIS",
+      "type": "named_hardware_cooperation_role",
+      "evidence_ids": [
+        "K-E020"
+      ],
+      "economic_boundary": "Role mention is not an exact configuration, title or purchase contract."
+    },
+    {
+      "relationship_id": "K-REL-CJ-AIDIN",
+      "from_actor_id": "K-A-CJ",
+      "to_actor_id": "K-A-AIDIN",
+      "type": "named_hand_technology_cooperation_role",
+      "evidence_ids": [
+        "K-E020"
+      ],
+      "economic_boundary": "Role mention is not an exact installed hand configuration or licensed interface."
+    },
+    {
+      "relationship_id": "K-REL-LOTTE-RLWRLD",
+      "from_actor_id": "K-A-LOTTE",
+      "to_actor_id": "K-A-RLWRLD",
+      "type": "reported_worksite_data_activity_and_planned_service",
+      "evidence_ids": [
+        "K-E019"
+      ],
+      "economic_boundary": "Dedicated data-capture space and partnership discussions are not a disclosed operating-service SLA or current productive robot count."
     }
   ],
   "source_revisions": {
@@ -1136,6 +2580,158 @@
       "README_sha256": "16449c659127df8f4d0f43958be0d114be41e94317f5fc72740d84eab99c5624",
       "config_sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1",
       "weights_downloaded": false
+    },
+    "unifolm_vla": {
+      "repository": "unitreerobotics/unifolm-vla",
+      "commit": "ff6c39aeb0454cfb95418c66aef40ca777f935c1",
+      "commit_date": "2026-01-29T09:35:48Z",
+      "README_git_blob": "52d96c7801dcb83b60c598877a883f5533430782",
+      "pyproject_git_blob": "766984983bdcd76123fc1db89a1a802981143338"
+    },
+    "agibot_world": {
+      "repository": "OpenDriveLab/AgiBot-World",
+      "commit": "98f136ea6b345db1a08451a2f543d67c1789a809",
+      "commit_date": "2026-05-29T12:31:22Z",
+      "README_git_blob": "3f9c719de0dc143268e629883d660cbc29918aa5"
+    },
+    "rynnbrain": {
+      "repository": "alibaba-damo-academy/RynnBrain",
+      "commit": "5b8641993fd265300dba89f079d9b708ffe19ed4",
+      "commit_date": "2026-08-10T10:15:54Z",
+      "README_git_blob": "d6b2a30d849c81b329581ece4dcf9b209bad8651",
+      "LICENSE_git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    "ge_sim_2": {
+      "repository": "AgibotTech/GE-Sim-V2",
+      "commit": "508c60f1a737a54ad2aaa974e63489c7f0c1b1a2",
+      "commit_date": "2026-10-20T15:00:06Z",
+      "README_git_blob": "80a7a2360996b2291314290c3c43b9526450946e"
+    },
+    "rldx_1": {
+      "repository": "RLWRLD/RLDX-1",
+      "commit": "cf67c31f7f168ebbca6d06e8c3c23914cb94435c",
+      "commit_date": "2026-07-31T06:19:49Z",
+      "README_git_blob": "e56e278e9ab4f1401f379773a251d7016e94ce50",
+      "LICENSE_git_blob": "9b9b5c4a3491066ad7cacc1cfc38363039d423a1"
+    },
+    "hf_rlwrld_rldx-1-mt-allex": {
+      "repository": "RLWRLD/RLDX-1-MT-ALLEX",
+      "revision": "3bb83830b8466bb64663d14d1c35f6687d3f641b",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX/resolve/3bb83830b8466bb64663d14d1c35f6687d3f641b/README.md",
+          "sha256": "a3bde3ec99bda17d1e2a98341434fec6caf304176e2a3945f8ea9f3177481cc0"
+        },
+        "LICENSE.md": {
+          "url": "https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX/resolve/3bb83830b8466bb64663d14d1c35f6687d3f641b/LICENSE.md",
+          "sha256": "7922f5705d0a5b6c150ec7c1d3106f8b823500808051fd3fad57f01db33774e2"
+        }
+      }
+    },
+    "hf_agibot-world_go-1": {
+      "repository": "agibot-world/GO-1",
+      "revision": "0bc37be9caa20b5b3d4a569ec462409072d3e244",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/agibot-world/GO-1/resolve/0bc37be9caa20b5b3d4a569ec462409072d3e244/README.md",
+          "sha256": "f0ecf7990d9004245d7aa083b4ada6cbeaf7c351f7d209047bedc7a99b8983fe"
+        }
+      }
+    },
+    "hf_alibaba-damo-academy_rynnbrain1_1-2b": {
+      "repository": "Alibaba-DAMO-Academy/RynnBrain1.1-2B",
+      "revision": "36069aa841fc58f500d307316cbfdf379777ce8a",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain1.1-2B/resolve/36069aa841fc58f500d307316cbfdf379777ce8a/README.md",
+          "sha256": "d19e40a4f84dbe1daeb907dab2eb8cb168c954e310ac5639393df265778d4822"
+        }
+      }
+    },
+    "hf_alibaba-damo-academy_rynnbrain1_1-9b": {
+      "repository": "Alibaba-DAMO-Academy/RynnBrain1.1-9B",
+      "revision": "22faf91e92a87a3d72d0b61fdae78cf864445a45",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/Alibaba-DAMO-Academy/RynnBrain1.1-9B/resolve/22faf91e92a87a3d72d0b61fdae78cf864445a45/README.md",
+          "sha256": "42da96512ba340bbee7a6afd08089728e906dd1e03cea122399b0ee776f38142"
+        }
+      }
+    },
+    "hf_rlwrld_rldx-1-pt": {
+      "repository": "RLWRLD/RLDX-1-PT",
+      "revision": "38fb9498af6650915a79cd44cb3169026072081d",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/RLWRLD/RLDX-1-PT/resolve/38fb9498af6650915a79cd44cb3169026072081d/README.md",
+          "sha256": "8762f3caf700fe4c67e92a8d52ce7b9eaa4b18309828950d8ec74b04b8ac66e4"
+        },
+        "LICENSE.md": {
+          "url": "https://huggingface.co/RLWRLD/RLDX-1-PT/resolve/38fb9498af6650915a79cd44cb3169026072081d/LICENSE.md",
+          "sha256": "7922f5705d0a5b6c150ec7c1d3106f8b823500808051fd3fad57f01db33774e2"
+        }
+      }
+    },
+    "hf_unitreerobotics_unifolm-vla-base": {
+      "repository": "unitreerobotics/UnifoLM-VLA-Base",
+      "revision": "06fee5014922ba6791cfe48d1e4aefac995dd8a2",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/unitreerobotics/UnifoLM-VLA-Base/resolve/06fee5014922ba6791cfe48d1e4aefac995dd8a2/README.md",
+          "sha256": "2d717dcf11526e714bde9a1f2feacadb2ec387e350ca6da4023b95eb5c7af048"
+        },
+        "LICENSE": {
+          "url": "https://huggingface.co/unitreerobotics/UnifoLM-VLA-Base/resolve/06fee5014922ba6791cfe48d1e4aefac995dd8a2/LICENSE",
+          "sha256": "ca08f1b921733a34841bec5d6d58933e489c1f5c79389e2c633197c255a874ef"
+        }
+      }
+    },
+    "hf_agibot-world_agibotworld-beta": {
+      "repository": "agibot-world/AgiBotWorld-Beta",
+      "revision": "2252b3fdc88dc67fa5d5e4b771e1b86f5e71c278",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta/resolve/2252b3fdc88dc67fa5d5e4b771e1b86f5e71c278/README.md",
+          "sha256": "2d45e2e989bf444613af7477f7df2fc09e88bb8b047104187fc0d6d675f27685"
+        }
+      }
+    },
+    "hf_unitreerobotics_g1_dex1_stack_block": {
+      "repository": "unitreerobotics/G1_Dex1_Stack_Block",
+      "revision": "0b3905f83f5ef5fe64a44af3a1d829830192e7e5",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/datasets/unitreerobotics/G1_Dex1_Stack_Block/resolve/0b3905f83f5ef5fe64a44af3a1d829830192e7e5/README.md",
+          "sha256": "a75919c0ac8856634d2df3270fac867e9074535e741a0416533c506ad72909d3"
+        }
+      }
+    },
+    "hf_agibot-world_agibotworld-alpha": {
+      "repository": "agibot-world/AgiBotWorld-Alpha",
+      "revision": "128665c9e0244c45d1cbe5c13f5a4706afd24f27",
+      "weights_or_dataset_bytes_downloaded": false,
+      "inspected_files": {
+        "README.md": {
+          "url": "https://huggingface.co/datasets/agibot-world/AgiBotWorld-Alpha/resolve/128665c9e0244c45d1cbe5c13f5a4706afd24f27/README.md",
+          "sha256": "c65be7aaeb832b09d3fd03a753a42e127750360edf44ea97b0b77f40a83e32a0"
+        }
+      }
+    },
+    "rldx_paper_v2": {
+      "url": "https://arxiv.org/pdf/2605.03269v2",
+      "sha256": "882fba553790218cd215276818c0a8efd41c74db7d9b525d464d762f0850cea9",
+      "pdf_pages_visually_checked": [
+        53
+      ],
+      "scope": "Table 9 source conflict cross-checked against direct HTML; no workload execution."
     }
   },
   "source_conflicts": [
@@ -1157,21 +2753,34 @@
         "K-E009",
         "K-E010"
       ]
+    },
+    {
+      "conflict_id": "K-C-RLDX-TABLE9",
+      "status": "unresolved_in_inspected_v2",
+      "details": "Table 9 states 1/0.5/0 scoring. The printed counts imply score sums 13 and 18, while the printed score column gives 16 and 20. Both direct HTML and PDF page 53 show these values. Which entry needs correction is unresolved; conditional arithmetic is not a corrected measured result.",
+      "evidence_ids": [
+        "K-E030"
+      ],
+      "corrected_empirical_effect_available": false
     }
   ],
   "coverage": {
-    "mapped_actors": 9,
-    "contrasting_dossiers": 4,
-    "rights_cards": 8,
+    "mapped_actors": 16,
+    "contrasting_dossiers": 8,
+    "rights_cards": 20,
     "scenario_coefficients_imported": false,
     "not_exhaustive": true,
     "gaps": [
-      "China and continental-European model/OEM ecosystems need direct follow-up",
-      "Generalist and Dyna mechanisms are not yet separately audited here",
-      "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
-      "Actual matched architecture costs, rights and qualified service remain unknown; the separate synthetic calculator supplies no empirical estimate.",
-      "No robot, model training or GPU/hardware workload was run"
-    ]
+      "Regional coverage remains selective; continental Europe and additional Asian/US developers need follow-up.",
+      "Generalist and Dyna mechanisms are not yet separately audited here.",
+      "Private model pricing, data/fine-tune rights, fleet support, asset title and margins remain unavailable.",
+      "Exact evaluated RynnBrain-VLA checkpoint and complete deployed-stack rights remain unestablished.",
+      "RLDX Table 9 arithmetic requires source clarification; no corrected measured effect is inferred.",
+      "Actual matched architecture costs and qualified customer service remain unknown; the synthetic calculators supply no empirical estimate.",
+      "No robot, model training or GPU/hardware workload was run."
+    ],
+    "model_release_records": 14,
+    "deployment_cards": 2
   },
   "external_evidence_registry": {
     "CAP-E021": "data/capability_evidence.json",
@@ -1179,6 +2788,132 @@
     "OWQ-E01": "data/onboard_workload_qualification.json",
     "PRC-002": "data/physical_requirements_crosswalk.json",
     "PRC-003": "data/physical_requirements_crosswalk.json",
-    "PRC-005": "data/physical_requirements_crosswalk.json"
+    "PRC-005": "data/physical_requirements_crosswalk.json",
+    "PHY-E14": "data/physical_evidence.json",
+    "PHY-E15": "data/physical_evidence.json",
+    "CAP-E011": "data/capability_evidence.json"
+  },
+  "deployment_cards": [
+    {
+      "deployment_id": "K-DEP-CJ-YANGJI-202609",
+      "label": "CJ Yangji Olive Young cushioning insertion",
+      "operator_actor_id": "K-A-CJ",
+      "status": "operator_reported_operating_use",
+      "reported_robot_count_quantity_id": "K-Q-CJ-YANGJI-ROBOTS",
+      "counting_rule": "One two-robot event, repeated in September 3 and September 21 sources; count once.",
+      "service_boundary": "Cushioning material placed into boxes in customer-order packing",
+      "geography": "Yangji, Yongin, South Korea",
+      "model_id": null,
+      "model_id_missing_reason": "Sources name RFM cooperation but do not identify the executed checkpoint on these robots.",
+      "asset_owner": null,
+      "asset_owner_missing_reason": "Deployment is not a disclosed title or financing arrangement.",
+      "accepted_output_rate": null,
+      "accepted_output_rate_missing_reason": "No complete quality/time/support denominator in the inspected operator announcements.",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-ROBOTIS",
+          "role": "hardware cooperation"
+        },
+        {
+          "actor_id": "K-A-AIDIN",
+          "role": "hand technology cooperation"
+        },
+        {
+          "actor_id": "K-A-RLWRLD",
+          "role": "RFM cooperation"
+        }
+      ],
+      "evidence_ids": [
+        "K-E020",
+        "K-E021"
+      ],
+      "summary": "Operator-reported real packing use; exact model, configuration, support, title and economics remain unresolved.",
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "event_identity": "CJ-YANGJI-OLIVE-YOUNG-2026-09"
+    },
+    {
+      "deployment_id": "K-DEP-LOTTE-DATA-PLAN",
+      "label": "LOTTE workplace data capture and conditional 2030 plan",
+      "operator_actor_id": "K-A-LOTTE",
+      "status": "reported_data_activity_and_conditional_future_deployment",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No current productive robot fleet count established by the inspected account.",
+      "service_boundary": "Hotel skill capture across worksite activities; intended later robotic service",
+      "geography": "Seoul, South Korea",
+      "model_id": null,
+      "model_id_missing_reason": "The account names the RLDX family, not a qualified deployed hotel-service checkpoint.",
+      "evidence_ids": [
+        "K-E019"
+      ],
+      "summary": "Worksite data activity and planned deployment remain separate from current accepted robotic service.",
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "event_identity": "LOTTE-SKILL-DATA-AND-PLAN-2026-06"
+    }
+  ],
+  "regional_decision_implications": [
+    {
+      "implication_id": "K-REG-D01",
+      "label": "Public artifact rights constrain a commercial architecture",
+      "workstreams": [
+        "D",
+        "G",
+        "H",
+        "I",
+        "K"
+      ],
+      "mechanism": "Code, weights, data, controller and hardware rights remain separate. A noncommercial public weight grant cannot silently supply an abstract commercial-use assumption; private permission and price remain unknown.",
+      "evidence_ids": [
+        "K-E015",
+        "K-E022",
+        "K-E023",
+        "K-E024",
+        "K-E025",
+        "K-E026",
+        "K-E027"
+      ],
+      "permitted_model_use": "Qualitative eligibility and diligence questions; no rights or cost coefficient inferred."
+    },
+    {
+      "implication_id": "K-REG-D02",
+      "label": "Task metric and runtime configuration precede economics",
+      "workstreams": [
+        "B",
+        "D",
+        "E",
+        "H",
+        "I",
+        "K"
+      ],
+      "mechanism": "Mixed progress scores, full-trial success, median desktop inference and control interpolation rates have different denominators. They cannot be converted directly into accepted customer output or onboard service availability.",
+      "evidence_ids": [
+        "K-E016",
+        "K-E017",
+        "K-E028",
+        "K-E029",
+        "K-E030"
+      ],
+      "permitted_model_use": "Maintain source/target separation and explicit qualification unknowns; no cross-model rank."
+    },
+    {
+      "implication_id": "K-REG-D03",
+      "label": "Operator data authority and model partnerships coexist",
+      "workstreams": [
+        "C",
+        "D",
+        "F",
+        "G",
+        "K"
+      ],
+      "mechanism": "CJ reports operating robots, technical requirements/data authority and earlier equity participation. Partnership roles and a model family do not identify the deployed checkpoint, title or monthly economics. LOTTE data capture has a separate conditional deployment horizon.",
+      "evidence_ids": [
+        "K-E019",
+        "K-E020",
+        "K-E021"
+      ],
+      "permitted_model_use": "Constrain the shared-market evidence checklist; no automatic license, retention, labor-removal or finance assumption."
+    }
+  ],
+  "external_artifact_registry": {
+    "PHY-O02": "data/physical_evidence.json"
   }
 }

@@ -84,7 +84,7 @@ The unchanged BLS ORS workbook and OEWS national ZIP are preserved under `data/s
 
 ## Reproduce frontier-model source boundaries
 
-`data/frontier_model_economics.json` contains the accepted primary-source claims, actor/model/rights records, four dossiers and unpriced architecture alternatives. Code and model-card revisions are pinned separately; public model weights and GPU/robot workloads were not executed. `python3 scripts/export_frontier_models.py --check` validates actor/relationship joins, rights uncertainty and explicit absent costs, then reproduces Zebra's seller-disclosure arithmetic. Run without `--check` only to regenerate the reviewed summary, followed by scenario exports and the report builder. The report and local API consume this same source summary.
+`data/frontier_model_economics.json` contains the accepted primary-source claims, actor/model/rights records, eight dossiers and unpriced architecture alternatives. Code and model-card revisions are pinned separately; public model weights and GPU/robot workloads were not executed. `python3 scripts/export_frontier_models.py --check` validates actor/relationship joins, rights uncertainty and explicit absent costs, then reproduces Zebra's seller-disclosure arithmetic. Run without `--check` only to regenerate the reviewed summary, followed by scenario exports and the report builder. The report and local API consume this same source summary.
 
 The helper never adds ARR to cumulative recognized revenue, treats equity/escrow as cash, or ranks incompatible benchmark scores. Evidence filters navigate the new records within the existing thirteen views. Provider roles, model/rights cards and the observed transaction are separate from synthetic scenario controls. A separate conditional architecture calculator is available in Business models; it uses synthetic assumptions and leaves observed costs/rights/qualification unresolved.
 
@@ -118,3 +118,10 @@ python3 scripts/export_enterprise.py --case shared-enterprise-custom.json --outp
 ```
 
 The default artifacts are `model/results/shared_enterprise.json` and `model/results/enterprise_funding_bridge.json`. Each downloaded shared case carries complete opening inputs, source hashes and a case hash. The API is `/api/shared-enterprise` (GET witnesses; POST an `inputs` object). Exact cents, dated customer moves, paid human shifts and actual supported robot cohorts are described in [SHARED_ENTERPRISE.md](model/SHARED_ENTERPRISE.md). A different source revision changes case identity; no source claim or annual scenario coefficient is calibrated by these synthetic terms.
+
+
+## Regional frontier-model source checks
+
+`python3 scripts/export_frontier_models.py --check` verifies the saved source-summary calculation and code/data hashes. `python3 -m unittest discover -s tests -p test_frontier_models.py -v` tests artifact rights, identity/attribution and metric boundaries. The summary now keeps RLDX's mixed ALLEX mean, desktop p50 ratio, RynnBrain's separate final/process means and the unresolved RLDX Table 9 score/count conflict. It does not run a model or repair the source's empirical result.
+
+Providers & systems shows the source checks; Business models shows layered grants; Customer adoption includes operator references with checkpoint/title/operating unknowns. Source buttons open dated records and immutable links where available. The [regional review](reviews/regional_frontier_review.md) documents primary-source/PDF inspection and remaining limits. Source PDFs and retrieval/cleanup receipts remain local operational material, outside the published manifest.

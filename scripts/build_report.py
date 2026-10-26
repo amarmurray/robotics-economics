@@ -17,7 +17,7 @@ CHAPTERS = [
  ('Frontier robotics models, deployment and value capture','frontier_models.md'),
 ]
 FOLLOWUPS = {
- 'frontier_models.md': [('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
+ 'frontier_models.md': [('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md')],
@@ -42,7 +42,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.9, campaign in progress. The monthly physical/Treasury model now connects one incumbent/entrant demand ledger, commercial contracts, enterprise obligations and funded equity. Annual digital paths, the physical-requirements crosswalk and K frontier-model/architecture research remain integrated. Empirical qualification, broader finance mechanisms and other research gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.10, campaign in progress. Regional model releases, artifact rights, benchmark protocols and operator evidence now extend K, including a verified but unresolved source-arithmetic discrepancy. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -54,7 +54,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. This continuation uses the canonical Mac checkout. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled; cloud continuation is requested from the published checkpoint. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 ''']
     contents=[]
     headings=[f'{i}. {title}' for i,(title,_) in enumerate(CHAPTERS,1)]+[
@@ -116,6 +116,17 @@ The initial editions were produced in a cloud checkout. This continuation uses t
     for path, digest in frontier['source_hashes'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:
             raise SystemExit('Stale frontier-model summary dependency: '+path)
+    checks=frontier['regional_source_checks']
+    table9=['| Source condition | Printed full / partial / failure counts | Score from stated rule | Printed score | Printed percent |',
+            '| --- | --- | ---: | ---: | ---: |']
+    for row in checks['rldx_table9']['rows']:
+        c=row['printed_counts'];table9.append(f"| {row['condition']} | {c['full']} / {c['partial']} / {c['fail']} | {row['score_from_printed_counts_and_rule']:g} | {row['printed_score']:g} | {row['printed_percent']:.1f}% |")
+    rynn=['| Reported training regime | Mean complete-task success | Mean subtask progress | Full completions implied by percentages | Protocol trials |',
+          '| --- | ---: | ---: | ---: | ---: |']
+    for row in checks['rynn_trials']['regimes']:
+        rynn.append(f"| {row['regime']} | {row['reported_final_success_percent']:.2f}% | {row['reported_process_percent']:.2f}% | {row['full_completions_implied_by_percentages']} | {row['protocol_trials']} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Regional model releases'))+1
+    out.insert(insert_at,'#### Generated regional source checks\n\n'+ '\n'.join(table9)+'\n\nThe RLDX Table 9 counts and score column are preserved as published. The stated rule is full = 1, partial = 0.5 and failure = 0 over 24 trials; the discrepancy is unresolved. Conditional reconstruction is not a corrected empirical result.\n\n'+ '\n'.join(rynn)+'\n\nRynnBrain figures use three tasks and 20 trials per task; implied counts are arithmetic, not independently verified logs. Progress, full success, median inference and commercial accepted-output rates are separate measures. Generated from [frontier_model_summary.json](model/results/frontier_model_summary.json), with source locators in the accepted packet. No scenario coefficient or cross-model ranking is derived.')
     transaction=frontier['transaction']
     table=['| Seller-disclosed transaction item | USD millions |','| --- | ---: |']
     for key,label in [('cash_consideration','Cash consideration'),('equity_fair_value','Long-term investment fair value'),('escrow_fair_value','Indemnification escrow fair value'),('total_consideration','Reported total consideration'),('net_assets_sold','Reported net assets sold'),('seller_gain','Reported seller gain')]:
