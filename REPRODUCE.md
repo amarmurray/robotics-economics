@@ -12,6 +12,7 @@ python3 scripts/build_physical_requirements.py --check
 python3 scripts/export_frontier_models.py --check
 python3 scripts/export_scenarios.py
 python3 scripts/export_experiments.py
+python3 scripts/export_monthly_commercial.py
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -90,3 +91,15 @@ The helper never adds ARR to cumulative recognized revenue, treats equity/escrow
 Run `python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json` for the reference and eight witnesses. Replay a downloaded case with `python3 scripts/export_architectures.py --scenario saved-architecture.json --output replay.json`. Complete inputs, source hashes and cell/year scope are retained; normal scenario exports also preserve architecture parameters.
 
 In Business models, edit fields and select **Apply architecture assumptions**. Pending edits leave displayed/exported results unchanged. Reset uses explicit catalog defaults. Invalid or unadmitted cases are not zero-cost alternatives. All-cell scope uses a labeled manufacturing reference. See [ARCHITECTURES.md](model/ARCHITECTURES.md) for operator purchase, allocated lifetime costs, human fallback, transfer cancellation and financing limits. Legacy sale/lease/service and monthly models remain separate. Historical model identities require their original revision.
+
+
+## Monthly commercial cases
+
+Business models now includes a fixed five-month sale/lease/provider-service comparison and seven adverse cases. Use its witness picker to inspect cash, supported output and title/custody, then **Export this monthly case**. These are separate from annual scenario controls and the annual import input. Recompute a downloaded case from its complete opening inputs:
+
+```sh
+python3 scripts/export_monthly_commercial.py --case monthly-lease.json --output replay.json
+python3 scripts/export_monthly_commercial.py --check
+```
+
+The default export is `model/results/monthly_commercial.json`; the API is `/api/monthly-commercial`. [Methods and exclusions](model/MONTHLY_COMMERCIAL.md) define all synthetic terms, existing-obligation limits and the absent entrant/annual bridge. Saved-input replay also reconstructs preexisting Treasury events, encumbrances and credit without treating a receivable or commitment as cash.

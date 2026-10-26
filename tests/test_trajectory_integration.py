@@ -36,6 +36,19 @@ class TrajectoryIntegration(unittest.TestCase):
         with urllib.request.urlopen(request) as response:
             return json.load(response)
 
+    def test_monthly_contract_api_and_download_cli_replay(self):
+        from model.monthly_commercial import commercial_artifact
+        with urllib.request.urlopen(f"http://127.0.0.1:{self.server.server_port}/api/monthly-commercial") as response:
+            actual = json.load(response)
+        self.assertEqual(actual, commercial_artifact())
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory)/"case.json"
+            target = Path(directory)/"replay.json"
+            source.write_text(json.dumps(actual["cases"]["cancel_spent_deposit"]))
+            subprocess.check_call([sys.executable, str(ROOT/"scripts/export_monthly_commercial.py"),
+                                   "--case", str(source), "--output", str(target)], stdout=subprocess.DEVNULL)
+            self.assertEqual(json.loads(source.read_text()), json.loads(target.read_text()))
+
     def test_every_selected_year_trace_and_http_replay(self):
         body = {"overrides": {"years": 3}, "digital_paths": PATHS}
         result = self.post("/api/run", body)

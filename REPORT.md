@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.7, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk, frontier-model evidence and a conditional four-architecture economic model are integrated. Real vendor costs and qualification, shared monthly commercial finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.8, campaign in progress. Annual digital paths, the physical-requirements crosswalk, frontier-model evidence, conditional architecture economics and monthly sale/lease/provider-service schedules are integrated. Real costs and qualification, joint entrant demand, enterprise finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -783,6 +783,57 @@ Three additions are justified now. First, separate **normal handling, safety pre
 The next evidence packet must join request IDs, accepted receipt and timing, robot active/down hours, staff task-duration logs and failed/manual fallback outcomes. The appropriate economic quantity is total relevant person-minutes per accepted service, compared at matched urgency, payload, route and quality. Neither calendar time nor cumulative deliveries supplies that quantity by itself.
 
 This wave stops after two empirical case audits and bounded follow-up access attempts. The Guro supplement was sought through its publisher link, PMC attachment and public EuropePMC supplementary archive; attempts returned a preparation HTML page or timed out, including a 45-second archive retry with zero bytes received. The Qilu full methods and ChristianaCare report body were not accessible through the attempted primary routes. No paid access, correspondence, broad new search campaign or invented calibration was used. The JSON contains five transparent arithmetic checks, three unresolved source conflicts and the missing-denominator requirements. Existing checkpoint artifacts and common-model assumptions remain unchanged.
+
+### Focused follow-up: Monthly commercial funding and title
+
+Authoritative analysis: [research/monthly_commercial_finance.md](research/monthly_commercial_finance.md).
+
+The commercial arrangement can change whether a technically identical plan is executed, because different actors must settle different obligations at different dates. The new [monthly contract model](model/MONTHLY_COMMERCIAL.md) isolates this mechanism using the accepted Treasury and physical-flow engines. It compares outright sale, independent lease and provider-owned availability service. All amounts and operating terms are **synthetic accounting witnesses**, not observed prices or deployment economics.
+
+This distinction matters for the provider/customer workstreams and Workstream K's value-capture question. A model or operator may have a positive allocated lifetime result and still lack the cash needed for the next manufacturing, installation or support step. The K architecture model is a separate conditional lifetime comparison; these monthly contracts do not yet import its adaptation costs, model fees, support deltas or qualified configurations. No claim of joint financeability follows by placing their tables next to one another.
+
+#### What the funded comparison isolates
+
+Each world begins with the same requested manufacture, qualified-component access, site demand, shipping and commissioning slots, and support requirements. There is one month-0 paid start, month-1 acceptance/shipment, month-2 installation, then a quarter first month of output followed by two full months. Each funded world supplies 225 accepted units over the five-month horizon and incurs $37,400 of included physical vendor outlays. The provider pays manufacture and transport in every world. The sale customer or lessor buys the hardware; customers pay separate installation/support in sale and lease. The service provider retains the robot and pays those operating costs.
+
+The price and fees determine who holds the cash, asset and obligations. In the synthetic reference, the $60,000 acquisition price is paid once. An independent lessor pays it; the operator does not also buy the robot. Lease payments are $10,000 per installed robot-month, including commissioning without proration. Provider service charges $10,000 per actually supported robot-month and collects one month later. The final service fee remains a receivable at the horizon, rather than being counted as cash already collected. None of these fees estimates an actual market price, target return or model-company margin.
+
+Under ample funding, increasing the hardware price by $5,000 transfers $5,000 from purchaser to provider without changing physical resource use or output. That invariance is conditional: if the higher price crosses the purchaser's cash limit, shipment fails and realized output falls. Prices therefore redistribute cash directly and can alter physical activity indirectly through financeability. A comparison that forces output to remain equal after that failure would hide the mechanism it is supposed to explain.
+
+#### What the adverse cases change
+
+A provider opening with $10,000 cannot pay the $36,000 start. A willing customer with enough money to buy the eventual robot does not create a current receipt: no unit is manufactured, no purchase is collected and no output appears. Conversely, after a funded start has produced an accepted unit, a settled shipment receipt may fund a later start under the explicitly ordered phase-5 policy. The engine does not borrow from the future to manufacture the unit that must be sold first.
+
+An independent lessor with one cent less than the purchase price cannot buy the robot. The provider retains the finished asset; transport is not charged, title does not change and output stays zero. If the purchase would settle but transport cannot be paid even afterward, the grouped shipment fails without committing the purchase receipt. This avoids a financially paid transfer that silently disappears from the physical ledger.
+
+A lease customer with $20,000 can pay the first $10,000 rent and $1,100 commissioning/support package, leaving $8,900. The next $10,000 rent cannot settle. The full unpaid fee remains outstanding, support stops and the robot remains installed with the lessor as title owner. At the end of this five-month case, $20,000 rent is unpaid and output is only the first 25 units. The installed-robot count alone would conceal that production stopped. A separate test supplies later customer cash, pays arrears first, and resumes ordinary support without recharging installation or applying another commissioning ramp.
+
+Provider service changes the party bearing the operating gap. With opening provider cash of $37,200 and a two-month collection lag, manufacture, shipment and commissioning exhaust available cash after the first 25 output units. The next month's support cannot be paid. The first service receipt arrives in month 4, funds actual support, and permits 100 units. Total output is 125, with no service invoice generated for the unsupported month. A receivable can describe future cash without supplying current maintenance.
+
+Refundable deposits expose a different risk. A restricted $30,000 deposit added to $10,000 of provider cash still leaves only $10,000 spendable, so the start is blocked and cancellation can refund the deposit. If the same deposit is spendable, the provider can pay the $36,000 start. Cancellation the next month leaves an accepted, unsold unit, $4,000 cash and a $30,000 refund liability. Manufacturing expenditure is not reversed. An explicit later receipt can finance the refund; there is no automatic write-off or recovery value.
+
+#### Interpretation and next evidence
+
+This result supports a conditional proposition: changing asset ownership or payment terms can overcome one actor's funding constraint while moving exposure to another. It does not prove that leasing or service expands aggregate finance, lowers complete lifecycle resource costs or produces a superior investment. The lessor's funds are explicit opening money, not costless bank credit; its acquisition is a transfer rather than another manufactured robot. All arrangements compete for the same physical inputs and support capacity.
+
+The remaining empirical question is which actual contract terms, billing milestones, qualification obligations, capital costs and service responsibilities govern a matched deployment. The remaining model question is whether an operating entrant can acquire customers and meet due enterprise obligations while drawing from the same robot, support and customer-demand pools as the incumbent. That requires a common demand ledger and company funding schedules. The present synthetic contract extension advances this question while leaving the annual fleet, separate entrant reference and K lifetime architectures explicitly distinct.
+
+#### Reproduced monthly commercial witnesses
+
+| Synthetic witness | Accepted service units, five months | Physical vendor outlay, USD | Unpaid invoices, USD | Refund liabilities, USD |
+| --- | ---: | ---: | ---: | ---: |
+| sale | 225.00 | 37,400.00 | 0.00 | 0.00 |
+| lease | 225.00 | 37,400.00 | 0.00 | 0.00 |
+| provider service | 225.00 | 37,400.00 | 10,000.00 | 0.00 |
+| lease rent default | 25.00 | 37,200.00 | 20,000.00 | 0.00 |
+| service late collection | 125.00 | 37,300.00 | 10,000.00 | 0.00 |
+| purchase cannot fund own start | 0.00 | 0.00 | 0.00 | 0.00 |
+| cancel restricted deposit | 0.00 | 0.00 | 0.00 | 0.00 |
+| cancel spent deposit | 0.00 | 36,000.00 | 0.00 | 30,000.00 |
+| lease purchase unfunded | 0.00 | 36,000.00 | 0.00 | 0.00 |
+| paid reject | 225.00 | 73,400.00 | 0.00 | 0.00 |
+
+Generated from [monthly_commercial.json](model/results/monthly_commercial.json). Each row is a separate alternative world. Unpaid invoices include future-eligible receivables as well as arrears; inspect the ledger for due dates. Refund liabilities are not revenue. Physical vendor outlays are a bounded cash proxy, not full lifecycle cost. These synthetic terms do not calibrate the annual, entrant or K architecture models.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

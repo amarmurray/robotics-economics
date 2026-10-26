@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from model.engine import BOUNDS, CHOICES, catalog, run_scenario, run_architecture_comparison
 from model.architectures import catalog as architecture_catalog
+from model.monthly_commercial import commercial_artifact
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -55,6 +56,12 @@ class Handler(BaseHTTPRequestHandler):
                     "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
+            return
+        if path == "/api/monthly-commercial":
+            try:
+                self.send(200, commercial_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
             return
         if path == "/api/health":
             self.send(200,{"status":"ok","model_version":catalog()["model_version"],"local_only":True})

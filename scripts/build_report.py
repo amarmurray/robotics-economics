@@ -20,7 +20,7 @@ FOLLOWUPS = {
  'frontier_models.md': [('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
- 'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md')],
+ 'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md')],
  'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md')],
  'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
  'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
@@ -42,7 +42,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.7, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk, frontier-model evidence and a conditional four-architecture economic model are integrated. Real vendor costs and qualification, shared monthly commercial finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.8, campaign in progress. Annual digital paths, the physical-requirements crosswalk, frontier-model evidence, conditional architecture economics and monthly sale/lease/provider-service schedules are integrated. Real costs and qualification, joint entrant demand, enterprise finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -70,6 +70,17 @@ The initial editions were produced in a cloud checkout. This continuation uses t
         out.append(f'## {i}. {title}\n\nAuthoritative chapter: [research/{name}](research/{name}).\n\n'+chapter((ROOT/'research'/name).read_text()))
         for follow_title,follow_name in FOLLOWUPS.get(name,[]):
             out.append(f'### Focused follow-up: {follow_title}\n\nAuthoritative analysis: [research/{follow_name}](research/{follow_name}).\n\n'+chapter((ROOT/'research'/follow_name).read_text(),depth=2))
+    monthly = json.loads((ROOT/'model/results/monthly_commercial.json').read_text())
+    for path, digest in monthly['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:
+            raise SystemExit('Stale monthly-commercial dependency: '+path)
+    monthly_table = ['| Synthetic witness | Accepted service units, five months | Physical vendor outlay, USD | Unpaid invoices, USD | Refund liabilities, USD |',
+                     '| --- | ---: | ---: | ---: | ---: |']
+    for row in monthly['summary']:
+        q=row['total_accepted_output']; quantity=q['numerator']/q['denominator']
+        monthly_table.append(f"| {row['case'].replace('_',' ')} | {quantity:,.2f} | {row['external_physical_outlay_cents']/100:,.2f} | {row['outstanding_invoices_cents']/100:,.2f} | {row['outstanding_refunds_cents']/100:,.2f} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Monthly commercial'))+1
+    out.insert(insert_at, '#### Reproduced monthly commercial witnesses\n\n'+'\n'.join(monthly_table)+'\n\nGenerated from [monthly_commercial.json](model/results/monthly_commercial.json). Each row is a separate alternative world. Unpaid invoices include future-eligible receivables as well as arrears; inspect the ledger for due dates. Refund liabilities are not revenue. Physical vendor outlays are a bounded cash proxy, not full lifecycle cost. These synthetic terms do not calibrate the annual, entrant or K architecture models.')
     physical = json.loads((ROOT/'model/results/physical_requirements_summary.json').read_text())
     for path, digest in physical['source_hashes'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "campaign_in_progress_conditional_architectures_0.7",
+  "edition_status": "week-one-in-progress-0.8",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1097,16 +1097,22 @@
         "model/TREASURY_CORE.md",
         "reviews/treasury_core_review.md",
         "model/MONTHLY_DEPLOYMENT.md",
-        "reviews/monthly_deployment_review.md"
+        "reviews/monthly_deployment_review.md",
+        "model/MONTHLY_COMMERCIAL.md",
+        "model/monthly_commercial.py",
+        "model/results/monthly_commercial.json",
+        "research/monthly_commercial_finance.md",
+        "reviews/monthly_commercial_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
         "finding": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
         "integrated_edition": "The isolated stage1 financial core now tests exact cash/reservation/deposit/credit settlement; no monthly physical/entrant integration or automatic reinvestment is established.",
-        "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete."
+        "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete.",
+        "monthly_commercial": "Stage3 reuses physical and Treasury engines for sale/lease/provider-service contracts. Ten witnesses and saved-input replay verify price transfers, title/custody, support/arrears and refunds. Sole-lead review; common entrant demand and full company funding schedules remain open."
       },
       "gap": "One-site lifecycle transfers consolidate; annual fleet funding and monthly entrant cash are explicit. They do not form one treasury with working capital, cash reinvestment, defaults, refinancing and a shared entrant deployment/resource ledger.",
-      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+      "next_action": "Integrate one common incumbent/entrant demand ledger with explicitly funded enterprise obligations; preserve the physical contract and calibration limits."
     },
     {
       "requirement_id": "W1-REPORT",
@@ -1364,7 +1370,7 @@
         "finding": "Four conditional structures share the matched-service equations. Cent costs/transfers, role consolidation, human/specialized alternatives, fee bounds, adverse sensitivities, equal-technology paths and API/export replay are verified. Explicit Apply corrects an observed browser edit issue."
       },
       "gap": "Bounded synthetic mechanism met. Real prices, rights, configuration and support remain unqualified; lifetime references do not establish company financing.",
-      "next_action": "Implement shared monthly commercial/title/cash obligations on the existing physical plan; retain empirical unknowns."
+      "next_action": "Test the architecture costs and contractual allocations against future common monthly company finance; actual rights and qualification remain unknown."
     },
     {
       "requirement_id": "W1-K-IMPLICATIONS",
@@ -1394,5 +1400,5 @@
     "partial": 16,
     "unmet": 0
   },
-  "publication_cutoff_note": "Campaign ongoing. Conditional K architecture calculation is bounded met under sole-lead checks; empirical qualification and integrated monthly finance remain partial. Receipts are local."
+  "publication_cutoff_note": "Campaign ongoing. Conditional K architecture and bounded monthly commercial mechanisms are implemented under sole-lead checks. Shared entrant demand, company finance and empirical qualification remain partial. Receipts are local."
 }

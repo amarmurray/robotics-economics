@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.7.
+Handoff ID: week-one-2026-10-25-in-progress-0.8.
 
 ## Accepted direction
 
@@ -20,27 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: conditional architecture economics, edition 0.7
+## Current checkpoint: monthly commercial finance, edition 0.8
 
-The goal remains to execute the roadmap through the original November 1 deadline with **one agent only**. The canonical Mac folder remains the project home, but intermittent cloud-file availability required a verified backup and an independent local publication checkout. Current execution and recovery paths are in ignored `work/ACTIVE_EXECUTION.json` and the local operational receipts. Do not assume the original local Git checkout has advanced merely because remote main was published. No research artifact moved to another repository.
+The active goal continues through the original November 1 deadline with **one agent only**. The canonical Mac folder is preserved; execution remains in the verified local clone of this same repository recorded in ignored `work/ACTIVE_EXECUTION.json` and operational receipts. The user explicitly approved Finder “Keep Downloaded”; the setting was enabled and verified. Do not assume the original canonical Git checkout advanced with publication or replace its unrelated work.
 
-`REPORT.md` edition 0.7 integrates the K evidence and a conditional four-architecture model. Model 0.3.0 reuses the matched-service equations, adds itemized costs/transfers, consolidates roles and computes conditional model/service fee bounds. Eight witnesses cover fees, adaptation, operating support, qualification, newco setup, leaner open adaptation and a stronger human alternative. The existing thirteen views provide explicit Apply controls, ledgers and exact scope/input replay. Observed vendor costs, rights and qualification remain unknown.
+`REPORT.md` edition 0.8 adds sale, independent lease and provider-owned availability service to the same monthly physical/Treasury engine. One contract covers each site; cash, title, custody, workflow authority and support responsibility are distinct. Ten synthetic witnesses expose funded equality, insufficient purchase/start cash, arrears, collection delays, rejects and restricted/spent refundable deposits. The existing Business models view has a witness picker, monthly cash/output/asset tables and exact case export; annual controls do not affect these fixed cases.
 
-The reference licensed case has a positive combined allocated cash benefit while its supplier loses at the chosen fee. A fee-only change redistributes the same gain. Adaptation changes resources without directly changing output; support affects expense and robot contribution while assumed human fallback maintains total service. Combining roles cancels internal transfers, not costs. Identical technology/setup gives identical incumbent/newco production; no label-based advantage is introduced.
+Fully funded arrangements deliver 225 accepted units with $37,400 of included physical vendor outlay. Moving prices redistributes cash while funded gates remain open. Lease arrears preserve the installed lessor-owned robot and unpaid liability but stop support. A two-month service collection lag can leave a month unsupported. Spending a refundable deposit can finance manufacture yet leave an unsold finished robot and unfunded refund after cancellation. These terms are invented and the outlay subtotal is not a full economic cost or profit measure.
 
-Verification: 135 Python tests and 36 JavaScript assertions, retaining all 69,315 legacy numeric fields across sixteen cases. Tests cover cent conservation, fee endpoints and outside counterparties, role consolidation, adverse/invalid/extreme inputs, preserved source unknowns and complete HTTP/CLI replay. Review is sole-lead. The first-edition register has 53 bounded met and 16 partial checks; the campaign and broader research are not complete.
+The shared physical loop retains its original six stage-2 artifacts exactly. An accepted, settled shipment may now fund a later start in the same phase under explicit order; future sales cannot fund their own manufacture. Purchase/transport and first-rent/commissioning settle as atomic local simulation groups. There is no external transaction, autonomous reinvestment, automatic loan draw, repossession or company-wide default scheduler. Cancellation is bounded to before shipment; later termination remains open.
 
-The calculation is a selected-year, one-site lifetime reference with operator purchase, assumed qualification and sufficient human fallback. An allocated upstream-development charge is not a lab cash calendar; payroll removal remains unobserved. Positive annual equivalents do not establish liquidity. The annual, monthly entrant, treasury and paid-physical models remain separately scoped. The earlier cloud-only commercial stage-3 design was unavailable and must be reconstructed from accepted local modules.
+Verification: 158 Python tests, 36 JavaScript assertions, 22 focused commercial tests and 45 seeded cross-world runs; HTTP/CLI and browser download replay; preserved cash/stock/title boundaries. Review is sole-lead. The 69-check register remains 53 bounded met and 16 partial. W1-CASH remains partial. Evidence packages and K empirical unknowns are unchanged. Annual trajectories, BLS crosswalk, K dossiers and the conditional architecture model remain accepted; their outputs are not silently joined to these monthly contracts.
 
 **Next execution checklist:**
 
-1. Read the monthly deployment and treasury methods/code/tests/reviews. Specify sale, independent lease and provider service over one common requested monthly physical plan with stable robot/component/site IDs and exact phase order.
-2. Define legal actors, title/custody, start/supplier payments, delivery/commissioning prerequisites, customer/lessor/provider receipts, support, cancellation/refund and default consequences. Keep prior capex, outstanding obligations, deposits, credit and future receipts separate. Funding failures may change realized output; do not force an equal-output comparison when a requested plan cannot be paid.
-3. Reuse the integer-cent treasury and physical ledger for a bounded implementation. Test actual settlement and title transitions, manufacture charged once, common physical requirements, insufficient cash, late receipts and unpaid commissioning/support.
-4. Retain real-source unknowns and explicit synthetic terms. Do not treat the annual architecture reference or a separate entrant example as a jointly funded company until the bridge is implemented and verified.
-5. Integrate verified results into the report, existing views, acceptance and reproduction; refresh manifest; inspect remote state and publish scoped commits normally. Continue consequential regional K, field-support, coordination and supply evidence in the original window.
+1. Read the entrant model, customer-value research, treasury design and stage-3 methods/review. Define one common incumbent/entrant service-demand ledger: transferred customers, unmet demand and genuinely new demand must reconcile separately.
+2. Tie entrant service to actual commissioned, supported units in this same physical pool. Preserve same-technology alternatives and prompt/delayed incumbent response; no automatic demand or productivity advantage from the newco label.
+3. Add explicit enterprise invoices, operating costs, committed funding dates and mandatory-payment priority as needed for the selected bounded case. Reuse Treasury; no duplicate robot capex, transfer revenue, opening money or manufacturing cost.
+4. Challenge failure/recovery: unavailable support removes delivered output, and displaced incumbent volume does not automatically return without customer switching and capacity. Keep empirical prices, labor removal and finance access unknown unless sourced.
+5. Integrate verified findings into report/current views, acceptance, manifest and scoped normal publication. Continue consequential regional K, field-support, conventional-coordination and qualified-supply research within the same campaign window.
 
-**Next question:** which sale/lease/service cash and title arrangements can fund the same requested monthly manufacture, commissioning and support, and which fail despite positive lifetime economics?
+**Next question:** can a same-technology operating entrant finance customer capture and reliable delivery when its robots, support and displaced incumbent demand all reconcile in one monthly ledger?
 
 ## Campaign activation history (preserved)
 
@@ -147,7 +147,7 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate execution follows the current checkpoint checklist above: reconstruct and implement the monthly commercial/title/cash extension, then continue the ranked empirical and regional gaps. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the current checkpoint checklist above: integrate one common incumbent/entrant demand and enterprise-cash case with the accepted monthly contracts, then continue the ranked empirical and regional gaps. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 

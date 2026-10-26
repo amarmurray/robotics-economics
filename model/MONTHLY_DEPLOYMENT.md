@@ -1,5 +1,7 @@
 # Monthly deployment fixture: paid physical progress
 
+Current extension: [stage 3 commercial schedules](MONTHLY_COMMERCIAL.md) now call this same physical loop with explicit payment/title policies. The stage-2 default described below and its six full witness artifacts are preserved exactly. Sale, lease, operator cash and cancellation exist only when the separate `run_commercial` entry point is used; they are not silently added to these historical default examples.
+
 Stage 2 implements a **small, isolated synthetic physical-and-cash fixture** using the accepted [Treasury core](TREASURY_CORE.md). It tests whether paid starts actually pass through acceptance, shipment, funded commissioning and supported output. It does not complete the [treasury extension](treasury_extension_design.md), replace the annual engine, integrate the entrant business, or calibrate any physical/economic coefficient. All scenario inputs are invented accounting and timing witnesses.
 
 The implemented unit is one provider-owned system and one accepted-work profile. The provider pays manufacturing, transport, installation and support. Operators are assignments of physical work, not additional asset owners or separate customer cash models. Opening finished and installed units are explicit historically funded stocks; their purchase cost is outside the simulation horizon, not assumed zero. No sale, lease, title transfer, demand competition, autonomous investment or recovery policy is inferred.

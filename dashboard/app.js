@@ -5,6 +5,7 @@ const fmt = (v, decimals=0) => v === null || v === undefined ? 'Unknown' : typeo
 const money = v => v === null || v === undefined ? 'Unknown' : '$'+fmt(v);
 const title = s => String(s).replaceAll('_',' ').replace(/\b\w/g,x=>x.toUpperCase());
 const safeURL = v => typeof v === 'string' && /^https?:\/\//.test(v) ? v : null;
+let monthlyCommercialCache=null,monthlyCommercialCase="sale",monthlyCommercialLoading=false;
 let digitalPaths=null,architectureOverrides=null,architectureCache={key:null},architectureRequestId=0;
 let boot, result, activeView='atlas', overrides={}, requestId=0, allRecords=[], evidenceById=new Map(), comparisonResults=null, detailRequestId=0, activeTraceHash=null;
 const viewNames = [
@@ -88,6 +89,29 @@ function physicalCrosswalk(){
   `<div class="links">${refButtons({evidence_ids:['PRC-006','PRC-007']})}<a href="/research/physical_requirements_crosswalk.md" target="_blank">Crosswalk analysis ↗</a><a href="/data/physical_requirements_crosswalk.json" target="_blank">Saved requirements and source locators ↗</a></div></section>`;
 }
 function frontierActors(){return `<section id="frontier-actors"><h3>Frontier model and deployment roles</h3>`+notice('Dated primary-source map. Lab, OEM, integrator and operator roles can coexist. Model releases, benchmark results, paid customers and productive fleets are separate observations.',true)+docs(/frontier_models/)+evidenceSection(/^model_labs$/,/frontier_model_economics/,9)+`</section>`;}
+function monthlyCommercialPanel(){
+ if(!monthlyCommercialCache&&!monthlyCommercialLoading){
+  monthlyCommercialLoading=true;
+  fetch('/api/monthly-commercial').then(async response=>{const data=await response.json();if(!response.ok)throw Error(data.error||'Monthly calculation unavailable');monthlyCommercialCache=data;}).catch(error=>{monthlyCommercialCache={error:error.message};}).finally(()=>{monthlyCommercialLoading=false;if(activeView==='commercial')render();});
+ }
+ const header=`<section id="monthly-commercial"><h3>Who funds the next physical step?</h3>`+notice('Fixed five-month synthetic plan: sale, independent lease and provider service use the same requested manufacture, transport, installation and support. Funding failures can change realized output. Annual assumptions and calendar filters do not change these witnesses. No end-market revenue or lifecycle profit is inferred.');
+ if(!monthlyCommercialCache)return header+'<p>Calculating monthly commercial witnesses…</p></section>';
+ if(monthlyCommercialCache.error)return header+empty(esc(monthlyCommercialCache.error))+'</section>';
+ const data=monthlyCommercialCache,r=data.cases[monthlyCommercialCase],cents=v=>'$'+fmt(v/100,2),quantity=v=>fmt(v.numerator/v.denominator,2);
+ const rows=data.summary.map(x=>({...x,output:quantity(x.total_accepted_output)}));
+ const months=r.months.map(m=>({month:m.month,started:m.flows.started,shipped:m.flows.shipped,installed:m.closing_stock.installed,supported:m.support.used,output:m.outputs.reduce((a,o)=>a+o.accepted_output_units.numerator/o.accepted_output_units.denominator,0),provider:m.closing_cash_cents.provider,customer:m.closing_cash_cents.customer,lessor:m.closing_cash_cents.lessor}));
+ const terms=r.commercial.contracts[0];
+ const termText=terms.arrangement==='sale'?`Customer purchase: ${cents(terms.purchase_cents_per_robot)} per successful accepted-unit shipment.`:terms.arrangement==='lease'?`Lessor purchase: ${cents(terms.purchase_cents_per_robot)} per successful shipment. Customer rent: ${cents(terms.rent_cents_per_robot_month)} per installed robot-month, including commissioning.`:`Provider retains title. Availability fee: ${cents(terms.service_cents_per_supported_month)} per supported robot-month; collection lag ${terms.service_collection_lag_months} month(s).`;
+ const depositText=terms.deposit_cents?` Security deposit: ${cents(terms.deposit_cents)}, ${terms.deposit_restricted?'restricted':'spendable'} and refundable.`:' No security deposit.';
+ const cancelText=terms.cancel_month===null?'':` Cancellation requested in month ${terms.cancel_month}; spent manufacturing cash is not reversed.`;
+ return header+table(rows,[['case','Witness',v=>esc(title(v))],['output','Accepted units',esc,true],['external_physical_outlay_cents','Physical vendor outlay',cents,true],['outstanding_invoices_cents','Unpaid invoices',cents,true],['outstanding_refunds_cents','Refund liabilities',cents,true]])+
+  `<p class="small">Unpaid invoices include receivables not yet due; the full ledger distinguishes dates and arrears. Cash columns show bank balances; restrictions and spendable cash are recorded for every month.</p><label>Inspect monthly witness <select id="monthly-commercial-case">${Object.keys(data.cases).map(k=>`<option value="${esc(k)}" ${k===monthlyCommercialCase?'selected':''}>${esc(title(k))}</option>`).join('')}</select></label>`+
+  `<p>Arrangement: <strong>${esc(title(terms.arrangement))}</strong>. ${termText}${depositText}${cancelText}</p>`+
+  table(months,[['month','Month',v=>fmt(v),true],['started','Starts',v=>fmt(v),true],['shipped','Shipped',v=>fmt(v),true],['installed','Installed',v=>fmt(v),true],['supported','Supported',v=>fmt(v),true],['output','Accepted units',v=>fmt(v),true],['provider','Provider cash',cents,true],['customer','Customer cash',cents,true],['lessor','Lessor cash',cents,true]])+
+  `<h4>Closing title and custody</h4>`+table(r.commercial.months.at(-1).assets,[['unit_id','Robot',esc],['physical_state','State',esc],['title_owner','Title owner',esc],['custodian','Custodian',esc],['workflow_authority','Workflow authority',v=>v?esc(v):'None'],['supported','Supported this month',v=>v?'Yes':'No']])+
+  `<details><summary>Inspect blocked actions, contracts and complete financial / physical ledgers</summary><pre>${esc(JSON.stringify(r,null,2))}</pre></details><p><a href="/model/MONTHLY_COMMERCIAL.md" target="_blank">Methods and exclusions</a> · <a href="/research/monthly_commercial_finance.md" target="_blank">Interpretation</a></p><button id="export-monthly-commercial">Export this monthly case</button><p class="small">Replay with scripts/export_monthly_commercial.py --case downloaded-case.json --output replay.json. These cases are separate from annual scenario import.</p></section>`;
+}
+
 function frontierArchitectures(){
  const packet=boot.observed_frontier_models;if(!packet?.transaction)return '';
  const t=packet.transaction;
@@ -203,7 +227,7 @@ const renderers={
   `<div class="card"><h3>Conditional cash balance · USD</h3>${chart(n.rows,'month',[['cash_balance_usd','Cash balance','#00796e']])}<p class="small">${esc(n.limitation)}</p></div>`+
   `<div class="card"><h3>Capacity, demand and delivered service · units/month</h3>${chart(n.rows,'month',[['capacity_units','Newco capacity','#00796e'],['demand_units','Won demand','#b86020'],['served_units','Delivered','#326c9c'],['incumbent_same_robot_capacity_units','Incumbent same robot capacity','#82729d']])}</div>`+
   `<details><summary>Inspect exact entrant assumptions and full monthly cash path</summary><pre>${esc(JSON.stringify(n,null,2))}</pre></details>`;},
- commercial(){const ids=new Set(selectedCells().map(x=>x.cell_id));const cases=result.commercial_by_cell.filter(x=>ids.has(x.cell_id));return frontierArchitectures()+notice('Customer business ownership and robot-asset ownership are separate dimensions. Prices redistribute value; manufacturer resource expenditure is not customer price. Cash tables hold initial capability and year-zero digital conditions for the full one-site lifetime; the calendar-year filter does not change them. They are incremental to an assumed avoidable baseline and include deployment investment once.',true)+
+ commercial(){const ids=new Set(selectedCells().map(x=>x.cell_id));const cases=result.commercial_by_cell.filter(x=>ids.has(x.cell_id));return monthlyCommercialPanel()+frontierArchitectures()+notice('Customer business ownership and robot-asset ownership are separate dimensions. Prices redistribute value; manufacturer resource expenditure is not customer price. Cash tables hold initial capability and year-zero digital conditions for the full one-site lifetime; the calendar-year filter does not change them. They are incremental to an assumed avoidable baseline and include deployment investment once.',true)+
   cases.map(c=>`<div class="card"><h3>${esc(cellLabel(c.cell_id))} · ${esc(c.arrangement)}</h3><p class="small">${esc(c.scope)}</p><p>Robot owner: <strong>${esc(c.rights.robot_asset_owner)}</strong> · Workflow authority: ${esc(c.rights.workflow_authority)} · Data reuse: ${esc(c.rights.data_reuse)}</p>${table(c.cashflows,[['period','Period'],['customer_cash_usd','Customer',money,true],['provider_cash_usd','Provider',money,true],['financier_cash_usd','Financier',money,true],['consolidated_incremental_cash_usd','Consolidated',money,true]])}</div>`).join('')+
   evidenceSection(/commercial|arrangement|rights|business_model|value_capture/,/customer/,18);},
  digital(){return notice('Edges in this workspace describe dated contractual, physical, data or control relationships. They are not measured material/cash flow widths. Onboard embedded memory is never pooled with datacenter HBM or training resources.',true)+docs(/digital|infrastructure|coordination_reproducibility|onboard_workload_qualification/)+
@@ -291,7 +315,9 @@ async function init(){
  $('views').addEventListener('click',e=>{if(e.target.dataset.view){activeView=e.target.dataset.view;location.hash=activeView;render();}});
  document.addEventListener('click',async e=>{const ref=e.target.closest('[data-evidence]');if(ref)showEvidence(ref.dataset.evidence);const calculation=e.target.closest('[data-calculation]');if(calculation)showCalculation(calculation.dataset.calculation);if(e.target.id==='compare-presets'){e.target.disabled=true;e.target.textContent='Calculating saved scenarios…';comparisonResults=await Promise.all(Object.keys(boot.catalog.presets).map(preset=>fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset})}).then(r=>r.json())));render();}});
  for(const eventName of ['input','change'])document.addEventListener(eventName,e=>{if(e.target.dataset.archCommon||e.target.dataset.archProfile)setText('arch-input-state','Unapplied edits. Display and export retain the last computed case.');});
+ document.addEventListener('change',e=>{if(e.target.id==='monthly-commercial-case'){monthlyCommercialCase=e.target.value;render();}});
  document.addEventListener('click',async e=>{
+  if(e.target.id==='export-monthly-commercial'&&monthlyCommercialCache?.cases)download('monthly-'+monthlyCommercialCase+'.json',JSON.stringify(monthlyCommercialCache.cases[monthlyCommercialCase],null,2),'application/json');
   if(e.target.id==='apply-architectures'){
    const previous=architectureOverrides;
    try{

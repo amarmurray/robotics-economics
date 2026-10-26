@@ -1,7 +1,8 @@
 """Synthetic stage-2 integer physical flow coupled to the accepted Treasury API.
 
-One provider-owned system, preplanned actions, exact cents and rational service
-output. No commercial sale/title model, automatic investment or annual bridge.
+Default: one provider-owned system, preplanned actions, exact cents and rational
+service. Optional stage-3 contract policies reuse this loop; no automatic
+investment or annual bridge.
 """
 from __future__ import annotations
 
@@ -171,7 +172,7 @@ class Unit:
     commissioned_at: Moment | None = None
 
 
-def run_monthly(plan: Plan, treasury: Treasury):
+def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
     """Return a detached deterministic artifact; never mutate supplied inputs."""
     if not isinstance(plan, Plan) or not isinstance(treasury, Treasury):
         raise ValueError("Plan and Treasury required")
@@ -182,8 +183,9 @@ def run_monthly(plan: Plan, treasury: Treasury):
     if plan.provider_actor in (plan.manufacturing_vendor_actor, plan.deployment_vendor_actor):
         raise ValueError("Cash vendors must be separate legal counterparties")
     for collection in plan.collections:
-        if treasury.invoice(collection.invoice_id).payee != plan.provider_actor:
-            raise ValueError("Collections must be explicit opening provider receivables")
+        payee = treasury.invoice(collection.invoice_id).payee
+        if payee != plan.provider_actor and (commercial is None or payee not in commercial.parties):
+            raise ValueError("Collections must be explicit opening receivables of an included actor")
 
     spec = plan.system
     prefix = "monthly:" + plan.plan_id + ":"
@@ -205,17 +207,20 @@ def run_monthly(plan: Plan, treasury: Treasury):
                        "unit_ids": list(unit_ids), "status": status, "reason": reason,
                        "invoice_id": invoice_id, "provenance": provenance, **detail})
 
-    def issue(label, amount, month, phase, vendor, issued_phase=1):
+    def issue(label, amount, month, phase, vendor, issued_phase=1, payer=None):
         nonlocal treasury
         iid = prefix + f"m{month}:" + label
-        treasury = treasury.issue_invoice(iid + ":issue", iid, plan.provider_actor, vendor, amount,
+        treasury = treasury.issue_invoice(iid + ":issue", iid, payer or plan.provider_actor, vendor, amount,
                                           Moment(month, issued_phase),
                                           Moment(month, phase), Moment(month, phase),
                                           provenance=provenance, cancellable=True, category=label.split(":")[0])
         return iid
 
-    def admit(iid, month, phase, physical_reason=""):
+    def admit(iid, month, phase, physical_reason="", unit=None, operator_id=None):
         nonlocal treasury
+        if commercial is not None:
+            treasury, reason = commercial.admit(treasury, iid, month, phase, physical_reason, unit, operator_id)
+            return reason
         if not physical_reason:
             treasury = treasury.settle_invoice(iid + ":pay", iid, Moment(month, phase), provenance=provenance)
             if treasury.invoice(iid).outstanding_cents == 0:
@@ -246,11 +251,15 @@ def run_monthly(plan: Plan, treasury: Treasury):
         existing = [u for u in units if u.status == "installed"]
         arriving = [u for u in units if u.status == "transit" and u.ready_month <= month]
         scheduled = [s for s in plan.starts if s.month == month]
+        if commercial is not None:
+            treasury = commercial.prepare(treasury, month, units)
         support_invoices = {u.unit_id: issue("support:" + u.unit_id, spec.support_cents_per_robot_month,
-                                            month, 3, plan.deployment_vendor_actor) for u in existing}
+                                            month, 3, plan.deployment_vendor_actor,
+                                            payer=commercial.payer("support", u) if commercial else None) for u in existing}
         commission_invoices = {u.unit_id: issue("commission:" + u.unit_id,
                                                spec.commissioning_cents + spec.support_cents_per_robot_month,
-                                               month, 4, plan.deployment_vendor_actor) for u in arriving}
+                                               month, 4, plan.deployment_vendor_actor,
+                                               payer=commercial.payer("commission", u) if commercial else None) for u in arriving}
         start_invoices = {s.order_id: issue("start:" + s.order_id, s.quantity * spec.bundled_start_cents,
                                           month, 5, plan.manufacturing_vendor_actor) for s in scheduled}
 
@@ -262,12 +271,16 @@ def run_monthly(plan: Plan, treasury: Treasury):
                    reason=treasury.events[-1].reason, invoice_id=collection.invoice_id,
                    cash_settled_cents=treasury.events[-1].settled_cents)
 
+        if commercial is not None:
+            treasury = commercial.collect(treasury, month)
+            treasury = commercial.mandatory(treasury, month)
+
         # Phase 3: opening installed units have first claim on slots, spares and cash.
         for unit in existing:
             reason = "support_slots" if len(supported) >= plan.support_slots[month] else \
                      "support_components" if components < spec.service_components_per_robot_month else ""
             iid = support_invoices[unit.unit_id]
-            reason = admit(iid, month, 3, reason)
+            reason = admit(iid, month, 3, reason, unit=unit)
             if not reason:
                 supported.add(unit.unit_id)
                 components -= spec.service_components_per_robot_month
@@ -298,7 +311,7 @@ def run_monthly(plan: Plan, treasury: Treasury):
                      "support_slots" if len(supported) >= plan.support_slots[month] else \
                      "support_components" if components - protected_spares < spec.service_components_per_robot_month else ""
             iid = commission_invoices[unit.unit_id]
-            reason = admit(iid, month, 4, reason)
+            reason = admit(iid, month, 4, reason, unit=unit)
             if not reason:
                 put(replace(unit, status="installed", ready_month=None, commissioned_at=Moment(month, 4)))
                 commissioned += 1
@@ -312,6 +325,8 @@ def run_monthly(plan: Plan, treasury: Treasury):
         candidates = [u for u in units if u.status == "finished"]
         ship_invoices = {u.unit_id: issue("ship:" + u.unit_id, spec.shipping_cents,
                                          month, 5, plan.deployment_vendor_actor, issued_phase=4) for u in candidates}
+        if commercial is not None:
+            treasury = commercial.shipping_quotes(treasury, month, candidates)
         for unit in candidates:
             awaiting = sum(u.status == "transit" and u.ready_month <= target for u in units)
             booked_for_target = sum(u.status == "transit" and u.ready_month == target for u in units)
@@ -323,14 +338,23 @@ def run_monthly(plan: Plan, treasury: Treasury):
                      "future_support_slots" if future_installed >= plan.support_slots[target] else \
                      "no_requested_assignment" if not any(remaining.values()) else ""
             iid = ship_invoices[unit.unit_id]
-            reason = admit(iid, month, 5, reason)
+            operator_id, next_cursor = None, cursor
+            for offset in range(len(plan.allocation_cycle)):
+                index = (cursor + offset) % len(plan.allocation_cycle)
+                candidate_operator = plan.allocation_cycle[index]
+                if remaining[candidate_operator]:
+                    # A canceled site's request is retained in reporting, but cannot consume assignment priority.
+                    if commercial and commercial.by_site[candidate_operator].contract_id in commercial.cancelled:
+                        continue
+                    operator_id, next_cursor = candidate_operator, (index + 1) % len(plan.allocation_cycle)
+                    break
+            if operator_id is None and not reason:
+                reason = "no_active_requested_assignment"
+            reason = admit(iid, month, 5, reason, unit=unit, operator_id=operator_id)
             if not reason:
-                for offset in range(len(plan.allocation_cycle)):
-                    index = (cursor + offset) % len(plan.allocation_cycle)
-                    operator_id = plan.allocation_cycle[index]
-                    if remaining[operator_id]:
-                        cursor = (index + 1) % len(plan.allocation_cycle)
-                        break
+                cursor = next_cursor
+                if commercial is not None:
+                    commercial.shipped(month, unit, operator_id, treasury)
                 remaining[operator_id] -= 1
                 shipped += 1
                 put(replace(unit, status="transit", operator_id=operator_id, ready_month=target,
@@ -354,6 +378,9 @@ def run_monthly(plan: Plan, treasury: Treasury):
             record(month, 5, "start", ids if not reason else (), "blocked" if reason else "started", reason, iid,
                    requested_quantity=start.quantity, components_consumed=0 if reason else needed)
 
+        if commercial is not None:
+            treasury = commercial.finish_shipping(treasury, month)
+
         outputs = []
         for operator in plan.operators:
             assigned = [u for u in units if u.status == "installed" and u.operator_id == operator.operator_id]
@@ -368,6 +395,9 @@ def run_monthly(plan: Plan, treasury: Treasury):
                             "ramped_capacity_units": _rational(capacity), "accepted_output_units": _rational(output)})
             record(month, 6, "operate", tuple(u.unit_id for u in active), operator_id=operator.operator_id,
                    capacity_units=_rational(capacity), demand_units=demand, output_units=_rational(output))
+        if commercial is not None:
+            treasury = commercial.bill_service(treasury, month, units, supported)
+            commercial.close(treasury, month, units, supported)
         closing = counts()
         row = {"month": month, "opening_stock": opening, "closing_stock": closing,
                "components": {"opening": opening_components, "qualified_receipts": receipt,
