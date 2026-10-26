@@ -6,3 +6,9 @@ input:disabled, select:disabled { opacity:.55; }
 
 /* Keep calculation totals visible in the default narrow app panel. */
 dialog th { white-space:normal; }
+
+.architecture-controls { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:16px 0; }
+.architecture-controls label { font-size:12px; }
+#architecture-calculator { border:1px solid var(--line); padding:18px; border-radius:6px; background:#f7faf5; margin-bottom:24px; }
+
+#architecture-calculator th { white-space:normal; }

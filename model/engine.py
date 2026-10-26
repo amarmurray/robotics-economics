@@ -1,7 +1,7 @@
 """Single deterministic engine for API, report tables and exports.
 
 All model parameters are synthetic illustrations. Evidence records are never used
-as numerical coefficients without an explicit mapping; none is calibrated in v0.1.
+as numerical coefficients without an explicit mapping; none is calibrated in this edition.
 See model/METHODS.md for dimensions, accounting boundaries and known limitations.
 """
 from __future__ import annotations
@@ -13,6 +13,7 @@ import math
 from pathlib import Path
 from .packages import accepted_package_hashes
 from .trajectories import CHANNELS, resolve_paths, parameters_at
+from .architectures import resolve as architecture_parameters, compare as compare_architectures, finite_number
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSUMPTIONS = ROOT / "model" / "assumptions.json"
@@ -55,7 +56,7 @@ def parameters(overrides=None, preset="reference"):
     p.update(c["presets"][preset]["overrides"])
     for k, v in (overrides or {}).items():
         if k in BOUNDS:
-            if isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v):
+            if not finite_number(v):
                 raise ValueError(f"{k} must be a finite number, never null")
             lo, hi = BOUNDS[k]
             if not lo <= v <= hi or (k in INTEGER_KEYS and int(v) != v):
@@ -485,10 +486,12 @@ def backcast(c, p):
             "reason":"Resource witness and latest start dates, not a forecast. Requires sufficient qualified receipts including spares, orders, retained demand and financed production. Target may exceed the 72-site demonstration pool; no expanded demand is inferred."}
 
 
-def run_scenario(overrides=None, preset="reference", digital_paths=None):
+def run_scenario(overrides=None, preset="reference", digital_paths=None, architecture_overrides=None):
     c = catalog()
     p = parameters(overrides,preset)
     resolved = resolve_paths(p, c["base_year"], BOUNDS, digital_paths)
+    architecture = architecture_parameters(architecture_overrides)
+    architecture_catalog_sha256 = hashlib.sha256((ROOT/"model/architecture_assumptions.json").read_bytes()).hexdigest()
     fleet = fleet_model(c,p,resolved)
     initial = parameters_at(p, resolved, 0)
     annual = []
@@ -502,13 +505,15 @@ def run_scenario(overrides=None, preset="reference", digital_paths=None):
     evidence=accepted_package_hashes(ROOT)
     engine_sha256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     model_source_hashes = {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
-                           for name in ("model/engine.py", "model/trajectories.py")}
+                           for name in ("model/engine.py", "model/trajectories.py", "model/architectures.py")}
     fingerprint = hashlib.sha256(json.dumps({"model":c,"parameters":p,
-        "resolved_digital_paths":resolved,"model_source_hashes":model_source_hashes},sort_keys=True).encode()).hexdigest()
+        "resolved_digital_paths":resolved,"model_source_hashes":model_source_hashes,
+        "architecture_parameters":architecture,"architecture_catalog_sha256":architecture_catalog_sha256},sort_keys=True).encode()).hexdigest()
     result = {"schema_version":c["schema_version"],"model_version":c["model_version"],"status":"synthetic_illustration",
               "input_commit":c["input_commit"],"scenario_hash":fingerprint,"preset":preset,"parameters":p,
               "engine_sha256":engine_sha256,"model_source_hashes":model_source_hashes,
               "digital_paths":copy.deepcopy(digital_paths),"resolved_digital_paths":resolved,
+              "architecture_parameters":architecture,"architecture_catalog_sha256":architecture_catalog_sha256,
               "joint_by_year":annual,
               "reference_scopes":{
                   "joint":"Final-year alias of joint_by_year; exogenous capability, no learned increment",
@@ -538,3 +543,41 @@ def run_scenario(overrides=None, preset="reference", digital_paths=None):
             "fit":cell["specialized_fit"],"status":"synthetic_illustration","unit":"constant 2026 USD/site/year at matched output",
             "assumptions":"Specialized total cost = digital human resource cost × explicit cell factor + 5000 annual capital allowance. Mixed system splits output and entire process cost 50:50; no duplicated full-output benefits. Neither comparison is a measured feasible configured design."})
     return result
+
+
+def run_architecture_comparison(cell_id, overrides=None, preset="reference", digital_paths=None,
+                                year=None, architecture_overrides=None):
+    """One conditional service reference, using the common physical equations."""
+    c = catalog()
+    cell = next((x for x in c["cells"] if x["cell_id"] == cell_id), None)
+    if cell is None:
+        raise ValueError("Unknown architecture comparison cell")
+    parent = run_scenario(overrides, preset, digital_paths, architecture_overrides)
+    if year is None:
+        year = parent["joint_by_year"][-1]["year"]
+    if isinstance(year, bool) or not isinstance(year, int):
+        raise ValueError("Architecture comparison year must be an integer")
+    annual = next((r for r in parent["joint_by_year"] if r["year"] == year), None)
+    if annual is None:
+        raise ValueError("Architecture comparison year is outside the scenario horizon")
+    current = parameters_at(parent["parameters"], parent["resolved_digital_paths"], annual["period_index"])
+    system = next(x for x in c["systems"] if x["system_id"] == cell["system_id"])
+    scope = {"cell_id": cell_id, "year": year}
+    identity = hashlib.sha256(json.dumps({"scenario_hash":parent["scenario_hash"],"scope":scope},sort_keys=True).encode()).hexdigest()
+    result = compare_architectures(cell, system, current, annual["capability"],
+                                   parent["architecture_parameters"], matched_economics, parameters)
+    return {"schema_version":"architecture-comparison/0.1", "model_version":c["model_version"],
+            "status":"synthetic_conditional_reference", "empirical_aggregate_inclusion":False,
+            "scenario_hash":parent["scenario_hash"], "case_hash":identity, "comparison_scope":scope,
+            "parameters":parent["parameters"], "preset":preset, "digital_paths":parent["digital_paths"],
+            "resolved_digital_paths":parent["resolved_digital_paths"],
+            "architecture_parameters":parent["architecture_parameters"],
+            "cell":cell, "system":system, "capability":annual["capability"],
+            "source_hashes":{**parent["model_source_hashes"],
+                             "model/assumptions.json":hashlib.sha256(ASSUMPTIONS.read_bytes()).hexdigest(),
+                             "model/architecture_assumptions.json":parent["architecture_catalog_sha256"]},
+            "evidence_snapshot_hashes":parent["evidence_snapshot_hashes"],
+            "reference_scope":"One supported configured robot/site; selected-year conditions held for its service life, without learned increments. No fleet allocation, financing, adoption timing or company liquidity is simulated.",
+            "digital_cost_scope":"The scalar robot digital-service bundle is replaced by itemized costs; digital_cost_usd supplies the reference inference-resource expense, multiplied per synthetic architecture. Model fees are separate transfers.",
+            "real_source_boundary":"All vendor target costs, contract rights and qualified compatibility in data/frontier_model_economics.json remain unestablished. These are generic architectures, not named-product rankings.",
+            **result}

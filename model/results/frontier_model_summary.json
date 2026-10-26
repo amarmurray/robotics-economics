@@ -7,7 +7,7 @@
       "China and continental-European model/OEM ecosystems need direct follow-up",
       "Generalist and Dyna mechanisms are not yet separately audited here",
       "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
-      "Four-architecture calculation and sensitivities remain unimplemented",
+      "Actual matched architecture costs, rights and qualified service remain unknown; the separate synthetic calculator supplies no empirical estimate.",
       "No robot, model training or GPU/hardware workload was run"
     ],
     "mapped_actors": 9,
@@ -77,7 +77,7 @@
     }
   ],
   "source_hashes": {
-    "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+    "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
     "model/frontier_models.py": "c656205668ba2687d4792a32912c7f3127990412cd2360ee2651e46bbbd90ebc"
   },
   "status": "bounded_source_synthesis_not_company_valuation",

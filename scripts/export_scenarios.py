@@ -31,13 +31,13 @@ def main():
         (args.output/"physical_requirements_summary.json").write_text(json.dumps(physical_requirements_summary(),indent=2,sort_keys=True,ensure_ascii=False,allow_nan=False)+"\n")
     if "data/frontier_model_economics.json" in accepted:
         (args.output/"frontier_model_summary.json").write_text(json.dumps(frontier_model_summary(),indent=2,sort_keys=True,ensure_ascii=False,allow_nan=False)+"\n")
-    specs = [(key,{},None) for key in catalog()["presets"]]
+    specs = [(key,{},None,None) for key in catalog()["presets"]]
     if args.scenario:
         saved = json.loads(args.scenario.read_text())
-        specs = [(saved.get("preset","reference"),saved.get("parameters",saved.get("overrides",{})),saved.get("digital_paths"))]
+        specs = [(saved.get("preset","reference"),saved.get("parameters",saved.get("overrides",{})),saved.get("digital_paths"),saved.get("architecture_parameters"))]
     summary = []
-    for preset, overrides, digital_paths in specs:
-        result = run_scenario(overrides,preset,digital_paths=digital_paths)
+    for preset, overrides, digital_paths, architecture in specs:
+        result = run_scenario(overrides,preset,digital_paths=digital_paths,architecture_overrides=architecture)
         (args.output/f"{preset}.json").write_text(json.dumps(result,indent=2,sort_keys=True,allow_nan=False)+"\n")
         final = result["fleet"]["years"][-1]
         summary.append({"preset":preset,"status":"synthetic_illustration","scenario_hash":result["scenario_hash"],"year":final["year"],

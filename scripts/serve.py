@@ -12,7 +12,8 @@ from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from model.engine import BOUNDS, CHOICES, catalog, run_scenario
+from model.engine import BOUNDS, CHOICES, catalog, run_scenario, run_architecture_comparison
+from model.architectures import catalog as architecture_catalog
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -50,7 +51,7 @@ class Handler(BaseHTTPRequestHandler):
                 research=research_summary() if {"data/field_support_denominators.json","data/coordination_reproducibility.json"}<=accepted else {"status":"not_available","reason":"Required research packages have not been explicitly accepted."}
                 physical=physical_requirements_summary() if "data/physical_requirements_crosswalk.json" in accepted else {"status":"not_available","reason":"Physical requirements package has not been explicitly accepted."}
                 frontier=frontier_model_summary() if "data/frontier_model_economics.json" in accepted else {"status":"not_available","reason":"Frontier-model package has not been explicitly accepted."}
-                self.send(200,{"catalog":catalog(),"bounds":BOUNDS,"choices":CHOICES,"evidence_packages":snapshot["packages"],
+                self.send(200,{"catalog":catalog(),"architecture_catalog":architecture_catalog(),"bounds":BOUNDS,"choices":CHOICES,"evidence_packages":snapshot["packages"],
                     "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
@@ -76,7 +77,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
@@ -84,8 +85,8 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > 200000:
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
-            allowed = {"overrides", "preset", "digital_paths"}
-            if endpoint == "/api/joint-trace":
+            allowed = {"overrides", "preset", "digital_paths", "architecture_overrides"}
+            if endpoint in {"/api/joint-trace", "/api/architectures"}:
                 allowed |= {"cell_id", "year"}
             if not isinstance(request,dict) or set(request)-allowed:
                 raise ValueError("Expected preset and overrides")
@@ -94,9 +95,12 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError("overrides must be an object")
             if endpoint == "/api/joint-trace":
                 self.send(200,joint_trace(request.get("cell_id"),overrides,request.get("preset","reference"),
-                                         digital_paths=request.get("digital_paths"),year=request.get("year")))
+                                         digital_paths=request.get("digital_paths"),year=request.get("year"),architecture_overrides=request.get("architecture_overrides")))
+            elif endpoint == "/api/architectures":
+                self.send(200,run_architecture_comparison(request.get("cell_id"),overrides,request.get("preset","reference"),
+                    digital_paths=request.get("digital_paths"),year=request.get("year"),architecture_overrides=request.get("architecture_overrides")))
             else:
-                self.send(200,run_scenario(overrides,request.get("preset","reference"),digital_paths=request.get("digital_paths")))
+                self.send(200,run_scenario(overrides,request.get("preset","reference"),digital_paths=request.get("digital_paths"),architecture_overrides=request.get("architecture_overrides")))
         except (ValueError,TypeError,json.JSONDecodeError) as exc:
             self.send(400,{"error":str(exc)})
 

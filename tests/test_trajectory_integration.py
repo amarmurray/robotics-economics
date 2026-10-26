@@ -65,6 +65,28 @@ class TrajectoryIntegration(unittest.TestCase):
         self.assertEqual(trace["reference_year"], 2028)
         self.assertEqual(trace["comparison"], result["joint"][0])
 
+    def test_architecture_http_trace_and_cli_replay_preserve_complete_inputs(self):
+        architecture={"common":{"model_fee_usd_year":7000},"profiles":{"licensed_independent":{"adaptation_engineering_hours":17.5}}}
+        body={"overrides":{"years":3},"digital_paths":PATHS,"architecture_overrides":architecture}
+        parent=self.post('/api/run',body)
+        scope={"cell_id":"CELL-M05-auto-assembly-US-2025","year":2027}
+        case=self.post('/api/architectures',{**body,**scope})
+        trace=self.post('/api/joint-trace',{**body,**scope})
+        self.assertEqual(case['scenario_hash'],parent['scenario_hash'])
+        self.assertEqual(trace['scenario_hash'],parent['scenario_hash'])
+        self.assertEqual(case['architecture_parameters'],parent['architecture_parameters'])
+        with tempfile.TemporaryDirectory() as directory:
+            directory=Path(directory);saved=directory/'case.json';output=directory/'replay.json'
+            saved.write_text(json.dumps(case))
+            subprocess.run([sys.executable,str(ROOT/'scripts/export_architectures.py'),'--scenario',str(saved),'--output',str(output)],check=True,capture_output=True)
+            self.assertEqual(json.loads(output.read_text()),case)
+            base_saved=directory/'parent.json';base_saved.write_text(json.dumps(parent))
+            subprocess.run([sys.executable,str(ROOT/'scripts/export_scenarios.py'),'--scenario',str(base_saved),'--output',str(directory/'base')],check=True,capture_output=True)
+            self.assertEqual(json.loads((directory/'base/reference.json').read_text()),parent)
+        with self.assertRaises(urllib.error.HTTPError) as error:
+            self.post('/api/architectures',{**body,**scope,'architecture_overrides':{'common':{'model_fee_usd_year':None}}})
+        self.assertEqual(error.exception.code,400)
+
     def test_cli_preserves_paths_and_legacy_fixed_horizon(self):
         with tempfile.TemporaryDirectory() as directory:
             directory = Path(directory)

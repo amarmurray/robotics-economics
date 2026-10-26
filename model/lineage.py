@@ -7,14 +7,14 @@ from . import engine
 from . import trajectories
 
 
-def joint_trace(cell_id, overrides=None, preset="reference", digital_paths=None, year=None):
+def joint_trace(cell_id, overrides=None, preset="reference", digital_paths=None, year=None, architecture_overrides=None):
     if not isinstance(cell_id, str):
         raise ValueError("cell_id must identify one modeled cell")
     catalog = engine.catalog()
     cell = next((c for c in catalog["cells"] if c["cell_id"] == cell_id), None)
     if cell is None:
         raise ValueError("Unknown modeled cell")
-    result = engine.run_scenario(overrides, preset, digital_paths=digital_paths)
+    result = engine.run_scenario(overrides, preset, digital_paths=digital_paths, architecture_overrides=architecture_overrides)
     if year is None:
         year = result["joint_by_year"][-1]["year"]
     if isinstance(year, bool) or not isinstance(year, int):

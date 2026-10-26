@@ -13,6 +13,7 @@ python3 scripts/export_frontier_models.py --check
 python3 scripts/export_scenarios.py
 python3 scripts/export_experiments.py
 python3 scripts/export_trajectory.py
+python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
 python3 scripts/build_report.py
 python3 scripts/serve.py --port 8765
@@ -82,4 +83,10 @@ The unchanged BLS ORS workbook and OEWS national ZIP are preserved under `data/s
 
 `data/frontier_model_economics.json` contains the accepted primary-source claims, actor/model/rights records, four dossiers and unpriced architecture alternatives. Code and model-card revisions are pinned separately; public model weights and GPU/robot workloads were not executed. `python3 scripts/export_frontier_models.py --check` validates actor/relationship joins, rights uncertainty and explicit absent costs, then reproduces Zebra's seller-disclosure arithmetic. Run without `--check` only to regenerate the reviewed summary, followed by scenario exports and the report builder. The report and local API consume this same source summary.
 
-The helper never adds ARR to cumulative recognized revenue, treats equity/escrow as cash, or ranks incompatible benchmark scores. Evidence filters navigate the new records within the existing thirteen views. Provider roles, model/rights cards and the observed transaction are separate from synthetic scenario controls. The four-architecture economic calculator is a next task, not an already implemented feature.
+The helper never adds ARR to cumulative recognized revenue, treats equity/escrow as cash, or ranks incompatible benchmark scores. Evidence filters navigate the new records within the existing thirteen views. Provider roles, model/rights cards and the observed transaction are separate from synthetic scenario controls. A separate conditional architecture calculator is available in Business models; it uses synthetic assumptions and leaves observed costs/rights/qualification unresolved.
+
+## Conditional architecture replay
+
+Run `python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json` for the reference and eight witnesses. Replay a downloaded case with `python3 scripts/export_architectures.py --scenario saved-architecture.json --output replay.json`. Complete inputs, source hashes and cell/year scope are retained; normal scenario exports also preserve architecture parameters.
+
+In Business models, edit fields and select **Apply architecture assumptions**. Pending edits leave displayed/exported results unchanged. Reset uses explicit catalog defaults. Invalid or unadmitted cases are not zero-cost alternatives. All-cell scope uses a labeled manufacturing reference. See [ARCHITECTURES.md](model/ARCHITECTURES.md) for operator purchase, allocated lifetime costs, human fallback, transfer cancellation and financing limits. Legacy sale/lease/service and monthly models remain separate. Historical model identities require their original revision.

@@ -86,7 +86,7 @@ class AnnualPaths(unittest.TestCase):
     def test_invalid_last_period_rejected_before_fleet_calculation(self):
         invalid = [[], {}, paths(coordination=[0, 0]), paths(coordination=None),
                    paths(coordination=[0, 0, True]), paths(coordination=[0, 0, None]),
-                   paths(coordination=[0, 0, float("nan")]), paths(coordination=[0, 0, float("inf")]),
+                   paths(coordination=[0, 0, float("nan")]), paths(coordination=[0, 0, 10**400]), paths(coordination=[0, 0, float("inf")]),
                    paths(coordination=[0, 0, -.401]), paths(digital_efficiency=[0, 0, .601]),
                    paths(digital_cost_usd=[0, 0, -1]), paths(unknown=[0, 0, 0]),
                    {**paths(), "base_year": 2027}, {**paths(), "base_year": True},
@@ -190,7 +190,7 @@ class AnnualPaths(unittest.TestCase):
             after = engine.run_scenario()
         self.assertNotEqual(before["scenario_hash"], after["scenario_hash"])
         self.assertEqual(before["fleet"], after["fleet"])
-        self.assertEqual(set(before["model_source_hashes"]), {"model/engine.py", "model/trajectories.py"})
+        self.assertEqual(set(before["model_source_hashes"]), {"model/engine.py", "model/trajectories.py", "model/architectures.py"})
 
 
 if __name__ == "__main__":

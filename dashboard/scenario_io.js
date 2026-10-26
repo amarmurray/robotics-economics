@@ -19,7 +19,11 @@
   const overrides=saved.parameters??saved.overrides??{};
   if(!overrides||typeof overrides!=='object'||Array.isArray(overrides))throw Error('Scenario parameters must be an object.');
   if(saved.resolved_digital_paths&&!Object.hasOwn(saved,'digital_paths'))throw Error('Saved annual scenario is missing its original digital_paths input.');
-  return {preset,overrides,digital_paths:saved.digital_paths??null};
+  const architecture=saved.architecture_parameters??null;
+  if(architecture!==null&&(!architecture||typeof architecture!=='object'||Array.isArray(architecture)))throw Error('Architecture parameters must be an object.');
+  const scope=saved.comparison_scope??null;
+  if(scope!==null&&(!scope||typeof scope.cell_id!=='string'||!Number.isInteger(scope.year)))throw Error('Architecture scope needs a cell and integer year.');
+  return {preset,overrides,digital_paths:saved.digital_paths??null,architecture_overrides:architecture,comparison_scope:scope};
  }
  const api={channels,annualPaths,savedInput};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;

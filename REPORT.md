@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.6, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk and a substantial frontier-model evidence chapter are integrated. The quantitative four-architecture model remains unfinished. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.7, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk, frontier-model evidence and a conditional four-architecture economic model are integrated. Real vendor costs and qualification, shared monthly commercial finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -1428,7 +1428,7 @@ Authoritative chapter: [research/frontier_models.md](research/frontier_models.md
 
 Workstream K, source edition 0.6, as of 25 October 2026. The question is when a model supplier can create and retain value independently of the robot maker and the customer operating the service. The evidence supports several coexisting structures. It does not establish a universal model-lab margin, a general robot-policy winner or a calibrated cost advantage for one architecture.
 
-Four contrasting dossiers examine Physical Intelligence, Skild, Figure and OpenVLA. A broader role map includes FieldAI, RLWRLD, Google DeepMind and NVIDIA, with Zebra recorded as a separate transaction counterparty. The [evidence packet](data/frontier_model_economics.json) preserves fourteen primary-source claims, exact artifact pins where available, release/access/rights cards and a four-architecture comparison design. The [source summary](model/results/frontier_model_summary.json) reproduces Zebra's disclosed transaction arithmetic. The architecture cost scenario remains unimplemented and unpriced; it is not presented as a finished economic model.
+Four contrasting dossiers examine Physical Intelligence, Skild, Figure and OpenVLA. A broader role map includes FieldAI, RLWRLD, Google DeepMind and NVIDIA, with Zebra recorded as a separate transaction counterparty. The [evidence packet](data/frontier_model_economics.json) preserves fourteen primary-source claims, exact artifact pins where available, release/access/rights cards and a four-architecture comparison design. The [source summary](model/results/frontier_model_summary.json) reproduces Zebra's disclosed transaction arithmetic. A separate [conditional architecture scenario](research/intelligence_architecture_scenarios.md) is now implemented; real target costs and qualification remain unestablished. Synthetic assumptions do not fill those evidence gaps.
 
 ### The industry boundary moves with the work a supplier assumes
 
@@ -1518,7 +1518,7 @@ Use the existing manufacturing material-presentation cell as a supporting compar
 | Open policy with adaptation | Code/weight/data rights, engineering, training/serving, qualification and ongoing ownership of failures | Effective rights, target adaptation and maintenance cost; no free-turnkey assumption |
 | Model-led deployment provider/operator | Workflow and field responsibility, assets/capital, customer receipts and internal model transfers | Contract scope, service exposure, title/control/data rights, cash timing and retained margin |
 
-No inspected source qualifies all four on the same robot and production service. Actual unit costs and negotiated payments remain unknown. The [four records](data/frontier_model_economics.json) are therefore a comparison design, not a calculated ranking. The next implementation must distinguish **net resource expense** from **payments between parties**, preserve common output and all human work, and keep compatibility gates explicit. It must not treat a model license fee as both supplier revenue and an additional consolidated resource cost.
+No inspected source qualifies all four on the same robot and production service. Actual unit costs and negotiated payments remain unknown. The [four observed records](data/frontier_model_economics.json) therefore retain unknown real costs. The separate synthetic calculator distinguishes **net resource expense** from **payments between parties**, preserves common output and all human work, and keeps compatibility gates explicit. It does not treat a model license fee as both supplier revenue and an additional consolidated resource cost.
 
 A useful conditional test is how much adaptation and support must be avoided to cover incremental model/inference/validation resources, followed separately by the price interval that allocates gains among the customer, model supplier, OEM and integrator. For an AI-native operating newco, repeat the comparison with an incumbent having equal technology access. Earlier adoption, process redesign, capital and customer acquisition are different possible advantages; a model-access label is not one by itself. The dynamic treasury and entrant models remain separate until their shared capacity and cash are actually reconciled.
 
@@ -1530,7 +1530,47 @@ A useful conditional test is how much adaptation and support must be avoided to 
 4. **F/G: allocate operating responsibilities and transfers before discussing margins.** Skild's acquisition adds a concrete model/deployment integration pathway. Seller consideration, company ARR, customer savings and model-supplier margins are separate quantities. Pure newco, acquisition and hybrid customer pathways remain available without collapsing them into provider categories.
 5. **Open ecosystems: compare effective options, not license labels.** OpenVLA's conflicting declarations and openpi's separate code/checkpoint/API layers show why the artifact and dependency chain must be inspected before claiming commercial substitutability or commoditization.
 
-The next question is now concrete: for a fixed service and qualified configuration, when does a licensed policy's reduction in adaptation and support outweigh the extra resources it requires, and what price/rights allocation leaves both supplier and customer better off? The evidence packet constrains that question. The quantitative architecture model, broader regional discovery and complete field economics remain continuing work.
+The next question is now concrete: for a fixed service and qualified configuration, when does a licensed policy's reduction in adaptation and support outweigh the extra resources it requires, and what price/rights allocation leaves both supplier and customer better off? The evidence packet constrains that question. The [conditional quantitative architecture model](research/intelligence_architecture_scenarios.md) supplies an inspectable mechanism. Broader regional discovery, complete field economics and integrated monthly commercial finance remain continuing work.
+
+### Focused follow-up: Conditional architecture resources and value allocation
+
+Authoritative analysis: [research/intelligence_architecture_scenarios.md](research/intelligence_architecture_scenarios.md).
+
+Edition 0.7 implements the conditional four-architecture comparison proposed in [the K evidence chapter](research/frontier_models.md). The [common-engine method](model/ARCHITECTURES.md) holds a service boundary and configured-system assumptions while making adaptation, validation, serving, support and commercial transfers explicit. Every numerical profile is synthetic. Actual model prices, effective rights and qualified target service remain unknown in the evidence packet.
+
+The first decision is whether a policy/integration arrangement creates a resource advantage over the available process. The second is whether the contract distributes that advantage so the participants can sustain it. The model now separates those questions. A license payment is an expense to its payer and a receipt to its supplier. Changing that payment alone leaves consolidated resources and output unchanged. Combining the model supplier with an OEM or operator eliminates an internal transfer; it does not remove the associated engineering, compute or support work.
+
+#### A positive combined result can coexist with an undercompensated supplier
+
+The reference manufacturing example at the selected 2030 conditions has a positive allocated cash benefit for the independent-model architecture. At the invented $4,000 annual model payment, however, its model supplier has a negative $200 annual-equivalent amount after the declared costs and upfront payment. The computed model-fee interval begins at $4,200 and ends at $11,554.90 per year under the zero-surplus-hurdle assumptions. These are conditional accounting results, not market prices or forecasts of a lab's margins.
+
+Raising only the fee to $7,000 moves $3,000 a year from customer/operator to model supplier. It changes neither the architecture's $35,415.65 annual-equivalent resource cost nor its $11,629.90 combined allocated cash benefit. The source of the benefit must be an avoided resource or changed service outcome; a pricing change cannot create it. Hardware price and service payment obey the same rule within the specified actor boundary.
+
+For an integrated OEM, hardware and integration contributions can share an entity with the model activity. The feasible bundled payment can therefore differ from an independently licensed model's fee, even with some common costs. This does not prove a superior model or reveal an internal business-unit margin. The separate legal-entity and logical-role traces show exactly what has been combined.
+
+#### Adaptation, operating support and outside options affect different mechanisms
+
+Adding 100 licensed-policy adaptation-engineering hours at the assumed $100/hour increases the annual-equivalent cost by $2,000 over the five-year life. It leaves the assumed physical output unchanged and raises the supplier's fee floor by the same annual amount. This makes the adaptation question concrete: reduced fine-tuning effort matters through all the labor, compute and validation it actually avoids, not a generic claim that a model is easier to use.
+
+Increasing intervention demand has a broader effect. It both adds support expenditure and reduces accepted robot capacity under the existing operating equation. Human fallback maintains the common service target. In the exported support-stress witness the independent architecture's combined cash benefit becomes negative; reallocating a fee cannot repair a negative total under the fixed other assumptions. This connects model performance to the full operating process rather than merely pricing a successful inference.
+
+The default open-adaptation profile has more engineering and maintenance work. A separate witness lowers those explicit inputs and reverses its resource-cost ranking against the licensed alternative. The result is conditional on the inputs; an open/proprietary label has no automatic cost or productivity advantage. Rights and target qualification remain separate assumed premises. A false premise returns an unadmitted case, not a zero-cost or equivalent-performance substitute.
+
+The moving human alternative is equally consequential. With stronger human digital efficiency, the combined robot process can become cheaper while its incremental cash benefit shrinks. The exported improved-human witness reproduces that mechanism in the architecture comparison. The model does not import an LLM productivity estimate or a robotics benchmark score to choose the change.
+
+#### Customer formation and provider organization remain distinct
+
+The same technology and costs produce the same service comparison for incumbent and newco labels. An explicit $20,000 additional newco setup charge adds $4,000 a year over the five-year reference life; it does not change robot capability or useful output. An incumbent retooling charge can be specified separately. These are cost differences to investigate, not inherent advantages assigned to an ownership label.
+
+In the model-led operating-provider structure, the provider owns the purchased robot and bears the remaining service work. Customer payment and provider costs are separate, and the customer's unavoidable released-payroll proxy remains visible. Internal policy payments cancel within the combined provider. The computed service-price interval is conditional on this responsibility boundary; it is not a real RaaS quote.
+
+A positive lifetime annual equivalent is still insufficient for deployment. Upfront resource charges and purchases need funding before later benefits arrive. Contract duration, cancellation, credit, working capital, shared factory/service capacity and actual staffing schedules are not supplied by this static reference. The earlier treasury and monthly paid-physical fixtures show why timing matters, but they are not yet integrated with these architecture or entrant comparisons.
+
+#### What this closes and what remains next
+
+The first-edition K architecture target now has an executable matched-service mechanism with human/digital and specialized alternatives, explicit resource-versus-transfer accounting, qualification assumptions, adverse sensitivities, equal-technology customer paths and reproducible fee bounds. It supplies no calibrated vendor ranking, commercial-rights clearance or jointly feasible company plan.
+
+The next priority is the missing monthly commercial extension: sale, independent lease and provider service over the same paid physical plan, with separate title, cash, customer/operator obligations and support consequences. That work should use the existing integer-cent treasury and shared physical ledger. It must preserve the distinction between an attractive allocated lifetime result and an operation that can actually fund its next obligation.
 
 ### Reproduced acquisition disclosure
 
@@ -1554,14 +1594,14 @@ Generated source: [scenario_summary.csv](model/results/scenario_summary.csv). No
 
 | preset | status | scenario_hash | year | active_stock_expected_units | baseline_equivalent_hours | cumulative_baseline_equivalent_hours | newco_peak_funding_usd | newco_funding_gap_usd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| reference | synthetic_illustration | 58ac28d7c8e5c4ac9a5b11b5dc4c478b146d2eea1ec7b78a40a783ac0bb6af3a | 2033 | 44.0 | 74393.33571428571 | 376256.0416666666 | 1084000.0 | 484000.0 |
-| delayed_supply | synthetic_illustration | 3d7ccd0a90ffeef3ea49be480a54eb407108ac9141a6c5e64ce7d75cdcc1859c | 2033 | 60.0 | 100824.93571428572 | 249689.80714285717 | 1084000.0 | 484000.0 |
-| service_stress | synthetic_illustration | a08d2d8b87ae82291e2e7264e5dcbf539e3b1ec1083a52b330c1e93677230a24 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.79999999999 | 1084000.0 | 484000.0 |
-| ample_supply_unready | synthetic_illustration | e9c385c17c409795014106082fad1bfece05c38aeb13771b48a632dcc5864bdf | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
-| digital_first | synthetic_illustration | 90cc35e24ea04a18f56dad71ba21dc6557c423d68dbfb4955f764f935f745f6c | 2033 | 38.0 | 63079.71428571429 | 297632.6 | 1084000.0 | 484000.0 |
-| limited_transfer | synthetic_illustration | 461199bd05277dcf348d40ee1a2bc7fa8747ae58f2b21e8dff8065080708f2a9 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
-| newco_raas | synthetic_illustration | 1f0c60f9b19f9f5e21269a5f98413f1dbcfc6d33382c46295a1d5232d7a1c784 | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 516500.0 | 0 |
-| prompt_response | synthetic_illustration | 4b7f4f58c60d50d0b621d552d4fa2ebca659084fe45297d8da5e3d6ef71b81e8 | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 716000.0 | 116000.0 |
+| reference | synthetic_illustration | 08baf515c7f886d325978e60e3c7b51c7cdb734448934789f6c80c6e50f3d418 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666666 | 1084000.0 | 484000.0 |
+| delayed_supply | synthetic_illustration | c8eedbd369ea7952c950e107ae210b4dab1d13a224211d292accca66ef82d272 | 2033 | 60.0 | 100824.93571428572 | 249689.80714285717 | 1084000.0 | 484000.0 |
+| service_stress | synthetic_illustration | 9eb28d89192a31314bc673a651b50872ebcf4f9646848a25f3d2a1ace82ec094 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.79999999999 | 1084000.0 | 484000.0 |
+| ample_supply_unready | synthetic_illustration | e6684f94afb468f9e318582376e6121b8be2fdb7fed30637d87e4012ab218711 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
+| digital_first | synthetic_illustration | 5180ffc5431e8eac44b70e450444899ec62beb6a59c218be4c82ef10b0f7ef30 | 2033 | 38.0 | 63079.71428571429 | 297632.6 | 1084000.0 | 484000.0 |
+| limited_transfer | synthetic_illustration | 58cfd91e24b5177e9cc31d86e607f128e8dbb7dcd50303e886bbd7ad9abecd03 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
+| newco_raas | synthetic_illustration | 749388a7c0a8592039b25f5aba62a9aae69ba370d4e2940dceca0611cde8403e | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 516500.0 | 0 |
+| prompt_response | synthetic_illustration | c8fd9141f2e28da3f9b1c486f93c76cde51918ca68b7c750cea9035018c4abca | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 716000.0 | 116000.0 |
 
 ### What the scenario contrasts teach
 
@@ -1590,6 +1630,32 @@ Generated source: [annual_digital_comparison.json](model/results/annual_digital_
 | worsening_coordination | 49,560.00 | 39,958.74 | 9,601.26 | -3,047.23 | 0 | 8.00 |
 
 The improving-human case lowers combined resource cost while closing new robot admission. Existing stock persists; the inherited acquisition/payback eligibility cap can suppress modeled output and is not an optimal continuation rule. Cheaper additional robot service can change that commercial result without directly changing capability. The conventional combined case retains the digital human baseline and required robot control, removing only the incremental coordination/service bundle. These alternatives neither calibrate an actual product nor form a jointly funded company model. See the [annual analysis](research/annual_digital_scenarios.md) and [implementation review](reviews/annual_trajectory_review.md).
+
+### Conditional architecture economics and fee allocation
+
+Synthetic one-site reference: Manufacturing · assembly feeding, 2030. Selected-year conditions are held over service life; integer-cent charges and transfers are reconciled, with no discounting, company funding or actual staffing schedule. This is not a named-vendor comparison. Generated source: [architecture_comparison.json](model/results/architecture_comparison.json).
+
+| Generic architecture | Resource cost/year, USD | Consolidated allocated cash benefit/year, USD | Model-fee interval, USD/year |
+| --- | ---: | ---: | --- |
+| Integrated OEM | 35,505.65 | 11,539.90 | 986.00 to 12,525.90; feasible_interval |
+| Independent licensed policy | 35,415.65 | 11,629.90 | 4,200.00 to 11,554.90; feasible_interval |
+| Open policy with internal adaptation | 40,269.65 | 6,775.90 | Internal transfer eliminated |
+| Model-led operating provider | 35,671.65 | 11,373.90 | Internal transfer eliminated |
+
+Generated source: [architecture_experiments.json](model/results/architecture_experiments.json). Each row is a separate counterfactual; these are not additive deployments.
+
+| Synthetic witness | Selected architecture | Resource cost/year, USD | Consolidated allocated cash benefit/year, USD | Robot accepted units/year |
+| --- | --- | ---: | ---: | ---: |
+| higher_model_fee | licensed_independent | 35,415.65 | 11,629.90 | 13,405.71 |
+| improved_digital_human | licensed_independent | 33,174.18 | 2,943.01 | 13,405.71 |
+| lean_open_adaptation | open_adapted | 35,069.65 | 11,975.90 | 13,405.71 |
+| more_licensed_adaptation | licensed_independent | 37,415.65 | 9,629.90 | 13,405.71 |
+| more_licensed_support | licensed_independent | 54,804.28 | -6,072.91 | 11,569.32 |
+| newco_setup_burden | licensed_independent | 39,415.65 | 7,629.90 | 13,405.71 |
+| reference | licensed_independent | 35,415.65 | 11,629.90 | 13,405.71 |
+| unqualified_license | licensed_independent | Not admitted | Not admitted | Not admitted |
+
+Changing a fee alone reallocates the same gain. Adaptation changes resources without directly improving physical output; intervention affects both support expense and robot contribution. Leaner open adaptation can reverse a conditional ranking. A better digital-human alternative can reduce robot value even when combined cost falls. Compatibility/rights/quality premises that fail produce no economic ranking. See [architecture methods](model/ARCHITECTURES.md) and [implementation audit](reviews/architecture_economics_review.md).
 
 ## 10. Local experiments: cash settlement and transaction state
 
@@ -1667,6 +1733,6 @@ The **Evidence fields** panel adds exact recorded geography, system/configuratio
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 
-Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison is a design with unknown target costs; its numerical implementation and sensitivities remain unfinished. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
+Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison now has a separate synthetic calculation and sensitivities. Actual target costs, effective rights and qualified configurations remain unknown; the calculation does not fill those source gaps. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
 The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.

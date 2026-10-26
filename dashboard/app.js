@@ -5,7 +5,7 @@ const fmt = (v, decimals=0) => v === null || v === undefined ? 'Unknown' : typeo
 const money = v => v === null || v === undefined ? 'Unknown' : '$'+fmt(v);
 const title = s => String(s).replaceAll('_',' ').replace(/\b\w/g,x=>x.toUpperCase());
 const safeURL = v => typeof v === 'string' && /^https?:\/\//.test(v) ? v : null;
-let digitalPaths=null;
+let digitalPaths=null,architectureOverrides=null,architectureCache={key:null},architectureRequestId=0;
 let boot, result, activeView='atlas', overrides={}, requestId=0, allRecords=[], evidenceById=new Map(), comparisonResults=null, detailRequestId=0, activeTraceHash=null;
 const viewNames = [
  ['atlas','01','Economic atlas'],['deployment','02','Market deployment'],['providers','03','Providers & systems'],
@@ -91,12 +91,58 @@ function frontierActors(){return `<section id="frontier-actors"><h3>Frontier mod
 function frontierArchitectures(){
  const packet=boot.observed_frontier_models;if(!packet?.transaction)return '';
  const t=packet.transaction;
- return `<section id="frontier-architectures"><h3>Model-layer architectures · target economics unresolved</h3>`+
-  notice('These are four design alternatives for the manufacturing material-presentation cell. Compatible service and full costs are not established; no numerical architecture ranking is implemented. Synthetic scenario controls above do not change these evidence records.')+
+ return architecturePanel()+`<section id="frontier-architectures"><h3>Observed model-layer evidence · target costs unresolved</h3>`+
+  notice('These are four design alternatives for the manufacturing material-presentation cell. Compatible service and full costs are not established; the conditional calculator above uses separate assumptions and establishes no real-vendor ranking. Synthetic controls do not change these observed records.')+
   evidenceSection(/^architecture_alternatives$/,/frontier_model_economics/,4)+
   `<h3>Observed transaction disclosure · separate from scenario cash</h3><p>Robotics-business sale completed ${esc(t.completion_date)}; announced ${esc(t.announcement_date)}. USD millions, seller disclosure.</p>`+
   table([{item:'Cash consideration',amount:t.cash_consideration},{item:'Equity investment fair value',amount:t.equity_fair_value},{item:'Indemnification escrow fair value',amount:t.escrow_fair_value},{item:'Reported total consideration',amount:t.total_consideration},{item:'Reported net assets sold',amount:t.net_assets_sold},{item:'Reported seller gain',amount:t.seller_gain}],[['item','Item'],['amount','USD millions',v=>fmt(v),true]])+
   `<p>${esc(t.boundary)} ${refButtons(t)}</p></section>`;
+}
+function architectureScope(){return {cell_id:$('cell-filter').value==='all'?boot.catalog.cells[0].cell_id:$('cell-filter').value,year:Number($('year-filter').value)};}
+function architectureKey(){const s=architectureScope();return result.scenario_hash+'|'+s.cell_id+'|'+s.year;}
+async function loadArchitecture(key){
+ const id=++architectureRequestId,snapshot=result,scope=architectureScope();
+ try{
+  const response=await fetch('/api/architectures',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset:snapshot.preset,overrides:snapshot.parameters,digital_paths:snapshot.digital_paths,architecture_overrides:snapshot.architecture_parameters,...scope})});
+  const data=await response.json();if(id!==architectureRequestId||key!==architectureKey())return;
+  if(!response.ok)throw Error(data.error);
+  if(data.scenario_hash!==snapshot.scenario_hash)throw Error('Source state changed; recalculate the scenario.');
+  architectureCache={key,data};if(activeView==='commercial')render();
+ }catch(error){if(id!==architectureRequestId||key!==architectureKey())return;architectureCache={key,error:error.message};if(activeView==='commercial')render();}
+}
+function feeInterval(x){
+ if(x.status==='internal_transfer_eliminated')return 'Internal transfer eliminated';
+ const range='$'+fmt(x.lower_usd_year,2)+'–$'+fmt(x.upper_usd_year,2)+'/year';
+ if(x.status!=='feasible_interval')return 'No nonnegative interval ('+range+')';
+ return range+(x.selected_within_interval?' · selected payment inside':' · selected payment outside')+(x.other_entities_nonnegative?'':' · another counterparty has a loss');
+}
+function architecturePanel(){
+ const key=architectureKey(),scope=architectureScope(),a=result.architecture_parameters,c=a.common,p=a.profiles.licensed_independent;
+ if(architectureCache.key!==key){architectureCache={key,pending:true};loadArchitecture(key);}
+ const input=(id,label,value,extra='')=>`<label>${esc(label)}<input id="${id}" type="number" step="any" value="${value}" ${extra}></label>`;
+ const controls=`<div class="architecture-controls">`+
+  input('arch-model-fee','Model payment, USD/year',c.model_fee_usd_year,'data-arch-common="model_fee_usd_year" min="0"')+
+  input('arch-adaptation','Licensed-policy adaptation engineering, hours',p.adaptation_engineering_hours,'data-arch-profile="licensed_independent" data-arch-key="adaptation_engineering_hours" min="0"')+
+  input('arch-support','Licensed-policy support change, minutes/robot-hour',p.support_minutes_delta,'data-arch-profile="licensed_independent" data-arch-key="support_minutes_delta"')+
+  input('arch-service-price','Operating-provider service price / digital-human baseline',c.service_price_fraction,'data-arch-common="service_price_fraction" min="0"')+
+  `<label>Customer path<select id="arch-customer-path" data-arch-common="customer_path"><option value="incumbent" ${c.customer_path==='incumbent'?'selected':''}>Incumbent</option><option value="newco" ${c.customer_path==='newco'?'selected':''}>Newco</option></select></label>`+
+  input('arch-newco-setup','Additional newco setup, USD',c.newco_setup_usd,'data-arch-common="newco_setup_usd" min="0"')+
+  `<label><input id="arch-compatible" type="checkbox" data-arch-profile="licensed_independent" data-arch-key="assume_compatible" ${p.assume_compatible?'checked':''}> Assume licensed configuration compatible</label></div><button id="apply-architectures">Apply architecture assumptions</button> <button id="reset-architectures">Reset architecture assumptions</button><p id="arch-input-state" class="small" role="status">Displayed results use the last applied assumptions. Apply edits before changing scope.</p>`;
+ let content=empty(architectureCache.error?'Architecture calculation unavailable: '+architectureCache.error:'Calculating the selected service reference…');
+ if(architectureCache.data){
+  const data=architectureCache.data;
+  const rows=data.architectures.map(r=>({...r,model_interval:r.fee_intervals?.model_fee,service_interval:r.fee_intervals?.service_payment,
+   parties:r.entities?.map(e=>title(e.entity).replace(/\bOem\b/g,'OEM')+': '+'$'+fmt(e.annual_equivalent_net_usd,2)+'/year').join('; ')}));
+  content=table(rows,[['label','Architecture',esc],['resource_cost_usd_year','Resource cost/year',v=>v===null?'Not admitted':'$'+fmt(v,2),true],['cash_benefit_usd_year','Allocated cash benefit/year',v=>v===undefined?'Not admitted':'$'+fmt(v,2),true],['all_entities_nonnegative_at_selected_payments','Entity annual equivalents',v=>v===undefined?'Not admitted':v?'All nonnegative':'At least one negative']])+`<h3>Conditional external payment ranges</h3>`+table(rows,[['label','Architecture',esc],['model_interval','Model payment',v=>v?feeInterval(v):'Not admitted'],['service_interval','Service payment',v=>v?feeInterval(v):'Not admitted']])+`<details><summary>Who receives the allocated cash benefit?</summary>`+table(data.architectures.flatMap(r=>(r.entities||[]).map(e=>({architecture:r.label,entity:e.entity,annual:e.annual_equivalent_net_usd}))),[['architecture','Architecture',esc],['entity','Entity',v=>esc(v==='oem'?'OEM':title(v))],['annual','Annual equivalent, USD',v=>'$'+fmt(v,2),true]])+`</details>`+
+   `<p class="small">Digital-human resource reference: ${money(data.alternatives.digital_human_resource_cost_usd_year)}/year. Human reference: ${money(data.alternatives.human_resource_cost_usd_year)}. Specialized scenario: ${money(data.alternatives.specialized_resource_cost_usd_year)}. ${esc(data.alternatives.specialized_boundary)}</p>`+
+   `<h3>Equal technology · customer paths</h3>`+table(data.customer_path_comparison,[['architecture_id','Architecture',v=>esc(boot.architecture_catalog.labels[v])],['incumbent_resource_cost_usd_year','Incumbent cost/year',money,true],['newco_resource_cost_usd_year','Newco cost/year',money,true],['physical_service_identical','Same physical service',v=>v===null?'Not admitted':v?'Yes':'No']])+
+   `<p class="small">Path labels do not change productivity. Only explicit additional setup costs differ. Demand capture, response timing and company finance remain separate.</p>`+
+   `<details><summary>Inspect assumptions, cost lines, transfers and entity cash schedules</summary><pre>${esc(JSON.stringify(data,null,2))}</pre></details><button id="export-architectures">Export architecture comparison</button>`;
+ }
+ return `<section id="architecture-calculator"><h3>Conditional architecture economics · ${esc(cellLabel(scope.cell_id))}, ${scope.year}</h3>`+
+  notice('Synthetic assumptions, not vendor prices or qualified product rankings. One matched service site, selected-year conditions held over service life. Resource expenses are separate from fees; internal transfers cancel. Hardware is bought by the operator; the legacy sale/lease/service selector governs the separate reference tables below.',true)+
+  `<p class="small">${$('cell-filter').value==='all'?'All-cell scope uses the manufacturing cell as an explicitly labeled reference. ':''}The robot digital-service input becomes reference inference-resource expense in this case, replacing the scalar bundle rather than adding it twice. Allocated upfront development costs are not an actual company cash calendar. Real rights and service qualification remain unknown.</p>`+
+  controls+content+`<p><a href="/model/ARCHITECTURES.md" target="_blank">Architecture methods and boundaries ↗</a></p></section>`;
 }
 function jointTable(){const annual=result.joint_by_year.find(y=>y.year===Number($('year-filter').value)),p=annual.effective_digital_parameters;return `<p class="small">Reference comparison for ${$('year-filter').value}, using that year’s digital conditions and exogenous capability with no learned increment. This is matched site economics, not realized fleet savings. Human time reduction: ${fmt(p.digital_efficiency*100,1)}%; coordination: ${fmt(p.coordination*100,1)}%; additional robot service: ${money(p.digital_cost_usd)}/robot-year.</p>`+table(selectedJoint(),[['cell_id','Matched annual site',v=>esc(cellLabel(v))],['C00','Human baseline',money,true],['C01','Digital human',money,true],['C10','Robot + required software',money,true],['C11','Joint system',money,true],['robotics_saving_on_digital_baseline','Robot value vs digital human',money,true],['cost_interaction','Cost interaction',money,true],['cell_id','Calculation',v=>`<button class="ref" data-calculation="${esc(v)}">Trace inputs and costs ↗</button>`]]);}
 function showEvidence(id){++detailRequestId;activeTraceHash=null;const record=evidenceById.get(id);$('evidence-detail').innerHTML=record?`<div class="eyebrow">SAVED EVIDENCE · NOT A SCENARIO OVERRIDE</div><h2>${esc(id)}</h2>${cards([record],1,false)}`:empty(`Unresolved evidence reference ${id}. See validation report; do not infer a source.`);$('evidence-dialog').showModal();}
@@ -108,7 +154,7 @@ async function showCalculation(cellId){
  $('evidence-detail').innerHTML='<h2>Calculation trace</h2><p>Loading the current scenario calculation…</p>';
  $('evidence-dialog').showModal();
  try{
-  const response=await fetch('/api/joint-trace',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cell_id:cellId,preset:snapshot.preset,overrides:snapshot.parameters,digital_paths:snapshot.digital_paths,year:selectedYear})});
+  const response=await fetch('/api/joint-trace',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cell_id:cellId,preset:snapshot.preset,overrides:snapshot.parameters,digital_paths:snapshot.digital_paths,year:selectedYear,architecture_overrides:snapshot.architecture_parameters})});
   const trace=await response.json();if(detailId!==detailRequestId)return;if(!response.ok)throw Error(trace.error);
   if(trace.scenario_hash!==snapshot.scenario_hash||result.scenario_hash!==snapshot.scenario_hash||Number($('year-filter').value)!==selectedYear)throw Error('The engine or assumptions changed. Recalculate the scenario before tracing it.');
   const rows=trace.branches.map(b=>({branch:b.branch,...b.calculation,operating:b.robot?b.calculation.provider_operating_cost_usd:0}));
@@ -201,9 +247,9 @@ function updateControls(){
 async function run(){
  const id=++requestId;setText('run-state','Recalculating authoritative Python model…');
  try{
-  const response=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset:$('preset').value,overrides,digital_paths:digitalPaths})});
+  const response=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset:$('preset').value,overrides,digital_paths:digitalPaths,architecture_overrides:architectureOverrides})});
   const data=await response.json();if(id!==requestId)return false;if(!response.ok)throw Error(data.error);
-  const oldYear=$('year-filter').value;result=data;digitalPaths=result.digital_paths;
+  const oldYear=$('year-filter').value;result=data;digitalPaths=result.digital_paths;architectureOverrides=result.architecture_parameters;
   invalidateTrace('The scenario changed. Close this dialog and trace the updated comparison.');
   $('year-filter').innerHTML=result.fleet.years.map(x=>`<option value="${x.year}">${x.year}</option>`).join('');
   $('year-filter').value=result.fleet.years.some(x=>String(x.year)===oldYear)?oldYear:String(result.fleet.years.at(-1).year);
@@ -238,16 +284,34 @@ async function init(){
  buildControls();buildFacets();const statuses=[...new Set(allRecords.filter(x=>x.key==='evidence').map(x=>recordStatus(x.value)).filter(x=>typeof x==='string'))].sort();$('status-filter').innerHTML+='<optgroup label="Saved provenance/status labels">'+statuses.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')+'</optgroup>';
  $('controls').addEventListener('input',e=>{const k=e.target.dataset.parameter;if(k&&$('v-'+k))$('v-'+k).textContent=fmt(Number(e.target.value),3);});
  $('controls').addEventListener('change',e=>{const k=e.target.dataset.parameter;if(k){overrides[k]=boot.choices[k]?e.target.value:Number(e.target.value);comparisonResults=null;run();}});
- $('preset').addEventListener('change',()=>{overrides={};digitalPaths=null;comparisonResults=null;run();});$('reset').addEventListener('click',()=>{overrides={};digitalPaths=null;comparisonResults=null;run();});
+ $('preset').addEventListener('change',()=>{overrides={};digitalPaths=null;architectureOverrides=null;comparisonResults=null;run();});$('reset').addEventListener('click',()=>{overrides={};digitalPaths=null;architectureOverrides=null;comparisonResults=null;run();});
  $('apply-paths').addEventListener('click',async()=>{const previous=digitalPaths;try{digitalPaths=ScenarioIO.annualPaths(boot.catalog.base_year,Object.fromEntries(ScenarioIO.channels.map(k=>[k,$('path-'+k).value])));comparisonResults=null;if(!await run())digitalPaths=previous;}catch(error){digitalPaths=previous;setText('path-status','Path error: '+error.message);}});
  $('clear-paths').addEventListener('click',()=>{digitalPaths=null;comparisonResults=null;run();});
  ['cell-filter','year-filter','status-filter'].forEach(id=>$(id).addEventListener('change',()=>{invalidateTrace('The selected scope changed. Close this dialog and trace the selected comparison.');render();}));$('evidence-search').addEventListener('input',render);
  $('views').addEventListener('click',e=>{if(e.target.dataset.view){activeView=e.target.dataset.view;location.hash=activeView;render();}});
  document.addEventListener('click',async e=>{const ref=e.target.closest('[data-evidence]');if(ref)showEvidence(ref.dataset.evidence);const calculation=e.target.closest('[data-calculation]');if(calculation)showCalculation(calculation.dataset.calculation);if(e.target.id==='compare-presets'){e.target.disabled=true;e.target.textContent='Calculating saved scenarios…';comparisonResults=await Promise.all(Object.keys(boot.catalog.presets).map(preset=>fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preset})}).then(r=>r.json())));render();}});
+ for(const eventName of ['input','change'])document.addEventListener(eventName,e=>{if(e.target.dataset.archCommon||e.target.dataset.archProfile)setText('arch-input-state','Unapplied edits. Display and export retain the last computed case.');});
+ document.addEventListener('click',async e=>{
+  if(e.target.id==='apply-architectures'){
+   const previous=architectureOverrides;
+   try{
+    const candidate=JSON.parse(JSON.stringify(result.architecture_parameters));
+    for(const field of document.querySelectorAll('#architecture-calculator [data-arch-common], #architecture-calculator [data-arch-profile]')){
+     const common=field.dataset.archCommon,profile=field.dataset.archProfile,key=field.dataset.archKey;
+     let value;if(field.type==='checkbox')value=field.checked;else if(common==='customer_path')value=field.value;else{if(field.value.trim()==='')throw Error('Blank is not a numeric assumption.');value=Number(field.value);if(!Number.isFinite(value))throw Error('Enter a finite number.');}
+     if(common)candidate.common[common]=value;else candidate.profiles[profile][key]=value;
+    }
+    architectureOverrides=candidate;comparisonResults=null;
+    if(!await run()){architectureOverrides=previous;setText('arch-input-state','Inputs rejected. Display and export retain the last valid case.');}
+   }catch(error){architectureOverrides=previous;setText('arch-input-state','Architecture input error: '+error.message);}
+  }
+  if(e.target.id==='reset-architectures'){architectureOverrides=null;run();}
+  if(e.target.id==='export-architectures'&&architectureCache.key===architectureKey()&&architectureCache.data)download('architecture-'+architectureCache.data.case_hash.slice(0,10)+'.json',JSON.stringify(architectureCache.data,null,2),'application/json');
+ });
  $('close-dialog').addEventListener('click',()=>$('evidence-dialog').close());$('evidence-dialog').addEventListener('close',()=>{++detailRequestId;activeTraceHash=null;});
  $('download-json').addEventListener('click',()=>download('robotics-scenario-'+result.scenario_hash.slice(0,10)+'.json',JSON.stringify(result,null,2),'application/json'));
  $('download-csv').addEventListener('click',()=>download('selected-cohorts.csv',csv(selectedRows(true)),'text/csv'));
- $('import').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;const saved=ScenarioIO.savedInput(JSON.parse(await file.text()),boot.catalog.presets);$('preset').value=saved.preset;overrides=saved.overrides;digitalPaths=saved.digital_paths;comparisonResults=null;await run();}catch(error){setText('run-state','Import error: '+error.message);}});
+ $('import').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;const saved=ScenarioIO.savedInput(JSON.parse(await file.text()),boot.catalog.presets);if(saved.comparison_scope&&!boot.catalog.cells.some(c=>c.cell_id===saved.comparison_scope.cell_id))throw Error('Unknown saved comparison cell.');$('preset').value=saved.preset;overrides=saved.overrides;digitalPaths=saved.digital_paths;architectureOverrides=saved.architecture_overrides;comparisonResults=null;if(await run()&&saved.comparison_scope){if(!result.fleet.years.some(y=>y.year===saved.comparison_scope.year))throw Error('Saved comparison year is outside the horizon.');$('cell-filter').value=saved.comparison_scope.cell_id;$('year-filter').value=String(saved.comparison_scope.year);activeView='commercial';render();}}catch(error){setText('run-state','Import error: '+error.message);}});
  if(viewNames.some(x=>x[0]===location.hash.slice(1)))activeView=location.hash.slice(1);
  await run();
  }catch(error){$('content').innerHTML=notice('Could not load local model: '+esc(error.message));}

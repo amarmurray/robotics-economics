@@ -10,6 +10,118 @@
   "purpose": "Isolate human-baseline, signed coordination and robot-service cost changes, with learning disabled; compare added orchestration with the already priced conventional stack.",
   "results": {
     "cheaper_robot_service": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -754,7 +866,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -767,7 +879,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -6228,10 +6340,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -7114,11 +7227,123 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "e4c6387ffd266e517ae65abcb18da02013003a581e23f3d9a8296ecf8f1e7939",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "2b84822e5e9eb73d7ebce704c0adbf2cbc861bff17084c3e860aad5986a19334",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
     "constant_reference": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -7856,7 +8081,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -7869,7 +8094,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -13332,10 +13557,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -14218,11 +14444,123 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "65bc91929ddeee3e8836914b871def7cc572956258a5279afced9395aa77487e",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "c22df17f304e05177d8a7dfa1eb7d42d7f3fc604f8dc3a981c489173c677bc6c",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
     "conventional_combined": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -14981,7 +15319,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -14994,7 +15332,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -20463,10 +20801,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -21349,11 +21688,123 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "3c1ad47e0b3c2fdf20e123c7e068e851f7fd52cdc0e4fe081991aea7774b025b",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "3de196c917dc9b1bd44b4548c9eacd59c3c28310c39b6bad8fbe90fe061dadcb",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
     "improving_human": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -22098,7 +22549,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -22111,7 +22562,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -27576,10 +28027,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -28462,11 +28914,123 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "b8d936c88e561ca1d75c41472b0613f8f063d7035aa2a51fdf5cc7e6be4745d5",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "5e296bbe2c2e841abe441ea2d5cd5bd1c50613acddde71f3b8843186f5160e2c",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
     "joint_paths": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -29225,7 +29789,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -29238,7 +29802,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -34703,10 +35267,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -35589,11 +36154,123 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "dfc7a5553289958b0ca5bd857a52daa93dc645c11a4a3486fd69bbd993855aff",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "1f4d183085a736a487816529adc1a3bc2fe76c80bfe1e0f8c8596311e58e5c05",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
     "worsening_coordination": {
+      "architecture_catalog_sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
+      "architecture_parameters": {
+        "common": {
+          "customer_path": "incumbent",
+          "engineering_usd_hour": 100.0,
+          "incumbent_setup_usd": 0.0,
+          "integration_markup": 0.1,
+          "model_fee_usd_year": 4000.0,
+          "newco_setup_usd": 0.0,
+          "payer_surplus_usd_year": 0.0,
+          "receiver_surplus_usd_year": 0.0,
+          "service_price_fraction": 0.75
+        },
+        "profiles": {
+          "integrated_oem": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 80.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.0,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 5000.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrated_provider",
+              "model_supplier": "integrated_provider",
+              "oem": "integrated_provider",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 60.0
+          },
+          "licensed_independent": {
+            "adaptation_compute_usd": 1500.0,
+            "adaptation_engineering_hours": 40.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.8,
+            "integration_multiplier": 1.25,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 1500.0,
+            "model_upfront_payment_usd": 3000.0,
+            "network_resilience_usd_year": 1000.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "model_supplier",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 80.0
+          },
+          "model_led_operator": {
+            "adaptation_compute_usd": 2000.0,
+            "adaptation_engineering_hours": 60.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 20.0,
+            "inference_resource_multiplier": 0.9,
+            "integration_multiplier": 0.9,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2000.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 600.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer",
+              "integrator": "model_operator",
+              "model_supplier": "model_operator",
+              "oem": "oem",
+              "operator": "model_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 70.0
+          },
+          "open_adapted": {
+            "adaptation_compute_usd": 3000.0,
+            "adaptation_engineering_hours": 200.0,
+            "assume_compatible": true,
+            "assume_rights_available": true,
+            "assume_service_quality": true,
+            "demonstration_hours": 40.0,
+            "inference_resource_multiplier": 1.0,
+            "integration_multiplier": 1.5,
+            "model_development_allocation_usd_upfront": 5000.0,
+            "model_maintenance_usd_year": 2500.0,
+            "model_upfront_payment_usd": 0.0,
+            "network_resilience_usd_year": 300.0,
+            "qualification_resources_usd": 500.0,
+            "role_entities": {
+              "customer": "customer_operator",
+              "integrator": "integrator",
+              "model_supplier": "customer_operator",
+              "oem": "oem",
+              "operator": "customer_operator"
+            },
+            "support_minutes_delta": 0.0,
+            "validation_engineering_hours": 100.0
+          }
+        }
+      },
       "assumptions": [
         {
           "description": "12 constructed site cohorts per cell, one target robot per site, deterministic heterogeneous thresholds; no national market calibration.",
@@ -36338,7 +37015,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
+      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -36351,7 +37028,7 @@
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
-        "data/frontier_model_economics.json": "7252c16916ee045707cde97d962739419875ace872ee1c99957e59ffc1144e27",
+        "data/frontier_model_economics.json": "80983f35c00cc6931b83cb6d9e72910b149da1dd23ff3c886b892984935c990a",
         "data/learning_data_economics.json": "6ebccbd38ea442bf5e14cdcf75eeb8f4a991b42044ca9c3802da2fde82d102db",
         "data/market_evidence.json": "6841f85ae81832c947e30cf08be96245b0e644c9226c7cb0b20ad21df57f57cd",
         "data/onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a",
@@ -41818,10 +42495,11 @@
         "geography": "US illustrative deployment pool; no national extrapolation"
       },
       "model_source_hashes": {
-        "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-        "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c"
+        "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
-      "model_version": "0.2.0",
+      "model_version": "0.3.0",
       "newco": {
         "assumptions": {
           "acquisition_premium_usd": 250000,
@@ -42704,16 +43382,17 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "36b411d008c146c434ec5931194cb3fb424ee205a066b627295e7c7cea3ecfe1",
-      "schema_version": "robotics-economics-model/0.2",
+      "scenario_hash": "206a8c18fee78d9882d084cbc76106ef14d6eb0f9733b3c0978c47cedbad0d5c",
+      "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     }
   },
   "schema_version": "annual-digital-comparison/0.1",
   "source_hashes": {
-    "model/assumptions.json": "c7c94348c67064e5f84d7284c76e39f8668ac3521517794b37b3bfdbfaa845a3",
-    "model/engine.py": "3559273147cd5b1017ef0396fc39d23b2099e6a625d4aeee1c75c49d0516915f",
-    "model/trajectories.py": "8bb6e9df00ecc65bb5aa07834a9ea365fd8d61b33b8dab15bbbd3780a41dad3c",
+    "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
+    "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
+    "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+    "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
     "scripts/export_trajectory.py": "404b2f9395e9c49cdd9f93afb2a05d2c5a9a72a31020f4fd0da175e51d329def"
   },
   "status": "synthetic_illustration"

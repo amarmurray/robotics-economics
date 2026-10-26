@@ -938,7 +938,7 @@
       "cell_ids": [
         "CELL-M05-auto-assembly-US-2025"
       ],
-      "status": "matched_service_design_not_quantitatively_implemented",
+      "status": "observed_target_costs_and_qualification_unestablished",
       "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
       "roles": [
         "OEM model producer",
@@ -959,7 +959,9 @@
         "PRC-003",
         "PRC-005"
       ],
-      "summary": "Co-design and internal model transfers may simplify responsibility; outside licensing and interoperability remain contract questions. Matched compatibility and target costs remain unestablished."
+      "summary": "Co-design and internal model transfers may simplify responsibility; outside licensing and interoperability remain contract questions. Matched compatibility and target costs remain unestablished.",
+      "synthetic_counterpart": "integrated_oem",
+      "synthetic_counterpart_boundary": "A separate conditional calculator exists; its invented assumptions do not fill these observed cost fields."
     },
     {
       "comparison_id": "K-ARCH-LICENSED",
@@ -967,7 +969,7 @@
       "cell_ids": [
         "CELL-M05-auto-assembly-US-2025"
       ],
-      "status": "matched_service_design_not_quantitatively_implemented",
+      "status": "observed_target_costs_and_qualification_unestablished",
       "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
       "roles": [
         "model supplier",
@@ -989,7 +991,9 @@
         "PRC-003",
         "PRC-005"
       ],
-      "summary": "Potentially buy shared model/adaptation services while retaining robot/site responsibilities; inference, support and reuse terms must be priced. Matched compatibility and target costs remain unestablished."
+      "summary": "Potentially buy shared model/adaptation services while retaining robot/site responsibilities; inference, support and reuse terms must be priced. Matched compatibility and target costs remain unestablished.",
+      "synthetic_counterpart": "licensed_independent",
+      "synthetic_counterpart_boundary": "A separate conditional calculator exists; its invented assumptions do not fill these observed cost fields."
     },
     {
       "comparison_id": "K-ARCH-OPEN",
@@ -997,7 +1001,7 @@
       "cell_ids": [
         "CELL-M05-auto-assembly-US-2025"
       ],
-      "status": "matched_service_design_not_quantitatively_implemented",
+      "status": "observed_target_costs_and_qualification_unestablished",
       "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
       "roles": [
         "open artifact contributors",
@@ -1019,7 +1023,9 @@
         "PRC-003",
         "PRC-005"
       ],
-      "summary": "Explicit engineering and qualification replace the assumption that accessible model artifacts deliver a free turnkey system. Matched compatibility and target costs remain unestablished."
+      "summary": "Explicit engineering and qualification replace the assumption that accessible model artifacts deliver a free turnkey system. Matched compatibility and target costs remain unestablished.",
+      "synthetic_counterpart": "open_adapted",
+      "synthetic_counterpart_boundary": "A separate conditional calculator exists; its invented assumptions do not fill these observed cost fields."
     },
     {
       "comparison_id": "K-ARCH-OPERATOR",
@@ -1027,7 +1033,7 @@
       "cell_ids": [
         "CELL-M05-auto-assembly-US-2025"
       ],
-      "status": "matched_service_design_not_quantitatively_implemented",
+      "status": "observed_target_costs_and_qualification_unestablished",
       "service_boundary": "Correct component presented at the designated assembly interface within its timing/quality window; same target workload, human/specialized alternatives and fallback burden.",
       "roles": [
         "model/deployment provider",
@@ -1049,7 +1055,9 @@
         "PRC-003",
         "PRC-005"
       ],
-      "summary": "More workflow and field responsibility can move to the provider; customer, asset, data and service boundaries still require actual contracts. Matched compatibility and target costs remain unestablished."
+      "summary": "More workflow and field responsibility can move to the provider; customer, asset, data and service boundaries still require actual contracts. Matched compatibility and target costs remain unestablished.",
+      "synthetic_counterpart": "model_led_operator",
+      "synthetic_counterpart_boundary": "A separate conditional calculator exists; its invented assumptions do not fill these observed cost fields."
     }
   ],
   "benchmark_cards": [
@@ -1161,7 +1169,7 @@
       "China and continental-European model/OEM ecosystems need direct follow-up",
       "Generalist and Dyna mechanisms are not yet separately audited here",
       "Private model pricing, data/fine-tune rights, fleet support and margins remain unavailable",
-      "Four-architecture calculation and sensitivities remain unimplemented",
+      "Actual matched architecture costs, rights and qualified service remain unknown; the separate synthetic calculator supplies no empirical estimate.",
       "No robot, model training or GPU/hardware workload was run"
     ]
   },

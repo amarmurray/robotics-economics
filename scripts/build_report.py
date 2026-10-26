@@ -17,6 +17,7 @@ CHAPTERS = [
  ('Frontier robotics models, deployment and value capture','frontier_models.md'),
 ]
 FOLLOWUPS = {
+ 'frontier_models.md': [('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md')],
@@ -41,7 +42,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.6, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk and a substantial frontier-model evidence chapter are integrated. The quantitative four-architecture model remains unfinished. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.7, campaign in progress. Annual digital paths, the source-verified physical-requirements crosswalk, frontier-model evidence and a conditional four-architecture economic model are integrated. Real vendor costs and qualification, shared monthly commercial finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -132,6 +133,26 @@ In the separate monthly entrant case, delayed incumbent response requires peak f
         lines.append(f"| {name} | {joint['C01']:,.2f} | {joint['C11']:,.2f} | {joint['robotics_saving_on_digital_baseline']:,.2f} | {cell['economics']['customer_savings_usd']:,.2f} | {sum(x['economic'] for x in cell['sites'])} | {cell['active_stock']:,.2f} |")
     out.append('\n'.join(lines))
     out.append("The improving-human case lowers combined resource cost while closing new robot admission. Existing stock persists; the inherited acquisition/payback eligibility cap can suppress modeled output and is not an optimal continuation rule. Cheaper additional robot service can change that commercial result without directly changing capability. The conventional combined case retains the digital human baseline and required robot control, removing only the incremental coordination/service bundle. These alternatives neither calibrate an actual product nor form a jointly funded company model. See the [annual analysis](research/annual_digital_scenarios.md) and [implementation review](reviews/annual_trajectory_review.md).")
+    architectures=json.loads((ROOT/'model/results/architecture_comparison.json').read_text())
+    architecture_witnesses=json.loads((ROOT/'model/results/architecture_experiments.json').read_text())
+    for packet in (architectures,architecture_witnesses):
+        for path,digest in packet['source_hashes'].items():
+            if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
+                raise SystemExit('Stale architecture dependency: '+path)
+    def amount(value):return 'Not admitted' if value is None else f'{value:,.2f}'
+    def interval(value):
+        if value['status']=='internal_transfer_eliminated':return 'Internal transfer eliminated'
+        return f"{value['lower_usd_year']:,.2f} to {value['upper_usd_year']:,.2f}; {value['status']}"
+    table=['| Generic architecture | Resource cost/year, USD | Consolidated allocated cash benefit/year, USD | Model-fee interval, USD/year |', '| --- | ---: | ---: | --- |']
+    for r in architectures['architectures']:
+        table.append(f"| {r['label']} | {amount(r.get('resource_cost_usd_year'))} | {amount(r.get('cash_benefit_usd_year'))} | {interval(r['fee_intervals']['model_fee']) if r.get('fee_intervals') else 'Not admitted'} |")
+    out.append('### Conditional architecture economics and fee allocation\n\nSynthetic one-site reference: '+architectures['cell']['label']+', '+str(architectures['comparison_scope']['year'])+'. Selected-year conditions are held over service life; integer-cent charges and transfers are reconciled, with no discounting, company funding or actual staffing schedule. This is not a named-vendor comparison. Generated source: [architecture_comparison.json](model/results/architecture_comparison.json).\n\n'+'\n'.join(table))
+    table=['| Synthetic witness | Selected architecture | Resource cost/year, USD | Consolidated allocated cash benefit/year, USD | Robot accepted units/year |', '| --- | --- | ---: | ---: | ---: |']
+    for name,result in architecture_witnesses['cases'].items():
+        selected='open_adapted' if name=='lean_open_adaptation' else 'licensed_independent'
+        r=next(x for x in result['architectures'] if x['architecture_id']==selected)
+        table.append(f"| {name} | {selected} | {amount(r.get('resource_cost_usd_year'))} | {amount(r.get('cash_benefit_usd_year'))} | {amount(r.get('robot_accepted_units_year'))} |")
+    out.append('Generated source: [architecture_experiments.json](model/results/architecture_experiments.json). Each row is a separate counterfactual; these are not additive deployments.\n\n'+'\n'.join(table)+'\n\nChanging a fee alone reallocates the same gain. Adaptation changes resources without directly improving physical output; intervention affects both support expense and robot contribution. Leaner open adaptation can reverse a conditional ranking. A better digital-human alternative can reduce robot value even when combined cost falls. Compatibility/rights/quality premises that fail produce no economic ranking. See [architecture methods](model/ARCHITECTURES.md) and [implementation audit](reviews/architecture_economics_review.md).')
     experiments = ROOT/'model/results/treasury_witnesses.json'
     if experiments.exists():
         treasury=json.loads(experiments.read_text())
@@ -214,7 +235,7 @@ The **Evidence fields** panel adds exact recorded geography, system/configuratio
 
 The sources establish bounded workflows, relationships and constraints. Public disclosures often do not establish accepted-output exposure, all human support, retained deployment, negotiated prices, avoidable staffing, qualified supply or complete costs. These gaps limit market ranking and investment conclusions. A functioning mechanism model does not resolve them by assigning synthetic inputs.
 
-Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison is a design with unknown target costs; its numerical implementation and sensitivities remain unfinished. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
+Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison now has a separate synthetic calculation and sensitivities. Actual target costs, effective rights and qualified configurations remain unknown; the calculation does not fill those source gaps. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
 The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.
 ''')

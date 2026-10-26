@@ -9,9 +9,15 @@ assert.equal(Object.hasOwn(io.annualPaths(2026,{coordination:'0, 0, 0'}),'digita
 for(const value of ['1,,2','1,','1, NaN','1, Infinity','1, false','[1,2]'])assert.throws(()=>io.annualPaths(2026,{coordination:value}));
 const presets={reference:{}};
 const saved={preset:'reference',parameters:{years:3.0},digital_paths:path,resolved_digital_paths:{}};
-assert.deepEqual(io.savedInput(JSON.parse(JSON.stringify(saved)),presets),{preset:'reference',overrides:{years:3},digital_paths:path});
-assert.deepEqual(io.savedInput({preset:'reference',parameters:{years:4}},presets),{preset:'reference',overrides:{years:4},digital_paths:null});
+assert.deepEqual(io.savedInput(JSON.parse(JSON.stringify(saved)),presets),{preset:'reference',overrides:{years:3},digital_paths:path,architecture_overrides:null,comparison_scope:null});
+assert.deepEqual(io.savedInput({preset:'reference',parameters:{years:4}},presets),{preset:'reference',overrides:{years:4},digital_paths:null,architecture_overrides:null,comparison_scope:null});
 assert.throws(()=>io.savedInput({...saved,preset:'missing'},presets));
 assert.throws(()=>io.savedInput({resolved_digital_paths:{}},presets));
 assert.throws(()=>io.savedInput({parameters:[]},presets));
-console.log('15 annual input/import assertions passed');
+const architecture={common:{model_fee_usd_year:7000}};
+const scoped={...saved,architecture_parameters:architecture,comparison_scope:{cell_id:'case',year:2027}};
+assert.deepEqual(io.savedInput(scoped,presets).architecture_overrides,architecture);
+assert.deepEqual(io.savedInput(scoped,presets).comparison_scope,{cell_id:'case',year:2027});
+assert.throws(()=>io.savedInput({...scoped,comparison_scope:{cell_id:'case',year:2027.5}},presets));
+assert.throws(()=>io.savedInput({...scoped,architecture_parameters:[]},presets));
+console.log('19 annual/architecture input/import assertions passed');

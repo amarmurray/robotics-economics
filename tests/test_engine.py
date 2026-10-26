@@ -173,7 +173,7 @@ class ModelAccounting(unittest.TestCase):
         self.assertEqual(before,{p:hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
 
     def test_invalid_unknown_and_null_inputs_rejected(self):
-        for overrides in ({"capability":None},{"capability":float('nan')},{"capability":2},{"unknown":1},{"years":3.5},{"arrangement":"free"}):
+        for overrides in ({"capability":None},{"capability":float('nan')},{"capability":2},{"unknown":1},{"years":3.5},{"years":10**400},{"arrangement":"free"}):
             with self.assertRaises(ValueError):run_scenario(overrides)
 
     def test_empirical_totals_do_not_use_model_assumptions(self):

@@ -6,7 +6,7 @@ The [requirement register](acceptance_register.json) records 69 checks: the orig
 
 ## Continuation status
 
-The first checkpoint was published normally to private main and verified against the remote; exact commit and publication receipts are retained in ignored `sync_receipt.json`. The register therefore now has **52 bounded requirements met, 17 partial, none classified wholly unmet**. K's role-map, dossier, card and implication artifact targets are bounded met; its quantitative architecture comparison remains partial. Campaign timing remains partial/ongoing. The independent first-cutoff review remains historical and correctly records publication as pending at its own cutoff.
+The first checkpoint was published normally to private main and verified against the remote; exact commit and publication receipts are retained in ignored `sync_receipt.json`. The register therefore now has **53 bounded requirements met, 16 partial, none classified wholly unmet**. All five late K artifact targets are bounded met; actual target costs, rights, qualification and broader research remain unresolved. Campaign timing remains partial/ongoing. The independent first-cutoff review remains historical and correctly records publication as pending at its own cutoff.
 
 Four additional independently reviewed investigations are summarized in [CONTINUATION_FINDINGS.md](CONTINUATION_FINDINGS.md): hospital support denominators, non-Spot utility inspection, benchmark/coordination reproducibility and learning-data economics. Thirteen accepted packages now contain 151 claim records. The explicit package registry is shared by the API, scenario provenance and strict validator. Current validation checks claim metadata, dates or explicit unknown reasons, quantity context and supported evidence references; it does not certify source truth or all semantic dimensions. The [package-validation review](reviews/package_validation_review.md) records independent adverse fixtures and scope.
 
@@ -36,7 +36,7 @@ At publication integration, exact observed repository commit identifiers were mo
 
 ## Integrated-edition verification
 
-The current repository suite passes **121 Python tests**, including annual trajectory, selected-year API/trace and CLI replay checks. Existing resource invariants also cover twelve seeded nonconstant paths. The browser helpers pass **32 Node assertions** (17 evidence-facet, 15 annual-input/import). Strict evidence validation passes thirteen accepted packages, 151 claims, 271 reported quantity objects and 80 explicit-null markers, with no errors or warnings. These counts are checks of the stated artifacts, not empirical validation.
+The current repository suite passes **135 Python tests**, including annual trajectory, selected-year API/trace and CLI replay checks. Existing resource invariants also cover twelve seeded nonconstant paths. The browser helpers pass **36 Node assertions** (17 evidence-facet, 19 annual/architecture-input/import). Strict evidence validation passes thirteen accepted packages, 151 claims, 271 reported quantity objects and 80 explicit-null markers, with no errors or warnings. These counts are checks of the stated artifacts, not empirical validation.
 
 The [treasury-core review](reviews/treasury_core_review.md) evaluates settlement and reservation mechanics within the isolated financial boundary. The [coordination-fixture review](reviews/coordination_fixture_review.md) records three corrected state defects: conflicts could be cleared, a late-discovered duplicate could retain completion credit, and restored authoritative feedback at the same revision could leave a transient unknown state uncleared. Thirteen tests, seven independent adverse probes and deterministic exports pass on the corrected coordination snapshot. Its complete-history/finality lookup remains an explicit mock assumption.
 
@@ -66,7 +66,11 @@ This improves the labor atlas's measured requirement context without closing nat
 
 The [K audit](reviews/frontier_models_review.md) records fourteen primary-source claims, nine actor records including the Zebra counterparty, four contrasting dossiers, six release records and eight artifact-rights cards. It preserves an unnamed beta checkpoint, differing S1/Figure benchmark denominators, conflicting OpenVLA declarations and unresolved release/contract terms. Zebra's disclosed consideration and seller-gain arithmetic reproduces with cash, equity and escrow kept separate. No vendor score is imported into numerical scenarios.
 
-Four K artifact targets are now bounded met, with five explicit connections to existing workstreams and integration into the current views. The fifth, a conditional four-architecture economic scenario, remains partial: comparison design exists but costs and matched qualification are unknown and the numerical calculation is unimplemented. Current source and implementation review is sole-lead under the one-agent constraint. This is not final campaign acceptance.
+At the 0.6 source-only checkpoint, four K targets were bounded met and the numerical architecture target was partial. Edition 0.7 adds the separate conditional model below; actual costs and qualification remain unknown. Current source and implementation review is sole-lead under the one-agent constraint. This is not final campaign acceptance.
+
+## Conditional architecture acceptance, edition 0.7
+
+The [architecture audit](reviews/architecture_economics_review.md) accepts four synthetic structures on the common service/physical baseline, with explicit resources, internal transfer cancellation and conditional fee intervals. Eight witnesses cover fees, adaptation/support, qualification, setup, open adaptation and a stronger human alternative. W1-K-ARCHITECTURES is bounded met. Actual vendor costs/rights stay unknown, and allocated lifetime results do not prove financing or shared monthly feasibility. The monthly commercial/title/resource extension remains a priority; current review is sole-lead.
 
 ## Material gaps
 
@@ -81,7 +85,7 @@ Four K artifact targets are now bounded met, with five explicit connections to e
 | Physical supply/embodiment | Real configuration maps preserve unknown BOM quantities, costs, yields and accessible qualified capacity. Numerical specialized/mixed alternatives remain synthetic; unpriced real comparisons do not establish the lowest-cost feasible design. |
 | Dashboard scope | Cell/year/search/status controls and six exact recorded-field evidence filters work. Resource-grade classification and comprehensive normalized/typed joins remain incomplete; missing explicit fields do not acquire an inferred classification. Fixed-reference tables disclose their scope. |
 | Annual path/continuation | Current acquisition screening also caps installed output; lifetime margins freeze current conditions; all installed software vintages update for free. No path-aware treasury, contract-vintage or optimal continuation claim. |
-| Late K integration | Source-backed role map, four dossiers, release/rights cards and implications are integrated. Four-architecture cost calculation, matched target qualification, private terms and fuller regional discovery remain incomplete. |
+| Late K integration | Source map/dossiers/cards and a conditional cost/transfer mechanism are integrated. Actual qualification, private terms, model-company economics and broader regional evidence remain incomplete. |
 | Verification breadth | Independent reviews sample consequential sources. They do not reproduce training, run hardware, audit firms or certify every schema field. Actual serving model/effort cannot be independently verified despite explicit Astra/Ultra launch requests. |
 | Publication/continuity | A private-repository push proves publication, not consumption by another session or recovery of unpublished cloud work. The current continuation uses the canonical Mac checkout. Operational receipts hold publication results. |
 

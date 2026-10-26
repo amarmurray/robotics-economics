@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "campaign_in_progress_frontier_model_evidence_0.6",
+  "edition_status": "campaign_in_progress_conditional_architectures_0.7",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1342,7 +1342,7 @@
       "section": "3. Breadth and depth requirements",
       "subsection": "Late-added frontier robotics-model and economic layer",
       "requirement": "Conditional matched-service comparison of integrated OEM, licensed independent, open adapted and model-led operating architectures, with human/specialized baselines.",
-      "status": "partial",
+      "status": "met",
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "RESEARCH_ROADMAP.md",
@@ -1350,14 +1350,21 @@
         "research/frontier_models.md",
         "data/frontier_model_economics.json",
         "model/frontier_models.py",
-        "reviews/frontier_models_review.md"
+        "reviews/frontier_models_review.md",
+        "model/ARCHITECTURES.md",
+        "model/architectures.py",
+        "model/architecture_assumptions.json",
+        "research/intelligence_architecture_scenarios.md",
+        "model/results/architecture_comparison.json",
+        "model/results/architecture_experiments.json",
+        "reviews/architecture_economics_review.md"
       ],
       "validation": {
-        "review": "reviews/frontier_models_review.md",
-        "finding": "Four matched-service alternatives are designed, with unknown compatibility and costs. No numerical architecture scenario or sensitivity is implemented."
+        "review": "reviews/architecture_economics_review.md",
+        "finding": "Four conditional structures share the matched-service equations. Cent costs/transfers, role consolidation, human/specialized alternatives, fee bounds, adverse sensitivities, equal-technology paths and API/export replay are verified. Explicit Apply corrects an observed browser edit issue."
       },
-      "gap": "Target compatibility and costs are unknown; the conditional resource-and-transfer model and sensitivity checks remain unimplemented.",
-      "next_action": "Implement the shared-engine conditional comparison, with source unknowns kept separate from labeled assumptions and model fees separated from resource consumption."
+      "gap": "Bounded synthetic mechanism met. Real prices, rights, configuration and support remain unqualified; lifetime references do not establish company financing.",
+      "next_action": "Implement shared monthly commercial/title/cash obligations on the existing physical plan; retain empirical unknowns."
     },
     {
       "requirement_id": "W1-K-IMPLICATIONS",
@@ -1383,9 +1390,9 @@
     }
   ],
   "status_counts": {
-    "met": 52,
-    "partial": 17,
+    "met": 53,
+    "partial": 16,
     "unmet": 0
   },
-  "publication_cutoff_note": "Original campaign ongoing. K source/role/dossier/card/implication artifact targets are bounded met; quantitative architecture economics remain partial. Review is sole-lead; publication receipts are local."
+  "publication_cutoff_note": "Campaign ongoing. Conditional K architecture calculation is bounded met under sole-lead checks; empirical qualification and integrated monthly finance remain partial. Receipts are local."
 }

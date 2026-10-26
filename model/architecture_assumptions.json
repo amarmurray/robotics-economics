@@ -1,0 +1,158 @@
+{
+  "schema_version": "intelligence-architectures/0.1",
+  "epistemic_status": "synthetic_assumption",
+  "labels": {
+    "integrated_oem": "Integrated OEM",
+    "licensed_independent": "Independent licensed policy",
+    "open_adapted": "Open policy with internal adaptation",
+    "model_led_operator": "Model-led operating provider"
+  },
+  "defaults": {
+    "common": {
+      "engineering_usd_hour": 100,
+      "model_fee_usd_year": 4000,
+      "service_price_fraction": 0.75,
+      "integration_markup": 0.1,
+      "receiver_surplus_usd_year": 0,
+      "payer_surplus_usd_year": 0,
+      "customer_path": "incumbent",
+      "incumbent_setup_usd": 0,
+      "newco_setup_usd": 0
+    },
+    "profiles": {
+      "integrated_oem": {
+        "demonstration_hours": 20,
+        "adaptation_engineering_hours": 80,
+        "adaptation_compute_usd": 3000,
+        "validation_engineering_hours": 60,
+        "qualification_resources_usd": 500,
+        "integration_multiplier": 1,
+        "inference_resource_multiplier": 1,
+        "model_maintenance_usd_year": 1500,
+        "network_resilience_usd_year": 300,
+        "model_upfront_payment_usd": 5000,
+        "model_development_allocation_usd_upfront": 5000,
+        "support_minutes_delta": 0,
+        "assume_compatible": true,
+        "assume_rights_available": true,
+        "assume_service_quality": true,
+        "role_entities": {
+          "customer": "customer_operator",
+          "operator": "customer_operator",
+          "oem": "integrated_provider",
+          "model_supplier": "integrated_provider",
+          "integrator": "integrated_provider"
+        }
+      },
+      "licensed_independent": {
+        "demonstration_hours": 20,
+        "adaptation_engineering_hours": 40,
+        "adaptation_compute_usd": 1500,
+        "validation_engineering_hours": 80,
+        "qualification_resources_usd": 500,
+        "integration_multiplier": 1.25,
+        "inference_resource_multiplier": 0.8,
+        "model_maintenance_usd_year": 1500,
+        "network_resilience_usd_year": 1000,
+        "model_upfront_payment_usd": 3000,
+        "model_development_allocation_usd_upfront": 5000,
+        "support_minutes_delta": 0,
+        "assume_compatible": true,
+        "assume_rights_available": true,
+        "assume_service_quality": true,
+        "role_entities": {
+          "customer": "customer_operator",
+          "operator": "customer_operator",
+          "oem": "oem",
+          "model_supplier": "model_supplier",
+          "integrator": "integrator"
+        }
+      },
+      "open_adapted": {
+        "demonstration_hours": 40,
+        "adaptation_engineering_hours": 200,
+        "adaptation_compute_usd": 3000,
+        "validation_engineering_hours": 100,
+        "qualification_resources_usd": 500,
+        "integration_multiplier": 1.5,
+        "inference_resource_multiplier": 1,
+        "model_maintenance_usd_year": 2500,
+        "network_resilience_usd_year": 300,
+        "model_upfront_payment_usd": 0,
+        "model_development_allocation_usd_upfront": 5000,
+        "support_minutes_delta": 0,
+        "assume_compatible": true,
+        "assume_rights_available": true,
+        "assume_service_quality": true,
+        "role_entities": {
+          "customer": "customer_operator",
+          "operator": "customer_operator",
+          "oem": "oem",
+          "model_supplier": "customer_operator",
+          "integrator": "integrator"
+        }
+      },
+      "model_led_operator": {
+        "demonstration_hours": 20,
+        "adaptation_engineering_hours": 60,
+        "adaptation_compute_usd": 2000,
+        "validation_engineering_hours": 70,
+        "qualification_resources_usd": 500,
+        "integration_multiplier": 0.9,
+        "inference_resource_multiplier": 0.9,
+        "model_maintenance_usd_year": 2000,
+        "network_resilience_usd_year": 600,
+        "model_upfront_payment_usd": 0,
+        "model_development_allocation_usd_upfront": 5000,
+        "support_minutes_delta": 0,
+        "assume_compatible": true,
+        "assume_rights_available": true,
+        "assume_service_quality": true,
+        "role_entities": {
+          "customer": "customer",
+          "operator": "model_operator",
+          "oem": "oem",
+          "model_supplier": "model_operator",
+          "integrator": "model_operator"
+        }
+      }
+    }
+  },
+  "boundary": "Alternative one-site lifetime references at one selected year. No named vendor is calibrated; conditions and qualification are assumed. Upstream model development is an explicit allocated upfront charge, not a reconstruction of any lab cash calendar. All architectures replace the scalar robot digital-service bundle with itemized model costs.",
+  "unknown_real_inputs": [
+    "matched hardware/service qualification",
+    "effective rights",
+    "adaptation and support",
+    "negotiated model/service payments",
+    "actual capital timing and company financing"
+  ],
+  "common_units": {
+    "engineering_usd_hour": "constant 2026 USD per engineering hour",
+    "model_fee_usd_year": "USD per year; operator-to-model-supplier transfer",
+    "service_price_fraction": "dimensionless fraction of the selected digital-human baseline cost",
+    "integration_markup": "dimensionless markup on integration/validation cost; payment only",
+    "receiver_surplus_usd_year": "USD/year required annual-equivalent incremental amount",
+    "payer_surplus_usd_year": "USD/year required annual-equivalent incremental amount",
+    "customer_path": "incumbent or newco; no intrinsic productivity effect",
+    "incumbent_setup_usd": "USD one-time additional customer resource/cash charge",
+    "newco_setup_usd": "USD one-time additional customer resource/cash charge"
+  },
+  "profile_units": {
+    "demonstration_hours": "one-time person-hours, costed at the selected cell wage",
+    "adaptation_engineering_hours": "one-time model engineering hours",
+    "adaptation_compute_usd": "USD one-time task adaptation compute expense",
+    "validation_engineering_hours": "one-time qualification engineering hours",
+    "qualification_resources_usd": "USD one-time validation resource expense",
+    "integration_multiplier": "dimensionless multiplier on existing process-integration hours",
+    "inference_resource_multiplier": "dimensionless multiplier on digital_cost_usd, used as reference inference resource expense",
+    "model_maintenance_usd_year": "USD/year allocated model maintenance and support",
+    "network_resilience_usd_year": "USD/year infrastructure; excludes human intervention labor",
+    "model_upfront_payment_usd": "USD one-time operator-to-model-supplier transfer",
+    "model_development_allocation_usd_upfront": "USD allocated upstream development resource/cash charge at period zero; not an observed lab cash calendar",
+    "support_minutes_delta": "signed extra support minutes per robot-hour",
+    "assume_compatible": "boolean scenario premise, not actual qualification",
+    "assume_rights_available": "boolean scenario premise, not actual rights clearance",
+    "assume_service_quality": "boolean scenario premise including sufficient human fallback",
+    "role_entities": "logical role to legal-entity map; internal transfers eliminated"
+  }
+}

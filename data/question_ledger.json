@@ -1058,15 +1058,20 @@
       "evidence_method": "Compare inference, model fee, onboard/remote compute, integration, supervision, accepted throughput and validation at matched service.",
       "dependencies_and_completion": "W1 mechanism case; no unobserved operating calibration. Links FD-01, SC-01, BM-01.",
       "findings": [
-        "Four common-service architectures are designed, but actual compatibility and target costs are unknown. No numerical ranking is implemented."
+        "Four common-service architectures are designed, but actual compatibility and target costs are unknown. No numerical ranking is implemented.",
+        "A separate synthetic calculator compares four structures at matched service. Actual source costs/qualification stay unknown; resource charges and transfers are separated, and failed qualification premises remove a case from ranking."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "research/frontier_models.md",
         "data/frontier_model_economics.json",
-        "reviews/frontier_models_review.md"
+        "reviews/frontier_models_review.md",
+        "research/intelligence_architecture_scenarios.md",
+        "model/ARCHITECTURES.md",
+        "model/results/architecture_comparison.json",
+        "reviews/architecture_economics_review.md"
       ],
-      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
+      "next_action": "Connect commercial/title obligations to monthly physical and treasury ledgers, then constrain assumptions with target evidence. Annual equivalents are not liquidity."
     },
     {
       "question_id": "RQ-FM-04",
@@ -1096,15 +1101,20 @@
       "evidence_method": "Compare subscriptions/API, license, support, services, open models, bundled OEM, model-led deployco, acquisition and JV.",
       "dependencies_and_completion": "W1 conditional structure map; deeper on real terms. Links BM-01/03/04, OS-07.",
       "findings": [
-        "Pi managed input, Skild model/deployment integration, Figure OEM co-design and OpenVLA adaptation describe different responsibility/cost boundaries; durable margins remain unobserved."
+        "Pi managed input, Skild model/deployment integration, Figure OEM co-design and OpenVLA adaptation describe different responsibility/cost boundaries; durable margins remain unobserved.",
+        "Conditional fee intervals share a combined gain while preserving distinct actors. A default positive-total case leaves the supplier negative at its selected fee; a fee-only change redistributes value without changing resources. No real lab margin is inferred."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "research/frontier_models.md",
         "data/frontier_model_economics.json",
-        "reviews/frontier_models_review.md"
+        "reviews/frontier_models_review.md",
+        "research/intelligence_architecture_scenarios.md",
+        "model/ARCHITECTURES.md",
+        "model/results/architecture_comparison.json",
+        "reviews/architecture_economics_review.md"
       ],
-      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
+      "next_action": "Connect commercial/title obligations to monthly physical and treasury ledgers, then constrain assumptions with target evidence. Annual equivalents are not liquidity."
     },
     {
       "question_id": "RQ-FM-06",
@@ -1147,16 +1157,22 @@
     {
       "question_id": "RQ-FM-08",
       "question": "Can external frontier intelligence enable AI-native industrial newcos to win?",
-      "status": "OPEN",
+      "status": "PARTIAL",
       "owner": "frontier_models",
       "decision_consequence": "Test entry timing, equal-technology incumbent response, capital and differentiation.",
       "evidence_method": "Four-architecture case, matched demand/work and entrant/incumbent access, funding, acquisition and response.",
       "dependencies_and_completion": "W1 bounded scenario where evidence permits, else explicit partial. Links OS-05/06/07, SP, BM.",
-      "findings": [],
-      "artifacts": [
-        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md"
+      "findings": [
+        "Equal-technology incumbent/newco paths share production. Only an explicit setup-charge difference changes this static comparison. Demand, timing, capital and customer acquisition remain separate."
       ],
-      "next_action": "With the existing single-agent active campaign, examine Workstream K at a safe checkpoint and document evidence, relevance and unfinished needs without reopening completed work."
+      "artifacts": [
+        "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
+        "research/intelligence_architecture_scenarios.md",
+        "model/ARCHITECTURES.md",
+        "model/results/architecture_comparison.json",
+        "reviews/architecture_economics_review.md"
+      ],
+      "next_action": "Connect commercial/title obligations to monthly physical and treasury ledgers, then constrain assumptions with target evidence. Annual equivalents are not liquidity."
     },
     {
       "question_id": "RQ-FM-09",
@@ -1186,16 +1202,21 @@
       "evidence_method": "Reconcile policy effects, capital, rights, model economics, customer/OEM/provider cash and competing explanations.",
       "dependencies_and_completion": "W1 three decision implications or explicit gaps; deeper with matched empirical cases. Links A–J.",
       "findings": [
-        "Five source-grounded implications now connect benchmark denominators, rights/learning, control/compute, organization/transfers and open outside options to existing A–J decisions. Numerical architecture value allocation remains next."
+        "Five source-grounded implications now connect benchmark denominators, rights/learning, control/compute, organization/transfers and open outside options to existing A–J decisions. Numerical architecture value allocation remains next.",
+        "Eight witnesses separate resources from fee transfers, include support/adaptation stress and a stronger human alternative, and show that leaner assumed open adaptation can reverse a ranking. Monthly finance and observed vendor comparisons remain unresolved."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
         "research/frontier_models.md",
         "data/frontier_model_economics.json",
-        "reviews/frontier_models_review.md"
+        "reviews/frontier_models_review.md",
+        "research/intelligence_architecture_scenarios.md",
+        "model/ARCHITECTURES.md",
+        "model/results/architecture_comparison.json",
+        "reviews/architecture_economics_review.md"
       ],
-      "next_action": "Implement and challenge the matched-service resource/transfer comparison, then extend the specific unresolved evidence in this question; no source score or financial headline is a calibration."
+      "next_action": "Connect commercial/title obligations to monthly physical and treasury ledgers, then constrain assumptions with target evidence. Annual equivalents are not liquidity."
     }
   ],
-  "edition_note": "Original 55 questions plus ten K questions retained. K now has bounded source findings, while customer-newco outcomes, private terms, target costs and the numerical architecture comparison remain open/partial."
+  "edition_note": "Conditional K architecture mechanisms add bounded findings. Original completion conditions remain; empirical qualification, customer-entry outcomes and integrated finance are partial."
 }

@@ -37,7 +37,7 @@ def resolve_paths(parameters, base_year, bounds, paths=None):
             raise ValueError(f"digital_paths {name} must contain exactly {years} annual levels")
         lo, hi = bounds[name]
         for index, value in enumerate(values):
-            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) or not lo <= value <= hi:
+            if isinstance(value, bool) or not isinstance(value, (int, float)) or not lo <= value <= hi or not math.isfinite(value):
                 raise ValueError(f"digital_paths {name}[{index}] must be finite and in [{lo}, {hi}]")
         resolved[name] = list(values)
     return resolved
