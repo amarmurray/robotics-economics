@@ -13,6 +13,8 @@ python3 scripts/export_frontier_models.py --check
 python3 scripts/export_scenarios.py
 python3 scripts/export_experiments.py
 python3 scripts/export_monthly_commercial.py
+python3 scripts/export_enterprise.py
+python3 scripts/export_enterprise.py --bridge
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -103,3 +105,16 @@ python3 scripts/export_monthly_commercial.py --check
 ```
 
 The default export is `model/results/monthly_commercial.json`; the API is `/api/monthly-commercial`. [Methods and exclusions](model/MONTHLY_COMMERCIAL.md) define all synthetic terms, existing-obligation limits and the absent entrant/annual bridge. Saved-input replay also reconstructs preexisting Treasury events, encumbrances and credit without treating a receivable or commitment as cash.
+
+
+## Shared incumbent/entrant market
+
+Customer adoption now begins with the shared eight-month market and cash calculation. Choose one of eight witnesses or change entrant opening cash, extra funded equity, incumbent procurement timing, a scheduled customer-return attempt, and collection timing; click **Apply shared-market assumptions**. These controls are independent of annual cell/year controls. The prior ENTRY-FG-01 illustration remains collapsed as a historical separate reference.
+
+```sh
+python3 scripts/export_enterprise.py
+python3 scripts/export_enterprise.py --bridge
+python3 scripts/export_enterprise.py --case shared-enterprise-custom.json --output replay.json
+```
+
+The default artifacts are `model/results/shared_enterprise.json` and `model/results/enterprise_funding_bridge.json`. Each downloaded shared case carries complete opening inputs, source hashes and a case hash. The API is `/api/shared-enterprise` (GET witnesses; POST an `inputs` object). Exact cents, dated customer moves, paid human shifts and actual supported robot cohorts are described in [SHARED_ENTERPRISE.md](model/SHARED_ENTERPRISE.md). A different source revision changes case identity; no source claim or annual scenario coefficient is calibrated by these synthetic terms.

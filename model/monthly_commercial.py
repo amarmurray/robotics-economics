@@ -160,7 +160,7 @@ class _Commercial:
                 blocked_payers.add(i.payer)
         return t
 
-    def mandatory(self, t, month):
+    def refunds(self, t, month):
         at = Moment(month, 3)
         self.refund_failed = set()
         for c in self.contracts:
@@ -170,7 +170,17 @@ class _Commercial:
                                      provenance=self.provenance)
                 if t.deposit(d.deposit_id).outstanding_cents:
                     self.refund_failed.add(d.payee)
-        return self._collect_due(t, at, "lease_rent")
+        return t
+
+    def mandatory(self, t, month):
+        return self._collect_due(self.refunds(t, month), Moment(month, 3), "lease_rent")
+
+    def assignment_enabled(self, operator_id, month):
+        return self.by_site[operator_id].contract_id not in self.cancelled
+
+    def dispatch_output(self, month, operator, robot_capacity):
+        demand = operator.demand_units_by_month[month]
+        return demand, min(robot_capacity, Fraction(demand)), {}
 
     def payer(self, action, unit):
         if action not in ("support", "commission"):
@@ -314,10 +324,8 @@ def run_commercial(plan, treasury, contracts):
     return json.loads(json.dumps(result))
 
 
-def replay_case(saved):
-    """Recompute from saved opening inputs; never trust saved results as a calculation."""
-    if not isinstance(saved, dict) or saved.get("schema_version") != "monthly-deployment/0.2":
-        raise ValueError("A saved monthly-commercial case is required")
+def restore_opening_inputs(saved):
+    """Restore the shared plan, complete opening journal and contract inputs."""
     p = dict(saved["plan"])
     p["system"] = System(**p["system"])
     for key, kind in (("operators", Operator), ("starts", Start), ("collections", Collection)):
@@ -338,7 +346,14 @@ def replay_case(saved):
         tuple(rebuild(Deposit,x,("placed_at","refund_eligible_at")) for x in opening["deposits"]),
         tuple(rebuild(Credit,x,("authorized_at","available_from","available_until","maturity")) for x in opening["credits"]),
         tuple(rebuild(Event,x,("at",)) for x in opening["events"]))
-    return run_commercial(Plan(**p), t, tuple(Contract(**c) for c in saved["commercial"]["contracts"]))
+    return Plan(**p), t, tuple(Contract(**c) for c in saved["commercial"]["contracts"])
+
+
+def replay_case(saved):
+    """Recompute from saved opening inputs; never trust saved results as a calculation."""
+    if not isinstance(saved, dict) or saved.get("schema_version") != "monthly-deployment/0.2":
+        raise ValueError("A saved monthly-commercial case is required")
+    return run_commercial(*restore_opening_inputs(saved))
 
 
 def commercial_witnesses():

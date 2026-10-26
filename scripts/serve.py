@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT))
 from model.engine import BOUNDS, CHOICES, catalog, run_scenario, run_architecture_comparison
 from model.architectures import catalog as architecture_catalog
 from model.monthly_commercial import commercial_artifact
+from model.monthly_enterprise import enterprise_artifact, run_shared_case
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -57,6 +58,12 @@ class Handler(BaseHTTPRequestHandler):
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
             return
+        if path == "/api/shared-enterprise":
+            try:
+                self.send(200, enterprise_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
+            return
         if path == "/api/monthly-commercial":
             try:
                 self.send(200, commercial_artifact())
@@ -84,7 +91,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
@@ -92,6 +99,14 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > 200000:
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
+            if endpoint == "/api/shared-enterprise":
+                if not isinstance(request, dict) or set(request)-{"inputs"}:
+                    raise ValueError("Expected shared-enterprise inputs")
+                inputs = request.get("inputs", {})
+                if not isinstance(inputs, dict):
+                    raise ValueError("inputs must be an object")
+                self.send(200, run_shared_case(inputs))
+                return
             allowed = {"overrides", "preset", "digital_paths", "architecture_overrides"}
             if endpoint in {"/api/joint-trace", "/api/architectures"}:
                 allowed |= {"cell_id", "year"}

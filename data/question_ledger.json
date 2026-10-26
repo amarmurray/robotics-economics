@@ -192,7 +192,8 @@
         "A reviewed treasury proposal specifies real cash, due obligations, shared entrant cohorts and no duplicated manufacturing charges; full physical/financial integration remains pending.",
         "Stage 1 checkpoint: An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified.",
         "Stage 2 checkpoint: The isolated monthly fixture now couples paid starts, rejection, shipment, commissioning and supported output with integer identities. Static shared assignments pass conservation, but operator cash, commercial title contracts, competition and annual-engine integration remain absent.",
-        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open."
+        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -207,9 +208,15 @@
         "reviews/monthly_deployment_review.md",
         "model/MONTHLY_COMMERCIAL.md",
         "research/monthly_commercial_finance.md",
-        "reviews/monthly_commercial_review.md"
+        "reviews/monthly_commercial_review.md",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Build one incumbent/entrant demand ledger with funded enterprise obligations, then test same-technology customer capture and support failure without duplicating output or cash."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-SP-04",
@@ -453,13 +460,20 @@
       "evidence_method": "Compare useful-output economics and customer propositions against legacy and robot-adopting incumbents; model demand won, delivered output, competitive response, and persistence of any advantage.",
       "dependencies_and_completion": "W1 bounded entrant case after OS-01/03, HC-02 and SP-01 scope definition. Deeper when customer access, operating exposure and response timing can be bounded.",
       "findings": [
-        "Fifteen entry screens and the same-robot reference case distinguish operating design, adoption timing and capacity availability."
+        "Fifteen entry screens and the same-robot reference case distinguish operating design, adoption timing and capacity availability.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "research/customer_value.md",
-        "data/customer_evidence.json"
+        "data/customer_evidence.json",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-OS-06",
@@ -474,7 +488,8 @@
         "Treasury design separates economic feasibility, contractual eligibility, liquidity survival and physical deliverability; no capital availability is inferred.",
         "Stage 1 checkpoint: An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified.",
         "Stage 2 checkpoint: The isolated monthly fixture now couples paid starts, rejection, shipment, commissioning and supported output with integer identities. Static shared assignments pass conservation, but operator cash, commercial title contracts, competition and annual-engine integration remain absent.",
-        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open."
+        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -488,9 +503,15 @@
         "reviews/monthly_deployment_review.md",
         "model/MONTHLY_COMMERCIAL.md",
         "research/monthly_commercial_finance.md",
-        "reviews/monthly_commercial_review.md"
+        "reviews/monthly_commercial_review.md",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Build one incumbent/entrant demand ledger with funded enterprise obligations, then test same-technology customer capture and support failure without duplicating output or cash."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-OS-07",
@@ -501,13 +522,20 @@
       "evidence_method": "Compare capital, time to customers, inherited constraints, shared engineering/procurement/learning, overhead and competition; distinguish standalone, newco-builder, acquisition and hybrid forms.",
       "dependencies_and_completion": "W1 structural comparison after OS-03 and OS-05/06 scope definition, linked to BM-03. Primary-source analogies frame hypotheses; deeper work requires demonstrated cross-business effects.",
       "findings": [
-        "Thrive is a sourced organizational comparator, not proof of physical automation returns; acquisition and new formation remain distinct."
+        "Thrive is a sourced organizational comparator, not proof of physical automation returns; acquisition and new formation remain distinct.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "research/customer_value.md",
-        "data/customer_evidence.json"
+        "data/customer_evidence.json",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-BM-01",
@@ -519,16 +547,23 @@
       "dependencies_and_completion": "W1 cross-comparison alongside OS-01/02 and SP-02. Deepen when commercial terms and performance exposure are observable.",
       "findings": [
         "Seven arrangement records and cash comparisons show that moving asset funding can change whose resource constraint binds.",
-        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open."
+        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "research/customer_value.md",
         "data/customer_evidence.json",
         "model/MONTHLY_COMMERCIAL.md",
         "research/monthly_commercial_finance.md",
-        "reviews/monthly_commercial_review.md"
+        "reviews/monthly_commercial_review.md",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Build one incumbent/entrant demand ledger with funded enterprise obligations, then test same-technology customer capture and support failure without duplicating output or cash."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-BM-02",
@@ -574,16 +609,23 @@
       "dependencies_and_completion": "W1 competing hypotheses after BM-01/02. Deeper with terms, utilization, operating costs and competitive evidence.",
       "findings": [
         "Distribution, integration, service and rights are plausible capture mechanisms; negotiated prices and realized margins are mostly undisclosed.",
-        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open."
+        "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
       ],
       "artifacts": [
         "research/customer_value.md",
         "data/customer_evidence.json",
         "model/MONTHLY_COMMERCIAL.md",
         "research/monthly_commercial_finance.md",
-        "reviews/monthly_commercial_review.md"
+        "reviews/monthly_commercial_review.md",
+        "model/SHARED_ENTERPRISE.md",
+        "model/monthly_enterprise.py",
+        "model/results/shared_enterprise.json",
+        "model/results/enterprise_funding_bridge.json",
+        "research/shared_enterprise_finance.md",
+        "reviews/shared_enterprise_review.md"
       ],
-      "next_action": "Build one incumbent/entrant demand ledger with funded enterprise obligations, then test same-technology customer capture and support failure without duplicating output or cash."
+      "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
     {
       "question_id": "RQ-LLM-01",

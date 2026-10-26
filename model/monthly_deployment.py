@@ -344,7 +344,7 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                 candidate_operator = plan.allocation_cycle[index]
                 if remaining[candidate_operator]:
                     # A canceled site's request is retained in reporting, but cannot consume assignment priority.
-                    if commercial and commercial.by_site[candidate_operator].contract_id in commercial.cancelled:
+                    if commercial and not commercial.assignment_enabled(candidate_operator, month):
                         continue
                     operator_id, next_cursor = candidate_operator, (index + 1) % len(plan.allocation_cycle)
                     break
@@ -389,10 +389,12 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                             (Fraction(spec.first_month_ramp_numerator, spec.first_month_ramp_denominator)
                              if u.commissioned_at == Moment(month, 4) else 1) for u in active), Fraction(0))
             demand = operator.demand_units_by_month[month]
-            output = min(capacity, Fraction(demand))
+            output, output_detail = min(capacity, Fraction(demand)), {}
+            if commercial is not None:
+                demand, output, output_detail = commercial.dispatch_output(month, operator, capacity)
             outputs.append({"operator_id": operator.operator_id, "assigned_installed": len(assigned),
                             "supported_units": len(active), "demand_units": demand,
-                            "ramped_capacity_units": _rational(capacity), "accepted_output_units": _rational(output)})
+                            "ramped_capacity_units": _rational(capacity), "accepted_output_units": _rational(output), **output_detail})
             record(month, 6, "operate", tuple(u.unit_id for u in active), operator_id=operator.operator_id,
                    capacity_units=_rational(capacity), demand_units=demand, output_units=_rational(output))
         if commercial is not None:

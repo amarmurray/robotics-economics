@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.8, campaign in progress. Annual digital paths, the physical-requirements crosswalk, frontier-model evidence, conditional architecture economics and monthly sale/lease/provider-service schedules are integrated. Real costs and qualification, joint entrant demand, enterprise finance and broader empirical gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.9, campaign in progress. The monthly physical/Treasury model now connects one incumbent/entrant demand ledger, commercial contracts, enterprise obligations and funded equity. Annual digital paths, the physical-requirements crosswalk and K frontier-model/architecture research remain integrated. Empirical qualification, broader finance mechanisms and other research gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
@@ -626,6 +626,8 @@ For a humanoid company, this screen favors selling a verified incremental workfl
 
 ### Same-robot entrant, financing and incumbent response
 
+Current implementation note: [the shared entrant-market follow-up](research/shared_enterprise_finance.md) now links customer assignments, actual cohorts and funded enterprise obligations. It leads the Customer adoption view. The older example below is retained as a historical separate reference and is not added to that market.
+
 `ENTRY-FG-01` is a deliberately synthetic monthly formation/ramp example linked to the facilities cell. It sells accepted facility-service bundles; these are normalized model units, not measured square metres or observed humanoid capabilities. A present specialized-cleaner competitor remains explicit. The example tests a conditional broadly available robotic configuration and gives the prompt incumbent exactly the same hardware, accepted productivity and robot commercial terms.
 
 The implementation lane owns all numerical values and generated results in the common engine. The scenario distinguishes a three-month commissioning period, phased ramp, robot payments, retained service labor/materials, enterprise overhead, initial setup/customer acquisition, delayed collections and committed funding. No later financing appears automatically. Incumbent response timing changes price and capturable demand, rather than mechanically converting lower costs to market share. A separate operating-redesign override may change retained costs; it is not the equal-technology baseline.
@@ -834,6 +836,65 @@ The remaining empirical question is which actual contract terms, billing milesto
 | paid reject | 225.00 | 73,400.00 | 0.00 | 0.00 |
 
 Generated from [monthly_commercial.json](model/results/monthly_commercial.json). Each row is a separate alternative world. Unpaid invoices include future-eligible receivables as well as arrears; inspect the ledger for due dates. Refund liabilities are not revenue. Physical vendor outlays are a bounded cash proxy, not full lifecycle cost. These synthetic terms do not calibrate the annual, entrant or K architecture models.
+
+### Focused follow-up: A shared entrant market and funded execution
+
+Authoritative analysis: [research/shared_enterprise_finance.md](research/shared_enterprise_finance.md).
+
+The new shared-market experiment connects the customer-side entry thesis to actual commissioned robots, recurring customer assignments and paid enterprise obligations. It advances the earlier separate entrant illustration without treating its hypothetical capacity as another available fleet. Both operators use one technology and compete for one physical pool. All prices, capacities, customer moves and financing terms are **synthetic**; this is a mechanism test, not evidence that a real newco can raise capital or operate at these margins.
+
+The practical distinction is between technological access and delivered production. A customer can be willing to buy a service before its provider has installed the robots, funded staffing, secured working capital or received payment. A supplier can own a robot and retain a customer obligation while delivering nothing. A shared ledger makes those mismatches visible instead of resolving them with an independent capacity assumption or a negative cash balance.
+
+#### Customer capture can change distribution without adding the same work twice
+
+The experiment begins with 1,000 recurring units served by an incumbent. It separately assumes 200 unmet and 100 hypothetical new units of potential demand. The entrant attempts to acquire 70 incumbent units, 20 unmet units and 10 new units. When it delivers all 100 and the incumbent delivers its remaining 930, total service is **1,030**, not 1,100. The 70 transferred units are the same underlying work with another supplier. The increment comes from serving 20 previously unmet units and 10 assumed new units; the model does not estimate their welfare value or infer that demand from the robot's existence.
+
+A customer assignment and delivered work are different records. In the reference commissioning month, the entrant has acquired the 100-unit obligation but its one commissioned robot supplies only 25 units at the single quarter ramp. The incumbent supplies 930, so combined delivery is **955**, temporarily below the original 1,000. The entrant's 25 units are allocated proportionally: 17.5 transferred-baseline, five unmet and 2.5 new units. A model that subtracted only the entrant's delivered baseline units from incumbent demand would silently assume immediate fallback for its missed service. This model requires an explicit reassignment and actual incumbent capacity before such fallback occurs.
+
+#### Common robot access still leaves procurement and utilization choices
+
+The provider funds five starts, while two incumbent robots already exist as historical stock. The shared commissioning and support limits permit only three additions. Under prompt incumbent procurement and the declared allocation cycle, two additions go to the incumbent and one to the entrant; two new accepted robots remain finished. The entrant requested ten. Its full supported capacity is 100 units, with 25 in its commissioning month; a ten-robot calculation with the correct quarter ramp would still give 250 rather than 25 units, overstating actual initial capacity tenfold.
+
+Delaying incumbent procurement changes allocation rather than changing technology. The entrant receives three of the five new robots under the same support ceiling. Its initial robot capacity is 75 and later capacity 300, but its acquired demand is still only 100. Eight-month market delivery rises from 8,105 in the reference to 8,155. The entrant's closing cash is nevertheless lower: $3,650 versus $20,350, under the stipulated lease and customer-return schedules. More early robot access improves ramp output while increasing lease exposure on underused assets. This is a conditional utilization/finance mechanism, not a general argument against faster deployment.
+
+A prompt customer-return attempt can alter entrant cash substantially while leaving combined delivery unchanged. Returning the 70 baseline customers in month 3 rather than month 6 reduces entrant delivery from 385 to 175 units across the horizon. Incumbent capacity supplies the returned work, so both worlds still deliver 8,105 total units. The entrant closes with $1,450 rather than $20,350. Market production and entrant value capture can therefore diverge even with identical technology and the same total delivered service. After the return, the incumbent uses more of its already-paid human shift; unchanged cash outlays do not establish unchanged human work or economic resource consumption. The model assumes a successful dated reassignment; it does not establish real switching rights, retention, bidding or preemptive incumbent strategy.
+
+#### Cash failure leaves obligations, assets and unserved customers
+
+The default reference has one-month collection lags. A stress case instead delays collection of entrant work billed from month 3 to four months after delivery and starts with $20,500 cash. The entrant delivers 25 in month 2 and 100 in month 3. In month 4 it cannot pay its due obligations. Its installed robot remains owned by the lessor and its customer assignments persist, but support and entrant delivery stop. The incumbent still serves 930, so combined delivery falls from **1,030 to 930**. The missing 70 baseline units do not reappear automatically at the incumbent.
+
+A separate case schedules and pays for customer return in month 5. Incumbent delivery then restores the baseline to 1,000 using its available funded capacity; the entrant's unmet/new customer assignments still receive no service. Across eight months, delivery is 7,705 without this switchback and 7,915 with it. Both remain below the incumbent-only 8,000 in this stress. These comparisons make failure and recovery assumptions economically consequential rather than treating customer transfer as a reversible accounting identity.
+
+The fixed overhead and lease commitments remain owed during suspension; they are not canceled because production stopped. This is a stated contract assumption. The aggregate end buyer, suppliers, lessor and investor have explicit accounts, but the model does not reconstruct every supplier's payroll, bank credit or working capital. Actual firms may renegotiate or terminate obligations, recover assets, use alternative staff, or face different switching costs. None of those outcomes is silently supplied by the fixture.
+
+#### Asset leasing does not finance enterprise formation and receivables
+
+The entrant must pay formation/site work, acquire customers, cover overhead, commission its allocated robot, support it and bridge collection lags. Leasing shifts acquisition funding to the lessor; it does not pay those other bills. With only $1,000 and no added capital, formation and committed operating obligations cannot settle, customer capture fails and no robot is allocated to the entrant. The incumbent continues serving the baseline. The cash remains in the entrant's account under full-or-nothing settlement while unpaid commitments accumulate; a positive bank balance does not establish operational readiness.
+
+A separate, actually funded equity path starts from that same $1,000. The fixed-policy search finds $18,950 of additional month-0 equity sufficient to execute the reference without a failed payment. One cent less fails the month-3 support requirement. Minimum actual cash reaches zero at the threshold. This is a transparent cash-timing boundary for the invented schedule, not evidence that an investor will provide the capital or accept its return. A late contribution cannot finance earlier work, undo a missed customer-acquisition attempt or manufacture a share of robots already allocated elsewhere.
+
+Human capacity also has a financial boundary. The incumbent's human shift is a paid fixed commitment; its wage bill does not automatically decline when robots or the entrant reduce human work. Human service requires that staffing commitment to settle. The model therefore distinguishes capacity substitution, paid idle capacity and observed payroll removal; the last remains unknown. Whole-system economics would additionally require investment recovery, supplier fixed costs, actual support requirements and terminal asset/receivable treatment.
+
+#### Implication for the research program
+
+The result strengthens the form of the entry thesis: an AI-native operating company needs a funded route from customer commitments through shared physical deployment to reliable delivery and collection, plus a reason to retain enough work after incumbents respond. Fast adoption can help, but excess leased capacity, working-capital timing, fixed staffing and customer rights can outweigh its benefit to the entrant even when aggregate service improves.
+
+This common ledger should now be constrained with consequential observed evidence. Prioritize real service obligations and cancellation/renewal terms, operator support and accepted-output denominators, accessible qualified supply and deployment milestones. Regional frontier-model evidence also remains important: model-level demonstrations, fees or announced partners do not by themselves establish any of the customer, fleet or treasury conditions above. The K architecture reference still needs an explicit monthly cost bridge. Autonomous reinvestment, loan schedules and recovery remain separate extensions; the current result does not close W1-CASH or the overall campaign.
+
+#### Reproduced shared-market worlds
+
+| Synthetic world | Market units, 8 months | Entrant units | Entrant installed robots | Closing entrant cash, USD | Due unpaid, USD | Added equity, USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| shared reference | 8,105.00 | 385.00 | 1 | 20,350.00 | 0.00 | 0.00 |
+| incumbent only | 8,000.00 | 0.00 | 0 | 25,000.00 | 0.00 | 0.00 |
+| prompt customer response | 8,105.00 | 175.00 | 1 | 1,450.00 | 0.00 | 0.00 |
+| delayed incumbent procurement | 8,155.00 | 435.00 | 3 | 3,650.00 | 0.00 | 0.00 |
+| formation unfunded | 8,000.00 | 0.00 | 0 | 1,000.00 | 21,000.00 | 0.00 |
+| late receipts no automatic switchback | 7,705.00 | 125.00 | 1 | 1,050.00 | 5,500.00 | 0.00 |
+| late receipts explicit switchback | 7,915.00 | 125.00 | 1 | 1,050.00 | 5,500.00 | 0.00 |
+| additional equity | 8,105.00 | 385.00 | 1 | 15,300.00 | 0.00 | 18,950.00 |
+
+Generated from [shared_enterprise.json](model/results/shared_enterprise.json). Rows are mutually exclusive worlds, not additive markets. Human and robot work reconcile in one accepted-bundle unit. The separate [fixed-policy funding search](model/results/enterprise_funding_bridge.json) finds 18,950.00 USD of additional upfront equity over 1,000.00 USD opening entrant cash; one cent less fails. These are synthetic cash-execution results, not profit, valuation, capital access or empirical penetration estimates.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

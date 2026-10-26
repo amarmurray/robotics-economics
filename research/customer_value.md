@@ -90,6 +90,8 @@ For a humanoid company, this screen favors selling a verified incremental workfl
 
 ## Same-robot entrant, financing and incumbent response
 
+Current implementation note: [the shared entrant-market follow-up](shared_enterprise_finance.md) now links customer assignments, actual cohorts and funded enterprise obligations. It leads the Customer adoption view. The older example below is retained as a historical separate reference and is not added to that market.
+
 `ENTRY-FG-01` is a deliberately synthetic monthly formation/ramp example linked to the facilities cell. It sells accepted facility-service bundles; these are normalized model units, not measured square metres or observed humanoid capabilities. A present specialized-cleaner competitor remains explicit. The example tests a conditional broadly available robotic configuration and gives the prompt incumbent exactly the same hardware, accepted productivity and robot commercial terms.
 
 The implementation lane owns all numerical values and generated results in the common engine. The scenario distinguishes a three-month commissioning period, phased ramp, robot payments, retained service labor/materials, enterprise overhead, initial setup/customer acquisition, delayed collections and committed funding. No later financing appears automatically. Incumbent response timing changes price and capturable demand, rather than mechanically converting lower costs to market share. A separate operating-redesign override may change retained costs; it is not the equal-technology baseline.

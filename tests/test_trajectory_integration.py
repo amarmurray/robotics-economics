@@ -36,6 +36,25 @@ class TrajectoryIntegration(unittest.TestCase):
         with urllib.request.urlopen(request) as response:
             return json.load(response)
 
+    def test_shared_enterprise_http_controls_export_and_replay(self):
+        from model.monthly_enterprise import enterprise_artifact, run_shared_case
+        with urllib.request.urlopen(f"http://127.0.0.1:{self.server.server_port}/api/shared-enterprise") as response:
+            actual=json.load(response)
+        self.assertEqual(actual,enterprise_artifact())
+        inputs={"entrant_cash_cents":100_000,"extra_equity_cents":1_895_000,"response_month":None}
+        current=self.post("/api/shared-enterprise",{"inputs":inputs})
+        self.assertEqual(current,run_shared_case(inputs))
+        for bad in ({"inputs":None},{"inputs":{"entrant_cash_cents":1.5}},
+                    {"inputs":{"response_month":8}},{"inputs":{"extra_equity_cents":True}},
+                    {"inputs":{"delayed_receipts":1}},{"unknown":1}):
+            with self.assertRaises(urllib.error.HTTPError) as error:self.post("/api/shared-enterprise",bad)
+            self.assertEqual(error.exception.code,400)
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/"case.json";target=Path(directory)/"replay.json"
+            source.write_text(json.dumps(current["result"]))
+            subprocess.check_call([sys.executable,str(ROOT/"scripts/export_enterprise.py"),"--case",str(source),"--output",str(target)],stdout=subprocess.DEVNULL)
+            self.assertEqual(json.loads(source.read_text()),json.loads(target.read_text()))
+
     def test_monthly_contract_api_and_download_cli_replay(self):
         from model.monthly_commercial import commercial_artifact
         with urllib.request.urlopen(f"http://127.0.0.1:{self.server.server_port}/api/monthly-commercial") as response:
