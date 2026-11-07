@@ -39,3 +39,7 @@ The user's usage threshold means **10% remaining quota**. At or below it, use an
 ## Conventional coordination checkpoint, edition 0.17
 
 The [exact observed-queue comparator](research/conventional_coordination.md) adds bounded DE-CF02 and advances DE-06 through twelve complete courier-window worlds. Waiting, replanning, shared handoff resources, funded admission and mandatory human service are available to the conventional policy. Synthetic proposal delay/overhead and malformed/stale proposals expose costs and authority boundaries without measuring LLM performance. Six challenge families have bounded implementations; acquisition/hybrid, broader challenges and empirical acceptance remain incomplete. This is an early checkpoint of the same T0/deadline; it neither stops the goal nor resets its clock.
+
+## Funded entry checkpoint, edition 0.18
+
+Fifteen [share-transition worlds](research/entry_transitions.md) add bounded DE-CF06/07 and advance the build/acquire/hybrid requirement. A funded purchase changes ultimate ownership while target legal accounts, customers, physical units and obligations persist; target/growth working cash needs separate actual transfers. Failed closing retains prior diligence, and declared interruption retains staffing without inventing fallback. Eight challenge families now have bounded implementations. Real service economics, transfer rights, valuation, asset purchase/redeployment, supply and learning remain incomplete. The same goal clock continues; this checkpoint does not complete the campaign.

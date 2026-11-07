@@ -1,0 +1,33 @@
+# Entry changes ownership before it changes production
+
+A platform can buy an existing service business without creating a new customer, robot or accepted unit of output. That distinction now executes in the [funded entry-transition model](../model/ENTRY_TRANSITIONS.md), using the existing monthly cleaning-zone, cohort, customer and Treasury loop. Fifteen complete worlds add bounded **DE-CF06 acquisition without new demand** and **DE-CF07 hybrid transition**. They are invented contract sensitivities, not empirical company valuations or a recommendation to transact.
+
+## Purchase price does not capitalize the operating company
+
+The reference target serves 500 recurring synthetic zones per month with two existing leased robots and retained paid staffing. Status quo and a funded share acquisition both deliver 4,000 zones over eight months. They retain exactly the same physical events, units, service ledger and target operating cash. Increasing the hypothetical share price from $100,000 to $150,000 moves another $50,000 from buyer to seller without changing production or consolidated resource outlays. It leaves the buyer less liquid. No terminal equity value is supplied, so neither the cash table nor the output table ranks the investments.
+
+Share ownership changes in month two only after the actual closing group settles. The lessor still owns the robots; the target company remains their custodian and operating counterparty. Its pre-close receivables still pay that company, and an existing $30,000 payable is not erased or reassigned to the seller. In the liability stress case, the funded acquisition closes while overdue obligations halt target service. A positive target bank balance does not establish readiness when a full required invoice cannot settle.
+
+With zero target opening cash, the $100,000 price can still reach the seller while the target delivers zero service. A separate $25,000 working-capital injection at month two restores 3,000 later zones, not the 1,000 missed in the first two months. Consideration and operating capitalization solve different constraints. The injection must itself be financed by the buyer; no target cash, paid customer invoice or hypothetical share value is available to pay the purchase price automatically.
+
+## Closing is a funded event with retained failed-deal costs
+
+The reference pays $1,000 for prior diligence and $5,000 for conditional transition resources. Buyer opening cash of $106,000 exactly funds those bills plus the $100,000 consideration; one cent less blocks the whole contingent closing. No partial seller payment, transition payment, target injection or ownership change survives a failed candidate settlement. The already incurred diligence remains. Missing assumed transfer consent also blocks closing while retaining diligence cost. These are declared synthetic terms, not statements of legal priority or market deal practice.
+
+A one-month assumed service interruption after successful closing loses 500 zones. The target's $32,000 eight-month paid staffing commitment and physical unit identities remain. Smaller operating cash outlays during an interruption can reflect work that was never supported, not improved efficiency. The model does not invent fallback coverage or recover the missed service later.
+
+## Hybrid adds an operating leg rather than duplicating the base
+
+The four route comparisons each begin with $200,000 of buyer cash. Organic build commits $60,000 to a separate company, obtains robots through actual funded supply/installation/support and schedules customer moves. It captures 70 baseline zones and assigns 150 unmet/new zones that were already in the market ledger. It delivers 4,750 total zones over the window. The seller-owned incumbent loses only the explicitly reassigned customers; its existing staffing and assets remain.
+
+Hybrid pays for the target and separately funds the new company. The acquired 500-zone baseline stays assigned to the target; only 150 existing unmet/new zones move to the growth company. The standard hybrid delivers 4,717 zones. Its narrower growth-company sales leave a late liquidity shortfall even while cash remains at the parent. Moving another $5,000 of the same opening parent capital into that company restores 4,750 zones without adding robots or demand. This is a cash-allocation sensitivity within a fixed policy, not an optimal capitalization rule.
+
+The independently committed growth leg can proceed even when the share closing fails. That adverse world explicitly remains an organic growth position with a failed acquisition, rather than being relabeled a successful hybrid platform. Acquisition itself earns no automatic productivity, staffing or data-learning bonus. The reference also retains fixed prompt/delayed incumbent responses: a funded return of 70 baseline customers changes assignment and collections, not aggregate demand. Competing onboarding costs and cash pressure can change total delivered service. These cases do not calculate acquisition payback, prove a durable entry advantage or optimize the incumbent's response.
+
+## Implication for the decision packs and thesis T3
+
+For hospital, utility and automotive entry, separate three questions: whether the existing company owns or controls the relevant service relationships; whether its operating obligations and technical rights survive the proposed transaction; and whether actual funds can support the desired new physical process. The cleaning-zone cases provide conservation and failure mechanisms only. They do not import their prices, durations, costs, customer-transfer ability or approvals into another service.
+
+Thesis T3 is strengthened: equal technology access and aggregate capital leave customer assignment, legal accounts, working capital and service continuity unresolved. Acquisition can buy control of existing activity; growth still requires additional funded capacity and customers within a conserved market. The strongest counterargument remains that a real platform could improve processes or capital allocation materially. Evidence of those improvements must be measured against inherited obligations and the incumbent's feasible response, not supplied by an acquisition label.
+
+The next work shifts to the unresolved service-specific alternatives and qualification evidence, starting with utility residual visits/fixed sensing and the automotive workcell comparator. Real all-actor costs, retained paid work, qualified supply, operating rights, support and endogenous learning remain incomplete. Asset purchase/redeployment, legal restructuring, valuation and broad market equilibrium are outside this bounded share-transfer implementation. The active 168-hour campaign clock is unchanged.

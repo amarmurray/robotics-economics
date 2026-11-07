@@ -1,6 +1,14 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: conventional coordination, edition 0.17
+## New decision campaign: funded entry transitions, edition 0.18
+
+The same campaign remains active through **2026-11-14T20:12:27Z**. Fifteen share-acquisition and separate-growth worlds add bounded DE-CF06/07. Eight families now have bounded implementations. Funded closing changes ultimate ownership without new demand, unit duplication, debt forgiveness or assumed lease-title transfer. Real valuations, legal rights, asset purchase/redeployment, remaining service alternatives and empirical economics remain incomplete.
+
+Fresh checks pass: **297 Python tests**, including 19 focused tests, eight seeded adverse worlds and new HTTP replay; **36 Node assertions**, syntax, evidence, physical extraction/summary and relevant export checks. All thirteen browser views pass, including fifteen entry worlds, controls, invalid/stale handling, ownership/title/obligation traces, complete export/reload and ignored saved outcomes. Complete browser/CLI replay agrees and the panel was visually inspected. See [the review](reviews/entry_transitions_review.md).
+
+All **25 prior JSON artifacts** and **360,340 typed numeric fields** remain unchanged, as do prior engines/catalogs, 69 legacy statuses and 65 question statuses. Evidence remains 13 packages, 186 claims, 366 quantities and 104 null markers. Legacy acceptance stays **53 bounded met / 16 partial**. All **257 registered file hashes** and **482 local Markdown links** verify, with no broken links; the operational receipt holds exact publication/manifest identity. No case count or ownership transfer closes the full campaign.
+
+## Previous decision checkpoint: conventional coordination, edition 0.17
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Twelve complete service-window worlds add bounded DE-CF02 and a competent observed-queue comparator for DE-06. The conventional policy can wait and replan with shared handoff resources and common funded execution. Mandatory service, paid standby, proposal latency/overhead, failed work and authority guards are explicit. Six challenge families now have bounded implementations; case counts do not establish broad empirical acceptance.
 

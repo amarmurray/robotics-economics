@@ -21,7 +21,7 @@ FOLLOWUPS = {
  'frontier_models.md': [('Generalist, Dyna and customer service economics', 'generalist_dyna_deployment.md'), ('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md'), ('Funded intelligence roles and monthly qualification', 'monthly_intelligence_execution.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
- 'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md'), ('Dated finance, service continuity and cash recovery', 'financed_execution.md'), ('Digital paths, cohorts and the operating calendar', 'calendar_digital_execution.md')],
+ 'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md'), ('Dated finance, service continuity and cash recovery', 'financed_execution.md'), ('Digital paths, cohorts and the operating calendar', 'calendar_digital_execution.md'), ('Funded acquisition, inherited obligations and hybrid entry', 'entry_transitions.md')],
  'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md'), ('Competent conventional coordination and mandatory service', 'conventional_coordination.md')],
  'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
  'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.17, conventional-coordination checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. An exact observed-queue scheduler now replans shared courier/robot work under funded execution, deadlines and retained staffing. Twelve complete worlds expose mandatory-service misses, delay, overhead, outages and invalid proposals; they do not measure LLM performance. The prior finance, calendar and intelligence-architecture cases remain intact. Acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.18, funded-entry-transition checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Fifteen complete worlds add share acquisition, separate operating capitalization, inherited liabilities, transition interruption and hybrid growth to the existing calendar/physical/Treasury loop. Ownership cannot create demand, move lease title or erase obligations. Prior coordination, finance and architecture cases remain intact. Service-specific alternatives, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -140,6 +140,17 @@ The initial editions were produced in a cloud checkout. The local continuation b
         coordination_table.append(f"| {row['case'].replace('_',' ')} | {row['accepted']} | {row['mandatory_accepted']} / {row['mandatory_requested']} | {row['failed_attempts']} | {row['paid_resource_cents']/100:,.2f} | {row['paid_staff_cents']/100:,.2f} |")
     insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Competent conventional coordination'))+1
     out.insert(insert_at,'#### Reproduced observed-queue coordination worlds\n\n'+'\n'.join(coordination_table)+'\n\nGenerated from [conventional_coordination.json](model/results/conventional_coordination.json). Exactness covers the currently observed bounded queue. Mandatory service remains a separate gate; all paid attempt, recovery and capacity costs remain. These synthetic window bills exclude lifecycle economics, and no LLM performance is measured.')
+    entry=json.loads((ROOT/'model/results/entry_transitions.json').read_text())
+    for path,digest in entry['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
+            raise SystemExit('Stale entry-transition dependency: '+path)
+    entry_table=['| Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |',
+                 '| --- | --- | ---: | ---: | ---: | ---: | ---: |']
+    for row in entry['summary']:
+        q=row['accepted_zones']
+        entry_table.append(f"| {row['case'].replace('_',' ')} | {row['close_status']} | {int(q['numerator'])/int(q['denominator']):,.2f} | {row['paid_share_price_cents']/100:,.2f} | {row['paid_target_equity_cents']/100:,.2f} | {row['buyer_closing_cents']/100:,.2f} | {row['paid_staff_cents']/100:,.2f} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Funded acquisition, inherited obligations'))+1
+    out.insert(insert_at,'#### Reproduced funded entry worlds\n\n'+'\n'.join(entry_table)+'\n\nGenerated from [entry_transitions.json](model/results/entry_transitions.json). Purchase consideration goes to the seller; target working capital and separate growth need actual settled equity. The company retains its liabilities, assets and customers. Share transfers cancel at the fixed wider boundary, and terminal equity value remains unknown; these cash figures are not ROI or an investment ranking.')
     physical = json.loads((ROOT/'model/results/physical_requirements_summary.json').read_text())
     for path, digest in physical['source_hashes'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:

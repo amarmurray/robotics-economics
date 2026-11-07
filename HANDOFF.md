@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.17.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.18.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: competent conventional coordination, edition 0.17
+## Current checkpoint: funded acquisition and hybrid entry, edition 0.18
+
+The same campaign remains active with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Work continues in `/workspace/robotics-economics` with the same sole writer and cloud configuration. No task, executor, agent, schedule or campaign clock was replaced. Native goal/usage controls remain unexposed; no earned reset or uninterrupted-execution claim is made.
+
+[The entry analysis](research/entry_transitions.md) and [methods](model/ENTRY_TRANSITIONS.md) add fifteen complete share-acquisition and separately funded growth worlds on the unchanged calendar/physical/enterprise/Treasury loop. **DE-CF06/07** join six earlier bounded families. Share closing changes the ultimate owner while the target legal account, customers, physical units, lease title/custody, receivables and liabilities persist. Price goes to the selling owner; target working capital needs an explicit settled injection. No asset purchase, real rights transfer, legal valuation or automatic synergy is inferred.
+
+Status quo and a funded purchase both deliver **4,000 synthetic zones** with identical target physical/service execution. A $50,000 higher price only reallocates buyer/seller cash. A **$106,000** buyer balance exactly funds reference diligence, price and transition; one cent less blocks the contingent closing without partial payments or ownership change. With no target cash, a funded purchase delivers zero service; a separate $25,000 month-two injection restores 3,000 future zones but cannot backfill 1,000 earlier misses. An assumed one-month interruption loses 500 zones while retaining the $32,000 staffing commitment. A separately funded hybrid growth leg delivers 4,717 zones; another $5,000 transfer from the same opening parent capital restores 4,750 without adding demand or robots. These are fixed-policy synthetic mechanisms, not investment returns.
+
+**Fresh validation:** **297 Python tests**, including 19 focused entry tests, eight seeded adverse worlds and new HTTP replay; **36 Node assertions**, syntax, strict evidence, physical extraction/summary, frontier and relevant exports. All thirteen browser views pass, including fifteen entry witnesses, price/equity controls, pending/invalid/stale handling, ownership/title/obligation traces and complete export/import. Tampered outcomes are ignored. Browser and CLI replay agree completely, including hash, and the panel was visually inspected. See [the sole-writer review](reviews/entry_transitions_review.md).
+
+All **25 prior JSON artifacts** remain byte-identical, preserving **360,340 typed numeric fields**. Earlier engines/catalogs, all 69 legacy requirement statuses and all 65 question statuses remain unchanged. Evidence remains 13 packages, 186 claims, 366 quantities and 104 null markers; legacy acceptance remains **53 bounded met / 16 partial**. All **257 registered file hashes** and **482 relative Markdown links** verify, with no broken links. The ignored receipt records the manifest hash and normal-push verification. No empirical requirement is closed solely by this synthetic share-transfer mechanism.
+
+**Next execution:** the service-specific utility residual-visit/fixed-sensing and automotive workcell comparisons, tied to target service and qualification evidence. Then remaining qualified-supply, support, endogenous-learning and physical R&D challenges. Do not expand abstract acquisition accounting into invented legal/valuation answers. Preserve unknown real all-actor costs, staffing, rights and lifecycle outcomes.
+
+**Next question:** does a robot-assisted inspection remove a complete required visit at matched accepted coverage, or merely add monitoring while the same paid human route remains?
+
+## Previous checkpoint: competent conventional coordination, edition 0.17
 
 The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. After the disconnect steer, the supported status tool reported **connected/running**, and shell commands executed in `/workspace/robotics-economics` at the unchanged edition-0.16 commit, preserving the unpublished comparator. Configuration version `23c776c0-dadf-4a64-8228-07b0e7a410c5~cecfgver_6aef6be6603c81a19429774d1c89cfd3` matched. No task, executor, writer, schedule or campaign clock was replaced. Native goal/usage controls remain unexposed; no earned reset or uninterrupted execution is claimed.
 

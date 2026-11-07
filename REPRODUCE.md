@@ -21,6 +21,7 @@ python3 scripts/export_finance.py --check
 python3 scripts/export_calendar_bridge.py --check
 python3 scripts/export_monthly_architectures.py --check
 python3 scripts/export_conventional_coordination.py --check
+python3 scripts/export_entry_transitions.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -206,3 +207,15 @@ python3 scripts/export_conventional_coordination.py --case downloaded.json --out
 ```
 
 The API is `/api/conventional-coordination`. Complete saved workload/controller inputs are rerun, with saved outcomes ignored. The [methods](model/CONVENTIONAL_COORDINATION.md) define observed-queue exactness, shared authority, all-attempt resource cash, retained paid staffing and the absent real-system/LLM evaluation. The browser trace shows information available at each decision, not just the final accepted count.
+
+
+## Funded acquisition and hybrid entry
+
+Customer adoption now begins with fifteen entry worlds. Edit buyer/target cash, consideration, separate target or growth equity, diligence/transition bills, closing month, interruption and assumed consent. Pending/invalid edits preserve the last valid result. Complete imported inputs are replayed and shown read-only; choose a standard witness for shortcut controls.
+
+```sh
+python3 scripts/export_entry_transitions.py --check
+python3 scripts/export_entry_transitions.py --case downloaded.json --output replay.json
+```
+
+The API is `/api/entry-transitions`. [Methods](model/ENTRY_TRANSITIONS.md) define funded all-or-none share closing, unchanged operating identities/obligations, fixed wider cash consolidation and unknown terminal value. No asset purchase or real legal/valuation conclusion is inferred.

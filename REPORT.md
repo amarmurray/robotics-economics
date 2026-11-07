@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.17, conventional-coordination checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. An exact observed-queue scheduler now replans shared courier/robot work under funded execution, deadlines and retained staffing. Twelve complete worlds expose mandatory-service misses, delay, overhead, outages and invalid proposals; they do not measure LLM performance. The prior finance, calendar and intelligence-architecture cases remain intact. Acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.18, funded-entry-transition checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Fifteen complete worlds add share acquisition, separate operating capitalization, inherited liabilities, transition interruption and hybrid growth to the existing calendar/physical/Treasury loop. Ownership cannot create demand, move lease title or erase obligations. Prior coordination, finance and architecture cases remain intact. Service-specific alternatives, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -168,6 +168,10 @@ Compare digital-human/AMR presentation, a fixed arm/fixture or redesigned transf
 
 **Provisional recommendation:** use this cell to test whether configuration flexibility pays for itself; wait on broad replacement or greenfield entry claims. Proceed only when the specified workcell's acceptance, recovery and support/upgrade obligations are matched to real demand. Reject extrapolation from vehicles supported to vehicles assembled, from retired assets to available capacity, or from a supplier's disposal choice to a customer's salvage value. Stable geometry and volume favor testing fixed automation first; demonstrated frequent reconfiguration can change that preference. Early withdrawal of support or expensive requalification can reverse a favorable lifetime calculation.
 
+#### Funded entry and inherited obligations
+
+The [entry-transition comparison](research/entry_transitions.md) implements status quo, build, share acquisition and hybrid on the same cleaning-zone calendar and physical ledger. The price goes to the selling owner; the target needs separate operating funds. Share ownership does not move customers, lease title, unpaid liabilities or pre-close receivables to new legal accounts. Hybrid growth is separately committed and uses only already specified unmet/new demand. A real hospital, utility or automotive purchase still needs its own legal, service, rights, capital and transition evidence; these invented prices and output units do not calibrate those packs.
+
 #### The digital baseline and coordination burden
 
 Each decision needs four matched branches: human work with existing conventional systems; that work with a specified additional digital intervention; the robot-assisted process with its required embedded software; and the combined process with the same additional intervention. The robot increment after digital improvement is `Y11 − Y01`; interaction is `Y11 − Y10 − Y01 + Y00`. Keep output, cash and resources as separate outcomes. Missing or infeasible branches remain missing. Savings that overlap between dispatch software, process redesign and robotics are booked once.
@@ -197,7 +201,7 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01/02/08/11/12/13 have bounded implementations.** The [twelve conventional coordination worlds](model/results/conventional_coordination.json) add mandatory human service, an exact observed-queue comparator, explicit delay/overhead, outage and proposal-guard cases. They complement fourteen [finance worlds](model/results/enterprise_finance.json), eight [calendar worlds](model/results/calendar_bridge.json) and ten [architecture worlds](model/results/monthly_architectures.json). DE-CF10 has support/upgrade and engineering-before-expansion mechanisms; DE-CF14 has a frozen-cohort portion. A separate courier-window optimizer does not optimize the monthly capital schedule. Forty-four rows do not establish broad campaign coverage or empirical acceptance; the remaining challenge families retain their missing requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
+The following names track intended challenge coverage. **DE-CF01/02/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Fifty-nine rows do not establish the missing utility/automotive, qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
@@ -206,8 +210,8 @@ The following names track intended challenge coverage. **DE-CF01/02/08/11/12/13 
 | DE-CF03 residual-inspection-visit | Selected robot points do not eliminate the full mandatory visit |
 | DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
 | DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
-| DE-CF06 acquire-without-new-demand | Paid ownership/customer transfer preserves aggregate demand and physical activity |
-| DE-CF07 hybrid-transition | Acquisition plus funded expansion incurs transition costs without duplicating the acquired base |
+| DE-CF06 acquire-without-new-demand — bounded implementation | Funded share transfer changes ultimate owner while the target legal account, customers, physical units, leases, receivables and liabilities remain; price is not working capital |
+| DE-CF07 hybrid-transition — bounded implementation | Separately funded growth uses only existing unmet/new demand; conditional closing, retained diligence, interruption and subsidiary liquidity are explicit; no automatic synergy or asset-purchase result |
 | DE-CF08 architecture-and-fees — bounded implementation | Four funded role mappings, itemized resources, fee/internal-transfer controls, false rights gate and equal-capital allocation; real costs/rights and broader competition remain open |
 | DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
 | DE-CF10 support-before-expansion — partial mechanism | Initial engineering can leave installed support unmet and cancel a one-shot start; stronger adaptive scheduling and broader support dynamics remain open |
@@ -218,7 +222,7 @@ The following names track intended challenge coverage. **DE-CF01/02/08/11/12/13 
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is acquisition/hybrid entry with funded ownership transitions, existing demand preserved and explicit transition costs, followed by the remaining utility/automotive and supply/learning challenges. The conventional scheduler is exact only for its observed service-window queue; it does not yet optimize monthly investment, restructure debt or establish physical R&D qualification. Keep the full service boundary, funding obligations and remaining empirical gaps explicit.
+The next substantive work is the remaining service-specific alternatives and qualification evidence, starting with utility residual visits/fixed sensing and the automotive workcell comparator. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1058,6 +1062,10 @@ The result strengthens the form of the entry thesis: an AI-native operating comp
 
 This common ledger should now be constrained with consequential observed evidence. Prioritize real service obligations and cancellation/renewal terms, operator support and accepted-output denominators, accessible qualified supply and deployment milestones. Regional frontier-model evidence also remains important: model-level demonstrations, fees or announced partners do not by themselves establish any of the customer, fleet or treasury conditions above. The K architecture reference still needs an explicit monthly cost bridge. Autonomous reinvestment, loan schedules and recovery remain separate extensions; the current result does not close W1-CASH or the overall campaign.
 
+#### Share acquisition and a separate growth company
+
+The [funded entry extension](research/entry_transitions.md) now adds a bounded share-purchase and hybrid path on the explicit cleaning-zone bridge. It leaves existing service and physical identities intact, separates seller consideration from target working equity, preserves liabilities/receivables and counts transaction resources outside eliminated internal transfers. It does not convert this earlier floor-bundle market or infer real legal/valuation terms.
+
 #### Reproduced shared-market worlds
 
 | Synthetic world | Market units, 8 months | Entrant units | Entrant installed robots | Closing entrant cash, USD | Due unpaid, USD | Added equity, USD |
@@ -1212,6 +1220,64 @@ This checkpoint advances the retained-paid-shift and digital-human challenge fam
 | calendar financing pressure | 4,150.00 | 115.04 | 38,400.00 | 292,406.12 | 28 | 4 |
 
 Generated from [calendar_bridge.json](model/results/calendar_bridge.json). The four C00/C01/C10/C11 branches share a paid-staff/customer-move policy and ample capital. Cash outlays include actual starts and retained inventory; opening assets predate the cash window. They are not lifecycle costs or an optimal investment ranking. Partial years are aggregated without extrapolation; no historical floor-bundle conversion or extra annual fleet is assumed.
+
+### Focused follow-up: Funded acquisition, inherited obligations and hybrid entry
+
+Authoritative analysis: [research/entry_transitions.md](research/entry_transitions.md).
+
+A platform can buy an existing service business without creating a new customer, robot or accepted unit of output. That distinction now executes in the [funded entry-transition model](model/ENTRY_TRANSITIONS.md), using the existing monthly cleaning-zone, cohort, customer and Treasury loop. Fifteen complete worlds add bounded **DE-CF06 acquisition without new demand** and **DE-CF07 hybrid transition**. They are invented contract sensitivities, not empirical company valuations or a recommendation to transact.
+
+#### Purchase price does not capitalize the operating company
+
+The reference target serves 500 recurring synthetic zones per month with two existing leased robots and retained paid staffing. Status quo and a funded share acquisition both deliver 4,000 zones over eight months. They retain exactly the same physical events, units, service ledger and target operating cash. Increasing the hypothetical share price from $100,000 to $150,000 moves another $50,000 from buyer to seller without changing production or consolidated resource outlays. It leaves the buyer less liquid. No terminal equity value is supplied, so neither the cash table nor the output table ranks the investments.
+
+Share ownership changes in month two only after the actual closing group settles. The lessor still owns the robots; the target company remains their custodian and operating counterparty. Its pre-close receivables still pay that company, and an existing $30,000 payable is not erased or reassigned to the seller. In the liability stress case, the funded acquisition closes while overdue obligations halt target service. A positive target bank balance does not establish readiness when a full required invoice cannot settle.
+
+With zero target opening cash, the $100,000 price can still reach the seller while the target delivers zero service. A separate $25,000 working-capital injection at month two restores 3,000 later zones, not the 1,000 missed in the first two months. Consideration and operating capitalization solve different constraints. The injection must itself be financed by the buyer; no target cash, paid customer invoice or hypothetical share value is available to pay the purchase price automatically.
+
+#### Closing is a funded event with retained failed-deal costs
+
+The reference pays $1,000 for prior diligence and $5,000 for conditional transition resources. Buyer opening cash of $106,000 exactly funds those bills plus the $100,000 consideration; one cent less blocks the whole contingent closing. No partial seller payment, transition payment, target injection or ownership change survives a failed candidate settlement. The already incurred diligence remains. Missing assumed transfer consent also blocks closing while retaining diligence cost. These are declared synthetic terms, not statements of legal priority or market deal practice.
+
+A one-month assumed service interruption after successful closing loses 500 zones. The target's $32,000 eight-month paid staffing commitment and physical unit identities remain. Smaller operating cash outlays during an interruption can reflect work that was never supported, not improved efficiency. The model does not invent fallback coverage or recover the missed service later.
+
+#### Hybrid adds an operating leg rather than duplicating the base
+
+The four route comparisons each begin with $200,000 of buyer cash. Organic build commits $60,000 to a separate company, obtains robots through actual funded supply/installation/support and schedules customer moves. It captures 70 baseline zones and assigns 150 unmet/new zones that were already in the market ledger. It delivers 4,750 total zones over the window. The seller-owned incumbent loses only the explicitly reassigned customers; its existing staffing and assets remain.
+
+Hybrid pays for the target and separately funds the new company. The acquired 500-zone baseline stays assigned to the target; only 150 existing unmet/new zones move to the growth company. The standard hybrid delivers 4,717 zones. Its narrower growth-company sales leave a late liquidity shortfall even while cash remains at the parent. Moving another $5,000 of the same opening parent capital into that company restores 4,750 zones without adding robots or demand. This is a cash-allocation sensitivity within a fixed policy, not an optimal capitalization rule.
+
+The independently committed growth leg can proceed even when the share closing fails. That adverse world explicitly remains an organic growth position with a failed acquisition, rather than being relabeled a successful hybrid platform. Acquisition itself earns no automatic productivity, staffing or data-learning bonus. The reference also retains fixed prompt/delayed incumbent responses: a funded return of 70 baseline customers changes assignment and collections, not aggregate demand. Competing onboarding costs and cash pressure can change total delivered service. These cases do not calculate acquisition payback, prove a durable entry advantage or optimize the incumbent's response.
+
+#### Implication for the decision packs and thesis T3
+
+For hospital, utility and automotive entry, separate three questions: whether the existing company owns or controls the relevant service relationships; whether its operating obligations and technical rights survive the proposed transaction; and whether actual funds can support the desired new physical process. The cleaning-zone cases provide conservation and failure mechanisms only. They do not import their prices, durations, costs, customer-transfer ability or approvals into another service.
+
+Thesis T3 is strengthened: equal technology access and aggregate capital leave customer assignment, legal accounts, working capital and service continuity unresolved. Acquisition can buy control of existing activity; growth still requires additional funded capacity and customers within a conserved market. The strongest counterargument remains that a real platform could improve processes or capital allocation materially. Evidence of those improvements must be measured against inherited obligations and the incumbent's feasible response, not supplied by an acquisition label.
+
+The next work shifts to the unresolved service-specific alternatives and qualification evidence, starting with utility residual visits/fixed sensing and the automotive workcell comparator. Real all-actor costs, retained paid work, qualified supply, operating rights, support and endogenous learning remain incomplete. Asset purchase/redeployment, legal restructuring, valuation and broad market equilibrium are outside this bounded share-transfer implementation. The active 168-hour campaign clock is unchanged.
+
+#### Reproduced funded entry worlds
+
+| Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| status quo | not_planned | 4,000.00 | 0.00 | 0.00 | 200,000.00 | 32,000.00 |
+| organic build | not_planned | 4,750.00 | 0.00 | 0.00 | 140,000.00 | 38,400.00 |
+| share acquisition | closed | 4,000.00 | 100,000.00 | 0.00 | 94,000.00 | 32,000.00 |
+| hybrid | closed | 4,717.00 | 100,000.00 | 0.00 | 34,000.00 | 38,400.00 |
+| higher price same operations | closed | 4,000.00 | 150,000.00 | 0.00 | 44,000.00 | 32,000.00 |
+| unfunded closing | blocked | 4,000.00 | 0.00 | 0.00 | 99,000.00 | 32,000.00 |
+| consent not assumed | blocked | 4,000.00 | 0.00 | 0.00 | 199,000.00 | 32,000.00 |
+| transition interruption | closed | 3,500.00 | 100,000.00 | 0.00 | 94,000.00 | 32,000.00 |
+| purchase without operating cash | closed | 0.00 | 100,000.00 | 0.00 | 94,000.00 | 0.00 |
+| funded target working capital | closed | 3,000.00 | 100,000.00 | 25,000.00 | 69,000.00 | 24,000.00 |
+| target liability retained | closed | 1,000.00 | 100,000.00 | 0.00 | 94,000.00 | 8,000.00 |
+| hybrid acquisition fails | blocked | 4,717.00 | 0.00 | 0.00 | 99,000.00 | 38,400.00 |
+| hybrid growth liquidity | closed | 4,750.00 | 100,000.00 | 0.00 | 29,000.00 | 38,400.00 |
+| prompt incumbent response | not_planned | 4,600.00 | 0.00 | 0.00 | 140,000.00 | 38,400.00 |
+| delayed incumbent response | not_planned | 4,717.00 | 0.00 | 0.00 | 140,000.00 | 38,400.00 |
+
+Generated from [entry_transitions.json](model/results/entry_transitions.json). Purchase consideration goes to the seller; target working capital and separate growth need actual settled equity. The company retains its liabilities, assets and customers. Share transfers cancel at the fixed wider boundary, and terminal equity value remains unknown; these cash figures are not ROI or an investment ranking.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 
