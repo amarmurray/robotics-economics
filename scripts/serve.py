@@ -16,6 +16,7 @@ from model.engine import BOUNDS, CHOICES, catalog, run_scenario, run_architectur
 from model.architectures import catalog as architecture_catalog
 from model.monthly_commercial import commercial_artifact
 from model.monthly_enterprise import enterprise_artifact, run_shared_case
+from model.enterprise_finance import finance_artifact, run_financed_case, replay_financed_enterprise
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -58,6 +59,12 @@ class Handler(BaseHTTPRequestHandler):
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
             return
+        if path == "/api/enterprise-finance":
+            try:
+                self.send(200, finance_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
+            return
         if path == "/api/shared-enterprise":
             try:
                 self.send(200, enterprise_artifact())
@@ -91,14 +98,27 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
             length = int(self.headers.get("Content-Length","0"))
-            if length < 0 or length > 200000:
+            if length < 0 or length > (2000000 if endpoint == "/api/enterprise-finance" else 200000):
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
+            if endpoint == "/api/enterprise-finance":
+                if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
+                    raise ValueError("Expected exactly inputs or saved_case for financed execution")
+                if 'saved_case' in request:
+                    try:
+                        replayed = replay_financed_enterprise(request['saved_case'])
+                    except KeyError as exc:
+                        raise ValueError("Incomplete saved financed case") from exc
+                    self.send(200,{"inputs":None,"result":replayed})
+                else:
+                    if not isinstance(request['inputs'],dict):raise ValueError("inputs must be an object")
+                    self.send(200,run_financed_case(request['inputs']))
+                return
             if endpoint == "/api/shared-enterprise":
                 if not isinstance(request, dict) or set(request)-{"inputs"}:
                     raise ValueError("Expected shared-enterprise inputs")

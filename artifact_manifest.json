@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "deployment-entry-decision-checkpoint-0.13",
+  "snapshot_id": "financed-decision-checkpoint-0.14",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "6bd2b915f067fa004b82727af9fc526913c8268a92986b4b01cc295329ab2680",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "f2a36ed668e22572f8623c347f08466fe051a89e8843447a561494b22585f6a0",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "AGENTS.md",
@@ -75,8 +75,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "decision-campaign-checkpoint-0.13",
-      "sha256": "afd6be7a7a8acc899d4afbca2d4e32930d24477b7e49804d131a98bba2a0bbe4"
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "fbf8922e7c0e6b5512372be8adb6df29361f502f33fb617bf5df7961366e58c4"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,15 +117,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "442480674cc80e3d588dd3b504057400233e00fae5ae1447776fa097a2df92a9",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "24f0dfe7ccc5a73a29e4c06b127277443e4499765df4d23e9ba49d5137d7477f",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "25fe4ad398137caf584d982154a04e0341cfe65988d99d4eac55bca4c40388df",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "6f8bf278e8b4e00ebe9215af597b344bd5da998f98535af7bbaf7f5b55932788",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -138,8 +138,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "decision-campaign-checkpoint-0.13",
-      "sha256": "9cef39ea9c8db4032f60300938f08190db26b4ed7d2949c91b8d0ab6d730e368"
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "7bd9cf3e4ea278e329220cbd02d65d8e904e1f054623b4af4b4c46c6cf8902d6"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -166,8 +166,8 @@
       "repository_path": "THESIS_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
       "name": "THESIS_REGISTER.md",
-      "version": "decision-campaign-checkpoint-0.13",
-      "sha256": "2840a59eb33904f145bc1b0ae9e147518cb1581d0d4d7fe5d06805fd8e0afe0a"
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "3a6d86b1e8eeee58ca2b79cdafa0cd1e4b3f15df6dd46222cb402917bba5ab92"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -180,8 +180,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "d4284bd5b992ee79affcf535e473c4e1298ffe2863266003b3a12c9410c1a4ff",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "0d004822cfa0e57d93ad5199b01fb77b853ebb7d0cf5efa96028dc92a94e0b58",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -194,8 +194,8 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "36bed815ab05d4aeb5c011f97559a513d616398c3176d17f11781f8e59067cc8",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "947d5fc9410aa5cf5c3ba05e4dd9de54c93ca042e3b75f9cb1c1150e06bb8e67",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "dashboard/facets.js",
@@ -334,8 +334,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "bf73189da02c78dfa11e29803fc285b55a5dfacdbc11e99db69a60200737e690",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "b996241f53bb222155adc5e0546c953d005b2d282f4b419fa41a6e8568c0ebfc",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -1314,8 +1314,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "427f15c55a4782d9dbe2d536b78533b3ed9bd640058d3f9a3962ce4b64851372",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "d6fb6da3d99f92e0335bd18e6e8a4bfc44e9983b781894a4b25f3803c24ceed8",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "scripts/export_architectures.py",
@@ -1377,8 +1377,8 @@
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "35f0bebe89c0e10d64e47ed5fa453e0dd5cb4853043ce129a8c6b138142d187e",
-      "version": "week-one-in-progress-0.9"
+      "sha256": "5dac5e86d8723b75c47a52131cda55cd81e521174faf44f02cd5639a213b8508",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
@@ -1398,8 +1398,8 @@
       "repository_path": "tests/test_api.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_api.py",
       "name": "test_api.py",
-      "sha256": "cdddb06fc5ac39e831d96be193e38010c06d0bae9a4727b09ebfb00c32aa60af",
-      "version": "week-one-in-progress-0.6"
+      "sha256": "7ba2df7763f94827dc2eb7a72fb2554217c164346d3955ee0537d25e092ca2aa",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "tests/test_architectures.py",
@@ -1538,15 +1538,15 @@
       "repository_path": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "name": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
-      "sha256": "3d4d47470d271f7da75c9b0fce288b81d0b2bdb1acbd715a124664fc66180926",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "3830904aede7606aeb2e14d075b2c858497994887ec0234b39407f8b0849eab9",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "research/deployment_entry_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/deployment_entry_decisions.md",
       "name": "deployment_entry_decisions.md",
-      "sha256": "3cb576ce67e08a875c0f5ce3cc5d1699518794ac02c95e116c3c59a82be07b6c",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "a48498eac381600fd98bad59325b89f117b99863b7f91b7d4e455cc7531a23a2",
+      "version": "financed-decision-checkpoint-0.14"
     },
     {
       "repository_path": "reviews/decision_checkpoint_review.md",
@@ -1554,6 +1554,55 @@
       "name": "decision_checkpoint_review.md",
       "sha256": "74dda2ff600d8a0cf10ad3082ae600535272b52fadca250d885f2e6833a1a2f1",
       "version": "decision-campaign-checkpoint-0.13"
+    },
+    {
+      "repository_path": "model/ENTERPRISE_FINANCE.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/ENTERPRISE_FINANCE.md",
+      "name": "ENTERPRISE_FINANCE.md",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "d39f12efb62c9d2eb2d516b444c49e6fdafcde874844525e9d641b49b1300096"
+    },
+    {
+      "repository_path": "model/enterprise_finance.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/enterprise_finance.py",
+      "name": "enterprise_finance.py",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed"
+    },
+    {
+      "repository_path": "model/results/enterprise_finance.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/enterprise_finance.json",
+      "name": "enterprise_finance.json",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "f7cbaebd69408b82d45ba720723f5f3e3de4c57224d4bc7e0e13de0b91a65bcf"
+    },
+    {
+      "repository_path": "research/financed_execution.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/financed_execution.md",
+      "name": "financed_execution.md",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "c767c921b64c757cf5898826d72a01d970be6d7926d32ae638b45d835ed480e4"
+    },
+    {
+      "repository_path": "scripts/export_finance.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_finance.py",
+      "name": "export_finance.py",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "bc76d3c5e244506aaefe399109ce71343b9e5dd2fb35b2af95a8b3036add9646"
+    },
+    {
+      "repository_path": "tests/test_enterprise_finance.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_enterprise_finance.py",
+      "name": "test_enterprise_finance.py",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "3f3a173be00a9f889ec6081e69da79b625604417ef0bd15c91d68deef61d0e2b"
+    },
+    {
+      "repository_path": "reviews/enterprise_finance_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/enterprise_finance_review.md",
+      "name": "enterprise_finance_review.md",
+      "version": "financed-decision-checkpoint-0.14",
+      "sha256": "c0a1ec7bf5dd9f8b86da9d7cca29a3c917eebf55bac1d78e44f32f5421f2e4b9"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -1623,7 +1672,7 @@
     "physical_requirements_crosswalk": "research/physical_requirements_crosswalk.md",
     "physical_requirements_source_manifest": "data/sources/physical_requirements/source_manifest.json",
     "accepted_evidence_package_count": 13,
-    "accepted_claim_count": 184,
+    "accepted_claim_count": 186,
     "frontier_models_report": "research/frontier_models.md",
     "frontier_models_evidence": "data/frontier_model_economics.json",
     "frontier_architecture_scenario_status": "synthetic_conditional_implemented_real_costs_unknown",
@@ -1641,6 +1690,13 @@
       "review": "reviews/napkin_workflow_review.md",
       "status": "qualitative_service_protocol_full_economics_unknown"
     },
-    "active_campaign_spec": "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+    "active_campaign_spec": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+    "financed_execution": {
+      "methods": "model/ENTERPRISE_FINANCE.md",
+      "analysis": "research/financed_execution.md",
+      "output": "model/results/enterprise_finance.json",
+      "review": "reviews/enterprise_finance_review.md",
+      "status": "synthetic_dated_finance_and_cash_recovery_partial_campaign"
+    }
   }
 }

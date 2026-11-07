@@ -1,6 +1,6 @@
 # Reproduce the local research edition
 
-The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. The reserved DE-CF case list is a future implementation contract, not a new executable experiment suite; existing commands below retain their stated scopes.
+The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. DE-CF11/12 now have a bounded financed-execution suite with fourteen alternative worlds; the other twelve challenge families remain reserved. These worlds cover two families, not the full campaign. Existing commands retain their stated scopes.
 
 Python 3.10 or newer is sufficient. Earlier validation used Python 3.12.14 on Linux; annual-path continuation also runs on the canonical Mac checkout. The model/server/export commands have **no third-party dependencies, credentials, network requests, GPU requirements or paid services**. Node is optional for the JavaScript syntax check. The dashboard needs a current browser with `fetch` and native `<dialog>` support.
 
@@ -17,6 +17,7 @@ python3 scripts/export_experiments.py
 python3 scripts/export_monthly_commercial.py
 python3 scripts/export_enterprise.py
 python3 scripts/export_enterprise.py --bridge
+python3 scripts/export_finance.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -141,3 +142,21 @@ The existing customer package now includes FG-E015–FG-E018, the separately sco
 Fresh cloud checks ran on Python 3.12.14 and Node 24.22.1, using Chromium for local browser verification. The first unmodified run passed 195 of 196 Python tests: the exact frozen scalar hash failed because two annual-hour sums used Python-version-dependent float aggregation. The engine now preserves their historical addition order; all 69,315 frozen numeric fields match without a changed oracle. All 196 tests then pass; a focused Python 3.13 replay provides a separate portability check. Earlier Mac results remain historical.
 
 See [the sole-lead review](reviews/napkin_workflow_review.md) for the final checks and evidence limits. These checks establish execution and this bounded checkpoint, not continuous weekday uptime or activation of a native goal. No supported goal-creation control is exposed here.
+
+
+## Dated finance and service continuity, edition 0.14
+
+The Customer adoption view adds **Dated finance, service interruption and cash recovery**. Choose one of fourteen worlds or edit cash, draw/maturity dates, rate, rescue, response, payment priority, default policy and the later-start reserve. Apply recomputes the existing monthly physical/customer/Treasury loop; these controls do not alter annual cell/year scenarios. Rates and contracts are synthetic assumptions. A null default date means no debt-policy default, not necessarily funded service. Trace the equations, exact interest inputs and source hashes before interpreting a difference.
+
+Export financed case downloads all physical, commercial, enterprise, Treasury and financing inputs/results. Reload recomputes the full saved inputs under current code; changing a saved output cannot change the replay. An imported full ledger retains its own work unit and horizon. The monthly table follows the entrant operator where present, otherwise the first operator, and aggregates that actor's loans. Headline financing totals include all loans. Choose a standard witness to return to editable shortcut controls. Historical source changes produce a new hash, with an explicit message; exact historical reproduction needs the corresponding checkout. Invalid or stale requests preserve the last valid display/export.
+
+```bash
+python3 scripts/export_finance.py
+python3 scripts/export_finance.py --check
+python3 scripts/export_finance.py --case /tmp/financed-case.json --output /tmp/financed-replay.json
+python3 -m unittest tests.test_enterprise_finance -v
+```
+
+`GET /api/enterprise-finance` returns the deterministic witness bundle. `POST` accepts exactly one of `inputs` (validated shortcut controls) or `saved_case` (a complete financed execution). The complete JSON includes five model-source hashes, a case hash, exact cents/rational service, event journals and seven metric-lineage records. No network, credentials or third-party Python packages are required by these commands. See [methods](model/ENTERPRISE_FINANCE.md), [research findings](research/financed_execution.md) and [sole-writer review](reviews/enterprise_finance_review.md).
+
+This adds dated finance and cash recovery. It does not implement collateral sale, legal insolvency, debt restructuring, autonomous investment optimization, empirical financing terms or annual/architecture bridges.

@@ -6,6 +6,7 @@ const money = v => v === null || v === undefined ? 'Unknown' : '$'+fmt(v);
 const title = s => String(s).replaceAll('_',' ').replace(/\b\w/g,x=>x.toUpperCase());
 const safeURL = v => typeof v === 'string' && /^https?:\/\//.test(v) ? v : null;
 let enterpriseState={data:null,loading:false,selection:"shared_reference",current:null,inputs:null,error:"",requestId:0};
+let financeState={data:null,loading:false,selection:"term_reference",current:null,inputs:null,error:"",requestId:0,imported:false};
 let monthlyCommercialCache=null,monthlyCommercialCase="sale",monthlyCommercialLoading=false;
 let digitalPaths=null,architectureOverrides=null,architectureCache={key:null},architectureRequestId=0;
 let boot, result, activeView='atlas', overrides={}, requestId=0, allRecords=[], evidenceById=new Map(), comparisonResults=null, detailRequestId=0, activeTraceHash=null;
@@ -155,6 +156,73 @@ function napkinComparison(){
   table(c.accounting_boundaries,[['perspective','Boundary',esc],['include','Include and reconcile',esc]])+
   table(Object.entries(c.economic_outcomes).map(([name,x])=>({name:name==='roi'?'ROI':title(name),...x})),[['name','Estimate',esc],['value','Result',v=>fmt(v)],['reason','Why unavailable',esc]])+`</details>`+
   `<p><a href="/research/customer_value.md#restaurant-napkin-workflow-comparison" target="_blank">Full comparison and entry implications ↗</a> · <a href="/data/customer_evidence.json" target="_blank">Saved FG-CMP-03 record ↗</a></p></section>`;
+}
+
+function financePanel(){
+ const state=financeState;
+ if(!state.data&&!state.loading&&!state.error){state.loading=true;fetch('/api/enterprise-finance').then(async response=>{const data=await response.json();if(!response.ok)throw Error(data.error||'Financed execution unavailable');state.data=data;state.inputs=data.case_inputs[state.selection];}).catch(error=>state.error=error.message).finally(()=>{state.loading=false;if(activeView==='customer')render();});}
+ const opening=`<section id="enterprise-finance"><h3>Dated finance, service interruption and cash recovery</h3>`;
+ if(!state.data)return opening+empty(state.error||'Calculating financed execution…')+'</section>';
+ const r=state.current||state.data.cases[state.selection],f=r.finance,x=state.inputs||state.data.case_inputs[state.selection],c=f.consolidation;
+ const focus=r.enterprise.inputs.businesses.find(b=>b.operator_id==='entrant')||r.enterprise.inputs.businesses[0];
+ const header=opening+notice(esc(`Synthetic financed execution: ${r.plan.months} months in ${r.enterprise.inputs.market.work_id}. The monthly table follows operator ${focus.operator_id}; headline cash totals include all loans. Loans require funded counterparties. Annual paths and intelligence architectures remain separate pending explicit bridges.`));
+ const cents=v=>'$'+fmt(v/100,2),number=v=>v.numerator/v.denominator;
+ const rows=f.months.map((m,i)=>{const loans=m.loans.filter(l=>l.borrower===focus.actor_id),sum=key=>loans.reduce((n,l)=>n+l[key],0),service=r.enterprise.months[i],entry=service.operators.find(o=>o.operator_id===focus.operator_id);return {month:m.month,service:number(entry.total_delivered_units),market:number(service.total_delivered_units),cash:r.months[i].closing_cash_cents[focus.actor_id],principal:sum('principal_outstanding_cents'),due:sum('principal_due_cents'),interest:sum('interest_due_cents'),halted:m.halted_actors.includes(focus.actor_id)};});
+ const fields=[['entrant_cash_cents','Entrant opening cash, USD','money'],['loan_cents','Loan amount, USD','money'],['lender_cash_cents','Lender opening cash, USD','money'],['draw_month','Draw month (0–7)','integer'],['maturity_month','Maturity month (1–48)','integer'],['monthly_rate_basis_points','Monthly rate, basis points','integer'],['rescue_equity_cents','Scheduled rescue equity, USD','money'],['rescue_equity_month','Rescue month (0–7)','integer'],['incumbent_procurement_month','Incumbent procurement month','integer'],['reinvestment_reserve_cents','Cash retained after later starts, USD','money']];
+ const selects=[['payment_priority','Payment order',['operations_then_debt','debt_then_operations']],['default_policy','After debt default',['suspend_until_cured','stop_permanently']],['principal_repayment_policy','Principal repayment',['partial_allowed','full_or_nothing']]];
+ const controls=state.imported?'<p>Complete saved inputs were replayed. Choose a recorded witness to edit the standard controls; the imported full ledger remains exportable.</p>':`<details><summary>Edit dated finance assumptions</summary><div class="grid">${fields.map(([key,label,kind])=>`<label>${esc(label)}<input data-finance-key="${key}" data-finance-kind="${kind}" type="number" min="0" step="${kind==='money'?'.01':'1'}" value="${kind==='money'?x[key]/100:x[key]}"></label>`).join('')}${selects.map(([key,label,values])=>`<label>${esc(label)}<select data-finance-key="${key}" data-finance-kind="choice">${values.map(v=>`<option value="${v}" ${x[key]===v?'selected':''}>${esc(title(v))}</option>`).join('')}</select></label>`).join('')}<label>Customer-return attempt month<select data-finance-key="response_month" data-finance-kind="optional-integer"><option value="none" ${x.response_month===null?'selected':''}>No scheduled return</option>${Array.from({length:8},(_,i)=>`<option value="${i}" ${x.response_month===i?'selected':''}>${i}</option>`).join('')}</select></label></div>${[['delayed_receipts','Four-month collection lag for entrant work billed from month 3'],['later_start_candidate','Offer one additional paid assembly start in month 3']].map(([key,label])=>`<label><input type="checkbox" data-finance-key="${key}" data-finance-kind="boolean" ${x[key]?'checked':''}> ${esc(label)}</label>`).join('')}<p><button id="apply-finance">Apply financed execution</button></p></details>`;
+ return header+`<label>Financing witness<select id="finance-case">${Object.keys(state.data.cases).map(k=>`<option value="${k}" ${state.selection===k?'selected':''}>${esc(title(k))}</option>`).join('')}${['custom','imported'].includes(state.selection)?`<option value="${state.selection}" selected>${state.imported?'Imported replay':'Custom assumptions'}</option>`:''}</select></label>`+controls+
+ `<p id="finance-input-state" role="status" class="small">${esc(state.error||'Displayed/exported results use the last applied case. All rates and contract terms are assumptions.')}</p><div class="grid">${metric('Loan cash received',cents(c.loan_draw_cash_cents),'A commitment without lender funds supplies no cash')}${metric('Principal recovered / still owed',cents(c.principal_recovery_cash_cents)+' / '+cents(c.closing_principal_claim_cents),'Maturity outside the horizon leaves the claim outstanding')}${metric('First tracked operator debt default',Object.hasOwn(f.first_debt_default_month,focus.actor_id)?'Month '+f.first_debt_default_month[focus.actor_id]:'None','A stopped operator retains its assets, assignments and unpaid obligations')}</div>`+
+ table(rows,[['month','Month',v=>fmt(v),true],['service','Tracked operator service',v=>fmt(v,2),true],['market','Whole market',v=>fmt(v,2),true],['cash','Operator cash',cents,true],['principal','Principal owed',cents,true],['due','Principal due',cents,true],['interest','Interest due',cents,true],['halted','Debt policy halts service',v=>v?'Yes':'No']])+
+ `<details><summary>Trace equations, assumed inputs and payment policy</summary>${table(f.metric_lineage,[['metric','Metric',esc],['equation','Equation / rule',esc],['inputs','Input lineage',esc],['implementation','Calculation',esc],['basis','Evidence or assumption',esc]])}<pre>${esc(JSON.stringify({finance_inputs:f.inputs,interest_lines:f.interest_lines,consolidation:f.consolidation,source_sha256:r.source_sha256},null,2))}</pre></details><details><summary>Compare the ${state.data.summary.length} financed worlds</summary>`+
+ table(state.data.summary,[['case','World',v=>esc(title(v))],['entrant_delivered_units','Entrant service',v=>fmt(number(v),2),true],['principal_recovered_cents','Principal recovered',cents,true],['principal_outstanding_cents','Principal still owed',cents,true],['total_started_robots','Starts',v=>fmt(v),true]])+
+ `</details><details><summary>Full physical, customer, invoice, credit and cash replay</summary><pre>${esc(JSON.stringify(r,null,2))}</pre></details><p><button id="export-finance">Export financed case</button> <label>Reload financed case<input id="import-finance" type="file" accept="application/json,.json"></label></p><p class="small">Case ${esc(r.case_hash.slice(0,14))}. Cash recovery does not sell or repossess assets. Later starts are declared candidates, gated by actual funds and the reserve; no autonomous investment optimum is claimed. <a href="/model/ENTERPRISE_FINANCE.md" target="_blank">Methods and boundaries ↗</a></p></section>`;
+}
+
+function buildFinanceEvents(){
+ const fail=message=>{financeState.error=message+' Display and export retain the last valid case.';if($('finance-input-state'))setText('finance-input-state',financeState.error);};
+ const calculate=async(body,selection,id)=>{
+  if($('finance-input-state'))setText('finance-input-state','Calculating dated finance and delivered service…');
+  try{
+   const response=await fetch('/api/enterprise-finance',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await response.json();
+   if(id!==financeState.requestId)return;
+   if(!response.ok)throw Error(data.error||'Calculation failed');
+   financeState.current=data.result;financeState.inputs=data.inputs;financeState.selection=selection;financeState.imported=selection==='imported';
+   financeState.error=body.saved_case&&body.saved_case.case_hash!==data.result.case_hash?'Replayed with current source. The saved historical case hash differs.':'';
+   if(activeView==='customer')render();
+  }catch(error){if(id===financeState.requestId)fail(error.message);}
+ };
+ document.addEventListener('click',e=>{
+  if(e.target.id==='export-finance'&&financeState.data){const r=financeState.current||financeState.data.cases[financeState.selection];download('financed-enterprise-'+r.case_hash.slice(0,10)+'.json',JSON.stringify(r,null,2),'application/json');}
+  if(e.target.id!=='apply-finance')return;
+  const id=++financeState.requestId;
+  try{
+   const inputs={};
+   for(const field of document.querySelectorAll('#enterprise-finance [data-finance-key]')){
+    const kind=field.dataset.financeKind,key=field.dataset.financeKey,raw=field.value.trim();
+    if(kind==='boolean'){inputs[key]=field.checked;continue;}
+    if(kind==='choice'){inputs[key]=raw;continue;}
+    if(kind==='optional-integer'&&raw==='none'){inputs[key]=null;continue;}
+    if(kind==='money'){
+     if(!/^\d+(\.\d{1,2})?$/.test(raw))throw Error('Cash requires nonnegative USD with at most two decimals.');
+     const parts=raw.split('.');inputs[key]=Number(parts[0])*100+Number((parts[1]||'').padEnd(2,'0'));
+    }else{if(!/^\d+$/.test(raw))throw Error('Months and basis points require nonnegative integers.');inputs[key]=Number(raw);}
+    if(!Number.isSafeInteger(inputs[key]))throw Error('Input exceeds the supported integer range.');
+   }
+   calculate({inputs},'custom',id);
+  }catch(error){fail(error.message);}
+ });
+ document.addEventListener('change',async e=>{
+  if(e.target.id==='finance-case'&&financeState.data&&Object.hasOwn(financeState.data.cases,e.target.value)){
+   ++financeState.requestId;financeState.selection=e.target.value;financeState.inputs=financeState.data.case_inputs[e.target.value];financeState.current=null;financeState.error='';financeState.imported=false;render();
+  }
+  if(e.target.id==='import-finance'){
+   const id=++financeState.requestId;
+   try{const file=e.target.files[0];if(!file)return;const saved=JSON.parse(await file.text());if(id===financeState.requestId)await calculate({saved_case:saved},'imported',id);}
+   catch(error){if(id===financeState.requestId)fail('Import error: '+error.message);}
+  }
+ });
+ document.addEventListener('input',e=>{if(e.target.dataset.financeKey&&$('finance-input-state'))setText('finance-input-state','Edits are pending. Apply to recompute; export still contains the displayed case.');});
 }
 
 function sharedEnterprisePanel(){
@@ -308,7 +376,7 @@ const renderers={
   `<div class="grid">${metric('Validation cash this year',money(y.learning_validation_cash_usd),'Whole-portfolio reference pool')}${metric('Transfer coefficient',fmt(result.parameters.learning_transfer,2),'Scenario only; no added data-value premium')}</div>`+
   table(selectedRows(),[['cell_id','Cell',v=>esc(cellLabel(v))],['learning_increment','Applied capability increment',v=>fmt(v,4),true],['capability','Resulting capability',v=>fmt(v,3),true]])+
   docs(/learning_data_economics|coordination_reproducibility/)+evidenceSection(/transfer_edges|learning_relationships|coordination_archetypes|direct_contribution|contribution_maps|interface_ledger/,null,35)+`<h3>Learning-data economics: bounded source evidence</h3>`+evidenceSection(/^evidence$/,/learning_data_economics/,8);},
- customer(){const n=result.newco;return sharedEnterprisePanel()+napkinComparison()+regionalDeployments()+`<div class="card"><h3>${esc(result.customer_mechanisms.label)}</h3><p>${esc(result.customer_mechanisms.explanation)}</p>${table([result.customer_mechanisms],[['ready_delay_years','Approval delay, years'],['authority_sites','Sites under authority / 12'],['site_cash_limit_usd','Site cash ceiling',money],['implementation_sites_year','Implementation sites/year'],['max_payback_years','Maximum payback']])}</div>`+
+ customer(){const n=result.newco;return financePanel()+sharedEnterprisePanel()+napkinComparison()+regionalDeployments()+`<div class="card"><h3>${esc(result.customer_mechanisms.label)}</h3><p>${esc(result.customer_mechanisms.explanation)}</p>${table([result.customer_mechanisms],[['ready_delay_years','Approval delay, years'],['authority_sites','Sites under authority / 12'],['site_cash_limit_usd','Site cash ceiling',money],['implementation_sites_year','Implementation sites/year'],['max_payback_years','Maximum payback']])}</div>`+
   evidenceSection(/adopter|profile|entry_cases|customer_cases|organization|pathways/,/customer/,12)+
   `<details><summary>Historical independent ENTRY-FG-01 reference</summary><h3>ENTRY-FG-01 · earlier independent illustration</h3>`+notice('This historical fixed floor-service reference case (CELL-M11), with normalized accepted service bundles/month. It is not added to the annual six-cell fleet denominator. Identical robot technology and terms are available to the incumbent.',true)+
   `<div class="grid">${metric('Formation + asset cash at t0',money(n.upfront_usd),'Build/acquire/hybrid changes cash, not underlying demand')}${metric('Peak funding need',money(n.peak_funding_required_usd),'Includes overhead, ramp and receivables')}${metric('Unfunded amount',money(n.funding_gap_usd),'First unfunded month: '+(n.first_unfunded_month??'none'))}</div>`+
@@ -393,7 +461,7 @@ async function init(){
  try{const response=await fetch('/api/catalog');boot=await response.json();if(!response.ok)throw Error(boot.error||'Accepted evidence catalog unavailable');
  for(const pack of boot.evidence_packages){if(!pack.data)continue;for(const [key,value]of Object.entries(pack.data)){if(Array.isArray(value))value.filter(v=>v&&typeof v==='object').forEach(v=>allRecords.push({key,value:v,path:pack.path}));}}
  allRecords.filter(x=>x.key==='evidence').forEach(r=>evidenceById.set(r.value.evidence_id,r));
- buildControls();buildFacets();const statuses=[...new Set(allRecords.filter(x=>x.key==='evidence').map(x=>recordStatus(x.value)).filter(x=>typeof x==='string'))].sort();$('status-filter').innerHTML+='<optgroup label="Saved provenance/status labels">'+statuses.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')+'</optgroup>';
+ buildControls();buildFinanceEvents();buildFacets();const statuses=[...new Set(allRecords.filter(x=>x.key==='evidence').map(x=>recordStatus(x.value)).filter(x=>typeof x==='string'))].sort();$('status-filter').innerHTML+='<optgroup label="Saved provenance/status labels">'+statuses.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')+'</optgroup>';
  $('controls').addEventListener('input',e=>{const k=e.target.dataset.parameter;if(k&&$('v-'+k))$('v-'+k).textContent=fmt(Number(e.target.value),3);});
  $('controls').addEventListener('change',e=>{const k=e.target.dataset.parameter;if(k){overrides[k]=boot.choices[k]?e.target.value:Number(e.target.value);comparisonResults=null;run();}});
  $('preset').addEventListener('change',()=>{overrides={};digitalPaths=null;architectureOverrides=null;comparisonResults=null;run();});$('reset').addEventListener('click',()=>{overrides={};digitalPaths=null;architectureOverrides=null;comparisonResults=null;run();});

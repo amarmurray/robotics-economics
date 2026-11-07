@@ -78,13 +78,13 @@ The monthly enterprise case already shares actual physical cohorts, customer ass
 | Reinvestment | Allow new starts only after operating/support and policy reserves, and after actual available funds pay the required obligations. | Reinvesting accounting profit or all future receivables before collection |
 | Entry and ownership | Transfer existing customer assignments/assets and pay purchase/transition obligations for acquisition; create genuinely new demand only in a separate input. Hold technology access equal under prompt/delayed response. | Acquisition producing market growth or one demand unit served by both firms |
 
-These rules are implementation acceptance conditions, not a claim that the bridges now exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
+The finance contract now has a bounded implementation in [financed execution](financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. Unit/calendar/cohort/architecture integration, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
 
 ## Counterfactual challenge set
 
-The following names reserve the intended challenge coverage. **They are not yet newly implemented replays.** Existing separate annual, commercial and shared-enterprise witnesses remain executable within their narrower scopes. A future counterfactual counts toward this campaign only when it has complete inputs, source hashes, named outputs, exact replay and the relevant invariants.
+The following names track intended challenge coverage. **DE-CF11 and DE-CF12 now have bounded implementations; the other twelve remain reserved.** Fourteen complete source-hashed worlds in [enterprise_finance.json](../model/results/enterprise_finance.json) challenge funding, maturity, cash recovery and declared candidate reinvestment. They cover two families and do not establish broad campaign coverage simply by exceeding twelve rows. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
 
-| Reserved case | Intervention and decision test |
+| Challenge family | Intervention and decision test |
 | --- | --- |
 | DE-CF01 retained-paid-shift | Released task time cannot remove the smallest required paid coverage commitment |
 | DE-CF02 urgent-human-fallback | Routine-robot eligibility leaves urgent work and staffed fallback intact |
@@ -96,11 +96,11 @@ The following names reserve the intended challenge coverage. **They are not yet 
 | DE-CF08 architecture-and-fees | Four intelligence architectures change resource burdens, rights eligibility and actor transfers at matched service |
 | DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
 | DE-CF10 support-before-expansion | Installed-fleet support consumes resources otherwise available to additions |
-| DE-CF11 funding-maturity-recovery | Delayed funding/collections and maturity trigger a declared default, cure or recovery path |
-| DE-CF12 funded-reinvestment | Expansion follows collected funds and reserves rather than reported margin |
+| DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
+| DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
 | DE-CF13 digital-human-catches-up | Improved human scheduling changes the robot increment and entrant advantage |
 | DE-CF14 no-learning-no-transfer | Capability gains disappear or stay local while collection/validation obligations remain explicit |
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the exact service/finance execution bridge and strong conventional coordination comparison. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
+The next substantive work is exact work-unit/calendar/cohort/architecture-cost integration and the strong conventional coordination comparison. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.

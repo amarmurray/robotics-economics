@@ -26,6 +26,10 @@ Before accepted publication, run the relevant full Python/Node checks, bridge pa
 
 Use the week for evidence, integration and challenge. Save resumable state at checkpoints. Do not pad work, busy-poll, sleep until the deadline, or imply uninterrupted execution. At 168 hours deliver the strongest verified edition with passed/partial/blocked criteria and explicit remaining work. An early checkpoint does not stop the objective.
 
+## Current bounded implementation
+
+Edition 0.14 adds [dated financed execution](research/financed_execution.md) inside the existing monthly loop. Fourteen replayable worlds implement two challenge families, DE-CF11/12. Exact interest/maturity, default/cure, cash recovery and funded declared starts now change service; asset recovery, autonomous investment and the broader bridge/counterfactual contract remain open. The [sole-writer review](reviews/enterprise_finance_review.md) records fresh checks and preserved prior outputs. This checkpoint does not alter the clock or complete the objective.
+
 ## Operating constraints and usage
 
 Continue public-source CPU research and the existing private publication workflow. No outreach, public issues/comments, spending, credentials, GPU/model/robot runs, public hosting, other-repository changes, force pushes, automatic divergence merges or edits to the preserved Mac checkout. Only the affected action stops when blocked; independent permitted research continues.

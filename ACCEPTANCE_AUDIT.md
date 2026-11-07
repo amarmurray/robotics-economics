@@ -1,6 +1,14 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: initial checkpoint, edition 0.13
+## New decision campaign: financed execution, edition 0.14
+
+The campaign remains active through **2026-11-14T20:12:27Z**. Dated financing now changes service in the existing monthly loop: funded draws, exact interest, maturity, explicit default/cure, cash recovery and a reserve on declared later starts. Fourteen complete worlds implement bounded **DE-CF11/12**, including a one-cent support-funding boundary. They cover two families; they do not satisfy the full breadth requirement merely by exceeding twelve rows. Asset recovery/redeployment, autonomous investment, acquisition transitions, annual/intelligence bridges and the strong conventional comparator remain incomplete.
+
+Fresh checks pass: **215 Python tests**, including 18 finance tests and 24 seeded adverse worlds; **36 JavaScript assertions** and syntax; strict evidence validation; physical extraction/summary; frontier and finance export checks. All thirteen browser views, finance recomputation, invalid/stale requests, source/lineage inspection and complete export/reload pass without observed JavaScript/API errors. See [the sole-writer finance review](reviews/enterprise_finance_review.md), which separates implementation checks from empirical qualification.
+
+The evidence package remains at 13 packages, 186 claims, 366 reported quantities and 104 explicit-null markers. All 140,231 typed numeric fields in 21 earlier JSON artifacts and original assumptions remain unchanged. All 69 legacy requirement statuses and 65 question statuses are preserved; the original count is still **53 bounded met / 16 partial**. New campaign finance, counterfactual and dashboard criteria advance within `partial`, with gaps explicit. The report, thesis, roadmap, question ledger, methods and dashboard are coherent at this checkpoint. No goal-completion or uninterrupted-execution claim is made.
+
+## Previous decision checkpoint, edition 0.13
 
 The new 168-hour campaign is active through **2026-11-14T20:12:27Z**. The initial six-cell review and three packs expose service, support, payroll, supply and rights gates. Two adverse claims are added with source-role limits. Strict evidence validation passes: **13 packages, 186 claims, 366 reported quantities, 104 explicit-null quantity markers, zero errors/warnings**. Fifteen new null markers preserve absent pack-level economics; they are not zero-cost assumptions.
 
@@ -109,7 +117,7 @@ Nine new tests and browser source/right/operator checks pass. All 130,535 numeri
 | --- | --- |
 | Empirical deployment economics | Full accepted-output exposure, intervention/support, retention, negotiated terms and avoidable staffing remain missing in most cells. No calibrated TAM, ROI ranking or payroll-removal estimate is justified. |
 | Benchmarks and digital integration | Some budgets, immutable harness/interface pins and complete cost/latency methods remain unextracted. Paused simulation and successful-episode cost cannot establish physical service economics. |
-| Shared finance | Annual capital envelopes constrain the fleet but refresh exogenously. One-site lifecycle cash is reconciled; monthly sale/lease/service contracts share physical and cash ledgers. One common entrant demand and enterprise-cash case now reconciles. Scheduled debt servicing/maturity, full company default/recovery, endogenous reinvestment and annual/architecture integration remain incomplete. |
+| Shared finance | Annual capital envelopes constrain the fleet but refresh exogenously. One-site lifecycle cash is reconciled; monthly sale/lease/service contracts share physical and cash ledgers. One common entrant demand and enterprise-cash case now reconciles; dated loans/interest/maturity, explicit default/cure, cash recovery and declared later-start reserves execute inside it. Asset recovery/redeployment, restructuring, autonomous investment and annual/architecture integration remain incomplete. |
 | Customer entrant | The new shared case books actual commissioned robots, customer assignments and cash once. Historical ENTRY-FG-01 and annual cleaning-zone activity remain separate; empirical retention/qualification, build/acquire/hybrid integration and broader demand remain incomplete. |
 | Deployment/control | Fractional annual cohorts remain a continuous relaxation. An isolated integer monthly plan now tests exact phases; portfolio scheduling, queue/congestion and correlated operational failures remain unmodeled. |
 | Learning/R&D | Optional same-configuration transfer is an unvalidated hypothesis with explicit costs. No causal cross-embodiment curve or fixed-objective R&D critical-path model is established. |

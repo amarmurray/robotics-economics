@@ -1,8 +1,8 @@
 # Robotics Economics — integrated research report
 
-Edition 0.13, initial checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. The report now reassesses all six deep cells and develops hospital, utility and automotive decision packs with accepted-service boundaries, retained work, unknown costs and provisional proceed/wait/reject gates. New adverse worker and fleet-retirement evidence is explicitly attributed. The monthly/annual/intelligence-architecture bridges and counterfactual challenge set are specified but not yet implemented together. All earlier research remains integrated. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.14, financed-execution checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Funded loan draws, interest, maturity, default/cure and cash recovery now affect actual supported service inside the existing monthly physical/customer/Treasury loop. Fourteen replayable synthetic worlds cover two financing/reinvestment challenge families, including a one-cent service-funding boundary. The six-cell review, three decision packs and all earlier research remain integrated. Annual/intelligence-architecture bridges, acquisition transitions, asset recovery and the broader challenge coverage remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The new decision review also retrieved its two adverse sources on 7 November. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
 The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
@@ -193,13 +193,13 @@ The monthly enterprise case already shares actual physical cohorts, customer ass
 | Reinvestment | Allow new starts only after operating/support and policy reserves, and after actual available funds pay the required obligations. | Reinvesting accounting profit or all future receivables before collection |
 | Entry and ownership | Transfer existing customer assignments/assets and pay purchase/transition obligations for acquisition; create genuinely new demand only in a separate input. Hold technology access equal under prompt/delayed response. | Acquisition producing market growth or one demand unit served by both firms |
 
-These rules are implementation acceptance conditions, not a claim that the bridges now exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
+The finance contract now has a bounded implementation in [financed execution](research/financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. Unit/calendar/cohort/architecture integration, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
 
 #### Counterfactual challenge set
 
-The following names reserve the intended challenge coverage. **They are not yet newly implemented replays.** Existing separate annual, commercial and shared-enterprise witnesses remain executable within their narrower scopes. A future counterfactual counts toward this campaign only when it has complete inputs, source hashes, named outputs, exact replay and the relevant invariants.
+The following names track intended challenge coverage. **DE-CF11 and DE-CF12 now have bounded implementations; the other twelve remain reserved.** Fourteen complete source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) challenge funding, maturity, cash recovery and declared candidate reinvestment. They cover two families and do not establish broad campaign coverage simply by exceeding twelve rows. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
 
-| Reserved case | Intervention and decision test |
+| Challenge family | Intervention and decision test |
 | --- | --- |
 | DE-CF01 retained-paid-shift | Released task time cannot remove the smallest required paid coverage commitment |
 | DE-CF02 urgent-human-fallback | Routine-robot eligibility leaves urgent work and staffed fallback intact |
@@ -211,14 +211,14 @@ The following names reserve the intended challenge coverage. **They are not yet 
 | DE-CF08 architecture-and-fees | Four intelligence architectures change resource burdens, rights eligibility and actor transfers at matched service |
 | DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
 | DE-CF10 support-before-expansion | Installed-fleet support consumes resources otherwise available to additions |
-| DE-CF11 funding-maturity-recovery | Delayed funding/collections and maturity trigger a declared default, cure or recovery path |
-| DE-CF12 funded-reinvestment | Expansion follows collected funds and reserves rather than reported margin |
+| DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
+| DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
 | DE-CF13 digital-human-catches-up | Improved human scheduling changes the robot increment and entrant advantage |
 | DE-CF14 no-learning-no-transfer | Capability gains disappear or stay local while collection/validation obligations remain explicit |
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the exact service/finance execution bridge and strong conventional coordination comparison. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
+The next substantive work is exact work-unit/calendar/cohort/architecture-cost integration and the strong conventional coordination comparison. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1072,6 +1072,83 @@ This common ledger should now be constrained with consequential observed evidenc
 | additional equity | 8,105.00 | 385.00 | 1 | 15,300.00 | 0.00 | 18,950.00 |
 
 Generated from [shared_enterprise.json](model/results/shared_enterprise.json). Rows are mutually exclusive worlds, not additive markets. Human and robot work reconcile in one accepted-bundle unit. The separate [fixed-policy funding search](model/results/enterprise_funding_bridge.json) finds 18,950.00 USD of additional upfront equity over 1,000.00 USD opening entrant cash; one cent less fails. These are synthetic cash-execution results, not profit, valuation, capital access or empirical penetration estimates.
+
+### Focused follow-up: Dated finance, service continuity and cash recovery
+
+Authoritative analysis: [research/financed_execution.md](research/financed_execution.md).
+
+Decision campaign checkpoint 0.14 · 7 November 2026 · Synthetic mechanism study, sole-writer review. [Methods, equations and replay](model/ENTERPRISE_FINANCE.md) and [complete experiment output](model/results/enterprise_finance.json) define the boundary. No quoted rate, available facility, legal priority, field result or observed return is inferred.
+
+The prior shared enterprise case connected manufacturing, commissioning, support, one customer-demand ledger and actor cash. This extension adds funded loan draws, monthly interest, maturity, cash recovery and an explicit operating response to default **inside that execution loop**. A financing change can now alter supported service in the same period; unpaid obligations, installed assets and customer assignments survive failure. The annual digital and intelligence-architecture calculators still require their own unit/time/cohort/cost bridges, so this is a consequential intermediate result, not a completed unified deployment model.
+
+#### The maturity boundary
+
+The reference entrant begins with $1,000 cash and draws an invented $25,000 loan at month 0 from a separately funded lender. The assumed rate is 1% of opening principal per month, charged in arrears, and maturity is month 7. All other service, lease, staffing and customer-response terms retain the common eight-month experiment. This is neither an annual percentage quote nor a financing recommendation.
+
+The entrant delivers 355 accepted synthetic bundles over eight months. At maturity it pays $19,700 principal after the declared ordinary obligations and interest, leaving $5,300 principal owed. Default then blocks the final month's service. Moving maturity to month 12 allows 385 bundles during the observed horizon, but leaves the full $25,000 principal claim outstanding. A higher end-horizon cash balance or more service in the second world does not demonstrate a more sustainable business: the liability simply falls beyond the cut.
+
+The distinction between paying debt and funding service is sharper than a single solvency label:
+
+| Additional funded month-0 equity | Principal owed at close | Final-month entrant service | Why |
+| --- | ---: | ---: | --- |
+| $5,300.00 | $0 | 0 bundles | Maturity can be paid, but the remaining support booking is unfunded |
+| $5,399.99 | $0 | 0 bundles | $99.99 remains; the required $100 prepaid support booking cannot settle |
+| $5,400.00 | $0 | 30 bundles | The same physical unit and customer assignment now have funded support |
+
+This one-cent pair changes neither demand nor the robot stock. It is a threshold in a declared full-or-nothing booking policy, not a universal minimum capitalization or an optimal capital structure. The final delivered work also creates future receipts and obligations beyond the horizon. Passing this boundary does not establish indefinite survival or profit.
+
+#### Recovery, cure and continuing obligations
+
+With maturity moved to month 3, the entrant supplies only its 25 ramp-period bundles before debt policy stops further service. Cash recovery returns $5,400 of principal by the horizon and preserves the remaining $19,600 claim, plus unpaid interest. No asset is sold, no customer automatically returns to the incumbent, and no liability is discarded. Under the lease contract, the robot already belongs to the independent lessor; silently giving it to the working-capital lender would double-pledge value the borrower does not own.
+
+An explicit $40,000 investor payment in month 5 can settle the obligations. Under `suspend_until_cured`, the entrant resumes and delivers 185 bundles over the horizon. Under `stop_permanently`, the same funded debt cure leaves delivery at 25 bundles. Both recover the $25,000 principal and pay $1,142 interest. Their different output follows from the declared restart rule and continued customer assignments, not a hidden new fleet or a presumption about real insolvency law. This rescue amount is a witness, not a claimed smallest sufficient recapitalization.
+
+Payment priority matters separately. Servicing debt before ordinary mandatory obligations raises principal recovery in the early-maturity world from $5,400 to $9,150, while preserving total system cash. The difference reallocates cash and unpaid obligations; it is not new productive value. Full-or-nothing principal repayment instead preserves the entire $25,000 principal claim in the contrasting case. A creditor's recovery metric and a customer's uninterrupted-service metric therefore need not rank policies identically.
+
+A scheduled draw also depends on the lender. With no lender funds, the commitment supplies no cash, principal claim or interest and the entrant delivers nothing. When the funded draw moves to month 2, the entrant misses the earlier allocation opportunity: all three month-1 shipments go to the incumbent, whose five installed units then occupy the support capacity. Later shipment attempts fail the future-support-slot gate, and the final attempt falls outside the commissioning horizon. Formation obligations can be paid later, but that does not reverse the earlier allocation. The delayed world delivers no entrant output and leaves 7,720 total market bundles, below the 8,000 original human-served baseline. Customer assignment moves before the entrant supplies service; unserved transferred work is not automatically restored. This is a joint timing/allocation/support result, not a general effect size for financing delay.
+
+#### Funded expansion can still be unproductive
+
+A declared additional assembly candidate in month 3 can consume $36,000 and add a sixth start. It produces no additional accepted service within this experiment's demand/support/allocation conditions. A policy retaining $180,000 of provider cash after later starts blocks that candidate and preserves the five-start path. The reserve is an explicit synthetic assumption, not a measured covenant or a selected optimum.
+
+The result distinguishes three questions: is the investment technically possible, is the required cash available now, and does the extra asset improve useful service over the decision horizon? The reserve rule handles the second; it does not solve the third. A good reinvestment policy ultimately needs the service/learning value and future support/obligation forecast, with no duplicate data premium. More starts or more money raised are not themselves evidence of a better deployment strategy.
+
+#### Implications for the three decision packs
+
+For hospital logistics, a financed asset does not remove urgent fallback, escort or paid coverage. A missed support booking could interrupt a real obligation, so the service agreement needs funded continuity and an explicit fallback/restart process before a labor-removal claim. The synthetic floor bundle is not a hospital delivery or a clinical-risk estimate.
+
+For utility inspection, debt policy must preserve the difference between an interrupted monitoring service and a missed mandatory inspection. Cash recovery is not recovery of site access, accepted measurements or the right to reuse a dataset. An asset-return policy would need title, access, transport, qualified redeployment and residual demand; none is assumed here. A mandatory retained human visit remains paid independently of financing.
+
+For automotive presentation, maturity and upgrade/support dates can be compared only against the exact generation and takt obligation. A temporary funding advantage does not make a successor available or qualify it on a line. Supplier retirement evidence motivates explicit replacement/support scenarios but supplies no numerical loan or salvage input. Fixed automation and the improving digital-human process remain competing uses of capital.
+
+Customer, provider, lessor and working-capital lender occupy different boundaries. Loan principal is not customer revenue; interest is not an extra physical resource expense on top of lender cash. The consolidated execution eliminates internal commercial transfers and displays outside financing separately. Whole-system economics, debt-service liquidity and the continuity of accepted service remain distinct outcomes.
+
+#### Acceptance and next challenge
+
+Fourteen named financing worlds develop two of the campaign's reserved families: DE-CF11 and DE-CF12. They do not satisfy the required breadth of service/payroll, entry/acquisition, commercial/intelligence architecture, supply, coordination and learning counterfactuals. Model parity, ledger conservation, adverse and seeded witnesses, exact replay and UI controls are reviewed separately; source evidence remains uncalibrated and all original evidence nulls remain intact.
+
+The next work is to join accepted work units, calendar levels, actual cohorts and intelligence-architecture cost obligations without adding lifetime allocations to already-paid investment. In parallel, the H challenge needs a strong conventional coordination comparator under the same information, deadlines, qualified resources and execution authority. Asset recovery/redeployment, acquisition transitions and optimized investment remain open. This early checkpoint preserves the active 168-hour campaign rather than ending it.
+
+#### Reproduced financed-execution worlds
+
+| Synthetic financed world | Entrant bundles, 8 months | First debt default month | Principal recovered, USD | Principal still owed, USD | Interest still owed, USD | Starts |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| term reference | 355.00 | 7 | 19,700.00 | 5,300.00 | 0.00 | 5 |
+| lender unfunded | 0.00 | None | 0.00 | 0.00 | 0.00 | 5 |
+| delayed draw | 0.00 | 7 | 750.00 | 24,250.00 | 0.00 | 5 |
+| early maturity cash recovery | 25.00 | 3 | 5,400.00 | 19,600.00 | 784.00 | 5 |
+| early maturity funded cure | 185.00 | 3 | 25,000.00 | 0.00 | 0.00 | 5 |
+| permanent stop after cure | 25.00 | 3 | 25,000.00 | 0.00 | 0.00 | 5 |
+| debt priority | 25.00 | 3 | 9,150.00 | 15,850.00 | 634.00 | 5 |
+| principal full or nothing | 25.00 | 3 | 0.00 | 25,000.00 | 600.00 | 5 |
+| maturity beyond horizon | 385.00 | None | 0.00 | 25,000.00 | 0.00 | 5 |
+| maturity paid service unfunded | 355.00 | None | 25,000.00 | 0.00 | 0.00 | 5 |
+| maturity service one cent short | 355.00 | None | 25,000.00 | 0.00 | 0.00 | 5 |
+| maturity and service funded | 385.00 | None | 25,000.00 | 0.00 | 0.00 | 5 |
+| reinvestment funded candidate | 355.00 | 7 | 19,700.00 | 5,300.00 | 0.00 | 6 |
+| reinvestment reserve blocks | 355.00 | 7 | 19,700.00 | 5,300.00 | 0.00 | 5 |
+
+Generated from [enterprise_finance.json](model/results/enterprise_finance.json). These are mutually exclusive worlds in the same synthetic floor-service unit, not additive activity or empirically calibrated decision packs. No debt default does not ensure funded support. Cash recovery preserves remaining claims and does not sell assets. Fourteen worlds implement bounded DE-CF11/12 mechanisms; they do not satisfy the campaign requirement for broad counterfactual coverage.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

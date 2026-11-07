@@ -1137,7 +1137,12 @@
         "research/shared_enterprise_finance.md",
         "reviews/shared_enterprise_review.md",
         "reviews/napkin_workflow_review.md",
-        "research/customer_value.md"
+        "research/customer_value.md",
+        "model/enterprise_finance.py",
+        "model/ENTERPRISE_FINANCE.md",
+        "model/results/enterprise_finance.json",
+        "research/financed_execution.md",
+        "reviews/enterprise_finance_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
@@ -1146,11 +1151,12 @@
         "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete.",
         "monthly_commercial": "Stage3 reuses physical and Treasury engines for sale/lease/provider-service contracts. Ten witnesses and saved-input replay verify price transfers, title/custody, support/arrears and refunds. Sole-lead review; common entrant demand and full company funding schedules remain open.",
         "shared_enterprise": "Eight shared-market worlds and interactive controls link actual physical cohorts, human shifts, customer assignments, due obligations, delivered-work invoices and funded equity. 22 focused tests, full API/CLI/browser replay and a fixed-policy funding boundary pass under sole-lead review.",
-        "current_review": "reviews/shared_enterprise_review.md",
-        "napkin_cloud_continuation": "Customer cash, provider cash/resources and consolidated resources are separately specified for napkin service. Unknown prices, paid schedules, rights, ramp and financing do not calibrate the shared model or close its remaining finance gaps."
+        "current_review": "reviews/enterprise_finance_review.md",
+        "napkin_cloud_continuation": "Customer cash, provider cash/resources and consolidated resources are separately specified for napkin service. Unknown prices, paid schedules, rights, ramp and financing do not calibrate the shared model or close its remaining finance gaps.",
+        "financed_execution": "model/ENTERPRISE_FINANCE.md; research/financed_execution.md; reviews/enterprise_finance_review.md. Fourteen synthetic worlds add funded draws, interest, maturity, default/cure, cash recovery and funded candidate starts inside the existing loop."
       },
-      "gap": "Scheduled debt servicing/maturity, autonomous reinvestment, full default/recovery, cross-cell portfolio finance, annual/K cost bridges and empirical cost/qualification remain incomplete.",
-      "next_action": "Constrain the shared case with consequential source evidence; implement remaining loan/reinvestment and broader portfolio contracts without treating unobserved terms as calibrated."
+      "gap": "Asset recovery/redeployment, autonomous reinvestment, broader portfolio finance, annual/K cost bridges and empirical cost/qualification remain incomplete.",
+      "next_action": "Implement consequential unit/time/cohort/architecture bridges and constrain the model with matched evidence; preserve actual cash and retained obligations in acquisition/recovery extensions."
     },
     {
       "requirement_id": "W1-REPORT",
@@ -1511,8 +1517,8 @@
       {
         "requirement_id": "DE-04",
         "requirement": "Interest, maturity, funded reinvestment, default and recovery",
-        "status": "not_started",
-        "finding": "Existing Treasury/enterprise execution is the base; new policies not implemented."
+        "status": "partial",
+        "finding": "Funded loan draws, exact opening-principal interest, dated maturity, default/cure, actual cash recovery and a reserve on declared later starts now execute in the shared loop. Asset sale/redeployment, restructuring and autonomous investment remain incomplete."
       },
       {
         "requirement_id": "DE-05",
@@ -1535,8 +1541,8 @@
       {
         "requirement_id": "DE-08",
         "requirement": "At least twelve named exact counterfactual replays with switches",
-        "status": "not_started",
-        "finding": "Fourteen names and falsification intents reserved; none counted as newly implemented."
+        "status": "partial",
+        "finding": "Fourteen complete replayable worlds cover two families, DE-CF11/12, including a one-cent support-funding threshold. The other twelve families and broad recommendation switches remain unimplemented; row count alone does not satisfy coverage."
       },
       {
         "requirement_id": "DE-09",
@@ -1548,13 +1554,13 @@
         "requirement_id": "DE-10",
         "requirement": "Full report, thesis, all thirteen views, lineage and replay",
         "status": "partial",
-        "finding": "Decision panel and evidence gates integrated; new computed metrics and integrated export/reload not yet implemented."
+        "finding": "Finance controls recompute, seven lineage records and complete export/replay accompany the report/thesis and existing thirteen views. Full unit/calendar/architecture integration remains open."
       },
       {
         "requirement_id": "DE-11",
         "requirement": "Full validation, conservation, adverse/seeded checks and publication",
         "status": "partial",
-        "finding": "Initial checkpoint: 196 Python tests, 36 JavaScript assertions, all 13 browser views and source/filter/stale/export checks pass; 140231 saved numeric fields unchanged. Integrated bridge validation remains pending implementation."
+        "finding": "Financed checkpoint: 215 Python tests, 36 Node assertions, 24 seeded finance worlds, exact fourteen-world replay and all 13 browser views/control/stale/export checks pass. 140231 saved numeric fields are unchanged. Full bridge and broader challenge validation remain pending implementation."
       },
       {
         "requirement_id": "DE-12",

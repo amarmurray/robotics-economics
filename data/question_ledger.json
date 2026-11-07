@@ -204,7 +204,8 @@
         "Stage 1 checkpoint: An isolated immutable financial core now executes exact settlement/reservation/deposit/credit witnesses. Monthly physical scheduling, shared entrant supply, reinvestment and observed financeability remain unimplemented or unverified.",
         "Stage 2 checkpoint: The isolated monthly fixture now couples paid starts, rejection, shipment, commissioning and supported output with integer identities. Static shared assignments pass conservation, but operator cash, commercial title contracts, competition and annual-engine integration remain absent.",
         "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
-        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access."
+        "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access.",
+        "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -225,7 +226,10 @@
         "model/results/shared_enterprise.json",
         "model/results/enterprise_funding_bridge.json",
         "research/shared_enterprise_finance.md",
-        "reviews/shared_enterprise_review.md"
+        "reviews/shared_enterprise_review.md",
+        "research/financed_execution.md",
+        "model/ENTERPRISE_FINANCE.md",
+        "model/results/enterprise_finance.json"
       ],
       "next_action": "Constrain the shared ledger with observed service/qualification/retention evidence; keep scheduled borrowing, reinvestment, recovery and annual/architecture integration open."
     },
@@ -523,7 +527,8 @@
         "CJ operator evidence illustrates data and requirements authority plus investment/co-development roles. It does not disclose capital/title/support/retention terms sufficient to calibrate newco or incumbent finance.",
         "Customer output/capacity gains do not by themselves establish paid labor avoided or fundable cash returns. Monster accounts and the Din Tai Fung reported target now supply bounded empirical counterparts for the questions in the shared synthetic case.",
         "Edition 0.12: A bundled Santa Clara job's advertised base pay cannot calibrate removable napkin payroll. Unknown paid schedules, prices, ramp and financing still block an empirical capital-return claim.",
-        "The new campaign specifies work-unit, calendar, cohort, architecture-cost and finance bridges. Existing monthly Treasury execution does not yet implement debt maturity, funded reinvestment or default/recovery."
+        "The new campaign specifies work-unit, calendar, cohort, architecture-cost and finance bridges. Existing monthly Treasury execution does not yet implement debt maturity, funded reinvestment or default/recovery.",
+        "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -551,7 +556,10 @@
         "data/frontier_model_economics.json",
         "reviews/napkin_workflow_review.md",
         "research/deployment_entry_decisions.md",
-        "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+        "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+        "research/financed_execution.md",
+        "model/ENTERPRISE_FINANCE.md",
+        "model/results/enterprise_finance.json"
       ],
       "next_action": "Use a new matched service log, actual staffing schedule or disclosed contract to test FG-CMP-03; stop at the documented public-source gaps and retain this question's original completion condition."
     },
@@ -619,12 +627,16 @@
       "dependencies_and_completion": "W1 rights-and-value map after DL-01 and FD-02 scope definition; joins OS-02. Disclosed terms or authorized evidence trigger deeper comparison.",
       "findings": [
         "Robot ownership, operational authority and improvement rights are separate; customer/provider/financier transfers cancel in consolidation.",
-        "Edition 0.12: BETA's licensed Corvina assistance and nonexpiring prepaid support hours do not establish a perpetual license, negotiated service commitment, data rights or terms for FOLDERIX/Dyna."
+        "Edition 0.12: BETA's licensed Corvina assistance and nonexpiring prepaid support hours do not establish a perpetual license, negotiated service commitment, data rights or terms for FOLDERIX/Dyna.",
+        "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open."
       ],
       "artifacts": [
         "research/customer_value.md",
         "data/customer_evidence.json",
-        "reviews/napkin_workflow_review.md"
+        "reviews/napkin_workflow_review.md",
+        "research/financed_execution.md",
+        "model/ENTERPRISE_FINANCE.md",
+        "model/results/enterprise_finance.json"
       ],
       "next_action": "Use a new matched service log, actual staffing schedule or disclosed contract to test FG-CMP-03; stop at the documented public-source gaps and retain this question's original completion condition."
     },
@@ -1401,5 +1413,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Initial checkpoint of new 168-hour objective; original 65 IDs/statuses preserved. Provisional gates do not close empirical or integrated-model requirements."
+  "decision_campaign_note": "Active 7–14 November campaign; edition 0.14 implements two bounded finance/reinvestment challenge families. All 65 question IDs and statuses are preserved; no empirical gap is closed by synthetic finance."
 }

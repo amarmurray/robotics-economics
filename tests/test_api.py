@@ -47,6 +47,18 @@ class LocalAPI(unittest.TestCase):
         with self.assertRaises(urllib.error.HTTPError) as err:urllib.request.urlopen(req)
         self.assertEqual(err.exception.code,400)
 
+    def test_financed_case_http_replay_and_invalid_saved_inputs(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/enterprise-finance',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        result=post({'inputs':{'maturity_month':3}})['result']
+        self.assertEqual(result['finance']['first_debt_default_month']['entrant'],3)
+        self.assertEqual(post({'saved_case':result})['result'],result)
+        for body in ({'inputs':{'loan_cents':True}}, {'inputs':{},'saved_case':{}},
+                     {'saved_case':{'schema_version':'monthly-deployment/0.4'}}, {'unexpected':{}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_unaccepted_observed_sources_cannot_leak_through_catalog(self):
         snapshot=load_accepted_packages()
         snapshot["packages"]=[p for p in snapshot["packages"] if p["package_id"]=="capability"]
