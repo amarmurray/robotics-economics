@@ -866,7 +866,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -875,7 +875,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -6341,7 +6341,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -7227,7 +7227,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "2b84822e5e9eb73d7ebce704c0adbf2cbc861bff17084c3e860aad5986a19334",
+      "scenario_hash": "edea40f5795170c708f026ddd364efb0580f4454aa10aed050dfc0104412e664",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
@@ -8081,7 +8081,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -8090,7 +8090,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -13558,7 +13558,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -14444,7 +14444,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "c22df17f304e05177d8a7dfa1eb7d42d7f3fc604f8dc3a981c489173c677bc6c",
+      "scenario_hash": "f0433234ab2e9a83f54fc4bf25965433c7dc36cb3928d6d769e5014e49d9a778",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
@@ -15319,7 +15319,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -15328,7 +15328,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -20802,7 +20802,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -21688,7 +21688,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "3de196c917dc9b1bd44b4548c9eacd59c3c28310c39b6bad8fbe90fe061dadcb",
+      "scenario_hash": "988ab5f2a9d809d01db0cef715581031ad73ed1cc0c47d2051d97d911b7329d2",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
@@ -22549,7 +22549,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -22558,7 +22558,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -28028,7 +28028,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -28914,7 +28914,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "5e296bbe2c2e841abe441ea2d5cd5bd1c50613acddde71f3b8843186f5160e2c",
+      "scenario_hash": "472bf75f55a3dab864814613db3aac6d8d811b8d6b92b6e1048ff724238de90e",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
@@ -29789,7 +29789,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -29798,7 +29798,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -35268,7 +35268,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -36154,7 +36154,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "1f4d183085a736a487816529adc1a3bc2fe76c80bfe1e0f8c8596311e58e5c05",
+      "scenario_hash": "56e83906dfe074ddac2c5fc0959a2c3762f1dcd0883bf891e3158d728a4211fb",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     },
@@ -37015,7 +37015,7 @@
           "unit": "constant 2026 USD/site/year at matched output"
         }
       ],
-      "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+      "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
       "evidence_package_index": {
         "path": "data/package_index.json",
         "schema_version": "accepted-evidence-packages/1.0",
@@ -37024,7 +37024,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -42496,7 +42496,7 @@
       },
       "model_source_hashes": {
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "model_version": "0.3.0",
@@ -43382,7 +43382,7 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "206a8c18fee78d9882d084cbc76106ef14d6eb0f9733b3c0978c47cedbad0d5c",
+      "scenario_hash": "822c164b86e7801c1006ab33f2ea8588795dcba7e21522576db6794ac93b762d",
       "schema_version": "robotics-economics-model/0.3",
       "status": "synthetic_illustration"
     }
@@ -43391,7 +43391,7 @@
   "source_hashes": {
     "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
     "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-    "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+    "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
     "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
     "scripts/export_trajectory.py": "404b2f9395e9c49cdd9f93afb2a05d2c5a9a72a31020f4fd0da175e51d329def"
   },

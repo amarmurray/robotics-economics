@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: post-window-continuation-2026-11-07-0.11.
+Handoff ID: post-window-cloud-continuation-2026-11-07-0.12.
 
 ## Accepted direction
 
@@ -20,7 +20,31 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: Generalist/Dyna continuation, edition 0.11
+## Current checkpoint: cloud execution and matched napkin workflow, edition 0.12
+
+The coordinator received explicit user authorization for one new cloud execution chat after the original executor failed and no supported same-task reattachment was available. This is that sole research-writing continuation, using the published robotics-economics environment. The original “Continue with one agent” chat and the Mac “Incorporate Workstream K” history remain untouched; the coordinator verified both idle before handoff. The canonical Mac checkout remains preserved. The original T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z** are historical; no new deadline or work during the interruption is implied.
+
+Actual cloud shell execution is established. The checkout began clean at the accepted edition 0.11 remote checkpoint. All 215 entry manifest hashes verified as ordinary file bytes, including the XLSX. The exposed published configuration version matched the expected handoff; the separate saved-asenv identity is not exposed by runtime status. Actual execution path, configuration IDs and observed commit receipts are in ignored work/ACTIVE_EXECUTION.json and sync_receipt.json.
+
+The unmodified first cloud suite passed 195 of 196 tests. The one frozen scalar-regression failure came from Python-version-sensitive float summation in two annual-hour totals. Explicit historical addition order restores all 69,315 frozen fields without changing the oracle, tolerances or assumptions. The corrected final suite passes **196 Python tests**, with **11 focused annual tests also passing on Python 3.13**, **36 JavaScript assertions**, syntax, evidence, physical/source and monthly export checks. All thirteen dashboard views and the new source/filter/recalculation/export interactions pass with no observed JavaScript or API errors. All **140,231 numeric fields across 21 saved JSON result artifacts** and the assumptions file are unchanged after regeneration. See [the sole-lead review](reviews/napkin_workflow_review.md).
+
+[The customer chapter](research/customer_value.md#restaurant-napkin-workflow-comparison) now integrates FG-CMP-03: one unique accepted napkin, required finish/stack, designated handoff and deadline, comparing a proposed manual baseline, BETA, FOLDERIX and Dyna. Four verified primary-source records and two contextual quantities extend the existing customer package. The employer's advertised base is for bundled duties, not removable payroll; the specialist's maximum rate is not a matched accepted-service rate. Nonexpiring prepaid support hours do not establish perpetual software rights. Dyna's existing output arithmetic remains conditional and receives no extra downtime penalty.
+
+The new dashboard panel in Customer adoption exposes loading, inspection, rework, transport, cleaning, maintenance and support; distinct task-time/capacity/hiring/payroll outcomes; and customer cash, provider cash/resources and consolidated resources. ROI, payback and cost per accepted napkin remain unknown. The M09 reference creates no atlas total or synthetic cell and calibrates no scenario. Current coverage is **13 packages, 184 claims, 366 reported quantities and 89 explicit-null markers**. The acceptance register remains **53 bounded met / 16 partial**.
+
+**Next execution checklist:**
+
+1. Resolve remote main and inspect this actual cloud checkout before writing. Keep one research writer and preserve unexpected work or divergence. Continue to leave both original chats and the canonical Mac files untouched.
+2. Reopen the napkin source branch only for a materially new operator work/exposure record, specialist acceptance test, staffing schedule or disclosed contract. The current sources cannot establish full cost, rights, asset responsibility, ramp or financing.
+3. Return to the broader ranked A–K queue: operator support/accepted-service denominators and qualified supply/support; substantial H's conventional coordination and moving human baseline; I/J's retained deployment and embodiment alternatives. Keep standalone/acquisition/hybrid entry and provider/operator/integrator/financier questions.
+4. Scheduled debt servicing/maturity, autonomous reinvestment/recovery and annual/architecture bridges remain explicit model gaps. Prioritize decision-relevant evidence over expanding abstract finance or source counts.
+5. Validate accepted changes, update report/dashboard/evidence/questions/audit/handoff and manifest, inspect divergence, then use a scoped commit and normal private push. No force-push, automatic merge, new agents, outreach, spending, GPU/robot runs, public hosting or other-repository changes.
+
+**Next question:** which new matched operating record can identify an avoidable paid work commitment and full service obligation, rather than just released task time?
+
+No supported native /goal creation or activation control is exposed in this task, so no goal identifier was created. No duplicate schedule or background process was established. Weekday orchestration belongs to the coordinator; this successful run proves executable readiness for this checkpoint, not uninterrupted future execution.
+
+## Previous checkpoint: Generalist/Dyna continuation, edition 0.11
 
 Amar requested “continue the work” on **7 November 2026**. The original T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z** remain historical facts; that window has ended with incomplete requirements. This is separately dated continuation, with no new deadline or claim of research during the interruption. The accepted state recovered at session start was edition 0.10. The requested cloud transfer had not been confirmed; no separate running research successor was identified in the inspected task inventories. This work resumes in the verified local execution clone with **one agent only**. Actual serving model/effort is not independently verified.
 
@@ -44,9 +68,9 @@ The canonical Mac checkout remains preserved at its unreconciled older state, in
 
 **Next question:** can a matched service baseline identify which human work is actually avoided, which support remains paid, and whose cash flow improves under disclosed contract terms?
 
-## Transfer checkpoint and weekday oversight, 7 November 2026
+## Historical transfer checkpoint before authorized cloud continuation, 7 November 2026
 
-The earlier durable cloud chat **“Continue with one agent”** was located during coordination and read through the supported thread interface. It is idle; its last recorded turn was interrupted during edition 0.5 validation. That historical state does not establish a live cloud executor or current access. The current chat is local. The available handoff tool cannot move its calling chat and does not support cloud handoff. The coordinating oversight chat will handle resuming the existing durable campaign after this publication; no replacement task, new environment, credentials, network/security changes or spending were created here. **After this transfer checkpoint, stop local research writes pending that coordination.** This is not research-program completion.
+The earlier durable cloud chat **“Continue with one agent”** was located during coordination and read through the supported thread interface. It is idle; its last recorded turn was interrupted during edition 0.5 validation. That historical state does not establish a live cloud executor or current access. At that checkpoint the chat was local. The available handoff tool cannot move its calling chat and does not support cloud handoff. The coordinating oversight chat will handle resuming the existing durable campaign after this publication; no replacement task, new environment, credentials, network/security changes or spending were created here. **That checkpoint stopped local research writes pending coordination; the current authorized cloud continuation is recorded above.** This is not research-program completion.
 
 Cloud resumption should:
 
@@ -206,8 +230,8 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate execution follows the current November continuation checklist above, preserving both the regional and Generalist/Dyna audits and pursuing a matched operator/service cost boundary against the shared monthly customer/physical/cash questions. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the current edition 0.12 checklist above, preserving the regional, Generalist/Dyna and napkin audits and returning to the broader ranked queue unless a new matched service artifact resolves a documented gap. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
-Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly and continue the original elapsed-time window.
+Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly, preserve the original elapsed-time window as historical, and date later continuation separately.

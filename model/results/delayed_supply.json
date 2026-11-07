@@ -808,7 +808,7 @@
       "unit": "constant 2026 USD/site/year at matched output"
     }
   ],
-  "engine_sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+  "engine_sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
   "evidence_package_index": {
     "path": "data/package_index.json",
     "schema_version": "accepted-evidence-packages/1.0",
@@ -817,7 +817,7 @@
   "evidence_snapshot_hashes": {
     "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
     "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-    "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+    "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
     "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
     "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
     "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -9520,7 +9520,7 @@
   },
   "model_source_hashes": {
     "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
-    "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+    "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
     "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
   },
   "model_version": "0.3.0",
@@ -10415,7 +10415,7 @@
       "digital_efficiency": "fraction of baseline human hours removed at matched service"
     }
   },
-  "scenario_hash": "c8eedbd369ea7952c950e107ae210b4dab1d13a224211d292accca66ef82d272",
+  "scenario_hash": "f1c0767607b8a9bc14047074c21fc99bc6cf5dad89c24a15ae3fbe680128d60a",
   "schema_version": "robotics-economics-model/0.3",
   "status": "synthetic_illustration"
 }

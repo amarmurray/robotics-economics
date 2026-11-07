@@ -123,6 +123,24 @@ function regionalRights(){
 function regionalDeployments(){
  return `<section id="regional-deployments"><h3>Operator use, model partnership and future plans</h3>`+notice('Packing, hotel data capture, laundry and restaurant references concern different services from the synthetic floor-service market. Repeated announcements are one event; partner names or a model family do not identify an executed checkpoint.',true)+evidenceSection(/^deployment_cards$/,/frontier_model_economics/,4)+`</section>`;
 }
+function napkinComparison(){
+ const entry=recordsFor(/^comparisons$/,/customer_evidence/).find(x=>x.value.comparison_id==='FG-CMP-03');
+ if(!entry)return '';
+ const c=entry.value;
+ if(!recordMatches(c,entry.key))return `<section id="napkin-comparison"><h3>Restaurant napkin workflow</h3>${empty('The M09 reference comparison is outside the current evidence filters. Clear filters to inspect it.')}</section>`;
+ return `<section id="napkin-comparison"><h3>Restaurant napkin workflow: what must actually be delivered?</h3>`+
+  notice('M09 hospitality/foodservice source reference, outside the six synthetic cells. A proposed matched-service protocol; no observed cost ranking. Annual cell/year and scenario controls do not alter this evidence.',true)+
+  `<p><strong>Service unit:</strong> ${esc(c.service_unit)}</p><p>${esc(c.summary)}</p>`+
+  table(c.alternatives,[['label','Alternative',esc],['feeding','Loading and input work',esc],['quality_handoff','Acceptance and handoff',esc],['retained_work','Other work to measure',esc],['unknown','Unresolved',esc]])+
+  `<p class="small">The employer base rate describes a bundled job. BETA's maximum item rate has a different, unqualified denominator from Dyna's accepted-output arithmetic. Neither is a payroll-saving coefficient. ${refButtons(c)}</p>`+
+  `<details><summary>Match the service and measure the whole workflow</summary><ul>${c.fixed_baseline.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><ol>${c.measurement_protocol.map(x=>`<li>${esc(x)}</li>`).join('')}</ol><p>${esc(c.source_arithmetic.clock_boundary)}</p></details>`+
+  `<details><summary>Separate task time, capacity and paid labor</summary>`+
+  table(c.labor_outcomes,[['outcome','Outcome',esc],['proof_needed','Evidence required',esc]])+`</details>`+
+  `<details><summary>Whose cash and which resources?</summary>`+
+  table(c.accounting_boundaries,[['perspective','Boundary',esc],['include','Include and reconcile',esc]])+
+  table(Object.entries(c.economic_outcomes).map(([name,x])=>({name:name==='roi'?'ROI':title(name),...x})),[['name','Estimate',esc],['value','Result',v=>fmt(v)],['reason','Why unavailable',esc]])+`</details>`+
+  `<p><a href="/research/customer_value.md#restaurant-napkin-workflow-comparison" target="_blank">Full comparison and entry implications ↗</a> · <a href="/data/customer_evidence.json" target="_blank">Saved FG-CMP-03 record ↗</a></p></section>`;
+}
 
 function sharedEnterprisePanel(){
  const state=enterpriseState;
@@ -275,7 +293,7 @@ const renderers={
   `<div class="grid">${metric('Validation cash this year',money(y.learning_validation_cash_usd),'Whole-portfolio reference pool')}${metric('Transfer coefficient',fmt(result.parameters.learning_transfer,2),'Scenario only; no added data-value premium')}</div>`+
   table(selectedRows(),[['cell_id','Cell',v=>esc(cellLabel(v))],['learning_increment','Applied capability increment',v=>fmt(v,4),true],['capability','Resulting capability',v=>fmt(v,3),true]])+
   docs(/learning_data_economics|coordination_reproducibility/)+evidenceSection(/transfer_edges|learning_relationships|coordination_archetypes|direct_contribution|contribution_maps|interface_ledger/,null,35)+`<h3>Learning-data economics: bounded source evidence</h3>`+evidenceSection(/^evidence$/,/learning_data_economics/,8);},
- customer(){const n=result.newco;return sharedEnterprisePanel()+regionalDeployments()+`<div class="card"><h3>${esc(result.customer_mechanisms.label)}</h3><p>${esc(result.customer_mechanisms.explanation)}</p>${table([result.customer_mechanisms],[['ready_delay_years','Approval delay, years'],['authority_sites','Sites under authority / 12'],['site_cash_limit_usd','Site cash ceiling',money],['implementation_sites_year','Implementation sites/year'],['max_payback_years','Maximum payback']])}</div>`+
+ customer(){const n=result.newco;return sharedEnterprisePanel()+napkinComparison()+regionalDeployments()+`<div class="card"><h3>${esc(result.customer_mechanisms.label)}</h3><p>${esc(result.customer_mechanisms.explanation)}</p>${table([result.customer_mechanisms],[['ready_delay_years','Approval delay, years'],['authority_sites','Sites under authority / 12'],['site_cash_limit_usd','Site cash ceiling',money],['implementation_sites_year','Implementation sites/year'],['max_payback_years','Maximum payback']])}</div>`+
   evidenceSection(/adopter|profile|entry_cases|customer_cases|organization|pathways/,/customer/,12)+
   `<details><summary>Historical independent ENTRY-FG-01 reference</summary><h3>ENTRY-FG-01 · earlier independent illustration</h3>`+notice('This historical fixed floor-service reference case (CELL-M11), with normalized accepted service bundles/month. It is not added to the annual six-cell fleet denominator. Identical robot technology and terms are available to the incumbent.',true)+
   `<div class="grid">${metric('Formation + asset cash at t0',money(n.upfront_usd),'Build/acquire/hybrid changes cash, not underlying demand')}${metric('Peak funding need',money(n.peak_funding_required_usd),'Includes overhead, ramp and receivables')}${metric('Unfunded amount',money(n.funding_gap_usd),'First unfunded month: '+(n.first_unfunded_month??'none'))}</div>`+

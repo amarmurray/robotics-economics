@@ -1,9 +1,9 @@
 {
   "schema_version": "robotics-economics-evidence/0.1",
   "module": "F/G customer organization and robotics value capture",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
-  "evidence_as_of": "2026-10-25",
+  "evidence_as_of": "2026-11-07",
   "runtime_verification": {
     "requested_model": "GPT-6 Astra",
     "requested_reasoning": "Ultra",
@@ -11,7 +11,7 @@
     "actual_reasoning": null,
     "missingness_reason": "Delegated runtime does not expose a verifiable active model/reasoning identifier; do not claim requested configuration was achieved."
   },
-  "scope": "First-wave public-source findings, two matched mechanism comparisons, a conditional same-robot-access entrant scenario and structural comparators. Not a completed campaign or calibrated ownership-effect estimate.",
+  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics.",
   "evidence": [
     {
       "evidence_id": "FG-E001",
@@ -287,6 +287,107 @@
       "locator": "Item 7, Acquisition",
       "geography": "UK",
       "limitations": "This is an actual logistics acquisition/control constraint, not evidence that the acquisition was AI-native or that it created extra underlying service activity. No acquisition automation return is inferred."
+    },
+    {
+      "evidence_id": "FG-E015",
+      "title": "Santa Clara restaurant support posting: pay and bundled duties",
+      "claim": "Din Tai Fung advertises a base of $18.20 per hour for restaurant service positions at Westfield Valley Fair. The posting groups busser, cashier, greeter and food-runner/expo duties under front-of-house support staff and separately mentions tips and benefits.",
+      "url": "https://din-tai-fung.careerplug.com/jobs/920918/apps/new",
+      "publisher": "Din Tai Fung",
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication date is stated in the inspected page; retrieval date is not publication date.",
+      "observation_period": "Undated advertised offering inspected 7 November 2026; effective and measurement periods undisclosed.",
+      "retrieved_at": "2026-11-07",
+      "source_class": "primary_employer_posting",
+      "epistemic_status": "advertised_terms_not_observed_site_economics",
+      "locator": "Pay rate; available roles; Note on Front of House Support Staff duties",
+      "geography": "Santa Clara, California, United States",
+      "market_ids": [
+        "M09"
+      ],
+      "limitations": "Not a napkin-folding staffing study. This location is not identified as the Dyna station. Advertised base pay is not loaded employer compensation, actual wage expense or removable payroll. Tip estimates lack a usable denominator here and are not added to hourly base. Actual schedules, task shares and before/after payroll are undisclosed.",
+      "quantities": [
+        {
+          "quantity_id": "FG-Q-DTF-SANTACLARA-ADVERTISED-BASE",
+          "value": 18.2,
+          "unit": "USD per paid labor hour, advertised base",
+          "denominator": "one paid hour in the bundled restaurant service posting",
+          "population": "Advertised front-of-house support roles at Din Tai Fung Westfield Valley Fair, Santa Clara",
+          "period": "Undated posting retrieved 2026-11-07; effective pay period undisclosed",
+          "measurement_status": "advertised_base_not_loaded_cost_or_payroll_saving"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E016",
+      "title": "BETA advertised folding configuration and maximum item rate",
+      "claim": "Prima Folder advertises BETA at up to 1,200 items per hour, with manual use or placement in a laundry line. A French-fold option and an operator-return conveyor with stacking are offered; compatibility with the restaurant's napkin and acceptance standard is unverified.",
+      "url": "https://www.primafolder.com/en/product/napkin-folding-machine-beta/",
+      "publisher": "Prima Folder",
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication date is stated in the inspected page; retrieval date is not publication date.",
+      "observation_period": "Undated advertised offering inspected 7 November 2026; effective and measurement periods undisclosed.",
+      "retrieved_at": "2026-11-07",
+      "source_class": "primary_manufacturer_product_page",
+      "epistemic_status": "advertised_terms_not_observed_site_economics",
+      "locator": "Description; Features of the standard model; P4 French Fold; Return conveyor to operator",
+      "geography": "Manufacturer in Italy; no matched restaurant deployment geography disclosed",
+      "market_ids": [
+        "M09"
+      ],
+      "limitations": "Advertised maximum items are not measured accepted napkins. Textile, dimensions, condition, fold, stack, clock basis, loading labor, quality/rework, site qualification and contract price are unmatched. Options are not assumed installed. No rate ratio or operating-cost ranking against Dyna is supported.",
+      "quantities": [
+        {
+          "quantity_id": "FG-Q-BETA-ADVERTISED-RATE",
+          "value": 1200,
+          "relation": "up_to",
+          "unit": "items per hour, advertised maximum",
+          "denominator": "manufacturer hourly production basis; inclusion of stops, rejects and feeding is undisclosed",
+          "population": "BETA product offering; no matched textile or customer acceptance cohort",
+          "period": "Undated product page retrieved 2026-11-07; measurement period undisclosed",
+          "measurement_status": "advertised_maximum_not_accepted_service_throughput"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E017",
+      "title": "BETA remote assistance requires licensed access and support hours",
+      "claim": "The BETA page describes Corvina Cloud licensed remote assistance and prepaid support-hour packages without an expiration date.",
+      "url": "https://www.primafolder.com/en/product/napkin-folding-machine-beta/",
+      "publisher": "Prima Folder",
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication date is stated in the inspected page; retrieval date is not publication date.",
+      "observation_period": "Undated advertised offering inspected 7 November 2026; effective and measurement periods undisclosed.",
+      "retrieved_at": "2026-11-07",
+      "source_class": "primary_manufacturer_product_page",
+      "epistemic_status": "advertised_terms_not_observed_site_economics",
+      "locator": "Software Options and Industry 4.0",
+      "geography": "Manufacturer in Italy; customer geography and applicable contract unspecified",
+      "market_ids": [
+        "M09"
+      ],
+      "limitations": "The no-expiration statement describes prepaid support hours, not perpetual software rights. License duration, price, covered work, response obligation, customer connectivity and executed site terms remain unknown. These BETA-page terms are not assigned to FOLDERIX or Dyna.",
+      "quantities": []
+    },
+    {
+      "evidence_id": "FG-E018",
+      "title": "FOLDERIX has its own manual-feed and collection configuration",
+      "claim": "Prima Folder describes FOLDERIX with manual feeding, belt/air-blade longitudinal folding, mechanical cross-folding and a collection conveyor. Positioning aids depend on the model or option.",
+      "url": "https://www.primafolder.com/en/product/folderix-napkin-and-towel-folding-machine/",
+      "publisher": "Prima Folder",
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication date is stated in the inspected page; retrieval date is not publication date.",
+      "observation_period": "Undated advertised offering inspected 7 November 2026; effective and measurement periods undisclosed.",
+      "retrieved_at": "2026-11-07",
+      "source_class": "primary_manufacturer_product_page",
+      "epistemic_status": "advertised_terms_not_observed_site_economics",
+      "locator": "Description; Features of the standard model; Model Range; Optional Folderix 600 and 600 GOLIA",
+      "geography": "Manufacturer in Italy; no matched restaurant deployment geography disclosed",
+      "market_ids": [
+        "M09"
+      ],
+      "limitations": "No BETA throughput, option or support term is imported. Collection and onward transport require workflow measurement; the page is not a restaurant staffing observation. Exact model, textile, fold acceptance, output/time basis, installed price and staffing remain unqualified.",
+      "quantities": []
     }
   ],
   "actors": [
@@ -423,6 +524,20 @@
       ],
       "evidence_ids": [],
       "status": "scenario_not_observed_company"
+    },
+    {
+      "actor_id": "FG-A-PRIMA-FOLDER",
+      "name": "Prima Folder",
+      "roles": [
+        "specialist_folding_equipment_supplier",
+        "advertised_support_counterparty"
+      ],
+      "evidence_ids": [
+        "FG-E016",
+        "FG-E017",
+        "FG-E018"
+      ],
+      "status": "advertised_product_and_support_roles_not_matched_site_contract"
     }
   ],
   "adopter_profiles": [
@@ -620,6 +735,178 @@
         "FG-E013"
       ],
       "status": "mechanism_comparison_not_causal_estimate"
+    },
+    {
+      "comparison_id": "FG-CMP-03",
+      "label": "Restaurant napkin service: manual, specialist equipment and robotics",
+      "market_id": "M09",
+      "stage": "Restaurant back-of-house linen preparation and service handoff",
+      "geography": "Dyna restaurant reference with separate Santa Clara employer and Italian equipment-source contexts",
+      "period": "Source comparison retrieved 2026-11-07; source observation periods differ",
+      "status": "qualitative_matched_service_protocol_not_observed_cost_comparison",
+      "summary": "Qualification and retained paid work, rather than headline station speed, determine the outside option. No ROI, payback or cost-per-napkin ranking is defensible from these sources.",
+      "service_unit": "One unique accepted napkin with required finish and stack at the designated handoff on time.",
+      "fixed_baseline": [
+        "Same input textile, dimensions and condition, including washing/ironing state",
+        "Same required fold and observable acceptance criterion",
+        "Same stack layout, size and designated physical handoff",
+        "Same demand profile, deadlines and inventory buffer",
+        "Same included process boundary; separately priced upstream and downstream work"
+      ],
+      "observed_match": false,
+      "observed_match_reason": "No source reports all alternatives on the same textile, fold, acceptance, service deadline and complete paid-work boundary.",
+      "actor_ids": [
+        "K-A-DINTAI",
+        "K-A-DYNA",
+        "FG-A-PRIMA-FOLDER"
+      ],
+      "actor_reference_packages": {
+        "K-A-DINTAI": "data/frontier_model_economics.json",
+        "K-A-DYNA": "data/frontier_model_economics.json",
+        "FG-A-PRIMA-FOLDER": "data/customer_evidence.json"
+      },
+      "evidence_ids": [
+        "K-E039",
+        "K-E040",
+        "FG-E015",
+        "FG-E016",
+        "FG-E017",
+        "FG-E018"
+      ],
+      "source_arithmetic": {
+        "artifact": "model/results/frontier_model_summary.json",
+        "path": "deployment_source_checks.napkin_service",
+        "permitted_use": "Conditional reconciliation of Dyna's rate, quality and service window; no new model coefficient.",
+        "clock_boundary": "Hourly basis unknown; do not double-discount downtime. Eighteen robot hours are not eighteen paid human hours removed."
+      },
+      "alternatives": [
+        {
+          "alternative_id": "FG-ALT-MANUAL",
+          "label": "Manual / digitally scheduled baseline",
+          "configuration": "Proposed observation protocol; no measured napkin team or rate in this packet.",
+          "feeding": "Measure retrieval, sorting and presentation alongside folding.",
+          "quality_handoff": "Measure inspection, rework, required stacks and timely delivery to the agreed handoff.",
+          "retained_work": "Observe existing shared duties and interruptions; a bundled job is not a dedicated folding shift.",
+          "unknown": "All measured task times, accepted throughput and removable paid shifts.",
+          "evidence_ids": [
+            "FG-E015"
+          ]
+        },
+        {
+          "alternative_id": "FG-ALT-BETA",
+          "label": "Prima Folder BETA",
+          "configuration": "Advertised manual or laundry-line input; installed options and restaurant suitability unqualified.",
+          "feeding": "Manual presentation or upstream feeder/ironer labor, assets and utilities stay inside the comparison boundary.",
+          "quality_handoff": "Qualify fold and acceptance; measure rejects, rework, collection and transport beyond any optional returned stack.",
+          "retained_work": "Feeding, checks, replenishment, cleaning, maintenance and support remain measurable resources.",
+          "unknown": "Matched accepted-output rate, clock basis, full staffing and installed/recurring price.",
+          "evidence_ids": [
+            "FG-E016",
+            "FG-E017"
+          ]
+        },
+        {
+          "alternative_id": "FG-ALT-FOLDERIX",
+          "label": "Prima Folder FOLDERIX",
+          "configuration": "Separate manually fed folding/stacking family; exact model and positioning option must be selected.",
+          "feeding": "Count manual feeding and positioning; do not assign BETA's advertised rate.",
+          "quality_handoff": "Qualify the fold and stacks, then measure collection, inspection, rework and onward transport.",
+          "retained_work": "Loading, collection, cleaning, maintenance and any support package need their own records.",
+          "unknown": "Matched accepted throughput, configuration price and service terms.",
+          "evidence_ids": [
+            "FG-E018"
+          ]
+        },
+        {
+          "alternative_id": "FG-ALT-DYNA",
+          "label": "Dyna restaurant robot",
+          "configuration": "Issuer-reported folding and instructed stacking; exact deployed hardware/policy and contract unpinned.",
+          "feeding": "Measure textile replenishment and setup; do not assume autonomous feeding from a fold demonstration.",
+          "quality_handoff": "Link unique accepted items to the handoff deadline; staff collection and table transport remain distinct.",
+          "retained_work": "Local recovery, quality review, cleaning, hardware maintenance and remote model/service work need actor-specific time and cash.",
+          "unknown": "Hourly clock basis, full exposure, support demand, contract fee and actual paid staffing reduction.",
+          "evidence_ids": [
+            "K-E039",
+            "K-E040"
+          ]
+        }
+      ],
+      "measurement_protocol": [
+        "Define entry textile state, fold, finish, stack and handoff acceptance with the same demand and deadline for each alternative.",
+        "Record item identity separately from attempt identity; an item accepted after rework counts once. Preserve rejects, scrap and unfinished work.",
+        "Record wall-clock window, active machine time, planned stops, blocked/starved time and repair separately. Establish which losses a reported rate already includes.",
+        "Observe loading, folding, inspection, rework, stacking, transport, cleaning, maintenance and local/remote support across representative rush and quiet periods.",
+        "Record overlapping worker activities and paid schedules without adding the same minute twice. Compare feasible before/after staffing at equal service.",
+        "Track unique on-time handoff output separately from station completions and end-to-end restaurant service; shifts in buffers can mask a service shortfall."
+      ],
+      "labor_outcomes": [
+        {
+          "outcome": "Released task time",
+          "proof_needed": "Matched active human-work observation; does not establish a paid shift was removed."
+        },
+        {
+          "outcome": "Capacity",
+          "proof_needed": "On-time accepted output and a binding demand/service constraint; idle capacity is not revenue."
+        },
+        {
+          "outcome": "Avoided hiring or overtime",
+          "proof_needed": "Credible alternative staffing plan, workload, hiring constraint and actual avoided commitment."
+        },
+        {
+          "outcome": "Paid labor removed",
+          "proof_needed": "Feasible schedules and actual paid-hour/payroll reduction after retained duties and service coverage."
+        }
+      ],
+      "accounting_boundaries": [
+        {
+          "perspective": "Customer cash",
+          "include": "Avoidable baseline payments versus retained wages, utilities, consumables, equipment/integration cash, provider fees, working capital, ramp, financing and residual obligations at their dates."
+        },
+        {
+          "perspective": "Provider cash and resources",
+          "include": "Fees collected versus hardware, integration, field/remote support, model/compute, maintenance, spares, service overhead and funding; identify operator, integrator and financier separately."
+        },
+        {
+          "perspective": "Consolidated resources",
+          "include": "Actual labor, materials, energy, asset use and support once across actors; eliminate internal fees/transfers. Do not add a bundled provider fee to the same underlying provider resources or depreciation to already-counted capex."
+        }
+      ],
+      "economic_outcomes": {
+        "observed_manual_accepted_rate": {
+          "value": null,
+          "reason": "No measured manual napkin workflow is supplied."
+        },
+        "paid_labor_removed": {
+          "value": null,
+          "reason": "No matched before/after staffing, paid hours or payroll."
+        },
+        "roi": {
+          "value": null,
+          "reason": "Price, complete operating cash, investment, ramp and financing are undisclosed."
+        },
+        "payback": {
+          "value": null,
+          "reason": "No defensible matched investment and cash-saving schedule."
+        },
+        "cost_per_accepted_napkin": {
+          "value": null,
+          "reason": "Neither matched accepted-output denominator nor full cost is established."
+        }
+      },
+      "decision_gates": [
+        "Qualify all candidate configurations on the same service before comparing their rates.",
+        "Identify which paid work or binding capacity constraint changes, including retained and provider-side support.",
+        "Establish price, title, site/process authority, model/data rights, support obligations and ramp/financing before valuing adoption.",
+        "Compare an entrant against a prompt incumbent with the same qualified technology, plus digital-only and specialist alternatives."
+      ],
+      "entry_implications": {
+        "standalone": "A linen-service newco must win demand and fund setup, collection/delivery, working capital and ramp; station output alone is not a restaurant business.",
+        "acquisition": "Existing customers, schedules and laundry assets can shorten ramp, but purchase price and inherited obligations can absorb expected gains.",
+        "hybrid": "A shared folding hub plus existing laundry/site partners may pool utilization; transport, hygiene, inventory, permissions and partner fees can remove the advantage.",
+        "provider_roles": "Supplier, operator, integrator, asset owner and financier may coexist; neither a RaaS label nor product page assigns their actual contract rights."
+      },
+      "model_use": "Evidence and measurement design only; excluded from employment totals, synthetic assumptions and calibrated scenario coefficients.",
+      "next_trigger": "A new operator log, matched specialist acceptance test, staffing schedule or disclosed contract that closes an identified decision gate. Do not repeat exhausted source searches."
     }
   ],
   "commercial_arrangements": [
@@ -1023,6 +1310,18 @@
         "FG-E005",
         "FG-E012"
       ]
+    },
+    {
+      "constraint_id": "FG-MC-07",
+      "statement": "Count unique accepted napkins once, match handoff/deadline and textile/fold, and keep clock basis, paid schedules and actor cash/resources separate. Advertised base pay and machine maximums are context, not removable payroll or calibrated throughput.",
+      "evidence_ids": [
+        "K-E039",
+        "K-E040",
+        "FG-E015",
+        "FG-E016",
+        "FG-E017",
+        "FG-E018"
+      ]
     }
   ],
   "questions": [
@@ -1036,9 +1335,12 @@
       "priority": "highest",
       "decision_consequence": "Whether newco survives and whether service contracts can fund deployment",
       "evidence_target": "Matched customer contract cancellation/renewal, pricing, payment lag, rollout outlays, supplier RaaS fee and termination terms",
-      "next_action": "Search public procurement contracts and disclosed leases for a matched physical-service case; then compare positive margin with minimum financing need.",
+      "next_action": "Reopen the napkin branch on a new matched operator exposure/staffing record or disclosed equipment/robot service contract; otherwise advance the broader ranked queue.",
       "stopping_condition": "One coherent contract/cash boundary with adverse termination and equal-technology response; leave unavailable parameters explicit.",
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "findings": [
+        "FG-CMP-03 identifies accepted service, retained labor and three distinct accounting boundaries, but quoted terms and actual schedule changes remain unavailable."
+      ]
     },
     {
       "question_id": "FG-Q-02",
@@ -1101,7 +1403,8 @@
     "provider_scope": "Sale, lease, RaaS, software, usage/outcome, managed operations/JV and integration analyzed separately from customer ownership.",
     "sources": "Primary company disclosures, SEC filings and a specific standard legal artifact; no independent unit-economics audit.",
     "model_terms": "Most exact robot/service financial and data terms remain unavailable.",
-    "runtime": "Configuration requested but actual identifier unavailable to specialist."
+    "runtime": "Configuration requested but actual identifier unavailable to specialist.",
+    "napkin_comparison": "FG-CMP-03 is a matched-service definition and proposed measurement protocol in M09. No matched experiment, new deep atlas cell, payroll saving, ROI or scenario calibration."
   },
   "entry_screen": [
     {
@@ -1277,5 +1580,18 @@
     "search_queries": 7,
     "requested_search_result_slots": 35,
     "note": "Result slots are not unique validated sources; selected primary pages were fetched and claim-level records distinguish disclosure from independent evidence. No paid services or external messages used."
+  },
+  "continuation_2026_11_07": {
+    "status": "sole_lead_source_and_workflow_comparison",
+    "historical_metadata": "Original runtime_verification, research_method and evidence_snapshot_closed_at describe the October first-wave packet; they do not describe this continuation.",
+    "retrieval_method": "Dyna and Prima Folder primary pages read with web retrieval; Din Tai Fung exact primary job URL read with Exa Fetch after direct retrieval failed.",
+    "new_evidence_ids": [
+      "FG-E015",
+      "FG-E016",
+      "FG-E017",
+      "FG-E018"
+    ],
+    "preserved_source_context": "Dyna August 2026; employer and equipment pages undated. No evidence date invented or job site assigned to Dyna.",
+    "review": "reviews/napkin_workflow_review.md"
   }
 }

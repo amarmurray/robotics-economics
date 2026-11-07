@@ -1,8 +1,8 @@
 # Robotics Economics — integrated research report
 
-Edition 0.11, continuation dated 7 November 2026 after the original campaign deadline. Generalist and Dyna now add adaptation, scaling-protocol and customer-service evidence, with an explicit distinction between an output threshold and financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
+Edition 0.12, continuation dated 7 November 2026 after the original campaign deadline. The customer chapter now integrates a matched restaurant napkin-service protocol across manual, specialist-equipment and robotics alternatives, preserving unknown whole-system costs and paid labor effects. Generalist/Dyna adaptation and source-output arithmetic remain distinct from financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna continuation was retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. That original deadline has passed. The user requested continuation on 7 November; no new deadline, work during the interruption or uninterrupted-compute claim is implied.
 
@@ -12,7 +12,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled. The requested cloud transfer was not confirmed; the user resumed this local continuation on 7 November. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled. That earlier cloud transfer was unconfirmed. After edition 0.11, the user authorized one new cloud execution chat because the old executor could not be reattached. This continuation executes in the published robotics-economics cloud environment after fresh shell, repository, byte-hash, test and dashboard checks. The original chats and canonical Mac checkout remain preserved; no continuous execution between sessions is claimed. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 
 
 ## Contents
@@ -34,6 +34,8 @@ The initial editions were produced in a cloud checkout. The local continuation b
 Authoritative chapter: [research/integrated_decisions.md](research/integrated_decisions.md).
 
 This campaign asks where a humanoid company should deploy, what must improve, and which organizational and commercial arrangements can sustain useful production. The early evidence supports a conditional strategy organized around customer services and their bottlenecks. It does not yet support a calibrated economy-wide penetration forecast or a claim that one morphology will replace a fixed share of physical labor.
+
+The November restaurant comparison sharpens the customer hurdle: model-led folding must compete on the full accepted napkin service against qualified specialist equipment and a measured human baseline. Advertised speed and base wages do not reveal a removable paid shift. [FG-CMP-03](research/customer_value.md#restaurant-napkin-workflow-comparison) defines loading, acceptance, rework, handoff and support plus separate customer/provider cash and consolidated resources. It narrows the required evidence without establishing an ROI or winner.
 
 The US labor atlas establishes a broad economic frame. The six deeper cells are automotive assembly/material presentation, third-party logistics handoffs, contract floor cleaning, hospital internal logistics, construction installation and utility inspection. These are deliberately contrasting production systems. They differ in access, quality standards, process authority, environmental variation, customer relationships and the alternatives already available. Cases outside the United States inform mechanisms but do not become US labor observations.
 
@@ -536,11 +538,11 @@ This bounded public-source investigation stops with two versioned primary cases 
 
 Authoritative chapter: [research/customer_value.md](research/customer_value.md).
 
-First-wave F/G findings · 25 October 2026 · Version 0.1.1
+F/G findings · first wave 25 October 2026; napkin-workflow continuation 7 November 2026 · Version 0.2.0
 Input revision: `campaign launch snapshot (see ignored sync_receipt.json)`
 Evidence: [customer_evidence.json](data/customer_evidence.json). Common numerical assumptions and calculations belong to [model/assumptions.json](model/assumptions.json) and [model/engine.py](model/engine.py).
 
-This is a bounded first-wave result, not campaign completion. The requested configuration was GPT-6 Astra with Ultra reasoning; this delegated runtime does not expose a verifiable active model/reasoning identifier. Actual settings therefore remain unverified. Primary documents were retrieved during this session through Exa. Source dates, claim locators, geography, limitations and missing terms are recorded separately from interpretations.
+The original first-wave findings below are preserved; the restaurant comparison is a separately dated continuation after the campaign window, not campaign completion. The first-wave requested configuration was GPT-6 Astra with Ultra reasoning; that delegated runtime does not expose a verifiable active model/reasoning identifier. Actual settings therefore remain unverified. The first-wave primary documents were retrieved through Exa. The November continuation uses primary web pages and Exa Fetch; no current serving-model identity is independently verified. Source dates, claim locators, geography, limitations and missing terms are recorded separately from interpretations.
 
 ### Decision finding
 
@@ -599,6 +601,66 @@ ABM's disclosed cancellation window creates a concrete asset-contract mismatch. 
 ISS's [three-year European customer expansion](https://www.issworld.com/insights/news-and-press/iss-signs-new-deal-with-global-technology-company) shows how incumbents can grow through existing relationships and cross-country standardization. It does not disclose cancellation options or demonstrate robot-cost recovery. The combination argues for modeling contract commitment and actual retention separately.
 
 Digital-only improvement also belongs in this comparator. ISS describes activity-based scheduling and customer requests independently of floor robots. Better scheduling can reduce unnecessary cleaning or improve timeliness without replacing the worker. Assigning the same avoided work to both digital scheduling and robotics would overstate the combined benefit.
+
+### Restaurant napkin workflow comparison
+
+Continuation dated 7 November 2026. FG-CMP-03 in the existing customer evidence package covers **M09 accommodation/foodservice**, restaurant linen preparation and service handoff. It adds no employment total, synthetic model cell or calibrated coefficient. The manual arm is a **proposed measurement protocol**, not an observed staffing study. The three equipment arms are source-described candidates awaiting the same qualification test.
+
+The service unit is **one unique accepted napkin with the required finish and stack at the designated handoff on time**. Match textile, dimensions, condition, fold, acceptance, stack, handoff and demand before comparing alternatives. A restaurant may require clean/ironed inputs, particular presentation and batches before service peaks. A faster folding station can still fail that service if feeding, inspection, transport or inventory is the bottleneck. Conversely, a slower station may suffice when buffers and demand allow it. These are mechanisms to test, not observations about this deployment.
+
+#### What was verified, and what it permits
+
+| Source record | Bounded source context | Permitted use |
+| --- | --- | --- |
+| K-E039/K-E040, [Dyna's August 2026 account](https://www.dyna.co/research/scaling-customer-deployments) | Reported restaurant folding, quality and stacking; staff carry the output onward. The hourly clock basis is unspecified. | The existing source helper gives 1,590.3 from rate × quality × window, about 6.02% over the stated target **if those denominators align**. This is conditional station-output arithmetic, not observed paid labor removal or financial ROI. |
+| FG-E015, [Din Tai Fung Santa Clara service posting](https://din-tai-fung.careerplug.com/jobs/920918/apps/new), undated | $18.20/hour advertised base for a bundled front-of-house role covering busser, cashier, greeter and food-runner/expo duties. | Employer/job context only. It is not a napkin time study, loaded labor cost, actual paid schedule, or an identified Dyna deployment site. Tips and benefits are not added without their own accounting. |
+| FG-E016/017, [Prima Folder BETA](https://www.primafolder.com/en/product/napkin-folding-machine-beta/), undated | Advertised maximum of 1,200 items/hour, manual or laundry-line use, optional French fold and operator-return stacking. Licensed Corvina assistance and prepaid support hours are described. | A specialist candidate and support boundary. The source does not match restaurant acceptance or clock basis. Nonexpiry applies to prepaid hours; perpetual software permission is unestablished. |
+| FG-E018, [Prima Folder FOLDERIX](https://www.primafolder.com/en/product/folderix-napkin-and-towel-folding-machine/), undated | Manual input, model-dependent positioning assistance, belt/air-blade longitudinal folds, mechanical cross-folding and collection conveyor. | A separate configuration candidate. BETA's rate, options and service terms are not FOLDERIX specifications. |
+
+All four source URLs were read on 7 November. Publication dates remain unknown where not stated. The exact employer page was available through Exa Fetch after direct retrieval failed. This confirms its advertised text, not that the role is currently filled, that every duty consumes a measured share of a shift, or that the site is part of the robot cohort.
+
+The Dyna helper and its caveats remain authoritative in [the Generalist/Dyna analysis](research/generalist_dyna_deployment.md) and the saved frontier-model source summary. If the hourly rate already includes stops, another downtime multiplier would discount the same loss twice. If it is active-time only, actual wall-clock exposure is required before using the conditional time margin. Eighteen robot hours cannot be converted into eighteen paid human hours removed. Quality failures and refolding also require unique-item accounting: a successful retry is not a second accepted napkin.
+
+#### Compare the whole workflow
+
+The following is a boundary to measure, with source-described features clearly separated from unknown work. It is not a staffing allocation inferred from product marketing.
+
+| Work to include | Manual baseline | Specialist equipment: BETA or FOLDERIX | Dyna robot |
+| --- | --- | --- | --- |
+| Input and loading | Observe retrieval, sorting, presentation and folding, including interruptions. | Count manual feeding or all upstream feeder/ironer assets and work. Select the exact model and options first. | Measure replenishment and setup; autonomous feeding is not established here. |
+| Acceptance and rework | Apply the same finish test; record rejects, refolds and scrap. | Measure accepted unique items, not gross cycles; include operator inspection and recovery. | Reconcile reported quality with unique accepted items, local recovery and any remote review. |
+| Stack and handoff | Observe stacking, collection and delivery to the chosen handoff. | Qualify stack geometry and collection; a return conveyor is not delivery to the dining room. | Test required stack placement and staff collection; distinguish station completion from timely restaurant supply. |
+| Cleaning and reset | Count workstation cleaning, preparation and consumables. | Count changeovers, textile jams, cleaning and utilities. | Count cleaning, setup changes, resets and local assistance. |
+| Maintenance and support | Record relevant supervision and process support. | Include service work, spares, training, connectivity and purchased assistance; terms are configuration-specific. | Include field service, hardware replacement, monitoring, model/compute and human support by the responsible actor. |
+
+A valid study would retain item IDs, attempt IDs and timestamps at input, machine completion, acceptance and handoff. It would record active time, wall-clock time, planned stops, starvation, blocking and repairs separately. It would include representative rush and quiet periods and disclose selection, missing observation windows and uncertainty. Record all person-minutes once, including simultaneous duties and remote work; do not count an operator's whole shift independently against every task. This is a proposed protocol requiring future records, not an instruction or authorization to run an experiment now.
+
+The manual comparator should include feasible improvements to scheduling and work organization, as well as current practice. A digitally improved human baseline can change preparation timing or batching. Such improvements must be costed and measured independently before attributing them to robotics; the same removed task cannot be credited twice.
+
+#### From released time to a cash decision
+
+Four outcomes need different evidence:
+
+1. **Released task time:** less active human effort for matched output. Workers may perform other paid duties.
+2. **Capacity:** more on-time accepted service, valuable only against a binding demand or service constraint.
+3. **Avoided hiring or overtime:** a credible counterfactual staffing requirement and a documented avoided commitment.
+4. **Actual paid labor removed:** lower paid hours or payroll under feasible schedules, after remaining duties and coverage are met.
+
+The advertised base wage cannot determine which outcome occurs. A team might spend less time folding while retaining the same paid shifts to greet, handle cash, run food and reset service. Another operating pattern could avoid overtime or a future hire. Neither can be inferred from the job posting or a folding rate. Schedule constraints, peaks, breaks, coverage and management authority determine what is actually avoidable; loaded employer cost remains a separate missing input.
+
+Keep three ledgers. **Customer cash** compares actually avoidable baseline payments with retained wages, utilities and materials, equipment/integration outlays, fees, ramp, working capital and financing at their dates. **Provider cash and resources** records collected fees against hardware, commissioning, local/remote service, spares, model/compute and capital obligations, naming the supplier, operator, integrator and financier. **Consolidated resources** counts the underlying labor, materials, energy, asset use and support once, eliminating internal fees and finance transfers. A bundled fee and the provider resources it funds cannot both be charged as additional consolidated resource use. Capital spending and depreciation are not two independent cash outlays.
+
+The published sources leave contract prices, staffing/schedules, the accepted-output denominator, asset responsibility, model/data rights, service obligations, ramp and financing unqualified. Therefore FG-CMP-03 keeps ROI, payback, cost per accepted napkin and paid labor removed explicitly unknown. A conditional price interval could be computed only after those boundaries are populated; multiplying a vendor rate by a job-posted wage would not supply them.
+
+#### What changes the entry and provider thesis
+
+This comparison raises the hurdle for a model-led provider: qualifying the robot's service is necessary, but the relevant customer outside option includes a specialist machine with retained human work and a better organized manual process. A ratio of BETA's maximum item rate to Dyna's reported rate would compare different denominators and does not rank productivity. If a qualified specialist configuration meets the same service at lower full cost and acceptable flexibility, it weakens a general-purpose-model premium. If varied linens, presentation, layout or other useful work require costly specialist changes, a flexible robot could earn a premium—but only with measured reconfiguration, support and contract evidence.
+
+For a **standalone operating newco**, napkin capacity is not a complete restaurant business. A linen-service proposition must acquire customers and fund setup, collection/delivery, inventory, staff, ramp and receivables. For an **acquisition**, existing demand, laundry assets and schedules may shorten ramp, while purchase price and inherited obligations can capitalize or absorb the expected benefit. A **hybrid** could combine shared preparation with existing laundry and site partners; transport, hygiene, buffers, permission and partner fees might undo pooling benefits. These are distinct hypotheses within F, not new observed firms.
+
+Workstream G remains separate: equipment supplier, robotics/model provider, operator, integrator, asset owner and financier can coexist. RaaS does not identify their actual obligations. The same qualified technology must be available to a prompt incumbent in the entry counterfactual; incumbents may already own the customers, workforce and specialist assets. Any durable advantage must survive that comparison and any provider-mediated learning available to competitors.
+
+**Next question:** can a new operator log, accepted specialist test, staffing schedule or disclosed contract identify which paid work and cash obligation changes for the same on-time service? The inspected public pages do not close that gap. Stop this source branch until a materially new artifact arrives; continue the broader H/I/J and A–K queue rather than expanding source counts or calling whole-system economics complete.
 
 ### Where a customer-side newco could enter
 
@@ -692,7 +754,7 @@ Tennant–Brain illustrates a complementary distribution/software structure rath
 
 ### Coverage, limitations and next questions
 
-The two cell comparisons provide sourced mechanisms at fixed technical/workload baselines. They do not estimate a causal effect of ownership. The entrant case specifies equal robot access, commissioning, runway, customer acquisition, demand conservation and competitive response as an explicit scenario. The four enterprise formation routes and distinct provider arrangements are preserved. Fifteen market families have a qualitative entry screen, mostly hypotheses rather than investigated field cases.
+The two original cell comparisons provide sourced mechanisms at fixed technical/workload baselines. The November M09 comparison adds a service definition and measurement protocol; it does not increase the six deep-cell count or establish a matched cost result. They do not estimate a causal effect of ownership. The entrant case specifies equal robot access, commissioning, runway, customer acquisition, demand conservation and competitive response as an explicit scenario. The four enterprise formation routes and distinct provider arrangements are preserved. Fifteen market families have a qualitative entry screen, mostly hypotheses rather than investigated field cases.
 
 The highest-value next evidence is a coherent pair of customer and supplier contracts plus measured operating exposure. Exact fees, accepted output, support time, cancellation, collections and redeployment determine whether an attractive unit margin is financeable. Public procurement and regulatory disclosures are the next authorized research route; no outreach is assumed.
 
@@ -1716,6 +1778,10 @@ No inspected source identifies Monster's exact executed policy revision. Its ope
 
 The next useful desk-research step is a matched operating-cost and workflow comparison for one customer service, including conventional specialist equipment and digitally improved human work. A source disclosing price without loading, quality review and maintenance is insufficient; a throughput claim without the time basis is insufficient. Where those documents remain unavailable, keep an explicit disclosure gap and use conditional sensitivity, rather than creating an empirical number. All earlier A–J coverage and open model-finance work remain in scope. The [sole-lead review](reviews/generalist_dyna_review.md) records the verification boundaries.
 
+#### Matched customer-service continuation
+
+Edition 0.12 connects this source arithmetic to [the restaurant workflow comparison](research/customer_value.md#restaurant-napkin-workflow-comparison), FG-CMP-03 in the existing customer package. It adds separately scoped employer and specialist-equipment evidence and a proposed manual baseline. The comparison preserves unique accepted handoffs, retained work, clock uncertainty and customer/provider resource boundaries. It supplies no missing price, paid staffing reduction, ROI or synthetic-model coefficient.
+
 #### Reproduced customer-output boundary
 
 | Reported restaurant service | Value |
@@ -1886,14 +1952,14 @@ Generated source: [scenario_summary.csv](model/results/scenario_summary.csv). No
 
 | preset | status | scenario_hash | year | active_stock_expected_units | baseline_equivalent_hours | cumulative_baseline_equivalent_hours | newco_peak_funding_usd | newco_funding_gap_usd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| reference | synthetic_illustration | 08baf515c7f886d325978e60e3c7b51c7cdb734448934789f6c80c6e50f3d418 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666666 | 1084000.0 | 484000.0 |
-| delayed_supply | synthetic_illustration | c8eedbd369ea7952c950e107ae210b4dab1d13a224211d292accca66ef82d272 | 2033 | 60.0 | 100824.93571428572 | 249689.80714285717 | 1084000.0 | 484000.0 |
-| service_stress | synthetic_illustration | 9eb28d89192a31314bc673a651b50872ebcf4f9646848a25f3d2a1ace82ec094 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.79999999999 | 1084000.0 | 484000.0 |
-| ample_supply_unready | synthetic_illustration | e6684f94afb468f9e318582376e6121b8be2fdb7fed30637d87e4012ab218711 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
-| digital_first | synthetic_illustration | 5180ffc5431e8eac44b70e450444899ec62beb6a59c218be4c82ef10b0f7ef30 | 2033 | 38.0 | 63079.71428571429 | 297632.6 | 1084000.0 | 484000.0 |
-| limited_transfer | synthetic_illustration | 58cfd91e24b5177e9cc31d86e607f128e8dbb7dcd50303e886bbd7ad9abecd03 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
-| newco_raas | synthetic_illustration | 749388a7c0a8592039b25f5aba62a9aae69ba370d4e2940dceca0611cde8403e | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 516500.0 | 0 |
-| prompt_response | synthetic_illustration | c8fd9141f2e28da3f9b1c486f93c76cde51918ca68b7c750cea9035018c4abca | 2033 | 38.0 | 63065.50714285714 | 297050.61309523805 | 716000.0 | 116000.0 |
+| reference | synthetic_illustration | 4ae406a8513c6e976c3bc7389d5ec68d8cc38d993076444b013db2180f822336 | 2033 | 44.0 | 74393.33571428571 | 376256.0416666666 | 1084000.0 | 484000.0 |
+| delayed_supply | synthetic_illustration | f1c0767607b8a9bc14047074c21fc99bc6cf5dad89c24a15ae3fbe680128d60a | 2033 | 60.0 | 100824.93571428572 | 249689.80714285714 | 1084000.0 | 484000.0 |
+| service_stress | synthetic_illustration | d1c08ad2dcd45d63de5c827764c3eb0cae0d1bf66575865d94e893679c299ef0 | 2033 | 6.757575757575758 | 10677.313636363637 | 68533.8 | 1084000.0 | 484000.0 |
+| ample_supply_unready | synthetic_illustration | 6660658b49733cd50aab8d04ab88c63188335c28a1e3bdc2ec472cd2dd5e4577 | 2033 | 6 | 10456.457142857142 | 35301.71428571428 | 1084000.0 | 484000.0 |
+| digital_first | synthetic_illustration | 8acf4bdd6d8b03c3de4ae94f28b418fda21ee820f93fb5be5dfb99b1a6a12f17 | 2033 | 38.0 | 63079.71428571429 | 297632.60000000003 | 1084000.0 | 484000.0 |
+| limited_transfer | synthetic_illustration | 510f03a1b057774e68a5c71673cc3404b7fe69b05c079eace6a2a7737f0778e1 | 2033 | 44.0 | 77965.43830204081 | 389368.46020272106 | 1084000.0 | 484000.0 |
+| newco_raas | synthetic_illustration | 7eb8f7ffa94f830e86d3158a8d5725c6bc4b7edfe2c324eb141020266e9a7704 | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 516500.0 | 0 |
+| prompt_response | synthetic_illustration | 3a5cace6ef655a6236c5c6813dd418509e2d6dbcc6223d0f0d4cc3231fd36963 | 2033 | 38.0 | 63065.50714285714 | 297050.6130952381 | 716000.0 | 116000.0 |
 
 ### What the scenario contrasts teach
 

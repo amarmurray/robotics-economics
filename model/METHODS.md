@@ -128,3 +128,8 @@ See [ARCHITECTURES.md](ARCHITECTURES.md) for the explicit resource, allocation a
 ### Customer-service source arithmetic, continuation 7 November 2026
 
 `deployment_source_arithmetic` in `frontier_models.py` uses K-E039's matched population, observation period and reported fold-rate/quality/window units. It reproduces rounded output and an output margin; it supplies no financial return or paid-labor estimate. The additional time-loss sensitivity is conditional on an active-time rate, whose basis remains undisclosed. The base arithmetic applies no extra uptime discount. Dyna mixed task-ceiling and partially credited language metrics cannot become whole-job probabilities, and all source checks remain outside the scenario engines.
+
+
+## Exact replay across Python versions
+
+The cloud continuation exposed a last-binary-digit difference in two annual totals when the accepted snapshot was run on Python 3.12/3.13. Python documents a change to floating-point [sum in version 3.12](https://docs.python.org/3/library/functions.html#sum). The engine now explicitly adds annual baseline-equivalent and released human hours in their published cell order. This preserves the frozen scalar oracle instead of rewriting its expected hashes or loosening tolerances. It is a reproducibility convention, not a new economic coefficient or greater empirical precision. The other calculations and assumptions are unchanged; code/provenance fingerprints change.

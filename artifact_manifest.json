@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "post-window-continuation-0.11",
+  "snapshot_id": "post-window-cloud-continuation-0.12",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "ce26e03e3cc50c530bfcd5b510d106b7af555c80243478906a91166d3e0a4f4c",
-      "version": "post-window-continuation-0.11"
+      "sha256": "17c2df61ac1ea1cdb62aa85163bdd707bef2415e19cb8f7775ea9585bcb340ff",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "AGENTS.md",
@@ -75,8 +75,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "post-window-continuation-0.11",
-      "sha256": "63fa96ba2d9b5e07c5ba955cc80cdaec35a977a6b83cce40cc131fc6490d6277"
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "edfa8d6c424bf2719dc6620dbdcc9d53d6345ea733b17787b06907aaa5f1fa98"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,15 +117,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "9493f38f7d854a98fe028cd415146aa4f81d0d29e93868b59a4d52565acb2ecb",
-      "version": "post-window-continuation-0.11"
+      "sha256": "e3700efcecdb347829ddca15bf26b8da04221c9cd322ee2b410ea27a9668ffce",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "3fe06763eed0d700b5f74fd5d88f8c13b2b1be6a471fad05071c5f4f660d3c71",
-      "version": "post-window-continuation-0.11"
+      "sha256": "b1511242586a4aee050c15872982ed4108a2bfbf21b2e2aae76620732634e580",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -138,8 +138,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "post-window-continuation-0.11",
-      "sha256": "383602f5186fb2f0a7c4d50b51689f65d0d3e06e3924a8e04dd8fa6cfb5160b9"
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "f45bcd657e2f57928489b8fa316d9e7addd5259a12cecdd69f84b20d902cc561"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -180,8 +180,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "ac38cfb987e892d4b968bbb6d400ec0d02cd9b60f277a25bccef7921965c2f86",
-      "version": "post-window-continuation-0.11"
+      "sha256": "2585656f117052c458147efbaed8b5ca595f9aa5731fb470af5e9f2b01f2fee7",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -194,8 +194,8 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "b3652c157b942b6beef3a401fa9d8ccf9ce51623645d61109cb7dc601ad29954",
-      "version": "post-window-continuation-0.11"
+      "sha256": "f20dc504917fe879ac7161e15ebbf808982b12901d415d0b1117b9f0bc418108",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "dashboard/facets.js",
@@ -208,8 +208,8 @@
       "repository_path": "dashboard/index.html",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/index.html",
       "name": "index.html",
-      "sha256": "4bf608331d97afd9649299a7eb6a2e49baee4f3775724f93da53ac24806334da",
-      "version": "post-window-continuation-0.11"
+      "sha256": "71417589361dba28b97fa890cb3ce5669b7fcac119f0b314bdd1161490c5b719",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "dashboard/scenario_io.js",
@@ -250,8 +250,8 @@
       "repository_path": "data/customer_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/customer_evidence.json",
       "name": "customer_evidence.json",
-      "sha256": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
-      "version": "week-one-in-progress-0.1"
+      "sha256": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "data/digital_evidence.json",
@@ -334,8 +334,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "2cfa3b8723179dbb5e445f0d03fb5602c2539332d82fc70322b74a2fd2b5717a",
-      "version": "post-window-continuation-0.11"
+      "sha256": "5b87bf8041623e07338e9bd3b1b29d9093c1941f1f389d0e413dd76f86c4d564",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -383,8 +383,8 @@
       "repository_path": "model/METHODS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/METHODS.md",
       "name": "METHODS.md",
-      "sha256": "3558c317897ed9cde11c02232ffdad46f05b188ecd1114fd5b7f98dcba38bef8",
-      "version": "post-window-continuation-0.11"
+      "sha256": "ec84485e6f9ef7ab02054c3bb8d28e4ce6714bd54f2293013a80a276c5eecef4",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/MONTHLY_COMMERCIAL.md",
@@ -460,8 +460,8 @@
       "repository_path": "model/engine.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/engine.py",
       "name": "engine.py",
-      "sha256": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
-      "version": "week-one-in-progress-0.7"
+      "sha256": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/evidence.py",
@@ -537,8 +537,8 @@
       "repository_path": "model/results/ample_supply_unready.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/ample_supply_unready.json",
       "name": "ample_supply_unready.json",
-      "sha256": "91dea88437df0c0353afda001d3b24ac5c8b375d1eb29e51b30baaad80c9d2e3",
-      "version": "post-window-continuation-0.11"
+      "sha256": "f8364a73a42f35c1dc0ba0c7dbaa09ab747106ef69c1164950bf472fbb939431",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/ample_supply_unready_components.csv",
@@ -572,22 +572,22 @@
       "repository_path": "model/results/annual_digital_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/annual_digital_comparison.json",
       "name": "annual_digital_comparison.json",
-      "version": "post-window-continuation-0.11",
-      "sha256": "9340ccab11e65aa56837d273bdd6c0e727ea922b1ad8b04bcf8b7b85e3210db5"
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "5723fa00081308bce683820c0083581fdf17cd2fbc9038eb46152024c0809fc7"
     },
     {
       "repository_path": "model/results/architecture_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_comparison.json",
       "name": "architecture_comparison.json",
-      "version": "post-window-continuation-0.11",
-      "sha256": "5e1383ce8dc91c9d7f0458a412e2301f487c2b32a4c5c7a2fdc0a764286a3adc"
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "d75b55584f516f0361bd40951adcf28b868cfa1e361a531ec5d113b5ef807e44"
     },
     {
       "repository_path": "model/results/architecture_experiments.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_experiments.json",
       "name": "architecture_experiments.json",
-      "version": "post-window-continuation-0.11",
-      "sha256": "fbf7d151665965957bbb478d6f48c3c8bd1aeae9f47e107b9be4af907f844f77"
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "8fd17a260c1cc23da024338532e99ce59a98693e063dac32b15691bcb832fb26"
     },
     {
       "repository_path": "model/results/coordination_witnesses.json",
@@ -600,8 +600,8 @@
       "repository_path": "model/results/delayed_supply.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/delayed_supply.json",
       "name": "delayed_supply.json",
-      "sha256": "cae9a564754114090cde11e83886837d180f9544aaeafe948a00694161509c5a",
-      "version": "post-window-continuation-0.11"
+      "sha256": "729f31fa76237bc1f7e0a05b925fec3afa597d2a3c345aa0e00da0f6df451ea1",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/delayed_supply_components.csv",
@@ -635,8 +635,8 @@
       "repository_path": "model/results/digital_first.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/digital_first.json",
       "name": "digital_first.json",
-      "sha256": "f5a1d596b7a863d8220df3bbea9a8eb1362c2a881a6500248f1b94f68245a59f",
-      "version": "post-window-continuation-0.11"
+      "sha256": "be56ecea2fbbab119e41299a7696748ccc27bbef35d0e476d27cb0c26511c8bc",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/digital_first_components.csv",
@@ -684,8 +684,8 @@
       "repository_path": "model/results/limited_transfer.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/limited_transfer.json",
       "name": "limited_transfer.json",
-      "sha256": "4b28ce3e085be70e7432204e0656edbbc284168ebbc2d806b306cbf4b36b251e",
-      "version": "post-window-continuation-0.11"
+      "sha256": "95aab4fb2ba180ed771b5e28d67e14b06f14e58e9cfe4ac552c2ff3fe0c483ea",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/limited_transfer_components.csv",
@@ -733,8 +733,8 @@
       "repository_path": "model/results/newco_raas.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/newco_raas.json",
       "name": "newco_raas.json",
-      "sha256": "5a4d3a404d516e5321bacae4559e550b0a130d573ff5e3b9e553e436b313ae6b",
-      "version": "post-window-continuation-0.11"
+      "sha256": "5504958fbc778e8f2473eead6d208a8194630d78011fa4af1ace08c2aeaf2c21",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/newco_raas_components.csv",
@@ -789,8 +789,8 @@
       "repository_path": "model/results/prompt_response.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/prompt_response.json",
       "name": "prompt_response.json",
-      "sha256": "49412bf91b246406baaecb5ff5826785db947dd1d8769646cdb02d408a0e33b9",
-      "version": "post-window-continuation-0.11"
+      "sha256": "75be972d9ce6dc449fe877731f76a9815c5448305ed47c4e0aed62a214a487d0",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/prompt_response_components.csv",
@@ -824,8 +824,8 @@
       "repository_path": "model/results/reference.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/reference.json",
       "name": "reference.json",
-      "sha256": "43e70493ee849f09361b407eae2dfca4a55666be14a15a93628f6cc9f6256a8f",
-      "version": "post-window-continuation-0.11"
+      "sha256": "833f579ca9bdbfacbe24a709709a58e723c2ef8b08e65b53a930369adf349c3a",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/reference_components.csv",
@@ -859,15 +859,15 @@
       "repository_path": "model/results/scenario_summary.csv",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/scenario_summary.csv",
       "name": "scenario_summary.csv",
-      "sha256": "a9ef1691e7cdc2f14fb3970607e7a435a5ae1cd52ee3675ba6c88363479045f4",
-      "version": "week-one-in-progress-0.7"
+      "sha256": "cf1ad67315db26e2f325168401cc0e71ca82347944c5670a6f5d1d0caf68d790",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/service_stress.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/service_stress.json",
       "name": "service_stress.json",
-      "sha256": "61143e36f65cc58032b04fbd45b258768d22c8bee930b5fa9da42b8e14507e66",
-      "version": "post-window-continuation-0.11"
+      "sha256": "22f1b07ecf8f24dbcb7c06a665b340f9fc9f590f5bbe7aad03eaf5af645a57b4",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "model/results/service_stress_components.csv",
@@ -964,8 +964,8 @@
       "repository_path": "research/customer_value.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/customer_value.md",
       "name": "customer_value.md",
-      "sha256": "69f85c87f13381a0ba8f37bf1577de1365890cc37fe0d44ab453144b9e5c908a",
-      "version": "week-one-in-progress-0.9"
+      "sha256": "b872073522812bf2196ac1feaa5b09a02cb45efb255ad9122fe0d449b5526796",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "research/digital_ecosystem.md",
@@ -1013,8 +1013,8 @@
       "repository_path": "research/integrated_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/integrated_decisions.md",
       "name": "integrated_decisions.md",
-      "sha256": "f7d8e2ceab3974773666f1ecd6a1408b0915d2c889031ba92178ec57b4889e42",
-      "version": "week-one-in-progress-0.4"
+      "sha256": "c8b9690c56e9b787189e845a1410a2dc4289b93d5455eaf8c7b2dddfbeb2f598",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "research/intelligence_architecture_scenarios.md",
@@ -1314,8 +1314,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "55f548e340defb9c9635cdcfa113de7f5c4ec4c88d980cf520e3d401b05f80e7",
-      "version": "post-window-continuation-0.11"
+      "sha256": "90cd04efad6b6f06f68d8723ffb9010ffd9310c8e2a17ff453ec399cce98b0c0",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "scripts/export_architectures.py",
@@ -1517,8 +1517,8 @@
       "repository_path": "research/generalist_dyna_deployment.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/generalist_dyna_deployment.md",
       "name": "generalist_dyna_deployment.md",
-      "sha256": "529ff6bbde393df3bdc710c074b8cc51a09aee9506919cdc743857115fa50541",
-      "version": "post-window-continuation-0.11"
+      "sha256": "6ca622aa5b5ca3f20e79917d0775a562163852055ff18430a41ee054e3983cd2",
+      "version": "cloud-napkin-continuation-0.12"
     },
     {
       "repository_path": "reviews/generalist_dyna_review.md",
@@ -1526,6 +1526,13 @@
       "name": "generalist_dyna_review.md",
       "sha256": "12c20d1b3a5cd3b4a7628b48585d115e1c7b157a30209bcb99c7a015c7c1caa5",
       "version": "post-window-continuation-0.11"
+    },
+    {
+      "repository_path": "reviews/napkin_workflow_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/napkin_workflow_review.md",
+      "name": "reviews/napkin_workflow_review.md",
+      "version": "cloud-napkin-continuation-0.12",
+      "sha256": "6e9c436a997c40988d73fffbf78a3df3934429f9f02160881fc71865953ef5e1"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -1595,7 +1602,7 @@
     "physical_requirements_crosswalk": "research/physical_requirements_crosswalk.md",
     "physical_requirements_source_manifest": "data/sources/physical_requirements/source_manifest.json",
     "accepted_evidence_package_count": 13,
-    "accepted_claim_count": 180,
+    "accepted_claim_count": 184,
     "frontier_models_report": "research/frontier_models.md",
     "frontier_models_evidence": "data/frontier_model_economics.json",
     "frontier_architecture_scenario_status": "synthetic_conditional_implemented_real_costs_unknown",
@@ -1605,6 +1612,13 @@
     "regional_frontier_models": "research/regional_frontier_models.md",
     "regional_frontier_review": "reviews/regional_frontier_review.md",
     "generalist_dyna_analysis": "research/generalist_dyna_deployment.md",
-    "generalist_dyna_review": "reviews/generalist_dyna_review.md"
+    "generalist_dyna_review": "reviews/generalist_dyna_review.md",
+    "customer_workflow_comparison": {
+      "id": "FG-CMP-03",
+      "evidence": "data/customer_evidence.json",
+      "analysis": "research/customer_value.md",
+      "review": "reviews/napkin_workflow_review.md",
+      "status": "qualitative_service_protocol_full_economics_unknown"
+    }
   }
 }

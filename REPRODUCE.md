@@ -130,3 +130,12 @@ Providers & systems shows the source checks; Business models shows layered grant
 ## Generalist/Dyna continuation source boundary
 
 The 7 November 2026 continuation uses the same `export_frontier_models.py` command and existing frontier tests. The summary adds Dyna's reported restaurant rate/quality/window arithmetic, mixed task-ceiling scores and partial-credit language scores. Unknown financial ROI, paid labor removal and observed uptime remain explicit. A conditional time-loss budget is not an extra measured availability factor. Providers & systems shows these source checks; Customer adoption retains four distinct operator/reference cards. See [the analysis](research/generalist_dyna_deployment.md) and [sole-lead review](reviews/generalist_dyna_review.md). No scenario coefficient changes.
+
+
+## Restaurant workflow and cloud replay, edition 0.12
+
+The existing customer package now includes FG-E015–FG-E018, the separately scoped advertised pay/item-rate quantities, and FG-CMP-03. Customer adoption shows the four alternatives, retained work, measurement protocol, distinct labor outcomes and customer/provider/consolidated boundaries. Source buttons open the original records. This M09 reference is outside the six synthetic cells and remains fixed when annual scenario controls change. No rate or wage enters the assumptions.
+
+Fresh cloud checks ran on Python 3.12.14 and Node 24.22.1, using Chromium for local browser verification. The first unmodified run passed 195 of 196 Python tests: the exact frozen scalar hash failed because two annual-hour sums used Python-version-dependent float aggregation. The engine now preserves their historical addition order; all 69,315 frozen numeric fields match without a changed oracle. All 196 tests then pass; a focused Python 3.13 replay provides a separate portability check. Earlier Mac results remain historical.
+
+See [the sole-lead review](reviews/napkin_workflow_review.md) for the final checks and evidence limits. These checks establish execution and this bounded checkpoint, not continuous weekday uptime or activation of a native goal. No supported goal-creation control is exposed here.

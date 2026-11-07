@@ -23,6 +23,19 @@ def catalog():
     return json.loads(ASSUMPTIONS.read_text())
 
 
+def ordered_total(values):
+    """Preserve the published annual-hour totals across Python versions.
+
+    Python's built-in float sum changed in 3.12. These two historical totals
+    used left-to-right addition; pin that order for exact saved-case replay.
+    This is a reproducibility rule, not an extra rounding or model assumption.
+    """
+    total = 0
+    for value in values:
+        total += value
+    return total
+
+
 BOUNDS = {
     "years": (3, 15), "capability": (0, 1), "capability_progress": (0, .10),
     "uptime": (0, 1), "intervention_minutes": (0, 60),
@@ -330,8 +343,8 @@ def fleet_model(c, p, resolved_paths=None):
                                     "commissioning_pipeline": sum(q for _, cid, q in transit_queue if next(x for x in cells if x["cell_id"] == cid)["system_id"] == sid)})
         yr = [x for x in cell_rows if x["year"] == year]
         years.append({"year": year, "active_stock": sum(active.values()), "commissioned": sum(commissioned.values()), "retired": sum(retired.values()),
-                      "accepted_baseline_equivalent_hours": sum(x["baseline_equivalent_hours"] for x in yr),
-                      "released_human_hours": sum(x["released_human_hours"] for x in yr), "resource_budgets": budgets, "resource_used": used,
+                      "accepted_baseline_equivalent_hours": ordered_total(x["baseline_equivalent_hours"] for x in yr),
+                      "released_human_hours": ordered_total(x["released_human_hours"] for x in yr), "resource_budgets": budgets, "resource_used": used,
                       "support_existing_required": support_required, "support_existing_used": min(support_required, p["support_budget_hours"]),
                       "support_existing_fraction": support_fraction, "learning_validation_cash_usd": learning_spend,
                       "cumulative_exposure_robot_hours": exposure.copy(),

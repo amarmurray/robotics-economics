@@ -62,3 +62,7 @@ No inspected source identifies Monster's exact executed policy revision. Its ope
 | K: whether model access changes architecture choice | A waitlist, a research recipe and a model-led service relationship are different economic options | Executable access, rights, compatibility, qualified service and negotiated terms |
 
 The next useful desk-research step is a matched operating-cost and workflow comparison for one customer service, including conventional specialist equipment and digitally improved human work. A source disclosing price without loading, quality review and maintenance is insufficient; a throughput claim without the time basis is insufficient. Where those documents remain unavailable, keep an explicit disclosure gap and use conditional sensitivity, rather than creating an empirical number. All earlier A–J coverage and open model-finance work remain in scope. The [sole-lead review](../reviews/generalist_dyna_review.md) records the verification boundaries.
+
+## Matched customer-service continuation
+
+Edition 0.12 connects this source arithmetic to [the restaurant workflow comparison](customer_value.md#restaurant-napkin-workflow-comparison), FG-CMP-03 in the existing customer package. It adds separately scoped employer and specialist-equipment evidence and a proposed manual baseline. The comparison preserves unique accepted handoffs, retained work, clock uncertainty and customer/provider resource boundaries. It supplies no missing price, paid staffing reduction, ROI or synthetic-model coefficient.

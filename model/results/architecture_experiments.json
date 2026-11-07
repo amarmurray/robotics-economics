@@ -3124,7 +3124,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "3a5d3fbb7ba7295394c34394ff6ba0d261ee700db6282a560f0eee0f9956e6b9",
+      "case_hash": "21a697639e1da73aa0b03e10025d477e35c432a541c1513bee1e4cac60ed44bd",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -3185,7 +3185,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -3277,13 +3277,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "c36eeac7f7fda7a0bb701d39094890e9666858f93877fc6d0db88f828feae5fc",
+      "scenario_hash": "fcc9fdb2e8cd940ee2f1a1b095323d2720e3b88b65afee865f4bcb81e06e956a",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -6426,7 +6426,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "4753446e7b258b1e971c9f704671a2321116a0997ae526dcae014a8ff2a870f2",
+      "case_hash": "2dfa788d1abdd23890510d546441baef3182aa6f54c2a97dd745836b399e13e1",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -6487,7 +6487,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -6579,13 +6579,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "779b4e34a6e8336e42db614c33ea386f56615e5fd44dcea5d60465f129f04649",
+      "scenario_hash": "f2b88dad904262fa24f8bb99a487a040ffbc81c46492b449b5a04937dd9ca40b",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -9728,7 +9728,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "395f42bae3416cdc878d23c1fd2b6aaf0848e6b803142b61f0e049bacb6af6cf",
+      "case_hash": "76e33b4a12d8857761fb5e8cf81f689336fce96bc639aaf1f183c4757b7e801c",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -9789,7 +9789,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -9881,13 +9881,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "21de7a4bcc08f7739a01d8b3bac32ef87613934511b214c4da9e50c11c52be12",
+      "scenario_hash": "2cc673cb4348c2aeac29f4b36a5e8ec108017f864a1559e9ab4f731ab54ec524",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -13030,7 +13030,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "fe093c18127632bda115119805f2981b84341fcc1c0018b823977b9553c3d1d6",
+      "case_hash": "fd11ea004cf95bd8c5bf7af79cefe172ac60e56ab07f230ff7862deea323ad05",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -13091,7 +13091,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -13183,13 +13183,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "344b3d70d3e315f6c856931a882c787bf8ee5ca782ad976a5a3f85800e319560",
+      "scenario_hash": "be8f6f9e061759731350e6fb6b0057c64aa6e219dbda0dba6e91219805a72e64",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -16332,7 +16332,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "a6ea33b72a125166deb806e2b1e85bb9b6674366966e2e70242fa79ef84dc57c",
+      "case_hash": "f1d3bd809f1381051aa0ad65edbf53b5513992eb2bbc4dc8bb590d48bb0e1d59",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -16393,7 +16393,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -16485,13 +16485,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "5e2212106ae2bf60939b18bf9a72ce7c0ff30043cde6a8dbfb23c71823bf916b",
+      "scenario_hash": "06c55f402dd3d55129b2d2bfc72d37b23a4e137a3a2199af8a47c914727018b8",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -19634,7 +19634,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "a72a90d4584d4ae58266b3afccd6d1f28bb49804f9b6c16384b1cd4c0b3cef9f",
+      "case_hash": "33b0f1be6edb9a985e127bbed4d51712b1f24a1a7b127f393028ad48dfd68cfe",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -19695,7 +19695,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -19787,13 +19787,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "0cd6e924044d881f94df035001f970d7261cfd29d3c43bb7249300e775c4db87",
+      "scenario_hash": "0e72ba55988dec2863336206581f68f85292c3d9306b6e7192b546a276c45f2e",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -22936,7 +22936,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "3457373cc971caf31123eec55a2394df0269127690a9c715d5b89055504695a5",
+      "case_hash": "417d481d5f62a4278bff8d8455eddc0d2b5b19a4d7e8698e7f9ba4c2e041378c",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -22997,7 +22997,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -23089,13 +23089,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "08baf515c7f886d325978e60e3c7b51c7cdb734448934789f6c80c6e50f3d418",
+      "scenario_hash": "4ae406a8513c6e976c3bc7389d5ec68d8cc38d993076444b013db2180f822336",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -25459,7 +25459,7 @@
         }
       ],
       "capability": 0.9,
-      "case_hash": "2e8ddc3fe5fa1837fcd0da5da951afa7adcfaa259a8db938a04fa7590f010991",
+      "case_hash": "67739455e72a48d774e8f18a82ff30434a9eedaae72db7ca5ff929622304645d",
       "cell": {
         "annual_units_per_site": 16000,
         "capability_threshold": 0.62,
@@ -25520,7 +25520,7 @@
       "evidence_snapshot_hashes": {
         "data/capability_evidence.json": "209bfa7e8ec3fcc45226f5d492b9c6aefa3e562e47ed5c84acba5631c965e2eb",
         "data/coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-        "data/customer_evidence.json": "124511cfc5adc38d544e618e90382d1af2e818b4561cba787a2856e056c50766",
+        "data/customer_evidence.json": "3e27af0d307fb3a302f5f15f16b6511aabbe93b1a913fb5cf581f3debbfe813c",
         "data/digital_evidence.json": "c01b74479509ab2be19faa1aa096b0016e40675f75b30559cb2a4b9e86543fb3",
         "data/digital_infrastructure_evidence.json": "100438f13c8b73cb65bec3b5810e71bce4a4cde501f9fed5023ced55837e8102",
         "data/field_support_denominators.json": "29c73c41507351aa086e14107e843a922c4b364266ff7f55e59363250da8ee30",
@@ -25612,13 +25612,13 @@
           "digital_efficiency": "fraction of baseline human hours removed at matched service"
         }
       },
-      "scenario_hash": "161b24a6816956487cff1867d37e879261362fcc579d847d2b7d80b2369b671e",
+      "scenario_hash": "46d4bab7c3a20dbea488c478004e6f016a23f29d1b003d51ab6f45fd5ef6d480",
       "schema_version": "architecture-comparison/0.1",
       "source_hashes": {
         "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
         "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-        "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+        "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16"
       },
       "status": "synthetic_conditional_reference",
@@ -25644,7 +25644,7 @@
     "model/architecture_assumptions.json": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654",
     "model/architectures.py": "9e620d4a5b0fbbf6528cc0be11d3ed7d5e19812627b5dbbfa736d5052f95493c",
     "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
-    "model/engine.py": "d5f140dfa148b3d6d3ac25180d57b20cb9203237c53d8c8b54aa24cee54bf49e",
+    "model/engine.py": "eeac57d5b0f5c34feaae5ef59fcdbc348f10f394d2ddba47f83102424037ab48",
     "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
     "scripts/export_architectures.py": "7df0735e111f2d5abdfdfd6253b0e3e65615dc704cdec4258a39e658ea96814f"
   },

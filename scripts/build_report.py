@@ -33,6 +33,7 @@ def chapter(text, depth=1):
     s='\n'.join(lines).strip()
     s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../reviews/','(reviews/').replace('(../RESEARCH_', '(RESEARCH_')
     for path in (ROOT/'research').glob('*.md'):
+        s=s.replace('('+path.name+'#','(research/'+path.name+'#')
         s=s.replace('('+path.name+')','(research/'+path.name+')')
     return s
 
@@ -42,9 +43,9 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.11, continuation dated 7 November 2026 after the original campaign deadline. Generalist and Dyna now add adaptation, scaling-protocol and customer-service evidence, with an explicit distinction between an output threshold and financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
+Edition 0.12, continuation dated 7 November 2026 after the original campaign deadline. The customer chapter now integrates a matched restaurant napkin-service protocol across manual, specialist-equipment and robotics alternatives, preserving unknown whole-system costs and paid labor effects. Generalist/Dyna adaptation and source-output arithmetic remain distinct from financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna continuation was retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
 Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. That original deadline has passed. The user requested continuation on 7 November; no new deadline, work during the interruption or uninterrupted-compute claim is implied.
 
@@ -54,7 +55,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled. The requested cloud transfer was not confirmed; the user resumed this local continuation on 7 November. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled. That earlier cloud transfer was unconfirmed. After edition 0.11, the user authorized one new cloud execution chat because the old executor could not be reattached. This continuation executes in the published robotics-economics cloud environment after fresh shell, repository, byte-hash, test and dashboard checks. The original chats and canonical Mac checkout remain preserved; no continuous execution between sessions is claimed. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 ''']
     contents=[]
     headings=[f'{i}. {title}' for i,(title,_) in enumerate(CHAPTERS,1)]+[

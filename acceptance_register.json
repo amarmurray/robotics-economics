@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "post_window_continuation_0.11_2026-11-07",
+  "edition_status": "post_window_cloud_continuation_0.12_2026-11-07",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -869,11 +869,14 @@
         "dashboard/app.js",
         "model/METHODS.md",
         "reviews/model_review.md",
-        "reviews/browser_review.md"
+        "reviews/browser_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Synthetic alternatives conserve matched output and avoid duplicate mixed-process gains. Real whole-system cost and acceptance equivalence remain unestablished for the sourced embodiment comparisons; hypothetical factors cannot close that gap."
+        "finding": "Synthetic alternatives conserve matched output and avoid duplicate mixed-process gains. Real whole-system cost and acceptance equivalence remain unestablished for the sourced embodiment comparisons; hypothetical factors cannot close that gap.",
+        "napkin_cloud_continuation": "FG-CMP-03 defines a matched restaurant service and all retained work, but the source alternatives lack a matched acceptance/clock/cost study. This requirement stays partial."
       },
       "gap": "Synthetic alternatives conserve matched output and avoid duplicate mixed-process gains. Real whole-system cost and acceptance equivalence remain unestablished for the sourced embodiment comparisons; hypothetical factors cannot close that gap.",
       "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
@@ -1007,11 +1010,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Employment, observed/unknown hours, accepted units, baseline-equivalent hours, payroll avoidance, revenue and consolidated cost are explicitly separated. No employment × 2,080 conversion or occupational-share automation estimate is accepted."
+        "finding": "Employment, observed/unknown hours, accepted units, baseline-equivalent hours, payroll avoidance, revenue and consolidated cost are explicitly separated. No employment × 2,080 conversion or occupational-share automation estimate is accepted.",
+        "napkin_cloud_continuation": "The M09 protocol separates unique accepted handoffs from attempts and station output; task time, capacity, avoided hiring/overtime and paid labor removed remain distinct."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1129,7 +1135,9 @@
         "model/results/shared_enterprise.json",
         "model/results/enterprise_funding_bridge.json",
         "research/shared_enterprise_finance.md",
-        "reviews/shared_enterprise_review.md"
+        "reviews/shared_enterprise_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
@@ -1138,7 +1146,8 @@
         "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete.",
         "monthly_commercial": "Stage3 reuses physical and Treasury engines for sale/lease/provider-service contracts. Ten witnesses and saved-input replay verify price transfers, title/custody, support/arrears and refunds. Sole-lead review; common entrant demand and full company funding schedules remain open.",
         "shared_enterprise": "Eight shared-market worlds and interactive controls link actual physical cohorts, human shifts, customer assignments, due obligations, delivered-work invoices and funded equity. 22 focused tests, full API/CLI/browser replay and a fixed-policy funding boundary pass under sole-lead review.",
-        "current_review": "reviews/shared_enterprise_review.md"
+        "current_review": "reviews/shared_enterprise_review.md",
+        "napkin_cloud_continuation": "Customer cash, provider cash/resources and consolidated resources are separately specified for napkin service. Unknown prices, paid schedules, rights, ramp and financing do not calibrate the shared model or close its remaining finance gaps."
       },
       "gap": "Scheduled debt servicing/maturity, autonomous reinvestment, full default/recovery, cross-cell portfolio finance, annual/K cost bridges and empirical cost/qualification remain incomplete.",
       "next_action": "Constrain the shared case with consequential source evidence; implement remaining loan/reinvestment and broader portfolio contracts without treating unobserved terms as calibrated."
@@ -1154,11 +1163,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Integrated report develops H/I/J and cross-workstream strategy, with unknowns and source-backed adverse findings. Length exceeds guidance and can be condensed; it does not call the campaign finished."
+        "finding": "Integrated report develops H/I/J and cross-workstream strategy, with unknowns and source-backed adverse findings. Length exceeds guidance and can be condensed; it does not call the campaign finished.",
+        "napkin_cloud_continuation": "The matched napkin comparison is integrated in the existing customer chapter and generated report, with substantial H/I/J and other A–K content retained."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1174,11 +1186,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Dashboard/API, saved scenarios and quantitative report exports use one engine; observed-statistics transformations are separately authoritative. Offline launch instructions and version hashes are present."
+        "finding": "Dashboard/API, saved scenarios and quantitative report exports use one engine; observed-statistics transformations are separately authoritative. Offline launch instructions and version hashes are present.",
+        "napkin_cloud_continuation": "Fresh cloud execution identified and corrected Python-version-sensitive aggregation for two annual-hour totals; the original frozen scalar hashes remain the oracle."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1237,11 +1252,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "The 55-question ledger and ranked continuation queue retain dependencies, evidence needs, decision consequences and stopping conditions. Access-dependent questions are distinguished from immediately tractable public-source/CPU work."
+        "finding": "The 55-question ledger and ranked continuation queue retain dependencies, evidence needs, decision consequences and stopping conditions. Access-dependent questions are distinguished from immediately tractable public-source/CPU work.",
+        "napkin_cloud_continuation": "Seven existing question records gain bounded findings and a new-evidence trigger; original IDs and completion conditions remain."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1277,11 +1295,14 @@
         "ACCEPTANCE_AUDIT.md",
         "RESEARCH_ROADMAP.md",
         "HANDOFF.md",
-        "reviews/acceptance_review.md"
+        "reviews/acceptance_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "Separate evidence, accounting/model, browser and this acceptance review exist, with consequential findings and recorded correction dispositions. Audits remain bounded; this is not universal source or experimental verification."
+        "finding": "Separate evidence, accounting/model, browser and this acceptance review exist, with consequential findings and recorded correction dispositions. Audits remain bounded; this is not universal source or experimental verification.",
+        "napkin_cloud_continuation": "This continuation is reviewed by its sole writer under the one-agent limit. Historical independent reviews remain historical; no new independent reviewer is claimed."
       },
       "gap": "Bounded checkpoint requirement met; limitations retained in independent review.",
       "next_action": "Preserve checks after changes; continue campaign evidence priorities."
@@ -1439,13 +1460,16 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "reviews/napkin_workflow_review.md",
+        "research/customer_value.md"
       ],
       "validation": {
         "review": "reviews/frontier_models_review.md",
         "finding": "Five explicit implications connect metric boundaries, data reuse, control/compute placement, organization/value capture and effective outside options to A–J; records are joined to existing views.",
         "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit.",
-        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation."
+        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation.",
+        "napkin_cloud_continuation": "Dyna's source arithmetic now connects to a customer/specialist outside-option protocol without inferred payroll, perpetual licenses or model calibration."
       },
       "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
       "next_action": "Use artifact rights, operator authority and metric/control boundaries to constrain subsequent source-led and conditional scenario comparisons."
