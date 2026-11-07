@@ -21,6 +21,7 @@ from model.calendar_bridge import bridge_artifact, run_bridge_case, replay_bridg
 from model.monthly_architectures import architecture_execution_artifact, run_architecture_case, replay_architecture_execution
 from model.conventional_coordination import coordination_artifact, run_coordination_inputs, replay_coordination
 from model.entry_transitions import entry_artifact, run_entry_case, replay_entry_transition
+from model.utility_inspection import inspection_artifact, run_inspection_case, replay_inspection
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -62,6 +63,12 @@ class Handler(BaseHTTPRequestHandler):
                     "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
+            return
+        if path == "/api/utility-inspection":
+            try:
+                self.send(200, inspection_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
             return
         if path == "/api/entry-transitions":
             try:
@@ -126,7 +133,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures", "/api/conventional-coordination", "/api/entry-transitions"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures", "/api/conventional-coordination", "/api/entry-transitions", "/api/utility-inspection"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
@@ -134,6 +141,13 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > (2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge","/api/monthly-architectures","/api/entry-transitions"} else 200000):
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
+            if endpoint == "/api/utility-inspection":
+                if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
+                    raise ValueError("Expected exactly inputs or saved_case for inspection")
+                if "inputs" in request and not isinstance(request["inputs"],dict):raise ValueError("Inspection inputs must be an object")
+                result=replay_inspection(request["saved_case"]) if "saved_case" in request else run_inspection_case(request["inputs"])
+                self.send(200,{"result":result})
+                return
             if endpoint == "/api/entry-transitions":
                 if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
                     raise ValueError("Expected exactly inputs or saved_case for entry transitions")

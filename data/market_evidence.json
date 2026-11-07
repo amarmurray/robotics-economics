@@ -3672,7 +3672,10 @@
         "QOF-E01",
         "QOF-E03",
         "PHY-E02",
-        "PHY-E04"
+        "PHY-E04",
+        "QOF-E09",
+        "QOF-E10",
+        "QOF-E11"
       ]
     }
   ],
@@ -3775,7 +3778,7 @@
       "cell_id": "CELL-M03-utility-inspection-US-2025",
       "title": "Utility inspection: price the residual visit and accepted information",
       "as_of": "2026-11-07",
-      "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
+      "status": "provisional_decision_pack_bounded_service_replay_empirical_costs_pending",
       "accepted_service": "One scheduled asset/measurement set completed within its required window, with validated measurement quality, coverage and reviewer disposition; any required maintenance action is a separately identified downstream service.",
       "evidence_refs": [
         "QOF-E01",
@@ -3785,7 +3788,10 @@
         "QOF-E06",
         "QOF-E07",
         "PHY-E02",
-        "PHY-E04"
+        "PHY-E04",
+        "QOF-E09",
+        "QOF-E10",
+        "QOF-E11"
       ],
       "alternatives": [
         {
@@ -3870,7 +3876,13 @@
         }
       },
       "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
-      "evidence_consequence": "TenneT selected inspectable points; site-wide residual work is unmeasured. A targeted later operator search did not produce a new closeout and the TenneT domain was blocked to retrieval. No rollout, abandonment or zero value is inferred. Existing National Grid and TenneT observation vintages remain separate."
+      "evidence_consequence": "Configuration, accepted point coverage, expert disposition and remaining field duties jointly determine substitution. QOF-CMP-UTILITY-RESIDUAL now includes fixed sensing and a wheeled comparator. Whole-system cost and actual paid labor removed remain unknown.",
+      "executable_challenge": {
+        "id": "DE-CF03",
+        "artifact": "model/results/utility_inspection.json",
+        "scope": "Synthetic due-window point union, review/fallback deadlines and funded residual visits; no empirical calibration.",
+        "reversal": "A final unaccepted point can retain the entire visit bill; complete remote coverage still does not cancel committed staff or separate physical duties."
+      }
     },
     {
       "decision_id": "DE-PACK-AUTO",

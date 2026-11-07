@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "2026-10-25-v0.2",
-  "retrieved_at": "2026-10-25T16:29:17Z",
+  "version": "2026-11-07-v0.3",
+  "retrieved_at": "2026-11-07T23:02:23Z",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -360,6 +360,84 @@
         }
       ],
       "target_parameters_allowed": []
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "retrieved_at": "2026-11-07T23:02:23Z",
+      "source_class": "primary",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E09",
+      "title": "Experience from Pilot Implementation of Substation Inspection Robots in Thailand’s High Voltage Substations",
+      "url": "https://www.e-cigre.org/publications/detail/b3-12057-2026-experience-from-pilot-implementation-of-substation-inspection-robots-in-thailands-high-voltage-substations.html",
+      "publisher": "CIGRE; authors ARIDEJ Suwapan and LAOHANAN Surawit",
+      "publication_date": "2026",
+      "observation_period": "Two pilot sites; observation dates and exposure not given in public summary",
+      "epistemic_status": "primary_publisher_summary_of_field_pilot_full_paper_unread",
+      "locator": "Public Summary; reference B3_12057_2026; site and limitations paragraphs",
+      "claim": "Wheeled inspection at Ayutthaya 2 and Bang Pa-in 1 encountered path and visibility constraints. Unfamiliar equipment could produce unreadable or erroneous readings; trained staff still checked thermal findings. A detected thermal imbalance led to maintenance.",
+      "limitations": "Public summary only; paid paper unread. Utility identity, configuration, observation interval, site allocation of counts, attempts, acceptance and complete costs are unresolved. Mock anomalies are tests, not naturally occurring defect detections. No avoided-failure value or payroll effect is established.",
+      "access": "public_publisher_summary_only_no_purchase",
+      "quantities": [
+        {
+          "metric": "Reported inspection rounds",
+          "value": 150,
+          "unit": "rounds",
+          "qualifier": "strictly_greater_than",
+          "denominator": "Site allocation and attempts not specified; not an acceptance denominator",
+          "population": "Ayutthaya 2 and Bang Pa-in 1 pilots; pooled versus per-site meaning unresolved",
+          "period": "Undated pilot reported in 2026",
+          "measurement_status": "public_summary_reported_count",
+          "locator": "Summary, paragraph beginning Bang Pa-in 1"
+        },
+        {
+          "metric": "Reported individual inspection points",
+          "value": 600,
+          "unit": "points",
+          "qualifier": "strictly_greater_than",
+          "denominator": "Unique versus repeated points and site allocation unresolved; do not divide by rounds",
+          "population": "Same two Thai pilot sites",
+          "period": "Undated pilot reported in 2026",
+          "measurement_status": "public_summary_reported_count",
+          "locator": "Same paragraph"
+        }
+      ]
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "retrieved_at": "2026-11-07T23:02:23Z",
+      "source_class": "primary",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E10",
+      "title": "Thermal Imaging Cameras for Substation Monitoring",
+      "url": "https://www.flir.com/en-ca/discover/instruments/utilities/thermal-imaging-cameras-for-substation-monitoring/",
+      "publisher": "FLIR",
+      "publication_date": "2023-09-12",
+      "observation_period": "Undated application configurations and unnamed utility anecdotes",
+      "epistemic_status": "supplier_application_description_not_matched_economic_study",
+      "locator": "Principles of thermal imaging; Typical System Configurations",
+      "claim": "Describes permanent thermal cameras, optional pan/tilt mounts, communications, threshold alerts and remote reporting; an A310 configuration illustrates the system.",
+      "limitations": "No target-site accepted coverage, review burden, staffing or complete cost. Unnamed repair/failure anecdotes are not a causal matched comparison. Thermal monitoring does not establish every visual reading or physical maintenance duty.",
+      "access": "public_supplier_article_full_text",
+      "quantities": []
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "retrieved_at": "2026-11-07T23:02:23Z",
+      "source_class": "primary",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E11",
+      "title": "Substation Robot Application",
+      "url": "https://transmission.epri.com/p37_substations/public/robotics/substation_robot_application/",
+      "publisher": "EPRI",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Public overview has no dated publication field; footer year is not publication date.",
+      "observation_period": "Proposed platform and sensor-package evaluation; not a reported operating cohort",
+      "epistemic_status": "primary_research_plan_not_completed_performance",
+      "locator": "Substation Robot Application, phase-one and phase-two paragraphs",
+      "claim": "Separates platform evaluation, autonomous charging/navigation, sensor integration and subsequent demonstration at the Lenox test facility.",
+      "limitations": "Round-the-clock inspection is a research objective/requirement, not demonstrated availability. Detailed test plans/specifications returned login restrictions; no full qualification protocol or outcome inferred.",
+      "access": "public_overview_only_detailed_documents_access_restricted",
+      "quantities": []
     }
   ],
   "deployments": [
@@ -623,7 +701,53 @@
       "ETH direct bitstream 429; full chapter recovered through Exa",
       "Corporate sustainability search did not constitute full report audit",
       "No external contact, paid procurement data, field telemetry or benchmark execution"
-    ]
+    ],
+    "decision_campaign_followup": {
+      "date": "2026-11-07",
+      "scope": "Utility residual visits and fixed sensing; later retention searched without an established closeout.",
+      "recovered": [
+        "QOF-E09",
+        "QOF-E10",
+        "QOF-E11"
+      ],
+      "access_limits": [
+        "EPRI detailed test plan and functional specification: HTTP 401.",
+        "EPRI meeting attachment: login redirect.",
+        "CIGRE full PDF: paid/member/delegate access; only public summary read."
+      ],
+      "inference_limit": "Search absence does not establish abandonment. No accounts, purchases or outreach."
+    }
   },
-  "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)"
+  "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)",
+  "inspection_comparison": {
+    "comparison_id": "QOF-CMP-UTILITY-RESIDUAL",
+    "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+    "evidence_ids": [
+      "QOF-E01",
+      "QOF-E03",
+      "QOF-E09",
+      "QOF-E10",
+      "QOF-E11"
+    ],
+    "status": "qualification_and_service_boundary_comparison_not_cost_calibration",
+    "alternatives": [
+      "digitally organized human route",
+      "fixed sensing",
+      "wheeled inspection",
+      "quadruped inspection",
+      "qualified mixed coverage"
+    ],
+    "service_key": "site + due window + required point + measurement specification + accepted reviewer disposition",
+    "decision_rule": "Count the union of accepted point identities once. A residual required point, separate field duty or explicit replacement restriction may retain the visit. Only an actually changed paid commitment changes payroll.",
+    "unknowns": [
+      "target coverage and quality at each configuration",
+      "rights and replacement authority",
+      "support and expert-review exposure",
+      "retained staffing and funded visit terms",
+      "all-actor lifecycle cost and maintenance benefit"
+    ],
+    "source_role": "The wheeled pilot and fixed-sensing description qualify alternatives; neither counts as a third quadruped operating-economics dossier.",
+    "synthetic_replay": "model/results/utility_inspection.json",
+    "target_parameters_allowed": []
+  }
 }

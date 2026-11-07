@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.18.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.19.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded acquisition and hybrid entry, edition 0.18
+## Current checkpoint: utility inspection and residual visits, edition 0.19
+
+The same campaign remains active: **T0 2026-11-07T20:12:27Z**, **deadline 2026-11-14T20:12:27Z**. The supported cloud status remains connected/running and real shell execution succeeded in `/workspace/robotics-economics`; the same published configuration and sole writer are preserved. Native goal/quota controls remain unexposed. No new task, schedule, executor, agent, paid resource or campaign clock was created.
+
+[The utility decision](research/utility_inspection_decision.md), [methods](model/UTILITY_INSPECTION.md) and eighteen complete worlds add bounded **DE-CF03**. Twelve unique required readings in each of four synthetic windows must qualify, pass quality and receive timely review. Fixed and mobile coverage combine as a union; a residual point, field duty or required presence retains the human visit. Human capacity, deadline and actual resource funding gate fallback. The unchanged Treasury supplies settlement, with its time index explicitly used as a transaction sequence rather than financial months; this is not a new monthly-fleet bridge.
+
+Eleven remote points release 176 field person-minutes across the fixture but retain all four visits and $1,000 committed crew pay. Complete coverage removes visits but retains committed staffing; an actually avoidable per-visit contract changes that cash result. The conditional mobile-versus-human equality is a $120 crew bill per avoided visit under the declared window fees. One rejected point or 23 rather than 24 review minutes retains every visit. Duplicate captures cannot create extra accepted points and still consume provider resources. Paid customer fees can coexist with provider resource failure. All figures are synthetic and exclude lifecycle economics or avoided outages.
+
+QOF-E09..E11 extend the existing operator package with a public pilot-summary comparator, fixed-sensing application description and research qualification plan. CIGRE's full paid paper was not read; EPRI detailed material returned login restrictions. Those access limits stop only those retrievals. No purchase, account creation, bypass or outreach occurred. Target acceptance, staffing, support, rights and all-actor lifecycle bills remain unknown. No third quadruped economic dossier or employment expansion is claimed.
+
+**Fresh validation:** **315 Python tests**, including seventeen focused tests, thirty seeded adverse worlds and new HTTP replay; **36 Node assertions**, all JavaScript syntax, strict evidence, physical extraction/summary, frontier and relevant export checks. All thirteen browser views pass, including eighteen inspection worlds, source drawers, controls, pending/invalid/stale behavior, point/funding traces and complete export/import. Browser and CLI complete replay agree; tampered outcomes are ignored and the panel was visually inspected. [The review](reviews/utility_inspection_review.md) records scope and corrections.
+
+All **430,760 typed numeric fields across 26 earlier JSON results** are unchanged. Fifteen remain byte-identical; eleven refresh evidence snapshot hashes only. Prior engines/catalogs, 69 legacy statuses and 65 question statuses remain unchanged. Evidence now has 13 packages, 189 claims, 368 quantities and 104 null markers. Legacy acceptance stays **53 bounded met / 16 partial**; nine bounded challenge families do not close the active campaign. All **265 registered hashes** and **509 relative Markdown links** verify with no broken links before scoped normal publication; the exact observed SHA is kept in the ignored receipt.
+
+**Next execution:** investigate the automotive workcell comparison against fixed automation and redesigned part presentation, tied to exact acceptance/takt/configuration and sustained-support evidence. Then qualified supply/support and endogenous-learning/physical-R&D challenges. Preserve substantive H and the entire A–K scope; do not expand inspection accounting into invented maintenance or legal conclusions.
+
+**Next question:** under a matched accepted workcell output and takt, which measured residual handling or reconfiguration requirement justifies a general-purpose robot over fixed automation, and what changes when the hardware/software cohort loses support?
+
+## Previous checkpoint: funded acquisition and hybrid entry, edition 0.18
 
 The same campaign remains active with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Work continues in `/workspace/robotics-economics` with the same sole writer and cloud configuration. No task, executor, agent, schedule or campaign clock was replaced. Native goal/usage controls remain unexposed; no earned reset or uninterrupted-execution claim is made.
 

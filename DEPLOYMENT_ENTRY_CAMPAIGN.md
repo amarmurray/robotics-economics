@@ -43,3 +43,8 @@ The [exact observed-queue comparator](research/conventional_coordination.md) add
 ## Funded entry checkpoint, edition 0.18
 
 Fifteen [share-transition worlds](research/entry_transitions.md) add bounded DE-CF06/07 and advance the build/acquire/hybrid requirement. A funded purchase changes ultimate ownership while target legal accounts, customers, physical units and obligations persist; target/growth working cash needs separate actual transfers. Failed closing retains prior diligence, and declared interruption retains staffing without inventing fallback. Eight challenge families now have bounded implementations. Real service economics, transfer rights, valuation, asset purchase/redeployment, supply and learning remain incomplete. The same goal clock continues; this checkpoint does not complete the campaign.
+
+
+## Utility inspection checkpoint, edition 0.19
+
+The [residual-visit analysis](research/utility_inspection_decision.md) adds bounded DE-CF03 with eighteen complete fixed/mobile/human worlds. Unique accepted measurements, review capacity, physical duties, replacement premises and funded visits determine service. Nine challenge families now have bounded implementations; empirical costs, automotive workcells, qualified supply and learning remain partial. Three public-source records retain their access/status limits. This checkpoint preserves the same active T0/deadline and does not complete the campaign.

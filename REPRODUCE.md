@@ -22,6 +22,7 @@ python3 scripts/export_calendar_bridge.py --check
 python3 scripts/export_monthly_architectures.py --check
 python3 scripts/export_conventional_coordination.py --check
 python3 scripts/export_entry_transitions.py --check
+python3 scripts/export_utility_inspection.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -219,3 +220,8 @@ python3 scripts/export_entry_transitions.py --case downloaded.json --output repl
 ```
 
 The API is `/api/entry-transitions`. [Methods](model/ENTRY_TRANSITIONS.md) define funded all-or-none share closing, unchanged operating identities/obligations, fixed wider cash consolidation and unknown terminal value. No asset purchase or real legal/valuation conclusion is inferred.
+
+
+## Utility inspection service replay
+
+In Embodiment comparisons, use the utility-only inspection panel to inspect eighteen complete worlds or change coverage, review capacity, deadline, staffing contract and operating cash. Results count unique accepted point/windows and complete service separately; changing annual cell scope does not relabel these utility units. Edits are pending until applied. Invalid or stale calculations preserve the last valid export. Reload recomputes complete inputs and ignores saved outcomes. Run `python3 scripts/export_utility_inspection.py --case saved.json --output replay.json` for CLI replay. See [methods](model/UTILITY_INSPECTION.md) for exact units, cash boundaries and missing lifecycle costs.

@@ -1,8 +1,8 @@
 # Robotics Economics — integrated research report
 
-Edition 0.18, funded-entry-transition checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Fifteen complete worlds add share acquisition, separate operating capitalization, inherited liabilities, transition interruption and hybrid growth to the existing calendar/physical/Treasury loop. Ownership cannot create demand, move lease title or erase obligations. Prior coordination, finance and architecture cases remain intact. Service-specific alternatives, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.19, utility-inspection checkpoint of the Deployment and Entry Decision campaign, 7 November 2026. Eighteen complete worlds test unique accepted readings, fixed/mobile coverage, expert review, residual field visits, retained staffing and funded provider resources. Three bounded primary-source records sharpen qualification and access limits without calibrating numerical costs. Prior entry, coordination, finance and architecture cases remain intact. Automotive workcells, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The financing mechanisms remain synthetic. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
 The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
@@ -111,6 +111,11 @@ Research should then target the observation most likely to change that decision.
 
 The accepted learning sequence can begin from this report while the campaign continues. Amar's first task is to explain these boundaries, challenge the six initial theses and identify the smallest observation that would change a preferred course. Understanding is not inferred from having a dashboard or reading a report. The thesis register and guided walkthrough supply prompts; they do not predetermine a startup, employer, investment or technical contribution.
 
+
+### Utility service gate, edition 0.19
+
+The [inspection comparison](research/utility_inspection_decision.md) exposes a discrete adoption boundary: the last required reading can retain a complete paid visit, and complete remote coverage can still leave staff or physical duties paid. Qualified fixed sensing is an explicit challenger to mobile sensing. Provider cash must fund the work; a customer payment alone does not establish it. These exact synthetic counterexamples sharpen the utility recommendation while leaving empirical lifecycle costs and monitoring benefits unresolved.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -201,13 +206,13 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01/02/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Fifty-nine rows do not establish the missing utility/automotive, qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
+The following names track intended challenge coverage. **DE-CF01/02/03/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Nine families and seventy-seven rows do not establish missing automotive, qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
 | DE-CF01 retained-paid-shift — bounded implementation | Four matched branches deliver 4,180 synthetic zones and retain $38,400 of paid shifts despite sharply different task hours; staffing optimization and observed paid-work removal remain open |
 | DE-CF02 urgent-human-fallback — bounded implementation | The exact mixed queue retains paid courier coverage; removing its reserve preserves four completions but misses mandatory service. Delay, urgent fast path, outages and full-attempt cash are explicit; real service evidence remains open |
-| DE-CF03 residual-inspection-visit | Selected robot points do not eliminate the full mandatory visit |
+| DE-CF03 residual-inspection-visit | Bounded executable: complete accepted-point coverage, review capacity, physical duties and actual paid commitments jointly determine whether a funded visit disappears |
 | DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
 | DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
 | DE-CF06 acquire-without-new-demand — bounded implementation | Funded share transfer changes ultimate owner while the target legal account, customers, physical units, leases, receivables and liabilities remain; price is not working capital |
@@ -222,7 +227,12 @@ The following names track intended challenge coverage. **DE-CF01/02/06/07/08/11/
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the remaining service-specific alternatives and qualification evidence, starting with utility residual visits/fixed sensing and the automotive workcell comparator. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
+The next substantive work is the remaining service-specific alternatives and qualification evidence, starting with the automotive workcell comparator and then target qualified supply/support. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
+
+
+#### Utility service challenge, edition 0.19
+
+The [inspection decision](research/utility_inspection_decision.md) now gives the utility pack a replayable service contract. Eleven of twelve remotely accepted points keep all visits; complete coverage still preserves committed crew pay, physical field duties or required presence. Fixed/mixed coverage and provider-funded resources are explicit alternatives. The $120 synthetic avoidable-crew-bill switch applies only to equal complete service and declared window bills, not real lifecycle economics. Proceed with qualification and observation design, wait on labor/rollout economics, and reject a particular substitution that drops a due obligation.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1977,6 +1987,92 @@ References to the checkpoint reuse `PHY-E02` and `PHY-E04`; they are not new ind
 The search covered operator/coauthored technical results, later procurement/pilot outcomes, and adverse cost/selection evidence. Grace’s Düren case was also examined. Its [supplier-published account](https://www.anybotics.com/news/anymal-contributes-to-chemical-facility/) quotes a customer’s extrapolated 1.5% annual uptime increase after describing six months of regular operation. It does not disclose the failure counterfactual, complete costs or accepted-output denominator. A later distributor republication is the same evidence lineage. It was therefore not promoted to an independent operator-economic validation or added as a third dossier. BASF and PETRONAS searches mainly returned supplier descriptions of trials and partnerships, so they were not used to pad coverage. [QOF-E08; search log in JSON]
 
 This bounded investigation found two decision-relevant episodes but no public, complete cost per accepted inspection and no verified 2025–26 retention decision for either TenneT cohort. Search absence is not evidence of abandonment. The next valuable artifact is a dated pilot closeout with: the full due-inspection inventory; selected and excluded points; attempts, accepted measurements and interventions; reviewer/support hours; maintenance actions and their counterfactual; a complete supplier/integrator cost schedule; and the scale, repeat, redesign or stop decision. That would distinguish labor substitution from improved monitoring, and technical possibility from a repeatable operating business.
+
+
+#### Decision-campaign extension, 7 November 2026
+
+The [residual-visit analysis](research/utility_inspection_decision.md) and QOF-CMP-UTILITY-RESIDUAL in the existing structured package now compare qualified fixed, wheeled, quadruped and mixed sensing against complete due service. QOF-E09..E11 retain their separate source roles and access limits. The executable DE-CF03 challenge uses synthetic assumptions; it does not add a third quadruped economic dossier, resolve the historical retention gaps or price actual avoided outages.
+
+### Focused follow-up: Utility inspection, fixed sensing and residual visits
+
+Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
+
+Edition 0.19 continues the same Deployment and Entry Decision campaign. The question is narrower than whether a robot can move around a substation: **which required service is accepted, what physical work remains, and which paid commitment actually changes?** The existing utility decision pack remains provisional because a matched all-actor lifecycle ledger is still unavailable. The new [replay](model/results/utility_inspection.json) supplies eighteen synthetic service-boundary challenges, not empirical unit economics.
+
+#### What the evidence changes
+
+The [existing operator follow-up](research/quadruped_operator_followup.md) remains the anchor for incomplete coverage, selected-route bias and retained human interpretation. Its [structured package](data/quadruped_operator_followup.json) now adds QOF-E09..E11 and the comparison QOF-CMP-UTILITY-RESIDUAL. They widen the alternative set without adding another labor total or claiming a third quadruped economic dossier.
+
+QOF-E09 is the public publisher summary for [CIGRE B3_12057_2026](https://www.e-cigre.org/publications/detail/b3-12057-2026-experience-from-pilot-implementation-of-substation-inspection-robots-in-thailands-high-voltage-substations.html); the full paid paper was not accessed. QOF-E10 is [FLIR's fixed-monitoring application description](https://www.flir.com/en-ca/discover/instruments/utilities/thermal-imaging-cameras-for-substation-monitoring/), a supplier source rather than a matched customer cost study. QOF-E11 is [EPRI's public research overview](https://transmission.epri.com/p37_substations/public/robotics/substation_robot_application/), whose objectives must remain distinct from completed performance. Exact factual claims, dates, access limits and ambiguous denominators are retained once in the evidence records. Detailed EPRI specifications/test plans returned login restrictions; no access was bypassed and no purchase or contact was made.
+
+These sources support a qualification-first decision. A mobile inspection proposal must establish useful measurement coverage at the exact site and configuration. A fixed-sensing proposal must demonstrate the same required information at the same deadlines, including visibility, sensor modality, communications and reviewer disposition. Neither movement nor a permanent sensor mount alone establishes that equivalence. A thermal measurement cannot silently stand for an unrelated visual, acoustic, contact or hands-on task. The synthetic channels therefore receive explicit point-level qualification assumptions rather than a generic embodiment efficiency multiplier.
+
+The analysis separates three propositions that need different evidence: a sensor supplies a useful reading; that reading completes the required inspection set; and the completed set permits an actual paid visit or shift to be removed. A reliable new stream of measurements may be valuable without the latter two. Its value would then need a defensible information/maintenance counterfactual, not an invented labor saving or avoided outage.
+
+#### Matched service and the competent alternatives
+
+The service key is **site, due window, asset/point, measurement specification and accepted disposition**. Keep a complete original inventory, including inaccessible and unattractive points. Record attempts separately from unique accepted outputs. More samples of an already accepted point do not fill a missing point or create additional completed inspection sets. An independently due field duty stays separate even when its site visit can be shared.
+
+| Alternative | Evidence needed before substitution | Costs and work that can remain |
+| --- | --- | --- |
+| Organized human route with digital records | Complete due inventory, qualified crew, routing/deadline and review protocol | Travel, access/setup, field measurements, interpretation and retained roster |
+| Fixed sensing | Qualified information at every assigned point, communications and ongoing verification | Installation/maintenance, sensor or network failures, review and uninstrumented work |
+| Wheeled mobile inspection | Same information gate plus traversable paths and repeatable viewpoints | Site adaptation, charging, support, recovery and excluded points |
+| Quadruped inspection | A site-specific reason legs improve accepted service over wheels/fixed sensing | All sensing/review obligations plus mobility support; no automatic manipulation value |
+| Mixed sensing and people | Union of complementary accepted coverage, shared deadlines and exact responsibility | Overlap still costs resources; a residual field duty can preserve the visit |
+
+A humanoid or manipulator should enter this comparison only when a measured residual action or access limitation is consequential and the additional system qualifies for it. An arm's possible ability to open a door is a testable service hypothesis, not permission or proof that the entire operating boundary is satisfied. This keeps morphology downstream of service requirements.
+
+#### What the executable challenge establishes
+
+[Methods](model/UTILITY_INSPECTION.md) specify four independent windows, twelve required readings per window, exact review and fallback timing, paid field capacity, provider resources and Treasury settlement. All amounts and durations below are illustrative inputs. Eighteen full inputs/outcomes can be replayed; they are one bounded DE-CF03 family, not eighteen empirical observations or completed campaign requirements.
+
+The organized human baseline completes all four windows with 592 field person-minutes. Mobile coverage of eleven points per window releases 176 field person-minutes, but every human visit remains. Once review and provider support are counted, modeled used person-time falls by only 48 minutes. Committed crew cash remains $1,000 over the four windows, and operator outlay rises from $1,080 to $1,640. Initial integration/manufacturing labor is not enumerated, so this is not a complete real labor ledger. It is a concrete counterexample to converting selected-task time directly into payroll savings.
+
+With all twelve readings remotely accepted, no field duty and assumed replacement authority, human visits fall to zero. Under the committed-staff contract, crew pay remains $1,000. Under an actually avoidable per-visit contract, the same monitoring operation has $560 of operator outlay and no field-crew bill. Its human comparator costs four times the crew visit bill plus $80 travel. The synthetic equality is **$120 of crew cost per avoided visit**. This equality excludes lifecycle assets, financing and failure value; it is a conditional contract switch, not a real quoted break-even price.
+
+The final point matters discontinuously. One rejected or unqualified reading retains all four visits; under the default per-visit contract, operator outlay becomes $1,840 rather than $560. Review capacity creates the same result: twelve readings need 24 reviewer person-minutes per window, while 23 leaves one point without an accepted disposition. Reducing review cost without preserving the quality/deadline gate cannot close that point.
+
+The fixed-sensing and mixed worlds test a genuine alternative rather than assuming mobility is necessary. If fixed sensing is assumed qualified for all twelve points, its declared window fees produce $340 of outlay with no visits under the avoidable contract. This is a conditional mechanism, not evidence that an actual fixed installation is cheaper. In the mixed complementary case, 56 raw captures produce 48 unique accepted point-windows and no visits. In the overlap case, 76 captures still leave the final point missing in every window. Increasing capture count is therefore neither a service-completeness measure nor a justification for charging the same benefit twice.
+
+Doubling mobile captures leaves accepted service and duplicate-suppressed review unchanged, but increases provider resource cash by $48. A provider fee does not add physical resources by itself: another world pays $440 in customer fees while the provider cannot fund its resource batch, so no remote captures occur and people still complete the route. That held cash is not earned profit; actual refund and service-credit terms remain unknown.
+
+A required field duty or presence policy keeps visits even with complete readings. The field-duty comparison includes a matching human baseline with the same additional work. A late-fallback case accepts eleven readings per window but misses all four complete-service deadlines. The human-only route can meet that shorter deadline by starting at window opening. This exposes the declared wait-then-dispatch policy; it does not prove mobile sensing inevitably prevents timely fallback. Earlier human reservation would be another intervention with an explicit cost.
+
+#### Recommendation and reversal tests
+
+**Proceed with a bounded qualification comparison** when the full due-point inventory, acceptance and timing requirements are explicit; each candidate has an exact coverage/quality map; review and fallback resources are funded; and the responsible operator has established which obligations can change. This research recommendation does not start a field trial or assert operating authority.
+
+**Wait on the labor-substitution or rollout business case** until actual residual visits, roster/contract changes, support exposure, configured lifecycle bills and rights are observed together. The present evidence narrows the question but does not answer those empirical economics. A separate increased-monitoring thesis may remain worth examining if it has an explicit maintenance-response counterfactual.
+
+**Reject a particular proposed substitution** when it drops a due point or duty, assumes review is free, misses fallback deadlines, treats captures as accepted service, or requires cancelling a paid commitment that remains. Rejecting that business case does not imply the sensor has no informational value.
+
+The next decisive artifact is a complete point/window ledger linked to crew schedules and maintenance work orders. It should show pre-existing requirements, eligible and excluded points, capture/review outcomes, failures and repeats, remote-support and field person-time, visit purpose, actual staffing/contract changes, cash timing, exact configuration and supplier responsibility. Compare improved human records, fixed sensing and the least complex qualified mobile configuration on that same population. Until then, the model's switch points organize measurement; they do not justify an investment ranking.
+
+#### Reproduced inspection-window worlds
+
+| Synthetic inspection world | Complete windows | Human visits | Paid field crew, USD | Operator outlay, USD | External resource cash, USD |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| human_committed | 4 | 4 | 1,000.00 | 1,080.00 | 1,080.00 |
+| human_per_visit | 4 | 4 | 1,200.00 | 1,280.00 | 1,280.00 |
+| human_field_duty | 4 | 4 | 1,200.00 | 1,280.00 | 1,280.00 |
+| mobile_residual | 4 | 4 | 1,000.00 | 1,640.00 | 1,474.00 |
+| mobile_complete_committed | 4 | 0 | 1,000.00 | 1,560.00 | 1,398.00 |
+| mobile_complete_avoidable | 4 | 0 | 0.00 | 560.00 | 398.00 |
+| fixed_partial | 4 | 4 | 1,000.00 | 1,420.00 | 1,336.00 |
+| fixed_complete_avoidable | 4 | 0 | 0.00 | 340.00 | 264.00 |
+| mixed_overlap_residual | 4 | 4 | 1,000.00 | 1,860.00 | 1,610.00 |
+| one_bad_reading | 4 | 4 | 1,200.00 | 1,840.00 | 1,678.00 |
+| review_bottleneck | 4 | 4 | 1,200.00 | 1,840.00 | 1,678.00 |
+| field_duty_remains | 4 | 4 | 1,200.00 | 1,840.00 | 1,678.00 |
+| replacement_not_authorized | 4 | 4 | 1,200.00 | 1,840.00 | 1,678.00 |
+| provider_resource_shortfall | 4 | 4 | 1,000.00 | 1,640.00 | 1,200.00 |
+| fallback_late | 0 | 0 | 1,000.00 | 1,560.00 | 1,398.00 |
+| duplicate_captures | 4 | 0 | 1,000.00 | 1,560.00 | 1,446.00 |
+| unqualified_last_point | 4 | 4 | 1,200.00 | 1,840.00 | 1,678.00 |
+| mixed_complementary | 4 | 0 | 0.00 | 780.00 | 510.00 |
+
+Generated from [utility_inspection.json](model/results/utility_inspection.json). Compare matched complete service before cash. The field-duty row has a matching human field-duty comparator. Fees cancel at the operator/provider perimeter; external resource bills and retained commitments remain. No lifecycle ROI or avoided-outage value is inferred.
 
 ## 8. Frontier robotics models, deployment and value capture
 

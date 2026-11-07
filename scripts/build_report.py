@@ -23,7 +23,7 @@ FOLLOWUPS = {
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md'), ('Dated finance, service continuity and cash recovery', 'financed_execution.md'), ('Digital paths, cohorts and the operating calendar', 'calendar_digital_execution.md'), ('Funded acquisition, inherited obligations and hybrid entry', 'entry_transitions.md')],
  'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md'), ('Competent conventional coordination and mandatory service', 'conventional_coordination.md')],
- 'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
+ 'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md'), ('Utility inspection, fixed sensing and residual visits', 'utility_inspection_decision.md')],
  'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
 }
 def chapter(text, depth=1):
@@ -44,9 +44,9 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.18, funded-entry-transition checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Fifteen complete worlds add share acquisition, separate operating capitalization, inherited liabilities, transition interruption and hybrid growth to the existing calendar/physical/Treasury loop. Ownership cannot create demand, move lease title or erase obligations. Prior coordination, finance and architecture cases remain intact. Service-specific alternatives, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.19, utility-inspection checkpoint of the Deployment and Entry Decision campaign, 7 November 2026. Eighteen complete worlds test unique accepted readings, fixed/mobile coverage, expert review, residual field visits, retained staffing and funded provider resources. Three bounded primary-source records sharpen qualification and access limits without calibrating numerical costs. Prior entry, coordination, finance and architecture cases remain intact. Automotive workcells, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The financing mechanisms remain synthetic. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
 The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
@@ -72,6 +72,15 @@ The initial editions were produced in a cloud checkout. The local continuation b
         out.append(f'## {i}. {title}\n\nAuthoritative chapter: [research/{name}](research/{name}).\n\n'+chapter((ROOT/'research'/name).read_text()))
         for follow_title,follow_name in FOLLOWUPS.get(name,[]):
             out.append(f'### Focused follow-up: {follow_title}\n\nAuthoritative analysis: [research/{follow_name}](research/{follow_name}).\n\n'+chapter((ROOT/'research'/follow_name).read_text(),depth=2))
+    inspection=json.loads((ROOT/'model/results/utility_inspection.json').read_text())
+    for case in inspection['cases'].values():
+        for path,digest in case['source_sha256'].items():
+            if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise SystemExit('Stale inspection dependency: '+path)
+    inspection_table=['| Synthetic inspection world | Complete windows | Human visits | Paid field crew, USD | Operator outlay, USD | External resource cash, USD |', '| --- | ---: | ---: | ---: | ---: | ---: |']
+    for row in inspection['summary']:
+        inspection_table.append(f"| {row['case']} | {row['complete_service_windows']} | {row['visits_completed']} | {row['paid_field_crew_cents']/100:,.2f} | {row['operator_outlay_cents']/100:,.2f} | {row['external_resource_cash_cents']/100:,.2f} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Utility inspection'))+1
+    out.insert(insert_at,'#### Reproduced inspection-window worlds\n\n'+'\n'.join(inspection_table)+'\n\nGenerated from [utility_inspection.json](model/results/utility_inspection.json). Compare matched complete service before cash. The field-duty row has a matching human field-duty comparator. Fees cancel at the operator/provider perimeter; external resource bills and retained commitments remain. No lifecycle ROI or avoided-outage value is inferred.')
     monthly = json.loads((ROOT/'model/results/monthly_commercial.json').read_text())
     for path, digest in monthly['source_sha256'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:

@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.7. The active decision campaign challenges these theses through the [three provisional packs](research/deployment_entry_decisions.md); fourteen financed, eight calendar/digital and ten funded-architecture worlds test five bounded challenge families, while broader integrated coverage remains pending.  These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.8. The active campaign tests nine bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -10,7 +10,7 @@ Version 0.7. The active decision campaign challenges these theses through the [t
 
 **Strongest objection.** Even partial automation may create valuable monitoring or reduce part of a human route; failure to remove an entire visit does not imply zero value. More capable configurations may close the observed gaps.
 
-**Decision implication.** Specify accepted output, all residual work and the alternative process before pricing a deployment. Separate additional monitoring from avoided labor or maintenance losses.
+**Decision implication.** Specify accepted output, all residual work and the alternative process before pricing a deployment. Separate additional monitoring from avoided labor or maintenance losses. The [utility service challenge](research/utility_inspection_decision.md) now demonstrates exact residual-point, review and contract switches alongside fixed sensing. It releases task time without automatically cancelling paid capacity; its numerical thresholds are synthetic.
 
 **What changes the view.** A matched operating cohort demonstrating complete service quality and timing with lower total support and lifecycle cost, including excluded tasks and exceptions. For a target service, stop the public-source branch if only mission totals remain available; preserve unknown economics rather than extrapolate.
 

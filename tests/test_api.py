@@ -39,6 +39,18 @@ class LocalAPI(unittest.TestCase):
         self.assertNotEqual(default["scenario_hash"],changed["scenario_hash"])
         self.assertEqual(run({"preset":changed["preset"],"overrides":changed["parameters"]}),changed)
 
+    def test_utility_inspection_http_replay_and_validation(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/utility-inspection',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        with urllib.request.urlopen(self.base+'/api/utility-inspection') as f:self.assertEqual(len(json.load(f)['cases']),18)
+        r=post({'inputs':{'mobile_points':12,'staffing':'per_visit'}})['result']
+        self.assertEqual(r['summary']['visits_completed'],0)
+        self.assertEqual(post({'saved_case':r})['result'],r)
+        for body in ({'inputs':[]},{'inputs':{'mobile_points':True}},{'inputs':{},'saved_case':{}},{'saved_case':{}},{'inputs':None}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_private_paths_and_invalid_values(self):
         for path in ("/.git/config","/../etc/passwd","/model/engine.py"):
             with self.assertRaises(urllib.error.HTTPError) as err:urllib.request.urlopen(self.base+path)

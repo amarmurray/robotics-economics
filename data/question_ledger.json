@@ -66,9 +66,15 @@
       "decision_consequence": "Compare existing operations with purpose-built production arrangements.",
       "evidence_method": "Map workflows, complements, demand limits, and redesign costs; compare equivalent useful outputs.",
       "dependencies_and_completion": "Deeper, after PL-02/03. Advance when two contrasting processes have defensible baselines.",
-      "findings": [],
-      "artifacts": [],
-      "next_action": "Use first-wave evidence to specify a tractable next investigation; no bounded answer claimed."
+      "findings": [
+        "Edition 0.19 tests fixed sensing and complementary versus overlapping mobile coverage against the same required information. Full remote coverage does not by itself remove committed staffing; target process-redesign cost and rights remain unknown."
+      ],
+      "artifacts": [
+        "research/utility_inspection_decision.md",
+        "model/UTILITY_INSPECTION.md",
+        "model/results/utility_inspection.json"
+      ],
+      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
     },
     {
       "question_id": "RQ-HC-01",
@@ -636,7 +642,8 @@
         "Seven arrangement records and cash comparisons show that moving asset funding can change whose resource constraint binds.",
         "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
         "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access.",
-        "Edition 0.12: Napkin customer cash, provider cash/resources and consolidated resources now have distinct boundaries. Full installed and service prices are absent, so neither RaaS nor nominal speed establishes a feasible price interval."
+        "Edition 0.12: Napkin customer cash, provider cash/resources and consolidated resources now have distinct boundaries. Full installed and service prices are absent, so neither RaaS nor nominal speed establishes a feasible price interval.",
+        "Edition 0.19 separates a committed field roster from a genuinely avoidable visit bill and settles provider resources after customer fees. The exact synthetic crew-bill threshold is conditional on complete service; lifecycle costs, refunds and real contract terms remain unknown."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -650,9 +657,12 @@
         "model/results/enterprise_funding_bridge.json",
         "research/shared_enterprise_finance.md",
         "reviews/shared_enterprise_review.md",
-        "reviews/napkin_workflow_review.md"
+        "reviews/napkin_workflow_review.md",
+        "research/utility_inspection_decision.md",
+        "model/UTILITY_INSPECTION.md",
+        "model/results/utility_inspection.json"
       ],
-      "next_action": "Use a new matched service log, actual staffing schedule or disclosed contract to test FG-CMP-03; stop at the documented public-source gaps and retain this question's original completion condition."
+      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
     },
     {
       "question_id": "RQ-BM-02",
@@ -1103,15 +1113,19 @@
       "dependencies_and_completion": "W1 sector/player map and dossiers alongside PL-01, HC-01, OS-01 and BM-01; deeper with retained deployment and exposure evidence.",
       "findings": [
         "Three quadruped dossiers span operator-supported inspection settings, with retention/support and non-Spot evidence gaps.",
-        "Two TenneT ANYmal episodes add operator-coauthored offshore coverage and a later selective pilot, with later routine retention unknown."
+        "Two TenneT ANYmal episodes add operator-coauthored offshore coverage and a later selective pilot, with later routine retention unknown.",
+        "Edition 0.19 adds fixed-sensing and wheeled qualification comparators to the existing utility package, with primary-summary/supplier/research-plan boundaries; no third quadruped economic dossier or later TenneT retention result is claimed."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
         "data/physical_evidence.json",
         "research/quadruped_operator_followup.md",
-        "data/quadruped_operator_followup.json"
+        "data/quadruped_operator_followup.json",
+        "research/utility_inspection_decision.md",
+        "model/UTILITY_INSPECTION.md",
+        "model/results/utility_inspection.json"
       ],
-      "next_action": "Seek dated pilot closeout and retained operating scope; do not infer abandonment from public silence."
+      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
     },
     {
       "question_id": "RQ-QD-02",
@@ -1123,14 +1137,18 @@
       "dependencies_and_completion": "W1 mechanisms within QD-01 cases, joined to FD-01 and LLM-08; deeper with action and outcome records. Avoided losses stay conditional without identification.",
       "findings": [
         "Inspection requires usable imagery and action workflows; PG&E provides both successful missions and material output limitations.",
-        "385-instrument coverage assessment and robot-suitable point selection show why navigation and selected measurements do not establish complete mandatory visits."
+        "385-instrument coverage assessment and robot-suitable point selection show why navigation and selected measurements do not establish complete mandatory visits.",
+        "Edition 0.19: eighteen synthetic DE-CF03 worlds link unique accepted point/window coverage, review and fallback deadlines, physical duties and actual visit funding. A residual point or field duty can retain the full visit. Source figures do not calibrate costs or avoided outages."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
         "data/physical_evidence.json",
-        "research/quadruped_operator_followup.md"
+        "research/quadruped_operator_followup.md",
+        "research/utility_inspection_decision.md",
+        "model/UTILITY_INSPECTION.md",
+        "model/results/utility_inspection.json"
       ],
-      "next_action": "Recover full due-inspection inventory, excluded points, residual human route and actions taken from readings."
+      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
     },
     {
       "question_id": "RQ-QD-03",
@@ -1485,5 +1503,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Active 7–14 November campaign; edition 0.18 adds fifteen funded acquisition/hybrid worlds. Eight challenge families have bounded implementations; all 65 question IDs/statuses remain and empirical gaps stay explicit."
+  "decision_campaign_note": "Same active T0/deadline. Edition 0.19 adds bounded DE-CF03 and three qualified source records; nine families implemented within stated limits. All 65 question statuses and 69 legacy acceptance statuses remain unchanged."
 }

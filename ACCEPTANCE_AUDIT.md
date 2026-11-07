@@ -1,6 +1,14 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funded entry transitions, edition 0.18
+## New decision campaign: utility residual visits, edition 0.19
+
+The same campaign remains active through **2026-11-14T20:12:27Z**. Eighteen complete inspection worlds add bounded DE-CF03, taking implemented challenge families to nine. Point-level coverage, quality and expert review feed complete due service; residual field duties, presence requirements and paid commitments remain. Fixed sensing and complementary coverage are explicit alternatives. Real lifecycle economics, automotive workcells, qualified supply and learning remain incomplete.
+
+Fresh checks pass **315 Python tests**, including seventeen focused tests, thirty seeded adverse cases and new HTTP replay; **36 Node assertions**, all client syntax and prescribed evidence/physical/frontier/export checks. All thirteen browser views pass, with eighteen inspection worlds, controls, pending/invalid/stale preservation, accepted-point and funding traces, source drawers and exact export/reload. Tampered saved outcomes are ignored. Browser/CLI complete replay agrees and the panel was visually inspected. See [the sole-writer review](reviews/utility_inspection_review.md).
+
+All **430,760 typed numeric fields across 26 earlier result JSONs** are preserved. Fifteen files remain byte-identical; eleven change only evidence provenance hashes. Prior equations/assumptions, 69 legacy statuses and 65 question statuses are unchanged. Evidence now has 13 packages, 189 claims, 368 quantities and 104 null markers. Legacy acceptance stays **53 bounded met / 16 partial**. All **265 registered hashes** and **509 relative Markdown links** verify with no broken links before publication; the ignored receipt holds exact identity. Public-summary-only and restricted-source limits remain explicit, with no purchase or access bypass.
+
+## Previous decision checkpoint: funded entry transitions, edition 0.18
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Fifteen share-acquisition and separate-growth worlds add bounded DE-CF06/07. Eight families now have bounded implementations. Funded closing changes ultimate ownership without new demand, unit duplication, debt forgiveness or assumed lease-title transfer. Real valuations, legal rights, asset purchase/redeployment, remaining service alternatives and empirical economics remain incomplete.
 
