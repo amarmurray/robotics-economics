@@ -19,6 +19,7 @@ from model.monthly_enterprise import enterprise_artifact, run_shared_case
 from model.enterprise_finance import finance_artifact, run_financed_case, replay_financed_enterprise
 from model.calendar_bridge import bridge_artifact, run_bridge_case, replay_bridge
 from model.monthly_architectures import architecture_execution_artifact, run_architecture_case, replay_architecture_execution
+from model.conventional_coordination import coordination_artifact, run_coordination_inputs, replay_coordination
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -60,6 +61,12 @@ class Handler(BaseHTTPRequestHandler):
                     "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
+            return
+        if path == "/api/conventional-coordination":
+            try:
+                self.send(200, coordination_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
             return
         if path == "/api/monthly-architectures":
             try:
@@ -112,7 +119,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures", "/api/conventional-coordination"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
@@ -120,6 +127,12 @@ class Handler(BaseHTTPRequestHandler):
             if length < 0 or length > (2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge","/api/monthly-architectures"} else 200000):
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
+            if endpoint == "/api/conventional-coordination":
+                if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
+                    raise ValueError("Expected exactly inputs or saved_case for conventional coordination")
+                result=replay_coordination(request['saved_case']) if 'saved_case' in request else run_coordination_inputs(request['inputs'])
+                self.send(200,{'result':result})
+                return
             if endpoint == "/api/monthly-architectures":
                 if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
                     raise ValueError("Expected exactly inputs or saved_case for monthly architectures")

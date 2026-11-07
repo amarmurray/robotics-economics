@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "funded-intelligence-checkpoint-0.16",
+  "snapshot_id": "conventional-coordination-checkpoint-0.17",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "a073ccb70600e303a6d9c65b2cf675ea4cf62c9c3b733b8a73616f3a1cbe3311",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "bf5e8f95405871bef5f049ad2c0d2c359dfad0ab1681fb48fc0f2fd94c2eb527",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "AGENTS.md",
@@ -68,8 +68,8 @@
       "repository_path": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "name": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
-      "sha256": "74d8d46be068f385c8060dac7daf7b503714fa07f3b0a6a53dafc7d3697795d7",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "0d5ef526ce6eb918fe04fe6d70b8cce3aac28e84ec9a92221c9c06bb007d96ba",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "funded-intelligence-checkpoint-0.16",
-      "sha256": "0425b8ca4ac742f9c66da105a7c2d10c28c6890ad758838fce7c907668d64dd2"
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "62736db562fb0714be4fe2524ba38f4f212a0f600f6af35a4acb9a709c53dc9f"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -124,15 +124,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "d2c5258588be2dd1992c0ec7efce908e66756b49f47cee18885ccaeda69bd584",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "c3ff747dd983b73cb24c132f59efee5b2e3f7165f973547ab5513459fcb46a0e",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "93e8581477bd4d5e1bfdff6750f397ed886b229b900eb0882bdd7adbd749f1bf",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "96da86dbeee5c866aea9ad7e1fdd032f1bbfd85245707362e3f043990e96b407",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -145,8 +145,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "funded-intelligence-checkpoint-0.16",
-      "sha256": "d7ecdd4ff6e20ae3e96b928f737538aa3f5440fdc0500a0561672316e22770cf"
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "c514b8d1ac31cdf5dd0ae82923bef5b282de0f7ec292c938e72077e72018d3f5"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -173,8 +173,8 @@
       "repository_path": "THESIS_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
       "name": "THESIS_REGISTER.md",
-      "version": "funded-intelligence-checkpoint-0.16",
-      "sha256": "a8f61c0df5e42cbdd2bf47fc850110717e539e4fbaca69ce423e71fb6a4c92be"
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "7d652237dfbabfef8d22f458086255498dc8247ff9ef693e7e4ce2a937e4e1b7"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -187,8 +187,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "7a79efb4729ce22c6b2799caa1e5b2e2df8f8878629c620c9dcfef7de0750978",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "bd3ec72686c029a6b6d8100dc45adaef41af9fc75dedbc2e756eab18026f03b3",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -201,8 +201,15 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "b61d21039b6b2ae2501630ff8e500816644155acd94fd3a9ae28bfc3e325aea8",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "7a7a095cac310c93dcd6f07a63e741634a467795ebf74e378bf52f681ed4f568",
+      "version": "conventional-coordination-checkpoint-0.17"
+    },
+    {
+      "repository_path": "dashboard/conventional_coordination.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/conventional_coordination.js",
+      "name": "conventional_coordination.js",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "9c896b71bf798b7bfeb43b7b2a65b74004db630aa30c5f4f7abf20bd5d39cd6f"
     },
     {
       "repository_path": "dashboard/facets.js",
@@ -215,8 +222,8 @@
       "repository_path": "dashboard/index.html",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/index.html",
       "name": "index.html",
-      "sha256": "4fc0b27804db940ebd1d29b5b09c1e23cf04fad84b29a424ddca1829a3fc04ca",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "bb83c25f2f31861f61ce13487659c3e3919587873557f31dfd63b61f987c2c27",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "dashboard/monthly_architectures.js",
@@ -348,8 +355,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "1e1d284bea739ad4ea9795c95158b4dcbc7ddf5c4a6c059d853d8f650e6b4501",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "6435b69e4a70e8f68ca006b820c554a56d2d117de88a1ad5ff00e3194dbc8ebf",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -392,6 +399,13 @@
       "name": "CALENDAR_BRIDGE.md",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "b25cc2ab717c7e9e45ecbe14c5e6d51341e90f483697c869156a36438f745005"
+    },
+    {
+      "repository_path": "model/CONVENTIONAL_COORDINATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/CONVENTIONAL_COORDINATION.md",
+      "name": "CONVENTIONAL_COORDINATION.md",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "6543ec0550d56c24907f8b50070bebb9de4bec211d8eda33c3a097b2593c15e8"
     },
     {
       "repository_path": "model/COORDINATION_TRANSACTION_FIXTURE.md",
@@ -490,6 +504,13 @@
       "name": "calendar_bridge.py",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3"
+    },
+    {
+      "repository_path": "model/conventional_coordination.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/conventional_coordination.py",
+      "name": "conventional_coordination.py",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "94fe3c831d156dbe300353e45f50ac1bcdad872277b3cf8ff73f109b56c8e2e5"
     },
     {
       "repository_path": "model/coordination_transactions.py",
@@ -651,6 +672,13 @@
       "name": "calendar_bridge.json",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "ed937be5d8d410ecfc481754ce17e99a36e34bd0822ca8ba065f0feb0a1deff8"
+    },
+    {
+      "repository_path": "model/results/conventional_coordination.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/conventional_coordination.json",
+      "name": "conventional_coordination.json",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "4af914880ef542474e37a2050f8cb6109ffccdc6753db61706b0b0bd34ba20ef"
     },
     {
       "repository_path": "model/results/coordination_witnesses.json",
@@ -1038,11 +1066,18 @@
       "version": "decision-campaign-checkpoint-0.13"
     },
     {
+      "repository_path": "research/conventional_coordination.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/conventional_coordination.md",
+      "name": "conventional_coordination.md",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "b30ad0b50abd90d3193a85f577df4524d3950584d2eebd914734b7daddabc169"
+    },
+    {
       "repository_path": "research/coordination_reproducibility.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/coordination_reproducibility.md",
       "name": "coordination_reproducibility.md",
-      "version": "week-one-in-progress-0.2",
-      "sha256": "25a8ab99517124baadbc0f2dd100c677405f26321672fcbc3d188e2f2f2fe533"
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "afca017a0f44d63f244f210738573cc0bdc7e632ae0cbc74078c31f8ce820514"
     },
     {
       "repository_path": "research/customer_value.md",
@@ -1055,8 +1090,8 @@
       "repository_path": "research/deployment_entry_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/deployment_entry_decisions.md",
       "name": "deployment_entry_decisions.md",
-      "sha256": "1ec46909982c54705539135edc05fd8284d062e2ca8942240520e4a83ef839a4",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "f5e7c2ac826bb1655525945941f4e303686c72a7695ec8f52fadeb933ab3b6ea",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "research/digital_ecosystem.md",
@@ -1225,6 +1260,13 @@
       "name": "calendar_bridge_review.md",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "78c83cfd56db018f7b8123e132a4dd81472236885f2274ac03278b76a3ecf828"
+    },
+    {
+      "repository_path": "reviews/conventional_coordination_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/conventional_coordination_review.md",
+      "name": "conventional_coordination_review.md",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "25ea5ac60d167529f3e2f50d80f310d80db1feb810d6ff149bd14c58186ee2d8"
     },
     {
       "repository_path": "reviews/coordination_fixture_review.md",
@@ -1468,8 +1510,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "58ce65a219c0f5a1254e91b8721a5d3910b231ea91840c3b99c90bc4d059aa4b",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "775517b9637373931e3d4dc050266651cca25b68d8c741358b2403d064c30645",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "scripts/export_architectures.py",
@@ -1484,6 +1526,13 @@
       "name": "export_calendar_bridge.py",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "332e55f57e32e914bb8a9cca9ff0bb712b6b6e174928da21338f5e4931317685"
+    },
+    {
+      "repository_path": "scripts/export_conventional_coordination.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_conventional_coordination.py",
+      "name": "export_conventional_coordination.py",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "e9a680ecf66b5ee4d2d24710e1fd0fed06248c8f758e5aee0c0cc53f8809ec13"
     },
     {
       "repository_path": "scripts/export_enterprise.py",
@@ -1552,8 +1601,8 @@
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "667d185846932a15e1d57f63daeffdd5ccc399feef4c6d335352d8301019bb47",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "2e73c27b228a7a559e79251a257db74fa53cd7371ed807eccbc04a5e67fb1883",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
@@ -1573,8 +1622,8 @@
       "repository_path": "tests/test_api.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_api.py",
       "name": "test_api.py",
-      "sha256": "2a0b148159b099eded029070c4b9509b68378a60a94fad18569156c3086cba39",
-      "version": "funded-intelligence-checkpoint-0.16"
+      "sha256": "5d21ac13c312f42955c5278189caa09c9cb22d85d2570d5d2e7650bb24a9e195",
+      "version": "conventional-coordination-checkpoint-0.17"
     },
     {
       "repository_path": "tests/test_architectures.py",
@@ -1589,6 +1638,13 @@
       "name": "test_calendar_bridge.py",
       "version": "calendar-digital-checkpoint-0.15",
       "sha256": "e89a044ce4bee582e76811a1caad5916555a102deed03415d710fe3461674d29"
+    },
+    {
+      "repository_path": "tests/test_conventional_coordination.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_conventional_coordination.py",
+      "name": "test_conventional_coordination.py",
+      "version": "conventional-coordination-checkpoint-0.17",
+      "sha256": "530f784f66c422437b022a6b3c3124d74f44797505be367a3099333534411e97"
     },
     {
       "repository_path": "tests/test_coordination_transactions.py",
@@ -1816,6 +1872,13 @@
       "output": "model/results/monthly_architectures.json",
       "review": "reviews/monthly_architectures_review.md",
       "status": "synthetic_funded_intelligence_roles_partial_campaign"
+    },
+    "conventional_coordination": {
+      "methods": "model/CONVENTIONAL_COORDINATION.md",
+      "analysis": "research/conventional_coordination.md",
+      "output": "model/results/conventional_coordination.json",
+      "review": "reviews/conventional_coordination_review.md",
+      "status": "synthetic_exact_observed_queue_partial_campaign"
     }
   }
 }

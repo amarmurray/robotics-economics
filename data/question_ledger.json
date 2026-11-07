@@ -369,7 +369,8 @@
       "findings": [
         "Task allocation, traffic negotiation, enterprise records and low-level safety/control need distinct authority; interfaces do not prove closed-loop operation.",
         "Pinned RMF interfaces separate request admission, assignment, callbacks, cancellation acceptance and observed physical completion.",
-        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result."
+        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
+        "The exact observed-queue comparator separates a delayed proposal from current execution authority. An immediate conventional urgent path restores the mandatory request in the declared synthetic workload; no clinical timing or installed authority is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -377,9 +378,13 @@
         "research/coordination_reproducibility.md",
         "model/COORDINATION_TRANSACTION_FIXTURE.md",
         "model/coordination_transactions.py",
-        "reviews/coordination_fixture_review.md"
+        "reviews/coordination_fixture_review.md",
+        "research/conventional_coordination.md",
+        "model/CONVENTIONAL_COORDINATION.md",
+        "model/results/conventional_coordination.json",
+        "reviews/conventional_coordination_review.md"
       ],
-      "next_action": "Specify and independently verify one compatible installation and target business-state contract; compare with a strong deterministic baseline. Preserve unknown outcomes if external reconciliation/finality is unavailable."
+      "next_action": "Qualify the target service and installed business-state/authority contract before empirical policy claims. The bounded exact observed-queue comparator is available; actual model benefit, complete costs, distributed finality and long-horizon optimization remain unverified."
     },
     {
       "question_id": "RQ-FD-03",
@@ -394,7 +399,8 @@
         "API timeout and fresh request-ID behavior expose a possible duplicate-effect risk; code inspection is not an observed deployment incident.",
         "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
         "The synthetic calendar bridge allocates robot support and changed-version qualification from one finite pool. A 60-hour allocation delays one of five upgrades; 65 hours admits all, while paid human fallback preserves service. No measured frequency or operator burden is inferred.",
-        "Per-unit initial architecture engineering competes for a finite pool before support. A support shortfall can cancel the fixed month-zero start; this mechanism exposes the need for a stronger conventional adaptive schedule."
+        "Per-unit initial architecture engineering competes for a finite pool before support. A support shortfall can cancel the fixed month-zero start; this mechanism exposes the need for a stronger conventional adaptive schedule.",
+        "The new exact scheduler shares courier loading/handoff slots and retains a paid standby reserve. Removing the reserve preserves four total completions but misses mandatory service; an observed outage retains failed-work costs and triggers feasible replanning."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -408,9 +414,13 @@
         "model/results/calendar_bridge.json",
         "research/monthly_intelligence_execution.md",
         "model/MONTHLY_ARCHITECTURES.md",
-        "model/results/monthly_architectures.json"
+        "model/results/monthly_architectures.json",
+        "research/conventional_coordination.md",
+        "model/CONVENTIONAL_COORDINATION.md",
+        "model/results/conventional_coordination.json",
+        "reviews/conventional_coordination_review.md"
       ],
-      "next_action": "Specify and independently verify one compatible installation and target business-state contract; compare with a strong deterministic baseline. Preserve unknown outcomes if external reconciliation/finality is unavailable."
+      "next_action": "Qualify the target service and installed business-state/authority contract before empirical policy claims. The bounded exact observed-queue comparator is available; actual model benefit, complete costs, distributed finality and long-horizon optimization remain unverified."
     },
     {
       "question_id": "RQ-FD-04",
@@ -794,15 +804,20 @@
       "dependencies_and_completion": "W1 mechanism comparisons alongside FD-01/02. No universal agent-count scaling coefficient; deepen with workload and failure evidence.",
       "findings": [
         "The July2026 coordination paper supersedes earlier blog breadth and supports bounded architecture testing, not a universal multi-agent law.",
-        "The decision campaign requires a strong conventional scheduler under equal information, qualifications, authority and resources. Current naive-retry witnesses are insufficient for a multi-agent uplift claim."
+        "The decision campaign requires a strong conventional scheduler under equal information, qualifications, authority and resources. Current naive-retry witnesses are insufficient for a multi-agent uplift claim.",
+        "Twelve synthetic service-window worlds use an exact conventional solver on equal visible information and a common funded executor. Identical labels add no benefit; imposed latency/overhead can harm service or cost. No actual LLM or multi-agent performance is evaluated."
       ],
       "artifacts": [
         "model/METHODS.md",
         "model/engine.py",
         "research/deployment_entry_decisions.md",
-        "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+        "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+        "research/conventional_coordination.md",
+        "model/CONVENTIONAL_COORDINATION.md",
+        "model/results/conventional_coordination.json",
+        "reviews/conventional_coordination_review.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Qualify the target service and installed business-state/authority contract before empirical policy claims. The bounded exact observed-queue comparator is available; actual model benefit, complete costs, distributed finality and long-horizon optimization remain unverified."
     },
     {
       "question_id": "RQ-LLM-06",
@@ -851,7 +866,8 @@
         "Source-pinned RMF callbacks and retry semantics make integration responsibilities concrete without asserting LLM uplift or stack interoperability.",
         "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
         "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
-        "Annual digital levels now drive actual monthly cohorts, costs and cash under an explicit unit/calendar mapping. A changed model level needs funded qualification and support; four-architecture and stronger conventional coordination comparisons remain open."
+        "Annual digital levels now drive actual monthly cohorts, costs and cash under an explicit unit/calendar mapping. A changed model level needs funded qualification and support; four-architecture and stronger conventional coordination comparisons remain open.",
+        "A bounded conventional planner now waits and replans visible courier/robot work, with source-hashed observations, proposals, authority checks and resource cash. This complements funded monthly intelligence roles but does not optimize the monthly capital schedule or verify real physical R&D."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -865,9 +881,13 @@
         "reviews/onboard_qualification_review.md",
         "research/calendar_digital_execution.md",
         "model/CALENDAR_BRIDGE.md",
-        "model/results/calendar_bridge.json"
+        "model/results/calendar_bridge.json",
+        "research/conventional_coordination.md",
+        "model/CONVENTIONAL_COORDINATION.md",
+        "model/results/conventional_coordination.json",
+        "reviews/conventional_coordination_review.md"
       ],
-      "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
+      "next_action": "Qualify the target service and installed business-state/authority contract before empirical policy claims. The bounded exact observed-queue comparator is available; actual model benefit, complete costs, distributed finality and long-horizon optimization remain unverified."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -1445,5 +1465,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Active 7–14 November campaign; edition 0.16 adds ten funded intelligence-architecture worlds. Five challenge families have bounded implementations; all 65 question IDs/statuses remain, with empirical gaps explicit."
+  "decision_campaign_note": "Active 7–14 November campaign; edition 0.17 adds twelve exact conventional coordination worlds. Six challenge families have bounded implementations; all 65 question IDs/statuses remain, with empirical gaps explicit."
 }

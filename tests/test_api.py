@@ -83,6 +83,19 @@ class LocalAPI(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError) as err:post(body)
             self.assertEqual(err.exception.code,400)
 
+    def test_conventional_coordination_replays_inputs_and_rejects_invalid_cases(self):
+        with urllib.request.urlopen(self.base+'/api/conventional-coordination') as f:artifact=json.load(f)
+        result=artifact['cases']['observed_robot_outage']
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/conventional-coordination',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        self.assertEqual(post({'saved_case':result})['result'],result)
+        self.assertEqual(post({'inputs':{k:result[k] for k in ('workload','controller')}})['result'],result)
+        for body in ({'inputs':{}},{'saved_case':{}},{'inputs':{},'saved_case':{}},
+                     {'inputs':{'workload':None,'controller':{}}},{'inputs':{'workload':{},'controller':[]}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_unaccepted_observed_sources_cannot_leak_through_catalog(self):
         snapshot=load_accepted_packages()
         snapshot["packages"]=[p for p in snapshot["packages"] if p["package_id"]=="capability"]

@@ -1,6 +1,14 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funded intelligence roles, edition 0.16
+## New decision campaign: conventional coordination, edition 0.17
+
+The same campaign remains active through **2026-11-14T20:12:27Z**. Twelve complete service-window worlds add bounded DE-CF02 and a competent observed-queue comparator for DE-06. The conventional policy can wait and replan with shared handoff resources and common funded execution. Mandatory service, paid standby, proposal latency/overhead, failed work and authority guards are explicit. Six challenge families now have bounded implementations; case counts do not establish broad empirical acceptance.
+
+Fresh validation passes: **277 Python tests**, including 19 focused tests, forty independent seeded exhaustive-oracle worlds and new HTTP replay; **36 Node assertions**, syntax, strict evidence, physical extraction/summary and frontier/coordination exports. All thirteen browser views and the new twelve-world panel pass, including stale/invalid inputs, complete source/observation/cash traces and exact export/replay. Tampered outcomes are ignored. Browser and CLI complete results agree; the panel was visually inspected. See [the review](reviews/conventional_coordination_review.md).
+
+All **24 prior JSON artifacts** and **346,946 typed numeric fields** remain unchanged, as do earlier engines/catalogs, 69 legacy requirement statuses and 65 question statuses. Evidence remains 13 packages, 186 claims, 366 quantities and 104 null markers. Legacy acceptance stays **53 bounded met / 16 partial**. Acquisition/hybrid, service-specific alternatives, supply/learning, real authority and empirical lifecycle economics remain open. No LLM performance or real clinical policy is inferred. All **249 registered file hashes** and **469 local Markdown links** verify, with no broken links; the operational receipt holds the exact manifest hash.
+
+## Previous decision checkpoint: funded intelligence roles, edition 0.16
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Ten worlds map four intelligence profiles to funded legal accounts and dated resource/fee obligations inside the existing monthly loop. Bounded DE-CF08 joins DE-CF01/11/12/13; engineering/support-before-expansion adds a partial DE-CF10 mechanism. Thirty-two finance/calendar/architecture worlds do not establish broad challenge-family coverage or empirical recommendation acceptance.
 

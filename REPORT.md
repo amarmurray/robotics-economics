@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.16, funded-intelligence-architecture checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Four intelligence profiles now pay dated resource bills and transfer fees inside the monthly physical/calendar/Treasury loop. Ten worlds expose role funding, qualification resources and internal-transfer boundaries alongside the earlier finance and digital-path cases. All six cells and three decision packs remain integrated. Strong conventional coordination, acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.17, conventional-coordination checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. An exact observed-queue scheduler now replans shared courier/robot work under funded execution, deadlines and retained staffing. Twelve complete worlds expose mandatory-service misses, delay, overhead, outages and invalid proposals; they do not measure LLM performance. The prior finance, calendar and intelligence-architecture cases remain intact. Acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -172,7 +172,7 @@ Compare digital-human/AMR presentation, a fixed arm/fixture or redesigned transf
 
 Each decision needs four matched branches: human work with existing conventional systems; that work with a specified additional digital intervention; the robot-assisted process with its required embedded software; and the combined process with the same additional intervention. The robot increment after digital improvement is `Y11 − Y01`; interaction is `Y11 − Y10 − Y01 + Y00`. Keep output, cash and resources as separate outcomes. Missing or infeasible branches remain missing. Savings that overlap between dispatch software, process redesign and robotics are booked once.
 
-The current transaction fixture establishes failure-state reasoning under a cooperative mock lookup/finality contract. Its naive resend baseline is deliberately weak. It cannot establish the value of multiple agents against a competent conventional integration. The next comparison must give a deterministic scheduler and any proposed agent architecture identical task information, qualifications, resource availability, deadlines and recovery authority. Both must use the same durable identity and execution constraints; proposal quality must not be confused with permissions or completion. The strong conventional baseline should optimize the declared small workload where exact solution is tractable and replan under the same observed events. All proposal, verification, support and delay costs must be charged. Until an actual versioned agent is evaluated, a proposal replay is a mechanism test, not measured LLM uplift.
+The earlier transaction fixture establishes failure-state reasoning under a cooperative mock lookup/finality contract; its naive resend baseline remains deliberately weak. The [new conventional comparator](research/conventional_coordination.md) now exhaustively schedules the currently observed bounded request queue under shared resource, deadline, standby and funded-execution constraints. It can wait and replan after arrivals or outages. Equal-cost, zero-delay proposal labels add no benefit; a delayed synthetic proposal can miss a mandatory request unless a conventional urgent path remains. No LLM is run, and the local executor does not establish installed durability or physical qualification. This strengthens the comparator without converting synthetic service-window cash into lifecycle economics or a real clinical policy.
 
 Similarly, model/R&D improvement needs a chain from generated candidate to validated physical capability. Log code or reward candidates, rejected proposals, simulation exposure, robot-data rights, training resources, held-out qualification, and delivery of compatible updates to the affected cohort. A larger dataset, cheaper collection stage or better simulation score does not itself create accepted service. Keep no-learning and no-transfer worlds. Useful experience requires rights and validation; it never produces a separate financial premium on top of an already counted capability gain.
 
@@ -197,12 +197,12 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01, DE-CF08, DE-CF11, DE-CF12 and DE-CF13 have bounded implementations.** Fourteen source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) cover finance/reinvestment; eight in [calendar_bridge.json](model/results/calendar_bridge.json) add retained paid shifts, digital-human interaction and cohort constraints. Ten worlds in [monthly_architectures.json](model/results/monthly_architectures.json) add funded architecture contracts and equal-capital/resource tests. DE-CF10 has support/upgrade and engineering-before-expansion mechanisms; DE-CF14 has a frozen-cohort portion. Full expansion/learning challenges remain incomplete. The other families remain reserved. Thirty-two rows do not establish broad campaign coverage or empirical decision acceptance. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
+The following names track intended challenge coverage. **DE-CF01/02/08/11/12/13 have bounded implementations.** The [twelve conventional coordination worlds](model/results/conventional_coordination.json) add mandatory human service, an exact observed-queue comparator, explicit delay/overhead, outage and proposal-guard cases. They complement fourteen [finance worlds](model/results/enterprise_finance.json), eight [calendar worlds](model/results/calendar_bridge.json) and ten [architecture worlds](model/results/monthly_architectures.json). DE-CF10 has support/upgrade and engineering-before-expansion mechanisms; DE-CF14 has a frozen-cohort portion. A separate courier-window optimizer does not optimize the monthly capital schedule. Forty-four rows do not establish broad campaign coverage or empirical acceptance; the remaining challenge families retain their missing requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
 | DE-CF01 retained-paid-shift — bounded implementation | Four matched branches deliver 4,180 synthetic zones and retain $38,400 of paid shifts despite sharply different task hours; staffing optimization and observed paid-work removal remain open |
-| DE-CF02 urgent-human-fallback | Routine-robot eligibility leaves urgent work and staffed fallback intact |
+| DE-CF02 urgent-human-fallback — bounded implementation | The exact mixed queue retains paid courier coverage; removing its reserve preserves four completions but misses mandatory service. Delay, urgent fast path, outages and full-attempt cash are explicit; real service evidence remains open |
 | DE-CF03 residual-inspection-visit | Selected robot points do not eliminate the full mandatory visit |
 | DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
 | DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
@@ -213,12 +213,12 @@ The following names track intended challenge coverage. **DE-CF01, DE-CF08, DE-CF
 | DE-CF10 support-before-expansion — partial mechanism | Initial engineering can leave installed support unmet and cancel a one-shot start; stronger adaptive scheduling and broader support dynamics remain open |
 | DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
 | DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
-| DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A stronger conventional coordination and target competitive advantage comparison remain open |
+| DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A separate exact courier-window comparator is now available; target competitive advantage and a common real service boundary remain open |
 | DE-CF14 no-learning-no-transfer — partial cohort mechanism | Frozen installed cohorts do not receive changed robot levels; funded qualification gates updates. Endogenous learning, eligible data and collection/validation feedback remain open |
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the strongest conventional coordination/planning comparison, followed by acquisition/hybrid transitions and remaining counterfactuals. The new four-architecture bridge must not be mistaken for that optimized comparator: its missed one-shot starts and redundant additions are declared fixed-policy limitations. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
+The next substantive work is acquisition/hybrid entry with funded ownership transitions, existing demand preserved and explicit transition costs, followed by the remaining utility/automotive and supply/learning challenges. The conventional scheduler is exact only for its observed service-window queue; it does not yet optimize monthly investment, restructure debt or establish physical R&D qualification. Keep the full service boundary, funding obligations and remaining empirical gaps explicit.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1471,6 +1471,10 @@ The next priorities are: obtain an exact TAC run manifest and explain its effect
 
 Verification used Exa primary-page retrieval, direct public GitHub/raw-source inspection, local standard-library parsing, source hashing and arithmetic checks. A separate reviewer reproduced all 175 saved rows and totals, both sampled trace hashes, model/call counts, repricing and event spans, and checked the RMF control-flow claims. Review corrections added the declared cherry-pick and the no-response cancellation qualification; no benchmark or robot was executed. The requested model was GPT-6 Astra with Ultra reasoning; the serving model/reasoning configuration is not exposed for independent verification. Claims above rest on inspected sources, not a claimed serving identity.
 
+#### Bounded conventional scheduling continuation
+
+The [new comparison](research/conventional_coordination.md) replaces a deliberately weak comparator for one explicit synthetic service-window question. It exhaustively plans the observed queue, can wait and replan, and uses common funded resource/deadline/identity admission for conventional and synthetic delayed proposals. Twelve worlds and independent enumeration expose mandatory-service misses, overhead, failed work and stale proposals. This is complementary to the earlier transaction fixture: no installed RMF system, distributed durable authority, actual LLM uplift or real physical throughput is claimed.
+
 ### Focused follow-up: Annual digital scenarios and the moving adoption comparison
 
 Authoritative analysis: [research/annual_digital_scenarios.md](research/annual_digital_scenarios.md).
@@ -1512,6 +1516,63 @@ Annual admission and lifetime margins extrapolate current conditions over the as
 The [implementation review](reviews/annual_trajectory_review.md) records sole-agent verification rather than a new independent review. The frozen model 0.1.1 comparison covers every existing numerical field across eight presets and both onboard configurations. Adverse cases test overlap, harmful coordination, cost-only changes, stock retention after admission reversal, zero capability, invalid late periods and shared resource accounting under nonconstant paths. API/CLI replay and the browser's selected-year table, trace and export/reload use the same result object. No GPU, robot, external service or empirical calibration was executed.
 
 **Next question:** which measured physical requirements and support obligations would change one of these adoption comparisons enough to alter the preferred deployment sequence or model-provider architecture?
+
+### Focused follow-up: Competent conventional coordination and mandatory service
+
+Authoritative analysis: [research/conventional_coordination.md](research/conventional_coordination.md).
+
+The new service-window comparator strengthens the hospital decision pack and substantial Workstream H without treating an agent label as productive capability. A conventional solver can wait, batch eligible decisions, reserve scarce handoff time and replan after new arrivals. It deserves those abilities before an agent proposal is credited with an advantage. The bounded exact solver now has them under the [explicit request/resource contract](model/CONVENTIONAL_COORDINATION.md). This is a synthetic mechanism study; it does not estimate hospital performance or run an LLM.
+
+#### Matched obligation before aggregate throughput
+
+The reference has six due requests in twelve arbitrary five-minute ticks. One request requires a human courier and must finish within its short declared window. Routine work can use human transport or a robot mode with paid human loading and handoff. The complete request population, deadlines, resource calendars, funded executor and acceptance rules are common across policy comparisons. All twelve worlds retain the same $120 paid staffing commitment, including worlds that deliver nothing. Prices, durations, urgency and quality are assumptions rather than observations or recommendations for clinical practice.
+
+The mixed conventional policy accepts four requests, including the mandatory request, for $151.30 of paid window resources. The human-only policy accepts three, also meeting the mandatory obligation, for $129.80. The additional $21.50 and one additional completion are an internally matched synthetic window contrast; they exclude asset lifecycle economics and cannot establish a robot investment return. Neither policy removes the paid shift.
+
+Removing the courier reserve still permits four total completions and costs $150.80, but the mandatory request is missed. The $0.50 apparent saving cannot rescue a policy that violates the stipulated service contract. This is bounded **DE-CF02 urgent-human-fallback**: acceptance requires the due-request ledger and the mandatory-service gate, not a selected successful-robot count. The reserve is an ex-ante staffing policy and may leave capacity idle; it is not free capacity or an estimate of an optimal real roster.
+
+#### Equal information, then explicit delay and overhead
+
+At time zero the exact solver sees only the released routine queue. It chooses to wait until tick one before starting the first robot request because loading and handoff share the courier calendar. New requests become visible at their release tick, after which the policy replans. Independent enumeration verifies the finite objective on forty seeded small worlds. The optimality claim is local to each observed queue; unknown future arrivals, long-term capital decisions and real travel dynamics are outside it.
+
+Changing only the controller label, with identical solver, delay and costs, leaves service, admissions, events and cash unchanged. A synthetic one-tick proposal delay accepts only three requests and misses the mandatory one. Keeping an immediate conventional urgent path restores four completions and the mandatory gate. Its thirteen total proposal calls fit the explicitly prepaid capacity assumption for twelve decision slots; no measured runtime or free real-world compute is inferred. Increasing planning-capacity cost by $1 per slot adds $12 to window cost without improving output.
+
+These cases establish a testable hurdle for future agent proposals. A target system would need an observed information or decision-quality benefit large enough to cover proposal latency, verification, integration and recovery against this competent conventional alternative. No LLM or multi-agent uplift has been measured. The same solver with artificial delay is not a performance model of a named lab, architecture or product. A slower policy can sometimes benefit from later information in other unseen-event worlds, so the observed disadvantage is not a general theorem about latency.
+
+#### Failed work, scarce funds and execution authority
+
+A robot outage at tick three interrupts the first robot attempt. The model retains the spent attempt resources and partial-work disclosure, pays a $5 recovery bill and replans remaining work. Four attempts yield three accepted requests; total paid resources are $156.30, or $52.10 per accepted request within this restricted boundary. Failed work stays in the numerator and out of accepted output. Return time and authoritative stop are explicit assumptions, not an installed recovery guarantee.
+
+A $150 opening-cash case accepts three requests while retaining the mandatory gate. With only $120, the already booked staff shift uses the funds; later required capacity cannot be booked, so execution is blocked. Paid idle staffing remains a real cash outcome. A separate test shows that unfunded recovery keeps the robot unavailable even when later work would otherwise be physically schedulable.
+
+Adversarial fixed proposals test authority separately from planning quality. Duplicate business IDs, malformed identities and unobserved work are rejected; a delayed proposal that encounters a newly observed outage cannot execute from its old plan. Tentative planning reservations never become permission. A failed multi-action cash admission commits no subset. The complete input, observation, proposal, admission, attempt and payment traces permit auditing these distinctions.
+
+#### Consequence for the three decision packs and thesis T4
+
+For hospital logistics, keep the current provisional recommendation: qualify a bounded service and an improved human comparator, and wait on labor-substitution or scale claims until the real all-request service and staffing ledger supports them. The new model gives a concrete rejection mechanism: equal aggregate completions can conceal an unacceptable mandatory-service miss. It does not resolve custody, accompaniment, elevator access, infection control, wages, real urgency definitions or installed interoperability.
+
+For utility inspection and automotive work, carry over the method of protecting the full obligation and shared resources, not these request durations or dollar figures. A mandatory residual visit or staffed quality check requires its own service-specific contract. Those counterfactual families remain open; a hospital-shaped toy queue is not their validation.
+
+Thesis T4 now has a competent bounded scheduling comparator in addition to transaction-fault reasoning. The strongest remaining objection is that a real installation may already provide good scheduling and durable authority. The next evidence must measure what additional model-driven decisions improve, with physical accepted service and all recovery work in view. This checkpoint advances DE-06 and bounded DE-CF02, while acquisition/hybrid transitions, lifecycle costs, supply, endogenous learning, actual R&D qualification and broad campaign acceptance remain incomplete. The 168-hour campaign clock continues unchanged.
+
+#### Reproduced observed-queue coordination worlds
+
+| Synthetic service-window world | Accepted requests | Mandatory accepted | Failed attempts | Paid window resources, USD | Paid staff, USD |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| mixed exact | 4 | 1 / 1 | 0 | 151.30 | 120.00 |
+| human only exact | 3 | 1 / 1 | 0 | 129.80 | 120.00 |
+| no urgent reserve | 4 | 0 / 1 | 0 | 150.80 | 120.00 |
+| observed robot outage | 3 | 1 / 1 | 1 | 156.30 | 120.00 |
+| matched proposal alias | 4 | 1 / 1 | 0 | 151.30 | 120.00 |
+| delayed proposal | 3 | 0 / 1 | 0 | 150.30 | 120.00 |
+| delayed with urgent fast path | 4 | 1 / 1 | 0 | 151.30 | 120.00 |
+| extra proposal overhead | 4 | 1 / 1 | 0 | 163.30 | 120.00 |
+| limited execution cash | 3 | 1 / 1 | 0 | 149.80 | 120.00 |
+| unfunded window | 0 | 0 / 1 | 0 | 120.00 | 120.00 |
+| duplicate and malformed guard | 1 | 1 / 1 | 0 | 147.80 | 120.00 |
+| delayed stale outage guard | 0 | 0 / 1 | 0 | 151.80 | 120.00 |
+
+Generated from [conventional_coordination.json](model/results/conventional_coordination.json). Exactness covers the currently observed bounded queue. Mandatory service remains a separate gate; all paid attempt, recovery and capacity costs remain. These synthetic window bills exclude lifecycle economics, and no LLM performance is measured.
 
 ## 6. Digital infrastructure and physical production
 

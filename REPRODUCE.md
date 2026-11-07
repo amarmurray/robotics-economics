@@ -20,6 +20,7 @@ python3 scripts/export_enterprise.py --bridge
 python3 scripts/export_finance.py --check
 python3 scripts/export_calendar_bridge.py --check
 python3 scripts/export_monthly_architectures.py --check
+python3 scripts/export_conventional_coordination.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -186,9 +187,22 @@ Business models now includes a separate monthly architecture panel. It maps the 
 ```bash
 python3 scripts/export_monthly_architectures.py
 python3 scripts/export_monthly_architectures.py --check
+python3 scripts/export_conventional_coordination.py --check
 python3 scripts/export_monthly_architectures.py --case /tmp/monthly-architecture.json --output /tmp/architecture-replay.json
 python3 -m unittest tests.test_monthly_architectures -v
 node --check dashboard/monthly_architectures.js
 ```
 
 Ten worlds include the four profiles, fee/capital/resource constraints and a false rights premise. Complete inputs and twelve source/catalog hashes identify each result. Export/reload recomputes the full saved case; saved outcomes cannot replace calculation. Rational components use decimal strings and equivalent integral numeric spellings are canonicalized before hashing. Invalid or stale requests preserve the last valid result. Imported complete cases are read-only in the shortcut controls until a witness is selected. `GET /api/monthly-architectures` returns the bundle; `POST` accepts exactly one `inputs` or `saved_case` object. See [methods](model/MONTHLY_ARCHITECTURES.md), [findings](research/monthly_intelligence_execution.md) and [review](reviews/monthly_architectures_review.md).
+
+
+## Conventional coordination and mandatory service
+
+Learning & coordination now starts with twelve bounded service-window worlds. Edit proposal delay, planning/verification capacity prices, opening cash, the urgent path, robot availability and the declared standby reserve; click **Apply coordination assumptions**. These are separate from annual/monthly scenarios. Display and export retain the last applied valid case. Complete imported and fixed adversarial-proposal cases are read-only in the panel.
+
+```sh
+python3 scripts/export_conventional_coordination.py --check
+python3 scripts/export_conventional_coordination.py --case downloaded.json --output replay.json
+```
+
+The API is `/api/conventional-coordination`. Complete saved workload/controller inputs are rerun, with saved outcomes ignored. The [methods](model/CONVENTIONAL_COORDINATION.md) define observed-queue exactness, shared authority, all-attempt resource cash, retained paid staffing and the absent real-system/LLM evaluation. The browser trace shows information available at each decision, not just the final accepted count.

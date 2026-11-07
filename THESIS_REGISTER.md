@@ -46,9 +46,9 @@ Version 0.7. The active decision campaign challenges these theses through the [t
 
 **Strongest objection.** A target installation may already supply durable identity, authorization and reconciliation outside the inspected components. Additional LLM orchestration may be unnecessary, or beneficial only in a narrow exception path.
 
-**Decision implication.** Establish a deterministic baseline and one business-state contract before claiming an end-to-end physical-digital system. Budget failed attempts, human recovery and elapsed time as distinct inputs.
+**Decision implication.** The [exact observed-queue comparator](research/conventional_coordination.md) now gives a conventional policy waiting, replanning and shared-resource accounting. Identical labels produce identical outcomes; an artificial proposal delay can miss mandatory service despite available routine throughput. Protect the complete service gate and budget failed attempts, recovery, retained staffing and elapsed time. No LLM performance is measured.
 
-**What changes the view.** The current fixture preserves uncertainty and partial effects under constructed faults, but uses a deliberately naive baseline and unpriced mock lookup. The next test requires a compatible installation, its actual business-state contract and a strong deterministic comparator before claiming throughput or recovery-cost improvement. Software/model behavior alone cannot establish physical throughput or cost; those claims still require target operating evidence. Source pins alone do not establish installed-system correctness.
+**What changes the view.** The current fixture preserves uncertainty and partial effects under constructed faults, but uses a deliberately naive baseline and unpriced mock lookup. A competent bounded scheduling comparator now exists, but the next empirical test still requires a compatible installation and its actual business-state contract. The exact toy queue cannot establish distributed authority, clinical equivalence or long-horizon investment optimality. Software/model behavior alone cannot establish physical throughput or cost; those claims still require target operating evidence. Source pins alone do not establish installed-system correctness.
 
 ## T5 — Lower collection-stage cost is not necessarily cheaper validated capability
 

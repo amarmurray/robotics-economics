@@ -22,7 +22,7 @@ FOLLOWUPS = {
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md'), ('Dated finance, service continuity and cash recovery', 'financed_execution.md'), ('Digital paths, cohorts and the operating calendar', 'calendar_digital_execution.md')],
- 'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md')],
+ 'digital_ecosystem.md': [('Benchmark reproducibility and transaction authority', 'coordination_reproducibility.md'), ('Annual digital scenarios and the moving adoption comparison', 'annual_digital_scenarios.md'), ('Competent conventional coordination and mandatory service', 'conventional_coordination.md')],
  'physical_supply_field.md': [('Non-Spot operator evidence and retained-deployment limits', 'quadruped_operator_followup.md')],
  'digital_infrastructure.md': [('Onboard workload qualification and operating deadlines', 'onboard_workload_qualification.md')],
 }
@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.16, funded-intelligence-architecture checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Four intelligence profiles now pay dated resource bills and transfer fees inside the monthly physical/calendar/Treasury loop. Ten worlds expose role funding, qualification resources and internal-transfer boundaries alongside the earlier finance and digital-path cases. All six cells and three decision packs remain integrated. Strong conventional coordination, acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.17, conventional-coordination checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. An exact observed-queue scheduler now replans shared courier/robot work under funded execution, deadlines and retained staffing. Twelve complete worlds expose mandatory-service misses, delay, overhead, outages and invalid proposals; they do not measure LLM performance. The prior finance, calendar and intelligence-architecture cases remain intact. Acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -129,6 +129,17 @@ The initial editions were produced in a cloud checkout. The local continuation b
         role_table.append(f"| {row['case'].replace('_',' ')} | {int(q['numerator'])/int(q['denominator']):,.2f} | {int(robot['numerator'])/int(robot['denominator']):,.2f} | {row['staff_cash_paid_cents']/100:,.2f} | {row['supported_robot_months']} | {row['qualified_units']} | {row['external_physical_and_enterprise_cash_cents']/100:,.2f} |")
     insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Funded intelligence roles'))+1
     out.insert(insert_at,'#### Reproduced funded architecture worlds\n\n'+'\n'.join(role_table)+'\n\nGenerated from [monthly_architectures.json](model/results/monthly_architectures.json). One active synthetic cleaning-service business retains the same demand and paid staffing. Opening hardware predates the cash window; some worlds never start production or retain unqualified assets. Lower cash expenditure is not an investment ranking. Model resources replace the opaque digital bundle, and fees cancel at the complete legal-entity boundary.')
+    coordination=json.loads((ROOT/'model/results/conventional_coordination.json').read_text())
+    for case in coordination['cases'].values():
+        for path,digest in case['source_sha256'].items():
+            if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
+                raise SystemExit('Stale conventional-coordination dependency: '+path)
+    coordination_table=['| Synthetic service-window world | Accepted requests | Mandatory accepted | Failed attempts | Paid window resources, USD | Paid staff, USD |',
+                        '| --- | ---: | ---: | ---: | ---: | ---: |']
+    for row in coordination['summary']:
+        coordination_table.append(f"| {row['case'].replace('_',' ')} | {row['accepted']} | {row['mandatory_accepted']} / {row['mandatory_requested']} | {row['failed_attempts']} | {row['paid_resource_cents']/100:,.2f} | {row['paid_staff_cents']/100:,.2f} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Competent conventional coordination'))+1
+    out.insert(insert_at,'#### Reproduced observed-queue coordination worlds\n\n'+'\n'.join(coordination_table)+'\n\nGenerated from [conventional_coordination.json](model/results/conventional_coordination.json). Exactness covers the currently observed bounded queue. Mandatory service remains a separate gate; all paid attempt, recovery and capacity costs remain. These synthetic window bills exclude lifecycle economics, and no LLM performance is measured.')
     physical = json.loads((ROOT/'model/results/physical_requirements_summary.json').read_text())
     for path, digest in physical['source_hashes'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.16.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.17.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded intelligence roles and qualification, edition 0.16
+## Current checkpoint: competent conventional coordination, edition 0.17
+
+The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. After the disconnect steer, the supported status tool reported **connected/running**, and shell commands executed in `/workspace/robotics-economics` at the unchanged edition-0.16 commit, preserving the unpublished comparator. Configuration version `23c776c0-dadf-4a64-8228-07b0e7a410c5~cecfgver_6aef6be6603c81a19429774d1c89cfd3` matched. No task, executor, writer, schedule or campaign clock was replaced. Native goal/usage controls remain unexposed; no earned reset or uninterrupted execution is claimed.
+
+[The conventional comparison](research/conventional_coordination.md) and [methods](model/CONVENTIONAL_COORDINATION.md) implement an exact scheduler over a bounded currently observed courier/robot queue. It can wait and replan under shared loading/handoff, deadlines, standby and funded authority. Twelve complete worlds add bounded **DE-CF02**, bringing six challenge families to bounded implementation. The new service-window unit has no inferred conversion to cleaning zones, historical bundles or actual hospital transports. It does not optimize monthly capital policy or measure an LLM.
+
+The mixed reference accepts four requests and meets the mandatory obligation for $151.30 of synthetic window resources, retaining $120 paid staffing. Removing the reserve still accepts four but misses mandatory service. A one-tick synthetic proposal delay accepts three and misses the urgent obligation; retaining an immediate conventional urgent path restores both. Identical labels produce identical service/cash; $12 extra planning overhead adds no service. An outage leaves four attempts, three accepted requests and $156.30 paid resources, including failed work and recovery. These costs exclude lifecycle economics and do not establish a real investment ranking.
+
+**Fresh validation:** **277 Python tests**, including 19 focused coordination tests, forty independent seeded enumeration worlds and new HTTP replay; **36 Node assertions** and JavaScript syntax; strict evidence, physical extraction/summary, frontier and coordination export checks. All thirteen browser views pass, including twelve new witnesses, controls, pending/invalid/stale handling, visible-information/authority/cash traces, complete export/reload and ignored tampered outcomes. Browser and CLI replay match completely, including hash; the panel was visually inspected. See [the sole-writer review](reviews/conventional_coordination_review.md).
+
+All **24 prior JSON artifacts** remain byte-identical, preserving **346,946 typed numeric fields**. Earlier engine modules/catalogs, all 69 legacy requirement statuses and all 65 question statuses are unchanged. Evidence remains 13 packages, 186 claims, 366 quantities and 104 explicit null markers; legacy acceptance remains **53 bounded met / 16 partial**. All **249 registered file hashes** and **469 relative Markdown links** verify, with no broken links. The ignored receipt records the exact manifest hash and publication verification. No empirical requirement is closed by this synthetic comparator.
+
+**Next execution:** acquisition/hybrid transitions with actual funded ownership settlement, preserved existing demand, explicit transition costs, unchanged physical identities and a common service/cash boundary. Then the remaining utility/automotive, qualified-supply, endogenous-learning and physical R&D challenges. Preserve real all-actor cost, staffing, rights, support and qualification gaps. The competent courier comparator must not be relabeled a solved real installation or a monthly investment optimizer.
+
+**Next question:** can acquisition or hybrid entry change who owns and funds an existing service without inventing new demand, duplicating assets or erasing transition obligations?
+
+## Previous checkpoint: funded intelligence roles and qualification, edition 0.16
 
 The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The verified cloud workspace remains `/workspace/robotics-economics`; no task, executor, writer or schedule replacement was created. Native goal/usage controls remain unexposed, no earned reset was performed and uninterrupted execution is not claimed.
 

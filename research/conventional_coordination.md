@@ -1,0 +1,35 @@
+# What a competent conventional coordinator changes
+
+The new service-window comparator strengthens the hospital decision pack and substantial Workstream H without treating an agent label as productive capability. A conventional solver can wait, batch eligible decisions, reserve scarce handoff time and replan after new arrivals. It deserves those abilities before an agent proposal is credited with an advantage. The bounded exact solver now has them under the [explicit request/resource contract](../model/CONVENTIONAL_COORDINATION.md). This is a synthetic mechanism study; it does not estimate hospital performance or run an LLM.
+
+## Matched obligation before aggregate throughput
+
+The reference has six due requests in twelve arbitrary five-minute ticks. One request requires a human courier and must finish within its short declared window. Routine work can use human transport or a robot mode with paid human loading and handoff. The complete request population, deadlines, resource calendars, funded executor and acceptance rules are common across policy comparisons. All twelve worlds retain the same $120 paid staffing commitment, including worlds that deliver nothing. Prices, durations, urgency and quality are assumptions rather than observations or recommendations for clinical practice.
+
+The mixed conventional policy accepts four requests, including the mandatory request, for $151.30 of paid window resources. The human-only policy accepts three, also meeting the mandatory obligation, for $129.80. The additional $21.50 and one additional completion are an internally matched synthetic window contrast; they exclude asset lifecycle economics and cannot establish a robot investment return. Neither policy removes the paid shift.
+
+Removing the courier reserve still permits four total completions and costs $150.80, but the mandatory request is missed. The $0.50 apparent saving cannot rescue a policy that violates the stipulated service contract. This is bounded **DE-CF02 urgent-human-fallback**: acceptance requires the due-request ledger and the mandatory-service gate, not a selected successful-robot count. The reserve is an ex-ante staffing policy and may leave capacity idle; it is not free capacity or an estimate of an optimal real roster.
+
+## Equal information, then explicit delay and overhead
+
+At time zero the exact solver sees only the released routine queue. It chooses to wait until tick one before starting the first robot request because loading and handoff share the courier calendar. New requests become visible at their release tick, after which the policy replans. Independent enumeration verifies the finite objective on forty seeded small worlds. The optimality claim is local to each observed queue; unknown future arrivals, long-term capital decisions and real travel dynamics are outside it.
+
+Changing only the controller label, with identical solver, delay and costs, leaves service, admissions, events and cash unchanged. A synthetic one-tick proposal delay accepts only three requests and misses the mandatory one. Keeping an immediate conventional urgent path restores four completions and the mandatory gate. Its thirteen total proposal calls fit the explicitly prepaid capacity assumption for twelve decision slots; no measured runtime or free real-world compute is inferred. Increasing planning-capacity cost by $1 per slot adds $12 to window cost without improving output.
+
+These cases establish a testable hurdle for future agent proposals. A target system would need an observed information or decision-quality benefit large enough to cover proposal latency, verification, integration and recovery against this competent conventional alternative. No LLM or multi-agent uplift has been measured. The same solver with artificial delay is not a performance model of a named lab, architecture or product. A slower policy can sometimes benefit from later information in other unseen-event worlds, so the observed disadvantage is not a general theorem about latency.
+
+## Failed work, scarce funds and execution authority
+
+A robot outage at tick three interrupts the first robot attempt. The model retains the spent attempt resources and partial-work disclosure, pays a $5 recovery bill and replans remaining work. Four attempts yield three accepted requests; total paid resources are $156.30, or $52.10 per accepted request within this restricted boundary. Failed work stays in the numerator and out of accepted output. Return time and authoritative stop are explicit assumptions, not an installed recovery guarantee.
+
+A $150 opening-cash case accepts three requests while retaining the mandatory gate. With only $120, the already booked staff shift uses the funds; later required capacity cannot be booked, so execution is blocked. Paid idle staffing remains a real cash outcome. A separate test shows that unfunded recovery keeps the robot unavailable even when later work would otherwise be physically schedulable.
+
+Adversarial fixed proposals test authority separately from planning quality. Duplicate business IDs, malformed identities and unobserved work are rejected; a delayed proposal that encounters a newly observed outage cannot execute from its old plan. Tentative planning reservations never become permission. A failed multi-action cash admission commits no subset. The complete input, observation, proposal, admission, attempt and payment traces permit auditing these distinctions.
+
+## Consequence for the three decision packs and thesis T4
+
+For hospital logistics, keep the current provisional recommendation: qualify a bounded service and an improved human comparator, and wait on labor-substitution or scale claims until the real all-request service and staffing ledger supports them. The new model gives a concrete rejection mechanism: equal aggregate completions can conceal an unacceptable mandatory-service miss. It does not resolve custody, accompaniment, elevator access, infection control, wages, real urgency definitions or installed interoperability.
+
+For utility inspection and automotive work, carry over the method of protecting the full obligation and shared resources, not these request durations or dollar figures. A mandatory residual visit or staffed quality check requires its own service-specific contract. Those counterfactual families remain open; a hospital-shaped toy queue is not their validation.
+
+Thesis T4 now has a competent bounded scheduling comparator in addition to transaction-fault reasoning. The strongest remaining objection is that a real installation may already provide good scheduling and durable authority. The next evidence must measure what additional model-driven decisions improve, with physical accepted service and all recovery work in view. This checkpoint advances DE-06 and bounded DE-CF02, while acquisition/hybrid transitions, lifecycle costs, supply, endogenous learning, actual R&D qualification and broad campaign acceptance remain incomplete. The 168-hour campaign clock continues unchanged.
