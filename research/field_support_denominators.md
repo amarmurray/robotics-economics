@@ -1,5 +1,7 @@
 # Hospital logistics: what the support denominators actually measure
 
+**7 November continuation:** FSD-E005 adds a bounded WSNA worker-experience account to the [hospital decision pack](deployment_entry_decisions.md#hospital-logistics--qualify-the-entire-obligation). Its reported escort burden is qualitative testimony; its reported MultiCare exit is not independently operator-verified here. The original studies, arithmetic and conflicts below are unchanged.
+
 Bounded second-wave findings · 25 October 2026 · Version 0.1.1
 Evidence and reproducible arithmetic: [field_support_denominators.json](../data/field_support_denominators.json). The existing [capability dossier](capability_learning.md) and its evidence package remain frozen. Requested Astra Ultra settings cannot be independently verified from this delegated runtime.
 

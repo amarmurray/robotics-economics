@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.3. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.4. The active decision campaign challenges these theses through the [three provisional packs](research/deployment_entry_decisions.md); its integrated counterfactuals are still pending.  These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -24,7 +24,7 @@ Version 0.3. These are bounded claims and hypotheses for Amar to challenge after
 
 **Decision implication.** Compare future robotic service with a feasible digital-improved incumbent, retaining required embedded software consistently. Do not freeze the baseline or add overlapping savings twice.
 
-**What changes the view.** Target-side evidence for the separate human and robot channels, with matched output/quality and costs. A time-evolving digital comparator and measured integration effects are still missing; source benchmark gains cannot fill them automatically.
+**What changes the view.** Target-side evidence for the separate human and robot channels, with matched output/quality and costs. Annual digital paths now supply an explicit synthetic moving comparator; a monthly/cohort bridge and measured target integration effects remain incomplete. Source benchmark gains cannot fill them automatically.
 
 ## T3 — Equal robot access leaves commercial execution and cash survival unresolved
 
@@ -36,7 +36,7 @@ Version 0.3. These are bounded claims and hypotheses for Amar to challenge after
 
 **Decision implication.** Separate redesign advantage, adoption timing and capacity availability. Test ramp, receivables, retention and prompt competition before interpreting lower robot cost as a financeable newco.
 
-**What changes the view.** Repeated customer commitments, accepted service and collections under comparable technology access, together with funded supply/commissioning. Full shared-resource treasury integration is a next model step, not already established by the entrant reference.
+**What changes the view.** Repeated customer commitments, accepted service and collections under comparable technology access, together with funded supply/commissioning. The shared monthly enterprise case now links supported cohorts, customer assignments and Treasury. Annual/intelligence-architecture bridges, debt/default policy and acquisition transitions remain to be established.
 
 ## T4 — Coordination value depends on execution and transaction semantics
 
@@ -66,13 +66,25 @@ Version 0.3. These are bounded claims and hypotheses for Amar to challenge after
 
 **Mechanism and status.** Payment timing, restrictions, rejected production, receivables and shared resource reservations can block a profitable order. This is a finance/accounting proposition with an isolated settlement core and exact synthetic test witnesses, not a measured robot-provider financing constraint.
 
-**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The [isolated monthly fixture](model/MONTHLY_DEPLOYMENT.md) now links paid actions and assigned supported output, while commercial cash/title schedules, competition and company-wide obligations remain incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
+**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The [shared monthly enterprise case](model/SHARED_ENTERPRISE.md) now links paid physical cohorts, commercial cash/title, customer assignment, staffing commitments and equity. Debt/maturity/default, funded reinvestment and annual/intelligence-architecture bridges remain incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
 
 **Strongest objection.** Deposits, supplier credit, asset finance or patient equity may bridge the gap; the assumed manufacturing-payment boundary can dominate the result. Their existence and terms must be explicit, not assumed free.
 
 **Decision implication.** Keep economic feasibility, contractual eligibility, liquidity survival and physical deliverability separate. A lease reallocates funding and risk; it does not remove manufacturing expenditure.
 
-**What changes the view.** A unified dated ledger that passes the stated adverse witnesses, followed by target contracts and observed financing terms. The current separate monthly entrant and annual fleet cannot yet establish joint financeability.
+**What changes the view.** A unified dated ledger that passes the stated adverse witnesses, followed by target contracts and observed financing terms. The current monthly enterprise and annual fleet remain separate calculations and cannot yet establish joint financeability across their distinct units and horizons.
+
+## T7 — A capability generation is not an indefinite supported asset
+
+**Mechanism and status.** Retirement, incompatible upgrades and scarce technical support can shorten the useful life of a configured deployment even while successor capability improves. This is a testable lifecycle mechanism, not an estimated retirement rate.
+
+**Evidence and scope.** Figure’s dated supplier account says most Figure 02 units have been decommissioned and describes a support-resource tradeoff. Existing BMW records separate the earlier loading deployment from Figure 03 sequencing. See CAP-E024 and [the automotive pack](research/deployment_entry_decisions.md). Customer terms, unit counts, salvage and actual service lives remain unknown.
+
+**Strongest objection.** An integrated provider can fund replacement and protect customer service, and improving designs may justify retirement. A supplier’s development fleet need not have the same lifecycle as a contracted customer fleet.
+
+**Decision implication.** Price the exact cohort’s support, upgrade, title and recovery obligations. Do not assign the successor’s capability to installed hardware or a positive terminal value without a declared policy and evidence/assumption basis.
+
+**What changes the view.** A matched customer asset/support history and contract showing funded replacement, continued service and recovery value. In the synthetic bridge, test early retirement/support withdrawal against unchanged capability and cash obligations before recommending scale.
 
 ## How this register should evolve
 

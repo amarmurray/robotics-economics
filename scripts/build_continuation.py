@@ -69,7 +69,7 @@ The [learning-data investigation](research/learning_data_economics.md) separates
 
 ## Financing and the next executable step
 
-The [treasury extension proposal](model/treasury_extension_design.md) sets out how to replace exogenous funding envelopes with dated cash, obligations, financing and shared entrant deployment. The [independent design challenge](reviews/treasury_design_review.md) tests reservation settlement and event-phase timing. This is a design artifact, **not implemented shared finance**; the current monthly entrant remains separate from the annual physical-resource pool.
+The [treasury extension proposal](model/treasury_extension_design.md) sets out how to replace exogenous funding envelopes with dated cash, obligations, financing and shared entrant deployment. The [independent design challenge](reviews/treasury_design_review.md) tests reservation settlement and event-phase timing. The shared monthly enterprise implementation now joins physical cohorts, commercial contracts, assigned demand, paid human capacity and cash. Annual digital paths and intelligence architectures still require explicit unit/cohort/cost bridges; scheduled debt/default/recovery and acquisition transitions remain unfinished. The [active decision campaign](DEPLOYMENT_ENTRY_CAMPAIGN.md) pursues those mechanisms without treating synthetic assumptions as observed terms.
 
 The immediate next question is whether one chosen service can combine accepted output, complete support, a sufficiently durable customer contract and actual cash survival. The new evidence narrows how to test that proposition. It does not justify bypassing it with an attractive benchmark, a large fleet announcement or a synthetic terminal-stock result.
 

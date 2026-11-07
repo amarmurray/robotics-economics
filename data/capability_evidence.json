@@ -33,6 +33,11 @@
       "review": "reviews/evidence_review_capabilities.md",
       "scope": "RECAP evaluation population and source wording; arXiv version metadata and bounded v4 comparison; prospective evidence-status labels",
       "verification": "Owner directly checked arXiv submission histories and relevant v4/v2 text; independent reviewer also inspected RECAP Figure9 image. No experiment replication."
+    },
+    "continuation_2026_11_07": {
+      "scope": "Fleet-retirement evidence added; original 23 claims preserved.",
+      "source_use": "Cohort compatibility, service-life and recovery-policy challenge; no fitted retirement coefficient.",
+      "review": "Sole-writer source review."
     }
   },
   "evidence": [
@@ -559,6 +564,25 @@
       "retrieved_at": "2026-10-25",
       "geography": "Generic international interfaces",
       "status": "verified_primary_text_scope_limited"
+    },
+    {
+      "evidence_id": "CAP-E024",
+      "schema_version": "capability-evidence/0.1",
+      "title": "F.02 Decommission",
+      "publisher": "Figure AI",
+      "url": "https://www.figure.ai/news/f-02-decommission",
+      "publication_date": "2026-09-30",
+      "retrieved_at": "2026-11-07",
+      "observation_period": "Fleet-status statement as of September 30, 2026; individual retirement dates and unit counts undisclosed",
+      "geography": "Figure fleet; headquarters and described disposal activity, not a matched BMW operating cohort",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "supplier_reported_retirement_and_support_tradeoff",
+      "claim": "Figure reports most of its Figure 02 fleet has been decommissioned, with a few units stored at headquarters. It describes maintaining the older generation as unattractive while the successor fleet grows and disassembly as competing for technical staff time.",
+      "locator": "Opening fleet-maintenance rationale and final fleet-status paragraph",
+      "verification": "Primary dated manufacturer article retrieved and inspected; no independent asset inventory or recovery valuation.",
+      "limitations": "No exact retired/retained count, disposal dates, contract treatment, salvage value or customer asset life. Does not date a new BMW shutdown or measure Figure 03 output; no stunt performance is used as production evidence.",
+      "status": "verified_primary_text_scope_limited",
+      "cell_id": "CELL-M05-auto-assembly-US-2025"
     }
   ],
   "systems": [

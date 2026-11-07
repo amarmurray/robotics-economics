@@ -1,5 +1,7 @@
 # Capabilities, learning and coordination — first evidence edition
 
+**7 November continuation:** CAP-E024 records Figure’s reported Figure 02 fleet retirement and support tradeoff. The [automotive decision pack](deployment_entry_decisions.md#automotive-presentation--qualify-the-workcell-and-the-generation) distinguishes legacy production, successor qualification and recovery uncertainty; no service-life or salvage coefficient is fitted. The original 23 source claims remain intact.
+
 Version 0.1.1 · Evidence retrieved 25 October 2026 · Input commit `campaign launch snapshot (see ignored sync_receipt.json)`
 
 This is an intermediate B/D/E research dossier, not completion of the seven-day campaign. The paired [evidence package](../data/capability_evidence.json) contains 23 primary-source records, 15 configured-system records, dated capability observations, learning relationships, directed transfer edges, coordination mechanisms and six linked market implications. Global coverage is purposeful but incomplete; quadruped/drone field evidence is owned by the [I/J dossier](physical_supply_field.md). Requested configuration was GPT-6 Astra with Ultra reasoning. This agent cannot independently verify the actual serving model or reasoning setting.

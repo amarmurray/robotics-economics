@@ -77,6 +77,21 @@ function cards(records,limit=30,applyFilters=true){const filtered=applyFilters?r
 function recordsFor(pattern,packagePattern=null){return allRecords.filter(r=>pattern.test(r.key)&&(!packagePattern||packagePattern.test(r.path)));}
 function evidenceSection(pattern,packagePattern=null,limit=20){return cards(recordsFor(pattern,packagePattern),limit);}
 function docs(pattern){const paths=boot.documents.filter(x=>pattern.test(x));return `<div class="links">${paths.map(x=>`<a href="/${esc(x)}" target="_blank">${esc(title(x.split('/').pop().replace('.md','')))} ↗</a>`).join('')}</div>`;}
+function decisionContext(){
+ const packet=boot.evidence_packages.find(p=>p.path==='data/market_evidence.json')?.data;
+ if(!packet?.decision_packs)return '';
+ const selected=new Set(selectedCells().map(c=>c.cell_id));
+ const reviews=packet.decision_reassessment.filter(r=>selected.has(r.cell_id));
+ const packs=packet.decision_packs.filter(p=>selected.has(p.cell_id));
+ return `<section id="decision-context" class="card"><h3>Deployment and entry decisions · provisional</h3><p>Six-cell reassessment and three service-specific decision packs. Decision gates follow the selected cell; evidence search filters source cards. Full costs, payroll effects and integrated counterfactuals are still incomplete.</p><details><summary>Inspect decisions for ${esc(scopeName())}</summary>`+
+ table(reviews,[['cell_id','Cell',cellLabel],['selection','Current selection',esc],['reason','Decision value',esc],['strongest_counterargument','Strongest challenge',esc]])+
+ packs.map(p=>`<article class="decision-pack" data-decision-id="${esc(p.decision_id)}"><h3>${esc(p.title)}</h3><p><b>Accepted service:</b> ${esc(p.accepted_service)}</p><p>${esc(p.recommendation)}</p>`+
+ table(Object.entries(p.gates).map(([gate,condition])=>({gate,condition})),[['gate','Gate',title],['condition','Condition',esc]])+
+ `<p><b>What reverses the decision:</b> ${esc(p.ranking_reversal)}</p><p>${esc(p.evidence_consequence)}</p>${refButtons(p)}<details><summary>Alternatives, retained work, cost boundaries and unknowns</summary>`+
+ table(p.alternatives,[['alternative','Alternative',esc],['fit','Fit',esc],['retained_work','Retained work',esc],['qualification_limit','Limit',esc]])+
+ `<pre>${esc(JSON.stringify({observation_contract:p.observation_contract,cash_and_resource_boundary:p.cash_and_resource_boundary,empirical_decision_metrics:p.empirical_decision_metrics,model_use:p.model_use},null,2))}</pre></details></article>`).join('')+
+ `<p class="small"><a href="/research/deployment_entry_decisions.md" target="_blank">Decision analysis and required model bridges ↗</a> · <a href="/DEPLOYMENT_ENTRY_CAMPAIGN.md" target="_blank">Active campaign contract ↗</a></p></details></section>`;
+}
 function observedEstimate(q){if(q.value!==null)return fmt(q.value,1);if(q.comparison&&Number.isFinite(q.bound))return esc(q.comparison)+fmt(q.bound,2);return 'Not published';}
 function physicalCrosswalk(){
  const packet=boot.observed_physical_requirements;
@@ -328,7 +343,7 @@ const renderers={
 };
 
 function comparisonTable(){const ids=new Set(selectedCells().map(x=>x.cell_id));return table(comparisonResults.map(r=>{const cells=r.fleet.cells.filter(x=>ids.has(x.cell_id)&&x.year===r.fleet.years.at(-1).year);return {preset:r.preset,stock:sum(cells,'active_stock'),hours:sum(cells,'baseline_equivalent_hours'),cumulative:sum(r.fleet.cells.filter(x=>ids.has(x.cell_id)),'baseline_equivalent_hours'),gap:r.newco.funding_gap_usd};}),[['preset','Saved scenario'],['stock','Final selected active stock',v=>fmt(v,2),true],['hours','Final baseline-equivalent h',v=>fmt(v),true],['cumulative','Cumulative baseline-equivalent h',v=>fmt(v),true],['gap','Fixed newco reference funding gap',money,true]]);}
-function render(){if(!result)return;describeFacets();const v=viewNames.find(x=>x[0]===activeView);setText('view-kicker',`WORKSPACE ${v[1]} / 13`);setText('view-title',v[2]);setText('scope',`${scopeName()} · ${$('year-filter').value}`);$('content').innerHTML=renderers[activeView]();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===activeView));setText('model-hash',`Engine ${result.model_version} · scenario ${result.scenario_hash.slice(0,14)}`);}
+function render(){if(!result)return;describeFacets();const v=viewNames.find(x=>x[0]===activeView);setText('view-kicker',`WORKSPACE ${v[1]} / 13`);setText('view-title',v[2]);setText('scope',`${scopeName()} · ${$('year-filter').value}`);$('content').innerHTML=decisionContext()+renderers[activeView]();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===activeView));setText('model-hash',`Engine ${result.model_version} · scenario ${result.scenario_hash.slice(0,14)}`);}
 function invalidateTrace(message){if(activeTraceHash){++detailRequestId;activeTraceHash=null;$('evidence-detail').innerHTML=empty(message);}}
 function updateControls(){
  for(const group of controlGroups)for(const [key]of group[1]){

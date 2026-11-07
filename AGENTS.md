@@ -2,6 +2,8 @@
 
 Version: program-design-2026-10-25-v0.11.
 
+Current execution: the user activated a new 168-hour Deployment and Entry Decision Edition on 7 November 2026. Read `DEPLOYMENT_ENTRY_CAMPAIGN.md` and the current handoff for its single recorded clock and acceptance contract. The October campaign directions below remain historical where they concern the old window; the substantive A–K scope and single-writer restriction remain in force.
+
 The shared accepted source is the `main` branch of the private repository https://github.com/amarmurray/robotics-economics. The canonical local working copy is `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`, paired with the ChatGPT Work project https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
 Start by reading `HANDOFF.md`, `artifact_manifest.json`, `Robotics_Economics_Research_Charter.md`, and the relevant current design files. `RESEARCH_PROGRAM_DESIGN.md` governs intellectual scope; `LLM_ECOSYSTEM_RESEARCH_MODULE.md` details substantial H; `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` and `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` detail substantial I/J; `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` specifies late-added Workstream K and its frontier model economics; `WEEK_ONE_RESEARCH_SPEC.md` governs the first campaign's outputs and acceptance; `CODEX_GOAL.md` is prepared launch text; `RESEARCH_ROADMAP.md` holds open questions. Execute the user's current request. Reading the roadmap or a goal file does not itself activate all listed work.

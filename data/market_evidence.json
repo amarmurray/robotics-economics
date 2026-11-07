@@ -3588,5 +3588,389 @@
     "cagr2015to25_percent",
     "cagr2025to35_percent"
   ],
-  "normalization_note": "Source-row IDs and explicit sums support exact recomputation of all15 market employment values and residuals. Source raw rows preserve historical and projected columns; only employment2025_thousands enters observed calculations."
+  "normalization_note": "Source-row IDs and explicit sums support exact recomputation of all15 market employment values and residuals. Source raw rows preserve historical and projected columns; only employment2025_thousands enters observed calculations.",
+  "decision_reassessment": [
+    {
+      "review_id": "DE-REVIEW-M05",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Selected: strongest bounded humanoid manufacturing comparator, not a proven ROI winner",
+      "reason": "Observed production-connected component loading and an explicit mixed logistics successor allow a generational and handoff test.",
+      "strongest_counterargument": "A fixed cell or redesigned presentation may meet takt more cheaply; the old fleet does not prove new-generation sustained service.",
+      "evidence_refs": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003",
+        "CAP-E024"
+      ]
+    },
+    {
+      "review_id": "DE-REVIEW-M08",
+      "cell_id": "CELL-M08-3pl-tote-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Retained comparison: contracted tote handoff",
+      "reason": "A live operator/RaaS relationship and narrow AMR-to-conveyor boundary make service responsibility testable.",
+      "strongest_counterargument": "Cumulative totes lack aligned support, clock, price and accepted-output denominators; equal access leaves customer retention and cash unresolved.",
+      "evidence_refs": [
+        "A-GXO-2024",
+        "CAP-E004",
+        "CAP-E005"
+      ]
+    },
+    {
+      "review_id": "DE-REVIEW-M11",
+      "cell_id": "CELL-M11-floor-cleaning-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Retained comparison: specialist equipment and digital scheduling",
+      "reason": "Repeated operator use supplies the strongest simple-machine challenge to a general-purpose embodiment.",
+      "strongest_counterargument": "Accessible floor share, edge work, refilling, site dispersion and actual shift removal can eliminate a headline efficiency advantage.",
+      "evidence_refs": [
+        "A-ISS-2026",
+        "FG-E008"
+      ]
+    },
+    {
+      "review_id": "DE-REVIEW-M10",
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Selected: service urgency and retained human work",
+      "reason": "Contrasting clinical transport studies expose deadline eligibility, handling, accompaniment and denominator conflicts.",
+      "strongest_counterargument": "An urgent fallback or inter-floor escort can preserve the paid shift despite quicker successful journeys.",
+      "evidence_refs": [
+        "FSD-E001",
+        "FSD-E002",
+        "FSD-E003",
+        "FSD-E005"
+      ]
+    },
+    {
+      "review_id": "DE-REVIEW-M04",
+      "cell_id": "CELL-M04-construction-install-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Retained comparison: digital plans plus specialist drilling",
+      "reason": "Digital layout and repeatable overhead drilling provide a process-redesign comparator with explicit operator involvement.",
+      "strongest_counterargument": "Site changes, setup, access and retained operator tasks prevent treating holes drilled as complete MEP installation.",
+      "evidence_refs": [
+        "A-HILTI-JAIBOT",
+        "A-JAIBOT-UAE2021"
+      ]
+    },
+    {
+      "review_id": "DE-REVIEW-M03",
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "as_of": "2026-11-07",
+      "status": "qualitative_decision_screen_not_economic_ranking",
+      "selection": "Selected: accepted measurement versus maintenance outcome",
+      "reason": "Operator-coauthored inspection coverage and selected-route evidence expose the residual mandatory visit.",
+      "strongest_counterargument": "More measurements may be valuable while no visit, payroll or failure loss is avoided.",
+      "evidence_refs": [
+        "QOF-E01",
+        "QOF-E03",
+        "PHY-E02",
+        "PHY-E04"
+      ]
+    }
+  ],
+  "decision_packs": [
+    {
+      "decision_id": "DE-PACK-HOSPITAL",
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "title": "Hospital logistics: protect the complete delivery obligation",
+      "as_of": "2026-11-07",
+      "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
+      "accepted_service": "One uniquely requested permitted item delivered to the designated recipient, with identity/condition and custody verified by its urgency-specific deadline; urgent and ineligible requests remain in the full service ledger.",
+      "evidence_refs": [
+        "FSD-E001",
+        "FSD-E002",
+        "FSD-E003",
+        "FSD-E005",
+        "A-HOSPITAL-2026"
+      ],
+      "alternatives": [
+        {
+          "alternative": "Digitally improved human courier",
+          "fit": "Reference comparator: dispatch, batching, congestion information and electronic receipt must be measured independently.",
+          "retained_work": "Picking, custody checks, transport, elevator access and receipt; software support remains.",
+          "qualification_limit": "No source establishes a transferable digital productivity percentage for this route."
+        },
+        {
+          "alternative": "Specialized wheeled transport",
+          "fit": "Evidence exists for specific medication/endoscope routes; qualify elevators, load and custody locally.",
+          "retained_work": "Loading, unloading, cleaning, dispatch, failure recovery, equipment upkeep and any required escort.",
+          "qualification_limit": "Foreign studies do not calibrate a US route; shorter transport means do not establish payroll or clinical equivalence."
+        },
+        {
+          "alternative": "Mobile manipulator or humanoid",
+          "fit": "Additional handling/door abilities are a candidate reason to test a configuration.",
+          "retained_work": "Unproven handling and access require observation; clinical authority and exception response remain human.",
+          "qualification_limit": "No accepted matched-service cost or sustained humanoid comparison is established."
+        },
+        {
+          "alternative": "Mixed human and robot service",
+          "fit": "Potentially fit routine nonurgent subset while people cover urgent/excluded work.",
+          "retained_work": "Residual courier coverage, shared dispatch and all handoffs.",
+          "qualification_limit": "Eligibility selection must not conceal deferred work or duplicate claimed time savings."
+        }
+      ],
+      "recommendation": "Prioritize a bounded nonurgent service qualification and a digital-human comparator. Wait on a labor-substitution or scale-entry thesis until total support and paid-commitment changes are established.",
+      "gates": {
+        "proceed": "Analytical proceed gate: complete request-level service, custody/deadline and support accounting; authorized site authority and a funded fallback are explicit. This research does not initiate a field trial.",
+        "wait": "Wait if accompaniment permanence, elevator access, urgency exclusions, acceptance or full support costs remain unknown.",
+        "reject": "Reject the specific business case if it misses required service or depends on eliminating a paid shift that must remain to cover urgent/excluded work."
+      },
+      "ranking_reversal": "Preference can move toward specialized automation when handling/escort and exception burden fall enough to remove an actual paid commitment or buy valuable capacity. It can move back to improved human service when digital batching or retained coverage absorbs the same benefit.",
+      "observation_contract": {
+        "denominator": "All due service requests in the declared site/shift cohort, including ineligible, failed, deferred and human-fallback work.",
+        "identity": "Unique request ID, configuration/software vintage, assigned actor and terminal accepted outcome; rework attempts never create another service.",
+        "exposure": "Scheduled, powered, available, productive and down time recorded separately; calendar duration is not robot exposure.",
+        "labor": "Record handling, dispatch, accompaniment, inspection, rework, recovery, transport, cleaning, maintenance and support person-minutes with overlapping work reconciled.",
+        "payroll": "Match rostered paid commitments, overtime or funded vacancies before and after; released task time is not removed payroll.",
+        "quality": "Prespecify acceptance, deadline and severity; preserve rejected output and downstream harm/exposure instead of selecting successful runs.",
+        "resources": "Reserve qualified hardware, spares, support, charging, compute and validation against the same cohort and period.",
+        "rights": "Require operation, modification, model/data reuse, support, repair, exit and transfer rights at the exact configuration/contract level."
+      },
+      "cash_and_resource_boundary": {
+        "customer": "Incremental customer cash for hardware/contract, integration, staff, infrastructure, fallback and working capital; receivables and commitments are not cash.",
+        "provider": "Manufacture, adaptation, commissioning, inference, maintenance, spares and support obligations plus collection timing.",
+        "consolidated": "Eliminate payments among included actors; count their underlying resource use once. Financing transfers and asset purchases are not extra physical output.",
+        "entry": "Hold technology access equal. Compare build, acquisition and hybrid with customer authority, transition cost, cash runway and prompt/delayed incumbent response; acquisition reassigns existing activity."
+      },
+      "empirical_decision_metrics": {
+        "whole_system_cost": {
+          "value": null,
+          "unit": "USD per matched accepted service",
+          "missingness_reason": "Matched all-actor resource and cost ledger unavailable."
+        },
+        "avoidable_payroll": {
+          "value": null,
+          "unit": "paid USD per matched period",
+          "missingness_reason": "No matched staffing/schedule change and loaded-payroll convention."
+        },
+        "qualified_supply": {
+          "value": null,
+          "unit": "supported systems accessible by month",
+          "missingness_reason": "No target-specific allocated and qualified delivery/support commitment."
+        },
+        "support_minutes": {
+          "value": null,
+          "unit": "person-minutes per matched accepted service",
+          "missingness_reason": "All routine and exception work not observed on the same service population."
+        },
+        "net_entry_cash_return": {
+          "value": null,
+          "unit": "USD over stated horizon",
+          "missingness_reason": "No target contracts, funding schedule, retention, residual asset and default/recovery terms."
+        }
+      },
+      "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
+      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit."
+    },
+    {
+      "decision_id": "DE-PACK-UTILITY",
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "title": "Utility inspection: price the residual visit and accepted information",
+      "as_of": "2026-11-07",
+      "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
+      "accepted_service": "One scheduled asset/measurement set completed within its required window, with validated measurement quality, coverage and reviewer disposition; any required maintenance action is a separately identified downstream service.",
+      "evidence_refs": [
+        "QOF-E01",
+        "QOF-E02",
+        "QOF-E03",
+        "QOF-E05",
+        "QOF-E06",
+        "QOF-E07",
+        "PHY-E02",
+        "PHY-E04"
+      ],
+      "alternatives": [
+        {
+          "alternative": "Digitally improved human inspection",
+          "fit": "Reference route planning, remote expert support and digital reporting; fixed sensing may alter the required visit.",
+          "retained_work": "Access preparation, measurement, interpretation and maintenance authority.",
+          "qualification_limit": "Digital reporting or dynamic line-rating benefits must not be attributed to the mobile robot."
+        },
+        {
+          "alternative": "Fixed sensors or wheeled inspection",
+          "fit": "Prefer where the same required readings and accessible route can be covered with simpler infrastructure.",
+          "retained_work": "Installation, calibration, communications and expert review.",
+          "qualification_limit": "Visibility, terrain and measurement equivalence must be qualified; a component price is not full cost."
+        },
+        {
+          "alternative": "Configured quadruped",
+          "fit": "Relevant where stairs, terrain or changing viewpoints defeat simpler alternatives.",
+          "retained_work": "Mapping, access/doors, payload upkeep, charging, exception response and expert disposition.",
+          "qualification_limit": "Room coverage in a historical test is not current mission reliability or all-site coverage."
+        },
+        {
+          "alternative": "Drone or mixed inspection team",
+          "fit": "Aerial sensing can complement outdoor access; humans or ground systems cover different points.",
+          "retained_work": "Flight/data handling, human visits for excluded points, review and corrective work.",
+          "qualification_limit": "Incompatible indoor measurements or permissions cannot be treated as substitute services; count a shared avoided visit once."
+        },
+        {
+          "alternative": "Humanoid or manipulator-equipped ground robot",
+          "fit": "Door/switch/occluded-point access is a testable extension.",
+          "retained_work": "New payload/manipulation qualification and maintenance.",
+          "qualification_limit": "No measured economic advantage is inferred from the untested ability to reach more points."
+        }
+      ],
+      "recommendation": "Prioritize measurement coverage, reviewer disposition and the full mandatory route. Separate a monitoring purchase from a labor-removal business case.",
+      "gates": {
+        "proceed": "Analytical proceed gate: the due-inspection inventory, excluded points, measurement accuracy, safe access and escalation contract are explicit; a monitoring-value case may proceed without claiming payroll removal.",
+        "wait": "Wait on scale economics while support, recurring accepted output, post-pilot retention, full cost and available qualified supply remain undisclosed.",
+        "reject": "Reject a labor-removal claim when the same paid visit remains mandatory, or an avoided-outage claim lacking a defensible counterfactual. This does not reject separately valuable additional monitoring."
+      },
+      "ranking_reversal": "Preference can switch to fixed sensing when the required stable points can be instrumented; toward quadrupeds when mobile access and coverage eliminate a whole required visit at acceptable total burden; toward mixed service when residual inspections are material.",
+      "observation_contract": {
+        "denominator": "All due service requests in the declared site/shift cohort, including ineligible, failed, deferred and human-fallback work.",
+        "identity": "Unique request ID, configuration/software vintage, assigned actor and terminal accepted outcome; rework attempts never create another service.",
+        "exposure": "Scheduled, powered, available, productive and down time recorded separately; calendar duration is not robot exposure.",
+        "labor": "Record handling, dispatch, accompaniment, inspection, rework, recovery, transport, cleaning, maintenance and support person-minutes with overlapping work reconciled.",
+        "payroll": "Match rostered paid commitments, overtime or funded vacancies before and after; released task time is not removed payroll.",
+        "quality": "Prespecify acceptance, deadline and severity; preserve rejected output and downstream harm/exposure instead of selecting successful runs.",
+        "resources": "Reserve qualified hardware, spares, support, charging, compute and validation against the same cohort and period.",
+        "rights": "Require operation, modification, model/data reuse, support, repair, exit and transfer rights at the exact configuration/contract level."
+      },
+      "cash_and_resource_boundary": {
+        "customer": "Incremental customer cash for hardware/contract, integration, staff, infrastructure, fallback and working capital; receivables and commitments are not cash.",
+        "provider": "Manufacture, adaptation, commissioning, inference, maintenance, spares and support obligations plus collection timing.",
+        "consolidated": "Eliminate payments among included actors; count their underlying resource use once. Financing transfers and asset purchases are not extra physical output.",
+        "entry": "Hold technology access equal. Compare build, acquisition and hybrid with customer authority, transition cost, cash runway and prompt/delayed incumbent response; acquisition reassigns existing activity."
+      },
+      "empirical_decision_metrics": {
+        "whole_system_cost": {
+          "value": null,
+          "unit": "USD per matched accepted service",
+          "missingness_reason": "Matched all-actor resource and cost ledger unavailable."
+        },
+        "avoidable_payroll": {
+          "value": null,
+          "unit": "paid USD per matched period",
+          "missingness_reason": "No matched staffing/schedule change and loaded-payroll convention."
+        },
+        "qualified_supply": {
+          "value": null,
+          "unit": "supported systems accessible by month",
+          "missingness_reason": "No target-specific allocated and qualified delivery/support commitment."
+        },
+        "support_minutes": {
+          "value": null,
+          "unit": "person-minutes per matched accepted service",
+          "missingness_reason": "All routine and exception work not observed on the same service population."
+        },
+        "net_entry_cash_return": {
+          "value": null,
+          "unit": "USD over stated horizon",
+          "missingness_reason": "No target contracts, funding schedule, retention, residual asset and default/recovery terms."
+        }
+      },
+      "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
+      "evidence_consequence": "TenneT selected inspectable points; site-wide residual work is unmeasured. A targeted later operator search did not produce a new closeout and the TenneT domain was blocked to retrieval. No rollout, abandonment or zero value is inferred. Existing National Grid and TenneT observation vintages remain separate."
+    },
+    {
+      "decision_id": "DE-PACK-AUTO",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "title": "Automotive presentation: qualify the workcell and the generation",
+      "as_of": "2026-11-07",
+      "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
+      "accepted_service": "One correct component placed and verified in the required fixture or sequence position by takt, with machine handoff accepted; welding, complete vehicles and downstream assembly remain separate activity.",
+      "evidence_refs": [
+        "A-BMW-2026",
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003",
+        "CAP-E024"
+      ],
+      "alternatives": [
+        {
+          "alternative": "Digitally improved human/AMR handling",
+          "fit": "Reference ergonomics, sequencing, error prevention and material presentation with existing conventional automation.",
+          "retained_work": "Handling, exception resolution, QA and line support.",
+          "qualification_limit": "BMW describes digital tools but supplies no attributable matched productivity coefficient."
+        },
+        {
+          "alternative": "Fixed arm, fixture or redesigned transfer",
+          "fit": "Strong comparator for stable geometry and repetitive takt.",
+          "retained_work": "Changeover, feeding, fault recovery, maintenance and system integration.",
+          "qualification_limit": "A narrower machine may win; compare actual flexibility and retooling demands, not an arbitrary specialist multiplier."
+        },
+        {
+          "alternative": "Humanoid at a bounded station",
+          "fit": "Production-connected Figure 02 evidence supports investigating precise repeatable loading.",
+          "retained_work": "Line supervision, service, spares, integration and recovery remain in scope.",
+          "qualification_limit": "No complete staffing, downtime or cost denominator. Retired Figure 02 cohorts do not become Figure 03 capacity."
+        },
+        {
+          "alternative": "Mixed humanoid plus tugger/STR and people",
+          "fit": "The announced Figure 03 sequence has explicit onward transport and human assembly.",
+          "retained_work": "Each handoff, shared dispatch, support and downstream labor.",
+          "qualification_limit": "Prospective workflow must earn its own sustained service evidence; the prior vehicle total cannot be inherited."
+        }
+      ],
+      "recommendation": "Use automotive presentation as the manufacturing challenge case: compare a stable workcell and a changing sequence against fixed automation and improved human handling. Wait on broad replacement or greenfield entry claims.",
+      "gates": {
+        "proceed": "Analytical proceed gate: a configuration-specific takt, acceptance/recovery contract and funded support/upgrade plan match a real production need. Candidate flexibility must outweigh its additional burden.",
+        "wait": "Wait when the new generation lacks sustained exposure, per-shift accepted output, support liability, compatible spares or explicit rights.",
+        "reject": "Reject extrapolation from vehicles supported to vehicles assembled, from retired assets to available capacity, or from supplier fleet disposal to an assumed customer salvage value."
+      },
+      "ranking_reversal": "Fixed automation can win at stable high-volume geometry; a reconfigurable system can become preferable if validated changeover and multi-part service value exceeds added lifecycle and support costs. An early retirement or support withdrawal can reverse an otherwise favorable lifetime comparison.",
+      "observation_contract": {
+        "denominator": "All due service requests in the declared site/shift cohort, including ineligible, failed, deferred and human-fallback work.",
+        "identity": "Unique request ID, configuration/software vintage, assigned actor and terminal accepted outcome; rework attempts never create another service.",
+        "exposure": "Scheduled, powered, available, productive and down time recorded separately; calendar duration is not robot exposure.",
+        "labor": "Record handling, dispatch, accompaniment, inspection, rework, recovery, transport, cleaning, maintenance and support person-minutes with overlapping work reconciled.",
+        "payroll": "Match rostered paid commitments, overtime or funded vacancies before and after; released task time is not removed payroll.",
+        "quality": "Prespecify acceptance, deadline and severity; preserve rejected output and downstream harm/exposure instead of selecting successful runs.",
+        "resources": "Reserve qualified hardware, spares, support, charging, compute and validation against the same cohort and period.",
+        "rights": "Require operation, modification, model/data reuse, support, repair, exit and transfer rights at the exact configuration/contract level."
+      },
+      "cash_and_resource_boundary": {
+        "customer": "Incremental customer cash for hardware/contract, integration, staff, infrastructure, fallback and working capital; receivables and commitments are not cash.",
+        "provider": "Manufacture, adaptation, commissioning, inference, maintenance, spares and support obligations plus collection timing.",
+        "consolidated": "Eliminate payments among included actors; count their underlying resource use once. Financing transfers and asset purchases are not extra physical output.",
+        "entry": "Hold technology access equal. Compare build, acquisition and hybrid with customer authority, transition cost, cash runway and prompt/delayed incumbent response; acquisition reassigns existing activity."
+      },
+      "empirical_decision_metrics": {
+        "whole_system_cost": {
+          "value": null,
+          "unit": "USD per matched accepted service",
+          "missingness_reason": "Matched all-actor resource and cost ledger unavailable."
+        },
+        "avoidable_payroll": {
+          "value": null,
+          "unit": "paid USD per matched period",
+          "missingness_reason": "No matched staffing/schedule change and loaded-payroll convention."
+        },
+        "qualified_supply": {
+          "value": null,
+          "unit": "supported systems accessible by month",
+          "missingness_reason": "No target-specific allocated and qualified delivery/support commitment."
+        },
+        "support_minutes": {
+          "value": null,
+          "unit": "person-minutes per matched accepted service",
+          "missingness_reason": "All routine and exception work not observed on the same service population."
+        },
+        "net_entry_cash_return": {
+          "value": null,
+          "unit": "USD over stated horizon",
+          "missingness_reason": "No target contracts, funding schedule, retention, residual asset and default/recovery terms."
+        }
+      },
+      "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
+      "evidence_consequence": "The new retirement disclosure strengthens the need for cohort-specific service life and explicit recovery policy. It does not estimate either. Existing BMW Figure 03 and digital-process evidence is reused rather than counted again."
+    }
+  ],
+  "decision_campaign_context": {
+    "campaign_id": "deployment-entry-2026-11-07",
+    "status": "initial_decision_checkpoint_not_campaign_completion",
+    "selection_basis": "Hospital and utility required by objective; automotive chosen for bounded humanoid operating exposure and explicit generation/mixed-workflow contrast. No ROI ranking among the six cells is asserted.",
+    "preservation": "Original cell records, labor totals, source rows and all scenario assumptions unchanged.",
+    "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths."
+  }
 }

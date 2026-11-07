@@ -1,5 +1,14 @@
 # Campaign acceptance audit — integrated report edition
 
+## New decision campaign: initial checkpoint, edition 0.13
+
+The new 168-hour campaign is active through **2026-11-14T20:12:27Z**. The initial six-cell review and three packs expose service, support, payroll, supply and rights gates. Two adverse claims are added with source-role limits. Strict evidence validation passes: **13 packages, 186 claims, 366 reported quantities, 104 explicit-null quantity markers, zero errors/warnings**. Fifteen new null markers preserve absent pack-level economics; they are not zero-cost assumptions.
+
+The original **53 bounded met / 16 partial** counts are preserved. New criteria are separate under `decision_campaign` in [the same register](acceptance_register.json). Unit/time/cohort/architecture-cost bridges, interest/maturity/reinvestment/default, acquisition transitions, a strong conventional coordination comparison and newly integrated counterfactuals are not claimed complete. Fourteen reserved case names are plans, not passed replays. Self-review and final checkpoint validation are recorded in [the decision review](reviews/decision_checkpoint_review.md).
+
+This is an early checkpoint. It does not stop the goal, satisfy the full-week requirement or claim uninterrupted execution.
+
+
 **Disposition: publishable as an explicitly bounded continuation dated 7 November 2026. The original seven-day window has ended with incomplete requirements; full program acceptance is not established.** The governing scope remains the week-one specification v1.5 and the eleven-workstream research design. The original 168-hour window remains in [HANDOFF.md](HANDOFF.md); this audit does not reset it or imply uninterrupted execution.
 
 The [requirement register](acceptance_register.json) records 69 checks: the original 64 and five conditional late-added Workstream K outputs. “Met” means the stated bounded artifact/check exists at this checkpoint; it is not a claim of empirical calibration or final campaign acceptance. “Partial” identifies a substantive remaining boundary, even where a useful implementation or dossier exists. The [independent acceptance review](reviews/acceptance_review.md) covers the original integrated checkpoint. The newer annual-path, physical-crosswalk and K audits are sole-lead checks with their own explicit scope.

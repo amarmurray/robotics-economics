@@ -1,5 +1,7 @@
 # Strategy and deployment decisions: first integrated findings
 
+The new 7 November decision campaign adds [three provisional deployment and entry packs](deployment_entry_decisions.md), preceded by a reassessment of all six deep cells. The strongest immediate questions are residual paid coverage in hospitals, residual mandatory visits in utilities, and workcell/asset-generation qualification in automotive production. These are conditional research decisions; the integrated execution bridges and challenge cases remain work in progress.
+
 This campaign asks where a humanoid company should deploy, what must improve, and which organizational and commercial arrangements can sustain useful production. The early evidence supports a conditional strategy organized around customer services and their bottlenecks. It does not yet support a calibrated economy-wide penetration forecast or a claim that one morphology will replace a fixed share of physical labor.
 
 The November restaurant comparison sharpens the customer hurdle: model-led folding must compete on the full accepted napkin service against qualified specialist equipment and a measured human baseline. Advertised speed and base wages do not reveal a removable paid shift. [FG-CMP-03](customer_value.md#restaurant-napkin-workflow-comparison) defines loading, acceptance, rework, handoff and support plus separate customer/provider cash and consolidated resources. It narrows the required evidence without establishing an ROI or winner.

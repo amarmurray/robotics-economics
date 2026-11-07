@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: post-window-cloud-continuation-2026-11-07-0.12.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.13.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: cloud execution and matched napkin workflow, edition 0.12
+## Current checkpoint: new Deployment and Entry Decision campaign, edition 0.13
+
+The user activated a **new 168-hour goal** in this same cloud chat. See [DEPLOYMENT_ENTRY_CAMPAIGN.md](DEPLOYMENT_ENTRY_CAMPAIGN.md). The single recorded execution T0 is **2026-11-07T20:12:27Z** and deadline **2026-11-14T20:12:27Z**. T0 is the first recorded tool clock in this continuation, not an exposed native-goal activation timestamp. User history confirms goal activation shortly before it. Preserve this clock on resumption. The October window remains historical and incomplete. This checkpoint does not complete or stop the new objective.
+
+Execution is in the same connected cloud environment and `/workspace/robotics-economics` checkout. A coordinator disconnection diagnostic was followed by a fresh connected/running status and successful shell/repository check; working changes and timing survived. One writer continues; no executor replacement, additional agent or schedule was created. Actual serving model/effort remains independently unverified. Exact input/runtime/publication receipts stay in ignored local records.
+
+[The decision analysis](research/deployment_entry_decisions.md) and existing market evidence package now reassess all six cells and specify hospital, utility and automotive packs. Each has accepted-service boundaries, feasible alternatives, retained work, explicit unknown costs/payroll/supply, actor accounting and provisional proceed/wait/reject gates. Two bounded adverse claims are added: WSNA's attributed worker escort experience, with the exit account distinguished from a verified operator closeout; and Figure's reported old-fleet retirement/support tradeoff. Existing claims, counts, cell denominators and scenario coefficients remain intact. The new common decision panel follows cell selection in all thirteen views.
+
+**Current validation:** strict evidence validation passes with 13 packages, 186 claims, 366 reported quantities and 104 explicit-null quantity markers. Fresh checks passed: 196 Python tests, 36 JavaScript assertions, all thirteen browser views, source drawers, six-cell scope, stale-response rejection and export/reload. All 140,231 typed numeric fields in 21 saved JSON result artifacts remain identical to edition 0.12. Publication checks include all manifest bytes and local links; see the sole-writer decision review. The legacy acceptance counts remain 53 bounded met / 16 partial; the new campaign has its own criteria under `decision_campaign` in the same acceptance register.
+
+**Next execution:** implement and challenge the explicit work-unit, calendar, cohort and architecture-cost bridges in the decision analysis. Add exact debt/interest/maturity, funded reinvestment and declared default/recovery without bypassing the shared Treasury. Preserve established world outputs unless a change is deliberate and documented. Develop the strong conventional coordination baseline with equal information, authority and resources, then the fourteen reserved counterfactuals and switch points. Reserved case names are not implemented replays. Follow the campaign contract through evidence, integration and review until the deadline; do not finish after this early checkpoint.
+
+**Next question:** which exact paid commitment, service obligation and cash path changes the recommendation when the incumbent can use the same technology?
+
+The active objective was received and user activation confirmed, but native goal ID/control and quota-reading/earned-reset tools are not exposed. No reset, native control action or uninterrupted future execution is claimed. Continue independent permitted work; if a real limit blocks execution, preserve state and report it.
+
+## Previous checkpoint: cloud execution and matched napkin workflow, edition 0.12
 
 The coordinator received explicit user authorization for one new cloud execution chat after the original executor failed and no supported same-task reattachment was available. This is that sole research-writing continuation, using the published robotics-economics environment. The original “Continue with one agent” chat and the Mac “Incorporate Workstream K” history remain untouched; the coordinator verified both idle before handoff. The canonical Mac checkout remains preserved. The original T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z** are historical; no new deadline or work during the interruption is implied.
 

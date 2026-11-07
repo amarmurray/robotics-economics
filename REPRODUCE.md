@@ -1,5 +1,7 @@
 # Reproduce the local research edition
 
+The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. The reserved DE-CF case list is a future implementation contract, not a new executable experiment suite; existing commands below retain their stated scopes.
+
 Python 3.10 or newer is sufficient. Earlier validation used Python 3.12.14 on Linux; annual-path continuation also runs on the canonical Mac checkout. The model/server/export commands have **no third-party dependencies, credentials, network requests, GPU requirements or paid services**. Node is optional for the JavaScript syntax check. The dashboard needs a current browser with `fetch` and native `<dialog>` support.
 
 From the repository root:

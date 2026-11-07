@@ -1,6 +1,6 @@
 {
   "schema_version": "field-support-denominators/1.0",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "metadata": {
     "title": "Hospital logistics support denominators: bounded second-wave audit",
     "as_of": "2026-10-25",
@@ -126,6 +126,28 @@
         "Report contents not source-verified in this wave.",
         "No resolution of 107/111 conflict or matched 48, 600 cumulative-delivery support exposure inferred."
       ]
+    },
+    {
+      "evidence_id": "FSD-E005",
+      "title": "Saying goodbye to Moxi, the AI-powered robot",
+      "publisher": "Washington State Nurses Association",
+      "authors": "Bobbi Nodell",
+      "url": "https://www.wsna.org/news/2026/saying-goodbye-to-moxi-the-ai-powered-robot",
+      "publication_date": "2026-03-13",
+      "retrieved_at": "2026-11-07",
+      "observation_period": "Retrospective account of MultiCare use beginning in 2023 and reportedly ending in 2025; individual observation dates unspecified",
+      "geography": "Tacoma General and Good Samaritan hospitals, Washington, US",
+      "source_class": "worker_representative_primary_testimony_with_secondary_exit_reporting",
+      "epistemic_status": "attributed_worker_experience_not_operating_time_study",
+      "claim": "WSNA reports members at two MultiCare hospitals experienced obstructive robot movement and inter-floor escort needs without meaningful time savings. The article also reports withdrawal in 2025, but does not publish an operator closeout or matched service/support logs.",
+      "locator": "March 13, 2026 article; paragraphs on WSNA members and reported end of use",
+      "verification": "Primary union publication retrieved and read. It directly reports member experience; its fleet/exit account partly relies on newspaper reporting. A targeted MultiCare-site search did not retrieve an operator closeout.",
+      "limitations": [
+        "Advocacy and retrospective testimony; respondent selection/count, route configuration and observation exposure are unspecified.",
+        "No quantified escort duration, accepted-service denominator, contract cost or payroll change.",
+        "The reported exit is not independently verified by an operator closeout here; it does not establish the cause of withdrawal or performance at other hospitals."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025"
     }
   ],
   "cases": [
@@ -621,5 +643,11 @@
     "Selection of nonurgent or low-congestion jobs changes service coverage and may shift urgent/fallback work to humans.",
     "Comparative phase-time improvement and workloadFTE are distinct from payroll removal, financing return and humanoid advantage.",
     "Current US hospital cell may use these cases only as mechanism/comparator evidence until target-side validation."
-  ]
+  ],
+  "continuation_2026_11_07": {
+    "scope": "One adverse workforce account, with source-role separation; previous quantitative studies and conflicts unchanged.",
+    "review": "Sole research writer; no independent review.",
+    "search_stop": "No repeat of the inaccessible Qilu methods or ChristianaCare report routes. New targeted operator/worker-account search stopped at a clearly attributed qualitative result.",
+    "model_use": "Service qualification and retained-work gate only; no numerical calibration."
+  }
 }

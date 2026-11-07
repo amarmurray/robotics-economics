@@ -17,6 +17,7 @@ CHAPTERS = [
  ('Frontier robotics models, deployment and value capture','frontier_models.md'),
 ]
 FOLLOWUPS = {
+ 'integrated_decisions.md': [('Deployment and entry decision packs', 'deployment_entry_decisions.md')],
  'frontier_models.md': [('Generalist, Dyna and customer service economics', 'generalist_dyna_deployment.md'), ('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
@@ -31,7 +32,7 @@ def chapter(text, depth=1):
     if lines and lines[0].startswith('# '): lines=lines[1:]
     lines=[('#'*depth+x if x.startswith('#') else x) for x in lines]
     s='\n'.join(lines).strip()
-    s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../reviews/','(reviews/').replace('(../RESEARCH_', '(RESEARCH_')
+    s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../reviews/','(reviews/').replace('(../RESEARCH_', '(RESEARCH_').replace('(../DEPLOYMENT_', '(DEPLOYMENT_')
     for path in (ROOT/'research').glob('*.md'):
         s=s.replace('('+path.name+'#','(research/'+path.name+'#')
         s=s.replace('('+path.name+')','(research/'+path.name+')')
@@ -43,11 +44,11 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.12, continuation dated 7 November 2026 after the original campaign deadline. The customer chapter now integrates a matched restaurant napkin-service protocol across manual, specialist-equipment and robotics alternatives, preserving unknown whole-system costs and paid labor effects. Generalist/Dyna adaptation and source-output arithmetic remain distinct from financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
+Edition 0.13, initial checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. The report now reassesses all six deep cells and develops hospital, utility and automotive decision packs with accepted-service boundaries, retained work, unknown costs and provisional proceed/wait/reject gates. New adverse worker and fleet-retirement evidence is explicitly attributed. The monthly/annual/intelligence-architecture bridges and counterfactual challenge set are specified but not yet implemented together. All earlier research remains integrated. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The new decision review also retrieved its two adverse sources on 7 November. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
-Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. That original deadline has passed. The user requested continuation on 7 November; no new deadline, work during the interruption or uninterrupted-compute claim is implied.
+The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
 The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination, learning-data and onboard-workload follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
 

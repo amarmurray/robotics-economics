@@ -1,0 +1,106 @@
+# Deployment and entry decisions: service before scale
+
+Decision campaign, initial checkpoint · 7 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. This is the first decision layer to challenge during that window, not the final Deployment and Entry Decision Edition.
+
+The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
+
+## Reassessment of the six deep cells
+
+The machine-readable review and three packs extend [market_evidence.json](../data/market_evidence.json). The original six cells, fifteen market families, official employment records and synthetic assumptions are unchanged. A selection for deeper decision analysis is not an ROI ranking or a claim of representative market coverage.
+
+| Existing cell | What makes the comparison informative | Most consequential challenge | Current treatment |
+| --- | --- | --- | --- |
+| Automotive assembly/material presentation | Production-connected loading evidence and an explicit newer mixed sequencing workflow | Fixed automation may meet stable geometry more cheaply; old-generation output cannot qualify the successor | Selected manufacturing pack |
+| 3PL tote handoff | A bounded AMR/conveyor interface and operator-confirmed service arrangement | Unknown accepted-output exposure, support, price and retention; common robot access leaves entry economics unresolved | Retained comparison and contract test |
+| Commercial floor cleaning | Repeated specialist-machine use and digitally informed scheduling | Edges, refills, dispersed sites and retained shifts can absorb the apparent saving | Retained simple-machine and enterprise-model comparator |
+| Hospital internal logistics | Route studies reveal urgency selection, handling and accompanying labor | Faster successful transport need not remove an escort or courier coverage | Selected service pack |
+| Construction installation | Digital plans and specialist drilling show process redesign with an operator | Holes drilled omit setup, site changes and the rest of installation | Retained digital/specialist comparator |
+| Utility inspection | Operator-linked coverage studies expose selected points and residual visits | More readings need not remove a visit or cause avoided outages | Selected inspection pack |
+
+Automotive presentation is the strongest *bounded humanoid manufacturing challenge case* in this selection because the accepted evidence connects a configured robot with production and distinguishes its successor workflow. Floor cleaning remains a strong challenge to general-purpose embodiment, and tote handoff remains useful for service-contract analysis. The record does not support selecting any of these as the highest-return business.
+
+## Hospital logistics — qualify the entire obligation
+
+The accepted service is a uniquely requested permitted item received by the designated person in the required condition and custody state before its urgency-specific deadline. The demand ledger includes ineligible requests, urgent work, deferrals, failed attempts and human fallback. A successful selected robot journey is only one part of that obligation.
+
+Existing Guro evidence distinguishes routine loading and receipt, a trained accompanying operator, and corrective failures. Its conflicting overall success figures remain unresolved. Qilu supplies a manual comparator and lower reported transport-phase means, but its accessible methods do not establish the complete staffing and ROI boundary. The ChristianaCare intervention-count conflict remains open. These studies support different mechanisms and populations; none calibrates a general US nursing-labor saving. See [the denominator audit](field_support_denominators.md).
+
+A new adverse workforce account sharpens the qualification question. WSNA reports that members at Tacoma General and Good Samaritan experienced obstructive robot movement and inter-floor escort requirements without meaningful time savings. Its March 2026 article also reports a 2025 withdrawal, partly relying on newspaper reporting; a direct operator closeout was not retrieved. The account is evidence of attributed worker experience and a reported exit, with unspecified respondent selection and exposure. It does not identify a causal failure rate, contract return or the reason for withdrawal. [FSD-E005; WSNA](https://www.wsna.org/news/2026/saying-goodbye-to-moxi-the-ai-powered-robot)
+
+The first comparator is a digitally improved human courier: common dispatch, route batching, congestion information and electronic receipt. Measure it on the same request population. A specialized wheeled carrier is the next alternative where elevators, load, custody and access are qualified. A mobile manipulator or humanoid earns inclusion only when its extra handling or access ability closes an important service gap. A mixed system can assign routine work to robots and urgent/excluded work to people, but the residual roster is still paid. No free digital or human fallback is assumed.
+
+**Provisional recommendation:** proceed with the analytical qualification of a bounded nonurgent workflow and its improved human comparator; wait on scale entry or payroll substitution. A deployment case passes its proceed gate only with complete request-level acceptance, all support work, authorized site/process control and funded fallback. This is a research recommendation, not initiation of a field trial. Reject a specific case that misses mandatory service or assumes removal of a shift that must remain for urgent work. A credible reversal toward automation requires either an actual avoidable paid commitment or independently valued additional service capacity after support. Digital-human improvement, unavoidable escort or low eligible demand can reverse it again.
+
+## Utility inspection — separate information from the residual visit
+
+The accepted service is a required asset/measurement set, at the specified quality and interval, with reviewer disposition. Maintenance authorization and completed physical intervention are downstream activities. A correctly interpreted absence of an anomaly can be useful information; the model must not assign every anomaly an avoided failure loss.
+
+TenneT's historical coverage results and selected-route planning show why traversing a site and reading selected instruments do not imply complete inspection coverage. Point visibility, doors, operating restrictions, expert interpretation and the original mandatory route remain material. The later public planning record leaves financial results unfilled. These observations are preserved in [the operator follow-up](quadruped_operator_followup.md). A targeted later-operator search did not retrieve a new closeout; TenneT's site was blocked to the retrieval tool. This establishes a disclosure/access gap, not abandonment or continuing deployment. The earlier pilot searches are not restarted as a source-count exercise.
+
+Compare improved human inspection and digital reporting with fixed sensing, wheeled systems where routes permit, configured quadrupeds where terrain or viewpoints matter, and mixed aerial/ground/human work. A drone delivering different measurements is a complement, not a cheaper substitute. A manipulator may improve door or instrument access but requires its own qualified configuration and support economics. Retain calibration, communications, charging, review, exceptions and corrective work under every relevant alternative.
+
+**Provisional recommendation:** prioritize a coverage-and-disposition service contract. A monitoring case can pass its proceed gate with valued incremental information, complete measurement quality and explicit operating responsibility even if payroll stays constant. Wait on replicated scale economics until recurring exposure, support, costs, rights, retention and accessible supply are known. Reject the labor-removal claim when the same paid visit remains mandatory; reject a quantified avoided-outage claim without a defensible counterfactual. These rejections do not imply that added monitoring is worthless. Fixed sensing can become preferable for stable accessible points; quadrupeds can become preferable when mobility closes enough required work to avoid a whole visit at acceptable total burden. Mixed service remains plausible when residual work is substantial.
+
+## Automotive presentation — qualify the workcell and the generation
+
+The accepted service is a correct component placed and verified in its required fixture or sequence position before takt, with the handoff accepted. Welding, complete vehicles and downstream assembly are separate activity. Production contribution is useful evidence of context; it is not the value of an entire car produced by a robot.
+
+The existing BMW records already distinguish Figure 02's body-shop contribution from Figure 03's sequencing project. The latter includes subsequent tugger/STR transport and human assembly. BMW also describes digital tools for manual-process design and quality feedback. Those are reasons to use an evolving human/process comparator, not measured coefficients of robot benefit. The new generation needs its own operating denominator. [CAP-E001–003; BMW's workflow account](https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg)
+
+Figure's September 2026 account adds a lifecycle constraint: the supplier says most Figure 02 units have been decommissioned, with a few stored, and describes older-fleet maintenance and disassembly as competing for technical resources as newer systems advance. It discloses neither unit-level dates nor customer contract, salvage or service-life values. This is not a new shutdown date for BMW and supplies no Figure 03 productivity result. It does make indefinite support and automatic fleet upgrades particularly unsuitable defaults. [CAP-E024; Figure](https://www.figure.ai/news/f-02-decommission)
+
+Compare digital-human/AMR presentation, a fixed arm/fixture or redesigned transfer, a bounded humanoid station, and the declared mixed sequencing workflow. A flexible machine must earn its additional burden through accepted part diversity, reduced validated changeover or otherwise unavailable access. Geometry, takt, reject/rework, line-stop consequences, interlocks, recovery, service staffing, spares and upgrade qualification belong to the same workcell comparison. No arbitrary specialist-cost factor settles the real choice.
+
+**Provisional recommendation:** use this cell to test whether configuration flexibility pays for itself; wait on broad replacement or greenfield entry claims. Proceed only when the specified workcell's acceptance, recovery and support/upgrade obligations are matched to real demand. Reject extrapolation from vehicles supported to vehicles assembled, from retired assets to available capacity, or from a supplier's disposal choice to a customer's salvage value. Stable geometry and volume favor testing fixed automation first; demonstrated frequent reconfiguration can change that preference. Early withdrawal of support or expensive requalification can reverse a favorable lifetime calculation.
+
+## The digital baseline and coordination burden
+
+Each decision needs four matched branches: human work with existing conventional systems; that work with a specified additional digital intervention; the robot-assisted process with its required embedded software; and the combined process with the same additional intervention. The robot increment after digital improvement is `Y11 − Y01`; interaction is `Y11 − Y10 − Y01 + Y00`. Keep output, cash and resources as separate outcomes. Missing or infeasible branches remain missing. Savings that overlap between dispatch software, process redesign and robotics are booked once.
+
+The current transaction fixture establishes failure-state reasoning under a cooperative mock lookup/finality contract. Its naive resend baseline is deliberately weak. It cannot establish the value of multiple agents against a competent conventional integration. The next comparison must give a deterministic scheduler and any proposed agent architecture identical task information, qualifications, resource availability, deadlines and recovery authority. Both must use the same durable identity and execution constraints; proposal quality must not be confused with permissions or completion. The strong conventional baseline should optimize the declared small workload where exact solution is tractable and replan under the same observed events. All proposal, verification, support and delay costs must be charged. Until an actual versioned agent is evaluated, a proposal replay is a mechanism test, not measured LLM uplift.
+
+Similarly, model/R&D improvement needs a chain from generated candidate to validated physical capability. Log code or reward candidates, rejected proposals, simulation exposure, robot-data rights, training resources, held-out qualification, and delivery of compatible updates to the affected cohort. A larger dataset, cheaper collection stage or better simulation score does not itself create accepted service. Keep no-learning and no-transfer worlds. Useful experience requires rights and validation; it never produces a separate financial premium on top of an already counted capability gain.
+
+This H work joins the existing digital ecosystem, infrastructure, learning-data and onboard-workload evidence. Peak compute specifications and summed component timings remain insufficient for sustained deadline qualification. Embedded memory, remote inference and training resources retain their distinct grades and allocations. No new model, GPU or robot run is authorized or claimed by the CPU research fixture.
+
+## Required bridges before a combined economic ranking
+
+The monthly enterprise case already shares actual physical cohorts, customer assignment and cash. The annual digital and four-architecture calculators remain separate. An export that merely puts those outputs side by side would not join them. The implementation must meet these contracts:
+
+| Bridge | Required rule | Failure the rule prevents |
+| --- | --- | --- |
+| Accepted work | Declare `work_id`, accepted unit, quality, geography/site and service window. A synthetic monthly floor-service bundle needs an explicit assumed conversion before relating it to annual equivalent hours. Hospital deliveries, components and measurement sets stay separate. | Summing incompatible activity or treating employment context as service demand |
+| Time | Map calendar months to annual parameter levels without dividing a level or probability by twelve. State release/qualification dates and exposure windows; prorate only quantities whose units warrant it. | Retroactive capability, double uptime discounts or unexplained annual-to-monthly scaling |
+| Fleet/cohort | Reuse actual commissioned/supported unit IDs. Retire, repair, replace and upgrade explicitly; preserve custody, title and configuration vintage. | Available robots created by a financial contract or old-generation evidence applied to new units |
+| Architecture costs | Resolve each architecture's adaptation, training, inference, support and license obligation once. Allocate startup costs and monthly resources on declared dates; fees cancel only at the proper consolidation boundary. | Adding an allocated lifetime cost to already-paid monthly investment, or fees to the same provider resources |
+| Support and learning | Allocate support and validation from finite shared pools before expansion. Tie learning/updates to eligible data, rights, paid resources, target evaluation and compatible cohorts. | Free maintenance, free learning, cross-embodiment transfer by label or duplicate data value |
+| Finance | Fund a draw from a real counterparty; accrue interest by a stated convention, settle dated obligations, mature principal and apply an explicit default/cure/recovery policy. Keep liabilities after a missed payment. | Turning a commitment, receivable or unfunded loan into cash, or deleting an insolvent party's obligations |
+| Reinvestment | Allow new starts only after operating/support and policy reserves, and after actual available funds pay the required obligations. | Reinvesting accounting profit or all future receivables before collection |
+| Entry and ownership | Transfer existing customer assignments/assets and pay purchase/transition obligations for acquisition; create genuinely new demand only in a separate input. Hold technology access equal under prompt/delayed response. | Acquisition producing market growth or one demand unit served by both firms |
+
+These rules are implementation acceptance conditions, not a claim that the bridges now exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
+
+## Counterfactual challenge set
+
+The following names reserve the intended challenge coverage. **They are not yet newly implemented replays.** Existing separate annual, commercial and shared-enterprise witnesses remain executable within their narrower scopes. A future counterfactual counts toward this campaign only when it has complete inputs, source hashes, named outputs, exact replay and the relevant invariants.
+
+| Reserved case | Intervention and decision test |
+| --- | --- |
+| DE-CF01 retained-paid-shift | Released task time cannot remove the smallest required paid coverage commitment |
+| DE-CF02 urgent-human-fallback | Routine-robot eligibility leaves urgent work and staffed fallback intact |
+| DE-CF03 residual-inspection-visit | Selected robot points do not eliminate the full mandatory visit |
+| DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
+| DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
+| DE-CF06 acquire-without-new-demand | Paid ownership/customer transfer preserves aggregate demand and physical activity |
+| DE-CF07 hybrid-transition | Acquisition plus funded expansion incurs transition costs without duplicating the acquired base |
+| DE-CF08 architecture-and-fees | Four intelligence architectures change resource burdens, rights eligibility and actor transfers at matched service |
+| DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
+| DE-CF10 support-before-expansion | Installed-fleet support consumes resources otherwise available to additions |
+| DE-CF11 funding-maturity-recovery | Delayed funding/collections and maturity trigger a declared default, cure or recovery path |
+| DE-CF12 funded-reinvestment | Expansion follows collected funds and reserves rather than reported margin |
+| DE-CF13 digital-human-catches-up | Improved human scheduling changes the robot increment and entrant advantage |
+| DE-CF14 no-learning-no-transfer | Capability gains disappear or stay local while collection/validation obligations remain explicit |
+
+Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
+
+The next substantive work is the exact service/finance execution bridge and strong conventional coordination comparison. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
