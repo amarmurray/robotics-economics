@@ -48,3 +48,7 @@ Fifteen [share-transition worlds](research/entry_transitions.md) add bounded DE-
 ## Utility inspection checkpoint, edition 0.19
 
 The [residual-visit analysis](research/utility_inspection_decision.md) adds bounded DE-CF03 with eighteen complete fixed/mobile/human worlds. Unique accepted measurements, review capacity, physical duties, replacement premises and funded visits determine service. Nine challenge families now have bounded implementations; empirical costs, automotive workcells, qualified supply and learning remain partial. Three public-source records retain their access/status limits. This checkpoint preserves the same active T0/deadline and does not complete the campaign.
+
+## Automotive workcell checkpoint, edition 0.20
+
+Eighteen [physical workcell worlds](research/automotive_workcell_decision.md) add bounded DE-CF04. Unique components, one manipulator, staged/direct loading, paid preparation and qualified generations determine accepted kits by deadline. Ten families now have bounded implementations, while actual supply, learning, lifecycle costs and full empirical acceptance remain incomplete. Three dated primary records strengthen the conventional comparison without calibrating numerical assumptions. The same active T0/deadline continues; this checkpoint does not complete the campaign.

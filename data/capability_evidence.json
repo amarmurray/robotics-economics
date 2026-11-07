@@ -38,6 +38,12 @@
       "scope": "Fleet-retirement evidence added; original 23 claims preserved.",
       "source_use": "Cohort compatibility, service-life and recovery-policy challenge; no fitted retirement coefficient.",
       "review": "Sole-writer source review."
+    },
+    "workcell_followup_2026_11_07": {
+      "scope": "Fixed vision/buffered body-panel comparator, Figure 03 demonstration boundary and operator integration context.",
+      "no_numeric_calibration": true,
+      "historical_record_preservation": "Original evidence claims and quantities retain their original dates and wording.",
+      "retrieval_limit": "The previously accepted June BMW press-release URL was unavailable to the current web fetch; its historical record is preserved. New claim relies on the separately retrieved sources."
     }
   },
   "evidence": [
@@ -583,6 +589,88 @@
       "limitations": "No exact retired/retained count, disposal dates, contract treatment, salvage value or customer asset life. Does not date a new BMW shutdown or measure Figure 03 output; no stunt performance is used as production evidence.",
       "status": "verified_primary_text_scope_limited",
       "cell_id": "CELL-M05-auto-assembly-US-2025"
+    },
+    {
+      "schema_version": "capability-evidence/0.1",
+      "retrieved_at": "2026-11-07",
+      "status": "verified_primary_text_scope_limited",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "target_parameters_allowed": [],
+      "evidence_id": "CAP-E025",
+      "title": "Random bin picking for feeding car body parts",
+      "publisher": "Liebherr-Verzahntechnik; Evotion 2022 customer magazine",
+      "url": "https://www.liebherr.com/en-int/gear-technology-and-automation-systems/information-service/customer-magazine/evotion-22/bmw/bmw-5382763",
+      "publication_date": "2022",
+      "observation_period": "Dingolfing line entrance reported operating since 2020; article in 2022 edition",
+      "geography": "Dingolfing, Germany; not the Spartanburg humanoid station",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "supplier_reported_customer_application",
+      "locator": "Evotion 2022 breadcrumb; Complete package; Design challenges; Automated parts feeding; Installation in record time",
+      "claim": "Describes BMW body-panel feeding with vision, suction gripping, double-part detection and an intermediate buffer. The cell integrates logistics calls and plant controls; upstream feasibility, preassembly and testing preceded onsite commissioning.",
+      "limitations": "Different site, parts and process from Figure. No matched cost, staffing, intervention or acceptance denominator; no verified 2026 retention. The reported single-component process time cannot be ranked against a three-part loading requirement.",
+      "quantities": [
+        {
+          "metric": "Reported source-to-sink component process time",
+          "value": 20,
+          "unit": "seconds",
+          "qualifier": "just_over",
+          "denominator": "One component; buffered feeder process, not a three-part fixture set or observed timing distribution",
+          "population": "Described Dingolfing body-panel cell",
+          "period": "Application reported in 2022, operating since 2020",
+          "measurement_status": "supplier_described_process_time",
+          "locator": "Advantages of automation"
+        },
+        {
+          "metric": "Reported onsite installation and commissioning",
+          "value": 3,
+          "unit": "days",
+          "denominator": "Onsite phase after advance feasibility, complete preassembly and extensive tests; not total project lead time",
+          "population": "Same cell",
+          "period": "Installation associated with line operating since 2020",
+          "measurement_status": "supplier_reported_project_duration",
+          "locator": "Installation in record time"
+        }
+      ]
+    },
+    {
+      "schema_version": "capability-evidence/0.1",
+      "retrieved_at": "2026-11-07",
+      "status": "verified_primary_text_scope_limited",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "target_parameters_allowed": [],
+      "evidence_id": "CAP-E026",
+      "title": "F.03 Arrives at BMW",
+      "publisher": "Figure AI",
+      "url": "https://www.figure.ai/news/f-03-at-bmw",
+      "publication_date": "2026-06-30",
+      "observation_period": "First Figure 03 logistics demonstration at BMW; exposure duration undisclosed",
+      "geography": "Hall 52, BMW Spartanburg, United States",
+      "source_class": "manufacturer_statement",
+      "epistemic_status": "supplier_demonstration_and_structural_claim",
+      "locator": "Highlights; Sequencing Use Case; Bringing Helix to Life on the Factory Floor",
+      "claim": "Figure 03 with Helix 02 demonstrates variable-pose part sequencing and cart pulling. Figure claims the combined manipulation/mobility workflow is infeasible for traditional fixed automation.",
+      "limitations": "No sustained accepted-output, intervention or cost denominator. A claimed limit of fixed hard-coded motions does not establish a limit of vision-guided fixed cells, separate transport or redesigned presentation. CAP-E025 is a different-workflow comparator, not a matched refutation of cart manipulation.",
+      "quantities": []
+    },
+    {
+      "schema_version": "capability-evidence/0.1",
+      "retrieved_at": "2026-11-07",
+      "status": "verified_primary_text_scope_limited",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "target_parameters_allowed": [],
+      "evidence_id": "CAP-E027",
+      "title": "Leipzig debut: BMW Group introduces humanoid robots – a first in Germany",
+      "publisher": "BMW Group",
+      "url": "https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html",
+      "publication_date": "2026-09-21",
+      "observation_period": "Article describes pilot launch; also retains future April/summer 2026 schedule; retrospective 2025 Spartanburg discussion",
+      "geography": "Leipzig, Germany and Spartanburg, United States",
+      "source_class": "operator_statement",
+      "epistemic_status": "operator_pilot_statement_with_unresolved_timing_wording",
+      "locator": "Dated header; Physical AI in action; Test run in Spartanburg; From lab to line",
+      "claim": "BMW describes AEON pilot launch and reports additional barriers/partitions and improved hall 5G coverage among Spartanburg integration learnings. Figure 03 sequencing remains described as the next project.",
+      "limitations": "Past and prospective schedule wording coexist; no achieved pilot duration, sustained Figure 03 result or net staffing effect. Repeated Figure 02 totals are the earlier evidence lineage, not independent corroboration.",
+      "quantities": []
     }
   ],
   "systems": [
@@ -911,6 +999,28 @@
       "upgrade_compatibility": null,
       "upgrade_compatibility_missing_reason": "No validated upgrade/retrofit contract or compatibility matrix in inspected evidence.",
       "availability": "research evaluation including factory box scenario"
+    },
+    {
+      "system_id": "SYS-LIEBHERR-BMW-BODYPANEL-2020",
+      "schema_version": "system/0.1",
+      "provider": "Liebherr integration; manipulator OEM not identified in the inspected article",
+      "hardware_version": "Configured cell with suction gripper, cameras, buffer and feed gates; exact robot SKU unknown",
+      "embodiment": "fixed industrial manipulator cell",
+      "software_version": "LHRobotics.Vision; exact build unknown",
+      "geography": "Dingolfing, Germany",
+      "period": "Operating since 2020 as reported in 2022",
+      "status": "supplier_reported_installed_application_no_current_retention_audit",
+      "availability": "Historical installed cell; current supply and qualification unknown",
+      "evidence_refs": [
+        "CAP-E025"
+      ],
+      "alternatives": [
+        "human feeding",
+        "direct fixed loading",
+        "mobile manipulation plus transport"
+      ],
+      "upgrade_compatibility": null,
+      "upgrade_compatibility_missing_reason": "No version-specific retrofit/support contract inspected."
     }
   ],
   "capabilities": [
@@ -1588,15 +1698,18 @@
         "CAP-E002",
         "CAP-E003",
         "CAP-E006",
-        "CAP-E007"
+        "CAP-E007",
+        "CAP-E025",
+        "CAP-E026",
+        "CAP-E027"
       ],
       "useful_output": "Accepted components loaded/sequenced at required takt and quality",
       "human_baseline": "Human loading/kitting with existing automated transport, fixtures and digital quality tools",
       "digital_only": "Planning/ergonomics/quality exception aids; measured labor effect unknown",
-      "specialized_alternative": "Fixed arms/custom grippers/fixtures and AMRs",
+      "specialized_alternative": "Qualified vision-guided fixed cell with gripper, buffer and replenishment; explicit presentation redesign and separate transport are additional alternatives.",
       "mixed_configuration": "Humanoid bridges variable human-designed manipulation; fixed robots weld; STRs transport",
       "conditional_unlock": "Sustained takt, measured intervention/recovery, hardware durability and integration cost",
-      "conclusion": "Best-supported humanoid entry is a bounded complementary station; broader line staffing/economics remain unmeasured."
+      "conclusion": "A bounded humanoid station must earn its incremental handling/mobility value against qualified conventional vision and process redesign; actual matched economics remain unknown."
     },
     {
       "schema_version": "market-implication/0.1",
@@ -2010,5 +2123,32 @@
       "version_history_url": "https://arxiv.org/abs/2511.14759v2",
       "training_population": "Diverse-laundry policy trained on11 item types; evaluation subset differs from training mixture."
     }
-  ]
+  ],
+  "workcell_comparison": {
+    "comparison_id": "CAP-CMP-AUTO-FIXED",
+    "cell_id": "CELL-M05-auto-assembly-US-2025",
+    "evidence_refs": [
+      "CAP-E001",
+      "CAP-E002",
+      "CAP-E003",
+      "CAP-E024",
+      "CAP-E025",
+      "CAP-E026",
+      "CAP-E027"
+    ],
+    "status": "matched_service_design_and_synthetic_challenge_not_empirical_cost_ranking",
+    "shared_service": "Correct component set at specified fixture/sequence handoff by its deadline, with accepted identity, pose and quality. Downstream welding, transport and whole vehicles are distinct.",
+    "comparison_warning": "The installed single-component buffered feeder, Figure 02 three-part loading requirements and Figure 03 sequencing/cart demonstration are not a shared measured denominator.",
+    "strong_conventional_comparator": "Vision-guided fixed cell with explicit staging buffer, part-specific gripping, double-part checks and material replenishment, plus prepared presentation where its upstream work is counted.",
+    "missing_empirical_terms": [
+      "full original service and pose/part mix",
+      "accepted by-takt outputs and intervention/rework exposure",
+      "all initial and recurring resource costs",
+      "paid commitments and logistics/support retained",
+      "specific rights, spares and support duration",
+      "actual net value of changing tasks or cart relocation"
+    ],
+    "synthetic_artifact": "model/results/automotive_workcell.json",
+    "numerical_calibration_allowed": false
+  }
 }

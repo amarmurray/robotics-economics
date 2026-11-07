@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: utility residual visits, edition 0.19
+## New decision campaign: automotive workcell alternatives, edition 0.20
+
+The same campaign remains active through **2026-11-14T20:12:27Z**. Eighteen complete workcell worlds add bounded DE-CF04, taking implemented challenge families to ten. Unique component kits, one manipulator, real buffers, validated changeover, paid preparation and separately supported generations determine by-deadline service. Competent human and fixed alternatives remain explicit. Qualified supply, endogenous learning and real all-actor lifecycle economics remain incomplete.
+
+Fresh validation passes **335 Python tests** in 168.761 seconds, including nineteen focused workcell tests, thirty seeded adverse cases and new HTTP replay; **36 Node assertions**, all client syntax and prescribed evidence/physical/frontier/export checks. All thirteen browser views pass, including eighteen workcell worlds, the exact changeover switch, pending/invalid/stale preservation, component/configuration/funding traces, primary-source drawers and complete export/import. Tampered saved outcomes are ignored. Browser and CLI replay agree completely, including hash, and the workcell panel was visually inspected. See [the sole-writer review](reviews/automotive_workcell_review.md).
+
+All **444,629 typed numeric fields across 27 earlier result JSONs** are preserved. Sixteen files remain byte-identical; eleven refresh only evidence snapshot hashes. Prior engines/assumptions, 69 legacy acceptance statuses and 65 question statuses remain unchanged. Evidence now has 13 packages, 192 claims, 370 reported quantities and 104 explicit-null markers. Legacy acceptance stays **53 bounded met / 16 partial**. All **273 registered hashes** and **533 relative Markdown links** verify with no broken links before publication; exact commit/manifest identity remains in the ignored receipt.
+
+Three primary records distinguish historical fixed-cell installation, a new-generation demonstration and operator integration/pilot chronology. Different sites, outputs and observation periods prevent a direct source-rate ranking. The unavailable historical June BMW URL remains an explicit retrieval limit. No source coefficient, observed payroll-removal estimate or full campaign acceptance is inferred.
+
+## Previous decision checkpoint: utility residual visits, edition 0.19
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Eighteen complete inspection worlds add bounded DE-CF03, taking implemented challenge families to nine. Point-level coverage, quality and expert review feed complete due service; residual field duties, presence requirements and paid commitments remain. Fixed sensing and complementary coverage are explicit alternatives. Real lifecycle economics, automotive workcells, qualified supply and learning remain incomplete.
 

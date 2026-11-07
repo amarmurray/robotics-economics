@@ -3597,12 +3597,15 @@
       "status": "qualitative_decision_screen_not_economic_ranking",
       "selection": "Selected: strongest bounded humanoid manufacturing comparator, not a proven ROI winner",
       "reason": "Observed production-connected component loading and an explicit mixed logistics successor allow a generational and handoff test.",
-      "strongest_counterargument": "A fixed cell or redesigned presentation may meet takt more cheaply; the old fleet does not prove new-generation sustained service.",
+      "strongest_counterargument": "A vision-guided fixed cell with a buffer and proper material presentation already provides a concrete automotive comparator; quantify the incremental mobility, changeover and supported-life requirement.",
       "evidence_refs": [
         "CAP-E001",
         "CAP-E002",
         "CAP-E003",
-        "CAP-E024"
+        "CAP-E024",
+        "CAP-E025",
+        "CAP-E026",
+        "CAP-E027"
       ]
     },
     {
@@ -3889,14 +3892,17 @@
       "cell_id": "CELL-M05-auto-assembly-US-2025",
       "title": "Automotive presentation: qualify the workcell and the generation",
       "as_of": "2026-11-07",
-      "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
-      "accepted_service": "One correct component placed and verified in the required fixture or sequence position by takt, with machine handoff accepted; welding, complete vehicles and downstream assembly remain separate activity.",
+      "status": "provisional_decision_pack_bounded_workcell_replay_empirical_costs_pending",
+      "accepted_service": "One complete correct required component set placed and verified at its designated fixture or sequence handoff by its deadline. The bounded replay requires three unique components per kit; source single-component counts retain their own denominator. Welding, complete vehicles and transport remain separate activity unless expressly included.",
       "evidence_refs": [
         "A-BMW-2026",
         "CAP-E001",
         "CAP-E002",
         "CAP-E003",
-        "CAP-E024"
+        "CAP-E024",
+        "CAP-E025",
+        "CAP-E026",
+        "CAP-E027"
       ],
       "alternatives": [
         {
@@ -3974,8 +3980,15 @@
           "missingness_reason": "No target contracts, funding schedule, retention, residual asset and default/recovery terms."
         }
       },
-      "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
-      "evidence_consequence": "The new retirement disclosure strengthens the need for cohort-specific service life and explicit recovery policy. It does not estimate either. Existing BMW Figure 03 and digital-process evidence is reused rather than counted again."
+      "model_use": "Compare full unique-kit timing and retained work before cash. The same allocated material and due ledger persists across alternatives; supplied preparation/replacement resources cannot be free. Do not convert kits into the separate annual/monthly service units.",
+      "evidence_consequence": "A historical BMW vision-guided buffered cell supplies a concrete conventional alternative. Different sites, part/set denominators and generation/workflow boundaries prevent a timing or cost ranking. Vendor infeasibility claims must be tested against modern fixed perception plus explicit cart/transport or presentation alternatives.",
+      "executable_challenge": {
+        "challenge_id": "DE-CF04",
+        "output": "model/results/automotive_workcell.json",
+        "methods": "model/AUTOMOTIVE_WORKCELL.md",
+        "analysis": "research/automotive_workcell_decision.md",
+        "scope": "Eighteen synthetic workcell worlds; fixed/human/humanoid alternatives, unique components, one manipulator, real buffer, changeover, quality, paid preparation and qualified replacement. No source calibration or lifecycle ROI."
+      }
     }
   ],
   "decision_campaign_context": {

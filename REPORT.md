@@ -1,8 +1,8 @@
 # Robotics Economics — integrated research report
 
-Edition 0.19, utility-inspection checkpoint of the Deployment and Entry Decision campaign, 7 November 2026. Eighteen complete worlds test unique accepted readings, fixed/mobile coverage, expert review, residual field visits, retained staffing and funded provider resources. Three bounded primary-source records sharpen qualification and access limits without calibrating numerical costs. Prior entry, coordination, finance and architecture cases remain intact. Automotive workcells, qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
+Edition 0.20, automotive-workcell checkpoint of the Deployment and Entry Decision campaign. Eighteen complete worlds test unique component kits, one shared manipulator, real buffering, variant changeover, prepared inputs, retained staffing and supported replacement configurations. Three primary-source records sharpen the conventional alternative and system-generation boundaries without calibrating numerical rates or costs. Prior utility, entry, coordination, finance and architecture cases remain intact. Qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The financing mechanisms remain synthetic. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
 The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
@@ -116,6 +116,10 @@ The accepted learning sequence can begin from this report while the campaign con
 
 The [inspection comparison](research/utility_inspection_decision.md) exposes a discrete adoption boundary: the last required reading can retain a complete paid visit, and complete remote coverage can still leave staff or physical duties paid. Qualified fixed sensing is an explicit challenger to mobile sensing. Provider cash must fund the work; a customer payment alone does not establish it. These exact synthetic counterexamples sharpen the utility recommendation while leaving empirical lifecycle costs and monitoring benefits unresolved.
 
+### Automotive process and generation gate, edition 0.20
+
+The [workcell analysis](research/automotive_workcell_decision.md) makes fixed vision, real buffering and a competent human baseline explicit challengers. A synthetic six-versus-seven-tick changeover switch changes timely kit service; it belongs to a validated process input, not an embodiment label. Prepared inputs retain upstream labor, and purchased replacement hardware retains separate qualification. These tests narrow a useful humanoid proposition to capabilities and process access that alternatives cannot supply economically on the same boundary. Public evidence still does not disclose matched full costs, actual staffing removal or supported lifecycle terms.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -206,14 +210,14 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01/02/03/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Nine families and seventy-seven rows do not establish missing automotive, qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
+The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Eighteen [automotive workcell worlds](model/results/automotive_workcell.json) add DE-CF04 through physical buffering, changeover, paid preparation and distinct supported configurations. Ten families and ninety-five rows do not establish missing qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
 | DE-CF01 retained-paid-shift — bounded implementation | Four matched branches deliver 4,180 synthetic zones and retain $38,400 of paid shifts despite sharply different task hours; staffing optimization and observed paid-work removal remain open |
 | DE-CF02 urgent-human-fallback — bounded implementation | The exact mixed queue retains paid courier coverage; removing its reserve preserves four completions but misses mandatory service. Delay, urgent fast path, outages and full-attempt cash are explicit; real service evidence remains open |
 | DE-CF03 residual-inspection-visit | Bounded executable: complete accepted-point coverage, review capacity, physical duties and actual paid commitments jointly determine whether a funded visit disappears |
-| DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
+| DE-CF04 fixed-cell-substitute | Bounded executable: fixed vision/buffering, competent humans, paid presentation and qualified generations meet or miss the same unique-kit deadlines; exact changeover and funding switches remain synthetic |
 | DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
 | DE-CF06 acquire-without-new-demand — bounded implementation | Funded share transfer changes ultimate owner while the target legal account, customers, physical units, leases, receivables and liabilities remain; price is not working capital |
 | DE-CF07 hybrid-transition — bounded implementation | Separately funded growth uses only existing unmet/new demand; conditional closing, retained diligence, interruption and subsidiary liquidity are explicit; no automatic synergy or asset-purchase result |
@@ -233,6 +237,10 @@ The next substantive work is the remaining service-specific alternatives and qua
 #### Utility service challenge, edition 0.19
 
 The [inspection decision](research/utility_inspection_decision.md) now gives the utility pack a replayable service contract. Eleven of twelve remotely accepted points keep all visits; complete coverage still preserves committed crew pay, physical field duties or required presence. Fixed/mixed coverage and provider-funded resources are explicit alternatives. The $120 synthetic avoidable-crew-bill switch applies only to equal complete service and declared window bills, not real lifecycle economics. Proceed with qualification and observation design, wait on labor/rollout economics, and reject a particular substitution that drops a due obligation.
+
+#### Automotive service challenge, edition 0.20
+
+The [workcell comparison](research/automotive_workcell_decision.md) strengthens the conventional alternative with a primary fixed-vision/buffer reference while preserving different plants, parts and generations. In the synthetic worlds, real buffering and validated changeover can remove an apparent humanoid advantage; a competent human also meets the default service. Preparation consumes separate people and material readiness. Supported replacement requires a paid distinct qualified configuration and cannot repair missed deadlines. Proceed with a matched qualification protocol, wait on real complete operating economics, and reject a substitution that drops timing, transport, quality or support obligations. No source rate or lifecycle value is inferred.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -660,6 +668,84 @@ For a humanoid company, this favors a small matched collection-and-validation ex
 #### Stopping condition and remaining evidence
 
 This bounded public-source investigation stops with two versioned primary cases that materially distinguish compute cost, collection rate and target usefulness. It does not add a speculative total cost to fill missing components. The next step requires the underlying study logs/supplements or a new controlled operating dataset: full collection person-hours, failed/rejected episodes, target-training/validation compute, equipment amortization and rights. If those remain unavailable, retain the null full-cost estimate and test sensitivities explicitly rather than call the data pipeline commercially validated.
+
+### Focused follow-up: Automotive workcells, buffering and qualified generation
+
+Authoritative analysis: [research/automotive_workcell_decision.md](research/automotive_workcell_decision.md).
+
+The automotive pack should proceed with a matched workcell design and evidence gate, while waiting on rollout economics. A general embodiment must earn a benefit over vision-equipped fixed automation, prepared inputs and competent human operation under the same service boundary. Variable incoming pose alone does not establish that a fixed alternative is infeasible. Mobility, frequently changing tasks, space and permitted process redesign could change that conclusion; their costs and acceptance need measurement.
+
+#### What the sources establish
+
+The existing Figure 02 record concerns a body-shop loading deployment and reported cumulative activity. Its cycle/loading and quality figures include requirements or targets; they are not a complete achieved-performance distribution or staffing study. Figure 03's June 2026 account instead describes a sequencing/cart-handling demonstration with Helix 02. It does not inherit Figure 02's exposure or establish sustained acceptance at the new boundary. See CAP-E001/002/026 in [the existing capability package](data/capability_evidence.json) and [Figure's demonstration account](https://www.figure.ai/news/f-03-at-bmw).
+
+Liebherr's [2022 Dingolfing account](https://www.liebherr.com/en-int/gear-technology-and-automation-systems/information-service/customer-magazine/evotion-22/bmw/bmw-5382763) supplies a concrete conventional challenger: fixed vision-guided handling with detection and intermediate buffering. It describes operation since 2020, not independently verified retention in 2026. Its single-component timing and short onsite commissioning stage do not measure the full three-part service or total project effort. Different plant, parts and process design prevent a direct performance ranking. CAP-E025 preserves those boundaries.
+
+BMW's [September 2026 Leipzig article](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html) adds integration context and an AEON pilot statement, while retaining future-tense passages about earlier 2026 milestones. We do not infer achieved duration from that inconsistent chronology. Repeated Figure 02 totals remain the same evidence lineage. The historical June BMW URL was unavailable to this fetch; its accepted historical record remains intact. CAP-E027 distinguishes the new retrieval from that earlier record.
+
+Together these sources change the comparison to test, without supplying matched price, support, payroll or accepted-output denominators. They do not demonstrate that a bare fixed arm can replace a mobile sequencing workflow. Such a comparison must include separate transport or redesign and count its resources. Conversely, excluding vision, buffers and process engineering from the fixed alternative would bias the result before observing it.
+
+#### A service contract that can expose a reversal
+
+The bounded [workcell model](model/AUTOMOTIVE_WORKCELL.md) requires one complete correct three-component kit at its declared handoff by its deadline. It tracks each physical component, one manipulator, real buffer stock, source closures, variant changes, quality failure, human work, cash and supported configuration. All rates and money are synthetic. No reported supplier timing, vehicle count or source target is fitted to them.
+
+The eighteen [complete replay worlds](model/results/automotive_workcell.json) make four decision mechanisms concrete:
+
+| Mechanism | Conditional result | Decision consequence |
+| --- | --- | --- |
+| Direct versus staged loading | Fixed direct loading has zero timely kits, eleven late and one unfinished; funded pre-buffering delivers all twelve on time using the same arm. | A short loading window can be a presentation/timing problem; count advance picking and real buffer capacity before attributing it to embodiment. |
+| Competent human and conventional alternatives | Human direct, buffered human during refill, fixed buffered and humanoid buffered worlds each meet all default deadlines. | A robot's demonstrated success alone does not establish incremental customer value. Compare complete resources and retained commitments. |
+| Product changeover | The fixed mixed-family witness delivers four kits on time under a twelve-tick changeover; a six-tick changeover delivers twelve, while seven delivers nine. A one-tick fixed alternative also succeeds. | Measure validated reconfiguration under the actual sequence. The exact synthetic switch belongs to the parameter, not a robot label. |
+| Prepared presentation | Explicit upstream preparation enables the faster direct case, but 35 prepared parts cannot serve twelve three-part kits. | Include preparation personnel, readiness and cash in the operating boundary; input normalization is not free. |
+
+The declared planner is feasible and inspectable, not globally optimal. It has the same known production sequence across alternatives and cannot skip a variant run to fill the buffer with convenient later parts. A scheduled refill differs from an unanticipated outage. These distinctions limit the inference: the example shows a process that can meet the schedule under its assumptions, not that every conventional factory will do so.
+
+The quality-failure case pays for the failed handoff and recovery and preserves the same component identities. It has eleven timely kits and one late kit despite eventually delivering all 36 parts. Cumulative component output would obscure that missed obligation. Released workcell time likewise differs from paid labor removed: all these examples retain the declared $500 staffing commitment, and prepared presentation purchases separate human work. These dollar amounts are deliberately illustrative, not observed wages or investment recommendations.
+
+#### A newer robot is a separate operating proposition
+
+Under the support-cutoff witness, five kits arrive on time and seven remain unfinished; the old robot stays owned and staff stay paid. Buying a distinct qualified replacement, waiting for commissioning and then operating it gives eleven timely kits and one late kit. The interrupted service is not erased. Buying an unqualified replacement produces no further work even though the customer owns two robots. Unavailable stock, insufficient purchase cash or absent assumed rights cannot create one.
+
+This is a narrow counterexample to treating installed units, a product announcement and supported capacity as interchangeable. It is not a forecast of Figure replacement life or of any vendor's contractual behavior. The original Figure fleet-retirement account remains supplier evidence about a technical-support tradeoff. It does not disclose the customer's asset economics, salvage rights or exact retirement cohort. The model assumes replacement stock and compatibility rather than deriving them from manufacturing scale.
+
+The operator pays distinct staff, operating, preparation and equipment accounts through the existing Treasury. Bills are cash obligations, not full resource cost or provider profit. Opening hardware, buffers and raw stock predate the window. The model therefore cannot rank lifecycle ROI by comparing its cash totals. A cheaper case with missed service must also not appear superior through division by the smaller successful-output count.
+
+#### Proceed, wait and reject gates
+
+**Proceed** with a bounded qualification protocol. Freeze the required parts, incoming state, sequence, accepted finish/handoff, loading window and downstream demand. Compare a capable human method, fixed vision/buffering, paid prepared presentation and the proposed robot configuration. Add separate transport or a mobile alternative if cart movement is actually required. Record all component attempts and unique accepted kits, elapsed and active time, support/recovery and retained staffing. Compare the same information and redesign authority.
+
+**Wait** on an economic rollout or entry thesis until the target record supplies distributions of accepted timing and intervention work, real retooling/commissioning effort, configuration-specific qualified supply and support, prices/rights, schedules and cash dates. A short onsite installation stage is not total engineering effort. An operator announcement does not resolve missing later retention. A faster controller matters economically only if it improves this acceptance or reduces a genuinely avoidable resource under its own paid qualification burden.
+
+**Reject the particular substitution** if it drops required transport, quality, timing, physical work or supported-configuration obligations; relies on free upstream preparation; or assumes newer hardware inherits qualification. This is a rejection of an incomplete operating proposal, not of a company or general embodiment. Reopen the decision when the missing capability or alternative process is demonstrated on the common boundary.
+
+For a customer entrant, equal access to a capable fixed system can remove a claimed technology advantage. A new plant may have more redesign freedom but must pay for customers, engineering and ramp; acquiring an installed operation may secure demand while importing restrictions. For a humanoid supplier, flexibility could retain value where validated changeovers, mobility or process access are expensive for alternatives. Neither implication follows from counting robots or demos. The existing acquisition/competition worlds address separate ownership/cash mechanisms; kits are not silently converted into their service units.
+
+The next evidence question is which configuration-specific qualification, support or supply obligation survives a hardware generation change, and which digital/R&D contribution measurably changes that obligation. This keeps I/K and substantial H tied to accepted operating outcomes, without turning another model release into an unsupported learning or deployment coefficient.
+
+#### Reproduced automotive-workcell worlds
+
+| Synthetic workcell | On-time kits | Late | Undelivered | Busy ticks | Retained staff, USD | Operator outlay, USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| fixed_buffered | 12 | 0 | 0 | 108 | 500.00 | 808.00 |
+| fixed_direct | 0 | 11 | 1 | 99 | 500.00 | 799.00 |
+| human_direct | 12 | 0 | 0 | 72 | 500.00 | 572.00 |
+| humanoid_buffered | 12 | 0 | 0 | 144 | 500.00 | 944.00 |
+| fixed_refill_buffered | 12 | 0 | 0 | 108 | 500.00 | 808.00 |
+| human_refill_buffered | 12 | 0 | 0 | 72 | 500.00 | 572.00 |
+| insufficient_kit_buffer | 0 | 0 | 12 | 4 | 500.00 | 704.00 |
+| fixed_mixed_variants | 4 | 7 | 1 | 137 | 500.00 | 837.00 |
+| humanoid_mixed_variants | 12 | 0 | 0 | 147 | 500.00 | 947.00 |
+| fixed_fast_retool | 12 | 0 | 0 | 111 | 500.00 | 811.00 |
+| prepared_presentation | 12 | 0 | 0 | 72 | 500.00 | 908.00 |
+| presentation_capacity_short | 11 | 0 | 1 | 66 | 500.00 | 901.00 |
+| quality_rework | 11 | 1 | 0 | 115 | 500.00 | 815.00 |
+| support_expires | 5 | 0 | 7 | 53 | 500.00 | 753.00 |
+| qualified_replacement | 11 | 1 | 0 | 108 | 500.00 | 1,208.00 |
+| unqualified_replacement | 5 | 0 | 7 | 53 | 500.00 | 1,153.00 |
+| unfunded_replacement | 5 | 0 | 7 | 53 | 500.00 | 753.00 |
+| replacement_stock_unavailable | 5 | 0 | 7 | 53 | 500.00 | 753.00 |
+
+Generated from [automotive_workcell.json](model/results/automotive_workcell.json). Every kit requires three unique components by its deadline. Picking and loading share one manipulator. Source rates do not calibrate these synthetic ticks. Opening assets, transport and lifecycle costs are excluded; compare matched complete service before cash.
 
 ## 4. Customer formation, adoption and provider value capture
 

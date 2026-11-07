@@ -67,14 +67,18 @@
       "evidence_method": "Map workflows, complements, demand limits, and redesign costs; compare equivalent useful outputs.",
       "dependencies_and_completion": "Deeper, after PL-02/03. Advance when two contrasting processes have defensible baselines.",
       "findings": [
-        "Edition 0.19 tests fixed sensing and complementary versus overlapping mobile coverage against the same required information. Full remote coverage does not by itself remove committed staffing; target process-redesign cost and rights remain unknown."
+        "Edition 0.19 tests fixed sensing and complementary versus overlapping mobile coverage against the same required information. Full remote coverage does not by itself remove committed staffing; target process-redesign cost and rights remain unknown.",
+        "Edition 0.20: Fixed vision/buffering and paid presentation are explicit process alternatives; whole-kit timing can reverse a direct-loading result without changing embodiment."
       ],
       "artifacts": [
         "research/utility_inspection_decision.md",
         "model/UTILITY_INSPECTION.md",
-        "model/results/utility_inspection.json"
+        "model/results/utility_inspection.json",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-HC-01",
@@ -85,13 +89,17 @@
       "evidence_method": "Build versioned observations of autonomy, throughput, reliability, recovery, and assistance; retain test conditions.",
       "dependencies_and_completion": "W1 evidence matrix in parallel with PL-01/02; iteratively join the evolving market map. Complete with explicit unknowns and comparison limits.",
       "findings": [
-        "Versioned records distinguish industrial pilots, planned deployment, research evaluations and manufacturing ramp; goals are not achieved reliability."
+        "Versioned records distinguish industrial pilots, planned deployment, research evaluations and manufacturing ramp; goals are not achieved reliability.",
+        "Edition 0.20: CAP-E025..027 separate fixed-workcell history, Figure 03/Helix 02 demonstration and operator pilot chronology. Different configurations, tasks and timing denominators remain distinct."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-HC-02",
@@ -124,7 +132,8 @@
         "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
         "Dyna distinguishes long-run task completion from strict fold quality and describes gripper wear and customer-required stacking. Supported operation needs diagnostics, upkeep, review and workflow completion beyond a demonstration.",
         "Edition 0.12: The napkin protocol distinguishes active time, wall-clock time, rework attempts, unique accepted handoffs and residual support. No extra availability discount or eighteen-hour payroll claim follows from Dyna's reported output.",
-        "FSD-E005 adds attributed worker escort experience; CAP-E024 adds a supplier retirement/support tradeoff. Neither supplies a matched failure rate, full cost or customer service life."
+        "FSD-E005 adds attributed worker escort experience; CAP-E024 adds a supplier retirement/support tradeoff. Neither supplies a matched failure rate, full cost or customer service life.",
+        "Edition 0.20: Single-resource component flow, quality/rework, retained staff and supported configuration now gate synthetic automotive service; complete target intervention and lifecycle denominators remain missing."
       ],
       "artifacts": [
         "research/capability_learning.md",
@@ -141,9 +150,12 @@
         "data/customer_evidence.json",
         "reviews/napkin_workflow_review.md",
         "research/deployment_entry_decisions.md",
-        "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+        "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Use a new matched service log, actual staffing schedule or disclosed contract to test FG-CMP-03; stop at the documented public-source gaps and retain this question's original completion condition."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-HC-04",
@@ -155,16 +167,20 @@
       "dependencies_and_completion": "Deeper after HC-01/02. Trigger on comparable version changes; retain no-transfer scenarios.",
       "findings": [
         "RT-X includes positive, neutral and adverse target comparisons; source policy/version and target embodiment must remain explicit.",
-        "Frozen monthly cohorts retain their admitted robot level and subscription vintage. Paid changed-version upgrades consume shared support resources before use. This is a synthetic no-transfer/qualification mechanism, not evidence of real portability or rights."
+        "Frozen monthly cohorts retain their admitted robot level and subscription vintage. Paid changed-version upgrades consume shared support resources before use. This is a synthetic no-transfer/qualification mechanism, not evidence of real portability or rights.",
+        "Edition 0.20: A distinct purchased replacement receives its own qualification/support list and cannot inherit service capability from its name or erase missed deadlines."
       ],
       "artifacts": [
         "research/capability_learning.md",
         "data/capability_evidence.json",
         "research/calendar_digital_execution.md",
         "model/CALENDAR_BRIDGE.md",
-        "model/results/calendar_bridge.json"
+        "model/results/calendar_bridge.json",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-SP-01",
@@ -255,7 +271,8 @@
         "Specialized cleaning, fixed sensing and mixed operation remain explicit alternatives; real matched full-cost estimates are mostly unavailable.",
         "ORS posture/manipulation marginals constrain questions about configured embodiment and support but do not select humanoids over specialized machines. Fine manipulation includes keyboarding, and an occupation can cover several services; alternatives need matched accepted output and complete local work/support evidence.",
         "Edition 0.12: FG-CMP-03 adds manual, BETA, FOLDERIX and Dyna alternatives under a common unique accepted napkin/handoff definition. Specialist maximum item rates remain unmatched; full-cost preference is still unknown.",
-        "The new decision campaign reassesses all six cells and selects hospital, utility and automotive packs; each retains digital-human, specialist and feasible mixed alternatives. Selection is not an empirical ROI ranking."
+        "The new decision campaign reassesses all six cells and selects hospital, utility and automotive packs; each retains digital-human, specialist and feasible mixed alternatives. Selection is not an empirical ROI ranking.",
+        "Edition 0.20: A competent human and buffered fixed cell meet all default kit deadlines; exact mixed-variant changeover reversals challenge an embodiment-only advantage."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -265,9 +282,12 @@
         "data/customer_evidence.json",
         "reviews/napkin_workflow_review.md",
         "research/deployment_entry_decisions.md",
-        "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+        "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Use a new matched service log, actual staffing schedule or disclosed contract to test FG-CMP-03; stop at the documented public-source gaps and retain this question's original completion condition."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-DL-01",
@@ -897,7 +917,8 @@
         "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
         "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
         "Annual digital levels now drive actual monthly cohorts, costs and cash under an explicit unit/calendar mapping. A changed model level needs funded qualification and support; four-architecture and stronger conventional coordination comparisons remain open.",
-        "A bounded conventional planner now waits and replans visible courier/robot work, with source-hashed observations, proposals, authority checks and resource cash. This complements funded monthly intelligence roles but does not optimize the monthly capital schedule or verify real physical R&D."
+        "A bounded conventional planner now waits and replans visible courier/robot work, with source-hashed observations, proposals, authority checks and resource cash. This complements funded monthly intelligence roles but does not optimize the monthly capital schedule or verify real physical R&D.",
+        "Edition 0.20: The workcell uses a conventional declared FIFO sequence and source-refill information. No LLM uplift is assigned; validated planning/control must improve the same paid physical service."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -915,9 +936,12 @@
         "research/conventional_coordination.md",
         "model/CONVENTIONAL_COORDINATION.md",
         "model/results/conventional_coordination.json",
-        "reviews/conventional_coordination_review.md"
+        "reviews/conventional_coordination_review.md",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Qualify the target service and installed business-state/authority contract before empirical policy claims. The bounded exact observed-queue comparator is available; actual model benefit, complete costs, distributed finality and long-horizon optimization remain unverified."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -987,15 +1011,19 @@
       "dependencies_and_completion": "W1 conditional model after SC-01 and SP-02 scope; deeper with qualified capacity and cohort/service exposure. Complete a bounded path only with conservation and adverse cases.",
       "findings": [
         "Time-indexed inventory/production/commissioning backcasts state necessary resources, not demand or adoption forecasts.",
-        "Figure reports old-generation retirement and a technical-support tradeoff. Cohort-specific support/upgrade obligations and recovery remain unknown; no retirement parameter is fitted."
+        "Figure reports old-generation retirement and a technical-support tradeoff. Cohort-specific support/upgrade obligations and recovery remain unknown; no retirement parameter is fitted.",
+        "Edition 0.20: Replacement stock, rights and commissioning remain explicit assumptions rather than a manufacturing ramp; unsupported installed units remain owned."
       ],
       "artifacts": [
         "model/METHODS.md",
         "model/engine.py",
         "research/deployment_entry_decisions.md",
-        "DEPLOYMENT_ENTRY_CAMPAIGN.md"
+        "DEPLOYMENT_ENTRY_CAMPAIGN.md",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-SC-03",
@@ -1023,13 +1051,17 @@
       "evidence_method": "Matched output/quality and configured-system economics for biped/wheeled manipulation, quadrupeds, fixed/specialized systems, drones where comparable and people; include redesign and retrofit.",
       "dependencies_and_completion": "W1 two comparisons in existing cells after PL-02, HC-01 and SP-04 scopes; deeper when rankings can be constrained by operating evidence.",
       "findings": [
-        "Two unpriced real matched comparisons preserve quality, support and infeasibility; numerical specialized alternatives are expressly synthetic."
+        "Two unpriced real matched comparisons preserve quality, support and infeasibility; numerical specialized alternatives are expressly synthetic.",
+        "Edition 0.20: Fixed vision/buffering, prepared presentation and mobility requirements must be compared on the same handoff. The different-site reference does not refute a combined cart-manipulation task."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-SC-05",
@@ -1280,7 +1312,8 @@
         "Four common-service architectures are designed, but actual compatibility and target costs are unknown. No numerical ranking is implemented.",
         "A separate synthetic calculator compares four structures at matched service. Actual source costs/qualification stay unknown; resource charges and transfers are separated, and failed qualification premises remove a case from ranking.",
         "Reported desktop p50 inference, coordination/interpolation loops and model/code licenses remain distinct from complete operating cost, embedded deadlines and qualified service. Target numerical coefficients remain synthetic.",
-        "Dyna restaurant rate/quality/window arithmetic clears its stated service target by 6.02%, but time basis, matched cost, contract terms and empirical four-architecture qualification remain unknown."
+        "Dyna restaurant rate/quality/window arithmetic clears its stated service target by 6.02%, but time basis, matched cost, contract terms and empirical four-architecture qualification remain unknown.",
+        "Edition 0.20: Source model generations are separated from qualified workcell configurations and all-actor operating economics; no release score or target calibrates the synthetic outputs."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1294,9 +1327,12 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "research/automotive_workcell_decision.md",
+        "model/AUTOMOTIVE_WORKCELL.md",
+        "model/results/automotive_workcell.json"
       ],
-      "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
+      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
     {
       "question_id": "RQ-FM-04",
@@ -1503,5 +1539,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Same active T0/deadline. Edition 0.19 adds bounded DE-CF03 and three qualified source records; nine families implemented within stated limits. All 65 question statuses and 69 legacy acceptance statuses remain unchanged."
+  "decision_campaign_note": "Same active T0/deadline. Edition 0.20 adds bounded DE-CF04 and three qualified source records; ten families implemented within stated limits. All 65 question statuses and 69 legacy acceptance statuses remain unchanged."
 }

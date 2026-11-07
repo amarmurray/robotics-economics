@@ -23,6 +23,7 @@ python3 scripts/export_monthly_architectures.py --check
 python3 scripts/export_conventional_coordination.py --check
 python3 scripts/export_entry_transitions.py --check
 python3 scripts/export_utility_inspection.py --check
+python3 scripts/export_automotive_workcell.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -225,3 +226,9 @@ The API is `/api/entry-transitions`. [Methods](model/ENTRY_TRANSITIONS.md) defin
 ## Utility inspection service replay
 
 In Embodiment comparisons, use the utility-only inspection panel to inspect eighteen complete worlds or change coverage, review capacity, deadline, staffing contract and operating cash. Results count unique accepted point/windows and complete service separately; changing annual cell scope does not relabel these utility units. Edits are pending until applied. Invalid or stale calculations preserve the last valid export. Reload recomputes complete inputs and ignores saved outcomes. Run `python3 scripts/export_utility_inspection.py --case saved.json --output replay.json` for CLI replay. See [methods](model/UTILITY_INSPECTION.md) for exact units, cash boundaries and missing lifecycle costs.
+
+## Reproduce automotive component flow
+
+Run `python3 scripts/export_automotive_workcell.py --check` to verify eighteen complete workcell worlds. The Embodiment view offers buffer, picking, family-changeover, preparation, support and separately qualified replacement controls. A tick is five synthetic seconds. Every accepted kit requires all three unique components by its own deadline; retained staff, failed attempts and paid preparation remain explicit. Trace components, serial operations, assets and Treasury before comparing cash. These are conditional service tests, not observed automotive takt, whole-plant output or lifecycle ROI.
+
+Export a case, then replay with `python3 scripts/export_automotive_workcell.py --case saved-workcell.json --output replay.json`. Complete inputs are recomputed; stored outcomes are ignored. Imported full cases disable shortcut controls until a standard witness is selected. Invalid or pending edits retain the last applied display/export, and stale replies cannot replace newer inputs. Local uploads are bounded to 2 MB. See [methods and limits](model/AUTOMOTIVE_WORKCELL.md) and [the automotive decision](research/automotive_workcell_decision.md).

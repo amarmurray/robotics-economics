@@ -82,3 +82,7 @@ The accepted learning sequence can begin from this report while the campaign con
 ## Utility service gate, edition 0.19
 
 The [inspection comparison](utility_inspection_decision.md) exposes a discrete adoption boundary: the last required reading can retain a complete paid visit, and complete remote coverage can still leave staff or physical duties paid. Qualified fixed sensing is an explicit challenger to mobile sensing. Provider cash must fund the work; a customer payment alone does not establish it. These exact synthetic counterexamples sharpen the utility recommendation while leaving empirical lifecycle costs and monitoring benefits unresolved.
+
+## Automotive process and generation gate, edition 0.20
+
+The [workcell analysis](automotive_workcell_decision.md) makes fixed vision, real buffering and a competent human baseline explicit challengers. A synthetic six-versus-seven-tick changeover switch changes timely kit service; it belongs to a validated process input, not an embodiment label. Prepared inputs retain upstream labor, and purchased replacement hardware retains separate qualification. These tests narrow a useful humanoid proposition to capabilities and process access that alternatives cannot supply economically on the same boundary. Public evidence still does not disclose matched full costs, actual staffing removal or supported lifecycle terms.

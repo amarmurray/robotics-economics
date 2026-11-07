@@ -51,6 +51,17 @@ class LocalAPI(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError) as err:post(body)
             self.assertEqual(err.exception.code,400)
 
+    def test_automotive_workcell_http_replay_and_validation(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/automotive-workcell',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        with urllib.request.urlopen(self.base+'/api/automotive-workcell') as f:self.assertEqual(len(json.load(f)['cases']),18)
+        r=post({'inputs':{'mixed_variants':True,'changeover_ticks':6}})['result']
+        self.assertEqual(r['summary']['on_time_kits'],12);self.assertEqual(post({'saved_case':r})['result'],r)
+        for body in ({'inputs':None},{'inputs':[]},{'inputs':{'pick_ticks':0}},{'inputs':{},'saved_case':{}},{'saved_case':{}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_private_paths_and_invalid_values(self):
         for path in ("/.git/config","/../etc/passwd","/model/engine.py"):
             with self.assertRaises(urllib.error.HTTPError) as err:urllib.request.urlopen(self.base+path)

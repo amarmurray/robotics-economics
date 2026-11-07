@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "utility-inspection-checkpoint-0.19",
+  "snapshot_id": "automotive-workcell-checkpoint-0.20",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "70d51394c997a9992d94d2b533ab88172686ff67a2a703e99a5af09b53a83ac3",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "6548e3391c85b92c1ad6b763608cbec3e16cb17c42b62240342d3e34ba81d519",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "AGENTS.md",
@@ -68,8 +68,8 @@
       "repository_path": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "name": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
-      "sha256": "24cf7da792ed516f31d9ac31d9fec2822823283a54ab7d6bcd987d7acb9c2833",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "2efaeb4e3bf4925bd1e5dea004457ef505c9ee88031798ffb8426cf206fd6b90",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "de2a6c469d2c36f30a7c86f96ab9d296484e18ac9aab6c5e1d247e06ecdb983b"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "21f37e2fcdc497b6c4e6f6fc91b101d0149ed353a5491413b6cb5603d9657cfc"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -124,15 +124,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "8223420dbeb0171a86db21270a27ec9ed0a6093ca950e1d20591cfbfc4a1a207",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "dfb1b1e1b35d1488315b3eb1da1cc4ece9166a3b67c61bd1917acbd9bbded85c",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "8ffcc3e99425cc7035eb8d5035f7cf8daeb0db520afdfc791f452478cbcfe4d8",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "bef88f680f7b45ed50a31a3873af41bd0dc9ad4376d13b86ac124d967bc01040",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -145,8 +145,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "d3a65e12c6fb8ecc750a93e473d5bfe5191d42ceaf2d99616a8121102da67028"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "1874a465caf9dac6d85f02369479bb1e45a4191876ec83a387e45903094fab63"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -173,8 +173,8 @@
       "repository_path": "THESIS_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
       "name": "THESIS_REGISTER.md",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "d21a601f6f87aa659aaf1ee8db12305067eba05b9e986583d1e61b525ba0f5d2"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "29de0c6bdd60d03d1cce69ddff8b822f2c3c51b57ac9aa5c99caa9decb6e214b"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -187,8 +187,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "3f322aa466740dd1365fc2543541677e1ceeeef1ff9b4943f681dbd96b39eeaa",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "17bdf1961f14e2a80c753fd6ecb3959fdc4956d369ad436a4846deeed881da70",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -201,8 +201,15 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "4db6e06c64467350985923225a459f15523c53563499f337ef938e1221b903b6",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "2ae73d01b1bf4478418633a134d8776691d6e1787ef4bca38c2d9911fc5bdb5c",
+      "version": "automotive-workcell-checkpoint-0.20"
+    },
+    {
+      "repository_path": "dashboard/automotive_workcell.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/automotive_workcell.js",
+      "name": "automotive_workcell.js",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "c43fd9a2a4c5f1aea116d6603ed236fda9dbe8c1433c32faef9c7f5a6fb9dfc5"
     },
     {
       "repository_path": "dashboard/conventional_coordination.js",
@@ -229,8 +236,8 @@
       "repository_path": "dashboard/index.html",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/index.html",
       "name": "index.html",
-      "sha256": "fbad0ddb9a05f720877cf89bb139e0a6e9e671f8188be2773507cc93e005e41c",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "ff930fe0f899b8d68d06d6c760d80f654a073552a2ceb7b4345c240ff1160904",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "dashboard/monthly_architectures.js",
@@ -271,8 +278,8 @@
       "repository_path": "data/capability_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/capability_evidence.json",
       "name": "capability_evidence.json",
-      "sha256": "581e4f4e21e657b13d7c50cf351d575ee885643169b096f5af16269697523aa1",
-      "version": "decision-campaign-checkpoint-0.13"
+      "sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "data/coordination_reproducibility.json",
@@ -327,8 +334,8 @@
       "repository_path": "data/market_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/market_evidence.json",
       "name": "market_evidence.json",
-      "sha256": "58861ea10931a3a6d7bbeb4735b70888685fcbc9b6302a27d687dd1990e625e5",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "6b009f6cc566873ea3c41cafb162055670cca73fa1559fb8bbc0755693434084",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "data/onboard_workload_qualification.json",
@@ -369,8 +376,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "6fd22f20a38dc0d42e5d98e2e14e8c7ce3eccf8867352c0e7e09d17d29296cab",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "d27f573773c9376e38146bc12983b262a5f02c61769f93c5f56ad845622a4ae2",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -406,6 +413,13 @@
       "name": "ARCHITECTURES.md",
       "version": "week-one-in-progress-0.7",
       "sha256": "4b64e31068cec0b801b9312f3b4508623fa8f1b2b094063e60cdcdc73b8cbfb9"
+    },
+    {
+      "repository_path": "model/AUTOMOTIVE_WORKCELL.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/AUTOMOTIVE_WORKCELL.md",
+      "name": "AUTOMOTIVE_WORKCELL.md",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "86137efbc009476ebcee6be286cf0da2e18c08ffda0cf334fe5877393552fbc9"
     },
     {
       "repository_path": "model/CALENDAR_BRIDGE.md",
@@ -525,6 +539,13 @@
       "name": "assumptions.json",
       "sha256": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
       "version": "week-one-in-progress-0.7"
+    },
+    {
+      "repository_path": "model/automotive_workcell.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/automotive_workcell.py",
+      "name": "automotive_workcell.py",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "5a79fb4c4a2bf98c59e96917e59b14a7514835a50f098c081275b084b27bcd9b"
     },
     {
       "repository_path": "model/calendar_bridge.py",
@@ -649,8 +670,8 @@
       "repository_path": "model/results/ample_supply_unready.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/ample_supply_unready.json",
       "name": "ample_supply_unready.json",
-      "sha256": "36e303fe322739aabda31e573ce43cecfedc325b83c207225f599674226f3b1d",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "d95bd12f87111c2551f1c01edc330dcb72024e2b9b42a6f0af7e5a858d1fadb2",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/ample_supply_unready_components.csv",
@@ -684,22 +705,29 @@
       "repository_path": "model/results/annual_digital_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/annual_digital_comparison.json",
       "name": "annual_digital_comparison.json",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "3661b272e7f1affec8804f16f227e63c6e6c35e202d8d83c67fe32a15aac9009"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "905188d6d42a3edf17a258ad4b68e5964ec57ad258b736d0db1560a08aa23446"
     },
     {
       "repository_path": "model/results/architecture_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_comparison.json",
       "name": "architecture_comparison.json",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "698c2ce096d93315e25be5d586e3d376f1add5329f09f49d11f1033abebb2485"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "f7427ab3544b89f930d0cc391b404ef3cc50326fe334a7f4ee689b259b74cac6"
     },
     {
       "repository_path": "model/results/architecture_experiments.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_experiments.json",
       "name": "architecture_experiments.json",
-      "version": "utility-inspection-checkpoint-0.19",
-      "sha256": "a8fc95ab0e5826659541747f5794a5c8d8cb96a6cecc2bf20291f007fc209364"
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "b0a8c208f446655fc361377bd898d16f78eebbfe8931bb1e7e949cf153be95f7"
+    },
+    {
+      "repository_path": "model/results/automotive_workcell.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/automotive_workcell.json",
+      "name": "automotive_workcell.json",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "84b51f318ebcd7181e08d7bb8cf9c34ef0944975627df9cf5607af4a146e55ad"
     },
     {
       "repository_path": "model/results/calendar_bridge.json",
@@ -726,8 +754,8 @@
       "repository_path": "model/results/delayed_supply.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/delayed_supply.json",
       "name": "delayed_supply.json",
-      "sha256": "c2c4f9c4cdeb8db679c5e9c13137797ed2926e49d47a0dc28a1e8d06133d528f",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "791e770d1d466c9a3e8098b7e28c6d0e88b6fe7bd8f8eb9a309b7ccd334c5f5a",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/delayed_supply_components.csv",
@@ -761,8 +789,8 @@
       "repository_path": "model/results/digital_first.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/digital_first.json",
       "name": "digital_first.json",
-      "sha256": "e66d205f8449641b10297119b98561e2327db1832b3af2f96c0b0b69c722fec1",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "a6e38e1ac9aa2556495660ad079e8ed24d161433d36daac2a1ab7f102e4ff070",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/digital_first_components.csv",
@@ -824,8 +852,8 @@
       "repository_path": "model/results/limited_transfer.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/limited_transfer.json",
       "name": "limited_transfer.json",
-      "sha256": "1c7cc4b691d1c70a0c684e8291b3f66bc59d77cc7fd1e4f56f3e37a3b73e1e97",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "f04cf12ae4ca51e17ba9d74be37d62adee31529446c6716321246ff321a8416b",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/limited_transfer_components.csv",
@@ -880,8 +908,8 @@
       "repository_path": "model/results/newco_raas.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/newco_raas.json",
       "name": "newco_raas.json",
-      "sha256": "e9db7153932c78bf75870aa8a76aa8580dd93f8881c80ea020c5b274d427ecb7",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "18928f90acf6e7f33b06dd2f070c0091d45754fe42aca2a74b4677e783482efd",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/newco_raas_components.csv",
@@ -936,8 +964,8 @@
       "repository_path": "model/results/prompt_response.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/prompt_response.json",
       "name": "prompt_response.json",
-      "sha256": "2cecf0885f36b22f40ebe995b950911eb7d517ddc6454e6714f48cbba597f5a1",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "2d035fc27e93ee135971a910bee33e2636f108198a1f4b9643bcfafebb75fbf0",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/prompt_response_components.csv",
@@ -971,8 +999,8 @@
       "repository_path": "model/results/reference.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/reference.json",
       "name": "reference.json",
-      "sha256": "7e06a161da1f8a7740e7b896e779d9c093508280e21112ce8dc2b9a3c77842ff",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "1c1c8f44767adae538cd8379a1dcc0b14d05b739c2ac048dd34c9fe2226fc562",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/reference_components.csv",
@@ -1013,8 +1041,8 @@
       "repository_path": "model/results/service_stress.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/service_stress.json",
       "name": "service_stress.json",
-      "sha256": "1a40f042deeb1193d658b559dca433b625746296ee15357b46b4af2038655c82",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "42b143d1d753c589c13e00f9a1d61b6b3de1dee5505800387910a1b2d222c578",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "model/results/service_stress_components.csv",
@@ -1108,6 +1136,13 @@
       "sha256": "6f4f69bb7709f29664a9e07dc2d6c7bfe7c52cee44c8cde9161e79d237f185f8"
     },
     {
+      "repository_path": "research/automotive_workcell_decision.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/automotive_workcell_decision.md",
+      "name": "automotive_workcell_decision.md",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "195cc63b202a51ca91ad68459b213a803d7e09e4c6b3946b241f51647990ffaf"
+    },
+    {
       "repository_path": "research/calendar_digital_execution.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/calendar_digital_execution.md",
       "name": "calendar_digital_execution.md",
@@ -1146,8 +1181,8 @@
       "repository_path": "research/deployment_entry_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/deployment_entry_decisions.md",
       "name": "deployment_entry_decisions.md",
-      "sha256": "7cc57ae4fb3089161aadae51c2af4c83e1a47faf4238f224f3b7069f3ecfe094",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "43b56551813e4ed58fa40da3d513ace432834b7774284ca7c1fcd5b31fa39205",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "research/digital_ecosystem.md",
@@ -1216,8 +1251,8 @@
       "repository_path": "research/integrated_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/integrated_decisions.md",
       "name": "integrated_decisions.md",
-      "sha256": "86eee77f947534e77a679d6cd39be62c5489fb9c42642376eaa404e6d3d29117",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "433f7773af094a16129eacb452799ad5228188a0a6612e4be10425e17a2e9ae5",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "research/intelligence_architecture_scenarios.md",
@@ -1316,6 +1351,13 @@
       "name": "architecture_economics_review.md",
       "version": "week-one-in-progress-0.7",
       "sha256": "aaab23a9bbae6d2763a667e18556261467b387de98e41f76656e94eb25aaf936"
+    },
+    {
+      "repository_path": "reviews/automotive_workcell_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/automotive_workcell_review.md",
+      "name": "automotive_workcell_review.md",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "950539dd028bff46177e5d1c21b90dfd9c6248c1bc225fc1b5033834df4e0c5e"
     },
     {
       "repository_path": "reviews/browser_review.md",
@@ -1594,8 +1636,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "834433edd646f4a59de2d60cf5d562eb08815103336a4683124f846ee32f01c5",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "a072cd8a0aa62eb76385a479c425fe35f24e82fc5ba3d8d7c62d68bef6635bbf",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "scripts/export_architectures.py",
@@ -1603,6 +1645,13 @@
       "name": "export_architectures.py",
       "version": "week-one-in-progress-0.7",
       "sha256": "7df0735e111f2d5abdfdfd6253b0e3e65615dc704cdec4258a39e658ea96814f"
+    },
+    {
+      "repository_path": "scripts/export_automotive_workcell.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_automotive_workcell.py",
+      "name": "export_automotive_workcell.py",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "b94012347f2633bb6f2ab03cd10f2bbe0d7f09a558835cd05c90947f218d9195"
     },
     {
       "repository_path": "scripts/export_calendar_bridge.py",
@@ -1699,8 +1748,8 @@
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "59209deef1ad2ad91d55c7ed8173c3d582a22f5d52fcd4f0c9a5d2c809cddd59",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "90937f45503857643251292cfdbbdb6e648eb321ba97aa5d475b0eefe794692c",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
@@ -1720,8 +1769,8 @@
       "repository_path": "tests/test_api.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_api.py",
       "name": "test_api.py",
-      "sha256": "38ddc697913386c62aa31355ea9b14a45a3746390c3ea1c73d6defb4de65cdc4",
-      "version": "utility-inspection-checkpoint-0.19"
+      "sha256": "ce238c331efdeb1086e1ea76d41a954e03228e1cbec6be4f76341c29446b7d69",
+      "version": "automotive-workcell-checkpoint-0.20"
     },
     {
       "repository_path": "tests/test_architectures.py",
@@ -1729,6 +1778,13 @@
       "name": "test_architectures.py",
       "version": "week-one-in-progress-0.7",
       "sha256": "dccb791930b7589f6fc85848f25ecebcb062342d433a82e22f4a92cf4d397e74"
+    },
+    {
+      "repository_path": "tests/test_automotive_workcell.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_automotive_workcell.py",
+      "name": "test_automotive_workcell.py",
+      "version": "automotive-workcell-checkpoint-0.20",
+      "sha256": "6edb248305a4aac4ab35fe06c82f38fbcd83db87957530ae393efcec9a7b4d3c"
     },
     {
       "repository_path": "tests/test_calendar_bridge.py",
@@ -1945,7 +2001,7 @@
     "physical_requirements_crosswalk": "research/physical_requirements_crosswalk.md",
     "physical_requirements_source_manifest": "data/sources/physical_requirements/source_manifest.json",
     "accepted_evidence_package_count": 13,
-    "accepted_claim_count": 189,
+    "accepted_claim_count": 192,
     "frontier_models_report": "research/frontier_models.md",
     "frontier_models_evidence": "data/frontier_model_economics.json",
     "frontier_architecture_scenario_status": "synthetic_conditional_implemented_real_costs_unknown",
@@ -2005,6 +2061,13 @@
       "output": "model/results/utility_inspection.json",
       "review": "reviews/utility_inspection_review.md",
       "status": "synthetic_accepted_points_and_funded_residual_visits_partial_campaign"
+    },
+    "automotive_workcell": {
+      "methods": "model/AUTOMOTIVE_WORKCELL.md",
+      "analysis": "research/automotive_workcell_decision.md",
+      "output": "model/results/automotive_workcell.json",
+      "review": "reviews/automotive_workcell_review.md",
+      "status": "synthetic_unique_kit_deadlines_buffer_and_qualified_generation_partial_campaign"
     }
   }
 }

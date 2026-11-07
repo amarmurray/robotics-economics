@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.8. The active campaign tests nine bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.9. The active campaign tests ten bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -78,13 +78,13 @@ Version 0.8. The active campaign tests nine bounded challenge families through s
 
 **Mechanism and status.** Retirement, incompatible upgrades and scarce technical support can shorten the useful life of a configured deployment even while successor capability improves. This is a testable lifecycle mechanism, not an estimated retirement rate.
 
-**Evidence and scope.** Figure’s dated supplier account says most Figure 02 units have been decommissioned and describes a support-resource tradeoff. Existing BMW records separate the earlier loading deployment from Figure 03 sequencing. See CAP-E024 and [the automotive pack](research/deployment_entry_decisions.md). Customer terms, unit counts, salvage and actual service lives remain unknown.
+**Evidence and scope.** Figure’s dated supplier account says most Figure 02 units have been decommissioned and describes a support-resource tradeoff. Existing BMW records separate the earlier loading deployment from Figure 03 sequencing. See CAP-E024 and [the automotive pack](research/deployment_entry_decisions.md). The [workcell replay](research/automotive_workcell_decision.md) now preserves old owned units while testing a separately paid and qualified replacement; an unqualified purchase adds no service and a late recovery cannot backfill a missed deadline. Customer terms, unit counts, salvage and actual service lives remain unknown.
 
 **Strongest objection.** An integrated provider can fund replacement and protect customer service, and improving designs may justify retirement. A supplier’s development fleet need not have the same lifecycle as a contracted customer fleet.
 
 **Decision implication.** Price the exact cohort’s support, upgrade, title and recovery obligations. Do not assign the successor’s capability to installed hardware or a positive terminal value without a declared policy and evidence/assumption basis.
 
-**What changes the view.** A matched customer asset/support history and contract showing funded replacement, continued service and recovery value. In the synthetic bridge, test early retirement/support withdrawal against unchanged capability and cash obligations before recommending scale.
+**What changes the view.** A matched customer asset/support history and contract showing funded replacement, continued service and recovery value. The bounded synthetic support/replacement worlds now execute this challenge; actual contract terms, lifecycle costs and available qualified replacement supply remain missing. Fixed vision/buffering and fast retooling must also be tested before attributing an advantage to humanoid form.
 
 ## How this register should evolve
 

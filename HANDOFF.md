@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.19.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.20.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: utility inspection and residual visits, edition 0.19
+## Current checkpoint: automotive workcell and qualified generation, edition 0.20
+
+The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. After the diagnostic steer, supported status again reported **connected/running**, failure null, and real shell/repository commands executed in `/workspace/robotics-economics` with working changes intact. The published configuration and sole writer remain unchanged. No task, executor, schedule, agent or campaign clock was replaced. Native goal/quota controls remain unexposed; no reset or continuous-execution claim is made.
+
+[The automotive analysis](research/automotive_workcell_decision.md), [methods](model/AUTOMOTIVE_WORKCELL.md) and eighteen complete worlds add bounded **DE-CF04**. One manipulator performs real picks, whole-kit handoffs, family changeovers and recovery. Unique stock and loading deadlines prevent output duplication or backfilled timely service. Competent humans, fixed vision/buffering and separately paid prepared presentation are explicit alternatives. Treasury time remains a transaction index, not a monthly-fleet bridge.
+
+The synthetic fixed direct-loading case delivers no kit on time; real pre-buffering restores all twelve. A competent human and the humanoid also meet the default due service. In the mixed sequence, a fixed six-tick changeover gives twelve timely kits while seven gives nine; this switch belongs to the assumed process, not an embodiment label. Preparation consumes separate capacity and material readiness. Support expiry leaves five timely kits and retained owned hardware/staff. A distinct paid qualified replacement restores later service to eleven timely and one late kit; an unqualified purchase adds no service. No case calibrates real factory takt, payroll removal or ROI.
+
+CAP-E025..027 extend the existing capability package with a historical fixed-vision/body-panel comparator, a Figure 03/Helix 02 demonstration and operator integration/pilot context. Single-component time, three-part loading targets and mobile sequencing are different denominators. Dates and unresolved future/past pilot wording remain explicit. The prior June BMW URL was unavailable to the new fetch; the historical record is preserved. Target costs, rights, supply, staffing and sustained acceptance remain unknown.
+
+Fresh validation passes **335 Python tests** in 168.761 seconds, including nineteen focused workcell tests, thirty seeded adverse cases and new HTTP replay; **36 Node assertions**, all client syntax and prescribed evidence/physical/frontier/export checks. All thirteen browser views pass, including eighteen workcell worlds, the exact changeover switch, pending/invalid/stale preservation, component/configuration/funding traces, primary-source drawers and complete export/import. Tampered saved outcomes are ignored. Browser and CLI replay agree completely, including hash, and the workcell panel was visually inspected. See [the review](reviews/automotive_workcell_review.md).
+
+All **444,629 typed numeric fields across 27 earlier result JSONs** are preserved. Sixteen files remain byte-identical; eleven refresh only evidence snapshot hashes. Prior engines/assumptions, 69 legacy acceptance statuses and 65 question statuses remain unchanged. Evidence now has 13 packages, 192 claims, 370 reported quantities and 104 explicit-null markers. Legacy acceptance stays **53 bounded met / 16 partial**. All **273 registered hashes** and **533 relative Markdown links** verify with no broken links before publication; exact commit/manifest identity remains in the ignored receipt.
+
+**Next execution:** investigate configuration-specific qualified supply, support and replacement obligations that survive a generation change, then the substantial H chain from digital/R&D inputs through held-out qualification to accepted physical service. Prioritize a decision-changing empirical record or an explicit no-learning/no-transfer challenge. Preserve all A–K scope, three packs, same campaign clock and single writer; do not expand abstract accounting or source counts without a new decision consequence.
+
+**Next question:** which actual qualification, compatibility or support obligation blocks usable capacity after a model/hardware improvement, and what measured digital/R&D change removes that constraint without assuming free physical validation?
+
+## Previous checkpoint: utility inspection and residual visits, edition 0.19
 
 The same campaign remains active: **T0 2026-11-07T20:12:27Z**, **deadline 2026-11-14T20:12:27Z**. The supported cloud status remains connected/running and real shell execution succeeded in `/workspace/robotics-economics`; the same published configuration and sole writer are preserved. Native goal/quota controls remain unexposed. No new task, schedule, executor, agent, paid resource or campaign clock was created.
 
