@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.5. The active decision campaign challenges these theses through the [three provisional packs](research/deployment_entry_decisions.md); fourteen financed worlds now test two bounded challenge families, while broader integrated coverage remains pending.  These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.6. The active decision campaign challenges these theses through the [three provisional packs](research/deployment_entry_decisions.md); fourteen financed worlds and eight calendar/digital worlds test four bounded challenge families, while broader integrated coverage remains pending.  These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -24,7 +24,7 @@ Version 0.5. The active decision campaign challenges these theses through the [t
 
 **Decision implication.** Compare future robotic service with a feasible digital-improved incumbent, retaining required embedded software consistently. Do not freeze the baseline or add overlapping savings twice.
 
-**What changes the view.** Target-side evidence for the separate human and robot channels, with matched output/quality and costs. Annual digital paths now supply an explicit synthetic moving comparator; a monthly/cohort bridge and measured target integration effects remain incomplete. Source benchmark gains cannot fill them automatically.
+**What changes the view.** Target-side evidence for the separate human and robot channels, with matched output/quality and costs. [Annual paths now drive actual monthly cohorts](research/calendar_digital_execution.md) under an explicit synthetic cleaning-zone contract. Fixed staffing survives large task-time reductions, and paid upgrades compete with support. Four-architecture integration, the stronger conventional comparator and measured target effects remain incomplete. Source benchmark gains cannot fill them automatically.
 
 ## T3 — Equal robot access leaves commercial execution and cash survival unresolved
 
@@ -36,7 +36,7 @@ Version 0.5. The active decision campaign challenges these theses through the [t
 
 **Decision implication.** Separate redesign advantage, adoption timing and capacity availability. Test ramp, receivables, retention and prompt competition before interpreting lower robot cost as a financeable newco.
 
-**What changes the view.** Repeated customer commitments, accepted service and collections under comparable technology access, together with funded supply/commissioning. The shared monthly enterprise case now links supported cohorts, customer assignments and Treasury. Dated debt/default/cure now changes delivery in that loop. Annual/intelligence-architecture bridges and acquisition transitions remain to be established.
+**What changes the view.** Repeated customer commitments, accepted service and collections under comparable technology access, together with funded supply/commissioning. The shared monthly enterprise case now links supported cohorts, customer assignments and Treasury. Dated debt/default/cure now changes delivery in that loop. The annual digital/calendar bridge now executes a matched cleaning-service case. Four-intelligence-architecture integration and acquisition transitions remain to be established.
 
 ## T4 — Coordination value depends on execution and transaction semantics
 
@@ -66,13 +66,13 @@ Version 0.5. The active decision campaign challenges these theses through the [t
 
 **Mechanism and status.** Payment timing, restrictions, rejected production, receivables and shared resource reservations can block a profitable order. This is a finance/accounting proposition with an isolated settlement core and exact synthetic test witnesses, not a measured robot-provider financing constraint.
 
-**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The [shared monthly enterprise case](model/SHARED_ENTERPRISE.md) now links paid physical cohorts, commercial cash/title, customer assignment, staffing commitments and equity. [Dated financing](model/ENTERPRISE_FINANCE.md) now adds funded draws, interest, maturity, explicit default/cure, cash recovery and a reserve on declared later starts. One-cent support funding and horizon/maturity witnesses alter delivery without changing demand or creating cash. Asset recovery, autonomous investment and annual/intelligence-architecture bridges remain incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
+**Evidence and scope.** Current model limitations and [the treasury extension proposal](model/treasury_extension_design.md), with an [independent design challenge](reviews/treasury_design_review.md) and [stage 1 financial core](model/TREASURY_CORE.md). The [shared monthly enterprise case](model/SHARED_ENTERPRISE.md) now links paid physical cohorts, commercial cash/title, customer assignment, staffing commitments and equity. [Dated financing](model/ENTERPRISE_FINANCE.md) now adds funded draws, interest, maturity, explicit default/cure, cash recovery and a reserve on declared later starts. One-cent support funding and horizon/maturity witnesses alter delivery without changing demand or creating cash. Annual digital levels now join monthly service and funded upgrades through an explicit unit/cohort/calendar mapping. Asset recovery, autonomous investment and four-intelligence-architecture integration remain incomplete. Actual commercial credit terms are not supplied by these synthetic witnesses.
 
 **Strongest objection.** Deposits, supplier credit, asset finance or patient equity may bridge the gap; the assumed manufacturing-payment boundary can dominate the result. Their existence and terms must be explicit, not assumed free.
 
 **Decision implication.** Keep economic feasibility, contractual eligibility, liquidity survival and physical deliverability separate. A lease reallocates funding and risk; it does not remove manufacturing expenditure. Paying all matured debt can still leave support unfunded; moving maturity beyond the observed horizon retains the liability rather than establishing sustainable service.
 
-**What changes the view.** A unified dated ledger that passes the stated adverse witnesses, followed by target contracts and observed financing terms. The current monthly enterprise and annual fleet remain separate calculations and cannot yet establish joint financeability across their distinct units and horizons.
+**What changes the view.** A unified dated ledger that passes the stated adverse witnesses, followed by target contracts and observed financing terms. The monthly ledger now consumes annual digital paths without adding annual fleet stock. The full annual fleet/component and four-architecture integrations remain incomplete; this selected synthetic unit cannot establish target financeability across unlike services.
 
 ## T7 — A capability generation is not an indefinite supported asset
 

@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.14, financed-execution checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Funded loan draws, interest, maturity, default/cure and cash recovery now affect actual supported service inside the existing monthly physical/customer/Treasury loop. Fourteen replayable synthetic worlds cover two financing/reinvestment challenge families, including a one-cent service-funding boundary. The six-cell review, three decision packs and all earlier research remain integrated. Annual/intelligence-architecture bridges, acquisition transitions, asset recovery and the broader challenge coverage remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.15, calendar/digital execution checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Annual digital paths now affect actual monthly cohorts, qualified upgrades, support/integration resources and funded service under an explicit synthetic cleaning-zone contract. Eight complete worlds add a matched fixed-staff four-way comparison, frozen cohorts and upgrade/funding constraints to the fourteen earlier financed worlds. The six-cell review, three decision packs and all earlier research remain integrated. Four-intelligence-architecture integration, the stronger conventional comparator, acquisition transitions, asset recovery and broader empirical requirements remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -180,7 +180,7 @@ This H work joins the existing digital ecosystem, infrastructure, learning-data 
 
 #### Required bridges before a combined economic ranking
 
-The monthly enterprise case already shares actual physical cohorts, customer assignment and cash. The annual digital and four-architecture calculators remain separate. An export that merely puts those outputs side by side would not join them. The implementation must meet these contracts:
+The monthly enterprise case shares actual physical cohorts, customer assignment and cash. [The calendar bridge](research/calendar_digital_execution.md) now drives that loop with annual digital levels under a new explicit cleaning-zone contract, preserving cohort vintage, paid upgrade resources and dated expenses. It does not infer a conversion for historical floor bundles, import the annual fleet or join the four architecture ledgers. Remaining integration must meet these contracts:
 
 | Bridge | Required rule | Failure the rule prevents |
 | --- | --- | --- |
@@ -193,15 +193,15 @@ The monthly enterprise case already shares actual physical cohorts, customer ass
 | Reinvestment | Allow new starts only after operating/support and policy reserves, and after actual available funds pay the required obligations. | Reinvesting accounting profit or all future receivables before collection |
 | Entry and ownership | Transfer existing customer assignments/assets and pay purchase/transition obligations for acquisition; create genuinely new demand only in a separate input. Hold technology access equal under prompt/delayed response. | Acquisition producing market growth or one demand unit served by both firms |
 
-The finance contract now has a bounded implementation in [financed execution](research/financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. Unit/calendar/cohort/architecture integration, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
+The finance contract now has a bounded implementation in [financed execution](research/financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. A bounded unit/calendar/cohort/digital-cost bridge now executes with paid staffing and shared resource allocations. Four-architecture roles/costs, annual component-pool integration, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF11 and DE-CF12 now have bounded implementations; the other twelve remain reserved.** Fourteen complete source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) challenge funding, maturity, cash recovery and declared candidate reinvestment. They cover two families and do not establish broad campaign coverage simply by exceeding twelve rows. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
+The following names track intended challenge coverage. **DE-CF01, DE-CF11, DE-CF12 and DE-CF13 have bounded implementations.** Fourteen source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) cover finance/reinvestment; eight in [calendar_bridge.json](model/results/calendar_bridge.json) add retained paid shifts, digital-human interaction and cohort constraints. DE-CF10 has a support/upgrade mechanism and DE-CF14 a frozen-cohort portion, but their full expansion/learning challenges remain incomplete. The other families remain reserved. Twenty-two rows do not establish broad campaign coverage or empirical decision acceptance. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
-| DE-CF01 retained-paid-shift | Released task time cannot remove the smallest required paid coverage commitment |
+| DE-CF01 retained-paid-shift — bounded implementation | Four matched branches deliver 4,180 synthetic zones and retain $38,400 of paid shifts despite sharply different task hours; staffing optimization and observed paid-work removal remain open |
 | DE-CF02 urgent-human-fallback | Routine-robot eligibility leaves urgent work and staffed fallback intact |
 | DE-CF03 residual-inspection-visit | Selected robot points do not eliminate the full mandatory visit |
 | DE-CF04 fixed-cell-substitute | Stable geometry and demand favor a qualified specialist alternative |
@@ -213,12 +213,12 @@ The following names track intended challenge coverage. **DE-CF11 and DE-CF12 now
 | DE-CF10 support-before-expansion | Installed-fleet support consumes resources otherwise available to additions |
 | DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
 | DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
-| DE-CF13 digital-human-catches-up | Improved human scheduling changes the robot increment and entrant advantage |
-| DE-CF14 no-learning-no-transfer | Capability gains disappear or stay local while collection/validation obligations remain explicit |
+| DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A stronger conventional coordination and target competitive advantage comparison remain open |
+| DE-CF14 no-learning-no-transfer — partial cohort mechanism | Frozen installed cohorts do not receive changed robot levels; funded qualification gates updates. Endogenous learning, eligible data and collection/validation feedback remain open |
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is exact work-unit/calendar/cohort/architecture-cost integration and the strong conventional coordination comparison. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
+The next substantive work is the four-architecture resource/fee/legal-entity bridge and the strong conventional coordination comparison, followed by acquisition/hybrid transitions and remaining counterfactuals. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1149,6 +1149,69 @@ The next work is to join accepted work units, calendar levels, actual cohorts an
 | reinvestment reserve blocks | 355.00 | 7 | 19,700.00 | 5,300.00 | 0.00 | 5 |
 
 Generated from [enterprise_finance.json](model/results/enterprise_finance.json). These are mutually exclusive worlds in the same synthetic floor-service unit, not additive activity or empirically calibrated decision packs. No debt default does not ensure funded support. Cash recovery preserves remaining claims and does not sell assets. Fourteen worlds implement bounded DE-CF11/12 mechanisms; they do not satisfy the campaign requirement for broad counterfactual coverage.
+
+### Focused follow-up: Digital paths, cohorts and the operating calendar
+
+Authoritative analysis: [research/calendar_digital_execution.md](research/calendar_digital_execution.md).
+
+Decision checkpoint 0.15 · synthetic mechanism study · 7 November 2026. [Methods and equations](model/CALENDAR_BRIDGE.md) and [complete worlds](model/results/calendar_bridge.json) specify the assumptions. The [financing tranche](research/financed_execution.md) supplies dated cash/default rules. No benchmark score, advertised rate, real financing offer or customer labor saving is used as a numerical coefficient.
+
+The annual model previously showed how a moving digital-human baseline changed robotics' incremental value, while the monthly model represented actual cohorts and funded execution in a different service unit. Merely displaying their outputs together could not establish that an annual improvement was available to a particular installed robot or financed at a particular date. The new bridge supplies a declared cleaning-zone unit, calendar mapping, cohort policy and cost/resource contract inside the existing monthly loop. It does not append the annual fleet to the monthly stock or pretend the historical floor bundle had a known conversion.
+
+#### Equal service can coexist with very different task time and unchanged payroll
+
+Four ample-capital branches use the same paid staffing and customer-move policy: the human process, digital-human process, robot-assisted process and combined process. Each delivers **4,180 accepted cleaning zones** over the eight-month horizon. The incumbent and entrant together commit and pay **$38,400** of staffing cash in each branch.
+
+Human task time nevertheless changes substantially. The human baseline uses 1,337.6 task hours; the digital-human branch uses 1,136.96. Robot-assisted branches leave much less human task time, while paying the same shifts. The combined branch's remaining task time is about 29.08 hours. None of these changes automatically removes a paid coverage commitment or creates extra customer demand. Released time could have value in a different assignment, avoid future hiring or support growth, but that requires an explicit change in service, demand or staffing policy.
+
+The robot branches also fund actual manufacturing, transport, integration and continuing support. Five paid starts do not become five newly productive deployments: after the existing stock, allocation, support and demand constraints, some finished units remain unused. Opening robots have prior assets and integration outside this cash window. Consequently, the observed-period outlays are neither lifecycle cost nor an optimal investment ranking. The test establishes that a task-hour saving alone does not settle cash savings under the declared operating policy.
+
+The four-way interaction is retained as a diagnostic difference in task hours, not added as another premium. Human digital efficiency and robot-assisted release can overlap. The robot increment on the digital-human alternative is the relevant matched difference; the baseline's prior digital improvement cannot be claimed again as a robot benefit. This continues substantial H's moving-baseline inquiry through actual dated execution, while leaving the stronger conventional coordination comparator unfinished.
+
+#### A calendar improvement is not a free upgrade to every installed robot
+
+The standard window begins in July 2026 and ends in February 2027. The path therefore crosses an annual boundary after six months. Output rolls up into six observed months in 2026 and two in 2027; neither is extrapolated into an annual forecast.
+
+In the improving path, human efficiency, robot coordination and reference inference expense change at January. Installed robots can use the changed capability/coordination level only under a declared cohort policy. Frozen cohorts retain their qualified robot level and subscription-rate vintage. The calendar-upgrade policy books a synthetic $500 payment and two qualification hours for each changed robot. These are assumptions about the service contract; no real model supplier's update charge, rights or qualification process is inferred.
+
+The resource boundary changes execution. Five installed units require about 54.17 support hours per month. Upgrading all five adds ten qualification hours. With a 60-hour shared allocation, only four units can be supported and upgraded in January. The fifth retains its identity and older vintage and can qualify later. With 65 hours, all five fit in the same month. Paid human fallback maintains the same accepted service in these ample-capital worlds, so the scarce-upgrade world uses more human task time rather than inventing extra output or counting the blocked robot as productive.
+
+A stronger robot level need not create an immediate realized gain when demand is already served. The higher-support allocation makes the upgrade feasible; it does not by itself make the upgrade economically valuable. Future demand, resilience or workload diversity could change that conclusion, but none is booked as free value here. Conversely, a price-only subscription change can affect cash without requiring a fictitious performance qualification event. An unchanged robot level does not incur a qualification charge just because the calendar turned.
+
+Initial commissioning has its own time constraint. Three arrivals need 210 integration hours at the assumed 70 hours each. A 200-hour monthly allocation admits two, then the remaining unit can commission in a later month. A shipping invoice already paid stays paid. Neither annual capacity nor later available cash retroactively completes that earlier work.
+
+#### Funding is part of the bridge
+
+The physical support booking, first rent where relevant, software subscription and upgrade qualification settle atomically for a supported unit. If the actor is one cent short on the software portion, the whole contingent booking is cancelled: no physical payment remains, no support hours are consumed and the software vintage does not advance. Fixed staffing and site-subscription obligations have their own payment rules and remain visible.
+
+The low-capital financing world delivers 4,150 zones rather than 4,180 and ends with an actual debt-policy default. Its missing 30 final-period zones are not removed from demand or credited to an imaginary fallback. It preserves the debt and the robot stock. A separately favorable annual capability or unit-cost result would not reveal that dated failure without the common Treasury and service ledger.
+
+Every added digital or qualification payment reconciles to the outside supplier and is included once in enterprise outlay. Annual manufacturing cost applies to actual paid starts, including rejected production; an expected-yield divisor is not charged a second time. The physical operating bundle excludes the separately priced digital addition before the latter is introduced. Whole-month billing and per-invoice rounding are disclosed, while principal and interest retain their distinct financing treatment.
+
+#### Implications and remaining challenge
+
+For hospital logistics, the useful transfer is the distinction between a new policy level, a qualified installed cohort and an actual funded service period. Retained urgent coverage or escort staffing cannot be eliminated merely because task time falls. The cleaning-zone coefficient is not a hospital delivery estimate.
+
+For utility inspection, an improved inspection policy still needs a qualified configuration, access and support at the relevant time. A frozen cohort is a useful adverse case, but it is not evidence that any operator actually keeps an old version or lacks rights. Mandatory retained visits stay outside a fictional automatic labor saving.
+
+For automotive presentation, initial line integration and later policy qualification consume distinct dated resources. A faster nominal policy cannot meet a takt obligation until the relevant unit is commissioned, supported and admitted. Neither the synthetic mobile-manipulator body nor its cleaning rate establishes automotive suitability.
+
+This checkpoint advances the retained-paid-shift and digital-human challenge families and supplies a bounded frozen-cohort/no-transfer test. It does not close endogenous learning, four intelligence architectures or the exact stronger conventional baseline. The next useful work is to map intelligence resources, fees and legal-entity roles into the same dated ledger, then challenge coordination with equal information, authority and resources. Acquisition/hybrid transitions and actual whole-system evidence remain required. Existing empirical unknowns and provisional decision gates stay open.
+
+#### Reproduced calendar and cohort worlds
+
+| Synthetic calendar world | Accepted zones, 8 months | Retained human task hours | Staffing committed, USD | External physical/operating cash outlays, USD | Supported robot-months | Qualified upgrades |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| C00 human baseline | 4,180.00 | 1,337.60 | 38,400.00 | 79,550.00 | 0 | 0 |
+| C01 digital human | 4,180.00 | 1,136.96 | 38,400.00 | 80,350.00 | 0 | 0 |
+| C10 robot base | 4,180.00 | 38.10 | 38,400.00 | 296,087.57 | 33 | 0 |
+| C11 robot digital | 4,180.00 | 29.08 | 38,400.00 | 301,012.57 | 33 | 0 |
+| calendar improving | 4,180.00 | 35.32 | 38,400.00 | 302,446.28 | 32 | 5 |
+| frozen cohorts | 4,180.00 | 29.08 | 38,400.00 | 301,012.57 | 33 | 0 |
+| upgrade hours available | 4,180.00 | 29.08 | 38,400.00 | 303,262.57 | 33 | 5 |
+| calendar financing pressure | 4,150.00 | 115.04 | 38,400.00 | 292,406.12 | 28 | 4 |
+
+Generated from [calendar_bridge.json](model/results/calendar_bridge.json). The four C00/C01/C10/C11 branches share a paid-staff/customer-move policy and ample capital. Cash outlays include actual starts and retained inventory; opening assets predate the cash window. They are not lifecycle costs or an optimal investment ranking. Partial years are aggregated without extrapolation; no historical floor-bundle conversion or extra annual fleet is assumed.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

@@ -28,7 +28,7 @@ Use the week for evidence, integration and challenge. Save resumable state at ch
 
 ## Current bounded implementation
 
-Edition 0.14 adds [dated financed execution](research/financed_execution.md) inside the existing monthly loop. Fourteen replayable worlds implement two challenge families, DE-CF11/12. Exact interest/maturity, default/cure, cash recovery and funded declared starts now change service; asset recovery, autonomous investment and the broader bridge/counterfactual contract remain open. The [sole-writer review](reviews/enterprise_finance_review.md) records fresh checks and preserved prior outputs. This checkpoint does not alter the clock or complete the objective.
+Edition 0.15 adds [calendar/digital execution](research/calendar_digital_execution.md) to the existing monthly stock, commercial, enterprise and financing loop. Eight replayable worlds join explicit cleaning units, calendar levels, supported cohorts, qualified upgrades and digital/resource obligations. Together with the fourteen earlier [financed worlds](research/financed_execution.md), four families have bounded implementations: DE-CF01/11/12/13. Support and frozen-cohort mechanisms remain partial. Four-architecture integration, the strongest conventional comparator, acquisition/hybrid, asset recovery, autonomous investment and broader counterfactual acceptance remain open. The [sole-writer bridge review](reviews/calendar_bridge_review.md) records fresh checks and preserved prior outputs. This checkpoint does not alter the clock or complete the objective.
 
 ## Operating constraints and usage
 

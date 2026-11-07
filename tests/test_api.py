@@ -59,6 +59,18 @@ class LocalAPI(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError) as err:post(body)
             self.assertEqual(err.exception.code,400)
 
+    def test_calendar_case_replay_and_invalid_mapping(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/calendar-bridge',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        result=post({'inputs':{'finance_inputs':{'entrant_cash_cents':10000000,'loan_cents':0},'bridge_inputs':{'software_policy':'frozen_cohort'}}})['result']
+        self.assertEqual(result['calendar_bridge']['months'][6]['calendar_year'],2027)
+        self.assertEqual(post({'saved_case':result})['result'],result)
+        for body in ({'inputs':{'bridge_inputs':[]}},{'inputs':{'human_only':1}},{'inputs':{},'saved_case':{}},
+                     {'saved_case':{'schema_version':'monthly-deployment/0.5'}},{'inputs':{'unknown':True}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_unaccepted_observed_sources_cannot_leak_through_catalog(self):
         snapshot=load_accepted_packages()
         snapshot["packages"]=[p for p in snapshot["packages"] if p["package_id"]=="capability"]

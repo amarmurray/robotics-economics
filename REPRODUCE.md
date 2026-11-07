@@ -1,6 +1,6 @@
 # Reproduce the local research edition
 
-The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. DE-CF11/12 now have a bounded financed-execution suite with fourteen alternative worlds; the other twelve challenge families remain reserved. These worlds cover two families, not the full campaign. Existing commands retain their stated scopes.
+The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. Fourteen financed worlds cover bounded DE-CF11/12. Eight calendar/digital worlds add bounded DE-CF01/13 and partial support/frozen-cohort mechanisms; broad campaign coverage remains incomplete. Existing commands retain their stated scopes.
 
 Python 3.10 or newer is sufficient. Earlier validation used Python 3.12.14 on Linux; annual-path continuation also runs on the canonical Mac checkout. The model/server/export commands have **no third-party dependencies, credentials, network requests, GPU requirements or paid services**. Node is optional for the JavaScript syntax check. The dashboard needs a current browser with `fetch` and native `<dialog>` support.
 
@@ -18,6 +18,7 @@ python3 scripts/export_monthly_commercial.py
 python3 scripts/export_enterprise.py
 python3 scripts/export_enterprise.py --bridge
 python3 scripts/export_finance.py --check
+python3 scripts/export_calendar_bridge.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -160,3 +161,19 @@ python3 -m unittest tests.test_enterprise_finance -v
 `GET /api/enterprise-finance` returns the deterministic witness bundle. `POST` accepts exactly one of `inputs` (validated shortcut controls) or `saved_case` (a complete financed execution). The complete JSON includes five model-source hashes, a case hash, exact cents/rational service, event journals and seven metric-lineage records. No network, credentials or third-party Python packages are required by these commands. See [methods](model/ENTERPRISE_FINANCE.md), [research findings](research/financed_execution.md) and [sole-writer review](reviews/enterprise_finance_review.md).
 
 This adds dated finance and cash recovery. It does not implement collateral sale, legal insolvency, debt restructuring, autonomous investment optimization, empirical financing terms or annual/architecture bridges.
+
+
+## Annual digital paths inside monthly execution, edition 0.15
+
+The Customer adoption view adds **Annual digital paths inside monthly execution**. Select a complete witness or edit calendar dates, annual path arrays, resource allocations, cohort policy, qualification cost/hours and funding. Apply recalculates actual cohorts, paid invoices and delivered service. A 60-to-65-hour support allocation changes how many robots can upgrade in the January witness. These controls belong to the matched cleaning-service case; the ordinary annual fleet and four intelligence-architecture references remain separately scoped.
+
+The four C00/C01/C10/C11 branches hold staffing and customer moves fixed. Their task-time differences do not reduce payroll automatically. Calendar-year totals contain the months actually observed; no annual extrapolation occurs. Open the trace for seven equation/input/provenance records, unit/cost/resource mappings, exact cohort IDs and rounding lines. The old floor bundle has no inferred conversion.
+
+```bash
+python3 scripts/export_calendar_bridge.py
+python3 scripts/export_calendar_bridge.py --check
+python3 scripts/export_calendar_bridge.py --case /tmp/calendar-case.json --output /tmp/calendar-replay.json
+python3 -m unittest tests.test_calendar_bridge -v
+```
+
+Export/reload preserves the full physical, commercial, enterprise, finance and bridge inputs. The bridge uses decimal strings for rational numerator/denominator components and rejects unsafe non-rational integers, preserving exact exported data through browser JSON. Replay ignores saved outcomes and recomputes under current source; historical reproduction requires the corresponding checkout. Invalid inputs and late responses preserve the last valid display/export. Imported complete cases keep their unit/horizon and are read-only in the shortcut editor; selecting a standard witness restores editable controls. `GET /api/calendar-bridge` returns the bundle; `POST` accepts exactly one `inputs` or `saved_case`. See [methods](model/CALENDAR_BRIDGE.md), [findings](research/calendar_digital_execution.md) and [sole-writer review](reviews/calendar_bridge_review.md).

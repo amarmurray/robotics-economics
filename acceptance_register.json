@@ -1142,7 +1142,12 @@
         "model/ENTERPRISE_FINANCE.md",
         "model/results/enterprise_finance.json",
         "research/financed_execution.md",
-        "reviews/enterprise_finance_review.md"
+        "reviews/enterprise_finance_review.md",
+        "model/calendar_bridge.py",
+        "model/CALENDAR_BRIDGE.md",
+        "model/results/calendar_bridge.json",
+        "research/calendar_digital_execution.md",
+        "reviews/calendar_bridge_review.md"
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
@@ -1151,12 +1156,13 @@
         "monthly_fixture": "Stage2 couples exact settlement to one provider-owned physical plan and static assignments. Mandatory company obligations, commercial title/operator cash, competition and the annual/newco bridge remain incomplete.",
         "monthly_commercial": "Stage3 reuses physical and Treasury engines for sale/lease/provider-service contracts. Ten witnesses and saved-input replay verify price transfers, title/custody, support/arrears and refunds. Sole-lead review; common entrant demand and full company funding schedules remain open.",
         "shared_enterprise": "Eight shared-market worlds and interactive controls link actual physical cohorts, human shifts, customer assignments, due obligations, delivered-work invoices and funded equity. 22 focused tests, full API/CLI/browser replay and a fixed-policy funding boundary pass under sole-lead review.",
-        "current_review": "reviews/enterprise_finance_review.md",
+        "current_review": "reviews/calendar_bridge_review.md",
         "napkin_cloud_continuation": "Customer cash, provider cash/resources and consolidated resources are separately specified for napkin service. Unknown prices, paid schedules, rights, ramp and financing do not calibrate the shared model or close its remaining finance gaps.",
-        "financed_execution": "model/ENTERPRISE_FINANCE.md; research/financed_execution.md; reviews/enterprise_finance_review.md. Fourteen synthetic worlds add funded draws, interest, maturity, default/cure, cash recovery and funded candidate starts inside the existing loop."
+        "financed_execution": "model/ENTERPRISE_FINANCE.md; research/financed_execution.md; reviews/enterprise_finance_review.md. Fourteen synthetic worlds add funded draws, interest, maturity, default/cure, cash recovery and funded candidate starts inside the existing loop.",
+        "calendar_bridge": "Annual digital costs and paid qualification enter the same monthly Treasury once. Explicit cleaning units, calendar levels, cohort vintages and resource allocations pass replay/conservation; full four-architecture integration remains open."
       },
-      "gap": "Asset recovery/redeployment, autonomous reinvestment, broader portfolio finance, annual/K cost bridges and empirical cost/qualification remain incomplete.",
-      "next_action": "Implement consequential unit/time/cohort/architecture bridges and constrain the model with matched evidence; preserve actual cash and retained obligations in acquisition/recovery extensions."
+      "gap": "Four-architecture roles/costs, annual component pools, asset recovery/redeployment, autonomous reinvestment, broader portfolio/entry transitions and empirical cost/qualification remain incomplete.",
+      "next_action": "Implement the four-architecture resource/fee/entity bridge and strong conventional comparator; then acquisition/recovery while preserving unit, cohort, demand and actor-cash identities."
     },
     {
       "requirement_id": "W1-REPORT",
@@ -1511,8 +1517,8 @@
       {
         "requirement_id": "DE-03",
         "requirement": "Monthly/annual/four-architecture unit, time and cohort bridges",
-        "status": "not_started",
-        "finding": "Contract specified; no integrated bridge claimed."
+        "status": "partial",
+        "finding": "A selected cleaning-zone unit/calendar/cohort/digital-cost/resource bridge now drives actual monthly execution. Nine source/catalog hashes and exact replay preserve lineage. Four intelligence architectures, complete annual fleet/component joins and other service units remain open."
       },
       {
         "requirement_id": "DE-04",
@@ -1530,19 +1536,19 @@
         "requirement_id": "DE-06",
         "requirement": "Substantial H and strong conventional coordination challenge",
         "status": "partial",
-        "finding": "Existing H evidence and annual paths retained; a strong exact conventional comparator and target causal qualification remain pending."
+        "finding": "The fixed-staff four-way comparison and dated digital paths now execute inside the monthly ledger. Paid task-time and payroll boundaries are explicit; a strong conventional coordination comparator and physical R&D qualification chain remain pending."
       },
       {
         "requirement_id": "DE-07",
         "requirement": "I/J/K supply, sustained workload, rights, support and no-transfer",
         "status": "partial",
-        "finding": "Existing evidence plus retirement challenge joined qualitatively; integrated resource/qualification dynamics pending."
+        "finding": "Paid changed-version qualification and frozen cohorts consume actual shared resources. Real model/data rights, qualified supply/BOM joins and endogenous learning remain incomplete."
       },
       {
         "requirement_id": "DE-08",
         "requirement": "At least twelve named exact counterfactual replays with switches",
         "status": "partial",
-        "finding": "Fourteen complete replayable worlds cover two families, DE-CF11/12, including a one-cent support-funding threshold. The other twelve families and broad recommendation switches remain unimplemented; row count alone does not satisfy coverage."
+        "finding": "Fourteen finance and eight calendar worlds implement bounded DE-CF01/11/12/13 plus partial support/frozen-cohort mechanisms. Broad twelve-family coverage, target switch points and several named challenges remain incomplete."
       },
       {
         "requirement_id": "DE-09",
@@ -1554,13 +1560,13 @@
         "requirement_id": "DE-10",
         "requirement": "Full report, thesis, all thirteen views, lineage and replay",
         "status": "partial",
-        "finding": "Finance controls recompute, seven lineage records and complete export/replay accompany the report/thesis and existing thirteen views. Full unit/calendar/architecture integration remains open."
+        "finding": "The report/thesis and all thirteen views reflect the calendar bridge; controls, seven lineage records, full export/replay and missingness work. Four-architecture integration and broad final decision acceptance remain open."
       },
       {
         "requirement_id": "DE-11",
         "requirement": "Full validation, conservation, adverse/seeded checks and publication",
         "status": "partial",
-        "finding": "Financed checkpoint: 215 Python tests, 36 Node assertions, 24 seeded finance worlds, exact fourteen-world replay and all 13 browser views/control/stale/export checks pass. 140231 saved numeric fields are unchanged. Full bridge and broader challenge validation remain pending implementation."
+        "finding": "Calendar checkpoint: 235 Python tests, 36 Node assertions, 12 new seeded bridge worlds, twelve-month output parity and exact eight-world replay pass. All prior 22 JSON result artifacts are byte-identical (227322 numeric fields). Browser and final publication checks are recorded in the current sole-writer review."
       },
       {
         "requirement_id": "DE-12",

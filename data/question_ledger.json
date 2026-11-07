@@ -148,11 +148,15 @@
       "evidence_method": "Compare transfer evaluations, compatibility, retraining, validation, and retrofit requirements.",
       "dependencies_and_completion": "Deeper after HC-01/02. Trigger on comparable version changes; retain no-transfer scenarios.",
       "findings": [
-        "RT-X includes positive, neutral and adverse target comparisons; source policy/version and target embodiment must remain explicit."
+        "RT-X includes positive, neutral and adverse target comparisons; source policy/version and target embodiment must remain explicit.",
+        "Frozen monthly cohorts retain their admitted robot level and subscription vintage. Paid changed-version upgrades consume shared support resources before use. This is a synthetic no-transfer/qualification mechanism, not evidence of real portability or rights."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/calendar_digital_execution.md",
+        "model/CALENDAR_BRIDGE.md",
+        "model/results/calendar_bridge.json"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -388,7 +392,8 @@
       "findings": [
         "Support is shared in the model; source agent results have within-domain limits and paused-simulation timing cannot establish fleet response capacity.",
         "API timeout and fresh request-ID behavior expose a possible duplicate-effect risk; code inspection is not an observed deployment incident.",
-        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result."
+        "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
+        "The synthetic calendar bridge allocates robot support and changed-version qualification from one finite pool. A 60-hour allocation delays one of five upgrades; 65 hours admits all, while paid human fallback preserves service. No measured frequency or operator burden is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -396,7 +401,10 @@
         "data/coordination_reproducibility.json",
         "model/COORDINATION_TRANSACTION_FIXTURE.md",
         "model/coordination_transactions.py",
-        "reviews/coordination_fixture_review.md"
+        "reviews/coordination_fixture_review.md",
+        "research/calendar_digital_execution.md",
+        "model/CALENDAR_BRIDGE.md",
+        "model/results/calendar_bridge.json"
       ],
       "next_action": "Specify and independently verify one compatible installation and target business-state contract; compare with a strong deterministic baseline. Preserve unknown outcomes if external reconciliation/finality is unavailable."
     },
@@ -740,11 +748,15 @@
       "evidence_method": "Two contrasting deployment dossiers; distinguish causal studies, surveys, telemetry and vendor cases; measure output/quality/cost and identify confounding, nondeployment and vintage.",
       "dependencies_and_completion": "W1 evidence synthesis joined to PL-01/03; deeper on reproducible firm/market evidence. Historical findings are not automatically current estimates.",
       "findings": [
-        "Historical support-worker improvement and developer-study selection limits demonstrate heterogeneous effects; neither supplies a physical labor coefficient."
+        "Historical support-worker improvement and developer-study selection limits demonstrate heterogeneous effects; neither supplies a physical labor coefficient.",
+        "The dated four-way cleaning-service comparison holds delivered service and $38,400 of paid staffing fixed while task hours change. Digital-human gains and robot release overlap; neither implies removed payroll under the fixed schedule."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/calendar_digital_execution.md",
+        "model/CALENDAR_BRIDGE.md",
+        "model/results/calendar_bridge.json"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -834,7 +846,8 @@
         "Three direct-contribution maps keep robot control, fleet/site/enterprise interfaces and R&D separate; integration completeness remains to be tested.",
         "Source-pinned RMF callbacks and retry semantics make integration responsibilities concrete without asserting LLM uplift or stack interoperability.",
         "The local deterministic transaction fixture tests lost acknowledgment, restart/cache eviction, unknown outcomes and partial cancellation. It requires an explicit complete-history/finality lookup and is not an installed RMF test or physical-performance result.",
-        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported."
+        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
+        "Annual digital levels now drive actual monthly cohorts, costs and cash under an explicit unit/calendar mapping. A changed model level needs funded qualification and support; four-architecture and stronger conventional coordination comparisons remain open."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -845,7 +858,10 @@
         "reviews/coordination_fixture_review.md",
         "research/onboard_workload_qualification.md",
         "data/onboard_workload_qualification.json",
-        "reviews/onboard_qualification_review.md"
+        "reviews/onboard_qualification_review.md",
+        "research/calendar_digital_execution.md",
+        "model/CALENDAR_BRIDGE.md",
+        "model/results/calendar_bridge.json"
       ],
       "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
     },
@@ -1413,5 +1429,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Active 7–14 November campaign; edition 0.14 implements two bounded finance/reinvestment challenge families. All 65 question IDs and statuses are preserved; no empirical gap is closed by synthetic finance."
+  "decision_campaign_note": "Active 7–14 November campaign; edition 0.15 adds eight explicit unit/calendar/cohort/digital execution worlds. Four challenge families have bounded implementations; all 65 question IDs/statuses are preserved, with no empirical gap closed by synthetic execution."
 }

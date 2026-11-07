@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.13.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.15.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: financed execution and service continuity, edition 0.14
+## Current checkpoint: calendar, digital costs and qualified cohorts, edition 0.15
+
+The same 168-hour campaign remains active: **T0 2026-11-07T20:12:27Z**, **deadline 2026-11-14T20:12:27Z**. This is an early checkpoint. A fresh environment observation after the disconnect notice reported connected/running, and harmless shell/status commands succeeded in the same `/workspace/robotics-economics` checkout with working changes preserved. No replacement task, executor, writer or schedule was created. Native goal identifiers, quota and earned-reset controls remain unexposed; no reset or uninterrupted execution is claimed.
+
+[The calendar/digital analysis](research/calendar_digital_execution.md) and [explicit methods](model/CALENDAR_BRIDGE.md) connect the existing annual operation/path functions to actual monthly stock, Treasury and finance. The new synthetic cleaning-zone unit has an explicit one-to-one contract; there is no inferred conversion from historical floor bundles or other end markets. Calendar levels, actual supported unit IDs, admitted software vintages, funded subscriptions/qualification and finite integration/support hours determine service. Eight complete worlds add bounded DE-CF01/13 to the earlier DE-CF11/12 implementations; support and frozen-cohort challenges remain partial.
+
+The fixed-staff four-way comparison delivers **4,180 synthetic zones** in every branch and pays **$38,400 of staffing** in each. Lower task hours do not remove a paid shift. At the January improvement, five robots require about 54.17 support hours plus ten qualification hours: 60 available hours admit four supported upgrades, while 65 admit five. Paid human fallback preserves service in the ample-capital cases. The financing-pressure case loses 30 final-period zones. Initial integration separately delays one of three arrivals. These are conditional mechanisms, not calibrated whole-system costs, optimized staffing or an investment ranking.
+
+**Fresh validation:** 235 Python tests, including 19 bridge tests, 12 seeded bridge worlds, twelve-month annual-output parity and complete eight-world replay; 36 Node assertions; JavaScript syntax; strict evidence validation; physical extraction/summary; frontier and calendar export checks. Browser checks cover all thirteen views, all eight bridge and fourteen finance worlds, resource controls, invalid/stale requests, lineage and complete export/reload without observed JavaScript/API errors. The browser exposed a large-rational JSON rounding defect; decimal-string rational components now preserve every digit, and unsafe non-rational integers are rejected. Browser exports replay identically through the CLI. See [the sole-writer review](reviews/calendar_bridge_review.md).
+
+All **22 earlier JSON result artifacts and 227,322 typed numerical fields**, the original assumptions and earlier engine modules remain unchanged. The evidence package stays at 13 packages, 186 claims, 366 quantities and 104 explicit null markers. All 69 legacy requirement and 65 question statuses are preserved; legacy acceptance remains **53 bounded met / 16 partial**. New campaign criteria advance only within partial. All **233 registered file hashes** and **429 relative Markdown links** verify, with no broken links. Divergence and publication results are recorded in the ignored receipt; publication does not prove another session consumed the commit.
+
+**Next execution:** implement the four intelligence architectures' explicit resource/fee/entity contracts inside the shared monthly ledger and substantial H's strongest conventional coordination comparator with equal information, authority and resources. Preserve the common service/demand/fleet/cash boundary and count costs once. Then develop build/acquire/hybrid transitions and the remaining decision-relevant challenge families against the three packs. Asset recovery, autonomous investment, endogenous learning, broader service units and empirical cost/payroll/rights gaps remain open. Do not expand abstract finance at the expense of these decision questions.
+
+**Next question:** under matched resources and feasible conventional coordination, which intelligence architecture changes accepted service and cash survival enough to reverse a deployment or entry decision?
+
+## Previous checkpoint: financed execution and service continuity, edition 0.14
 
 The same user-activated 168-hour goal continues. Preserve **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**, recorded in [the campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). This is an early checkpoint, not goal completion. The native activation timestamp/identifier and quota/reset controls remain unexposed; no reset, verified serving-model identity or continuous execution is claimed.
 
@@ -257,12 +273,12 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 ## Next owner and action
 
-**New active scope:** Reconcile the current published K module and registered questions at a safe checkpoint, while retaining the single-agent usage cap. First select a bounded model-provider versus OEM/open/operating-business economic comparison; preserve the existing field, treasury and learning evidence/model priorities and register residual questions.
+**Current active scope:** Continue the Deployment and Entry Decision campaign under the edition 0.15 checkpoint above. Join the four intelligence architectures and strongest conventional comparator, then develop acquisition/hybrid and the remaining challenge families. Retain the single-writer limit and explicit evidence gaps.
 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate execution follows the current edition 0.12 checklist above, preserving the regional, Generalist/Dyna and napkin audits and returning to the broader ranked queue unless a new matched service artifact resolves a documented gap. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the current edition 0.15 checklist above, preserving the regional, Generalist/Dyna, napkin, finance and calendar audits. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and broader architecture/entry integration remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
