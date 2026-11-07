@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: week-one-2026-10-25-in-progress-0.10.
+Handoff ID: post-window-continuation-2026-11-07-0.11.
 
 ## Accepted direction
 
@@ -20,7 +20,44 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: regional model evidence and cloud continuation, edition 0.10
+## Current checkpoint: Generalist/Dyna continuation, edition 0.11
+
+Amar requested “continue the work” on **7 November 2026**. The original T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z** remain historical facts; that window has ended with incomplete requirements. This is separately dated continuation, with no new deadline or claim of research during the interruption. The accepted state recovered at session start was edition 0.10. The requested cloud transfer had not been confirmed; no separate running research successor was identified in the inspected task inventories. This work resumes in the verified local execution clone with **one agent only**. Actual serving model/effort is not independently verified.
+
+[Generalist and Dyna: adaptation, production and customer economics](research/generalist_dyna_deployment.md) is integrated into `REPORT.md` edition 0.11 and the existing thirteen dashboard views. GEN-1 mastery and GEN-1.5 low-data adaptation are distinct regimes; the public waitlist does not settle model access or service rights. Dyna's offline transfer, robot-post-trained task-ceiling averages, partially credited language scores, customer-site criteria and restaurant output retain different definitions. Production-recipe variants are separate from controlled scaling models.
+
+The Dyna-reported restaurant arithmetic gives 1,590.3 acceptable napkins against a requirement of 1,500 in eighteen hours, a 6.02% output margin. Its hourly-rate time basis is undisclosed. A conditional 1.02-hour additional time-loss budget is not observed uptime, and no extra availability discount is applied to the source output. Contract price, support/maintenance costs, paid staffing change and financial ROI remain unknown. Monster Laundry's operator account corroborates service use and reassignment; the supplier case's garments/towels and hundreds/thousands-of-hours ambiguities stay unresolved. No Dyna-2 checkpoint is assigned to that earlier operating event.
+
+Current accepted coverage: **13 packages, 180 claims, 364 reported quantities and 84 explicit-null quantity markers**. K has 43 claims, 20 role records, 19 reported model/system variants, 23 rights/access cards, ten dossiers, eleven benchmark cards and four operating/reference cards. These are records with bounded evidence, not a fleet census or independent corroboration count. All original source claims remain intact. The new [review](reviews/generalist_dyna_review.md) is sole-lead.
+
+Validation: **196 Python tests and 36 JavaScript assertions passed**; strict evidence validation has zero errors/warnings. All **130,535 numerical fields across thirteen previously published scenario/experiment artifacts** and the assumptions file are unchanged after provenance regeneration. All thirteen views render, the source drawer points to the primary restaurant account, and new operator and access/rights records are visible with no observed JavaScript errors. The acceptance register remains **53 bounded met / 16 partial**. A passing source helper is not a model run, financial audit, empirical calibration or full campaign acceptance.
+
+**Next execution checklist:**
+
+1. Resolve remote main and read guidance, current handoff and manifest at that same revision. Preserve the original window and label all subsequent work by its actual continuation date. Check for another active writer before making changes; keep one agent only.
+2. Build a matched restaurant or laundry service workflow/cost boundary from public operator and specialist-equipment evidence. Include loading, inspection, rework, staff transport, maintenance, contract cash terms and the actual time basis. Distinguish retained work, added capacity, avoided hiring/overtime and removed payroll.
+3. Use the service evidence to test the existing customer/provider and equal-technology entrant questions. Do not equate a model-access waitlist, a research score, a RaaS label or a cumulative item count with qualified available capacity or a financing result. Stop exhausted public-source searches at documented gaps.
+4. Continue the broad A–J roadmap and substantial H/I/J research. Qualified supply/support, conventional coordination evidence and the explicit loan/maturity/reinvestment/recovery and annual/architecture bridges remain unfinished. Select additions by decision value; avoid expanding abstract finance indefinitely.
+5. Validate each accepted tranche, update report/dashboard/evidence/questions/acceptance/handoff and manifest, then commit scoped changes and push normally after checking divergence. No force-push, automatic divergence merge, outreach, paid services, GPU/robot/model execution, public hosting or other-repository edits are authorized.
+
+The canonical Mac checkout remains preserved at its unreconciled older state, including the unrelated untracked legacy fixture. Use the execution location in ignored `work/ACTIVE_EXECUTION.json`; do not overwrite canonical edits or claim that cloud execution occurred. Keep local receipts/caches and observed publication SHAs out of the accepted artifact set.
+
+**Next question:** can a matched service baseline identify which human work is actually avoided, which support remains paid, and whose cash flow improves under disclosed contract terms?
+
+## Transfer checkpoint and weekday oversight, 7 November 2026
+
+The earlier durable cloud chat **“Continue with one agent”** was located during coordination and read through the supported thread interface. It is idle; its last recorded turn was interrupted during edition 0.5 validation. That historical state does not establish a live cloud executor or current access. The current chat is local. The available handoff tool cannot move its calling chat and does not support cloud handoff. The coordinating oversight chat will handle resuming the existing durable campaign after this publication; no replacement task, new environment, credentials, network/security changes or spending were created here. **After this transfer checkpoint, stop local research writes pending that coordination.** This is not research-program completion.
+
+Cloud resumption should:
+
+1. Confirm the existing task and its actual execution location. Perform a harmless repository/status read and inspect the cloud checkout's current HEAD, diff and untracked files. Preserve any old unpublished edition 0.5 state before adopting the accepted main revision; do not overwrite it or blindly reapply implementations already superseded by later accepted editions.
+2. Resolve remote main, record its SHA and read this handoff, charter, design/spec and manifest at that revision. Verify registered hashes and the source-summary check. Local Mac caches, browser/server sessions and ignored receipts are not portable dependencies; public sources are identified in accepted records.
+3. Confirm one active research writer, then perform the next bounded research unit: inspect a public operator or specialist-equipment source against the matched restaurant/laundry workflow and cost requirements above. Record a consequential finding or a precise missing denominator. A harmless read or passing test alone does not establish new research or unattended weekday execution.
+4. Publish only accepted changes with validation, handoff and refreshed hashes, after checking remote divergence. Preserve all original dates and explicitly label continued work after the November 1 window.
+
+A weekday oversight check should inspect the task's live/terminal state, actual input and published revisions, working changes or preserved patches, evidence/model deltas, validation results, unresolved acceptance gaps and the next bounded unit. A substantive supported finding, a corrected model/measurement boundary or a validated accepted artifact is progress. Repeated timestamps, source counts, status prose and idle time are not. Check for overlapping writers before resuming any task; an idle/blocked task is not persistent execution. If repository access, runtime or source evidence is unavailable, preserve state and identify the exact missing action; do not fabricate cloud progress or restart the campaign clock.
+
+## Previous checkpoint: regional model evidence and cloud continuation, edition 0.10
 
 Amar requested handoff to cloud Codex after this checkpoint. Continue the existing campaign in one execution environment with **one agent only**; do not restart the week or activate the historical specialist plan. Preserve T0 **2026-10-25T15:52:14Z** and deadline **2026-11-01T15:52:14Z**. A transfer request or repository push is not confirmation that a cloud task started or consumed the files. Exact publication and transfer receipts stay in ignored operational records. Local research should not run concurrently with the successor.
 
@@ -169,7 +206,7 @@ At goal activation record actual T0, T0+168-hour deadline, input commit, active 
 
 **Next owner: continuing Codex campaign lead.** Recover the same deadline and latest accepted artifacts; inspect remote and local changes before editing. Do not restart the week or call an early working edition campaign completion.
 
-Immediate execution follows the cloud resumption checklist above, preserving the completed regional K audit and pursuing consequential operator/service evidence against the shared monthly customer/physical/cash case, while keeping remaining financial mechanisms explicit. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
+Immediate execution follows the current November continuation checklist above, preserving both the regional and Generalist/Dyna audits and pursuing a matched operator/service cost boundary against the shared monthly customer/physical/cash questions. The walkthrough and thesis register remain ready for Amar-led discussion. Operator full-cost data, exact benchmark manifests and integrated monthly commercial finance remain separate needs. Do not treat the staging plan as an instruction to send messages or modify another repository.
 
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 

@@ -107,3 +107,6 @@ A useful conditional test is how much adaptation and support must be avoided to 
 5. **Open ecosystems: compare effective options, not license labels.** OpenVLA's conflicting declarations and openpi's separate code/checkpoint/API layers show why the artifact and dependency chain must be inspected before claiming commercial substitutability or commoditization.
 
 The next question is now concrete: for a fixed service and qualified configuration, when does a licensed policy's reduction in adaptation and support outweigh the extra resources it requires, and what price/rights allocation leaves both supplier and customer better off? The evidence packet constrains that question. The [conditional quantitative architecture model](intelligence_architecture_scenarios.md) supplies an inspectable mechanism. Broader regional discovery, complete field economics and integrated monthly commercial finance remain continuing work.
+
+
+The [7 November Generalist/Dyna continuation](generalist_dyna_deployment.md) adds adaptation, data-scale, graded-metric and customer service evidence after the original campaign window. It preserves the earlier regional audit and every synthetic coefficient. Output feasibility and financial ROI remain distinct.

@@ -89,7 +89,18 @@ function physicalCrosswalk(){
   `<details><summary>All seven requirements, uncertainty and source rows</summary>${rows.map(r=>`<h3>${esc(r.soc_2018+' '+r.occupation)}</h3>`+table(Object.values(r.requirements),[['label','Requirement',esc],['estimate','Estimate',observedEstimate],['estimate','Unit',q=>esc(q.unit)],['standard_error','Standard error, points',q=>q.measurement_status==='not_available'?'Unavailable':observedEstimate(q)],['source_row','Workbook row',v=>v===null?'No published row':fmt(v)]])+`<p class="small">${esc(r.join_status)}. Source footnotes and survey boundaries are retained in the saved package. ${refButtons(r)}</p>`).join('')}</details>`+
   `<div class="links">${refButtons({evidence_ids:['PRC-006','PRC-007']})}<a href="/research/physical_requirements_crosswalk.md" target="_blank">Crosswalk analysis ↗</a><a href="/data/physical_requirements_crosswalk.json" target="_blank">Saved requirements and source locators ↗</a></div></section>`;
 }
-function frontierActors(){return regionalSourceChecks()+`<section id="frontier-actors"><h3>Frontier model and deployment roles</h3>`+notice('Dated primary-source map. Lab, OEM, integrator, operator and transaction-counterparty roles can coexist. Releases, benchmarks, partnerships and productive fleets have separate evidence boundaries.',true)+docs(/frontier_models/)+evidenceSection(/^model_labs$/,/frontier_model_economics/,16)+`</section>`;}
+function frontierActors(){return deploymentSourceChecks()+regionalSourceChecks()+`<section id="frontier-actors"><h3>Frontier model and deployment roles</h3>`+notice('Dated primary-source map. Lab, OEM, integrator, operator and transaction-counterparty roles can coexist. Releases, benchmarks, partnerships and productive fleets have separate evidence boundaries.',true)+docs(/frontier_models|generalist_dyna_deployment/)+evidenceSection(/^model_labs$/,/frontier_model_economics/,20)+`</section>`;}
+function deploymentSourceChecks(){
+ const checks=boot.observed_frontier_models?.deployment_source_checks;if(!checks||checks.status==='not_available_in_this_packet')return '';
+ const n=checks.napkin_service;
+ return `<section id="deployment-source-checks"><h3>Does reported output meet the customer's service target?</h3>`+
+  notice('7 November continuation · Dyna-reported restaurant case. Source arithmetic is separate from the synthetic scenarios. Contract price, support costs and paid staffing changes remain unknown.',true)+
+  table([n],[['reported_folds_per_hour','Reported folds / hour',v=>fmt(v),true],['reported_quality_percent','Accepted quality',v=>fmt(v,1)+'%',true],['reported_window_hours','Window, hours',v=>fmt(v),true],['required_accepted_napkins','Required napkins',v=>fmt(v),true],['arithmetic_accepted_per_window','Rate × quality × hours',v=>fmt(v,1),true],['surplus_as_percent_of_required_output','Above requirement',v=>fmt(v,2)+'%',true]])+
+  `<p>The source rounds output to ${fmt(n.reported_accepted_napkins)}. The resulting margin is a capacity comparison; financial ROI is unknown. ${refButtons({evidence_ids:n.evidence_ids})}</p>`+
+  `<details><summary>Inspect the conditional time margin</summary><p>At the stated rate and quality, the target requires ${fmt(n.conditional_effective_hours_required,2)} effective hours, leaving ${fmt(n.conditional_additional_time_loss_budget_hours,2)} hours. ${esc(n.time_sensitivity_condition)} Applying another uptime factor to a rate that already includes stops would count the same loss twice.</p></details>`+
+  `<h4>Scores retain their original meaning</h4><p>Dyna's robot-scale average rises ${checks.dyna_scaling.rungs.map(r=>fmt(r.reported_percent_of_task_ceiling)+'%').join(' → ')} of heterogeneous task ceilings after robot post-training. Its language-following scores include half-credit failures. Neither measure is a whole-job probability. ${refButtons({evidence_ids:['K-E035','K-E037']})}</p>`+
+  `<p>Generalist's GEN-1.5 reports fast adaptation on short tasks; a public waitlist does not establish a qualified service contract. ${refButtons({evidence_ids:['K-E031','K-E033']})}</p><a href="/research/generalist_dyna_deployment.md" target="_blank">Generalist, Dyna and customer evidence ↗</a></section>`;
+}
 function regionalSourceChecks(){
  const source=boot.observed_frontier_models,checks=source?.regional_source_checks;if(!checks||checks.status==='not_available_in_this_packet')return '';
  const conflict=checks.rldx_table9,latency=checks.rldx_latency;
@@ -110,7 +121,7 @@ function regionalRights(){
   `<p class="small">The exact evaluated RynnBrain-VLA policy is not identified by the inspected base-model release cards. Existing Unitree WMA/SDK records retain their own source identities. These observations change no synthetic cost or capability input.</p></section>`;
 }
 function regionalDeployments(){
- return `<section id="regional-deployments"><h3>Operator use, model partnership and future plans</h3>`+notice('These packing and hotel-data references concern different services from the synthetic floor-service market. A repeated announcement is one event; partner roles do not identify an executed checkpoint.',true)+evidenceSection(/^deployment_cards$/,/frontier_model_economics/,2)+`</section>`;
+ return `<section id="regional-deployments"><h3>Operator use, model partnership and future plans</h3>`+notice('Packing, hotel data capture, laundry and restaurant references concern different services from the synthetic floor-service market. Repeated announcements are one event; partner names or a model family do not identify an executed checkpoint.',true)+evidenceSection(/^deployment_cards$/,/frontier_model_economics/,4)+`</section>`;
 }
 
 function sharedEnterprisePanel(){

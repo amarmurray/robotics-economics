@@ -123,3 +123,8 @@ See [ARCHITECTURES.md](ARCHITECTURES.md) for the explicit resource, allocation a
 ## Regional reported-metric and rights boundaries
 
 [The regional K source audit](../research/regional_frontier_models.md) adds publisher-defined task metrics, artifact grants and operator references to the evidence layer. `frontier_models.regional_source_arithmetic` checks reported means/units and preserves a PDF/HTML count-to-score discrepancy without inventing a corrected empirical effect. Mixed progress is not complete service; a desktop median or control-loop frequency is not an onboard deadline. Public noncommercial weights, permissive code/base releases and private commercial agreements are separate scopes. These source records change no synthetic model parameter or numerical scenario output.
+
+
+### Customer-service source arithmetic, continuation 7 November 2026
+
+`deployment_source_arithmetic` in `frontier_models.py` uses K-E039's matched population, observation period and reported fold-rate/quality/window units. It reproduces rounded output and an output margin; it supplies no financial return or paid-labor estimate. The additional time-loss sensitivity is conditional on an active-time rate, whose basis remains undisclosed. The base arithmetic applies no extra uptime discount. Dyna mixed task-ceiling and partially credited language metrics cannot become whole-job probabilities, and all source checks remain outside the scenario engines.

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "campaign_in_progress_regional_frontier_sources_0.10",
+  "edition_status": "post_window_continuation_0.11_2026-11-07",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1261,10 +1261,10 @@
       ],
       "validation": {
         "review": "reviews/acceptance_review.md",
-        "finding": "T0 is preserved as 2026-10-25 15:52:14 UTC and deadline as 2026-11-01 15:52:14 UTC, exactly 168 hours including the local DST change. Continuation is active; future work/window completion cannot be certified at this early cutoff."
+        "finding": "T0 and the exactly 168-hour November 1 deadline are preserved. Recovery on November 7 found accepted edition 0.10 and no confirmed cloud handoff. New work is separately dated; completion during the original window is not certified."
       },
-      "gap": "T0 is preserved as 2026-10-25 15:52:14 UTC and deadline as 2026-11-01 15:52:14 UTC, exactly 168 hours including the local DST change. Continuation is active; future work/window completion cannot be certified at this early cutoff.",
-      "next_action": "Resolve the stated boundary through the ranked continuation work; do not infer completion from artifact count."
+      "gap": "Original November 1 deadline passed with incomplete work. User resumed research on November 7; later work is separately dated and not counted as execution within the original week.",
+      "next_action": "Continue the user-authorized research with actual dates and an honest incompleteness audit; do not reset or backdate the original window."
     },
     {
       "requirement_id": "W1-REVIEW",
@@ -1321,12 +1321,15 @@
         "model/frontier_models.py",
         "reviews/frontier_models_review.md",
         "research/regional_frontier_models.md",
-        "reviews/regional_frontier_review.md"
+        "reviews/regional_frontier_review.md",
+        "research/generalist_dyna_deployment.md",
+        "reviews/generalist_dyna_review.md"
       ],
       "validation": {
         "review": "reviews/frontier_models_review.md",
         "finding": "Dated nine-actor role map includes eight model/ecosystem actors and Zebra as transaction counterparty. Regional gaps remain explicit; no market census or share is claimed.",
-        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit."
+        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit.",
+        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation."
       },
       "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
       "next_action": "Extend consequential uncovered actors and regions; do not turn a selective role map into a census or company valuation."
@@ -1346,12 +1349,15 @@
         "model/frontier_models.py",
         "reviews/frontier_models_review.md",
         "research/regional_frontier_models.md",
-        "reviews/regional_frontier_review.md"
+        "reviews/regional_frontier_review.md",
+        "research/generalist_dyna_deployment.md",
+        "reviews/generalist_dyna_review.md"
       ],
       "validation": {
         "review": "reviews/frontier_models_review.md",
         "finding": "Four substantial contrasting dossiers cover Pi, Skild, Figure and OpenVLA, with source-specific economic mechanisms and missing terms.",
-        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit."
+        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit.",
+        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation."
       },
       "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
       "next_action": "Audit Generalist/Dyna and additional operator-facing mechanisms where they can change a concrete deployment or value-capture conclusion."
@@ -1371,12 +1377,15 @@
         "model/frontier_models.py",
         "reviews/frontier_models_review.md",
         "research/regional_frontier_models.md",
-        "reviews/regional_frontier_review.md"
+        "reviews/regional_frontier_review.md",
+        "research/generalist_dyna_deployment.md",
+        "reviews/generalist_dyna_review.md"
       ],
       "validation": {
         "review": "reviews/frontier_models_review.md",
         "finding": "Six model/release records and eight artifact-rights cards preserve exact pins where available, unknown configurations/contracts and the unresolved OpenVLA rights declarations.",
-        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit."
+        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit.",
+        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation."
       },
       "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
       "next_action": "Resolve exact deployed-policy/configuration, private rights and supported-service evidence before treating a release as a qualified commercial input."
@@ -1428,12 +1437,15 @@
         "model/frontier_models.py",
         "reviews/frontier_models_review.md",
         "research/regional_frontier_models.md",
-        "reviews/regional_frontier_review.md"
+        "reviews/regional_frontier_review.md",
+        "research/generalist_dyna_deployment.md",
+        "reviews/generalist_dyna_review.md"
       ],
       "validation": {
         "review": "reviews/frontier_models_review.md",
         "finding": "Five explicit implications connect metric boundaries, data reuse, control/compute placement, organization/value capture and effective outside options to A–J; records are joined to existing views.",
-        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit."
+        "regional_extension": "Sixteen role records, eight dossiers, fourteen release/model cards and twenty rights cards now distinguish public grants, reported policy tests and operator evidence. Source arithmetic preserves the RLDX Table 9 conflict and separates mixed/progress/full metrics. No source coefficient is imported; sole-lead audit.",
+        "continuation_2026_11_07": "Generalist/Dyna source extension adds two dossiers, explicit system/protocol/rights boundaries, operator corroboration and source-output arithmetic. No scenario calibration, negotiated price or full operating-cost validation."
       },
       "gap": "Bounded artifact target met. Private terms, complete field economics and broader regional discovery remain unresolved; no calibrated model ranking or industry census.",
       "next_action": "Use artifact rights, operator authority and metric/control boundaries to constrain subsequent source-led and conditional scenario comparisons."

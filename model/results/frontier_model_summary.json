@@ -1,22 +1,23 @@
 {
   "architecture_costs_available": false,
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-07",
   "coverage": {
-    "contrasting_dossiers": 8,
-    "deployment_cards": 2,
+    "contrasting_dossiers": 10,
+    "deployment_cards": 4,
     "gaps": [
       "Regional coverage remains selective; continental Europe and additional Asian/US developers need follow-up.",
-      "Generalist and Dyna mechanisms are not yet separately audited here.",
       "Private model pricing, data/fine-tune rights, fleet support, asset title and margins remain unavailable.",
       "Exact evaluated RynnBrain-VLA checkpoint and complete deployed-stack rights remain unestablished.",
       "RLDX Table 9 arithmetic requires source clarification; no corrected measured effect is inferred.",
       "Actual matched architecture costs and qualified customer service remain unknown; the synthetic calculators supply no empirical estimate.",
-      "No robot, model training or GPU/hardware workload was run."
+      "No robot, model training or GPU/hardware workload was run.",
+      "Generalist and Dyna now have bounded source dossiers; exact released/executed policies, adaptation/support costs and customer terms remain incomplete.",
+      "Dyna customer-site pass criteria lack an exposure denominator; Monster cumulative items and savings descriptions cannot resolve paid labor removal."
     ],
-    "mapped_actors": 16,
-    "model_release_records": 14,
+    "mapped_actors": 20,
+    "model_release_records": 19,
     "not_exhaustive": true,
-    "rights_cards": 20,
+    "rights_cards": 23,
     "scenario_coefficients_imported": false
   },
   "deployment_cards": [
@@ -74,8 +75,138 @@
       "service_boundary": "Hotel skill capture across worksite activities; intended later robotic service",
       "status": "reported_data_activity_and_conditional_future_deployment",
       "summary": "Worksite data activity and planned deployment remain separate from current accepted robotic service."
+    },
+    {
+      "deployment_id": "K-DEP-DYNA-MONSTER",
+      "event_identity": "DYNA-MONSTER-OPERATING-RELATIONSHIP",
+      "evidence_ids": [
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "geography": "United States",
+      "label": "Monster Laundry: operator-confirmed folding service",
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "model_id": null,
+      "model_id_missing_reason": "Dyna/Sophy branding and general model descriptions do not identify the executed checkpoint.",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-DYNA",
+          "role": "model, robot deployment and service supplier"
+        }
+      ],
+      "operator_actor_id": "K-A-MONSTER",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No complete current installed/supported fleet denominator established.",
+      "service_boundary": "Sacramento laundry folding, with attendant loading/retrieval/customer work",
+      "status": "bounded_operating_use_with_unresolved_economics",
+      "summary": "Operating service corroborated by the operator and a dated visit. RaaS and growth figures come from the supplier; paid labor removal and price remain unknown."
+    },
+    {
+      "deployment_id": "K-DEP-DYNA-DINTAI",
+      "event_identity": "DYNA-DINTAI-OPERATING-RELATIONSHIP",
+      "evidence_ids": [
+        "K-E039",
+        "K-E040"
+      ],
+      "geography": "United States",
+      "label": "Din Tai Fung: supplier-reported napkin station and rollout",
+      "model_attribution_status": "issuer_named_family_exact_checkpoint_unknown",
+      "model_id": "K-M-DYNA2-PROD",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-DYNA",
+          "role": "model, robot deployment and service supplier"
+        }
+      ],
+      "operator_actor_id": "K-A-DINTAI",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No complete current installed/supported fleet denominator established.",
+      "service_boundary": "Restaurant-ready folded and stacked napkins, with downstream staff transport",
+      "status": "bounded_operating_use_with_unresolved_economics",
+      "summary": "Supplier names Dyna-2 and a rollout; source arithmetic clears its stated output target, while current site/fleet count and financial ROI remain unknown."
     }
   ],
+  "deployment_source_checks": {
+    "cross_model_ranking_available": false,
+    "dyna_language": {
+      "complete_task_percent": null,
+      "complete_task_percent_missing_reason": "Half-credit attempts cannot be separated from full completions using the aggregate score.",
+      "evidence_ids": [
+        "K-E037"
+      ],
+      "variants": [
+        {
+          "reported_partial_credit_percent": 35.0,
+          "variant": "action"
+        },
+        {
+          "reported_partial_credit_percent": 67.0,
+          "variant": "early-video"
+        },
+        {
+          "reported_partial_credit_percent": 96.0,
+          "variant": "full-video"
+        }
+      ]
+    },
+    "dyna_scaling": {
+      "compute_or_model_size_exponent_estimated": false,
+      "evidence_ids": [
+        "K-E034",
+        "K-E035"
+      ],
+      "metric": "mean of heterogeneous task-ceiling fractions after robot post-training",
+      "rungs": [
+        {
+          "human_pretraining_hours": 1000,
+          "reported_percent_of_task_ceiling": 20.0
+        },
+        {
+          "human_pretraining_hours": 10000,
+          "reported_percent_of_task_ceiling": 28.0
+        },
+        {
+          "human_pretraining_hours": 100000,
+          "reported_percent_of_task_ceiling": 45.0
+        },
+        {
+          "human_pretraining_hours": 1000000,
+          "reported_percent_of_task_ceiling": 53.0
+        }
+      ],
+      "whole_job_success_probability": null,
+      "whole_job_success_probability_missing_reason": "Mixed normalized task metrics do not identify complete-job probability."
+    },
+    "napkin_service": {
+      "arithmetic_accepted_per_hour": 88.35,
+      "arithmetic_accepted_per_window": 1590.3,
+      "break_even_quality_percent_at_stated_rate": 87.71929824561404,
+      "conditional_additional_time_loss_budget_hours": 1.0220713073005094,
+      "conditional_effective_hours_required": 16.97792869269949,
+      "conditional_minimum_effective_time_fraction": 0.9432182607055273,
+      "evidence_ids": [
+        "K-E039"
+      ],
+      "financial_roi": null,
+      "financial_roi_missing_reason": "Contract price, human/support/maintenance costs, counterfactual cash savings and timing are unavailable.",
+      "observed_uptime": null,
+      "observed_uptime_missing_reason": "The quoted hourly-rate basis and complete exposure denominator are not disclosed.",
+      "paid_labor_removed": null,
+      "paid_labor_removed_missing_reason": "Accepted folding output does not establish paid staffing avoided.",
+      "reported_accepted_napkins": 1590.0,
+      "reported_folds_per_hour": 95.0,
+      "reported_quality_percent": 93.0,
+      "reported_window_hours": 18.0,
+      "required_accepted_napkins": 1500.0,
+      "surplus_as_percent_of_required_output": 6.02,
+      "surplus_over_required_napkins": 90.3,
+      "time_sensitivity_condition": "Only if the quoted hourly rate measures active folding time, a further effective-time loss budget can be calculated. It is not observed uptime.",
+      "time_sensitivity_is_observed_uptime": false
+    },
+    "scenario_inputs_used": false,
+    "status": "bounded_source_arithmetic_not_financial_roi"
+  },
   "model_benchmark_ranking_available": false,
   "operating_quantity_boundary": "ARR, recognized revenue and paying-customer count retain their separate denominators; no combined revenue or margin is calculated.",
   "regional_source_checks": {
@@ -172,7 +303,7 @@
     "status": "bounded_source_arithmetic_not_runtime_validation"
   },
   "scenario_inputs_used": false,
-  "schema_version": "frontier-model-summary/1.1",
+  "schema_version": "frontier-model-summary/1.2",
   "skild_issuer_reported_quantities": [
     {
       "bound": 100000000,
@@ -237,11 +368,20 @@
         "K-E030"
       ],
       "status": "unresolved_in_inspected_v2"
+    },
+    {
+      "conflict_id": "K-C-MONSTER-HOURS",
+      "corrected_empirical_effect_available": false,
+      "details": "The supplier case alternates garments/towels and thousands/hundreds of released hours. The relative three-month period has no independently established exact dates. No paid-labor savings or ROI is reconstructed.",
+      "evidence_ids": [
+        "K-E041"
+      ],
+      "status": "unresolved_source_population_and_savings"
     }
   ],
   "source_hashes": {
-    "data/frontier_model_economics.json": "a5a624353d24c6bda6326efe4a96f4bfc2bcbfc1853a4d8d56feacea620d96f6",
-    "model/frontier_models.py": "485f2ffa4f5bed2bc2a6505e5f46b85fa9130d57ddd2dcbfffe45e13f0a1ab77"
+    "data/frontier_model_economics.json": "8a5d0291363a8d98a4daf5273ecdc7e4c5e575e4368e454f431aedb78616704c",
+    "model/frontier_models.py": "c5d7c3a81ce7a482add2759f380c0ed2db9d5c49b948ca4f921fd88e1574c5c2"
   },
   "status": "bounded_source_synthesis_not_company_valuation",
   "transaction": {

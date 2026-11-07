@@ -102,7 +102,7 @@ def frontier_model_summary(root=ROOT, packet=None):
     packet = packet if packet is not None else json.loads((root/PACKAGE).read_text())
     validate_packet(packet, root)
     operating = next(e for e in packet["evidence"] if e["evidence_id"] == "K-E005")
-    return {"schema_version": "frontier-model-summary/1.1", "as_of": packet["as_of"],
+    return {"schema_version": "frontier-model-summary/1.2", "as_of": packet["as_of"],
             "status": "bounded_source_synthesis_not_company_valuation",
             "scenario_inputs_used": False, "coverage": copy.deepcopy(packet["coverage"]),
             "transaction": acquisition_reconciliation(packet),
@@ -110,6 +110,7 @@ def frontier_model_summary(root=ROOT, packet=None):
             "operating_quantity_boundary": "ARR, recognized revenue and paying-customer count retain their separate denominators; no combined revenue or margin is calculated.",
             "source_conflicts": copy.deepcopy(packet["source_conflicts"]),
             "regional_source_checks": regional_source_arithmetic(packet),
+            "deployment_source_checks": deployment_source_arithmetic(packet),
             "deployment_cards": copy.deepcopy(packet.get("deployment_cards",[])),
             "architecture_costs_available": False,
             "model_benchmark_ranking_available": False,
@@ -219,3 +220,85 @@ def regional_source_arithmetic(packet):
                            'scope':'Verified in direct HTML and visually in arXiv v2 PDF page 53. Conditional reconstruction is not corrected measured performance.',
                            'evidence_ids':['K-E030']},
             'cross_model_ranking_available':False}
+
+
+def deployment_source_arithmetic(packet):
+    """Reconcile one reported service target, without manufacturing financial ROI."""
+    contract = packet.get('deployment_source_checks')
+    if contract is None:
+        return {'status': 'not_available_in_this_packet'}
+    if (contract['financial_roi_established'] or contract['paid_labor_removal_established']
+            or contract['hourly_rate_time_basis'] != 'unspecified_in_source'
+            or not contract['no_additional_uptime_factor_applied']):
+        raise ValueError('Unobserved financial, labor and hourly-time boundaries must remain unresolved')
+    cards = {c['benchmark_id']: c for c in packet['benchmark_cards']}
+    for key in ('K-B-DYNA-ONROBOT', 'K-B-DYNA-LANGUAGE'):
+        if cards[key]['whole_task_success_established'] or cards[key]['commercial_service_calibration']:
+            raise ValueError('Mixed or partial-credit metrics cannot become completed commercial service')
+    if cards['K-B-DYNA-LANGUAGE']['outcome_weights'] != {'complete': 1, 'correct_attempt_incomplete': 0.5, 'wrong': 0}:
+        raise ValueError('Preserve the partial-credit scoring rule')
+    quantities = _source_quantities(packet)
+    claim = next(e for e in packet['evidence'] if e['evidence_id'] == contract['napkin_evidence_id'])
+    claim_ids = {q['quantity_id'] for q in claim['quantities']}
+
+    def number(key, unit, positive=False):
+        row = quantities[key]
+        if row['unit'] != unit:
+            raise ValueError('Source quantity unit mismatch: ' + key)
+        value = row['value']
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            raise ValueError('Unknown source quantity is not zero: ' + key)
+        value = Decimal(str(value))
+        if not value.is_finite() or value < 0 or (positive and value == 0):
+            raise ValueError('Invalid source number')
+        return value
+
+    prefix = contract['quantity_prefix']
+    required = {'RATE': 'reported folds per hour', 'QUALITY': 'percent accepted folds',
+                'HOURS': 'hours per service window', 'TARGET': 'accepted napkins per service window',
+                'OUTPUT': 'accepted napkins per service window'}
+    if not {prefix + k for k in required}.issubset(claim_ids):
+        raise ValueError('Service arithmetic must use quantities from the same source claim')
+    rows = [quantities[prefix + k] for k in required]
+    if len({(q['population'], q['period']) for q in rows}) != 1:
+        raise ValueError('Service arithmetic requires matched population and observation period')
+    values = {k: number(prefix + k, unit, True) for k, unit in required.items()}
+    if values['QUALITY'] > 100:
+        raise ValueError('Invalid accepted-quality percent')
+    accepted_hour = values['RATE'] * values['QUALITY'] / 100
+    output = accepted_hour * values['HOURS']
+    if abs(output - values['OUTPUT']) > Decimal('0.5'):
+        raise ValueError('Reported service output does not reconcile within whole-unit rounding')
+    required_hours = values['TARGET'] / accepted_hour
+    spare_hours = values['HOURS'] - required_hours
+    rungs = [{'human_pretraining_hours': int(number('K-Q-DYNA-HOURS-'+str(n), 'hours of human pretraining data', True)),
+              'reported_percent_of_task_ceiling': float(number('K-Q-DYNA-NORMALIZED-'+str(n), 'percent of task-specific ceiling'))}
+             for n in (1000, 10000, 100000, 1000000)]
+    language = [{'variant': key.lower(), 'reported_partial_credit_percent': float(number('K-Q-DYNA-LANG-'+key, 'percent partial-credit score'))}
+                for key in ('ACTION', 'EARLY-VIDEO', 'FULL-VIDEO')]
+    if any(r['reported_percent_of_task_ceiling'] > 100 for r in rungs) or any(r['reported_partial_credit_percent'] > 100 for r in language):
+        raise ValueError('Invalid task score percent')
+    return {'status': 'bounded_source_arithmetic_not_financial_roi', 'scenario_inputs_used': False,
+            'napkin_service': {'reported_folds_per_hour': float(values['RATE']),
+                'reported_quality_percent': float(values['QUALITY']), 'reported_window_hours': float(values['HOURS']),
+                'required_accepted_napkins': float(values['TARGET']), 'reported_accepted_napkins': float(values['OUTPUT']),
+                'arithmetic_accepted_per_hour': float(accepted_hour), 'arithmetic_accepted_per_window': float(output),
+                'surplus_over_required_napkins': float(output-values['TARGET']),
+                'surplus_as_percent_of_required_output': float((output/values['TARGET']-1)*100),
+                'break_even_quality_percent_at_stated_rate': float(values['TARGET']/(values['RATE']*values['HOURS'])*100),
+                'conditional_effective_hours_required': float(required_hours),
+                'conditional_additional_time_loss_budget_hours': float(spare_hours),
+                'conditional_minimum_effective_time_fraction': float(required_hours/values['HOURS']),
+                'time_sensitivity_is_observed_uptime': False,
+                'time_sensitivity_condition': contract['sensitivity_time_basis'],
+                'observed_uptime': None, 'observed_uptime_missing_reason': 'The quoted hourly-rate basis and complete exposure denominator are not disclosed.',
+                'financial_roi': None, 'financial_roi_missing_reason': 'Contract price, human/support/maintenance costs, counterfactual cash savings and timing are unavailable.',
+                'paid_labor_removed': None, 'paid_labor_removed_missing_reason': 'Accepted folding output does not establish paid staffing avoided.',
+                'evidence_ids': [contract['napkin_evidence_id']]},
+            'dyna_scaling': {'rungs': rungs, 'metric': 'mean of heterogeneous task-ceiling fractions after robot post-training',
+                'whole_job_success_probability': None, 'whole_job_success_probability_missing_reason': 'Mixed normalized task metrics do not identify complete-job probability.',
+                'compute_or_model_size_exponent_estimated': False, 'evidence_ids': ['K-E034', 'K-E035']},
+            'dyna_language': {'variants': language, 'complete_task_percent': None,
+                'complete_task_percent_missing_reason': 'Half-credit attempts cannot be separated from full completions using the aggregate score.',
+                'evidence_ids': ['K-E037']},
+            'cross_model_ranking_available': False}

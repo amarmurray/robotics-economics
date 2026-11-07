@@ -1,7 +1,7 @@
 {
-  "schema_version": "frontier-model-economics/0.2",
-  "as_of": "2026-10-26",
-  "status": "bounded_regional_source_synthesis",
+  "schema_version": "frontier-model-economics/0.3",
+  "as_of": "2026-11-07",
+  "status": "bounded_post_window_continuation",
   "evidence": [
     {
       "evidence_id": "K-E001",
@@ -1182,6 +1182,694 @@
           "epistemic_status": "published_value_with_unresolved_arithmetic_conflict"
         }
       ]
+    },
+    {
+      "evidence_id": "K-E031",
+      "title": "GEN-1.5 adaptation regimes and short-task results",
+      "claim": "Generalist reports in-context demonstration prompting without gradient updates and a separate ten-step fine-tuning regime. Their averages concern ten simple, short tasks. Sensorimotor prompts include actions; the general one-shot result is not a claim that arbitrary uninstrumented video suffices. The reported 100 Hz concerns action trajectories, not a measured end-to-end inference deadline.",
+      "urls": [
+        "https://generalistai.com/blog/gen-1.5"
+      ],
+      "publisher": "Generalist",
+      "publication_date": "2026-08-19",
+      "observation_period": "19 August 2026 research report",
+      "retrieved_at": "2026-11-07",
+      "locator": "Introducing GEN-1.5; One-Shot Learning In-Context; Few Gradient Step Adaptation",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_research_protocol",
+      "limitations": "Trial-level logs, exact per-task trial denominators, the population underlying the reported standard deviations, inference hardware/cost and full deployment workload are not established. Tasks were not deliberately engineered into pretraining, but this is not an exhaustive audit of training overlap. Demonstration collection, selection, validation and support remain work.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-GEN15-TASKS",
+          "value": 10,
+          "unit": "tasks",
+          "denominator": "short-task evaluation set",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-ICL",
+          "value": 59,
+          "unit": "percent task success",
+          "denominator": "issuer average across ten short tasks",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-ICL-SD",
+          "value": 10,
+          "unit": "percentage points reported standard deviation",
+          "denominator": "population of deviation not specified in inspected prose",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-FT",
+          "value": 83,
+          "unit": "percent task success",
+          "denominator": "issuer average after ten gradient updates on five minutes per task",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-FT-SD",
+          "value": 9,
+          "unit": "percentage points reported standard deviation",
+          "denominator": "population of deviation not specified in inspected prose",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-STEPS",
+          "value": 10,
+          "unit": "gradient steps",
+          "denominator": "per task in the reported adaptation regime",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-DEMO-MINUTES",
+          "value": 5,
+          "unit": "minutes of demonstration data",
+          "denominator": "per task in the ten-step regime",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-CONTEXT",
+          "value": 30,
+          "unit": "seconds of context",
+          "denominator": "model memory window, not inference latency",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-GEN15-ACTION-HZ",
+          "value": 100,
+          "unit": "action trajectory samples per second",
+          "denominator": "trajectory output frequency, not measured inference calls per second",
+          "population": "GEN-1.5 issuer short-horizon manipulation evaluation",
+          "period": "19 August 2026 research report",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E032",
+      "title": "GEN-1 system claims are a different evaluation regime",
+      "claim": "Generalist describes GEN-1 as a system with post-training, experience-based learning and inference harness components. Its selected mastery demonstrations and limited fold-contact timing are different experiments from GEN-1.5 low-data adaptation. Generalist explicitly says some attempted tasks do not reach its desired performance.",
+      "urls": [
+        "https://generalistai.com/blog/gen-1"
+      ],
+      "publisher": "Generalist",
+      "publication_date": "2026-04-02",
+      "observation_period": "GEN-1 selected task demonstrations",
+      "retrieved_at": "2026-11-07",
+      "locator": "Introducing GEN-1; Reliability; Speed figure 4; Limitations",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_system_and_selection_boundary",
+      "limitations": "No comparison here treats different model generations, selected tasks, adaptation budgets or timing boundaries as one controlled improvement experiment. The commercial-viability description is the issuer interpretation, not a matched customer cost study.",
+      "quantities": []
+    },
+    {
+      "evidence_id": "K-E033",
+      "title": "Generalist publicly advertises a GEN-1.5 waitlist",
+      "claim": "The inspected Generalist homepage links to a GEN-1.5 access waitlist. That invitation is not an executed service agreement, an available downloadable checkpoint or evidence of customer production.",
+      "urls": [
+        "https://generalistai.com/",
+        "https://generalistai.com/waitlist"
+      ],
+      "publisher": "Generalist",
+      "publication_date": null,
+      "observation_period": "Public pages inspected 7 November 2026",
+      "retrieved_at": "2026-11-07",
+      "locator": "Homepage Recent Highlights; Waitlist heading",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "inspected_public_access_route",
+      "limitations": "No submission was made. Exact checkpoint, effective public weight grant, price, availability, SLA, fine-tune/data reuse rights and operating customers are not established from these pages. This is a bounded inspected-source gap, not proof that private access does not exist.",
+      "quantities": [],
+      "publication_date_missing_reason": "No precise publication date is displayed on the inspected page; retrieval date is not publication date."
+    },
+    {
+      "evidence_id": "K-E034",
+      "title": "Dyna-2 data scaling and offline transfer boundary",
+      "claim": "Dyna describes nested human-data budgets with fixed source proportions, a separate human validation set and late-checkpoint averaging. Offline transfer uses previously unseen robot recordings from internal and external YAM task sets. Data quantity is varied; compute and model-size scaling are explicitly left for later work. Human hand poses provide pseudo-action supervision, so the pipeline is more than acquiring generic video.",
+      "urls": [
+        "https://www.dyna.co/dyna-2"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "August 2026 technical report, section 3",
+      "retrieved_at": "2026-11-07",
+      "locator": "Section 3: datasets, metrics and human-to-robot transfer; figures 5-7",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_controlled_data_scale_study",
+      "limitations": "MSE/L1 and thresholded normalized-action accuracy are prediction metrics, not productive robot output or an industry-wide scaling exponent. Source proportions do not guarantee unchanged semantic coverage. No raw training data, weights, run manifests or total compute costs were independently audited.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA-HOURS-1000",
+          "value": 1000,
+          "unit": "hours of human pretraining data",
+          "denominator": "nested budget with fixed source proportions",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-HOURS-10000",
+          "value": 10000,
+          "unit": "hours of human pretraining data",
+          "denominator": "nested budget with fixed source proportions",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-HOURS-100000",
+          "value": 100000,
+          "unit": "hours of human pretraining data",
+          "denominator": "nested budget with fixed source proportions",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-HOURS-1000000",
+          "value": 1000000,
+          "unit": "hours of human pretraining data",
+          "denominator": "nested budget with fixed source proportions",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-HUMAN-VALIDATION",
+          "value": 100,
+          "unit": "hours of held-out human data",
+          "denominator": "fixed human validation set",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-OFFLINE-TASKS",
+          "value": 39,
+          "unit": "robot tasks",
+          "denominator": "12 internal and 27 external task sets; not robot fleet size",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-LATE-CHECKPOINTS",
+          "value": 10,
+          "unit": "checkpoints",
+          "denominator": "late-step averaging in the offline study; not independent training seeds",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E035",
+      "title": "Dyna-2 on-robot scaling uses mixed task ceilings",
+      "claim": "Four human-pretraining budgets are post-trained on the same robot task datasets and assessed across fourteen tasks. The aggregate rises from 20 to 28 to 45 to 53 percent of task-specific ceilings; the tasks include binary outcomes and object-count progress. The report says the largest budget is best on nine tasks, not every task. Production models use a different recipe from these scaling variants.",
+      "urls": [
+        "https://www.dyna.co/dyna-2"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "August 2026 on-robot scale-ladder experiment",
+      "retrieved_at": "2026-11-07",
+      "locator": "Section 3 on-robot performance; figure 8; section 4 opening",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_mixed_metric_robot_evaluation",
+      "limitations": "This aggregate is not a complete-job success probability. There is robot post-training, so human-only pretraining does not mean zero robot data at deployment. Blind scoring is described as evaluators uninvolved in model development, not an external audit. Small trial counts and missing raw logs limit uncertainty analysis.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA-ONROBOT-TASKS",
+          "value": 14,
+          "unit": "tasks",
+          "denominator": "same post-training task set at each budget",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-ROBOT-DATA-MAX",
+          "value": 10,
+          "unit": "hours of robot demonstrations per task",
+          "denominator": "upper bound per task, not equal data use across tasks",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported",
+          "bound": "upper"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-TRIALS",
+          "value": 10,
+          "unit": "trials per task per budget",
+          "denominator": "13 non-language tasks",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-LANGUAGE-TRIALS",
+          "value": 12,
+          "unit": "trials per task per budget",
+          "denominator": "one targeted-drink task",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-NORMALIZED-1000",
+          "value": 20,
+          "unit": "percent of task-specific ceiling",
+          "denominator": "mean of fourteen normalized task metrics",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-NORMALIZED-10000",
+          "value": 28,
+          "unit": "percent of task-specific ceiling",
+          "denominator": "mean of fourteen normalized task metrics",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-NORMALIZED-100000",
+          "value": 45,
+          "unit": "percent of task-specific ceiling",
+          "denominator": "mean of fourteen normalized task metrics",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-NORMALIZED-1000000",
+          "value": 53,
+          "unit": "percent of task-specific ceiling",
+          "denominator": "mean of fourteen normalized task metrics",
+          "population": "Dyna-2 controlled data-scale study",
+          "period": "August 2026 technical report, section 3",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E036",
+      "title": "Dyna-2 production-site comparison has an undisclosed denominator",
+      "claim": "Dyna reports that task-post-trained models at unseen customer sites differ under production acceptance criteria: Dyna-1 at 46 percent and Dyna-2 at 87 percent. It describes matched task data and post-training steps and grading by operators outside model development.",
+      "urls": [
+        "https://www.dyna.co/dyna-2"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "Production-model comparison described in August 2026",
+      "retrieved_at": "2026-11-07",
+      "locator": "Section 4 Zero-shot real-world deployment; figure 14",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_customer_site_comparison",
+      "limitations": "Site/task counts, trial or exposure denominators, weighting, exact checkpoints and signed customer acceptance records are not provided. The percentage cannot be an independent audit, fleet uptime or a task-general success probability. Zero-shot refers to held-out sites after task post-training.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA-SITE-OLD",
+          "value": 46,
+          "unit": "percent production pass criteria",
+          "denominator": "undisclosed site/episode aggregation",
+          "population": "Dyna-1 at held-out customer sites",
+          "period": "August 2026 section 4",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-SITE-NEW",
+          "value": 87,
+          "unit": "percent production pass criteria",
+          "denominator": "undisclosed site/episode aggregation",
+          "population": "Dyna-2 at held-out customer sites",
+          "period": "August 2026 section 4",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-SITE-N",
+          "value": null,
+          "unit": "evaluated production observations",
+          "denominator": "raw customer-site denominator",
+          "population": "Dyna site comparison",
+          "period": "August 2026 section 4",
+          "epistemic_status": "issuer_reported",
+          "value_missing_reason": "Exact denominator and aggregation are not disclosed in the inspected report."
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E037",
+      "title": "Dyna-2 language following awards partial credit",
+      "claim": "Dyna reports language-following scores of 35, 67 and 96 percent for early action-only, early video-co-trained and full-data video-co-trained variants. A correct commanded primitive attempted unsuccessfully receives half credit. The largest score therefore is not a full-completion percentage.",
+      "urls": [
+        "https://www.dyna.co/dyna-2"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "August 2026 language-following ablation",
+      "retrieved_at": "2026-11-07",
+      "locator": "Section 4 Instruction following; figure 15 scoring caption",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_partial_credit_metric",
+      "limitations": "Language grounding, attempted action and completed physical service remain distinct. These post-trained variants and their task suite are not the scaling-study models or the restaurant throughput measure.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA-LANG-ACTION",
+          "value": 35,
+          "unit": "percent partial-credit score",
+          "denominator": "full completion 1; correct primitive attempted but incomplete 0.5; wrong primitive 0",
+          "population": "Dyna language-following ablation",
+          "period": "August 2026 figure 15",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-LANG-EARLY-VIDEO",
+          "value": 67,
+          "unit": "percent partial-credit score",
+          "denominator": "full completion 1; correct primitive attempted but incomplete 0.5; wrong primitive 0",
+          "population": "Dyna language-following ablation",
+          "period": "August 2026 figure 15",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-LANG-FULL-VIDEO",
+          "value": 96,
+          "unit": "percent partial-credit score",
+          "denominator": "full completion 1; correct primitive attempted but incomplete 0.5; wrong primitive 0",
+          "population": "Dyna language-following ablation",
+          "period": "August 2026 figure 15",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E038",
+      "title": "Dyna-1 long-run completion and production quality differ",
+      "claim": "The June Dyna-1 account reports more than 850 autonomous folds in a 24-hour run and 99.4 percent task success. It separately gives 75 percent at its strict production quality threshold. It also describes lower quality and throughput at unseen sites before site-specific training.",
+      "urls": [
+        "https://www.dyna.co/research/dyna-1"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2025-06",
+      "observation_period": "June 2025 report of a sustained napkin experiment",
+      "retrieved_at": "2026-11-07",
+      "locator": "Overview; Continual Improvement, Robustness, and Quality; Environment Generalization",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_long_run_and_quality",
+      "limitations": "The report does not establish a full paid-work, replenishment, human-review or maintenance ledger. Different denominators and source rounding prevent multiplying all headline percentages as independent filters. A single continuous run does not establish months of availability.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA1-RUN-HOURS",
+          "value": 24,
+          "unit": "hours",
+          "denominator": "reported continuous run",
+          "population": "Dyna-1 napkin experiment",
+          "period": "June 2025",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA1-FOLDS-MIN",
+          "value": 850,
+          "unit": "folds",
+          "denominator": "reported run; source says more than this value",
+          "population": "Dyna-1 napkin experiment",
+          "period": "June 2025",
+          "epistemic_status": "issuer_reported",
+          "bound": "strict_lower"
+        },
+        {
+          "quantity_id": "K-Q-DYNA1-COMPLETION",
+          "value": 99.4,
+          "unit": "percent task success",
+          "denominator": "task-success definition in sustained run",
+          "population": "Dyna-1 napkin experiment",
+          "period": "June 2025",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA1-QUALITY",
+          "value": 75,
+          "unit": "percent production quality",
+          "denominator": "folds meeting grade 4 or 5, not mere completion",
+          "population": "Dyna-1 napkin evaluation",
+          "period": "June 2025",
+          "epistemic_status": "issuer_reported"
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E039",
+      "title": "Dyna restaurant output clears a stated service target",
+      "claim": "Dyna reports a requirement of 1,500 table-ready napkins in an eighteen-hour shift, with Dyna-2 folding 95 per hour at 93 percent quality and delivering about 1,590 acceptable napkins. The prior rate and quality are described approximately. Dyna announces a restaurant-network rollout and a future fleet in the hundreds, rather than disclosing a current installed count.",
+      "urls": [
+        "https://www.dyna.co/research/scaling-customer-deployments"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "August 2026 rollout account",
+      "retrieved_at": "2026-11-07",
+      "locator": "Sections 1 and 3.1; figures 1-2; closing rollout claims",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_output_and_forward_rollout",
+      "limitations": "The hourly-rate time basis, observation exposure, raw quality records, current robot/site count, subscription price and support/payroll costs are undisclosed. The source calls the result an ROI threshold but does not supply a cash-flow denominator. Its projected first-half-2027 fleet is not current capacity.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-DYNA-DTF-RATE",
+          "value": 95,
+          "unit": "reported folds per hour",
+          "denominator": "source hourly basis unspecified; do not add an uptime factor without checking overlap",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-QUALITY",
+          "value": 93,
+          "unit": "percent accepted folds",
+          "denominator": "folds meeting the stated restaurant quality bar",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-HOURS",
+          "value": 18,
+          "unit": "hours per service window",
+          "denominator": "stated restaurant shift",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-TARGET",
+          "value": 1500,
+          "unit": "accepted napkins per service window",
+          "denominator": "customer-required table-ready output",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-OUTPUT",
+          "value": 1590,
+          "unit": "accepted napkins per service window",
+          "denominator": "issuer rounded daily output",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-OLD-RATE",
+          "value": 35,
+          "unit": "reported folds per hour",
+          "denominator": "issuer approximate earlier rate",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-OLD-QUALITY",
+          "value": 75,
+          "unit": "percent accepted folds",
+          "denominator": "issuer approximate earlier quality",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-OLD-OUTPUT",
+          "value": 480,
+          "unit": "accepted napkins per service window",
+          "denominator": "issuer approximate earlier output, not an exact arithmetic identity",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-DYNA-DTF-PRICE",
+          "value": null,
+          "unit": "USD per robot per month",
+          "denominator": "negotiated model/robot/service contract",
+          "population": "Dyna-reported Din Tai Fung napkin station",
+          "period": "August 2026 rollout account",
+          "epistemic_status": "issuer_reported",
+          "value_missing_reason": "No contract price is disclosed in the inspected primary account."
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E040",
+      "title": "Dyna deployment learning includes human and hardware work",
+      "claim": "Dyna describes local durable recording with asynchronous verified uploads, automatic SOP-step labels, selective human review and calibration/degradation checks. A napkin-station slowdown is attributed to worn gripper hardware rather than a policy regression. Precise stacking and staff collection are part of the workflow beyond folding.",
+      "urls": [
+        "https://www.dyna.co/research/scaling-customer-deployments"
+      ],
+      "publisher": "Dyna Robotics",
+      "publication_date": "2026-08",
+      "observation_period": "August 2026 rollout account",
+      "retrieved_at": "2026-11-07",
+      "locator": "Sections 3.2, 4.1, 4.2 and 5",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "issuer_reported_operating_architecture",
+      "limitations": "No human-review cost, label-error rate, service response obligation, replacement interval or causal learning return is supplied. Data collection and internal reuse do not establish customer contractual permission. The hardware-degradation figure is explicitly illustrative; its numerical values are not reported. No model-family label supplies an executed configuration.",
+      "quantities": []
+    },
+    {
+      "evidence_id": "K-E041",
+      "title": "Monster Laundry issuer case: capacity and unresolved savings",
+      "claim": "Dyna describes a RaaS deployment at Monster Laundry, staff loading/retrieving work, and increased commercial capacity. Its case says over 200,000 items in three months, with ten customer accounts, 99 percent quality acceptance, 25 percent added commercial order capacity and 15 percent more store traffic. The owner quotation says thousands of hours released, while the body says hundreds; it also alternates garments and towels.",
+      "urls": [
+        "https://www.dyna.co/news/monster-laundry"
+      ],
+      "publisher": "Dyna Robotics with attributed owner quotation",
+      "publication_date": "2025-10",
+      "observation_period": "Relative three-month window not independently dated",
+      "retrieved_at": "2026-11-07",
+      "locator": "Opening owner quote; Solution; Key Impact",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "supplier_case_study_with_customer_attribution",
+      "limitations": "The source displays October 2025; later social promotion is not a new installation date. Item population, time exposure, released-hours denominator and causal comparisons are unresolved. Neither capacity growth nor cumulative items establishes payroll removal, price, margin or payback. The future expansion plan is not installed fleet.",
+      "quantities": [
+        {
+          "quantity_id": "K-Q-MONSTER-ITEMS-MIN",
+          "value": 200000,
+          "unit": "reported cumulative items",
+          "denominator": "source alternates garments and towels; not verified accepted units",
+          "population": "Monster Laundry case",
+          "period": "source-relative three months",
+          "epistemic_status": "issuer_reported",
+          "bound": "strict_lower"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-MONTHS",
+          "value": 3,
+          "unit": "months",
+          "denominator": "relative observation interval with unknown exact dates",
+          "population": "Monster Laundry case",
+          "period": "October 2025 source",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-CUSTOMERS",
+          "value": 10,
+          "unit": "customer accounts",
+          "denominator": "laundry customers served; not Dyna robot clients or robot count",
+          "population": "Monster Laundry case",
+          "period": "source-relative three months",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-QUALITY",
+          "value": 99,
+          "unit": "percent quality acceptance",
+          "denominator": "issuer reported folding metric with undisclosed sample denominator",
+          "population": "Monster Laundry case",
+          "period": "October 2025 source",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-CAPACITY",
+          "value": 25,
+          "unit": "percent increase in commercial order capacity",
+          "denominator": "issuer before/after comparison, not measured all-work productivity",
+          "population": "Monster Laundry case",
+          "period": "October 2025 source",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-TRAFFIC",
+          "value": 15,
+          "unit": "percent increase in store traffic",
+          "denominator": "issuer before/after comparison with undisclosed period/control",
+          "population": "Monster Laundry case",
+          "period": "October 2025 source",
+          "epistemic_status": "issuer_reported"
+        },
+        {
+          "quantity_id": "K-Q-MONSTER-LABOR-SAVING",
+          "value": null,
+          "unit": "paid labor hours removed",
+          "denominator": "payroll change rather than attendant work reassigned",
+          "population": "Monster Laundry case",
+          "period": "October 2025 source",
+          "epistemic_status": "issuer_reported",
+          "value_missing_reason": "Source conflicts between hundreds and thousands of released hours and does not establish paid hours removed."
+        }
+      ]
+    },
+    {
+      "evidence_id": "K-E042",
+      "title": "Monster Laundry operator confirms service and staff roles",
+      "claim": "Monster Laundry names its Dyna folding system Sophy Swiftfold and describes towel, linen and clothing service at its Sacramento facility. The operator presents it as a tool for attendants to spend more time serving customers, rather than evidence of eliminating staff.",
+      "urls": [
+        "https://www.monsterlaundry.com/robotic-folding-laundromat/"
+      ],
+      "publisher": "Monster Laundry",
+      "publication_date": null,
+      "observation_period": "Operator webpage inspected 7 November 2026",
+      "retrieved_at": "2026-11-07",
+      "locator": "Robotic Folding Laundromat page",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "operator_reported_operating_use",
+      "limitations": "The operator page corroborates service identity and intended labor reassignment. It does not independently validate every number in Dyna marketing or disclose the exact checkpoint, hours of support, cash savings, asset title or contract.",
+      "quantities": [],
+      "publication_date_missing_reason": "No precise publication date is displayed on the inspected page; retrieval date is not publication date."
+    },
+    {
+      "evidence_id": "K-E043",
+      "title": "Initial Monster Laundry visit records training and weekday use",
+      "claim": "KCRA directly quotes the owners describing attendant reassignment and a Dyna staff member collecting demonstrations with controllers. It reports weekday robot operation at that visit. This early observation and later autonomy language represent different dates and activity scopes, not a matched reliability comparison.",
+      "urls": [
+        "https://www.kcra.com/article/sacramento-laundromat-introduces-ai-robot/66895939"
+      ],
+      "publisher": "KCRA / DeNeeka Hill",
+      "publication_date": "2025-09-18",
+      "observation_period": "Article displayed 17 September 2025 19:24 PDT, equivalent to 18 September UTC",
+      "retrieved_at": "2026-11-07",
+      "locator": "On-site reporting and owner interviews",
+      "source_class": "primary_publisher_material",
+      "epistemic_status": "reported_site_visit_and_interview",
+      "limitations": "Direct reporting is evidence of the observed stage, not an instrumented support-time study. Do not label every later rollout teleoperated, erase training work from deployment costs, or infer paid staffing cuts. The robot schedule is not the laundromat opening-hours denominator.",
+      "quantities": []
     }
   ],
   "model_labs": [
@@ -1450,6 +2138,78 @@
       ],
       "economic_boundary": "Roles coexist; actor mentions do not add robots, deployments, revenue or data volume.",
       "summary": "CJ identifies a hand-technology cooperation role; exact deployed hand configuration and rights are not established."
+    },
+    {
+      "actor_id": "K-A-GENERALIST",
+      "label": "Generalist",
+      "roles": [
+        "independent_model_developer",
+        "physical_data_and_inference_system_developer"
+      ],
+      "geography": "US-oriented evidence; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E031",
+        "K-E032",
+        "K-E033"
+      ],
+      "economic_boundary": "One role record can coexist with other roles; do not duplicate activity, robots or revenue.",
+      "summary": "Research adaptation and system results; public access waitlist without established commercial terms."
+    },
+    {
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna Robotics",
+      "roles": [
+        "model_developer",
+        "robot_deployment_and_service_provider"
+      ],
+      "geography": "US-oriented evidence; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E034",
+        "K-E035",
+        "K-E036",
+        "K-E037",
+        "K-E038",
+        "K-E039",
+        "K-E040",
+        "K-E041"
+      ],
+      "economic_boundary": "One role record can coexist with other roles; do not duplicate activity, robots or revenue.",
+      "summary": "Model research and customer deployment/support roles coexist; reported production and financial claims retain different evidence boundaries."
+    },
+    {
+      "actor_id": "K-A-MONSTER",
+      "label": "Monster Laundry",
+      "roles": [
+        "laundry_service_operator",
+        "robot_customer"
+      ],
+      "geography": "US-oriented evidence; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "economic_boundary": "One role record can coexist with other roles; do not duplicate activity, robots or revenue.",
+      "summary": "Named operating customer with staff reassignment and service-capacity claims; customer accounts are not robot counts."
+    },
+    {
+      "actor_id": "K-A-DINTAI",
+      "label": "Din Tai Fung",
+      "roles": [
+        "restaurant_operator",
+        "robot_customer_named_by_supplier"
+      ],
+      "geography": "US-oriented evidence; broader footprint not audited",
+      "status": "bounded_primary_source_role_map",
+      "evidence_ids": [
+        "K-E039",
+        "K-E040"
+      ],
+      "economic_boundary": "One role record can coexist with other roles; do not duplicate activity, robots or revenue.",
+      "summary": "Supplier-named restaurant rollout; current installed count and customer financial audit unavailable."
     }
   ],
   "frontier_models": [
@@ -1689,6 +2449,86 @@
       ],
       "relationship_limit": "G1 family reference only. Paper-specific SONIC/hand configuration and the exact VLA checkpoint are not supplied by a generic G1 product record.",
       "model_revision_missing_reason": "Exact evaluated model/checkpoint revision was not identified in the inspected source set."
+    },
+    {
+      "model_id": "K-M-GEN15",
+      "actor_id": "K-A-GENERALIST",
+      "label": "GEN-1.5 research system",
+      "release_or_version": "2026-08-19",
+      "interface": "Sensorimotor context prompting or separate task fine-tuning",
+      "embodiment": "Issuer bimanual manipulation configurations; exact stack unspecified",
+      "model_revision": null,
+      "model_revision_missing_reason": "No exact downloadable/executed checkpoint revision identified in the inspected material.",
+      "status": "reported_system_not_verified_public_checkpoint",
+      "evidence_ids": [
+        "K-E031",
+        "K-E033"
+      ],
+      "summary": "Sensorimotor context prompting or separate task fine-tuning. Issuer bimanual manipulation configurations; exact stack unspecified."
+    },
+    {
+      "model_id": "K-M-GEN1",
+      "actor_id": "K-A-GENERALIST",
+      "label": "GEN-1 selected mastery system",
+      "release_or_version": "2026-04-02",
+      "interface": "Post-training and inference harness with experience-based improvement",
+      "embodiment": "Issuer selected short-task systems; not the GEN-1.5 low-data protocol",
+      "model_revision": null,
+      "model_revision_missing_reason": "No exact downloadable/executed checkpoint revision identified in the inspected material.",
+      "status": "reported_system_not_verified_public_checkpoint",
+      "evidence_ids": [
+        "K-E032"
+      ],
+      "summary": "Post-training and inference harness with experience-based improvement. Issuer selected short-task systems; not the GEN-1.5 low-data protocol."
+    },
+    {
+      "model_id": "K-M-DYNA1",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna-1 reported policy system",
+      "release_or_version": "2025-06",
+      "interface": "Task-trained manipulation policy with site adaptation",
+      "embodiment": "Reported bimanual napkin/laundry setups; exact production revision unprovided",
+      "model_revision": null,
+      "model_revision_missing_reason": "No exact downloadable/executed checkpoint revision identified in the inspected material.",
+      "status": "reported_system_not_verified_public_checkpoint",
+      "evidence_ids": [
+        "K-E038"
+      ],
+      "summary": "Task-trained manipulation policy with site adaptation. Reported bimanual napkin/laundry setups; exact production revision unprovided."
+    },
+    {
+      "model_id": "K-M-DYNA2-SCALE",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna-2 controlled scaling variants",
+      "release_or_version": "2026-08",
+      "interface": "Video/action co-training followed by controlled robot task post-training",
+      "embodiment": "YAM parallel grippers, WUJI-2 hands and early semi-humanoid prototype",
+      "model_revision": null,
+      "model_revision_missing_reason": "No exact downloadable/executed checkpoint revision identified in the inspected material.",
+      "status": "reported_system_not_verified_public_checkpoint",
+      "evidence_ids": [
+        "K-E034",
+        "K-E035"
+      ],
+      "summary": "Video/action co-training followed by controlled robot task post-training. YAM parallel grippers, WUJI-2 hands and early semi-humanoid prototype."
+    },
+    {
+      "model_id": "K-M-DYNA2-PROD",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna-2 production-recipe variants",
+      "release_or_version": "2026-08",
+      "interface": "Different production recipe, task adaptation, language and operating tooling",
+      "embodiment": "Issuer production and customer-site setups; exact executed revisions unprovided",
+      "model_revision": null,
+      "model_revision_missing_reason": "No exact downloadable/executed checkpoint revision identified in the inspected material.",
+      "status": "reported_system_not_verified_public_checkpoint",
+      "evidence_ids": [
+        "K-E036",
+        "K-E037",
+        "K-E039",
+        "K-E040"
+      ],
+      "summary": "Different production recipe, task adaptation, language and operating tooling. Issuer production and customer-site setups; exact executed revisions unprovided."
     }
   ],
   "model_rights_cards": [
@@ -2047,6 +2887,65 @@
         "K-E027",
         "K-E028"
       ]
+    },
+    {
+      "artifact_id": "K-R-GEN15-ACCESS",
+      "actor_id": "K-A-GENERALIST",
+      "label": "GEN-1.5 waitlist and model terms",
+      "openness_layer": "model_access_and_deployment",
+      "license": "Not established in inspected public sources",
+      "public_grant": "not_identified",
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "status": "unknown",
+      "limitations": "A waitlist is not granted access, an executed license, a public weight release or a production SLA.",
+      "model_ids": [
+        "K-M-GEN15"
+      ],
+      "evidence_ids": [
+        "K-E033"
+      ]
+    },
+    {
+      "artifact_id": "K-R-DYNA-MODELS",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna model/checkpoint and data terms",
+      "openness_layer": "model_weights_training_data_and_customer_feedback",
+      "license": "Not established in inspected public sources",
+      "public_grant": "not_identified",
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "status": "unknown",
+      "limitations": "Technical descriptions and possession of field data do not establish downstream model or customer-data reuse rights.",
+      "model_ids": [
+        "K-M-DYNA1",
+        "K-M-DYNA2-SCALE",
+        "K-M-DYNA2-PROD"
+      ],
+      "evidence_ids": [
+        "K-E034",
+        "K-E038",
+        "K-E040"
+      ]
+    },
+    {
+      "artifact_id": "K-R-DYNA-RAAS",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna customer RaaS and operating obligations",
+      "openness_layer": "robot_service_contract_and_asset_title",
+      "license": "Not established in inspected public sources",
+      "public_grant": "not_identified",
+      "rights_status": "unknown",
+      "commercial_use_resolved": false,
+      "status": "unknown",
+      "limitations": "A vendor-described RaaS route does not disclose price, legal title, service response, term, cancellation or the exact model used at Monster Laundry.",
+      "model_ids": [],
+      "evidence_ids": [
+        "K-E039",
+        "K-E040",
+        "K-E041",
+        "K-E042"
+      ]
     }
   ],
   "dossiers": [
@@ -2217,6 +3116,53 @@
         "K-E029"
       ],
       "summary": "Economic hypothesis: A general embodied base can contribute to downstream robotics R&D; policy fine-tuning, control adapters and hardware qualification remain separate productive inputs. Evidence boundary: Public base/code identities and the paper-specific real-robot protocol/control stack are distinguished, with final success and process metrics kept separate."
+    },
+    {
+      "dossier_id": "K-D-GENERALIST",
+      "actor_id": "K-A-GENERALIST",
+      "label": "Generalist: adaptation speed versus service qualification",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "Reusable physical prompts and modest task adaptation could lower task setup work, conditional on reaching the required quality and supporting the full workflow.",
+      "established_scope": "Short-task prompting/fine-tuning regimes and a separate mastery system are distinguished; a public waitlist is verified.",
+      "remaining_unknowns": [
+        "Exact trial logs and trained-data overlap",
+        "Embedded or hosted system configuration and full inference cost",
+        "Access, model/data rights and support agreements",
+        "Customer accepted output and total adaptation/qualification labor"
+      ],
+      "evidence_ids": [
+        "K-E031",
+        "K-E032",
+        "K-E033"
+      ],
+      "summary": "Reusable physical prompts and modest task adaptation could lower task setup work, conditional on reaching the required quality and supporting the full workflow. Short-task prompting/fine-tuning regimes and a separate mastery system are distinguished; a public waitlist is verified."
+    },
+    {
+      "dossier_id": "K-D-DYNA",
+      "actor_id": "K-A-DYNA",
+      "label": "Dyna: model-led deployment and recurring operating work",
+      "status": "bounded_source_synthesis",
+      "economic_hypothesis": "A provider can improve deployment repeatability through shared models, recording/labeling systems and maintenance knowledge; the value and capture depend on contracts and full recurring work.",
+      "established_scope": "Controlled/offline/physical/production metrics are separate; an operator corroborates laundry use, while restaurant economics remain supplier-reported.",
+      "remaining_unknowns": [
+        "Exact production checkpoints and deployment/site counts",
+        "Customer contracts, price, title, response and data rights",
+        "Human support/quality-review/maintenance time and total cost",
+        "Audited payroll, incremental demand and causal financial returns"
+      ],
+      "evidence_ids": [
+        "K-E034",
+        "K-E035",
+        "K-E036",
+        "K-E037",
+        "K-E038",
+        "K-E039",
+        "K-E040",
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "summary": "A provider can improve deployment repeatability through shared models, recording/labeling systems and maintenance knowledge; the value and capture depend on contracts and full recurring work. Controlled/offline/physical/production metrics are separate; an operator corroborates laundry use, while restaurant economics remain supplier-reported."
     }
   ],
   "architecture_alternatives": [
@@ -2495,6 +3441,86 @@
       "source_quantity_prefix": "K-Q-RLDX-T9-",
       "corrected_empirical_effect_available": false,
       "model_relationship": "Task-specific fine-tunes initialized from the pretrained model for ALLEX grasping; this is not the unchanged public MT-ALLEX checkpoint."
+    },
+    {
+      "benchmark_id": "K-B-GEN15",
+      "label": "GEN-1.5 adaptation regimes",
+      "model_ids": [
+        "K-M-GEN15"
+      ],
+      "metric_boundary": "Ten short-task success averages with distinct prompt and fine-tune budgets; not full deployment reliability.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "bounded_issuer_protocol",
+      "evidence_ids": [
+        "K-E031"
+      ],
+      "summary": "Ten short-task success averages with distinct prompt and fine-tune budgets; not full deployment reliability."
+    },
+    {
+      "benchmark_id": "K-B-DYNA-OFFLINE",
+      "label": "Dyna-2 offline transfer scaling",
+      "model_ids": [
+        "K-M-DYNA2-SCALE"
+      ],
+      "metric_boundary": "Normalized-action prediction errors/threshold accuracy on held-out recordings, not on-robot service.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "bounded_issuer_protocol",
+      "evidence_ids": [
+        "K-E034"
+      ],
+      "summary": "Normalized-action prediction errors/threshold accuracy on held-out recordings, not on-robot service."
+    },
+    {
+      "benchmark_id": "K-B-DYNA-ONROBOT",
+      "label": "Dyna-2 on-robot data-scale ladder",
+      "model_ids": [
+        "K-M-DYNA2-SCALE"
+      ],
+      "metric_boundary": "Mean normalized to heterogeneous task ceilings; not complete-job probability.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "bounded_issuer_protocol",
+      "evidence_ids": [
+        "K-E035"
+      ],
+      "summary": "Mean normalized to heterogeneous task ceilings; not complete-job probability."
+    },
+    {
+      "benchmark_id": "K-B-DYNA-LANGUAGE",
+      "label": "Dyna-2 language following",
+      "model_ids": [
+        "K-M-DYNA2-PROD"
+      ],
+      "metric_boundary": "Partial-credit score: full=1, attempted correct primitive but incomplete=0.5, wrong=0.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "bounded_issuer_protocol",
+      "evidence_ids": [
+        "K-E037"
+      ],
+      "summary": "Partial-credit score: full=1, attempted correct primitive but incomplete=0.5, wrong=0.",
+      "outcome_weights": {
+        "complete": 1,
+        "correct_attempt_incomplete": 0.5,
+        "wrong": 0
+      }
+    },
+    {
+      "benchmark_id": "K-B-DYNA1-RUN",
+      "label": "Dyna-1 sustained napkin run",
+      "model_ids": [
+        "K-M-DYNA1"
+      ],
+      "metric_boundary": "Task completion, strict fold quality and service availability are distinct.",
+      "whole_task_success_established": false,
+      "commercial_service_calibration": false,
+      "status": "bounded_issuer_protocol",
+      "evidence_ids": [
+        "K-E038"
+      ],
+      "summary": "Task completion, strict fold quality and service availability are distinct."
     }
   ],
   "relationships": [
@@ -2560,6 +3586,29 @@
         "K-E019"
       ],
       "economic_boundary": "Dedicated data-capture space and partnership discussions are not a disclosed operating-service SLA or current productive robot count."
+    },
+    {
+      "relationship_id": "K-REL-DYNA-MONSTER",
+      "from_actor_id": "K-A-DYNA",
+      "to_actor_id": "K-A-MONSTER",
+      "type": "reported_model_led_service_relationship",
+      "evidence_ids": [
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "economic_boundary": "One underlying customer relationship across repeated announcements; title, full contract and economics not disclosed."
+    },
+    {
+      "relationship_id": "K-REL-DYNA-DINTAI",
+      "from_actor_id": "K-A-DYNA",
+      "to_actor_id": "K-A-DINTAI",
+      "type": "reported_model_led_service_relationship",
+      "evidence_ids": [
+        "K-E039",
+        "K-E040"
+      ],
+      "economic_boundary": "One underlying customer relationship across repeated announcements; title, full contract and economics not disclosed."
     }
   ],
   "source_revisions": {
@@ -2732,6 +3781,44 @@
         53
       ],
       "scope": "Table 9 source conflict cross-checked against direct HTML; no workload execution."
+    },
+    "generalist_dyna_public_pages": {
+      "generalist_gen15": {
+        "url": "https://generalistai.com/blog/gen-1.5",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "80ca02cc472d17b06dadd597a7e1f38d0b61965323beee6ebeccc22b9a782b53",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      },
+      "generalist_home": {
+        "url": "https://generalistai.com/",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "80df82a1366a613cf5721d4ee606e04f1bf9e4cf07bb203ed026918340e603bf",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      },
+      "dyna2": {
+        "url": "https://www.dyna.co/dyna-2",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "f37e270c7d48de9a9d350a2c99695b53c9388f9ccf54121886850692c73f1a77",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      },
+      "dyna_product": {
+        "url": "https://www.dyna.co/research/scaling-customer-deployments",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "bc04675fee34194e7cd31a5cb6780cd52bedf5e5e51879c78686dc90421f4107",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      },
+      "monster": {
+        "url": "https://www.monsterlaundry.com/robotic-folding-laundromat/",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "4bf0948c67b4b5b42febd78df8d1d7f6abc5a203d2cbdcd8b289a7069cc0b5fc",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      },
+      "monster_case": {
+        "url": "https://www.dyna.co/news/monster-laundry",
+        "retrieved_at": "2026-11-07",
+        "html_sha256": "f411499f4ef7b2b46e6682aad956f55fe6854584caa2208619149a4a617ad1ce",
+        "scope": "Mutable public HTML snapshot; content hash is not an immutable upstream release or executed model identity."
+      }
     }
   },
   "source_conflicts": [
@@ -2762,25 +3849,35 @@
         "K-E030"
       ],
       "corrected_empirical_effect_available": false
+    },
+    {
+      "conflict_id": "K-C-MONSTER-HOURS",
+      "status": "unresolved_source_population_and_savings",
+      "details": "The supplier case alternates garments/towels and thousands/hundreds of released hours. The relative three-month period has no independently established exact dates. No paid-labor savings or ROI is reconstructed.",
+      "evidence_ids": [
+        "K-E041"
+      ],
+      "corrected_empirical_effect_available": false
     }
   ],
   "coverage": {
-    "mapped_actors": 16,
-    "contrasting_dossiers": 8,
-    "rights_cards": 20,
+    "mapped_actors": 20,
+    "contrasting_dossiers": 10,
+    "rights_cards": 23,
     "scenario_coefficients_imported": false,
     "not_exhaustive": true,
     "gaps": [
       "Regional coverage remains selective; continental Europe and additional Asian/US developers need follow-up.",
-      "Generalist and Dyna mechanisms are not yet separately audited here.",
       "Private model pricing, data/fine-tune rights, fleet support, asset title and margins remain unavailable.",
       "Exact evaluated RynnBrain-VLA checkpoint and complete deployed-stack rights remain unestablished.",
       "RLDX Table 9 arithmetic requires source clarification; no corrected measured effect is inferred.",
       "Actual matched architecture costs and qualified customer service remain unknown; the synthetic calculators supply no empirical estimate.",
-      "No robot, model training or GPU/hardware workload was run."
+      "No robot, model training or GPU/hardware workload was run.",
+      "Generalist and Dyna now have bounded source dossiers; exact released/executed policies, adaptation/support costs and customer terms remain incomplete.",
+      "Dyna customer-site pass criteria lack an exposure denominator; Monster cumulative items and savings descriptions cannot resolve paid labor removal."
     ],
-    "model_release_records": 14,
-    "deployment_cards": 2
+    "model_release_records": 19,
+    "deployment_cards": 4
   },
   "external_evidence_registry": {
     "CAP-E021": "data/capability_evidence.json",
@@ -2848,6 +3945,56 @@
       "summary": "Worksite data activity and planned deployment remain separate from current accepted robotic service.",
       "model_attribution_status": "not_established_in_inspected_sources",
       "event_identity": "LOTTE-SKILL-DATA-AND-PLAN-2026-06"
+    },
+    {
+      "deployment_id": "K-DEP-DYNA-MONSTER",
+      "label": "Monster Laundry: operator-confirmed folding service",
+      "operator_actor_id": "K-A-MONSTER",
+      "status": "bounded_operating_use_with_unresolved_economics",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No complete current installed/supported fleet denominator established.",
+      "service_boundary": "Sacramento laundry folding, with attendant loading/retrieval/customer work",
+      "geography": "United States",
+      "model_id": null,
+      "model_attribution_status": "not_established_in_inspected_sources",
+      "event_identity": "DYNA-MONSTER-OPERATING-RELATIONSHIP",
+      "evidence_ids": [
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "summary": "Operating service corroborated by the operator and a dated visit. RaaS and growth figures come from the supplier; paid labor removal and price remain unknown.",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-DYNA",
+          "role": "model, robot deployment and service supplier"
+        }
+      ],
+      "model_id_missing_reason": "Dyna/Sophy branding and general model descriptions do not identify the executed checkpoint."
+    },
+    {
+      "deployment_id": "K-DEP-DYNA-DINTAI",
+      "label": "Din Tai Fung: supplier-reported napkin station and rollout",
+      "operator_actor_id": "K-A-DINTAI",
+      "status": "bounded_operating_use_with_unresolved_economics",
+      "reported_robot_count_quantity_id": null,
+      "reported_robot_count_quantity_id_missing_reason": "No complete current installed/supported fleet denominator established.",
+      "service_boundary": "Restaurant-ready folded and stacked napkins, with downstream staff transport",
+      "geography": "United States",
+      "model_id": "K-M-DYNA2-PROD",
+      "model_attribution_status": "issuer_named_family_exact_checkpoint_unknown",
+      "event_identity": "DYNA-DINTAI-OPERATING-RELATIONSHIP",
+      "evidence_ids": [
+        "K-E039",
+        "K-E040"
+      ],
+      "summary": "Supplier names Dyna-2 and a rollout; source arithmetic clears its stated output target, while current site/fleet count and financial ROI remain unknown.",
+      "named_partner_roles": [
+        {
+          "actor_id": "K-A-DYNA",
+          "role": "model, robot deployment and service supplier"
+        }
+      ]
     }
   ],
   "regional_decision_implications": [
@@ -2911,9 +4058,76 @@
         "K-E021"
       ],
       "permitted_model_use": "Constrain the shared-market evidence checklist; no automatic license, retention, labor-removal or finance assumption."
+    },
+    {
+      "implication_id": "K-CONT-D01",
+      "label": "Adaptation efficiency is only one part of qualification cost",
+      "workstreams": [
+        "B",
+        "D",
+        "G",
+        "H",
+        "K"
+      ],
+      "mechanism": "GEN-1.5 reduces the reported adaptation-data/update requirement on short tasks, while prompt capture, quality qualification and recurring operation remain unpriced. LLM prompting is a mechanism analogy, not measured enterprise productivity.",
+      "evidence_ids": [
+        "K-E031",
+        "K-E032",
+        "K-E033"
+      ],
+      "permitted_model_use": "Specify separate adaptation, qualification and service work; no new scenario coefficient."
+    },
+    {
+      "implication_id": "K-CONT-D02",
+      "label": "Learning and service operations share resources and rights",
+      "workstreams": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K"
+      ],
+      "mechanism": "Dyna describes labels, selective human review and hardware checks feeding deployment and model improvements. Customer quality authority, physical maintenance and data reuse permissions must be tracked separately.",
+      "evidence_ids": [
+        "K-E034",
+        "K-E035",
+        "K-E040"
+      ],
+      "permitted_model_use": "Treat review, recording, data curation and maintenance as competing resources; do not count them twice as free learning and free service."
+    },
+    {
+      "implication_id": "K-CONT-D03",
+      "label": "Customer capacity and cash savings have different evidence needs",
+      "workstreams": [
+        "A",
+        "C",
+        "F",
+        "G",
+        "K"
+      ],
+      "mechanism": "Laundry staff reassignment and a restaurant output threshold clarify useful services, but do not establish payroll removal or positive cash returns. Equal-technology incumbent/newco comparisons still need demand, price, title and funded support.",
+      "evidence_ids": [
+        "K-E039",
+        "K-E041",
+        "K-E042",
+        "K-E043"
+      ],
+      "permitted_model_use": "Use the source-output reconciliation to define evidence gaps for shared enterprise cases, not to calibrate the synthetic floor-service market."
     }
   ],
   "external_artifact_registry": {
     "PHY-O02": "data/physical_evidence.json"
+  },
+  "deployment_source_checks": {
+    "schema_version": "deployment-source-checks/1.0",
+    "napkin_evidence_id": "K-E039",
+    "quantity_prefix": "K-Q-DYNA-DTF-",
+    "financial_roi_established": false,
+    "paid_labor_removal_established": false,
+    "hourly_rate_time_basis": "unspecified_in_source",
+    "no_additional_uptime_factor_applied": true,
+    "sensitivity_time_basis": "Only if the quoted hourly rate measures active folding time, a further effective-time loss budget can be calculated. It is not observed uptime."
   }
 }

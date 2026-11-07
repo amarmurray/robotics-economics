@@ -1,10 +1,10 @@
 # Robotics Economics — integrated research report
 
-Edition 0.10, campaign in progress. Regional model releases, artifact rights, benchmark protocols and operator evidence now extend K, including a verified but unresolved source-arithmetic discrepancy. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim edition within the seven-day campaign**.
+Edition 0.11, continuation dated 7 November 2026 after the original campaign deadline. Generalist and Dyna now add adaptation, scaling-protocol and customer-service evidence, with an explicit distinction between an output threshold and financial ROI. The shared monthly customer/physical/cash model and earlier research remain integrated. Private terms, matched service qualification, broader finance mechanisms and other evidence gaps remain unresolved. This full report integrates the broad research chapters and their reviewed follow-ups. It remains **an interim research edition; the seven-day window has ended and full program acceptance is not established**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Evidence retrieved on 25 October 2026 unless an individual record states otherwise. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna continuation was retrieved on 7 November 2026. Source observation periods and publication dates remain distinct. This report is generated from the authoritative chapters in `research/` by `python3 scripts/build_report.py`; quantitative scenario exports come only from `model/engine.py`.
 
-Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. Work continues through available execution windows. No uninterrupted-compute or full-week-work claim is made.
+Campaign T0: October 25, 2026, 11:52:14 EDT. Deadline: November 1, 2026, 10:52:14 EST, America/New_York; exactly 168 elapsed hours. That original deadline has passed. The user requested continuation on 7 November; no new deadline, work during the interruption or uninterrupted-compute claim is implied.
 
 The report uses a US quantitative labor anchor with global provider, research and supply evidence. Synthetic scenario outputs explore mechanisms; they are not empirical market forecasts, measured ROI or estimates of payroll actually removed. The hospital, quadruped, benchmark/coordination, learning-data and onboard-workload follow-ups are integrated into the relevant chapters below. The [reproduction instructions](REPRODUCE.md), [acceptance audit](ACCEPTANCE_AUDIT.md), [requirement register](acceptance_register.json) and [continuing roadmap](RESEARCH_ROADMAP.md) support this report. The local dashboard entry is `python3 scripts/serve.py`.
 
@@ -12,7 +12,7 @@ Begin with the executive argument for the decision logic, then use the economic 
 
 The historical launch requested several specialist agents. The latest user instruction limits continuation to one agent. The annual-path implementation and checks below were performed by the sole lead; no new independent reviewer or independently verified serving-model identity is claimed.
 
-The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled; cloud continuation is requested from the published checkpoint. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
+The initial editions were produced in a cloud checkout. The local continuation began in the canonical Mac checkout and moved to a verified execution clone during iCloud stalls. The canonical folder remains preserved and unreconciled. The requested cloud transfer was not confirmed; the user resumed this local continuation on 7 November. The unpublished annual-path and physical-crosswalk edits described in the supplied cloud handoff were unavailable here. The annual mechanism was implemented from the accepted design, preserving the local regression fixture. The crosswalk was newly extracted from the original BLS workbooks; unavailable cloud code or tests are not claimed as recovered. Publication to the private repository does not establish consumption by a separate Work session.
 
 
 ## Contents
@@ -1646,6 +1646,89 @@ A useful conditional test is how much adaptation and support must be avoided to 
 
 The next question is now concrete: for a fixed service and qualified configuration, when does a licensed policy's reduction in adaptation and support outweigh the extra resources it requires, and what price/rights allocation leaves both supplier and customer better off? The evidence packet constrains that question. The [conditional quantitative architecture model](research/intelligence_architecture_scenarios.md) supplies an inspectable mechanism. Broader regional discovery, complete field economics and integrated monthly commercial finance remain continuing work.
 
+
+The [7 November Generalist/Dyna continuation](research/generalist_dyna_deployment.md) adds adaptation, data-scale, graded-metric and customer service evidence after the original campaign window. It preserves the earlier regional audit and every synthetic coefficient. Output feasibility and financial ROI remain distinct.
+
+### Focused follow-up: Generalist, Dyna and customer service economics
+
+Authoritative analysis: [research/generalist_dyna_deployment.md](research/generalist_dyna_deployment.md).
+
+Continuation dated **7 November 2026**, after the original campaign window. This extends the accepted K work into B/D/E/F/G/H/I; it neither backdates research nor resets the October 25–November 1 campaign. The source cutoff is November 7. Mutable pages have retrieval dates and content hashes in the [evidence package](data/frontier_model_economics.json); these hashes identify inspected content, not a frozen upstream model or verified execution.
+
+The decision is whether external robotic intelligence can reduce the full work needed to deliver an accepted physical service. Generalist supplies evidence about rapidly acquiring simple skills. Dyna supplies both model studies and a more detailed account of customer deployment. The two are useful for different parts of the decision; they are not competitors in a common published benchmark. Neither source set supplies enough contract, support and counterfactual staffing data to price the four accepted architecture alternatives or calibrate the shared entrant model.
+
+#### 1. Adaptation speed and qualification are separate costs
+
+Generalist's August 19 GEN-1.5 account reports **59% average success** across ten short manipulation tasks with a demonstration in context, and **83%** under a separate regime using ten gradient steps on five minutes of task data. It labels the accompanying ±10 and ±9 figures standard deviations. The inspected prose does not establish the exact trial denominators or the statistical population behind those deviations, so this edition does not convert them to confidence intervals. Physical prompts normally include sensorimotor trajectories, not just ordinary video; human-hands imitation is a narrower demonstrated case. [Generalist GEN-1.5](https://generalistai.com/blog/gen-1.5) (K-E031).
+
+The economic hypothesis is specific: reusable demonstrations and a stronger pretrained model could reduce task-specific collection and updating. The claim does not remove demonstration selection, workflow definition, safety/quality qualification, integration, monitoring or recovery. Few gradient steps say little about total dollars without model size, batch size, hardware, pretraining allocation and the cost of reaching a customer acceptance standard. The 30-second context and 100 Hz action trajectories are not a measured full sensor-to-action deadline or proof of embedded hardware feasibility.
+
+GEN-1 is a different system and evaluation regime. Generalist describes post-training, experience-based improvement and inference harnessing; its selected mastery demonstrations are not the same experiment as GEN-1.5's low-data prompting. The GEN-1 speed comparison restricts the box-folding clock to the folding portion, omitting the surrounding workflow. Its limitations explicitly acknowledge attempted tasks that do not reach the desired performance. Comparing a selected mastery result with the later adaptation average would confuse changes in task, training and measurement with a model trend. [GEN-1 system and limits](https://generalistai.com/blog/gen-1) (K-E032).
+
+The public [homepage](https://generalistai.com/) and [GEN-1.5 waitlist](https://generalistai.com/waitlist) establish an access invitation, not a signed license, priced API, released checkpoint or qualified productive fleet. No form was submitted. Private arrangements may exist; this inspection does not establish their terms. A customer-side operating newco must therefore test access, rights and support instead of assuming the same technology is immediately procurable by every incumbent and entrant (K-E033).
+
+#### 2. What Dyna's scaling evidence measures
+
+Dyna-2's study varies nested human-data budgets of 1,000, 10,000, 100,000 and 1,000,000 hours, keeping source proportions fixed. A separate 100-hour human validation set and ten late checkpoints support its offline comparisons. Held-out robot prediction uses 39 internal/external tasks. The hand-pose extraction and filtering pipeline creates pseudo-action labels; human video is not a costless, already aligned robotics dataset. The study leaves model-size and compute scaling for future work. Its empirical result is evidence about this data axis and recipe, not a universal return to training expenditure. [Dyna-2, section 3](https://www.dyna.co/dyna-2) (K-E034).
+
+The physical evaluation then **post-trains on robot data**. Four pretraining budgets use the same fourteen downstream task datasets, each with at most ten hours of demonstrations. Thirteen tasks have ten trials per budget and the language task twelve. The average reported score rises **20 → 28 → 45 → 53% of task-specific ceilings**. Some tasks score completed actions; others count objects handled. The aggregate is therefore not a 53% probability of finishing a customer job. The highest budget is reported best on nine of fourteen tasks, which also limits a claim of uniform per-task improvement. “Blind” scoring means evaluators uninvolved in model development in this account, not an independent replication (K-E035).
+
+The report distinguishes its scaling-study variants from production-recipe models. A separate held-out-site comparison gives 46% and 87% under customer production criteria after task post-training, but does not expose the site/episode denominator, weighting or raw logs. This cannot become fleet uptime or a cross-industry success rate. Another ablation reports 35%, 67% and 96% for instruction following while awarding half credit to a correct primitive that fails to finish. That last number measures a graded score, not 96% completed tasks (K-E036/037).
+
+These distinctions matter for H's LLM analogy. Promptability and scaling can help explain a mechanism, but physical error cost, elapsed service time, hardware wear and authority to act intervene before economic output. The data-scale experiment supports a reason to investigate human-to-robot transfer; it does not establish a fleet-level learning coefficient, a compute-optimal training plan or the marginal value of another customer's data.
+
+#### 3. A service threshold, with financial terms still missing
+
+Dyna's restaurant account states that a Din Tai Fung robot must deliver **1,500 table-ready napkins in eighteen hours**. It reports 95 folds per hour, 93% acceptable quality and approximately 1,590 acceptable napkins per window. Multiplying the reported rate, quality and duration gives **1,590.3**, consistent with whole-unit rounding. The excess is **90.3 napkins, or 6.02% of the requirement**. These are source-arithmetic results, not an independently observed station audit. [Dyna deployment account](https://www.dyna.co/research/scaling-customer-deployments) (K-E039).
+
+The published earlier rates are approximate; this edition does not replace the source's “about 480” figure with a new measured value. The earlier [Dyna-1 account](https://www.dyna.co/research/dyna-1) also separates a reported 99.4% task-success result in a 24-hour run from 75% meeting its strict fold-quality threshold. Completion, acceptable presentation and reliable site service have different denominators. Multiplying all the headlines together would risk applying overlapping filters (K-E038).
+
+At the later reported rate and window, the arithmetic quality threshold is about **87.72%**. If, and only if, the hourly rate refers to active folding time, meeting the target takes about **16.98 effective hours**, leaving about **1.02 hours** in the stated window for additional lost time. That sensitivity is not observed uptime: if the quoted hourly rate already incorporates stoppages, applying another availability penalty would double-count them. The source does not settle the time basis. The [source helper](model/frontier_models.py) keeps that condition explicit and leaves financial ROI, observed uptime and paid labor removal null.
+
+An output margin can be consequential while remaining financially unpriced. The public account omits the subscription or purchase terms, financing, incremental human effort, servicing, consumables and counterfactual labor schedule. It announces a network rollout and a fleet in the hundreds by the first half of 2027; those forward claims are not a current site/robot inventory. Its statement about reaching an ROI threshold is therefore retained as an issuer claim, not this report's calculated return.
+
+#### 4. The production system includes review and maintenance
+
+Dyna describes recording robot state, controls, video and application events; storing episodes locally before asynchronous verified upload; labeling work by customer SOP; and combining automated coverage with targeted human review. It also describes calibration and hardware checks. A reported napkin-station slowdown was traced to a worn gripper: a model-regression explanation alone would have missed the needed repair. The hardware-degradation figure is explicitly illustrative and does not supply numerical failure-rate evidence. [Deployment account, sections 3–5](https://www.dyna.co/research/scaling-customer-deployments) (K-E040).
+
+This joins E/H's digital coordination to I's physical support constraints. A labeling system can locate a failing step without diagnosing its physical cause. A data pipeline needs storage, review, curation and compatible updates. It may reduce repeated integration work, but its recurring resource use belongs in provider service cost. A training improvement and a maintenance fix are separate mechanisms, even when the same recordings help both.
+
+Customer authority also matters. The operator defines acceptable folds and stack placement; staff still move finished work into the dining workflow. Access to recordings does not establish permission for cross-customer training, model redistribution or retention after contract termination. Model supplier, integrator, asset owner and operator can coexist within one relationship; their internal charges cannot all be added as net economic value.
+
+#### 5. Monster Laundry: corroborated use, unresolved savings
+
+Monster Laundry's own [robotic folding page](https://www.monsterlaundry.com/robotic-folding-laundromat/) names Dyna and Sophy Swiftfold at its Sacramento facility and frames the system as helping attendants focus on customers. This is direct operator evidence of use and intended reassignment, not a paid staffing ledger (K-E042).
+
+Dyna's [customer case](https://www.dyna.co/news/monster-laundry), displayed as October 2025, describes RaaS and reports more than 200,000 items over a relative three-month period, ten laundry customer accounts, 99% quality acceptance, 25% higher commercial order capacity and 15% more store traffic. The account alternates garments and towels, and its opening owner quotation says thousands of hours released while the body says hundreds. Those discrepancies and the missing exact observation dates remain unresolved. Ten accounts are not ten robots or ten Dyna deployments, and neither cumulative items nor capacity growth establishes avoided payroll or cash return (K-E041).
+
+A [KCRA site report](https://www.kcra.com/article/sacramento-laundromat-introduces-ai-robot/66895939), displayed September 17, 2025 in Pacific time, directly quotes the owners discussing attendant reassignment and demonstration collection by a Dyna staff member. It also describes weekday robot operation at that visit. Early teaching, later autonomous operation and business opening hours must retain their own dates and boundaries. The early visit does not prove later runs are teleoperated; later autonomy language does not erase the earlier development work (K-E043).
+
+No inspected source identifies Monster's exact executed policy revision. Its operating event is registered once across these accounts. Restaurant, laundry and the synthetic floor-service case produce different services; their output and customer populations cannot be pooled.
+
+#### 6. Decisions changed and evidence still needed
+
+| Decision | What the new evidence changes | What remains necessary |
+| --- | --- | --- |
+| B/D: which improvement mechanism to model | Distinguish prompting, task fine-tuning, offline transfer, physical task performance and recurring production learning | Comparable task outcomes, exposure, exact systems and full adaptation costs |
+| E/H/I: what constrains a supported fleet | Include digital recording/labeling, selective human review and physical diagnostics/repair alongside policy quality | Review workload, label error, maintenance intervals, response times and supported-unit limits |
+| F/G: whether an operating newco can gain | Added capacity and staff reassignment are plausible channels distinct from removing paid shifts | Demand acquisition, retained staffing, cash collections, contract price, title and funded support |
+| K: whether model access changes architecture choice | A waitlist, a research recipe and a model-led service relationship are different economic options | Executable access, rights, compatibility, qualified service and negotiated terms |
+
+The next useful desk-research step is a matched operating-cost and workflow comparison for one customer service, including conventional specialist equipment and digitally improved human work. A source disclosing price without loading, quality review and maintenance is insufficient; a throughput claim without the time basis is insufficient. Where those documents remain unavailable, keep an explicit disclosure gap and use conditional sensitivity, rather than creating an empirical number. All earlier A–J coverage and open model-finance work remain in scope. The [sole-lead review](reviews/generalist_dyna_review.md) records the verification boundaries.
+
+#### Reproduced customer-output boundary
+
+| Reported restaurant service | Value |
+| --- | ---: |
+| Reported folds per hour | 95.00 |
+| Accepted quality, percent | 93.00 |
+| Service window, hours | 18.00 |
+| Required accepted napkins | 1,500.00 |
+| Rate times quality times hours | 1,590.30 |
+| Surplus as percent of requirement | 6.02 |
+
+Generated from [frontier_model_summary.json](model/results/frontier_model_summary.json), using K-E039. These are source arithmetic and issuer-reported inputs, not an independent operating audit or financial ROI. Hourly-rate timing is unspecified; no additional uptime penalty is applied. The conditional time-loss margin requires an active-time interpretation and is not observed availability. Synthetic scenario coefficients remain unchanged.
+
 ### Focused follow-up: Regional model releases, rights and operating evidence
 
 Authoritative analysis: [research/regional_frontier_models.md](research/regional_frontier_models.md).
@@ -1944,4 +2027,4 @@ The sources establish bounded workflows, relationships and constraints. Public d
 
 Workstream K now contributes nine actor-role records, four contrasting dossiers, six model/release cards and eight artifact-rights cards. Their source and cost boundaries remain explicit. The four-architecture service comparison now has a separate synthetic calculation and sensitivities. Actual target costs, effective rights and qualified configurations remain unknown; the calculation does not fill those source gaps. The next research priorities are: reconcile field service/intervention denominators; challenge shared-resource and financial accounting; validate digital coordination against a strong simpler baseline; test customer entry against a prompt incumbent with equal technology access; qualify specific supply/workload dependencies; deepen labor crosswalks without invented physical shares; and expand non-Spot operator and nonadoption evidence. Each has a bounded action, evidence need and stopping condition in the continuing roadmap.
 
-The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The campaign remains active within the original elapsed-time window, with interruptions and next actions recorded honestly in the handoff. At the deadline, the strongest verified edition must be packaged with any coverage gaps, rather than backdating work or resetting the week.
+The acceptance register records individual requirements and limitations. Source counts and view counts do not themselves establish substantive completion. The original campaign window has ended with incomplete requirements. This separately dated continuation preserves the earlier edition and its gaps; the handoff records the interruption and next actions without backdating work or resetting the week.
