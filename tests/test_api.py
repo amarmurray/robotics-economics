@@ -71,6 +71,18 @@ class LocalAPI(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError) as err:post(body)
             self.assertEqual(err.exception.code,400)
 
+    def test_monthly_architecture_replay_and_invalid_contract(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/monthly-architectures',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        result=post({'inputs':{'architecture_inputs':{'architecture_id':'model_led_operator'}}})['result']
+        self.assertEqual(result['architecture_execution']['role_entities']['operator'],'arch:model_operator')
+        self.assertEqual(post({'saved_case':result})['result'],result)
+        for body in ({'inputs':{'architecture_inputs':[]}},{'inputs':{'bridge_inputs':[]}},{'inputs':{'unknown':0}},
+                     {'saved_case':{}},{'inputs':{},'saved_case':{}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_unaccepted_observed_sources_cannot_leak_through_catalog(self):
         snapshot=load_accepted_packages()
         snapshot["packages"]=[p for p in snapshot["packages"] if p["package_id"]=="capability"]

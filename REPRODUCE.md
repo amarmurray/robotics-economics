@@ -1,6 +1,6 @@
 # Reproduce the local research edition
 
-The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. Fourteen financed worlds cover bounded DE-CF11/12. Eight calendar/digital worlds add bounded DE-CF01/13 and partial support/frozen-cohort mechanisms; broad campaign coverage remains incomplete. Existing commands retain their stated scopes.
+The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. Fourteen financed worlds cover bounded DE-CF11/12. Eight calendar/digital worlds add bounded DE-CF01/13 and partial support/frozen-cohort mechanisms; broad campaign coverage remains incomplete. Ten funded monthly architecture worlds add bounded DE-CF08 and engineering-before-expansion mechanisms. Existing commands retain their stated scopes.
 
 Python 3.10 or newer is sufficient. Earlier validation used Python 3.12.14 on Linux; annual-path continuation also runs on the canonical Mac checkout. The model/server/export commands have **no third-party dependencies, credentials, network requests, GPU requirements or paid services**. Node is optional for the JavaScript syntax check. The dashboard needs a current browser with `fetch` and native `<dialog>` support.
 
@@ -19,6 +19,7 @@ python3 scripts/export_enterprise.py
 python3 scripts/export_enterprise.py --bridge
 python3 scripts/export_finance.py --check
 python3 scripts/export_calendar_bridge.py --check
+python3 scripts/export_monthly_architectures.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -177,3 +178,17 @@ python3 -m unittest tests.test_calendar_bridge -v
 ```
 
 Export/reload preserves the full physical, commercial, enterprise, finance and bridge inputs. The bridge uses decimal strings for rational numerator/denominator components and rejects unsafe non-rational integers, preserving exact exported data through browser JSON. Replay ignores saved outcomes and recomputes under current source; historical reproduction requires the corresponding checkout. Invalid inputs and late responses preserve the last valid display/export. Imported complete cases keep their unit/horizon and are read-only in the shortcut editor; selecting a standard witness restores editable controls. `GET /api/calendar-bridge` returns the bundle; `POST` accepts exactly one `inputs` or `saved_case`. See [methods](model/CALENDAR_BRIDGE.md), [findings](research/calendar_digital_execution.md) and [sole-writer review](reviews/calendar_bridge_review.md).
+
+## Funded intelligence roles, edition 0.16
+
+Business models now includes a separate monthly architecture panel. It maps the four catalog profiles to funded legal accounts on the existing calendar/physical loop. One active cleaning-service business retains fixed staffing and common demand. Fees redistribute cash; itemized resource bills enter consolidated outlay once. The annual architecture calculator retains its separate lifetime/avoided-cost-credit scope.
+
+```bash
+python3 scripts/export_monthly_architectures.py
+python3 scripts/export_monthly_architectures.py --check
+python3 scripts/export_monthly_architectures.py --case /tmp/monthly-architecture.json --output /tmp/architecture-replay.json
+python3 -m unittest tests.test_monthly_architectures -v
+node --check dashboard/monthly_architectures.js
+```
+
+Ten worlds include the four profiles, fee/capital/resource constraints and a false rights premise. Complete inputs and twelve source/catalog hashes identify each result. Export/reload recomputes the full saved case; saved outcomes cannot replace calculation. Rational components use decimal strings and equivalent integral numeric spellings are canonicalized before hashing. Invalid or stale requests preserve the last valid result. Imported complete cases are read-only in the shortcut controls until a witness is selected. `GET /api/monthly-architectures` returns the bundle; `POST` accepts exactly one `inputs` or `saved_case` object. See [methods](model/MONTHLY_ARCHITECTURES.md), [findings](research/monthly_intelligence_execution.md) and [review](reviews/monthly_architectures_review.md).

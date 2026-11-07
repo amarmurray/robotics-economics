@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.15, calendar/digital execution checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Annual digital paths now affect actual monthly cohorts, qualified upgrades, support/integration resources and funded service under an explicit synthetic cleaning-zone contract. Eight complete worlds add a matched fixed-staff four-way comparison, frozen cohorts and upgrade/funding constraints to the fourteen earlier financed worlds. The six-cell review, three decision packs and all earlier research remain integrated. Four-intelligence-architecture integration, the stronger conventional comparator, acquisition transitions, asset recovery and broader empirical requirements remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.16, funded-intelligence-architecture checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Four intelligence profiles now pay dated resource bills and transfer fees inside the monthly physical/calendar/Treasury loop. Ten worlds expose role funding, qualification resources and internal-transfer boundaries alongside the earlier finance and digital-path cases. All six cells and three decision packs remain integrated. Strong conventional coordination, acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -180,7 +180,7 @@ This H work joins the existing digital ecosystem, infrastructure, learning-data 
 
 #### Required bridges before a combined economic ranking
 
-The monthly enterprise case shares actual physical cohorts, customer assignment and cash. [The calendar bridge](research/calendar_digital_execution.md) now drives that loop with annual digital levels under a new explicit cleaning-zone contract, preserving cohort vintage, paid upgrade resources and dated expenses. It does not infer a conversion for historical floor bundles, import the annual fleet or join the four architecture ledgers. Remaining integration must meet these contracts:
+The monthly enterprise case shares actual physical cohorts, customer assignment and cash. [The calendar bridge](research/calendar_digital_execution.md) now drives that loop with annual digital levels under a new explicit cleaning-zone contract, preserving cohort vintage, paid upgrade resources and dated expenses. The [funded architecture extension](research/monthly_intelligence_execution.md) now maps four intelligence profiles to actual role accounts and resource obligations for one active cleaning-service business. Neither bridge infers a historical floor-bundle conversion or imports the annual fleet. Broader integration must preserve these contracts:
 
 | Bridge | Required rule | Failure the rule prevents |
 | --- | --- | --- |
@@ -193,11 +193,11 @@ The monthly enterprise case shares actual physical cohorts, customer assignment 
 | Reinvestment | Allow new starts only after operating/support and policy reserves, and after actual available funds pay the required obligations. | Reinvesting accounting profit or all future receivables before collection |
 | Entry and ownership | Transfer existing customer assignments/assets and pay purchase/transition obligations for acquisition; create genuinely new demand only in a separate input. Hold technology access equal under prompt/delayed response. | Acquisition producing market growth or one demand unit served by both firms |
 
-The finance contract now has a bounded implementation in [financed execution](research/financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. A bounded unit/calendar/cohort/digital-cost bridge now executes with paid staffing and shared resource allocations. Four-architecture roles/costs, annual component-pool integration, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
+The finance contract now has a bounded implementation in [financed execution](research/financed_execution.md): funded draws, exact monthly interest, maturity, cash recovery, declared default/cure and a later-start reserve. A bounded unit/calendar/cohort/digital-cost bridge now executes with paid staffing and shared resource allocations. Four-architecture roles/costs now have a bounded funded implementation. Annual component-pool integration, broader competition, asset recovery and optimized reinvestment remain open. The other rules are implementation acceptance conditions, not a claim that all bridges exist. Target contracts remain unknown. Synthetic interest, support, rights and recovery terms can test a decision but must not be presented as available financing, legal advice, observed adoption or calibrated ROI.
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01, DE-CF11, DE-CF12 and DE-CF13 have bounded implementations.** Fourteen source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) cover finance/reinvestment; eight in [calendar_bridge.json](model/results/calendar_bridge.json) add retained paid shifts, digital-human interaction and cohort constraints. DE-CF10 has a support/upgrade mechanism and DE-CF14 a frozen-cohort portion, but their full expansion/learning challenges remain incomplete. The other families remain reserved. Twenty-two rows do not establish broad campaign coverage or empirical decision acceptance. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
+The following names track intended challenge coverage. **DE-CF01, DE-CF08, DE-CF11, DE-CF12 and DE-CF13 have bounded implementations.** Fourteen source-hashed worlds in [enterprise_finance.json](model/results/enterprise_finance.json) cover finance/reinvestment; eight in [calendar_bridge.json](model/results/calendar_bridge.json) add retained paid shifts, digital-human interaction and cohort constraints. Ten worlds in [monthly_architectures.json](model/results/monthly_architectures.json) add funded architecture contracts and equal-capital/resource tests. DE-CF10 has support/upgrade and engineering-before-expansion mechanisms; DE-CF14 has a frozen-cohort portion. Full expansion/learning challenges remain incomplete. The other families remain reserved. Thirty-two rows do not establish broad campaign coverage or empirical decision acceptance. Existing annual, commercial and shared-enterprise witnesses retain their narrower scopes. Each new family requires complete inputs, source hashes, named outputs, exact replay and relevant invariants.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
@@ -208,9 +208,9 @@ The following names track intended challenge coverage. **DE-CF01, DE-CF11, DE-CF
 | DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
 | DE-CF06 acquire-without-new-demand | Paid ownership/customer transfer preserves aggregate demand and physical activity |
 | DE-CF07 hybrid-transition | Acquisition plus funded expansion incurs transition costs without duplicating the acquired base |
-| DE-CF08 architecture-and-fees | Four intelligence architectures change resource burdens, rights eligibility and actor transfers at matched service |
+| DE-CF08 architecture-and-fees — bounded implementation | Four funded role mappings, itemized resources, fee/internal-transfer controls, false rights gate and equal-capital allocation; real costs/rights and broader competition remain open |
 | DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
-| DE-CF10 support-before-expansion | Installed-fleet support consumes resources otherwise available to additions |
+| DE-CF10 support-before-expansion — partial mechanism | Initial engineering can leave installed support unmet and cancel a one-shot start; stronger adaptive scheduling and broader support dynamics remain open |
 | DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
 | DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
 | DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A stronger conventional coordination and target competitive advantage comparison remain open |
@@ -218,7 +218,7 @@ The following names track intended challenge coverage. **DE-CF01, DE-CF11, DE-CF
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the four-architecture resource/fee/legal-entity bridge and the strong conventional coordination comparison, followed by acquisition/hybrid transitions and remaining counterfactuals. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
+The next substantive work is the strongest conventional coordination/planning comparison, followed by acquisition/hybrid transitions and remaining counterfactuals. The new four-architecture bridge must not be mistaken for that optimized comparator: its missed one-shot starts and redundant additions are declared fixed-policy limitations. The financed service boundary now shows why paying debt does not itself fund the next support obligation; apply that lesson without converting a synthetic floor bundle into a hospital, utility or automotive outcome. The six-cell review, new adverse evidence and provisional gates improve decision framing; they do not close missing whole-system costs or the integrated campaign requirements.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -2184,6 +2184,67 @@ A positive lifetime annual equivalent is still insufficient for deployment. Upfr
 The first-edition K architecture target now has an executable matched-service mechanism with human/digital and specialized alternatives, explicit resource-versus-transfer accounting, qualification assumptions, adverse sensitivities, equal-technology customer paths and reproducible fee bounds. It supplies no calibrated vendor ranking, commercial-rights clearance or jointly feasible company plan.
 
 The next priority is the missing monthly commercial extension: sale, independent lease and provider service over the same paid physical plan, with separate title, cash, customer/operator obligations and support consequences. That work should use the existing integer-cent treasury and shared physical ledger. It must preserve the distinction between an attractive allocated lifetime result and an operation that can actually fund its next obligation.
+
+### Focused follow-up: Funded intelligence roles and monthly qualification
+
+Authoritative analysis: [research/monthly_intelligence_execution.md](research/monthly_intelligence_execution.md).
+
+The annual architecture reference shows how resources and fees can be separated over an assumed lifetime. The new monthly execution asks a different, necessary question: which actual entity has the funds and qualified resources to deliver the service when each obligation falls due? It uses the existing calendar/physical/Treasury engines and explicit role mappings, without importing lifetime avoided-cost credits into bank balances. [Methods](model/MONTHLY_ARCHITECTURES.md) specify the contract; all numerical inputs remain synthetic.
+
+#### A fee can change survival without changing resource cost
+
+In the funded independent-license world, raising the annual model fee from $4,000 to $12,000 per supported robot leaves physical service and external resource outlay unchanged. Over 28 supported robot-months, the model supplier receives $18,666.76 more and the operator pays exactly that amount more. The few extra cents relative to an unrounded annual ratio arise from rounding each monthly invoice once. No second inference expense or consolidated value appears.
+
+That transfer can nevertheless determine whether the recipient can pay its own resource bills. With no model-supplier opening cash, the standard upfront and monthly fees do not cover initial adaptation, allocated development and serving resources; no robot is admitted. The whole contingent booking rolls back, including its model fee. Paid human staff still deliver 4,000 zones over the eight months. The result does not say that free or open models cost nothing, nor that the customer saved the entire robot bill.
+
+A one-unit threshold makes the mechanism inspectable. Initial model-supplier resources are $10,500 and first-month inference/maintenance adds $225. Incoming upfront and monthly fees are $3,333.33. Under this atomic contract, $7,391.67 of opening model-supplier cash admits the unit; $7,391.66 does not. This is an exact boundary for one declared policy, not a market fundraising requirement or optimal financing solution.
+
+#### Aggregate capital can conceal an unfunded operator
+
+The four standard architectures start with the same $600,000 total logical-role capital, consolidated into their declared legal entities. A merged entity can use its own combined cash; a separate firm cannot spend another firm's bank balance without an explicit transfer or financing arrangement.
+
+In the model-led operating-provider world, two new robots are bought but their subsequent model qualification cannot be funded. The operator finishes with $418.10 while the customer and OEM retain substantial cash. Moving $100,000 of the initial allocation from customer to operator, with aggregate capital unchanged, qualifies four units instead of two and increases supported exposure from 15 to 28 robot-months. It does not create additional robots or customer demand. This is a counterfactual opening allocation, not an unrecorded mid-run rescue.
+
+Both worlds still deliver the same 4,000 zones and pay the same $32,000 staffing commitment, because the specified human fallback remains available. More qualified robot exposure changes work allocation and cash; it does not automatically improve delivered output or eliminate a shift. The result points to a real diligence question—who funds adaptation and operating obligations?—without establishing a real operating-provider return.
+
+#### Open adaptation can be constrained by engineering rather than license fees
+
+The source catalog assumes 200 adaptation and 100 validation hours per initially qualified open-policy unit. With 400 monthly engineering hours, only one of two opening robots can be admitted in the first month. Under the existing support-first physical policy, that shortfall also blocks the one scheduled month-zero manufacturing start. The second opening unit qualifies later, but the missed start is not automatically rescheduled.
+
+At 600 initial engineering hours, both opening units receive support and the start proceeds. Four units eventually qualify; the separate physical integration pool still commissions only one of the two new arrivals per month. At 200 engineering hours, no whole initial open-policy qualification fits. These are capacity and policy boundaries, not evidence that open adaptation has these measured costs or that a different work decomposition could not proceed incrementally.
+
+The lower short-window cash expenditure of a blocked world is not economic superiority. It can mean that investment never happened, purchased assets remain unqualified, or paid humans perform the service. A conventional planner should be permitted to choose and reschedule feasible starts, avoid redundant additions and use the same resource information. That stronger comparison is the next substantial H task; the present fixed policy cannot establish an agent or coordination premium.
+
+#### Role labels do not create productivity
+
+An additional matched test gives all four role structures identical resource/physical assumptions and ample funds. Accepted service, supported exposure and consolidated resource outlay are identical. Grouping and fees change where cash sits; only specified resource, timing, rights or operating constraints change feasibility. The default profiles differ in those explicit assumptions, so their raw table cannot identify an intrinsic advantage from an OEM, licensed, open or operating-company label.
+
+The service provider pays the actual fixed staff and operating obligations; the customer pays only the declared service invoices after delivery. No hypothetical human-cost credit enters cash. Model inference, maintenance and network bills replace the scalar digital bundle, and internal fees disappear at the correct legal-entity boundary. Asset title, custody, workflow authority and source assumptions are recorded independently.
+
+#### Implications for the three decision packs
+
+Hospital logistics still needs the actual request population, urgent/excluded work, operator burden, staff commitments and support contract. Utility inspection still needs the complete measurement obligation, residual visit and valuation of additional information. Automotive presentation still needs the qualified workcell, takt/rework, new-generation support and rights. None of the cleaning-zone amounts calibrates those services.
+
+For each pack, specify the entity that pays for configuration work, qualification, inference, maintenance, physical support and retained labor; the dates and conditions on which it receives fees; and what service survives a missed obligation. Distinguish spare capital elsewhere in the relationship from spendable capital at that entity. Retain simpler human, fixed-machine, wheeled and mixed alternatives. An architecture can be technically feasible but commercially unfunded, while a fully funded architecture can still add no valuable service.
+
+DE-CF08 now has a bounded funded-architecture implementation; DE-CF10 gains the engineering/support-before-expansion mechanism. Five challenge families have bounded implementations, while the full support, transfer/learning, strongest conventional, acquisition/hybrid and empirical acceptance requirements remain partial. This checkpoint does not complete the 168-hour campaign.
+
+#### Reproduced funded architecture worlds
+
+| Synthetic architecture world | Accepted zones | Robot zones | Paid staffing, USD | Supported robot-months | Qualified units | Paid external bills, USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| integrated oem | 4,000.00 | 4,000.00 | 32,000.00 | 28 | 4 | 244,256.12 |
+| licensed independent | 4,000.00 | 4,000.00 | 32,000.00 | 28 | 4 | 233,289.36 |
+| open adapted | 4,000.00 | 3,872.38 | 32,000.00 | 15 | 2 | 139,019.30 |
+| model led operator | 4,000.00 | 3,872.38 | 32,000.00 | 15 | 2 | 173,781.90 |
+| licensed high fee | 4,000.00 | 4,000.00 | 32,000.00 | 28 | 4 | 233,289.36 |
+| licensed no model cash | 4,000.00 | 0.00 | 32,000.00 | 0 | 0 | 43,900.00 |
+| open engineering scarcity | 4,000.00 | 0.00 | 32,000.00 | 0 | 0 | 43,900.00 |
+| open initial engineering available | 4,000.00 | 4,000.00 | 32,000.00 | 27 | 4 | 315,714.74 |
+| model operator capital reallocated | 4,000.00 | 4,000.00 | 32,000.00 | 28 | 4 | 236,932.88 |
+| rights not assumed | 4,000.00 | 0.00 | 32,000.00 | 0 | 0 | 43,900.00 |
+
+Generated from [monthly_architectures.json](model/results/monthly_architectures.json). One active synthetic cleaning-service business retains the same demand and paid staffing. Opening hardware predates the cash window; some worlds never start production or retain unqualified assets. Lower cash expenditure is not an investment ranking. Model resources replace the opaque digital bundle, and fees cancel at the complete legal-entity boundary.
 
 ### Reproduced acquisition disclosure
 

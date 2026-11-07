@@ -18,7 +18,7 @@ CHAPTERS = [
 ]
 FOLLOWUPS = {
  'integrated_decisions.md': [('Deployment and entry decision packs', 'deployment_entry_decisions.md')],
- 'frontier_models.md': [('Generalist, Dyna and customer service economics', 'generalist_dyna_deployment.md'), ('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md')],
+ 'frontier_models.md': [('Generalist, Dyna and customer service economics', 'generalist_dyna_deployment.md'), ('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md'), ('Funded intelligence roles and monthly qualification', 'monthly_intelligence_execution.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md')],
  'customer_value.md': [('Hospital service, support and economic denominators', 'field_support_denominators.md'), ('Monthly commercial funding and title', 'monthly_commercial_finance.md'), ('A shared entrant market and funded execution', 'shared_enterprise_finance.md'), ('Dated finance, service continuity and cash recovery', 'financed_execution.md'), ('Digital paths, cohorts and the operating calendar', 'calendar_digital_execution.md')],
@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.15, calendar/digital execution checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Annual digital paths now affect actual monthly cohorts, qualified upgrades, support/integration resources and funded service under an explicit synthetic cleaning-zone contract. Eight complete worlds add a matched fixed-staff four-way comparison, frozen cohorts and upgrade/funding constraints to the fourteen earlier financed worlds. The six-cell review, three decision packs and all earlier research remain integrated. Four-intelligence-architecture integration, the stronger conventional comparator, acquisition transitions, asset recovery and broader empirical requirements remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
+Edition 0.16, funded-intelligence-architecture checkpoint of the new Deployment and Entry Decision campaign, 7 November 2026. Four intelligence profiles now pay dated resource bills and transfer fees inside the monthly physical/calendar/Treasury loop. Ten worlds expose role funding, qualification resources and internal-transfer boundaries alongside the earlier finance and digital-path cases. All six cells and three decision packs remain integrated. Strong conventional coordination, acquisition/hybrid, broader challenge coverage and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the new 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The financing tranche adds synthetic mechanisms, not new empirical observations. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -118,6 +118,17 @@ The initial editions were produced in a cloud checkout. The local continuation b
         calendar_table.append(f"| {row['case'].replace('_',' ')} | {int(q['numerator'])/int(q['denominator']):,.2f} | {int(h['numerator'])/int(h['denominator']):,.2f} | {row['staff_commitment_cents']/100:,.2f} | {row['external_physical_and_enterprise_cash_cents']/100:,.2f} | {row['supported_robot_months']} | {row['upgrade_count']} |")
     insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Digital paths, cohorts'))+1
     out.insert(insert_at,'#### Reproduced calendar and cohort worlds\n\n'+'\n'.join(calendar_table)+'\n\nGenerated from [calendar_bridge.json](model/results/calendar_bridge.json). The four C00/C01/C10/C11 branches share a paid-staff/customer-move policy and ample capital. Cash outlays include actual starts and retained inventory; opening assets predate the cash window. They are not lifecycle costs or an optimal investment ranking. Partial years are aggregated without extrapolation; no historical floor-bundle conversion or extra annual fleet is assumed.')
+    monthly_arch=json.loads((ROOT/'model/results/monthly_architectures.json').read_text())
+    for path,digest in monthly_arch['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:
+            raise SystemExit('Stale monthly-architecture dependency: '+path)
+    role_table=['| Synthetic architecture world | Accepted zones | Robot zones | Paid staffing, USD | Supported robot-months | Qualified units | Paid external bills, USD |',
+                '| --- | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for row in monthly_arch['summary']:
+        q=row['accepted_zones'];robot=row['robot_zones']
+        role_table.append(f"| {row['case'].replace('_',' ')} | {int(q['numerator'])/int(q['denominator']):,.2f} | {int(robot['numerator'])/int(robot['denominator']):,.2f} | {row['staff_cash_paid_cents']/100:,.2f} | {row['supported_robot_months']} | {row['qualified_units']} | {row['external_physical_and_enterprise_cash_cents']/100:,.2f} |")
+    insert_at=next(i for i,text in enumerate(out) if text.startswith('### Focused follow-up: Funded intelligence roles'))+1
+    out.insert(insert_at,'#### Reproduced funded architecture worlds\n\n'+'\n'.join(role_table)+'\n\nGenerated from [monthly_architectures.json](model/results/monthly_architectures.json). One active synthetic cleaning-service business retains the same demand and paid staffing. Opening hardware predates the cash window; some worlds never start production or retain unqualified assets. Lower cash expenditure is not an investment ranking. Model resources replace the opaque digital bundle, and fees cancel at the complete legal-entity boundary.')
     physical = json.loads((ROOT/'model/results/physical_requirements_summary.json').read_text())
     for path, digest in physical['source_hashes'].items():
         if hashlib.sha256((ROOT/path).read_bytes()).hexdigest() != digest:

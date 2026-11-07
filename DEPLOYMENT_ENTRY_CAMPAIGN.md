@@ -28,7 +28,7 @@ Use the week for evidence, integration and challenge. Save resumable state at ch
 
 ## Current bounded implementation
 
-Edition 0.15 adds [calendar/digital execution](research/calendar_digital_execution.md) to the existing monthly stock, commercial, enterprise and financing loop. Eight replayable worlds join explicit cleaning units, calendar levels, supported cohorts, qualified upgrades and digital/resource obligations. Together with the fourteen earlier [financed worlds](research/financed_execution.md), four families have bounded implementations: DE-CF01/11/12/13. Support and frozen-cohort mechanisms remain partial. Four-architecture integration, the strongest conventional comparator, acquisition/hybrid, asset recovery, autonomous investment and broader counterfactual acceptance remain open. The [sole-writer bridge review](reviews/calendar_bridge_review.md) records fresh checks and preserved prior outputs. This checkpoint does not alter the clock or complete the objective.
+Edition 0.16 adds [funded intelligence roles](research/monthly_intelligence_execution.md) to the shared calendar/physical/Treasury loop. Ten complete worlds implement bounded DE-CF08 and additional engineering/support-before-expansion mechanisms. Together with the earlier finance/calendar cases, DE-CF01/08/11/12/13 have bounded implementations. The strongest conventional comparator, acquisition/hybrid, full learning/supply, asset recovery and broader empirical acceptance remain open. The [sole-writer review](reviews/monthly_architectures_review.md) records fresh checks and preserved earlier results. This checkpoint does not alter the clock or complete the objective.
 
 ## Operating constraints and usage
 

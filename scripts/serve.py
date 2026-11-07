@@ -18,6 +18,7 @@ from model.monthly_commercial import commercial_artifact
 from model.monthly_enterprise import enterprise_artifact, run_shared_case
 from model.enterprise_finance import finance_artifact, run_financed_case, replay_financed_enterprise
 from model.calendar_bridge import bridge_artifact, run_bridge_case, replay_bridge
+from model.monthly_architectures import architecture_execution_artifact, run_architecture_case, replay_architecture_execution
 from model.evidence import economic_atlas_summary
 from model.packages import load_accepted_packages, PackageError
 from model.research_calculations import research_summary
@@ -59,6 +60,12 @@ class Handler(BaseHTTPRequestHandler):
                     "evidence_package_index":snapshot["index"],"documents":docs,"observed_summary":atlas,"observed_research_summary":research,"observed_physical_requirements":physical,"observed_frontier_models":frontier})
             except (ValueError,KeyError,OSError) as exc:
                 self.send(503,{"error":str(exc)})
+            return
+        if path == "/api/monthly-architectures":
+            try:
+                self.send(200, architecture_execution_artifact())
+            except (ValueError, KeyError, OSError) as exc:
+                self.send(503, {"error": str(exc)})
             return
         if path == "/api/calendar-bridge":
             try:
@@ -105,14 +112,29 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge"}:
+        if endpoint not in {"/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
             length = int(self.headers.get("Content-Length","0"))
-            if length < 0 or length > (2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge"} else 200000):
+            if length < 0 or length > (2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge","/api/monthly-architectures"} else 200000):
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
+            if endpoint == "/api/monthly-architectures":
+                if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
+                    raise ValueError("Expected exactly inputs or saved_case for monthly architectures")
+                if 'saved_case' in request:
+                    try:
+                        replayed=replay_architecture_execution(request['saved_case'])
+                    except KeyError as exc:
+                        raise ValueError("Incomplete saved monthly architecture case") from exc
+                    self.send(200,{'inputs':None,'result':replayed})
+                else:
+                    x=request['inputs']
+                    if not isinstance(x,dict) or set(x)-{'architecture_inputs','bridge_inputs'}:
+                        raise ValueError('Unknown monthly architecture shortcut input')
+                    self.send(200,{'inputs':x,'result':run_architecture_case(**x)})
+                return
             if endpoint == "/api/calendar-bridge":
                 if not isinstance(request,dict) or len(request)!=1 or not ({"inputs","saved_case"}&set(request)):
                     raise ValueError("Expected exactly inputs or saved_case for calendar execution")
