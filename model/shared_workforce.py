@@ -266,13 +266,86 @@ def source_hashes():
     return {**resource_hashes(),'model/shared_workforce.py':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
 
 
-def run_shared_workforce(plan,treasury,contracts,enterprise,finance,bridge,architecture,resources,components,workforce):
-    policy=_WorkforceArchitecture(plan,contracts,treasury,enterprise,finance,bridge,architecture,resources,workforce)
+@dataclass(frozen=True)
+class FallbackReserve:
+    purchase_floor_cents: int = 0
+    active_from_month: int = 0
+
+    def __post_init__(self):
+        _integer(self.purchase_floor_cents);_integer(self.active_from_month)
+        if self.purchase_floor_cents>1_000_000_000 or self.active_from_month>36:
+            raise ValueError('Bounded purchase floor and activation month required')
+
+
+class _FallbackWorkforceArchitecture(_WorkforceArchitecture):
+    """A prospective purchase gate, not escrow or another staffing contract."""
+    def __init__(self,*args,fallback):
+        super().__init__(*args)
+        if not isinstance(fallback,FallbackReserve):raise ValueError('Explicit fallback reserve policy required')
+        self.fallback=fallback;self.purchase_decisions=[];self.fallback_months=[]
+
+    def admit(self,t,iid,month,phase,physical_reason,unit=None,operator_id=None):
+        if t.invoice(iid).category!='ship' or operator_id!='incumbent':
+            return super().admit(t,iid,month,phase,physical_reason,unit,operator_id)
+        quote=self.quotes[(month,unit.unit_id,operator_id)]
+        group=[quote,iid]
+        spend=sum(t.invoice(i).outstanding_cents for i in group if t.invoice(i).payer==self.operator)
+        available=t.available(self.operator);after=available-spend
+        active=month>=self.fallback.active_from_month
+        floor=self.fallback.purchase_floor_cents if active else 0
+        reason=physical_reason
+        if floor and after<floor:reason=reason or 'operator_fallback_purchase_floor'
+        result,reason=super().admit(t,iid,month,phase,reason,unit,operator_id)
+        self.purchase_decisions.append(dict(month=month,phase=phase,unit_id=unit.unit_id,
+            operator_actor=self.operator,purchase_invoice_id=quote,group_invoice_ids=group,
+            policy_active=active,required_floor_cents=floor,
+            operator_available_before_cents=available,candidate_operator_spend_cents=spend,
+            operator_available_if_purchased_cents=after,operator_available_after_cents=result.available(self.operator),
+            status='blocked' if reason else 'admitted',reason=reason or None,
+            group_cash_paid_cents=sum(result.invoice(i).paid_cents for i in group),
+            future_actual_work_or_receipts_consulted=False))
+        return result,reason
+
+    def finish_shipping(self,t,month):
+        before=t.available(self.operator)
+        t=super().finish_shipping(t,month)
+        self.fallback_months.append(dict(month=month,operator_actor=self.operator,
+            available_before_overtime_cents=before,available_after_overtime_cents=t.available(self.operator),
+            overtime_requested_minutes=self.current_work['overtime_requested_minutes'],
+            overtime_paid_minutes=self.overtime_minutes,overtime_reason=self.overtime_reason or None,
+            complete_combined_obligation=self.current_work['complete_combined_obligation']))
+        return t
+
+    def fallback_result(self,r):
+        actors=sorted(set(self.roles.values()))
+        return dict(schema_version='fallback-purchase-reserve/0.1',inputs=asdict(self.fallback),
+            operator_actor=self.operator,purchase_decisions=self.purchase_decisions,months=self.fallback_months,
+            outcomes=dict(manufactured_units=sum(m['flows']['started'] for m in r['months']),
+                purchased_units=sum(m['flows']['shipped'] for m in r['months']),
+                commissioned_units=sum(m['flows']['commissioned'] for m in r['months']),
+                supported_unit_months=sum(m['support']['used'] for m in r['months']),
+                closing_oem_finished_units=r['months'][-1]['closing_stock']['finished'],
+                purchase_floor_refusals=sum(x['reason']=='operator_fallback_purchase_floor' for x in self.purchase_decisions),
+                actor_closing_cash_cents={actor:r['months'][-1]['closing_cash_cents'][actor] for actor in actors}),
+            mechanism='Fixed operator liquidity floor gates optional hardware purchases; retained funds remain spendable on existing obligations and overtime.',
+            information_clock='Declared opening policy; actual current available cash and current purchase group only. No future work, capacity, receipts or realized outcomes are consulted.',
+            capacity_contract='Existing shared crew overtime: assumed qualified, available within the current month up to its declared ceiling, fully prepaid before service. This gate buys no capacity guarantee or hiring/response entitlement.',
+            reserve_is_escrow=False,reserve_is_expense=False,add_again_to_consolidation=False,
+            limits=['The floor applies only to operator hardware purchases, not unrelated OEM manufacture or other actors cash.',
+                'Earlier manufacture, staffing notice and mandatory liabilities remain. Refused shipment retains OEM stock and sunk cash.',
+                'Support, commissioning and other existing payments can consume retained liquidity; a floor cannot guarantee later staffing or service.',
+                'Late activation cannot reverse earlier purchases, obligations or missed work. This is a declared policy experiment, not an optimized reserve or empirical staffing contract.'])
+
+
+def run_shared_workforce(plan,treasury,contracts,enterprise,finance,bridge,architecture,resources,components,workforce,fallback=None):
+    args=(plan,contracts,treasury,enterprise,finance,bridge,architecture,resources,workforce)
+    policy=_WorkforceArchitecture(*args) if fallback is None else _FallbackWorkforceArchitecture(*args,fallback=fallback)
     if components.onboard_configuration!=policy.annual['onboard_configuration']:raise ValueError('Compatible architecture parts required')
     materials=ComponentInventory(components)
     r=architecture_resources_result(run_monthly(plan,treasury,commercial=policy,materials=materials),policy,materials)
     r.update(schema_version='shared-workforce-window/0.1',scope='synthetic_shared_site_crew_complete_cleaning_and_inventory_work')
     r['shared_workforce']=policy.workforce_result(r)
+    if fallback is not None:r['fallback_reserve']=policy.fallback_result(r)
     r['architecture_resource_contract']['baseline']='One complete cleaning obligation plus separately counted inventory jobs, with one explicit paid site crew, notice and funded overtime policy.'
     r['architecture_resource_contract']['resource_relationship']+=' A fifth identified site crew is shared only by cleaning, local robot attention/handling and inventory jobs; it is not interchangeable with those four pools.'
     r['architecture_execution']['contract']['staff_and_site_costs']='Operator pays actual regular blocks, funded overtime, site software and materials. Staffing notice uses prior completed service; unlike outside jobs have separate demand and receipts.'
@@ -284,12 +357,13 @@ def run_shared_workforce(plan,treasury,contracts,enterprise,finance,bridge,archi
 
 def workforce_case_inputs(inputs=None):
     if inputs is None:inputs={}
-    if not isinstance(inputs,dict) or set(inputs)-{'execution','workforce'}:raise ValueError('Expected execution and workforce inputs only')
+    if not isinstance(inputs,dict) or set(inputs)-{'execution','workforce','fallback'}:raise ValueError('Expected execution, workforce and optional fallback inputs')
     if 'execution' in inputs and not isinstance(inputs['execution'],dict):raise ValueError('Execution must be an object')
     if 'workforce' in inputs and not isinstance(inputs['workforce'],dict):raise ValueError('Workforce must be an object')
+    if 'fallback' in inputs and not isinstance(inputs['fallback'],dict):raise ValueError('Fallback policy must be an object')
     w=Workforce(**inputs.get('workforce',{}));args=list(resource_architecture_inputs(inputs.get('execution')))
     args[1]=replace(args[1],accounts=args[1].accounts+(Account(OUTSIDE_BUYER,w.outside_buyer_opening_cash_cents),))
-    return (*args,w)
+    return (*args,w,FallbackReserve(**inputs['fallback']) if 'fallback' in inputs else None)
 
 
 def run_workforce_case(inputs=None):return run_shared_workforce(*workforce_case_inputs(inputs))
@@ -303,13 +377,16 @@ def replay_workforce_case(saved):
         f=dict(saved['finance']['inputs']);f['loans']=tuple(TermLoan(**x) for x in f['loans'])
         return run_shared_workforce(*restore_opening_inputs(saved),EnterprisePlan(**e),FinancePlan(**f),
             Bridge(**saved['calendar_bridge']['inputs']),ArchitectureExecution(**saved['architecture_execution']['inputs']),
-            read_resources(saved['annual_resources']['inputs']),read_components(saved['component_inventory']['inputs']),Workforce(**saved['shared_workforce']['inputs']))
+            read_resources(saved['annual_resources']['inputs']),read_components(saved['component_inventory']['inputs']),Workforce(**saved['shared_workforce']['inputs']),
+            FallbackReserve(**saved['fallback_reserve']['inputs']) if 'fallback_reserve' in saved else None)
     except (KeyError,TypeError,AttributeError) as exc:raise ValueError('Incomplete shared workforce replay inputs') from exc
 
 
 def workforce_worlds():
     human={'architecture':{'opening_robots':0,'new_robots':0}}
     surge=[20,20,20,20,40,40,40,40]
+    tight={'architecture':{'role_opening_cash_cents':{'customer':0,'operator':8_000_000}}}
+    thin={'architecture':{'architecture_id':'model_led_operator','role_opening_cash_cents':{'model_supplier':0}}}
     return {
         'fixed_crew_with_robots':{'workforce':{'target_blocks':None}},
         'notice_then_reduce':{},
@@ -320,6 +397,15 @@ def workforce_worlds():
         'stronger_human_dispatch':{'execution':{'architecture':{**human['architecture'],'annual_reference_overrides':{'digital_efficiency':0.25}}},'workforce':{'target_blocks':None}},
         'unfunded_outside_buyer':{'workforce':{'outside_buyer_opening_cash_cents':0}},
         'low_model_role_cash':{'execution':{'architecture':{'architecture_id':'model_led_operator','role_opening_cash_cents':{'model_supplier':0}}}},
+        'tight_site_no_reserve':{'execution':tight,'workforce':{'outside_jobs_by_month':surge},'fallback':{}},
+        'tight_site_purchase_reserve':{'execution':tight,'workforce':{'outside_jobs_by_month':surge},'fallback':{'purchase_floor_cents':2_000_000}},
+        'tight_site_reserve_without_overtime':{'execution':tight,'workforce':{'outside_jobs_by_month':surge,'overtime_minutes_per_month':0},'fallback':{'purchase_floor_cents':2_000_000}},
+        'model_operator_purchase_reserve':{'execution':thin,'fallback':{'purchase_floor_cents':4_000_000}},
+        'model_operator_late_reserve':{'execution':thin,'fallback':{'purchase_floor_cents':4_000_000,'active_from_month':2}},
+        'unfunded_model_supplier_reserve':{'execution':{'architecture':{'role_opening_cash_cents':{'model_supplier':0}}},'fallback':{'purchase_floor_cents':2_000_000}},
+        'one_robot_no_reserve':{'execution':{'architecture':{'opening_robots':1}},'fallback':{}},
+        'one_robot_excess_reserve':{'execution':{'architecture':{'opening_robots':1}},'fallback':{'purchase_floor_cents':100_000_000}},
+        'stronger_human_dispatch_surge':{'execution':{'architecture':{**human['architecture'],'annual_reference_overrides':{'digital_efficiency':0.25}}},'workforce':{'target_blocks':None,'outside_jobs_by_month':surge}},
     }
 
 

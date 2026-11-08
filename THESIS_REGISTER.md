@@ -151,3 +151,9 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 **Evidence-led refinement:** historical hospital AGV cases show why an apparent labor saving can coexist with paid redeployment and new oversight work. A stated manual contingency does not establish that the same people remain available after reassignment. [The primary-source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) therefore requires a joint duty calendar and funded response before staffing savings support a rollout. Anonymous cases, operating schedules and estimated counterfactual headcounts remain separate from named sites, uptime and removed payroll.
 
 **Falsifier:** matched complete-service and paid-duty records show the proposed transition, receiving duties and fallback are simultaneously feasible at the stated payer cost. An outsourced operating label or a historical payback claim is insufficient.
+
+## Liquidity protection versus whole-service value, edition 0.37
+
+**Conditional thesis:** a purchaser can preserve service by refusing discretionary hardware before it consumes cash needed for already-required work. [The common execution](research/shared_workforce.md#prospective-purchase-reserve-edition-037) makes that mechanism consequential and preserves the OEM's sunk manufacture, stock and lost sale cash. A late floor, absent extra crew or separate unfunded supplier defeats the apparent protection. An excessive floor can lose a feasible staffing option.
+
+**Challenge and decision:** lower crew cash still does not establish lower total resource cash: the stronger human comparator covers the identical surge at $53,500 versus $165,773.92 under the robot reserve premises. Do not infer lifecycle ROI, an optimal reserve or empirical staffing effects. Next challenge the same economics through customer retention, entry and recovery before extending hospital variants.

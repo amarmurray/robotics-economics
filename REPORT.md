@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.36, workforce evidence and fallback checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Historical primary hospital sources distinguish redeployment, operating windows, retained oversight and repair, and manual contingency from measured payroll savings or realized returns. Five source schedule calculations preserve anonymous case boundaries. Fourteen challenge families remain 196 worlds; all prior numerical outcomes are unchanged. Full empirical economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.37, prospective fallback purchase checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. A declared operator cash floor now affects hardware purchases, complete competing services and every payer. Paid OEM manufacture and stock remain; missing workers, distinct supplier funding and late action expose limits. Eighteen shared-workforce cases deepen fourteen challenge families containing 205 worlds. All earlier numerical outcomes and evidence quantities are preserved. Empirical whole-service economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -142,11 +142,17 @@ Edition 0.34's [hospital economic audit](research/field_support_denominators.md#
 
 The [staffing and operating-window audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) strengthens the hospital wait gate: redeployment, estimated staffing needs without AGVs and removed payroll are different outcomes. A receiving duty and robot-failure fallback can require the same worker. Verify their joint calendar, control/repair authority and funding before changing a paid commitment. Utility and automotive inherit these requirements without hospital coefficients. Existing synthetic worlds and all empirical missingness remain intact.
 
+### Funding fallback before optional purchases, edition 0.37
+
+[The prospective purchase test](research/shared_workforce.md#prospective-purchase-reserve-edition-037) joins a declared liquidity decision to the actual operator, physical stock, shared crew and Treasury. Keeping cash can preserve complete cleaning and competing work after a staffing notice, while leaving the OEM with paid unsold hardware. Retained cash cannot create qualified workers or fund a separate supplier; late activation cannot undo an acquisition. An excessive reserve can also delay a feasible staffing transition. The stronger human path remains a required comparator and uses less bounded resource cash in the matched surge world. No optimal reserve, target ROI or empirical staff reduction follows.
+
+This completes a bounded decision bridge, not the campaign. Prioritize joining customer retention/entry and contractual recovery to feasible service and payer cash, with direct digital coordination and model qualification retained. Six-cell joint execution, matched empirical whole-service cost and substantial H/I/J/K acceptance remain partial.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
 
-Decision campaign, integrated checkpoint 0.26 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.37 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -341,6 +347,21 @@ All three packs inherit the need for actual shared-resource identity, complete c
 #### Workforce, service window and provider evidence, edition 0.36
 
 Two [primary historical sources](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) test the staffing transition behind the deployment packs. Preserve anonymous configuration, observation period, expanded-building counterfactual and actual operating organization. Staff redeployment can be useful without current payroll removal; a manual contingency still needs available qualified people and cash. A provider handling bundled services does not reveal machine title, maintenance authority or profit. Proceed/wait/reject gates now require the receiving duties and fallback to remain jointly feasible. No schedule is promoted to measured robot exposure, and no source headcount/payback calibrates the model.
+
+#### Fallback liquidity and the next integration boundary, edition 0.37
+
+[The eighteen-world workforce package](research/shared_workforce.md#prospective-purchase-reserve-edition-037) now tests a prospective purchase floor, complete competing workloads and counterparty cash. Nine additions deepen DE-CF01; fourteen campaign families contain **205 worlds**. These are bounded comparisons, not an optimized policy or one joint portfolio. Existing six-cell evidence and all legacy scenario outcomes remain preserved.
+
+| Decision pack / retained cell | What this bridge establishes conditionally | Next unresolved decision |
+| --- | --- | --- |
+| Hospital logistics | Payer liquidity and qualified fallback capacity must be checked separately after redeployment | Actual receiving-duty rosters, urgency/custody coverage and paid response terms |
+| Utility inspection | Cash retained for mobile expansion need not supply the residual human route | Matched complete inspection/review work, mandatory visits and funded outage response |
+| Automotive presentation | Refused purchase leaves prior production cost and stock at the OEM | Stable-takt conventional alternative, new-generation qualification and recovery of paid stranded work |
+| Floor cleaning | One actual synthetic crew, two due services, prior-service notice and optional purchase floor execute together | Connect service/price retention to newco/incumbent and acquisition decisions without a second fleet or Treasury |
+| 3PL tote handoff | A service fee or transaction label does not finance every provider role | Operator acceptance, real support/payment terms and retention at equal technology |
+| Construction installation | Funds, worker authority and job completeness remain separate gates | Complete setup/installation obligations and digitally improved specialist/human baseline |
+
+The integration queue is now explicit. First reconcile the competitive renewal and entry-transition interfaces with one service and cash history: preserve incumbent/entrant identities, inherited liabilities and cash-funded customer acquisition. Then join eligible recovery/relocation without treating paid title as supported operation. Finally test whether learning eligibility, failed-trial cost, qualified parts and architecture rights move that same business's service date, rather than citing a separate favorable learning world. The current workforce fixture has one active business and must not be relabeled as a competitor model; establish compatible contracts before composing modules. Keep all six cells and the three selected packs visible, and preserve substantial digital-AI ecosystem, physical supply and frontier-model work beyond this local cleaning execution.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1281,7 +1302,7 @@ Generated from [observed_research_summary.json](model/results/observed_research_
 
 Authoritative analysis: [research/shared_workforce.md](research/shared_workforce.md).
 
-Edition 0.35 · synthetic execution and decision challenge, not empirical deployment economics.
+Editions 0.35–0.37 · synthetic execution and decision challenge, not empirical deployment economics.
 
 The [hospital economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) made the missing organizational bridge explicit: released minutes do not identify paid staffing that can disappear. The new [shared-workforce contract](model/SHARED_WORKFORCE.md) executes that bridge conditionally. A single paid site crew must cover local robot attention, inventory jobs, robot handling and manual cleaning. A notice policy can reduce a future commitment; actual funds buy extra capacity; both service obligations and every payer remain visible.
 
@@ -1311,7 +1332,27 @@ For hospital logistics, qualify the entire request cohort and all retained handl
 
 Proceed with a bounded comparison only when the required service, actual shared resource identity and funding can be specified. Wait when the business case relies on an unverified staffing transition or unpriced fallback. Reject a lower-cost comparison that misses required work, spends the same worker time twice, counts future receipts as available cash, or treats a proposed staffing cut as a measured payroll result. Keep the improved human/specialist alternative in the same decision set.
 
-[The complete export](model/results/shared_workforce.json) contains nine replayable worlds with notice events, minute bookings, distinct service totals, role accounts and all invoices. It deepens DE-CF01 rather than inventing a new challenge family: fourteen families now contain 196 bounded worlds. These are independent comparisons, not one simultaneously feasible six-market portfolio. Full empirical cost, rights, organization and broad cross-module integration remain partial.
+The initial edition 0.35 of [the complete export](model/results/shared_workforce.json) contained nine replayable worlds with notice events, minute bookings, distinct service totals, role accounts and all invoices. It deepens DE-CF01 rather than inventing a new challenge family: fourteen families then contained 196 bounded worlds. These are independent comparisons, not one simultaneously feasible six-market portfolio. Full empirical cost, rights, organization and broad cross-module integration remain partial.
+
+#### Prospective purchase reserve, edition 0.37
+
+The [historical workforce audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) identified the need for jointly staffed receiving duties and fallback. This extension tests one funding response inside the same execution. It does not turn a source's manual contingency into available workers. Nine additional worlds bring this package to eighteen; all nine original worlds retain their numerical outcomes. The same fourteen campaign challenge families now contain 205 bounded worlds, not one simultaneously feasible portfolio.
+
+**The decision is a prospective operator cash floor on optional hardware purchase.** The independent OEM funds manufacture; the operator pays for delivered hardware and site crew time. At each shipment, the policy compares actual operator cash remaining after that purchase group with a fixed, declared floor. The activation month is also fixed at opening. Neither future workload nor future receipts enter this decision. The policy keeps existing support, commissioning, mandatory liabilities and overtime ordering intact. These payments can consume retained cash: the floor is a purchase rule, not escrow, an expense, a worker guarantee or an optimized liquidity requirement. Refusal counts describe repeated decisions and can include already-unaffordable quotes; inspect the matched zero-floor case to identify the policy effect.
+
+The constrained-site comparison starts with $80,000 in the legally combined customer/operator account, the existing two robots and a later rise from twenty to forty inventory jobs per month. With no floor, one new robot is purchased in November and only commissioned in February. That last month's extra crew booking cannot be prepaid: only seven months satisfy both services, with 3,530 of 4,000 cleaning zones and 238 of 240 inventory jobs delivered. A declared $20,000 purchase floor refuses the deliveries, retains the existing two-robot fleet and funds $4,480 of extra crew time. It delivers all 4,000 zones and 240 jobs. Regular staffing remains $22,000 in both cases; there is no retroactive notice reversal or free replacement staff.
+
+The operator's protection has a counterparty consequence. Both worlds already manufactured two units for $72,000. Under the reserve they remain finished OEM stock; the manufacture is not refunded or removed from resource cost. OEM closing cash is $128,000 rather than $187,900 after one sale and its shipment cost. Operator closing cash is $79,792.80 rather than $1,154.85. Purchase fees, OEM resource payments and retained assets are separate; no reserve amount is added to the consolidated bill.
+
+A second case tests the previously thin model-led operator. A $40,000 floor active before the August purchase retains two supported robots and complete service. Starting the same policy in September cannot reverse the earlier acquisition or the binding staffing notice: the final service failure remains. The first purchase leaves exactly $38,418.16 available. A floor at that value admits it; one cent more refuses it and changes the later outcome. This is an exact test of the declared admission rule, not an empirically sufficient reserve or a search for the optimal policy. Existing obligations can still consume liquidity after admission.
+
+Cash and capacity must both exist. Removing extra crew availability from the $20,000-reserve surge case leaves only four complete months, 2,000 zones and 236 inventory jobs, despite more than $55,000 remaining in the operator account. Conversely, an independent model supplier with no initial funding remains unable to qualify/support robots even while the operator holds cash. The paid human fallback covers that case under the declared overtime contract; no money is silently transferred between legal actors. These worlds assume qualified extra crew can respond within the current month up to its ceiling, with full prepayment. They establish neither actual availability nor a hiring, training or response-time entitlement.
+
+A very high floor can reject useful expansion. With only one opening robot, admitting the two new units produces twenty supported robot-months and permits a later staffing notice, retaining $26,000 of regular staffing. A deliberately excessive $1 million floor leaves eight supported robot-months, more human cleaning and $32,000 of staffing. Both deliver complete service; the blocked-investment case still has lower bounded resource cash. The lost staffing option therefore does not establish that the investment would have earned a return.
+
+The comparator remains consequential. The stronger assumed human-dispatch path covers the same 4,000-zone/240-job surge, paying $32,000 regular staffing and $9,600 extra capacity, with $53,500 total external resource cash. The reserve-protected robot case pays less crew cash but $165,773.92 total external resource cash. Opening hardware, terminal stock, future claims and unmodeled transition costs prevent a lifecycle or ROI ranking. The assumed human improvement also requires empirical qualification; it is not observed AI performance.
+
+For the three decision packs, require a payer-specific budget and actual qualified response capacity, preserve the service receiving reassigned labor, and test late action and counterparty costs. Do not fund a hospital, utility or workcell decision with these cleaning rates or reserve values. The next campaign priority is the competition/entry/recovery interface and stronger digital-human alternatives across the six cells, not another series of hospital-specific reserve variants.
 
 #### Reproduced shared-workforce executions
 
@@ -1326,6 +1367,15 @@ Proceed with a bounded comparison only when the required service, actual shared 
 | stronger_human_dispatch | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 0.00 | 43,900.00 |
 | unfunded_outside_buyer | 8 | 4,000.00 | 160 / 160 | 22,000.00 | 0.00 | 223,289.36 |
 | low_model_role_cash | 7 | 3,970.13 | 160 / 160 | 22,000.00 | 0.00 | 192,643.74 |
+| tight_site_no_reserve | 7 | 3,530.00 | 238 / 240 | 22,000.00 | 3,360.00 | 190,528.54 |
+| tight_site_purchase_reserve | 8 | 4,000.00 | 240 / 240 | 22,000.00 | 4,480.00 | 165,773.92 |
+| tight_site_reserve_without_overtime | 4 | 2,000.00 | 236 / 240 | 22,000.00 | 0.00 | 159,793.92 |
+| model_operator_purchase_reserve | 8 | 4,000.00 | 160 / 160 | 22,000.00 | 0.00 | 164,627.36 |
+| model_operator_late_reserve | 7 | 3,970.13 | 160 / 160 | 22,000.00 | 0.00 | 192,643.74 |
+| unfunded_model_supplier_reserve | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 7,680.00 | 51,580.00 |
+| one_robot_no_reserve | 8 | 4,000.00 | 160 / 160 | 26,000.00 | 0.00 | 199,592.40 |
+| one_robot_excess_reserve | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 0.00 | 143,596.96 |
+| stronger_human_dispatch_surge | 8 | 4,000.00 | 240 / 240 | 32,000.00 | 9,600.00 | 53,500.00 |
 
 Generated from [shared_workforce.json](model/results/shared_workforce.json), preserving separate service denominators and complete opening inputs. Lower outlay with missed work is not a valid savings comparison. Payments exclude uncollected/future-due claims and unmodeled lifecycle/transition costs; no empirical payroll effect or ROI is inferred.
 

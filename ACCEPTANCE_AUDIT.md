@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: historical workforce evidence, edition 0.36
+## New decision campaign: prospective purchase reserve, edition 0.37
+
+The [bounded policy](research/shared_workforce.md#prospective-purchase-reserve-edition-037) advances DE-03/06/08/09/10 through actual payer admission, complete competing work, retained OEM stock and explicit adverse funding/capacity. No empirical requirement is closed, and the same campaign remains active through **2026-11-14T20:12:27Z**. The next integration priority is competition/entry/recovery across the retained six-cell program.
+
+Fresh cloud validation passes **505 Python tests** in 355.669s, **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands**. Three exact exports (frontier, full workforce and source arithmetic) match. All **13 dashboard views** render without observed JavaScript/API errors. All **18 workforce worlds** match complete saved executions in the browser. Exact one-cent purchase and one-minute capacity switches, late activation, reserve ledger, full replay ignoring forged outcomes, pending/invalid/stale protection, shared view state and scenario export/reload pass. Six prior reference panels, two exact historical source drawers, source hashes and scope independence remain verified. Both reserve-panel screenshots were visually inspected.
+
+All **1,414,444 prior typed numeric fields across 36 JSON result artifacts**, and prior non-fingerprint semantics, remain unchanged. 24 artifacts are byte-identical; 12 change only exact evidence/source identities and dependent hashes, plus the nine new complete workforce cases. The optional policy is confined to `model/shared_workforce.py`; all other prior model modules, numerical assumptions, source records and labor rows are unchanged. All 69 legacy requirement statuses and 65 question statuses remain, with **53 bounded met / 16 partial**. Evidence remains **13 packages, 220 claims, 498 reported quantities and 146 explicit-null markers**. The same fourteen families now contain **205 independent worlds**; empirical and joint-program gaps remain partial.
+
+All 348 manifest hashes and 849 relative Markdown links verify. See the [sole-writer review](reviews/shared_workforce_review.md#edition-037-sole-writer-reserve-review).
+
+## Previous decision checkpoint: historical workforce evidence, edition 0.36
 
 The [source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) advances DE-02/06/09/10 through operating-window, redeployment, retained-work and provider-boundary evidence. All broad empirical requirements retain their partial status. No current payroll or whole-service return is identified, and historical source estimates do not calibrate scenarios. The same campaign remains active through **2026-11-14T20:12:27Z**.
 

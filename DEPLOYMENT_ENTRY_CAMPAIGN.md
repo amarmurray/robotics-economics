@@ -122,3 +122,7 @@ Nine [staffing and competing-work worlds](research/shared_workforce.md) deepen D
 ## Historical workforce and fallback checkpoint, edition 0.36
 
 The [primary-source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) adds five anonymous hospital configurations, a separate named government case, five schedule calculations and eight unknown outcomes. It challenges paid-staffing and contingency assumptions through actual reported organizational context. No new synthetic worlds or empirical calibration: fourteen families remain 196 worlds. The sole writer, same active clock and full-scope acceptance contract persist.
+
+## Prospective fallback purchase checkpoint, edition 0.37
+
+Nine additional [shared-workforce worlds](research/shared_workforce.md#prospective-purchase-reserve-edition-037) deepen DE-CF01 without adding a family: fourteen families now contain 205 bounded worlds. A fixed operator purchase floor can preserve complete service and funded extra crew while leaving paid manufacture and stock at the OEM. Late action, missing qualified capacity, distinct supplier funding and an excessive floor expose the limits. The stronger human path covers the same surge at lower bounded resource cash. This is the same active T0/deadline and sole-writer campaign, not completion or empirical calibration. The next priority is compatible competition/entry/recovery integration across the retained six-cell program.

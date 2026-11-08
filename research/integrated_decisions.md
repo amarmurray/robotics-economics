@@ -108,3 +108,9 @@ Edition 0.34's [hospital economic audit](field_support_denominators.md#hospital-
 ## Historical workforce evidence, edition 0.36
 
 The [staffing and operating-window audit](field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) strengthens the hospital wait gate: redeployment, estimated staffing needs without AGVs and removed payroll are different outcomes. A receiving duty and robot-failure fallback can require the same worker. Verify their joint calendar, control/repair authority and funding before changing a paid commitment. Utility and automotive inherit these requirements without hospital coefficients. Existing synthetic worlds and all empirical missingness remain intact.
+
+## Funding fallback before optional purchases, edition 0.37
+
+[The prospective purchase test](shared_workforce.md#prospective-purchase-reserve-edition-037) joins a declared liquidity decision to the actual operator, physical stock, shared crew and Treasury. Keeping cash can preserve complete cleaning and competing work after a staffing notice, while leaving the OEM with paid unsold hardware. Retained cash cannot create qualified workers or fund a separate supplier; late activation cannot undo an acquisition. An excessive reserve can also delay a feasible staffing transition. The stronger human path remains a required comparator and uses less bounded resource cash in the matched surge world. No optimal reserve, target ROI or empirical staff reduction follows.
+
+This completes a bounded decision bridge, not the campaign. Prioritize joining customer retention/entry and contractual recovery to feasible service and payer cash, with direct digital coordination and model qualification retained. Six-cell joint execution, matched empirical whole-service cost and substantial H/I/J/K acceptance remain partial.

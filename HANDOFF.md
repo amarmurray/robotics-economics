@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.36.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.37.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: historical workforce and fallback evidence, edition 0.36
+## Current checkpoint: prospective fallback purchase reserve, edition 0.37
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Accepted input `c56373c97d8e67a085a65875e9c80d27d4ede0fd` matched clean local and remote main at resumption. Actual cloud shell, reproduction and browser execution advanced this checkpoint. No runtime or usage failure is observed. Native goal/usage/reset controls and serving-model identity remain unexposed; no new goal, schedule, agent, reset or continuous-execution claim is made.
+
+The [purchase-floor extension](research/shared_workforce.md#prospective-purchase-reserve-edition-037) uses only the actual operator's current cash, the optional purchase group and a fixed declared floor/activation date. It buys no staffing entitlement and does not constrain unrelated OEM manufacture. In the cash-constrained surge, retaining liquidity preserves all 4,000 cleaning zones and 240 inventory jobs; the unprotected purchase leaves 3,530 zones and 238 jobs. Its November purchase only qualifies in February, when overtime funding fails. Both keep the prior staffing notice and $72,000 manufacture; refused units remain OEM stock. The independent supplier, unavailable overtime, late policy and excessive-floor cases expose the limits. The stronger human comparator completes the same surge with $53,500 bounded resource cash versus $165,773.92 in the reserve-protected robot case; neither is a lifecycle ROI estimate.
+
+Fresh cloud validation passes **505 Python tests** in 355.669s, **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands**. Three exact exports (frontier, full workforce and source arithmetic) match. All **13 dashboard views** render without observed JavaScript/API errors. All **18 workforce worlds** match complete saved executions in the browser. Exact one-cent purchase and one-minute capacity switches, late activation, reserve ledger, full replay ignoring forged outcomes, pending/invalid/stale protection, shared view state and scenario export/reload pass. Six prior reference panels, two exact historical source drawers, source hashes and scope independence remain verified. Both reserve-panel screenshots were visually inspected.
+
+All **1,414,444 prior typed numeric fields across 36 JSON result artifacts**, and prior non-fingerprint semantics, remain unchanged. 24 artifacts are byte-identical; 12 change only exact evidence/source identities and dependent hashes, plus the nine new complete workforce cases. The optional policy is confined to `model/shared_workforce.py`; all other prior model modules, numerical assumptions, source records and labor rows are unchanged. All 69 legacy requirement statuses and 65 question statuses remain, with **53 bounded met / 16 partial**. Evidence remains **13 packages, 220 claims, 498 reported quantities and 146 explicit-null markers**. The same fourteen families now contain **205 independent worlds**; empirical and joint-program gaps remain partial.
+
+All **348 manifest hashes** and **849 relative Markdown links** verify. Review is sole-writer self-review.
+
+**Remaining empirical limits:** matched current payroll/rosters, qualified fallback response and costs, complete accepted on-time service, transferable rights, all-actor cash and terminal/lifecycle values remain unestablished. No new source was calibrated or inaccessible route retried. No runtime or publication blocker is currently observed.
+
+**Next execution:** prioritize the compatible competition/entry/recovery interface, using the six-cell reassessment in [the decision synthesis](research/deployment_entry_decisions.md#fallback-liquidity-and-the-next-integration-boundary-edition-037). The workforce/architecture fixture has one active business; competition and acquisition have distinct two-business contracts. First specify a single actor mapping, opening liabilities, service and cash history. Reuse existing renewal and entry contracts where compatible, keep equal technology and stronger digital-human alternatives, and preserve paid failed work and qualification after title transfer. Do not relabel independent worlds as integrated execution or add further hospital-only reserve variants. Substantial H and full A–K/I/J/K scope remain.
+
+**Next question:** when feasible complete service changes retention or acquisition value, which customer/operating path remains funded through transition and recovery without hiding failed work or pooling separate actors' cash?
+
+## Previous checkpoint: historical workforce and fallback evidence, edition 0.36
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Accepted input `20a81cd0cd765602764bad36f0068922742b5150` matched clean local and remote main at resumption. Actual cloud shell, source retrieval, reproduction and browser commands executed. No current usage failure is observed; quota, serving-model identity and native goal creation/stop controls remain unexposed. No continuous-execution claim is made.
 

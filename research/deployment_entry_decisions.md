@@ -1,6 +1,6 @@
 # Deployment and entry decisions: service before scale
 
-Decision campaign, integrated checkpoint 0.26 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.37 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -195,3 +195,18 @@ All three packs inherit the need for actual shared-resource identity, complete c
 ## Workforce, service window and provider evidence, edition 0.36
 
 Two [primary historical sources](field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) test the staffing transition behind the deployment packs. Preserve anonymous configuration, observation period, expanded-building counterfactual and actual operating organization. Staff redeployment can be useful without current payroll removal; a manual contingency still needs available qualified people and cash. A provider handling bundled services does not reveal machine title, maintenance authority or profit. Proceed/wait/reject gates now require the receiving duties and fallback to remain jointly feasible. No schedule is promoted to measured robot exposure, and no source headcount/payback calibrates the model.
+
+## Fallback liquidity and the next integration boundary, edition 0.37
+
+[The eighteen-world workforce package](shared_workforce.md#prospective-purchase-reserve-edition-037) now tests a prospective purchase floor, complete competing workloads and counterparty cash. Nine additions deepen DE-CF01; fourteen campaign families contain **205 worlds**. These are bounded comparisons, not an optimized policy or one joint portfolio. Existing six-cell evidence and all legacy scenario outcomes remain preserved.
+
+| Decision pack / retained cell | What this bridge establishes conditionally | Next unresolved decision |
+| --- | --- | --- |
+| Hospital logistics | Payer liquidity and qualified fallback capacity must be checked separately after redeployment | Actual receiving-duty rosters, urgency/custody coverage and paid response terms |
+| Utility inspection | Cash retained for mobile expansion need not supply the residual human route | Matched complete inspection/review work, mandatory visits and funded outage response |
+| Automotive presentation | Refused purchase leaves prior production cost and stock at the OEM | Stable-takt conventional alternative, new-generation qualification and recovery of paid stranded work |
+| Floor cleaning | One actual synthetic crew, two due services, prior-service notice and optional purchase floor execute together | Connect service/price retention to newco/incumbent and acquisition decisions without a second fleet or Treasury |
+| 3PL tote handoff | A service fee or transaction label does not finance every provider role | Operator acceptance, real support/payment terms and retention at equal technology |
+| Construction installation | Funds, worker authority and job completeness remain separate gates | Complete setup/installation obligations and digitally improved specialist/human baseline |
+
+The integration queue is now explicit. First reconcile the competitive renewal and entry-transition interfaces with one service and cash history: preserve incumbent/entrant identities, inherited liabilities and cash-funded customer acquisition. Then join eligible recovery/relocation without treating paid title as supported operation. Finally test whether learning eligibility, failed-trial cost, qualified parts and architecture rights move that same business's service date, rather than citing a separate favorable learning world. The current workforce fixture has one active business and must not be relabeled as a competitor model; establish compatible contracts before composing modules. Keep all six cells and the three selected packs visible, and preserve substantial digital-AI ecosystem, physical supply and frontier-model work beyond this local cleaning execution.
