@@ -285,3 +285,8 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Empirical challenge after compatible component execution, edition 0.31
 
 [The typed component contract](research/component_execution.md) now connects manufacturing compatibility, actual qualification and named replacements to the shared paid monthly loop. It does not validate the fixed repair-labor/support bundle, supplier consignment or actual product BOM. Next prioritize a public primary target service/configuration/commercial record capable of changing those assumptions for one of the three packs. Preserve complete service, failed interventions, retained work, rights and supplier financing. Do not repeat exhausted restricted-source searches or add favorable scenarios for count. Full annual maintenance/supply portfolio execution and empirical economics remain partial; the original campaign clock continues.
+
+
+## Inspection readiness challenge, edition 0.32
+
+[The inspection-readiness challenge](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) preserves six unknowns after primary-source review. Detailed maintenance access remains restricted; do not repeat exhausted routes or register/contact. Next pursue substantial H through a fixed-objective digital-to-qualified-service critical path that counts failed work, physical validation and a strong conventional alternative. Reopen this source branch when a configured maintenance/service ledger or applicable executed support scope becomes available.

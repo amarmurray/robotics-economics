@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: compatible components and replacements, edition 0.31
+## New decision campaign: inspection readiness evidence, edition 0.32
+
+[The source audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) advances service/work/rights questions without new numerical model parameters or synthetic cases. Detailed repair access, configured economics and measured outcomes remain missing. Broad criteria retain their partial status; fourteen families / 174 worlds remain bounded executable coverage, not empirical completion.
+
+Fresh validation passes **451 Python tests** in 252.311 seconds, **36 Node assertions**, fifteen JavaScript syntax checks and all **43 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. The new source panel works in four views with five gates, three dated stages, six quantities, six explicit unknowns and five exact source drawers. The greater-than qualifier, source/cell filters, scenario independence and exact hashed source export pass. All eight prior component browser worlds and four other reference panels still match their complete exports. Component null/custom controls, invalid/pending/stale protections, forged-output full replay and ordinary scenario export/reload pass. The source panel was visually inspected.
+
+All **1,250,698 prior typed numeric fields across 34 result JSONs** and their non-fingerprint semantics are unchanged. 23 files remain byte-identical; 11 change only updated evidence fingerprints or dependent identities. All model modules and numerical assumptions remain byte-identical, as does the complete observed-source arithmetic export. Earlier source records, TenneT episodes, atlas/labor rows, 69 legacy requirement statuses and 65 question statuses are preserved. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families / **174 worlds** remain unchanged. The registry now holds 13 packages, 214 claims, 441 quantities and 133 explicit-null markers. **331 manifest hashes and 761 relative Markdown links** verify without broken paths.
+
+The campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/inspection_readiness_review.md). This checkpoint does not stop the objective.
+
+## Previous decision checkpoint: compatible components and replacements, edition 0.31
 
 [The component integration](research/component_execution.md) maps a whole compatible manufacturing BOM and discrete replacements to actual paid execution. Receipt, qualification, manufacturing authority and service priority remain distinct. Strong paid human capacity still preserves total market output. DE-03 advances within its partial scope; actual maintenance, supplier funding, annual portfolio supply and broader architecture combinations remain incomplete. DE-08 retains bounded met status with fourteen families / 174 worlds. This is no empirical full-service or campaign completion claim.
 

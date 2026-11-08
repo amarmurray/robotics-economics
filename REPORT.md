@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.31, compatible-component and maintenance checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Named compatible whole parts, received/qualified states and discrete replacements now gate funded monthly execution alongside annual support and competition. The generic contract remains unchanged in behavior. Fourteen bounded challenge families now contain 174 worlds; previous numerical results are preserved. Actual target repair labor, costs, qualification and full annual portfolio supply remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.32, inspection-readiness evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Operator rollout, projected plant benefits, retained customer work and unverified robot-repair obligations now have separate decision gates. Five primary records deepen the existing inspection package without calibrating scenarios. Fourteen bounded challenge families and 174 worlds remain numerically unchanged. Full target service economics and broad integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -302,6 +302,11 @@ The [source audit](research/commercial_disclosure_boundaries.md) strengthens the
 #### Compatible components and dated maintenance, edition 0.31
 
 [Eight component worlds](research/component_execution.md) connect a synthetic catalog manufacturing BOM to actual whole-part issues in the existing monthly physical/Treasury loop. Qualified and quarantined inventories, explicit replacement requirements, annual support ceilings and contingent funding remain separate constraints. No annual spare average becomes a repair schedule. Human/conventional capacity still tests the inference from lost robot service to lost total output. All three packs inherit the compatibility, receipt/qualification and funded continuity questions without importing synthetic parts or prices. Fourteen families / 174 worlds remain bounded coverage; target maintenance, supplier financing and joint annual portfolio supply remain incomplete.
+
+
+#### Inspection readiness challenge, edition 0.32
+
+The [inspection-readiness audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds matched-service, retained-work and configured-support gates to all three packs. Cross-sector source questions transfer; rates, prices, rights and projected benefits do not. All broad requirements remain partial, and fourteen families / 174 worlds remain unchanged.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1925,6 +1930,11 @@ The replacement vector and its inclusion within the fixed support labor/cash bun
 
 The annual aggregate spare flow is not yet a discrete failure process, and the declared component receipts do not execute the other annual markets or supplier financing. The model therefore remains partial on joint portfolio feasibility and empirical whole-service economics. Fourteen challenge families now include 174 bounded worlds; their results must not be added as one company plan.
 
+
+#### Inspection readiness challenge, edition 0.32
+
+The [primary-source readiness challenge](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) leaves the assumed support/parts bundle and supplier consignment unvalidated. Customer integration and review require their own measured work boundary. Plant-repair benefits cannot calibrate robot replacement needs. All eight component worlds retain their original numerical results.
+
 #### Reproduced compatible-component worlds
 
 | Synthetic component world | Funded starts | Rejected units | Completed replacements | First-year robot-months | All accepted zones | Entrant accepted zones |
@@ -2739,9 +2749,9 @@ The highest-priority next work is a matched recurring inspection cohort: accepte
 
 Authoritative analysis: [research/quadruped_operator_followup.md](research/quadruped_operator_followup.md).
 
-Follow-up edition 0.2 · 25 October 2026 · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+Follow-up edition 0.4 · 8 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
 
-This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The requested Astra/Ultra configuration remains unverified at runtime.
+This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The earlier worker’s requested Astra/Ultra configuration was unverified; current campaign serving identity also remains unexposed.
 
 The consequential result is that industrial inspection coverage can remain incomplete after autonomous navigation works. TenneT’s 2018 offshore trial assessed 385 instruments in three rooms, with room-specific inspectable shares of 92%, 85% and 54%. Hidden valves, doors and operating restrictions constrained coverage. Its later onshore program explicitly selected points suited to the robot, while the public evaluation material left costs and results unfilled. Neither episode supports a percentage reduction in maintenance employment. The public record also does not establish that either project was abandoned.
 
@@ -2808,6 +2818,41 @@ This bounded investigation found two decision-relevant episodes but no public, c
 
 The [residual-visit analysis](research/utility_inspection_decision.md) and QOF-CMP-UTILITY-RESIDUAL in the existing structured package now compare qualified fixed, wheeled, quadruped and mixed sensing against complete due service. QOF-E09..E11 retain their separate source roles and access limits. The executable DE-CF03 challenge uses synthetic assumptions; it does not add a third quadruped economic dossier, resolve the historical retention gaps or price actual avoided outages.
 
+
+#### Rollout, retained work and robot repair, edition 0.32
+
+The new **QOF-AUDIT-READINESS-01** adds a European steel-inspection comparator to the same evidence package. It strengthens the customer-work and support challenge without adding labor totals, a calibrated economic dossier or a synthetic world. Earlier TenneT cohort and field-coverage gaps remain unresolved.
+
+Outokumpu’s [June 2023 announcement](https://www.outokumpu.com/en/news/2023/outokumpu-is-the-first-in-the-steel-industry-to-use-robotics-in-safety-management-%E2%80%93-supporting-the-vision-of-achieving-the-lowest-accident-frequency-rate-in-the-industry-by-2025-3286722) frames exposure and hazardous plant-repair reductions as expectations, while describing partial task automation without replacing the workforce. [QOF-E12]
+
+The [June 2024 operator update](https://www.outokumpu.com/en/news/2024/outokumpu-to-expand-the-use-of-robotics-in-safety-management-%E2%80%93-first-anymal-robot-%E2%80%9Cjokkeri%E2%80%9D-started-operating-at-the-company%E2%80%99s-site-in-tornio%2C-finland-3460793) reports three operating robots and Avesta inspection frequencies. It attributes the safety percentages to the earlier estimate. This supports dated rollout, not a measured realization of those benefits. [QOF-E13]
+
+An [October 2023 interview republished by ANYbotics in November](https://www.anybotics.com/news/this-is-how-outokumpu-wants-to-make-work-safer/) describes substantial internal learning, IT/supplier coordination and manual anomaly escalation before integration. Purchase language in its introduction and RaaS language in a caption remain unreconciled; neither determines executed title. [QOF-E14]
+
+These sources alter the measurement contract in four ways.
+
+**Separate the two maintenance systems.** The robot inspects a plant whose equipment may need repair; the robot itself also needs support, parts and qualification. A claim about avoided plant repairs cannot set the robot’s replacement probability, technician hours or spare budget. An avoided hazardous intervention may matter without reducing a paid shift. Both systems need their own event and work records before their costs or benefits can be combined.
+
+**Keep the customer’s work visible.** Supplier fees and robot support do not automatically cover site knowledge, mission design, IT access, data integration, review, escalation and action authority. Those tasks may use existing staff without extra headcount, yet still consume capacity. Reassigning a worker is not a zero-resource event. The appropriate counterfactual includes a competent human inspection route with digital records and qualified fixed sensing, plus the same decision and maintenance obligations.
+
+**Count accepted due service.** Repeated point frequencies can represent useful monitoring without expanding unique coverage. Define the original due set, measurement quality, deadline and accepted disposition. Identify excluded points, failed captures, repeats and residual physical duties. More data is not itself an avoided visit, a correct diagnosis or a completed repair. An increased-monitoring case needs a separate action/outcome counterfactual rather than a payroll-saving proxy.
+
+**Resolve the applicable service boundary.** The [public support portal](https://support.anybotics.com/) distinguishes operator/researcher entry; the followed manual and knowledge-base routes required authentication. No detailed maintenance procedure was read. [QOF-E15] The [onboarding page](https://www.anybotics.com/get-started/) advertises serviced RaaS, commissioning and maintenance/repair. It supplies no executed target restoration or inclusive-work contract. [QOF-E16] The training website’s terms concern its learning service and were not promoted to robot warranty terms. Current product marketing cannot identify a historical deployment’s exact configuration.
+
+##### Consequences for the three packs and the model
+
+For **utility inspection**, require the exact sensing configuration, complete due-point ledger, customer review/integration work and funded robot repair/requalification. Keep fixed sensing, human routes and residual field visits. For **hospital logistics**, transfer only the question: clinical handoff, urgency coverage, process authority and fallback remain target obligations. For **automotive presentation**, retain line-side integration, generation validation and intervention work; inspected points are not accepted production kits. No steel-site rate, price, title or maintenance entitlement is imported into those packs.
+
+The [component execution](research/component_execution.md) assumes replacement labor and parts inside an existing paid support bundle, with supplier consignment before issue. These public records do not price or validate either assumption. They add a distinct customer-work requirement to any empirical test. Keep the synthetic mechanism and all earlier numerical outcomes unchanged until matched evidence supports a separate, reviewable parameter change.
+
+Proceed with a bounded evaluation when accepted service, exact configuration, work ownership, support rights and funded fallback reconcile. Wait on labor-substitution or rollout economics while those records remain missing. Reject a proposed inference that turns plant-repair projections into robot spare rates, repeated capture into complete service, a service label into unlimited coverage, or retained staff into zero cost.
+
+##### Retrieval and remaining evidence
+
+Five public HTML records were read and fingerprinted on 8 November 2026. Manufacturer-republished operator statements remain one attributed lineage, not independent validation. Detailed maintenance access was not bypassed, and no registration, contact or purchase occurred. A TenneT-domain robots restriction was respected. Later retention was not established by this bounded search; absence is not abandonment.
+
+Six outcomes remain explicitly unknown: accepted due-point service, all-actor work, robot replacement/requalification, configured cost/rights, realized exposure effects and later operating retention. Seek a dated configured maintenance-and-service ledger or an executed applicable support scope. The next independent research priority is the substantial-H critical path from digital improvement to qualified operating benefit, retaining failed work and conventional alternatives; do not repeat these access-limited searches merely to add sources.
+
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
@@ -2863,6 +2908,11 @@ A required field duty or presence policy keeps visits even with complete reading
 **Reject a particular proposed substitution** when it drops a due point or duty, assumes review is free, misses fallback deadlines, treats captures as accepted service, or requires cancelling a paid commitment that remains. Rejecting that business case does not imply the sensor has no informational value.
 
 The next decisive artifact is a complete point/window ledger linked to crew schedules and maintenance work orders. It should show pre-existing requirements, eligible and excluded points, capture/review outcomes, failures and repeats, remote-support and field person-time, visit purpose, actual staffing/contract changes, cash timing, exact configuration and supplier responsibility. Compare improved human records, fixed sensing and the least complex qualified mobile configuration on that same population. Until then, the model's switch points organize measurement; they do not justify an investment ranking.
+
+
+#### Inspection readiness challenge, edition 0.32
+
+The [rollout/readiness audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds a European steel-inspection comparator. Keep customer integration/review, plant-maintenance benefits and robot-maintenance burdens separate. Historical rollout, repeated point activity and serviced-RaaS marketing do not establish complete accepted due service, avoidable paid visits or configured repair coverage. The eighteen synthetic inspection worlds remain unchanged.
 
 #### Reproduced inspection-window worlds
 

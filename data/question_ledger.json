@@ -557,13 +557,16 @@
       "evidence_method": "Map governance, procurement, premises/workflow control, investment responsibility, data access and gain retention; join BM-02's rights map.",
       "dependencies_and_completion": "W1 customer-decision map after PL-03 and DL-01 scope definition. Deepen with disclosed operating/governance evidence.",
       "findings": [
-        "Client permissions, service contracts and data/software terms divide workflow authority and retained gains."
+        "Client permissions, service contracts and data/software terms divide workflow authority and retained gains.",
+        "Edition 0.32 makes local process knowledge and integration authority explicit alongside supplier service. Retained work needs a payer and schedule; no automation label proves payroll can be removed."
       ],
       "artifacts": [
         "research/customer_value.md",
-        "data/customer_evidence.json"
+        "data/customer_evidence.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-OS-03",
@@ -834,7 +837,8 @@
         "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred.",
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
-        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified."
+        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
+        "Edition 0.32 retains an unresolved purchase/RaaS description and unread target repair terms. Public marketing or registration access does not establish title, repair permissions, inclusive price or restoration guarantees."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -858,9 +862,11 @@
         "research/asset_recovery.md",
         "model/ASSET_RECOVERY.md",
         "model/results/asset_recovery.json",
-        "model/results/observed_research_summary.json"
+        "model/results/observed_research_summary.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Resolve executed target scope, transaction-triggered continuity, buyer/serial support, retained obligations and matched payment/service denominators. Continue physical/annual/resource integration without treating public terms as target consent or financing marketing as economics."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-BM-03",
@@ -1090,7 +1096,8 @@
         "Annual digital levels now drive actual monthly cohorts, costs and cash under an explicit unit/calendar mapping. A changed model level needs funded qualification and support; four-architecture and stronger conventional coordination comparisons remain open.",
         "A bounded conventional planner now waits and replans visible courier/robot work, with source-hashed observations, proposals, authority checks and resource cash. This complements funded monthly intelligence roles but does not optimize the monthly capital schedule or verify real physical R&D.",
         "Edition 0.20: The workcell uses a conventional declared FIFO sequence and source-refill information. No LLM uplift is assigned; validated planning/control must improve the same paid physical service.",
-        "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes."
+        "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes.",
+        "Edition 0.32 strengthens the data-to-action boundary: useful inspection requires customer integration, review/escalation and funded operational response. No collected-point count calibrates model or agent productivity."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1111,9 +1118,11 @@
         "reviews/conventional_coordination_review.md",
         "research/automotive_workcell_decision.md",
         "model/AUTOMOTIVE_WORKCELL.md",
-        "model/results/automotive_workcell.json"
+        "model/results/automotive_workcell.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Qualify the strongest feasible conventional target workflow against complete accepted service, cancellations, affected cohorts, retained work, implementation cost and paid schedules before claiming an incremental agent or robot gain."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -1358,7 +1367,8 @@
       "findings": [
         "Three quadruped dossiers span operator-supported inspection settings, with retention/support and non-Spot evidence gaps.",
         "Two TenneT ANYmal episodes add operator-coauthored offshore coverage and a later selective pilot, with later routine retention unknown.",
-        "Edition 0.19 adds fixed-sensing and wheeled qualification comparators to the existing utility package, with primary-summary/supplier/research-plan boundaries; no third quadruped economic dossier or later TenneT retention result is claimed."
+        "Edition 0.19 adds fixed-sensing and wheeled qualification comparators to the existing utility package, with primary-summary/supplier/research-plan boundaries; no third quadruped economic dossier or later TenneT retention result is claimed.",
+        "Edition 0.32 adds dated operator rollout and retained-work evidence as a cross-sector comparator. Exact configured service costs and later cohort retention remain unknown; no full economic dossier is claimed."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1369,7 +1379,7 @@
         "model/UTILITY_INSPECTION.md",
         "model/results/utility_inspection.json"
       ],
-      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-QD-02",
@@ -1382,7 +1392,8 @@
       "findings": [
         "Inspection requires usable imagery and action workflows; PG&E provides both successful missions and material output limitations.",
         "385-instrument coverage assessment and robot-suitable point selection show why navigation and selected measurements do not establish complete mandatory visits.",
-        "Edition 0.19: eighteen synthetic DE-CF03 worlds link unique accepted point/window coverage, review and fallback deadlines, physical duties and actual visit funding. A residual point or field duty can retain the full visit. Source figures do not calibrate costs or avoided outages."
+        "Edition 0.19: eighteen synthetic DE-CF03 worlds link unique accepted point/window coverage, review and fallback deadlines, physical duties and actual visit funding. A residual point or field duty can retain the full visit. Source figures do not calibrate costs or avoided outages.",
+        "Edition 0.32 distinguishes repeated inspection activity, accepted due service, plant-maintenance benefits and maintenance of the robot. Forecast safety percentages do not identify realized effects or a robot replacement rate."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1390,9 +1401,10 @@
         "research/quadruped_operator_followup.md",
         "research/utility_inspection_decision.md",
         "model/UTILITY_INSPECTION.md",
-        "model/results/utility_inspection.json"
+        "model/results/utility_inspection.json",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Obtain a target point/window acceptance ledger linked to residual field duties, staffing/visit contracts, support and configured lifecycle bills; retain unknowns until observed."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-QD-03",
@@ -1403,13 +1415,16 @@
       "evidence_method": "Exposure-based reliability and support; negative/limited cases; cohort/selection analysis; mixed fleets and cross-embodiment transfer hypotheses.",
       "dependencies_and_completion": "W1 bounded operational findings after QD-01 scope, linked to HC-03/04, DL and SC-02; deepen with logs, maintenance and unsuccessful deployments.",
       "findings": [
-        "Field sensing alone does not prove sustained service economics or cross-site learning; full operating support remains a next evidence priority."
+        "Field sensing alone does not prove sustained service economics or cross-site learning; full operating support remains a next evidence priority.",
+        "Edition 0.32 treats onboarding, process/IT integration, review, repair access and qualification as separate scaling obligations; a serviced offer does not quantify the complete labor boundary."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
-        "data/physical_evidence.json"
+        "data/physical_evidence.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
     {
       "question_id": "RQ-DR-01",

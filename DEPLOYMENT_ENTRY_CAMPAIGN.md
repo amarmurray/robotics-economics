@@ -104,3 +104,8 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Compatible-component checkpoint, edition 0.31
 
 [The component contract](research/component_execution.md) adds eight executions, bringing fourteen bounded challenge families to 174 worlds. Qualified compatible parts and named replacements now constrain the same monthly physical/cash/annual-resource loop while the older generic mode retains its behavior. Actual product BOMs, repair labor, supplier finance and joint annual supply remain open. The campaign remains in progress under its original T0/deadline.
+
+
+## Inspection readiness challenge, edition 0.32
+
+[The operator/readiness challenge](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) deepens empirical gates without adding synthetic cases. Fourteen families / 174 worlds remain unchanged; accepted service, robot repair, customer work and actual rights/costs remain incomplete. The same in-progress T0/deadline continues.

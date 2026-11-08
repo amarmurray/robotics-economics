@@ -51,3 +51,8 @@ A required field duty or presence policy keeps visits even with complete reading
 **Reject a particular proposed substitution** when it drops a due point or duty, assumes review is free, misses fallback deadlines, treats captures as accepted service, or requires cancelling a paid commitment that remains. Rejecting that business case does not imply the sensor has no informational value.
 
 The next decisive artifact is a complete point/window ledger linked to crew schedules and maintenance work orders. It should show pre-existing requirements, eligible and excluded points, capture/review outcomes, failures and repeats, remote-support and field person-time, visit purpose, actual staffing/contract changes, cash timing, exact configuration and supplier responsibility. Compare improved human records, fixed sensing and the least complex qualified mobile configuration on that same population. Until then, the model's switch points organize measurement; they do not justify an investment ranking.
+
+
+## Inspection readiness challenge, edition 0.32
+
+The [rollout/readiness audit](quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds a European steel-inspection comparator. Keep customer integration/review, plant-maintenance benefits and robot-maintenance burdens separate. Historical rollout, repeated point activity and serviced-RaaS marketing do not establish complete accepted due service, avoidable paid visits or configured repair coverage. The eighteen synthetic inspection worlds remain unchanged.

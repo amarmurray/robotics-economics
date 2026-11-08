@@ -310,3 +310,8 @@ node --check dashboard/component_execution.js
 ```
 
 The API is `/api/component-execution`. [Methods](model/COMPONENT_EXECUTION.md), [findings](research/component_execution.md) and [self-review](reviews/component_execution_review.md) describe the explicit replacement of generic modules. Core code provenance changes require regenerated hashes in older exports, whose numerical outcomes must remain unchanged. No actual product qualification, maintenance cost or full annual portfolio is inferred.
+
+
+## Inspection readiness challenge, edition 0.32
+
+The inspection-readiness panel consumes the accepted `data/quadruped_operator_followup.json` package without new source arithmetic or simulation calibration. Verify five new source drawers, six source quantities (including the greater-than qualifier), six unknowns, five gates, source filters and scenario invariance in Customer adoption, Digital AI, Supply and Embodiment views. Regenerate evidence fingerprints and the report; all earlier numerical and non-fingerprint result fields must remain identical.

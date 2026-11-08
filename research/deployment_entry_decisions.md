@@ -169,3 +169,8 @@ The [source audit](commercial_disclosure_boundaries.md) strengthens the prompt-i
 ## Compatible components and dated maintenance, edition 0.31
 
 [Eight component worlds](component_execution.md) connect a synthetic catalog manufacturing BOM to actual whole-part issues in the existing monthly physical/Treasury loop. Qualified and quarantined inventories, explicit replacement requirements, annual support ceilings and contingent funding remain separate constraints. No annual spare average becomes a repair schedule. Human/conventional capacity still tests the inference from lost robot service to lost total output. All three packs inherit the compatibility, receipt/qualification and funded continuity questions without importing synthetic parts or prices. Fourteen families / 174 worlds remain bounded coverage; target maintenance, supplier financing and joint annual portfolio supply remain incomplete.
+
+
+## Inspection readiness challenge, edition 0.32
+
+The [inspection-readiness audit](quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds matched-service, retained-work and configured-support gates to all three packs. Cross-sector source questions transfer; rates, prices, rights and projected benefits do not. All broad requirements remain partial, and fourteen families / 174 worlds remain unchanged.

@@ -1,8 +1,8 @@
-# Non-Spot utility inspection: TenneT’s two bounded episodes
+# Non-Spot inspection: coverage, rollout and retained work
 
-Follow-up edition 0.2 · 25 October 2026 · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+Follow-up edition 0.4 · 8 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
 
-This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](../data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The requested Astra/Ultra configuration remains unverified at runtime.
+This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](../data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The earlier worker’s requested Astra/Ultra configuration was unverified; current campaign serving identity also remains unexposed.
 
 The consequential result is that industrial inspection coverage can remain incomplete after autonomous navigation works. TenneT’s 2018 offshore trial assessed 385 instruments in three rooms, with room-specific inspectable shares of 92%, 85% and 54%. Hidden valves, doors and operating restrictions constrained coverage. Its later onshore program explicitly selected points suited to the robot, while the public evaluation material left costs and results unfilled. Neither episode supports a percentage reduction in maintenance employment. The public record also does not establish that either project was abandoned.
 
@@ -68,3 +68,38 @@ This bounded investigation found two decision-relevant episodes but no public, c
 ## Decision-campaign extension, 7 November 2026
 
 The [residual-visit analysis](utility_inspection_decision.md) and QOF-CMP-UTILITY-RESIDUAL in the existing structured package now compare qualified fixed, wheeled, quadruped and mixed sensing against complete due service. QOF-E09..E11 retain their separate source roles and access limits. The executable DE-CF03 challenge uses synthetic assumptions; it does not add a third quadruped economic dossier, resolve the historical retention gaps or price actual avoided outages.
+
+
+## Rollout, retained work and robot repair, edition 0.32
+
+The new **QOF-AUDIT-READINESS-01** adds a European steel-inspection comparator to the same evidence package. It strengthens the customer-work and support challenge without adding labor totals, a calibrated economic dossier or a synthetic world. Earlier TenneT cohort and field-coverage gaps remain unresolved.
+
+Outokumpu’s [June 2023 announcement](https://www.outokumpu.com/en/news/2023/outokumpu-is-the-first-in-the-steel-industry-to-use-robotics-in-safety-management-%E2%80%93-supporting-the-vision-of-achieving-the-lowest-accident-frequency-rate-in-the-industry-by-2025-3286722) frames exposure and hazardous plant-repair reductions as expectations, while describing partial task automation without replacing the workforce. [QOF-E12]
+
+The [June 2024 operator update](https://www.outokumpu.com/en/news/2024/outokumpu-to-expand-the-use-of-robotics-in-safety-management-%E2%80%93-first-anymal-robot-%E2%80%9Cjokkeri%E2%80%9D-started-operating-at-the-company%E2%80%99s-site-in-tornio%2C-finland-3460793) reports three operating robots and Avesta inspection frequencies. It attributes the safety percentages to the earlier estimate. This supports dated rollout, not a measured realization of those benefits. [QOF-E13]
+
+An [October 2023 interview republished by ANYbotics in November](https://www.anybotics.com/news/this-is-how-outokumpu-wants-to-make-work-safer/) describes substantial internal learning, IT/supplier coordination and manual anomaly escalation before integration. Purchase language in its introduction and RaaS language in a caption remain unreconciled; neither determines executed title. [QOF-E14]
+
+These sources alter the measurement contract in four ways.
+
+**Separate the two maintenance systems.** The robot inspects a plant whose equipment may need repair; the robot itself also needs support, parts and qualification. A claim about avoided plant repairs cannot set the robot’s replacement probability, technician hours or spare budget. An avoided hazardous intervention may matter without reducing a paid shift. Both systems need their own event and work records before their costs or benefits can be combined.
+
+**Keep the customer’s work visible.** Supplier fees and robot support do not automatically cover site knowledge, mission design, IT access, data integration, review, escalation and action authority. Those tasks may use existing staff without extra headcount, yet still consume capacity. Reassigning a worker is not a zero-resource event. The appropriate counterfactual includes a competent human inspection route with digital records and qualified fixed sensing, plus the same decision and maintenance obligations.
+
+**Count accepted due service.** Repeated point frequencies can represent useful monitoring without expanding unique coverage. Define the original due set, measurement quality, deadline and accepted disposition. Identify excluded points, failed captures, repeats and residual physical duties. More data is not itself an avoided visit, a correct diagnosis or a completed repair. An increased-monitoring case needs a separate action/outcome counterfactual rather than a payroll-saving proxy.
+
+**Resolve the applicable service boundary.** The [public support portal](https://support.anybotics.com/) distinguishes operator/researcher entry; the followed manual and knowledge-base routes required authentication. No detailed maintenance procedure was read. [QOF-E15] The [onboarding page](https://www.anybotics.com/get-started/) advertises serviced RaaS, commissioning and maintenance/repair. It supplies no executed target restoration or inclusive-work contract. [QOF-E16] The training website’s terms concern its learning service and were not promoted to robot warranty terms. Current product marketing cannot identify a historical deployment’s exact configuration.
+
+### Consequences for the three packs and the model
+
+For **utility inspection**, require the exact sensing configuration, complete due-point ledger, customer review/integration work and funded robot repair/requalification. Keep fixed sensing, human routes and residual field visits. For **hospital logistics**, transfer only the question: clinical handoff, urgency coverage, process authority and fallback remain target obligations. For **automotive presentation**, retain line-side integration, generation validation and intervention work; inspected points are not accepted production kits. No steel-site rate, price, title or maintenance entitlement is imported into those packs.
+
+The [component execution](component_execution.md) assumes replacement labor and parts inside an existing paid support bundle, with supplier consignment before issue. These public records do not price or validate either assumption. They add a distinct customer-work requirement to any empirical test. Keep the synthetic mechanism and all earlier numerical outcomes unchanged until matched evidence supports a separate, reviewable parameter change.
+
+Proceed with a bounded evaluation when accepted service, exact configuration, work ownership, support rights and funded fallback reconcile. Wait on labor-substitution or rollout economics while those records remain missing. Reject a proposed inference that turns plant-repair projections into robot spare rates, repeated capture into complete service, a service label into unlimited coverage, or retained staff into zero cost.
+
+### Retrieval and remaining evidence
+
+Five public HTML records were read and fingerprinted on 8 November 2026. Manufacturer-republished operator statements remain one attributed lineage, not independent validation. Detailed maintenance access was not bypassed, and no registration, contact or purchase occurred. A TenneT-domain robots restriction was respected. Later retention was not established by this bounded search; absence is not abandonment.
+
+Six outcomes remain explicitly unknown: accepted due-point service, all-actor work, robot replacement/requalification, configured cost/rights, realized exposure effects and later operating retention. Seek a dated configured maintenance-and-service ledger or an executed applicable support scope. The next independent research priority is the substantial-H critical path from digital improvement to qualified operating benefit, retaining failed work and conventional alternatives; do not repeat these access-limited searches merely to add sources.

@@ -39,3 +39,8 @@ Proceed to a scoped evaluation when the exact configuration, qualified receipt d
 The replacement vector and its inclusion within the fixed support labor/cash bundle are assumptions. The next empirical challenge is a target configuration's actual service, replacement and commercial record: failed versus completed interventions, qualification lead time, technician work, supplier funding, warranty/rights and accepted service during outages. A public primary record that changes one of those assumptions is more valuable than another favorable synthetic variant. Do not repeat exhausted restricted-source searches or infer missing prices and repair obligations from a vendor capability claim.
 
 The annual aggregate spare flow is not yet a discrete failure process, and the declared component receipts do not execute the other annual markets or supplier financing. The model therefore remains partial on joint portfolio feasibility and empirical whole-service economics. Fourteen challenge families now include 174 bounded worlds; their results must not be added as one company plan.
+
+
+## Inspection readiness challenge, edition 0.32
+
+The [primary-source readiness challenge](quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) leaves the assumed support/parts bundle and supplier consignment unvalidated. Customer integration and review require their own measured work boundary. Plant-repair benefits cannot calibrate robot replacement needs. All eight component worlds retain their original numerical results.

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.31.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.32.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: qualified compatible parts and replacements, edition 0.31
+## Current checkpoint: inspection rollout and retained work, edition 0.32
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The current cloud runtime is connected/running on the same published configuration, and fresh shell/remote checks confirm executable readiness. The sole writer and original clock remain; native goal/quota controls are unexposed. No replacement task, duplicate schedule, reset or uninterrupted-execution claim occurred.
+
+From accepted input `084d0b50d38ce536fc49993b2956272988b33e35`, [the inspection-readiness audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) integrates five primary public records into the existing package, three decision packs, report and dashboard. The bounded result is a dated operator progression and retained-work challenge. Detailed configured robot repair/support documentation remains behind authentication, so its procedures, prices and entitlements were not recovered or inferred.
+
+The decision change is to distinguish accepted due service, retained customer integration/review, plant-maintenance benefits and maintenance of the robot itself. A projected reduction in plant repairs cannot calibrate robot spare demand. Historical rollout and repeated activity do not establish a realized safety effect, removed payroll or complete service economics. Public serviced-RaaS wording does not settle title, inclusive work or restoration coverage. Exact configuration, accepted service, customer/provider work, robot repairs and actual commercial obligations remain unknown. Existing component support/consignment assumptions remain synthetic.
+
+Fresh validation passes **451 Python tests** in 252.311 seconds, **36 Node assertions**, fifteen JavaScript syntax checks and all **43 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. The new source panel works in four views with five gates, three dated stages, six quantities, six explicit unknowns and five exact source drawers. The greater-than qualifier, source/cell filters, scenario independence and exact hashed source export pass. All eight prior component browser worlds and four other reference panels still match their complete exports. Component null/custom controls, invalid/pending/stale protections, forged-output full replay and ordinary scenario export/reload pass. The source panel was visually inspected.
+
+All **1,250,698 prior typed numeric fields across 34 result JSONs** and their non-fingerprint semantics are unchanged. 23 files remain byte-identical; 11 change only updated evidence fingerprints or dependent identities. All model modules and numerical assumptions remain byte-identical, as does the complete observed-source arithmetic export. Earlier source records, TenneT episodes, atlas/labor rows, 69 legacy requirement statuses and 65 question statuses are preserved. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families / **174 worlds** remain unchanged. The registry now holds 13 packages, 214 claims, 441 quantities and 133 explicit-null markers. **331 manifest hashes and 761 relative Markdown links** verify without broken paths.
+
+**Next execution:** pursue an independent substantial-H critical-path or integration gap: connect digital contribution to qualified operating benefit under a fixed service objective, counting failed work, physical validation and the competent conventional alternative. Inspect existing H coverage first; avoid repeating accepted papers or adding favorable variants merely for count. Reopen inspection support only for a newly available configured ledger or applicable executed scope. Full annual portfolio and broad architecture combinations remain incomplete.
+
+**Next question:** what digital improvement actually shortens the binding qualification/operating path after customer integration, physical resources and retained service obligations are included?
+
+## Previous checkpoint: qualified compatible parts and replacements, edition 0.31
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Fresh runtime status is connected/running with current observations and no failure, and shell execution succeeds in the same cloud checkout and published configuration. Working changes were preserved. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
 

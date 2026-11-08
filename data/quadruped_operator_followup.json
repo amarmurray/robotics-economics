@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "2026-11-07-v0.3",
-  "retrieved_at": "2026-11-07T23:02:23Z",
+  "version": "2026-11-08-v0.4",
+  "retrieved_at": "2026-11-08T05:15:54Z",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -12,7 +12,8 @@
     "foreign_comparator_only": true,
     "adds_labor_totals": false,
     "no_numerical_model_calibration": true,
-    "full_service_cost_denominator_obtained": false
+    "full_service_cost_denominator_obtained": false,
+    "cross_sector_source_role": "European steel inspection rollout is a bounded structural comparator; no new labor cell, numerical calibration or complete cost dossier."
   },
   "evidence": [
     {
@@ -438,6 +439,161 @@
       "limitations": "Round-the-clock inspection is a research objective/requirement, not demonstrated availability. Detailed test plans/specifications returned login restrictions; no full qualification protocol or outcome inferred.",
       "access": "public_overview_only_detailed_documents_access_restricted",
       "quantities": []
+    },
+    {
+      "evidence_id": "QOF-E12",
+      "schema_version": "evidence-1.0",
+      "title": "Outokumpu announces safety-inspection robotics",
+      "url": "https://www.outokumpu.com/en/news/2023/outokumpu-is-the-first-in-the-steel-industry-to-use-robotics-in-safety-management-%E2%80%93-supporting-the-vision-of-achieving-the-lowest-accident-frequency-rate-in-the-industry-by-2025-3286722",
+      "publisher": "Outokumpu",
+      "publication_date": "2023-06-21",
+      "observation_period": "2023 pilot launch and prospective effects",
+      "retrieved_at": "2026-11-08T05:15:54Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_operator_disclosure_not_independent_telemetry",
+      "locator": "Deployment and estimated exposure/repair paragraphs; final operator statement",
+      "claim": "The operator distinguishes expected exposure and plant-repair benefits from workforce replacement.",
+      "limitations": "Prospective safety effects, not measured outcomes or robot replacement rates.",
+      "target_parameters_allowed": [],
+      "quantities": [
+        {
+          "quantity_id": "QOF-Q-EXPOSURE-2023",
+          "label": "Projected exposure-time reduction",
+          "value": 80,
+          "unit": "percent",
+          "denominator": "Baseline hazardous-substance exposure time, not published",
+          "population": "Inspection personnel in the planned rollout",
+          "period": "2023 projection",
+          "measurement_status": "prospective_operator_estimate",
+          "comparison": "greater_than"
+        },
+        {
+          "quantity_id": "QOF-Q-PLANT-REPAIRS-2023",
+          "label": "Possible reduction in hazardous plant repairs",
+          "value": 20,
+          "unit": "percent",
+          "denominator": "Baseline potentially hazardous maintenance repairs, not published",
+          "population": "Inspected industrial plant; not robot hardware",
+          "period": "2023 projection",
+          "measurement_status": "prospective_operator_estimate"
+        }
+      ],
+      "source_html_sha256": "0b756149a18b10c89720a34a8322e509fd0752f1476d8864c25a6e00c6924560"
+    },
+    {
+      "evidence_id": "QOF-E13",
+      "schema_version": "evidence-1.0",
+      "title": "Outokumpu expands inspection robotics to Tornio",
+      "url": "https://www.outokumpu.com/en/news/2024/outokumpu-to-expand-the-use-of-robotics-in-safety-management-%E2%80%93-first-anymal-robot-%E2%80%9Cjokkeri%E2%80%9D-started-operating-at-the-company%E2%80%99s-site-in-tornio%2C-finland-3460793",
+      "publisher": "Outokumpu",
+      "publication_date": "2024-06-11",
+      "observation_period": "Status reported June 2024; Avesta recurring inspection activity",
+      "retrieved_at": "2026-11-08T05:15:54Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_operator_disclosure_not_independent_telemetry",
+      "locator": "Operating robots and Avesta activity paragraph; retrospective estimate attribution",
+      "claim": "The operator reports three operating robots and Avesta point-frequency counts; the safety percentages remain attributed to its earlier estimate.",
+      "limitations": "No accepted unique-point ledger, repair exposure or realized savings study; this is dated rollout evidence, not current fleet status.",
+      "target_parameters_allowed": [],
+      "quantities": [
+        {
+          "quantity_id": "QOF-Q-OPERATING-2024",
+          "label": "Reported operating robots",
+          "value": 3,
+          "unit": "robots",
+          "denominator": "One each at Krefeld, Avesta and Tornio",
+          "population": "Outokumpu disclosed sites",
+          "period": "2024-06-11",
+          "measurement_status": "operator_reported_stock"
+        },
+        {
+          "quantity_id": "QOF-Q-POINTS-SHIFT",
+          "label": "Reported inspection points per shift",
+          "value": 90,
+          "unit": "inspection points per shift",
+          "denominator": "One shift; distinct accepted identities unspecified",
+          "population": "Avesta",
+          "period": "2024-06-11",
+          "measurement_status": "operator_reported_activity"
+        },
+        {
+          "quantity_id": "QOF-Q-POINTS-DAY",
+          "label": "Reported inspection points per day",
+          "value": 270,
+          "unit": "inspection points per day",
+          "denominator": "One day; accepted coverage unspecified",
+          "population": "Avesta",
+          "period": "2024-06-11",
+          "measurement_status": "operator_reported_activity"
+        },
+        {
+          "quantity_id": "QOF-Q-POINTS-WEEK",
+          "label": "Reported inspection points per week",
+          "value": 1890,
+          "unit": "inspection points per week",
+          "denominator": "One week; accepted coverage unspecified",
+          "population": "Avesta",
+          "period": "2024-06-11",
+          "measurement_status": "operator_reported_activity"
+        }
+      ],
+      "source_html_sha256": "685918014fe010c56fceb2311ed65196c32d438834ccb74e52014054a78d3603"
+    },
+    {
+      "evidence_id": "QOF-E14",
+      "schema_version": "evidence-1.0",
+      "title": "Outokumpu onboarding interview, republished by supplier",
+      "url": "https://www.anybotics.com/news/this-is-how-outokumpu-wants-to-make-work-safer/",
+      "publisher": "ANYbotics; attributed Outokumpu/ANYbotics interview by Produktion",
+      "publication_date": "2023-11-13",
+      "observation_period": "Interview dated 2023-10-05; early Krefeld implementation",
+      "retrieved_at": "2026-11-08T05:15:54Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_operator_interview_republished_by_supplier",
+      "locator": "Operator answers about implementation, data integration and repair reports; opening text and RaaS caption",
+      "claim": "Operator accounts describe substantial internal learning and IT/supplier coordination; manual anomaly escalation preceded system integration. The introduction and caption use different purchase/RaaS descriptions.",
+      "limitations": "Attributed firsthand statements republished by the supplier, not independent telemetry. No timesheet, executed title or service agreement; no numerical labor coefficient inferred.",
+      "target_parameters_allowed": [],
+      "quantities": [],
+      "source_html_sha256": "e8ba28877861ba844aaaccd25066425f802707ff5f1dacf29d78057530ae0d31"
+    },
+    {
+      "evidence_id": "QOF-E15",
+      "schema_version": "evidence-1.0",
+      "title": "ANYmal public support entry",
+      "url": "https://support.anybotics.com/",
+      "publisher": "ANYbotics",
+      "publication_date": null,
+      "observation_period": "Public access observed 2026-11-08",
+      "retrieved_at": "2026-11-08T05:15:54Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_public_access_boundary_not_support_performance",
+      "locator": "Operator/researcher documentation and registration links",
+      "claim": "The portal separates operator and researcher registration and documentation. The followed operator manual and knowledge-base links redirect to authentication.",
+      "limitations": "Public landing read; detailed repair instructions and target support entitlements remain unread. No registration or access bypass.",
+      "target_parameters_allowed": [],
+      "quantities": [],
+      "source_html_sha256": "389c16cfd9d3242c9f8ec7ae1dea9cdb7f6b427f6c3c99c1c933b98b0121f8e1",
+      "publication_date_missingness_reason": "Undated public landing page; retrieval and copyright year are not publication dates."
+    },
+    {
+      "evidence_id": "QOF-E16",
+      "schema_version": "evidence-1.0",
+      "title": "ANYmal onboarding and service description",
+      "url": "https://www.anybotics.com/get-started/",
+      "publisher": "ANYbotics",
+      "publication_date": null,
+      "observation_period": "Public service description retrieved 2026-11-08",
+      "retrieved_at": "2026-11-08T05:15:54Z",
+      "source_class": "primary",
+      "epistemic_status": "primary_supplier_service_description_not_executed_terms",
+      "locator": "Training/commissioning; Scaling and roll-out across operations",
+      "claim": "The supplier advertises training, commissioning, serviced RaaS and a maintenance/repair program.",
+      "limitations": "Marketing scope is not an executed repair SLA, inclusive price, staffing study or target configuration warranty.",
+      "target_parameters_allowed": [],
+      "quantities": [],
+      "source_html_sha256": "ddee44bea858c5f1d271c52e634ee9c291bb42ecde4de590820e1e1806864c60",
+      "publication_date_missingness_reason": "Undated public landing page; retrieval and copyright year are not publication dates."
     }
   ],
   "deployments": [
@@ -716,6 +872,33 @@
         "CIGRE full PDF: paid/member/delegate access; only public summary read."
       ],
       "inference_limit": "Search absence does not establish abandonment. No accounts, purchases or outreach."
+    },
+    "repair_readiness_followup": {
+      "date": "2026-11-08",
+      "scope": "Configured ANYmal repair/support and operator rollout; no repeat of restricted CIGRE/EPRI searches.",
+      "queries": [
+        "site:anybotics.com ANYmal maintenance service warranty replacement",
+        "site:outokumpu.com robot ANYmal ROSIE inspection maintenance",
+        "site:outokumpu.com ANYmal 2025",
+        "site:outokumpu.com Rosie 2026"
+      ],
+      "recovered": [
+        "QOF-E12",
+        "QOF-E13",
+        "QOF-E14",
+        "QOF-E15",
+        "QOF-E16"
+      ],
+      "access_limits": [
+        "ANYmal operator manual and knowledge base redirected to authentication; not read beyond the public entry.",
+        "TenneT domain was blocked by robots.txt on the first search; no retry or bypass."
+      ],
+      "rejected_promotions": [
+        "Training-platform website terms are not hardware repair terms.",
+        "Current product marketing does not identify a historical operator configuration.",
+        "Repeated rollout/safety projections do not establish maintenance economics."
+      ],
+      "stop_reason": "A dated operator progression and retained-work challenge were found; complete repair/support terms and accepted service costs were not. No claim of exhaustive search or abandonment."
     }
   },
   "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)",
@@ -749,5 +932,96 @@
     "source_role": "The wheeled pilot and fixed-sensing description qualify alternatives; neither counts as a third quadruped operating-economics dossier.",
     "synthetic_replay": "model/results/utility_inspection.json",
     "target_parameters_allowed": []
-  }
+  },
+  "rollout_readiness_audits": [
+    {
+      "audit_id": "QOF-AUDIT-READINESS-01",
+      "title": "Who does the work between robot delivery and accepted inspection?",
+      "status": "bounded_primary_source_challenge_not_full_service_economics",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E12",
+        "QOF-E13",
+        "QOF-E14",
+        "QOF-E15",
+        "QOF-E16"
+      ],
+      "summary": "Separate operator rollout, repeated inspection activity, projected safety effects and actual repair/support duties. Supplier service does not by itself establish that the customer has no integration or review work.",
+      "source_boundary": "Historical European steel comparator plus current undated supplier descriptions. These are questions for the three target packs, not their performance, prices or rights.",
+      "timeline": [
+        {
+          "date": "2023-06-21",
+          "stage": "Prospective benefit and deployment plan",
+          "evidence_ids": [
+            "QOF-E12"
+          ]
+        },
+        {
+          "date": "2023-10-05",
+          "stage": "Early implementation interview; published 2023-11-13",
+          "evidence_ids": [
+            "QOF-E14"
+          ]
+        },
+        {
+          "date": "2024-06-11",
+          "stage": "Dated operator rollout disclosure",
+          "evidence_ids": [
+            "QOF-E13"
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "gate": "Accepted service",
+          "requirement": "Match original due points, quality, time and disposition; repeated captures cannot fill an omitted point or substitute for a completed visit."
+        },
+        {
+          "gate": "Retained customer work",
+          "requirement": "Separate learning, mission/configuration changes, IT integration, review and escalation from supplier repair; identify who performs and pays each task."
+        },
+        {
+          "gate": "Plant benefit versus robot burden",
+          "requirement": "Keep maintenance on inspected equipment separate from maintenance of the inspection robot. A projected plant-repair reduction cannot set a robot spare rate."
+        },
+        {
+          "gate": "Configured commercial coverage",
+          "requirement": "Verify exact hardware/software, title, support eligibility, allowed repairs, qualified spares and restoration/fallback obligations in the applicable order."
+        },
+        {
+          "gate": "Observed outcome",
+          "requirement": "Separate rollout and activity from measured safety, complete service, paid commitments and cash. Preserve a competent human/fixed-sensing alternative."
+        }
+      ],
+      "unknowns": {
+        "accepted_due_point_windows": {
+          "value": null,
+          "reason": "No complete unique due-point, quality and disposition ledger in these records."
+        },
+        "customer_provider_work_minutes": {
+          "value": null,
+          "reason": "No matched customer/provider timesheet across onboarding, operation and repair."
+        },
+        "robot_replacement_work": {
+          "value": null,
+          "reason": "No observed robot failure, part replacement, labor or requalification ledger."
+        },
+        "configured_service_cost_and_rights": {
+          "value": null,
+          "reason": "Executed target configuration, title, coverage, price and restoration terms unavailable."
+        },
+        "realized_exposure_reduction": {
+          "value": null,
+          "reason": "A projection and its later repetition do not supply a measured counterfactual."
+        },
+        "operating_retention_after_2024": {
+          "value": null,
+          "reason": "No verified later closeout from this bounded search; absence is not abandonment."
+        }
+      },
+      "model_challenge": "The component model assumes repair labor and parts inside existing bundles. These records do not price that assumption or establish supplier consignment; retain both as synthetic and require separate customer work.",
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032"
+    }
+  ]
 }

@@ -123,3 +123,8 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 ## Compatible supply and maintenance challenge, edition 0.31
 
 [Typed component execution](research/component_execution.md) connects T6/T7 to usable supply: a promise, physical receipt, qualification release and funded whole-start issue are different events. Late replacements cannot backfill prior service, and paid rejects retain consumed resources. The synthetic catalog BOM does not establish a real configured product, replacement hazard, technician burden or supplier credit. Those empirical contracts can reverse the deployment decision. The retained human/conventional alternative remains necessary: component scarcity can change robot service and customer assignments without changing complete market output.
+
+
+## Inspection readiness challenge, edition 0.32
+
+[Inspection rollout and retained work](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) challenge T6/T7: service provision can coexist with customer integration, review and action work. Separate the inspected plant’s benefits from the robot’s support burden; title and inclusive coverage require applicable terms. Dated rollout alone does not establish profitable or labor-removing deployment.
