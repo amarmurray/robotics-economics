@@ -298,11 +298,14 @@
       "evidence_method": "Trace contractual rights, access boundaries, formats, incentives, and demonstrated reuse.",
       "dependencies_and_completion": "W1 rights map. Public disclosure gaps remain pending; contracts or authorized interviews trigger revision.",
       "findings": [
-        "BrainOS operational-data ownership coexists with durable nonexclusive improvement-use rights; aggregate/unlinked-data exclusions matter."
+        "BrainOS operational-data ownership coexists with durable nonexclusive improvement-use rights; aggregate/unlinked-data exclusions matter.",
+        "Edition 0.21: The new measurement contract deduplicates eligible experience and separates reuse rights from technical transfer; real target rights and all-attempt costs remain unknown."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -315,11 +318,14 @@
       "evidence_method": "Construct directed transfer hypotheses; seek held-out evaluations, negative transfer, and embodiment controls.",
       "dependencies_and_completion": "W1 hypotheses after PL-02 and HC-04 scope definition. Deeper validation requires comparative data.",
       "findings": [
-        "Directed transfer is conditional on configuration and target distribution; no generic robot-hour learning coefficient survives the evidence."
+        "Directed transfer is conditional on configuration and target distribution; no generic robot-hour learning coefficient survives the evidence.",
+        "Edition 0.21: XEWorld supplies a held-out-embodiment video diagnostic, not a physical control-policy transfer coefficient. Target-only adaptation and retained-cohort outcomes need separate tests."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -335,7 +341,8 @@
         "Scaling and RT-X evidence favor conditional diversity/selection, with nonmonotonic comparisons; quantity alone does not establish benefit.",
         "Cobalt cloud-cost arithmetic and DexWild collection/mixture results separate compute, human collection, retained data and validated target capability.",
         "RynnBrain reports higher joint-training scores on its selected tasks, while exact executed artifacts/raw logs remain unverified. RLDX synthetic-data Table 9 has an unresolved printed count/score mismatch; no causal transfer coefficient is imported.",
-        "Dyna links selective human review, semantic labels and hardware diagnostics to data curation. A common field record can support maintenance and learning, but their resources and benefits must be allocated once; no empirical transfer coefficient is inferred."
+        "Dyna links selective human review, semantic labels and hardware diagnostics to data curation. A common field record can support maintenance and learning, but their resources and benefits must be allocated once; no empirical transfer coefficient is inferred.",
+        "Edition 0.21: Generated data can assist selected targets, while inherited grounding and partial-credit/aggregate metrics limit a universal data or compute scaling inference."
       ],
       "artifacts": [
         "research/capability_learning.md",
@@ -346,7 +353,8 @@
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
         "reviews/generalist_dyna_review.md",
-        "data/frontier_model_economics.json"
+        "data/frontier_model_economics.json",
+        "research/learning_qualification.md"
       ],
       "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
     },
@@ -359,11 +367,14 @@
       "evidence_method": "Compare deployment portfolios with no-learning baselines, incremental costs, and alternative explanations.",
       "dependencies_and_completion": "W1 decision scaffold after DL-01/02. Deeper modeling when gains can be bounded without double counting.",
       "findings": [
-        "Production and learning objectives can differ; the current engine uses an unvalidated same-system transfer mechanism and no data-value premium."
+        "Production and learning objectives can differ; the current engine uses an unvalidated same-system transfer mechanism and no data-value premium.",
+        "Edition 0.21: Four proposed no-learning/no-transfer/support/supply contracts preserve R&D costs, physical identities and installed obligations; they are not additional completed executable families."
       ],
       "artifacts": [
         "research/capability_learning.md",
-        "data/capability_evidence.json"
+        "data/capability_evidence.json",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
     },
@@ -953,12 +964,15 @@
       "dependencies_and_completion": "W1 R&D contribution map alongside HC-02/04, DL-01/03 and SP-02. Avoid unsupported universal acceleration or recursive-growth assumptions.",
       "findings": [
         "R&D mechanisms and physical-infrastructure feedback are bounded; no full-project critical-path reduction or capacity gain is inferred.",
-        "Faster collection or cheaper cloud simulation does not identify a shorter fixed-objective R&D critical path; robot grounding/recovery still constrain validation."
+        "Faster collection or cheaper cloud simulation does not identify a shorter fixed-objective R&D critical path; robot grounding/recovery still constrain validation.",
+        "Edition 0.21: DreamGen and pinned integration/readiness sources connect digital R&D stages to physical qualification and supported supply. Source inconsistencies, manual work and compute allocation remain explicit; no model/robot was run."
       ],
       "artifacts": [
         "model/METHODS.md",
         "model/engine.py",
-        "research/learning_data_economics.md"
+        "research/learning_data_economics.md",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Build a complete collection-training-validation resource ledger for one fixed target capability."
     },
@@ -1012,7 +1026,8 @@
       "findings": [
         "Time-indexed inventory/production/commissioning backcasts state necessary resources, not demand or adoption forecasts.",
         "Figure reports old-generation retirement and a technical-support tradeoff. Cohort-specific support/upgrade obligations and recovery remain unknown; no retirement parameter is fitted.",
-        "Edition 0.20: Replacement stock, rights and commissioning remain explicit assumptions rather than a manufacturing ramp; unsupported installed units remain owned."
+        "Edition 0.20: Replacement stock, rights and commissioning remain explicit assumptions rather than a manufacturing ramp; unsupported installed units remain owned.",
+        "Edition 0.21: GR00T-Ready separates self-assessment from capacity, replacement-parts and support criteria. A toolkit or order does not establish actual supported units; commitments remain missing."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1021,7 +1036,9 @@
         "DEPLOYMENT_ENTRY_CAMPAIGN.md",
         "research/automotive_workcell_decision.md",
         "model/AUTOMOTIVE_WORKCELL.md",
-        "model/results/automotive_workcell.json"
+        "model/results/automotive_workcell.json",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
@@ -1073,14 +1090,17 @@
       "dependencies_and_completion": "W1 architecture/constraint map with HC-02, FD-02 and LLM-01/08; deeper on sustained workload measurements. Headline TOPS does not complete it.",
       "findings": [
         "Orin/T5000 LPDDR and H200 HBM differ in architecture, bandwidth, power and use; they are not fungible supply or performance units.",
-        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported."
+        "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
+        "Edition 0.21: The current G1 workflow separates training VRAM, rendering-compatible simulation and onboard inference resources; its independent paths do not establish sim-to-real transfer."
       ],
       "artifacts": [
         "model/METHODS.md",
         "model/engine.py",
         "research/onboard_workload_qualification.md",
         "data/onboard_workload_qualification.json",
-        "reviews/onboard_qualification_review.md"
+        "reviews/onboard_qualification_review.md",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
     },
@@ -1286,7 +1306,8 @@
       "findings": [
         "S1 cumulative per-step evaluation with recovery and Figure whole-task held-out-home evaluation have different denominators. Data-only loss scaling and adaptation anecdotes do not establish a general capability/economic curve.",
         "RLDX ALLEX averages mix binary and progress metrics, and its Table 9 count/score arithmetic is unresolved. RynnBrain separates trained-task final success from process progress; exact trial logs/checkpoints and universal transfer/scaling claims remain unverified.",
-        "GEN-1.5 low-data prompting/fine-tuning is distinct from GEN-1 mastery. Dyna nested human-data scaling is separated into offline prediction, robot-post-trained mixed ceilings and production variants; no universal compute or output scaling law is inferred."
+        "GEN-1.5 low-data prompting/fine-tuning is distinct from GEN-1 mastery. Dyna nested human-data scaling is separated into offline prediction, robot-post-trained mixed ceilings and production variants; no universal compute or output scaling law is inferred.",
+        "Edition 0.21: DreamGen physical partial-credit and XEWorld simulated video metrics retain different domains, data prerequisites, configurations and acceptance meanings."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1296,7 +1317,9 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
     },
@@ -1345,7 +1368,8 @@
       "findings": [
         "Pi hosted terms and most deployment data/fine-tune contracts remain unknown. OpenVLA code/model-card declarations conflict; code access or data possession does not establish cross-customer reuse permission.",
         "Pinned RLDX, Unitree, AgiBot and RynnBrain artifacts expose different code/weight/data scopes. Public noncommercial grants and permissive base code do not disclose private model/fine-tune/customer-data reuse agreements.",
-        "Dyna describes field recording, labeling and training curation; data possession and internal reuse are not evidence of customer contractual rights. Generalist waitlist access does not disclose weight, fine-tune or production service permissions."
+        "Dyna describes field recording, labeling and training curation; data possession and internal reuse are not evidence of customer contractual rights. Generalist waitlist access does not disclose weight, fine-tune or production service permissions.",
+        "Edition 0.21: Data reuse may avoid duplicate collection while incurring new training/validation; neither automatic transfer rights nor an extra data-value premium is assigned."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1355,7 +1379,9 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
     },
@@ -1485,7 +1511,8 @@
       "findings": [
         "FieldAI separates body-specific dynamics, missions and fleet coordination; DeepMind separates VLA, embodied reasoning and on-device roles. Product descriptions do not prove configured quadruped or enterprise service outcomes.",
         "Reported RLDX and RynnBrain experiments use specific effectors, controllers and serving hardware. Data/simulator/reasoning contributions are not equated with a quadruped, arbitrary embodiment or enterprise workflow deployment.",
-        "GEN-1.5 trajectory output frequency is distinct from inference latency. Dyna robot task post-training, language partial credit and deployment maintenance remain separate from cross-embodiment and enterprise coordination claims."
+        "GEN-1.5 trajectory output frequency is distinct from inference latency. Dyna robot task post-training, language partial credit and deployment maintenance remain separate from cross-embodiment and enterprise coordination claims.",
+        "Edition 0.21: Model/video capability across robots does not itself qualify new effectors or preserved installed service; target and retained-source tests remain necessary."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1495,7 +1522,9 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "research/learning_qualification.md",
+        "data/learning_data_economics.json"
       ],
       "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
     },
@@ -1539,5 +1568,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Same active T0/deadline. Edition 0.20 adds bounded DE-CF04 and three qualified source records; ten families implemented within stated limits. All 65 question statuses and 69 legacy acceptance statuses remain unchanged."
+  "decision_campaign_note": "Same active T0/deadline. Edition 0.21 adds four R&D/qualification evidence records and proposed measurement contracts; ten bounded families remain. All 65 question statuses and 69 legacy acceptance statuses are unchanged."
 }

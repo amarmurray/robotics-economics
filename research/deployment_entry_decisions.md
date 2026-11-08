@@ -107,7 +107,7 @@ The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the remaining service-specific alternatives and qualification evidence, starting with the automotive workcell comparator and then target qualified supply/support. The [share-transition extension](entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
+The service-specific automotive comparison is now implemented within its stated synthetic boundary. The next substantive work is target qualified supply/support and endogenous learning with real eligibility, validation and retained-cohort obligations. The [share-transition extension](entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
 
 
 ## Utility service challenge, edition 0.19
@@ -117,3 +117,7 @@ The [inspection decision](utility_inspection_decision.md) now gives the utility 
 ## Automotive service challenge, edition 0.20
 
 The [workcell comparison](automotive_workcell_decision.md) strengthens the conventional alternative with a primary fixed-vision/buffer reference while preserving different plants, parts and generations. In the synthetic worlds, real buffering and validated changeover can remove an apparent humanoid advantage; a competent human also meets the default service. Preparation consumes separate people and material readiness. Supported replacement requires a paid distinct qualified configuration and cannot repair missed deadlines. Proceed with a matched qualification protocol, wait on real complete operating economics, and reject a substitution that drops timing, transport, quality or support obligations. No source rate or lifecycle value is inferred.
+
+## R&D and qualification evidence gate, edition 0.21
+
+[The learning follow-up](learning_qualification.md) now supplies an explicit chain from eligible data through candidate construction, target acceptance, old-cohort regression, integration and supported supply. Apply it to hospital urgency/custody, utility accepted point/review coverage and automotive complete-kit timing. Four proposed counterfactual contracts preserve costs and physical identities; they do not count as completed DE-CF09/10/14 implementations. Existing numerical outcomes and ten bounded challenge families remain unchanged.

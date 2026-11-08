@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.20.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.21.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: automotive workcell and qualified generation, edition 0.20
+## Current checkpoint: R&D, qualification and supported capacity, edition 0.21
+
+The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This source tranche was completed across 7–8 November in the same executable cloud checkout and sole-writer task. No task, executor, schedule or clock was replaced. Native goal/quota controls remain unexposed; no reset, continuous-execution or full-goal-completion claim is made.
+
+[The R&D qualification analysis](research/learning_qualification.md) deepens substantial H and joins I/K. LEC-005..008 extend the existing learning-data package. DreamGen includes physical policy experiments but partial-credit criteria, inherited grounding and manual/compute costs remain; source count/mean/subset discrepancies are preserved. Its separate generation resource statement yields 81,000 allocated GPU-hours only if the full stated allocation spans the reported duration, not a metered bill or cost per useful physical demonstration. XEWorld diagnoses simulated video transfer and target-only forgetting; no physical-policy penalty is inferred.
+
+The current NVIDIA G1 course explicitly separates independent simulation and physical paths. The pinned GR00T-Ready release 0.3 records evaluator-supplied results and does not grant Verified status; technical compatibility is not a documented supply, parts or support commitment. Primary document/code fingerprints and unknown publication dates are preserved. No model, training, simulator or robot run occurred.
+
+Three source-navigation routes now connect generated data, embodiment transfer and integration to six qualification stages and all three decision-pack boundaries. Complete source exports include the package hash, referenced claims, limitations and proposed test contract. Four proposed no-learning/no-transfer/support-priority/supply-delay contracts specify the next work; **ten bounded challenge families remain unchanged**. This evidence checkpoint does not claim their implementation or fit any coefficient.
+
+Fresh validation passes **335 Python tests** in 171.108 seconds, **36 Node assertions**, all JavaScript syntax and prescribed evidence/physical/frontier/export checks. All thirteen browser views pass, including three R&D routes in both Learning and Digital AI, four new source drawers, six qualification stages, three service boundaries, source-filter empty state and a complete hashed evidence export. Scenario controls leave the source packet unchanged. Existing scenario replay/invalid/stale checks also pass. The new panel was visually inspected. See [the review](reviews/learning_qualification_review.md).
+
+All **468,589 typed numeric fields across 28 earlier result JSONs** are preserved. Seventeen files remain byte-identical; eleven change only evidence snapshot hashes. Existing engines, assumptions, 69 legacy acceptance statuses and 65 question statuses remain unchanged. Evidence now has 13 packages, 196 claims, 385 reported quantities and 104 explicit-null markers. Legacy acceptance remains **53 bounded met / 16 partial**. All **276 registered hashes** and **550 relative Markdown links** verify with no broken links; publication and manifest identity are in the ignored receipt.
+
+**Next execution:** implement a bounded eligible-data/candidate/held-out-qualification feedback test that reuses existing physical/Treasury execution. Preserve source/target/retained-cohort identities, actual collection and validation work, finite engineering support, delivery readiness and failed-attempt cash. Compare no-learning and no-transfer with a competent conventional process improvement; do not grant capability merely for spending or collecting data. Where empirical conditional gains are unknown, keep them explicit hypotheses. Preserve the same service boundary, entire A–K scope and campaign clock.
+
+**Next question:** can a funded learning candidate improve accepted service before its physical validation or supported-supply bottleneck binds, while preserving installed service and every resource identity?
+
+## Previous checkpoint: automotive workcell and qualified generation, edition 0.20
 
 The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. After the diagnostic steer, supported status again reported **connected/running**, failure null, and real shell/repository commands executed in `/workspace/robotics-economics` with working changes intact. The published configuration and sole writer remain unchanged. No task, executor, schedule, agent or campaign clock was replaced. Native goal/quota controls remain unexposed; no reset or continuous-execution claim is made.
 

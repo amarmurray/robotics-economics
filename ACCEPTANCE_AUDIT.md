@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: automotive workcell alternatives, edition 0.20
+## New decision campaign: R&D qualification evidence, edition 0.21
+
+The same campaign remains active through **2026-11-14T20:12:27Z**. Four primary-source records deepen substantial H and I/K through the path from generated data to qualified supported capacity. Physical partial-credit scores, simulated video diagnostics, independent sim/real workflows and self-assessment retain their distinct scope. Source-internal conflicts and missing costs remain explicit. Ten challenge families stay bounded implementations; proposed learning/support/supply contracts add no completed family.
+
+Fresh validation passes **335 Python tests** in 171.108 seconds, **36 Node assertions**, all JavaScript syntax and prescribed evidence/physical/frontier/export checks. All thirteen browser views pass, including three R&D routes in both Learning and Digital AI, four new source drawers, six qualification stages, three service boundaries, source-filter empty state and a complete hashed evidence export. Scenario controls leave the source packet unchanged. Existing scenario replay/invalid/stale checks also pass. The new panel was visually inspected. See [the sole-writer source review](reviews/learning_qualification_review.md).
+
+All **468,589 typed numeric fields across 28 earlier result JSONs** are preserved. Seventeen files remain byte-identical; eleven change only evidence snapshot hashes. Existing engines, assumptions, 69 legacy acceptance statuses and 65 question statuses remain unchanged. Evidence now has 13 packages, 196 claims, 385 reported quantities and 104 explicit-null markers. Legacy acceptance remains **53 bounded met / 16 partial**. All **276 registered hashes** and **550 relative Markdown links** verify with no broken links; publication and manifest identity are in the ignored receipt.
+
+Full target R&D costs, data rights, physical qualification, retained-cohort outcomes and actual supply/support commitments remain unresolved. No training, inference, simulation, robot test, vendor application, credential creation or commercial action occurred.
+
+## Previous decision checkpoint: automotive workcell alternatives, edition 0.20
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Eighteen complete workcell worlds add bounded DE-CF04, taking implemented challenge families to ten. Unique component kits, one manipulator, real buffers, validated changeover, paid preparation and separately supported generations determine by-deadline service. Competent human and fixed alternatives remain explicit. Qualified supply, endogenous learning and real all-actor lifecycle economics remain incomplete.
 

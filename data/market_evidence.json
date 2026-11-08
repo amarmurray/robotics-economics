@@ -3774,7 +3774,18 @@
         }
       },
       "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
-      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit."
+      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit.",
+      "r_and_d_qualification_gate": {
+        "role": "Cross-domain qualification context and proposed measurement only; not observed target-site performance.",
+        "evidence_refs": [
+          "LEC-005",
+          "LEC-006",
+          "LEC-007",
+          "LEC-008"
+        ],
+        "analysis": "research/learning_qualification.md",
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
+      }
     },
     {
       "decision_id": "DE-PACK-UTILITY",
@@ -3885,6 +3896,17 @@
         "artifact": "model/results/utility_inspection.json",
         "scope": "Synthetic due-window point union, review/fallback deadlines and funded residual visits; no empirical calibration.",
         "reversal": "A final unaccepted point can retain the entire visit bill; complete remote coverage still does not cancel committed staff or separate physical duties."
+      },
+      "r_and_d_qualification_gate": {
+        "role": "Cross-domain qualification context and proposed measurement only; not observed target-site performance.",
+        "evidence_refs": [
+          "LEC-005",
+          "LEC-006",
+          "LEC-007",
+          "LEC-008"
+        ],
+        "analysis": "research/learning_qualification.md",
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
       }
     },
     {
@@ -3988,6 +4010,17 @@
         "methods": "model/AUTOMOTIVE_WORKCELL.md",
         "analysis": "research/automotive_workcell_decision.md",
         "scope": "Eighteen synthetic workcell worlds; fixed/human/humanoid alternatives, unique components, one manipulator, real buffer, changeover, quality, paid preparation and qualified replacement. No source calibration or lifecycle ROI."
+      },
+      "r_and_d_qualification_gate": {
+        "role": "Cross-domain qualification context and proposed measurement only; not observed target-site performance.",
+        "evidence_refs": [
+          "LEC-005",
+          "LEC-006",
+          "LEC-007",
+          "LEC-008"
+        ],
+        "analysis": "research/learning_qualification.md",
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
       }
     }
   ],

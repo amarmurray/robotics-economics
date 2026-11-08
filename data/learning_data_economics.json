@@ -231,6 +231,287 @@
           "measurement_status": "author reported point estimate"
         }
       ]
+    },
+    {
+      "evidence_id": "LEC-005",
+      "claim": "DreamGen demonstrates useful policy augmentation and novel-task research scores after embodiment grounding. Partial-credit scoring, inherited data and generation compute prevent treating its headline as production reliability or full R&D cost.",
+      "url": "https://proceedings.mlr.press/v305/jang25a.html",
+      "publisher": "CoRL 2025 / PMLR; paper authors",
+      "publication_date": "2025-09",
+      "observation_period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+      "retrieved_at": "2026-11-08",
+      "source_class": "peer_reviewed_primary_research",
+      "epistemic_status": "author_reported_physical_and_simulation_experiments",
+      "locator": "Sections 2.2, 3.1–3.2, limitations; Tables 1 and 5; Appendices H and K.1",
+      "limitations": [
+        "Table 1 uses task-specific partial credit and ten rollouts per checkpoint; no binary service reliability or commercial staffing denominator.",
+        "GR1 and Franka policy-data subsets exclude the full inherited embodiment/video/IDM datasets; manual initial frames, curation, training and physical validation are not free.",
+        "The 240,000-trajectory RoboCasa generation resource statement is a separate simulation population, not the GR1 physical experiment or a metered fully loaded cost.",
+        "The paper reports 2,884 and 2,885 seed trajectories in different passages; Table 1 gives 11.2 while adjacent prose gives 11.8 for the baseline mean.",
+        "For augmented GR00T GR1, main text gives 46.4 and Table 5 gives 46.0; displayed task rows average 46.5. No single corrected uplift is silently selected.",
+        "Main low-data shorthand and Appendix H differ for folding and other task subsets. A favorable aggregate does not imply every task/policy improves: Table 5 DP hammering is lower with augmentation."
+      ],
+      "quantities": [
+        {
+          "value": 2884,
+          "unit": "trajectories",
+          "denominator": "GR1 embodiment seed dataset",
+          "population": "Pick-and-place in one lab environment",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Section 3.2 and Appendix H"
+        },
+        {
+          "value": 2885,
+          "unit": "trajectories",
+          "denominator": "Alternative count in source prose for same seed",
+          "population": "GR1 pick-and-place baseline",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "conflicting source count, unresolved",
+          "locator": "Section 3.2 paragraph after Table 1"
+        },
+        {
+          "value": 11.2,
+          "unit": "percent task score",
+          "denominator": "Mean across fourteen seen-environment novel-behavior task criteria",
+          "population": "Table 1 GR00T N1 baseline",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "partial-credit mean, not binary reliability",
+          "locator": "Table 1"
+        },
+        {
+          "value": 43.2,
+          "unit": "percent task score",
+          "denominator": "Same fourteen task criteria",
+          "population": "Table 1 GR00T N1 with DreamGen",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "partial-credit mean, not binary reliability",
+          "locator": "Table 1"
+        },
+        {
+          "value": 10,
+          "unit": "rollouts",
+          "denominator": "Per checkpoint in stated GR1 evaluation protocol",
+          "population": "GR1 augmentation/generalization",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Appendix K.1"
+        },
+        {
+          "value": 35,
+          "unit": "percent task score",
+          "denominator": "Hammering partial-credit criterion",
+          "population": "Table 5 Diffusion Policy baseline",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "small-sample task score, not significance claim",
+          "locator": "Table 5 / Appendix K.1"
+        },
+        {
+          "value": 15,
+          "unit": "percent task score",
+          "denominator": "Same hammering criterion",
+          "population": "Table 5 Diffusion Policy plus neural trajectories",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "small-sample task score, not significance claim",
+          "locator": "Table 5 / Appendix K.1"
+        },
+        {
+          "value": 240000,
+          "unit": "generated trajectories",
+          "denominator": "RoboCasa synthetic dataset",
+          "population": "Separate simulation scaling experiment",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Limitations"
+        },
+        {
+          "value": 54,
+          "unit": "hours",
+          "denominator": "Reported generation elapsed time for RoboCasa dataset",
+          "population": "Reported run on NVIDIA L40 GPUs",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Limitations"
+        },
+        {
+          "value": 1500,
+          "unit": "GPUs",
+          "denominator": "Reported parallel device count in same generation statement",
+          "population": "NVIDIA L40 generation configuration",
+          "period": "Experiments in the inspected CoRL 2025 proceedings PDF; exact collection dates undisclosed",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Limitations"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "publication_date_basis": "September 2025 CoRL proceedings; exact PDF publication day unspecified.",
+      "source_artifact": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/jang25a/jang25a.pdf",
+        "sha256": "d2103c9f0384e16750a8a5692e410cc14da953eb9dd53a395a680471d30968c3",
+        "inspection": "Full text read; Table 5 visually checked; no training, inference or robot execution."
+      }
+    },
+    {
+      "evidence_id": "LEC-006",
+      "claim": "XEWorld tests world-model video prediction on held-out robot embodiments. Its target-adaptation and forgetting results concern projected visual/motion metrics, not a transferred physical control policy or field service.",
+      "url": "https://arxiv.org/html/2608.05799v1",
+      "publisher": "arXiv; paper authors",
+      "publication_date": "2026-08-06",
+      "observation_period": "Controlled simulation/video-generation experiments reported in arXiv 2608.05799v1; no field-operation exposure",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_research_preprint",
+      "epistemic_status": "author_reported_controlled_simulation_diagnostic",
+      "locator": "Sections 3–5; Appendices A–D and complete intervention results",
+      "limitations": [
+        "Fixed three-train/two-held-out and leave-one-embodiment-out experiments use different trained fleets; do not pool absolute scores.",
+        "Few-shot samples come from the simulated training-seed family; main-text demonstration wording does not establish a physical deployment.",
+        "Kinematics and object motion are image-plane tracker metrics, not recovered joint/force accuracy; contact diagnostics are excluded as insufficiently reliable.",
+        "Target-only adaptation without old-data replay improves some target metrics while harming seen-UR5 video metrics. This does not prove all adaptation or control-policy transfer fails.",
+        "Five embodiments and a limited tested model set cannot establish a universal scaling law or commercial penalty; source code/model reproduction was not performed."
+      ],
+      "quantities": [
+        {
+          "value": 25,
+          "unit": "tasks",
+          "denominator": "Common task suite",
+          "population": "Paired RoboTwin rendered scenes",
+          "period": "Controlled simulation/video-generation experiments reported in arXiv 2608.05799v1; no field-operation exposure",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Section 3.1 / Appendix B"
+        },
+        {
+          "value": 5,
+          "unit": "embodiments",
+          "denominator": "Complete simulated testbed",
+          "population": "Aloha-AgileX, Arx-X5, UR5, Franka Panda and Piper",
+          "period": "Controlled simulation/video-generation experiments reported in arXiv 2608.05799v1; no field-operation exposure",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Section 3.1 / Appendix B"
+        },
+        {
+          "value": 500,
+          "unit": "scored episodes",
+          "denominator": "Each held-out robot in fixed-split comparison",
+          "population": "Franka and Piper kept separate",
+          "period": "Controlled simulation/video-generation experiments reported in arXiv 2608.05799v1; no field-operation exposure",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Appendix B Table 8"
+        },
+        {
+          "value": 75,
+          "unit": "adaptation episodes",
+          "denominator": "Three demonstrations per each of twenty-five tasks",
+          "population": "Largest tested few-shot target-only adaptation set",
+          "period": "Controlled simulation/video-generation experiments reported in arXiv 2608.05799v1; no field-operation exposure",
+          "measurement_status": "author-reported research quantity",
+          "locator": "Appendix B/D"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "LEC-007",
+      "claim": "NVIDIA’s G1 reference course offers independent simulation and real-robot paths. Its configured tabletop workflow and explicit compute/software requirements do not establish sim-to-real transfer or production acceptance.",
+      "url": "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/index.html",
+      "publisher": "NVIDIA technical documentation",
+      "publication_date": null,
+      "observation_period": "Undated latest NVIDIA reference-workflow documentation retrieved 8 November 2026",
+      "retrieved_at": "2026-11-08",
+      "source_class": "vendor_technical_documentation",
+      "epistemic_status": "documented_reference_workflow_not_independent_operating_result",
+      "locator": "Index Important note; Prerequisites; Sim Evaluation pinned checkout and task configuration",
+      "limitations": [
+        "Publication day is not provided; the latest URL is mutable and this is a dated retrieval.",
+        "Simulation and real paths are explicitly decoupled in this course version; do not infer a single trained checkpoint transferred between them.",
+        "The physical setup is Unitree G1 with Dex3-1 hands and Jetson Thor, controlled tabletop/objects/lighting; this is not broad factory acceptance.",
+        "Training VRAM, rendering-compatible simulation hardware and onboard LPDDR are different resource roles; a GPU or memory total cannot substitute for compatibility.",
+        "No models, simulation, training, inference, hardware tests or workflow installation were executed in this research."
+      ],
+      "quantities": [
+        {
+          "value": 48,
+          "unit": "GB GPU VRAM",
+          "denominator": "Minimum per stated GR00T 1.7 post-training GPU requirement",
+          "population": "Training role, not onboard memory or simulator minimum",
+          "period": "Undated latest NVIDIA reference-workflow documentation retrieved 8 November 2026",
+          "measurement_status": "vendor workflow requirement, not measured workload",
+          "locator": "Prerequisites shared requirements"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "publication_date_missing_reason": "Undated latest documentation; retrieval date and page fingerprints identify the inspected version.",
+      "configured_system": "GR00T 1.7; Unitree G1 with Dex3-1 hands; Jetson Thor; separate Isaac Lab-Arena simulation path",
+      "source_links": [
+        "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/getting-started/prerequisites.html",
+        "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/simulation-workflow/sim-evaluation.html"
+      ],
+      "documented_checkout": "Isaac-GR00T 4b1dca9d88d2a0b9ea5a65aa61c82ff89f5c4f0e; documentation instruction, not an executed installation",
+      "source_artifacts": [
+        {
+          "url": "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/index.html",
+          "sha256": "792a9cb45d88fdf649333db6351b82cecd529808939885945d80edc96aaa1a36",
+          "representation": "retrieved HTML bytes"
+        },
+        {
+          "url": "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/getting-started/prerequisites.html",
+          "sha256": "4fe52adb7e43e0ddc54c116103acc27e6f8d124613cbaadc8269ea08f5ac95f1",
+          "representation": "retrieved HTML bytes"
+        },
+        {
+          "url": "https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/simulation-workflow/sim-evaluation.html",
+          "sha256": "7f768f57b583abf1da48978b54367f66a3b6c889154c880ba689c78942b21905",
+          "representation": "retrieved HTML bytes"
+        }
+      ]
+    },
+    {
+      "evidence_id": "LEC-008",
+      "claim": "GR00T-Ready release 0.3 is evaluator-recorded self-assessment. Its scoring software summarizes supplied results; completion does not grant Verified status or establish manufacturing, replacement-parts or support capacity.",
+      "url": "https://github.com/nvidia-isaac/isaac-gr00t-ready/tree/8a92bbb2389e1b218a614611c8d40cd4caf342b2",
+      "publisher": "NVIDIA public repository",
+      "publication_date": null,
+      "observation_period": "Pinned repository release 0.3 at commit dated 27 October 2026; framework criteria, not observed robot results",
+      "retrieved_at": "2026-11-08",
+      "source_class": "vendor_framework_and_source_code",
+      "epistemic_status": "pinned_documentation_and_read_only_code_audit",
+      "locator": "README release and tier boundaries; framework Commercial Accessibility/Supply-Chain; scoring.py score_gate and score_evaluation",
+      "limitations": [
+        "Commit date identifies inspected code, not an independently established release/publication date.",
+        "Automatic/guided/manual tags do not mean every robot test is supplied or run; the evaluator supplies procedures, measurements and evidence.",
+        "Self-Serve omits tier-1-only commercial/operational categories. A high technical score cannot prove qualified supply, spare availability or NVIDIA-backed support.",
+        "Required gates and must-have evidence remain separate from a scalar percentage. Software result validation is not independent physical certification.",
+        "No robot was evaluated, status applied for, vendor contacted or software installed/executed. Framework criteria are vendor-specific, not general legal or industrial standards."
+      ],
+      "quantities": [],
+      "target_parameters_allowed": [],
+      "publication_date_missing_reason": "No independent release date asserted; pinned commit metadata is recorded separately.",
+      "source_revision": {
+        "commit": "8a92bbb2389e1b218a614611c8d40cd4caf342b2",
+        "commit_date": "2026-10-27T18:16:57Z",
+        "version": "0.3",
+        "files": [
+          {
+            "path": "GR00T_Ready_Evaluation_Framework.md",
+            "sha256": "e57031016c8e37dc33471c4258a8b7c08db11d5da36b9dfb4b3cc967ae879b31"
+          },
+          {
+            "path": "README.md",
+            "sha256": "7dce2f93ba11f93ac179081b520c7a52f95c513d1012331c92114cc2e377db0b"
+          },
+          {
+            "path": "VERSION",
+            "sha256": "e2556a181068db2c7e3b2b127de33540448820fb1e97da29239833b6a8e09764"
+          },
+          {
+            "path": "criteria/criteria.yaml",
+            "sha256": "165e15e7a321a12586e396e2bcbb05fbcb57f4c8bba3f41ac3747bc0f69e5716"
+          },
+          {
+            "path": "gr00t_ready/scoring.py",
+            "sha256": "152302ec2bebd8d7bacc3631e7c8aa510efde47e25739d5e5b8453033f478f69"
+          }
+        ]
+      }
     }
   ],
   "research_question_ids": [
@@ -240,5 +521,87 @@
     "RQ-HC-04"
   ],
   "full_cost_per_validated_target_capability": null,
-  "unknown_reason": "No complete labor, attempt/rejection, equipment, processing, training and target-validation account in inspected sources."
+  "unknown_reason": "No complete labor, attempt/rejection, equipment, processing, training and target-validation account in inspected sources.",
+  "qualification_routes": [
+    {
+      "route_id": "generated_data",
+      "title": "Generated data → useful target policy",
+      "established": "A data-generation and action-labeling method can improve selected research task scores.",
+      "decision_gap": "Unique eligible data, inherited grounding, full compute/manual work, target acceptance and physical validation must be measured.",
+      "gate_to_test": "Freeze the same target tasks and held-out physical criteria; charge failed generation, processing, training and validation before comparing alternatives.",
+      "evidence_refs": [
+        "LEC-005",
+        "LEC-001",
+        "LEC-003",
+        "LEC-004"
+      ]
+    },
+    {
+      "route_id": "embodiment_transfer",
+      "title": "New embodiment → retained qualified capability",
+      "established": "Controlled video tests isolate appearance, motion representation and target-only adaptation effects.",
+      "decision_gap": "A video metric or target-only gain does not establish control-policy performance or preservation of installed-cohort capability.",
+      "gate_to_test": "Keep unseen target and retained-source configurations separate; require physical acceptance and regression checks before rolling out a shared update.",
+      "evidence_refs": [
+        "LEC-006",
+        "LEC-005"
+      ]
+    },
+    {
+      "route_id": "integration",
+      "title": "Working integration → supported usable capacity",
+      "established": "A configured reference workflow and self-assessment framework identify concrete integration work and required records.",
+      "decision_gap": "Independent sim/real paths, technical self-scores and a newer model name do not establish transfer, available parts or supported customer service.",
+      "gate_to_test": "Bind hardware, policy, interface, runtime and site versions to actual acceptance, capacity/parts commitments, rights and support obligations.",
+      "evidence_refs": [
+        "LEC-007",
+        "LEC-008"
+      ]
+    }
+  ],
+  "qualification_gate_contract": {
+    "status": "proposed_measurement_and_next_model_contract_not_an_executed_robot_evaluation",
+    "stages": [
+      "Define target service and old/new configuration identities",
+      "Deduplicate eligible data and preserve use rights",
+      "Fund generation, action labeling, curation and training",
+      "Measure held-out target service and retained-cohort regression",
+      "Qualify runtime, calibration, integration and recovery",
+      "Verify actual supported supply, parts, rights and customer cash obligations"
+    ],
+    "next_counterfactuals": [
+      {
+        "name": "No learning",
+        "intervention": "Eligible operating data and R&D expenditure may accumulate, but no candidate capability improvement is granted.",
+        "required_conservation": "Keep collection/training/validation costs and unchanged physical service; no data-value premium."
+      },
+      {
+        "name": "No transfer",
+        "intervention": "A candidate qualifies only for its explicitly validated embodiment/task/site; prior cohorts retain their old configuration.",
+        "required_conservation": "Do not relabel installed assets or duplicate data benefits; charge separate adaptation and validation."
+      },
+      {
+        "name": "Support before expansion",
+        "intervention": "A shared engineering/physical-validation resource must maintain installed supported service before admitting a new candidate/start.",
+        "required_conservation": "One finite calendar/resource allocation; missed service and committed staffing persist."
+      },
+      {
+        "name": "Qualified supply delay",
+        "intervention": "An ordered/financed unit or part arrives after its required qualification/service date.",
+        "required_conservation": "Preserve payment, physical identity, WIP/readiness and lost due output; do not count orders as operational units."
+      }
+    ],
+    "three_pack_application": {
+      "hospital": "Candidate control/dispatch changes must preserve urgency, identity, custody and retained fallback.",
+      "utility": "New sensing/vision must preserve point identity, accepted quality/review and residual physical duties.",
+      "automotive": "A new policy or hardware generation must meet the same unique-kit timing and quality, including buffer/transport and support boundaries."
+    }
+  },
+  "qualification_followup": {
+    "edition": "0.21",
+    "as_of": "2026-11-08",
+    "scope": "Substantial H direct R&D contribution joined to I/K qualification and support. Four new source records, not four independent demonstrations of deployment. No model coefficient or scenario assumption changes.",
+    "source_conflicts_preserved": true,
+    "source_role": "Evidence and proposed measurement contracts; no additional executable challenge family claimed."
+  }
 }

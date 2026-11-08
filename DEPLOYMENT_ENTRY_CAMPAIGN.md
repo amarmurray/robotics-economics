@@ -52,3 +52,7 @@ The [residual-visit analysis](research/utility_inspection_decision.md) adds boun
 ## Automotive workcell checkpoint, edition 0.20
 
 Eighteen [physical workcell worlds](research/automotive_workcell_decision.md) add bounded DE-CF04. Unique components, one manipulator, staged/direct loading, paid preparation and qualified generations determine accepted kits by deadline. Ten families now have bounded implementations, while actual supply, learning, lifecycle costs and full empirical acceptance remain incomplete. Three dated primary records strengthen the conventional comparison without calibrating numerical assumptions. The same active T0/deadline continues; this checkpoint does not complete the campaign.
+
+## R&D qualification evidence checkpoint, edition 0.21
+
+Four primary-source records deepen substantial H and I/K through [R&D-to-qualified-service analysis](research/learning_qualification.md). They preserve inherited resources, partial credit, held-out embodiment boundaries, independent simulation/physical workflows and self-assessment limits. Ten families remain bounded implementations; proposed no-learning/no-transfer/support/supply contracts are not new completed replays. Prior scenarios are unchanged. The same T0/deadline and in-progress objective continue.

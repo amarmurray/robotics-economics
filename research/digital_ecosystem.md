@@ -148,3 +148,7 @@ H1 is connected to the lead's infrastructure dossier; this wave does not complet
 5. **Measure validated robotics R&D acceleration.** Recover candidate-selection, compute, human-review and physical-test costs for DrEureka and contrasting work. The completion criterion is fixed-objective validated engineering output and critical-path cost/time, not more generated candidates.
 
 These priorities connect directly to market sequencing, deployment architecture, learning investment, provider boundaries and same-technology incumbent/newco comparisons. They require public research first; unavailable field measurements remain explicit gaps rather than invented calibration.
+
+## Direct R&D contribution and qualification, edition 0.21
+
+[The R&D follow-up](learning_qualification.md) links video-generation and adaptation methods to the physical validation and supported-configuration obligations needed for deployment. A useful digital research tool can reduce one stage while another determines readiness. The record preserves source conflicts, inherited data, partial credit and target-only forgetting limits; it does not infer a universal acceleration, transfer penalty or robotics productivity coefficient. Technical self-assessment is also separate from available units, replacement parts and contracted support.

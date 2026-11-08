@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.9. The active campaign tests ten bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.10. The active campaign tests ten bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -60,7 +60,7 @@ Version 0.9. The active campaign tests ten bounded challenge families through se
 
 **Decision implication.** Compare total incremental cost to a fixed held-out capability/quality target, not merely dollars per recorded trajectory or raw robot-hours. Preserve data rights and failed/rejected collection.
 
-**What changes the view.** A complete collection-processing-training-validation ledger and matched policy evaluations across alternate data mixes, including recovery behavior. A larger dataset or faster collection alone is insufficient.
+**What changes the view.** A complete collection-processing-training-validation ledger and matched policy evaluations across alternate data mixes, including recovery behavior. A larger dataset or faster collection alone is insufficient. The [R&D qualification follow-up](research/learning_qualification.md) adds physical partial-credit and video-transfer boundaries, inherited grounding/compute, retained-cohort regression and supported-delivery gates. Undated reference workflows and self-assessment scores do not close target operating or supply evidence.
 
 ## T6 — Positive unit economics does not guarantee funded deployment
 

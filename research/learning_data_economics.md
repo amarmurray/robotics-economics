@@ -47,3 +47,7 @@ For a humanoid company, this favors a small matched collection-and-validation ex
 ## Stopping condition and remaining evidence
 
 This bounded public-source investigation stops with two versioned primary cases that materially distinguish compute cost, collection rate and target usefulness. It does not add a speculative total cost to fill missing components. The next step requires the underlying study logs/supplements or a new controlled operating dataset: full collection person-hours, failed/rejected episodes, target-training/validation compute, equipment amortization and rights. If those remain unavailable, retain the null full-cost estimate and test sensitivities explicitly rather than call the data pipeline commercially validated.
+
+## R&D-to-qualification continuation, edition 0.21
+
+[The qualification analysis](learning_qualification.md) extends this package with DreamGen, XEWorld and two NVIDIA integration/readiness sources. Physical policy partial credit, simulated video metrics, technical self-assessment and supported commercial capacity remain different observations. Inherited grounding, manual preparation, generation compute and retained-cohort regression now inform an explicit measurement contract. Four proposed no-learning/no-transfer/support/supply challenges remain unimplemented as new families; no source score changes the annual learning coefficient.

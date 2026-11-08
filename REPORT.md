@@ -1,8 +1,8 @@
 # Robotics Economics — integrated research report
 
-Edition 0.20, automotive-workcell checkpoint of the Deployment and Entry Decision campaign. Eighteen complete worlds test unique component kits, one shared manipulator, real buffering, variant changeover, prepared inputs, retained staffing and supported replacement configurations. Three primary-source records sharpen the conventional alternative and system-generation boundaries without calibrating numerical rates or costs. Prior utility, entry, coordination, finance and architecture cases remain intact. Qualified supply, learning and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
+Edition 0.21, R&D and qualification evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Four primary-source records connect generated data and world-model diagnostics to target qualification, integration and supported supply. Partial-credit metrics, inherited resources, source inconsistencies, independent sim/real paths and self-assessment limits remain explicit. Prior workcell, utility, entry, coordination, finance and architecture worlds remain unchanged. Ten challenge families have bounded implementations; no new family is claimed from this evidence tranche. Endogenous learning, qualified supply and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
 
-Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
+Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
 The original campaign ran from 2026-10-25T15:52:14Z to 2026-11-01T15:52:14Z and ended incomplete. The user has now activated a new 168-hour objective. Its single recorded execution T0 is 2026-11-07T20:12:27Z and deadline is 2026-11-14T20:12:27Z; the native activation timestamp is not exposed. See [the active campaign contract](DEPLOYMENT_ENTRY_CAMPAIGN.md). No work during interruptions or uninterrupted-compute claim is implied.
 
@@ -120,6 +120,10 @@ The [inspection comparison](research/utility_inspection_decision.md) exposes a d
 
 The [workcell analysis](research/automotive_workcell_decision.md) makes fixed vision, real buffering and a competent human baseline explicit challengers. A synthetic six-versus-seven-tick changeover switch changes timely kit service; it belongs to a validated process input, not an embodiment label. Prepared inputs retain upstream labor, and purchased replacement hardware retains separate qualification. These tests narrow a useful humanoid proposition to capabilities and process access that alternatives cannot supply economically on the same boundary. Public evidence still does not disclose matched full costs, actual staffing removal or supported lifecycle terms.
 
+### R&D gains must survive qualification, edition 0.21
+
+[The new qualification analysis](research/learning_qualification.md) supports useful digital contributions while narrowing what their scores establish. Candidate construction, held-out physical service, retained-cohort regression and supported delivery have different resource and evidence requirements. Prioritize the experiment or operating record that resolves the binding stage. Generated-data volume, self-assessment completion and a newer model label cannot fill missing target acceptance or supplier commitments.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -231,7 +235,7 @@ The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The next substantive work is the remaining service-specific alternatives and qualification evidence, starting with the automotive workcell comparator and then target qualified supply/support. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
+The service-specific automotive comparison is now implemented within its stated synthetic boundary. The next substantive work is target qualified supply/support and endogenous learning with real eligibility, validation and retained-cohort obligations. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
 
 
 #### Utility service challenge, edition 0.19
@@ -241,6 +245,10 @@ The [inspection decision](research/utility_inspection_decision.md) now gives the
 #### Automotive service challenge, edition 0.20
 
 The [workcell comparison](research/automotive_workcell_decision.md) strengthens the conventional alternative with a primary fixed-vision/buffer reference while preserving different plants, parts and generations. In the synthetic worlds, real buffering and validated changeover can remove an apparent humanoid advantage; a competent human also meets the default service. Preparation consumes separate people and material readiness. Supported replacement requires a paid distinct qualified configuration and cannot repair missed deadlines. Proceed with a matched qualification protocol, wait on real complete operating economics, and reject a substitution that drops timing, transport, quality or support obligations. No source rate or lifecycle value is inferred.
+
+#### R&D and qualification evidence gate, edition 0.21
+
+[The learning follow-up](research/learning_qualification.md) now supplies an explicit chain from eligible data through candidate construction, target acceptance, old-cohort regression, integration and supported supply. Apply it to hospital urgency/custody, utility accepted point/review coverage and automotive complete-kit timing. Four proposed counterfactual contracts preserve costs and physical identities; they do not count as completed DE-CF09/10/14 implementations. Existing numerical outcomes and ten bounded challenge families remain unchanged.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -668,6 +676,10 @@ For a humanoid company, this favors a small matched collection-and-validation ex
 #### Stopping condition and remaining evidence
 
 This bounded public-source investigation stops with two versioned primary cases that materially distinguish compute cost, collection rate and target usefulness. It does not add a speculative total cost to fill missing components. The next step requires the underlying study logs/supplements or a new controlled operating dataset: full collection person-hours, failed/rejected episodes, target-training/validation compute, equipment amortization and rights. If those remain unavailable, retain the null full-cost estimate and test sensitivities explicitly rather than call the data pipeline commercially validated.
+
+#### R&D-to-qualification continuation, edition 0.21
+
+[The qualification analysis](research/learning_qualification.md) extends this package with DreamGen, XEWorld and two NVIDIA integration/readiness sources. Physical policy partial credit, simulated video metrics, technical self-assessment and supported commercial capacity remain different observations. Inherited grounding, manual preparation, generation compute and retained-cohort regression now inform an explicit measurement contract. Four proposed no-learning/no-transfer/support/supply challenges remain unimplemented as new families; no source score changes the annual learning coefficient.
 
 ### Focused follow-up: Automotive workcells, buffering and qualified generation
 
@@ -1528,6 +1540,10 @@ H1 is connected to the lead's infrastructure dossier; this wave does not complet
 
 These priorities connect directly to market sequencing, deployment architecture, learning investment, provider boundaries and same-technology incumbent/newco comparisons. They require public research first; unavailable field measurements remain explicit gaps rather than invented calibration.
 
+### Direct R&D contribution and qualification, edition 0.21
+
+[The R&D follow-up](research/learning_qualification.md) links video-generation and adaptation methods to the physical validation and supported-configuration obligations needed for deployment. A useful digital research tool can reduce one stage while another determines readiness. The record preserves source conflicts, inherited data, partial credit and target-only forgetting limits; it does not infer a universal acceleration, transfer penalty or robotics productivity coefficient. Technical self-assessment is also separate from available units, replacement parts and contracted support.
+
 ### Focused follow-up: Benchmark reproducibility and transaction authority
 
 Authoritative analysis: [research/coordination_reproducibility.md](research/coordination_reproducibility.md).
@@ -1735,6 +1751,73 @@ Thesis T4 now has a competent bounded scheduling comparator in addition to trans
 | delayed stale outage guard | 0 | 0 / 1 | 0 | 151.80 | 120.00 |
 
 Generated from [conventional_coordination.json](model/results/conventional_coordination.json). Exactness covers the currently observed bounded queue. Mandatory service remains a separate gate; all paid attempt, recovery and capacity costs remain. These synthetic window bills exclude lifecycle economics, and no LLM performance is measured.
+
+### Focused follow-up: R&D progress, qualification and supported capacity
+
+Authoritative analysis: [research/learning_qualification.md](research/learning_qualification.md).
+
+Edition 0.21, 8 November 2026. This extends substantial Workstream H's direct contribution to robotics and joins I/K's configuration, supply and support questions. [The existing learning evidence package](data/learning_data_economics.json) owns LEC-005..008 and the proposed measurement contracts. No model, simulator or robot was run, and no deployment coefficient changes.
+
+The strategic question is which R&D intervention changes accepted physical service, on which configuration, after paying for the complete path. A useful generated trajectory, a higher video score, an integrated policy server and an available supported robot are different outputs. Improvements at an early stage can matter greatly; the next stage must be demonstrated rather than assumed. This is especially consequential when a company replaces hardware, sells a general policy across bodies, or allocates scarce engineering between installed customers and new deployment.
+
+#### What changes the existing learning-data conclusion
+
+[DreamGen's CoRL proceedings paper](https://proceedings.mlr.press/v305/jang25a.html) supplies stronger evidence than a synthetic-data illustration: it reports physical policy experiments as well as simulation scaling. Its embodiment grounding, action labeling and downstream evaluation provide a concrete route from a video model to robot behavior. However, target low-data examples are not the complete inherited training investment. The GR1 pipeline uses a substantial pick-and-place seed; the Franka pipeline draws on DROID. Initial-frame preparation and target evaluation also remain work. LEC-005 records the individual stages and source-internal discrepancies.
+
+The physical scores require particular care. Several task rubrics award partial credit, and the stated evaluation uses ten rollouts per checkpoint. A score increase is therefore not a measured change in binary factory acceptance or a confidence estimate for unattended reliability. Table 5 also includes an individual policy/task regression despite favorable aggregate results. The paper's main text, tables and appendix disagree on several counts, subsets and means. We preserve those differences rather than select a convenient exact uplift. Table 5 was checked visually against the downloaded proceedings PDF; the source fingerprint is recorded.
+
+Its separate RoboCasa resource statement reports 54 hours on 1,500 L40 GPUs for 240,000 generated trajectories. Multiplying elapsed time by the stated allocation gives **81,000 allocated GPU-hours if the full allocation spans that interval**. This is arithmetic under the stated allocation, not measured GPU utilization, a monetary bill, or the cost of usable physical demonstrations. It excludes the rest of the pipeline and does not belong to the physical GR1 trial denominator. It cannot be multiplied by an assumed cloud price and presented as an observed R&D budget.
+
+The economic implication is an additional possible substitution: compute can produce useful training material for selected targets. Its value depends on inherited data, filtering, action fidelity, training and physical acceptance. It does not eliminate the need to learn the target embodiment or imply that a business can obtain arbitrary validated skills by scaling generated-video count. This extends the earlier Cobalt/DexWild analysis without replacing their different populations or adding their reported improvements together.
+
+#### Transfer needs both a target test and a retained-cohort test
+
+[XEWorld v1](https://arxiv.org/html/2608.05799v1) supplies a useful counter-test. It holds robot embodiments out in controlled simulated scenes and separates video appearance, morphology and projected motion metrics. Target-only adaptation improves selected target metrics while degrading a seen-robot video metric under the stated no-replay protocol. These are learned-world-model diagnostics, not physical control-policy or commercial service results. Its fixed split and leave-one-embodiment-out results must remain separate. Image-plane tracking and excluded unreliable contact diagnostics also limit a claim about physical dynamics. LEC-006 preserves these boundaries.
+
+The inference is narrower than “transfer fails.” A candidate can improve one target without preserving an installed cohort, and a convenient aggregate can hide that change. A qualification program should retain the old configuration's acceptance suite while testing the new target. If the deployment uses separate adapters or checkpoints, their compute, storage, monitoring and maintenance are real operating choices; the observed target-only forgetting result does not establish that such mitigations fail. Equally, asserting an adapter exists does not prove the mitigation works.
+
+For the automotive pack, this means testing the same accepted component sets, timing and quality after a policy or hardware change. For inspection, a clearer generated image or improved visual metric must still yield accepted measurements for the required points, with review and residual duties preserved. For hospital logistics, a newer planner/controller must preserve urgency, identity and custody, including the retained fallback obligation. No metric is carried from a world-model benchmark into these service coefficients.
+
+#### Integration tooling is useful evidence of work to do
+
+NVIDIA's current [G1 reference course](https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/index.html) describes simulation and real-robot paths that are independent in that course version. The physical workflow names a specific robot, hands, onboard platform and controlled task setting. The [prerequisites](https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/getting-started/prerequisites.html) distinguish post-training GPU memory from rendering-compatible simulation hardware and onboard resources. The [simulation evaluation](https://docs.nvidia.com/learning/physical-ai/gr00t-e2e-workflow/latest/simulation-workflow/sim-evaluation.html) also pins a compatible checkout. LEC-007 records the retrieved pages and fingerprints; their publication dates are not supplied.
+
+This makes the dependency graph more concrete. A reusable course can lower integration search and setup effort without establishing that one checkpoint crossed simulation to hardware. A successful installation on a different version, hand, camera layout or network is another configuration to qualify. Training capacity, simulation rendering and onboard inference have different compatibility and memory requirements. Pooling them into one generic GPU-hour or memory inventory can make an apparently funded plan physically impossible. Conversely, treating every deployment as requiring the entire research stack would overstate its marginal burden; distinguish reusable infrastructure from per-target adaptation and validation.
+
+The [pinned GR00T-Ready release](https://github.com/nvidia-isaac/isaac-gr00t-ready/tree/8a92bbb2389e1b218a614611c8d40cd4caf342b2) provides a second boundary. Its release 0.3 self-assessment collects evaluator-supplied results; completion does not grant Verified status. The code review confirms scoring of recorded item/gate results and separate tier inclusion. Commercial availability, capacity/ramp and replacement-parts commitments are distinct framework requirements, not quantities established by downloading the toolkit. LEC-008 pins the inspected files. We neither evaluated a robot nor applied for a vendor status.
+
+The framework is useful as a source of missing-artifact questions. It is not evidence that a particular OEM has passed them, a customer has contracted for support, or a general industrial/legal standard is satisfied. A technical compatibility score, vendor relationship and dated supported supply commitment should remain separate records. The latter needs a named configuration, quantity, delivery/qualification timing, replacement responsibility and service obligation. A roadmap statement cannot fill those fields.
+
+#### Measure a complete R&D decision
+
+Begin with the incumbent configuration and a fixed target service. Preserve the same demand, input state, quality and deadlines across candidate R&D programs. Specify what would count as improvement: more eligible tasks, less recovery work, faster validated changeover, lower resource demand or better retained performance. A new model name or a larger dataset is not itself the outcome.
+
+| Stage | Required observation or resource boundary | What may be reused, and what must be paid again |
+| --- | --- | --- |
+| Eligible experience | Unique episodes, task/configuration, quality, failures and permitted reuse | Legitimately reusable data need not be recollected; duplicated records do not become independent experience. |
+| Candidate construction | Generation attempts, action labels, filtering, training and human preparation | Shared pretrained assets can be sunk or licensed inputs; each actual adaptation run and its restrictions remain. |
+| Target qualification | Held-out physical acceptance, timing, recovery and relevant adverse conditions | A source benchmark can inform test design; it does not supply the target result. |
+| Retained-cohort regression | Old task/configuration outcomes after the proposed update | One target's gain cannot automatically be assigned to every installed unit. Separate checkpoints may carry separate support work. |
+| Runtime and integration | Compatible sensors, action interfaces, calibration, power/thermal behavior and installed versions | Successful software bring-up is an intermediate milestone; sustained service still needs its own evidence. |
+| Supported delivery | Available compatible units/parts, commissioning, rights, support capacity and cash dates | Orders and inventory remain distinct from ready supported capacity. Prior commitments constrain new starts. |
+
+Count shared work once and incremental uses when they occur. Reusing a dataset for two valid purposes need not double its collection cost, but it can incur two training/validation programs. Do not also add a fictional data-asset premium on top of the resulting service gain. Real data licensing revenue, if observed, is a separate actor transaction with rights and costs, not an automatic social resource benefit.
+
+The funding comparison needs every paid attempt, including rejected generation and failed qualification. The calendar comparison needs dependencies and contested physical resources. Parallel generation may shorten one stage while a fixed validation slot, missing compatible part or support commitment determines the date at which service can begin. Training throughput cannot by itself shorten that critical path. Trials conducted on an operating workcell can also displace production; a dedicated trial unit instead requires separate capacity and cash. These are alternatives to price explicitly, not reasons to reject research.
+
+#### Four challenges prepared for executable testing
+
+The existing campaign already has bounded workcell, inspection, coordination, finance and cohort mechanisms. The following contracts specify what remains to implement; they do **not** create new completed challenge families in this edition.
+
+**No learning:** retain eligible experience and actual R&D expenditure while granting no validated capability increment. This distinguishes a failed investment from a policy that never attempted R&D. It prevents an expenditure or dataset count from automatically manufacturing an improvement.
+
+**No transfer:** allow a candidate's accepted gain only on its validated target configuration. Installed cohorts keep their prior capability unless separately adapted and qualified. Transfer rights and technical compatibility are separate gates. Legitimate shared data is not charged twice merely because transfer fails; additional adaptation and validation are charged when performed.
+
+**Support before expansion:** allocate one finite engineering and physical-validation calendar across installed support and candidate work. Compare explicit policies using the same resource pool. If candidate work displaces a support obligation, retain the missed service and committed staffing instead of silently creating substitute people. A different priority policy can alter timing without creating resources.
+
+**Qualified supply delay:** preserve a financed order, its cash and physical identity when compatible delivery or qualification occurs too late. No order count becomes an operational unit before readiness; no later delivery backfills missed due service. This challenge needs an explicit delivery/commissioning/qualification boundary rather than a generic scalar shortage.
+
+The next implementation should join these contracts to existing physical and Treasury mechanisms, with one service unit and no duplicated fleet. First test the strongest conventional improvement, such as better buffering or measured retooling, against the learning proposal. Then ask whether a funded R&D change yields enough additional accepted service, soon enough, to justify its opportunity cost. The current sources establish useful methods and important limits; they do not yet determine that economic choice.
 
 ## 6. Digital infrastructure and physical production
 

@@ -86,3 +86,7 @@ The [inspection comparison](utility_inspection_decision.md) exposes a discrete a
 ## Automotive process and generation gate, edition 0.20
 
 The [workcell analysis](automotive_workcell_decision.md) makes fixed vision, real buffering and a competent human baseline explicit challengers. A synthetic six-versus-seven-tick changeover switch changes timely kit service; it belongs to a validated process input, not an embodiment label. Prepared inputs retain upstream labor, and purchased replacement hardware retains separate qualification. These tests narrow a useful humanoid proposition to capabilities and process access that alternatives cannot supply economically on the same boundary. Public evidence still does not disclose matched full costs, actual staffing removal or supported lifecycle terms.
+
+## R&D gains must survive qualification, edition 0.21
+
+[The new qualification analysis](learning_qualification.md) supports useful digital contributions while narrowing what their scores establish. Candidate construction, held-out physical service, retained-cohort regression and supported delivery have different resource and evidence requirements. Prioritize the experiment or operating record that resolves the binding stage. Generated-data volume, self-assessment completion and a newer model label cannot fill missing target acceptance or supplier commitments.
