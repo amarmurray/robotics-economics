@@ -172,6 +172,23 @@ class Unit:
     commissioned_at: Moment | None = None
 
 
+@dataclass(frozen=True)
+class RecoveryTransfer:
+    """One funded installed-to-transit move; no new unit or customer assignment."""
+    unit_id: str
+    operator_id: str
+    ready_month: int
+    purchase_invoice_id: str
+    relocation_invoice_id: str
+
+    def __post_init__(self):
+        for value in (self.unit_id,self.operator_id,self.purchase_invoice_id,self.relocation_invoice_id):
+            _name(value)
+        _integer(self.ready_month)
+        if self.purchase_invoice_id==self.relocation_invoice_id:
+            raise ValueError('Asset consideration and relocation need separate invoices')
+
+
 def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
     """Return a detached deterministic artifact; never mutate supplied inputs."""
     if not isinstance(plan, Plan) or not isinstance(treasury, Treasury):
@@ -247,7 +264,7 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
         opening_cash = {a.actor_id: treasury.balance(a.actor_id) for a in treasury.accounts}
         supported = set()
         service_used = starts_used = 0
-        commissioned = shipped = started = accepted = rejected = 0
+        commissioned = shipped = started = accepted = rejected = relocated = 0
         existing = [u for u in units if u.status == "installed"]
         arriving = [u for u in units if u.status == "transit" and u.ready_month <= month]
         scheduled = [s for s in plan.starts if s.month == month]
@@ -274,6 +291,48 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
         if commercial is not None:
             treasury = commercial.collect(treasury, month)
             treasury = commercial.mandatory(treasury, month)
+
+        # Optional recovery occurs after this month's debt settlement, before
+        # support. Proceeds can service debt only at a later declared settlement.
+        # Validate the complete transition before changing the physical list.
+        recovery=getattr(commercial,'recovery_transfers',None)
+        if recovery is not None:
+            candidate,moves=recovery(treasury,month,tuple(units),plan.shipping_slots[month])
+            if not isinstance(candidate,Treasury) or not isinstance(moves,(tuple,list)):
+                raise ValueError('Recovery must return Treasury and explicit transfers')
+            if any(not isinstance(move,RecoveryTransfer) for move in moves):
+                raise ValueError('Explicit recovery transfer records required')
+            if len(moves)>plan.shipping_slots[month] or len({m.unit_id for m in moves})!=len(moves):
+                raise ValueError('Recovery exceeds shipping capacity or duplicates a unit')
+            current={u.unit_id:u for u in units};operators={o.operator_id:o for o in plan.operators}
+            invoice_ids=[]
+            for move in moves:
+                unit=current.get(move.unit_id)
+                if unit is None or unit.status!='installed' or move.operator_id not in operators or move.operator_id==unit.operator_id:
+                    raise ValueError('Recovery requires an installed unit and a distinct known destination')
+                if move.ready_month<=month:
+                    raise ValueError('Relocation cannot provide same-month service')
+                for iid,category in ((move.purchase_invoice_id,'asset_recovery_purchase'),(move.relocation_invoice_id,'asset_recovery_relocation')):
+                    bill=candidate.invoice(iid)
+                    if bill.category!=category or bill.issued_at>=Moment(month,3) or bill.eligible_at!=Moment(month,3) or bill.outstanding_cents or bill.paid_cents!=bill.face_cents:
+                        raise ValueError('Recovery requires current fully paid consideration and relocation')
+                    invoice_ids.append(iid)
+            if len(invoice_ids)!=len(set(invoice_ids)):
+                raise ValueError('Recovery payments cannot fund multiple units')
+            treasury=candidate
+            for move in moves:
+                unit=current[move.unit_id]
+                # Cancel this period's contingent old-site support and any
+                # linked software booking through the same admission policy.
+                reason=admit(support_invoices[unit.unit_id],month,3,'asset_relocated_before_support',unit=unit)
+                if not reason:raise AssertionError('Relocated unit received old-site support')
+                put(replace(unit,status='transit',operator_id=move.operator_id,ready_month=move.ready_month,
+                            shipped_at=Moment(month,3),commissioned_at=None))
+                record(month,3,'asset_relocation',(unit.unit_id,),previous_operator_id=unit.operator_id,
+                       operator_id=move.operator_id,ready_month=move.ready_month,
+                       purchase_invoice_id=move.purchase_invoice_id,relocation_invoice_id=move.relocation_invoice_id)
+            relocated=len(moves)
+            if relocated:existing=[u for u in units if u.status=='installed']
 
         # Phase 3: opening installed units have first claim on slots, spares and cash.
         for unit in existing:
@@ -332,7 +391,7 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
             booked_for_target = sum(u.status == "transit" and u.ready_month == target for u in units)
             future_installed = sum(u.status == "installed" for u in units) + awaiting
             reason = "existing_support_shortfall" if unsupported_existing else \
-                     "shipping_slots" if shipped >= plan.shipping_slots[month] else \
+                     "shipping_slots" if shipped + relocated >= plan.shipping_slots[month] else \
                      "commissioning_outside_horizon" if target >= plan.months else \
                      "future_commissioning_slots" if booked_for_target >= plan.commissioning_slots[target] else \
                      "future_support_slots" if future_installed >= plan.support_slots[target] else \
@@ -413,6 +472,7 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                "commissioning_slots": plan.commissioning_slots[month], "shipping_slots": plan.shipping_slots[month],
                "outputs": outputs, "opening_cash_cents": opening_cash,
                "closing_cash_cents": {a.actor_id: treasury.balance(a.actor_id) for a in treasury.accounts}}
+        if relocated:row['flows']['relocated']=relocated
         _audit_month(row)
         if len({u.unit_id for u in units}) != len(units):
             raise ValueError("Duplicate unit identity")
@@ -433,15 +493,16 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
 
 def _audit_month(row):
     a, z, f, c = row["opening_stock"], row["closing_stock"], row["flows"], row["components"]
+    relocated=f.get('relocated',0)
     expected = {"wip": a["wip"] + f["started"] - f["accepted"] - f["rejected"],
                 "finished": a["finished"] + f["accepted"] - f["shipped"],
-                "transit": a["transit"] + f["shipped"] - f["commissioned"],
-                "installed": a["installed"] + f["commissioned"], "rejected": a["rejected"] + f["rejected"]}
+                "transit": a["transit"] + f["shipped"] + relocated - f["commissioned"],
+                "installed": a["installed"] + f["commissioned"] - relocated, "rejected": a["rejected"] + f["rejected"]}
     if z != expected or any(value < 0 for value in z.values()):
         raise AssertionError("Physical stock conservation failed")
     if c["closing"] != c["opening"] + c["qualified_receipts"] - c["service_consumed"] - c["start_consumed"] or not 0 <= c["protected_unconsumed_for_existing"] <= c["closing"]:
         raise AssertionError("Component conservation/reservation failed")
-    if row["support"]["used"] > row["support"]["slots"] or f["commissioned"] > row["commissioning_slots"] or f["shipped"] > row["shipping_slots"]:
+    if row["support"]["used"] > row["support"]["slots"] or f["commissioned"] > row["commissioning_slots"] or f["shipped"] + relocated > row["shipping_slots"]:
         raise AssertionError("Capacity exceeded")
     for output in row["outputs"]:
         value = Fraction(**output["accepted_output_units"])

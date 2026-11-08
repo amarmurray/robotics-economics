@@ -3831,6 +3831,12 @@
         ],
         "analysis": "research/conventional_coordination.md",
         "role": "Primary conventional human-dispatch implementation; method and service gates only, no numerical transfer."
+      },
+      "asset_recovery_gate": {
+        "analysis": "research/asset_recovery.md",
+        "artifact": "model/results/asset_recovery.json",
+        "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
+        "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
       }
     },
     {
@@ -3971,6 +3977,12 @@
         "artifact": "model/results/support_expansion.json",
         "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
         "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
+      },
+      "asset_recovery_gate": {
+        "analysis": "research/asset_recovery.md",
+        "artifact": "model/results/asset_recovery.json",
+        "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
+        "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
       }
     },
     {
@@ -4103,6 +4115,12 @@
         "artifact": "model/results/support_expansion.json",
         "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
         "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
+      },
+      "asset_recovery_gate": {
+        "analysis": "research/asset_recovery.md",
+        "artifact": "model/results/asset_recovery.json",
+        "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
+        "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
       }
     }
   ],
@@ -4114,6 +4132,7 @@
     "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths.",
     "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack.",
     "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics.",
-    "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required."
+    "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required.",
+    "asset_recovery_gate": "An eligible owner sale now executes in the shared physical and Treasury loop. Paid title can remain stranded; lender cash recovery need not restore service. Real priorities, rights, valuation and full-cost evidence remain open."
   }
 }

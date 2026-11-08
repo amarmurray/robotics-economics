@@ -265,3 +265,8 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Hospital support and replacement checkpoint, edition 0.26
 
 [The procurement audit](research/hospital_support_contracts.md) adds a US schedule, attached remedy conditions and a UK buyer award. Next seek a current executed site order with acceptance, restoration/fallback, repair/exit and license/data terms, matched to retained work. Do not convert component prices or award values into service economics. Existing counts, worlds and model assumptions remain unchanged.
+
+
+## Funded asset recovery checkpoint, edition 0.28
+
+[Declared owner sale and redeployment](research/asset_recovery.md) now join one actual unit, dated buyer/seller/lender cash and site qualification/support. A paid stranded asset, a low-price unpaid claim and the stronger human no-purchase baseline can reverse the inference from nominal recovery. Remaining work is substantive: annual fleet/component/resource integration, broader competitive/architecture interaction, or a target operating/transfer record that changes a recommendation. Do not add favorable sale variants for count. Legal priority, lease repossession, restructuring, valuation and empirical full-cost acceptance remain open. The existing campaign clock continues.

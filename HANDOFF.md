@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.27.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.28.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: conventional human-dispatch evidence, edition 0.27
+## Current checkpoint: funded asset recovery and restored service, edition 0.28
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This is the same sole writer, checkout and published environment. Native goal/quota controls remain unexposed. No replacement task, schedule, clock, goal termination or quota reset occurred; uninterrupted execution is not claimed.
+
+From clean remote-verified input `33579d11c03d7906d6924ef8d7b7dbbe590d1cd4`, [the recovery extension](research/asset_recovery.md) connects a funded owner sale to the existing physical/Treasury/calendar/finance chain. It preserves one robot identity, old customer/staff/debt obligations, actual buyer/seller/lender cash, shared shipping and later site qualification/support. An independently owned lease unit cannot be sold by its lessee. Consideration transfers within the boundary; relocation consumes resources once.
+
+The strategic distinction is now executable: creditor cash recovery can coexist with a stranded buyer; a low price can restore service while leaving unpaid principal. The stronger human buyer gains no accepted output from purchasing the unit. Purchase plus initial relocation is atomic, but later failed qualification does not undo the sale. Current debt settlement precedes sale proceeds, so only a later applicable settlement can use them. Real legal priority, enforceable transfer rights, lease repossession, valuation, restructuring and optimized investment remain unresolved; DE-04 stays partial.
+
+Fresh checks pass **408 Python tests** in 224.046 seconds, **36 Node assertions**, thirteen JavaScript syntax checks and all 39 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new recovery panel is verified in two views, all fourteen full worlds match saved results exactly, and custom controls, exact export, tampered-result full replay, invalid-input handling, last-applied export, stale-response rejection, scope invariance and four lineage rows pass. CLI replay matches the full reference exactly. All sixteen prior expansion and seventeen renewal browser worlds still match. The recovery panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged, with identical non-fingerprint semantic fields including rational strings. 10 result files are byte-identical; 21 change only the exact physical-core source fingerprint, dependent case/artifact identities or market/question evidence fingerprints. All other prior model Python modules, numerical assumptions, source claims, atlas cells and labor/accounting rows are unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families now contain **158 worlds**. The evidence registry remains 13 packages, 206 claims, 429 quantities and 121 explicit-null markers. **312 manifest hashes and 699 relative Markdown links** verify without broken paths.
+
+**Next execution:** prioritize full annual-fleet/component/resource integration, a broader architecture/competition interaction that changes a decision, or a target operating/transfer record that can reverse a recommendation. Keep complete service, retained paid work, actor cash, qualified support and real rights visible. Do not add favorable recovery variants merely to increase coverage counts.
+
+**Next question:** can a shared annual resource plan preserve the monthly qualified fleet, existing service and every payer's obligations across expansion, failure, recovery and competitive customer commitments?
+
+## Previous checkpoint: conventional human-dispatch evidence, edition 0.27
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This is the same sole writer, checkout and published environment. No replacement task, schedule, clock, native-goal action or quota reset occurred. Native goal/quota controls remain unexposed, and uninterrupted execution is not claimed.
 

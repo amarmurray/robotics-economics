@@ -3,7 +3,7 @@
   "evidence_status": "synthetic_explicit_service_and_calendar_contract",
   "source_sha256": {
     "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-    "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+    "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
     "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
     "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
     "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -10984,7 +10984,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -10994,7 +10994,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "60754c1e5fb17410de04f0671263c8b7c805b1d7cda383201cb685a0d6dab3b9"
+      "case_hash": "f0f5ea3aed52de1b69a278bdc63a306c3edcc7cf1a94eb438736a0b6759a3989"
     },
     "C01_digital_human": {
       "schema_version": "monthly-deployment/0.5",
@@ -22461,7 +22461,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -22471,7 +22471,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "730bd9964c8e96ccddee8b13b221b421ebfad5a6665cb397f0dd80bc2a3aaaef"
+      "case_hash": "60e638df92ee1f2a24f3675300cc5b87e4b92361de3c86f0605b0c2bbb416f4b"
     },
     "C10_robot_base": {
       "schema_version": "monthly-deployment/0.5",
@@ -44619,7 +44619,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -44629,7 +44629,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "173c9f298718e07ab4a7a7428c19e582e85ddf083001aa5bcbe259cc3631c143"
+      "case_hash": "3d8fb4e0a1a83bdcd32abe07c4f39729bae3e95d1aa43c89d50787239257d3ba"
     },
     "C11_robot_digital": {
       "schema_version": "monthly-deployment/0.5",
@@ -70118,7 +70118,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -70128,7 +70128,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "e84a499fd0b06207c9a72ab79235eb1f225fbd4edd99c9e144161f6d96948c7d"
+      "case_hash": "bd588e3880245e5f5a8359d5c00b3e7083e71d38005ad2804493ee0646e1d015"
     },
     "calendar_improving": {
       "schema_version": "monthly-deployment/0.5",
@@ -96000,7 +96000,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -96010,7 +96010,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "b1d037a4d773ad54904962810416ff00d21f4a5a56b4ac2ca8761f76ad4251e4"
+      "case_hash": "c5e79f6d6077dff4b1d6d0b153be1a1deb5b8375f900a39e514465ebf6546ba4"
     },
     "frozen_cohorts": {
       "schema_version": "monthly-deployment/0.5",
@@ -121516,7 +121516,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -121526,7 +121526,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "debc3b33d94a993c4cc2330516c22b48e61c049d100fcb18b39ce020ad082be8"
+      "case_hash": "9dead1dedafea08864ba1a3620165ed4dd804b802006fb97fdf074d0937969ea"
     },
     "upgrade_hours_available": {
       "schema_version": "monthly-deployment/0.5",
@@ -147367,7 +147367,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -147377,7 +147377,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "a500ade43d9a4bf1f255f4d57731c967e1df80655b5b160638127a9d207aba4d"
+      "case_hash": "144e8b887941893be09fbea4c490d2fbdd9678e1ec0fc478c0a0d5b0434bd661"
     },
     "calendar_financing_pressure": {
       "schema_version": "monthly-deployment/0.5",
@@ -173728,7 +173728,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -173738,9 +173738,9 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "f212ffd0b37fefa288af695fe6d1e351eaf22d7406ffbaaf0ffbec7b27425069"
+      "case_hash": "8f6c236f5e21fd70e7620d439e54873f8d82dd975d0a47542f49672768d0f0bc"
     }
   },
   "comparison_boundary": "Fixed human staffing and customer-move policy across four ample-capital branches; released task time is not payroll removed. This is not the stronger optimized conventional coordination comparator.",
-  "artifact_hash": "0e0cb67717f374915fba318ac8ceb4134b3939ebfb38d4274c624da008e81f76"
+  "artifact_hash": "83fb4160745c17480811a3b8131ea24f4c82e64bf380a88e990ca128015e63c0"
 }

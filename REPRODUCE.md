@@ -1,5 +1,7 @@
 # Reproduce the local research edition
 
+Edition 0.28 adds fourteen funded owner-sale/redeployment worlds to Customer adoption and Commercial models. Full opening inputs, title and physical histories, dated cash, retained claims and a stronger human comparator are replayable. [Methods](model/ASSET_RECOVERY.md) distinguish purchase from later qualified service. The prior scenario calculations remain numerically unchanged.
+
 Edition 0.27 adds H-PROXIMITY-2025 and H-COMP-01 in the existing digital evidence package. The comparison appears in Learning & coordination, Digital AI ecosystem and Analogies & contributions, with a shared decision note in all thirteen views. Inspect raw versus adjusted results, unresolved confidence bounds, reported subgroup/labor interpretations and four explicit unknowns. Source rows remain fixed under scenario controls; source exports preserve the package hash and scenario export/reload retains its normal calculation semantics. This evidence update changes no model coefficients or prior numerical result.
 
 The active decision campaign adds a cell-filtered provisional decision panel to every view. It reads `decision_reassessment` and `decision_packs` from the existing market evidence package. Source gates and explicit unknowns remain fixed when synthetic controls change. Fourteen financed worlds cover bounded DE-CF11/12. Eight calendar/digital worlds add bounded DE-CF01/13 and partial support/frozen-cohort mechanisms; broad campaign coverage remains incomplete. Ten funded monthly architecture worlds add bounded DE-CF08 and engineering-before-expansion mechanisms. Existing commands retain their stated scopes.
@@ -29,6 +31,7 @@ python3 scripts/export_automotive_workcell.py --check
 python3 scripts/export_learning_execution.py --check
 python3 scripts/export_competitive_renewals.py --check
 python3 scripts/export_support_expansion.py --check
+python3 scripts/export_asset_recovery.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -270,3 +273,8 @@ Customer adoption begins with sixteen declared support/expansion policies and ad
 FG-AUDIT-02 extends the existing customer package. Customer adoption, Business models and Digital AI show source price lines with their actual currency/denominator, a separate UK award, four support/exit gates and seven explicit unknowns. The same evidence export and source drawers expose dates, locators and PDF fingerprint. No arithmetic combines these items; no new scenario is added.
 
 Run the existing evidence, reproduction and browser checks. Scenario controls must leave the source audit unchanged. Filters should scope the hospital evidence, and current order/revision ambiguity must remain visible. See [the analysis](research/hospital_support_contracts.md) and [sole-writer review](reviews/hospital_support_contracts_review.md).
+
+
+## Funded asset sale and redeployment
+
+Customer adoption and Commercial models expose fourteen complete recovery witnesses through `/api/asset-recovery`. Change actor cash, price, relocation cost/lead, offer/maturity, shipping/commissioning capacity and explicit ownership/rights/qualification assumptions. Pending, invalid and stale edits retain the last applied display/export. A downloaded full case restores all opening inputs and ignores saved outcomes; shortcut controls stay read-only until a standard witness is selected. Run `python3 scripts/export_asset_recovery.py --check`, or use `--case downloaded.json --output replay.json`. Compare exact case hashes at the same source revision. Files are limited to 2 MB. Annual scope controls do not transform the synthetic cleaning service into hospital, utility or automotive evidence.

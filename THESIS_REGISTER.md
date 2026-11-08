@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.16. The active campaign tests fourteen bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.17. The active campaign tests fourteen bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -103,3 +103,8 @@ For each thesis, record whether new evidence narrows, supports or contradicts th
 ## Evidence update: contract value and supported rollout
 
 The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) strengthens T3's prompt-incumbent challenge while qualifying adoption and provider funding claims. A rollout announcement, five-year illustration, company loss and gross capital total answer different questions. The falsifier remains a matched accepted service with explicit retained work, negotiated obligations and funded support; actual economic advantage cannot be inferred from a proposed next-generation configuration.
+
+
+## Asset recovery challenge, edition 0.28
+
+[The funded owner-sale extension](research/asset_recovery.md) tests T1 and the entry/value-capture claims against exit. One robot can leave a defaulted owner, produce real creditor receipts and remain unavailable at the buyer. A low sale price can restore physical service while leaving old debt unpaid. Title, custody, software transfer, customer contracts and credit claims therefore need distinct dated records. A competent paid human buyer can meet all assigned demand without the recovered robot; no incremental service or labor saving is inferred from acquisition alone. These mechanisms advance bounded recovery, while real rights, pricing, restructuring and whole-life economics remain open.

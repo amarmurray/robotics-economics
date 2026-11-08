@@ -2,7 +2,7 @@
   "schema_version": "competitive-window-artifact/0.1",
   "source_sha256": {
     "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-    "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+    "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
     "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
     "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
     "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -50089,7 +50089,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -50099,7 +50099,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "4e8ab913978292f5fb82a695696010f573c812b1f22c4cd116f12309d6437801"
+      "case_hash": "e58245768bec26beb8ad5aad3087d754df27dcca66939abe0990b994d8028feb"
     },
     "no_response": {
       "schema_version": "competition-window/0.1",
@@ -100338,7 +100338,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -100348,7 +100348,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "d07379056e157fc707159270a8c5a6ddb24ad22e26e68f694816602b6bf6c345"
+      "case_hash": "932df33511d05679828f0387262e30c5bafc5b780c9376e0d8c85df6c58cc822"
     },
     "response_month_seven": {
       "schema_version": "competition-window/0.1",
@@ -150797,7 +150797,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -150807,7 +150807,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "3c182c4df3033d8a289ac7033c40824b3c9d53855f0020435ade1b321511cac2"
+      "case_hash": "8a57395a51dec7d4f47b35a8959c66cdbf42dbbf12e6b8cebac3cbf7eb68f97d"
     },
     "response_month_ten": {
       "schema_version": "competition-window/0.1",
@@ -201256,7 +201256,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -201266,7 +201266,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "ecabdd79a608cd3cef420e27a471ef38649606e6d78a6f49e6bb9017669705a0"
+      "case_hash": "5208e48599c473eae3b8b40bb1eeb8ffd5260cd1edda9e50dfd64f09511aa125"
     },
     "human_led_response": {
       "schema_version": "competition-window/0.1",
@@ -244938,7 +244938,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -244948,7 +244948,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "695bb55ce83e9969697820d06ba761cd5ad915e2d3e1c0d1a0443fe50dd841cf"
+      "case_hash": "4fcb41440a60a4f5950a87f314a977c6e6c9fe13d3db425ee7ebe9b3d4d8fbf9"
     },
     "short_observation_window": {
       "schema_version": "competition-window/0.1",
@@ -278543,7 +278543,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -278553,7 +278553,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "061ef4c6e5148546704c66bca5d4870436817672a88e249c67607f69378284ac"
+      "case_hash": "c8bca4aa946bc8e3a438db485e1c5388556abff4742f505d8637dea71dcfbb6b"
     },
     "delayed_procurement": {
       "schema_version": "competition-window/0.1",
@@ -328207,7 +328207,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -328217,7 +328217,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "c1b05868a39c44808fa3657b87d6b0cd7bdcfd6b7a8789048da575e9292b5dde"
+      "case_hash": "b5470245989ee5df67dd196af3a98411eedcb5bd8babcf7145592753b3c32b41"
     },
     "late_entrant_qualification": {
       "schema_version": "competition-window/0.1",
@@ -377499,7 +377499,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -377509,7 +377509,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "9b8e7bcb36c85d3debcf461605dab2899cf5cd500c4adef205a8106b7b81055a"
+      "case_hash": "2339c0285d1ac945453821dbf9a1451487bf996733eeab9663878aa5fdd17ad3"
     },
     "thin_entrant_cash": {
       "schema_version": "competition-window/0.1",
@@ -426449,7 +426449,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -426459,7 +426459,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "12793c829313f7b4edf6dcc75a5978c5badb4d9ae277fca44ee6449cfbc84857"
+      "case_hash": "9450ffd91f57b393c070f0f81523e9c9379004501055e95700a68fdfecb7ad48"
     },
     "delayed_collections": {
       "schema_version": "competition-window/0.1",
@@ -476648,7 +476648,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -476658,7 +476658,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "6469c1d8ca2fd5c05ded08b2814514cdbe763d264adfcc5d02144e110bf6fece"
+      "case_hash": "33a024fc660e971bb30d3f209bda0d3c2ea460157a01c31fa5089f4352d3853d"
     },
     "support_scarcity": {
       "schema_version": "competition-window/0.1",
@@ -525684,7 +525684,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -525694,7 +525694,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "d66c6cf7ef979ba1a61235d8e20b51b84f974918889caae9fb0e2097b92cbe8b"
+      "case_hash": "e8b5b307cf6bbdc0d77f4b3ab5cd8ea820fc57a438ad17ef46994493c44cf323"
     },
     "six_month_contracts": {
       "schema_version": "competition-window/0.1",
@@ -561509,7 +561509,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -561519,7 +561519,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "6a2bdf6a94b9cb27956005dad4c66a0f999b4d0bcbff9e3e482c62cd25d614f1"
+      "case_hash": "a813ebe55593ec5c816d848f222192f04631e098bb235860d161afd47941ba85"
     },
     "switch_cost_tie": {
       "schema_version": "competition-window/0.1",
@@ -611146,7 +611146,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -611156,7 +611156,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "e3b3d1d1d69bae673d43e10428e686d03c8cfc3defbbc36e00e662951a9b33f2"
+      "case_hash": "2ad108fc0fda443aac3081eb3255ab4412acb6d0b51fce665413ba6d268b8890"
     },
     "one_cent_below_switch_tie": {
       "schema_version": "competition-window/0.1",
@@ -661135,7 +661135,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -661145,7 +661145,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "44d441514bee480575d041479da123c98f54f5591c06e25f6a5c4392c6fbad8f"
+      "case_hash": "176106bc8584422ac5f7a398818f65c0f4919069c6e92404cb92237955adbfaf"
     },
     "onboarding_unfunded": {
       "schema_version": "competition-window/0.1",
@@ -710912,7 +710912,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -710922,7 +710922,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "2616a2f1ec52c1712db2f20bd6327d29b11461b078fba99e48f5b375c667acfe"
+      "case_hash": "7c19e40e1229bf691cf54bb8678491952515150bd006a06843900ef63ca96ce1"
     },
     "breach_allows_exit": {
       "schema_version": "competition-window/0.1",
@@ -744322,7 +744322,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -744332,7 +744332,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "f7fd652570fdd378b967256be6073740b4daeb960aa0480b49c768b520a82c98"
+      "case_hash": "68fd88ae7f70778b7ec59a9bbc1aee1a32e729a41095ef3f36ec1a952f1605e4"
     },
     "breach_locks_service": {
       "schema_version": "competition-window/0.1",
@@ -777438,7 +777438,7 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "5b11aa5471ba433f83b81d69ba4513e66c0334493b34b3f9b67731453de330d1",
+        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
         "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
@@ -777448,7 +777448,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23"
       },
-      "case_hash": "b86d1d395117f42a95be797a7b7b8d06a4a6c7730da2282af7bdaf54ae7e33a4"
+      "case_hash": "7ae71071674e9dce23780f3a49ab7fd96d4253f978f379d1e5bd79cd2c8849b8"
     }
   },
   "summary": [

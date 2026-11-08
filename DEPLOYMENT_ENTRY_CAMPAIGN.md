@@ -84,3 +84,8 @@ Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE
 ## Conventional human evidence checkpoint, edition 0.27
 
 The [dispatch follow-up](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) adds a bounded primary implementation comparator to substantial H. Its observational outcomes, uncertainty, retained work and incomplete cancellation audit do not calibrate the scenarios. Fourteen families / 144 worlds and the original in-progress T0/deadline remain unchanged.
+
+
+## Funded owner sale and redeployment checkpoint, edition 0.28
+
+[The recovery extension](research/asset_recovery.md) advances DE-04 within the existing physical/finance loop. Fourteen named families now contain 158 worlds. A completed sale need not restore service; lower creditor recovery can coexist with successful physical reuse. All-actor cash, shared shipping, qualification, retained obligations and a stronger human alternative stay explicit. Real legal/contract rights, valuation, restructuring and optimization remain open. This checkpoint neither completes the campaign nor resets its T0/deadline.

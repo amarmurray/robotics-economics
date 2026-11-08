@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: conventional human-dispatch evidence, edition 0.27
+## New decision campaign: funded owner sale and restored service, edition 0.28
+
+Fourteen [recovery worlds](research/asset_recovery.md) deepen bounded DE-CF11/12 through one shared physical/Treasury transition. They separate title, actual funds, relocation, qualification and surviving old-company obligations. A stranded paid asset, low-price surviving claim and stronger human no-purchase baseline challenge favorable recovery claims. DE-04 and broad empirical requirements remain partial; DE-08 retains its bounded met scope with fourteen families / 158 worlds.
+
+Fresh checks pass **408 Python tests** in 224.046 seconds, **36 Node assertions**, thirteen JavaScript syntax checks and all 39 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new recovery panel is verified in two views, all fourteen full worlds match saved results exactly, and custom controls, exact export, tampered-result full replay, invalid-input handling, last-applied export, stale-response rejection, scope invariance and four lineage rows pass. CLI replay matches the full reference exactly. All sixteen prior expansion and seventeen renewal browser worlds still match. The recovery panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged, with identical non-fingerprint semantic fields including rational strings. 10 result files are byte-identical; 21 change only the exact physical-core source fingerprint, dependent case/artifact identities or market/question evidence fingerprints. All other prior model Python modules, numerical assumptions, source claims, atlas cells and labor/accounting rows are unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families now contain **158 worlds**. The evidence registry remains 13 packages, 206 claims, 429 quantities and 121 explicit-null markers. **312 manifest hashes and 699 relative Markdown links** verify without broken paths.
+
+The same active campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/asset_recovery_review.md); this checkpoint does not stop or complete the objective.
+
+## Previous decision checkpoint: conventional human-dispatch evidence, edition 0.27
 
 One primary implementation strengthens the hospital comparator and substantial H in the existing [coordination analysis](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information). It adds no synthetic world or estimated target coefficient. Raw/adjusted outcomes, source uncertainty, group tradeoffs, selection and actual labor obligations remain separate; supplemental cancellation results and empirical full-service costs remain unavailable. All broad requirements retain their prior partial/in-progress status; DE-08 retains its met bounded scope.
 
