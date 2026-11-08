@@ -34,7 +34,7 @@ Edition 0.16 adds [funded intelligence roles](research/monthly_intelligence_exec
 
 Continue public-source CPU research and the existing private publication workflow. No outreach, public issues/comments, spending, credentials, GPU/model/robot runs, public hosting, other-repository changes, force pushes, automatic divergence merges or edits to the preserved Mac checkout. Only the affected action stops when blocked; independent permitted research continues.
 
-The user's usage threshold means **10% remaining quota**. At or below it, use an available earned reset only through a supported control, then reread the limit to confirm. No quota-reading or earned-reset control is exposed at campaign entry, so remaining quota is unknown and no reset is claimed. If a real limit prevents work and no supported reset is available, checkpoint and report it. No credits may be bought and no limit may be bypassed. The active objective arrived through goal context; no native goal identifier or creation/stop control is exposed in the available tool inventory. Do not create a duplicate goal or schedule.
+The user's usage threshold means **10% remaining quota**. The latest oversight instruction on 8 November supersedes the earlier earned-reset direction: if an exposed quota is at or below that threshold, stop and checkpoint. Do not redeem resets or consume paid credits. No quota-reading control is currently exposed, so remaining quota is unknown. If a real usage limit prevents work, preserve progress and report it; do not bypass the limit. The active objective arrived through goal context; no native goal identifier or creation/stop control is exposed in the available tool inventory. Do not create a duplicate goal or schedule.
 
 ## Conventional coordination checkpoint, edition 0.17
 
@@ -138,3 +138,7 @@ Thirteen [joint recovery worlds](research/entry_transitions.md#funded-recovery-a
 ## Early checkpoint: labor outcomes, edition 0.40
 
 The same campaign remains **in progress** through **2026-11-14T20:12:27Z**. A substantial H audit now connects conditional reported savings, expected allocation, administrative labor outcomes and changing work organization to six physical measurement contracts and three decision-pack gates. It adds no synthetic worlds or coefficients; fourteen families /228 bounded worlds and all empirical gaps remain. The next substantive requirement is a matched target service, actual work and dated paid-obligation record. Native goal creation, quota/reset controls and serving-model identity remain unexposed; execution evidence comes from actual commands and validated checkpoints.
+
+## Paid crew and actual award checkpoint, edition 0.41
+
+Thirteen [crew/renewal worlds](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) join qualified paid staffing, retained outside work, prospective overtime and actual awards in the existing entry/physical/Treasury loop. Fourteen bounded families contain241 worlds. A rescued cleaning market can coexist with unfinished inherited duties; the strong human comparator and every payer remain. This is the same in-progress campaign through 14 November, not empirical completion or evidence of uninterrupted execution.

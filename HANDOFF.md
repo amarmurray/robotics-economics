@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.40.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.41.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: digital labor outcomes and staffing, edition 0.40
+## Current checkpoint: paid crews and actual customer awards, edition 0.41
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. At23:03 UTC on8 November, actual shell/remote checks found the clean published0.40 checkpoint `78e34328e3fe26f46625dc9156904d634abfccb6`, newer than the coordinator's external0.39 view. No subsequent partial edits or active research process was observed. The cloud environment was running/connected with no reported failure. Execution resumed here; elapsed idle time and a recorded in-progress state are not continuous work. Native quota/reset/goal controls and serving-model identity remain unexposed. No usage or permission failure was observed, and no reset or replacement was made.
+
+[The new joint crew module](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) connects one separately qualified paid crew per legal operator to retained inventory work, staffing notice, prepaid prospective overtime and actual customer awards. It uses the existing entry/physical/Treasury run. Original architecture/resource and recovery fixtures stay separate; no unsupported joint-scope promotion occurs. Common ownership pools neither qualified people nor operating cash.
+
+In the ordinary workload, the binding cut lowers regular staffing cash by$6,000 and moves50 monthly zones to the rival while preserving both services. With a later inventory surge, only242/260 inventory jobs and3,400/4,000 cleaning zones finish. Locked contracts reduce cleaning to2,590. A stronger rival restores all4,000 cleaning zones but leaves the same18 outside jobs undone. A saved market is therefore a different test from complete inherited obligations.
+
+Prepaid fallback restores all surge work, costs$15,000 against$6,000 less regular staffing and brings all-payer resource/transaction cash to$141,647.74. A matched stronger human-only path completes the same work for$103,300. Exact opening target cash$7,850 versus$7,849.99 changes overtime admission and leaves50 zones unserved in the short-funded case; later switching costs make that case$2,800 dearer over the window. Two regular minutes can move one50-zone customer lot. A genuinely lower rival offer also exposes prepaid unused capacity. These are conditional synthetic mechanism results, not empirical staffing, price or ROI claims.
+
+Fresh cloud checks pass **547 Python tests** in 435.630s, including15 new mechanism tests, **36 Node assertions**, **20 JavaScript syntax checks** and **53 prescribed reproduction/Node commands**. Six exact exports (frontier, shared workforce, entry/renewal, recovery/retention, staffed renewals and source arithmetic) match. All **13 views**, **13 new crew/renewal worlds**, three retained labor-audit panels, three exact source drawers and seven prior reference panels pass. Exact cash/minute controls, complete-input replay ignoring forged outcomes, pending/invalid/stale protection, shared view state, source/scenario independence and six invalid API cases pass. New overview/comparison screenshots were visually reviewed; no JavaScript or API errors were observed.
+
+All **1,676,027 prior typed numeric fields across38 JSON artifacts** and all prior non-fingerprint semantics are preserved. **27 artifacts are byte-identical**; **11** contain only exact updated evidence fingerprints and dependent identities. Every prior model source, numerical assumption, source claim and atlas/labor row remains unchanged. The new thirteen worlds live in a separate artifact. The legacy **53 bounded met /16 partial**,69 requirement statuses and65 question statuses are preserved. Fourteen bounded families now contain **241 worlds**. The evidence registry stays **13 packages,223 claims,513 reported quantities and158 explicit-null markers**; no source or empirical coefficient was added.
+
+All **366 manifest hashes** and **920 relative Markdown links** verify. See the [sole-writer review](reviews/staffed_renewals_review.md). No commercial action or external contact occurred. Source triage for the next tranche remains separate from this accepted evidence; access history and overlap checks are saved locally. Current target roster, qualification, contracts, complete service and all-payer cost evidence remains missing; annual resources/parts, architectures, asset recovery and learning are not all composed here.
+
+**Next execution:** prioritize a consequential permitted operator record for the utility-inspection decision, joining actual attended work, residual visits, support/repair obligations and payer costs. Reuse accepted operator evidence before adding a source, preserve historical versus current periods and unknown quantities, and keep closed access routes closed. Additional favorable cleaning variants do not close empirical acceptance.
+
+**Next question:** which retained inspection/review/repair obligation, and which paid actor, prevents a demonstrated robotic measurement from replacing the complete required service?
+
+## Previous checkpoint: digital labor outcomes and staffing, edition 0.40
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `551d4f13d71f8afb698255da22075cc815d914ab` matched clean local and remote main. Actual cloud shell, reproduction, model and browser execution advanced this substantial H tranche. No current runtime or usage failure is observed. Native goal creation, quota/reset controls and serving-model introspection remain unexposed; no replacement task, duplicate schedule, agent, reset or uninterrupted-execution claim.
 

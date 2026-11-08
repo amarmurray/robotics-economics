@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same recorded execution window 7–14 November 2026. Edition 0.40 audits digital task reallocation versus administrative labor outcomes and updates all three packs. Fourteen bounded challenge families / 228 worlds remain unchanged. Next seek a matched whole-service, actual-work and paid-obligation record; target staffing, all-payer cost and broader resource integration remain partial. Full A–K scope and the sole writer continue.
+**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November 2026 window. Edition 0.41 joins paid qualified crews, retained work and actual customer awards; fourteen bounded families now contain 241 worlds. Target service/staffing, all-payer costs and broader resource integration remain partial. Next prioritize a consequential operator record for utility inspection. Full A–K scope and the sole writer continue.
 
 Version 1.11 · Post-window continuation, 7 November 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 
@@ -329,3 +329,9 @@ Next return to decision-changing primary operating evidence and substantial H/ot
 ## Edition 0.40: distinguish the outcome that can finance adoption
 
 [H-AUDIT-LABOR-01](research/digital_labor_outcomes.md) exposes a conditional-expectation denominator behind a widely reusable time-allocation claim. Preserve date, sample, treatment and outcome when moving from a digital study to a physical operating decision. Next prioritize observed whole-service work disposition and an actual staffing/payroll or contractor transition, with demand and every payer retained. Do not seek confidential microdata or revisit closed access routes without new authorized evidence. Additional source counts or synthetic variants alone do not close this empirical requirement.
+
+## Edition 0.41: join the award to the crew and retained work
+
+The crew/entry/renewal interface now executes thirteen complete worlds in one physical/Treasury history. Fourteen bounded families contain241 worlds. A strong rival can restore the cleaning market without completing the original company's inventory duties; prospective overtime, exact minute/funding boundaries and a better human-only alternative expose the tradeoff. Annual resources/parts, four architectures, recovery and learning remain separately bounded.
+
+Next prioritize a consequential permitted primary operator record for the utility-inspection decision: actual attended work, residual visits, support/repair obligations and payer cost through deployment. Reuse existing accepted operator evidence before adding a new source, keep unavailable or restricted routes closed, and preserve missing prices/rosters explicitly. A dated target record is more valuable than further variants of this cleaning fixture. Broader six-cell economics and substantial H/I/J/K questions remain open.

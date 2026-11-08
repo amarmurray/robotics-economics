@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: digital labor outcomes, edition 0.40
+## New decision campaign: paid crews and actual awards, edition0.41
+
+The joined crew/entry/renewal execution advances bounded DE-03/05/06/08/09/10. Whole-service costs, actual staffing and broad resource composition remain partial; the same campaign deadline is **2026-11-14T20:12:27Z**.
+
+Fresh cloud checks pass **547 Python tests** in 435.630s, including15 new mechanism tests, **36 Node assertions**, **20 JavaScript syntax checks** and **53 prescribed reproduction/Node commands**. Six exact exports (frontier, shared workforce, entry/renewal, recovery/retention, staffed renewals and source arithmetic) match. All **13 views**, **13 new crew/renewal worlds**, three retained labor-audit panels, three exact source drawers and seven prior reference panels pass. Exact cash/minute controls, complete-input replay ignoring forged outcomes, pending/invalid/stale protection, shared view state, source/scenario independence and six invalid API cases pass. New overview/comparison screenshots were visually reviewed; no JavaScript or API errors were observed.
+
+All **1,676,027 prior typed numeric fields across38 JSON artifacts** and all prior non-fingerprint semantics are preserved. **27 artifacts are byte-identical**; **11** contain only exact updated evidence fingerprints and dependent identities. Every prior model source, numerical assumption, source claim and atlas/labor row remains unchanged. The new thirteen worlds live in a separate artifact. The legacy **53 bounded met /16 partial**,69 requirement statuses and65 question statuses are preserved. Fourteen bounded families now contain **241 worlds**. The evidence registry stays **13 packages,223 claims,513 reported quantities and158 explicit-null markers**; no source or empirical coefficient was added.
+
+All **366 manifest hashes** and **920 relative Markdown links** verify. See the [sole-writer review](reviews/staffed_renewals_review.md).
+
+## Previous decision checkpoint: digital labor outcomes, edition 0.40
 
 A substantial H primary-source audit deepens DE-02/06/09/10 and the three decision packs. It separates source reports and expectations, administrative outcomes and target whole-service/payroll claims. Broad empirical acceptance remains partial; same campaign deadline **2026-11-14T20:12:27Z**.
 

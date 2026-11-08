@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.40, digital labor outcomes and staffing evidence checkpoint, 8 November 2026. A linked survey/register audit separates reported time savings, expected work allocation, administrative labor outcomes and actual whole-service staffing changes. Three decision packs and six physical measurement contracts retain the strong human alternative and every payer. Fourteen families /228 bounded worlds are unchanged. Target empirical economics and broader joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.41, paid crews and actual customer awards checkpoint, 8 November 2026. Qualified crew minutes, retained duties, staffing notice and prospective overtime now constrain actual awards in one entry/physical/Treasury run. Complete cleaning can coexist with unfinished outside work; strong paid human alternatives remain. Fourteen families contain241 bounded worlds. Empirical economics and broader composition remain incomplete. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -163,6 +163,10 @@ The all-payer boundary includes outside customer switching resources and separat
 ### Time savings, service capacity and actual labor cost
 
 The [digital labor-outcome audit](research/digital_labor_outcomes.md) strengthens the moving human alternative without asserting a universal gain. Expectations, observed work allocation, administrative labor outcomes and accepted service use different denominators. Capacity can be valuable before payroll falls; customer cost can move to a provider without reducing consolidated resources. The three decision packs now require a feasible staffing and all-payer bridge before counting paid savings. Historical digital occupations supply a measurement challenge, not a physical labor coefficient.
+
+### Crew feasibility can reverse the apparent entry advantage
+
+Edition 0.41 joins paid crew commitments to actual awards and retained work. A staffing cut can transfer customers, and a larger rival can rescue cleaning while leaving the original firm's outside obligations unmet. In the matched surge, prepaid fallback serves everything but costs more than the strong human-only comparator. Follow [the conserved crew results](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) for exact assumptions and cash. Underwriting must require the same complete service, qualified roster and dated funds across the transition; another subsidiary's capacity is not automatically transferable.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -396,6 +400,10 @@ The hospital, utility and automotive packs now require original asset-funding hi
 All three packs now include the [labor-outcome gate](research/digital_labor_outcomes.md). A digital-human or robotic improvement can yield capacity, quality or resilience while staffing stays fixed. To count paid savings, join complete service to actual schedules, new/retained work, contractor obligations and dated payer cash. Expected reallocation is not an observed staffing transition; an administrative labor null is not zero productivity.
 
 Hospital logistics retains receiving and urgent fallback duties; inspection retains qualified residual visits; automotive retains replenishment, changeovers and line acceptance. An acquisition keeps inherited work and liabilities; a newco must fund its feasible service configuration. No source percentage changes those target requirements. Empirical return, staffing and all-payer costs remain partial.
+
+#### Crew and customer-award gate, edition 0.41
+
+The [joined staffing/renewal cases](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) add a practical gate to all three packs: which paid, qualified crew performs retained work after actual customer awards, and which legal payer funds fallback before the work is sold? Hospital delivery requires the rest of nursing/porter service; utility inspection retains review and qualified field visits; automotive presentation retains line duties, replenishment and exceptions. A rival's rescue of one service does not discharge another company's retained duties. Preserve service-specific observations and strong human alternatives; none of the synthetic cleaning minutes, rates or notices transfers numerically.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1388,6 +1396,36 @@ The comparator remains consequential. The stronger assumed human-dispatch path c
 
 For the three decision packs, require a payer-specific budget and actual qualified response capacity, preserve the service receiving reassigned labor, and test late action and counterparty costs. Do not fund a hospital, utility or workcell decision with these cleaning rates or reserve values. The next campaign priority is the competition/entry/recovery interface and stronger digital-human alternatives across the six cells, not another series of hospital-specific reserve variants.
 
+#### Paid crews and actual customer awards, edition 0.41
+
+The [joint crew execution](model/results/staffed_renewals.json) now connects the staffing decision to actual recurring customer awards, company entry and separate operating accounts. It is one physical/Treasury execution. The existing architecture/resource workforce fixture and the asset-recovery fixture remain separate; their results are not added. Thirteen new worlds deepen the existing fourteen challenge families to **241 bounded worlds**. No empirical coefficient or staffing ratio enters this extension.
+
+##### The offer must fit the same crew that does the work
+
+Each operating company has a unique qualified crew and legal payer. Regular staffing is a dated paid commitment. Before awards, each crew reserves local robot attention and its separately due inventory jobs. Remaining minutes support robot handling and human cleaning. The current robot cohort, ramp and digital-human work rate remain those of the existing calendar model. Raw robot output and the original human-capacity scalar cannot both consume the same minutes.
+
+The order matters. A staffing notice uses only the prior completed month and supported fleet. Its reduction takes effect after the declared delay and remains binding through later shortfalls. A fixed optional overtime block is quoted in phase 1; mandatory bills and physical work occur before the full block is optionally paid in phase 5. The block targets the full fixed cleaning market before customer awards. Awards then consume feasible capacity and actual onboarding/switching funds; dispatch and new service invoices follow. Neither later receipts nor an expected award funds an earlier offer. Losing bids can leave prepaid capacity unused. This conventional policy is deliberately explicit and is not an optimized bid, staffing roster or legal employment rule.
+
+Cleaning contracts are 50-zone lots in a fixed 500-zone monthly market. Inventory jobs have their own IDs, acceptance, deadline, payer and receipt lag; their quantities are never added to cleaning zones. Outside duties persist when cleaning contracts leave. Common ownership changes ultimate equity while operating cash, crew identities and liabilities remain separate. Another subsidiary's idle crew is not an authorized or qualified loan of staff.
+
+##### Results that change the decision
+
+The full control serves **4,000 cleaning zones and 160 inventory jobs** over eight months. A notice issued in month 3 becomes effective in month 5. Cutting the target from two blocks to one lowers its feasible offer below a complete 500-zone market; 50 zones move to the rival. Both services still finish, with **$6,000 less regular staffing cash** and changed customer assignment. This is a bounded synthetic staffing transition, not measured payroll removal.
+
+When inventory demand rises from 20 to 45 jobs after notice, the smaller crew performs only **242 of 260 jobs**, while cleaning falls to **3,400 zones**. Four-month locked contracts worsen cleaning to **2,590 zones** because work remains assigned to the constrained firm. A rival with a larger paid human crew restores all **4,000 cleaning zones**, but still leaves the same **18 inventory jobs undone**. A headline showing only cleaning completion would miss the failure of the retained service.
+
+Prepaying a 5,000-minute overtime block for the last three months restores all 260 jobs and 4,000 zones. It costs **$15,000** of overtime against the $6,000 regular-staff reduction. Total resource/transaction cash from every payer is **$141,647.74**. A stronger human-only comparator with three regular target blocks serves the identical surge and cleaning demand for **$103,300**, with no robot manufacture or lease. The **$38,347.74** window difference is conditional on these synthetic rates, unused capacity, funding and ending assets/claims; it is not a lifecycle return. In the original 160-job workload, the competent human-only comparison also finishes everything at **$87,300**, versus **$127,197.74** for the robot with the staffing cut.
+
+Two exact boundaries expose discontinuities. Human-only target capacity is exactly sufficient at two 4,800-minute blocks; reducing each block by one minute moves a whole 50-zone lot to the rival while market service remains complete. For a one-block target, **$7,850 opening cash** leaves exactly **$4,800** after initial mandatory bills for a 4,800-minute overtime block. One cent less prevents prepayment, leaves **50 zones unserved** in month 0 and creates later switching/onboarding costs. Across the window, the short-funded case spends **$112,500** in resources versus **$109,700** at the exact threshold, despite less service. Future receipts do not repair the missed period.
+
+A lower rival offer can also win work after the incumbent prepays capacity. The price difference must exceed the customer's switching resources; an exact tie preserves the incumbent. A self-review caught an initial test premise that only tied the old contract. The adverse offer now crosses that threshold and verifies paid unused capacity after lost awards.
+
+##### Cash, scope and observation required
+
+Staffing, overtime and outside receipts are already recorded in the enterprise ledger. The separate workforce view is a reconciliation, not another cost to add. All-payer resource/transaction cash includes outside customer switching bills and independently equals receipts of the modeled resource vendors. Company consideration, internal equipment payments, equity and loan principal are not added as resource consumption. Ending receivables, payables and physical assets remain visible; there is no residual valuation.
+
+This advances the [labor-outcome gate](research/digital_labor_outcomes.md) without converting a survey answer into a staffing coefficient. The missing target observation is a dated roster, qualifications, retained duties, actual customer awards, notice/overtime obligations and every payer's cash through the same transition. A whole cleaning market, a viable operating company and complete retained work are distinct acceptance tests. The hospital, utility and automotive packs retain their own service units and rights; this cleaning contract supplies a mechanism challenge rather than a transfer of minutes or prices. Monthly divisible cleaning omits within-shift travel, sequencing and timed acceptance. Full six-cell portfolio feasibility, annual resource/parts composition, recovery, endogenous learning and empirical whole-system economics remain incomplete.
+
 #### Reproduced shared-workforce executions
 
 | Shared-worker world | Complete months / 8 | Cleaning zones | Inventory jobs / required | Staff USD | Extra capacity USD | External resource cash USD |
@@ -1745,6 +1783,10 @@ The all-payer figures above add outside customer switching resources to the exis
 
 For hospital logistics, utility inspection and automotive presentation, verify ownership and configuration/support rights separately from company control; reconstruct actual original asset funding and every payer; and test retained service while sale, debt cure, relocation and requalification occur at different times. Software/model access, customer acceptance, residual physical duties and provider support belong in those gates. The same method challenges cleaning, tote handoff and construction; no cleaning price, staffing ratio or deadline transfers to those services. Shared crew, annual resources, typed parts, four intelligence architectures, endogenous learning and a simultaneously feasible six-cell portfolio remain separately executed or incomplete. Actual matched full-service costs, labor transitions, rights and residual values remain empirical gaps.
 
+#### Qualified crews constrain actual customer wins, edition 0.41
+
+[The shared-crew/renewal extension](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) now places funded offers, retained outside duties, staffing notice and actual customer awards inside this entry execution. Common ownership keeps separate qualified crews and operating accounts. A better staffed rival can preserve the cleaning market while inventory obligations of the original company fail. Buying a company therefore requires both customer continuity and a feasible roster for inherited duties. The stronger human/no-robot comparison and every payer remain explicit; this is synthetic mechanism evidence, not a staffing or acquisition recommendation.
+
 #### Reproduced funded entry worlds
 
 | Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |
@@ -1803,6 +1845,26 @@ Generated from [renewing_entry.json](model/results/renewing_entry.json). Contrac
 | paid_human_buyer_no_sale | False | 8 | 4,000.00 | None | 48,332.58 | 146,632.58 |
 
 Generated from [recovering_entry.json](model/results/recovering_entry.json). All-payer cash includes outside customer switching resources. Internal asset price and loan principal are separately traced transfers. Original title is funded; debt cure, supported reuse and actual customer service remain different events. Retained assets/claims preclude lifecycle ROI.
+
+#### Reproduced paid-crew and actual-award executions
+
+| Crew/award world | Cleaning complete /8 | All duties complete /8 | Accepted zones | Outside done / due | Staff USD | Overtime USD | All-payer resources USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| complete_control | 8 | 8 | 4,000.00 | 160 / 160 | 48,000.00 | 0.00 | 132,647.74 |
+| binding_staff_cut | 8 | 8 | 4,000.00 | 160 / 160 | 42,000.00 | 0.00 | 127,197.74 |
+| outside_surge_after_notice | 5 | 5 | 3,400.00 | 242 / 260 | 42,000.00 | 0.00 | 129,547.74 |
+| prepaid_fallback | 8 | 8 | 4,000.00 | 260 / 260 | 42,000.00 | 15,000.00 | 141,647.74 |
+| human_no_robot | 8 | 8 | 4,000.00 | 160 / 160 | 48,000.00 | 0.00 | 87,300.00 |
+| long_locked_contracts | 5 | 5 | 2,590.00 | 242 / 260 | 42,000.00 | 0.00 | 125,707.74 |
+| strong_paid_human_rival | 8 | 5 | 4,000.00 | 242 / 260 | 58,000.00 | 0.00 | 148,147.74 |
+| independent_firms | 8 | 8 | 4,000.00 | 160 / 160 | 42,000.00 | 0.00 | 121,197.74 |
+| human_two_minutes_short | 8 | 8 | 4,000.00 | 160 / 160 | 47,993.28 | 0.00 | 87,843.28 |
+| exact_overtime_funding | 8 | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 38,400.00 | 109,700.00 |
+| one_cent_short_overtime | 7 | 7 | 3,950.00 | 160 / 160 | 32,000.00 | 33,600.00 | 112,500.00 |
+| strong_human_surge | 8 | 8 | 4,000.00 | 260 / 260 | 64,000.00 | 0.00 | 103,300.00 |
+| paid_losing_offer | 8 | 8 | 4,000.00 | 160 / 160 | 42,000.00 | 15,000.00 | 144,947.74 |
+
+Generated from [staffed_renewals.json](model/results/staffed_renewals.json). Separate service units, legal crews and every payer remain explicit. Paid unused capacity, unmet duties and terminal assets/claims preclude an unqualified staffing-saving or ROI claim.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 

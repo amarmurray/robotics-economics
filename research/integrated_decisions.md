@@ -130,3 +130,7 @@ The all-payer boundary includes outside customer switching resources and separat
 ## Time savings, service capacity and actual labor cost
 
 The [digital labor-outcome audit](digital_labor_outcomes.md) strengthens the moving human alternative without asserting a universal gain. Expectations, observed work allocation, administrative labor outcomes and accepted service use different denominators. Capacity can be valuable before payroll falls; customer cost can move to a provider without reducing consolidated resources. The three decision packs now require a feasible staffing and all-payer bridge before counting paid savings. Historical digital occupations supply a measurement challenge, not a physical labor coefficient.
+
+## Crew feasibility can reverse the apparent entry advantage
+
+Edition 0.41 joins paid crew commitments to actual awards and retained work. A staffing cut can transfer customers, and a larger rival can rescue cleaning while leaving the original firm's outside obligations unmet. In the matched surge, prepaid fallback serves everything but costs more than the strong human-only comparator. Follow [the conserved crew results](shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) for exact assumptions and cash. Underwriting must require the same complete service, qualified roster and dated funds across the transition; another subsidiary's capacity is not automatically transferable.

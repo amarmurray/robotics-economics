@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.40, digital labor outcomes and staffing evidence checkpoint, 8 November 2026. A linked survey/register audit separates reported time savings, expected work allocation, administrative labor outcomes and actual whole-service staffing changes. Three decision packs and six physical measurement contracts retain the strong human alternative and every payer. Fourteen families /228 bounded worlds are unchanged. Target empirical economics and broader joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.41, paid crews and actual customer awards checkpoint, 8 November 2026. Qualified crew minutes, retained duties, staffing notice and prospective overtime now constrain actual awards in one entry/physical/Treasury run. Complete cleaning can coexist with unfinished outside work; strong paid human alternatives remain. Fourteen families contain241 bounded worlds. Empirical economics and broader composition remain incomplete. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -225,6 +225,15 @@ The initial editions were produced in a cloud checkout. The local continuation b
     for row in recovering['summary']:
         q=row['accepted_zones'];recovery_table.append(f"| {row['case']} | {row['sale_completed']} | {row['complete_months']} | {int(q['numerator'])/int(q['denominator']):,.2f} | {row['first_buyer_supported_month']} | {row['closing_principal_claim_cents']/100:,.2f} | {row['all_payer_resource_and_transaction_cash_cents']/100:,.2f} |")
     out.insert(insert_at+2,'#### Reproduced recovery and retained-service executions\n\n'+'\n'.join(recovery_table)+'\n\nGenerated from [recovering_entry.json](model/results/recovering_entry.json). All-payer cash includes outside customer switching resources. Internal asset price and loan principal are separately traced transfers. Original title is funded; debt cure, supported reuse and actual customer service remain different events. Retained assets/claims preclude lifecycle ROI.')
+
+    staffed=json.loads((ROOT/'model/results/staffed_renewals.json').read_text())
+    for path,digest in staffed['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise SystemExit('Stale staffed-renewals dependency: '+path)
+    crew_table=['| Crew/award world | Cleaning complete /8 | All duties complete /8 | Accepted zones | Outside done / due | Staff USD | Overtime USD | All-payer resources USD |','| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for row in staffed['summary']:
+        q=row['accepted_zones'];crew_table.append(f"| {row['case']} | {row['complete_market_months']} | {row['complete_whole_service_months']} | {int(q['numerator'])/int(q['denominator']):,.2f} | {row['outside_completed_jobs']} / {row['outside_required_jobs']} | {row['staff_paid_cents']/100:,.2f} | {row['overtime_paid_cents']/100:,.2f} | {row['all_payer_resource_and_transaction_cash_cents']/100:,.2f} |")
+    out.insert(insert_at+3,'#### Reproduced paid-crew and actual-award executions\n\n'+'\n'.join(crew_table)+'\n\nGenerated from [staffed_renewals.json](model/results/staffed_renewals.json). Separate service units, legal crews and every payer remain explicit. Paid unused capacity, unmet duties and terminal assets/claims preclude an unqualified staffing-saving or ROI claim.')
+
 
 
     renewals=json.loads((ROOT/'model/results/competitive_renewals.json').read_text())
