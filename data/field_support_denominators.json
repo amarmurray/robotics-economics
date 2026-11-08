@@ -148,6 +148,376 @@
         "The reported exit is not independently verified by an operator closeout here; it does not establish the cause of withdrawal or performance at other hospitals."
       ],
       "cell_id": "CELL-M10-hospital-logistics-US-2025"
+    },
+    {
+      "evidence_id": "FSD-E006",
+      "title": "ICU transport economic evaluation: official abstract",
+      "publisher": "ISPOR",
+      "url": "https://www.ispor.org/conferences-education/conferences/past-conferences/ispor-2026/program/program/presentation/ispor-2026/poster-session-1-4/cost-effectiveness-of-an-automated-delivery-robot-program-to-reduce-nursing-transport-burden-in-an-intensive-care-unit-a-hospital-provider-perspective",
+      "publication_date": "2026-05",
+      "retrieved_at": "2026-11-08T06:29:51.823890+00:00",
+      "observation_period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+      "geography": "Taiwan",
+      "source_class": "primary_conference_abstract",
+      "epistemic_status": "reported_source_estimate",
+      "claim": "Reports time-motion and robot logs, 553 released nursing hours/year and NT$2,984 per released hour; this is not a reported payroll reduction.",
+      "locator": "Methods, Results and Conclusions",
+      "source_version": "ISPOR EE102 abstract, May 2026",
+      "raw_sha256": "397e338a12d56b045a2ee4c5debf8338d4770fb24e27b1355a85819884685dbe",
+      "verification": "Public primary bytes retrieved HTTP 200; text inspected. ",
+      "limitations": [
+        "Full incremental cost numerator and all retained work are not reconstructable here.",
+        "The linked poster has different methods and results; revision chronology is unverified."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Foreign workflow comparator only; no US labor total or synthetic coefficient transfer.",
+      "quantities": [
+        {
+          "metric_id": "FSD-ECON-ABSTRACT-MANUAL-MINUTES",
+          "role": "manual_minutes",
+          "value": 111.34,
+          "unit": "minutes per day",
+          "denominator": "manual active logistics per source day",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+          "measurement_status": "reported_source_estimate",
+          "source_version": "ISPOR EE102 abstract, May 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-ABSTRACT-ROBOT-MINUTES",
+          "role": "robot_minutes",
+          "value": 20.43,
+          "unit": "minutes per day",
+          "denominator": "robot-assisted active logistics per source day",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+          "measurement_status": "reported_source_estimate",
+          "source_version": "ISPOR EE102 abstract, May 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-ABSTRACT-RELEASED-HOURS",
+          "role": "released_hours",
+          "value": 553,
+          "unit": "nursing hours per year",
+          "denominator": "reported approximately released nursing hours; not paid shifts",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+          "measurement_status": "reported_source_estimate",
+          "source_version": "ISPOR EE102 abstract, May 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-ABSTRACT-PROGRAM-COST",
+          "role": "program_cost",
+          "value": 1650000,
+          "unit": "NTD per year",
+          "denominator": "reported annualized program cost; incremental numerator unresolved",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+          "measurement_status": "reported_source_estimate",
+          "source_version": "ISPOR EE102 abstract, May 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-ABSTRACT-REPORTED-ICER",
+          "role": "reported_icer",
+          "value": 2984,
+          "unit": "NTD per nursing hour released",
+          "denominator": "reported incremental cost-effectiveness ratio",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "period": "Study dates unspecified; annualized estimate in May 2026 abstract",
+          "measurement_status": "reported_source_estimate",
+          "source_version": "ISPOR EE102 abstract, May 2026"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FSD-E007",
+      "title": "ICU transport economic evaluation: linked EE102 poster",
+      "publisher": "ISPOR / presenting authors",
+      "url": "https://www.ispor.org/docs/default-source/cti-meeting-21463-documents/5d45abe7-6936-416a-a174-e7fb62b3d120.pdf?sfvrsn=7824ce7f_0",
+      "publication_date": null,
+      "retrieved_at": "2026-11-08T06:15:14.613214+00:00",
+      "observation_period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+      "geography": "Taiwan",
+      "source_class": "primary_conference_poster_model",
+      "epistemic_status": "model_projection_from_short_manual_observation",
+      "claim": "Combines three days of manual observations with a simulated robot strategy. Table 3 and the narrative differ by NT$1 in incremental annual cost.",
+      "locator": "One-page poster; Methods, Tables 1–3 and Results",
+      "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown",
+      "raw_sha256": "5a77d3a4ec0fb450650462e14e000b5cbfd095f602f121497bc968ab5d8000e6",
+      "verification": "Public primary bytes retrieved HTTP 200; text inspected. Poster visually inspected.",
+      "limitations": [
+        "Simulated robot outcomes are not observed robot service or removed payroll.",
+        "Retain separately from the abstract; do not select a favorable version or infer a revision sequence."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Foreign workflow comparator only; no US labor total or synthetic coefficient transfer.",
+      "quantities": [
+        {
+          "metric_id": "FSD-ECON-POSTER-ROBOT-COST",
+          "role": "robot_cost",
+          "value": 1893965,
+          "unit": "NTD per year",
+          "denominator": "modeled robot strategy annual cost",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-MANUAL-COST",
+          "role": "manual_cost",
+          "value": 527684,
+          "unit": "NTD per year",
+          "denominator": "modeled manual strategy annual cost",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-ROBOT-HOURS",
+          "role": "robot_hours",
+          "value": 125.5,
+          "unit": "nursing hours per year",
+          "denominator": "modeled robot strategy nursing transport time",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-MANUAL-HOURS",
+          "role": "manual_hours",
+          "value": 1233.78,
+          "unit": "nursing hours per year",
+          "denominator": "annualized manual nursing transport time",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-TABLE-INCREMENT",
+          "role": "table_increment",
+          "value": 1366282,
+          "unit": "NTD per year",
+          "denominator": "Table 3 displayed incremental cost",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-TEXT-INCREMENT",
+          "role": "text_increment",
+          "value": 1366281,
+          "unit": "NTD per year",
+          "denominator": "Results narrative incremental cost",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-POSTER-REPORTED-ICER",
+          "role": "reported_icer",
+          "value": 1233,
+          "unit": "NTD per nursing hour released",
+          "denominator": "displayed incremental cost-effectiveness ratio",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "period": "Three-day manual sample dates unspecified; annual simulation in May 2026 poster",
+          "measurement_status": "model_projection_from_short_manual_observation",
+          "source_version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+        }
+      ],
+      "publication_date_missing_reason": "The poster identifies the May 2026 conference; its exact publication and revision dates are unknown."
+    },
+    {
+      "evidence_id": "FSD-E008",
+      "title": "Application management and effectiveness analysis of intelligent logistics robots in hospital drug and specimen delivery scenarios",
+      "publisher": "Scientific Reports",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13276296/",
+      "publication_date": "2026-04-24",
+      "retrieved_at": "2026-11-08T06:15:17.116697+00:00",
+      "observation_period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+      "geography": "Shaanxi, China",
+      "source_class": "primary_observational_study_with_cost_projection",
+      "epistemic_status": "author_cost_projection_not_realized_cash",
+      "claim": "Six-month routine-service observations underpin a ten-year cost projection. The paper attributes replacement of 19 logistics staff but supplies no verified payroll-transition ledger here.",
+      "locator": "Economic analysis, Table 4, organizational management and Data availability",
+      "source_version": "Scientific Reports 16:18927, 24 April 2026",
+      "raw_sha256": "d938c34c805f646dc7863b2e5a58a20930db8632c659826132acb349742114f2",
+      "verification": "Public primary bytes retrieved HTTP 200; text inspected. ",
+      "limitations": [
+        "Routine daytime comparison excludes emergency/off-duty work; retained dispatch, handling, maintenance and recovery work needs costing.",
+        "Raw operating data are confidential and request-only; no request was made.",
+        "Sensitivity rows do not disclose a fully reproducible change in only one cost component."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Foreign workflow comparator only; no US labor total or synthetic coefficient transfer.",
+      "quantities": [
+        {
+          "metric_id": "FSD-ECON-SHAANXI-CAPITAL",
+          "role": "capital",
+          "value": 3500000,
+          "unit": "CNY",
+          "denominator": "initial fleet/chargers/infrastructure investment",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-SHAANXI-ROBOT-TOTAL",
+          "role": "robot_total",
+          "value": 5705000,
+          "unit": "CNY over ten years",
+          "denominator": "projected robot total cost",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-SHAANXI-MANUAL-TOTAL",
+          "role": "manual_total",
+          "value": 12633000,
+          "unit": "CNY over ten years",
+          "denominator": "projected manual total cost",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-SHAANXI-REPORTED-SAVING",
+          "role": "reported_saving",
+          "value": 6928000,
+          "unit": "CNY over ten years",
+          "denominator": "projected manual minus robot cost",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-SHAANXI-SENSITIVITY-ROBOT-TOTAL",
+          "role": "sensitivity_robot_total",
+          "value": 6846000,
+          "unit": "CNY over ten years",
+          "denominator": "Table 4 robot cost in maintenance +20% row",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        },
+        {
+          "metric_id": "FSD-ECON-SHAANXI-MAINTENANCE-CHANGE",
+          "role": "maintenance_change",
+          "value": 20,
+          "unit": "percent",
+          "denominator": "Table 4 stated maintenance-cost increase",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "period": "Observed 2025-06-01 to 2025-11-30; projected ten-year costs",
+          "measurement_status": "author_cost_projection_not_realized_cash",
+          "source_version": "Scientific Reports 16:18927, 24 April 2026"
+        }
+      ],
+      "doi": "10.1038/s41598-026-49800-9",
+      "funding": "Natural Science Foundation of Shaanxi Province; authors declare no competing interests."
+    },
+    {
+      "evidence_id": "FSD-E009",
+      "title": "Robotische Automatisierung im Krankenhaus: ROI-Perspektive und Implementierungslogik",
+      "publisher": "Charite Institute of Medical Informatics",
+      "url": "https://medinfo.charite.de/fileadmin/user_upload/microsites/m_cc01/medinfo/Events_Meldungen/Charit%C3%A9_Whitepaper_Robotische_Automatisierung.pdf",
+      "publication_date": "2026-08-20",
+      "retrieved_at": "2026-11-08T06:15:16.494830+00:00",
+      "observation_period": "Workshop 2026-06-22; modeled annual and five-year economics",
+      "geography": "Berlin, Germany",
+      "source_class": "commissioned_primary_model_whitepaper",
+      "epistemic_status": "illustrative_model_hypothesis_not_observed_operation",
+      "claim": "An Elvio-funded model hypothesis without original operating quantity/time/cost data assumes immediate staff-cost removal and fault-free operation; its RaaS terms are illustrative.",
+      "locator": "PDF pp.6, 11–15 and 21; official release dated 20 August 2026",
+      "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown",
+      "raw_sha256": "7e4bbe67a0698243435541d56be7baadd56d67576185c7db4dc734a8ddd9610d",
+      "verification": "Public primary bytes retrieved HTTP 200; text inspected. PDF pages 6, 11, 13, 14 and 21 visually inspected.",
+      "limitations": [
+        "Transition overlap, downtime and fallback costs are excluded.",
+        "A described completion guarantee covers assigned tasks, not every required timely service.",
+        "The mentioned Excel annex was not retrieved: the release links only the PDF; the PDF has no embedded files or external links."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Foreign workflow comparator only; no US labor total or synthetic coefficient transfer.",
+      "quantities": [
+        {
+          "metric_id": "FSD-ECON-CHARITE-MANUAL-COST",
+          "role": "manual_cost",
+          "value": 116000,
+          "unit": "EUR per year",
+          "denominator": "middle-volume modeled annual manual cost; rounded",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-CHARITE-ROBOT-COST",
+          "role": "robot_cost",
+          "value": 52200,
+          "unit": "EUR per year",
+          "denominator": "middle-volume modeled annual robot operating cost; rounded",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-CHARITE-REPORTED-SAVING",
+          "role": "reported_saving",
+          "value": 63800,
+          "unit": "EUR per year",
+          "denominator": "middle-volume modeled annual saving before integration; rounded",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-CHARITE-MONTHLY-FEE",
+          "role": "monthly_fee",
+          "value": 2000,
+          "unit": "EUR per robot month",
+          "denominator": "illustrated maximum service fee including platform/maintenance/SLA",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-CHARITE-ANNUAL-ROBOT-COST",
+          "role": "annual_robot_cost",
+          "value": 26100,
+          "unit": "EUR per robot year",
+          "denominator": "modeled annual operating cost including internal maintenance/electricity",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        },
+        {
+          "metric_id": "FSD-ECON-CHARITE-ASSIGNED-COMPLETION",
+          "role": "assigned_completion",
+          "value": 98,
+          "unit": "percent of assigned tasks",
+          "denominator": "described guarantee; target contract and required-task coverage unknown",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "period": "Workshop 2026-06-22; modeled annual and five-year economics",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+          "source_version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+        }
+      ],
+      "publication_date_basis": "Official release date; PDF cover says 2026, exact PDF revision date unknown."
     }
   ],
   "cases": [
@@ -649,5 +1019,92 @@
     "review": "Sole research writer; no independent review.",
     "search_stop": "No repeat of the inaccessible Qilu methods or ChristianaCare report routes. New targeted operator/worker-account search stopped at a clearly attributed qualitative result.",
     "model_use": "Service qualification and retained-work gate only; no numerical calibration."
+  },
+  "economic_audits": [
+    {
+      "audit_id": "FSD-AUDIT-ECON-01",
+      "title": "Hospital economic claims require their own service and cost boundary",
+      "evidence_ids": [
+        "FSD-E006",
+        "FSD-E007",
+        "FSD-E008",
+        "FSD-E009"
+      ],
+      "summary": "Preserve source versions and distinguish released time, projected cost, avoided hiring and verified paid labor removal. None supplies a transferable target ROI.",
+      "source_versions": {
+        "abstract": {
+          "evidence_id": "FSD-E006",
+          "version": "ISPOR EE102 abstract, May 2026",
+          "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+          "measurement_status": "reported_source_estimate"
+        },
+        "poster": {
+          "evidence_id": "FSD-E007",
+          "version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown",
+          "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+          "measurement_status": "model_projection_from_short_manual_observation"
+        },
+        "shaanxi": {
+          "evidence_id": "FSD-E008",
+          "version": "Scientific Reports 16:18927, 24 April 2026",
+          "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+          "measurement_status": "author_cost_projection_not_realized_cash"
+        },
+        "charite": {
+          "evidence_id": "FSD-E009",
+          "version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown",
+          "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+          "measurement_status": "illustrative_model_hypothesis_not_observed_operation"
+        }
+      },
+      "unknowns": {
+        "target_paid_labor_removed": {
+          "value": null,
+          "reason": "No dated target employment/payroll transition with retained work and complete service."
+        },
+        "target_complete_service_cost": {
+          "value": null,
+          "reason": "No same-cohort full service, all-actor work and cost ledger."
+        },
+        "target_roi": {
+          "value": null,
+          "reason": "Actual price, transition, financing, staffing, fallback and rights remain unestablished."
+        },
+        "provider_margin": {
+          "value": null,
+          "reason": "Customer fees do not identify provider resource cost or profit."
+        },
+        "target_service_coverage": {
+          "value": null,
+          "reason": "Selected or assigned tasks do not define every required on-time service."
+        }
+      },
+      "gates": [
+        {
+          "gate": "Version and intervention",
+          "requirement": "Identify the actual configuration, source revision, observed versus modeled quantities and full comparator."
+        },
+        {
+          "gate": "Required service and retained work",
+          "requirement": "Track every required accepted delivery and deadline, including urgent/off-duty work, human handling, dispatch, repair and fallback."
+        },
+        {
+          "gate": "Staffing and transition",
+          "requirement": "Link released task minutes to redeployment, avoided hiring/overtime or actual paid staffing changes; include overlap and commissioning."
+        },
+        {
+          "gate": "Cost and contracting",
+          "requirement": "Identify payer, cost horizon, cash timing, support obligations and exit rights. Separate fees from provider resources and consolidated costs."
+        }
+      ],
+      "model_use": "Source arithmetic and decision gates only. No scenario calibration, clinical effectiveness valuation, target payback or preferred architecture inferred.",
+      "interpretation": "The three comparisons concern distinct hospitals, services, currencies and methods. Do not average their economics, blend abstract and poster, or correct a published projection into an asserted target result."
+    }
+  ],
+  "continuation_2026_11_08": {
+    "scope": "Hospital economic source-version and cost-boundary audit; historical waves unchanged.",
+    "review": "Sole-writer review; not independent peer review.",
+    "retrieval_boundary": "Public sources only. No outreach, author data request or repeat of prior restricted routes. Mentioned Charite workbook not retrieved from the inspected official release or PDF.",
+    "model_use": "Existing numeric scenarios, labor totals, original field metrics and five source calculations preserved."
   }
 }

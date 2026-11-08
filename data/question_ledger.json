@@ -306,7 +306,8 @@
         "The new decision campaign reassesses all six cells and selects hospital, utility and automotive packs; each retains digital-human, specialist and feasible mixed alternatives. Selection is not an empirical ROI ranking.",
         "Edition 0.20: A competent human and buffered fixed cell meet all default kit deadlines; exact mixed-variant changeover reversals challenge an embodiment-only advantage.",
         "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred.",
-        "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change."
+        "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -323,9 +324,12 @@
         "research/support_expansion.md",
         "model/SUPPORT_EXPANSION.md",
         "model/results/support_expansion.json",
-        "research/hospital_support_contracts.md"
+        "research/hospital_support_contracts.md",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json",
+        "model/results/observed_research_summary.json"
       ],
-      "next_action": "Resolve a current target order and full service/restoration/fallback, repair/exit and license/data rights against retained work. Component prices and award values cannot settle whole-service economics."
+      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
     },
     {
       "question_id": "RQ-DL-01",
@@ -749,7 +753,8 @@
         "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access.",
         "Status quo, build, share acquisition and separately committed hybrid growth now execute on the same calendar/physical/customer/Treasury loop. Atomic closing, retained diligence, consent, inherited liabilities and interruption expose bounded route differences without a valuation/ROI ranking.",
         "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
-        "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change."
+        "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -767,9 +772,12 @@
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
         "model/results/competitive_renewals.json",
-        "research/hospital_support_contracts.md"
+        "research/hospital_support_contracts.md",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json",
+        "model/results/observed_research_summary.json"
       ],
-      "next_action": "Resolve a current target order and full service/restoration/fallback, repair/exit and license/data rights against retained work. Component prices and award values cannot settle whole-service economics."
+      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
     },
     {
       "question_id": "RQ-BM-01",
@@ -790,7 +798,8 @@
         "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred.",
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
-        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified."
+        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -819,9 +828,11 @@
         "research/asset_recovery.md",
         "model/ASSET_RECOVERY.md",
         "model/results/asset_recovery.json",
-        "model/results/observed_research_summary.json"
+        "model/results/observed_research_summary.json",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json"
       ],
-      "next_action": "Resolve executed target scope, transaction-triggered continuity, buyer/serial support, retained obligations and matched payment/service denominators. Continue physical/annual/resource integration without treating public terms as target consent or financing marketing as economics."
+      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
     },
     {
       "question_id": "RQ-BM-02",
@@ -843,7 +854,8 @@
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
         "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
         "Edition 0.32 retains an unresolved purchase/RaaS description and unread target repair terms. Public marketing or registration access does not establish title, repair permissions, inclusive price or restoration guarantees.",
-        "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established."
+        "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established.",
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -872,9 +884,11 @@
         "data/quadruped_operator_followup.json",
         "research/architecture_resources.md",
         "model/ARCHITECTURE_RESOURCES.md",
-        "model/results/architecture_resources.json"
+        "model/results/architecture_resources.json",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json"
       ],
-      "next_action": "Obtain a dated configured resource/payment/service ledger or explicitly conserve a competing workload, including actual shared staff identity, failed work and payer liquidity. Do not sum independent cases or infer target coefficients from synthetic switches."
+      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
     },
     {
       "question_id": "RQ-BM-03",
@@ -1106,7 +1120,8 @@
         "Edition 0.20: The workcell uses a conventional declared FIFO sequence and source-refill information. No LLM uplift is assigned; validated planning/control must improve the same paid physical service.",
         "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes.",
         "Edition 0.32 strengthens the data-to-action boundary: useful inspection requires customer integration, review/escalation and funded operational response. No collected-point count calibrates model or agent productivity.",
-        "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established."
+        "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established.",
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1132,9 +1147,12 @@
         "data/quadruped_operator_followup.json",
         "research/architecture_resources.md",
         "model/ARCHITECTURE_RESOURCES.md",
-        "model/results/architecture_resources.json"
+        "model/results/architecture_resources.json",
+        "research/field_support_denominators.md",
+        "data/field_support_denominators.json",
+        "model/results/observed_research_summary.json"
       ],
-      "next_action": "Obtain a dated configured resource/payment/service ledger or explicitly conserve a competing workload, including actual shared staff identity, failed work and payer liquidity. Do not sum independent cases or infer target coefficients from synthetic switches."
+      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
     },
     {
       "question_id": "RQ-LLM-09",

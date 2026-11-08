@@ -1,5 +1,5 @@
 {
-  "calculation_code_sha256": "7681926d3ab70df971b75003e2027cf50fd6cc257e94e47509b91b9dc6824e3e",
+  "calculation_code_sha256": "95324519453dba4ee1a20a3101a70e74926a323ef3c0fad710daf23afcd3c6fe",
   "commercial_disclosures": {
     "audit_id": "FG-AUDIT-01",
     "calculations": {
@@ -166,6 +166,259 @@
     "paid_labor_saving_missing_reason": "Phase means do not identify complete paid support or removable staffing.",
     "status": "source_arithmetic_not_model_parameters"
   },
+  "hospital_economics": {
+    "audit_id": "FSD-AUDIT-ECON-01",
+    "boundary": "The three comparisons concern distinct hospitals, services, currencies and methods. Do not average their economics, blend abstract and poster, or correct a published projection into an asserted target result.",
+    "reported_comparators": {
+      "abstract": {
+        "manual_minutes": 111.34,
+        "program_cost": 1650000.0,
+        "released_hours": 553.0,
+        "reported_icer": 2984.0,
+        "robot_minutes": 20.43
+      },
+      "charite": {
+        "annual_robot_cost": 26100.0,
+        "assigned_completion": 98.0,
+        "manual_cost": 116000.0,
+        "monthly_fee": 2000.0,
+        "reported_saving": 63800.0,
+        "robot_cost": 52200.0
+      },
+      "poster": {
+        "manual_cost": 527684.0,
+        "manual_hours": 1233.78,
+        "reported_icer": 1233.0,
+        "robot_cost": 1893965.0,
+        "robot_hours": 125.5,
+        "table_increment": 1366282.0,
+        "text_increment": 1366281.0
+      },
+      "shaanxi": {
+        "capital": 3500000.0,
+        "maintenance_change": 20.0,
+        "manual_total": 12633000.0,
+        "reported_saving": 6928000.0,
+        "robot_total": 5705000.0,
+        "sensitivity_robot_total": 6846000.0
+      }
+    },
+    "rows": [
+      {
+        "boundary": "Released task time, not removed paid labor.",
+        "calculation_id": "FSD-ECON-C01",
+        "evidence_ids": [
+          "FSD-E006"
+        ],
+        "formula": "manual_minutes - robot_minutes",
+        "input_ids": [
+          "FSD-ECON-ABSTRACT-MANUAL-MINUTES",
+          "FSD-ECON-ABSTRACT-ROBOT-MINUTES"
+        ],
+        "label": "Active nursing time difference",
+        "unit": "minutes per day",
+        "value": 90.91,
+        "version": "abstract"
+      },
+      {
+        "boundary": "Approximate arithmetic agrees with the displayed ratio; does not establish the incremental numerator or reconcile the poster.",
+        "calculation_id": "FSD-ECON-C02",
+        "evidence_ids": [
+          "FSD-E006"
+        ],
+        "formula": "program_cost / released_hours",
+        "input_ids": [
+          "FSD-ECON-ABSTRACT-PROGRAM-COST",
+          "FSD-ECON-ABSTRACT-RELEASED-HOURS"
+        ],
+        "label": "Program cost / reported released hours",
+        "unit": "NTD per nursing hour released",
+        "value": 2983.72513562387,
+        "version": "abstract"
+      },
+      {
+        "boundary": "Modeled strategies, not actual payroll or cash transactions.",
+        "calculation_id": "FSD-ECON-C03",
+        "evidence_ids": [
+          "FSD-E007"
+        ],
+        "formula": "robot_cost - manual_cost",
+        "input_ids": [
+          "FSD-ECON-POSTER-ROBOT-COST",
+          "FSD-ECON-POSTER-MANUAL-COST"
+        ],
+        "label": "Annual cost difference",
+        "unit": "NTD per year",
+        "value": 1366281.0,
+        "version": "poster"
+      },
+      {
+        "boundary": "Annualized manual and simulated robot strategies, distinct from the abstract.",
+        "calculation_id": "FSD-ECON-C04",
+        "evidence_ids": [
+          "FSD-E007"
+        ],
+        "formula": "manual_hours - robot_hours",
+        "input_ids": [
+          "FSD-ECON-POSTER-MANUAL-HOURS",
+          "FSD-ECON-POSTER-ROBOT-HOURS"
+        ],
+        "label": "Annual nursing time difference",
+        "unit": "nursing hours per year",
+        "value": 1108.28,
+        "version": "poster"
+      },
+      {
+        "boundary": "Cost to release time; no assumption that released time becomes cash savings.",
+        "calculation_id": "FSD-ECON-C05",
+        "evidence_ids": [
+          "FSD-E007"
+        ],
+        "formula": "(robot_cost - manual_cost) / (manual_hours - robot_hours)",
+        "input_ids": [
+          "FSD-ECON-POSTER-ROBOT-COST",
+          "FSD-ECON-POSTER-MANUAL-COST",
+          "FSD-ECON-POSTER-MANUAL-HOURS",
+          "FSD-ECON-POSTER-ROBOT-HOURS"
+        ],
+        "label": "Incremental cost / released hours",
+        "unit": "NTD per nursing hour released",
+        "value": 1232.794059263002,
+        "version": "poster"
+      },
+      {
+        "boundary": "Preserve the displayed difference; hidden precision is unknown, and the narrative is retained separately.",
+        "calculation_id": "FSD-ECON-C06",
+        "evidence_ids": [
+          "FSD-E007"
+        ],
+        "formula": "table_increment - (robot_cost - manual_cost)",
+        "input_ids": [
+          "FSD-ECON-POSTER-TABLE-INCREMENT",
+          "FSD-ECON-POSTER-ROBOT-COST",
+          "FSD-ECON-POSTER-MANUAL-COST"
+        ],
+        "label": "Table increment minus component arithmetic",
+        "unit": "NTD per year",
+        "value": 1.0,
+        "version": "poster"
+      },
+      {
+        "boundary": "Ten-year projection, not ten years of observed savings.",
+        "calculation_id": "FSD-ECON-C07",
+        "evidence_ids": [
+          "FSD-E008"
+        ],
+        "formula": "manual_total - robot_total",
+        "input_ids": [
+          "FSD-ECON-SHAANXI-MANUAL-TOTAL",
+          "FSD-ECON-SHAANXI-ROBOT-TOTAL"
+        ],
+        "label": "Projected manual minus robot cost",
+        "unit": "CNY over ten years",
+        "value": 6928000.0,
+        "version": "shaanxi"
+      },
+      {
+        "boundary": "Matches the sensitivity total arithmetically; does not identify the authors' implemented cost allocation.",
+        "calculation_id": "FSD-ECON-C08",
+        "evidence_ids": [
+          "FSD-E008"
+        ],
+        "formula": "robot_total * (1 + maintenance_change / 100)",
+        "input_ids": [
+          "FSD-ECON-SHAANXI-ROBOT-TOTAL",
+          "FSD-ECON-SHAANXI-MAINTENANCE-CHANGE"
+        ],
+        "label": "Apply displayed change to entire robot total",
+        "unit": "CNY over ten years",
+        "value": 6846000.0,
+        "version": "shaanxi"
+      },
+      {
+        "boundary": "Diagnostic only: assumes the entire noncapital residual is maintenance and capital is fixed. Neither allocation is verified; not a corrected forecast.",
+        "calculation_id": "FSD-ECON-C09",
+        "evidence_ids": [
+          "FSD-E008"
+        ],
+        "formula": "capital + (robot_total - capital) * (1 + maintenance_change / 100)",
+        "input_ids": [
+          "FSD-ECON-SHAANXI-CAPITAL",
+          "FSD-ECON-SHAANXI-ROBOT-TOTAL",
+          "FSD-ECON-SHAANXI-MAINTENANCE-CHANGE"
+        ],
+        "label": "Conditional change to noncapital residual only",
+        "unit": "CNY over ten years",
+        "value": 6146000.0,
+        "version": "shaanxi"
+      },
+      {
+        "boundary": "Illustrative rounded annual costs before integration, with immediate staff-cost removal and fault-free operation.",
+        "calculation_id": "FSD-ECON-C10",
+        "evidence_ids": [
+          "FSD-E009"
+        ],
+        "formula": "manual_cost - robot_cost",
+        "input_ids": [
+          "FSD-ECON-CHARITE-MANUAL-COST",
+          "FSD-ECON-CHARITE-ROBOT-COST"
+        ],
+        "label": "Middle-volume operating-cost difference",
+        "unit": "EUR per year",
+        "value": 63800.0,
+        "version": "charite"
+      }
+    ],
+    "source_versions": {
+      "abstract": {
+        "evidence_id": "FSD-E006",
+        "measurement_status": "reported_source_estimate",
+        "population": "Taiwan ICU abstract comparison; observation dates unspecified",
+        "version": "ISPOR EE102 abstract, May 2026"
+      },
+      "charite": {
+        "evidence_id": "FSD-E009",
+        "measurement_status": "illustrative_model_hypothesis_not_observed_operation",
+        "population": "Charite/Elvio container-transport model; middle-volume case where specified",
+        "version": "Charite whitepaper, released 20 August 2026; PDF revision date unknown"
+      },
+      "poster": {
+        "evidence_id": "FSD-E007",
+        "measurement_status": "model_projection_from_short_manual_observation",
+        "population": "Taiwan ICU poster: three-day manual observation and simulated robot strategy",
+        "version": "ISPOR EE102 linked poster, May 2026; revision chronology unknown"
+      },
+      "shaanxi": {
+        "evidence_id": "FSD-E008",
+        "measurement_status": "author_cost_projection_not_realized_cash",
+        "population": "Shaanxi hospital routine drug/specimen transport; ten-year cost projection",
+        "version": "Scientific Reports 16:18927, 24 April 2026"
+      }
+    },
+    "status": "source_version_and_cost_boundary_audit_not_calibration",
+    "unknowns": {
+      "provider_margin": {
+        "reason": "Customer fees do not identify provider resource cost or profit.",
+        "value": null
+      },
+      "target_complete_service_cost": {
+        "reason": "No same-cohort full service, all-actor work and cost ledger.",
+        "value": null
+      },
+      "target_paid_labor_removed": {
+        "reason": "No dated target employment/payroll transition with retained work and complete service.",
+        "value": null
+      },
+      "target_roi": {
+        "reason": "Actual price, transition, financing, staffing, fallback and rights remain unestablished.",
+        "value": null
+      },
+      "target_service_coverage": {
+        "reason": "Selected or assigned tasks do not define every required on-time service.",
+        "value": null
+      }
+    }
+  },
   "onboard_timing": {
     "calculations": {
       "OWQ-C01": {
@@ -274,7 +527,7 @@
   "source_snapshot_sha256": {
     "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
     "customer_evidence.json": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234",
-    "field_support_denominators.json": "ee234220b44f189283d6a83b13a8f59fc32ae97a04756b98c6af56b7d700810d",
+    "field_support_denominators.json": "6912c63f70b1f57bf1d89d1f4e628a55bd7a93ab819f4690c6ebcc9900365930",
     "onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
   },
   "tac_costs": {

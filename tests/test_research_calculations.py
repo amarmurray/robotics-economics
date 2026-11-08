@@ -2,11 +2,69 @@ import copy
 import unittest
 from model.research_calculations import research_summary, tac_cost_summary, field_support_summary, ROOT
 from model.research_calculations import onboard_timing_summary, commercial_disclosure_summary, recovery_contract_summary
+from model.research_calculations import hospital_economics_summary
 from unittest.mock import patch
 import json
 
 
 class SourceArithmetic(unittest.TestCase):
+    def hospital_packet(self):
+        return json.loads((ROOT/'data/field_support_denominators.json').read_text())
+
+    def test_hospital_versions_preserve_different_methods_and_numerators(self):
+        packet=self.hospital_packet();before=copy.deepcopy(packet);result=hospital_economics_summary(packet)
+        rows={r['calculation_id']:r for r in result['rows']}
+        self.assertEqual(rows['FSD-ECON-C01']['value'],90.91)
+        self.assertAlmostEqual(rows['FSD-ECON-C02']['value'],1650000/553)
+        self.assertEqual(rows['FSD-ECON-C03']['value'],1366281)
+        self.assertEqual(rows['FSD-ECON-C04']['value'],1108.28)
+        self.assertAlmostEqual(rows['FSD-ECON-C05']['value'],1366281/1108.28)
+        self.assertEqual(rows['FSD-ECON-C06']['value'],1)
+        self.assertTrue(all(len(r['evidence_ids'])==1 for r in result['rows']))
+        self.assertEqual(packet,before)
+
+    def test_hospital_sensitivity_is_a_diagnostic_not_a_repaired_forecast(self):
+        result=hospital_economics_summary(self.hospital_packet());rows={r['calculation_id']:r for r in result['rows']}
+        self.assertEqual(rows['FSD-ECON-C07']['value'],6928000)
+        self.assertEqual(rows['FSD-ECON-C08']['value'],6846000)
+        self.assertEqual(rows['FSD-ECON-C09']['value'],6146000)
+        self.assertIn('Neither allocation is verified',rows['FSD-ECON-C09']['boundary'])
+        self.assertEqual(rows['FSD-ECON-C10']['value'],63800)
+        self.assertTrue(all(x['value'] is None for x in result['unknowns'].values()))
+        self.assertNotIn('roi',result);self.assertNotIn('calibrated_parameters',result)
+
+    def test_hospital_arithmetic_rejects_mixed_source_dimensions_and_versions(self):
+        for field,value in [('unit','USD per year'),('population','another hospital'),('period','different observation'),
+                ('source_version','ISPOR abstract used as poster'),('measurement_status','observed_payroll'),
+                ('value',None),('value',True),('value',float('inf')),('value',-1),('value',0)]:
+            with self.subTest(field=field,value=value):
+                p=self.hospital_packet();q=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E007')['quantities'][0];q[field]=value
+                with self.assertRaises(ValueError):hospital_economics_summary(p)
+
+    def test_hospital_missing_duplicate_and_swapped_sources_fail(self):
+        for mode in ('missing','duplicate','role','metric_id','version'):
+            p=self.hospital_packet();e=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E006')
+            if mode=='missing':p['evidence'].remove(e)
+            elif mode=='duplicate':p['evidence'].append(copy.deepcopy(e))
+            elif mode=='role':e['quantities'].append(copy.deepcopy(e['quantities'][0]))
+            elif mode=='metric_id':e['quantities'][0]['metric_id']='FSD-ECON-POSTER-MANUAL-HOURS'
+            else:p['economic_audits'][0]['source_versions']['abstract']['evidence_id']='FSD-E007'
+            with self.assertRaises(ValueError):hospital_economics_summary(p)
+
+    def test_hospital_nonpositive_released_time_and_impossible_percent_fail(self):
+        for eid,role,value in [('FSD-E007','robot_hours',1233.78),('FSD-E008','capital',5705001),('FSD-E009','assigned_completion',101)]:
+            p=self.hospital_packet();e=next(e for e in p['evidence'] if e['evidence_id']==eid)
+            next(q for q in e['quantities'] if q['role']==role)['value']=value
+            with self.assertRaises(ValueError):hospital_economics_summary(p)
+
+    def test_hospital_extension_requires_accepted_package_and_leaves_legacy_results(self):
+        packet=self.hospital_packet();without=copy.deepcopy(packet)
+        without.pop('economic_audits');without['evidence']=without['evidence'][:5]
+        self.assertEqual(field_support_summary(packet),field_support_summary(without))
+        self.assertIn('hospital_economics',research_summary())
+        with patch('model.packages.load_accepted_packages',return_value={'packages':[]}):
+            self.assertNotIn('hospital_economics',research_summary())
+
     def test_finance_illustration_does_not_repair_source_or_convert_currencies(self):
         packet=json.loads((ROOT/'data/customer_evidence.json').read_text());before=copy.deepcopy(packet)
         r=recovery_contract_summary(packet);eur,usd=r['rows']

@@ -1518,7 +1518,7 @@
         "requirement_id": "DE-02",
         "requirement": "Accepted service, support, payroll, supply and rights evidence",
         "status": "partial",
-        "finding": "Edition 0.32 adds primary operator rollout and retained-work gates, but exact configured robot repair, accepted service, customer/provider work and paid-commitment evidence remain incomplete."
+        "finding": "Edition 0.34 preserves distinct hospital economic source versions, projected costs and idealized staffing/uptime assumptions. Actual target paid staffing, complete service, retained work and all-actor cost remain incomplete."
       },
       {
         "requirement_id": "DE-03",
@@ -1560,19 +1560,19 @@
         "requirement_id": "DE-09",
         "requirement": "Three recommendations with proceed/wait/reject gates",
         "status": "partial",
-        "finding": "Hospital proceed/wait/reject gates now require actual restoration/fallback and repair/exit terms alongside retained work. Utility and automotive inherit the question only; foreign award values and T-2.5 prices do not calibrate their recommendations."
+        "finding": "Hospital proceed/wait/reject gates now include source-version reconciliation, staffing transition and complete-service cost. Utility and automotive inherit the method only; no foreign price, staffing or rate transfers."
       },
       {
         "requirement_id": "DE-10",
         "requirement": "Full report, thesis, all thirteen views, lineage and replay",
         "status": "partial",
-        "finding": "Edition 0.29 integrates a contract/finance source audit into the existing recovery analysis, report, thesis, questions, three packs, three source-audit views and shared context across thirteen views."
+        "finding": "Edition 0.34 integrates the economic audit into the existing hospital package, report, thesis, questions, three packs, Customer/Commercial/Digital source views and shared context across all thirteen views. Full decision-edition acceptance remains partial."
       },
       {
         "requirement_id": "DE-11",
         "requirement": "Full validation, conservation, adverse/seeded checks and publication",
         "status": "partial",
-        "finding": "Edition 0.33: 465 Python tests, 36 Node assertions, 45 reproduction/Node commands, exact exports, all thirteen views, thirteen complete combined architecture browser worlds, eight prior component worlds, source panels and complete replay controls pass. All 1250698 prior numerical fields and other non-provenance semantics are unchanged. The shared admission extraction and result formatter preserve earlier execution. Publication identity is in the ignored receipt."
+        "finding": "Edition 0.34: 471 Python tests, 36 Node assertions, 45 reproduction/Node commands, exact frontier/source exports, all thirteen views, four exact source drawers, filters and scenario replay pass. All 1348165 prior numeric fields across 35 JSON artifacts remain unchanged; the new hospital source-arithmetic block is separate. Manifest identity and publication SHA are in the ignored receipt."
       },
       {
         "requirement_id": "DE-12",

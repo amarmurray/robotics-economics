@@ -3864,6 +3864,12 @@
         "analysis": "research/architecture_resources.md",
         "scope": "Synthetic cleaning-service integration only; no target staffing, engineering productivity, part/configuration, price or service-unit conversion.",
         "requirement": "Compare the complete service with its feasible human/specialist alternative, dated qualified parts, actual physical integration/support, genuinely distinct or shared work pools and cash of every required payer. Faster model work alone is insufficient."
+      },
+      "hospital_economic_gate": {
+        "audit_id": "FSD-AUDIT-ECON-01",
+        "analysis": "research/field_support_denominators.md#hospital-economic-claims-edition-034",
+        "scope": "Foreign hospital workflow evidence; no transferred rate, price, staffing ratio or ROI.",
+        "requirement": "Separate released time and projected savings from actual paid staffing. Require source-version reconciliation, complete required service, all retained work, transition/fallback costs and an executed payment/support boundary before recommending deployment."
       }
     },
     {
@@ -4037,6 +4043,12 @@
         "analysis": "research/architecture_resources.md",
         "scope": "Synthetic cleaning-service integration only; no target staffing, engineering productivity, part/configuration, price or service-unit conversion.",
         "requirement": "Compare the complete service with its feasible human/specialist alternative, dated qualified parts, actual physical integration/support, genuinely distinct or shared work pools and cash of every required payer. Faster model work alone is insufficient."
+      },
+      "hospital_economic_gate": {
+        "audit_id": "FSD-AUDIT-ECON-01",
+        "analysis": "research/field_support_denominators.md#hospital-economic-claims-edition-034",
+        "scope": "Methodological comparator only; no foreign hospital service, staffing, price or cost transferred.",
+        "requirement": "Separate released time and projected savings from actual paid staffing. Require source-version reconciliation, complete required service, all retained work, transition/fallback costs and an executed payment/support boundary before recommending deployment."
       }
     },
     {
@@ -4202,6 +4214,12 @@
         "analysis": "research/architecture_resources.md",
         "scope": "Synthetic cleaning-service integration only; no target staffing, engineering productivity, part/configuration, price or service-unit conversion.",
         "requirement": "Compare the complete service with its feasible human/specialist alternative, dated qualified parts, actual physical integration/support, genuinely distinct or shared work pools and cash of every required payer. Faster model work alone is insufficient."
+      },
+      "hospital_economic_gate": {
+        "audit_id": "FSD-AUDIT-ECON-01",
+        "analysis": "research/field_support_denominators.md#hospital-economic-claims-edition-034",
+        "scope": "Methodological comparator only; no foreign hospital service, staffing, price or cost transferred.",
+        "requirement": "Separate released time and projected savings from actual paid staffing. Require source-version reconciliation, complete required service, all retained work, transition/fallback costs and an executed payment/support boundary before recommending deployment."
       }
     }
   ],
@@ -4219,6 +4237,7 @@
     "annual_resource_gate": "Dated prior use and outside reservations now constrain actual support/commissioning within the same competitive monthly loop. Strong human capacity can preserve service despite lost robot-months. Other-market activity and annual component vectors remain unexecuted.",
     "component_qualification_gate": "Compatible manufacturing parts, actual receipt/qualification and one explicit replacement per unit now execute in the shared monthly resource/cash loop. A received or announced part is not necessarily usable. Actual maintenance labor/cost and joint annual portfolio supply remain open.",
     "inspection_readiness_gate": "Require a matched accepted-service and work ledger; a supplier service label, repeated activity or historical rollout is not a measured robot-maintenance or payroll contract.",
-    "architecture_resource_gate": "Four intelligence arrangements now share annual physical commitments and typed compatible parts within their original role accounts. Lower upstream work need not advance the binding operating date or reduce paid staffing. Outside workload, shared staff identity and real service economics remain unestablished."
+    "architecture_resource_gate": "Four intelligence arrangements now share annual physical commitments and typed compatible parts within their original role accounts. Lower upstream work need not advance the binding operating date or reduce paid staffing. Outside workload, shared staff identity and real service economics remain unestablished.",
+    "hospital_economic_gate": "Hospital economic publications preserve differing source versions and cost boundaries. Released hours, modeled savings and assigned-task guarantees do not establish target payroll removal, full required service or provider margin."
   }
 }

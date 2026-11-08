@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.33.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.34.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: intelligence and physical-resource integration, edition 0.33
+## Current checkpoint: hospital economic evidence, edition 0.34
+
+The same single-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. After the user's reported usage reset, a real shell check at 06:28 UTC on 8 November confirmed clean local and remote main at accepted input `e89c7c44968c2c6d9a5c1621f69cfffd3b1b3921`; ongoing source downloads were preserved. The selected environment was connected/running with current observations and no failure. No current usage error was observed. Quota and native goal creation/stop controls remain unexposed; the agent did not reset limits, buy credits, create another task or schedule, change model settings or claim continuous execution.
+
+The [hospital economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) adds four primary records and ten separate source calculations. An official ICU abstract and linked poster retain incompatible methods/results and unknown revision order. A longer cost projection remains distinct from its observed service period, and a maintenance sensitivity raises a cost-allocation replication question. An illustrative service model retains its immediate staff-cost removal and fault-free assumptions. No corrected forecast, actual target payroll reduction, provider margin or target ROI follows. The analysis now informs the report, thesis, questions, three decision packs and source/decision dashboard views.
+
+Fresh cloud validation: **471 Python tests** in 266.461s; **36 Node assertions**, **16 JavaScript syntax checks** and **45 reproduction/Node commands** pass. Evidence validation covers **13 packages, 218 claims, 465 reported quantities and 138 explicit-null quantity markers**. Frontier export and the full source-arithmetic export match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors; the three economic panels, four exact source drawers, ten calculations, five unknown outcomes, three decision-pack gates, filters and complete scenario export/reload pass. Six prior physical reference worlds match saved results exactly. Both new panel screenshots were visually inspected.
+
+All **1,348,165 prior typed numeric fields across 35 JSON result artifacts** remain unchanged. Twenty-three artifacts are byte-identical; the other twelve contain only refreshed provenance/dependent identities and, in the research summary, the new separate hospital_economics block. Existing model execution code, numerical assumptions, prior source records, original field metrics/calculations and labor rows remain unchanged. All 69 legacy requirement statuses, 65 question statuses and 53 met / 16 partial counts are preserved. Fourteen bounded challenge families still contain 187 worlds; no new synthetic worlds or empirical calibration were added.
+
+All **340 manifest hashes** and **802 relative Markdown links** verify. Primary raw files remain local; evidence records retain their byte hashes. The research was self-reviewed by the sole writer, not independently reviewed.
+
+**Remaining evidence limits:** target complete-service/all-actor cost and paid-staffing transitions remain unknown. Shaanxi raw operating data are confidential/request-only; the mentioned Charite workbook was not retrieved from the inspected official release/PDF. No outreach or restricted-route retry occurred. Broad six-cell portfolio, genuine shared staff and jointly executed competing workloads remain incomplete.
+
+**Next execution:** obtain a consequential dated service/workforce/payment record from permitted public material, or implement one genuinely conserved shared-worker/competing-workload contract where the complete human/specialist alternative and every payer are retained. Do not add favorable variants or sum independent case totals.
+
+**Next question:** which actual organizational transition converts released task time into avoided hiring/overtime or paid staffing removed while preserving the entire service obligation and retained support work?
+
+## Previous checkpoint: intelligence and physical-resource integration, edition 0.33
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The environment-disconnected steer was answered by current connected/running status and successful shell/remote checks in the same workspace and published configuration. Working changes and the sole-writer plan were preserved. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
 

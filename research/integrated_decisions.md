@@ -95,3 +95,7 @@ The [workcell analysis](automotive_workcell_decision.md) makes fixed vision, rea
 ## Funded qualification follow-up, edition 0.22
 
 The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
+## Economic evidence must identify the realized organizational change
+
+Edition 0.34's [hospital economic audit](field_support_denominators.md#hospital-economic-claims-edition-034) changes the interpretation of an apparently attractive labor-saving opportunity. A released hour, an avoided vacancy, a projected staff-cost reduction and an observed payroll change are separate benefits. Compare complete service and retained work before funding a rollout from claimed labor savings. Preserve incompatible source versions and distinguish a supplier fee from provider resources. Acquisition, standalone entry and incumbent deployment each need their own transition, authority, cash and support evidence; an ownership label does not supply it. No synthetic coefficient or historical result changes.

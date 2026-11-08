@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: intelligence and physical resources, edition 0.33
+## New decision campaign: hospital economic evidence, edition 0.34
+
+The [economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) sharpens the hospital recommendation without promoting empirical acceptance. Source versions, released time, projected cost and paid staffing are separate. The noncapital sensitivity is a conditional diagnostic, not a repaired forecast. DE-02/09/10 and whole-system empirical cost remain partial. This checkpoint does not end the same active campaign; its deadline remains **2026-11-14T20:12:27Z**.
+
+Fresh cloud validation: **471 Python tests** in 266.461s; **36 Node assertions**, **16 JavaScript syntax checks** and **45 reproduction/Node commands** pass. Evidence validation covers **13 packages, 218 claims, 465 reported quantities and 138 explicit-null quantity markers**. Frontier export and the full source-arithmetic export match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors; the three economic panels, four exact source drawers, ten calculations, five unknown outcomes, three decision-pack gates, filters and complete scenario export/reload pass. Six prior physical reference worlds match saved results exactly. Both new panel screenshots were visually inspected.
+
+All **1,348,165 prior typed numeric fields across 35 JSON result artifacts** remain unchanged. Twenty-three artifacts are byte-identical; the other twelve contain only refreshed provenance/dependent identities and, in the research summary, the new separate hospital_economics block. Existing model execution code, numerical assumptions, prior source records, original field metrics/calculations and labor rows remain unchanged. All 69 legacy requirement statuses, 65 question statuses and 53 met / 16 partial counts are preserved. Fourteen bounded challenge families still contain 187 worlds; no new synthetic worlds or empirical calibration were added.
+
+All 340 manifest hashes and 802 relative Markdown links verify. See the [sole-writer review](reviews/field_support_review.md#edition-034-sole-writer-economic-claim-review).
+
+## Previous decision checkpoint: intelligence and physical resources, edition 0.33
 
 [Thirteen combined worlds](research/architecture_resources.md) advance the four-architecture/annual bridge and substantial H through an explicit lower-adaptation pair, resource and funding refusals, qualified supply and the paid human alternative. DE-03/06 and empirical whole-service acceptance stay partial. Fourteen families / 187 worlds are bounded executable coverage, not a jointly feasible portfolio, target calibration or campaign completion.
 

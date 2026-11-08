@@ -132,3 +132,9 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 ## Intelligence and physical resources, edition 0.33
 
 [The combined execution](research/architecture_resources.md) narrows the deployment thesis: a reduction in digital adaptation work can remove the first obstacle while a different physical qualification or payer constraint still sets the operating date. The same required service can remain fully supplied by paid humans. A case for lower resource cost, earlier supported robot exposure, avoided hiring and actually removed payroll requires separate evidence for each. Four architecture labels do not supply empirical integration coefficients or usable working capital. The next falsifier is a dated target resource/payment/service ledger, including shared staff identities and failed or retained work.
+
+## Hospital economic evidence challenge, edition 0.34
+
+**Conditional thesis:** the organizational transition from released task time to complete-service staffing is a decision variable, not an automatic consequence of a robot's transport improvement. The [economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) preserves separate source versions and identifies projection and staffing/uptime assumptions. It does not establish observed payroll removal or provider profit.
+
+**What would change the view:** a dated, matched obligation ledger showing actual service coverage, all retained work, staffing/payroll or avoided hiring, transition/fallback, and each payer's contracted outlay. A favorable target ledger could support deployment despite the current evidence gaps; a feasible human-dispatch/specialist alternative could reverse that choice. Customer acquisition, ownership or model architecture cannot substitute for this evidence. Existing model coefficients and bounded worlds remain unchanged.

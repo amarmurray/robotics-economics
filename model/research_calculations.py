@@ -80,6 +80,90 @@ def field_support_summary(package):
     }
 
 
+def hospital_economics_summary(package):
+    """Audit separate published boundaries, never pool versions or infer payroll."""
+    audit = next(a for a in package['economic_audits'] if a['audit_id'] == 'FSD-AUDIT-ECON-01')
+    contracts = {
+        'abstract': ('FSD-E006', {'manual_minutes': 'minutes per day', 'robot_minutes': 'minutes per day',
+            'released_hours': 'nursing hours per year', 'program_cost': 'NTD per year',
+            'reported_icer': 'NTD per nursing hour released'}),
+        'poster': ('FSD-E007', {'robot_cost': 'NTD per year', 'manual_cost': 'NTD per year',
+            'robot_hours': 'nursing hours per year', 'manual_hours': 'nursing hours per year',
+            'table_increment': 'NTD per year', 'text_increment': 'NTD per year',
+            'reported_icer': 'NTD per nursing hour released'}),
+        'shaanxi': ('FSD-E008', {'capital': 'CNY', 'robot_total': 'CNY over ten years',
+            'manual_total': 'CNY over ten years', 'reported_saving': 'CNY over ten years',
+            'sensitivity_robot_total': 'CNY over ten years', 'maintenance_change': 'percent'}),
+        'charite': ('FSD-E009', {'manual_cost': 'EUR per year', 'robot_cost': 'EUR per year',
+            'reported_saving': 'EUR per year', 'monthly_fee': 'EUR per robot month',
+            'annual_robot_cost': 'EUR per robot year', 'assigned_completion': 'percent of assigned tasks'})}
+    values, ids, seen = {}, {}, set()
+    for version, (eid, roles) in contracts.items():
+        claims = [e for e in package['evidence'] if e['evidence_id'] == eid]
+        if len(claims) != 1:
+            raise ValueError('Expected one hospital economic source: ' + eid)
+        source = claims[0]
+        context = audit['source_versions'][version]
+        if context['evidence_id'] != eid or context['version'] != source['source_version']:
+            raise ValueError('Hospital economic source version mismatch')
+        rows = source['quantities']
+        if len(rows) != len(roles) or {q['role'] for q in rows} != set(roles):
+            raise ValueError('Missing or duplicate hospital economic roles')
+        values[version], ids[version] = {}, {}
+        for q in rows:
+            role = q['role']
+            expected_id = 'FSD-ECON-' + version.upper() + '-' + role.upper().replace('_', '-')
+            if q['metric_id'] != expected_id or q['metric_id'] in seen:
+                raise ValueError('Invalid hospital economic metric identity')
+            seen.add(q['metric_id'])
+            if (q['unit'] != roles[role] or q['population'] != context['population'] or
+                q['source_version'] != context['version'] or q['period'] != source['observation_period'] or
+                q['measurement_status'] != context['measurement_status']):
+                raise ValueError('Hospital economic arithmetic mixes source boundaries')
+            v = number(q['value'])
+            if v <= 0 or ('percent' in q['unit'] and v > 100):
+                raise ValueError('Invalid positive hospital economic quantity')
+            values[version][role], ids[version][role] = v, q['metric_id']
+    a, p, s, c = (values[k] for k in contracts)
+    if a['manual_minutes'] < a['robot_minutes'] or p['manual_hours'] <= p['robot_hours'] or s['robot_total'] < s['capital']:
+        raise ValueError('Hospital economic release or residual boundary invalid')
+    rows = []
+    def add(key, version, label, value, unit, formula, roles, boundary):
+        rows.append(dict(calculation_id=key, version=version, label=label, value=float(value), unit=unit,
+            formula=formula, input_ids=[ids[version][r] for r in roles], evidence_ids=[contracts[version][0]], boundary=boundary))
+    add('FSD-ECON-C01', 'abstract', 'Active nursing time difference', a['manual_minutes']-a['robot_minutes'],
+        'minutes per day', 'manual_minutes - robot_minutes', ['manual_minutes','robot_minutes'], 'Released task time, not removed paid labor.')
+    add('FSD-ECON-C02', 'abstract', 'Program cost / reported released hours', a['program_cost']/a['released_hours'],
+        'NTD per nursing hour released', 'program_cost / released_hours', ['program_cost','released_hours'],
+        'Approximate arithmetic agrees with the displayed ratio; does not establish the incremental numerator or reconcile the poster.')
+    increment = p['robot_cost']-p['manual_cost']; released = p['manual_hours']-p['robot_hours']
+    add('FSD-ECON-C03', 'poster', 'Annual cost difference', increment, 'NTD per year', 'robot_cost - manual_cost',
+        ['robot_cost','manual_cost'], 'Modeled strategies, not actual payroll or cash transactions.')
+    add('FSD-ECON-C04', 'poster', 'Annual nursing time difference', released, 'nursing hours per year', 'manual_hours - robot_hours',
+        ['manual_hours','robot_hours'], 'Annualized manual and simulated robot strategies, distinct from the abstract.')
+    add('FSD-ECON-C05', 'poster', 'Incremental cost / released hours', increment/released, 'NTD per nursing hour released',
+        '(robot_cost - manual_cost) / (manual_hours - robot_hours)', ['robot_cost','manual_cost','manual_hours','robot_hours'],
+        'Cost to release time; no assumption that released time becomes cash savings.')
+    add('FSD-ECON-C06', 'poster', 'Table increment minus component arithmetic', p['table_increment']-increment, 'NTD per year',
+        'table_increment - (robot_cost - manual_cost)', ['table_increment','robot_cost','manual_cost'],
+        'Preserve the displayed difference; hidden precision is unknown, and the narrative is retained separately.')
+    add('FSD-ECON-C07', 'shaanxi', 'Projected manual minus robot cost', s['manual_total']-s['robot_total'], 'CNY over ten years',
+        'manual_total - robot_total', ['manual_total','robot_total'], 'Ten-year projection, not ten years of observed savings.')
+    multiplier = 1+s['maintenance_change']/100
+    add('FSD-ECON-C08', 'shaanxi', 'Apply displayed change to entire robot total', s['robot_total']*multiplier, 'CNY over ten years',
+        'robot_total * (1 + maintenance_change / 100)', ['robot_total','maintenance_change'],
+        'Matches the sensitivity total arithmetically; does not identify the authors\' implemented cost allocation.')
+    add('FSD-ECON-C09', 'shaanxi', 'Conditional change to noncapital residual only', s['capital']+(s['robot_total']-s['capital'])*multiplier,
+        'CNY over ten years', 'capital + (robot_total - capital) * (1 + maintenance_change / 100)',
+        ['capital','robot_total','maintenance_change'],
+        'Diagnostic only: assumes the entire noncapital residual is maintenance and capital is fixed. Neither allocation is verified; not a corrected forecast.')
+    add('FSD-ECON-C10', 'charite', 'Middle-volume operating-cost difference', c['manual_cost']-c['robot_cost'], 'EUR per year',
+        'manual_cost - robot_cost', ['manual_cost','robot_cost'], 'Illustrative rounded annual costs before integration, with immediate staff-cost removal and fault-free operation.')
+    return dict(audit_id=audit['audit_id'], status='source_version_and_cost_boundary_audit_not_calibration', rows=rows,
+        source_versions=audit['source_versions'], unknowns=audit['unknowns'], boundary=audit['interpretation'],
+        reported_comparators={k:{role:float(v) for role,v in vals.items()} for k,vals in values.items()})
+
+
 def tac_cost_summary(dataset):
     seen = set()
     total, perfect_cost = Decimal(0), Decimal(0)
@@ -304,6 +388,8 @@ def research_summary(root=ROOT):
     else:
         from packages import load_accepted_packages
     accepted = {p['path'] for p in load_accepted_packages(root)['packages']}
+    if 'data/field_support_denominators.json' in accepted and field.get('economic_audits'):
+        result['hospital_economics'] = hospital_economics_summary(field)
     path = 'data/onboard_workload_qualification.json'
     if path in accepted:
         result['onboard_timing'] = onboard_timing_summary(json.loads((root/path).read_text()))

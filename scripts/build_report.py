@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.33, intelligence and physical-resource integration checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Four funded architecture arrangements now execute with annual physical commitments and typed compatible parts on the same unit and Treasury ledger. A lower-adaptation pair can expose a later physical bottleneck while paid humans preserve the complete service obligation. Fourteen bounded challenge families now contain 187 worlds; previous numerical results remain unchanged. Full target service economics and broad portfolio integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.34, hospital economic-evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. An official ICU abstract and linked poster retain separate methods and results; projected cost and idealized staffing/uptime assumptions remain distinct from observed paid labor removal. Ten source calculations challenge cost boundaries without changing any earlier scenario outcome. Fourteen bounded challenge families contain 187 worlds. Full target service economics and broad portfolio integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -78,6 +78,12 @@ The initial editions were produced in a cloud checkout. The local continuation b
     for name,digest in research['source_snapshot_sha256'].items():
         if hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest()!=digest:
             raise SystemExit('Stale research source: '+name)
+    economics=research['hospital_economics']
+    economic_table=['| Source version | Reproduced arithmetic | Result | Unit | Interpretation limit |','| --- | --- | ---: | --- | --- |']
+    for row in economics['rows']:
+        economic_table.append(f"| {row['version']} | {row['label']} | {row['value']:,.5f} | {row['unit']} | {row['boundary']} |")
+    at=next(i for i,t in enumerate(out) if t.startswith('### Focused follow-up: Hospital service, support and economic denominators'))+1
+    out.insert(at,'#### Reproduced economic source-boundary audit\n\n'+'\n'.join(economic_table)+'\n\nGenerated from [observed_research_summary.json](model/results/observed_research_summary.json). Equations, metric IDs and individual source IDs accompany each result; source/code hashes are checked above. FSD-E006–E009 remain four source records, not pooled estimates. No target ROI, provider margin, paid staffing reduction or scenario coefficient follows.')
     disclosure=research['commercial_disclosures']
     disclosure_table=['| Reproduced disclosure arithmetic | USD | Equation | Scope |','| --- | ---: | --- | --- |']
     for row in disclosure['calculations'].values():

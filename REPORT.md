@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.33, intelligence and physical-resource integration checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Four funded architecture arrangements now execute with annual physical commitments and typed compatible parts on the same unit and Treasury ledger. A lower-adaptation pair can expose a later physical bottleneck while paid humans preserve the complete service obligation. Fourteen bounded challenge families now contain 187 worlds; previous numerical results remain unchanged. Full target service economics and broad portfolio integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.34, hospital economic-evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. An official ICU abstract and linked poster retain separate methods and results; projected cost and idealized staffing/uptime assumptions remain distinct from observed paid labor removal. Ten source calculations challenge cost boundaries without changing any earlier scenario outcome. Fourteen bounded challenge families contain 187 worlds. Full target service economics and broad portfolio integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -128,6 +128,10 @@ The [workcell analysis](research/automotive_workcell_decision.md) makes fixed vi
 ### Funded qualification follow-up, edition 0.22
 
 The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
+### Economic evidence must identify the realized organizational change
+
+Edition 0.34's [hospital economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) changes the interpretation of an apparently attractive labor-saving opportunity. A released hour, an avoided vacancy, a projected staff-cost reduction and an observed payroll change are separate benefits. Compare complete service and retained work before funding a rollout from claimed labor savings. Preserve incompatible source versions and distinguish a supplier fee from provider resources. Acquisition, standalone entry and incumbent deployment each need their own transition, authority, cash and support evidence; an ownership label does not supply it. No synthetic coefficient or historical result changes.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -313,6 +317,10 @@ The [inspection-readiness audit](research/quadruped_operator_followup.md#rollout
 [Thirteen combined architecture worlds](research/architecture_resources.md) advance the monthly/annual/four-architecture bridge. They share one service obligation, actual physical units, compatible parts, annual resource commitments and each architecture's original role accounts. Halving assumed open-model adaptation work permits upstream qualification but physical integration still delays the full fleet until January under the common reservation. The licensed two-unit threshold is exactly 10,500 integration minutes; one minute less delays a unit. Fixed paid humans deliver all 4,000 zones in every world, so neither greater robot exposure nor lower adaptation work proves removed payroll or added complete service. Previously paid manufacture stays sunk after later qualification failure.
 
 Hospital, utility and automotive inherit the test for dated configured qualification, retained work, genuine shared-resource identities and payer funding. No cleaning quantity, hypothetical price or source entitlement transfers into those service units. Fourteen challenge families now contain **187 complete bounded worlds**; the independent cases are not one simultaneous portfolio. DE-03/06 and empirical whole-service acceptance remain partial. Full six-cell workloads, competition/acquisition/recovery/learning composition and actual economic evidence remain open.
+
+#### Hospital economic claim gate, edition 0.34
+
+The [existing hospital evidence package](research/field_support_denominators.md#hospital-economic-claims-edition-034) now challenges source-version, staffing and cost assumptions. Proceed with bounded service/workforce measurement when authorized and operationally feasible; wait on a rollout whose financing requires unverified paid staffing removal; reject a comparison that omits required service, retained work or transition/fallback costs. The utility and automotive packs inherit this measurement question only. Their service units, costs, staffing and preferred embodiments remain independently unresolved. This gate changes neither prior numerical scenarios nor empirical acceptance status.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1070,6 +1078,8 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 
 Authoritative analysis: [research/field_support_denominators.md](research/field_support_denominators.md).
 
+**Edition 0.34:** the [economic-claim audit below](#hospital-economic-claims-edition-034) adds four primary source records and ten reproducible calculations. It leaves earlier studies and scenarios unchanged and does not close whole-service cost or paid-staffing evidence gaps.
+
 **7 November continuation:** FSD-E005 adds a bounded WSNA worker-experience account to the [hospital decision pack](research/deployment_entry_decisions.md#hospital-logistics--qualify-the-entire-obligation). Its reported escort burden is qualitative testimony; its reported MultiCare exit is not independently operator-verified here. The original studies, arithmetic and conflicts below are unchanged.
 
 **8 November continuation:** [The hospital support audit](research/hospital_support_contracts.md) adds procurement and repair/exit boundaries to the decision pack. It leaves the studies, numerical findings and unresolved conflicts below unchanged.
@@ -1155,6 +1165,51 @@ Three additions are justified now. First, separate **normal handling, safety pre
 The next evidence packet must join request IDs, accepted receipt and timing, robot active/down hours, staff task-duration logs and failed/manual fallback outcomes. The appropriate economic quantity is total relevant person-minutes per accepted service, compared at matched urgency, payload, route and quality. Neither calendar time nor cumulative deliveries supplies that quantity by itself.
 
 This wave stops after two empirical case audits and bounded follow-up access attempts. The Guro supplement was sought through its publisher link, PMC attachment and public EuropePMC supplementary archive; attempts returned a preparation HTML page or timed out, including a 45-second archive retry with zero bytes received. The Qilu full methods and ChristianaCare report body were not accessible through the attempted primary routes. No paid access, correspondence, broad new search campaign or invented calibration was used. The JSON contains five transparent arithmetic checks, three unresolved source conflicts and the missing-denominator requirements. Existing checkpoint artifacts and common-model assumptions remain unchanged.
+
+#### Hospital economic claims, edition 0.34
+
+The decision changes when a proposal promises cash savings but the evidence measures time released, or when a projected saving omits the work needed to keep service complete. The existing hospital pack therefore retains its conditional proceed/wait/reject gates. A bounded, authorized evaluation can test service and workforce consequences; a payroll-funded rollout must wait for its own staffing and cost bridge. Reject a business case that uses selected robot tasks as the entire hospital obligation or treats a modeled staff reduction as an observed one.
+
+##### Preserve the two Taiwan versions
+
+The official ISPOR EE102 [abstract](https://www.ispor.org/conferences-education/conferences/past-conferences/ispor-2026/program/program/presentation/ispor-2026/poster-session-1-4/cost-effectiveness-of-an-automated-delivery-robot-program-to-reduce-nursing-transport-burden-in-an-intensive-care-unit-a-hospital-provider-perspective) describes time-motion observations and robot logs. Its annual released-time and cost-per-hour estimates differ materially from the [linked poster](https://www.ispor.org/docs/default-source/cti-meeting-21463-documents/5d45abe7-6936-416a-a174-e7fb62b3d120.pdf?sfvrsn=7824ce7f_0), which models robot operation against three days of manual observations. Both belong to the May 2026 conference; a verified revision chronology is unavailable. FSD-E006 and FSD-E007 preserve them separately.
+
+Reproducing each equation does not reconcile the intervention, observation clock or methods. Do not combine one version's favorable time denominator with the other's cost numerator. The poster's annual robot-minus-manual cost equals its narrative increment, while its table differs by one Taiwan dollar; the record retains all three values. This small display discrepancy does not explain the much larger abstract/poster difference. Hidden precision is unknown. Neither version establishes a target staffing reduction or a defensible hospital-wide return.
+
+##### A cost projection is a different observation period
+
+The [Shaanxi Scientific Reports study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13276296/) uses June–November 2025 routine daytime transport observations and projects costs over ten years. Emergency/off-duty service is excluded. Its staffing-replacement attribution is not accompanied here by a verified payroll transition. Dispatch, handling, system management, maintenance and fault recovery remain work. The raw operating data are confidential and available only by author request; no request was made. See FSD-E008.
+
+Our arithmetic audit reproduces the projected cost difference. It also finds that the published maintenance sensitivity total equals increasing the entire robot-cost total by the stated percentage. A separate diagnostic holds initial capital fixed and applies that change only to the noncapital residual. That is deliberately **not a repaired forecast**: the residual is not verified to consist entirely of maintenance, and the source does not identify every simultaneous change. The difference identifies a replication question; it establishes neither the correct target projection nor invalidity of the observed transport results.
+
+##### A useful planning hypothesis still needs operating evidence
+
+The [Charité whitepaper](https://medinfo.charite.de/fileadmin/user_upload/microsites/m_cc01/medinfo/Events_Meldungen/Charit%C3%A9_Whitepaper_Robotische_Automatisierung.pdf), [released 20 August 2026](https://medinfo.charite.de/en/metas/news/artikel/detail/robotic_automation_in_hospitals_white_paper_provides_practical_guidance/), is an Elvio-funded model hypothesis without original operating quantity, time or cost data. Its immediate staff-cost removal and fault-free operation exclude transition overlap and fallback. The described service guarantee concerns assigned tasks. FSD-E009 records these boundaries. The referenced Excel annex was not retrieved from the inspected official release or PDF; no external/embedded PDF link supplied it.
+
+The central diligence question is therefore whether the operating organization can realize the proposed staffing transition while covering the same required service. Vacancy coverage can be valuable without reducing current payroll. A monthly supplier fee belongs in customer cash; it does not disclose supplier margin or eliminate retained internal work. Adding that fee to the provider's resource expense in a consolidated total would double count the transfer. No source price or staffing ratio is transferred into the US hospital cell, other decision packs or synthetic scenarios.
+
+##### Evidence that would change the recommendation
+
+FSD-AUDIT-ECON-01 makes four checks explicit: source/configuration identity, complete required service, staffing transition, and payment/support obligations. Use the same request cohort and clock for human, improved human-dispatch, specialist robot and feasible mixed alternatives. Include declined jobs, urgent/off-duty work, travel/handling, observation, cleaning, repair, fallback and overlap. Distinguish an employee's released minutes from reassignment, avoided hiring/overtime and actual paid staffing removed. Identify who funds and performs every retained activity, plus dates and enforceable obligations; do not assume a service fee covers an unpriced responsibility.
+
+The [source export](model/results/observed_research_summary.json) reproduces ten calculations with equations and input IDs under separate versions and currencies. Five target outcomes remain explicitly unknown: paid labor removed, complete-service cost, ROI, provider margin and service coverage. Existing hospital procurement/repair evidence and the [stronger human-dispatch comparator](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) remain complementary. This tranche neither closes empirical acceptance nor favors a generalist intelligence architecture over specialized transport.
+
+#### Reproduced economic source-boundary audit
+
+| Source version | Reproduced arithmetic | Result | Unit | Interpretation limit |
+| --- | --- | ---: | --- | --- |
+| abstract | Active nursing time difference | 90.91000 | minutes per day | Released task time, not removed paid labor. |
+| abstract | Program cost / reported released hours | 2,983.72514 | NTD per nursing hour released | Approximate arithmetic agrees with the displayed ratio; does not establish the incremental numerator or reconcile the poster. |
+| poster | Annual cost difference | 1,366,281.00000 | NTD per year | Modeled strategies, not actual payroll or cash transactions. |
+| poster | Annual nursing time difference | 1,108.28000 | nursing hours per year | Annualized manual and simulated robot strategies, distinct from the abstract. |
+| poster | Incremental cost / released hours | 1,232.79406 | NTD per nursing hour released | Cost to release time; no assumption that released time becomes cash savings. |
+| poster | Table increment minus component arithmetic | 1.00000 | NTD per year | Preserve the displayed difference; hidden precision is unknown, and the narrative is retained separately. |
+| shaanxi | Projected manual minus robot cost | 6,928,000.00000 | CNY over ten years | Ten-year projection, not ten years of observed savings. |
+| shaanxi | Apply displayed change to entire robot total | 6,846,000.00000 | CNY over ten years | Matches the sensitivity total arithmetically; does not identify the authors' implemented cost allocation. |
+| shaanxi | Conditional change to noncapital residual only | 6,146,000.00000 | CNY over ten years | Diagnostic only: assumes the entire noncapital residual is maintenance and capital is fixed. Neither allocation is verified; not a corrected forecast. |
+| charite | Middle-volume operating-cost difference | 63,800.00000 | EUR per year | Illustrative rounded annual costs before integration, with immediate staff-cost removal and fault-free operation. |
+
+Generated from [observed_research_summary.json](model/results/observed_research_summary.json). Equations, metric IDs and individual source IDs accompany each result; source/code hashes are checked above. FSD-E006–E009 remain four source records, not pooled estimates. No target ROI, provider margin, paid staffing reduction or scenario coefficient follows.
 
 ### Focused follow-up: Monthly commercial funding and title
 
