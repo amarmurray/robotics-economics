@@ -73,8 +73,7 @@ class _CompetitiveEnterprise(_BridgedEnterprise):
             initial = competition.incumbent_pre_response_cents if business.operator_id == 'incumbent' else competition.entrant_offer_cents
             if any(rate != initial for rate in business.price_cents_per_unit_by_month):
                 raise ValueError('Base price arrays must project initial competition quotes; actual bills use locked lot prices')
-        if treasury.invoices:
-            raise ValueError('Opening invoices require a separate inherited-obligation contract')
+        self.validate_opening_obligations(treasury)
         self.competition = competition
         self.lots = [{'lot_id': f'lot-{i:03d}', 'units': competition.units_per_lot,
                       'owner': 'incumbent', 'price_cents': competition.incumbent_pre_response_cents,
@@ -91,6 +90,10 @@ class _CompetitiveEnterprise(_BridgedEnterprise):
         self.current_offers = {}
         self.current_capacities = {}
         self.award_quotes = {}
+
+    def validate_opening_obligations(self, treasury):
+        if treasury.invoices:
+            raise ValueError('Opening invoices require a separate inherited-obligation contract')
 
     def renewal_due(self, lot, month):
         c = self.competition

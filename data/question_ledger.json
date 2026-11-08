@@ -602,7 +602,8 @@
       "findings": [
         "Incumbent, formation, acquisition and hybrid routes have different access, capital and legacy obligations; parent formation creates no productive output.",
         "Fifteen synthetic entry worlds now distinguish share ownership from the existing target legal account, customer assignment, lease title, liabilities and receivables. Acquisition changes control only after funded settlement; target service is not recreated.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.38: funded share entry and actual recurring-contract renewal execute together. Acquired contract volume, first platform lot awards, regained work and common-owner reassignment remain separate. Target arrears can rise despite complete market service; parent purchase funds and target/growth working cash are distinct. Stronger human/incumbent response can prevent new wins. No optimal pricing, empirical synergy or valuation follows."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -613,9 +614,11 @@
         "reviews/entry_transitions_review.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "model/renewing_entry.py",
+        "model/results/renewing_entry.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Test eligible recovery/relocation and qualification within the same entry/renewal history; preserve inherited bills, paid failed work and stronger incumbent alternatives. Keep empirical rights, response, accepted service and all-payer cost gaps explicit."
     },
     {
       "question_id": "RQ-OS-04",
@@ -653,7 +656,8 @@
         "Three provisional packs define the service/retained-work gates before entry. Equal-technology comparison must preserve actual demand, qualified capacity and paid commitments; integrated paths remain pending.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
         "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
-        "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes."
+        "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes.",
+        "Edition 0.38: funded share entry and actual recurring-contract renewal execute together. Acquired contract volume, first platform lot awards, regained work and common-owner reassignment remain separate. Target arrears can rise despite complete market service; parent purchase funds and target/growth working cash are distinct. Stronger human/incumbent response can prevent new wins. No optimal pricing, empirical synergy or valuation follows."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -671,9 +675,12 @@
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
         "model/results/competitive_renewals.json",
-        "research/conventional_coordination.md"
+        "research/conventional_coordination.md",
+        "research/entry_transitions.md",
+        "model/renewing_entry.py",
+        "model/results/renewing_entry.json"
       ],
-      "next_action": "Qualify the strongest feasible conventional target workflow against complete accepted service, cancellations, affected cohorts, retained work, implementation cost and paid schedules before claiming an incremental agent or robot gain."
+      "next_action": "Test eligible recovery/relocation and qualification within the same entry/renewal history; preserve inherited bills, paid failed work and stronger incumbent alternatives. Keep empirical rights, response, accepted service and all-payer cost gaps explicit."
     },
     {
       "question_id": "RQ-OS-06",
@@ -702,7 +709,8 @@
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
         "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
-        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open.",
+        "Edition 0.38: funded share entry and actual recurring-contract renewal execute together. Acquired contract volume, first platform lot awards, regained work and common-owner reassignment remain separate. Target arrears can rise despite complete market service; parent purchase funds and target/growth working cash are distinct. Stronger human/incumbent response can prevent new wins. No optimal pricing, empirical synergy or valuation follows."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -751,9 +759,11 @@
         "model/results/asset_recovery.json",
         "model/results/observed_research_summary.json",
         "research/annual_commitments.md",
-        "model/ANNUAL_COMMITMENTS.md"
+        "model/ANNUAL_COMMITMENTS.md",
+        "model/renewing_entry.py",
+        "model/results/renewing_entry.json"
       ],
-      "next_action": "Test whether the entrant can secure usable dated support/integration and fund its complete customer obligations through a realistic incumbent human or conventional response; distinguish customer share from incremental service and financing from operating recovery."
+      "next_action": "Test eligible recovery/relocation and qualification within the same entry/renewal history; preserve inherited bills, paid failed work and stronger incumbent alternatives. Keep empirical rights, response, accepted service and all-payer cost gaps explicit."
     },
     {
       "question_id": "RQ-OS-07",
@@ -769,7 +779,8 @@
         "Status quo, build, share acquisition and separately committed hybrid growth now execute on the same calendar/physical/customer/Treasury loop. Atomic closing, retained diligence, consent, inherited liabilities and interruption expose bounded route differences without a valuation/ROI ranking.",
         "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
-        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models."
+        "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models.",
+        "Edition 0.38: funded share entry and actual recurring-contract renewal execute together. Acquired contract volume, first platform lot awards, regained work and common-owner reassignment remain separate. Target arrears can rise despite complete market service; parent purchase funds and target/growth working cash are distinct. Stronger human/incumbent response can prevent new wins. No optimal pricing, empirical synergy or valuation follows."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -790,9 +801,11 @@
         "research/hospital_support_contracts.md",
         "research/field_support_denominators.md",
         "data/field_support_denominators.json",
-        "model/results/observed_research_summary.json"
+        "model/results/observed_research_summary.json",
+        "model/renewing_entry.py",
+        "model/results/renewing_entry.json"
       ],
-      "next_action": "Prioritize a dated same-service ledger linking actual paid staffing, retained handling/dispatch/repair, transition/fallback and every payer. Reconcile source revision and projected versus observed cost before using an economic headline."
+      "next_action": "Test eligible recovery/relocation and qualification within the same entry/renewal history; preserve inherited bills, paid failed work and stronger incumbent alternatives. Keep empirical rights, response, accepted service and all-payer cost gaps explicit."
     },
     {
       "question_id": "RQ-BM-01",
@@ -1777,7 +1790,8 @@
         "Monster operator evidence supports attendant reassignment and service use. Supplier capacity and cumulative-item claims do not establish payroll removal; equal-technology entrant advantages remain conditional on demand, cash, price and support.",
         "In a synthetic operating-provider contract, equal aggregate opening capital can leave the operator unable to qualify purchased robots. Reallocating the same funds to that entity enables qualification without creating demand or removing paid shifts.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.38: funded share entry and actual recurring-contract renewal execute together. Acquired contract volume, first platform lot awards, regained work and common-owner reassignment remain separate. Target arrears can rise despite complete market service; parent purchase funds and target/growth working cash are distinct. Stronger human/incumbent response can prevent new wins. No optimal pricing, empirical synergy or valuation follows."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1796,9 +1810,12 @@
         "research/commercial_disclosure_boundaries.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "research/entry_transitions.md",
+        "model/renewing_entry.py",
+        "model/results/renewing_entry.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Test eligible recovery/relocation and qualification within the same entry/renewal history; preserve inherited bills, paid failed work and stronger incumbent alternatives. Keep empirical rights, response, accepted service and all-payer cost gaps explicit."
     },
     {
       "question_id": "RQ-FM-09",

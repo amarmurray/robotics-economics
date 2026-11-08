@@ -40,9 +40,9 @@ class Transition:
         if type(self.assumed_transfer_consent) is not bool:raise ValueError('Explicit assumed-consent Boolean required')
 
 
-class _EntryEnterprise(_BridgedEnterprise):
-    def __init__(self,plan,contracts,treasury,enterprise,finance,bridge,transition):
-        super().__init__(plan,contracts,treasury,enterprise,finance,bridge)
+class EntryTransitionHooks:
+    """Share-closing lifecycle used by one already initialized enterprise."""
+    def initialize_entry(self,plan,contracts,treasury,enterprise,finance,bridge,transition):
         if not isinstance(transition,Transition):raise ValueError('Explicit entry transition required')
         if set(self.business)!={'incumbent','entrant'} or enterprise.market.incumbent_operator!='incumbent':
             raise ValueError('Explicit incumbent target and separate entrant required')
@@ -164,6 +164,12 @@ class _EntryEnterprise(_BridgedEnterprise):
                 'Existing operating-company assets, leases, unpaid liabilities and receivables stay with their legal counterparties; ultimate owner is a separate register',
                 'Fixed wide consolidation includes seller, buyer and robot-commercial parties; cash is not profit and opening-payable settlement is not new current-period resource use',
                 'No dividends, target-cash sweep, terminal share valuation, goodwill accounting or lifecycle ROI is estimated']}
+
+
+class _EntryEnterprise(EntryTransitionHooks,_BridgedEnterprise):
+    def __init__(self,plan,contracts,treasury,enterprise,finance,bridge,transition):
+        super().__init__(plan,contracts,treasury,enterprise,finance,bridge)
+        self.initialize_entry(plan,contracts,treasury,enterprise,finance,bridge,transition)
 
 
 def source_hashes():

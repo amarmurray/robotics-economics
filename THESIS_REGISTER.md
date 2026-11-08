@@ -157,3 +157,9 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 **Conditional thesis:** a purchaser can preserve service by refusing discretionary hardware before it consumes cash needed for already-required work. [The common execution](research/shared_workforce.md#prospective-purchase-reserve-edition-037) makes that mechanism consequential and preserves the OEM's sunk manufacture, stock and lost sale cash. A late floor, absent extra crew or separate unfunded supplier defeats the apparent protection. An excessive floor can lose a feasible staffing option.
 
 **Challenge and decision:** lower crew cash still does not establish lower total resource cash: the stronger human comparator covers the identical surge at $53,500 versus $165,773.92 under the robot reserve premises. Do not infer lifecycle ROI, an optimal reserve or empirical staffing effects. Next challenge the same economics through customer retention, entry and recovery before extending hospital variants.
+
+## Entry advantage must survive actual retention and liabilities, edition 0.38
+
+**Conditional thesis:** acquiring an operating company can transfer an existing contract book without creating new demand or removing its obligations. [The joint execution](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) distinguishes acquired volume, new lot awards, regained work and internal reassignment. Parent cash closes the transaction; target and growth cash fund service separately. A fully served market does not imply a funded acquired company.
+
+**Challenge:** interruption can lose service despite later retention, locked contracts can keep work stranded, failed closing retains prior diligence, and a stronger human incumbent can prevent entrant wins. Common ownership uses explicit separate offer mandates; no independent competition or optimized group policy is inferred. No real valuation, synergy, payroll effect or lifecycle return is identified.

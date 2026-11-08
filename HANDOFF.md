@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.37.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.38.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: prospective fallback purchase reserve, edition 0.37
+## Current checkpoint: funded entry and actual renewal, edition 0.38
+
+Same sole writer and active campaign: **2026-11-07T20:12:27Z** to **2026-11-14T20:12:27Z**. Input `3a87a79fa0266edbeec749f3bd654fbb57a7189a` was the clean accepted checkpoint. Actual cloud execution advanced the combined entry/renewal module. No current runtime or usage blocker is observed; goal/quota/reset controls and serving-model introspection remain unexposed. No replacement, duplicate schedule, agent, reset or continuous-execution claim.
+
+[The joint execution](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) uses one physical/Treasury history for funded share closing, inherited target bills, separate growth cash, actual service and recurring contracts. Acquisition alone reclassifies 500 zones of contract volume without new wins or service. Hybrid entry separates 100 zones of new lot awards, 400 reclassified at closing and later internal reassignment. Common ownership retains explicit separate offer mandates; it is not independent competition or optimized group pricing. Regained work is excluded from first contract-lot gains.
+
+A one-month transition interruption leaves 300 zones unserved, or 400 under the locked-contract/no-breach case. Later service does not repair those misses. The inherited-bill case serves the entire market while the target ends with $15,100 due unpaid obligations. A separately funded $30,000 injection avoids those arrears but leaves the parent $4,000. A $166,000 parent budget closes the hybrid; one cent less fails atomically while prior diligence and separately committed growth persist. The stronger human/response premise serves all work, wins no entrant lots and has lower bounded cash outlay. None establishes actual valuation, synergy, staffing savings or ROI.
+
+Fresh cloud validation passes **517 Python tests** in 382.292s, **36 Node assertions**, **18 JavaScript syntax checks** and **49 reproduction/Node commands**. Four exact exports (frontier, shared workforce, joint entry/renewal and source arithmetic) match. All **13 dashboard views**, **10 new joint worlds**, **18 prior workforce worlds**, six prior reference panels and two historical source drawers pass. Exact parent-funding and prior workforce cent/minute boundaries, full replay ignoring derived outcomes, pending/invalid/stale protection, shared state and scenario/source independence pass. Both new joint-panel screenshots were visually reviewed.
+
+All **1,478,427 prior typed numeric fields across 36 JSON result artifacts** and their prior non-fingerprint semantics are unchanged. 21 artifacts are byte-identical; 15 change only exact evidence/source fingerprints and dependent identities. Ten new cases are a separate result artifact. Existing model edits only extract the entry hooks and default-preserving renewal invoice validation; all other prior model code, assumptions, source records and labor rows remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**, with all 69 requirement and 65 question statuses preserved. The source registry remains **13 packages, 220 claims, 498 quantities and 146 explicit-null markers**. Fourteen families now contain **215 bounded worlds**, not a joint six-cell portfolio or empirical validation.
+
+All **353 manifest hashes** and **860 relative Markdown links** verify. Review is sole-writer self-review. The existing paid-shift validation caught an incomplete human-efficiency fixture mapping during development; the accepted fixture recomputes capacity from unchanged paid staff and the declared efficiency path. No empirical coefficient was imported.
+
+**Next execution:** join eligible asset recovery/relocation and subsequent qualification to this concrete entry/renewal history. Preserve parent/target/seller debts, actual title, funded closing, existing customer prices and paid failed work. Acquisition of company equity is not transfer of individual robot title; an operating service buyer is not automatically authorized to receive a sold asset. Do not stack incompatible ownership policies or claim resource/crew/learning composition that has not executed. Keep all six cells, three packs and substantial H/I/J/K visible.
+
+**Remaining empirical limits:** current all-request service and payroll, qualified response, contractual/operating rights, all-payer costs, retained assets and terminal value remain unresolved. No commercial action or restricted-source retry occurred. **Next question:** after entry or default, can a funded, title-eligible transfer preserve actual customer service once relocation, qualification and inherited obligations are retained?
+
+## Previous checkpoint: prospective fallback purchase reserve, edition 0.37
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Accepted input `c56373c97d8e67a085a65875e9c80d27d4ede0fd` matched clean local and remote main at resumption. Actual cloud shell, reproduction and browser execution advanced this checkpoint. No runtime or usage failure is observed. Native goal/usage/reset controls and serving-model identity remain unexposed; no new goal, schedule, agent, reset or continuous-execution claim is made.
 

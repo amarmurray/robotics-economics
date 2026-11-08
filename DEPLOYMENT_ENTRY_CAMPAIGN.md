@@ -126,3 +126,7 @@ The [primary-source audit](research/field_support_denominators.md#employment-ope
 ## Prospective fallback purchase checkpoint, edition 0.37
 
 Nine additional [shared-workforce worlds](research/shared_workforce.md#prospective-purchase-reserve-edition-037) deepen DE-CF01 without adding a family: fourteen families now contain 205 bounded worlds. A fixed operator purchase floor can preserve complete service and funded extra crew while leaving paid manufacture and stock at the OEM. Late action, missing qualified capacity, distinct supplier funding and an excessive floor expose the limits. The stronger human path covers the same surge at lower bounded resource cash. This is the same active T0/deadline and sole-writer campaign, not completion or empirical calibration. The next priority is compatible competition/entry/recovery integration across the retained six-cell program.
+
+## Funded entry and actual renewal checkpoint, edition 0.38
+
+Ten [joint entry/renewal cases](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) deepen existing DE-CF06/07/renewal challenges: fourteen families now contain215 bounded worlds. They execute share settlement, inherited bills, separate growth cash, actual service and customer contracts in one physical/Treasury run. Equity reclassification is not a customer win, regained work is not new demand, and a served market can coexist with target arrears. No empirical calibration or campaign completion follows. Same T0, November14 deadline, sole writer and full A–K scope continue.

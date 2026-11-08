@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: prospective purchase reserve, edition 0.37
+## New decision campaign: entry and actual renewal, edition 0.38
+
+The joint execution advances DE-03/05/08/09/10 with acquired-versus-won contracts, inherited bills, actual service/retention and separate operating funds. All broad empirical requirements remain partial; same campaign deadline **2026-11-14T20:12:27Z**.
+
+Fresh cloud validation passes **517 Python tests** in 382.292s, **36 Node assertions**, **18 JavaScript syntax checks** and **49 reproduction/Node commands**. Four exact exports (frontier, shared workforce, joint entry/renewal and source arithmetic) match. All **13 dashboard views**, **10 new joint worlds**, **18 prior workforce worlds**, six prior reference panels and two historical source drawers pass. Exact parent-funding and prior workforce cent/minute boundaries, full replay ignoring derived outcomes, pending/invalid/stale protection, shared state and scenario/source independence pass. Both new joint-panel screenshots were visually reviewed.
+
+All **1,478,427 prior typed numeric fields across 36 JSON result artifacts** and their prior non-fingerprint semantics are unchanged. 21 artifacts are byte-identical; 15 change only exact evidence/source fingerprints and dependent identities. Ten new cases are a separate result artifact. Existing model edits only extract the entry hooks and default-preserving renewal invoice validation; all other prior model code, assumptions, source records and labor rows remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**, with all 69 requirement and 65 question statuses preserved. The source registry remains **13 packages, 220 claims, 498 quantities and 146 explicit-null markers**. Fourteen families now contain **215 bounded worlds**, not a joint six-cell portfolio or empirical validation.
+
+All353 manifest hashes and 860 relative Markdown links verify. See the [sole-writer review](reviews/entry_transitions_review.md#edition-038-sole-writer-joint-entry-review).
+
+## Previous decision checkpoint: prospective purchase reserve, edition 0.37
 
 The [bounded policy](research/shared_workforce.md#prospective-purchase-reserve-edition-037) advances DE-03/06/08/09/10 through actual payer admission, complete competing work, retained OEM stock and explicit adverse funding/capacity. No empirical requirement is closed, and the same campaign remains active through **2026-11-14T20:12:27Z**. The next integration priority is competition/entry/recovery across the retained six-cell program.
 

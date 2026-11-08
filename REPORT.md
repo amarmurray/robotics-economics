@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.37, prospective fallback purchase checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. A declared operator cash floor now affects hardware purchases, complete competing services and every payer. Paid OEM manufacture and stock remain; missing workers, distinct supplier funding and late action expose limits. Eighteen shared-workforce cases deepen fourteen challenge families containing 205 worlds. All earlier numerical outcomes and evidence quantities are preserved. Empirical whole-service economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.38, funded entry and actual renewal checkpoint, 8 November 2026. Share closing, inherited obligations and customer contracts now share one physical and cash history. Equity reclassification, new awards, regained work and internal reassignment remain separate. A served market can coexist with target arrears. Fourteen families contain215 bounded worlds, with all prior numerical outcomes preserved. Full empirical economics and broader joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -147,6 +147,12 @@ The [staffing and operating-window audit](research/field_support_denominators.md
 [The prospective purchase test](research/shared_workforce.md#prospective-purchase-reserve-edition-037) joins a declared liquidity decision to the actual operator, physical stock, shared crew and Treasury. Keeping cash can preserve complete cleaning and competing work after a staffing notice, while leaving the OEM with paid unsold hardware. Retained cash cannot create qualified workers or fund a separate supplier; late activation cannot undo an acquisition. An excessive reserve can also delay a feasible staffing transition. The stronger human path remains a required comparator and uses less bounded resource cash in the matched surge world. No optimal reserve, target ROI or empirical staff reduction follows.
 
 This completes a bounded decision bridge, not the campaign. Prioritize joining customer retention/entry and contractual recovery to feasible service and payer cash, with direct digital coordination and model qualification retained. Six-cell joint execution, matched empirical whole-service cost and substantial H/I/J/K acceptance remain partial.
+
+### Acquired contracts, actual retention and payer solvency, edition 0.38
+
+[Joint entry and renewal](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) separates acquired contract volume from new awards and internal reassignment. A platform can own a larger customer book without creating service or new demand. A transition interruption changes actual delivery and later retention; locked contracts can worsen the missed-work consequence. Overall market service can stay complete while the acquired company accrues unpaid bills, because a separate operating firm supplies the work. Keep the parent, target, provider and growth accounts distinct and test inherited liabilities after purchase, rather than treating acquisition price or group ownership as working capital.
+
+The stronger paid human/incumbent alternative remains consequential. Its assumed digital capacity and declared response can prevent entrant wins at lower bounded resource cash. These experiments deepen entry/competition integration; recovery, full shared staffing/resources, learning, whole-service evidence and six-cell joint feasibility remain open.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -362,6 +368,12 @@ Two [primary historical sources](research/field_support_denominators.md#employme
 | Construction installation | Funds, worker authority and job completeness remain separate gates | Complete setup/installation obligations and digitally improved specialist/human baseline |
 
 The integration queue is now explicit. First reconcile the competitive renewal and entry-transition interfaces with one service and cash history: preserve incumbent/entrant identities, inherited liabilities and cash-funded customer acquisition. Then join eligible recovery/relocation without treating paid title as supported operation. Finally test whether learning eligibility, failed-trial cost, qualified parts and architecture rights move that same business's service date, rather than citing a separate favorable learning world. The current workforce fixture has one active business and must not be relabeled as a competitor model; establish compatible contracts before composing modules. Keep all six cells and the three selected packs visible, and preserve substantial digital-AI ecosystem, physical supply and frontier-model work beyond this local cleaning execution.
+
+#### Company entry under actual renewals, edition 0.38
+
+Ten [joint entry/renewal worlds](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) preserve one physical/cash history, acquired company liabilities, funded growth and actual prior service. Equity reclassification, first new contract-lot awards, regained work and common-owner reassignment are separate. Fourteen challenge families now contain **215 bounded worlds**, with all previous outcomes preserved. The target's arrears can rise even when the combined market is fully served; acquisition funding is not operating solvency.
+
+For each of the three service packs, verify operating consent and customer renewal/breach terms alongside payer budgets and complete required work. For the other three retained cells, keep equal technology and digitally improved incumbents in the entry comparison. Do not transfer synthetic cleaning contract prices or infer independent competition after common ownership. Next join eligible recovery and qualification to this transition boundary while preserving old liabilities and failed paid work. Shared staff, annual commitments, typed parts and model-rights/learning constraints remain separately executed until their contracts can be made compatible.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1669,6 +1681,26 @@ Thesis T3 is strengthened: equal technology access and aggregate capital leave c
 
 The next work shifts to the unresolved service-specific alternatives and qualification evidence, starting with utility residual visits/fixed sensing and the automotive workcell comparator. Real all-actor costs, retained paid work, qualified supply, operating rights, support and endogenous learning remain incomplete. Asset purchase/redeployment, legal restructuring, valuation and broad market equilibrium are outside this bounded share-transfer implementation. The active 168-hour campaign clock is unchanged.
 
+#### Actual renewal and company entry, edition 0.38
+
+The initial entry model preserved legal entities and funded closing, but customer movements were scheduled scenario inputs. The [joint execution](model/results/renewing_entry.json) now subjects status quo, standalone build, share acquisition and hybrid formation to the existing funded renewal rule inside one physical and Treasury run. Ten worlds deepen DE-CF06/07 and the renewal challenges; fourteen families contain 215 bounded worlds. All earlier numerical cases remain unchanged.
+
+A lot represents a recurring service contract with an identified operator, locked price and expiry. Awards require currently funded capacity and paid onboarding/switching work; later renewal may respond to actual prior service. The equity transaction occurs in phase two, before physical work and phase-five renewal. It changes ultimate ownership, while target cash, asset title, receivables, inherited bills and existing contract terms remain with the same legal company. The purchase uses the parent's available cash after any separately committed growth funding and prior diligence. It does not borrow the target's bank balance.
+
+**Buying contracts is not winning them through service.** The acquisition-only world reclassifies 500 zones of recurring contract volume at closing, gains no new contract lots and delivers the same 4,000 zones as status quo. Share consideration is $100,000 to the seller, and diligence/transition resources are $6,000. That changes ownership and cash, not production. Terminal equity value and returns remain unknown.
+
+The standalone build first wins 100 zones of recurring lot volume, but ends with no assigned lots after the declared incumbent response. Equal access to supported robots does not preserve the entrant's initial price advantage under these offer rules. The hybrid world first wins 100 zones of recurring lot volume through the separate operating entrant. At closing, 400 zones of the target's existing contract volume are reclassified to the platform. A later 100-zone transfer between commonly owned operating firms is internal reassignment, not another external customer win. Both firms continue separately declared offer mandates after common ownership. This explicit organizational premise is not independent competition, optimal group pricing or a claimed real market outcome.
+
+A one-month target interruption in the hybrid case reduces that month's delivery from 500 to 200 zones. Later service returns to 500, but the 300 missed zones remain lost. With three-month locked contracts and no breach exit, the same interruption leaves only 100 zones delivered in that month and 400 permanently missed. Both settings have seven complete months. Gross later awards from unassigned contracts include recovered work; new-platform contract-lot IDs count first awards only and exclude earlier platform ownership or equity reclassification. Neither measure counts unique people or inferred customer acquisition.
+
+**Complete market service can coexist with an unfunded acquired company.** An inherited $30,000 target bill remains due to the original counterparty and is eventually paid. In the uninjected case, other target operating obligations then accumulate to $15,100 due and unpaid by the final month, while the entrant takes more internal work and the overall market still receives all 4,000 zones. A separately funded $30,000 target equity injection avoids those closing arrears in the matched case, leaving the parent only $4,000. The acquisition price itself never supplied that operating money. Named-bill settlement is therefore insufficient evidence that the company is fully funded.
+
+The parent also faces a binding closing boundary. With $60,000 committed to growth, $1,000 diligence, $100,000 consideration and $5,000 transition resources, $166,000 of parent opening funds closes; $165,999.99 does not. Failed closing retains diligence and the separately funded growth leg, pays no partial consideration/transition/equity group and changes no target ownership. In the saved $160,000 case, growth continues, the acquisition fails and the parent closes with $99,000. No closing retry or automatic cash sweep is invented.
+
+The stronger human/competitive-response case keeps the same paid staff and software charge, assumes higher digital-human efficiency and no new robots, and uses the declared incumbent response offer. It delivers all 4,000 zones while the entrant wins no new lots. Its bounded external operating/transaction cash is $71,700, versus $253,408.38 for standalone robotic build and $259,408.38 for the base hybrid. These remain conditional window cash comparisons, with different retained assets and no terminal valuation, empirical uplift or lifecycle ROI.
+
+For hospital, utility and automotive packs, acquisition and operating-contract eligibility are separate gates. Verify actual control/consent, inherited obligations, funding after transaction costs, service interruption, renewal or breach rights and the competent incumbent alternative before interpreting acquired revenue as entry advantage. The numerical cleaning prices, contracts, staff and disruption assumptions do not transfer. The joint model still lacks the shared crew, annual/typed-part constraints, four-architecture roles, asset recovery and endogenous learning from other modules; it does not establish a simultaneously feasible six-cell portfolio.
+
 #### Reproduced funded entry worlds
 
 | Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |
@@ -1690,6 +1722,23 @@ The next work shifts to the unresolved service-specific alternatives and qualifi
 | delayed incumbent response | not_planned | 4,717.00 | 0.00 | 0.00 | 140,000.00 | 38,400.00 |
 
 Generated from [entry_transitions.json](model/results/entry_transitions.json). Purchase consideration goes to the seller; target working capital and separate growth need actual settled equity. The company retains its liabilities, assets and customers. Share transfers cancel at the fixed wider boundary, and terminal equity value remains unknown; these cash figures are not ROI or an investment ranking.
+
+#### Reproduced joint entry and renewal executions
+
+| Joint world | Complete months /8 | Reclassified volume | First new lot volume | Internal reassignment | Parent closing USD | Resource/transaction cash USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| status_quo | 8 | 0 | 0 | 0 | 200,000.00 | 134,595.48 |
+| standalone_build | 8 | 0 | 100 | 0 | 140,000.00 | 253,408.38 |
+| share_acquisition | 8 | 500 | 0 | 0 | 94,000.00 | 140,595.48 |
+| hybrid | 8 | 400 | 100 | 100 | 34,000.00 | 259,408.38 |
+| hybrid_interruption | 7 | 400 | 100 | 300 | 34,000.00 | 262,425.80 |
+| hybrid_locked_interruption | 7 | 400 | 100 | 100 | 34,000.00 | 257,325.80 |
+| hybrid_failed_close | 8 | 0 | 100 | 0 | 99,000.00 | 254,408.38 |
+| inherited_target_liability | 8 | 400 | 100 | 400 | 34,000.00 | 259,654.19 |
+| funded_target_liability | 8 | 400 | 100 | 100 | 4,000.00 | 289,408.38 |
+| human_competitive_response | 8 | 0 | 0 | 0 | 140,000.00 | 71,700.00 |
+
+Generated from [renewing_entry.json](model/results/renewing_entry.json). Contract volume is not accepted service. Window cash is not terminal value or ROI; operating companies retain their liabilities and separate funding.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 
