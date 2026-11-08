@@ -3642,12 +3642,16 @@
       "status": "qualitative_decision_screen_not_economic_ranking",
       "selection": "Selected: service urgency and retained human work",
       "reason": "Contrasting clinical transport studies expose deadline eligibility, handling, accompaniment and denominator conflicts.",
-      "strongest_counterargument": "An urgent fallback or inter-floor escort can preserve the paid shift despite quicker successful journeys.",
+      "strongest_counterargument": "An urgent fallback or inter-floor escort can preserve the paid shift despite quicker successful journeys. Maintenance-fee relief and installed-system support dependency also leave fallback and transition costs with unresolved bearers.",
       "evidence_refs": [
         "FSD-E001",
         "FSD-E002",
         "FSD-E003",
-        "FSD-E005"
+        "FSD-E005",
+        "FG-E024",
+        "FG-E025",
+        "FG-E026",
+        "FG-E027"
       ]
     },
     {
@@ -3687,7 +3691,7 @@
       "decision_id": "DE-PACK-HOSPITAL",
       "cell_id": "CELL-M10-hospital-logistics-US-2025",
       "title": "Hospital logistics: protect the complete delivery obligation",
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "status": "provisional_decision_pack_empirical_costs_and_integrated_replay_pending",
       "accepted_service": "One uniquely requested permitted item delivered to the designated recipient, with identity/condition and custody verified by its urgency-specific deadline; urgent and ineligible requests remain in the full service ledger.",
       "evidence_refs": [
@@ -3695,7 +3699,11 @@
         "FSD-E002",
         "FSD-E003",
         "FSD-E005",
-        "A-HOSPITAL-2026"
+        "A-HOSPITAL-2026",
+        "FG-E024",
+        "FG-E025",
+        "FG-E026",
+        "FG-E027"
       ],
       "alternatives": [
         {
@@ -3723,13 +3731,13 @@
           "qualification_limit": "Eligibility selection must not conceal deferred work or duplicate claimed time savings."
         }
       ],
-      "recommendation": "Prioritize a bounded nonurgent service qualification and a digital-human comparator. Wait on a labor-substitution or scale-entry thesis until total support and paid-commitment changes are established.",
+      "recommendation": "Prioritize bounded nonurgent qualification against a digital-human comparator, conditional on a current configured order, support access and funded fallback during repair or replacement. Wait on payroll substitution or scale entry until complete retained work and paid commitments are established.",
       "gates": {
-        "proceed": "Analytical proceed gate: complete request-level service, custody/deadline and support accounting; authorized site authority and a funded fallback are explicit. This research does not initiate a field trial.",
-        "wait": "Wait if accompaniment permanence, elevator access, urgency exclusions, acceptance or full support costs remain unknown.",
-        "reject": "Reject the specific business case if it misses required service or depends on eliminating a paid shift that must remain to cover urgent/excluded work."
+        "proceed": "Analytical gate: reconcile request-level acceptance, all retained work, current installed configuration, support/repair rights and a funded fallback that meets the same deadlines. This research does not initiate a trial.",
+        "wait": "Wait where installation, support continuity, maximum restoration time, actual fallback resources or configuration/license portability are unverified; catalog line items are not a site quote.",
+        "reject": "Reject a case that drops mandatory service, removes a still-required shift, treats maintenance-fee relief as delivered fallback or assumes costless replacement of a dependent installed system."
       },
-      "ranking_reversal": "Preference can move toward specialized automation when handling/escort and exception burden fall enough to remove an actual paid commitment or buy valuable capacity. It can move back to improved human service when digital batching or retained coverage absorbs the same benefit.",
+      "ranking_reversal": "Preference can move toward specialized automation when handling/escort and exception burden fall enough to remove an actual paid commitment or buy valuable capacity. It can move back to improved human service when digital batching or retained coverage absorbs the same benefit. Even attractive component prices can lose to retained human service when restoration gaps require a paid fallback or installed-system replacement creates a costly interruption.",
       "observation_contract": {
         "denominator": "All due service requests in the declared site/shift cohort, including ineligible, failed, deferred and human-fallback work.",
         "identity": "Unique request ID, configuration/software vintage, assigned actor and terminal accepted outcome; rework attempts never create another service.",
@@ -3774,7 +3782,7 @@
         }
       },
       "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
-      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit.",
+      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit. FG-AUDIT-02 adds a retrieved US schedule and a UK buyer award: installation and support are separate; remedy text is not a maximum repair SLA; closed-system maintenance can constrain replacement. No site price, achieved reliability or paid staffing effect is established.",
       "r_and_d_qualification_gate": {
         "role": "Cross-domain qualification context and proposed measurement only; not observed target-site performance.",
         "evidence_refs": [
@@ -3791,7 +3799,7 @@
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
       },
-      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms.",
+      "provider_contract_gate": "FG-AUDIT-02: resolve current model/revision, site bundle, integration, eligible maintenance, funded fallback, restoration commitment and replacement/license rights. Treat the US T-2.5 schedule and UK award as distinct source contexts, not target costs or a complete service contract.",
       "competitive_continuity_gate": {
         "analysis": "research/competitive_renewals.md",
         "artifact": "model/results/competitive_renewals.json",
@@ -3803,6 +3811,17 @@
         "artifact": "model/results/support_expansion.json",
         "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
         "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
+      },
+      "hospital_support_gate": {
+        "audit_id": "FG-AUDIT-02",
+        "evidence_refs": [
+          "FG-E024",
+          "FG-E025",
+          "FG-E026",
+          "FG-E027"
+        ],
+        "analysis": "research/hospital_support_contracts.md",
+        "role": "Primary procurement terms and attributed buyer constraint; no transferred performance or calibrated economics."
       }
     },
     {
@@ -3931,7 +3950,7 @@
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
       },
-      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms.",
+      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms. Hospital procurement supplies an additional question only: can the actual remedy and repair/exit rights preserve this service during failure? No T-2.5 price, NHS award amount or hospital term transfers to this pack.",
       "competitive_continuity_gate": {
         "analysis": "research/competitive_renewals.md",
         "artifact": "model/results/competitive_renewals.json",
@@ -4063,7 +4082,7 @@
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
       },
-      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms.",
+      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms. Hospital procurement supplies an additional question only: can the actual remedy and repair/exit rights preserve this service during failure? No T-2.5 price, NHS award amount or hospital term transfers to this pack.",
       "competitive_continuity_gate": {
         "analysis": "research/competitive_renewals.md",
         "artifact": "model/results/competitive_renewals.json",
@@ -4084,6 +4103,7 @@
     "selection_basis": "Hospital and utility required by objective; automotive chosen for bounded humanoid operating exposure and explicit generation/mixed-workflow contrast. No ROI ranking among the six cells is asserted.",
     "preservation": "Original cell records, labor totals, source rows and all scenario assumptions unchanged.",
     "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths.",
-    "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack."
+    "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack.",
+    "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics."
   }
 }

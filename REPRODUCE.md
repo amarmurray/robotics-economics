@@ -261,3 +261,10 @@ Customer adoption begins with seventeen synthetic recurring-service worlds. Edit
 ## Installed support and finite expansion
 
 Customer adoption begins with sixteen declared support/expansion policies and adverse worlds. Actual and announced eight-month support calendars, cash, fee timing, finite requests, manufacturing lead and reserve controls recompute through `/api/support-expansion`. Edits are pending until applied; failed and stale requests preserve the last valid export. Complete imported cases recompute all opening inputs and disable shortcut edits until a standard witness is selected. Run `python3 scripts/export_support_expansion.py --check`, or replay with `--case downloaded.json --output replay.json`. Files are bounded to 2 MB. [Methods](model/SUPPORT_EXPANSION.md) explain cohort-specific recurring costs, finite requests, failed manufacture, actual resources and the obligations excluded from the reserve. These are synthetic mechanisms, not measured support reliability or ROI.
+
+
+## Hospital support and replacement evidence, edition 0.26
+
+FG-AUDIT-02 extends the existing customer package. Customer adoption, Business models and Digital AI show source price lines with their actual currency/denominator, a separate UK award, four support/exit gates and seven explicit unknowns. The same evidence export and source drawers expose dates, locators and PDF fingerprint. No arithmetic combines these items; no new scenario is added.
+
+Run the existing evidence, reproduction and browser checks. Scenario controls must leave the source audit unchanged. Filters should scope the hospital evidence, and current order/revision ambiguity must remain visible. See [the analysis](research/hospital_support_contracts.md) and [sole-writer review](reviews/hospital_support_contracts_review.md).

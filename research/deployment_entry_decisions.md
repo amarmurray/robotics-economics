@@ -1,6 +1,6 @@
 # Deployment and entry decisions: service before scale
 
-Decision campaign, integrated checkpoint 0.25 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.26 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -30,6 +30,10 @@ A new adverse workforce account sharpens the qualification question. WSNA report
 The first comparator is a digitally improved human courier: common dispatch, route batching, congestion information and electronic receipt. Measure it on the same request population. A specialized wheeled carrier is the next alternative where elevators, load, custody and access are qualified. A mobile manipulator or humanoid earns inclusion only when its extra handling or access ability closes an important service gap. A mixed system can assign routine work to robots and urgent/excluded work to people, but the residual roster is still paid. No free digital or human fallback is assumed.
 
 **Provisional recommendation:** proceed with the analytical qualification of a bounded nonurgent workflow and its improved human comparator; wait on scale entry or payroll substitution. A deployment case passes its proceed gate only with complete request-level acceptance, all support work, authorized site/process control and funded fallback. This is a research recommendation, not initiation of a field trial. Reject a specific case that misses mandatory service or assumes removal of a shift that must remain for urgent work. A credible reversal toward automation requires either an actual avoidable paid commitment or independently valued additional service capacity after support. Digital-human improvement, unavoidable escort or low eligible demand can reverse it again.
+
+### Repair and replacement are part of the hospital service gate
+
+The [hospital contract audit](hospital_support_contracts.md) adds an explicit reason to withhold a deployment recommendation based on hardware price plus maintenance. A retrieved T-2.5 schedule separates site work and recurring support, while its attached remedy does not promise a maximum restoration time or a funded substitute. A UK hospital award attributes maintenance dependence to its installed closed system. Neither source measures a US hospital outcome. Proceed now requires a current configured order and repair/exit rights **plus a funded fallback capable of the same accepted service**. Reject fee relief as a substitute for delivered medication, and reject an entry case that assumes cheap or immediate replacement without evidence. The comparative staffing studies and their conflicts remain unchanged.
 
 ## Utility inspection — separate information from the residual visit
 

@@ -76,3 +76,7 @@ Seventeen [renewal worlds](research/competitive_renewals.md) advance bounded DE-
 ## Installed support and finite expansion checkpoint, edition 0.25
 
 Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE-CF10. Fourteen named challenge families and 144 worlds now satisfy the bounded executable-counterfactual contract with fresh validation. Announced capacity, realized support, commissioning and each actor’s cash remain separate. Full optimized expansion, actual operating costs, rights and empirical decision acceptance remain open. This checkpoint does not stop the campaign or reset its original T0/deadline.
+
+## Hospital continuity evidence checkpoint, edition 0.26
+
+[The contract audit](research/hospital_support_contracts.md) makes support-access, funded-fallback and replacement gates concrete without adding synthetic variants. All fourteen challenge families / 144 worlds remain unchanged. The same in-progress campaign and original deadline continue; current target quotes, accepted service, full costs and rights remain open.

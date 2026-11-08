@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: installed support and finite expansion, edition 0.25
+## New decision campaign: hospital support and replacement evidence, edition 0.26
+
+Four primary records and one [hospital contract audit](research/hospital_support_contracts.md) strengthen current-order, installation, support-access, remedy/fallback and replacement gates. The recommendation is stricter without claiming a current site quote, observed downtime, supplier margin or full-service return. Catalog/attachment differences remain explicit; the UK buyer award supplies a bounded structural comparison. All broad empirical requirements stay partial or in progress; DE-08 retains its previously met bounded scope.
+
+Fresh validation passes **391 Python tests** in 211.347 seconds, **36 Node assertions**, twelve JavaScript syntax checks and all 37 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new audit is verified in three views, with four exact source drawers, seven separately scoped US price lines, one separate GBP award and seven explicit unknowns. Cell/search filtering, scenario independence, exact source export/fingerprint and scenario export/reload pass. All sixteen prior expansion and seventeen renewal worlds retain their exact browser hashes. The new panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged. Nineteen files are byte-identical; twelve change only source/evidence fingerprints. All model Python modules and numerical assumptions are byte-identical. Previous customer/market source claims, atlas cells, labor rows and accounting remain unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families / 144 worlds are unchanged. The accepted evidence registry now has 13 packages, 205 claims, 417 quantities and 117 explicit-null markers. **304 manifest hashes and 669 relative Markdown links** verify with no broken paths.
+
+The same active campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/hospital_support_contracts_review.md); this checkpoint does not stop or complete the objective.
+
+## Previous decision checkpoint: installed support and finite expansion, edition 0.25
 
 Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE-CF10 through actual resources, announced capacity, known cohorts, finite requests and the payer’s cash. Current-capacity caution can delay useful service; failed announcements can strand a funded robot. A recurring-support reserve can preserve installed units while still failing to fund commissioning. Fourteen families / 144 worlds now satisfy **DE-08 within its bounded executable-counterfactual scope**. All other decision requirements remain partial or in progress; optimized fleet strategy, actual rights, asset recovery and empirical full-service economics remain incomplete.
 

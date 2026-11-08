@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.25.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.26.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: installed support and expansion commitments, edition 0.25
+## Current checkpoint: hospital support, repair and replacement evidence, edition 0.26
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The environment-disconnected diagnostic was resolved by observed connected/running status and a successful shell/repository check in the same workspace/configuration; working changes were preserved. No replacement task, writer, schedule or clock was created. Native goal/quota controls remain unexposed; no uninterrupted-execution claim is made.
+
+From clean remote-verified input `adb45e480c74bc3c2cc8ea1a10f1edff8ba41328`, [the hospital support audit](research/hospital_support_contracts.md) adds FG-E024–027 and FG-AUDIT-02 to the existing customer package. A seven-page GSA-hosted T-2.5 attachment separates hardware/site work, eligible maintenance and conditional warranty remedies; VA catalog shorthand does not reconcile all terms. A UK hospital award records the buyer’s stated closed-system maintenance dependence. Source revision, executed target order, complete accepted service and all-actor operating costs remain unknown.
+
+The hospital proceed gate now requires repair/exit rights and funded fallback capable of the same deadline/custody obligation. A correction-period lower bound is not a maximum repair time; fee relief is not delivered service. Utility/automotive inherit questions only. No T-2.5 prices, NHS award amount, foreign performance or legal conclusion calibrates a model. USD catalog lines and the GBP whole-contract award remain separate. Underlying signed orders and paid methods were not retrieved; no purchase or outreach occurred.
+
+Fresh validation passes **391 Python tests** in 211.347 seconds, **36 Node assertions**, twelve JavaScript syntax checks and all 37 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new audit is verified in three views, with four exact source drawers, seven separately scoped US price lines, one separate GBP award and seven explicit unknowns. Cell/search filtering, scenario independence, exact source export/fingerprint and scenario export/reload pass. All sixteen prior expansion and seventeen renewal worlds retain their exact browser hashes. The new panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged. Nineteen files are byte-identical; twelve change only source/evidence fingerprints. All model Python modules and numerical assumptions are byte-identical. Previous customer/market source claims, atlas cells, labor rows and accounting remain unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families / 144 worlds are unchanged. The accepted evidence registry now has 13 packages, 205 claims, 417 quantities and 117 explicit-null markers. **304 manifest hashes and 669 relative Markdown links** verify with no broken paths.
+
+**Next execution:** challenge a remaining integrated decision requirement or seek target evidence that can change a recommendation. The highest empirical gate is a current executed order plus incorporated restoration/fallback, repair/exit and license/data terms joined to accepted service, retained work and actual cash. Stop source expansion if it supplies only more announcements or totals. Existing full-cost, asset recovery, broader annual/fleet integration and qualified-transfer gaps remain open. Keep substantial H and the full A–K scope.
+
+**Next question:** can the best feasible human/specialist alternative satisfy the same service during robot repair and transition, and what actual paid obligation or right would make its ranking reverse?
+
+## Previous checkpoint: installed support and expansion commitments, edition 0.25
 
 The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This continuation uses the same executable cloud workspace and published configuration from clean, remote-verified input `01e1ceab09ef5b083a94e1ab618a6b013dba371b`. No task, goal, writer, schedule or campaign clock was replaced. Native goal/quota controls remain unexposed; no reset or uninterrupted execution is claimed.
 

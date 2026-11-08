@@ -38,7 +38,8 @@ class SourceArithmetic(unittest.TestCase):
             metric['value']=value
             with self.assertRaises(ValueError):commercial_disclosure_summary(packet)
         packet=copy.deepcopy(original)
-        packet['evidence'].append(copy.deepcopy(packet['evidence'][-2]))
+        funding_source=next(e for e in packet['evidence'] if e['evidence_id']=='FG-E022')
+        packet['evidence'].append(copy.deepcopy(funding_source))
         with self.assertRaises(ValueError):commercial_disclosure_summary(packet)
 
     def test_onboard_summary_preserves_qualification_missingness(self):

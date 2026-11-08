@@ -1,7 +1,7 @@
 {
   "schema_version": "robotics-economics-evidence/0.1",
   "module": "F/G customer organization and robotics value capture",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
   "evidence_as_of": "2026-11-08",
   "runtime_verification": {
@@ -11,7 +11,7 @@
     "actual_reasoning": null,
     "missingness_reason": "Delegated runtime does not expose a verifiable active model/reasoning identifier; do not claim requested configuration was achieved."
   },
-  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics. The 2026-11-08 continuation audits commercial disclosures, generation boundaries and provider financing without calibrating scenarios.",
+  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics. The 2026-11-08 continuation audits commercial disclosures, generation boundaries and provider financing without calibrating scenarios. The 0.26 hospital continuation separates schedule line items, attached remedy terms, catalog metadata and a UK maintenance award.",
   "evidence": [
     {
       "evidence_id": "FG-E001",
@@ -711,6 +711,195 @@
       ],
       "limitations": "Does not specify measured field power, memory demand, latency, qualified service or completed certification. Do not apply the planned configuration to operating Digit 4 or infer open weights, transferable licenses or cloud independence.",
       "quantities": []
+    },
+    {
+      "publisher": "ST Engineering Aethon; authorized schedule hosted by GSA",
+      "publication_date": null,
+      "publication_date_missing_reason": "The retrieved PDF names the 2024–2029 contract period but supplies no reliable document revision date. Its cover footer says Revised September 2012; that is not assigned as the effective price date.",
+      "observation_period": "Schedule artifact for contract 36F79724D0104, stated period 2024-05-01 to 2029-04-30; actual ordering revision and site applicability unverified",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_supplier_schedule_attachment_on_federal_platform",
+      "epistemic_status": "retrieved_schedule_terms_not_executed_site_order",
+      "url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/10NXLX.3WEAGL_36F79724D0104_GSATEXTFILESTENGINEERINGAETHONINC.PDF",
+      "additional_primary_url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/36F79724D0104_online.htm",
+      "geography": "US federal ordering context; no target-site order identified",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "source_artifact_sha256": "0e8a909dc1f757cc4ad850bee770b3de12836e80afddd071de80de20d644fc97",
+      "verification": "The public landing page redirects by HTML meta-refresh to a seven-page image-only PDF. Direct download returned HTTP 200, 156966 bytes. OCR used for navigation; all seven pages visually inspected, including price columns and warranty/return attachments.",
+      "evidence_id": "FG-E024",
+      "title": "TUG T-2.5 schedule separates hardware, site work and recurring support",
+      "locator": "PDF pp.1–5: contract identity, customer information, delivery clause 11a, price rows T2.5, 071HWSWM, 071HWSWMM, INST1-4, INST5, 071FACMAPP and 071ELEINPP",
+      "claim": "The retrieved schedule lists a T-2.5 bundle with site-address software/controller/base-station items, separately priced installation and interfaces, and per-TUG hardware/software maintenance with a continuous-support eligibility condition. Its delivery wording starts installation; it does not promise accepted operation by that day.",
+      "limitations": "Undated revision, older specified model and no executed order. Listed lines are not a complete site configuration or current quote. Monthly and annual maintenance are alternative periods, not additive charges. Site licenses do not establish transfer, modification, model/data or third-party maintenance rights. No service exposure, payroll, provider cost or ROI is supplied.",
+      "quantities": [
+        {
+          "metric_id": "FG-Q-TUG-T25",
+          "label": "T-2.5 listed bundle",
+          "value": 51300,
+          "unit": "USD per T-2.5 listed bundle",
+          "denominator": "One T-2.5; software, controller and monitor/base-station inclusions are stated per site physical address",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.4, T2.5"
+        },
+        {
+          "metric_id": "FG-Q-TUG-MAINT-YEAR",
+          "label": "Eligible annual hardware/software maintenance",
+          "value": 3600,
+          "unit": "USD per TUG per year",
+          "denominator": "One newly installed TUG or existing TUG with continuous hardware/software support",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.4, 071HWSWM"
+        },
+        {
+          "metric_id": "FG-Q-TUG-MAINT-MONTH",
+          "label": "Eligible monthly hardware/software maintenance",
+          "value": 300,
+          "unit": "USD per TUG per month",
+          "denominator": "Same maintenance eligibility; alternative monthly period, not an extra annual fee",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.5, 071HWSWMM"
+        },
+        {
+          "metric_id": "FG-Q-TUG-INSTALL-4",
+          "label": "Existing-hospital installation for up to four",
+          "value": 22500,
+          "unit": "USD per installation group",
+          "denominator": "Up to four TUG T-2.5 at an existing hospital; not per robot",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.5, INST1-4"
+        },
+        {
+          "metric_id": "FG-Q-TUG-INSTALL-ADD",
+          "label": "Additional existing-hospital installation",
+          "value": 4450,
+          "unit": "USD per additional TUG installation",
+          "denominator": "Each additional TUG T-2.5 under this installation line",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.5, INST5"
+        },
+        {
+          "metric_id": "FG-Q-TUG-MAPPING",
+          "label": "Facility mapping",
+          "value": 8500,
+          "unit": "USD per listed mapping item",
+          "denominator": "One catalog mapping item; target scope and applicability not established",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.5, 071FACMAPP"
+        },
+        {
+          "metric_id": "FG-Q-TUG-ELEVATOR",
+          "label": "Additional elevator-manufacturer interface",
+          "value": 6850,
+          "unit": "USD per listed interface item",
+          "denominator": "One additional elevator-manufacturer interface item; distinct from an elevator controller",
+          "population": "TUG T-2.5 schedule artifact, contract 36F79724D0104; not a target-site quote",
+          "period": "Undated schedule revision retrieved 2026-11-08",
+          "measurement_status": "listed_FSS_price_with_IFF_not_verified_current_transaction",
+          "locator": "p.5, 071ELEINPP"
+        }
+      ]
+    },
+    {
+      "publisher": "ST Engineering Aethon; authorized schedule hosted by GSA",
+      "publication_date": null,
+      "publication_date_missing_reason": "The retrieved PDF names the 2024–2029 contract period but supplies no reliable document revision date. Its cover footer says Revised September 2012; that is not assigned as the effective price date.",
+      "observation_period": "Schedule artifact for contract 36F79724D0104, stated period 2024-05-01 to 2029-04-30; actual ordering revision and site applicability unverified",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_supplier_schedule_attachment_on_federal_platform",
+      "epistemic_status": "retrieved_schedule_terms_not_executed_site_order",
+      "url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/10NXLX.3WEAGL_36F79724D0104_GSATEXTFILESTENGINEERINGAETHONINC.PDF",
+      "additional_primary_url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/36F79724D0104_online.htm",
+      "geography": "US federal ordering context; no target-site order identified",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "source_artifact_sha256": "0e8a909dc1f757cc4ad850bee770b3de12836e80afddd071de80de20d644fc97",
+      "verification": "The public landing page redirects by HTML meta-refresh to a seven-page image-only PDF. Direct download returned HTTP 200, 156966 bytes. OCR used for navigation; all seven pages visually inspected, including price columns and warranty/return attachments.",
+      "evidence_id": "FG-E025",
+      "title": "The attached warranty remedy is not immediate service restoration",
+      "locator": "PDF p.6, Attachment 1, sections 1.1 and 2.1–2.4; p.7, Attachment 2",
+      "claim": "The attached warranty conditions include consent for modifications, following operating/maintenance instructions and supplier access. After written notice, the remedy allows a reasonable correction period of at least 60 days and conditional exemption from affected monthly maintenance fees. The return policy concerns misordered accessories/parts, not a general robot buyback.",
+      "limitations": "These are attached terms, not a verified executed hospital contract or an interpretation of legal enforceability. Fee relief does not establish a staffed fallback, replacement-unit promise, maximum repair time or compensation for all service losses. Supplier-negligence indemnity also appears; do not characterize every liability as waived.",
+      "quantities": [
+        {
+          "metric_id": "FG-Q-TUG-REMEDY-MIN",
+          "label": "Lower bound of stated reasonable correction period",
+          "value": 60,
+          "unit": "days",
+          "denominator": "A notified nonconformance under Attachment 1 section 2.1",
+          "population": "Attached warranty text; exact site contract unknown",
+          "period": "Undated attachment retrieved 2026-11-08",
+          "measurement_status": "contract_text_lower_bound_not_observed_downtime_or_SLA",
+          "relation": "at_least"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E026",
+      "title": "VA catalog metadata does not establish complete installed service",
+      "publisher": "US Department of Veterans Affairs, National Acquisition Center",
+      "url": "https://www.vendorportal.ecms.va.gov/NAC/Search/Details/36F79724D0104",
+      "publication_date": null,
+      "publication_date_missing_reason": "No record-specific publication/revision date; page footer version date is not assumed to date these contract terms.",
+      "observation_period": "Contract awarded 2024-04-30, effective 2024-05-01, expiration 2029-04-30 as displayed on retrieval",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_government_contract_catalog",
+      "epistemic_status": "displayed_metadata_with_unreconciled_detail",
+      "geography": "US federal contract catalog",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "locator": "Contract Dates; Payment/Delivery Information; Warranty Information",
+      "claim": "VA displays the same contract identity and installation-start delivery wording. Its warranty field says 60 Days and its minimum order is one unit; the PDF describes maintenance-term warranty/remedy conditions and a $100 minimum. These compact fields are not reconciled into one site contract.",
+      "verification": "Direct primary HTML read; matched contract identifier to the GSA-hosted attachment.",
+      "limitations": "No purchase order, accepted-service commitment, current item availability or all-actor cost ledger. The 60 Days field alone cannot establish a repair deadline or supersede the attached terms."
+    },
+    {
+      "evidence_id": "FG-E027",
+      "title": "NHS hospital AGV maintenance award records a constrained support route",
+      "publisher": "NHS Greater Glasgow and Clyde via Sell2Wales government notice platform",
+      "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN521106&catID=",
+      "additional_primary_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUN532735",
+      "publication_date": "2025-06-23",
+      "publication_date_basis": "Sell2Wales mirror publication; source notice dispatch and PCS listing 2025-06-17; recorded contract conclusion 2025-03-13.",
+      "observation_period": "Award notice GGC0952; conclusion recorded 2025-03-13; not an operating observation window",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_buyer_contract_award_notice",
+      "epistemic_status": "reported_award_and_buyer_justification_not_spend_or_performance_audit",
+      "geography": "Queen Elizabeth University Hospital, Glasgow, UK; bounded structural comparator for the US hospital cell",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "locator": "Sections II.1.7, II.2.4, IV.1.1, V.2.1–V.2.4 and VI.5",
+      "claim": "The completed notice names Aerocom (UK) Limited, one tender and an £800,000 ex-VAT AGV maintenance award. The buyer attributes sole maintainability to its installed closed-loop Otsaw Swisslog system. This establishes a disclosed procurement constraint, not measured monopoly rents or delivered reliability.",
+      "verification": "Full government-hosted award text retrieved. PCS indexed award and earlier notice family identify the successful record separately from cancelled March notices; no cancelled record is counted as an additional award. No underlying signed agreement retrieved.",
+      "limitations": "No robot count, per-robot cost, complete scope/payment schedule, measured service or verified terminal contract term in the retrieved award. Do not annualize the aggregate, convert it to a US price, infer actual disbursement or generalize sole maintainability to other systems.",
+      "quantities": [
+        {
+          "metric_id": "FG-Q-NHS-AGV-AWARD",
+          "label": "Reported whole AGV-maintenance award",
+          "value": 800000,
+          "unit": "GBP excluding VAT per disclosed contract",
+          "denominator": "One GGC0952 AGV-maintenance award, not one robot or year",
+          "population": "Queen Elizabeth University Hospital installed system",
+          "period": "Award conclusion reported 2025-03-13; notice dispatched 2025-06-17",
+          "measurement_status": "reported_award_value_not_actual_cash_spend"
+        }
+      ]
     }
   ],
   "actors": [
@@ -867,6 +1056,43 @@
         "FG-E018"
       ],
       "status": "advertised_product_and_support_roles_not_matched_site_contract"
+    },
+    {
+      "actor_id": "FG-A-AETHON",
+      "name": "ST Engineering Aethon",
+      "roles": [
+        "equipment_supplier",
+        "software_and_support_counterparty"
+      ],
+      "evidence_ids": [
+        "FG-E024",
+        "FG-E025",
+        "FG-E026"
+      ],
+      "status": "retrieved_schedule_roles_not_target_order"
+    },
+    {
+      "actor_id": "FG-A-AEROCOM",
+      "name": "Aerocom (UK) Limited",
+      "roles": [
+        "disclosed_AGV_maintenance_awardee"
+      ],
+      "evidence_ids": [
+        "FG-E027"
+      ],
+      "status": "reported_buyer_award_not_audited_delivery"
+    },
+    {
+      "actor_id": "FG-A-NHSGGC",
+      "name": "NHS Greater Glasgow and Clyde",
+      "roles": [
+        "hospital_operator",
+        "maintenance_buyer"
+      ],
+      "evidence_ids": [
+        "FG-E027"
+      ],
+      "status": "primary_buyer_notice"
     }
   ],
   "adopter_profiles": [
@@ -1677,12 +1903,13 @@
       "priority": "highest",
       "decision_consequence": "Whether newco survives and whether service contracts can fund deployment",
       "evidence_target": "Matched customer contract cancellation/renewal, pricing, payment lag, rollout outlays, supplier RaaS fee and termination terms",
-      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
+      "next_action": "Seek a current executed site order, support/restoration and exit terms, with all retained work and actual collections; preserve model/data and transfer-rights unknowns.",
       "stopping_condition": "One coherent contract/cash boundary with adverse termination and equal-technology response; leave unavailable parameters explicit.",
       "status": "ACTIVE",
       "findings": [
         "FG-CMP-03 identifies accepted service, retained labor and three distinct accounting boundaries, but quoted terms and actual schedule changes remain unavailable.",
-        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open.",
+        "FG-AUDIT-02 makes installed-service, support eligibility, remedy/fallback and replacement dependence concrete. Listed component prices and a maintenance award remain separate from current site cash and accepted service."
       ]
     },
     {
@@ -1708,11 +1935,12 @@
       "priority": "high",
       "decision_consequence": "Feasible learning network and provider/customer lock-in",
       "evidence_target": "Executed humanoid contract or authoritative model/data terms, plus actual export and reuse rights",
-      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
+      "next_action": "Seek a current executed site order, support/restoration and exit terms, with all retained work and actual collections; preserve model/data and transfer-rights unknowns.",
       "stopping_condition": "Collect/store/access/export/train/redistribute/commercialize rights assigned separately to named actors.",
       "status": "OPEN",
       "findings": [
-        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open.",
+        "FG-AUDIT-02 makes installed-service, support eligibility, remedy/fallback and replacement dependence concrete. Listed component prices and a maintenance award remain separate from current site cash and accepted service."
       ]
     },
     {
@@ -1724,9 +1952,12 @@
       "priority": "high",
       "decision_consequence": "Build, acquire, platform or hybrid choice",
       "evidence_target": "Acquisition price and transformation capex; customer retention and cash generation; standalone greenfield comparator",
-      "next_action": "Trace one operator acquisition and one pure operating-newco ramp, separating announced from productive capacity.",
+      "next_action": "Seek a current executed site order, support/restoration and exit terms, with all retained work and actual collections; preserve model/data and transfer-rights unknowns.",
       "stopping_condition": "Scenario threshold at which purchased customer access/engineering saves more than premium, legacy transition and overhead.",
-      "status": "OPEN"
+      "status": "OPEN",
+      "findings": [
+        "FG-AUDIT-02 makes installed-service, support eligibility, remedy/fallback and replacement dependence concrete. Listed component prices and a maintenance award remain separate from current site cash and accepted service."
+      ]
     },
     {
       "question_id": "FG-Q-05",
@@ -1737,11 +1968,12 @@
       "priority": "medium",
       "decision_consequence": "Durability of entry advantage and value capture after convergence",
       "evidence_target": "Renewal prices, multi-vendor switching, same-robot incumbent adoption and support-density economics",
-      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
+      "next_action": "Seek a current executed site order, support/restoration and exit terms, with all retained work and actual collections; preserve model/data and transfer-rights unknowns.",
       "stopping_condition": "Evidence distinguishing persistent operating advantage from transient timing and selected pilot success.",
       "status": "OPEN",
       "findings": [
-        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open.",
+        "FG-AUDIT-02 makes installed-service, support eligibility, remedy/fallback and replacement dependence concrete. Listed component prices and a maintenance award remain separate from current site cash and accepted service."
       ]
     }
   ],
@@ -2034,6 +2266,91 @@
         }
       },
       "model_use": "Source arithmetic only; no synthetic parameter update."
+    },
+    {
+      "audit_id": "FG-AUDIT-02",
+      "title": "Hospital support, fallback and exit obligations",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "status": "primary_contract_boundary_audit_not_site_economics",
+      "evidence_ids": [
+        "FG-E024",
+        "FG-E025",
+        "FG-E026",
+        "FG-E027"
+      ],
+      "summary": "A hardware purchase plus maintenance does not establish a complete delivery service. Procurement evidence strengthens support-access, funded-fallback and replacement gates; current matched site economics remain unknown.",
+      "catalog_evidence_id": "FG-E024",
+      "award_evidence_id": "FG-E027",
+      "catalog_boundary": "Retrieved T-2.5 schedule lines, FSS prices with IFF. Revision/current applicability unverified; amounts are not a configured quote. Annual and monthly maintenance are alternative periods. USD site items and the separate GBP award are never added.",
+      "gates": [
+        {
+          "gate": "Installed service",
+          "finding": "Installation starts are distinct from commissioned, accepted operation. Budget site mapping, interfaces, carts, qualification and retained handling separately as applicable.",
+          "evidence_ids": [
+            "FG-E024",
+            "FG-E026"
+          ]
+        },
+        {
+          "gate": "Continuity and fallback",
+          "finding": "The attached correction period is at least 60 days, not a repair deadline or observed downtime. Conditional fee relief does not itself deliver a missed medication or fund fallback.",
+          "evidence_ids": [
+            "FG-E025",
+            "FG-E026"
+          ]
+        },
+        {
+          "gate": "Software, repair and exit",
+          "finding": "Site-address software and consent-based modification conditions require specific rights verification. A reported single maintenance route is evidence of a constraint, not proof of high margin or a reusable model/data grant.",
+          "evidence_ids": [
+            "FG-E024",
+            "FG-E025",
+            "FG-E027"
+          ]
+        },
+        {
+          "gate": "Entry and acquisition",
+          "finding": "Compare the transition against continued operation of the installed system. Acquiring the operator or access to similar robots does not establish portable site licenses, alternative support or a costless replacement.",
+          "evidence_ids": [
+            "FG-E024",
+            "FG-E027"
+          ]
+        }
+      ],
+      "unknowns": {
+        "current_site_price": {
+          "value": null,
+          "reason": "No current effective item revision, configured bill of materials or executed target order."
+        },
+        "cost_per_accepted_delivery": {
+          "value": null,
+          "reason": "No complete retained-work/resource ledger and matched accepted-delivery denominator."
+        },
+        "paid_labor_removed": {
+          "value": null,
+          "reason": "No matched roster, paid hours, overtime or vacancy change."
+        },
+        "restoration_deadline": {
+          "value": null,
+          "reason": "The attached correction-period lower bound is not a maximum service-restoration commitment."
+        },
+        "fallback_cost": {
+          "value": null,
+          "reason": "No funded replacement unit, staff coverage or exception-service plan identified."
+        },
+        "data_and_transfer_rights": {
+          "value": null,
+          "reason": "Site software and maintenance language do not disclose export, model reuse, third-party repair or acquisition transfer rights."
+        },
+        "provider_margin": {
+          "value": null,
+          "reason": "Customer prices and an award total do not identify the supplier’s underlying resource costs."
+        }
+      },
+      "model_use": "Qualitative decision gates only. No synthetic coefficients, new scenario worlds or empirical ROI.",
+      "analysis": "research/hospital_support_contracts.md"
     }
   ],
   "continuation_2026_11_08": {
@@ -2041,5 +2358,13 @@
     "source_count": 5,
     "audit_id": "FG-AUDIT-01",
     "scope": "Operating, commercial, digital and financing source boundaries; no empirical ROI or model calibration."
+  },
+  "continuation_hospital_support_2026_11_08": {
+    "input_commit": "adb45e480c74bc3c2cc8ea1a10f1edff8ba41328",
+    "audit_id": "FG-AUDIT-02",
+    "source_pdf_sha256": "0e8a909dc1f757cc4ad850bee770b3de12836e80afddd071de80de20d644fc97",
+    "source_additions": 4,
+    "scenario_changes": "none",
+    "research_gate": "Match supported service and remedy/fallback obligations before valuing labor substitution or entrant replacement."
   }
 }

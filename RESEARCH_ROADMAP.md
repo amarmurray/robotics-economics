@@ -261,3 +261,7 @@ The [renewal challenge](research/competitive_renewals.md) advances bounded DE-CF
 ## Supported expansion checkpoint, edition 0.25
 
 The [support/expansion analysis](research/support_expansion.md) advances bounded DE-CF10 through sixteen exact worlds. Fourteen named families now have executable bounded coverage. Stop adding mechanism variants merely to increase the count. Next challenge the three recommendations with matched complete service, retained work and all-actor operating evidence, preserving substantial H and I/J/K qualification/support rights. A new source must change a gate; otherwise retain the explicit unknown. Optimization, asset recovery and real full-cost calibration remain incomplete. The same active clock continues.
+
+## Hospital support and replacement checkpoint, edition 0.26
+
+[The procurement audit](research/hospital_support_contracts.md) adds a US schedule, attached remedy conditions and a UK buyer award. Next seek a current executed site order with acceptance, restoration/fallback, repair/exit and license/data terms, matched to retained work. Do not convert component prices or award values into service economics. Existing counts, worlds and model assumptions remain unchanged.

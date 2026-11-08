@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.25, installed-support and finite-expansion checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Sixteen complete worlds connect actual resources, announced capacity, known cohorts, finite growth requests, qualified components and payer cash. A recurring-support reserve can protect installed units without funding commissioning; excessive caution can delay useful service. Fourteen challenge families now have bounded executable coverage across 144 worlds. Empirical full-service economics and broad optimized investment remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.26, hospital support and replacement evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. A retrieved US schedule and UK buyer award make installation, eligible maintenance, remedy/fallback and replacement dependence concrete. Current site quotes, complete operating costs and target rights remain unknown. The existing sixteen expansion worlds connect actual resources, announced capacity, known cohorts, finite growth requests, qualified components and payer cash. A recurring-support reserve can protect installed units without funding commissioning; excessive caution can delay useful service. Fourteen challenge families now have bounded executable coverage across 144 worlds. Empirical full-service economics and broad optimized investment remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -133,7 +133,7 @@ The [executable learning follow-up](research/learning_execution.md) adds unique 
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
 
-Decision campaign, integrated checkpoint 0.25 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.26 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -163,6 +163,10 @@ A new adverse workforce account sharpens the qualification question. WSNA report
 The first comparator is a digitally improved human courier: common dispatch, route batching, congestion information and electronic receipt. Measure it on the same request population. A specialized wheeled carrier is the next alternative where elevators, load, custody and access are qualified. A mobile manipulator or humanoid earns inclusion only when its extra handling or access ability closes an important service gap. A mixed system can assign routine work to robots and urgent/excluded work to people, but the residual roster is still paid. No free digital or human fallback is assumed.
 
 **Provisional recommendation:** proceed with the analytical qualification of a bounded nonurgent workflow and its improved human comparator; wait on scale entry or payroll substitution. A deployment case passes its proceed gate only with complete request-level acceptance, all support work, authorized site/process control and funded fallback. This is a research recommendation, not initiation of a field trial. Reject a specific case that misses mandatory service or assumes removal of a shift that must remain for urgent work. A credible reversal toward automation requires either an actual avoidable paid commitment or independently valued additional service capacity after support. Digital-human improvement, unavoidable escort or low eligible demand can reverse it again.
+
+##### Repair and replacement are part of the hospital service gate
+
+The [hospital contract audit](research/hospital_support_contracts.md) adds an explicit reason to withhold a deployment recommendation based on hardware price plus maintenance. A retrieved T-2.5 schedule separates site work and recurring support, while its attached remedy does not promise a maximum restoration time or a funded substitute. A UK hospital award attributes maintenance dependence to its installed closed system. Neither source measures a US hospital outcome. Proceed now requires a current configured order and repair/exit rights **plus a funded fallback capable of the same accepted service**. Reject fee relief as a substitute for delivered medication, and reject an entry case that assumes cheap or immediate replacement without evidence. The comparative staffing studies and their conflicts remain unchanged.
 
 #### Utility inspection — separate information from the residual visit
 
@@ -1033,6 +1037,8 @@ Authoritative analysis: [research/field_support_denominators.md](research/field_
 
 **7 November continuation:** FSD-E005 adds a bounded WSNA worker-experience account to the [hospital decision pack](research/deployment_entry_decisions.md#hospital-logistics--qualify-the-entire-obligation). Its reported escort burden is qualitative testimony; its reported MultiCare exit is not independently operator-verified here. The original studies, arithmetic and conflicts below are unchanged.
 
+**8 November continuation:** [The hospital support audit](research/hospital_support_contracts.md) adds procurement and repair/exit boundaries to the decision pack. It leaves the studies, numerical findings and unresolved conflicts below unchanged.
+
 Bounded second-wave findings · 25 October 2026 · Version 0.1.1
 Evidence and reproducible arithmetic: [field_support_denominators.json](data/field_support_denominators.json). The existing [capability dossier](research/capability_learning.md) and its evidence package remain frozen. Requested Astra Ultra settings cannot be independently verified from this delegated runtime.
 
@@ -1647,6 +1653,59 @@ The bounded counterfactual catalog now spans fourteen named challenge families a
 | support allocation shrinks | 5,635.90 | 1 | 1 | 12 | 167,421.94 |
 
 Generated from [support_expansion.json](model/results/support_expansion.json). Eight explicit months require 8,000 cleaning zones. Opening robots predate the cash window. Provider fees transfer within the operating boundary; loans, outstanding claims and terminal assets remain separate. Passing the recurring-support reserve does not fund every commissioning or future obligation.
+
+### Focused follow-up: Hospital support, repair and replacement obligations
+
+Authoritative analysis: [research/hospital_support_contracts.md](research/hospital_support_contracts.md).
+
+Edition 0.26 · 8 November 2026 · continuation from accepted `adb45e480c74bc3c2cc8ea1a10f1edff8ba41328`. Primary records and explicit unknowns extend the existing [customer package](data/customer_evidence.json), audit **FG-AUDIT-02**. The [hospital recommendation](research/deployment_entry_decisions.md#hospital-logistics--qualify-the-entire-obligation) now requires a current configured order, repair/exit rights and funded fallback capable of the same accepted service. This is a research gate, not an initiated purchase or field trial.
+
+Earlier hospital studies identify handling, urgency selection, accompaniment and unresolved staffing denominators. Procurement evidence adds a distinct constraint: installation, software access, support eligibility and repair remedies may leave essential delivery work with the operator. Neither evidence class replaces the other. A component price cannot answer whether a due medication reaches its recipient during repair.
+
+#### The retrieved US schedule and its limits
+
+The [GSA-hosted attachment](https://www.gsaadvantage.gov/ref_text/36F79724D0104/36F79724D0104_online.htm) names contract 36F79724D0104 and TUG T-2.5. Its contract period is May 2024–April 2029, but the price revision is undetermined; the September 2012 cover footer is not selected as an effective date. The seven-page PDF was downloaded, fingerprinted and visually inspected. It is a schedule artifact, not an executed target-site order. [FG-E024–025]
+
+Listed prices include $51,300 for the T-2.5 bundle; $3,600 annual or $300 monthly eligible maintenance; $22,500 existing-hospital installation for up to four units; $4,450 each additional installation; $8,500 mapping; and $6,850 an additional elevator-manufacturer interface. Software/controller/base-station inclusions have site-address boundaries. Maintenance eligibility requires new installation or continuous support. Delivery wording begins installation rather than guaranteeing commissioned service. [FG-E024]
+
+The warranty attachment allows a reasonable correction period of at least 60 days after notice, with conditional relief from affected maintenance fees. It also contains modification, access and operating conditions, exclusions and supplier-negligence indemnity. A separate return policy concerns misordered accessories/parts. [FG-E025]
+
+These observations change how a proposal should be evaluated:
+
+- **Price the actual configuration.** Do not charge a group installation line once per robot or turn a site inclusion into an unlimited portfolio license. An additional interface is distinct from a controller. The record does not establish which optional items a hospital needs or whether quoted services overlap. The dashboard shows separate lines and units without inventing an installed subtotal.
+- **Preserve support eligibility.** Annual and monthly maintenance are alternative periods. Their coexistence does not establish identical payment dates, reinstatement rights after a lapse, or applicability to another generation. A bought asset, supported asset and qualified operating configuration remain separate states.
+- **Fund the service through repair.** A correction-period lower bound is neither observed downtime nor a maximum restoration deadline. Maintenance-fee relief does not deliver a request. Fallback needs funded staff, access, capacity and urgency coverage; provider maintenance does not itself supply them.
+- **Verify modification and exit rights.** A software inclusion does not establish third-party repair, model access, data export, retraining, site migration or transfer on acquisition. These are questions for the actual order; legal enforceability is not adjudicated here.
+
+#### Compact catalog metadata is incomplete
+
+The [VA catalog](https://www.vendorportal.ecms.va.gov/NAC/Search/Details/36F79724D0104) displays the same contract and installation-start wording. Its warranty field says “60 Days” and its minimum order is one unit. The attachment instead describes maintenance-term warranty/remedy conditions and a $100 minimum. These representations remain unreconciled; the website-version footer is not a record-specific revision date. [FG-E026]
+
+The compact warranty field cannot establish a maximum repair commitment. Nor can the researcher select a favorable order-minimum interpretation or assert current availability on all displayed terms. A current configured order and its incorporated terms are the next evidence requirement. The catalog identifies economically important ambiguities without resolving them.
+
+#### A buyer award makes support dependence concrete
+
+The [NHS Greater Glasgow and Clyde notice](https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN521106&catID=) records an £800,000 ex-VAT AGV maintenance award to Aerocom (UK) Limited, with one tender. The buyer attributes the available maintenance route to its installed closed-loop Otsaw Swisslog system. The recorded conclusion is 13 March 2025, dispatch 17 June, and mirror publication 23 June. Cancelled March notices are not additional awards. [FG-E027]
+
+This is a disclosed buyer constraint, not demonstrated excessive pricing, supplier margin, actual disbursement or achieved reliability. Robot count, full scope, payment timing and operating exposure are absent. The award is not annualized, divided per robot or converted into a US price. The retrieved award does not establish a terminal period; earlier prospective wording is not silently used to fill it.
+
+The inference for entry is narrow: access to similar robot technology does not establish access to an installed hospital's interfaces or maintenance route. Replacement needs qualification, transition, parallel service and process authority. An installed system can constrain switching without being the best future design. A portable, independently supportable alternative with a credible transition could weaken that constraint. The award quantifies neither direction.
+
+#### How this changes the decision
+
+For hospital logistics, **proceed with analytical qualification only when repair and exit terms join funded service continuity**. Wait where configuration, support access, restoration commitments or retained labor remain unknown. Reject a specific case that substitutes fee relief for accepted delivery, removes still-required urgent coverage, or assumes costless replacement. The feasible human/digital courier stays in the comparison through failures and transition, not only successful robot journeys.
+
+For utility inspection, apply the restoration question to required measurement-and-disposition windows. For automotive, apply it to takt, line recovery and generation requalification. Neither pack inherits hospital prices, remedy periods or the NHS constraint. Substantial H remains present through site software, integration authority and unverified data/model rights. An open-interface or cloud-service label does not establish those rights.
+
+The [renewal worlds](research/competitive_renewals.md) distinguish retained awards from delivered service; [support/expansion worlds](research/support_expansion.md) distinguish recurring reserves from other funded obligations. Procurement evidence makes those questions concrete without calibrating the synthetic quantities. All fourteen counterfactual families and 144 worlds remain numerically unchanged.
+
+A current executed order, incorporated support terms, accepted request IDs, retained staff work, actual invoices/collections and funded fallback would change the decision. A qualified alternative support route could weaken the switching constraint. Complete accepted service with avoidable paid commitments could strengthen deployment. Current evidence establishes neither empirical ROI nor target cost per delivery.
+
+#### Retrieval and stopping boundary
+
+FG-E024/025 record the source PDF's SHA-256. OCR guided navigation; all seven pages were visually checked. The NHS award was read on an official government mirror after direct PCS retrieval returned HTTP 502. A Find a Tender route returned HTTP 403 and was not bypassed. SAM pages exposed no readable body through the retrieval route; aggregator descriptions of US awards were discovery leads only. No underlying signed order, paid access, correspondence or commercial action was obtained. The Qilu full-methods gap remains unchanged.
+
+This bounded source tranche stops here. Reopen when an executed term, matched service/support record or qualified alternative can change a recommendation. Repeated listings and cumulative activity alone are insufficient. The active campaign continues under its original clock and sole-writer restriction.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

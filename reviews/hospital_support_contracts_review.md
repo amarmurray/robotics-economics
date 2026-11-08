@@ -1,0 +1,17 @@
+# Sole-writer review: hospital support and replacement evidence
+
+Status: accepted bounded evidence checkpoint for edition 0.26. This is the sole writer's review, not independent review.
+
+Four records extend the existing customer package: schedule prices/configuration, attached warranty/return terms, VA metadata with unresolved differences, and a UK buyer's completed maintenance award. The directly retrieved seven-page PDF was visually inspected; OCR alone did not establish a price or remedy. Dates of publication, contract activity and retrieval remain separate.
+
+The US schedule revision remains unknown. Cover and website footers do not date its prices. T-2.5 does not describe another generation. Installation groups, site inclusions and alternative maintenance periods retain their units. No installed subtotal, current site quote, delivery cost or ROI is computed.
+
+The correction period is a lower bound, not a maximum restoration time or observed downtime. Supplier-negligence indemnity remains alongside exclusions. Accessories/parts returns do not imply robot buyback. The NHS award stays GBP per whole contract, not spend, annual cost or a US coefficient. Cancelled records are excluded. The buyer's stated support constraint establishes neither legal exclusivity nor margin or performance.
+
+The hospital gates now require funded fallback and repair/exit terms. Utility and automotive inherit questions only. Customer adoption, Business models and Digital AI share the source audit; all thirteen views retain common decision context. Existing engines, synthetic worlds and source conflicts are intended to remain unchanged.
+
+The first full run passed 390 of 391 tests. A duplicate-quantity fixture selected the second-last evidence row, which became a metadata-only record after the append. It now selects the intended funding source FG-E022 by its stable identifier. The duplicate-quantity assertion and calculation code are unchanged; the fresh full rerun passes.
+
+Fresh validation passes **391 Python tests** in 211.347 seconds, **36 Node assertions**, twelve JavaScript syntax checks and all 37 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new audit is verified in three views, with four exact source drawers, seven separately scoped US price lines, one separate GBP award and seven explicit unknowns. Cell/search filtering, scenario independence, exact source export/fingerprint and scenario export/reload pass. All sixteen prior expansion and seventeen renewal worlds retain their exact browser hashes. The new panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged. Nineteen files are byte-identical; twelve change only source/evidence fingerprints. All model Python modules and numerical assumptions are byte-identical. Previous customer/market source claims, atlas cells, labor rows and accounting remain unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families / 144 worlds are unchanged. The accepted evidence registry now has 13 packages, 205 claims, 417 quantities and 117 explicit-null markers. **304 manifest hashes and 669 relative Markdown links** verify with no broken paths. Publication identity is recorded in the ignored receipt. This evidence tranche closes no empirical full-cost requirement and does not complete the campaign.
