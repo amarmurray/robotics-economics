@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.22.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.23.
 
 ## Accepted direction
 
@@ -20,7 +20,21 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded data, qualification and supported service, edition 0.22
+## Current checkpoint: operating, commercial and provider-funding gates, edition 0.23
+
+The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. A disconnection steer was followed by a current connected/running status, successful shell check and clean main-matching input checkpoint `4ba95371b93bca0cd5b791ccadbb9515e13aaded`. Environment/configuration and working changes were preserved. No task, goal, schedule, writer or campaign clock was replaced; no continuous execution is claimed.
+
+The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) extends the existing customer package with FG-E019–FG-E023 and FG-AUDIT-01. Operating continuation supports further evaluation, while announced sites/generation, illustrative terms, company accounts and gross financing have separate populations, dates and obligations. Substantial H connects planned compute/safety qualification, Arc's operating layer and ongoing software/support to the funded learning work. All three decision packs inherit questions, not warehouse coefficients.
+
+Fresh checks pass **356 Python tests** in 180.878 seconds, including nine source-arithmetic tests; **36 Node assertions**, ten JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with existing scenario controls, stale/invalid handling and complete export/reload. Three views show the new disclosure audit, five source drawers, four reproducible component calculations, two historical company periods and six explicit unknown outcomes. Source data remain unchanged under scenario controls; downloaded source summary equals the live catalog. Complete browser/CLI qualification replay matches exactly. The new panel was visually inspected. Browser-harness capture timing, a mis-scoped wait and an API request lacking its base URL were corrected. A fresh scope-change probe and final full browser run pass; no application fix was required.
+
+All **688,560 prior typed numeric fields across 29 result JSONs** are unchanged. Seventeen artifacts are byte-identical, eleven change only evidence snapshot hashes, and the observed-research summary adds the new audit with refreshed provenance. Core simulation engines and assumptions are unchanged. All 69 legacy acceptance and 65 question statuses remain; legacy acceptance is **53 bounded met / 16 partial**. Evidence now has 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **286 manifest hashes and 602 relative Markdown links** verify, with no broken paths.
+
+The source branch pauses until an executed contract, matched site record, qualified release or post-close statement changes a gate. Twelve bounded families / 111 worlds and all empirical gaps remain honest. Native goal/quota controls remain unavailable; no reset or goal activation is invented.
+
+**Next question:** with equal accessible technology and dated customer commitments, can a prompt incumbent remove an entrant's profitable service window before its funded ramp recovers, and how does support-first expansion alter the result? Advance bounded DE-CF05/10 without another disconnected engine or any source-calibrated coefficient.
+
+## Previous checkpoint: funded data, qualification and supported service, edition 0.22
 
 The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Native goal/quota controls remain unexposed; no new task, schedule, clock, earned reset, continuous-execution or campaign-completion claim is made.
 

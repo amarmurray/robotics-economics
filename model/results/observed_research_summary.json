@@ -1,5 +1,141 @@
 {
-  "calculation_code_sha256": "a7d6f7e4ca03fc9e8b89e736a6fccdbaceafe4dc85b86ae338002cb68eb28710",
+  "calculation_code_sha256": "c679ea377dcc55590d74975bcf92f0cfb4c7d476c6e45931fdef64100c1637ed",
+  "commercial_disclosures": {
+    "audit_id": "FG-AUDIT-01",
+    "calculations": {
+      "launch_product_resources": {
+        "evidence_ids": [
+          "FG-E021"
+        ],
+        "formula": "Digit 5 launch BOM + provider deployment + annual software/maintenance cost \u00d7 assumed life",
+        "input_ids": [
+          "FG-Q-D5-LAUNCH-BOM",
+          "FG-Q-D5-PROVIDER-DEPLOYMENT",
+          "FG-Q-D5-PROVIDER-ANNUAL-SERVICE",
+          "FG-Q-D5-LIFE-YEARS"
+        ],
+        "label": "Named provider product cost at assumed launch BOM",
+        "scope": "Management product-cost boundary excludes corporate SG&A/R&D; neither complete company cash nor a field-qualified cost estimate.",
+        "unit": "USD",
+        "value": 240000.0
+      },
+      "other_gross_financing_components": {
+        "evidence_ids": [
+          "FG-E022"
+        ],
+        "formula": "reported aggregate gross financing \u2212 included prior funding",
+        "input_ids": [
+          "FG-Q-CLOSE-GROSS",
+          "FG-Q-CLOSE-PRIOR"
+        ],
+        "label": "Gross headline less already-received component",
+        "scope": "Arithmetic of approximate headline components before expenses; not net new cash or available cash balance.",
+        "unit": "USD",
+        "value": 365000000.0
+      },
+      "ownership_five_year_payments": {
+        "evidence_ids": [
+          "FG-E021"
+        ],
+        "formula": "purchase + deployment fee + annual service \u00d7 assumed life",
+        "input_ids": [
+          "FG-Q-D5-PURCHASE",
+          "FG-Q-D5-PURCHASE-DEPLOYMENT",
+          "FG-Q-D5-OWNERSHIP-ANNUAL-SERVICE",
+          "FG-Q-D5-LIFE-YEARS"
+        ],
+        "label": "Displayed ownership payment components",
+        "scope": "Same hypothetical life; these payments do not identify an executed customer contract or whole-system cost.",
+        "unit": "USD",
+        "value": 400000.0
+      },
+      "raas_five_year_payments": {
+        "evidence_ids": [
+          "FG-E021"
+        ],
+        "formula": "monthly subscription \u00d7 12 \u00d7 assumed life + deployment fee",
+        "input_ids": [
+          "FG-Q-D5-RAAS-MONTHLY",
+          "FG-Q-D5-LIFE-YEARS",
+          "FG-Q-D5-RAAS-DEPLOYMENT"
+        ],
+        "label": "Displayed RaaS payment components",
+        "scope": "Undiscounted arithmetic of rounded planning amounts; excludes customer retained work, financing and all other unpriced costs.",
+        "unit": "USD",
+        "value": 535000.0
+      }
+    },
+    "financial_periods": [
+      {
+        "cost_of_goods_sold": 4473234,
+        "evidence_ids": [
+          "FG-E021"
+        ],
+        "gross_result": -2691267,
+        "input_ids": {
+          "cost_of_goods_sold": "FG-Q-AGILITY-2025-COST-OF-GOODS-SOLD",
+          "gross_result": "FG-Q-AGILITY-2025-GROSS-RESULT",
+          "net_result": "FG-Q-AGILITY-2025-NET-RESULT",
+          "net_sales": "FG-Q-AGILITY-2025-NET-SALES",
+          "operating_cash_flow": "FG-Q-AGILITY-2025-OPERATING-CASH-FLOW"
+        },
+        "net_result": -138086332,
+        "net_sales": 1781967,
+        "operating_cash_flow": -99839103,
+        "period": "2025 audited",
+        "scope": "Whole-company amounts for unequal observation periods; no annualization or per-robot allocation."
+      },
+      {
+        "cost_of_goods_sold": 3889139,
+        "evidence_ids": [
+          "FG-E021"
+        ],
+        "gross_result": -3714777,
+        "input_ids": {
+          "cost_of_goods_sold": "FG-Q-AGILITY-H1-2026-COST-OF-GOODS-SOLD",
+          "gross_result": "FG-Q-AGILITY-H1-2026-GROSS-RESULT",
+          "net_result": "FG-Q-AGILITY-H1-2026-NET-RESULT",
+          "net_sales": "FG-Q-AGILITY-H1-2026-NET-SALES",
+          "operating_cash_flow": "FG-Q-AGILITY-H1-2026-OPERATING-CASH-FLOW"
+        },
+        "net_result": -361893207,
+        "net_sales": 174362,
+        "operating_cash_flow": -86162577,
+        "period": "H1 2026 unaudited",
+        "scope": "Whole-company amounts for unequal observation periods; no annualization or per-robot allocation."
+      }
+    ],
+    "population_guard": "No ratio combines site totes and multi-program fleet hours.",
+    "rounding_boundary": "Exact component arithmetic can differ from approximate slide headlines; this is not a correction of undisclosed internal modeling.",
+    "source_boundary": "Source assumptions and historical disclosures remain separate from synthetic model parameters.",
+    "status": "disclosure_arithmetic_not_realized_unit_economics",
+    "unknowns": {
+      "customer_payback": {
+        "reason": "No dated investment and avoidable cash flow.",
+        "value": null
+      },
+      "customer_roi": {
+        "reason": "No executed price and complete matched cash schedule.",
+        "value": null
+      },
+      "net_new_closing_cash": {
+        "reason": "Rounded gross aggregate includes prior funding and excludes expenses; post-close reconciliation absent.",
+        "value": null
+      },
+      "paid_labor_removed": {
+        "reason": "No matched schedules or payroll change.",
+        "value": null
+      },
+      "provider_runway": {
+        "reason": "Post-close unrestricted cash and future spending schedule are not established.",
+        "value": null
+      },
+      "site_accepted_output_rate": {
+        "reason": "No matched site time and accepted/on-time count.",
+        "value": null
+      }
+    }
+  },
   "field_support": {
     "calculations": {
       "FSD-CALC-01": {
@@ -53,6 +189,7 @@
   "schema_version": "observed-research-summary/0.2",
   "source_snapshot_sha256": {
     "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
+    "customer_evidence.json": "398dd9467016a80c7f41c8eb12096abf93831c25af3f73f00c9b4df72ab0c836",
     "field_support_denominators.json": "ee234220b44f189283d6a83b13a8f59fc32ae97a04756b98c6af56b7d700810d",
     "onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
   },

@@ -126,3 +126,8 @@ The [workcell comparison](automotive_workcell_decision.md) strengthens the conve
 ## Funded qualification challenge, edition 0.22
 
 [Sixteen complete feedback worlds](learning_execution.md) now execute the prior source-derived contracts in a bounded workcell. Candidate success, earlier eligible data, compatible delivery, physical test slots and installed support remain separate gates. Transfer the qualification questions to hospital and utility service, not the automotive rates. Twelve families are bounded implementations; DE-CF10 remains partial beyond support-priority work on existing units.
+
+
+## Commercial evidence gate, edition 0.23
+
+The [source audit](commercial_disclosure_boundaries.md) strengthens the prompt-incumbent comparison through operator continuation. All three decision packs inherit acceptance, version, support, rights and dated funding questions; none inherits warehouse costs or future-generation capability. Existing hospital, utility and automotive recommendations remain provisional, and no empirical investment threshold closes.

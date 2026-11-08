@@ -1,9 +1,9 @@
 {
   "schema_version": "robotics-economics-evidence/0.1",
   "module": "F/G customer organization and robotics value capture",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
-  "evidence_as_of": "2026-11-07",
+  "evidence_as_of": "2026-11-08",
   "runtime_verification": {
     "requested_model": "GPT-6 Astra",
     "requested_reasoning": "Ultra",
@@ -11,7 +11,7 @@
     "actual_reasoning": null,
     "missingness_reason": "Delegated runtime does not expose a verifiable active model/reasoning identifier; do not claim requested configuration was achieved."
   },
-  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics.",
+  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics. The 2026-11-08 continuation audits commercial disclosures, generation boundaries and provider financing without calibrating scenarios.",
   "evidence": [
     {
       "evidence_id": "FG-E001",
@@ -388,6 +388,329 @@
       ],
       "limitations": "No BETA throughput, option or support term is imported. Collection and onward transport require workflow measurement; the page is not a restaurant staffing observation. Exact model, textile, fold acceptance, output/time basis, installed price and staffing remain unqualified.",
       "quantities": []
+    },
+    {
+      "evidence_id": "FG-E019",
+      "title": "GXO continuation and planned generation migration",
+      "claim": "GXO reports over 100,000 totes at Flowery Branch. Statesville and Lebanon are expected to start on Digit 4 in early 2027 and migrate when Digit 5 becomes commercially available.",
+      "url": "https://gxo.com/news_article/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations/",
+      "publisher": "GXO Logistics / Agility Robotics",
+      "publication_date": "2026-10-26",
+      "observation_period": "Flowery Branch cumulative since 2024; additional sites planned early 2027",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_operator_joint_release",
+      "epistemic_status": "reported_operation_and_forward_plan",
+      "locator": "Opening paragraphs and planned deployment/migration paragraphs",
+      "geography": "United States; named operating sites and corporate disclosures have different scopes",
+      "market_ids": [
+        "M08",
+        "M10"
+      ],
+      "limitations": "The separate 65,000-hour figure covers commercial operations and customer programs, not the tote-count site alone. Exposure, accepted/on-time denominator, retained staffing and contractual economics are undisclosed. Announced rollout is not achieved multi-site Digit 5 service.",
+      "quantities": [
+        {
+          "quantity_id": "FG-Q-GXO-TOTES",
+          "value": 100000,
+          "unit": "totes",
+          "denominator": "one stated source population and period",
+          "population": "Flowery Branch GXO site",
+          "period": "2024 to release 2026-10-26",
+          "measurement_status": "issuer_disclosed_not_independently_verified",
+          "comparison_operator": "greater_than"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-FLEET-HOURS",
+          "value": 65000,
+          "unit": "operating hours",
+          "denominator": "one stated source population and period",
+          "population": "Agility commercial operations and customer programs",
+          "period": "Cumulative through release 2026-10-26",
+          "measurement_status": "issuer_disclosed_not_independently_verified",
+          "comparison_operator": "greater_than"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E020",
+      "title": "Investor illustration separates customer and provider boundaries",
+      "claim": "Slides 45 and 66 present five-year customer and product economics. Provider RaaS payback compares subscription receipts with BOM; product cost includes deployment and software/maintenance but excludes corporate SG&A and R&D. Slide 57 separates current Digit 4 BOM from projected Digit 5 costs.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107259/ea030784201ex99-1.htm",
+      "publisher": "Agility Robotics, SEC-filed exhibit",
+      "publication_date": "2026-10-06",
+      "observation_period": "Management illustration at Analyst & Investor Day 2026",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_sec_filed_management_presentation",
+      "epistemic_status": "illustrative_forward_looking_not_realized_economics",
+      "locator": "Slides 45, 46, 57 and 66; footnotes on slides 45 and 66",
+      "geography": "United States; named operating sites and corporate disclosures have different scopes",
+      "market_ids": [
+        "M08",
+        "M10"
+      ],
+      "limitations": "No matched payroll reduction or complete investment return is measured. Rounded customer headlines, BOM recovery and product margins have different denominators. Conditional three-year Digit 5 orders do not establish five years of collections. Digit 4 production experience does not qualify Digit 5 costs, service life or transfer.",
+      "quantities": [],
+      "retrieved_html_sha256": "0709f569126a95b4072c72d9fb3045c9429d346d60dcc8cd353c45b469d59601"
+    },
+    {
+      "evidence_id": "FG-E021",
+      "title": "Digit 5 planning terms and Agility historical financials",
+      "claim": "The prospectus labels Digit 5 economics as assumptions subject to contract negotiation. Its historical statements separately report company revenue, costs, losses and operating cash use. CAP, robot sales, deployment and support are different revenue streams.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm",
+      "publisher": "Churchill Capital Corp XI / Agility Robotics, SEC 424B3",
+      "publication_date": "2026-10-13",
+      "observation_period": "Planning assumptions at filing; Agility standalone 2025 audited and six months ended 2026-06-30 unaudited",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_sec_prospectus_and_financial_statements",
+      "epistemic_status": "historical_financials_separate_from_forward_illustration",
+      "locator": "Digit 5 Unit Economics pp.132–133; CAP and Arc business sections; MD&A pp.241–247; Agility statements F-47, F-49, F-73, F-75",
+      "geography": "United States; named operating sites and corporate disclosures have different scopes",
+      "market_ids": [
+        "M08",
+        "M10"
+      ],
+      "limitations": "Not CCXI or pro forma results. Company costs cover multiple products/programs and cannot be divided by an unspecified robot fleet. Net loss includes noncash charges and differs from operating cash use. Pre-close liquidity assessment is historical. Arc diagnostics/data flow is not a grant of customer training/export rights.",
+      "quantities": [
+        {
+          "quantity_id": "FG-Q-D5-LIFE-YEARS",
+          "value": 5,
+          "unit": "years",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-RAAS-MONTHLY",
+          "value": 8500,
+          "unit": "USD per month",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-RAAS-DEPLOYMENT",
+          "value": 25000,
+          "unit": "USD",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-PURCHASE",
+          "value": 200000,
+          "unit": "USD",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-PURCHASE-DEPLOYMENT",
+          "value": 20000,
+          "unit": "USD",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-OWNERSHIP-ANNUAL-SERVICE",
+          "value": 36000,
+          "unit": "USD per year",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-LAUNCH-BOM",
+          "value": 150000,
+          "unit": "USD",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-PROVIDER-DEPLOYMENT",
+          "value": 15000,
+          "unit": "USD",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-D5-PROVIDER-ANNUAL-SERVICE",
+          "value": 15000,
+          "unit": "USD per year",
+          "denominator": "one hypothetical Digit 5 robot",
+          "population": "Digit 5 illustrative commercial offering; no executed contract",
+          "period": "Management planning assumptions, disclosed 2026-10-13",
+          "measurement_status": "illustrative_management_assumption",
+          "configuration": "Digit 5"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-2025-NET-SALES",
+          "value": 1781967,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "2025 audited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-2025-COST-OF-GOODS-SOLD",
+          "value": 4473234,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "2025 audited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-2025-GROSS-RESULT",
+          "value": -2691267,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "2025 audited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-2025-NET-RESULT",
+          "value": -138086332,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "2025 audited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-2025-OPERATING-CASH-FLOW",
+          "value": -99839103,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "2025 audited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-H1-2026-NET-SALES",
+          "value": 174362,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "H1 2026 unaudited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-H1-2026-COST-OF-GOODS-SOLD",
+          "value": 3889139,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "H1 2026 unaudited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-H1-2026-GROSS-RESULT",
+          "value": -3714777,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "H1 2026 unaudited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-H1-2026-NET-RESULT",
+          "value": -361893207,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "H1 2026 unaudited",
+          "measurement_status": "reported_historical_company_amount"
+        },
+        {
+          "quantity_id": "FG-Q-AGILITY-H1-2026-OPERATING-CASH-FLOW",
+          "value": -86162577,
+          "unit": "USD",
+          "denominator": "whole company for stated period",
+          "population": "Agility Robotics standalone company",
+          "period": "H1 2026 unaudited",
+          "measurement_status": "reported_historical_company_amount"
+        }
+      ],
+      "retrieved_html_sha256": "62ac20f55e499efed6dd5bd99178ea997d23915858cac24e4fbd318fe74935c5"
+    },
+    {
+      "evidence_id": "FG-E022",
+      "title": "Completed financing has an already-received component",
+      "claim": "Following the completed business combination, Agility reports approximately $465 million gross capital before transaction expenses, including $100 million received before closing.",
+      "url": "https://investors.agilityrobotics.com/news-releases/news-release-details/agility-becomes-first-us-publicly-listed-pure-play-humanoid",
+      "publisher": "Agility Robotics investor relations",
+      "publication_date": "2026-11-05",
+      "observation_period": "Business combination completed 2026-11-04; capital headline includes earlier funding",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_issuer_post_close_release",
+      "epistemic_status": "reported_completion_gross_amounts",
+      "locator": "Opening and final business paragraphs; gross capital and prior equity component",
+      "geography": "United States; named operating sites and corporate disclosures have different scopes",
+      "market_ids": [
+        "M08",
+        "M10"
+      ],
+      "limitations": "Gross aggregate is not new unrestricted closing cash or revenue. Transaction expenses, intervening cash use and post-close balance reconciliation are required for runway. Supersedes pre-close expected financing status, not historical financial statements.",
+      "quantities": [
+        {
+          "quantity_id": "FG-Q-CLOSE-GROSS",
+          "value": 465000000,
+          "unit": "USD",
+          "denominator": "one stated source population and period",
+          "population": "Business combination and related financings",
+          "period": "Aggregate reported 2026-11-05",
+          "measurement_status": "approximately_reported_gross_before_expenses"
+        },
+        {
+          "quantity_id": "FG-Q-CLOSE-PRIOR",
+          "value": 100000000,
+          "unit": "USD",
+          "denominator": "one stated source population and period",
+          "population": "Business combination and related financings",
+          "period": "Aggregate reported 2026-11-05",
+          "measurement_status": "reported_component_already_received_before_close"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FG-E023",
+      "title": "Digit 5 onboard compute and certification remain prospective",
+      "claim": "Agility plans NVIDIA IGX Thor as the standard onboard compute for generally available Digit 5 and describes Halos integration and lab evaluation ahead of final third-party certification.",
+      "url": "https://investors.agilityrobotics.com/news-releases/news-release-details/agility-robotics-expands-nvidia-collaboration-it-prepares-digit",
+      "publisher": "Agility Robotics investor relations",
+      "publication_date": "2026-10-22",
+      "observation_period": "Prospective Digit 5 general-availability architecture; early access expected H1 2027",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_issuer_architecture_announcement",
+      "epistemic_status": "planned_configuration_not_operating_qualification",
+      "locator": "Onboard standardization; Advancing Compute and Safety for Industrial Deployment",
+      "geography": "United States; named operating sites and corporate disclosures have different scopes",
+      "market_ids": [
+        "M08",
+        "M10"
+      ],
+      "limitations": "Does not specify measured field power, memory demand, latency, qualified service or completed certification. Do not apply the planned configuration to operating Digit 4 or infer open weights, transferable licenses or cloud independence.",
+      "quantities": []
     }
   ],
   "actors": [
@@ -404,7 +727,8 @@
       "evidence_ids": [
         "FG-E001",
         "FG-E002",
-        "FG-E003"
+        "FG-E003",
+        "FG-E019"
       ],
       "status": "reported"
     },
@@ -434,7 +758,12 @@
         "RaaS_counterparty"
       ],
       "evidence_ids": [
-        "FG-E001"
+        "FG-E001",
+        "FG-E019",
+        "FG-E020",
+        "FG-E021",
+        "FG-E022",
+        "FG-E023"
       ],
       "status": "reported",
       "unknowns": [
@@ -700,9 +1029,11 @@
       "evidence_ids": [
         "FG-E001",
         "FG-E002",
-        "FG-E003"
+        "FG-E003",
+        "FG-E019"
       ],
-      "status": "mechanism_comparison_not_causal_estimate"
+      "status": "mechanism_comparison_not_causal_estimate",
+      "continuation": "Operator-announced expansion strengthens the prompt-incumbent counterexample; planned sites/generation and unknown contract economics remain separate."
     },
     {
       "comparison_id": "FG-CMP-02",
@@ -1322,6 +1653,17 @@
         "FG-E017",
         "FG-E018"
       ]
+    },
+    {
+      "constraint_id": "FG-MC-08",
+      "statement": "Keep achieved site service, planned generation migration, illustrative five-year terms, conditional orders, historical company financials and gross financing in separate populations and periods. Source arithmetic never calibrates synthetic economics.",
+      "evidence_ids": [
+        "FG-E019",
+        "FG-E020",
+        "FG-E021",
+        "FG-E022",
+        "FG-E023"
+      ]
     }
   ],
   "questions": [
@@ -1335,11 +1677,12 @@
       "priority": "highest",
       "decision_consequence": "Whether newco survives and whether service contracts can fund deployment",
       "evidence_target": "Matched customer contract cancellation/renewal, pricing, payment lag, rollout outlays, supplier RaaS fee and termination terms",
-      "next_action": "Reopen the napkin branch on a new matched operator exposure/staffing record or disclosed equipment/robot service contract; otherwise advance the broader ranked queue.",
+      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
       "stopping_condition": "One coherent contract/cash boundary with adverse termination and equal-technology response; leave unavailable parameters explicit.",
       "status": "ACTIVE",
       "findings": [
-        "FG-CMP-03 identifies accepted service, retained labor and three distinct accounting boundaries, but quoted terms and actual schedule changes remain unavailable."
+        "FG-CMP-03 identifies accepted service, retained labor and three distinct accounting boundaries, but quoted terms and actual schedule changes remain unavailable.",
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
       ]
     },
     {
@@ -1365,9 +1708,12 @@
       "priority": "high",
       "decision_consequence": "Feasible learning network and provider/customer lock-in",
       "evidence_target": "Executed humanoid contract or authoritative model/data terms, plus actual export and reuse rights",
-      "next_action": "Locate public Digit/other deployment terms; compare with artifact-specific BrainOS terms without transferring them.",
+      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
       "stopping_condition": "Collect/store/access/export/train/redistribute/commercialize rights assigned separately to named actors.",
-      "status": "OPEN"
+      "status": "OPEN",
+      "findings": [
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
+      ]
     },
     {
       "question_id": "FG-Q-04",
@@ -1391,9 +1737,12 @@
       "priority": "medium",
       "decision_consequence": "Durability of entry advantage and value capture after convergence",
       "evidence_target": "Renewal prices, multi-vendor switching, same-robot incumbent adoption and support-density economics",
-      "next_action": "Seek repeat contract cohorts and competition disclosures, including failed pilots and lost customers.",
+      "next_action": "Reopen on a disclosed executed service agreement, matched site exposure/staffing, qualified Digit 5 release or post-close cash statement; do not recycle announcements as independent observations.",
       "stopping_condition": "Evidence distinguishing persistent operating advantage from transient timing and selected pilot success.",
-      "status": "OPEN"
+      "status": "OPEN",
+      "findings": [
+        "FG-AUDIT-01 adds dated operating/configuration and financing context. Illustration is not a negotiated contract; actual acceptance, renewal, rights and cash-removal gates remain open."
+      ]
     }
   ],
   "coverage_audit": {
@@ -1404,7 +1753,8 @@
     "sources": "Primary company disclosures, SEC filings and a specific standard legal artifact; no independent unit-economics audit.",
     "model_terms": "Most exact robot/service financial and data terms remain unavailable.",
     "runtime": "Configuration requested but actual identifier unavailable to specialist.",
-    "napkin_comparison": "FG-CMP-03 is a matched-service definition and proposed measurement protocol in M09. No matched experiment, new deep atlas cell, payroll saving, ROI or scenario calibration."
+    "napkin_comparison": "FG-CMP-03 is a matched-service definition and proposed measurement protocol in M09. No matched experiment, new deep atlas cell, payroll saving, ROI or scenario calibration.",
+    "commercial_disclosures": "FG-AUDIT-01 separates operator continuation, management assumptions, company financials and actual financing close; executed customer economics remain unknown."
   },
   "entry_screen": [
     {
@@ -1593,5 +1943,103 @@
     ],
     "preserved_source_context": "Dyna August 2026; employer and equipment pages undated. No evidence date invented or job site assigned to Dyna.",
     "review": "reviews/napkin_workflow_review.md"
+  },
+  "disclosure_audits": [
+    {
+      "audit_id": "FG-AUDIT-01",
+      "title": "Rollout, contract and provider funding gates",
+      "cell_ids": [
+        "CELL-M08-3pl-tote-US-2025"
+      ],
+      "status": "source_boundary_audit_not_investment_return",
+      "evidence_ids": [
+        "FG-E019",
+        "FG-E020",
+        "FG-E021",
+        "FG-E022",
+        "FG-E023"
+      ],
+      "input_roles": {
+        "life_years": "FG-Q-D5-LIFE-YEARS",
+        "raas_monthly": "FG-Q-D5-RAAS-MONTHLY",
+        "raas_deployment": "FG-Q-D5-RAAS-DEPLOYMENT",
+        "purchase": "FG-Q-D5-PURCHASE",
+        "purchase_deployment": "FG-Q-D5-PURCHASE-DEPLOYMENT",
+        "ownership_annual_service": "FG-Q-D5-OWNERSHIP-ANNUAL-SERVICE",
+        "launch_bom": "FG-Q-D5-LAUNCH-BOM",
+        "provider_deployment": "FG-Q-D5-PROVIDER-DEPLOYMENT",
+        "provider_annual_service": "FG-Q-D5-PROVIDER-ANNUAL-SERVICE"
+      },
+      "financial_periods": [
+        {
+          "period": "2025 audited",
+          "evidence_ids": [
+            "FG-E021"
+          ],
+          "metric_roles": {
+            "net_sales": "FG-Q-AGILITY-2025-NET-SALES",
+            "cost_of_goods_sold": "FG-Q-AGILITY-2025-COST-OF-GOODS-SOLD",
+            "gross_result": "FG-Q-AGILITY-2025-GROSS-RESULT",
+            "net_result": "FG-Q-AGILITY-2025-NET-RESULT",
+            "operating_cash_flow": "FG-Q-AGILITY-2025-OPERATING-CASH-FLOW"
+          }
+        },
+        {
+          "period": "H1 2026 unaudited",
+          "evidence_ids": [
+            "FG-E021"
+          ],
+          "metric_roles": {
+            "net_sales": "FG-Q-AGILITY-H1-2026-NET-SALES",
+            "cost_of_goods_sold": "FG-Q-AGILITY-H1-2026-COST-OF-GOODS-SOLD",
+            "gross_result": "FG-Q-AGILITY-H1-2026-GROSS-RESULT",
+            "net_result": "FG-Q-AGILITY-H1-2026-NET-RESULT",
+            "operating_cash_flow": "FG-Q-AGILITY-H1-2026-OPERATING-CASH-FLOW"
+          }
+        }
+      ],
+      "cash_roles": {
+        "gross": "FG-Q-CLOSE-GROSS",
+        "prior": "FG-Q-CLOSE-PRIOR"
+      },
+      "summary": "Operator continuation supports the adoption case; achieved service, negotiated customer cash and provider funding still require separate evidence.",
+      "service_gate": "Match unique accepted on-time handoffs, exposure, operating configuration and retained work. A site tote count and fleet-wide hours cannot form a valid throughput ratio.",
+      "contract_gate": "Secure qualified service, payment and acceptance terms; distinguish a program evaluation fee, per-robot deployment fee and recurring service. Customer task-time release must reach a feasible paid schedule or valuable capacity.",
+      "provider_gate": "Fund hardware, integration, operating support, development and working capital at their actual dates. Orders, gross capital and product-margin illustrations do not settle these obligations.",
+      "digital_gate": "Separate onboard policy/safety compute, Arc orchestration/diagnostics and R&D. Qualify changed configurations, software updates, offline behavior and incident responsibility; shared data flow alone grants neither reusable training rights nor successful transfer.",
+      "unresolved": {
+        "site_accepted_output_rate": {
+          "value": null,
+          "reason": "No matched site time and accepted/on-time count."
+        },
+        "paid_labor_removed": {
+          "value": null,
+          "reason": "No matched schedules or payroll change."
+        },
+        "customer_roi": {
+          "value": null,
+          "reason": "No executed price and complete matched cash schedule."
+        },
+        "customer_payback": {
+          "value": null,
+          "reason": "No dated investment and avoidable cash flow."
+        },
+        "net_new_closing_cash": {
+          "value": null,
+          "reason": "Rounded gross aggregate includes prior funding and excludes expenses; post-close reconciliation absent."
+        },
+        "provider_runway": {
+          "value": null,
+          "reason": "Post-close unrestricted cash and future spending schedule are not established."
+        }
+      },
+      "model_use": "Source arithmetic only; no synthetic parameter update."
+    }
+  ],
+  "continuation_2026_11_08": {
+    "input_commit": "4ba95371b93bca0cd5b791ccadbb9515e13aaded",
+    "source_count": 5,
+    "audit_id": "FG-AUDIT-01",
+    "scope": "Operating, commercial, digital and financing source boundaries; no empirical ROI or model calibration."
   }
 }

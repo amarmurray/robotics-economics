@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funded learning and qualification, edition 0.22
+## New decision campaign: commercial disclosure boundaries, edition 0.23
+
+Five [primary commercial records](research/commercial_disclosure_boundaries.md) separate operator continuation, future generation/compute qualification, illustrative terms, historical company accounts and completed financing. FG-AUDIT-01 reproduces payment/cost components without treating them as executed contracts, payroll savings or ROI. Gross financing is not a new unrestricted cash balance; company losses are not operating cash use or per-robot costs.
+
+Fresh checks pass **356 Python tests** in 180.878 seconds, including nine source-arithmetic tests; **36 Node assertions**, ten JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with existing scenario controls, stale/invalid handling and complete export/reload. Three views show the new disclosure audit, five source drawers, four reproducible component calculations, two historical company periods and six explicit unknown outcomes. Source data remain unchanged under scenario controls; downloaded source summary equals the live catalog. Complete browser/CLI qualification replay matches exactly. The new panel was visually inspected. Browser-harness capture timing, a mis-scoped wait and an API request lacking its base URL were corrected. A fresh scope-change probe and final full browser run pass; no application fix was required.
+
+All **688,560 prior typed numeric fields across 29 result JSONs** are unchanged. Seventeen artifacts are byte-identical, eleven change only evidence snapshot hashes, and the observed-research summary adds the new audit with refreshed provenance. Core simulation engines and assumptions are unchanged. All 69 legacy acceptance and 65 question statuses remain; legacy acceptance is **53 bounded met / 16 partial**. Evidence now has 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **286 manifest hashes and 602 relative Markdown links** verify, with no broken paths.
+
+Twelve bounded challenge families / 111 worlds remain unchanged. DE-CF05/10, broad execution bridges and empirical whole-service economics still require work. No source tranche closes the full campaign. The same deadline is **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/commercial_disclosures_review.md).
+
+## Previous decision checkpoint: funded learning and qualification, edition 0.22
 
 Sixteen [exact feedback worlds](research/learning_execution.md) add bounded DE-CF09 runtime-module supply delay and DE-CF14 no-learning/no-transfer. Support-priority allocation advances partial DE-CF10, without claiming full fleet expansion scheduling. Twelve bounded families and 111 worlds remain intermediate acceptance. Candidate performance is an input hypothesis; no model training, robot experiment or empirical learning rate is inferred.
 

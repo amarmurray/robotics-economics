@@ -157,3 +157,8 @@ These priorities connect directly to market sequencing, deployment architecture,
 ## Funded qualification follow-up, edition 0.22
 
 The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
+
+## Digital obligations inside a commercial robot service
+
+The [Agility disclosure follow-up](commercial_disclosure_boundaries.md) separates onboard policy/safety compute, Arc orchestration/diagnostics and R&D. Planned compute changes require qualification; data flow does not establish training rights or successful transfer. Continuing software/support and development cash are separate obligations.

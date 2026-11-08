@@ -246,3 +246,8 @@ After this bounded tranche, return to the ranked queue: operator support/accepte
 
 
 Edition 0.22 closes bounded eligible-data and funded qualification execution through [sixteen worlds](research/learning_execution.md). Next, prioritize a sustained deployed configuration with actual update history, retained-cohort results, all-actor resource/cash records and support/parts commitments. CF10 broader fleet scheduling, CF05 prompt equal-technology competitive response, full production/ramp and empirical acceptance remain open. Preserve the same campaign clock.
+
+
+## Commercial disclosure continuation, edition 0.23
+
+FG-AUDIT-01 links operating continuation, negotiated value, qualified generation and provider funding. Reopen this source branch only for a public executed contract, matched site exposure/staffing, qualified Digit 5 release or post-close financial statement. Orders, price illustrations and gross financing alone cannot close the service/whole-cost questions. Advance remaining DE-CF05/10 execution challenges while preserving all three deployment packs and substantial H. [Source audit](research/commercial_disclosure_boundaries.md).

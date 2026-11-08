@@ -61,3 +61,8 @@ Four primary-source records deepen substantial H and I/K through [R&D-to-qualifi
 ## Funded learning checkpoint, edition 0.22
 
 Sixteen [qualification worlds](research/learning_execution.md) add bounded DE-CF09 runtime-module supply delay and DE-CF14 no-learning/no-transfer. Shared engineering priority deepens partial DE-CF10; full expanding-fleet scheduling remains open. Twelve families and 111 worlds now have bounded coverage, without claiming empirical learning curves or full acceptance. The same T0/deadline and sole-writer objective continue.
+
+
+## Commercial disclosure checkpoint, edition 0.23
+
+Five primary records and a [source audit](research/commercial_disclosure_boundaries.md) connect achieved operation, prospective generation/compute changes, illustrative economics, historical company accounts and completed financing. They advance evidence gates without calibrating scenarios or closing full-service economics. Twelve bounded challenge families and the original active T0/deadline remain.

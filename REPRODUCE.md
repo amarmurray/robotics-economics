@@ -242,3 +242,10 @@ Learning & coordination and Digital AI ecosystem share the source-driven **R&D p
 ## Funded learning and qualification
 
 The Learning view executes sixteen synthetic data/qualification/support worlds on the unchanged automotive workcell. Edit the finite resource, eligibility, hypothesized rate, delivery and cash controls; apply recomputes through the local API. Export/reload preserves complete inputs and recomputes outcomes. Replay with `python3 scripts/export_learning_execution.py --case saved-case.json --output replay.json`. Source scores never calibrate candidate performance. [Methods and accounting boundaries](model/LEARNING_EXECUTION.md) distinguish trials, customer service, unique episodes, module orders and persistent units.
+
+
+## Commercial disclosure audit, edition 0.23
+
+Customer adoption, Business models and Digital AI show FG-AUDIT-01 from the existing customer package. Expand payment/component equations, historical company accounts and missing outcomes; source buttons open the dated records. Evidence and cell filters affect visibility; synthetic controls do not change source amounts.
+
+`python3 scripts/export_scenarios.py` refreshes `model/results/observed_research_summary.json`. `python3 -m unittest discover -s tests -p test_research_calculations.py -v` verifies source boundaries, unknown outcomes and invalid units/generation/periods. `python3 scripts/build_report.py` checks source/code hashes before inserting tables. No new public service, model run or empirical calibration is involved. See [analysis](research/commercial_disclosure_boundaries.md) and [self-review](reviews/commercial_disclosures_review.md).

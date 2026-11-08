@@ -223,3 +223,8 @@ The highest-value next evidence is a coherent pair of customer and supplier cont
 Second, seek matched pilot-to-rollout comparisons that observe approval authority, engineering effort and savings retention, instead of treating public/private/holdco labels as causal. Third, obtain authoritative humanoid data and model terms before modeling exclusive learning. Fourth, compare one genuine greenfield operating ramp with one acquired operator, including price paid, retained customers, cash flow and transition costs. Finally, study renewals and prompt same-robot competitors to separate durable operating advantage from a temporary adoption lead.
 
 These gaps are registered as `FG-Q-01` through `FG-Q-05`, linked to the existing OS/BM roadmap. The next bounded question is: **Can a robot-supported service contract recover all commissioning, customer-acquisition and working-capital costs before cancellation or same-technology competition removes its surplus, and who must finance the intervening cash deficit?**
+
+
+## Operating continuation and provider financing
+
+The [commercial disclosure audit](commercial_disclosure_boundaries.md) extends FG-CMP-01 with operator continuation, generation migration and separate contract/funding gates. Its source arithmetic is reproduced without importing prices, labor assumptions or company losses into synthetic unit economics.

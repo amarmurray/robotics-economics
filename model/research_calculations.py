@@ -166,6 +166,90 @@ def onboard_timing_summary(package):
             "missing_reason": "Rounded component-sum summary statistics do not identify a full cycle, sustained operation or deadline-miss distribution."}
 
 
+def commercial_disclosure_summary(package):
+    """Reconcile disclosed components; do not estimate returns or site throughput."""
+    audits = package.get('disclosure_audits', [])
+    audit = next(a for a in audits if a['audit_id'] == 'FG-AUDIT-01')
+    metrics = {}
+    for claim in package['evidence']:
+        for metric in claim.get('quantities', []):
+            key = metric.get('quantity_id', metric.get('metric_id'))
+            if key is None:  # Older context quantities have no reusable identifier.
+                continue
+            if key in metrics:
+                raise ValueError('Duplicate commercial source quantity: ' + str(key))
+            metrics[key] = metric
+
+    def read(key, unit, population=None, period=None, configuration=None):
+        m = metrics[key]
+        if m['unit'] != unit:
+            raise ValueError('Wrong commercial source unit: ' + key)
+        for field, expected in [('population', population), ('period', period), ('configuration', configuration)]:
+            if expected is not None and m.get(field) != expected:
+                raise ValueError('Commercial source scope mismatch: ' + key)
+        return number(m['value'])
+
+    roles = audit['input_roles']
+    population = 'Digit 5 illustrative commercial offering; no executed contract'
+    period = 'Management planning assumptions, disclosed 2026-10-13'
+    units = {'life_years': 'years', 'raas_monthly': 'USD per month',
+             'ownership_annual_service': 'USD per year', 'provider_annual_service': 'USD per year'}
+    inputs = {role: read(key, units.get(role, 'USD'), population, period, 'Digit 5')
+              for role, key in roles.items()}
+    if any(v < 0 for v in inputs.values()) or inputs['life_years'] <= 0 or inputs['life_years'] % 1:
+        raise ValueError('Invalid illustrative life or monetary component')
+    years = inputs['life_years']
+    definitions = [
+        ('raas_five_year_payments', 'Displayed RaaS payment components',
+         inputs['raas_monthly'] * 12 * years + inputs['raas_deployment'],
+         'monthly subscription × 12 × assumed life + deployment fee',
+         ['raas_monthly', 'life_years', 'raas_deployment'],
+         'Undiscounted arithmetic of rounded planning amounts; excludes customer retained work, financing and all other unpriced costs.'),
+        ('ownership_five_year_payments', 'Displayed ownership payment components',
+         inputs['purchase'] + inputs['purchase_deployment'] + inputs['ownership_annual_service'] * years,
+         'purchase + deployment fee + annual service × assumed life',
+         ['purchase', 'purchase_deployment', 'ownership_annual_service', 'life_years'],
+         'Same hypothetical life; these payments do not identify an executed customer contract or whole-system cost.'),
+        ('launch_product_resources', 'Named provider product cost at assumed launch BOM',
+         inputs['launch_bom'] + inputs['provider_deployment'] + inputs['provider_annual_service'] * years,
+         'Digit 5 launch BOM + provider deployment + annual software/maintenance cost × assumed life',
+         ['launch_bom', 'provider_deployment', 'provider_annual_service', 'life_years'],
+         'Management product-cost boundary excludes corporate SG&A/R&D; neither complete company cash nor a field-qualified cost estimate.'),
+    ]
+    calculations = {}
+    for key, label, value, formula, source_roles, scope in definitions:
+        calculations[key] = {'label': label, 'value': float(value), 'unit': 'USD',
+                             'formula': formula, 'input_ids': [roles[r] for r in source_roles],
+                             'scope': scope, 'evidence_ids': ['FG-E021']}
+    cash = audit['cash_roles']
+    gross = read(cash['gross'], 'USD', 'Business combination and related financings', 'Aggregate reported 2026-11-05')
+    prior = read(cash['prior'], 'USD', 'Business combination and related financings', 'Aggregate reported 2026-11-05')
+    if not 0 <= prior <= gross:
+        raise ValueError('Prior funding must be a nonnegative component of gross funding')
+    calculations['other_gross_financing_components'] = {
+        'label': 'Gross headline less already-received component', 'value': float(gross - prior), 'unit': 'USD',
+        'formula': 'reported aggregate gross financing − included prior funding',
+        'input_ids': [cash['gross'], cash['prior']], 'evidence_ids': ['FG-E022'],
+        'scope': 'Arithmetic of approximate headline components before expenses; not net new cash or available cash balance.'}
+    financials = []
+    for row in audit['financial_periods']:
+        values = {role: read(key, 'USD', 'Agility Robotics standalone company', row['period'])
+                  for role, key in row['metric_roles'].items()}
+        if any(v % 1 for v in values.values()):
+            raise ValueError('Historical statements are recorded in whole USD')
+        if values['net_sales'] - values['cost_of_goods_sold'] != values['gross_result']:
+            raise ValueError('Historical gross result does not reconcile: ' + row['period'])
+        financials.append({'period': row['period'], **{k: int(v) for k, v in values.items()}, 'input_ids': row['metric_roles'],
+                           'evidence_ids': row['evidence_ids'],
+                           'scope': 'Whole-company amounts for unequal observation periods; no annualization or per-robot allocation.'})
+    return {'status': 'disclosure_arithmetic_not_realized_unit_economics', 'audit_id': audit['audit_id'],
+            'calculations': calculations, 'financial_periods': financials,
+            'unknowns': audit['unresolved'],
+            'population_guard': 'No ratio combines site totes and multi-program fleet hours.',
+            'rounding_boundary': 'Exact component arithmetic can differ from approximate slide headlines; this is not a correction of undisclosed internal modeling.',
+            'source_boundary': 'Source assumptions and historical disclosures remain separate from synthetic model parameters.'}
+
+
 def research_summary(root=ROOT):
     field = json.loads((root / 'data/field_support_denominators.json').read_text())
     coordination = json.loads((root / 'data/coordination_reproducibility.json').read_text())
@@ -186,6 +270,12 @@ def research_summary(root=ROOT):
     if path in accepted:
         result['onboard_timing'] = onboard_timing_summary(json.loads((root/path).read_text()))
         result['source_snapshot_sha256'][Path(path).name] = hashlib.sha256((root/path).read_bytes()).hexdigest()
+    path = 'data/customer_evidence.json'
+    if path in accepted:
+        customer = json.loads((root/path).read_text())
+        if customer.get('disclosure_audits'):
+            result['commercial_disclosures'] = commercial_disclosure_summary(customer)
+            result['source_snapshot_sha256'][Path(path).name] = hashlib.sha256((root/path).read_bytes()).hexdigest()
     return result
 
 

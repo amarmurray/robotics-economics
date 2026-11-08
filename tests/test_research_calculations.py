@@ -1,12 +1,46 @@
 import copy
 import unittest
 from model.research_calculations import research_summary, tac_cost_summary, field_support_summary, ROOT
-from model.research_calculations import onboard_timing_summary
+from model.research_calculations import onboard_timing_summary, commercial_disclosure_summary
 from unittest.mock import patch
 import json
 
 
 class SourceArithmetic(unittest.TestCase):
+    def test_commercial_components_are_not_returns_or_cash_balances(self):
+        packet=json.loads((ROOT/'data/customer_evidence.json').read_text())
+        result=commercial_disclosure_summary(packet)
+        self.assertEqual([r['value'] for r in result['calculations'].values()], [535000,400000,240000,365000000])
+        self.assertEqual(result['financial_periods'][0]['gross_result'],-2691267)
+        self.assertEqual(result['financial_periods'][1]['operating_cash_flow'],-86162577)
+        self.assertNotEqual(result['financial_periods'][1]['net_result'],result['financial_periods'][1]['operating_cash_flow'])
+        self.assertTrue(all(x['value'] is None for x in result['unknowns'].values()))
+        self.assertNotIn('throughput', result['calculations'])
+        self.assertIn('commercial_disclosures',research_summary())
+        with patch('model.packages.load_accepted_packages',return_value={'packages':[]}):
+            unaccepted=research_summary()
+        self.assertNotIn('commercial_disclosures',unaccepted)
+        self.assertNotIn('customer_evidence.json',unaccepted['source_snapshot_sha256'])
+
+    def test_commercial_wrong_generation_units_period_and_missing_values_fail(self):
+        original=json.loads((ROOT/'data/customer_evidence.json').read_text())
+        for field,value in [('configuration','Digit 4'),('unit','USD per year'),('population','other offering'),('period','2025'),('value',None),('value',True),('value',-1)]:
+            packet=copy.deepcopy(original)
+            metric=next(q for e in packet['evidence'] for q in e.get('quantities',[]) if q.get('quantity_id')=='FG-Q-D5-LAUNCH-BOM')
+            metric[field]=value
+            with self.assertRaises(ValueError):commercial_disclosure_summary(packet)
+
+    def test_commercial_historical_and_funding_reconciliation_rejects_inconsistent_sources(self):
+        original=json.loads((ROOT/'data/customer_evidence.json').read_text())
+        for key,value in [('FG-Q-AGILITY-2025-GROSS-RESULT',-1),('FG-Q-AGILITY-2025-NET-SALES',1781967.5),('FG-Q-CLOSE-PRIOR',466000000)]:
+            packet=copy.deepcopy(original)
+            metric=next(q for e in packet['evidence'] for q in e.get('quantities',[]) if q.get('quantity_id')==key)
+            metric['value']=value
+            with self.assertRaises(ValueError):commercial_disclosure_summary(packet)
+        packet=copy.deepcopy(original)
+        packet['evidence'].append(copy.deepcopy(packet['evidence'][-2]))
+        with self.assertRaises(ValueError):commercial_disclosure_summary(packet)
+
     def test_onboard_summary_preserves_qualification_missingness(self):
         packet=json.loads((ROOT/'data/onboard_workload_qualification.json').read_text())
         summary=onboard_timing_summary(packet)

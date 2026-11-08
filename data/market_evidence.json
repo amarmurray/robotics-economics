@@ -3790,7 +3790,8 @@
           "artifact": "model/results/learning_execution.json",
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
-      }
+      },
+      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms."
     },
     {
       "decision_id": "DE-PACK-UTILITY",
@@ -3917,7 +3918,8 @@
           "artifact": "model/results/learning_execution.json",
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
-      }
+      },
+      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms."
     },
     {
       "decision_id": "DE-PACK-AUTO",
@@ -4036,7 +4038,8 @@
           "artifact": "model/results/learning_execution.json",
           "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
         }
-      }
+      },
+      "provider_contract_gate": "Qualify the actual service/configuration, retained work, update/support obligations and dated customer/provider funding. The Agility source audit supplies questions, not transferable warehouse costs, robot rates or negotiated terms."
     }
   ],
   "decision_campaign_context": {
@@ -4044,6 +4047,7 @@
     "status": "initial_decision_checkpoint_not_campaign_completion",
     "selection_basis": "Hospital and utility required by objective; automotive chosen for bounded humanoid operating exposure and explicit generation/mixed-workflow contrast. No ROI ranking among the six cells is asserted.",
     "preservation": "Original cell records, labor totals, source rows and all scenario assumptions unchanged.",
-    "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths."
+    "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths.",
+    "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack."
   }
 }
