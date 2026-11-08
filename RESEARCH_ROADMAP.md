@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-**Active new campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), recorded execution window 7–14 November 2026. Edition 0.21 deepens [R&D, qualification and supported supply](research/learning_qualification.md) with four bounded primary-source records. Generated data, video metrics, physical task scores, self-assessment and supported capacity remain distinct. Ten challenge families retain bounded implementations; this evidence tranche adds no new completed family. Next: join eligible-data, physical qualification, retained-cohort and finite support/supply constraints to the existing execution model, preserving the same clock and full A–K scope.
+**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), recorded execution window 7–14 November 2026. Edition 0.27 challenges the hospital baseline with a primary conventional dispatch implementation. All fourteen bounded challenge families / 144 worlds remain; empirical all-service costs, actual payroll, asset recovery and broader annual/fleet integration remain incomplete. Next prioritize a decision-changing target record or an unresolved integration requirement, preserving the original clock and full A–K scope.
 
 Version 1.11 · Post-window continuation, 7 November 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.26.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.27.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: hospital support, repair and replacement evidence, edition 0.26
+## Current checkpoint: conventional human-dispatch evidence, edition 0.27
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This is the same sole writer, checkout and published environment. No replacement task, schedule, clock, native-goal action or quota reset occurred. Native goal/quota controls remain unexposed, and uninterrupted execution is not claimed.
+
+From clean remote-verified input `8b7b33f575c97af446b528d4279988a1c3792d58`, [the conventional dispatch follow-up](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) adds H-PROXIMITY-2025 and H-COMP-01 to the existing digital package. A primary patient-transport implementation strengthens the human comparator while separating raw from adjusted outcomes, distributional effects and elapsed request time from staff work or paid commitments. Narrative/Table 2 confidence bounds remain unreconciled. Main methods/results/limitations were read; linked PDFs returned challenge HTML and the supplement/cancellation audit remains unread. No challenge was bypassed or restricted patient data obtained.
+
+The hospital decision requires the strongest feasible conventional dispatcher alongside complete service and funded repair fallback. This advances substantial H, but measures no LLM or robot advantage and supplies no target coefficient. Utility/automotive inherit the comparison method only. No empirical full-cost requirement is closed.
+
+Fresh checks pass **391 Python tests** in 214.528 seconds, **36 Node assertions**, twelve JavaScript syntax checks and all 37 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new comparison is checked in three views, including two raw/adjusted outcome rows, four decision gates, three subgroup/labor rows, four explicit unknowns, exact source drawer, filters, package bytes/fingerprint and invariance under scenario changes. Scenario export/reload and all sixteen prior expansion and seventeen renewal browser hashes pass. The new panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged. 20 result files are byte-identical and 11 change only evidence fingerprints. All model Python modules and numerical assumptions, prior digital claims, customer evidence and field-support data remain unchanged. All 69 legacy requirement and 65 question statuses are preserved; legacy acceptance remains **53 bounded met / 16 partial**. Fourteen bounded families / 144 worlds remain. The registry has 13 packages, 206 claims, 429 quantities and 121 explicit-null markers. **304 manifest hashes and 679 relative Markdown links** verify without broken paths.
+
+**Next execution:** prioritize an unresolved integration requirement or a target operating/contract record that can reverse a recommendation. Asset sale/redeployment and the allocation of actual recovery proceeds are still missing from default/recovery; full annual-fleet/component integration and optimized investment remain incomplete. Target accepted service, retained staffing, implementation/support cash and rights are still needed for empirical ranking. Avoid another favorable activity total or an uncalibrated variant that merely repeats an existing mechanism.
+
+**Next question:** after default or exit, can an actually eligible buyer acquire and requalify a specific asset with funded transition and support, and which creditor/customer obligations survive the recovery?
+
+## Previous checkpoint: hospital support, repair and replacement evidence, edition 0.26
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The environment-disconnected diagnostic was resolved by observed connected/running status and a successful shell/repository check in the same workspace/configuration; working changes were preserved. No replacement task, writer, schedule or clock was created. Native goal/quota controls remain unexposed; no uninterrupted-execution claim is made.
 

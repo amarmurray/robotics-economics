@@ -35,6 +35,10 @@ The first comparator is a digitally improved human courier: common dispatch, rou
 
 The [hospital contract audit](hospital_support_contracts.md) adds an explicit reason to withhold a deployment recommendation based on hardware price plus maintenance. A retrieved T-2.5 schedule separates site work and recurring support, while its attached remedy does not promise a maximum restoration time or a funded substitute. A UK hospital award attributes maintenance dependence to its installed closed system. Neither source measures a US hospital outcome. Proceed now requires a current configured order and repair/exit rights **plus a funded fallback capable of the same accepted service**. Reject fee relief as a substitute for delivered medication, and reject an entry case that assumes cheap or immediate replacement without evidence. The comparative staffing studies and their conflicts remain unchanged.
 
+### Compare the best feasible human dispatcher
+
+The [conventional human evidence follow-up](conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) adds a real patient-flow implementation to the baseline challenge. Its observational associations are not medication-service coefficients. Require a competent conventional dispatcher and complete due-request, cancellation, affected-group and staff-activity records before attributing incremental agent or robot value. Aggregate request elapsed time cannot establish removed paid labor. This strengthens the hospital proceed/wait/reject gates while leaving all prior scenario quantities unchanged.
+
 ## Utility inspection — separate information from the residual visit
 
 The accepted service is a required asset/measurement set, at the specified quality and interval, with reviewer disposition. Maintenance authorization and completed physical intervention are downstream activities. A correctly interpreted absence of an anomaly can be useful information; the model must not assign every anomaly an avoided failure loss.

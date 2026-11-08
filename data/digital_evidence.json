@@ -58,7 +58,7 @@
       "url": "https://metr.org/blog/2026-02-24-uplift-update/",
       "publisher": "METR",
       "publication_date": "2026-02-24",
-      "observation_period": "Original February\u2013June 2025; follow-up started August 2025, interpreted February 2026",
+      "observation_period": "Original February–June 2025; follow-up started August 2025, interpreted February 2026",
       "retrieved_at": "2026-10-25",
       "source_class": "research_organization_methodological_update",
       "epistemic_status": "research_evidence_with_material_selection_limit",
@@ -87,7 +87,7 @@
           "value": 19,
           "unit": "percent longer task time",
           "denominator": "AI-disallowed task time",
-          "period": "February\u2013June 2025",
+          "period": "February–June 2025",
           "population": "original study",
           "measurement_status": "historical_randomized_estimate",
           "confidence_interval": [
@@ -128,11 +128,11 @@
       "url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf",
       "publisher": "Census CES / Bonney et al.",
       "publication_date": "2026-04",
-      "observation_period": "November 2025\u2013January 2026 reference period; supplement fielded December 2025\u2013February 2026",
+      "observation_period": "November 2025–January 2026 reference period; supplement fielded December 2025–February 2026",
       "retrieved_at": "2026-10-25",
       "source_class": "government_working_paper",
       "epistemic_status": "observational_survey",
-      "locator": "Abstract; Sections 1\u20132 measurement architecture; discussion of two-week versus six-month frames",
+      "locator": "Abstract; Sections 1–2 measurement architecture; discussion of two-week versus six-month frames",
       "quote": "An important limitation is that worker-use measures are reported by firm respondents rather than directly by employees",
       "limitations": "Question changed effective November 17 2025; no direct time-series comparison to earlier narrow wording; worker-use reference is six months vs firm-use two weeks; firms' performance correlations are not causal; anticipated 22% future use is expectation not observation.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
@@ -142,7 +142,7 @@
           "value": 18,
           "unit": "percent firms",
           "denominator": "BTOS represented firms",
-          "period": "November 2025\u2013January 2026",
+          "period": "November 2025–January 2026",
           "population": "US BTOS business population",
           "measurement_status": "survey_estimate"
         },
@@ -150,7 +150,7 @@
           "value": 32,
           "unit": "percent employment-weighted firms",
           "denominator": "employment in represented firms",
-          "period": "November 2025\u2013January 2026",
+          "period": "November 2025–January 2026",
           "population": "US BTOS business population",
           "measurement_status": "survey_estimate"
         },
@@ -209,7 +209,7 @@
       "retrieved_at": "2026-10-25",
       "source_class": "research_paper",
       "epistemic_status": "simulated_workflow_benchmark",
-      "locator": "Introduction; Sections 3\u20137; results table; Appendix D",
+      "locator": "Introduction; Sections 3–7; results table; Appendix D",
       "quote": "the best performing model, Gemini 2.5 Pro was able to autonomously perform 30.3%",
       "limitations": "Not live firm output or current 2026 frontier; simulated coworkers; fixed self-hosted systems; model and harness versions differ; API costs omit integration and humans; full run budget/latency not fully extracted in first wave.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
@@ -283,7 +283,7 @@
         {
           "value": 94,
           "unit": "percent correct sign",
-          "denominator": "16 additional model\u00d7benchmark configurations",
+          "denominator": "16 additional model×benchmark configurations",
           "period": "validation",
           "population": "SWE-bench Verified / Terminal-Bench",
           "measurement_status": "reported_validation"
@@ -310,7 +310,7 @@
       "epistemic_status": "superseded_version_for_current_synthesis",
       "locator": "Opening; predictive model",
       "quote": "Through a controlled evaluation of 180 agent configurations",
-      "limitations": "January R\u00b2 = .513 and 80.9% financial-task uplift differ from later expanded result; preserve as version history only.",
+      "limitations": "January R² = .513 and 80.9% financial-task uplift differ from later expanded result; preserve as version history only.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
       "target_parameters_allowed": []
     },
@@ -324,9 +324,9 @@
       "retrieved_at": "2026-10-25",
       "source_class": "research_paper",
       "epistemic_status": "physical_research_deployment",
-      "locator": "Sections 4.5\u20134.6 and 5; Table 1; Section 5.1",
+      "locator": "Sections 4.5–4.6 and 5; Table 1; Section 5.1",
       "quote": "our measure of success for AutoRT is the diversity of the collected data",
-      "limitations": "53 total differs from >20 simultaneous; humans reset scenes and supervise 3\u20135 mobile robots; selection and distribution shift severe; no accepted-output cost or enterprise/ERP productivity claim; episode count is not training value.",
+      "limitations": "53 total differs from >20 simultaneous; humans reset scenes and supervise 3–5 mobile robots; selection and distribution shift severe; no accepted-output cost or enterprise/ERP productivity claim; episode count is not training value.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
       "quantities": [
         {
@@ -378,7 +378,7 @@
       "source_class": "technical_documentation",
       "epistemic_status": "conventional_interface_evidence",
       "locator": "Robot fleet integration; integration-feature table; Door integration",
-      "quote": "RMF is specifically designed to allow this type of \u201cmixed levels of control\u201d",
+      "quote": "RMF is specifically designed to allow this type of “mixed levels of control”",
       "limitations": "Documentation, not measured LLM uplift; latest URL not pinned release; publication_date null because not stated; sampled page describes fleet/door messages, not a complete ERP transaction protocol.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
       "missingness_reasons": {
@@ -396,7 +396,7 @@
       "retrieved_at": "2026-10-25",
       "source_class": "research_paper",
       "epistemic_status": "physical_experimental_evidence",
-      "locator": "Methods; Tables I\u2013II; domain-randomization baselines; VIII Limitations",
+      "locator": "Methods; Tables I–II; domain-randomization baselines; VIII Limitations",
       "quote": "we train policies for all 16 configurations and evaluate all policies in the real world",
       "limitations": "16 DR configurations and three training seeds per configuration; best-of-candidates selection matters; no policy-selection mechanism established; proprioceptive tasks and existing simulation assets; runtime comparison against CEM/BayRn is not total humanoid R&D savings.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
@@ -445,7 +445,7 @@
         {
           "value": 74.8,
           "unit": "percent success",
-          "denominator": "120 tasks \u00d7 five episodes",
+          "denominator": "120 tasks × five episodes",
           "period": "page snapshot",
           "population": "Astra Agentic, simulated DROID",
           "measurement_status": "benchmark_result"
@@ -495,7 +495,7 @@
     },
     {
       "evidence_id": "H-FTC-2025",
-      "claim": "Selected cloud\u2013lab partnerships combine equity, cloud-spend commitments, distribution and information/control rights, with potential switching and input-access implications.",
+      "claim": "Selected cloud–lab partnerships combine equity, cloud-spend commitments, distribution and information/control rights, with potential switching and input-access implications.",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study",
       "publisher": "Federal Trade Commission",
       "publication_date": "2025-01-17",
@@ -504,7 +504,7 @@
       "source_class": "regulator_primary_summary",
       "epistemic_status": "historical_relationship_evidence",
       "locator": "Key Findings; final scope paragraph",
-      "quote": "Commitments that require AI developers to spend a large portion of their CSP partner\u2019s investment on cloud services",
+      "quote": "Commitments that require AI developers to spend a large portion of their CSP partner’s investment on cloud services",
       "limitations": "Three selected partnerships, not whole industry or current October 2026 contract inventory; potential competition concerns not proven realized harm; summary of report fetched, underlying confidential terms unavailable.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
       "target_parameters_allowed": []
@@ -577,7 +577,7 @@
       "retrieved_at": "2026-10-25",
       "source_class": "research_paper",
       "epistemic_status": "historical_training_scaling_experiment",
-      "locator": "Sections 3.1\u20133.4; Table 2; Section 4",
+      "locator": "Sections 3.1–3.4; Table 2; Section 4",
       "quote": "there is significant uncertainty extrapolating out many orders of magnitude",
       "limitations": "Text-pretraining loss and downstream evaluations under specified fixed-training compute; optimizer/data differences; no inference-lifetime or physical data cost optimum; exponents not robot reliability or productivity coefficients.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
@@ -585,16 +585,16 @@
     },
     {
       "evidence_id": "H-HOSPITAL-2026",
-      "claim": "ChristianaCare's 2022\u201325 nurse-led pilot delivered operational value in nonurgent flows but did not meaningfully augment complex time-sensitive nursing despite tested EHR/elevator integration.",
+      "claim": "ChristianaCare's 2022–25 nurse-led pilot delivered operational value in nonurgent flows but did not meaningfully augment complex time-sensitive nursing despite tested EHR/elevator integration.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13048758/",
       "publisher": "Delaware Journal of Public Health / ChristianaCare authors",
       "publication_date": "2026-03-31",
-      "observation_period": "Three-year pilot 2022\u20132025",
+      "observation_period": "Three-year pilot 2022–2025",
       "retrieved_at": "2026-10-25",
       "source_class": "operator_authored_research_reflection",
       "epistemic_status": "physical_operating_evidence",
       "locator": "Abstract; Nurses Shaping Robotic Innovation",
-      "quote": "current cobot capabilities were unable to meaningfully augment nurses\u2019 complex and often time-sensitive patient care workflows",
+      "quote": "current cobot capabilities were unable to meaningfully augment nurses’ complex and often time-sensitive patient care workflows",
       "limitations": "Reflection and aggregate reported delivery activity, not randomized productivity or full cost study; grant-funded; no LLM contribution attribution; delivered count is not payroll avoided.",
       "retrieval_method": "Exa full-page/full-paper fetch; inspected relevant full-text sections, not search snippet alone",
       "quantities": [
@@ -602,9 +602,195 @@
           "value": 48600,
           "unit": "deliveries, lower bound",
           "denominator": "three cobots over grant period",
-          "period": "2022\u20132025",
+          "period": "2022–2025",
           "population": "more than 80 patient areas, one health system",
           "measurement_status": "operator_reported_activity"
+        }
+      ],
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "evidence_id": "H-PROXIMITY-2025",
+      "claim": "A deployed conventional EMR proximity rule is associated with improved adjusted patient-request completion time; raw aggregate times did not significantly improve. The comparison is observational and does not identify payroll removal or a robot/LLM effect.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12277699/",
+      "publisher": "Sun et al. / Journal of the American Medical Informatics Association",
+      "publication_date": "2025-05-09",
+      "observation_period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_observational_implementation_study",
+      "epistemic_status": "bounded_conventional_human_dispatch_evidence",
+      "locator": "Methods; Results Tables 1–3; Discussion and limitations",
+      "retrieval_method": "Main HTML fetched through ordinary public urllib request (HTTP 200), parsed and read through methods/results/discussion/limitations. PDF and supplement links returned an HTML download challenge, not PDF bytes; challenge not solved or bypassed. Supplement cancellation results remain unread.",
+      "source_fingerprint": {
+        "artifact": "retrieved main HTML",
+        "sha256": "39c794f6acfd9ebaf8100e299a26c73e413296bcf5c76139e5b736db3d00f246"
+      },
+      "configuration": "Existing EMR transport module; fixed same-group priority bonus using last completed location, queue age and priority fallback; supervisor overrides remain. Sixteen groups selected using DES and expert input. No LLM or robot intervention.",
+      "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+      "selection": "136544 completed peak-weekday requests before exclusions; durations below 7 or above 156 minutes removed. Other-team, cancelled and off-peak requests are not the analyzed completed-trip denominator.",
+      "methods": "Before/after gamma and Poisson GLMs with day-clustered standard errors and measured workload, staffing, precautions, mode and spatiotemporal controls. Priority and nearby assignment excluded from adjustment for the authors’ collider-bias concern. Nonrandom temporal comparison remains vulnerable to residual confounding.",
+      "limitations": "No current matched medication-service comparison, actual staffing/payroll change, complete implementation cost, patient experience or clinical outcome estimate. Unreliable arrival-to-patient timestamps prevent full elapsed-time decomposition. Authors report sensitivity analyses, but the supplement and cancellation balance have not been independently inspected. Table 2 and narrative confidence bounds differ; no favorable bound is selected as a target coefficient.",
+      "quantities": [
+        {
+          "quantity_id": "H-Q-PROX-N",
+          "label": "Analyzed completed requests",
+          "value": 136414,
+          "unit": "requests",
+          "denominator": "70510 control plus 65904 intervention completed requests after duration exclusions",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Results, Analysis 2"
+        },
+        {
+          "quantity_id": "H-Q-PROX-CONTROL-TIME",
+          "label": "Control mean request elapsed time",
+          "value": 40.6,
+          "unit": "minutes per completed request",
+          "denominator": "control completed requests",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1"
+        },
+        {
+          "quantity_id": "H-Q-PROX-INTERVENTION-TIME",
+          "label": "Intervention mean request elapsed time",
+          "value": 41.0,
+          "unit": "minutes per completed request",
+          "denominator": "intervention completed requests",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1"
+        },
+        {
+          "quantity_id": "H-Q-PROX-CONTROL-LATE",
+          "label": "Control requests exceeding 45 minutes",
+          "value": 31.3,
+          "unit": "percent",
+          "denominator": "control completed requests",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1"
+        },
+        {
+          "quantity_id": "H-Q-PROX-INTERVENTION-LATE",
+          "label": "Intervention requests exceeding 45 minutes",
+          "value": 31.9,
+          "unit": "percent",
+          "denominator": "intervention completed requests",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1"
+        },
+        {
+          "quantity_id": "H-Q-PROX-RAW-TIME",
+          "label": "Unadjusted elapsed-time ratio",
+          "value": 1.009,
+          "unit": "ratio",
+          "denominator": "intervention mean / control mean, source bootstrap estimate",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1",
+          "confidence_interval_95": [
+            0.983,
+            1.036
+          ]
+        },
+        {
+          "quantity_id": "H-Q-PROX-RAW-LATE",
+          "label": "Unadjusted threshold-exceedance ratio",
+          "value": 1.019,
+          "unit": "ratio",
+          "denominator": "intervention proportion / control proportion, source bootstrap estimate",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 1",
+          "confidence_interval_95": [
+            0.941,
+            1.104
+          ]
+        },
+        {
+          "quantity_id": "H-Q-PROX-ADJUSTED-TIME",
+          "label": "Adjusted elapsed-time association",
+          "value": 0.95,
+          "unit": "multiplicative ratio",
+          "denominator": "intervention versus control in adjusted gamma GLM; not randomized causal effect",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 2",
+          "confidence_interval_95": [
+            0.919,
+            0.982
+          ],
+          "uncertainty_conflict": "Narrative prints [0.915,0.982] for the same point estimate. No correction is inferred. Table 3 uses group-specific intervention effects and reports overall [0.920,0.982]; it is not treated as an identical model."
+        },
+        {
+          "quantity_id": "H-Q-PROX-ADJUSTED-LATE",
+          "label": "Adjusted threshold-exceedance association",
+          "value": 0.84,
+          "unit": "risk ratio",
+          "denominator": "intervention versus control in adjusted Poisson GLM; not a percentage-point change",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 2",
+          "confidence_interval_95": [
+            0.761,
+            0.926
+          ]
+        },
+        {
+          "quantity_id": "H-Q-PROX-QUEUE-G2",
+          "label": "Group 2 queue-jumping association",
+          "value": 1.075,
+          "unit": "risk ratio",
+          "denominator": "intervention versus control for inpatient-floor group 2",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 3",
+          "confidence_interval_95": [
+            1.009,
+            1.145
+          ]
+        },
+        {
+          "quantity_id": "H-Q-PROX-QUEUE-G5",
+          "label": "Group 5 queue-jumping association",
+          "value": 1.258,
+          "unit": "risk ratio",
+          "denominator": "intervention versus control for inpatient-floor group 5",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "reported_observational_result",
+          "locator": "Table 3",
+          "confidence_interval_95": [
+            1.173,
+            1.351
+          ]
+        },
+        {
+          "quantity_id": "H-Q-PROX-AUTHOR-HOURS",
+          "label": "Authors’ elapsed-time-to-person-hours interpretation",
+          "value": 8.3,
+          "unit": "reported person-hours per peak weekday",
+          "denominator": "authors aggregate 499 estimated request-minutes over 231.2 daily requests; not observed staff activity or payroll",
+          "population": "One northeastern US teaching hospital; completed Central transport patient requests, weekdays 08:00–18:00; excludes ED/perioperative and critically ill patient transport managed by other teams.",
+          "period": "Control 2021-01-01–2022-02-27; intervention 2022-02-28–2023-03-31",
+          "measurement_status": "author_interpretation_not_measured_labor_saving",
+          "locator": "Discussion",
+          "boundary": "Request-to-completion includes preassignment waiting. The paper does not establish an avoidable paid shift from this conversion."
         }
       ],
       "cell_ids": [
@@ -630,7 +816,7 @@
       "human_involvement": "Expert task writers/reference outputs and blind graders",
       "acceptance": "Paired output preference, win/tie/loss; not full job acceptance",
       "retries": "One-shot framing",
-      "timing_cost": "Headline approximately 100\u00d7 comparison includes inference time and API billing only; excluded from target calibration.",
+      "timing_cost": "Headline approximately 100× comparison includes inference time and API billing only; excluded from target calibration.",
       "failure_severity": "Professional-output defect, not deployed consequential decision",
       "external_validity": "Task selection, one-shot context, omission of workflow ownership and physical action",
       "contamination": "The public 220-task subset requires contamination checks for later models."
@@ -665,7 +851,7 @@
       "version": "Nature article, 24 July 2026; 260 configurations.",
       "systems": "GPT-5 family; Gemini 2.0/2.5; Claude Sonnet 3.7/4/4.5.",
       "harness": "Single-agent and independent, centralized, decentralized and hybrid multi-agent systems.",
-      "population": "Six benchmarks. Four have 50\u2013100 instances per configuration. SWE-bench Verified uses 20 tasks sampled with seed 42; Terminal-Bench uses the first 20 tasks of an 89-instance snapshot.",
+      "population": "Six benchmarks. Four have 50–100 instances per configuration. SWE-bench Verified uses 20 tasks sampled with seed 42; Terminal-Bench uses the first 20 tasks of an 89-instance snapshot.",
       "budget": "Matched per-system reasoning-token ceilings and tool access; reported mean approximately 4,800 tokens. Budgets are split across agents.",
       "human_involvement": "Task/evaluator construction, no live production operators",
       "acceptance": "Benchmark-specific task success and within-domain architecture ranking.",
@@ -684,7 +870,7 @@
       "version": "Page snapshot retrieved 25 October 2026; main 120-task benchmark.",
       "systems": "GPT-6 Astra, medium reasoning, in Direct, Agentic and Orchestrated configurations; simulated DROID.",
       "harness": "Persistent Codex, direct API, or oversight of Cosmos3-Nano-Policy.",
-      "population": "120 pick-and-place tasks \u00d7 five fixed-seed episodes.",
+      "population": "120 pick-and-place tasks × five fixed-seed episodes.",
       "budget": "15 Hz simulation paused during inference; no walltime/retry limit; task action-step limits; 8,192 completion tokens per call.",
       "human_involvement": "Simulation setup and prompts; no real productive deployment.",
       "acceptance": "RoboLab success and completion score",
@@ -1056,7 +1242,7 @@
       ],
       "digital_input": "Images, a language objective, robot proprioception, descriptions of available policies, and history.",
       "output": "A proposed task/policy selection or validated end-effector targets.",
-      "interface": "VLM scene description \u2192 LLM proposal and affordance filtering \u2192 scripted, learned or teleoperated policy. Astranomy's host validates the action.",
+      "interface": "VLM scene description → LLM proposal and affordance filtering → scripted, learned or teleoperated policy. Astranomy's host validates the action.",
       "execution": "A low-level robot controller is separate from the language planner. AutoRT is physical; Astranomy is simulated.",
       "timing": "Autonomous collection is not productive throughput. Astranomy pauses simulation during inference.",
       "authority": "Supervisors and guardrails retain operating authority; a model proposal does not prove success.",
@@ -1084,18 +1270,19 @@
         "H-RMF-INTERFACE",
         "H-SAP-2026",
         "H-HOSPITAL-2026",
-        "H-COORDINATION-2026"
+        "H-COORDINATION-2026",
+        "H-PROXIMITY-2025"
       ],
       "digital_input": "ERP orders and priorities; WMS/MES and inventory state; robot poses/routes; building state; staff capacity.",
       "output": "A candidate allocation, route, schedule, work order or business transaction.",
-      "interface": "ERP/WMS/MES decision layer \u2192 validated task API \u2192 fleet manager \u2192 robot. Open-RMF messages include fleet_states, destination_requests, mode_requests, path_requests, DoorState and DoorRequest.",
+      "interface": "ERP/WMS/MES decision layer → validated task API → fleet manager → robot. Open-RMF messages include fleet_states, destination_requests, mode_requests, path_requests, DoorState and DoorRequest.",
       "execution": "Conventional fleet traffic/building control is documented; SAP agents are announced. A combined LLM-to-robot production stack is not observed in these sources.",
       "timing": "State freshness, deadlines, queues and confirmation latency must be explicit.",
       "authority": "The customer process owner approves policy; the fleet manager controls robots. A read-only fleet cannot be commanded. Transaction permissions are not inferred.",
       "acknowledgement": "Task acceptance/rejection, mission state, door state and inventory/work-order reconciliation.",
       "fallback": "Idempotent transactions, timeouts, replanning and a human exception queue are proposed design requirements.",
-      "comparator": "A human planner and conventional solver/dispatcher with the same information.",
-      "observed_effect": "Interface feasibility and operator workflow limits; no isolated LLM productivity uplift.",
+      "comparator": "Human dispatch with feasible conventional proximity/priority rules or a solver, matched information, authority and service obligations. H-PROXIMITY-2025 supplies a bounded implementation example, not a target coefficient.",
+      "observed_effect": "Interface feasibility and operator workflow limits; no isolated LLM productivity uplift. A conventional EMR intervention has adjusted observational timing associations; no payroll or clinical equivalence is established.",
       "target_effect": null,
       "missing_reason": "No integrated production experiment isolates the LLM contribution.",
       "resources": "Integration engineering, human supervision, inference, network and shared corridors/lifts.",
@@ -1118,7 +1305,7 @@
       ],
       "digital_input": "Simulator code, task objectives, safety constraints, training statistics and a physics prior.",
       "output": "Candidate code, rewards, domain-randomization ranges and experiment proposals.",
-      "interface": "Generated candidate \u2192 code checks \u2192 separately authorized training \u2192 physical validation \u2192 compatible policy release.",
+      "interface": "Generated candidate → code checks → separately authorized training → physical validation → compatible policy release.",
       "execution": "A research workflow with RL training and hardware validation. This campaign reviews evidence; it does not run those experiments.",
       "timing": "The engineering critical path includes training, hardware-test availability and human review.",
       "authority": "Engineers accept candidates and validation results; automatic production deployment is not implied.",
@@ -1288,7 +1475,7 @@
     {
       "dossier_id": "H-DOS01",
       "type": "connected_ecosystem",
-      "boundary": "Physical inputs \u2192 model development \u2192 inference/distribution \u2192 agents/tools \u2192 implementation \u2192 operating customer \u2192 accepted output.",
+      "boundary": "Physical inputs → model development → inference/distribution → agents/tools → implementation → operating customer → accepted output.",
       "evidence_ids": [
         "H-FTC-2025",
         "H-DEPLOYCO-2026",
@@ -1328,6 +1515,19 @@
       "finding": "Changing selection and concurrent-agent work undermine task-time uplift measurement; the current magnitude is not identified.",
       "counterfactual": "AI allowed versus disallowed for randomized submitted tasks, with selection of participants and tasks.",
       "target_bridge": "Robotics R&D must measure validated engineering output, active human time, compute and the critical path."
+    },
+    {
+      "dossier_id": "H-DOS04",
+      "type": "conventional_digital_human_comparator",
+      "market": "Hospital patient transport",
+      "chain_stage": "Internal dispatch and patient movement",
+      "evidence_ids": [
+        "H-PROXIMITY-2025"
+      ],
+      "finding": "A real conventional coordination alternative with observational timing associations and distributional tradeoffs; neither robot nor LLM uplift is identified.",
+      "counterfactual": "Priority/age dispatch versus proximity-enhanced dispatch; temporal conditions and active staffing differ.",
+      "target_bridge": "Strengthen the comparator and measure retained work; patient-flow percentages do not transfer to medication delivery.",
+      "analysis": "research/conventional_coordination.md"
     }
   ],
   "joint_scenario_contract": {
@@ -1360,11 +1560,12 @@
       "Integration amortization"
     ],
     "prohibited_transfers": [
-      "QJE 15% \u2192 physical work",
-      "GDPval 100\u00d7 \u2192 whole workflow",
-      "Nature 45% \u2192 robot coordination threshold",
-      "Astranomy success \u2192 physical uptime",
-      "DrEureka three hours \u2192 total humanoid R&D"
+      "QJE 15% → physical work",
+      "GDPval 100× → whole workflow",
+      "Nature 45% → robot coordination threshold",
+      "Astranomy success → physical uptime",
+      "DrEureka three hours → total humanoid R&D",
+      "Hospital patient elapsed-time ratio → medication labor savings, humanoid performance, LLM uplift or an annual digital path"
     ]
   },
   "next_priorities": [
@@ -1379,7 +1580,7 @@
       "question_id": "H-Q02",
       "priority": "highest",
       "question": "How much does digital-only improvement alter selected human-incumbent baselines?",
-      "next_action": "Find operator or causal studies in healthcare logistics, manufacturing planning or utilities maintenance; separate supporting digital work from physical hours.",
+      "next_action": "Obtain target accepted-service and staff-activity records for the improved conventional workflow, including cancellations, urgent cohorts, implementation cost and paid schedules. H-PROXIMITY-2025 changes the comparator but identifies no target productivity coefficient.",
       "stopping_condition": "A matched outcome/quality/cost estimate, or an explicit null target parameter."
     },
     {
@@ -1412,5 +1613,83 @@
     "H5": "Current peer-reviewed coordination evidence and three interface/contribution maps.",
     "H6": "Historical FTC relationships plus announced deployment companies; a current complete contract map is missing.",
     "H7": "Services/platform dependency analysis; durable profits and open-model competition remain unresolved."
+  },
+  "conventional_baselines": [
+    {
+      "comparison_id": "H-COMP-01",
+      "label": "A stronger human-dispatch baseline",
+      "cell_ids": [
+        "CELL-M10-hospital-logistics-US-2025"
+      ],
+      "evidence_ids": [
+        "H-PROXIMITY-2025"
+      ],
+      "status": "bounded_primary_observation_with_unread_supplement",
+      "summary": "A conventional proximity rule raises the empirical hurdle for robot or agent coordination. Compare the improved human service under the same due requests, capacity, acceptance and cost boundary.",
+      "source_boundary": "Patient transport at one hospital in 2021–23, not medication delivery or a current target configuration. Adjusted associations and unadjusted outcomes answer different questions.",
+      "source_id": "H-PROXIMITY-2025",
+      "rows": [
+        {
+          "outcome": "Request elapsed time",
+          "control_id": "H-Q-PROX-CONTROL-TIME",
+          "intervention_id": "H-Q-PROX-INTERVENTION-TIME",
+          "raw_id": "H-Q-PROX-RAW-TIME",
+          "adjusted_id": "H-Q-PROX-ADJUSTED-TIME"
+        },
+        {
+          "outcome": "Requests exceeding 45 minutes",
+          "control_id": "H-Q-PROX-CONTROL-LATE",
+          "intervention_id": "H-Q-PROX-INTERVENTION-LATE",
+          "raw_id": "H-Q-PROX-RAW-LATE",
+          "adjusted_id": "H-Q-PROX-ADJUSTED-LATE"
+        }
+      ],
+      "interpretation": "The adjusted timing association can motivate local conventional-dispatch qualification. It cannot establish removed labor, clinical equivalence, a stronger result than a robot comparator, or the incremental value of an LLM.",
+      "uncertainty": "Elapsed-time confidence interval: Table 2 [0.919,0.982]; narrative [0.915,0.982], unresolved. Table 3 is a group-interaction specification. No target coefficient or silently corrected result.",
+      "gates": [
+        {
+          "gate": "Service and distribution",
+          "requirement": "Track every due request, cancellations, deadline misses and affected groups. A better average cannot establish acceptable service for each mandatory cohort."
+        },
+        {
+          "gate": "Actual labor",
+          "requirement": "Measure staff busy time, simultaneous tasks, retained coverage and paid schedules. Aggregate request elapsed time includes waiting and is not payroll."
+        },
+        {
+          "gate": "Fair comparison",
+          "requirement": "Give the human dispatcher the same available state and authority. Assess model proposals only after conventional implementation, verification and recovery costs."
+        },
+        {
+          "gate": "Target transfer",
+          "requirement": "Qualify the actual patient or material workflow separately. Preserve custody, urgency, staffing and support; do not copy this study’s percentages."
+        }
+      ],
+      "unknowns": {
+        "avoidable_payroll": {
+          "value": null,
+          "reason": "No verified paid roster or wage-bill removal."
+        },
+        "whole_service_cost": {
+          "value": null,
+          "reason": "No complete incremental configuration, integration, operation and support cost."
+        },
+        "cancellation_balance": {
+          "value": null,
+          "reason": "Main paper refers to the supplement; numerical cancellation findings not retrieved."
+        },
+        "clinical_equivalence": {
+          "value": null,
+          "reason": "Patient experience and clinical outcomes were not directly measured."
+        }
+      },
+      "analysis": "research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information"
+    }
+  ],
+  "continuation_2026_11_08": {
+    "input_commit": "8b7b33f575c97af446b528d4279988a1c3792d58",
+    "edition": "0.27",
+    "finding": "Conventional patient-dispatch evidence and elapsed-time/payroll boundary; no scenario calibration.",
+    "supplement_status": "unretrieved_download_challenge",
+    "original_source_accounting": "Earlier search-call accounting is historical and is not a count of this continuation."
   }
 }

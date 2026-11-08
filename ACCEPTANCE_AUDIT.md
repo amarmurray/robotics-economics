@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: hospital support and replacement evidence, edition 0.26
+## New decision campaign: conventional human-dispatch evidence, edition 0.27
+
+One primary implementation strengthens the hospital comparator and substantial H in the existing [coordination analysis](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information). It adds no synthetic world or estimated target coefficient. Raw/adjusted outcomes, source uncertainty, group tradeoffs, selection and actual labor obligations remain separate; supplemental cancellation results and empirical full-service costs remain unavailable. All broad requirements retain their prior partial/in-progress status; DE-08 retains its met bounded scope.
+
+Fresh checks pass **391 Python tests** in 214.528 seconds, **36 Node assertions**, twelve JavaScript syntax checks and all 37 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new comparison is checked in three views, including two raw/adjusted outcome rows, four decision gates, three subgroup/labor rows, four explicit unknowns, exact source drawer, filters, package bytes/fingerprint and invariance under scenario changes. Scenario export/reload and all sixteen prior expansion and seventeen renewal browser hashes pass. The new panel was visually inspected.
+
+All **976,820 prior typed numeric fields across 31 result JSONs** remain unchanged. 20 result files are byte-identical and 11 change only evidence fingerprints. All model Python modules and numerical assumptions, prior digital claims, customer evidence and field-support data remain unchanged. All 69 legacy requirement and 65 question statuses are preserved; legacy acceptance remains **53 bounded met / 16 partial**. Fourteen bounded families / 144 worlds remain. The registry has 13 packages, 206 claims, 429 quantities and 121 explicit-null markers. **304 manifest hashes and 679 relative Markdown links** verify without broken paths.
+
+The same active campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/conventional_coordination_review.md); this checkpoint does not stop or complete the objective.
+
+## Previous decision checkpoint: hospital support and replacement evidence, edition 0.26
 
 Four primary records and one [hospital contract audit](research/hospital_support_contracts.md) strengthen current-order, installation, support-access, remedy/fallback and replacement gates. The recommendation is stricter without claiming a current site quote, observed downtime, supplier margin or full-service return. Catalog/attachment differences remain explicit; the UK buyer award supplies a bounded structural comparison. All broad empirical requirements stay partial or in progress; DE-08 retains its previously met bounded scope.
 

@@ -80,3 +80,7 @@ Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE
 ## Hospital continuity evidence checkpoint, edition 0.26
 
 [The contract audit](research/hospital_support_contracts.md) makes support-access, funded-fallback and replacement gates concrete without adding synthetic variants. All fourteen challenge families / 144 worlds remain unchanged. The same in-progress campaign and original deadline continue; current target quotes, accepted service, full costs and rights remain open.
+
+## Conventional human evidence checkpoint, edition 0.27
+
+The [dispatch follow-up](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) adds a bounded primary implementation comparator to substantial H. Its observational outcomes, uncertainty, retained work and incomplete cancellation audit do not calibrate the scenarios. Fourteen families / 144 worlds and the original in-progress T0/deadline remain unchanged.

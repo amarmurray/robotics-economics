@@ -3703,12 +3703,13 @@
         "FG-E024",
         "FG-E025",
         "FG-E026",
-        "FG-E027"
+        "FG-E027",
+        "H-PROXIMITY-2025"
       ],
       "alternatives": [
         {
           "alternative": "Digitally improved human courier",
-          "fit": "Reference comparator: dispatch, batching, congestion information and electronic receipt must be measured independently.",
+          "fit": "Qualify a competent conventional human dispatcher with proximity, queue age, priority, state freshness and supervisor authority. H-PROXIMITY-2025 supplies a bounded patient-flow implementation, not a medication-service effect.",
           "retained_work": "Picking, custody checks, transport, elevator access and receipt; software support remains.",
           "qualification_limit": "No source establishes a transferable digital productivity percentage for this route."
         },
@@ -3733,9 +3734,9 @@
       ],
       "recommendation": "Prioritize bounded nonurgent qualification against a digital-human comparator, conditional on a current configured order, support access and funded fallback during repair or replacement. Wait on payroll substitution or scale entry until complete retained work and paid commitments are established.",
       "gates": {
-        "proceed": "Analytical gate: reconcile request-level acceptance, all retained work, current installed configuration, support/repair rights and a funded fallback that meets the same deadlines. This research does not initiate a trial.",
+        "proceed": "Analytical gate: reconcile request-level acceptance, all retained work, current installed configuration, support/repair rights and a funded fallback that meets the same deadlines. This research does not initiate a trial. Include a competent conventional-dispatch baseline, all due requests and distributional checks before attributing incremental coordination value.",
         "wait": "Wait where installation, support continuity, maximum restoration time, actual fallback resources or configuration/license portability are unverified; catalog line items are not a site quote.",
-        "reject": "Reject a case that drops mandatory service, removes a still-required shift, treats maintenance-fee relief as delivered fallback or assumes costless replacement of a dependent installed system."
+        "reject": "Reject a case that drops mandatory service, removes a still-required shift, treats maintenance-fee relief as delivered fallback or assumes costless replacement of a dependent installed system. Reject conversion of aggregate request waiting/completion time into paid staff hours without activity and roster evidence."
       },
       "ranking_reversal": "Preference can move toward specialized automation when handling/escort and exception burden fall enough to remove an actual paid commitment or buy valuable capacity. It can move back to improved human service when digital batching or retained coverage absorbs the same benefit. Even attractive component prices can lose to retained human service when restoration gaps require a paid fallback or installed-system replacement creates a costly interruption.",
       "observation_contract": {
@@ -3782,7 +3783,7 @@
         }
       },
       "model_use": "Qualitative gates and a specification for explicit scenario assumptions; source figures do not calibrate engine coefficients. Synthetic service bundles, hours, components and inspection points are not interchangeable.",
-      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit. FG-AUDIT-02 adds a retrieved US schedule and a UK buyer award: installation and support are separate; remedy text is not a maximum repair SLA; closed-system maintenance can constrain replacement. No site price, achieved reliability or paid staffing effect is established.",
+      "evidence_consequence": "The Guro count/rate conflict and ChristianaCare intervention-count conflict remain unresolved. Qilu phase-time findings and reported FTE/ROI are not verified staffing economics. FSD-E005 adds worker-reported escort burden, not a causal estimate or verified explanation of exit. FG-AUDIT-02 adds a retrieved US schedule and a UK buyer award: installation and support are separate; remedy text is not a maximum repair SLA; closed-system maintenance can constrain replacement. No site price, achieved reliability or paid staffing effect is established. H-PROXIMITY-2025 strengthens the human baseline: adjusted observational timing associations coexist with unchanged raw overall times and subgroup queue-jumping. Cancelled/off-peak/other-team service and actual payroll remain unverified.",
       "r_and_d_qualification_gate": {
         "role": "Cross-domain qualification context and proposed measurement only; not observed target-site performance.",
         "evidence_refs": [
@@ -3822,6 +3823,14 @@
         ],
         "analysis": "research/hospital_support_contracts.md",
         "role": "Primary procurement terms and attributed buyer constraint; no transferred performance or calibrated economics."
+      },
+      "conventional_baseline_gate": {
+        "comparison_id": "H-COMP-01",
+        "evidence_refs": [
+          "H-PROXIMITY-2025"
+        ],
+        "analysis": "research/conventional_coordination.md",
+        "role": "Primary conventional human-dispatch implementation; method and service gates only, no numerical transfer."
       }
     },
     {
@@ -4104,6 +4113,7 @@
     "preservation": "Original cell records, labor totals, source rows and all scenario assumptions unchanged.",
     "next_model_gate": "Bind accepted-service assumptions to monthly physical and cash cohorts before ranking commercial or entry paths.",
     "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack.",
-    "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics."
+    "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics.",
+    "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required."
   }
 }
