@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.23.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.24.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: operating, commercial and provider-funding gates, edition 0.23
+## Current checkpoint: customer renewals, accepted service and cash windows, edition 0.24
+
+The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Current environment status is connected/running, failure null, and real shell commands executed in `/workspace/robotics-economics` from main-matching input `133903316c3710fbfb288934baa05722a4f8cc03`. The same published configuration and working changes were preserved. No task, goal, schedule, writer or clock was replaced; no uninterrupted execution is claimed.
+
+The [renewal extension](research/competitive_renewals.md) reuses the calendar/finance/enterprise/physical/Treasury chain. Current funded capacity, firm prices, expiry, prior service and paid onboarding determine a conserved recurring market. Seventeen full worlds advance bounded DE-CF05. Prompt/no/seven/ten bid-response worlds keep physical inputs, units, qualified cohorts and support allocations identical; human-led response and delayed procurement are separate comparators. Earlier engines and saved numeric scenarios are preserved.
+
+Prompt response yields 200 entrant zones and **−$87,884.51** terminal operating cash after recorded bills; no response yields 4,900 and **$16,815.49**, crossing in month eight. Delayed receipts preserve service but erase the positive cash outcome. Six-month locks retain the initial customer lots without achieving recovery. With $9,000 entrant opening cash, breach exit restores 400 future zones versus no exit, while the first 100 missed zones stay lost. A delayed-procurement first crossing reverses before close. These are synthetic policy outcomes, not observed returns or a calibrated investment recommendation.
+
+Fresh validation passes **373 Python tests** in 208.249 seconds, including sixteen focused renewal tests, six seeded stress worlds and HTTP replay/invalid-input checks; **36 Node assertions**, eleven JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with previous controls, evidence filters, stale/invalid handling and saved-case replay. The new panel reproduces all seventeen renewal worlds exactly, changes cash under collection-delay controls, preserves pending/invalid displays, rejects stale replies, exposes four equation/input/provenance records, ignores tampered saved outputs and preserves service identity under cell changes. Complete browser/CLI renewal replay matches exactly. The panel was visually inspected.
+
+All **688,574 prior typed numeric fields across 29 result JSONs** remain unchanged. Eighteen artifacts are byte-identical; eleven change only evidence snapshot hashes. Eight core modules/assumptions remain byte-identical. All 69 legacy requirement and 65 question statuses remain; legacy acceptance is **53 bounded met / 16 partial**. Evidence remains 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **294 manifest hashes and 622 relative Markdown links** verify with no broken paths.
+
+Thirteen bounded families / 128 worlds now execute. DE-CF10 expanding-fleet support/investment, actual commercial rights, asset recovery and full empirical economics remain partial. Native goal/quota controls remain unexposed; no goal activation, reset or continuous service claim is invented. The source branch reopens only for a decision-relevant executed contract, matched site record, qualified release or post-close financial statement.
+
+**Next execution:** challenge expansion against installed service on the existing shared loop. Connect finite support/commissioning/engineering, qualified supply, dated commitments and funded admission without replacing failed starts, cloning customer demand or optimizing with future information. Preserve substantial H and the entire A–K scope.
+
+**Next question:** can protecting installed service justify delaying a funded expansion commitment, and when does the same finite resource/cash budget make either sequence fail?
+
+## Previous checkpoint: operating, commercial and provider-funding gates, edition 0.23
 
 The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. A disconnection steer was followed by a current connected/running status, successful shell check and clean main-matching input checkpoint `4ba95371b93bca0cd5b791ccadbb9515e13aaded`. Environment/configuration and working changes were preserved. No task, goal, schedule, writer or campaign clock was replaced; no continuous execution is claimed.
 

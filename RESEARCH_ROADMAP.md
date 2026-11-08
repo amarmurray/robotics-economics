@@ -251,3 +251,8 @@ Edition 0.22 closes bounded eligible-data and funded qualification execution thr
 ## Commercial disclosure continuation, edition 0.23
 
 FG-AUDIT-01 links operating continuation, negotiated value, qualified generation and provider funding. Reopen this source branch only for a public executed contract, matched site exposure/staffing, qualified Digit 5 release or post-close financial statement. Orders, price illustrations and gross financing alone cannot close the service/whole-cost questions. Advance remaining DE-CF05/10 execution challenges while preserving all three deployment packs and substantial H. [Source audit](research/commercial_disclosure_boundaries.md).
+
+
+## Renewals and entry-window checkpoint, edition 0.24
+
+The [renewal challenge](research/competitive_renewals.md) advances bounded DE-CF05 through seventeen complete worlds, exact switching and funding boundaries, fixed-price retention, service-breach exit and cash-crossing reversals. Source prices remain outside the synthetic model. Next advance DE-CF10 through finite installed support versus new commitments on the existing shared loop, preserving current service, unfunded/rejected expansion, unit IDs and dated cash. A target renewal valuation still needs actual rights, staffing, delivery and collection records. No new source search is justified merely to increase counts. The same active campaign clock remains.

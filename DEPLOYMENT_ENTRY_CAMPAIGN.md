@@ -66,3 +66,8 @@ Sixteen [qualification worlds](research/learning_execution.md) add bounded DE-CF
 ## Commercial disclosure checkpoint, edition 0.23
 
 Five primary records and a [source audit](research/commercial_disclosure_boundaries.md) connect achieved operation, prospective generation/compute changes, illustrative economics, historical company accounts and completed financing. They advance evidence gates without calibrating scenarios or closing full-service economics. Twelve bounded challenge families and the original active T0/deadline remain.
+
+
+## Competitive renewal checkpoint, edition 0.24
+
+Seventeen [renewal worlds](research/competitive_renewals.md) advance bounded DE-CF05 through funded capacity, firm prices, paid onboarding, prior-service breach and dated cash. Thirteen families and 128 worlds now have bounded coverage. DE-CF10 expanding-fleet scheduling, optimized investment/exit and empirical whole-service economics remain incomplete. An early crossing is not durable recovery; customer retention is not delivered service. The same original T0/deadline and in-progress objective continue.

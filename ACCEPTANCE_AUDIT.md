@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: commercial disclosure boundaries, edition 0.23
+## New decision campaign: funded renewals and entry cash, edition 0.24
+
+Seventeen [customer-renewal worlds](research/competitive_renewals.md) add bounded DE-CF05 through current funded capacity, locked prices, paid switching/onboarding, prior-service breach and dated collections. Price response can remove a synthetic entry window; a customer lock cannot guarantee delivery. First cash crossing may reverse. Thirteen families / 128 worlds now have bounded coverage; DE-CF10 broader expanding-fleet scheduling and empirical whole-service economics remain partial.
+
+Fresh validation passes **373 Python tests** in 208.249 seconds, including sixteen focused renewal tests, six seeded stress worlds and HTTP replay/invalid-input checks; **36 Node assertions**, eleven JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with previous controls, evidence filters, stale/invalid handling and saved-case replay. The new panel reproduces all seventeen renewal worlds exactly, changes cash under collection-delay controls, preserves pending/invalid displays, rejects stale replies, exposes four equation/input/provenance records, ignores tampered saved outputs and preserves service identity under cell changes. Complete browser/CLI renewal replay matches exactly. The panel was visually inspected.
+
+All **688,574 prior typed numeric fields across 29 result JSONs** remain unchanged. Eighteen artifacts are byte-identical; eleven change only evidence snapshot hashes. Eight core modules/assumptions remain byte-identical. All 69 legacy requirement and 65 question statuses remain; legacy acceptance is **53 bounded met / 16 partial**. Evidence remains 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **294 manifest hashes and 622 relative Markdown links** verify with no broken paths.
+
+The same active campaign ends **2026-11-14T20:12:27Z**; this early checkpoint does not complete it. See [the sole-writer review](reviews/competitive_renewals_review.md).
+
+## Previous decision checkpoint: commercial disclosure boundaries, edition 0.23
 
 Five [primary commercial records](research/commercial_disclosure_boundaries.md) separate operator continuation, future generation/compute qualification, illustrative terms, historical company accounts and completed financing. FG-AUDIT-01 reproduces payment/cost components without treating them as executed contracts, payroll savings or ROI. Gross financing is not a new unrestricted cash balance; company losses are not operating cash use or per-robot costs.
 

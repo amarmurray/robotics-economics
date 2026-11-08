@@ -131,3 +131,8 @@ The [workcell comparison](automotive_workcell_decision.md) strengthens the conve
 ## Commercial evidence gate, edition 0.23
 
 The [source audit](commercial_disclosure_boundaries.md) strengthens the prompt-incumbent comparison through operator continuation. All three decision packs inherit acceptance, version, support, rights and dated funding questions; none inherits warehouse costs or future-generation capability. Existing hospital, utility and automotive recommendations remain provisional, and no empirical investment threshold closes.
+
+
+## Funded renewals and incumbent response, edition 0.24
+
+[Seventeen complete renewal worlds](competitive_renewals.md) add bounded DE-CF05, bringing coverage to thirteen families and 128 worlds. Actual supported capacity, firm prices, paid onboarding, expiry and prior service determine assignments; demand remains conserved. Bid-response timing holds the physical plan fixed, while delayed procurement and the human-led alternative remain separate comparators. First operating cash crossing may reverse. Locks preserve price and assignment but cannot guarantee funded delivery. All three packs inherit questions, not cleaning coefficients. DE-CF10 expanding-fleet support/investment and empirical whole-service economics remain partial. The same campaign continues.

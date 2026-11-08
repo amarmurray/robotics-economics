@@ -25,6 +25,7 @@ python3 scripts/export_entry_transitions.py --check
 python3 scripts/export_utility_inspection.py --check
 python3 scripts/export_automotive_workcell.py --check
 python3 scripts/export_learning_execution.py --check
+python3 scripts/export_competitive_renewals.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -249,3 +250,8 @@ The Learning view executes sixteen synthetic data/qualification/support worlds o
 Customer adoption, Business models and Digital AI show FG-AUDIT-01 from the existing customer package. Expand payment/component equations, historical company accounts and missing outcomes; source buttons open the dated records. Evidence and cell filters affect visibility; synthetic controls do not change source amounts.
 
 `python3 scripts/export_scenarios.py` refreshes `model/results/observed_research_summary.json`. `python3 -m unittest discover -s tests -p test_research_calculations.py -v` verifies source boundaries, unknown outcomes and invalid units/generation/periods. `python3 scripts/build_report.py` checks source/code hashes before inserting tables. No new public service, model run or empirical calibration is involved. See [analysis](research/commercial_disclosure_boundaries.md) and [self-review](reviews/commercial_disclosures_review.md).
+
+
+## Competitive renewals and cash windows
+
+Customer adoption begins with seventeen synthetic recurring-service worlds. Edit bid response, term, switching work, cash, support, qualification and collection timing, then apply. Pending, invalid and stale requests preserve the last valid case. Full imports recompute complete opening inputs and remain read-only in shortcut controls until a standard witness is selected. Export/reload preserves exact rational service and cents, source hashes, locked contracts and one Treasury. Run `python3 scripts/export_competitive_renewals.py --case downloaded.json --output replay.json` for CLI replay, or `--check` to recompute all saved worlds. The local API is `/api/competitive-renewals`; full uploads are bounded to 8 MB. [Methods](model/COMPETITIVE_RENEWALS.md) distinguish actual supported capacity, customer assignment, delivered service and first/maintained cash break-even. No real contract terms or ROI are calibrated.
