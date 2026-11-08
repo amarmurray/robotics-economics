@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "hospital-economic-evidence-checkpoint-0.34",
+  "snapshot_id": "shared-workforce-checkpoint-0.35",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "c6108f1b1fd4c214f8c664babcea96cd2e785fad7f6518ba47554b09961792f1",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "abda09baf11b8a031525c8afc9db8073e3df39fc2144f05650e56bec3407cd84",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "AGENTS.md",
@@ -68,8 +68,8 @@
       "repository_path": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "name": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
-      "sha256": "24c049fec9986c1ad3cc75649d5bf256ad93a298eec9c835ba21c4c100547eae",
-      "version": "architecture-resources-checkpoint-0.33"
+      "sha256": "538f7b7a2adc18760c77f30057fae46da2295e665ed7b749e6138108592115d3",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "a01171db8098d65039fc54a02ab29fa35963ba0c026909be016af6f173b4ebfb"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "8a9b3de566ce23475f0d887c55c664e055a5d667fed15de14300be0ec8b10718"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -124,15 +124,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "f45f4f060cca6ae23232eeed81c29d222ef0f616d80feb130886f2d6f1281e9e",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "f87e384064105e905cf645aea3b6e1d3ecf4a901ff3362b651ae8939ee29fa85",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "2c1f598a280897b3ec81a9cf93aa758b72811c53b27bd48b296fada6dfd07c6d",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "84a99ee944eaed9789dc5e3e61e11db9aabe4f37483f33f7e8d7d88e4fb441fc",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -145,8 +145,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "3ae6a2d2fc57641fa720a063ce9ea8e0ef6b81ede94a27382e364ee19c25e816"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "1b885382d3a380cf1c20b1618454dbce57edebdc2d566099be400996c0674747"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -173,8 +173,8 @@
       "repository_path": "THESIS_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
       "name": "THESIS_REGISTER.md",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "9bf4287a0d1b438f06bc0c9083968038088704afe078ff8ee342b9ed017d1f76"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "b474da2217796b9d9d648f6d6673d0633da1802bbdd37df5d0f7a5462be3c783"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -187,8 +187,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "4bb0cabe20f6659af510f4556b14ab8e4178a213670f7ad0e4d03f0221358bba",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "e1e81fa87b8330675eac53cb7941e99b1887d2ca8563c6db21425c5b531db310",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -208,8 +208,8 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "90bc8bb7d5cf8337ae596bf33666a4eddec413dac5e19294864eb4f65714083c",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "d82e015d865c6eedc65e83dc81a38752f88b14b0ec6e014a81a6e0e98d6848e3",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "dashboard/architecture_resources.js",
@@ -271,8 +271,8 @@
       "repository_path": "dashboard/index.html",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/index.html",
       "name": "index.html",
-      "sha256": "61af3debb7594db398a8611de548cef251eaf357334ee6a86556b47dccee3762",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "f355d15a072577a3c43461c0aee026373c26c460e310650713bbefd42c798289",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "dashboard/learning_execution.js",
@@ -301,6 +301,13 @@
       "name": "scenario_io.js",
       "version": "week-one-in-progress-0.7",
       "sha256": "2b42afec40ed65e9b24dedae849e864980c3c03ac94493ab265b08a5d5554710"
+    },
+    {
+      "repository_path": "dashboard/shared_workforce.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/shared_workforce.js",
+      "name": "shared_workforce.js",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "35f6e9eda79ddcc600458619cbb3bbac82bd25686a2547b82c58f56d622f24ba"
     },
     {
       "repository_path": "dashboard/style.css",
@@ -390,8 +397,8 @@
       "repository_path": "data/market_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/market_evidence.json",
       "name": "market_evidence.json",
-      "sha256": "b7a4e5259cd057dc1484279f776bf7e1177b73085c66e49e695a473fa3fe2392",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "b27ec59f6354ff0453c93d1352ba714acd563327babb30974f33a0a1500a5dda",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "data/onboard_workload_qualification.json",
@@ -432,8 +439,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "b551057c850ee3c4617affa61b7c9ce71fa65b371d53cb76c600c67fbc004cb7",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "9dabfdaee6a78437c6934c126d52256305ae9c92703f0bdf20369f578ef9c295",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -597,6 +604,13 @@
       "version": "week-one-in-progress-0.9"
     },
     {
+      "repository_path": "model/SHARED_WORKFORCE.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/SHARED_WORKFORCE.md",
+      "name": "SHARED_WORKFORCE.md",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "afa44af38c5400fdeddd87a825dc9fcfaacfaa7422754a49859f94f21219faab"
+    },
+    {
       "repository_path": "model/SUPPORT_EXPANSION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/SUPPORT_EXPANSION.md",
       "name": "SUPPORT_EXPANSION.md",
@@ -649,8 +663,8 @@
       "repository_path": "model/architecture_resources.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/architecture_resources.py",
       "name": "architecture_resources.py",
-      "version": "architecture-resources-checkpoint-0.33",
-      "sha256": "6e7b54f6e3cb42887e9fa5052da89ee3610f63dc767700ef1b101e73357f33d2"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "62c41685421612896e6a067e854e4d04630ec87bbb5b76cad9e35b9fb38daee6"
     },
     {
       "repository_path": "model/architectures.py",
@@ -831,8 +845,8 @@
       "repository_path": "model/results/ample_supply_unready.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/ample_supply_unready.json",
       "name": "ample_supply_unready.json",
-      "sha256": "c57ac8b57f83c49313adc3ba1867f63698eacddbbb4fb7e57f18c5676896ffaf",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "bc7ae20e0201b57c0681b66ad6eac5c3a8548f951a83c9c526c52881c8bfaa78",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/ample_supply_unready_components.csv",
@@ -873,29 +887,29 @@
       "repository_path": "model/results/annual_digital_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/annual_digital_comparison.json",
       "name": "annual_digital_comparison.json",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "2a3c569ed64b56e767d504c1e4ca72c5ec102b9608f58580f0288513c2d99aca"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "aaeca82275c543f912ccdb8144996dab3df52046b469e2e3f52b582f53a00f11"
     },
     {
       "repository_path": "model/results/architecture_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_comparison.json",
       "name": "architecture_comparison.json",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "a82868fbe6792ee4751ef06c2f67d995401c04a4c4f65d7cd0abbc225bbd73d9"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "d22311c6c7f4f2c76741abc767cebc782dd24faffbc95deb5094d0fd6824b479"
     },
     {
       "repository_path": "model/results/architecture_experiments.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_experiments.json",
       "name": "architecture_experiments.json",
-      "version": "hospital-economic-evidence-checkpoint-0.34",
-      "sha256": "9f919c015720afedfb79881a00ccf85cf7617f1159d3101780fc9b92a35a29ed"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "8833508e43298ed32e868aff816f86c3ceb2ebba428569fdc0a8e4d4d85abd6b"
     },
     {
       "repository_path": "model/results/architecture_resources.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_resources.json",
       "name": "architecture_resources.json",
-      "version": "architecture-resources-checkpoint-0.33",
-      "sha256": "3118f37a94d8a05c02603a54603f7d39fc8fb85f1181edc480553133adecce75"
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "4dda14127b620b3e3d31bd806f2d210e61d14a313d985abb2dd1ebc13f06c38b"
     },
     {
       "repository_path": "model/results/asset_recovery.json",
@@ -950,8 +964,8 @@
       "repository_path": "model/results/delayed_supply.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/delayed_supply.json",
       "name": "delayed_supply.json",
-      "sha256": "8652ed9238f6756b5ffc97939ad27a9ab0959c68ae09fd4c2ba40209759d3f1d",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "3bc71b4f54834dc1532f16c104a135ffb7b09ce4f0d9bcb31a15d97777eb39dc",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/delayed_supply_components.csv",
@@ -985,8 +999,8 @@
       "repository_path": "model/results/digital_first.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/digital_first.json",
       "name": "digital_first.json",
-      "sha256": "de3e2a24bd2f0d8af72c55592a3e8ab7bccbb9f76a27fd5f88d4279c99a2b3fb",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "6dc0496f5312ffafa77dab87b27fabeb65903f77b716b580d41c5e6523a1a5d9",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/digital_first_components.csv",
@@ -1055,8 +1069,8 @@
       "repository_path": "model/results/limited_transfer.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/limited_transfer.json",
       "name": "limited_transfer.json",
-      "sha256": "69b69f248cf19a929c05de6acf264b36880cfed427b2e097a175df9b6797a915",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "1a48b4e4c0fdefae9ccc37facc12a496407e95e328e15b9e193df0deab92d51f",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/limited_transfer_components.csv",
@@ -1111,8 +1125,8 @@
       "repository_path": "model/results/newco_raas.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/newco_raas.json",
       "name": "newco_raas.json",
-      "sha256": "21a8911502effd33f121fd4c768e69271501b458e689a12991c99145e59ff04d",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "00559314d516804d34d840bb76e1e75c1818e840a76c000640cfe5404f33f9cc",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/newco_raas_components.csv",
@@ -1167,8 +1181,8 @@
       "repository_path": "model/results/prompt_response.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/prompt_response.json",
       "name": "prompt_response.json",
-      "sha256": "bf0cefebf4d34eaefe4d6b5ad6ee5660ceb2ab670bfff67c352489433a962cee",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "fbea207d3fdae887a33737a525d66c26944f967232845eed194b8f4491759dd5",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/prompt_response_components.csv",
@@ -1202,8 +1216,8 @@
       "repository_path": "model/results/reference.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/reference.json",
       "name": "reference.json",
-      "sha256": "8f33020b036d720f2a9ba0fad5921f3266f886d9b45c67fb40cfe93df1134281",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "9b214488cf14f7e3ef06c2db8f6dab01062ecec7f5fcde8371ec121013859b03",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/reference_components.csv",
@@ -1244,8 +1258,8 @@
       "repository_path": "model/results/service_stress.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/service_stress.json",
       "name": "service_stress.json",
-      "sha256": "2181f4311ff22c8185c1930f2e22b8ed48dc62fff178133b9655a6fa2879b0e0",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "3fb4acacfff17ae20a00575e41e80b2b1e96b468aaf4c5f1d3a7993761c3e5bd",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "model/results/service_stress_components.csv",
@@ -1283,6 +1297,13 @@
       "version": "compatible-components-checkpoint-0.31"
     },
     {
+      "repository_path": "model/results/shared_workforce.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/shared_workforce.json",
+      "name": "shared_workforce.json",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "d79aa9d8b0aeb657e3ecc42d4f648108354d15e62fc65c8427a553377b5ee2cb"
+    },
+    {
       "repository_path": "model/results/support_expansion.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/support_expansion.json",
       "name": "support_expansion.json",
@@ -1309,6 +1330,13 @@
       "name": "shared_enterprise_design.md",
       "sha256": "67991db9d8fe59dc5c2a8a4cd147417a81864f7fb742ea47443511d1d08ce5dc",
       "version": "week-one-in-progress-0.9"
+    },
+    {
+      "repository_path": "model/shared_workforce.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/shared_workforce.py",
+      "name": "shared_workforce.py",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "6e1d9f2a3d1cccedf22ea576c2d175c18a900ac1c414e38091e09a8633fc162c"
     },
     {
       "repository_path": "model/support_expansion.py",
@@ -1440,8 +1468,8 @@
       "repository_path": "research/deployment_entry_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/deployment_entry_decisions.md",
       "name": "deployment_entry_decisions.md",
-      "sha256": "a185e1968f0ceb52e379f7c55572a84ebe3e3a92bbdfd20fd36f8ccb0750da1e",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "fe4ed934fae712a05b37ddce72e16cb379d5d5209f7547354ecded6e6b3ada9e",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "research/digital_ecosystem.md",
@@ -1517,8 +1545,8 @@
       "repository_path": "research/integrated_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/integrated_decisions.md",
       "name": "integrated_decisions.md",
-      "sha256": "98dd5bd19f70a5e8ed954c7157236b3df529eee6066d059ee78d41c9ec21509d",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "91e4ce0ea6a138c8a00a11b77db554fad4c29b91955da912ee4f985cadf12248",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "research/intelligence_architecture_scenarios.md",
@@ -1603,6 +1631,13 @@
       "name": "shared_enterprise_finance.md",
       "sha256": "b7956fde5671fb881adcaf8bf02970faca31905a0db02f436315d425750ff627",
       "version": "funded-entry-checkpoint-0.18"
+    },
+    {
+      "repository_path": "research/shared_workforce.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/shared_workforce.md",
+      "name": "shared_workforce.md",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "f4766b52b1911122ac675826451e579230413963cbaf23c0dc73ba259960369c"
     },
     {
       "repository_path": "research/support_expansion.md",
@@ -1955,6 +1990,13 @@
       "version": "week-one-in-progress-0.9"
     },
     {
+      "repository_path": "reviews/shared_workforce_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/shared_workforce_review.md",
+      "name": "shared_workforce_review.md",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "07f7041a76f009521df1f7f0dca439add5d46eae5103d9583450bbebc7682242"
+    },
+    {
       "repository_path": "reviews/support_expansion_review.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/support_expansion_review.md",
       "name": "support_expansion_review.md",
@@ -2000,8 +2042,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "4f46983d7c30e0e71d0ba046a69d99174ae9b6484568e40028da3aa80f4801fc",
-      "version": "hospital-economic-evidence-checkpoint-0.34"
+      "sha256": "b9a26c5dcfc8c0b3614ff932b189b7bb3805cbd34d6e3b04cf9d538abfb3238f",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "scripts/export_annual_commitments.py",
@@ -2130,6 +2172,13 @@
       "version": "week-one-in-progress-0.7"
     },
     {
+      "repository_path": "scripts/export_shared_workforce.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_shared_workforce.py",
+      "name": "export_shared_workforce.py",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "edba5f223d3d185e28651d73154bf5ead7a5f104e5e05922f7101a60c4bbd6ef"
+    },
+    {
       "repository_path": "scripts/export_support_expansion.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_support_expansion.py",
       "name": "export_support_expansion.py",
@@ -2161,8 +2210,8 @@
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "8fb3cd95f83a72d5735229eca57060f72cff412ceb93f8c1a7d24d4158729375",
-      "version": "architecture-resources-checkpoint-0.33"
+      "sha256": "0166665748d5b8f05a722d6ae81344ba9a15d20a7f4f007172852ba44bb3de7a",
+      "version": "shared-workforce-checkpoint-0.35"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
@@ -2366,6 +2415,13 @@
       "name": "test_scenario_io.js",
       "version": "week-one-in-progress-0.7",
       "sha256": "cb657e953c5cf09919bf2581de73e7c2b8987e866cca21ae7099a776ad6baafc"
+    },
+    {
+      "repository_path": "tests/test_shared_workforce.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_shared_workforce.py",
+      "name": "test_shared_workforce.py",
+      "version": "shared-workforce-checkpoint-0.35",
+      "sha256": "1ec4003efbc93910fdb8c9c3bdaa1528472bbcff831f32a62dea907f23d8c7ac"
     },
     {
       "repository_path": "tests/test_support_expansion.py",

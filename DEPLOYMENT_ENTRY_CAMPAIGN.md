@@ -113,3 +113,7 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Intelligence and physical-resource checkpoint, edition 0.33
 
 [The combined architecture execution](research/architecture_resources.md) adds thirteen bounded worlds to DE-03/06/08. One shared admission rule constrains the existing architecture-specific cash and physical loop without importing competitive actor identities. The lower-adaptation pair exposes the next physical bottleneck; the fixed paid human alternative still supplies all service. Fourteen families / 187 worlds are bounded coverage, not a single feasible portfolio or empirical completion. The same in-progress campaign and original deadline continue.
+
+## Shared workforce checkpoint, edition 0.35
+
+Nine [staffing and competing-work worlds](research/shared_workforce.md) deepen DE-CF01 without creating another challenge family. One actual synthetic crew, a separately due inventory service, notice, funded overtime and outside-buyer cash now share the architecture/resource/parts/Treasury execution. Fourteen bounded families contain 196 worlds. A stronger human premise can beat the robot staffing reduction in resource cash; cheaper incomplete service is rejected. The same active T0/deadline and sole-writer contract continue. Full empirical economics and six-cell joint feasibility remain incomplete.

@@ -35,7 +35,12 @@ def run_architecture_resources(plan, treasury, contracts, enterprise, finance, b
     if components.onboard_configuration != policy.annual['onboard_configuration']:
         raise ValueError('Parts must match the architecture annual configuration')
     materials = ComponentInventory(components)
-    r = architecture_result(run_monthly(plan, treasury, commercial=policy, materials=materials), policy)
+    return architecture_resources_result(run_monthly(plan, treasury, commercial=policy, materials=materials), policy, materials)
+
+
+def architecture_resources_result(execution, policy, materials):
+    """Format one completed run; do not create another fleet or Treasury."""
+    r = architecture_result(execution, policy)
     r.update(schema_version='architecture-resources-window/0.1', scope='synthetic_intelligence_roles_dated_resources_and_compatible_parts')
     r['annual_resources'] = policy.resource_result()
     # The shared ledger has the same units and admission order. Its original

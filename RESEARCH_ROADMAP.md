@@ -298,3 +298,7 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## After the hospital economic audit, edition 0.34
 
 Prioritize an actual dated service/workforce/payment record over another headline cost ratio. Preserve the separate ICU abstract and poster until revision/methods are reconciled. For hospital deployment, tie complete requested service and retained dispatch/handling/repair to staffing transitions, cash timing and support obligations; a projected saving or assigned-task guarantee is insufficient. Keep the strong conventional human-dispatch comparator. No request-only dataset, restricted route, outreach or commercial action is authorized by this roadmap. Whole-system empirical cost and broad integrated portfolio feasibility remain open.
+
+## After shared staffing and competing work, edition 0.35
+
+The resource question is now explicit for one synthetic crew and two due services. Next challenge a consequential actual staffing/transition contract or competing investment/finance policy while retaining the complete human/specialist alternative, all prior commitments, named resources and payer cash. Do not infer employment effects from unused minutes, apply cleaning efficiency to unrelated inventory jobs, fund work with future receipts or add independent case totals. Broad competition/acquisition/recovery/learning composition and actual cross-cell operating economics remain partial; access restrictions and the campaign clock persist.

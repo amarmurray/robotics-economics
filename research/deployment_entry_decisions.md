@@ -184,3 +184,9 @@ Hospital, utility and automotive inherit the test for dated configured qualifica
 ## Hospital economic claim gate, edition 0.34
 
 The [existing hospital evidence package](field_support_denominators.md#hospital-economic-claims-edition-034) now challenges source-version, staffing and cost assumptions. Proceed with bounded service/workforce measurement when authorized and operationally feasible; wait on a rollout whose financing requires unverified paid staffing removal; reject a comparison that omits required service, retained work or transition/fallback costs. The utility and automotive packs inherit this measurement question only. Their service units, costs, staffing and preferred embodiments remain independently unresolved. This gate changes neither prior numerical scenarios nor empirical acceptance status.
+
+## Shared staffing and complete competing work, edition 0.35
+
+[Nine workforce worlds](shared_workforce.md) deepen DE-CF01: one paid crew executes cleaning, robot attention/handling and separately required inventory jobs. A prior-service-based notice changes future paid blocks; funded extra capacity resolves some later scarcity. A one-minute shortfall can miss required cleaning, while an unfunded buyer creates no receipts despite delivery. The stronger human-dispatch premise remains much cheaper in the bounded window than the robot staffing-reduction case. Fourteen families now contain **196 worlds**; independent worlds are not one simultaneous portfolio.
+
+All three packs inherit the need for actual shared-resource identity, complete competing obligations, transition/fallback and payer cash. These synthetic cleaning rates, inventory jobs, staffing terms and efficiency premises do not calibrate hospital, utility or automotive decisions. Whole-system empirical costs and broad integrated acceptance remain partial.

@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: hospital economic evidence, edition 0.34
+## New decision campaign: shared staffing and complete service, edition 0.35
+
+The [shared-workforce module](research/shared_workforce.md) joins actual competing work, one conserved crew and dated staffing/cash decisions to the existing architecture/resource/component execution. It deepens DE-03/06/09/10 and DE-CF01 without promoting empirical completeness. A lower staffing line does not establish a whole-service advantage; incomplete work cannot support a savings claim. The same campaign remains active through **2026-11-14T20:12:27Z**.
+
+Fresh cloud validation: **489 Python tests** in 322.159s; **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands** pass. Exact frontier, shared-workforce and prior architecture/resource exports match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors. All nine workforce worlds match saved complete executions, with the exact 1,240/1,239-minute switch, full replay ignoring submitted outcomes, seven invalid API requests, pending/invalid/stale protection, shared view state and dated notice labels verified. Six prior reference panels, source exports, scenario export/reload and scope independence remain exact. Both new panel screenshots were visually inspected. Evidence remains **13 packages, 218 claims, 465 reported quantities and 138 explicit-null quantity markers**.
+
+All **1,348,199 prior typed numeric fields across 35 JSON result artifacts**, and their non-fingerprint semantics, remain unchanged. Twenty-three artifacts are byte-identical; twelve change only exact source/evidence fingerprints or dependent identities. The existing architecture/resource result formatter is extracted without changing prior outcomes; every other prior model module, numerical assumption, source claim and labor row is preserved. All 69 legacy requirement statuses, 65 question statuses and 53 met / 16 partial counts remain unchanged. Nine new worlds deepen DE-CF01: the same fourteen challenge families now contain **196 bounded worlds**, not one simultaneously feasible portfolio or empirical validation.
+
+All 348 manifest hashes and 823 relative Markdown links verify. See the [sole-writer review](reviews/shared_workforce_review.md).
+
+## Previous decision checkpoint: hospital economic evidence, edition 0.34
 
 The [economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) sharpens the hospital recommendation without promoting empirical acceptance. Source versions, released time, projected cost and paid staffing are separate. The noncapital sensitivity is a conditional diagnostic, not a repaired forecast. DE-02/09/10 and whole-system empirical cost remain partial. This checkpoint does not end the same active campaign; its deadline remains **2026-11-14T20:12:27Z**.
 

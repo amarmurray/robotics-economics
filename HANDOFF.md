@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.34.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.35.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: hospital economic evidence, edition 0.34
+## Current checkpoint: shared staffing and complete competing work, edition 0.35
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input checkpoint `f9993589e60c543076abdfcd19121d83b546c51d` was verified against remote main before publication work. Real shell, reproduction and browser commands executed in `/workspace/robotics-economics`; the selected environment reports connected/running with current observations and no failure. The user's latest steer to continue after the Tutor submission preserves this task and scope. No current usage failure is observed; quota and native goal creation/stop controls remain unexposed. This is evidence of resumed execution, not uninterrupted operation or an independently verified serving-model identity.
+
+The [shared-workforce investigation](research/shared_workforce.md) now executes one named paid site crew across local robot attention, inventory jobs, robot handling and manual cleaning. Dated notice, paid overtime, distinct accepted-service quantities and a separately funded buyer share the existing architecture/resource/component/Treasury run. Four provider resource pools remain distinct. Report, questions, thesis, three decision packs and Learning/Customer/Commercial controls carry the finding.
+
+Under the declared assumptions, an August notice effective in October lowers regular staffing cash from $32,000 to $22,000 while preserving 4,000 cleaning zones and 160 inventory jobs. A later workload surge needs 1,240 extra paid minutes per affected month; refusing that capacity produces cheaper but incomplete service. A stronger assumed human-dispatch path still has much lower bounded external resource cash ($43,900 versus $223,289.36 for the robot notice case). An unfunded inventory buyer can leave all delivered work unpaid, and thin model-role funding can break service after a valid earlier staffing notice. These are conditional mechanisms, not observed payroll savings, real employment rights or ROI.
+
+Fresh cloud validation: **489 Python tests** in 322.159s; **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands** pass. Exact frontier, shared-workforce and prior architecture/resource exports match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors. All nine workforce worlds match saved complete executions, with the exact 1,240/1,239-minute switch, full replay ignoring submitted outcomes, seven invalid API requests, pending/invalid/stale protection, shared view state and dated notice labels verified. Six prior reference panels, source exports, scenario export/reload and scope independence remain exact. Both new panel screenshots were visually inspected. Evidence remains **13 packages, 218 claims, 465 reported quantities and 138 explicit-null quantity markers**.
+
+All **1,348,199 prior typed numeric fields across 35 JSON result artifacts**, and their non-fingerprint semantics, remain unchanged. Twenty-three artifacts are byte-identical; twelve change only exact source/evidence fingerprints or dependent identities. The existing architecture/resource result formatter is extracted without changing prior outcomes; every other prior model module, numerical assumption, source claim and labor row is preserved. All 69 legacy requirement statuses, 65 question statuses and 53 met / 16 partial counts remain unchanged. Nine new worlds deepen DE-CF01: the same fourteen challenge families now contain **196 bounded worlds**, not one simultaneously feasible portfolio or empirical validation.
+
+All **348 manifest hashes** and **823 relative Markdown links** verify. The research was self-reviewed by the sole writer, not independently reviewed.
+
+**Remaining limits:** actual staffing transitions, complete target service, retained work, transition costs, support obligations and all-actor economics still lack adequate matched evidence. The model uses monthly deadlines, divisible cleaning zones and one fixed work-order policy; it does not establish within-shift feasibility or jointly execute the entire six-cell portfolio, competition, acquisition/recovery and learning. Restricted source routes remain closed. No commercial action, outreach, purchase, reset, replacement task or duplicate schedule was taken.
+
+**Next execution:** prioritize a permitted primary operating record that can test the staffing/fallback mechanism against the complete service obligation, actual paid commitments and payer receipts. If no decision-changing record is obtainable, test a bounded prospective fallback/reserve or staffing-restoration policy inside this same execution rather than adding favorable independent variants. Preserve actual payer constraints and the stronger human alternative.
+
+**Next question:** what evidence and funded recovery option would make a staffing commitment resilient to later workload, support and collection shocks, rather than merely feasible in the last observed month?
+
+## Previous checkpoint: hospital economic evidence, edition 0.34
 
 The same single-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. After the user's reported usage reset, a real shell check at 06:28 UTC on 8 November confirmed clean local and remote main at accepted input `e89c7c44968c2c6d9a5c1621f69cfffd3b1b3921`; ongoing source downloads were preserved. The selected environment was connected/running with current observations and no failure. No current usage error was observed. Quota and native goal creation/stop controls remain unexposed; the agent did not reset limits, buy credits, create another task or schedule, change model settings or claim continuous execution.
 

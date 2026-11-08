@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.34, hospital economic-evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. An official ICU abstract and linked poster retain separate methods and results; projected cost and idealized staffing/uptime assumptions remain distinct from observed paid labor removal. Ten source calculations challenge cost boundaries without changing any earlier scenario outcome. Fourteen bounded challenge families contain 187 worlds. Full target service economics and broad portfolio integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.35, shared staffing and competing-work checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. One paid crew now supplies two distinct service obligations within the architecture/resource/parts/Treasury execution. Notice and funded extra capacity determine whether a staffing reduction preserves complete work; a stronger human baseline can still dominate bounded resource cash. Fourteen challenge families contain 196 worlds. Prior numerical results remain unchanged, and full empirical economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -132,6 +132,10 @@ The [executable learning follow-up](research/learning_execution.md) adds unique 
 ### Economic evidence must identify the realized organizational change
 
 Edition 0.34's [hospital economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) changes the interpretation of an apparently attractive labor-saving opportunity. A released hour, an avoided vacancy, a projected staff-cost reduction and an observed payroll change are separate benefits. Compare complete service and retained work before funding a rollout from claimed labor savings. Preserve incompatible source versions and distinguish a supplier fee from provider resources. Acquisition, standalone entry and incumbent deployment each need their own transition, authority, cash and support evidence; an ownership label does not supply it. No synthetic coefficient or historical result changes.
+
+### A staffing reduction can be feasible and still fail the deployment comparison
+
+[The shared-workforce execution](research/shared_workforce.md) makes one paid crew and a second, separately invoiced workload real within the architecture/resource/Treasury loop. Notice can reduce a declared staffing commitment while both obligations remain complete. That benefit is insufficient to rank deployment: the stronger assumed human-dispatch path has lower total resource cash. Scarcity or unfunded extra capacity can also turn a proposed saving into missed service. Keep unlike work units separate, include transition/fallback and compare every payer before choosing an organization or technology. The result is a conditional mechanism, not target payroll or ROI evidence.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -321,6 +325,12 @@ Hospital, utility and automotive inherit the test for dated configured qualifica
 #### Hospital economic claim gate, edition 0.34
 
 The [existing hospital evidence package](research/field_support_denominators.md#hospital-economic-claims-edition-034) now challenges source-version, staffing and cost assumptions. Proceed with bounded service/workforce measurement when authorized and operationally feasible; wait on a rollout whose financing requires unverified paid staffing removal; reject a comparison that omits required service, retained work or transition/fallback costs. The utility and automotive packs inherit this measurement question only. Their service units, costs, staffing and preferred embodiments remain independently unresolved. This gate changes neither prior numerical scenarios nor empirical acceptance status.
+
+#### Shared staffing and complete competing work, edition 0.35
+
+[Nine workforce worlds](research/shared_workforce.md) deepen DE-CF01: one paid crew executes cleaning, robot attention/handling and separately required inventory jobs. A prior-service-based notice changes future paid blocks; funded extra capacity resolves some later scarcity. A one-minute shortfall can miss required cleaning, while an unfunded buyer creates no receipts despite delivery. The stronger human-dispatch premise remains much cheaper in the bounded window than the robot staffing-reduction case. Fourteen families now contain **196 worlds**; independent worlds are not one simultaneous portfolio.
+
+All three packs inherit the need for actual shared-resource identity, complete competing obligations, transition/fallback and payer cash. These synthetic cleaning rates, inventory jobs, staffing terms and efficiency premises do not calibrate hospital, utility or automotive decisions. Whole-system empirical costs and broad integrated acceptance remain partial.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1210,6 +1220,58 @@ The [source export](model/results/observed_research_summary.json) reproduces ten
 | charite | Middle-volume operating-cost difference | 63,800.00000 | EUR per year | Illustrative rounded annual costs before integration, with immediate staff-cost removal and fault-free operation. |
 
 Generated from [observed_research_summary.json](model/results/observed_research_summary.json). Equations, metric IDs and individual source IDs accompany each result; source/code hashes are checked above. FSD-E006–E009 remain four source records, not pooled estimates. No target ROI, provider margin, paid staffing reduction or scenario coefficient follows.
+
+### Focused follow-up: Shared staffing and complete competing work
+
+Authoritative analysis: [research/shared_workforce.md](research/shared_workforce.md).
+
+Edition 0.35 · synthetic execution and decision challenge, not empirical deployment economics.
+
+The [hospital economic audit](research/field_support_denominators.md#hospital-economic-claims-edition-034) made the missing organizational bridge explicit: released minutes do not identify paid staffing that can disappear. The new [shared-workforce contract](model/SHARED_WORKFORCE.md) executes that bridge conditionally. A single paid site crew must cover local robot attention, inventory jobs, robot handling and manual cleaning. A notice policy can reduce a future commitment; actual funds buy extra capacity; both service obligations and every payer remain visible.
+
+The first decision is whether the whole workload is feasible. The second is whether its total resource and payment consequences support the deployment. A favorable answer on one staffing line cannot answer both questions.
+
+#### What changes the choice
+
+The fixed-crew and notice cases both deliver all 4,000 cleaning zones and 160 separate inventory jobs over eight months. Under the declared August notice taking effect in October, regular staffing cash falls from $32,000 to $22,000. Four months of notice instead retain $26,000. This is an executed synthetic commitment change, not a dollar value assigned to released minutes, a measured employment result or proof that a real contract permits the reduction. Transition costs beyond retained notice-period staffing are unknown.
+
+The benefit is still conditional on other work. Doubling inventory demand in the last four months requires 1,240 extra paid crew minutes per affected month. Funding them costs $4,960 over the window and preserves complete service. With no extra capacity, the same regular staffing outlay buys only 2,000 cleaning zones and 232 of 240 required inventory jobs; only four months meet the complete obligation. Its smaller material/cash bill cannot support a savings claim. At an extra-capacity ceiling of 1,239 minutes, all inventory jobs are completed but cleaning falls to 3,998 zones. One missing minute per affected month is enough to fail the complete-service test.
+
+The human comparator changes the strategic interpretation. The original digital-human path needs $7,680 of extra capacity to cover the same 4,000 zones and 160 jobs. A stronger assumed dispatch path reduces cleaning work sufficiently to fit the existing paid crew, leaving inventory work unchanged. It pays $32,000 of regular staffing and no extra capacity. Its bounded external resource cash is $43,900, compared with $223,289.36 for the robot notice case. The $10,000 staffing reduction therefore does not make the robot case the lower-cash alternative under these premises. Opening assets, closing liabilities/receivables, transition costs and terminal value remain outside any full lifecycle comparison; no real technology ranking or ROI follows.
+
+#### Shared work and shared money must both be real
+
+Inventory work is no longer merely an unavailable-capacity reservation. It has required job IDs, actual completed/failed work, a rate, an independently funded buyer and dated invoices. With the inventory buyer unfunded, all 160 jobs can still be delivered from the operator's existing capital, while no receipts arrive: $9,600 remains uncollected, of which $8,400 is already due at the window end. The funded-buyer case still has a $1,200 future-due receivable. Neither a completed job nor an invoice becomes cash automatically.
+
+Local robot attention and handling compete with manual cleaning and inventory work for the same identified crew. Professional model engineering, demonstrations, support and integration retain their distinct resources and invoices. Combining their labels into a notional shared labor pool would fabricate substitutability. Conversely, actual legal consolidation matters for funding: customer and operator logical capital share an account in the licensed profile. A zero allocation to one logical role does not exhaust the other role's cash. The adverse funding tests respect that identity.
+
+The notice rule uses prior completed work and supported units, then waits through its declared delay. It cannot anticipate the later inventory surge or retroactively remove staff from earlier months. Once issued, a later shortfall does not cancel the modeled notice; the service ledger exposes the resulting extra-capacity need or missed work. A real deployment requires its own employment/contract authority, transition cost, working schedule and recovery options before this premise can support a decision.
+
+The thin model-role funding world also passes the early notice condition but fails the last month's complete obligation. Later support leaves fewer operating robots, and the operator cannot prepay the extra crew minutes. A valid historical trigger therefore does not guarantee sustained staffing feasibility: maintenance funding, fallback liquidity and the staffing commitment must be assessed together over the intended horizon.
+
+#### Consequences for the three decision packs
+
+For hospital logistics, qualify the entire request cohort and all retained handling, observation, dispatch, repair and fallback work before financing deployment from staffing savings. For utility inspection, include the residual human route and other paid crew duties. For automotive workcells, include feed, inspection, recovery and the crew's competing production obligations. These are measurement and accounting requirements; the cleaning/inventory rates, notice terms, prices and currencies do not transfer into those cells.
+
+Proceed with a bounded comparison only when the required service, actual shared resource identity and funding can be specified. Wait when the business case relies on an unverified staffing transition or unpriced fallback. Reject a lower-cost comparison that misses required work, spends the same worker time twice, counts future receipts as available cash, or treats a proposed staffing cut as a measured payroll result. Keep the improved human/specialist alternative in the same decision set.
+
+[The complete export](model/results/shared_workforce.json) contains nine replayable worlds with notice events, minute bookings, distinct service totals, role accounts and all invoices. It deepens DE-CF01 rather than inventing a new challenge family: fourteen families now contain 196 bounded worlds. These are independent comparisons, not one simultaneously feasible six-market portfolio. Full empirical cost, rights, organization and broad cross-module integration remain partial.
+
+#### Reproduced shared-workforce executions
+
+| Shared-worker world | Complete months / 8 | Cleaning zones | Inventory jobs / required | Staff USD | Extra capacity USD | External resource cash USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| fixed_crew_with_robots | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 0.00 | 233,289.36 |
+| notice_then_reduce | 8 | 4,000.00 | 160 / 160 | 22,000.00 | 0.00 | 223,289.36 |
+| longer_notice | 8 | 4,000.00 | 160 / 160 | 26,000.00 | 0.00 | 227,289.36 |
+| outside_surge_with_overtime | 8 | 4,000.00 | 240 / 240 | 22,000.00 | 4,960.00 | 228,249.36 |
+| outside_surge_without_overtime | 4 | 2,000.00 | 232 / 240 | 22,000.00 | 0.00 | 221,789.36 |
+| human_with_funded_overtime | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 7,680.00 | 51,580.00 |
+| stronger_human_dispatch | 8 | 4,000.00 | 160 / 160 | 32,000.00 | 0.00 | 43,900.00 |
+| unfunded_outside_buyer | 8 | 4,000.00 | 160 / 160 | 22,000.00 | 0.00 | 223,289.36 |
+| low_model_role_cash | 7 | 3,970.13 | 160 / 160 | 22,000.00 | 0.00 | 192,643.74 |
+
+Generated from [shared_workforce.json](model/results/shared_workforce.json), preserving separate service denominators and complete opening inputs. Lower outlay with missed work is not a valid savings comparison. Payments exclude uncollected/future-due claims and unmodeled lifecycle/transition costs; no empirical payroll effect or ROI is inferred.
 
 ### Focused follow-up: Monthly commercial funding and title
 
