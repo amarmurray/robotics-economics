@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: inspection readiness evidence, edition 0.32
+## New decision campaign: intelligence and physical resources, edition 0.33
+
+[Thirteen combined worlds](research/architecture_resources.md) advance the four-architecture/annual bridge and substantial H through an explicit lower-adaptation pair, resource and funding refusals, qualified supply and the paid human alternative. DE-03/06 and empirical whole-service acceptance stay partial. Fourteen families / 187 worlds are bounded executable coverage, not a jointly feasible portfolio, target calibration or campaign completion.
+
+Fresh validation passes **465 Python tests** in 273.772 seconds, **36 Node assertions**, sixteen JavaScript syntax checks and all **45 reproduction/Node commands**, plus exact frontier and combined-export checks. All thirteen dashboard views render without observed JavaScript or API errors. The new panel works in three views; all thirteen complete architecture worlds exactly match saved executions. The one-minute integration switch, eight monthly rows, seven lineage rows, role/annual tables, shared view state, null qualification, pending/invalid/stale protections, complete replay with forged outputs, seven invalid combined API requests and scope independence pass. All eight prior component worlds, four other reference panels, five inspection source drawers and ordinary scenario/source export checks remain valid. The new panel was visually inspected.
+
+All **1,250,698 prior typed numeric fields across 34 result JSONs** and their non-provenance semantics remain unchanged. 20 files are byte-identical; 14 change only exact source/evidence fingerprints, the shared-module fingerprint or dependent identities. The only changed previous model modules are the annual-admission extraction and architecture-result formatter. All other prior model code, numerical assumptions, source claims, atlas/labor rows, 69 legacy requirement statuses and 65 question statuses are preserved. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families now contain **187 bounded worlds**, not one simultaneous portfolio. The evidence registry remains 13 packages, 214 claims, 441 quantities and 133 explicit-null markers. **340 manifest hashes and 789 relative Markdown links** verify without broken paths.
+
+The campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/architecture_resources_review.md). This checkpoint does not stop the objective.
+
+## Previous decision checkpoint: inspection readiness evidence, edition 0.32
 
 [The source audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) advances service/work/rights questions without new numerical model parameters or synthetic cases. Detailed repair access, configured economics and measured outcomes remain missing. Broad criteria retain their partial status; fourteen families / 174 worlds remain bounded executable coverage, not empirical completion.
 

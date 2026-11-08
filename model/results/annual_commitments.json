@@ -11,7 +11,8 @@
     "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
     "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
     "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-    "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+    "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+    "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
   },
   "case_inputs": {
     "unreserved_control": {},
@@ -52238,9 +52239,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "52c802a80b814f4cbb0da015c6497db1de5f8dacdfedcd9d076f1de8c5692500"
+      "case_hash": "db0f2ed380de4a177894f4ee8f312056b6d1651a7cdfe5dc71adc9f0c851a177"
     },
     "support_exhausted_before_november": {
       "schema_version": "annual-commitments-window/0.1",
@@ -104463,9 +104465,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "25dd272cd53f22df6d610d391dc79a22e6a8defbf66f4bbba1fabd07d202232c"
+      "case_hash": "0b2a1b7f607aaf0360b028aeec768b223c79a2394ca7a33160aac94b5c884b51"
     },
     "exact_first_year_support": {
       "schema_version": "annual-commitments-window/0.1",
@@ -156556,9 +156559,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "fa7c4ede3b7d38e15b743ebbde7ce089bf970e1eb51ab2f7fcb85afd6acc0748"
+      "case_hash": "a145b484f0ac6ee1529bbb696858fc1c94658fcdc961391354d552b000013998"
     },
     "one_minute_below_support": {
       "schema_version": "annual-commitments-window/0.1",
@@ -208623,9 +208627,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "93d185151c5c9a220d93c24f962bef906e970aa908b686de82c99a64ee4b4b00"
+      "case_hash": "e86627ffd2382a05f0c2ea97a86117f213da6ab2e0e2867437dc11dc55c7128d"
     },
     "integration_for_two_units": {
       "schema_version": "annual-commitments-window/0.1",
@@ -260512,9 +260517,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "900d18a9dc36b2945fe02f1b9f5628faca5e7560090619ededa7d046b821fd9a"
+      "case_hash": "3da058ee3297623afedcbd42a9071f533151ef473dff348c99a79b170dfe6ec0"
     },
     "same_available_with_prior_use": {
       "schema_version": "annual-commitments-window/0.1",
@@ -312737,9 +312743,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "924734daf3c6e424aa1729fa053e03aaeb9f9c704634b073dce175e7b4a0befb"
+      "case_hash": "d42d7ce3a00be918f9de18821534c05acb1a3967ddc09b04f3feff3a0447c395"
     },
     "human_led_with_support_commitment": {
       "schema_version": "annual-commitments-window/0.1",
@@ -357690,9 +357697,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "ffde166f7ad77393200a19befbdf9d5f79299cb4f4662769b1dbc9390457d103"
+      "case_hash": "6e3f189f959bcf5c73903718c2b87f6ad0b341d71d6f796fd209afd59ec694b5"
     },
     "monthly_ceiling_still_binds": {
       "schema_version": "annual-commitments-window/0.1",
@@ -408802,9 +408810,10 @@
         "model/trajectories.py": "35031173e98a281f0080b92291195b78edaeaad6e386383404b5ebcb593c6c16",
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec",
         "model/competitive_renewals.py": "037824a62bb7799cc324965ca3968e859cb631e7911c5381d2c2cd9bf9169a23",
-        "model/annual_commitments.py": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+        "model/annual_commitments.py": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb",
+        "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
       },
-      "case_hash": "3e33f3f35bb88e4ecc3d343dacd23fb59f1dcc2f76907fe85d238d05030a0095"
+      "case_hash": "a92443522b7866a025f75659cd2eae6e35eb614264a40e98377890e7425c3dfc"
     }
   },
   "summary": [

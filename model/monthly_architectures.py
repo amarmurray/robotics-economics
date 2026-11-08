@@ -327,7 +327,11 @@ def architecture_execution_hashes():
 
 def run_architecture_execution(plan,treasury,contracts,enterprise,finance,bridge,architecture):
     policy=_ArchitectureEnterprise(plan,contracts,treasury,enterprise,finance,bridge,architecture)
-    r=run_monthly(plan,treasury,commercial=policy)
+    return architecture_result(run_monthly(plan,treasury,commercial=policy),policy)
+
+
+def architecture_result(r,policy):
+    """Describe the one completed physical/Treasury run for this role policy."""
     r.update(schema_version='monthly-deployment/0.6',scope='synthetic_funded_monthly_intelligence_roles',
         ownership='one_title_owner_per_unit_from_the_explicit_operator_hardware_contract')
     r['commercial']=policy.result(r);r['enterprise']=policy.enterprise_result(r);r['finance']=policy.finance_result(r)

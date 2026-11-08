@@ -128,3 +128,7 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 ## Inspection readiness challenge, edition 0.32
 
 [Inspection rollout and retained work](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) challenge T6/T7: service provision can coexist with customer integration, review and action work. Separate the inspected plant’s benefits from the robot’s support burden; title and inclusive coverage require applicable terms. Dated rollout alone does not establish profitable or labor-removing deployment.
+
+## Intelligence and physical resources, edition 0.33
+
+[The combined execution](research/architecture_resources.md) narrows the deployment thesis: a reduction in digital adaptation work can remove the first obstacle while a different physical qualification or payer constraint still sets the operating date. The same required service can remain fully supplied by paid humans. A case for lower resource cost, earlier supported robot exposure, avoided hiring and actually removed payroll requires separate evidence for each. Four architecture labels do not supply empirical integration coefficients or usable working capital. The next falsifier is a dated target resource/payment/service ledger, including shared staff identities and failed or retained work.

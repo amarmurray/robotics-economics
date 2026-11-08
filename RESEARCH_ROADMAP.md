@@ -290,3 +290,7 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Inspection readiness challenge, edition 0.32
 
 [The inspection-readiness challenge](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) preserves six unknowns after primary-source review. Detailed maintenance access remains restricted; do not repeat exhausted routes or register/contact. Next pursue substantial H through a fixed-objective digital-to-qualified-service critical path that counts failed work, physical validation and a strong conventional alternative. Reopen this source branch when a configured maintenance/service ledger or applicable executed support scope becomes available.
+
+## After architecture/resource composition, edition 0.33
+
+[Four intelligence arrangements](research/architecture_resources.md) now share annual physical commitments and typed parts through their original legal cash accounts. The lower-adaptation pair moves an upstream qualification constraint without necessarily moving the physical operating date; the strong paid human alternative preserves complete service. Next seek a consequential target resource/payment/service record or execute an explicitly conserved competing workload. Do not add independent scenario outcomes as one portfolio or infer interchangeable engineer/technician pools. Full six-cell commitments, real support/repair economics and broad competition/acquisition/learning integration remain incomplete. The same campaign deadline and sole writer continue.

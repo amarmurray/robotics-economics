@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.32.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.33.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: inspection rollout and retained work, edition 0.32
+## Current checkpoint: intelligence and physical-resource integration, edition 0.33
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The environment-disconnected steer was answered by current connected/running status and successful shell/remote checks in the same workspace and published configuration. Working changes and the sole-writer plan were preserved. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
+
+From accepted input `f1a9ce8b29d7051fa0fc8111c93fa31050589edd`, [the combined architecture contract](research/architecture_resources.md) now joins four funded intelligence arrangements, annual physical support/integration and typed compatible parts on one physical/Treasury execution. The extracted admission rule creates no new actors or expense. Original architecture legal accounts and atomic payments remain authoritative; the competitive and architecture business policies are not stacked. Engineering, demonstrations, support and integration are explicitly distinct pools.
+
+The decision result is a conditional critical path. Halving assumed open-model adaptation work removes an initial obstacle but still leaves the full fleet waiting until January under the common integration reservation. The licensed two-unit threshold is exactly 10,500 integration minutes; one minute less delays a unit. Qualified supply and each payer's liquidity can independently bind. Later qualification failure retains $72,000 of previously executed manufacture in the model-led case. The paid human alternative delivers all 4,000 required zones and staffing remains $32,000 in every standard world; no added complete service, payroll removal, target ROI or preferred architecture follows. Real productivity/quality effects, shared staff identities, rights and lifecycle costs remain unknown.
+
+Fresh validation passes **465 Python tests** in 273.772 seconds, **36 Node assertions**, sixteen JavaScript syntax checks and all **45 reproduction/Node commands**, plus exact frontier and combined-export checks. All thirteen dashboard views render without observed JavaScript or API errors. The new panel works in three views; all thirteen complete architecture worlds exactly match saved executions. The one-minute integration switch, eight monthly rows, seven lineage rows, role/annual tables, shared view state, null qualification, pending/invalid/stale protections, complete replay with forged outputs, seven invalid combined API requests and scope independence pass. All eight prior component worlds, four other reference panels, five inspection source drawers and ordinary scenario/source export checks remain valid. The new panel was visually inspected.
+
+All **1,250,698 prior typed numeric fields across 34 result JSONs** and their non-provenance semantics remain unchanged. 20 files are byte-identical; 14 change only exact source/evidence fingerprints, the shared-module fingerprint or dependent identities. The only changed previous model modules are the annual-admission extraction and architecture-result formatter. All other prior model code, numerical assumptions, source claims, atlas/labor rows, 69 legacy requirement statuses and 65 question statuses are preserved. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families now contain **187 bounded worlds**, not one simultaneous portfolio. The evidence registry remains 13 packages, 214 claims, 441 quantities and 133 explicit-null markers. **340 manifest hashes and 789 relative Markdown links** verify without broken paths.
+
+**Next execution:** prioritize an actual dated resource/payment/service record or a substantive jointly conserved competing workload. Do not add separate scenario results as one feasible portfolio or favorable variants for count. Full six-cell workloads and broad competition/acquisition/recovery/learning composition remain incomplete. Preserve the prior source-access boundaries.
+
+**Next question:** when do genuinely shared resources or an actually executed competing workload change the qualified operating date and payer cash after the complete service and prior commitments are retained?
+
+## Previous checkpoint: inspection rollout and retained work, edition 0.32
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The current cloud runtime is connected/running on the same published configuration, and fresh shell/remote checks confirm executable readiness. The sole writer and original clock remain; native goal/quota controls are unexposed. No replacement task, duplicate schedule, reset or uninterrupted-execution claim occurred.
 

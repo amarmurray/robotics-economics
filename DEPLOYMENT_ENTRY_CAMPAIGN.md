@@ -109,3 +109,7 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Inspection readiness challenge, edition 0.32
 
 [The operator/readiness challenge](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) deepens empirical gates without adding synthetic cases. Fourteen families / 174 worlds remain unchanged; accepted service, robot repair, customer work and actual rights/costs remain incomplete. The same in-progress T0/deadline continues.
+
+## Intelligence and physical-resource checkpoint, edition 0.33
+
+[The combined architecture execution](research/architecture_resources.md) adds thirteen bounded worlds to DE-03/06/08. One shared admission rule constrains the existing architecture-specific cash and physical loop without importing competitive actor identities. The lower-adaptation pair exposes the next physical bottleneck; the fixed paid human alternative still supplies all service. Fourteen families / 187 worlds are bounded coverage, not a single feasible portfolio or empirical completion. The same in-progress campaign and original deadline continue.

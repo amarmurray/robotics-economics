@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "inspection-readiness-checkpoint-0.32",
+  "snapshot_id": "architecture-resources-checkpoint-0.33",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -33,8 +33,8 @@
       "repository_path": "ACCEPTANCE_AUDIT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/ACCEPTANCE_AUDIT.md",
       "name": "ACCEPTANCE_AUDIT.md",
-      "sha256": "02f182c7c22957152376969655f47d3780fa8ae8a287cb4452dcab068b6efe2f",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "20c491ae9e0fab15b180008e7a71b481f4e3442a58f7dd327c453a71f84aa32d",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "AGENTS.md",
@@ -68,8 +68,8 @@
       "repository_path": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/DEPLOYMENT_ENTRY_CAMPAIGN.md",
       "name": "DEPLOYMENT_ENTRY_CAMPAIGN.md",
-      "sha256": "296f1746edc70cea3038845751409667cc7840157c5cf633194751c7fc4da551",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "24c049fec9986c1ad3cc75649d5bf256ad93a298eec9c835ba21c4c100547eae",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "33ed388ea583b664bf273f48fbd7d0337ef3e850b210eb6857995de1b2265712"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "4af63f38f236c21501b639b37ec55a03581d1837da79b0671e8cf0768d06917c"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -124,15 +124,15 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "3482e3628063bc86ded38806a0a0c62541277bbd8e5840b8684fa5c0fa534758",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "ad642e82f7ba5ce6aa573a44a134aecf05067c15c56fbd23665d86c07c25586d",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "REPRODUCE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPRODUCE.md",
       "name": "REPRODUCE.md",
-      "sha256": "8c5cb0b8ec76ffa085a86199590e8ecbd35dba2bff46bdf2034f46c62efe0944",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "e4cc06c19767a86b4068ddb56fe04d35390117536aa4ecf572b64c27ad65fc7c",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "RESEARCH_PROGRAM_DESIGN.md",
@@ -145,8 +145,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "d6d9cebb3dca60d2f9aa7de5ebd9d9afb112d9569104c1de0da4f94f854dd763"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "916551caaeef90bc53e93cbe6752ce3a2c13ed475615c62a8dfb8d7a8c4b8445"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -173,8 +173,8 @@
       "repository_path": "THESIS_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THESIS_REGISTER.md",
       "name": "THESIS_REGISTER.md",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "6b3c61eaf076e2eaafe809d38d081f965d0d3aabe43e9046787a11730265fdae"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "e0b0bd2e124898755f9fc1fbb63ad2fb79b7a0bff4aea37b6f90ccb75c27ce17"
     },
     {
       "repository_path": "WEEK_ONE_RESEARCH_SPEC.md",
@@ -187,8 +187,8 @@
       "repository_path": "acceptance_register.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/acceptance_register.json",
       "name": "acceptance_register.json",
-      "sha256": "610bd45ee62ad6850a0ce6016860fb070148ab6cc50f03c13da7d699b9a35180",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "132f6961873fb3b2f24dddd2d93e17fc8c5fdae1776d7f5a7f5f69e0d48f8c11",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "dashboard/EVIDENCE_FILTERS.md",
@@ -208,8 +208,15 @@
       "repository_path": "dashboard/app.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/app.js",
       "name": "app.js",
-      "sha256": "dec66c77c994523f4f0b2e1df8bfd50876f09ad5e6e07fe82d3f4fdb932d949b",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "a68d76381f46e2a5df74729d042191c0dec5966a0e44efbc66e5badf8e8bdfce",
+      "version": "architecture-resources-checkpoint-0.33"
+    },
+    {
+      "repository_path": "dashboard/architecture_resources.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/architecture_resources.js",
+      "name": "architecture_resources.js",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "c1dcb772f763802d534c6557a8f98edf0eddd038d172f260dd397e1cdb0b35bb"
     },
     {
       "repository_path": "dashboard/asset_recovery.js",
@@ -264,8 +271,8 @@
       "repository_path": "dashboard/index.html",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/dashboard/index.html",
       "name": "index.html",
-      "sha256": "2a90eaa707cf9b03533f733512834dd607c1a189334827022bddd27867f2e215",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "f01ef3c8dcd708ae388b7603ea1852c192c2a9be90a7dc1204376b006d1f64da",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "dashboard/learning_execution.js",
@@ -383,8 +390,8 @@
       "repository_path": "data/market_evidence.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/market_evidence.json",
       "name": "market_evidence.json",
-      "sha256": "42835c2e9ae204417130d090e0089419bd6ea8f8f114d7b913194b62a3da43f1",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "d884a1976f57c916102758e53ef0baff6911f20d4a0f655129ff32d78482b1c5",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "data/onboard_workload_qualification.json",
@@ -425,8 +432,8 @@
       "repository_path": "data/question_ledger.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/data/question_ledger.json",
       "name": "question_ledger.json",
-      "sha256": "5f5bf788a559c38a28916f0fe09bc681ab172627a964deb41053cc9589437fa6",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "f32e0dca1d91d4e897e970ecdd94c539cf8fa0b7e636163c72887620a285287b",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "data/sources/physical_requirements/oesm25nat.zip",
@@ -469,6 +476,13 @@
       "name": "ARCHITECTURES.md",
       "version": "week-one-in-progress-0.7",
       "sha256": "4b64e31068cec0b801b9312f3b4508623fa8f1b2b094063e60cdcdc73b8cbfb9"
+    },
+    {
+      "repository_path": "model/ARCHITECTURE_RESOURCES.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/ARCHITECTURE_RESOURCES.md",
+      "name": "ARCHITECTURE_RESOURCES.md",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "ceb75e655d0c4194c33611df955830c445d5833e813d81bf5d561e167e997f9f"
     },
     {
       "repository_path": "model/ASSET_RECOVERY.md",
@@ -614,8 +628,15 @@
       "repository_path": "model/annual_commitments.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/annual_commitments.py",
       "name": "annual_commitments.py",
-      "version": "annual-commitments-checkpoint-0.30",
-      "sha256": "c12f8699269b4db8ee76cf7cb6388eb11c6a4876d58d1eac0b62a010e03ba404"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "9a82c10daee59e9707c8aa77acd3357205ac4dda23c0261f5b4c2887ce7259bb"
+    },
+    {
+      "repository_path": "model/annual_resource_ledger.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/annual_resource_ledger.py",
+      "name": "annual_resource_ledger.py",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef"
     },
     {
       "repository_path": "model/architecture_assumptions.json",
@@ -623,6 +644,13 @@
       "name": "architecture_assumptions.json",
       "version": "week-one-in-progress-0.7",
       "sha256": "df558af4e0eea082e4e5a87fd7d31f38ee638aa8d5cf2dd49e8aec99ea7ad654"
+    },
+    {
+      "repository_path": "model/architecture_resources.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/architecture_resources.py",
+      "name": "architecture_resources.py",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "6e7b54f6e3cb42887e9fa5052da89ee3610f63dc767700ef1b101e73357f33d2"
     },
     {
       "repository_path": "model/architectures.py",
@@ -747,8 +775,8 @@
       "repository_path": "model/monthly_architectures.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/monthly_architectures.py",
       "name": "monthly_architectures.py",
-      "version": "funded-intelligence-checkpoint-0.16",
-      "sha256": "e100432f526edc03129318d2d4169fc9f8c1036bc9229a5d5614655772b9e71a"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca"
     },
     {
       "repository_path": "model/monthly_commercial.py",
@@ -803,8 +831,8 @@
       "repository_path": "model/results/ample_supply_unready.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/ample_supply_unready.json",
       "name": "ample_supply_unready.json",
-      "sha256": "c661e27f3ce508921f685c71ebc4889755d5dbd4f648b1fa54093e0d1f0c9bd0",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "d5ecf822dec7c7c5513e2d8fa5038c335714db61dc07fee7de295adf36f012a7",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/ample_supply_unready_components.csv",
@@ -838,29 +866,36 @@
       "repository_path": "model/results/annual_commitments.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/annual_commitments.json",
       "name": "annual_commitments.json",
-      "version": "compatible-components-checkpoint-0.31",
-      "sha256": "935c798d5ad642e006f6e789e6f94848546b51e73e76d2d69ca2b6a05081c383"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "cb8ce6003b44574b503d793f4029466a816e15a1226164efb05e584c1e9ae99f"
     },
     {
       "repository_path": "model/results/annual_digital_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/annual_digital_comparison.json",
       "name": "annual_digital_comparison.json",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "58683fa194e0c23733f222500acaa12bd05498e5b1196011a0ea9e80f5dfbe41"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "786676dd8ab51db0c788c6e62341b401cfbfc04494b8e3c362c6527ce2799ef8"
     },
     {
       "repository_path": "model/results/architecture_comparison.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_comparison.json",
       "name": "architecture_comparison.json",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "742633b012ea5dcd801128a7a951b26d484c464d9d49b32bfdccde1e0a836655"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "38139fb4c845d758facf88e5bd9fda4f7ae7c2b0cbf586850390ca26d5d2b02c"
     },
     {
       "repository_path": "model/results/architecture_experiments.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_experiments.json",
       "name": "architecture_experiments.json",
-      "version": "inspection-readiness-checkpoint-0.32",
-      "sha256": "35188b6e66f388b9c628a140a2c4120a0aeb915270389720835c0a015aff9932"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "3de262a5eb6ef90eff69d948a1162c17f1a687422cb961cf6bd3b7018b5c6b4c"
+    },
+    {
+      "repository_path": "model/results/architecture_resources.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/architecture_resources.json",
+      "name": "architecture_resources.json",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "3118f37a94d8a05c02603a54603f7d39fc8fb85f1181edc480553133adecce75"
     },
     {
       "repository_path": "model/results/asset_recovery.json",
@@ -894,8 +929,8 @@
       "repository_path": "model/results/component_execution.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/component_execution.json",
       "name": "component_execution.json",
-      "version": "compatible-components-checkpoint-0.31",
-      "sha256": "cf5fb1a07ac53ad10ce916e69c9457328010e21bee74371696abd4108bbc38a4"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "7acc161a2c55f234a89c3fa051b3026e79f9c5ab10e46c93e051b0987fac871a"
     },
     {
       "repository_path": "model/results/conventional_coordination.json",
@@ -915,8 +950,8 @@
       "repository_path": "model/results/delayed_supply.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/delayed_supply.json",
       "name": "delayed_supply.json",
-      "sha256": "5a07991e24a9bb9fffad0e9b2d8e9cbd13ee5d4d480142f3601c52da4f247e76",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "a173bc1d42340ecdf982e358795009e7924aa50f9566598ebf64816c6d594cab",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/delayed_supply_components.csv",
@@ -950,8 +985,8 @@
       "repository_path": "model/results/digital_first.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/digital_first.json",
       "name": "digital_first.json",
-      "sha256": "2093b1e7c0abba115955f8a9a2714c1eeb703251e7fc93395239b0c6716188e3",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "8245dc804a7a36da7b156661c3c9d2d32b7c4d12da1cca82fddac2a43da28cf5",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/digital_first_components.csv",
@@ -1020,8 +1055,8 @@
       "repository_path": "model/results/limited_transfer.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/limited_transfer.json",
       "name": "limited_transfer.json",
-      "sha256": "265bd4a49f666c9d8f38c65ca0dc2acf745aa2900b6d865a8a26435d55d10e09",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "954bfab946c4b15a88330cdd3a94b9d0c7024ae51ea719505150a4ab2c3cb06b",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/limited_transfer_components.csv",
@@ -1055,8 +1090,8 @@
       "repository_path": "model/results/monthly_architectures.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/monthly_architectures.json",
       "name": "monthly_architectures.json",
-      "version": "compatible-components-checkpoint-0.31",
-      "sha256": "3383437b7c7b946a53583c261520f2603746e577b8c66e54ff335bffc44ab17f"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "50c27034fdab8186a171b8f5eba9d523aac65d484efc69d2690add3880c353bf"
     },
     {
       "repository_path": "model/results/monthly_commercial.json",
@@ -1076,8 +1111,8 @@
       "repository_path": "model/results/newco_raas.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/newco_raas.json",
       "name": "newco_raas.json",
-      "sha256": "935dbe60fde5e6010356cc0243ebbbc9aa4d485d78ac065da359465a3c3761da",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "d2f34cac7c8ead61048d899fb6b879f425c45ab23f767fa8cf57c297ecc5af04",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/newco_raas_components.csv",
@@ -1132,8 +1167,8 @@
       "repository_path": "model/results/prompt_response.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/prompt_response.json",
       "name": "prompt_response.json",
-      "sha256": "1535a2444b7538ca6df492a321b26e8c4bd2b97852f5974de7464fc021bf5346",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "5bbab83fcebbaae9170b37e07ea37310fca4796f3363b2c08c500caa6117d844",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/prompt_response_components.csv",
@@ -1167,8 +1202,8 @@
       "repository_path": "model/results/reference.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/reference.json",
       "name": "reference.json",
-      "sha256": "70c03b1e8703b4f94a5e572d612be23ca442a520d653759ca5de68dbbfdf71b1",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "7cb2b7efe59df45709605ac7d7df6aaa859b6c6303220f23bca684812c7470dd",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/reference_components.csv",
@@ -1209,8 +1244,8 @@
       "repository_path": "model/results/service_stress.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/service_stress.json",
       "name": "service_stress.json",
-      "sha256": "5d764b42bb6779a7c077f9767abcf89b48e33eaad555c1dcdd3385d539600997",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "61880d4b373c7c09df54eee94cc48ce09b66a9ed790331e58f4ff95a037419cc",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "model/results/service_stress_components.csv",
@@ -1325,6 +1360,13 @@
       "sha256": "6f4f69bb7709f29664a9e07dc2d6c7bfe7c52cee44c8cde9161e79d237f185f8"
     },
     {
+      "repository_path": "research/architecture_resources.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/architecture_resources.md",
+      "name": "architecture_resources.md",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "ec2fc977347c15126bf5e812f0faddfe40ace00f82b2e8aa425ec174a407856e"
+    },
+    {
       "repository_path": "research/asset_recovery.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/asset_recovery.md",
       "name": "asset_recovery.md",
@@ -1398,8 +1440,8 @@
       "repository_path": "research/deployment_entry_decisions.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/deployment_entry_decisions.md",
       "name": "deployment_entry_decisions.md",
-      "sha256": "80f6ba6cce604000119631151f781e3d6ea5648afd907bb0f9d4c9f681a5a9b0",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "97832c5c49c6038ff1245bbd18809cf3e008bb497b5f9376cc9bffa725eb3ed9",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "research/digital_ecosystem.md",
@@ -1517,8 +1559,8 @@
       "repository_path": "research/monthly_intelligence_execution.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/monthly_intelligence_execution.md",
       "name": "monthly_intelligence_execution.md",
-      "version": "funded-intelligence-checkpoint-0.16",
-      "sha256": "5e89ab19f51ae09875546af80d10742baa245a89cc34665ad0f85ed4981b183e"
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "c8b6b4bc58f64e6ce13286b6b2260077f8535e983178c2f566d7e712593805f5"
     },
     {
       "repository_path": "research/onboard_workload_qualification.md",
@@ -1603,6 +1645,13 @@
       "name": "architecture_economics_review.md",
       "version": "week-one-in-progress-0.7",
       "sha256": "aaab23a9bbae6d2763a667e18556261467b387de98e41f76656e94eb25aaf936"
+    },
+    {
+      "repository_path": "reviews/architecture_resources_review.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/architecture_resources_review.md",
+      "name": "architecture_resources_review.md",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "ab41c2f1be93abd0a4153a2f6c69f60a25a8a46b5327c3ceaf43052e92143370"
     },
     {
       "repository_path": "reviews/asset_recovery_review.md",
@@ -1951,8 +2000,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "8be3cb7e0228abc69511a0f28723089b88d749227bdd5310fd5ef833600e631b",
-      "version": "inspection-readiness-checkpoint-0.32"
+      "sha256": "2746b292575805211d472bd0df8087897f4fc5558288e4c554b601444990feb7",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "scripts/export_annual_commitments.py",
@@ -1960,6 +2009,13 @@
       "name": "export_annual_commitments.py",
       "version": "annual-commitments-checkpoint-0.30",
       "sha256": "8632af377a1a92f28bf0ab4ca790c64dba448ab70e1558260b37329050165324"
+    },
+    {
+      "repository_path": "scripts/export_architecture_resources.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/export_architecture_resources.py",
+      "name": "export_architecture_resources.py",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "9cd29dcee8078cccc82e5569d4ed323c99e35db326dff65259f9ee1e0c47daa1"
     },
     {
       "repository_path": "scripts/export_architectures.py",
@@ -2105,8 +2161,8 @@
       "repository_path": "scripts/serve.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/serve.py",
       "name": "serve.py",
-      "sha256": "fad3daaf977b2594d1e20afa62c4f9d3235694db90c9aef0d624571c72ecc78d",
-      "version": "compatible-components-checkpoint-0.31"
+      "sha256": "8fb3cd95f83a72d5735229eca57060f72cff412ceb93f8c1a7d24d4158729375",
+      "version": "architecture-resources-checkpoint-0.33"
     },
     {
       "repository_path": "scripts/validate_evidence.py",
@@ -2135,6 +2191,13 @@
       "name": "test_api.py",
       "sha256": "2b8935491c32abb1d41c954bea640c4e9794e6afedd0366dcb8b93ca2874a3e9",
       "version": "support-expansion-checkpoint-0.25"
+    },
+    {
+      "repository_path": "tests/test_architecture_resources.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_architecture_resources.py",
+      "name": "test_architecture_resources.py",
+      "version": "architecture-resources-checkpoint-0.33",
+      "sha256": "858d6aeeb4c4ba9d6b6540d6bbee35e4e6527c1580815d0f3d388751034c548b"
     },
     {
       "repository_path": "tests/test_architectures.py",
@@ -2487,6 +2550,13 @@
       "artifact": "model/results/learning_execution.json",
       "review": "reviews/learning_execution_review.md",
       "status": "bounded_synthetic_data_candidate_qualification_and_supported_service"
+    },
+    "architecture_resources": {
+      "analysis": "research/architecture_resources.md",
+      "methods": "model/ARCHITECTURE_RESOURCES.md",
+      "artifact": "model/results/architecture_resources.json",
+      "review": "reviews/architecture_resources_review.md",
+      "status": "bounded_synthetic_four_architecture_resources_and_parts_not_full_portfolio"
     }
   }
 }

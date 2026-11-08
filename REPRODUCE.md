@@ -315,3 +315,17 @@ The API is `/api/component-execution`. [Methods](model/COMPONENT_EXECUTION.md), 
 ## Inspection readiness challenge, edition 0.32
 
 The inspection-readiness panel consumes the accepted `data/quadruped_operator_followup.json` package without new source arithmetic or simulation calibration. Verify five new source drawers, six source quantities (including the greater-than qualifier), six unknowns, five gates, source filters and scenario invariance in Customer adoption, Digital AI, Supply and Embodiment views. Regenerate evidence fingerprints and the report; all earlier numerical and non-fingerprint result fields must remain identical.
+
+## Intelligence architectures with physical commitments, edition 0.33
+
+Commercial models, Digital AI ecosystem and Supply & production share thirteen complete combined cases. Inspect monthly service, annual minutes, role cash and the seven lineage rows. Change available minutes, monthly work capacity, model-supplier role cash, manufacturing month or board qualification; blank qualification remains unrealized. Exact integration boundaries, independent payer funding and the digital-human-only case remain explicit.
+
+```bash
+python3 scripts/export_architecture_resources.py
+python3 scripts/export_architecture_resources.py --check
+python3 scripts/export_architecture_resources.py --case saved-architecture-resources.json --output replay.json
+python3 -m unittest tests.test_architecture_resources -v
+node --check dashboard/architecture_resources.js
+```
+
+Restart the local server after changing Python modules before comparing saved exports. `/api/architecture-resources` accepts exactly one inputs or saved_case object. Full replay recalculates all outputs; pending/invalid/stale responses preserve the last applied export. See [methods](model/ARCHITECTURE_RESOURCES.md), [analysis](research/architecture_resources.md) and [review](reviews/architecture_resources_review.md). Earlier numerical results remain unchanged after regeneration of source fingerprints. This does not join all six cells or execute outside reservations.
