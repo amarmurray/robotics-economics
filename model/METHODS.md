@@ -138,3 +138,8 @@ The cloud continuation exposed a last-binary-digit difference in two annual tota
 ## Annual support/integration commitments, edition 0.30
 
 [The annual commitment contract](ANNUAL_COMMITMENTS.md) applies dated reference-pool balances inside the existing competitive monthly admission path. Prior use, reservations, successful paid bookings and unbooked capacity reconcile per calendar year. The unrestricted control preserves prior execution; failed contingent funding consumes no annual capacity. Outside allocations add no output or cash cost. Strong paid human capacity can preserve market service while robot-months and customer assignments change. Annual component-vector conversion and simultaneous outside workloads remain unimplemented.
+
+
+## Compatible parts and named replacements, edition 0.31
+
+[The typed component contract](COMPONENT_EXECUTION.md) explicitly replaces generic module accounting only in selected new cases. Whole compatible BOMs, received/qualified inventory and one named replacement requirement per unit share the existing physical, annual-resource and Treasury loop. Failed admission consumes no candidate parts; rejected manufacturing retains sunk material and payment. The annual spare flow does not set discrete failures or labor. Existing bundles cover consumed parts and assumed repair labor once; actual target terms and full annual portfolio supply remain unknown.

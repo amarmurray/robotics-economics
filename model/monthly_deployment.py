@@ -68,6 +68,25 @@ class System:
 
 
 @dataclass(frozen=True)
+class TypedComponentSystem(System):
+    """Explicit replacement of the generic module contract, never a conversion."""
+    components_per_start: int = 0
+    service_components_per_robot_month: int = 0
+    component_accounting: str = 'typed_compatible_parts'
+
+    def __post_init__(self):
+        values = asdict(self)
+        marker = values.pop('component_accounting')
+        if marker != 'typed_compatible_parts': raise ValueError('Unknown component accounting contract')
+        if type(self.components_per_start) is not int or self.components_per_start != 0 or \
+           type(self.service_components_per_robot_month) is not int or self.service_components_per_robot_month != 0:
+            raise ValueError('Typed parts require the generic module requirements to be explicitly zero')
+        # Reuse every original cost, lead, output and identity guard without
+        # weakening the positive-start requirement of the old generic contract.
+        System(**{**values, 'components_per_start': 1})
+
+
+@dataclass(frozen=True)
 class Operator:
     operator_id: str
     requested_additions: int
@@ -149,6 +168,8 @@ class Plan:
             if len(values) != self.months:
                 raise ValueError("Explicit capacity/receipt entry required for every month")
             object.__setattr__(self, name, values)
+        if isinstance(self.system, TypedComponentSystem) and (self.opening_components or any(self.qualified_component_receipts)):
+            raise ValueError('Typed parts cannot coexist with generic opening modules or module receipts')
         if any(len(x.demand_units_by_month) != self.months for x in self.operators):
             raise ValueError("Explicit demand required for every operator/month")
         for values, key in ((self.starts, "order_id"), (self.collections, "invoice_id")):
@@ -189,7 +210,7 @@ class RecoveryTransfer:
             raise ValueError('Asset consideration and relocation need separate invoices')
 
 
-def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
+def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None, materials=None):
     """Return a detached deterministic artifact; never mutate supplied inputs."""
     if not isinstance(plan, Plan) or not isinstance(treasury, Treasury):
         raise ValueError("Plan and Treasury required")
@@ -205,6 +226,10 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
             raise ValueError("Collections must be explicit opening receivables of an included actor")
 
     spec = plan.system
+    if isinstance(spec, TypedComponentSystem) != (materials is not None):
+        raise ValueError('Typed component system and explicit material ledger must be supplied together')
+    if materials is not None:
+        materials.validate_plan(plan)
     prefix = "monthly:" + plan.plan_id + ":"
     provenance = "synthetic_monthly_plan:" + plan.plan_id
     initial_treasury = treasury
@@ -214,6 +239,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
     for operator in plan.operators:
         units.extend(Unit(f"opening-installed-{operator.operator_id}-{i+1}", "opening_stock", "installed",
                           operator_id=operator.operator_id) for i in range(operator.opening_installed))
+    if materials is not None:
+        materials.validate_units(units, plan)
     remaining = {x.operator_id: x.requested_additions for x in plan.operators}
     cursor = 0
     events, months = [], []
@@ -268,6 +295,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
         existing = [u for u in units if u.status == "installed"]
         arriving = [u for u in units if u.status == "transit" and u.ready_month <= month]
         scheduled = [s for s in plan.starts if s.month == month]
+        if materials is not None:
+            materials.open_month(month, units)
         if commercial is not None:
             treasury = commercial.prepare(treasury, month, units)
         support_invoices = {u.unit_id: issue("support:" + u.unit_id, spec.support_cents_per_robot_month,
@@ -338,12 +367,16 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
         for unit in existing:
             reason = "support_slots" if len(supported) >= plan.support_slots[month] else \
                      "support_components" if components < spec.service_components_per_robot_month else ""
+            if materials is not None:
+                reason = reason or materials.service_reason(month, unit)
             iid = support_invoices[unit.unit_id]
             reason = admit(iid, month, 3, reason, unit=unit)
             if not reason:
                 supported.add(unit.unit_id)
                 components -= spec.service_components_per_robot_month
                 service_used += spec.service_components_per_robot_month
+                if materials is not None:
+                    materials.issue_service(month, 3, unit)
             record(month, 3, "existing_support", (unit.unit_id,), "blocked" if reason else "supported", reason, iid)
         existing_supported = len(supported)
         unsupported_existing = len(existing) - existing_supported
@@ -354,6 +387,9 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
         if receipt:
             record(month, 4, "qualified_component_receipt", quantity=receipt,
                    cash_basis="consigned_until_bundled_start_or_service_issue")
+        if materials is not None:
+            materials.receive_and_qualify(month)
+            materials.protect_existing(month, [u for u in existing if u.unit_id not in supported])
         protected_spares = min(components, unsupported_existing * spec.service_components_per_robot_month)
         for unit in tuple(units):
             if unit.status == "wip" and unit.ready_month <= month:
@@ -369,6 +405,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                      "commissioning_slots" if commissioned >= plan.commissioning_slots[month] else \
                      "support_slots" if len(supported) >= plan.support_slots[month] else \
                      "support_components" if components - protected_spares < spec.service_components_per_robot_month else ""
+            if materials is not None:
+                reason = reason or materials.service_reason(month, unit)
             iid = commission_invoices[unit.unit_id]
             reason = admit(iid, month, 4, reason, unit=unit)
             if not reason:
@@ -377,6 +415,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                 supported.add(unit.unit_id)
                 components -= spec.service_components_per_robot_month
                 service_used += spec.service_components_per_robot_month
+                if materials is not None:
+                    materials.issue_service(month, 4, unit)
             record(month, 4, "commission", (unit.unit_id,), "blocked" if reason else "installed", reason, iid)
 
         # Shipping bookings are issued after actual acceptance in phase 4.
@@ -424,6 +464,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
             needed = start.quantity * spec.components_per_start
             reason = "existing_support_shortfall" if unsupported_existing else \
                      "start_components_after_service_reserve" if needed > components - protected_spares else ""
+            if materials is not None:
+                reason = reason or materials.start_reason(month, start)
             iid = start_invoices[start.order_id]
             reason = admit(iid, month, 5, reason)
             ids = tuple(f"start-{start.order_id}-{i+1}" for i in range(start.quantity))
@@ -434,6 +476,8 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                 units.extend(Unit(uid, start.order_id, "wip", index < start.accepted_quantity,
                                   month + spec.assembly_lead_months, started_at=Moment(month, 5))
                              for index, uid in enumerate(ids))
+                if materials is not None:
+                    materials.issue_start(month, start, ids)
             record(month, 5, "start", ids if not reason else (), "blocked" if reason else "started", reason, iid,
                    requested_quantity=start.quantity, components_consumed=0 if reason else needed)
 
@@ -473,6 +517,9 @@ def run_monthly(plan: Plan, treasury: Treasury, *, commercial=None):
                "outputs": outputs, "opening_cash_cents": opening_cash,
                "closing_cash_cents": {a.actor_id: treasury.balance(a.actor_id) for a in treasury.accounts}}
         if relocated:row['flows']['relocated']=relocated
+        if materials is not None:
+            row['components']['status'] = 'inactive_generic_balance_in_typed_contract'
+            row['compatible_parts'] = materials.close_month(month, units)
         _audit_month(row)
         if len({u.unit_id for u in units}) != len(units):
             raise ValueError("Duplicate unit identity")

@@ -1128,7 +1128,8 @@
         "Faster collection or cheaper cloud simulation does not identify a shorter fixed-objective R&D critical path; robot grounding/recovery still constrain validation.",
         "Edition 0.21: DreamGen and pinned integration/readiness sources connect digital R&D stages to physical qualification and supported supply. Source inconsistencies, manual work and compute allocation remain explicit; no model/robot was run.",
         "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
-        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open.",
+        "Edition 0.31 replaces generic modules with an explicit compatible whole-part contract in the selected monthly execution. Announced, received, quarantined and qualified states differ; paid starts and named replacements conserve parts and cash. Annual spare averages do not identify repair dates/labor. Actual target maintenance and supplier financing remain unknown."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1140,9 +1141,11 @@
         "model/LEARNING_EXECUTION.md",
         "model/results/learning_execution.json",
         "research/annual_commitments.md",
-        "model/ANNUAL_COMMITMENTS.md"
+        "model/ANNUAL_COMMITMENTS.md",
+        "research/component_execution.md",
+        "model/COMPONENT_EXECUTION.md"
       ],
-      "next_action": "Trace a proposed capability generation through its funded physical qualification, shared support/integration allocation and retained-cohort service. Require target R&D and deployment evidence before translating digital progress into shorter ramp or whole-system savings."
+      "next_action": "Require evidence connecting model/R&D gains to the exact qualified hardware, replacement/maintenance burden and retained-cohort service. Keep additional compute, qualification and support labor within one resource and cost boundary."
     },
     {
       "question_id": "RQ-LLM-10",
@@ -1199,7 +1202,8 @@
         "Edition 0.20: Replacement stock, rights and commissioning remain explicit assumptions rather than a manufacturing ramp; unsupported installed units remain owned.",
         "Edition 0.21: GR00T-Ready separates self-assessment from capacity, replacement-parts and support criteria. A toolkit or order does not establish actual supported units; commitments remain missing.",
         "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
-        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open.",
+        "Edition 0.31 replaces generic modules with an explicit compatible whole-part contract in the selected monthly execution. Announced, received, quarantined and qualified states differ; paid starts and named replacements conserve parts and cash. Annual spare averages do not identify repair dates/labor. Actual target maintenance and supplier financing remain unknown."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1215,9 +1219,11 @@
         "model/LEARNING_EXECUTION.md",
         "model/results/learning_execution.json",
         "research/annual_commitments.md",
-        "model/ANNUAL_COMMITMENTS.md"
+        "model/ANNUAL_COMMITMENTS.md",
+        "research/component_execution.md",
+        "model/COMPONENT_EXECUTION.md"
       ],
-      "next_action": "Join a system-compatible component/BOM or dated repair contract to the funded monthly loop, preserving installed service, actual qualified receipts and each payer obligation. Do not infer full portfolio feasibility from outside reservations."
+      "next_action": "Find a primary target configuration/service record that can challenge qualification, replacement timing, support labor or supplier funding; preserve complete service and competent human/conventional alternatives."
     },
     {
       "question_id": "RQ-SC-03",
@@ -1268,7 +1274,8 @@
       "findings": [
         "Orin/T5000 LPDDR and H200 HBM differ in architecture, bandwidth, power and use; they are not fungible supply or performance units.",
         "The Thor/GR00T qualification packet provides an inspectable same-board optimization recipe but component-sum latency, repeated input and conflicting source tables do not establish sustained deadlines, runtime memory or physical output. No coefficient is imported.",
-        "Edition 0.21: The current G1 workflow separates training VRAM, rendering-compatible simulation and onboard inference resources; its independent paths do not establish sim-to-real transfer."
+        "Edition 0.21: The current G1 workflow separates training VRAM, rendering-compatible simulation and onboard inference resources; its independent paths do not establish sim-to-real transfer.",
+        "Edition 0.31 replaces generic modules with an explicit compatible whole-part contract in the selected monthly execution. Announced, received, quarantined and qualified states differ; paid starts and named replacements conserve parts and cash. Annual spare averages do not identify repair dates/labor. Actual target maintenance and supplier financing remain unknown."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1277,9 +1284,11 @@
         "data/onboard_workload_qualification.json",
         "reviews/onboard_qualification_review.md",
         "research/learning_qualification.md",
-        "data/learning_data_economics.json"
+        "data/learning_data_economics.json",
+        "research/component_execution.md",
+        "model/COMPONENT_EXECUTION.md"
       ],
-      "next_action": "Require immutable executed-run artifacts, full-cycle timing with declared deadlines, power/memory/thermal exposure and matched closed-loop outcomes before qualifying onboard operation; retain nulls without that evidence."
+      "next_action": "Connect the configured onboard hardware and compatible replacement to sustained workload, thermal/power behavior, qualification and paid support; a hypothetical board count does not identify product performance or price."
     },
     {
       "question_id": "RQ-SC-06",
@@ -1325,15 +1334,18 @@
       "dependencies_and_completion": "W1 structural map with SC-01/02, LLM-06 and BM-04; deeper upon qualified allocation, access and commercial evidence.",
       "findings": [
         "Shared component constraints are conditional on compatibility and access; geographic/player coverage remains incomplete.",
-        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open.",
+        "Edition 0.31 replaces generic modules with an explicit compatible whole-part contract in the selected monthly execution. Announced, received, quarantined and qualified states differ; paid starts and named replacements conserve parts and cash. Annual spare averages do not identify repair dates/labor. Actual target maintenance and supplier financing remain unknown."
       ],
       "artifacts": [
         "model/METHODS.md",
         "model/engine.py",
         "research/annual_commitments.md",
-        "model/ANNUAL_COMMITMENTS.md"
+        "model/ANNUAL_COMMITMENTS.md",
+        "research/component_execution.md",
+        "model/COMPONENT_EXECUTION.md"
       ],
-      "next_action": "Test one actual competing component or support commitment with explicit compatibility, priority, calendar and payer obligations; retain the strong human/conventional alternative before claiming a scale or competitive advantage."
+      "next_action": "Identify real compatibility, usable delivery, support priority and supplier financing before treating multiple markets as one feasible component portfolio. Do not repeat exhausted restricted-source searches."
     },
     {
       "question_id": "RQ-QD-01",

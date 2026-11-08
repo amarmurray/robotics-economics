@@ -99,3 +99,8 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Annual resource commitment checkpoint, edition 0.30
 
 [The resource extension](research/annual_commitments.md) adds eight executions within the existing fourteen challenge families, now 166 worlds. It enforces calendar support/integration availability during actual funded competition and exposes the strong human alternative. Outside commitments remain a declared envelope, not a simultaneously executed portfolio or component conversion. Broad integration and empirical acceptance stay partial. The same in-progress objective and original deadline continue.
+
+
+## Compatible-component checkpoint, edition 0.31
+
+[The component contract](research/component_execution.md) adds eight executions, bringing fourteen bounded challenge families to 174 worlds. Qualified compatible parts and named replacements now constrain the same monthly physical/cash/annual-resource loop while the older generic mode retains its behavior. Actual product BOMs, repair labor, supplier finance and joint annual supply remain open. The campaign remains in progress under its original T0/deadline.

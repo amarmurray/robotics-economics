@@ -295,3 +295,18 @@ node --check dashboard/annual_commitments.js
 ```
 
 The API is `/api/annual-commitments`; [methods](model/ANNUAL_COMMITMENTS.md), [findings](research/annual_commitments.md) and [self-review](reviews/annual_commitments_review.md) preserve its scope. Outside reservations do not execute other markets. Robot service and customer service can differ because paid humans remain available. No full six-cell/component integration, empirical calibration or campaign completion is claimed.
+
+
+## Compatible components and maintenance, edition 0.31
+
+Customer adoption and Supply & production share **Are the right parts qualified when service needs them?** Select eight worlds or edit compatible pools, opening inventory, receipt/qualification dates, replacement requirements, start timing and provider cash. Blank receipt/qualification dates remain unrealized. Apply recomputes physical parts, qualified service, annual resources and cash. Pending/invalid/stale protections and full-input replay retain the last valid export. Ordinary annual cell controls remain independent.
+
+```sh
+python3 scripts/export_component_execution.py
+python3 scripts/export_component_execution.py --check
+python3 scripts/export_component_execution.py --case saved-components.json --output replay.json
+python3 -m unittest tests.test_component_inventory tests.test_component_execution -v
+node --check dashboard/component_execution.js
+```
+
+The API is `/api/component-execution`. [Methods](model/COMPONENT_EXECUTION.md), [findings](research/component_execution.md) and [self-review](reviews/component_execution_review.md) describe the explicit replacement of generic modules. Core code provenance changes require regenerated hashes in older exports, whose numerical outcomes must remain unchanged. No actual product qualification, maintenance cost or full annual portfolio is inferred.

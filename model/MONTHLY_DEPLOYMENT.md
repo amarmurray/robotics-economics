@@ -106,3 +106,8 @@ Witness 4 is a static shared-resource allocation replayed across an explicit shi
 The owner tests additionally cover mixed acceptance/rejection, delayed commissioning, longer leads and separate booking months, cash/parts/slot shortages, minimum reserves, support/spares priority, exact fractional output and demand caps, immutable inputs, payment/action joins, a 27-case adverse matrix and CLI equality. Independent review is required before report integration.
 
 The remaining exclusions are commercially material: empirical calibration, qualified supply evidence, stochastic failures, heterogeneous BOMs, inventory purchase finance, technical commissioning success, supplier/staff fixed costs, lifecycle economics, human labor release, separate operator cash, sale/lease/title contracts, credit draw schedules, mandatory-obligation scheduling beyond this fixture's own inputs, enterprise formation, endogenous demand, incumbent response, reinvestment, default enforcement/recovery, unit relocation and an annual-engine/dashboard bridge. The full treasury/shared-newco requirement remains partial.
+
+
+## Optional typed component contract, edition 0.31
+
+The generic module contract and historical results above remain available unchanged. A separately declared `TypedComponentSystem` activates [compatible part accounting](COMPONENT_EXECUTION.md), requires zero generic quantities and an explicit material ledger, and preserves the same phase order and paid physical admissions. Typed stocks replace the generic module balance; they do not supplement it. Manufactured BOMs and named whole-part replacements are explicit, with no inferred conversion from aggregate annual spare use.

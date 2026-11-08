@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.30.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.31.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: annual resource commitments in monthly competition, edition 0.30
+## Current checkpoint: qualified compatible parts and replacements, edition 0.31
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Fresh runtime status is connected/running with current observations and no failure, and shell execution succeeds in the same cloud checkout and published configuration. Working changes were preserved. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
+
+From accepted input `8633a7af485985451297f7d3a84b89c916163404`, [compatible components](research/component_execution.md) now constrain actual funded manufacture and replacement inside the same physical, annual-resource, competition and Treasury loop. The annual synthetic catalog supplies a compatible whole manufacturing BOM. Receipt, qualification and one named replacement requirement per unit are separate declared inputs. This typed contract replaces the generic inventory in the new cases; it does not add a second supply or expense.
+
+Four starts require 96 compatible H actuators and four boards. Announced, incompatible or unqualified stock cannot fund manufacture; later qualification does not automatically reschedule a missed start. Parts arriving after the current service phase cannot restore missed service. Explicit later manufacture or delayed replacement reduces first-year supported exposure from 14 to 10 robot-months. Two rejected starts retain all $144,000 of bundled manufacture and consumed parts. Exact funding and annual support refusals leave candidate replacement stock unconsumed.
+
+The retained paid human operation preserves all 6,000 market zones in every standard world. Entrant awards depend on the declared incumbent response rule and operating cash stays negative. Component scarcity therefore does not itself prove lost total service, a durable competitive advantage, paid labor removal or investment returns. Replacement labor and parts remain assumed within existing bundles; actual repair work, supplier finance, rights and full six-cell supply are unverified.
+
+Fresh checks pass **451 Python tests** in 252.310 seconds, **36 Node assertions**, fifteen JavaScript syntax checks and all **43 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. The component panel works in Customer adoption and Supply & production. All eight complete browser worlds exactly match saved executions; four existing reference panels retain exact accepted cases. Twelve monthly rows, 36 inventory rows, five lineage records, null qualification dates, shared cross-view state, pending/invalid/stale protections, complete replay with forged outputs, seven invalid API requests, scenario export/reload, source exports and scope independence pass. The new panel was visually inspected.
+
+All **1,143,220 prior typed numeric fields across 33 result JSONs** and their non-fingerprint semantics remain unchanged. 10 files are byte-identical; 23 change only the exact two modified core-module fingerprints, dependent case/artifact identities or market/question evidence fingerprints. The physical core and import restoration deliberately gain the optional typed contract; every other prior model module and all numerical assumptions remain byte-identical. The qualified control preserves prior units, Treasury, finance, competition, annual-resource bookings and calendar outcomes. Atlas/labor rows, source claims, 69 legacy requirement statuses and 65 question statuses remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families now contain **174 worlds**. The evidence registry remains 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **330 manifest hashes and 747 relative Markdown links** verify without broken paths.
+
+**Next execution:** investigate a primary target configuration/service/commercial record that can challenge the bundled replacement labor, qualification, support or rights assumptions. Integrate decision-relevant findings in the existing packs and source audit. Avoid another favorable synthetic variant, repeated exhausted restricted-source searches or an invented empirical repair coefficient. Joint annual supply and broader architecture combinations remain partial.
+
+**Next question:** which documented repair, qualification or support obligation changes the proceed/wait/reject gate once retained human/conventional service and every payer's obligation remain inside the boundary?
+
+## Previous checkpoint: annual resource commitments in monthly competition, edition 0.30
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The cloud runtime reconnected and executed a clean repository check at 2026-11-08T04:08:22Z; it retained the same environment, configuration and sole writer. Native goal/quota controls remain unexposed. No replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
 

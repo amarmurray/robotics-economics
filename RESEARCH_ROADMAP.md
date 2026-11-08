@@ -280,3 +280,8 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Next substantive integration after annual commitments, edition 0.30
 
 [Annual resource commitments](research/annual_commitments.md) now change monthly support/commissioning and competitive awards on the existing loop. The strong human alternative preserves total service and rejects an automatic output/payroll benefit. Next resolve a system-compatible annual component/BOM contract or explicitly execute a competing workload with its own obligations. Do not treat reserved capacity as already executed outside activity, add separate scenario outputs as a feasible portfolio, or introduce more variants merely for count. Empirical full-service, rights and dated operating costs remain open; the same campaign clock continues.
+
+
+## Empirical challenge after compatible component execution, edition 0.31
+
+[The typed component contract](research/component_execution.md) now connects manufacturing compatibility, actual qualification and named replacements to the shared paid monthly loop. It does not validate the fixed repair-labor/support bundle, supplier consignment or actual product BOM. Next prioritize a public primary target service/configuration/commercial record capable of changing those assumptions for one of the three packs. Preserve complete service, failed interventions, retained work, rights and supplier financing. Do not repeat exhausted restricted-source searches or add favorable scenarios for count. Full annual maintenance/supply portfolio execution and empirical economics remain partial; the original campaign clock continues.

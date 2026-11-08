@@ -7,7 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from model.monthly_deployment import Plan, Operator, Start, Collection, System, _integer, _name, run_monthly
+from model.monthly_deployment import Plan, Operator, Start, Collection, System, TypedComponentSystem, _integer, _name, run_monthly
 from model.treasury import Account, Moment, Treasury, Invoice, Reservation, Deposit, Credit, Event, Posting
 
 
@@ -327,7 +327,8 @@ def run_commercial(plan, treasury, contracts):
 def restore_opening_inputs(saved):
     """Restore the shared plan, complete opening journal and contract inputs."""
     p = dict(saved["plan"])
-    p["system"] = System(**p["system"])
+    system_type = TypedComponentSystem if p['system'].get('component_accounting') == 'typed_compatible_parts' else System
+    p["system"] = system_type(**p["system"])
     for key, kind in (("operators", Operator), ("starts", Start), ("collections", Collection)):
         p[key] = tuple(kind(**x) for x in p[key])
     opening = saved["opening_treasury"]

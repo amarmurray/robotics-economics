@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: annual resource commitments, edition 0.30
+## New decision campaign: compatible components and replacements, edition 0.31
+
+[The component integration](research/component_execution.md) maps a whole compatible manufacturing BOM and discrete replacements to actual paid execution. Receipt, qualification, manufacturing authority and service priority remain distinct. Strong paid human capacity still preserves total market output. DE-03 advances within its partial scope; actual maintenance, supplier funding, annual portfolio supply and broader architecture combinations remain incomplete. DE-08 retains bounded met status with fourteen families / 174 worlds. This is no empirical full-service or campaign completion claim.
+
+Fresh checks pass **451 Python tests** in 252.310 seconds, **36 Node assertions**, fifteen JavaScript syntax checks and all **43 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. The component panel works in Customer adoption and Supply & production. All eight complete browser worlds exactly match saved executions; four existing reference panels retain exact accepted cases. Twelve monthly rows, 36 inventory rows, five lineage records, null qualification dates, shared cross-view state, pending/invalid/stale protections, complete replay with forged outputs, seven invalid API requests, scenario export/reload, source exports and scope independence pass. The new panel was visually inspected.
+
+All **1,143,220 prior typed numeric fields across 33 result JSONs** and their non-fingerprint semantics remain unchanged. 10 files are byte-identical; 23 change only the exact two modified core-module fingerprints, dependent case/artifact identities or market/question evidence fingerprints. The physical core and import restoration deliberately gain the optional typed contract; every other prior model module and all numerical assumptions remain byte-identical. The qualified control preserves prior units, Treasury, finance, competition, annual-resource bookings and calendar outcomes. Atlas/labor rows, source claims, 69 legacy requirement statuses and 65 question statuses remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**. Fourteen challenge families now contain **174 worlds**. The evidence registry remains 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **330 manifest hashes and 747 relative Markdown links** verify without broken paths.
+
+The same campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/component_execution_review.md). This checkpoint does not stop the objective.
+
+## Previous decision checkpoint: annual resource commitments, edition 0.30
 
 [The resource integration](research/annual_commitments.md) enforces dated support and commissioning allocations during actual competitive execution. A strong paid human baseline can preserve complete service while supported robot-months and customer allocation change. DE-03 advances within its partial scope; annual component vectors, outside-workload execution and broad architecture integration remain open. DE-08 retains its bounded met status, now fourteen families / 166 worlds. No empirical full-service or campaign completion is inferred.
 

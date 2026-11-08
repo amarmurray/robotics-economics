@@ -3,8 +3,8 @@
   "evidence_status": "synthetic_explicit_service_and_calendar_contract",
   "source_sha256": {
     "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-    "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-    "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+    "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+    "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
     "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
     "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
     "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -10984,8 +10984,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -10994,7 +10994,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "f0f5ea3aed52de1b69a278bdc63a306c3edcc7cf1a94eb438736a0b6759a3989"
+      "case_hash": "80112d4464b17d008134cd03b7c33b3732ff416799b92c2b2a03ff14c2e55e67"
     },
     "C01_digital_human": {
       "schema_version": "monthly-deployment/0.5",
@@ -22461,8 +22461,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -22471,7 +22471,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "60e638df92ee1f2a24f3675300cc5b87e4b92361de3c86f0605b0c2bbb416f4b"
+      "case_hash": "f9ac4e8610fde5f207e2a2f9c75a710a5da15b55c902225ca8adeb892ada320c"
     },
     "C10_robot_base": {
       "schema_version": "monthly-deployment/0.5",
@@ -44619,8 +44619,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -44629,7 +44629,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "3d8fb4e0a1a83bdcd32abe07c4f39729bae3e95d1aa43c89d50787239257d3ba"
+      "case_hash": "ecbdd85da0d4ee69782f6dce7333bf168652ad26fd9164431d5c7b38e49effdb"
     },
     "C11_robot_digital": {
       "schema_version": "monthly-deployment/0.5",
@@ -70118,8 +70118,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -70128,7 +70128,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "bd588e3880245e5f5a8359d5c00b3e7083e71d38005ad2804493ee0646e1d015"
+      "case_hash": "10af4d3103cda551edf9e5e4e2f67278a67a2466d88beb391de9ad41652183bb"
     },
     "calendar_improving": {
       "schema_version": "monthly-deployment/0.5",
@@ -96000,8 +96000,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -96010,7 +96010,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "c5e79f6d6077dff4b1d6d0b153be1a1deb5b8375f900a39e514465ebf6546ba4"
+      "case_hash": "47743231db21571246612214a408757f3eff88a8220233692610eed1942922f1"
     },
     "frozen_cohorts": {
       "schema_version": "monthly-deployment/0.5",
@@ -121516,8 +121516,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -121526,7 +121526,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "9dead1dedafea08864ba1a3620165ed4dd804b802006fb97fdf074d0937969ea"
+      "case_hash": "5f8197a5822f36bd8e27bec53a254e177aba3fbf367d1369eb584596faee70db"
     },
     "upgrade_hours_available": {
       "schema_version": "monthly-deployment/0.5",
@@ -147367,8 +147367,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -147377,7 +147377,7 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "144e8b887941893be09fbea4c490d2fbdd9678e1ec0fc478c0a0d5b0434bd661"
+      "case_hash": "1b7c650f03545364b47a65d14baa6085336ddcd11a708bf04ca3fef20bde5552"
     },
     "calendar_financing_pressure": {
       "schema_version": "monthly-deployment/0.5",
@@ -173728,8 +173728,8 @@
       },
       "source_sha256": {
         "model/treasury.py": "d1b63a6d977d9ce95e1e6748747b6e5692db05c61c1b56a139779d5492684f9f",
-        "model/monthly_deployment.py": "8a1352fcafd0ed7e83065addb71462bd8c34913309798b650d139d12e51975b2",
-        "model/monthly_commercial.py": "0a7945635ec541860ed878dbb2380092f1d8ea8b462f8ce95dae83d7ef674ced",
+        "model/monthly_deployment.py": "6eb826a9349739cb64467683f9f6e937dcd70bfd55b6e087a9219932d9e0d350",
+        "model/monthly_commercial.py": "614ed1b32cafe4382fe5625cc81588f0a8d892b722445934e37ae6eba2a3be6d",
         "model/monthly_enterprise.py": "67eeea5f4ec1718198c10602b8ea669a9ea93e86ff131a848a12f8b9436f625f",
         "model/enterprise_finance.py": "40a5f5e72891f061612de9c003affc36cbd313b43efe93d86b9cfd1bbf8722ed",
         "model/calendar_bridge.py": "589f50d7ca5ff893f08450a79dc55c8d7927f94d8ba5beb6c4fb5a6aea54f4f3",
@@ -173738,9 +173738,9 @@
         "model/assumptions.json": "c2b1939604cf4b95c6255d4e3e768db661418a568f57e24dd5052eb4f4722fec"
       },
       "rational_wire_format": "decimal_string_numerator_and_denominator_for_lossless_JSON",
-      "case_hash": "8f6c236f5e21fd70e7620d439e54873f8d82dd975d0a47542f49672768d0f0bc"
+      "case_hash": "4ab242858feb2d4fa47f0ba73dc51356e0813f8bb5e30cae81d7d63031db97e5"
     }
   },
   "comparison_boundary": "Fixed human staffing and customer-move policy across four ample-capital branches; released task time is not payroll removed. This is not the stronger optimized conventional coordination comparator.",
-  "artifact_hash": "83fb4160745c17480811a3b8131ea24f4c82e64bf380a88e990ca128015e63c0"
+  "artifact_hash": "054065c48bfc0001488167b45ba6cbc8fa472441dc1e54c6c86378874170f0d6"
 }

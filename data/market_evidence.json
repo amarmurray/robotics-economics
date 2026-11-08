@@ -3848,6 +3848,11 @@
         "analysis": "research/annual_commitments.md",
         "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
         "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
+      },
+      "component_qualification_gate": {
+        "analysis": "research/component_execution.md",
+        "scope": "Synthetic cleaning-system component contract only; no product BOM, maintenance rate, rights or hours/prices transferred into other cells.",
+        "requirement": "Identify exact compatible configuration, actual receipt and qualification, installed-service replacement timing, paid support/fallback and supplier funding. Late repair does not backfill service; a strong human/conventional alternative may preserve the complete obligation."
       }
     },
     {
@@ -4005,6 +4010,11 @@
         "analysis": "research/annual_commitments.md",
         "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
         "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
+      },
+      "component_qualification_gate": {
+        "analysis": "research/component_execution.md",
+        "scope": "Synthetic cleaning-system component contract only; no product BOM, maintenance rate, rights or hours/prices transferred into other cells.",
+        "requirement": "Identify exact compatible configuration, actual receipt and qualification, installed-service replacement timing, paid support/fallback and supplier funding. Late repair does not backfill service; a strong human/conventional alternative may preserve the complete obligation."
       }
     },
     {
@@ -4154,6 +4164,11 @@
         "analysis": "research/annual_commitments.md",
         "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
         "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
+      },
+      "component_qualification_gate": {
+        "analysis": "research/component_execution.md",
+        "scope": "Synthetic cleaning-system component contract only; no product BOM, maintenance rate, rights or hours/prices transferred into other cells.",
+        "requirement": "Identify exact compatible configuration, actual receipt and qualification, installed-service replacement timing, paid support/fallback and supplier funding. Late repair does not backfill service; a strong human/conventional alternative may preserve the complete obligation."
       }
     }
   ],
@@ -4168,6 +4183,7 @@
     "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required.",
     "asset_recovery_gate": "An eligible owner sale now executes in the shared physical and Treasury loop. Paid title can remain stranded; lender cash recovery need not restore service. Real priorities, rights, valuation and full-cost evidence remain open.",
     "contract_continuity_gate": "Public supplier and support documents challenge assumptions about usable assets and acquired companies. Verify target applicability and payment/service denominators before relying on a transaction label.",
-    "annual_resource_gate": "Dated prior use and outside reservations now constrain actual support/commissioning within the same competitive monthly loop. Strong human capacity can preserve service despite lost robot-months. Other-market activity and annual component vectors remain unexecuted."
+    "annual_resource_gate": "Dated prior use and outside reservations now constrain actual support/commissioning within the same competitive monthly loop. Strong human capacity can preserve service despite lost robot-months. Other-market activity and annual component vectors remain unexecuted.",
+    "component_qualification_gate": "Compatible manufacturing parts, actual receipt/qualification and one explicit replacement per unit now execute in the shared monthly resource/cash loop. A received or announced part is not necessarily usable. Actual maintenance labor/cost and joint annual portfolio supply remain open."
   }
 }

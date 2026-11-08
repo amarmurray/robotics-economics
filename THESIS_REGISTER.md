@@ -118,3 +118,8 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 ## Annual resource challenge to T6 and T7, edition 0.30
 
 [The annual commitment execution](research/annual_commitments.md) strengthens the distinction between cash, supported assets and complete service. Available annual staffing is reduced by explicit prior use and outside reservations before current bookings; monthly ceilings and each payer's actual funds still apply. January capacity cannot backfill a missed robot-month. Yet paid human capacity can preserve the entire customer service while the assumed robot-triggered bid response changes assignments. Resource scarcity therefore does not by itself establish a robot moat, payroll reduction or lost market output. A human-led response is a substantive falsifier. Outside-market execution, system-compatible component allocation and actual target terms remain needed.
+
+
+## Compatible supply and maintenance challenge, edition 0.31
+
+[Typed component execution](research/component_execution.md) connects T6/T7 to usable supply: a promise, physical receipt, qualification release and funded whole-start issue are different events. Late replacements cannot backfill prior service, and paid rejects retain consumed resources. The synthetic catalog BOM does not establish a real configured product, replacement hazard, technician burden or supplier credit. Those empirical contracts can reverse the deployment decision. The retained human/conventional alternative remains necessary: component scarcity can change robot service and customer assignments without changing complete market output.
