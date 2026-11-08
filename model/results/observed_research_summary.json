@@ -1,5 +1,5 @@
 {
-  "calculation_code_sha256": "c679ea377dcc55590d74975bcf92f0cfb4c7d476c6e45931fdef64100c1637ed",
+  "calculation_code_sha256": "7681926d3ab70df971b75003e2027cf50fd6cc257e94e47509b91b9dc6824e3e",
   "commercial_disclosures": {
     "audit_id": "FG-AUDIT-01",
     "calculations": {
@@ -186,10 +186,94 @@
     "status": "source_arithmetic_not_deadline_qualification",
     "sustained_policy_throughput": null
   },
+  "recovery_contracts": {
+    "audit_id": "FG-AUDIT-03",
+    "boundary": "Currencies are separate source presentations, not converted equivalents. Planned hours are not accepted output. Do not repair the headline, invent missing fees, infer title, remaining value, payback or actual payroll savings.",
+    "legal_boundary": "Public documents identify review gates; no target applicability, enforceability, consent or actual termination is determined.",
+    "rows": [
+      {
+        "currency": "EUR",
+        "evidence_ids": [
+          "FG-E030"
+        ],
+        "formulas": {
+          "headline_minus_implied": "displayed hourly headline - implied payment per planned hour",
+          "implied_payment_per_planned_hour": "displayed monthly payment / displayed planned operating hours",
+          "undiscounted_payment_components": "displayed monthly payment * illustrated duration"
+        },
+        "headline_hourly": 7.99,
+        "headline_minus_implied": 4.39625,
+        "illustrated_months": 48,
+        "implied_payment_per_planned_hour": 3.59375,
+        "input_ids": [
+          "FG-Q-MIR-HEADLINE-EUR",
+          "FG-Q-MIR-MONTHLY-EUR",
+          "FG-Q-MIR-HOURS",
+          "FG-Q-MIR-MONTHS"
+        ],
+        "monthly_payment": 575.0,
+        "planned_hours_per_month": 160.0,
+        "reconciles": false,
+        "undiscounted_payment_components": 27600.0
+      },
+      {
+        "currency": "USD",
+        "evidence_ids": [
+          "FG-E030"
+        ],
+        "formulas": {
+          "headline_minus_implied": "displayed hourly headline - implied payment per planned hour",
+          "implied_payment_per_planned_hour": "displayed monthly payment / displayed planned operating hours",
+          "undiscounted_payment_components": "displayed monthly payment * illustrated duration"
+        },
+        "headline_hourly": 8.67,
+        "headline_minus_implied": 4.22625,
+        "illustrated_months": 48,
+        "implied_payment_per_planned_hour": 4.44375,
+        "input_ids": [
+          "FG-Q-MIR-HEADLINE-USD",
+          "FG-Q-MIR-MONTHLY-USD",
+          "FG-Q-MIR-HOURS",
+          "FG-Q-MIR-MONTHS"
+        ],
+        "monthly_payment": 711.0,
+        "planned_hours_per_month": 160.0,
+        "reconciles": false,
+        "undiscounted_payment_components": 34128.0
+      }
+    ],
+    "status": "unreconciled_public_payment_illustration_not_service_economics",
+    "unknowns": {
+      "asset_and_finance_residual": {
+        "reason": "No executed finance ownership, purchase option, residual or exit amount is disclosed.",
+        "value": null
+      },
+      "buyer_support_eligibility": {
+        "reason": "No identified robot or buyer entitlement was checked.",
+        "value": null
+      },
+      "control_change_continuity": {
+        "reason": "No target continuation waiver, consent, notice or exercised termination is known.",
+        "value": null
+      },
+      "executed_scope": {
+        "reason": "Target order, incorporated version and written variations are absent.",
+        "value": null
+      },
+      "illustration_reconciliation": {
+        "reason": "The source supplies no explanation connecting the two hourly representations.",
+        "value": null
+      },
+      "whole_service_economics": {
+        "reason": "Accepted output, retained payroll, qualification, downtime and all payer resources are unmeasured.",
+        "value": null
+      }
+    }
+  },
   "schema_version": "observed-research-summary/0.2",
   "source_snapshot_sha256": {
     "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
-    "customer_evidence.json": "84050d9e6b533a66daee8d88a9e5ec8dd1e1ec4462040cb13db8220ad2229201",
+    "customer_evidence.json": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234",
     "field_support_denominators.json": "ee234220b44f189283d6a83b13a8f59fc32ae97a04756b98c6af56b7d700810d",
     "onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
   },

@@ -89,3 +89,8 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Funded owner sale and redeployment checkpoint, edition 0.28
 
 [The recovery extension](research/asset_recovery.md) advances DE-04 within the existing physical/finance loop. Fourteen named families now contain 158 worlds. A completed sale need not restore service; lower creditor recovery can coexist with successful physical reuse. All-actor cash, shared shipping, qualification, retained obligations and a stronger human alternative stay explicit. Real legal/contract rights, valuation, restructuring and optimization remain open. This checkpoint neither completes the campaign nor resets its T0/deadline.
+
+
+## Supplier-document challenge, edition 0.29
+
+[FG-AUDIT-03](research/asset_recovery.md#supplier-contract-challenge-edition-029) deepens the real-contract challenge to acquisition/recovery without another synthetic variant. Separate source scopes and an unexplained financing illustration remain explicit. Fourteen families / 158 worlds are unchanged, with target rights and full costs unresolved. The campaign stays in progress under the same T0/deadline.

@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.28, funded asset-recovery checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Fourteen new owner-sale worlds connect actual title, dated buyer/seller/lender cash, shared shipping, later qualification and unchanged customer obligations. Creditor recovery need not restore buyer service; a stronger human buyer may gain no accepted output. Fourteen bounded challenge families now contain 158 worlds. Real rights, valuation, empirical full-service economics and optimized investment remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.29, supplier-contract and financing-denominator checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. A primary-source challenge separates physical recovery, company acquisition, usable contracts and supported service. Original financing illustrations remain unreconciled and uncalibrated. All fourteen bounded challenge families / 158 worlds retain their numerical results. Empirical full-service economics and broader annual-resource integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -287,6 +287,11 @@ The [source audit](research/commercial_disclosure_boundaries.md) strengthens the
 #### Funded asset recovery, edition 0.28
 
 [Fourteen owner-sale worlds](research/asset_recovery.md) deepen DE-CF11/12 on the existing dated physical/Treasury chain. Fourteen named families now contain 158 complete worlds. Title transfers only with actual eligible ownership, release/configuration permission, buyer funds and a shared shipping slot. The buyer must then qualify and support the same unit. Lender recovery can occur without new accepted service, and restored service can coexist with old unpaid principal. A stronger human buyer gains no additional accepted output. Customer/staff obligations stay at the old company. All three provisional recommendations now include this transfer-and-continuity gate without importing synthetic rates or prices. DE-04 remains partial for real priority, restructuring, valuation and optimized investment.
+
+
+#### Contract continuity and finance denominators, edition 0.29
+
+[The supplier-document challenge](research/asset_recovery.md#supplier-contract-challenge-edition-029) adds a distinct gate to all three provisional packs: usable operating rights and support after a transaction must be demonstrated separately from title or ultimate ownership. Its manufacturing AMR source is a structural comparator elsewhere. Unreconciled finance illustrations cannot price accepted service. The public form and source arithmetic add no synthetic world, target consent or empirical ROI; fourteen families / 158 worlds and broad partial acceptance remain.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1762,6 +1767,21 @@ Proceed with a measured recovery case only when the actual owner, permitted rele
 
 DE-04 remains partial: the declared owner sale now executes, while secured priorities, lease repossession, restructuring, valuation and optimized investment remain outside scope. Fourteen bounded families contain 158 worlds; source counts and empirical requirements do not improve merely because the mechanism exists. The same active campaign continues to **2026-11-14T20:12:27Z**. The next integration should connect an unresolved annual fleet/resource or competitive decision, or add target evidence capable of changing a recommendation, rather than multiply favorable recovery variants.
 
+
+#### Supplier contract challenge, edition 0.29
+
+The synthetic sale and share-acquisition cases retain declared permissions; they do not establish usable target contracts. FG-E028 supplies separate locators for use/resale, ownership change, assignment and retained claims in a public supplier form. Read the written-variation context too. A document review must distinguish a discretionary right from an automatic outcome, and public wording from an applicable executed agreement. [Teradyne Robotics v2.9](https://a.storyblok.com/f/169662/x/1a0bf144e3/teradyne-robotics-standard-delivery-terms-ver-2-9-october-2025.pdf), linked from [MiR's delivery-terms page](https://mobile-industrial-robots.com/general-terms-of-delivery).
+
+This changes the acquisition/recovery question without asserting a transaction outcome. In the model, shares can change ultimate ownership while legal accounts and liabilities stay in place. That accounting identity does not prove operational continuity. Likewise, acquiring the physical unit does not answer which software, site qualification, supplier commitments and support account the new operator can use. These are separate diligences before comparing build, acquire or reuse. The named source is a manufacturing AMR comparator; its conditions are not imported into the hospital or utility target as facts.
+
+The [MiR support page](https://mobile-industrial-robots.com/service-support/mir-service-activation) separates documentation, service-agreement support and subscribed telephone help. This sharpens the measurement request: inspect the relevant serial/buyer entitlement, scope and restoration commitment. Access to a manual is not evidence of a funded repair resource or restored due service. No serial lookup, login, contact or application was attempted.
+
+The [public finance page](https://mobile-industrial-robots.com/service-support/finance) also needs reconciliation. Its hourly headlines differ from dividing its monthly figures by its stated planned hours. The reproducible table below preserves each currency presentation and both source values; it does not choose a corrected quote. The 48-month multiplication is only an undiscounted component total. No conversion rate, missing fee, residual, actual draw or purchase option is invented. Planned clock hours cannot become accepted deliveries, robot availability or paid labor removed.
+
+The five gates in FG-AUDIT-03 therefore ask for: actual title and permitted disposition; company-control and assignment review; target variations and retained claims; funded support/qualification/fallback; and a reconciled payment/service denominator. Six explicit unknowns remain. Proceed only to a target measurement case when those records reconcile. Wait where applicability, consent or operational coverage remains uncertain. Reject a purported economic comparison that converts a transaction label or low advertised hourly amount directly into dependable service. These are research gates, not a determination of enforceability or a commercial instruction.
+
+No synthetic world, operating coefficient or empirical full-cost criterion is added or closed. Fourteen bounded families / 158 worlds remain, under the same in-progress campaign clock. The next substantive model gap is joining annual fleet/component/resource constraints and competing customer commitments; the next empirical gap is a complete target operating and contractual record.
+
 #### Reproduced funded recovery worlds
 
 | Synthetic recovery world | Sale | Buyer accepted zones | Remaining principal, USD | First supported buyer month | Final physical state |
@@ -1782,6 +1802,15 @@ DE-04 remains partial: the declared owner sale now executes, while secured prior
 | strong human buyer no purchase | None | 4,000.00 | 10,141.29 | None | installed |
 
 Generated from [asset_recovery.json](model/results/asset_recovery.json). One fixed cleaning asset retains its identity; 7,200 zones are due across eight months. Purchase consideration is an internal transfer and initial relocation is counted once as a resource expense. Later failed qualification leaves paid buyer title and no restored service. Original customer/staff/debt obligations survive. No actual salvage value, legal priority or lifecycle ROI is identified.
+
+#### Reproduced financing-denominator audit
+
+| Source currency | Displayed hourly amount | Displayed monthly payment | Planned hours/month | Monthly payment / planned hours | Illustrated monthly components over term |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| EUR | 7.99 | 575.00 | 160 | 3.59375 | 27,600.00 |
+| USD | 8.67 | 711.00 | 160 | 4.44375 | 34,128.00 |
+
+Source FG-E030; the illustrated duration is 48 months. Currencies are separate source presentations, not converted equivalents. Planned hours are not accepted output. Do not repair the headline, invent missing fees, infer title, remaining value, payback or actual payroll savings. Source identity, equations and input IDs are preserved in [observed_research_summary.json](model/results/observed_research_summary.json).
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

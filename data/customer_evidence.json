@@ -1,7 +1,7 @@
 {
   "schema_version": "robotics-economics-evidence/0.1",
   "module": "F/G customer organization and robotics value capture",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "input_commit": "campaign launch snapshot; see ignored sync_receipt.json",
   "evidence_as_of": "2026-11-08",
   "runtime_verification": {
@@ -11,7 +11,7 @@
     "actual_reasoning": null,
     "missingness_reason": "Delegated runtime does not expose a verifiable active model/reasoning identifier; do not claim requested configuration was achieved."
   },
-  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics. The 2026-11-08 continuation audits commercial disclosures, generation boundaries and provider financing without calibrating scenarios. The 0.26 hospital continuation separates schedule line items, attached remedy terms, catalog metadata and a UK maintenance award.",
+  "scope": "F/G customer organization and value capture, retaining the two first-wave mechanism comparisons and adding the M09 napkin-service protocol FG-CMP-03. Not measured ownership effects or calibrated whole-system economics. The 2026-11-08 continuation audits commercial disclosures, generation boundaries and provider financing without calibrating scenarios. The 0.26 hospital continuation separates schedule line items, attached remedy terms, catalog metadata and a UK maintenance award. The 0.29 continuation challenges acquisition/recovery assumptions with separate supplier, support and financing documents.",
   "evidence": [
     {
       "evidence_id": "FG-E001",
@@ -900,6 +900,134 @@
           "measurement_status": "reported_award_value_not_actual_cash_spend"
         }
       ]
+    },
+    {
+      "publication_date": null,
+      "publication_date_missing_reason": "The PDF identifies October 2025, without a publication day.",
+      "retrieved_at": "2026-11-08",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "geography": "Supplier documents reached through MiR US-English pages; no identified target deployment",
+      "source_class": "primary_supplier_public_document",
+      "epistemic_status": "documented_public_terms_or_illustration_not_executed_target_contract",
+      "evidence_id": "FG-E028",
+      "title": "Teradyne Robotics delivery terms, version 2.9",
+      "publisher": "Teradyne Robotics A/S; linked by Mobile Industrial Robots",
+      "url": "https://a.storyblok.com/f/169662/x/1a0bf144e3/teradyne-robotics-standard-delivery-terms-ver-2-9-october-2025.pdf",
+      "source_page": "https://mobile-industrial-robots.com/general-terms-of-delivery",
+      "publication_period": "2025-10",
+      "source_version": "2.9, October 2025",
+      "observation_period": "Published standard form; no executed transaction observed",
+      "locator": "Sections 1.1–1.2, 5.2, 7.2–7.3, 12.1, 18.1; all three PDF pages inspected",
+      "claim": "The form permits ordinary-business use/resale within the purchase contract, bars contractual assignment, and gives the supplier a termination option after a buyer control change. Delivery can transfer title; accrued obligations survive termination. Written variations matter.",
+      "verification": "Direct public PDF returned HTTP 200; all three pages read and visually checked; official linking page verified.",
+      "artifact_sha256": "11878924f1a27d6a62d0cdf1ccff38642a8b4fad40cfd642dddf8d528f8b7465",
+      "limitations": "This standard form establishes neither applicability nor enforceability for a target purchase. No signed variation, waiver, notice, insolvency decision or separate software grant was retrieved."
+    },
+    {
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication day is stated in the retrieved artifact.",
+      "retrieved_at": "2026-11-08",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "geography": "Supplier documents reached through MiR US-English pages; no identified target deployment",
+      "source_class": "primary_supplier_public_document",
+      "epistemic_status": "documented_public_terms_or_illustration_not_executed_target_contract",
+      "evidence_id": "FG-E029",
+      "title": "MiR documentation and paid support access are separate",
+      "publisher": "Mobile Industrial Robots",
+      "url": "https://mobile-industrial-robots.com/service-support/mir-service-activation",
+      "observation_period": "Public service-access description at retrieval",
+      "locator": "Service Agreement checker, Customer Portal, 24/7 Call Center and Support Portal sections",
+      "claim": "Documentation access, ticket support under a valid service agreement and separately subscribed telephone assistance are distinct. Coverage is checked against an individual robot.",
+      "verification": "Public HTML returned HTTP 200; no serial number, login, contact form or support request was submitted.",
+      "artifact_sha256": "d165684c04dd8702b000677ec706fa58a7312d182c3c35e47b3f88b0d34af3fd",
+      "limitations": "No target serial coverage, transferred entitlement, repair deadline, restoration result or service price is established."
+    },
+    {
+      "publication_date": null,
+      "publication_date_missing_reason": "No publication day is stated in the retrieved artifact.",
+      "retrieved_at": "2026-11-08",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "geography": "Supplier documents reached through MiR US-English pages; no identified target deployment",
+      "source_class": "primary_supplier_public_document",
+      "epistemic_status": "documented_public_terms_or_illustration_not_executed_target_contract",
+      "evidence_id": "FG-E030",
+      "title": "MiR public financing illustration has unreconciled denominators",
+      "publisher": "Mobile Industrial Robots",
+      "url": "https://mobile-industrial-robots.com/service-support/finance",
+      "observation_period": "Undated page retrieved 2026-11-08",
+      "locator": "Hourly headline, following monthly-payment/48-month/160-hour explanation, and third-party finance conditions",
+      "claim": "The page presents hourly and monthly amounts with a planned-use clock. It describes third-party leasing subject to credit approval and geography. The displayed arithmetic does not reconcile on the stated clock.",
+      "verification": "Public HTML returned HTTP 200; visible text preserves both displayed currencies. No calculator form, quote request or application was submitted.",
+      "artifact_sha256": "f8d6dcb1d5b8753e6b6af80570bc2c8dbbe6e83fb65672659ef05d0c68392c00",
+      "quantities": [
+        {
+          "metric_id": "FG-Q-MIR-HEADLINE-EUR",
+          "label": "Displayed euro hourly headline",
+          "value": 7.99,
+          "unit": "EUR per hour",
+          "denominator": "Unreconciled advertised operating-hour illustration",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        },
+        {
+          "metric_id": "FG-Q-MIR-HEADLINE-USD",
+          "label": "Displayed dollar hourly headline",
+          "value": 8.67,
+          "unit": "USD per hour",
+          "denominator": "Unreconciled advertised operating-hour illustration",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        },
+        {
+          "metric_id": "FG-Q-MIR-MONTHLY-EUR",
+          "label": "Displayed euro monthly payment",
+          "value": 575,
+          "unit": "EUR per month",
+          "denominator": "One unspecified illustrated financial lease",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        },
+        {
+          "metric_id": "FG-Q-MIR-MONTHLY-USD",
+          "label": "Displayed dollar monthly payment",
+          "value": 711,
+          "unit": "USD per month",
+          "denominator": "One unspecified illustrated financial lease",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        },
+        {
+          "metric_id": "FG-Q-MIR-MONTHS",
+          "label": "Illustrated financing duration",
+          "value": 48,
+          "unit": "months",
+          "denominator": "One unspecified illustrated financial lease",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        },
+        {
+          "metric_id": "FG-Q-MIR-HOURS",
+          "label": "Illustrated monthly operating hours",
+          "value": 160,
+          "unit": "planned operating hours per month",
+          "denominator": "Planned one-shift clock, not accepted service",
+          "population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+          "period": "Undated page retrieved 2026-11-08",
+          "measurement_status": "supplier_illustrative_payment_or_clock_assumption"
+        }
+      ],
+      "limitations": "No common currency-conversion date, complete payment composition, identified robot configuration, executed quote, buyout value, accepted-output rate or empirical payback is established. Keep both source presentations unchanged."
     }
   ],
   "actors": [
@@ -1093,6 +1221,32 @@
         "FG-E027"
       ],
       "status": "primary_buyer_notice"
+    },
+    {
+      "actor_id": "FG-A-TERADYNE",
+      "name": "Teradyne Robotics",
+      "roles": [
+        "supplier_standard_terms_author"
+      ],
+      "evidence_ids": [
+        "FG-E028"
+      ],
+      "status": "documented_public_commercial_role_not_target_counterparty"
+    },
+    {
+      "actor_id": "FG-A-MIR",
+      "name": "Mobile Industrial Robots",
+      "roles": [
+        "specialized_AMR_supplier",
+        "service_channel",
+        "financing_introducer"
+      ],
+      "evidence_ids": [
+        "FG-E028",
+        "FG-E029",
+        "FG-E030"
+      ],
+      "status": "documented_public_commercial_role_not_target_counterparty"
     }
   ],
   "adopter_profiles": [
@@ -1618,6 +1772,32 @@
         "FG-E011",
         "FG-E014"
       ]
+    },
+    {
+      "arrangement_id": "FG-CA-MIR-RECOVERY",
+      "type": "asset_company_contract_and_service_boundaries",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "actor_roles": {
+        "equipment_supplier": "FG-A-MIR",
+        "standard_terms_author": "FG-A-TERADYNE",
+        "financier": "Unidentified third-party provider"
+      },
+      "evidence_ids": [
+        "FG-E028",
+        "FG-E029",
+        "FG-E030"
+      ],
+      "observed_terms": "See FG-AUDIT-03 for separate transaction, support and finance gates.",
+      "asset_title": "Target title and executed finance ownership unknown.",
+      "model_rights": "Target configuration and usable license after transfer unknown.",
+      "data_rights": null,
+      "data_rights_missing_reason": "No applicable target data-transfer agreement retrieved.",
+      "price": null,
+      "price_missing_reason": "The public illustration is not an executed target quote.",
+      "risk_allocation": "Contract review and funded operating acceptance remain distinct.",
+      "status": "primary_public_form_and_marketing_boundary"
     }
   ],
   "pathways": [
@@ -2351,6 +2531,86 @@
       },
       "model_use": "Qualitative decision gates only. No synthetic coefficients, new scenario worlds or empirical ROI.",
       "analysis": "research/hospital_support_contracts.md"
+    },
+    {
+      "audit_id": "FG-AUDIT-03",
+      "title": "Can the acquired company or recovered asset keep operating?",
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025"
+      ],
+      "status": "public_contract_and_finance_challenge_not_legal_determination",
+      "evidence_ids": [
+        "FG-E028",
+        "FG-E029",
+        "FG-E030"
+      ],
+      "summary": "Separate physical resale, company control, contractual rights, support entitlement and financing. Neither a transaction label nor an hourly marketing amount proves continuing accepted service.",
+      "gates": [
+        {
+          "gate": "Asset transaction",
+          "locator": "FG-E028 §§5.2, 18.1",
+          "decision_test": "Identify actual title, the proposed disposition and all required operating rights."
+        },
+        {
+          "gate": "Company acquisition",
+          "locator": "FG-E028 §§7.2, 12.1",
+          "decision_test": "Review ownership-change triggers separately from contractual assignment; preserve consent/waiver uncertainty."
+        },
+        {
+          "gate": "Retained obligations",
+          "locator": "FG-E028 §§1.1–1.2, 7.3",
+          "decision_test": "Reconcile the target documents and surviving claims instead of deleting liabilities at closing."
+        },
+        {
+          "gate": "Supported operation",
+          "locator": "FG-E029",
+          "decision_test": "Verify buyer/serial entitlement and funded restoration, including fallback while unavailable."
+        },
+        {
+          "gate": "Financed service",
+          "locator": "FG-E030",
+          "decision_test": "Reconcile payment, hours and accepted service before treating an advertised rate as a service cost."
+        }
+      ],
+      "finance_evidence_id": "FG-E030",
+      "finance_metric_roles": {
+        "headline_eur": "FG-Q-MIR-HEADLINE-EUR",
+        "headline_usd": "FG-Q-MIR-HEADLINE-USD",
+        "monthly_eur": "FG-Q-MIR-MONTHLY-EUR",
+        "monthly_usd": "FG-Q-MIR-MONTHLY-USD",
+        "months": "FG-Q-MIR-MONTHS",
+        "hours": "FG-Q-MIR-HOURS"
+      },
+      "finance_population": "MiR Finance public AMR illustration; model and executed contract unidentified",
+      "finance_period": "Undated page retrieved 2026-11-08",
+      "unknowns": {
+        "executed_scope": {
+          "value": null,
+          "reason": "Target order, incorporated version and written variations are absent."
+        },
+        "control_change_continuity": {
+          "value": null,
+          "reason": "No target continuation waiver, consent, notice or exercised termination is known."
+        },
+        "buyer_support_eligibility": {
+          "value": null,
+          "reason": "No identified robot or buyer entitlement was checked."
+        },
+        "illustration_reconciliation": {
+          "value": null,
+          "reason": "The source supplies no explanation connecting the two hourly representations."
+        },
+        "asset_and_finance_residual": {
+          "value": null,
+          "reason": "No executed finance ownership, purchase option, residual or exit amount is disclosed."
+        },
+        "whole_service_economics": {
+          "value": null,
+          "reason": "Accepted output, retained payroll, qualification, downtime and all payer resources are unmeasured."
+        }
+      },
+      "model_use": "No synthetic coefficient or model permission is calibrated. The existing acquisition and recovery policies remain declared scenarios; their rights booleans are not vendor consents.",
+      "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029"
     }
   ],
   "continuation_2026_11_08": {
@@ -2366,5 +2626,15 @@
     "source_additions": 4,
     "scenario_changes": "none",
     "research_gate": "Match supported service and remedy/fallback obligations before valuing labor substitution or entrant replacement."
+  },
+  "continuation_recovery_rights_2026_11_08": {
+    "input_commit": "07221bd543245127facdc4d86e06a095295c077a",
+    "evidence_ids": [
+      "FG-E028",
+      "FG-E029",
+      "FG-E030"
+    ],
+    "finding": "Public transaction/support/finance gates challenge the declared acquisition and recovery assumptions; actual target application remains unknown.",
+    "model_calibration": "none"
   }
 }

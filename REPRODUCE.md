@@ -1,5 +1,7 @@
 # Reproduce the local research edition
 
+Edition 0.29 adds FG-AUDIT-03 to the existing customer evidence and three dashboard views. Five transaction/support/finance gates, two currency-specific source-arithmetic rows and six explicit unknowns remain invariant under scenario controls. Source exports preserve original values and hashes. No scenario coefficient or prior result is recalibrated.
+
 Edition 0.28 adds fourteen funded owner-sale/redeployment worlds to Customer adoption and Commercial models. Full opening inputs, title and physical histories, dated cash, retained claims and a stronger human comparator are replayable. [Methods](model/ASSET_RECOVERY.md) distinguish purchase from later qualified service. The prior scenario calculations remain numerically unchanged.
 
 Edition 0.27 adds H-PROXIMITY-2025 and H-COMP-01 in the existing digital evidence package. The comparison appears in Learning & coordination, Digital AI ecosystem and Analogies & contributions, with a shared decision note in all thirteen views. Inspect raw versus adjusted results, unresolved confidence bounds, reported subgroup/labor interpretations and four explicit unknowns. Source rows remain fixed under scenario controls; source exports preserve the package hash and scenario export/reload retains its normal calculation semantics. This evidence update changes no model coefficients or prior numerical result.

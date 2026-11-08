@@ -270,3 +270,8 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Funded asset recovery checkpoint, edition 0.28
 
 [Declared owner sale and redeployment](research/asset_recovery.md) now join one actual unit, dated buyer/seller/lender cash and site qualification/support. A paid stranded asset, a low-price unpaid claim and the stronger human no-purchase baseline can reverse the inference from nominal recovery. Remaining work is substantive: annual fleet/component/resource integration, broader competitive/architecture interaction, or a target operating/transfer record that changes a recommendation. Do not add favorable sale variants for count. Legal priority, lease repossession, restructuring, valuation and empirical full-cost acceptance remain open. The existing campaign clock continues.
+
+
+## Contract continuity follow-up, edition 0.29
+
+[Public supplier/support/finance records](research/asset_recovery.md#supplier-contract-challenge-edition-029) now challenge the declared acquisition and recovery assumptions. Target applicability, continuity, support and full service economics remain unknown. Do not collect more standard forms merely for volume. Next integrate an unresolved annual-fleet/resource or competing-customer constraint, or obtain a complete target record capable of reversing the recommendation. The existing campaign clock continues.

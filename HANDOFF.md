@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.28.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.29.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded asset recovery and restored service, edition 0.28
+## Current checkpoint: supplier contracts and financing denominators, edition 0.29
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The sole writer, cloud checkout and published environment are unchanged. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
+
+From accepted input `07221bd543245127facdc4d86e06a095295c077a`, [FG-AUDIT-03](research/asset_recovery.md#supplier-contract-challenge-edition-029) adds a primary supplier/support/finance challenge to the existing recovery and acquisition analysis. Three public documents, their dates/revisions and fingerprints are preserved. All delivery-term PDF pages were read and visually inspected. No serial lookup, login, contact, application or commercial action occurred. Public terms do not determine applicability, enforceability, consent or actual termination for a target transaction.
+
+The decision consequence is a separate contract-continuity gate: accounting preservation of an acquired company or physical asset does not establish supported operation. Source financial illustrations retain their unreconciled payment/hour representations; planned hours do not become accepted service or labor removed. Five decision gates and six target unknowns now join the three packs without importing source conditions into unrelated targets. Existing simulation permissions and numerical coefficients remain declared assumptions. Broad empirical and integration criteria stay partial.
+
+Fresh checks pass **412 Python tests** in 220.241 seconds, **36 Node assertions**, thirteen JavaScript syntax checks and all 39 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new source audit is verified in three views, with five gates, three exact source drawers, two reproduced currency rows, six unknowns, filters, scenario invariance and exact source/arithmetic export. Normal scenario export/reload and all fourteen recovery, sixteen expansion and seventeen renewal browser worlds pass; recovery custom/invalid/stale/full-replay behavior is retained. The source panel was visually inspected.
+
+All **1,030,302 prior typed numeric fields across 32 result JSONs** remain unchanged, as do all earlier non-fingerprint semantic fields. 20 files are byte-identical; 12 change only evidence fingerprints, the exact source-calculation code hash or the separately identified new arithmetic block. That block adds **14 numeric fields**, with no synthetic calibration. All simulation modules and numerical assumptions, prior customer claims/arrangements, atlas cells and labor/accounting rows are unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families / 158 worlds remain. The registry has 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **312 manifest hashes and 710 relative Markdown links** verify without broken paths.
+
+**Next execution:** prioritize a substantive annual-fleet/component/resource integration or competing-customer constraint that can change a decision. Do not add more supplier forms just for volume. A complete target service/contract/cash record remains needed for empirical acceptance; remaining real rights, priority, valuation, restructuring and optimal investment are not inferred.
+
+**Next question:** can one annual resource plan preserve monthly qualified fleet, existing service and each payer's obligations when expansion and competitive commitments overlap?
+
+## Previous checkpoint: funded asset recovery and restored service, edition 0.28
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This is the same sole writer, checkout and published environment. Native goal/quota controls remain unexposed. No replacement task, schedule, clock, goal termination or quota reset occurred; uninterrupted execution is not claimed.
 

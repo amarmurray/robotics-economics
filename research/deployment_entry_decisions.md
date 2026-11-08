@@ -154,3 +154,8 @@ The [source audit](commercial_disclosure_boundaries.md) strengthens the prompt-i
 ## Funded asset recovery, edition 0.28
 
 [Fourteen owner-sale worlds](asset_recovery.md) deepen DE-CF11/12 on the existing dated physical/Treasury chain. Fourteen named families now contain 158 complete worlds. Title transfers only with actual eligible ownership, release/configuration permission, buyer funds and a shared shipping slot. The buyer must then qualify and support the same unit. Lender recovery can occur without new accepted service, and restored service can coexist with old unpaid principal. A stronger human buyer gains no additional accepted output. Customer/staff obligations stay at the old company. All three provisional recommendations now include this transfer-and-continuity gate without importing synthetic rates or prices. DE-04 remains partial for real priority, restructuring, valuation and optimized investment.
+
+
+## Contract continuity and finance denominators, edition 0.29
+
+[The supplier-document challenge](asset_recovery.md#supplier-contract-challenge-edition-029) adds a distinct gate to all three provisional packs: usable operating rights and support after a transaction must be demonstrated separately from title or ultimate ownership. Its manufacturing AMR source is a structural comparator elsewhere. Unreconciled finance illustrations cannot price accepted service. The public form and source arithmetic add no synthetic world, target consent or empirical ROI; fourteen families / 158 worlds and broad partial acceptance remain.

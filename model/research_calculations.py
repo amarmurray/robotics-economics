@@ -250,6 +250,44 @@ def commercial_disclosure_summary(package):
             'source_boundary': 'Source assumptions and historical disclosures remain separate from synthetic model parameters.'}
 
 
+def recovery_contract_summary(package):
+    """Preserve two incompatible supplier illustrations without repairing either."""
+    audit=next(a for a in package['disclosure_audits'] if a['audit_id']=='FG-AUDIT-03')
+    metrics={}
+    for source in package['evidence']:
+        for metric in source.get('quantities',[]):
+            key=metric.get('metric_id',metric.get('quantity_id'))
+            if key in audit['finance_metric_roles'].values():
+                if key in metrics:raise ValueError('Duplicate financing illustration quantity')
+                if source['evidence_id']!=audit['finance_evidence_id']:raise ValueError('Mixed financing source')
+                metrics[key]=metric
+    def read(role,unit):
+        try:m=metrics[audit['finance_metric_roles'][role]]
+        except KeyError as exc:raise ValueError('Missing financing illustration quantity') from exc
+        if m['unit']!=unit or m['population']!=audit['finance_population'] or m['period']!=audit['finance_period']:
+            raise ValueError('Financing illustration scope or unit mismatch')
+        v=number(m['value'])
+        if v<0:raise ValueError('Negative financing illustration')
+        return v
+    months=read('months','months');hours=read('hours','planned operating hours per month')
+    if months<=0 or months%1 or hours<=0:raise ValueError('Positive duration and planned clock required')
+    rows=[]
+    for currency in ('EUR','USD'):
+        prefix=currency.lower();monthly=read('monthly_'+prefix,currency+' per month');headline=read('headline_'+prefix,currency+' per hour')
+        implied=monthly/hours
+        rows.append(dict(currency=currency,headline_hourly=float(headline),monthly_payment=float(monthly),planned_hours_per_month=float(hours),
+            implied_payment_per_planned_hour=float(implied),headline_minus_implied=float(headline-implied),illustrated_months=int(months),
+            undiscounted_payment_components=float(monthly*months),reconciles=headline==implied,
+            input_ids=[audit['finance_metric_roles'][role] for role in ('headline_'+prefix,'monthly_'+prefix,'hours','months')],
+            formulas={'implied_payment_per_planned_hour':'displayed monthly payment / displayed planned operating hours',
+                      'headline_minus_implied':'displayed hourly headline - implied payment per planned hour',
+                      'undiscounted_payment_components':'displayed monthly payment * illustrated duration'},
+            evidence_ids=[audit['finance_evidence_id']]))
+    return dict(audit_id=audit['audit_id'],status='unreconciled_public_payment_illustration_not_service_economics',rows=rows,unknowns=audit['unknowns'],
+        boundary='Currencies are separate source presentations, not converted equivalents. Planned hours are not accepted output. Do not repair the headline, invent missing fees, infer title, remaining value, payback or actual payroll savings.',
+        legal_boundary='Public documents identify review gates; no target applicability, enforceability, consent or actual termination is determined.')
+
+
 def research_summary(root=ROOT):
     field = json.loads((root / 'data/field_support_denominators.json').read_text())
     coordination = json.loads((root / 'data/coordination_reproducibility.json').read_text())
@@ -276,6 +314,8 @@ def research_summary(root=ROOT):
         if customer.get('disclosure_audits'):
             result['commercial_disclosures'] = commercial_disclosure_summary(customer)
             result['source_snapshot_sha256'][Path(path).name] = hashlib.sha256((root/path).read_bytes()).hexdigest()
+            if any(a['audit_id']=='FG-AUDIT-03' for a in customer['disclosure_audits']):
+                result['recovery_contracts']=recovery_contract_summary(customer)
     return result
 
 

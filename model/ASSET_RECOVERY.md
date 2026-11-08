@@ -36,3 +36,8 @@ The exact purchase-plus-initial-relocation boundary is $19,714.00 buyer opening 
 The local `/api/asset-recovery` GET validates source hashes and returns the reference, presets and summaries. POST accepts exactly one `inputs` object or `saved_case`. Customer adoption and Commercial models expose price, relocation, dates, actor cash, shipping/commissioning capacity, rights, qualification and the stronger human buyer. Pending edits, invalid requests and stale responses preserve the last applied display/export. Imports are read-only until a standard witness is selected; files are limited to 2 MB. Annual cell/year selectors do not relabel this fixed cleaning fixture.
 
 The extension advances bounded DE-CF11/12 and DE-04. Fourteen named families remain, now with 158 saved worlds. Legal priorities, realistic valuation, restructuring, optimized recovery/investment and empirical whole-life economics remain unresolved.
+
+
+## Public-document challenge, edition 0.29
+
+FG-AUDIT-03 in the existing customer package is evidence navigation, not an additional recovery policy. [The follow-up](../research/asset_recovery.md#supplier-contract-challenge-edition-029) does not resolve the model's release, transfer or qualification flags for a target. Those remain assumptions. `recovery_contract_summary` in `research_calculations.py` checks source identity, population, period, units, a positive planned clock and financing duration. It reports two currency-specific divisions and component totals without overwriting source headlines or importing them into any scenario. Complete equation/input/source lineage is in [observed_research_summary.json](results/observed_research_summary.json); six missing target outcomes remain null.

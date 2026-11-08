@@ -1,12 +1,46 @@
 import copy
 import unittest
 from model.research_calculations import research_summary, tac_cost_summary, field_support_summary, ROOT
-from model.research_calculations import onboard_timing_summary, commercial_disclosure_summary
+from model.research_calculations import onboard_timing_summary, commercial_disclosure_summary, recovery_contract_summary
 from unittest.mock import patch
 import json
 
 
 class SourceArithmetic(unittest.TestCase):
+    def test_finance_illustration_does_not_repair_source_or_convert_currencies(self):
+        packet=json.loads((ROOT/'data/customer_evidence.json').read_text());before=copy.deepcopy(packet)
+        r=recovery_contract_summary(packet);eur,usd=r['rows']
+        self.assertEqual((eur['headline_hourly'],eur['monthly_payment'],eur['implied_payment_per_planned_hour']),(7.99,575,3.59375))
+        self.assertEqual((usd['headline_hourly'],usd['monthly_payment'],usd['implied_payment_per_planned_hour']),(8.67,711,4.44375))
+        self.assertEqual((eur['undiscounted_payment_components'],usd['undiscounted_payment_components']),(27600,34128))
+        self.assertFalse(eur['reconciles']);self.assertFalse(usd['reconciles'])
+        self.assertEqual(packet,before)
+        self.assertTrue(all(x['value'] is None for x in r['unknowns'].values()))
+        self.assertNotIn('roi',r);self.assertNotIn('accepted_service_cost',r)
+
+    def test_finance_illustration_requires_the_same_source_clock_and_scope(self):
+        original=json.loads((ROOT/'data/customer_evidence.json').read_text())
+        for field,value in [('unit','accepted jobs per month'),('population','A particular MiR250 contract'),('period','2025'),('value',0),('value',None),('value',True)]:
+            p=copy.deepcopy(original);q=next(q for e in p['evidence'] for q in e.get('quantities',[]) if q.get('metric_id')=='FG-Q-MIR-HOURS');q[field]=value
+            with self.assertRaises(ValueError):recovery_contract_summary(p)
+
+    def test_finance_illustration_rejects_mixed_missing_and_duplicate_source_quantities(self):
+        original=json.loads((ROOT/'data/customer_evidence.json').read_text())
+        for mode in ('missing','duplicate','wrong_source'):
+            p=copy.deepcopy(original);e=next(e for e in p['evidence'] if e['evidence_id']=='FG-E030')
+            if mode=='missing':e['quantities'].pop()
+            elif mode=='duplicate':e['quantities'].append(copy.deepcopy(e['quantities'][0]))
+            else:e['evidence_id']='unrelated'
+            with self.assertRaises(ValueError):recovery_contract_summary(p)
+
+    def test_public_document_gates_do_not_become_transaction_permissions(self):
+        p=json.loads((ROOT/'data/customer_evidence.json').read_text());a=next(x for x in p['disclosure_audits'] if x['audit_id']=='FG-AUDIT-03')
+        self.assertEqual(len(a['gates']),5);self.assertEqual(len(a['unknowns']),6)
+        self.assertTrue(all(v['value'] is None for v in a['unknowns'].values()))
+        self.assertIn('declared scenarios',a['model_use'])
+        r=research_summary();self.assertIn('recovery_contracts',r)
+        with patch('model.packages.load_accepted_packages',return_value={'packages':[]}):self.assertNotIn('recovery_contracts',research_summary())
+
     def test_commercial_components_are_not_returns_or_cash_balances(self):
         packet=json.loads((ROOT/'data/customer_evidence.json').read_text())
         result=commercial_disclosure_summary(packet)

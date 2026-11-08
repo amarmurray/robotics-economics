@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funded owner sale and restored service, edition 0.28
+## New decision campaign: supplier contracts and finance denominators, edition 0.29
+
+[The source challenge](research/asset_recovery.md#supplier-contract-challenge-edition-029) adds five transaction/support/finance gates, six explicit unknowns and a reproducible source conflict. No actual consent, legal outcome, measured full-service return or synthetic calibration is inferred. All broad requirements retain their prior partial/in-progress status; DE-08 retains its met bounded scope with fourteen families / 158 worlds.
+
+Fresh checks pass **412 Python tests** in 220.241 seconds, **36 Node assertions**, thirteen JavaScript syntax checks and all 39 reproduction/Node commands. All thirteen dashboard views render without observed JavaScript or API errors. The new source audit is verified in three views, with five gates, three exact source drawers, two reproduced currency rows, six unknowns, filters, scenario invariance and exact source/arithmetic export. Normal scenario export/reload and all fourteen recovery, sixteen expansion and seventeen renewal browser worlds pass; recovery custom/invalid/stale/full-replay behavior is retained. The source panel was visually inspected.
+
+All **1,030,302 prior typed numeric fields across 32 result JSONs** remain unchanged, as do all earlier non-fingerprint semantic fields. 20 files are byte-identical; 12 change only evidence fingerprints, the exact source-calculation code hash or the separately identified new arithmetic block. That block adds **14 numeric fields**, with no synthetic calibration. All simulation modules and numerical assumptions, prior customer claims/arrangements, atlas cells and labor/accounting rows are unchanged. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Fourteen bounded families / 158 worlds remain. The registry has 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **312 manifest hashes and 710 relative Markdown links** verify without broken paths.
+
+The same campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/asset_recovery_review.md). This checkpoint does not stop or complete the objective.
+
+## Previous decision checkpoint: funded owner sale and restored service, edition 0.28
 
 Fourteen [recovery worlds](research/asset_recovery.md) deepen bounded DE-CF11/12 through one shared physical/Treasury transition. They separate title, actual funds, relocation, qualification and surviving old-company obligations. A stranded paid asset, low-price surviving claim and stronger human no-purchase baseline challenge favorable recovery claims. DE-04 and broad empirical requirements remain partial; DE-08 retains its bounded met scope with fourteen families / 158 worlds.
 

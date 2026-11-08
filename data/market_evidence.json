@@ -3837,6 +3837,12 @@
         "artifact": "model/results/asset_recovery.json",
         "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
         "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
+      },
+      "contract_continuity_gate": {
+        "audit_id": "FG-AUDIT-03",
+        "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
+        "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
+        "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
       }
     },
     {
@@ -3983,6 +3989,12 @@
         "artifact": "model/results/asset_recovery.json",
         "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
         "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
+      },
+      "contract_continuity_gate": {
+        "audit_id": "FG-AUDIT-03",
+        "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
+        "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
+        "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
       }
     },
     {
@@ -4121,6 +4133,12 @@
         "artifact": "model/results/asset_recovery.json",
         "role": "Synthetic title-aware cleaning recovery; no transfer of prices, rights or measured site performance.",
         "requirement": "Identify actual ownership, permitted release/configuration transfer, distinct funded buyer, relocation and later site qualification/support. Keep old customer/staff/debt obligations and fallback service. Recovery cash and recovered service are separate outcomes."
+      },
+      "contract_continuity_gate": {
+        "audit_id": "FG-AUDIT-03",
+        "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
+        "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
+        "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
       }
     }
   ],
@@ -4133,6 +4151,7 @@
     "commercial_source_gate": "FG-AUDIT-01 links operator continuation to separate acceptance, contract, generation and provider-funding gates. Five-year illustrations, historical company cash and financing headlines do not calibrate any decision pack.",
     "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics.",
     "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required.",
-    "asset_recovery_gate": "An eligible owner sale now executes in the shared physical and Treasury loop. Paid title can remain stranded; lender cash recovery need not restore service. Real priorities, rights, valuation and full-cost evidence remain open."
+    "asset_recovery_gate": "An eligible owner sale now executes in the shared physical and Treasury loop. Paid title can remain stranded; lender cash recovery need not restore service. Real priorities, rights, valuation and full-cost evidence remain open.",
+    "contract_continuity_gate": "Public supplier and support documents challenge assumptions about usable assets and acquired companies. Verify target applicability and payment/service denominators before relying on a transaction label."
   }
 }
