@@ -2,7 +2,7 @@ import copy
 import unittest
 from model.research_calculations import research_summary, tac_cost_summary, field_support_summary, ROOT
 from model.research_calculations import onboard_timing_summary, commercial_disclosure_summary, recovery_contract_summary
-from model.research_calculations import hospital_economics_summary
+from model.research_calculations import hospital_economics_summary, hospital_workforce_summary
 from unittest.mock import patch
 import json
 
@@ -10,6 +10,64 @@ import json
 class SourceArithmetic(unittest.TestCase):
     def hospital_packet(self):
         return json.loads((ROOT/'data/field_support_denominators.json').read_text())
+
+    def test_workforce_windows_do_not_become_fleet_exposure_or_payroll(self):
+        p=self.hospital_packet();before=copy.deepcopy(p);r=hospital_workforce_summary(p)
+        self.assertEqual([x['weekly_system_window_hours'] for x in r['rows']],[60,60,65,168,168])
+        self.assertEqual([x['robots'] for x in r['rows']],[8,22,21,26,13])
+        self.assertFalse(r['model_calibration']);self.assertTrue(r['prior_staffing_scenarios_unchanged'])
+        self.assertTrue(all(v['value'] is None for v in r['unknowns'].values()))
+        self.assertNotIn('robot_hours',r);self.assertNotIn('payroll_saving',r)
+        self.assertEqual(p,before)
+
+    def test_workforce_period_case_and_unit_mixing_is_rejected(self):
+        for field,value in [('unit','robot hours'),('case_id','S-2'),('population','named target hospital'),
+                ('period','2026'),('source_version','another edition'),('measurement_status','observed_paid_hours'),('role','robots')]:
+            with self.subTest(field=field):
+                p=self.hospital_packet();q=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E010')['quantities'][5]
+                q[field]=value
+                with self.assertRaises(ValueError):hospital_workforce_summary(p)
+
+    def test_workforce_invalid_daily_weekly_and_history_bounds_fail(self):
+        for role,value in [('hours_per_day',25),('days_per_week',8),('introduced_year',2026),
+                           ('hours_per_day',0),('hours_per_day',-1),('hours_per_day',1.5),
+                           ('hours_per_day',True),('hours_per_day',None),('hours_per_day',float('inf'))]:
+            with self.subTest(role=role,value=value):
+                p=self.hospital_packet();e=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E010')
+                next(q for q in e['quantities'] if q.get('case_id')=='N-1' and q['role']==role)['value']=value
+                with self.assertRaises(ValueError):hospital_workforce_summary(p)
+
+    def test_workforce_missing_duplicate_source_case_or_role_fails(self):
+        for mode in ('source','audit','case','missing_case','role','metric','swap'):
+            p=self.hospital_packet();a=p['workforce_audits'][0];e=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E010')
+            if mode=='source':p['evidence'].append(copy.deepcopy(e))
+            elif mode=='audit':p['workforce_audits'].append(copy.deepcopy(a))
+            elif mode=='case':a['case_configurations'].append(copy.deepcopy(a['case_configurations'][0]))
+            elif mode=='missing_case':a['case_configurations'].pop()
+            elif mode=='role':a['case_configurations'][0]['metric_ids'].pop('hours_per_day')
+            elif mode=='metric':e['quantities'].append(copy.deepcopy(e['quantities'][0]))
+            else:a['case_configurations'][0]['metric_ids']['hours_per_day']=a['case_configurations'][1]['metric_ids']['hours_per_day']
+            with self.subTest(mode=mode):
+                with self.assertRaises(ValueError):hospital_workforce_summary(p)
+
+    def test_workforce_does_not_infer_named_identity_or_asset_title(self):
+        p=self.hospital_packet();r=hospital_workforce_summary(p)
+        self.assertEqual([x['case_id'] for x in r['rows']],['N-1','N-2','N-3','S-1','S-2'])
+        self.assertIn('Not disclosed',r['rows'][-1]['asset_title'])
+        self.assertIsNone(r['unknowns']['anonymous_site_identity']['value'])
+        q=next(e for e in p['evidence'] if e['evidence_id']=='FSD-E011')
+        self.assertEqual(q['publication_date'],'2012-02-10')
+        self.assertEqual(next(x['value'] for x in q['quantities'] if x['role']=='redeployed_workload'),12)
+        self.assertEqual(r['rows'][-1]['robots'],13)
+        self.assertIsNone(r['unknowns']['paid_payroll_removed']['value'])
+
+    def test_workforce_extension_preserves_prior_source_arithmetic_and_acceptance_gate(self):
+        p=self.hospital_packet();old=copy.deepcopy(p);old.pop('workforce_audits');old['evidence']=old['evidence'][:9]
+        self.assertEqual(hospital_economics_summary(p),hospital_economics_summary(old))
+        self.assertEqual(field_support_summary(p),field_support_summary(old))
+        self.assertIn('hospital_workforce',research_summary())
+        with patch('model.packages.load_accepted_packages',return_value={'packages':[]}):
+            self.assertNotIn('hospital_workforce',research_summary())
 
     def test_hospital_versions_preserve_different_methods_and_numerators(self):
         packet=self.hospital_packet();before=copy.deepcopy(packet);result=hospital_economics_summary(packet)

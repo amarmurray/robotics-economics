@@ -302,3 +302,8 @@ Prioritize an actual dated service/workforce/payment record over another headlin
 ## After shared staffing and competing work, edition 0.35
 
 The resource question is now explicit for one synthetic crew and two due services. Next challenge a consequential actual staffing/transition contract or competing investment/finance policy while retaining the complete human/specialist alternative, all prior commitments, named resources and payer cash. Do not infer employment effects from unused minutes, apply cleaning efficiency to unrelated inventory jobs, fund work with future receipts or add independent case totals. Broad competition/acquisition/recovery/learning composition and actual cross-cell operating economics remain partial; access restrictions and the campaign clock persist.
+
+
+## After the historical workforce audit, edition 0.36
+
+Test a prospective funded fallback or staffing-restoration decision while preserving every receiving duty and support commitment. Source evidence now makes those competing responsibilities explicit, but provides no matched current duty calendar, payroll/receipt series or complete-service cost. Do not multiply schedules into observed robot-hours, infer anonymous identities or turn counterfactual staff estimates into verified avoided hiring. Keep control/repair authority and provider/asset boundaries separate. No repeat of closed source routes; source-based and conditional model findings must remain distinct.

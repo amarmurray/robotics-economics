@@ -80,6 +80,62 @@ def field_support_summary(package):
     }
 
 
+def hospital_workforce_summary(package):
+    """Keep reported system schedules separate from exposure and paid staffing."""
+    audits = [a for a in package.get('workforce_audits', []) if a['audit_id'] == 'FSD-AUDIT-WORK-01']
+    sources = [e for e in package['evidence'] if e['evidence_id'] == 'FSD-E010']
+    if len(audits) != 1 or len(sources) != 1:
+        raise ValueError('One workforce audit and one original study are required')
+    audit, source = audits[0], sources[0]
+    if source['source_version'] != audit['source_version'] or source['observation_period'] != audit['source_period']:
+        raise ValueError('Workforce source version or observation period differs')
+    metrics = {}
+    for q in source['quantities']:
+        if q['metric_id'] in metrics:
+            raise ValueError('Duplicate workforce metric identity')
+        metrics[q['metric_id']] = q
+    units = {'introduced_year': 'calendar year', 'robots': 'AGVs',
+             'hours_per_day': 'hours per operating day', 'days_per_week': 'operating days per week'}
+    windows, seen = [], set()
+    for case in audit['case_configurations']:
+        cid = case['case_id']
+        if cid not in ('N-1', 'N-2', 'N-3', 'S-1', 'S-2') or cid in seen:
+            raise ValueError('Missing, duplicate or unrecognized anonymous hospital case')
+        seen.add(cid)
+        if case['evidence_ids'] != ['FSD-E010'] or case['source_version'] != source['source_version']:
+            raise ValueError('Workforce case has mixed source identity')
+        if set(case['metric_ids']) != set(units):
+            raise ValueError('Complete schedule/configuration roles required')
+        values = {}
+        for role, unit in units.items():
+            key = case['metric_ids'][role]
+            if key != 'FSD-WORK-' + cid.replace('-', '') + '-' + role.upper().replace('_', '-') or key not in metrics:
+                raise ValueError('Wrong workforce case metric identity')
+            q = metrics[key]
+            if (q['role'] != role or q['case_id'] != cid or q['unit'] != unit or q['population'] != case['population'] or
+                q['period'] != source['observation_period'] or q['source_version'] != source['source_version'] or
+                q['measurement_status'] != 'reported_case_configuration'):
+                raise ValueError('Workforce arithmetic mixes cases, units or measurement bases')
+            v = number(q['value'])
+            if v <= 0 or v != int(v):
+                raise ValueError('Positive whole source configuration required')
+            values[role] = int(v)
+        if values['hours_per_day'] > 24 or values['days_per_week'] > 7 or not 1900 <= values['introduced_year'] <= 2019:
+            raise ValueError('Invalid reported calendar window or historical introduction year')
+        windows.append(dict(case_id=cid, country=case['country'], **values,
+            weekly_system_window_hours=values['hours_per_day'] * values['days_per_week'],
+            equation='hours_per_operating_day * operating_days_per_week',
+            input_ids=[case['metric_ids']['hours_per_day'], case['metric_ids']['days_per_week']],
+            evidence_ids=['FSD-E010'], source_version=source['source_version'], observation_period=source['observation_period'],
+            operating_organization=case['operating_organization'], asset_title=case['asset_title'],
+            boundary='Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.'))
+    if seen != {'N-1', 'N-2', 'N-3', 'S-1', 'S-2'}:
+        raise ValueError('All five anonymous source configurations required')
+    return dict(audit_id=audit['audit_id'], status='historical_source_windows_not_measured_exposure_or_payroll',
+        rows=windows, unknowns=audit['unknowns'], boundary=audit['interpretation'],
+        model_calibration=False, prior_staffing_scenarios_unchanged=True)
+
+
 def hospital_economics_summary(package):
     """Audit separate published boundaries, never pool versions or infer payroll."""
     audit = next(a for a in package['economic_audits'] if a['audit_id'] == 'FSD-AUDIT-ECON-01')
@@ -390,6 +446,8 @@ def research_summary(root=ROOT):
     accepted = {p['path'] for p in load_accepted_packages(root)['packages']}
     if 'data/field_support_denominators.json' in accepted and field.get('economic_audits'):
         result['hospital_economics'] = hospital_economics_summary(field)
+    if 'data/field_support_denominators.json' in accepted and field.get('workforce_audits'):
+        result['hospital_workforce'] = hospital_workforce_summary(field)
     path = 'data/onboard_workload_qualification.json'
     if path in accepted:
         result['onboard_timing'] = onboard_timing_summary(json.loads((root/path).read_text()))

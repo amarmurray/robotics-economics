@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.35, shared staffing and competing-work checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. One paid crew now supplies two distinct service obligations within the architecture/resource/parts/Treasury execution. Notice and funded extra capacity determine whether a staffing reduction preserves complete work; a stronger human baseline can still dominate bounded resource cash. Fourteen challenge families contain 196 worlds. Prior numerical results remain unchanged, and full empirical economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.36, workforce evidence and fallback checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Historical primary hospital sources distinguish redeployment, operating windows, retained oversight and repair, and manual contingency from measured payroll savings or realized returns. Five source schedule calculations preserve anonymous case boundaries. Fourteen challenge families remain 196 worlds; all prior numerical outcomes are unchanged. Full empirical economics and broad joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -136,6 +136,11 @@ Edition 0.34's [hospital economic audit](research/field_support_denominators.md#
 ### A staffing reduction can be feasible and still fail the deployment comparison
 
 [The shared-workforce execution](research/shared_workforce.md) makes one paid crew and a second, separately invoiced workload real within the architecture/resource/Treasury loop. Notice can reduce a declared staffing commitment while both obligations remain complete. That benefit is insufficient to rank deployment: the stronger assumed human-dispatch path has lower total resource cash. Scarcity or unfunded extra capacity can also turn a proposed saving into missed service. Keep unlike work units separate, include transition/fallback and compare every payer before choosing an organization or technology. The result is a conditional mechanism, not target payroll or ROI evidence.
+
+
+### Historical workforce evidence, edition 0.36
+
+The [staffing and operating-window audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) strengthens the hospital wait gate: redeployment, estimated staffing needs without AGVs and removed payroll are different outcomes. A receiving duty and robot-failure fallback can require the same worker. Verify their joint calendar, control/repair authority and funding before changing a paid commitment. Utility and automotive inherit these requirements without hospital coefficients. Existing synthetic worlds and all empirical missingness remain intact.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -331,6 +336,11 @@ The [existing hospital evidence package](research/field_support_denominators.md#
 [Nine workforce worlds](research/shared_workforce.md) deepen DE-CF01: one paid crew executes cleaning, robot attention/handling and separately required inventory jobs. A prior-service-based notice changes future paid blocks; funded extra capacity resolves some later scarcity. A one-minute shortfall can miss required cleaning, while an unfunded buyer creates no receipts despite delivery. The stronger human-dispatch premise remains much cheaper in the bounded window than the robot staffing-reduction case. Fourteen families now contain **196 worlds**; independent worlds are not one simultaneous portfolio.
 
 All three packs inherit the need for actual shared-resource identity, complete competing obligations, transition/fallback and payer cash. These synthetic cleaning rates, inventory jobs, staffing terms and efficiency premises do not calibrate hospital, utility or automotive decisions. Whole-system empirical costs and broad integrated acceptance remain partial.
+
+
+#### Workforce, service window and provider evidence, edition 0.36
+
+Two [primary historical sources](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) test the staffing transition behind the deployment packs. Preserve anonymous configuration, observation period, expanded-building counterfactual and actual operating organization. Staff redeployment can be useful without current payroll removal; a manual contingency still needs available qualified people and cash. A provider handling bundled services does not reveal machine title, maintenance authority or profit. Proceed/wait/reject gates now require the receiving duties and fallback to remain jointly feasible. No schedule is promoted to measured robot exposure, and no source headcount/payback calibrates the model.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1204,6 +1214,40 @@ FSD-AUDIT-ECON-01 makes four checks explicit: source/configuration identity, com
 
 The [source export](model/results/observed_research_summary.json) reproduces ten calculations with equations and input IDs under separate versions and currencies. Five target outcomes remain explicitly unknown: paid labor removed, complete-service cost, ROI, provider margin and service coverage. Existing hospital procurement/repair evidence and the [stronger human-dispatch comparator](research/conventional_coordination.md#empirical-challenge-a-human-dispatcher-with-better-information) remain complementary. This tranche neither closes empirical acceptance nor favors a generalist intelligence architecture over specialized transport.
 
+#### Employment, operating windows and fallback, edition 0.36
+
+A hospital can reduce manual transport while continuing to pay the people who previously performed it. That outcome may improve service, avoid future hiring or reduce physical strain, but its cash and capacity consequences require separate evidence. The new source audit tests the organizational premise behind the [shared-crew execution](research/shared_workforce.md): who supplies every remaining duty, including fallback, after work is reassigned?
+
+##### The observed organization is more specific than a robot count
+
+[Lloyd and Payne (2021)](https://doi.org/10.1111/irj.12323) report qualitative research in three Norwegian and two Scottish hospitals: 26 interviews with 34 participants in 2018–2019, accompanied by site tours. All cases involve complete or partial new builds. FSD-E010 preserves the anonymous identifiers, Table 1 configurations and observation period. This is not a matched payroll or all-request service panel, nor evidence of current performance.
+
+The authors report estimates that, without AGVs, N-1 would need 15–20 additional workers, N-2 15 and S-2 30. Those are attributed counterfactual staffing estimates; the study does not establish those numbers as actual hires avoided, jobs eliminated or FTEs. It describes redeployment into other work, with some retirement and transfers, while services expanded. Managers had not measured realized financial savings. The appropriate counterfactual also includes the new hospital's distances, logistics and demand, rather than assuming the former building's staffing can serve an unchanged obligation. [FSD-E010]
+
+The source separates provider arrangements that a generic ownership label would obscure. Four cases report hospital-owned and managed AGVs. S-2 uses an outsourced provider across portering, catering and cleaning; the exception does not explicitly establish robot asset title. Separately, S-1 outsources most maintenance. These are different arrangements, not evidence that the same party always owns the machine, employs the retained staff, controls repair and bears downtime costs. The paper is available under Creative Commons Attribution; [Cardiff's repository record](https://orca.cardiff.ac.uk/id/eprint/139408/) confirms that license. [FSD-E010]
+
+##### A system window is not measured exposure
+
+Table 1 reports 12 hours per day on five days for N-1 and N-2, 13 hours on five days for N-3, and 24 hours on seven days for S-1 and S-2. Multiplication yields weekly system windows of 60, 60, 65, 168 and 168 hours. It does not identify each robot's active time, uptime, accepted deliveries, worker-hours or required service outside the window. The audit therefore keeps the five configurations separate and never multiplies their schedules by fleet size to manufacture observed exposure. [FSD-E010, Table 1]
+
+The study also identifies work that persists around automation: control-room monitoring, dispatch, cart placement, loading, residual lifting and first-line intervention. Authority to reset or clean a robot differs from authority to repair it. Software, doors, lifts, connectivity, cart compatibility and inventory changes created implementation problems over multiple years. Broader service-assistant roles also reflected changes beyond AGVs. These findings motivate a target work-and-authority map; they do not calibrate a modern humanoid's reliability, learning gain or ramp duration. [FSD-E010, sections 4.2–4.4]
+
+##### Redeployment and contingency can claim the same person
+
+The [Scottish Government's 2011 estate report, published 10 February 2012](https://www.gov.scot/publications/state-nhsscotland-estate-2011/pages/6/), describes 13 AGVs at Forth Valley Royal Hospital. It estimates work equivalent to around 12 staff and explicitly says those staff moved to other duties. It also identifies manual or electric-vehicle trolley movement with redeployed porters as the system-failure contingency. The account supplies a fallback method, not a measured response time, staffed reserve, duty calendar or guarantee of complete service. [FSD-E011, Annex A case study 10]
+
+The report's approximate £1 million system cost, roughly £50,000 per AGV and claimed three-to-four-year payback remain reported historical figures. Their cash-flow basis and full cost allocation are unavailable; no realized payback or payroll saving is reconstructed. The named hospital is not identified with S-2 merely because both sources list 13 AGVs and a similar introduction period. The government text is attributed under its Open Government Licence. [FSD-E011]
+
+Our inference is that reassignment and fallback must share a feasible duty calendar. If a porter now performs another required service, recalling that person during a robot outage may leave that service uncovered. The evidence does not demonstrate that such a failure occurred in these hospitals; it identifies the record a decision needs. A staffing reduction further changes the available fallback set and its funding. The synthetic notice rule remains an explicit assumption, not a transition authorized or validated by these sources.
+
+##### Consequences for deployment and entry
+
+For the hospital pack, proceed only to a bounded comparison that specifies the same required service, operating window, receiving duties, supervision, repair authority and funded contingency. Wait on a staffing-funded rollout until actual paid schedules, transition authority and payment records support it. Reject a proposal that books a reassigned worker twice, equates a schedule with uptime, treats an outsourced service as proof of asset title, or converts an estimated staffing counterfactual into observed cash savings.
+
+For utility inspection and automotive service, carry across the questions about residual routes, production duties, staffed response and distinct provider obligations. None of the hospital schedules, staffing counts, historical costs or institutional arrangements transfers numerically. Substantial H is expressed through the actual dispatch, inventory, interface and authority requirements; software access or a more capable model does not itself supply a person authorized and available to act.
+
+FSD-AUDIT-WORK-01 exposes five schedule calculations, six decision gates and eight explicit unknowns, with source/input lineage in the [accepted export](model/results/observed_research_summary.json). The publisher PDF route returned HTTP 403 and was not retried; full publisher HTML and institutional license metadata were accessible. Existing restricted routes remain closed. No new synthetic worlds, source-calibrated coefficients, target ROI or empirical acceptance claim is added.
+
 #### Reproduced economic source-boundary audit
 
 | Source version | Reproduced arithmetic | Result | Unit | Interpretation limit |
@@ -1220,6 +1264,18 @@ The [source export](model/results/observed_research_summary.json) reproduces ten
 | charite | Middle-volume operating-cost difference | 63,800.00000 | EUR per year | Illustrative rounded annual costs before integration, with immediate staff-cost removal and fault-free operation. |
 
 Generated from [observed_research_summary.json](model/results/observed_research_summary.json). Equations, metric IDs and individual source IDs accompany each result; source/code hashes are checked above. FSD-E006–E009 remain four source records, not pooled estimates. No target ROI, provider margin, paid staffing reduction or scenario coefficient follows.
+
+#### Reproduced historical operating windows
+
+| Anonymous hospital | AGVs | Introduced | System hours/day | Operating days/week | Derived system hours/week | Reported operating organization |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| N-1 | 8 | 2015 | 12 | 5 | 60 | Hospital-owned and directly managed AGVs |
+| N-2 | 22 | 2009 | 12 | 5 | 60 | Hospital-owned and directly managed AGVs |
+| N-3 | 21 | 2006 | 13 | 5 | 65 | Hospital-owned and directly managed AGVs |
+| S-1 | 26 | 2015 | 24 | 7 | 168 | Hospital-owned and directly managed AGVs |
+| S-2 | 13 | 2010 | 24 | 7 | 168 | Outsourced private provider of portering, catering and cleaning |
+
+Generated from [observed_research_summary.json](model/results/observed_research_summary.json), FSD-E010 Table 1. Each equation is daily system hours multiplied by weekly operating days. These are historical reported windows, not observed robot exposure, paid worker-hours, availability or accepted service. Anonymous cases remain distinct from the named government case; S-2 asset title remains unknown.
 
 ### Focused follow-up: Shared staffing and complete competing work
 

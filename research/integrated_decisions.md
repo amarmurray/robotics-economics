@@ -103,3 +103,8 @@ Edition 0.34's [hospital economic audit](field_support_denominators.md#hospital-
 ## A staffing reduction can be feasible and still fail the deployment comparison
 
 [The shared-workforce execution](shared_workforce.md) makes one paid crew and a second, separately invoiced workload real within the architecture/resource/Treasury loop. Notice can reduce a declared staffing commitment while both obligations remain complete. That benefit is insufficient to rank deployment: the stronger assumed human-dispatch path has lower total resource cash. Scarcity or unfunded extra capacity can also turn a proposed saving into missed service. Keep unlike work units separate, include transition/fallback and compare every payer before choosing an organization or technology. The result is a conditional mechanism, not target payroll or ROI evidence.
+
+
+## Historical workforce evidence, edition 0.36
+
+The [staffing and operating-window audit](field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) strengthens the hospital wait gate: redeployment, estimated staffing needs without AGVs and removed payroll are different outcomes. A receiving duty and robot-failure fallback can require the same worker. Verify their joint calendar, control/repair authority and funding before changing a paid commitment. Utility and automotive inherit these requirements without hospital coefficients. Existing synthetic worlds and all empirical missingness remain intact.

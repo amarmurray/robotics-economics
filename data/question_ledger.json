@@ -308,7 +308,8 @@
         "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred.",
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
         "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models.",
-        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established."
+        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
+        "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -333,7 +334,7 @@
         "model/SHARED_WORKFORCE.md",
         "model/results/shared_workforce.json"
       ],
-      "next_action": "Challenge a matched complete-service choice with actual staffing/transition obligations, retained work and all-actor costs, or join a consequential competing investment/finance policy without double booking people, units or cash."
+      "next_action": "Test a funded prospective fallback or staffing-restoration choice while conserving receiving duties, explicit repair authority and every payer; seek matched actual duty/receipt records without inferring layoffs or full service from estimated labor needs."
     },
     {
       "question_id": "RQ-DL-01",
@@ -452,7 +453,8 @@
         "AutoRT, Open-RMF and enterprise-interface maps distinguish models, conventional schedulers, transactions and physical controllers.",
         "Edition 0.27: H-PROXIMITY-2025 supplies a deployed conventional human-dispatch comparator. Adjusted observational timing associations, raw outcomes, subgroup effects and elapsed-time/payroll boundaries remain separate. The supplement/cancellation audit and target economics remain open; no robot, LLM or annual-path coefficient changes.",
         "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established.",
-        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established."
+        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
+        "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -463,9 +465,12 @@
         "model/results/architecture_resources.json",
         "research/shared_workforce.md",
         "model/SHARED_WORKFORCE.md",
-        "model/results/shared_workforce.json"
+        "model/results/shared_workforce.json",
+        "data/field_support_denominators.json",
+        "research/field_support_denominators.md",
+        "model/results/observed_research_summary.json"
       ],
-      "next_action": "Challenge a matched complete-service choice with actual staffing/transition obligations, retained work and all-actor costs, or join a consequential competing investment/finance policy without double booking people, units or cash."
+      "next_action": "Test a funded prospective fallback or staffing-restoration choice while conserving receiving duties, explicit repair authority and every payer; seek matched actual duty/receipt records without inferring layoffs or full service from estimated labor needs."
     },
     {
       "question_id": "RQ-FD-02",
@@ -808,7 +813,8 @@
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
         "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
         "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models.",
-        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established."
+        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
+        "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -844,7 +850,7 @@
         "model/SHARED_WORKFORCE.md",
         "model/results/shared_workforce.json"
       ],
-      "next_action": "Challenge a matched complete-service choice with actual staffing/transition obligations, retained work and all-actor costs, or join a consequential competing investment/finance policy without double booking people, units or cash."
+      "next_action": "Test a funded prospective fallback or staffing-restoration choice while conserving receiving duties, explicit repair authority and every payer; seek matched actual duty/receipt records without inferring layoffs or full service from estimated labor needs."
     },
     {
       "question_id": "RQ-BM-02",
@@ -1134,7 +1140,8 @@
         "Edition 0.32 strengthens the data-to-action boundary: useful inspection requires customer integration, review/escalation and funded operational response. No collected-point count calibrates model or agent productivity.",
         "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established.",
         "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models.",
-        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established."
+        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
+        "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1168,7 +1175,7 @@
         "model/SHARED_WORKFORCE.md",
         "model/results/shared_workforce.json"
       ],
-      "next_action": "Challenge a matched complete-service choice with actual staffing/transition obligations, retained work and all-actor costs, or join a consequential competing investment/finance policy without double booking people, units or cash."
+      "next_action": "Test a funded prospective fallback or staffing-restoration choice while conserving receiving duties, explicit repair authority and every payer; seek matched actual duty/receipt records without inferring layoffs or full service from estimated labor needs."
     },
     {
       "question_id": "RQ-LLM-09",
@@ -1835,7 +1842,8 @@
         "Edition 0.12: The restaurant comparison tests Dyna's model-led service against manual and specialist workflows without moving advertised rates or wages into the synthetic model. Configuration, service qualification and contract terms remain pivotal.",
         "Four intelligence profiles now execute on the monthly cash/physical/calendar loop. External model fees redistribute cash without changing matched resource cost; internal fees disappear, and equal-resource/ample-capital controls show no intrinsic label productivity.",
         "Edition 0.33: four intelligence arrangements now use their original role accounts with annual physical commitments and compatible parts in one execution. A paired reduction in assumed adaptation work removes an upstream block but physical integration can still fix the operating date. All complete service and fixed staffing remain supplied by the strong human alternative; no empirical coefficient, payroll saving or architecture ranking is established.",
-        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established."
+        "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
+        "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1861,9 +1869,12 @@
         "model/results/architecture_resources.json",
         "research/shared_workforce.md",
         "model/SHARED_WORKFORCE.md",
-        "model/results/shared_workforce.json"
+        "model/results/shared_workforce.json",
+        "data/field_support_denominators.json",
+        "research/field_support_denominators.md",
+        "model/results/observed_research_summary.json"
       ],
-      "next_action": "Challenge a matched complete-service choice with actual staffing/transition obligations, retained work and all-actor costs, or join a consequential competing investment/finance policy without double booking people, units or cash."
+      "next_action": "Test a funded prospective fallback or staffing-restoration choice while conserving receiving duties, explicit repair authority and every payer; seek matched actual duty/receipt records without inferring layoffs or full service from estimated labor needs."
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",

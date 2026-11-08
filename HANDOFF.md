@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.35.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.36.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: shared staffing and complete competing work, edition 0.35
+## Current checkpoint: historical workforce and fallback evidence, edition 0.36
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Accepted input `20a81cd0cd765602764bad36f0068922742b5150` matched clean local and remote main at resumption. Actual cloud shell, source retrieval, reproduction and browser commands executed. No current usage failure is observed; quota, serving-model identity and native goal creation/stop controls remain unexposed. No continuous-execution claim is made.
+
+The [primary workforce audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) adds Lloyd and Payne's five anonymous hospital cases (2018–2019 observations; 2021 publication) and the separate Scottish Government Forth Valley case (2011 report; 2012 publication). Estimated staff needed without AGVs, actual redeployment and payroll removed remain distinct. Reported system windows do not become robot exposure. Outsourced services do not establish machine title, provider margin or repair authority. No anonymous hospital is inferred from a matching fleet count/year.
+
+The consequential inference is that reassigned duties and outage coverage need a jointly feasible paid calendar. A manual contingency method does not establish available workers after reassignment or after a staffing cut. The government payback range lacks a reconstructed realized cash-flow basis. The evidence strengthens the hospital staffing/fallback gate and analogous utility/manufacturing questions without transferring schedules, staffing counts, prices or delay coefficients.
+
+Fresh cloud validation passes **495 Python tests** in 318.918s, **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands**. Frontier, complete workforce and source-arithmetic exports match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors. The new audit works in three views with five source configurations/calculations, five organizational findings, six gates, eight explicit unknowns and two exact full source drawers. Filters, source hashes, scenario export/reload and scope independence pass. All nine prior workforce browser worlds, their exact minute threshold, full replay and invalid/pending/stale protections pass; six other prior reference panels remain exact. Both new source-panel screenshots were visually inspected. The evidence registry now has **13 packages, 220 claims, 498 reported quantities and 146 explicit-null markers**.
+
+All **1,414,419 prior typed numeric fields across 36 JSON result artifacts**, and their prior non-fingerprint semantics, remain unchanged. 24 artifacts are byte-identical; 12 change only exact source/evidence fingerprints, the source-calculation code identity, dependent identities and the new separate hospital_workforce block. Every physical/scenario model module and numerical assumption, earlier source record, labor row, 69 legacy requirement statuses and 65 question statuses is preserved. Legacy acceptance remains **53 bounded met / 16 partial**. Fourteen challenge families remain **196 worlds**; this tranche adds no synthetic cases or empirical calibration.
+
+All **348 manifest hashes** and **837 relative Markdown links** verify. Review remains sole-writer self-review. An initial full-suite launch was interrupted because result regeneration was still running; its local log is retained and is not counted as validation. The accepted full suite ran after all reproduction commands completed.
+
+**Remaining evidence limits:** no matched current receiving-duty/fallback schedule, paid staffing/receipt series, complete on-time service or all-actor cost. The publisher PDF returned HTTP 403 and was not retried; full primary HTML and official license metadata were accessible. Prior confidential/authenticated/paid/restricted routes remain closed. No commercial action, outreach, purchase, reset, replacement task or duplicate schedule was taken.
+
+**Next execution:** test one prospective funded fallback or staffing-restoration decision inside the existing shared-crew/resource/Treasury loop, preserving the reassigned service and stronger human alternative. Define information timing, response/contract lead time, qualifications, staff commitments and actual cash. Do not give a policy future knowledge, treat cross-trained people as universally interchangeable or count the same reserve twice.
+
+**Next question:** which funded response preserves both the original and receiving services when a previously feasible staffing transition encounters later support or workload failure?
+
+## Previous checkpoint: shared staffing and complete competing work, edition 0.35
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input checkpoint `f9993589e60c543076abdfcd19121d83b546c51d` was verified against remote main before publication work. Real shell, reproduction and browser commands executed in `/workspace/robotics-economics`; the selected environment reports connected/running with current observations and no failure. The user's latest steer to continue after the Tutor submission preserves this task and scope. No current usage failure is observed; quota and native goal creation/stop controls remain unexposed. This is evidence of resumed execution, not uninterrupted operation or an independently verified serving-model identity.
 

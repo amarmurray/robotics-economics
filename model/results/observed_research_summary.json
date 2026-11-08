@@ -1,5 +1,5 @@
 {
-  "calculation_code_sha256": "95324519453dba4ee1a20a3101a70e74926a323ef3c0fad710daf23afcd3c6fe",
+  "calculation_code_sha256": "bf3ec0458753b6327d7f8103a3d76625eb1b33405d46c0c674a5d11db2e3a1e4",
   "commercial_disclosures": {
     "audit_id": "FG-AUDIT-01",
     "calculations": {
@@ -419,6 +419,159 @@
       }
     }
   },
+  "hospital_workforce": {
+    "audit_id": "FSD-AUDIT-WORK-01",
+    "boundary": "Five historical anonymous configurations and one separate named case. Do not pool fleets, infer site identities, multiply schedules into measured exposure, interpret counterfactual headcounts as removed payroll, or transfer values into scenarios.",
+    "model_calibration": false,
+    "prior_staffing_scenarios_unchanged": true,
+    "rows": [
+      {
+        "asset_title": "Hospital ownership reported",
+        "boundary": "Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.",
+        "case_id": "N-1",
+        "country": "Norway",
+        "days_per_week": 5,
+        "equation": "hours_per_operating_day * operating_days_per_week",
+        "evidence_ids": [
+          "FSD-E010"
+        ],
+        "hours_per_day": 12,
+        "input_ids": [
+          "FSD-WORK-N1-HOURS-PER-DAY",
+          "FSD-WORK-N1-DAYS-PER-WEEK"
+        ],
+        "introduced_year": 2015,
+        "observation_period": "2018\u20132019 qualitative interviews and site tours; system introduction dates differ",
+        "operating_organization": "Hospital-owned and directly managed AGVs",
+        "robots": 8,
+        "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109\u2013124; 15 March 2021",
+        "weekly_system_window_hours": 60
+      },
+      {
+        "asset_title": "Hospital ownership reported",
+        "boundary": "Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.",
+        "case_id": "N-2",
+        "country": "Norway",
+        "days_per_week": 5,
+        "equation": "hours_per_operating_day * operating_days_per_week",
+        "evidence_ids": [
+          "FSD-E010"
+        ],
+        "hours_per_day": 12,
+        "input_ids": [
+          "FSD-WORK-N2-HOURS-PER-DAY",
+          "FSD-WORK-N2-DAYS-PER-WEEK"
+        ],
+        "introduced_year": 2009,
+        "observation_period": "2018\u20132019 qualitative interviews and site tours; system introduction dates differ",
+        "operating_organization": "Hospital-owned and directly managed AGVs",
+        "robots": 22,
+        "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109\u2013124; 15 March 2021",
+        "weekly_system_window_hours": 60
+      },
+      {
+        "asset_title": "Hospital ownership reported",
+        "boundary": "Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.",
+        "case_id": "N-3",
+        "country": "Norway",
+        "days_per_week": 5,
+        "equation": "hours_per_operating_day * operating_days_per_week",
+        "evidence_ids": [
+          "FSD-E010"
+        ],
+        "hours_per_day": 13,
+        "input_ids": [
+          "FSD-WORK-N3-HOURS-PER-DAY",
+          "FSD-WORK-N3-DAYS-PER-WEEK"
+        ],
+        "introduced_year": 2006,
+        "observation_period": "2018\u20132019 qualitative interviews and site tours; system introduction dates differ",
+        "operating_organization": "Hospital-owned and directly managed AGVs",
+        "robots": 21,
+        "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109\u2013124; 15 March 2021",
+        "weekly_system_window_hours": 65
+      },
+      {
+        "asset_title": "Hospital ownership reported",
+        "boundary": "Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.",
+        "case_id": "S-1",
+        "country": "Scotland",
+        "days_per_week": 7,
+        "equation": "hours_per_operating_day * operating_days_per_week",
+        "evidence_ids": [
+          "FSD-E010"
+        ],
+        "hours_per_day": 24,
+        "input_ids": [
+          "FSD-WORK-S1-HOURS-PER-DAY",
+          "FSD-WORK-S1-DAYS-PER-WEEK"
+        ],
+        "introduced_year": 2015,
+        "observation_period": "2018\u20132019 qualitative interviews and site tours; system introduction dates differ",
+        "operating_organization": "Hospital-owned and directly managed AGVs",
+        "robots": 26,
+        "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109\u2013124; 15 March 2021",
+        "weekly_system_window_hours": 168
+      },
+      {
+        "asset_title": "Not disclosed by the outsourcing exception",
+        "boundary": "Reported system schedule only; no fleet multiplication, observed robot exposure, availability, staffing hours or accepted output.",
+        "case_id": "S-2",
+        "country": "Scotland",
+        "days_per_week": 7,
+        "equation": "hours_per_operating_day * operating_days_per_week",
+        "evidence_ids": [
+          "FSD-E010"
+        ],
+        "hours_per_day": 24,
+        "input_ids": [
+          "FSD-WORK-S2-HOURS-PER-DAY",
+          "FSD-WORK-S2-DAYS-PER-WEEK"
+        ],
+        "introduced_year": 2010,
+        "observation_period": "2018\u20132019 qualitative interviews and site tours; system introduction dates differ",
+        "operating_organization": "Outsourced private provider of portering, catering and cleaning",
+        "robots": 13,
+        "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109\u2013124; 15 March 2021",
+        "weekly_system_window_hours": 168
+      }
+    ],
+    "status": "historical_source_windows_not_measured_exposure_or_payroll",
+    "unknowns": {
+      "accepted_on_time_service": {
+        "reason": "No all-request accepted-output/deadline ledger or matched complete-service comparator.",
+        "value": null
+      },
+      "anonymous_site_identity": {
+        "reason": "No source-confirmed mapping of N-1..S-2 to named hospitals; matching fleet/year is insufficient.",
+        "value": null
+      },
+      "funded_fallback_capacity": {
+        "reason": "No joint duty calendar, fallback response/service observations or retained reserve cash.",
+        "value": null
+      },
+      "paid_payroll_removed": {
+        "reason": "No matched payroll/roster panel; estimates and redeployment do not identify removed paid commitments.",
+        "value": null
+      },
+      "provider_margin": {
+        "reason": "Service outsourcing does not disclose the provider fee or its resources and actual cash.",
+        "value": null
+      },
+      "realized_payback": {
+        "reason": "The government range is a reported estimate with no reconstructable realized cash-flow basis.",
+        "value": null
+      },
+      "realized_whole_service_cost": {
+        "reason": "No complete actual cost/receipt series for capital, retained work, implementation and contingency.",
+        "value": null
+      },
+      "s2_asset_title": {
+        "reason": "The paper describes a service-provider exception without explicitly establishing ownership title.",
+        "value": null
+      }
+    }
+  },
   "onboard_timing": {
     "calculations": {
       "OWQ-C01": {
@@ -527,7 +680,7 @@
   "source_snapshot_sha256": {
     "coordination_reproducibility.json": "20608051f57646b4d02294043461b7dff5502be9ed15ad1195ee3f2d2d721264",
     "customer_evidence.json": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234",
-    "field_support_denominators.json": "6912c63f70b1f57bf1d89d1f4e628a55bd7a93ab819f4690c6ebcc9900365930",
+    "field_support_denominators.json": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e",
     "onboard_workload_qualification.json": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
   },
   "tac_costs": {

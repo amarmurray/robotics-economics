@@ -518,6 +518,463 @@
         }
       ],
       "publication_date_basis": "Official release date; PDF cover says 2026, exact PDF revision date unknown."
+    },
+    {
+      "evidence_id": "FSD-E010",
+      "title": "Fewer jobs, better jobs? An international comparative study of robots and ‘routine’ work in the public sector",
+      "authors": "Caroline Lloyd and Jonathan Payne",
+      "publisher": "Industrial Relations Journal / Wiley",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/irj.12323",
+      "doi": "10.1111/irj.12323",
+      "publication_date": "2021-03-15",
+      "retrieved_at": "2026-11-08T15:45:45.400271+00:00",
+      "observation_period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+      "geography": "Three anonymized Norwegian and two anonymized Scottish hospitals",
+      "source_class": "primary_qualitative_workplace_research",
+      "epistemic_status": "historical_interviews_and_site_observation_not_payroll_panel",
+      "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+      "claim": "Five hospital cases distinguish estimated staffing needs without AGVs from actual redeployment. Operating windows, retained oversight/handling and repair roles differ; managers had not measured realized financial savings. One case uses an outsourced service provider.",
+      "locator": "Section 4; Tables 1–2; subsections 4.1–4.4 and discussion",
+      "verification": "Publisher HTML methods, tables and findings inspected. Publisher PDF returned HTTP 403 and was not retried. Cardiff institutional record confirms the published version and Creative Commons Attribution license; no hospital identities inferred.",
+      "license": "Creative Commons Attribution, confirmed by the publisher article details and Cardiff repository",
+      "license_metadata_url": "https://orca.cardiff.ac.uk/id/eprint/139408/",
+      "rendered_extract_sha256": "8e99b5bd75c5b826982269205833d589e16b6709eb74583d4f8093706f795a46",
+      "extract_hash_boundary": "Hash of the web-tool rendered publisher/license extract, not original publisher HTML or PDF bytes.",
+      "limitations": [
+        "Purposive five-site qualitative study in complete or partial new hospitals; no matched before/after payroll, all-request service or transaction panel.",
+        "Reported operating hours/days describe system schedules, not observed robot operating hours, availability, accepted output or staff exposure.",
+        "Counterfactual extra-worker estimates are attributed interview reports, not verified jobs eliminated or hires actually avoided; FTE and paid-hour denominators are absent.",
+        "Anonymized cases are not linked to named hospitals by matching introduction year or fleet count. S-2 service outsourcing does not identify robot asset title.",
+        "Historical institutional arrangements are study context, not current employment-law advice or a right to change target staffing.",
+        "Implementation, oversight and repair findings concern historical AGV systems and configurations; no modern humanoid success, delay or labor coefficient follows."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Historical foreign organization and operating-window comparator; no US labor-total, wage or model-parameter transfer.",
+      "quantities": [
+        {
+          "metric_id": "FSD-WORK-SAMPLE-HOSPITALS",
+          "role": "hospitals",
+          "value": 5,
+          "unit": "hospitals",
+          "denominator": "Qualitative study sample; not independent deployments or operating exposure",
+          "population": "Study sample",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_research_sample",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021"
+        },
+        {
+          "metric_id": "FSD-WORK-SAMPLE-INTERVIEWS",
+          "role": "interviews",
+          "value": 26,
+          "unit": "interviews",
+          "denominator": "Qualitative study sample; not independent deployments or operating exposure",
+          "population": "Study sample",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_research_sample",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021"
+        },
+        {
+          "metric_id": "FSD-WORK-SAMPLE-PARTICIPANTS",
+          "role": "participants",
+          "value": 34,
+          "unit": "participants",
+          "denominator": "Qualitative study sample; not independent deployments or operating exposure",
+          "population": "Study sample",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_research_sample",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-INTRODUCED-YEAR",
+          "role": "introduced_year",
+          "value": 2015,
+          "unit": "calendar year",
+          "denominator": "Reported year the case introduced AGVs",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-ROBOTS",
+          "role": "robots",
+          "value": 8,
+          "unit": "AGVs",
+          "denominator": "Reported fleet count; no operating exposure",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-HOURS-PER-DAY",
+          "role": "hours_per_day",
+          "value": 12,
+          "unit": "hours per operating day",
+          "denominator": "Reported system operating window; no uptime denominator",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-DAYS-PER-WEEK",
+          "role": "days_per_week",
+          "value": 5,
+          "unit": "operating days per week",
+          "denominator": "Reported system operating days; no paid staffing denominator",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N2-INTRODUCED-YEAR",
+          "role": "introduced_year",
+          "value": 2009,
+          "unit": "calendar year",
+          "denominator": "Reported year the case introduced AGVs",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-2"
+        },
+        {
+          "metric_id": "FSD-WORK-N2-ROBOTS",
+          "role": "robots",
+          "value": 22,
+          "unit": "AGVs",
+          "denominator": "Reported fleet count; no operating exposure",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-2"
+        },
+        {
+          "metric_id": "FSD-WORK-N2-HOURS-PER-DAY",
+          "role": "hours_per_day",
+          "value": 12,
+          "unit": "hours per operating day",
+          "denominator": "Reported system operating window; no uptime denominator",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-2"
+        },
+        {
+          "metric_id": "FSD-WORK-N2-DAYS-PER-WEEK",
+          "role": "days_per_week",
+          "value": 5,
+          "unit": "operating days per week",
+          "denominator": "Reported system operating days; no paid staffing denominator",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-2"
+        },
+        {
+          "metric_id": "FSD-WORK-N3-INTRODUCED-YEAR",
+          "role": "introduced_year",
+          "value": 2006,
+          "unit": "calendar year",
+          "denominator": "Reported year the case introduced AGVs",
+          "population": "Anonymized hospital N-3 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-3"
+        },
+        {
+          "metric_id": "FSD-WORK-N3-ROBOTS",
+          "role": "robots",
+          "value": 21,
+          "unit": "AGVs",
+          "denominator": "Reported fleet count; no operating exposure",
+          "population": "Anonymized hospital N-3 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-3"
+        },
+        {
+          "metric_id": "FSD-WORK-N3-HOURS-PER-DAY",
+          "role": "hours_per_day",
+          "value": 13,
+          "unit": "hours per operating day",
+          "denominator": "Reported system operating window; no uptime denominator",
+          "population": "Anonymized hospital N-3 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-3"
+        },
+        {
+          "metric_id": "FSD-WORK-N3-DAYS-PER-WEEK",
+          "role": "days_per_week",
+          "value": 5,
+          "unit": "operating days per week",
+          "denominator": "Reported system operating days; no paid staffing denominator",
+          "population": "Anonymized hospital N-3 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-3"
+        },
+        {
+          "metric_id": "FSD-WORK-S1-INTRODUCED-YEAR",
+          "role": "introduced_year",
+          "value": 2015,
+          "unit": "calendar year",
+          "denominator": "Reported year the case introduced AGVs",
+          "population": "Anonymized hospital S-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-1"
+        },
+        {
+          "metric_id": "FSD-WORK-S1-ROBOTS",
+          "role": "robots",
+          "value": 26,
+          "unit": "AGVs",
+          "denominator": "Reported fleet count; no operating exposure",
+          "population": "Anonymized hospital S-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-1"
+        },
+        {
+          "metric_id": "FSD-WORK-S1-HOURS-PER-DAY",
+          "role": "hours_per_day",
+          "value": 24,
+          "unit": "hours per operating day",
+          "denominator": "Reported system operating window; no uptime denominator",
+          "population": "Anonymized hospital S-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-1"
+        },
+        {
+          "metric_id": "FSD-WORK-S1-DAYS-PER-WEEK",
+          "role": "days_per_week",
+          "value": 7,
+          "unit": "operating days per week",
+          "denominator": "Reported system operating days; no paid staffing denominator",
+          "population": "Anonymized hospital S-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-1"
+        },
+        {
+          "metric_id": "FSD-WORK-S2-INTRODUCED-YEAR",
+          "role": "introduced_year",
+          "value": 2010,
+          "unit": "calendar year",
+          "denominator": "Reported year the case introduced AGVs",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-2"
+        },
+        {
+          "metric_id": "FSD-WORK-S2-ROBOTS",
+          "role": "robots",
+          "value": 13,
+          "unit": "AGVs",
+          "denominator": "Reported fleet count; no operating exposure",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-2"
+        },
+        {
+          "metric_id": "FSD-WORK-S2-HOURS-PER-DAY",
+          "role": "hours_per_day",
+          "value": 24,
+          "unit": "hours per operating day",
+          "denominator": "Reported system operating window; no uptime denominator",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-2"
+        },
+        {
+          "metric_id": "FSD-WORK-S2-DAYS-PER-WEEK",
+          "role": "days_per_week",
+          "value": 7,
+          "unit": "operating days per week",
+          "denominator": "Reported system operating days; no paid staffing denominator",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "reported_case_configuration",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-2"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-EXTRA-STAFF-LOWER",
+          "role": "additional_workers_lower",
+          "value": 15,
+          "unit": "workers in stated counterfactual",
+          "denominator": "Interview estimate of extra workers needed without AGVs; paid-hour/FTE basis unspecified",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "attributed_counterfactual_estimate",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N1-EXTRA-STAFF-UPPER",
+          "role": "additional_workers_upper",
+          "value": 20,
+          "unit": "workers in stated counterfactual",
+          "denominator": "Interview estimate of extra workers needed without AGVs; paid-hour/FTE basis unspecified",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "attributed_counterfactual_estimate",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-1"
+        },
+        {
+          "metric_id": "FSD-WORK-N2-EXTRA-STAFF-POINT",
+          "role": "additional_workers_point",
+          "value": 15,
+          "unit": "workers in stated counterfactual",
+          "denominator": "Interview estimate of extra workers needed without AGVs; paid-hour/FTE basis unspecified",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "attributed_counterfactual_estimate",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "N-2"
+        },
+        {
+          "metric_id": "FSD-WORK-S2-EXTRA-STAFF-POINT",
+          "role": "additional_workers_point",
+          "value": 30,
+          "unit": "workers in stated counterfactual",
+          "denominator": "Interview estimate of extra workers needed without AGVs; paid-hour/FTE basis unspecified",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+          "measurement_status": "attributed_counterfactual_estimate",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "case_id": "S-2"
+        }
+      ]
+    },
+    {
+      "evidence_id": "FSD-E011",
+      "title": "State of the NHSScotland Estate 2011: AGV case study at Forth Valley Royal Hospital",
+      "publisher": "Scottish Government",
+      "url": "https://www.gov.scot/publications/state-nhsscotland-estate-2011/pages/6/",
+      "publication_date": "2012-02-10",
+      "publication_date_basis": "Official publication page; report title year is 2011, not the publication date.",
+      "retrieved_at": "2026-11-08T15:45:45.400271+00:00",
+      "observation_period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+      "geography": "Forth Valley Royal Hospital, Scotland",
+      "source_class": "government_operator_case_report",
+      "epistemic_status": "reported_historical_configuration_and_estimates",
+      "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+      "claim": "The government reports thirteen AGVs, an estimated workload equivalent to around twelve staff and their reassignment to other duties. Manual or electric-vehicle transport with redeployed porters is the stated contingency. The payback claim lacks a reconstructed cash-flow basis.",
+      "locator": "Annex A, Best Practice Case Study 10: Automated Guided Vehicles",
+      "license": "Open Government Licence v3.0 except stated exclusions; textual case study used with attribution",
+      "raw_sha256": "70f3b0dff86352ccac5527da9d97644982b4e5fdf8c45a6bfa98893c6fc93cea",
+      "verification": "Official HTML read; local HTTP 200 original bytes retained and hashed. Publication date, approximate estimates, redeployment statement and contingency inspected.",
+      "limitations": [
+        "Estimated staff-equivalent workload is not an FTE, payroll or whole-hospital staffing reduction measure.",
+        "Approximate capital/per-robot figures and claimed payback omit a reproducible cost/benefit allocation, payment dates and realized returns.",
+        "The manual contingency specifies a method, not spare workers, response time, competing duties, qualified service or paid fallback capacity.",
+        "New-build infrastructure and FM involvement are part of implementation; the account does not establish a retrofit or humanoid comparison.",
+        "No link is inferred between this named hospital and an anonymized case in FSD-E010."
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "transfer_boundary": "Historical infrastructure, staffing and contingency mechanism only; no current target cost or staffing calibration.",
+      "quantities": [
+        {
+          "metric_id": "FSD-WORK-FVR-ROBOTS",
+          "role": "robots",
+          "value": 13,
+          "unit": "AGVs",
+          "denominator": "Reported installed fleet",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_configuration",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "reported count"
+        },
+        {
+          "metric_id": "FSD-WORK-FVR-SYSTEM-COST",
+          "role": "system_cost",
+          "value": 1000000,
+          "unit": "GBP",
+          "denominator": "Approximate system cost; scope not fully itemized",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_estimate",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "approximately"
+        },
+        {
+          "metric_id": "FSD-WORK-FVR-ROBOT-COST",
+          "role": "robot_cost",
+          "value": 50000,
+          "unit": "GBP per AGV",
+          "denominator": "Approximate individual AGV cost; not a matched installed unit price",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_estimate",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "around"
+        },
+        {
+          "metric_id": "FSD-WORK-FVR-REDEPLOYED-WORKLOAD",
+          "role": "redeployed_workload",
+          "value": 12,
+          "unit": "staff workload equivalents",
+          "denominator": "Staff whose estimated work is covered; FTE/paid-hour basis unspecified",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_estimate",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "around"
+        },
+        {
+          "metric_id": "FSD-WORK-FVR-PAYBACK-LOWER",
+          "role": "payback_lower",
+          "value": 3,
+          "unit": "years",
+          "denominator": "Lower end of claimed payback range; cash-flow basis unreported",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_estimate",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "reported range bound"
+        },
+        {
+          "metric_id": "FSD-WORK-FVR-PAYBACK-UPPER",
+          "role": "payback_upper",
+          "value": 4,
+          "unit": "years",
+          "denominator": "Upper end of claimed payback range; cash-flow basis unreported",
+          "population": "Forth Valley Royal Hospital in the 2011 estate report",
+          "period": "Historical 2011 estate report; exact operational measurement dates unspecified",
+          "measurement_status": "reported_historical_estimate",
+          "source_version": "State of the NHSScotland Estate 2011, Annex A case study 10; published 10 February 2012",
+          "qualifier": "reported range bound"
+        }
+      ]
     }
   ],
   "cases": [
@@ -1106,5 +1563,247 @@
     "review": "Sole-writer review; not independent peer review.",
     "retrieval_boundary": "Public sources only. No outreach, author data request or repeat of prior restricted routes. Mentioned Charite workbook not retrieved from the inspected official release or PDF.",
     "model_use": "Existing numeric scenarios, labor totals, original field metrics and five source calculations preserved."
+  },
+  "workforce_audits": [
+    {
+      "audit_id": "FSD-AUDIT-WORK-01",
+      "title": "Operating windows, redeployment and funded fallback",
+      "evidence_ids": [
+        "FSD-E010",
+        "FSD-E011"
+      ],
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "summary": "Historical deployments make the organizational bridge explicit: robot work can coexist with paid redeployment, new oversight and a human fallback obligation. No paid-staffing cut or realized return is calibrated.",
+      "source_period": "2018–2019 qualitative interviews and site tours; system introduction dates differ",
+      "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+      "case_configurations": [
+        {
+          "case_id": "N-1",
+          "country": "Norway",
+          "population": "Anonymized hospital N-1 in the 2018–2019 study",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "evidence_ids": [
+            "FSD-E010"
+          ],
+          "metric_ids": {
+            "introduced_year": "FSD-WORK-N1-INTRODUCED-YEAR",
+            "robots": "FSD-WORK-N1-ROBOTS",
+            "hours_per_day": "FSD-WORK-N1-HOURS-PER-DAY",
+            "days_per_week": "FSD-WORK-N1-DAYS-PER-WEEK"
+          },
+          "operating_organization": "Hospital-owned and directly managed AGVs",
+          "asset_title": "Hospital ownership reported",
+          "identity_boundary": "Anonymous source case only; no named-hospital linkage",
+          "exposure_boundary": "Operating schedule only; not observed robot-hours, accepted tasks or paid staff-hours"
+        },
+        {
+          "case_id": "N-2",
+          "country": "Norway",
+          "population": "Anonymized hospital N-2 in the 2018–2019 study",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "evidence_ids": [
+            "FSD-E010"
+          ],
+          "metric_ids": {
+            "introduced_year": "FSD-WORK-N2-INTRODUCED-YEAR",
+            "robots": "FSD-WORK-N2-ROBOTS",
+            "hours_per_day": "FSD-WORK-N2-HOURS-PER-DAY",
+            "days_per_week": "FSD-WORK-N2-DAYS-PER-WEEK"
+          },
+          "operating_organization": "Hospital-owned and directly managed AGVs",
+          "asset_title": "Hospital ownership reported",
+          "identity_boundary": "Anonymous source case only; no named-hospital linkage",
+          "exposure_boundary": "Operating schedule only; not observed robot-hours, accepted tasks or paid staff-hours"
+        },
+        {
+          "case_id": "N-3",
+          "country": "Norway",
+          "population": "Anonymized hospital N-3 in the 2018–2019 study",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "evidence_ids": [
+            "FSD-E010"
+          ],
+          "metric_ids": {
+            "introduced_year": "FSD-WORK-N3-INTRODUCED-YEAR",
+            "robots": "FSD-WORK-N3-ROBOTS",
+            "hours_per_day": "FSD-WORK-N3-HOURS-PER-DAY",
+            "days_per_week": "FSD-WORK-N3-DAYS-PER-WEEK"
+          },
+          "operating_organization": "Hospital-owned and directly managed AGVs",
+          "asset_title": "Hospital ownership reported",
+          "identity_boundary": "Anonymous source case only; no named-hospital linkage",
+          "exposure_boundary": "Operating schedule only; not observed robot-hours, accepted tasks or paid staff-hours"
+        },
+        {
+          "case_id": "S-1",
+          "country": "Scotland",
+          "population": "Anonymized hospital S-1 in the 2018–2019 study",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "evidence_ids": [
+            "FSD-E010"
+          ],
+          "metric_ids": {
+            "introduced_year": "FSD-WORK-S1-INTRODUCED-YEAR",
+            "robots": "FSD-WORK-S1-ROBOTS",
+            "hours_per_day": "FSD-WORK-S1-HOURS-PER-DAY",
+            "days_per_week": "FSD-WORK-S1-DAYS-PER-WEEK"
+          },
+          "operating_organization": "Hospital-owned and directly managed AGVs",
+          "asset_title": "Hospital ownership reported",
+          "identity_boundary": "Anonymous source case only; no named-hospital linkage",
+          "exposure_boundary": "Operating schedule only; not observed robot-hours, accepted tasks or paid staff-hours"
+        },
+        {
+          "case_id": "S-2",
+          "country": "Scotland",
+          "population": "Anonymized hospital S-2 in the 2018–2019 study",
+          "source_version": "Lloyd and Payne, Industrial Relations Journal 52(2), 109–124; 15 March 2021",
+          "evidence_ids": [
+            "FSD-E010"
+          ],
+          "metric_ids": {
+            "introduced_year": "FSD-WORK-S2-INTRODUCED-YEAR",
+            "robots": "FSD-WORK-S2-ROBOTS",
+            "hours_per_day": "FSD-WORK-S2-HOURS-PER-DAY",
+            "days_per_week": "FSD-WORK-S2-DAYS-PER-WEEK"
+          },
+          "operating_organization": "Outsourced private provider of portering, catering and cleaning",
+          "asset_title": "Not disclosed by the outsourcing exception",
+          "identity_boundary": "Anonymous source case only; no named-hospital linkage",
+          "exposure_boundary": "Operating schedule only; not observed robot-hours, accepted tasks or paid staff-hours"
+        }
+      ],
+      "counterfactual_staff_reports": [
+        {
+          "case_id": "N-1",
+          "metric_ids": [
+            "FSD-WORK-N1-EXTRA-STAFF-LOWER",
+            "FSD-WORK-N1-EXTRA-STAFF-UPPER"
+          ],
+          "interpretation": "Estimated need without AGVs; neither measured layoffs nor verified avoided hiring. Do not aggregate across anonymous hospitals."
+        },
+        {
+          "case_id": "N-2",
+          "metric_ids": [
+            "FSD-WORK-N2-EXTRA-STAFF-POINT"
+          ],
+          "interpretation": "Estimated need without AGVs; neither measured layoffs nor verified avoided hiring. Do not aggregate across anonymous hospitals."
+        },
+        {
+          "case_id": "S-2",
+          "metric_ids": [
+            "FSD-WORK-S2-EXTRA-STAFF-POINT"
+          ],
+          "interpretation": "Estimated need without AGVs; neither measured layoffs nor verified avoided hiring. Do not aggregate across anonymous hospitals."
+        }
+      ],
+      "organization_findings": [
+        {
+          "theme": "Work moved within the organization",
+          "finding": "The government case reports reassignment to other duties. The qualitative study describes redeployment and some retirement/transfers within expanding services; counterfactual staffing estimates are not observed layoffs or avoided hiring.",
+          "evidence_ids": [
+            "FSD-E010",
+            "FSD-E011"
+          ]
+        },
+        {
+          "theme": "Oversight and repair remain distinct work",
+          "finding": "Historical AGV operation retains monitoring, intervention, cart positioning, loading and residual lifting. First-line reset/cleaning authority differs from technician repair; one studied hospital outsources most maintenance.",
+          "evidence_ids": [
+            "FSD-E010"
+          ]
+        },
+        {
+          "theme": "Building and digital integration govern deployment",
+          "finding": "New buildings, corridors, lifts, doors, Wi-Fi, cart compatibility and stock-control changes are part of the comparison. The study reports multi-year implementation problems; these are not calibrated delays for a target system.",
+          "evidence_ids": [
+            "FSD-E010",
+            "FSD-E011"
+          ]
+        },
+        {
+          "theme": "Contingency can compete with the new job",
+          "finding": "Manual/electric-vehicle transport with redeployed porters is a stated fallback. That does not prove those people are simultaneously available after reassignment or after a staffing cut.",
+          "evidence_ids": [
+            "FSD-E011"
+          ]
+        },
+        {
+          "theme": "Service outsourcing does not identify asset ownership",
+          "finding": "The S-2 private provider handles a wider service bundle; robot title, provider costs, fees, margins and staffing remedies remain unreported. Preserve anonymous site identity.",
+          "evidence_ids": [
+            "FSD-E010"
+          ]
+        }
+      ],
+      "gates": [
+        {
+          "gate": "Same service and estate",
+          "requirement": "Compare the whole required workload under the same building, demand and acceptance contract; a new hospital or longer route changes the counterfactual."
+        },
+        {
+          "gate": "Explicit coverage window",
+          "requirement": "Record required work outside the robot system schedule, staffed oversight, response times and funded fallback. A weekly schedule is not observed uptime."
+        },
+        {
+          "gate": "Real staffing transition",
+          "requirement": "Identify the receiving duties, paid roster and dated authority for redeployment, avoided hiring/overtime or removed commitments; keep these outcomes separate."
+        },
+        {
+          "gate": "Single allocation of fallback people",
+          "requirement": "Reserve or fund replacement capacity when reassigned workers must return to delivery; preserve their other due service and qualification."
+        },
+        {
+          "gate": "Control and repair authority",
+          "requirement": "Name staff permitted to dispatch, reset, clean and repair; price integration, training, maintenance and service interruptions separately."
+        },
+        {
+          "gate": "Organization and payer boundary",
+          "requirement": "Identify asset title, employer, service provider, cash obligations and rights at the actual site; an outsourced service label is insufficient."
+        }
+      ],
+      "unknowns": {
+        "paid_payroll_removed": {
+          "value": null,
+          "reason": "No matched payroll/roster panel; estimates and redeployment do not identify removed paid commitments."
+        },
+        "funded_fallback_capacity": {
+          "value": null,
+          "reason": "No joint duty calendar, fallback response/service observations or retained reserve cash."
+        },
+        "accepted_on_time_service": {
+          "value": null,
+          "reason": "No all-request accepted-output/deadline ledger or matched complete-service comparator."
+        },
+        "realized_whole_service_cost": {
+          "value": null,
+          "reason": "No complete actual cost/receipt series for capital, retained work, implementation and contingency."
+        },
+        "provider_margin": {
+          "value": null,
+          "reason": "Service outsourcing does not disclose the provider fee or its resources and actual cash."
+        },
+        "anonymous_site_identity": {
+          "value": null,
+          "reason": "No source-confirmed mapping of N-1..S-2 to named hospitals; matching fleet/year is insufficient."
+        },
+        "s2_asset_title": {
+          "value": null,
+          "reason": "The paper describes a service-provider exception without explicitly establishing ownership title."
+        },
+        "realized_payback": {
+          "value": null,
+          "reason": "The government range is a reported estimate with no reconstructable realized cash-flow basis."
+        }
+      },
+      "interpretation": "Five historical anonymous configurations and one separate named case. Do not pool fleets, infer site identities, multiply schedules into measured exposure, interpret counterfactual headcounts as removed payroll, or transfer values into scenarios.",
+      "model_use": "Source arithmetic and decision gates only. The existing synthetic staffing/notice scenarios and all labor totals remain unchanged."
+    }
+  ],
+  "continuation_workforce_2026_11_08": {
+    "scope": "Two primary historical sources on operating windows, organizational transitions and fallback; existing records unchanged.",
+    "review": "Sole writer, not independent review.",
+    "retrieval_boundary": "New targeted search stopped after a decision-relevant primary study and government case. Publisher PDF HTTP 403 not retried; full primary HTML and license metadata accessible. No restricted prior routes revisited, outreach or paid access.",
+    "model_use": "No new synthetic worlds or numerical calibration."
   }
 }

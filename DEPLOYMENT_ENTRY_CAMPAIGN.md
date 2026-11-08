@@ -117,3 +117,8 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Shared workforce checkpoint, edition 0.35
 
 Nine [staffing and competing-work worlds](research/shared_workforce.md) deepen DE-CF01 without creating another challenge family. One actual synthetic crew, a separately due inventory service, notice, funded overtime and outside-buyer cash now share the architecture/resource/parts/Treasury execution. Fourteen bounded families contain 196 worlds. A stronger human premise can beat the robot staffing reduction in resource cash; cheaper incomplete service is rejected. The same active T0/deadline and sole-writer contract continue. Full empirical economics and six-cell joint feasibility remain incomplete.
+
+
+## Historical workforce and fallback checkpoint, edition 0.36
+
+The [primary-source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) adds five anonymous hospital configurations, a separate named government case, five schedule calculations and eight unknown outcomes. It challenges paid-staffing and contingency assumptions through actual reported organizational context. No new synthetic worlds or empirical calibration: fourteen families remain 196 worlds. The sole writer, same active clock and full-scope acceptance contract persist.

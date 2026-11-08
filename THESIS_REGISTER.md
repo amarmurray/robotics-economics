@@ -144,3 +144,10 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 **Conditional thesis:** fewer paid capacity blocks are valuable only if the same organization can cover every required workload after transition and fallback. The [shared-crew execution](research/shared_workforce.md) shows an assumed $10,000 staffing reduction with complete work, yet the stronger human path remains much cheaper in the bounded cash window. Under a competing-work surge, cutting extra capacity lowers outlay by missing required work. Neither outcome supplies a target employment effect or ROI.
 
 **Falsifiers and next evidence:** a dated same-worker schedule, staffing/transition authority, all retained work, actually funded fallback and complete-service buyer/supplier cash. A real higher-value service or capability unavailable to the human/specialist alternative could change the choice; such value must be demonstrated, not credited to a robot label. Existing scenario results and empirical missingness remain preserved.
+
+
+## Redeployment and fallback authority, edition 0.36
+
+**Evidence-led refinement:** historical hospital AGV cases show why an apparent labor saving can coexist with paid redeployment and new oversight work. A stated manual contingency does not establish that the same people remain available after reassignment. [The primary-source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) therefore requires a joint duty calendar and funded response before staffing savings support a rollout. Anonymous cases, operating schedules and estimated counterfactual headcounts remain separate from named sites, uptime and removed payroll.
+
+**Falsifier:** matched complete-service and paid-duty records show the proposed transition, receiving duties and fallback are simultaneously feasible at the stated payer cost. An outsourced operating label or a historical payback claim is insufficient.

@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: shared staffing and complete service, edition 0.35
+## New decision campaign: historical workforce evidence, edition 0.36
+
+The [source audit](research/field_support_denominators.md#employment-operating-windows-and-fallback-edition-036) advances DE-02/06/09/10 through operating-window, redeployment, retained-work and provider-boundary evidence. All broad empirical requirements retain their partial status. No current payroll or whole-service return is identified, and historical source estimates do not calibrate scenarios. The same campaign remains active through **2026-11-14T20:12:27Z**.
+
+Fresh cloud validation passes **495 Python tests** in 318.918s, **36 Node assertions**, **17 JavaScript syntax checks** and **47 reproduction/Node commands**. Frontier, complete workforce and source-arithmetic exports match fresh calculation. All **13 dashboard views** render without observed JavaScript/API errors. The new audit works in three views with five source configurations/calculations, five organizational findings, six gates, eight explicit unknowns and two exact full source drawers. Filters, source hashes, scenario export/reload and scope independence pass. All nine prior workforce browser worlds, their exact minute threshold, full replay and invalid/pending/stale protections pass; six other prior reference panels remain exact. Both new source-panel screenshots were visually inspected. The evidence registry now has **13 packages, 220 claims, 498 reported quantities and 146 explicit-null markers**.
+
+All **1,414,419 prior typed numeric fields across 36 JSON result artifacts**, and their prior non-fingerprint semantics, remain unchanged. 24 artifacts are byte-identical; 12 change only exact source/evidence fingerprints, the source-calculation code identity, dependent identities and the new separate hospital_workforce block. Every physical/scenario model module and numerical assumption, earlier source record, labor row, 69 legacy requirement statuses and 65 question statuses is preserved. Legacy acceptance remains **53 bounded met / 16 partial**. Fourteen challenge families remain **196 worlds**; this tranche adds no synthetic cases or empirical calibration.
+
+All 348 manifest hashes and 837 relative Markdown links verify. See the [sole-writer review](reviews/field_support_review.md#edition-036-sole-writer-workforce-review).
+
+## Previous decision checkpoint: shared staffing and complete service, edition 0.35
 
 The [shared-workforce module](research/shared_workforce.md) joins actual competing work, one conserved crew and dated staffing/cash decisions to the existing architecture/resource/component execution. It deepens DE-03/06/09/10 and DE-CF01 without promoting empirical completeness. A lower staffing line does not establish a whole-service advantage; incomplete work cannot support a savings claim. The same campaign remains active through **2026-11-14T20:12:27Z**.
 
