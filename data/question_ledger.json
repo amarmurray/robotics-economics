@@ -195,13 +195,17 @@
       "evidence_method": "Specify capability, economics, organizational, and evidence gates; distinguish deployment depth from adoption breadth.",
       "dependencies_and_completion": "W1 stage map after PL-01 and HC-02. Complete when transition criteria are observable.",
       "findings": [
-        "The engine separates conditional eligibility, assembly, shipment, commissioning, retained stock and supported output within a synthetic population."
+        "The engine separates conditional eligibility, assembly, shipment, commissioning, retained stock and supported output within a synthetic population.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-SP-02",
@@ -212,13 +216,17 @@
       "evidence_method": "Map manufacturing, capital, integration, service, energy, and operator capacity; reconcile allocations.",
       "dependencies_and_completion": "W1 constraint scaffold after SP-01. Deeper quantification requires capacity and utilization evidence.",
       "findings": [
-        "Compatible parts, integration, support and funding are shared pools; constrained and ample-supply scenarios can bind elsewhere."
+        "Compatible parts, integration, support and funding are shared pools; constrained and ample-supply scenarios can bind elsewhere.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-SP-03",
@@ -236,7 +244,8 @@
         "Edition 0.8: sale/lease/provider-service contracts now share the integer monthly physical/Treasury plan. Fully funded output and physical outlays agree; purchase, rent, service-lag and deposit-refund failures change supported output or preserve liabilities. Terms are synthetic; common entrant demand, enterprise funding and annual/architecture bridges remain open.",
         "Edition 0.9: one shared monthly market now reconciles customer assignments, actual supported robot cohorts, paid human shifts, enterprise obligations, invoices and funded equity. Failure preserves unserved customer assignments; explicit switchback needs payment and capacity. A fixed-policy extra-equity threshold is synthetic, not observed capital access.",
         "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open.",
-        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve."
+        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -263,9 +272,12 @@
         "model/results/enterprise_finance.json",
         "research/learning_execution.md",
         "model/LEARNING_EXECUTION.md",
-        "model/results/learning_execution.json"
+        "model/results/learning_execution.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Seek a sustained configured deployment with actual target/retained-cohort outcomes, complete R&D/support resources, rights, delivery commitments and costs; do not treat the synthetic gates as empirical acceptance."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-SP-04",
@@ -280,7 +292,8 @@
         "ORS posture/manipulation marginals constrain questions about configured embodiment and support but do not select humanoids over specialized machines. Fine manipulation includes keyboarding, and an occupation can cover several services; alternatives need matched accepted output and complete local work/support evidence.",
         "Edition 0.12: FG-CMP-03 adds manual, BETA, FOLDERIX and Dyna alternatives under a common unique accepted napkin/handoff definition. Specialist maximum item rates remain unmatched; full-cost preference is still unknown.",
         "The new decision campaign reassesses all six cells and selects hospital, utility and automotive packs; each retains digital-human, specialist and feasible mixed alternatives. Selection is not an empirical ROI ranking.",
-        "Edition 0.20: A competent human and buffered fixed cell meet all default kit deadlines; exact mixed-variant changeover reversals challenge an embodiment-only advantage."
+        "Edition 0.20: A competent human and buffered fixed cell meet all default kit deadlines; exact mixed-variant changeover reversals challenge an embodiment-only advantage.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -293,9 +306,12 @@
         "DEPLOYMENT_ENTRY_CAMPAIGN.md",
         "research/automotive_workcell_decision.md",
         "model/AUTOMOTIVE_WORKCELL.md",
-        "model/results/automotive_workcell.json"
+        "model/results/automotive_workcell.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-DL-01",
@@ -635,7 +651,8 @@
         "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open.",
         "Purchase consideration pays the seller and cannot substitute for target working capital. A separate funded month-two injection restores later service but not earlier misses; parent cash also requires an explicit transfer to support growth-company obligations.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -674,9 +691,12 @@
         "research/commercial_disclosure_boundaries.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-OS-07",
@@ -726,7 +746,8 @@
         "Edition 0.12: Napkin customer cash, provider cash/resources and consolidated resources now have distinct boundaries. Full installed and service prices are absent, so neither RaaS nor nominal speed establishes a feasible price interval.",
         "Edition 0.19 separates a committed field roster from a genuinely avoidable visit bill and settles provider resources after customer fees. The exact synthetic crew-bill threshold is conditional on complete service; lifecycle costs, refunds and real contract terms remain unknown.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -747,9 +768,12 @@
         "research/commercial_disclosure_boundaries.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-BM-02",
@@ -765,7 +789,8 @@
         "Edition 0.14 adds dated synthetic interest/maturity, funded draws, explicit default/cure, cash recovery and declared later-start reserves to the shared monthly case. Paying debt can leave support unfunded; delaying funding can miss scarce supported allocation; an extra funded robot need not add service. Asset recovery, optimized reinvestment, annual/K bridges and observed target financing remain open.",
         "A share purchase changes the ultimate owner register while the lessor keeps robot title and the target keeps custody/workflow obligations. No data/model rights or debt forgiveness follow from the owner label; explicit assumed transfer consent gates closing.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -781,9 +806,12 @@
         "research/commercial_disclosure_boundaries.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-BM-03",
@@ -817,7 +845,8 @@
         "The regional evidence separates public artifact grants, private permission, operator co-development, investment and productive service. These can coexist without establishing price, asset ownership or margin.",
         "Dyna combines model research and recurring service obligations; Generalist exposes an access waitlist. Customer price, asset title, feedback rights and complete support costs remain the decisive unobserved commercial terms.",
         "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
-        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred."
+        "Edition 0.24: seventeen bounded renewal worlds endogenize customer awards from funded current capacity, firm-term bids, switching work and prior service. Equal-technology and human-led response, term locks, exact bid ties, atomic onboarding and delayed collections separate delivered service from observed cash break-even. First crossing can reverse; no estimated preference, optimal strategy or target ROI is inferred.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -839,9 +868,12 @@
         "research/commercial_disclosure_boundaries.md",
         "research/competitive_renewals.md",
         "model/COMPETITIVE_RENEWALS.md",
-        "model/results/competitive_renewals.json"
+        "model/results/competitive_renewals.json",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Test measured customer commitments, full accepted service, retained work, feasible incumbent offers and actual collections; preserve unobserved commercial rights, terminal obligations and empirical costs. Broader supported expansion and investment policy remain open."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-LLM-01",
@@ -1510,7 +1542,8 @@
       "findings": [
         "Zebra filing discloses March 27 closing and $20m consideration including $9m cash, $9m equity fair value and $2m escrow. Skild ARR/recognized revenue and Figure compute commitment remain distinct issuer quantities, not cash available for deployment or realized returns.",
         "AWS/RLWRLD separates training and simulation resource roles. CJ reports investment, data/requirements and cooperation alongside one operating robot event; total resource costs and capital allocation remain unpriced.",
-        "Dyna human-video scale includes hand-pose extraction and data filtering; Generalist few-step adaptation does not price pretraining or qualification. No cross-provider compute-cost or margin ranking is supported."
+        "Dyna human-video scale includes hand-pose extraction and data filtering; Generalist few-step adaptation does not price pretraining or qualification. No cross-provider compute-cost or margin ranking is supported.",
+        "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -1520,9 +1553,12 @@
         "research/regional_frontier_models.md",
         "reviews/regional_frontier_review.md",
         "research/generalist_dyna_deployment.md",
-        "reviews/generalist_dyna_review.md"
+        "reviews/generalist_dyna_review.md",
+        "research/support_expansion.md",
+        "model/SUPPORT_EXPANSION.md",
+        "model/results/support_expansion.json"
       ],
-      "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
+      "next_action": "Challenge a target deployment with actual accepted-service, component/support allocation, configuration/rights and dated all-actor cash records. Do not infer qualified capacity from orders, announcements or a partial reserve; full lifecycle economics and optimization remain open."
     },
     {
       "question_id": "RQ-FM-07",

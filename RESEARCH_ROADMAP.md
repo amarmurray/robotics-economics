@@ -256,3 +256,8 @@ FG-AUDIT-01 links operating continuation, negotiated value, qualified generation
 ## Renewals and entry-window checkpoint, edition 0.24
 
 The [renewal challenge](research/competitive_renewals.md) advances bounded DE-CF05 through seventeen complete worlds, exact switching and funding boundaries, fixed-price retention, service-breach exit and cash-crossing reversals. Source prices remain outside the synthetic model. Next advance DE-CF10 through finite installed support versus new commitments on the existing shared loop, preserving current service, unfunded/rejected expansion, unit IDs and dated cash. A target renewal valuation still needs actual rights, staffing, delivery and collection records. No new source search is justified merely to increase counts. The same active campaign clock remains.
+
+
+## Supported expansion checkpoint, edition 0.25
+
+The [support/expansion analysis](research/support_expansion.md) advances bounded DE-CF10 through sixteen exact worlds. Fourteen named families now have executable bounded coverage. Stop adding mechanism variants merely to increase the count. Next challenge the three recommendations with matched complete service, retained work and all-actor operating evidence, preserving substantial H and I/J/K qualification/support rights. A new source must change a gate; otherwise retain the explicit unknown. Optimization, asset recovery and real full-cost calibration remain incomplete. The same active clock continues.

@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.24, funded customer-renewal checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Seventeen complete worlds connect current funded capacity, firm contract prices, prior service, incumbent response and dated collections. First cash break-even can reverse; retention cannot ensure service. Thirteen challenge families now have bounded implementations; DE-CF10 broader expanding-fleet scheduling and empirical whole-service economics remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.25, installed-support and finite-expansion checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Sixteen complete worlds connect actual resources, announced capacity, known cohorts, finite growth requests, qualified components and payer cash. A recurring-support reserve can protect installed units without funding commissioning; excessive caution can delay useful service. Fourteen challenge families now have bounded executable coverage across 144 worlds. Empirical full-service economics and broad optimized investment remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -133,7 +133,7 @@ The [executable learning follow-up](research/learning_execution.md) adds unique 
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
 
-Decision campaign, initial checkpoint · 7 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. This is the first decision layer to challenge during that window, not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.25 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -219,7 +219,7 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/08/09/11/12/13/14 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Eighteen [automotive workcell worlds](model/results/automotive_workcell.json) add DE-CF04 through physical buffering, changeover, paid preparation and distinct supported configurations. The sixteen qualification worlds added in edition 0.22 bring bounded coverage to twelve families and 111 rows; they do not establish actual qualified supply, empirical learning curves or whole-system economics. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
+All fourteen named challenge families now have **bounded implementations across 144 complete worlds**. The shared finance, calendar, intelligence-role, exact conventional coordination and share-transition cases preserve their own service and actor boundaries. Eighteen [inspection worlds](model/results/utility_inspection.json) and eighteen [workcell worlds](model/results/automotive_workcell.json) add service-specific alternatives. Sixteen [learning worlds](model/results/learning_execution.json) preserve eligible data, paid physical qualification, retained cohorts and compatible module supply. Seventeen [renewal worlds](model/results/competitive_renewals.json) derive customer assignments from current funded capacity, firm prices, expiry and prior service. Sixteen [support/expansion worlds](model/results/support_expansion.json) distinguish announced capacity, actual resources, finite growth requests and payer cash. These are separate conditional executions, not additive deployment activity, empirical learning curves, a competitive equilibrium or full investment optimization. Complete inputs, source hashes, replay and relevant invariants identify their bounded scope; measured whole-service economics remain incomplete.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
@@ -227,12 +227,12 @@ The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/
 | DE-CF02 urgent-human-fallback — bounded implementation | The exact mixed queue retains paid courier coverage; removing its reserve preserves four completions but misses mandatory service. Delay, urgent fast path, outages and full-attempt cash are explicit; real service evidence remains open |
 | DE-CF03 residual-inspection-visit | Bounded executable: complete accepted-point coverage, review capacity, physical duties and actual paid commitments jointly determine whether a funded visit disappears |
 | DE-CF04 fixed-cell-substitute | Bounded executable: fixed vision/buffering, competent humans, paid presentation and qualified generations meet or miss the same unique-kit deadlines; exact changeover and funding switches remain synthetic |
-| DE-CF05 prompt-equal-tech-incumbent | Incumbent deploys accessible technology and competes before entrant ramp pays back |
+| DE-CF05 prompt-equal-tech-incumbent — bounded implementation | Current funded capacity, firm bids, switching/onboarding and prior service determine renewal; prompt response or delayed receipts can erase a synthetic entry cash window, and first crossing can reverse |
 | DE-CF06 acquire-without-new-demand — bounded implementation | Funded share transfer changes ultimate owner while the target legal account, customers, physical units, leases, receivables and liabilities remain; price is not working capital |
 | DE-CF07 hybrid-transition — bounded implementation | Separately funded growth uses only existing unmet/new demand; conditional closing, retained diligence, interruption and subsidiary liquidity are explicit; no automatic synergy or asset-purchase result |
 | DE-CF08 architecture-and-fees — bounded implementation | Four funded role mappings, itemized resources, fee/internal-transfer controls, false rights gate and equal-capital allocation; real costs/rights and broader competition remain open |
 | DE-CF09 qualified-supply-delay — bounded runtime-module implementation | Funded compatible configuration inputs arrive after qualification/service needs; full robot manufacturing/ramp remains open |
-| DE-CF10 support-before-expansion — partial mechanism | Initial engineering can leave installed support unmet and cancel a one-shot start; stronger adaptive scheduling and broader support dynamics remain open |
+| DE-CF10 support-before-expansion — bounded implementation | Finite requests, actual support/components, announced allocations, known cohorts and payer cash admit or defer expansion. Reserves can preserve installed service but fail to fund commissioning; optimal fleet strategy and real support reliability remain open |
 | DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
 | DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
 | DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A separate exact courier-window comparator is now available; target competitive advantage and a common real service boundary remain open |
@@ -240,7 +240,7 @@ The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
-The service-specific automotive comparison is now implemented within its stated synthetic boundary. The next substantive work is target qualified supply/support and endogenous learning with real eligibility, validation and retained-cohort obligations. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
+The service-specific automotive comparison is now implemented within its stated synthetic boundary. The next substantive work is target evidence for qualified supply/support, complete accepted service and retained work, with real eligibility, validation and retained-cohort obligations. The [share-transition extension](research/entry_transitions.md) now preserves operating identities and obligations through funded ownership change; it does not establish real valuations, legal transfer rights, asset redeployment or lifecycle returns. Apply the new ownership/cash tests within each real service boundary and retain missing support, qualified-supply, learning and all-actor cost evidence.
 
 
 #### Utility service challenge, edition 0.19
@@ -269,6 +269,11 @@ The [source audit](research/commercial_disclosure_boundaries.md) strengthens the
 #### Funded renewals and incumbent response, edition 0.24
 
 [Seventeen complete renewal worlds](research/competitive_renewals.md) add bounded DE-CF05, bringing coverage to thirteen families and 128 worlds. Actual supported capacity, firm prices, paid onboarding, expiry and prior service determine assignments; demand remains conserved. Bid-response timing holds the physical plan fixed, while delayed procurement and the human-led alternative remain separate comparators. First operating cash crossing may reverse. Locks preserve price and assignment but cannot guarantee funded delivery. All three packs inherit questions, not cleaning coefficients. DE-CF10 expanding-fleet support/investment and empirical whole-service economics remain partial. The same campaign continues.
+
+
+#### Installed support and expansion commitments, edition 0.25
+
+[Sixteen support/expansion worlds](research/support_expansion.md) add bounded DE-CF10 and complete implementation coverage of the fourteen named challenge families through 144 worlds. The shared engine preserves fixed demand, finite requests, actual installed service, rejected manufacture, components, paid staffing and one Treasury. Announced versus actual allocations and actor-specific cash can reverse a policy ranking; a support reserve is not full commissioning finance. Fresh validation satisfies the bounded counterfactual-execution requirement, while optimized fleet investment, real support contracts, rights, asset recovery and empirical full-cost acceptance remain incomplete. All three recommendations remain provisional. The original campaign clock continues.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1567,6 +1572,81 @@ The [seventeen complete worlds](model/results/competitive_renewals.json) include
 | breach locks service | 100.00 | Not observed | Not observed | -37,600.00 |
 
 Generated from [competitive_renewals.json](model/results/competitive_renewals.json). Months start at zero. Funding-adjusted bank change excludes equity and net loan principal, then reserves recorded unpaid operating bills. This is not residual asset value, distributable cash or lifetime ROI. Current funded capacity cannot guarantee all future locked service.
+
+### Focused follow-up: Installed support and finite expansion commitments
+
+Authoritative analysis: [research/support_expansion.md](research/support_expansion.md).
+
+Edition 0.25, continuation from accepted edition 0.24 at `01e1ceab09ef5b083a94e1ab618a6b013dba371b`. The [support/expansion policy](model/SUPPORT_EXPANSION.md) adds sixteen synthetic worlds to the existing monthly physical and Treasury execution. It tests **DE-CF10** without changing old engine coefficients or importing a source announcement as calibrated capacity.
+
+A funded manufacturing order can consume cash needed to support installed robots before the new unit is useful. Conversely, refusing to order until all future resources exist today can unnecessarily delay service. The correct comparison preserves the announced plan, what actually arrives, all actor cash and every failed unit or service period. No one policy is declared universally superior.
+
+#### Current capacity and announced capacity imply different commitments
+
+The fixed market requires 8,000 cleaning zones across eight months. Two opening robots and retained paid human capacity initially deliver less than the monthly requirement. One additional robot is requested; repeated candidate dates are opportunities to meet that finite request, not additional demand. The reference support budget grows from 25 to 60 hours in month four. Dates are zero based.
+
+| Synthetic policy/resource world | Start month | New commissioning month | Accepted zones, eight months | Opening-cohort supported robot-months |
+|---|---:|---|---:|---:|
+| Funded only, actual increase occurs | 0 | 4 | 7,401.90 | 16 |
+| Announced capacity plus cash reserve, increase occurs | 2 | 4 | 7,401.90 | 16 |
+| Current capacity plus cash reserve, increase occurs | 4 | 6 | 7,125.43 | 16 |
+| Announced increase fails to arrive | 2 | Not commissioned | 6,894.10 | 16 |
+| Ample support from the beginning | 0 | 2 | 7,678.38 | 16 |
+
+The announced policy orders early enough for the available support window, using the stated manufacturing and commissioning leads. Funded-only ordering creates earlier WIP/transit but the same accepted service and included resource cash in this particular comparison. No unpriced carrying-cost advantage is invented. Current-capacity caution loses **276.48** accepted zones relative to the announced policy. A longer manufacturing lead moves the necessary order earlier while retaining the same month-four commissioning outcome.
+
+When the promised allocation fails, the funded unit remains in transit awaiting commissioning. The pre-change decisions and all earlier physical/cash states match the successful-announcement world. The model does not consult the future failure when approving the earlier order. Even the ample-support case does not satisfy the complete 8,000-zone service target because the opening capacity and initial ramp remain. Supported robot-months and complete customer service are different measures.
+
+#### A cash reserve protects existing service but does not finance every next step
+
+With $40,000 opening provider cash, three-month service-fee collections and ample physical support hours, funded-only admission starts the new unit immediately. It loses two opening-cohort support months and delivers **6,149.33** zones; the new unit remains uncommissioned at the end. The two-month recurring-support reserve blocks the expansion and preserves all sixteen opening support months, delivering **6,894.10** zones. The protected **744.76** zones are actual future service, not backfilled misses. Both retain the fixed human staffing commitments and the same customer workload.
+
+The exact initial admission boundary is **$42,730.32** provider cash. One cent less rejects the first order and shifts admission to month five. Yet crossing the threshold does not guarantee the expected month-two commissioning: the exact-boundary unit cannot pay commissioning until month five. Its two-month reserve covers a named recurring-support budget, not every future bill. The one-cent-below unit commissions in month seven. Their accepted service differs, but this is not proof that the reserve is optimal or sufficient for a real company.
+
+A separate funded $5,000 provider loan restores one new commissioning in month three, preserves opening support and delivers **7,540.14** zones. It is fully repaid in month seven, leaving only **$32.91** provider cash at close and substantial uncollected service fees. Loan principal is not sales or extra consolidated resources. The model demonstrates dated funding and repayment, not a financing offer, safety margin or investor return.
+
+#### Cash and planned hours cannot replace qualified resources or a paying operator
+
+A deliberately rejected first manufactured unit retains its full $36,000 manufacture cost and components. A later individually identified replacement restores the reference service; two funded starts produce one commissioned new robot. The growth request is still one. Acceptance is observed when the existing physical loop reaches its ready date; the earlier admission policy does not exploit the supplied future acceptance flag.
+
+With only seven opening qualified components, maintenance and starts compete for the same finite stock. The case delivers **2,797.90** zones and only five opening-cohort supported robot-months. Neither a monetary reserve nor an announced engineering allocation manufactures a component. A later actual support reduction similarly lowers service even after successful commissioning. Frozen-cohort replay tests preserve each known configuration's support/software cost instead of repricing all installed units as the current release.
+
+When the operator has no cash, an ample provider balance does not pay the operator's committed staff and site obligations. Delivered service is zero; the two legal accounts do not pool cash automatically. With zero growth requested, monthly candidate dates fund no starts and create no inventory. These cases reject two misleading shortcuts: treating aggregate capital as freely transferable, and treating a planned pipeline as qualified supported capacity.
+
+#### Decision consequences across the research program
+
+A robotics provider should qualify the entire path from funded start to sustained customer service. A manufacturer margin, backlog, financing announcement or a purchased module is insufficient. The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) supplies real-world questions about generation, support and actor cash; its prices and aggregate financials do not calibrate these synthetic reserve results. The [renewal work](research/competitive_renewals.md) separately tests customer retention and operating collections. Neither combines into an unobserved product ROI.
+
+For the hospital pack, a new fleet cannot take support from urgent installed workflows without explicit fallback and accepted clinical service. For utility inspection, support priority must preserve required coverage, reviewer capacity and residual visits. For automotive, expansion requires components, qualified configuration, changeover/integration and continuous supported takt. Transfer these commitment and continuity questions, not the cleaning zones, per-unit hours, prices or thresholds. All three empirical recommendations remain provisional.
+
+Substantial H remains connected through cohort-specific software obligations, human capacity, conventional planning and explicit forecasts. The simple policies use current state and an announced calendar; no LLM advantage, model-score transfer or data premium is assumed. The prior [learning/qualification worlds](research/learning_execution.md) preserve finite engineering and failed candidate work. This extension adds the distinct manufacture/installed-support/funding sequence, with shared identities and one Treasury.
+
+Proceed to target measurement when contractual service, actor cash, component supply, qualification, support and contingency resources can be reconciled on one dated plan. Wait where a support increase or collection is merely announced. Reject a claim of fully financed deployment when it substitutes a recurring-support reserve for commissioning, debt and remaining obligations. These are research gates, not authorization for purchases or commercial commitments.
+
+The bounded counterfactual catalog now spans fourteen named challenge families and 144 worlds. The result does not close empirical full-cost requirements, real rights, asset recovery, optimal fleet investment or cross-market transfer. The same active campaign continues toward **2026-11-14T20:12:27Z**. Next challenge the provisional recommendations against measured accepted service and complete retained work; add sources only when they can change a decision gate, and retain explicit unknowns where they cannot.
+
+#### Reproduced installed-support and expansion worlds
+
+| Synthetic support/expansion world | Accepted zones | Funded starts | New commissioned | Opening-cohort supported robot-months | Provider closing cash, USD |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| announced capacity reserve | 7,401.90 | 1 | 1 | 16 | 168,374.20 |
+| funded only | 7,401.90 | 1 | 1 | 16 | 168,374.20 |
+| current capacity reserve | 7,125.43 | 1 | 1 | 16 | 167,056.78 |
+| announced increase fails | 6,894.10 | 1 | 0 | 16 | 171,439.36 |
+| ample support | 7,678.38 | 1 | 1 | 16 | 169,691.62 |
+| thin provider funded only | 6,149.33 | 1 | 0 | 14 | 4,121.94 |
+| thin provider reserve | 6,894.10 | 0 | 0 | 16 | 41,539.36 |
+| separate provider loan | 7,540.14 | 1 | 1 | 16 | 32.91 |
+| operator cannot pay | 0.00 | 0 | 0 | 0 | 200,000.00 |
+| rejected start replacement | 7,401.90 | 2 | 1 | 16 | 132,374.20 |
+| qualified component scarcity | 2,797.90 | 1 | 0 | 5 | 167,193.55 |
+| longer manufacturing lead | 7,401.90 | 1 | 1 | 16 | 168,374.20 |
+| zero requested growth | 6,894.10 | 0 | 0 | 16 | 207,539.36 |
+| exact initial reserve | 7,263.67 | 1 | 1 | 16 | 1,445.81 |
+| one cent below reserve | 6,987.19 | 1 | 1 | 16 | 3,128.38 |
+| support allocation shrinks | 5,635.90 | 1 | 1 | 12 | 167,421.94 |
+
+Generated from [support_expansion.json](model/results/support_expansion.json). Eight explicit months require 8,000 cleaning zones. Opening robots predate the cash window. Provider fees transfer within the operating boundary; loans, outstanding claims and terminal assets remain separate. Passing the recurring-support reserve does not fund every commissioning or future obligation.
 
 ## 5. Digital-AI ecosystem, benchmarks and direct contributions
 

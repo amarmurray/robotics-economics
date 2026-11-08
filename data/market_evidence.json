@@ -3797,6 +3797,12 @@
         "artifact": "model/results/competitive_renewals.json",
         "role": "Synthetic cleaning mechanism; transfer contract, breach, supported-capacity and dated cash questions only, never prices, demand, timing or results.",
         "requirement": "An award or retention clause cannot substitute for this pack’s accepted service. Test current funded capacity, qualification, fallback and collections under a feasible incumbent offer; preserve failed service and continuing obligations."
+      },
+      "supported_expansion_gate": {
+        "analysis": "research/support_expansion.md",
+        "artifact": "model/results/support_expansion.json",
+        "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
+        "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
       }
     },
     {
@@ -3931,6 +3937,12 @@
         "artifact": "model/results/competitive_renewals.json",
         "role": "Synthetic cleaning mechanism; transfer contract, breach, supported-capacity and dated cash questions only, never prices, demand, timing or results.",
         "requirement": "An award or retention clause cannot substitute for this pack’s accepted service. Test current funded capacity, qualification, fallback and collections under a feasible incumbent offer; preserve failed service and continuing obligations."
+      },
+      "supported_expansion_gate": {
+        "analysis": "research/support_expansion.md",
+        "artifact": "model/results/support_expansion.json",
+        "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
+        "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
       }
     },
     {
@@ -4057,6 +4069,12 @@
         "artifact": "model/results/competitive_renewals.json",
         "role": "Synthetic cleaning mechanism; transfer contract, breach, supported-capacity and dated cash questions only, never prices, demand, timing or results.",
         "requirement": "An award or retention clause cannot substitute for this pack’s accepted service. Test current funded capacity, qualification, fallback and collections under a feasible incumbent offer; preserve failed service and continuing obligations."
+      },
+      "supported_expansion_gate": {
+        "analysis": "research/support_expansion.md",
+        "artifact": "model/results/support_expansion.json",
+        "role": "Synthetic cleaning commitment mechanism; no transferred site rates, prices or support reliability.",
+        "requirement": "Reconcile installed service, new qualified units, finite support/integration, components and each payer’s dated obligations. Announced capacity and a recurring-support reserve do not guarantee commissioning or complete accepted service."
       }
     }
   ],

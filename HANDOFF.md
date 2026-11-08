@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.24.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.25.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: customer renewals, accepted service and cash windows, edition 0.24
+## Current checkpoint: installed support and expansion commitments, edition 0.25
+
+The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This continuation uses the same executable cloud workspace and published configuration from clean, remote-verified input `01e1ceab09ef5b083a94e1ab618a6b013dba371b`. No task, goal, writer, schedule or campaign clock was replaced. Native goal/quota controls remain unexposed; no reset or uninterrupted execution is claimed.
+
+The [support/expansion extension](research/support_expansion.md) reuses the calendar/finance/enterprise/physical/Treasury chain. Sixteen full worlds distinguish current/announced/actual support, known cohorts, finite growth requests, rejected manufacture, qualified components and the provider’s own cash. Fourteen challenge families / 144 worlds now satisfy bounded DE-08; all empirical and broader integration requirements remain honest.
+
+With $40,000 provider opening cash and delayed fees, a recurring-support reserve preserves sixteen opening-cohort supported robot-months and 6,894.10 accepted zones; funded-only expansion preserves fourteen and 6,149.33. Current-capacity caution delivers 276.48 fewer zones than a credible announced allocation. A failed announcement leaves a funded unit in transit. The exact $42,730.32 cash threshold admits an order but cannot fund commissioning until month five rather than the projected month two. Rejected manufacture keeps its $36,000 sunk cost before replacement; additional funded credit is repaid, not booked as revenue. These are conditional synthetic mechanisms, not observed costs or investment returns.
+
+Fresh validation passes **391 Python tests** in 218.666 seconds, including seventeen focused expansion tests, ten seeded stress worlds and HTTP replay/invalid-input checks; **36 Node assertions**, twelve JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with prior scenario/evidence controls, invalid/stale preservation and complete replay. The new panel reproduces all sixteen worlds exactly, executes the one-cent cash boundary, distinguishes announced and actual calendars, rejects stale replies, exposes four equation/input/provenance records and ignores tampered outcomes. Complete browser/CLI expansion replay matches exactly. Full imported cases remain read-only in shortcut controls; scope changes preserve the cleaning work ID. The panel was visually inspected. A separate fresh-browser probe verifies four gate types in all three decision packs across all thirteen views.
+
+All **907,958 prior typed numeric fields across 30 result JSONs** remain unchanged. Nineteen artifacts are byte-identical; eleven change only evidence snapshot hashes. Eight core modules/assumptions and the accepted renewal module remain byte-identical. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Evidence remains 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **302 manifest hashes and 648 relative Markdown links** verify with no broken paths.
+
+**Next execution:** prioritize evidence or an integrated decision challenge that can change the hospital, utility or automotive recommendation. Do not add synthetic variants or source records simply to increase counts. Seek matched accepted service, retained work, qualified configuration/support, actual rights and dated all-actor obligations. Preserve substantial H and the whole A–K scope. A read-only Qilu source-access check found no new openly accessible primary methods; its existing FTE/ROI-method gap remains, with no purchase or outreach.
+
+**Next question:** which specific retained-service obligation or commercial support term would reverse one of the three provisional deployment recommendations, and can primary evidence establish it without importing incomparable source denominators?
+
+## Previous checkpoint: customer renewals, accepted service and cash windows, edition 0.24
 
 The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Current environment status is connected/running, failure null, and real shell commands executed in `/workspace/robotics-economics` from main-matching input `133903316c3710fbfb288934baa05722a4f8cc03`. The same published configuration and working changes were preserved. No task, goal, schedule, writer or clock was replaced; no uninterrupted execution is claimed.
 

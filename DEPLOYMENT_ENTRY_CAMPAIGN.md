@@ -26,7 +26,7 @@ Before accepted publication, run the relevant full Python/Node checks, bridge pa
 
 Use the week for evidence, integration and challenge. Save resumable state at checkpoints. Do not pad work, busy-poll, sleep until the deadline, or imply uninterrupted execution. At 168 hours deliver the strongest verified edition with passed/partial/blocked criteria and explicit remaining work. An early checkpoint does not stop the objective.
 
-## Current bounded implementation
+## Earlier bounded implementation, edition 0.16
 
 Edition 0.16 adds [funded intelligence roles](research/monthly_intelligence_execution.md) to the shared calendar/physical/Treasury loop. Ten complete worlds implement bounded DE-CF08 and additional engineering/support-before-expansion mechanisms. Together with the earlier finance/calendar cases, DE-CF01/08/11/12/13 have bounded implementations. The strongest conventional comparator, acquisition/hybrid, full learning/supply, asset recovery and broader empirical acceptance remain open. The [sole-writer review](reviews/monthly_architectures_review.md) records fresh checks and preserved earlier results. This checkpoint does not alter the clock or complete the objective.
 
@@ -71,3 +71,8 @@ Five primary records and a [source audit](research/commercial_disclosure_boundar
 ## Competitive renewal checkpoint, edition 0.24
 
 Seventeen [renewal worlds](research/competitive_renewals.md) advance bounded DE-CF05 through funded capacity, firm prices, paid onboarding, prior-service breach and dated cash. Thirteen families and 128 worlds now have bounded coverage. DE-CF10 expanding-fleet scheduling, optimized investment/exit and empirical whole-service economics remain incomplete. An early crossing is not durable recovery; customer retention is not delivered service. The same original T0/deadline and in-progress objective continue.
+
+
+## Installed support and finite expansion checkpoint, edition 0.25
+
+Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE-CF10. Fourteen named challenge families and 144 worlds now satisfy the bounded executable-counterfactual contract with fresh validation. Announced capacity, realized support, commissioning and each actor’s cash remain separate. Full optimized expansion, actual operating costs, rights and empirical decision acceptance remain open. This checkpoint does not stop the campaign or reset its original T0/deadline.

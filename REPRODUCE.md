@@ -26,6 +26,7 @@ python3 scripts/export_utility_inspection.py --check
 python3 scripts/export_automotive_workcell.py --check
 python3 scripts/export_learning_execution.py --check
 python3 scripts/export_competitive_renewals.py --check
+python3 scripts/export_support_expansion.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -255,3 +256,8 @@ Customer adoption, Business models and Digital AI show FG-AUDIT-01 from the exis
 ## Competitive renewals and cash windows
 
 Customer adoption begins with seventeen synthetic recurring-service worlds. Edit bid response, term, switching work, cash, support, qualification and collection timing, then apply. Pending, invalid and stale requests preserve the last valid case. Full imports recompute complete opening inputs and remain read-only in shortcut controls until a standard witness is selected. Export/reload preserves exact rational service and cents, source hashes, locked contracts and one Treasury. Run `python3 scripts/export_competitive_renewals.py --case downloaded.json --output replay.json` for CLI replay, or `--check` to recompute all saved worlds. The local API is `/api/competitive-renewals`; full uploads are bounded to 8 MB. [Methods](model/COMPETITIVE_RENEWALS.md) distinguish actual supported capacity, customer assignment, delivered service and first/maintained cash break-even. No real contract terms or ROI are calibrated.
+
+
+## Installed support and finite expansion
+
+Customer adoption begins with sixteen declared support/expansion policies and adverse worlds. Actual and announced eight-month support calendars, cash, fee timing, finite requests, manufacturing lead and reserve controls recompute through `/api/support-expansion`. Edits are pending until applied; failed and stale requests preserve the last valid export. Complete imported cases recompute all opening inputs and disable shortcut edits until a standard witness is selected. Run `python3 scripts/export_support_expansion.py --check`, or replay with `--case downloaded.json --output replay.json`. Files are bounded to 2 MB. [Methods](model/SUPPORT_EXPANSION.md) explain cohort-specific recurring costs, finite requests, failed manufacture, actual resources and the obligations excluded from the reserve. These are synthetic mechanisms, not measured support reliability or ROI.

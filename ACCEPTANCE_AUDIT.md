@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funded renewals and entry cash, edition 0.24
+## New decision campaign: installed support and finite expansion, edition 0.25
+
+Sixteen [support/expansion worlds](research/support_expansion.md) add bounded DE-CF10 through actual resources, announced capacity, known cohorts, finite requests and the payer’s cash. Current-capacity caution can delay useful service; failed announcements can strand a funded robot. A recurring-support reserve can preserve installed units while still failing to fund commissioning. Fourteen families / 144 worlds now satisfy **DE-08 within its bounded executable-counterfactual scope**. All other decision requirements remain partial or in progress; optimized fleet strategy, actual rights, asset recovery and empirical full-service economics remain incomplete.
+
+Fresh validation passes **391 Python tests** in 218.666 seconds, including seventeen focused expansion tests, ten seeded stress worlds and HTTP replay/invalid-input checks; **36 Node assertions**, twelve JavaScript syntax checks and every prescribed reproduction command pass. All thirteen browser views pass with prior scenario/evidence controls, invalid/stale preservation and complete replay. The new panel reproduces all sixteen worlds exactly, executes the one-cent cash boundary, distinguishes announced and actual calendars, rejects stale replies, exposes four equation/input/provenance records and ignores tampered outcomes. Complete browser/CLI expansion replay matches exactly. Full imported cases remain read-only in shortcut controls; scope changes preserve the cleaning work ID. The panel was visually inspected. A separate fresh-browser probe verifies four gate types in all three decision packs across all thirteen views.
+
+All **907,958 prior typed numeric fields across 30 result JSONs** remain unchanged. Nineteen artifacts are byte-identical; eleven change only evidence snapshot hashes. Eight core modules/assumptions and the accepted renewal module remain byte-identical. All 69 legacy requirement and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Evidence remains 13 packages, 201 claims, 408 quantities and 110 explicit-null markers. **302 manifest hashes and 648 relative Markdown links** verify with no broken paths.
+
+The same active campaign ends **2026-11-14T20:12:27Z**. This early checkpoint neither stops the goal nor completes the full research contract. See [the sole-writer review](reviews/support_expansion_review.md).
+
+## Previous decision checkpoint: funded renewals and entry cash, edition 0.24
 
 Seventeen [customer-renewal worlds](research/competitive_renewals.md) add bounded DE-CF05 through current funded capacity, locked prices, paid switching/onboarding, prior-service breach and dated collections. Price response can remove a synthetic entry window; a customer lock cannot guarantee delivery. First cash crossing may reverse. Thirteen families / 128 worlds now have bounded coverage; DE-CF10 broader expanding-fleet scheduling and empirical whole-service economics remain partial.
 

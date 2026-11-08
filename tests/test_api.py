@@ -39,6 +39,19 @@ class LocalAPI(unittest.TestCase):
         self.assertNotEqual(default["scenario_hash"],changed["scenario_hash"])
         self.assertEqual(run({"preset":changed["preset"],"overrides":changed["parameters"]}),changed)
 
+    def test_support_expansion_http_replay_and_validation(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/support-expansion',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        with urllib.request.urlopen(self.base+'/api/support-expansion') as f:catalog=json.load(f)
+        self.assertEqual(len(catalog['case_inputs']),16)
+        r=post({'inputs':{'requested_growth':0}})['result']
+        self.assertEqual(r['support_expansion']['summary']['funded_starts'],0)
+        self.assertEqual(post({'saved_case':r})['result'],r)
+        for body in ({'inputs':None},{'inputs':[]},{'inputs':{'requested_growth':True}},{'inputs':{},'saved_case':{}},{'saved_case':{}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_competitive_renewal_http_replay_and_validation(self):
         def post(body):
             req=urllib.request.Request(self.base+'/api/competitive-renewals',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
