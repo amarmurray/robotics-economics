@@ -3843,6 +3843,11 @@
         "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
         "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
         "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
+      },
+      "annual_resource_gate": {
+        "analysis": "research/annual_commitments.md",
+        "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
+        "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
       }
     },
     {
@@ -3995,6 +4000,11 @@
         "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
         "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
         "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
+      },
+      "annual_resource_gate": {
+        "analysis": "research/annual_commitments.md",
+        "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
+        "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
       }
     },
     {
@@ -4139,6 +4149,11 @@
         "analysis": "research/asset_recovery.md#supplier-contract-challenge-edition-029",
         "source_scope": "Manufacturing AMR supplier documents; structural questions only for other cells. No target contract applicability established.",
         "requirement": "Verify transaction-specific contracts, continuing support and a reconciled financing denominator. A company acquisition and physical asset purchase require separate checks; neither grants accepted service automatically."
+      },
+      "annual_resource_gate": {
+        "analysis": "research/annual_commitments.md",
+        "model_scope": "Synthetic matched cleaning service only; other packs inherit the allocation question, not hours, prices or annual component conversions.",
+        "requirement": "Reconcile dated usable support, qualification and integration capacity after competing commitments, complete service/fallback and each payer obligation. Future capacity cannot backfill missed service; a strong human or conventional baseline may preserve total output."
       }
     }
   ],
@@ -4152,6 +4167,7 @@
     "hospital_contract_gate": "FG-AUDIT-02 adds current-order, installation, support-access, remedy/fallback and replacement tests; procurement observations do not close whole-service economics.",
     "conventional_baseline_gate": "Empirical conventional dispatch changes the comparator. Timing associations are not paid labor removal; complete service, affected groups and residual work remain required.",
     "asset_recovery_gate": "An eligible owner sale now executes in the shared physical and Treasury loop. Paid title can remain stranded; lender cash recovery need not restore service. Real priorities, rights, valuation and full-cost evidence remain open.",
-    "contract_continuity_gate": "Public supplier and support documents challenge assumptions about usable assets and acquired companies. Verify target applicability and payment/service denominators before relying on a transaction label."
+    "contract_continuity_gate": "Public supplier and support documents challenge assumptions about usable assets and acquired companies. Verify target applicability and payment/service denominators before relying on a transaction label.",
+    "annual_resource_gate": "Dated prior use and outside reservations now constrain actual support/commissioning within the same competitive monthly loop. Strong human capacity can preserve service despite lost robot-months. Other-market activity and annual component vectors remain unexecuted."
   }
 }

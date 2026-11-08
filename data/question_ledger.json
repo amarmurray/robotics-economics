@@ -675,7 +675,8 @@
         "Edition 0.25: sixteen support/expansion worlds preserve finite growth requests, current installed service, cohort-specific support/software costs, qualified components and actual payer cash. Announced capacity can admit useful early orders but may fail; conservative current-capacity admission can delay service. An exact recurring-support reserve does not guarantee commissioning finance. No optimal policy or observed reliability/ROI is inferred.",
         "Edition 0.26: a US T-2.5 schedule separates site/hardware and support lines; attached remedy conditions do not guarantee maximum restoration or funded fallback. A UK hospital maintenance award records the buyer’s closed-system support dependence. Current site applicability, all retained work, rights and complete cash remain unknown; no model coefficients change.",
         "Edition 0.28: fourteen funded owner-sale worlds preserve one asset identity, old obligations, dated actual cash and shared shipping/qualification/support. Credit recovery can occur without recovered service; low price can restore service without clearing debt. An independently owned lease unit cannot be sold by its lessee, and a stronger funded human buyer gains no additional accepted output. Real transfer rights, priority, valuation and optimized recovery remain unresolved.",
-        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified."
+        "Edition 0.29: FG-AUDIT-03 challenges assumed operating continuity after asset or company purchase. Supplier documents, support entitlement and financing illustrations have separate scopes. Reproduced payment/hour arithmetic retains an unexplained source conflict; no actual permission, cost per accepted service or return is identified.",
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -722,9 +723,11 @@
         "research/asset_recovery.md",
         "model/ASSET_RECOVERY.md",
         "model/results/asset_recovery.json",
-        "model/results/observed_research_summary.json"
+        "model/results/observed_research_summary.json",
+        "research/annual_commitments.md",
+        "model/ANNUAL_COMMITMENTS.md"
       ],
-      "next_action": "Resolve executed target scope, transaction-triggered continuity, buyer/serial support, retained obligations and matched payment/service denominators. Continue physical/annual/resource integration without treating public terms as target consent or financing marketing as economics."
+      "next_action": "Test whether the entrant can secure usable dated support/integration and fund its complete customer obligations through a realistic incumbent human or conventional response; distinguish customer share from incremental service and financing from operating recovery."
     },
     {
       "question_id": "RQ-OS-07",
@@ -1124,7 +1127,8 @@
         "R&D mechanisms and physical-infrastructure feedback are bounded; no full-project critical-path reduction or capacity gain is inferred.",
         "Faster collection or cheaper cloud simulation does not identify a shorter fixed-objective R&D critical path; robot grounding/recovery still constrain validation.",
         "Edition 0.21: DreamGen and pinned integration/readiness sources connect digital R&D stages to physical qualification and supported supply. Source inconsistencies, manual work and compute allocation remain explicit; no model/robot was run.",
-        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve."
+        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1134,9 +1138,11 @@
         "data/learning_data_economics.json",
         "research/learning_execution.md",
         "model/LEARNING_EXECUTION.md",
-        "model/results/learning_execution.json"
+        "model/results/learning_execution.json",
+        "research/annual_commitments.md",
+        "model/ANNUAL_COMMITMENTS.md"
       ],
-      "next_action": "Seek a sustained configured deployment with actual target/retained-cohort outcomes, complete R&D/support resources, rights, delivery commitments and costs; do not treat the synthetic gates as empirical acceptance."
+      "next_action": "Trace a proposed capability generation through its funded physical qualification, shared support/integration allocation and retained-cohort service. Require target R&D and deployment evidence before translating digital progress into shorter ramp or whole-system savings."
     },
     {
       "question_id": "RQ-LLM-10",
@@ -1192,7 +1198,8 @@
         "Figure reports old-generation retirement and a technical-support tradeoff. Cohort-specific support/upgrade obligations and recovery remain unknown; no retirement parameter is fitted.",
         "Edition 0.20: Replacement stock, rights and commissioning remain explicit assumptions rather than a manufacturing ramp; unsupported installed units remain owned.",
         "Edition 0.21: GR00T-Ready separates self-assessment from capacity, replacement-parts and support criteria. A toolkit or order does not establish actual supported units; commitments remain missing.",
-        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve."
+        "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1206,9 +1213,11 @@
         "data/learning_data_economics.json",
         "research/learning_execution.md",
         "model/LEARNING_EXECUTION.md",
-        "model/results/learning_execution.json"
+        "model/results/learning_execution.json",
+        "research/annual_commitments.md",
+        "model/ANNUAL_COMMITMENTS.md"
       ],
-      "next_action": "Seek a sustained configured deployment with actual target/retained-cohort outcomes, complete R&D/support resources, rights, delivery commitments and costs; do not treat the synthetic gates as empirical acceptance."
+      "next_action": "Join a system-compatible component/BOM or dated repair contract to the funded monthly loop, preserving installed service, actual qualified receipts and each payer obligation. Do not infer full portfolio feasibility from outside reservations."
     },
     {
       "question_id": "RQ-SC-03",
@@ -1315,13 +1324,16 @@
       "evidence_method": "Supplier/contract/capacity graph across robots, drones, digital AI and other uses; dated trade/procurement conditions where material; no generic shared-pool assumption.",
       "dependencies_and_completion": "W1 structural map with SC-01/02, LLM-06 and BM-04; deeper upon qualified allocation, access and commercial evidence.",
       "findings": [
-        "Shared component constraints are conditional on compatibility and access; geographic/player coverage remains incomplete."
+        "Shared component constraints are conditional on compatibility and access; geographic/player coverage remains incomplete.",
+        "Edition 0.30 places annual support/integration commitments inside dated competitive execution. Qualification shares support; failed contingent cash commits no capacity. Robot service, customer assignment and total service can diverge under a strong paid human alternative. Outside workloads, system-specific annual components and real resource contracts remain open."
       ],
       "artifacts": [
         "model/METHODS.md",
-        "model/engine.py"
+        "model/engine.py",
+        "research/annual_commitments.md",
+        "model/ANNUAL_COMMITMENTS.md"
       ],
-      "next_action": "Follow the ranked bounded investigations in RESEARCH_ROADMAP.md; satisfy this question’s original completion condition before closing it."
+      "next_action": "Test one actual competing component or support commitment with explicit compatibility, priority, calendar and payer obligations; retain the strong human/conventional alternative before claiming a scale or competitive advantage."
     },
     {
       "question_id": "RQ-QD-01",

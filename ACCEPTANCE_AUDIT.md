@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: supplier contracts and finance denominators, edition 0.29
+## New decision campaign: annual resource commitments, edition 0.30
+
+[The resource integration](research/annual_commitments.md) enforces dated support and commissioning allocations during actual competitive execution. A strong paid human baseline can preserve complete service while supported robot-months and customer allocation change. DE-03 advances within its partial scope; annual component vectors, outside-workload execution and broad architecture integration remain open. DE-08 retains its bounded met status, now fourteen families / 166 worlds. No empirical full-service or campaign completion is inferred.
+
+Fresh checks pass **427 Python tests** in 240.675 seconds, **36 Node assertions**, fourteen JavaScript syntax checks and all **41 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. All eight annual-resource browser cases exactly match accepted full outputs; three existing reference panels retain exact accepted cases. Four calendar/resource rows, twelve monthly rows, five lineage records, custom computation, pending/invalid/stale protections, complete replay with forged output fields, five invalid API requests, scenario export/reload, source exports and scope independence pass. The new panel was visually inspected.
+
+All **1,030,316 prior typed numeric fields across 32 result JSONs** and their non-fingerprint semantics remain unchanged. 21 files are byte-identical; 11 change only updated market/question evidence fingerprints. Every prior model module and numerical assumption remains byte-identical. The unreserved new control preserves the complete earlier competitive execution apart from declared wrapper identity/source metadata and the new resource section. Atlas/labor rows, existing source claims, 69 legacy requirement statuses and 65 question statuses remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**. The same fourteen challenge families now include **166 worlds**. Registry counts remain 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **320 manifest hashes and 729 relative Markdown links** verify without broken paths.
+
+The same campaign continues to **2026-11-14T20:12:27Z**. See [the sole-writer review](reviews/annual_commitments_review.md). This early checkpoint does not stop the objective.
+
+## Previous decision checkpoint: supplier contracts and finance denominators, edition 0.29
 
 [The source challenge](research/asset_recovery.md#supplier-contract-challenge-edition-029) adds five transaction/support/finance gates, six explicit unknowns and a reproducible source conflict. No actual consent, legal outcome, measured full-service return or synthetic calibration is inferred. All broad requirements retain their prior partial/in-progress status; DE-08 retains its met bounded scope with fourteen families / 158 worlds.
 

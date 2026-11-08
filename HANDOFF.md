@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.29.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.30.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: supplier contracts and financing denominators, edition 0.29
+## Current checkpoint: annual resource commitments in monthly competition, edition 0.30
+
+The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The cloud runtime reconnected and executed a clean repository check at 2026-11-08T04:08:22Z; it retained the same environment, configuration and sole writer. Native goal/quota controls remain unexposed. No replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
+
+From accepted input `8339d36a5d3938b9b744e9fc90f0bbee39afa415`, [annual commitments](research/annual_commitments.md) now constrain actual support, upgrade qualification and commissioning inside the existing competitive physical/Treasury loop. The reference annual pool is reduced by explicit prior use and outside reservations; monthly ceilings and each payer's funds still apply. Failed contingent payments consume no annual booking. Outside reservations are unavailable capacity, not additional service, expenses or an executed portfolio.
+
+The strong human alternative changes the inference. Reserving all but 3,900 first-year support minutes removes November/December robot service and changes the declared response rule and customer awards, while funded human capacity preserves all 6,000 market zones. Entrant service rises from 200 to 400 zones but operating cash after recorded bills stays negative. A human-led response preserves both service and its bid. Exactly 9,100 minutes admit 14 first-year robot-months; 9,099 refuse the last 650-minute booking and leave 649 minutes unused. Separate integration commitments delay two units to January without erasing them. January does not backfill past service. No field coefficient or real behavior is calibrated.
+
+Fresh checks pass **427 Python tests** in 240.675 seconds, **36 Node assertions**, fourteen JavaScript syntax checks and all **41 reproduction/Node commands**. All thirteen dashboard views render without observed JavaScript or API errors. All eight annual-resource browser cases exactly match accepted full outputs; three existing reference panels retain exact accepted cases. Four calendar/resource rows, twelve monthly rows, five lineage records, custom computation, pending/invalid/stale protections, complete replay with forged output fields, five invalid API requests, scenario export/reload, source exports and scope independence pass. The new panel was visually inspected.
+
+All **1,030,316 prior typed numeric fields across 32 result JSONs** and their non-fingerprint semantics remain unchanged. 21 files are byte-identical; 11 change only updated market/question evidence fingerprints. Every prior model module and numerical assumption remains byte-identical. The unreserved new control preserves the complete earlier competitive execution apart from declared wrapper identity/source metadata and the new resource section. Atlas/labor rows, existing source claims, 69 legacy requirement statuses and 65 question statuses remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**. The same fourteen challenge families now include **166 worlds**. Registry counts remain 13 packages, 209 claims, 435 quantities and 127 explicit-null markers. **320 manifest hashes and 729 relative Markdown links** verify without broken paths.
+
+**Next execution:** choose a substantive system-compatible annual component/BOM or competing-workload contract and test it on conserved units and cash. Do not turn outside reservations into executed workloads or add independent expansion/acquisition/recovery cases as one feasible portfolio. Full six-cell/component execution, broader architecture combinations and target whole-service evidence remain incomplete.
+
+**Next question:** which qualified component receipt or competing dated workload changes the deployment recommendation after the actual human/conventional alternative and all payer obligations are retained?
+
+## Previous checkpoint: supplier contracts and financing denominators, edition 0.29
 
 The same campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. The sole writer, cloud checkout and published environment are unchanged. Native goal/quota controls remain unexposed; no replacement task, duplicate schedule, reset, goal termination or uninterrupted-execution claim occurred.
 

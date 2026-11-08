@@ -113,3 +113,8 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 ## Contract continuity challenge, edition 0.29
 
 [FG-AUDIT-03](research/asset_recovery.md#supplier-contract-challenge-edition-029) challenges the assumed continuity of an acquired company or recovered unit. Accounting preservation of legal accounts does not establish usable operating contracts. Require target applicability, rights, support and payment/service reconciliation before assigning an acquisition or reuse advantage. No empirical value, actual permission or calibrated coefficient follows from the public documents.
+
+
+## Annual resource challenge to T6 and T7, edition 0.30
+
+[The annual commitment execution](research/annual_commitments.md) strengthens the distinction between cash, supported assets and complete service. Available annual staffing is reduced by explicit prior use and outside reservations before current bookings; monthly ceilings and each payer's actual funds still apply. January capacity cannot backfill a missed robot-month. Yet paid human capacity can preserve the entire customer service while the assumed robot-triggered bid response changes assignments. Resource scarcity therefore does not by itself establish a robot moat, payroll reduction or lost market output. A human-led response is a substantive falsifier. Outside-market execution, system-compatible component allocation and actual target terms remain needed.

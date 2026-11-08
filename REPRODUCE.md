@@ -280,3 +280,18 @@ Run the existing evidence, reproduction and browser checks. Scenario controls mu
 ## Funded asset sale and redeployment
 
 Customer adoption and Commercial models expose fourteen complete recovery witnesses through `/api/asset-recovery`. Change actor cash, price, relocation cost/lead, offer/maturity, shipping/commissioning capacity and explicit ownership/rights/qualification assumptions. Pending, invalid and stale edits retain the last applied display/export. A downloaded full case restores all opening inputs and ignores saved outcomes; shortcut controls stay read-only until a standard witness is selected. Run `python3 scripts/export_asset_recovery.py --check`, or use `--case downloaded.json --output replay.json`. Compare exact case hashes at the same source revision. Files are limited to 2 MB. Annual scope controls do not transform the synthetic cleaning service into hospital, utility or automotive evidence.
+
+
+## Annual resource commitments, edition 0.30
+
+Customer adoption adds **Can annual commitments support the monthly plan?** Choose one of eight complete worlds or edit each year's unavailable support/integration minutes and the monthly ceilings. Apply recomputes the same units, paid bookings and renewals. Pending, invalid and stale requests preserve the last applied display/export. Full import recomputes complete opening inputs and ignores saved totals; standard witness selection restores editable shortcut controls. Ordinary annual cell controls remain independent.
+
+```sh
+python3 scripts/export_annual_commitments.py
+python3 scripts/export_annual_commitments.py --check
+python3 scripts/export_annual_commitments.py --case saved-resource-case.json --output replay.json
+python3 -m unittest tests.test_annual_commitments -v
+node --check dashboard/annual_commitments.js
+```
+
+The API is `/api/annual-commitments`; [methods](model/ANNUAL_COMMITMENTS.md), [findings](research/annual_commitments.md) and [self-review](reviews/annual_commitments_review.md) preserve its scope. Outside reservations do not execute other markets. Robot service and customer service can differ because paid humans remain available. No full six-cell/component integration, empirical calibration or campaign completion is claimed.

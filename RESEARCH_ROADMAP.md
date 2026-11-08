@@ -275,3 +275,8 @@ The [support/expansion analysis](research/support_expansion.md) advances bounded
 ## Contract continuity follow-up, edition 0.29
 
 [Public supplier/support/finance records](research/asset_recovery.md#supplier-contract-challenge-edition-029) now challenge the declared acquisition and recovery assumptions. Target applicability, continuity, support and full service economics remain unknown. Do not collect more standard forms merely for volume. Next integrate an unresolved annual-fleet/resource or competing-customer constraint, or obtain a complete target record capable of reversing the recommendation. The existing campaign clock continues.
+
+
+## Next substantive integration after annual commitments, edition 0.30
+
+[Annual resource commitments](research/annual_commitments.md) now change monthly support/commissioning and competitive awards on the existing loop. The strong human alternative preserves total service and rejects an automatic output/payroll benefit. Next resolve a system-compatible annual component/BOM contract or explicitly execute a competing workload with its own obligations. Do not treat reserved capacity as already executed outside activity, add separate scenario outputs as a feasible portfolio, or introduce more variants merely for count. Empirical full-service, rights and dated operating costs remain open; the same campaign clock continues.

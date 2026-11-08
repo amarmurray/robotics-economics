@@ -133,3 +133,8 @@ See [ARCHITECTURES.md](ARCHITECTURES.md) for the explicit resource, allocation a
 ## Exact replay across Python versions
 
 The cloud continuation exposed a last-binary-digit difference in two annual totals when the accepted snapshot was run on Python 3.12/3.13. Python documents a change to floating-point [sum in version 3.12](https://docs.python.org/3/library/functions.html#sum). The engine now explicitly adds annual baseline-equivalent and released human hours in their published cell order. This preserves the frozen scalar oracle instead of rewriting its expected hashes or loosening tolerances. It is a reproducibility convention, not a new economic coefficient or greater empirical precision. The other calculations and assumptions are unchanged; code/provenance fingerprints change.
+
+
+## Annual support/integration commitments, edition 0.30
+
+[The annual commitment contract](ANNUAL_COMMITMENTS.md) applies dated reference-pool balances inside the existing competitive monthly admission path. Prior use, reservations, successful paid bookings and unbooked capacity reconcile per calendar year. The unrestricted control preserves prior execution; failed contingent funding consumes no annual capacity. Outside allocations add no output or cash cost. Strong paid human capacity can preserve market service while robot-months and customer assignments change. Annual component-vector conversion and simultaneous outside workloads remain unimplemented.

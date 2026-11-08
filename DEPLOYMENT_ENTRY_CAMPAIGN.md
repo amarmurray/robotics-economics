@@ -94,3 +94,8 @@ The [dispatch follow-up](research/conventional_coordination.md#empirical-challen
 ## Supplier-document challenge, edition 0.29
 
 [FG-AUDIT-03](research/asset_recovery.md#supplier-contract-challenge-edition-029) deepens the real-contract challenge to acquisition/recovery without another synthetic variant. Separate source scopes and an unexplained financing illustration remain explicit. Fourteen families / 158 worlds are unchanged, with target rights and full costs unresolved. The campaign stays in progress under the same T0/deadline.
+
+
+## Annual resource commitment checkpoint, edition 0.30
+
+[The resource extension](research/annual_commitments.md) adds eight executions within the existing fourteen challenge families, now 166 worlds. It enforces calendar support/integration availability during actual funded competition and exposes the strong human alternative. Outside commitments remain a declared envelope, not a simultaneously executed portfolio or component conversion. Broad integration and empirical acceptance stay partial. The same in-progress objective and original deadline continue.
