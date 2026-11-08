@@ -3784,7 +3784,12 @@
           "LEC-008"
         ],
         "analysis": "research/learning_qualification.md",
-        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply.",
+        "execution_followup": {
+          "analysis": "research/learning_execution.md",
+          "artifact": "model/results/learning_execution.json",
+          "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
+        }
       }
     },
     {
@@ -3906,7 +3911,12 @@
           "LEC-008"
         ],
         "analysis": "research/learning_qualification.md",
-        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply.",
+        "execution_followup": {
+          "analysis": "research/learning_execution.md",
+          "artifact": "model/results/learning_execution.json",
+          "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
+        }
       }
     },
     {
@@ -4020,7 +4030,12 @@
           "LEC-008"
         ],
         "analysis": "research/learning_qualification.md",
-        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply."
+        "requirement": "Preserve this pack\u2019s accepted service and retained obligations while measuring candidate construction, target qualification, old-cohort regression, installed compatibility and actual supported supply.",
+        "execution_followup": {
+          "analysis": "research/learning_execution.md",
+          "artifact": "model/results/learning_execution.json",
+          "role": "Synthetic automotive mechanism; transfer only the service/eligibility/qualification questions to other packs, never its numerical outcomes."
+        }
       }
     }
   ],

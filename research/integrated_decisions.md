@@ -90,3 +90,8 @@ The [workcell analysis](automotive_workcell_decision.md) makes fixed vision, rea
 ## R&D gains must survive qualification, edition 0.21
 
 [The new qualification analysis](learning_qualification.md) supports useful digital contributions while narrowing what their scores establish. Candidate construction, held-out physical service, retained-cohort regression and supported delivery have different resource and evidence requirements. Prioritize the experiment or operating record that resolves the binding stage. Generated-data volume, self-assessment completion and a newer model label cannot fill missing target acceptance or supplier commitments.
+
+
+## Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.

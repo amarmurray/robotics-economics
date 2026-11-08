@@ -1,6 +1,6 @@
 # Initial deployment thesis register
 
-Version 0.10. The active campaign tests ten bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
+Version 0.11. The active campaign tests twelve bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion
 
@@ -89,3 +89,8 @@ Version 0.10. The active campaign tests ten bounded challenge families through s
 ## How this register should evolve
 
 For each thesis, record whether new evidence narrows, supports or contradicts the claim and which deployment decision changes. Prefer a disconfirming observation over another favorable anecdote. Retire a thesis that becomes tautological or cannot distinguish choices; split one whose evidence applies to different populations. Practitioner questions can be prepared from these gaps, but contacting people remains a separate user-authorized step.
+
+
+## Qualification follow-up, edition 0.22
+
+[Funded learning execution](research/learning_execution.md) strengthens T1/T5/T6/T7 through a falsifiable mechanism: eligible data and paid research can produce no service gain, while target gains need not transfer to retained cohorts. Supply and support gates can bind after technical success. A qualified conventional retool remains stronger within the short fixture; its real availability and implementation costs are unknown. Candidate performance is a hypothesis and acceptance fixtures do not measure statistical generalization. Seek an actual retained/updated deployment cohort before elevating these mechanisms into target investment claims.

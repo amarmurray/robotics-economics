@@ -152,3 +152,8 @@ These priorities connect directly to market sequencing, deployment architecture,
 ## Direct R&D contribution and qualification, edition 0.21
 
 [The R&D follow-up](learning_qualification.md) links video-generation and adaptation methods to the physical validation and supported-configuration obligations needed for deployment. A useful digital research tool can reduce one stage while another determines readiness. The record preserves source conflicts, inherited data, partial credit and target-only forgetting limits; it does not infer a universal acceleration, transfer penalty or robotics productivity coefficient. Technical self-assessment is also separate from available units, replacement parts and contracted support.
+
+
+## Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.

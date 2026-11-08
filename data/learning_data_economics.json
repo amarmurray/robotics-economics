@@ -603,5 +603,19 @@
     "scope": "Substantial H direct R&D contribution joined to I/K qualification and support. Four new source records, not four independent demonstrations of deployment. No model coefficient or scenario assumption changes.",
     "source_conflicts_preserved": true,
     "source_role": "Evidence and proposed measurement contracts; no additional executable challenge family claimed."
+  },
+  "execution_followup": {
+    "edition": "0.22",
+    "analysis": "research/learning_execution.md",
+    "methods": "model/LEARNING_EXECUTION.md",
+    "artifact": "model/results/learning_execution.json",
+    "status": "bounded_synthetic_feedback_not_empirical_training_or_physical_experiment",
+    "implemented_families": [
+      "DE-CF09",
+      "DE-CF14"
+    ],
+    "partial_mechanism": "DE-CF10 support-before-candidate work on existing units; full fleet expansion scheduling remains open",
+    "source_calibration": false,
+    "scope": "Earlier eligible unique production episodes, paid candidate construction, per-unit adaptation and deterministic identity-disjoint physical qualification, compatible module delivery and finite installed support. Prior model engines and source claims unchanged. Trial and customer output are separate; one Treasury and two persistent units."
   }
 }

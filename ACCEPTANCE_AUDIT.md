@@ -1,6 +1,18 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: R&D qualification evidence, edition 0.21
+## New decision campaign: funded learning and qualification, edition 0.22
+
+Sixteen [exact feedback worlds](research/learning_execution.md) add bounded DE-CF09 runtime-module supply delay and DE-CF14 no-learning/no-transfer. Support-priority allocation advances partial DE-CF10, without claiming full fleet expansion scheduling. Twelve bounded families and 111 worlds remain intermediate acceptance. Candidate performance is an input hypothesis; no model training, robot experiment or empirical learning rate is inferred.
+
+The reference earns 56 of 72 timely service kits; no learning retains research cost with 24, and no transfer gives 40. At twenty engineering hours per cycle, support-first gives 48 versus candidate-first 32, with fixed staffing still owed. Qualified conventional fast retool gives 72 under its explicit availability assumption. Trials, customer output, unique episodes, modules and persistent robots remain separate. Review corrected free buffer/recipe resets and repeated unfunded setup; reset capacity, cash and component identities now persist.
+
+Fresh validation passes **353 Python tests** in 184.153 seconds, including 17 focused qualification tests, twelve seeded adverse cases and HTTP replay/validation. **36 Node assertions**, all JavaScript syntax and prescribed evidence/physical/frontier/export checks pass. All thirteen browser views pass, including sixteen qualification worlds, resource/delivery controls, pending/invalid/stale result preservation, source/asset/cash lineage and complete export/import. Browser and CLI replay are exactly equal; tampered saved outcomes are ignored. The updated panel was visually inspected.
+
+All **468,589 typed numeric fields across 28 earlier result JSONs** are unchanged. Seventeen remain byte-identical; eleven update only evidence snapshot hashes. Prior engines and assumptions are unchanged. All 69 legacy acceptance and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Evidence retains 13 packages, 196 claims, 385 quantities and 104 explicit-null markers. All **284 registered hashes** and **576 relative Markdown links** verify without broken links.
+
+The same active deadline remains **2026-11-14T20:12:27Z**. Actual capability changes, all-actor costs, rights, qualification distributions, workforce/production calendars and supported supply remain incomplete. See [the sole-writer review](reviews/learning_execution_review.md).
+
+## Previous decision checkpoint: R&D qualification evidence, edition 0.21
 
 The same campaign remains active through **2026-11-14T20:12:27Z**. Four primary-source records deepen substantial H and I/K through the path from generated data to qualified supported capacity. Physical partial-credit scores, simulated video diagnostics, independent sim/real workflows and self-assessment retain their distinct scope. Source-internal conflicts and missing costs remain explicit. Ten challenge families stay bounded implementations; proposed learning/support/supply contracts add no completed family.
 

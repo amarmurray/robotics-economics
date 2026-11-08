@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.21, R&D and qualification evidence checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Four primary-source records connect generated data and world-model diagnostics to target qualification, integration and supported supply. Partial-credit metrics, inherited resources, source inconsistencies, independent sim/real paths and self-assessment limits remain explicit. Prior workcell, utility, entry, coordination, finance and architecture worlds remain unchanged. Ten challenge families have bounded implementations; no new family is claimed from this evidence tranche. Endogenous learning, qualified supply and empirical whole-system economics remain incomplete. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
+Edition 0.22, funded learning and qualification checkpoint of the Deployment and Entry Decision campaign, 8 November 2026. Sixteen exact workcell worlds join eligible unique episodes, paid candidate construction, target/retained-cohort trials, compatible module delivery and finite installed support. Candidate rates remain explicit hypotheses; no model training, robot experiment or empirical learning coefficient is inferred. Twelve named families have bounded implementations, while support scheduling, real operating costs and full empirical acceptance remain incomplete. Earlier engines and numerical scenarios are preserved. This is **an early checkpoint, not completion of the active 168-hour campaign or full empirical acceptance**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -124,6 +124,11 @@ The [workcell analysis](research/automotive_workcell_decision.md) makes fixed vi
 
 [The new qualification analysis](research/learning_qualification.md) supports useful digital contributions while narrowing what their scores establish. Candidate construction, held-out physical service, retained-cohort regression and supported delivery have different resource and evidence requirements. Prioritize the experiment or operating record that resolves the binding stage. Generated-data volume, self-assessment completion and a newer model label cannot fill missing target acceptance or supplier commitments.
 
+
+### Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -214,7 +219,7 @@ The finance contract now has a bounded implementation in [financed execution](re
 
 #### Counterfactual challenge set
 
-The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/08/11/12/13 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Eighteen [automotive workcell worlds](model/results/automotive_workcell.json) add DE-CF04 through physical buffering, changeover, paid preparation and distinct supported configurations. Ten families and ninety-five rows do not establish missing qualified-supply, learning or empirical acceptance requirements. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
+The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/08/09/11/12/13/14 have bounded implementations.** Fifteen [entry-transition worlds](model/results/entry_transitions.json) add share closing, inherited obligations, separate target/growth equity and hybrid interruption without duplicating existing demand. They complement the prior finance, calendar, architecture and exact observed-queue coordination worlds. Prompt/delayed incumbent response remains a fixed-policy mechanism; this is not a competitive equilibrium or payback proof. Support/engineering and frozen cohorts remain partial mechanisms. Eighteen [utility inspection worlds](model/results/utility_inspection.json) add DE-CF03: accepted-point unions, fixed sensing, expert review and funded residual visits. Eighteen [automotive workcell worlds](model/results/automotive_workcell.json) add DE-CF04 through physical buffering, changeover, paid preparation and distinct supported configurations. The sixteen qualification worlds added in edition 0.22 bring bounded coverage to twelve families and 111 rows; they do not establish actual qualified supply, empirical learning curves or whole-system economics. Complete inputs, source hashes, exact replay and relevant invariants are required for each new family.
 
 | Challenge family | Intervention and decision test |
 | --- | --- |
@@ -226,12 +231,12 @@ The following names track intended challenge coverage. **DE-CF01/02/03/04/06/07/
 | DE-CF06 acquire-without-new-demand — bounded implementation | Funded share transfer changes ultimate owner while the target legal account, customers, physical units, leases, receivables and liabilities remain; price is not working capital |
 | DE-CF07 hybrid-transition — bounded implementation | Separately funded growth uses only existing unmet/new demand; conditional closing, retained diligence, interruption and subsidiary liquidity are explicit; no automatic synergy or asset-purchase result |
 | DE-CF08 architecture-and-fees — bounded implementation | Four funded role mappings, itemized resources, fee/internal-transfer controls, false rights gate and equal-capital allocation; real costs/rights and broader competition remain open |
-| DE-CF09 qualified-supply-delay | Orders/finance exist but compatible systems arrive too late |
+| DE-CF09 qualified-supply-delay — bounded runtime-module implementation | Funded compatible configuration inputs arrive after qualification/service needs; full robot manufacturing/ramp remains open |
 | DE-CF10 support-before-expansion — partial mechanism | Initial engineering can leave installed support unmet and cancel a one-shot start; stronger adaptive scheduling and broader support dynamics remain open |
 | DE-CF11 funding-maturity-recovery — bounded implementation | Funded/unfunded/delayed draws, dated interest/maturity, policy-dependent default/cure and actual cash recovery; asset sale/redeployment remains open |
 | DE-CF12 funded-reinvestment — bounded implementation | A declared later start is gated by available cash and a reserve; no added service is invented, but autonomous candidate selection/optimization remains open |
 | DE-CF13 digital-human-catches-up — bounded implementation | Dated human efficiency changes the robot increment in actual task hours; interaction is counted once. A separate exact courier-window comparator is now available; target competitive advantage and a common real service boundary remain open |
-| DE-CF14 no-learning-no-transfer — partial cohort mechanism | Frozen installed cohorts do not receive changed robot levels; funded qualification gates updates. Endogenous learning, eligible data and collection/validation feedback remain open |
+| DE-CF14 no-learning-no-transfer — bounded feedback implementation | Earlier unique eligible episodes fund an explicit candidate hypothesis; paid target/retained trials gate use. No-learning retains cost and no-transfer preserves prior configurations; empirical rates remain unknown |
 
 Switch points should be stated in the parameter's actual unit and bounded by the tested policy. A one-cent synthetic funding boundary is an execution fact for that world, not optimal fundraising or a market offer. Ranking reversals need feasible alternatives at a common service boundary; incomparable alternatives should remain unranked. Every recommendation needs a falsifier that could cause it to change, including a simpler process that works better.
 
@@ -249,6 +254,11 @@ The [workcell comparison](research/automotive_workcell_decision.md) strengthens 
 #### R&D and qualification evidence gate, edition 0.21
 
 [The learning follow-up](research/learning_qualification.md) now supplies an explicit chain from eligible data through candidate construction, target acceptance, old-cohort regression, integration and supported supply. Apply it to hospital urgency/custody, utility accepted point/review coverage and automotive complete-kit timing. Four proposed counterfactual contracts preserve costs and physical identities; they do not count as completed DE-CF09/10/14 implementations. Existing numerical outcomes and ten bounded challenge families remain unchanged.
+
+
+#### Funded qualification challenge, edition 0.22
+
+[Sixteen complete feedback worlds](research/learning_execution.md) now execute the prior source-derived contracts in a bounded workcell. Candidate success, earlier eligible data, compatible delivery, physical test slots and installed support remain separate gates. Transfer the qualification questions to hospital and utility service, not the automotive rates. Twelve families are bounded implementations; DE-CF10 remains partial beyond support-priority work on existing units.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -681,6 +691,11 @@ This bounded public-source investigation stops with two versioned primary cases 
 
 [The qualification analysis](research/learning_qualification.md) extends this package with DreamGen, XEWorld and two NVIDIA integration/readiness sources. Physical policy partial credit, simulated video metrics, technical self-assessment and supported commercial capacity remain different observations. Inherited grounding, manual preparation, generation compute and retained-cohort regression now inform an explicit measurement contract. Four proposed no-learning/no-transfer/support/supply challenges remain unimplemented as new families; no source score changes the annual learning coefficient.
 
+
+#### Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
 ### Focused follow-up: Automotive workcells, buffering and qualified generation
 
 Authoritative analysis: [research/automotive_workcell_decision.md](research/automotive_workcell_decision.md).
@@ -733,6 +748,11 @@ The operator pays distinct staff, operating, preparation and equipment accounts 
 For a customer entrant, equal access to a capable fixed system can remove a claimed technology advantage. A new plant may have more redesign freedom but must pay for customers, engineering and ramp; acquiring an installed operation may secure demand while importing restrictions. For a humanoid supplier, flexibility could retain value where validated changeovers, mobility or process access are expensive for alternatives. Neither implication follows from counting robots or demos. The existing acquisition/competition worlds address separate ownership/cash mechanisms; kits are not silently converted into their service units.
 
 The next evidence question is which configuration-specific qualification, support or supply obligation survives a hardware generation change, and which digital/R&D contribution measurably changes that obligation. This keeps I/K and substantial H tied to accepted operating outcomes, without turning another model release into an unsupported learning or deployment coefficient.
+
+
+#### Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
 
 #### Reproduced automotive-workcell worlds
 
@@ -1544,6 +1564,11 @@ These priorities connect directly to market sequencing, deployment architecture,
 
 [The R&D follow-up](research/learning_qualification.md) links video-generation and adaptation methods to the physical validation and supported-configuration obligations needed for deployment. A useful digital research tool can reduce one stage while another determines readiness. The record preserves source conflicts, inherited data, partial credit and target-only forgetting limits; it does not infer a universal acceleration, transfer penalty or robotics productivity coefficient. Technical self-assessment is also separate from available units, replacement parts and contracted support.
 
+
+### Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
 ### Focused follow-up: Benchmark reproducibility and transaction authority
 
 Authoritative analysis: [research/coordination_reproducibility.md](research/coordination_reproducibility.md).
@@ -1818,6 +1843,65 @@ The existing campaign already has bounded workcell, inspection, coordination, fi
 **Qualified supply delay:** preserve a financed order, its cash and physical identity when compatible delivery or qualification occurs too late. No order count becomes an operational unit before readiness; no later delivery backfills missed due service. This challenge needs an explicit delivery/commissioning/qualification boundary rather than a generic scalar shortage.
 
 The next implementation should join these contracts to existing physical and Treasury mechanisms, with one service unit and no duplicated fleet. First test the strongest conventional improvement, such as better buffering or measured retooling, against the learning proposal. Then ask whether a funded R&D change yields enough additional accepted service, soon enough, to justify its opportunity cost. The current sources establish useful methods and important limits; they do not yet determine that economic choice.
+
+
+#### Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](research/learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
+### Focused follow-up: Funded learning, physical qualification and supported service
+
+Authoritative analysis: [research/learning_execution.md](research/learning_execution.md).
+
+Edition 0.22. This follows [the R&D qualification evidence audit](research/learning_qualification.md) with an executable path from operating experience to a candidate, physical acceptance and supported service. The sources distinguish useful generated data, policy scores, world-model diagnostics, integration and supported supply. The new calculation tests the economic consequences of preserving those distinctions. It does not estimate the learning rate or cost of any named model or robot.
+
+The experiment uses the existing automotive workcell. Two persistent opening units owe the same three-part kits, quality and deadlines. One unit is the target of a proposed change; the other represents a retained configuration that might benefit from a separately qualified transfer. Three cycles contain 72 due customer-service kits. Actual picks, buffering, handoffs, changeovers and funding use the unchanged executor. Finite engineering, earlier eligible data, compatible module delivery and physical trials determine when a hypothesized candidate can operate. Between windows, buffered components remain identified inventory and recipe changes require a separately funded, capacity-limited reset crew. No fresh empty workcell or free setup is manufactured at a cycle boundary. The [methods](model/LEARNING_EXECUTION.md) and [complete replay artifact](model/results/learning_execution.json) expose every input and limitation.
+
+#### A candidate can be useful without making data volume valuable by itself
+
+The reference collects 22 eligible production-attempt episodes in its first cycle. It then pays for training and separate adaptation/qualification on the target and retained units. The proposed changeover improvement passes the declared fixture, and service reaches **56 of 72 kits on time** across the three cycles. Both units remain the same physical assets. The outcome is a conditional mechanism: a specified improvement reaches service only after its prerequisites. It is not evidence that 22 real episodes can train a useful controller.
+
+The no-learning case collects data and pays for a candidate whose rates do not improve. Its failed physical trial adds cost while timely service stays at **24 of 72**, equal to the no-research operating baseline. Synthetic outlay is $5,280 versus $4,580 for no research under the same collection policy. This is why a budget, model run or larger dataset should not automatically create a capability increment in a business forecast. It is also why a failed research attempt and never attempting research cannot share the same cost ledger.
+
+Tripling observation records leaves unique eligible identities, training inputs, resource allocation, cash and service unchanged. Training rights or valid sensing can instead reduce eligibility to zero even though collection was paid. Later observations do not retroactively alter the frozen training set. The reference collects fewer total episodes than some inferior-service cases because qualification uses engineering that would otherwise be available for collection. Comparing raw dataset size would therefore rank these decisions poorly. More useful service and more recorded data need not move together under a shared resource constraint.
+
+The model preserves unsuccessful handoff attempts as distinct possible observations while counting each accepted service kit once. That separation matters empirically: operating hours, attempted manipulations, unique episodes, valid reusable data and accepted output answer different questions. None can replace the others without a measured conversion and an eligibility rule.
+
+#### Transfer is a second decision, with a retained-customer obligation
+
+When transfer is disallowed, only the target receives the qualified change and timely service reaches **40 of 72 kits**. The retained unit continues with its original configuration. A separate case gives the retained candidate a worse hypothetical changeover. Its paid trial fails; the old configuration again remains active. It delivers the same 40 timely kits as no transfer but incurs an additional failed test and adaptation burden. The experiment does not destroy a working cohort merely to demonstrate forgetting.
+
+This implements the narrower inference from the source audit. A target gain can justify target deployment without proving fleet-wide improvement. Separate configurations, adapters and acceptance tests can preserve installed service, at additional cost. The XEWorld diagnostic does not supply the magnitude of the hypothetical regression here; nor does a successful synthetic fixture establish that a mitigation works in a real fleet. The decision requires actual target and retained-cohort results under the intended runtime, rights and service boundary.
+
+#### Priority changes service even when eventual qualification is identical
+
+At a shared allocation of **20 engineering hours per cycle**, support-first yields **48 timely kits**. Candidate-first yields **32**, although both eventually qualify two units. Candidate work uses the whole middle-cycle allocation under the latter policy, leaving both production units unsupported for that cycle. Their staffing obligations remain. The late service is not restored when support returns.
+
+Support-first is not universally optimal. A service contract, urgency, a valuable new capability or a different demand profile could change the preferred allocation. The result demonstrates a concrete missing term in a research-only plan: an installed customer's support claim competes for the same people. Comparing only the final candidate count would miss the service loss. The reference allocator is intentionally simple and transparent; adaptive qualification resumes in later cycles, but no optimal continuous-time workforce schedule or expanded fleet is claimed.
+
+This is also a resource distinction. Prioritizing engineering support does not reserve future payroll cash. A one-cent funding boundary in the tests changes whether training starts, and a funded training action can leave a later staff invoice unpaid. Financial feasibility must be checked at the dates obligations fall due, not inferred from sufficient total engineering hours or a positive eventual technical result.
+
+#### Orders, physical slots and qualified capacity are different states
+
+A funded one-cycle runtime-module delay lowers timely service to **32 kits** within this horizon. A module arriving after the horizon, or arriving incompatible, leaves the original 24-kit timely outcome. Payment remains in cash and the physical robot count remains two. The claim is bounded to compatible configuration inputs: it is not a complete OEM production, financing or spare-parts model.
+
+Likewise, a **155-tick reserved validation slot** cannot admit the 156-tick test contract. Training, the target module and adaptation can already have been paid, yet qualification and its service gain remain unavailable. At 156 ticks the declared test can run. This switch is a property of the fixture's reservation requirement, not a measured test-duration threshold. It exposes why faster model generation may not shorten time to usable service when another physical stage controls admission.
+
+Qualification itself consumes work. Its accepted test kits are excluded from customer demand and training. Disjoint job/component identities prevent direct reuse, but the task pattern is shared with production. These deterministic tests do not establish statistical generalization, unattended reliability or safety. A real deployment decision would need independent adverse conditions, sufficient repeated trials and measured distributions of recovery and support.
+
+#### Keep the strong conventional option in the decision
+
+An already-qualified conventional fast-retool configuration meets **all 72 deadlines** with the same two units and fixed staffing commitment. It avoids the research ramp in this short comparison. Its availability and implementation burden are assumptions, and the fixture does not estimate the cost of obtaining that qualification. This is a disciplined operating comparator, not a proof that conventional equipment is always cheaper or that learning has no option value.
+
+For the automotive decision pack, proceed only when the candidate improves the specified complete-kit service beyond an available conventional configuration after its qualification, support and cash burdens. A research investment can still be justified by broader task range or future changes, but those benefits need their own demand and acceptance evidence. Do not assign them automatically because the platform is general-purpose.
+
+The hospital and utility packs inherit the **test structure**, not these rates or outcomes. Hospital candidates must preserve urgency, identity, custody and fallback; utility candidates must produce accepted point measurements with review and residual physical duties. A policy score, a collected episode or an integrated model is still an intermediate output. Both packs need their own eligibility, trial-resource, retained-cohort and supported-delivery records before this mechanism can be populated with operating evidence.
+
+#### What this closes and what remains open
+
+Sixteen exact worlds add bounded DE-CF14 no-learning/no-transfer and DE-CF09 qualified-configuration supply delay. The shared support priority strengthens the partial DE-CF10 mechanism. Twelve named families now have bounded implementations; the 111 total worlds do not close empirical whole-system costs or full campaign acceptance. Earlier scenarios and source claims are preserved.
+
+The next decision-changing investigation should seek an actual sustained deployment whose operator, provider, hardware configuration, support obligation and change history can be connected. It should identify what changed in accepted service after an update, what stayed on the old configuration, what the deployment consumed and what was paid or still owed. Until then, candidate gains, trial thresholds, engineering supply, module delivery, rights and costs remain explicit hypotheses. A successful replay verifies the accounting and causal gates of that hypothesis, not the real-world business case.
 
 ## 6. Digital infrastructure and physical production
 

@@ -48,3 +48,8 @@ The operator pays distinct staff, operating, preparation and equipment accounts 
 For a customer entrant, equal access to a capable fixed system can remove a claimed technology advantage. A new plant may have more redesign freedom but must pay for customers, engineering and ramp; acquiring an installed operation may secure demand while importing restrictions. For a humanoid supplier, flexibility could retain value where validated changeovers, mobility or process access are expensive for alternatives. Neither implication follows from counting robots or demos. The existing acquisition/competition worlds address separate ownership/cash mechanisms; kits are not silently converted into their service units.
 
 The next evidence question is which configuration-specific qualification, support or supply obligation survives a hardware generation change, and which digital/R&D contribution measurably changes that obligation. This keeps I/K and substantial H tied to accepted operating outcomes, without turning another model release into an unsupported learning or deployment coefficient.
+
+
+## Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.

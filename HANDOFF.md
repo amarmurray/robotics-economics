@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.21.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.22.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: R&D, qualification and supported capacity, edition 0.21
+## Current checkpoint: funded data, qualification and supported service, edition 0.22
+
+The same sole-writer campaign remains **in progress**, with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. Native goal/quota controls remain unexposed; no new task, schedule, clock, earned reset, continuous-execution or campaign-completion claim is made.
+
+[Sixteen learning/qualification worlds](research/learning_execution.md) compose the unchanged workcell and Treasury. Earlier unique eligible production episodes gate paid candidate construction; explicit hypothetical performance must pass separately funded target/retained tests before supported service. Physical trial output is excluded from customer service and training. Two opening robot identities persist; funded runtime modules retain delivery/compatibility/qualification states without creating robots. Bounded DE-CF09/14 raise coverage to **twelve families / 111 worlds**; support priority deepens partial DE-CF10.
+
+The reference delivers 56 of 72 timely service kits, no learning 24, no transfer 40. At twenty engineering hours, support-first delivers 48 versus candidate-first 32, although both eventually qualify two units. A conventional already-qualified fast-retool assumption gives 72. These are conditional mechanics, not measured learning rates, complete investment costs or product rankings. No source statistic calibrates the candidate. Review corrected buffer/recipe reset costs and the possibility of free setup after a prior funding failure; explicit reset resources and inventory identity now persist between windows.
+
+Fresh validation passes **353 Python tests** in 184.153 seconds, including 17 focused qualification tests, twelve seeded adverse cases and HTTP replay/validation. **36 Node assertions**, all JavaScript syntax and prescribed evidence/physical/frontier/export checks pass. All thirteen browser views pass, including sixteen qualification worlds, resource/delivery controls, pending/invalid/stale result preservation, source/asset/cash lineage and complete export/import. Browser and CLI replay are exactly equal; tampered saved outcomes are ignored. The updated panel was visually inspected.
+
+All **468,589 typed numeric fields across 28 earlier result JSONs** are unchanged. Seventeen remain byte-identical; eleven update only evidence snapshot hashes. Prior engines and assumptions are unchanged. All 69 legacy acceptance and 65 question statuses remain; legacy acceptance stays **53 bounded met / 16 partial**. Evidence retains 13 packages, 196 claims, 385 quantities and 104 explicit-null markers. All **284 registered hashes** and **576 relative Markdown links** verify without broken links.
+
+**Next execution:** investigate one sustained real deployment with an identifiable operator, configuration/update history, retained cohort, support/parts obligations and complete resource/cash boundary. Seek decision-changing target evidence instead of adding generic source counts or another disconnected simulator. Continue CF05 prompt equal-technology response and broader CF10 scheduling when their missing assumptions can be made concrete. Preserve substantial H, all A–K workstreams and the existing service packs.
+
+**Next question:** which actual deployment records connect a configuration change to accepted service and complete support burden, and would the strongest available conventional process reverse its commercial recommendation?
+
+## Previous checkpoint: R&D, qualification and supported capacity, edition 0.21
 
 The same active campaign continues with **T0 2026-11-07T20:12:27Z** and **deadline 2026-11-14T20:12:27Z**. This source tranche was completed across 7–8 November in the same executable cloud checkout and sole-writer task. No task, executor, schedule or clock was replaced. Native goal/quota controls remain unexposed; no reset, continuous-execution or full-goal-completion claim is made.
 

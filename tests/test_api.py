@@ -62,6 +62,19 @@ class LocalAPI(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError) as err:post(body)
             self.assertEqual(err.exception.code,400)
 
+    def test_learning_execution_http_replay_and_validation(self):
+        def post(body):
+            req=urllib.request.Request(self.base+'/api/learning-execution',data=json.dumps(body).encode(),headers={'Content-Type':'application/json'})
+            with urllib.request.urlopen(req) as f:return json.load(f)
+        with urllib.request.urlopen(self.base+'/api/learning-execution') as f:catalog=json.load(f)
+        self.assertEqual(len(catalog['case_inputs']),16);self.assertEqual(len(catalog['summary']),16)
+        r=post({'inputs':{'transfer_allowed':False}})['result'];self.assertEqual(r['summary']['qualified_units'],1)
+        saved={'schema_version':r['schema_version'],'inputs':r['inputs'],'summary':{'invented':999}}
+        self.assertEqual(post({'saved_case':saved})['result'],r)
+        for body in ({'inputs':None},{'inputs':[]},{'inputs':{'cycles':True}},{'inputs':{},'saved_case':{}},{'saved_case':{}}):
+            with self.assertRaises(urllib.error.HTTPError) as err:post(body)
+            self.assertEqual(err.exception.code,400)
+
     def test_private_paths_and_invalid_values(self):
         for path in ("/.git/config","/../etc/passwd","/model/engine.py"):
             with self.assertRaises(urllib.error.HTTPError) as err:urllib.request.urlopen(self.base+path)

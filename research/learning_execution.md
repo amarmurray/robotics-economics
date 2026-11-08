@@ -1,0 +1,51 @@
+# Learning has to pass the service and resource test
+
+Edition 0.22. This follows [the R&D qualification evidence audit](learning_qualification.md) with an executable path from operating experience to a candidate, physical acceptance and supported service. The sources distinguish useful generated data, policy scores, world-model diagnostics, integration and supported supply. The new calculation tests the economic consequences of preserving those distinctions. It does not estimate the learning rate or cost of any named model or robot.
+
+The experiment uses the existing automotive workcell. Two persistent opening units owe the same three-part kits, quality and deadlines. One unit is the target of a proposed change; the other represents a retained configuration that might benefit from a separately qualified transfer. Three cycles contain 72 due customer-service kits. Actual picks, buffering, handoffs, changeovers and funding use the unchanged executor. Finite engineering, earlier eligible data, compatible module delivery and physical trials determine when a hypothesized candidate can operate. Between windows, buffered components remain identified inventory and recipe changes require a separately funded, capacity-limited reset crew. No fresh empty workcell or free setup is manufactured at a cycle boundary. The [methods](../model/LEARNING_EXECUTION.md) and [complete replay artifact](../model/results/learning_execution.json) expose every input and limitation.
+
+## A candidate can be useful without making data volume valuable by itself
+
+The reference collects 22 eligible production-attempt episodes in its first cycle. It then pays for training and separate adaptation/qualification on the target and retained units. The proposed changeover improvement passes the declared fixture, and service reaches **56 of 72 kits on time** across the three cycles. Both units remain the same physical assets. The outcome is a conditional mechanism: a specified improvement reaches service only after its prerequisites. It is not evidence that 22 real episodes can train a useful controller.
+
+The no-learning case collects data and pays for a candidate whose rates do not improve. Its failed physical trial adds cost while timely service stays at **24 of 72**, equal to the no-research operating baseline. Synthetic outlay is $5,280 versus $4,580 for no research under the same collection policy. This is why a budget, model run or larger dataset should not automatically create a capability increment in a business forecast. It is also why a failed research attempt and never attempting research cannot share the same cost ledger.
+
+Tripling observation records leaves unique eligible identities, training inputs, resource allocation, cash and service unchanged. Training rights or valid sensing can instead reduce eligibility to zero even though collection was paid. Later observations do not retroactively alter the frozen training set. The reference collects fewer total episodes than some inferior-service cases because qualification uses engineering that would otherwise be available for collection. Comparing raw dataset size would therefore rank these decisions poorly. More useful service and more recorded data need not move together under a shared resource constraint.
+
+The model preserves unsuccessful handoff attempts as distinct possible observations while counting each accepted service kit once. That separation matters empirically: operating hours, attempted manipulations, unique episodes, valid reusable data and accepted output answer different questions. None can replace the others without a measured conversion and an eligibility rule.
+
+## Transfer is a second decision, with a retained-customer obligation
+
+When transfer is disallowed, only the target receives the qualified change and timely service reaches **40 of 72 kits**. The retained unit continues with its original configuration. A separate case gives the retained candidate a worse hypothetical changeover. Its paid trial fails; the old configuration again remains active. It delivers the same 40 timely kits as no transfer but incurs an additional failed test and adaptation burden. The experiment does not destroy a working cohort merely to demonstrate forgetting.
+
+This implements the narrower inference from the source audit. A target gain can justify target deployment without proving fleet-wide improvement. Separate configurations, adapters and acceptance tests can preserve installed service, at additional cost. The XEWorld diagnostic does not supply the magnitude of the hypothetical regression here; nor does a successful synthetic fixture establish that a mitigation works in a real fleet. The decision requires actual target and retained-cohort results under the intended runtime, rights and service boundary.
+
+## Priority changes service even when eventual qualification is identical
+
+At a shared allocation of **20 engineering hours per cycle**, support-first yields **48 timely kits**. Candidate-first yields **32**, although both eventually qualify two units. Candidate work uses the whole middle-cycle allocation under the latter policy, leaving both production units unsupported for that cycle. Their staffing obligations remain. The late service is not restored when support returns.
+
+Support-first is not universally optimal. A service contract, urgency, a valuable new capability or a different demand profile could change the preferred allocation. The result demonstrates a concrete missing term in a research-only plan: an installed customer's support claim competes for the same people. Comparing only the final candidate count would miss the service loss. The reference allocator is intentionally simple and transparent; adaptive qualification resumes in later cycles, but no optimal continuous-time workforce schedule or expanded fleet is claimed.
+
+This is also a resource distinction. Prioritizing engineering support does not reserve future payroll cash. A one-cent funding boundary in the tests changes whether training starts, and a funded training action can leave a later staff invoice unpaid. Financial feasibility must be checked at the dates obligations fall due, not inferred from sufficient total engineering hours or a positive eventual technical result.
+
+## Orders, physical slots and qualified capacity are different states
+
+A funded one-cycle runtime-module delay lowers timely service to **32 kits** within this horizon. A module arriving after the horizon, or arriving incompatible, leaves the original 24-kit timely outcome. Payment remains in cash and the physical robot count remains two. The claim is bounded to compatible configuration inputs: it is not a complete OEM production, financing or spare-parts model.
+
+Likewise, a **155-tick reserved validation slot** cannot admit the 156-tick test contract. Training, the target module and adaptation can already have been paid, yet qualification and its service gain remain unavailable. At 156 ticks the declared test can run. This switch is a property of the fixture's reservation requirement, not a measured test-duration threshold. It exposes why faster model generation may not shorten time to usable service when another physical stage controls admission.
+
+Qualification itself consumes work. Its accepted test kits are excluded from customer demand and training. Disjoint job/component identities prevent direct reuse, but the task pattern is shared with production. These deterministic tests do not establish statistical generalization, unattended reliability or safety. A real deployment decision would need independent adverse conditions, sufficient repeated trials and measured distributions of recovery and support.
+
+## Keep the strong conventional option in the decision
+
+An already-qualified conventional fast-retool configuration meets **all 72 deadlines** with the same two units and fixed staffing commitment. It avoids the research ramp in this short comparison. Its availability and implementation burden are assumptions, and the fixture does not estimate the cost of obtaining that qualification. This is a disciplined operating comparator, not a proof that conventional equipment is always cheaper or that learning has no option value.
+
+For the automotive decision pack, proceed only when the candidate improves the specified complete-kit service beyond an available conventional configuration after its qualification, support and cash burdens. A research investment can still be justified by broader task range or future changes, but those benefits need their own demand and acceptance evidence. Do not assign them automatically because the platform is general-purpose.
+
+The hospital and utility packs inherit the **test structure**, not these rates or outcomes. Hospital candidates must preserve urgency, identity, custody and fallback; utility candidates must produce accepted point measurements with review and residual physical duties. A policy score, a collected episode or an integrated model is still an intermediate output. Both packs need their own eligibility, trial-resource, retained-cohort and supported-delivery records before this mechanism can be populated with operating evidence.
+
+## What this closes and what remains open
+
+Sixteen exact worlds add bounded DE-CF14 no-learning/no-transfer and DE-CF09 qualified-configuration supply delay. The shared support priority strengthens the partial DE-CF10 mechanism. Twelve named families now have bounded implementations; the 111 total worlds do not close empirical whole-system costs or full campaign acceptance. Earlier scenarios and source claims are preserved.
+
+The next decision-changing investigation should seek an actual sustained deployment whose operator, provider, hardware configuration, support obligation and change history can be connected. It should identify what changed in accepted service after an update, what stayed on the old configuration, what the deployment consumed and what was paid or still owed. Until then, candidate gains, trial thresholds, engineering supply, module delivery, rights and costs remain explicit hypotheses. A successful replay verifies the accounting and causal gates of that hypothesis, not the real-world business case.

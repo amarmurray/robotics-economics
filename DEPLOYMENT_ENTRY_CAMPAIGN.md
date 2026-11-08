@@ -56,3 +56,8 @@ Eighteen [physical workcell worlds](research/automotive_workcell_decision.md) ad
 ## R&D qualification evidence checkpoint, edition 0.21
 
 Four primary-source records deepen substantial H and I/K through [R&D-to-qualified-service analysis](research/learning_qualification.md). They preserve inherited resources, partial credit, held-out embodiment boundaries, independent simulation/physical workflows and self-assessment limits. Ten families remain bounded implementations; proposed no-learning/no-transfer/support/supply contracts are not new completed replays. Prior scenarios are unchanged. The same T0/deadline and in-progress objective continue.
+
+
+## Funded learning checkpoint, edition 0.22
+
+Sixteen [qualification worlds](research/learning_execution.md) add bounded DE-CF09 runtime-module supply delay and DE-CF14 no-learning/no-transfer. Shared engineering priority deepens partial DE-CF10; full expanding-fleet scheduling remains open. Twelve families and 111 worlds now have bounded coverage, without claiming empirical learning curves or full acceptance. The same T0/deadline and sole-writer objective continue.

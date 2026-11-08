@@ -51,3 +51,8 @@ This bounded public-source investigation stops with two versioned primary cases 
 ## R&D-to-qualification continuation, edition 0.21
 
 [The qualification analysis](learning_qualification.md) extends this package with DreamGen, XEWorld and two NVIDIA integration/readiness sources. Physical policy partial credit, simulated video metrics, technical self-assessment and supported commercial capacity remain different observations. Inherited grounding, manual preparation, generation compute and retained-cohort regression now inform an explicit measurement contract. Four proposed no-learning/no-transfer/support/supply challenges remain unimplemented as new families; no source score changes the annual learning coefficient.
+
+
+## Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.

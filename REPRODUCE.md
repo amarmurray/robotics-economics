@@ -24,6 +24,7 @@ python3 scripts/export_conventional_coordination.py --check
 python3 scripts/export_entry_transitions.py --check
 python3 scripts/export_utility_inspection.py --check
 python3 scripts/export_automotive_workcell.py --check
+python3 scripts/export_learning_execution.py --check
 python3 scripts/export_trajectory.py
 python3 scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json
 python3 scripts/build_continuation.py
@@ -236,3 +237,8 @@ Export a case, then replay with `python3 scripts/export_automotive_workcell.py -
 ## Inspect R&D qualification evidence
 
 Learning & coordination and Digital AI ecosystem share the source-driven **R&D progress → qualified operating capacity** panel. Select generated data, embodiment transfer or integration to inspect the established claim, remaining decision gap and next test. Source buttons honor evidence filters; reference populations do not become selected-cell operating data. Expand the version/conflict record and export the selected evidence route with its package hash and complete referenced claims. This is a fixed evidence export, not an editable scenario or robot-evaluation result. Existing scenario export/reload remains separate. See [the analysis](research/learning_qualification.md).
+
+
+## Funded learning and qualification
+
+The Learning view executes sixteen synthetic data/qualification/support worlds on the unchanged automotive workcell. Edit the finite resource, eligibility, hypothesized rate, delivery and cash controls; apply recomputes through the local API. Export/reload preserves complete inputs and recomputes outcomes. Replay with `python3 scripts/export_learning_execution.py --case saved-case.json --output replay.json`. Source scores never calibrate candidate performance. [Methods and accounting boundaries](model/LEARNING_EXECUTION.md) distinguish trials, customer service, unique episodes, module orders and persistent units.

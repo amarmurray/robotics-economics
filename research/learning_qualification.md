@@ -62,3 +62,8 @@ The existing campaign already has bounded workcell, inspection, coordination, fi
 **Qualified supply delay:** preserve a financed order, its cash and physical identity when compatible delivery or qualification occurs too late. No order count becomes an operational unit before readiness; no later delivery backfills missed due service. This challenge needs an explicit delivery/commissioning/qualification boundary rather than a generic scalar shortage.
 
 The next implementation should join these contracts to existing physical and Treasury mechanisms, with one service unit and no duplicated fleet. First test the strongest conventional improvement, such as better buffering or measured retooling, against the learning proposal. Then ask whether a funded R&D change yields enough additional accepted service, soon enough, to justify its opportunity cost. The current sources establish useful methods and important limits; they do not yet determine that economic choice.
+
+
+## Funded qualification follow-up, edition 0.22
+
+The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
