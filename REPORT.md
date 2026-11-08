@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.38, funded entry and actual renewal checkpoint, 8 November 2026. Share closing, inherited obligations and customer contracts now share one physical and cash history. Equity reclassification, new awards, regained work and internal reassignment remain separate. A served market can coexist with target arrears. Fourteen families contain215 bounded worlds, with all prior numerical outcomes preserved. Full empirical economics and broader joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
+Edition 0.39, funded recovery and actual retention checkpoint, 8 November 2026. Original paid title, company entry, debt, eligible owner transfer and customer renewal now share one execution. Cash cure can restore human service before robot reuse; exact asset funding can leave operations unpaid. Fourteen families contain228 bounded worlds, with prior outcomes preserved. Full empirical economics and broader joint integration remain incomplete. This is **an early checkpoint of the same active 168-hour campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -153,6 +153,12 @@ This completes a bounded decision bridge, not the campaign. Prioritize joining c
 [Joint entry and renewal](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) separates acquired contract volume from new awards and internal reassignment. A platform can own a larger customer book without creating service or new demand. A transition interruption changes actual delivery and later retention; locked contracts can worsen the missed-work consequence. Overall market service can stay complete while the acquired company accrues unpaid bills, because a separate operating firm supplies the work. Keep the parent, target, provider and growth accounts distinct and test inherited liabilities after purchase, rather than treating acquisition price or group ownership as working capital.
 
 The stronger paid human/incumbent alternative remains consequential. Its assumed digital capacity and declared response can prevent entrant wins at lower bounded resource cash. These experiments deepen entry/competition integration; recovery, full shared staffing/resources, learning, whole-service evidence and six-cell joint feasibility remain open.
+
+### Cash recovery, physical reuse and service retention, edition 0.39
+
+[Thirteen combined worlds](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) show that a service recovery attributed to a robot transaction can actually arise from the seller's restored human operation after debt cure. The original unit is manufactured and paid for in the same history; title never follows automatically from company shares. Later failed qualification retains the asset payment and stranded unit, yet can leave market service unchanged. A fully staffed human buyer can already cover the obligation without buying the asset.
+
+The all-payer boundary includes outside customer switching resources and separately retains creditor claims, legal cash and physical assets. Exact asset-purchase funding can crowd out operating cash. Apply these gates to all three packs and six cells alongside H software/coordination alternatives and I/J/K configuration/support rights; transfer no synthetic cleaning coefficient. Complete empirical service economics and full resource/learning composition remain partial.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -374,6 +380,12 @@ The integration queue is now explicit. First reconcile the competitive renewal a
 Ten [joint entry/renewal worlds](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) preserve one physical/cash history, acquired company liabilities, funded growth and actual prior service. Equity reclassification, first new contract-lot awards, regained work and common-owner reassignment are separate. Fourteen challenge families now contain **215 bounded worlds**, with all previous outcomes preserved. The target's arrears can rise even when the combined market is fully served; acquisition funding is not operating solvency.
 
 For each of the three service packs, verify operating consent and customer renewal/breach terms alongside payer budgets and complete required work. For the other three retained cells, keep equal technology and digitally improved incumbents in the entry comparison. Do not transfer synthetic cleaning contract prices or infer independent competition after common ownership. Next join eligible recovery and qualification to this transition boundary while preserving old liabilities and failed paid work. Shared staff, annual commitments, typed parts and model-rights/learning constraints remain separately executed until their contracts can be made compatible.
+
+#### Funded recovery under actual customer commitments, edition 0.39
+
+The [joint recovery/retention analysis](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) advances DE-04/05 through original paid title, outside finance, common-owner legal accounts, debt cure, qualified reuse and locked customer commitments in one execution. Fourteen families now contain228 bounded worlds. Neither creditor recovery nor robot support implies added whole-market service; a paid human buyer or a separately funded target can preserve the obligation differently. Compare complete service before cash and retain outstanding claims and assets.
+
+The hospital, utility and automotive packs now require original asset-funding history, actual title/configuration/support rights, dated payer cash, retained service and destination acceptance. Cleaning, tote and construction retain the same conceptual gate without copied numbers. Next prioritize decision-changing public operating evidence or a substantial H/other-cell empirical challenge; the large synthetic matrix cannot substitute for real staffing, all-request service, every-payer costs or rights.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1701,6 +1713,28 @@ The stronger human/competitive-response case keeps the same paid staff and softw
 
 For hospital, utility and automotive packs, acquisition and operating-contract eligibility are separate gates. Verify actual control/consent, inherited obligations, funding after transaction costs, service interruption, renewal or breach rights and the competent incumbent alternative before interpreting acquired revenue as entry advantage. The numerical cleaning prices, contracts, staff and disruption assumptions do not transfer. The joint model still lacks the shared crew, annual/typed-part constraints, four-architecture roles, asset recovery and endogenous learning from other modules; it does not establish a simultaneously feasible six-cell portfolio.
 
+#### Funded recovery and actual retention, edition 0.39
+
+The [combined recovery execution](model/results/recovering_entry.json) joins company entry, real scheduled payments, robot ownership, debt default, relocation, qualification and actual customer renewal in one physical/Treasury history. It adds thirteen bounded challenges inside the existing families, bringing their total to228. The common-owner firms retain separate declared offer mandates and legal bank accounts. This is neither optimal restructuring nor an empirical estimate of acquisition/recovery value.
+
+**The robot has a paid history.** The standard case opens with no installed or finished robot. The provider spends $36,000 manufacturing one identified unit. An outside lender actually advances $60,000 to the target; the target later pays the provider $60,000 for the robot, which ships in month1 and is commissioned in month2. The parent separately buys the target's shares in month2. A subsequent asset sale names that same unit, a distinct operating-company buyer, actual title, current default, explicit release/configuration rights, $30,000 consideration, $1,000 relocation and two months to arrival. Neither share ownership nor a loan claim grants a right to sell a lessor's robot. The lease comparison has different actual payment flows and no target debt default here; it is a title-refusal control, not a matched default experiment.
+
+**Cash cure can restore service before physical reuse.** With no sale, the target defaults in month4 and the eight-month market receives2,400 of4,000 zones, with $20,732.58 principal still owed. With the funded $30,000 sale, the target remains in default in the sale month because debt servicing already occurred. Next month's scheduled settlement pays its remaining debt and restores its human operation. The whole market returns to500 zones in month5; the relocated robot first qualifies and receives support in month6. The window totals3,600 zones: the400 missed in month4 are never restored. Sale price is an internal transfer, while principal payment actually returns funds to the outside lender.
+
+The destination may never qualify the robot, or it may arrive after the observation window. Both cases retain the paid sale and relocation, leave a buyer-owned stranded unit, repay the target debt and still deliver the same3,600 total zones through the recovered human operation. Therefore the whole-market service recovery in this fixture cannot be attributed to successful robot reuse. Actual operator allocation and expenditures differ: all-payer resource/transaction cash is $137,315.16 with successful qualification and $127,582.58 with no qualification. Those are conditional window outlays with different retained assets, not lifecycle cost or returns.
+
+A lower $20,000 sale price permits physical reuse in month6 but leaves the target in default with $5,782.58 of principal outstanding. Only2,850 zones are delivered. Thus successful robot relocation does not itself cure the seller or preserve the complete service obligation. With locked three-month customer terms and no breach exit, the $30,000 transfer case loses500 zones in its default month rather than400; later cash and service recovery leave that shortfall intact.
+
+**The purchase boundary is not an operating-funding boundary.** $46,050 of initial growth-company equity leaves exactly $31,000 available at the month4 offer, enough for purchase plus initial relocation. One cent less refuses both contingent payments and leaves title unchanged. The exact-funded purchase nonetheless empties the buyer's operating funds, leaves the robot uncommissioned at the horizon and delivers only3,400 zones. This is the same distinction highlighted by the earlier fallback-reserve investigation: funds committed to an asset can remove the cash needed for service. The separate workforce/resource execution has not been silently joined here.
+
+A $30,000 parent-to-target equity injection at the earlier share closing prevents target default, so the recovery policy refuses an unnecessary owner sale. All4,000 zones are served; the parent retains only $4,000. The operating companies, parent and financier face different cash positions from the asset-sale route. This declared prior action is not an optimized funding policy, an automatic group cash pool or evidence of a real financing offer.
+
+The competent human-buyer pair pays the entrant the same $4,000 monthly staff budget as the incumbent and recomputes capacity from the existing wage/task/calendar mapping. With or without the later robot purchase it serves all4,000 zones. Buying the robot raises all-payer resource/transaction outlay from $146,632.58 to $158,565.16 without adding accepted service, while returning more actual cash to the lender and reducing its remaining principal claim. Creditor recovery and service productivity are different outcomes. The digital-human mapping and fixed firm offers remain synthetic; no observed staffing removal or digital uplift is inferred.
+
+The all-payer figures above add outside customer switching resources to the existing fixed operator/provider/parent/seller boundary. They count manufacture, paid staffing/software and transaction/relocation/qualification resources once. Internal hardware and later asset prices, equity and loan principal remain separately traced transfers; outstanding operating bills, interest, credit claims and physical assets are retained, not converted to profit or terminal value.
+
+For hospital logistics, utility inspection and automotive presentation, verify ownership and configuration/support rights separately from company control; reconstruct actual original asset funding and every payer; and test retained service while sale, debt cure, relocation and requalification occur at different times. Software/model access, customer acceptance, residual physical duties and provider support belong in those gates. The same method challenges cleaning, tote handoff and construction; no cleaning price, staffing ratio or deadline transfers to those services. Shared crew, annual resources, typed parts, four intelligence architectures, endogenous learning and a simultaneously feasible six-cell portfolio remain separately executed or incomplete. Actual matched full-service costs, labor transitions, rights and residual values remain empirical gaps.
+
 #### Reproduced funded entry worlds
 
 | Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |
@@ -1739,6 +1773,26 @@ Generated from [entry_transitions.json](model/results/entry_transitions.json). P
 | human_competitive_response | 8 | 0 | 0 | 0 | 140,000.00 | 71,700.00 |
 
 Generated from [renewing_entry.json](model/results/renewing_entry.json). Contract volume is not accepted service. Window cash is not terminal value or ROI; operating companies retain their liabilities and separate funding.
+
+#### Reproduced recovery and retained-service executions
+
+| Recovery/retention world | Sale | Complete months /8 | Accepted zones | Buyer first support month | Remaining principal USD | All-payer resource/transaction cash USD |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| funded_owner_sale | True | 7 | 3,600.00 | 6 | 0.00 | 137,315.16 |
+| no_asset_sale | False | 4 | 2,400.00 | None | 20,732.58 | 106,632.58 |
+| low_sale_proceeds | True | 4 | 2,850.00 | 6 | 5,782.58 | 122,165.16 |
+| leased_title_refused | False | 8 | 4,000.00 | None | 0.00 | 125,247.74 |
+| configuration_rights_unavailable | False | 4 | 2,400.00 | None | 20,732.58 | 106,632.58 |
+| exact_buyer_funding | True | 6 | 3,400.00 | None | 0.00 | 118,732.58 |
+| one_cent_short | False | 4 | 2,400.00 | None | 20,732.58 | 106,632.58 |
+| qualification_unavailable | True | 7 | 3,600.00 | None | 0.00 | 127,582.58 |
+| arrival_after_horizon | True | 7 | 3,600.00 | None | 0.00 | 127,582.58 |
+| prior_target_equity | False | 8 | 4,000.00 | None | 0.00 | 125,247.74 |
+| locked_customer_commitments | True | 7 | 3,500.00 | 6 | 0.00 | 130,465.16 |
+| paid_human_buyer_sale | True | 8 | 4,000.00 | 6 | 23,382.58 | 158,565.16 |
+| paid_human_buyer_no_sale | False | 8 | 4,000.00 | None | 48,332.58 | 146,632.58 |
+
+Generated from [recovering_entry.json](model/results/recovering_entry.json). All-payer cash includes outside customer switching resources. Internal asset price and loan principal are separately traced transfers. Original title is funded; debt cure, supported reuse and actual customer service remain different events. Retained assets/claims preclude lifecycle ROI.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 
@@ -2074,6 +2128,10 @@ The [public finance page](https://mobile-industrial-robots.com/service-support/f
 The five gates in FG-AUDIT-03 therefore ask for: actual title and permitted disposition; company-control and assignment review; target variations and retained claims; funded support/qualification/fallback; and a reconciled payment/service denominator. Six explicit unknowns remain. Proceed only to a target measurement case when those records reconcile. Wait where applicability, consent or operational coverage remains uncertain. Reject a purported economic comparison that converts a transaction label or low advertised hourly amount directly into dependable service. These are research gates, not a determination of enforceability or a commercial instruction.
 
 No synthetic world, operating coefficient or empirical full-cost criterion is added or closed. Fourteen bounded families / 158 worlds remain, under the same in-progress campaign clock. The next substantive model gap is joining annual fleet/component/resource constraints and competing customer commitments; the next empirical gap is a complete target operating and contractual record.
+
+#### Entry, renewals and paid original title, edition 0.39
+
+[The combined recovery analysis](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) now starts from a unit manufactured and purchased inside the observation window, retains company acquisition and actual customer renewals, and separates cash cure from physical reuse. A funded intra-platform owner sale can restore the target's human service before the robot reaches the buyer; identical market service can persist when destination qualification never occurs. Exact purchase funding can leave operations unfunded. These results deepen the existing recovery contract without replacing its original fourteen cases or inferring rights to leased assets. Every earlier numerical result remains unchanged.
 
 #### Reproduced funded recovery worlds
 

@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: entry and actual renewal, edition 0.38
+## New decision campaign: recovery and actual retention, edition 0.39
+
+The joint execution advances DE-04/05/08/09/10 through original paid title, financial cure, physical reuse, actual customer commitments and every-payer cash. Broad empirical requirements remain partial; same campaign deadline **2026-11-14T20:12:27Z**.
+
+Fresh cloud validation passes **532 Python tests** in 409.993s, **36 Node assertions**, **19 JavaScript syntax checks** and **51 reproduction/Node commands**. Five exact exports (frontier, shared workforce, entry/renewal, recovery/retention and source arithmetic) match. All **13 dashboard views**, **13 new recovery worlds**, **10 prior entry worlds**, **18 prior workforce worlds**, six prior reference panels and two historical source drawers pass. Exact buyer-funding and prior parent/workforce cent/minute boundaries, qualification toggle, full replay ignoring derived outcomes, pending/invalid/stale safeguards, shared state and scenario/source independence pass. Both new recovery screenshots were visually reviewed.
+
+All **1,568,828 prior typed numeric fields across 37 JSON result artifacts** and prior non-fingerprint semantics are unchanged. 24 artifacts are byte-identical; 13 change only exact evidence/source fingerprints and dependent identities. Thirteen new cases are a separate result artifact. Prior model edits only extract the recovery lifecycle and entry/recovery result-section formatters; all other model code, assumptions, source records and labor rows remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**, with all 69 requirement and 65 question statuses preserved. The evidence registry remains **13 packages, 220 claims, 498 quantities and 146 explicit-null markers**. Fourteen families contain **228 bounded worlds**, not a jointly feasible six-cell portfolio or empirical validation.
+
+All **358 manifest hashes** and **873 relative Markdown links** verify. See the [sole-writer review](reviews/entry_transitions_review.md#edition-039-sole-writer-recovery-review).
+
+## Previous decision checkpoint: entry and actual renewal, edition 0.38
 
 The joint execution advances DE-03/05/08/09/10 with acquired-versus-won contracts, inherited bills, actual service/retention and separate operating funds. All broad empirical requirements remain partial; same campaign deadline **2026-11-14T20:12:27Z**.
 

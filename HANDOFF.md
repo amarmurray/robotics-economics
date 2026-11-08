@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.38.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.39.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded entry and actual renewal, edition 0.38
+## Current checkpoint: funded recovery and actual retention, edition 0.39
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `ce6a86687d758068a2b346e34b7c1057a74eacd6` matched clean local and remote main. Actual shell, model and browser execution advanced the recovery/retention investigation. No current runtime or usage failure is observed. Native goal/quota/reset controls and serving-model introspection remain unexposed; no replacement, new goal, duplicate schedule, agent, reset or continuous-execution claim.
+
+[The joint recovery module](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) starts with actual manufacture and hardware purchase, then preserves share acquisition, outside finance, legal title, eligible owner sale, destination qualification and actual customer renewals in one physical/Treasury run. The standard fixture opens with no robot. Original $36,000 manufacture, $60,000 target hardware payment and $60,000 outside loan all execute; shares and robot title remain separate. The leased control refuses a sale by the operating company and has a different funding/default history.
+
+In the $30,000 owner-sale case, the target defaults in month4, repays/cures in month5 and resumes human service before the robot qualifies at the buyer in month6. Failed destination qualification still produces the same3,600 accepted zones through cash cure, retaining the paid transaction and stranded asset. With no sale only2,400 zones are served; a $20,000 sale leaves $5,782.58 principal owed and2,850 zones. None restores the missed past work. Locked customer commitments can worsen the missed month.
+
+At $46,050 initial growth equity the buyer has exactly $31,000 for purchase/relocation; one cent less refuses atomically. The exact-funded purchase still leaves operations unfunded and the asset uncommissioned, producing3,400 zones. A prior $30,000 target injection prevents default and preserves all4,000 zones but leaves the parent $4,000. A sufficiently staffed paid-human buyer serves all4,000 zones with or without buying; purchase adds $11,932.58 all-payer resource/transaction cash while improving lender recovery. Creditor recovery, financial cure and productive reuse are distinct. No optimal restructuring, actual rights, valuation or lifecycle ROI is claimed.
+
+Fresh cloud validation passes **532 Python tests** in 409.993s, **36 Node assertions**, **19 JavaScript syntax checks** and **51 reproduction/Node commands**. Five exact exports (frontier, shared workforce, entry/renewal, recovery/retention and source arithmetic) match. All **13 dashboard views**, **13 new recovery worlds**, **10 prior entry worlds**, **18 prior workforce worlds**, six prior reference panels and two historical source drawers pass. Exact buyer-funding and prior parent/workforce cent/minute boundaries, qualification toggle, full replay ignoring derived outcomes, pending/invalid/stale safeguards, shared state and scenario/source independence pass. Both new recovery screenshots were visually reviewed.
+
+All **1,568,828 prior typed numeric fields across 37 JSON result artifacts** and prior non-fingerprint semantics are unchanged. 24 artifacts are byte-identical; 13 change only exact evidence/source fingerprints and dependent identities. Thirteen new cases are a separate result artifact. Prior model edits only extract the recovery lifecycle and entry/recovery result-section formatters; all other model code, assumptions, source records and labor rows remain unchanged. Legacy acceptance stays **53 bounded met / 16 partial**, with all 69 requirement and 65 question statuses preserved. The evidence registry remains **13 packages, 220 claims, 498 quantities and 146 explicit-null markers**. Fourteen families contain **228 bounded worlds**, not a jointly feasible six-cell portfolio or empirical validation.
+
+All **358 manifest hashes** and **873 relative Markdown links** verify. All-payer cash additionally reconciles to actual cash received by every named resource vendor, including outside customer switching resources. Internal consideration, equity and principal remain transfers; retained bills, claims and assets stay visible. This is sole-writer self-review, not independent review.
+
+**Next execution:** prioritize decision-changing permitted primary operating evidence and a substantial H/other-cell empirical challenge, rather than more favorable cleaning variants. Test whether a dated record can distinguish digital/physical productivity from financing, retained staff, full-service denominators and access rights. Reassess all six cells and three packs, preserve H/I/J/K, and keep restricted/request-only/authenticated/403/paid routes closed. Broader shared-workforce/resource/parts/architecture/learning composition remains incomplete until demonstrated in one compatible execution.
+
+**Remaining limits:** actual all-request service, paid workforce transitions, support/repair and customer-response terms, all-payer lifecycle costs, rights and terminal values remain unresolved. No commercial action or restricted-source retry occurred. **Next question:** which permitted operating record can discriminate a real service-capacity improvement from a financial or organizational change while retaining every payer and residual obligation?
+
+## Previous checkpoint: funded entry and actual renewal, edition 0.38
 
 Same sole writer and active campaign: **2026-11-07T20:12:27Z** to **2026-11-14T20:12:27Z**. Input `3a87a79fa0266edbeec749f3bd654fbb57a7189a` was the clean accepted checkpoint. Actual cloud execution advanced the combined entry/renewal module. No current runtime or usage blocker is observed; goal/quota/reset controls and serving-model introspection remain unexposed. No replacement, duplicate schedule, agent, reset or continuous-execution claim.
 

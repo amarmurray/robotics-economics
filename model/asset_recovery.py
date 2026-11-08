@@ -43,9 +43,9 @@ class RecoveryPolicy:
             raise ValueError('Recovery terms exceed bounded scenario limits')
 
 
-class _RecoveryEnterprise(_BridgedEnterprise):
-    def __init__(self,plan,contracts,treasury,enterprise,finance,bridge,recovery):
-        super().__init__(plan,contracts,treasury,enterprise,finance,bridge)
+class RecoveryHooks:
+    """Owner-sale lifecycle on one initialized physical/financial enterprise."""
+    def initialize_recovery(self,plan,contracts,treasury,enterprise,finance,bridge,recovery):
         if not isinstance(recovery,RecoveryPolicy):raise ValueError('Explicit recovery policy required')
         if recovery.offer_month>=plan.months:raise ValueError('Offer outside horizon')
         if recovery.buyer_operator not in self.by_site:raise ValueError('Unknown recovery buyer operator')
@@ -159,6 +159,12 @@ class _RecoveryEnterprise(_BridgedEnterprise):
                 'Full insolvency, taxes, asset impairment, cancellation damages, disposal and empirical whole-life economics remain incomplete'])
 
 
+class _RecoveryEnterprise(RecoveryHooks,_BridgedEnterprise):
+    def __init__(self,plan,contracts,treasury,enterprise,finance,bridge,recovery):
+        super().__init__(plan,contracts,treasury,enterprise,finance,bridge)
+        self.initialize_recovery(plan,contracts,treasury,enterprise,finance,bridge,recovery)
+
+
 def recovery_source_hashes():
     return {**bridge_source_hashes(),'model/asset_recovery.py':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
 
@@ -172,6 +178,15 @@ def run_asset_recovery(plan,treasury,contracts,enterprise,finance,bridge,recover
     r['enterprise']=policy.enterprise_result(r)
     r['enterprise']['limits']=[x for x in r['enterprise']['limits'] if not x.startswith(('No automatic loan','No annual cleaning-zone'))]
     r['finance']=policy.finance_result(r);r['calendar_bridge']=policy.bridge_result(r)
+    add_recovery_sections(policy,r,recovery)
+    r['source_sha256']=recovery_source_hashes();r=wire_rationals(r)
+    r['rational_wire_format']='decimal_string_numerator_and_denominator_for_lossless_JSON'
+    r['case_hash']=hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    return json.loads(json.dumps(r))
+
+
+def add_recovery_sections(policy,r,recovery):
+    enterprise,plan=policy.enterprise,policy.plan
     r['asset_recovery']=policy.recovery_result(r)
     def total_service(name=None):
         return sum((rational(o['total_delivered_units']) for m in r['enterprise']['months'] for o in m['operators'] if name is None or o['operator_id']==name),Fraction())
@@ -192,10 +207,6 @@ def run_asset_recovery(plan,treasury,contracts,enterprise,finance,bridge,recover
         for row in r['finance']['months']:
             row['cash_recovery_only']=False
             row['assets_sold_or_repossessed']=[e['unit_id'] for e in policy.recovery_events if e['action']=='asset_sold' and e['month']==row['month']]
-    r['source_sha256']=recovery_source_hashes();r=wire_rationals(r)
-    r['rational_wire_format']='decimal_string_numerator_and_denominator_for_lossless_JSON'
-    r['case_hash']=hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    return json.loads(json.dumps(r))
 
 
 def replay_asset_recovery(saved):

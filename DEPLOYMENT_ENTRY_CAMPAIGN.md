@@ -130,3 +130,7 @@ Nine additional [shared-workforce worlds](research/shared_workforce.md#prospecti
 ## Funded entry and actual renewal checkpoint, edition 0.38
 
 Ten [joint entry/renewal cases](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) deepen existing DE-CF06/07/renewal challenges: fourteen families now contain215 bounded worlds. They execute share settlement, inherited bills, separate growth cash, actual service and customer contracts in one physical/Treasury run. Equity reclassification is not a customer win, regained work is not new demand, and a served market can coexist with target arrears. No empirical calibration or campaign completion follows. Same T0, November14 deadline, sole writer and full A–K scope continue.
+
+## Funded recovery and retained service checkpoint, edition 0.39
+
+Thirteen [joint recovery worlds](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) deepen the existing title/entry/renewal challenges: fourteen families contain228 bounded worlds. Actual original manufacture/purchase and outside finance precede a separately eligible asset transfer. Cash cure can restore human service before robot reuse; exact purchase funding can leave operations unfunded. Prior outcomes and broad empirical gaps remain. This is an early checkpoint of the same November7–14 campaign, not completion or a new goal.

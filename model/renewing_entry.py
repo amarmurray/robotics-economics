@@ -84,6 +84,13 @@ def run_renewing_entry(plan,treasury,contracts,enterprise,finance,bridge,competi
     policy=_RenewingEntry(plan,contracts,treasury,enterprise,finance,bridge,competition,transition)
     r=run_monthly(plan,treasury,commercial=policy)
     r.update(schema_version='renewing-entry-window/0.1',scope='synthetic_share_acquisition_and_actual_contract_renewal',ownership='legal_asset_title_separate_from_ultimate_equity_and_customer_contract_assignment')
+    add_entry_renewal_sections(policy,r)
+    r['source_sha256']=source_hashes();r=canonical_wire(r)
+    r['case_hash']=hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    return json.loads(json.dumps(r))
+
+
+def add_entry_renewal_sections(policy,r):
     r['commercial']=policy.result(r);r['commercial']['limits']=['See renewing_entry, entry_transition, competition and finance scopes.']
     r['enterprise']=policy.enterprise_result(r);r['enterprise']['limits']=['One fixed recurring market with dated company acquisition and separate mandated offers; see joint boundary.']
     r['finance']=policy.finance_result(r);r['calendar_bridge']=policy.bridge_result(r)
@@ -92,9 +99,6 @@ def run_renewing_entry(plan,treasury,contracts,enterprise,finance,bridge,competi
     assert r['entry_transition']['consolidation']['unclassified_boundary_cash_cents']==0
     assert r['finance']['consolidation']['unclassified_other_boundary_cash_cents']==0
     assert sum(a['cash_cents'] for a in r['opening_treasury']['actors'])==sum(a['cash_cents'] for a in r['closing_treasury']['actors'])
-    r['source_sha256']=source_hashes();r=canonical_wire(r)
-    r['case_hash']=hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    return json.loads(json.dumps(r))
 
 
 DEFAULTS=dict(mode='hybrid',buyer_cash_cents=20_000_000,target_cash_cents=2_500_000,

@@ -163,3 +163,9 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 **Conditional thesis:** acquiring an operating company can transfer an existing contract book without creating new demand or removing its obligations. [The joint execution](research/entry_transitions.md#actual-renewal-and-company-entry-edition-038) distinguishes acquired volume, new lot awards, regained work and internal reassignment. Parent cash closes the transaction; target and growth cash fund service separately. A fully served market does not imply a funded acquired company.
 
 **Challenge:** interruption can lose service despite later retention, locked contracts can keep work stranded, failed closing retains prior diligence, and a stronger human incumbent can prevent entrant wins. Common ownership uses explicit separate offer mandates; no independent competition or optimized group policy is inferred. No real valuation, synergy, payroll effect or lifecycle return is identified.
+
+## Recovery value must identify its causal channel, edition 0.39
+
+**Conditional thesis:** a robot owner-sale can improve creditor recovery or cure an operating company without adding robot-produced service. [The joint history](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) restores the target's human service before physical reuse; the same whole-market result survives failed destination qualification. Conversely, successful relocation at a lower sale price leaves debt default and incomplete service.
+
+**Challenge:** exact purchase funding leaves operations exposed, common ownership grants neither title nor a cash pool, and competent paid human coverage can make the asset service-redundant. Prior working equity is a separate funded alternative with different parent liquidity. Retained assets/claims and all-payer switching/relocation costs prevent an ROI or preferred-transaction conclusion.

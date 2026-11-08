@@ -1,0 +1,45 @@
+'use strict';
+let recoveringEntryState={data:null,current:null,selection:'funded_owner_sale',inputs:{},imported:false,loading:false,error:'',requestId:0};
+function recoveringEntryPanel(){
+ const s=recoveringEntryState,visible=()=>['customer','commercial'].includes(activeView);
+ if(!s.data&&!s.loading&&!s.error){s.loading=true;fetch('/api/recovering-entry').then(async r=>{const d=await r.json();if(!r.ok)throw Error(d.error||'Entry and recovery unavailable');s.data=d;s.current=d.cases.funded_owner_sale;}).catch(e=>s.error=e.message).finally(()=>{s.loading=false;if(visible())render();});}
+ const head='<section id="recovering-entry"><h3>Restoring cash and reusing a robot are different recoveries</h3>';
+ if(!s.data)return head+empty(s.error||'Loading funded title, recovery and customer service…')+'</section>';
+ const r=s.current,g=r.recovering_entry,a=r.asset_recovery,p=a.inputs,q=v=>Number(v.numerator)/Number(v.denominator),cash=v=>'$'+fmt(v/100,2);
+ const field=(key,label,value,money=true)=>`<label>${esc(label)}<input data-rc-key="${key}" data-rc-money="${money}" type="number" min="0" step="${money?'.01':'1'}" value="${money?value/100:value}"></label>`;
+ const growth=r.enterprise.inputs.equity.filter(x=>x.funder_actor==='platform_buyer'&&x.recipient_actor==='entrant').reduce((n,x)=>n+x.amount_cents,0);
+ const controls=s.imported?'<p>Complete opening inputs were replayed. Select a standard world to edit shortcut controls.</p>':`<details id="recovering-entry-controls"><summary>Edit buyer funding, transfer price and readiness</summary><div class="grid">${field('growth_equity_cents','Parent funding of growth company, USD',growth)}${field('price_cents','Asset transfer price, USD',p.price_cents)}${field('relocation_months','Relocation delay, months',p.relocation_months,false)}<label>Destination configuration eligible<select data-rc-key="qualification_eligible" data-rc-boolean="true"><option value="true" ${p.qualification_eligible?'selected':''}>Yes, explicitly assumed</option><option value="false" ${p.qualification_eligible?'':'selected'}>No</option></select></label></div><button id="apply-recovering-entry">Apply and recompute</button></details>`;
+ return head+notice('Synthetic company entry, actual renewals and owner-asset recovery share one history. The standard fixture manufactures and pays for the original robot. Share ownership, robot title, separate bank accounts and customer contracts remain distinct. A transfer is not a valuation or a service guarantee.',true)+
+ `<label>Recovery and retention world<select id="recovering-entry-case">${Object.keys(s.data.case_inputs).map(k=>`<option value="${k}" ${s.selection===k?'selected':''}>${esc(title(k))}</option>`).join('')}${['custom','imported'].includes(s.selection)?`<option selected value="${s.selection}">${esc(title(s.selection))}</option>`:''}</select></label>`+controls+
+ `<p id="recovering-entry-state" role="status" class="small">${esc(s.error||'Display and export use applied inputs. Annual scenario controls do not change this separate execution.')}</p>`+
+ `<div class="grid">${metric('Asset sale',a.summary.sale_completed?'Completed':'Not completed','Title transfer requires current eligibility and actual funds')}${metric('Accepted zones',fmt(q(a.summary.accepted_zones),2),'Across '+r.enterprise.months.length+' months; '+a.summary.due_zones+' required')}${metric('Remaining seller principal',cash(a.summary.closing_principal_claim_cents),'Outside credit claim; operating bills remain separate')}${metric('Buyer robot first supported',a.summary.first_buyer_supported_month===null?'Never':a.summary.first_buyer_supported_month,'Month index; cash cure and service recovery may occur earlier')}</div>`+
+ table(g.months,[['month','Month'],['accepted_zones','Accepted zones',v=>fmt(q(v),2)],['unserved_zones','Unserved zones',v=>fmt(q(v),2)],['title_owner','Robot title',esc],['physical_state','Physical state',esc],['supported','Supported',v=>v?'Yes':'No'],['seller_defaulted','Seller default',v=>v?'Yes':'No'],['seller_principal_claim_cents','Principal claim USD',cash],['assigned_units','Assigned zones',v=>`Target ${v.incumbent} / growth ${v.entrant}`]])+
+ `<details id="recovering-entry-comparison"><summary>Compare ${s.data.summary.length} complete recovery and retention executions</summary>${table(s.data.summary,[['case','World',v=>esc(title(v))],['sale_completed','Sale',v=>v?'Yes':'No'],['complete_months','Complete months'],['accepted_zones','Accepted zones',v=>fmt(q(v),2)],['first_buyer_supported_month','Buyer support month',v=>v===null?'Never':v],['closing_principal_claim_cents','Remaining principal USD',cash],['parent_closing_cash_cents','Parent cash USD',cash],['all_payer_resource_and_transaction_cash_cents','All-payer resource cash USD',cash]])}<p>${esc(s.data.comparison_boundary)} The all-payer cash figure includes outside customer switching resources; internal asset price and loan principal are transfers, with their claims retained separately.</p></details>`+
+ `<details id="recovering-entry-ledger"><summary>Inspect original paid title, sale, debt, qualification and customer records</summary><p>Sale proceeds cannot cure an already evaluated default in the same month. Later service does not repair past misses. An asset purchase at the exact funding boundary can leave operations unfunded.</p><pre>${esc(JSON.stringify({recovery_boundary:g,asset_recovery:a,entry:r.entry_transition,renewals:r.competition,finance:r.finance,source_sha256:r.source_sha256},null,2))}</pre></details>`+
+ `<p><button id="export-recovering-entry">Export complete recovery case</button> <label>Reload recovery case<input id="import-recovering-entry" type="file" accept="application/json,.json"></label></p><p class="small">Case ${esc(r.case_hash.slice(0,14))}. <a href="/research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039" target="_blank">Decision findings ↗</a> · <a href="/model/ENTRY_TRANSITIONS.md" target="_blank">Methods ↗</a></p></section>`;
+}
+function buildRecoveringEntryEvents(){
+ const s=recoveringEntryState,visible=()=>['customer','commercial'].includes(activeView);
+ const fail=message=>{s.error=message+' Display and export retain the last applied case.';if($('recovering-entry-state'))setText('recovering-entry-state',s.error);};
+ const calculate=async(body,selection,id)=>{
+  if($('recovering-entry-state'))setText('recovering-entry-state','Recomputing paid title, debt, recovery and actual customer service…');
+  try{const response=await fetch('/api/recovering-entry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await response.json();if(id!==s.requestId)return;if(!response.ok)throw Error(data.error||'Recovery calculation failed');s.current=data.result;s.inputs=body.inputs||{};s.selection=selection;s.imported=selection==='imported';s.error=body.saved_case&&body.saved_case.case_hash!==data.result.case_hash?'Recomputed from full opening inputs; saved hash differs.':'';if(visible())render();}catch(e){if(id===s.requestId)fail(e.message);}
+ };
+ document.addEventListener('click',e=>{
+  if(e.target.id==='export-recovering-entry'&&s.current)download('recovering-entry-'+s.current.case_hash.slice(0,10)+'.json',JSON.stringify(s.current,null,2),'application/json');
+  if(e.target.id!=='apply-recovering-entry')return;const id=++s.requestId;
+  try{const x=structuredClone(s.inputs);x.entry=x.entry||{};x.recovery=x.recovery||{};
+   for(const field of document.querySelectorAll('#recovering-entry [data-rc-key]')){const raw=field.value.trim(),key=field.dataset.rcKey;let value;
+    if(field.dataset.rcBoolean==='true'){if(!['true','false'].includes(raw))throw Error('Explicit eligibility required.');value=raw==='true';}
+    else{if(field.dataset.rcMoney==='true'){if(!/^\d+(\.\d{1,2})?$/.test(raw))throw Error('Use nonnegative USD with at most two decimals.');const parts=raw.split('.');value=Number(parts[0])*100+Number((parts[1]||'').padEnd(2,'0'));}else value=Number(raw);
+     if(raw===''||!Number.isSafeInteger(value)||value<0)throw Error('Exact nonnegative money and whole months are required.');}
+    if(key==='growth_equity_cents')x.entry[key]=value;else x.recovery[key]=value;
+   }calculate({inputs:x},'custom',id);
+  }catch(e){fail(e.message);}
+ });
+ document.addEventListener('change',async e=>{
+  if(e.target.id==='recovering-entry-case'&&s.data&&Object.hasOwn(s.data.case_inputs,e.target.value)){const id=++s.requestId;await calculate({inputs:s.data.case_inputs[e.target.value]},e.target.value,id);}
+  if(e.target.id==='import-recovering-entry'){const id=++s.requestId;try{const f=e.target.files[0];if(!f)return;if(f.size>8000000)throw Error('Recovery case files are limited to8 MB.');const saved=JSON.parse(await f.text());if(id===s.requestId)await calculate({saved_case:saved},'imported',id);}catch(e){if(id===s.requestId)fail('Import error: '+e.message);}}
+ });
+ document.addEventListener('input',e=>{if(e.target.dataset.rcKey){++s.requestId;if($('recovering-entry-state'))setText('recovering-entry-state','Edits are pending. Apply to recompute; export retains the displayed case.');}});
+}
