@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.39.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.40.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funded recovery and actual retention, edition 0.39
+## Current checkpoint: digital labor outcomes and staffing, edition 0.40
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `551d4f13d71f8afb698255da22075cc815d914ab` matched clean local and remote main. Actual cloud shell, reproduction, model and browser execution advanced this substantial H tranche. No current runtime or usage failure is observed. Native goal creation, quota/reset controls and serving-model introspection remain unexposed; no replacement task, duplicate schedule, agent, reset or uninterrupted-execution claim.
+
+[The labor-outcome audit](research/digital_labor_outcomes.md) connects a public primary survey/register study to the existing customer-support, developer, conventional-dispatch and hospital workforce evidence. The March2026 revision retains outcomes ending December2024. Table E.3 allocation answers condition on reported savings, and the questionnaire asks expectations. Expected use, observed work disposition, administrative hours/earnings, occupational mobility and actual whole-service staffing changes are separate outcomes. Pooled and dynamic bounds are kept distinct; no target payroll or productivity coefficient is inferred.
+
+The three decision packs and six physical measurement contracts now require actual retained/new work, complete timely service, a feasible staffing decision and every payer before counting paid savings. Capacity and quality remain possible benefits without payroll reduction. Newcos, acquisitions and providers retain their distinct funding and operating obligations. A complete target service/staffing/cost record remains unavailable, so empirical acceptance stays partial.
+
+Fresh cloud checks pass **532 Python tests** in 408.590s, **36 Node assertions**, **19 JavaScript syntax checks** and all **51 prescribed reproduction/Node commands**. The final decision-pack display fix passed a fresh syntax check and the complete browser review. Five exact exports (frontier, shared workforce, entry/renewal, recovery/retention and source arithmetic) match. All **13 views**, **three labor-audit panels**, five measure rows, five comparator rows, six gates, six physical contracts, six explicit unknowns and **three exact source drawers** pass. The three decision-pack gates, seven prior reference panels, full source download/hash, evidence filters, all six cell scopes, scenario export/reload and source/year/scenario independence pass without observed JavaScript or API errors. Both new panel screenshots were visually reviewed.
+
+All **1,676,027 prior typed numeric fields across 38 JSON result artifacts** and all prior non-fingerprint semantic fields are preserved. **27 artifacts are byte-identical**; **11** contain only exact updated evidence fingerprints and dependent identities. Every model source module, numerical assumption, prior source claim and atlas/labor row is unchanged. The legacy **53 bounded met /16 partial**, 69 requirement statuses and 65 question statuses remain. Fourteen challenge families still contain **228 bounded worlds**; this tranche adds no synthetic case or empirical calibration. The accepted registry contains **13 packages, 223 claims, 513 reported quantities and 158 explicit-null markers**. Three new records describe one paper, not three independent studies.
+
+All **360 manifest hashes** and **905 relative Markdown links** verify. See the [sole-writer review](reviews/digital_labor_outcomes_review.md). The previously closed NBER and unrelated author-PDF routes were not retried; the independently public author PDF supported this audit. Restricted microdata, target staffing/rights and all-payer costs remain outside the evidence obtained.
+
+**Next execution:** carry the staffing/service distinction into the unresolved joint shared-crew and actual-renewal boundary. Test whether new awards and retained outside duties consume the same paid capacity after a staffing commitment, with customer retention and each legal payer preserved. Use existing physical/Treasury execution, a strong paid-human comparator and complete input replay; do not infer a labor coefficient from the new source or claim a simultaneously feasible six-cell portfolio. A new public target record can challenge the assumptions when available; closed access routes stay closed.
+
+**Next question:** does a claimed staffing saving survive actual customer awards, all retained work and funded fallback when those demands compete for the same qualified crew?
+
+## Previous checkpoint: funded recovery and actual retention, edition 0.39
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `ce6a86687d758068a2b346e34b7c1057a74eacd6` matched clean local and remote main. Actual shell, model and browser execution advanced the recovery/retention investigation. No current runtime or usage failure is observed. Native goal/quota/reset controls and serving-model introspection remain unexposed; no replacement, new goal, duplicate schedule, agent, reset or continuous-execution claim.
 

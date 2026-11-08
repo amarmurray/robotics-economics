@@ -134,3 +134,7 @@ Ten [joint entry/renewal cases](research/entry_transitions.md#actual-renewal-and
 ## Funded recovery and retained service checkpoint, edition 0.39
 
 Thirteen [joint recovery worlds](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) deepen the existing title/entry/renewal challenges: fourteen families contain228 bounded worlds. Actual original manufacture/purchase and outside finance precede a separately eligible asset transfer. Cash cure can restore human service before robot reuse; exact purchase funding can leave operations unfunded. Prior outcomes and broad empirical gaps remain. This is an early checkpoint of the same November7–14 campaign, not completion or a new goal.
+
+## Early checkpoint: labor outcomes, edition 0.40
+
+The same campaign remains **in progress** through **2026-11-14T20:12:27Z**. A substantial H audit now connects conditional reported savings, expected allocation, administrative labor outcomes and changing work organization to six physical measurement contracts and three decision-pack gates. It adds no synthetic worlds or coefficients; fourteen families /228 bounded worlds and all empirical gaps remain. The next substantive requirement is a matched target service, actual work and dated paid-obligation record. Native goal creation, quota/reset controls and serving-model identity remain unexposed; execution evidence comes from actual commands and validated checkpoints.

@@ -797,6 +797,282 @@
         "CELL-M10-hospital-logistics-US-2025"
       ],
       "target_parameters_allowed": []
+    },
+    {
+      "url": "https://www.andershumlum.com/s/chatbots_260313.pdf",
+      "publisher": "Anders Humlum and Emilie Vestergaard / public author working paper",
+      "publication_date": "2026-03-13",
+      "observation_period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_linked_survey_register_working_paper",
+      "source_title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+      "previous_title": "Large Language Models, Small Labor Market Effects",
+      "source_fingerprint": {
+        "artifact": "public author PDF, March 13 2026 revision",
+        "sha256": "dc6f69de66b49d875a41bfa4bcc35621b9c022310c3184cefeceb790c884c892"
+      },
+      "retrieval_method": "Public author index and PDF; saved bytes checked, main methods and relevant appendices read, Figures 3/5/8 and Tables 1/B.1/E.3 visually inspected. No microdata re-estimation. Closed NBER403 and unrelated author-PDF error routes were not retried.",
+      "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+      "evidence_id": "H-DK-2026-DESIGN",
+      "claim": "The linked 2024 analysis and user-only survey outcomes have different denominators. Employer-initiative associations are descriptive and do not isolate an initiative effect from adoption selection.",
+      "epistemic_status": "audited_observational_design_and_sample_boundary",
+      "locator": "Sections 1.1–1.3, 2.1.1 and 3.1; Table 1; Appendix B.1–B.2 and Table B.1",
+      "methods": "Workplace/occupation sampling; OLS initiative associations with occupation and predetermined worker controls. Dynamic labor DiD uses worker/workplace effects, occupation-by-time controls and workplace-occupation clustered errors; pooled specification additionally includes adopter-specific trends. Event time is November 2022, not a measured personal adoption month.",
+      "limitations": "Selected exposed occupations, response and employment-at-sampling selection; balance/incentive checks do not establish universal representativeness. Worker reports of employer policies may differ from employer intent. Table E.3 reports a completed-response population and no exact conditional N; do not substitute Table 1 counts.",
+      "quantities": [
+        {
+          "quantity_id": "H-Q-DK-INVITED",
+          "label": "2024 invitations",
+          "value": 115000,
+          "unit": "workers",
+          "denominator": "2024 invitation frame",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table B.1 row 1"
+        },
+        {
+          "quantity_id": "H-Q-DK-COMPLETE",
+          "label": "2024 complete responses",
+          "value": 25241,
+          "unit": "respondents",
+          "denominator": "2024 survey invitations; before register-link restriction",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table B.1 row 4"
+        },
+        {
+          "quantity_id": "H-Q-DK-LINKED",
+          "label": "2024 linked complete responses",
+          "value": 24796,
+          "unit": "respondents",
+          "denominator": "2024 complete responses linkable to registers",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table B.1 row 5; Table 1 columns 1–2"
+        },
+        {
+          "quantity_id": "H-Q-DK-EVER-N",
+          "label": "Table 1 ever-used subset",
+          "value": 14790,
+          "unit": "respondents",
+          "denominator": "Table 1 columns 3–8; distinct from Table E.3 conditional allocation population",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table 1 observation row"
+        },
+        {
+          "quantity_id": "H-Q-DK-NEVER-N",
+          "label": "Table 1 never-used subset",
+          "value": 10006,
+          "unit": "respondents",
+          "denominator": "Table 1 columns 9–10",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table 1 observation row"
+        },
+        {
+          "quantity_id": "H-Q-DK-LINK-RATE",
+          "label": "Linked complete response share",
+          "value": 21.6,
+          "unit": "percent",
+          "denominator": "115000 invitations; rounded source percentage",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "reported_source_table",
+          "locator": "Table B.1 row 5"
+        }
+      ]
+    },
+    {
+      "url": "https://www.andershumlum.com/s/chatbots_260313.pdf",
+      "publisher": "Anders Humlum and Emilie Vestergaard / public author working paper",
+      "publication_date": "2026-03-13",
+      "observation_period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_linked_survey_register_working_paper",
+      "source_title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+      "previous_title": "Large Language Models, Small Labor Market Effects",
+      "source_fingerprint": {
+        "artifact": "public author PDF, March 13 2026 revision",
+        "sha256": "dc6f69de66b49d875a41bfa4bcc35621b9c022310c3184cefeceb790c884c892"
+      },
+      "retrieval_method": "Public author index and PDF; saved bytes checked, main methods and relevant appendices read, Figures 3/5/8 and Tables 1/B.1/E.3 visually inspected. No microdata re-estimation. Closed NBER403 and unrelated author-PDF error routes were not retried.",
+      "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+      "evidence_id": "H-DK-2026-TASKS",
+      "claim": "Table E.3 allocation percentages condition on reported savings; the questionnaire asks expected use of saved time. Coded time savings, intended allocation and observed productive redeployment remain different measures.",
+      "epistemic_status": "self_report_and_conditional_expectation_not_time_motion",
+      "locator": "Section 2.3; Figure 3; Table E.3 and footnote 29 (PDF index 89); Appendix I question 15 (PDF index 124)",
+      "quote": "do you expect to",
+      "methods": "Table E.3 columns 1–6: ever-used-for-work respondents; columns 7–10 additionally require reported time savings. Question 15 asks expected allocation. Choices overlap. Total-time saving uses category coding and reported frequency with an assumed eight-hour day, not observed active-time logs.",
+      "coding": "Time bands use 7.5, 37.5 and 90 minutes; frequency divisors 1, 5, 21⅔ and 65. These are source coding assumptions, not target coefficients.",
+      "limitations": "The prose loosely describes reallocation among users; table notes and questionnaire impose narrower denominator and expectation status. No verified downstream service, actual time disposition or payroll transition. New workloads include new tasks, more existing work and spillovers to non-users; overlapping categories must not be added.",
+      "quantities": [
+        {
+          "quantity_id": "H-Q-DK-ANY-SAVING",
+          "label": "Reports any time savings",
+          "value": 75.6,
+          "unit": "percent",
+          "denominator": "Ever-used-for-work respondents in Table E.3; all completed 2024 responses",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "self_report",
+          "locator": "Table E.3 All row column 1"
+        },
+        {
+          "quantity_id": "H-Q-DK-CODED-TIME",
+          "label": "Coded total-work time saving",
+          "value": 3.0,
+          "unit": "percent of assumed work hours",
+          "denominator": "Ever-used-for-work respondents; frequency and category-coded reported minutes divided by assumed daily work hours",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "author_coded_self_report",
+          "locator": "Table E.3 All row column 6 and footnote 29"
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-SAME",
+          "label": "Expected more of the same tasks",
+          "value": 29.4,
+          "unit": "percent",
+          "denominator": "Respondents in Table E.3 who ever used chatbots for work AND reported any time savings; choices overlap",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "conditional_self_reported_expectation",
+          "locator": "Table E.3 All row column 7; Appendix I Q15"
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-OTHER",
+          "label": "Expected time on other tasks",
+          "value": 84.7,
+          "unit": "percent",
+          "denominator": "Respondents in Table E.3 who ever used chatbots for work AND reported any time savings; choices overlap",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "conditional_self_reported_expectation",
+          "locator": "Table E.3 All row column 8; Appendix I Q15"
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-BREAK",
+          "label": "Expected more breaks",
+          "value": 7.2,
+          "unit": "percent",
+          "denominator": "Same conditional Table E.3 allocation respondents; choices overlap",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "conditional_self_reported_expectation",
+          "locator": "Table E.3 All row column 9; Appendix I Q15"
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-LEISURE",
+          "label": "Expected more leisure",
+          "value": 5.8,
+          "unit": "percent",
+          "denominator": "Same conditional Table E.3 allocation respondents; choices overlap",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "conditional_self_reported_expectation",
+          "locator": "Table E.3 All row column 10; Appendix I Q15"
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-N",
+          "label": "Exact conditional allocation respondent count",
+          "value": null,
+          "reason": "Table E.3 does not print the conditional N; Table 1 has a different stated sample restriction and is not substituted."
+        },
+        {
+          "quantity_id": "H-Q-DK-OBSERVED-REALLOCATION",
+          "label": "Observed productive hours redeployed",
+          "value": null,
+          "reason": "Expected allocation answers are not a time-use ledger or accepted-output observation."
+        },
+        {
+          "quantity_id": "H-Q-DK-ACCEPTED-OUTPUT",
+          "label": "Quality-matched whole-service output gain",
+          "value": null,
+          "reason": "No matching accepted-output denominator for the administrative labor comparison."
+        }
+      ]
+    },
+    {
+      "url": "https://www.andershumlum.com/s/chatbots_260313.pdf",
+      "publisher": "Anders Humlum and Emilie Vestergaard / public author working paper",
+      "publication_date": "2026-03-13",
+      "observation_period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+      "retrieved_at": "2026-11-08",
+      "source_class": "primary_linked_survey_register_working_paper",
+      "source_title": "Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI",
+      "previous_title": "Large Language Models, Small Labor Market Effects",
+      "source_fingerprint": {
+        "artifact": "public author PDF, March 13 2026 revision",
+        "sha256": "dc6f69de66b49d875a41bfa4bcc35621b9c022310c3184cefeceb790c884c892"
+      },
+      "retrieval_method": "Public author index and PDF; saved bytes checked, main methods and relevant appendices read, Figures 3/5/8 and Tables 1/B.1/E.3 visually inspected. No microdata re-estimation. Closed NBER403 and unrelated author-PDF error routes were not retried.",
+      "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+      "evidence_id": "H-DK-2026-LABOR",
+      "claim": "Average administrative labor contrasts are near zero under the study design while occupational mobility changes. This does not identify zero productivity, a current global effect, or a physical-worker payroll coefficient.",
+      "epistemic_status": "historical_did_estimates_with_identification_and_spillover_assumptions",
+      "locator": "Sections 3.1–3.4; Figures 5–8; Appendix F; administrative outcomes through December 2024",
+      "methods": "Adopter/non-adopter differential changes under counterfactual trend assumptions. Pooled worker earnings controls adopter-specific trends; dynamic estimates have different precision. Workplace treatment is reported encouraged use. Occupational mobility uses FTE hours in the latest occupation, not simply a worker switch count.",
+      "positive_finding": "Occupational mobility is a measured changing margin; selection into adoption versus transition facilitation remains a competing interpretation. Absence of average earnings change does not erase this result.",
+      "limitations": "Exact personal adoption timing is unobserved. Common effects on non-adopters are differenced out; the authors assess spillovers using additional evidence and a model, which does not make a global effect directly identified. Recorded hours are administrative labor input, not task-level active-time logs. Firm financial data stop in 2022; this audit establishes no causal revenue, margin or whole-service productivity effect. Occupational subgroups have wider intervals.",
+      "quantities": [
+        {
+          "quantity_id": "H-Q-DK-POOLED-BOUND",
+          "label": "Authors’ pooled worker-earnings effect bound",
+          "value": 2,
+          "unit": "percent (confidence-bound description)",
+          "denominator": "Average adopter earnings contrast in the pooled specification; not every subgroup or a productivity bound",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "author_reported_statistical_bound",
+          "locator": "Section 3.2, page 23 and footnote 14"
+        },
+        {
+          "quantity_id": "H-Q-DK-DYNAMIC-BOUND",
+          "label": "Authors’ dynamic worker-earnings effect bound",
+          "value": 3,
+          "unit": "percent (confidence-bound description)",
+          "denominator": "Dynamic worker-earnings contrasts described separately from pooled estimates",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "author_reported_statistical_bound",
+          "locator": "Section 3.2, page 23"
+        },
+        {
+          "quantity_id": "H-Q-DK-WORKPLACE-BOUND",
+          "label": "Authors’ workplace total-hours effect bound",
+          "value": 2,
+          "unit": "percent (confidence-bound description)",
+          "denominator": "Encouraged-use workplaces relative to non-encouraged workplaces through December 2024",
+          "population": "Danish workers in eleven selected chatbot-exposed occupations; source-specific response and adoption subsets retained",
+          "period": "Surveys November–December 2023 and 2024; administrative outcomes through December 2024",
+          "measurement_status": "author_reported_statistical_bound",
+          "locator": "Section 3.4, page 30; Figure 8(a)"
+        },
+        {
+          "quantity_id": "H-Q-DK-EXACT-LABOR-ESTIMATE",
+          "label": "One universal labor-effect coefficient",
+          "value": null,
+          "reason": "The source has multiple estimands, dates and groups; no common point estimate or interval is invented or digitized from a plot."
+        },
+        {
+          "quantity_id": "H-Q-DK-PAYROLL-REMOVED",
+          "label": "Actual robot-related paid labor removed",
+          "value": null,
+          "reason": "These digital occupations and chatbot treatments are not a matched physical-service staffing intervention."
+        },
+        {
+          "quantity_id": "H-Q-DK-WHOLE-COST",
+          "label": "Every-payer cost per accepted output",
+          "value": null,
+          "reason": "The paper does not join accepted service with complete customer, provider and resource costs."
+        }
+      ]
     }
   ],
   "benchmarks": [
@@ -1188,7 +1464,10 @@
       "source_evidence": [
         "H-QJE-2025",
         "H-METR-2026",
-        "H-CENSUS-2026"
+        "H-CENSUS-2026",
+        "H-DK-2026-DESIGN",
+        "H-DK-2026-TASKS",
+        "H-DK-2026-LABOR"
       ],
       "source_status": "heterogeneous_digital_effects_supported",
       "target": "Human-led physical service workflows plus planning/admin",
@@ -1200,12 +1479,14 @@
       "required_similarities": [
         "Digital intervention applies to relevant bottleneck",
         "Quality maintained",
-        "Released time can be productively used"
+        "Released time can be productively used",
+        "Realized whole-service and staffing transition can be observed independently of survey expectations."
       ],
       "material_differences": [
         "Physical tasks may dominate",
         "Human support work shared with robots",
-        "No causal SAP deployment estimate"
+        "No causal SAP deployment estimate",
+        "Danish digital-occupation administrative outcomes do not identify robot-site payroll, qualifications or fallback duties."
       ],
       "prediction": "Digital-only baseline can lower robot incremental savings; joint complementarity can offset it.",
       "falsifier": "Digital intervention does not affect cost, capacity or quality of target human process.",
@@ -1221,7 +1502,8 @@
         "CELL-M10-hospital-logistics-US-2025",
         "CELL-M04-construction-install-US-2025",
         "CELL-M03-utility-inspection-US-2025"
-      ]
+      ],
+      "labor_outcome_boundary": "Expected use of saved time, observed redeployment, paid labor changes and accepted service require separate evidence."
     }
   ],
   "direct_contributions": [
@@ -1271,7 +1553,10 @@
         "H-SAP-2026",
         "H-HOSPITAL-2026",
         "H-COORDINATION-2026",
-        "H-PROXIMITY-2025"
+        "H-PROXIMITY-2025",
+        "H-DK-2026-DESIGN",
+        "H-DK-2026-TASKS",
+        "H-DK-2026-LABOR"
       ],
       "digital_input": "ERP orders and priorities; WMS/MES and inventory state; robot poses/routes; building state; staff capacity.",
       "output": "A candidate allocation, route, schedule, work order or business transaction.",
@@ -1286,7 +1571,8 @@
       "target_effect": null,
       "missing_reason": "No integrated production experiment isolates the LLM contribution.",
       "resources": "Integration engineering, human supervision, inference, network and shared corridors/lifts.",
-      "model_implication": "Add control-rights and integration-readiness gates. Coordination can hurt performance. Separate urgent and nonurgent hospital cohorts."
+      "model_implication": "Add control-rights and integration-readiness gates. Coordination can hurt performance. Separate urgent and nonurgent hospital cohorts.",
+      "labor_measurement_contract": "Join proposed digital coordination to actual accepted work, retained/new duties, a feasible paid staffing decision and every payer; individual time expectations are insufficient."
     },
     {
       "contribution_id": "H-DC03",
@@ -1528,6 +1814,21 @@
       "counterfactual": "Priority/age dispatch versus proximity-enhanced dispatch; temporal conditions and active staffing differ.",
       "target_bridge": "Strengthen the comparator and measure retained work; patient-flow percentages do not transfer to medication delivery.",
       "analysis": "research/conventional_coordination.md"
+    },
+    {
+      "dossier_id": "H-DOS05",
+      "type": "linked_labor_outcomes",
+      "market": "Eleven exposed Danish digital occupations",
+      "chain_stage": "Work organization, staffing and earnings",
+      "evidence_ids": [
+        "H-DK-2026-DESIGN",
+        "H-DK-2026-TASKS",
+        "H-DK-2026-LABOR"
+      ],
+      "finding": "Table E.3 allocation figures condition on reported savings and the questionnaire asks expectations. Administrative labor contrasts and changing occupational mobility use a different measurement design.",
+      "counterfactual": "Adopter versus non-adopter differential changes under stated assumptions; common effects and actual adoption dates remain distinct.",
+      "target_bridge": "Measure target retained/new work and paid staffing separately; no labor-effect coefficient transfers.",
+      "analysis": "research/digital_labor_outcomes.md"
     }
   ],
   "joint_scenario_contract": {
@@ -1608,7 +1909,7 @@
   "coverage": {
     "H1": "Connected to the lead infrastructure artifact; talent, data and post-training are not comprehensively covered.",
     "H2": "Bounded training scaling and benchmark/deployment distinctions; no quantitative overhang estimate.",
-    "H3": "Two contrasting primary-source workflow dossiers plus Census diffusion evidence.",
+    "H3": "Contrasting workflow and linked administrative labor dossiers, conventional dispatch and diffusion evidence; whole-service and target payroll effects remain uncalibrated.",
     "H4": "Five benchmark cards with explicit missing budgets.",
     "H5": "Current peer-reviewed coordination evidence and three interface/contribution maps.",
     "H6": "Historical FTC relationships plus announced deployment companies; a current complete contract map is missing.",
@@ -1691,5 +1992,200 @@
     "finding": "Conventional patient-dispatch evidence and elapsed-time/payroll boundary; no scenario calibration.",
     "supplement_status": "unretrieved_download_challenge",
     "original_source_accounting": "Earlier search-call accounting is historical and is not a count of this continuation."
+  },
+  "labor_outcome_audits": [
+    {
+      "audit_id": "H-AUDIT-LABOR-01",
+      "title": "From reported AI time savings to actual staffing and service",
+      "status": "audited_source_boundary_target_economics_partial",
+      "edition": "0.40",
+      "evidence_ids": [
+        "H-DK-2026-DESIGN",
+        "H-DK-2026-TASKS",
+        "H-DK-2026-LABOR"
+      ],
+      "cell_ids": [
+        "CELL-M05-auto-assembly-US-2025",
+        "CELL-M08-3pl-tote-US-2025",
+        "CELL-M11-floor-cleaning-US-2025",
+        "CELL-M10-hospital-logistics-US-2025",
+        "CELL-M04-construction-install-US-2025",
+        "CELL-M03-utility-inspection-US-2025"
+      ],
+      "summary": "Expected use of saved time, observed redeployment, paid labor changes and accepted service require separate evidence.",
+      "source_boundary": "March 13 2026 working-paper revision; Danish exposed digital occupations, with administrative outcomes ending December 2024. One paper, three bounded records; no numerical transfer.",
+      "finding": "Table E.3 allocation figures condition on reported savings and the questionnaire asks expectations. Administrative labor contrasts and changing occupational mobility use a different measurement design.",
+      "rows": [
+        {
+          "quantity_id": "H-Q-DK-LINKED",
+          "outcome": "Linked analysis sample",
+          "boundary": "Table 1/B.1; do not reuse this count for Table E.3 allocation."
+        },
+        {
+          "quantity_id": "H-Q-DK-ANY-SAVING",
+          "outcome": "Reports some saving",
+          "boundary": "Ever-used-for-work survey respondents; self-report."
+        },
+        {
+          "quantity_id": "H-Q-DK-ALLOC-OTHER",
+          "outcome": "Expects other-task allocation",
+          "boundary": "Only respondents reporting savings; overlapping choices, no observed redeployment."
+        },
+        {
+          "quantity_id": "H-Q-DK-CODED-TIME",
+          "outcome": "Coded work-time saving",
+          "boundary": "Category/frequency coding and assumed eight-hour day; not a measured service gain."
+        },
+        {
+          "quantity_id": "H-Q-DK-POOLED-BOUND",
+          "outcome": "Pooled earnings bound",
+          "boundary": "Authors’ statistical bound for the specified average contrast; dynamic and subgroup precision differ."
+        }
+      ],
+      "gates": [
+        {
+          "gate": "Task time and quality",
+          "requirement": "Measure active human work, queues, retries and accepted output separately; a reported saving is a candidate mechanism."
+        },
+        {
+          "gate": "Competing and new work",
+          "requirement": "Identify who receives released capacity, actual demand and deadlines, plus new review, integration and exception work; include non-users."
+        },
+        {
+          "gate": "Paid staffing transition",
+          "requirement": "Reconcile schedules, wage bills, overtime, vacancies, agency labor and contractor invoices before and after a feasible staffing decision."
+        },
+        {
+          "gate": "Service and counterfactual",
+          "requirement": "Hold complete timely service and quality fixed against competent human/conventional operation; incomplete work cannot finance a savings claim."
+        },
+        {
+          "gate": "Every payer and time",
+          "requirement": "Assign integration, supervision, fallback and ramp obligations to the actual legal payer; customer payroll reduction may move work to a provider."
+        },
+        {
+          "gate": "Attribution and transfer",
+          "requirement": "Separate adoption selection, demand and organizational changes from treatment; test target conditions before numerical transfer or entry valuation."
+        }
+      ],
+      "comparators": [
+        {
+          "label": "Resolved customer support",
+          "evidence_ids": [
+            "H-QJE-2025"
+          ],
+          "measured": "Historical resolved issues per agent-hour with heterogeneous rollout effects",
+          "missing": "A matched paid staffing transition and total customer/provider cost",
+          "use": "Possible capacity or training mechanism; preserve accepted output and human discretion."
+        },
+        {
+          "label": "Software engineering",
+          "evidence_ids": [
+            "H-METR-2026"
+          ],
+          "measured": "Randomized submitted-task time under changing participation and task selection",
+          "missing": "A representative current engineering or robotics-R&D effect",
+          "use": "Track concurrent work, validation and the critical path before valuing released minutes."
+        },
+        {
+          "label": "Conventional patient dispatch",
+          "evidence_ids": [
+            "H-PROXIMITY-2025"
+          ],
+          "measured": "Observational completed-trip timing with a stronger conventional dispatcher",
+          "missing": "Full canceled/off-peak work, active labor and payroll effects",
+          "use": "Compare a competent digital-human alternative before adding a robot."
+        },
+        {
+          "label": "Historical hospital AGVs",
+          "evidence_ids": [
+            "FSD-E010",
+            "FSD-E011"
+          ],
+          "measured": "Documented redeployment, operating windows and retained support/fallback roles",
+          "missing": "A current target payroll bridge and every-payer service cost",
+          "use": "Retain receiving duties, oversight and contingency even after routine transport changes."
+        },
+        {
+          "label": "Danish chatbot labor outcomes",
+          "evidence_ids": [
+            "H-DK-2026-DESIGN",
+            "H-DK-2026-TASKS",
+            "H-DK-2026-LABOR"
+          ],
+          "measured": "Reported benefits/expectations and separate administrative labor contrasts",
+          "missing": "Observed task disposition, accepted whole service and target physical staffing",
+          "use": "Do not equate expected reallocation, administrative nulls or an output rate with cash savings."
+        }
+      ],
+      "cell_measurement_contracts": [
+        {
+          "label": "Hospital logistics",
+          "cell_id": "CELL-M10-hospital-logistics-US-2025",
+          "requirement": "Link dispatch, pickup/receipt, nursing/porter shifts, supervision and urgent manual contingency; audit all canceled and outside-window work."
+        },
+        {
+          "label": "Utility inspection",
+          "cell_id": "CELL-M03-utility-inspection-US-2025",
+          "requirement": "Join remote review and revisit decisions to the actual visit roster and qualified field crew; a shorter inspection does not remove a necessary trip."
+        },
+        {
+          "label": "Automotive presentation",
+          "cell_id": "CELL-M05-auto-assembly-US-2025",
+          "requirement": "Measure buffer/variant completeness, line deadlines, replenishment, quality and changeovers alongside cell staffing and support."
+        },
+        {
+          "label": "Floor service",
+          "cell_id": "CELL-M11-floor-cleaning-US-2025",
+          "requirement": "Reconcile cleaning, nonfloor work and response duties against the shared crew calendar and actual notice/collection dates."
+        },
+        {
+          "label": "Tote logistics",
+          "cell_id": "CELL-M08-3pl-tote-US-2025",
+          "requirement": "Join picks, handoffs, downstream acceptance, exception queues and receiving labor; distinguish more moves from fulfilled orders."
+        },
+        {
+          "label": "Construction installation",
+          "cell_id": "CELL-M04-construction-install-US-2025",
+          "requirement": "Track trade qualifications, setup, sequencing, inspections and travel; released minutes must fit a feasible crew and site schedule."
+        }
+      ],
+      "unknowns": {
+        "observed_time_disposition": {
+          "value": null,
+          "reason": "Conditional expectations do not reveal realized active time and accepted work."
+        },
+        "conditional_response_count": {
+          "value": null,
+          "reason": "Table E.3 does not print the exact allocation-subsample count."
+        },
+        "target_payroll_change": {
+          "value": null,
+          "reason": "No matched target schedule, staffing decision and paid invoice series."
+        },
+        "avoided_hiring_or_overtime": {
+          "value": null,
+          "reason": "Requires documented demand and a feasible counterfactual staffing decision."
+        },
+        "customer_and_provider_margin": {
+          "value": null,
+          "reason": "No matched service, price, resource and all-payer cash record."
+        },
+        "long_run_or_2026_effect": {
+          "value": null,
+          "reason": "Historical outcomes end in December 2024; a newer revision does not extend them."
+        }
+      },
+      "analysis": "research/digital_labor_outcomes.md",
+      "permitted_use": "Measurement design and qualitative mechanism challenge only; existing scenario coefficients and observed labor/accounting rows remain unchanged."
+    }
+  ],
+  "continuation_2026_11_08_labor": {
+    "input_commit": "551d4f13d71f8afb698255da22075cc815d914ab",
+    "edition": "0.40",
+    "source": "https://www.andershumlum.com/s/chatbots_260313.pdf",
+    "source_sha256": "dc6f69de66b49d875a41bfa4bcc35621b9c022310c3184cefeceb790c884c892",
+    "scope": "Substantial H labor-outcome and organizational audit; no new model world or coefficient.",
+    "original_source_accounting": "Earlier search accounting is historical. Three records here describe one paper, not three independent studies."
   }
 }

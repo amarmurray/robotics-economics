@@ -162,3 +162,9 @@ The [executable learning follow-up](learning_execution.md) adds unique eligible 
 ## Digital obligations inside a commercial robot service
 
 The [Agility disclosure follow-up](commercial_disclosure_boundaries.md) separates onboard policy/safety compute, Arc orchestration/diagnostics and R&D. Planned compute changes require qualification; data flow does not establish training rights or successful transfer. Continuing software/support and development cash are separate obligations.
+
+## Linked labor outcomes and the staffing decision, edition 0.40
+
+The [new labor-outcome audit](digital_labor_outcomes.md) adds a historical Danish survey/register comparison to the existing H package. It preserves conditional expected allocation, administrative labor contrasts and changing occupational mobility as different outcomes. The publication revision does not extend the observation window. Its practical use is to strengthen the target work-and-staffing measurement contract, not to supply a universal digital or physical labor effect.
+
+Across customer support, software development, conventional dispatch and hospital AGVs, the quantity measured determines the claim that can be made. Released task time can support a capacity hypothesis; actual paid savings require a feasible whole-service staffing transition. The source/target analogy and fleet/site/enterprise contribution map now make that bridge explicit. Existing numerical paths and source estimates remain unchanged.

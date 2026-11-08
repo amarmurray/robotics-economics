@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: recovery and actual retention, edition 0.39
+## New decision campaign: digital labor outcomes, edition 0.40
+
+A substantial H primary-source audit deepens DE-02/06/09/10 and the three decision packs. It separates source reports and expectations, administrative outcomes and target whole-service/payroll claims. Broad empirical acceptance remains partial; same campaign deadline **2026-11-14T20:12:27Z**.
+
+Fresh cloud checks pass **532 Python tests** in 408.590s, **36 Node assertions**, **19 JavaScript syntax checks** and all **51 prescribed reproduction/Node commands**. The final decision-pack display fix passed a fresh syntax check and the complete browser review. Five exact exports (frontier, shared workforce, entry/renewal, recovery/retention and source arithmetic) match. All **13 views**, **three labor-audit panels**, five measure rows, five comparator rows, six gates, six physical contracts, six explicit unknowns and **three exact source drawers** pass. The three decision-pack gates, seven prior reference panels, full source download/hash, evidence filters, all six cell scopes, scenario export/reload and source/year/scenario independence pass without observed JavaScript or API errors. Both new panel screenshots were visually reviewed.
+
+All **1,676,027 prior typed numeric fields across 38 JSON result artifacts** and all prior non-fingerprint semantic fields are preserved. **27 artifacts are byte-identical**; **11** contain only exact updated evidence fingerprints and dependent identities. Every model source module, numerical assumption, prior source claim and atlas/labor row is unchanged. The legacy **53 bounded met /16 partial**, 69 requirement statuses and 65 question statuses remain. Fourteen challenge families still contain **228 bounded worlds**; this tranche adds no synthetic case or empirical calibration. The accepted registry contains **13 packages, 223 claims, 513 reported quantities and 158 explicit-null markers**. Three new records describe one paper, not three independent studies.
+
+All **360 manifest hashes** and **905 relative Markdown links** verify. See the [sole-writer review](reviews/digital_labor_outcomes_review.md).
+
+## Previous decision checkpoint: recovery and actual retention, edition 0.39
 
 The joint execution advances DE-04/05/08/09/10 through original paid title, financial cure, physical reuse, actual customer commitments and every-payer cash. Broad empirical requirements remain partial; same campaign deadline **2026-11-14T20:12:27Z**.
 

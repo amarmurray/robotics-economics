@@ -169,3 +169,9 @@ The [commercial disclosure audit](research/commercial_disclosure_boundaries.md) 
 **Conditional thesis:** a robot owner-sale can improve creditor recovery or cure an operating company without adding robot-produced service. [The joint history](research/entry_transitions.md#funded-recovery-and-actual-retention-edition-039) restores the target's human service before physical reuse; the same whole-market result survives failed destination qualification. Conversely, successful relocation at a lower sale price leaves debt default and incomplete service.
 
 **Challenge:** exact purchase funding leaves operations exposed, common ownership grants neither title nor a cash pool, and competent paid human coverage can make the asset service-redundant. Prior working equity is a separate funded alternative with different parent liquidity. Retained assets/claims and all-payer switching/relocation costs prevent an ROI or preferred-transaction conclusion.
+
+## Labor-outcome challenge, edition 0.40
+
+**Claim under test:** useful digital assistance can strengthen human-led operations before a paid staffing change, and can also create new work. [The audit](research/digital_labor_outcomes.md) distinguishes intentions, actual allocation, accepted service and labor payments. Its historical administrative comparison does not identify a current physical coefficient.
+
+**Decision consequence:** value capacity, quality, avoided overtime/hiring and removed payroll separately. A target newco must demonstrate its actual service cost and demand; an acquisition must retain inherited work and payer obligations through transition. **Falsifier for a claimed paid saving:** the proposed smaller roster fails complete service or requires offsetting support/contractor expenditure. **Next discriminating observation:** matched service and work records joined to a dated staffing/invoice transition. Target returns and broader empirical acceptance remain partial.

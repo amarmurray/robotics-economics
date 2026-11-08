@@ -143,3 +143,7 @@ The cloud continuation exposed a last-binary-digit difference in two annual tota
 ## Compatible parts and named replacements, edition 0.31
 
 [The typed component contract](COMPONENT_EXECUTION.md) explicitly replaces generic module accounting only in selected new cases. Whole compatible BOMs, received/qualified inventory and one named replacement requirement per unit share the existing physical, annual-resource and Treasury loop. Failed admission consumes no candidate parts; rejected manufacturing retains sunk material and payment. The annual spare flow does not set discrete failures or labor. Existing bundles cover consumed parts and assumed repair labor once; actual target terms and full annual portfolio supply remain unknown.
+
+## Edition 0.40: labor-outcome evidence remains outside calibration
+
+[The labor audit](../research/digital_labor_outcomes.md) changes evidence and decision gates only. Reported/coded savings, conditional allocation expectations, administrative labor contrasts and occupational mobility are distinct. No new scenario, labor-avoidability setting, digital-efficiency path, staffing ratio or physical coefficient is inferred. All prior model source and assumptions remain unchanged; evidence fingerprints are refreshed reproducibly. Existing fixed-output opportunity-cost illustrations and actual paid-workforce executions retain their different economic meanings.

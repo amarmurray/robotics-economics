@@ -1,6 +1,6 @@
 # Deployment and entry decisions: service before scale
 
-Decision campaign, integrated checkpoint 0.37 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.40 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -222,3 +222,9 @@ For each of the three service packs, verify operating consent and customer renew
 The [joint recovery/retention analysis](entry_transitions.md#funded-recovery-and-actual-retention-edition-039) advances DE-04/05 through original paid title, outside finance, common-owner legal accounts, debt cure, qualified reuse and locked customer commitments in one execution. Fourteen families now contain228 bounded worlds. Neither creditor recovery nor robot support implies added whole-market service; a paid human buyer or a separately funded target can preserve the obligation differently. Compare complete service before cash and retain outstanding claims and assets.
 
 The hospital, utility and automotive packs now require original asset-funding history, actual title/configuration/support rights, dated payer cash, retained service and destination acceptance. Cleaning, tote and construction retain the same conceptual gate without copied numbers. Next prioritize decision-changing public operating evidence or a substantial H/other-cell empirical challenge; the large synthetic matrix cannot substitute for real staffing, all-request service, every-payer costs or rights.
+
+## Paid labor and the form of the benefit, edition 0.40
+
+All three packs now include the [labor-outcome gate](digital_labor_outcomes.md). A digital-human or robotic improvement can yield capacity, quality or resilience while staffing stays fixed. To count paid savings, join complete service to actual schedules, new/retained work, contractor obligations and dated payer cash. Expected reallocation is not an observed staffing transition; an administrative labor null is not zero productivity.
+
+Hospital logistics retains receiving and urgent fallback duties; inspection retains qualified residual visits; automotive retains replenishment, changeovers and line acceptance. An acquisition keeps inherited work and liabilities; a newco must fund its feasible service configuration. No source percentage changes those target requirements. Empirical return, staffing and all-payer costs remain partial.
