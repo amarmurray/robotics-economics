@@ -1,6 +1,22 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: matched inspection cash bounds, edition 0.51
+## New decision campaign: municipal procurement and complete service, edition 0.52
+
+The [municipal procurement audit](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) adds QOF-E27–E31, QOF-C03 and QOF-AUDIT-SERVICE-05 to the existing package. **Approved minutes establish the February 18, 2025 $189,000 authorization** even though file25-260 has empty action/history fields. The initial quote agrees and defines equipment, training, shipping and twelve-month named warranty coverage. The staff background's **$189,700** remains an unexplained **$700 discrepancy**. The nearly $800,000 truck comparison lacks matched configuration and complete accepted service.
+
+The crew still deploys/retrieves equipment and reviews data offline. Historical supplier speed/distance claims do not establish paid work removed. Hardware authorization, executed order, delivered acceptance, payment, support rights and operating results remain separate stages. No invoice, matched service cost, current support terms, paid-hours effect or realized saving is inferred. Three packs and six cell reassessments inherit the comparison method without transferring sewer prices or performance.
+
+Fresh validation passes the production evidence registry at **13 packages, 238 claims, 567 quantities and 205 explicit-null markers**. All five new source-file hashes, original source context, quote/minutes amount agreement and the $700 discrepancy arithmetic verify. The changed dashboard script passes syntax checking; the report rebuild and three affected evidence-dependent exports complete.
+
+All **13 dashboard views**, all three selectable service audits in four views, five new source drawers, three decision-pack gates and six cell scopes pass. Search/year behavior, audit selection persistence, scenario recomputation with unchanged evidence and exact scenario export/reload pass. The new audit and expanded-unknown screenshots were visually checked. A final request-tracked pass completes all 13 views and 28 API responses with no pending or failed requests, JavaScript errors or API errors. All four retained-work roles and seven explicit unknown outcomes render. The first display pass exposed a record-wrapper lookup error that showed Unknown instead of the sourced amounts; it was corrected before the complete passing browser check.
+
+All **2,098,443 typed numeric fields across 44 prior JSON artifacts** and every non-fingerprint result field remain unchanged. **33 artifacts are byte-identical**; **11** change only evidence fingerprints and dependent identities. Model code, assumptions, previous source records/audits and labor rows are preserved. The **14 bounded families /271 worlds**, legacy **53 met /16 partial**, all 69 legacy requirement statuses, decision-campaign requirement statuses and all 65 question statuses remain. The full575 Python tests (edition0.45), Node36 assertions (0.46) and comparison14 tests (0.51) are prior evidence; unchanged suites were not rerun or relabeled fresh.
+
+All **400 manifest hashes** and **1055 relative Markdown links** verify.
+
+No empirical acceptance status is promoted. See the [source and validation review](reviews/laredo_procurement_review.md).
+
+## Previous decision checkpoint: matched inspection cash bounds, edition 0.51
 
 The [matched-inspection comparison](model/INSPECTION_PRICE_BOUNDS.md) separates buyer fee capacity, provider paid resources and consolidated resource changes after checking the same complete service, paid commitments and funded provider work. Replays use both complete inputs. Retained paid staff yield a **−$40 customer fee ceiling** against **$278 provider resource recovery** across four synthetic windows; avoidable visits instead yield **$1,160 /$278**, an **$882 aggregate interval**. Against a qualified fixed alternative, the mobile interval is **−$58** and consolidated resources rise **$134**; the baseline provider cash change explains the difference. No maintenance value or actual commercial price is estimated. An equal total fee with later receipts can leave the opening provider work unfunded, so an aggregate interval does not establish an executable offer. The dashboard supports saved or explicitly applied comparisons and exact complete replay. No empirical acceptance status is promoted.
 

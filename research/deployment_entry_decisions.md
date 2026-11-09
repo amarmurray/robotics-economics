@@ -276,3 +276,11 @@ The [utility measurement audit](quadruped_operator_followup.md#measurement-equiv
 ## Matched service before the fee comparison, edition 0.51
 
 The [inspection cash bounds](utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) distinguish the customer's alternative, provider resource recovery and consolidated resources. Complete matching service and funded monitoring are prerequisites; the same aggregate fee can fail at the first resource booking. Further maintenance value remains an evidence threshold. The three packs retain their own units, current qualification and full-lifecycle gaps; no synthetic price is transferred.
+
+## Authorized procurement and complete alternatives, edition 0.52
+
+The [Laredo audit](quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) establishes a historical $189,000 quoted and council-authorized two-camera bundle, despite incomplete agenda action metadata. The background's $189,700 remains unexplained. The nearly $800,000 truck estimate has no matched specification or accepted-service comparison. No paid acquisition, avoided truck purchase, actual paid-work change or operating margin is established.
+
+For the utility decision, a specialist purchase is now a concrete documented alternative with initial equipment/training/shipping/warranty scope. Keep transport, launch/retrieval, offline review, incomplete segments, maintenance and recurring support in the comparison. For hospital and automotive decisions, transfer only the method: verify offer → authority → executed terms → delivered acceptance → payment → service and changed commitments. Preserve their own quality, urgency and safety obligations. Hardware approval and a product-specific sole-source statement do not establish transferable data/model rights or the absence of qualified competing services.
+
+The three packs and six cell reassessments carry this gate. Incumbent purchase, a new operating company and acquisition/hybrid entry still need a complete funded service and applicable rights; this record supplies no calibrated price or labor advantage for any route.

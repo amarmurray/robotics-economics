@@ -174,3 +174,7 @@ Two primary-source records and an operator-service audit add a substantive alter
 ## Checkpoint 0.51: derived inspection cash bounds
 
 Eight comparisons derive customer/provider/consolidated window bounds from the unchanged eighteen inspection executions. Full matching service, funded work and the incumbent alternative are explicit; no additional maintenance value is assigned. No deployment world or empirical coefficient is added; fourteen families remain at 271 worlds. The same T0, deadline and incomplete empirical acceptance persist.
+
+## Checkpoint 0.52: authorized municipal purchase and whole-service limits
+
+Five primary records from Laredo resolve council authorization and initial bundle scope while preserving the $700 staff-background discrepancy, incomplete truck comparator and missing service/payer outcomes. Three decision packs and six reassessments inherit the procurement-stage test without transferring sector rates or prices. No world or numerical calibration is added; fourteen families remain at 271 worlds. All empirical gaps, prior access boundaries, T0, November 14 deadline and single-writer scope remain.

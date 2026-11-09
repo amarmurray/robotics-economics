@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.51, matched inspection cash bounds checkpoint, 9 November 2026. Eight derived comparisons distinguish customer fee capacity, provider recorded-resource recovery and consolidated resources after full-service and funding checks. The eighteen inspection executions and all 271 bounded worlds remain; no maintenance value, current price or deployment world is invented. Empirical whole-system economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.52, municipal procurement and complete-service checkpoint, 9 November 2026. Approved Laredo minutes and a supplier quote support a $189,000 two-camera purchase; a $189,700 staff-background amount remains unexplained. Authorization does not establish paid cost, matched truck equivalence or actual labor savings. All 271 bounded worlds remain unchanged. Empirical whole-system economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -209,6 +209,12 @@ The [new utility audit](research/quadruped_operator_followup.md#measurement-equi
 ### Customer willingness and provider resources, edition 0.51
 
 The [derived inspection comparison](research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) exposes a bounded commercial condition without inventing a price: complete customer service, provider work funding, the actual incumbent alternative and consolidated resources must reconcile. A positive aggregate interval is insufficient for timed funding or lifecycle economics. Eight comparisons reuse existing executions; no new world or measured benefit is added.
+
+### Municipal acquisition and operating value, edition 0.52
+
+The [Laredo case](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) distinguishes a verified purchase authorization from economic execution. Approved minutes and an initial supplier quote agree on $189,000; the staff background's $189,700 does not. Retained deployment/retrieval and offline review undermine a literal reading of unmanned operation as absent paid work. The truck comparison lacks matched functions and accepted output.
+
+This changes the acquisition evidence available to the utility pack while leaving the savings decision open. Compare qualified complete services, identify each actual payer and then test changed commitments. Customer financing, provider resources, paid municipal work and service outcomes remain separate. No robot/model/sector coefficient or empirical completion status changes.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -490,6 +496,14 @@ The [utility measurement audit](research/quadruped_operator_followup.md#measurem
 #### Matched service before the fee comparison, edition 0.51
 
 The [inspection cash bounds](research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) distinguish the customer's alternative, provider resource recovery and consolidated resources. Complete matching service and funded monitoring are prerequisites; the same aggregate fee can fail at the first resource booking. Further maintenance value remains an evidence threshold. The three packs retain their own units, current qualification and full-lifecycle gaps; no synthetic price is transferred.
+
+#### Authorized procurement and complete alternatives, edition 0.52
+
+The [Laredo audit](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) establishes a historical $189,000 quoted and council-authorized two-camera bundle, despite incomplete agenda action metadata. The background's $189,700 remains unexplained. The nearly $800,000 truck estimate has no matched specification or accepted-service comparison. No paid acquisition, avoided truck purchase, actual paid-work change or operating margin is established.
+
+For the utility decision, a specialist purchase is now a concrete documented alternative with initial equipment/training/shipping/warranty scope. Keep transport, launch/retrieval, offline review, incomplete segments, maintenance and recurring support in the comparison. For hospital and automotive decisions, transfer only the method: verify offer → authority → executed terms → delivered acceptance → payment → service and changed commitments. Preserve their own quality, urgency and safety obligations. Hardware approval and a product-specific sole-source statement do not establish transferable data/model rights or the absence of qualified competing services.
+
+The three packs and six cell reassessments carry this gate. Incumbent purchase, a new operating company and acquisition/hybrid entry still need a complete funded service and applicable rights; this record supplies no calibrated price or labor advantage for any route.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -3737,6 +3751,45 @@ A maintenance-scope recommendation, an authorized work order and a completed int
 The utility pack can proceed with analytical qualification of such a measurement contract while waiting on scale economics. Reject substituting a mismatched diagnostic or booking proposed scope as realized savings. The hospital and automotive packs inherit the equivalence test, not conductor methods or costs: preserve custody/urgency for a delivery and quality/takt for a part. Customer newco, acquisition and hybrid routes need qualified control and executable rights; a provider must fund its complete inspection obligation and price fees separately from its resources.
 
 Both pages were read through the web tool before ordinary raw-HTML snapshot attempts returned 403. Those downloads stopped; no retry, alternate retrieval or raw-byte hash is claimed. Two distinct Hydro-Quebec overview pages also remain closed after 403, along with all prior restricted routes. The accepted claims use the already returned page text. No source coefficient or synthetic model is changed.
+
+#### Municipal procurement and complete service, edition 0.52
+
+**Finding:** Laredo's approved council minutes establish authorization for a **$189,000 two-Solo purchase on February 18, 2025**. The supplier quote supports that amount. The staff background instead says **$189,700**, an unexplained **$700** difference. Authorization and the initial quoted bundle are now evidenced; payment, delivered configuration, accepted service, current support and realized savings are not. This specialist sewer-camera case belongs in the existing M03 comparator package; it adds neither a quadruped deployment nor a labor cell.
+
+##### Resolve the action before the economics
+
+The [official file 25-260](https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search=) remains Agenda Ready with no final-action/history entry. That metadata is incomplete evidence of the outcome. The [meeting page](https://cityoflaredo.legistar.com/MeetingDetail.aspx?GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE&ID=1243768&Options=&Search=) links approved minutes. In those [minutes](https://cityoflaredo.legistar.com/View.ashx?M=M&ID=1243768&GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE), PDF page 22 / printed page 21 records passage of consent items 33–75 except 40 and 45. PDF page 33 / printed page 32 identifies item 75 as this $189,000 purchase. Both scanned pages were visually checked against OCR. The finding is council authorization, not a signed order or paid invoice. The meeting/action date is established; the minutes approval/publication date is not.
+
+The [November 18, 2024 quote OPP-107575](https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761348&GUID=A67E9E32-71AB-49DA-9E4C-647B6F6F758F) expired February 28, 2025. Its client acceptance fields are blank. It includes two Solo robots, sixteen batteries and charger, two manhole hangers, two TigerTails, four tether spools, controller computer with Vault/sync cables, storage case, twelve months Warranty Plus, two onsite training days and shipping to the facility. The $189,000 is a bundled offer; dividing it by two does not identify a standalone robot price. Net 30 of invoice states a proposed payment interval, not an invoice date or observed payment.
+
+The agenda and minutes identify the 2015 Sewer Revenue Bond as funding. This does not establish actual expenditure, debt service, financing terms, usable operating rights or the disposition of any existing trucks. The quote and minutes support their respective $189,000 stages; no source explains the staff background's extra $700. Do not silently correct it or attribute it to tax or freight.
+
+##### Compare the complete alternatives
+
+Staff compares the cameras with nearly $800,000 for two CCTV trucks and asserts similar critical capability. The record does not specify a matched truck quote, sensor/vehicle configuration, pipe cohort, accepted quality, review standard, throughput clock or complete supporting resources. A portable inspection unit and an equipped truck need not contain the same transport, deployment, storage, recovery or reporting functions. Subtracting these headlines would not establish realized savings, avoided purchase or a complete capital comparison.
+
+The [attached Solo V3.3 brochure](https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761350&GUID=EA536EF8-62FF-4AAB-A89E-781463C556D8) is dated October 2019 and marked provisional/reference information. It describes a crew deploying and retrieving multiple robots and offline PC reporting. It advertises up to four simultaneous inspections and 3,000 feet per crew-day. Its ten-to-fifteen-minute deployment interval ends when the manhole closes after launch; it excludes the rest of the inspection/retrieval/review cycle. Obstructed runs can return without complete coverage. Qualify the exact configuration against pipe dimensions, access, flow, obstruction and the required condition measurement. A minimum no-flow capability is not a requirement for universally dry pipes. The brochure cannot establish the accepted 2025 installation or current performance.
+
+The [January 9, 2025 sole-source letter](https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761349&GUID=5F3C9A76-5CFD-43F1-9F27-6CA50B218BD4) claims typically four-times-faster data collection. The older brochure claims five-times inspection throughput. Different dates and unspecified populations, acceptance and clock bases prevent treating these as a measured trend, consistent rate or removable-payroll multiplier. Supplier exclusivity for its own patented product does not eliminate other qualified ways of buying the service.
+
+A proposed common unit is **one unique due sewer segment with required coverage/condition measurement, accepted review and recorded disposition by its deadline**. Keep traversed distance, repeated attempts, incomplete segments and later maintenance separate. Compare the robot bundle, specified conventional trucks, retained/improved human work and a feasible mixed or outsourced service against that obligation. No observed matched staffing study has been recovered.
+
+| Responsibility | Work/cost that must remain in the comparison | Missing decision evidence |
+| --- | --- | --- |
+| Municipal owner/operator | Route/access planning, transport, traffic/site duties as needed, launch/retrieval, batteries, cleaning, exceptions and maintenance decisions | Duty calendar and actual paid roster, overtime, hiring or contractor commitments |
+| Reviewer/service provider | Offline inspection/coding, acceptance, incomplete-segment disposition and required follow-up | Unique accepted segments, quality/deadline record and actual paid resources |
+| Equipment/support supplier | Configured delivery, training, repairs, parts and support | Applicable Warranty Plus scope, exclusions, restoration obligation, recurring prices and supplier resources |
+| Financier/asset owner | Purchase funding, debt obligations and any ownership transition | Executed rights, actual cash, title and software/data/support portability |
+
+Included training and named warranty coverage are useful scope evidence. They are not proof of zero supplier resource cost or all-inclusive lifetime support. Customer payments to suppliers are transfers at the consolidated boundary; do not add them again to the same supplier resources. Funding principal is not a second copy of equipment resource use. Keep incremental customer cash, provider cash/resources and financing obligations separately inspectable.
+
+##### Consequence for deployment and entry
+
+Proceed analytically with the evidenced specialist acquisition option. Wait on savings-based scaling or an entrant margin until complete alternatives, site acceptance, recurring support, paid commitments and actual payers are established. A newco may buy capability or capacity without removing a municipal shift; an acquirer still needs applicable transferable rights and a funded service. Hospital and automotive packs inherit the procurement-stage and comparator method only, retaining their own accepted service units. No sewer price, rate, entitlement or labor effect transfers to them or to frontier models.
+
+QOF-E27–E31, conflict QOF-C03 and QOF-AUDIT-SERVICE-05 are in the existing [operator package](data/quadruped_operator_followup.json). Exact hashes and locators distinguish the official pages, vendor attachments and scanned minutes; the ignored source cache is operational, not an additional accepted cost dataset. All prior records, models, assumptions, result numbers and denied-source boundaries remain intact.
+
+**Next dependency:** a new permitted executed order/support schedule or an acceptance-and-payer closeout joining the due segment, accepted condition finding, changed maintenance action and actual paid commitment. Targeted official-domain follow-up returned the existing council packet; it did not establish a linked invoice or operating closeout. This is a limit of the reviewed evidence, not proof that those records do not exist. No outreach, paid access or alternate route around a denial was attempted.
 
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 

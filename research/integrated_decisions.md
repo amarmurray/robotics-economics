@@ -176,3 +176,9 @@ The [new utility audit](quadruped_operator_followup.md#measurement-equivalence-a
 ## Customer willingness and provider resources, edition 0.51
 
 The [derived inspection comparison](utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) exposes a bounded commercial condition without inventing a price: complete customer service, provider work funding, the actual incumbent alternative and consolidated resources must reconcile. A positive aggregate interval is insufficient for timed funding or lifecycle economics. Eight comparisons reuse existing executions; no new world or measured benefit is added.
+
+## Municipal acquisition and operating value, edition 0.52
+
+The [Laredo case](quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) distinguishes a verified purchase authorization from economic execution. Approved minutes and an initial supplier quote agree on $189,000; the staff background's $189,700 does not. Retained deployment/retrieval and offline review undermine a literal reading of unmanned operation as absent paid work. The truck comparison lacks matched functions and accepted output.
+
+This changes the acquisition evidence available to the utility pack while leaving the savings decision open. Compare qualified complete services, identify each actual payer and then test changed commitments. Customer financing, provider resources, paid municipal work and service outcomes remain separate. No robot/model/sector coefficient or empirical completion status changes.

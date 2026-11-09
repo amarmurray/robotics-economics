@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.51.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.52.
 
 ## Accepted direction
 
@@ -20,7 +20,29 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: matched inspection cash bounds, edition 0.51
+## Current checkpoint: municipal procurement and complete service, edition 0.52
+
+Same sole-writer campaign; T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. This bounded tranche is complete; the overall campaign retains its incomplete empirical acceptance. Input **878dc2e2eedde70d13ef20693ca98d5cd7c9dada** was clean and remote-verified. Actual shell and browser execution resumed in the same configured cloud task. No new task, native goal, agent, schedule, spending, outreach, model setting or access change. Quota is unknown.
+
+The [municipal procurement audit](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) adds QOF-E27–E31, QOF-C03 and QOF-AUDIT-SERVICE-05 to the existing package. **Approved minutes establish the February 18, 2025 $189,000 authorization** even though file25-260 has empty action/history fields. The initial quote agrees and defines equipment, training, shipping and twelve-month named warranty coverage. The staff background's **$189,700** remains an unexplained **$700 discrepancy**. The nearly $800,000 truck comparison lacks matched configuration and complete accepted service.
+
+The crew still deploys/retrieves equipment and reviews data offline. Historical supplier speed/distance claims do not establish paid work removed. Hardware authorization, executed order, delivered acceptance, payment, support rights and operating results remain separate stages. No invoice, matched service cost, current support terms, paid-hours effect or realized saving is inferred. Three packs and six cell reassessments inherit the comparison method without transferring sewer prices or performance.
+
+Fresh validation passes the production evidence registry at **13 packages, 238 claims, 567 quantities and 205 explicit-null markers**. All five new source-file hashes, original source context, quote/minutes amount agreement and the $700 discrepancy arithmetic verify. The changed dashboard script passes syntax checking; the report rebuild and three affected evidence-dependent exports complete.
+
+All **13 dashboard views**, all three selectable service audits in four views, five new source drawers, three decision-pack gates and six cell scopes pass. Search/year behavior, audit selection persistence, scenario recomputation with unchanged evidence and exact scenario export/reload pass. The new audit and expanded-unknown screenshots were visually checked. A final request-tracked pass completes all 13 views and 28 API responses with no pending or failed requests, JavaScript errors or API errors. All four retained-work roles and seven explicit unknown outcomes render. The first display pass exposed a record-wrapper lookup error that showed Unknown instead of the sourced amounts; it was corrected before the complete passing browser check.
+
+All **2,098,443 typed numeric fields across 44 prior JSON artifacts** and every non-fingerprint result field remain unchanged. **33 artifacts are byte-identical**; **11** change only evidence fingerprints and dependent identities. Model code, assumptions, previous source records/audits and labor rows are preserved. The **14 bounded families /271 worlds**, legacy **53 met /16 partial**, all 69 legacy requirement statuses, decision-campaign requirement statuses and all 65 question statuses remain. The full575 Python tests (edition0.45), Node36 assertions (0.46) and comparison14 tests (0.51) are prior evidence; unchanged suites were not rerun or relabeled fresh.
+
+All **400 manifest hashes** and **1055 relative Markdown links** verify.
+
+See the [sole-writer review](reviews/laredo_procurement_review.md). Publication identities and runtime observations are in the reconstructed ignored receipt; older ignored logs were absent after environment restoration.
+
+**Remaining dependency / next action:** reopen on a new permitted executed-order/support record or a linked accepted-segment → maintenance disposition → changed paid commitment → actual payer closeout. The current official packet resolves authorization but supplies no such closeout. The previous hardware-migration funding/title, installation/review, downtime, failure-disposition and configuration-specific-support dependency remains. All earlier denied and request-based source routes remain closed. No runtime or required validation blocker remains; an optional denied root-cache inspection was stopped and was not needed. No useful additional authorized step in this bounded tranche remains. Report this dependency once to coordination; do not repeat searches, tests, goal-control probes or holding messages. Native goal settings stay unchanged.
+
+**Next question:** what was actually ordered, accepted and paid, and which complete-service obligation or maintenance action changed as a result?
+
+## Previous checkpoint: matched inspection cash bounds, edition 0.51
 
 Same sole-writer campaign **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `125c238a11f817c3fd8f215d462f22455e5cb469` was clean and remote-verified. The same cloud configuration is running and connected, with actual commands and browser execution. No goal, clock, model setting, task, schedule, spending, outreach or access change. Quota is unknown.
 

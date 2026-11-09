@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "measurement-equivalence-0.50",
-  "retrieved_at": "2026-11-09T06:26:06.439629+00:00",
+  "version": "municipal-procurement-0.52",
+  "retrieved_at": "2026-11-09",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -9,11 +9,12 @@
   },
   "scope": {
     "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
-    "foreign_comparator_only": true,
+    "foreign_comparator_only": false,
     "adds_labor_totals": false,
     "no_numerical_model_calibration": true,
     "full_service_cost_denominator_obtained": false,
-    "cross_sector_source_role": "European steel rollout and French specialist nuclear inspection are bounded service/retained-work comparators; no new labor cell, quadruped deployment count, numerical calibration or complete cost dossier."
+    "cross_sector_source_role": "European steel rollout and French specialist nuclear inspection are bounded service/retained-work comparators; no new labor cell, quadruped deployment count, numerical calibration or complete cost dossier.",
+    "us_municipal_comparator": "Laredo sewer inspection procurement, 2024–2025 records. Specialist equipment comparator within M03; not a quadruped deployment, new labor cell or empirical calibration. Earlier foreign records retain their original geography and limits."
   },
   "evidence": [
     {
@@ -1259,6 +1260,247 @@
       "claim": "Nucleom offers LineCore inspection as a service, distinguishing worker-deployed self-propelled equipment from a sensor carried by a drone or another platform. Its broad sampling-replacement benefit is a supplier claim.",
       "limitations": "No named customer acceptance, current contract price, repair/support commitment, paid-work effect or realized investment outcome is supplied. The historical operator account and this offer have different dates and configurations; they are not a controlled contradiction or a joined cohort.",
       "publication_date_missingness_reason": "No publication date is established in the retrieved supplier page; retrieval time is not publication time."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E27",
+      "title": "Laredo file 25-260: proposed bundle, conflicting background amount and truck comparison",
+      "url": "https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search=",
+      "publisher": "City of Laredo",
+      "publication_date": null,
+      "observation_period": "January 30, 2025 file creation; February 18, 2025 council agenda",
+      "retrieved_at": "2026-11-09",
+      "source_class": "primary",
+      "epistemic_status": "municipal_staff_proposal_and_comparator_claim_not_paid_cost",
+      "locator": "Title; Background; Fiscal Impact; file status and empty history",
+      "claim": "The title requests two Solo sewer inspection cameras for $189,000; the background says $189,700 and compares nearly $800,000 for two CCTV trucks. Staff claims equivalent critical inspection capability. FY2025 funding is identified in the 2015 Sewer Revenue Bond. The file page remains Agenda Ready without a final-action entry.",
+      "limitations": "The page alone does not settle authorization: QOF-E31 supplies approved minutes. The background price conflict is unexplained. No matched truck specification, accepted-output denominator, delivery, invoice, payment, retained-work study or bond financing terms are supplied.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-LAREDO-TITLE",
+          "value": 189000,
+          "unit": "USD",
+          "denominator": "one proposed two-robot bundle",
+          "population": "Laredo file 25-260 title",
+          "period": "2025-02-18",
+          "measurement_status": "proposed_purchase_amount"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-BACKGROUND",
+          "value": 189700,
+          "unit": "USD",
+          "denominator": "one proposed two-robot bundle",
+          "population": "Laredo file 25-260 background",
+          "period": "2025-02-18",
+          "measurement_status": "conflicting_proposed_purchase_amount"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-TRUCKS",
+          "value": 800000,
+          "unit": "USD",
+          "denominator": "two unspecified CCTV inspection trucks",
+          "population": "Laredo staff comparator",
+          "period": "2025-02-18",
+          "measurement_status": "approximate_staff_estimate_not_vendor_quote_or_paid_cost",
+          "qualifier": "nearly"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "publication_date_missingness_reason": "The record states file creation January 30 and agenda February 18, 2025; no distinct publication date is established.",
+      "source_html_sha256": "a3000a0f032451a31e2016d4615f2790c965037fceca93602f28caa4220bb36c"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E28",
+      "title": "Laredo RedZone quote OPP-107575: included equipment and initial support",
+      "url": "https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761348&GUID=A67E9E32-71AB-49DA-9E4C-647B6F6F758F",
+      "publisher": "RedZone Robotics; attachment hosted by City of Laredo",
+      "publication_date": "2024-11-18",
+      "observation_period": "Offer dated November 18, 2024 and expiring February 28, 2025",
+      "retrieved_at": "2026-11-09",
+      "source_class": "primary",
+      "epistemic_status": "dated_supplier_quote_not_executed_order_or_invoice",
+      "locator": "PDF pages 1–2; equipment table, payment terms and blank client acceptance",
+      "claim": "The $189,000 lump sum covers two Solo robots, sixteen batteries, charger, two manhole hangers, two TigerTails, four tether spools, controller computer with Vault and sync cables, storage case, twelve months Warranty Plus, two days onsite deployment training and shipping to the Laredo facility. Payment is Net 30 of invoice. The client signature fields are blank.",
+      "limitations": "This expired offer is not a current price, signed contract, delivered asset or paid invoice. The bundle is not a standalone robot unit price. Warranty Plus scope, restoration time, recurring costs, tax treatment, software/data rights, transferability and complete site resources are not established.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-LAREDO-QUOTE",
+          "value": 189000,
+          "unit": "USD",
+          "denominator": "one complete quoted bundle",
+          "population": "Laredo proposal OPP-107575",
+          "period": "2024-11-18 to 2025-02-28",
+          "measurement_status": "supplier_quoted_bundle_price"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-ROBOTS",
+          "value": 2,
+          "unit": "robots",
+          "denominator": "one quoted bundle",
+          "population": "Laredo proposal OPP-107575",
+          "period": "2024-11-18",
+          "measurement_status": "quoted_equipment_count_not_delivered_fleet"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-WARRANTY",
+          "value": 12,
+          "unit": "months",
+          "denominator": "included Warranty Plus term",
+          "population": "Laredo proposal OPP-107575",
+          "period": "2024-11-18",
+          "measurement_status": "quoted_coverage_duration_scope_unestablished"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-TRAINING",
+          "value": 2,
+          "unit": "days",
+          "denominator": "included onsite deployment training",
+          "population": "Laredo proposal OPP-107575",
+          "period": "2024-11-18",
+          "measurement_status": "quoted_training_scope_not_verified_completion"
+        },
+        {
+          "metric_id": "QOF-Q-LAREDO-TERMS",
+          "value": 30,
+          "unit": "days after invoice",
+          "denominator": "quoted payment due interval",
+          "population": "Laredo proposal OPP-107575",
+          "period": "2024-11-18",
+          "measurement_status": "quoted_net_payment_term_not_actual_cash_timing"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "a02afa74a57ccc243e321bd99e34360a9906a0e6e9c5ee46afeca01fddc0b56e",
+      "landing_url": "https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search=",
+      "artifact_version": "OPP-107575; November 18, 2024"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E29",
+      "title": "Solo V3.3 brochure: retained crew, offline review and conditional throughput",
+      "url": "https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761350&GUID=EA536EF8-62FF-4AAB-A89E-781463C556D8",
+      "publisher": "RedZone Robotics; attachment hosted by City of Laredo",
+      "publication_date": "2019-10",
+      "observation_period": "October 2019 product brochure attached to the 2025 procurement record",
+      "retrieved_at": "2026-11-09",
+      "source_class": "primary",
+      "epistemic_status": "historical_vendor_specification_and_productivity_claim_not_matched_operating_study",
+      "locator": "PDF page 1 capability/configuration; page 2 deployment cycle and footer version",
+      "claim": "The brochure describes a crew repeatedly deploying and retrieving multiple robots, with reports generated offline from a PC. It advertises up to four simultaneous inspections, 3,000 feet per deployment-crew day and five times conventional CCTV throughput. Ten to fifteen minutes covers site arrival through closing the manhole after launch, not the complete inspection, accepted review or maintenance decision. Obstructed runs attempt passage three times then return.",
+      "limitations": "The brochure is marked Solo V3.3 October 2019 and provisional/reference only. The pipe range is 8–12 inches (200–300 mm); qualify access, flow and obstruction conditions for each job. The no-flow minimum describes capability without flow, not a requirement that all pipes have no flow. No matched quality, unique accepted segment count, crew size, paid shift change, recurring support cost or current configured acceptance is established. Marketing about unmanned operation does not remove deployment/retrieval, transport, battery work, cleaning, review and exception duties.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-SOLO-CREW-DISTANCE",
+          "value": 3000,
+          "unit": "feet per deployment-crew day",
+          "denominator": "one deployment crew operating multiple robots",
+          "population": "Solo V3.3 marketing configuration",
+          "period": "2019-10",
+          "measurement_status": "vendor_claim_not_unique_accepted_service_rate"
+        },
+        {
+          "metric_id": "QOF-Q-SOLO-THROUGHPUT",
+          "value": 5,
+          "unit": "times conventional CCTV throughput",
+          "denominator": "unspecified conventional CCTV comparator",
+          "population": "Solo V3.3 marketing configuration",
+          "period": "2019-10",
+          "measurement_status": "vendor_claim_denominator_and_acceptance_unestablished"
+        },
+        {
+          "metric_id": "QOF-Q-SOLO-CONCURRENT",
+          "value": 4,
+          "unit": "inspections",
+          "denominator": "maximum simultaneous inspections per described crew",
+          "population": "Solo V3.3 marketing configuration",
+          "period": "2019-10",
+          "measurement_status": "vendor_up_to_claim_not_observed_concurrency"
+        },
+        {
+          "metric_id": "QOF-Q-SOLO-DEPLOY-LOW",
+          "value": 10,
+          "unit": "minutes",
+          "denominator": "arrival through closing manhole after launch",
+          "population": "Solo V3.3 described deployment cycle",
+          "period": "2019-10",
+          "measurement_status": "vendor_claim_lower_endpoint_not_complete_service_time"
+        },
+        {
+          "metric_id": "QOF-Q-SOLO-DEPLOY-HIGH",
+          "value": 15,
+          "unit": "minutes",
+          "denominator": "arrival through closing manhole after launch",
+          "population": "Solo V3.3 described deployment cycle",
+          "period": "2019-10",
+          "measurement_status": "vendor_claim_upper_endpoint_not_complete_service_time"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "d926cdeac09446fecf14d8b5a7f8fc07c4d4d4b3f2d5004e14a7d3c17f0236f4",
+      "landing_url": "https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search=",
+      "artifact_version": "Solo V3.3 October 2019"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E30",
+      "title": "RedZone sole-source letter: product exclusivity and speed claim",
+      "url": "https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761349&GUID=5F3C9A76-5CFD-43F1-9F27-6CA50B218BD4",
+      "publisher": "RedZone Robotics; attachment hosted by City of Laredo",
+      "publication_date": "2025-01-09",
+      "observation_period": "January 9, 2025 supplier letter",
+      "retrieved_at": "2026-11-09",
+      "source_class": "primary",
+      "epistemic_status": "supplier_product_exclusivity_and_performance_claim",
+      "locator": "One-page letter: sole manufacturer/provider and data-collection comparison",
+      "claim": "The supplier describes itself as sole manufacturer and provider of its patented Solo equipment and claims data collection is typically four times faster than conventional inspection equipment. It describes hand portability and reduced traffic control.",
+      "limitations": "This is a supplier statement about its specific product, not an independent survey of all qualified sewer-inspection alternatives. Four times faster data collection is not interchangeable with the 2019 brochure five-times-throughput claim; populations, acceptance criteria and clock bases are unspecified. No current paid-work or all-payer service study is supplied.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-SOLO-COLLECTION",
+          "value": 4,
+          "unit": "times conventional data-collection speed",
+          "denominator": "unspecified conventional inspection equipment",
+          "population": "Solo equipment described in January 2025 letter",
+          "period": "2025-01-09",
+          "measurement_status": "supplier_typical_claim_not_matched_accepted_output"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "43499a5ea21dbb84865e5094a1ec129406ce74b7cfdd71db0d171ddfdf6f4577",
+      "landing_url": "https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search="
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E31",
+      "title": "Approved Laredo council minutes: item 75 purchase authorization",
+      "url": "https://cityoflaredo.legistar.com/View.ashx?M=M&ID=1243768&GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE",
+      "publisher": "City of Laredo",
+      "publication_date": null,
+      "observation_period": "February 18, 2025 council meeting; minutes marked Approved on the meeting page",
+      "retrieved_at": "2026-11-09",
+      "source_class": "primary",
+      "epistemic_status": "official_council_authorization_not_proof_of_order_delivery_or_payment",
+      "locator": "PDF page 22 / printed page 21: consent motion; PDF page 33 / printed page 32: item 75, file 25-260",
+      "claim": "The recorded motion approving consent items 33–75 except items 40 and 45 carries. Item 75 is file 25-260, authorizing the City Manager to approve the purchase of two Solo sewer cameras for $189,000 funded by the 2015 Sewer Revenue Bond. Thus the reviewed minutes establish council authorization despite the file page empty final-action/history fields.",
+      "limitations": "Authorization does not establish an executed purchase order, delivered/accepted equipment, invoice, cash payment or operating outcome. The minutes approval/publication date is not established; the PDF creation metadata is not the council action date. No explanation for the background $189,700 is provided.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-LAREDO-AUTHORIZED",
+          "value": 189000,
+          "unit": "USD",
+          "denominator": "one authorized two-Solo purchase",
+          "population": "Laredo council item 75, file 25-260",
+          "period": "2025-02-18",
+          "measurement_status": "council_authorized_purchase_amount_not_paid_cost"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "publication_date_missingness_reason": "The meeting page labels the minutes Approved, but no approval/publication date is established in the reviewed records. The February 18 date is the meeting/action date.",
+      "source_pdf_sha256": "d144b665c33fd24a5d05f38965bd955c6dd89f085fdd53c79dc5b5b29c94dc69",
+      "landing_url": "https://cityoflaredo.legistar.com/MeetingDetail.aspx?GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE&ID=1243768&Options=&Search=",
+      "meeting_page_sha256": "0f20b8e70db4be00c84302ffc2d44740ef85233541f4813b75ab8b8005f02806",
+      "visual_verification": "Scanned PDF pages 22 and 33 visually checked against OCR; consent range/exclusions and item identifier/amount agree."
     }
   ],
   "deployments": [
@@ -1408,6 +1650,16 @@
       ],
       "issue": "36 selected planning points, June 37 missions with unspecified construct/interval, August 31 programmed missions; Jan–Sep operator window versus end 2024 press test phase",
       "disposition": "Distinct or unspecified constructs/versions/windows; no subtraction, trend, common completion denominator or accepted-output rate inferred."
+    },
+    {
+      "conflict_id": "QOF-C03",
+      "evidence_ids": [
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E31"
+      ],
+      "issue": "Title, quote and approved minutes state $189,000; staff background states $189,700.",
+      "disposition": "Quote and minutes support the quoted and authorized $189,000 bundle. The $700 background difference remains unexplained; do not infer typo, tax, freight, paid invoice or realized saving."
     }
   ],
   "transfer_test": {
@@ -1564,6 +1816,24 @@
         "Repeated rollout/safety projections do not establish maintenance economics."
       ],
       "stop_reason": "A dated operator progression and retained-work challenge were found; complete repair/support terms and accepted service costs were not. No claim of exhaustive search or abandonment."
+    },
+    "laredo_procurement_followup": {
+      "date": "2026-11-09",
+      "scope": "New independent permitted official file, all three attachments and approved council minutes; no revisit of denied sources.",
+      "recovered": [
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E29",
+        "QOF-E30",
+        "QOF-E31"
+      ],
+      "visual_check": "Quote pages 1–2; sole-source letter; brochure pages 1–2; scanned minutes PDF pages 22 and 33.",
+      "followup_queries": [
+        "site:cityoflaredo.legistar.com \"RedZone\" \"Solo\"",
+        "site:cityoflaredo.com \"RedZone\" purchase invoice Solo"
+      ],
+      "outcome": "Targeted official-domain searches returned the council packet/meeting; no linked paid invoice or operating closeout was established. This is not proof that none exists.",
+      "stop_reason": "Authorization and initial bundle are established; further economics require a new permitted executed-order, acceptance, service or payer record. Prior 403 boundaries remain closed."
     }
   },
   "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)",
@@ -1986,6 +2256,159 @@
       "decision_gate": "Buy a qualified decision service, then establish the changed action and each payer's cash. Preserve complementary tests and funded fallback; do not infer savings from the mobility platform or measurement count.",
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+    },
+    {
+      "audit_id": "QOF-AUDIT-SERVICE-05",
+      "title": "Laredo: approved purchase, unproven whole-service savings",
+      "status": "bounded_us_municipal_procurement_and_complete_service_audit",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E29",
+        "QOF-E30",
+        "QOF-E31"
+      ],
+      "summary": "Approved minutes establish a $189,000 purchase authorization. The $189,700 background remains inconsistent; neither figure establishes paid cost or matched service savings.",
+      "source_boundary": "2024 quote, 2025 council records and an attached October 2019 brochure. Sewer cameras are a specialist M03 comparator, not a quadruped deployment or substation performance benchmark.",
+      "service_unit": "Proposed contract: one unique due sewer segment with the required coverage/condition measurement, accepted review and recorded disposition by its deadline. Distance, attempts, partial runs and later repairs remain separate.",
+      "price_comparison": [
+        {
+          "label": "Agenda title",
+          "evidence_id": "QOF-E27",
+          "metric_id": "QOF-Q-LAREDO-TITLE",
+          "boundary": "Proposed bundle"
+        },
+        {
+          "label": "Supplier quote",
+          "evidence_id": "QOF-E28",
+          "metric_id": "QOF-Q-LAREDO-QUOTE",
+          "boundary": "Expired bundled offer; unsigned client acceptance"
+        },
+        {
+          "label": "Approved minutes",
+          "evidence_id": "QOF-E31",
+          "metric_id": "QOF-Q-LAREDO-AUTHORIZED",
+          "boundary": "Authorized purchase; not paid invoice"
+        },
+        {
+          "label": "Agenda background",
+          "evidence_id": "QOF-E27",
+          "metric_id": "QOF-Q-LAREDO-BACKGROUND",
+          "boundary": "Unexplained conflicting amount"
+        },
+        {
+          "label": "Two CCTV trucks",
+          "evidence_id": "QOF-E27",
+          "metric_id": "QOF-Q-LAREDO-TRUCKS",
+          "boundary": "Approximate staff estimate; unmatched configuration"
+        }
+      ],
+      "price_conflict": "The background exceeds the quoted/authorized amount by $700. The cause is not established. No price delta is treated as realized savings.",
+      "procurement_stages": [
+        {
+          "stage": "Offer",
+          "finding": "November 18, 2024 quote; expires February 28, 2025.",
+          "boundary": "Expired offer; client acceptance blank."
+        },
+        {
+          "stage": "Council authorization",
+          "finding": "February 18, 2025 consent motion includes item 75; $189,000.",
+          "boundary": "Approved minutes resolve authorization despite incomplete file metadata."
+        },
+        {
+          "stage": "Executed order and applicable rights",
+          "finding": "Unknown in the reviewed record.",
+          "boundary": "Require executed order, scope, licenses, support and transfer terms."
+        },
+        {
+          "stage": "Delivery and site acceptance",
+          "finding": "Unknown in the reviewed record.",
+          "boundary": "Require serial/configuration, delivery and accepted qualification records."
+        },
+        {
+          "stage": "Invoice and payment",
+          "finding": "Unknown in the reviewed record.",
+          "boundary": "Net 30 is a quote term; bond funding is not cash expenditure."
+        },
+        {
+          "stage": "Accepted service and changed paid work",
+          "finding": "Unknown in the reviewed record.",
+          "boundary": "Require joined due-segment, review, decision, duty and paid-commitment records."
+        }
+      ],
+      "comparators": [
+        {
+          "alternative": "Quoted portable Solo bundle",
+          "qualification_question": "Can this exact configuration cover the required pipe, access, water and obstruction conditions?",
+          "retained_boundary": "Transport, deployment/retrieval, review, residual inspection and maintenance remain; 2019 specifications do not prove 2025 acceptance."
+        },
+        {
+          "alternative": "Two conventional CCTV trucks",
+          "qualification_question": "Which vehicle, sensor, access, cleaning/recovery, storage and reporting functions are included?",
+          "retained_boundary": "Staff estimate has no matched quote or complete workload. Complementary vehicle functions cannot be deleted merely because robots are portable."
+        },
+        {
+          "alternative": "Retained crew or outsourced/mixed service",
+          "qualification_question": "Can the same timely accepted segment and residual-work obligation be met?",
+          "retained_boundary": "Preserve paid standby, traffic/site duties, specialist review, failed-run recovery and qualified fallback."
+        }
+      ],
+      "retained_obligations": [
+        {
+          "role": "Municipal owner/operator",
+          "work": "Plan routes/access, transport, deploy/retrieve, manage batteries and cleaning, review/coding, exceptions and maintenance decisions.",
+          "economic_test": "Measure each duty and actual paid staffing, overtime, contract or hiring change. Crew-day throughput is not removed payroll."
+        },
+        {
+          "role": "Equipment supplier/support",
+          "work": "Deliver configured bundle, training and specified initial coverage; fund repair and support resources.",
+          "economic_test": "Establish Warranty Plus scope, restoration time, exclusions, renewal prices and actual supplier costs. Quoted included coverage is not costless production."
+        },
+        {
+          "role": "Reviewer or service contractor",
+          "work": "Accept coverage/condition data, resolve incomplete segments and record disposition.",
+          "economic_test": "Identify payment, labor and rework per unique accepted segment, including outsourced review."
+        },
+        {
+          "role": "Financier/asset owner",
+          "work": "Fund purchase and any financing or ownership transition obligations.",
+          "economic_test": "Bond appropriation does not establish debt service, cash paid, title transfer or usable software/data rights."
+        }
+      ],
+      "unknowns": {
+        "price_discrepancy_cause": {
+          "value": null,
+          "reason": "No source explains the $700 difference; quote and minutes support $189,000 for their respective stages."
+        },
+        "executed_order_and_paid_cost": {
+          "value": null,
+          "reason": "No signed order, invoice, receipt or payment is established in the reviewed packet."
+        },
+        "current_support_and_rights": {
+          "value": null,
+          "reason": "Warranty Plus name/duration and listed software do not establish restoration, recurring price or transferable operating/data rights."
+        },
+        "matched_accepted_service": {
+          "value": null,
+          "reason": "No matched truck/robot configuration and due-segment acceptance/disposition ledger."
+        },
+        "paid_work_change": {
+          "value": null,
+          "reason": "No actual roster, overtime, hiring or contractor-payment comparison."
+        },
+        "absolute_payer_costs": {
+          "value": null,
+          "reason": "No complete site, supplier, review, support and financing accounts."
+        },
+        "realized_maintenance_outcome": {
+          "value": null,
+          "reason": "No accepted inspection joined to authorized/completed work or an evidenced changed maintenance commitment."
+        }
+      },
+      "decision_gate": "Proceed with a bounded procurement comparison; wait on whole-service savings or scale entry. Reject the truck-price subtraction, speed-to-payroll conversion and product-specific sole-source claim as proof of no alternatives.",
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
     }
   ],
   "project_cost_audits": [

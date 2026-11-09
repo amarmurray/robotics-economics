@@ -3657,6 +3657,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     },
     {
@@ -3722,6 +3727,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     },
     {
@@ -3786,6 +3796,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     },
     {
@@ -3856,6 +3871,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     },
     {
@@ -3920,6 +3940,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     },
     {
@@ -3991,6 +4016,11 @@
         "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
         "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
+      },
+      "procurement_service_check": {
+        "finding": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "scope": "The historical Laredo sewer procurement supplies a stage/comparator test only. This cell inherits no sewer rate, price, rights, staffing effect or acceptance.",
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052"
       }
     }
   ],
@@ -4295,6 +4325,20 @@
         "status": "derived_bounds_on_existing_synthetic_inspection_executions",
         "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
+      },
+      "procurement_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-05",
+        "evidence_ids": [
+          "QOF-E27",
+          "QOF-E28",
+          "QOF-E29",
+          "QOF-E30",
+          "QOF-E31"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052",
+        "status": "historical_authorized_bundle_not_paid_whole_service_cost",
+        "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers."
       }
     },
     {
@@ -4319,7 +4363,12 @@
         "QOF-E17",
         "QOF-E18",
         "QOF-E19",
-        "QOF-E20"
+        "QOF-E20",
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E29",
+        "QOF-E30",
+        "QOF-E31"
       ],
       "alternatives": [
         {
@@ -4595,6 +4644,21 @@
         "status": "derived_bounds_on_existing_synthetic_inspection_executions",
         "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
+      },
+      "procurement_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-05",
+        "evidence_ids": [
+          "QOF-E27",
+          "QOF-E28",
+          "QOF-E29",
+          "QOF-E30",
+          "QOF-E31"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052",
+        "status": "historical_authorized_bundle_not_paid_whole_service_cost",
+        "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers.",
+        "decision": "The approved specialist-equipment bundle is a concrete acquisition comparator. It leaves complete-service qualification, current operating rights and paid-cost effects unresolved."
       }
     },
     {
@@ -4883,6 +4947,20 @@
         "status": "derived_bounds_on_existing_synthetic_inspection_executions",
         "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
         "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
+      },
+      "procurement_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-05",
+        "evidence_ids": [
+          "QOF-E27",
+          "QOF-E28",
+          "QOF-E29",
+          "QOF-E30",
+          "QOF-E31"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052",
+        "status": "historical_authorized_bundle_not_paid_whole_service_cost",
+        "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+        "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers."
       }
     }
   ],
@@ -4945,6 +5023,20 @@
       "status": "derived_bounds_on_existing_synthetic_inspection_executions",
       "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
       "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
+    },
+    "procurement_service_gate": {
+      "audit_id": "QOF-AUDIT-SERVICE-05",
+      "evidence_ids": [
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E29",
+        "QOF-E30",
+        "QOF-E31"
+      ],
+      "analysis": "research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052",
+      "status": "historical_authorized_bundle_not_paid_whole_service_cost",
+      "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
+      "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers."
     }
   }
 }
