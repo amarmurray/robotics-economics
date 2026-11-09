@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: utility operator service, edition 0.42
+## New decision campaign: utility project costs, edition 0.43
+
+A bounded historical account and cost-boundary synthesis deepen the utility pack without changing any requirement status. Current all-payer service economics and realized outcomes remain partial. Execution stops after this tranche for scheduled oversight; the campaign deadline remains November14.
+
+Fresh proportional checks pass **36 Python tests** in 0.248s, **36 Node assertions**, the changed JavaScript syntax check and evidence validation without warnings. Decimal reconciliation verifies the reported account categories, totals, funding envelope and the unresolved percentage base. Three affected export commands refresh evidence identities. All **13 dashboard views**, four cost-audit panels, two exact source drawers, three decision-pack gates and six cell scopes pass. Source bytes/hash, filters, year/scenario independence and scenario export/reload pass with no observed JavaScript or API errors. Five account rows, five replication/objective rows, four gates and eight unknowns are inspected. Visual review led to minor spacing corrections; focused source/hash/number checks pass afterward. The source cost page and final dashboard screenshots were visually reviewed. The unchanged full **547-test suite belongs to edition 0.41** and was not rerun.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and all non-fingerprint semantics remain unchanged. **28 artifacts are byte-identical**; **11** contain only exact refreshed evidence fingerprints and dependent identities. All prior model code, assumptions, source claims, deployment records, operator audits and labor rows are preserved. The legacy **53 bounded met / 16 partial**, all 69 requirement statuses and all 65 question statuses remain unchanged. Fourteen challenge families remain at **241 worlds**; no new case or empirical coefficient was added. The registry now has **13 packages, 227 claims, 536 reported quantities and 174 explicit-null markers**. The two new claim records refer to one historical report.
+
+All **368 manifest hashes** and **946 relative Markdown links** verify. See the [sole-writer review](reviews/utility_project_cost_review.md).
+
+## Previous decision checkpoint: utility operator service, edition 0.42
 
 The operator tranche deepens DE-01/02/07/09/10 while preserving every requirement status and the same November14 deadline. It supplies a bounded service and payer challenge, not full empirical costs or paid-hours evidence. Execution pauses after this tranche for scheduled oversight; overall campaign acceptance remains incomplete.
 

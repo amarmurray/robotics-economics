@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.42, utility operator service checkpoint, 9 November 2026. Qualified information/access, retained specialist work, paid commitments and wider program value now have separate evidence gates. Two linked EDF operator records preserve source dates, approximate/bounded quantities and missing costs; they do not calibrate any scenario. Fourteen families remain at 241 bounded worlds. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.43, utility project costs and realized service checkpoint, 9 November 2026. A historical operator account separates project expenditure, owner funding, off-project site construction, equipment replication indications and unverified long-horizon benefits. These quantities do not price a current deployment or calibrate a scenario. Fourteen families remain at241 bounded worlds. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -32,6 +32,10 @@ The initial editions were produced in a cloud checkout. The local continuation b
 ## 1. Executive argument and strategic implications
 
 Authoritative chapter: [research/integrated_decisions.md](research/integrated_decisions.md).
+
+### A completed project does not price the service, edition 0.43
+
+The [utility cost audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) supplies historical project expenditure and exposes separately funded site work. This improves the evidence beyond an unpriced demonstration, while leaving current accepted-service costs and realized gains unresolved. The strategic test is which decision useful information changes, after all operating, access and support costs. Innovation funding and project-budget performance cannot substitute for that test.
 
 ### Accepted information can be the product, edition 0.42
 
@@ -176,13 +180,19 @@ Edition 0.41 joins paid crew commitments to actual awards and retained work. A s
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
 
+#### Separate innovation funding from service economics, edition 0.43
+
+The [GRAID project-cost audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) gives the utility pack a concrete accounting challenge: a project can finish under its revised budget while requiring owner funds and excluding site construction. A historical project account, equipment replication indication and realized service cash series are different cost objects.
+
+All three packs now require the same accounting boundary, without transferring specialist inspection prices: trace funding once, include costs outside the project, qualify the current service, and identify an actually changed customer decision. Newco, acquisition, hybrid and provider options retain their distinct payer and rights requirements. The six-cell selection and every prior numeric scenario remain unchanged.
+
 #### Utility operator challenge, edition 0.42
 
 [QOF-AUDIT-SERVICE-02](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) makes a qualified information/access purchase distinct from paid labor removal and wider production value. The utility recommendation now requires the feasible alternative and actual retained work before pricing savings. The six-cell selection is unchanged.
 
 Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
 
-Decision campaign, integrated checkpoint 0.42 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.43 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -3252,6 +3262,40 @@ The highest-priority next work is a matched recurring inspection cohort: accepte
 
 Authoritative analysis: [research/quadruped_operator_followup.md](research/quadruped_operator_followup.md).
 
+#### Project expenditure, replication and realized service, edition 0.43
+
+The February 2019 **Project GRAID Closure Report** provides an actual operator project account, improving the cost evidence while preserving its limits. The [public ENA project record and documents](https://smarter.energynetworks.org/projects/nggtgn02/) host this report; the 2021 upload is not a new operating observation. GRAID is a UK specialist in-pipe inspection comparator, not an additional quadruped deployment. QOF-E19/E20 describe two parts of this one report.
+
+##### A project can be under budget and need owner funding
+
+Table 6 on printed page48 reports these amounts in **GBP thousands**. The populated categories reconcile exactly; blank categories remain unspecified rather than zeros.
+
+| Project category | Budget | Actual expenditure |
+| --- | ---: | ---: |
+| Labour | 936.06 | 646.58 |
+| Equipment | 141.77 | 265.39 |
+| Contractors | 5,424.44 | 5,561.32 |
+| Travel and expenses | 45.50 | 33.43 |
+| Total | 6,547.77 | 6,506.72 |
+
+The total budget includes a GBP 243k voluntary contribution. Its GBP 41.05k underspend coexists with actual spending GBP 201.95k above the implied non-voluntary envelope of GBP 6,304.77k, consistent with the rounded GBP 202k final owner contribution in the narrative. This is a reconciliation of reported accounts, not a newly estimated economic saving. The narrative's separate 3.71% overspend figure has an unspecified base; using that implied envelope gives approximately 3.20%. Preserve the discrepancy. Do not add a funding contribution to the resource expenditure it finances. [QOF-E19, pp.48–49]
+
+The material exclusion is site access: Bacton's connection construction had separate internal funding, while inspection handling, launch installation and cleaning entered the project account. Therefore even a reconciled total is not the whole deployment cost. Internal role changes and work reassignment also affected the labor budget; lower project spending does not establish removed operating payroll. Contractor payments disclose customer expenditure, not the supplier's resource cost or margin. [QOF-E19]
+
+##### Replication is a different cost object
+
+Sections 10.1 and10.3 give an indicative GBP 0.5–1m platform range and GBP 100k launch vessel, with variable site connection cost in addition. These historical equipment indications do not price present qualification, data preparation, site access, operation, cleaning, support, replacement or financing. Their price-year and tax bases are unresolved. Neither the development total nor the two endpoints of a range should be added as though they were separate items in one current quote. [QOF-E20, pp.55–56]
+
+The report's roughly GBP 58m over 20 years is an objective. Section8 says realization requires continued use and condition-model updates; Section11 anticipates progress from pre-commercial demonstration to full commercial application. A trial, a plan, and a realized service cash series are separate evidence. This historical record establishes neither current retained deployment nor failure/abandonment. [QOF-E20, pp.4,50,57]
+
+##### What changes in the utility decision
+
+The customer can value information that changes an excavation, replacement or maintenance decision even if paid inspection staffing stays constant. That requires an accepted observation, the decision it changed, a feasible alternative and all costs on both sides. A supplier must price the operating/support service beyond equipment. A newco must fund the surrounding qualification and site organization; an acquisition must establish usable rights and inherited obligations. Grant or owner funding can make development possible without making a deployment profitable.
+
+[QOF-AUDIT-COST-03](data/quadruped_operator_followup.json) therefore separates the project account, replication equipment and realized service economics in the three packs and existing dashboard. It adds no synthetic case or coefficient. Eight outcome groups remain unknown, including off-project site costs, recurring accepted service, paid-hours effects, current support/rights and realized net benefit. The next decisive artifact is a current operator deployment closeout joined to the payer and accepted-service ledgers.
+
+Access limits remain explicit: direct retrieval of National Gas's performance index returned HTTP403 and was not retried; ENA's generated project-summary PDF timed out and was not retried. The distinct full closure report was obtained through the ENA page's documented public download. A later secondary account was a search lead only and supplies no accepted finding here. Older closed routes remain closed.
+
 #### Specialist inspection and the wider service, edition 0.42
 
 EDF's [26 June operator account](https://www.edf.fr/arret-programme-de-l-unite-ndeg2-controle-des-vis-de-cloisonnement-du-coeur) describes a purpose-built underwater ultrasonic robot, a 960-bolt inspection scope, and retained positioning, guidance, measurement checks and specialist interpretation. It reports more than 30 people across day/night teams over nearly two weeks and no detected defect requiring replacement. These are operator statements, not an independent staffing or cost study. [QOF-E17]
@@ -3283,7 +3327,7 @@ For a customer, the viable purchase may therefore be accepted information or acc
 
 [QOF-AUDIT-SERVICE-02](data/quadruped_operator_followup.json) exposes eight unknown outcome groups and six decision gates in the existing dashboard. Existing utility and crew/renewal scenarios remain synthetic and numerically unchanged. The priority is a closeout joining the complete accepted-service ledger to actual role/shift work, payer accounts and usable rights; no extra favorable scenario can supply it.
 
-Follow-up edition 0.5 · 9 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+Follow-up edition 0.6 · 9 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
 
 This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The earlier worker’s requested Astra/Ultra configuration was unverified; current campaign serving identity also remains unexposed.
 
@@ -3390,6 +3434,12 @@ Six outcomes remain explicitly unknown: accepted due-point service, all-actor wo
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
+
+#### Price the whole service beyond the project, edition 0.43
+
+The [historical GRAID cost audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) supplies a reported development/trial account and separate equipment replication indications. Site-connection construction can sit outside the project ledger. Funding contributions, invoices and underlying resources must reconcile once; an under-budget project is not a deployment-return result.
+
+The utility proceed gate now asks which intervention accepted information actually changes and which payer funds the complete service. Keep access, qualification, retained work, support and current rights in the comparison. Historical equipment indications cannot price a current mobile inspection alternative, and forecast avoided work cannot be recognized as realized cash. Existing synthetic utility outputs remain unchanged.
 
 #### Operator evidence changes the purchase question, edition 0.42
 

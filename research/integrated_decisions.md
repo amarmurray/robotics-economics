@@ -1,5 +1,9 @@
 # Strategy and deployment decisions: first integrated findings
 
+## A completed project does not price the service, edition 0.43
+
+The [utility cost audit](quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) supplies historical project expenditure and exposes separately funded site work. This improves the evidence beyond an unpriced demonstration, while leaving current accepted-service costs and realized gains unresolved. The strategic test is which decision useful information changes, after all operating, access and support costs. Innovation funding and project-budget performance cannot substitute for that test.
+
 ## Accepted information can be the product, edition 0.42
 
 The [utility operator audit](quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) shifts the first purchase question to qualified information and access. An economically useful robot service can retain specialist operators and reviewers; its comparison must include a feasible alternative and all paid duties. Labor removal, production availability and capability value require different evidence. Neither a multi-shift headcount nor a successful component result establishes whole-program savings. The three decision packs now carry that test without transferring source rates or changing synthetic outputs.

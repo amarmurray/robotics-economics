@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "intermediate_utility_operator_checkpoint_0.42_active_decision_campaign_not_final_acceptance",
+  "edition_status": "intermediate_utility_cost_checkpoint_0.43_active_decision_campaign_not_final_acceptance",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1498,7 +1498,7 @@
     "partial": 16,
     "unmet": 0
   },
-  "publication_cutoff_note": "Edition 0.42 completes one bounded utility operator evidence tranche in the same November 7–14 campaign. Source/service boundaries improve; all 69 legacy requirement statuses, 65 question statuses and broad empirical gaps remain unchanged.",
+  "publication_cutoff_note": "Edition0.43 adds a historical utility project account and cost-boundary synthesis. All69 legacy requirement statuses,65 question statuses and the November7–14 campaign clock remain unchanged; full empirical service costs and realized outcomes remain partial.",
   "decision_campaign": {
     "campaign_id": "deployment-entry-2026-11-07",
     "authority": "User-activated goal; DEPLOYMENT_ENTRY_CAMPAIGN.md",
@@ -1512,13 +1512,13 @@
         "requirement_id": "DE-01",
         "requirement": "Reassess all six cells and build three contrasting decision packs",
         "status": "partial",
-        "finding": "All six cells and three packs remain; automotive now has a bounded physical workcell replay against competent humans, fixed vision/buffers and paid presentation. Full empirical economics remain incomplete. Edition 0.42 preserves six-cell selection and adds the operator whole-service/payer gate to all three packs."
+        "finding": "All six cells and three packs remain; automotive now has a bounded physical workcell replay against competent humans, fixed vision/buffers and paid presentation. Full empirical economics remain incomplete. Edition 0.42 preserves six-cell selection and adds the operator whole-service/payer gate to all three packs. Edition 0.43 adds the historical project/replication/realized-service cost gate to the three existing packs; six-cell selection is unchanged."
       },
       {
         "requirement_id": "DE-02",
         "requirement": "Accepted service, support, payroll, supply and rights evidence",
         "status": "partial",
-        "finding": "Edition 0.36 adds primary historical evidence on staffing redeployment, system operating windows, retained oversight/repair and manual contingency. Anonymous hospitals, named government reports and estimated headcount/payback remain separate. Matched target staffing, complete service and all-actor costs remain incomplete. Edition0.40 adds an audited historical digital labor-outcome challenge: conditional expectations, recorded hours, task reorganization and actual paid staffing remain separate. Target whole-service and every-payer evidence is still incomplete. Edition 0.42 preserves specialist inventory, headcount/window qualifiers, retained work and source-date differences. Actual role-hours, paid effects, cost, support/title and rights remain unknown."
+        "finding": "Edition 0.36 adds primary historical evidence on staffing redeployment, system operating windows, retained oversight/repair and manual contingency. Anonymous hospitals, named government reports and estimated headcount/payback remain separate. Matched target staffing, complete service and all-actor costs remain incomplete. Edition0.40 adds an audited historical digital labor-outcome challenge: conditional expectations, recorded hours, task reorganization and actual paid staffing remain separate. Target whole-service and every-payer evidence is still incomplete. Edition 0.42 preserves specialist inventory, headcount/window qualifiers, retained work and source-date differences. Actual role-hours, paid effects, cost, support/title and rights remain unknown. Edition 0.43 adds operator project expenditure with explicit site-work exclusions, funding reconciliation, source-percent uncertainty and eight unknown current service outcomes. No target unit cost or payroll calibration."
       },
       {
         "requirement_id": "DE-03",
@@ -1548,7 +1548,7 @@
         "requirement_id": "DE-07",
         "requirement": "I/J/K supply, sustained workload, rights, support and no-transfer",
         "status": "partial",
-        "finding": "Compatible parts and annual resources execute in bounded synthetic cases; inspection-source follow-up separates actual rollout, projected plant benefits and unknown robot support. Full empirical qualification/maintenance and annual portfolio integration remain partial. Edition 0.42 adds a foreign specialist inspection comparator without counting it as a quadruped deployment or transferring a rate. Substantial H and I/J/K gaps remain."
+        "finding": "Compatible parts and annual resources execute in bounded synthetic cases; inspection-source follow-up separates actual rollout, projected plant benefits and unknown robot support. Full empirical qualification/maintenance and annual portfolio integration remain partial. Edition 0.42 adds a foreign specialist inspection comparator without counting it as a quadruped deployment or transferring a rate. Substantial H and I/J/K gaps remain. Edition 0.43 keeps the specialist in-pipe comparator outside quadruped deployment counts and current qualification claims; no new empirical model coefficient."
       },
       {
         "requirement_id": "DE-08",
@@ -1560,19 +1560,19 @@
         "requirement_id": "DE-09",
         "requirement": "Three recommendations with proceed/wait/reject gates",
         "status": "partial",
-        "finding": "Edition0.41 integrates paid crew feasibility, actual customer retention, unfulfilled outside duties, prospective fallback and strong human alternatives into report, dashboard, three packs and questions. All-payer cash and both service units reconcile; empirical full costs and broader integration remain partial. Edition 0.42 sharpens utility proceed/wait/reject logic around feasible alternatives and an information/access purchase; payroll and avoided-outage claims still need separate evidence."
+        "finding": "Edition0.41 integrates paid crew feasibility, actual customer retention, unfulfilled outside duties, prospective fallback and strong human alternatives into report, dashboard, three packs and questions. All-payer cash and both service units reconcile; empirical full costs and broader integration remain partial. Edition 0.42 sharpens utility proceed/wait/reject logic around feasible alternatives and an information/access purchase; payroll and avoided-outage claims still need separate evidence. Edition 0.43 requires the actual changed intervention and all site/service/support payers before attributing inspection value; historical estimates and objectives remain separate."
       },
       {
         "requirement_id": "DE-10",
         "requirement": "Full report, thesis, all thirteen views, lineage and replay",
         "status": "partial",
-        "finding": "Edition0.41 integrates paid crew feasibility, actual customer retention, unfulfilled outside duties, prospective fallback and strong human alternatives into report, dashboard, three packs and questions. All-payer cash and both service units reconcile; empirical full costs and broader integration remain partial. Edition 0.42 integrates the audit into existing report chapters, thesis, four dashboard panels and three pack gates across all thirteen views."
+        "finding": "Edition0.41 integrates paid crew feasibility, actual customer retention, unfulfilled outside duties, prospective fallback and strong human alternatives into report, dashboard, three packs and questions. All-payer cash and both service units reconcile; empirical full costs and broader integration remain partial. Edition 0.42 integrates the audit into existing report chapters, thesis, four dashboard panels and three pack gates across all thirteen views. Edition 0.43 integrates the cost audit into the existing report, thesis, question ledger, four panels and three pack gates across all thirteen views."
       },
       {
         "requirement_id": "DE-11",
         "requirement": "Full validation, conservation, adverse/seeded checks and publication",
         "status": "partial",
-        "finding": "Edition0.41: 547 Python tests,36 Node assertions,20 syntax checks,53 prescribed reproduction/Node commands,six exact exports,all13 views and13 crew/renewal cases pass. Exact cash/minute, full replay and pending/invalid/stale checks pass. All1676027 prior numeric fields across38 artifacts and every prior model module are preserved. Publication/manifest identity remains in the receipt. Edition 0.42 scoped verification passes36 Python tests,36 Node assertions,changed-JS syntax,evidence validation and13-view browser review. All1787445 prior numeric fields across39 artifacts and prior model source remain unchanged. Prior full547-test suite belongs to0.41."
+        "finding": "Edition0.41: 547 Python tests,36 Node assertions,20 syntax checks,53 prescribed reproduction/Node commands,six exact exports,all13 views and13 crew/renewal cases pass. Exact cash/minute, full replay and pending/invalid/stale checks pass. All1676027 prior numeric fields across38 artifacts and every prior model module are preserved. Publication/manifest identity remains in the receipt. Edition 0.42 scoped verification passes36 Python tests,36 Node assertions,changed-JS syntax,evidence validation and13-view browser review. All1787445 prior numeric fields across39 artifacts and prior model source remain unchanged. Prior full547-test suite belongs to0.41. Edition 0.43 passes 36 targeted Python tests,36 Node assertions,changed-JS syntax,evidence/account reconciliation and13-view browser review. All1,787,445 prior numeric fields across39 artifacts remain unchanged. The full547-test result remains prior0.41 evidence."
       },
       {
         "requirement_id": "DE-12",

@@ -1,5 +1,9 @@
 # Initial deployment thesis register
 
+## Project funding and deployment value, edition 0.43
+
+**Hypothesis sharpened:** useful inspection information can change a capital or maintenance decision without removing a paid shift. The [historical project-cost audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) requires separately funded site work and recurring service costs before measuring that value. Owner contributions finance expenditures rather than add resource use. Current accepted-service and all-payer closeouts remain necessary to assess an entrant or provider business case.
+
 ## Utility capability and labor claims, edition 0.42
 
 **Hypothesis sharpened:** sell and evaluate a qualified service before inferring a removable paid shift. The [operator service audit](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) requires a feasible alternative, actual retained work, payer costs and usable rights. A capability purchase can coexist with unchanged payroll. It remains an unpriced target hypothesis; a matched operator closeout could establish or reject the labor, outage and provider-margin claims separately.

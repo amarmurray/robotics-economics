@@ -1,5 +1,11 @@
 # Utility inspection: accepted information and the residual visit
 
+## Price the whole service beyond the project, edition 0.43
+
+The [historical GRAID cost audit](quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) supplies a reported development/trial account and separate equipment replication indications. Site-connection construction can sit outside the project ledger. Funding contributions, invoices and underlying resources must reconcile once; an under-budget project is not a deployment-return result.
+
+The utility proceed gate now asks which intervention accepted information actually changes and which payer funds the complete service. Keep access, qualification, retained work, support and current rights in the comparison. Historical equipment indications cannot price a current mobile inspection alternative, and forecast avoided work cannot be recognized as realized cash. Existing synthetic utility outputs remain unchanged.
+
 ## Operator evidence changes the purchase question, edition 0.42
 
 The [specialist-inspection audit](quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) adds an operator-supported counterexample to a simple substitution story. The economically relevant alternative may be another qualified remote method, while attended acquisition, acceptance, response and wider duties remain. A capability purchase can be justified without a labor-removal claim; neither is yet priced here.

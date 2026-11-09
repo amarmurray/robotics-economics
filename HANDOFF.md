@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.42.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.43.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: utility operator service, edition 0.42
+## Current checkpoint: utility project costs and realized service, edition 0.43
+
+One bounded tranche is complete; execution stops for the next scheduled oversight. The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Parent oversight reported the task idle, and clean local/remote main matched input `f01628b6c8cb3e24e078cf770aaf3c784077a720`. Process inspection found no active research, model, browser or server writer. The same cloud environment is running and connected; actual shell commands executed. Quota and native goal controls remain unexposed. No continuous-execution claim, extra agent, replacement task, schedule, reset, credit use or commercial action.
+
+[The GRAID audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) adds an actual historical operator project account and separate replication indications. Its four populated cost categories total GBP6,506.72k against a GBP6,547.77k budget that includes voluntary owner funds. The account excludes separately sanctioned site-connection construction. Funding and expenditure therefore reconcile without establishing all-payer deployment economics. A GBP41.05k project underspend can coexist with the rounded GBP202k owner contribution above the implied non-voluntary envelope.
+
+The source's narrative3.71% has an unexplained base; the table-derived envelope gives approximately3.20%, and both are preserved rather than silently repaired. Historical platform/launch indications and the long-horizon benefit objective are kept separate from executed prices and realized cash. Pre-commercial demonstration and a planned commercial transition do not establish current retained operation. The utility recommendation and all three packs now require off-project costs, qualified service, current rights and the actual decision changed by information; no specialist price or staffing ratio transfers to another embodiment.
+
+Fresh proportional checks pass **36 Python tests** in 0.248s, **36 Node assertions**, the changed JavaScript syntax check and evidence validation without warnings. Decimal reconciliation verifies the reported account categories, totals, funding envelope and the unresolved percentage base. Three affected export commands refresh evidence identities. All **13 dashboard views**, four cost-audit panels, two exact source drawers, three decision-pack gates and six cell scopes pass. Source bytes/hash, filters, year/scenario independence and scenario export/reload pass with no observed JavaScript or API errors. Five account rows, five replication/objective rows, four gates and eight unknowns are inspected. Visual review led to minor spacing corrections; focused source/hash/number checks pass afterward. The source cost page and final dashboard screenshots were visually reviewed. The unchanged full **547-test suite belongs to edition 0.41** and was not rerun.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and all non-fingerprint semantics remain unchanged. **28 artifacts are byte-identical**; **11** contain only exact refreshed evidence fingerprints and dependent identities. All prior model code, assumptions, source claims, deployment records, operator audits and labor rows are preserved. The legacy **53 bounded met / 16 partial**, all 69 requirement statuses and all 65 question statuses remain unchanged. Fourteen challenge families remain at **241 worlds**; no new case or empirical coefficient was added. The registry now has **13 packages, 227 claims, 536 reported quantities and 174 explicit-null markers**. The two new claim records refer to one historical report.
+
+All **368 manifest hashes** and **946 relative Markdown links** verify. See the [sole-writer review](reviews/utility_project_cost_review.md). Exact publication identity is recorded in the ignored receipt after a scoped normal private-repository push.
+
+**Access limits:** direct HTTP retrieval of `https://www.nationalgas.com/about-us/how-were-performing` returned **403 Forbidden**, and the ENA generated project-summary PDF timed out. Neither route was retried. The distinct full closure report was obtained through the public ENA selected-document control with HTTP200; exact PDF bytes and source page48 were checked. No blocked source was bypassed, and a later secondary account remains an unaccepted search lead.
+
+**Remaining dependency / next action:** wait for scheduled oversight. If directed to continue, seek a permitted current operator closeout linking accepted service and the actual intervention changed to site-connection expenditure, customer/provider role-hours, recurring support, rights and realized all-payer cash. Historical development costs do not close those gaps. No current runtime or permission blocker affects this accepted checkpoint; the source access limits above remain closed and quota is unknown.
+
+**Next question:** which actual maintenance or capital decision did the inspection change, and does its realized value exceed the full site, service and support cost?
+
+## Previous checkpoint: utility operator service, edition 0.42
 
 One bounded tranche is complete; execution pauses for the next scheduled oversight. The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Clean local and remote main matched input `6d768719f0089a12f538f84ccb38b1250dfb63d3`; parent idle status and the process check found no overlapping productive writer. Actual shell execution and the connected published cloud configuration were verified. No continuous-execution claim, replacement task, duplicate schedule, additional agent, reset or commercial action. Quota and native goal creation/identifier remain unexposed.
 

@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "2026-11-09-v0.5",
-  "retrieved_at": "2026-11-09T01:08:15.111368+00:00",
+  "version": "2026-11-09-v0.6",
+  "retrieved_at": "2026-11-09T03:09:03.400645+00:00",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -690,6 +690,264 @@
           "measurement_status": "operator_reported_outage_program_scope"
         }
       ]
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=16579%7C16578&legacyId=",
+      "landing_url": "https://smarter.energynetworks.org/projects/nggtgn02/",
+      "publisher": "National Grid Gas Transmission; public report hosted by Energy Networks Association",
+      "publication_date": "2019-02",
+      "publication_date_type": "Month printed in report footer; portal upload date is 2021-11-29, not the observation date",
+      "observation_period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+      "retrieved_at": "2026-11-09T03:09:03.400645+00:00",
+      "source_class": "primary",
+      "source_pdf_sha256": "b67135d01dfe46633fb2a56b9286b1baa8803c1484297a9035ee4051bbfda4f6",
+      "artifact_version": "Project GRAID Closure Report, February 2019",
+      "access": "Public report downloaded with HTTP 200 through the ENA page’s ordinary selected-document endpoint; Table 6 visually inspected",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E19",
+      "title": "Project GRAID Closure Report — project expenditure and funding boundary",
+      "epistemic_status": "primary_operator_project_accounts_not_deployment_unit_economics",
+      "locator": "pp.48–49, Section 7 and Table 6",
+      "claim": "The operator reports £6,506.72k actual project expenditure against a £6,547.77k budget including a voluntary contribution. Bacton connection construction had separate internal funding; trial handling, launch installation and cleaning entered project equipment costs.",
+      "limitations": "Historical project accounts, not audited all-payer resource costs or a delivered-service price. Contractor invoices can include margin. Blank categories are not identified zeros. The rounded funding narrative and its 3.71% base require separate treatment. Lower project labor expenditure is not evidence of operational payroll removed.",
+      "quantities": [
+        {
+          "metric_id": "QOF-GRAID-LABOUR-BUDGET",
+          "label": "Labour budget",
+          "value": 936.06,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_budget",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-LABOUR-ACTUAL",
+          "label": "Labour actual expenditure",
+          "value": 646.58,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_account",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-EQUIPMENT-BUDGET",
+          "label": "Equipment budget",
+          "value": 141.77,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_budget",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-EQUIPMENT-ACTUAL",
+          "label": "Equipment actual expenditure",
+          "value": 265.39,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_account",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-CONTRACTORS-BUDGET",
+          "label": "Contractors budget",
+          "value": 5424.44,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_budget",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-CONTRACTORS-ACTUAL",
+          "label": "Contractors actual expenditure",
+          "value": 5561.32,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_account",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-TRAVEL-BUDGET",
+          "label": "Travel and expenses budget",
+          "value": 45.5,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_budget",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-TRAVEL-ACTUAL",
+          "label": "Travel and expenses actual expenditure",
+          "value": 33.43,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_account",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-TOTAL-BUDGET",
+          "label": "Total project budget including voluntary contribution",
+          "value": 6547.77,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_budget",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-TOTAL-ACTUAL",
+          "label": "Total actual project expenditure",
+          "value": 6506.72,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_account",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-VARIANCE",
+          "label": "Budget less actual project expenditure",
+          "value": 41.05,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "source_reported_account_variance",
+          "denominator": "Reported GRAID project account; not a per-robot price or complete deployment lifecycle cost",
+          "locator": "p.48, Table 6"
+        },
+        {
+          "metric_id": "QOF-GRAID-VOLUNTARY-BUDGET",
+          "label": "Budgeted National Grid voluntary contribution",
+          "value": 243,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_project_funding",
+          "denominator": "Contribution already included in the total budget; not additional project expenditure",
+          "locator": "p.48 narrative and Table 6 footnote"
+        },
+        {
+          "metric_id": "QOF-GRAID-VOLUNTARY-ACTUAL",
+          "label": "Reported final National Grid contribution",
+          "value": 202,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_reported_rounded_project_funding",
+          "denominator": "Rounded contribution funding expenditure above the non-voluntary envelope; not an additional resource cost",
+          "locator": "pp.48–49 narrative"
+        },
+        {
+          "metric_id": "QOF-GRAID-NARRATIVE-PERCENT",
+          "label": "Narrative overspend percentage",
+          "value": 3.71,
+          "unit": "percent",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "source_reported_percentage_with_unresolved_denominator",
+          "denominator": "Narrative does not name its percentage base; it does not reconcile to the total table budget less the stated voluntary contribution",
+          "locator": "p.48 narrative"
+        }
+      ],
+      "downloaded_archive_member": "Project GRAID Closedown Report.pdf"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=16579%7C16578&legacyId=",
+      "landing_url": "https://smarter.energynetworks.org/projects/nggtgn02/",
+      "publisher": "National Grid Gas Transmission; public report hosted by Energy Networks Association",
+      "publication_date": "2019-02",
+      "publication_date_type": "Month printed in report footer; portal upload date is 2021-11-29, not the observation date",
+      "observation_period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+      "retrieved_at": "2026-11-09T03:09:03.400645+00:00",
+      "source_class": "primary",
+      "source_pdf_sha256": "b67135d01dfe46633fb2a56b9286b1baa8803c1484297a9035ee4051bbfda4f6",
+      "artifact_version": "Project GRAID Closure Report, February 2019",
+      "access": "Public report downloaded with HTTP 200 through the ENA page’s ordinary selected-document endpoint; Table 6 visually inspected",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E20",
+      "title": "Project GRAID Closure Report — replication, benefits and commercial qualification",
+      "epistemic_status": "primary_operator_replication_estimates_and_implementation_plan",
+      "locator": "p.4 objectives; pp.14,50,55–57, Sections 3.5,8,10,11",
+      "claim": "The report gives separate indicative platform and launch-vessel replication costs, with site connection costs variable. Expected benefits depend on continued use and condition-model updates. Its implementation plan anticipates a move from pre-commercial demonstration to full commercial use.",
+      "limitations": "Replication indications are neither executed quotes nor lifetime costs. The long-horizon saving is an objective, not a realized cash series or identifiable net present value. No accepted-service denominator, recurring support price, paid-hours effect or current retained deployment is established. Do not transfer specialist inspection prices to another embodiment.",
+      "quantities": [
+        {
+          "metric_id": "QOF-GRAID-PLATFORM-LOW",
+          "label": "Platform replication estimate: lower endpoint",
+          "value": 500,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_indicative_replication_cost",
+          "denominator": "Robot, umbilical management system, driver cabinet, trolley and control system; source range is GBP 0.5–1m, not a complete installed service",
+          "locator": "p.55, Section 10.1.1"
+        },
+        {
+          "metric_id": "QOF-GRAID-PLATFORM-HIGH",
+          "label": "Platform replication estimate: upper endpoint",
+          "value": 1000,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_indicative_replication_cost",
+          "denominator": "Upper endpoint of the same platform range; do not add the two endpoints",
+          "locator": "p.55, Section 10.1.1"
+        },
+        {
+          "metric_id": "QOF-GRAID-LAUNCH",
+          "label": "Launch vessel replication indication",
+          "value": 100,
+          "unit": "GBP thousands",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "operator_indicative_replication_cost",
+          "denominator": "Launch vessel only; variable site connection and wider operating/support costs remain additional and unspecified",
+          "locator": "p.56, Section 10.3.1"
+        },
+        {
+          "metric_id": "QOF-GRAID-BENEFIT-OBJECTIVE",
+          "label": "Long-horizon savings objective",
+          "value": 58,
+          "unit": "GBP million",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "project_objective_not_realized_saving",
+          "denominator": "Circa stated savings over 20 years; no verified realized cash series, discount basis or complete deployment-cost netting",
+          "locator": "p.4, Section 2.2",
+          "qualifier": "circa"
+        },
+        {
+          "metric_id": "QOF-GRAID-BENEFIT-HORIZON",
+          "label": "Savings-objective horizon",
+          "value": 20,
+          "unit": "years",
+          "population": "National Grid Gas Transmission GRAID innovation project; UK specialist in-pipe inspection, not a quadruped or US labor observation",
+          "period": "GRAID development, testing and project closeout, 2015–2018; February 2019 report",
+          "measurement_status": "project_objective_horizon",
+          "denominator": "Horizon for the stated objective, not observed productive exposure or robot life",
+          "locator": "p.4, Section 2.2"
+        }
+      ],
+      "downloaded_archive_member": "Project GRAID Closedown Report.pdf"
     }
   ],
   "deployments": [
@@ -1224,6 +1482,129 @@
       },
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042"
+    }
+  ],
+  "project_cost_audits": [
+    {
+      "audit_id": "QOF-AUDIT-COST-03",
+      "title": "Which cost does a completed innovation project establish?",
+      "status": "historical_project_account_and_replication_boundary_not_current_unit_economics",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E19",
+        "QOF-E20"
+      ],
+      "summary": "A project can finish within its revised budget while needing extra owner funding and excluding separately sanctioned site construction. Development expenditure, replication estimates and realized service economics answer different questions.",
+      "source_boundary": "One February 2019 operator report, split into two claim records. Historical UK specialist in-pipe inspection; no independent replication, quadruped deployment count, current quote or model calibration.",
+      "accounts": [
+        {
+          "category": "Labour",
+          "budget_metric_id": "QOF-GRAID-LABOUR-BUDGET",
+          "actual_metric_id": "QOF-GRAID-LABOUR-ACTUAL"
+        },
+        {
+          "category": "Equipment",
+          "budget_metric_id": "QOF-GRAID-EQUIPMENT-BUDGET",
+          "actual_metric_id": "QOF-GRAID-EQUIPMENT-ACTUAL"
+        },
+        {
+          "category": "Contractors",
+          "budget_metric_id": "QOF-GRAID-CONTRACTORS-BUDGET",
+          "actual_metric_id": "QOF-GRAID-CONTRACTORS-ACTUAL"
+        },
+        {
+          "category": "Travel and expenses",
+          "budget_metric_id": "QOF-GRAID-TRAVEL-BUDGET",
+          "actual_metric_id": "QOF-GRAID-TRAVEL-ACTUAL"
+        },
+        {
+          "category": "Total",
+          "budget_metric_id": "QOF-GRAID-TOTAL-BUDGET",
+          "actual_metric_id": "QOF-GRAID-TOTAL-ACTUAL"
+        }
+      ],
+      "unit": "GBP thousands, as reported; price base, inflation treatment and tax basis not established",
+      "blank_categories": [
+        "IT",
+        "IPR costs",
+        "Payments to users",
+        "Contingency",
+        "Decommissioning",
+        "Other"
+      ],
+      "reconciliation": "The four populated categories sum to both source totals. Budget minus actual is GBP 41.05k. Subtracting the stated GBP 243k contribution from the budget gives an implied GBP 6,304.77k non-voluntary envelope; actual exceeds it by GBP 201.95k, consistent with the rounded GBP 202k narrative. Funding covers expenditure and must not be added to it.",
+      "percentage_boundary": "The narrative separately states 3.71% without naming its base. The table-based implied non-voluntary envelope gives approximately 3.20%; preserve the source figure and flag the denominator mismatch rather than repair it.",
+      "cost_boundaries": [
+        {
+          "boundary": "Development and trial project account",
+          "included": "Reported internal labor, equipment, contractors and travel.",
+          "excluded_or_unknown": "Separately sanctioned Bacton connection construction; complete provider resource/margin breakdown and lifetime operating costs."
+        },
+        {
+          "boundary": "Replication equipment indication",
+          "included": "Platform range and separate launch-vessel indication.",
+          "excluded_or_unknown": "Variable connections, qualification, data preparation, transport, cleaning/waste, recurring personnel, maintenance and eventual replacement."
+        },
+        {
+          "boundary": "Realized information/service economics",
+          "included": "No complete priced accepted-service record obtained.",
+          "excluded_or_unknown": "Actual use, changed inspection/maintenance decisions, paid commitments, realized avoided work and all-payer cash over time."
+        }
+      ],
+      "decision_gates": [
+        {
+          "gate": "Keep funding and resources distinct",
+          "requirement": "Trace the owner contribution to its funding envelope without counting the same paid work twice. Supplier invoiced expenditure is not a consolidated resource-cost breakdown."
+        },
+        {
+          "gate": "Expose costs outside the project",
+          "requirement": "Join separately sanctioned access/connection work and retained operating/support obligations before comparing a deployment with alternatives."
+        },
+        {
+          "gate": "Qualify the present service",
+          "requirement": "A successful trial or implementation plan is not evidence of current supported commercial operation, acceptance rates or rights."
+        },
+        {
+          "gate": "Value changed decisions",
+          "requirement": "Link accepted information to an actual changed intervention and a defensible alternative. Keep long-horizon objectives separate from realized cash and paid-hours effects."
+        }
+      ],
+      "unknowns": {
+        "complete_site_connection_cost": {
+          "value": null,
+          "reason": "Separate Bacton construction funding is disclosed, but its amount is not included in this account."
+        },
+        "current_executed_replication_price": {
+          "value": null,
+          "reason": "Historical indications are not a present configured quote or executed order."
+        },
+        "accepted_service_and_recurring_work": {
+          "value": null,
+          "reason": "No complete recurring accepted-output, role-hour and intervention ledger."
+        },
+        "all_payer_resource_cost": {
+          "value": null,
+          "reason": "Project payments do not reveal supplier resource use, margins and all off-project expenditures."
+        },
+        "paid_hours_removed": {
+          "value": null,
+          "reason": "Project labor budget variance does not establish a changed operating roster or payroll."
+        },
+        "realized_net_benefit": {
+          "value": null,
+          "reason": "No realized counterfactual cash series with all deployment costs and financing."
+        },
+        "current_retention_and_support_rights": {
+          "value": null,
+          "reason": "The 2019 implementation plan does not verify current use, qualified configuration or executed commercial/data/support rights."
+        },
+        "historical_currency_and_tax_basis": {
+          "value": null,
+          "reason": "The selected cost sections do not establish a common price-year, inflation or tax basis for current comparisons."
+        }
+      },
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043"
     }
   ]
 }

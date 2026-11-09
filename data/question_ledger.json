@@ -863,7 +863,8 @@
         "Edition 0.34: hospital economic evidence separates incompatible ICU abstract/poster versions, projected costs and idealized staffing/uptime assumptions. Released time and customer fees do not establish removed payroll, complete service or provider profit; source arithmetic does not calibrate the models.",
         "Edition 0.35: a shared paid crew now serves cleaning, local robot attention/handling and a separately due inventory workload. Prior completed service can trigger a future staffing notice; funded extra capacity or visible missed work resolves later scarcity. The stronger assumed human-dispatch path can remain cheaper despite a robot staffing reduction. Every payer and unlike service denominator stays distinct; no empirical payroll effect is established.",
         "Edition 0.36: historical primary hospital evidence distinguishes estimated staffing needs without AGVs from redeployment, retained supervision/repair and paid staffing removed. System operating schedules are not measured robot exposure; a manual fallback can compete with reassigned duties. Anonymous cases and the named government report remain separate; outsourced services do not establish asset title or provider margin.",
-        "Edition 0.37: the prospective operator purchase floor makes fallback liquidity consequential inside the same crew/architecture/resource/Treasury execution. It can preserve both services while retaining paid OEM stock, but cannot create qualified crew, fund a separate supplier or undo an earlier purchase. A stronger human comparator covers the matched surge at lower bounded resource cash; no empirical staffing or ROI claim follows."
+        "Edition 0.37: the prospective operator purchase floor makes fallback liquidity consequential inside the same crew/architecture/resource/Treasury execution. It can preserve both services while retaining paid OEM stock, but cannot create qualified crew, fund a separate supplier or undo an earlier purchase. A stronger human comparator covers the matched surge at lower bounded resource cash; no empirical staffing or ROI claim follows.",
+        "Edition0.43 reconciles operator project expenditure with funding contribution and off-project site construction; provider payments cannot be counted again as consolidated resource use."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -897,9 +898,11 @@
         "data/field_support_denominators.json",
         "research/shared_workforce.md",
         "model/SHARED_WORKFORCE.md",
-        "model/results/shared_workforce.json"
+        "model/results/shared_workforce.json",
+        "research/quadruped_operator_followup.md",
+        "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Reconcile competition/entry/recovery contracts with feasible complete service, distinct legal payers and stronger digital-human alternatives. Keep target workforce, response, rights and whole-cost evidence gaps explicit; do not multiply hospital-only variants."
+      "next_action": "Join a permitted current deployment closeout and payer record to the historical account: off-project site work, accepted service, retained work, current support/rights and realized changed decisions. Keep closed routes closed."
     },
     {
       "question_id": "RQ-BM-02",
@@ -1392,7 +1395,8 @@
       "findings": [
         "Two unpriced real matched comparisons preserve quality, support and infeasibility; numerical specialized alternatives are expressly synthetic.",
         "Edition 0.20: Fixed vision/buffering, prepared presentation and mobility requirements must be compared on the same handoff. The different-site reference does not refute a combined cart-manipulation task.",
-        "Edition 0.42 rejects an assumed direct-human substitute where the source describes remote access; compare qualified specialist methods without transferring nuclear task rates to mobile utility inspection."
+        "Edition 0.42 rejects an assumed direct-human substitute where the source describes remote access; compare qualified specialist methods without transferring nuclear task rates to mobile utility inspection.",
+        "Edition0.43 adds historical specialist inspection replication indications with explicit access/site/support exclusions; these do not calibrate a quadruped or human alternative."
       ],
       "artifacts": [
         "model/METHODS.md",
@@ -1403,7 +1407,7 @@
         "research/quadruped_operator_followup.md",
         "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Obtain a permitted operator closeout joining accepted service, actual customer/partner role-hours, paid commitments, support/rights and every payer; preserve unobserved quantities and closed access routes."
+      "next_action": "Join a permitted current deployment closeout and payer record to the historical account: off-project site work, accepted service, retained work, current support/rights and realized changed decisions. Keep closed routes closed."
     },
     {
       "question_id": "RQ-SC-05",
@@ -1528,7 +1532,8 @@
         "385-instrument coverage assessment and robot-suitable point selection show why navigation and selected measurements do not establish complete mandatory visits.",
         "Edition 0.19: eighteen synthetic DE-CF03 worlds link unique accepted point/window coverage, review and fallback deadlines, physical duties and actual visit funding. A residual point or field duty can retain the full visit. Source figures do not calibrate costs or avoided outages.",
         "Edition 0.32 distinguishes repeated inspection activity, accepted due service, plant-maintenance benefits and maintenance of the robot. Forecast safety percentages do not identify realized effects or a robot replacement rate.",
-        "Edition 0.42 requires unique accepted measurements and dispositions, attended guidance/review, separate response/robot support and the wider program before attributing labor or outage gains."
+        "Edition 0.42 requires unique accepted measurements and dispositions, attended guidance/review, separate response/robot support and the wider program before attributing labor or outage gains.",
+        "Edition0.43 separates reported project costs, indicative equipment replication and realized value from changed inspection/maintenance decisions. A pre-commercial plan is not current retained use."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1539,7 +1544,7 @@
         "model/results/utility_inspection.json",
         "data/quadruped_operator_followup.json"
       ],
-      "next_action": "Obtain a permitted operator closeout joining accepted service, actual customer/partner role-hours, paid commitments, support/rights and every payer; preserve unobserved quantities and closed access routes."
+      "next_action": "Join a permitted current deployment closeout and payer record to the historical account: off-project site work, accepted service, retained work, current support/rights and realized changed decisions. Keep closed routes closed."
     },
     {
       "question_id": "RQ-QD-03",
@@ -1960,5 +1965,5 @@
     }
   ],
   "edition_note": "Edition 0.12 adds a bounded restaurant workflow comparison and reproducible cloud execution. Original question IDs, unresolved scope and historical campaign clock are preserved; no new completion claim or synthetic calibration.",
-  "decision_campaign_note": "Edition 0.42 advances the utility operator service boundary; all 65 question statuses and the original campaign clock remain unchanged. The source tranche does not close empirical whole-system cost or paid-hours requirements."
+  "decision_campaign_note": "Edition0.43 adds a bounded historical utility project-cost audit. All65 question statuses and the original campaign clock remain unchanged; current service, full costs, rights and realized benefit remain unverified."
 }
