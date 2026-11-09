@@ -396,3 +396,9 @@ Validate the evidence registry and changed dashboard, regenerate affected eviden
 The separate AATIS closeout is public ENA file 48262, July 2025, PDF SHA256 `430c93773eedfb890dccd6f544361d95809dac54cc14f51eb44cdab591b32724`; pages 3 and 5 were visually checked. Distinguish the report's earlier 2024 copyright notice from its submission month. Its net-benefit field says not applicable; the report supplies no realized saving or actual expenditure figure. This distinct project is not an alternate route to any denied National Grid or National Gas source.
 
 The affected exports for this source change are `python scripts/export_scenarios.py`, `python scripts/export_trajectory.py` and `python scripts/export_architectures.py --experiments-output model/results/architecture_experiments.json`, followed by `python scripts/build_report.py`. Unchanged monthly execution exports do not need regeneration.
+
+## Funding and outcome continuity, edition 0.47
+
+QOF-E23 uses ENA file 37204, the July 2023 NIA_UKPN0085 closeout, PDF SHA256 `b9521760fd805d16d0f1c9d179bb121f6067a1c4dedfee9e24a46585c0c15eab`; page 2 was visually checked. QOF-E24 joins the explicitly dated 24 August 2023 operator article with the separate 2023/24 annual-review narrative as related publications, not independent sites. Retain the potential/up-to qualifier; no mean, paid-hours effect or realized saving is derived. No precise publication date is inferred for the annual-review page.
+
+Use the same three affected evidence exporters listed in edition 0.46, validate the evidence registry and changed dashboard, and verify all 41 prior result artifacts. Model code and assumptions remain unchanged. The operating-development panel now selects between AATIS and the UKPN funding transition without changing scenario inputs or source records.

@@ -256,3 +256,7 @@ Each pack now separates customer-contract ownership from the service operator, e
 ## A complete obligation survives a new sensor, edition 0.46
 
 [QOF-AUDIT-SERVICE-03](quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) challenges the utility pack with an operator trial in which better information did not make whole-process replacement economical. For utility, hospital and automotive decisions, require a unique due object, complete mandatory service, timely qualified disposition and funded residual duties. Transfer this accounting discipline only; the UK overhead-line pilot supplies no other cell's acceptance, labor or cost coefficients. Acquisition or newco formation does not provide uncontracted competence, access or support.
+
+## Contract and payer identity through transition, edition 0.47
+
+[QOF-AUDIT-FUNDING-05](quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) adds a funding-cohort challenge to all three packs. Preserve project and contract identity, actual employer/payer, liability and support obligations when financing, ownership or the programme changes. Neither a signed contract nor continued funding is accepted service, and a closed funding record is not necessarily abandonment. The historical tunnel time claim is not transferred to hospital, automotive or other-cell staffing.

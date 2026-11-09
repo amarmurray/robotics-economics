@@ -72,3 +72,7 @@ The [rollout/readiness audit](quadruped_operator_followup.md#rollout-retained-wo
 ## Retained field service and useful information, edition 0.46
 
 The [SP Distribution closeout audit](quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) supplies a historical counterexample to whole-process replacement. Its trial found extra defect visibility while retaining physical checks and manual review, with a projected programme cost premium. The choice is a qualified complete or hybrid inspection service with timely disposition, not an image-volume target. Preserve unresolved source denominators, original date and missing paid-work/cost ledgers. No source rate, cost premium or historical regulatory condition calibrates this US utility cell.
+
+## Track the continuing work across funding labels, edition 0.47
+
+[The UKPN funding-transition audit](quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) distinguishes an NIA closeout from continued internally funded work and later trial reporting. A potential time reduction and access to difficult spaces are useful hypotheses, not payroll removal or an accepted-service cohort. Require linked project/contract identities, actual payer cash, executed responsibilities and a feasible qualified alternative. Do not classify the funding closure as abandonment or add differently scoped budgets.

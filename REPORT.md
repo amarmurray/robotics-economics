@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.46, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.47, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -189,6 +189,10 @@ Edition 0.45 joins intelligence roles to actual awards and paid crews. [The equa
 A permitted [utility operator closeout](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) separates better defect visibility from an economical whole-service replacement. Value the maintenance decision and accepted service, including residual physical checks, identity reconciliation, review and escalation. Detection may create useful repair work rather than remove payroll. Use the strong manual/hybrid comparator and every payer; the historical report supplies no current all-payer ROI.
 
 The separate [AATIS closeout](research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) adds a build-versus-buy boundary: technical progress does not compel continued bespoke development when a better outside option emerges. Keep sunk work, remaining qualified delivery, approval and assignable rights explicit. The operator's commercial judgment does not establish that a replacement was purchased or delivered savings.
+
+### Follow obligations across funding changes, edition 0.47
+
+The [UKPN closeout and subsequent operator accounts](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) show why research must follow the underlying work beyond a programme's status label. Contract risk allocation, finance, field capability and delivered value have different clocks. Continued internal funding does not establish economic success; closure of external funding does not establish technical failure. This applies to customer, provider and financier decisions without transferring the particular funding rules.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -450,6 +454,10 @@ Each pack now separates customer-contract ownership from the service operator, e
 #### A complete obligation survives a new sensor, edition 0.46
 
 [QOF-AUDIT-SERVICE-03](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) challenges the utility pack with an operator trial in which better information did not make whole-process replacement economical. For utility, hospital and automotive decisions, require a unique due object, complete mandatory service, timely qualified disposition and funded residual duties. Transfer this accounting discipline only; the UK overhead-line pilot supplies no other cell's acceptance, labor or cost coefficients. Acquisition or newco formation does not provide uncontracted competence, access or support.
+
+#### Contract and payer identity through transition, edition 0.47
+
+[QOF-AUDIT-FUNDING-05](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) adds a funding-cohort challenge to all three packs. Preserve project and contract identity, actual employer/payer, liability and support obligations when financing, ownership or the programme changes. Neither a signed contract nor continued funding is accepted service, and a closed funding record is not necessarily abandonment. The historical tunnel time claim is not transferred to hospital, automotive or other-cell staffing.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -3587,6 +3595,20 @@ For substantial H/K, the useful comparison is a dated outside option and the rem
 
 These two utility closeouts are not pooled replications. SP Distribution challenges whole-service substitution at its historical trial boundary; AATIS challenges continuing bespoke development when qualification is incomplete and alternatives improve. Neither supplies current target-site all-payer economics. The remaining requirement is an actual accepted-service and decision ledger linked to paid work, support and every payer's costs.
 
+#### Funding closure, continuation and operating outcomes, edition 0.47
+
+The [NIA_UKPN0085 closeout](https://smarter.energynetworks.org/projects/nia_ukpn0085/) prevents a misleading interpretation of project status. Its July 2023 report says liability and insured-risk negotiations delayed contract signature. The signed project then moved to UK Power Networks' internal Business Funded Innovation scheme before completing deliverables under NIA. Closure of that funding cohort therefore does not establish abandonment, technical failure, zero spending or finished deployment. QOF-E23 and QOF-AUDIT-FUNDING-05 retain this distinction.
+
+The [dated operator trial account](https://www.ukpowernetworks.co.uk/news/robot-dog) and [2023/24 annual review](https://annualreview2024.ukpowernetworks.co.uk/operational-performance/network-reliability) describe Spot and digital inspection work after the closeout. They are related accounts, not independent deployments. No joined contract/project identifier proves a reconciled transition ledger. Their up-to-50% inspection-time claim remains potential, and the annual review describes access to some tunnels unsuitable for people. Neither gives measured paid-hours removal or a complete accepted-inspection and maintenance-disposition history.
+
+The causal question is now more precise. A deployment can be delayed before technical work begins because responsibilities and insurance have not been settled. Changing the funding route can permit continuation without solving field readiness or establishing value. Conversely, a later operating narrative cannot retroactively turn the earlier funding programme's planned benefits into realized outcomes. Keep project, contract, legal entity, funding source and work episode as separate identifiers, with an explicit join where evidence supplies one.
+
+That distinction matters for customer acquisitions and provider-backed operating companies. A transaction or new source of capital does not automatically inherit another entity's liability cover, site permission, support obligation or proprietary rights. Trace which contract survives, who pays the next due obligation, whether the relevant risk is actually covered and which qualified work can proceed. For the provider, a signed agreement is a meaningful milestone, but the ability to fund and deliver the complete service remains a separate test. For the financier, a change in programme status is not a repayment or a realizable asset value.
+
+Do not add the differing portal and project-page monetary labels into a single cost. The closeout names Eastern Power Networks, while the portal lists other UKPN licensees; those labels do not allocate actual cash. The project page's budget and future savings are also not an actual BFI expenditure statement. No revenue, margin, payback or lifecycle return is reconstructed from them.
+
+Where people cannot safely access an inspection location, compare feasible qualified remote or specialist alternatives. The robot may add useful access rather than substitute for an available human task. Elsewhere, any paid-work effect still depends on the complete roster, supervision, setup, review, maintenance and response duties. The six-cell review and three decision packs carry these identity, responsibility and counterfactual checks without importing a UK tunnel rate or funding rule. Current accepted service, changed maintenance, paid commitments, executed support/insurance terms and every payer's absolute cost remain unavailable; no further data request was sent.
+
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
@@ -3663,6 +3685,10 @@ The [rollout/readiness audit](research/quadruped_operator_followup.md#rollout-re
 #### Retained field service and useful information, edition 0.46
 
 The [SP Distribution closeout audit](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) supplies a historical counterexample to whole-process replacement. Its trial found extra defect visibility while retaining physical checks and manual review, with a projected programme cost premium. The choice is a qualified complete or hybrid inspection service with timely disposition, not an image-volume target. Preserve unresolved source denominators, original date and missing paid-work/cost ledgers. No source rate, cost premium or historical regulatory condition calibrates this US utility cell.
+
+#### Track the continuing work across funding labels, edition 0.47
+
+[The UKPN funding-transition audit](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) distinguishes an NIA closeout from continued internally funded work and later trial reporting. A potential time reduction and access to difficult spaces are useful hypotheses, not payroll removal or an accepted-service cohort. Require linked project/contract identities, actual payer cash, executed responsibilities and a feasible qualified alternative. Do not classify the funding closure as abandonment or add differently scoped budgets.
 
 #### Reproduced inspection-window worlds
 

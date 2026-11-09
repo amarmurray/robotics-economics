@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "operator-whole-inspection-closeout-0.46",
-  "retrieved_at": "2026-11-09T04:51:26.930599+00:00",
+  "version": "operator-funding-transition-0.47",
+  "retrieved_at": "2026-11-09T05:03:42.552323+00:00",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -1158,6 +1158,66 @@
       "limitations": "The relative commercial judgment is the operator’s, not an independent benchmark. The report establishes neither CAA authorization nor a completed BVLOS rollout, paid labor removal, actual project expenditure or supplier cost. Its net-benefit statement is not applicable, not zero. Further proprietary details may require agreement or payment; none was sought.",
       "quantities": [],
       "target_parameters_allowed": []
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "publisher": "UK Power Networks",
+      "source_class": "primary",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E23",
+      "title": "NIA_UKPN0085 closeout: contract delay and transfer to internal funding",
+      "url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=37204&legacyId=",
+      "landing_url": "https://smarter.energynetworks.org/projects/nia_ukpn0085/",
+      "publication_date": "2023-07",
+      "publication_date_type": "Printed submission month; portal upload and PDF creation date 2023-07-24",
+      "observation_period": "October 2022 project start through RIIO-ED1 closure and internal-funding transition described in July 2023",
+      "retrieved_at": "2026-11-09T05:01:29.902782+00:00",
+      "epistemic_status": "operator_funding_cohort_closeout_not_programme_cancellation",
+      "locator": "p.2: performance, outcomes, foreground IPR and planned implementation",
+      "artifact_version": "NIA_UKPN0085 Close Down Report, July 2023",
+      "source_pdf_sha256": "b9521760fd805d16d0f1c9d179bb121f6067a1c4dedfee9e24a46585c0c15eab",
+      "access": "HTTP 200 through the ENA public selected-document endpoint; page 2 visually checked",
+      "claim": "Liability and insured-risk negotiations delayed contracting. After signature, UKPN moved the work to its internal Business Funded Innovation scheme before completing deliverables. Closure of the NIA-funded project therefore did not mean abandonment of the underlying work.",
+      "limitations": "No completed deliverables or foreground IPR were reported for this funding cohort. That is not a finding of technical failure or zero expenditure. The closeout identifies Eastern Power Networks as funding licensee; the portal lists other UKPN licensees. No reconciled entity-level payer ledger or actual project cost is supplied.",
+      "quantities": []
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "publisher": "UK Power Networks",
+      "source_class": "primary",
+      "target_parameters_allowed": [],
+      "evidence_id": "QOF-E24",
+      "title": "UKPN Spot tunnel trial and later annual-review account",
+      "url": "https://www.ukpowernetworks.co.uk/news/robot-dog",
+      "followup_url": "https://annualreview2024.ukpowernetworks.co.uk/operational-performance/network-reliability",
+      "publication_date": "2023-08-24",
+      "publication_date_type": "Original operator page embedded publishedDate is 2023-08-24T12:00:00Z; separate follow-up is the 2023/24 annual-review edition, with no precise page publication date inferred",
+      "observation_period": "August 2023 tunnel trial report and 2023/24 annual-review narrative; no current 2026 supported deployment cohort",
+      "retrieved_at": "2026-11-09T05:03:42.552323+00:00",
+      "epistemic_status": "linked_operator_trial_and_annual_narrative_not_independent_replications",
+      "locator": "News: body paragraphs on remotely guided trial and initial results; annual review: Technical innovations supporting network resilience",
+      "artifact_version": "Operator news dated 2023-08-24; UK Power Networks Annual Review 2023/24",
+      "source_html_sha256": {
+        "https://www.ukpowernetworks.co.uk/news/robot-dog": "6a1911039ea23d1919e19789614362cfe2876b9bb91bbdc7b51ab8fd8fd391b4",
+        "https://annualreview2024.ukpowernetworks.co.uk/operational-performance/network-reliability": "c83ac7d61bc971440092fbcaa1cd83624628742cee6dadd1aaddc3dba8f3ad34"
+      },
+      "access": "Both primary operator pages fetched with HTTP 200",
+      "claim": "Later operator accounts describe remotely guided Spot inspections and use of imagery with a digital platform. The annual review also describes access to some tunnels unsuitable for people. The stated time reduction remains potential; neither report supplies a matched paid-work or complete service ledger.",
+      "limitations": "The two publications are one related operator account, not independent deployments. No direct project-ID/contract join establishes a reconciled BFI cohort. The headline is stronger than the qualified body. A possible inspection-time reduction is not a paid-hours reduction; unsafe direct human entry cannot be assumed as a feasible substitute.",
+      "quantities": [
+        {
+          "metric_id": "QOF-UKPN-POTENTIAL-TIME",
+          "label": "Reported potential reduction in maintenance-inspection time",
+          "value": 50,
+          "unit": "percent",
+          "qualifier": "up_to",
+          "denominator": "Initial trial potential; sample, person-hours, whole-service support and realized paid commitment are not supplied",
+          "population": "UKPN tunnel-inspection trial and related 2023/24 operator narrative, not all network tunnels or a current supported fleet",
+          "period": "August 2023 and 2023/24 reports",
+          "measurement_status": "operator_reported_potential_upper_bound_not_observed_payroll_effect",
+          "locator": "2023 news initial-results paragraph; 2023/24 review technical-innovations paragraph"
+        }
+      ]
     }
   ],
   "deployments": [
@@ -1982,6 +2042,79 @@
       "decision_implication": "At each development decision, compare the remaining funded, qualified path with a currently available competent alternative. Preserve sunk work without treating it as a reason to continue, and do not assume a better commercial product is already qualified or purchased.",
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046"
+    },
+    {
+      "audit_id": "QOF-AUDIT-FUNDING-05",
+      "title": "Funding closure can precede continued inspection work",
+      "status": "bounded_operator_funding_transition_and_outcome_audit",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E23",
+        "QOF-E24"
+      ],
+      "summary": "Follow the contract, funding cohort and operating work separately. A closed funding record is neither cancelled technology nor completed economic adoption.",
+      "source_boundary": "UKPN July 2023 NIA closeout and later related operator reports. The direct contract/project-ID join to the subsequent trial is not supplied; no current supported cohort or realized saving is inferred.",
+      "gates": [
+        {
+          "gate": "Liability and insurance",
+          "observed": "Negotiation delayed signature; the closeout says the contract was then signed.",
+          "not_established": "Executed liability allocation, premiums, support coverage or total legal/onboarding cost."
+        },
+        {
+          "gate": "NIA cohort closure",
+          "observed": "No deliverables or foreground IPR completed in that reported funding cohort.",
+          "not_established": "Technical failure, zero spending or cancellation of the continuing work."
+        },
+        {
+          "gate": "Internal continuation",
+          "observed": "The closeout explicitly states transition to Business Funded Innovation.",
+          "not_established": "Actual later cash outlay or a reconciled legal-entity payer ledger."
+        },
+        {
+          "gate": "Later operating account",
+          "observed": "Related reports describe Spot trial/use and digital interpretation of tunnel imagery.",
+          "not_established": "An object-level accepted-inspection/maintenance ledger or an audited project-ID join."
+        },
+        {
+          "gate": "Time and access",
+          "observed": "An up-to-50% time reduction is described as potential; some access is otherwise unsuitable for people.",
+          "not_established": "Paid-hours removal, a feasible direct-human substitute everywhere or zero retained oversight."
+        },
+        {
+          "gate": "Budget and benefit boundaries",
+          "observed": "The public pages report prospective project budgets and benefits at different boundaries.",
+          "not_established": "A combined actual expenditure account, additive grants/budgets, realized savings or lifecycle ROI."
+        }
+      ],
+      "unknowns": {
+        "project_and_contract_linkage": {
+          "value": null,
+          "reason": "The funding-cohort closeout and later trial narrative lack a joined contract/project record."
+        },
+        "actual_cash_by_entity": {
+          "value": null,
+          "reason": "Source licensee labels differ and no reconciled NIA/BFI/company cash ledger is supplied."
+        },
+        "liability_and_support_terms": {
+          "value": null,
+          "reason": "Signature does not disclose executed responsibility, insurance, repair or response terms."
+        },
+        "accepted_inspections_and_actions": {
+          "value": null,
+          "reason": "No due-object, qualified acceptance, changed maintenance and timely response series."
+        },
+        "paid_work_change": {
+          "value": null,
+          "reason": "Potential inspection time reduction is not a measured staffing or paid-commitment change."
+        },
+        "retained_cohort_and_alternative": {
+          "value": null,
+          "reason": "No current exposure/retention account or fully qualified remote/human/mixed counterfactual."
+        }
+      },
+      "decision_implication": "Keep the same project and obligation identity through funding transitions, assign actual payments to the responsible legal entity, and require accepted service and paid-work evidence before claiming adoption economics.",
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047"
     }
   ]
 }

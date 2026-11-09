@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.46.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.47.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: whole-service and development closeouts, edition 0.46
+## Current checkpoint: funding continuity and operating outcomes, edition 0.47
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `4bdd925ca10040c1b0d5c1f396d4bb6e9e5f0bd6` was clean and remote-verified after the preceding tranche. Saved edits were preserved through context resumption; actual shell execution and the unchanged cloud configuration were verified. No overlapping writer, native-goal change, new schedule/task/agent, spending or access change was introduced. Quota remains unknown.
+
+The [UKPN funding-cohort closeout and related later operator accounts](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) distinguish contract delay, funding closure, internal continuation and operating outcomes. Liability and insured-risk negotiations delayed signature. The project moved to Business Funded Innovation before completing NIA deliverables; this is neither abandonment nor proven economic adoption. Later trial and annual-review narratives describe potential time savings, not measured paid-hours removal or a reconciled accepted-service ledger. Their related reporting is not counted as independent deployment evidence.
+
+The existing development panel now selects this funding case or the earlier AATIS termination case. Three decision packs and all six cell reviews carry the project/contract/payer identity and risk-allocation boundary without importing UK tunnel rates or programme rules. Differing dates, budget labels and licensees are not combined into actual expenditure. Inaccessible tunnels require a feasible qualified alternative, not assumed direct human entry.
+
+Fresh validation passes the **13-package evidence registry** with **231 claims, 552 reported quantities and 192 explicit-null markers**, changed-script syntax, the original PDF and both HTML hashes, six closeout statements, the original embedded publication date and qualified potential-benefit language. Three affected exporters refresh 11 evidence fingerprints. All **13 dashboard views**, both selectable audits in four views, three source drilldowns, six cell scopes, three decision-pack gates, search/year filters, selection persistence, scenario/source independence and scenario export/reload pass. Both panels and the original PDF page were visually checked; no JavaScript or unexpected API errors were observed. The full **575-test model suite** passed at edition 0.45; the **11 evidence-contract tests and 36 Node assertions** passed at edition 0.46. Those unchanged suites were not rerun or presented as fresh 0.47 results.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **30 artifacts remain byte-identical**; **11** change only exact evidence fingerprints and dependent identities. All model code, synthetic assumptions, prior source records/audits and labor rows remain unchanged. No synthetic world or empirical calibration is added. Fourteen bounded families remain at **259 worlds**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **380 manifest hashes** and **997 relative Markdown links** verify. See the [sole-writer review](reviews/funding_transition_review.md). Scoped private publication and observed commit identities are recorded in the ignored receipt after remote verification. Original source bytes remain local operational records; their SHA256 identities are registered in accepted evidence.
+
+**Remaining dependency / next action:** current accepted inspection, changed maintenance, actual paid commitments, executed support/insurance terms and each payer's absolute cost remain unavailable. Further data are request-based; no request was made. National Gas 403, the closed National Grid Spot pages and all other restricted routes remain closed. Do not repeat the reviewed tunnel search. The useful independent integration gap is development work paid before qualification: establish a non-overlapping work, resource, payer, rights and outside-option contract before changing the model. No runtime or publication-permission blocker affected this tranche.
+
+**Next question:** what does a failed or delayed qualification attempt consume and cost before service admission, and when should the operator stop developing and use a qualified alternative?
+
+## Previous checkpoint: whole-service and development closeouts, edition 0.46
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `a920c5b4ce481e76252aa0ddf8b2bef580a75b6b` was clean and remote-verified after the preceding tranche; owned validation processes had finished and no other writer was introduced. Actual execution continues in the same cloud configuration. No native goal, clock, model setting, schedule, task, agent, commercial authorization or access policy was changed. Quota remains unknown; no paid credit or reset was used.
 

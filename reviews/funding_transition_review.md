@@ -1,0 +1,15 @@
+# Funding continuity and operating outcomes: sole-writer review
+
+Edition 0.47; input `4bdd925ca10040c1b0d5c1f396d4bb6e9e5f0bd6`. Same cloud, sole writer and November 14 deadline. No agent, replacement, native goal change, schedule, spending or outreach. The preceding checkpoint was clean and remote-verified.
+
+The UKPN NIA closeout was downloaded through its public ENA document control (HTTP 200, SHA256 `b9521760fd805d16d0f1c9d179bb121f6067a1c4dedfee9e24a46585c0c15eab`) and page 2 visually checked. It explicitly states internal continuation after contract signature. The no-deliverable finding belongs to that funding cohort, not a claim of abandoned technology. Later dated operator news and the annual-review account were read and saved; their time claim remains potential/up-to, with no direct project-ID ledger or independent replication assumed.
+
+The current project page and ENA portal have differently scoped dates, budgets and licensee labels. They are not added into an expenditure total. A direct human-entry counterfactual is not invented for inaccessible tunnels. Accepted-source records preserve the article date and annual-review period without inventing the latter's publication date. Further project data remain request-based; no request was sent.
+
+The existing development/qualification dashboard panel now selects the UKPN and AATIS audits. This uses a local evidence-view selection only; scenario assumptions, source records and monthly execution families are unchanged. No model code, assumption, synthetic world or status is changed.
+
+Fresh validation passes the **13-package evidence registry** with **231 claims, 552 reported quantities and 192 explicit-null markers**, changed-script syntax, the original PDF and both HTML hashes, six closeout statements, the original embedded publication date and qualified potential-benefit language. Three affected exporters refresh 11 evidence fingerprints. All **13 dashboard views**, both selectable audits in four views, three source drilldowns, six cell scopes, three decision-pack gates, search/year filters, selection persistence, scenario/source independence and scenario export/reload pass. Both panels and the original PDF page were visually checked; no JavaScript or unexpected API errors were observed. The full **575-test model suite** passed at edition 0.45; the **11 evidence-contract tests and 36 Node assertions** passed at edition 0.46. Those unchanged suites were not rerun or presented as fresh 0.47 results.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **30 artifacts remain byte-identical**; **11** change only exact evidence fingerprints and dependent identities. All model code, synthetic assumptions, prior source records/audits and labor rows remain unchanged. No synthetic world or empirical calibration is added. Fourteen bounded families remain at **259 worlds**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **380 manifest hashes** and **997 relative Markdown links** verify.

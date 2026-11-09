@@ -154,3 +154,7 @@ Nine [architecture/award executions](research/shared_workforce.md#intelligence-r
 ## Whole-service operator evidence, edition 0.46
 
 The historical SP Distribution virtual-inspection and NGET AATIS closeouts add two primary records, a service/denominator audit and a development/qualification audit. Better information, a projected programme cost premium and retained field work are separate findings. Demonstration, approval and a decision to stop bespoke development as alternatives improve also remain distinct. The six cells and three packs retain complete obligations and qualified manual/hybrid alternatives without importing the pilot's rates or law. Fourteen challenge families remain at 259 worlds; empirical all-payer and paid-work requirements remain partial. Same T0, November 14 deadline and authorized successive useful tranches.
+
+## Funding closure and continued work, edition 0.47
+
+Two linked evidence records, from the UKPN closeout and later operator accounts, add a contract/funding/operating-outcome audit. A change of funding cohort is neither abandonment nor demonstrated adoption economics. The six cells and three packs retain legal responsibility, actual payer cash, feasible alternatives and empirical unknowns. Fourteen families remain at 259 synthetic worlds; no coefficient or status promotion. Same T0, November 14 deadline and sole writer.
