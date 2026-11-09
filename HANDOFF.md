@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.41.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.42.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: paid crews and actual customer awards, edition 0.41
+## Current checkpoint: utility operator service, edition 0.42
+
+One bounded tranche is complete; execution pauses for the next scheduled oversight. The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Clean local and remote main matched input `6d768719f0089a12f538f84ccb38b1250dfb63d3`; parent idle status and the process check found no overlapping productive writer. Actual shell execution and the connected published cloud configuration were verified. No continuous-execution claim, replacement task, duplicate schedule, additional agent, reset or commercial action. Quota and native goal creation/identifier remain unexposed.
+
+[The operator service audit](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) integrates two permitted EDF records into the existing package, utility recommendation, three decision packs and report/dashboard. A specialist measurement can purchase useful information/access while retaining qualified operating, review and support work. A feasible alternative, unique accepted service, actual paid commitments, all payers and the wider program must be demonstrated separately. Nuclear task rates and team levels do not transfer to the US mobile-inspection cell.
+
+Exact public HTML bytes exposed a consequential date boundary: the linked outage page retains a June9 title and displays a November5 update/publication-metadata date. Both are retained; the original wording and a November operating event are not inferred. Bugey attribution follows the explicit link, because the bolt article itself names only unit2. Source inventory, bounded headcount, approximate window and wider planned work remain distinct; no person-hours, payroll, ROI or avoided-outage estimate is fabricated.
+
+Fresh scoped checks pass **36 Python tests** in 0.173s, **36 Node assertions**, the changed JavaScript syntax check and evidence validation with no warnings. Three prescribed export commands refresh affected identities. All **13 dashboard views**, four operator-audit panels, two exact source drawers, three decision-pack gates and six cell scopes pass. Four qualified source quantities, four work obligations, six gates and eight explicit unknowns render correctly. Source bytes/hash, filters, year/scenario independence and scenario export/reload pass with no observed JavaScript or API errors. Both new panel screenshots were visually reviewed. The unchanged full **547-test suite was run for edition 0.41**, not repeated or claimed fresh here.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and their non-fingerprint semantics are unchanged. **28 artifacts are byte-identical**; **11** contain only exact refreshed evidence fingerprints and dependent identities. All prior model source, assumptions, source claims, deployment records and labor rows are preserved. The legacy **53 bounded met / 16 partial**, all 69 requirement statuses and all 65 question statuses remain. Fourteen challenge families still contain **241 worlds**; no world or empirical coefficient was added. The registry now contains **13 packages, 225 claims, 517 reported quantities and 166 explicit-null markers**. The two new pages are related operator accounts, not independent replications.
+
+All **367 manifest hashes** and **933 relative Markdown links** verify. See the [sole-writer review](reviews/utility_operator_service_review.md). Publication identity is recorded in the ignored receipt after the normal private-repository push.
+
+**Remaining empirical blocker:** a permitted operator closeout joining due objects, attempted/accepted dispositions, customer and partner role/shift hours, actual paid commitments, robot support, usable rights and every payer's costs. The source tranche sharpens the decision but does not supply that record. No runtime, permission or observed usage failure blocks this checkpoint; quota is unknown.
+
+**Next execution:** wait for the scheduled oversight. If directed to continue, prioritize the missing operator closeout and payer evidence within the existing utility pack. Preserve the wider A–K scope, prior work and closed source routes; do not add another favorable synthetic variant to substitute for empirical costs. The campaign clock is unchanged.
+
+**Next question:** would a qualified information/access service still be worth buying if the customer’s paid staffing and outage schedule did not change, and which payer actually funds its retained work?
+
+## Previous checkpoint: paid crews and actual customer awards, edition 0.41
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. At23:03 UTC on8 November, actual shell/remote checks found the clean published0.40 checkpoint `78e34328e3fe26f46625dc9156904d634abfccb6`, newer than the coordinator's external0.39 view. No subsequent partial edits or active research process was observed. The cloud environment was running/connected with no reported failure. Execution resumed here; elapsed idle time and a recorded in-progress state are not continuous work. Native quota/reset/goal controls and serving-model identity remain unexposed. No usage or permission failure was observed, and no reset or replacement was made.
 

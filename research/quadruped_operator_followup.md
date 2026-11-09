@@ -1,6 +1,37 @@
 # Non-Spot inspection: coverage, rollout and retained work
 
-Follow-up edition 0.4 · 8 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+## Specialist inspection and the wider service, edition 0.42
+
+EDF's [26 June operator account](https://www.edf.fr/arret-programme-de-l-unite-ndeg2-controle-des-vis-de-cloisonnement-du-coeur) describes a purpose-built underwater ultrasonic robot, a 960-bolt inspection scope, and retained positioning, guidance, measurement checks and specialist interpretation. It reports more than 30 people across day/night teams over nearly two weeks and no detected defect requiring replacement. These are operator statements, not an independent staffing or cost study. [QOF-E17]
+
+The linked [Bugey unit-2 outage account](https://www.edf.fr/la-centrale-nucleaire-du-bugey/les-actualites-de-la-centrale-nucleaire-du-bugey/des-controles-cles-pour-l-unite-de-production-ndeg2-lors-de-son-arret-programme) supplies the wider program: an outage beginning 2 May and more than 12,000 control/maintenance activities alongside fuel work. Its hydraulic tests are a different activity. The HTML title retains 9 June 2026; the current page displays a 5 November update, which its publication metadata also uses. Both dates are preserved. The link supports the Bugey attribution, which the bolt article itself does not state. These related pages are not independent replications. [QOF-E18]
+
+The decision changes at the counterfactual. If direct access is unavailable, a qualified remote inspection service can be valuable without replacing a feasible direct-human task. Compare qualified specialist processes at the same acceptance, access and time boundary before comparing embodiments. This case neither adds a quadruped deployment nor sets a US utility labor coefficient.
+
+### From inventory to an accepted service
+
+The proposed unit is one uniquely identified due bolt with a qualified measurement, recorded reviewer disposition and timely handoff. Repeated attempts and rejected measurements are work, not extra accepted units. The reported inventory is insufficient to audit that unit. A finding that does not call for replacement says nothing about the paid resources needed to reach it or maintain readiness for another result.
+
+The linked outage creates a second boundary. Inspection completion matters economically through what it changes in the wider program. Without a task schedule and counterfactual, neither the inspection window nor the outage's start proves robot-caused downtime, an avoided outage, or a shorter critical path. The hydraulic-test result cannot validate ultrasonic measurement acceptance or robotic throughput.
+
+### Who works, who pays, and what can change?
+
+| Service obligation | Decision-relevant record still required |
+| --- | --- |
+| Position, guide, acquire and check | Role-specific attendance and qualified operating capacity, including retries |
+| Interpret and disposition | Reviewer time, backlog, acceptance authority and handoff obligations |
+| Maintain readiness and restore service | Separate inspected-asset response from robot repair, standby, spares and fallback |
+| Complete the wider program | Residual duties, constrained people and the actual task/production critical path |
+| Change a paid commitment | Feasible baseline, staffing decision and actual payroll, overtime or hiring consequence |
+| Fund and own the service | Customer cash, supplier/partner resources, title, support and data rights |
+
+Multiplying a multi-shift headcount by an elapsed calendar window would invent attendance. Even measured task time would still need a roster and workload decision before it becomes paid labor removed. Record released capacity, avoided hiring/overtime and payroll separately. Keep customer fees and the provider resources they fund separate in payer accounts, then count resource use once in consolidation. The available pages price none of those accounts.
+
+For a customer, the viable purchase may therefore be accepted information or access capability. For a provider, operating, review and restoration duties determine whether hardware delivery becomes a supported service. For a newco, acquisition or hybrid entrant, qualified teams and assignable operating/data/support rights remain necessary; ownership alone cannot establish them. Digital review or scheduling is a separate improvement hypothesis with its own acceptance and paid baseline, not a measured saving in these articles.
+
+[QOF-AUDIT-SERVICE-02](../data/quadruped_operator_followup.json) exposes eight unknown outcome groups and six decision gates in the existing dashboard. Existing utility and crew/renewal scenarios remain synthetic and numerically unchanged. The priority is a closeout joining the complete accepted-service ledger to actual role/shift work, payer accounts and usable rights; no extra favorable scenario can supply it.
+
+Follow-up edition 0.5 · 9 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
 
 This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](../data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The earlier worker’s requested Astra/Ultra configuration was unverified; current campaign serving identity also remains unexposed.
 

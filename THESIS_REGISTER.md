@@ -1,5 +1,9 @@
 # Initial deployment thesis register
 
+## Utility capability and labor claims, edition 0.42
+
+**Hypothesis sharpened:** sell and evaluate a qualified service before inferring a removable paid shift. The [operator service audit](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) requires a feasible alternative, actual retained work, payer costs and usable rights. A capability purchase can coexist with unchanged payroll. It remains an unpriced target hypothesis; a matched operator closeout could establish or reject the labor, outage and provider-margin claims separately.
+
 Version 0.18. The active campaign tests fourteen bounded challenge families through service, finance, calendar, architecture, coordination and entry witnesses; empirical acceptance remains partial. These are bounded claims and hypotheses for Amar to challenge after the first verified edition, following [POST_RESEARCH_STAGING.md](POST_RESEARCH_STAGING.md). They are not investment recommendations, universal laws or a completed research program. Source findings, synthetic mechanisms and target hypotheses remain distinct. Use the [walkthrough](LEARNING_WALKTHROUGH.md) to refine them. T1 and T6 begin as structural constraints; turn them into target-specific hypotheses with a declared cohort, outcome and decision threshold before treating them as empirical theses.
 
 ## T1 — Accepted service is a stricter boundary than successful robot motion

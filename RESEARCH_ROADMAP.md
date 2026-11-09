@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November 2026 window. Edition 0.41 joins paid qualified crews, retained work and actual customer awards; fourteen bounded families now contain 241 worlds. Target service/staffing, all-payer costs and broader resource integration remain partial. Next prioritize a consequential operator record for utility inspection. Full A–K scope and the sole writer continue.
+**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November 2026 window. Edition 0.42 adds a bounded utility operator service audit: feasible alternatives, accepted information, retained work, actual paid commitments and the wider program. Fourteen synthetic families remain at 241 worlds; target all-payer costs and paid-hours effects remain unknown. Next seek the linked operator closeout and payer record under permitted access. Full A–K scope and sole-writer restrictions continue.
 
 Version 1.11 · Post-window continuation, 7 November 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 

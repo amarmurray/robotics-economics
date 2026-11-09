@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "2026-11-08-v0.4",
-  "retrieved_at": "2026-11-08T05:15:54Z",
+  "version": "2026-11-09-v0.5",
+  "retrieved_at": "2026-11-09T01:08:15.111368+00:00",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -13,7 +13,7 @@
     "adds_labor_totals": false,
     "no_numerical_model_calibration": true,
     "full_service_cost_denominator_obtained": false,
-    "cross_sector_source_role": "European steel inspection rollout is a bounded structural comparator; no new labor cell, numerical calibration or complete cost dossier."
+    "cross_sector_source_role": "European steel rollout and French specialist nuclear inspection are bounded service/retained-work comparators; no new labor cell, quadruped deployment count, numerical calibration or complete cost dossier."
   },
   "evidence": [
     {
@@ -594,6 +594,102 @@
       "quantities": [],
       "source_html_sha256": "ddee44bea858c5f1d271c52e634ee9c291bb42ecde4de590820e1e1806864c60",
       "publication_date_missingness_reason": "Undated public landing page; retrieval and copyright year are not publication dates."
+    },
+    {
+      "evidence_id": "QOF-E17",
+      "schema_version": "evidence-1.0",
+      "title": "Arrêt programmé de l’unité n°2 : contrôle des vis de cloisonnement du cœur",
+      "url": "https://www.edf.fr/arret-programme-de-l-unite-ndeg2-controle-des-vis-de-cloisonnement-du-coeur",
+      "publisher": "EDF",
+      "publication_date": "2026-06-26",
+      "publication_date_type": "Visible publication date, HTML title and article metadata agree",
+      "observation_period": "2026 scheduled unit-2 outage; exact bolt-inspection start/end and individual attendance not disclosed",
+      "retrieved_at": "2026-11-09T01:08:14.350543+00:00",
+      "source_class": "primary",
+      "epistemic_status": "operator_reported_specialist_inspection_not_independent_cost_or_staffing_study",
+      "locator": "Un contrôle réalisé à distance, grâce à la robotique; Des équipes mobilisées en continu; opening link to hydraulic-test account",
+      "claim": "EDF describes underwater ultrasonic inspection across a 960-bolt scope, with surface positioning, guidance, quality checks and specialist analysis. More than 30 people worked across day/night teams over nearly two weeks; no defect requiring replacement was reported.",
+      "limitations": "Specialist nuclear inspection, not a quadruped deployment. No attempt-level acceptance log, staffing roster, actual paid hours, matched alternative, robot maintenance history or price. Headcount and elapsed window cannot be multiplied into person-hours. A no-replacement finding is not zero inspection, repair-readiness or robot-support work.",
+      "artifact_version": "Purpose-built underwater ultrasonic robot; supplier, model, software build and asset owner undisclosed",
+      "site_attribution": "Bugey unit 2 is inferred from the explicit companion-article link; the bolt article itself names only unit 2.",
+      "related_evidence_ids": [
+        "QOF-E18"
+      ],
+      "target_parameters_allowed": [],
+      "source_html_sha256": "3529abe2e560bfd0da99fa7f1b3d348c37d55cb780ee7de0c7855251a049b8f6",
+      "access": "Public operator HTML; exact bytes retrieved with HTTP 200",
+      "quantities": [
+        {
+          "metric_id": "QOF-EDF-BOLT-SCOPE",
+          "label": "Bolt inspection scope",
+          "value": 960,
+          "unit": "bolts",
+          "denominator": "Objects described as requiring repeated inspection; not an audited unique accepted-output count",
+          "population": "EDF unit-2 nuclear inspection; Bugey attribution follows the article’s explicit link to the companion outage account",
+          "period": "2026 scheduled unit-2 outage; exact bolt-inspection start/end and individual attendance not disclosed",
+          "measurement_status": "operator_reported_inspection_inventory"
+        },
+        {
+          "metric_id": "QOF-EDF-TEAM-BOUND",
+          "label": "People mobilized",
+          "value": 30,
+          "unit": "people",
+          "denominator": "Distinct people across several day/night teams; simultaneous staffing and attendance hours unknown",
+          "population": "EDF unit-2 nuclear inspection; Bugey attribution follows the article’s explicit link to the companion outage account",
+          "period": "2026 scheduled unit-2 outage; exact bolt-inspection start/end and individual attendance not disclosed",
+          "measurement_status": "operator_reported_headcount_lower_bound",
+          "comparison": "greater_than"
+        },
+        {
+          "metric_id": "QOF-EDF-WINDOW",
+          "label": "Inspection work window",
+          "value": 2,
+          "unit": "weeks",
+          "denominator": "Approximate elapsed project window; not continuous attendance by each person or robot uptime",
+          "population": "EDF unit-2 nuclear inspection; Bugey attribution follows the article’s explicit link to the companion outage account",
+          "period": "2026 scheduled unit-2 outage; exact bolt-inspection start/end and individual attendance not disclosed",
+          "measurement_status": "operator_reported_approximate_elapsed_window",
+          "qualifier": "nearly"
+        }
+      ]
+    },
+    {
+      "evidence_id": "QOF-E18",
+      "schema_version": "evidence-1.0",
+      "title": "Des contrôles clés pour l’unité de production n°2 lors de son arrêt programmé",
+      "url": "https://www.edf.fr/la-centrale-nucleaire-du-bugey/les-actualites-de-la-centrale-nucleaire-du-bugey/des-controles-cles-pour-l-unite-de-production-ndeg2-lors-de-son-arret-programme",
+      "publisher": "EDF",
+      "publication_date": "2026-06-09",
+      "publication_date_type": "Date retained in HTML title; current page separately displays an update",
+      "displayed_update_date": "2026-11-05",
+      "metadata_publication_date": "2026-11-05",
+      "dating_limit": "Title says 09/06/2026; visible updated date, article published/modified metadata and JSON-LD say 05/11/2026. Preserve both; the current version does not establish its earlier wording or a new November operating event.",
+      "observation_period": "Bugey unit 2 planned outage beginning 2026-05-02; article title June 2026, current page updated November 2026; outage end not given",
+      "retrieved_at": "2026-11-09T01:08:15.111368+00:00",
+      "source_class": "primary",
+      "epistemic_status": "operator_reported_planned_outage_context_not_robot_causal_evaluation",
+      "locator": "Opening planned-outage paragraph; separate hydraulic-test account; HTML title and visible update line",
+      "claim": "The Bugey unit-2 planned outage began on 2 May 2026 and includes fuel work and more than 12,000 control/maintenance activities. Its separate hydraulic-test results describe the wider outage, not robotic bolt-inspection output.",
+      "limitations": "Same operator and linked outage context, not independent corroboration of bolt acceptance. The activity scope is not a completed-job ledger. No robot-attributable downtime, critical path, avoided outage, outage end or all-payer cost. Hydraulic tests must not be counted as robotic bolt measurements.",
+      "related_evidence_ids": [
+        "QOF-E17"
+      ],
+      "target_parameters_allowed": [],
+      "source_html_sha256": "0a349b0afee6e34293ec093ba2d4e242fcfb77f47293e1c6817d430e78149b3a",
+      "access": "Public canonical operator HTML; exact bytes retrieved with HTTP 200",
+      "quantities": [
+        {
+          "metric_id": "QOF-EDF-OUTAGE-SCOPE",
+          "label": "Wider outage activity scope",
+          "value": 12000,
+          "unit": "control/maintenance activities",
+          "comparison": "greater_than",
+          "denominator": "Stated planned-outage program; not completed robot inspections or exclusively robot-related work",
+          "population": "EDF Bugey nuclear generating unit 2",
+          "period": "Planned outage beginning 2026-05-02; end and individual activity dates not provided",
+          "measurement_status": "operator_reported_outage_program_scope"
+        }
+      ]
     }
   ],
   "deployments": [
@@ -766,7 +862,7 @@
   "priority_next_artifacts": [
     {
       "priority": 1,
-      "artifact": "Operator pilot closeout with selected/excluded inventory and accepted measurement log",
+      "artifact": "Operator closeout linking original due objects, attempts, accepted dispositions, retained duties and actual paid role/shift records",
       "decision": "Complete service feasibility and residual human route"
     },
     {
@@ -1022,6 +1118,112 @@
       "model_challenge": "The component model assumes repair labor and parts inside existing bundles. These records do not price that assumption or establish supplier consignment; retain both as synthetic and require separate customer work.",
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032"
+    }
+  ],
+  "operator_service_audits": [
+    {
+      "audit_id": "QOF-AUDIT-SERVICE-02",
+      "title": "What remains staffed after the robot makes a measurement?",
+      "status": "bounded_operator_service_audit_not_full_cost_or_paid_hours_evidence",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E17",
+        "QOF-E18"
+      ],
+      "summary": "Treat a specialist inspection capability, accepted information, retained work and a changed paid commitment as separate decisions. The useful counterfactual may be another qualified remote inspection process, not direct human access.",
+      "source_boundary": "Linked French nuclear operator accounts. Bugey attribution is a linked-source inference; this is neither a quadruped case nor a US utility staffing coefficient. The two pages are one related operator account, not independent site replications.",
+      "date_boundary": "Title says 09/06/2026; visible updated date, article published/modified metadata and JSON-LD say 05/11/2026. Preserve both; the current version does not establish its earlier wording or a new November operating event.",
+      "service_unit": "One uniquely identified required bolt with a qualified measurement, recorded reviewer disposition and timely handoff; any triggered repair is a separate obligation. Apply analogous due-point, quality, disposition and timing rules to the utility cell without transferring this task or technology.",
+      "work_boundary": [
+        {
+          "role": "Measurement operation",
+          "retained_work": "Positioning and guidance remain attended in the source account.",
+          "payer_status": "Plant and specialist partner split, attendance and bills unknown."
+        },
+        {
+          "role": "Acceptance and disposition",
+          "retained_work": "Measurement quality checking and specialist interpretation remain distinct from acquisition.",
+          "payer_status": "No qualified-review capacity, labor time or payment schedule disclosed."
+        },
+        {
+          "role": "Contingent response and robot support",
+          "retained_work": "Separate preparedness for an inspected-asset repair from maintenance, recovery and qualification of the robot.",
+          "payer_status": "No realized robot-support ledger or allocation of readiness costs disclosed."
+        },
+        {
+          "role": "Wider service program",
+          "retained_work": "Other outage work remains outside the robot measurement numerator.",
+          "payer_status": "No demonstrated change in the outage critical path or payable commitments."
+        }
+      ],
+      "gates": [
+        {
+          "gate": "Feasible alternative",
+          "requirement": "Compare qualified remote/specialist methods at the same acceptance and access boundary; do not invent a feasible direct-human substitute or transfer mobile-robot rates."
+        },
+        {
+          "gate": "Unique accepted service",
+          "requirement": "Join original due objects, attempts, rework, reviewer disposition and handoff. Inventory size is not a measured accepted count."
+        },
+        {
+          "gate": "Actual work and paid commitments",
+          "requirement": "Measure attendance by role, shift and employer, then identify a feasible changed paid commitment. Headcount × calendar window is not person-hours."
+        },
+        {
+          "gate": "Whole program and counterfactual",
+          "requirement": "Identify residual obligations and the critical path before attributing outage, travel or production value to the robot task."
+        },
+        {
+          "gate": "Every payer and right",
+          "requirement": "Reconcile customer payments, specialist/supplier resources, asset/support duties and data rights; consolidate fees once and do not add transferred cash to the resources it pays for."
+        },
+        {
+          "gate": "Support and realized outcome",
+          "requirement": "A finding without replacement does not remove review, standby, robot maintenance or fallback. Keep capability, exposure, paid labor and avoided-loss claims separate."
+        }
+      ],
+      "unknowns": {
+        "unique_accepted_service_ledger": {
+          "value": null,
+          "reason": "No object/attempt/acceptance/timing ledger to audit the reported scope."
+        },
+        "customer_partner_work_hours": {
+          "value": null,
+          "reason": "Headcount and elapsed window do not disclose individual shifts, attendance, concurrent duties or employer allocation."
+        },
+        "paid_hours_removed": {
+          "value": null,
+          "reason": "No matched feasible baseline, changed roster, avoided hire/overtime or payroll record."
+        },
+        "all_payer_costs": {
+          "value": null,
+          "reason": "No purchase/service price, customer/supplier work cost, standby/repair resource or financing schedule."
+        },
+        "outage_effect": {
+          "value": null,
+          "reason": "No task critical path, actual completion effect or defensible avoided-outage counterfactual."
+        },
+        "robot_configuration_and_support": {
+          "value": null,
+          "reason": "No named configuration, robot failure/repair record, support entitlement or restoration duty."
+        },
+        "rights_and_asset_title": {
+          "value": null,
+          "reason": "Robot title, executed service obligations, data rights and transferability are not disclosed."
+        },
+        "retained_deployment_cohort": {
+          "value": null,
+          "reason": "One episode does not establish repeat use, current supported fleet or later economic retention."
+        }
+      },
+      "model_challenge": "Existing utility and paid-crew worlds remain synthetic. The source challenges unpriced review, standby and wider duties; it supplies no rate, crew ratio, cost, outage benefit or payroll coefficient. No new world or numerical calibration is added.",
+      "decision_effects": {
+        "customer": "Price useful qualified information or access capability separately from a removable paid shift.",
+        "provider": "Fund and contract the specialist operating/review/support service before treating delivered hardware as productive capacity.",
+        "entry": "Newco, acquisition and hybrid paths still require qualified people, assignable obligations and payer cash; acquiring hardware does not establish those rights."
+      },
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042"
     }
   ]
 }

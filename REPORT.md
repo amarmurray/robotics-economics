@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.41, paid crews and actual customer awards checkpoint, 8 November 2026. Qualified crew minutes, retained duties, staffing notice and prospective overtime now constrain actual awards in one entry/physical/Treasury run. Complete cleaning can coexist with unfinished outside work; strong paid human alternatives remain. Fourteen families contain241 bounded worlds. Empirical economics and broader composition remain incomplete. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.42, utility operator service checkpoint, 9 November 2026. Qualified information/access, retained specialist work, paid commitments and wider program value now have separate evidence gates. Two linked EDF operator records preserve source dates, approximate/bounded quantities and missing costs; they do not calibrate any scenario. Fourteen families remain at 241 bounded worlds. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -32,6 +32,10 @@ The initial editions were produced in a cloud checkout. The local continuation b
 ## 1. Executive argument and strategic implications
 
 Authoritative chapter: [research/integrated_decisions.md](research/integrated_decisions.md).
+
+### Accepted information can be the product, edition 0.42
+
+The [utility operator audit](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) shifts the first purchase question to qualified information and access. An economically useful robot service can retain specialist operators and reviewers; its comparison must include a feasible alternative and all paid duties. Labor removal, production availability and capability value require different evidence. Neither a multi-shift headcount nor a successful component result establishes whole-program savings. The three decision packs now carry that test without transferring source rates or changing synthetic outputs.
 
 The new 7 November decision campaign adds [three provisional deployment and entry packs](research/deployment_entry_decisions.md), preceded by a reassessment of all six deep cells. The strongest immediate questions are residual paid coverage in hospitals, residual mandatory visits in utilities, and workcell/asset-generation qualification in automotive production. These are conditional research decisions; the integrated execution bridges and challenge cases remain work in progress.
 
@@ -172,7 +176,13 @@ Edition 0.41 joins paid crew commitments to actual awards and retained work. A s
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
 
-Decision campaign, integrated checkpoint 0.40 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+#### Utility operator challenge, edition 0.42
+
+[QOF-AUDIT-SERVICE-02](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) makes a qualified information/access purchase distinct from paid labor removal and wider production value. The utility recommendation now requires the feasible alternative and actual retained work before pricing savings. The six-cell selection is unchanged.
+
+Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
+
+Decision campaign, integrated checkpoint 0.42 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -3242,7 +3252,38 @@ The highest-priority next work is a matched recurring inspection cohort: accepte
 
 Authoritative analysis: [research/quadruped_operator_followup.md](research/quadruped_operator_followup.md).
 
-Follow-up edition 0.4 · 8 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
+#### Specialist inspection and the wider service, edition 0.42
+
+EDF's [26 June operator account](https://www.edf.fr/arret-programme-de-l-unite-ndeg2-controle-des-vis-de-cloisonnement-du-coeur) describes a purpose-built underwater ultrasonic robot, a 960-bolt inspection scope, and retained positioning, guidance, measurement checks and specialist interpretation. It reports more than 30 people across day/night teams over nearly two weeks and no detected defect requiring replacement. These are operator statements, not an independent staffing or cost study. [QOF-E17]
+
+The linked [Bugey unit-2 outage account](https://www.edf.fr/la-centrale-nucleaire-du-bugey/les-actualites-de-la-centrale-nucleaire-du-bugey/des-controles-cles-pour-l-unite-de-production-ndeg2-lors-de-son-arret-programme) supplies the wider program: an outage beginning 2 May and more than 12,000 control/maintenance activities alongside fuel work. Its hydraulic tests are a different activity. The HTML title retains 9 June 2026; the current page displays a 5 November update, which its publication metadata also uses. Both dates are preserved. The link supports the Bugey attribution, which the bolt article itself does not state. These related pages are not independent replications. [QOF-E18]
+
+The decision changes at the counterfactual. If direct access is unavailable, a qualified remote inspection service can be valuable without replacing a feasible direct-human task. Compare qualified specialist processes at the same acceptance, access and time boundary before comparing embodiments. This case neither adds a quadruped deployment nor sets a US utility labor coefficient.
+
+##### From inventory to an accepted service
+
+The proposed unit is one uniquely identified due bolt with a qualified measurement, recorded reviewer disposition and timely handoff. Repeated attempts and rejected measurements are work, not extra accepted units. The reported inventory is insufficient to audit that unit. A finding that does not call for replacement says nothing about the paid resources needed to reach it or maintain readiness for another result.
+
+The linked outage creates a second boundary. Inspection completion matters economically through what it changes in the wider program. Without a task schedule and counterfactual, neither the inspection window nor the outage's start proves robot-caused downtime, an avoided outage, or a shorter critical path. The hydraulic-test result cannot validate ultrasonic measurement acceptance or robotic throughput.
+
+##### Who works, who pays, and what can change?
+
+| Service obligation | Decision-relevant record still required |
+| --- | --- |
+| Position, guide, acquire and check | Role-specific attendance and qualified operating capacity, including retries |
+| Interpret and disposition | Reviewer time, backlog, acceptance authority and handoff obligations |
+| Maintain readiness and restore service | Separate inspected-asset response from robot repair, standby, spares and fallback |
+| Complete the wider program | Residual duties, constrained people and the actual task/production critical path |
+| Change a paid commitment | Feasible baseline, staffing decision and actual payroll, overtime or hiring consequence |
+| Fund and own the service | Customer cash, supplier/partner resources, title, support and data rights |
+
+Multiplying a multi-shift headcount by an elapsed calendar window would invent attendance. Even measured task time would still need a roster and workload decision before it becomes paid labor removed. Record released capacity, avoided hiring/overtime and payroll separately. Keep customer fees and the provider resources they fund separate in payer accounts, then count resource use once in consolidation. The available pages price none of those accounts.
+
+For a customer, the viable purchase may therefore be accepted information or access capability. For a provider, operating, review and restoration duties determine whether hardware delivery becomes a supported service. For a newco, acquisition or hybrid entrant, qualified teams and assignable operating/data/support rights remain necessary; ownership alone cannot establish them. Digital review or scheduling is a separate improvement hypothesis with its own acceptance and paid baseline, not a measured saving in these articles.
+
+[QOF-AUDIT-SERVICE-02](data/quadruped_operator_followup.json) exposes eight unknown outcome groups and six decision gates in the existing dashboard. Existing utility and crew/renewal scenarios remain synthetic and numerically unchanged. The priority is a closeout joining the complete accepted-service ledger to actual role/shift work, payer accounts and usable rights; no extra favorable scenario can supply it.
+
+Follow-up edition 0.5 · 9 November 2026; earlier TenneT investigation dated 25 October · Repository input provenance is recorded in ignored `sync_receipt.json`; it is not asserted to be the current remote revision.
 
 This investigation adds one operator-coauthored ANYmal field study and a later operator-described pilot, both attached to `CELL-M03-utility-inspection-US-2025` as foreign service comparators. It does not add a labor market or claim a complete operating-cost denominator. The accompanying [structured record](data/quadruped_operator_followup.json) preserves source-level provenance, quantities, rejected inferences and exact remaining gaps. The earlier worker’s requested Astra/Ultra configuration was unverified; current campaign serving identity also remains unexposed.
 
@@ -3349,6 +3390,12 @@ Six outcomes remain explicitly unknown: accepted due-point service, all-actor wo
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
+
+#### Operator evidence changes the purchase question, edition 0.42
+
+The [specialist-inspection audit](research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) adds an operator-supported counterexample to a simple substitution story. The economically relevant alternative may be another qualified remote method, while attended acquisition, acceptance, response and wider duties remain. A capability purchase can be justified without a labor-removal claim; neither is yet priced here.
+
+The utility pack now requires a feasible matched baseline, unique accepted due-point dispositions, actual customer/partner attendance, a changed paid commitment and the whole-program effect. Separate inspection from any subsequent maintenance, and maintenance on the inspected asset from support of the robot. Do not use elapsed windows to impute staff hours or a no-replacement result to erase standby resources. All eight synthetic utility worlds and every numerical assumption are preserved; this evidence supplies no coefficient.
 
 Edition 0.19 continues the same Deployment and Entry Decision campaign. The question is narrower than whether a robot can move around a substation: **which required service is accepted, what physical work remains, and which paid commitment actually changes?** The existing utility decision pack remains provisional because a matched all-actor lifecycle ledger is still unavailable. The new [replay](model/results/utility_inspection.json) supplies eighteen synthetic service-boundary challenges, not empirical unit economics.
 

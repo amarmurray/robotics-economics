@@ -3670,11 +3670,11 @@
     {
       "review_id": "DE-REVIEW-M03",
       "cell_id": "CELL-M03-utility-inspection-US-2025",
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-09",
       "status": "qualitative_decision_screen_not_economic_ranking",
       "selection": "Selected: accepted measurement versus maintenance outcome",
       "reason": "Operator-coauthored inspection coverage and selected-route evidence expose the residual mandatory visit.",
-      "strongest_counterargument": "More measurements may be valuable while no visit, payroll or failure loss is avoided.",
+      "strongest_counterargument": "Measurement capability can coexist with staffed guidance, review, repair readiness and wider program duties. Neither headcount/window arithmetic nor a finding without replacements establishes payroll or avoided-outage value.",
       "evidence_refs": [
         "QOF-E01",
         "QOF-E03",
@@ -3682,7 +3682,9 @@
         "PHY-E04",
         "QOF-E09",
         "QOF-E10",
-        "QOF-E11"
+        "QOF-E11",
+        "QOF-E17",
+        "QOF-E18"
       ]
     }
   ],
@@ -3914,6 +3916,13 @@
         "analysis": "research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041",
         "requirement": "Join actual awarded demand to the same paid qualified crew after retained duties, notice and prospective fallback payments. Test complete service of every obligation, not only the market another firm can rescue.",
         "scope": "Synthetic cleaning mechanism only; retain the service-specific human alternative, exact roster/qualification and legal payer. No study percentage, staffing ratio, price or contract term transfers."
+      },
+      "operator_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-02",
+        "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042",
+        "role": "Structural comparison only: receipt, custody, retained escort/review and repair obligations must be priced; nuclear task/configuration and crew levels do not transfer.",
+        "requirement": "Match feasible alternatives and unique accepted service, actual retained work, a changed paid commitment, every payer and the wider program. A successful component task does not establish whole-service savings.",
+        "unknowns": "Actual role/shift hours, payroll effects, all-payer costs, support/title/rights and causal outage or production value remain unknown."
       }
     },
     {
@@ -3934,7 +3943,9 @@
         "PHY-E04",
         "QOF-E09",
         "QOF-E10",
-        "QOF-E11"
+        "QOF-E11",
+        "QOF-E17",
+        "QOF-E18"
       ],
       "alternatives": [
         {
@@ -3968,7 +3979,7 @@
           "qualification_limit": "No measured economic advantage is inferred from the untested ability to reach more points."
         }
       ],
-      "recommendation": "Prioritize measurement coverage, reviewer disposition and the full mandatory route. Separate a monitoring purchase from a labor-removal business case.",
+      "recommendation": "Prioritize a qualified information/access service with its complete retained work and support. Claim labor or outage savings only after a feasible baseline, actual paid commitment and whole-program effect are demonstrated.",
       "gates": {
         "proceed": "Analytical proceed gate: the due-inspection inventory, excluded points, measurement accuracy, safe access and escalation contract are explicit; a monitoring-value case may proceed without claiming payroll removal.",
         "wait": "Wait on scale economics while support, recurring accepted output, post-pilot retention, full cost and available qualified supply remain undisclosed.",
@@ -4137,6 +4148,13 @@
         "analysis": "research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041",
         "requirement": "Join actual awarded demand to the same paid qualified crew after retained duties, notice and prospective fallback payments. Test complete service of every obligation, not only the market another firm can rescue.",
         "scope": "Synthetic cleaning mechanism only; retain the service-specific human alternative, exact roster/qualification and legal payer. No study percentage, staffing ratio, price or contract term transfers."
+      },
+      "operator_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-02",
+        "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042",
+        "role": "Direct service-boundary challenge using a foreign specialist comparator; no mobile/quadruped rate or staffing transfer.",
+        "requirement": "Match feasible alternatives and unique accepted service, actual retained work, a changed paid commitment, every payer and the wider program. A successful component task does not establish whole-service savings.",
+        "unknowns": "Actual role/shift hours, payroll effects, all-payer costs, support/title/rights and causal outage or production value remain unknown."
       }
     },
     {
@@ -4352,6 +4370,13 @@
         "analysis": "research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041",
         "requirement": "Join actual awarded demand to the same paid qualified crew after retained duties, notice and prospective fallback payments. Test complete service of every obligation, not only the market another firm can rescue.",
         "scope": "Synthetic cleaning mechanism only; retain the service-specific human alternative, exact roster/qualification and legal payer. No study percentage, staffing ratio, price or contract term transfers."
+      },
+      "operator_service_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-02",
+        "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042",
+        "role": "Structural comparison only: accepted parts, inspection, response and the line critical path must reconcile; nuclear task/configuration and crew levels do not transfer.",
+        "requirement": "Match feasible alternatives and unique accepted service, actual retained work, a changed paid commitment, every payer and the wider program. A successful component task does not establish whole-service savings.",
+        "unknowns": "Actual role/shift hours, payroll effects, all-payer costs, support/title/rights and causal outage or production value remain unknown."
       }
     }
   ],
@@ -4376,6 +4401,7 @@
     "fallback_purchase_gate": "A prospective operator purchase floor can preserve funded service while leaving sunk manufacture and stock at the OEM. It cannot create crew availability, fund independent suppliers or reverse prior actions. Next reconcile competition/entry/recovery interfaces across the six-cell program.",
     "renewing_entry_gate": "Share closing and actual customer renewal now share one physical/Treasury history. Acquired volume is not new demand, common ownership is not independent competition, and complete market service does not establish target solvency.",
     "recovering_entry_gate": "Paid title, debt cure, robot reuse and retained customer service now share one history. Cash cure may restore human service before robot qualification; all-payer cash includes customer switching resources. No empirical valuation or rights inference.",
-    "staffed_renewals_gate": "Paid crew capacity after retained work now gates actual awards in one entry/physical/Treasury run. Common ownership pools neither staff nor cash; market rescue can leave outside duties unfinished."
+    "staffed_renewals_gate": "Paid crew capacity after retained work now gates actual awards in one entry/physical/Treasury run. Common ownership pools neither staff nor cash; market rescue can leave outside duties unfinished.",
+    "operator_service_gate": "QOF-AUDIT-SERVICE-02 separates specialist inspection scope, actual retained work, paid commitments and the wider outage. Two linked operator records add no numerical calibration or independent replication."
   }
 }

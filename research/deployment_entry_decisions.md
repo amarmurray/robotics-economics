@@ -1,6 +1,12 @@
 # Deployment and entry decisions: service before scale
 
-Decision campaign, integrated checkpoint 0.40 · 8 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+## Utility operator challenge, edition 0.42
+
+[QOF-AUDIT-SERVICE-02](quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) makes a qualified information/access purchase distinct from paid labor removal and wider production value. The utility recommendation now requires the feasible alternative and actual retained work before pricing savings. The six-cell selection is unchanged.
+
+Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
+
+Decision campaign, integrated checkpoint 0.42 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 

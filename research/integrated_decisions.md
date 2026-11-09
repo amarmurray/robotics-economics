@@ -1,5 +1,9 @@
 # Strategy and deployment decisions: first integrated findings
 
+## Accepted information can be the product, edition 0.42
+
+The [utility operator audit](quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) shifts the first purchase question to qualified information and access. An economically useful robot service can retain specialist operators and reviewers; its comparison must include a feasible alternative and all paid duties. Labor removal, production availability and capability value require different evidence. Neither a multi-shift headcount nor a successful component result establishes whole-program savings. The three decision packs now carry that test without transferring source rates or changing synthetic outputs.
+
 The new 7 November decision campaign adds [three provisional deployment and entry packs](deployment_entry_decisions.md), preceded by a reassessment of all six deep cells. The strongest immediate questions are residual paid coverage in hospitals, residual mandatory visits in utilities, and workcell/asset-generation qualification in automotive production. These are conditional research decisions; the integrated execution bridges and challenge cases remain work in progress.
 
 This campaign asks where a humanoid company should deploy, what must improve, and which organizational and commercial arrangements can sustain useful production. The early evidence supports a conditional strategy organized around customer services and their bottlenecks. It does not yet support a calibrated economy-wide penetration forecast or a claim that one morphology will replace a fixed share of physical labor.

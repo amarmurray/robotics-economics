@@ -1,5 +1,11 @@
 # Utility inspection: accepted information and the residual visit
 
+## Operator evidence changes the purchase question, edition 0.42
+
+The [specialist-inspection audit](quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042) adds an operator-supported counterexample to a simple substitution story. The economically relevant alternative may be another qualified remote method, while attended acquisition, acceptance, response and wider duties remain. A capability purchase can be justified without a labor-removal claim; neither is yet priced here.
+
+The utility pack now requires a feasible matched baseline, unique accepted due-point dispositions, actual customer/partner attendance, a changed paid commitment and the whole-program effect. Separate inspection from any subsequent maintenance, and maintenance on the inspected asset from support of the robot. Do not use elapsed windows to impute staff hours or a no-replacement result to erase standby resources. All eight synthetic utility worlds and every numerical assumption are preserved; this evidence supplies no coefficient.
+
 Edition 0.19 continues the same Deployment and Entry Decision campaign. The question is narrower than whether a robot can move around a substation: **which required service is accepted, what physical work remains, and which paid commitment actually changes?** The existing utility decision pack remains provisional because a matched all-actor lifecycle ledger is still unavailable. The new [replay](../model/results/utility_inspection.json) supplies eighteen synthetic service-boundary challenges, not empirical unit economics.
 
 ## What the evidence changes

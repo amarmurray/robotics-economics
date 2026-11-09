@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: paid crews and actual awards, edition0.41
+## New decision campaign: utility operator service, edition 0.42
+
+The operator tranche deepens DE-01/02/07/09/10 while preserving every requirement status and the same November14 deadline. It supplies a bounded service and payer challenge, not full empirical costs or paid-hours evidence. Execution pauses after this tranche for scheduled oversight; overall campaign acceptance remains incomplete.
+
+Fresh scoped checks pass **36 Python tests** in 0.173s, **36 Node assertions**, the changed JavaScript syntax check and evidence validation with no warnings. Three prescribed export commands refresh affected identities. All **13 dashboard views**, four operator-audit panels, two exact source drawers, three decision-pack gates and six cell scopes pass. Four qualified source quantities, four work obligations, six gates and eight explicit unknowns render correctly. Source bytes/hash, filters, year/scenario independence and scenario export/reload pass with no observed JavaScript or API errors. Both new panel screenshots were visually reviewed. The unchanged full **547-test suite was run for edition 0.41**, not repeated or claimed fresh here.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and their non-fingerprint semantics are unchanged. **28 artifacts are byte-identical**; **11** contain only exact refreshed evidence fingerprints and dependent identities. All prior model source, assumptions, source claims, deployment records and labor rows are preserved. The legacy **53 bounded met / 16 partial**, all 69 requirement statuses and all 65 question statuses remain. Fourteen challenge families still contain **241 worlds**; no world or empirical coefficient was added. The registry now contains **13 packages, 225 claims, 517 reported quantities and 166 explicit-null markers**. The two new pages are related operator accounts, not independent replications.
+
+All **367 manifest hashes** and **933 relative Markdown links** verify. See the [sole-writer review](reviews/utility_operator_service_review.md).
+
+## Previous decision checkpoint: paid crews and actual awards, edition 0.41
 
 The joined crew/entry/renewal execution advances bounded DE-03/05/06/08/09/10. Whole-service costs, actual staffing and broad resource composition remain partial; the same campaign deadline is **2026-11-14T20:12:27Z**.
 
