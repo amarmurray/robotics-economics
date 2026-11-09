@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.44, qualified support and binding staffing checkpoint, 9 November 2026. Annual provider resources and typed parts now gate the same paid crews, company entry and actual customer awards. Forward coverage can fail after a successful month triggers binding notice; retained staffing and a digital-improved human alternative remain. Fourteen families contain 250 bounded worlds. Empirical economics and broader composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.45, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -179,6 +179,10 @@ Edition 0.41 joins paid crew commitments to actual awards and retained work. A s
 ### The staffing decision needs forward qualified coverage
 
 Edition 0.44 joins dated provider resources and qualified parts to paid crews and actual customer awards in one execution. [The mechanism challenge](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) shows that a successful month can trigger a later binding cut which outlives robot support. Keeping staff can then deliver more service at lower all-payer resource cash than the apparent staffing saving. A competent digital-improved human-only alternative remains cheaper in the matched synthetic window. The strategic gate is a dated whole-service and payer plan across the notice horizon; neither prior success nor purchased hardware alone supplies it. Actual target rosters, support rights, parts timing, all-payer cost and changed operating decisions remain empirical requirements.
+
+### Fund the party that must deliver
+
+Edition 0.45 joins intelligence roles to actual awards and paid crews. [The equal-capital comparison](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total modeled cash fixed while moving funds from the outsourced operator to the customer. Delivery then fails with and without robots: the causal constraint is the contract and working-capital location. An acquisition does not automatically move separately owned operator assets or staff. The decision must identify the employer, asset owner, support payer, current funds and payment timing; aggregate cash or fees cannot substitute for that map. Strong funded human service remains the reference, and real target economics remain unmeasured.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -432,6 +436,10 @@ The [joined staffing/renewal cases](research/shared_workforce.md#paid-crews-and-
 #### Forward staffing and service coverage, edition 0.44
 
 All three packs now require a dated qualified-service plan through any staffing notice or contract commitment. The [joined support/parts/crew execution](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) exposes a reversal: retaining a paid crew can preserve complete service at lower all-payer resource cash than cutting staff and then paying for customer switching. Each of the six existing cells retains its own service, qualification and payer boundaries. No cleaning coefficient or synthetic support rate transfers to hospital, automotive, utility, warehouse or construction work. Current site rosters, qualified capacity, replacement timing, support rights and executed fallback terms remain decision dependencies.
+
+#### Actual operating payer and forward funding, edition 0.45
+
+Each pack now separates customer-contract ownership from the service operator, employer and hardware owner. [The joined role/award model](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total capital fixed and shows that its legal location can prevent work even on the human-only path. Obtain dated funding and fee obligations for the actual responsible party, plus complete qualified service and retained work. Hospital, utility, automotive, warehouse, cleaning and construction retain their own accepted-service units and rights; the numerical role allocations and rates do not transfer.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1484,6 +1492,38 @@ The three decision packs carry this forward-coverage gate without transferring c
 
 The source access limits from edition 0.43 remain closed. No new public-source claim or numerical calibration was introduced. Current operator accepted-service/maintenance decisions, actual paid work and all-payer costs remain missing; this integration resolves a model interface, not that empirical dependency.
 
+#### Intelligence roles, staffing payers and actual awards, edition 0.45
+
+[The architecture/award execution](model/results/architecture_awards.json) brings the four existing intelligence arrangements into the same entry, customer-award, qualified-resource and paid-crew history. Each complete case configures one target service business and a separate human-led rival. The target's customer company, physical service operator, OEM, model supplier and integrator have explicit roles; roles may share a legal account only where the selected arrangement says so. This is one physical loop and Treasury, not a sum of the earlier architecture and competition results. The default hybrid keeps separate declared operating-company offers after common ownership; it is not independent competition or optimized group pricing.
+
+##### The employer, asset owner and customer-contract owner can differ
+
+In the model-led operator arrangement the customer company retains its end-market contracts, service receipts and ultimate-equity register. The separately contracted model operator employs the target's paid crew, pays its staffing, overtime, site/software and operating costs, and buys and owns its robot. The operator also occupies the model-supplier/integrator roles. Acquiring the customer company does not acquire that separate operator's robot, pool its cash or transfer its staff. The rival funds its own qualified human crew. Customer-contract cash rows and service-operator cash therefore refer to different legal accounts.
+
+The target service contract pays a declared amount per accepted cleaning zone after delivery and includes the retained inventory duties. No separate inventory fee is assumed. Same-entity fees are eliminated; external model, integration and operator prices remain transfers within the modeled production boundary. Their actual payment can matter for liquidity without becoming another resource expense. All-payer resource/transaction cash independently equals the modeled outside resource suppliers' receipts, including the architecture resource supplier once. The customer company's paid labor and an outsourced operator's paid labor must not be confused with one another or with released task time.
+
+##### Equal capital can leave service unfunded
+
+All nine displayed worlds have **$600,000 of declared logical-role opening capital**, and the same total cash across all modeled accounts. With $200,000 at the customer company, $200,000 at the integrated model operator and $200,000 at the hardware OEM, the model-operator case completes **4,000 cleaning zones and 160 inventory jobs**. It has six supported robot-months and eight complete service months.
+
+Move the operator's $200,000 to the customer while keeping total capital unchanged. The operator cannot pay its initial mandatory crew and site obligations. Future service fees cannot fund earlier work that has not occurred, and an acquisition of the customer company creates no automatic operator funding transfer. The human rival completes **2,400 of 4,000 zones**, but all **160 inventory jobs remain undone**. The operator ends with **$40,400 of due unpaid obligations**, while the customer still holds its $400,000. The OEM has paid **$36,000** to manufacture a unit which remains its unsold asset. Cash availability in the production system is not cash availability at the party responsible for delivery.
+
+The matched no-robot version fails in exactly the same way: 2,400 zones, zero inventory jobs and $40,400 of unpaid operator obligations. Its resource outlay is $36,000 lower because no robot is manufactured. That paired result identifies a funding/contract failure rather than a robot-capability effect. Lower cash spending alongside missing service and unpaid bills is not a valid saving.
+
+When properly funded, both the licensed human-only and outsourced-operator human-only comparisons complete the identical work for **$87,300** of all-payer resource/transaction cash. The four fully funded robot arrangements complete the work for **$151,097.74** (integrated OEM), **$148,847.72** (licensed independent), **$170,197.72** (open adapted) and **$149,002.76** (model-led operator). These figures reflect catalog assumptions, paid manufacture, adaptation/qualification conventions, retained staffing, actual awards and ending assets/claims. They do not rank real architectures, estimate lab economics or establish lifecycle ROI.
+
+##### Qualified work and fees are different constraints
+
+The open-adapted target requires 300 engineering hours for its declared first admission. A 299-hour monthly budget prevents qualified robot service throughout this window, despite paid manufacture and purchase. Its retained human crew still supplies all 4,000 zones and 160 inventory jobs; no staffing cut is triggered. The window resource cash is $123,400, including the unused robot's manufacture and shipping. A targeted exact-boundary check at 300 hours admits the unit. This is a synthetic capacity gate, not observed model-development labor, a physical experiment or a learning curve.
+
+A separate matched check doubles the funded model-operator service fee while preserving actual awards, accepted work and resource cash. Customer and operator cash balances change; the fee is not added again as resource consumption. This invariance is conditional on the tested funding remaining sufficient. Prices can still change feasibility when a payer constraint binds. Annual support refusals also roll back contingent architecture fees and preserve replacement stock; qualified parts, engineering, provider support and site crews do not become interchangeable capacity pools.
+
+##### What this closes and what remains
+
+The integration makes substantial H/K role economics affect real paid work and awards, with I/J supply/qualification and F/G company/asset boundaries retained. The three service-specific decision packs and six cell reviews require the actual employer, hardware owner, contracting customer, support/qualification payer, fee timing, retained duties and a competent human alternative. None imports the cleaning fixture's prices, work rates or architecture ranking.
+
+One architectural target and a human-led rival are implemented. Two architectural fleets with separate profile mappings, shared adaptation/data rights, costed unsuccessful model-development trials, endogenous learning and asset recovery still require compatible contracts. The current architecture convention charges initial model work at the first successful admission; it does not measure or reconstruct earlier failed R&D. Actual operator quotes, rosters, accepted-service ledgers, rights, provider margins and all-payer lifecycle costs remain unknown. The fixed share price is a scenario term, not comparable company valuation across differently funded or outsourced organizations. No new primary-source claim or empirical coefficient was added, and closed source routes were not retried.
+
 #### Reproduced shared-workforce executions
 
 | Shared-worker world | Complete months / 8 | Cleaning zones | Inventory jobs / required | Staff USD | Extra capacity USD | External resource cash USD |
@@ -1943,6 +1983,22 @@ Generated from [staffed_renewals.json](model/results/staffed_renewals.json). Sep
 | equal_robot_access_shared_support | 7 | 3,950.00 | 160 / 160 | 8 | 42,000.00 | 0.00 | 175,680.32 |
 
 Generated from [qualified_staffing.json](model/results/qualified_staffing.json). Support engineers, integration and legal-operator site crews are distinct resources. Prior service can trigger binding notice without guaranteeing forward qualified supply. Terminal assets and claims remain; no empirical payroll effect or lifecycle ROI is inferred.
+
+#### Reproduced intelligence-role funding and award executions
+
+| Intelligence-role/award world | Whole service /8 | Accepted zones | Inventory done / due | Role opening capital USD | Operator due unpaid USD | All-payer resources USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| integrated_oem | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 151,097.74 |
+| licensed_independent | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 148,847.72 |
+| open_adapted | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 170,197.72 |
+| model_led_operator | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 149,002.76 |
+| licensed_human_only | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 87,300.00 |
+| model_operator_human_only | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 87,300.00 |
+| model_capital_in_customer | 0 | 2,400.00 | 0 / 160 | 600,000.00 | 40,400.00 | 84,800.00 |
+| model_capital_in_customer_human_only | 0 | 2,400.00 | 0 / 160 | 600,000.00 | 40,400.00 | 48,800.00 |
+| open_one_engineering_hour_short | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 123,400.00 |
+
+Generated from [architecture_awards.json](model/results/architecture_awards.json). The actual staffing payer and hardware owner can be separate from the customer company. Fees redistribute cash; resources are counted once. Missing service, unpaid bills and retained assets preclude a savings, valuation or lifecycle-return claim.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 
@@ -3968,6 +4024,10 @@ DE-CF08 now has a bounded funded-architecture implementation; DE-CF10 gains the 
 #### Dated resource and part composition, edition 0.33
 
 [The combined extension](research/architecture_resources.md) retains these architecture role accounts and contingent payments while adding the shared annual support/integration admission contract and compatible inventory. The original four unreserved executions preserve their actual outcomes. Thirteen complete worlds include a common integration reservation, less adaptation work, absent model cash, delayed qualified supply and a fixed-staff human alternative. Distinct engineering, demonstrations, support and integration resources remain separate; neither internal transfers nor a lower upstream work requirement guarantees the full-fleet date. Original limitations concerning actual rights, prices and service costs remain.
+
+#### Intelligence roles inside actual customer awards, edition 0.45
+
+The [joined architecture/award execution](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) now places the four existing arrangements in the actual entry, paid-crew, annual-resource and qualified-part history. Each case has one architectural target and a human-led rival. It preserves the old single-business fixture and every earlier numerical result. A separately employed crew and owned robot do not move with customer-company equity; equal total capital can leave the service operator unable to perform even without robots. Fees redistribute cash and affect liquidity while resource expenditure stays separately reconciled. No measured architecture ranking or automatic customer payroll saving follows.
 
 #### Reproduced funded architecture worlds
 

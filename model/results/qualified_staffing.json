@@ -34103,9 +34103,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -35341,7 +35341,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "44558948eb7ba474ee2e13152948640a2a8f0329a99d52e893e9b54eb29113a7"
+      "case_hash": "cafc0628770b93f1861d1b03fc369021bfbf0b5690f78c6152520a034c03ce6a"
     },
     "exact_support_through_december": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -69242,9 +69242,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -70480,7 +70480,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "51c8a9ddd6c09693210ae0ee7051d2bb76bec86b65a2ab5f666420a3884ce3f0"
+      "case_hash": "34eb607021bf969d42816f8c4703bf710963c0697943fae1311798724fb3e21a"
     },
     "one_minute_short_after_notice": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -104572,9 +104572,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -105808,7 +105808,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "70d99d4c3accf3dcc082d5682a3ed0834c5a3f3f52c364b4ceca50a9811e4555"
+      "case_hash": "00987cd8bba21867cc25d4d19d874aa72d329b2e2990babea7f92e437522d6d6"
     },
     "retain_staff_through_support_gap": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -139279,9 +139279,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -140515,7 +140515,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "083224b8cc1bd089346959902f8f73f2b0b3ebb722d244424ef1a1557c559795"
+      "case_hash": "c2cc52b419913114eed504acba15fadac02717e6f485cd9b2b00dd70fd8c999d"
     },
     "prepaid_fallback_through_support_gap": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -174505,9 +174505,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -175741,7 +175741,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "65cef1569d327d1e72a55336309c0c76e033c660e946f6f9ad73245913187ad2"
+      "case_hash": "309c59aa6cb071b0cec836d7e6eb4d57fb8622026bc282ef3a5a72b423bdf909"
     },
     "replacement_qualified_in_january": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -209751,9 +209751,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -210983,7 +210983,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "bb75934e4ded94bc62a57e1f0856b405fd65c3ff592e68c206aac196011ccd5d"
+      "case_hash": "8ead8a7f9a9871c431e82a649aff28b3ff6b328dba6fb2c0c7990febde32ad5f"
     },
     "unqualified_board_no_notice": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -242395,9 +242395,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -243342,7 +243342,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "f830aeab98ee165bf9c9191f37af4faa2da9943673ba9bac930c8d8de5c7d60b"
+      "case_hash": "179d980bd9d9b4efae38e328abab696da4a656ae86b397fc43d4cdddca9b2ad0"
     },
     "human_only_same_service": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -274592,9 +274592,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -275417,7 +275417,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "0afb7ed172b1d0131de42052e304c0652d7f925f6997d3c92d1d583ed3397308"
+      "case_hash": "3be3195f1aaab06d582e47685724f1bb8b84530ec603769e94ca21dd9339dd5b"
     },
     "equal_robot_access_shared_support": {
       "schema_version": "qualified-staffing-window/0.1",
@@ -311477,9 +311477,9 @@
         "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
         "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
         "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-        "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+        "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
         "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-        "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+        "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
         "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
         "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
       },
@@ -312995,7 +312995,7 @@
           "Annual reservations carry no invented expense; outside inventory service and its payer are executed separately on the site crew. Do not sum these resource pools or service units."
         ]
       },
-      "case_hash": "7f4e63508bfc63f4819ce780937edd4d0ee5dc2f5e40e9854cb6166027fe5c31"
+      "case_hash": "a5d7378c7a750bfa6a1f5fb0a2252bb20870a4451979baffceada4210e08150e"
     }
   },
   "summary": [
@@ -313030,7 +313030,7 @@
       "all_payer_resource_and_transaction_cash_cents": 12719774,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "44558948eb7ba474ee2e13152948640a2a8f0329a99d52e893e9b54eb29113a7",
+      "case_hash": "cafc0628770b93f1861d1b03fc369021bfbf0b5690f78c6152520a034c03ce6a",
       "supported_robot_months": 6,
       "annual_blocked_bookings": 0,
       "completed_replacements": 1,
@@ -313077,7 +313077,7 @@
       "all_payer_resource_and_transaction_cash_cents": 12719774,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "51c8a9ddd6c09693210ae0ee7051d2bb76bec86b65a2ab5f666420a3884ce3f0",
+      "case_hash": "34eb607021bf969d42816f8c4703bf710963c0697943fae1311798724fb3e21a",
       "supported_robot_months": 6,
       "annual_blocked_bookings": 0,
       "completed_replacements": 1,
@@ -313124,7 +313124,7 @@
       "all_payer_resource_and_transaction_cash_cents": 13285645,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "70d99d4c3accf3dcc082d5682a3ed0834c5a3f3f52c364b4ceca50a9811e4555",
+      "case_hash": "00987cd8bba21867cc25d4d19d874aa72d329b2e2990babea7f92e437522d6d6",
       "supported_robot_months": 5,
       "annual_blocked_bookings": 1,
       "completed_replacements": 1,
@@ -313171,7 +313171,7 @@
       "all_payer_resource_and_transaction_cash_cents": 13180645,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "083224b8cc1bd089346959902f8f73f2b0b3ebb722d244424ef1a1557c559795",
+      "case_hash": "c2cc52b419913114eed504acba15fadac02717e6f485cd9b2b00dd70fd8c999d",
       "supported_robot_months": 5,
       "annual_blocked_bookings": 1,
       "completed_replacements": 1,
@@ -313218,7 +313218,7 @@
       "all_payer_resource_and_transaction_cash_cents": 14080645,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "65cef1569d327d1e72a55336309c0c76e033c660e946f6f9ad73245913187ad2",
+      "case_hash": "309c59aa6cb071b0cec836d7e6eb4d57fb8622026bc282ef3a5a72b423bdf909",
       "supported_robot_months": 5,
       "annual_blocked_bookings": 1,
       "completed_replacements": 1,
@@ -313265,7 +313265,7 @@
       "all_payer_resource_and_transaction_cash_cents": 13112387,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "bb75934e4ded94bc62a57e1f0856b405fd65c3ff592e68c206aac196011ccd5d",
+      "case_hash": "8ead8a7f9a9871c431e82a649aff28b3ff6b328dba6fb2c0c7990febde32ad5f",
       "supported_robot_months": 3,
       "annual_blocked_bookings": 0,
       "completed_replacements": 1,
@@ -313312,7 +313312,7 @@
       "all_payer_resource_and_transaction_cash_cents": 8730000,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "f830aeab98ee165bf9c9191f37af4faa2da9943673ba9bac930c8d8de5c7d60b",
+      "case_hash": "179d980bd9d9b4efae38e328abab696da4a656ae86b397fc43d4cdddca9b2ad0",
       "supported_robot_months": 0,
       "annual_blocked_bookings": 0,
       "completed_replacements": 0,
@@ -313359,7 +313359,7 @@
       "all_payer_resource_and_transaction_cash_cents": 8730000,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "0afb7ed172b1d0131de42052e304c0652d7f925f6997d3c92d1d583ed3397308",
+      "case_hash": "3be3195f1aaab06d582e47685724f1bb8b84530ec603769e94ca21dd9339dd5b",
       "supported_robot_months": 0,
       "annual_blocked_bookings": 0,
       "completed_replacements": 0,
@@ -313406,7 +313406,7 @@
       "all_payer_resource_and_transaction_cash_cents": 17568032,
       "included_in_existing_consolidation": true,
       "add_again": false,
-      "case_hash": "7f4e63508bfc63f4819ce780937edd4d0ee5dc2f5e40e9854cb6166027fe5c31",
+      "case_hash": "a5d7378c7a750bfa6a1f5fb0a2252bb20870a4451979baffceada4210e08150e",
       "supported_robot_months": 8,
       "annual_blocked_bookings": 4,
       "completed_replacements": 2,
@@ -313437,9 +313437,9 @@
     "model/entry_transitions.py": "4544d4daac7a3546f69d8eb7c74e3da54329c688810110a72ecbd4293a41bb44",
     "model/renewing_entry.py": "018c3c34a4ef3a0f0162157d391a8a4b501c7054d53b0a732177e42c6f720d6c",
     "model/monthly_architectures.py": "5cbdbfdc8d44047175734a1f0826c75545348fe0f129e69629bfa1c9b04df5ca",
-    "model/staffed_renewals.py": "f9c7816af8adf887bf232684b3ab3ed48048673d4022ef402b2719e6e9d08f15",
+    "model/staffed_renewals.py": "8c7512a2abf23efc235a5533a86b33e33a04b84db934f4d4cab245a7794173fb",
     "model/shared_workforce.py": "e9e4ab9a209b602a983dfd0a00fe6808cc4ae8870d46f5441517913c3b033e13",
-    "model/qualified_staffing.py": "107281e51a3f73fd0728291c8563bdd99982e6c7d164ea21704c42d68cfcb88e",
+    "model/qualified_staffing.py": "9717fd7d2ceb2eaecf7ce0fc70c105259435d39acba4a31d655a2b2010e24835",
     "model/annual_resource_ledger.py": "33dc0dc506a90ffe66ebd4581ba1e55e792e99a8fa395cb7bd643ffedef6beef",
     "model/component_inventory.py": "6f2d83e69b9bde83f586296b68913b91036782006a0c4ef1125d48b6806cc87e"
   },

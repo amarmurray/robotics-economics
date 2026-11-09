@@ -40,6 +40,11 @@ def run_qualified_staffing(plan, treasury, contracts, enterprise, finance, bridg
         raise ValueError('Qualified parts must match the declared annual and physical system')
     materials=ComponentInventory(components)
     execution=run_monthly(plan,treasury,commercial=policy,materials=materials)
+    return qualified_staffing_result(execution,policy,materials)
+
+
+def qualified_staffing_result(execution,policy,materials):
+    """Format the already completed shared execution without creating another run."""
     r=staffed_renewals_result(execution,policy)
     r.update(schema_version='qualified-staffing-window/0.1',scope='synthetic_qualified_parts_annual_support_paid_crews_entry_and_renewal')
     r.pop('case_hash')

@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: qualified support and binding staffing, edition 0.44
+## New decision campaign: intelligence roles, funded crews and awards, edition 0.45
+
+The actual employer, asset title, role capital and service fees now share a compatible qualified-resource/crew/customer execution. Equal-capital and no-robot comparisons separate liquidity from capability. This deepens DE-03/04/05/06/07/08/09/10 without promoting any empirical requirement. The same November 14 deadline and successive useful checkpoint instruction continue.
+
+Fresh cloud validation passes **575 Python tests** in 528.232s, including 14 new integration tests, **36 Node assertions**, **20 JavaScript syntax checks** and **55 prescribed reproduction commands**. Frontier, staffed-renewal, qualified-staffing and architecture-award exact exports match. All **13 dashboard views**, nine new worlds, five prior crew/qualified worlds, three execution families, three decision-pack gates and six cell scopes pass. Exact engineering-hour qualification, equal-capital relocation, full-input replay ignoring forged ledgers, pending/invalid/stale protection, shared view/scenario independence, scenario export/reload and six invalid API requests pass. Existing utility panels and source bytes are preserved. Role-account and complete-comparison screenshots were visually reviewed. No JavaScript or unexpected API errors were observed.
+
+All **1,872,959 prior typed numeric fields across 40 JSON artifacts** and all non-fingerprint meanings are preserved. **27 artifacts are byte-identical**; **13** contain only exact source/evidence fingerprints and dependent identities. Default-preserving crew-payer/resource hooks and the extracted qualified-staffing completed-result formatter leave previous cash, title, service, crew and award results unchanged. All other previous model code, numerical assumptions, source claims, operator audits and labor rows remain unchanged. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain. Fourteen bounded challenge families now contain **259 worlds**. The unchanged evidence registry contains **13 packages, 227 claims, 536 reported quantities and 174 explicit-null markers**; no new source or empirical coefficient is added.
+
+All **378 manifest hashes** and **974 relative Markdown links** verify. See the [sole-writer review](reviews/architecture_awards_review.md).
+
+## Previous decision checkpoint: qualified support and binding staffing, edition 0.44
 
 A compatible physical/cash/parts/provider/crew execution deepens DE-03/05/06/07/08/09/10. Forward coverage, actual service and every payer remain explicit; no empirical requirement is promoted. The same November14 deadline and successive useful checkpoint instruction continue.
 

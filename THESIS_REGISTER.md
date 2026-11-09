@@ -1,5 +1,9 @@
 # Initial deployment thesis register
 
+## Delivery depends on the funded legal payer, edition 0.45
+
+**Hypothesis sharpened:** equal capital across a production system does not guarantee that the party owing current work can pay for it. The [role/award comparison](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) fails identically with and without robots when operator funds sit in the customer account. Identify the actual employer, owned assets, payment timing and usable rights before attributing service or payroll effects to an intelligence architecture. Fees are transfers whose liquidity effect can matter; actual costs and target outcomes remain unknown.
+
 ## Forward service before paid staffing reduction, edition 0.44
 
 **Hypothesis sharpened:** a prior successful operating month is insufficient to justify a binding paid-staff reduction. A [joined synthetic execution](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) shows forward support/parts shortages changing actual customer awards and making retained staffing cheaper in resource cash than the cut-and-shortfall policy. Test dated entitlements, qualifications, retained duties, fallback and every payer through the notice horizon. The actual magnitude and prevalence remain unknown; the digital-improved human-only alternative must remain in the decision.

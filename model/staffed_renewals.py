@@ -27,6 +27,13 @@ def outside_buyer(op): return 'crew-outside-buyer-' + op
 
 
 class _StaffedRenewals(_RenewingEntry):
+    def crew_payer(self,operator_id):
+        return self.business[operator_id].actor_id
+
+    def resource_vendors(self):
+        return {self.plan.manufacturing_vendor_actor,self.plan.deployment_vendor_actor,
+            self.enterprise.enterprise_vendor_actor,self.bridge.digital_vendor_actor,'entry_resource_vendor'}
+
     def __init__(self, plan, contracts, treasury, enterprise, finance, bridge, competition, transition, crews):
         super().__init__(plan, contracts, treasury, enterprise, finance, bridge, competition, transition)
         if set(crews) != set(self.business) or len({w.resource_id for w in crews.values()}) != len(crews):
@@ -64,7 +71,7 @@ class _StaffedRenewals(_RenewingEntry):
         for op,w in self.crews.items():
             if w.overtime_minutes_per_month:
                 iid=self._id('crew',op,month,'prospective-overtime')
-                t=self.issue_enterprise(t,iid,self.business[op].actor_id,self.enterprise.enterprise_vendor_actor,
+                t=self.issue_enterprise(t,iid,self.crew_payer(op),self.enterprise.enterprise_vendor_actor,
                     w.overtime_minutes_per_month*w.overtime_cents_per_minute,Moment(month,1),Moment(month,5),'prospective_crew_overtime',True)
                 self.enterprise_cost_ids.add(iid);self.overtime_quotes[op]=iid
         return t
@@ -123,7 +130,7 @@ class _StaffedRenewals(_RenewingEntry):
             needed=attention+w.outside_jobs_by_month[month]*w.outside_minutes_per_job+robot*w.robot_handling_minutes_per_zone+(demand-robot)*human_minutes
             regular=self.blocks[op]*w.minutes_per_block if ready else 0
             requested=w.overtime_minutes_per_month if ready and needed>regular else 0
-            iid=self.overtime_quotes.get(op);paid=0;reason='';cash_before=t.available(b.actor_id)
+            iid=self.overtime_quotes.get(op);paid=0;reason='';cash_before=t.available(self.crew_payer(op))
             if requested:
                 candidate=t.settle_invoice(iid+':pay',iid,Moment(month,5),provenance=self.provenance)
                 if candidate.invoice(iid).outstanding_cents:
@@ -137,7 +144,7 @@ class _StaffedRenewals(_RenewingEntry):
                 notice_issued_month=self.notices[op],notice_effective_month=self.effective[op],
                 offer_ceiling_zones=demand,offer_complete_minimum_minutes=_rational(needed),
                 funded_capacity_before_awards=prospect['accepted_cleaning_zones'],outside_jobs_reserved_before_awards=prospect['outside_completed_jobs'],
-                cash_before_overtime_cents=cash_before,cash_after_overtime_before_awards_cents=t.available(b.actor_id),
+                cash_before_overtime_cents=cash_before,cash_after_overtime_before_awards_cents=t.available(self.crew_payer(op)),
                 overtime_requested_minutes=requested,overtime_paid_minutes=paid,overtime_invoice_id=iid,overtime_block_reason=reason)
         t=super().finish_shipping(t,month)
         for op,row in self.crew_current.items():
@@ -205,7 +212,7 @@ def staffed_renewals_result(r,policy):
         'Separate operating-company crews are added here; annual resources, typed parts, four architectures, asset recovery and endogenous learning remain separate.']
     rows=policy.crew_months;inv=r['closing_treasury']['invoices'];sales=[i for i in inv if i['invoice_id'] in policy.outside_sales]
     cash=r['entry_transition']['consolidation']['external_operating_and_transaction_cash_cents']+r['competition']['buyer_switch_resource_cash_cents']
-    vendors={plan.manufacturing_vendor_actor,plan.deployment_vendor_actor,enterprise.enterprise_vendor_actor,bridge.digital_vendor_actor,'entry_resource_vendor'}
+    vendors=policy.resource_vendors()
     assert cash==sum(i['paid_cents'] for i in inv if i['payee'] in vendors)
     r['staffed_renewals']=dict(schema_version='staffed-renewals-boundary/0.1',inputs={op:asdict(w) for op,w in crews.items()},months=rows,events=policy.crew_events,
         cash=dict(staff_commitments_cents=sum(x['staff_commitment_cents'] for x in rows),staff_paid_cents=sum(x['staff_cash_paid_cents'] for x in rows),
