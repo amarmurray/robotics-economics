@@ -3642,6 +3642,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     },
     {
@@ -3692,6 +3697,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     },
     {
@@ -3741,6 +3751,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service anchor is executed with separately due inventory jobs; all task rates, costs and review outcomes remain synthetic.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     },
     {
@@ -3796,6 +3811,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     },
     {
@@ -3845,6 +3865,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     },
     {
@@ -3901,6 +3926,11 @@
         "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
         "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+      },
+      "release_continuity_check": {
+        "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
       }
     }
   ],
@@ -4180,6 +4210,13 @@
         "status": "synthetic_paid_attempts_joined_to_existing_service_history",
         "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
+      },
+      "release_continuity_gate": {
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "artifact": "model/results/release_continuity.json",
+        "status": "synthetic_prospective_release_and_retained_entitlement",
+        "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
       }
     },
     {
@@ -4455,6 +4492,13 @@
         "status": "synthetic_paid_attempts_joined_to_existing_service_history",
         "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
+      },
+      "release_continuity_gate": {
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "artifact": "model/results/release_continuity.json",
+        "status": "synthetic_prospective_release_and_retained_entitlement",
+        "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
       }
     },
     {
@@ -4718,6 +4762,13 @@
         "status": "synthetic_paid_attempts_joined_to_existing_service_history",
         "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
         "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
+      },
+      "release_continuity_gate": {
+        "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "artifact": "model/results/release_continuity.json",
+        "status": "synthetic_prospective_release_and_retained_entitlement",
+        "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+        "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
       }
     }
   ],
@@ -4755,6 +4806,13 @@
       "status": "synthetic_paid_attempts_joined_to_existing_service_history",
       "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
       "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
+    },
+    "release_continuity_gate": {
+      "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+      "artifact": "model/results/release_continuity.json",
+      "status": "synthetic_prospective_release_and_retained_entitlement",
+      "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
+      "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
     }
   }
 }

@@ -162,3 +162,7 @@ Two linked evidence records, from the UKPN closeout and later operator accounts,
 ## Checkpoint 0.48: paid development before admission
 
 Six new complete executions extend the existing combined architecture/crew/award family, bringing the fourteen bounded families to 265 worlds. Paid failed reviews, rights, finite engineering, legal cash, later support and actual staffing-notice timing now coexist in one history. The first-pass case reproduces prior total service/cash; all previous numerical results remain. The mechanism is synthetic, not observed trial economics or a learning model. Same T0, deadline, one writer and incomplete empirical acceptance.
+
+## Checkpoint 0.49: reviewed release and continuing service
+
+Six new complete executions extend the existing combined architecture/crew/award family to 271 worlds across fourteen families. Paid release review, following-month eligibility, retained-version entitlement and separate operating rights now affect the same legal cash, paid staffing and actual market awards. Hardware possession does not supply support; completed assigned work does not establish complete market service. Prior results and the same campaign clock remain. Actual candidate quality, rights, costs and all-payer service economics are unknown; no acceptance status is promoted.

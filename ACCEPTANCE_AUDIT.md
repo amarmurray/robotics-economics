@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: paid development before admission, edition 0.48
+## New decision campaign: reviewed release and continuing service, edition 0.49
+
+Prospective paid review, retained support and operating rights now gate one complete service/payer history. Market-level unassigned work remains distinct from company-level completion; funded fallback is explicit. The synthetic interface promotes no empirical status. Same clock and sole writer.
+
+Fresh validation passes **14 release-continuity Python tests**, the production evidence registry, syntax checks for the two changed dashboard scripts, server/report compilation and the exact six-case export. A complete browser download replays identically in every JSON field through the CLI. All **13 dashboard views**, six new cases, four prior connected families, three decision-pack gates, six cell scopes and both Customer/Commercial displays pass. Browser checks exercise engineering, review outcomes, evidence versus operating rights, legacy expiry, the actual payer's one-cent funding boundary, old-family funding controls, pending/invalid/stale protection, full replay ignoring forged results, source/scenario independence and strict API input rejection. Screenshots were visually checked with no observed JavaScript or unexpected API errors. The unchanged full **575-test suite** remains edition 0.45 evidence and **36 Node helper assertions** remain edition 0.46 evidence; neither is presented as fresh.
+
+All **2,024,318 prior typed numeric fields across 42 JSON artifacts** and every non-fingerprint result field are preserved. **31 artifacts remain byte-identical**; **11** change only exact edited evidence fingerprints and dependent identities. Every earlier model file, numerical assumption, source record/audit and labor row remains unchanged. Six new cases extend the existing combined family, giving **14 bounded families /271 worlds**. Evidence remains **13 packages, 231 claims, 552 quantities and 192 explicit-null markers**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **392 manifest hashes** and **1023 relative Markdown links** verify. See the [sole-writer review](reviews/release_continuity_review.md).
+
+## Previous decision checkpoint: paid development before admission, edition 0.48
 
 Paid pre-admission work, declared qualification, actual support, paid crews and customer awards share one execution. A matched-history continuation comparison excludes sunk work and preserves different terminal assets. This is a bounded synthetic interface; no empirical requirement or status is promoted. Same campaign clock and sole writer.
 

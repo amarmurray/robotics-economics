@@ -164,3 +164,7 @@ The [UKPN closeout and subsequent operator accounts](quadruped_operator_followup
 ## Paid work before admission, edition 0.48
 
 The [paid-development execution](shared_workforce.md#paid-development-before-service-admission-edition-048) joins funded eligible review work to the actual paid-crew/award history. Completed failed work remains paid; success does not supply provider capacity. Six complete cases preserve a competent human alternative, legal-payer boundaries and the same service obligations. Outcomes and costs are synthetic assumptions, with no operator-source calibration, endogenous training or optimal stopping claim. The other work cells carry the measurement principle only.
+
+## Continuing service through a release decision, edition 0.49
+
+The [reviewed-release execution](shared_workforce.md#reviewed-releases-and-continuing-service-edition-049) separates paid evaluation, prospective eligibility, operating rights and the retained version's continuing support. A staff cut can leave unassigned market demand after support expires even when each company completes its awards. This synthetic M11 fixture supplies a decision gate for all cells, without transferring its prices, rates or outcomes. Require funded complete fallback through the transition; retain current empirical gaps and terminal asset obligations.
