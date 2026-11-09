@@ -88,7 +88,12 @@ def run_architecture_awards(plan,treasury,contracts,enterprise,finance,bridge,co
     if components.system_id!=plan.system.system_id or components.onboard_configuration!=policy.annual['onboard_configuration']:
         raise ValueError('Parts must match the selected physical configuration')
     materials=ComponentInventory(components)
-    r=qualified_staffing_result(run_monthly(plan,treasury,commercial=policy,materials=materials),policy,materials)
+    return architecture_awards_result(run_monthly(plan,treasury,commercial=policy,materials=materials),policy,materials)
+
+
+def architecture_awards_result(execution,policy,materials):
+    """Format one completed history; do not create another execution or Treasury."""
+    r=qualified_staffing_result(execution,policy,materials)
     r.pop('case_hash');r.update(schema_version='architecture-awards-window/0.1',scope='synthetic_one_architectural_business_human_competitor_paid_crews_entry_and_actual_awards')
     r['architecture_execution']=policy.architecture_result(r)
     a=r['architecture_execution'];a['contract'].update(active_service_businesses=2,architectural_service_businesses=1,

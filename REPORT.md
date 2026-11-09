@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.47, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.48, paid development before service admission checkpoint, 9 November 2026. Funded failed review work now remains in the same architecture, legal-payer, paid-crew and actual-award history. A declared pass does not supply later support or remove paid work. First-pass total service and cash preserve the preceding model. Fourteen families contain 265 bounded worlds. Empirical economics, true learning, changing configurations and asset-recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -193,6 +193,10 @@ The separate [AATIS closeout](research/quadruped_operator_followup.md#demonstrat
 ### Follow obligations across funding changes, edition 0.47
 
 The [UKPN closeout and subsequent operator accounts](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) show why research must follow the underlying work beyond a programme's status label. Contract risk allocation, finance, field capability and delivered value have different clocks. Continued internal funding does not establish economic success; closure of external funding does not establish technical failure. This applies to customer, provider and financier decisions without transferring the particular funding rules.
+
+### Paid work before admission, edition 0.48
+
+The [paid-development execution](research/shared_workforce.md#paid-development-before-service-admission-edition-048) joins funded eligible review work to the actual paid-crew/award history. Completed failed work remains paid; success does not supply provider capacity. Six complete cases preserve a competent human alternative, legal-payer boundaries and the same service obligations. Outcomes and costs are synthetic assumptions, with no operator-source calibration, endogenous training or optimal stopping claim. The other work cells carry the measurement principle only.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -458,6 +462,10 @@ Each pack now separates customer-contract ownership from the service operator, e
 #### Contract and payer identity through transition, edition 0.47
 
 [QOF-AUDIT-FUNDING-05](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) adds a funding-cohort challenge to all three packs. Preserve project and contract identity, actual employer/payer, liability and support obligations when financing, ownership or the programme changes. Neither a signed contract nor continued funding is accepted service, and a closed funding record is not necessarily abandonment. The historical tunnel time claim is not transferred to hospital, automotive or other-cell staffing.
+
+#### Paid work before admission, edition 0.48
+
+The [paid-development execution](research/shared_workforce.md#paid-development-before-service-admission-edition-048) joins funded eligible review work to the actual paid-crew/award history. Completed failed work remains paid; success does not supply provider capacity. Six complete cases preserve a competent human alternative, legal-payer boundaries and the same service obligations. Outcomes and costs are synthetic assumptions, with no operator-source calibration, endogenous training or optimal stopping claim. The other work cells carry the measurement principle only.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1542,6 +1550,22 @@ The integration makes substantial H/K role economics affect real paid work and a
 
 One architectural target and a human-led rival are implemented. Two architectural fleets with separate profile mappings, shared adaptation/data rights, costed unsuccessful model-development trials, endogenous learning and asset recovery still require compatible contracts. The current architecture convention charges initial model work at the first successful admission; it does not measure or reconstruct earlier failed R&D. Actual operator quotes, rosters, accepted-service ledgers, rights, provider margins and all-payer lifecycle costs remain unknown. The fixed share price is a scenario term, not comparable company valuation across differently funded or outsourced organizations. No new primary-source claim or empirical coefficient was added, and closed source routes were not retried.
 
+#### Paid development before service admission, edition 0.48
+
+The existing first-successful-admission convention omitted paid attempts that failed before a robot could serve. The new [paid-development contract](model/PAID_DEVELOPMENT.md) closes that bounded interface in the same architecture, paid-crew, qualified-parts, provider-resource and actual-award history. It charges eligible funded reviews when work occurs. A failed completed review remains paid; an unfunded or ineligible booking performs no work. The declared outcome gates admission without changing assumed capability or inventing a learning rate.
+
+The first-pass case preserves the preceding successful case's $148,847.72 all-payer resource/transaction cash, 4,000 accepted cleaning zones and 160 inventory jobs. Its review resources are $19,500, already included in that total. One paid failure followed by a declared pass consumes $34,000 of review resources and $164,323.10 of total resource/transaction cash. It defers effective staffing notice from month 5 to month 6 and pays $44,000 of regular staffing instead of $42,000. These are synthetic conditional results; the difference includes changed service timing and recurring payments, not simply a new fee added to an unchanged world.
+
+Stopping after the failed review retains $19,500 of paid work and a purchased robot awaiting commissioning. The human crews still complete the same service obligations, at $142,900 total resource/transaction cash. A matched human-only policy starts with no robot or development and completes those obligations at $87,300. This does not value the stranded hardware or claims, identify an optimal stopping rule, or establish a real robotics-versus-human cost ranking. The sunk payment belongs in historical cash; it does not make the next review necessary.
+
+The continue-versus-stop comparison verifies that the two policies share every realized physical and cash event through month 2, including the paid failure. From month 3 onward, continuing consumes an additional **$21,423.10** of external resource/transaction cash while reducing regular staffing payments by **$4,000**. Both policies complete the same remaining **2,500 cleaning zones and 100 inventory jobs**. The comparison excludes earlier spending and reports the difference by legal payer. It does not declare stopping optimal: one world ends with installed hardware and the other with hardware awaiting commissioning, and their future benefits and asset values remain unknown. The separate human-only case is not substituted for this same-history comparison.
+
+The support-delay case makes the new interface especially visible. A review passes and is paid in month 2, but the declared 2026 provider allocation cannot admit the robot. January capacity permits commissioning only in month 6. Review costs remain $19,500, supported robot-months fall to two, and the staffing notice would become effective in month 9, beyond this eight-month window. Buying a successful review therefore does not buy immediate service or paid-hours removal.
+
+Rights and payer identity remain hard gates. With evidence-use rights unavailable there is no review, no review charge and no qualification; an already manufactured asset may still be stranded under the fixed purchase plan. At the exact engineering threshold, 120 hours permits the licensed review while 119 permits no review. Moving funds to another legal party does not finance the responsible supplier's work. Same-entity fees are eliminated, paid resources counted once, and neither a share acquisition nor a declared pass supplies another party's rights or staff.
+
+The [AATIS and UKPN operator closeouts](research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) motivate the distinction between work, qualification, continuation and stopping. They do not supply these prices, hours, outcomes or policies. This fixture does not import automotive-kit learning rates, pool unrelated episodes, perform training or model detailed trial physics. A useful next empirical record would connect dated work packages and payer payments to actual qualification, accepted service and changed paid commitments. A future numerical composition needs an explicit compatible learning/version and qualified-alternative contract first.
+
 #### Reproduced shared-workforce executions
 
 | Shared-worker world | Complete months / 8 | Cleaning zones | Inventory jobs / required | Staff USD | Extra capacity USD | External resource cash USD |
@@ -2017,6 +2041,31 @@ Generated from [qualified_staffing.json](model/results/qualified_staffing.json).
 | open_one_engineering_hour_short | 8 | 4,000.00 | 160 / 160 | 600,000.00 | 0.00 | 123,400.00 |
 
 Generated from [architecture_awards.json](model/results/architecture_awards.json). The actual staffing payer and hardware owner can be separate from the customer company. Fees redistribute cash; resources are counted once. Missing service, unpaid bills and retained assets preclude a savings, valuation or lifecycle-return claim.
+
+#### Reproduced paid-development and service executions
+
+| Paid-development world | Whole service /8 | Completed / failed reviews | Review resources USD | Paid failed work USD | Regular staff USD | All-payer resources USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| pass_first_review | 8 | 1 / 0 | 19,500.00 | 0.00 | 42,000.00 | 148,847.72 |
+| fail_then_pass | 8 | 2 / 1 | 34,000.00 | 19,500.00 | 44,000.00 | 164,323.10 |
+| stop_after_paid_failure | 8 | 1 / 1 | 19,500.00 | 19,500.00 | 48,000.00 | 142,900.00 |
+| no_evidence_rights | 8 | 0 / 0 | 0.00 | 0.00 | 48,000.00 | 123,400.00 |
+| human_only_no_development | 8 | 0 / 0 | 0.00 | 0.00 | 48,000.00 | 87,300.00 |
+| paid_review_support_delayed | 8 | 1 / 0 | 19,500.00 | 0.00 | 48,000.00 | 150,199.24 |
+
+Generated from [paid_development.json](model/results/paid_development.json). Review resources are already included in total cash. Declared outcomes are synthetic; a paid failure remains historical cost, and a pass does not supply later support. The human-only policy retains the same obligations. Assets and terminal commitments preclude a lifecycle-return claim.
+
+#### Continue or stop after the same paid failure
+
+| Legal payer | Continue: future resource USD | Stop: future resource USD | Difference USD |
+| --- | ---: | ---: | ---: |
+| arch:integrator | 14,466.29 | 0.00 | 14,466.29 |
+| arch:model_supplier | 6,625.00 | 0.00 | 6,625.00 |
+| end_buyers | 50.00 | 0.00 | 50.00 |
+| entrant | 20,800.00 | 20,250.00 | 550.00 |
+| incumbent | 27,481.81 | 27,750.00 | -268.19 |
+
+Identical realized history through month 2; future resource cash increases by $21,423.10 under continuation. Both policies finish the same remaining 2,500 cleaning zones and 100 inventory jobs. Terminal hardware states and unvalued future benefits differ. Past spending and internal fees are excluded; this is not an optimal stopping or lifecycle-return verdict.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 

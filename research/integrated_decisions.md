@@ -160,3 +160,7 @@ The separate [AATIS closeout](quadruped_operator_followup.md#demonstration-appro
 ## Follow obligations across funding changes, edition 0.47
 
 The [UKPN closeout and subsequent operator accounts](quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) show why research must follow the underlying work beyond a programme's status label. Contract risk allocation, finance, field capability and delivered value have different clocks. Continued internal funding does not establish economic success; closure of external funding does not establish technical failure. This applies to customer, provider and financier decisions without transferring the particular funding rules.
+
+## Paid work before admission, edition 0.48
+
+The [paid-development execution](shared_workforce.md#paid-development-before-service-admission-edition-048) joins funded eligible review work to the actual paid-crew/award history. Completed failed work remains paid; success does not supply provider capacity. Six complete cases preserve a competent human alternative, legal-payer boundaries and the same service obligations. Outcomes and costs are synthetic assumptions, with no operator-source calibration, endogenous training or optimal stopping claim. The other work cells carry the measurement principle only.

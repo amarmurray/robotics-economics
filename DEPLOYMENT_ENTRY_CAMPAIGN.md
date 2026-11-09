@@ -158,3 +158,7 @@ The historical SP Distribution virtual-inspection and NGET AATIS closeouts add t
 ## Funding closure and continued work, edition 0.47
 
 Two linked evidence records, from the UKPN closeout and later operator accounts, add a contract/funding/operating-outcome audit. A change of funding cohort is neither abandonment nor demonstrated adoption economics. The six cells and three packs retain legal responsibility, actual payer cash, feasible alternatives and empirical unknowns. Fourteen families remain at 259 synthetic worlds; no coefficient or status promotion. Same T0, November 14 deadline and sole writer.
+
+## Checkpoint 0.48: paid development before admission
+
+Six new complete executions extend the existing combined architecture/crew/award family, bringing the fourteen bounded families to 265 worlds. Paid failed reviews, rights, finite engineering, legal cash, later support and actual staffing-notice timing now coexist in one history. The first-pass case reproduces prior total service/cash; all previous numerical results remain. The mechanism is synthetic, not observed trial economics or a learning model. Same T0, deadline, one writer and incomplete empirical acceptance.

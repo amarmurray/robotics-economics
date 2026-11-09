@@ -260,3 +260,7 @@ Each pack now separates customer-contract ownership from the service operator, e
 ## Contract and payer identity through transition, edition 0.47
 
 [QOF-AUDIT-FUNDING-05](quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) adds a funding-cohort challenge to all three packs. Preserve project and contract identity, actual employer/payer, liability and support obligations when financing, ownership or the programme changes. Neither a signed contract nor continued funding is accepted service, and a closed funding record is not necessarily abandonment. The historical tunnel time claim is not transferred to hospital, automotive or other-cell staffing.
+
+## Paid work before admission, edition 0.48
+
+The [paid-development execution](shared_workforce.md#paid-development-before-service-admission-edition-048) joins funded eligible review work to the actual paid-crew/award history. Completed failed work remains paid; success does not supply provider capacity. Six complete cases preserve a competent human alternative, legal-payer boundaries and the same service obligations. Outcomes and costs are synthetic assumptions, with no operator-source calibration, endogenous training or optimal stopping claim. The other work cells carry the measurement principle only.

@@ -1,5 +1,7 @@
 # Initial deployment thesis register
 
+**Edition 0.48:** paid failed development belongs in the historical resource account; a pass is a separate gate from supported service and removable paid work. The same service history now prices declared attempts without charging them again at admission. No operator-source calibration or optimal stopping claim.
+
 **Funding-continuity thesis, edition 0.47.** Follow the actual work and obligations across programme and ownership changes. A funding closeout can coexist with internal continuation, while neither continued funding nor a signed contract establishes accepted service or removable paid work.
 
 **Whole-service information thesis, edition 0.46.** More detected defects can justify better service or create necessary maintenance work without removing a field visit or a paid shift. Require timely accepted information, a changed disposition and every payer’s cost before valuing the result. The SP Distribution operator closeout is a bounded historical counterexample to treating image throughput as whole-service productivity. The distinct AATIS closeout also shows that prototype progress can coexist with a rational decision to stop as the outside option improves; no commercial replacement or realized return is established.

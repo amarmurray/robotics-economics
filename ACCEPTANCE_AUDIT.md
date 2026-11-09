@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: funding continuity and operating outcomes, edition 0.47
+## New decision campaign: paid development before admission, edition 0.48
+
+Paid pre-admission work, declared qualification, actual support, paid crews and customer awards share one execution. A matched-history continuation comparison excludes sunk work and preserves different terminal assets. This is a bounded synthetic interface; no empirical requirement or status is promoted. Same campaign clock and sole writer.
+
+Fresh validation passes **29 directly affected Python tests** (15 paid-development and 14 architecture/award tests), the production evidence registry, syntax checks for the two changed dashboard scripts, and exact exports for the six new and nine prior architecture cases. The complete browser export replays identically in every JSON field through the CLI. All **13 dashboard views**, six new cases, three prior connected families, three decision-pack gates, two display views, engineering/rights/funding controls, pending/invalid/stale protection, complete replay with forged derived fields, source/scenario independence and strict API input rejection pass. The saved continuation panel verifies the same realized history and keeps its reference inputs distinct from custom controls. Screenshots were visually checked; no JavaScript or unexpected API errors were observed. The unchanged full **575-test suite** belongs to edition 0.45, and the **36 Node helper assertions** to edition 0.46; neither is relabeled as fresh here.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **29 artifacts remain byte-identical**; **12** change only exact dependency fingerprints and dependent identities. The only changed existing model file extracts the architecture-result formatter; all nine prior architecture worlds retain their numerical behavior. Synthetic assumptions, prior source records/audits and labor rows remain unchanged. Six new complete cases extend the existing combined family, giving **14 bounded families /265 worlds**. The evidence registry remains **13 packages, 231 claims, 552 quantities and 192 explicit-null markers**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **386 manifest hashes** and **1011 relative Markdown links** verify. See the [sole-writer review](reviews/paid_development_review.md).
+
+## Previous decision checkpoint: funding continuity and operating outcomes, edition 0.47
 
 The UKPN funding closeout and related operator accounts refine the customer/provider/financier adoption decision. Funding-cohort closure, contract signature, continuing work and actual economics remain distinct. No empirical requirement is promoted and no model result is calibrated. Same campaign clock and sole writer.
 

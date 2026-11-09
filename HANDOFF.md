@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.47.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.48.
 
 ## Accepted direction
 
@@ -20,7 +20,27 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: funding continuity and operating outcomes, edition 0.47
+## Current checkpoint: paid development before admission, edition 0.48
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `4f32963a3be2aeb144362aed68da2dea4d2217a5` was clean and remote-verified. The preceding source tranche was preserved, published and its owned validation server stopped. This work uses the same connected cloud configuration and actual executable checkout. No goal/clock/model-setting change, new agent/task/schedule, spending, outreach or access expansion occurred. Quota remains unknown.
+
+The [paid-development execution](research/shared_workforce.md#paid-development-before-service-admission-edition-048) replaces first-successful-admission charging with explicit eligible funded work. Completed failed reviews retain their payments and hours; unperformed blocked bookings consume neither. Once-only setup/allocated development/upfront fees are separate from repeated demonstration/adaptation/validation. The same unit, legal accounts, provider pools, paid crews and actual customer awards execute throughout. A declared review outcome is a synthetic premise, not simulated trial physics, trained capability or measured operator acceptance.
+
+The first-pass case preserves $148,847.72 total resource/transaction cash and the same 4,000 accepted zones /160 inventory jobs. A paid failure followed by a pass costs $34,000 in review resources and shifts effective staffing notice one month later. A passed review can wait four months for next-year provider support while its $19,500 cost remains paid. Stopping retains the failed work and purchased hardware; the qualified human-only policy remains available as a separate opening choice.
+
+A paired decision comparison proves identical opening contracts and all realized physical/cash events through the paid failure. From month 3, continuing adds **$21,423.10** of resource/transaction cash and reduces regular staffing payments by **$4,000**; both policies complete the same remaining **2,500 zones and 100 inventory jobs**. Earlier spending and internal fees are excluded. Terminal hardware differs, so no optimal-stopping, current cost ranking or lifecycle-return verdict follows. The dashboard and report expose the difference by legal resource payer.
+
+Fresh validation passes **29 directly affected Python tests** (15 paid-development and 14 architecture/award tests), the production evidence registry, syntax checks for the two changed dashboard scripts, and exact exports for the six new and nine prior architecture cases. The complete browser export replays identically in every JSON field through the CLI. All **13 dashboard views**, six new cases, three prior connected families, three decision-pack gates, two display views, engineering/rights/funding controls, pending/invalid/stale protection, complete replay with forged derived fields, source/scenario independence and strict API input rejection pass. The saved continuation panel verifies the same realized history and keeps its reference inputs distinct from custom controls. Screenshots were visually checked; no JavaScript or unexpected API errors were observed. The unchanged full **575-test suite** belongs to edition 0.45, and the **36 Node helper assertions** to edition 0.46; neither is relabeled as fresh here.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **29 artifacts remain byte-identical**; **12** change only exact dependency fingerprints and dependent identities. The only changed existing model file extracts the architecture-result formatter; all nine prior architecture worlds retain their numerical behavior. Synthetic assumptions, prior source records/audits and labor rows remain unchanged. Six new complete cases extend the existing combined family, giving **14 bounded families /265 worlds**. The evidence registry remains **13 packages, 231 claims, 552 quantities and 192 explicit-null markers**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **386 manifest hashes** and **1011 relative Markdown links** verify. See the [work/accounting contract](model/PAID_DEVELOPMENT.md) and [sole-writer review](reviews/paid_development_review.md). Normal scoped private publication and observed commit identities are recorded in the ignored receipt after remote verification.
+
+**Remaining dependency / next action:** actual work-package payments, executable rights, qualification, accepted inspection, changed maintenance, paid commitments and current absolute costs by payer remain unavailable. Reviewed/request-based sources and National Gas 403, the closed National Grid Spot pages and all other restricted routes remain closed. The independent version/learning/qualified-alternative boundary still needs an explicit compatible configuration and evidence contract; the separate automotive learning rate cannot be imported. Continue useful bounded work in this existing task under the saved campaign clock; no scheduled hold is reinstated. No runtime or publication-permission blocker affected this tranche.
+
+**Next question:** after a paid failed attempt, what newly available qualified configuration or alternative changes the next decision, with the same service obligation, real rights and each payer's remaining costs?
+
+## Previous checkpoint: funding continuity and operating outcomes, edition 0.47
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `4bdd925ca10040c1b0d5c1f396d4bb6e9e5f0bd6` was clean and remote-verified after the preceding tranche. Saved edits were preserved through context resumption; actual shell execution and the unchanged cloud configuration were verified. No overlapping writer, native-goal change, new schedule/task/agent, spending or access change was introduced. Quota remains unknown.
 

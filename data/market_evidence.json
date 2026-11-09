@@ -3637,6 +3637,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     },
     {
@@ -3682,6 +3687,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     },
     {
@@ -3726,6 +3736,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service anchor is executed with separately due inventory jobs; all task rates, costs and review outcomes remain synthetic.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     },
     {
@@ -3776,6 +3791,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     },
     {
@@ -3820,6 +3840,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     },
     {
@@ -3871,6 +3896,11 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Do not classify funding closure as cancellation or a later narrative as proved economic retention. Trace the contract, payer and accepted whole service.",
         "numerical_transfer": false
+      },
+      "paid_development_check": {
+        "finding": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "scope": "The M11 cleaning-service fixture executes this boundary; this cell does not inherit its task rates, prices or declared review outcomes.",
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
       }
     }
   ],
@@ -4143,6 +4173,13 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Join project, contract, legal payer and funding cohort; preserve actual liability/support responsibilities and distinguish continued work from accepted service or paid-work removal.",
         "scope": "Historical UK utility evidence; obligation/identity principles only for other cells, no numerical or regulatory transfer."
+      },
+      "paid_development_gate": {
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+        "artifact": "model/results/paid_development.json",
+        "status": "synthetic_paid_attempts_joined_to_existing_service_history",
+        "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
       }
     },
     {
@@ -4411,6 +4448,13 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Join project, contract, legal payer and funding cohort; preserve actual liability/support responsibilities and distinguish continued work from accepted service or paid-work removal.",
         "scope": "Historical UK utility evidence; obligation/identity principles only for other cells, no numerical or regulatory transfer."
+      },
+      "paid_development_gate": {
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+        "artifact": "model/results/paid_development.json",
+        "status": "synthetic_paid_attempts_joined_to_existing_service_history",
+        "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
       }
     },
     {
@@ -4667,6 +4711,13 @@
         "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047",
         "requirement": "Join project, contract, legal payer and funding cohort; preserve actual liability/support responsibilities and distinguish continued work from accepted service or paid-work removal.",
         "scope": "Historical UK utility evidence; obligation/identity principles only for other cells, no numerical or regulatory transfer."
+      },
+      "paid_development_gate": {
+        "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+        "artifact": "model/results/paid_development.json",
+        "status": "synthetic_paid_attempts_joined_to_existing_service_history",
+        "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+        "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
       }
     }
   ],
@@ -4697,6 +4748,13 @@
     "qualified_staffing_gate": "Annual provider resources and typed parts now join actual entry/award and paid-crew execution. Binding staffing can outlive successful prior service; stronger retained-staff and human alternatives persist.",
     "architecture_awards_gate": "Intelligence-role funding, the actual crew payer and hardware title now share customer awards and entry in one execution. Equal total capital can fail to fund delivery at the responsible operator, also without robots.",
     "whole_inspection_gate": "New historical operator evidence distinguishes useful defect visibility, residual field/manual work and a projected whole-programme cost premium. Complete accepted service and actual maintenance decisions remain the denominator. A separate operator closeout shows prototype progress followed by termination when the commercial comparison changed; replacement adoption and realized savings are unproven.",
-    "funding_continuity_gate": "The UKPN closeout records a shift from NIA to internal funding after contract risk negotiations. Later related trial accounts retain potential benefit language; neither funding status nor continuation establishes measured economic adoption."
+    "funding_continuity_gate": "The UKPN closeout records a shift from NIA to internal funding after contract risk negotiations. Later related trial accounts retain potential benefit language; neither funding status nor continuation establishes measured economic adoption.",
+    "paid_development_gate": {
+      "analysis": "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+      "artifact": "model/results/paid_development.json",
+      "status": "synthetic_paid_attempts_joined_to_existing_service_history",
+      "principle": "Price completed failed work when it occurs; a declared pass does not fund later support or remove paid work. Keep actual rights, payers and qualified alternatives explicit.",
+      "calibration": "None; operator closeouts do not supply these prices, review outcomes or learning rates."
+    }
   }
 }
