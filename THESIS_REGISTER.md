@@ -1,5 +1,7 @@
 # Initial deployment thesis register
 
+**Whole-service information thesis, edition 0.46.** More detected defects can justify better service or create necessary maintenance work without removing a field visit or a paid shift. Require timely accepted information, a changed disposition and every payer’s cost before valuing the result. The SP Distribution operator closeout is a bounded historical counterexample to treating image throughput as whole-service productivity. The distinct AATIS closeout also shows that prototype progress can coexist with a rational decision to stop as the outside option improves; no commercial replacement or realized return is established.
+
 ## Delivery depends on the funded legal payer, edition 0.45
 
 **Hypothesis sharpened:** equal capital across a production system does not guarantee that the party owing current work can pay for it. The [role/award comparison](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) fails identically with and without robots when operator funds sit in the customer account. Identify the actual employer, owned assets, payment timing and usable rights before attributing service or payroll effects to an intelligence architecture. Fees are transfers whose liquidity effect can matter; actual costs and target outcomes remain unknown.

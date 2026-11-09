@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.45.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.46.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: intelligence roles, funded crews and actual awards, edition 0.45
+## Current checkpoint: whole-service and development closeouts, edition 0.46
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `a920c5b4ce481e76252aa0ddf8b2bef580a75b6b` was clean and remote-verified after the preceding tranche; owned validation processes had finished and no other writer was introduced. Actual execution continues in the same cloud configuration. No native goal, clock, model setting, schedule, task, agent, commercial authorization or access policy was changed. Quota remains unknown; no paid credit or reset was used.
+
+Two newly verified public operator closeouts sharpen the [utility decision](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046). SP Distribution found useful additional defect visibility but projected approximately **44% higher programme Opex** for historical like-for-like replacement. Residual physical checks and manual review remained. Its 93/243 and 160/162 counts imply 38.27% and 98.77%, while the source prints 35% and 98%; the listed reviewable cohorts total 207 against 208 reported reviews. These discrepancies remain unresolved. Neither the projection nor the additional findings establishes realized savings, current legal conditions, paid-hours removal or avoided failures.
+
+The distinct [AATIS closeout](research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) reports prototype progress and safety-case preparation, then a pause and termination after the operator judged commercial alternatives more capable. Preparation is not regulatory approval; recommendations for commercial trials are not purchased or retained deployment. Actual development expenditure, realized replacement benefits and executable reuse rights remain unavailable. The model's first-successful-admission development-cost convention remains an explicit limitation, not a measured R&D account.
+
+Fresh validation passes the **13-package evidence registry** with **229 claims, 551 reported quantities and 186 explicit-null markers**, **11 evidence-contract tests**, **36 Node assertions** and syntax checking for the changed dashboard script. The original two PDFs and four rendered source pages were checked; seven source-number strings and six AATIS date/status statements match the saved originals. Three affected exporters refresh 11 evidence fingerprints. All **13 dashboard views**, both new panels in four views, two source drilldowns, six cell scopes, three decision-pack gates, source search, year/scenario independence, scenario export/reload and an exact prior architecture case pass. Both panels were visually reviewed; no JavaScript or unexpected API errors were observed. The unchanged full **575-test model suite** passed at edition 0.45 and was not rerun or relabeled as fresh here.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **30 artifacts remain byte-identical**; **11** change only exact evidence fingerprints and dependent identities. All model code, synthetic assumptions, prior source records/audits and labor rows remain unchanged. There is no new synthetic world or empirical calibration. Fourteen bounded families remain at **259 worlds**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **379 manifest hashes** and **988 relative Markdown links** verify. See the [sole-writer review](reviews/whole_inspection_review.md). The normal scoped private publication is recorded in the ignored receipt after remote verification. The two original PDFs are retained as local operational source records with their SHA256 identities in accepted evidence; no public hosting or outreach occurred.
+
+**Remaining dependency / next action:** a linked due-object, acceptance, maintenance-disposition and paid-work record with current absolute costs by payer would close the core empirical gap. These reports do not provide it; request-based/proprietary details remain unavailable. National Gas 403, the closed National Grid Spot pages and all other restricted routes remain closed and were not retried. The AATIS record is a separate public project, not an alternate route to those denied documents. Continue only a useful new permitted operator closeout or a compatible decision-relevant integration; do not add scenario variants or repeat these searches for activity. No runtime or publication permission blocker affected this tranche.
+
+**Next question:** which accepted inspection changes a real maintenance decision and paid commitment, and what does the complete qualified service cost each responsible party?
+
+## Previous checkpoint: intelligence roles, funded crews and actual awards, edition 0.45
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Clean local and remote main matched input `4909ed0da784a85fa26a9616c92d39bd878e5bc9`. No overlapping productive writer was observed. Actual shell/model/browser commands executed in the same connected cloud configuration. Useful bounded tranches continue under the latest coordinator instruction; quota and native goal controls remain unexposed. No reset, paid credit, replacement task, schedule, agent, commercial action or continuous-execution claim.
 

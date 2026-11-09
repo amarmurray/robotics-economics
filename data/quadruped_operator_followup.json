@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "2026-11-09-v0.6",
-  "retrieved_at": "2026-11-09T03:09:03.400645+00:00",
+  "version": "operator-whole-inspection-closeout-0.46",
+  "retrieved_at": "2026-11-09T04:51:26.930599+00:00",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -948,6 +948,216 @@
         }
       ],
       "downloaded_archive_member": "Project GRAID Closedown Report.pdf"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E21",
+      "title": "Virtual OHL Inspections: SP Distribution closeout and whole-service boundary",
+      "url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=17671&legacyId=",
+      "landing_url": "https://smarter.energynetworks.org/projects/nia_spen_0063/",
+      "publisher": "SPEN – SP Distribution Plc; public report hosted by Energy Networks Association",
+      "publication_date": "2022-04",
+      "publication_date_type": "Printed submission month; portal download and PDF creation date are 2022-04-12",
+      "observation_period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance",
+      "retrieved_at": "2026-11-09T04:36:28.277705+00:00",
+      "source_class": "primary",
+      "epistemic_status": "operator_trial_closeout_with_counterfactual_cost_estimate",
+      "locator": "pp.2–5: performance, capture/review limitations and outcomes",
+      "artifact_version": "NIA_SPEN_0063 Close Down Report, April 2022",
+      "source_pdf_sha256": "91e99a2b6bb2ee082323764a9a766343bd303c2919690c53eb8898800928d755",
+      "access": "HTTP 200 through the public page’s ordinary selected-document download; pages 4–5 visually verified",
+      "claim": "The trial found useful additional defect visibility but did not support replacing the whole inspection process. Physical checks, field capture and manual review remained; some hazards were recognized weeks after capture. The stated programme cost uplift is a projection from trial findings.",
+      "limitations": "Historical operator report, not an experiment isolating AI accuracy or a current regulatory statement. No reconciled object/acceptance/maintenance ledger, current roster, paid-hours change, absolute cost series or every-payer account. Additional defects are not monetized benefits; future adoption of findings does not establish robot rollout.",
+      "quantities": [
+        {
+          "metric_id": "QOF-SPEN-LVHV-DUE",
+          "label": "LV/HV poles attempted",
+          "value": 243,
+          "unit": "poles",
+          "denominator": "Image-capture trial scope; not a paid-hours or accepted-service denominator",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-LVHV-CAPTURED",
+          "label": "LV/HV poles with images",
+          "value": 93,
+          "unit": "poles",
+          "denominator": "Reported numerator out of 243; source also prints 35%, which does not reconcile",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-LVHV-PERCENT",
+          "label": "Printed LV/HV capture percentage",
+          "value": 35,
+          "unit": "percent",
+          "denominator": "Preserve printed percentage separately; 93/243 is about 38.27%",
+          "locator": "p.4",
+          "measurement_status": "source_percentage_unreconciled",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-EHV-DUE",
+          "label": "EHV poles attempted",
+          "value": 162,
+          "unit": "poles",
+          "denominator": "Separate EHV capture scope; do not pool selection conditions",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-EHV-CAPTURED",
+          "label": "EHV poles with images",
+          "value": 160,
+          "unit": "poles",
+          "denominator": "Reported numerator out of 162",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-EHV-PERCENT",
+          "label": "Printed EHV capture percentage",
+          "value": 98,
+          "unit": "percent",
+          "denominator": "Source percentage; 160/162 is about 98.77%, rounding convention unspecified",
+          "locator": "p.4",
+          "measurement_status": "source_percentage_rounding_unresolved",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-LVHV-AVAILABLE",
+          "label": "LV/HV poles available for virtual review",
+          "value": 67,
+          "unit": "poles",
+          "denominator": "After GIS/image alignment issues; subset of the 93 captured poles",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-EHV-AVAILABLE",
+          "label": "EHV poles available for virtual review",
+          "value": 140,
+          "unit": "poles",
+          "denominator": "After GIS/image alignment issues; subset of the 160 captured poles",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-REVIEWED",
+          "label": "Reported desk inspections completed",
+          "value": 208,
+          "unit": "inspections",
+          "denominator": "Separate reported desk-review total; listed available cohorts sum to 207, linkage unresolved",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-REVIEW-DAYS",
+          "label": "Desk-review elapsed period",
+          "value": 6,
+          "unit": "days",
+          "denominator": "Review period, not observed paid person-hours",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-REVIEW-RATE",
+          "label": "Reported average desk throughput",
+          "value": 35,
+          "unit": "poles per day",
+          "denominator": "Rounded report average from 208 inspections over six days; excludes field capture and residual checks",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_rounded_trial_rate",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-ADDITIONAL-DEFECTS",
+          "label": "Defects judged likely missed from ground",
+          "value": 104,
+          "unit": "defects",
+          "denominator": "Operator counterfactual assessment; not confirmed unique hazards, AI-only true positives, repair jobs or avoided failures",
+          "locator": "p.4",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-INSPECTORS",
+          "label": "Desk inspectors in the trial",
+          "value": 1,
+          "unit": "inspectors",
+          "denominator": "One experienced inspector; field pilot staffing and hours unspecified",
+          "locator": "p.5",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-TRAINING",
+          "label": "Reported software training sessions",
+          "value": 2,
+          "unit": "sessions",
+          "denominator": "For the desk inspector; duration, wage cost and wider onboarding unknown",
+          "locator": "p.5",
+          "measurement_status": "operator_reported_trial_count",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        },
+        {
+          "metric_id": "QOF-SPEN-OPEX-UPLIFT",
+          "label": "Projected like-for-like programme Opex increase",
+          "value": 44,
+          "unit": "percent",
+          "denominator": "Approximate counterfactual from trial findings; no baseline cash amount, detailed cost ledger or realized operating uplift disclosed",
+          "locator": "p.5",
+          "measurement_status": "operator_counterfactual_programme_cost_estimate",
+          "population": "SP Distribution UK overhead-line pilot: LV/HV and EHV circuits; no transfer to US utility coefficients",
+          "period": "October 2021–January 2022 project; April 2022 closeout, not current law or product performance"
+        }
+      ],
+      "target_parameters_allowed": []
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E22",
+      "title": "AATIS closeout: prototype demonstration, incomplete rollout gates and termination",
+      "url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=48262&legacyId=",
+      "landing_url": "https://smarter.energynetworks.org/projects/nia2_nget0018/",
+      "publisher": "National Grid Electricity Transmission; public closeout hosted by Energy Networks Association",
+      "publication_date": "2025-07",
+      "publication_date_type": "Printed submission month; portal upload and PDF creation date 2025-07-21, with an earlier 2024 copyright notice retained in the report",
+      "observation_period": "Project start May 2022; July–November 2023 demonstrations; pause December 2023; termination described under 2024/2025; July 2025 closeout",
+      "retrieved_at": "2026-11-09T04:51:26.930599+00:00",
+      "source_class": "primary",
+      "epistemic_status": "operator_project_closeout_and_build_buy_judgment",
+      "locator": "p.3 progress, held deliverables and delays; pp.4–5 outcome, implementation, benefit and access boundaries",
+      "artifact_version": "NIA2_NGET0018 Close Down Report, July 2025",
+      "source_pdf_sha256": "430c93773eedfb890dccd6f544361d95809dac54cc14f51eb44cdab591b32724",
+      "access": "HTTP 200 through the public ENA page’s ordinary selected-document endpoint; pages 3 and 5 visually checked. Distinct project from the closed National Grid Spot pages and National Gas performance page.",
+      "claim": "A thermal-inspection prototype and safety-case preparation did not establish complete authorized service. Staff/access and other delays preceded a pause; later review stopped development after the operator judged available commercial systems more capable. Further commercial trials were recommended, not reported as completed deployment.",
+      "limitations": "The relative commercial judgment is the operator’s, not an independent benchmark. The report establishes neither CAA authorization nor a completed BVLOS rollout, paid labor removal, actual project expenditure or supplier cost. Its net-benefit statement is not applicable, not zero. Further proprietary details may require agreement or payment; none was sought.",
+      "quantities": [],
+      "target_parameters_allowed": []
     }
   ],
   "deployments": [
@@ -1482,6 +1692,99 @@
       },
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#specialist-inspection-and-the-wider-service-edition-042"
+    },
+    {
+      "audit_id": "QOF-AUDIT-SERVICE-03",
+      "title": "Better defect visibility can coexist with an uneconomic whole inspection replacement",
+      "status": "bounded_historical_operator_trial_and_denominator_audit",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E21"
+      ],
+      "summary": "Evaluate a complete timely inspection and maintenance decision. Added imagery can be useful while field obligations, review and costs remain.",
+      "source_boundary": "One 2021–22 UK distribution trial, one desk inspector and a projected programme comparison. Source statements about aviation and statutory requirements describe the trial period; no current legal conclusion or cross-embodiment calibration.",
+      "service_unit": "One due identified pole with every required check, reconciled unique findings, timely qualified review and a recorded disposition; an ensuing repair is a separate obligation.",
+      "funnel": [
+        {
+          "cohort": "LV/HV",
+          "due_metric": "QOF-SPEN-LVHV-DUE",
+          "captured_metric": "QOF-SPEN-LVHV-CAPTURED",
+          "available_metric": "QOF-SPEN-LVHV-AVAILABLE",
+          "printed_percent_metric": "QOF-SPEN-LVHV-PERCENT"
+        },
+        {
+          "cohort": "EHV",
+          "due_metric": "QOF-SPEN-EHV-DUE",
+          "captured_metric": "QOF-SPEN-EHV-CAPTURED",
+          "available_metric": "QOF-SPEN-EHV-AVAILABLE",
+          "printed_percent_metric": "QOF-SPEN-EHV-PERCENT"
+        }
+      ],
+      "reconciliation": {
+        "lvhv_capture_fraction": [
+          93,
+          243
+        ],
+        "ehv_capture_fraction": [
+          160,
+          162
+        ],
+        "available_sum": 207,
+        "reported_desk_reviews": 208,
+        "unreconciled_difference": 1,
+        "boundary": "Ratios are arithmetic on reported counts, not verified acceptance rates. Preserve source percentages and the 207/208 discrepancy; do not impute a missing pole or silently repair the source."
+      },
+      "retained_obligations": [
+        {
+          "role": "Field team",
+          "work": "Capture, access, equipment handling and residual physical checks",
+          "economic_test": "Identify actual travel, shifts and the qualified alternative before attributing saved field payroll."
+        },
+        {
+          "role": "Qualified reviewer",
+          "work": "Identity reconciliation, manual defect review, deduplication and escalation",
+          "economic_test": "Review throughput is not end-to-end inspection throughput; critical findings need a timely response contract."
+        },
+        {
+          "role": "Software/provider",
+          "work": "Image access, storage, workflow and supported defect models",
+          "economic_test": "Separate customer fees from supplier resource costs and specify usage growth, rights and support obligations."
+        },
+        {
+          "role": "Maintenance owner",
+          "work": "Disposition, prioritization and any resulting repair",
+          "economic_test": "More detected defects can increase necessary work; value comes from decisions and outcomes, not the finding count alone."
+        }
+      ],
+      "decision_gate": "Retain a competent physical/manual or hybrid inspection alternative. A projected 44% Opex premium requires an explicit service/quality benefit and full cost boundary; it cannot be called a labor saving.",
+      "unknowns": {
+        "unique_accepted_inspections": {
+          "value": null,
+          "reason": "No joined capture, mandatory-check, reviewer and deadline ledger; source counts do not fully reconcile."
+        },
+        "changed_maintenance_actions": {
+          "value": null,
+          "reason": "No trace from the additional findings to authorized repairs, avoided work or realized asset outcomes."
+        },
+        "paid_work_change": {
+          "value": null,
+          "reason": "No matched payroll, overtime, contractor roster or paid-hours change."
+        },
+        "absolute_programme_cost": {
+          "value": null,
+          "reason": "No baseline amount or line-item calculation behind the approximate 44% projection."
+        },
+        "all_payer_resources": {
+          "value": null,
+          "reason": "No reconciled operator, software supplier, equipment/support and financing account."
+        },
+        "current_retention_and_rights": {
+          "value": null,
+          "reason": "Historical trial findings do not establish current rollout, contract assignment, support or reuse rights."
+        }
+      },
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046"
     }
   ],
   "project_cost_audits": [
@@ -1605,6 +1908,80 @@
       },
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043"
+    }
+  ],
+  "development_qualification_audits": [
+    {
+      "audit_id": "QOF-AUDIT-DEVELOPMENT-04",
+      "title": "A feasible prototype can lose to an improving outside option",
+      "status": "bounded_operator_development_and_qualification_audit",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E22"
+      ],
+      "summary": "Keep technical demonstration, funded qualified operation, regulatory approval and the choice to continue development separate.",
+      "source_boundary": "Historical AATIS operator account, 2022–2025. The market comparison is an operator judgment; no observed commercial replacement economics or current regulatory conclusion.",
+      "gates": [
+        {
+          "gate": "Prototype and information quality",
+          "observed": "Thermal data and an AI proof of concept were demonstrated.",
+          "not_established": "A complete accepted service ledger or quantified held-out accuracy and true-temperature measurement."
+        },
+        {
+          "gate": "Safety-case preparation",
+          "observed": "Draft case delivered to NGET in October 2023 for review and submission.",
+          "not_established": "Submission to, or authorization by, the CAA; readiness paperwork is not permission."
+        },
+        {
+          "gate": "Field and qualified staff",
+          "observed": "Pilot, site-authority and internal review availability contributed to delays.",
+          "not_established": "A funded operational roster, response guarantee or removal of retained work."
+        },
+        {
+          "gate": "Full trial and rollout",
+          "observed": "Later deliverables were held during review; the project was terminated.",
+          "not_established": "Completed BVLOS trial, current operational fleet or retained adoption."
+        },
+        {
+          "gate": "Build versus buy",
+          "observed": "NGET judged newly available commercial alternatives more capable and stopped this development.",
+          "not_established": "Independent performance ranking, a purchased replacement or realized savings."
+        },
+        {
+          "gate": "Resources and rights",
+          "observed": "Proprietary outcomes and foreground/background rights remain bounded in the public report.",
+          "not_established": "Actual spend, fully paid development labor, transferable licenses or free reuse."
+        }
+      ],
+      "unknowns": {
+        "actual_development_cash": {
+          "value": null,
+          "reason": "The closeout does not provide a reconciled expenditure account; portal project labels are not used as actual cost."
+        },
+        "operating_paid_work": {
+          "value": null,
+          "reason": "No matched operating roster, paid-hours change or supplier support account."
+        },
+        "accepted_service_and_decisions": {
+          "value": null,
+          "reason": "No due-inspection/acceptance/maintenance-disposition series."
+        },
+        "commercial_replacement_outcome": {
+          "value": null,
+          "reason": "Further commercial trials are recommended; no purchased substitute or realized advantage is documented."
+        },
+        "approval_and_retained_rollout": {
+          "value": null,
+          "reason": "A draft safety case and installed prototype do not establish authorization or continuing service."
+        },
+        "reuse_and_assignment_rights": {
+          "value": null,
+          "reason": "Case-by-case proprietary disclosure may involve terms or payment; no transferable executed rights are available."
+        }
+      },
+      "decision_implication": "At each development decision, compare the remaining funded, qualified path with a currently available competent alternative. Preserve sunk work without treating it as a reason to continue, and do not assume a better commercial product is already qualified or purchased.",
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046"
     }
   ]
 }

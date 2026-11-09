@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: intelligence roles, funded crews and awards, edition 0.45
+## New decision campaign: whole-service and development closeouts, edition 0.46
+
+Two distinct primary operator records deepen the utility, substantial H/I/J/K and customer/provider decision boundaries without promoting unresolved empirical requirements. Complete service, actual paid work, projected versus realized costs, operating approval and the changing commercial alternative remain distinct. Same campaign clock and sole writer.
+
+Fresh validation passes the **13-package evidence registry** with **229 claims, 551 reported quantities and 186 explicit-null markers**, **11 evidence-contract tests**, **36 Node assertions** and syntax checking for the changed dashboard script. The original two PDFs and four rendered source pages were checked; seven source-number strings and six AATIS date/status statements match the saved originals. Three affected exporters refresh 11 evidence fingerprints. All **13 dashboard views**, both new panels in four views, two source drilldowns, six cell scopes, three decision-pack gates, source search, year/scenario independence, scenario export/reload and an exact prior architecture case pass. Both panels were visually reviewed; no JavaScript or unexpected API errors were observed. The unchanged full **575-test model suite** passed at edition 0.45 and was not rerun or relabeled as fresh here.
+
+All **1,962,078 prior typed numeric fields across 41 JSON artifacts** and every non-fingerprint result field are preserved. **30 artifacts remain byte-identical**; **11** change only exact evidence fingerprints and dependent identities. All model code, synthetic assumptions, prior source records/audits and labor rows remain unchanged. There is no new synthetic world or empirical calibration. Fourteen bounded families remain at **259 worlds**. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **379 manifest hashes** and **988 relative Markdown links** verify. See the [sole-writer review](reviews/whole_inspection_review.md).
+
+## Previous decision checkpoint: intelligence roles, funded crews and awards, edition 0.45
 
 The actual employer, asset title, role capital and service fees now share a compatible qualified-resource/crew/customer execution. Equal-capital and no-robot comparisons separate liquidity from capability. This deepens DE-03/04/05/06/07/08/09/10 without promoting any empirical requirement. The same November 14 deadline and successive useful checkpoint instruction continue.
 

@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.45, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.46, operating-role funding and actual awards checkpoint, 9 November 2026. The four intelligence arrangements now join actual staffing, title, entry, qualified resources and customer awards for one target with a human-led rival. Fixed total capital can leave the responsible operator unfunded, also without robots. Fourteen families contain 259 bounded worlds. Empirical economics and development/learning/recovery composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -183,6 +183,12 @@ Edition 0.44 joins dated provider resources and qualified parts to paid crews an
 ### Fund the party that must deliver
 
 Edition 0.45 joins intelligence roles to actual awards and paid crews. [The equal-capital comparison](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total modeled cash fixed while moving funds from the outsourced operator to the customer. Delivery then fails with and without robots: the causal constraint is the contract and working-capital location. An acquisition does not automatically move separately owned operator assets or staff. The decision must identify the employer, asset owner, support payer, current funds and payment timing; aggregate cash or fees cannot substitute for that map. Strong funded human service remains the reference, and real target economics remain unmeasured.
+
+### More information can create work, edition 0.46
+
+A permitted [utility operator closeout](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) separates better defect visibility from an economical whole-service replacement. Value the maintenance decision and accepted service, including residual physical checks, identity reconciliation, review and escalation. Detection may create useful repair work rather than remove payroll. Use the strong manual/hybrid comparator and every payer; the historical report supplies no current all-payer ROI.
+
+The separate [AATIS closeout](research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) adds a build-versus-buy boundary: technical progress does not compel continued bespoke development when a better outside option emerges. Keep sunk work, remaining qualified delivery, approval and assignable rights explicit. The operator's commercial judgment does not establish that a replacement was purchased or delivered savings.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -440,6 +446,10 @@ All three packs now require a dated qualified-service plan through any staffing 
 #### Actual operating payer and forward funding, edition 0.45
 
 Each pack now separates customer-contract ownership from the service operator, employer and hardware owner. [The joined role/award model](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total capital fixed and shows that its legal location can prevent work even on the human-only path. Obtain dated funding and fee obligations for the actual responsible party, plus complete qualified service and retained work. Hospital, utility, automotive, warehouse, cleaning and construction retain their own accepted-service units and rights; the numerical role allocations and rates do not transfer.
+
+#### A complete obligation survives a new sensor, edition 0.46
+
+[QOF-AUDIT-SERVICE-03](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) challenges the utility pack with an operator trial in which better information did not make whole-process replacement economical. For utility, hospital and automotive decisions, require a unique due object, complete mandatory service, timely qualified disposition and funded residual duties. Transfer this accounting discipline only; the UK overhead-line pilot supplies no other cell's acceptance, labor or cost coefficients. Acquisition or newco formation does not provide uncontracted competence, access or support.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -3545,6 +3555,38 @@ Five public HTML records were read and fingerprinted on 8 November 2026. Manufac
 
 Six outcomes remain explicitly unknown: accepted due-point service, all-actor work, robot replacement/requalification, configured cost/rights, realized exposure effects and later operating retention. Seek a dated configured maintenance-and-service ledger or an executed applicable support scope. The next independent research priority is the substantial-H critical path from digital improvement to qualified operating benefit, retaining failed work and conventional alternatives; do not repeat these access-limited searches merely to add sources.
 
+#### Virtual inspection and retained field work, edition 0.46
+
+The [SP Distribution closeout](https://smarter.energynetworks.org/projects/nia_spen_0063/) changes the utility decision from an imagery-throughput question to a whole-service comparison. Its 2021–22 drone/virtual-inspection trial found additional defect visibility but projected approximately 44% higher programme Opex for like-for-like replacement. Physical checks and manual review remained. This is a historical trial-based cost projection, not measured current savings, a current legal statement or an all-payer cost account. QOF-E21 and QOF-AUDIT-SERVICE-03 preserve those boundaries.
+
+| Reported stage | LV/HV poles | EHV poles | Interpretation |
+|---|---:|---:|---|
+| Attempted capture scope | 243 | 162 | Different circuits and access conditions |
+| Poles with images | 93 | 160 | Acquisition, not complete statutory inspection |
+| Poles available for virtual review | 67 | 140 | Identity/image usability is another filter |
+
+The printed capture percentages are 35% and 98%; direct count arithmetic gives about 38.27% and 98.77%. Preserve both. The available cohorts sum to 207 while the separate desk-review account reports 208 over six days; a joined object ledger is needed before declaring unique accepted output. The report's 104 defects judged likely missed from ground level are neither an AI-only accuracy measurement nor 104 avoided failures. Its experienced desk inspector represents a small trial, not a scalable staffing ratio.
+
+A defensible comparison starts with the same set of due poles and all required checks. Count capture attempts, useful images, qualified reviews, unique findings, timely escalations and complete inspections separately. If a field visit remains necessary, a faster desk process does not automatically remove the visit, its travel, the qualified worker or a paid shift. Conversely, a more informative inspection may be worth buying even when it costs more. The decision is whether the additional accepted information changes a maintenance action or risk outcome enough to justify the complete incremental cost, with any increased repair work included.
+
+The report offers a particularly useful warning about timing: later review can discover critical hazards after the field team has left. A procurement specification therefore needs an escalation deadline, responsible role and fallback, not just an image-resolution or per-day target. Finding more defects can create valuable work; it can also create another review queue. Neither queue length nor defect count establishes avoided loss.
+
+For the customer, identify the actual field and desk roster, mandatory residual duties, software charges and maintenance disposition. For the provider, price and fund image identity, review workflow, supported defect classes, storage and ongoing support; a per-object fee is not the provider's resource cost. For a newco or acquisition/hybrid operator, verify that the relevant competence, contracts and access rights exist and can be used by the entity responsible for delivery. Buying imagery, software or a customer business alone does not supply them.
+
+The source supplies a negative whole-process substitution result alongside a positive information result. It does not rank modern drones against quadrupeds or establish that the same restrictions persist today. The six-cell reassessment and hospital/automotive/utility packs use the obligation, identity and response principles only; no UK pole rate, cost premium, staffing ratio or legal requirement is transferred to another task. Existing model cases remain synthetic and unchanged. Needed next evidence is a reconciled due-object/acceptance/disposition history, current paid work and absolute costs by payer, rather than another favorable image count.
+
+#### Demonstration, approval and the build-versus-buy decision, edition 0.46
+
+A separate [NGET AATIS closeout](https://smarter.energynetworks.org/projects/nia2_nget0018/) supplies a different stopping condition. A thermal-inspection prototype and draft safety case were demonstrated/prepared in 2023, but later rollout deliverables remained on hold. The operator paused development amid equipment, weather, site-access and staff/review constraints, then terminated it after judging commercial alternatives more capable. Its July 2025 closeout recommends further commercial trials; it does not report an operating replacement, realized savings or actual project expenditure. QOF-E22 and QOF-AUDIT-DEVELOPMENT-04 preserve this separate case.
+
+That sequence matters for a robotics development decision. Technical progress can be real while the best next investment changes. Compare the remaining spend, qualified personnel, rights, approval and service path against the competent alternative available at the decision date. A sunk development payment belongs in the historical account; it does not by itself justify another payment. Equally, an attractive supplier offering does not arrive with the customer's site authorization, competent roster or accepted service history. A change from build to buy still needs a funded qualification and operating plan.
+
+The report's draft safety case was delivered to the operator for review and submission. That is evidence of preparation, not evidence of regulator approval. Reported prototype feasibility is not a complete service acceptance rate. Its proprietary-data and rights limits also prevent treating the described model work as freely available training material. Additional details would require a separate request and possibly terms or payment; no such action was taken.
+
+For substantial H/K, the useful comparison is a dated outside option and the remaining cost of a qualified solution, not a fixed generic intelligence multiplier. I/J require the real equipment, field access and personnel; customer/provider/financier choices require the responsible payer and executable rights. A company acquisition cannot resolve an unmet operating authorization or make proprietary adaptation transferable. The existing architecture fixture's first-successful-admission cost convention remains a disclosed limitation; this source does not calibrate failed-development spending or a learning rate.
+
+These two utility closeouts are not pooled replications. SP Distribution challenges whole-service substitution at its historical trial boundary; AATIS challenges continuing bespoke development when qualification is incomplete and alternatives improve. Neither supplies current target-site all-payer economics. The remaining requirement is an actual accepted-service and decision ledger linked to paid work, support and every payer's costs.
+
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
@@ -3617,6 +3659,10 @@ The next decisive artifact is a complete point/window ledger linked to crew sche
 #### Inspection readiness challenge, edition 0.32
 
 The [rollout/readiness audit](research/quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds a European steel-inspection comparator. Keep customer integration/review, plant-maintenance benefits and robot-maintenance burdens separate. Historical rollout, repeated point activity and serviced-RaaS marketing do not establish complete accepted due service, avoidable paid visits or configured repair coverage. The eighteen synthetic inspection worlds remain unchanged.
+
+#### Retained field service and useful information, edition 0.46
+
+The [SP Distribution closeout audit](research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) supplies a historical counterexample to whole-process replacement. Its trial found extra defect visibility while retaining physical checks and manual review, with a projected programme cost premium. The choice is a qualified complete or hybrid inspection service with timely disposition, not an image-volume target. Preserve unresolved source denominators, original date and missing paid-work/cost ledgers. No source rate, cost premium or historical regulatory condition calibrates this US utility cell.
 
 #### Reproduced inspection-window worlds
 
@@ -4028,6 +4074,10 @@ DE-CF08 now has a bounded funded-architecture implementation; DE-CF10 gains the 
 #### Intelligence roles inside actual customer awards, edition 0.45
 
 The [joined architecture/award execution](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) now places the four existing arrangements in the actual entry, paid-crew, annual-resource and qualified-part history. Each case has one architectural target and a human-led rival. It preserves the old single-business fixture and every earlier numerical result. A separately employed crew and owned robot do not move with customer-company equity; equal total capital can leave the service operator unable to perform even without robots. Fees redistribute cash and affect liquidity while resource expenditure stays separately reconciled. No measured architecture ranking or automatic customer payroll saving follows.
+
+#### The outside option can improve during qualification, edition 0.46
+
+The [AATIS operator closeout](research/quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) supplies a historical example of demonstrated prototype progress followed by a decision to stop as the commercial comparison changed. This does not rank current architectures or calibrate development cost. A compatible learning/architecture extension must represent paid unsuccessful work and remaining qualification separately, while preserving a dated competent alternative and the rights of each actor. A draft case is not operating approval; a public model description is not a reuse license.
 
 #### Reproduced funded architecture worlds
 

@@ -252,3 +252,7 @@ All three packs now require a dated qualified-service plan through any staffing 
 ## Actual operating payer and forward funding, edition 0.45
 
 Each pack now separates customer-contract ownership from the service operator, employer and hardware owner. [The joined role/award model](shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total capital fixed and shows that its legal location can prevent work even on the human-only path. Obtain dated funding and fee obligations for the actual responsible party, plus complete qualified service and retained work. Hospital, utility, automotive, warehouse, cleaning and construction retain their own accepted-service units and rights; the numerical role allocations and rates do not transfer.
+
+## A complete obligation survives a new sensor, edition 0.46
+
+[QOF-AUDIT-SERVICE-03](quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) challenges the utility pack with an operator trial in which better information did not make whole-process replacement economical. For utility, hospital and automotive decisions, require a unique due object, complete mandatory service, timely qualified disposition and funded residual duties. Transfer this accounting discipline only; the UK overhead-line pilot supplies no other cell's acceptance, labor or cost coefficients. Acquisition or newco formation does not provide uncontracted competence, access or support.

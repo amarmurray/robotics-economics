@@ -150,3 +150,7 @@ Nine [qualified-support/crew executions](research/shared_workforce.md#qualified-
 ## Operating-role funding and actual awards, edition 0.45
 
 Nine [architecture/award executions](research/shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) join the four existing intelligence arrangements to one target's actual staffing, title, entry, qualified resources and customer awards, with a human-led rival. Fourteen bounded families contain 259 worlds. Equal role capital can fail to fund delivery when held outside the responsible operator, including without robots. Strong human alternatives, every payer and empirical unknowns remain. This is a continuing checkpoint of the same campaign through 14 November; no goal, clock, scope or commercial authorization changes.
+
+## Whole-service operator evidence, edition 0.46
+
+The historical SP Distribution virtual-inspection and NGET AATIS closeouts add two primary records, a service/denominator audit and a development/qualification audit. Better information, a projected programme cost premium and retained field work are separate findings. Demonstration, approval and a decision to stop bespoke development as alternatives improve also remain distinct. The six cells and three packs retain complete obligations and qualified manual/hybrid alternatives without importing the pilot's rates or law. Fourteen challenge families remain at 259 worlds; empirical all-payer and paid-work requirements remain partial. Same T0, November 14 deadline and authorized successive useful tranches.

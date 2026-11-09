@@ -68,3 +68,7 @@ The next decisive artifact is a complete point/window ledger linked to crew sche
 ## Inspection readiness challenge, edition 0.32
 
 The [rollout/readiness audit](quadruped_operator_followup.md#rollout-retained-work-and-robot-repair-edition-032) adds a European steel-inspection comparator. Keep customer integration/review, plant-maintenance benefits and robot-maintenance burdens separate. Historical rollout, repeated point activity and serviced-RaaS marketing do not establish complete accepted due service, avoidable paid visits or configured repair coverage. The eighteen synthetic inspection worlds remain unchanged.
+
+## Retained field service and useful information, edition 0.46
+
+The [SP Distribution closeout audit](quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) supplies a historical counterexample to whole-process replacement. Its trial found extra defect visibility while retaining physical checks and manual review, with a projected programme cost premium. The choice is a qualified complete or hybrid inspection service with timely disposition, not an image-volume target. Preserve unresolved source denominators, original date and missing paid-work/cost ledgers. No source rate, cost premium or historical regulatory condition calibrates this US utility cell.

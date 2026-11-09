@@ -150,3 +150,9 @@ Edition 0.44 joins dated provider resources and qualified parts to paid crews an
 ## Fund the party that must deliver
 
 Edition 0.45 joins intelligence roles to actual awards and paid crews. [The equal-capital comparison](shared_workforce.md#intelligence-roles-staffing-payers-and-actual-awards-edition-045) holds total modeled cash fixed while moving funds from the outsourced operator to the customer. Delivery then fails with and without robots: the causal constraint is the contract and working-capital location. An acquisition does not automatically move separately owned operator assets or staff. The decision must identify the employer, asset owner, support payer, current funds and payment timing; aggregate cash or fees cannot substitute for that map. Strong funded human service remains the reference, and real target economics remain unmeasured.
+
+## More information can create work, edition 0.46
+
+A permitted [utility operator closeout](quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046) separates better defect visibility from an economical whole-service replacement. Value the maintenance decision and accepted service, including residual physical checks, identity reconciliation, review and escalation. Detection may create useful repair work rather than remove payroll. Use the strong manual/hybrid comparator and every payer; the historical report supplies no current all-payer ROI.
+
+The separate [AATIS closeout](quadruped_operator_followup.md#demonstration-approval-and-the-build-versus-buy-decision-edition-046) adds a build-versus-buy boundary: technical progress does not compel continued bespoke development when a better outside option emerges. Keep sunk work, remaining qualified delivery, approval and assignable rights explicit. The operator's commercial judgment does not establish that a replacement was purchased or delivered savings.
