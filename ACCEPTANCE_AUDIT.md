@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: utility project costs, edition 0.43
+## New decision campaign: qualified support and binding staffing, edition 0.44
+
+A compatible physical/cash/parts/provider/crew execution deepens DE-03/05/06/07/08/09/10. Forward coverage, actual service and every payer remain explicit; no empirical requirement is promoted. The same November14 deadline and successive useful checkpoint instruction continue.
+
+Fresh cloud validation passes **561 Python tests** in 490.609s, including 14 new integration tests, **36 Node assertions**, **20 JavaScript syntax checks** and **54 prescribed reproduction commands**. Frontier, prior staffed-renewal and new qualified-staffing exact exports match. All **13 dashboard views**, nine new worlds, three prior crew cases, both execution boundaries, three decision-pack gates and six cell scopes pass. Exact annual-support control, full-input replay ignoring forged ledgers, pending/invalid/stale protection, family switching, shared view/scenario independence, scenario export/reload and six invalid API requests pass. Existing utility panels and source bytes are preserved. The new panel and comparison screenshots were visually reviewed. No JavaScript or unexpected API errors were observed.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and all non-fingerprint meanings are preserved. **27 artifacts are byte-identical**; **12** contain only exact source/evidence fingerprints and dependent identities. The previous staffed-renewal model only extracts its completed-result formatter; its prior cash, title, service, crew and award results remain unchanged. All other previous model code, numerical assumptions, source claims, operator audits and labor rows remain unchanged. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain. Fourteen bounded challenge families now contain **250 worlds**. The unchanged evidence registry contains **13 packages, 227 claims, 536 reported quantities and 174 explicit-null markers**; no new source or empirical coefficient is added.
+
+All **373 manifest hashes** and **960 relative Markdown links** verify. See the [sole-writer review](reviews/qualified_staffing_review.md).
+
+## Previous decision checkpoint: utility project costs, edition 0.43
 
 A bounded historical account and cost-boundary synthesis deepen the utility pack without changing any requirement status. Current all-payer service economics and realized outcomes remain partial. Execution stops after this tranche for scheduled oversight; the campaign deadline remains November14.
 

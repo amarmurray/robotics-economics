@@ -1,5 +1,9 @@
 # Initial deployment thesis register
 
+## Forward service before paid staffing reduction, edition 0.44
+
+**Hypothesis sharpened:** a prior successful operating month is insufficient to justify a binding paid-staff reduction. A [joined synthetic execution](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) shows forward support/parts shortages changing actual customer awards and making retained staffing cheaper in resource cash than the cut-and-shortfall policy. Test dated entitlements, qualifications, retained duties, fallback and every payer through the notice horizon. The actual magnitude and prevalence remain unknown; the digital-improved human-only alternative must remain in the decision.
+
 ## Project funding and deployment value, edition 0.43
 
 **Hypothesis sharpened:** useful inspection information can change a capital or maintenance decision without removing a paid shift. The [historical project-cost audit](research/quadruped_operator_followup.md#project-expenditure-replication-and-realized-service-edition-043) requires separately funded site work and recurring service costs before measuring that value. Owner contributions finance expenditures rather than add resource use. Current accepted-service and all-payer closeouts remain necessary to assess an entrant or provider business case.

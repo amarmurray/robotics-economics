@@ -193,7 +193,12 @@ def source_hashes():
 
 def run_staffed_renewals(plan,treasury,contracts,enterprise,finance,bridge,competition,transition,crews):
     policy=_StaffedRenewals(plan,contracts,treasury,enterprise,finance,bridge,competition,transition,crews)
-    r=run_monthly(plan,treasury,commercial=policy)
+    return staffed_renewals_result(run_monthly(plan,treasury,commercial=policy),policy)
+
+
+def staffed_renewals_result(r,policy):
+    """Describe one already completed execution; never run another cash/fleet loop."""
+    plan=policy.plan;enterprise=policy.enterprise;bridge=policy.bridge;crews=policy.crews
     r.update(schema_version='staffed-renewals-window/0.1',scope='synthetic_separate_paid_crews_retained_work_entry_and_renewal')
     add_entry_renewal_sections(policy,r)
     r['renewing_entry']['limits']=[x for x in r['renewing_entry']['limits'] if not x.startswith('No shared site crew')]+[

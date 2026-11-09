@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.43, utility project costs and realized service checkpoint, 9 November 2026. A historical operator account separates project expenditure, owner funding, off-project site construction, equipment replication indications and unverified long-horizon benefits. These quantities do not price a current deployment or calibrate a scenario. Fourteen families remain at241 bounded worlds. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.44, qualified support and binding staffing checkpoint, 9 November 2026. Annual provider resources and typed parts now gate the same paid crews, company entry and actual customer awards. Forward coverage can fail after a successful month triggers binding notice; retained staffing and a digital-improved human alternative remain. Fourteen families contain 250 bounded worlds. Empirical economics and broader composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -175,6 +175,10 @@ The [digital labor-outcome audit](research/digital_labor_outcomes.md) strengthen
 ### Crew feasibility can reverse the apparent entry advantage
 
 Edition 0.41 joins paid crew commitments to actual awards and retained work. A staffing cut can transfer customers, and a larger rival can rescue cleaning while leaving the original firm's outside obligations unmet. In the matched surge, prepaid fallback serves everything but costs more than the strong human-only comparator. Follow [the conserved crew results](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) for exact assumptions and cash. Underwriting must require the same complete service, qualified roster and dated funds across the transition; another subsidiary's capacity is not automatically transferable.
+
+### The staffing decision needs forward qualified coverage
+
+Edition 0.44 joins dated provider resources and qualified parts to paid crews and actual customer awards in one execution. [The mechanism challenge](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) shows that a successful month can trigger a later binding cut which outlives robot support. Keeping staff can then deliver more service at lower all-payer resource cash than the apparent staffing saving. A competent digital-improved human-only alternative remains cheaper in the matched synthetic window. The strategic gate is a dated whole-service and payer plan across the notice horizon; neither prior success nor purchased hardware alone supplies it. Actual target rosters, support rights, parts timing, all-payer cost and changed operating decisions remain empirical requirements.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -424,6 +428,10 @@ Hospital logistics retains receiving and urgent fallback duties; inspection reta
 #### Crew and customer-award gate, edition 0.41
 
 The [joined staffing/renewal cases](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) add a practical gate to all three packs: which paid, qualified crew performs retained work after actual customer awards, and which legal payer funds fallback before the work is sold? Hospital delivery requires the rest of nursing/porter service; utility inspection retains review and qualified field visits; automotive presentation retains line duties, replenishment and exceptions. A rival's rescue of one service does not discharge another company's retained duties. Preserve service-specific observations and strong human alternatives; none of the synthetic cleaning minutes, rates or notices transfers numerically.
+
+#### Forward staffing and service coverage, edition 0.44
+
+All three packs now require a dated qualified-service plan through any staffing notice or contract commitment. The [joined support/parts/crew execution](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) exposes a reversal: retaining a paid crew can preserve complete service at lower all-payer resource cash than cutting staff and then paying for customer switching. Each of the six existing cells retains its own service, qualification and payer boundaries. No cleaning coefficient or synthetic support rate transfers to hospital, automotive, utility, warehouse or construction work. Current site rosters, qualified capacity, replacement timing, support rights and executed fallback terms remain decision dependencies.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -1446,6 +1454,36 @@ Staffing, overtime and outside receipts are already recorded in the enterprise l
 
 This advances the [labor-outcome gate](research/digital_labor_outcomes.md) without converting a survey answer into a staffing coefficient. The missing target observation is a dated roster, qualifications, retained duties, actual customer awards, notice/overtime obligations and every payer's cash through the same transition. A whole cleaning market, a viable operating company and complete retained work are distinct acceptance tests. The hospital, utility and automotive packs retain their own service units and rights; this cleaning contract supplies a mechanism challenge rather than a transfer of minutes or prices. Monthly divisible cleaning omits within-shift travel, sequencing and timed acceptance. Full six-cell portfolio feasibility, annual resource/parts composition, recovery, endogenous learning and empirical whole-system economics remain incomplete.
 
+#### Qualified support, parts and binding staffing, edition 0.44
+
+[The qualified-staffing execution](model/results/qualified_staffing.json) closes a specific interface left open by edition 0.41: annual provider support/integration and dated compatible parts now gate the same physical units that inform staffing notice, paid site work, company entry and actual customer awards. One physical loop and one Treasury execute all of them. This is a synthetic mechanism test, not a target staffing recommendation. The four architecture alternatives, asset-recovery and learning fixtures remain separate. Nine executions deepen existing challenge families to 250 bounded worlds; they are not nine additional empirical observations or a jointly feasible six-cell portfolio.
+
+##### Forward coverage matters after a successful month
+
+The unreserved control preserves the previous binding-staff-cut history: 4,000 accepted cleaning zones, 160 inventory jobs, the same cash, title and customer-award history. Its one robot needs 650 minutes of provider support each operating month in 2026. Four supported months need exactly 2,600 available minutes. These provider engineers are different resources from the two operating companies' qualified site crews. Integration uses another pool. An annual reservation elsewhere makes capacity unavailable without inventing another executed job, employee or expense.
+
+A successful September (month 2) permits notice in October (month 3), reducing the target's paid crew from two blocks to one in December (month 5). **2,600 versus 2,599 available provider minutes** changes December support: 649 minutes left cannot admit a whole 650-minute booking. The staff cut remains binding. The target can cover only three 50-zone lots after its inventory duties; the rival can cover six. One lot is unassigned and **50 zones go unserved**, while all 160 inventory jobs finish. January capacity restores robot service but cannot restore December's missed output. Thus eight complete months become seven even though the earlier notice test was satisfied.
+
+Keeping the original paid staffing through the same support shortage restores all 4,000 zones and 160 jobs for **$131,806.45** of all-payer resource/transaction cash. The cut-and-shortfall case spends **$132,856.45** for less service. Its $6,000 lower regular staffing is outweighed by $7,100 of onboarding/customer-switching resource payments, partly offset by $50 less service material use. The **$1,050 reversal** is a modeled consequence of actual awards and payers, not a valuation of missed work. A fixed 5,000-minute prospective overtime block also restores all service, but costs **$140,806.45** across the window; its $15,000 overtime outlay is already inside that figure. The declared whole-market offer policy buys some capacity that awards leave unused. It is not optimized fallback procurement.
+
+The digital-improved human-only comparison completes the identical obligations for **$87,300**, versus **$127,197.74** in the fully supported robot/staff-cut control. Ending robot assets, receivables, claims and unmodeled lifecycle costs remain; the window difference is not ROI, payback or a demonstrated employment effect. A model that only values removed regular staffing would miss both the conventional alternative and the switching/fallback costs.
+
+##### A received spare is not timely qualified service
+
+A named actuator replacement is due in November (month 4). In one case its compatible spare is physically present but does not qualify until January's phase 4. Monthly support is admitted earlier, in phase 3; repair therefore completes in February (month 7). The successful September still triggered binding December notice. Retained human capacity covers November, but December and January each miss 50 cleaning zones. The final total is **3,900 zones**, all 160 inventory jobs, and six complete months. Qualification does not backfill earlier service, and failed support consumes neither the spare nor annual minutes.
+
+If the manufacturing board never qualifies, no robot is manufactured and no staffing notice is issued. The fully retained human crew completes service. Consigned unissued inventory is not charged an invented supplier-financing cost: the current model prices parts once inside paid manufacturing/support bundles. This assumption remains a real commercial evidence gap.
+
+Giving both operating companies the same robot access does not double the shared provider pool. Two robots compete under the existing deterministic admission order for the same 2,600 first-year support minutes; four bookings fail. Separate site crews and legal cash remain distinct even after common equity ownership. More procured robots therefore do not guarantee more complete service. This is an allocation-policy witness, not an optimized fleet allocation or a measured exclusive technology advantage.
+
+##### Target decision and broader scope
+
+Before calling a paid block removable, match its notice horizon to a dated forward plan: qualified parts and replacement timing, provider entitlement and allocated capacity, retained site duties, funded fallback, actual customer contract commitments and each payer. A successful prior month is necessary under this declared rule but insufficient for future coverage. A review must also preserve the option to retain staffing, defer procurement or improve the human workflow.
+
+The three decision packs carry this forward-coverage gate without transferring cleaning minutes, prices or staffing blocks. Hospital delivery requires timely repair coverage and a complete qualified handling/fallback roster; automotive workcells require compatible parts, line qualification and retained technician work; utility inspection requires accepted information, the intervention it changes, site work, analyst duties and support rights. Construction installation additionally needs trade/permit competence; warehouse tote service needs safe handling, handoffs and residual inventory duties. None has an empirical payroll coefficient supplied by this fixture. Substantial H contributes dated coordination and a better human baseline; I/J/K retain embodiment, qualified supply and model/support rights rather than treating software capability as support entitlement.
+
+The source access limits from edition 0.43 remain closed. No new public-source claim or numerical calibration was introduced. Current operator accepted-service/maintenance decisions, actual paid work and all-payer costs remain missing; this integration resolves a model interface, not that empirical dependency.
+
 #### Reproduced shared-workforce executions
 
 | Shared-worker world | Complete months / 8 | Cleaning zones | Inventory jobs / required | Staff USD | Extra capacity USD | External resource cash USD |
@@ -1807,6 +1845,10 @@ For hospital logistics, utility inspection and automotive presentation, verify o
 
 [The shared-crew/renewal extension](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) now places funded offers, retained outside duties, staffing notice and actual customer awards inside this entry execution. Common ownership keeps separate qualified crews and operating accounts. A better staffed rival can preserve the cleaning market while inventory obligations of the original company fail. Buying a company therefore requires both customer continuity and a feasible roster for inherited duties. The stronger human/no-robot comparison and every payer remain explicit; this is synthetic mechanism evidence, not a staffing or acquisition recommendation.
 
+#### Forward coverage after a staffing commitment, edition 0.44
+
+The [qualified-staffing extension](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) composes shared provider support and compatible parts with the existing acquired/entrant companies, distinct crews and actual awards. A resource shortage can break service after binding notice; a second robot does not create another provider pool. Common ownership still supplies neither pooled crews nor automatically transferable cash or rights. The acquisition/build decision must carry inherited duties and a forward qualified/funded service plan. Real contracts and values remain unknown.
+
 #### Reproduced funded entry worlds
 
 | Synthetic entry world | Closing | Accepted zones | Paid share price, USD | Target equity, USD | Buyer closing cash, USD | Paid staffing, USD |
@@ -1885,6 +1927,22 @@ Generated from [recovering_entry.json](model/results/recovering_entry.json). All
 | paid_losing_offer | 8 | 8 | 4,000.00 | 160 / 160 | 42,000.00 | 15,000.00 | 144,947.74 |
 
 Generated from [staffed_renewals.json](model/results/staffed_renewals.json). Separate service units, legal crews and every payer remain explicit. Paid unused capacity, unmet duties and terminal assets/claims preclude an unqualified staffing-saving or ROI claim.
+
+#### Reproduced forward-coverage and staffing executions
+
+| Qualified supply/crew world | Whole service /8 | Zones | Inventory jobs | Supported robot-months | Regular staff USD | Overtime USD | All-payer resources USD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| qualified_control | 8 | 4,000.00 | 160 / 160 | 6 | 42,000.00 | 0.00 | 127,197.74 |
+| exact_support_through_december | 8 | 4,000.00 | 160 / 160 | 6 | 42,000.00 | 0.00 | 127,197.74 |
+| one_minute_short_after_notice | 7 | 3,950.00 | 160 / 160 | 5 | 42,000.00 | 0.00 | 132,856.45 |
+| retain_staff_through_support_gap | 8 | 4,000.00 | 160 / 160 | 5 | 48,000.00 | 0.00 | 131,806.45 |
+| prepaid_fallback_through_support_gap | 8 | 4,000.00 | 160 / 160 | 5 | 42,000.00 | 15,000.00 | 140,806.45 |
+| replacement_qualified_in_january | 6 | 3,900.00 | 160 / 160 | 3 | 42,000.00 | 0.00 | 131,123.87 |
+| unqualified_board_no_notice | 8 | 4,000.00 | 160 / 160 | 0 | 48,000.00 | 0.00 | 87,300.00 |
+| human_only_same_service | 8 | 4,000.00 | 160 / 160 | 0 | 48,000.00 | 0.00 | 87,300.00 |
+| equal_robot_access_shared_support | 7 | 3,950.00 | 160 / 160 | 8 | 42,000.00 | 0.00 | 175,680.32 |
+
+Generated from [qualified_staffing.json](model/results/qualified_staffing.json). Support engineers, integration and legal-operator site crews are distinct resources. Prior service can trigger binding notice without guaranteeing forward qualified supply. Terminal assets and claims remain; no empirical payroll effect or lifecycle ROI is inferred.
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 

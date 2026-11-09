@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.43.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.44.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: utility project costs and realized service, edition 0.43
+## Current checkpoint: qualified support and binding staffing, edition 0.44
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Clean local and remote main matched input `a89dd7827997d83242cbfe77b22b8fafc57426cf`; no overlapping productive writer was observed. Actual commands executed in the same connected cloud configuration. The latest coordinator instruction supersedes waiting after every checkpoint: continue useful bounded tranches under the existing scope and access limits. Quota and native goal controls remain unexposed; no reset, paid credit, replacement task, schedule, agent, commercial action or continuous-execution claim.
+
+[The qualified-staffing execution](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) joins dated annual provider support/integration and typed parts to the same paid crews, share entry and actual customer awards. One physical loop and Treasury execute the history. Provider engineers, integration resources and legal-operator site crews remain distinct. No outside annual reservation is invented as executed service or expense.
+
+At 2,600 available first-year provider minutes the declared staffing cut retains complete service. At 2,599, a whole 650-minute December booking fails after notice is already binding, leaving 50 cleaning zones unserved. Keeping staff through the same gap completes the work for **$131,806.45**, versus **$132,856.45** for the cut-and-shortfall case. Fixed prepaid fallback also restores service but costs **$140,806.45**. These are synthetic all-payer resource/transaction payments with terminal stocks/claims, not empirical payroll savings or lifecycle returns. A qualified spare arriving after the January service booking cannot restore that month; equal robot access does not duplicate the provider pool. The matched digital-improved human-only alternative remains at **$87,300** for complete service.
+
+Fresh cloud validation passes **561 Python tests** in 490.609s, including 14 new integration tests, **36 Node assertions**, **20 JavaScript syntax checks** and **54 prescribed reproduction commands**. Frontier, prior staffed-renewal and new qualified-staffing exact exports match. All **13 dashboard views**, nine new worlds, three prior crew cases, both execution boundaries, three decision-pack gates and six cell scopes pass. Exact annual-support control, full-input replay ignoring forged ledgers, pending/invalid/stale protection, family switching, shared view/scenario independence, scenario export/reload and six invalid API requests pass. Existing utility panels and source bytes are preserved. The new panel and comparison screenshots were visually reviewed. No JavaScript or unexpected API errors were observed.
+
+All **1,787,445 prior typed numeric fields across 39 JSON artifacts** and all non-fingerprint meanings are preserved. **27 artifacts are byte-identical**; **12** contain only exact source/evidence fingerprints and dependent identities. The previous staffed-renewal model only extracts its completed-result formatter; its prior cash, title, service, crew and award results remain unchanged. All other previous model code, numerical assumptions, source claims, operator audits and labor rows remain unchanged. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain. Fourteen bounded challenge families now contain **250 worlds**. The unchanged evidence registry contains **13 packages, 227 claims, 536 reported quantities and 174 explicit-null markers**; no new source or empirical coefficient is added.
+
+All **373 manifest hashes** and **960 relative Markdown links** verify. See the [sole-writer review](reviews/qualified_staffing_review.md). The scoped normal private-repository publication identity is recorded in the ignored receipt after remote verification.
+
+**Remaining dependency / next action:** establish compatible actor, qualification, fee and cash contracts before joining the four intelligence arrangements to the actual entry/customer/crew history. Recovery and endogenous learning also remain separately bounded; independent case totals must not be added. A newly available permitted operator closeout could instead resolve accepted information, changed maintenance, actual paid work and each payer's site/support costs. Those empirical data remain unavailable. National Gas 403 and other closed routes stay closed; none was retried in this tranche. No runtime or permission blocker affected execution.
+
+**Next question:** which intelligence-role arrangement can sustain the same qualified whole service and actual customer commitments once its integration, support rights, fees and operating-company funding share this history?
+
+## Previous checkpoint: utility project costs and realized service, edition 0.43
 
 One bounded tranche is complete; execution stops for the next scheduled oversight. The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Parent oversight reported the task idle, and clean local/remote main matched input `f01628b6c8cb3e24e078cf770aaf3c784077a720`. Process inspection found no active research, model, browser or server writer. The same cloud environment is running and connected; actual shell commands executed. Quota and native goal controls remain unexposed. No continuous-execution claim, extra agent, replacement task, schedule, reset, credit use or commercial action.
 

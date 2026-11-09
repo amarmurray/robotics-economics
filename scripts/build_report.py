@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.43, utility project costs and realized service checkpoint, 9 November 2026. A historical operator account separates project expenditure, owner funding, off-project site construction, equipment replication indications and unverified long-horizon benefits. These quantities do not price a current deployment or calibrate a scenario. Fourteen families remain at241 bounded worlds. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.44, qualified support and binding staffing checkpoint, 9 November 2026. Annual provider resources and typed parts now gate the same paid crews, company entry and actual customer awards. Forward coverage can fail after a successful month triggers binding notice; retained staffing and a digital-improved human alternative remain. Fourteen families contain 250 bounded worlds. Empirical economics and broader composition remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -235,6 +235,14 @@ The initial editions were produced in a cloud checkout. The local continuation b
     out.insert(insert_at+3,'#### Reproduced paid-crew and actual-award executions\n\n'+'\n'.join(crew_table)+'\n\nGenerated from [staffed_renewals.json](model/results/staffed_renewals.json). Separate service units, legal crews and every payer remain explicit. Paid unused capacity, unmet duties and terminal assets/claims preclude an unqualified staffing-saving or ROI claim.')
 
 
+
+    qualified=json.loads((ROOT/'model/results/qualified_staffing.json').read_text())
+    for path,digest in qualified['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise SystemExit('Stale qualified-staffing dependency: '+path)
+    qualified_table=['| Qualified supply/crew world | Whole service /8 | Zones | Inventory jobs | Supported robot-months | Regular staff USD | Overtime USD | All-payer resources USD |','| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
+    for row in qualified['summary']:
+        q=row['accepted_zones'];qualified_table.append(f"| {row['case']} | {row['complete_whole_service_months']} | {int(q['numerator'])/int(q['denominator']):,.2f} | {row['outside_completed_jobs']} / {row['outside_required_jobs']} | {row['supported_robot_months']} | {row['staff_paid_cents']/100:,.2f} | {row['overtime_paid_cents']/100:,.2f} | {row['all_payer_resource_and_transaction_cash_cents']/100:,.2f} |")
+    out.insert(insert_at+4,'#### Reproduced forward-coverage and staffing executions\n\n'+'\n'.join(qualified_table)+'\n\nGenerated from [qualified_staffing.json](model/results/qualified_staffing.json). Support engineers, integration and legal-operator site crews are distinct resources. Prior service can trigger binding notice without guaranteeing forward qualified supply. Terminal assets and claims remain; no empirical payroll effect or lifecycle ROI is inferred.')
 
     renewals=json.loads((ROOT/'model/results/competitive_renewals.json').read_text())
     for path,digest in renewals['source_sha256'].items():

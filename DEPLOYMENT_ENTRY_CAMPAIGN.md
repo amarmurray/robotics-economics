@@ -142,3 +142,7 @@ The same campaign remains **in progress** through **2026-11-14T20:12:27Z**. A su
 ## Paid crew and actual award checkpoint, edition 0.41
 
 Thirteen [crew/renewal worlds](research/shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) join qualified paid staffing, retained outside work, prospective overtime and actual awards in the existing entry/physical/Treasury loop. Fourteen bounded families contain241 worlds. A rescued cleaning market can coexist with unfinished inherited duties; the strong human comparator and every payer remain. This is the same in-progress campaign through 14 November, not empirical completion or evidence of uninterrupted execution.
+
+## Forward qualified coverage checkpoint, edition 0.44
+
+Nine [qualified-support/crew executions](research/shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) join annual provider resources and typed parts to paid staffing, actual customer awards and share entry on one physical/Treasury history. Fourteen existing families contain 250 bounded worlds. Forward support/repair gaps can survive a prior-success staffing notice; retained staffing, funded fallback and a strong digital-human comparison remain. This is the same active campaign through 14 November, with empirical full-service economics and broader composition still partial. The latest coordinator instruction supersedes checkpoint-by-checkpoint waiting: continue successive useful bounded tranches under the same scope, access and usage restrictions. No native goal is created or changed.

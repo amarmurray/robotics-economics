@@ -77,3 +77,7 @@ For hospital logistics, utility inspection and automotive presentation, verify o
 ## Qualified crews constrain actual customer wins, edition 0.41
 
 [The shared-crew/renewal extension](shared_workforce.md#paid-crews-and-actual-customer-awards-edition-041) now places funded offers, retained outside duties, staffing notice and actual customer awards inside this entry execution. Common ownership keeps separate qualified crews and operating accounts. A better staffed rival can preserve the cleaning market while inventory obligations of the original company fail. Buying a company therefore requires both customer continuity and a feasible roster for inherited duties. The stronger human/no-robot comparison and every payer remain explicit; this is synthetic mechanism evidence, not a staffing or acquisition recommendation.
+
+## Forward coverage after a staffing commitment, edition 0.44
+
+The [qualified-staffing extension](shared_workforce.md#qualified-support-parts-and-binding-staffing-edition-044) composes shared provider support and compatible parts with the existing acquired/entrant companies, distinct crews and actual awards. A resource shortage can break service after binding notice; a second robot does not create another provider pool. Common ownership still supplies neither pooled crews nor automatically transferable cash or rights. The acquisition/build decision must carry inherited duties and a forward qualified/funded service plan. Real contracts and values remain unknown.
