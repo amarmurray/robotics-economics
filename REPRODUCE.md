@@ -420,3 +420,9 @@ Browser checks cover all thirteen views, six new cases, four prior connected fam
 Run production evidence validation and `node --check dashboard/app.js`. Check QOF-E25/E26 against the already returned primary page text and explicit dates/affiliations; raw-HTML snapshot attempts returned 403 and must not be retried or represented as hashed source bytes. Preserve all prior evidence and numerical model results. Refresh scenario/trajectory/architecture evidence fingerprints, rebuild the report and verify manifest hashes/relative links.
 
 Browser checks cover all thirteen views, the two existing/new selectable service audits in four views, two source drilldowns, three pack gates, six cell filters, search/year filtering, selection persistence and source/scenario independence. No model or helper implementation changed: full575 tests remain prior0.45, Node36 prior0.46 and release14/full replay prior0.49. No unchanged suite is rerun to show activity.
+
+## Derived inspection cash bounds, edition 0.51
+
+Run `python3 scripts/export_inspection_price_bounds.py` and `--check`; replay a complete pair with `--case FILE --output FILE`. Run `python3 -m unittest tests.test_inspection_price_bounds -v`, evidence validation and syntax checks for changed dashboard files. All prior model files remain unchanged. Refresh affected scenario/trajectory/architecture evidence fingerprints, build the report and preserve all 43 prior result artifacts' 2,087,899 typed numeric fields and non-fingerprint semantics.
+
+Browser checks cover eight saved pairs, explicit applied-case comparison, complete export/import ignoring forged results, invalid and stale protection, the existing inspection interaction and source/scenario independence. The new result is derived analysis of existing worlds, not eight additional deployment worlds. Full575 tests remain prior0.45 and Node36 prior0.46; use the directly affected checks here.

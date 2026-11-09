@@ -29,6 +29,7 @@ from model.architecture_awards import architecture_awards_catalog, run_architect
 from model.paid_development import paid_development_catalog, run_paid_development_case, replay_paid_development
 from model.release_continuity import release_continuity_catalog, run_release_continuity_case, replay_release_continuity
 from model.utility_inspection import inspection_artifact, run_inspection_case, replay_inspection
+from model.inspection_price_bounds import price_bounds_catalog, selected_price_bounds, compare_inputs, replay_price_bounds
 from model.automotive_workcell import workcell_artifact, run_workcell_case, replay_workcell
 from model.learning_execution import learning_catalog, run_learning_case, replay_learning
 from model.support_expansion import expansion_catalog, run_expansion_case, replay_expansion
@@ -123,6 +124,10 @@ class Handler(BaseHTTPRequestHandler):
                 self.send(200, inspection_artifact())
             except (ValueError, KeyError, OSError) as exc:
                 self.send(503, {"error": str(exc)})
+            return
+        if path == "/api/inspection-price-bounds":
+            try:self.send(200, price_bounds_catalog())
+            except (ValueError,KeyError,OSError) as exc:self.send(400,{"error":str(exc)})
             return
         if path == "/api/release-continuity":
             try:self.send(200, release_continuity_catalog())
@@ -219,12 +224,12 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         endpoint = urlparse(self.path).path
-        if endpoint not in {"/api/release-continuity", "/api/paid-development", "/api/architecture-awards", "/api/qualified-staffing", "/api/staffed-renewals", "/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures", "/api/conventional-coordination", "/api/entry-transitions", "/api/utility-inspection", "/api/automotive-workcell", "/api/learning-execution", "/api/competitive-renewals", "/api/support-expansion", "/api/asset-recovery", "/api/annual-commitments", "/api/component-execution", "/api/architecture-resources", "/api/shared-workforce", "/api/renewing-entry", "/api/recovering-entry"}:
+        if endpoint not in {"/api/inspection-price-bounds", "/api/release-continuity", "/api/paid-development", "/api/architecture-awards", "/api/qualified-staffing", "/api/staffed-renewals", "/api/run", "/api/joint-trace", "/api/architectures", "/api/shared-enterprise", "/api/enterprise-finance", "/api/calendar-bridge", "/api/monthly-architectures", "/api/conventional-coordination", "/api/entry-transitions", "/api/utility-inspection", "/api/automotive-workcell", "/api/learning-execution", "/api/competitive-renewals", "/api/support-expansion", "/api/asset-recovery", "/api/annual-commitments", "/api/component-execution", "/api/architecture-resources", "/api/shared-workforce", "/api/renewing-entry", "/api/recovering-entry"}:
             self.send(404,{"error":"Unknown endpoint"})
             return
         try:
             length = int(self.headers.get("Content-Length","0"))
-            if length < 0 or length > (8000000 if endpoint in {"/api/release-continuity", "/api/paid-development", "/api/architecture-awards", "/api/qualified-staffing", "/api/staffed-renewals", "/api/competitive-renewals", "/api/annual-commitments", "/api/component-execution", "/api/architecture-resources", "/api/shared-workforce", "/api/renewing-entry", "/api/recovering-entry"} else 2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge","/api/monthly-architectures","/api/entry-transitions","/api/automotive-workcell", "/api/learning-execution", "/api/support-expansion", "/api/asset-recovery"} else 200000):
+            if length < 0 or length > (8000000 if endpoint in {"/api/inspection-price-bounds", "/api/release-continuity", "/api/paid-development", "/api/architecture-awards", "/api/qualified-staffing", "/api/staffed-renewals", "/api/competitive-renewals", "/api/annual-commitments", "/api/component-execution", "/api/architecture-resources", "/api/shared-workforce", "/api/renewing-entry", "/api/recovering-entry"} else 2000000 if endpoint in {"/api/enterprise-finance","/api/calendar-bridge","/api/monthly-architectures","/api/entry-transitions","/api/automotive-workcell", "/api/learning-execution", "/api/support-expansion", "/api/asset-recovery"} else 200000):
                 raise ValueError("Request too large")
             request = json.loads(self.rfile.read(length))
             if endpoint == "/api/shared-workforce":
@@ -303,6 +308,11 @@ class Handler(BaseHTTPRequestHandler):
                     raise ValueError("Expected exactly inputs or saved_case for inspection")
                 if "inputs" in request and not isinstance(request["inputs"],dict):raise ValueError("Inspection inputs must be an object")
                 result=replay_inspection(request["saved_case"]) if "saved_case" in request else run_inspection_case(request["inputs"])
+                self.send(200,{"result":result})
+                return
+            if endpoint == "/api/inspection-price-bounds":
+                if not isinstance(request,dict) or set(request) not in ({"pair"},{"inputs"},{"saved_pair"}):raise ValueError("Expected exactly pair, inputs or saved_pair for inspection price bounds")
+                result=selected_price_bounds(request["pair"]) if "pair" in request else compare_inputs(request["inputs"]) if "inputs" in request else replay_price_bounds(request["saved_pair"])
                 self.send(200,{"result":result})
                 return
             if endpoint == "/api/release-continuity":

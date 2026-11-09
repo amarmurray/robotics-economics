@@ -170,3 +170,7 @@ Six new complete executions extend the existing combined architecture/crew/award
 ## Checkpoint 0.50: measurement-equivalent alternatives
 
 Two primary-source records and an operator-service audit add a substantive alternative-qualification and maintenance-disposition gate. The utility pack retains a valuable information-service pathway while requiring actual changed commitments for savings. Three packs and six cell reviews inherit the comparison method only. No model, world, numerical result or acceptance status changes; same campaign clock and writer.
+
+## Checkpoint 0.51: derived inspection cash bounds
+
+Eight comparisons derive customer/provider/consolidated window bounds from the unchanged eighteen inspection executions. Full matching service, funded work and the incumbent alternative are explicit; no additional maintenance value is assigned. No deployment world or empirical coefficient is added; fourteen families remain at 271 worlds. The same T0, deadline and incomplete empirical acceptance persist.

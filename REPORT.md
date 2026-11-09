@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.50, measurement-equivalent alternatives checkpoint, 9 November 2026. The operator-service audit now requires the same property, accepted service and decision before ranking alternatives. Complementary work and actual maintenance commitments remain explicit. All 271 bounded worlds in fourteen families are preserved; current all-payer economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.51, matched inspection cash bounds checkpoint, 9 November 2026. Eight derived comparisons distinguish customer fee capacity, provider recorded-resource recovery and consolidated resources after full-service and funding checks. The eighteen inspection executions and all 271 bounded worlds remain; no maintenance value, current price or deployment world is invented. Empirical whole-system economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -206,6 +206,10 @@ The [reviewed-release execution](research/shared_workforce.md#reviewed-releases-
 
 The [new utility audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) makes procurement conditional on the required measurement and action, with retained complementary work, actual payer responsibilities and current rights. The provider can sell a valuable information service without eliminating a customer shift; that value still needs a defensible decision counterfactual. No world, price or paid-work coefficient is added.
 
+### Customer willingness and provider resources, edition 0.51
+
+The [derived inspection comparison](research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) exposes a bounded commercial condition without inventing a price: complete customer service, provider work funding, the actual incumbent alternative and consolidated resources must reconcile. A positive aggregate interval is insufficient for timed funding or lifecycle economics. Eight comparisons reuse existing executions; no new world or measured benefit is added.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -222,7 +226,7 @@ All three packs now require the same accounting boundary, without transferring s
 
 Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
 
-Decision campaign, integrated checkpoint 0.50 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.51 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -482,6 +486,10 @@ The [reviewed-release execution](research/shared_workforce.md#reviewed-releases-
 #### Measurement equivalence before procurement, edition 0.50
 
 The [utility measurement audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) refines the qualified-alternative gate. Proceed with a bounded property/asset/quality/review/disposition contract; wait for current accepted output, each payer's full costs and an actual changed commitment before ranking economics. Reject an easier different diagnostic as a matched substitute, and reject a proposed maintenance scope as realized savings. The hospital and automotive packs inherit this test through their own service units and mandatory obligations. Existing evidence gaps and all synthetic results remain.
+
+#### Matched service before the fee comparison, edition 0.51
+
+The [inspection cash bounds](research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) distinguish the customer's alternative, provider resource recovery and consolidated resources. Complete matching service and funded monitoring are prerequisites; the same aggregate fee can fail at the first resource booking. Further maintenance value remains an evidence threshold. The three packs retain their own units, current qualification and full-lifecycle gaps; no synthetic price is transferred.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -2111,6 +2119,21 @@ Identical realized history through month 2; future resource cash increases by $2
 | retain_supported_legacy | 8 | 4,000.00 | 160 | 0.00 | None | 42,000.00 | 148,847.72 |
 
 Generated from [release_continuity.json](model/results/release_continuity.json). Month 0 is July 2026; January review cannot change service before February. Review costs are already in total resource cash. A paid pass is separate from candidate operating rights and provider qualification. Legacy expiry can leave unassigned market work despite complete company awards. These are declared premises, not vendor rights, learning effects or lifecycle returns.
+
+#### Derived matched-inspection cash bounds
+
+| Existing inspection comparison | Eligible | Buyer fee ceiling USD | Provider resource recovery USD | Interval USD | Further value at recorded fee USD |
+| --- | --- | ---: | ---: | ---: | ---: |
+| retained_paid_crew | Yes | -40.00 | 278.00 | -318.00 | 480.00 |
+| avoidable_visit | Yes | 1,160.00 | 278.00 | 882.00 | 0.00 |
+| physical_duty_remains | Yes | -120.00 | 278.00 | -398.00 | 560.00 |
+| fixed_qualified_alternative | Yes | 1,160.00 | 144.00 | 1,016.00 | 0.00 |
+| mobile_against_fixed | Yes | 220.00 | 278.00 | -58.00 | 220.00 |
+| one_bad_reading | Yes | -120.00 | 278.00 | -398.00 | 560.00 |
+| late_fallback_not_matched | unmatched_obligation:deadline_minute; alternative:incomplete_due_service | Not eligible | Not eligible | Not eligible | Not eligible |
+| unfunded_provider_not_priced | alternative:unfunded_monitoring_booking | Not eligible | Not eligible | Not eligible | Not eligible |
+
+Replayed from the eighteen unchanged inspection worlds; these are eight comparisons, not new deployment worlds. Values cover four synthetic windows and assign no downstream benefit. Aggregate recovery is not timed funding, lifecycle profit or a quote. See [the comparison contract](model/INSPECTION_PRICE_BOUNDS.md).
 
 ### Focused follow-up: Operating rollout, contract value and provider funding
 
@@ -3795,6 +3818,22 @@ The [SP Distribution closeout audit](research/quadruped_operator_followup.md#vir
 #### Track the continuing work across funding labels, edition 0.47
 
 [The UKPN funding-transition audit](research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) distinguishes an NIA closeout from continued internally funded work and later trial reporting. A potential time reduction and access to difficult spaces are useful hypotheses, not payroll removal or an accepted-service cohort. Require linked project/contract identities, actual payer cash, executed responsibilities and a feasible qualified alternative. Do not classify the funding closure as abandonment or add differently scoped budgets.
+
+#### Matched service and window cash bounds, edition 0.51
+
+The new [comparison contract](model/INSPECTION_PRICE_BOUNDS.md) replays existing inspection executions and derives buyer, provider and consolidated cash bounds. It introduces no deployment world or empirical cost. Only matching complete obligations, paid commitments and funded monitoring bookings receive bounds. This makes the measurement-equivalence evidence actionable as a comparison gate while keeping real diagnostic qualification unproven.
+
+With the paid crew retained, the complete mobile case costs the customer $480 more over the four synthetic windows. Its customer-side fee ceiling is negative $40, because nonfee review and retained staffing outweigh the avoided travel. The provider's recorded resources are $278. At resource recovery, $318 of additional net customer value would need evidence; at the recorded fee, $480 would. These are required thresholds, not measured monitoring value or assumed avoided outages.
+
+Under the explicitly avoidable-visit contract, the same complete mobile service has a $1,160 customer fee ceiling and $278 provider resource recovery amount, leaving an $882 aggregate interval. A required physical duty or one bad reading retains the visits and reverses that result: the recorded-fee case needs $560 of additional net value. This does not show real headcount removal; the paid contract is a synthetic premise.
+
+The qualified fixed alternative changes the bargaining comparator. Against it, the mobile customer's fee ceiling is $220 while the mobile provider's recorded resources are $278: no overlap, with $58 additional net customer value needed even at that recovery amount. Consolidated resources increase $134. The difference is the fixed alternative's $76 provider cash increase, which is not enterprise profit. A human-only comparison therefore cannot establish the best available monitoring alternative.
+
+The $79.50 synthetic per-visit crew bill is the exact aggregate cost-recovery switch for the complete mobile-versus-human comparison; one cent either side moves the four-window interval by four cents. The earlier $120 switch remains the different question of equality at the recorded customer fee. Neither threshold is an empirical wage, quote or investment return.
+
+Aggregate cost recovery also does not fund the opening work automatically. A test preserves the fixed channel's $220 total fee but changes its timing; the initial resource booking then fails while customer fallback completes the readings. That failed provider service is excluded from a price bound. Fee changes must be replayed, not inserted into a static interval while assuming unchanged service and cost.
+
+For the utility pack, identify the actual incumbent alternative and every mandatory duty before attaching a price to added information. The hospital and automotive packs inherit this logic through their own service obligations. A useful future record must show the changed action and net payer consequence; extra images, a proposed maintenance scope or a supplier's retained cash cannot fill that gap.
 
 #### Reproduced inspection-window worlds
 

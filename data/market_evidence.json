@@ -3652,6 +3652,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     },
     {
@@ -3712,6 +3717,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     },
     {
@@ -3771,6 +3781,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     },
     {
@@ -3836,6 +3851,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     },
     {
@@ -3895,6 +3915,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     },
     {
@@ -3961,6 +3986,11 @@
         "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
         "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+      },
+      "inspection_cash_bound_check": {
+        "finding": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "scope": "M03 synthetic inspection comparisons supply the method only; other cells inherit no inspection fee, staffing bill or resource coefficient.",
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051"
       }
     }
   ],
@@ -4258,6 +4288,13 @@
         "status": "bounded_primary_source_measurement_and_action_boundary",
         "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
+      },
+      "inspection_cash_bound_gate": {
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051",
+        "artifact": "model/results/inspection_price_bounds.json",
+        "status": "derived_bounds_on_existing_synthetic_inspection_executions",
+        "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
       }
     },
     {
@@ -4551,6 +4588,13 @@
         "status": "bounded_primary_source_measurement_and_action_boundary",
         "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
+      },
+      "inspection_cash_bound_gate": {
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051",
+        "artifact": "model/results/inspection_price_bounds.json",
+        "status": "derived_bounds_on_existing_synthetic_inspection_executions",
+        "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
       }
     },
     {
@@ -4832,6 +4876,13 @@
         "status": "bounded_primary_source_measurement_and_action_boundary",
         "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
         "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
+      },
+      "inspection_cash_bound_gate": {
+        "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051",
+        "artifact": "model/results/inspection_price_bounds.json",
+        "status": "derived_bounds_on_existing_synthetic_inspection_executions",
+        "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+        "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
       }
     }
   ],
@@ -4887,6 +4938,13 @@
       "status": "bounded_primary_source_measurement_and_action_boundary",
       "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
       "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
+    },
+    "inspection_cash_bound_gate": {
+      "analysis": "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051",
+      "artifact": "model/results/inspection_price_bounds.json",
+      "status": "derived_bounds_on_existing_synthetic_inspection_executions",
+      "principle": "Compare complete matching obligations before customer and provider cash bounds. Retain the qualified incumbent alternative, legal payers, funding timing and unproven further net value.",
+      "calibration": "No observed price, maintenance value, payroll effect or lifecycle return inferred."
     }
   }
 }

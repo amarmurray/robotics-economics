@@ -1,0 +1,15 @@
+# Inspection cash bounds: sole-writer review
+
+Edition 0.51; input `125c238a11f817c3fd8f215d462f22455e5cb469`. Same task, executable cloud, sole writer and November 14 deadline. No new source retrieval, native goal, agent, task, schedule, spending or outreach. All blocked routes remain closed.
+
+The new derived comparison reuses the existing inspection engine and immutable Treasury. It recomputes both complete inputs, checks the same due obligations and requires full service, no unpaid commitments and funded monitoring bookings. Failed offers retain their cash but have null bounds. No numerical input or existing world changes. An alternative without a monitoring service receives no monitoring-fee bound.
+
+The buyer ceiling, provider recorded-resource recovery and consolidated resource difference reconcile algebraically and by actual payer cash. Baseline provider cash explains the gap between a buyer-facing interval and consolidated resources. Negative ceilings are retained. No aggregate bound guarantees upfront liquidity; a test preserves the total fee while changing its timing and catches the failed opening booking. No downstream value, empirical price, profit or lifecycle return is inferred.
+
+An initial exact-output test found the existing Treasury's in-memory tuples versus saved JSON arrays. The new result is normalized to JSON before hashing, preserving the original engine and every old case. Tests compare embedded complete executions with the saved originals and replay forged derived fields from complete inputs.
+
+Fresh validation passes **14 new comparison tests**, exact derived export and complete browser-export/CLI replay, including forged derived values, strict API inputs, invalid imports and last-valid state retention. All **13 dashboard views**, eight saved pairs, three decision-pack gates, six cell scopes, explicit applied-inspection comparison, pending-edit separation, two stale-response conditions and source/annual-scenario independence pass. Both changed JavaScript files pass syntax checks. Screenshots show eligible and excluded comparisons; no JavaScript or unexpected API errors were observed. Evidence validation remains **13 packages, 233 claims, 552 quantities and 198 explicit-null markers**. The prior full575 Python tests (edition0.45), Node36 assertions (0.46) and release14 tests/full replay (0.49) are not relabeled fresh; unchanged suites were not repeated.
+
+All **2,087,899 typed numeric fields across 43 prior JSON artifacts** and every non-fingerprint result field remain unchanged; **32 artifacts are byte-identical**, and **11** change only edited evidence fingerprints and dependent identities. Every prior model, assumption, source claim and labor row remains unchanged. The derived artifact adds eight comparisons with 10,544 numeric fields, not deployment worlds or coefficients. The total is **44 result artifacts /2,098,443 typed numeric fields**. The **14 bounded families /271 worlds**, legacy **53 met /16 partial**, 69 requirement statuses and 65 question statuses remain.
+
+All **399 manifest hashes** and **1043 relative Markdown links** verify.

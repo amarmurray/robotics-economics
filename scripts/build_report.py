@@ -44,7 +44,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.50, measurement-equivalent alternatives checkpoint, 9 November 2026. The operator-service audit now requires the same property, accepted service and decision before ranking alternatives. Complementary work and actual maintenance commitments remain explicit. All 271 bounded worlds in fourteen families are preserved; current all-payer economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.51, matched inspection cash bounds checkpoint, 9 November 2026. Eight derived comparisons distinguish customer fee capacity, provider recorded-resource recovery and consolidated resources after full-service and funding checks. The eighteen inspection executions and all 271 bounded worlds remain; no maintenance value, current price or deployment world is invented. Empirical whole-system economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -265,6 +265,15 @@ The initial editions were produced in a cloud checkout. The local continuation b
     for row in continuation['payer_differences']:
         continuation_table.append(f"| {row['payer']} | {row['continued_resource_cash_cents']/100:,.2f} | {row['stopped_resource_cash_cents']/100:,.2f} | {row['difference_cents']/100:,.2f} |")
     out.insert(insert_at+7,'#### Continue or stop after the same paid failure\n\n'+'\n'.join(continuation_table)+f"\n\nIdentical realized history through month 2; future resource cash increases by ${continuation['additional_resource_cash_cents']/100:,.2f} under continuation. Both policies finish the same remaining 2,500 cleaning zones and 100 inventory jobs. Terminal hardware states and unvalued future benefits differ. Past spending and internal fees are excluded; this is not an optimal stopping or lifecycle-return verdict.")
+
+    inspection_bounds=json.loads((ROOT/'model/results/inspection_price_bounds.json').read_text())
+    for path,digest in inspection_bounds['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise SystemExit('Stale inspection-bound dependency: '+path)
+    price_table=['| Existing inspection comparison | Eligible | Buyer fee ceiling USD | Provider resource recovery USD | Interval USD | Further value at recorded fee USD |','| --- | --- | ---: | ---: | ---: | ---: |']
+    for row in inspection_bounds['summary']:
+        b=row['bounds'];vals=[f"{b[k]/100:,.2f}" for k in ('customer_fee_ceiling_cents','provider_recorded_resource_recovery_cents','interval_width_cents','further_net_customer_value_needed_at_recorded_fee_cents')] if b else ['Not eligible']*4
+        price_table.append('| '+row['comparison']+' | '+('Yes' if row['eligible'] else '; '.join(row['reasons']))+' | '+' | '.join(vals)+' |')
+    out.insert(insert_at+8,'#### Derived matched-inspection cash bounds\n\n'+'\n'.join(price_table)+'\n\nReplayed from the eighteen unchanged inspection worlds; these are eight comparisons, not new deployment worlds. Values cover four synthetic windows and assign no downstream benefit. Aggregate recovery is not timed funding, lifecycle profit or a quote. See [the comparison contract](model/INSPECTION_PRICE_BOUNDS.md).')
 
     release=json.loads((ROOT/'model/results/release_continuity.json').read_text())
     for path,digest in release['source_sha256'].items():

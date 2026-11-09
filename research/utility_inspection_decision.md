@@ -76,3 +76,19 @@ The [SP Distribution closeout audit](quadruped_operator_followup.md#virtual-insp
 ## Track the continuing work across funding labels, edition 0.47
 
 [The UKPN funding-transition audit](quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047) distinguishes an NIA closeout from continued internally funded work and later trial reporting. A potential time reduction and access to difficult spaces are useful hypotheses, not payroll removal or an accepted-service cohort. Require linked project/contract identities, actual payer cash, executed responsibilities and a feasible qualified alternative. Do not classify the funding closure as abandonment or add differently scoped budgets.
+
+## Matched service and window cash bounds, edition 0.51
+
+The new [comparison contract](../model/INSPECTION_PRICE_BOUNDS.md) replays existing inspection executions and derives buyer, provider and consolidated cash bounds. It introduces no deployment world or empirical cost. Only matching complete obligations, paid commitments and funded monitoring bookings receive bounds. This makes the measurement-equivalence evidence actionable as a comparison gate while keeping real diagnostic qualification unproven.
+
+With the paid crew retained, the complete mobile case costs the customer $480 more over the four synthetic windows. Its customer-side fee ceiling is negative $40, because nonfee review and retained staffing outweigh the avoided travel. The provider's recorded resources are $278. At resource recovery, $318 of additional net customer value would need evidence; at the recorded fee, $480 would. These are required thresholds, not measured monitoring value or assumed avoided outages.
+
+Under the explicitly avoidable-visit contract, the same complete mobile service has a $1,160 customer fee ceiling and $278 provider resource recovery amount, leaving an $882 aggregate interval. A required physical duty or one bad reading retains the visits and reverses that result: the recorded-fee case needs $560 of additional net value. This does not show real headcount removal; the paid contract is a synthetic premise.
+
+The qualified fixed alternative changes the bargaining comparator. Against it, the mobile customer's fee ceiling is $220 while the mobile provider's recorded resources are $278: no overlap, with $58 additional net customer value needed even at that recovery amount. Consolidated resources increase $134. The difference is the fixed alternative's $76 provider cash increase, which is not enterprise profit. A human-only comparison therefore cannot establish the best available monitoring alternative.
+
+The $79.50 synthetic per-visit crew bill is the exact aggregate cost-recovery switch for the complete mobile-versus-human comparison; one cent either side moves the four-window interval by four cents. The earlier $120 switch remains the different question of equality at the recorded customer fee. Neither threshold is an empirical wage, quote or investment return.
+
+Aggregate cost recovery also does not fund the opening work automatically. A test preserves the fixed channel's $220 total fee but changes its timing; the initial resource booking then fails while customer fallback completes the readings. That failed provider service is excluded from a price bound. Fee changes must be replayed, not inserted into a static interval while assuming unchanged service and cost.
+
+For the utility pack, identify the actual incumbent alternative and every mandatory duty before attaching a price to added information. The hospital and automotive packs inherit this logic through their own service obligations. A useful future record must show the changed action and net payer consequence; extra images, a proposed maintenance scope or a supplier's retained cash cannot fill that gap.

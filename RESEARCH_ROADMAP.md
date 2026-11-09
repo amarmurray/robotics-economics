@@ -379,3 +379,9 @@ Next prioritize a genuinely new permitted operator record linking accepted inspe
 QOF-E25/E26 and QOF-AUDIT-SERVICE-04 refine the utility alternative: match required property and decision, preserve complementary work, and separate proposed maintenance scope from executed commitments. Current accepted exposure, changed work orders, paid staffing and absolute payer costs remain unavailable. No synthetic world or coefficient is added; fourteen families remain at 271 worlds.
 
 Do not repeat the reviewed LineCore search or denied snapshot requests. Already returned page text supports this bounded audit; no raw HTML hash is claimed. A useful next record must materially add a linked disposition/work-order/cost outcome or a current qualified-alternative contract. Otherwise pursue an independent campaign gap with a concrete composition contract; more generic announcements or cases would not resolve this dependency. Keep all prior restrictions and the November 14 deadline.
+
+## Matched inspection cash bounds, edition 0.51
+
+Eight derived comparisons reuse the existing inspection worlds. Customer fee capacity, provider recorded-resource recovery and consolidated resources now reconcile after service, duty and funding checks. A competent fixed alternative can close an apparent mobile-versus-human interval; equal total fees can still fail opening funding. No new world, maintenance benefit or price coefficient is added. Fourteen families remain at 271 worlds.
+
+The unresolved decision is a linked accepted-result/action/paid-commitment record or a compatible downstream-action contract. A bound identifies required evidence; it cannot manufacture the action's value. Preserve the closed source routes and use only a genuinely useful independent gap. Same campaign clock and sole writer.

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.50.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.51.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: measurement-equivalent alternatives, edition 0.50
+## Current checkpoint: matched inspection cash bounds, edition 0.51
+
+Same sole-writer campaign **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `125c238a11f817c3fd8f215d462f22455e5cb469` was clean and remote-verified. The same cloud configuration is running and connected, with actual commands and browser execution. No goal, clock, model setting, task, schedule, spending, outreach or access change. Quota is unknown.
+
+The [matched-inspection comparison](model/INSPECTION_PRICE_BOUNDS.md) separates buyer fee capacity, provider paid resources and consolidated resource changes after checking the same complete service, paid commitments and funded provider work. Replays use both complete inputs. Retained paid staff yield a **−$40 customer fee ceiling** against **$278 provider resource recovery** across four synthetic windows; avoidable visits instead yield **$1,160 /$278**, an **$882 aggregate interval**. Against a qualified fixed alternative, the mobile interval is **−$58** and consolidated resources rise **$134**; the baseline provider cash change explains the difference. No maintenance value or actual commercial price is estimated. An equal total fee with later receipts can leave the opening provider work unfunded, so an aggregate interval does not establish an executable offer. The dashboard supports saved or explicitly applied comparisons and exact complete replay.
+
+Fresh validation passes **14 new comparison tests**, exact derived export and complete browser-export/CLI replay, including forged derived values, strict API inputs, invalid imports and last-valid state retention. All **13 dashboard views**, eight saved pairs, three decision-pack gates, six cell scopes, explicit applied-inspection comparison, pending-edit separation, two stale-response conditions and source/annual-scenario independence pass. Both changed JavaScript files pass syntax checks. Screenshots show eligible and excluded comparisons; no JavaScript or unexpected API errors were observed. Evidence validation remains **13 packages, 233 claims, 552 quantities and 198 explicit-null markers**. The prior full575 Python tests (edition0.45), Node36 assertions (0.46) and release14 tests/full replay (0.49) are not relabeled fresh; unchanged suites were not repeated.
+
+All **2,087,899 typed numeric fields across 43 prior JSON artifacts** and every non-fingerprint result field remain unchanged; **32 artifacts are byte-identical**, and **11** change only edited evidence fingerprints and dependent identities. Every prior model, assumption, source claim and labor row remains unchanged. The derived artifact adds eight comparisons with 10,544 numeric fields, not deployment worlds or coefficients. The total is **44 result artifacts /2,098,443 typed numeric fields**. The **14 bounded families /271 worlds**, legacy **53 met /16 partial**, 69 requirement statuses and 65 question statuses remain.
+
+All **399 manifest hashes** and **1043 relative Markdown links** verify. See the [sole-writer review](reviews/inspection_price_bounds_review.md). Observed publication identities and runtime are in the ignored receipt.
+
+**Remaining dependency / next action:** current matched accepted inspections, resulting authorized work orders, realized maintenance outcomes, paid staffing/contract rights and each payer's absolute costs remain missing. No price, avoided outage, paid-hours saving or empirical cost coefficient is inferred. All prior National Gas, Hydro-Québec, T&D World and Nucleom403 routes and other denied/request-based routes stay closed; no source retrieval was attempted in this tranche. Useful independent work should address a consequential unblocked campaign gap rather than add arbitrary synthetic worlds, repeat generic operator searches or restate this checkpoint. No runtime or publication blocker affected this tranche, and no scheduled hold is reinstated.
+
+**Next question:** which actual customer commitment or maintenance action can change, and does its payer-specific net value exceed the required threshold after residual service and provider funding?
+
+## Previous checkpoint: measurement-equivalent alternatives, edition 0.50
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `722e2bd2f2bafcbdc5ebb66031f495efcf5858e2` was clean and remote-verified at the preceding checkpoint. Same executable cloud checkout and published configuration; no goal, clock, model setting, task, schedule or writer changed. No spending, outreach or access expansion. Quota is unknown.
 

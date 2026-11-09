@@ -1,5 +1,7 @@
 # Initial deployment thesis register
 
+**Edition 0.51:** a customer fee ceiling and provider resource-recovery amount require matching complete service. Their interval depends on the incumbent alternative and differs from consolidated resource savings when the baseline provider retains cash. Aggregate recovery cannot replace a timed funding replay; further maintenance value remains unproven.
+
 **Edition 0.50:** a procurement comparison must satisfy the same required property and decision. Complementary tests and specialist review can remain after automation. Proposed maintenance scope is not an executed work order or realized saving; retain each payer's complete obligation.
 
 **Edition 0.49:** maintaining a qualified old version requires a continuing entitlement and funded support. A paid candidate review does not itself supply operating rights or justify binding staff cuts. Evaluate complete market service through the transition, including unassigned work and paid fallback. Conditional synthetic findings do not identify an actual product or lifecycle return.

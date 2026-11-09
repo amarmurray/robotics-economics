@@ -172,3 +172,7 @@ The [reviewed-release execution](shared_workforce.md#reviewed-releases-and-conti
 ## Decision-equivalent alternatives, edition 0.50
 
 The [new utility audit](quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) makes procurement conditional on the required measurement and action, with retained complementary work, actual payer responsibilities and current rights. The provider can sell a valuable information service without eliminating a customer shift; that value still needs a defensible decision counterfactual. No world, price or paid-work coefficient is added.
+
+## Customer willingness and provider resources, edition 0.51
+
+The [derived inspection comparison](utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051) exposes a bounded commercial condition without inventing a price: complete customer service, provider work funding, the actual incumbent alternative and consolidated resources must reconcile. A positive aggregate interval is insufficient for timed funding or lifecycle economics. Eight comparisons reuse existing executions; no new world or measured benefit is added.
