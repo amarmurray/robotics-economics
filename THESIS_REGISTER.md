@@ -1,5 +1,7 @@
 # Initial deployment thesis register
 
+**Edition 0.50:** a procurement comparison must satisfy the same required property and decision. Complementary tests and specialist review can remain after automation. Proposed maintenance scope is not an executed work order or realized saving; retain each payer's complete obligation.
+
 **Edition 0.49:** maintaining a qualified old version requires a continuing entitlement and funded support. A paid candidate review does not itself supply operating rights or justify binding staff cuts. Evaluate complete market service through the transition, including unassigned work and paid fallback. Conditional synthetic findings do not identify an actual product or lifecycle return.
 
 **Edition 0.48:** paid failed development belongs in the historical resource account; a pass is a separate gate from supported service and removable paid work. The same service history now prices declared attempts without charging them again at admission. No operator-source calibration or optimal stopping claim.

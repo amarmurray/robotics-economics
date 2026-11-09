@@ -166,3 +166,7 @@ Six new complete executions extend the existing combined architecture/crew/award
 ## Checkpoint 0.49: reviewed release and continuing service
 
 Six new complete executions extend the existing combined architecture/crew/award family to 271 worlds across fourteen families. Paid release review, following-month eligibility, retained-version entitlement and separate operating rights now affect the same legal cash, paid staffing and actual market awards. Hardware possession does not supply support; completed assigned work does not establish complete market service. Prior results and the same campaign clock remain. Actual candidate quality, rights, costs and all-payer service economics are unknown; no acceptance status is promoted.
+
+## Checkpoint 0.50: measurement-equivalent alternatives
+
+Two primary-source records and an operator-service audit add a substantive alternative-qualification and maintenance-disposition gate. The utility pack retains a valuable information-service pathway while requiring actual changed commitments for savings. Three packs and six cell reviews inherit the comparison method only. No model, world, numerical result or acceptance status changes; same campaign clock and writer.

@@ -1,6 +1,16 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: reviewed release and continuing service, edition 0.49
+## New decision campaign: measurement-equivalent alternatives, edition 0.50
+
+The [measurement-equivalence audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) adds QOF-E25/E26 and QOF-AUDIT-SERVICE-04. It makes the required property, accepted service and actual maintenance disposition the basis of a qualified-alternative comparison. A useful information service can retain complementary tests and paid specialists. Proposed scope is separate from authorized work, completed intervention and realized savings; no paid-hours or capital-return coefficient is inferred. Three packs and six reassessments inherit this test through their own service units. The existing inspection panel now selects this audit or the prior SP Distribution whole-service challenge. No empirical acceptance status is promoted.
+
+Fresh validation passes the evidence registry at **13 packages, 233 claims, 552 reported quantities and 198 explicit-null markers**, the changed dashboard script syntax, primary-text context/provenance review and explicit missing-date checks. Three affected exporters refresh evidence fingerprints. All **13 dashboard views**, both selectable service audits in four views, two source drilldowns, three decision-pack gates, six cell scopes, search/year filters, selection persistence, scenario export/reload and source/scenario independence pass. The added field-specific missing-date reason is rechecked in a fresh browser and against the accepted registry bytes. Screenshots were visually checked; no JavaScript or unexpected API errors were observed. No model or helper code changed: full **575 Python tests** remain prior edition 0.45 evidence, **36 Node assertions** prior edition 0.46, and **14 release tests plus complete replay** prior edition 0.49. These unchanged checks are not relabeled fresh.
+
+All **2,087,899 typed numeric fields across 43 prior JSON artifacts** and every non-fingerprint result field remain unchanged. **32 artifacts are byte-identical** and **11** change only exact evidence fingerprints and dependent identities. Prior source records/audits, model code, assumptions and labor rows are preserved. No world or coefficient is added; **14 bounded families /271 worlds** remain. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **393 manifest hashes** and **1031 relative Markdown links** verify. Source archival403 limitations are retained in the [sole-writer review](reviews/measurement_equivalence_review.md).
+
+## Previous decision checkpoint: reviewed release and continuing service, edition 0.49
 
 Prospective paid review, retained support and operating rights now gate one complete service/payer history. Market-level unassigned work remains distinct from company-level completion; funded fallback is explicit. The synthetic interface promotes no empirical status. Same clock and sole writer.
 

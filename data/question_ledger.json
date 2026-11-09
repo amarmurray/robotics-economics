@@ -34,13 +34,15 @@
       "dependencies_and_completion": "W1 taxonomy after PL-01. Deeper validation when comparable operating observations become available.",
       "findings": [
         "Handling, transport, cleaning and inspection recur, but payload, urgency, quality and process authority prevent assuming equivalent workflows.",
-        " Edition 0.46 adds a primary historical SP Distribution inspection closeout: useful extra defect visibility coexists with retained physical/manual work and a projected programme cost premium. Unique accepted output and the 207/208 source count do not reconcile; no payroll, all-payer ROI or current legal conclusion follows."
+        " Edition 0.46 adds a primary historical SP Distribution inspection closeout: useful extra defect visibility coexists with retained physical/manual work and a projected programme cost premium. Unique accepted output and the 207/208 source count do not reconcile; no payroll, all-payer ROI or current legal conclusion follows.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/economic_atlas.md",
         "data/market_evidence.json",
         "data/quadruped_operator_followup.json",
-        "research/quadruped_operator_followup.md"
+        "research/quadruped_operator_followup.md",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -93,14 +95,16 @@
       "dependencies_and_completion": "W1 evidence matrix in parallel with PL-01/02; iteratively join the evolving market map. Complete with explicit unknowns and comparison limits.",
       "findings": [
         "Versioned records distinguish industrial pilots, planned deployment, research evaluations and manufacturing ramp; goals are not achieved reliability.",
-        "Edition 0.20: CAP-E025..027 separate fixed-workcell history, Figure 03/Helix 02 demonstration and operator pilot chronology. Different configurations, tasks and timing denominators remain distinct."
+        "Edition 0.20: CAP-E025..027 separate fixed-workcell history, Figure 03/Helix 02 demonstration and operator pilot chronology. Different configurations, tasks and timing denominators remain distinct.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/capability_learning.md",
         "data/capability_evidence.json",
         "research/automotive_workcell_decision.md",
         "model/AUTOMOTIVE_WORKCELL.md",
-        "model/results/automotive_workcell.json"
+        "model/results/automotive_workcell.json",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
     },
@@ -182,7 +186,8 @@
         "Frozen monthly cohorts retain their admitted robot level and subscription vintage. Paid changed-version upgrades consume shared support resources before use. This is a synthetic no-transfer/qualification mechanism, not evidence of real portability or rights.",
         "Edition 0.20: A distinct purchased replacement receives its own qualification/support list and cannot inherit service capability from its name or erase missed deadlines.",
         "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/capability_learning.md",
@@ -196,7 +201,8 @@
         "research/learning_execution.md",
         "model/LEARNING_EXECUTION.md",
         "model/results/learning_execution.json",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a sustained configured deployment with actual target/retained-cohort outcomes, complete R&D/support resources, rights, delivery commitments and costs; do not treat the synthetic gates as empirical acceptance."
     },
@@ -619,7 +625,8 @@
         "Edition 0.32 makes local process knowledge and integration authority explicit alongside supplier service. Retained work needs a payer and schedule; no automation label proves payroll can be removed.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
         "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -627,7 +634,8 @@
         "research/quadruped_operator_followup.md",
         "data/quadruped_operator_followup.json",
         "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
@@ -724,7 +732,8 @@
         "Edition 0.46 adds the distinct AATIS closeout: prototype progress and safety-case preparation preceded a pause and termination as the operator judged market alternatives better. No actual spend, regulator approval, purchased replacement or realized saving is established. Qualification, paid development and the dated outside option remain separate.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
         "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -759,7 +768,8 @@
         "data/quadruped_operator_followup.json",
         "research/quadruped_operator_followup.md",
         "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -960,7 +970,8 @@
         " Edition 0.46 adds a primary historical SP Distribution inspection closeout: useful extra defect visibility coexists with retained physical/manual work and a projected programme cost premium. Unique accepted output and the 207/208 source count do not reconcile; no payroll, all-payer ROI or current legal conclusion follows.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
         "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -1000,7 +1011,8 @@
         "model/architecture_awards.py",
         "model/results/architecture_awards.json",
         "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -1030,7 +1042,8 @@
         "Edition 0.46 adds the distinct AATIS closeout: prototype progress and safety-case preparation preceded a pause and termination as the operator judged market alternatives better. No actual spend, regulator approval, purchased replacement or realized saving is established. Qualification, paid development and the dated outside option remain separate.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
         "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -1063,7 +1076,8 @@
         "research/field_support_denominators.md",
         "data/field_support_denominators.json",
         "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -1663,7 +1677,8 @@
         "Edition 0.42 adds a specialist nuclear service comparator, explicitly outside quadruped deployment counts; related operator pages are not independent retained-use replications.",
         " Edition 0.46 adds a primary historical SP Distribution inspection closeout: useful extra defect visibility coexists with retained physical/manual work and a projected programme cost premium. Unique accepted output and the 207/208 source count do not reconcile; no payroll, all-payer ROI or current legal conclusion follows.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
-        "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim."
+        "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1673,7 +1688,8 @@
         "research/utility_inspection_decision.md",
         "model/UTILITY_INSPECTION.md",
         "model/results/utility_inspection.json",
-        "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+        "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -1694,7 +1710,8 @@
         "Edition0.43 separates reported project costs, indicative equipment replication and realized value from changed inspection/maintenance decisions. A pre-commercial plan is not current retained use.",
         " Edition 0.46 adds a primary historical SP Distribution inspection closeout: useful extra defect visibility coexists with retained physical/manual work and a projected programme cost premium. Unique accepted output and the 207/208 source count do not reconcile; no payroll, all-payer ROI or current legal conclusion follows.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
-        "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim."
+        "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1704,7 +1721,8 @@
         "model/UTILITY_INSPECTION.md",
         "model/results/utility_inspection.json",
         "data/quadruped_operator_followup.json",
-        "research/shared_workforce.md#paid-development-before-service-admission-edition-048"
+        "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a permitted linked due-object/accepted-review/maintenance-disposition ledger with current staffing and absolute payer costs. Keep request-only and denied access closed; use the complete manual/hybrid alternative."
     },
@@ -1721,7 +1739,8 @@
         "Edition 0.32 treats onboarding, process/IT integration, review, repair access and qualification as separate scaling obligations; a serviced offer does not quantify the complete labor boundary.",
         "Edition 0.47 separates UKPN NIA closure from explicit internal-funding continuation after liability/insurance negotiations. Later related operator accounts describe Spot inspection work but only potential time reductions. No reconciled project/payer ledger, executed terms, accepted-service cohort or payroll effect is supplied.",
         "Edition 0.48 joins paid pre-admission work to the architecture/crew/award history. Funded failed reviews remain paid; a declared pass and later supported service are separate. First-pass cash/service reproduce the prior case. No empirical learning, paid-hours or ROI claim.",
-        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration."
+        "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "research/physical_supply_field.md",
@@ -1729,7 +1748,8 @@
         "research/quadruped_operator_followup.md",
         "data/quadruped_operator_followup.json",
         "research/shared_workforce.md#paid-development-before-service-admission-edition-048",
-        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+        "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Obtain a configured due-service and work record spanning customer integration/review, robot repair/requalification, actual coverage and each payer. Keep plant benefits, robot burdens and forecast/observed outcomes separate."
     },
@@ -2098,7 +2118,8 @@
         "Reported RLDX and RynnBrain experiments use specific effectors, controllers and serving hardware. Data/simulator/reasoning contributions are not equated with a quadruped, arbitrary embodiment or enterprise workflow deployment.",
         "GEN-1.5 trajectory output frequency is distinct from inference latency. Dyna robot task post-training, language partial credit and deployment maintenance remain separate from cross-embodiment and enterprise coordination claims.",
         "Edition 0.21: Model/video capability across robots does not itself qualify new effectors or preserved installed service; target and retained-source tests remain necessary.",
-        "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred."
+        "Edition 0.23: FG-AUDIT-01 separates operator continuation, planned generation migration, illustrative customer/product economics, historical company accounts and completed gross financing. Matching accepted service, rights, paid schedules and executed cash terms remain required; no ROI or calibrated coefficient is inferred.",
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
       ],
       "artifacts": [
         "FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md",
@@ -2111,7 +2132,8 @@
         "reviews/generalist_dyna_review.md",
         "research/learning_qualification.md",
         "data/learning_data_economics.json",
-        "research/commercial_disclosure_boundaries.md"
+        "research/commercial_disclosure_boundaries.md",
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       ],
       "next_action": "Seek a matched operating workflow and cost denominator with disclosed access/contract and support terms; preserve the original completion condition and do not calibrate scenarios from issuer benchmarks."
     },

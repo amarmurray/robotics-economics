@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.49.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.50.
 
 ## Accepted direction
 
@@ -20,7 +20,25 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: reviewed release and continuing service, edition 0.49
+## Current checkpoint: measurement-equivalent alternatives, edition 0.50
+
+The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `722e2bd2f2bafcbdc5ebb66031f495efcf5858e2` was clean and remote-verified at the preceding checkpoint. Same executable cloud checkout and published configuration; no goal, clock, model setting, task, schedule or writer changed. No spending, outreach or access expansion. Quota is unknown.
+
+The [measurement-equivalence audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) adds QOF-E25/E26 and QOF-AUDIT-SERVICE-04. It makes the required property, accepted service and actual maintenance disposition the basis of a qualified-alternative comparison. A useful information service can retain complementary tests and paid specialists. Proposed scope is separate from authorized work, completed intervention and realized savings; no paid-hours or capital-return coefficient is inferred. Three packs and six reassessments inherit this test through their own service units. The existing inspection panel now selects this audit or the prior SP Distribution whole-service challenge.
+
+Fresh validation passes the evidence registry at **13 packages, 233 claims, 552 reported quantities and 198 explicit-null markers**, the changed dashboard script syntax, primary-text context/provenance review and explicit missing-date checks. Three affected exporters refresh evidence fingerprints. All **13 dashboard views**, both selectable service audits in four views, two source drilldowns, three decision-pack gates, six cell scopes, search/year filters, selection persistence, scenario export/reload and source/scenario independence pass. The added field-specific missing-date reason is rechecked in a fresh browser and against the accepted registry bytes. Screenshots were visually checked; no JavaScript or unexpected API errors were observed. No model or helper code changed: full **575 Python tests** remain prior edition 0.45 evidence, **36 Node assertions** prior edition 0.46, and **14 release tests plus complete replay** prior edition 0.49. These unchanged checks are not relabeled fresh.
+
+All **2,087,899 typed numeric fields across 43 prior JSON artifacts** and every non-fingerprint result field remain unchanged. **32 artifacts are byte-identical** and **11** change only exact evidence fingerprints and dependent identities. Prior source records/audits, model code, assumptions and labor rows are preserved. No world or coefficient is added; **14 bounded families /271 worlds** remain. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **393 manifest hashes** and **1031 relative Markdown links** verify. See the [sole-writer review](reviews/measurement_equivalence_review.md). Normal scoped private publication and exact observed commit identities are recorded in the ignored receipt.
+
+**Access limitation:** the operator-authored technical article and supplier service page were successfully read through the web tool. Later ordinary raw-HTML archive attempts returned **403 Forbidden** for `https://www.tdworld.com/overhead-transmission/article/20970734/linecore-technology-probing-below-the-surface` and `https://nucleom.ca/en/industries/power-line/transmission-line-inspection/`. Those attempts stopped. This checkpoint uses only the already returned text and claims no raw-byte source hash. The separate `https://www.hydroquebec.com/robots/en/` and `https://www.hydroquebec.com/safety/innovative-technologies-more-reliable-grid.html` pages also remain denied. User-message history provided no materially new access authorization; none of these pages was retried or obtained through another route after denial. National Gas403 and all prior closed/request-based routes remain closed.
+
+**Remaining dependency / next action:** a current due-asset/accepted-measurement/disposition/work-order join, actual paid commitments, executed rights and each payer's absolute resource cost remain missing. Do not repeat the same generic LineCore search or blocked archive requests. Prioritize a genuinely new permitted linked outcome or a substantive independent campaign gap with a compatible contract. Raw-source archival is blocked as stated; no runtime or private-publication blocker affected this tranche. No schedule hold is reinstated.
+
+**Next question:** what specific qualified alternative or intervention changes after the accepted result, and which actual customer/provider obligation and payment disappears, appears or moves?
+
+## Previous checkpoint: reviewed release and continuing service, edition 0.49
 
 The same sole-writer campaign remains **in progress**, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. Input `2ab787490ec3537e2dfcec9ad4dd09e5543af078` was clean and remote-verified; saved candidate work was preserved on continuation. The same selected cloud environment reported connected/running with current observations, enforced network policy and the expected published configuration. Shell commands executed in the actual checkout. No goal, clock or model setting changed; no new agent/task/schedule, spending, outreach or expanded access occurred. Quota remains unknown.
 

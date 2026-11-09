@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.49, reviewed release and continuing service checkpoint, 9 November 2026. Paid review, following-month eligibility, retained-version support and candidate operating rights now share one physical, legal-payer, paid-crew and customer-award history. Hardware can remain installed while service is unsupported; assigned-work completion can conceal unmet market demand. Fourteen families contain 271 bounded worlds. Actual rights, quality, whole-system economics, hardware migration and recovery remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.50, measurement-equivalent alternatives checkpoint, 9 November 2026. The operator-service audit now requires the same property, accepted service and decision before ranking alternatives. Complementary work and actual maintenance commitments remain explicit. All 271 bounded worlds in fourteen families are preserved; current all-payer economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -202,6 +202,10 @@ The [paid-development execution](research/shared_workforce.md#paid-development-b
 
 The [reviewed-release execution](research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049) separates paid evaluation, prospective eligibility, operating rights and the retained version's continuing support. A staff cut can leave unassigned market demand after support expires even when each company completes its awards. This synthetic M11 fixture supplies a decision gate for all cells, without transferring its prices, rates or outcomes. Require funded complete fallback through the transition; retain current empirical gaps and terminal asset obligations.
 
+### Decision-equivalent alternatives, edition 0.50
+
+The [new utility audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) makes procurement conditional on the required measurement and action, with retained complementary work, actual payer responsibilities and current rights. The provider can sell a valuable information service without eliminating a customer shift; that value still needs a defensible decision counterfactual. No world, price or paid-work coefficient is added.
+
 ### Focused follow-up: Deployment and entry decision packs
 
 Authoritative analysis: [research/deployment_entry_decisions.md](research/deployment_entry_decisions.md).
@@ -218,7 +222,7 @@ All three packs now require the same accounting boundary, without transferring s
 
 Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
 
-Decision campaign, integrated checkpoint 0.49 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.50 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -474,6 +478,10 @@ The [paid-development execution](research/shared_workforce.md#paid-development-b
 #### Continuing service through a release decision, edition 0.49
 
 The [reviewed-release execution](research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049) separates paid evaluation, prospective eligibility, operating rights and the retained version's continuing support. A staff cut can leave unassigned market demand after support expires even when each company completes its awards. This synthetic M11 fixture supplies a decision gate for all cells, without transferring its prices, rates or outcomes. Require funded complete fallback through the transition; retain current empirical gaps and terminal asset obligations.
+
+#### Measurement equivalence before procurement, edition 0.50
+
+The [utility measurement audit](research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) refines the qualified-alternative gate. Proceed with a bounded property/asset/quality/review/disposition contract; wait for current accepted output, each payer's full costs and an actual changed commitment before ranking economics. Reject an easier different diagnostic as a matched substitute, and reject a proposed maintenance scope as realized savings. The hospital and automotive packs inherit this test through their own service units and mandatory obligations. Existing evidence gaps and all synthetic results remain.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -3694,6 +3702,18 @@ That distinction matters for customer acquisitions and provider-backed operating
 Do not add the differing portal and project-page monetary labels into a single cost. The closeout names Eastern Power Networks, while the portal lists other UKPN licensees; those labels do not allocate actual cash. The project page's budget and future savings are also not an actual BFI expenditure statement. No revenue, margin, payback or lifecycle return is reconstructed from them.
 
 Where people cannot safely access an inspection location, compare feasible qualified remote or specialist alternatives. The robot may add useful access rather than substitute for an available human task. Elsewhere, any paid-work effect still depends on the complete roster, supervision, setup, review, maintenance and response duties. The six-cell review and three decision packs carry these identity, responsibility and counterfactual checks without importing a UK tunnel rate or funding rule. Current accepted service, changed maintenance, paid commitments, executed support/insurance terms and every payer's absolute cost remain unavailable; no further data request was sent.
+
+#### Measurement equivalence and maintenance scope, edition 0.50
+
+[Operator-employed authors](https://www.tdworld.com/overhead-transmission/article/20970734/linecore-technology-probing-below-the-surface) report measurements informing full-line versus selected-span replacement assessments, with targeted sampling still possible. The separate [Nucleom service offer](https://nucleom.ca/en/industries/power-line/transmission-line-inspection/) distinguishes deployment configurations. Neither source supplies a matched current economic outcome. QOF-E25/E26 preserve dates, authorship and limitations; QOF-AUDIT-SERVICE-04 defines the decision test.
+
+This changes the comparison question: start with the property and action required by the asset owner. An alternative that measures something else cannot win by being cheaper per image or faster per kilometer. Nor should a required complementary test be removed because one stage is automated. Define one due asset/property, qualified measurement, timely review and recorded disposition; count retries, setup, expert interpretation and intervention separately.
+
+A maintenance-scope recommendation, an authorized work order and a completed intervention are different stages. A defensible capital-saving claim requires the otherwise feasible plan and actual changed commitments, including extra tests or work the new information induces. A payroll claim additionally needs changed paid staffing. The measurement can still be worth buying for better information or access, but that value needs an explicit decision and evidence; no avoided failure value is imputed.
+
+The utility pack can proceed with analytical qualification of such a measurement contract while waiting on scale economics. Reject substituting a mismatched diagnostic or booking proposed scope as realized savings. The hospital and automotive packs inherit the equivalence test, not conductor methods or costs: preserve custody/urgency for a delivery and quality/takt for a part. Customer newco, acquisition and hybrid routes need qualified control and executable rights; a provider must fund its complete inspection obligation and price fees separately from its resources.
+
+Both pages were read through the web tool before ordinary raw-HTML snapshot attempts returned 403. Those downloads stopped; no retry, alternate retrieval or raw-byte hash is claimed. Two distinct Hydro-Quebec overview pages also remain closed after 403, along with all prior restricted routes. The accepted claims use the already returned page text. No source coefficient or synthetic model is changed.
 
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 

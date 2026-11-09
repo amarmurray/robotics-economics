@@ -168,3 +168,7 @@ The [paid-development execution](shared_workforce.md#paid-development-before-ser
 ## Continuing service through a release decision, edition 0.49
 
 The [reviewed-release execution](shared_workforce.md#reviewed-releases-and-continuing-service-edition-049) separates paid evaluation, prospective eligibility, operating rights and the retained version's continuing support. A staff cut can leave unassigned market demand after support expires even when each company completes its awards. This synthetic M11 fixture supplies a decision gate for all cells, without transferring its prices, rates or outcomes. Require funded complete fallback through the transition; retain current empirical gaps and terminal asset obligations.
+
+## Decision-equivalent alternatives, edition 0.50
+
+The [new utility audit](quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) makes procurement conditional on the required measurement and action, with retained complementary work, actual payer responsibilities and current rights. The provider can sell a valuable information service without eliminating a customer shift; that value still needs a defensible decision counterfactual. No world, price or paid-work coefficient is added.

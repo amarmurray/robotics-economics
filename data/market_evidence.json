@@ -3647,6 +3647,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     },
     {
@@ -3702,6 +3707,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     },
     {
@@ -3756,6 +3766,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     },
     {
@@ -3816,6 +3831,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     },
     {
@@ -3870,6 +3890,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     },
     {
@@ -3931,6 +3956,11 @@
         "finding": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "scope": "M11 floor-cleaning fixture executes this boundary; this cell does not inherit its rates, prices, rights or review outcomes.",
         "analysis": "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049"
+      },
+      "measurement_equivalence_check": {
+        "finding": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "scope": "Utility-conductor evidence supplies a comparison method only; this cell inherits no conductor rate, price, sensor qualification or decision outcome.",
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
       }
     }
   ],
@@ -4217,6 +4247,17 @@
         "status": "synthetic_prospective_release_and_retained_entitlement",
         "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
+      },
+      "measurement_equivalence_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-04",
+        "evidence_ids": [
+          "QOF-E25",
+          "QOF-E26"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050",
+        "status": "bounded_primary_source_measurement_and_action_boundary",
+        "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
       }
     },
     {
@@ -4499,6 +4540,17 @@
         "status": "synthetic_prospective_release_and_retained_entitlement",
         "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
+      },
+      "measurement_equivalence_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-04",
+        "evidence_ids": [
+          "QOF-E25",
+          "QOF-E26"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050",
+        "status": "bounded_primary_source_measurement_and_action_boundary",
+        "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
       }
     },
     {
@@ -4769,6 +4821,17 @@
         "status": "synthetic_prospective_release_and_retained_entitlement",
         "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
         "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
+      },
+      "measurement_equivalence_gate": {
+        "audit_id": "QOF-AUDIT-SERVICE-04",
+        "evidence_ids": [
+          "QOF-E25",
+          "QOF-E26"
+        ],
+        "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050",
+        "status": "bounded_primary_source_measurement_and_action_boundary",
+        "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+        "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
       }
     }
   ],
@@ -4813,6 +4876,17 @@
       "status": "synthetic_prospective_release_and_retained_entitlement",
       "principle": "Verify continuing legacy support, candidate operating rights and who funds review, qualification and fallback. Paid review cannot backfill service or undo staff notice.",
       "calibration": "None; candidate rates, rights, review outcomes and costs are explicit premises."
+    },
+    "measurement_equivalence_gate": {
+      "audit_id": "QOF-AUDIT-SERVICE-04",
+      "evidence_ids": [
+        "QOF-E25",
+        "QOF-E26"
+      ],
+      "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050",
+      "status": "bounded_primary_source_measurement_and_action_boundary",
+      "principle": "Match required property, accepted service and actual decision before comparing methods or prices. Keep complementary tests, review and paid commitments explicit.",
+      "calibration": "No current price, efficacy, paid-hours or avoided-capital coefficient inferred."
     }
   }
 }

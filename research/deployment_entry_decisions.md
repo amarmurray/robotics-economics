@@ -12,7 +12,7 @@ All three packs now require the same accounting boundary, without transferring s
 
 Hospital and automotive packs inherit the accounting test, not nuclear methods or staffing levels: retain receipt/quality, review, response and support; test any effect on the complete service and paid commitment. A newco must fund that organization, an acquisition must establish usable rights and qualified people, and a provider must price every service duty. Public operator activity still leaves target costs, payroll and causal outage effects unknown. Prior synthetic mechanisms and the 53 bounded met / 16 partial legacy audit are unchanged.
 
-Decision campaign, integrated checkpoint 0.49 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
+Decision campaign, integrated checkpoint 0.50 · 9 November 2026 · Sole-writer synthesis and review. The [active contract](../DEPLOYMENT_ENTRY_CAMPAIGN.md) runs through 14 November. These provisional decisions remain under challenge; this is not the final Deployment and Entry Decision Edition.
 
 The current research supports a deployment sequence conditional on the service boundary, not a universal winner among humanoids, quadrupeds, specialist machines and people. Hospital logistics tests whether routine transport releases an actual paid commitment once urgency, handling and escort are included. Utility inspection tests whether better information eliminates a mandatory visit or instead buys additional monitoring. Automotive presentation tests whether a flexible configuration beats fixed automation at a declared takt and survives a generational change. These are different units and different reasons to buy; their source metrics must not be pooled.
 
@@ -268,3 +268,7 @@ The [paid-development execution](shared_workforce.md#paid-development-before-ser
 ## Continuing service through a release decision, edition 0.49
 
 The [reviewed-release execution](shared_workforce.md#reviewed-releases-and-continuing-service-edition-049) separates paid evaluation, prospective eligibility, operating rights and the retained version's continuing support. A staff cut can leave unassigned market demand after support expires even when each company completes its awards. This synthetic M11 fixture supplies a decision gate for all cells, without transferring its prices, rates or outcomes. Require funded complete fallback through the transition; retain current empirical gaps and terminal asset obligations.
+
+## Measurement equivalence before procurement, edition 0.50
+
+The [utility measurement audit](quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050) refines the qualified-alternative gate. Proceed with a bounded property/asset/quality/review/disposition contract; wait for current accepted output, each payer's full costs and an actual changed commitment before ranking economics. Reject an easier different diagnostic as a matched substitute, and reject a proposed maintenance scope as realized savings. The hospital and automotive packs inherit this test through their own service units and mandatory obligations. Existing evidence gaps and all synthetic results remain.

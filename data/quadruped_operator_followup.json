@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "operator-funding-transition-0.47",
-  "retrieved_at": "2026-11-09T05:03:42.552323+00:00",
+  "version": "measurement-equivalence-0.50",
+  "retrieved_at": "2026-11-09T06:26:06.439629+00:00",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -1218,6 +1218,47 @@
           "locator": "2023 news initial-results paragraph; 2023/24 review technical-innovations paragraph"
         }
       ]
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "source_class": "primary",
+      "retrieved_at": "2026-11-09T06:26:06.439629+00:00",
+      "target_parameters_allowed": [],
+      "quantities": [],
+      "access": "Page text was successfully returned by the web tool before a separate ordinary raw-HTML download returned 403 Forbidden. Download stopped; no retry or alternate retrieval after denial. No raw HTML hash is claimed.",
+      "evidence_id": "QOF-E25",
+      "title": "LineCore: operator-developed measurements and maintenance scope",
+      "url": "https://www.tdworld.com/overhead-transmission/article/20970734/linecore-technology-probing-below-the-surface",
+      "publisher": "T&D World; authored by Eric Lavoie, Gilles Rousseau, Nicolas Pouliot and Serge Montambault of Hydro-Quebec/IREQ",
+      "publication_date": "2018-01-23",
+      "publication_date_type": "Explicit article date; all four operator/research affiliations verified in its author biographies",
+      "observation_period": "Historical operator/developer account published January 2018; not a current matched service or cost study",
+      "epistemic_status": "primary_operator_developer_technical_account_not_independent_economic_evaluation",
+      "locator": "Typical Results; Use Examples; author biographies",
+      "artifact_version": "LineCore Technology: Probing Below the Surface, 23 January 2018",
+      "claim": "Operator-employed authors describe conductor-condition measurements informing full-line versus selected-span replacement assessments. Severe findings can still lead to targeted destructive sampling. Calibration, expert interpretation and compatible deployment remain part of the workflow.",
+      "limitations": "Unidentified historical examples establish neither completed work orders nor realized capital savings, paid-hours removal, accepted-output exposure or each payer's costs. The authors also developed the technology; no independent efficacy or current performance claim."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "source_class": "primary",
+      "retrieved_at": "2026-11-09T06:26:06.439629+00:00",
+      "target_parameters_allowed": [],
+      "quantities": [],
+      "access": "Page text was successfully returned by the web tool before a separate ordinary raw-HTML download returned 403 Forbidden. Download stopped; no retry or alternate retrieval after denial. No raw HTML hash is claimed.",
+      "evidence_id": "QOF-E26",
+      "title": "LineCore inspection service: configuration and commercial boundary",
+      "url": "https://nucleom.ca/en/industries/power-line/transmission-line-inspection/",
+      "publisher": "Nucleom",
+      "publication_date": null,
+      "publication_date_type": "No source publication date established; retrieval date is not a publication date",
+      "observation_period": "Undated supplier service description retrieved November 2026",
+      "epistemic_status": "supplier_service_offer_and_configuration_claim_not_customer_outcome",
+      "locator": "Technical Specifications; Deployment; Hydro-Quebec contribution",
+      "artifact_version": "Undated LineCore transmission-line inspection service page",
+      "claim": "Nucleom offers LineCore inspection as a service, distinguishing worker-deployed self-propelled equipment from a sensor carried by a drone or another platform. Its broad sampling-replacement benefit is a supplier claim.",
+      "limitations": "No named customer acceptance, current contract price, repair/support commitment, paid-work effect or realized investment outcome is supplied. The historical operator account and this offer have different dates and configurations; they are not a controlled contradiction or a joined cohort.",
+      "publication_date_missingness_reason": "No publication date is established in the retrieved supplier page; retrieval time is not publication time."
     }
   ],
   "deployments": [
@@ -1845,6 +1886,106 @@
       },
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#virtual-inspection-and-retained-field-work-edition-046"
+    },
+    {
+      "audit_id": "QOF-AUDIT-SERVICE-04",
+      "title": "Match the measurement before comparing inspection alternatives",
+      "status": "bounded_operator_and_supplier_measurement_equivalence_audit",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E25",
+        "QOF-E26"
+      ],
+      "summary": "A useful inspection can change the scope of an asset decision while retaining specialist work. Compare qualified measurements and decisions before comparing robot counts or labor rates.",
+      "source_boundary": "Historical operator/developer narrative and a separate undated supplier offer. Overhead-conductor condition is a distinct asset and measurement task from substation instrument reading. No throughput, quality or cost is transferred between them.",
+      "service_unit": "Proposed contract: one identified due conductor/span and required property, measured with the qualified configuration, accepted by a responsible reviewer on time, with recorded disposition. Traversed distance, sensor samples and later repairs remain separate units.",
+      "comparators": [
+        {
+          "alternative": "Visual or thermal route",
+          "qualification_question": "Does this method observe the property required for this asset decision?",
+          "retained_boundary": "Do not equate an accessible image or a thermal anomaly with every internal-material condition."
+        },
+        {
+          "alternative": "Contact nondestructive measurement",
+          "qualification_question": "Are material, sensor, carrier, calibration and field access compatible?",
+          "retained_boundary": "Keep setup, specialist interpretation, exceptions and any confirmatory sampling in the service scope."
+        },
+        {
+          "alternative": "Physical sample and laboratory assessment",
+          "qualification_question": "Which properties or ambiguous findings require this evidence?",
+          "retained_boundary": "Include access, outage if required, sample restoration, analysis and the consequences of limited spatial coverage."
+        },
+        {
+          "alternative": "Combined inspection and selective intervention",
+          "qualification_question": "What disposition changes after accepted measurement, and who can authorize it?",
+          "retained_boundary": "A smaller proposed scope is not an executed work order, avoided cost or eliminated paid commitment."
+        }
+      ],
+      "decision_gates": [
+        {
+          "gate": "Proceed with a bounded measurement contract",
+          "test": "Specify the required property, due asset, quality, review responsibility and feasible comparison. The service may be valuable even with no payroll reduction."
+        },
+        {
+          "gate": "Wait on scale or a savings ranking",
+          "test": "Require current configuration acceptance, full resource/payer cost and linked work orders or a defensible capital counterfactual."
+        },
+        {
+          "gate": "Reject an unmatched substitution claim",
+          "test": "Reject replacing a required diagnostic with an easier different measurement, or counting proposed maintenance scope as realized savings."
+        }
+      ],
+      "payer_questions": [
+        {
+          "role": "Asset owner",
+          "obligation": "Define required measurements, authorize disposition and pay inspection/intervention obligations.",
+          "proof": "Dated service order, accepted result, decision record and changed work budget."
+        },
+        {
+          "role": "Inspection provider and field crew",
+          "obligation": "Fund qualified equipment, deployment, calibration, review, maintenance and unsuccessful attempts.",
+          "proof": "Actual resources and contract payment; separate fees from the same provider costs."
+        },
+        {
+          "role": "Specialist or laboratory",
+          "obligation": "Resolve ambiguous findings and perform required confirmatory work.",
+          "proof": "Paid hours, sample/repair cost and allocation to unique assets."
+        },
+        {
+          "role": "Customer platform or acquirer",
+          "obligation": "Establish transferable service, data and support rights and retain competent decision authority.",
+          "proof": "Executed rights and actual payer accounts; corporate ownership alone does not qualify a diagnostic."
+        }
+      ],
+      "unknowns": {
+        "unique_accepted_measurements": {
+          "value": null,
+          "reason": "No joined due-asset, quality, reviewer and deadline ledger."
+        },
+        "executed_maintenance_changes": {
+          "value": null,
+          "reason": "Narrated decision support does not identify completed and counterfactually changed work orders."
+        },
+        "paid_work_change": {
+          "value": null,
+          "reason": "No matched payroll, roster, overtime or contractor commitment comparison."
+        },
+        "absolute_payer_costs": {
+          "value": null,
+          "reason": "No complete customer, inspection-provider, laboratory and support cost account."
+        },
+        "current_rights_and_support": {
+          "value": null,
+          "reason": "A supplier service page is not an executed transferable contract or a restoration guarantee."
+        },
+        "matched_alternative_outcomes": {
+          "value": null,
+          "reason": "No controlled like-for-like current comparison for the same required property and accepted service."
+        }
+      },
+      "decision_gate": "Buy a qualified decision service, then establish the changed action and each payer's cash. Preserve complementary tests and funded fallback; do not infer savings from the mobility platform or measurement count.",
+      "target_parameters_allowed": [],
+      "analysis": "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
     }
   ],
   "project_cost_audits": [

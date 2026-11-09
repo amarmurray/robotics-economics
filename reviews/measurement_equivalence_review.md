@@ -1,0 +1,17 @@
+# Measurement-equivalent alternatives: sole-writer review
+
+Edition 0.50; input `722e2bd2f2bafcbdc5ebb66031f495efcf5858e2`. Same cloud task, single writer, T0 and November 14 deadline. No new task, native goal, agent, schedule, commercial action or outreach.
+
+The two primary pages were read successfully with the web tool. The technical article has an explicit January 2018 date and operator/researcher author biographies; the supplier page has no established publication date. Ordinary raw-HTML snapshot attempts subsequently returned 403 and were stopped. No raw-byte hash, renewed access authorization or alternate retrieval is claimed. The two separate Hydro-Quebec overview pages and all earlier denied/request-based routes also stay closed. This audit relies only on the already returned text.
+
+Source records retain author incentives, date/configuration mismatch, proposed versus executed decisions and explicit missing outcomes. No performance specification, broad cost-effectiveness language or supplier claim is used as a coefficient. The absence of a raw snapshot is a reproducibility limitation; no acceptance status is promoted. QOF-AUDIT-SERVICE-04 is an analytical comparison contract, not an observed staffing or service study.
+
+The existing inspection panel selects the prior SP Distribution audit or the new measurement-equivalence audit. Three packs and six reassessments carry the same decision principle while retaining their own units. Prior source records, model code and assumptions remain unchanged; only dependency identities may refresh in saved results.
+
+The evidence validator required its field-specific missingness key for the undated supplier page; the descriptive publication-date note alone was insufficient. The missingness key was added without inventing a date. A temporary preservation-check adaptation also had an argument substitution error; its correction does not change accepted source or model behavior.
+
+Fresh validation passes the evidence registry at **13 packages, 233 claims, 552 reported quantities and 198 explicit-null markers**, the changed dashboard script syntax, primary-text context/provenance review and explicit missing-date checks. Three affected exporters refresh evidence fingerprints. All **13 dashboard views**, both selectable service audits in four views, two source drilldowns, three decision-pack gates, six cell scopes, search/year filters, selection persistence, scenario export/reload and source/scenario independence pass. The added field-specific missing-date reason is rechecked in a fresh browser and against the accepted registry bytes. Screenshots were visually checked; no JavaScript or unexpected API errors were observed. No model or helper code changed: full **575 Python tests** remain prior edition 0.45 evidence, **36 Node assertions** prior edition 0.46, and **14 release tests plus complete replay** prior edition 0.49. These unchanged checks are not relabeled fresh.
+
+All **2,087,899 typed numeric fields across 43 prior JSON artifacts** and every non-fingerprint result field remain unchanged. **32 artifacts are byte-identical** and **11** change only exact evidence fingerprints and dependent identities. Prior source records/audits, model code, assumptions and labor rows are preserved. No world or coefficient is added; **14 bounded families /271 worlds** remain. The legacy **53 bounded met /16 partial**, all 69 requirement statuses and all 65 question statuses remain.
+
+All **393 manifest hashes** and **1031 relative Markdown links** verify.
