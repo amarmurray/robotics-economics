@@ -1,6 +1,24 @@
 # Campaign acceptance audit — integrated report edition
 
-## New decision campaign: municipal procurement and complete service, edition 0.52
+## New decision campaign: minimum evidence and acceptance sequence, edition 0.53
+
+The [cross-case minimum-evidence matrix](research/deployment_evidence_sequence.md) converts the three existing leading packs into **20 claim-level specifications, five acquisition batches and explicit pass/reject/wait consequences**. Each row records the supported source conclusion, unresolved target claim, minimum missing records and joins, acceptance test, proposed or documented custodian and decision consequence. The [structured companion](research/deployment_evidence_matrix.json) references **45 existing accepted records** with exact source-package fingerprints; these are not new observations.
+
+The first packet is a named target/service/configuration/acceptance owner, applicable authority and operating/support terms, then a joined complete-service cohort: **H1–H3, U1–U3 or A1–A3**. An authorized service-only evaluation can use an existing entitlement or evaluation mandate without a new equipment purchase. Executed commercial terms, payment, accepted service, downstream maintenance or paid-work change and total payer cost remain separate evidence states. Later records are conditional on the claimed benefit: retained payroll does not invalidate a useful capacity/information service, but it cannot fund a payroll-saving ROI. Current physical qualification is required for a new generation or model contribution; a site result alone cannot validate scale or build/acquire/hybrid entry.
+
+A historical-claim audit can reuse an already named source episode without selecting a new site; it validates that historical claim only. Forward deployment still requires current applicability and supported rights. The matrix does not choose a target site, invent performance/sample-size/ROI thresholds, assume private record access or close an empirical gap. Historical sites, task units, configurations and source vintages remain distinct. All new rows retain incomplete target-evidence status.
+
+Fresh validation checks all 20 row IDs, three pack/cell mappings, five batches, 45 evidence references, recorded source dates/URLs and accepted-package hashes. Required dependencies are acyclic; conditional gates resolve. Generated Markdown matches its authoritative matrix exactly; the integrated report rebuild includes the matrix and correct JSON link. Both builder scripts compile, and the changed dashboard script passes syntax checking.
+
+The dashboard change is a navigation link in the existing decision context. A bounded browser check confirms its visibility, the exact served Markdown and structured JSON, HTTP200 responses and no pending/failed requests, JavaScript or API errors; its screenshot was inspected. No new model/control behavior is introduced. Unchanged full Python/Node, all-view/control and scenario suites were not rerun or represented as fresh.
+
+**All 148 existing model files and all 20 data files are byte-identical to edition0.52**, including all **44 result JSONs**. Their previously recorded **2,098,443 typed numeric fields** are therefore preserved. Source counts, 14 bounded families/271 worlds, legacy53 met/16 partial, all 69 legacy requirement statuses, 12 decision-campaign statuses and 65 question statuses remain unchanged. AGENTS.md, model assumptions, the T0 and deadline are preserved.
+
+All **404 manifest hashes**, **1170 relative Markdown links** and **97 matrix evidence-anchor links** verify; no broken link remains.
+
+No empirical status is promoted. See the [sole-writer review](reviews/deployment_evidence_sequence_review.md).
+
+## Previous decision checkpoint: municipal procurement and complete service, edition 0.52
 
 The [municipal procurement audit](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052) adds QOF-E27–E31, QOF-C03 and QOF-AUDIT-SERVICE-05 to the existing package. **Approved minutes establish the February 18, 2025 $189,000 authorization** even though file25-260 has empty action/history fields. The initial quote agrees and defines equipment, training, shipping and twelve-month named warranty coverage. The staff background's **$189,700** remains an unexplained **$700 discrepancy**. The nearly $800,000 truck comparison lacks matched configuration and complete accepted service.
 

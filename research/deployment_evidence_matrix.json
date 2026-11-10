@@ -1,0 +1,1249 @@
+{
+  "schema_version": "deployment-evidence-sequence/1.0",
+  "edition": "0.53",
+  "as_of": "2026-11-10",
+  "input_commit": "f94729e4afa530ba51253d8a58b58ff54f7bf024",
+  "status": "bounded_synthesis_of_accepted_sources_not_acquired_target_evidence",
+  "purpose": "Define the smallest joined evidence packets that can validate or reject the three existing leading deployment decisions and conditional stronger claims.",
+  "authority": "Research specification only. No outreach, procurement, private-data request, experiment, commercial action or new access is initiated.",
+  "source_policy": "Accepted repository evidence only; no new retrieval, denial retry or synthetic calibration.",
+  "threshold_policy": "The operator must set service, safety/quality, time and decision-relevant uncertainty limits before evaluating outcomes. No universal sample size, confidence level, success percentage or ROI threshold is invented. Evidence completeness is distinct from a positive deployment result.",
+  "stage_semantics": [
+    {
+      "stage_id": "S1",
+      "name": "Authorization",
+      "proves": "A named authority approved a specified scope/budget/process at a date.",
+      "does_not_prove": "An executed obligation, delivery, payment, accepted output or savings."
+    },
+    {
+      "stage_id": "S2",
+      "name": "Executed commitment",
+      "proves": "Applicable signed terms identify legal parties, configuration, rights and obligations.",
+      "does_not_prove": "Receipts, operation, qualified supply delivery or satisfaction of those obligations."
+    },
+    {
+      "stage_id": "S3",
+      "name": "Payment",
+      "proves": "A reconciled amount moved for an identified obligation at a date.",
+      "does_not_prove": "Delivery, accepted service, resource efficiency or total economic cost. A prepayment can precede service."
+    },
+    {
+      "stage_id": "S4",
+      "name": "Accepted service",
+      "proves": "Unique due work meets declared quality/deadline and disposition requirements, including residual service.",
+      "does_not_prove": "Paid staff removed, downstream maintenance value, full program economics or future reliability."
+    },
+    {
+      "stage_id": "S5",
+      "name": "Maintenance or work change",
+      "proves": "A linked authorized and, where claimed, completed action or changed paid commitment occurred.",
+      "does_not_prove": "Causation, avoided failures, realized cash saving or spare capacity without a feasible counterfactual."
+    },
+    {
+      "stage_id": "S6",
+      "name": "Total payer cost and value",
+      "proves": "Matched obligations, resources, payments/liabilities and supported benefits reconcile for each defined actor and horizon.",
+      "does_not_prove": "Lifetime/scale/entry return beyond the evidenced horizon, rights, allocation and customer commitments."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DE-PACK-HOSPITAL",
+      "label": "Hospital logistics",
+      "cell_id": "CELL-M10-hospital-logistics-US-2025",
+      "target_status": "No current target site/configuration selected; source episodes remain distinct.",
+      "first_packet": [
+        "H1",
+        "H2",
+        "H3"
+      ],
+      "minimum_decision": "Qualified bounded nonurgent/mixed service; payroll saving requires H5, total cost H6.",
+      "recommendation": "Prioritize complete due-request and retained-duty evidence before a payroll-funded rollout.",
+      "matrix_summary": {
+        "supported": "Specific transport studies and support terms justify bounded nonurgent/mixed-service evaluation, with escort, handling and urgent work retained.",
+        "unresolved": "Complete target service, staffing change and full cost.",
+        "minimum": "Named route/configuration; applicable site/support commitments; all-request/receipt/intervention and paid-duty cohort. Add actual staffing changes and payer reconciliation only for those claims.",
+        "acceptance": "One due-request denominator, clinical/service-owner thresholds and funded fallback. Journey time cannot close payroll or total-cost claims.",
+        "owner": "Target pharmacy/logistics, clinical owner, staffing and finance (proposed; site unnamed). Historical study/award parties remain separate.",
+        "decision": "Pass permits a bounded service claim; payroll/return waits for H5/H6. Failed mandatory coverage rejects substitution."
+      }
+    },
+    {
+      "case_id": "DE-PACK-UTILITY",
+      "label": "Utility inspection",
+      "cell_id": "CELL-M03-utility-inspection-US-2025",
+      "target_status": "US substation archetype not a named current target; Laredo is a separately identified historical sewer procurement.",
+      "first_packet": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "minimum_decision": "Qualified information service; maintenance value requires U4, paid-work saving U5, complete costs U6.",
+      "recommendation": "Start with the due measurement/property and residual-duty inventory. Use the Laredo PO trace only to resolve its own procurement stages.",
+      "matrix_summary": {
+        "supported": "Operator evidence supports qualified information services; Laredo separately supplies an authorized historical sewer-camera bundle.",
+        "unresolved": "Complete target measurements, changed maintenance/paid visit and all-payer cost.",
+        "minimum": "Due-asset/property inventory; applicable order/rights; measurement-to-review/residual-duty ledger. For Laredo transaction closure, obtain the PO/amendment and receiving/payment chain for file 25-260.",
+        "acceptance": "Same property, asset and window; every residual duty and reviewed disposition accounted for. Laredo records cannot calibrate substation work.",
+        "owner": "Target asset/inspection authority, field operations and finance (proposed). Laredo Utilities/RedZone are established parties for that separate procurement.",
+        "decision": "Pass can support information value; U4/U5/U6 govern maintenance, paid work and cost. A mandatory visit defeats visit-removal."
+      }
+    },
+    {
+      "case_id": "DE-PACK-AUTO",
+      "label": "Automotive presentation",
+      "cell_id": "CELL-M05-auto-assembly-US-2025",
+      "target_status": "Historical named source sites and generations exist; no chosen current workcell contract.",
+      "first_packet": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "minimum_decision": "Qualified exact station/sequence; supported changeover/upgrade A4, paid-work effect A5, cost/entry A6.",
+      "recommendation": "Freeze the common part/handoff and mobility obligation before comparing timing or a newer generation.",
+      "matrix_summary": {
+        "supported": "Production-connected component loading and separate fixed/mixed alternatives justify an exact workcell comparison.",
+        "unresolved": "Current-generation complete takt/quality, supported flexibility and paid/resource advantage.",
+        "minimum": "Actual part/handoff/transport contract; ordered supported configuration; matched part/shift/quality/recovery data, including upstream preparation and paid crew.",
+        "acceptance": "Conserve unique parts and actual complete sets; match presentation and transport; validate the exact generation. No synthetic three-part kit or headline vehicle total becomes the observed unit.",
+        "owner": "Target plant production/quality, logistics, OEM/integrator and finance (proposed). BMW/Figure/Liebherr identify distinct historical source contexts.",
+        "decision": "Pass supports only the qualified station; A4–A6 govern upgrade, staffing and cost. Failed complete service rejects the substitution."
+      }
+    }
+  ],
+  "acquisition_batches": [
+    {
+      "batch_id": "B1",
+      "priority": 1,
+      "requirements": [
+        "H1",
+        "U1",
+        "A1"
+      ],
+      "output": "One target and decision charter per case; use the already defined service units and distinguish historical source episodes.",
+      "exit": "If no target and acceptance owner can be named, stop at archetype guidance. Do not acquire generic performance or price counts."
+    },
+    {
+      "batch_id": "B2",
+      "priority": 2,
+      "requirements": [
+        "H2",
+        "U2",
+        "A2"
+      ],
+      "output": "One revision-controlled authority and applicable operating/support-entitlement packet per configuration. An evaluation mandate or installed-service entitlement can suffice for a service-only observation; add an executed commercial order only for the commitment/cost claim. Collect invoice/payment records in parallel when applicable.",
+      "exit": "Without authority or qualified/funded continuity, do not validate a target deployment proposal. Missing purchase terms block procurement/return claims, not an otherwise evidenced authorized service result. Public catalogs/awards do not substitute for executed commercial terms."
+    },
+    {
+      "batch_id": "B3",
+      "priority": 3,
+      "requirements": [
+        "H3",
+        "H4",
+        "U3",
+        "A3",
+        "A4"
+      ],
+      "output": "One joined due-work, accepted-result, paid-activity, support and fallback dataset per matched baseline/candidate cohort.",
+      "exit": "A complete packet may demonstrate failure. Reject/redesign a nonqualifying substitution before pursuing its claimed savings. An accepted information/capacity service need not show reduced payroll."
+    },
+    {
+      "batch_id": "B4",
+      "priority": 4,
+      "requirements": [
+        "H5",
+        "H6",
+        "U4",
+        "U5",
+        "U6",
+        "A5",
+        "A6"
+      ],
+      "output": "Acquire only records needed for the chosen benefit claim, then reconcile cash/resources on that same cohort and horizon.",
+      "exit": "For unchanged paid commitments, remove payroll savings; for unlinked maintenance, remove avoided-outage/capital benefits. Preserve an explicitly narrower service/cost conclusion rather than treating unknown as zero."
+    },
+    {
+      "batch_id": "B5",
+      "priority": 5,
+      "requirements": [
+        "X1",
+        "X2"
+      ],
+      "output": "Only after a bounded case qualifies, test incremental digital/model value or the extra rights, allocation, funding and customer evidence needed for scale/entry.",
+      "exit": "A missing learning, supply or transfer condition blocks that stronger claim; it does not retroactively invalidate a qualified bounded service."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "H1",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "service_boundary",
+      "depends_on": [],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FSD-E001",
+        "FSD-E002",
+        "FSD-E003",
+        "FSD-E005"
+      ],
+      "supported_conclusion": "Specific medication/endoscope/Moxi observations exist; urgent exclusion, escort and intervention-count boundaries are material.",
+      "unresolved_claim": "Which real hospital, configured route and full obligation is being validated?",
+      "minimum_evidence": [
+        "A dated target charter naming site, route, item classes, exact robot/software/interfaces, all due requests, urgency-specific quality/custody/deadline rules, comparator and responsible acceptance owner."
+      ],
+      "evidence_acceptance_criteria": "Owner approves the service definition before examining candidate results; urgent, off-shift, failed and excluded work has an identified service route. The target is not inferred by combining different hospitals or versions.",
+      "likely_custodian_or_source": "Target pharmacy/logistics and clinical service owner (proposed roles; no target site chosen). The authors/operators identified in FSD-E001–003 are historical-source routes only.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Without this charter, retain an archetype-level wait. If the proposal cannot cover mandatory work with its mixed service, reject that proposal; do not discard requests from the denominator.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "H2",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "authority_and_applicable_terms",
+      "depends_on": [
+        "H1"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FG-E024",
+        "FG-E025",
+        "FG-E026",
+        "FG-E027"
+      ],
+      "supported_conclusion": "A T-2.5 schedule separates site work/support; the Glasgow notice reports a specific maintenance award and installed-system constraint.",
+      "unresolved_claim": "The named target has authority and applicable operating terms; if a commercial commitment is claimed, its execution and scope are established. A target operator has authority and applicable installation, support, repair, data and exit rights.",
+      "minimum_evidence": [
+        "For a bounded service-only evaluation: dated owner authorization and applicable access, operating/support entitlement and responsibility for the named configuration. This can be an evaluation mandate or existing installed-service entitlement; no new equipment purchase is required.",
+        "Executed order and incorporated revision/attachments, target approval, installed-configuration acceptance plan, named maintenance/fallback obligations, payment milestones and applicable operation/data/transfer terms."
+      ],
+      "evidence_acceptance_criteria": "Do not require a purchase order merely to validate an authorized service observation. Close the commercial-commitment claim only with applicable executed terms; the authority-only branch leaves that claim open. Join approval, order, configuration and named legal parties; distinguish approved budget or award notice from an executed applicable agreement. Establish funded fallback and restoration responsibilities. Do not read a minimum correction period as a maximum repair SLA.",
+      "likely_custodian_or_source": "Target procurement/contract manager and supplier/integrator (proposed). FG-E027 identifies NHS Greater Glasgow and Clyde and Aerocom for that separate award; its signed agreement was not retrieved.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Absent applicable rights or funded continuity, wait on operation/scale. A complete agreement can validate commitment, never payment or delivered clinical service.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "H3",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "accepted_service",
+      "depends_on": [
+        "H1",
+        "H2"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FSD-E001",
+        "FSD-E002",
+        "FSD-E003",
+        "H-PROXIMITY-2025"
+      ],
+      "supported_conclusion": "Studies report selected completions and elapsed transport differences; competent conventional dispatch is an evidenced comparator method.",
+      "unresolved_claim": "The proposed mixed service meets the full target obligation better than a feasible digitally improved human alternative.",
+      "minimum_evidence": [
+        "One joined due-request/attempt/receipt ledger for a declared baseline and candidate cohort: urgency, item/route, configuration, attempt/result, custody/quality, timestamps, exclusions, human fallback, interventions and cancellation/disposition. Include workload/staffing conditions and direct activity times."
+      ],
+      "evidence_acceptance_criteria": "Every due ID reconciles once to timely accepted, late, failed, cancelled-with-reason or otherwise unserved; attempts never become additional services. Resolve applicable numerator conflicts or exclude the disputed estimate. Compare the same work and access to dispatch information; handle day/shift clustering and case mix. Meet owner-prespecified limits with adequate uncertainty coverage; no universal sample size is inferred.",
+      "likely_custodian_or_source": "Target dispatch/EHR interface owner, pharmacy/ward receipt owner and evaluation lead (proposed). FSD-E001 raw data are author-request-only; that historical route remains closed here.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "If service fails, reject substitution or redesign eligibility/fallback. If service passes, a bounded capability/capacity claim can advance; no payroll or clinical-outcome saving follows from journey time.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "H4",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "maintenance_and_continuity",
+      "depends_on": [
+        "H2",
+        "H3"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FG-E025",
+        "FG-E027",
+        "FSD-E010",
+        "FSD-E011"
+      ],
+      "supported_conclusion": "Historical AGVs retained handling, oversight, repair and manual contingency; fee relief does not provide replacement service.",
+      "unresolved_claim": "The target can sustain the same service during repair, congestion and competing duties.",
+      "minimum_evidence": [
+        "Join downtime/support tickets and restoration events to the same request ledger, configuration/spares, staff duty calendar, fallback dispatch, receiving duties and actual support resources. Include a documented fallback qualification where no real outage has occurred."
+      ],
+      "evidence_acceptance_criteria": "Account for all affected requests and simultaneous duties; verify who was actually available and paid. Separate observed repair outcomes from a contractual promise or a controlled fallback qualification. A window without failures does not establish long-run reliability. Changes to robot maintenance are not improved patient outcomes.",
+      "likely_custodian_or_source": "Target facilities/biomedical engineering or equivalent service team, supplier support and staffing supervisor (proposed; exact custodians unconfirmed). FSD-E011 describes a contingency but not spare paid capacity.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Unfunded or infeasible fallback blocks a staffing cut and scale claim. A funded, qualified contingency can support bounded service readiness while long-run repair exposure remains open.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "H5",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "paid_work_effect",
+      "depends_on": [
+        "H3",
+        "H4"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FSD-E006",
+        "FSD-E007",
+        "FSD-E008",
+        "FSD-E009",
+        "FSD-E010",
+        "FSD-E011"
+      ],
+      "supported_conclusion": "Accepted sources distinguish released hours, modeled staffing removal, claimed replacement and actual redeployment.",
+      "unresolved_claim": "Robot-enabled change removes a paid commitment or avoids a documented hire/overtime bill.",
+      "minimum_evidence": [
+        "Matched baseline/candidate paid rosters, payroll or contractor invoices, hours/overtime, notice/change records, funded vacancy decisions and receiving-duty ledger; join to the full served demand and intervention work."
+      ],
+      "evidence_acceptance_criteria": "Identify the precise commitment that ceased or was not incurred, its effective date, payer and loaded-cost convention. Preserve redeployed staff and other teams’ workload; reconcile demand/case mix and competing changes. A cancelled funded hire is different from a hypothetical headcount requirement. Unchanged pay supports capacity reallocation, not cash saving.",
+      "likely_custodian_or_source": "Target staffing/HR/payroll, service supervisor and contractor account owner (proposed). Confidential/request-only historical operating data remain inaccessible; no outreach is initiated.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Recognized paid reduction supports only that measured staffing claim. If staff are retained, remove payroll-funded ROI from the case and test paid-for capacity or quality value separately.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "H6",
+      "case_id": "DE-PACK-HOSPITAL",
+      "stage": "payment_and_total_payer_cost",
+      "depends_on": [
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "conditional_dependencies": [
+        {
+          "claim": "Payroll-funded saving",
+          "requires": [
+            "H5"
+          ]
+        },
+        {
+          "claim": "Scale, acquisition or operating-newco return",
+          "requires": [
+            "X2"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "FG-E024",
+        "FG-E027",
+        "FSD-E002",
+        "FSD-E006",
+        "FSD-E009"
+      ],
+      "supported_conclusion": "Catalog/award prices and economic claims exist, but no target all-payer cash-and-resource account is established.",
+      "unresolved_claim": "The qualified service is affordable and offers a defensible customer/provider or entry return.",
+      "minimum_evidence": [
+        "Order-to-invoice-to-payment reconciliation plus same-window site, staff, infrastructure, integration, robot, compute, repair/spares, fallback and provider-resource ledgers; opening assets, unpaid obligations, taxes, financing and horizon/terminal assumptions separately identified."
+      ],
+      "evidence_acceptance_criteria": "Each invoice/payment links to legal payer, obligation, date and service scope; unpaid commitments remain liabilities, not paid cost. Reconcile provider receipts with customer transfers and count underlying resources once. Include urgent/residual service. A quoted price, award value or elapsed-time ROI does not fill missing resources. Restrict conclusions to the observed/contracted horizon.",
+      "likely_custodian_or_source": "Target accounts payable/finance and supplier/integrator accounts (proposed). The public Aethon schedule and Glasgow award identify possible document classes, not target paid accounts.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Proceed with a bounded cost decision only on matched complete service and funded obligations. Without provider resources, report customer cash only; no consolidated cost, provider margin or lifecycle/entry return.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U1",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "service_boundary",
+      "depends_on": [],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "QOF-E01",
+        "QOF-E03",
+        "QOF-E09",
+        "QOF-E10",
+        "QOF-E25",
+        "QOF-E29"
+      ],
+      "supported_conclusion": "Inspection sources concern different assets/properties; selected instrument coverage and a sewer-camera specification are bounded evidence.",
+      "unresolved_claim": "Which due assets and measurements must the target inspection service actually deliver?",
+      "minimum_evidence": [
+        "Owner-approved due-asset/property inventory with route/access conditions, configuration, quality/coverage/deadline, reviewer and mandatory physical duties; qualified human/digital, fixed, mobile and mixed alternatives."
+      ],
+      "evidence_acceptance_criteria": "Match property and complete required cohort before comparing prices. Keep substation readings, conductor condition and sewer segments separate. Unsafe direct human entry is not assumed feasible; identify a qualified alternative. Each excluded point has a funded disposition.",
+      "likely_custodian_or_source": "Target utility asset-management/inspection authority (proposed). TenneT and the named historical operators identify source episodes; Laredo Utilities identifies a distinct sewer-procurement episode.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "If simpler fixed or wheeled sensing meets the same obligation, test it on equal terms. If no alternative covers all duties, retain mixed service; no mobile-platform preference follows from mission count.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U2",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "authority_and_applicable_terms",
+      "depends_on": [
+        "U1"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "QOF-E23",
+        "QOF-E24",
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E31"
+      ],
+      "supported_conclusion": "Laredo minutes authorize $189,000 and the quote agrees; the background states $189,700. UKPN records distinguish signed contracting and funding-cohort change.",
+      "unresolved_claim": "The named target has authority and applicable operating terms; if a commercial commitment is claimed, its execution and scope are established. A chosen utility episode has an executed applicable obligation and a reconciled authorization amount.",
+      "minimum_evidence": [
+        "For a bounded service-only evaluation: dated owner authorization and applicable access, operating/support entitlement and responsibility for the named configuration. This can be an evaluation mandate or existing installed-service entitlement; no new equipment purchase is required.",
+        "For the Laredo trace: executed PO/order/amendment tied to file 25-260 and quote OPP-107575, approved scope/amount and price-difference explanation; receiving/configuration and incorporated warranty/license/support terms. For a substation target: its own corresponding documents."
+      ],
+      "evidence_acceptance_criteria": "Do not require a purchase order merely to validate an authorized service observation. Close the commercial-commitment claim only with applicable executed terms; the authority-only branch leaves that claim open. Preserve $189,000 as quoted/authorized and the unresolved $700 difference until an attributable record explains it. Verify actual legal payer, rights and order stage; missing PO does not erase council approval. Do not transfer this sewer price or UKPN funding narrative to the substation target.",
+      "likely_custodian_or_source": "Laredo Utilities/procurement and RedZone are identified parties; exact PO/receiving custodians and availability are unverified. For a new substation target, procurement/operator and OEM/integrator are proposed roles.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "An executed record closes commitment/rights for its own configuration. Payment and accepted operation remain separate. Without it, do not price an owned supported fleet from an expired quote.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U3",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "accepted_service",
+      "depends_on": [
+        "U1",
+        "U2"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "QOF-E01",
+        "QOF-E03",
+        "QOF-E09",
+        "QOF-E21",
+        "QOF-E29"
+      ],
+      "supported_conclusion": "Historical sources show partial coverage, retained review/field work and useful findings; no common current accepted-service ledger exists.",
+      "unresolved_claim": "The chosen alternative provides the required timely information and eliminates any claimed residual visit.",
+      "minimum_evidence": [
+        "Joined due-asset/measurement-set ledger: attempts, sensor/configuration/calibration, captured and unreadable/missing points, review timestamp, accepted quality, exceptions, deadline and retained field duty. Record crew, deployment/retrieval, review and support time on the same cohort."
+      ],
+      "evidence_acceptance_criteria": "Reconcile original due objects to accepted dispositions and unfinished work; distinguish capture from timely review. Qualify measurement equivalence and residual physical duties. Distance, samples, programmed missions and vendor speed ratios are not accepted sets. Meet target-owned prespecified quality/timeliness limits.",
+      "likely_custodian_or_source": "Target inspection planners, field operations and reviewing specialists (proposed); relevant operator source authors identify historical contexts only. No access to closed technical papers or authenticated manuals is presumed.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Failed coverage or late review rejects full replacement but may leave a bounded supplementary information service. If mandatory duties still require the visit, reject visit-removal even with more useful measurements.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U4",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "maintenance_change",
+      "depends_on": [
+        "U3"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "QOF-E09",
+        "QOF-E17",
+        "QOF-E18",
+        "QOF-E21",
+        "QOF-E25"
+      ],
+      "supported_conclusion": "One public summary links a thermal finding to maintenance; other records describe decision support, wider outages or no replacement requirement.",
+      "unresolved_claim": "Accepted information changes an authorized maintenance action and creates attributable value.",
+      "minimum_evidence": [
+        "For each claimed changed action: accepted measurement, reviewer disposition, dated authorized work-order/replacement decision, completion/deferral and cost record; retain the prior plan or feasible counterfactual and other decision inputs."
+      ],
+      "evidence_acceptance_criteria": "Join the same asset and decision chain. A justified no-action disposition can be accepted information; it is not automatically an avoided repair. Separate proposed, authorized and completed work. Quantified avoided outage/loss requires a defensible counterfactual, not defect counts or the full outage budget.",
+      "likely_custodian_or_source": "Target asset owner, maintenance planner, work-order controller and finance (proposed). Historical operator accounts do not establish access to these joined records.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "If a changed decision is established, value only its supported incremental consequence. Without that link, offer a bounded information service and retain maintenance/outage benefit as unknown; do not force a labor-saving rationale.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U5",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "paid_work_effect",
+      "depends_on": [
+        "U3"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "QOF-E05",
+        "QOF-E06",
+        "QOF-E17",
+        "QOF-E21",
+        "QOF-E29"
+      ],
+      "supported_conclusion": "Prospective person-hour savings, staffed specialist inspection and deployment crews do not establish paid shifts removed.",
+      "unresolved_claim": "A complete paid visit, overtime/contract bill or hire changes after the accepted service.",
+      "minimum_evidence": [
+        "Matched required-route and paid-crew/contract ledger including physical checks, traffic/access, deployment/retrieval, review, cleaning, repair and fallback; documented scheduling/notice change and actual payment or funded-hire decision."
+      ],
+      "evidence_acceptance_criteria": "Prove that all work attached to the removed visit is completed elsewhere without double-booking or shifting an uncounted bill. Preserve retained commitments. Headcount multiplied by calendar duration and faster data collection cannot substitute for paid-role evidence.",
+      "likely_custodian_or_source": "Target field-operations supervisor, contractor manager and payroll/accounts payable (proposed); no current role-level records are accepted.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Remove a labor-saving claim if the same paid obligation remains. A valid additional monitoring or capacity service can still be evaluated under its own buyer commitment.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "U6",
+      "case_id": "DE-PACK-UTILITY",
+      "stage": "payment_and_total_payer_cost",
+      "depends_on": [
+        "U2",
+        "U3"
+      ],
+      "conditional_dependencies": [
+        {
+          "claim": "Monetized maintenance/outage benefit",
+          "requires": [
+            "U4"
+          ]
+        },
+        {
+          "claim": "Paid-work saving",
+          "requires": [
+            "U5"
+          ]
+        },
+        {
+          "claim": "Replicated service or operating entry",
+          "requires": [
+            "X2"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "QOF-E19",
+        "QOF-E20",
+        "QOF-E27",
+        "QOF-E28",
+        "QOF-E31"
+      ],
+      "supported_conclusion": "Historical project expenditures, indicative replication costs and a municipal authorization have different boundaries; separately funded site work matters.",
+      "unresolved_claim": "The complete inspection option has a defensible all-payer cost and financial advantage.",
+      "minimum_evidence": [
+        "Reconcile executed scope, invoices, payment receipts, receiving/acceptance and recurring support to the same cohort; add installation/site connection, vehicles, staff/review, software/communications, spares, unsuccessful work and financing. Specify opening assets and the qualified comparator."
+      ],
+      "evidence_acceptance_criteria": "Authorization/bond allocation is not payment; project expenditure is not a service unit price. Reconcile each payer and shared resources once. Match the truck/robot or fixed/mobile functions and include residual duties; no headline price subtraction. Cost per accepted set requires complete matched obligation, not a reduced successful-only denominator.",
+      "likely_custodian_or_source": "Target utility project/site finance, procurement/AP, operator and supplier/service provider (proposed). Laredo and National Gas/GRAID are identified historical owners; denied routes stay closed.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Customer cash can be assessed if complete on its own boundary; consolidated/provider economics wait for missing resources. A price interval from synthetic worlds cannot validate this empirical cost.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A1",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "service_boundary",
+      "depends_on": [],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003",
+        "CAP-E025",
+        "CAP-E026"
+      ],
+      "supported_conclusion": "Figure 02 loading, Figure 03 sequencing/cart movement and a separate fixed vision/buffer cell concern different workflows.",
+      "unresolved_claim": "Which actual component set, handoff and changeover obligation must be compared?",
+      "minimum_evidence": [
+        "Target part/BOM and workcell contract: component identities, incoming presentation, required sequence/fixture/cart transport, quality checks, takt/deadline, lot/changeover mix and acceptance owner; human/digital and qualified fixed-cell alternatives."
+      ],
+      "evidence_acceptance_criteria": "Freeze the same complete obligation before timing. Keep vehicle contribution, welding and downstream assembly separate. Do not impose the synthetic three-component kit on the real process. Include required mobility or price a separate qualified transport function.",
+      "likely_custodian_or_source": "Target plant production engineering, logistics and quality owner (proposed). BMW/Figure and the Liebherr-described BMW cell are documented historical parties, not one matched trial.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Stable geometry may favor fixed automation; mobility/flexibility earns consideration only where the actual obligation requires it. An unmatched demonstration cannot choose the embodiment.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A2",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "authority_and_applicable_terms",
+      "depends_on": [
+        "A1"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "CAP-E001",
+        "CAP-E024",
+        "CAP-E027"
+      ],
+      "supported_conclusion": "Production-connected deployment, integration changes and supplier fleet retirement are reported; target title/support obligations are not disclosed.",
+      "unresolved_claim": "The named target has authority and applicable operating terms; if a commercial commitment is claimed, its execution and scope are established. The actual generation, site interfaces and change authority are ordered, available and supported.",
+      "minimum_evidence": [
+        "For a bounded service-only evaluation: dated owner authorization and applicable access, operating/support entitlement and responsibility for the named configuration. This can be an evaluation mandate or existing installed-service entitlement; no new equipment purchase is required.",
+        "Plant approval and applicable OEM/integrator order with exact hardware/policy revision, installation interfaces, accepted-delivery milestones, title, repair/spares, upgrade/exit and operation/data rights; named accountable parties."
+      ],
+      "evidence_acceptance_criteria": "Do not require a purchase order merely to validate an authorized service observation. Close the commercial-commitment claim only with applicable executed terms; the authority-only branch leaves that claim open. Match contracts to physical serial/configuration and supported dates; verify received/qualified availability separately from announcements. Supplier decommissioning does not establish customer title, remaining life, salvage value or a replacement promise.",
+      "likely_custodian_or_source": "Target plant procurement/engineering and named OEM/integrator contract owners (proposed). BMW and Figure are established source parties; private terms/custody are unverified.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Absent current support, interfaces or usable rights, wait on deployment/upgrade. A plant approval or owned unit cannot be promoted to supported production capacity.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A3",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "accepted_service",
+      "depends_on": [
+        "A1",
+        "A2"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E025",
+        "CAP-E026",
+        "CAP-E027"
+      ],
+      "supported_conclusion": "Historical component/hour totals and a current demonstration motivate qualification; targets are not realized per-shift acceptance.",
+      "unresolved_claim": "The configured candidate beats a strong comparator while meeting complete production obligations.",
+      "minimum_evidence": [
+        "PLC/MES or equivalent event ledger joined to part/kit IDs and shift: arrivals, attempts, accepted handoff/quality, deadlines, upstream preparation, buffer/transport state, intervention/fault recovery and staffing; matched human and fixed-vision/presentation alternatives."
+      ],
+      "evidence_acceptance_criteria": "Conserve unique components and actual required sets through rework; distinguish load time from full cycle and eventual output from timely acceptance. Use the same information, presentation/redesign authority and required transport. Meet target-owned quality/takt limits across declared part/shift conditions with uncertainty; repeated source totals are not independent replication.",
+      "likely_custodian_or_source": "Target production/quality/MES owner and integrator (proposed). Source announcements supply no public shift-level joined dataset.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Failed complete service rejects substitution even if individual motions are faster. A qualified bounded station can proceed without broad humanoid, vehicle or workforce claims.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A4",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "maintenance_change_and_supported_generation",
+      "depends_on": [
+        "A2",
+        "A3"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "CAP-E002",
+        "CAP-E024",
+        "CAP-E027",
+        "LEC-005",
+        "LEC-008",
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "supported_conclusion": "Hardware failures informed redesign; retirement and onsite integration impose work. R&D scores and median compute timing are not supported production.",
+      "unresolved_claim": "Changeovers, repair or a new policy/generation improves service enough to justify its disruption and cost.",
+      "minimum_evidence": [
+        "For each claimed change: old/new configuration, failure or changeover tickets, paid engineering/training/installation, qualified parts, downtime and fallback, acceptance/requalification and subsequent matched service; preserve failed attempts and retained-version support."
+      ],
+      "evidence_acceptance_criteria": "Join the changed configuration to physical acceptance and ongoing support. Expose costs even if qualification fails; define rollback/old-version entitlement. One new median latency or self-assessment cannot replace a sustained workload/physical test. Claimed flexibility needs representative actual changeovers; otherwise limit the result to the demonstrated part mix.",
+      "likely_custodian_or_source": "Target maintenance/reliability and production engineering, OEM/model provider and integrator (proposed; exact contracts unverified).",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "A validated change can support a bounded upgrade or flexibility claim; support loss, failed qualification or costly disruption can favor the incumbent configuration. No inherited Figure 02 performance or free transition is allowed.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A5",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "paid_work_effect",
+      "depends_on": [
+        "A3",
+        "A4"
+      ],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "CAP-E001",
+        "CAP-E002",
+        "CAP-E003",
+        "CAP-E025"
+      ],
+      "supported_conclusion": "Feeding, QA, logistics, human assembly and line support remain in the documented workflows; paid reduction is not measured.",
+      "unresolved_claim": "The candidate changes paid work after upstream preparation and downstream obligations are counted.",
+      "minimum_evidence": [
+        "Activity/crew assignment and paid shift/contract records joined to the same lot/window; include feeding, material presentation, QA, transport, recovery, maintenance and any redeployed duty; effective staffing/notice and payment changes."
+      ],
+      "evidence_acceptance_criteria": "Trace the exact avoidable commitment rather than multiplying loaded parts by a nominal manual cycle. Do not count paid prepared presentation as free robot work or a downstream worker as eliminated. Preserve demand and production mix; isolate other process changes before causal savings claims.",
+      "likely_custodian_or_source": "Target production/industrial engineering, staffing/payroll and logistics contractor accounts (proposed).",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "If labor stays paid, evaluate reliable output, ergonomics or flexibility only on separately evidenced value. Reject an ROI case funded by unobserved staff cuts.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "A6",
+      "case_id": "DE-PACK-AUTO",
+      "stage": "payment_and_total_payer_cost",
+      "depends_on": [
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "conditional_dependencies": [
+        {
+          "claim": "Payroll-funded return",
+          "requires": [
+            "A5"
+          ]
+        },
+        {
+          "claim": "Scale, acquisition or operating-newco return",
+          "requires": [
+            "X2"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "CAP-E001",
+        "CAP-E024",
+        "CAP-E025",
+        "CAP-E027"
+      ],
+      "supported_conclusion": "The sources show configuration and integration boundaries but supply no complete matched lifecycle cash or provider-resource account.",
+      "unresolved_claim": "The same production obligation supports a customer purchase or an entrant/provider business case.",
+      "minimum_evidence": [
+        "Executed workcell and comparator orders, invoiced milestones, actual paid dates, engineering/commissioning, barriers/networking, prepared-material cost, maintenance/spares, disruption/fallback, model/compute and financing records; horizon and remaining asset/support rights."
+      ],
+      "evidence_acceptance_criteria": "Reconcile legal payers and actual receipts, distinguish capital funding/asset purchase from underlying resource use, and include shared service once. Match flexible production/changeovers if claiming flexibility value. Report observed-window costs where supported; unknown life, support and terminal value block lifecycle ranking.",
+      "likely_custodian_or_source": "Target plant finance/AP, OEM, integrator and any actual financier (proposed). Named deployments do not establish willingness to share costs.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "A complete matched cash record can rank the defined workcell decision. No target provider margin, universal humanoid economics or greenfield advantage follows without its own costs and customers.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "X1",
+      "case_id": "CROSS-CASE",
+      "stage": "digital_and_learning_increment",
+      "depends_on": [],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "H-PROXIMITY-2025",
+        "LEC-005",
+        "LEC-006",
+        "LEC-008",
+        "OWQ-E01",
+        "OWQ-E02"
+      ],
+      "supported_conclusion": "Accepted H/I/K evidence distinguishes conventional dispatch, research scores, self-assessment and component timing from physical service.",
+      "unresolved_claim": "An agent/model/learning change adds value beyond the same-technology conventional baseline.",
+      "minimum_evidence": [
+        "Reuse H3/U3/A3 service records and H4/A4 or applicable utility qualification/support records; pin policy/harness/data rights, information access, human approval, failure/retry costs, training/adaptation and sustained runtime resources. Supply a matched no-change/no-learning comparator and a retained-task regression check where transfer is claimed."
+      ],
+      "evidence_acceptance_criteria": "Change the claimed mechanism while preserving other comparison privileges, or label confounding. Real accepted service and resource changes must join the versioned intervention; no source-to-target benchmark transfer or second data premium. Acquisition of this evidence is a specification only; no model/GPU/robot run is authorized.",
+      "likely_custodian_or_source": "Target service owner plus software/model evaluator, OEM/integrator and resource payer (proposed). Existing benchmark authors are source custodians, not target acceptance authorities.",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Without incremental accepted-service/resource evidence, keep the improved conventional baseline and model contribution unvalidated. Qualification evidence may validate a narrow release; it does not prove fleet scale.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    },
+    {
+      "requirement_id": "X2",
+      "case_id": "CROSS-CASE",
+      "stage": "scale_and_entry",
+      "depends_on": [],
+      "conditional_dependencies": [],
+      "evidence_ids": [
+        "FG-E024",
+        "FG-E027",
+        "QOF-E23",
+        "QOF-E28",
+        "CAP-E024"
+      ],
+      "supported_conclusion": "Contract/support dependence, funding transitions and generation changes show why service and financing must remain with their legal parties.",
+      "unresolved_claim": "The bounded case scales, or a build/acquire/hybrid entrant retains a funded advantage after incumbent response.",
+      "minimum_evidence": [
+        "Reuse the applicable case cost and service packets; add allocated dated hardware/spares/support capacity, customer service/pricing/renewal commitments, usable data/model/transfer rights, separate legal-entity cash and debt/interest/maturity terms, and funded acquisition/transition/default/fallback obligations."
+      ],
+      "evidence_acceptance_criteria": "Existing activity transfers once on acquisition; new demand needs evidence. Equal technology access and a competent prompt incumbent remain feasible alternatives. Verify each payer can fund dated work and transitions, including liabilities and retained staff; no aggregate cash substitution. Demonstrated site service or supplier capacity announcements alone do not establish supported allocation or customer retention.",
+      "likely_custodian_or_source": "Actual customer/operator, OEM/integrator/support allocator and financier or transaction parties (proposed; no target entrant, financier, acquisition or binding customer book is established).",
+      "custody_status": "Proposed functional custodian unless a named party is explicitly identified; possession, availability and access are unverified.",
+      "decision_consequence": "Advance only the route supported by applicable executed commitments and a complete funded service. Otherwise wait on entry/scale while retaining a useful site-level result. Do not infer commercial authorization from this research.",
+      "status": "target_evidence_incomplete",
+      "calibration_permitted": false
+    }
+  ],
+  "source_index": [
+    {
+      "evidence_id": "CAP-E001",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2026-02-27",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "BMW: humanoid pilot and Leipzig programme",
+      "source_url": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en",
+      "source_status": "operator_reported_observation",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E002",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2025-11-19",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "F.02 contributed to production of 30,000 cars",
+      "source_url": "https://www.figure.ai/news/production-at-bmw",
+      "source_status": "manufacturer_or_maintainer_claim",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E003",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2026-06-25",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "BMW Figure 03 sequencing project",
+      "source_url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-figure-03-project-in-spartanburg?language=en",
+      "source_status": "operator_announced_plan_or_configuration",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E024",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2026-09-30",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "F.02 Decommission",
+      "source_url": "https://www.figure.ai/news/f-02-decommission",
+      "source_status": "supplier_reported_retirement_and_support_tradeoff",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E025",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2022",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Random bin picking for feeding car body parts",
+      "source_url": "https://www.liebherr.com/en-int/gear-technology-and-automation-systems/information-service/customer-magazine/evotion-22/bmw/bmw-5382763",
+      "source_status": "supplier_reported_customer_application",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E026",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2026-06-30",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "F.03 Arrives at BMW",
+      "source_url": "https://www.figure.ai/news/f-03-at-bmw",
+      "source_status": "supplier_demonstration_and_structural_claim",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "CAP-E027",
+      "accepted_package": "data/capability_evidence.json",
+      "publication_date": "2026-09-21",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Leipzig debut: BMW Group introduces humanoid robots – a first in Germany",
+      "source_url": "https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html",
+      "source_status": "operator_pilot_statement_with_unresolved_timing_wording",
+      "accepted_package_sha256": "fbf2ed17c209dc9396ef0ad9d6bb47dd1b34dc2f54348e5848a55bf1769ede03"
+    },
+    {
+      "evidence_id": "FG-E024",
+      "accepted_package": "data/customer_evidence.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "TUG T-2.5 schedule separates hardware, site work and recurring support",
+      "source_url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/10NXLX.3WEAGL_36F79724D0104_GSATEXTFILESTENGINEERINGAETHONINC.PDF",
+      "source_status": "retrieved_schedule_terms_not_executed_site_order",
+      "accepted_package_sha256": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234"
+    },
+    {
+      "evidence_id": "FG-E025",
+      "accepted_package": "data/customer_evidence.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "The attached warranty remedy is not immediate service restoration",
+      "source_url": "https://www.gsaadvantage.gov/ref_text/36F79724D0104/10NXLX.3WEAGL_36F79724D0104_GSATEXTFILESTENGINEERINGAETHONINC.PDF",
+      "source_status": "retrieved_schedule_terms_not_executed_site_order",
+      "accepted_package_sha256": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234"
+    },
+    {
+      "evidence_id": "FG-E026",
+      "accepted_package": "data/customer_evidence.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "VA catalog metadata does not establish complete installed service",
+      "source_url": "https://www.vendorportal.ecms.va.gov/NAC/Search/Details/36F79724D0104",
+      "source_status": "displayed_metadata_with_unreconciled_detail",
+      "accepted_package_sha256": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234"
+    },
+    {
+      "evidence_id": "FG-E027",
+      "accepted_package": "data/customer_evidence.json",
+      "publication_date": "2025-06-23",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "NHS hospital AGV maintenance award records a constrained support route",
+      "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN521106&catID=",
+      "source_status": "reported_award_and_buyer_justification_not_spend_or_performance_audit",
+      "accepted_package_sha256": "f6acf436c5832a64d03148139256fc5f0f1b10b577a4763f4347e2280a116234"
+    },
+    {
+      "evidence_id": "FSD-E001",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2026-03-31",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Feasibility of autonomous medication delivery robots considering elevator utilization in high-traffic hospital environments",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13039597/",
+      "source_status": "reported_field_feasibility_observation_with_internal_conflicts",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E002",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2025-10-10",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "The effect of autonomous mobile robots on improving endoscope reprocessing efficiency: a prospective comparative trial (with video)",
+      "source_url": "https://www.giejournal.org/article/S0016-5107(25)02075-9/fulltext",
+      "source_status": "reported_comparative_observation_abstract_verified",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E003",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2024-12-01",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Integrating Collaborative Robots into a Complex Hospital Setting",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892717/",
+      "source_status": "historical_observation_with_unresolved_count_conflict",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E005",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2026-03-13",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Saying goodbye to Moxi, the AI-powered robot",
+      "source_url": "https://www.wsna.org/news/2026/saying-goodbye-to-moxi-the-ai-powered-robot",
+      "source_status": "attributed_worker_experience_not_operating_time_study",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E006",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2026-05",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "ICU transport economic evaluation: official abstract",
+      "source_url": "https://www.ispor.org/conferences-education/conferences/past-conferences/ispor-2026/program/program/presentation/ispor-2026/poster-session-1-4/cost-effectiveness-of-an-automated-delivery-robot-program-to-reduce-nursing-transport-burden-in-an-intensive-care-unit-a-hospital-provider-perspective",
+      "source_status": "reported_source_estimate",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E007",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "ICU transport economic evaluation: linked EE102 poster",
+      "source_url": "https://www.ispor.org/docs/default-source/cti-meeting-21463-documents/5d45abe7-6936-416a-a174-e7fb62b3d120.pdf?sfvrsn=7824ce7f_0",
+      "source_status": "model_projection_from_short_manual_observation",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E008",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2026-04-24",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Application management and effectiveness analysis of intelligent logistics robots in hospital drug and specimen delivery scenarios",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13276296/",
+      "source_status": "author_cost_projection_not_realized_cash",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E009",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2026-08-20",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Robotische Automatisierung im Krankenhaus: ROI-Perspektive und Implementierungslogik",
+      "source_url": "https://medinfo.charite.de/fileadmin/user_upload/microsites/m_cc01/medinfo/Events_Meldungen/Charit%C3%A9_Whitepaper_Robotische_Automatisierung.pdf",
+      "source_status": "illustrative_model_hypothesis_not_observed_operation",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E010",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2021-03-15",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Fewer jobs, better jobs? An international comparative study of robots and ‘routine’ work in the public sector",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/irj.12323",
+      "source_status": "historical_interviews_and_site_observation_not_payroll_panel",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "FSD-E011",
+      "accepted_package": "data/field_support_denominators.json",
+      "publication_date": "2012-02-10",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "State of the NHSScotland Estate 2011: AGV case study at Forth Valley Royal Hospital",
+      "source_url": "https://www.gov.scot/publications/state-nhsscotland-estate-2011/pages/6/",
+      "source_status": "reported_historical_configuration_and_estimates",
+      "accepted_package_sha256": "9c19f3f053bfd37f61ba1c73cc5178e8b4351a4cefbac56bfc5210c5c9a33d6e"
+    },
+    {
+      "evidence_id": "H-PROXIMITY-2025",
+      "accepted_package": "data/digital_evidence.json",
+      "publication_date": "2025-05-09",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "A deployed conventional EMR proximity rule is associated with improved adjusted patient-request completion tim",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12277699/",
+      "source_status": "bounded_conventional_human_dispatch_evidence",
+      "accepted_package_sha256": "dae44fd673d30d24e1b433cba49a77b1a14ede9c17ead49b3b60339c366a0870"
+    },
+    {
+      "evidence_id": "LEC-005",
+      "accepted_package": "data/learning_data_economics.json",
+      "publication_date": "2025-09",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "DreamGen demonstrates useful policy augmentation and novel-task research scores after embodiment grounding. Pa",
+      "source_url": "https://proceedings.mlr.press/v305/jang25a.html",
+      "source_status": "author_reported_physical_and_simulation_experiments",
+      "accepted_package_sha256": "c1711d9ca77e8ae8f44f4c288c6f52f48cbacbfdd203dbd60ea95057af9c6217"
+    },
+    {
+      "evidence_id": "LEC-006",
+      "accepted_package": "data/learning_data_economics.json",
+      "publication_date": "2026-08-06",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "XEWorld tests world-model video prediction on held-out robot embodiments. Its target-adaptation and forgetting",
+      "source_url": "https://arxiv.org/html/2608.05799v1",
+      "source_status": "author_reported_controlled_simulation_diagnostic",
+      "accepted_package_sha256": "c1711d9ca77e8ae8f44f4c288c6f52f48cbacbfdd203dbd60ea95057af9c6217"
+    },
+    {
+      "evidence_id": "LEC-008",
+      "accepted_package": "data/learning_data_economics.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "GR00T-Ready release 0.3 is evaluator-recorded self-assessment. Its scoring software summarizes supplied result",
+      "source_url": "https://github.com/nvidia-isaac/isaac-gr00t-ready/tree/8a92bbb2389e1b218a614611c8d40cd4caf342b2",
+      "source_status": "pinned_documentation_and_read_only_code_audit",
+      "accepted_package_sha256": "c1711d9ca77e8ae8f44f4c288c6f52f48cbacbfdd203dbd60ea95057af9c6217"
+    },
+    {
+      "evidence_id": "OWQ-E01",
+      "accepted_package": "data/onboard_workload_qualification.json",
+      "publication_date": "2026-08-13",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Isaac GR00T 1.7 on Jetson Thor: pinned tutorial",
+      "source_url": "https://github.com/NVIDIA-AI-IOT/jetson-ai-lab/blob/2fcbe216dbaf6301103e03a177a1980a426c6ae7/src/content/tutorials/vla/groot_n17_on_thor.md",
+      "source_status": "vendor_reported_benchmark_and_reproduction_recipe",
+      "accepted_package_sha256": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
+    },
+    {
+      "evidence_id": "OWQ-E02",
+      "accepted_package": "data/onboard_workload_qualification.json",
+      "publication_date": "2026-07-08",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Pinned GR00T timing harness and applied optimization patch",
+      "source_url": "https://github.com/NVIDIA/Isaac-GR00T/blob/9c7e746b2cd37a810070a98ef41d290a07e806c2/scripts/deployment/benchmark_inference.py",
+      "source_status": "primary_code_inspection_not_workload_execution",
+      "accepted_package_sha256": "e2348e8320889a2f44ee6678ddac6d18d314ef4d046c705015f3f4095d6adf9a"
+    },
+    {
+      "evidence_id": "QOF-E01",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2021-01",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "ANYmal in the Field: Solving Industrial Inspection of an Offshore HVDC Platform with a Quadrupedal Robot",
+      "source_url": "https://doi.org/10.1007/978-981-15-9460-1_18",
+      "source_status": "operator_supplier_coauthored_field_study",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E03",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2024-09-18",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "TenneT Digitale Transformatie onder hoogspanning",
+      "source_url": "https://www.nen.nl/media/wysiwyg/Presentatie_TenneT_Digitale_transformatie_onder_hoogspanning.pdf",
+      "source_status": "operator_presentation_of_pilot_and_planning",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E05",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2024-06-08",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Robothonden en drones – efficiënter werken aan betrouwbaar hoogspanningsnet en meer capaciteit",
+      "source_url": "https://solarmagazine.nl/nieuws-zonne-energie/i37700/robothonden-en-drones-efficienter-werken-aan-betrouwbaar-hoogspanningsnet-en-meer-capaciteit",
+      "source_status": "named_operator_interview_claims",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E06",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2024-08-30",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Slimme technologie bespaart op schaarse menskracht",
+      "source_url": "https://energeia.nl/slimme-technologie-bespaart-op-schaarse-menskracht/",
+      "source_status": "reported_site_visit_and_interview",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E09",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2026",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Experience from Pilot Implementation of Substation Inspection Robots in Thailand’s High Voltage Substations",
+      "source_url": "https://www.e-cigre.org/publications/detail/b3-12057-2026-experience-from-pilot-implementation-of-substation-inspection-robots-in-thailands-high-voltage-substations.html",
+      "source_status": "primary_publisher_summary_of_field_pilot_full_paper_unread",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E10",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2023-09-12",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Thermal Imaging Cameras for Substation Monitoring",
+      "source_url": "https://www.flir.com/en-ca/discover/instruments/utilities/thermal-imaging-cameras-for-substation-monitoring/",
+      "source_status": "supplier_application_description_not_matched_economic_study",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E17",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2026-06-26",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Arrêt programmé de l’unité n°2 : contrôle des vis de cloisonnement du cœur",
+      "source_url": "https://www.edf.fr/arret-programme-de-l-unite-ndeg2-controle-des-vis-de-cloisonnement-du-coeur",
+      "source_status": "operator_reported_specialist_inspection_not_independent_cost_or_staffing_study",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E18",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2026-06-09",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Des contrôles clés pour l’unité de production n°2 lors de son arrêt programmé",
+      "source_url": "https://www.edf.fr/la-centrale-nucleaire-du-bugey/les-actualites-de-la-centrale-nucleaire-du-bugey/des-controles-cles-pour-l-unite-de-production-ndeg2-lors-de-son-arret-programme",
+      "source_status": "operator_reported_planned_outage_context_not_robot_causal_evaluation",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E19",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2019-02",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Project GRAID Closure Report — project expenditure and funding boundary",
+      "source_url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=16579%7C16578&legacyId=",
+      "source_status": "primary_operator_project_accounts_not_deployment_unit_economics",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E20",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2019-02",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Project GRAID Closure Report — replication, benefits and commercial qualification",
+      "source_url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=16579%7C16578&legacyId=",
+      "source_status": "primary_operator_replication_estimates_and_implementation_plan",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E21",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2022-04",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Virtual OHL Inspections: SP Distribution closeout and whole-service boundary",
+      "source_url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=17671&legacyId=",
+      "source_status": "operator_trial_closeout_with_counterfactual_cost_estimate",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E23",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2023-07",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "NIA_UKPN0085 closeout: contract delay and transfer to internal funding",
+      "source_url": "https://smarter.energynetworks.org/umbraco/api/ProjectDocumentsApi/DownloadProjectFiles?fileids=37204&legacyId=",
+      "source_status": "operator_funding_cohort_closeout_not_programme_cancellation",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E24",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2023-08-24",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "UKPN Spot tunnel trial and later annual-review account",
+      "source_url": "https://www.ukpowernetworks.co.uk/news/robot-dog",
+      "source_status": "linked_operator_trial_and_annual_narrative_not_independent_replications",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E25",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2018-01-23",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "LineCore: operator-developed measurements and maintenance scope",
+      "source_url": "https://www.tdworld.com/overhead-transmission/article/20970734/linecore-technology-probing-below-the-surface",
+      "source_status": "primary_operator_developer_technical_account_not_independent_economic_evaluation",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E27",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Laredo file 25-260: proposed bundle, conflicting background amount and truck comparison",
+      "source_url": "https://cityoflaredo.legistar.com/LegislationDetail.aspx?GUID=551D9EEE-2DD9-4248-8428-7134DF6DF43A&ID=7138291&Options=&Search=",
+      "source_status": "municipal_staff_proposal_and_comparator_claim_not_paid_cost",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E28",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2024-11-18",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Laredo RedZone quote OPP-107575: included equipment and initial support",
+      "source_url": "https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761348&GUID=A67E9E32-71AB-49DA-9E4C-647B6F6F758F",
+      "source_status": "dated_supplier_quote_not_executed_order_or_invoice",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E29",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": "2019-10",
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Solo V3.3 brochure: retained crew, offline review and conditional throughput",
+      "source_url": "https://cityoflaredo.legistar.com/View.ashx?M=F&ID=13761350&GUID=EA536EF8-62FF-4AAB-A89E-781463C556D8",
+      "source_status": "historical_vendor_specification_and_productivity_claim_not_matched_operating_study",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    },
+    {
+      "evidence_id": "QOF-E31",
+      "accepted_package": "data/quadruped_operator_followup.json",
+      "publication_date": null,
+      "publication_date_status": "Recorded as in accepted source; null remains unknown.",
+      "title": "Approved Laredo council minutes: item 75 purchase authorization",
+      "source_url": "https://cityoflaredo.legistar.com/View.ashx?M=M&ID=1243768&GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE",
+      "source_status": "official_council_authorization_not_proof_of_order_delivery_or_payment",
+      "accepted_package_sha256": "0c573c7d8fe871bce11fdeb7bf9d8118b0f2f519fe5dca1dd75a58c4c8f4ff1d"
+    }
+  ],
+  "common_join_contract": {
+    "keys": [
+      "case/site and decision owner",
+      "service/asset/part ID and attempt ID",
+      "hardware/software/payload/interface revision",
+      "legal operator/customer/provider/payer",
+      "due, capture, acceptance, action, invoice and payment timestamps",
+      "cohort window, exclusions and counterfactual",
+      "obligation/contract/PO/invoice/payment references"
+    ],
+    "rules": [
+      "Keep all due work, failures, exceptions and fallback; freeze units and periods before comparison.",
+      "Collect staffing, support and resource time alongside service to avoid unreconstructable retrospective allocation.",
+      "Record priced commitments, accruals, actual cash and underlying resources separately; do not sum a fee and the same provider resource cost.",
+      "Allocate shared crews/support and facilities once across cases; retain each case unit and demand.",
+      "A complete short observation window supports a bounded result only; uncertain tails and lifecycle costs remain explicit."
+    ]
+  },
+  "conditional_prerequisites": {
+    "X1": [
+      "one of H3/U3/A3 plus applicable qualification/support and cost records"
+    ],
+    "X2": [
+      "one of H6/U6/A6 with any claimed paid-work or maintenance dependency closed"
+    ]
+  },
+  "completed_in_this_tranche": "Desk synthesis, ordering and acceptance specification only; no new empirical gap marked closed.",
+  "remaining_dependency": "One missing joined packet for an explicitly identified historical episode or current target, with an identifiable acceptance owner. Historical parties/episodes can be reused from the accepted records; forward deployment still needs current applicability. Record availability/access is unverified.",
+  "scope_modes": {
+    "historical_claim_audit": "Use the exact already identified source episode, configuration, cohort and decision. Do not require selection of a new site; success validates only the historical claim.",
+    "forward_deployment": "Identify the current site/configuration/authority and qualify transfer, applicable rights and current supported capacity. Historical success does not close these conditions."
+  }
+}

@@ -17,7 +17,7 @@ CHAPTERS = [
  ('Frontier robotics models, deployment and value capture','frontier_models.md'),
 ]
 FOLLOWUPS = {
- 'integrated_decisions.md': [('Deployment and entry decision packs', 'deployment_entry_decisions.md')],
+ 'integrated_decisions.md': [('Deployment and entry decision packs', 'deployment_entry_decisions.md'), ('Minimum evidence and cross-case acceptance sequence', 'deployment_evidence_sequence.md')],
  'frontier_models.md': [('Generalist, Dyna and customer service economics', 'generalist_dyna_deployment.md'), ('Regional model releases, rights and operating evidence', 'regional_frontier_models.md'), ('Conditional architecture resources and value allocation', 'intelligence_architecture_scenarios.md'), ('Funded intelligence roles and monthly qualification', 'monthly_intelligence_execution.md'), ('Intelligence architectures, qualified parts and physical commitments', 'architecture_resources.md')],
  'economic_atlas.md': [('Physical requirements and employment classifications', 'physical_requirements_crosswalk.md')],
  'capability_learning.md': [('Learning-data economics and validation boundaries', 'learning_data_economics.md'), ('Automotive workcells, buffering and qualified generation', 'automotive_workcell_decision.md')],
@@ -33,7 +33,8 @@ def chapter(text, depth=1):
     lines=[('#'*depth+x if x.startswith('#') else x) for x in lines]
     s='\n'.join(lines).strip()
     s=s.replace('(../data/','(data/').replace('(../model/','(model/').replace('(../reviews/','(reviews/').replace('(../RESEARCH_', '(RESEARCH_').replace('(../DEPLOYMENT_', '(DEPLOYMENT_')
-    for path in (ROOT/'research').glob('*.md'):
+    for path in (ROOT/'research').glob('*'):
+        if path.suffix not in {'.md','.json'}:continue
         s=s.replace('('+path.name+'#','(research/'+path.name+'#')
         s=s.replace('('+path.name+')','(research/'+path.name+')')
     return s
@@ -44,7 +45,7 @@ def build():
     if missing:raise SystemExit('Missing substantive chapters: '+', '.join(missing))
     out=['''# Robotics Economics — integrated research report
 
-Edition 0.52, municipal procurement and complete-service checkpoint, 9 November 2026. Approved Laredo minutes and a supplier quote support a $189,000 two-camera purchase; a $189,700 staff-background amount remains unexplained. Authorization does not establish paid cost, matched truck equivalence or actual labor savings. All 271 bounded worlds remain unchanged. Empirical whole-system economics remain partial. This is **an early checkpoint of the same active campaign, not completion**.
+Edition 0.53, minimum deployment evidence and acceptance-sequence checkpoint, 10 November 2026. A cross-case matrix turns the three existing decision packs into ordered, linked evidence packets with explicit acceptance and rejection gates. Authorization, executed commitment, payment, accepted service, maintenance/work change and total payer cost remain separate. No new empirical finding, scenario or numerical calibration is claimed; the same active campaign and incomplete empirical acceptance continue.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 

@@ -178,3 +178,7 @@ Eight comparisons derive customer/provider/consolidated window bounds from the u
 ## Checkpoint 0.52: authorized municipal purchase and whole-service limits
 
 Five primary records from Laredo resolve council authorization and initial bundle scope while preserving the $700 staff-background discrepancy, incomplete truck comparator and missing service/payer outcomes. Three decision packs and six reassessments inherit the procurement-stage test without transferring sector rates or prices. No world or numerical calibration is added; fourteen families remain at 271 worlds. All empirical gaps, prior access boundaries, T0, November 14 deadline and single-writer scope remain.
+
+## Checkpoint 0.53: minimum evidence and acceptance sequence
+
+A bounded desk synthesis defines twenty claim-level evidence requirements across the three existing leading cases and two conditional digital/entry gates. Five acquisition batches distinguish authority, executed obligations, payment, accepted service, changed maintenance/paid work and each payer's total cost. No target evidence is acquired or empirical status promoted. The existing 271 worlds, source packages, model results, T0 and November 14 deadline remain unchanged.

@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.52.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.53.
 
 ## Accepted direction
 
@@ -20,7 +20,31 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: municipal procurement and complete service, edition 0.52
+## Current checkpoint: minimum evidence and acceptance sequence, edition 0.53
+
+Same sole-writer campaign, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. The explicitly reopened bounded gap analysis is complete; the overall campaign retains its empirical gaps. Input **f94729e4afa530ba51253d8a58b58ff54f7bf024** was clean and remote-verified. Actual shell and bounded browser execution resumed in the same published cloud configuration. Quota is unknown. No new task, native goal, agent, schedule, commercial action, outreach or access expansion.
+
+The [cross-case minimum-evidence matrix](research/deployment_evidence_sequence.md) converts the three existing leading packs into **20 claim-level specifications, five acquisition batches and explicit pass/reject/wait consequences**. Each row records the supported source conclusion, unresolved target claim, minimum missing records and joins, acceptance test, proposed or documented custodian and decision consequence. The [structured companion](research/deployment_evidence_matrix.json) references **45 existing accepted records** with exact source-package fingerprints; these are not new observations.
+
+The first packet is a named target/service/configuration/acceptance owner, applicable authority and operating/support terms, then a joined complete-service cohort: **H1–H3, U1–U3 or A1–A3**. An authorized service-only evaluation can use an existing entitlement or evaluation mandate without a new equipment purchase. Executed commercial terms, payment, accepted service, downstream maintenance or paid-work change and total payer cost remain separate evidence states. Later records are conditional on the claimed benefit: retained payroll does not invalidate a useful capacity/information service, but it cannot fund a payroll-saving ROI. Current physical qualification is required for a new generation or model contribution; a site result alone cannot validate scale or build/acquire/hybrid entry.
+
+A historical-claim audit can reuse an already named source episode without selecting a new site; it validates that historical claim only. Forward deployment still requires current applicability and supported rights. The matrix does not choose a target site, invent performance/sample-size/ROI thresholds, assume private record access or close an empirical gap. Historical sites, task units, configurations and source vintages remain distinct. All new rows retain incomplete target-evidence status.
+
+Fresh validation checks all 20 row IDs, three pack/cell mappings, five batches, 45 evidence references, recorded source dates/URLs and accepted-package hashes. Required dependencies are acyclic; conditional gates resolve. Generated Markdown matches its authoritative matrix exactly; the integrated report rebuild includes the matrix and correct JSON link. Both builder scripts compile, and the changed dashboard script passes syntax checking.
+
+The dashboard change is a navigation link in the existing decision context. A bounded browser check confirms its visibility, the exact served Markdown and structured JSON, HTTP200 responses and no pending/failed requests, JavaScript or API errors; its screenshot was inspected. No new model/control behavior is introduced. Unchanged full Python/Node, all-view/control and scenario suites were not rerun or represented as fresh.
+
+**All 148 existing model files and all 20 data files are byte-identical to edition0.52**, including all **44 result JSONs**. Their previously recorded **2,098,443 typed numeric fields** are therefore preserved. Source counts, 14 bounded families/271 worlds, legacy53 met/16 partial, all 69 legacy requirement statuses, 12 decision-campaign statuses and 65 question statuses remain unchanged. AGENTS.md, model assumptions, the T0 and deadline are preserved.
+
+All **404 manifest hashes**, **1170 relative Markdown links** and **97 matrix evidence-anchor links** verify; no broken link remains.
+
+See the [sole-writer review](reviews/deployment_evidence_sequence_review.md). Operational runtime, publication and validation receipts are ignored; they were reconstructed after restoration.
+
+**Remaining dependency / next action:** one applicable missing first packet (H1–H3, U1–U3 or A1–A3), tied to an identified historical episode or current target and acceptance owner. Existing source episodes supply historical case keys; no new-site approval is needed to audit those bounded claims. Follow the conditional paid-work, maintenance, payer-cost and entry gates only for the benefit being claimed. No empirical evidence was acquired or current target selected. All prior denied/private/request-only routes and the hardware-migration contract dependency remain unchanged. This authorized desk-synthesis tranche has no further useful step after publication; report the completed artifact and specific dependency once for coordination, preserving history and deadline.
+
+**Next question:** for the selected episode or target, does the missing joined record validate the precise service/commitment claim, or require rejection or a narrower conclusion?
+
+## Previous checkpoint: municipal procurement and complete service, edition 0.52
 
 Same sole-writer campaign; T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. This bounded tranche is complete; the overall campaign retains its incomplete empirical acceptance. Input **878dc2e2eedde70d13ef20693ca98d5cd7c9dada** was clean and remote-verified. Actual shell and browser execution resumed in the same configured cloud task. No new task, native goal, agent, schedule, spending, outreach, model setting or access change. Quota is unknown.
 

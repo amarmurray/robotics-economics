@@ -1,5 +1,7 @@
 # Initial deployment thesis register
 
+**Edition 0.53:** a deployment thesis should state the smallest joined record that could reject it. A qualified information/capacity service and a payroll-funded or scale-entry thesis require different evidence. Use the [acceptance sequence](research/deployment_evidence_sequence.md) to preserve those claim boundaries and avoid mistaking approval, payment or a successful task for complete operating value.
+
 **Edition 0.52:** a documented equipment authorization can strengthen the acquisition option without establishing operating value. Match the complete alternative, distinguish approval from execution/payment and retain paid deployment/review/support work. A quoted bundle and supplier throughput claim do not identify lifecycle savings or an entrant margin. [Laredo evidence](research/quadruped_operator_followup.md#municipal-procurement-and-complete-service-edition-052).
 
 **Edition 0.51:** a customer fee ceiling and provider resource-recovery amount require matching complete service. Their interval depends on the incumbent alternative and differs from consolidated resource savings when the baseline provider retains cash. Aggregate recovery cannot replace a timed funding replay; further maintenance value remains unproven.
