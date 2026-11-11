@@ -214,3 +214,8 @@ A rival with sufficient paid humans can keep all cleaning contracts served while
 
 
 Edition0.54 decision test: evidence is complementary. In the declared utility possibility set, resolving any single field or pair leaves the worst cash regret unchanged; joined duty, qualification, review, mobile-result and paid-contract evidence can eliminate regret within the finite model. This is neither expected value of information nor proof of target economics. Earlier contracts, recurring software, and timely provider resources must be joined to accepted service. See [analysis and limits](research/inspection_uncertainty.md).
+
+
+## Faster stations need complete work and payment evidence, edition 0.56
+
+**Conditional challenge:** a process arrangement that reduces station attention can add more upstream preparation work and leave paid staffing unchanged. [Fourteen matched workcell comparisons](research/workcell_cash_decision.md) make this visible without changing the physical engine. A qualified fixed/buffered comparator can also remove an assumed embodiment premium. **Falsifier for payroll-funded value:** the proposed avoided commitment is not cancellable, complete work requires offsetting labor, or the reduced funded capacity misses service. **Next observation:** accepted part/kit deadlines joined to all preparation/retained work and effective paid commitments, then supported-generation and payer/asset closeout. The resulting threshold is not an empirical investment recommendation.

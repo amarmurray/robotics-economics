@@ -192,3 +192,8 @@ Four new official municipal records clarify software/renewal and authorization b
 ## Checkpoint 0.55: follow the configured-contract lead
 
 Three additional official records extend municipal approval history and identify concrete excluded costs and warranty limits in an expired unsigned offer. This follows substantive work beyond the0.54 publication boundary. The simulation, all prior values, empirical acceptance statuses, sole writer and November14 deadline are unchanged.
+
+
+## Checkpoint 0.56: matched workcell labor and cash
+
+Fourteen derived automotive comparisons reuse the physical/funding engine and add one explicitly matched human mixed-family reference. They expose preparation work, conditional staff-invoice thresholds and six incomplete-service exclusions. These pairs are separate from the unchanged fourteen challenge families/271 worlds and the0.54 sensitivity experiment. No empirical cost, probability, paid-hours or acceptance claim is added. Same sole writer, T0 and November14 deadline.

@@ -407,3 +407,8 @@ Next substantive dependency: a complete applicable U1/U3 due-property, qualifica
 
 
 Edition0.55 follows the new lead to a historical configured offer and additional municipal approvals. The concrete next contract evidence is executed order/contract identity, incorporated support/warranty language resolving the commencement conflict, amendments/cancellations and actual payment joined to accepted whole service. The official records retrieved do not supply it. The0.54 simulation remains unchanged; these facts refine missing fields, not numerical calibration.
+
+
+## Complete automotive work and customer cash, edition 0.56
+
+The [new comparison](research/workcell_cash_decision.md) addresses an independent gap: matched accepted kits, upstream labor and paid cash. It retains fourteen derived pairs, six service exclusions and an explicit synthetic human mixed-family reference. No new public search or historical result change was needed. Next obtain an applicable A1/A3/A5 record joining the actual service and competent comparator to all preparation/retained duties and an avoidable paid commitment. A2/A4 support/change records and A6 actual payers/assets are needed for economic claims. The utility joined-record dependency remains separate and open. Another replay is useful only when a new target, constraint, candidate or defensible cost/rights fact changes the decision; repeating these fixtures or closed-source searches adds no evidence.

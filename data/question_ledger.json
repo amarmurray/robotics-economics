@@ -73,7 +73,8 @@
       "dependencies_and_completion": "Deeper, after PL-02/03. Advance when two contrasting processes have defensible baselines.",
       "findings": [
         "Edition 0.19 tests fixed sensing and complementary versus overlapping mobile coverage against the same required information. Full remote coverage does not by itself remove committed staffing; target process-redesign cost and rights remain unknown.",
-        "Edition 0.20: Fixed vision/buffering and paid presentation are explicit process alternatives; whole-kit timing can reverse a direct-loading result without changing embodiment."
+        "Edition 0.20: Fixed vision/buffering and paid presentation are explicit process alternatives; whole-kit timing can reverse a direct-loading result without changing embodiment.",
+        "Edition0.56 replays matched automotive alternatives and counts separate preparation. The prepared-input fixture reduces station work yet increases total modeled person-time; process redesign must meet the same complete service and paid-duty boundary."
       ],
       "artifacts": [
         "research/utility_inspection_decision.md",
@@ -81,9 +82,12 @@
         "model/results/utility_inspection.json",
         "research/automotive_workcell_decision.md",
         "model/AUTOMOTIVE_WORKCELL.md",
-        "model/results/automotive_workcell.json"
+        "model/results/automotive_workcell.json",
+        "research/workcell_cash_decision.md",
+        "model/WORKCELL_COMPARISON.md",
+        "model/results/workcell_comparison.json"
       ],
-      "next_action": "Obtain a new matched configuration/qualification or supported-service record that can change this decision; preserve public-source gaps and original completion conditions."
+      "next_action": "Obtain the applicable automotive A1/A3/A5 join of accepted component/kit deadlines, upstream and retained duties, and exact avoidable paid commitments; join A2/A4 supported configuration and A6 actual payer/asset records for an economic claim. No source or simulation output establishes the missing target records."
     },
     {
       "question_id": "RQ-HC-01",
@@ -187,7 +191,8 @@
         "Edition 0.20: A distinct purchased replacement receives its own qualification/support list and cannot inherit service capability from its name or erase missed deadlines.",
         "Edition 0.22 executes bounded eligible-data, funded candidate/qualification and supported-service feedback on two persistent synthetic workcells. No-learning retains failed research cost; no-transfer and failed retained trials preserve old configurations; engineering priority and delivered compatible modules gate service. Performance remains a hypothesis, not a measured learning curve.",
         "Edition 0.49 joins paid release review, prospective eligibility, legacy support entitlement and separate operating rights to the same crew/award history. Unsupported hardware can leave unassigned market work after a staff cut; retained paid fallback can preserve service. Synthetic M11 premises supply no empirical rights, learning or cost calibration.",
-        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion."
+        "Edition 0.50 adds a primary-source measurement-equivalence audit. Qualify the same property and decision before comparing inspection alternatives; distinguish proposed maintenance scope from executed work and realized paid/capital effects. No current economic calibration or status promotion.",
+        "Edition0.56 rejects a cost bound for the paid qualified replacement because the unchanged workcell history still misses a deadline. Qualification, retained assets, prior failure and complete supported service remain distinct."
       ],
       "artifacts": [
         "research/capability_learning.md",
@@ -202,9 +207,12 @@
         "model/LEARNING_EXECUTION.md",
         "model/results/learning_execution.json",
         "research/shared_workforce.md#reviewed-releases-and-continuing-service-edition-049",
-        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050"
+        "research/quadruped_operator_followup.md#measurement-equivalence-and-maintenance-scope-edition-050",
+        "research/workcell_cash_decision.md",
+        "model/WORKCELL_COMPARISON.md",
+        "model/results/workcell_comparison.json"
       ],
-      "next_action": "Seek a sustained configured deployment with actual target/retained-cohort outcomes, complete R&D/support resources, rights, delivery commitments and costs; do not treat the synthetic gates as empirical acceptance."
+      "next_action": "Obtain the applicable automotive A1/A3/A5 join of accepted component/kit deadlines, upstream and retained duties, and exact avoidable paid commitments; join A2/A4 supported configuration and A6 actual payer/asset records for an economic claim. No source or simulation output establishes the missing target records."
     },
     {
       "question_id": "RQ-SP-01",
@@ -1066,7 +1074,8 @@
         "Edition 0.51 derives buyer fee and provider resource-recovery bounds from existing complete matched inspection executions. The incumbent alternative and legal cash boundary matter; aggregate recovery does not guarantee timed funding. Further net value is required evidence, not an estimated benefit or current price.",
         "Edition 0.52: Approved hardware purchase does not establish delivery, software/data portability, support continuity or transfer rights. Sole-source status for one product is not absence of other qualified services.",
         "Edition0.54: the utility experiment quantifies joint evidence rather than assuming a probability distribution. Qualification, review, residual duties and paid contracts can jointly change feasible cash decisions; information regret reduction is not expected value or an acquisition budget. Official municipal records separate software renewal and contract discretion from accepted service and payment.",
-        "Edition0.55 follows the new municipal contract lead: program/renewal approval chronology is distinct from signed continuity, and an expired configured offer exposes tax/shipping/finance and warranty exclusions without establishing actual cost or applicable rights."
+        "Edition0.55 follows the new municipal contract lead: program/renewal approval chronology is distinct from signed continuity, and an expired configured offer exposes tax/shipping/finance and warranty exclusions without establishing actual cost or applicable rights.",
+        "Edition0.56 derives conditional automotive customer cash and station-staff invoice ceilings after matched complete service. External payees are receipt accounts, not supplier resource/profit accounts; opening/terminal assets and lifecycle costs remain unknown."
       ],
       "artifacts": [
         "research/customer_value.md",
@@ -1104,9 +1113,12 @@
         "research/utility_inspection_decision.md#matched-service-and-window-cash-bounds-edition-051",
         "reviews/laredo_procurement_review.md",
         "research/inspection_uncertainty.md",
-        "model/inspection_uncertainty.py"
+        "model/inspection_uncertainty.py",
+        "research/workcell_cash_decision.md",
+        "model/WORKCELL_COMPARISON.md",
+        "model/results/workcell_comparison.json"
       ],
-      "next_action": "Obtain an applicable joined service/qualification/review/paid-commitment/payer packet through a permitted route; preserve actual rights and maintenance consequences. Simulation identifies conditions, not empirical resolution."
+      "next_action": "Obtain the applicable automotive A1/A3/A5 join of accepted component/kit deadlines, upstream and retained duties, and exact avoidable paid commitments; join A2/A4 supported configuration and A6 actual payer/asset records for an economic claim. No source or simulation output establishes the missing target records."
     },
     {
       "question_id": "RQ-BM-03",
@@ -2240,6 +2252,6 @@
       "next_action": "Define a compatible paid development/failed-trial/qualification contract before joining endogenous learning or cross-company reuse. Prefer a genuinely new permitted target whole-service cost/rights closeout when available; keep denied routes closed."
     }
   ],
-  "edition_note": "Edition0.54 adds public municipal evidence and conditional computational uncertainty analysis; all question statuses are preserved.",
-  "decision_campaign_note": "Edition 0.52 adds a bounded municipal procurement/service audit. All 65 question statuses and empirical cost/paid-work gaps remain unchanged."
+  "edition_note": "Edition0.56 adds matched workcell labor/cash bounds and executable replay; all question statuses remain unchanged.",
+  "decision_campaign_note": "Same November14 deadline; public-evidence additions remain accepted and all empirical service, rights, paid-work and whole-payer gaps remain open."
 }

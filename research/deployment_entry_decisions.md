@@ -296,3 +296,8 @@ Use the [cross-case evidence sequence](deployment_evidence_sequence.md) for the 
 
 
 Edition0.55 follows the new contract lead through earlier program authorization and offered warranty terms. [The configured-offer audit](quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055) identifies concrete omitted-cost/continuity obligations; no signed target contract, paid total or service outcome is inferred. The0.54 simulation and original matrix remain unchanged.
+
+
+## Matched workcell work and customer cash, edition 0.56
+
+[The workcell comparison](workcell_cash_decision.md) adds fourteen derived matched pairs using the existing engine. Upstream preparation reverses a narrow station-time saving in one fixture; all staff remain paid. Six late/incomplete alternatives receive no economic bound, including a qualified replacement that still misses a deadline. Conditional invoice ceilings and omitted-cost allowances focus A1–A6 evidence acquisition; they cannot establish avoidable staffing, supplier profit or lifecycle return. Hospital and utility inherit this comparison method only, never automotive values or service units.

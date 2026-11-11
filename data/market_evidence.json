@@ -4355,6 +4355,16 @@
         "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
         "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters.",
         "contract_followthrough": "An expired configured offer can reveal omitted taxes/shipping/finance and limited warranty coverage; it cannot establish target rights, current price or paid cost. Authorization chronology is not signed contract continuity."
+      },
+      "workcell_cash_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/workcell_cash_decision.md",
+        "output": "model/results/workcell_comparison.json",
+        "status": "conditional_comparison_empirical_requirements_remain_open",
+        "applicability": "Comparison method only: automotive values and service assumptions do not transfer to this case.",
+        "finding": "Count upstream preparation with station work; require complete timely service before deriving a staff-bill or omitted-cost bound. A lower hypothetical invoice is not avoidable paid labor. External payee receipts do not reveal supplier resources or profit.",
+        "requirements": [],
+        "numeric_calibration_permitted": false
       }
     },
     {
@@ -4691,6 +4701,16 @@
         "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
         "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters.",
         "contract_followthrough": "An expired configured offer can reveal omitted taxes/shipping/finance and limited warranty coverage; it cannot establish target rights, current price or paid cost. Authorization chronology is not signed contract continuity."
+      },
+      "workcell_cash_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/workcell_cash_decision.md",
+        "output": "model/results/workcell_comparison.json",
+        "status": "conditional_comparison_empirical_requirements_remain_open",
+        "applicability": "Comparison method only: automotive values and service assumptions do not transfer to this case.",
+        "finding": "Count upstream preparation with station work; require complete timely service before deriving a staff-bill or omitted-cost bound. A lower hypothetical invoice is not avoidable paid labor. External payee receipts do not reveal supplier resources or profit.",
+        "requirements": [],
+        "numeric_calibration_permitted": false
       }
     },
     {
@@ -5009,6 +5029,23 @@
         "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
         "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters.",
         "contract_followthrough": "An expired configured offer can reveal omitted taxes/shipping/finance and limited warranty coverage; it cannot establish target rights, current price or paid cost. Authorization chronology is not signed contract continuity."
+      },
+      "workcell_cash_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/workcell_cash_decision.md",
+        "output": "model/results/workcell_comparison.json",
+        "status": "conditional_comparison_empirical_requirements_remain_open",
+        "applicability": "Automotive-only synthetic matched kit and paid-preparation comparison.",
+        "finding": "Count upstream preparation with station work; require complete timely service before deriving a staff-bill or omitted-cost bound. A lower hypothetical invoice is not avoidable paid labor. External payee receipts do not reveal supplier resources or profit.",
+        "requirements": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6"
+        ],
+        "numeric_calibration_permitted": false
       }
     }
   ],

@@ -450,3 +450,12 @@ Check JavaScript syntax for `dashboard/app.js` and `dashboard/inspection_uncerta
 
 
 Edition0.55 is a source/interpretation follow-through. Run evidence validation and the scoped evidence/source-calculation tests, rebuild the new analysis/report and refresh only existing evidence fingerprints. Compare all45 prior result JSONs and the complete uncertainty code/inputs/export with0.54: no model or numerical change is permitted. Verify source drawers QOF-E36–E38 and added report links; do not rerun the unchanged simulation/control suites as new0.55 evidence.
+
+
+## Matched workcell labor and cash, edition 0.56
+
+Run `python3 -m unittest tests.test_workcell_comparison tests.test_automotive_workcell`, `python3 scripts/export_workcell_comparison.py --check` and `python3 scripts/build_workcell_comparison.py --check`. Regenerate with those scripts without `--check`, then `python3 scripts/build_report.py`. Full downloaded pairs replay through `export_workcell_comparison.py --case FILE --output FILE`; derived saved bounds cannot override complete inputs. See [the work/cash contract](model/WORKCELL_COMPARISON.md).
+
+Check changed JavaScript and server syntax, evidence/source-calculation tests, the registry and both existing Node helper suites. Refresh the three existing evidence-dependent exporters only for changed pack/ledger fingerprints; verify all45 prior results retain numerical and non-fingerprint semantics. The0.53 matrix and0.54 uncertainty code/inputs/results stay unchanged.
+
+In the existing Embodiment view, verify all14 comparisons, service exclusions, reference mismatch, comparison of last-applied workcells, pending/stale/invalid/asynchronous protections and complete export/import/CLI replay. Supplier resources/profit must stay unknown and incomplete service must display no bound. Check the shared link in all13 views and the three pack boundaries without repeating unchanged family controls.

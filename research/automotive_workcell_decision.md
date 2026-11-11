@@ -53,3 +53,8 @@ The next evidence question is which configuration-specific qualification, suppor
 ## Funded qualification follow-up, edition 0.22
 
 The [executable learning follow-up](learning_execution.md) adds unique eligible operating data, a paid candidate, target/retained-cohort trials, delivered compatible runtime modules and finite support. It preserves source/target boundaries and all prior numerical scenarios. Candidate performance remains a disclosed hypothesis; real costs, rights, qualification distributions and supported scale remain unresolved.
+
+
+## Matched labor and cash extension, edition 0.56
+
+[The derived comparison](workcell_cash_decision.md) replays the same worlds, plus an explicitly matched human mixed-family comparator. It counts station and paid preparation work, rejects incomplete timely service before economic bounds and exposes conditional staff-invoice ceilings. Prepared input can reduce station time while increasing total modeled person-time. All source records, original numerical results and A1–A6 empirical gaps remain unchanged; no supplier-resource or lifecycle account is inferred from customer payments.
