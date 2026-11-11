@@ -1,6 +1,6 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "operator-evidence-and-decision-uncertainty-0.54",
+  "version": "municipal-obligation-followthrough-0.55",
   "retrieved_at": "2026-11-11",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
@@ -1617,6 +1617,73 @@
       "quantities": [],
       "target_parameters_allowed": [],
       "source_pdf_sha256": "86252a79d038010cbe224707862ca24389c8718ebcd32baac05411180a13f197"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E36",
+      "title": "Mount Dora authorization of RedZone Y.E.S. program",
+      "url": "https://www.mountdora.gov/Archive/ViewFile/Item/122",
+      "publisher": "City of Mount Dora",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/attached-proposal dates are known; separate archive publication date is unestablished.",
+      "observation_period": "2012-05-15 council meeting",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "historical_official_record_not_executed_target_terms",
+      "locator": "PDF page 2, consent item 2 and unanimous consent approval",
+      "claim": "Council approves the RedZone Your Entire System program contract.",
+      "limitations": "The program label and vote establish authorization; equipment title, actual service scope, executed clauses and payment are not supplied.",
+      "quantities": [],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "994fa47d35fd083b9ee0933a07e73e3dbb62481d5a1363dde427ea24f38bb22b"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E37",
+      "title": "Mount Dora later Solo contract approval",
+      "url": "https://www.mountdora.gov/Archive/ViewFile/Item/3033",
+      "publisher": "City of Mount Dora",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/attached-proposal dates are known; separate archive publication date is unestablished.",
+      "observation_period": "2016-04-05 council meeting",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "historical_official_record_not_executed_target_terms",
+      "locator": "PDF page 7, New Business item 3 and roll-call vote",
+      "claim": "Council approves another RedZone Solo Robotics contract.",
+      "limitations": "Neither an identical continuation of the 2012 contract nor a contradiction of the 2014 cancellation expectation is established without signed contract identities and amendments.",
+      "quantities": [],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "948151d39eda4168721680fc2cce57d3ff063c8c55760f0679665d0beec1cfa6"
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E38",
+      "title": "Augusta 2011 Solo offer: support exclusions and cash timing",
+      "url": "https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=259414&repo=Augusta",
+      "publisher": "City of Augusta",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/attached-proposal dates are known; separate archive publication date is unestablished.",
+      "observation_period": "2011-08-29 agenda; attached proposal dated 2011-05-06, expires 2011-06-30",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "historical_official_record_not_executed_target_terms",
+      "locator": "Item 11 attachment 3, proposal pages 1-4; opportunity Opp-102224",
+      "claim": "The offer lists four robots for $152,000 with specified bundled equipment/licenses/support. Taxes, shipping and extended municipal financing are outside the quoted price. Warranty wording excludes consumables and downtime losses; its start is described inconsistently as receipt versus shipment.",
+      "limitations": "Expired unsigned budget offer, not paid cost or current applicable contract. Named support is not a repair-time guarantee. No interpretation of enforceability, entitlement transfer, later renewal cost or actual downtime is established.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-AUGUSTA-ROBOT-OFFER",
+          "value": 152000,
+          "unit": "USD",
+          "denominator": "one four-robot introductory offer with listed inclusions",
+          "population": "Augusta opportunity Opp-102224",
+          "period": "2011-05-06 offer, expired 2011-06-30",
+          "measurement_status": "historical_expired_unsigned_offer_not_paid_or_current_price"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "retrieval_boundary": "Read official indexed document text; no new raw request or circumvention of the prior cookie/sign-in shell. No raw source hash claimed."
     }
   ],
   "deployments": [
@@ -1776,6 +1843,14 @@
       ],
       "issue": "Title, quote and approved minutes state $189,000; staff background states $189,700.",
       "disposition": "Quote and minutes support the quoted and authorized $189,000 bundle. The $700 background difference remains unexplained; do not infer typo, tax, freight, paid invoice or realized saving."
+    },
+    {
+      "conflict_id": "QOF-C04",
+      "evidence_ids": [
+        "QOF-E38"
+      ],
+      "conflict": "Proposal note starts warranty at receipt; warranty text starts it at shipment.",
+      "resolution": "Unresolved. Do not choose a date or treat the offer as executed applicable coverage."
     }
   ],
   "transfer_test": {
@@ -1962,6 +2037,21 @@
       ],
       "result": "Authorization and reported recurring scope/progress clarified; no executed target payer/service packet.",
       "retrieval_limit": "Augusta raw HTTP returned cookie/sign-in shell. Accepted claims use already retrieved official indexed text only; no cookie challenge or alternate archival route attempted."
+    },
+    "contract_followthrough": {
+      "date": "2026-11-11",
+      "queries": [
+        "site:mountdora.gov \"RedZone\" \"agreement\"",
+        "site:mountdora.gov \"RedZone\" \"2014\" \"contract\" \"$\"",
+        "site:forms.augustaga.gov \"ICOM3\" \"AGREEMENT\""
+      ],
+      "recovered": [
+        "QOF-E36",
+        "QOF-E37",
+        "QOF-E38"
+      ],
+      "outcome": "Earlier municipal authorization and configured offer/warranty terms recovered; no executed payer/service packet. The offered support terms expose concrete exclusions and a date conflict. No denied route retried.",
+      "remaining_dependency": "Executed order/contract identity, applicable terms/amendments, payment and accepted complete service, with actual retained duties."
     }
   },
   "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)",
@@ -2817,7 +2907,10 @@
         "QOF-E32",
         "QOF-E33",
         "QOF-E34",
-        "QOF-E35"
+        "QOF-E35",
+        "QOF-E36",
+        "QOF-E37",
+        "QOF-E38"
       ],
       "matrix_requirement_ids": [
         "U2",
@@ -2839,7 +2932,8 @@
           "value": null,
           "reason": "No matched customer/provider resource and cash ledger, including recurring support and residual duties."
         }
-      }
+      },
+      "contract_followthrough": "2012 program and 2016 contract approvals extend the authorization chronology without establishing signed continuity. The 2011 Augusta offer exposes omitted costs, warranty limits and conflicting commencement language; it remains expired and unsigned."
     }
   ]
 }

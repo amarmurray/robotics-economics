@@ -187,3 +187,8 @@ A bounded desk synthesis defines twenty claim-level evidence requirements across
 ## Checkpoint 0.54: public records and decision uncertainty
 
 Four new official municipal records clarify software/renewal and authorization boundaries. The existing inspection engine now supports96 explicit possibilities,288 policy sensitivity executions,63 evidence partitions and four exact funding-boundary replays. This sensitivity design is separate from the unchanged14 challenge families/271 published worlds; it is not an empirical sample. The edition0.53 acceptance matrix, all empirical gaps, single writer, T0 and November14 deadline remain. No probability, savings estimate, commercial action, reset or native-goal change is authorized by model output.
+
+
+## Checkpoint 0.55: follow the configured-contract lead
+
+Three additional official records extend municipal approval history and identify concrete excluded costs and warranty limits in an expired unsigned offer. This follows substantive work beyond the0.54 publication boundary. The simulation, all prior values, empirical acceptance statuses, sole writer and November14 deadline are unchanged.

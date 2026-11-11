@@ -97,3 +97,6 @@ For the utility pack, identify the actual incumbent alternative and every mandat
 ## Evidence-conditioned inspection decisions, edition 0.54
 
 [The uncertainty analysis](inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
+
+
+Edition0.55 follows the new contract lead through earlier program authorization and offered warranty terms. [The configured-offer audit](quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055) identifies concrete omitted-cost/continuity obligations; no signed target contract, paid total or service outcome is inferred. The0.54 simulation and original matrix remain unchanged.

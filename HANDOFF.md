@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.54.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.55.
 
 ## Accepted direction
 
@@ -20,7 +20,23 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: evidence and inspection uncertainty, edition 0.54
+## Current checkpoint: configured obligations follow-through, edition 0.55
+
+The same sole-writer campaign continues from published **d59d57344d69a2601e005d97f9522fefc869af39** (edition0.54). Deadline remains **2026-11-14T20:12:27Z**. The computational milestone was not treated as an artificial stop: its newly identified municipal contract lead was followed to three additional official records. No task, goal, model setting, schedule, access, spending or outreach change. Quota remains unknown.
+
+**QOF-E36/E37** extend Mount Dora's authorization history to its2012 Your Entire System program and a2016 Solo contract approval. They do not establish a common executed contract, asset title, cancellation or payment. **QOF-E38** is an expired unsigned Augusta offer with configured equipment/licenses/support and explicit omitted costs, warranty exclusions and conflicting receipt-versus-shipment warranty commencement. It supplies specific U2/U6 questions, not current rights, accepted service or model calibration. [The integrated audit](research/quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055) preserves these boundaries. Indexed official text was used for the Augusta record; no retry of the earlier raw cookie/sign-in challenge. Two additional Mount Dora PDFs were retrieved and fingerprinted normally.
+
+The [0.54 simulation and decision result](research/inspection_uncertainty.md) remain unchanged numerically and computationally:96 structural possibilities,288 policy evaluations,63 information partitions and four exact funding-boundary replays. The readable chapter now links the follow-through evidence. Customer/provider fees, resource costs and missing lifecycle/continuity obligations remain distinct. None of these historical source amounts enters a model coefficient.
+
+Fresh0.55 validation: **36 evidence/source-calculation tests**, production registry at **13 packages,245 evidence records,572 reported quantities,208 explicit-null markers**, deterministic chapter/report construction, source identity/offer-boundary checks in all three new dashboard drawers, and preserved acceptance statuses. The expanded full record correctly displays the expired offer and its amount; the initial browser assertion looked for the amount in a collapsed detail and was corrected to open the record. No application fix was needed. No JS/request error remains. The65 scoped Python tests,36 Node assertions, full explorer replay and13-view checks are the accepted0.54 results, not newly repeated0.55 results.
+
+All **45 prior result JSONs /2,136,486 typed numeric fields** preserve every non-evidence-fingerprint value;34 remain byte-identical and11 update only evidence fingerprints. The entire uncertainty implementation, inputs, saved result, tests and interactive explorer remain byte-identical to0.54. The0.53 matrix and sequence remain byte-identical. Legacy53 met/16 partial and all question/requirement statuses remain unchanged. See [the scoped self-review](reviews/municipal_obligation_followthrough_review.md).
+
+**Remaining dependency:** the applicable executed agreement/order and incorporated support terms, contract identities/amendments resolving continuation or cancellation, actual payment and joined accepted whole service/paid-duty records. A reported program name or later authorization cannot supply these. The simulation identifies decision-sensitive combinations but cannot establish empirical savings. The new records supply no signed target packet; further generic repetition of these approval searches would not resolve it. Preserve the saved checkpoints and report this precise dependency once; no empty holding turns, denied-source retries or invented values. Campaign completion is not claimed.
+
+**Next question:** which executed obligation actually allocates software renewal, repair, timely fallback and residual work, and does its paid/accepted-service history satisfy U2/U3/U5/U6 (plus U4 when claiming maintenance benefit)?
+
+## Previous checkpoint: evidence and inspection uncertainty, edition 0.54
 
 Same sole-writer campaign, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. The user's November11 instruction reopened independent public evidence and computational economic simulation. The restored clean0.52 checkout was compared with remote0.53 and fast-forwarded to **622e4dd03f8bd19a05c502deeb89f098809aec29** before edits. Actual shell execution resumed in the same published configuration; current connected environment revision7 had no failure. Quota remains unknown. No new task, agent, goal, schedule, outreach, spending, reset or access change.
 

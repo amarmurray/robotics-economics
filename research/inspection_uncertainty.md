@@ -10,6 +10,8 @@ The new [reproducible sensitivity model](../model/INSPECTION_UNCERTAINTY.md) use
 
 The [new municipal audit](quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) adds QOF-E32–E35: a separate software authorization and proposed recurring charge in Augusta, and reported project progress/renewal discretion followed by another authorization in Mount Dora. These refine U2/U3/U6 record requirements. They do not supply an executed current contract, paid invoice, complete accepted-service cohort or payroll change. Historical source statements and their evidential stages remain separate from simulated outcomes.
 
+The subsequent [configured-offer audit](quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055), QOF-E36–E38, identifies additional authorization history and concrete warranty/cost exclusions. This strengthens the U2/U6 packet specification without changing a simulation input, interpreting an executed contract or claiming an actual payment.
+
 The edition 0.53 [twenty-row matrix](deployment_evidence_sequence.md) is preserved as a dated acceptance specification. Its package hashes still refer to that historical input. New source mappings supplement it; no row is marked empirically complete. A target's U1–U3 record must identify due measurements, qualification, timing, applicable rights and acceptance; U5/U6 then establish paid commitments and the complete payer boundary. U4 is additionally required for downstream maintenance benefits.
 
 ## Quantified decision uncertainty

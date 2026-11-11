@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.54, public municipal evidence and inspection decision uncertainty, 11 November 2026. Four new official records refine software/renewal and authorization boundaries. A reproducible distribution-free experiment reuses the existing inspection engine to test joint evidence, complete service, separate payer costs and exact funding limits. Observed records, reported estimates, structural assumptions and simulated results remain distinct. The edition 0.53 matrix and all prior numerical results are preserved; no empirical requirement is closed by simulation. The same campaign and November 14 deadline continue.
+Edition 0.55, configured obligations following the public-evidence and inspection-uncertainty checkpoint, 11 November 2026. Seven official records across editions0.54–0.55 refine software/renewal, authorization, offered warranty and omitted-cost boundaries. A reproducible distribution-free experiment reuses the existing inspection engine to test joint evidence, complete service, separate payer costs and exact funding limits. Observed records, reported estimates, structural assumptions and simulated results remain distinct. The edition 0.53 matrix and all prior numerical results are preserved; no empirical requirement is closed by simulation. The same campaign and November 14 deadline continue.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -522,6 +522,9 @@ Use the [cross-case evidence sequence](research/deployment_evidence_sequence.md)
 #### Evidence-conditioned inspection decisions, edition 0.54
 
 [The uncertainty analysis](research/inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
+
+
+Edition0.55 follows the new contract lead through earlier program authorization and offered warranty terms. [The configured-offer audit](research/quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055) identifies concrete omitted-cost/continuity obligations; no signed target contract, paid total or service outcome is inferred. The0.54 simulation and original matrix remain unchanged.
 
 ### Focused follow-up: Minimum evidence and cross-case acceptance sequence
 
@@ -1045,6 +1048,8 @@ The new [reproducible sensitivity model](model/INSPECTION_UNCERTAINTY.md) uses t
 #### What the public evidence adds
 
 The [new municipal audit](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) adds QOF-E32–E35: a separate software authorization and proposed recurring charge in Augusta, and reported project progress/renewal discretion followed by another authorization in Mount Dora. These refine U2/U3/U6 record requirements. They do not supply an executed current contract, paid invoice, complete accepted-service cohort or payroll change. Historical source statements and their evidential stages remain separate from simulated outcomes.
+
+The subsequent [configured-offer audit](research/quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055), QOF-E36–E38, identifies additional authorization history and concrete warranty/cost exclusions. This strengthens the U2/U6 packet specification without changing a simulation input, interpreting an executed contract or claiming an actual payment.
 
 The edition 0.53 [twenty-row matrix](research/deployment_evidence_sequence.md) is preserved as a dated acceptance specification. Its package hashes still refer to that historical input. New source mappings supplement it; no row is marked empirically complete. A target's U1–U3 record must identify due measurements, qualification, timing, applicable rights and acceptance; U5/U6 then establish paid commitments and the complete payer boundary. U4 is additionally required for downstream maintenance benefits.
 
@@ -4390,6 +4395,17 @@ The economic implication is a record requirement: separate authorized versus exe
 
 The [new simulation](research/inspection_uncertainty.md) quantifies how joint qualification, review, residual work and staffing evidence could change a decision under explicit assumptions. It uses none of these historical quantities as coefficients. Applicable contracts, paid costs and joined service outcomes remain unknown. Source retrieval used official indexed text for Augusta; raw requests returned a cookie/sign-in shell and were not pursued. Both Mount Dora PDFs were retrieved normally, fingerprinted, and relevant March 2014 scans visually checked. No prior denied route was revisited.
 
+
+#### Configured offer and continuing obligations, edition 0.55
+
+The new lead was followed after the validated 0.54 checkpoint. Mount Dora minutes identify a 2012 authorization for the RedZone Your Entire System program and another 2016 Solo contract approval (QOF-E36/E37). They extend the chronology without establishing asset title, a common signed contract, actual cancellation or payments. [May2012 minutes, p2](https://www.mountdora.gov/Archive/ViewFile/Item/122); [April2016 minutes, p7](https://www.mountdora.gov/Archive/ViewFile/Item/3033).
+
+Augusta's packet contains an expired, unsigned 2011 four-robot offer and warranty wording (QOF-E38). It exposes excluded taxes/shipping/financing, limited repair coverage, excluded downtime losses and inconsistent warranty commencement language. Those are specific residual-cost and continuity questions for U2/U6, not current terms or empirical model coefficients. [Official packet, item11 attachment3](https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=259414&repo=Augusta).
+
+The two useful distinctions are now concrete: **buying a configured asset differs from contracting for an accepted service**, and **included warranty differs from funded timely continuity**. The program name alone does not settle which party owns equipment or carries fallback duties. A later software purchase cannot simply be added to an earlier offer to claim paid total cost without a common executed order and payment ledger. Likewise, an intention not to use contract years cannot be reconciled against later approvals without actual contract identities and amendments. No contract enforceability or current procurement guidance is inferred.
+
+The [unchanged simulation](research/inspection_uncertainty.md) supplies the corresponding tests: complete-service feasibility, distinct customer/provider accounts, symbolic omitted-cost allowances and funding before operation. New public evidence has narrowed what the missing contract packet must explain. It still does not supply accepted inspections, maintenance changes, paid obligations or realized savings. The next useful record is the applicable executed agreement/amendment plus payment and service acceptance, not another authorization headline.
+
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
@@ -4491,6 +4507,9 @@ For the utility pack, identify the actual incumbent alternative and every mandat
 #### Evidence-conditioned inspection decisions, edition 0.54
 
 [The uncertainty analysis](research/inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
+
+
+Edition0.55 follows the new contract lead through earlier program authorization and offered warranty terms. [The configured-offer audit](research/quadruped_operator_followup.md#configured-offer-and-continuing-obligations-edition-055) identifies concrete omitted-cost/continuity obligations; no signed target contract, paid total or service outcome is inferred. The0.54 simulation and original matrix remain unchanged.
 
 #### Reproduced inspection-window worlds
 
