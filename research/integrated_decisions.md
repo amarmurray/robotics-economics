@@ -186,3 +186,8 @@ This changes the acquisition evidence available to the utility pack while leavin
 ## Turn open claims into an evidence sequence, edition 0.53
 
 The [minimum-evidence matrix](deployment_evidence_sequence.md) identifies the first target-specific packet for hospital logistics, utility inspection and automotive presentation, followed by only the benefit and cost records needed for the chosen claim. The initial blocker is often a missing common site/configuration/service boundary, not an absence of public activity claims. A valuable information or capacity service can remain plausible with unchanged payroll. Payment or approval cannot stand in for delivered service; a bounded service result cannot establish an entrant return. Twenty row-level acceptance specifications use existing evidence and introduce no empirical savings or calibration.
+
+
+## Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.

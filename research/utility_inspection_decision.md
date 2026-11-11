@@ -92,3 +92,8 @@ The $79.50 synthetic per-visit crew bill is the exact aggregate cost-recovery sw
 Aggregate cost recovery also does not fund the opening work automatically. A test preserves the fixed channel's $220 total fee but changes its timing; the initial resource booking then fails while customer fallback completes the readings. That failed provider service is excluded from a price bound. Fee changes must be replayed, not inserted into a static interval while assuming unchanged service and cost.
 
 For the utility pack, identify the actual incumbent alternative and every mandatory duty before attaching a price to added information. The hospital and automotive packs inherit this logic through their own service obligations. A useful future record must show the changed action and net payer consequence; extra images, a proposed maintenance scope or a supplier's retained cash cannot fill that gap.
+
+
+## Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.

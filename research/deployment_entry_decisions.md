@@ -288,3 +288,8 @@ The three packs and six cell reassessments carry this gate. Incumbent purchase, 
 ## Minimum evidence handoff, edition 0.53
 
 Use the [cross-case evidence sequence](deployment_evidence_sequence.md) for the next concrete validation step. H1–H3, U1–U3 and A1–A3 specify the smallest target/commitment/service packet for each leading case. Later rows separate accepted information or capacity from changed maintenance, paid staffing and each payer's cost; X1/X2 add the evidence needed for digital/model contribution or scale/entry. A complete packet can reject a proposal. No source, threshold or empirical acceptance status changes. The matrix resolves dependency order and acceptance responsibility rather than adding another unranked list of missing quantities.
+
+
+## Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.

@@ -182,3 +182,8 @@ Five primary records from Laredo resolve council authorization and initial bundl
 ## Checkpoint 0.53: minimum evidence and acceptance sequence
 
 A bounded desk synthesis defines twenty claim-level evidence requirements across the three existing leading cases and two conditional digital/entry gates. Five acquisition batches distinguish authority, executed obligations, payment, accepted service, changed maintenance/paid work and each payer's total cost. No target evidence is acquired or empirical status promoted. The existing 271 worlds, source packages, model results, T0 and November 14 deadline remain unchanged.
+
+
+## Checkpoint 0.54: public records and decision uncertainty
+
+Four new official municipal records clarify software/renewal and authorization boundaries. The existing inspection engine now supports96 explicit possibilities,288 policy sensitivity executions,63 evidence partitions and four exact funding-boundary replays. This sensitivity design is separate from the unchanged14 challenge families/271 published worlds; it is not an empirical sample. The edition0.53 acceptance matrix, all empirical gaps, single writer, T0 and November14 deadline remain. No probability, savings estimate, commercial action, reset or native-goal change is authorized by model output.

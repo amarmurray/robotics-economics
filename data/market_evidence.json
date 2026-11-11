@@ -4339,6 +4339,18 @@
         "status": "historical_authorized_bundle_not_paid_whole_service_cost",
         "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
         "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers."
+      },
+      "uncertainty_evidence_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/inspection_uncertainty.md",
+        "evidence_ids": [
+          "QOF-E32",
+          "QOF-E33",
+          "QOF-E34",
+          "QOF-E35"
+        ],
+        "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
+        "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters."
       }
     },
     {
@@ -4659,6 +4671,18 @@
         "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
         "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers.",
         "decision": "The approved specialist-equipment bundle is a concrete acquisition comparator. It leaves complete-service qualification, current operating rights and paid-cost effects unresolved."
+      },
+      "uncertainty_evidence_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/inspection_uncertainty.md",
+        "evidence_ids": [
+          "QOF-E32",
+          "QOF-E33",
+          "QOF-E34",
+          "QOF-E35"
+        ],
+        "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
+        "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters."
       }
     },
     {
@@ -4961,6 +4985,18 @@
         "status": "historical_authorized_bundle_not_paid_whole_service_cost",
         "principle": "Verify offer, authority, execution, acceptance and payment separately. Match the complete qualified alternative and retained work before comparing prices or staffing.",
         "calibration": "Laredo amounts apply only to this historical sewer-camera procurement. No task rate, current price, paid-work or savings coefficient transfers."
+      },
+      "uncertainty_evidence_gate": {
+        "matrix": "research/deployment_evidence_matrix.json",
+        "analysis": "research/inspection_uncertainty.md",
+        "evidence_ids": [
+          "QOF-E32",
+          "QOF-E33",
+          "QOF-E34",
+          "QOF-E35"
+        ],
+        "status": "conditional_synthetic_sensitivity_empirical_requirements_remain_open",
+        "boundary": "Utility-only numerical experiment; hospital and automotive inherit the evidence-ordering and all-payer test, never its costs, thresholds or service parameters."
       }
     }
   ],

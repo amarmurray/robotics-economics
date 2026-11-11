@@ -1,0 +1,214 @@
+{
+  "schema_version": "inspection-uncertainty-inputs/1.0",
+  "status": "explicit_synthetic_structural_possibilities_no_probability_weights",
+  "anchor_case": "DE-PACK-UTILITY",
+  "inherited_input": "edition 0.53 model/results/utility_inspection.json human_per_visit; all monetary values remain inherited assumptions",
+  "experiment": {
+    "base_inputs": {
+      "cycles": 4,
+      "required_points": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ],
+      "decision_minute": 60,
+      "deadline_minute": 180,
+      "replacement_authorized": true,
+      "mandatory_visit_cycles": [],
+      "field_duty_cycles": [],
+      "field_duty_person_minutes": 20,
+      "crew_size": 2,
+      "travel_elapsed_minutes": 40,
+      "setup_elapsed_minutes": 10,
+      "point_elapsed_minutes": 2,
+      "field_capacity_person_minutes": 180,
+      "staffing": "per_visit",
+      "fixed_staff_cents": 25000,
+      "visit_crew_cents": 30000,
+      "travel_cents": 2000,
+      "review_capacity_person_minutes": 30,
+      "review_minutes_per_observation": 2,
+      "review_commitment_cents": 3000,
+      "utility_cash_cents": 1000000,
+      "provider_cash_cents": 0,
+      "channels": [
+        {
+          "channel_id": "fixed",
+          "enabled": false,
+          "coverage_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "qualified_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08",
+            "P09",
+            "P10",
+            "P11",
+            "P12"
+          ],
+          "bad_quality_ids": [],
+          "capture_minute": 10,
+          "repeats": 1,
+          "initial_fee_cents": 10000,
+          "cycle_fee_cents": 3000,
+          "initial_resource_cents": 8000,
+          "cycle_resource_cents": 1000,
+          "attempt_resource_cents": 50,
+          "support_person_minutes": 5
+        },
+        {
+          "channel_id": "mobile",
+          "enabled": false,
+          "coverage_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08",
+            "P09",
+            "P10",
+            "P11"
+          ],
+          "qualified_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08",
+            "P09",
+            "P10",
+            "P11",
+            "P12"
+          ],
+          "bad_quality_ids": [],
+          "capture_minute": 10,
+          "repeats": 1,
+          "initial_fee_cents": 20000,
+          "cycle_fee_cents": 6000,
+          "initial_resource_cents": 15000,
+          "cycle_resource_cents": 2000,
+          "attempt_resource_cents": 100,
+          "support_person_minutes": 10
+        }
+      ]
+    },
+    "axes": {
+      "staffing": [
+        "committed",
+        "per_visit"
+      ],
+      "field_duty": [
+        false,
+        true
+      ],
+      "fixed_fit": [
+        "complete",
+        "one_unqualified"
+      ],
+      "mobile_fit": [
+        "complete",
+        "one_quality_failure",
+        "late_capture"
+      ],
+      "review_capacity": [
+        23,
+        24
+      ],
+      "deadline_minute": [
+        100,
+        180
+      ]
+    }
+  },
+  "parameter_evidence": {
+    "staffing": {
+      "matrix_rows": [
+        "U5",
+        "U6"
+      ],
+      "basis": "Two existing contract premises; no probability or empirically estimated avoidability fraction."
+    },
+    "field_duty": {
+      "matrix_rows": [
+        "U1",
+        "U3",
+        "U5"
+      ],
+      "basis": "Presence/absence of separately required physical work; historical operator evidence motivates testing, not its frequency."
+    },
+    "fixed_fit": {
+      "matrix_rows": [
+        "U1",
+        "U3"
+      ],
+      "basis": "Complete coverage versus one unqualified measurement; source technologies have different properties."
+    },
+    "mobile_fit": {
+      "matrix_rows": [
+        "U2",
+        "U3"
+      ],
+      "basis": "Qualified complete readings, one failed quality review, or capture after the deadline for review; not a downtime distribution. Late capture is minute61 against cutoff60."
+    },
+    "review_capacity": {
+      "matrix_rows": [
+        "U3",
+        "U6"
+      ],
+      "basis": "23 and24 person-minutes bracket the exact twelve-point/two-minute review requirement in the inherited fixture. Not an empirical staffing range."
+    },
+    "deadline_minute": {
+      "matrix_rows": [
+        "U1",
+        "U3"
+      ],
+      "basis": "100 and180 minute service windows stress timely fallback; synthetic premises, not proposed utility standards."
+    }
+  },
+  "unbounded_residual_costs": {
+    "customer": [
+      "site integration, training and qualification not already in bills",
+      "asset acquisition/replacement and terminal value not already in fees",
+      "applicable software/data rights and renewals not already in fees",
+      "tax and financing cash at the actual payer",
+      "extra maintenance action, failed review/rework and continuity obligations beyond the modeled window"
+    ],
+    "provider": [
+      "asset manufacture/replacement and terminal obligation beyond recorded resource bills",
+      "unmodeled support, qualification, insurance and financing resources"
+    ],
+    "consolidation": "Customer/provider fees cancel; do not add a quoted support fee and the resources it purchases to the consolidated total. Specify outside-party boundaries and matched baseline offsets.",
+    "empirical_value": null,
+    "reason": "No joined target lifecycle/resource/cash packet. A zero residual in a displayed window calculation is a boundary, not an estimate of zero full cost."
+  },
+  "probability_model": null,
+  "calibration_permitted": false
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "quadruped-operator-followup-1.0",
-  "version": "municipal-procurement-0.52",
-  "retrieved_at": "2026-11-09",
+  "version": "operator-evidence-and-decision-uncertainty-0.54",
+  "retrieved_at": "2026-11-11",
   "status": "bounded_substantive_followup_with_unresolved_operating_economics",
   "model_configuration": {
     "requested": "GPT-6 Astra / Ultra",
@@ -1501,6 +1501,122 @@
       "landing_url": "https://cityoflaredo.legistar.com/MeetingDetail.aspx?GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE&ID=1243768&Options=&Search=",
       "meeting_page_sha256": "0f20b8e70db4be00c84302ffc2d44740ef85233541f4813b75ab8b8005f02806",
       "visual_verification": "Scanned PDF pages 22 and 33 visually checked against OCR; consent range/exclusions and item identifier/amount agree."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E32",
+      "title": "Augusta ICOM3 software proposal after Solo camera approval",
+      "url": "https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=259426&repo=Augusta",
+      "publisher": "City of Augusta",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/agenda date is known; separate publication or approval date is not established.",
+      "observation_period": "2012-02-27 committee agenda; references July 2011 camera approval",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "official_record_with_reported_claims_not_matched_paid_service",
+      "locator": "Engineering Services item 4, ICOM3 Software Purchase",
+      "claim": "The staff packet separates previously approved Solo cameras from software to process their information. It proposes $59,250 initially and renewable costs of $37,800 per year.",
+      "limitations": "Proposed software charges are not paid costs, hardware prices or current terms. No executed license, accepted-service ledger or maintenance outcome is supplied. Do not transfer these historical amounts to Laredo.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-AUGUSTA-INITIAL",
+          "value": 59250,
+          "unit": "USD",
+          "denominator": "one proposed initial ICOM3 software purchase",
+          "population": "Named historical municipal procurement only",
+          "period": "2012-02-27",
+          "measurement_status": "staff_reported_proposed_cost"
+        },
+        {
+          "metric_id": "QOF-Q-AUGUSTA-RENEWAL",
+          "value": 37800,
+          "unit": "USD/year",
+          "denominator": "proposed ICOM3 renewal",
+          "population": "Named historical municipal procurement only",
+          "period": "2012-02-27",
+          "measurement_status": "staff_reported_proposed_recurring_cost"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "retrieval_boundary": "Official indexed full text read through web tool. Direct raw HTTP200 returned a cookie/sign-in shell, not source bytes; no source hash claimed and no attempt to bypass it."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E33",
+      "title": "Augusta commission approval of the ICOM3 purchase",
+      "url": "https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=25145&repo=Augusta",
+      "publisher": "City of Augusta",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/agenda date is known; separate publication or approval date is not established.",
+      "observation_period": "2012-03-06 commission meeting",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "official_record_with_reported_claims_not_matched_paid_service",
+      "locator": "Consent additions, item 15 and recorded 9-0 vote",
+      "claim": "Item 15 approves the $59,250 ICOM3 purchase; the recorded consent motion including item 15 passes 9-0.",
+      "limitations": "Authorization is not an executed order, payment or delivery. The minutes do not establish recurring charges actually paid or accepted inspection results.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-AUGUSTA-AUTHORIZED",
+          "value": 59250,
+          "unit": "USD",
+          "denominator": "one authorized ICOM3 purchase",
+          "population": "Named historical municipal procurement only",
+          "period": "2012-03-06",
+          "measurement_status": "council_authorized_not_paid"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "retrieval_boundary": "Official indexed minutes read through web tool. Direct raw response was a cookie/sign-in shell; no archival source hash claimed."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E34",
+      "title": "Mount Dora RedZone renewal: cancellation and reported progress",
+      "url": "https://www.mountdora.gov/Archive/ViewFile/Item/3264",
+      "publisher": "City of Mount Dora",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/agenda date is known; separate publication or approval date is not established.",
+      "observation_period": "2014-03-04 council meeting",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "official_record_with_reported_claims_not_matched_paid_service",
+      "locator": "PDF pages 6-7, Public Works item 2",
+      "claim": "Minutes report staff describing annual contract segments and a cancellation provision, with the final two years not expected to be used. The mayor reports 70% complete and satisfaction. Council approves renewal 5-1.",
+      "limitations": "This is recorded discussion and authorization, not the signed clause or a measured acceptance denominator. Future nonuse is not an executed cancellation or saved payment. Provider alternatives are disputed in discussion; no verified matched comparison.",
+      "quantities": [
+        {
+          "metric_id": "QOF-Q-MOUNTDORA-REPORTED-COMPLETE",
+          "value": 70,
+          "unit": "percent",
+          "denominator": "unspecified project work reported complete by mayor",
+          "population": "Named historical municipal procurement only",
+          "period": "2014-03-04",
+          "measurement_status": "official_minutes_reported_progress_no_acceptance_ledger"
+        }
+      ],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "1ea96abb8c948dacae03b2d1492aac12701f90dfe743469df1828ee4b3b79efe",
+      "visual_verification": "Scanned pages 6 and 7 visually checked against OCR; date, scope, cancellation discussion, progress and vote verified."
+    },
+    {
+      "schema_version": "evidence-1.0",
+      "evidence_id": "QOF-E35",
+      "title": "Mount Dora later RedZone contract extension",
+      "url": "https://www.mountdora.gov/Archive/ViewFile/Item/2243",
+      "publisher": "City of Mount Dora",
+      "publication_date": null,
+      "publication_date_missingness_reason": "Meeting/agenda date is known; separate publication or approval date is not established.",
+      "observation_period": "2015-02-03 council meeting",
+      "retrieved_at": "2026-11-11",
+      "source_class": "primary",
+      "epistemic_status": "official_record_with_reported_claims_not_matched_paid_service",
+      "locator": "PDF page 2, consent item 3 and motion for items 2-3",
+      "claim": "Council unanimously approves another RedZone Solo contract extension.",
+      "limitations": "The record establishes another authorization, not the signed term, payment, project closeout or inconsistency with the earlier expectation about final years. Exact original contract-year mapping remains unknown.",
+      "quantities": [],
+      "target_parameters_allowed": [],
+      "source_pdf_sha256": "86252a79d038010cbe224707862ca24389c8718ebcd32baac05411180a13f197"
     }
   ],
   "deployments": [
@@ -1834,6 +1950,18 @@
       ],
       "outcome": "Targeted official-domain searches returned the council packet/meeting; no linked paid invoice or operating closeout was established. This is not proof that none exists.",
       "stop_reason": "Authorization and initial bundle are established; further economics require a new permitted executed-order, acceptance, service or payer record. Prior 403 boundaries remain closed."
+    },
+    "uncertainty_followup": {
+      "date": "2026-11-11",
+      "scope": "Independent municipal software and renewal records connected to U2/U3/U6; no repeat of denied research routes.",
+      "recovered": [
+        "QOF-E32",
+        "QOF-E33",
+        "QOF-E34",
+        "QOF-E35"
+      ],
+      "result": "Authorization and reported recurring scope/progress clarified; no executed target payer/service packet.",
+      "retrieval_limit": "Augusta raw HTTP returned cookie/sign-in shell. Accepted claims use already retrieved official indexed text only; no cookie challenge or alternate archival route attempted."
     }
   },
   "input_revision_receipt": "sync_receipt.json (ignored operational provenance; resolve the recorded research input there, not the current remote HEAD)",
@@ -2679,6 +2807,39 @@
       "decision_implication": "Keep the same project and obligation identity through funding transitions, assign actual payments to the responsible legal entity, and require accepted service and paid-work evidence before claiming adoption economics.",
       "target_parameters_allowed": [],
       "analysis": "research/quadruped_operator_followup.md#funding-closure-continuation-and-operating-outcomes-edition-047"
+    }
+  ],
+  "uncertainty_followup_audits": [
+    {
+      "audit_id": "QOF-AUDIT-UNCERTAINTY-01",
+      "anchor_cell_id": "CELL-M03-utility-inspection-US-2025",
+      "evidence_ids": [
+        "QOF-E32",
+        "QOF-E33",
+        "QOF-E34",
+        "QOF-E35"
+      ],
+      "matrix_requirement_ids": [
+        "U2",
+        "U3",
+        "U5",
+        "U6"
+      ],
+      "finding": "Separate recurring software, renewal discretion and completed accepted service from equipment ownership and advertised speed. Historical municipal records refine missing record types; they do not calibrate the numerical model.",
+      "unknowns": {
+        "executed_terms_and_payment": {
+          "value": null,
+          "reason": "No executed applicable license, renewal/cancellation ledger or joined payment record."
+        },
+        "accepted_service_and_changed_work": {
+          "value": null,
+          "reason": "Reported progress lacks denominator, due units, quality, rework and paid-duty change."
+        },
+        "whole_payer_cost": {
+          "value": null,
+          "reason": "No matched customer/provider resource and cash ledger, including recurring support and residual duties."
+        }
+      }
     }
   ]
 }

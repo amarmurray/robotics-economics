@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "authority": "WEEK_ONE_RESEARCH_SPEC.md v1.5; original 64 checks plus five conditional late-added K outputs",
-  "edition_status": "intermediate_evidence_acceptance_sequence_0.53_active_decision_campaign_not_final_acceptance",
+  "edition_status": "intermediate_evidence_and_uncertainty_0.54_active_decision_campaign_not_final_acceptance",
   "requirements": [
     {
       "requirement_id": "W1-001",
@@ -1498,7 +1498,7 @@
     "partial": 16,
     "unmet": 0
   },
-  "publication_cutoff_note": "Edition0.53 converts accepted case evidence into a minimum-record acquisition/acceptance sequence. It acquires no target evidence and promotes no empirical or campaign requirement status.",
+  "publication_cutoff_note": "Edition0.54 adds four official records and a reproducible joint-evidence sensitivity experiment. All empirical, legacy and decision requirement statuses remain unchanged; simulation closes no empirical gap.",
   "decision_campaign": {
     "campaign_id": "deployment-entry-2026-11-07",
     "authority": "User-activated goal; DEPLOYMENT_ENTRY_CAMPAIGN.md",

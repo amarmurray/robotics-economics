@@ -1,6 +1,6 @@
 # Robotics Economics — integrated research report
 
-Edition 0.53, minimum deployment evidence and acceptance-sequence checkpoint, 10 November 2026. A cross-case matrix turns the three existing decision packs into ordered, linked evidence packets with explicit acceptance and rejection gates. Authorization, executed commitment, payment, accepted service, maintenance/work change and total payer cost remain separate. No new empirical finding, scenario or numerical calibration is claimed; the same active campaign and incomplete empirical acceptance continue.
+Edition 0.54, public municipal evidence and inspection decision uncertainty, 11 November 2026. Four new official records refine software/renewal and authorization boundaries. A reproducible distribution-free experiment reuses the existing inspection engine to test joint evidence, complete service, separate payer costs and exact funding limits. Observed records, reported estimates, structural assumptions and simulated results remain distinct. The edition 0.53 matrix and all prior numerical results are preserved; no empirical requirement is closed by simulation. The same campaign and November 14 deadline continue.
 
 Launch input: `campaign launch snapshot (see ignored sync_receipt.json)`. Historical evidence keeps its recorded retrieval date; the Generalist/Dyna and restaurant-workflow continuations were retrieved on 7 November 2026. The decision review also retrieved its two adverse sources on 7 November. The inspection continuation retrieved three additional public source records on 7 November; public-summary-only and research-plan boundaries remain explicit. The automotive follow-up retrieved three primary source records on 7 November, preserving different plants/tasks, supplier-versus-operator status and inconsistent pilot chronology. Its physical and funding mechanisms remain synthetic. The R&D follow-up reviewed four sources across 7–8 November, with final source records dated 8 November. Its proceedings PDF and readiness-code fingerprints are recorded; undated mutable documentation is not assigned a fabricated release day. Source observation periods and publication dates remain distinct. This report is generated from authoritative chapters in `research/` by `python3 scripts/build_report.py`; numerical tables consume source-hashed exports from the documented model modules.
 
@@ -219,6 +219,11 @@ This changes the acquisition evidence available to the utility pack while leavin
 ### Turn open claims into an evidence sequence, edition 0.53
 
 The [minimum-evidence matrix](research/deployment_evidence_sequence.md) identifies the first target-specific packet for hospital logistics, utility inspection and automotive presentation, followed by only the benefit and cost records needed for the chosen claim. The initial blocker is often a missing common site/configuration/service boundary, not an absence of public activity claims. A valuable information or capacity service can remain plausible with unchanged payroll. Payment or approval cannot stand in for delivered service; a bounded service result cannot establish an entrant return. Twenty row-level acceptance specifications use existing evidence and introduce no empirical savings or calibration.
+
+
+### Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](research/inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
 
 ### Focused follow-up: Deployment and entry decision packs
 
@@ -512,6 +517,11 @@ The three packs and six cell reassessments carry this gate. Incumbent purchase, 
 #### Minimum evidence handoff, edition 0.53
 
 Use the [cross-case evidence sequence](research/deployment_evidence_sequence.md) for the next concrete validation step. H1–H3, U1–U3 and A1–A3 specify the smallest target/commitment/service packet for each leading case. Later rows separate accepted information or capacity from changed maintenance, paid staffing and each payer's cost; X1/X2 add the evidence needed for digital/model contribution or scale/entry. A complete packet can reject a proposal. No source, threshold or empirical acceptance status changes. The matrix resolves dependency order and acceptance responsibility rather than adding another unranked list of missing quantities.
+
+
+#### Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](research/inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
 
 ### Focused follow-up: Minimum evidence and cross-case acceptance sequence
 
@@ -1021,6 +1031,65 @@ All records below were already accepted at the input commit. Dates and evidence 
 ##### Source QOF-E31
 
 [QOF-E31 accepted record](data/quadruped_operator_followup.json) · Publication date unknown · official_council_authorization_not_proof_of_order_delivery_or_payment. [Approved Laredo council minutes: item 75 purchase authorization](https://cityoflaredo.legistar.com/View.ashx?M=M&ID=1243768&GUID=032EFBF9-24A2-4AA4-8A0B-F6F5571FF4BE).
+
+### Focused follow-up: Inspection uncertainty and evidence priorities
+
+Authoritative analysis: [research/inspection_uncertainty.md](research/inspection_uncertainty.md).
+
+Edition 0.54 · 11 November 2026 · same November 14 campaign deadline.
+
+**A joined service-and-paid-work packet changes the decision; isolated favorable facts can leave it unresolved.** We extend the utility pack because it already has a common-service execution and separate payer ledger. The hospital and automotive cases keep their own minimum-evidence requirements; none of the numbers below transfers to them.
+
+The new [reproducible sensitivity model](model/INSPECTION_UNCERTAINTY.md) uses the existing human, fixed-sensor and mobile-sensor policies. It evaluates 96 explicit possibilities, 288 policy executions and all 63 nonempty evidence-field subsets. These are sensitivity evaluations, not 96 empirical deployments or independent new challenge worlds. All prior 271 bounded worlds remain unchanged. No source price, productivity claim, repair probability or employment total calibrates this experiment. The [inputs and provenance](model/inspection_uncertainty_inputs.json), [complete results](model/results/inspection_uncertainty.json) and [interactive local explorer](dashboard/inspection_uncertainty.html) are reviewable.
+
+#### What the public evidence adds
+
+The [new municipal audit](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) adds QOF-E32–E35: a separate software authorization and proposed recurring charge in Augusta, and reported project progress/renewal discretion followed by another authorization in Mount Dora. These refine U2/U3/U6 record requirements. They do not supply an executed current contract, paid invoice, complete accepted-service cohort or payroll change. Historical source statements and their evidential stages remain separate from simulated outcomes.
+
+The edition 0.53 [twenty-row matrix](research/deployment_evidence_sequence.md) is preserved as a dated acceptance specification. Its package hashes still refer to that historical input. New source mappings supplement it; no row is marked empirically complete. A target's U1–U3 record must identify due measurements, qualification, timing, applicable rights and acceptance; U5/U6 then establish paid commitments and the complete payer boundary. U4 is additionally required for downstream maintenance benefits.
+
+#### Quantified decision uncertainty
+
+Six finite axes are assumptions: retained or avoidable paid visits; presence/absence of a separate field duty; complete fixed qualification or one missing measurement; complete mobile readings, one failed review or capture after cutoff; review capacity 23/24 person-minutes; service deadline 100/180 minutes. These bracket structural and exact fixture thresholds, not estimated confidence intervals. Every candidate in a state faces the same due service. No probabilities are assigned.
+
+The rule chooses the policy with the smallest worst cash regret among those feasible across all compatible possibilities. Regret is the difference from the best feasible option if that state's facts were already known. A hard service failure is excluded, not priced as a cheap failure. The human comparator remains funded and complete throughout this specific domain.
+
+| Perfect evidence known before choosing | Worst customer regret left | Worst consolidated regret left |
+| --- | ---: | ---: |
+| No fields (also any single field or pair) | $940.00 | $1,016.00 |
+| Physical duty + fixed qualification + review capacity | $720.00 | $882.00 |
+| Also mobile quality/timeliness | $480.00 | $318.00 |
+| Also paid staffing contract | $0.00 | $0.00 |
+
+This demonstrates complementarity: cheaper equipment or a faster capture alone does not resolve the whole service/cash choice. It does **not** imply that single records have no value. A resolved branch can change feasibility, narrow the scope or reject a claim even when another branch retains the same worst regret. Nor is zero regret in this finite model zero real-world uncertainty. The five-field packet leaves the deadline unresolved because its branch decisions avoid the late-fallback dependence; real operators must still specify a deadline.
+
+Without resolving fields, only the human policy is feasible across this entire domain. Fixed sensing fails complete service in 42 possibilities and mobile sensing in 44; these counts are not failure probabilities. Even assuming deadline 180 everywhere makes all three feasible but does not change the customer minimax choice: the fixed policy's worst cash regret is $1,060 versus $940 for human. Resolving fixed qualification and review as well changes the customer minimax choice to fixed with $340 worst regret. The answer depends on the declared domain and policy set.
+
+With avoidable visit payment, no field duty, complete fixed qualification and sufficient review established, fixed sensing has zero regret across the remaining declared possibilities. If only the mobile service is established complete under the same staffing/duty/review conditions, mobile is the robust choice while fixed fit is unresolved, with $220 customer regret if fixed later proves qualified. Thus the next qualified alternative is economically relevant even after the robot works.
+
+#### Full cost and the next bill
+
+In the complete, avoidable-visit, no-field-duty illustration, the four-window payer ledger is:
+
+| Policy | Customer cash | Provider external resources | Provider net cash change | Consolidated external resources |
+| --- | ---: | ---: | ---: | ---: |
+| human | $1,280.00 | $0.00 | $0.00 | $1,280.00 |
+| fixed | $340.00 | $144.00 | $76.00 | $264.00 |
+| mobile | $560.00 | $278.00 | $162.00 | $398.00 |
+
+Compared with human, the fixed policy leaves $940 customer and $1,016 consolidated room for *incremental omitted net costs*; mobile leaves $720 and $882. Compared with qualified fixed sensing, mobile instead needs $220 customer or $134 consolidated incremental net benefit/cost reduction. Fees cancel inside the two-party perimeter; the supplier's retained cash explains the difference. These figures are exact conditional budget limits, not observed savings or full-lifecycle ROI.
+
+The residual includes actual acquisition/replacement and terminal value, integration, qualification, software renewal, repair/continuity, tax/finance and downstream work beyond the recorded bills, net of the matched baseline and any proven benefit. These amounts are unknown, not zero. One must not add supplier fees and the same supplier resources twice. Benefits from better maintenance are not estimated. A benefit claim needs accepted findings joined to changed decisions, completed work and a credible counterfactual.
+
+Timing can bind before aggregate resources: fixed has only $34 of extra initial provider-resource headroom and mobile $78 at the inherited fee schedule and opening cash. At one cent above each boundary, the first monitoring booking fails even though human fallback still completes all four windows. Four full Treasury replays verify these switches. Supplier terminal cash of $76 or $162 is therefore not an upfront repair budget. Actual maintenance bills and operating/support terms must be joined to timing; this does not recommend a price or funding transaction.
+
+#### What to acquire next
+
+Start with the utility U1/U3 join: exact due property and all residual field duties, fixed/mobile measurement qualification, complete failed and successful reviews, acceptance times and available funded fallback. Collect U5 paid-contract terms concurrently; released minutes are insufficient. Obtain U2 executed applicable rights and support/renewal conditions, and U6 actual payer cash/resources, with the historical authorization traces kept separate. The source records identify official municipal records as a permitted route, but no outreach is initiated and no private records are presumed available.
+
+For hospital, the analogous evidence is complete due deliveries and urgency/custody, escort/fallback/receiving duties, support entitlement and actual staffing/cash. For automotive it is the complete part/handoff/takt contract, preparation/quality/recovery duties, supported generation and actual paid obligations. Each retains its own acceptance owner and comparator. Their model parameters are not derived from utility thresholds.
+
+Perfect information was assumed costless for the sensitivity exercise. Acquisition effort, noise and delay remain unpriced; the regret reductions are neither expected value of information nor willingness to pay. Real uncertainty cannot be eliminated by choosing the favorable branch in the explorer. The remaining empirical dependency is an applicable joined packet. The new result narrows its priority and rejection conditions without claiming that simulation supplied it.
 
 ## 2. Economic atlas and deployment pathways
 
@@ -4308,6 +4377,19 @@ QOF-E27–E31, conflict QOF-C03 and QOF-AUDIT-SERVICE-05 are in the existing [op
 
 **Next dependency:** a new permitted executed order/support schedule or an acceptance-and-payer closeout joining the due segment, accepted condition finding, changed maintenance action and actual paid commitment. Targeted official-domain follow-up returned the existing council packet; it did not establish a linked invoice or operating closeout. This is a limit of the reviewed evidence, not proof that those records do not exist. No outreach, paid access or alternate route around a denial was attempted.
 
+
+#### Software renewals and contract discretion, edition 0.54
+
+These independent official records address U2/U3/U6 in the [minimum-evidence matrix](research/deployment_evidence_sequence.md). They are historical specialist inspection comparators, not additional quadruped deployments or current offers. Records QOF-E32–E35 and quantity units are preserved in [the accepted package](data/quadruped_operator_followup.json).
+
+Augusta's February 2012 staff packet separates an initial $59,250 software proposal and $37,800 annual renewable charge from previously approved cameras. A March 6 consent vote approves the initial purchase. This establishes a software authorization and proposed recurring obligation, not payment or current support economics. [Staff packet](https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=259426&repo=Augusta); [commission minutes](https://forms.augustaga.gov/WebLink/DocView.aspx?dbid=0&id=25145&repo=Augusta).
+
+Mount Dora's March 2014 minutes record annual-segment/cancellation discussion, a report of 70% work complete, and renewal approval. A February 2015 record authorizes another extension. These do not prove accepted-output denominators, executed cancellation, later payments or savings. The original contract-year mapping remains unresolved. [March 2014 minutes, pp 6–7](https://www.mountdora.gov/Archive/ViewFile/Item/3264); [February 2015 minutes, p 2](https://www.mountdora.gov/Archive/ViewFile/Item/2243).
+
+The economic implication is a record requirement: separate authorized versus executed initial and renewal obligations, actual cash, complete accepted outputs and the rights to continue or terminate. A reported progress percentage cannot be substituted for acceptance; a stated intention not to use later years cannot be booked as cancelled payments. Neither historic software amount is a valid price for Laredo or a substation robot. Mount Dora is a newly identified historical episode, not a matched counterpart to Laredo.
+
+The [new simulation](research/inspection_uncertainty.md) quantifies how joint qualification, review, residual work and staffing evidence could change a decision under explicit assumptions. It uses none of these historical quantities as coefficients. Applicable contracts, paid costs and joined service outcomes remain unknown. Source retrieval used official indexed text for Augusta; raw requests returned a cookie/sign-in shell and were not pursued. Both Mount Dora PDFs were retrieved normally, fingerprinted, and relevant March 2014 scans visually checked. No prior denied route was revisited.
+
 ### Focused follow-up: Utility inspection, fixed sensing and residual visits
 
 Authoritative analysis: [research/utility_inspection_decision.md](research/utility_inspection_decision.md).
@@ -4404,6 +4486,11 @@ The $79.50 synthetic per-visit crew bill is the exact aggregate cost-recovery sw
 Aggregate cost recovery also does not fund the opening work automatically. A test preserves the fixed channel's $220 total fee but changes its timing; the initial resource booking then fails while customer fallback completes the readings. That failed provider service is excluded from a price bound. Fee changes must be replayed, not inserted into a static interval while assuming unchanged service and cost.
 
 For the utility pack, identify the actual incumbent alternative and every mandatory duty before attaching a price to added information. The hospital and automotive packs inherit this logic through their own service obligations. A useful future record must show the changed action and net payer consequence; extra images, a proposed maintenance scope or a supplier's retained cash cannot fill that gap.
+
+
+#### Evidence-conditioned inspection decisions, edition 0.54
+
+[The uncertainty analysis](research/inspection_uncertainty.md) extends the existing utility execution with a finite possibility set, evidence-dependent decisions and explicit residual-cost/funding limits. No probabilities or empirical costs are invented. [New official municipal records](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) separate software renewals and contract discretion from authorized equipment and reported progress. The twenty-row matrix remains the empirical acceptance contract. Hospital and automotive cases inherit the joined-evidence method only; their inputs and economic rankings remain unresolved.
 
 #### Reproduced inspection-window worlds
 

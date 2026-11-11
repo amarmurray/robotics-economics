@@ -1,6 +1,6 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.53.
+Handoff ID: deployment-entry-2026-11-07-checkpoint-0.54.
 
 ## Accepted direction
 
@@ -20,7 +20,33 @@ The first requested research milestone is a full-week Codex campaign producing a
 
 **New user-directed scope, 25 October 2026 — Workstream K:** `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` adds serious research on Physical Intelligence, Skild AI and other frontier embodied-model labs, integrated robot OEM policies, open model alternatives, deployment-led intelligence providers, learning/data/compute, model commercial terms and value capture. RQ-FM-01..10 were opened in the roadmap and question ledger; current partial findings are recorded there. **The user's latest usage instruction is to use ONE Astra Max agent, not the original multi-agent plan.** Codex should catch the new `main` commit on its next safe fetch/checkpoint and integrate K by decision relevance without restarting the goal, overwriting current work, spawning agents, changing the original campaign clock or claiming previously published research already covers K. Unfinished scope is honest follow-on work. A pushed commit does not itself refresh an already-running agent context.
 
-## Current checkpoint: minimum evidence and acceptance sequence, edition 0.53
+## Current checkpoint: evidence and inspection uncertainty, edition 0.54
+
+Same sole-writer campaign, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. The user's November11 instruction reopened independent public evidence and computational economic simulation. The restored clean0.52 checkout was compared with remote0.53 and fast-forwarded to **622e4dd03f8bd19a05c502deeb89f098809aec29** before edits. Actual shell execution resumed in the same published configuration; current connected environment revision7 had no failure. Quota remains unknown. No new task, agent, goal, schedule, outreach, spending, reset or access change.
+
+The [decision analysis](research/inspection_uncertainty.md), [model contract](model/INSPECTION_UNCERTAINTY.md), [complete inputs](model/inspection_uncertainty_inputs.json) and [replay artifact](model/results/inspection_uncertainty.json) extend the existing utility execution with **96 structural possibilities, 288 policy evaluations, 63 evidence partitions and four funding-boundary replays**. All monetary premises are inherited synthetic inputs; the added structural stresses have explicit assumption provenance. No probability distribution is invented. This is a sensitivity layer over the unchanged14 families/271 worlds, not an empirical sample or independent field evidence.
+
+Under the declared domain, resolving any single field or pair leaves worst regret unchanged. Joint physical-duty, fixed-qualification and review evidence reduces remaining worst customer regret from$940 to$720; adding mobile results reduces it to$480; adding the paid contract resolves the finite-model decision. These are conditional cash regrets, not expected information value or an acquisition budget. Both customer and consolidated accounts remain visible. Unbounded omitted lifecycle/maintenance/finance costs and unverified real qualification preclude a real-world investment ranking.
+
+Four new official records, **QOF-E32–E35**, clarify separate software authorization/recurrence in Augusta and reported progress/renewal discretion in Mount Dora. The [source audit](research/quadruped_operator_followup.md#software-renewals-and-contract-discretion-edition-054) preserves historical dates, approval versus execution/payment, reported versus accepted progress, and the missing contract-year mapping. No source amount calibrates the model or transfers to Laredo. Augusta raw requests returned a cookie/sign-in shell; accepted claims use already retrieved official indexed text, with no raw-source hash or attempted bypass. Two Mount Dora PDFs were fetched and fingerprinted; relevant March2014 pages were visually checked.
+
+At the inherited fee schedule, extra initial provider resources of$34 fixed/$78 mobile are funded; one cent more breaks the first monitoring booking despite complete customer fallback. These are derived stresses, not real repair bills. The full-payer analysis exposes unknown residual costs and exact conditional allowances rather than inserting zero estimates. Hardware migration, empirical operating rights, payment, maintenance outcomes and paid-work gaps remain open.
+
+Fresh validation: **65 targeted Python tests pass**, including15 new uncertainty tests and14 existing price-bound tests; **36 Node assertions pass**; both changed JavaScript files pass syntax checks; the new scripts compile. The production registry passes at **13 packages,242 evidence records,571 reported quantities and208 explicit-null markers**. Deterministic export checking and exact browser-download/CLI replay pass. The generated decision chapter and integrated report match their authoritative inputs.
+
+The new [local explorer](dashboard/inspection_uncertainty.html) passes all six controls, both cash boundaries, reset and failed-service exclusion. All **1,942 precomputed branches across both boundaries** resolve correctly; desktop/mobile screenshots were inspected, with no horizontal mobile overflow. All **13 existing dashboard views**, four source drawers and the shared new link pass with no JavaScript errors, failed or pending requests. The unchanged full historical test suite is not relabeled fresh.
+
+All **2,098,443 typed numeric fields across44 prior result JSONs** remain unchanged. **33 artifacts are byte-identical;11 change evidence fingerprints only.** The edition0.53 matrix, generated sequence, its builder and AGENTS.md remain byte-identical; their original source-package hashes retain their historical meaning. All65 question statuses,69 legacy requirements and12 decision-campaign requirements remain unchanged, including legacy53 met/16 partial. No empirical status is promoted.
+
+All **415 registered artifact hashes** and **1,222 relative Markdown links** verify.
+
+See [the sole-writer review](reviews/inspection_uncertainty_review.md). Publication and runtime receipts remain ignored operational files. The source and simulation result are integrated into the existing report, dashboard, decision packs, question ledger and roadmap.
+
+**Remaining dependency / next concrete step:** an applicable U1/U3 due-property, qualification, complete review/fallback and residual-duty record joined to U5 actual paid commitments and U2/U6 executed rights, renewal and payer records; add U4 for maintenance-benefit claims. The simulation specifies which combined evidence can reverse the decision but cannot supply those observations. New permitted records or a concrete target/cost/policy constraint would support further analysis; repeating the same search or adding favorable cases would not. Historical source authorization is now clearer, but executed payment, accepted whole service and empirical net savings remain indeterminate. No claim of campaign completion or uninterrupted execution.
+
+**Next question:** does the joined service-and-paid-contract packet support a qualified fixed/mobile/mixed service after its complete payer and timing obligations, or require a narrower information-only claim or rejection?
+
+## Previous checkpoint: minimum evidence and acceptance sequence, edition 0.53
 
 Same sole-writer campaign, T0 **2026-11-07T20:12:27Z**, deadline **2026-11-14T20:12:27Z**. The explicitly reopened bounded gap analysis is complete; the overall campaign retains its empirical gaps. Input **f94729e4afa530ba51253d8a58b58ff54f7bf024** was clean and remote-verified. Actual shell and bounded browser execution resumed in the same published cloud configuration. Quota is unknown. No new task, native goal, agent, schedule, commercial action, outreach or access expansion.
 
