@@ -29,3 +29,5 @@ Checkpoint 5 (November 16 UTC): eligibility/funding interval and optional-versio
 Checkpoint 6 (November 16 UTC): DDA Proposition 5 proof reconstruction and second teach-back packet complete in stated scope. No general-equilibrium numerical replication, independent review, learner completion or whole-stage acceptance is claimed.
 
 Checkpoint 7 (November 16 UTC): initial integrated synthesis and Organizing Intelligence concentration-proof reconstruction complete in stated scope. Closest contracting/dynamic-investment audit and a selected contribution remain open; the November 22 and December 6 gates are not passed.
+
+Checkpoint 8 (November 16 UTC): perfect-contract benchmark and selected Holmström–Tirole/Bergemann–Hege mechanisms checked. Next public evidence contrast concerns actual financing and payment commitments. Contribution selection, full empirical atlas and main experiment scope remain pending.

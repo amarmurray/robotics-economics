@@ -14,6 +14,8 @@ The program's central distinction is between a productive opportunity and an imp
 
 Stein's [internal-capital-market model](internal_capital_markets.md) already explains resource reallocation under scarce finance and attaches ownership/control and incentive conditions to headquarters' advantage. Moving a fixed budget toward a better project is not a new robotics contribution. Our allowed-payment graph is a much thinner object than that theory of control. It cannot establish vertical integration merely because a consolidated budget looks easier to allocate.
 
+The [contracting audit](contracting_and_pledgeability.md) adds Holmström–Tirole’s incentive-compatible pledgeable-income threshold and Bergemann–Hege’s Bayesian learning/stopping problem. The latter already couples dynamic funding and experimentation; its terminal contracting wedge is reconstructed rather than presented as a new robotics result. A perfect-contract benchmark shows that separate payers can implement pooling when total initial cash covers prerequisites and later operating profit covers total investment.
+
 Together these sources supply endogenous organization, directed data accumulation, complementary capability markets and scarce-finance allocation. Combining their vocabulary is not enough to establish novelty. The research question is whether the particular timing and alignment of physical qualification, learning and capture creates a defensible additional result.
 
 ## The model ladder and what survived
@@ -53,7 +55,7 @@ The priority measurement is cost to meet the *same* target acceptance criterion 
 
 The proposed first paper remains deployment sequencing and capital allocation. Coordination-driven concentration and general equilibrium automation are foundations and broader-program branches, not requirements to implement in the first kernel. Customer ownership and provider legal organization remain distinct questions.
 
-The next adversarial test should relax arbitrary payment prohibitions through a competent contracting alternative. If freely agreed early contributions and future profit shares reproduce the pooled allocation, a payment-network result requires an independently justified restriction: limited pledgeability, noncontractible investment, restricted customer funds or another observed institutional constraint. It should not rely on labelling a valuable feasible transfer “forbidden” without explanation.
+The [completed perfect-contract test](contracting_and_pledgeability.md) relaxes arbitrary payment prohibitions through a competent contracting alternative. Freely agreed early contributions and future profit shares reproduce the pooled allocation under the stated deterministic benchmark. A payment-network result therefore requires an independently justified restriction: limited pledgeability, noncontractible investment, restricted customer funds or another observed institutional constraint. It should not rely on labelling a valuable feasible transfer “forbidden” without explanation.
 
 Then test whether costly deployment choice, directional learning and finite qualification timing generate a result beyond the existing cash-constraint example. Specify which contract prices and responses are endogenous. If the extension does not add information, discard it as the central claim and pursue a narrower empirical identification or timing result. Do not infer novelty from a larger state space.
 

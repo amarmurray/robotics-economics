@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-7.
+Handoff ID: theory-christmas-2026-checkpoint-8.
 
-## Current checkpoint: integrated theory and the replication-cost boundary
+## Current checkpoint: contracting benchmark and incentive-compatible finance
+
+Continued from accepted `6156a12493d04227b4dd7ee522c7a08282909bc9`, November 16, 2026 UTC. The [contracting/prior-art audit](research/theory/contracting_and_pledgeability.md) proves the deterministic pooling benchmark: unrestricted enforceable contributions and future profit shares can implement the complete service iff aggregate initial cash covers prerequisites and future operating profit covers investment. Separate ownership alone therefore does not sustain the earlier payment bottleneck.
+
+The audit reconstructs Holmström–Tirole's direct-finance incentive constraint and Bergemann–Hege's published Bayesian update, first-best stopping path and terminal contracting wedge. Dynamic financing/learning and incentive-limited pledgeability are established prior art. A synthetic pair raises high-effort expected revenue from eight to nine while lowering pledgeable income from six to 72/13 because the effort gap shrinks; both satisfy the source's good-project-only viability restriction. Retaining the old technology still preserves optional value. No robotics probabilities/private benefits are estimated.
+
+Fresh check: `python scripts/check_contracting_foundations.py` verifies pooling balances, incentive/viability constraints, exact belief path and two independent value calculations, plus 100 terminal success-share intervals. Sources and hashes/reading limits are in the note. Bergemann–Hege's later infinite-horizon contracting proofs remain unreplicated; its published scan was selectively OCRed and equations visually checked. No historical result file changed.
+
+**Next consequential action:** seek a public robotics financing/contract contrast that tests whether early transfers, asset-backed finance or customer commitments actually relax the presumed payer constraint. Keep financial claims distinct from data rights and observed qualification-cost savings. The next theory extension needs a testable restriction beyond existing agency/learning finance, rather than merely adding moral hazard. Contribution remains unselected.
+
+## Previous theory checkpoint 7: integrated theory and the replication-cost boundary
 
 Continued from accepted `347b28eb172ff732ea7d3e52886c6b9881e0e51a`, November 16, 2026 UTC. The [initial integrated synthesis](research/theory/synthesis.md) connects the seed theories, finance prior art, model ladder, empirical identification limits and rejected claims. This is substantive early synthesis, not completion of the November 22 literature gate or selection of a novel contribution.
 
