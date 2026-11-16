@@ -1,0 +1,226 @@
+{
+  "schema": "theory-evidence-transitions-1",
+  "status": "first sparse research-evidence slice; not atlas v1 or empirical calibration",
+  "observation_period": "Source experiments; exact dates not identified in these inspected passages",
+  "sources": [
+    {
+      "id": "DEXWILD-V2",
+      "title": "DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies",
+      "url": "https://arxiv.org/html/2505.07813v2",
+      "version": "arXiv 2505.07813v2",
+      "publication_or_revision_date": "2026-05-17",
+      "retrieved_utc_date": "2026-11-16",
+      "sha256": "fe3adffd7b204bb25771bfb6cfa3719641442ed5fe1ee428ef8eed701cc2b302",
+      "format": "html",
+      "historical_parent_records": [
+        "LEC-003",
+        "LEC-004"
+      ]
+    },
+    {
+      "id": "DREAMGEN-PMLR",
+      "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+      "url": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/jang25a/jang25a.pdf",
+      "version": "PMLR 305, pages 5170\u20135194, 2025",
+      "publication_or_revision_date": "2025",
+      "retrieved_utc_date": "2026-11-16",
+      "sha256": "d2103c9f0384e16750a8a5692e410cc14da953eb9dd53a395a680471d30968c3",
+      "format": "pdf",
+      "historical_parent_records": [
+        "LEC-005"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "TEV-001",
+      "relation_type": "joint_training_inputs_to_target_policy",
+      "source_nodes": [
+        "human_pouring_demonstrations",
+        "robot_spraying_demonstrations"
+      ],
+      "target_node": "DexWild_xArm_LEAP_V2_pouring_policy_extreme_scenes",
+      "source_id": "DEXWILD-V2",
+      "locator": "IV-A; V-B; Figure 7; VII-A Pouring",
+      "epistemic_status": "author_reported_research_result",
+      "metric": "author-labelled success rate; rubric awards partial credit",
+      "unit": "reported percent",
+      "quantities": {
+        "co_trained": 94,
+        "robot_only": 0,
+        "human_only": 11,
+        "robot_to_human_ratio": "1:2",
+        "target_robot_pouring_demonstrations_in_transfer_treatment": 0
+      },
+      "trial_denominator": null,
+      "limitations": [
+        "Joint human-target/robot-source recipe, not robot-source data alone.",
+        "Full-score rubric is not commercial service acceptance.",
+        "Reported aggregate-to-mean-score mapping and trial aggregation need confirmation."
+      ],
+      "model_transition": {
+        "policy_performance": "supported as reported in specified comparison",
+        "payer_cost_loading": "unidentified",
+        "new_service_eligibility": "unidentified"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "reason": "Not identified by the inspected research result; missing is not zero."
+      }
+    },
+    {
+      "id": "TEV-002",
+      "relation_type": "collection_method_rate_comparison",
+      "source_nodes": [
+        "DexWild_human_collection_system",
+        "Gello_robot_teleoperation_comparator"
+      ],
+      "target_node": "five_task_collection_rate_comparison",
+      "source_id": "DEXWILD-V2",
+      "locator": "V-C Figure 8; VII-C processing",
+      "epistemic_status": "author_reported_research_result",
+      "metric": "collection rate",
+      "unit": "demonstrations per hour",
+      "quantities": {
+        "human_system": 201,
+        "robot_teleoperation": 43
+      },
+      "trial_denominator": null,
+      "limitations": [
+        "Not equal useful demonstrations at fixed target acceptance.",
+        "Filtering, processing, training and validation not fully costed."
+      ],
+      "model_transition": {
+        "collection_throughput": "supported as reported",
+        "qualification_cost_loading": "unidentified"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "reason": "Not identified by the inspected research result; missing is not zero."
+      }
+    },
+    {
+      "id": "TEV-003",
+      "relation_type": "grounded_synthetic_pipeline_to_target_policy",
+      "source_nodes": [
+        "pretrained_video_model",
+        "GR1_pick_and_place_grounding",
+        "target_initial_frames",
+        "pseudo_action_pipeline"
+      ],
+      "target_node": "GR1_novel_behavior_policy",
+      "source_id": "DREAMGEN-PMLR",
+      "locator": "Table 1; physical generalization section; Appendix K.1 Table 8",
+      "epistemic_status": "author_reported_research_result",
+      "metric": "graded task performance; not binary complete-service acceptance",
+      "unit": "reported percent",
+      "quantities": {
+        "novel_behavior_average_baseline_table": 11.2,
+        "novel_behavior_average_augmented": 43.2,
+        "pour_water_baseline": 40,
+        "pour_water_augmented": 55,
+        "novel_behavior_tasks": 14,
+        "rollouts_per_checkpoint": 10
+      },
+      "trial_denominator": null,
+      "conflicts": [
+        "Adjacent prose gives baseline 11.8; Table 1 gives 11.2.",
+        "Grounding trajectories stated as both 2884 and 2885."
+      ],
+      "limitations": [
+        "Ten rollouts per checkpoint does not identify table aggregation across checkpoints.",
+        "No-new-task teleoperation does not mean no embodiment grounding or zero total adaptation cost."
+      ],
+      "model_transition": {
+        "policy_performance": "supported as reported",
+        "qualification_cost_loading": "unidentified",
+        "commercial_eligibility": "unidentified"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "reason": "Not identified by the inspected research result; missing is not zero."
+      }
+    },
+    {
+      "id": "TEV-004",
+      "relation_type": "synthetic_dataset_generation_resource",
+      "source_nodes": [
+        "L40_generation_cluster"
+      ],
+      "target_node": "RoboCasa_synthetic_dataset",
+      "source_id": "DREAMGEN-PMLR",
+      "locator": "Section 5 Limitations",
+      "epistemic_status": "author_reported_resource_requirement",
+      "metric": "generation resources for simulation dataset",
+      "unit": "GPU count; elapsed hours; generated samples",
+      "quantities": {
+        "gpu_count": 1500,
+        "elapsed_hours": 54,
+        "samples": 240000
+      },
+      "trial_denominator": null,
+      "limitations": [
+        "Separate simulation dataset; cannot assign its compute to the physical GR1 comparison.",
+        "No electricity, dollar, utilization or payer-specific qualification cost inferred."
+      ],
+      "model_transition": {
+        "resource_requirement": "reported for this dataset only",
+        "physical_target_cost_loading": "unidentified"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "reason": "Not identified by the inspected research result; missing is not zero."
+      }
+    }
+  ],
+  "conditional_full_score_bounds": [
+    {
+      "id": "BND-DEX-POUR",
+      "record": "TEV-001",
+      "mean_score": "47/50",
+      "nonfull_ceiling": "3/4",
+      "lower": "19/25",
+      "upper": "47/50",
+      "condition": "Reported 94% interpreted as exact mean of stated pouring rubric; mapping/rounding/denominator not independently established."
+    },
+    {
+      "id": "BND-DG-POUR-AUG",
+      "record": "TEV-003",
+      "mean_score": "11/20",
+      "nonfull_ceiling": "1/2",
+      "lower": "1/10",
+      "upper": "11/20",
+      "condition": "Table 1 55 interpreted as normalized mean score, without imposing total trial count."
+    },
+    {
+      "id": "BND-DG-POUR-BASE",
+      "record": "TEV-003",
+      "mean_score": "2/5",
+      "nonfull_ceiling": "1/2",
+      "lower": "0",
+      "upper": "2/5",
+      "condition": "Table 1 40 interpreted as normalized mean score, without imposing total trial count."
+    }
+  ],
+  "commercial_cost_transition_calibrated": false
+}

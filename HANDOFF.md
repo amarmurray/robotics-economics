@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-3.
+Handoff ID: theory-christmas-2026-checkpoint-4.
 
-## Current checkpoint: financing prior art and directed qualification savings
+## Current checkpoint: performance evidence and qualification-cost identification
+
+Continued from remote-verified `52535371f58e0777019caaaade679db513fc87bf`, November 16, 2026 UTC. The Christmas objective and dates remain unchanged.
+
+The [primary-source audit](research/theory/qualification_evidence.md) and [sparse transition records](research/theory/evidence_transitions.json) distinguish joint training inputs, graded performance, and qualification costs. DexWild and DreamGen were already historical sources; these are newly inspected relationships, not additional independent studies. Conditional on interpreting reported values as rubric means, full-score fractions have sharp elementary bounds. Higher graded means need not establish higher complete-trial fractions. Neither study identifies the sign of the payer-specific qualification-cost transition used in the theoretical model.
+
+Fresh validation: `python scripts/check_qualification_evidence.py` checks record links, unknown-cost markers, exact rational bounds, endpoint attainability and finite-trial enumeration. See [review](reviews/theory_checkpoint_04.md). Previous 17 theory tests remain prior accepted checks, not newly rerun here. The sparse slice is not atlas v1, industrial validation, calibration or an original statistical theorem.
+
+**Exact continuation:** distinguish experience that opens service eligibility from experience that reduces a bill. Derive a minimal acceptance-threshold model with explicit retained validation cost; challenge whether its deployment ranking contains information beyond the existing constrained-investment result. Empirically seek matched adaptation/validation effort and payer observations; keep missing costs unknown. Sources and extracted text remain in ignored `work/theory_sources/`. No private-data blocker prevents the theoretical step.
+
+## Previous theory checkpoint 3: financing prior art and directed qualification savings
 
 Continued from verified remote **791bdeb483d602d3c8e60404e19a8eba94626d5b**, clean sole-writer checkout after workspace restart. The same [Christmas phase](THEORY_PHASE.md), objective and milestone dates remain active. No new activation, worker, schedule, outreach or access change.
 
