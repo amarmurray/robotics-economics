@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-christmas-checkpoint-2",
+  "snapshot_id": "theory-christmas-checkpoint-3",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-christmas-checkpoint-2",
-      "sha256": "750c7b7d523e51edfec6af55a35b68935aeb51160a44ab13bd240a32b06a329c"
+      "version": "theory-christmas-checkpoint-3",
+      "sha256": "a25ee839dd1a25b03f995f2bc85442e61b21e395baec4ffb8d58db4dfd4a609e"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -124,8 +124,8 @@
       "repository_path": "REPORT.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/REPORT.md",
       "name": "REPORT.md",
-      "sha256": "4464e773fc84ff5b664f8e31d67509636f88c0fe75d6861a5f8aca8e2e6510c9",
-      "version": "theory-christmas-checkpoint-2"
+      "sha256": "6ab5b47c39b0a55d1c40dc90d3f1d35bfe8bc50b891a742b9ff1f66b077626a6",
+      "version": "theory-christmas-checkpoint-3"
     },
     {
       "repository_path": "REPRODUCE.md",
@@ -145,8 +145,8 @@
       "repository_path": "RESEARCH_ROADMAP.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/RESEARCH_ROADMAP.md",
       "name": "RESEARCH_ROADMAP.md",
-      "version": "theory-christmas-checkpoint-2",
-      "sha256": "38465e008ae52a75ac0fd40d0d5c8e86a5522a76a355b3f7757eb8fdf9e80d97"
+      "version": "theory-christmas-checkpoint-3",
+      "sha256": "3609d05e778d9ab5629bdff057cd44b58d6dcadfebb5ce34544ca660031712ea"
     },
     {
       "repository_path": "ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md",
@@ -2434,8 +2434,8 @@
       "repository_path": "scripts/build_report.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/build_report.py",
       "name": "build_report.py",
-      "sha256": "3d57a0518662569d4cafe37a51404993e8d8a4db0b14970b3abb88d435d3b581",
-      "version": "theory-christmas-checkpoint-2"
+      "sha256": "be17deff59f804b9011346863c89d667970cd3f41d29559195fdb6cb559c8d09",
+      "version": "theory-christmas-checkpoint-3"
     },
     {
       "repository_path": "scripts/build_workcell_comparison.py",
@@ -3001,8 +3001,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "10fb509ee0b6de3009624bbe94502212d5ca020b185b176ce931aecc59be8b16",
-      "version": "theory-christmas-checkpoint-2"
+      "sha256": "38e10d211c592abf8da489f2e57b0c33348b7d2da373eb084af177db3ad26d4b",
+      "version": "theory-christmas-checkpoint-3"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3036,8 +3036,8 @@
       "repository_path": "research/theory/milestones.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/milestones.md",
       "name": "milestones.md",
-      "sha256": "173e80f3cb8e948ec3adff8f45b4506cc424224fe48f1ea660a052f2eb851cdc",
-      "version": "theory-christmas-checkpoint-2"
+      "sha256": "b08638190cb11d1a872991bd12f648f0c70599eeb17f8a066ceb83ecfccda2d5",
+      "version": "theory-christmas-checkpoint-3"
     },
     {
       "repository_path": "research/theory/organizing_intelligence.md",
@@ -3129,6 +3129,48 @@
       "name": "test_qualification_finance.py",
       "sha256": "e2c987dac4f310f520c37e265cd9915a33bcd564c2b8df5994d1af03932117b4",
       "version": "theory-christmas-checkpoint-2"
+    },
+    {
+      "repository_path": "model/learning_funding_alignment.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/learning_funding_alignment.py",
+      "name": "learning_funding_alignment.py",
+      "sha256": "243cdbb86fdafa448b32534194758f9521248a2f9ef0fda17d922d6a277ced81",
+      "version": "theory-christmas-checkpoint-3"
+    },
+    {
+      "repository_path": "model/results/learning_funding_alignment.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/learning_funding_alignment.json",
+      "name": "learning_funding_alignment.json",
+      "sha256": "40fef5852fe16435d4f9993d1641eae3cfa93a49be38deabbe46dd53d85cc7c0",
+      "version": "theory-christmas-checkpoint-3"
+    },
+    {
+      "repository_path": "research/theory/internal_capital_markets.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/internal_capital_markets.md",
+      "name": "internal_capital_markets.md",
+      "sha256": "f4ee3b86159d2a393443e82262504b62a8956c097c11c7a9953d7251a0f7e55f",
+      "version": "theory-christmas-checkpoint-3"
+    },
+    {
+      "repository_path": "research/theory/learning_funding_alignment.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/learning_funding_alignment.md",
+      "name": "learning_funding_alignment.md",
+      "sha256": "8ab8aace3ec49b3f078c617739fd8885c64c94a84b9522fb2ef92e35bdee4320",
+      "version": "theory-christmas-checkpoint-3"
+    },
+    {
+      "repository_path": "reviews/theory_checkpoint_03.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/theory_checkpoint_03.md",
+      "name": "theory_checkpoint_03.md",
+      "sha256": "3b60e42ee9cad893013701e09e6dc9eeb05ea1243024cd813cf273917c2d8f4e",
+      "version": "theory-christmas-checkpoint-3"
+    },
+    {
+      "repository_path": "tests/test_learning_funding_alignment.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_learning_funding_alignment.py",
+      "name": "test_learning_funding_alignment.py",
+      "sha256": "98c6d24de8091d891f422bdc81d75ac429f85bafcdd6913f9d120e3bf65dbbcc",
+      "version": "theory-christmas-checkpoint-3"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

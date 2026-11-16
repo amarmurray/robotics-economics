@@ -1,0 +1,176 @@
+{
+  "input": {
+    "cash": [
+      "5",
+      "1"
+    ],
+    "continuation": "10",
+    "costs": [
+      "2",
+      "2"
+    ],
+    "experience_upper": "2"
+  },
+  "source_sha256": {
+    "model/learning_funding_alignment.py": "243cdbb86fdafa448b32534194758f9521248a2f9ef0fda17d922d6a277ced81",
+    "model/qualification_finance.py": "f3788dfa51b8d5fb8b55e2e5399cc7e3a5e5f196295c73ec802c386ab492baf4",
+    "model/theory_deployment.py": "ab011a9a461391171c5f2088f7733437d502c714b9b81af5df90c6a0e0e32eee",
+    "research/theory/learning_funding_alignment.md": "8ab8aace3ec49b3f078c617739fd8885c64c94a84b9522fb2ef92e35bdee4320"
+  },
+  "status": "synthetic conditional corollary; no novelty/calibration claim",
+  "worlds": [
+    {
+      "costs": [
+        "1",
+        "2"
+      ],
+      "experience": "1",
+      "feasible": false,
+      "loading": [
+        "1",
+        "0"
+      ],
+      "source": "provider_focused",
+      "tau": "0",
+      "threshold": null,
+      "threshold_null": "No feasible threshold within declared domain",
+      "value": "6"
+    },
+    {
+      "costs": [
+        "2",
+        "1"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "0",
+        "1"
+      ],
+      "source": "operator_focused",
+      "tau": "0",
+      "threshold": "1",
+      "threshold_null": null,
+      "value": "13"
+    },
+    {
+      "costs": [
+        "3/2",
+        "3/2"
+      ],
+      "experience": "1",
+      "feasible": false,
+      "loading": [
+        "1/2",
+        "1/2"
+      ],
+      "source": "broad",
+      "tau": "0",
+      "threshold": "2",
+      "threshold_null": null,
+      "value": "6"
+    },
+    {
+      "costs": [
+        "1",
+        "2"
+      ],
+      "experience": "1",
+      "feasible": false,
+      "loading": [
+        "1",
+        "0"
+      ],
+      "source": "provider_focused",
+      "tau": "1/2",
+      "threshold": null,
+      "threshold_null": "No feasible threshold within declared domain",
+      "value": "6"
+    },
+    {
+      "costs": [
+        "2",
+        "1"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "0",
+        "1"
+      ],
+      "source": "operator_focused",
+      "tau": "1/2",
+      "threshold": "1/2",
+      "threshold_null": null,
+      "value": "13"
+    },
+    {
+      "costs": [
+        "3/2",
+        "3/2"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "1/2",
+        "1/2"
+      ],
+      "source": "broad",
+      "tau": "1/2",
+      "threshold": "1",
+      "threshold_null": null,
+      "value": "13"
+    },
+    {
+      "costs": [
+        "1",
+        "2"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "1",
+        "0"
+      ],
+      "source": "provider_focused",
+      "tau": "1",
+      "threshold": "0",
+      "threshold_null": null,
+      "value": "13"
+    },
+    {
+      "costs": [
+        "2",
+        "1"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "0",
+        "1"
+      ],
+      "source": "operator_focused",
+      "tau": "1",
+      "threshold": "0",
+      "threshold_null": null,
+      "value": "13"
+    },
+    {
+      "costs": [
+        "3/2",
+        "3/2"
+      ],
+      "experience": "1",
+      "feasible": true,
+      "loading": [
+        "1/2",
+        "1/2"
+      ],
+      "source": "broad",
+      "tau": "1",
+      "threshold": "0",
+      "threshold_null": null,
+      "value": "13"
+    }
+  ]
+}

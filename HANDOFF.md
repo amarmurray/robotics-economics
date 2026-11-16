@@ -1,8 +1,22 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-2.
+Handoff ID: theory-christmas-2026-checkpoint-3.
 
-## Current checkpoint: capability combinations and payer-specific qualification
+## Current checkpoint: financing prior art and directed qualification savings
+
+Continued from verified remote **791bdeb483d602d3c8e60404e19a8eba94626d5b**, clean sole-writer checkout after workspace restart. The same [Christmas phase](THEORY_PHASE.md), objective and milestone dates remain active. No new activation, worker, schedule, outreach or access change.
+
+The [Stein (1997) audit](research/theory/internal_capital_markets.md) rejects fixed-budget fund reallocation as an original contribution. It reconstructs the source's conditional rationing comparison and distinguishes headquarters' monitoring/control/incentive assumptions from our permitted-payment model. The scanned author PDF was acquired, selected pages OCRed, and printed pp.114–118 visually inspected; the whole paper's multiproject results remain unreplicated.
+
+The [directional experience extension](research/theory/learning_funding_alignment.md) derives the minimum experience that relieves every funding cut within a specified linear cost-reduction domain. In the exact example, equal one-unit total savings give terminal combined cash 6 or13 depending on which payer's qualification bill falls. A broad source can miss the binding funding constraint; operator-focused experience funds the complete service. A one-unit permitted payment makes all three sources equivalent in total value. The result is a conditional corollary, not an established novel contribution or empirical transition estimate.
+
+[Exact results](model/results/learning_funding_alignment.json) and [the checkpoint review](reviews/theory_checkpoint_03.md) record fresh validation:17 scoped tests pass, including13 rerun prior theory tests. Historical results remain unchanged. Full source URLs/hashes are in the source cards; OCR and source PDFs are ignored local files under `work/theory_sources/`.
+
+**Next concrete action:** inspect primary robotics transfer/adaptation evaluations and create sparse evidence-to-transition records distinguishing policy performance from actual qualification effort and payer-specific costs. Seek a measured bound on the assumed experience-to-obligation transition; if unavailable, retain explicit unknowns and a discriminating test. Also distinguish cost-reducing learning from new service eligibility before adding a larger model. No private-ledger dependency blocks this public-source work. Contribution remains unselected; the full empirical atlas and seed long-run proof audits are incomplete.
+
+**Next question:** which observed source-to-target learning result actually changes the cost or feasibility of a named qualification obligation, and which payer must finance it before service begins?
+
+## Previous theory checkpoint 2: capability combinations and payer-specific qualification
 
 Continued from remote-verified **f420d83ad870f908138854d80beb200ae79eeee8**, clean sole-writer checkout. The same [Christmas objective](THEORY_PHASE.md), cutoff and [milestones](research/theory/milestones.md) remain active; no goal reset, extra worker or schedule. Historical acceptance and numerical outputs remain unchanged.
 
