@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-christmas-checkpoint-9",
+  "snapshot_id": "theory-christmas-checkpoint-10",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-christmas-checkpoint-9",
-      "sha256": "2feb719f182df863673eef6122be60f4c7ea0e1f3aeb812e044c5ec099a5087e"
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "ff65a4c2cc43cfe6b2977c04d90da6c238d89964b430bdddc9a24fcdde4d87ec"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3001,8 +3001,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "b20c1e60a0879d72e4551e2aa6799a247ff28600a00f7d8b50af914680e820a8",
-      "version": "theory-christmas-checkpoint-9"
+      "sha256": "ae37d70b546201a952a30886361a03f0483a35cb161f8dad66fa0c522583e53b",
+      "version": "theory-christmas-checkpoint-10"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3036,8 +3036,8 @@
       "repository_path": "research/theory/milestones.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/milestones.md",
       "name": "milestones.md",
-      "sha256": "756b1ceae7a7bd914ca7f58d44a5b094c96424e0b5e505fb0eb3d725372786fb",
-      "version": "theory-christmas-checkpoint-9"
+      "sha256": "20c3d17b65af8f35824c7455914c9c78a159626f72cc2371de319b7819a67757",
+      "version": "theory-christmas-checkpoint-10"
     },
     {
       "repository_path": "research/theory/organizing_intelligence.md",
@@ -3239,8 +3239,8 @@
       "repository_path": "research/theory/synthesis.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/synthesis.md",
       "name": "synthesis.md",
-      "version": "theory-christmas-checkpoint-9",
-      "sha256": "3de565f9cd40b0c6e0f123475a2137579e84905d49e34645fa1ed01c4a6dbf5a"
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "ee8fc370dcc296e280601cb68790bce48644d0ff9f4dab6b288916b2bccc6920"
     },
     {
       "repository_path": "research/theory/contracting_and_pledgeability.md",
@@ -3262,6 +3262,34 @@
       "name": "raas_assignment_evidence.md",
       "version": "theory-christmas-checkpoint-9",
       "sha256": "ae7bb871920451237be6e229ea27c1c495fb3251ee720d02d8eef26782efefc5"
+    },
+    {
+      "repository_path": "research/theory/raas_receipts.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/raas_receipts.md",
+      "name": "raas_receipts.md",
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "b3d16e4e6d28b308765e7b9d3dd870a8c09c24160394d546861bb4490a1b6d93"
+    },
+    {
+      "repository_path": "model/raas_receipts.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/raas_receipts.py",
+      "name": "raas_receipts.py",
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "a71654200f67aed41d68f0b5d0e7cbc907495b62dc9f35e8a7acf7d48c620910"
+    },
+    {
+      "repository_path": "model/results/raas_receipts.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/raas_receipts.json",
+      "name": "raas_receipts.json",
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "9591d05434ef772cab5c9577ab5a17273bc26f1ec908846f4ec0dfc4b6f8428a"
+    },
+    {
+      "repository_path": "tests/test_raas_receipts.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_raas_receipts.py",
+      "name": "test_raas_receipts.py",
+      "version": "theory-christmas-checkpoint-10",
+      "sha256": "38d22d297e486606558707f5bf5c1dac1c871c1a7c1ed135e8bb20b970742fec"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

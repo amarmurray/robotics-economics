@@ -89,3 +89,5 @@ Checkpoint 7: [initial integrated theory synthesis](research/theory/synthesis.md
 Checkpoint 8: [contracting and pledgeability audit](research/theory/contracting_and_pledgeability.md) supplies a pooling counterexample to the unrestricted payment-bottleneck narrative, reconstructs two close financing/learning sources, and checks a conditional performance/pledgeability reversal. These sharpen prior art; they do not establish novelty or empirical finance parameters.
 
 Checkpoint 9: [public RaaS assignment-finance contrast](research/theory/raas_assignment_evidence.md) adds actual lender/provider statements while keeping assignment offerings, agreements, equity, hourly billing and unknown executed terms distinct. It challenges a universal no-transfer premise without calibrating a financing cap.
+
+Checkpoint 10: [hourly-receipts and demand model](research/theory/raas_receipts.md) supplies a conditional financing interval and competent pricing/retention counterexamples. Five exact scoped tests pass. The unrestricted adverse-learning claim fails; actual contract restrictions remain unidentified and novelty unselected.

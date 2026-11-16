@@ -28,6 +28,8 @@ The [directed qualification-savings extension](learning_funding_alignment.md) ma
 
 The [eligibility and optional-policy extension](eligibility_and_free_disposal.md) replaces cost reduction with a policy that first meets a service threshold but requires increasing validation expenditure. Eligible funded versions can form a bounded interval. A forced new version can lose value; the option to retain an earlier qualified version restores weak monotonicity. Thus the unrestricted claim that more freely available experience reduces optimized private value is rejected. Costly acquisition, lost rights, mandatory replacement and changed liabilities can alter the feasible set, but must be modeled and evidenced explicitly.
 
+The [hourly-receipts diagnostic](raas_receipts.md) derives responsive customer output and an exact financing interval under committed hourly billing. Faster service can raise output while reducing billable receipts; fixed output pricing or repricing reverses the cash effect in the example. Policy retention again defeats a claim that free learning reduces optimized value. Pre-qualification pledgeability and pricing rights are explicit scenario boundaries, not inferred from press releases.
+
 These results identify assumptions and defeat careless rankings. They do not yet select the paper's contribution. The strongest prior-art objection remains that the present examples combine familiar constrained investment, flow feasibility and option preservation.
 
 ## What the technical evidence permits

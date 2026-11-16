@@ -33,3 +33,5 @@ Checkpoint 7 (November 16 UTC): initial integrated synthesis and Organizing Inte
 Checkpoint 8 (November 16 UTC): perfect-contract benchmark and selected Holmström–Tirole/Bergemann–Hege mechanisms checked. Next public evidence contrast concerns actual financing and payment commitments. Contribution selection, full empirical atlas and main experiment scope remain pending.
 
 Checkpoint 9 (November 16 UTC): sparse technical/financial evidence slices linked by explicit missing relationships; no claimed observed end-to-end learning/financing path. Full sector backbone, contrasted workflow atlas and causal identification remain pending.
+
+Checkpoint 10 (November 16 UTC): responsive-demand RaaS billing diagnostic and five tests complete; pricing and policy-retention counterexamples narrow its claim. This is another small analytical benchmark, not the December main experiment/scope lock or a selected contribution.

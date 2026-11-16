@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-9.
+Handoff ID: theory-christmas-2026-checkpoint-10.
 
-## Current checkpoint: public RaaS assignment-finance contrast
+## Current checkpoint: contract receipts, customer demand and retention counterexamples
+
+Continued from accepted `8b0d69678afecb483fc068fcdd0d962458c72908`, November 16, 2026 UTC. The [RaaS receipt model](research/theory/raas_receipts.md) derives customer output under hourly billing, a conditional speed interval for receipt-backed qualification finance, and exact output-price/repricing alternatives. The posted-unit-price institution is explicit and differs from the earlier surplus-sharing tariff; the quadratic customer revenue and resource accounting remain consistent.
+
+In the synthetic comparison, speed two to four raises customer output four to five, but hourly receipts fall eight to five and the stipulated advance no longer covers the four-unit prerequisite. The provider's source-service profit falls while source customer-plus-provider surplus rises. Fixed output pricing or repricing removes the declining-receipt channel. Retaining the old policy preserves its former value, rejecting the unrestricted claim that free additional learning lowers optimized enterprise value. Actual rate rigidity, advance terms and pre-qualification pledgeability remain unidentified.
+
+Fresh validation: five tests pass via `python -m unittest tests.test_raas_receipts`. They check the exact table, adoption/funding interval, borrower operating/repayment cash, principal cancellation, policy retention, repricing equivalence and domain exclusions. `python -m model.raas_receipts` generates [exact results](model/results/raas_receipts.json). This is a bounded deterministic contract diagnostic, not a calibrated loan model, general-equilibrium result or selected novel contribution. Prior numerical results remain unchanged.
+
+**Next consequential action:** consolidate the surviving mechanisms into a small candidate-contribution comparison and choose a tractable next result to challenge, rather than add more unconstrained features. A credible claim must survive competent contracting and optional policy retention and must identify the specific empirical restriction needed. Sector/workflow atlas construction remains an independent unblocked branch; full release criteria remain open.
+
+## Previous theory checkpoint 9: public RaaS assignment-finance contrast
 
 Continued from accepted `81f4a786bcd55ef068fddad5b886ba620ad30949`, November 16, 2026 UTC. The [RaaS finance source note](research/theory/raas_assignment_evidence.md) inspects Mitsubishi HC Capital America's assignment-financing description and Formic commercial agreement, plus Formic's June 25, 2024 issuer release. The [sparse evidence records](research/theory/evidence_transitions.json) now distinguish offered cash advances, assigned claims, a reported commercial agreement and a reported equity round. Equity is not a receivables facility. Two descriptions of the same agreement are not two transactions.
 
