@@ -1,0 +1,21 @@
+# Theory phase milestone ledger
+
+Original targets from the full November 15, 2026 brief; all dates are America/New_York. Current checkpoint executed November 15 Eastern / November 16 UTC. No stage is complete merely because its window begins. No scheduled execution is implied.
+
+| Stage/window | Target | Actual evidence/status | Unresolved objection and next action |
+| --- | --- | --- | --- |
+| 0: Nov 15–16 | Nov 16: audit, charter, prospectus, dependencies | First compact [charter/audit](../../THEORY_PHASE.md) and research spine written | Full source/prior-art audit remains in Stage 1; preserve historical acceptance |
+| 1: Nov 16–29 | Nov 18: reconstructed source and robotics extension | [Selected Organizing Intelligence mechanism](organizing_intelligence.md) reconstructed; bounded physical constraint added | Whole equilibrium/appendix not replicated; verify selected formal source propositions |
+| 1/2 | Nov 22: synthesis, closest literature, argument outline, Models A/B | Initial prospectus/outline, source card, [A/B derivation](deployment_investment.md) and exact comparison complete in bounded form | Closest-literature comparison incomplete; do not mark Nov 22 gate passed |
+| 1/2 | Nov 29: integrated assumptions, replication, result/rejection and counterexamples | First source arithmetic and two-period counterexample checked; integrated package pending | Need meaningful contribution beyond generic finance constraint |
+| 3: Nov 23–Dec 13 | Nov 29: backbone and discriminating cases | Contrast and identification design specified in charter; atlas not built | Inspect primary sources and reconcile sector vintages |
+| 2/3 | Dec 6: choose contribution/minimum extension; initial opportunity matrix | Pending | Derive directed transfer/qualification result after prior-art audit |
+| 4: Dec 7–18 | Dec 13: small benchmark, baselines, model/scope lock | Small exact diagnostic available; main experiment not selected | Compare competent policies with same information/resources |
+| 3/5 | Dec 13: atlas v1, identification/bounds memo, coherent narrative | Pending | Source-backed relationships and actual result must determine narrative |
+| 4/5: writing Dec 7–23 | Dec 18: figures, ablations, robustness and complete paper v0.1 | Pending | No empty headings accepted as a complete draft |
+| 6: Dec 19–25 | Dec 21: skeptical self-review | Pending | Strongest prior art, alternative mechanism and weak assumptions |
+| 5/6 | Dec 23: revised paper/appendix, learning/decision materials; objections resolved/disclosed | Pending | Preserve unresolved objections rather than overstating acceptance |
+| 6 | Dec 24: clean-checkout replay/release candidate | Pending | Current scoped tests are not final release replication |
+| 6 | Dec 25 23:59 Eastern: verified edition and gap audit | Pending; cutoff unchanged | Deliver strongest honest edition; partial if criteria unmet |
+
+Continuation completed: [Data-Driven Automation transition/spillover reconstruction](data_driven_automation.md) and an exact counterexample to unweighted reach ranking. Next substantive step: obtain and inspect the Chen–Elliott–Koh capability-combination paper, then test whether complementary qualification and separate payment relationships supply a distinct result. No empirical confidential-data blocker prevents this work. No elapsed-hour claim is made.

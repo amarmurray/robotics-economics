@@ -1,6 +1,25 @@
 # Robotics economics — current handoff
 
-Handoff ID: deployment-entry-2026-11-07-checkpoint-0.56.
+Handoff ID: theory-christmas-2026-checkpoint-1.
+
+## Current phase: theoretical mechanism and exact deployment/finance comparison
+
+The governing current objective is [the Christmas theory phase](THEORY_PHASE.md), with [one milestone ledger](research/theory/milestones.md). Final cutoff is **2026-12-25 23:59 America/New_York** (December 26 04:59 UTC). This phase is distinct from the historical November 7–14 campaign below; no old acceptance requirement or deadline was reset. Remote input main was verified at **654e4ff9dbc1e1eb945a8b2734eaf5e058c6fa9a**, with a clean sole-writer checkout. The existing related native goal was updated after the full brief arrived and returned **active**; local operational activation observations are recorded separately from saved instructions. Original activation time is not available. No extra worker or schedule was created.
+
+**Actual research:** [Organizing Intelligence](research/theory/organizing_intelligence.md) reconstructs the selected competence/coordination worked example, its optimal-size derivative, and the physical-replication boundary. [Data-Driven Automation](research/theory/data_driven_automation.md) reconstructs production/data accumulation and directed spillovers and derives an exact counterexample to unweighted reach rankings. These are selected mechanisms, not replications of the papers' full equilibria or long-run proofs. Both primary PDFs were retrieved and fingerprinted; other source results remain subject to audit.
+
+[Models A/B](research/theory/deployment_investment.md) specify customer output demand, a feasible alternative, two-part service pricing, provider cash, deterministic learning/access transitions and a binary supported-capacity investment. With synthetic inputs, H wins without credit at 10.4 versus 9.2; a one-unit bridge makes L's expansion feasible and its value 11.8. No-learning or no-access ablations restore H. Loan principal cancels in lifetime value but not the funding constraint. This is familiar constrained-investment economics, **not an established novel contribution**. The stronger open question is the interaction of separate production, transfer/qualification and payment relationships.
+
+The [exact artifact](model/results/theory_deployment.json), [small CPU kernel](model/theory_deployment.py), [teach-back problem](research/theory/teach_back_01.md) and [separate solution](research/theory/teach_back_01_solution.md) make the result reviewable. The phase charter supplies the prospectus/argument outline, reuse audit, closest-literature ledger and an inspection-versus-manipulation evidence/identification contrast. No new empirical calibration, practitioner validation, paper-completion or final replication claim is made. Historical source retrieval dates and result files are preserved.
+
+**Fresh checks:** seven scoped tests cover exact funding boundary, quantity optimization, demand saturation, participation, payer reconciliation, failed expansion, ablations and selected source arithmetic. Deterministic export, manifest/link checks and historical preservation are recorded in [the checkpoint review](reviews/theory_checkpoint_01.md). These are sole-writer checks, not independent peer review.
+
+**Exact continuation:** local ignored PDFs/text are in `work/theory_sources/`; URL/hash recovery is in each mechanism card. Next obtain the primary Chen–Elliott–Koh capability-combination paper and audit its closest result, then formulate a minimal joint qualification/payment constraint and seek a distinct proposition or counterexample. Organizing Intelligence concentration and Data-Driven Automation long-run/welfare proofs are still unreplicated. The empirical atlas is designed but not built; no target gate is passed merely by the date. No useful research path is blocked. Continue substantive theory and discriminating empirics; do not return to dashboard expansion or repeat exhausted historical searches.
+
+**Next question:** holding the production/engineering network fixed, when do directed reuse rights and payer-specific financing change the order of complementary qualification investments in a way not already established by the seed models?
+
+## Historical campaign context
+
 
 ## Accepted direction
 

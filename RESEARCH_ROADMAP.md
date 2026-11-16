@@ -1,6 +1,8 @@
 # Robotics economics research roadmap
 
-**Active campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November2026 window. Edition0.43 adds a historical utility project-cost audit, separating funding, reported expenditure, excluded site work, replication indications and realized service value. Fourteen synthetic families remain at241 worlds. Current accepted-service, role-hour, support/rights and all-payer outcomes remain the next empirical dependency; closed access routes remain closed. Full A–K scope and sole writer continue.
+**Current phase:** [Theory-led Christmas research](THEORY_PHASE.md), with [dated milestones](research/theory/milestones.md), source reconstructions, exact Models A/B and an unresolved contribution/prior-art test. Historical question statuses remain unchanged.
+
+**Historical campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November2026 window. Edition0.43 adds a historical utility project-cost audit, separating funding, reported expenditure, excluded site work, replication indications and realized service value. Fourteen synthetic families remain at241 worlds. Current accepted-service, role-hour, support/rights and all-payer outcomes remain the next empirical dependency; closed access routes remain closed. Full A–K scope and sole writer continue.
 
 Version 1.11 · Post-window continuation, 7 November 2026. The original 55 questions and ten new frontier-model questions form a 65-question continuing portfolio; current states are in `data/question_ledger.json`. Early bounded findings do not close the full program.
 
