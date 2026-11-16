@@ -36,6 +36,8 @@ The [DexWild/DreamGen audit](qualification_evidence.md) preserves the actual joi
 
 Neither inspected study identifies the sign of total qualification-cost savings by payer. Faster demonstration collection can be offset by processing, validation, integration and retained support. Simulation generation resources cannot be allocated to a different physical-policy experiment without evidence. The [sparse evidence records](evidence_transitions.json) therefore preserve unknown costs, commercial rights, customer demand and permitted early payments as null values. They are not calibrated model inputs or atlas v1.
 
+The [RaaS assignment-finance slice](raas_assignment_evidence.md) documents a lender-described route from customer receivables to upfront vendor cash, a Formic financing partnership and issuer-reported hourly billing. It does not establish that a Formic contract was assigned, that an advance preceded qualification, or how underwriting treats productivity changes. Technical transfer and financial relationships remain separate observations, with their joining edges unknown.
+
 The priority measurement is cost to meet the *same* target acceptance criterion under matched source-experience alternatives, with full failures, human/compute effort, physical validation, recurring support, payer and payment dates. Policy retention and rights must be observed to test whether a forced-update example applies. Sector employment data cannot fill these local transition and contract gaps.
 
 ## Analogy and non-analogy

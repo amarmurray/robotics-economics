@@ -1,7 +1,7 @@
 {
   "schema": "theory-evidence-transitions-1",
-  "status": "first sparse research-evidence slice; not atlas v1 or empirical calibration",
-  "observation_period": "Source experiments; exact dates not identified in these inspected passages",
+  "status": "sparse technical-learning and RaaS-finance evidence slices; not atlas v1 or calibration",
+  "observation_period": "Source experiments and dated/undated public financing statements; record-level dates and gaps apply",
   "sources": [
     {
       "id": "DEXWILD-V2",
@@ -29,6 +29,39 @@
       "historical_parent_records": [
         "LEC-005"
       ]
+    },
+    {
+      "id": "MHCC-FORMIC",
+      "title": "Mitsubishi HC Capital America Signs Agreement with Leading Robots-As-a-Service Provider",
+      "url": "https://www.mhccna.com/en-us/about-us/press-release/mitsubishi-hc-capital-america-signs-agreement-leading-robots-service",
+      "version": "Public issuer/lender page as extracted",
+      "publication_or_revision_date": null,
+      "retrieved_utc_date": "2026-11-16",
+      "sha256": null,
+      "format": "Exa full-page text extraction; no original-byte hash",
+      "historical_parent_records": []
+    },
+    {
+      "id": "MHCC-ASSIGNMENT",
+      "title": "Key Factors Shaping Adoption of Robotics-as-a-Service in 2024",
+      "url": "https://www.mhccna.com/en-us/about-us/press-release/mitsubishi-hc-capital-america-reveals-key-factors-shaping-adoption-robotics",
+      "version": "Public issuer/lender page as extracted",
+      "publication_or_revision_date": null,
+      "retrieved_utc_date": "2026-11-16",
+      "sha256": null,
+      "format": "Exa full-page text extraction; no original-byte hash",
+      "historical_parent_records": []
+    },
+    {
+      "id": "FORMIC-2024",
+      "title": "Formic Raises $27.4 Million to Bring Automation to More Manufacturers",
+      "url": "https://www.businesswire.com/news/home/20240625420772/en/Formic-Raises-%2427.4-Million-to-Bring-Automation-to-More-Manufacturers",
+      "version": "Public issuer/lender page as extracted",
+      "publication_or_revision_date": "2024-06-25",
+      "retrieved_utc_date": "2026-11-16",
+      "sha256": null,
+      "format": "Exa full-page text extraction; no original-byte hash",
+      "historical_parent_records": []
     }
   ],
   "records": [
@@ -191,6 +224,160 @@
         "early_payment_permissions": null,
         "reason": "Not identified by the inspected research result; missing is not zero."
       }
+    },
+    {
+      "id": "TEV-005",
+      "relation_type": "offered_assignment_finance_cash",
+      "source_nodes": [
+        "MHCC_lender_underwriting",
+        "eligible_vendor_customer_receivables"
+      ],
+      "target_node": "vendor_upfront_cash",
+      "source_id": "MHCC-ASSIGNMENT",
+      "locator": "Ability to monetize RaaS contracts; subsequent process paragraph",
+      "epistemic_status": "lender_described_offering",
+      "metric": "Public statement, not transaction-level verification",
+      "unit": "currency; amount unknown",
+      "quantities": {},
+      "trial_denominator": null,
+      "limitations": [
+        "Offered assignment finance is not a verified Formic assignment transaction.",
+        "Equity amount is not a debt facility size or a project qualification budget.",
+        "Customer acceptance and pre-acceptance advance eligibility are unknown."
+      ],
+      "model_transition": {
+        "payer_cost_loading": "unidentified",
+        "financing": "offered mechanism or announced relationship; no numeric model calibration"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "advance_rate": null,
+        "recourse": null,
+        "executed_customer_contract": null,
+        "reason": "Actor roles/public offering are identified; actual project obligation payer, permissions and cash terms remain unknown."
+      }
+    },
+    {
+      "id": "TEV-006",
+      "relation_type": "offered_assignment_of_claims",
+      "source_nodes": [
+        "vendor_customer_payment_stream"
+      ],
+      "target_node": "lender_assigned_receipt_claim",
+      "source_id": "MHCC-ASSIGNMENT",
+      "locator": "Ability to monetize RaaS contracts",
+      "epistemic_status": "lender_described_offering",
+      "metric": "Public statement, not transaction-level verification",
+      "unit": "claim; terms unknown",
+      "quantities": {},
+      "trial_denominator": null,
+      "limitations": [
+        "Offered assignment finance is not a verified Formic assignment transaction.",
+        "Equity amount is not a debt facility size or a project qualification budget.",
+        "Customer acceptance and pre-acceptance advance eligibility are unknown."
+      ],
+      "model_transition": {
+        "payer_cost_loading": "unidentified",
+        "financing": "offered mechanism or announced relationship; no numeric model calibration"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "advance_rate": null,
+        "recourse": null,
+        "executed_customer_contract": null,
+        "reason": "Actor roles/public offering are identified; actual project obligation payer, permissions and cash terms remain unknown."
+      }
+    },
+    {
+      "id": "TEV-007",
+      "relation_type": "announced_joint_commercial_agreement",
+      "source_nodes": [
+        "Mitsubishi_HC_Capital_group",
+        "Formic_provider"
+      ],
+      "target_node": "manufacturing_RaaS_lifecycle_finance_collaboration",
+      "source_id": "MHCC-FORMIC",
+      "locator": "Opening agreement statement and lifecycle paragraph",
+      "epistemic_status": "lender_reported_signed_agreement",
+      "metric": "Public statement, not transaction-level verification",
+      "unit": "agreement",
+      "quantities": {
+        "agreements": 1
+      },
+      "trial_denominator": null,
+      "limitations": [
+        "Offered assignment finance is not a verified Formic assignment transaction.",
+        "Equity amount is not a debt facility size or a project qualification budget.",
+        "Customer acceptance and pre-acceptance advance eligibility are unknown."
+      ],
+      "model_transition": {
+        "payer_cost_loading": "unidentified",
+        "financing": "offered mechanism or announced relationship; no numeric model calibration"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "advance_rate": null,
+        "recourse": null,
+        "executed_customer_contract": null,
+        "reason": "Actor roles/public offering are identified; actual project obligation payer, permissions and cash terms remain unknown."
+      },
+      "corroborating_source_ids": [
+        "FORMIC-2024"
+      ]
+    },
+    {
+      "id": "TEV-008",
+      "relation_type": "issuer_reported_equity_financing",
+      "source_nodes": [
+        "Series_A_investors"
+      ],
+      "target_node": "Formic_equity_capital",
+      "source_id": "FORMIC-2024",
+      "locator": "Opening Series A financing paragraph; separate Joint Commercial Agreement section",
+      "epistemic_status": "issuer_reported_financing",
+      "metric": "Public statement, not transaction-level verification",
+      "unit": "USD",
+      "quantities": {
+        "additional_Series_A_financing": 27400000
+      },
+      "trial_denominator": null,
+      "limitations": [
+        "Offered assignment finance is not a verified Formic assignment transaction.",
+        "Equity amount is not a debt facility size or a project qualification budget.",
+        "Customer acceptance and pre-acceptance advance eligibility are unknown."
+      ],
+      "model_transition": {
+        "payer_cost_loading": "unidentified",
+        "financing": "offered mechanism or announced relationship; no numeric model calibration"
+      },
+      "unknowns": {
+        "qualification_cost_change": null,
+        "qualification_cost_unit": null,
+        "responsible_payer": null,
+        "commercial_reuse_rights": null,
+        "customer_demand": null,
+        "early_payment_permissions": null,
+        "advance_rate": null,
+        "recourse": null,
+        "executed_customer_contract": null,
+        "reason": "Actor roles/public offering are identified; actual project obligation payer, permissions and cash terms remain unknown."
+      },
+      "observation_date": "2024-06-25"
     }
   ],
   "conditional_full_score_bounds": [

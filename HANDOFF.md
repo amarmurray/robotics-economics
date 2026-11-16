@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-8.
+Handoff ID: theory-christmas-2026-checkpoint-9.
 
-## Current checkpoint: contracting benchmark and incentive-compatible finance
+## Current checkpoint: public RaaS assignment-finance contrast
+
+Continued from accepted `81f4a786bcd55ef068fddad5b886ba620ad30949`, November 16, 2026 UTC. The [RaaS finance source note](research/theory/raas_assignment_evidence.md) inspects Mitsubishi HC Capital America's assignment-financing description and Formic commercial agreement, plus Formic's June 25, 2024 issuer release. The [sparse evidence records](research/theory/evidence_transitions.json) now distinguish offered cash advances, assigned claims, a reported commercial agreement and a reported equity round. Equity is not a receivables facility. Two descriptions of the same agreement are not two transactions.
+
+This is a substantive counterweight to a universal no-transfer premise: a lender publicly describes monetizing eligible service receipts upfront. Actual executed terms, advance rates, recourse, timing relative to acceptance and particular qualification payers remain unknown. Formic reports hourly billing, but the sources do not establish that its customer contracts were assigned under the lender's generic offering. Learning gains and financing edges are not joined into an observed deployment sequence.
+
+Fresh validation: `python scripts/check_qualification_evidence.py` passes the expanded record/source links and preserves all null cost markers and conditional score bounds. Direct raw-HTML acquisition of the first lender page returned 403 and was not retried; accessible Exa full-page extractions were inspected, with no original-byte hash claimed. Exact lender-page publication dates remain unknown. Historical numerical outputs are unchanged.
+
+**Next consequential action:** derive customer demand and billable-receipt responses under a specified hourly contract, compare output pricing/repricing, and check whether retaining an old policy defeats any proposed adverse learning result. Treat collateral advance terms and pre-qualification borrowing as scenarios unless actual contracts identify them. No new empirical calibration or first-paper contribution is selected.
+
+## Previous theory checkpoint 8: contracting benchmark and incentive-compatible finance
 
 Continued from accepted `6156a12493d04227b4dd7ee522c7a08282909bc9`, November 16, 2026 UTC. The [contracting/prior-art audit](research/theory/contracting_and_pledgeability.md) proves the deterministic pooling benchmark: unrestricted enforceable contributions and future profit shares can implement the complete service iff aggregate initial cash covers prerequisites and future operating profit covers investment. Separate ownership alone therefore does not sustain the earlier payment bottleneck.
 
