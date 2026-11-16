@@ -23,3 +23,5 @@ Continuation completed: [Data-Driven Automation transition/spillover reconstruct
 Checkpoint 3: [Stein financing prior-art audit](internal_capital_markets.md) rejects fixed-budget reallocation as a novel claim. [Directional experience threshold](learning_funding_alignment.md) connects learning to qualification bills and supplies an exact equal-total-gain counterexample. Next executed dependency is primary evidence-to-transition mapping for adaptation/qualification cost; the first-paper contribution remains unselected.
 
 Checkpoint 4 (November 16 UTC): primary-source transition slice and conditional rubric bounds completed; full atlas and contribution gates remain pending. Next: separate service eligibility from cost reduction with an explicit acceptance criterion.
+
+Checkpoint 5 (November 16 UTC): eligibility/funding interval and optional-version dominance checked. This supplies a rejected unrestricted conjecture and explicit boundary assumptions, not the integrated November 29 gate or the selected December 6 contribution.

@@ -1,8 +1,16 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-4.
+Handoff ID: theory-christmas-2026-checkpoint-5.
 
-## Current checkpoint: performance evidence and qualification-cost identification
+## Current checkpoint: eligibility and the option to retain a policy
+
+Continued from accepted `4d32c39c7c6f5d050b9e5bd647b4cf2dbf0fb5a9`, November 16, 2026 UTC. The [eligibility/free-disposal note](research/theory/eligibility_and_free_disposal.md) separates technical eligibility from increasing validation obligations. Their intersection is a bounded funding interval in the stated linear model. Mandatory incorporation can lose value; optional incorporation preserves the earlier version and restores weak monotonicity. This rejects an unrestricted harmful-experience claim, not a claim about costly deployment or welfare. The argument is standard feasible-set dominance, not settled novelty.
+
+Fresh check: `python scripts/check_eligibility_free_disposal.py` passes the exact example and 3,744 finite-domain interval/optional-value comparisons. These are synthetic algebra/implementation checks, not empirical estimates. See [self-review](reviews/theory_checkpoint_05.md).
+
+**Next consequential action:** test whether adding costly deployment choice and version retention yields a structure-specific result beyond the existing finance example. If not, retain this as an adversarial boundary and focus the contribution search elsewhere. Empirical priority is policy-version retention rights and repeated validation obligations with actual payer/time records; the current public-source slice does not identify them. No stage acceptance or completion claim changes.
+
+## Previous theory checkpoint 4: performance evidence and qualification-cost identification
 
 Continued from remote-verified `52535371f58e0777019caaaade679db513fc87bf`, November 16, 2026 UTC. The Christmas objective and dates remain unchanged.
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-christmas-checkpoint-4",
+  "snapshot_id": "theory-christmas-checkpoint-5",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-christmas-checkpoint-4",
-      "sha256": "56a47bcd1bd4d39189dd30ef135e606f88a3719340af77cb1e1931d9964c8824"
+      "version": "theory-christmas-checkpoint-5",
+      "sha256": "690a45476aa0a5151b39d11fe5cbb5418c311b18cf5447f646e4db2487e8786b"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3001,8 +3001,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "4d72e42c54f5912d2cd391c895d312cae021ba959625bed28c811e2b45ae0765",
-      "version": "theory-christmas-checkpoint-4"
+      "sha256": "ea17ff477dc184c3862de72d16a8b375348df10671de721555e042f7fd81e7f8",
+      "version": "theory-christmas-checkpoint-5"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3036,8 +3036,8 @@
       "repository_path": "research/theory/milestones.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/milestones.md",
       "name": "milestones.md",
-      "sha256": "f7acda1c6fc00b24c32c2dd07c2f81e8522436320a3e5e8f3ee122e11ee6a931",
-      "version": "theory-christmas-checkpoint-4"
+      "sha256": "f18b2642594d7e231e733742d116a399058475e8837cc6de832c46bf63614b80",
+      "version": "theory-christmas-checkpoint-5"
     },
     {
       "repository_path": "research/theory/organizing_intelligence.md",
@@ -3199,6 +3199,27 @@
       "name": "theory_checkpoint_04.md",
       "version": "theory-christmas-checkpoint-4",
       "sha256": "e7b5588f0707cc80fab16b1efc23aad53606bd343c2ac5134e3a4c6639a1ceac"
+    },
+    {
+      "repository_path": "research/theory/eligibility_and_free_disposal.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/eligibility_and_free_disposal.md",
+      "name": "eligibility_and_free_disposal.md",
+      "version": "theory-christmas-checkpoint-5",
+      "sha256": "8e3398f59f4beecf4efa85d1aac252e7b2546ca5d5384c559c2bb30dc36ed4d0"
+    },
+    {
+      "repository_path": "scripts/check_eligibility_free_disposal.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/check_eligibility_free_disposal.py",
+      "name": "check_eligibility_free_disposal.py",
+      "version": "theory-christmas-checkpoint-5",
+      "sha256": "9460676da376b8f4725b86cac5f8be08939453aba871bfbf25772e2047698ae9"
+    },
+    {
+      "repository_path": "reviews/theory_checkpoint_05.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/theory_checkpoint_05.md",
+      "name": "theory_checkpoint_05.md",
+      "version": "theory-christmas-checkpoint-5",
+      "sha256": "3f6b0474da62dda19eedb2e99887a44503e25c05906eb28da27396569aec8f8a"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
