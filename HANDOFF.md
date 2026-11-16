@@ -1,8 +1,22 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-1.
+Handoff ID: theory-christmas-2026-checkpoint-2.
 
-## Current phase: theoretical mechanism and exact deployment/finance comparison
+## Current checkpoint: capability combinations and payer-specific qualification
+
+Continued from remote-verified **f420d83ad870f908138854d80beb200ae79eeee8**, clean sole-writer checkout. The same [Christmas objective](THEORY_PHASE.md), cutoff and [milestones](research/theory/milestones.md) remain active; no goal reset, extra worker or schedule. Historical acceptance and numerical outputs remain unchanged.
+
+The [third seed audit](research/theory/capability_accumulation.md) inspects Chen–Elliott–Koh's published JET paper and reconstructs its component-bound upper-bound mechanism. Capability/market hypergraphs and recombination are prior art. A market's valued capability set is distinct from an all-required physical qualification bundle.
+
+The [minimal qualification/payment extension](research/theory/qualification_finance.md) proves a standard funding-cut characterization for a fixed bundle using max-flow/min-cut, then supplies an exact two-payer counterexample: cash (5,1) cannot pay obligations (2,2) without a permitted incoming transfer, while (2,2) can. A one-unit pre-service payment restores the higher-cash path. The [analytical phase figure](model/results/qualification_finance_phase.svg) separates regions where that payment changes neither action, changes investment only, or changes the first deployment. Customer output demand and surplus capture determine the thresholds. Separate-firm contracting can reproduce pooled finance in this model; common ownership is not shown necessary.
+
+**Validation:** 13 scoped tests pass (six new funding/phase tests plus seven prior theory tests). The cut test compares explicit small-network flows with cut inequalities; exact rational comparisons preserve funding and demand ties. The result and SVG regenerate deterministically; the preview was visually inspected. See [the checkpoint review](reviews/theory_checkpoint_02.md). These are synthetic conditional findings and standard mathematical reductions, not empirical calibration or a settled original contribution.
+
+**Exact continuation:** the Cambridge published PDF/text and source entry HTML are in ignored `work/theory_sources/`; the source card records URL/hash. Next audit the closest internal-capital-market/financial-constraint literature and connect directional deployment experience to qualification costs/rights. Do not claim legal integration from a finance constraint or rename standard flow theory as novelty. Seed long-run/concentration proofs remain only partially inspected; the empirical atlas remains designed, not built. No all-path blocker exists.
+
+**Next question:** which empirically observable transfer/qualification relation makes the joint production–payment structure predict a different deployment sequence than a conventional constrained-investment model?
+
+## Previous theory checkpoint 1: theoretical mechanism and exact deployment/finance comparison
 
 The governing current objective is [the Christmas theory phase](THEORY_PHASE.md), with [one milestone ledger](research/theory/milestones.md). Final cutoff is **2026-12-25 23:59 America/New_York** (December 26 04:59 UTC). This phase is distinct from the historical November 7–14 campaign below; no old acceptance requirement or deadline was reset. Remote input main was verified at **654e4ff9dbc1e1eb945a8b2734eaf5e058c6fa9a**, with a clean sole-writer checkout. The existing related native goal was updated after the full brief arrived and returned **active**; local operational activation observations are recorded separately from saved instructions. Original activation time is not available. No extra worker or schedule was created.
 

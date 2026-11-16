@@ -1,6 +1,6 @@
 # Robotics economics research roadmap
 
-**Current phase:** [Theory-led Christmas research](THEORY_PHASE.md), with [dated milestones](research/theory/milestones.md), source reconstructions, exact Models A/B and an unresolved contribution/prior-art test. Historical question statuses remain unchanged.
+**Current phase:** [Theory-led Christmas research](THEORY_PHASE.md), with [dated milestones](research/theory/milestones.md), three source-mechanism reconstructions, exact Models A/B, a joint qualification/payment diagnostic with demand thresholds, and an unresolved contribution/prior-art test. Historical question statuses remain unchanged.
 
 **Historical campaign:** [Deployment and Entry Decision Edition](DEPLOYMENT_ENTRY_CAMPAIGN.md), same 7–14 November2026 window. Edition0.43 adds a historical utility project-cost audit, separating funding, reported expenditure, excluded site work, replication indications and realized service value. Fourteen synthetic families remain at241 worlds. Current accepted-service, role-hour, support/rights and all-payer outcomes remain the next empirical dependency; closed access routes remain closed. Full A–K scope and sole writer continue.
 

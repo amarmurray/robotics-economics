@@ -1,0 +1,2055 @@
+{
+  "customer_contract": {
+    "customer": "2",
+    "fee": "14",
+    "gross": "12",
+    "provider": "10",
+    "q": "2",
+    "resource": "4",
+    "revenue": "16",
+    "surplus": "12"
+  },
+  "input": {
+    "a": 10,
+    "b": 2,
+    "capacity": 2,
+    "capture": "5/6",
+    "cash_H": [
+      5,
+      1
+    ],
+    "cash_L": [
+      2,
+      2
+    ],
+    "cost": 2,
+    "obligations": [
+      2,
+      2
+    ]
+  },
+  "phase": {
+    "demand_intercept_bounds": [
+      0,
+      12
+    ],
+    "deployment_demand_threshold": "38/5",
+    "equality_note": "Funding equality is feasible; demand equalities give the stated policy ties",
+    "funding_threshold": "1",
+    "investment_demand_threshold": "32/5",
+    "transfer_capacity_bounds": [
+      0,
+      2
+    ]
+  },
+  "source_sha256": {
+    "model/qualification_finance.py": "f3788dfa51b8d5fb8b55e2e5399cc7e3a5e5f196295c73ec802c386ab492baf4",
+    "model/theory_deployment.py": "ab011a9a461391171c5f2088f7733437d502c714b9b81af5df90c6a0e0e32eee",
+    "research/theory/qualification_finance.md": "5eb49d29a373a3ec110cdbb795210d3f1352ed33d64983f4f36309152491d557",
+    "scripts/plot_qualification_finance.py": "556af62f46a0640397db7ace0062c48c525fc202551b182554213d404bcde13f"
+  },
+  "status": "Synthetic fixed-engineering diagnostic; standard flow theorem, no novelty claim",
+  "units": "Normalized currency and accepted service, two windows, no discount or interest",
+  "worlds": {
+    "above_boundary": {
+      "best": {
+        "after": [
+          "2",
+          "0"
+        ],
+        "commission": true,
+        "cuts": [
+          {
+            "cash": "5",
+            "incoming": "0",
+            "needed": "2",
+            "payers": [
+              0
+            ],
+            "slack": "3"
+          },
+          {
+            "cash": "1",
+            "incoming": "2",
+            "needed": "2",
+            "payers": [
+              1
+            ],
+            "slack": "1"
+          },
+          {
+            "cash": "6",
+            "incoming": "0",
+            "needed": "4",
+            "payers": [
+              0,
+              1
+            ],
+            "slack": "2"
+          }
+        ],
+        "deployment": "H",
+        "feasible": true,
+        "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+        "obligations": [
+          "2",
+          "2"
+        ],
+        "profits": [
+          "5",
+          "5"
+        ],
+        "qualify": true,
+        "terminal": [
+          "7",
+          "5"
+        ],
+        "transfer": "1",
+        "value": "12"
+      },
+      "options": [
+        {
+          "after": [
+            "5",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "2",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "6"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "5",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "6"
+        },
+        {
+          "after": [
+            "4",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "2",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "4",
+            "0"
+          ],
+          "transfer": "1",
+          "value": "4"
+        },
+        {
+          "after": [
+            "3",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "2",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "3",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "2",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "7",
+            "5"
+          ],
+          "transfer": "1",
+          "value": "12"
+        },
+        {
+          "after": [
+            "2",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "2",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "4"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "2",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "0"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "2",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "4"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "0",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "2",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "0"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "5",
+            "5"
+          ],
+          "transfer": "0",
+          "value": "10"
+        }
+      ],
+      "tau": "2"
+    },
+    "at_boundary": {
+      "best": {
+        "after": [
+          "2",
+          "0"
+        ],
+        "commission": true,
+        "cuts": [
+          {
+            "cash": "5",
+            "incoming": "0",
+            "needed": "2",
+            "payers": [
+              0
+            ],
+            "slack": "3"
+          },
+          {
+            "cash": "1",
+            "incoming": "1",
+            "needed": "2",
+            "payers": [
+              1
+            ],
+            "slack": "0"
+          },
+          {
+            "cash": "6",
+            "incoming": "0",
+            "needed": "4",
+            "payers": [
+              0,
+              1
+            ],
+            "slack": "2"
+          }
+        ],
+        "deployment": "H",
+        "feasible": true,
+        "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+        "obligations": [
+          "2",
+          "2"
+        ],
+        "profits": [
+          "5",
+          "5"
+        ],
+        "qualify": true,
+        "terminal": [
+          "7",
+          "5"
+        ],
+        "transfer": "1",
+        "value": "12"
+      },
+      "options": [
+        {
+          "after": [
+            "5",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "1",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "6"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "5",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "6"
+        },
+        {
+          "after": [
+            "4",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "1",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "4",
+            "0"
+          ],
+          "transfer": "1",
+          "value": "4"
+        },
+        {
+          "after": [
+            "3",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "1",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "3",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "1",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "7",
+            "5"
+          ],
+          "transfer": "1",
+          "value": "12"
+        },
+        {
+          "after": [
+            "2",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "1",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "1",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "0"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "1",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "0",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "1",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "0"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "5",
+            "5"
+          ],
+          "transfer": "0",
+          "value": "10"
+        }
+      ],
+      "tau": "1"
+    },
+    "below_boundary": {
+      "best": {
+        "after": [
+          "0",
+          "0"
+        ],
+        "commission": true,
+        "cuts": [
+          {
+            "cash": "2",
+            "incoming": "0",
+            "needed": "2",
+            "payers": [
+              0
+            ],
+            "slack": "0"
+          },
+          {
+            "cash": "2",
+            "incoming": "999/1000",
+            "needed": "2",
+            "payers": [
+              1
+            ],
+            "slack": "999/1000"
+          },
+          {
+            "cash": "4",
+            "incoming": "0",
+            "needed": "4",
+            "payers": [
+              0,
+              1
+            ],
+            "slack": "0"
+          }
+        ],
+        "deployment": "L",
+        "feasible": true,
+        "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+        "obligations": [
+          "2",
+          "2"
+        ],
+        "profits": [
+          "5",
+          "5"
+        ],
+        "qualify": true,
+        "terminal": [
+          "5",
+          "5"
+        ],
+        "transfer": "0",
+        "value": "10"
+      },
+      "options": [
+        {
+          "after": [
+            "5",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "999/1000",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "1999/1000"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "6"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "5",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "6"
+        },
+        {
+          "after": [
+            "4",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "999/1000",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "-1/1000"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": false,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "4",
+            "0"
+          ],
+          "transfer": "1",
+          "value": "4"
+        },
+        {
+          "after": [
+            "3",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "999/1000",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "1999/1000"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "3",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "999/1000",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "-1/1000"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "H",
+          "feasible": false,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "7",
+            "5"
+          ],
+          "transfer": "1",
+          "value": "12"
+        },
+        {
+          "after": [
+            "2",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "999/1000",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2999/1000"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "999/1000",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "999/1000"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "0"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "999/1000",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2999/1000"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "0",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "999/1000",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "999/1000"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "0"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "5",
+            "5"
+          ],
+          "transfer": "0",
+          "value": "10"
+        }
+      ],
+      "tau": "999/1000"
+    },
+    "no_transfer": {
+      "best": {
+        "after": [
+          "0",
+          "0"
+        ],
+        "commission": true,
+        "cuts": [
+          {
+            "cash": "2",
+            "incoming": "0",
+            "needed": "2",
+            "payers": [
+              0
+            ],
+            "slack": "0"
+          },
+          {
+            "cash": "2",
+            "incoming": "0",
+            "needed": "2",
+            "payers": [
+              1
+            ],
+            "slack": "0"
+          },
+          {
+            "cash": "4",
+            "incoming": "0",
+            "needed": "4",
+            "payers": [
+              0,
+              1
+            ],
+            "slack": "0"
+          }
+        ],
+        "deployment": "L",
+        "feasible": true,
+        "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+        "obligations": [
+          "2",
+          "2"
+        ],
+        "profits": [
+          "5",
+          "5"
+        ],
+        "qualify": true,
+        "terminal": [
+          "5",
+          "5"
+        ],
+        "transfer": "0",
+        "value": "10"
+      },
+      "options": [
+        {
+          "after": [
+            "5",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "6"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "5",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "6"
+        },
+        {
+          "after": [
+            "4",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "5"
+            },
+            {
+              "cash": "1",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "-1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": false,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "4",
+            "0"
+          ],
+          "transfer": "1",
+          "value": "4"
+        },
+        {
+          "after": [
+            "3",
+            "1"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "H",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "3",
+            "1"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "5",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "3"
+            },
+            {
+              "cash": "1",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "-1"
+            },
+            {
+              "cash": "6",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "H",
+          "feasible": false,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "7",
+            "5"
+          ],
+          "transfer": "1",
+          "value": "12"
+        },
+        {
+          "after": [
+            "2",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "4"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "4"
+        },
+        {
+          "after": [
+            "2",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                0
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "0",
+            "2"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": false,
+          "terminal": [
+            "2",
+            "0"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "2"
+          ],
+          "commission": false,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "0",
+              "payers": [
+                1
+              ],
+              "slack": "2"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "2"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "0"
+          ],
+          "profits": [
+            "0",
+            "0"
+          ],
+          "qualify": true,
+          "terminal": [
+            "0",
+            "2"
+          ],
+          "transfer": "0",
+          "value": "2"
+        },
+        {
+          "after": [
+            "0",
+            "0"
+          ],
+          "commission": true,
+          "cuts": [
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                0
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "2",
+              "incoming": "0",
+              "needed": "2",
+              "payers": [
+                1
+              ],
+              "slack": "0"
+            },
+            {
+              "cash": "4",
+              "incoming": "0",
+              "needed": "4",
+              "payers": [
+                0,
+                1
+              ],
+              "slack": "0"
+            }
+          ],
+          "deployment": "L",
+          "feasible": true,
+          "note": "Infeasible candidates are arithmetic diagnostics, not executions",
+          "obligations": [
+            "2",
+            "2"
+          ],
+          "profits": [
+            "5",
+            "5"
+          ],
+          "qualify": true,
+          "terminal": [
+            "5",
+            "5"
+          ],
+          "transfer": "0",
+          "value": "10"
+        }
+      ],
+      "tau": "0"
+    }
+  }
+}
