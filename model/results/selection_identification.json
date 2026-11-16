@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "advance_coefficient": "3/5",
+      "cash": "7/5",
+      "cost": "16/5",
+      "development_probability": "3/5",
+      "economic_threshold": "4",
+      "environment": "incremental",
+      "finance_threshold": "3",
+      "learning": "0",
+      "mean_successful_revenue": "7",
+      "observed_threshold": "4",
+      "quality": "4/5",
+      "required_loan": "9/5",
+      "success_state_repayment": "9/4"
+    },
+    {
+      "advance_coefficient": "3/10",
+      "cash": "7/5",
+      "cost": "16/5",
+      "development_probability": "2/5",
+      "economic_threshold": "2",
+      "environment": "novel_high_learning",
+      "finance_threshold": "6",
+      "learning": "12/5",
+      "mean_successful_revenue": "8",
+      "observed_threshold": "6",
+      "quality": "2/5",
+      "required_loan": "9/5",
+      "success_state_repayment": "9/2"
+    },
+    {
+      "advance_coefficient": "3/10",
+      "cash": "7/5",
+      "cost": "16/5",
+      "development_probability": "2/5",
+      "economic_threshold": "5",
+      "environment": "novel_low_learning",
+      "finance_threshold": "6",
+      "learning": "6/5",
+      "mean_successful_revenue": "8",
+      "observed_threshold": "6",
+      "quality": "2/5",
+      "required_loan": "9/5",
+      "success_state_repayment": "9/2"
+    },
+    {
+      "advance_coefficient": "3/5",
+      "cash": "23/10",
+      "cost": "16/5",
+      "development_probability": "3/5",
+      "economic_threshold": "4",
+      "environment": "incremental",
+      "finance_threshold": "3/2",
+      "learning": "0",
+      "mean_successful_revenue": "7",
+      "observed_threshold": "4",
+      "quality": "4/5",
+      "required_loan": "9/10",
+      "success_state_repayment": "9/8"
+    },
+    {
+      "advance_coefficient": "3/10",
+      "cash": "23/10",
+      "cost": "16/5",
+      "development_probability": "7/10",
+      "economic_threshold": "2",
+      "environment": "novel_high_learning",
+      "finance_threshold": "3",
+      "learning": "12/5",
+      "mean_successful_revenue": "13/2",
+      "observed_threshold": "3",
+      "quality": "2/5",
+      "required_loan": "9/10",
+      "success_state_repayment": "9/4"
+    },
+    {
+      "advance_coefficient": "3/10",
+      "cash": "23/10",
+      "cost": "16/5",
+      "development_probability": "1/2",
+      "economic_threshold": "5",
+      "environment": "novel_low_learning",
+      "finance_threshold": "3",
+      "learning": "6/5",
+      "mean_successful_revenue": "15/2",
+      "observed_threshold": "5",
+      "quality": "2/5",
+      "required_loan": "9/10",
+      "success_state_repayment": "9/4"
+    }
+  ],
+  "source_sha256": {
+    "model/selection_identification.py": "3a6f4a5ba25f3ed621fc9f2c9181deab6e5027897c2cd4349faf4b93379bd85c",
+    "research/theory/selection_identification.md": "54b6578b93b0fd0d436eca525d20d496829cc9bdfd4db5a68261f04c87f4f671"
+  },
+  "status": "synthetic population observational equivalence; not empirical identification",
+  "units": "normalized currency; uniform successful revenue on [0,10]"
+}

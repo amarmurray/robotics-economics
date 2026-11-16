@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-10.
+Handoff ID: theory-christmas-2026-checkpoint-11.
 
-## Current checkpoint: contract receipts, customer demand and retention counterexamples
+## Current checkpoint: closest investment theory and a selection-identification candidate
+
+Continued from accepted `4b5dac568125c369cd678fb62ebfc7a7dcf85f7d`, November 16, 2026 UTC. The [Caplin source card](research/theory/staged_discovery_prior_art.md) audits the staged-discovery framework and reconstructs its selected Shannon transform. The broad idea that investments change future capabilities, information and inquiry opportunities is already prior art.
+
+The [selection-identification note](research/theory/selection_identification.md) checks Frankel–Krieger–Li–Papanikolaou's December 2024 revised NBER paper, rather than silently using the May 2023 revision first returned by search. It reconstructs Proposition 3.2's observable threshold diagnostic, then adds an explicit financing gate. In an exact example, opposite economic threshold orderings give identical first-project entry, success, revenue, loans and repayment distributions because the same funding floor binds. A cash change distinguishes the environments. This is not a refutation of the source's diagnostic under its assumptions or an empirical explanation of its drug-development results.
+
+Fresh validation: four tests pass via `python -m unittest tests.test_selection_identification`; [exact results](model/results/selection_identification.json) regenerate with `python -m model.selection_identification`. Tests check observational equivalence, cash variation, direct funding/value inequalities, repayment feasibility and the identified learning-value interval. Selected Caplin log-transform arithmetic was also checked separately. No empirical calibration or general source replication is claimed.
+
+**Next consequential action:** challenge the candidate against constrained-selection/revealed-preference prior art, and determine whether the particular deployment/qualification setting supplies an additional testable restriction. Do not select it as novel just because the exact counterexample works. The empirical counterpart needs an opportunity/rejection denominator and pre-decision cash/credit terms; aggregate deployment announcements cannot identify learning priorities. Sector/workflow atlas construction remains independently unblocked. No stage gate, date or authority changes.
+
+## Previous theory checkpoint 10: contract receipts, customer demand and retention counterexamples
 
 Continued from accepted `8b0d69678afecb483fc068fcdd0d962458c72908`, November 16, 2026 UTC. The [RaaS receipt model](research/theory/raas_receipts.md) derives customer output under hourly billing, a conditional speed interval for receipt-backed qualification finance, and exact output-price/repricing alternatives. The posted-unit-price institution is explicit and differs from the earlier surplus-sharing tariff; the quadratic customer revenue and resource accounting remain consistent.
 

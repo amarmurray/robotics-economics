@@ -35,3 +35,5 @@ Checkpoint 8 (November 16 UTC): perfect-contract benchmark and selected Holmstr√
 Checkpoint 9 (November 16 UTC): sparse technical/financial evidence slices linked by explicit missing relationships; no claimed observed end-to-end learning/financing path. Full sector backbone, contrasted workflow atlas and causal identification remain pending.
 
 Checkpoint 10 (November 16 UTC): responsive-demand RaaS billing diagnostic and five tests complete; pricing and policy-retention counterexamples narrow its claim. This is another small analytical benchmark, not the December main experiment/scope lock or a selected contribution.
+
+Checkpoint 11 (November 16 UTC): additional closest-literature audit, current-version diagnostic reconstruction and conditional financing/selection non-identification example checked. Candidate contribution is under adversarial review, not selected; the broader empirical and release gates remain open.
