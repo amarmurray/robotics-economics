@@ -25,3 +25,5 @@ Checkpoint 3: [Stein financing prior-art audit](internal_capital_markets.md) rej
 Checkpoint 4 (November 16 UTC): primary-source transition slice and conditional rubric bounds completed; full atlas and contribution gates remain pending. Next: separate service eligibility from cost reduction with an explicit acceptance criterion.
 
 Checkpoint 5 (November 16 UTC): eligibility/funding interval and optional-version dominance checked. This supplies a rejected unrestricted conjecture and explicit boundary assumptions, not the integrated November 29 gate or the selected December 6 contribution.
+
+Checkpoint 6 (November 16 UTC): DDA Proposition 5 proof reconstruction and second teach-back packet complete in stated scope. No general-equilibrium numerical replication, independent review, learner completion or whole-stage acceptance is claimed.

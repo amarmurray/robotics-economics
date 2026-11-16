@@ -1,8 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-5.
+Handoff ID: theory-christmas-2026-checkpoint-6.
 
-## Current checkpoint: eligibility and the option to retain a policy
+## Current checkpoint: contagious-automation proof and its physical-entry boundary
+
+Continued from accepted `8478c527633dd1fb14f15b2ea510f2e50e581620`, November 16, 2026 UTC. The [Data-Driven Automation source card](research/theory/data_driven_automation.md) now reconstructs Proposition 5 and its complete Appendix A.2 proof (printed pp.54–60), including the aggregate-data doubling argument and equilibrium factor-price contradiction. It does not audit all existence/regularity results or the other long-run propositions.
+
+The theorem assumes a uniform positive common-length spillover kernel, not merely ordinary reachability. An exact equal-mass block calculation distinguishes these conditions. The robotics extension shows that a permanently unfunded qualification obligation is outside the source economy and can prevent entry despite positive learning links. This is a boundary counterexample, not a refutation of the source or established novelty. [Teach-back 2](research/theory/teach_back_02.md) and its separate solution connect the source proof, payment gate and optional-policy result.
+
+Fresh exact-fraction arithmetic checked the two-step block kernel and the recursive proof coefficient 1/12800; the zero-diagonal periodic-support pattern was checked for powers 1–16, with the general parity argument in the note. No equilibrium simulation or replication of the other source propositions is claimed. Earlier model results are unchanged.
+
+**Next consequential action:** audit the source's time-to-automation result against finite-horizon entry and endogenous contract receipts. Determine whether a defensible timing/finance distinction survives competent contract and policy-retention alternatives; reject an extension that merely inserts a permanent veto. Keep the original Christmas dates and unresolved contribution gate.
+
+## Previous theory checkpoint 5: eligibility and the option to retain a policy
 
 Continued from accepted `4d32c39c7c6f5d050b9e5bd647b4cf2dbf0fb5a9`, November 16, 2026 UTC. The [eligibility/free-disposal note](research/theory/eligibility_and_free_disposal.md) separates technical eligibility from increasing validation obligations. Their intersection is a bounded funding interval in the stated linear model. Mandatory incorporation can lose value; optional incorporation preserves the earlier version and restores weak monotonicity. This rejects an unrestricted harmful-experience claim, not a claim about costly deployment or welfare. The argument is standard feasible-set dominance, not settled novelty.
 
