@@ -1,8 +1,16 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-6.
+Handoff ID: theory-christmas-2026-checkpoint-7.
 
-## Current checkpoint: contagious-automation proof and its physical-entry boundary
+## Current checkpoint: integrated theory and the replication-cost boundary
+
+Continued from accepted `347b28eb172ff732ea7d3e52886c6b9881e0e51a`, November 16, 2026 UTC. The [initial integrated synthesis](research/theory/synthesis.md) connects the seed theories, finance prior art, model ladder, empirical identification limits and rejected claims. This is substantive early synthesis, not completion of the November 22 literature gate or selection of a novel contribution.
+
+The [Organizing Intelligence card](research/theory/organizing_intelligence.md) now reconstructs Proposition 3's Appendix A.2.3 cost/concentration proof. It distinguishes its relaxed concentration measure, cost assumptions and asymptotic market expansion from physical operating-unit and legal ownership claims. A synthetic scale-dependent support-cost extension reverses the one-unit versus replicated-unit ranking. Exact-fraction arithmetic checked the worked example (cost eight versus ten); the general optimum and concentration argument are derived in the note. No empirical support-cost exponent or finite-market equilibrium replication is claimed.
+
+**Next consequential action:** test a competent contracting alternative to the exogenous payment caps. Identify when early contributions and future profit sharing reproduce pooling; only then introduce a justified restriction such as limited pledgeability or noncontractible investment. The first-paper contribution remains unselected. Keep concentration/equilibrium extensions in the broader program unless required for that paper. No dates, schedules or authority changed.
+
+## Previous theory checkpoint 6: contagious-automation proof and its physical-entry boundary
 
 Continued from accepted `8478c527633dd1fb14f15b2ea510f2e50e581620`, November 16, 2026 UTC. The [Data-Driven Automation source card](research/theory/data_driven_automation.md) now reconstructs Proposition 5 and its complete Appendix A.2 proof (printed pp.54–60), including the aggregate-data doubling argument and equilibrium factor-price contradiction. It does not audit all existence/regularity results or the other long-run propositions.
 
