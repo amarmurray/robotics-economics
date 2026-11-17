@@ -3,22 +3,83 @@
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
-  "lease": {"run_id":"interactive-20261117-qualification-bridge","status":"released","expires_at_utc":null},
+  "lease": {
+    "run_id": "auto-20261117T0634-Q1",
+    "status": "active",
+    "expires_at_utc": "2026-11-17T08:04:00Z"
+  },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
-  "schedule_status": "Created and enabled; future execution/tool access not yet verified",
+  "schedule_status": "First unattended run started; substantive publication pending",
   "original_deadline": "2026-12-25T23:59:00-05:00",
   "latest_result": "Derived optimal adaptation allocation for a fixed conservative service rule; linked qualification costs to customer-demand/portfolio model; checked score/cost ranking reversal and ablations.",
-  "validation": {"new_tests":17,"prior_expansion_tests_rerun":18,"scope":"These modules only, not historical full CI or empirical validation"},
-  "read_next": ["research/qualification_bridge_2026_11_17/RESEARCH_NOTE.md","research/qualification_bridge_2026_11_17/evidence_atlas.json","paper/assistant_working_paper.md"],
-  "queue": [
-    {"id":"Q1","priority":1,"kind":"theory","question":"When does embodiment redesign rather than further learning on an existing configuration justify its extra cost and time-to-build?","deliverable":"Small delayed qualification/production comparison with demand expiry, learning and terminal-value counterexamples. Use the new qualification cost program; do not add arbitrary fees to force a result."},
-    {"id":"Q2","priority":2,"kind":"empirical_topology","question":"What does an observed sector-to-sector production backbone add to our task-market opportunity map?","deliverable":"Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges."},
-    {"id":"Q3","priority":3,"kind":"demand_and_contracts","question":"Does the constructive source/investment ranking survive hourly billing, output pricing and customer demand response?","deliverable":"Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives."},
-    {"id":"Q4","priority":4,"kind":"coordination","question":"When does investment in digital coordination dominate more hardware or broader task coverage?","deliverable":"A compact shared-supervision or scheduling model tied to competence/coordination source reconstruction; include correlated exceptions and conventional baseline."},
-    {"id":"Q5","priority":5,"kind":"manufacturing_and_capital","question":"How do manufacturing cost reduction, embodiment specialization and learning transfer change expansion order?","deliverable":"Endogenous investment choice and a falsifying comparative case, not a free cost-learning curve."},
-    {"id":"Q6","priority":6,"kind":"writing_and_teaching","question":"Which mechanism survives and what can Amar independently derive?","deliverable":"Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results."}
+  "validation": {
+    "new_tests": 17,
+    "prior_expansion_tests_rerun": 18,
+    "scope": "These modules only, not historical full CI or empirical validation"
+  },
+  "read_next": [
+    "research/qualification_bridge_2026_11_17/RESEARCH_NOTE.md",
+    "research/qualification_bridge_2026_11_17/evidence_atlas.json",
+    "paper/assistant_working_paper.md"
   ],
-  "portfolio_status": {"theory":"qualification/expansion bridge executed","atlas":"sparse primary-source requirement map, sector backbone not yet extracted","paper":"early substantive segment, not complete draft","learning":"exercise and separate solutions produced","main_contribution":"unselected"},
-  "last_notification": {"key":"20261117-continuation-qualification","content":"Hourly task setup, qualification-cost ranking reversal, tested research package and limitations reported in current conversation."},
-  "known_limitations": ["Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.","Do not re-alert this unchanged limitation.","Scheduled task has not yet demonstrated successful unattended research access."]
+  "queue": [
+    {
+      "id": "Q1",
+      "priority": 1,
+      "kind": "theory",
+      "question": "When does embodiment redesign rather than further learning on an existing configuration justify its extra cost and time-to-build?",
+      "deliverable": "Small delayed qualification/production comparison with demand expiry, learning and terminal-value counterexamples. Use the new qualification cost program; do not add arbitrary fees to force a result."
+    },
+    {
+      "id": "Q2",
+      "priority": 2,
+      "kind": "empirical_topology",
+      "question": "What does an observed sector-to-sector production backbone add to our task-market opportunity map?",
+      "deliverable": "Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges."
+    },
+    {
+      "id": "Q3",
+      "priority": 3,
+      "kind": "demand_and_contracts",
+      "question": "Does the constructive source/investment ranking survive hourly billing, output pricing and customer demand response?",
+      "deliverable": "Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives."
+    },
+    {
+      "id": "Q4",
+      "priority": 4,
+      "kind": "coordination",
+      "question": "When does investment in digital coordination dominate more hardware or broader task coverage?",
+      "deliverable": "A compact shared-supervision or scheduling model tied to competence/coordination source reconstruction; include correlated exceptions and conventional baseline."
+    },
+    {
+      "id": "Q5",
+      "priority": 5,
+      "kind": "manufacturing_and_capital",
+      "question": "How do manufacturing cost reduction, embodiment specialization and learning transfer change expansion order?",
+      "deliverable": "Endogenous investment choice and a falsifying comparative case, not a free cost-learning curve."
+    },
+    {
+      "id": "Q6",
+      "priority": 6,
+      "kind": "writing_and_teaching",
+      "question": "Which mechanism survives and what can Amar independently derive?",
+      "deliverable": "Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results."
+    }
+  ],
+  "portfolio_status": {
+    "theory": "qualification/expansion bridge executed",
+    "atlas": "sparse primary-source requirement map, sector backbone not yet extracted",
+    "paper": "early substantive segment, not complete draft",
+    "learning": "exercise and separate solutions produced",
+    "main_contribution": "unselected"
+  },
+  "last_notification": {
+    "key": "20261117-continuation-qualification",
+    "content": "Hourly task setup, qualification-cost ranking reversal, tested research package and limitations reported in current conversation."
+  },
+  "known_limitations": [
+    "Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.",
+    "Do not re-alert this unchanged limitation.",
+    "Scheduled task has not yet demonstrated successful unattended research access."
+  ]
 }
