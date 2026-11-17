@@ -1,0 +1,23 @@
+{
+  "input_commit": "ef2ef5809eda042903041bac252a52da932da024",
+  "created_on": "2026-11-17",
+  "scope": "Additive takeover checkpoint; not full historical repository validation",
+  "files": [
+    {"path": "OWNERSHIP.md", "sha256": "2b47583cdbb0df3e35aa7f7708cc4318871a6e67e8866066be8a5ddc96e3ce0c", "git_blob_sha1": "155afd9ecf7dd05fa19eb190e6d61518df1b39fc"},
+    {"path": "RESEARCH_NOTE.md", "sha256": "5d592eeee31bdd01e32b84c38918d659abaccb65f0833c91033c85e7f73e65e0", "git_blob_sha1": "9dff6469b69eb5c07ee086565a5f7d2fc87c097a"},
+    {"path": "expansion.py", "sha256": "6c3949faaa9cc1b3d77559033bfe0d079c5b6b3a9029312aa7b1fcd38f5fc47c", "git_blob_sha1": "7fd5c276cb307beb7baad2da62110f155bb4dd9a"},
+    {"path": "test_expansion.py", "sha256": "906572e76cf77a50878f4a509a8a6fda6fb3d3a820145a37247674f86ca55830", "git_blob_sha1": "1be1084caef608c8be107d3574393dcae1b4c018"},
+    {"path": "evidence.json", "sha256": "219f59e742716642a727b9536f1bc5d31e860f475de11e2056f73da615e2973b", "git_blob_sha1": "7e5399733738145eaec3a21ff40338c987d67f4a"}
+  ],
+  "generated_output": {
+    "path": "results.json",
+    "command": "python expansion.py --output results.json",
+    "sha256": "bec5be2bd3bfcc2db4368c0785dbf8912f0d3ac2ee77469aeb0a9f04a6ceb154",
+    "status": "Generated locally and reproduced byte-identically in a fresh directory; regenerate from source in repository"
+  },
+  "validation": {
+    "command": "python -m unittest -v test_expansion",
+    "passed": 18,
+    "scope": "This module only; fresh-directory replay completed; not full-repository CI or independent review"
+  }
+}

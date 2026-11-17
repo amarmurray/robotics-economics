@@ -1,0 +1,101 @@
+{
+  "status": "Sparse primary-source observation slice; not an observed joined production/learning/payment network",
+  "retrieved_on": "2026-11-17",
+  "input_commit": "ef2ef5809eda042903041bac252a52da932da024",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://robotics-transformer-x.github.io/",
+      "title": "Open X-Embodiment",
+      "read_scope": "Project page abstract and model overview",
+      "publication_date": null,
+      "type": "researcher_primary"
+    },
+    {
+      "id": "S2",
+      "url": "https://arxiv.org/abs/2408.14037",
+      "title": "Re-Mix",
+      "read_scope": "Abstract and introduction; not full replication",
+      "first_posted_date": "2024-08-26",
+      "type": "researcher_primary"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.mhccna.com/en-us/about-us/press-release/mitsubishi-hc-capital-america-signs-agreement-leading-robots-service",
+      "title": "Mitsubishi HC Capital America / Formic agreement",
+      "read_scope": "Release text; no executed private contracts",
+      "publication_date": null,
+      "type": "issuer_primary"
+    },
+    {
+      "id": "S4",
+      "url": "https://link.springer.com/article/10.1007/s10479-023-05413-3",
+      "title": "Time-to-build and capacity expansion",
+      "read_scope": "Abstract/introduction only",
+      "publication_date": "2023-06-22",
+      "type": "researcher_primary"
+    }
+  ],
+  "relations": [
+    {
+      "id": "E1",
+      "from": "pooled cross-embodiment datasets",
+      "to": "RT-X policies",
+      "relation": "training_inputs",
+      "status": "source_reported_research_recipe",
+      "source": "S1",
+      "economic_cost": null
+    },
+    {
+      "id": "E2",
+      "from": "cross-platform experience",
+      "to": "evaluated RT-X target policies",
+      "relation": "reported_positive_transfer",
+      "status": "source_reported_evaluation",
+      "source": "S1",
+      "qualification_cost_effect": null
+    },
+    {
+      "id": "E3",
+      "from": "Re-Mix data weighting",
+      "to": "evaluated downstream policy performance",
+      "relation": "data_selection_effect",
+      "status": "source_reported_evaluation",
+      "source": "S2",
+      "customer_profit_effect": null
+    },
+    {
+      "id": "E4",
+      "from": "Formic",
+      "to": "manufacturing customers",
+      "relation": "described_design_deployment_support_service",
+      "status": "issuer_description",
+      "source": "S3",
+      "accepted_site_output": null
+    },
+    {
+      "id": "E5",
+      "from": "Mitsubishi HC Capital America",
+      "to": "Formic",
+      "relation": "announced_commercial_agreement",
+      "status": "issuer_reported_agreement",
+      "source": "S3",
+      "executed_project_advance_terms": null
+    },
+    {
+      "id": "E6",
+      "from": "evaluated_policy_transfer",
+      "to": "industrial_qualification_cost_reduction",
+      "relation": "required_model_bridge",
+      "status": "unidentified_hypothesis",
+      "source": null,
+      "effect": null
+    }
+  ],
+  "do_not_infer": [
+    "No observed Formic use of RT-X or Re-Mix is established.",
+    "No benchmark score is a qualification-cost estimate.",
+    "These sources do not calibrate synthetic parameters.",
+    "No executed end-to-end transfer-finance-entry sequence is observed."
+  ]
+}
