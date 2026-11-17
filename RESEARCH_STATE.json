@@ -4,10 +4,10 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
-    "run_id": "interactive-20261117-theory-integration",
-    "status": "released",
-    "expires_at_utc": "2026-11-17T16:25:00Z",
-    "reason": "Integrated theoretical manuscript, proofs, countermodels, code and teaching completed and checked for publication in this commit"
+    "run_id": "auto-20261117T1629Z-integrated-joint-events",
+    "status": "active",
+    "expires_at_utc": "2026-11-17T17:22:00Z",
+    "reason": "Single-writer integrated theory: joint qualification events and partially productive states"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -93,5 +93,5 @@
     "key": "20261117-integrated-theory-user-request",
     "content": "Current interactive response reports sustained-theory approach change, 20-page integrated draft, economically productive qualification order, demand feedback and adaptive-retention correction. Do not repeat these as a new hourly finding."
   },
-  "execution_note": "Input and lease verified; code/test/manuscript Git blobs match locally validated files; 42 tests and fresh-directory replay passed; final publication is normal fast-forward CAS with released state. Prompt updated without cadence changes. No main write, other worker, outreach, public release or old-workspace recovery. Next run continues the same theoretical investigation and its empirical bridge."
+  "execution_note": "Exclusive integrated-theory run working from c285a4bd18c0f414e59ebf4f3937d4506bee349d; test joint qualification and partially productive intermediate states before coherent publication; source branch unchanged outside state-only lease."
 }
