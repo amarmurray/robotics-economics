@@ -5,24 +5,24 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T1133Z-Q8",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T12:33:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q7: exact three-channel (manufacturer real cost/invoice pass-through, field reuse/qualification, customer access/demand) deployment sequence. Hybrid S finance threshold kappa+delta>=5/3; strict choice threshold >9/5, with full-rights destination-demand threshold a>93/8 in binding region. 15 new scoped tests and fresh-directory byte-identical replay. Primary Jabil/Apptronik/DHL organizational evidence separated from unidentified cost/rights/paid-service coefficients; no novelty or calibration claim.",
+  "latest_result": "Q8: within-platform unloading vs case picking source-backed workflow contrast; sharp Frechet bounds show 95% marginal pick success yields 85–95% complete three-leg success under unknown dependence, straddling exact synthetic customer/qualification entry threshold (6-sqrt(6))/4~0.88763. Product marketing, reported unloading, MOU, received case, complete order, payment and causal transfer kept distinct. 18 new exact scoped tests passed and validated git blob SHAs match locally tested code.",
   "validation": {
-    "new_tests": 15,
-    "scope": "Q7 test_cross_layer.py from verified Git blob, exact Fractions; source/evidence ledger integrity checks; byte-identical fresh-directory results.json",
+    "new_tests": 18,
+    "scope": "Q8 test_workflow.py exact rational/conditional model checks plus source-ledger integrity; source and tests git blob IDs match locally tested files; result regenerated locally; no full CI",
     "historical_repository_suite": "not_run",
     "git_source_blob_verified": true,
     "git_test_blob_verified": true
   },
   "read_next": [
-    "research/cross_layer_2026_11_17/RESEARCH_NOTE.md",
-    "research/cross_layer_2026_11_17/EVIDENCE.json",
-    "paper/cross_layer_segment.md"
+    "research/workflow_q8_2026_11_17/RESEARCH_NOTE.md",
+    "research/workflow_q8_2026_11_17/EVIDENCE.json",
+    "paper/workflow_acceptance_segment.md"
   ],
   "queue": [
     {
@@ -94,14 +94,23 @@
       "kind": "workflow_empirics",
       "question": "What auditable source-target physical-workflow evidence separates field-learning transfer from new service qualification, demand response and customer paid terms?",
       "deliverable": "Matched unloading-to-case-picking or manufacturing site task comparison with explicit site capability/acceptance, validation effort, alternative process and payer records; add independent negative control, source dates and limits.",
+      "status": "source_grounded_workflow_and_partial_identification_completed",
+      "remaining": "Matched order-level observed joint failure, source-data exposure, qualification costs and paid receipts still absent. Next compare evidence acquisition versus incumbent fleet expansion; no repetitive 95%-success toy."
+    },
+    {
+      "id": "Q9",
+      "priority": 1,
+      "kind": "qualification_experiment_and_capital_allocation",
+      "question": "When should a deployer invest in learning whether a multi-service configuration meets complete customer acceptance, versus expanding an established unloading fleet?",
+      "deliverable": "Two-period exact value-of-information model with target order complete-service uncertainty, validation sample budget, incumbent investment, customer demand and finance. Prioritize an observed event-level panel, challenge prior art and avoid imposed probabilities.",
       "status": "next_unblocked"
     }
   ],
   "portfolio_status": {
-    "theory": "Q7 exact two-gate rights/learning/demand joint sequencing result; source scores synthetic; prior-art novelty open",
-    "atlas": "Q7 seven dated primary source records and ten typed observed/hypothesized edges; no observed joined manufacturing-data-customer panel or numeric BEA backbone",
-    "paper": "Q7 draft segment connects typed multipayer learning and source-choice thresholds, centered on falsifiable evidence rather than financial veto",
-    "learning": "Q7 Teach-back 06 with separate solutions and reproducible exact model",
+    "theory": "Q8 full-service acceptance partial identification and conditional synthetic entry result layered onto Q7 multi-payer mechanisms",
+    "atlas": "Q8 within-platform unloading-to-case-picking source relationships, accepted-workflow topology and outside alternatives; no BEA numeric network or causal joint field panel",
+    "paper": "Q8 acceptance-hyperedge segment alongside Q7 source/field/manufacturer financing, still not integrated first draft",
+    "learning": "Q8 teachback 07 with separate solutions and 18 exact scoped tests",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -116,5 +125,5 @@
     "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified.",
     "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing."
   ],
-  "execution_note": "Q7 bounded tranche completed with 15 scoped tests, source/test Git blobs verified against clean-directory executed copies and byte-identical replay, primary-source ledger and manuscript/learning updates. Branch preserved, lease released. Next Q8 workflow evidence and Q6 synthesis integration; do not rerun Q7 toys."
+  "execution_note": "Q8 bounded tranche completed under exclusive branch lease. Evidence and research paper segment committed. Reproduction: cd research/workflow_q8_2026_11_17; python workflow.py; python -m unittest -v test_workflow. Original main and inaccessible Codex remain untouched; lease released. Next Q9 bounded value-of-information vs incumbent capacity with empirical panel search, no repeat synthetic source score."
 }

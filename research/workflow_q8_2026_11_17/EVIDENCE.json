@@ -1,0 +1,247 @@
+{
+  "status": "Source-grounded workflow topology; no observed matched transfer, complete order outcome, qualification cost or paid receipt panel",
+  "observed_on": "2026-11-17",
+  "source_vintage_note": "DHL 2025 MOU is dated; undated contemporary product pages must not be assigned that publication date",
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "DHL",
+      "publication_date": "2025-05-13",
+      "url": "https://group.dhl.com/en/media-relations/press-releases/2025/dhl-group-signs-mou-with-boston-dynamics-and-accelerates-cross-business-automation-strategy.html",
+      "scope": "commercial unloading and MOU target"
+    },
+    {
+      "id": "S2",
+      "publisher": "Boston Dynamics",
+      "publication_date": null,
+      "url": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+      "scope": "conveyor handoff, multipick, sorting"
+    },
+    {
+      "id": "S3",
+      "publisher": "Boston Dynamics",
+      "publication_date": null,
+      "url": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+      "scope": "marketed mixed-SKU order building and WMS integration"
+    },
+    {
+      "id": "S4",
+      "publisher": "Boston Dynamics",
+      "publication_date": null,
+      "url": "https://bostondynamics.com/blog/taking-mobile-case-handling-beyond-the-container/",
+      "scope": "product manager proposed multi-location case-picking workflow"
+    },
+    {
+      "id": "S5",
+      "publisher": "Boston Dynamics",
+      "publication_date": null,
+      "url": "https://bostondynamics.com/case-studies/stretch-helps-gap-inc-deliver-for-its-customers/",
+      "scope": "named unloading site, scanner label orientation"
+    },
+    {
+      "id": "S6",
+      "publisher": "Boston Dynamics",
+      "publication_date": null,
+      "url": "https://bostondynamics.com/case-studies/stretch-improves-safety-and-throughput-for-arvato/",
+      "scope": "named unloading site with separate existing scan/sort/pallet"
+    },
+    {
+      "id": "S7",
+      "publisher": "Dematic",
+      "publication_date": null,
+      "url": "https://www.dematic.com/en-us/solutions/suite-of-intralogistics-systems/case-pick-systems/",
+      "scope": "voice-directed/higher automation outside option"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "source": "S1",
+      "from": "DHL",
+      "to": "Stretch unloading",
+      "relation": "commercial case unloading",
+      "status": "issuer_reported_operational",
+      "unobserved": {
+        "up_to_cases_per_hour": 700,
+        "accepted_receiving_rate": null,
+        "paid_contract": null
+      }
+    },
+    {
+      "id": "R2",
+      "source": "S1",
+      "from": "DHL",
+      "to": "Stretch case picking",
+      "relation": "MOU expansion plan",
+      "status": "issuer_reported_intention",
+      "unobserved": {
+        "accepted_order_rate": null,
+        "realized_installations": null
+      }
+    },
+    {
+      "id": "R3",
+      "source": "S2",
+      "from": "Stretch unloading",
+      "to": "inbound conveyor",
+      "relation": "box lift and release",
+      "status": "vendor_described_workflow",
+      "unobserved": {
+        "scan_acceptance": null
+      }
+    },
+    {
+      "id": "R4",
+      "source": "S5",
+      "from": "Gap inbound cartons",
+      "to": "downstream scanner",
+      "relation": "label orientation integration",
+      "status": "vendor_reported_named_site",
+      "unobserved": {
+        "scanner_acceptance_rate": null
+      }
+    },
+    {
+      "id": "R5",
+      "source": "S4",
+      "from": "mixed-case order request",
+      "to": "roaming multi-location picks",
+      "relation": "case selection and pallet formation",
+      "status": "vendor_described_target",
+      "unobserved": {
+        "joint_order_success": null
+      }
+    },
+    {
+      "id": "R6",
+      "source": "S3",
+      "from": "Stretch case picking",
+      "to": "WMS/Orbit and palletized order",
+      "relation": "marketed service",
+      "status": "vendor_marketed_function",
+      "unobserved": {
+        "named_DHL_accepted_order_panel": null
+      }
+    },
+    {
+      "id": "R7",
+      "source": "S7",
+      "from": "voice-directed worker",
+      "to": "mixed-case customer orders",
+      "relation": "competing process",
+      "status": "vendor_described_outside_option",
+      "unobserved": {
+        "same_site_cost": null
+      }
+    },
+    {
+      "id": "R8",
+      "source": "S6",
+      "from": "Arvato inbound unload",
+      "to": "scanner sorter pallet system",
+      "relation": "joined process at named warehouse",
+      "status": "vendor_reported_named_site",
+      "unobserved": {
+        "qual_cost": null
+      }
+    },
+    {
+      "id": "R9",
+      "source": "S3",
+      "from": "Stretch hardware",
+      "to": "mixed SKU target",
+      "relation": "marketed physical case-picking capability",
+      "status": "vendor_marketed_function",
+      "unobserved": {
+        "transfer_estimate": null
+      }
+    },
+    {
+      "id": "H1",
+      "source": null,
+      "from": "source unloading experience",
+      "to": "target qualification cost",
+      "relation": "hypothesized directed field-data transfer",
+      "status": "unidentified_hypothesis",
+      "unobserved": {
+        "rights": null,
+        "cost_effect": null
+      }
+    },
+    {
+      "id": "H2",
+      "source": null,
+      "from": "target accepted pallets",
+      "to": "DHL customer payments",
+      "relation": "hypothesized commercial receipts",
+      "status": "unidentified_hypothesis",
+      "unobserved": {
+        "fee": null,
+        "alternative": null
+      }
+    },
+    {
+      "id": "H3",
+      "source": null,
+      "from": "per-component target success",
+      "to": "accepted full target order",
+      "relation": "unmeasured joint dependence",
+      "status": "unidentified_hypothesis",
+      "unobserved": {
+        "joint_probability": null
+      }
+    }
+  ],
+  "service_nodes": [
+    {
+      "id": "unload",
+      "steps": [
+        "trailer access",
+        "case detection/grasp",
+        "conveyor placement",
+        "scan/sort/receiving acceptance"
+      ],
+      "unit": "accepted received carton or matched trailer service"
+    },
+    {
+      "id": "case_pick",
+      "steps": [
+        "WMS order and SKU set",
+        "route locations",
+        "correct case selection and quantities",
+        "stable palletized order",
+        "WMS confirmation and deadline"
+      ],
+      "unit": "accepted completed order"
+    },
+    {
+      "id": "outside_option",
+      "steps": [
+        "human voice picking or fixed automation",
+        "order consolidation",
+        "correct dispatch"
+      ],
+      "unit": "same customer service under matched constraint"
+    }
+  ],
+  "negative_control": "Gap Label Sense demonstrates lift-to-scanner acceptance edge inside unloading, with no disclosed probability or causal transfer estimate",
+  "do_not_infer": [
+    "Up to 700 unloaded cases per hour is not an observed completed picking-order rate or mean receiving acceptance",
+    "A marketed target product does not establish a realized paid DHL case picking deployment",
+    "No source-to-target acceptance improvement, field-data usage right, validation cost or fee amount is observed",
+    "The 95 percent marginal success rates and all economic quantities in the toy are synthetic, not extracted from sources"
+  ],
+  "priority_measurements": [
+    "site and robot/policy/version",
+    "SKU/line-count distribution",
+    "component and whole-order joint failures",
+    "accepted complete pallet at deadline",
+    "WMS acknowledgement",
+    "corrective staff minutes",
+    "source-experience assignment and data rights",
+    "qualification and verification effort",
+    "matched alternative",
+    "invoice and collected fee",
+    "rejected opportunities and current credit"
+  ]
+}

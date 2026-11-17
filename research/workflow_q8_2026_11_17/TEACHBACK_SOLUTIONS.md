@@ -1,0 +1,7 @@
+# Teach-back 07 — Solutions
+
+1. Since failure union probability is at most 3*0.05, complete order success is at least 0.85. It cannot exceed any leg's 0.95 success, so the upper bound is 0.95. Disjoint 5%-failure sets attain the lower bound; identical 5%-failure sets attain the upper.
+2. Under independence, g=(19/20)^3=6859/8000=0.857375. Observed maximum movements of cartons from trailers say nothing about joint completion of an outbound multi-line customer order or matched site throughput.
+3. At A=4, G=48g-12-16g². Entry requires G>18, so 16g²-48g+30<0. In the increasing, capacity-binding domain g>(6-sqrt(6))/4≈0.8876276. Independent legs have g≈0.8574 and do not meet it. The unconstrained optimum is above A=4 at that value, so using the binding branch is consistent.
+4. The former is a public product claim, not observed customer acceptance, data-use rights or a controlled intervention. Need target order identifiers and SKU mix, joint failures, accepted whole orders, site/hardware/policy/date, source-training exposure and rights, adaptation/validation labor, manual/other robot alternative, payment obligations, demand and rejected opportunities.
+5. At g=.95, joint incremental operating surplus is G-Pi0=19.16-16=3.16. If provider capture drops to .5, it receives 1.58 before qualification cost 2, and declines entry. Technical capacity alone does not set the price the provider can capture.

@@ -14,3 +14,7 @@ python -m unittest -v test_expansion
 ```
 
 Next research question: how does a measured source-to-target capability improvement alter the effort to qualify the same target service, and which destination customer economics justify buying that expansion rather than more incumbent capacity? Maintain that constructive focus alongside the preserved financing-identification branch.
+
+## Q8: physical workflow acceptance and target-learning evidence
+
+November 17, 2026: [Q8 research note](research/workflow_q8_2026_11_17/RESEARCH_NOTE.md) derives a sharp whole-service acceptance interval from known component reliabilities and connects it to final customer demand, rework, outside alternatives, captured cash and qualification cost. A three-leg 95% marginal-success example yields 85%-95% complete-order success, straddling a synthetic investment boundary. This is a standard probabilistic bound with an economic illustration, not an original proof or calibrated robot outcome. DHL/Boston Dynamics unloading, current case-picking marketing and customer-site scan dependencies are source-separated; the actual transferred learning effect, paid orders and validation costs are unknown. Exact Python model, 18 scoped tests, source map, paper segment and teach-back/solution are in the Q8 directory. Next: Q9 qualification evidence acquisition versus incumbent capacity investment, plus real order-level observations. Preserve the original calendar and one-writer rule.
