@@ -5,23 +5,21 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T0731-Q2",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T09:00:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q1 embodiment timing: analytical capacity-weighted demand erosion switching condition, exact synthetic redesign/software/incumbent policy changes, source-grounded hardware and investment timing contrast. No empirical calibration/novelty.",
+  "latest_result": "Q2: Constructive non-identification result: identical synthetic sector IO/labor accounts admit opposite qualified robot markets, with exact conditional Leontief demand propagation. Eight scoped tests; BEA accounting sources checked; observed numeric BEA graph blocked and not claimed.",
   "validation": {
-    "new_tests": 18,
-    "qualification_tests_rerun": 17,
-    "prior_expansion_tests_rerun": 18,
-    "scope": "Python 3.10+ standard-library modules; source files verified against exact Git blob SHAs; not historical full CI"
+    "new_tests": 8,
+    "scope": "exact synthetic sector IO model; fresh Python unittest run; historical repository suite not run"
   },
   "read_next": [
-    "research/embodiment_timing_2026_11_17/RESEARCH_NOTE.md",
-    "research/embodiment_timing_2026_11_17/evidence.json",
-    "paper/embodiment_timing_segment.md"
+    "research/sector_identification_2026_11_17/RESEARCH_NOTE.md",
+    "research/sector_identification_2026_11_17/evidence.json",
+    "paper/sector_network_identification_segment.md"
   ],
   "queue": [
     {
@@ -39,14 +37,16 @@
       "kind": "empirical_topology",
       "question": "What does an observed sector-to-sector production backbone add to our task-market opportunity map?",
       "deliverable": "Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges.",
-      "status": "next_unblocked"
+      "status": "analytical_measurement_checkpoint_completed; empirical_backbone_open",
+      "remaining": "Official numeric BEA use/supply file not accessible via current channels; import only after a verifiable source route emerges"
     },
     {
       "id": "Q3",
-      "priority": 3,
+      "priority": 1,
       "kind": "demand_and_contracts",
       "question": "Does the constructive source/investment ranking survive hourly billing, output pricing and customer demand response?",
-      "deliverable": "Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives."
+      "deliverable": "Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives.",
+      "status": "next_unblocked"
     },
     {
       "id": "Q4",
@@ -72,8 +72,8 @@
   ],
   "portfolio_status": {
     "theory": "qualification/expansion bridge and embodiment-delay switching proof checked; broader endogenous network theory open",
-    "atlas": "source-backed design/timing contrast; BEA observed sector backbone still not extracted",
-    "paper": "two substantive segments; main paper contribution still unselected",
+    "atlas": "BEA source semantics verified and sector-to-task nonidentification counterexample checked; NO observed numeric BEA backbone yet; source access unresolved.",
+    "paper": "Two prior substantive segments plus sector-network measurement/identification segment; contribution unselected.",
     "learning": "teach-back exercises with separate solutions for qualification and embodiment timing",
     "main_contribution": "unselected"
   },
@@ -85,6 +85,7 @@
     "Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.",
     "Do not re-alert this unchanged limitation.",
     "Scheduled task has not yet demonstrated successful unattended research access.",
-    "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag."
+    "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag.",
+    "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access."
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "tranche": "Q2-sector-identification-2026-11-17",
+  "input_head": "60e0dfe9ed23123e6870c5aeff65a17d833e87fe",
+  "observed_bea_numeric_edges": 0,
+  "model_matrix_elements": 9,
+  "status": "synthetic_nonidentification_result; observed_BEa_sector_backbone_UNBUILT",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.bea.gov/resources/guide-interactive-industry-input-output-accounts-tables",
+      "class": "primary_account_definitions",
+      "numeric_extraction": false
+    },
+    {
+      "id": "S2",
+      "url": "https://www.bea.gov/data/industries/input-output-accounts-data",
+      "class": "primary_program",
+      "numeric_extraction": false
+    },
+    {
+      "id": "S3",
+      "url": "https://www.bea.gov/itable/input-output",
+      "class": "primary_release_interface",
+      "numeric_extraction": false
+    },
+    {
+      "id": "S4",
+      "url": "https://www.bls.gov/emp/data/input-output-matrix.htm",
+      "class": "official_BEA_derived_dataset",
+      "historical_years": "1997-2025",
+      "projections": "2035",
+      "download": "binary_inaccessible"
+    },
+    {
+      "id": "S5",
+      "url": "https://inputoutput.heterodata.org/data",
+      "class": "third_party_mirror",
+      "download": "HTTP_530"
+    }
+  ],
+  "verified_tests": 8,
+  "execution": "python -m unittest -v test_sector_bridge",
+  "limitation": "No official numeric use/supply observations; model output is synthetic, not calibration",
+  "next": "Q3 hourly/output pricing with endogenous demand and qualified embodiment timing; BEA acquisition revisit only with altered access"
+}

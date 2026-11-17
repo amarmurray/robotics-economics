@@ -1,0 +1,7 @@
+# Teach-back 03: solutions
+
+1. Economy 1: manufacturing eligible=30/retained=10, health eligible=10/retained=30. Economy 2 swaps them. Both show total 40 each. A customer accepts where 30−15=15>0, rejects where 10−15<0. Provider profit conditional on sale is 15−12=3.
+2. Supplier-row intermediate sales sum to (45,30,25): final demand=(55,70,75). Purchasing-industry column intermediate inputs sum to (20,45,35): value added=(80,55,65). Each reconciles gross output 100 but does not identify any physical workflow.
+3. \`Δx=(I−A)^{-1}Δy\` where \`A_ij=Z_ij/x_j\` is well-defined in a square symmetric industry system and \`ρ(A)<1\`. Raw BEA use is commodity×industry with final demand and separate valuation; industry×industry coefficients require a make/supply transformation and assumptions.
+4. Because monetary sector flows do not identify accepted complete service, avoidable labor, retained human work, qualified robotics capacity, integration cost, customer output demand, sale price or provider capture. A site-level measured comparator, qualification record and matched economic contract could change the ranking.
+5. A matched accepted-service cost study showing manufacturing has >15 truly avoidable cost and health <15 (or vice versa), under equal service and full retained-work accounting, rules out the opposite partition. Occupation wage totals or promotional demonstrations alone do not.
