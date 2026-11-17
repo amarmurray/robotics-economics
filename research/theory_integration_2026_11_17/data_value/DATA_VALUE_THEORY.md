@@ -1,0 +1,256 @@
+# When Data Becomes Valuable Production
+## Transfer, dataset interactions, and demand-conditioned acquisition
+
+**Continuation of _When Capabilities Become Production_ — November 17, 2026.**
+Input accepted research revision: `935edab4a7761c8fe6402e1c256f79958c2ab8bc`.
+
+This is part of the existing integrated theoretical investigation, not a new Q-numbered miniature paper. It redirects the immediate inquiry from increasingly elaborate financing contracts to the economics of data transfer. All previous work and the December 25 research target are retained. The results below are conditional mathematical derivations; neither empirical calibration nor publication novelty is claimed.
+
+## 1. The question and its relation to Data-Driven Automation
+
+**Which data should a robotics enterprise acquire, from which deployments or experiments, when its value depends jointly on technical transfer, the data already available, and the production opportunities it can unlock?**
+
+Farboodi, Koh and Xia's _Data-Driven Automation_ supplies an important starting point: production generates task-specific data, a directed spillover operator maps those stocks into effective target data, and changing productivity affects production. Its planner problem already prices the future value of data and changes production accordingly. Its Appendix B explicitly considers complementary data aggregation and overlapping sector/task structures. Those ideas are prior art, not additions we can claim merely by naming them. [S1]
+
+This continuation instead gives a concrete enterprise-level bridge between heterogeneous sources and the qualified-production value function already developed in the manuscript. It separates **technical interaction in learning** from **economic interaction in production**, derives their implications for data selection, and solves an acquisition problem with customer-dependent optimal mixtures.
+
+A fixed positive transfer matrix is a benchmark, not our entire research ontology. Data can include deployment trajectories, failures and recoveries, teleoperation, targeted demonstrations, simulation, synthetic rollouts, and public or pretrained representations. Those are distinct inputs, not interchangeable trajectory counts. No one source is assumed to be universally best.
+
+## 2. Reuse the operating model rather than attach a price to data
+
+Let E be a finite set of candidate persistent qualifications. For a realized subset A of newly acquired qualifications and a customer/resource state omega, define
+
+    f(A; omega) = V(Q union A; omega) - V(Q; omega).
+
+V is the optimized production contribution from the existing manuscript, including feasible human/specialist alternatives, customer demand, scarce physical and organizational resources, and accepted complete-service recipes. It can represent provider-capturable contribution under an explicit contract, or a declared joint-business objective; these must not be interchanged silently. Gross revenue is not profit.
+
+The old operating plan remains feasible when a qualification is added. Therefore f is normalized and monotone, but need not be additive, submodular, or supermodular. A new skill may start a productive reassignment chain, complete a complementary service, or compete with another skill for the same scarce machine. Demand and available embodiments can change f without changing any dataset.
+
+Index data sources by s and qualifications by i. Let n_s be usable source exposure purchased or collected, after declaring its units, rights and preprocessing. Condition initially on a particular training architecture, compute allocation, embodiment and evaluation protocol. The benchmark learning technology is
+
+    z_i(n) = d_i + sum_s T_is n_s,
+    p_i(n) = 1 - exp(-z_i(n)),
+
+where d_i >= 0 is baseline effective exposure and T_is >= 0. T has qualifications as rows and sources as columns. It is not a matrix of economic prices. It is also not an estimate derived from task similarity.
+
+For the first results, qualification outcomes are independent conditional on n and this fixed training configuration. This is a substantive assumption. These probabilities describe whether a development program produces qualifying configurations, not independent errors on every robot movement.
+
+Define the expected gross economic value of the data portfolio by
+
+    F(n; omega) = E[f(A(n); omega)].
+
+Data-acquisition, training and deployment expenditures are subtracted in the investment problem, not disguised as part of a purported intrinsic data price. Current production profit is counted once; future data value belongs in the continuation value.
+
+## 3. A source's value is the product of technical transfer and conditional economic usefulness
+
+For a qualification i, write Delta_i f(B) = f(B union {i}) - f(B), where B excludes i. Let
+
+    m_i(p; omega) = E[Delta_i f(A_-i; omega)].
+
+This is the economic gain from i, averaged over the other qualification outcomes. It is not the gain from i in isolation with every other candidate forced to fail.
+
+### Proposition D1: Marginal data-value decomposition
+
+Under the benchmark above,
+
+    dF/dn_s = sum_i T_is (1-p_i) m_i.
+
+**Proof.** Expand F over all 2^|E| realized subsets. It is affine in each probability p_i when the others are fixed; its partial derivative with respect to p_i is exactly m_i. The chain rule and dp_i/dn_s = T_is(1-p_i) give the result. The finite sum needs no exchange of infinite limits. QED.
+
+For general differentiable conditional qualification probabilities p_i(n), replace T_is(1-p_i) by dp_i/dn_s. The conditional-independence requirement remains; correlated outcomes require the derivative of the full joint distribution.
+
+Three distinct objects therefore enter a source's value:
+
+- its effect on each relevant qualification;
+- how close that qualification is to saturation under the particular learning technology;
+- what that qualification contributes given the other capabilities and the customer's production opportunities.
+
+The third term incorporates scarcity and commercial opportunity, not just a wage attached to one task. A source can reach many technically related targets yet have little economic value if those targets are already covered or cannot change accepted production. Another source can be highly valuable by resolving one missing complement. This statement does not authorize assigning arbitrary values to unresolved future markets.
+
+This is an application of the multilinear-extension derivative and the chain rule, not a new mathematical differentiation theorem. Its role is to make the economic valuation object explicit and testable. [S5]
+
+## 4. Why two datasets may complement or substitute for one another
+
+For i != j, define the expected production interaction
+
+    C_ij = E[f(B union {i,j}) - f(B union {i})
+             - f(B union {j}) + f(B)],
+
+where B contains random qualifications other than i and j.
+
+### Proposition D2: Exact source-interaction decomposition
+
+For sources s and t,
+
+    d2F/(dn_s dn_t)
+      = sum_(i != j) T_is T_jt (1-p_i)(1-p_j) C_ij
+        - sum_i T_is T_it (1-p_i) m_i.
+
+**Proof.** Differentiate Proposition D1. Differentiating (1-p_i) gives the negative second term. The dependence of m_i on each other probability p_j gives C_ij times dp_j/dn_t, producing the first term. QED.
+
+The negative term is **exhaustion of overlapping technical targets**: two sources can partly duplicate the same qualification improvement. The first term is **interaction through production**: improving one qualification changes the economic usefulness of another.
+
+If f has diminishing set returns (submodularity), every C_ij <= 0. Because monotonicity gives m_i >= 0, every source cross-partial is nonpositive. Thus F has continuous diminishing returns in nonnegative data directions under this acquisition technology. This is not a claim of global concavity under every possible budget-preserving direction; it is the stated derivative-sign result. It also does not justify greedy optimization when f is not submodular.
+
+If qualifications are productive complements, the first term can dominate the overlap term. Even though every individual p_i has diminishing returns, two data sources can be economic complements. Their sign need not remain fixed over different customer states or data stocks.
+
+### The simplest revealing case
+
+A service worth W requires two qualifications, each improved by a separate source:
+
+    p_1 = 1-exp(-x),   p_2 = 1-exp(-y),
+    F(x,y) = W(1-exp(-x))(1-exp(-y)).
+
+Then F_xy = W exp(-x-y) > 0. Either source has zero marginal economic value at the origin if the other is absent, yet a positive two-source bundle has positive value. A rule that discards every source with zero isolated value would reject both inputs. This specializes the manuscript's productive-bundle result to dataset acquisition; it is not a new assertion that products of probabilities exist.
+
+### A different mechanism: technical grounding complementarity
+
+Suppose one target qualification instead has the hypothetical technology
+
+    p(x,y) = 1-exp(-xy),
+
+where x is source experience and y is target grounding or alignment effort. With a single qualification worth W, production itself has no multi-qualification complementarity. Nevertheless,
+
+    F_xy = W exp(-xy)(1-xy).
+
+Complementarity is positive when xy < 1 and negative when xy > 1. This is a deliberately stylized countermodel, not an estimated robotics technology. It demonstrates why technical source complementarity and economic capability complementarity must be distinguished empirically rather than compressed into a constant pairwise transfer weight.
+
+DDA's Appendix B already discusses complementary data inputs. The more specific question is where the interaction originates and how it changes an optimal deployment/data-acquisition decision. [S1]
+
+## 5. Customer economics determines the optimal data mixture
+
+Consider two qualifications. Qualification 1 enables an incumbent accepted service contributing u >= 0. The pair enables an additional service contributing v > 0. Both services can operate under the stated resource envelope, so
+
+    f(A) = u 1{1 in A} + v 1{{1,2} subset A}.
+
+This value table can be implemented with two bounded service recipes using distinct installed capacity and common reusable qualifications. It must be changed when the services compete for the same physical resource. u and v are operating contributions relative to feasible alternatives, not subjective premiums on data.
+
+Two source types provide imperfectly overlapping learning:
+
+    z_1 = x + epsilon y,
+    z_2 = epsilon x + y,
+    x+y=R,  0 <= epsilon < 1.
+
+The equal-cost total acquisition budget R is fixed. Qualification events use the exponential response above. With p_i = 1-exp(-z_i), expected economic value is
+
+    F = u p_1 + v p_1 p_2.
+
+### Proposition D3: The globally optimal mixture
+
+For R > 0 and v > 0,
+
+    x* = min{R, R/2 + log(1+u/v)/(2(1-epsilon))},
+    y* = R-x*.
+
+For epsilon=1 all source allocations are equivalent. With u=v=0 all are also equivalent. With v=0<u and epsilon<1, x*=R.
+
+**Proof.** Put k=1-epsilon and C=(1+epsilon)R. Then z_1=epsilon R+kx, z_2=R-kx and z_1+z_2=C. Expand:
+
+    F(x) = u+v - (u+v)exp(-z_1) - v exp(-z_2) + v exp(-C).
+
+Its second derivative is -k^2[(u+v)exp(-z_1)+v exp(-z_2)] < 0. Hence there is a unique optimum except the stated degeneracies. The first-order condition is
+
+    (u+v) exp(-z_1) = v exp(-z_2).
+
+Solving yields the displayed interior choice; strict concavity makes projection to [0,R] globally optimal. QED.
+
+**Interpretations.** With only the new complementary service valuable (u=0), the optimal mixture is balanced. As the incumbent's contribution rises relative to the new service (u/v rises), acquisition tilts toward source 1. Positive acquisition of source 2 begins only when
+
+    R > log(1+u/v)/(1-epsilon).
+
+This is a derived property of the example, not a claim that all data programs possess a universal diversity threshold.
+
+At an interior solution with u>0, raising cross-transfer epsilon increases x*: better transfer lets the commercially important source provide more of the other qualification as well. Therefore **improved transfer can reduce optimal source diversity while raising attainable economic value**. At complete transfer epsilon=1, the allocation is indeterminate; do not call an arbitrary tie-breaking allocation an economic prediction.
+
+### Technical score and economic value are different objectives
+
+Under the same technology and budget, maximizing the mean qualification probability (p_1+p_2)/2 gives x=y=R/2. That need not maximize customer-conditioned value.
+
+With synthetic R=2, epsilon=1/4, u=12 and v=3, the economically optimal allocation uses source 1 alone. Its mean qualification score is lower than that of the balanced mixture, yet its expected operating contribution is higher. This is not a recommendation to neglect an industrial safety qualification: every service in f is allowed only after its requirements are satisfied. It is a choice of which future services to develop.
+
+ReMix offers an important distinct baseline: its pretraining/co-training objective concerns robust downstream performance without a prespecified target task. Our economic objective is explicitly conditioned on a customer opportunity distribution. Neither should be called a substitute for the other without making that objective difference explicit. [S2]
+
+## 6. The result is not an artifact of one exponential response
+
+Replace each technical curve by the rational saturation function p_i=z_i/(1+z_i). Keep the same production value and source transfer structure. Let
+
+    H=2+(1+epsilon)R,
+    B=v(1-1/H),  A=u+B.
+
+Because (1+z_1)+(1+z_2)=H,
+
+    F = u+v - A/(1+z_1) - B/(1+z_2).
+
+For v>0 and epsilon<1 this is strictly concave in x. Its global optimum is the clipped allocation
+
+    z_1* = H sqrt(A)/(sqrt(A)+sqrt(B)) - 1,
+    x* = clip((z_1*-epsilon R)/(1-epsilon),0,R).
+
+**Proof.** Expand u p_1 + v p_1p_2 and use 1/(L_1 L_2)=(1/L_1+1/L_2)/H. The first-order condition is A/L_1^2=B/L_2^2; solve under L_1+L_2=H. Strict concavity and clipping finish the proof. QED.
+
+The demand-conditioned shift toward source 1 as u/v rises survives. The precise exponential diversity threshold is not asserted to survive unchanged. This alternative shows why the research should not be organized around preserving one convenient power law, exponential, or CES specification.
+
+## 7. What extra data can and cannot make worse
+
+Let L(D) be the set of feasible learning/retention plans given dataset access D, including the option not to use a source and to retain an already-qualified policy. Define optimized net training value with a fixed objective and resources by
+
+    V*(D) = max_(ell in L(D)) { E[f(A_ell)] - C_training(ell) }.
+
+If free additional access satisfies L(D) subset L(D union X), then V*(D union X) >= V*(D). The proof is feasible-set inclusion. Thus an observed decline under forced co-training is not evidence that free optional data access intrinsically lowers optimized value. Acquisition costs, mandatory use, changed rights, compulsory model replacement, limited selection ability and compute opportunity costs can change the comparison and must be modeled explicitly.
+
+The distinction also separates data *availability*, selected training exposure, evaluation and deployable qualification. More possession is not the same intervention as training equally on every available trajectory.
+
+## 8. Data value should feed back into deployment, not be appended as a bonus
+
+A sustained extension will embed the solved data-value component in a common state-value problem. A schematic state is (D,Q,K,omega), with data/metadata D, retained qualifications Q, embodiment capacities K and customer state omega. Let a choose a production plan, deliberate data collection, training/curation, and, where relevant, hardware changes. Then
+
+    V_t(D,Q,K,omega)
+      = max_a { current contribution(a) - actual collection/training/investment costs(a)
+                + beta E[V_(t+1)(D',Q',K',omega')] }.
+
+The data transition D' must distinguish logged production exposure from targeted interventions, simulated experience, duplicates and changing distributions. The transition Q' must retain feasible old policies unless a specified event removes them. Customer demand changes which services are worth producing, which changes the data the enterprise receives. A deliberate experiment can be worth more than passively collecting another unit of familiar operating data.
+
+The data contribution to choosing between current deployments is the difference in continuation value from their resulting states. Do not add a separate arbitrary 'strategic data premium' on top of that continuation value. The simple stationary mixture above conditions on omega; it is not yet a solution of this full dynamic problem.
+
+The research priority is now to endogenize source acquisition, target grounding and the transfer operator within this same argument. Financing remains a possible constraint from the preserved earlier work; it is not the next default branch.
+
+## 9. Empirical discrimination: two factorial comparisons, not benchmark-to-dollar conversion
+
+The technical experiment must compare source A alone, B alone, both, and the retained baseline, at documented target data, compute, architecture, adaptation, rights and evaluation conditions. A factorial expansion of data at greater total cost identifies a different estimand from reallocating a fixed training budget; retain both designs rather than pretend they are interchangeable. Record accepted qualification sets jointly, not only separate success averages.
+
+The operating comparison then measures what each attainable qualification set permits at the same customer/site/resources: accepted services, competent alternatives, contribution, capacity and demand. Changing the customer-demand weights while holding the technical evaluation fixed isolates the economic channel. Changing source pairing or target grounding while holding customer economics fixed isolates the learning-technology channel.
+
+Relevant primary evidence:
+
+- **ReMix** studies data-mixture weighting and downstream performance. It motivates treating selection as a choice, not averaging all available data. Its technical objective and benchmark outcomes do not identify our u, v or transfer coefficients. [S2]
+- **Data Analogies** reports different effects of viewpoint diversity and paired demonstrations for morphology changes. It motivates comparing source volume with alignment/grounding structure; it does not identify economic production complementarity or an industrial qualification cost. [S3]
+- **CrossFormer** shows that a shared policy can operate heterogeneous robots in its evaluated settings. Architectural feasibility does not by itself price the economic value of a particular source dataset or prove that our conditional-independence assumption holds. [S4]
+
+Marginal qualification probabilities alone do not identify economic value when outcomes depend on one another. For two capabilities with marginals 1/2, a service requiring both can have probability 0, 1/4 or 1/2 under mutually exclusive, independent or shared outcomes. Our derivative formulas therefore require joint-outcome data or a justified dependence model, not simply a table of separate benchmark scores.
+
+No training run, proprietary customer panel or measured transfer coefficient was acquired in this session. The empirical contribution is a source-grounded distinction between estimands and a falsifiable measurement design.
+
+## 10. Verification and next intellectual step
+
+The accompanying standard-library Python implementation enumerates the qualification-value table, implements the analytic gradient and source-interaction decomposition, and evaluates both globally solved mixture problems. Twenty-four scoped unittest cases passed. Checks include finite differences of arbitrary finite value tables, submodular coverage and complementary production cases, boundary/tie behavior, independent dense-grid comparisons, and deterministic regeneration. These checks support the implementation; the proofs are the written arguments above. No full historical CI or independent peer review is claimed.
+
+Reproduce from this directory:
+
+    python data_value.py --output results.json
+    python -m unittest -v test_data_value
+
+**Next question:** when collecting a source changes not just a data stock but the ability to align and reuse other sources, how does a deployer choose among more production data, target-specific grounding, and a different embodiment? Solve that within the common production-value model and challenge it with matched technical evidence. Do not return automatically to the preserved payment-default branch or launch another detached Q-numbered example.
+
+## Primary sources and reading scope
+
+[S1] Farboodi, M., Koh, A. and Xia, A., _Data-Driven Automation_. arXiv:2606.10127v1, https://arxiv.org/html/2606.10127v1 . This run inspected sections 2–2.2, section 5's planner argument and Appendix B's non-substitutable-spillover extension. The HTML header associates v1 with June 8, 2026 while its displayed draft date is August 24, 2026; preserve this version-label discrepancy rather than assigning a reconciled date. The previously recorded NBER June 2026 PDF was not redownloaded: the new request returned 403. Earlier source reconstructions remain dated; this is not a claim to have verified a latest-version equivalence or every proof.
+
+[S2] Hejna, J. et al., _ReMix: Optimizing Data Mixtures for Large Scale Imitation Learning_, PMLR 270, 145–164 (2025), https://proceedings.mlr.press/v270/hejna25a.html . The original arXiv v1 problem setup and objective were also read at https://arxiv.org/html/2408.14037v1 . No reported effect size is used as a parameter and no full training reproduction was attempted.
+
+[S3] Yang, J., Finn, C. and Sadigh, D., _Data Analogies Enable Efficient Cross-Embodiment Transfer_, arXiv:2603.06450 (2026), https://arxiv.org/abs/2603.06450 . Abstract, introduction and study framing inspected; no full experimental audit. Reported technical outcomes are not industrial service outcomes.
+
+[S4] Doshi, R. et al., _Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation_, PMLR 270, 496–512 (2025), https://proceedings.mlr.press/v270/doshi25a.html . Proceedings abstract inspected; no new source-performance coefficient extracted.
+
+[S5] Bian, A. A., Mirzasoleiman, B., Buhmann, J. and Krause, A., _Guaranteed Non-convex Optimization: Submodular Maximization over Continuous Domains_, PMLR 54, 111–120 (2017), https://proceedings.mlr.press/v54/bian17a.html . Proceedings abstract establishes the relevant existing continuous diminishing-returns framework; full algorithmic proof not audited here. The elementary finite multilinear derivative used above is derived explicitly rather than misattributed as a new theorem.
+
+All sources retrieved November 17, 2026. The theoretical mapping and numerical illustrations are ours; technical source findings remain separate. Scientific originality of the combined argument is not established.

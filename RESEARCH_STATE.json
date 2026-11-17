@@ -3,22 +3,63 @@
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "935edab4a7761c8fe6402e1c256f79958c2ab8bc",
-  "lease": {"run_id":"interactive-20261117T2258Z-data-value","status":"active","expires_at_utc":"2026-11-18T00:20:00Z","reason":"Amar requests sustained theoretical work on data transfer and economic data value, building on but not overfitting to Data-Driven Automation."},
+  "lease": {"run_id":"interactive-20261117T2258Z-data-value","status":"released","expires_at_utc":"2026-11-18T00:20:00Z","reason":"Data-value continuation chapter, analytical proofs, tested Python model and separate teaching materials published; no main or old workspace changes."},
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Continue one integrated theory, now prioritizing data-transfer technology, data complementarity/substitution, and demand-conditioned value. Do not continue the financing-contract branch by default.",
+  "current_mode": "Continue the integrated theory with data transfer and economic data value as immediate priority. Do not default back into financing/default contracts or create another Q-number toy.",
   "user_direction": "Any way we do more theoretical work in line with what you have done here in the data transfer / data value side building on (but not overfitting to) Data Driven Automation?",
   "previous_state_file": "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The complete immediate pre-change state is preserved byte-for-byte in previous_state_file, including every prior result, validation, queue, notification and limitation. The original full roadmap is retained in backlog_file. No prior result, unresolved empirical requirement or Christmas milestone is canceled.",
-  "latest_result": "Previous published result concerns buyer consent and qualification-payment dependence. The data-value extension is in progress; no new scientific result is claimed at lease acquisition.",
-  "read_next": ["RESEARCH_EXECUTION.md","research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md","research/theory/data_driven_automation.md","research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json","research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json","THEORY_PHASE.md","research/theory/milestones.md"],
-  "queue": [
-    {"id":"DATA-VALUE-THEORY","priority":1,"status":"in_progress","question":"How do source-to-capability learning effects and the customer's production opportunities jointly determine marginal data value, dataset complementarity and optimal acquisition mixtures?","deliverable":"Develop the existing qualification/production theory into a source-data value model, derive general marginal/curvature identities and a nontrivial optimal-mixture result, challenge fixed positive additive transfer and conditional independence, preserve an empirical factorial test."},
-    {"id":"EMPIRICAL-TOPOLOGY","priority":2,"status":"retained","question":"Which matched source-target learning experiments and accepted-service production relationships identify the data-value mechanisms without turning benchmark gains into dollars?"},
-    {"id":"DYNAMIC-INVESTMENT","priority":2,"status":"retained","question":"How do production-selected data, embodiment changes, simulation and targeted experiments change the subsequent acquisition/production opportunity set?"},
-    {"id":"PAPER-AND-TEACHING","priority":1,"status":"alongside_theory","question":"Integrate the data-value results into When Capabilities Become Production; distinguish standard derivations, candidate synthesis, untested hypotheses and empirical gaps."}
+  "preservation": "The complete immediate previous state is preserved byte-for-byte in previous_state_file, including every prior result, validation, queue, notification and limitation. The full original roadmap is retained in backlog_file. No prior result or Christmas milestone is canceled.",
+  "latest_result": "Derived source marginal-value and source-interaction identities composing independent conditional qualification probabilities with optimized production values. Distinguished technical grounding complementarity from production complementarity and overlapping technical-target exhaustion. Solved globally optimal customer-conditioned two-source mixtures under both exponential and rational saturation. Better cross-transfer can concentrate source acquisition while raising value in the exponential model; a balanced technical-score objective can disagree with economically optimal acquisition. Explicit optional-data dominance and correlated-outcome counterexample retained. DDA section 5 and Appendix B already cover future data value and complementary aggregation; no novelty claim. 24 scoped tests and byte-identical clean-directory replay passed.",
+  "validation": {
+    "scoped_tests_passed":24,
+    "fresh_directory_tests_passed":24,
+    "fresh_results_byte_identical":true,
+    "results_sha256":"4f6fb0d7093b177b06e245da4779bdd06fd7012d4acd7cf57c8c97efe2f0dd54",
+    "source_git_blob":"070fd97d17e426cdb756eab05452e549dfdde35c",
+    "test_git_blob":"bb6f11a0998d411295cc871c9b25a0b6744222f8",
+    "chapter_git_blob":"73565e8b6c160a89f3729ba9b61defe8c954f225",
+    "program_git_blob":"68bf4873802f3472cf1530cd08663c376f4b48b1",
+    "source_test_chapter_blobs_match_validated_local":true,
+    "proofs":"Explicit finite-set derivative arguments and global concavity solutions; tests are not proofs",
+    "historical_repository_suite":"not_run",
+    "independent_peer_review":false,
+    "empirical_calibration":false
+  },
+  "read_next": [
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/data_value/data_value.py",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory/data_driven_automation.md",
+    "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
+    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "THEORY_PHASE.md",
+    "research/theory/milestones.md"
   ],
-  "last_notification": {"key":"20261117-data-value-user-request","content":"Acknowledged request and began data-transfer/data-value theoretical investigation; no new findings reported yet."},
-  "execution_note":"Exclusive state-only lease acquisition with expected-head compare-and-set. Preserve main, old workspaces, all milestones and one writer. No new task or schedule."
+  "queue": [
+    {"id":"DATA-VALUE-THEORY","priority":1,"status":"conditional_source_value_and_optimal_mixtures_derived; continue_same_argument","question":"When target grounding or alignment changes the ability to reuse existing source data, how should the deployer choose among more source volume, an enabling grounding investment, and a changed embodiment?","deliverable":"Endogenize the transfer operator within the same production-value framework. Derive a consequential investment result with a second learning formulation or counterexample and a matched technical empirical test. Do not merely stipulate a convenient product interaction and claim novelty."},
+    {"id":"ENDOGENOUS-DATA-PRODUCTION","priority":2,"status":"next_linked_extension","question":"Does current commercial production generate the data needed for the most valuable next services, or should the enterprise deliberately collect recovery, teleoperation, simulated or target-grounding evidence?","deliverable":"Common dynamic continuation account, competent profit-only and technical-objective comparators, no arbitrary strategic data premium or double-counted continuation value."},
+    {"id":"EMPIRICAL-TOPOLOGY","priority":2,"status":"retained_alongside_theory","question":"Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?","deliverable":"Factorial additions versus fixed-budget reallocation distinguished; joint qualification outcomes, held-out targets, compute and costs recorded; do not infer dollar value or independent qualification from benchmark means."},
+    {"id":"DYNAMIC-INVESTMENT","priority":2,"status":"retained","question":"Connect data acquisition to embodiment, manufacture, coordination and customer opportunity evolution, retaining the prior finance/rights constraints without making them the default next research topic."},
+    {"id":"PAPER-AND-TEACHING","priority":1,"status":"continuation_chapter_and_exercises_completed; consolidation_due_at_synthesis_gate","question":"Integrate this chapter into When Capabilities Become Production and its contribution assessment, with closest prior art and empirical assumptions clear. The older main manuscript is preserved rather than falsely represented as fully re-edited."}
+  ],
+  "portfolio_status": {
+    "theory":"Sustained data-to-qualified-production argument, not a new isolated toy; standard mathematical foundations and source prior art explicit.",
+    "atlas":"Source-grounded measurement design; actual matched customer-data-value panel and numeric BEA backbone remain open.",
+    "paper":"Full data-value continuation chapter added alongside living manuscript; final contribution still unselected.",
+    "learning":"Six exercises and separate solutions; no claim of learner mastery.",
+    "main_contribution":"candidate synthesis from endogenous data and qualified production opportunities; scientific novelty and calibration unestablished"
+  },
+  "known_limitations": [
+    "See preserved previous states for all inherited limitations and unfinished work; none erased.",
+    "Conditional qualification independence, fixed nonnegative transfer and equal source acquisition costs are benchmark assumptions, not measured robotics properties.",
+    "Technical grounding product model is an explicit countermodel, not an empirically established mechanism.",
+    "DDA public HTML v1 label and displayed draft date differ; inspected section boundaries recorded, no latest-version equivalence claimed. New NBER PDF request returned 403 and was not retried.",
+    "Cross-embodiment sources supply technical evidence, not qualified industrial service, marginal economic value or price coefficients.",
+    "No training, proprietary data collection, general equilibrium solution or final paper completion in this tranche."
+  ],
+  "last_notification": {"key":"20261117-data-value-theory-user-request","content":"Current interactive reply reports the data-value research direction, technical versus production interactions, demand-conditioned mixtures and future endogenous-transfer program. Do not repeat as a new hourly finding."},
+  "execution_note":"Rechecked branch head and exclusive lease before publication. Standard-library Python code and tests actually executed, fresh-directory replay matched, detached blob hashes equal local validated files. Existing automation prompt updated to data-value priority with no cadence/deadline change. Normal branch-only expected-head publication with released state; main and old workspaces preserved."
 }
