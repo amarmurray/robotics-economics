@@ -4,10 +4,10 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
-    "run_id": "auto-20261117T2028Z-cash-demand",
-    "status": "released",
-    "expires_at_utc": "2026-11-17T21:35:00Z",
-    "reason": "Integrated dated-cash/demand theory, matched source ledger and tested exact finite-state model published"
+    "run_id": "auto-20261117T2129Z-contingent-contract",
+    "status": "active",
+    "expires_at_utc": "2026-11-17T22:25:00Z",
+    "reason": "Extend integrated finite-cash demand model with contingent payment and time-limited customer orders"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -98,7 +98,7 @@
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Lease 7d1fe007 acquired CAS; code and test blobs exact Git-sha match locally validated artifacts, results blob exact; 18 tests passed including independent exhaustive policy tree, original primary/GXO and research source reading. Current publication fast-forward with lease released, no main change, no older Codex recovery. Next: contingent claim rights, default and demand expiry in same Bellman.",
+  "execution_note": "Lease acquired for contingent payment and demand-expiry theoretical extension. Previous results preserved. No substantive research claim yet.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
