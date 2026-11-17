@@ -45,3 +45,6 @@ November 17 integrated-receivables continuation: derived a constructive learn–
 
 
 November 17 integrated-demand continuation: advanced the *same* living production/qualification theory by deriving accepted-service output from customer willingness to pay and introducing a hard or soft service-level requirement. The full HJB and globally optimal stationary effort formula, demand-vs-shared-production comparative static, specialist ranking reversal and nonlinear receipt-financed duty bound were written and tested. Public primary sources were typed against the currently unobserved matched operating/contract/receipt panel. The November 22 review, November 29 measured backbone and December 6 contribution selection remain open; no historical result was reclassified.
+
+
+November 17 contingent-claims continuation: derived a claim-specific funding envelope, examined a jointly financed specialist counterexample, and showed nonrefundable-vs-refundable customer pilot treatment changes actor-specific payoffs without altering total accounted value. Exact enumeration and independent rational baseline conducted; real accepted-order/loan/deposit panel absent. November 22 synthesis gate, November 29 backbone, December 6 contribution gate and Christmas release are **not** marked complete.

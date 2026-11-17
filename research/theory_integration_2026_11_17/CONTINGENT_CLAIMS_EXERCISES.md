@@ -1,0 +1,9 @@
+# Learning packet — multipayer qualification (problem statements)
+*November 17, 2026. Separate solutions in CONTINGENT_CLAIMS_SOLUTIONS.md.*
+
+1. **Claims versus technical value.** For a route with qualification probability p, an accepted service at date 2 and another with probability sigma at date 3, invoice price R, collection probability r, operating cost k and buyer gross value V, derive the provider's unfinanced premium, expected invoice claims X, buyer residual U, and cap M for an enforceable fraction theta. State why X and U cannot simply be summed into the provider's private wealth without a contract.
+2. **A difficult claim to disprove.** "Whenever a qualification is privately profitable with enough cash, a lender can finance it against its own future customer invoices." Using the shared route and numbers in the note, refute this under a half-invoice pledge cap, while keeping the project expected private premium positive.
+3. **Competent alternatives.** Why can the specialist route's 20-unit shortfall be funded using a customer payment of 12 and a B-claims loan of 8? Compute the lender's fair fractional claim of B collections and check the buyer's retained surplus.
+4. **Risk transfer.** If the buyer's 12 deposit is refunded on unsuccessful qualification, derive the effect on each actor's expected payoff, and state why the joint value is unchanged.
+5. **Ex-post operating incentive.** If the provider can decline an accepted B service after training, derive the largest receivable share a lender can take without making operation unprofitable in expectation. Contrast an assignment cap with an actual legal right.
+6. **Research design.** What observed microeconomic evidence would separately identify technical qualification, complete-order demand, customer surplus, pledgeable cash, and a credible specialist comparator? Name one negative control and one objection that this four-date model does not answer.

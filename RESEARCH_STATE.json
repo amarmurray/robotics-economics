@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T2129Z-contingent-contract",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T22:25:00Z",
-    "reason": "Extend integrated finite-cash demand model with contingent payment and time-limited customer orders"
+    "reason": "Contract-rights model, exact scenario checks, proof and teaching published; lease released in tested commit"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,66 +16,65 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated Result 11: derived receipt-gated qualification thresholds and algebraic route premiums; fixed-route shared-learning marginal payoff decreases with incumbent demand but actual global investment may rise when cash feasibility opens, then switch to a qualified specialist alternative. Exact synthetic m=4,7,11 and L=1 gives premiums 0,4,26/5; L=2 gives zero all three, while sufficient initial funding removes the maturity effect. Constructive enforceable loan principal cancels, fee reduces net premium to 4-f. 18 locally scoped tests including independent exhaustive tree passed; source/test/results blobs match tested local files. Not industry calibration or original DP theorem.",
+  "latest_result": "Integrated contingent-claims continuation: a qualified service may be privately profitable but impossible to fund from legally eligible B receivables alone. Under a risk-neutral zero-discount enforceable model, initial external shortfall D is fundable through bounded customer paid pilot plus lender B claims if D<=customer retained value+effective pledgeable claims, conditional on postfunding liquidity and incentives. Synthetic shared vs specialist example: B-only pledges 10.26<12 and 12.312<20, but shared P12 and specialist P12+fair B-claim loan8 are feasible; jointly financed specialist strictly improves both buyer and provider payoffs; refundable pilot on qualification failure preserves the ranking and aggregate value. No robotics finance calibration or novelty claim.",
   "validation": {
-    "new_tests": 18,
-    "scope": "Finite-horizon dated-cash Bellman, hard service acceptance, qualified B, specialist comparator, repeat attempts, one/two-period collection, independent exhaustive decision tree, constructive secured-advance outcome paths",
-    "fresh_directory_tests": 18,
-    "exact_rational_scenarios": 6,
-    "source_git_blob": "40481b9918258b38c4a0ea7c10342ac7472afe2c",
-    "test_git_blob": "d603bada7f134e833467cb47495ae6c99fd54269",
-    "results_git_blob": "cbff804e3df477131349683a5077bfebdfce83a8",
-    "source_test_results_match_local": true,
+    "scoped_assertions": 107,
+    "language": "JavaScript exact BigInt rational arithmetic in Code Mode V8, using exact same Git blob source/test text",
+    "test_scope": "All qualification, expiry and invoice-payment event states; funded shared versus fully priced specialist; lender expected zero profit; separate customer participation; receipt assignment and refund variant; min cash nonnegative on 32 paths per scenario",
+    "independent_baseline": "Local Python fractions enumeration independently matched expected lender/buyer/provider, aggregate values and minimum cash for both nonrefundable and failure-refunded contract choices",
+    "source_git_blob": "d79dca5ed74e907441e7cf5b85755d75f61b197a",
+    "test_git_blob": "ad043bcef530d40dda7a588c36a7212bc3cae409",
+    "results_git_blob": "448b0529da052607d8ab3d3e984b0c6db9c89df0",
+    "node_file_execution": "not_run",
     "historical_repository_suite": "not_run",
-    "independent_review": false,
+    "independent_peer_review": false,
     "empirical_calibration": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/FINITE_CASH_DEMAND_THEORY.md",
+    "research/theory_integration_2026_11_17/CONTINGENT_CLAIMS_THEORY.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/liquidity_learning.py",
-    "research/theory_integration_2026_11_17/finite_cash_results.json",
+    "research/theory_integration_2026_11_17/contingent_claims.js",
+    "research/theory_integration_2026_11_17/contingent_claims_results.json",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-    "THEORY_PHASE.md",
     "research/theory/milestones.md"
   ],
   "queue": [
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "dated_receipts_demand_capital_policy_completed; continue_same_manuscript",
-      "question": "When contingent customer/supplier finance is enforceable only for particular accepted-service claims, and customer demand may expire or payment may default, does financing genuinely change the optimal capability path net of payer rights and transfer pricing?",
-      "deliverable": "Extend the finite cash/qualification Bellman with state-specific default and enforceable payer/claim matching, endogenize accepted-order expiry and complete-service value, compare specialist route, prove a financing-rights proposition or exact counterexample and source-ground an event-level panel."
+      "status": "claim_specific_financeability_and_refundable_customer_pilot_completed; continue_unified_manuscript",
+      "question": "When are paid pilot transfers and recourse enforceable under endogenous customer contract choice, A-customer welfare and qualification/receivable default correlation?",
+      "deliverable": "Endogenize provider/customer/lender contract choice on the same accepted-order network, include A buyer's retained surplus and the customer's outside option, examine adverse dependence of qualification and payment, and derive a sharp counterexample or identification bound. Keep user-specified theory focus rather than a standalone finance toy."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "primary_GXO_2024_2026_relation_grounded; matched_payment_panel_absent",
+      "status": "GXO primary operations and UCC conditional rights documented, no observed matched receipts/deposits/qualification panel",
       "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
-      "deliverable": "Join customer complete-order acceptance and outside option to individual site training displacement, invoicing/actual collections and assigned receivable rights, confirm paid/pilot terms; official BEA backbone remains unobserved."
+      "deliverable": "Join real accepted customer order/qualification events with dated payment and legally assigned claim terms, deposit/refund contracts, real A-customer value and proper specialist alternatives. Do not substitute 100k tote moves for accepted orders; BEA observed numeric backbone remains open."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
       "priority": 2,
-      "status": "stage_cash_bridge_derived_not_general_multipayer_equilibrium",
+      "status": "multipayer conditional claims and buyer willingness envelope derived; no full equilibrium",
       "question": "How does productive deployment fund and alter subsequent capability acquisition when cash, manufacturing knowledge, field learning and access accrue to different actors?",
-      "deliverable": "Provider/supplier/customer cash account with receivable maturity and enforceable contingent transfers; connect manufacturing and digital coordination resources to the same feasible recipes."
+      "deliverable": "Extend claim-specific pledgeability to manufacturing/coordination assets and heterogeneous buyer/provider/supplier payoff splits with joint risk; avoid counting transfers as productive value."
     },
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "living_manuscript_result10_and_separate_teachback_added; ongoing",
+      "status": "living manuscript now includes contingent-claims proof, results and refundable-pilot teachback",
       "question": "Does the unified economic learning argument support the first paper's contribution?",
       "deliverable": "Deepen this manuscript and closest-literature comparison, test a strong competing explanation, prepare teach-back; assess the contribution at Nov22/Dec6 gates without pretending current conditional derivations establish novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Result 11 repairs an overbroad inference from demand opportunity cost: finance eligibility can reverse actual acquisition as accepted A demand grows; issuer cash timing and contract assignments remain unknown.",
-    "atlas": "Site-level GXO/Agility accepted tote handoff and announced extension compared against precise missing joined receipts/qualification panel; official numeric BEA backbone still open.",
-    "paper": "Living integrated manuscript extended with Result 11 and full source/proof note; core contribution still unselected, December draft not complete.",
-    "learning": "Result 11 six questions and separate answers plus 18 local scoped tests with independent decision-tree verification.",
-    "main_contribution": "candidate measurable production/learning/payment-topology synthesis; prior-art and industry calibration unresolved"
+    "theory": "Same production/qualification theoretical spine extended to endogenous feasibility of supplier claims and customer paid pilots; profitable project can be unpledgeable to B lender but jointly financed specialist feasible; explicit voluntary-operation cap and refund countermodel.",
+    "atlas": "GXO accepted tote handoff evidence, NY UCC 9-406 limitation, and Zunya planned Q1 2027 disbursements accurately typed; matched accepted-order/receipts/rights panel absent; BEA macro backbone still open.",
+    "paper": "Updated integrated manuscript with contingent claims and an analytical proof note; originality unestablished and Nov22 synthesis gate not yet accepted.",
+    "learning": "Six new exercises with separate solutions and exact enumeration; no asserted learner mastery.",
+    "main_contribution": "candidate measurable organization of production, qualification-learning and legally pledgeable customer claims; unselected and uncalibrated"
   },
   "known_limitations": [
     "Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.",
@@ -92,13 +91,16 @@
     "Roberts-Weitzman PDF text inspected; screenshot attempt timed out, no full-proof audit claimed.",
     "Demand theory assumes stationary known accepted-order value, m>=dK, constant qualification hazards and sufficient immediate cash for discounted choice; long-run finance bound is separate.",
     "Matched empirical customer demand, SLA contract, learning displacement, collected receipts and specialist comparison are not observed.",
-    "Result 11 payment delays deterministic, B success probabilities synthetic, terminal receivables assumed fully collectible at par, no discount/default or observed loan assignment terms. The analytically thresholded one-shot argument is conditional; global optimum exact only for stated four-date action space."
+    "Result 11 payment delays deterministic, B success probabilities synthetic, terminal receivables assumed fully collectible at par, no discount/default or observed loan assignment terms. The analytically thresholded one-shot argument is conditional; global optimum exact only for stated four-date action space.",
+    "New claim-cap sufficiency applies only to enforceable risk-neutral date-1 transfers and pathwise solvent future operation, not actual receivable ownership or first-priority legal perfection.",
+    "Customer paid-pilot deposit assumes signed informed ex-ante agreement; refundable on failure variant requires future liquid A receipts. A buyer welfare and default endogeneity are not modeled.",
+    "Zunya public site as of Nov17 says first loan disbursements planned Q1 2027, not verified existing 2026 financing; GXO public reports do not identify paid-pilot or receivable assignments."
   ],
   "last_notification": {
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Lease acquired for contingent payment and demand-expiry theoretical extension. Previous results preserved. No substantive research claim yet.",
+  "execution_note": "Single-writer run originated from 995fc167; acquired lease at 7b113b68 CAS; state/proof/test/results/teaching files published together on this release commit. No main write, other agent, outreach, public release or old Codex recovery. Next focus endogenous payer bargaining and A customer valuation.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
@@ -129,8 +131,8 @@
     "independent_review": false
   },
   "quiet_checkpoint": {
-    "key": "20261117-result11-finitecash-demand",
-    "summary": "Substantive correction to fixed-affordability demand effect through dated receipt thresholds, fully adaptive exact baseline and a secured-loan cash account; archive in history without routine hour-by-hour notification."
+    "key": "20261117-contingent-claims-contract-rights",
+    "summary": "Substantive integrated funding-rights proposition and competent co-financed specialist counterexample, 107 exact scoped checks and independent Python enumeration; archive quietly, not an hourly notification."
   },
   "validation_previous": {
     "committed_core_tests_passed": 10,

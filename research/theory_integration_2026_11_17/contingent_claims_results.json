@@ -1,0 +1,47 @@
+{
+  "refundablePilot": {
+    "sharedProvider": "967/100",
+    "sharedBuyer": "117/25",
+    "specialistProvider": "3001/250",
+    "specialistBuyer": "702/125",
+    "sharedMin": "0",
+    "specialistMin": "0",
+    "jointShared": "287/20",
+    "jointSpecialist": "881/50"
+  },
+  "parameters": {
+    "payment": "9/10",
+    "survival": "9/10",
+    "pledgeCap": "1/2",
+    "price": "16",
+    "buyerValue": "24"
+  },
+  "shared": {
+    "invoices": "513/25",
+    "surplus": "342/25",
+    "privateGain": "67/100",
+    "shortfall": "12",
+    "pledge": "513/50",
+    "jointFunding": "1197/50",
+    "claimFraction": "0",
+    "providerAfterFunding": "1267/100",
+    "buyerAfterFunding": "42/25",
+    "lenderAfterFunding": "0",
+    "jointValue": "287/20",
+    "minCash": "0"
+  },
+  "specialist": {
+    "invoices": "3078/125",
+    "surplus": "2052/125",
+    "privateGain": "301/250",
+    "shortfall": "20",
+    "pledge": "1539/125",
+    "jointFunding": "3591/125",
+    "claimFraction": "500/1539",
+    "providerAfterFunding": "3301/250",
+    "buyerAfterFunding": "552/125",
+    "lenderAfterFunding": "0",
+    "jointValue": "881/50",
+    "minCash": "0"
+  }
+}
