@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T1928Z-demand-operating-choice",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T20:25:00Z",
-    "reason": "Sustained integrated theory: endogenous demand curvature, service-level production floor and specialist comparator"
+    "reason": "Source-grounded demand-and-contract theorem and reproducible model/test/manuscript published; no continuing writer claimed"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,24 +16,26 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated receivables continuation: with pausable B learning and independently productive accepted A service, exact lagged-cash effort frontier E*=min(h,K/c+min(1,v/c)(h-d)+). When learning displaces A output fraction 1-eta, sustainable duty share is min(1,v/[c+v(1-eta)]). Restrictive compulsory continuous-learning cash loss corrected by learn-pause-collect-resume. Finite-term success-contingent AB pledge yields F_min versus collectible Pi condition. Synthetic P(AB) no lag .613805, lag1 with pause .546572, lag1 no pause .264241. No field calibration or general equilibrium.",
+  "latest_result": "Integrated Result 10: accepted customer quantity and provider cash endogenized via concave demand; solved stationary discounted A-to-B qualification intensity with shared output resource, hard SLA and soft penalty; proved shared-learning private option premium decreases with incumbent A demand when B incremental value fixed, while separately equipped specialist premium remains unchanged. Synthetic ranking reversals at increasing A demand or tightened service floor; nonlinear customer receipts yield Jensen/constructive long-run financing share. 19 committed scoped standard-library tests, 250 independent local SciPy parameter comparisons; exact code/test/results blobs matched local validation; no field calibration or historical CI.",
   "validation": {
-    "committed_core_tests_passed": 10,
-    "committed_core_source_git_blob": "366396a6dc11bd7cb9232c1fd0181f2a437fa59d",
-    "committed_core_test_git_blob": "2df30a1655e59dc010d78bbbc899d6d78a68edb5",
-    "git_blobs_match_validated_local": true,
-    "local_extended_scipy_tests_passed": 17,
-    "local_extended_lp_and_results_committed": false,
-    "local_extended_results_sha256": "b7431c71617522380057acd590c93769642c9d7188c361e3557788074b0b4e4f",
+    "new_tests": 19,
+    "scope": "Endogenous accepted-service output; concave demand and B hazard; analytically optimal stationary effort; matched independent specialist and SLA comparisons; Jensen cash sustainable share; Bellman discretization and grid checks",
+    "fresh_directory_tests": 19,
+    "independent_local_scipy_comparisons": 250,
+    "source_git_blob": "e8ca62310a090da0ebdf27e9f020cb8c532b5460",
+    "test_git_blob": "53ada5707fae0d0cdbcef44f09a17b4e109208bb",
+    "results_git_blob": "8f869f14b2564ea7772c87ccc0a8856ad1b73aa0",
+    "source_test_results_blobs_match_validated_local_files": true,
+    "results_sha256": "26ef83b7e43465b99512e23b2e57fe37d35520d8f28f9f09107fb99a4855cc31",
     "historical_repository_suite": "not_run",
     "independent_review": false,
     "empirical_calibration": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/DEMAND_CONTRACT_THEORY.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/demand_learning.py",
     "research/theory_integration_2026_11_17/RECEIVABLE_LAG_THEORY.md",
-    "research/theory_integration_2026_11_17/core_receivables.py",
-    "research/theory_integration_2026_11_17/RECEIVABLE_EVIDENCE.md",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "THEORY_PHASE.md",
@@ -43,16 +45,16 @@
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "delayed_cash_and_shared_capacity_theorems_completed; same_paper_continues",
-      "question": "How does endogenous customer demand, contractual cost of pausing, and competing incumbent/specialist production change the net-value maximizing A-to-B qualification policy?",
-      "deliverable": "Compare best stopping/reinvestment policy within same earned-cash, qualification and shared-resource framework against competent human and specialist alternatives; test both proof and small exact numerical case."
+      "status": "demand_curvature_service_contract_and_specialist_theory_completed; extend_same_manuscript",
+      "question": "Does the endogenous-demand / specialist-organization ranking survive finite cash, invoice delays and enforceable same-site service floors when A demand also increases near-term collections?",
+      "deliverable": "Derive a finite-horizon cash-state Bellman policy with received (not billed) payments, complete-order acceptance and a safety-matched specialist counterfactual; solve exact small baseline and identify a real matched panel."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "public_payer_contract_descriptions_mapped; site_paid_event_panel_unobserved",
+      "status": "dated_primary_issuer_relations_documented; matched_site_panel_absent",
       "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
-      "deliverable": "Match accepted service A/B, failed trials, concurrent production and dated invoices/receipts for same site/customer; test earliest cash ability to finance B; preserve macro backbone requirement without repeated failed route."
+      "deliverable": "Observe within one customer/site order-value/quantity, accepted output during B training, operator/supervisor resource, SLA/penalties, invoice and collected dates versus qualified independent specialist path."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
@@ -64,16 +66,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "living_manuscript_result8_and_teachback_added; continuing",
+      "status": "living_manuscript_result10_and_separate_teachback_added; ongoing",
       "question": "Does the unified economic learning argument support the first paper's contribution?",
       "deliverable": "Deepen this manuscript and closest-literature comparison, test a strong competing explanation, prepare teach-back; assess the contribution at Nov22/Dec6 gates without pretending current conditional derivations establish novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Integrated R1–R6 lagged collection, pausing, resource-sharing sustainable intensity and narrow lender contract; not a general equilibrium.",
-    "atlas": "Observed DHL service trajectory and NBER receivables research anchored; still no joined paid-order/qualification panel or numeric BEA backbone.",
-    "paper": "Result 9 linked in living manuscript; final contribution unselected.",
-    "learning": "Separate exercises and solutions; ten committed core tests and seventeen local extended LP tests passed.",
+    "theory": "Result 10 adds endogenous customer demand and competent specialist comparator to shared-capability qualification; stationarity/known demand/uncash-constrained policy scope explicit.",
+    "atlas": "DHL/GXO/Formic dated primary descriptions mapped to missing joint accepted-order/demand/cash-displacement panel; numeric BEA backbone still missing.",
+    "paper": "Living manuscript extended with Result 10 and detailed proof. December full paper and novelty decision remain pending.",
+    "learning": "Result 10 teaching problems and separate solutions, code and 19 local committed tests.",
     "main_contribution": "candidate measurable production/learning/payment-topology synthesis; prior-art and industry calibration unresolved"
   },
   "known_limitations": [
@@ -88,13 +90,15 @@
     "Joint-event hazards and synthetic operating values are assumptions; events do not involve concurrent production, calendar expiry or different payer financing; product marketing does not identify actual site accepted orders.",
     "Calendar flow model assumes separable production/development resources; actual site service receipts, invoice lags and supplier/customer recourse not identified.",
     "Synthetic date unit and learning rates are not calibrated; a horizon switch is conditional and not a novel general theorem.",
-    "Roberts-Weitzman PDF text inspected; screenshot attempt timed out, no full-proof audit claimed."
+    "Roberts-Weitzman PDF text inspected; screenshot attempt timed out, no full-proof audit claimed.",
+    "Demand theory assumes stationary known accepted-order value, m>=dK, constant qualification hazards and sufficient immediate cash for discounted choice; long-run finance bound is separate.",
+    "Matched empirical customer demand, SLA contract, learning displacement, collected receipts and specialist comparison are not observed."
   ],
   "last_notification": {
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Exclusive lease acquired for demand- and qualification-continuation research; source head 1f77f5e; next publication must revalidate owner and head.",
+  "execution_note": "Read 1f77f5e input and released predecessor lease; acquired state-only CAS at 3e1c0a8. Derived D1-D4 with prior-art and dated issuer evidence boundaries. Committed local code,test,results SHA-exact, 19 unittest and 250 separate SciPy parameter checks. Revalidated exclusive lease before commit; no main changes or old-workspace recovery. NEXT: finite-horizon cash-state dynamic policy with dated collection delay and service covenant, test counterexample to demand monotonicity when receipts relax financing.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
@@ -127,5 +131,17 @@
   "quiet_checkpoint": {
     "key": "20261117-receivables-theory",
     "summary": "A completed conceptual repair of prior self-funding result with stronger pausing, physical displacement and contract-specific credit tests; no routine notification."
+  },
+  "validation_previous": {
+    "committed_core_tests_passed": 10,
+    "committed_core_source_git_blob": "366396a6dc11bd7cb9232c1fd0181f2a437fa59d",
+    "committed_core_test_git_blob": "2df30a1655e59dc010d78bbbc899d6d78a68edb5",
+    "git_blobs_match_validated_local": true,
+    "local_extended_scipy_tests_passed": 17,
+    "local_extended_lp_and_results_committed": false,
+    "local_extended_results_sha256": "b7431c71617522380057acd590c93769642c9d7188c361e3557788074b0b4e4f",
+    "historical_repository_suite": "not_run",
+    "independent_review": false,
+    "empirical_calibration": false
   }
 }
