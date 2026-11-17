@@ -1,0 +1,9 @@
+# Receivable-lag evidence and falsification ledger (November 17, 2026)
+
+- **DHL Group 2025-05-13**, https://group.dhl.com/en/media-relations/press-releases/2025/dhl-group-signs-mou-with-boston-dynamics-and-accelerates-cross-business-automation-strategy.html : issuer reports commercial Stretch unloading from 2023, future case-picking use and co-development. Distinguish existing A from proposed B; no joint site training/accepted B order/payment panel.
+- **Bocola and Bornstein**, *The Macroeconomics of Trade Credit*, NBER WP 31026, published 2023-03, revised 2026-06, https://www.nber.org/papers/w31026 : production linkages and supplier receivable financing provide prior art, not robotics parameters.
+- **Amberg et al.**, *Curbing Shocks to Corporate Liquidity: The Role of Trade Credit*, 2016 working paper / 2021 JPE, https://www.nber.org/papers/w22286 : empirically documented trade credit timing changes as liquidity buffer; not site-level robotic receipts.
+- **Internal paper, Results 1–8**: customer-demand and acceptance, production-scarcity, joint qualification, adaptive learning, calendar operating receipts. Current R1–R6 specify the missing date/resource linkage. None establishes new mathematical priority.
+- **Pure synthetic inputs**: rates 2,2; v=4.5; c=1; B=.5; d=0 or 1; eta variable. Published test numbers are no calibration of customer demand, financing terms or robot training.
+- **Missing linked evidence**: customer/site/order ID -> complete accepted service -> qualification and B trials -> simultaneous A output -> invoicing and bank cash -> payer/owner -> disbursement, pledge and repayment -> B acceptance. Include credible competing manual/specialist production.
+- **Falsifiers**: full B trial displaces A's only productive resource; paused trials cannot resume without lost progress; invoices never collect on time; data/receivable rights held by another actor; benchmark skill success fails customer whole-order acceptance.

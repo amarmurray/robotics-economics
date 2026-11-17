@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T1834Z-receipts-theory",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T20:00:00Z",
-    "reason": "Integrated receipt-lag, capacity displacement and contingent financing theory; one writer."
+    "reason": "Integrated theory, source note, scoped tested core and separate exercises published; lease released"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,27 +16,26 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Result 8: accepted intermediate production while developing the next qualification yields a conditional CALENDAR-horizon reversal opposite to the earlier CASH-budget ranking. Exact fixed-route asymptotics, adaptive long-run lost-flow recursion, finite-horizon stopping/policy comparison, dated peak-cash requirement, and stochastic self-funding success probability derived; competent loan advance affects event probability without free surplus. Synthetic a=2,mu=1.2,v=4.5,W=10,c=1 yields adaptive joint at T=.5 and targeted A at T=2; 15 JS V8 assertions and 19 independent Python/SciPy scoped tests passed. Historical CI and industry calibration not performed.",
+  "latest_result": "Integrated receivables continuation: with pausable B learning and independently productive accepted A service, exact lagged-cash effort frontier E*=min(h,K/c+min(1,v/c)(h-d)+). When learning displaces A output fraction 1-eta, sustainable duty share is min(1,v/[c+v(1-eta)]). Restrictive compulsory continuous-learning cash loss corrected by learn-pause-collect-resume. Finite-term success-contingent AB pledge yields F_min versus collectible Pi condition. Synthetic P(AB) no lag .613805, lag1 with pause .546572, lag1 no pause .264241. No field calibration or general equilibrium.",
   "validation": {
-    "JS_functions_V8_assertions_passed": 15,
-    "JS_committed_test_file_node_execution": "not_run",
-    "Python_SciPy_scoped_tests_passed": 19,
-    "Python_fresh_directory_replay": "19/19 and byte-identical results",
-    "Python_results_sha256": "02f7e4993cb906c18704b6fd3ad61ffc94afee2dbaefcc28d65662aecf934ce7",
-    "Git_JS_source_blob_verified": true,
-    "Git_JS_test_blob_verified": false,
-    "exact_route_integrals_checked_against_independent_quadrature": true,
-    "adaptive_numeric_checked_against_independent_finite_step_Bellman": true,
-    "full_historical_repository_suite": "not_run",
-    "independent_review": false
+    "committed_core_tests_passed": 10,
+    "committed_core_source_git_blob": "366396a6dc11bd7cb9232c1fd0181f2a437fa59d",
+    "committed_core_test_git_blob": "2df30a1655e59dc010d78bbbc899d6d78a68edb5",
+    "git_blobs_match_validated_local": true,
+    "local_extended_scipy_tests_passed": 17,
+    "local_extended_lp_and_results_committed": false,
+    "local_extended_results_sha256": "b7431c71617522380057acd590c93769642c9d7188c361e3557788074b0b4e4f",
+    "historical_repository_suite": "not_run",
+    "independent_review": false,
+    "empirical_calibration": false
   },
   "read_next": [
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/CALENDAR_FINANCE_CONTINUATION.md",
-    "research/theory_integration_2026_11_17/CALENDAR_EVIDENCE.md",
-    "research/theory_integration_2026_11_17/CALENDAR_REPRODUCE.md",
-    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "research/theory_integration_2026_11_17/RECEIVABLE_LAG_THEORY.md",
+    "research/theory_integration_2026_11_17/core_receivables.py",
+    "research/theory_integration_2026_11_17/RECEIVABLE_EVIDENCE.md",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
   ],
@@ -44,9 +43,9 @@
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "calendar_horizon_and_self_funding_bridge_derived; continue_same_argument",
-      "question": "Does the calendar-horizon policy reversal survive explicit invoice/payment delay, production-displacing learning and enforceable contingent supplier/customer financing with cash constraints?",
-      "deliverable": "Finite-horizon stochastic cash-state DP with dated A receivables and B learning, plus competent refundable/pledgeable pilot credit; prove or refute conditional dominance and integrate into the present manuscript. Do not add detached mini-models."
+      "status": "delayed_cash_and_shared_capacity_theorems_completed; same_paper_continues",
+      "question": "How does endogenous customer demand, contractual cost of pausing, and competing incumbent/specialist production change the net-value maximizing A-to-B qualification policy?",
+      "deliverable": "Compare best stopping/reinvestment policy within same earned-cash, qualification and shared-resource framework against competent human and specialist alternatives; test both proof and small exact numerical case."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
@@ -71,10 +70,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Unified capability production theory now includes calendar demand/operating receipts and endogenous learning acquisition; fixed-route exact and adaptive bounded findings; genuine buyer/payee finance and arrival law remain open.",
-    "atlas": "DHL/Formic/Cardinal source descriptions typed; qualified accepted-service paid site panel, BEA official numeric backbone and Q11 reconciliation remain open.",
-    "paper": "Integrated Result 8 added to main living manuscript, proof ledger, code, source ledger and teachback. First-paper contribution still unselected.",
-    "learning": "New 7 problems with separate solutions; 15 JS assertions and independent Python scoped checks, not evidence learner completed.",
+    "theory": "Integrated R1–R6 lagged collection, pausing, resource-sharing sustainable intensity and narrow lender contract; not a general equilibrium.",
+    "atlas": "Observed DHL service trajectory and NBER receivables research anchored; still no joined paid-order/qualification panel or numeric BEA backbone.",
+    "paper": "Result 9 linked in living manuscript; final contribution unselected.",
+    "learning": "Separate exercises and solutions; ten committed core tests and seventeen local extended LP tests passed.",
     "main_contribution": "candidate measurable production/learning/payment-topology synthesis; prior-art and industry calibration unresolved"
   },
   "known_limitations": [
@@ -95,7 +94,7 @@
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Acquired exclusive branch lease for same theory manuscript; prior Result8 retained; output pending verification. No parallel writer.",
+  "execution_note": "Held owned lease from head 1ab57aef; new core/test git blobs exactly match locally run 10/10 tests; extended 17/17 LP/quadrature tests passed locally but are not Git-committed. Published proof note, empirical source boundaries, living manuscript and separate teachback. Main, inaccessible Codex work and unreconciled Q10/Q11 unchanged. Continue one unified theory toward Nov22/Dec25.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
@@ -110,5 +109,23 @@
     "independent_review": false,
     "pdf_pages": 20,
     "pdf_scope": "Rendered and visually checked conversation delivery; editable Markdown and build instructions are in repository, PDF not committed"
+  },
+  "previous_result": "Result 8: accepted intermediate production while developing the next qualification yields a conditional CALENDAR-horizon reversal opposite to the earlier CASH-budget ranking. Exact fixed-route asymptotics, adaptive long-run lost-flow recursion, finite-horizon stopping/policy comparison, dated peak-cash requirement, and stochastic self-funding success probability derived; competent loan advance affects event probability without free surplus. Synthetic a=2,mu=1.2,v=4.5,W=10,c=1 yields adaptive joint at T=.5 and targeted A at T=2; 15 JS V8 assertions and 19 independent Python/SciPy scoped tests passed. Historical CI and industry calibration not performed.",
+  "validation_prior_result8": {
+    "JS_functions_V8_assertions_passed": 15,
+    "JS_committed_test_file_node_execution": "not_run",
+    "Python_SciPy_scoped_tests_passed": 19,
+    "Python_fresh_directory_replay": "19/19 and byte-identical results",
+    "Python_results_sha256": "02f7e4993cb906c18704b6fd3ad61ffc94afee2dbaefcc28d65662aecf934ce7",
+    "Git_JS_source_blob_verified": true,
+    "Git_JS_test_blob_verified": false,
+    "exact_route_integrals_checked_against_independent_quadrature": true,
+    "adaptive_numeric_checked_against_independent_finite_step_Bellman": true,
+    "full_historical_repository_suite": "not_run",
+    "independent_review": false
+  },
+  "quiet_checkpoint": {
+    "key": "20261117-receivables-theory",
+    "summary": "A completed conceptual repair of prior self-funding result with stronger pausing, physical displacement and contract-specific credit tests; no routine notification."
   }
 }

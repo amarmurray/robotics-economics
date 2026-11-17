@@ -1,0 +1,8 @@
+# Separate solutions — receipt maturity and productive learning
+
+1. Cash on the B-no-success path equals K minus c times cumulative B effort, plus v times accepted A production older than lag d: R1. Revenue billed but unsettled is a receivable, not cash unless pledged under enforceable finance.
+2. Before first collection available learning exposure is no more than K/c; afterward each unit of elapsed time brings at most v/c funded learning and at most one physical effort unit. Spend, pause when funds run out, and resume after collection to attain R2. Noninterruptible trials remove the pause option.
+3. With zero new receipts by exhaustion, cumulative A+B active time must fit B/c=.5. Two independent equal exponential hazards give 1-e^-1(1+1)=.264241117657. With delayed A receipts and legal pausing the exact stated integral gives .546572343960. Both probabilities are synthetic.
+4. For fraction x of B learning, cash earns v[1-(1-eta)x] and costs cx, hence x<=v/[c+v(1-eta)] and x<=1. Initially waiting for invoices constructs a feasible long-run schedule at that bound. Fixed finite debt divided by an unbounded horizon vanishes.
+5. Full-effort no-success cash deficit is maximized at min(h,d) or h, giving R5. Lender revenue is beta W times probability B has qualified early enough for AB collected receipts, integrated through h, giving R6. Compare F_min to pledged expected value only under the assumed credit contract; real pledge priority, repayment and borrower participation remain unknown.
+6. Join accepted A orders and A production volumes with exact B trial activity, invoices and actual deposits for the same robot and site. If A stops whenever B runs or no qualified A output is accepted, eta=1 is false and its bridge cannot be applied.
