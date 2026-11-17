@@ -5,26 +5,29 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T1440Z-Q12",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T15:25:00Z"
+    "status": "released",
+    "expires_at_utc": "2026-11-17T15:25:00Z",
+    "reason": "Q12 tested research published to isolated assistant-led branch"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q9: exact Bayesian value-of-sample-information model of held-out complete-order validation vs already-qualified fleet expansion, with customer demand, existing capacity, contract capture and cash. Prior g=0.95/0.85 (synthetic), incumbent J=0.30; eight tests at .01 each maximize value 0.360850807 vs no test 0.30 for cash 2.10. Cash 2.00 removes the ability to finance new workflow after any test; cash 2.05 best n=5. 25 scoped tests passed; code/test Git blobs exactly match local validated files.",
+  "latest_result": "Q12: compared qualified flexible hardware versus equal-capital digitally coordinated task-specialists under correlated customer demands and finite shared human attention. Under sufficient H, F minus coordinated value equals 6/25-(2/5)*lambda, switching at lambda=3/5. With lambda=0 and H 1 to 4/5, winner reverses F (+6/25) to digital specialists (+54/125). 20 new scoped tests passed and fresh-directory results byte-identical. Synthetic normalized data; no calibrated vendor economics. Q10 former unpublished work still unrecovered.",
   "validation": {
-    "new_tests": 25,
-    "scope": "Q9 exact Fraction posterior/decision/capital tests and source distinction; all newly run in local standard-library Python",
+    "new_tests": 20,
+    "scope": "Q12 exact 2-service concave quadratic supervisor-attention portfolio tests: correlation, attention, rights, liquidity, qualification and independent finite-grid lower-bound checks",
     "historical_repository_suite": "not_run",
     "git_source_blob_verified": true,
     "git_test_blob_verified": true,
-    "regenerated_results_sha256": "dfd81b75247cb96b0e6d52ea981a822b65c7b66c624323b699ed47c2f9fee49f",
+    "regenerated_results_sha256": "2872effc10931ddc8a38933c0f0697d049b88cc9729d699c2d7a6b4d2fcbea09",
+    "fresh_directory_replay": "byte-identical and 20/20 tests passed",
     "independent_review": false
   },
   "read_next": [
-    "research/validation_q9_2026_11_17/RESEARCH_NOTE.md",
-    "research/validation_q9_2026_11_17/EVIDENCE.json",
-    "paper/qualification_evidence_segment.md"
+    "research/digital_specialist_q12_2026_11_17/RESEARCH_NOTE.md",
+    "research/digital_specialist_q12_2026_11_17/EVIDENCE.json",
+    "research/digital_specialist_q12_2026_11_17/MANUSCRIPT_SEGMENT.md",
+    "research/validation_q9_2026_11_17/RESEARCH_NOTE.md"
   ],
   "queue": [
     {
@@ -115,13 +118,39 @@
       "question": "When do trial delay, endogenous customer demand and a paid/financed qualification pilot change the optimal incumbent-vs-new-workflow investment?",
       "deliverable": "Time-indexed exact target/customer demand and competing-capacity model; finance/paid-pilot ablation; source-grounded event-level data protocol and integrated manuscript section.",
       "status": "next_unblocked"
+    },
+    {
+      "id": "Q11",
+      "priority": 2,
+      "kind": "physical_flexibility",
+      "question": "When does physical pooling beat dedicated production under correlated demand and qualified service?",
+      "deliverable": "Local independently validated 15-test archive pending proper separate integration; do not claim already in branch.",
+      "status": "local_validated_uncommitted",
+      "remaining": "Reconcile local Q11 source/test archive into canonical branch without overwriting Q10 unpublished content."
+    },
+    {
+      "id": "Q12",
+      "priority": 1,
+      "kind": "digital_vs_physical_organization",
+      "question": "When is digital coordination of specialized qualified capacity a competent substitute for physical generality?",
+      "deliverable": "Exact statewise comparison, analytical synchrony threshold, binding human-attention reversal, primary-source relation ledger and teaching.",
+      "status": "conditional_analytical_and_evidence_tranche_completed",
+      "remaining": "Replace binary task eligibility with overlapping task graph; switching/intervention constraints and joint accepted-order service."
+    },
+    {
+      "id": "Q13",
+      "priority": 2,
+      "kind": "network_topology_and_qualification",
+      "question": "Under partially overlapping eligible-task edges, when does a digitally orchestrated mixed fleet replicate qualified physical pooling?",
+      "deliverable": "Small joint-order capability-hypergraph result or counterexample with switch costs, demand and matched outside option; measured-style workflow panel.",
+      "status": "next_constructive_option"
     }
   ],
   "portfolio_status": {
-    "theory": "Q9 complete-service Bayesian evidence valuation and liquidity-gated sample size; distinct from data-driven capability improvements",
-    "atlas": "Q9 measurement comparison: RoboCasa held-out binary simulated full-task trials; DROID curated training demonstrations; actual customer acceptance, cost and receipt panel unknown. BEA numeric backbone still unbuilt.",
-    "paper": "Q9 trial-and-capital decision segment added to Q8 acceptance hyperedge and Q7 multipayer sequence; no full integrated draft or selected contribution",
-    "learning": "Q9 teachback 08 and separate solutions; 25 new scoped exact tests",
+    "theory": "Q12 combines Q11 covariance-dependent flexibility with explicit finite human-attention and competent digital-specialist comparison; two conditional ranking reversals; full manuscript contribution still unselected.",
+    "atlas": "Issuer-described LocusONE pick-and-pass and Amazon Sequoia multi-system handoffs documented, with unobserved attention, joint demand, qualification, costs and receipts typed unknown. Official numeric BEA backbone still open.",
+    "paper": "Q12 manuscript segment prepared, not integrated complete paper; Q11 local checkpoint pending publication and Q10 unfinished local work unrecovered.",
+    "learning": "Q12 teachback and separate solutions, 20 exact scoped tests.",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -137,5 +166,5 @@
     "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing.",
     "Q9 validation regimes, prior, test costs and returns are synthetic; no observed warehouse whole-order likelihoods, training/validation rights, or staged financing contract."
   ],
-  "execution_note": "Q12 independent validated work prepared with 20 passing tests; acquiring exclusive branch lease after previous Q10 lease expired. Preserve Q10 unpublished work if recovered; no Q10 content overwritten."
+  "execution_note": "Q12 independent constructive research finished after Q10 lease expiration, branch exclusive lease acquired CAS, exact source/test Git blob matched tested local artifacts, 20 tests passed; source-grounded comparative note, manuscript, evidence and teachback published with released lease. Q10 unseen local work preserved and Q11 independent archive still to integrate. Next eligibility-network capability graph or reconcile missing Q10/Q11 prior to expanding."
 }

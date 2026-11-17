@@ -1,0 +1,26 @@
+{
+  "model": "Q12 exact synthetic rational case",
+  "demand": {
+    "low": 3,
+    "high": 5,
+    "b": 2
+  },
+  "portfolio": {
+    "K": 2,
+    "cap_flexible": 2,
+    "cap_dedicated_each": 1,
+    "capital_flexible": "43/20",
+    "capital_digital_specialist": "43/20",
+    "capture": "4/5",
+    "overhead_flexible": "1/10"
+  },
+  "results": {
+    "full_attention_synchrony_threshold": "3/5",
+    "lambda_0_H_1_F_minus_digital": "6/25",
+    "lambda_0_H_4_5_F_minus_digital": "-54/125",
+    "F_at_H_1_lambda_0": "289/100",
+    "F_at_H_4_5_lambda_0": "1109/500",
+    "D_at_both_H": "53/20"
+  },
+  "warning": "Inputs synthetic; results cannot be applied as actual fleet unit economics without observed accepted service and financing."
+}

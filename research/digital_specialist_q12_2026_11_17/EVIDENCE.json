@@ -1,0 +1,62 @@
+{
+  "status": "Primary-source descriptions and nonobserved model edges, not calibration",
+  "retrieved": "2026-11-17",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Locus Robotics How It Works",
+      "url": "https://locusrobotics.com/platform/how-it-works/",
+      "publication_date": null,
+      "scope": "vendor multi-workflow, Pick & Pass and orchestration description"
+    },
+    {
+      "id": "S2",
+      "title": "Amazon Sequoia launch",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+      "publication_date": "2023-10-18",
+      "scope": "issuer production flow involving robots and employees"
+    },
+    {
+      "id": "S3",
+      "title": "Jordan and Graves process flexibility",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.41.4.577",
+      "publication_date": "1995-04",
+      "scope": "process flexibility prior art"
+    }
+  ],
+  "edges": [
+    {
+      "from": "LocusONE",
+      "to": "heterogeneous qualified workflows",
+      "type": "issuer_described_routing",
+      "source": "S1",
+      "attention_effect": null
+    },
+    {
+      "from": "Sequoia",
+      "to": "mobile robots, gantry, arms and human workstations",
+      "type": "issuer_described_production_chain",
+      "source": "S2",
+      "cash_effect": null
+    },
+    {
+      "from": "joint customer task demand",
+      "to": "capacity pooling premium",
+      "type": "synthetic_model_relation",
+      "source": null,
+      "empirical_covariance": null
+    },
+    {
+      "from": "coordination",
+      "to": "human attention per accepted service",
+      "type": "model_hypothesis",
+      "source": null,
+      "real_h": null
+    }
+  ],
+  "no_inference": [
+    "No source identifies model attention, investment, customer margin or correlation parameters.",
+    "Vendor mixed fleets may have their own cross-task physical flexibility.",
+    "No matched comparison of qualified same-order service and paid economics is observed."
+  ]
+}
