@@ -1,0 +1,102 @@
+{
+  "created_at_utc": "2026-11-17T15:39:28.197883+00:00",
+  "input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
+  "lease_commit": "89ec2bd51fee7aa7df763c70aec0e9c842bd989c",
+  "status": "locally completed; publication recorded separately after verified CAS",
+  "commands": [
+    "python theory.py --output results.json",
+    "python -m unittest -v test_theory"
+  ],
+  "tests": {
+    "passed": 42,
+    "original_duration_seconds": 4.66,
+    "fresh_directory_duration_seconds": 4.461,
+    "fresh_results_byte_identical": true,
+    "scope": "integrated theory only; no historical repository CI, empirical calibration or independent review"
+  },
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "pdf": {
+    "pages": 20,
+    "build": "Pandoc + XeLaTeX; Unicode DejaVu Serif installed font, not distributed",
+    "visual_check": "All-page contact sheet and page 12 mathematical/stopping derivation inspected; no missing-glyph build warning or clipping found"
+  },
+  "files": [
+    {
+      "path": "theory.py",
+      "bytes": 18518,
+      "sha256": "6a987eedd83f69263aa9a2295c6016a90e2bf6c2570f28d85d44633c29b518ef",
+      "git_blob_sha1": "55ee2926527fead22b21a72392b16009e5006adf"
+    },
+    {
+      "path": "test_theory.py",
+      "bytes": 16257,
+      "sha256": "71a48cb35e5e1a4a78115806f54b814d686c8a6df456d3583f2af9b6fa956b10",
+      "git_blob_sha1": "6e915b27adc7dea05903c68ef009a7fce1df5c2f"
+    },
+    {
+      "path": "results.json",
+      "bytes": 8201,
+      "sha256": "901404da4a9afc022253ab93de4519b548c0de5cef57d4ddacddedeb3b22cea3",
+      "git_blob_sha1": "cb08b6d5d7e26371d71513cefd125803d58c7ada"
+    },
+    {
+      "path": "THEORY_MANUSCRIPT.md",
+      "bytes": 53952,
+      "sha256": "a8a486fc385b7d5ca1fce620f5027a058e66f1af0f67a7d515f6687d1a09ad50",
+      "git_blob_sha1": "b8bf3f412271815fc979246a512417ccb36d86c0"
+    },
+    {
+      "path": "RESEARCH_PROGRAM.md",
+      "bytes": 7537,
+      "sha256": "de154397bf4d53368fd7c3218435cb9b86b7c83caf33c7345212857147f03ac3",
+      "git_blob_sha1": "ca9b8052e31291b92addc5ed808d5cc4b2a473eb"
+    },
+    {
+      "path": "CLAIMS_AND_SOURCES.md",
+      "bytes": 4941,
+      "sha256": "1297068577b72fd84ced4365dc5a59437d0cf1e976bca9b97f8795aca7101333",
+      "git_blob_sha1": "80ac3ec3d99eaa648b4161451d309c3f6617cd84"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2310,
+      "sha256": "528d3755dc0abb37f708b12a702a975f0d0addca592460fe3d4435cdcacc3cbd",
+      "git_blob_sha1": "ff5707ca4ad71369bce3a1b2ec3f31230dcb6b2f"
+    },
+    {
+      "path": "STUDY_GUIDE.md",
+      "bytes": 2507,
+      "sha256": "4feadfd42d164f793126c3ec7509e42e2dd5ed5bc8f3f6300a0d16eb2a3ee1a6",
+      "git_blob_sha1": "ac9ec4ba3834ed9ce86bfe406171ae5cd46763e4"
+    },
+    {
+      "path": "SOLUTIONS.md",
+      "bytes": 2946,
+      "sha256": "7807d045a33b6356fa1663047c050cda2922d1762c7c89f010d88643df1bb777",
+      "git_blob_sha1": "39a917d51e89a399254a8d9642866d4e02be4a07"
+    },
+    {
+      "path": "header.tex",
+      "bytes": 76,
+      "sha256": "01d37b4422441a4f5296a457ba2047a3df502bb9d56747fa195310f4fffb6623",
+      "git_blob_sha1": "7ecd487e94eb86543c121892cce46114f3466799"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+      "git_blob_sha1": "871c966c09f89af68c058514f0f7ecce9f1578d3"
+    },
+    {
+      "path": "When_Capabilities_Become_Production.pdf",
+      "bytes": 131278,
+      "sha256": "be46788c11d4f887c0b72502aeb47463a95ba9b62cc9d1996812f582217e9d47",
+      "git_blob_sha1": "9d649b3cd56eaa24bb528ce595379e372428a257"
+    }
+  ]
+}

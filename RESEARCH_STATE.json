@@ -3,23 +3,95 @@
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
-  "lease": {"run_id": "interactive-20261117-theory-integration", "status": "active", "expires_at_utc": "2026-11-17T16:25:00Z", "reason": "User explicitly requests sustained robust theory rather than serial small model tranches"},
+  "lease": {
+    "run_id": "interactive-20261117-theory-integration",
+    "status": "released",
+    "expires_at_utc": "2026-11-17T16:25:00Z",
+    "reason": "Integrated theoretical manuscript, proofs, countermodels, code and teaching completed and checked for publication in this commit"
+  },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
+  "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Sustained integrated theory block. Do not default to another Q-number toy or threshold. Preserve and revisit the full empirical, paper and teaching agenda.",
+  "current_mode": "Sustained integrated theory block. Continue the same argument across runs; no automatic new Q-number toy, threshold or miniature paper. Keep full empirical, dynamic investment, manuscript and teaching roadmap active.",
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "backlog_policy": "The complete pre-change Q1-Q13 queue, detailed validation, limitations and portfolio state are preserved byte-for-byte in backlog_file. Read it alongside this state; no question or milestone is canceled. Current block changes research granularity and priority, not authority or roadmap.",
-  "latest_result": "Prior published Q12 compared physical pooling with digitally coordinated specialists under shared attention; current integrated investigation is in progress, not a result yet.",
-  "read_next": ["RESEARCH_EXECUTION.md", "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json", "research/digital_specialist_q12_2026_11_17/RESEARCH_NOTE.md", "THEORY_PHASE.md", "research/theory/milestones.md"],
-  "queue": [
-    {"id":"THEORY-INTEGRATION","priority":1,"status":"in_progress","question":"When does adding technical capability enlarge economically usable production opportunities, and when do learning and qualification investments have irreducible network complementarities?","deliverable":"A unified economic environment, fully stated propositions with proofs/counterexamples, closest-literature comparison, adversarial computational checks, empirical implications, and an integrated manuscript rather than another isolated example."},
-    {"id":"EMPIRICAL-TOPOLOGY","priority":2,"status":"retained","question":"Measure accepted-service recipes, joint demand, qualification and operating-resource relationships; preserve Q2 and Q8 empirical gaps without inferring task links from sector flows."},
-    {"id":"DYNAMIC-INVESTMENT","priority":2,"status":"retained","question":"Connect production-frontier changes to endogenous learning, customer demand, payer cash, manufacture, embodiments and organization; reconcile previous Q1-Q13 results."},
-    {"id":"PAPER-AND-TEACHING","priority":1,"status":"alongside_theory","question":"Produce one coherent argument, proof appendix and teach-back, distinguish reconstructed theory from candidate originality, and preserve Christmas milestones."}
+  "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
+  "latest_result": "Integrated theory: common optimal dual certificate for economically redundant recipe bundles; arbitrarily long complementary qualification chains; productive-bundle leading economic order under independent acquisitions; customer demand can change that order; optimal heterogeneous batch allocation and S-shaped economic response; dependence sign determined by production interaction; general adaptive gross-order bound and solved cost-aware homogeneous retained-success stopping policy. Adaptive retention overturns the large committed-batch hurdle in the synthetic example. 20-page manuscript, code, claim/source ledger and teaching produced. Publication novelty, industrial calibration and full dynamic equilibrium are not claimed.",
+  "validation": {
+    "new_tests": 42,
+    "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
+    "fresh_directory_tests": 42,
+    "fresh_results_byte_identical": true,
+    "results_sha256": "901404da4a9afc022253ab93de4519b548c0de5cef57d4ddacddedeb3b22cea3",
+    "source_git_blob": "55ee2926527fead22b21a72392b16009e5006adf",
+    "test_git_blob": "6e915b27adc7dea05903c68ef009a7fce1df5c2f",
+    "manuscript_git_blob": "b8bf3f412271815fc979246a512417ccb36d86c0",
+    "git_blobs_match_validated_local_files": true,
+    "historical_repository_suite": "not_run",
+    "independent_review": false,
+    "pdf_pages": 20,
+    "pdf_scope": "Rendered and visually checked conversation delivery; editable Markdown and build instructions are in repository, PDF not committed"
+  },
+  "read_next": [
+    "THEORY_REFOCUS_2026_11_17.md",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/CLAIMS_AND_SOURCES.md",
+    "research/theory_integration_2026_11_17/theory.py",
+    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "THEORY_PHASE.md",
+    "research/theory/milestones.md"
   ],
-  "portfolio_status": {"theory":"integrating prior mechanisms into a sustained theory block", "atlas":"not completed; inherited evidence gaps preserved", "paper":"separate prior segments require synthesis", "main_contribution":"unselected"},
-  "known_limitations": ["Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.","Q11 local archive remains unintegrated; preserve it.","Official numeric BEA backbone remains open; do not retry exhausted routes without new access.","All prior synthetic coefficients remain uncalibrated. See preserved prior state for exact limitations."],
-  "last_notification": {"key":"20261117-user-theory-change","content":"Acknowledged sustained theoretical investigation; no new finding claimed yet."},
-  "execution_note":"Exclusive research lease being acquired by expected-head update. No main changes, new worker, outreach or schedule changes. Release lease with actual verified research output."
+  "queue": [
+    {
+      "id": "THEORY-INTEGRATION",
+      "priority": 1,
+      "status": "initial_unified_proofs_and_adaptive_countermodel_completed; continue_same_argument",
+      "question": "How do joint qualification events and partially valuable intermediate states alter optimal learning and customer-opportunity selection?",
+      "deliverable": "Extend the unified acquisition/production model beyond independent terminal-only chains with a fully specified transition and a consequential proof or counterexample, grounded in an accepted-service graph. Do not rederive the now-solved homogeneous chain or introduce arbitrary strategic data premiums."
+    },
+    {
+      "id": "EMPIRICAL-TOPOLOGY",
+      "priority": 2,
+      "status": "retained; required_bridge_alongside_theory",
+      "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
+      "deliverable": "One source-grounded customer workflow map with demand/resource/qualification status and a defensible measured or bounded interaction; retain official backbone and prior Q2/Q8 gaps without substituting vendor announcements."
+    },
+    {
+      "id": "DYNAMIC-INVESTMENT",
+      "priority": 2,
+      "status": "retained",
+      "question": "How does productive deployment fund and alter subsequent capability acquisition when cash, manufacturing knowledge, field learning and access accrue to different actors?",
+      "deliverable": "A common continuation-value account with retained qualified versions, competent financing/contracts and heterogeneous investment. Integrate earlier demand, coordination, manufacturing and embodiment results rather than overwrite them."
+    },
+    {
+      "id": "PAPER-AND-TEACHING",
+      "priority": 1,
+      "status": "integrated_20_page_private_draft_and_exercises_completed; ongoing",
+      "question": "Does the unified economic learning argument support the first paper's contribution?",
+      "deliverable": "Deepen this manuscript and closest-literature comparison, test a strong competing explanation, prepare teach-back; assess the contribution at Nov22/Dec6 gates without pretending current conditional derivations establish novelty."
+    }
+  ],
+  "portfolio_status": {
+    "theory": "Unified production/qualification/acquisition argument with proofs and an adaptive countermodel; robust minimal-event gross order distinguished from institution-sensitive net investment thresholds.",
+    "atlas": "New discriminating measurement program, not new observed qualification/cost estimates; empirical backbone and workflow evidence remain active gaps.",
+    "paper": "Coherent 20-page private theory manuscript now exists, not completed Christmas paper or selected final contribution.",
+    "learning": "Six teach-back problems with separate solutions; producing these is not proof of Amar's mastery.",
+    "main_contribution": "candidate measurement-linked economics of capability acquisition; originality and empirical support unestablished"
+  },
+  "known_limitations": [
+    "Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.",
+    "Q11 local archive remains unintegrated; preserve it.",
+    "Official numeric BEA backbone remains open; do not retry exhausted routes without a genuinely new source route.",
+    "Technical event independence and fixed-demand conditioning are substantive; shared acquisitions and endogenous customer states can alter conclusions.",
+    "Finite LP operating results require correct accepted-service recipes; nonpreemptive complete orders may need integer scheduling with a relaxation gap.",
+    "Adaptive homogeneous terminal-reward problem solved, not general heterogeneous multi-payer learning/industry equilibrium.",
+    "Publisher abstracts for closest network-design and staged-R&D sources were inspected, not all full proofs; no novelty priority claim.",
+    "All numerical illustrations synthetic; no empirical robot learning, cost, contract or customer-return calibration."
+  ],
+  "last_notification": {
+    "key": "20261117-integrated-theory-user-request",
+    "content": "Current interactive response reports sustained-theory approach change, 20-page integrated draft, economically productive qualification order, demand feedback and adaptive-retention correction. Do not repeat these as a new hourly finding."
+  },
+  "execution_note": "Input and lease verified; code/test/manuscript Git blobs match locally validated files; 42 tests and fresh-directory replay passed; final publication is normal fast-forward CAS with released state. Prompt updated without cadence changes. No main write, other worker, outreach, public release or old-workspace recovery. Next run continues the same theoretical investigation and its empirical bridge."
 }

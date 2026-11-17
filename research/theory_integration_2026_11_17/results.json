@@ -1,0 +1,410 @@
+{
+  "adaptive_reward10_k3": {
+    "0": {
+      "expected_expenditure": 0.0,
+      "gain": 0.0,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.0,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "1": {
+      "expected_expenditure": 0.4156564169044392,
+      "gain": 0.09443223594027295,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.05100886528447146,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "10": {
+      "expected_expenditure": 2.9965625476376982,
+      "gain": 6.9756778568804085,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.9972240404518107,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "2": {
+      "expected_expenditure": 1.5577060152095292,
+      "gain": 1.5580015215816179,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.3115707536791148,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "3": {
+      "expected_expenditure": 2.238785192171794,
+      "gain": 3.4824846357550827,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.5721269827926878,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "4": {
+      "expected_expenditure": 2.6168070698228125,
+      "gain": 4.983610482430594,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.7600417552253407,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "5": {
+      "expected_expenditure": 2.814343672593386,
+      "gain": 5.931825917302679,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.8746169589896065,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    },
+    "6": {
+      "expected_expenditure": 2.9127824796105557,
+      "gain": 6.4646613076525785,
+      "start_budget": 0.7271641033794616,
+      "success_probability": 0.9377443787263134,
+      "thresholds": [
+        0.0,
+        0.11778303565638332,
+        0.7271641033794616
+      ],
+      "unlimited_budget_value": 7.0
+    }
+  },
+  "alternative_response_thresholds": {
+    "1": {
+      "effort": 0.0,
+      "reward": 1.0
+    },
+    "2": {
+      "effort": 2.0,
+      "reward": 8.0
+    },
+    "3": {
+      "effort": 6.0,
+      "reward": 20.250000000000004
+    },
+    "4": {
+      "effort": 12.0,
+      "reward": 37.925925925925924
+    },
+    "6": {
+      "effort": 30.0,
+      "reward": 89.57951999999997
+    }
+  },
+  "batch_sequential_k3": {
+    "0.01": {
+      "batch": 3.6852365227973735e-08,
+      "sequential": 1.6542165280748778e-07
+    },
+    "0.1": {
+      "batch": 3.52356128759339e-05,
+      "sequential": 0.00015465307026467172
+    },
+    "0.5": {
+      "batch": 0.0036180973368921056,
+      "sequential": 0.014387677966970684
+    },
+    "1": {
+      "batch": 0.022777984204966004,
+      "sequential": 0.08030139707139418
+    },
+    "2": {
+      "batch": 0.11520477401279154,
+      "sequential": 0.32332358381693654
+    },
+    "4": {
+      "batch": 0.3993433004324902,
+      "sequential": 0.7618966944464556
+    }
+  },
+  "chain3": {
+    "higher_local_demand_order": [
+      {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      {
+        "decimal": 3.0,
+        "exact": "3"
+      },
+      [
+        1
+      ]
+    ],
+    "higher_local_demand_values": [
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 8.0,
+        "exact": "8"
+      }
+    ],
+    "leading_order": [
+      {
+        "decimal": 3.0,
+        "exact": "3"
+      },
+      {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      [
+        7
+      ]
+    ],
+    "values_by_mask": [
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      {
+        "decimal": 6.0,
+        "exact": "6"
+      }
+    ]
+  },
+  "dependence": {
+    "complementary_gains": [
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.04,
+        "exact": "1/25"
+      },
+      {
+        "decimal": 0.2,
+        "exact": "1/5"
+      }
+    ],
+    "joint_independent": {
+      "decimal": 0.04,
+      "exact": "1/25"
+    },
+    "joint_lower": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "joint_upper": {
+      "decimal": 0.2,
+      "exact": "1/5"
+    },
+    "marginals": "1/5 each",
+    "substitute_gains": [
+      {
+        "decimal": 0.4,
+        "exact": "2/5"
+      },
+      {
+        "decimal": 0.36,
+        "exact": "9/25"
+      },
+      {
+        "decimal": 0.2,
+        "exact": "1/5"
+      }
+    ]
+  },
+  "heterogeneous_learning": {
+    "allocation": [
+      1.2472844770801141,
+      1.0048223866568256,
+      0.7478931362630605
+    ],
+    "allocation_with_prior": [
+      0.24629144319127994,
+      1.6388066234025016,
+      1.1149019334062187
+    ],
+    "budget": 3,
+    "slopes": [
+      0.5,
+      1,
+      2
+    ],
+    "with_prior": [
+      2,
+      0,
+      0
+    ]
+  },
+  "learning_thresholds": {
+    "1": {
+      "effort": 0.0,
+      "reward": 1.0,
+      "x": 0.0
+    },
+    "2": {
+      "effort": 2.5128624172523395,
+      "reward": 4.910814964568255,
+      "x": 1.2564312086261697
+    },
+    "3": {
+      "effort": 5.71144108332115,
+      "reward": 9.267358077630103,
+      "x": 1.9038136944403834
+    },
+    "4": {
+      "effort": 9.346651929052214,
+      "reward": 14.035605329691382,
+      "x": 2.3366629822630536
+    },
+    "6": {
+      "effort": 17.509802854698314,
+      "reward": 24.43455743398326,
+      "x": 2.9183004757830524
+    }
+  },
+  "old_optimal_dual_common_certificate": [
+    {
+      "dual": [
+        -0.0,
+        -0.0,
+        2.0,
+        0.0
+      ],
+      "exists": true,
+      "new_value": 2.0,
+      "old_value": 2.0
+    },
+    {
+      "dual": [
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "exists": true,
+      "new_value": 2.0,
+      "old_value": 2.0
+    },
+    {
+      "dual": null,
+      "exists": false,
+      "new_value": 3.0,
+      "old_value": 2.0
+    }
+  ],
+  "reward10_k3": {
+    "0": {
+      "effort": 0.0,
+      "gain": 0.0,
+      "success_probability": 0.0
+    },
+    "1": {
+      "effort": 0.0,
+      "gain": 0.0,
+      "success_probability": 0.0
+    },
+    "10": {
+      "effort": 6.051120553863621,
+      "gain": 0.46492531695038597,
+      "success_probability": 0.6516045870814007
+    },
+    "2": {
+      "effort": 0.0,
+      "gain": 0.0,
+      "success_probability": 0.0
+    },
+    "3": {
+      "effort": 0.0,
+      "gain": 0.0,
+      "success_probability": 0.0
+    },
+    "4": {
+      "effort": 0.0,
+      "gain": 0.0,
+      "success_probability": 0.0
+    },
+    "5": {
+      "effort": 5.0,
+      "gain": 0.3365722452998634,
+      "success_probability": 0.5336572245299863
+    },
+    "6": {
+      "effort": 6.0,
+      "gain": 0.46462314779698044,
+      "success_probability": 0.6464623147796981
+    }
+  },
+  "status": "Conditional mathematical results and synthetic checks; no empirical calibration or publication-novelty claim"
+}
