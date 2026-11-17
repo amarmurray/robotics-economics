@@ -1,0 +1,84 @@
+{
+  "research_commit": "f18aa86ec8cde54f37acba86c16fe644138a6ed1",
+  "created_on": "2026-11-17",
+  "scope": "Qualification bridge, early manuscript, evidence slice and teaching package; not whole-repository validation",
+  "files": [
+    {
+      "path": "research/qualification_bridge_2026_11_17/qualification.py",
+      "sha256": "e8f466cc6448c9b9d678b84d2794df8441b6b0dbbcb4c1bf89a1bbace3019e20",
+      "git_blob_sha1": "54e626e60a0c43091d08ba4fdc8a8d004c75fbed"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/bridge.py",
+      "sha256": "09264c2105b194a8561a8e8dcd9261349e3a2f338c87591db1ca20272f23ea13",
+      "git_blob_sha1": "bd66564be5fcb617f5394ff097ab722b40b88ffd"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/test_qualification.py",
+      "sha256": "711bc0f1ca312de3251f8ce2add2db9be8fb318425f5b289c923f42baffa5085",
+      "git_blob_sha1": "dee94c17a12a4655088fdb983e8d49a1dfd9d798"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/RESEARCH_NOTE.md",
+      "sha256": "c04b1a69282edadfe00d848e1c96f05441d013ab8370360dc80b4e7791fe233f",
+      "git_blob_sha1": "3b4e16ae6fa7eb361ee1a8454b5e010cb51549f0"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/evidence_atlas.json",
+      "sha256": "e16b22cd9fbfcd1d68de187821f057d655bbecaf3e2a8d87fb797789a4e1b0c4",
+      "git_blob_sha1": "15ccba07a2ca0ca581f90a3682f06df52a184785"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/LEARNING_EXERCISE.md",
+      "sha256": "766543790c857d7a76460ab4f5de131d8e5474b8719311cfc63057abbbc53505",
+      "git_blob_sha1": "57e6f3bfb9b7dbaa6cbf9a5b8ebb22041fee7952"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/SOLUTIONS.md",
+      "sha256": "4f972ea83c2fb1cf595fdc34a1970e052a58c39dadd3ca0df1b6525fdfbce8cc",
+      "git_blob_sha1": "9704ed8b11dc94b18e99b7ae5aba36333405ad03"
+    },
+    {
+      "path": "paper/assistant_working_paper.md",
+      "sha256": "987389db9a39506cd0337db7b6d46cdd8324bd572131e5ec726d0c534601ffac",
+      "git_blob_sha1": "d907612b20de7e1e7cd41cbef32f38e3318870b8"
+    },
+    {
+      "path": "research/takeover_2026_11_17/expansion.py",
+      "sha256": "6c3949faaa9cc1b3d77559033bfe0d079c5b6b3a9029312aa7b1fcd38f5fc47c",
+      "git_blob_sha1": "7fd5c276cb307beb7baad2da62110f155bb4dd9a"
+    },
+    {
+      "path": "research/takeover_2026_11_17/test_expansion.py",
+      "sha256": "906572e76cf77a50878f4a509a8a6fda6fb3d3a820145a37247674f86ca55830",
+      "git_blob_sha1": "1be1084caef608c8be107d3574393dcae1b4c018"
+    }
+  ],
+  "generated_outputs": [
+    {
+      "path": "research/qualification_bridge_2026_11_17/qualification_results.json",
+      "command_from_module_directory": "python qualification.py",
+      "sha256": "9fafb1490b965baf48d75253266ef91334ea864988cf98174ae5c4d46f042132",
+      "status": "Included in downloadable package; regenerate from committed source"
+    },
+    {
+      "path": "research/qualification_bridge_2026_11_17/bridge_results.json",
+      "command_from_module_directory": "python bridge.py",
+      "sha256": "0de50af4bf8182007432b11f1f781723995dc15fd26ab0a2fd56ef71cc2337ab",
+      "status": "Included in downloadable package; regenerate from committed source"
+    }
+  ],
+  "validation": {
+    "new_module_tests_passed": 17,
+    "prior_expansion_tests_rerun_passed": 18,
+    "replay": "Source-only fresh-directory replay; both result JSONs byte-identical",
+    "remote_check": "New source/test/note/evidence/teaching and manuscript blob IDs compared with locally tested files; inherited expansion source retained from prior checked package",
+    "not_claimed": [
+      "Full historical CI",
+      "Independent review",
+      "Empirical calibration",
+      "Publishable novelty",
+      "Successful future scheduled execution"
+    ]
+  }
+}
