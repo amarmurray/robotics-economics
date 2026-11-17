@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "read_on": "2026-11-17",
+  "scope": "Primary issuer descriptions not joined to an observed transfer-financing path",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Formic / 3D Machine customer case",
+      "url": "https://formic.co/resources/customer-stories/3d-machine-finds-new-competitive-edge-with-automation-partner-formic",
+      "published": "2023-08-30",
+      "status": "provider_reported"
+    },
+    {
+      "id": "S2",
+      "title": "Formic three-month palletizer trial",
+      "url": "https://land.formic.co/3-month-trial",
+      "published": null,
+      "status": "undated_marketing_offer"
+    },
+    {
+      "id": "S3",
+      "title": "Mitsubishi HC Capital America automation-as-a-service release",
+      "url": "https://www.mhccna.com/en-us/about-us/press-release/mitsubishi-hc-capital-america-grows-its-financing-automation-service",
+      "published": null,
+      "status": "financier_marketing_description"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "from": "3D Machine",
+      "to": "FANUC M-10iD / Mori Seiki lathe / Haas CNC",
+      "type": "reported_tending_workflow",
+      "source": "S1",
+      "accepted_output": null
+    },
+    {
+      "id": "R2",
+      "from": "human operator",
+      "to": "magazine loading",
+      "type": "retained_work",
+      "source": "S1",
+      "cost": null
+    },
+    {
+      "id": "R3",
+      "from": "3D Machine",
+      "to": "Formic",
+      "type": "productive_hour_fee_and_performance_guarantee",
+      "source": "S1",
+      "exact_rate": null,
+      "repricing_rights": null
+    },
+    {
+      "id": "R4",
+      "from": "tended cell",
+      "to": "capacity",
+      "type": "provider_reported_increase",
+      "source": "S1",
+      "pct": 25,
+      "actual_sales_change": null
+    },
+    {
+      "id": "R5",
+      "from": "tended cell",
+      "to": "active_hours",
+      "type": "provider_reported_first_half_2023",
+      "source": "S1",
+      "approx_hours": 2000
+    },
+    {
+      "id": "R6",
+      "from": "palletizer_trial",
+      "to": "monthly_fee",
+      "type": "advertised_offer",
+      "source": "S2",
+      "usd_per_month": 4750,
+      "months": 3,
+      "usage": "unlimited"
+    },
+    {
+      "id": "R7",
+      "from": "lender",
+      "to": "automation_providers",
+      "type": "described_as_a_service_finance",
+      "source": "S3",
+      "executed_terms": null
+    },
+    {
+      "id": "U1",
+      "from": "source_accepted_output_or_hours",
+      "to": "target_qualification_cost",
+      "type": "unobserved_transfer_cost_derivative",
+      "source": null,
+      "tau": null
+    },
+    {
+      "id": "U2",
+      "from": "specific_contract",
+      "to": "qualified_new_embodiment_finance",
+      "type": "unobserved_payer_bridge",
+      "source": null,
+      "advance": null
+    }
+  ],
+  "caveat": "No evidence that faster robot output caused fewer billed hours, that Formic used cross-task model learning, or that a qualified target investment was financed by this provider."
+}

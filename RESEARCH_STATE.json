@@ -5,21 +5,22 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T0743-Q3",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T09:03:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q2: Constructive non-identification result: identical synthetic sector IO/labor accounts admit opposite qualified robot markets, with exact conditional Leontief demand propagation. Eight scoped tests; BEA accounting sources checked; observed numeric BEA graph blocked and not claimed.",
+  "latest_result": "Q3: Exact synthetic contract-denomination/experience results. Fixed-hourly vs output pricing reverses chosen source/qualification investment; output fee ranking reverses again when useful experience is productive hours (tau>c). 12 committed scoped tests passed; Formic 2023 tending workflow and separate monthly trial described, not calibrated.",
   "validation": {
-    "new_tests": 8,
-    "scope": "exact synthetic sector IO model; fresh Python unittest run; historical repository suite not run"
+    "new_tests": 12,
+    "scope": "Fresh local Python unittest on committed compact model; additional 20-test detailed local package checked but not pushed; historical repository suite not run",
+    "committed_code_test_blobs_verified": true
   },
   "read_next": [
-    "research/sector_identification_2026_11_17/RESEARCH_NOTE.md",
-    "research/sector_identification_2026_11_17/evidence.json",
-    "paper/sector_network_identification_segment.md"
+    "research/contract_learning_2026_11_17/RESEARCH_NOTE.md",
+    "research/contract_learning_2026_11_17/evidence.json",
+    "paper/contract_learning_segment.md"
   ],
   "queue": [
     {
@@ -46,14 +47,16 @@
       "kind": "demand_and_contracts",
       "question": "Does the constructive source/investment ranking survive hourly billing, output pricing and customer demand response?",
       "deliverable": "Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives.",
-      "status": "next_unblocked"
+      "status": "conditional_analytical_tranche_completed",
+      "remaining": "Hybrid minimums, SLA penalties, productive/idle time, capacity and target-useful data not empirically estimated."
     },
     {
       "id": "Q4",
-      "priority": 4,
+      "priority": 1,
       "kind": "coordination",
       "question": "When does investment in digital coordination dominate more hardware or broader task coverage?",
-      "deliverable": "A compact shared-supervision or scheduling model tied to competence/coordination source reconstruction; include correlated exceptions and conventional baseline."
+      "deliverable": "Compact supervisor congestion/coordination choice using posted-hour or output-pricing response, matched outside production, and a source-backed contrasting workflow.",
+      "status": "next_unblocked"
     },
     {
       "id": "Q5",
@@ -71,10 +74,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "qualification/expansion bridge and embodiment-delay switching proof checked; broader endogenous network theory open",
-    "atlas": "BEA source semantics verified and sector-to-task nonidentification counterexample checked; NO observed numeric BEA backbone yet; source access unresolved.",
-    "paper": "Two prior substantive segments plus sector-network measurement/identification segment; contribution unselected.",
-    "learning": "teach-back exercises with separate solutions for qualification and embodiment timing",
+    "theory": "Expansion, qualification, embodiment delay, billing-unit and learning-denominator switching mechanisms checked; larger organizational and endogenous network theory remains open",
+    "atlas": "Named issuer-described manufacturing tending workflow with retained manual loading and pricing structures; no observed numeric BEA backbone or joined target-transfer panel",
+    "paper": "Additional contract/learning working segment; core contribution remains unselected, complete manuscript not drafted",
+    "learning": "New contract/learning teach-back and separate solutions, plus prior qualification and embodiment timing exercises",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -84,9 +87,9 @@
   "known_limitations": [
     "Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.",
     "Do not re-alert this unchanged limitation.",
-    "Scheduled task has not yet demonstrated successful unattended research access.",
     "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag.",
-    "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access."
+    "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access.",
+    "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified."
   ],
-  "execution_note": "Q3 receipt, demand and qualification model in progress; no accepted new result yet."
+  "execution_note": "Q3 published complete bounded model, note, workflow observation, paper/teach-back and compact executable tests; no active lease."
 }

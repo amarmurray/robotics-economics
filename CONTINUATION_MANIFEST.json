@@ -131,6 +131,49 @@
         "code_test_git_blobs_matched_local": true,
         "full_repo_ci_not_claimed": true
       }
+    },
+    {
+      "date": "2026-11-17",
+      "tranche": "Q3 billed units, demand and target-useful experience",
+      "input_branch_sha": "7a2e974d85c0d4ee259c34af2679f8bf4925dfcc",
+      "files": [
+        {
+          "path": "research/contract_learning_2026_11_17/contract_core.py",
+          "git_blob_sha1": "b233f0127be7538afd9cd26e5e00958123bba9ea",
+          "sha256": "18361a6df6eb3bbbb6533b9070848b825c1517fcc3787421ad441fe6d0d31610"
+        },
+        {
+          "path": "research/contract_learning_2026_11_17/test_contract_core.py",
+          "git_blob_sha1": "f349876875a2d6a6402eed6704a43f7f14442c09",
+          "sha256": "73ce049ffb7a75784e70ffb84d345ae15462090cff86e24185197730ebe1b6ca"
+        },
+        {
+          "path": "research/contract_learning_2026_11_17/RESEARCH_NOTE.md",
+          "git_blob_sha1": "ad465b163f1f4e95a98707a5249d7e1e3c35a736"
+        },
+        {
+          "path": "research/contract_learning_2026_11_17/evidence.json",
+          "git_blob_sha1": "388d1095fef68245784389e4cbaf5badeff2ca52"
+        },
+        {
+          "path": "research/contract_learning_2026_11_17/TEACH_BACK.md",
+          "git_blob_sha1": "210d4f0173fd4a69d57b206f988317ae10c991ad"
+        },
+        {
+          "path": "research/contract_learning_2026_11_17/SOLUTIONS.md",
+          "git_blob_sha1": "a71b299f6f214a67e29b5be5db152769640e637f"
+        },
+        {
+          "path": "paper/contract_learning_segment.md",
+          "git_blob_sha1": "481e5fd59f9d1ce8b4e6088fd27a1adbd29ecbd5"
+        }
+      ],
+      "validation": {
+        "new_compact_tests_passed": 12,
+        "source_and_test_blobs_match_local": true,
+        "full_repo_ci_not_claimed": true,
+        "source_date": "2026-11-17"
+      }
     }
   ]
 }

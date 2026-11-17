@@ -1,0 +1,5 @@
+# Teach-back Q3: the unit of billable work is not the unit of reusable experience
+
+A customer has revenue 6q-q²/2, outside-service marginal cost 3, and access to a robot producing s=2 or 4 accepted units per productive hour. The robot has cost 1/hour and three available hours. First price service at h=4/active hour; then at p=2/accepted unit. It has reusable experience e=q, and funding initial cash 4. Qualifying target B costs 3+max(2,11-e), and supplies later provider profit 76/5; incumbent expansion costs 8, supplying incremental profit 52/5.
+
+Derive (i) customer demand and participation under both contracts; (ii) source cash and the optimal qualified target versus incumbent choice; (iii) the fixed-hour derivative with respect to speed; (iv) why under output pricing and per-hour learning e=H, combined funded target value varies with (tau-c)/s; and (v) the observation that could identify whether accepted units or active hours truly reduce target qualification effort.
