@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "dated": "2026-11-17",
+  "model_class": "synthetic exact payers and partial-ID; no industry calibration",
+  "sources": [
+    {
+      "type": "primary_issuer",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "event_date": "2024-06-27",
+      "supports": "Live existing Digit/AMR tote-handoff and announced RaaS relationship",
+      "does_not_support": "Complete accepted service, contract price, A residual value, deposit/refund or lender claims"
+    },
+    {
+      "type": "primary_issuer",
+      "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate",
+      "event_date": "2026-10-26",
+      "supports": "Issuer-reported 100k+ totes at Flowery Branch and early-2027 expansion intention",
+      "does_not_support": "2026 operations at planned new sites or payment-risk copulas"
+    },
+    {
+      "type": "academic_prior",
+      "url": "https://academic.oup.com/qje/article-abstract/112/3/663/1926881",
+      "publication_date": "1997-08",
+      "supports": "Prior capital constraint/financial-intermediation theory; not a robotic-specific empirical estimate"
+    },
+    {
+      "type": "method_prior",
+      "url": "https://dberleant.github.io/papers/Sandia04.pdf",
+      "publication_date": "2004",
+      "supports": "Classical Frechet bounds as probability dependence analysis; not novel here"
+    }
+  ],
+  "gaps": [
+    "Matched same-site A/B accepted orders and competent nonrobot alternatives",
+    "Payer potential-payment shocks in unqualified states",
+    "Buyer retained value of displaced A service",
+    "Contractual refund collateral, assignment, seniority and enforcement",
+    "Correlated A invoice default and refund failure"
+  ]
+}

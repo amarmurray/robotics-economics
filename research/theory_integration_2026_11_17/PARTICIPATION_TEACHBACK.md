@@ -1,0 +1,9 @@
+# Teach-back: payment dependence and customer participation
+These are conditional economic models, not real contract estimates. Work through each question without looking at the separate solutions file.
+
+1. Two events Q and Y have marginal probabilities 3/4 and 9/10. Derive from a set partition the sharp lower and upper probabilities of Q AND Y. Explain why the product 27/40 is not determined by the marginals.
+2. With Q independent of S, P(Q)=3/4, P(S)=9/10, and potential payment marginals 9/10 for two dates, derive the sharp interval for E[16*(Q*Y2+Q*S*Y3)]. Show why the two endpoints can be attained simultaneously.
+3. A B buyer has gross value 24 per complete accepted service and pays the provider 16 only when an invoice is collected. Under the interval in (2), derive the buyer's worst expected retained value. Why is assuming unpaid invoices become costless to *society* an error even if they are transfers between two parties in this model?
+4. Define an A buyer's residual value a from an accepted service that shared-hardware qualification displaces, separate from provider margin d. Derive the nonrefundable customer-plus-lender **initial** financeability condition. Specify at least three conditions beyond that inequality needed for actual implementation.
+5. Use K=13, q_A1=1, immediate available cash=2, a=10, theta=1/2. Show that the shared route cannot be robustly funded under nonrefundable B pilot terms, even though the route's expected total real value is positive. How can a fully failure-refunded 14-unit pilot and an 8-unit loan change the answer? Check B buyer and lender IR algebraically.
+6. Form a potential counterexample to the claim that the refunded pilot always implements the productive project. Change ONE assumption about A collections, refund enforceability, A required output, or B customer default, and show exactly which inference fails. What observation would test the objection?

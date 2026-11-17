@@ -1,0 +1,86 @@
+[
+  {
+    "name": "shared",
+    "case": "base",
+    "bounds": {
+      "n": "57/40",
+      "lo": "98/5",
+      "hi": "114/5",
+      "ind": "513/25",
+      "umin": "57/5",
+      "mmin": "49/5",
+      "capacity": "106/5",
+      "real": "227/20",
+      "margin2": "37/10",
+      "margin3": "13/4"
+    },
+    "contract": {
+      "D": "15",
+      "P": "11",
+      "L": "4",
+      "share": "10/49",
+      "refundable": false,
+      "a": "3",
+      "providerMin": "31/4",
+      "buyerMin": "2/5",
+      "lenderMin": "0"
+    },
+    "minCash": "0"
+  },
+  {
+    "name": "specialist",
+    "case": "base",
+    "bounds": {
+      "n": "171/100",
+      "lo": "604/25",
+      "hi": "684/25",
+      "ind": "3078/125",
+      "umin": "342/25",
+      "mmin": "302/25",
+      "capacity": "644/25",
+      "real": "881/50",
+      "margin2": "23/5",
+      "margin3": "203/50"
+    },
+    "contract": {
+      "D": "20",
+      "P": "12",
+      "L": "8",
+      "share": "50/151",
+      "refundable": false,
+      "a": "0",
+      "providerMin": "637/50",
+      "buyerMin": "42/25",
+      "lenderMin": "0"
+    },
+    "minCash": "0"
+  },
+  {
+    "name": "shared",
+    "case": "A_customer_value_10",
+    "bounds": {
+      "n": "57/40",
+      "lo": "98/5",
+      "hi": "114/5",
+      "ind": "513/25",
+      "umin": "57/5",
+      "mmin": "49/5",
+      "capacity": "106/5",
+      "real": "87/20",
+      "margin2": "37/10",
+      "margin3": "13/4"
+    },
+    "contract": {
+      "D": "22",
+      "P": "14",
+      "L": "8",
+      "share": "20/49",
+      "refundable": true,
+      "a": "10",
+      "providerMin": "1/4",
+      "buyerMin": "9/10",
+      "lenderMin": "0"
+    },
+    "minCash": "0"
+  }
+]

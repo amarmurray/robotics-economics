@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T2230Z-participation-risk",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T23:40:00Z",
-    "reason": "Sustained theory: endogenous A/B customer participation and correlated qualification/payment events"
+    "reason": "Integrated theorem, proof, exact source/tests, manuscript, evidence and teach-back published; lease released"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,36 +16,37 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated contingent-claims continuation: a qualified service may be privately profitable but impossible to fund from legally eligible B receivables alone. Under a risk-neutral zero-discount enforceable model, initial external shortfall D is fundable through bounded customer paid pilot plus lender B claims if D<=customer retained value+effective pledgeable claims, conditional on postfunding liquidity and incentives. Synthetic shared vs specialist example: B-only pledges 10.26<12 and 12.312<20, but shared P12 and specialist P12+fair B-claim loan8 are feasible; jointly financed specialist strictly improves both buyer and provider payoffs; refundable pilot on qualification failure preserves the ranking and aggregate value. No robotics finance calibration or novelty claim.",
+  "latest_result": "Integrated exact buyer-consent/qualification-payment-dependence result: under fixed Q independent B survival but unknown payment shock coupling, accepted-service invoice expectation is sharply bounded by Frechet overlaps. Provider's incumbent A customer has separate retained-value participation; B buyer IR is worst with high payments while receivable lender breaks even under low payments. A positive aggregate-value shared route with high A buyer compensation fails a uniformly participating NONREFUNDABLE initial funding condition, yet a solvent qualification-failure refundable pilot plus loan restores feasibility (synthetic P14,L8,a10). Thus reject unconditional no-financing claim. 35 exact committed-blob checks and 13 independent local Python/SciPy scoped tests; no site calibration or novelty claim.",
   "validation": {
-    "scoped_assertions": 107,
-    "language": "JavaScript exact BigInt rational arithmetic in Code Mode V8, using exact same Git blob source/test text",
-    "test_scope": "All qualification, expiry and invoice-payment event states; funded shared versus fully priced specialist; lender expected zero profit; separate customer participation; receipt assignment and refund variant; min cash nonnegative on 32 paths per scenario",
-    "independent_baseline": "Local Python fractions enumeration independently matched expected lender/buyer/provider, aggregate values and minimum cash for both nonrefundable and failure-refunded contract choices",
-    "source_git_blob": "d79dca5ed74e907441e7cf5b85755d75f61b197a",
-    "test_git_blob": "ad043bcef530d40dda7a588c36a7212bc3cae409",
-    "results_git_blob": "448b0529da052607d8ab3d3e984b0c6db9c89df0",
-    "node_file_execution": "not_run",
-    "historical_repository_suite": "not_run",
+    "committed_test_V8_exact_assertions_passed": 35,
+    "local_independent_python_scipy_tests_passed": 13,
+    "LP_extrema": "16 state Q,S,Y2,Y3 marginals and Q⊥S; exact sharp extrema independently obtained for both routes",
+    "cash": "Every binary event history nonnegative under funded policies, including refundable Q failure",
+    "source_sha": "f8cd2bbe6bf07fd881a5243ecb83ab580ac15acf",
+    "test_sha": "c4acb93ff4b042b5d1e051fd0284d3dfa759b278",
+    "results_sha": "013c532bf44e3e5be4155c9c75421ea904d9cd80",
+    "git_test_blob_executed_in_V8": true,
+    "node_command_run": false,
+    "full_historical_CI": false,
     "independent_peer_review": false,
-    "empirical_calibration": false
+    "industry_calibration": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/CONTINGENT_CLAIMS_THEORY.md",
+    "research/theory_integration_2026_11_17/PARTICIPATION_DEPENDENCE_THEORY.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/contingent_claims.js",
-    "research/theory_integration_2026_11_17/contingent_claims_results.json",
-    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/participation_coupling.js",
+    "research/theory_integration_2026_11_17/PARTICIPATION_EVIDENCE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "THEORY_PHASE.md",
     "research/theory/milestones.md"
   ],
   "queue": [
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "claim_specific_financeability_and_refundable_customer_pilot_completed; continue_unified_manuscript",
-      "question": "When are paid pilot transfers and recourse enforceable under endogenous customer contract choice, A-customer welfare and qualification/receivable default correlation?",
-      "deliverable": "Endogenize provider/customer/lender contract choice on the same accepted-order network, include A buyer's retained surplus and the customer's outside option, examine adverse dependence of qualification and payment, and derive a sharp counterexample or identification bound. Keep user-specified theory focus rather than a standalone finance toy."
+      "status": "sharp_dependence_and_A_buyer_consent_derived;_refund_repair_constructed",
+      "question": "Does a shock jointly causing A invoice nonpayment and B qualification failure destroy the A-collateralized pilot-refund repair; can customer renegotiation or an independent specialist remedy it?",
+      "deliverable": "Derive statewise credible refund collateral and simultaneous A/B participation with human/specialist alternative; compare one exact bound/counterexample and discriminating empirical case; deepen same living paper and pedagogy."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
@@ -64,17 +65,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "living manuscript now includes contingent-claims proof, results and refundable-pilot teachback",
+      "status": "ongoing unified manuscript with buyer consent, dependence bounds, refund rescue and separate teachback",
       "question": "Does the unified economic learning argument support the first paper's contribution?",
       "deliverable": "Deepen this manuscript and closest-literature comparison, test a strong competing explanation, prepare teach-back; assess the contribution at Nov22/Dec6 gates without pretending current conditional derivations establish novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Same production/qualification theoretical spine extended to endogenous feasibility of supplier claims and customer paid pilots; profitable project can be unpledgeable to B lender but jointly financed specialist feasible; explicit voluntary-operation cap and refund countermodel.",
-    "atlas": "GXO accepted tote handoff evidence, NY UCC 9-406 limitation, and Zunya planned Q1 2027 disbursements accurately typed; matched accepted-order/receipts/rights panel absent; BEA macro backbone still open.",
-    "paper": "Updated integrated manuscript with contingent claims and an analytical proof note; originality unestablished and Nov22 synthesis gate not yet accepted.",
-    "learning": "Six new exercises with separate solutions and exact enumeration; no asserted learner mastery.",
-    "main_contribution": "candidate measurable organization of production, qualification-learning and legally pledgeable customer claims; unselected and uncalibrated"
+    "theory": "Qualified production/learning/payer argument now includes A buyer residual claim and joint B-qualification/payment selection, sharp expected cash-claim bounds and competent refundable contracting.",
+    "atlas": "Primary GXO/Agility 2024 live tote handoff and 2026 announced early-2027 expansion mapped, with explicit unknown accepted-order, customer valuation, invoice/deposit/rights panel; BEA numeric backbone open.",
+    "paper": "Living manuscript deepened, private first-paper contribution unselected; Nov22 synthesis not accepted.",
+    "learning": "Six new teachback problems with separate solutions and reproducible JS core, independent local SciPy LP validation; no measured learner mastery.",
+    "main_contribution": "candidate synthesis connecting qualified production network, joint acquisition/payment events, incumbent buyer welfare and legal funding claims; not proven original or calibrated"
   },
   "known_limitations": [
     "Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.",
@@ -94,13 +95,16 @@
     "Result 11 payment delays deterministic, B success probabilities synthetic, terminal receivables assumed fully collectible at par, no discount/default or observed loan assignment terms. The analytically thresholded one-shot argument is conditional; global optimum exact only for stated four-date action space.",
     "New claim-cap sufficiency applies only to enforceable risk-neutral date-1 transfers and pathwise solvent future operation, not actual receivable ownership or first-priority legal perfection.",
     "Customer paid-pilot deposit assumes signed informed ex-ante agreement; refundable on failure variant requires future liquid A receipts. A buyer welfare and default endogeneity are not modeled.",
-    "Zunya public site as of Nov17 says first loan disbursements planned Q1 2027, not verified existing 2026 financing; GXO public reports do not identify paid-pilot or receivable assignments."
+    "Zunya public site as of Nov17 says first loan disbursements planned Q1 2027, not verified existing 2026 financing; GXO public reports do not identify paid-pilot or receivable assignments.",
+    "Current refund-rescue example relies on certain incumbent A receipts, enforceable date-5 refund and A consent to reduced accepted output; next relax joint A payment-default/qualification shock.",
+    "Potential B payment shocks in unqualified counterfactual states are unobserved; Fréchet bounds are conditional on assumed marginals and Q independent S.",
+    "A retained-value loss a=3 and a=10 is synthetic, not derived from commercial customer contracts."
   ],
   "last_notification": {
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Exclusive theory run acquired at observed head, continuing prior work. Publication and tests pending.",
+  "execution_note": "Run resumed f3484326 and CAS-acquired 4f30ea7; publication adds source, independent evidence ledger, manuscript, exact result, tests and separate learning. Prior state/queue preserved, main untouched, no old worker recovery. Next A default+qualification common shock.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
@@ -131,8 +135,8 @@
     "independent_review": false
   },
   "quiet_checkpoint": {
-    "key": "20261117-contingent-claims-contract-rights",
-    "summary": "Substantive integrated funding-rights proposition and competent co-financed specialist counterexample, 107 exact scoped checks and independent Python enumeration; archive quietly, not an hourly notification."
+    "key": "20261117-participation-dependence",
+    "summary": "Sharp payment-copula bounds, incumbent A buyer consent, competence-respecting refundable pilot repair; 35 exact V8 checks, 13 independent Python/SciPy local tests; routine alert suppressed."
   },
   "validation_previous": {
     "committed_core_tests_passed": 10,
@@ -144,6 +148,19 @@
     "local_extended_results_sha256": "b7431c71617522380057acd590c93769642c9d7188c361e3557788074b0b4e4f",
     "historical_repository_suite": "not_run",
     "independent_review": false,
+    "empirical_calibration": false
+  },
+  "validation_before_participation": {
+    "scoped_assertions": 107,
+    "language": "JavaScript exact BigInt rational arithmetic in Code Mode V8, using exact same Git blob source/test text",
+    "test_scope": "All qualification, expiry and invoice-payment event states; funded shared versus fully priced specialist; lender expected zero profit; separate customer participation; receipt assignment and refund variant; min cash nonnegative on 32 paths per scenario",
+    "independent_baseline": "Local Python fractions enumeration independently matched expected lender/buyer/provider, aggregate values and minimum cash for both nonrefundable and failure-refunded contract choices",
+    "source_git_blob": "d79dca5ed74e907441e7cf5b85755d75f61b197a",
+    "test_git_blob": "ad043bcef530d40dda7a588c36a7212bc3cae409",
+    "results_git_blob": "448b0529da052607d8ab3d3e984b0c6db9c89df0",
+    "node_file_execution": "not_run",
+    "historical_repository_suite": "not_run",
+    "independent_peer_review": false,
     "empirical_calibration": false
   }
 }

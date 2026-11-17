@@ -69,3 +69,8 @@ Result 10 now solves the net-value learning controller against a qualified-outpu
 ## Contingent claim-rights continuation, November 17
 
 The integrated note CONTINGENT_CLAIMS_THEORY.md extends the finite-cash/demand result with incomplete B invoice pledgeability, time-limited demand, stochastic nonpayment, a risk-neutral lender, customer paid-pilot fee and refund-on-failure contract. A condition for funding the *date-1 gap* is derived, plus a fully realized exact A/B cash waterfall, jointly financed competent specialist alternative, and ex-post incentive restriction. Synthetic rational results and independent rational-event enumeration match, but no real finance terms are inferred. The next single coherent objection is endogenous customer contract formation and A buyer welfare, and the paper must still confront correlated defaults, insurer/funder priority and empirical linked order receipts.
+
+
+## Continuing participation/uncertainty repair (November 17)
+
+The common theoretical manuscript now includes A buyer consent and a sharp partial-identification exercise for B claims. A fixed nonrefundable B advance may be robustly infeasible despite positive productive value under unknown qualification/payment correlation, but an enforceable qualification-failure refund can repair the example. This is a *negative result about an overly restricted contract*, not a new general unfinanceability theorem. Local independent 16-atom distribution LP confirms the exact endpoint construction. Next: remove the assumption of certain A collections on the refund failure path; define state-dependent legal collateral and A customer renegotiation. Keep the full demand/learning/manufacturing/coordination/atlas roadmap and original Christmas milestones.
