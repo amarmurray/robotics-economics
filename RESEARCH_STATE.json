@@ -5,24 +5,26 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T1229Z-Q9",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T13:59:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q8: within-platform unloading vs case picking source-backed workflow contrast; sharp Frechet bounds show 95% marginal pick success yields 85–95% complete three-leg success under unknown dependence, straddling exact synthetic customer/qualification entry threshold (6-sqrt(6))/4~0.88763. Product marketing, reported unloading, MOU, received case, complete order, payment and causal transfer kept distinct. 18 new exact scoped tests passed and validated git blob SHAs match locally tested code.",
+  "latest_result": "Q9: exact Bayesian value-of-sample-information model of held-out complete-order validation vs already-qualified fleet expansion, with customer demand, existing capacity, contract capture and cash. Prior g=0.95/0.85 (synthetic), incumbent J=0.30; eight tests at .01 each maximize value 0.360850807 vs no test 0.30 for cash 2.10. Cash 2.00 removes the ability to finance new workflow after any test; cash 2.05 best n=5. 25 scoped tests passed; code/test Git blobs exactly match local validated files.",
   "validation": {
-    "new_tests": 18,
-    "scope": "Q8 test_workflow.py exact rational/conditional model checks plus source-ledger integrity; source and tests git blob IDs match locally tested files; result regenerated locally; no full CI",
+    "new_tests": 25,
+    "scope": "Q9 exact Fraction posterior/decision/capital tests and source distinction; all newly run in local standard-library Python",
     "historical_repository_suite": "not_run",
     "git_source_blob_verified": true,
-    "git_test_blob_verified": true
+    "git_test_blob_verified": true,
+    "regenerated_results_sha256": "dfd81b75247cb96b0e6d52ea981a822b65c7b66c624323b699ed47c2f9fee49f",
+    "independent_review": false
   },
   "read_next": [
-    "research/workflow_q8_2026_11_17/RESEARCH_NOTE.md",
-    "research/workflow_q8_2026_11_17/EVIDENCE.json",
-    "paper/workflow_acceptance_segment.md"
+    "research/validation_q9_2026_11_17/RESEARCH_NOTE.md",
+    "research/validation_q9_2026_11_17/EVIDENCE.json",
+    "paper/qualification_evidence_segment.md"
   ],
   "queue": [
     {
@@ -103,14 +105,23 @@
       "kind": "qualification_experiment_and_capital_allocation",
       "question": "When should a deployer invest in learning whether a multi-service configuration meets complete customer acceptance, versus expanding an established unloading fleet?",
       "deliverable": "Two-period exact value-of-information model with target order complete-service uncertainty, validation sample budget, incumbent investment, customer demand and finance. Prioritize an observed event-level panel, challenge prior art and avoid imposed probabilities.",
+      "status": "conditional_analytical_tranche_completed",
+      "remaining": "Test experiment delay, paid pilot/competent financing alternatives, variation in target order/site mix, and real acceptance/payment dataset. Do not rerun identical two-state toy."
+    },
+    {
+      "id": "Q10",
+      "priority": 1,
+      "kind": "dynamic_validation_contract",
+      "question": "When do trial delay, endogenous customer demand and a paid/financed qualification pilot change the optimal incumbent-vs-new-workflow investment?",
+      "deliverable": "Time-indexed exact target/customer demand and competing-capacity model; finance/paid-pilot ablation; source-grounded event-level data protocol and integrated manuscript section.",
       "status": "next_unblocked"
     }
   ],
   "portfolio_status": {
-    "theory": "Q8 full-service acceptance partial identification and conditional synthetic entry result layered onto Q7 multi-payer mechanisms",
-    "atlas": "Q8 within-platform unloading-to-case-picking source relationships, accepted-workflow topology and outside alternatives; no BEA numeric network or causal joint field panel",
-    "paper": "Q8 acceptance-hyperedge segment alongside Q7 source/field/manufacturer financing, still not integrated first draft",
-    "learning": "Q8 teachback 07 with separate solutions and 18 exact scoped tests",
+    "theory": "Q9 complete-service Bayesian evidence valuation and liquidity-gated sample size; distinct from data-driven capability improvements",
+    "atlas": "Q9 measurement comparison: RoboCasa held-out binary simulated full-task trials; DROID curated training demonstrations; actual customer acceptance, cost and receipt panel unknown. BEA numeric backbone still unbuilt.",
+    "paper": "Q9 trial-and-capital decision segment added to Q8 acceptance hyperedge and Q7 multipayer sequence; no full integrated draft or selected contribution",
+    "learning": "Q9 teachback 08 and separate solutions; 25 new scoped exact tests",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -123,7 +134,8 @@
     "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag.",
     "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access.",
     "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified.",
-    "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing."
+    "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing.",
+    "Q9 validation regimes, prior, test costs and returns are synthetic; no observed warehouse whole-order likelihoods, training/validation rights, or staged financing contract."
   ],
-  "execution_note": "Q8 bounded tranche completed under exclusive branch lease. Evidence and research paper segment committed. Reproduction: cd research/workflow_q8_2026_11_17; python workflow.py; python -m unittest -v test_workflow. Original main and inaccessible Codex remain untouched; lease released. Next Q9 bounded value-of-information vs incumbent capacity with empirical panel search, no repeat synthetic source score."
+  "execution_note": "Q9 bounded tranche completed under exclusive branch lease with full-order trial EVSI, funding-gated experiment-size decision and source-grounded measurement contrast. 25 new scoped tests passed locally; git blob hashes for source and tests match validated files. Reproduce in research/validation_q9_2026_11_17 via python value_of_evidence.py and python -m unittest -v test_value_of_evidence. Lease released. Next Q10: delay versus customer demand and a competent paid pilot; retain BEA numeric backbone as open. Original main and inaccessible Codex workspace untouched."
 }

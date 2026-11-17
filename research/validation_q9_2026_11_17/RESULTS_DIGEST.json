@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "status": "synthetic_exact_scoped",
+  "input_commit": "18e092cf07f4e4376a7ae3de7bee3b30aba28b1d",
+  "new_tests_passed": 25,
+  "model_sha256": "3c27bd88d4ba22be18233e8dc76c5f400ca58695297f9620be0632cbd200574c",
+  "test_sha256": "e96a0906965b61af35c5b293dac4b63ab46fb2d04eb47ae254269a5e72da06db",
+  "generated_results_sha256": "dfd81b75247cb96b0e6d52ea981a822b65c7b66c624323b699ed47c2f9fee49f",
+  "regeneration": "python value_of_evidence.py",
+  "test_command": "python -m unittest -v test_value_of_evidence",
+  "baseline_net": "3/10",
+  "posterior_cutoff": "53/96",
+  "optimal_n_at_budget_2_10": 8,
+  "optimal_net_fraction": "92377806639/256000000000",
+  "gross_evsi_fraction": "36057806639/256000000000",
+  "testing_cost": "2/25",
+  "cash_2_00_best_n": 0,
+  "cash_2_05_best_n": 5,
+  "historical_suite": "not_run",
+  "peer_review": "not_performed",
+  "empirical_calibration": false
+}

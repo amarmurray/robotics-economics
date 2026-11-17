@@ -1,20 +1,13 @@
-# Assistant-led research takeover — November 17, 2026
+# Assistant-led research continuation handoff — November 17, 2026
 
-Amar authorized the assistant to take ownership of the research and theory-building program in the conversation. This additive branch records that transfer and executed research, while leaving main and the inaccessible former Codex workspace unchanged pending reconciliation of its reported local checkpoint 12.
+Amar's full Christmas 2026 Robotics Economics research agenda remains active. The separate assistant-led branch and the hourly continuation protocol in RESEARCH_EXECUTION.md govern publication. Main and the inaccessible former Codex checkpoint 12 remain preserved; no claim is made that the old runtime was stopped. Do not spawn a competing writer.
 
-Read [ownership and continuation](research/takeover_2026_11_17/OWNERSHIP.md), then [the constructive research checkpoint](research/takeover_2026_11_17/RESEARCH_NOTE.md). The original Christmas goal, dated milestones and one-writer rule remain. No runtime stop, new worker, automation, outreach or public release is implied.
+## Current Q9 checkpoint
 
-The checkpoint builds an exact customer-demand and investment model for existing fleet expansion versus qualifying another configuration, with optional manufacturing tooling and retained cash. It includes 18 passing scoped tests, analytical entry conditions, mechanism ablations, a nonmonotone-breadth counterexample and a sparse primary-source evidence slice. Numerical inputs are synthetic; novelty and empirical calibration are not claimed.
+[Q9 research note](research/validation_q9_2026_11_17/RESEARCH_NOTE.md) derives the value of held-out, complete-service qualification evidence compared with incumbent unloading-capacity expansion. It applies Q8's accepted-order/customer-demand economics, distinguishes pure testing from capability improvement, and explicitly subtracts experiment expenditure from the funds available for final deployment. In an exact synthetic case the provider optimizes eight whole-order trials with cash 2.10 and no test with cash 2.00; high and low acceptance probabilities are not empirical estimates. The source-backed measurement contrast and separate economic-prior-art boundary are in [EVIDENCE.json](research/validation_q9_2026_11_17/EVIDENCE.json).
 
-Replication from the checkpoint directory:
+Model: research/validation_q9_2026_11_17/value_of_evidence.py. Tests: test_value_of_evidence.py. Twenty-five scoped tests passed; exact validated Git blob IDs b7e1a4545c78a0dbf36318aab16120508c9b4415 and 89bac123b732f3e8107248b05a1aff8e44725eda. Regenerate full exact result JSON by executing the model; RESULTS_DIGEST.json records its local SHA-256 and headline outputs. A working-paper section lives at paper/qualification_evidence_segment.md; a teach-back and separate solutions accompany the model. No complete paper or independent review is implied.
 
-```sh
-python expansion.py --output results.json
-python -m unittest -v test_expansion
-```
+## Exact next action
 
-Next research question: how does a measured source-to-target capability improvement alter the effort to qualify the same target service, and which destination customer economics justify buying that expansion rather than more incumbent capacity? Maintain that constructive focus alongside the preserved financing-identification branch.
-
-## Q8: physical workflow acceptance and target-learning evidence
-
-November 17, 2026: [Q8 research note](research/workflow_q8_2026_11_17/RESEARCH_NOTE.md) derives a sharp whole-service acceptance interval from known component reliabilities and connects it to final customer demand, rework, outside alternatives, captured cash and qualification cost. A three-leg 95% marginal-success example yields 85%-95% complete-order success, straddling a synthetic investment boundary. This is a standard probabilistic bound with an economic illustration, not an original proof or calibrated robot outcome. DHL/Boston Dynamics unloading, current case-picking marketing and customer-site scan dependencies are source-separated; the actual transferred learning effect, paid orders and validation costs are unknown. Exact Python model, 18 scoped tests, source map, paper segment and teach-back/solution are in the Q8 directory. Next: Q9 qualification evidence acquisition versus incumbent capacity investment, plus real order-level observations. Preserve the original calendar and one-writer rule.
+Advance Q10: compare costly validation **time** and customer-demand expiry with a competent paid pilot or financeable trial alternative, while retaining the incumbent capacity option and true accepted-service unit. Avoid another identical two-state coefficient toy or a claim that basic EVSI is novel. In parallel, seek a real complete-order joint-failure/qualification-cost/receipt panel, or explicitly delimit missing edges. Preserve the existing Nov22–Dec25 milestones and the larger capital/production-network atlas agenda.

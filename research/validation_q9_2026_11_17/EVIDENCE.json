@@ -1,0 +1,97 @@
+{
+  "scope": "Q9 source-grounded measurement and staged evidence decisions, not an observed joined commercial warehouse panel",
+  "checked_date": "2026-11-17",
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "RoboCasa maintainers",
+      "title": "RoboCasa 1.0.1 evaluation documentation",
+      "url": "https://robocasa.ai/docs/build/html/benchmarking/benchmarking_overview.html",
+      "publication_date": null,
+      "observation": "50 randomly sampled simulation rollouts with binary complete-task success; held-out target split",
+      "limitation": "Not accepted paid warehouse orders"
+    },
+    {
+      "id": "S2",
+      "publisher": "DROID research collaboration",
+      "title": "DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset",
+      "url": "https://droid-dataset.github.io/",
+      "paper": "https://arxiv.org/abs/2403.12945",
+      "first_arxiv_date": "2024-03-19",
+      "observation": "Curated physical robot demonstrations across diverse scenes and tasks",
+      "limitation": "Training successes are not a random complete-order acceptance panel"
+    },
+    {
+      "id": "S3",
+      "publisher": "Nanda and Rhodes-Kropf",
+      "title": "Financing Entrepreneurial Experimentation",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/684983",
+      "publication_date": "2016-03-01",
+      "observation": "Staged experimentation and finance prior art",
+      "limitation": "Does not identify robot qualification and commercial contracts"
+    },
+    {
+      "id": "S4",
+      "title": "DHL and Boston Dynamics unloading/case-picking contrast",
+      "repository_path": "research/workflow_q8_2026_11_17/EVIDENCE.json",
+      "observation": "Commercial unloading versus proposed/marketed target workflow",
+      "limitation": "No observed matched joint acceptance, qualification cost or collected fees"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "R1",
+      "source": "S1",
+      "from": "RoboCasa held-out rollout",
+      "to": "binary full-task outcome",
+      "status": "reported_evaluation_protocol",
+      "commercial_acceptance": null
+    },
+    {
+      "id": "R2",
+      "source": "S2",
+      "from": "robot demonstration collection",
+      "to": "training dataset",
+      "status": "reported_research_collection",
+      "commercial_rejection_denominator": null
+    },
+    {
+      "id": "R3",
+      "source": "S3",
+      "from": "staged experiment",
+      "to": "continuation or abandonment",
+      "status": "established_prior_art",
+      "robotic_parameter": null
+    },
+    {
+      "id": "H1",
+      "source": null,
+      "from": "target full-order validation",
+      "to": "posterior quality regime",
+      "status": "synthetic_assumption",
+      "measured_likelihood": null
+    },
+    {
+      "id": "H2",
+      "source": null,
+      "from": "validation and target qualification",
+      "to": "payer cash and customer accepted service",
+      "status": "unidentified_link",
+      "commercial_terms": null
+    }
+  ],
+  "priority_measurements": [
+    "Joint target order failure and WMS acceptance",
+    "Training/validation split with policy rights",
+    "Trial costs and qualification invoices",
+    "Alternative accepted-service investment",
+    "Payer liquidity and executed receivable terms"
+  ],
+  "do_not_infer": [
+    "No causal source-to-target data learning coefficient",
+    "Simulation task success not commercial order completion",
+    "The 0.85/0.95 regimes and all budget numbers are synthetic",
+    "No empirical sampling-cost recommendation"
+  ],
+  "calibrated": false
+}
