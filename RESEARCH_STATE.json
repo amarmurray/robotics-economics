@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "owner": "assistant-led Robotics Economics",
+  "branch": "research/assistant-led-expansion-20261117",
+  "input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
+  "lease": {
+    "run_id": "interactive-20261117-qualification-bridge",
+    "status": "active",
+    "expires_at_utc": "2026-11-17T07:10:00Z",
+    "rule": "Other runs must not write during this lease. Revalidate owner and expiry immediately before publication; update with expected-head CAS and no force."
+  },
+  "active_question": "How does a capability vector determine the cost of meeting a fixed service criterion, and how does that cost change deployment investment?",
+  "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
+  "execution_authorization": "Amar explicitly requested continuous execution on November 17, 2026. Hourly continuation task created; no uninterrupted execution claim.",
+  "next_action": "Complete and publish qualification-cost derivation, checked kernel, source bridge, manuscript section and learning exercise; then release lease.",
+  "last_notification": "Hourly continuation setup and current research underway reported in this conversation.",
+  "old_codex_checkpoint_12": "Unrecovered; preserve old main and workspace."
+}
