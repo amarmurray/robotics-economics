@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T1732Z-calendar-receipts",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T18:25:00Z",
-    "reason": "Extend integrated theory to calendar receipts and financeable qualification paths; no parallel workers"
+    "reason": "Published integrated calendar receipts, adaptive horizon reversal, and financing bridge with validated scoped results"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,27 +16,27 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated manuscript Result 7: optimized finite-state retained-success acquisition with typed multi-qualification events and partially productive states. Bellman verification; gross economic small-effort exponent counts successful event transitions, not arbitrary skill labels. Analytical sufficient conditions show targeting useful intermediate service is optimal at low funding while joint full-stack acquisition is optimal at large funding, even with adaptive continuation. 13 scoped tests, exact analytic baselines and independent finite-step approximate Bellman comparison passed. All rates/payoffs synthetic; DHL unloading / Boston Dynamics marketed picking establishes conceptual service distinction, not measured qualification rates.",
+  "latest_result": "Result 8: accepted intermediate production while developing the next qualification yields a conditional CALENDAR-horizon reversal opposite to the earlier CASH-budget ranking. Exact fixed-route asymptotics, adaptive long-run lost-flow recursion, finite-horizon stopping/policy comparison, dated peak-cash requirement, and stochastic self-funding success probability derived; competent loan advance affects event probability without free surplus. Synthetic a=2,mu=1.2,v=4.5,W=10,c=1 yields adaptive joint at T=.5 and targeted A at T=2; 15 JS V8 assertions and 19 independent Python/SciPy scoped tests passed. Historical CI and industry calibration not performed.",
   "validation": {
-    "new_tests": 13,
-    "scope": "Finite-state jump acquisition with retained success and partial operating payoff; single-event closed form, exact costless Erlang two-event benchmark, independent finite-step Bellman, policy reversal, monotone state values, validation checks",
-    "fresh_directory_tests": 13,
-    "fresh_results_byte_identical": true,
-    "results_sha256": "24fab14577d3c77dcf1b72e4304d1fd861e9001613b020f566007c2366557a0e",
-    "source_git_blob": "e8340f2b2128f7c13f58e57fb7ae5d3f02b3b360",
-    "test_git_blob": "b1f6cc48c48704185c94dc222746c2aea4b4c80e",
-    "results_git_blob": "bfdb106844d4e0a5e5f71156f154649c87d4ea78",
-    "git_blobs_match_validated_local_files": true,
-    "full_historical_suite": "not_run",
+    "JS_functions_V8_assertions_passed": 15,
+    "JS_committed_test_file_node_execution": "not_run",
+    "Python_SciPy_scoped_tests_passed": 19,
+    "Python_fresh_directory_replay": "19/19 and byte-identical results",
+    "Python_results_sha256": "02f7e4993cb906c18704b6fd3ad61ffc94afee2dbaefcc28d65662aecf934ce7",
+    "Git_JS_source_blob_verified": true,
+    "Git_JS_test_blob_verified": false,
+    "exact_route_integrals_checked_against_independent_quadrature": true,
+    "adaptive_numeric_checked_against_independent_finite_step_Bellman": true,
+    "full_historical_repository_suite": "not_run",
     "independent_review": false
   },
   "read_next": [
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/JOINT_EVENTS_AND_PARTIAL_VALUE.md",
-    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/CLAIMS_AND_SOURCES.md",
-    "research/theory_integration_2026_11_17/joint_acquisition.py",
+    "research/theory_integration_2026_11_17/CALENDAR_FINANCE_CONTINUATION.md",
+    "research/theory_integration_2026_11_17/CALENDAR_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/CALENDAR_REPRODUCE.md",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
   ],
@@ -44,38 +44,38 @@
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "event_control_and_partial_operating_states_derived; continue_same_argument",
-      "question": "Does the finance-horizon-dependent policy reversal survive time-varying accepted-service demand, real intermediate deployment receipts and competent paid-pilot/supplier financing?",
-      "deliverable": "A dated cash-and-production continuation model that nests Result 7, separates manufacturer/deployer/customer value and actual collections, proves or falsifies horizon dependence with a competent financeable alternative; empirical panel for source and target service receipt timing."
+      "status": "calendar_horizon_and_self_funding_bridge_derived; continue_same_argument",
+      "question": "Does the calendar-horizon policy reversal survive explicit invoice/payment delay, production-displacing learning and enforceable contingent supplier/customer financing with cash constraints?",
+      "deliverable": "Finite-horizon stochastic cash-state DP with dated A receivables and B learning, plus competent refundable/pledgeable pilot credit; prove or refute conditional dominance and integrate into the present manuscript. Do not add detached mini-models."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "retained; DHL-Boston Dynamics source chronology typed; real accepted-service event panel unresolved",
+      "status": "public_payer_contract_descriptions_mapped; site_paid_event_panel_unobserved",
       "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
-      "deliverable": "One source-grounded customer workflow map with demand/resource/qualification status and a defensible measured or bounded interaction; retain official backbone and prior Q2/Q8 gaps without substituting vendor announcements."
+      "deliverable": "Match accepted service A/B, failed trials, concurrent production and dated invoices/receipts for same site/customer; test earliest cash ability to finance B; preserve macro backbone requirement without repeated failed route."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
       "priority": 2,
-      "status": "retained",
+      "status": "stage_cash_bridge_derived_not_general_multipayer_equilibrium",
       "question": "How does productive deployment fund and alter subsequent capability acquisition when cash, manufacturing knowledge, field learning and access accrue to different actors?",
-      "deliverable": "A common continuation-value account with retained qualified versions, competent financing/contracts and heterogeneous investment. Integrate earlier demand, coordination, manufacturing and embodiment results rather than overwrite them."
+      "deliverable": "Provider/supplier/customer cash account with receivable maturity and enforceable contingent transfers; connect manufacturing and digital coordination resources to the same feasible recipes."
     },
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "integrated_20_page_private_draft_and_exercises_completed; ongoing",
+      "status": "living_manuscript_result8_and_teachback_added; continuing",
       "question": "Does the unified economic learning argument support the first paper's contribution?",
       "deliverable": "Deepen this manuscript and closest-literature comparison, test a strong competing explanation, prepare teach-back; assess the contribution at Nov22/Dec6 gates without pretending current conditional derivations establish novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Result 7 joins typed joint qualification events and useful partial services to existing operating network and adaptive-learning theory; finite-state proof and policy reversal, synthetic example only.",
-    "atlas": "DHL 2025 primary release + Boston Dynamics current case-picking description mapped to hypothesized accepted-service graph, with exact missing event, receipt, qualification and outside-option fields. No site-level calibration or BEA backbone.",
-    "paper": "Integrated manuscript includes Result 7 and linked rigorous proof/empirical note; full Christmas paper and novelty verdict pending.",
-    "learning": "Previous six learning exercises preserved; new four-problem packet and separate solutions for event-based order and adaptive decision.",
-    "main_contribution": "candidate measurement-linked economics of capability acquisition; originality and empirical support unestablished"
+    "theory": "Unified capability production theory now includes calendar demand/operating receipts and endogenous learning acquisition; fixed-route exact and adaptive bounded findings; genuine buyer/payee finance and arrival law remain open.",
+    "atlas": "DHL/Formic/Cardinal source descriptions typed; qualified accepted-service paid site panel, BEA official numeric backbone and Q11 reconciliation remain open.",
+    "paper": "Integrated Result 8 added to main living manuscript, proof ledger, code, source ledger and teachback. First-paper contribution still unselected.",
+    "learning": "New 7 problems with separate solutions; 15 JS assertions and independent Python scoped checks, not evidence learner completed.",
+    "main_contribution": "candidate measurable production/learning/payment-topology synthesis; prior-art and industry calibration unresolved"
   },
   "known_limitations": [
     "Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.",
@@ -86,13 +86,16 @@
     "Adaptive homogeneous terminal-reward problem solved, not general heterogeneous multi-payer learning/industry equilibrium.",
     "Publisher abstracts for closest network-design and staged-R&D sources were inspected, not all full proofs; no novelty priority claim.",
     "All numerical illustrations synthetic; no empirical robot learning, cost, contract or customer-return calibration.",
-    "Joint-event hazards and synthetic operating values are assumptions; events do not involve concurrent production, calendar expiry or different payer financing; product marketing does not identify actual site accepted orders."
+    "Joint-event hazards and synthetic operating values are assumptions; events do not involve concurrent production, calendar expiry or different payer financing; product marketing does not identify actual site accepted orders.",
+    "Calendar flow model assumes separable production/development resources; actual site service receipts, invoice lags and supplier/customer recourse not identified.",
+    "Synthetic date unit and learning rates are not calibrated; a horizon switch is conditional and not a novel general theorem.",
+    "Roberts-Weitzman PDF text inspected; screenshot attempt timed out, no full-proof audit claimed."
   ],
   "last_notification": {
-    "key": "20261117-integrated-theory-user-request",
-    "content": "Current interactive response reports sustained-theory approach change, 20-page integrated draft, economically productive qualification order, demand feedback and adaptive-retention correction. Do not repeat these as a new hourly finding."
+    "key": "20261117-calendar-horizon-policy",
+    "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Acquired lease for dated production/collections theory, analytical model and manuscript extension. Existing state and history retained.",
+  "execution_note": "Owned lease verified at 1e8a3f8 before publish. Exact occupancy/probability and maximum cash deficit derived, 15 V8 assertions on exact JS function definitions passed, independent Python/SciPy 19/19 and clean replay passed; committed Node test script not run separately and full historical CI not run. New note/linked manuscript/evidence/teachback and released state published with normal fast-forward CAS. No main/unrecovered Codex overwrite. Next is receivable-maturity cash-state model on same accepted service graph.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",

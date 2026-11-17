@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-17",
+  "scope": "Synthetic normalized, not actual robotics returns",
+  "parameters": {
+    "a": 2,
+    "mu": 1.2,
+    "v": 4.5,
+    "W": 10,
+    "c": 1
+  },
+  "exact": {
+    "short_T_gap_coefficient": -2.1,
+    "long_T_gap_limit": 0.4166666666666667,
+    "peak_cash_need_timely": 1.5,
+    "peak_cash_need_delayed": 4.5
+  },
+  "adaptive_RK4": {
+    "T_0_02": "stop",
+    "T_0_5": {
+      "choice": "joint",
+      "net_value": 0.8877554975514146
+    },
+    "T_2": {
+      "choice": "A",
+      "net_value": 11.71793961244167
+    }
+  },
+  "cash_bridge": {
+    "T": 2,
+    "B": 0.5,
+    "stage_completion": 0.6138049199398234,
+    "joint_no_advance": 0.45118836390597356,
+    "needed_joint_advance": 0.29284387368854825
+  },
+  "validation": {
+    "V8_same_functions_assertions": 15,
+    "local_independent_Python_SciPy_tests": 19,
+    "local_fresh_directory_replay": "19 passing, byte-identical results",
+    "local_results_sha256": "02f7e4993cb906c18704b6fd3ad61ffc94afee2dbaefcc28d65662aecf934ce7",
+    "committed_node_test_file_execution": "not_run",
+    "historical_repository_CI": "not_run",
+    "independent_peer_review": false
+  }
+}

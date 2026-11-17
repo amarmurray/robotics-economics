@@ -37,3 +37,6 @@ Checkpoint 9 (November 16 UTC): sparse technical/financial evidence slices linke
 Checkpoint 10 (November 16 UTC): responsive-demand RaaS billing diagnostic and five tests complete; pricing and policy-retention counterexamples narrow its claim. This is another small analytical benchmark, not the December main experiment/scope lock or a selected contribution.
 
 Checkpoint 11 (November 16 UTC): additional closest-literature audit, current-version diagnostic reconstruction and conditional financing/selection non-identification example checked. Candidate contribution is under adversarial review, not selected; the broader empirical and release gates remain open.
+
+
+November 17 integrated-calendar continuation: finished conditional production-during-learning theory with an exact fixed-route horizon reversal, long-horizon adaptive lost-flow recursion, cash-buffer accounting and qualified A cash-bridge probability. A finite-horizon adaptive benchmark and independent exact/numeric small-instance checks support the scope. Added source-grounded buyer/provider/financier payment distinctions and a linked living-manuscript section. This is **not** November 22 integrated acceptance, measured payment evidence, November 29 BEA backbone, or final contribution selection.

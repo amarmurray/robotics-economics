@@ -574,3 +574,25 @@ At the next synthesis gate, decide whether the argument supports the first paper
 [S6] Prajit K. Dutta (1997), *Optimal management of an R&D budget*, Journal of Economic Dynamics and Control 21(2–3), 575–602. DOI: 10.1016/S0165-1889(96)00945-1. Primary publisher abstract retrieved through indexed search November 17, 2026; direct full-page fetch returned 403 and was not retried. No full theorem replication. https://www.sciencedirect.com/science/article/pii/S0165188996009451
 
 [S7] Kevin W. S. Roberts and Martin L. Weitzman, *Funding criteria for research, development, and exploration projects*, MIT Energy Laboratory report MIT-EL-79-009, April 1979; later Econometrica article (1981). MIT primary repository abstract inspected November 17, 2026; no full-paper replication in this session. https://dspace.mit.edu/entities/publication/33bd2a42-b38b-4aa3-beaa-33574292681a
+
+
+---
+
+## Result 8 — calendar production during learning changes the economic ranking
+
+The predecessor Results 6–7 made learning effort a budget and operating value a reward available upon stopping. Actual robotic services can instead generate accepted output and **collected** provider cash while another qualification is pursued, subject to hardware/supervisor separation, customer demand and contract/receipt dates. The [full derivation](CALENDAR_FINANCE_CONTINUATION.md) now embeds the retained capability graph in a finite calendar-time jump-control model, where qualified service S earns net receipts r_t(S) while a program j has intensity lambda_j, pays effort cost c_j and adds a typed retained qualification bundle. Its standard Bellman equation is
+\[
+-\partial_t J_t(S)=r_t(S)+\max\{0,\max_j[\lambda_j(J_t(S\cup A_j)-J_t(S))-c_j]\},\quad J_T=0.
+\]
+The zero action stops *development*, not already-paid service. This is an unconstrained valuation, **not** a valid cash-feasible policy by itself.
+
+**Proposition (finite-calendar rank reversal).** In the four-state A,B,AB model with intermediate flow v, completed flow W>v, targeted exponential rates a for A and B, genuine joint event rate mu, and running cost c, fixed A-then-B and joint policies have exact value difference
+\[
+V_{\rm seq}-V_{\rm joint}=\frac{av-\mu(W+c)}2T^2+O(T^3),\qquad
+\lim_{T\to\infty}(V_{\rm seq}-V_{\rm joint})=v/a+(W+c)(1/\mu-2/a).
+\]
+If a/2<mu<a and (W+c)(2-a/mu)<v<(mu/a)(W+c) with v<W, joint acquisition beats the staged route at short positive calendars, but staged acquisition wins at long calendars. This can occur *without a funding constraint* and therefore does not contradict the earlier short-*budget* targeting/long-*budget* joint result: these are different economic environments. Under the fully adaptive stopping/switching benchmark with synthetic a=2,mu=1.2,v=4.5,W=10,c=1, the optimal initial action is **stop** for T=.02, **joint AB** for T=.5 and **target A** for T=2 (independently computed numerical policy checks, no claimed exact switch time). Long-horizon policy optimality follows from the stochastic shortest-path lost-flow recursion D(A)=(W-v+c)/a, D(B)=(W+c)/a and D(0)=min{(W+c)/mu,(W+c)/a+D(A),(W+c)/a+D(B)}; in this example D(0)=8.75 through A, versus 55/6 by the joint route.
+
+**Financeability is a different constraint.** For deterministic dated cash flows, the minimum initial amount needed to execute a path without borrowing is the maximum cumulative **collected-receipts-adjusted** cash deficit. In a stochastic bridge example, an A success before initial cash exhaustion, followed by contemporaneous A collections at rate v>=c while B is trained, permits AB completion probability \(\int_0^{\min(T,B/c)}ae^{-as}(1-e^{-b(T-s)})ds\). A financed joint program instead has success probability \(1-e^{-\mu\min(T,(B+L)/c)}\). An advance L is liquidity/repayment obligation, not an increment to productive surplus. Actual invoice delay, service displacement, customer co-investment and supplier rights can undo the self-funding mechanism. The [source/evidence ledger](CALENDAR_EVIDENCE.md) separates DHL's operational co-development, Formic's monthly contract description, and Cardinal's proposed financing business model from measured qualification events or cash. Standard staged R&D funding, process flexibility and working-capital concepts are prior art, not newly invented theorems.
+
+This result deepens the same core argument: economically active capabilities are those which change **accepted production and the dates when specific actors can fund their next acquisition**. The model remains synthetic and the full paper contribution is not selected. Next derive a stochastic cash-state/delayed-collection and enforceable financed-pilot extension of this precise environment; do not append a disconnected toy. [Code](calendar_model.mjs), [scoped test script](test_calendar_model.mjs), [exercise](CALENDAR_TEACHBACK.md) and [separate solutions](CALENDAR_SOLUTIONS.md).
