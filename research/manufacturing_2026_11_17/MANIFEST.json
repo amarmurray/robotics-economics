@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "checkpoint": "Q5",
+  "source_branch": "c2ba08f70493823c0c0b0f1458a0ef9d46753184",
+  "tested_locally": true,
+  "new_tests": 30,
+  "checks": [
+    "python -m unittest -q test_manufacturing test_evidence",
+    "python manufacturing.py --output results.json",
+    "cmp results.json /tmp/q5_replay.json",
+    "python replicate_core.py"
+  ],
+  "full_historical_suite": "not_run",
+  "compressed_sources": "Use gzip -dc file.py.gz > file.py in one clean directory; decompress results.json.gz and evidence.json.gz analogously; then run unittest. The code and tests are stored compressed as exact original UTF-8 bytes (gzip mtime zero).",
+  "git_blob_sha": {
+    "manufacturing.py.gz": "97cf22d5df8295508b35513620b7d7d588218f53",
+    "test_manufacturing.py.gz": "360c7622633b7832f358ced2c77a1de2da2548e5",
+    "test_evidence.py.gz": "fbe2fb4ee1cd18dd39f288ad50520b7943304509",
+    "results.json.gz": "714abfc895bbfe2d7e4f8e8e7fa701fbc5863260"
+  },
+  "caveat": "The full local research note/evidence set is also in the downloadable ZIP; summarized research note and independently sourced evidence mapping are in this commit. No original-paper novelty claimed."
+}

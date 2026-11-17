@@ -1,0 +1,52 @@
+{
+  "interpretation": "Primary source relationships, no empirical parameter fit",
+  "retrieved_date": "2026-11-17",
+  "relations": [
+    {
+      "source": "Apptronik/Jabil",
+      "date": "2025-02-25",
+      "relation": "announced collaboration and pilot",
+      "unit_cost_effect": null,
+      "pass_through": null,
+      "url": "https://apptronik.com/news-collection/apptronik-and-jabil-collaborate-to-scale-production"
+    },
+    {
+      "source": "Agility RoboFab",
+      "date": "2023-09-18",
+      "relation": "announced nameplate capacity >10k units/year",
+      "realized_builds": null,
+      "url": "https://www.agilityrobotics.com/content/opening-robofab-worlds-first-factory-for-humanoid-robots"
+    },
+    {
+      "source": "IFR",
+      "date": "2026-09-24",
+      "relation": "2025 industrial robot installations, not humanoid builds",
+      "learning_slope": null,
+      "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally"
+    },
+    {
+      "source": "Apptronik Elevate",
+      "date": "2025-06-24",
+      "relation": "announced non-humanoid specialization strategy",
+      "transfer_success": null,
+      "url": "https://apptronik.com/news-collection/apptronik-announces-creation-of-elevate-robotics"
+    },
+    {
+      "source": "Gray Tomlin Roth 2009",
+      "relation": "published abstract on contract manufacturer learning prior art",
+      "proof_replicated": false,
+      "url": "https://doi.org/10.1111/j.1937-5956.2009.01024.x"
+    },
+    {
+      "source": "Balasubramanian Lieberman 2011",
+      "relation": "published abstract on learning and concentration prior art",
+      "proof_replicated": false,
+      "url": "https://doi.org/10.1111/j.1467-6451.2011.00450.x"
+    }
+  ],
+  "unknown_edges": [
+    "real_manufacturing_learning_to_invoice_pass_through",
+    "source_build_experience_to_specialist_unit_cost",
+    "qualified_target_service_to_real_customer_receipts"
+  ]
+}
