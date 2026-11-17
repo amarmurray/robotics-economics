@@ -1,0 +1,48 @@
+{
+  "exanteCalibration": {
+    "without": 5,
+    "withSignal": 5.2,
+    "grossEVSI": 0.20000000000000018,
+    "netGain": 0.20000000000000018
+  },
+  "redesign": {
+    "stock0": {
+      "premium": -5.70913709529575,
+      "choice": {
+        "embodiment": "old",
+        "additionalSource": 2,
+        "grounding": 4,
+        "spent": 6,
+        "value": 5.007638292894637,
+        "qualification": 0.6280385960662958
+      }
+    },
+    "stock2": {
+      "premium": 4.063911588413809,
+      "choice": {
+        "embodiment": "new",
+        "additionalSource": 0,
+        "grounding": 0,
+        "spent": 8,
+        "value": 4.063911588413811,
+        "qualification": 0.76649037736474
+      }
+    }
+  },
+  "conditionalTransfer": {
+    "highUncertaintyInteraction": 0.22432473525417976,
+    "lowUncertaintyInteraction": -0.00007820164488953655
+  },
+  "allocation": {
+    "oldAtBudget6": {
+      "data": 2.1999999999999997,
+      "ground": 3.8000000000000003,
+      "variance": 1.25
+    },
+    "newAtBudget6": {
+      "data": 4.6,
+      "ground": 1.4000000000000004,
+      "variance": 0.3125
+    }
+  }
+}
