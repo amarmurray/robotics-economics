@@ -426,6 +426,28 @@ This is not a claim that a shared foundation model empirically produces benefici
 
 Perfectly shared qualification progress can also overturn the independent-return order in Section 5. If all \(k\) requirements qualify together with probability \(p\), the complementarity-chain gain is \(Wp\), not \(Wp^k\). An empirical test of the critical-order mechanism must therefore distinguish independently acquired skills from shared learning events. The result cannot be manufactured by splitting one capability into several labels: an exact recoding preserves the joint outcome law and economic value, whereas pretending the new labels are independent changes the technology being modeled. Operational common-mode failure during production is a separate stochastic object from persistent joint qualification after development.
 
+### Result 7: Joint qualification programs and economically productive intermediate states
+
+The independent edge-acquisition model and homogeneous terminal-only chain are useful benchmarks, but neither identifies a full-stack qualification event nor the value of intermediate **accepted services**. We now treat the persistent qualification state as a finite set \(S\) with optimized operating value \(f_\theta(S)\). An admissible learning program \(j\) is a distinct observable event with intensity \(\lambda_j>0\) that adds a typed subset \(A_j\) of qualifications, after which the operator can adapt and retain all successes. One unit of effort costs one cash unit and the pathwise paid-effort budget is \(b\).
+
+The Bellman value \(H_S(b)\), including a free option to stop and retain \(f(S)\), satisfies
+
+\[
+H'_S(b)=\Big[\max_{j:S\cup A_j\ne S}
+\{\lambda_j(H_{S\cup A_j}(b)-H_S(b))-1\}\Big]_+,\qquad H_S(0)=f(S).
+\tag{18}
+\]
+
+This is an established finite-state jump-control equation, not a novel stochastic-control theorem. The detailed derivation, verification, counterexample, independent numerical baseline and observational protocol appear in [Joint qualification and intermediate productive states](JOINT_EVENTS_AND_PARTIAL_VALUE.md). Two useful consequences connect directly to the earlier results.
+
+**First, the economic small-effort order counts actual acquisition events rather than arbitrary skill labels.** With bounded program success intensities and free acquisition effort, the leading gross incremental value has order \(b^m\), where \(m\) is the minimum number of admissible qualification **success events** on a path that increases \(f(S)\). This extends Result 6a to a genuine joint event. A shared successful program that validates two distinguishable capabilities simultaneously can lower \(m\), while a partially productive intermediate state can do the same even when full order acceptance still requires both qualifications. The proof uses Poisson counting-process domination for the upper bound and a sequential waiting-time simplex for the lower bound. Neither argument licenses pretending one physical qualification was two independent events.
+
+**Second, neither targeted staged learning nor joint full-stack learning necessarily dominates.** Let targeted A and B qualification have rate \(a\) each, while one joint program acquiring both has rate \(\mu\). Suppose the optimized incremental accepted-service value of the four states is \((0,v,0,W)\) for \(\varnothing,\{A\},\{B\},\{A,B\}\), with \(W\ge v\). If \(av>\mu W>1\), \(a/2<\mu<a\), and \(v<W-1/a\), targeting A is strictly optimal at sufficiently small available budget, but the joint program is optimal at sufficiently large budget. The short-budget marginal benefits are \(av-1\) versus \(\mu W-1\); with unlimited budget, targeted sequential acquisition returns \(W-2/a\), while joint acquisition returns \(W-1/\mu\). This reversal survives an optimized adaptive response after successes and does not depend on requiring both qualifications to be worthless individually. The illustrative parameters \(a=2,\mu=6/5,v=7,W=10\) are **synthetic**; the Bellman solution chooses targeted A at \(b=.05\), joint acquisition at \(b=4\).
+
+The source-based empirical anchor is narrow. DHL's **May 13, 2025** statement distinguishes commercially deployed Stretch unloading (introduced in North America in **2023**) from case picking as a development priority. Boston Dynamics' later published case-picking description advertises complete palletized order building and WMS integration via Orbit. Neither release identifies a site's actual accepted order, contractual payment, source-to-target qualification unit, or acquisition hazard. See the companion evidence protocol before interpreting A and B as real independently validated capabilities.
+
+The theoretical point is not to declare robots generalist or specialized by architecture. It is to locate **which acquisition events actually create useful, retained production options**, which intermediate options already earn customer/provider value, and how finite payer liquidity changes the preferred route. Event-level success laws and economic state values are distinct empirical objects. The next challenge is date-dependent demand and the distinction between a valuable operating state that is only realized *after* research stops and one that produces cash *during* the program.
+
 ## 8. Connecting back to the full research roadmap
 
 The framework is meant to integrate—not replace—the broader agenda.
@@ -530,7 +552,7 @@ No independent peer review, real robot execution, complete empirical atlas, or f
 
 ## 12. Sustained next investigation
 
-Continue this same theory block across sessions instead of inventing another numbered toy at each run. The independent adaptive gross-order bound and homogeneous-chain stopping problem are now solved in stated scope. The next substantive question is how **joint acquisition events, partially valuable intermediate qualifications, and endogenous selection among customer opportunities** change the optimal learning portfolio. Start with a general state-transition formulation that nests the current proofs, then identify the smallest extension that changes their economic implication. Do not rederive the solved homogeneous chain or build an all-purpose simulator.
+Continue this same theory block across sessions instead of inventing another numbered toy at each run. The independent adaptive gross-order bound and homogeneous-chain stopping problem are now solved in stated scope. Joint acquisition events and partially valuable intermediate qualifications now have a verified finite-state extension (Result 7). The next substantive question is how **date-dependent customer opportunities, interim paid production, and multiple payers** change that learning portfolio without counting future value twice. Start with a general state-transition formulation that nests the current proofs, then identify the smallest extension that changes their economic implication. Do not rederive the solved homogeneous chain or build an all-purpose simulator.
 
 In parallel, translate one existing workflow dossier into an explicit accepted-service allocation graph with a competent nonrobotic or mixed-system alternative. That is the minimum empirical bridge needed to test whether the critical bundles exist outside our examples. Preserve manufacturing, payer contracts, and hardware redesign as choices that can change the graph or the cost of reaching it.
 

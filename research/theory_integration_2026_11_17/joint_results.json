@@ -1,0 +1,163 @@
+{
+  "budget_results": {
+    "0.0001": {
+      "actions": [
+        "unloading_A",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 0.0001,
+      "initial_net": 0.0012999200020000665,
+      "values": [
+        0.0012999200020000665,
+        7.0004999500033325,
+        0.0018998100126660334,
+        10.0
+      ]
+    },
+    "0.05": {
+      "actions": [
+        "unloading_A",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 0.05,
+      "initial_net": 0.6302538831673795,
+      "values": [
+        0.6302538831673795,
+        7.237906454910098,
+        0.9040445286583748,
+        10.0
+      ]
+    },
+    "0.25": {
+      "actions": [
+        "unloading_A",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 0.25,
+      "initial_net": 2.78306073796064,
+      "values": [
+        2.78306073796064,
+        7.983673350710688,
+        3.73795873270061,
+        10.0
+      ]
+    },
+    "1": {
+      "actions": [
+        "unloading_A",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 1,
+      "initial_net": 7.10530603470651,
+      "values": [
+        7.10530603470651,
+        9.161661791868736,
+        8.214314809101202,
+        10.0
+      ]
+    },
+    "16": {
+      "actions": [
+        "joint_redesign_AB",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "budget": 16,
+      "initial_net": 9.166666640656604,
+      "values": [
+        9.166666640656604,
+        9.499999999999966,
+        9.499999999999883,
+        10.0
+      ]
+    },
+    "2": {
+      "actions": [
+        "joint_redesign_AB",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 2,
+      "initial_net": 8.652281091002537,
+      "values": [
+        8.652281091002537,
+        9.454210902764348,
+        9.326001430504522,
+        10.0
+      ]
+    },
+    "4": {
+      "actions": [
+        "joint_redesign_AB",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 4,
+      "initial_net": 9.120002660040026,
+      "values": [
+        9.120002660040026,
+        9.499161343429673,
+        9.49681310503276,
+        10.0
+      ]
+    },
+    "8": {
+      "actions": [
+        "joint_redesign_AB",
+        "routing_B",
+        "unloading_A",
+        "stop"
+      ],
+      "budget": 8,
+      "initial_net": 9.16628263369582,
+      "values": [
+        9.16628263369582,
+        9.499999718662064,
+        9.499998930915838,
+        10.0
+      ]
+    }
+  },
+  "cost_per_effort": 1.0,
+  "initial_action_slopes": {
+    "joint_redesign_AB": 11.0,
+    "routing_B": -1.0,
+    "unloading_A": 13.0
+  },
+  "programs": [
+    {
+      "adds": 1,
+      "label": "unloading_A",
+      "rate": 2.0
+    },
+    {
+      "adds": 2,
+      "label": "routing_B",
+      "rate": 2.0
+    },
+    {
+      "adds": 3,
+      "label": "joint_redesign_AB",
+      "rate": 1.2
+    }
+  ],
+  "unlimited_candidate_joint": 9.166666666666666,
+  "unlimited_candidate_target_A_then_B": 9.0,
+  "values": [
+    0.0,
+    7.0,
+    0.0,
+    10.0
+  ]
+}

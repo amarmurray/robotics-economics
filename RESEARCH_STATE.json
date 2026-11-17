@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T1629Z-integrated-joint-events",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T17:22:00Z",
-    "reason": "Single-writer integrated theory: joint qualification events and partially productive states"
+    "reason": "Published coherent joint-event and intermediate-production extension with scoped validation"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,28 +16,26 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated theory: common optimal dual certificate for economically redundant recipe bundles; arbitrarily long complementary qualification chains; productive-bundle leading economic order under independent acquisitions; customer demand can change that order; optimal heterogeneous batch allocation and S-shaped economic response; dependence sign determined by production interaction; general adaptive gross-order bound and solved cost-aware homogeneous retained-success stopping policy. Adaptive retention overturns the large committed-batch hurdle in the synthetic example. 20-page manuscript, code, claim/source ledger and teaching produced. Publication novelty, industrial calibration and full dynamic equilibrium are not claimed.",
+  "latest_result": "Integrated manuscript Result 7: optimized finite-state retained-success acquisition with typed multi-qualification events and partially productive states. Bellman verification; gross economic small-effort exponent counts successful event transitions, not arbitrary skill labels. Analytical sufficient conditions show targeting useful intermediate service is optimal at low funding while joint full-stack acquisition is optimal at large funding, even with adaptive continuation. 13 scoped tests, exact analytic baselines and independent finite-step approximate Bellman comparison passed. All rates/payoffs synthetic; DHL unloading / Boston Dynamics marketed picking establishes conceptual service distinction, not measured qualification rates.",
   "validation": {
-    "new_tests": 42,
-    "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
-    "fresh_directory_tests": 42,
+    "new_tests": 13,
+    "scope": "Finite-state jump acquisition with retained success and partial operating payoff; single-event closed form, exact costless Erlang two-event benchmark, independent finite-step Bellman, policy reversal, monotone state values, validation checks",
+    "fresh_directory_tests": 13,
     "fresh_results_byte_identical": true,
-    "results_sha256": "901404da4a9afc022253ab93de4519b548c0de5cef57d4ddacddedeb3b22cea3",
-    "source_git_blob": "55ee2926527fead22b21a72392b16009e5006adf",
-    "test_git_blob": "6e915b27adc7dea05903c68ef009a7fce1df5c2f",
-    "manuscript_git_blob": "b8bf3f412271815fc979246a512417ccb36d86c0",
+    "results_sha256": "24fab14577d3c77dcf1b72e4304d1fd861e9001613b020f566007c2366557a0e",
+    "source_git_blob": "e8340f2b2128f7c13f58e57fb7ae5d3f02b3b360",
+    "test_git_blob": "b1f6cc48c48704185c94dc222746c2aea4b4c80e",
+    "results_git_blob": "bfdb106844d4e0a5e5f71156f154649c87d4ea78",
     "git_blobs_match_validated_local_files": true,
-    "historical_repository_suite": "not_run",
-    "independent_review": false,
-    "pdf_pages": 20,
-    "pdf_scope": "Rendered and visually checked conversation delivery; editable Markdown and build instructions are in repository, PDF not committed"
+    "full_historical_suite": "not_run",
+    "independent_review": false
   },
   "read_next": [
-    "THEORY_REFOCUS_2026_11_17.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/JOINT_EVENTS_AND_PARTIAL_VALUE.md",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/CLAIMS_AND_SOURCES.md",
-    "research/theory_integration_2026_11_17/theory.py",
+    "research/theory_integration_2026_11_17/joint_acquisition.py",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
@@ -46,14 +44,14 @@
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "initial_unified_proofs_and_adaptive_countermodel_completed; continue_same_argument",
-      "question": "How do joint qualification events and partially valuable intermediate states alter optimal learning and customer-opportunity selection?",
-      "deliverable": "Extend the unified acquisition/production model beyond independent terminal-only chains with a fully specified transition and a consequential proof or counterexample, grounded in an accepted-service graph. Do not rederive the now-solved homogeneous chain or introduce arbitrary strategic data premiums."
+      "status": "event_control_and_partial_operating_states_derived; continue_same_argument",
+      "question": "Does the finance-horizon-dependent policy reversal survive time-varying accepted-service demand, real intermediate deployment receipts and competent paid-pilot/supplier financing?",
+      "deliverable": "A dated cash-and-production continuation model that nests Result 7, separates manufacturer/deployer/customer value and actual collections, proves or falsifies horizon dependence with a competent financeable alternative; empirical panel for source and target service receipt timing."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "retained; required_bridge_alongside_theory",
+      "status": "retained; DHL-Boston Dynamics source chronology typed; real accepted-service event panel unresolved",
       "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
       "deliverable": "One source-grounded customer workflow map with demand/resource/qualification status and a defensible measured or bounded interaction; retain official backbone and prior Q2/Q8 gaps without substituting vendor announcements."
     },
@@ -73,10 +71,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Unified production/qualification/acquisition argument with proofs and an adaptive countermodel; robust minimal-event gross order distinguished from institution-sensitive net investment thresholds.",
-    "atlas": "New discriminating measurement program, not new observed qualification/cost estimates; empirical backbone and workflow evidence remain active gaps.",
-    "paper": "Coherent 20-page private theory manuscript now exists, not completed Christmas paper or selected final contribution.",
-    "learning": "Six teach-back problems with separate solutions; producing these is not proof of Amar's mastery.",
+    "theory": "Result 7 joins typed joint qualification events and useful partial services to existing operating network and adaptive-learning theory; finite-state proof and policy reversal, synthetic example only.",
+    "atlas": "DHL 2025 primary release + Boston Dynamics current case-picking description mapped to hypothesized accepted-service graph, with exact missing event, receipt, qualification and outside-option fields. No site-level calibration or BEA backbone.",
+    "paper": "Integrated manuscript includes Result 7 and linked rigorous proof/empirical note; full Christmas paper and novelty verdict pending.",
+    "learning": "Previous six learning exercises preserved; new four-problem packet and separate solutions for event-based order and adaptive decision.",
     "main_contribution": "candidate measurement-linked economics of capability acquisition; originality and empirical support unestablished"
   },
   "known_limitations": [
@@ -87,11 +85,27 @@
     "Finite LP operating results require correct accepted-service recipes; nonpreemptive complete orders may need integer scheduling with a relaxation gap.",
     "Adaptive homogeneous terminal-reward problem solved, not general heterogeneous multi-payer learning/industry equilibrium.",
     "Publisher abstracts for closest network-design and staged-R&D sources were inspected, not all full proofs; no novelty priority claim.",
-    "All numerical illustrations synthetic; no empirical robot learning, cost, contract or customer-return calibration."
+    "All numerical illustrations synthetic; no empirical robot learning, cost, contract or customer-return calibration.",
+    "Joint-event hazards and synthetic operating values are assumptions; events do not involve concurrent production, calendar expiry or different payer financing; product marketing does not identify actual site accepted orders."
   ],
   "last_notification": {
     "key": "20261117-integrated-theory-user-request",
     "content": "Current interactive response reports sustained-theory approach change, 20-page integrated draft, economically productive qualification order, demand feedback and adaptive-retention correction. Do not repeat these as a new hourly finding."
   },
-  "execution_note": "Exclusive integrated-theory run working from c285a4bd18c0f414e59ebf4f3937d4506bee349d; test joint qualification and partially productive intermediate states before coherent publication; source branch unchanged outside state-only lease."
+  "execution_note": "Research ran under original exclusive lease, checked branch head/owner before final CAS. Local source/test Git identities match uploaded blobs; 13 tests and clean-directory replay passed, results SHA match. No main, old Codex workspace or unrelated tasks changed. Next derive dated payer-specific cash/receipt feedback under credible pilot finance, not a new toy.",
+  "validation_prior": {
+    "new_tests": 42,
+    "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
+    "fresh_directory_tests": 42,
+    "fresh_results_byte_identical": true,
+    "results_sha256": "901404da4a9afc022253ab93de4519b548c0de5cef57d4ddacddedeb3b22cea3",
+    "source_git_blob": "55ee2926527fead22b21a72392b16009e5006adf",
+    "test_git_blob": "6e915b27adc7dea05903c68ef009a7fce1df5c2f",
+    "manuscript_git_blob": "b8bf3f412271815fc979246a512417ccb36d86c0",
+    "git_blobs_match_validated_local_files": true,
+    "historical_repository_suite": "not_run",
+    "independent_review": false,
+    "pdf_pages": 20,
+    "pdf_scope": "Rendered and visually checked conversation delivery; editable Markdown and build instructions are in repository, PDF not committed"
+  }
 }
