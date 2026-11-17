@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "retrieved_on": "2026-11-17",
+  "status": "Two primary-source observations and hypothesis links, not an estimated industrial deployment network",
+  "sources": [
+    {"id":"LEAP","authors":"Kenneth Shaw; Ananye Agarwal; Deepak Pathak","title":"LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning","url":"https://arxiv.org/abs/2309.06440","source_date":"2023-09-12","read_scope":"Abstract and introduction, including reported kinematics, experiments, cost and assembly","evidence_kind":"researcher_reported_design_and_experiments"},
+    {"id":"JEON","authors":"Haejun Jeon","title":"Time-to-build and capacity expansion","url":"https://link.springer.com/article/10.1007/s10479-023-05413-3","source_date":"2023-06-22","read_scope":"Publisher abstract and introductory discussion; full proof not audited","evidence_kind":"published_theory_prior_art"}
+  ],
+  "relations": [
+    {"source":"LEAP","from":"changed_hand_kinematics","to":"real_world_manipulation_research","type":"reported_design_and_tests","status":"source_reported","qualification_cost_effect":null,"customer_economic_effect":null},
+    {"source":"LEAP","from":"research_hand_components","to":"assembly_and_materials","type":"reported_about_four_hours_and_2000_USD","status":"source_reported","industrial_service_readiness":null},
+    {"source":"JEON","from":"time_to_build_and_learning","to":"investment_timing_and_capacity","type":"economic_theory_prior_art","status":"source_reported_model","robotics_calibration":null},
+    {"source":null,"from":"redesign","to":"lower_failure_floor_higher_adaptation_rate","type":"configuration_mechanism","status":"synthetic_assumption","measured_effect":null},
+    {"source":null,"from":"redesigned_capacity","to":"accepted_customer_service_output","type":"required_service_bridge","status":"unidentified_hypothesis","measured_effect":null},
+    {"source":null,"from":"development_lag","to":"loss_of_demand_window","type":"economic_timing_effect","status":"synthetic_assumption","measured_effect":null}
+  ],
+  "invalid_inferences": [
+    "Reported four-hour research assembly is not industrial qualification or manufacturing ramp.",
+    "LEAP Hand experiments do not reveal task-specific commercial accepted output or RaaS margins.",
+    "Jeon's model is prior art, not an empirical robotics development-lag observation.",
+    "Neither source calibrates the synthetic three-unit capacity or demand erosion."
+  ]
+}

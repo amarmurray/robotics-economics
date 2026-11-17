@@ -1,0 +1,7 @@
+# Solution to the embodiment-timing teach-back
+
+1. Customer chooses q*=min(K,max(0,(a-c)/b)). In a capacity-binding period with positive incremental surplus, provider net receipts are rho*((a-c)*K-b*K*K/2-Pi0). Evidence must establish complete qualified capacity, saleable customer output, retained work/resource cost, outside option and actual contract terms.
+2. Design exposure is -rho*3*(2+3)=-12; software exposure is -rho*(0+1+2+3)=-4.8. Difference is -7.2. Late high-capacity production is more exposed to an eroding customer-demand intercept under these capacities and lags.
+3. gamma*=31.15/7.2=623/144≈4.3264. Check binding and participation at the crossing (the small model does). A cheaper alternative incumbent investment or retention can still dominate a pairwise indifference.
+4. Research assembly concerns building a device; industrial qualification requires a specified service standard, representative environments, integration, repeated evidence, support and acceptance by a payer. None of those elapsed intervals is established by LEAP's reported four-hour assembly.
+5. If the sum of irreducible floors for the old configuration is >= the declared epsilon and some reducible failure remains, no finite effort meets the conservative union-bound criterion. Redesign might lower the floors. Yet the customer must still value qualified output, the provider must capture enough surplus and someone must finance delivery/qualification.

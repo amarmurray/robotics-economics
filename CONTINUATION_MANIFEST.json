@@ -80,5 +80,57 @@
       "Publishable novelty",
       "Successful future scheduled execution"
     ]
-  }
+  },
+  "tranches": [
+    {
+      "date": "2026-11-17",
+      "tranche": "Q1 conditional embodiment investment and demand timing",
+      "input_branch_sha": "f3cfc5936312f4ce9d11988ad7200731ad5cfccd",
+      "files": [
+        {
+          "path": "research/embodiment_timing_2026_11_17/delayed_embodiment.py",
+          "git_blob_sha1": "332963e877801f6e31b24786576c4a986e1258e0",
+          "sha256": "4377a53553f07513c576b646f8d08dd14295c4af759612aa24de7b08a235559d"
+        },
+        {
+          "path": "research/embodiment_timing_2026_11_17/test_delayed_embodiment.py",
+          "git_blob_sha1": "2dbc4891757ab51fb7906ab8e578fd5b0044f408",
+          "sha256": "b4b9f56cb29df348214777f994693cc4f1f7bfada3b761dee3ff7871d01cb3a3"
+        },
+        {
+          "path": "research/embodiment_timing_2026_11_17/RESEARCH_NOTE.md",
+          "git_blob_sha1": "096faefb79d09e5ac815cff839e5aa2765d50321"
+        },
+        {
+          "path": "research/embodiment_timing_2026_11_17/evidence.json",
+          "git_blob_sha1": "c4b9170e9928122587cb409d267a56a7698f20b2"
+        },
+        {
+          "path": "research/embodiment_timing_2026_11_17/LEARNING_EXERCISE.md",
+          "git_blob_sha1": "6490affa27d7d186652902998a1a1319a54b093e"
+        },
+        {
+          "path": "research/embodiment_timing_2026_11_17/SOLUTIONS.md",
+          "git_blob_sha1": "d9788a5b4ae363febe00ec905771f054dd7e5677"
+        },
+        {
+          "path": "paper/embodiment_timing_segment.md",
+          "status": "published in same scoped tree"
+        }
+      ],
+      "generated_result": {
+        "path": "research/embodiment_timing_2026_11_17/results.json",
+        "generated_not_committed": true,
+        "command": "python delayed_embodiment.py",
+        "sha256": "90ac5a9e0f7c1bafe91681c96428791551bb4dba43d97c40c53224797f1c0a57"
+      },
+      "validation": {
+        "new_tests_passed": 18,
+        "previous_qualification_tests_passed": 17,
+        "previous_expansion_tests_passed": 18,
+        "code_test_git_blobs_matched_local": true,
+        "full_repo_ci_not_claimed": true
+      }
+    }
+  ]
 }

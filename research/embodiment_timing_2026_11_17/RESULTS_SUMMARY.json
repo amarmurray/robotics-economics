@@ -1,0 +1,58 @@
+{
+  "status": "Synthetic normalized exact scenario; no empirical calibration",
+  "commit_input": "f3cfc5936312f4ce9d11988ad7200731ad5cfccd",
+  "qualification": {
+    "software_cost": "1991/100",
+    "redesign_cost": "239/25"
+  },
+  "projects": {
+    "incumbent_cost": "6",
+    "software_total_cost": "2291/100",
+    "redesign_total_cost": "514/25"
+  },
+  "switch_gamma": "623/144",
+  "cases": [
+    {
+      "gamma": "0",
+      "winner": "redesign",
+      "values": {
+        "incumbent": "82/5",
+        "software": "4109/100",
+        "redesign": "1806/25"
+      }
+    },
+    {
+      "gamma": "3",
+      "winner": "redesign",
+      "values": {
+        "incumbent": "82/5",
+        "software": "2669/100",
+        "redesign": "906/25"
+      }
+    },
+    {
+      "gamma": "5",
+      "winner": "software",
+      "values": {
+        "incumbent": "82/5",
+        "software": "1709/100",
+        "redesign": "306/25"
+      }
+    },
+    {
+      "gamma": "6",
+      "winner": "incumbent",
+      "values": {
+        "incumbent": "82/5",
+        "software": "1229/100",
+        "redesign": "11/25"
+      }
+    }
+  ],
+  "tests": {
+    "new": 18,
+    "qualification_rerun": 17,
+    "expansion_rerun": 18
+  },
+  "next": "Observed official sector value-chain backbone with task evidence to follow"
+}

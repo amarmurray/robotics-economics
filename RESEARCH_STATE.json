@@ -5,37 +5,41 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T0634-Q1",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T08:04:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
-  "schedule_status": "First unattended run started; substantive publication pending",
+  "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Derived optimal adaptation allocation for a fixed conservative service rule; linked qualification costs to customer-demand/portfolio model; checked score/cost ranking reversal and ablations.",
+  "latest_result": "Q1 embodiment timing: analytical capacity-weighted demand erosion switching condition, exact synthetic redesign/software/incumbent policy changes, source-grounded hardware and investment timing contrast. No empirical calibration/novelty.",
   "validation": {
-    "new_tests": 17,
+    "new_tests": 18,
+    "qualification_tests_rerun": 17,
     "prior_expansion_tests_rerun": 18,
-    "scope": "These modules only, not historical full CI or empirical validation"
+    "scope": "Python 3.10+ standard-library modules; source files verified against exact Git blob SHAs; not historical full CI"
   },
   "read_next": [
-    "research/qualification_bridge_2026_11_17/RESEARCH_NOTE.md",
-    "research/qualification_bridge_2026_11_17/evidence_atlas.json",
-    "paper/assistant_working_paper.md"
+    "research/embodiment_timing_2026_11_17/RESEARCH_NOTE.md",
+    "research/embodiment_timing_2026_11_17/evidence.json",
+    "paper/embodiment_timing_segment.md"
   ],
   "queue": [
     {
       "id": "Q1",
-      "priority": 1,
+      "priority": 8,
       "kind": "theory",
       "question": "When does embodiment redesign rather than further learning on an existing configuration justify its extra cost and time-to-build?",
-      "deliverable": "Small delayed qualification/production comparison with demand expiry, learning and terminal-value counterexamples. Use the new qualification cost program; do not add arbitrary fees to force a result."
+      "deliverable": "Small delayed qualification/production comparison with demand expiry, learning and terminal-value counterexamples. Use the new qualification cost program; do not add arbitrary fees to force a result.",
+      "status": "conditional_analytical_tranche_completed",
+      "remaining": "Joint experience acquisition, uncertain demand and real matched service evidence remain open; do not rerun identical toy."
     },
     {
       "id": "Q2",
-      "priority": 2,
+      "priority": 1,
       "kind": "empirical_topology",
       "question": "What does an observed sector-to-sector production backbone add to our task-market opportunity map?",
-      "deliverable": "Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges."
+      "deliverable": "Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges.",
+      "status": "next_unblocked"
     },
     {
       "id": "Q3",
@@ -60,17 +64,17 @@
     },
     {
       "id": "Q6",
-      "priority": 6,
+      "priority": 2,
       "kind": "writing_and_teaching",
       "question": "Which mechanism survives and what can Amar independently derive?",
       "deliverable": "Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results."
     }
   ],
   "portfolio_status": {
-    "theory": "qualification/expansion bridge executed",
-    "atlas": "sparse primary-source requirement map, sector backbone not yet extracted",
-    "paper": "early substantive segment, not complete draft",
-    "learning": "exercise and separate solutions produced",
+    "theory": "qualification/expansion bridge and embodiment-delay switching proof checked; broader endogenous network theory open",
+    "atlas": "source-backed design/timing contrast; BEA observed sector backbone still not extracted",
+    "paper": "two substantive segments; main paper contribution still unselected",
+    "learning": "teach-back exercises with separate solutions for qualification and embodiment timing",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -80,6 +84,7 @@
   "known_limitations": [
     "Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.",
     "Do not re-alert this unchanged limitation.",
-    "Scheduled task has not yet demonstrated successful unattended research access."
+    "Scheduled task has not yet demonstrated successful unattended research access.",
+    "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag."
   ]
 }
