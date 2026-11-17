@@ -5,22 +5,23 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T0837-Q4",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T09:55:00Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q3: Exact synthetic contract-denomination/experience results. Fixed-hourly vs output pricing reverses chosen source/qualification investment; output fee ranking reverses again when useful experience is productive hours (tau>c). 12 committed scoped tests passed; Formic 2023 tending workflow and separate monthly trial described, not calibrated.",
+  "latest_result": "Q4: finite-source human-attention bottleneck linked to customer demand, hardware, digital incident-reduction and extra supervisor cash. Analytical service ceiling; exact physical-complement/economic-substitute sign reversal under changing demand; 25 scoped tests; SEC Serve/Agility/PMLR contrasting operational source records. Synthetic/conditional, not calibrated or novel paper claim.",
   "validation": {
-    "new_tests": 12,
-    "scope": "Fresh local Python unittest on committed compact model; additional 20-test detailed local package checked but not pushed; historical repository suite not run",
-    "committed_code_test_blobs_verified": true
+    "new_tests": 25,
+    "scope": "Python standard-library unittest on coordination.py and test_coordination.py; exact rational enumeration and deterministic serialization",
+    "committed_code_test_blobs_verified": true,
+    "historical_repository_suite": "not_run"
   },
   "read_next": [
-    "research/contract_learning_2026_11_17/RESEARCH_NOTE.md",
-    "research/contract_learning_2026_11_17/evidence.json",
-    "paper/contract_learning_segment.md"
+    "research/coordination_2026_11_17/RESEARCH_NOTE.md",
+    "research/coordination_2026_11_17/evidence.json",
+    "paper/coordination_segment.md"
   ],
   "queue": [
     {
@@ -56,28 +57,33 @@
       "kind": "coordination",
       "question": "When does investment in digital coordination dominate more hardware or broader task coverage?",
       "deliverable": "Compact supervisor congestion/coordination choice using posted-hour or output-pricing response, matched outside production, and a source-backed contrasting workflow.",
-      "status": "next_unblocked"
+      "status": "conditional_analytical_and_workflow_tranche_completed",
+      "remaining": "Evaluate correlated incidents, heterogeneous task/site queues, hourly versus output contracts with matched capacity, and empirical λ/μ measurement; do not rerun the identical CTMC toy."
     },
     {
       "id": "Q5",
-      "priority": 5,
+      "priority": 1,
       "kind": "manufacturing_and_capital",
       "question": "How do manufacturing cost reduction, embodiment specialization and learning transfer change expansion order?",
-      "deliverable": "Endogenous investment choice and a falsifying comparative case, not a free cost-learning curve."
+      "deliverable": "Endogenous investment choice and a falsifying comparative case, not a free cost-learning curve.",
+      "status": "next_unblocked",
+      "remaining": "Focus on manufacturing investment with endogenous production learning vs scale, supplier payments, task-market entry and chosen embodiment. Derive one falsifying condition and credible alternative."
     },
     {
       "id": "Q6",
       "priority": 2,
       "kind": "writing_and_teaching",
       "question": "Which mechanism survives and what can Amar independently derive?",
-      "deliverable": "Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results."
+      "deliverable": "Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results.",
+      "status": "continue_alongside_Q5",
+      "remaining": "Integrate coordination result and proof boundary into living synthesis; retain scheduled manuscript/teach-back outputs."
     }
   ],
   "portfolio_status": {
-    "theory": "Expansion, qualification, embodiment delay, billing-unit and learning-denominator switching mechanisms checked; larger organizational and endogenous network theory remains open",
-    "atlas": "Named issuer-described manufacturing tending workflow with retained manual loading and pricing structures; no observed numeric BEA backbone or joined target-transfer panel",
-    "paper": "Additional contract/learning working segment; core contribution remains unselected, complete manuscript not drafted",
-    "learning": "New contract/learning teach-back and separate solutions, plus prior qualification and embodiment timing exercises",
+    "theory": "Constructive expansion, qualification, embodiment timing, billing/learning units, and finite-source coordination economics; conditional physical/economic complementarity sign reversal checked. Organizational equilibrium/network coevolution remains open.",
+    "atlas": "Serve 2025 SEC 10-K remote vs field supervision, Agility autonomous Digit/Arc and Hoque 2022 intervention gating; reported roles mapped separately, no measured event rates or numeric BEA backbone.",
+    "paper": "New coordination manuscript segment; central contribution still unselected, full draft incomplete.",
+    "learning": "Fourth teach-back with separated answers; 25 new scoped tests; mastery not inferred.",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -89,7 +95,8 @@
     "Do not re-alert this unchanged limitation.",
     "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag.",
     "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access.",
-    "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified."
+    "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified.",
+    "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing."
   ],
-  "execution_note": "Q3 published complete bounded model, note, workflow observation, paper/teach-back and compact executable tests; no active lease."
+  "execution_note": "Q4 bounded original derivation, exact synthetic tests, workflow source contrast, paper/teach-back and scoped manifest published; lease released. Next Q5 manufacturing investment; Q2 BEA source path remains blocked but not retried."
 }

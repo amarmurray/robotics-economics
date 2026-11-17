@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "input_head": "668de875796edd1a50f6b90667c1124f682d859b",
+  "date": "2026-11-17",
+  "status": "exact_synthetic_not_calibrated",
+  "derivation": "finite-source queue plus adopted quadratic customer demand; full results regenerated via python coordination.py --output results.json",
+  "low_incident": {
+    "lambda": "1/10",
+    "choice": {
+      "hardware": 1,
+      "digital": 0,
+      "supervisor": 0
+    },
+    "net_gain": "173564237033637/73427572482121",
+    "effective_capacity": "19330/4433"
+  },
+  "high_incident": {
+    "lambda": "1/2",
+    "choice": {
+      "hardware": 1,
+      "digital": 1,
+      "supervisor": 0
+    },
+    "net_gain": "5701719346/911655045",
+    "effective_capacity": "2060/643"
+  },
+  "digital_disabled": {
+    "choice": {
+      "hardware": 0,
+      "digital": 0,
+      "supervisor": 1
+    },
+    "net_gain": "1056893/618135"
+  },
+  "demand_saturated": {
+    "choice": {
+      "hardware": 0,
+      "digital": 0,
+      "supervisor": 0
+    },
+    "net_gain": "0"
+  },
+  "physical_cross": "961508/2917887",
+  "economic_cross": {
+    "d": "23/4",
+    "sign": "negative",
+    "value": "-3369348825596/42570322723845"
+  },
+  "economic_cross_high": {
+    "d": "8",
+    "sign": "positive",
+    "value": "21880796416768/42570322723845"
+  },
+  "binding_threshold_d": "4243593611144/701392923399",
+  "checks": {
+    "scoped_tests": 25,
+    "command": "python -m unittest -v test_coordination",
+    "historical_suite": "not_run"
+  },
+  "unknown_parameters": [
+    "measured λ,μ",
+    "contractual surplus share",
+    "response times",
+    "correlated outages",
+    "matched customer demand"
+  ]
+}

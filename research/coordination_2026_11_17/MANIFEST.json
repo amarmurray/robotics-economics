@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "repository_branch": "research/assistant-led-expansion-20261117",
+  "scope": "additive Q4 research checkpoint only; central main manifest remains original until reconciliation",
+  "test_count": 25,
+  "files": [
+    [
+      "RESEARCH_NOTE.md",
+      "37479bdc185a2603bea120c66938df166fe12818"
+    ],
+    [
+      "coordination.py",
+      "ed181dd202f93b5454160ced7176dce0ba6eb7ca"
+    ],
+    [
+      "test_coordination.py",
+      "a48d4b4e80df6b78ef19961495f3fe749d82c62a"
+    ],
+    [
+      "evidence.json",
+      "5fcb6cecd9d686e29d0dac11b5a9e5d7fe72b43a"
+    ],
+    [
+      "TEACH_BACK.md",
+      "1d59d098cf647b298b7b186949dc35918684d3a8"
+    ],
+    [
+      "TEACH_BACK_SOLUTIONS.md",
+      "b339b3ea1ddac0bebae875c4af7897eaf5c19078"
+    ],
+    [
+      "../../paper/coordination_segment.md",
+      "7b1c9ce5181ca4ab50ddebcc7c2ffd2d6cff23bf"
+    ]
+  ],
+  "generated_full_results": "python coordination.py --output results.json",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000010/patr-20251231.htm",
+    "https://www.agilityrobotics.com/faq",
+    "https://proceedings.mlr.press/v164/hoque22a.html"
+  ]
+}

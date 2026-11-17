@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "read_date": "2026-11-17",
+  "interpretation": "Source-reported multi-workflow coordination observations; no measured transition rates or target economic calibration",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Serve Robotics, fiscal 2025 Form 10-K, Robot Operations and Level 4 Autonomy",
+      "publisher": "SEC-hosted issuer filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000010/patr-20251231.htm",
+      "filing_date": "2026-03-12",
+      "period_end": "2025-12-31",
+      "observed": "Issuer-described operation, not independently audited intervention series"
+    },
+    {
+      "id": "S2",
+      "title": "Agility Robotics FAQ, management, autonomous operations, safety workcell and Agility Arc",
+      "publisher": "Robotics provider website",
+      "url": "https://www.agilityrobotics.com/faq",
+      "published_date": null,
+      "observed": "Provider-described workflow and operational architecture"
+    },
+    {
+      "id": "S3",
+      "title": "ThriftyDAgger: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning",
+      "publisher": "Proceedings of Machine Learning Research, CoRL 2022",
+      "url": "https://proceedings.mlr.press/v164/hoque22a.html",
+      "published_year": 2022,
+      "observed": "Author-reported experiments including 10-participant, three-robot user study"
+    }
+  ],
+  "relations": [
+    {"id":"R1","from":"Serve fleet","to":"remote human supervisors","type":"remote_monitoring_and_assistance","source":"S1","status":"issuer_reported","intervention_hazard":null,"resolution_minutes":null},
+    {"id":"R2","from":"Serve fleet","to":"local field responders","type":"occasional_physical_assistance","source":"S1","status":"issuer_reported","dispatch_cost":null},
+    {"id":"R3","from":"merchant","to":"delivery robot cargo","type":"retained_human_loading","source":"S1","status":"issuer_reported","hours":null},
+    {"id":"R4","from":"Serve remote supervisor","to":"simultaneous deliveries","type":"claimed_one_to_many_operating_mode","source":"S1","status":"issuer_reported","ratio":null},
+    {"id":"R5","from":"Agility Arc","to":"enterprise WMS/MES","type":"provider_described_fleet_integration","source":"S2","status":"provider_reported","throughput_effect":null},
+    {"id":"R6","from":"Agility operations staff","to":"Digit fleet","type":"monitoring_diagnostics_maintenance","source":"S2","status":"provider_reported","interruptions_per_hour":null},
+    {"id":"R7","from":"Agility teleoperation","to":"site_setup_or_offsite_R_and_D","type":"provider_described_nonroutine_operations","source":"S2","status":"provider_reported","routine_teleop_rate":null},
+    {"id":"R8","from":"ThriftyDAgger intervention gating","to":"research test outcomes","type":"author_reported_supervisor_budget_improvement","source":"S3","status":"research_evaluation","field_demand_effect":null},
+    {"id":"U1","from":"digital_investment","to":"incident_hazard_change","type":"model_parameter_to_observe","source":null,"status":"unobserved_hypothesis","ratio":null},
+    {"id":"U2","from":"joint_hardware_digital_choice","to":"customer_accepted_output_and_collected_cash","type":"unobserved_production_to_cash_link","source":null,"status":"unidentified","value":null}
+  ],
+  "identification_fields": [
+    "configuration/version/site/time", "qualified_active_robot_hours", "blocking_assist_requests_by_cause",
+    "assist_arrival_dispatch_start_finish", "simultaneous_waiting_queue_and_staff_shifts",
+    "remote_vs_field_vs_nonblocking", "accepted_customer_output_quality", "demand_and_best_feasible_alternative",
+    "retained_work", "billing_units_and_invoices", "who_funds_hardware_digital_supervision",
+    "safety_minimum_and_data_rights"
+  ],
+  "do_not_infer": [
+    "The examples do not identify an empirical lambda, mu, digital reduction factor or mean queue distribution.",
+    "Serve delivery and Agility indoor tote/workcell operations are different service standards and hazard types.",
+    "The research intervention user study is not an industrial cost or staffing estimate.",
+    "Robots reported autonomous do not imply zero human monitoring or zero field support.",
+    "No comparison establishes which vendor has better coordination economics or safety."
+  ]
+}
