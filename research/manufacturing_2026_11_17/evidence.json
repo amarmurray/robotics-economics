@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "read_date": "2026-11-17",
+  "sources": [
+    {
+      "id": "M1",
+      "publication_date": "2025-02-25",
+      "url": "https://apptronik.com/news-collection/apptronik-and-jabil-collaborate-to-scale-production",
+      "title": "Apptronik-Jabil manufacturing and pilot issuer release"
+    },
+    {
+      "id": "M2",
+      "publication_date": "2023-09-18",
+      "url": "https://www.agilityrobotics.com/content/opening-robofab-worlds-first-factory-for-humanoid-robots",
+      "title": "Agility announced RoboFab planned capacity"
+    },
+    {
+      "id": "M3",
+      "publication_date": "2026-09-24",
+      "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+      "title": "IFR industrial robot 2025 installation aggregate"
+    },
+    {
+      "id": "M4",
+      "publication_date": "2025-06-24",
+      "url": "https://apptronik.com/news-collection/apptronik-announces-creation-of-elevate-robotics",
+      "title": "Apptronik announces Elevate non-humanoid specialization"
+    },
+    {
+      "id": "M5",
+      "publication_date": "2009-09-03",
+      "url": "https://doi.org/10.1111/j.1937-5956.2009.01024.x",
+      "title": "Gray Tomlin Roth contract manufacturer learning prior art abstract"
+    },
+    {
+      "id": "M6",
+      "publication_date": "2011-06-27",
+      "url": "https://doi.org/10.1111/j.1467-6451.2011.00450.x",
+      "title": "Balasubramanian Lieberman learning industry concentration prior art abstract"
+    }
+  ],
+  "relations": [
+    {
+      "id": "E1",
+      "source": "M1",
+      "status": "issuer_announced",
+      "type": "pilot_manufacturing_cooperation"
+    },
+    {
+      "id": "E2",
+      "source": "M1",
+      "status": "issuer_announced_pilot",
+      "type": "proposed_factory_internal_validation"
+    },
+    {
+      "id": "E3",
+      "source": "M1",
+      "status": "issuer_reported_unquantified",
+      "type": "claimed_actuator_design_to_cost"
+    },
+    {
+      "id": "E4",
+      "source": "M2",
+      "status": "issuer_announced_not_actual_output",
+      "type": "nameplate_annual_capacity",
+      "planned_capacity_units_per_year_lower_bound": 10000,
+      "realized_production_2025": null
+    },
+    {
+      "id": "E5",
+      "source": "M2",
+      "status": "issuer_announced",
+      "type": "planned_factory_internal_deployment"
+    },
+    {
+      "id": "E6",
+      "source": "M3",
+      "status": "IFR_2025_aggregate",
+      "type": "industrial_robot_installations_world",
+      "humanoid_subset": null
+    },
+    {
+      "id": "E7",
+      "source": "M3",
+      "status": "IFR_2025_aggregate",
+      "type": "industrial_robot_installations_us",
+      "humanoid_subset": null
+    },
+    {
+      "id": "E8",
+      "source": "M4",
+      "status": "issuer_announced",
+      "type": "embodiment_specialization_strategy"
+    },
+    {
+      "id": "E9",
+      "source": null,
+      "status": "unmeasured_hypothesis",
+      "type": "manufacturing_experience_to_resource_cost",
+      "learning_slope": null
+    },
+    {
+      "id": "E10",
+      "source": null,
+      "status": "unobserved_contract_link",
+      "type": "supplier_resource_cost_to_invoice_pass_through",
+      "pass_through_fraction": null
+    },
+    {
+      "id": "E11",
+      "source": null,
+      "status": "unidentified",
+      "type": "shared_manufacturing_to_new_embodiment",
+      "relative_saving": null
+    },
+    {
+      "id": "E12",
+      "source": null,
+      "status": "unidentified",
+      "type": "qualified_embodiment_to_customer_value_and_cash",
+      "customer_contribution_and_revenue": null
+    }
+  ],
+  "quantitative_separation": "Announced nameplate capacity is not realized builds; IFR industrial installations are not humanoid manufacture; no contractual supplier cost or invoice panel has been observed.",
+  "identification_requirement": "Manufacturer/component/design/production-cohort cost and yield linked to actual supplier invoices, contract terms, customer qualified service, and paid outputs"
+}

@@ -5,9 +5,13 @@
   "tested_locally": true,
   "new_tests": 30,
   "checks": [
+    "gzip -dc archive/manufacturing.py.gz > manufacturing.py",
+    "gzip -dc archive/test_manufacturing.py.gz > test_manufacturing.py",
+    "gzip -dc archive/test_evidence.py.gz > test_evidence.py",
+    "gzip -dc archive/results.json.gz > results.json",
     "python -m unittest -q test_manufacturing test_evidence",
-    "python manufacturing.py --output results.json",
-    "cmp results.json /tmp/q5_replay.json",
+    "python manufacturing.py --output replay.json",
+    "cmp results.json replay.json",
     "python replicate_core.py"
   ],
   "full_historical_suite": "not_run",
@@ -18,5 +22,8 @@
     "test_evidence.py.gz": "fbe2fb4ee1cd18dd39f288ad50520b7943304509",
     "results.json.gz": "714abfc895bbfe2d7e4f8e8e7fa701fbc5863260"
   },
-  "caveat": "The full local research note/evidence set is also in the downloadable ZIP; summarized research note and independently sourced evidence mapping are in this commit. No original-paper novelty claimed."
+  "caveat": "The full local research note/evidence set is also in the downloadable ZIP; summarized research note and independently sourced evidence mapping are in this commit. No original-paper novelty claimed.",
+  "artifact_detail": "Native evidence.json, verified 30 tests, and standalone replicate_core.py now included; archive/source gzip files require expansion into same directory",
+  "test_count": 30,
+  "fresh_directory_replay_status": "Local check completed; exact source files and test_gz Git SHA individually verified. Evidence.json is a documented concise provenance-preserving version of local full ledger that fulfills the same tested schema and null guards."
 }
