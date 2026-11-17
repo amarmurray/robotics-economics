@@ -1,0 +1,130 @@
+{
+  "assumptions": {
+    "complete_order_qA_floor": 1,
+    "no discount": true,
+    "synthetic": true,
+    "terminal_receivables_at_par": true
+  },
+  "loan_fee1": {
+    "failure": {
+      "path": [
+        [
+          0,
+          2,
+          0,
+          2,
+          12
+        ],
+        [
+          1,
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          2,
+          10,
+          12,
+          2,
+          12
+        ],
+        [
+          3,
+          15,
+          7,
+          2,
+          12
+        ]
+      ],
+      "repayment": 13,
+      "t4_repayment_cash_before": 27,
+      "terminal_equity": 26
+    },
+    "success": {
+      "path": [
+        [
+          0,
+          2,
+          0,
+          2,
+          12
+        ],
+        [
+          1,
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          2,
+          8,
+          12,
+          4,
+          28
+        ],
+        [
+          3,
+          11,
+          7,
+          4,
+          28
+        ]
+      ],
+      "repayment": 13,
+      "t4_repayment_cash_before": 39,
+      "terminal_equity": 54
+    }
+  },
+  "scenarios": {
+    "m11_lag1": {
+      "baseline": "76",
+      "initial_action": "produce_A2_B0",
+      "premium": "26/5",
+      "states": 171,
+      "t1_cash_after_maturity_normal_t0": 22,
+      "value": "406/5"
+    },
+    "m11_lag2": {
+      "baseline": "76",
+      "initial_action": "produce_A2_B0",
+      "premium": "0",
+      "states": 87,
+      "t1_cash_after_maturity_normal_t0": 2,
+      "value": "76"
+    },
+    "m4_lag1": {
+      "baseline": "20",
+      "initial_action": "produce_A2_B0",
+      "premium": "0",
+      "states": 27,
+      "t1_cash_after_maturity_normal_t0": 8,
+      "value": "20"
+    },
+    "m4_lag2": {
+      "baseline": "20",
+      "initial_action": "produce_A2_B0",
+      "premium": "0",
+      "states": 27,
+      "t1_cash_after_maturity_normal_t0": 2,
+      "value": "20"
+    },
+    "m7_lag1": {
+      "baseline": "44",
+      "initial_action": "produce_A2_B0",
+      "premium": "4",
+      "states": 89,
+      "t1_cash_after_maturity_normal_t0": 14,
+      "value": "48"
+    },
+    "m7_lag2": {
+      "baseline": "44",
+      "initial_action": "produce_A2_B0",
+      "premium": "0",
+      "states": 47,
+      "t1_cash_after_maturity_normal_t0": 2,
+      "value": "44"
+    }
+  }
+}

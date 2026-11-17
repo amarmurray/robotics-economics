@@ -5,9 +5,9 @@
   "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
   "lease": {
     "run_id": "auto-20261117T2028Z-cash-demand",
-    "status": "active",
+    "status": "released",
     "expires_at_utc": "2026-11-17T21:35:00Z",
-    "reason": "Theory extension: accepted customer demand, receipt maturity and finite-cash joint choice against specialist; manuscript and empirical bridge"
+    "reason": "Integrated dated-cash/demand theory, matched source ledger and tested exact finite-state model published"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "Existing hourly task prompt updated successfully November 17 2026 to sustained coherent theory; cadence and Christmas end unchanged. Not uninterrupted computation or proof of future runs.",
@@ -16,26 +16,25 @@
   "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "backlog_policy": "Complete pre-change Q1-Q13 queue, detailed validation and limitations preserved byte-identically; no original question or milestone canceled. Current block changes granularity and priority, not scope or authority.",
-  "latest_result": "Integrated Result 10: accepted customer quantity and provider cash endogenized via concave demand; solved stationary discounted A-to-B qualification intensity with shared output resource, hard SLA and soft penalty; proved shared-learning private option premium decreases with incumbent A demand when B incremental value fixed, while separately equipped specialist premium remains unchanged. Synthetic ranking reversals at increasing A demand or tightened service floor; nonlinear customer receipts yield Jensen/constructive long-run financing share. 19 committed scoped standard-library tests, 250 independent local SciPy parameter comparisons; exact code/test/results blobs matched local validation; no field calibration or historical CI.",
+  "latest_result": "Integrated Result 11: derived receipt-gated qualification thresholds and algebraic route premiums; fixed-route shared-learning marginal payoff decreases with incumbent demand but actual global investment may rise when cash feasibility opens, then switch to a qualified specialist alternative. Exact synthetic m=4,7,11 and L=1 gives premiums 0,4,26/5; L=2 gives zero all three, while sufficient initial funding removes the maturity effect. Constructive enforceable loan principal cancels, fee reduces net premium to 4-f. 18 locally scoped tests including independent exhaustive tree passed; source/test/results blobs match tested local files. Not industry calibration or original DP theorem.",
   "validation": {
-    "new_tests": 19,
-    "scope": "Endogenous accepted-service output; concave demand and B hazard; analytically optimal stationary effort; matched independent specialist and SLA comparisons; Jensen cash sustainable share; Bellman discretization and grid checks",
-    "fresh_directory_tests": 19,
-    "independent_local_scipy_comparisons": 250,
-    "source_git_blob": "e8ca62310a090da0ebdf27e9f020cb8c532b5460",
-    "test_git_blob": "53ada5707fae0d0cdbcef44f09a17b4e109208bb",
-    "results_git_blob": "8f869f14b2564ea7772c87ccc0a8856ad1b73aa0",
-    "source_test_results_blobs_match_validated_local_files": true,
-    "results_sha256": "26ef83b7e43465b99512e23b2e57fe37d35520d8f28f9f09107fb99a4855cc31",
+    "new_tests": 18,
+    "scope": "Finite-horizon dated-cash Bellman, hard service acceptance, qualified B, specialist comparator, repeat attempts, one/two-period collection, independent exhaustive decision tree, constructive secured-advance outcome paths",
+    "fresh_directory_tests": 18,
+    "exact_rational_scenarios": 6,
+    "source_git_blob": "40481b9918258b38c4a0ea7c10342ac7472afe2c",
+    "test_git_blob": "d603bada7f134e833467cb47495ae6c99fd54269",
+    "results_git_blob": "cbff804e3df477131349683a5077bfebdfce83a8",
+    "source_test_results_match_local": true,
     "historical_repository_suite": "not_run",
     "independent_review": false,
     "empirical_calibration": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/DEMAND_CONTRACT_THEORY.md",
+    "research/theory_integration_2026_11_17/FINITE_CASH_DEMAND_THEORY.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/demand_learning.py",
-    "research/theory_integration_2026_11_17/RECEIVABLE_LAG_THEORY.md",
+    "research/theory_integration_2026_11_17/liquidity_learning.py",
+    "research/theory_integration_2026_11_17/finite_cash_results.json",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "THEORY_PHASE.md",
@@ -45,16 +44,16 @@
     {
       "id": "THEORY-INTEGRATION",
       "priority": 1,
-      "status": "demand_curvature_service_contract_and_specialist_theory_completed; extend_same_manuscript",
-      "question": "Does the endogenous-demand / specialist-organization ranking survive finite cash, invoice delays and enforceable same-site service floors when A demand also increases near-term collections?",
-      "deliverable": "Derive a finite-horizon cash-state Bellman policy with received (not billed) payments, complete-order acceptance and a safety-matched specialist counterfactual; solve exact small baseline and identify a real matched panel."
+      "status": "dated_receipts_demand_capital_policy_completed; continue_same_manuscript",
+      "question": "When contingent customer/supplier finance is enforceable only for particular accepted-service claims, and customer demand may expire or payment may default, does financing genuinely change the optimal capability path net of payer rights and transfer pricing?",
+      "deliverable": "Extend the finite cash/qualification Bellman with state-specific default and enforceable payer/claim matching, endogenize accepted-order expiry and complete-service value, compare specialist route, prove a financing-rights proposition or exact counterexample and source-ground an event-level panel."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "dated_primary_issuer_relations_documented; matched_site_panel_absent",
+      "status": "primary_GXO_2024_2026_relation_grounded; matched_payment_panel_absent",
       "question": "Which observed accepted-service recipes, competent alternatives and joint acquisition outcomes distinguish complementary qualification from marginal skill improvement?",
-      "deliverable": "Observe within one customer/site order-value/quantity, accepted output during B training, operator/supervisor resource, SLA/penalties, invoice and collected dates versus qualified independent specialist path."
+      "deliverable": "Join customer complete-order acceptance and outside option to individual site training displacement, invoicing/actual collections and assigned receivable rights, confirm paid/pilot terms; official BEA backbone remains unobserved."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
@@ -72,10 +71,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Result 10 adds endogenous customer demand and competent specialist comparator to shared-capability qualification; stationarity/known demand/uncash-constrained policy scope explicit.",
-    "atlas": "DHL/GXO/Formic dated primary descriptions mapped to missing joint accepted-order/demand/cash-displacement panel; numeric BEA backbone still missing.",
-    "paper": "Living manuscript extended with Result 10 and detailed proof. December full paper and novelty decision remain pending.",
-    "learning": "Result 10 teaching problems and separate solutions, code and 19 local committed tests.",
+    "theory": "Result 11 repairs an overbroad inference from demand opportunity cost: finance eligibility can reverse actual acquisition as accepted A demand grows; issuer cash timing and contract assignments remain unknown.",
+    "atlas": "Site-level GXO/Agility accepted tote handoff and announced extension compared against precise missing joined receipts/qualification panel; official numeric BEA backbone still open.",
+    "paper": "Living integrated manuscript extended with Result 11 and full source/proof note; core contribution still unselected, December draft not complete.",
+    "learning": "Result 11 six questions and separate answers plus 18 local scoped tests with independent decision-tree verification.",
     "main_contribution": "candidate measurable production/learning/payment-topology synthesis; prior-art and industry calibration unresolved"
   },
   "known_limitations": [
@@ -92,13 +91,14 @@
     "Synthetic date unit and learning rates are not calibrated; a horizon switch is conditional and not a novel general theorem.",
     "Roberts-Weitzman PDF text inspected; screenshot attempt timed out, no full-proof audit claimed.",
     "Demand theory assumes stationary known accepted-order value, m>=dK, constant qualification hazards and sufficient immediate cash for discounted choice; long-run finance bound is separate.",
-    "Matched empirical customer demand, SLA contract, learning displacement, collected receipts and specialist comparison are not observed."
+    "Matched empirical customer demand, SLA contract, learning displacement, collected receipts and specialist comparison are not observed.",
+    "Result 11 payment delays deterministic, B success probabilities synthetic, terminal receivables assumed fully collectible at par, no discount/default or observed loan assignment terms. The analytically thresholded one-shot argument is conditional; global optimum exact only for stated four-date action space."
   ],
   "last_notification": {
     "key": "20261117-calendar-horizon-policy",
     "content": "Meaningful Result 8 on calendar-horizon ranking reversal under productive intermediate services, robust adaptive benchmark and qualified cash-bridge result recorded in this run. Do not repeat as new finding."
   },
-  "execution_note": "Theory run lease acquired pending actual research, no claim of completed analysis.",
+  "execution_note": "Lease 7d1fe007 acquired CAS; code and test blobs exact Git-sha match locally validated artifacts, results blob exact; 18 tests passed including independent exhaustive policy tree, original primary/GXO and research source reading. Current publication fast-forward with lease released, no main change, no older Codex recovery. Next: contingent claim rights, default and demand expiry in same Bellman.",
   "validation_prior": {
     "new_tests": 42,
     "scope": "Integrated theory only: exact allocation/lotteries, all 512 3x3 graphs and 19683 disjoint old/new partitions, 120 numerical dual certificates, allocation and curvature, independent adaptive ODE comparator, cash/probability reconciliation, alternative learning function, integer relaxation counterexample",
@@ -129,8 +129,8 @@
     "independent_review": false
   },
   "quiet_checkpoint": {
-    "key": "20261117-receivables-theory",
-    "summary": "A completed conceptual repair of prior self-funding result with stronger pausing, physical displacement and contract-specific credit tests; no routine notification."
+    "key": "20261117-result11-finitecash-demand",
+    "summary": "Substantive correction to fixed-affordability demand effect through dated receipt thresholds, fully adaptive exact baseline and a secured-loan cash account; archive in history without routine hour-by-hour notification."
   },
   "validation_previous": {
     "committed_core_tests_passed": 10,
