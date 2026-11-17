@@ -1,170 +1,25 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
-  "lease": {
-    "run_id": "auto-20261117T1440Z-Q12",
-    "status": "released",
-    "expires_at_utc": "2026-11-17T15:25:00Z",
-    "reason": "Q12 tested research published to isolated assistant-led branch"
-  },
+  "research_input_commit": "763ff40d8a7f8a1ac5568de6c6b9f0aef9961848",
+  "lease": {"run_id": "interactive-20261117-theory-integration", "status": "active", "expires_at_utc": "2026-11-17T16:25:00Z", "reason": "User explicitly requests sustained robust theory rather than serial small model tranches"},
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
-  "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q12: compared qualified flexible hardware versus equal-capital digitally coordinated task-specialists under correlated customer demands and finite shared human attention. Under sufficient H, F minus coordinated value equals 6/25-(2/5)*lambda, switching at lambda=3/5. With lambda=0 and H 1 to 4/5, winner reverses F (+6/25) to digital specialists (+54/125). 20 new scoped tests passed and fresh-directory results byte-identical. Synthetic normalized data; no calibrated vendor economics. Q10 former unpublished work still unrecovered.",
-  "validation": {
-    "new_tests": 20,
-    "scope": "Q12 exact 2-service concave quadratic supervisor-attention portfolio tests: correlation, attention, rights, liquidity, qualification and independent finite-grid lower-bound checks",
-    "historical_repository_suite": "not_run",
-    "git_source_blob_verified": true,
-    "git_test_blob_verified": true,
-    "regenerated_results_sha256": "2872effc10931ddc8a38933c0f0697d049b88cc9729d699c2d7a6b4d2fcbea09",
-    "fresh_directory_replay": "byte-identical and 20/20 tests passed",
-    "independent_review": false
-  },
-  "read_next": [
-    "research/digital_specialist_q12_2026_11_17/RESEARCH_NOTE.md",
-    "research/digital_specialist_q12_2026_11_17/EVIDENCE.json",
-    "research/digital_specialist_q12_2026_11_17/MANUSCRIPT_SEGMENT.md",
-    "research/validation_q9_2026_11_17/RESEARCH_NOTE.md"
-  ],
+  "current_mode": "Sustained integrated theory block. Do not default to another Q-number toy or threshold. Preserve and revisit the full empirical, paper and teaching agenda.",
+  "user_direction": "Can we do something fulsome (keep the full roadmap in mind and still execute on it, but change the approach for a bit)? Eg spend a lot of time on robust theory - go please, we can discover something.",
+  "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+  "backlog_policy": "The complete pre-change Q1-Q13 queue, detailed validation, limitations and portfolio state are preserved byte-for-byte in backlog_file. Read it alongside this state; no question or milestone is canceled. Current block changes research granularity and priority, not authority or roadmap.",
+  "latest_result": "Prior published Q12 compared physical pooling with digitally coordinated specialists under shared attention; current integrated investigation is in progress, not a result yet.",
+  "read_next": ["RESEARCH_EXECUTION.md", "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json", "research/digital_specialist_q12_2026_11_17/RESEARCH_NOTE.md", "THEORY_PHASE.md", "research/theory/milestones.md"],
   "queue": [
-    {
-      "id": "Q1",
-      "priority": 8,
-      "kind": "theory",
-      "question": "When does embodiment redesign rather than further learning on an existing configuration justify its extra cost and time-to-build?",
-      "deliverable": "Small delayed qualification/production comparison with demand expiry, learning and terminal-value counterexamples. Use the new qualification cost program; do not add arbitrary fees to force a result.",
-      "status": "conditional_analytical_tranche_completed",
-      "remaining": "Joint experience acquisition, uncertain demand and real matched service evidence remain open; do not rerun identical toy."
-    },
-    {
-      "id": "Q2",
-      "priority": 1,
-      "kind": "empirical_topology",
-      "question": "What does an observed sector-to-sector production backbone add to our task-market opportunity map?",
-      "deliverable": "Retrieve an official BEA observed use/supply table, preserve vintage/units/classifications, extract a small relevant subnetwork and reconcile it. No firm/task inference from aggregate monetary edges.",
-      "status": "analytical_measurement_checkpoint_completed; empirical_backbone_open",
-      "remaining": "Official numeric BEA use/supply file not accessible via current channels; import only after a verifiable source route emerges"
-    },
-    {
-      "id": "Q3",
-      "priority": 1,
-      "kind": "demand_and_contracts",
-      "question": "Does the constructive source/investment ranking survive hourly billing, output pricing and customer demand response?",
-      "deliverable": "Bridge existing RaaS receipt model with qualification time and matched outside options; compare competent pricing/retention alternatives.",
-      "status": "conditional_analytical_tranche_completed",
-      "remaining": "Hybrid minimums, SLA penalties, productive/idle time, capacity and target-useful data not empirically estimated."
-    },
-    {
-      "id": "Q4",
-      "priority": 1,
-      "kind": "coordination",
-      "question": "When does investment in digital coordination dominate more hardware or broader task coverage?",
-      "deliverable": "Compact supervisor congestion/coordination choice using posted-hour or output-pricing response, matched outside production, and a source-backed contrasting workflow.",
-      "status": "conditional_analytical_and_workflow_tranche_completed",
-      "remaining": "Evaluate correlated incidents, heterogeneous task/site queues, hourly versus output contracts with matched capacity, and empirical λ/μ measurement; do not rerun the identical CTMC toy."
-    },
-    {
-      "id": "Q5",
-      "priority": 1,
-      "kind": "manufacturing_and_capital",
-      "question": "How do manufacturing cost reduction, embodiment specialization and learning transfer change expansion order?",
-      "deliverable": "Endogenous investment choice and a falsifying comparative case, not a free cost-learning curve.",
-      "status": "conditional_analytical_and_evidence_tranche_completed",
-      "remaining": "Measure manufacturing cohort costs and contractual pass-through; compare combined production learning and task-learning networks with matched service acceptance. Do not re-run same toy."
-    },
-    {
-      "id": "Q6",
-      "priority": 1,
-      "kind": "writing_and_teaching",
-      "question": "Which mechanism survives and what can Amar independently derive?",
-      "deliverable": "Update the living manuscript, closest-literature comparison, proof appendix and separate teach-back solutions using actual results.",
-      "status": "continue_alongside_Q5",
-      "remaining": "Integrate coordination result and proof boundary into living synthesis; retain scheduled manuscript/teach-back outputs."
-    },
-    {
-      "id": "Q7",
-      "priority": 1,
-      "kind": "cross_layer",
-      "question": "When do manufacturer experience, field task-learning and customer-acquisition knowledge pull investment in opposite directions under supplier and data rights?",
-      "deliverable": "Small signed/typed dual-learning edge experiment with matched task demand and a falsifiable production/cohort/customer observation set; integrate paper thesis",
-      "status": "conditional_analytical_and_source_mapping_completed",
-      "remaining": "Matched source-to-target service qualification & demand evidence, rights/receipts panel; no repeated generic synthetic stock."
-    },
-    {
-      "id": "Q8",
-      "priority": 1,
-      "kind": "workflow_empirics",
-      "question": "What auditable source-target physical-workflow evidence separates field-learning transfer from new service qualification, demand response and customer paid terms?",
-      "deliverable": "Matched unloading-to-case-picking or manufacturing site task comparison with explicit site capability/acceptance, validation effort, alternative process and payer records; add independent negative control, source dates and limits.",
-      "status": "source_grounded_workflow_and_partial_identification_completed",
-      "remaining": "Matched order-level observed joint failure, source-data exposure, qualification costs and paid receipts still absent. Next compare evidence acquisition versus incumbent fleet expansion; no repetitive 95%-success toy."
-    },
-    {
-      "id": "Q9",
-      "priority": 1,
-      "kind": "qualification_experiment_and_capital_allocation",
-      "question": "When should a deployer invest in learning whether a multi-service configuration meets complete customer acceptance, versus expanding an established unloading fleet?",
-      "deliverable": "Two-period exact value-of-information model with target order complete-service uncertainty, validation sample budget, incumbent investment, customer demand and finance. Prioritize an observed event-level panel, challenge prior art and avoid imposed probabilities.",
-      "status": "conditional_analytical_tranche_completed",
-      "remaining": "Test experiment delay, paid pilot/competent financing alternatives, variation in target order/site mix, and real acceptance/payment dataset. Do not rerun identical two-state toy."
-    },
-    {
-      "id": "Q10",
-      "priority": 1,
-      "kind": "dynamic_validation_contract",
-      "question": "When do trial delay, endogenous customer demand and a paid/financed qualification pilot change the optimal incumbent-vs-new-workflow investment?",
-      "deliverable": "Time-indexed exact target/customer demand and competing-capacity model; finance/paid-pilot ablation; source-grounded event-level data protocol and integrated manuscript section.",
-      "status": "next_unblocked"
-    },
-    {
-      "id": "Q11",
-      "priority": 2,
-      "kind": "physical_flexibility",
-      "question": "When does physical pooling beat dedicated production under correlated demand and qualified service?",
-      "deliverable": "Local independently validated 15-test archive pending proper separate integration; do not claim already in branch.",
-      "status": "local_validated_uncommitted",
-      "remaining": "Reconcile local Q11 source/test archive into canonical branch without overwriting Q10 unpublished content."
-    },
-    {
-      "id": "Q12",
-      "priority": 1,
-      "kind": "digital_vs_physical_organization",
-      "question": "When is digital coordination of specialized qualified capacity a competent substitute for physical generality?",
-      "deliverable": "Exact statewise comparison, analytical synchrony threshold, binding human-attention reversal, primary-source relation ledger and teaching.",
-      "status": "conditional_analytical_and_evidence_tranche_completed",
-      "remaining": "Replace binary task eligibility with overlapping task graph; switching/intervention constraints and joint accepted-order service."
-    },
-    {
-      "id": "Q13",
-      "priority": 2,
-      "kind": "network_topology_and_qualification",
-      "question": "Under partially overlapping eligible-task edges, when does a digitally orchestrated mixed fleet replicate qualified physical pooling?",
-      "deliverable": "Small joint-order capability-hypergraph result or counterexample with switch costs, demand and matched outside option; measured-style workflow panel.",
-      "status": "next_constructive_option"
-    }
+    {"id":"THEORY-INTEGRATION","priority":1,"status":"in_progress","question":"When does adding technical capability enlarge economically usable production opportunities, and when do learning and qualification investments have irreducible network complementarities?","deliverable":"A unified economic environment, fully stated propositions with proofs/counterexamples, closest-literature comparison, adversarial computational checks, empirical implications, and an integrated manuscript rather than another isolated example."},
+    {"id":"EMPIRICAL-TOPOLOGY","priority":2,"status":"retained","question":"Measure accepted-service recipes, joint demand, qualification and operating-resource relationships; preserve Q2 and Q8 empirical gaps without inferring task links from sector flows."},
+    {"id":"DYNAMIC-INVESTMENT","priority":2,"status":"retained","question":"Connect production-frontier changes to endogenous learning, customer demand, payer cash, manufacture, embodiments and organization; reconcile previous Q1-Q13 results."},
+    {"id":"PAPER-AND-TEACHING","priority":1,"status":"alongside_theory","question":"Produce one coherent argument, proof appendix and teach-back, distinguish reconstructed theory from candidate originality, and preserve Christmas milestones."}
   ],
-  "portfolio_status": {
-    "theory": "Q12 combines Q11 covariance-dependent flexibility with explicit finite human-attention and competent digital-specialist comparison; two conditional ranking reversals; full manuscript contribution still unselected.",
-    "atlas": "Issuer-described LocusONE pick-and-pass and Amazon Sequoia multi-system handoffs documented, with unobserved attention, joint demand, qualification, costs and receipts typed unknown. Official numeric BEA backbone still open.",
-    "paper": "Q12 manuscript segment prepared, not integrated complete paper; Q11 local checkpoint pending publication and Q10 unfinished local work unrecovered.",
-    "learning": "Q12 teachback and separate solutions, 20 exact scoped tests.",
-    "main_contribution": "unselected"
-  },
-  "last_notification": {
-    "key": "20261117-continuation-qualification",
-    "content": "Hourly task setup, qualification-cost ranking reversal, tested research package and limitations reported in current conversation."
-  },
-  "known_limitations": [
-    "Old Codex workspace/checkpoint 12 unrecovered; no runtime-stop claim.",
-    "Do not re-alert this unchanged limitation.",
-    "Embodiment timing result is synthetic/deterministic; LEAP assembly time cannot calibrate industrial qualification lag.",
-    "Nov17 Q2 official BEA numeric export inaccessible: container DNS failed, binary BLS ZIP unsupported, BEA API ID absent, third-party 2024 CSV HTTP 530. Do not retry identical routes without new access.",
-    "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified.",
-    "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing.",
-    "Q9 validation regimes, prior, test costs and returns are synthetic; no observed warehouse whole-order likelihoods, training/validation rights, or staged financing contract."
-  ],
-  "execution_note": "Q12 independent constructive research finished after Q10 lease expiration, branch exclusive lease acquired CAS, exact source/test Git blob matched tested local artifacts, 20 tests passed; source-grounded comparative note, manuscript, evidence and teachback published with released lease. Q10 unseen local work preserved and Q11 independent archive still to integrate. Next eligibility-network capability graph or reconcile missing Q10/Q11 prior to expanding."
+  "portfolio_status": {"theory":"integrating prior mechanisms into a sustained theory block", "atlas":"not completed; inherited evidence gaps preserved", "paper":"separate prior segments require synthesis", "main_contribution":"unselected"},
+  "known_limitations": ["Old Codex workspace/checkpoint 12 and unpublished Q10 remain unrecovered; no runtime-stop claim.","Q11 local archive remains unintegrated; preserve it.","Official numeric BEA backbone remains open; do not retry exhausted routes without new access.","All prior synthetic coefficients remain uncalibrated. See preserved prior state for exact limitations."],
+  "last_notification": {"key":"20261117-user-theory-change","content":"Acknowledged sustained theoretical investigation; no new finding claimed yet."},
+  "execution_note":"Exclusive research lease being acquired by expected-head update. No main changes, new worker, outreach or schedule changes. Release lease with actual verified research output."
 }
