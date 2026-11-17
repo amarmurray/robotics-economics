@@ -1,0 +1,32 @@
+{
+  "status": "exact synthetic benchmark",
+  "run_date": "2026-11-17",
+  "model_path": "cross_layer.py",
+  "tests_passed": 15,
+  "base": {
+    "winner": "hybrid",
+    "hybrid_provider_value": "10",
+    "factory_provider_value": "47/5",
+    "field_provider_value": "42/5",
+    "hybrid_investment": "9",
+    "hybrid_available_cash": "10"
+  },
+  "thresholds": {
+    "financeable_sum_kappa_delta": "5/3",
+    "strict_private_preference_sum_kappa_delta": ">9/5",
+    "strict_base_demand_intercept_full_rights": ">93/8",
+    "supplier_margin_at_kappa_81_percent": "157/100"
+  },
+  "ablations": {
+    "no_supplier_pass_through": "factory",
+    "no_field_rights": "factory",
+    "no_access_demand_effect": "factory"
+  },
+  "validation": {
+    "command": "python -m unittest -v test_cross_layer",
+    "scope": "15 new scoped tests; earlier suites not rerun",
+    "results_command": "python cross_layer.py"
+  },
+  "empirical_coefficients_calibrated": false,
+  "novelty_established": false
+}

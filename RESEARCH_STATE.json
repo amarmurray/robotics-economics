@@ -5,23 +5,24 @@
   "research_input_commit": "0bde43c00cceda1fcb258c51468955c94d4834e8",
   "lease": {
     "run_id": "auto-20261117T103424Z-Q7",
-    "status": "active",
-    "expires_at_utc": "2026-11-17T12:04:24Z"
+    "status": "released",
+    "expires_at_utc": null
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "schedule_status": "First scheduled run completed an analytical/evidence tranche and passed scoped tests; this is not continuous compute or proof of future runs",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "latest_result": "Q5: endogenous two-stage G/S manufacture-vs-deploy cash and supplier pass-through. Derived specialist demand cutoff, financing 11/20 vs private choice 3/5 in exact scenario, cross-embodiment learning direction can reverse specialization preference; 30 new scoped tests, 10-check standalone replication; primary-source manufacturer/service observations remain uncalibrated.",
+  "latest_result": "Q7: exact three-channel (manufacturer real cost/invoice pass-through, field reuse/qualification, customer access/demand) deployment sequence. Hybrid S finance threshold kappa+delta>=5/3; strict choice threshold >9/5, with full-rights destination-demand threshold a>93/8 in binding region. 15 new scoped tests and fresh-directory byte-identical replay. Primary Jabil/Apptronik/DHL organizational evidence separated from unidentified cost/rights/paid-service coefficients; no novelty or calibration claim.",
   "validation": {
-    "new_tests": 30,
-    "scope": "test_manufacturing and test_evidence via Python 3.10+ standard library; exact rational full-menu tests and deterministic results replay",
+    "new_tests": 15,
+    "scope": "Q7 test_cross_layer.py from verified Git blob, exact Fractions; source/evidence ledger integrity checks; byte-identical fresh-directory results.json",
     "historical_repository_suite": "not_run",
-    "git_gzip_blobs_verified": true
+    "git_source_blob_verified": true,
+    "git_test_blob_verified": true
   },
   "read_next": [
-    "research/manufacturing_2026_11_17/RESEARCH_NOTE.md",
-    "research/manufacturing_2026_11_17/EVIDENCE.json",
-    "paper/manufacturing_segment.md"
+    "research/cross_layer_2026_11_17/RESEARCH_NOTE.md",
+    "research/cross_layer_2026_11_17/EVIDENCE.json",
+    "paper/cross_layer_segment.md"
   ],
   "queue": [
     {
@@ -84,14 +85,23 @@
       "kind": "cross_layer",
       "question": "When do manufacturer experience, field task-learning and customer-acquisition knowledge pull investment in opposite directions under supplier and data rights?",
       "deliverable": "Small signed/typed dual-learning edge experiment with matched task demand and a falsifiable production/cohort/customer observation set; integrate paper thesis",
+      "status": "conditional_analytical_and_source_mapping_completed",
+      "remaining": "Matched source-to-target service qualification & demand evidence, rights/receipts panel; no repeated generic synthetic stock."
+    },
+    {
+      "id": "Q8",
+      "priority": 1,
+      "kind": "workflow_empirics",
+      "question": "What auditable source-target physical-workflow evidence separates field-learning transfer from new service qualification, demand response and customer paid terms?",
+      "deliverable": "Matched unloading-to-case-picking or manufacturing site task comparison with explicit site capability/acceptance, validation effort, alternative process and payer records; add independent negative control, source dates and limits.",
       "status": "next_unblocked"
     }
   ],
   "portfolio_status": {
-    "theory": "Q5 adds manufacturer supplier-cost vs invoice pass-through and endogenous fleet/specialization cash choices; result conditional and novelty unresolved",
-    "atlas": "Q5 Apptronik/Jabil, Agility, IFR and adjacent source relationships appended; no observed build-cohort–invoice–service panel or numeric BEA backbone",
-    "paper": "Q5 added conditional manufacturing-specialization and dual finance/value threshold segment; focused paper not complete",
-    "learning": "Teach-back 05 and separate worked solutions, tested code supplied",
+    "theory": "Q7 exact two-gate rights/learning/demand joint sequencing result; source scores synthetic; prior-art novelty open",
+    "atlas": "Q7 seven dated primary source records and ten typed observed/hypothesized edges; no observed joined manufacturing-data-customer panel or numeric BEA backbone",
+    "paper": "Q7 draft segment connects typed multipayer learning and source-choice thresholds, centered on falsifiable evidence rather than financial veto",
+    "learning": "Q7 Teach-back 06 with separate solutions and reproducible exact model",
     "main_contribution": "unselected"
   },
   "last_notification": {
@@ -106,5 +116,5 @@
     "Formic issuer case is not a measured contract experiment; source output-to-target qualification learning and actual invoice/receivable data remain unidentified.",
     "Q4 hazard, repair and digital intervention parameters are synthetic; Serve/Agility/PMLR observations do not identify queue rates, cash, service warranties or safety-compliant staffing."
   ],
-  "execution_note": "Q5 published and complete: model/test/result blobs, readable research note, source ledger, standalone exact replication, manuscript and teaching. 30 scoped unit tests passed in local full evidence; separately reconstructed repository evidence retains same source and null-guard schema. Lease released. Next Q7."
+  "execution_note": "Q7 bounded tranche completed with 15 scoped tests, source/test Git blobs verified against clean-directory executed copies and byte-identical replay, primary-source ledger and manuscript/learning updates. Branch preserved, lease released. Next Q8 workflow evidence and Q6 synthesis integration; do not rerun Q7 toys."
 }

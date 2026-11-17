@@ -1,0 +1,158 @@
+{
+  "retrieved_date": "2026-11-17",
+  "status": "Issuer-reported source relationships; no identified joined production-learning-payment panel",
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "Jabil",
+      "publication_date": "2025-02-25",
+      "url": "https://www.jabil.com/news/apptronik-jabil-collaborate.html",
+      "scope": "Announced manufacturing and in-factory validation pilot"
+    },
+    {
+      "id": "S2",
+      "publisher": "Apptronik",
+      "publication_date": "2026-06-30",
+      "url": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work",
+      "scope": "Reported real-world model-training data at facilities and customers"
+    },
+    {
+      "id": "S3",
+      "publisher": "DHL",
+      "publication_date": "2022-01-26",
+      "url": "https://www.dhl.com/us-en/home/press/press-archive/2022/dhl-supply-chain-to-invest-usd15-million-to-further-automate-warehousing-via-boston-dynamics-collaboration.html",
+      "scope": "Announced multiyear 15m Stretch arrangement, not per-unit invoices"
+    },
+    {
+      "id": "S4",
+      "publisher": "DHL",
+      "publication_date": "2023-01-31",
+      "url": "https://www.dhl.com/us-en/home/press/press-archive/2023/dhl-supply-chain-achieves-first-commercial-deployment-of-boston-dynamics-stretch-robot.html",
+      "scope": "Commercial trailer-unloading use, planned improvement"
+    },
+    {
+      "id": "S5",
+      "publisher": "DHL",
+      "publication_date": "2025-05-13",
+      "url": "https://group.dhl.com/en/media-relations/press-releases/2025/dhl-group-signs-mou-with-boston-dynamics-and-accelerates-cross-business-automation-strategy.html",
+      "scope": "MOU contemplating >1000 additional units and case picking; not delivered"
+    },
+    {
+      "id": "S6",
+      "publisher": "DHL",
+      "publication_date": "2025-03-17",
+      "url": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-supply-chain-accelerates-automation-deployments-with-stv-robotics-softbot-platform.html",
+      "scope": "Integration announcement, URL year 2026 differs from page's 2025 dateline"
+    },
+    {
+      "id": "S7",
+      "publisher": "DHL",
+      "publication_date": null,
+      "reporting_period": "FY2025",
+      "url": "https://reporting-hub.group.dhl.com/2025-fy/en/",
+      "scope": "FY2025 throughput claim, unaligned with 2025 issuer release"
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "from": "Jabil",
+      "to": "Apollo production",
+      "type": "announced_manufacturer",
+      "status": "issuer_reported",
+      "source": "S1",
+      "real_unit_cost": null,
+      "invoice_pass_through": null
+    },
+    {
+      "id": "R2",
+      "from": "Jabil factory",
+      "to": "Apollo validation",
+      "type": "reported_testing",
+      "status": "issuer_reported",
+      "source": "S1",
+      "qualification_cost_effect": null
+    },
+    {
+      "id": "R3",
+      "from": "Robot Parks and customer sites",
+      "to": "Apptronik model development",
+      "type": "reported_data_collection",
+      "status": "issuer_reported",
+      "source": "S2",
+      "reuse_rights": null,
+      "transfer_effect": null
+    },
+    {
+      "id": "R4",
+      "from": "DHL",
+      "to": "Boston Dynamics Stretch",
+      "type": "announced_purchase",
+      "status": "issuer_reported",
+      "source": "S3",
+      "unit_invoice": null
+    },
+    {
+      "id": "R5",
+      "from": "DHL unloading",
+      "to": "Stretch co-development",
+      "type": "reported_operational_feedback",
+      "status": "issuer_reported",
+      "source": "S4",
+      "qualification_cost_effect": null
+    },
+    {
+      "id": "R6",
+      "from": "DHL/Boston Dynamics",
+      "to": "case-picking expansion",
+      "type": "MOU_expansion_intent",
+      "status": "issuer_reported_intention",
+      "source": "S5",
+      "realized_accepted_volume": null
+    },
+    {
+      "id": "R7",
+      "from": "SVT SOFTBOT",
+      "to": "DHL WMS/robot integration",
+      "type": "reported_digital_coordination",
+      "status": "issuer_reported",
+      "source": "S6",
+      "causal_task_learning": null
+    },
+    {
+      "id": "H1",
+      "from": "manufacturing experience",
+      "to": "specialist deployer invoice savings",
+      "type": "hypothesized_cost_pass_through",
+      "status": "unidentified_hypothesis",
+      "source": null,
+      "effect": null
+    },
+    {
+      "id": "H2",
+      "from": "source field experience",
+      "to": "target qualification bill",
+      "type": "hypothesized_reusable_field_learning",
+      "status": "unidentified_hypothesis",
+      "source": null,
+      "effect": null
+    },
+    {
+      "id": "H3",
+      "from": "source customer relationships",
+      "to": "target paid market demand",
+      "type": "hypothesized_customer_access",
+      "status": "unidentified_hypothesis",
+      "source": null,
+      "effect": null
+    }
+  ],
+  "metric_caution": "DHL May 2025 up-to-700 throughput and FY2025 up-to-500 throughput are not matched comparison estimates.",
+  "unknowns": [
+    "matched supplier production costs and invoices",
+    "same target qualification protocol with source variation",
+    "reuse rights and transfer effectiveness",
+    "customer alternative and accepted paid output",
+    "rejected opportunities and cash/credit terms"
+  ]
+}
