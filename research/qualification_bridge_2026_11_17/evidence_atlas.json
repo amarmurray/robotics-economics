@@ -1,0 +1,36 @@
+{
+  "status": "Sparse evidence/requirement map; not full economic atlas or calibrated network",
+  "sources": [
+    {"id":"OXE","url":"https://arxiv.org/pdf/2310.08864","retrieved":"2026-11-17","version":"Unversioned endpoint; no version number inferred","inspected":"PDF pages 5-6, Tables I-II, Figure 4; web screenshots inspected"},
+    {"id":"SCALING","url":"https://arxiv.org/html/2410.18647v2","version":"v2, 2025-02-12","retrieved":"2026-11-17","inspected":"HTML Sections 3/5 and Appendices D/E/G; PDF size limit, no PDF visual claim"},
+    {"id":"BEA","url":"https://www.bea.gov/resources/guide-interactive-industry-input-output-accounts-tables","retrieved":"2026-11-17","inspected":"Official definitions only; no numerical table downloaded this tranche"}
+  ],
+  "observations": [
+    {"id":"O1","source":"OXE","locator":"Table I","metric":"reported success percent","scope":"Three large-data evaluation columns in source order","rt1":[40,30,92],"rt1x":[27,27,73],"sample_sizes_by_cell":null,"qualification_cost":null},
+    {"id":"O2","source":"OXE","locator":"Table II, rows 2-3","metric":"emergent-skill success percent","full_robotics_mixture":75.8,"without_bridge":42.8,"design":"source-reported mixture ablation","dollars_per_target_improvement":null},
+    {"id":"O3","source":"SCALING","locator":"Table 1 / Appendix G.4","tasks":["pour water","mouse arrangement","fold towels","unplug charger"],"normalized_scores":[0.922,0.933,0.95,0.887],"success_percent":[85,92.5,87.5,90],"uncertainty":"Source reports across-environment standard deviations, not population confidence intervals","industrial_service_rate":null},
+    {"id":"O4","source":"SCALING","locator":"Appendix D.1","scope":"Pouring evaluation uses capped bottle; does not measure liquid delivery","customer_cost_savings":null},
+    {"id":"O5","source":"SCALING","locator":"Appendix D.3","scope":"Towel starts already partly folded; bounded rotation","complete_laundry_workflow":null},
+    {"id":"O6","source":"SCALING","locator":"Appendix E.2","scope":"Within-batch matched initial conditions; author warns against comparing separate batches","causal_cross_batch_learning_curve":null},
+    {"id":"O7","source":"BEA","locator":"Guide definitions","scope":"Supply, use and requirements tables represent different objects; industry aggregates are not firm/workcell networks","backbone_extracted":false}
+  ],
+  "opportunity_cells": [
+    {"id":"C1","observed_task":"capped-bottle positioning/pouring motion","source_observation":"O4","hypothesized_market":"food-service beverage handling","value_chain_stage":"service preparation","mapping_status":"research hypothesis, not observed deployment","missing_requirements":["uncapped fluid handling","spillage/quality","refill and cleanup","timely service","matched labor or process alternative"],"customer_value_test":"Cost saving or sellable throughput at matched service, not value of the entire restaurant","price":null,"learning_cost":null},
+    {"id":"C2","observed_task":"single mouse placement","source_observation":"O3","hypothesized_market":"electronics handling/kitting","value_chain_stage":"assembly or fulfillment","mapping_status":"research hypothesis, not observed deployment","missing_requirements":["takt and product mix","grasp geometry range","upstream presentation","downstream handoff","quality acceptance"],"customer_value_test":"Incremental contribution at actual demand and avoidable process cost","price":null,"learning_cost":null},
+    {"id":"C3","observed_task":"one fold of partly folded towel","source_observation":"O5","hypothesized_market":"commercial laundry or hospitality linen","value_chain_stage":"finishing","mapping_status":"research hypothesis, not observed deployment","missing_requirements":["sorting and separation","wet/dry material variation","full folding sequence","stacking","handling/support duties"],"customer_value_test":"Complete accepted linen output versus human or specialized machinery","price":null,"learning_cost":null},
+    {"id":"C4","observed_task":"charger extraction","source_observation":"O3","hypothesized_market":"electronics servicing/disassembly","value_chain_stage":"handling or repair","mapping_status":"research hypothesis, not observed deployment","missing_requirements":["configuration-specific access","safe isolation where needed","connector variation","complete repair workflow","qualified alternative"],"customer_value_test":"Value of the changed service step, not whole-device revenue","price":null,"learning_cost":null}
+  ],
+  "relations": [
+    {"id":"R1","from":"robotics training mixture","to":"evaluated target policies","type":"source_reported_recipe_and_evaluation","observation":"O1"},
+    {"id":"R2","from":"Bridge inclusion","to":"Google Robot emergent-skill evaluation","type":"source_reported_ablation","observation":"O2"},
+    {"id":"R3","from":"component capability profile","to":"qualification effort","type":"hypothetical_model_relationship","observed":false},
+    {"id":"R4","from":"qualified service","to":"customer economic surplus","type":"hypothetical_model_relationship","observed":false},
+    {"id":"R5","from":"customer payment","to":"provider reinvestment","type":"inherited_accounting_model","observed":false}
+  ],
+  "do_not_infer": [
+    "No observed industrial deployment is inferred from a laboratory task.",
+    "Reported scores are not true failure-probability bounds or cost coefficients.",
+    "The cases are nonadditive examples, not market-size estimates.",
+    "No confidential customer data was obtained."
+  ]
+}
