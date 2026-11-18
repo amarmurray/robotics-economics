@@ -1,0 +1,36 @@
+{
+  "assumptions": "Each policy has independently identified stopped occupancy; same-world conditional residual value u_j is invariant across policies, including B orders/customer/operator response; separate physical approval.",
+  "single_stratum": {
+    "copy_known": "27/20",
+    "no_copy_known": "7/5",
+    "copy_exit": "1/2",
+    "no_copy_exit": "1/4",
+    "shared_contrast_interval": [
+      "-1/20",
+      "19/20"
+    ],
+    "independently_subtracted_interval": [
+      "-21/20",
+      "39/20"
+    ],
+    "each_endpoint_overlap_improvement": "1",
+    "crossover_unsupported_contribution": "1/5",
+    "conditional_u_3_to_4": [
+      "7/10",
+      "19/20"
+    ]
+  },
+  "identical_exit_occupancy_contrast": [
+    "1/5",
+    "1/5"
+  ],
+  "two_exit_strata": [
+    "-21/40",
+    "9/40"
+  ],
+  "invalid_invariance_witness": "-1",
+  "scoped_assertions": 203,
+  "empirical_claims": false,
+  "physical_approval": false,
+  "novelty_claim": false
+}
