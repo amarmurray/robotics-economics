@@ -5,10 +5,11 @@
   "research_input_commit": "7cedf0f29664cb822aedb7b33a82a63d92c77ba4",
   "lease": {
     "run_id": "scheduled-20261118T024616438Z-preservation-audit-91888853",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T02:46:16.438Z",
     "expires_at_utc": "2026-11-18T03:01:16.438Z",
-    "reason": "Audit preservation record to ensure byte-for-byte previous released state, then release."
+    "reason": "Prior released state preserved byte-for-byte after checking audit copy; researched branch already published with released predecessor lease.",
+    "released_at_utc": "2026-11-18T02:46:33.976Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -16,7 +17,7 @@
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
   "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SEQUENTIAL_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Complete prior released state from 7cedf0f29664cb822aedb7b33a82a63d92c77ba4 preserved in PRE_SEQUENTIAL_SUPPORT_STATE.json. Original Q1-Q13 backlog, former finance and data-value state chain all retained. Existing branch and old Codex work remain separate.",
+  "preservation": "Complete immediately previous released state at 7cedf0f29664cb822aedb7b33a82a63d92c77ba4 is preserved byte-for-byte in PRE_SEQUENTIAL_SUPPORT_STATE.json; the preserved chain includes PRE_INTERVENTION_STATE.json, PRE_TELEOPERATION_STATE.json, PRE_DATA_VALUE_STATE.json and original Q1-Q13 backlog PREVIOUS_RESEARCH_STATE.json. Main, earlier work and original obligations remain unchanged.",
   "latest_result": "Derived two-period endogenous-support kernel and selection-weighted joint qualification P_B=sum pi_h r_h e_h s_h; the covariance term invalidates independent marginal multiplication. Two worlds indistinguishable in first correction logs and with equal marginal potential B qualification select different first actions under a competent specialist: joint success 5/16 vs 3/16; safe first probe 5/4 vs 3/4 relative to routine 1. Proved no B-support counterfactual identification and free optional retention ordering. Exact analytical proofs, independent finite-state enumeration, public prior-art abstract verification, empirical matched service design and separate exercises/solutions; not robot training/industry calibration.",
   "validation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/sequential_support_results.json",
@@ -121,7 +122,7 @@
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Research input 7cedf0f29664cb822aedb7b33a82a63d92c77ba4; state-only CAS lease at 2337e7c6ba6ee49b1d3e2ec7fb63f4240859a625 owned by scheduled-20261118T023335933Z-sequential-support-675604380; 57 scoped V8 assertions and independent event-tree implementation passed on exact included JS. Complete prior state preserved. Publication pending fast-forward expected-head CAS and remote verification; no unrelated files changed.",
+  "execution_note": "Sequential-support theory commit 41ce16b9dcb55359139c24c41e3aab88755ce88b published and remote branch head and released research lease verified. State-preservation audit corrected PRE_SEQUENTIAL_SUPPORT_STATE.json to exact prior released state from 7cedf0f29664cb822aedb7b33a82a63d92c77ba4. The audit lease is released by this state commit. Same scoped 57 V8 checks and event-tree comparison; no independent CI or field calibration.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
