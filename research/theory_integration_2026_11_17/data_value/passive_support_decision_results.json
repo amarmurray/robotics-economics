@@ -1,0 +1,35 @@
+{
+  "model": "Passive F support vs safe target diagnostic under retained qualified-service value",
+  "scope": "two endpoint worlds; noiseless source identification absent; hypothetical error 1/5; no field safety claim",
+  "regime_low": {
+    "a_minus_s": "-7/20"
+  },
+  "regime_high": {
+    "a_minus_s": "9/20"
+  },
+  "shadow_unsupported_value": "x in [0,2]",
+  "threshold_x": "7/8",
+  "passive": {
+    "p_admit_A": "9/16",
+    "minimax_regret": "63/320"
+  },
+  "synthetic_diagnostic": {
+    "error_each_world": "1/5",
+    "p_A_given_positive": "1",
+    "p_A_given_negative": "2/37",
+    "minimax_regret": "63/740",
+    "weighted_dual_low_world": "9/37",
+    "deterministic_rule_max_regret": "9/100"
+  },
+  "regret_reduction_before_cost": "1323/11840",
+  "development_counterexample": {
+    "verified_delta_assumed": "7/20",
+    "new_low_world_difference": "0"
+  },
+  "checks": {
+    "exact_assertions": 10,
+    "grid_points": 3721,
+    "passive_grid_violations": 0,
+    "noisy_grid_violations": 0
+  }
+}
