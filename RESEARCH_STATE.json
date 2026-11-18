@@ -4,12 +4,11 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "678aab1f2c5a1b6290cb1b45f27bc39283bf9a8e",
   "lease": {
-    "run_id": "scheduled-20261118T033540379Z-joint-support-budget-4",
-    "status": "released",
-    "acquired_at_utc": "2026-11-18T03:35:40.379Z",
-    "expires_at_utc": "2026-11-18T04:30:40.379Z",
-    "reason": "Completed substantive multi-step support theoretical derivation and scoped validations; release with final research commit, no ongoing runtime claim.",
-    "released_at_utc": "2026-11-18T03:50:31.683Z"
+    "run_id": "scheduled-20261118T043516Z-partial-observed-safe-budget-5",
+    "status": "active",
+    "acquired_at_utc": "2026-11-18T04:35:16Z",
+    "expires_at_utc": "2026-11-18T05:25:16Z",
+    "reason": "Substantive continuation of multistep partial-observation, joint qualification and pathwise safe/operator-resource policies; only one active writer."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
