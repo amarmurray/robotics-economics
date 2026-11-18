@@ -1,0 +1,61 @@
+{
+  "checks": 31,
+  "worlds": [
+    {
+      "label": "low coupling",
+      "t": 0.29,
+      "mass": [
+        0.29,
+        0.21,
+        0.21,
+        0.29
+      ],
+      "zplus": [
+        0.29,
+        0.16,
+        0.05,
+        0
+      ]
+    },
+    {
+      "label": "high coupling",
+      "t": 0.39,
+      "mass": [
+        0.39,
+        0.11,
+        0.11,
+        0.39
+      ],
+      "zplus": [
+        0.34,
+        0.11,
+        0,
+        0.05
+      ]
+    }
+  ],
+  "pair": {
+    "m": 0.34,
+    "pooledSensitivity": 0.9,
+    "pooledFalsePositive": 0.1,
+    "identifiedT": [
+      0.29,
+      0.39
+    ],
+    "pairedDifference": [
+      -0.1,
+      0.9
+    ],
+    "invariantConditionalImpliedT": 0.36250000000000004
+  },
+  "pooled": {
+    "worstFreeMix": 7.4,
+    "negativeInterferenceMaximin": 7,
+    "positiveComplementMaximin": 7.880000000000001,
+    "isolationCost": 0.5,
+    "oracleWorst": 7.4,
+    "oracleGrossValueWithPool": 0.40000000000000036
+  },
+  "gridStep": 0.001,
+  "unit": "synthetic normalized per eligible pool"
+}
