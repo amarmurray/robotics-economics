@@ -1,0 +1,23 @@
+# Proof and rejection ledger — auditable complete-service loss bounds
+
+**18 Nov 2026. Conditional algebra and linear programming, no measured robotics parameter.**
+
+**Object and assumptions.** Use the complete horizon and one persistent regime, identical original customer census, separately safe complete policies, nonnegative baseline accepted *complete service* margins \(b_j\), properly separated A contribution \(a_p\), incremental real costs \(c_p\), optional net-positive new service \(n_p\), and bounded negative residual \(e_p\). Equation (1) in [theory](AUDITABLE_ORDER_LOSS_BOUNDS.md) is **not universal**: an uncompensated joint capacity reallocation or customer price change can violate it unless placed in losses or residual. Candidate A gains must be measured under the **candidate's own** entire network, not copied from an eligibility-only experiment.
+
+**Certificate.** Combine \(a\geq a_L,c\leq c_U,n\geq0,e\leq e_U\) with \(\sum b_j\ell_j\leq D_p\); the pointwise inequality follows. Taking infimum over *the same* admissible persistent worlds and averaging preserves the bound. Sharpness for the abstract inequality class follows by choosing a feasible max-loss vector and simultaneously attaining the remaining worst endpoints. If the physical joint law disallows co-attainment, the bound may not be sharp there.
+
+**LP dual.** Maximize \(b^\top\ell\) subject to \(H\ell\leq d,\ell\leq 1,\ell\geq0\). Its dual minimizes \(d^\top\lambda+1^\top\mu\) subject to \(H^\top\lambda+\mu\geq b\) with \(\lambda,\mu\geq0\). The primal is nonempty/bounded by hypothesis, hence strong finite LP duality. A feasible \((\lambda,\mu)\) alone gives a certified *upper* loss bound without solving the exact optimum; an allegedly structural \(H,d\) not established in the actual network does not.
+
+**Top-k loss rearrangement.** If \(\ell_j\in[0,1],\sum\ell_j\leq k\), move loss weight from any lower b to any higher b until the higher coordinate is 1 or lower is 0; objective weakly increases. Thus fill largest \(\lfloor k\rfloor\) margins then the next fraction. For binary losses/integer k it selects k largest service margins. If only expected lost-order count ≤k holds, the same inequality bounds **expected additive loss**, but does not bound pathwise losses or hard safety.
+
+**Exact example.** B=(6/5,3/5,1/5), F=5+2=7. R: 11/10-3/10=4/5. G: 12/5-2/5-6/5=4/5, upper 2. E: 7/2-1-9/5=7/10, upper 5/2. S: 1-1/10=9/10. G pinned: 12/5-3/5=9/5. G with B1 protected and one loss among B2/B3: lower=12/5-2/5-3/5=7/5. Protecting B1 **at extra cost 1/5** but otherwise retaining all assumed effects yields 6/5. Pinned G versus S threshold \(a_{pin}>3/5+9/10=3/2\). All numbers are synthetic normalized captured complete-service contribution, not empirical estimates.
+
+**Useful rejection 1: alleged universal bound from one shared dispatch slot.** Two time-separated original orders can both be lost after one preemption if the first loss changes subscription, controller training state or order arrival. A single contemporaneous conflict does not establish a one-order *horizon* cap. Reject any inference of \(H\ell\leq d\) without state-history closure.
+
+**Useful rejection 2: b per skill.** An order requiring skills i and j has no additive order receipt for each skill independently. Treat the jointly qualified completed service as a single unit and recompute the loss program. Otherwise one customer payment may be counted twice.
+
+**Useful rejection 3: marginal loss sufficiency for hard operator safety.** Linearity makes \(\mathbb E\sum b_j\ell_j\) dependent only on marginals. Simultaneous recovery loads and nonadditive bundle qualification do not have that property. Even identical operator recovery marginals can imply distinct capacity violation support. This is already demonstrated in preceding network chapters.
+
+**Useful rejection 4: confusing evidence tightening with economic production.** Verifying B1 immutability narrows a *bound*; it does not create orders. Building a new pinned router changes a real policy and must include costs and any change in learned A qualification/demand. The free-data optionality argument continues only if the old policy stays genuinely selectable.
+
+**Prior-art classification:** rearrangement/LP duality and partial identification are standard. This is a conditional robotics-accounting synthesis and a prospective falsification design, not established novel science. Scoped exact JS calculations and independent rational cross-checks are stored separately. No whole-repo CI, real target graph certification, physically approved comparisons, BEA/BLS numeric crosswalk, customer production panel or independent peer review.

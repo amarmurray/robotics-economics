@@ -1,0 +1,81 @@
+{
+  "scope": "synthetic normalized complete-service contribution; no empirical calibration",
+  "date": "2026-11-18",
+  "baseline": {
+    "A": 5,
+    "B": [
+      1.2,
+      0.6,
+      0.2
+    ],
+    "total": 7
+  },
+  "table": [
+    {
+      "name": "routine_source",
+      "increment": 11,
+      "cost": 3,
+      "k": 0,
+      "worstLoss": 0,
+      "lower": 0.8,
+      "upper": 0.8
+    },
+    {
+      "name": "grounding_shared",
+      "increment": 24,
+      "cost": 4,
+      "k": 1,
+      "worstLoss": 12,
+      "lower": 0.8,
+      "upper": 2
+    },
+    {
+      "name": "new_embodiment",
+      "increment": 35,
+      "cost": 10,
+      "k": 2,
+      "worstLoss": 18,
+      "lower": 0.7,
+      "upper": 2.5
+    },
+    {
+      "name": "competent_specialist",
+      "increment": 10,
+      "cost": 1,
+      "k": 0,
+      "worstLoss": 0,
+      "lower": 0.9,
+      "upper": 0.9
+    },
+    {
+      "name": "grounding_pinned",
+      "increment": 24,
+      "cost": 6,
+      "k": 0,
+      "worstLoss": 0,
+      "lower": 1.8,
+      "upper": 1.8
+    }
+  ],
+  "allBOneLossMax": 1.2,
+  "protectedHighMarginOneLossMax": 0.6,
+  "groundingWithVerifiedProtectedB1Lower": 1.4,
+  "groundingWithNewCostlyCutLower": 1.2,
+  "pinnedGroundingIncrementThresholdAgainstSpecialist": 1.5,
+  "twoOverlappingGroups": {
+    "primalWorstLoss": 1.4,
+    "feasibleDualWorstLoss": 1.4,
+    "dualLambda": [
+      1.2,
+      0.2
+    ]
+  },
+  "additiveVersusJoint": {
+    "meanLinearLoss": 0.9,
+    "simultaneousLossProbabilityAnti": 0,
+    "simultaneousLossProbabilityPro": 0.5
+  },
+  "bestWorstCaseWithPinned": "grounding_pinned",
+  "bestWorstCaseWithoutPinned": "competent_specialist",
+  "checkCount": 53
+}

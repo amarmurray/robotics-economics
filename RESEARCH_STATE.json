@@ -2,51 +2,58 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "33028090bddc784026f49e81bd52926d0f323a21",
+  "research_input_commit": "c4676da9c1cb71ad6bd1cd56b3c2adfb8409b9ec",
   "lease": {
     "run_id": "auto-20261118T173635Z-target-support-system",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T17:36:35.374Z",
     "expires_at_utc": "2026-11-18T18:21:35.374Z",
-    "reason": "Review versioned target architecture evidence and derive policy-support/transport bounds linking source, grounding, embodiment and retained/specialist policies."
+    "reason": "Derived a conditionally sharp horizon-wide accepted-service loss certificate and LP dual, plus synthetic source/grounding/embodiment/competent-specialist ranking; independently audited exact fractions and 53 assertions; verified current official BLS/BEA source metadata and integrated manuscript/synthesis/teaching. Target loss envelope and customer accepted-service evidence not established.",
+    "released_at_utc": "2026-11-18T17:54:57.594Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: conditional policy-closed union network for adaptive controller/operator/customer links, complete approved policy means, isolation vs shared training and missing target support; theory majority through Dec6 and Nov22 synthesis gate open.",
+  "current_mode": "When Capabilities Become Production: demand-conditioned data transfer and full network accepted-service value; conditional horizon-wide service-loss envelope versus competent F/S/grounding/embodiment alternatives; Nov22 gate open and theory majority through Dec6.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_POLICY_CLOSED_NETWORKS_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_ORDER_LOSS_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Complete previously released state from 33028090bddc784026f49e81bd52926d0f323a21 archived byte-for-byte at PRE_POLICY_CLOSED_NETWORKS_STATE.json. Older prior states, Q1-Q13 backlog, main and unreconciled old Codex history preserved. Current lease acquired as single-writer CAS on b36f243b678b43f219193579996d5762a81dd3f5 and released in this research publication.",
-  "latest_result": "Conditional policy-closed supergraph theorem: assignment-sensitive controller, operator, dispatch and customer paths active under ANY approved arm are included in the union, allowing component-consistent complete-policy randomization (not robot-level pseudoreplication). An eligible A gain +2 may hide opposite whole-network service effects. Four independent-network synthetic example F mean 10, shared-G 39/4 (-1/4), isolated-G 23/2 (+3/2) with cost; shared minus isolated -7/4. 16-network assignment vectors yield exact expected HT difference -1/4, but cannot certify an individual network or safety. For fixed A gain +2, baseline B=5, missing B in [0,10] and incremental candidate cost 1/2, sharp unrestricted total bound [-7/2,13/2]; independently verified isolation B=5 gives +3/2. Public Open-RMF examples establish only possible dispatch links, not target fleet graph.",
+  "preservation": "Complete previous released research state at c4676da9c1cb71ad6bd1cd56b3c2adfb8409b9ec archived verbatim in research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_ORDER_LOSS_STATE.json. All older archives and original Q1–Q13 backlog are retained. A unique CAS lease acquired on 506d1a3cf54a16a52a9330254c0a419287e90a96 and released with the research publication. Main and inaccessible former Codex work unchanged.",
+  "latest_result": "Conditional order-loss accounting under one persistent world: for complete physically approved p, Y_p-Y_F=a_p-c_p-b^T loss_p+n_p-e_p, with audited H loss<=d, 0<=loss<=1, a>=aL, c<=cU, e<=eU, n>=0, yields lower aL-cU-eU-Dp. Dp=max b^T loss=min d^T lambda+1^T mu subject H^T lambda+mu>=b. Top-k worst loss is sum k largest order margins (fractional relaxation). Synthetic model F=7 and robust gains R 0.8, shared G 0.8, E 0.7, competent S 0.9, pinned G 1.8. Claiming protected high-margin B service narrows G lower to 1.4, but only if actual full-horizon cut holds; new cut at extra 0.2 gives separate-policy bound 1.2 if A unchanged. 53 connected JS assertions and independent exact rational checks; no empirical loss cap or admissible hardware certification.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/network_policy_closure_results.json",
-    "source_blob": "64896f8d2feff4db81d54f3f92da9101128fb192",
-    "results_blob": "acc1940036ce9bedc3f2f0bc0ca6439294903325",
-    "exact_scoped_assertions": 14,
-    "enumerated_independent_network_policy_assignments": 16,
-    "exact_core_executed_and_blob_saved": true,
-    "exact_stored_blob_retrieved_and_fields_verified": true,
+    "record_file": "research/theory_integration_2026_11_17/data_value/auditable_order_loss_results.json",
+    "source_blob": "c309f6b5082fb4bbe30831c2cb6e11622226e569",
+    "results_blob": "bf2fcb604aa49702f1b84b88d689840e12c936ae",
+    "exact_scoped_assertions": 53,
+    "enumerated_binary_loss_sets": 8,
     "independent_python_fraction_checks": true,
-    "proof_status": "Conditional causal structural path closure and HT assignment expectation; sharp unrestricted missing B endpoints and feasible menu inclusion. These are familiar partial-interference/experimental-design/optimization arguments applied to customer-accepted robotics production; not novel scientific theorem.",
-    "actual_target_network_architecture_verified": false,
+    "source_blob_retrieved_verified": true,
+    "results_blob_retrieved_verified": true,
+    "proof_status": "Conditional accounting/finite LP duality and top-k rearrangement; valid only with proven horizon-wide loss constraints and stable order-level contribution. General methods are established mathematics, not verified novelty.",
+    "actual_policy_uniform_loss_cap": false,
+    "actual_target_controller_operator_customer_graph_verified": false,
     "physically_approved_complete_policy_trials": false,
     "customer_accepted_service_panel": false,
-    "independent_field_network_replicates": false,
-    "official_numerical_production_backbone": false,
+    "official_numerical_BEA_BLS_crosswalk": false,
     "historical_full_repository_CI": false,
     "independent_peer_review": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_ORDER_LOSS_BOUNDS.md",
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_ORDER_LOSS_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_ORDER_LOSS_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/auditable_order_loss.js",
+    "research/theory_integration_2026_11_17/data_value/auditable_order_loss_results.json",
+    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_ORDER_LOSS_STATE.json",
     "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_NETWORKS_AND_DATA_VALUE.md",
     "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_NETWORKS_PROOF_LEDGER.md",
     "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_NETWORKS_EMPIRICAL.md",
     "research/theory_integration_2026_11_17/data_value/network_policy_closure.js",
     "research/theory_integration_2026_11_17/data_value/network_policy_closure_results.json",
-    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
-    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
-    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/SAFE_POLICY_SUPPORT_THEORY.md",
     "research/theory_integration_2026_11_17/data_value/SAFE_POLICY_SUPPORT_EMPIRICAL.md",
     "research/theory_integration_2026_11_17/data_value/PRE_POLICY_CLOSED_NETWORKS_STATE.json",
@@ -70,9 +77,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "policy_closed_network_identification_and_isolation_counterexample_derived; full_target_architecture_safe_policy_replicates_customer_service_unobserved",
-      "question": "What actual, version-pinned potential influence union and safe full-policy comparison lets us distinguish source accumulation, grounding, embodiment and qualified specialist by complete accepted customer-service value when policy-induced controller/dispatch/operator/demand edges can merge nominal deployment pools?",
-      "deliverable": "Audit a genuinely available target controller-checkpoint lineage, cross-fleet dispatch, operator recovery reservation and complete original-order registry before designing any independent network assignment; if all sites connect, derive sharp transport or structural partial bounds instead of robot-level replication. Reconcile November 22 first-paper theorem/Model A-B claims and seek a safely comparable frozen-controller and competent-specialist complete policy, not an unsafe new body."
+      "status": "conditional_complete_order_loss_certificate_derived; actual_signed_horizon_loss_caps_A_transfer_under_isolation_and_customer_economics_unverified",
+      "question": "Which observed, versioned controller, training, dispatch, operator and original-customer-order mechanisms justify policy-uniform complete-service loss restrictions, and does frozen/pinned grounding retain joint qualification and accepted A contribution relative to productive source and competent specialist?",
+      "deliverable": "Seek genuine horizon-wide order-loss graph invariant; if absent, preserve missing-support bounds. Test A under each safe full policy and independently measure demand and operator co-recovery; do not import eligible-only A into pinned policy without evidence."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -84,7 +91,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "versioned_public_possible_dispatch_path_documented; target_policy_union_graph_independent_network_count_and_customer_accepted_service_unverified",
+      "status": "official BLS 2025-35 HTML source and NAICS warehousing code 493000 verified; BEA summary levels verified; numerical matrix and robot accepted orders unassembled",
       "question": "Which linked full-network controller lineage, operator overlap, original order registry and held-out joint qualification measurements identify meaningful cross-pool economic data value?",
       "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
@@ -97,17 +104,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 synthesis and Model A-B bridge updated for policy-dependent graph closure, real full-network unit and eligible-positive/total-negative falsifier; scientific gate open",
+      "status": "Nov22 assumption taxonomy, order-loss overlay on Model A/B and reproducible exact teaching integrated; scientific gate still open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
-      "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
+      "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
   ],
   "portfolio_status": {
-    "theory": "Policy-closed structural interference graph as union over possible approved arms, complete adaptive service policy mean identification and eligible-vs-total sign-reversal counterexample; source-data optionality and no-double-counting preserved.",
-    "atlas": "Pinned Open-RMF dispatcher/ROS documentation demonstrates possible shared allocation, but supplies no actual target controller/operator/customer architecture, accepted-service panel or official numerical BEA/BLS crosswalk.",
-    "paper": "Living paper, Nov22 working synthesis and Models A/B updated to distinguish old selective SS2 transport from randomized full-policy network means; still unreviewed and scientific gate open.",
-    "learning": "New six-problem student/instructor packet on union influence, policy assignment, missing-support bounds, qualified production and free data optionality; 14 scoped exact JS assertions, 16 fair assignments and independent rational check.",
-    "main_contribution": "Still unselected: integrated capability-to-qualified-customer-production economics with endogenous data/embodiment and policy-closed interference; classical interference randomization is prior art."
+    "theory": "Conditional horizon-wide order-loss LP bound and dual for complete-policies with source, grounding, embodiment and specialist; demand residuals and policy-induced A effects explicit. Existing complementary qualification/learning/network results retained.",
+    "atlas": "Official BLS 2025-35 Table 1.9 HTML registry and code 493000 warehousing verified; official BEA group sizes/IO methodology verified. No downloadable numeric crosswalk, task allocation or customer production panel obtained.",
+    "paper": "Living manuscript, November22 assumption audit, Models A/B overlay and research program extended; novelty/evidence gate remains open.",
+    "learning": "Six order/service-loss exercises with separate instructor solutions; 53 connected JS scoped assertions; independent exact rational arithmetic.",
+    "main_contribution": "Not selected. Operational source-to-joint-qualification-to-whole-market accepted-service economics under policy-dependent topology remains candidate; LP dual/partial ID/interference are established prior art."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -177,7 +184,9 @@
     "Global unsupported-policy SS1 bounds are sharp only in unrestricted bounded-potential-outcome class; they do not make physically unapproved E/grounding admissible, and independent network randomization does not identify latent-theta robust guarantees.",
     "Selective policy identity assumes pre-treatment eligibility fixed, same selected-pool treatment exposure environment, genuinely independent complete controller/dispatch/customer components, and shared fallback outside support. A common dispatcher or model broadcast invalidates this identity unless measured or structurally blocked.",
     "The accessible Open-RMF architecture is public example documentation pinned at Nov17/18 commits, not observed target fleet architecture or proof of human operator safety; standard Manski/Aronow-Samii tools are explicitly prior art.",
-    "New policy-closed graph and full-network experiment are conditional: actual causal paths and independent supernetworks remain unobserved; observational baseline network logs cannot verify closure under a policy-induced new link. Four-network synthetic outcomes are not calibrated robot field effects."
+    "New policy-closed graph and full-network experiment are conditional: actual causal paths and independent supernetworks remain unobserved; observational baseline network logs cannot verify closure under a policy-induced new link. Four-network synthetic outcomes are not calibrated robot field effects.",
+    "Order-loss certificate needs genuinely verified policy-uniform horizon-wide H,d, full candidate A response, stable order margins and bounded additional demand/price residual; no such target data are accessible, so the numerical ranks are synthetic only.",
+    "One contemporaneous dispatcher slot is not a horizon-level bound on lost orders; connected controller/customer markets may have no independent assignment replicates. Hard physical recovery safety must be separately certified."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
