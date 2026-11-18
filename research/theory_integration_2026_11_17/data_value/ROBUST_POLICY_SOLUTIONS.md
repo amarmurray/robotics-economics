@@ -1,0 +1,14 @@
+# Robust policy identification — worked solutions
+**Separate from student questions. Synthetic theoretical exercise only.**
+
+1. For binary B,C with respective equal marginal p, the joint success \(q\in[\max(0,2p-1),p]\). Thus \(q_R\in[0.5,0.75]\), \(q_E\in[0.8,0.9]\); \(J_R\in[5,7]\), \(J_E\in[6.4,7.2]\). Choosing \(q_R=0.75,q_E=0.8\) yields R=7>E=6.4; choosing \(q_R=0.5,q_E=0.9\) yields R=5<E=7.2. Both obey component marginals.
+
+2. \(J_R-J_E=1-8(q_E-q_R)\ge1-8/10=1/5>0\). Since \(q_E\ge0.8\), the constraint forces \(q_R\ge0.7\), hence \(J_R\ge6.6>6\). Yet individual ranges under the paired constraint still overlap: \(J_R\in[6.6,7],J_E\in[6.4,6.8]\). At \((q_R,q_E)=(0.7,0.8)\), R cells (00,10,01,11)=(0.2,0.05,0.05,0.7); E cells=(0,0.1,0.1,0.8). They are nonnegative and reproduce the stated marginals. Without the matched inequality, the certificate is invalid.
+
+3. P randomizes X/Y equally and receives \(1+(8+2)/2=6\) in both regimes, better than specialist P=5. For D following the report the worst payoff is \(8\underline\alpha+2(1-\underline\alpha)-0.1=2+6\underline\alpha-0.1\). Threshold \(\underline\alpha>41/60\) for strict improvement, equality for indifference. D at .7 gives 6.1 and at .6 gives 5.5. This uniformly beats the **specified mixed P policy** above threshold, not P choosing X deterministically in world X, which earns 1+8=9.
+
+4. On an incorrect diagnostic report, D consumes \(1+2=3>2.1\), and this path has positive probability at 99% report accuracy; the report-following action is inadmissible under the stipulated hard cap. The expected use is \(1+.99(1)+.01(2)=2.01\), but expected use does not prove pathwise feasibility. A pre-approved safe abort before the second unit, terminal S, or an actual reserve to 3 operator units changes the problem; unapproved probabilistic violation does not.
+
+5. Union bound for two regime-specific Hoeffding lower failures gives simultaneous probability at least 0.95 with \(\alpha_H\ge0.8-\sqrt{\ln(4/0.05)/(2\cdot400)}\approx0.726\), which exceeds 41/60. But latent H may be unlabelled, samples correlated/selected, or policy states absent; high-confidence mean accuracy is neither proof of full support nor permission to exceed a tail operator cap.
+
+6. With H fixed and a perfectly informative safe probe, choose matched final route and earn 8 (less probe cost/opportunity loss). If nature may switch H adversarially after the probe, the observed H no longer predicts the terminal regime and a target route can be forced to earn 2; specialist yields 4 where feasible. Both are mathematical uncertainty semantics, not the same controlled process. Dynamic hardware/environment shift can violate persistent-alignment modeling. Free optional information may be ignored, and its economic effect is already in the optimized continuation, not an additive bonus.

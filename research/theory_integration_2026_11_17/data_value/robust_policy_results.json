@@ -1,0 +1,52 @@
+{
+  "schema": "robust_policy_identification_synthetic_v1",
+  "provenance": "purely synthetic, no field calibration or safety authorization",
+  "marginals": {
+    "routine": 0.75,
+    "redesign": 0.9
+  },
+  "frechet": {
+    "routine": [
+      0.5,
+      0.75
+    ],
+    "redesign": [
+      0.8,
+      0.9
+    ]
+  },
+  "independentValueIntervals": {
+    "R": [
+      5,
+      7
+    ],
+    "E": [
+      6.4,
+      7.2
+    ]
+  },
+  "pairedUpperGain": 0.1,
+  "pairedSharpMinDifference": 0.1999999999999993,
+  "pairedSharpVsSpecialist": 0.5999999999999996,
+  "pairedAdmissibleGridWorlds": 1326,
+  "productiveMaximin": 6,
+  "diagnosticAdditionalCost": 0.1,
+  "diagnosticAccuracyThreshold": 0.6833333333333332,
+  "diagnosticAtLowerPoint6": 5.5,
+  "diagnosticAtLowerPoint7": 6.1,
+  "hypotheticalValidation": {
+    "perRegimeN": 400,
+    "perRegimeCorrect": 320,
+    "confidence": 0.95,
+    "lowerAccuracy": 0.7259896406349602
+  },
+  "pathwise": {
+    "noRecoveryMismatch": true,
+    "rareRecovery99": false,
+    "budget3": true
+  },
+  "assertions": 29124,
+  "independentReview": false,
+  "historicalCI": false,
+  "actualRoboticsEvidence": false
+}

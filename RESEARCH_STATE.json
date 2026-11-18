@@ -5,58 +5,59 @@
   "research_input_commit": "da8120a171e2c170c5adcd1876075123829eece7",
   "lease": {
     "run_id": "scheduled-20261118T053112Z-robust-identification-6",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T05:31:12Z",
     "expires_at_utc": "2026-11-18T06:41:12Z",
-    "reason": "Robust identified-set policy domination, feasible diagnostic design, joint accepted-service bounds and Nov22 integration; one active writer."
+    "reason": "Completed robust identified-set and diagnostic production theory, Models A/B bridge, scoped exact tests and empirical teaching integration; no ongoing writer claim.",
+    "released_at_utc": "2026-11-18T05:46:16.817Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Unified When Capabilities Become Production: partially observed data transfer, operationally feasible information, operator-budget hard constraints, joint customer bundle partial identification. Theory-majority to Nov22 synthesis.",
+  "current_mode": "Same integrated When Capabilities Become Production: source/target transfer and full joint customer acceptance now partially identified; robust safe policy ranking and feasible diagnostics; next November 22 Models A/B synthesis and identification stress test.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_OBSERVATION_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ROBUST_POLICY_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The preceding released RESEARCH_STATE.json at bda04c58f6bf0e37e082d7a62f853e5de4fd9f45 is preserved byte-for-byte as PRE_PARTIAL_OBSERVATION_STATE.json; the full historical chain, original Q1-Q13 queue, finance/state archive and main remain intact. Existing released state from the acquisition lease does not imply old runtime control.",
-  "latest_result": "Finite latent-regime belief/budget Bellman recursion with almost-sure pathwise operator feasibility; in a two-slot synthetic customer-demand comparison at Delta=8, G perfect=8 but noisy G99=2 under budget2.1 due mismatch requiring3 resources; E=36/5, R=7, qualified S=6. Chance cap2% or actual budget3 allows noisy G=198/25. Expected operator G99=201/100 fails as proof of pathwise feasibility. Sharp Fréchet bounds with marginals R(.75,.75), E(.9,.9) give respective economic ranges [5,7] and [6.4,7.2], so opposite policy rankings remain possible. No field estimate or scientific novelty claim.",
+  "preservation": "The prior released RESEARCH_STATE.json at da8120a171e2c170c5adcd1876075123829eece7 is byte-preserved at PRE_ROBUST_POLICY_STATE.json; earlier preservation chain, Q1-Q13 original state, finance archive, main and unrecovered external work remain untouched.",
+  "latest_result": "Conditional robust joint production: Frechet p_R=.75,p_E=.9 gives R=[5,7], E=[6.4,7.2], but hypothetical matched constraint q_E-q_R<=.1 guarantees R-E>=.2 and R-S>=.6. In a separately declared two-world safe terminal system, randomized productive maximin earns 6, report-following diagnostic costs .1 and earns 2+6 alpha-.1; uniform dominance over specified productive mixture requires alpha_lower>=41/60. Synthetic 400 labelled trials per regime at .8 give Hoeffding lower .72599, not safety. A false-report 3-unit recovery with cap2.1 invalidates diagnostic regardless accuracy<1. Fixed-regime ambiguity differs from rectangular switching. No observed robotics calibration.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/partial_observed_budget_results.json",
-    "exact_committed_source_blob": "3e2e6df39ba79f2bb2cfb025405976365fc500a4",
-    "exact_results_blob": "835c9edd40e971eab7bd9c3bb7f4b6e73e8e7bd1",
-    "scoped_V8_assertions": 764,
+    "record_file": "research/theory_integration_2026_11_17/data_value/robust_policy_results.json",
+    "exact_committed_source_blob": "e2a91ab318741cd78751c35252be68996353b883",
+    "exact_results_blob": "2c9075e4179b3fad3f239f9971e26bf7fc07c416",
+    "scoped_V8_assertions": 29124,
     "exact_stored_blob_executed": true,
-    "event_tree_vs_closed_form": true,
+    "machine_results_match": true,
     "independent_python_stdlib_fraction_checks": true,
     "historical_repository_CI": false,
     "independent_peer_review": false,
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
-    "proof_status": "Finite-model Bellman induction, strict pathwise feasibility and sharp known Frechet constructions written; tests check synthetic arithmetic/finite enumeration, not true robotic kernels or safety."
+    "proof_status": "Sharp same-world inequalities and two-state robust report decision proved algebraically; grid and event-report enumeration verify only synthetic cases. Hoeffding bound hypothetical."
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_PATHWISE_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/partial_observed_budget.js",
-    "research/theory_integration_2026_11_17/data_value/partial_observed_budget_results.json",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_IDENTIFICATION.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
+    "research/theory_integration_2026_11_17/data_value/robust_policy_identification.js",
+    "research/theory_integration_2026_11_17/data_value/robust_policy_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_OBSERVATION_STATE.json",
+    "research/theory/deployment_investment.md",
+    "research/theory/milestones.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_ROBUST_POLICY_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
-    "THEORY_PHASE.md",
-    "research/theory/milestones.md"
+    "THEORY_PHASE.md"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "latent_belief_pathwise_budget_and_sharp_joint_acceptance_bounds_derived; robust_identified_set_policy_choice_pending",
-      "question": "Under partially identified transfer-regime mixtures and jointly accepted customer qualification laws, when can a resource-feasible policy be certified economically optimal (or robustly preferable) for the actual customer service window?",
-      "deliverable": "Derive identified-set robust domination/sensitivity frontier with matched accepted service, available specialist, resource safety and feasible diagnostics, then review full source-to-production theorem chain, closest prior art and Models A-B for Nov22; seek actual official numeric production backbone only via genuinely distinct source route."
+      "status": "robust_same_world_joint_acceptance_and_safe_diagnostic_certificate_derived; adaptive_nonrectangular_ambiguity_open",
+      "question": "When do matched conditional complete-service acceptance laws and safely supported regime-report tests identify a customer-optimal data/grounding/body policy under persistent ambiguity, and when do unobserved site/demand/recovery correlations invalidate the certificate?",
+      "deliverable": "Test paired same-world acceptance difference threshold under selection, drift, policy-induced exposure and dynamic demand; connect to full Models A/B f and all available competing recipes. Avoid unconstrained rectangular Bellman claim. Revisit Nov22 integrated argument and closest prior art."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -68,7 +69,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "joint_customer_qualification_frechet_bounds_and_audited_peak_recovery_protocol_added; real_panel_official_backbone_missing",
+      "status": "matched_paired_joint_acceptance_and_report_lower_confidence_identification_protocol_derived; observed_field_panel_missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
       "deliverable": "Pursue independent safe gate recall calibration, logged eligible risky-state exposures, correction inclusion and held-out joint qualified accepted-service outcomes; retain official numeric production backbone as explicit unsolved obligation and do not use vendor PR as substitute."
     },
@@ -81,16 +82,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "partial_observation_result_integrated_with_common_qualified_production_f; Nov22_gate_open",
+      "status": "model_A_B_deterministic_to_partial_law_bridge_written; Nov22_gate_not_passed",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Same integrated controlled acquisition argument now includes regime posterior support, hard pathwise operator/recovery budget, costful diagnostic vs changed-body option and full joint-qualification Fréchet bounds. Robust identified-set dynamic choice open.",
-    "atlas": "Added precise missing panel: regime proxy/confusion, zero-correction eligible exposures, independent gate misses, pathwise recovery peaks, joint 00/10/01/11 customer acceptance, real qualified specialist and economic opportunity; no observed industrial panel or official numeric macro matrix.",
-    "paper": "Added partially observed/pathwise and joint economic identification chapter to the integrated manuscript; Nov22 source/Models A-B synthesis remains unaccepted.",
-    "learning": "Six student problems, separate solutions on belief support, hard versus chance budgets, Frechet bounds, data/embodiment and safe measurement; no external teaching validation.",
-    "main_contribution": "Candidate economics/control synthesis of operating feasibility, transfer information and complementary customer service; all component Bayesian/POMDP/Fréchet results remain standard and scientific originality unresolved."
+    "theory": "Derived robust identified-set same-world difference certificate, paired joint customer acceptance counterexample, and safety-constrained diagnostic threshold; under alternative tail support the diagnostic becomes physically infeasible. Standard mathematics, conditional synthetic.",
+    "atlas": "Specified matched paired accepted whole-service 00/10/01/11 and diagnostic lower regime-report confidence plus recovery support. Neither observed customer panel nor numerical official production matrix exists.",
+    "paper": "Appended coherent robustness subsection to integrated manuscript and concrete Model A/B bridge. Nov22 full notation/prior-art synthesis still open and scientific novelty not selected.",
+    "learning": "Six problem set questions with separate solutions added about same-world dominance, informative safety and uncertainty semantics; not assessed with student.",
+    "main_contribution": "Candidate integration of learned data-control support, pathwise safe production, paired joint qualification and customer-value optimization; known robust control/decision/Fréchet/Blackwell math, no verified novel theorem."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -120,7 +121,11 @@
     "Perfect-report discontinuity relies on known exact zero posterior support and pathwise robust cost feasibility; in finite real logs zero observed errors is not perfection, and a safe abort/extra worker may remove the discontinuity.",
     "Embodiment E success rate 0.9 and customer bundle value Delta are synthetic joint accepted-service outcomes; no physical body demonstrably achieves these figures.",
     "Frechet bounds are conditional on identified acceptance marginals and independent ability to vary copulas by action/report/regime, with qualification not changing safety menu; shared failure factors and latent mixture identification can widen/narrow feasible identified sets.",
-    "Connected runtime executed 764 JS assertions on exact blob 3e2e6df39ba79f2bb2cfb025405976365fc500a4, with separate Python rational checks; historic CI, robot deployment, independent peer review and actual customer economic calibration not performed."
+    "Connected runtime executed 764 JS assertions on exact blob 3e2e6df39ba79f2bb2cfb025405976365fc500a4, with separate Python rational checks; historic CI, robot deployment, independent peer review and actual customer economic calibration not performed.",
+    "The matched q_E-q_R <= 1/10 constraint is hypothetical and unmeasured. It requires transport/exchangeability and joint customer acceptance on matching units; observed marginals do not imply it.",
+    "Robust-policy affine vertex shortcut assumes mixtures over full controlled potential-history laws. It does not apply to generic parameter-polytopes for repeatedly used uncertain kernels.",
+    "Diagnostic lower accuracy confidence example presumes labelled independent stationary trials in both latent regimes, and cannot authorize pathwise recovery or prove structural zero support.",
+    "Synthetic V8 checks execute exact Git blob and arithmetic across a finite grid; no historical CI, robot deployment, independent peer review or calibrated economic source."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
