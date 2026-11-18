@@ -1,0 +1,15 @@
+# Multi-step support frontier: proof and rejection ledger
+
+| Object | Claim / status | Exact boundary / falsifier |
+| --- | --- | --- |
+| M1 finite-budget safe-support path certificate | Proved by finite positive-cylinder and feasible fallback argument; established controlled-Markov reachability mathematics | Fully observed finite states (or finite observed histories), supported action/observation edges, pathwise safe fallback; not a guarantee in every latent regime |
+| M2 routine dominance | Sufficient coupling of net current flow M and final joint Q, under unchanged omega and monotone f; direct pathwise proof | Stronger than equality of skill marginals or reachable nodes; not necessary for a specific f |
+| Equal positive support and skill marginals imply equal value | **Refuted.** R=(1,7,7,1)/16 vs G=(7,1,1,7)/16 for 00,10,01,11; marginals each 1/2 and full support | Customer requires B AND C; with f(11)=16, current G displacement 4: R=1 vs G=3; competent S=2. Additive f reverses choice |
+| M3 zero routine progress cut | Proved only for a necessary stage with zero transition under every allowed routine action and absent alternate routes | A redesign/target probe can open an edge. Positive p at each stage gives positive K-slot path; more time needs retry recursion |
+| Marginal-stage products after H mixing | Invalid in general; use conditional chain products within H, posterior update after observations | Exception when conditional rates or sufficient independences justify factorization |
+| Monotone-stage coupling | Sufficient first-order progress dominance under matched upward-only chain and statewise p order | No economic dominance if the better learner sacrifices current service/human budget; arbitrary support changes break p order |
+| M4/M5 adaptive 2-slot menu | Exact Bellman branch max and rational arithmetic; conditional synthetic construction | First R mandatory; probability 1/2 validated j1; G only from j1; one operator and two cash budget; E 3/5 success and cost 2; S accepted service 2 |
+| Cost- and demand-conditioned policy | Delta<=3 selects S; 3<Delta<=20/3 G only in success branch; Delta>20/3 G success, E failure | G after success dominates E for Delta>=0; customer demand/specialist determines thresholds |
+| Repeat routine always inferior to target grounding | **Refuted.** If second routine j1 qualification probability r>=3/4 and keeps accepted service 1, G dominated by routine; threshold (M6) for intermediate r | Conditional matched approved second-state support + qualification, not first-step corrections |
+| Bundle value from benchmark pass percentages | **Rejected.** Need entire qualification joint law and optimized production f, not percent-to-cash conversion | Hold site, acceptance, demand, human/robot resources and specialist fixed |
+| Scientific novelty or empirical calibration | **Not established.** Standard dynamic programming, reachability, coupling and bundle-correlation precedents; source audit abstract-level | No robot field experiment, independent review, official BEA/BLS numeric backbone or historic CI |

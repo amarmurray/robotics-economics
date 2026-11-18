@@ -53,3 +53,12 @@ Continue across sessions on the same intellectual problem. Publish actual proof/
 
 
 **Sequential continuation, 18 Nov UTC:** The current answer to selected two-episode data support is in [SEQUENTIAL_SUPPORT_THEORY.md](SEQUENTIAL_SUPPORT_THEORY.md) and the new [empirical protocol](SEQUENTIAL_SUPPORT_EMPIRICAL.md). Further theory should compare multi-step routine-generated exposure, target grounding and changed-body support using the *same* f(Q;omega), not append a separate premium or fit another arbitrary transfer coefficient. The strongest alternative is a free productive byproduct or an already qualified target-only specialist.
+
+
+### 18 November multi-step safe-coverage continuation (same research question)
+
+[Full theory](MULTISTEP_SUPPORT_THEORY.md) · [proof ledger](MULTISTEP_SUPPORT_PROOF_LEDGER.md) · [scoped executable model](multistep_support.js) · [results](multistep_support_results.json) · [matched empirical protocol](MULTISTEP_SUPPORT_EMPIRICAL.md) · [exercises](MULTISTEP_SUPPORT_EXERCISES.md) and [solutions](MULTISTEP_SUPPORT_SOLUTIONS.md).
+
+We now separate (i) resource-bounded **positive** routine support from (ii) the probability of **joint** customer qualification and (iii) net customer-production dominance relative to competent specialist, grounding and embodiment. A zero-exposure stage is a cut for routine-only trajectories in a finite supported chain, but nonzero positive support is not adequate economic reliability. Explicit full-support joint laws with identical skill marginals produce different optimal choices when customers require a complementary bundle. A two-slot adaptive contingent policy selects grounding only on the branch that safely unlocked its target; body redesign remains useful after unsuccessful routine learning. The critical next experiment measures policy-induced **second-state** exposure and jointly held-out service, not first-correction tallies. A free qualifying routine byproduct is the key constructive countermodel.
+
+**Next exact gap:** augment the same Bellman control model with latent transfer regimes and report-dependent posterior beliefs under a *pathwise* shared safety/operator budget, and derive bound/identification conditions for the conditional joint accepted-service kernel. Maintain source-type distinctions and November 22 integrated synthesis. No new model number, novelty assertion, fictive hours or BEA/BLS quantitative substitute.

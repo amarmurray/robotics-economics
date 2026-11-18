@@ -5,51 +5,51 @@
   "research_input_commit": "678aab1f2c5a1b6290cb1b45f27bc39283bf9a8e",
   "lease": {
     "run_id": "scheduled-20261118T033540379Z-joint-support-budget-4",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T03:35:40.379Z",
     "expires_at_utc": "2026-11-18T04:30:40.379Z",
-    "reason": "Bounded multi-step support-equivalence investigation within existing production/data-value manuscript"
+    "reason": "Completed substantive multi-step support theoretical derivation and scoped validations; release with final research commit, no ongoing runtime claim.",
+    "released_at_utc": "2026-11-18T03:50:31.683Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "One integrated production/data-value theory: first intervention now updates second-deployment reachable support and joint accepted-service qualification, with a source-to-target alignment counterexample and specialist option. Next compare multi-step routine versus deliberate grounding versus redesigned embodiment under identical safety/operator/calendar and joint qualification resources.",
+  "current_mode": "Unified When Capabilities Become Production: multi-step safe routine coverage vs target grounding vs new embodiment; jointly qualified customer bundles, adaptive contingent choices, operator/calendar and existing specialist. Theory-majority continuation to Nov22 synthesis.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SEQUENTIAL_SUPPORT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MULTISTEP_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Complete immediately previous released state at 7cedf0f29664cb822aedb7b33a82a63d92c77ba4 is preserved byte-for-byte in PRE_SEQUENTIAL_SUPPORT_STATE.json; the preserved chain includes PRE_INTERVENTION_STATE.json, PRE_TELEOPERATION_STATE.json, PRE_DATA_VALUE_STATE.json and original Q1-Q13 backlog PREVIOUS_RESEARCH_STATE.json. Main, earlier work and original obligations remain unchanged.",
-  "latest_result": "Derived two-period endogenous-support kernel and selection-weighted joint qualification P_B=sum pi_h r_h e_h s_h; the covariance term invalidates independent marginal multiplication. Two worlds indistinguishable in first correction logs and with equal marginal potential B qualification select different first actions under a competent specialist: joint success 5/16 vs 3/16; safe first probe 5/4 vs 3/4 relative to routine 1. Proved no B-support counterfactual identification and free optional retention ordering. Exact analytical proofs, independent finite-state enumeration, public prior-art abstract verification, empirical matched service design and separate exercises/solutions; not robot training/industry calibration.",
+  "preservation": "The full immediately preceding released research state at 678aab1f2c5a1b6290cb1b45f27bc39283bf9a8e is preserved byte-for-byte in PRE_MULTISTEP_SUPPORT_STATE.json; all previous preserved states, original Q1-Q13 backlog, main and other work remain untouched. The released live state now records the multi-step support continuation.",
+  "latest_result": "Finite resource-augmented safe-support path certificate (conditional Markov reachability), sufficient stochastic coupling for routine replacement, counterexample with identical 1/2 B,C skill marginals and full support but joint bundle probability 1/16 vs 7/16; customer f changes route ranking. A two-slot adaptive routine/grounding/new-body/specialist decision yields V(Delta)=3 up to Delta 3, 15/8+3 Delta/8 up to 20/3, -1/8+27 Delta/40 thereafter. At Delta=7 it earns 23/5; a productive routine second-stage qualification probability r>=3/4-(5/4)/Delta makes routine weakly beat costly grounding conditional on first success. These are conditional synthetic, standard DP/coupling constructions; no novelty/field calibration claim.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/sequential_support_results.json",
-    "executed_scoped_js_assertions": 57,
-    "exact_source_executed_with_eval": true,
-    "independent_python_fraction_checks": true,
-    "rational_families_checked": [
-      "routine/probe/specialist and corrected/negative posteriors",
-      "delayed-report and no-physical-learning ablations",
-      "stronger target-only route reversal"
-    ],
-    "mathematical_proofs": "Conditional chain-rule, Bellman specialization, observational equivalence and feasible-set inclusion written in SEQUENTIAL_SUPPORT_THEORY.md; computational event-tree checks do not prove general extensions.",
-    "calibrated": false,
-    "robot_training": false,
-    "joined_customer_panel": false,
-    "historical_repository_ci": false,
-    "independent_peer_review": false,
-    "independent_event_tree_checks": true
+    "record_file": "research/theory_integration_2026_11_17/data_value/multistep_support_results.json",
+    "exact_committed_source_blob": "391a5690ffad09c17965e13d28ed1efdede611a4",
+    "exact_results_blob": "ceaa98ca3004c1617d2c233a71727a12a77cf9d1",
+    "scoped_V8_assertions": 85,
+    "exact_stored_blob_executed": true,
+    "machine_results_match": true,
+    "independently_enumerated_event_tree_in_same_js": true,
+    "independent_python_stdlib_fraction_checks": true,
+    "independently_peer_reviewed": false,
+    "historical_repository_CI": false,
+    "robot_field_data": false,
+    "monetary_calibration": false,
+    "official_numerical_production_backbone": false,
+    "proof_status": "Written finite-trajectory, coupling, elementary chain-rule and two-branch Bellman proofs; assertions verify synthetic calculations, not general theorem hypotheses."
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/sequential_support.js",
-    "research/theory_integration_2026_11_17/data_value/sequential_support_results.json",
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_EXERCISES.md",
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_SOLUTIONS.md",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/multistep_support.js",
+    "research/theory_integration_2026_11_17/data_value/multistep_support_results.json",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_EXERCISES.md",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_SOLUTIONS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_SELECTION_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_SEQUENTIAL_SUPPORT_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_MULTISTEP_SUPPORT_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "RESEARCH_EXECUTION.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
   ],
@@ -57,21 +57,21 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "two_episode_endogenous_support_derived; multi_step_competent_policy_comparison_unresolved",
-      "question": "When can sequential productive routine updates generate the same safe state support and joint customer qualifications as deliberate target grounding or a new embodiment?",
-      "deliverable": "Within the same endogenous-occupancy Bellman model, characterize or disprove a policy ordering for multi-step routine/grounding/body investment with common safety/operator/calendar budget and retained old policies; include nonparametric H-dependent selected support and joint customer accepted recipes. Do not substitute another parameter menu."
+      "status": "safe_multi_step_support_and_customer_bundle_frontier_derived; latent_partially_observed_pathwise_budget_pending",
+      "question": "Under what H-dependent, partially observed safe coverage and joint qualification laws can routine production be an economic substitute for deliberate target grounding or new embodiment?",
+      "deliverable": "Extend existing finite-budget Bellman framework with regime-dependent histories, pathwise operator/safety limits, and conditional jointly accepted services. Find tractable sharp dominance conditions/counterexamples; no detached model or exogenous per-demo dollar value."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
       "priority": 2,
-      "status": "two_episode_selected_reachability_derived; multi_step_source_production_support_gap_pending",
-      "question": "Under which tested policy support and operator budgets does productive byproduct data substitute for targeted safe second-state access?",
+      "status": "finite_safe_reachability_cut_and_routine_byproduct_threshold_derived; field_identification_pending",
+      "question": "Does retained routine autonomy create second-stage eligible safe exposure and held-out customer qualification at sufficient rate to displace target intervention within customer window?",
       "deliverable": "Determine how an improved controller changes rare-state visitation, gated intervention, unassisted attempted service, data content and subsequent qualification under a common resource/safety budget; keep free production byproduct as competent countermodel."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "matched_sequential_support_and_joint_qualification_protocol_added; real panel and official numerical backbone missing",
+      "status": "multi_step_approved_state_exposure_and_joint_customer_acceptance_protocol_added; real_panel_official_backbone_missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
       "deliverable": "Pursue independent safe gate recall calibration, logged eligible risky-state exposures, correction inclusion and held-out joint qualified accepted-service outcomes; retain official numeric production backbone as explicit unsolved obligation and do not use vendor PR as substitute."
     },
@@ -84,16 +84,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "sequential_support_integrated_into_manuscript; Nov22_synthesis_gate_open",
+      "status": "multi_step_synthesis_integrated_with_existing_qualified_production_f; Nov22_gate_open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Unified selected-observation/data-value theory now includes two-episode endogenous state support, conditional joint B qualification, source-to-target alignment covariance, competent specialist/retained A option, and nonidentifiability under no support; multi-step realistic technical/production intervention remains open.",
-    "atlas": "Added matched two-controller, second-episode exposure/gate audit and joint accepted-order protocol. No new actual customer data, official quantitative BEA/BLS production matrix or source-to-cash conversion.",
-    "paper": "New linked sequential-support derivation integrated with manuscript, original customer-production f and existing intervention chapter. First-paper contribution/independent review and Nov22 synthesis gate still open.",
-    "learning": "New five-problem teach-back packet and separate solutions for sequential selected qualification and specialist decision; no learner assessment.",
-    "main_contribution": "Candidate synthesis: endogenous controller visitation and conditional transfer govern which data can create jointly qualified production; separately known dynamic-programming, selected-sampling, LP/process-complementarity and no-overlap identification are prior art. Scientific novelty unproven."
+    "theory": "Unified endogenous selected observations, retained update and multi-step safe reachability; exact joint qualification/coupling sufficiency and adaptive grounding/body/specialist decision. General partial-observation pathwise policy ordering open.",
+    "atlas": "Matched safe second-state exposure, audited gate, jointly held-out customer accepted-service and provenance panel specified, without real matched deployments, numerical official network matrix or money calibration.",
+    "paper": "20k-character continuation chapter and linked proof ledger in living manuscript; next Nov22 integrated argument and Models A-B review not passed.",
+    "learning": "Six student problems and separate solutions on reachability, joint bundles, adaptive allocations and optional free routine byproducts; no learner validation.",
+    "main_contribution": "Candidate integrated economics/ML distinction between feasible policy coverage and customer-production equivalence; underlying dynamic programming, reachability and coupling are standard, novelty unproven."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -115,13 +115,17 @@
     "World +/- results are synthetic and observational equivalence applies only to first-episode data (second controlled B evaluation could discriminate); marginal potential B qualification is not observed B frequency under the optimized negative-world policy.",
     "Qualified B chance s includes training, rights and held-out customer acceptance; no claim that a single successful motion confers actual certification.",
     "The no-support nonidentification proof is standard positivity/partial-identification logic with explicit no-bridging-measurement restrictions; published smoothness/transport methods can yield bounds under assumptions.",
-    "Scoped sequential JS tests executed in connected V8 on exact source and checked against a separately enumerated event tree; historical CI, hardware experiments, independent review and field calibration absent."
+    "Scoped sequential JS tests executed in connected V8 on exact source and checked against a separately enumerated event tree; historical CI, hardware experiments, independent review and field calibration absent.",
+    "Multi-step progress chain assumes validated stages change only upward and a first production stage is mandatory; the numerical policy example has one terminal customer bundle and a known Delta, not a calibrated industrial acceptance protocol.",
+    "Graph support uses positive known transition edges and pathwise approved action outcomes; a zero event in finite empirical logs is not proof of a structurally zero transition. Real safety certification is entirely outside this computation.",
+    "The M2 coupling is a strong sufficient condition for all monotone f, not a necessary description of a single customer's optimized policy.",
+    "The bundle copula and policy probabilities are synthetic. The published executable model uses an event-tree check by the same assistant plus independent Python rational spot checks, not independent scientific review."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Sequential-support theory commit 41ce16b9dcb55359139c24c41e3aab88755ce88b published and remote branch head and released research lease verified. State-preservation audit corrected PRE_SEQUENTIAL_SUPPORT_STATE.json to exact prior released state from 7cedf0f29664cb822aedb7b33a82a63d92c77ba4. The audit lease is released by this state commit. Same scoped 57 V8 checks and event-tree comparison; no independent CI or field calibration.",
+  "execution_note": "This research tranche staged new theory, proof, code, exact machine results, empirical protocol and learning materials. Exact GitHub blob executed with 85 V8 assertions and matching stored results; separate Python rational calculations checked breakpoints and stochastic progress. Publication must atomically commit these with a released state and verify the branch head. No actual robot training/field customer data, official quantitative backbone, CI or peer review.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -139,13 +143,13 @@
   },
   "quiet_checkpoint": {
     "date_eastern": "2026-11-17",
-    "key": "intervention-selection-coverage-gating-identification",
-    "committed_result": "Exact supervised observation mechanism, conditional probe threshold and missed-error observational equivalence, integrated manuscript and scoped model; do not send test counts as standalone progress.",
-    "next_action": "Two-period adaptive visitation/support and qualification with retained safe fallback."
+    "key": "multi-step-safe-support-and-adaptive-bundle-production",
+    "committed_result": "Resource-augmented safe support certificate, conditional routine dominance, equal-marginal joint-bundle counterexample and exact adaptive body/grounding/specialist policy with routine-byproduct reversal; linked theory, proof, empirical, executable results and separated exercises.",
+    "next_action": "Partial observation H and binding pathwise safe operating resources; Nov22 integrated synthesis."
   },
-  "publication_parent_commit": "4a95dc91d63fb5d72d50e0b7e88fb33878ca74cc",
-  "current_proof_gap": "The diagnostic likelihood and physical learning transition are exogenous to the intervention policy. Need to derive both from visited states and selected corrections, avoiding the assumption that every ordinary production cycle creates equally useful data.",
-  "exact_next_action": "Continue the same Bellman/qualified-production model with a minimal latent target-relevant error regime and an explicit observation mechanism: routine autonomous operation, a human correction gate, and a deliberate safe target probe. Derive the joint likelihood of correction occurrence/content and the retained control update; distinguish observing no correction from not having exposed the relevant state. Compare economic allocation with the same cash/time/rights, competent fallback and genuine target-only route. Prove or refute whether improved source autonomy reduces useful correction supply conditional on the collection rule, while optional deliberate collection and retained policies prevent a spurious loss of optimized value. Specify a falsifying intervention/held-out-target panel. Do not rerun the solved 31/5 example as a new result.",
+  "publication_parent_commit": "5d74bc2b92818cde6a37e0fe4723f4fd4a5ed75e",
+  "current_proof_gap": "A finite safe support certificate and known-H two-slot policy do not identify the regime-dependent safe exposure/selected correction/retained update/accepted bundle kernel when H and physically safe reachable sets are partially observed. Need pathwise operator/safety budgets and robust posterior-informed alternatives without turning non-visitation into zero technical success.",
+  "exact_next_action": "At same manuscript and finite Bellman state, construct H-dependent safe-exposure and correction likelihoods for routine/G/E with explicit observation of non-exposure; derive optimal history-contingent policy under a pathwise human/safety budget and joint held-out customer bundle qualification, then test whether the routine replacement coupling survives mixture uncertainty or fails with a precise counterexample. Empirically specify matched approved exposure/gate/accepted-order panel and bound missing-support regimes. Reserve Nov22 synthesis for reviewing unified Models A-B and closest prior art; leave quantitative BEA/BLS backbone unsolved until actual source data.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -163,7 +167,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-18T01:02:59Z",
+  "updated_at_utc": "2026-11-18T03:50:31.683Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,

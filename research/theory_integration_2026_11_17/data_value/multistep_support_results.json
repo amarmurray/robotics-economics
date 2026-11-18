@@ -1,0 +1,181 @@
+{
+  "checks": {
+    "assertions": 85,
+    "independent_event_tree": true,
+    "synthetic": true,
+    "field_experiment": false
+  },
+  "results": {
+    "setting": "two-slot safe-progress production and joint accepted-service value",
+    "atDemand0": {
+      "value": 3,
+      "bestSuccess": {
+        "action": "specialist",
+        "value": 2
+      },
+      "bestFailure": {
+        "action": "specialist",
+        "value": 2
+      },
+      "success": {
+        "routine": 1,
+        "specialist": 2,
+        "ground": -0.25,
+        "body": -2
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2,
+        "body": -2
+      },
+      "firstProgress": 0.5,
+      "delta": 0
+    },
+    "atDemand7": {
+      "value": 4.6,
+      "bestSuccess": {
+        "action": "ground",
+        "value": 5
+      },
+      "bestFailure": {
+        "action": "body",
+        "value": 2.2
+      },
+      "success": {
+        "routine": 1,
+        "specialist": 2,
+        "ground": 5,
+        "body": 2.2
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2,
+        "body": 2.2
+      },
+      "firstProgress": 0.5,
+      "delta": 7
+    },
+    "atDemand12": {
+      "value": 7.975,
+      "bestSuccess": {
+        "action": "ground",
+        "value": 8.75
+      },
+      "bestFailure": {
+        "action": "body",
+        "value": 5.199999999999999
+      },
+      "success": {
+        "routine": 1,
+        "specialist": 2,
+        "ground": 8.75,
+        "body": 5.199999999999999
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2,
+        "body": 5.199999999999999
+      },
+      "firstProgress": 0.5,
+      "delta": 12
+    },
+    "noGroundAt7": {
+      "value": 3.2,
+      "bestSuccess": {
+        "action": "body",
+        "value": 2.2
+      },
+      "bestFailure": {
+        "action": "body",
+        "value": 2.2
+      },
+      "success": {
+        "routine": 1,
+        "specialist": 2,
+        "body": 2.2
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2,
+        "body": 2.2
+      },
+      "firstProgress": 0.5,
+      "delta": 7
+    },
+    "noEmbodimentAt7": {
+      "value": 4.5,
+      "bestSuccess": {
+        "action": "ground",
+        "value": 5
+      },
+      "bestFailure": {
+        "action": "specialist",
+        "value": 2
+      },
+      "success": {
+        "routine": 1,
+        "specialist": 2,
+        "ground": 5
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2
+      },
+      "firstProgress": 0.5,
+      "delta": 7
+    },
+    "productiveByproductAt7": {
+      "value": 5.225,
+      "bestSuccess": {
+        "action": "routine",
+        "value": 6.25
+      },
+      "bestFailure": {
+        "action": "body",
+        "value": 2.2
+      },
+      "success": {
+        "routine": 6.25,
+        "specialist": 2,
+        "ground": 5,
+        "body": 2.2
+      },
+      "failure": {
+        "routine": 1,
+        "specialist": 2,
+        "body": 2.2
+      },
+      "firstProgress": 0.5,
+      "delta": 7
+    },
+    "jointComplement": {
+      "routine": {
+        "raw": 1,
+        "bMarg": 0.5,
+        "cMarg": 0.5,
+        "net": 1
+      },
+      "grounding": {
+        "raw": 7,
+        "bMarg": 0.5,
+        "cMarg": 0.5,
+        "net": 3
+      }
+    },
+    "jointAdditive": {
+      "routine": {
+        "raw": 8,
+        "bMarg": 0.5,
+        "cMarg": 0.5,
+        "net": 8
+      },
+      "grounding": {
+        "raw": 8,
+        "bMarg": 0.5,
+        "cMarg": 0.5,
+        "net": 4
+      }
+    },
+    "limitations": "No observed robot, site acceptance, dollars, measured exposure, or risk guarantee."
+  }
+}
