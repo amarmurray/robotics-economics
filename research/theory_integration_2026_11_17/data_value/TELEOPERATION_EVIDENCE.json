@@ -1,0 +1,150 @@
+{
+  "retrieved_date_eastern": "2026-11-17",
+  "retrieved_date_utc": "2026-11-18",
+  "status": "Primary-source technical/economic mechanisms; proposed empirical design; no joined customer panel",
+  "source_hash_note": "SHA256 fields hash the locally retained UTF-8 extraction, not the original PDF binary or every revision",
+  "sources": [
+    {
+      "id": "DDA",
+      "type": "source_model",
+      "authors": [
+        "Maryam Farboodi",
+        "Andrew Koh",
+        "Anchi Xia"
+      ],
+      "title": "Data-Driven Automation",
+      "url": "https://arxiv.org/abs/2606.10127",
+      "inspected_url": "https://arxiv.org/html/2606.10127v1",
+      "version": "v1 HTML as retrieved; inherited display-date discrepancy unresolved",
+      "locators": [
+        "Section 2.1, Equation 2",
+        "Section 2.2 D2-D4",
+        "Section 5",
+        "Appendix B, non-substitutable spillovers and expanding tasks"
+      ],
+      "reading_scope": "Selected mechanism passages; no new full Proposition 6 proof replication",
+      "claim_boundary": "Source mechanism, not estimated robotics transfer or marginal data price",
+      "extracted_text_sha256": "db1382abead92bb835f60bf4308c68c4758782f3a1c37d8c64c006343d9996fe"
+    },
+    {
+      "id": "DAGGER",
+      "type": "source_theory",
+      "authors": [
+        "Stephane Ross",
+        "Geoffrey Gordon",
+        "Drew Bagnell"
+      ],
+      "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+      "url": "https://proceedings.mlr.press/v15/ross11a.html",
+      "version": "PMLR 15 (2011), pages 627-635",
+      "locators": [
+        "Proceedings abstract"
+      ],
+      "reading_scope": "Abstract and publication metadata",
+      "claim_boundary": "Policy-induced observation distributions; regret theorem not replicated"
+    },
+    {
+      "id": "THRIFTY",
+      "type": "source_reported_technical_experiment",
+      "authors": [
+        "Ryan Hoque",
+        "Ashwin Balakrishna",
+        "Ellen Novoseller",
+        "Albert Wilcox",
+        "Daniel S. Brown",
+        "Ken Goldberg"
+      ],
+      "title": "ThriftyDAgger: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning",
+      "url": "https://proceedings.mlr.press/v164/hoque22a/hoque22a.pdf",
+      "version": "CoRL 2021, PMLR proceedings 2022",
+      "locators": [
+        "Section 3",
+        "Section 5.1",
+        "Table 3, printed page 8",
+        "Section 5.5"
+      ],
+      "reading_scope": "Sections 3-5; Table 3 PDF text and page image checked",
+      "observations": [
+        {
+          "environment": "physical cable routing",
+          "method": "ThriftyDAgger",
+          "evaluation_mode": "autonomous",
+          "successes": 12,
+          "trials": 15
+        },
+        {
+          "environment": "physical cable routing",
+          "method": "ThriftyDAgger",
+          "evaluation_mode": "intervention_aided",
+          "successes": 15,
+          "trials": 15
+        }
+      ],
+      "metric_caveat": "Reported intervention/action statistics in Section 5.1 are conditioned on successful episodes. They are not total cost per attempted service.",
+      "missing": [
+        "market payment",
+        "all-attempt labor cost",
+        "customer acceptance and support",
+        "source-to-target transfer regime panel",
+        "economic effect of data inclusion"
+      ],
+      "claim_boundary": "Technical experiment as reported; no new robot training, causal dollar valuation, calibrated priors, or industrial reliability inference",
+      "extracted_text_sha256": "e1c4eb7dd5e15a75eeec574be65898b2df4e0370388c070ffa05fb08fcebbf7d"
+    },
+    {
+      "id": "HIL_SERL",
+      "type": "source_method_description",
+      "authors": [
+        "Jianlan Luo",
+        "Charles Xu",
+        "Jeffrey Wu",
+        "Sergey Levine"
+      ],
+      "title": "Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning",
+      "url": "https://hil-serl.github.io/",
+      "publication_doi": "10.1126/scirobotics.ads5033",
+      "locators": [
+        "Method Overview"
+      ],
+      "reading_scope": "Authors project method overview and bibliographic record",
+      "channels": [
+        "reward-classifier examples",
+        "demonstrations",
+        "online corrective interventions"
+      ],
+      "claim_boundary": "Distinct human input roles; not an estimate of their separate marginal economic effects"
+    }
+  ],
+  "proposed_tests": [
+    {
+      "id": "physical_learning",
+      "treatment": "controlled inclusion of teleoperation data",
+      "fixed": [
+        "initial policy",
+        "allowed compute",
+        "evaluation and qualification protocol",
+        "rights"
+      ],
+      "outcomes": [
+        "autonomous skill",
+        "assisted complete service",
+        "all-attempt costs"
+      ]
+    },
+    {
+      "id": "information_timing",
+      "treatment": "early versus late non-safety transfer report before discretionary source acquisition",
+      "fixed": [
+        "initial grounding",
+        "physical outcomes for a fixed acquired data combination",
+        "routine and specialist options",
+        "safety permissions"
+      ],
+      "outcomes": [
+        "acquisition adaptation",
+        "net accepted-service contribution",
+        "report predictive validity"
+      ]
+    }
+  ]
+}

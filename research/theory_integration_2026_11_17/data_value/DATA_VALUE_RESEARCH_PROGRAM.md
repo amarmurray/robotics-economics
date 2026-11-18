@@ -2,6 +2,12 @@
 
 Amar's November 17 instruction prioritizes theoretical work on data transfer and data value, building on but not overfitting to _Data-Driven Automation_. This is the next sustained part of _When Capabilities Become Production_, not a restart, a new Q-numbered paper, or permission to drop the broader roadmap.
 
+## Current frontier after productive teleoperation
+
+The source is now explicitly confirmed as arXiv:2606.10127. The structural transfer/grounding question below is developed in TRANSFER_GROUNDING_THEORY.md; the subsequent endogenous production choice is developed in TELEOPERATION_DATA_VALUE.md and integrated into the main manuscript. The latter gives a general two-batch policy with uncertain transfer, a productive diagnostic, partial-learning robustness, direct-specialist and demand-expiry counterexamples, and an empirical split between assisted output, autonomous capability and information timing.
+
+**Continue next:** derive the diagnostic likelihood and learning transition from the intervention policy and visited-state distribution. Do not assign a better signal to a favored job simply to make it win. Compare routine source production, target corrections and deliberate probes with equal rights/resources and a retained safe alternative. Ask when improved source autonomy reduces *observed corrections relevant to a different target*, and when better observation, simulation or a different embodiment repairs that gap. The value of acquisition, attribution of earlier data value, and market pricing remain separate. All older broader-roadmap items below are retained; the “next” headings document the intended intellectual sequence, not a restart instruction.
+
 ## Starting point now established
 
 Read DATA_VALUE_THEORY.md. Its conditional source-value and interaction identities connect a learning technology to the existing optimized production function. Its exact optimal-mixture problems show that customer economics can change the best acquisition portfolio, that greater transfer can reduce optimal acquisition diversity, and that technical-score and economic objectives can disagree. Exponential and rational saturation give separate solvable examples. Standard multilinear/optimization mathematics is acknowledged; scientific novelty is not established.
@@ -43,3 +49,4 @@ Keep the sector/value-chain atlas active. The official numeric BEA route remains
 November 22: one coherent source-to-production data-value argument and proof/assumption map, including the strongest alternative formulation. November 29: richer endogenous transfer/acquisition theory and empirical bridge, alongside the original backbone target. December 6: first-paper contribution decision. December 13 scope lock/atlas; December 18 full draft; December 23 revision; December 24 replication; December 25 final edition. Original dates and unfinished items remain unchanged.
 
 Continue across sessions on the same intellectual problem. Publish actual proof/argument revisions, source-grounded evidence and tested code, not another parameterized miniature result. The previous financing/participation argument is preserved in PRE_DATA_VALUE_STATE.json; the full original queue remains in PREVIOUS_RESEARCH_STATE.json. Nothing is erased or mislabeled complete.
+

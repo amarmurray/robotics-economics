@@ -1,5 +1,5 @@
 # When Capabilities Become Production
-## Qualification networks, learning complementarities, and investment thresholds
+## Qualification networks, data acquisition, and investment
 
 **Integrated theory investigation | 17 November 2026**  
 **Robotics Economics program | private working draft, not submitted**
@@ -489,6 +489,24 @@ Productive deployments can change \(Q\) through experience, \(b\) through reinve
 
 Free, optional additional capability cannot reduce optimized value when the old policies, rights, costs, and opportunities remain feasible. That statement follows by retaining the old strategy. Costly learning, lost support rights, mandatory migration, or reduced market prices are different state changes and should not be smuggled into a supposedly free technical improvement.
 
+### Productive teleoperation and information before the next investment
+
+The data-generating action is now a controlled production choice. A teleoperated job may supply accepted service, create training/grounding observations, and reveal whether source experience can be reused. Its current contribution and its single optimized continuation value enter (17). A measured technical gain does not by itself establish net economic value; a diagnostic can instead have decision value without immediately improving the policy. [The full continuation](data_value/TELEOPERATION_DATA_VALUE.md) derives this distinction within the same operating account, using the specified Farboodi-Koh-Xia paper and primary interactive robot-learning sources.
+
+For two stationary capacity slots, let source collection sacrifice \(k_S\) of current contribution and target grounding sacrifice \(k_G\), each relative to a competent routine activity. Both batches are financeable at their dates, their physical effects commute, and there is no discounting within the two-slot window. Let \(F_\Theta(x,g)\) be terminal production value conditional on the transfer regime and the two acquired batches, with retained alternatives and final qualification observed before service. Source collection is uninformative before the next decision; grounding reveals \(Z\). Put
+\[
+B_S=-k_S+\mathbb E[F_\Theta(1,0)-F_\Theta(0,0)],\quad
+B_G=-k_G+\mathbb E[F_\Theta(0,1)-F_\Theta(0,0)],
+\]
+and \(M(Z)=\mathbb E[F_\Theta(1,1)-F_\Theta(0,1)\mid Z]\). The exact best incremental value in this two-batch menu is
+\[
+\max\{0,\ B_S,\ B_G+\mathbb E[(M(Z)-k_S)_+]\}.
+\tag{19}
+\]
+The proof exhausts all feasible plans: source alone is one option, while grounding first permits buying the source only when its posterior gain exceeds its opportunity cost. That adaptive route weakly dominates a precommitted pair, but it need not beat source alone or routine production. This is standard conditional optimization, not a claimed new information theorem.
+
+Equation (19) allows arbitrary terminal production effects and useful partial learning. A rational noisy-transfer example makes a currently loss-making grounding job optimal because it avoids subsequent collection after an unfavorable report; a second formulation using the preceding Gaussian information model preserves the information advantage. A stronger specialist defeats that policy, and an expiring source opportunity reverses the preferred order. If routine production already supplies the same useful source batch without forgone contribution, \(k_S=0\) and optional-use monotonicity makes the acquisition-timing premium exactly zero. Those counterexamples locate the result in the actual customer/resource calendar and require a genuine incremental cost for the relevant data. A shared qualification law is valued directly rather than multiplying marginal scores. The implication for the coherent argument is that production determines both *which data exist* and *when the enterprise learns which additional data are worth acquiring*.
+
 ## 9. An empirical program that can distinguish the mechanisms
 
 This investigation produces a measurement design, not a new empirical robot-performance estimate. The older issuer case dossiers remain useful background but do not identify the new coefficients.
@@ -520,6 +538,10 @@ Observe qualification effort, total failures, customer receipts, integration and
 
 Sector input-output tables can locate broad supply relationships but cannot fill missing qualified-edge, service-timing, or learning-outcome records. The official numeric backbone remains a retained project requirement, not something this theory document pretends to have completed.
 
+### 9.5 Distinguish assisted output, learned capability, and transfer diagnosis
+
+The teleoperation continuation adds a source-grounded measurement slice and a discriminating design. Measure autonomous evaluation separately from service delivered with a human in the loop; include failures, resets and monitoring in the cost account. A controlled training-data inclusion comparison targets physical learning. A separate early-versus-late release of a transfer diagnostic, under the same initial grounding and operational safety permissions, targets whether information changes the next acquisition decision. Record joint qualification outcomes, source availability, customer expiration dates and a genuine specialist option. A report that predicts nothing about source usefulness, arrives after commitment, or cannot alter the acquisition decision cannot support this mechanism. [Evidence and design](data_value/TELEOPERATION_DATA_VALUE.md#8-empirical-connection-what-has-actually-been-observed); the proposed robotics experiment has not been run.
+
 ## 10. Closest literature and contribution discipline
 
 **Process flexibility.** Jordan and Graves (1995) already establish the importance of appropriately connected limited flexibility and chaining [S1]. A path of reallocations is not new merely because the machines are robots.
@@ -533,6 +555,8 @@ Sector input-output tables can locate broad supply relationships but cannot fill
 **Optimization foundations.** Linear duality, sensitivity, and concave optimization provide the mathematical tools [S5]. The proofs in this document are self-contained applications, not new optimization theorems.
 
 **Sequential R&D budgeting.** Dutta (1997) studies budget allocation across research stages, including the terminal-only reward case [S6]. Roberts and Weitzman develop sequential funding criteria that account for revisable decisions [S7]. We inspected primary abstract records, not their complete model proofs. Optimal budget allocation, the ability to stop, and the value of retaining development progress therefore cannot themselves be advertised as new contributions. Our recursive homogeneous example is a transparent comparator within that established family; a stronger contribution must explain the economically measured qualification network and its changes.
+
+**Data production and interactive robot learning.** The specified *Data-Driven Automation* paper already supplies production-generated data, directed transfer and forward-looking data value. Interactive imitation-learning research already studies policy-induced state distributions and costly human intervention. The candidate synthesis here links those mechanisms to accepted production, uncertain transfer interfaces and the timing of heterogeneous acquisition decisions. Source-reading boundaries and the elementary nature of the Bayesian/optimization tools are explicit in the [teleoperation chapter](data_value/TELEOPERATION_DATA_VALUE.md#sources-and-reading-boundaries); no publication-novelty judgment follows from (19).
 
 ### Candidate contribution worth developing
 
@@ -552,7 +576,7 @@ No independent peer review, real robot execution, complete empirical atlas, or f
 
 ## 12. Sustained next investigation
 
-Continue this same theory block across sessions instead of inventing another numbered toy at each run. The independent adaptive gross-order bound and homogeneous-chain stopping problem are now solved in stated scope. Joint acquisition events and partially valuable intermediate qualifications now have a verified finite-state extension (Result 7). The next substantive question is how **date-dependent customer opportunities, interim paid production, and multiple payers** change that learning portfolio without counting future value twice. Start with a general state-transition formulation that nests the current proofs, then identify the smallest extension that changes their economic implication. Do not rederive the solved homogeneous chain or build an all-purpose simulator.
+Continue this same theory block across sessions instead of inventing another numbered toy at each run. The independent adaptive gross-order bound, homogeneous-chain stopping problem, dated production/finance extensions, and endogenous-grounding continuation are retained. The immediate proof gap is now **how the intervention rule and visited-state distribution determine the information and transferable learning generated by productive teleoperation**. The current two-batch theorem solves acquisition conditional on a signal law; it does not derive that law. Determine when higher source autonomy reduces target-relevant corrective observations, and whether deliberate probes, simulation, coordination or a different embodiment repair the resulting information gap. Keep demand timing, qualified service, competent specialist alternatives and one continuation account. Do not rederive the solved signal-value example or revert to financing as the default next question.
 
 In parallel, translate one existing workflow dossier into an explicit accepted-service allocation graph with a competent nonrobotic or mixed-system alternative. That is the minimum empirical bridge needed to test whether the critical bundles exist outside our examples. Preserve manufacturing, payer contracts, and hardware redesign as choices that can change the graph or the cost of reaching it.
 

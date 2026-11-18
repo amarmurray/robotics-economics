@@ -1,0 +1,170 @@
+{
+  "status": "Executed scoped validation; mathematical proofs, numerical checks and source observations are distinct",
+  "recorded_at_utc": "2026-11-18T01:03:48.266541+00:00",
+  "research_input_commit": "2f8bc1f7c6c852f7e92c79154230cb63fbfbdc8c",
+  "lease_commit": "4a95dc91d63fb5d72d50e0b7e88fb33878ca74cc",
+  "runtime": {
+    "python": "3.12.14",
+    "model_and_tests_dependencies": "Python standard library",
+    "reader_pdf_dependencies": [
+      "ReportLab",
+      "matplotlib",
+      "DejaVu system fonts"
+    ],
+    "reader_pdf_dependencies_separate_from_model": true
+  },
+  "executed_tests": {
+    "command": "python -m unittest -q test_teleoperation.py test_data_value.py",
+    "working_directory": "research/theory_integration_2026_11_17/data_value",
+    "new_tests_passed": 19,
+    "unchanged_parent_tests_passed": 24,
+    "total_passed": 43,
+    "scope": [
+      "exact rational Bayesian acquisition policy",
+      "independent complete contingent-plan enumeration without Bayesian updating or Bellman recursion",
+      "arbitrary-terminal-value policy formula in bundle and nonzero-partial-value Gaussian instances",
+      "informative, uninformative and delayed reports",
+      "direct specialist, standalone lab and source-demand-expiry alternatives",
+      "same useful source batch supplied as a routine byproduct",
+      "joint qualification law versus unjustified marginal independence",
+      "discounted and expanded-menu baseline",
+      "service-price mapping with a retained competent alternative",
+      "total-versus-current human-time wage counterexample",
+      "invalid probability and joint-law inputs"
+    ],
+    "not_proof": true,
+    "same_assistant_separate_algorithm_not_peer_review": true
+  },
+  "result_regeneration": {
+    "command": "python teleoperation.py --output <temporary path>",
+    "byte_identical_to_committed_results": true,
+    "sha256": "3a2f0aaf7a92489babfd43ac107265ebed1aeb40975eedb4fe8832f57ed11461"
+  },
+  "parent_accounting_preserved": {
+    "data_value.py": {
+      "bytes": 8783,
+      "sha256": "96e2bad3e969e6197ffb5151f9dae9ae4eb653a0f213dde12134c929b27227a5",
+      "git_blob": "070fd97d17e426cdb756eab05452e549dfdde35c"
+    },
+    "test_data_value.py": {
+      "bytes": 8862,
+      "sha256": "693f5ea829279266c5c20e6b51ee2612aa5bee13bb9ba5392f202fe1365ea866",
+      "git_blob": "bb6f11a0998d411295cc871c9b25a0b6744222f8"
+    },
+    "both_match_input_revision_blobs": true,
+    "unchanged_parent_sources_not_in_research_commit_delta": true
+  },
+  "source_checks": {
+    "evidence_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_EVIDENCE.json",
+    "primary_sources": [
+      "arXiv:2606.10127 v1 selected HTML sections",
+      "PMLR DAgger abstract/metadata",
+      "ThriftyDAgger primary PDF sections 3-5 and Table 3",
+      "HIL-SERL authors method overview and publication record"
+    ],
+    "thrifty_table3_pdf_text_and_page8_image_inspected": true,
+    "reported_autonomous_successes_trials": [
+      12,
+      15
+    ],
+    "reported_assisted_successes_trials": [
+      15,
+      15
+    ],
+    "counts_are_source_reported_not_our_experiments": true,
+    "full_dda_proposition6_proof_reconstruction": false,
+    "full_hil_serl_supplement_read": false,
+    "inherited_dda_display_date_discrepancy_resolved": false,
+    "source_extraction_hash_meaning": "UTF-8 primary-text retrieval output, not original PDF binary"
+  },
+  "reader_note": {
+    "filename": "Teleoperation_and_Economic_Data_Value_2026-11-17.pdf",
+    "pages": 6,
+    "all_pages_rendered_and_contact_sheet_inspected": true,
+    "revised_page5_rendered_and_inspected": true,
+    "persisted_as_separate_reader_artifact": true,
+    "pdf_binary_reproducibility_claimed": false
+  },
+  "not_executed": [
+    "historical full-repository CI",
+    "independent peer review",
+    "robot training or evaluation",
+    "customer field experiment",
+    "empirical calibration",
+    "official numeric production-backbone recovery",
+    "final Christmas clean-checkout release"
+  ],
+  "proof_review": "Direct written proofs checked against their stated maintained assumptions by the same assistant. Numerical outputs support implementation checks and counterexamples; they do not establish the general proofs or scientific novelty.",
+  "artifacts": {
+    "research/theory_integration_2026_11_17/data_value/teleoperation.py": {
+      "bytes": 14383,
+      "sha256": "3895baa7be23b25ef376111ea05a4d085f91f7c9ba6227f89647cb26f360dd26",
+      "git_blob": "5921b4d9a946523b767b8c2c66ef02b305082bdf"
+    },
+    "research/theory_integration_2026_11_17/data_value/test_teleoperation.py": {
+      "bytes": 8885,
+      "sha256": "43b961cd1790d684e5c01129e60eaa4b93710ed70b32751cc62323d722333a87",
+      "git_blob": "185d3a202b8e0b76c797e22b3e19bb8decb8e943"
+    },
+    "research/theory_integration_2026_11_17/data_value/teleoperation_results.json": {
+      "bytes": 20714,
+      "sha256": "3a2f0aaf7a92489babfd43ac107265ebed1aeb40975eedb4fe8832f57ed11461",
+      "git_blob": "23de4baa645e5423bf55699a8aca7568137df489"
+    },
+    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_DATA_VALUE.md": {
+      "bytes": 34140,
+      "sha256": "d44233d8a2e43985b557f2c7df99506438fc6dccef5cdb6da17daeeaaee9d356",
+      "git_blob": "9686afda900f66e32801730b31b335f156ebffcf"
+    },
+    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_PROOF_LEDGER.md": {
+      "bytes": 5019,
+      "sha256": "35dbde6912947c5fbc1285b045540ae4bd7a774163d64f284372a0dd6bc6e0eb",
+      "git_blob": "928389f914b258b4b3b5e73790bdb2989fc0aa2a"
+    },
+    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_EVIDENCE.json": {
+      "bytes": 5331,
+      "sha256": "7f15a2636a41e1f283a3d138861f4f923299639773bbaa848d03f95ef7108eb9",
+      "git_blob": "c88e485eca10d288432cf3c7212c8790808a07de"
+    },
+    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_EXERCISES.md": {
+      "bytes": 3846,
+      "sha256": "8aa8a2a391de629284ad26bbb3cd2efd34a84ca1e363c0751e89631bb1e37cc5",
+      "git_blob": "5c6f73666b50551f9e38cc5f4bd0a5ff2a2cd152"
+    },
+    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_SOLUTIONS.md": {
+      "bytes": 6042,
+      "sha256": "afd1b4588672fefaee1ceb50a3cfb944861026a44b4a8586d20238e9f418b201",
+      "git_blob": "7d24b6df5335a60da615f47a7fd0fa7fcf9201ed"
+    },
+    "research/theory_integration_2026_11_17/data_value/render_teleoperation_note.py": {
+      "bytes": 20244,
+      "sha256": "44d2b3e9f1b3adfb073c59bdc9fcc5755698581a53deb71c847890aa45809435",
+      "git_blob": "5c86125b5760858997a88fd5fb765604757ac982"
+    },
+    "research/theory_integration_2026_11_17/data_value/PRE_TELEOPERATION_STATE.json": {
+      "bytes": 12136,
+      "sha256": "29d3599cdd865426cbc7ce25476e25b45e5dce8b4ff5789ce36e1199cdbd20b7",
+      "git_blob": "53775c6372ac794170f126e08263019f455b5471"
+    },
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md": {
+      "bytes": 87807,
+      "sha256": "33838826d1cb4c344f77baef60acd46aded408e89235f1b5cb9213f6792e64d3",
+      "git_blob": "e148b05ec8501590ad2c62d1a58d2205b457cf83"
+    },
+    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md": {
+      "bytes": 18820,
+      "sha256": "a823fe68966d9bb99f00b3d5ddbf4b8ff75c75484d59c76d77d06eb6e7ef60f7",
+      "git_blob": "8acc303083b36b2eaea14de0ebc15fb18e35dc75"
+    },
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md": {
+      "bytes": 8415,
+      "sha256": "ed4093d4f69c261965fd01eb17f3625969f75684f8f3199989a1bfc8037a7a23",
+      "git_blob": "2a9c4931e01093833656aad88645a31c0372eac2"
+    },
+    "research/theory/milestones.md": {
+      "bytes": 10768,
+      "sha256": "0f9530f72f8bf38e1cdc8e08ca31257524b1ca02a36a0a31719f6562f6e32d2c",
+      "git_blob": "4009e234a16728ac43d2c9cd206e6d7dc74784a8"
+    }
+  }
+}

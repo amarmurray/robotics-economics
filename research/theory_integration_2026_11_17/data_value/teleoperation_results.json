@@ -1,0 +1,1037 @@
+{
+  "baseline_parameters": {
+    "accuracy": {
+      "decimal": 0.95,
+      "exact": "19/20"
+    },
+    "allow_direct": false,
+    "allow_lab": false,
+    "direct_margin": {
+      "decimal": -4.0,
+      "exact": "-4"
+    },
+    "direct_value": {
+      "decimal": 6.0,
+      "exact": "6"
+    },
+    "discount": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "early_signal": true,
+    "gaussian_a": 1.0,
+    "gaussian_b": 1.0,
+    "gaussian_ground_loading": 1.0,
+    "gaussian_residual": 0.1,
+    "gaussian_reward": 30.0,
+    "gaussian_source_loading": [
+      0.0,
+      4.0
+    ],
+    "gaussian_tolerance": 1.0,
+    "ground_limit": 1,
+    "ground_margin": {
+      "decimal": -1.0,
+      "exact": "-1"
+    },
+    "horizon": 2,
+    "lab_accuracy": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "lab_margin": {
+      "decimal": -2.0,
+      "exact": "-2"
+    },
+    "routine_margin": {
+      "decimal": 3.0,
+      "exact": "3"
+    },
+    "source_deadline": 2,
+    "source_limit": 1,
+    "source_margin": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "technology": "bundle",
+    "transfer_value": {
+      "decimal": 20.0,
+      "exact": "20"
+    }
+  },
+  "competent_direct_available": {
+    "action_values": {
+      "direct": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "ground": {
+        "decimal": 6.2,
+        "exact": "31/5"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 0.8636363636363636,
+          "exact": "19/22"
+        },
+        "probability": {
+          "decimal": 0.275,
+          "exact": "11/40"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.017241379310344827,
+          "exact": "1/58"
+        },
+        "probability": {
+          "decimal": 0.725,
+          "exact": "29/40"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": {
+          "decimal": 6.2,
+          "exact": "31/5"
+        }
+      },
+      "plans_enumerated": 19,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.2,
+      "exact": "31/5"
+    }
+  },
+  "customer_price_mapping": {
+    "1": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "12": {
+      "decimal": 20.0,
+      "exact": "20"
+    },
+    "3": {
+      "decimal": 5.0,
+      "exact": "5"
+    },
+    "6": {
+      "decimal": 20.0,
+      "exact": "20"
+    },
+    "8": {
+      "decimal": 20.0,
+      "exact": "20"
+    }
+  },
+  "free_source_delayed_signal": {
+    "action_values": {
+      "ground": {
+        "decimal": 7.0,
+        "exact": "7"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 7.0,
+        "exact": "7"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "ground",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "source",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 7.0,
+          "exact": "7"
+        }
+      },
+      "plans_enumerated": 7,
+      "precommitted": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 7.0,
+          "exact": "7"
+        }
+      }
+    },
+    "value": {
+      "decimal": 7.0,
+      "exact": "7"
+    }
+  },
+  "gaussian_delayed_signal": {
+    "action_values": {
+      "ground": 6.358654471566471,
+      "routine": 6.358654471566471,
+      "source": 6.152839901071219
+    },
+    "after_first": [
+      {
+        "next_action": "ground",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "routine",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": 6.358654471566472
+      },
+      "plans_enumerated": 7,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": 6.358654471566472
+      }
+    },
+    "value": 6.358654471566471
+  },
+  "gaussian_information": {
+    "action_values": {
+      "ground": 6.838130629595981,
+      "routine": 6.358654471566471,
+      "source": 6.152839901071219
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 0.8636363636363636,
+          "exact": "19/22"
+        },
+        "probability": {
+          "decimal": 0.275,
+          "exact": "11/40"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.017241379310344827,
+          "exact": "1/58"
+        },
+        "probability": {
+          "decimal": 0.725,
+          "exact": "29/40"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": 6.838130629595982
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": 6.358654471566472
+      }
+    },
+    "value": 6.838130629595981
+  },
+  "gaussian_repeated_data_allowed": {
+    "action_values": {
+      "ground": 6.838130629595981,
+      "routine": 6.358654471566471,
+      "source": 6.152839901071219
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 0.8636363636363636,
+          "exact": "19/22"
+        },
+        "probability": {
+          "decimal": 0.275,
+          "exact": "11/40"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.017241379310344827,
+          "exact": "1/58"
+        },
+        "probability": {
+          "decimal": 0.725,
+          "exact": "29/40"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": 6.838130629595982
+      },
+      "plans_enumerated": 15,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": 6.358654471566472
+      }
+    },
+    "value": 6.838130629595981
+  },
+  "no_future_incremental_value": {
+    "action_values": {
+      "ground": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 4.0,
+        "exact": "4"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "routine",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.0,
+      "exact": "6"
+    }
+  },
+  "perfect_diagnostic": {
+    "action_values": {
+      "ground": {
+        "decimal": 6.5,
+        "exact": "13/2"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "probability": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "probability": {
+          "decimal": 0.75,
+          "exact": "3/4"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": {
+          "decimal": 6.5,
+          "exact": "13/2"
+        }
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.5,
+      "exact": "13/2"
+    }
+  },
+  "productive_diagnostic": {
+    "action_values": {
+      "ground": {
+        "decimal": 6.2,
+        "exact": "31/5"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 0.8636363636363636,
+          "exact": "19/22"
+        },
+        "probability": {
+          "decimal": 0.275,
+          "exact": "11/40"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.017241379310344827,
+          "exact": "1/58"
+        },
+        "probability": {
+          "decimal": 0.725,
+          "exact": "29/40"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": {
+          "decimal": 6.2,
+          "exact": "31/5"
+        }
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.2,
+      "exact": "31/5"
+    }
+  },
+  "pure_lab_alternative": {
+    "action_values": {
+      "ground": {
+        "decimal": 6.2,
+        "exact": "31/5"
+      },
+      "lab": {
+        "decimal": 5.5,
+        "exact": "11/2"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "source",
+        "posterior": {
+          "decimal": 0.8636363636363636,
+          "exact": "19/22"
+        },
+        "probability": {
+          "decimal": 0.275,
+          "exact": "11/40"
+        },
+        "signal": true
+      },
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.017241379310344827,
+          "exact": "1/58"
+        },
+        "probability": {
+          "decimal": 0.725,
+          "exact": "29/40"
+        },
+        "signal": false
+      }
+    ],
+    "first_action": "ground",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "ground",
+        "precommitted": false,
+        "second": {
+          "False": "routine",
+          "True": "source"
+        },
+        "value": {
+          "decimal": 6.2,
+          "exact": "31/5"
+        }
+      },
+      "plans_enumerated": 15,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.2,
+      "exact": "31/5"
+    }
+  },
+  "routine_supplies_source_free": {
+    "action_values": {
+      "ground": {
+        "decimal": 7.0,
+        "exact": "7"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 7.0,
+        "exact": "7"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "ground",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "source",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 7.0,
+          "exact": "7"
+        }
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 7.0,
+          "exact": "7"
+        }
+      }
+    },
+    "value": {
+      "decimal": 7.0,
+      "exact": "7"
+    }
+  },
+  "same_data_delayed_signal": {
+    "action_values": {
+      "ground": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "routine",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      },
+      "plans_enumerated": 7,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.0,
+      "exact": "6"
+    }
+  },
+  "shared_qualification": {
+    "correct_expected_gain": {
+      "decimal": 5.0,
+      "exact": "5"
+    },
+    "incorrect_independent_gain": {
+      "decimal": 1.25,
+      "exact": "5/4"
+    },
+    "joint_law": [
+      {
+        "decimal": 0.75,
+        "exact": "3/4"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.25,
+        "exact": "1/4"
+      }
+    ],
+    "values": [
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 20.0,
+        "exact": "20"
+      }
+    ]
+  },
+  "source_demand_expires": {
+    "action_values": {
+      "ground": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 10.0,
+        "exact": "10"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "ground",
+        "posterior": {
+          "decimal": 0.5,
+          "exact": "1/2"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "source",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 10.0,
+          "exact": "10"
+        }
+      },
+      "plans_enumerated": 5,
+      "precommitted": {
+        "first": "source",
+        "precommitted": true,
+        "second": {
+          "None": "ground"
+        },
+        "value": {
+          "decimal": 10.0,
+          "exact": "10"
+        }
+      }
+    },
+    "value": {
+      "decimal": 10.0,
+      "exact": "10"
+    }
+  },
+  "status": "Conditional theory; synthetic normalized values; no robot training or calibration",
+  "stronger_direct_wins": {
+    "action_values": {
+      "direct": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "ground": {
+        "decimal": 7.65,
+        "exact": "153/20"
+      },
+      "routine": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "source": {
+        "decimal": 6.0,
+        "exact": "6"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "direct",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "routine",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "direct"
+        },
+        "value": {
+          "decimal": 8.0,
+          "exact": "8"
+        }
+      },
+      "plans_enumerated": 19,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "direct"
+        },
+        "value": {
+          "decimal": 8.0,
+          "exact": "8"
+        }
+      }
+    },
+    "value": {
+      "decimal": 8.0,
+      "exact": "8"
+    }
+  },
+  "uninformative_diagnostic": {
+    "action_values": {
+      "ground": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "routine": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "source": {
+        "decimal": 5.0,
+        "exact": "5"
+      }
+    },
+    "after_first": [
+      {
+        "next_action": "routine",
+        "posterior": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "probability": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "signal": null
+      }
+    ],
+    "first_action": "routine",
+    "independent_enumeration": {
+      "optimal": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      },
+      "plans_enumerated": 9,
+      "precommitted": {
+        "first": "routine",
+        "precommitted": true,
+        "second": {
+          "None": "routine"
+        },
+        "value": {
+          "decimal": 6.0,
+          "exact": "6"
+        }
+      }
+    },
+    "value": {
+      "decimal": 6.0,
+      "exact": "6"
+    }
+  },
+  "wage_timing_counterexample": {
+    "policies": {
+      "serve_manually_later": {
+        "hours_later": 4,
+        "hours_now": 0,
+        "other_cost": 0
+      },
+      "teach_now_then_automate": {
+        "hours_later": 0,
+        "hours_now": 1,
+        "other_cost": 3
+      }
+    },
+    "wage_0_5": {
+      "best": "serve_manually_later",
+      "cost": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "total_hours": 4
+    },
+    "wage_2": {
+      "best": "teach_now_then_automate",
+      "cost": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "total_hours": 1
+    }
+  }
+}
