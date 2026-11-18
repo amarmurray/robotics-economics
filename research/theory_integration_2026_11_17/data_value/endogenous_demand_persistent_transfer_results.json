@@ -1,0 +1,210 @@
+{
+  "model": "synthetic_two_period_persistent_regime_customer_production",
+  "assumptions": {
+    "latent": "one persistent H/L regime",
+    "p_interval": [
+      0.4,
+      0.6
+    ],
+    "operator_budget_per_supported_terminal_path": 2,
+    "normalization": "captured real contribution units; no source-derived dollars",
+    "qualified_old_policy_retained": true
+  },
+  "paths": {
+    "R": {
+      "H": {
+        "current": 2,
+        "order": "B",
+        "terminal": 12,
+        "qualified": true,
+        "reached": true,
+        "operator": 2,
+        "report": "green"
+      },
+      "L": {
+        "current": 2,
+        "order": "S",
+        "terminal": 1,
+        "qualified": false,
+        "reached": false,
+        "operator": 1,
+        "report": "no-safe-B-support"
+      }
+    },
+    "G": {
+      "H": {
+        "current": -1,
+        "order": "B",
+        "terminal": 8,
+        "qualified": true,
+        "reached": true,
+        "operator": 2,
+        "report": "grounded"
+      },
+      "L": {
+        "current": -1,
+        "order": "B",
+        "terminal": 11,
+        "qualified": true,
+        "reached": true,
+        "operator": 2,
+        "report": "grounded"
+      }
+    },
+    "E": {
+      "H": {
+        "current": -1.5,
+        "order": "B",
+        "terminal": 9,
+        "qualified": true,
+        "reached": true,
+        "operator": 1,
+        "report": "redesigned"
+      },
+      "L": {
+        "current": -1.5,
+        "order": "B",
+        "terminal": 9,
+        "qualified": true,
+        "reached": true,
+        "operator": 1,
+        "report": "redesigned"
+      }
+    },
+    "S": {
+      "H": {
+        "current": 3,
+        "order": "S",
+        "terminal": 3,
+        "qualified": true,
+        "reached": true,
+        "operator": 1,
+        "report": "specialist"
+      },
+      "L": {
+        "current": 3,
+        "order": "S",
+        "terminal": 3,
+        "qualified": true,
+        "reached": true,
+        "operator": 1,
+        "report": "specialist"
+      }
+    }
+  },
+  "values_by_regime": {
+    "R": {
+      "H": 14,
+      "L": 3
+    },
+    "G": {
+      "H": 7,
+      "L": 10
+    },
+    "E": {
+      "H": 7.5,
+      "L": 7.5
+    },
+    "S": {
+      "H": 6,
+      "L": 6
+    }
+  },
+  "pure_robust_floor": {
+    "R": 7.4,
+    "G": 8.2,
+    "E": 7.5,
+    "S": 6
+  },
+  "paired_differences": {
+    "RminusGatLower": -1.4000000000000004,
+    "RminusGatUpper": 1.4000000000000021,
+    "GminusEatLower": 1.3000000000000007,
+    "GminusEatUpper": 0.6999999999999993
+  },
+  "randomized_first_action": {
+    "R_fraction": 0.21428571428571427,
+    "G_fraction": 0.7857142857142857,
+    "H_value": 8.5,
+    "L_value": 8.5,
+    "robust_floor": 8.5,
+    "requires": "ex ante fractional allocation/randomization feasible"
+  },
+  "identification_countermodel": {
+    "on_policy_R_indistinguishable": true,
+    "G_L_alternate_terminal": 5,
+    "G_alternate_robust_floor": 5.2,
+    "G_vs_E_reversed": true
+  },
+  "nonrectangularity": {
+    "coherent_full_law_worst": 0.5,
+    "spliced_rectangular_value": 0.25,
+    "splicing_invalid_for_common_regime_prior": true
+  },
+  "interval_bound": {
+    "G_minus_E_width_0": 0.7,
+    "G_minus_E_width_point_1": 0.5000000000000009
+  },
+  "checks_passed": 59,
+  "check_labels": [
+    "pathwise-safe R/H",
+    "customer-accepted B only if qualified R/H",
+    "B only if target supported R/H",
+    "finite-real-flows R/H",
+    "pathwise-safe R/L",
+    "customer-accepted B only if qualified R/L",
+    "B only if target supported R/L",
+    "finite-real-flows R/L",
+    "pathwise-safe G/H",
+    "customer-accepted B only if qualified G/H",
+    "B only if target supported G/H",
+    "finite-real-flows G/H",
+    "pathwise-safe G/L",
+    "customer-accepted B only if qualified G/L",
+    "B only if target supported G/L",
+    "finite-real-flows G/L",
+    "pathwise-safe E/H",
+    "customer-accepted B only if qualified E/H",
+    "B only if target supported E/H",
+    "finite-real-flows E/H",
+    "pathwise-safe E/L",
+    "customer-accepted B only if qualified E/L",
+    "B only if target supported E/L",
+    "finite-real-flows E/L",
+    "pathwise-safe S/H",
+    "customer-accepted B only if qualified S/H",
+    "B only if target supported S/H",
+    "finite-real-flows S/H",
+    "pathwise-safe S/L",
+    "customer-accepted B only if qualified S/L",
+    "B only if target supported S/L",
+    "finite-real-flows S/L",
+    "R full path",
+    "G full path",
+    "E full path",
+    "S full path",
+    "maximin pure lower endpoints",
+    "pure maximin rankings",
+    "paired no dominance",
+    "G uniformly E in interval",
+    "mix equalizer in both persistent regimes",
+    "mix flat at 0.4",
+    "mix flat at 0.5",
+    "mix flat at 0.6",
+    "dual upper at p=.5 R",
+    "dual upper at p=.5 G",
+    "dual upper at p=.5 E",
+    "dual upper at p=.5 S",
+    "on-policy R observational invariance H",
+    "on-policy R observational invariance L",
+    "unobserved G response alternative changes maximin",
+    "opposite G/E ranking under identical R law",
+    "one-prior conditional law 0.25",
+    "one-prior conditional law 0.5",
+    "one-prior conditional law 0.75",
+    "splicing post-order priors reduces artificial value",
+    "nonrectangular gap positive",
+    "coupled endpoint bound recovers exact comparison",
+    "conservative interval outer bound penalizes both routes only once"
+  ]
+}
