@@ -2,48 +2,50 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "928e778bfb836ebd674dc348143fea39a57d0039",
+  "research_input_commit": "c814506a0c6e18926a29749d495c5d9334f21943",
   "lease": {
     "run_id": "scheduled-20261118T123400722Z-approx-interference",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T12:34:00.722Z",
     "expires_at_utc": "2026-11-18T13:39:00.722Z",
-    "reason": "Proof tranche: bounded residual network interference, same-regime policy ranking, and hard shared-operator support distinction."
+    "reason": "Completed approximate-network complete-policy error theorem, same-regime robust value threshold, rare-tail physical support counterexample, empirical and synthesis bridge, exact-source replay 271 checks and independent rational arithmetic; no physical safety certification.",
+    "released_at_utc": "2026-11-18T12:43:10.264Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: source-to-qualified accepted production under connected controller, human recovery, and customer-demand networks; repair independent-pool assumption; theory majority through Dec6 and November22 synthesis still open.",
+  "current_mode": "When Capabilities Become Production: complete-policy bounded network effects, persistent transfer, endogenous demand/qualification and independently hard-constrained recovery; Nov22 synthesis open; theory majority through Dec6.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_APPROXIMATE_NETWORK_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released RESEARCH_STATE.json from 928e778bfb836ebd674dc348143fea39a57d0039 archived byte-for-byte in research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json; exclusive lease acquisition 6b74cb36b9b80aa1c9fbf77f7afc0865c0daf9e4 remains in ancestry. Earlier data-value and finance backlog, main and inaccessible Codex work unchanged.",
-  "latest_result": "Network-level HT/sequential supported stochastic policy identification requires interference-closed units, complete eligible-order histories and safe vector/history positivity. Earlier 70% A-only supported gain 0.35 becomes Δ=0.35-0.3*s-c when B-market/controller spillover s exists; if s∈[-0.4,1.5] and c=0 full contribution is [6.9,7.47] vs old 7, rather than 7.35. Same 0.1/0.1 sitewise recovery marginals and 0.2 expected human usage permit either peak2 (hard capacity1 violation) or peak1 (no breach of this cap), depending on joint support. Different controller-learning vs commercial-demand mechanisms can create identical observed B net outcome -0.6. All normalized synthetic illustrations, not measured robots.",
+  "preservation": "Previous released research state at c814506a archived byte-for-byte in research/theory_integration_2026_11_17/data_value/PRE_APPROXIMATE_NETWORK_STATE.json; prior data-value/finance states, original full queue, main and inaccessible Codex work preserved; active lease acquisition 27682c221a41f3c7f4561bac5c8edce11d734686 in ancestry.",
+  "latest_result": "Finite-horizon policy-uniform same-regime coupling bounds each complete customer-production policy's approximate-network value error by sum(delta_t+epsilon_t*M_t); a paired-world robust ranking subtracts both policy errors. Conditional selective A/B rollout gain lower = .12-.3*eta with break-even eta=.4 under explicitly hypothetical local B upper .6, own-A loss .02 and cost .03; at eta=.25 lower .045. Two-period Q×D regime toy reveals coarse TV envelope gives no ranking despite positive exact adaptive gain in both regimes. Recovery laws at TV distance .002 keep .1 site marginals yet turn hard peak1 safe-support into positive peak2 risk; no finite samples of zero collisions certify zero support. Mathematical/probability constructions only, not field robot data.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/network_interference_results.json",
-    "source_blob": "f821bda6ba0dfccc2c99827d36029da5058247a9",
-    "results_blob": "6b59575a8136117607167e0381113c9f763f0bbe",
+    "record_file": "research/theory_integration_2026_11_17/data_value/approximate_network_remainder_results.json",
+    "source_blob": "bb81e1e0b3239697fd38a0bf77b720f343547e78",
+    "results_blob": "861ffd07a874c779cfc44e2c0d7618262f7ecec4",
     "exact_blob_replayed_and_results_equal": true,
-    "scoped_V8_assertions": 318,
+    "scoped_V8_assertions": 271,
     "independent_python_fraction_checked": true,
-    "mathematical_proof": "Finite-network HT expectation; sequential history-probability cancellation; elementary sharp monotone spillover endpoints under unrestricted response class; explicit same-marginal joint operator-support counterexample. Assertions validate finite arithmetic, not structural truth or theorem novelty.",
+    "mathematical_proof": "History coupling via first divergence, same-theta paired inequality, finite causal cone conditional induction, affine endpoint sensitivity, exact 4-state Markov enumeration and rare supported simultaneous-recovery support counterexample. Mathematical novelty not asserted.",
     "historical_repository_CI": false,
     "node_clean_checkout": false,
     "independent_peer_review": false,
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
-    "official_numerical_production_backbone": false
+    "official_numerical_production_backbone": false,
+    "verified_shared_operator_safety": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/network_interference.js",
-    "research/theory_integration_2026_11_17/data_value/network_interference_results.json",
+    "research/theory_integration_2026_11_17/data_value/APPROXIMATE_NETWORK_REMAINDER_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/APPROXIMATE_NETWORK_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/APPROXIMATE_NETWORK_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/approximate_network_remainder.js",
+    "research/theory_integration_2026_11_17/data_value/approximate_network_remainder_results.json",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_APPROXIMATE_NETWORK_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
@@ -54,9 +56,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "connected_network_causal_support_and_externality_sensitivity_derived; approximate_interference_error_and_field_calibration_open",
-      "question": "With shared checkpoints, recovery and market links, which independently safe network exposure maps and measured residual long-range effects suffice to rank complete adaptive source/grounding/body policies while retaining demand feedback and persistent transfer?",
-      "deliverable": "Develop an explicit approximate-neighborhood remainder / sensitivity bound and complete-policy safety/rank certificate, with independent checkpoint and whole-demand follow-up tests. Keep customer revenue and qualification separate."
+      "status": "bounded_policy_level_approx_network_economic_value_derived; true_residual_calibration_and_hard_support_open",
+      "question": "Under persistent transfer and endogenous orders/learning, can a nonvacuous target-policy-uniform omitted-network influence envelope be justified from controller lineage, demand connections, and dispatch support without treating small statistical effects as physical safety?",
+      "deliverable": "Construct a physically interpretable bounded influence/causal cone map on controller–operator–customer multiplex network; calibrate or bound missing links only under actually supported safe histories; compare a certified staged admission or specialist alternative with adaptive grounding and routine data."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -68,7 +70,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "prospective_connected_controller_operator_market_exposure_schema_added; official_numeric_backbone_and_actual_customer_panel_missing",
+      "status": "prospective_target_policy_uniform_residual_and_operator_peak_protocol_added; observed_joint_customer_panel_and_numeric_backbone_missing",
       "question": "Which linked full-network controller lineage, operator overlap, original order registry and held-out joint qualification measurements identify meaningful cross-pool economic data value?",
       "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
@@ -81,17 +83,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "nov22_network_independence_objection_integrated; gate_not_passed",
+      "status": "nov22_error_control_and_hard_support_boundary_integrated; gate_not_passed",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
     }
   ],
   "portfolio_status": {
-    "theory": "Cross-pool controller/operational/customer interference and network-level approved history identification; exact selective bound/counterexample and operator marginals-vs-joint support proof.",
-    "atlas": "Prospective three-layer network exposure/customer/technical acceptance table; official BLS/BEA quantitative matrix and real linked field acceptance still absent.",
-    "paper": "Living manuscript, November22 synthesis working objections and Models A/B boundary expanded without changing original scope or claiming a passed gate.",
-    "learning": "Five network-data-value problems and complete separate instructor answers.",
-    "main_contribution": "Candidate physical source-to-qualified-production network composition; network IPW, partial identification and recovery-copula mathematics are prior foundations, publication novelty unestablished."
+    "theory": "Finite-horizon same-regime complete-policy value-error/ranking bound, optional causal-cone exactness under strong locality, sharp restricted rollout sensitivity, and hard support discontinuity for rare network recovery.",
+    "atlas": "Prospective link-lineage, eligible-zero-order, whole service and operator joint recovery residual design; numerical BLS/BEA backbone and real robot accepted service absent.",
+    "paper": "Living manuscript, Models A/B bridge and November 22 working synthesis updated for policy-uniform economic approximation distinct from operator safety; scientific gate still open.",
+    "learning": "Six student problems and separate instructor answers for coupling, same-world ranks, residual threshold, rare support and policy-induced data.",
+    "main_contribution": "Candidate economic composition of accepted customer production, learning and physical network feasibility. General approximate interference/coupling and causal-cone arguments are prior-art mathematics; originality unestablished."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -149,7 +151,9 @@
     "The target segment example fixes pre-action weights, capture units and no cross-segment interference; any real differentiation overhead must be deducted and actual safety/rights approved.",
     "Latest connected-network spillover set [-0.4,1.5], customer shares and recovery marginals are invented sensitivity parameters, NOT empirically supported bounds. A site-isolation positive gain alone is not a network-wide ranking.",
     "Three controller, operator and customer-network edges are conceptual and not measured. A complete exposure map or approximate-neighborhood residual error bound is an unresolved proof/empirical gap; one connected experimental network has no independent design replication.",
-    "Recovery joint support example isolates instantaneous human capacity B=1 only; other physical loads, temporal windows, technical safe abort and long-tail certification remain outside the numeric illustration."
+    "Recovery joint support example isolates instantaneous human capacity B=1 only; other physical loads, temporal windows, technical safe abort and long-tail certification remain outside the numeric illustration.",
+    "All new policy-uniform TV bounds, local B externality residuals and safe-cone assumptions are conditional and unmeasured; no evidence a real deployment meets them. Small economic approximation error does not certify pathwise hard operator resources.",
+    "Toy Q×D transition uses independent conditional Bernoulli components solely to verify arithmetic; earlier joint qualification, correlated recovery and persistent regime ambiguities are retained."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",

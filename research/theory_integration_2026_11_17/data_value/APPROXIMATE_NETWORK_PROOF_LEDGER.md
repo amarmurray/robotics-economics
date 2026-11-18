@@ -1,0 +1,33 @@
+# Proof, counterexample, and rejection ledger — bounded interference versus pathwise safety
+
+**18 November 2026.** Companion to [theory](APPROXIMATE_NETWORK_REMAINDER_THEORY.md), executable [finite synthetic check](approximate_network_remainder.js) and [results](approximate_network_remainder_results.json).
+
+### A1: complete-history coupling
+
+Fix θ for the **entire** policy and couple true and surrogate histories, including each policy's own randomization, at t=0. At every matched prefix, maximal coupling of the two controlled next-history kernels diverges with conditional probability at most εθ,t. With equal histories/actions at t, contemporaneous service contributions differ by ≤δθ,t. If the first divergence occurs immediately after t, the absolute difference of all *remaining* current-service payoffs and the single terminal optimized production payoff is at most M_t (sum of spans; across two different histories each payoff lies inside the same time-specific bounded range). The probability of first divergence at t is ≤εθ,t, so its expected contribution to error is at most εθ,t M_t; summing possible first-divergence times and matched-prefix δ gives A1. This does NOT require temporal independence or true/approx regime resets, but **does** require conditional-TV control for every policy-reachable matched prefix, a common action menu and an identical persistent θ. Different immediate reward timing requires adjusting M_t. Nonempty history branches forbidden in the true model but present only in the surrogate can be handled by coupling divergence, not declared safely reachable.
+
+If π reacts to reports, its decisions remain equal up to first history divergence because it is the same nonanticipatory decision rule under both models and can use common policy random seeds. After divergence all downstream adaptation, learned embodiment, orders and intervention choices are already covered by M_t. We neither impose independence of site qualification nor take a scalar training score as a dollar payoff.
+
+### A2: paired policy comparison
+
+For each fixed θ, \(J_\theta(\pi)\ge\widetilde J_\theta(\pi)-E_\theta(\pi)\) and \(J_\theta(\pi_0)\le\widetilde J_\theta(\pi_0)+E_\theta(\pi_0)\). Subtract to bound same-θ differences, then take inf over the *same* Θ. Pairing is crucial under an unobserved persistent regime. This ranks **economic payoff only**, conditioned on both complete routes being feasible under independently validated hard support/resource restrictions. It does not license unsafe experimentation.
+
+### Causal-cone sufficient condition
+
+For synchronous finite-horizon site dynamics on graph G (the *union* of controller, operator, demand and material links), assume each site's next state, action/observation policy and instantaneous contribution depend only on itself and immediate graph neighbors; initial states and exogenous innovations on a radius-T neighborhood agree under true and truncated worlds. Induct on t: at time t the focal outcome can depend only on initial/actions/innovations within distance t. Thus an r≥T exact neighborhood gives zero omitted influence for that focal value when the terminal reward uses only focal states and its specified neighborhood. If the policy uses a global training checkpoint, customer-demand dispatcher, total cash constraint, or shared operator schedule not in G, the local-dependence premise fails; the radius can be the entire network. A global terminal LP value is not generally a focal reward and requires including its relevant production dependencies. A cone is structural, not something inferred from low estimated spillover.
+
+### A3: limited stability and sharpness
+
+Under wA=.7, g=.5, wB=.3, incremental cost c=.03, matched local upper B loss .6, omitted B loss ≤η and own A total loss ≤.02, simply subtract the worst losses: Δ≥.35−.3(.6+η)−.03−.02=.12−.3η. It is attained in the unrestricted additive-response class by setting B and A effects simultaneously to their respective worst endpoints, hence sharp **only** in that class. If full network physics impose negative dependence or joint resource constraints these extrema may not be jointly realizable. At η=.25, 9/200=.045; η=.4 gives zero. Robust ranking against other alternatives requires separately upper-bounding each comparator, not assuming that old 7 is the only feasible alternative.
+
+### Negative numerical result from complete Markov enumeration
+
+Two-step toy policy is adaptive G at t=1 only when qualification Q=0, versus retained R throughout. Conditional independent Q',D' draws are an illustrative kernel choice, not a general independence premise. All four next states are enumerated for both persistent regime types and two policies. Kernel true/near one-step TV maximum is .0259 over all 2×4×2 regime/state/action combinations, independently computed by \(\frac12\sum_s|K-\widetilde K|\). The t=0 loss bound covers t=1 reward span .65 and terminal span 2; t=1 covers terminal span 2. Total one-policy bound .120435, paired .24087. The smaller local-world positive differences cannot imply an A2 certificate. Numerical enumeration verifies this finite toy only, not A1's general proof.
+
+### Hard-cap discontinuity and finite missing-event counterexample
+
+Disjoint law L0=(.8,.1,.1,0) and rare simultaneous law Lη=(.8+η,.1−η,.1−η,η) preserve .1 individual recovery marginals. For η>0, event (1,1) has positive support and two operators are simultaneously needed; under the policy as stated hard B=1 is violated. Total variation is \(\frac12(4\eta)=2\eta\), arbitrarily small. An admissible ex ante operator admission control could avoid that event's resource breach only if it changes the physical reachable support and is certified; it is a distinct economic history and could forego service. Finite independent samples with no observed collision have probability (1−η)^n under the unsafe law, positive for every finite n and η<1. Therefore missing events never prove zero physical support absent additional assumptions. This is **not** saying a chance constraint is impermissible; it is distinct from a hard-cap contract.
+
+### What remains unproved/unknown
+
+No defensible numeric ε or η is measured in a real linked controller/operator/customer market; no safe supervisor/abort capability, matched accepted-service panel, official quantitative BLS/BEA crosswalk or independent novel economic theorem has been established. One-step TV control across all reachable target histories may be impossible to certify with sparse observational data. Counterexample failure of an *unrestricted* neighborhood guarantee is constructive, not a reason to abandon carefully bounded locality. The model retains source data as optional, keeps qualified old policies, and does not price data twice.

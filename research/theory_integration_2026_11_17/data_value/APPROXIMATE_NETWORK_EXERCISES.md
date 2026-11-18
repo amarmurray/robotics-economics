@@ -1,0 +1,10 @@
+# Learning packet — bounded interference and complete robot production
+
+**Student version; do not consult instructor solutions before attempting.** All cases synthetic normalized units, not field robotics measurements.
+
+1. **Coupling and timing.** A 2-decision adaptive policy has transition TV errors ε0=.03 and ε1=.02; after transition zero one future current-service reward has span .8 and final optimized service has span 3. There are no matched-prefix reward differences. Derive a valid complete-policy bound. How would the first term change if current service were earned *after* transition zero?
+2. **Same-world ranking.** In regimes A and B, the local surrogate's policy-π minus old-policy values are .4 and .18. Uniform individual value errors are Eπ=.06, Eold=.08. Is a strict same-world economic ranking established? What changes if Eπ=.11 and Eold=.09?
+3. **Residual economically relevant radius.** With incumbent 7, A share .7, A gain .5, B share .3, measured/assumed local upper spillover loss .6, additional cost .03, A missing total effect bound .02, derive the largest unknown positive residual η allowing strict incumbent dominance. Evaluate η=.25 and η=.5.
+4. **Nearness versus hard safety.** For two sites with each recovery marginal .1 construct a disjoint law and another with positive simultaneous event η. Prove TV=2η and identify which law breaches hard peak-one capacity. What is P(no simultaneous event in n independent episodes)?
+5. **Endogenous policy support.** Explain why a local interference bound tested under a retained controller need not control an adaptive G policy that unlocks a new target service and adds two customers. List two full-history fields you would require before applying A2.
+6. **Economic and physical policies.** A hypothetical selective rollout has certified conditional incremental lower value .045 against incumbent, but operator feasibility is unknown. May it be deployed? Explain how an independently validated staged admission rule changes the payoff comparison and why a freely available optional dataset need not lower optimum value.

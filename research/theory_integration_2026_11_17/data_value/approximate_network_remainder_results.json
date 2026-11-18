@@ -1,0 +1,56 @@
+{
+  "scope": "conditional synthetic bounded-network data value, not field estimates or physical safety",
+  "assertions": 271,
+  "selective": {
+    "baseline": 7,
+    "local_spillover_upper": 0.6,
+    "unobserved_spillover_bound": 0.25,
+    "network_cost": 0.03,
+    "ownA_unobserved_total_loss": 0.02,
+    "robust_increment_lower": 0.04499999999999997,
+    "total_lower": 7.045,
+    "residual_break_even": 0.4,
+    "loose_remainder_lower": -0.030000000000000037
+  },
+  "sequential": {
+    "epsilon_one_step_tv": 0.025900000000000034,
+    "one_policy_value_error_ceiling": 0.12043500000000015,
+    "paired_difference_error_ceiling": 0.2408700000000003,
+    "same_regime_robust_paired_lower": -0.22638524000000032,
+    "rows": [
+      {
+        "regime": "good",
+        "adaptive_actual": 0.9380964800000001,
+        "adaptive_near": 0.9109210400000002,
+        "retained_actual": 0.9265176,
+        "retained_near": 0.8927618,
+        "delta_actual": 0.011578880000000069,
+        "delta_near": 0.018159240000000132
+      },
+      {
+        "regime": "bad",
+        "adaptive_actual": 0.6694422400000001,
+        "adaptive_near": 0.64287096,
+        "retained_actual": 0.6621328000000001,
+        "retained_near": 0.6283862,
+        "delta_actual": 0.00730944,
+        "delta_near": 0.014484759999999985
+      }
+    ]
+  },
+  "recovery": {
+    "same_per_site_probability": 0.1,
+    "rare_joint_probability": 0.001,
+    "TV_from_disjoint": 0.0020000000000000013,
+    "safe_support_peak": 1,
+    "rare_support_peak": 2,
+    "probability_of_no_joint_event_in_1000_trials": 0.36769542477096373
+  },
+  "limitations": {
+    "identified_network_remainder": false,
+    "feasibility_certified": false,
+    "field_data": false,
+    "prior_art_novelty": false,
+    "repository_ci": false
+  }
+}
