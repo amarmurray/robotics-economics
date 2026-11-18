@@ -2,56 +2,51 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "88952c2896ac0cddfdbb17e8a206ee2883cef90a",
+  "research_input_commit": "8c8dfb28f6b84115f9d19e33acc717f0243d0a9b",
   "lease": {
     "run_id": "scheduled-20261118T143324Z-structural-network-identification",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T14:33:24.000Z",
     "expires_at_utc": "2026-11-18T15:23:24.000Z",
-    "reason": "Evaluating architectural network-envelope identification for safely reachable ground/body policies; no measured coefficients assumed."
+    "reason": "Derived and documented conditional architectural graph cut, 67/12000 certificate frontier, zero-event audit precision and unsupported-policy counterexample; direct V8 synthetic core checks and independent Python threshold arithmetic; manuscript, A/B, program and teaching updated; no measured C/b or physical safety certification.",
+    "released_at_utc": "2026-11-18T14:46:42.375Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: controller/operator/customer conditional influence envelope, qualified accepted-service data value, hard safe-admission feasibility and specialist comparator; theory majority through Dec6; Nov22 scientific gate open.",
+  "current_mode": "When Capabilities Become Production: auditable architectural controller/operator/market cuts, policy-uniform support and precision of qualified customer accepted-service economic certification; physical admission separately required; theory majority through Dec6, Nov22 gate open.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_CAUSAL_INFLUENCE_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_INFLUENCE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state from 88952c2896ac0cddfdbb17e8a206ee2883cef90a preserved byte-for-byte in research/theory_integration_2026_11_17/data_value/PRE_CAUSAL_INFLUENCE_STATE.json; original prior Q1–Q13 queue and pre-data-value finance states remain untouched; main and old inaccessible Codex work preserved. Exclusive lease acquisition 3541db1e2f19854e37b779d783c35a8e89310541 is ancestry.",
-  "latest_result": "Conditional joint next-state coupling with componentwise influence C and omitted shocks b gives policy-uniform mismatch recursion e(t+1)≤C(t)e(t)+b(t) and full qualified-customer-value error bound Σδ+Σw·e, preserving one persistent transfer regime, adaptive policy memory, endogenous orders and single terminal V. Remote path tail decays only with bounded degree/transmission and no hidden global link. Synthetic 70/30 A/B comparison: shared open lower J=7.06; serialized isolated lower J=7.09675; competent specialist assumed upper 7.08, old 7. The 0.01675 serial margin is conditional on unmeasured economic influence bounds AND separate certified physical exclusive reservation/fail-safe; joint marginals and incumbent-only logs cannot validate these. No robotics empirical effect or safety certification.",
+  "preservation": "Previous released state at 8c8dfb28f6b84115f9d19e33acc717f0243d0a9b preserved byte-for-byte as PRE_AUDITABLE_INFLUENCE_STATE.json; full earlier linked state/old Q1-Q13 backlog and unreconciled main/work preserved. Lease acquired on 5105bd06d3de9b015732098293b2b404f14e8763.",
+  "latest_result": "Conditional economic sensitivity frontier for preceding synthetic staged-versus-specialist J comparison: m=67/4000; a previously omitted controller-or-market B-service path with range 3 requires c+3 min(1,q_C+q_M)<67/4000. With no extra cost/single path strict q<67/12000. Verified arithmetic: .002+.002 yields serial 7.08475; complete unknown market path defeats certification even if controller path is cut. Under independent predeclared truly covered cells and PROVED dominating observable joint trigger, one-sided zero-event bound at 95% gives 536 trials for one stratum, 783 EACH across four strata (simultaneous). This cannot be applied to ordinary task success, latent-regime pooled histories or non-iid shared controllers, and cannot prove hard physical safety. Architectural graph cuts require versioned complete causal graph; no real source evidence validates C/b. Prior result, user direction and Models A/B retained.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/causal_influence_admission_results.json",
-    "source_blob": "1ad706ba64c05a7ab24a2dd3b5fa7440f485bdef",
-    "results_blob": "edd5e0cda2de34d2b00ffee83aef4f8f93d589d8",
-    "exact_blob_replayed_and_results_equal": true,
-    "scoped_V8_assertions": 5708,
-    "independent_python_fraction_checked": true,
-    "independent_fraction_results": {
-      "open_delta": "3/50",
-      "serial_delta": "387/4000",
-      "serial_over_specialist": "67/4000",
-      "finite_path_tail": "39/3125",
-      "infinite_path_tail": "1/75"
-    },
-    "mathematical_proof": "Conditional joint coupling mismatch induction, positive matrix path expansion, same persistent regime paired difference, restricted graph path count and software exclusive-token safety invariant; independent physical assumptions unverified.",
+    "record_file": "research/theory_integration_2026_11_17/data_value/auditable_network_certificate_results.json",
+    "source_blob": "ee556cf6fefb70dbd25aebf312a3ab7bbd2b0bbb",
+    "results_blob": "047e4b1fc67a6dd4cfe3882ec622bc4535f762c7",
+    "scoped_V8_function_checks": 217,
+    "independent_Python_threshold_check": true,
+    "exact_committed_file_replay": false,
+    "mathematical_proof": "Conditional structural-cut induction on complete time-unrolled graph; union-bound whole-service production sensitivity from prior certified margin; classical one-sided exact zero-event inversion with finite-cell simultaneous Bonferroni; observational equivalence for unsupported policy histories; physical admission remains independent.",
     "historical_repository_CI": false,
-    "node_clean_checkout": false,
     "independent_peer_review": false,
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
-    "verified_shared_operator_safety": false
+    "verified_physical_operator_safety": false,
+    "architectural_zero_verified": false,
+    "live_binomial_dominance_verified": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/CAUSAL_INFLUENCE_AND_ADMISSION_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/CAUSAL_INFLUENCE_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/CAUSAL_INFLUENCE_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/causal_influence_admission.js",
-    "research/theory_integration_2026_11_17/data_value/causal_influence_admission_results.json",
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/auditable_network_certificate.js",
+    "research/theory_integration_2026_11_17/data_value/auditable_network_certificate_results.json",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_CAUSAL_INFLUENCE_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_INFLUENCE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
@@ -62,9 +57,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "conditional_joint_coupling_policy_uniform_influence_graph_derived; engineering_coefficients_and_physical_admission_unverified",
-      "question": "Which real, versioned controller/replay, customer order and operator dispatch architecture supplies defensible policy-uniform C/b influence envelopes for safely reachable new grounding/embodiment histories, and can a feasible matched experiment tighten their robust specialist comparison?",
-      "deliverable": "Audit architectural zeros versus unbounded links and sampled conditional effects; derive worst-case full customer service influence and a same-world old/specialist rank with independent safe admission support. Reject vacuous/locality extrapolations."
+      "status": "conditional_architectural_cut_and_economic_audit_precision_frontier_derived; real_policy_uniform_architecture_and_dominating_joint_trigger_unverified",
+      "question": "Can real versioned controller, replay, operator and customer-demand architecture prove a complete structural influence cut for safely reachable grounding/embodiment policies; failing that, which approved matched whole accepted-service evaluation identifies the economic route/specialist difference without pretending to observe a cross-world coupling mismatch?",
+      "deliverable": "Inspect actual available architecture evidence, distinguish mechanically provable zeros from statistical unknowns and customer substitution; derive a target-stratified matched production identification bound under genuine safe support, including specialist and retained controller; consolidate into November 22 same-argument synthesis."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -76,7 +71,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "prospective_policy_uniform_network_matrix_and_operator_admission_evidence_audit_added; real joint customer panel and official numeric backbone absent",
+      "status": "architecture and sufficient sample assumptions specified; zero real network lineage/whole accepted-customer field panel and official numeric BEA/BLS crosswalk",
       "question": "Which linked full-network controller lineage, operator overlap, original order registry and held-out joint qualification measurements identify meaningful cross-pool economic data value?",
       "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
@@ -89,17 +84,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 structural influence synthesis/Models A-B and separate teaching updated; scientific gate unpassed.",
+      "status": "Nov22 living argument, A/B bridge and teaching now include graph-cut impossibility and audit precision; scientific gate still open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
     }
   ],
   "portfolio_status": {
-    "theory": "Conditional policy-uniform joint influence-matrix coupling/path expansion, short-path influence computation and bounded-radius tail, sharp synthetic serial versus specialist decision under an independent hard physical feasibility premise; joint law and unsupported-policy counterexamples preserved.",
-    "atlas": "Controller genealogy, scheduler reservation and original customer zero-order topology audit plus safe whole accepted-service design specified; no actual physical coefficient calibration or numerical official BLS/BEA backbone.",
-    "paper": "Main manuscript, A/B bridge, November 22 working review and standing sustained data-value program integrated with influence versus safety distinction; gate still open.",
-    "learning": "Six student exercises and separate instructor solutions for matrix mismatch, radius tail, complete alternatives, joint-law failure and hard exclusive reservation.",
-    "main_contribution": "Candidate synthesis linking economic qualified production, endogenous training/data and validated physical network admission; Dobrushin/coupling/path sums and causal interference are established mathematics, novel contribution unestablished."
+    "theory": "Derived conditional structural graph-cut zeros and a sharp additional path loss threshold for previous 7.09675/7.08 comparator; finite-cell one-sided binomial audit precision with no-support impossibility. Established tools, not claimed novelty.",
+    "atlas": "Prospective versioned controller/embodiment, replay rights, operator dispatch and original customer registry audit schema; no actual real records, quantitative official source backbone or qualified-service customer observations.",
+    "paper": "Integrated network auditability in living main manuscript, November 22 working synthesis, Models A/B and data-value program; argument remains conditional and gate open.",
+    "learning": "Six new student questions and separate solutions about graph cuts, strict threshold, conservative market unknown, independent audit support and hard safety.",
+    "main_contribution": "Candidate synthesis of qualified production economic decision slack, endogenous transfer and auditable network safety; classical union bounds/binomial and graph cuts are not proposed novel theorems. Actual technical/customer validation still needed."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -162,7 +157,10 @@
     "Toy Q×D transition uses independent conditional Bernoulli components solely to verify arithmetic; earlier joint qualification, correlated recovery and persistent regime ambiguities are retained.",
     "C1 requires a genuine joint conditional coupling and policy-uniform structural upper C/b over all new embodiments/target histories; separate pooled controller and robot marginal performance does not suffice.",
     "The serial toy safety invariant proves only a software token-count property; real operator-independent abort and complete gating of every recovery consumer have not been physically demonstrated.",
-    "Illustrative specialist upper 7.08, customer weights, controller link influence and service-value sensitivity are assumed, not customer/robot measured."
+    "Illustrative specialist upper 7.08, customer weights, controller link influence and service-value sensitivity are assumed, not customer/robot measured.",
+    "The 67/12000 omitted path threshold depends on the prior synthetic serial lower and specialist upper, whole B accepted-service range 3, and newly non-overlapping losses; it is not observed robotics demand or a reliability standard.",
+    "One-sided zero-event binomial calculations require an independently PROVEN observable E dominating the joint coupling mismatch, supported independent fixed cells and coverage of policy/θ; none was established with actual data. Ordinary task successes do not identify this causal quantity.",
+    "Verified controller cutoff alone cannot remove customer order substitution or shared operator effects. No actual versioned complete graph, access-control proof, mechanical operator fail-safe evidence or new-embodiment safe-support panel was obtained."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
