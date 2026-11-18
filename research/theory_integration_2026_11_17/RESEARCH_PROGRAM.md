@@ -96,3 +96,10 @@ The strongest remaining intellectual task is now endogenous *selection of the ob
 
 The physical-learning versus information-timing empirical design, primary-source table slice, separate exercises and solutions, and rational-policy baseline are in the same data_value directory. No matched customer experiment or official production backbone was obtained, and no November 22 or later gate was declared passed.
 
+
+
+## November 17 night: sequential support after retained correction
+
+A first supervised correction now endogenously expands or reduces the next controller's reachable safe state support. The shared production-value Bellman law, exact selection-weighted joint qualification formula, optional specialist/retained-policy decision and observationally equivalent positive-/negative-alignment counterexample are in [SEQUENTIAL_SUPPORT_THEORY.md](data_value/SEQUENTIAL_SUPPORT_THEORY.md). This **continues**, rather than renumbers, the intervention-selected observation work. A corrected first episode can select *lower* second-target qualification despite unchanged marginals, making new training data and future deployment value non-identifiable from corrections alone. Distinguish this from the standard positivity/partial-identification literature.
+
+The next theoretical step remains *within the same model*: compare routine production sequences, deliberately supervised target grounding, and redesigned embodiment under a fixed safe operator/calendar budget with endogenous H-dependent support and multiple jointly necessary customer qualifications. November 22/29/December 6 and final Christmas criteria are not met merely by this bounded result.

@@ -50,3 +50,6 @@ November 22: one coherent source-to-production data-value argument and proof/ass
 
 Continue across sessions on the same intellectual problem. Publish actual proof/argument revisions, source-grounded evidence and tested code, not another parameterized miniature result. The previous financing/participation argument is preserved in PRE_DATA_VALUE_STATE.json; the full original queue remains in PREVIOUS_RESEARCH_STATE.json. Nothing is erased or mislabeled complete.
 
+
+
+**Sequential continuation, 18 Nov UTC:** The current answer to selected two-episode data support is in [SEQUENTIAL_SUPPORT_THEORY.md](SEQUENTIAL_SUPPORT_THEORY.md) and the new [empirical protocol](SEQUENTIAL_SUPPORT_EMPIRICAL.md). Further theory should compare multi-step routine-generated exposure, target grounding and changed-body support using the *same* f(Q;omega), not append a separate premium or fit another arbitrary transfer coefficient. The strongest alternative is a free productive byproduct or an already qualified target-only specialist.

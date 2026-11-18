@@ -1,0 +1,36 @@
+{
+  "model": "sequential_support.js",
+  "date_utc": "2026-11-18T02:45:40.872Z",
+  "checks": {
+    "assertions": 57,
+    "independent_event_tree": true,
+    "calibrated": false,
+    "physical_experiment": false
+  },
+  "structural_inputs_synthetic": true,
+  "positive": {
+    "corrected": 0.5,
+    "posterior": 0.75,
+    "joint": 0.3125,
+    "conditional": 0.625,
+    "updated_B_option": 2,
+    "first_probe": 1.25,
+    "competent_routine": 1,
+    "first_choice": "probe"
+  },
+  "negative": {
+    "corrected": 0.5,
+    "posterior": 0.75,
+    "joint": 0.1875,
+    "conditional": 0.375,
+    "updated_B_option": 0,
+    "first_probe": 0.75,
+    "competent_routine": 1,
+    "first_choice": "routine"
+  },
+  "zero_support": {
+    "joint": 0,
+    "first_probe": 0.75
+  },
+  "prior_art": "standard dynamic programming, conditional Bayes sampling, process complementarity, partial-identification/positivity"
+}

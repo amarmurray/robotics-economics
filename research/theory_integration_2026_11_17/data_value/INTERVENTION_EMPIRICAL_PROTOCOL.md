@@ -34,3 +34,8 @@ IntervenGen: Hoque et al. (2024), https://arxiv.org/abs/2405.01472 — abstract 
 DDA: Farboodi, Koh and Xia, https://arxiv.org/abs/2606.10127 — previous v1 selected HTML mechanisms; production-generated data and future-value accounting already exist there. Do not claim novelty in those principles.
 
 The official numeric production/value-chain backbone, a joined accepted-service/correction panel and any robot-data acquisition remain unavailable. No vendor PR substitutes for that quantitative work.
+
+
+### Sequential-support addendum (18 November UTC)
+
+See [SEQUENTIAL_SUPPORT_EMPIRICAL.md](SEQUENTIAL_SUPPORT_EMPIRICAL.md). Compare matched old and updated controller variants under independently audited *safe* coverage after an initial corrected episode. Log second-state support and training provenance; hold customer acceptance, human budgets and competent specialist alternatives comparable. First-episode logs cannot identify a second-state transition that is never visited. Do not report selected 5/16 or 3/16 synthetic likelihoods as physical qualification rates.

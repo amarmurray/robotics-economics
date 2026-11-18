@@ -2,25 +2,26 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "142f5fd675e7f42b28ceacdb39242337a7979212",
+  "research_input_commit": "7cedf0f29664cb822aedb7b33a82a63d92c77ba4",
   "lease": {
     "run_id": "scheduled-20261118T023335933Z-sequential-support-675604380",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T02:33:35.933Z",
     "expires_at_utc": "2026-11-18T03:23:35.933Z",
-    "reason": "Sequential endogenous visitation/qualification theory, empirical design and proof checks in progress."
+    "reason": "Sequential support theory, prior-art boundary, matched empirical identification, JS model/event tree and learning materials tested and committed in same fast-forward publication.",
+    "released_at_utc": "2026-11-18T02:45:43.291Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "One integrated When Capabilities Become Production/data-value theory. Policy-selected correction observations and an exact production-versus-probe choice are now derived; next tackle how a first correction changes second-deployment visitation/support and retained qualification, with safe and target-only alternatives. All prior investment/production atlas and Christmas milestones retained.",
+  "current_mode": "One integrated production/data-value theory: first intervention now updates second-deployment reachable support and joint accepted-service qualification, with a source-to-target alignment counterexample and specialist option. Next compare multi-step routine versus deliberate grounding versus redesigned embodiment under identical safety/operator/calendar and joint qualification resources.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_INTERVENTION_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SEQUENTIAL_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The complete immediately previous released state at 142f5fd675e7f42b28ceacdb39242337a7979212 is preserved byte-for-byte in PRE_INTERVENTION_STATE.json (blob b68ca146909672efcae8d55ff1e71aa5dd4ff841). It chains to PRE_TELEOPERATION_STATE.json, PRE_DATA_VALUE_STATE.json and the original Q1-Q13 backlog in PREVIOUS_RESEARCH_STATE.json. All former scientific and deadline obligations remain open.",
-  "latest_result": "Derived an endogenous one-step observation/learning law Pr(C=1|H,a)=exposure*gate*latent would-be error; logged versus unlogged posteriors, exact Blackwell-thinning dominance under fixed error and gate assumptions, and a Bayes/production threshold connecting deliberate target probes to accepted customer route alternatives. Synthetic exact menu: supervised probe 23/2 vs routine 91/8 vs competent specialist 113/10, but delaying the non-safety report or setting persistent learning to zero reverses to routine; stronger target-only option 25/4 and free relevant routine data also reverse. Counterexample: identical fully logged exposure/correction distributions can hide expected missed-error rates 3/8 vs 1/8 if gate accuracy is unobserved. Chapter, proof ledger, empirical audit/held-out qualification protocol, reproducible JS and separate learning materials integrated into the living manuscript. Standard Bayesian/Blackwell insights, not scientifically novel or calibrated industrial data.",
+  "preservation": "Complete prior released state from 7cedf0f29664cb822aedb7b33a82a63d92c77ba4 preserved in PRE_SEQUENTIAL_SUPPORT_STATE.json. Original Q1-Q13 backlog, former finance and data-value state chain all retained. Existing branch and old Codex work remain separate.",
+  "latest_result": "Derived two-period endogenous-support kernel and selection-weighted joint qualification P_B=sum pi_h r_h e_h s_h; the covariance term invalidates independent marginal multiplication. Two worlds indistinguishable in first correction logs and with equal marginal potential B qualification select different first actions under a competent specialist: joint success 5/16 vs 3/16; safe first probe 5/4 vs 3/4 relative to routine 1. Proved no B-support counterfactual identification and free optional retention ordering. Exact analytical proofs, independent finite-state enumeration, public prior-art abstract verification, empirical matched service design and separate exercises/solutions; not robot training/industry calibration.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/intervention_results.json",
-    "executed_scoped_js_assertions": 46,
+    "record_file": "research/theory_integration_2026_11_17/data_value/sequential_support_results.json",
+    "executed_scoped_js_assertions": 57,
     "exact_source_executed_with_eval": true,
     "independent_python_fraction_checks": true,
     "rational_families_checked": [
@@ -28,26 +29,27 @@
       "delayed-report and no-physical-learning ablations",
       "stronger target-only route reversal"
     ],
-    "mathematical_proofs": "Written conditional derivations in INTERVENTION_SELECTION_THEORY.md and INTERVENTION_PROOF_LEDGER.md; computational checks are not proofs.",
+    "mathematical_proofs": "Conditional chain-rule, Bellman specialization, observational equivalence and feasible-set inclusion written in SEQUENTIAL_SUPPORT_THEORY.md; computational event-tree checks do not prove general extensions.",
     "calibrated": false,
     "robot_training": false,
     "joined_customer_panel": false,
     "historical_repository_ci": false,
-    "independent_peer_review": false
+    "independent_peer_review": false,
+    "independent_event_tree_checks": true
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_SELECTION_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/intervention_selection.js",
-    "research/theory_integration_2026_11_17/data_value/intervention_results.json",
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_EMPIRICAL_PROTOCOL.md",
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_EXERCISES.md",
-    "research/theory_integration_2026_11_17/data_value/INTERVENTION_SOLUTIONS.md",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/sequential_support.js",
+    "research/theory_integration_2026_11_17/data_value/sequential_support_results.json",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_EXERCISES.md",
+    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_SOLUTIONS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/TELEOPERATION_DATA_VALUE.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_INTERVENTION_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/INTERVENTION_SELECTION_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_SEQUENTIAL_SUPPORT_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
@@ -56,21 +58,21 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "intervention_selected_observation_one_step_derived; adaptive_next_period_support_and_qualification_unresolved",
-      "question": "When does today's selected correction and retained training change tomorrow's visited-state support enough to reverse optimal source/target/embodiment acquisition or identifiable transfer?",
-      "deliverable": "Extend the same qualified-production Bellman law to two deployed episodes with endogenous e_{t+1}(H,Q',policy). Prove a useful adaptive support/learning ordering or construct its strongest counterexample; retain old safe controller and a target-only or changed embodiment alternative. Distinguish missed errors from no exposure with logged X and independent gate audit; do not use more preset correction payoffs or merely rerun the current numbers."
+      "status": "two_episode_endogenous_support_derived; multi_step_competent_policy_comparison_unresolved",
+      "question": "When can sequential productive routine updates generate the same safe state support and joint customer qualifications as deliberate target grounding or a new embodiment?",
+      "deliverable": "Within the same endogenous-occupancy Bellman model, characterize or disprove a policy ordering for multi-step routine/grounding/body investment with common safety/operator/calendar budget and retained old policies; include nonparametric H-dependent selected support and joint customer accepted recipes. Do not substitute another parameter menu."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
       "priority": 2,
-      "status": "one_step_coverage_gate_correction_selection_derived; sequential endogenous support_pending",
-      "question": "When does ordinary production supply the same relevant data as targeted correction, and when does intervention selection create a real information/control gap?",
+      "status": "two_episode_selected_reachability_derived; multi_step_source_production_support_gap_pending",
+      "question": "Under which tested policy support and operator budgets does productive byproduct data substitute for targeted safe second-state access?",
       "deliverable": "Determine how an improved controller changes rare-state visitation, gated intervention, unassisted attempted service, data content and subsequent qualification under a common resource/safety budget; keep free production byproduct as competent countermodel."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "independent_gate_audit_and_training_inclusion_protocol_added; observed customer panel and official numeric backbone still missing",
+      "status": "matched_sequential_support_and_joint_qualification_protocol_added; real panel and official numerical backbone missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
       "deliverable": "Pursue independent safe gate recall calibration, logged eligible risky-state exposures, correction inclusion and held-out joint qualified accepted-service outcomes; retain official numeric production backbone as explicit unsolved obligation and do not use vendor PR as substitute."
     },
@@ -83,16 +85,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "intervention_selection_integrated_into_manuscript; separate_exercises_solutions_added; Nov22_synthesis_gate_open",
+      "status": "sequential_support_integrated_into_manuscript; Nov22_synthesis_gate_open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "One integrated source-to-production argument extends source grounding/embodiment and productive teleoperation to policy-selected corrections, Blackwell signal ordering, conditional learning, a closed-form customer-production intervention threshold and risk-identification countermodels. Sequential support and endogenous trained control remain open.",
-    "atlas": "Added falsifying matched technical/audit-to-accepted-service protocol, including joint qualifications, gate miss rates and independent approved supervision. No field panel, dollar calibration or quantitative official BEA backbone.",
-    "paper": "The same 91k-character living manuscript now includes endogenous selection and the strongest alternative route/free-data countermodels; full technical chapter and proof ledger linked. This is not Nov22 acceptance or a novel first-paper claim.",
-    "learning": "Five new reconstruction/critique exercises with separate solutions, appended to prior materials; no learner assessment.",
-    "main_contribution": "Conditional synthesis candidate: policy-selected information and physical learning change qualified customer production choices, with unavoidable observation-support and measurement limitations. Bayesian value of information, Blackwell garbling, policy-induced state distributions and standard Bellman optimization remain prior art. No novelty assertion."
+    "theory": "Unified selected-observation/data-value theory now includes two-episode endogenous state support, conditional joint B qualification, source-to-target alignment covariance, competent specialist/retained A option, and nonidentifiability under no support; multi-step realistic technical/production intervention remains open.",
+    "atlas": "Added matched two-controller, second-episode exposure/gate audit and joint accepted-order protocol. No new actual customer data, official quantitative BEA/BLS production matrix or source-to-cash conversion.",
+    "paper": "New linked sequential-support derivation integrated with manuscript, original customer-production f and existing intervention chapter. First-paper contribution/independent review and Nov22 synthesis gate still open.",
+    "learning": "New five-problem teach-back packet and separate solutions for sequential selected qualification and specialist decision; no learner assessment.",
+    "main_contribution": "Candidate synthesis: endogenous controller visitation and conditional transfer govern which data can create jointly qualified production; separately known dynamic-programming, selected-sampling, LP/process-complementarity and no-overlap identification are prior art. Scientific novelty unproven."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -109,13 +111,18 @@
     "Correction count alone cannot identify latent error propensity or gate sensitivity; independent safety audit is required for identification.",
     "Persistent learning gain d and regime-specific terminal source-reuse contribution are synthetic production-function reduced forms; no source supports a dollar-per-correction parameter.",
     "All scoped 46 JavaScript assertions executed on the exact committed source text in connected V8; rational spot checks in Python. Node invocation, historical CI, actual robot tests, independently reproduced field results and peer review were not run.",
-    "Current source reading covers PMLR DAgger/ThriftyDAgger abstracts and IntervenGen arXiv abstract/intro, not complete method replication; DDA and prior sources retain inherited version caveats."
+    "Current source reading covers PMLR DAgger/ThriftyDAgger abstracts and IntervenGen arXiv abstract/intro, not complete method replication; DDA and prior sources retain inherited version caveats.",
+    "Sequential-support special case assumes C1 needed for B access, one safe second evaluation plus validation can qualify B, one slot excludes simultaneous B experiment and specialist, known Delta and 2 latent regimes; general multi-step nonlinear control remains open.",
+    "World +/- results are synthetic and observational equivalence applies only to first-episode data (second controlled B evaluation could discriminate); marginal potential B qualification is not observed B frequency under the optimized negative-world policy.",
+    "Qualified B chance s includes training, rights and held-out customer acceptance; no claim that a single successful motion confers actual certification.",
+    "The no-support nonidentification proof is standard positivity/partial-identification logic with explicit no-bridging-measurement restrictions; published smoothness/transport methods can yield bounds under assumptions.",
+    "Scoped sequential JS tests executed in connected V8 on exact source and checked against a separately enumerated event tree; historical CI, hardware experiments, independent review and field calibration absent."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Single-writer lease acquired by scheduled-20261118T023335933Z-sequential-support-675604380 after consistent read at 7cedf0f29664cb822aedb7b33a82a63d92c77ba4; research output pending validation and conditional publication.",
+  "execution_note": "Research input 7cedf0f29664cb822aedb7b33a82a63d92c77ba4; state-only CAS lease at 2337e7c6ba6ee49b1d3e2ec7fb63f4240859a625 owned by scheduled-20261118T023335933Z-sequential-support-675604380; 57 scoped V8 assertions and independent event-tree implementation passed on exact included JS. Complete prior state preserved. Publication pending fast-forward expected-head CAS and remote verification; no unrelated files changed.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
