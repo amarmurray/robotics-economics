@@ -2,30 +2,31 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "3e70c8fc6af25cadd8630258d5ffcd62ad9cf4f7",
+  "research_input_commit": "4986e37b7463ebd5e67b779a4a1c1349990643ef",
   "lease": {
     "run_id": "scheduled-20261118T102957Z-cluster-learning11",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T10:29:57.026Z",
     "expires_at_utc": "2026-11-18T11:34:57.026Z",
-    "reason": "Research demand-stratified controller-pool factorial identification, higher-order learning interactions, safe feasible partial bounds; scoped theory, code, manuscript and state."
+    "reason": "Completed conditional safe whole-pool theory, higher-order/partial transport counterexamples, full-policy design, manuscript/synthesis updates, V8 exact stored-source replay, separate fraction checks and exercises/solutions; no field data.",
+    "released_at_utc": "2026-11-18T10:43:50.107Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: pooled diagnostic transport and nonadditive shared-controller production under same Q, omega, V, J; calibrated safe inference and Nov22 unified argument under investigation. Theory majority through Dec6.",
+  "current_mode": "When Capabilities Become Production: demand-conditioned safe full-controller-pool potential histories, identification from approved randomized saturation, unidentified third-order data/controller qualification effects and segment-selective rollout. Theory majority through December 6; Nov22 synthesis open.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_CONDITIONAL_CALIBRATION_POOL_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Exact previous released RESEARCH_STATE.json from 3e70c8fc6af25cadd8630258d5ffcd62ad9cf4f7 preserved as research/theory_integration_2026_11_17/data_value/PRE_CONDITIONAL_CALIBRATION_POOL_STATE.json; exclusive state lease commit cbded81f1b0167a4721815ecd3135ad6b1bb3ecc remains in ancestry. Older finance/theory states, prior original Q1-Q13, main and inaccessible external work unchanged.",
-  "latest_result": "Pooled 90% sensitivity/10% false positive, P(H)=P(D)=.5 and m=P(Z,D)=.34 without D-invariance sharply imply t in [.29,.39]. Two eight-cell joint laws share pooled H/Z and D/Z, yet give R-G=-.1 vs +.9. The earlier positive .625 difference assumes D-conditional invariance. A two-slot random-pair pool interaction Jk=J0-k*x*(1-x) has maximin G floor 7 whenever k>=2.5, versus independent hedge 7.4; k=-3 raises pooled hedge to 7.88; pure arms cannot identify k. With mixed isolation cost .5 and k=3, perfect population audit gross maximin value .4; costless isolation restores zero. Synthetic, conditional, no field calibration.",
+  "preservation": "Prior released RESEARCH_STATE.json from 4986e37b7463ebd5e67b779a4a1c1349990643ef stored unchanged in research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json; exclusive active lease b543642df48c36a7b9bc821564e07fec6658c359 retained in ancestry. Previous data-value, finance/theory, original Q1–Q13 backlog, main and inaccessible Codex work are unchanged.",
+  "latest_result": "Full approved controller-pool randomization can identify a stratum-specific mean economic full-route contrast without latent H labels (not regime-conditional joint potential outcomes). In a synthetic 3-slot symmetric table f0=7, f1=7.5, f2=7.4, pairwise f3=6.7 yet unobserved safe hypothetical f3 in [6,9] implies beta_123 in [-.7,2.3], reversing comparison to the 7.5 fixed-one-R route. Bernoulli x>0 reaches RRR with probability x^3 and is inadmissible if RRR not pathwise approved; with approved z>=6, maximin Bernoulli contributes 7.274516873 vs fixed-one-R 7.5. Target A weight .7 observed 7.5 and B weight .3 unknown [5,9] give global mixed [6.75,7.95] but A-only mix with old G fallback B yields 7.35 vs G baseline 7, subject to segmentation cost <.35 and no spillover. All conditional synthetic examples.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/conditional_calibration_pool_audit_results.json",
-    "source_blob": "5d854b99edeb606b73e465abdf150f736023ab7e",
-    "results_blob": "901b9f700ad0874c8b486a2ba04a0eeea157e8b5",
-    "scoped_V8_assertions": 31,
+    "record_file": "research/theory_integration_2026_11_17/data_value/safe_pool_factorial_results.json",
+    "source_blob": "aeb802439fc8e811b31157825be4a1c0a00140f9",
+    "results_blob": "b6e84bda9b3119748c311403cc94002c0cd8b45d",
     "exact_blob_replayed_and_results_equal": true,
+    "scoped_V8_assertions": 1429,
     "independent_python_fraction_checked": true,
-    "mathematical_proof": "event mass identity plus attained endpoint convexity; piecewise maximin inequality k>=2.5; tests only arithmetic/grid checks",
+    "mathematical_proof": "Finite-population randomization expectation, standard Boolean Möbius inversion, explicit sharp bounded-mean endpoint constructions, Bernoulli cubic calculus and partial target weights; tests check arithmetic not proof.",
     "historical_repository_CI": false,
     "node_clean_checkout": false,
     "independent_peer_review": false,
@@ -34,16 +35,16 @@
     "official_numerical_production_backbone": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/CONDITIONAL_CALIBRATION_AND_POOL_INTERFERENCE.md",
-    "research/theory_integration_2026_11_17/data_value/CONDITIONAL_CALIBRATION_POOL_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/CONDITIONAL_CALIBRATION_POOL_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_EMPIRICAL.md",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/conditional_calibration_pool_audit.js",
-    "research/theory_integration_2026_11_17/data_value/conditional_calibration_pool_audit_results.json",
-    "research/theory_integration_2026_11_17/data_value/PRE_CONDITIONAL_CALIBRATION_POOL_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/safe_pool_factorial.js",
+    "research/theory_integration_2026_11_17/data_value/safe_pool_factorial_results.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
@@ -54,9 +55,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "D_calibration_transport_counterexample_and_two_slot_pool_interference_derived; real joint_kernel_calibration_open",
-      "question": "Which safe, demand-stratified route × controller-pool intervention or validated structural restriction identifies joint order/qualification/recovery differences despite latent H and shared learning interference?",
-      "deliverable": "Seek safe D-stratified complete-route or cluster randomized accepted-service identification; bound group-level response types, tested safety and isolation costs."
+      "status": "safe_full_pool_mean_design_and_third_order_nonidentification_derived; physical_controller_network_calibration_open",
+      "question": "Which independent safe controller-network exposure vectors and matched whole-service/customer-order observations identify feasible economic policy differences across demand strata without post-treatment bias or unsafe exploration?",
+      "deliverable": "Extend coupled same-world response bounds to documented controller-network exposure mapping, hard operator support, and tested partial coverage; preserve old controller/specialist and exact capture costs."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -68,9 +69,9 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "official_BLS_2025_35_and_BEA_2026_source_catalog_verified; unparsed_numerical_backbone_and_matched_field_panel_missing",
+      "status": "prospective_safe_pool_saturation_design_added; official_numeric_backbone_and_customer_panel_missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
-      "deliverable": "Extract and reconcile official vintage numeric industry-occupation and IO tables; use complete accepted customer order denominator and actual mixed controller-pool intervention when safe."
+      "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
@@ -81,17 +82,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "nov22_calibration_and_pool_interference_adversarial_synthesis_added; gate_not_passed",
+      "status": "nov22_safe_pool_factorial_assumptions_integrated; gate_not_passed",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
-      "deliverable": "Harmonize theorem/assumption map, Models A/B conditional reductions, closest interference prior art, and meaningful no-training/specialist/free isolation controls; seek field backbone."
+      "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
     }
   ],
   "portfolio_status": {
-    "theory": "D-dependent report conditional counterexample and sharp joint-event bound; explicit shared-pair controller interaction with exact robust threshold and optional policy/audit reversal, connected to prior Q/omega/V/J.",
-    "atlas": "2025–35 BLS Table 1.9 industry-occupation and 2026-updated BEA IO index verified as official new routes; actual numerical crosswalk and customer qualified recipe panel not extracted.",
-    "paper": "Root manuscript, Nov22 synthesis, A/B bridge and proof ledger append precise limitations of diagnostic calibration and fractional fleet additivity.",
-    "learning": "Five exercises and separate solutions added; previous exercises preserved.",
-    "main_contribution": "Candidate production-conditioned data value with controller pool support and safety; standard misclassification, treatment interference and minimax are prior, scientific novelty unestablished."
+    "theory": "Safe whole-pool randomization mean estimand with exact higher-order nonidentification, Bernoulli-vs-fixed saturation safety result and customer-segment selective robust-policy bound.",
+    "atlas": "Demand-stratified pool intervention and full-service acceptance/zero-order protocol advanced; BLS/BEA numeric source indexes known, but no extracted matched numerical production backbone.",
+    "paper": "Living theory, Nov22 synthesis and A/B reduction updated with safe assignment-level identification limits and unmeasured triple controller interaction.",
+    "learning": "Five new student problems with distinct complete instructor solutions; prior teaching assets unchanged.",
+    "main_contribution": "Candidate physically feasible source-to-qualification/accepted-production interaction proposition, not validated novelty: factorial, HT, interference and partial ID all established prior mathematics."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -143,7 +144,10 @@
     "Pooled H/Z sensitivity and false positive rates are synthetic and require independently valid latent H labels; D-by-H report law and real accepted service not observed.",
     "The quadratic pool term derives from randomized independent pair discordance times constant conditional net loss/gain L, not a general robotics learning law; larger groups, site selection, regime-dependent updating and capacity constraints can invalidate it.",
     "Optional isolated-controller benchmark has synthetic c=.5; costless isolation and frozen policy retention reverse the population-audit premium. No hardware safety experiment or real training occurred.",
-    "BLS 2025–35 Table 1.9 and BEA November 2026 IO catalog URLs were verified from primary webpages; numerical industry matrix and robot task alignment were not parsed."
+    "BLS 2025–35 Table 1.9 and BEA November 2026 IO catalog URLs were verified from primary webpages; numerical industry matrix and robot task alignment were not parsed.",
+    "The three-slot factorial result assumes stable potential whole-pool outcomes and no between-pool spillover; it does not identify a latent persistent H-specific lower bound from randomized population means.",
+    "The sharp beta_123 interval is relative to an unconstrained bounded-mean response class; additional physical kernel restrictions may shrink it and unapproved triple vectors are excluded regardless of modeled economics.",
+    "The target segment example fixes pre-action weights, capture units and no cross-segment interference; any real differentiation overhead must be deducted and actual safety/rights approved."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
@@ -165,15 +169,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": {
-    "date_eastern": "2026-11-18",
-    "key": "stratum-miscalibration-shared-controller-pair",
-    "committed_result": "Sharp pooled-signal joint t interval with opposing R/G rank and two-slot pool interference plus optional policy oracle countermodel; exact code replay, rational checks, proof and empirical/theory synthesis.",
-    "next_action": "At same Q/omega/V/J and November 22 synthesis, derive a partial-ID cluster/pool response-type certificate incorporating D-dependent diagnostic sensitivity intervals, controller lineage and actually approved recovery support; prioritize an official numeric BEA/BLS code/vintage route and a single falsifiable matched accepted-service recipe, not more invented parameters. Test a truly costless isolated-controller/retained policy countermodel."
-  },
-  "publication_parent_commit": "cbded81f1b0167a4721815ecd3135ad6b1bb3ecc",
-  "current_proof_gap": "Pooled transfer-label accuracy plus demand/report joint moments cannot rank R/G; mixed route accepted-service value cannot be recovered from pure-route logs under controller-pool interference. Need actual D-stratum validated report or randomized whole-pool accepted-service observations subject to hard recovery and full customer-order follow-up.",
-  "exact_next_action": "At same Q/omega/V/J and November 22 synthesis, derive a partial-ID cluster/pool response-type certificate incorporating D-dependent diagnostic sensitivity intervals, controller lineage and actually approved recovery support; prioritize an official numeric BEA/BLS code/vintage route and a single falsifiable matched accepted-service recipe, not more invented parameters. Test a truly costless isolated-controller/retained policy countermodel.",
+  "quiet_checkpoint": "Executed safe pool factorial chapter, model/proof and field identification design. No new field evidence, certification, core contribution decision or passed Nov22 gate; routine continuation suppressed.",
+  "publication_parent_commit": "b543642df48c36a7b9bc821564e07fec6658c359",
+  "current_proof_gap": "The finite full-pool design identifies average policy effects with independent assignment, but as controller checkpoint reuse/operator and customer networks create interference, the exposure mapping is not known; safe zero-support assignments cannot be inferred from observed lower-order effects. Separately, randomized mean contrasts do not give the persistent latent-regime same-world lower bound without a structural bridge.",
+  "exact_next_action": "At Nov22 synthesis reconcile theorem/assumption map: define exposure-neighborhood support, derive a network-bounded robust policy interval for target-segment selective rollout with approved fallback and no full triple data; verify whether valid public quantitative BLS/BEA numeric matrix extraction is available, without fabricated customer robot acceptance.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -191,7 +190,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-18T09:48:12.727Z",
+  "updated_at_utc": "2026-11-18T10:43:50.107Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -208,9 +207,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Which safe, demand-stratified route × controller-pool intervention or validated structural restriction identifies joint order/qualification/recovery differences despite latent H and shared learning interference?",
-  "proof_gap": "Pooled transfer-label accuracy plus demand/report joint moments cannot rank R/G; mixed route accepted-service value cannot be recovered from pure-route logs under controller-pool interference. Need actual D-stratum validated report or randomized whole-pool accepted-service observations subject to hard recovery and full customer-order follow-up.",
-  "next_action": "At same Q/omega/V/J and November 22 synthesis, derive a partial-ID cluster/pool response-type certificate incorporating D-dependent diagnostic sensitivity intervals, controller lineage and actually approved recovery support; prioritize an official numeric BEA/BLS code/vintage route and a single falsifiable matched accepted-service recipe, not more invented parameters. Test a truly costless isolated-controller/retained policy countermodel.",
+  "exact_question": "Which demand-stratified, safely feasible controller-network assignment or credible physical restriction identifies actionable accepted-service route differences when joint learning, future customer orders and recovery budgets interact across pools?",
+  "proof_gap": "The finite full-pool design identifies average policy effects with independent assignment, but as controller checkpoint reuse/operator and customer networks create interference, the exposure mapping is not known; safe zero-support assignments cannot be inferred from observed lower-order effects. Separately, randomized mean contrasts do not give the persistent latent-regime same-world lower bound without a structural bridge.",
+  "next_action": "At Nov22 synthesis reconcile theorem/assumption map: define exposure-neighborhood support, derive a network-bounded robust policy interval for target-segment selective rollout with approved fallback and no full triple data; verify whether valid public quantitative BLS/BEA numeric matrix extraction is available, without fabricated customer robot acceptance.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",

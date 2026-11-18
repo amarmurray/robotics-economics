@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "observed_per_pool": {
+    "0": 7,
+    "1": 7.5,
+    "2": 7.4
+  },
+  "triple_certified": false,
+  "high_order_coefficient_interval": [
+    -0.7000000000000028,
+    2.299999999999997
+  ],
+  "pair_only_extrapolated_three_R": 6.7,
+  "three_R_possible_contribution_interval": [
+    6,
+    9
+  ],
+  "triple_superiority_threshold": 7.5,
+  "optimum_bernoulli_low_world": {
+    "routine_probability": 0.3465928247394799,
+    "contribution": 7.274516873042947
+  },
+  "safety_if_three_R_unapproved": "Independent Bernoulli assignment with x>0 has P(RRR)=x^3>0; exclude.",
+  "safe_fixed_one_R": 7.5,
+  "target_with_A_weight_0_7": {
+    "baseline": 7,
+    "all_mix_partial_identification": [
+      6.75,
+      7.95
+    ],
+    "selective_mixed_A_pure_G_B": 7.3500000000000005,
+    "maximum_additional_segmentation_cost_for_strict_advantage": 0.35
+  },
+  "checks": 1429,
+  "limits": "Arithmetic and finite countermodels only; no physical qualification, independent review, or field data."
+}
