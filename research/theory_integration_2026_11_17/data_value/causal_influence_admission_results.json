@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-18",
+  "synthetic": true,
+  "units": "normalized contribution, not measured dollars",
+  "network_open": {
+    "omitted": {
+      "controller_e1": 0.05,
+      "customer_B_e2": 0.020000000000000004,
+      "weighted_B_loss": 0.06000000000000001,
+      "per_B_loss": 0.20000000000000004
+    },
+    "gain": 0.059999999999999984,
+    "full_lower": 7.06,
+    "margin_over_specialist": -0.020000000000000462
+  },
+  "network_serial_admission": {
+    "omitted": {
+      "controller_e1": 0.015,
+      "customer_B_e2": 0.00375,
+      "weighted_B_loss": 0.01125,
+      "per_B_loss": 0.0375
+    },
+    "gain": 0.09675,
+    "full_lower": 7.09675,
+    "margin_over_specialist": 0.016750000000000043
+  },
+  "specialist_upper": 7.08,
+  "old_controller": 7,
+  "path_tail_4_horizon": 0.012480000000000003,
+  "path_tail_infinite_bound": 0.013333333333333334,
+  "semaphore_enumerated_sequences": 729,
+  "checks": 5708,
+  "caveat": "Semaphores establish only a software invariant if all recovery consumers honor admission and a separately verified fail-safe stop exists; physical support unverified."
+}
