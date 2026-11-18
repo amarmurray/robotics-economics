@@ -1,0 +1,14 @@
+# Policy-induced support: proof ledger and objections
+
+**18 Nov 2026; synthetic conditional theory.** Main derivation: [POLICY_INDUCED_SUPPORT_FRONTIER.md](POLICY_INDUCED_SUPPORT_FRONTIER.md).
+
+1. Fixed learned policy pi, versioned joint target history-action support C_t, and complete whole-network captured contribution Y∈[L,U]; physical approval independent. Original B orders/demand/operator tails are not omitted from the claimed certified transition.
+2. Coupling by induction on equal initial law and supported joint kernels identifies stopped path, exit probability p, and K=E[Y1(no exit)]. Decomposition gives K+[L,U]p. Sharpness requires *unrestricted consistent extension* at exit; known prefix receipts and tight remaining-customer bounds generally narrow it.
+3. The conditional remaining-service variant integrates R(h)+[ell(h),u(h)] on identified exit prefixes. Existing audited order-loss duals can narrow the interval only if their horizon-wide constraints actually hold for the changed learned policy.
+4. Baseline F occupancy is not A's induced occupancy. Arbitrarily many F logs do not identify A's unsupported recovery or customer service. Known first-step A transition is itself an additional conditional target evidence assumption.
+5. Exact synthetic numbers: A base [7/5,12/5]; A source-copy with fixed reachability [21/10,31/10]; A grounding [21/10,47/20]; fully supported new body 39/20; S 2; F 1. If source-trained A's unsupported probability changes from 1/4 to 1/2, its lower value is 27/20 and no longer dominates S.
+6. Source-copy gains reflect an independently verified developmental **joint qualified-service** improvement, not evidence about u. Grounding narrows the unknown whole-service u outcome. Body changes the required action/qualification support. All arms have hypothetical costs, windows, safety and capture; no empirical robot economics follows.
+7. Data availability and actual training use are distinct. Optional old-policy retention makes truly free additional data weakly nondecreasing for the **optimized** value even if a forced retrain or a specific training recipe negatively transfers.
+8. Source-to-policy change can change p, K, demand, operator recovery, resource use and customer mix; no fixed additive transfer or independent qualification assumption is smuggled into the theorem. A consistent model of changed p must be measured or bounded.
+9. Bound is not a safe deployment authorization, a calibrated estimate, a cross-embodiment impossibility or a scientific novelty result. Missing coverage can be narrowed with genuinely justified invariance, safe stop or measured target conditionals; a benchmark score cannot establish a whole accepted-order bridge.
+10. Prior art: Ross–Gordon–Bagnell (2011) covariate shift, Shi–Chi (2022) offline robust coverage, DDA (2026) existing dynamic data value. Scientific contribution, if any, requires empirical and theoretical whole-service specifics beyond these results.

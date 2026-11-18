@@ -1,0 +1,15 @@
+# Prospective matched evidence: source-copy learning and learned-policy occupancy
+
+**18 Nov 2026. Research design, NOT field evidence or physical approval.**
+
+**Unit:** fixed pre-action customer opportunity/order census and a policy-closed controller/dispatch/operator/demand network, which may equal an entire market. Include all original B accepted, displaced and missed orders as well as A, retained F, competent S and new-body service over the same deadline and captured-value basis; keep zero orders and failures.
+
+**Two separate estimands.** Developmental: compare controlled rights-cleared source-copy versus no-copy *training* with matched body, data volumes/types, checkpoint evaluation, held-out customer recipes and operator/compute budget; measure joint qualification/complete accepted service, not only model-task score. Support: for *each attained controller policy separately*, use a justified approved target history/action transition to bound first unsupported decision probability and conditional remaining whole-service contribution. Old F visitation cannot estimate new A's first-exit probability.
+
+**Versioned evidence:** original customer opportunity IDs, acceptance criteria, dates and alternatives; signed data-plane/control-plane lineage and actual source *availability vs use*; source modality (routine field, failures/recoveries, teleoperation, simulation, synthetic, pretrained/public), selection/censoring and rights; body/policy/checkpoint; joint action/context/recovery, safe-stop approval and hard peak operator calls; shared dispatch and network links; source copy latency/compute impact on B; customer demand, dispatch substitution, capture and costs.
+
+**Prospective comparisons, only where independently permitted:** retained F, B-inert offline shadow with and without data used by learner, target-only grounding at fixed source corpus, combined source+target learning, productive routine R, independently certified new body and competent specialist S. Separate safe diagnostic information from developmental Q effects and use one J objective without a second data premium. Randomize complete closed networks, not individual robots in one market, if any genuinely independent networks exist; otherwise report partial identification.
+
+**Discriminators:** source training may improve joint held-out easy service yet increase probability of an unsupported recovery; target grounding may narrow u without improving easy service; changed body may eliminate u but have worse customer net economics; cheap free routine data may make costly target intervention redundant; validated cross-body invariances may genuinely bridge absent literal state overlap. Audit pre- and post-admission interference separately, including operator queues and demand.
+
+**Hard limits:** no private source pipeline, matched controller policy occupancy, approved grounding/unsafe-state exploration, whole-market order panel, independent customer service alternative or official numeric BLS–BEA input-output crosswalk was acquired in this session. Public prior art and architecture documentation are not field certification.
