@@ -1,0 +1,88 @@
+{
+  "schema": "conditional_transport_safety_synthetic_v1",
+  "provenance": "No robot trial, customer accepted-service data, external safety authority, or calibrated dollar parameters",
+  "sourceSiteSuccess": {
+    "A": {
+      "qr": 0.75,
+      "qe": 0.8
+    },
+    "B": {
+      "qr": 0.5,
+      "qe": 0.85
+    },
+    "technicalMarginals": {
+      "routine": 0.75,
+      "redesign": 0.9
+    }
+  },
+  "selection": {
+    "studyWeights": [
+      0.9,
+      0.1
+    ],
+    "targetWeights": [
+      0.4,
+      0.6
+    ],
+    "siteDiff": [
+      0.050000000000000044,
+      0.35
+    ],
+    "studyMean": 0.08000000000000004,
+    "targetMean": 0.23,
+    "studyNet": 0.3599999999999997,
+    "targetNet": -0.84
+  },
+  "demand": {
+    "jointSuccess": {
+      "qR": 0.7,
+      "qE": 0.8
+    },
+    "deltaBefore": 8,
+    "deltaAfter": 12,
+    "netBefore": 0.1999999999999993,
+    "netAfter": -0.20000000000000107
+  },
+  "certificate": {
+    "allSitesPairedUpper": [
+      0.1,
+      0.1
+    ],
+    "allSupportedLower": 0.19999999999999996,
+    "missingSiteUpper": 0.4,
+    "missingTenPercentLower": -0.04000000000000006,
+    "missingFivePercentLower": 0.07999999999999993,
+    "criticalUnsupportedTargetShare": 0.0833333333333333,
+    "gridSupportedWorlds": 441,
+    "gridMissingWorlds": 6006,
+    "gridSharpPairedLower": 0.1999999999999993,
+    "gridSharpMissingLower": -0.040000000000000674,
+    "gridPairedMax": 0.5999999999999996
+  },
+  "safety": {
+    "world0": {
+      "goodLow": 0.5,
+      "goodHigh": 0,
+      "badLow": 0.4,
+      "badHigh": 0.1
+    },
+    "world1": {
+      "goodLow": 0.4,
+      "goodHigh": 0.1,
+      "badLow": 0.5,
+      "badHigh": 0
+    },
+    "sameMarginals": {
+      "good": 0.5,
+      "high": 0.1,
+      "sum": 1
+    },
+    "eligibleInWorld0": true,
+    "eligibleInWorld1": false,
+    "eligibleWithBudget3": true
+  },
+  "assertions": 476,
+  "historicalCI": false,
+  "fieldEvidence": false,
+  "peerReview": false
+}

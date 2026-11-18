@@ -5,24 +5,25 @@
   "research_input_commit": "29e14381d15de059f2055878b2e37a0756ff2b01",
   "lease": {
     "run_id": "scheduled-20261118T0635Z-selection-drift-7",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T06:36:51.956Z",
     "expires_at_utc": "2026-11-18T07:41:51.956Z",
-    "reason": "Review matched economic-policy certificate under site selection, demand drift and correlated recovery; consolidate Models A/B."
+    "reason": "Finished demand-weighted transport certificate, selection/covariate-shift and recovery-support counterexamples, Models A/B reconciliation, synthetic verified calculation and separate validation/teaching notes.",
+    "released_at_utc": "2026-11-18T06:50:31.116Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Same integrated When Capabilities Become Production: source/target transfer and full joint customer acceptance now partially identified; robust safe policy ranking and feasible diagnostics; next November 22 Models A/B synthesis and identification stress test.",
+  "current_mode": "Unified When Capabilities Become Production; matched accepted-service production differences must be transported to target customer order mix with site/demand and report-conditional recovery support. Theory focus maintained for Nov22 synthesis.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ROBUST_POLICY_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_TRANSPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "preservation": "The prior released RESEARCH_STATE.json at da8120a171e2c170c5adcd1876075123829eece7 is byte-preserved at PRE_ROBUST_POLICY_STATE.json; earlier preservation chain, Q1-Q13 original state, finance archive, main and unrecovered external work remain untouched.",
-  "latest_result": "Conditional robust joint production: Frechet p_R=.75,p_E=.9 gives R=[5,7], E=[6.4,7.2], but hypothetical matched constraint q_E-q_R<=.1 guarantees R-E>=.2 and R-S>=.6. In a separately declared two-world safe terminal system, randomized productive maximin earns 6, report-following diagnostic costs .1 and earns 2+6 alpha-.1; uniform dominance over specified productive mixture requires alpha_lower>=41/60. Synthetic 400 labelled trials per regime at .8 give Hoeffding lower .72599, not safety. A false-report 3-unit recovery with cap2.1 invalidates diagnostic regardless accuracy<1. Fixed-regime ambiguity differs from rectangular switching. No observed robotics calibration.",
+  "latest_result": "Conditional T1: D_mu=sum mu[b-k-Delta(qE-qR)]; valid conditional upper bounds yield a robust lower certificate sharp under simultaneous attainability. Same technical component marginals yield study matched d=.08, R-E=+.36 but target d=.23, R-E=-.84 after site-mix shift. Missing target share epsilon under measured u=.1/uncovered u=.4 loses strict R certification at epsilon=1/12; demand Delta8->12 reverses fixed d=.1. Same marginals of report good and high recovery hide opposing pathwise feasible supports. All synthetic.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/robust_policy_results.json",
-    "exact_committed_source_blob": "e2a91ab318741cd78751c35252be68996353b883",
-    "exact_results_blob": "2c9075e4179b3fad3f239f9971e26bf7fc07c416",
-    "scoped_V8_assertions": 29124,
+    "record_file": "research/theory_integration_2026_11_17/data_value/transport_safety_results.json",
+    "exact_committed_source_blob": "906aa715b609ad82177b5ca088de82685e84ad61",
+    "exact_results_blob": "4c8626bb28093956c71b659516ad01b7751b3712",
+    "scoped_V8_assertions": 476,
     "exact_stored_blob_executed": true,
     "machine_results_match": true,
     "independent_python_stdlib_fraction_checks": true,
@@ -31,32 +32,32 @@
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
-    "proof_status": "Sharp same-world inequalities and two-state robust report decision proved algebraically; grid and event-report enumeration verify only synthetic cases. Hoeffding bound hypothetical."
+    "proof_status": "Conditional sum and endpoint sharpness derived algebraically with explicit feasible cells; numerical finite grid and independently computed rational fractions check only the synthetic case, not scientific novelty or safety."
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_IDENTIFICATION.md",
-    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/ROBUST_POLICY_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/TRANSPORT_AND_SAFETY_IDENTIFICATION.md",
+    "research/theory_integration_2026_11_17/data_value/TRANSPORT_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/TRANSPORT_EMPIRICAL_DESIGN.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
-    "research/theory_integration_2026_11_17/data_value/robust_policy_identification.js",
-    "research/theory_integration_2026_11_17/data_value/robust_policy_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory/deployment_investment.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_ROBUST_POLICY_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/transport_safety_identification.js",
+    "research/theory_integration_2026_11_17/data_value/transport_safety_results.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_TRANSPORT_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
-    "THEORY_PHASE.md"
+    "THEORY_PHASE.md",
+    "research/theory/deployment_investment.md"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "robust_same_world_joint_acceptance_and_safe_diagnostic_certificate_derived; adaptive_nonrectangular_ambiguity_open",
-      "question": "When do matched conditional complete-service acceptance laws and safely supported regime-report tests identify a customer-optimal data/grounding/body policy under persistent ambiguity, and when do unobserved site/demand/recovery correlations invalidate the certificate?",
-      "deliverable": "Test paired same-world acceptance difference threshold under selection, drift, policy-induced exposure and dynamic demand; connect to full Models A/B f and all available competing recipes. Avoid unconstrained rectangular Bellman claim. Revisit Nov22 integrated argument and closest prior art."
+      "status": "target_conditioned_transport_and_report_conditional_pathwise_support_derived; endogenous_commercial_population_open",
+      "question": "When routine/grounding/embodiment choices alter next-period customer order weights and safely reachable observation support, can persistent-regime nonrectangular robust decisions be bounded with only partial qualification and recovery laws?",
+      "deliverable": "Develop a compact two-period policy-dependent demand/support counterexample or valid full-history bound; explicit common f and competent specialist; audit manuscript and prior art for the Nov22 Models A/B synthesis gate without declaring it complete."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -68,9 +69,9 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "matched_paired_joint_acceptance_and_report_lower_confidence_identification_protocol_derived; observed_field_panel_missing",
+      "status": "target_demand_weighted_joint_acceptance_and_conditional_recovery_protocol_derived; observed_field_panel_missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
-      "deliverable": "Pursue independent safe gate recall calibration, logged eligible risky-state exposures, correction inclusion and held-out joint qualified accepted-service outcomes; retain official numeric production backbone as explicit unsolved obligation and do not use vendor PR as substitute."
+      "deliverable": "Identify matched eligible customer order denominator and site/window weights, both route joint full acceptance 00/10/01/11, controller-lineage interference, independent report-by-recovery support; retain official numeric source route as unresolved."
     },
     {
       "id": "DYNAMIC-INVESTMENT",
@@ -81,16 +82,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "model_A_B_deterministic_to_partial_law_bridge_written; Nov22_gate_not_passed",
+      "status": "canonical_Q_omega_V_J_and_deterministic_Model_AB_reductions_updated; Nov22_integrated_gate_not_passed",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Derived robust identified-set same-world difference certificate, paired joint customer acceptance counterexample, and safety-constrained diagnostic threshold; under alternative tail support the diagnostic becomes physically infeasible. Standard mathematics, conditional synthetic.",
-    "atlas": "Specified matched paired accepted whole-service 00/10/01/11 and diagnostic lower regime-report confidence plus recovery support. Neither observed customer panel nor numerical official production matrix exists.",
-    "paper": "Appended coherent robustness subsection to integrated manuscript and concrete Model A/B bridge. Nov22 full notation/prior-art synthesis still open and scientific novelty not selected.",
-    "learning": "Six problem set questions with separate solutions added about same-world dominance, informative safety and uncertainty semantics; not assessed with student.",
-    "main_contribution": "Candidate integration of learned data-control support, pathwise safe production, paired joint qualification and customer-value optimization; known robust control/decision/Fréchet/Blackwell math, no verified novel theorem."
+    "theory": "Conditional demand-weighted same-world transport certificate, sharp uncovered-market sensitivity bound, site selection/demand-only reversals and report-conditional recovery-support counterexample within existing production envelope.",
+    "atlas": "Customer-order eligibility/sample-versus-target weights and joint 00/10/01/11+report/recovery audit protocol specified; official quantitative industry matrix and observed field panel still absent.",
+    "paper": "Canonical Model A and B reduction incorporated into one Q,omega,V,J notation; transport/safety added to living theory manuscript, full Nov22 synthesis and novelty unresolved.",
+    "learning": "Five integrated theory exercises with separate complete instructor solutions.",
+    "main_contribution": "Candidate source-to-customer-production/qualification/support synthesis; standard transport, partial identification and robust control mechanisms, not established novel theorem."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -124,13 +125,17 @@
     "The matched q_E-q_R <= 1/10 constraint is hypothetical and unmeasured. It requires transport/exchangeability and joint customer acceptance on matching units; observed marginals do not imply it.",
     "Robust-policy affine vertex shortcut assumes mixtures over full controlled potential-history laws. It does not apply to generic parameter-polytopes for repeatedly used uncertain kernels.",
     "Diagnostic lower accuracy confidence example presumes labelled independent stationary trials in both latent regimes, and cannot authorize pathwise recovery or prove structural zero support.",
-    "Synthetic V8 checks execute exact Git blob and arithmetic across a finite grid; no historical CI, robot deployment, independent peer review or calibrated economic source."
+    "Synthetic V8 checks execute exact Git blob and arithmetic across a finite grid; no historical CI, robot deployment, independent peer review or calibrated economic source.",
+    "Paired acceptance constraints require identified target site/demand windows and route-isolated interventions; a pooled validation difference is not generally transportable. Unsupported customer order mass can overturn economic certificates.",
+    "The simple b-k-Delta*d expression presupposes common customer order population and one route-sensitive complete accepted bundle. Endogenous route-dependent demand, additional complement recipes or cross-site shared training require whole-history f/J, not this shortcut.",
+    "Safety tail and report marginals separately fail to reveal report-conditional positive support; theoretical budget feasibility does not certify actual hardware. No new observed order or operator-tail dataset.",
+    "Publisher abstracts for transportability/positivity/interference and Manski decision rules checked 2026-11-18; source mechanisms not fully reproduced, scientific novelty and official numeric backbone unresolved."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "This research tranche staged new theory, proof, code, exact machine results, empirical protocol and learning materials. Exact GitHub blob executed with 85 V8 assertions and matching stored results; separate Python rational calculations checked breakpoints and stochastic progress. Publication must atomically commit these with a released state and verify the branch head. No actual robot training/field customer data, official quantitative backbone, CI or peer review.",
+  "execution_note": "All new theory, proof, executable source/results, empirical protocol, manuscript, A/B synthesis, program and separate exercises/solutions staged on assistant branch. Scoped exact blob source replay in connected V8: 476 assertions; separate Python Fraction checks for selection, coverage, demand and Model A. No historical CI, hardware/customer experiment, external review or official production matrix. No other project changed.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -147,10 +152,10 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": {
-    "date_eastern": "2026-11-17",
-    "key": "multi-step-safe-support-and-adaptive-bundle-production",
-    "committed_result": "Resource-augmented safe support certificate, conditional routine dominance, equal-marginal joint-bundle counterexample and exact adaptive body/grounding/specialist policy with routine-byproduct reversal; linked theory, proof, empirical, executable results and separated exercises.",
-    "next_action": "Partial observation H and binding pathwise safe operating resources; Nov22 integrated synthesis."
+    "date_eastern": "2026-11-18",
+    "key": "transport-selection-demand-recovery-synthesis",
+    "committed_result": "Sharp conditional transport threshold and supported-site gap, two-site reversal of pooled certificate, fixed-skill demand reversal, report-conditioned recovery support obstruction, canonical A/B map and matched empirical design; synthetic code executed and Python rational arithmetic checked.",
+    "next_action": "Nonrectangular adaptive policy under policy-induced target customer weights/visited states; Nov22 whole argument synthesis."
   },
   "publication_parent_commit": "5d74bc2b92818cde6a37e0fe4723f4fd4a5ed75e",
   "current_proof_gap": "A finite safe support certificate and known-H two-slot policy do not identify the regime-dependent safe exposure/selected correction/retained update/accepted bundle kernel when H and physically safe reachable sets are partially observed. Need pathwise operator/safety budgets and robust posterior-informed alternatives without turning non-visitation into zero technical success.",
