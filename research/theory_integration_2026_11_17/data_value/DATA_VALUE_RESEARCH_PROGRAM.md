@@ -1,3 +1,11 @@
+# Current active frontier, 18 November: data observation versus actuation and identified target service
+
+The latest [shadow-learning extension](SHADOW_LEARNING_AND_TARGET_SUPPORT.md) of the protection–learning argument develops the structural **third option**: preserve already qualified B production by pinning actuation while copying rights-cleared B source trajectories to an *offline* A learner, then consider separately verified A admission. A conditional pre-admission B-state closure theorem shows that copying does not inherently lose transferable data or B service. A corresponding two-world impossibility and sharp supported/unsupported customer-service interval show that routine F logs need not identify A qualification or contribution. A hard physical recovery gate remains separate; A admission can reconnect B demand and operator networks. This rejects both unconditional “pinned means no transfer” and “a production log certifies a customer target.” Exact normalized illustration yields A net interval [1/20,17/20], with competent specialist 2/5, requiring unsupported H customer contribution greater than 7/8 to prefer A. A different two-date joint-qualification exercise shows why marginals and demand windows matter. No field effect estimates or B-inert target architecture exist.
+
+**Actual next research question:** Can an authorized version-pinned data-read/control-plane architecture establish a *full original-order* B exclusion and a usable target *joint qualification* support relation, or do shared compute/operator and customer demand make that impossible? Construct a full-policy admissibility and source-support certificate—one that distinguishes observation coverage, grounded target actions, safe recovery and accepted customer orders—and compare qualified shared G, pinned+copy G, productive routine R, competent S and F. Do not assume positive additive transfer or invent a prior over unsupported target returns. The Nov22 synthesis gate is open, theory majority continues through Dec6 and Christmas target remains unchanged.
+
+---
+
 # Data value within the integrated production theory
 
 

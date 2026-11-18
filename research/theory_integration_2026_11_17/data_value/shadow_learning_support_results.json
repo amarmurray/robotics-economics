@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": 67,
+  "illustrations": {
+    "target_support_share": "3/5",
+    "unsupported_share": "2/5",
+    "known_supported_mean": "1/2",
+    "unsupported_mean_range": [
+      "0",
+      "2"
+    ],
+    "investment_cost": "1/4",
+    "shadow_net_identified_interval": [
+      "1/20",
+      "17/20"
+    ],
+    "competent_specialist_net": "2/5",
+    "shadow_beats_specialist_iff_unsupported_mean_exceeds": "7/8",
+    "qualification_marginals": [
+      "1/2",
+      "3/4"
+    ],
+    "joint_qualification_frechet_range": [
+      "1/4",
+      "1/2"
+    ],
+    "independent_joint_qualification": "3/8",
+    "remaining_service_periods": 2,
+    "two_period_qualification_net_range": [
+      "1/4",
+      "3/4"
+    ],
+    "independence_net": "1/2",
+    "expired_demand_forced_training_net": "-1/4"
+  },
+  "caveat": "Constructed normalized economic inputs; no target population, safety, technical transfer or customer evidence."
+}
