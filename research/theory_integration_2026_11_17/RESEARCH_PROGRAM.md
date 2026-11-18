@@ -1,8 +1,8 @@
 # Sustained theory block: operating possibilities and capability acquisition
 
-User-directed change, November 17, 2026. This is a change in research approach, not a cancellation of the full Robotics Economics roadmap or a new deadline.
+Amar's November 17 direction shifts the immediate theory majority toward data transfer and economic data value without cancelling the unified production, demand, embodiment, investment, network and atlas roadmap.
 
-**Current continuation, November 17 evening:** Amar confirmed the intended *Data-Driven Automation* source as https://arxiv.org/abs/2606.10127 and supplied economically priced teleoperation as a seed. The argument now includes [productive teleoperation and endogenous data choice](data_value/TELEOPERATION_DATA_VALUE.md), integrated into the operating manuscript's dynamic and empirical sections. It solves acquisition conditional on an informative target-grounding report, tests useful partial learning, retains a specialist and demand-expiry counterexample, and keeps technical performance distinct from economic value. The immediate unresolved question is to derive diagnostic/learning likelihoods from selectively visited intervention states. Earlier dated “next” passages below are historical continuation records, not instructions to abandon the current data-value investigation.
+**Current continuation, late November 17 Eastern:** productive teleoperation now has an endogenous observation mechanism: exposure, gating and latent error jointly determine recorded corrections, with retained qualification modeled separately. The qualified-customer-production threshold, strong target-only countermodel, optional byproduct result and observational-equivalence example are in [INTERVENTION_SELECTION_THEORY.md](data_value/INTERVENTION_SELECTION_THEORY.md). The exact next proof gap is *sequential observation support*: how an initial control update changes second-deployment visits, useful corrections and qualification. DDA, DAgger, ThriftyDAgger and IntervenGen remain prior art. November 22 and later acceptance gates remain open.
 
 ## The intellectual unit of work
 

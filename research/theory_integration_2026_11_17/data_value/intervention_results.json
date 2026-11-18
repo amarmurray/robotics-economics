@@ -1,0 +1,84 @@
+{
+  "tests": {
+    "pass": 46,
+    "model": "intervention_selection.js",
+    "calibrated": false
+  },
+  "results": {
+    "setting": "synthetic, undiscounted two-date provider contribution",
+    "menu": {
+      "routine": {
+        "current": 6,
+        "terminal": 5.375,
+        "total": 11.375,
+        "positive": 0.125,
+        "cHigh": 0.1875,
+        "cLow": 0.0625,
+        "postPositive": 0.75,
+        "postNegative": 0.4642857142857143,
+        "missedError": 0
+      },
+      "probe": {
+        "current": 5,
+        "terminal": 6.5,
+        "total": 11.5,
+        "positive": 0.5,
+        "cHigh": 0.75,
+        "cLow": 0.25,
+        "postPositive": 0.75,
+        "postNegative": 0.25,
+        "missedError": 0
+      },
+      "specialist": {
+        "current": 6.3,
+        "terminal": 5,
+        "total": 11.3,
+        "positive": 0,
+        "cHigh": 0,
+        "cLow": 0,
+        "postPositive": null,
+        "postNegative": 0.5,
+        "missedError": 0
+      }
+    },
+    "delayed": {
+      "routine": 11.125,
+      "probe": 10.5
+    },
+    "noPhysicalLearning": {
+      "routine": 11.25,
+      "probe": 11
+    },
+    "strongerTargetOnly": {
+      "routine": 12.46875,
+      "probe": 12.125
+    },
+    "costlessRoutineRelevantData": 12.5,
+    "observationalEquivalence": {
+      "lowExposureHighGate": {
+        "positive": 0.125,
+        "cHigh": 0.1875,
+        "cLow": 0.0625,
+        "postPositive": 0.75,
+        "postNegative": 0.4642857142857143,
+        "missedError": 0
+      },
+      "highExposureLowGate": {
+        "positive": 0.125,
+        "cHigh": 0.1875,
+        "cLow": 0.0625,
+        "postPositive": 0.75,
+        "postNegative": 0.4642857142857143,
+        "missedError": 0.375
+      },
+      "sameLoggedRateDifferentMisses": {
+        "positive": 0.125,
+        "cHigh": 0.1875,
+        "cLow": 0.0625,
+        "postPositive": 0.75,
+        "postNegative": 0.4642857142857143,
+        "missedError": 0.125
+      }
+    }
+  }
+}

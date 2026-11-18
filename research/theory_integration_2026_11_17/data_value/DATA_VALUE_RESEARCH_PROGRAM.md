@@ -1,6 +1,6 @@
 # Data value within the integrated production theory
 
-Amar's November 17 instruction prioritizes theoretical work on data transfer and data value, building on but not overfitting to _Data-Driven Automation_. This is the next sustained part of _When Capabilities Become Production_, not a restart, a new Q-numbered paper, or permission to drop the broader roadmap.
+**Fresh continuation, November 17 late evening Eastern:** [endogenous intervention selection](INTERVENTION_SELECTION_THEORY.md), [proof ledger](INTERVENTION_PROOF_LEDGER.md), [empirical protocol](INTERVENTION_EMPIRICAL_PROTOCOL.md), synthetic model and separate student/teacher materials now establish a one-step observation mechanism. The next challenge is sequential support selection after the first correction changes the controller, with one shared safe production/qualification budget. The following earlier frontier section is preserved as intellectual history, not a competing immediate instruction.
 
 ## Current frontier after productive teleoperation
 
