@@ -2,49 +2,50 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "8627432c1ef3beff18796c8502e3436614eaaec5",
+  "research_input_commit": "29b79314350d5f53df5779c800ad7b433097831b",
   "lease": {
     "run_id": "scheduled-20261118T0834Z-joint-kernels-9",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T08:34:20.418Z",
     "expires_at_utc": "2026-11-18T09:39:20.418Z",
-    "reason": "Theoretical identification of coupled transfer/demand/qualification/recovery kernels and design of safe discriminating diagnostic, within persistent regime framework."
+    "reason": "Completed coupled complete-response-law LP theory, joint transfer/customer identification and dual witness, robust vs regret fleet hedge, bounded population diagnostic information value, calibrated safe signal bridge, source-verified closest prior art, scoped replay and independent rational checks.",
+    "released_at_utc": "2026-11-18T08:49:48.813Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Integrated When Capabilities Become Production: action-dependent next customer orders and safe state support; common persistent transfer regime and full-history robust paired value, not static pooled mu. Theory majority until Dec6; Nov22 manuscript/Models A-B synthesis gate still open.",
+  "current_mode": "Integrated When Capabilities Become Production — incomplete coupled full-history transfer/demand/qualification/recovery laws; safe joint audit and policy-value comparison in common Q, omega, V, J; theory majority through Dec6 and Nov22 gate remains open.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_DEMAND_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COUPLED_IDENTIFICATION_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The prior RELEASED RESEARCH_STATE.json from 8627432c1ef3beff18796c8502e3436614eaaec5 is byte-preserved at PRE_ENDOGENOUS_DEMAND_STATE.json; earlier preservation chain, original Q1-Q13 queue, finance archive, main and unrecovered external work remain untouched.",
-  "latest_result": "Conditional ED1 affine full-history common-prior robust paired endpoint formula with policy-dependent demand/visitation and safe route menu. Exact synthetic R=(14,3), G=(7,10), E=(7.5,7.5), S=(6,6) yields pure maximin floors 7.4/8.2/7.5/6 and qualified fractional 3/14 R + 11/14 G robust 8.5; G not uniformly R-dominating. Rectangular post-order splicing erroneously lowers coherent value .5 to .25. Same R logs but G/L total 10 vs 4 reverses G/E rank. All conditional synthetic, not field calibration.",
+  "preservation": "The exact previous RELEASED RESEARCH_STATE.json from 29b79314350d5f53df5779c800ad7b433097831b is byte-preserved at PRE_COUPLED_IDENTIFICATION_STATE.json; the intermediate active lease commit remains in the Git ancestry. Earlier preserved states, original Q1-Q13 queue, main and unrecovered external work remain untouched.",
+  "latest_result": "Within an explicitly finite complete-response-type polytope, same-law paired policy value has an LP bound and observed-moment dual witness; all physically additional nonlinear kernel assumptions can shrink this outer set. A 4-type H x pre-action D synthetic counterexample fixes both marginals at 1/2 but leaves R-G in [-3,2]. A validated joint t interval can certify route ranking. Fractional maximin xR=.2 yields 7.4, minimax-regret xR=.4 yields worst regret 1.2. Perfect population t oracle improves pure worst-case guarantee by .4 but adds zero maximin value with fractional hedging. Safe conditional signal inversion and strict recovery support conditions stated; all units synthetic.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
-    "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
-    "results_blob": "5693d2b756f2b9db701ca803f8b9f57c131ff9ae",
-    "scoped_V8_assertions": 59,
-    "model_function_executed_and_serialized_to_source": true,
-    "stored_top_level_node_replay": false,
-    "independent_python_stdlib_fraction_checks": true,
-    "model_A_exercise_arithmetic_checked": true,
+    "record_file": "research/theory_integration_2026_11_17/data_value/coupled_identification_audit_results.json",
+    "source_blob": "143a09f373b95e679adfb7f8e9df169d197cf73a",
+    "results_blob": "f5a462b9665ac3c1e7ed4f5afecbf8be614523bf",
+    "scoped_V8_assertions": 1126,
+    "exact_blob_replayed_and_results_equal": true,
+    "independently_python_fraction_checked": true,
+    "model_A_B_accounting_matched_by_assumptions_only": true,
     "historical_repository_CI": false,
+    "node_clean_checkout": false,
     "independent_peer_review": false,
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
-    "proof_status": "Conditional algebra and constructive observational-equivalence proof stated; tests confirm synthetic arithmetic and menu feasibility only, not a new scientific result or physical safe certification."
+    "proof_status": "Conditional finite identified-set LP/dual and exact four-type algebra proved; executable checks illustrate arithmetic and finite grid only, not mathematical proof, actual safety certification, empirical calibration or novelty."
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_PERSISTENT_TRANSFER.md",
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_EMPIRICAL_DESIGN.md",
+    "research/theory_integration_2026_11_17/data_value/COUPLED_IDENTIFICATION_AND_AUDIT.md",
+    "research/theory_integration_2026_11_17/data_value/COUPLED_IDENTIFICATION_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/COUPLED_IDENTIFICATION_EMPIRICAL.md",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer.js",
-    "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
-    "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_DEMAND_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/coupled_identification_audit.js",
+    "research/theory_integration_2026_11_17/data_value/coupled_identification_audit_results.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_COUPLED_IDENTIFICATION_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
@@ -56,9 +57,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "full_history_persistent_regime_and_endogenous_demand_conditional_results; joint_conditional_kernel_identification_open",
-      "question": "What valid and decision-relevant paired value bounds remain when transfer, customer reorders, joint qualification and pathwise recovery kernels are only partially identified but coupled through one persistent regime?",
-      "deliverable": "Construct full-law coupled identified set, test whether realistic matched safe diagnostic tightens the sign of R/G/E/S comparison, preserve no-support counterexample and specialist; review Nov22 working synthesis and full manuscript assumptions."
+      "status": "complete_response_type_polytope_LP_dual_and_coupling_example_derived; structural_kernel_tightness_and_calibrated_safe_identification_open",
+      "question": "Which economically useful joint route-induced order, qualification and recovery restrictions can be safely identified or bounded when full transfer labels and nonlinear pool learning are unavailable?",
+      "deliverable": "Challenge D-conditional signal calibration and response-type LP relaxation under controller-pool interference, demand feedback, missing qualified H labels and known competing specialist; preserve same-world policy consistency and seek validated matched field proxy. Consolidate assumptions/prior art and Models A/B at Nov22 gate."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -70,7 +71,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "policy_induced_customer_followup_and_longitudinal_safe_support_protocol_specified; no_observed_panel",
+      "status": "safe_diagnostic_and_joint_target_order_identification_design_specified_no_observed_panel",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
       "deliverable": "Identify actual eligible customer follow-on order denominator including zeros, joint accepted services, frozen-controller learning pools, and report-by-peak-recovery support; official quantified industry production matrix still unresolved."
     },
@@ -83,17 +84,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22_working_integrated_review_added; acceptance_not_passed",
+      "status": "full_history_joint_kernel_synthesis_and_negative_oracle_value_added; Nov22_acceptance_open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Audit one Q/omega/V/J equation chain, conditional vs generally identified claims and A/B reductions against strongest prior art, then prioritize real customer accepted-service/production backbone over additional toy parameterizations."
     }
   ],
   "portfolio_status": {
-    "theory": "Conditional persistent-regime full-history endpoint theorem, synthetic safe R/G/E/S pure and fractional robust comparison; missing-support and rectangular countermodels integrated with data-qualification resource theory.",
-    "atlas": "Longitudinal action-assigned eligible customer/order denominators including zeros and independently audited safe target-state recovery support specified; no customer observed panel or official numeric BEA/BLS matrix.",
-    "paper": "Living manuscript expanded and Nov22 full synthesis working review written; original A/B reductions remain exact only under their stated timing/deterministic assumptions. Nov22 gate explicitly open.",
-    "learning": "Separate six student problems and instructor solutions added; Model A outside-option arithmetic checked.",
-    "main_contribution": "Candidate robotics source-to-safe-qualified-customer-production/demand synthesis; component mathematics standard and originality unestablished."
+    "theory": "Finite full-history coupled identified-set LP/dual, transfer/customer joint dependence and calibrated diagnostic inversion added to persistent-regime dynamic production with qualified safe alternatives. Nonlinear physical-kernel sharpness remains unsolved.",
+    "atlas": "Prospective source-to-site D x H linked diagnostic/whole-service/peak-recovery panel and route policy denominator specified; official numerical sector matrix and observed customer panel absent.",
+    "paper": "Living manuscript and Nov22 working synthesis/Models A-B explicitly updated with response-type identified-set vs physical structural distinction, pure/fractional robust vs regret policy and no data premium.",
+    "learning": "Separate five new coupled-identification exercises and instructor solutions; prior teaching packets retained.",
+    "main_contribution": "Candidate qualified customer production and empirically identified economic data acquisition with physical recovery support. Ordinary LP/minimax/Fréchet/data decision components acknowledged prior; novelty not established."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -136,13 +137,18 @@
     "Ex-ante 3/14 R plus 11/14 G equalizer is valid only if fractional/random deployment allocation and additive contributions are feasible; no claim for indivisible single fleet or shared-controller interference.",
     "Rectangularity counterexample contrasts two genuinely different ambiguity sets; it does not show standard rectangular robust Bellman methods are internally incorrect.",
     "59 scoped assertions execute the function serialized as source in connected V8; historical Node/top-level script replay and clean-checkout repository CI are not claimed. Separate Python fractions check synthetic arithmetic.",
-    "R-only observational equivalence makes unsupported grounding/customer demand ranking nonidentified absent safe matched intervention or validated structural bridge."
+    "R-only observational equivalence makes unsupported grounding/customer demand ranking nonidentified absent safe matched intervention or validated structural bridge.",
+    "Complete-history linear LP sharpness is relative to a broad finite response-type polytope. Persistent-kernel factorization, learned controller interference, structural conditional independence and site transport can make it a conservative relaxation.",
+    "H is a latent persistence regime within independent learning pools, not a demonstrated or automatically measurable robotics skill. The calibrated Z bridge assumes externally validated sensitivity/false positive stable across pre-action customer D.",
+    "The zero maximin marginal value of a perfect population t audit is conditional on divisible independent fleet allocations, linear aggregate captured contribution and population-only knowledge; individual regime diagnosis, Bayesian criteria, forced training or new embodiments can differ.",
+    "Independent source/output V8 replay passed 1126 assertions and Python Fraction verified the central example; these do not establish actual physical safe support or future customer revenue.",
+    "Observed source-target/customer service/recovery joint panel, validated transfer diagnostic, measured nonlinearity, historical CI, BEA/BLS quantitative production backbone, external peer review and novelty are outstanding."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "All new theory, proof, executable source/results, empirical protocol, manuscript, A/B synthesis, program and separate exercises/solutions staged on assistant branch. Scoped exact blob source replay in connected V8: 476 assertions; separate Python Fraction checks for selection, coverage, demand and Model A. No historical CI, hardware/customer experiment, external review or official production matrix. No other project changed.",
+  "execution_note": "New coupled joint law chapter, proof ledger, source-verified prior art, exact JS/JSON, empirical design, living manuscript, Nov22 synthesis, A/B integration, theory program, milestone and separate teaching materials assembled; V8 exact stored blob replay 1126 checks with equal serialized results; Python standard Fraction independently checks key exact economics. No historical CI/node clean checkout/robot testing/customer data/official interindustry matrix.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -160,13 +166,13 @@
   },
   "quiet_checkpoint": {
     "date_eastern": "2026-11-18",
-    "key": "transport-selection-demand-recovery-synthesis",
-    "committed_result": "Sharp conditional transport threshold and supported-site gap, two-site reversal of pooled certificate, fixed-skill demand reversal, report-conditioned recovery support obstruction, canonical A/B map and matched empirical design; synthetic code executed and Python rational arithmetic checked.",
-    "next_action": "Nonrectangular adaptive policy under policy-induced target customer weights/visited states; Nov22 whole argument synthesis."
+    "key": "coupled-response-law-joint-audit-no-oracle-premium",
+    "committed_result": "Paired partial ID finite response-type LP/dual proof, 4-cell same-marginal ranking reversal, maximin vs regret mixtures, pure vs fractional perfect-population-oracle value, safe diagnostic calibration bridge, full customer/robot panel protocol.",
+    "next_action": "At the same common Q/omega/V/J theory, relax invariant diagnostic s/f across D and introduce a nonadditive shared learning-pool kernel, derive how each changes the paired decision interval and whether a resource-feasible diagnostic can distinguish; update the Nov22 theorem/assumption map and find an actually measurable accepted-service/backbone source without vendor proxy."
   },
-  "publication_parent_commit": "5d74bc2b92818cde6a37e0fe4723f4fd4a5ed75e",
-  "current_proof_gap": "A finite safe support certificate and known-H two-slot policy do not identify the regime-dependent safe exposure/selected correction/retained update/accepted bundle kernel when H and physically safe reachable sets are partially observed. Need pathwise operator/safety budgets and robust posterior-informed alternatives without turning non-visitation into zero technical success.",
-  "exact_next_action": "At same manuscript and finite Bellman state, construct H-dependent safe-exposure and correction likelihoods for routine/G/E with explicit observation of non-exposure; derive optimal history-contingent policy under a pathwise human/safety budget and joint held-out customer bundle qualification, then test whether the routine replacement coupling survives mixture uncertainty or fails with a precise counterexample. Empirically specify matched approved exposure/gate/accepted-order panel and bound missing-support regimes. Reserve Nov22 synthesis for reviewing unified Models A-B and closest prior art; leave quantitative BEA/BLS backbone unsolved until actual source data.",
+  "publication_parent_commit": "e55ae86562f7443f8057af478a4dec959baa226d",
+  "current_proof_gap": "Finite response-type LP with joint observations is an outer bound unless physically credible persistent regime, D-conditional report and pooled controller/order response restrictions can be validated. A high-confidence simulated transfer label need not be a safe accepted customer service or certify rare recovery tails.",
+  "exact_next_action": "At the same common Q/omega/V/J theory, relax invariant diagnostic s/f across D and introduce a nonadditive shared learning-pool kernel, derive how each changes the paired decision interval and whether a resource-feasible diagnostic can distinguish; update the Nov22 theorem/assumption map and find an actually measurable accepted-service/backbone source without vendor proxy.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -184,7 +190,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-18T03:50:31.683Z",
+  "updated_at_utc": "2026-11-18T08:49:48.813Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -201,7 +207,23 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Under partially identified transfer-regime mixtures and jointly accepted customer qualification laws, when can a resource-feasible policy be certified economically optimal (or robustly preferable) for the actual customer service window?",
-  "proof_gap": "Regime and qualification dependence are only partially identified by selected gate/trajectory and separate marginal acceptance data; derive set-valued Bellman bounds or a sharp one-stage robust policy certificate without mistaking noisy support for certain safety.",
-  "next_action": "Derive identified-set robust domination/sensitivity frontier with matched accepted service, available specialist, resource safety and feasible diagnostics, then review full source-to-production theorem chain, closest prior art and Models A-B for Nov22; seek actual official numeric production backbone only via genuinely distinct source route."
+  "exact_question": "Which economically useful joint route-induced order, qualification and recovery restrictions can be safely identified or bounded when full transfer labels and nonlinear pool learning are unavailable?",
+  "proof_gap": "Finite response-type LP with joint observations is an outer bound unless physically credible persistent regime, D-conditional report and pooled controller/order response restrictions can be validated. A high-confidence simulated transfer label need not be a safe accepted customer service or certify rare recovery tails.",
+  "next_action": "At the same common Q/omega/V/J theory, relax invariant diagnostic s/f across D and introduce a nonadditive shared learning-pool kernel, derive how each changes the paired decision interval and whether a resource-feasible diagnostic can distinguish; update the Nov22 theorem/assumption map and find an actually measurable accepted-service/backbone source without vendor proxy.",
+  "validation_previous_endogenous_demand": {
+    "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
+    "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
+    "results_blob": "5693d2b756f2b9db701ca803f8b9f57c131ff9ae",
+    "scoped_V8_assertions": 59,
+    "model_function_executed_and_serialized_to_source": true,
+    "stored_top_level_node_replay": false,
+    "independent_python_stdlib_fraction_checks": true,
+    "model_A_exercise_arithmetic_checked": true,
+    "historical_repository_CI": false,
+    "independent_peer_review": false,
+    "robot_field_data": false,
+    "customer_joint_acceptance_data": false,
+    "official_numerical_production_backbone": false,
+    "proof_status": "Conditional algebra and constructive observational-equivalence proof stated; tests confirm synthetic arithmetic and menu feasibility only, not a new scientific result or physical safe certification."
+  }
 }
