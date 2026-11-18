@@ -1,5 +1,13 @@
 # Data value within the integrated production theory
 
+
+## 18 November next exact frontier: learning forgone by customer-service protection
+
+**Immediate intellectual correction following the order-loss LP.** The [protection–learning frontier](PROTECTION_LEARNING_FRONTIER.md), [proof ledger](PROTECTION_LEARNING_PROOF_LEDGER.md) and [empirical protocol](PROTECTION_LEARNING_EMPIRICAL.md) model protected existing orders **and** the endogenous learning loss induced by controller/data/dispatcher/operator/demand isolation. The top-k protective cut can be complementary in a *robust economic bound* while it substitutes for actual source-data reuse or joint A qualification. A synthetically better pinned policy cannot inherit shared-G's full A gain. Counterexample: protecting B1 tightens worst B loss by 0.6, but costs 0.2 and reduces accepted A gain by 0.7, lowering the certificate from 0.8 to 0.5. All numeric inputs and any horizon-wide k cut remain hypotheses.
+
+**Next actual proof/evidence question:** Which *versioned, signed* mechanism establishes a complete-market, full-horizon causal exclusion for protected B customer orders including demand and operator resources, and what safe matched qualified-service comparisons, or customer-stratum/persistent-regime-uniform full-outcome TV and capacity response, bound the *A gain lost to pinning*? Do not assume existing shared target-learning gains persist through protection. If no genuine supported architecture/accepted-order evidence exists, develop bounded impossibility and identification results, not another arbitrary disruption budget or forced controller experiment. Maintain original qualification/learning/finance proof archive, November22 gate, empirical atlas and December25 target.
+
+
 **Fresh continuation, November 17 late evening Eastern:** [endogenous intervention selection](INTERVENTION_SELECTION_THEORY.md), [proof ledger](INTERVENTION_PROOF_LEDGER.md), [empirical protocol](INTERVENTION_EMPIRICAL_PROTOCOL.md), synthetic model and separate student/teacher materials now establish a one-step observation mechanism. The next challenge is sequential support selection after the first correction changes the controller, with one shared safe production/qualification budget. The following earlier frontier section is preserved as intellectual history, not a competing immediate instruction.
 
 ## Current frontier after productive teleoperation

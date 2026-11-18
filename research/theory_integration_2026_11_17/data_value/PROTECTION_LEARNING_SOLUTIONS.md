@@ -1,0 +1,10 @@
+# Instructor solutions — protected service, pinned transfer and economic value
+
+Separate from the student exercise packet.
+
+1. Base step B initial state matches. If B_t matches and its structural transition has unchanged rule, matched exogenous B inputs and no A-affected arguments, B_{t+1} matches. Output/acceptance follows by induction. Counterexample: F has B order D_B=1; G offers new A service, causing D_B=1−1{offer A}=0 through shared customer choice even with isolated controllers.
+2. Without cut, D=max B=1.2, L=2.4−0.4−1.2=0.8. Protect B1: D=0.6, a=1.7, c=0.6, L=1.7−0.6−0.6=0.5, a decline 0.3. Certifiable damage falls but resource loss+cut cost rises more.
+3. W(∅)=0; W({1})=1.2−0.6=0.6; W({2})=1.2−1.2=0; W({1,2})=1.2−0.2=1.0. Marginal gain from protecting 2 is zero before 1 but 0.4 after 1. This is complementarity in the worst-loss *bound*, not necessarily in realized accepted service.
+4. Pinned net lower=2.4−x−0.6=1.8−x. Strictly exceeds 0.9 iff x<0.9. At x=1.0, pinned 0.8; a competent specialist bound 0.9 would dominate only if 0.9 is the specialist's actually achieved gain or lower bound and pinned 0.8 is an actual upper/point value; comparing two lower bounds alone is insufficient.
+5. Pinned lower≥2.4−(2*0.25+0.2)−0.6=1.1, above the assumed specialist upper 0.9 under the specified uniform coupling/resource assumptions. A marginal skill score does not determine joint qualified accepted orders or price/demand and does not bound total variation of the whole output law.
+6. Let A require two validated recipes, each using the final unit of acceptance capacity. Set gain g(u)=2.4 if u≥1, otherwise 0, and compare u=1 with u=0.99. No small K=2 bound holds. Free optional access to data does not reduce an optimizer's menu if F remains; if a paid/forced intervention is already sunk, its cost cannot be recovered by selecting F afterward.

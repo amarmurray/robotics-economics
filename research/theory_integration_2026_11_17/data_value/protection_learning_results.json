@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-18",
+  "study": "protection-learning frontier: conditional exact checks",
+  "assertions": 160,
+  "baseline": 7,
+  "shared_no_cut": 0.8,
+  "protect_B1": 0.5,
+  "max_protection_subset": [
+    7
+  ],
+  "table": [
+    {
+      "protected_mask": 0,
+      "remaining_b": [
+        1.2,
+        0.6,
+        0.2
+      ],
+      "max_loss": 1.2,
+      "accepted_A_increment": 2.4,
+      "incremental_cost": 0.4,
+      "certified_lower": 0.8
+    },
+    {
+      "protected_mask": 1,
+      "remaining_b": [
+        0.6,
+        0.2
+      ],
+      "max_loss": 0.6,
+      "accepted_A_increment": 1.7,
+      "incremental_cost": 0.6,
+      "certified_lower": 0.5
+    },
+    {
+      "protected_mask": 2,
+      "remaining_b": [
+        1.2,
+        0.2
+      ],
+      "max_loss": 1.2,
+      "accepted_A_increment": 2.3,
+      "incremental_cost": 0.5,
+      "certified_lower": 0.6
+    },
+    {
+      "protected_mask": 3,
+      "remaining_b": [
+        0.2
+      ],
+      "max_loss": 0.2,
+      "accepted_A_increment": 1.6,
+      "incremental_cost": 0.7,
+      "certified_lower": 0.7
+    },
+    {
+      "protected_mask": 4,
+      "remaining_b": [
+        1.2,
+        0.6
+      ],
+      "max_loss": 1.2,
+      "accepted_A_increment": 2.36,
+      "incremental_cost": 0.45,
+      "certified_lower": 0.71
+    },
+    {
+      "protected_mask": 5,
+      "remaining_b": [
+        0.6
+      ],
+      "max_loss": 0.6,
+      "accepted_A_increment": 1.66,
+      "incremental_cost": 0.65,
+      "certified_lower": 0.41
+    },
+    {
+      "protected_mask": 6,
+      "remaining_b": [
+        1.2
+      ],
+      "max_loss": 1.2,
+      "accepted_A_increment": 2.26,
+      "incremental_cost": 0.55,
+      "certified_lower": 0.51
+    },
+    {
+      "protected_mask": 7,
+      "remaining_b": [],
+      "max_loss": 0,
+      "accepted_A_increment": 1.56,
+      "incremental_cost": 0.75,
+      "certified_lower": 0.81
+    }
+  ],
+  "resource_TV_bridge": {
+    "r": 0.25,
+    "K": 2,
+    "Mdelta": 0.2,
+    "pinned_lower": 1.1,
+    "specialist_upper": 0.9,
+    "strict_advantage_assumed": true
+  },
+  "discrete_qualification_cliff": {
+    "resource_before": 1,
+    "resource_after": 0.99,
+    "accepted_A_drop": 2.4
+  },
+  "limitations": [
+    "synthetic normalized service margins and policy-specific A/cost effects",
+    "verified policy-uniform loss cut not observed",
+    "full accepted-service TV/capacity response not estimated",
+    "no physical certification, empirical robot intervention or independent scientific review"
+  ]
+}
