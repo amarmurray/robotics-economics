@@ -6,10 +6,11 @@
   "lease": {
     "run_id": "auto-20261118-20261118T234451035Z-arithmetic-erratum",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T23:44:51.035Z",
     "expires_at_utc": "2026-11-18T23:56:51.035Z",
-    "reason": "Correct scoped exact enumeration count from 300 to 375, no theorem or output change."
+    "reason": "Corrected one proof-ledger 300→375 enumeration count; exact committed source, record and theorem unchanged.",
+    "released_at_utc": "2026-11-18T23:44:57.490Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -23,7 +24,7 @@
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
     "exact_scoped_assertions": 457,
-    "execution": "exact authored JS evaluated in connected V8; exhaustive quarter-grid feasible-pair enumeration of 300 parameter cases (not independent research review)",
+    "execution": "exact committed JS replayed in connected V8, 375 exact feasible-pair quarter-grid cases plus 82 other exact checks; no full-repository CI or robotics evidence",
     "proof_status": "linear extremal geometry derived; numeric enumeration confirms model finite-grid cases; joint economic eta has no actual measurement",
     "official_public_sources": "Ross et al PMLR 2011; Khan, Saveski and Ugander arXiv:2305.11812; DDA arXiv:2606.10127 with prior §5 and App B acknowledged",
     "physical_approval": false,
@@ -282,7 +283,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-18T23:43:37.309Z",
+  "updated_at_utc": "2026-11-18T23:44:57.490Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
