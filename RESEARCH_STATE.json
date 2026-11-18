@@ -2,14 +2,13 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "29e14381d15de059f2055878b2e37a0756ff2b01",
+  "research_input_commit": "8627432c1ef3beff18796c8502e3436614eaaec5",
   "lease": {
-    "run_id": "scheduled-20261118T0635Z-selection-drift-7",
-    "status": "released",
-    "acquired_at_utc": "2026-11-18T06:36:51.956Z",
-    "expires_at_utc": "2026-11-18T07:41:51.956Z",
-    "reason": "Finished demand-weighted transport certificate, selection/covariate-shift and recovery-support counterexamples, Models A/B reconciliation, synthetic verified calculation and separate validation/teaching notes.",
-    "released_at_utc": "2026-11-18T06:50:31.116Z"
+    "run_id": "scheduled-20261118T0729Z-endogenous-demand-8",
+    "status": "active",
+    "acquired_at_utc": "2026-11-18T07:29:18.122Z",
+    "expires_at_utc": "2026-11-18T08:34:18.122Z",
+    "reason": "Develop a full-history nonrectangular bound and counterexample for policy-dependent demand, sequential support, and persistent transfer regime; update Nov22 synthesis only on substantive evidence."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
