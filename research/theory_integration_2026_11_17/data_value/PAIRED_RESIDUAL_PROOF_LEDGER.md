@@ -1,0 +1,19 @@
+# Proof and rejection ledger: partial policy-invariance frontier
+
+**18 November 2026.** Companion to [theory](PAIRED_RESIDUAL_SENSITIVITY_THEORY.md).
+
+**Definition.** For each complete matched exit label j and separately admissible policy a,b, p_a,p_b >=0, l<=u_a,u_b<=h, eta in [0,h-l], |u_a-u_b|<=eta. The known contribution contrast D is not a residual and includes the already identified original-order/service/cost terms.
+
+**Claim P1 (single-label sharp extrema).** The linear objective p_a u_a-p_b u_b has minimum d*l-min(p_a,p_b)*eta and maximum d*h+min(p_a,p_b)*eta for d=p_a-p_b>=0; for d<0 its minimum is d*h-min(p_a,p_b)*eta and maximum d*l+min(p_a,p_b)*eta. Proof by enumerating strip-polygon vertices, or: when p_a>=p_b, write d*u_a+p_b*(u_a-u_b); minimal u_a=l, u_b=l+eta and maximal u_a=h,u_b=h-eta. When p_a<p_b write d*u_b+p_a*(u_a-u_b); minimal u_b=h,u_a=h-eta, maximal u_b=l,u_a=l+eta. These choices satisfy boxes because eta<=h-l, so values are attainable. No independence of qualification outcomes is assumed.
+
+**Claim P2 (multiple exits).** Sum sharp P1 extrema only when cross-label conditional residual pairs attain endpoints jointly. If a single latent demand state links u_j, the displayed sums are conservative outer bounds; instead minimize/maximize the *one-world joint* objective over its feasible set. Normalization sum_j p_ij<=1; no exit already inside K_i.
+
+**Claim P3 (limits).** eta=0 recovers the previous shared u theorem; eta=h-l returns separate-policy intervals because every pair in the box is allowed. A smaller joint disagreement bound narrows each comparison endpoint by overlap*delta_eta, but cannot be rebranded as incremental economic output or a standalone data price. No bound on peak safety or certification follows from a mean-contribution interval.
+
+**Counterexample C1 (nothing learned about eta from pre-exit logs).** K_copy=27/20, K_no=7/5, p_copy=1/2, p_no=1/4, residual box [0,4]. Same K,p and pre-exit observations, two possible unsupported continuations (u_copy,u_no)=(0,4) and (4,0); J differences -21/20 and 39/20. Thus the sign is unidentifiable without cross-policy structural/evaluation evidence even if both first exits share a label. This also defeats treating a recorded robot-pose match as equal *customer-network* continuation.
+
+**Counterexample C2 (fallback mechanism not automatic).** Two arms switch to the same controller F from an identically named robotic pose. Source-copy retains an operator queue and an original B order that expires at t+1; no-copy does not. Even if F has identical motor-action and navigation response, remaining accepted order contribution differs. A purported u_copy=u_no is false absent full-state/market equivalence. Embodiment change can remove physical fallback reachability entirely.
+
+**Rejection/adversarial audit.** The theorem does not identify eta empirically and cannot turn source trajectories into counterfactual post-exit orders. Invoking SPIBB to assert safe hardware rollback or same full-network customer continuation would be false: its published learning setting and guarantees do not certify this robotics architecture. Unobserved policy-specific post-exit demand, recovery and operator dynamics may make eta=h-l the only defensible restriction. Marginal target skill improvements can be economically useless or harmful under unqualified bundles, operator saturation and original-order displacement.
+
+**Verification.** [Executable BigInt rational model](paired_residual_sensitivity.js) checks exact numbers, all 300 pair/probability/width/disagreement grid cases against full feasible-pair enumeration on common quarter grids, eta=width collapse and explicit reversed-world counterexample. Enumerations independently corroborate the finite-dimensional algebra; they are not a substitute for the above proof or field measurement.

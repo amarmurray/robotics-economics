@@ -1,0 +1,37 @@
+{
+  "model": "Paired unsupported residuals with auditable policy-discrepancy cap",
+  "assumptions": "Same whole-network opportunity census, policy-specific identified K/p, common state label, each remaining conditional expected value in [l,h], and joint |u_a-u_b| <= eta; rectangular labels only for multi-label sharpness.",
+  "formula": "lower/upper = common-residual signed bounds minus/plus min(p_a,p_b)*eta, for 0<=eta<=h-l",
+  "baseline": {
+    "common": {
+      "low": "-1/20",
+      "high": "19/20"
+    },
+    "paired_eta_half": {
+      "low": "-7/40",
+      "high": "43/40"
+    },
+    "unrestricted": {
+      "low": "-21/20",
+      "high": "39/20"
+    },
+    "naive": {
+      "low": "-21/20",
+      "high": "39/20"
+    },
+    "diagnostic_u_3_to_4_eta_1": {
+      "low": "9/20",
+      "high": "6/5"
+    },
+    "diagnostic_u_3_to_4_eta_0": {
+      "low": "7/10",
+      "high": "19/20"
+    }
+  },
+  "undetectable_worlds": {
+    "copy_worse": "-21/20",
+    "copy_better": "39/20"
+  },
+  "exact_grid_cases": 375,
+  "checks": 457
+}

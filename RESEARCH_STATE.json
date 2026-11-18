@@ -2,29 +2,30 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "c4d742532d0a0bab23e8145cf052c43be61129b7",
+  "research_input_commit": "4571eeed186954fbac22fe3683fb8e04f239b3f4",
   "lease": {
     "run_id": "auto-20261118-20261118T233647201Z-partial-invariance",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T23:36:47.201Z",
     "expires_at_utc": "2026-11-19T00:20:47.201Z",
-    "reason": "Exact paired policy-specific residual sensitivity frontier, falsification, economic data decision and Nov22 argument integration; test then release."
+    "reason": "Exact paired-disagreement theorem, counterworld, validated 300-grid model, prior-art correction, manuscript/Models AB/Nov22/empirical/teaching edits and released state.",
+    "released_at_utc": "2026-11-18T23:43:37.309Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: source-trained policy-induced target support, same-world comparative residual and original B/customer/operator production; Nov22 scientific gate open.",
+  "current_mode": "When Capabilities Become Production: partial shared whole-network residuals and source-trained target support; Nov22 scientific gate open.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COMMON_EXIT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PAIRED_RESIDUAL_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state at c4d742532d0a0bab23e8145cf052c43be61129b7 preserved byte-identically under research/theory_integration_2026_11_17/data_value/PRE_COMMON_EXIT_STATE.json; earlier PRE_POLICY_SUPPORT_DRIFT_STATE and original Q1-Q13 backlog retained. Lease acquired via expected-head CAS at 3ce75abbe62f7e48de04bc324f96d7f449deec04 and released with this research commit.",
-  "latest_result": "Conditional same-world comparison: J_a-J_b=(K_a-K_b)+Σ(p_aj-p_bj)u_j for genuinely invariant whole-network residual u_j; box-sharp contrast width Σ|p_a-p_b|(h-l), inward gain Σmin(p_a,p_b)(h-l) over independently subtracted endpoints. Reused source-copy/no-copy p=1/2 vs 1/4 and c gain: [-1/20,19/20] vs naïve [-21/20,39/20]; no unconditional superiority. Post-exit controller/dispatch/customer effect refutes cancellation even with identical p; prior-art partial identification, no robot evidence/physical safety approval.",
+  "preservation": "Prior released state at 4571eeed186954fbac22fe3683fb8e04f239b3f4 preserved byte-identically at research/theory_integration_2026_11_17/data_value/PRE_PAIRED_RESIDUAL_STATE.json; prior archived state/history retained. Lease acquired by state-only CAS at 846137bfcf65fd31ae30aa6ee92a17d32a52916e and released in this publication.",
+  "latest_result": "Exact paired residual strip: if policy-specific full-network conditional value u_a,u_b∈[l,h] and audited |u_a-u_b|≤eta, contrast extrema equal common-residual signed-occupancy extrema ±min(p_a,p_b)eta. Sharp under rectangular matched exit labels; eta=0 shared residual, eta=h-l independent bounds. Earlier K/p example eta=1/2 yields [-7/40,43/40], and pre-exit observational equivalence cannot identify eta<4. No field estimate.",
   "validation": {
-    "source_file": "research/theory_integration_2026_11_17/data_value/common_exit_comparison.js",
-    "record_file": "research/theory_integration_2026_11_17/data_value/common_exit_results.json",
-    "exact_scoped_assertions": 203,
-    "execution": "exact GitHub blob replayed in connected V8 using BigInt rational arithmetic; independent Python Fraction reproduction and 17-point plus 153-point endpoint grids",
-    "proof_status": "elementary signed linear-extrema/overlap identity under rectangular and policy-invariant residual; counterexample to state-label-only invariance; no scientific novelty claim",
+    "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
+    "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
+    "exact_scoped_assertions": 457,
+    "execution": "exact authored JS evaluated in connected V8; exhaustive quarter-grid feasible-pair enumeration of 300 parameter cases (not independent research review)",
+    "proof_status": "linear extremal geometry derived; numeric enumeration confirms model finite-grid cases; joint economic eta has no actual measurement",
     "official_public_sources": "Ross et al PMLR 2011; Khan, Saveski and Ugander arXiv:2305.11812; DDA arXiv:2606.10127 with prior §5 and App B acknowledged",
     "physical_approval": false,
     "empirical_economic_calibration": false,
@@ -33,9 +34,26 @@
     "original_B_order_panel_verified": false,
     "full_repository_CI": false,
     "independent_peer_review": false,
-    "official_numeric_BLS_BEA_backbone": false
+    "official_numeric_BLS_BEA_backbone": false,
+    "paired_economic_discrepancy_verified": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/PAIRED_RESIDUAL_SENSITIVITY_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/PAIRED_RESIDUAL_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/PAIRED_RESIDUAL_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
+    "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
+    "research/theory_integration_2026_11_17/data_value/PAIRED_RESIDUAL_EXERCISES.md",
+    "research/theory_integration_2026_11_17/data_value/PAIRED_RESIDUAL_SOLUTIONS.md",
+    "research/theory_integration_2026_11_17/data_value/COMMON_EXIT_VALUE_COMPARISON.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "RESEARCH_EXECUTION.md",
+    "THEORY_PHASE.md",
+    "research/theory/milestones.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_PAIRED_RESIDUAL_STATE.json",
     "research/theory_integration_2026_11_17/data_value/COMMON_EXIT_VALUE_COMPARISON.md",
     "research/theory_integration_2026_11_17/data_value/COMMON_EXIT_PROOF_LEDGER.md",
     "research/theory_integration_2026_11_17/data_value/COMMON_EXIT_EMPIRICAL.md",
@@ -109,9 +127,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "same-world comparative contrast and support-difference derivation; actual cross-checkpoint whole-network residual invariance and policy-specific target occupancy absent",
-      "question": "Under what genuinely versioned controller, qualified-service, original-order, demand and operator conditions can source-copy and no-copy policies share the same unsupported target continuation in one persistent world, and how large is their economically relevant exit-occupancy difference?",
-      "deliverable": "Causally matched source-use/no-use checkpoints, qualified whole accepted service, each checkpoint's own safe first-exit occupancy and signed B original orders; tested invariant residual or measured policy-specific deviations versus retained F/competent S."
+      "status": "exact partial invariance sensitivity theorem + counterworld; actual source-copy/no-copy full-network eta, p,K and approved fallback remain unmeasured",
+      "question": "Can real signed controller/dispatch/customer B-order/operator lineage and independent approved target-state comparisons establish any nontrivial eta_j<h_j-l_j for source-copy/no-copy, with each learned policy's own p_ij and qualified whole-service K_i? Source data alone cannot; same fallback pose is insufficient.",
+      "deliverable": "Signed matched whole-network and source-copy/no-copy controller versions, approved p/K/qualified joint production, customer B orders and audit of paired post-exit economic divergence eta, retaining F/S and other embodiments."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -136,16 +154,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 integrated manuscript/Models A-B updated with matched same-world residual comparison, scientific gate still open",
+      "status": "Nov22 manuscript/Models A-B incorporated exact partial-invariance frontier, proof/counterexample and physical architecture falsification; Nov22 scientific gate remains open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
   ],
   "portfolio_status": {
-    "theory": "Common-residual paired partial identification plus non-invariance counterexample integrated with endogenous target occupancy and joint accepted-service theory; residual assumption not field-validated.",
+    "theory": "Sharp full-network paired policy-discrepancy bounds and nonidentification counterworld added to one data-transfer qualified-production argument; not empirical identification.",
     "atlas": "Same full source-to-production/market agenda; only public primary BLS/BEA methodology corroborated, no numeric BEA-BLS crosswalk or customer joint accepted-service atlas.",
-    "paper": "Manuscript, Nov22 and A/B updated with conditional paired theorem/counterexample; novelty and empirical gates remain open.",
-    "learning": "Four new student exercises, separate instructor solutions and 203 exact BigInt checks, independently Python Fraction reproduced; prior packages retained.",
+    "paper": "Nov22/Models A-B/manuscript now explicitly require audited paired post-exit policy-divergence eta; scientific gate remains open.",
+    "learning": "Seven exercises with separate solutions and exact rational feasible-strip enumeration; no externally certified robotics learning rate.",
     "main_contribution": "Still unselected: network/data-learning/qualification production theory needs actual accepted-customer-service and validated policy-interference mechanisms; fixed-k top-order supermodularity/TV causal modularity are prior math."
   },
   "known_limitations": [
@@ -246,8 +264,8 @@
   },
   "quiet_checkpoint": "Substantive same-world policy-comparison derivation, counterexample, matched evidence protocol, reproducer, manuscript/Models A-B/Nov22 and teaching saved quietly; Nov22 gate remains open; last_notification unchanged.",
   "publication_parent_commit": "3ce75abbe62f7e48de04bc324f96d7f449deec04",
-  "current_proof_gap": "Verify a source-copy/no-copy whole-network residual continuation invariant across independently safe checkpoints, or derive a policy-specific deviation envelope from actual signed controller, customer, dispatch, B-order and operator structural evidence. Current conditional signed-overlap certificate is not valid absent this evidence.",
-  "exact_next_action": "Seek real versioned controller/source data-plane, matched whole-network source-copy/no-copy Q and own checkpoint p/K, and customer B/dispatch/operator evidence. Falsify policy-invariant post-exit residual at exact closed-network matched states; if absent retain separate first-exit bounds, derive only legitimately source-anchored deviation envelopes, and obtain official BLS–BEA numeric input-output sector crosswalk when genuinely accessible. Continue Nov22 argument review, not a new Q queue.",
+  "current_proof_gap": "Can real signed controller/dispatch/customer B-order/operator lineage and independent approved target-state comparisons establish any nontrivial eta_j<h_j-l_j for source-copy/no-copy, with each learned policy's own p_ij and qualified whole-service K_i? Source data alone cannot; same fallback pose is insufficient.",
+  "exact_next_action": "Seek actual source-read/controller hashes, signed full original B order and demand/operator/dispatcher records and independently approved matched first-exit target interventions. Estimate p,K and test a genuine paired eta; absent evidence retain eta=h-l, then continue Nov22 integrated argument and official BLS–BEA numeric crosswalk if public source route is available.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -265,7 +283,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-18T22:39:31.190Z",
+  "updated_at_utc": "2026-11-18T23:43:37.309Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -282,9 +300,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "When can an economically valuable B-inert production-data source change A's joint qualified customer service without introducing policy-dependent unsupported recovery, demand or operator effects that invalidate a same-world comparison to no-copy, grounding, new embodiment and qualified specialist?",
-  "proof_gap": "Verify a source-copy/no-copy whole-network residual continuation invariant across independently safe checkpoints, or derive a policy-specific deviation envelope from actual signed controller, customer, dispatch, B-order and operator structural evidence. Current conditional signed-overlap certificate is not valid absent this evidence.",
-  "next_action": "Seek real versioned controller/source data-plane, matched whole-network source-copy/no-copy Q and own checkpoint p/K, and customer B/dispatch/operator evidence. Falsify policy-invariant post-exit residual at exact closed-network matched states; if absent retain separate first-exit bounds, derive only legitimately source-anchored deviation envelopes, and obtain official BLS–BEA numeric input-output sector crosswalk when genuinely accessible. Continue Nov22 argument review, not a new Q queue.",
+  "exact_question": "When can optional B-inert source data improve A's qualified accepted customer production while making policy-specific unsupported target recovery/customer demand differ by a bounded amount from no-copy, grounding or a new body?",
+  "proof_gap": "Can real signed controller/dispatch/customer B-order/operator lineage and independent approved target-state comparisons establish any nontrivial eta_j<h_j-l_j for source-copy/no-copy, with each learned policy's own p_ij and qualified whole-service K_i? Source data alone cannot; same fallback pose is insufficient.",
+  "next_action": "Seek actual source-read/controller hashes, signed full original B order and demand/operator/dispatcher records and independently approved matched first-exit target interventions. Estimate p,K and test a genuine paired eta; absent evidence retain eta=h-l, then continue Nov22 integrated argument and official BLS–BEA numeric crosswalk if public source route is available.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -350,7 +368,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "When can an economically valuable B-inert production-data source change A's joint qualified customer service without introducing policy-dependent unsupported recovery, demand or operator effects that invalidate a same-world comparison to no-copy, grounding, new embodiment and qualified specialist?",
+  "exact_intellectual_question": "When can optional B-inert source data improve A's qualified accepted customer production while making policy-specific unsupported target recovery/customer demand differ by a bounded amount from no-copy, grounding or a new body?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -370,5 +388,5 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Seek real versioned controller/source data-plane, matched whole-network source-copy/no-copy Q and own checkpoint p/K, and customer B/dispatch/operator evidence. Falsify policy-invariant post-exit residual at exact closed-network matched states; if absent retain separate first-exit bounds, derive only legitimately source-anchored deviation envelopes, and obtain official BLS–BEA numeric input-output sector crosswalk when genuinely accessible. Continue Nov22 argument review, not a new Q queue."
+  "exact_next": "Seek actual source-read/controller hashes, signed full original B order and demand/operator/dispatcher records and independently approved matched first-exit target interventions. Estimate p,K and test a genuine paired eta; absent evidence retain eta=h-l, then continue Nov22 integrated argument and official BLS–BEA numeric crosswalk if public source route is available."
 }
