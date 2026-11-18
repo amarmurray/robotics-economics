@@ -1,0 +1,19 @@
+# Partially observed transfer with hard operator budget: proof and rejection ledger
+
+| Claim | Status | Necessary scope / critical test |
+| --- | --- | --- |
+| P1 belief-state/resource Bellman recursion | **Derived** from finite-horizon induction, known joint conditional kernel and safe fallback | Pathwise supports and all payoff-relevant latent variables correctly modeled; known kernel and genuine approvals are *not* field observations |
+| G's better H signal implies G economically wins | **Rejected as unconditional.** G displaces accepted R production and reserves 1 unit, potentially leaving no recovery capacity | Blackwell order compares *experiments with identical feasible decisions/payoffs*, not costful physically different acquisition routes |
+| P2 hard support discontinuity | **Proved for the specified two-regime model.** With budget 2.1, any false report with positive probability makes G-followed-target infeasible; exact perfect report eliminates the mismatch path | A safe early abort, spare operator, alternative action, higher budget, or approved chance risk removes the knife-edge |
+| Robust optimized alternatives at Delta=8 | **Exact synthetic:** G perfect 8; G 99%-accurate hard 2; R 7; E 36/5; two-slot S 6 | Operates with qualified existing A, synthetic 0.9 new-body joint outcome, single fixed demand window |
+| Pathwise versus expected budget | **Exact:** G99 expected operator load 201/100 <= 2.1 yet mismatch path uses 3 > 2.1 | Expected feasibility is *not* hard safety; chance budget >=1% differs from original policy objective |
+| More free optional data hurts optimized value | **False**, if the older route/action set and all rights and costs remain available; ignore extra information | Forced controller removal, data processing obligation or physical costs break inclusion |
+| P3 Fréchet conditional acceptance interval | **Known sharp probability bounds**, with 2x2 constructive joint law | Conditional marginal outcome probabilities and regime/report/posterior weights must be identified; correlation with feasibility may widen conditional feasible sets |
+| P4 policy and adaptive value intervals | **Derived**, and sharp only under independent selection of conditional copulas for each counterfactual action/report and no impact on safety/cost menu | Cross-potential-outcome constraints or common hardware failures invalidate independent extremal selection |
+| Same identified skill marginals determine economic route ranking | **Rejected.** routine joint .5.. .75 yields value 5..7; redesigned body joint .8.. .9 yields 6.4..7.2; both rankings achievable | These are synthetic held-out marginal probabilities, not empirical robot evaluation |
+| Actual scientific originality, field safety, empirical effect | **Not established** | Blackwell, POMDP, anytime-constraint and Fréchet methods all prior; no independent review, robot data, dollar calibration, official macro backbone |
+
+## Reproducibility
+- Exact UTF-8 source: partial_observed_budget.js (blob 3e2e6df39ba79f2bb2cfb025405976365fc500a4), exercised in the connected JavaScript runtime **before publication** with 764 scoped assertions. Independent calculations within source enumerate regime, report and terminal action histories versus a closed-form Bellman solution.
+- Separate Python standard-library Fraction spot check yielded R=7, perfect G=8, near-perfect G conditional payoff 198/25 if legally eligible, E=36/5, S=6, expected G99 operator=201/100, and the four Fréchet interval endpoints. The Python check is not a repository CI run or independent peer review.
+- No real learning trials, industrial estimate, historic CI or verified hardware safety certificate. No claims about exact model correctness beyond tested synthetic assumptions.

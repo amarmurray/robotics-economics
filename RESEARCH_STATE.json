@@ -2,52 +2,51 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "678aab1f2c5a1b6290cb1b45f27bc39283bf9a8e",
+  "research_input_commit": "bda04c58f6bf0e37e082d7a62f853e5de4fd9f45",
   "lease": {
     "run_id": "scheduled-20261118T043516Z-partial-observed-safe-budget-5",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T04:35:16Z",
     "expires_at_utc": "2026-11-18T05:25:16Z",
-    "reason": "Substantive continuation of multistep partial-observation, joint qualification and pathwise safe/operator-resource policies; only one active writer."
+    "reason": "Completed partial-observation pathwise operator budget theory, sharp copula identification, scoped executed computation and empirical/learning integration; released with tested publication.",
+    "released_at_utc": "2026-11-18T04:49:22.682Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Unified When Capabilities Become Production: multi-step safe routine coverage vs target grounding vs new embodiment; jointly qualified customer bundles, adaptive contingent choices, operator/calendar and existing specialist. Theory-majority continuation to Nov22 synthesis.",
+  "current_mode": "Unified When Capabilities Become Production: partially observed data transfer, operationally feasible information, operator-budget hard constraints, joint customer bundle partial identification. Theory-majority to Nov22 synthesis.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MULTISTEP_SUPPORT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_OBSERVATION_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The full immediately preceding released research state at 678aab1f2c5a1b6290cb1b45f27bc39283bf9a8e is preserved byte-for-byte in PRE_MULTISTEP_SUPPORT_STATE.json; all previous preserved states, original Q1-Q13 backlog, main and other work remain untouched. The released live state now records the multi-step support continuation.",
-  "latest_result": "Finite resource-augmented safe-support path certificate (conditional Markov reachability), sufficient stochastic coupling for routine replacement, counterexample with identical 1/2 B,C skill marginals and full support but joint bundle probability 1/16 vs 7/16; customer f changes route ranking. A two-slot adaptive routine/grounding/new-body/specialist decision yields V(Delta)=3 up to Delta 3, 15/8+3 Delta/8 up to 20/3, -1/8+27 Delta/40 thereafter. At Delta=7 it earns 23/5; a productive routine second-stage qualification probability r>=3/4-(5/4)/Delta makes routine weakly beat costly grounding conditional on first success. These are conditional synthetic, standard DP/coupling constructions; no novelty/field calibration claim.",
+  "preservation": "The preceding released RESEARCH_STATE.json at bda04c58f6bf0e37e082d7a62f853e5de4fd9f45 is preserved byte-for-byte as PRE_PARTIAL_OBSERVATION_STATE.json; the full historical chain, original Q1-Q13 queue, finance/state archive and main remain intact. Existing released state from the acquisition lease does not imply old runtime control.",
+  "latest_result": "Finite latent-regime belief/budget Bellman recursion with almost-sure pathwise operator feasibility; in a two-slot synthetic customer-demand comparison at Delta=8, G perfect=8 but noisy G99=2 under budget2.1 due mismatch requiring3 resources; E=36/5, R=7, qualified S=6. Chance cap2% or actual budget3 allows noisy G=198/25. Expected operator G99=201/100 fails as proof of pathwise feasibility. Sharp Fréchet bounds with marginals R(.75,.75), E(.9,.9) give respective economic ranges [5,7] and [6.4,7.2], so opposite policy rankings remain possible. No field estimate or scientific novelty claim.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/multistep_support_results.json",
-    "exact_committed_source_blob": "391a5690ffad09c17965e13d28ed1efdede611a4",
-    "exact_results_blob": "ceaa98ca3004c1617d2c233a71727a12a77cf9d1",
-    "scoped_V8_assertions": 85,
+    "record_file": "research/theory_integration_2026_11_17/data_value/partial_observed_budget_results.json",
+    "exact_committed_source_blob": "3e2e6df39ba79f2bb2cfb025405976365fc500a4",
+    "exact_results_blob": "835c9edd40e971eab7bd9c3bb7f4b6e73e8e7bd1",
+    "scoped_V8_assertions": 764,
     "exact_stored_blob_executed": true,
-    "machine_results_match": true,
-    "independently_enumerated_event_tree_in_same_js": true,
+    "event_tree_vs_closed_form": true,
     "independent_python_stdlib_fraction_checks": true,
-    "independently_peer_reviewed": false,
     "historical_repository_CI": false,
+    "independent_peer_review": false,
     "robot_field_data": false,
-    "monetary_calibration": false,
+    "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
-    "proof_status": "Written finite-trajectory, coupling, elementary chain-rule and two-branch Bellman proofs; assertions verify synthetic calculations, not general theorem hypotheses."
+    "proof_status": "Finite-model Bellman induction, strict pathwise feasibility and sharp known Frechet constructions written; tests check synthetic arithmetic/finite enumeration, not true robotic kernels or safety."
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/multistep_support.js",
-    "research/theory_integration_2026_11_17/data_value/multistep_support_results.json",
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_EXERCISES.md",
-    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_SOLUTIONS.md",
+    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_PATHWISE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/PARTIAL_OBSERVATION_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/partial_observed_budget.js",
+    "research/theory_integration_2026_11_17/data_value/partial_observed_budget_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/SEQUENTIAL_SUPPORT_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_MULTISTEP_SUPPORT_STATE.json",
+    "research/theory_integration_2026_11_17/RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/data_value/MULTISTEP_SUPPORT_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_OBSERVATION_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md"
@@ -56,21 +55,21 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "safe_multi_step_support_and_customer_bundle_frontier_derived; latent_partially_observed_pathwise_budget_pending",
-      "question": "Under what H-dependent, partially observed safe coverage and joint qualification laws can routine production be an economic substitute for deliberate target grounding or new embodiment?",
-      "deliverable": "Extend existing finite-budget Bellman framework with regime-dependent histories, pathwise operator/safety limits, and conditional jointly accepted services. Find tractable sharp dominance conditions/counterexamples; no detached model or exogenous per-demo dollar value."
+      "status": "latent_belief_pathwise_budget_and_sharp_joint_acceptance_bounds_derived; robust_identified_set_policy_choice_pending",
+      "question": "Under partially identified transfer-regime mixtures and jointly accepted customer qualification laws, when can a resource-feasible policy be certified economically optimal (or robustly preferable) for the actual customer service window?",
+      "deliverable": "Derive identified-set robust domination/sensitivity frontier with matched accepted service, available specialist, resource safety and feasible diagnostics, then review full source-to-production theorem chain, closest prior art and Models A-B for Nov22; seek actual official numeric production backbone only via genuinely distinct source route."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
       "priority": 2,
-      "status": "finite_safe_reachability_cut_and_routine_byproduct_threshold_derived; field_identification_pending",
+      "status": "multistep_safe_routine_support_and_recovery_operator_budget_derived; matched_field_experiment_pending",
       "question": "Does retained routine autonomy create second-stage eligible safe exposure and held-out customer qualification at sufficient rate to displace target intervention within customer window?",
       "deliverable": "Determine how an improved controller changes rare-state visitation, gated intervention, unassisted attempted service, data content and subsequent qualification under a common resource/safety budget; keep free production byproduct as competent countermodel."
     },
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "multi_step_approved_state_exposure_and_joint_customer_acceptance_protocol_added; real_panel_official_backbone_missing",
+      "status": "joint_customer_qualification_frechet_bounds_and_audited_peak_recovery_protocol_added; real_panel_official_backbone_missing",
       "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
       "deliverable": "Pursue independent safe gate recall calibration, logged eligible risky-state exposures, correction inclusion and held-out joint qualified accepted-service outcomes; retain official numeric production backbone as explicit unsolved obligation and do not use vendor PR as substitute."
     },
@@ -83,16 +82,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "multi_step_synthesis_integrated_with_existing_qualified_production_f; Nov22_gate_open",
+      "status": "partial_observation_result_integrated_with_common_qualified_production_f; Nov22_gate_open",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty."
     }
   ],
   "portfolio_status": {
-    "theory": "Unified endogenous selected observations, retained update and multi-step safe reachability; exact joint qualification/coupling sufficiency and adaptive grounding/body/specialist decision. General partial-observation pathwise policy ordering open.",
-    "atlas": "Matched safe second-state exposure, audited gate, jointly held-out customer accepted-service and provenance panel specified, without real matched deployments, numerical official network matrix or money calibration.",
-    "paper": "20k-character continuation chapter and linked proof ledger in living manuscript; next Nov22 integrated argument and Models A-B review not passed.",
-    "learning": "Six student problems and separate solutions on reachability, joint bundles, adaptive allocations and optional free routine byproducts; no learner validation.",
-    "main_contribution": "Candidate integrated economics/ML distinction between feasible policy coverage and customer-production equivalence; underlying dynamic programming, reachability and coupling are standard, novelty unproven."
+    "theory": "Same integrated controlled acquisition argument now includes regime posterior support, hard pathwise operator/recovery budget, costful diagnostic vs changed-body option and full joint-qualification Fréchet bounds. Robust identified-set dynamic choice open.",
+    "atlas": "Added precise missing panel: regime proxy/confusion, zero-correction eligible exposures, independent gate misses, pathwise recovery peaks, joint 00/10/01/11 customer acceptance, real qualified specialist and economic opportunity; no observed industrial panel or official numeric macro matrix.",
+    "paper": "Added partially observed/pathwise and joint economic identification chapter to the integrated manuscript; Nov22 source/Models A-B synthesis remains unaccepted.",
+    "learning": "Six student problems, separate solutions on belief support, hard versus chance budgets, Frechet bounds, data/embodiment and safe measurement; no external teaching validation.",
+    "main_contribution": "Candidate economics/control synthesis of operating feasibility, transfer information and complementary customer service; all component Bayesian/POMDP/Fréchet results remain standard and scientific originality unresolved."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -118,7 +117,11 @@
     "Multi-step progress chain assumes validated stages change only upward and a first production stage is mandatory; the numerical policy example has one terminal customer bundle and a known Delta, not a calibrated industrial acceptance protocol.",
     "Graph support uses positive known transition edges and pathwise approved action outcomes; a zero event in finite empirical logs is not proof of a structurally zero transition. Real safety certification is entirely outside this computation.",
     "The M2 coupling is a strong sufficient condition for all monotone f, not a necessary description of a single customer's optimized policy.",
-    "The bundle copula and policy probabilities are synthetic. The published executable model uses an event-tree check by the same assistant plus independent Python rational spot checks, not independent scientific review."
+    "The bundle copula and policy probabilities are synthetic. The published executable model uses an event-tree check by the same assistant plus independent Python rational spot checks, not independent scientific review.",
+    "Perfect-report discontinuity relies on known exact zero posterior support and pathwise robust cost feasibility; in finite real logs zero observed errors is not perfection, and a safe abort/extra worker may remove the discontinuity.",
+    "Embodiment E success rate 0.9 and customer bundle value Delta are synthetic joint accepted-service outcomes; no physical body demonstrably achieves these figures.",
+    "Frechet bounds are conditional on identified acceptance marginals and independent ability to vary copulas by action/report/regime, with qualification not changing safety menu; shared failure factors and latent mixture identification can widen/narrow feasible identified sets.",
+    "Connected runtime executed 764 JS assertions on exact blob 3e2e6df39ba79f2bb2cfb025405976365fc500a4, with separate Python rational checks; historic CI, robot deployment, independent peer review and actual customer economic calibration not performed."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
@@ -182,5 +185,8 @@
     "robot_training": false,
     "historical_repository_ci": false,
     "independent_peer_review": false
-  }
+  },
+  "exact_question": "Under partially identified transfer-regime mixtures and jointly accepted customer qualification laws, when can a resource-feasible policy be certified economically optimal (or robustly preferable) for the actual customer service window?",
+  "proof_gap": "Regime and qualification dependence are only partially identified by selected gate/trajectory and separate marginal acceptance data; derive set-valued Bellman bounds or a sharp one-stage robust policy certificate without mistaking noisy support for certain safety.",
+  "next_action": "Derive identified-set robust domination/sensitivity frontier with matched accepted service, available specialist, resource safety and feasible diagnostics, then review full source-to-production theorem chain, closest prior art and Models A-B for Nov22; seek actual official numeric production backbone only via genuinely distinct source route."
 }

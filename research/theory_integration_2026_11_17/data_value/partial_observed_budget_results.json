@@ -1,0 +1,53 @@
+{
+  "model": "Partially observed two-regime, two-slot, pathwise operator cap with joint customer bundle",
+  "date_utc": "2026-11-18",
+  "input": {
+    "delta": 8,
+    "alphaR": 0.75,
+    "alphaG": 0.99,
+    "pBody": 0.9,
+    "operator_budget": 2.1,
+    "first_operator_ground_and_body": 1,
+    "wrong_regime_recovery": 2,
+    "qualified_specialist_per_slot": 2
+  },
+  "hard_budget": {
+    "routine": 7,
+    "grounding": 2,
+    "new_body": 7.2,
+    "competent_specialist": 6,
+    "optimal": "new_body",
+    "value": 7.2
+  },
+  "perfect_ground_report": {
+    "grounding": 8,
+    "optimal": "grounding"
+  },
+  "chance_overrun_at_most_2pct": {
+    "grounding": 7.92,
+    "optimal": "grounding"
+  },
+  "hard_budget_3": {
+    "grounding": 7.92,
+    "optimal": "grounding"
+  },
+  "mean_operator_for_99pct_ground": 2.01,
+  "joint_bounds_for_delta_8": {
+    "routine": [
+      5,
+      7
+    ],
+    "redesigned_body": [
+      6.4,
+      7.2
+    ]
+  },
+  "checks": {
+    "connected_v8_test_assertions": 764,
+    "independent_fraction_spot_checks": true,
+    "field_data": false,
+    "peer_review": false,
+    "repository_ci": false,
+    "structural_safety_guarantee": false
+  }
+}
