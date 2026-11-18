@@ -1,0 +1,53 @@
+{
+  "version": "2026-11-18",
+  "scope": "synthetic exact fractions; no field calibration or physical safety",
+  "inputs": {
+    "strata": [
+      {
+        "name": "A",
+        "target_weight": "3/5",
+        "safe_covered_share": "1",
+        "covered_policy_difference": "3/10",
+        "whole_service_payoff_range": "2"
+      },
+      {
+        "name": "B",
+        "target_weight": "2/5",
+        "safe_covered_share": "1/4",
+        "covered_policy_difference": "1/10",
+        "whole_service_payoff_range": "2"
+      }
+    ],
+    "residual_bound": "2/25",
+    "additional_cost": "3/20"
+  },
+  "results": {
+    "covered": "19/100",
+    "missing": "3/10",
+    "missingWidth": "3/5",
+    "globalLow": "-41/100",
+    "globalHigh": "79/100",
+    "anchoredLow": "-11/100",
+    "anchoredHigh": "49/100",
+    "isolationLower": "11/100",
+    "afterCost": "-1/25",
+    "htP": "5/4",
+    "htS": "1",
+    "htDiff": "1/4"
+  },
+  "verified_extreme_states": 9,
+  "assignment_vectors_enumerated": 16,
+  "checks": 20,
+  "carryover": {
+    "G_then_R": 22,
+    "R_then_G": 19,
+    "R_then_R": 20,
+    "naive_G_period": 9,
+    "naive_R_period": 13
+  },
+  "notes": [
+    "The worldwide policy on unsupported cells is a hypothetical estimand, not a physically admissible choice without separate certification.",
+    "Only pre-assignment customer/pool strata are conditioned upon; post-policy demand enters whole-service Y.",
+    "Positive policy mean effect does not establish per-regime dominance or pathwise operator safety."
+  ]
+}

@@ -2,50 +2,59 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "8c8dfb28f6b84115f9d19e33acc717f0243d0a9b",
+  "research_input_commit": "bc4ac801f5daf69687f93c36651e8089e5ae6c22",
   "lease": {
     "run_id": "auto-20261118T153915Z-safe-policy-overlap",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T15:39:35.327Z",
     "expires_at_utc": "2026-11-18T16:21:35.327Z",
-    "reason": "Safely supported full-policy response identification versus unsupported embodiment/customer histories; controller/dispatch/market public audit and matched service proofs; November 22 synthesis."
+    "reason": "Derived approved complete-network mean identification, sharp unsupported target bounds, selective retention and persistent learning/dispatch counterexamples; version-pinned public architecture example; stored-source replay and independent exact arithmetic; integrated paper/Nov22/A-B/teaching; no physical or target customer verification.",
+    "released_at_utc": "2026-11-18T15:50:58.818Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: auditable architectural controller/operator/market cuts, policy-uniform support and precision of qualified customer accepted-service economic certification; physical admission separately required; theory majority through Dec6, Nov22 gate open.",
-  "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_INFLUENCE_STATE.json",
+  "current_mode": "When Capabilities Become Production: full-network approved policy mean identification, bounded missing safe support and selective retained-fallback alternatives under controller/operator/customer interference; theory majority through December 6, November 22 scientific gate open.",
+  "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POLICY_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state at 8c8dfb28f6b84115f9d19e33acc717f0243d0a9b preserved byte-for-byte as PRE_AUDITABLE_INFLUENCE_STATE.json; full earlier linked state/old Q1-Q13 backlog and unreconciled main/work preserved. Lease acquired on 5105bd06d3de9b015732098293b2b404f14e8763.",
-  "latest_result": "Conditional economic sensitivity frontier for preceding synthetic staged-versus-specialist J comparison: m=67/4000; a previously omitted controller-or-market B-service path with range 3 requires c+3 min(1,q_C+q_M)<67/4000. With no extra cost/single path strict q<67/12000. Verified arithmetic: .002+.002 yields serial 7.08475; complete unknown market path defeats certification even if controller path is cut. Under independent predeclared truly covered cells and PROVED dominating observable joint trigger, one-sided zero-event bound at 95% gives 536 trials for one stratum, 783 EACH across four strata (simultaneous). This cannot be applied to ordinary task success, latent-regime pooled histories or non-iid shared controllers, and cannot prove hard physical safety. Architectural graph cuts require versioned complete causal graph; no real source evidence validates C/b. Prior result, user direction and Models A/B retained.",
+  "preservation": "Full previous released state from bc4ac801f5daf69687f93c36651e8089e5ae6c22 preserved byte-for-byte at PRE_SAFE_POLICY_SUPPORT_STATE.json; older linked states, Q1-Q13 backlog, unreconciled main and unobserved Codex work preserved. Exclusive lease acquired on 4d7a73a0fb652426b53a3bedebaaf04cca6199bf, released in publication commit.",
+  "latest_result": "Exact conditional safe-support proposition: when genuinely independently randomized and approved complete interference-network policies cover pre-action enrolled strata, the full accepted-service population mean difference is identified there without a cross-world coupling event. For uncovered mass, sharp unrestricted bounded-potential-outcome interval A±B remains, even with arbitrarily many covered trials; two safe selective policies using a common retained fallback differ by A only under true network isolation and invariant exposure environment. Synthetic A=19/100, target-uncovered 3/10, global bounds [-41/100,79/100] or anchored specialist [-11/100,49/100]; conditional Gamma=2/25 leaves 11/100, further cost 3/20 eliminates guarantee. Persistent-learning switchback and dispatch customer-reallocation countermodels; pinned public Open-RMF task allocation docs are examples of possible dispatch links, NOT proof of any target fleet architecture.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/auditable_network_certificate_results.json",
-    "source_blob": "ee556cf6fefb70dbd25aebf312a3ab7bbd2b0bbb",
-    "results_blob": "047e4b1fc67a6dd4cfe3882ec622bc4535f762c7",
-    "scoped_V8_function_checks": 217,
-    "independent_Python_threshold_check": true,
-    "exact_committed_file_replay": false,
-    "mathematical_proof": "Conditional structural-cut induction on complete time-unrolled graph; union-bound whole-service production sensitivity from prior certified margin; classical one-sided exact zero-event inversion with finite-cell simultaneous Bonferroni; observational equivalence for unsupported policy histories; physical admission remains independent.",
+    "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
+    "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
+    "results_blob": "6df0f786e8369994c5f86ddc8eecda37aa6cbf84",
+    "scoped_exact_fraction_checks": 20,
+    "unsupported_endpoint_states_enumerated": 9,
+    "random_assignment_vectors_enumerated": 16,
+    "exact_stored_blob_replayed_results_equal": true,
+    "independent_Python_Fraction_check": true,
+    "proof_status": "Conditional law of total expectation, sharp unrestricted unsupported-outcome endpoints and selective same-fallback identity plus additive residual; standard Horvitz–Thompson and missing-data causal methods, not novel mathematical theorem or empirical validation.",
     "historical_repository_CI": false,
     "independent_peer_review": false,
     "robot_field_data": false,
     "customer_joint_acceptance_data": false,
+    "physical_operator_safety_certified": false,
+    "actual_target_fleet_architecture_verified": false,
     "official_numerical_production_backbone": false,
-    "verified_physical_operator_safety": false,
-    "architectural_zero_verified": false,
-    "live_binomial_dominance_verified": false
+    "public_open_rmf_example_source_versioned": true
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/SAFE_POLICY_SUPPORT_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/SAFE_POLICY_SUPPORT_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/SAFE_POLICY_SUPPORT_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/safe_policy_support.js",
+    "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
+    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POLICY_SUPPORT_STATE.json",
     "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_THEORY.md",
     "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_PROOF_LEDGER.md",
     "research/theory_integration_2026_11_17/data_value/AUDITABLE_NETWORK_CERTIFICATE_EMPIRICAL.md",
     "research/theory_integration_2026_11_17/data_value/auditable_network_certificate.js",
     "research/theory_integration_2026_11_17/data_value/auditable_network_certificate_results.json",
-    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
-    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
-    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
-    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/PRE_AUDITABLE_INFLUENCE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
@@ -57,9 +66,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "conditional_architectural_cut_and_economic_audit_precision_frontier_derived; real_policy_uniform_architecture_and_dominating_joint_trigger_unverified",
-      "question": "Can real versioned controller, replay, operator and customer-demand architecture prove a complete structural influence cut for safely reachable grounding/embodiment policies; failing that, which approved matched whole accepted-service evaluation identifies the economic route/specialist difference without pretending to observe a cross-world coupling mismatch?",
-      "deliverable": "Inspect actual available architecture evidence, distinguish mechanically provable zeros from statistical unknowns and customer substitution; derive a target-stratified matched production identification bound under genuine safe support, including specialist and retained controller; consolidate into November 22 same-argument synthesis."
+      "status": "approved_pool_mean_partial_support_and_selective_fallback_derived; target_fleet_cluster_boundary_safe_eligibility_customer_service_data_unobserved",
+      "question": "Under a true full controller/dispatch/customer interference network and safely eligible customer cohorts, which versioned matched accepted-service policy comparison identifies source versus grounding versus competent specialist production and supports target transport without imposing an unobserved cross-world coupling?",
+      "deliverable": "Audit actual network component architecture, immutable controller lineage/dispatch/operator/customer denominator and safe admission. Obtain or explicitly mark unavailable a network-level whole-service experiment; test selection support and residual interference, with retained no-training/qualified specialist controls; consolidate Nov22 theorem and falsifier."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -84,17 +93,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 living argument, A/B bridge and teaching now include graph-cut impossibility and audit precision; scientific gate still open.",
+      "status": "Nov22 synthesis, manuscript, A/B bridge and separate student/instructor packets include full-network approved policy means, target missing support and switchback/dispatch countermodels; scientific gate open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
     }
   ],
   "portfolio_status": {
-    "theory": "Derived conditional structural graph-cut zeros and a sharp additional path loss threshold for previous 7.09675/7.08 comparator; finite-cell one-sided binomial audit precision with no-support impossibility. Established tools, not claimed novelty.",
-    "atlas": "Prospective versioned controller/embodiment, replay rights, operator dispatch and original customer registry audit schema; no actual real records, quantitative official source backbone or qualified-service customer observations.",
-    "paper": "Integrated network auditability in living main manuscript, November 22 working synthesis, Models A/B and data-value program; argument remains conditional and gate open.",
-    "learning": "Six new student questions and separate solutions about graph cuts, strict threshold, conservative market unknown, independent audit support and hard safety.",
-    "main_contribution": "Candidate synthesis of qualified production economic decision slack, endogenous transfer and auditable network safety; classical union bounds/binomial and graph cuts are not proposed novel theorems. Actual technical/customer validation still needed."
+    "theory": "Conditional full-policy mean identification distinct from cross-world joint coupling; sharp unsupported-target bounds, approved selective fallback identity and regression failure under persistent learning/dispatch interference. Existing production/learning and network proof structures preserved.",
+    "atlas": "Pinned official Open-RMF dispatcher/multi-fleet README versions show a concrete possible cross-fleet task-routing path, not actual target robot deployment or shared ML controller/operator system. Target-wide customer opportunity/accepted-service panel and official BEA/BLS numeric matrix remain missing.",
+    "paper": "Living manuscript, Nov22 synthesis and Models A/B bridge integrate safe eligible support/no-transport outcome and complete-network economic unit with retained policy; not reviewed/accepted.",
+    "learning": "Six exercises with separate solutions on bounded target policy, selective comparison, residual spillover, switchback and customer reallocation; 20 exact scoped checks with 9/16 enumerations and Python fraction independent arithmetic.",
+    "main_contribution": "Still unselected: candidate integrated qualification-to-service economics with endogenous learning/demand, auditable network boundaries and safe empirical policy comparison. Classical identification and randomization are prior art, not novelty claim."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -160,7 +169,10 @@
     "Illustrative specialist upper 7.08, customer weights, controller link influence and service-value sensitivity are assumed, not customer/robot measured.",
     "The 67/12000 omitted path threshold depends on the prior synthetic serial lower and specialist upper, whole B accepted-service range 3, and newly non-overlapping losses; it is not observed robotics demand or a reliability standard.",
     "One-sided zero-event binomial calculations require an independently PROVEN observable E dominating the joint coupling mismatch, supported independent fixed cells and coverage of policy/θ; none was established with actual data. Ordinary task successes do not identify this causal quantity.",
-    "Verified controller cutoff alone cannot remove customer order substitution or shared operator effects. No actual versioned complete graph, access-control proof, mechanical operator fail-safe evidence or new-embodiment safe-support panel was obtained."
+    "Verified controller cutoff alone cannot remove customer order substitution or shared operator effects. No actual versioned complete graph, access-control proof, mechanical operator fail-safe evidence or new-embodiment safe-support panel was obtained.",
+    "Global unsupported-policy SS1 bounds are sharp only in unrestricted bounded-potential-outcome class; they do not make physically unapproved E/grounding admissible, and independent network randomization does not identify latent-theta robust guarantees.",
+    "Selective policy identity assumes pre-treatment eligibility fixed, same selected-pool treatment exposure environment, genuinely independent complete controller/dispatch/customer components, and shared fallback outside support. A common dispatcher or model broadcast invalidates this identity unless measured or structurally blocked.",
+    "The accessible Open-RMF architecture is public example documentation pinned at Nov17/18 commits, not observed target fleet architecture or proof of human operator safety; standard Manski/Aronow-Samii tools are explicitly prior art."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
@@ -182,7 +194,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Conditional theoretical and synthesis continuation published without repeating the earlier substantive notification; last_notification unchanged.",
+  "quiet_checkpoint": {
+    "key": "20261118-safe-supported-complete-policy-estimand",
+    "summary": "Shipped substantial same-argument theory, public version-pinned dispatch-path illustration, exact stored JS replay/independent rational check, paper/program/Nov22/teaching updates; no uncalibrated field advantages or gate claims."
+  },
   "publication_parent_commit": "3541db1e2f19854e37b779d783c35a8e89310541",
   "current_proof_gap": "Componentwise C/b and joint coupling/complete recovery support lack empirical or engineering certification for grounding-induced histories; a statistically small mean correlation is not a uniform bound.",
   "exact_next_action": "Audit publicly accessible complete controller and dispatch architectures for verifiable causal zeros, map demand/qualification outcomes and counterfactual specialist upper, and test a safe matched perturbation design without unapproved robot operations.",
@@ -221,8 +236,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Can engineering-validated controller version lineage, scheduler isolation and matched customer-order perturbations justify a nonvacuous joint policy-uniform causal influence envelope for a safe, complete data-acquisition/deployment route against a specialist?",
-  "proof_gap": "Componentwise C/b and joint coupling/complete recovery support lack empirical or engineering certification for grounding-induced histories; a statistically small mean correlation is not a uniform bound.",
-  "next_action": "Audit publicly accessible complete controller and dispatch architectures for verifiable causal zeros, map demand/qualification outcomes and counterfactual specialist upper, and test a safe matched perturbation design without unapproved robot operations.",
+  "proof_gap": "Full-policy means are identifiable only over actual safe network-randomized support; no verified architecture isolates the real controller/operator/customer network or transports safe enrolled responses to excluded embodiment/customer states. Neither a same-regime robustness bound nor a hard physical safe-stop follows from a positive target mean.",
+  "next_action": "Audit the actual versioned network and independent physical admission evidence if authorized data exist; otherwise consolidate the Nov22 core theorem/assumptions and build a falsifiable target-stratified accepted-service protocol, identify public official numeric production backbone through genuine available data routes (not vendor announcements), and retain no-data limitations.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -270,5 +285,23 @@
     "customer_joint_acceptance_data": false,
     "official_numerical_production_backbone": false,
     "verified_shared_operator_safety": false
-  }
+  },
+  "validation_previous_auditable_network_certificate": {
+    "record_file": "research/theory_integration_2026_11_17/data_value/auditable_network_certificate_results.json",
+    "source_blob": "ee556cf6fefb70dbd25aebf312a3ab7bbd2b0bbb",
+    "results_blob": "047e4b1fc67a6dd4cfe3882ec622bc4535f762c7",
+    "scoped_V8_function_checks": 217,
+    "independent_Python_threshold_check": true,
+    "exact_committed_file_replay": false,
+    "mathematical_proof": "Conditional structural-cut induction on complete time-unrolled graph; union-bound whole-service production sensitivity from prior certified margin; classical one-sided exact zero-event inversion with finite-cell simultaneous Bonferroni; observational equivalence for unsupported policy histories; physical admission remains independent.",
+    "historical_repository_CI": false,
+    "independent_peer_review": false,
+    "robot_field_data": false,
+    "customer_joint_acceptance_data": false,
+    "official_numerical_production_backbone": false,
+    "verified_physical_operator_safety": false,
+    "architectural_zero_verified": false,
+    "live_binomial_dominance_verified": false
+  },
+  "exact_intellectual_question": "What economically relevant grounding, routine-data or embodiment policy can be distinguished from a competent specialist on a common customer accepted-service denominator when transfer regime and network interference are only partially observed and safety restricts assignment?"
 }
