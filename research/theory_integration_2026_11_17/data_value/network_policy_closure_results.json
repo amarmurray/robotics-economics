@@ -1,0 +1,87 @@
+{
+  "version": "2026-11-18",
+  "scope": "conditional exact arithmetic; complete policy reward; no customer/robot field measurement",
+  "inputs": {
+    "networks": 4,
+    "old_whole_service": [
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "grounding_shared_whole_service": [
+      "8",
+      "15",
+      "8",
+      "8"
+    ],
+    "grounding_isolated_after_cost": [
+      "23/2",
+      "23/2",
+      "23/2",
+      "23/2"
+    ],
+    "eligible_old": [
+      "5",
+      "5",
+      "5",
+      "5"
+    ],
+    "eligible_grounding": [
+      "7",
+      "7",
+      "7",
+      "7"
+    ],
+    "assignment_probability": "1/2",
+    "isolation_incremental_cost": "1/2",
+    "unsupported_original_outcome": "5",
+    "unsupported_grounding_interval": [
+      "0",
+      "10"
+    ]
+  },
+  "results": {
+    "old_mean": "10",
+    "shared_mean": "39/4",
+    "isolated_mean": "23/2",
+    "shared_minus_old": "-1/4",
+    "isolated_minus_old": "3/2",
+    "eligible_only_gain": "2",
+    "shared_minus_isolated": "-7/4",
+    "unsupported_effect_after_cost_lower": "-7/2",
+    "unsupported_effect_after_cost_upper": "13/2",
+    "HT_expected_shared": "39/4",
+    "HT_expected_old": "10",
+    "HT_expected_difference": "-1/4",
+    "status_quo_components": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "C"
+      ],
+      [
+        "D"
+      ]
+    ],
+    "policy_union_components": [
+      [
+        "A",
+        "B",
+        "C"
+      ],
+      [
+        "D"
+      ]
+    ]
+  },
+  "assignment_vectors_enumerated": 16,
+  "scoped_assertions": 14,
+  "limitations": [
+    "All payoffs are normalized synthetic complete service contribution, not task scores or dollar calibration.",
+    "Four independent complete interference networks are assumed, not four robots in one connected customer market.",
+    "No physical safety of any policy, isolation efficacy or transfer effect is inferred by enumerating assignments."
+  ]
+}

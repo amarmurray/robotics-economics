@@ -1,0 +1,10 @@
+# Student exercises — networks, grounding and economically qualified production
+
+Use [the theory](POLICY_CLOSED_NETWORKS_AND_DATA_VALUE.md), not a benchmark-to-dollar shortcut. Complete service values are synthetic normalized contribution. Instructor answers are in a separate [solution file](POLICY_CLOSED_NETWORKS_SOLUTIONS.md).
+
+1. An old controller connects A to B. A proposed grounded dispatch policy additionally allows B to allocate customer requests to C; D remains independent. Compute the status-quo components and conservative policy-closed components. State why the latter matter for randomized treatment.
+2. Prove a complete-network Horvitz–Thompson mean difference is unbiased under positive assignment propensities and policy-closed component consistency. Which parts of the proof do *not* require independent exogenous customer demand shocks? What still fails?
+3. F gives eligible A 5 and excluded B 5. Grounding gives A 7; B's grounding-policy output is unidentified within [0,10]; additional policy cost is 1/2. Derive the sharp complete-policy difference interval and recompute under a verified full controller, dispatch, customer and operator isolation cut keeping B=5.
+4. Four independent complete customer networks have fallback totals (10,10,10,10), shared G (8,15,8,8) and costed isolated G (23/2 each). Compute three network-level contrasts. Explain how all four A-side qualified service improvements could still equal +2.
+5. A complete selective G policy and complete selective F policy both keep B on the approved old controller but interact through demand reallocation. Can direct randomized assignments of these full policies identify their mean economic effect? Why can eligible-only observations not establish it? What if all 10,000 robots belong to one connected market?
+6. Prove why optional free training data cannot decrease optimized production value if old approved policies and market conditions remain selectable. Provide a counterexample where *forced* global updates or incremental learning cost breaks the conclusion, without calling the free data economically harmful.
