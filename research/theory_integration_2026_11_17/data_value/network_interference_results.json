@@ -1,0 +1,43 @@
+{
+  "scope": "conditional synthetic network-level production, not calibration or safety signoff",
+  "assertions": 318,
+  "selective": {
+    "baseline": 7,
+    "independent": 7.35,
+    "sensitivity_set": [
+      -0.4,
+      1.5
+    ],
+    "net_interval": [
+      6.8999999999999995,
+      7.47
+    ],
+    "zero_cost_spillover_cutoff": 1.1666666666666667,
+    "robust_old_when_uncertain": 7,
+    "robust_mix_when_tighter": 7.109999999999999
+  },
+  "recovery": {
+    "identical_marginals": [
+      0.09999999999999999,
+      0.09999999999999999
+    ],
+    "identical_expected_total": 0.19999999999999998,
+    "overlapping_supported_peak": 2,
+    "overlapping_peak_feasible": false,
+    "mutually_exclusive_peak": 1,
+    "mutually_exclusive_peak_feasible": true
+  },
+  "identification": {
+    "ht_target_mean": 14.575000000000001,
+    "ht_design_expectation": 14.575,
+    "adaptive_target_value": 6.95,
+    "adaptive_ipw_value": 6.95,
+    "unidentified_mechanism": true
+  },
+  "status": {
+    "field_data": false,
+    "verified_robot_safety": false,
+    "independent_review": false,
+    "full_repo_ci": false
+  }
+}

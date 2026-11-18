@@ -2,30 +2,31 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "4986e37b7463ebd5e67b779a4a1c1349990643ef",
+  "research_input_commit": "928e778bfb836ebd674dc348143fea39a57d0039",
   "lease": {
     "run_id": "scheduled-20261118T112925001Z-network-interference12",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-18T11:29:25.001Z",
     "expires_at_utc": "2026-11-18T12:34:25.001Z",
-    "reason": "Scoped research on cross-pool controller/network interference, customer-demand response, and shared pathwise operator capacity."
+    "reason": "Completed conditional connected-network data-transfer/production proof and sharp externality sensitivity, joint operator recovery support counterexample, prospective matched atlas protocol, manuscript/Models A–B/Nov22 synthesis, 318 exact-source checks and independent Python fraction validation; no physical test.",
+    "released_at_utc": "2026-11-18T11:41:32.789Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: demand-conditioned safe full-controller-pool potential histories, identification from approved randomized saturation, unidentified third-order data/controller qualification effects and segment-selective rollout. Theory majority through December 6; Nov22 synthesis open.",
+  "current_mode": "When Capabilities Become Production: source-to-qualified accepted production under connected controller, human recovery, and customer-demand networks; repair independent-pool assumption; theory majority through Dec6 and November22 synthesis still open.",
   "user_direction": "Amar confirmed Data-Driven Automation as https://arxiv.org/abs/2606.10127 and asked to develop its economic/ML applications to robotics, including economically valuable teleoperation at a market price. Incorporate this seed into sustained integrated theory and the full roadmap; keep going without a new detached Q-number model.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released RESEARCH_STATE.json from 4986e37b7463ebd5e67b779a4a1c1349990643ef stored unchanged in research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json; exclusive active lease b543642df48c36a7b9bc821564e07fec6658c359 retained in ancestry. Previous data-value, finance/theory, original Q1–Q13 backlog, main and inaccessible Codex work are unchanged.",
-  "latest_result": "Full approved controller-pool randomization can identify a stratum-specific mean economic full-route contrast without latent H labels (not regime-conditional joint potential outcomes). In a synthetic 3-slot symmetric table f0=7, f1=7.5, f2=7.4, pairwise f3=6.7 yet unobserved safe hypothetical f3 in [6,9] implies beta_123 in [-.7,2.3], reversing comparison to the 7.5 fixed-one-R route. Bernoulli x>0 reaches RRR with probability x^3 and is inadmissible if RRR not pathwise approved; with approved z>=6, maximin Bernoulli contributes 7.274516873 vs fixed-one-R 7.5. Target A weight .7 observed 7.5 and B weight .3 unknown [5,9] give global mixed [6.75,7.95] but A-only mix with old G fallback B yields 7.35 vs G baseline 7, subject to segmentation cost <.35 and no spillover. All conditional synthetic examples.",
+  "preservation": "Previous released RESEARCH_STATE.json from 928e778bfb836ebd674dc348143fea39a57d0039 archived byte-for-byte in research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json; exclusive lease acquisition 6b74cb36b9b80aa1c9fbf77f7afc0865c0daf9e4 remains in ancestry. Earlier data-value and finance backlog, main and inaccessible Codex work unchanged.",
+  "latest_result": "Network-level HT/sequential supported stochastic policy identification requires interference-closed units, complete eligible-order histories and safe vector/history positivity. Earlier 70% A-only supported gain 0.35 becomes Δ=0.35-0.3*s-c when B-market/controller spillover s exists; if s∈[-0.4,1.5] and c=0 full contribution is [6.9,7.47] vs old 7, rather than 7.35. Same 0.1/0.1 sitewise recovery marginals and 0.2 expected human usage permit either peak2 (hard capacity1 violation) or peak1 (no breach of this cap), depending on joint support. Different controller-learning vs commercial-demand mechanisms can create identical observed B net outcome -0.6. All normalized synthetic illustrations, not measured robots.",
   "validation": {
-    "record_file": "research/theory_integration_2026_11_17/data_value/safe_pool_factorial_results.json",
-    "source_blob": "aeb802439fc8e811b31157825be4a1c0a00140f9",
-    "results_blob": "b6e84bda9b3119748c311403cc94002c0cd8b45d",
+    "record_file": "research/theory_integration_2026_11_17/data_value/network_interference_results.json",
+    "source_blob": "f821bda6ba0dfccc2c99827d36029da5058247a9",
+    "results_blob": "6b59575a8136117607167e0381113c9f763f0bbe",
     "exact_blob_replayed_and_results_equal": true,
-    "scoped_V8_assertions": 1429,
+    "scoped_V8_assertions": 318,
     "independent_python_fraction_checked": true,
-    "mathematical_proof": "Finite-population randomization expectation, standard Boolean Möbius inversion, explicit sharp bounded-mean endpoint constructions, Bernoulli cubic calculus and partial target weights; tests check arithmetic not proof.",
+    "mathematical_proof": "Finite-network HT expectation; sequential history-probability cancellation; elementary sharp monotone spillover endpoints under unrestricted response class; explicit same-marginal joint operator-support counterexample. Assertions validate finite arithmetic, not structural truth or theorem novelty.",
     "historical_repository_CI": false,
     "node_clean_checkout": false,
     "independent_peer_review": false,
@@ -34,16 +35,16 @@
     "official_numerical_production_backbone": false
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_THEORY.md",
-    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_PROOF_LEDGER.md",
-    "research/theory_integration_2026_11_17/data_value/SAFE_POOL_FACTORIAL_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/NETWORK_INTERFERENCE_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/network_interference.js",
+    "research/theory_integration_2026_11_17/data_value/network_interference_results.json",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
-    "research/theory_integration_2026_11_17/data_value/safe_pool_factorial.js",
-    "research/theory_integration_2026_11_17/data_value/safe_pool_factorial_results.json",
-    "research/theory_integration_2026_11_17/data_value/PRE_SAFE_POOL_FACTORIAL_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_INTERFERENCE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/PRE_DATA_VALUE_STATE.json",
     "RESEARCH_EXECUTION.md",
@@ -54,9 +55,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "safe_full_pool_mean_design_and_third_order_nonidentification_derived; physical_controller_network_calibration_open",
-      "question": "Which independent safe controller-network exposure vectors and matched whole-service/customer-order observations identify feasible economic policy differences across demand strata without post-treatment bias or unsafe exploration?",
-      "deliverable": "Extend coupled same-world response bounds to documented controller-network exposure mapping, hard operator support, and tested partial coverage; preserve old controller/specialist and exact capture costs."
+      "status": "connected_network_causal_support_and_externality_sensitivity_derived; approximate_interference_error_and_field_calibration_open",
+      "question": "With shared checkpoints, recovery and market links, which independently safe network exposure maps and measured residual long-range effects suffice to rank complete adaptive source/grounding/body policies while retaining demand feedback and persistent transfer?",
+      "deliverable": "Develop an explicit approximate-neighborhood remainder / sensitivity bound and complete-policy safety/rank certificate, with independent checkpoint and whole-demand follow-up tests. Keep customer revenue and qualification separate."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -68,8 +69,8 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "prospective_safe_pool_saturation_design_added; official_numeric_backbone_and_customer_panel_missing",
-      "question": "Which controlled source-target/grounding experiments and accepted-service production relationships identify data interactions and customer-conditioned value?",
+      "status": "prospective_connected_controller_operator_market_exposure_schema_added; official_numeric_backbone_and_actual_customer_panel_missing",
+      "question": "Which linked full-network controller lineage, operator overlap, original order registry and held-out joint qualification measurements identify meaningful cross-pool economic data value?",
       "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
     {
@@ -81,17 +82,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "nov22_safe_pool_factorial_assumptions_integrated; gate_not_passed",
+      "status": "nov22_network_independence_objection_integrated; gate_not_passed",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Reconcile full-paper theorem naming and Model A/B reduction, controller-network vs randomized mean vs persistent-regime robust set, closest prior art, empirical source backbone and separate exercises/solutions."
     }
   ],
   "portfolio_status": {
-    "theory": "Safe whole-pool randomization mean estimand with exact higher-order nonidentification, Bernoulli-vs-fixed saturation safety result and customer-segment selective robust-policy bound.",
-    "atlas": "Demand-stratified pool intervention and full-service acceptance/zero-order protocol advanced; BLS/BEA numeric source indexes known, but no extracted matched numerical production backbone.",
-    "paper": "Living theory, Nov22 synthesis and A/B reduction updated with safe assignment-level identification limits and unmeasured triple controller interaction.",
-    "learning": "Five new student problems with distinct complete instructor solutions; prior teaching assets unchanged.",
-    "main_contribution": "Candidate physically feasible source-to-qualification/accepted-production interaction proposition, not validated novelty: factorial, HT, interference and partial ID all established prior mathematics."
+    "theory": "Cross-pool controller/operational/customer interference and network-level approved history identification; exact selective bound/counterexample and operator marginals-vs-joint support proof.",
+    "atlas": "Prospective three-layer network exposure/customer/technical acceptance table; official BLS/BEA quantitative matrix and real linked field acceptance still absent.",
+    "paper": "Living manuscript, November22 synthesis working objections and Models A/B boundary expanded without changing original scope or claiming a passed gate.",
+    "learning": "Five network-data-value problems and complete separate instructor answers.",
+    "main_contribution": "Candidate physical source-to-qualified-production network composition; network IPW, partial identification and recovery-copula mathematics are prior foundations, publication novelty unestablished."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -146,7 +147,10 @@
     "BLS 2025–35 Table 1.9 and BEA November 2026 IO catalog URLs were verified from primary webpages; numerical industry matrix and robot task alignment were not parsed.",
     "The three-slot factorial result assumes stable potential whole-pool outcomes and no between-pool spillover; it does not identify a latent persistent H-specific lower bound from randomized population means.",
     "The sharp beta_123 interval is relative to an unconstrained bounded-mean response class; additional physical kernel restrictions may shrink it and unapproved triple vectors are excluded regardless of modeled economics.",
-    "The target segment example fixes pre-action weights, capture units and no cross-segment interference; any real differentiation overhead must be deducted and actual safety/rights approved."
+    "The target segment example fixes pre-action weights, capture units and no cross-segment interference; any real differentiation overhead must be deducted and actual safety/rights approved.",
+    "Latest connected-network spillover set [-0.4,1.5], customer shares and recovery marginals are invented sensitivity parameters, NOT empirically supported bounds. A site-isolation positive gain alone is not a network-wide ranking.",
+    "Three controller, operator and customer-network edges are conceptual and not measured. A complete exposure map or approximate-neighborhood residual error bound is an unresolved proof/empirical gap; one connected experimental network has no independent design replication.",
+    "Recovery joint support example isolates instantaneous human capacity B=1 only; other physical loads, temporal windows, technical safe abort and long-tail certification remain outside the numeric illustration."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
