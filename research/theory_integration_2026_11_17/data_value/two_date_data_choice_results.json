@@ -1,0 +1,109 @@
+{
+  "model": "two-date, retained qualified production, synthetic and uncalibrated",
+  "units": "one unit = twenty score ticks",
+  "budget_units": 1.2,
+  "actions": [
+    "I",
+    "Z",
+    "X",
+    "G",
+    "E"
+  ],
+  "terminal_net_payoffs_in_twentieths": {
+    "I": [
+      40,
+      40
+    ],
+    "Z": [
+      120,
+      -80
+    ],
+    "X": [
+      130,
+      -70
+    ],
+    "G": [
+      140,
+      -120
+    ],
+    "E": [
+      80,
+      60
+    ]
+  },
+  "selected_log_law": "P(recorded high|H)=P(recorded high|L)=2/5; selected lows=0; no record=3/5",
+  "routine_100_selected_logs_value": 4.5,
+  "perfect_audit_value": 4.8,
+  "perfect_routine_info_value": 6,
+  "perfect_audit_policy": {
+    "v": 96,
+    "high": "G",
+    "low": "E"
+  },
+  "unobserved_log_policy": {
+    "v": 90,
+    "selected": "E",
+    "missing": "E"
+  },
+  "audit_accuracy_grid": [
+    {
+      "accuracy": "90/180",
+      "high": "E",
+      "low": "E",
+      "value": 3.3
+    },
+    {
+      "accuracy": "130/180",
+      "high": "X",
+      "low": "E",
+      "value": 3.3
+    },
+    {
+      "accuracy": "144/180",
+      "high": "X",
+      "low": "E",
+      "value": 3.65
+    },
+    {
+      "accuracy": "150/180",
+      "high": "X",
+      "low": "E",
+      "value": 3.8
+    },
+    {
+      "accuracy": "171/180",
+      "high": "G",
+      "low": "E",
+      "value": 4.5
+    },
+    {
+      "accuracy": "180/180",
+      "high": "G",
+      "low": "E",
+      "value": 4.8
+    }
+  ],
+  "qualification_menu_info_value": {
+    "incumbent": {
+      "no_signal": 2,
+      "perfect_signal": 4,
+      "information_value": 2
+    },
+    "new_embodiment": {
+      "no_signal": 4.5,
+      "perfect_signal": 5,
+      "information_value": 0.5
+    },
+    "new_grounding": {
+      "no_signal": 2,
+      "perfect_signal": 5,
+      "information_value": 3
+    }
+  },
+  "decision_thresholds": {
+    "source_vs_embodiment": "13/18",
+    "grounding_vs_source": "5/6",
+    "audit_vs_productive_routine": "19/20"
+  },
+  "tested_assertions": 293
+}

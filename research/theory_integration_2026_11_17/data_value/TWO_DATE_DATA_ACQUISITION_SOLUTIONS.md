@@ -1,0 +1,17 @@
+# Instructor solutions — two-date data acquisition and qualified service
+
+For the corresponding [student exercises](TWO_DATE_DATA_ACQUISITION_EXERCISES.md). No output here is field-calibrated.
+
+1. Acquired data changes the history H_1, learned/qualified menu Q_1 and observation law, hence the optimizer's terminal E[C_1|H_1]. The first-stage c_0−c_k and discounted terminal value already account for the entire stream. Adding a separate premium for trajectories double-counts their influence on future service.
+
+2. Simulate every audit-dependent action under R by garbling the richer R observation to reproduce the audit signal, preserving all physical terminal states and available rules. R's date-0 net contribution is no less, so J(R)≥J(A). Failure cases: R changes failure-state exposure/operator recovery and thereby Q_1; A samples original orders independently while R only records accepted successes. The assumption cannot be recovered from the number of trajectories.
+
+3. High-record probability given H is (3/5)(2/3)=2/5, and given L is (2/5)(1)=2/5. Missing probability is 3/5 both; low-record probability is zero in both. Every finite record history has likelihood ratio 1 for H versus L (on events with positive probability). Posterior stays 1/2. A hundred draws can still help *physical learning* under a separately supported transition; this calculation is only about regime diagnosis.
+
+4. Uninformed means: I=2, Z=1, X=3/2, G=1/2, E=7/2. So choose E. R=1+7/2=9/2. Perfectly informed audit chooses G for H (7), E for L (3): J_A=−1/5+(7+3)/2=24/5, a 3/10 gain over R. All of the terminal alternatives are hypothetical approved services and costs have already been deducted.
+
+5. Equal prior and symmetric signal yield posteriors P(H|high)=α and P(H|low)=1−α. On high: E=3+α, X=10α−7/2, G=13α−6; on low E=4−α dominates. X≥E iff α≥13/18; G≥X iff α≥5/6. G≥E at 3/4 but X dominates G before 5/6. Therefore J_A is 33/10 up to 13/18; (9/2)α+1/20 through 5/6; 6α−6/5 thereafter. Values agree at 13/18 (33/10) and 5/6 (19/5). J_A>9/2 exactly when α>19/20. This is a value-of-information result conditional on opportunity cost and the stage-1 menu, not a sensor accuracy target recommendation.
+
+6. Ignore an optional free observation and implement the prior policy to establish weak gross-value dominance. For gross I=(2,2),Z=(6,−4), the best no-report value is 2 and perfect-report value 4, so information premium 2. Add E=(5,4): no-report 9/2, perfect-report 5, premium 1/2. Add instead G=(8,−5): no-report 2, perfect-report 5, premium 3. More physical ability raises gross value but need not raise the value of an additional signal.
+
+7. Start from independent original-order identifiers, include refusal and replacement, validate nonactuating reporter inclusion propensities on pre-action original opportunities, lock controller/dispatch/operator and customer-service definitions, independently approve each safe intervention, version source/rights and holdout joint qualification. Randomize complete policies only across genuinely separate learning/dispatch/customer networks, measuring original-order displacement, accepted whole-service contribution, support/compute costs, and time. Accepted-only trajectories lack the target denominator and may have report-dependent selection. Benchmark success cannot establish qualified orders, economic transfer, audit value or source-versus-G/E return. If no safe independent intervention exists, retain partial identification and state the missing support.
