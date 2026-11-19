@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "assertions": 615,
+  "grid_points": 121,
+  "normalized": "whole-network captured accepted-service contribution",
+  "arms_perfect_information": {
+    "baseline_hidden": "1",
+    "baseline_disclosed": "15/8",
+    "substitute_hidden": "2",
+    "substitute_disclosed": "2",
+    "complement_hidden": "1",
+    "complement_disclosed": "19/8"
+  },
+  "interaction": {
+    "substitution": "-7/8",
+    "complement": "1/2"
+  },
+  "paid_options": {
+    "retain": "1",
+    "signal_only": "39/40",
+    "training_only": "7/10",
+    "combined": "47/40"
+  },
+  "accuracy_threshold": {
+    "no_signal_value_begins": "9/16",
+    "new_target_action_activated": "5/6",
+    "paid_combination_break_even": "193/200"
+  },
+  "interpretation": "synthetic economic responses; no robot/customer observation or independent novelty"
+}
