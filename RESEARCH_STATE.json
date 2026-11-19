@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "conditional-row-confidence-20261119T083341Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T08:37:54.309Z",
     "expires_at_utc": "2026-11-19T09:27:54.309Z",
-    "reason": "Reading and deriving finite target row uncertainty, selective sampling and qualified service economic comparisons"
+    "reason": "Published tested finite target row-confidence, economic audit allocation and selective-label identification theory, incorporated manuscript/Models A-B/empirical/learning, no physical or original-order evidence.",
+    "released_at_utc": "2026-11-19T08:52:10.615Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: partial target shadow-report row support and robust qualified service, Nov22 science gate open.",
+  "current_mode": "When Capabilities Become Production: finite target shadow-report confidence and original-order selection, fixed qualified controller; Nov22 scientific gate open.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ROW_CONFIDENCE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Exact prior released e8116c9 RESEARCH_STATE.json preserved as Git blob e49bb9e06682386ba743f4785fbefee5bcf60df8 at research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json; previous Q1-Q13, finance and main unchanged.",
-  "latest_result": "With fixed approved qualified full-network action menu, pre-action original customer opportunity p and payoff y, missing target reporter conditional rows yield a sharp rectangular policy-specific lower envelope and one-row certificate gap at most p(z) whole-network payoff span. Same S/G/T synthetic table: high-state row 3/5 known, low unknown => maximin G=1 even for randomized report decisions; hypothetical exact low row 2/5 => G/S=43/40, guarantee gain 3/40 (not Bayesian finite-label EVSI). Three target kernels share pooled accuracy 3/5 but give optimized service 44/40,47/40,43/40. Standard conditional decision theory, no field validity or novelty established.",
+  "preservation": "Original released a4e79f9 research state archived byte-identically as Git blob 0f65a39ed677cc1f512a9c4ea0cedc18c7a0cf94 at research/theory_integration_2026_11_17/data_value/PRE_ROW_CONFIDENCE_STATE.json; earlier state history and original Q1-Q13, finance, main, Codex work preserved.",
+  "latest_result": "Derived simultaneous fixed-n target binary row confidence sets for independently selected pre-action original-order shadow reports; exact rectangular robust qualified whole-network contribution, conditional gap <= sum p_z R_z row width, and economically weighted continuous audit-width allocation n_z proportional to (p_z R_z/d_z)^(2/3) (not actual EVSI). In inherited synthetic S/G/T example 95% fixed-n independent sample n=100/400 per row retains G=1, n=1600/2000 certifies slight G/S improvements via full randomized saddle; selected high-report-only labels with missing original denominator cannot identify target low-row q=2/5 vs 3/5, despite economic optimum 43/40 vs 1. No field or originality evidence.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -77,30 +78,46 @@
       "quantitative_BLS_BEA_crosswalk": false,
       "full_repository_CI": false,
       "independent_novelty": false
+    },
+    "target_row_confidence": {
+      "chapter": "research/theory_integration_2026_11_17/data_value/TARGET_ROW_CONFIDENCE_THEORY.md",
+      "source_file": "research/theory_integration_2026_11_17/data_value/target_row_confidence.js",
+      "result_file": "research/theory_integration_2026_11_17/data_value/target_row_confidence_results.json",
+      "source_blob": "9a873c737a2d405a77eb39526d60dd432de64348",
+      "result_blob": "16fbeabea812ef22248ec6b7894921bdb53e9f17",
+      "scoped_V8_assertions": 249,
+      "independent_python_fraction_checks": 5,
+      "proven_scope": "conditional fixed-policy finite-stratum Hoeffding row coverage, robust rectangular lower envelope and conditional economic-gap bound; KKT sample allocation minimizes bound, not EVSI",
+      "real_independent_target_shadow_rows": false,
+      "physical_approval": false,
+      "original_customer_order_outcomes": false,
+      "official_numeric_BLS_BEA_crosswalk": false,
+      "full_repo_CI": false,
+      "independent_originality": false
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_IDENTIFIED_VALUE.md",
-    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_REPORT_SUPPORT_MODELS_AB.md",
-    "research/theory_integration_2026_11_17/data_value/report_support_value.js",
-    "research/theory_integration_2026_11_17/data_value/report_support_results.json",
-    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/data_value/TARGET_ROW_CONFIDENCE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/TARGET_ROW_CONFIDENCE_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/TARGET_ROW_CONFIDENCE_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_TARGET_ROW_CONFIDENCE_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/target_row_confidence.js",
+    "research/theory_integration_2026_11_17/data_value/target_row_confidence_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
     "THEORY_PHASE.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_ROW_CONFIDENCE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Rectangular target report-support maximin theory and exact multiworld pooled accuracy counterexample complete; no approved versioned target shadow report, original-order commercial evidence or field qualification.",
-      "question": "Can a safe frozen physical controller and independently approved target shadow reporter supply *conditional pre-action customer opportunity labels*, rather than selected accepted-work/report-only accuracy, to identify a target report law and complete qualified service value?",
-      "deliverable": "Audit real conditional report/captured-service support if authorized; otherwise derive defensible finite-confidence or structural target-row sets and compare source, target grounding and new embodiment under complete J without assigning a price to benchmark accuracy."
+      "status": "Finite target-row confidence and economic audit-bound theory complete conditionally, with accepted-only selection impossibility; no actual pre-action independently sampled shadow report, original-order economic payoffs or physical approval.",
+      "question": "Can any version-pinned, nonactuating and physically approved target shadow reporter obtain independently sampled original customer opportunities and **pre-action** labels with known inclusion denominators, rather than acceptance-selected technical reports?",
+      "deliverable": "Verify genuine authorized report/original-order support; if none, preserve valid partial row sets and seek structural bounds, while connecting source, physical grounding and new embodiment to independently qualified full-service J and keeping November22 scientific gate honest."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -125,16 +142,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 manuscript/Models A-B now explicitly distinguish static factorial arm means, cross-arm qualification coupling and sequential grounding/embodiment transitions; scientific gate open.",
+      "status": "Nov22 finite-evidence Model A/B bridge, economic pR-weighted certification and separate student/instructor packet added; integrated argument and originality review still open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
   ],
   "portfolio_status": {
-    "theory": "Sharp missing target report-row robust policy lower envelope, certificate value bound, full randomized-policy fallback proof and same-pooled-accuracy nonidentification, conditional on one qualified complete network.",
-    "atlas": "Official BLS 2025/2035 output, BLS I/O 1997–2025 matrices, BEA concordance route reviewed; comparable-vintage numeric crosswalk and target accepted customer-order records still absent.",
-    "paper": "Same integrated manuscript and new Model A/B bridge; Nov22 synthesis still open.",
-    "learning": "Six student exercises separate from solutions, exact integer JS 16-action rule enumeration.",
+    "theory": "Finite-confidence robustness and pR-weighted audit-width optimization integrated with source→qualification→whole-network production; accepted-only selection counterworld; synthetic only.",
+    "atlas": "BLS/BEA primary route preserved, comparable-vintage numerical BEA–BLS subnetwork and actual whole-order robot customer panel still unavailable.",
+    "paper": "Living manuscript, proof ledger, Models A/B Nov22 bridge and distinct exercise/solution source updated; Nov22 gate OPEN.",
+    "learning": "Seven new finite target-row confidence and selective-label identification exercises with separate solutions; conditional source/results.",
     "main_contribution": "Candidate synthesis remains unselected, no independent novelty."
   },
   "known_limitations": [
@@ -236,10 +253,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Actual integration, derivation and synthetic validation committed; no customer-safe field estimate, no scientific gate and no routine notification.",
+  "quiet_checkpoint": "Conditional finite row-support research with robust economic audit-width solution and selected-label negative result published without hourly user notice.",
   "publication_parent_commit": "3ce75abbe62f7e48de04bc324f96d7f449deec04",
-  "current_proof_gap": "The C×I split requires invariant validated report kernel, unaltered control-plane/order response except via chosen policy, independent approval, joint target service and policy-closed original-order panel; none observed. Dynamic endogenous visitation may defeat separability and require complete-policy identified sets.",
-  "exact_next_action": "At Nov22, integrate source provenance→report→joint qualified target Q→customer accepted service V→dynamic J in a single assumption/causal map and test operational controlled C×I feasibility; if unsupported, retain partial-support policy bounds. Preserve original BEA/BLS numerical industry crosswalk and empirical atlas as open; no new source-to-revenue shortcut.",
+  "current_proof_gap": "No authorized target shadow sampling/denominator or independent policy-closed customer-order/payoff evidence establishing K,p,R under frozen physical/controller policies; hence no real confidence certificate, physical transfer or calibrated optimal label allocation.",
+  "exact_next_action": "Audit genuinely versioned public or already-authorized pre-action target shadow support and matching whole-service customer-order evidence without intervention; if absent, refine structural partial identification and empirical topology/production atlas, reconcile November22 synthesis without false acceptance.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -257,7 +274,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-19T05:41:12.751Z",
+  "updated_at_utc": "2026-11-19T08:52:10.615Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -275,8 +292,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Under what verified physically approved original-order network design does source-first grounding or new embodiment improve jointly qualified captured customer production against the retained policy?",
-  "proof_gap": "The C×I split requires invariant validated report kernel, unaltered control-plane/order response except via chosen policy, independent approval, joint target service and policy-closed original-order panel; none observed. Dynamic endogenous visitation may defeat separability and require complete-policy identified sets.",
-  "next_action": "At Nov22, integrate source provenance→report→joint qualified target Q→customer accepted service V→dynamic J in a single assumption/causal map and test operational controlled C×I feasibility; if unsupported, retain partial-support policy bounds. Preserve original BEA/BLS numerical industry crosswalk and empirical atlas as open; no new source-to-revenue shortcut.",
+  "proof_gap": "No authorized target shadow sampling/denominator or independent policy-closed customer-order/payoff evidence establishing K,p,R under frozen physical/controller policies; hence no real confidence certificate, physical transfer or calibrated optimal label allocation.",
+  "next_action": "Audit genuinely versioned public or already-authorized pre-action target shadow support and matching whole-service customer-order evidence without intervention; if absent, refine structural partial identification and empirical topology/production atlas, reconcile November22 synthesis without false acceptance.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -342,7 +359,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Can a physically approved, nonactuating source-derived diagnostic and separately qualified learned controller be independently intervened upon over the same original customer-order and shared operator/dispatcher network, thereby separating the economic *value of information* from changes in qualified production?",
+  "exact_intellectual_question": "Can any version-pinned, nonactuating and physically approved target shadow reporter obtain independently sampled original customer opportunities and **pre-action** labels with known inclusion denominators, rather than acceptance-selected technical reports?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -362,7 +379,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "At Nov22, integrate source provenance→report→joint qualified target Q→customer accepted service V→dynamic J in a single assumption/causal map and test operational controlled C×I feasibility; if unsupported, retain partial-support policy bounds. Preserve original BEA/BLS numerical industry crosswalk and empirical atlas as open; no new source-to-revenue shortcut.",
+  "exact_next": "Audit genuinely versioned public or already-authorized pre-action target shadow support and matching whole-service customer-order evidence without intervention; if absent, refine structural partial identification and empirical topology/production atlas, reconcile November22 synthesis without false acceptance.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",

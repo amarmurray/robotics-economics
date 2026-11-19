@@ -1,0 +1,9 @@
+# Separate instructor solutions — target report certificate
+
+1. For y_π(s,z)=Σ_aπ(a|s)y(a,z), let d=y_π(h,z)−y_π(l,z). The worst row contribution is p_z[y_π(l,z)+(ℓ_z if d≥0 else u_z)d]. Maximize summed minima over all stochastic report rules; concave piecewise linear max can attain an interior lottery.
+2. P(|qhat_z−q_z|>sqrt(log(2m/δ)/(2n_z)))≤δ/m; union bound. An unobserved row is [0,1]. Selected-only accepted orders are conditional on report/action, not independent originals; a different sampling law and denominator are required.
+3. Fix the true-kernel-optimal π*. G(C)≥min_K V(π*,K); a row-width change moves its value by ≤p_zR_z width. Coverage also gives G(C)≤W(K*). This is a unit-of-whole-service epistemic bound, not label cost or safety permission.
+4. Weights pR=(1,9/10), strictly convex objective Σw/√n. n_first/N=1/[1+(9/10)^{2/3}]≈0.51755, not 0.1. The optimized quantity is only a conservative bound, not data-purchase EVSI.
+5. Substitution yields 3/4+9q_H/8−7q_L/8. Its rectangular minimum is at (ℓ_H,u_L); exceed G=1 iff 9ℓ_H−7u_L>2. If G/S is also the globally best known-kernel rule at that adverse corner, the matched upper/lower values certify a saddle against all randomized rules. A fixed kernel where G is optimal similarly certifies robust G=1.
+6. With acceptance/report only when h, conditional selected reports are h in both low-row q_L=2/5 and 3/5 worlds. q_H=3/5 gives whole-original-population optimum 43/40 versus 1. Restore the pre-report original-order denominator, audit inclusion probabilities and reports from unaccepted orders.
+7. New controller/embodiment changes qualified A, joint success, p, target report distribution, recovery, operator/dispatch constraints and y, while also adding training/manufacturing/rights costs. Independently approved and version-pinned complete whole-policy customer-order comparisons are required; benchmark accuracy is not captured contribution.

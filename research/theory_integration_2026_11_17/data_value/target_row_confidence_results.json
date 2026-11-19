@@ -1,0 +1,153 @@
+{
+  "scope": "synthetic fixed qualified whole-network customer service, no real target sample or safety approval",
+  "date": "2026-11-19",
+  "payoffs": {
+    "F": [
+      0,
+      0
+    ],
+    "S": [
+      0.75,
+      0.75
+    ],
+    "G": [
+      3,
+      -1
+    ],
+    "T": [
+      4,
+      -6
+    ]
+  },
+  "assumptions": "precommitted independent Bernoulli reports n per each original target opportunity state; family delta=.05 m=2",
+  "confidence_certificates": [
+    {
+      "n_per_independent_pre_action_stratum": 100,
+      "high_report_H_band": {
+        "low": 0.45197928126992015,
+        "high": 0.7480207187300798,
+        "radius": 0.14802071873007983
+      },
+      "high_report_L_band": {
+        "low": 0.2519792812699202,
+        "high": 0.5480207187300798,
+        "radius": 0.14802071873007983
+      },
+      "GS_lower": 0.7789585625398402,
+      "robust_rule": [
+        "G",
+        "G"
+      ],
+      "robust_value": 1,
+      "certificate": "uninformative admissible kernel"
+    },
+    {
+      "n_per_independent_pre_action_stratum": 400,
+      "high_report_H_band": {
+        "low": 0.52598964063496,
+        "high": 0.67401035936504,
+        "radius": 0.07401035936503991
+      },
+      "high_report_L_band": {
+        "low": 0.3259896406349601,
+        "high": 0.47401035936503993,
+        "radius": 0.07401035936503991
+      },
+      "GS_lower": 0.92697928126992,
+      "robust_rule": [
+        "G",
+        "G"
+      ],
+      "robust_value": 1,
+      "certificate": "G optimal at admissible corner"
+    },
+    {
+      "n_per_independent_pre_action_stratum": 1600,
+      "high_report_H_band": {
+        "low": 0.56299482031748,
+        "high": 0.6370051796825199,
+        "radius": 0.037005179682519956
+      },
+      "high_report_L_band": {
+        "low": 0.3629948203174801,
+        "high": 0.43700517968251995,
+        "radius": 0.037005179682519956
+      },
+      "GS_lower": 1.00098964063496,
+      "robust_rule": [
+        "G",
+        "S"
+      ],
+      "robust_value": 1.00098964063496,
+      "certificate": "G/S saddle at adverse corner"
+    },
+    {
+      "n_per_independent_pre_action_stratum": 2000,
+      "high_report_H_band": {
+        "low": 0.5669015610841165,
+        "high": 0.6330984389158835,
+        "radius": 0.03309843891588348
+      },
+      "high_report_L_band": {
+        "low": 0.36690156108411653,
+        "high": 0.4330984389158835,
+        "radius": 0.03309843891588348
+      },
+      "GS_lower": 1.008803122168233,
+      "robust_rule": [
+        "G",
+        "S"
+      ],
+      "robust_value": 1.008803122168233,
+      "certificate": "G/S saddle at adverse corner"
+    }
+  ],
+  "known_target_value": 1.075,
+  "known_target_rule": [
+    "G",
+    "S"
+  ],
+  "saddle_method": "known-kernel optimum at adversarial corner equals candidate's rectangular lower value",
+  "audit_bound_example": {
+    "pre_action_shares": [
+      0.1,
+      0.9
+    ],
+    "whole_service_spans": [
+      10,
+      1
+    ],
+    "economic_weights": [
+      1,
+      0.9
+    ],
+    "rare_state_label_fraction": 0.517552869811552,
+    "prevalence_fraction": 0.1,
+    "width_at_economic_allocation": 2.685764433786715,
+    "width_at_prevalence_allocation": 4.110960958218893
+  },
+  "critical_n_per_row_for_positive_GS_lower": 1558.0539145507134,
+  "selective_high_report_only_counterworld": {
+    "same_selected_report": "h",
+    "missing_original_opportunity_denominator": true,
+    "unselected_low_state_kernel_options": [
+      0.4,
+      0.6
+    ],
+    "optimized_original_population_values": [
+      1.075,
+      1
+    ]
+  },
+  "deterministic_rules_at_fixed_certifying_kernel": 16,
+  "scoped_assertions": 249,
+  "not_identified": [
+    "physical qualification",
+    "real complete customer-order contribution",
+    "true target row confidence",
+    "site-level independence",
+    "source physical learning transfer",
+    "numerical BEA-BLS IO crosswalk",
+    "scientific novelty"
+  ]
+}
