@@ -1,0 +1,72 @@
+{
+  "model": "synthetic policy-closed whole-network accepted-service menu",
+  "prices": "normalized hypothetical whole-service contribution; no benchmark-to-dollar mapping",
+  "two_worlds": {
+    "disjoint": {
+      "t": "0/1",
+      "one": "14/5",
+      "upfront": "18/5",
+      "staged": "37/10"
+    },
+    "independent": {
+      "t": "1/4",
+      "one": "14/5",
+      "upfront": "31/10",
+      "staged": "16/5"
+    },
+    "concordant": {
+      "t": "1/2",
+      "one": "14/5",
+      "upfront": "13/5",
+      "staged": "14/5"
+    }
+  },
+  "three_policy_couplings": {
+    "even": {
+      "support": [
+        "000",
+        "011",
+        "101",
+        "110"
+      ],
+      "marginal": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "pair": [
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "union": "3/4",
+      "three_test_menu": "29/10"
+    },
+    "odd": {
+      "support": [
+        "001",
+        "010",
+        "100",
+        "111"
+      ],
+      "marginal": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "pair": [
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "union": "1/1",
+      "three_test_menu": "17/5"
+    }
+  },
+  "checks": {
+    "exact_fraction_assertions": 127,
+    "pairwise_grid_cases": 38,
+    "field_data": false,
+    "physical_approval": false
+  }
+}

@@ -2,23 +2,24 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "57f1a38b7ee2d84abb59a2a06b0848265130cddb",
+  "research_input_commit": "965d542342a0888d6be58bc9a9efc17250f39f4a",
   "lease": {
     "run_id": "research-data-copula-20261119T013807530Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T01:38:07.530Z",
     "expires_at_utc": "2026-11-19T02:33:07.530Z",
-    "reason": "Synthesize joint policy qualification evidence with the economic value of adaptive source/grounding/body choices; respect previous results and no field calibration."
+    "reason": "Adaptive source-first, ground-on-failure and new-body menu theory; exact checked arithmetic, reproducible model and manuscripts integrated; scientific gates open.",
+    "released_at_utc": "2026-11-19T01:54:32.246Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: joint qualification law, source-use × target-grounding causal economic contrast, qualified full-network value; prior paired eta framework retained; Nov22 review open.",
+  "current_mode": "When Capabilities Become Production: distinguish factorial static joint qualification effects from cross-policy option coupling and endogenous sequential source→grounding/body transition; conditional Fréchet/staging results; Nov22 scientific gate open.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FACTORIAL_INTERACTION_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ADAPTIVE_MENU_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state at 759b946d44d02ad8625f5e167d1ae048590f5d91 preserved byte-for-byte in research/theory_integration_2026_11_17/data_value/PRE_FACTORIAL_INTERACTION_STATE.json. All older archives, finance results and previous research backlog retained. Exclusive lease acquired at 768b3fd58880ac9007f3f93ec72d6a0a1f43b946 and released in joint tested publication.",
-  "latest_result": "Source-use × target-grounding factorial whole-network intervention interaction with arbitrary correlated joint qualification outcomes and policy-dependent customer service. Exact distribution-reference decomposition; identical individual qualification marginals can yield opposite (+1/-1) economic interactions, and a +1 qualification effect can be canceled by -1 production response. Approved independently randomized policy-closed markets identify average full-service interaction without an assumed paired eta; unapproved target arms remain missing/inadmissible. Conditional standard economics/causal design, no field observation or scientific novelty assertion.",
+  "preservation": "Full released prior state at 57f1a38b7ee2d84abb59a2a06b0848265130cddb preserved byte-for-byte at research/theory_integration_2026_11_17/data_value/PRE_ADAPTIVE_MENU_STATE.json using original Git blob d2fc11be79d13a1c6a5288028906bb227d17812b. Earlier archives, PRE_DATA_VALUE_STATE and PREVIOUS_RESEARCH_STATE unchanged; former Codex/main not claimed recovered.",
+  "latest_result": "After source×grounding whole-network factorial mean identification, derived sharp adaptive source→grounding qualified policy-menu option bounds under unknown cross-policy potential qualification overlap t, and separate history-conditioned grounding-after-source transition r. Exact two-world same static-arm example reverses whether to acquire grounding on failure (37/10 vs 14/5). Three alternative-body parity couplings identical at every pairwise qualification moment give 29/10 vs 17/5 menu payoff. All hypothetical normalized complete qualified customer-contribution values; standard Fréchet/optimal regime constructions, no field calibration, novelty or physical approval.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/joint_qualification_factorial.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/joint_qualification_factorial_results.json",
@@ -41,6 +42,14 @@
     "original_2026_deadline_unchanged": true
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_QUALIFICATION_MENU.md",
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_PROOF_LEDGER.md",
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_REPLICATION.md",
+    "research/theory_integration_2026_11_17/data_value/adaptive_menu_copula.js",
+    "research/theory_integration_2026_11_17/data_value/adaptive_menu_copula_results.json",
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_EXERCISES.md",
+    "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_SOLUTIONS.md",
     "research/theory_integration_2026_11_17/data_value/JOINT_QUALIFICATION_FACTORIAL_VALUE.md",
     "research/theory_integration_2026_11_17/data_value/JOINT_QUALIFICATION_FACTORIAL_PROOFS.md",
     "research/theory_integration_2026_11_17/data_value/JOINT_QUALIFICATION_FACTORIAL_EMPIRICAL.md",
@@ -137,9 +146,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "paired partial-invariance eta theory retained; new joint-qualification whole-network factorial identification route derived, no field intervention/eta evidence",
-      "question": "No source-copy/no-copy policy-specific eta or safe complete state match is evidenced, and no independent physically approved policy-closed network units for a source × grounding factorial have been identified; marginal qualification rates cannot substitute for joint Q nor technical scores for customer contribution.",
-      "deliverable": "Actual signed controller/dispatch/original-order and safe target joint qualification evidence; either independently verified matched residual eta or independently randomized physically approved full-network source/no-source × grounding/no-grounding complete service comparisons, with F/S options."
+      "status": "Static factorial arm means and joint within-arm qualification identified in theory; new cross-arm optional menu/second-stage conditional grounding r remain unobserved; no paired/approved sequential network evidence.",
+      "question": "Can signed, independently approved paired full-recipe qualifications identify cross-policy overlap t by target demand stratum, and can a separately approved sequential grounding-after-source-failure design identify r and whole original-order customer production?",
+      "deliverable": "Prespecified original B-order registry, x/g/h controller lineage and full matched qualified service, physically approved paired or sequential comparisons of r/t, captured contribution and demand/cost/support at the policy-closed whole-network level; otherwise retain sharp bounds."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -164,7 +173,7 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Nov22 manuscript/Models A-B incorporated exact partial-invariance frontier, proof/counterexample and physical architecture falsification; Nov22 scientific gate remains open",
+      "status": "Nov22 manuscript/Models A-B now explicitly distinguish static factorial arm means, cross-arm qualification coupling and sequential grounding/embodiment transitions; scientific gate open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
@@ -272,10 +281,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Substantive same-world policy-comparison derivation, counterexample, matched evidence protocol, reproducer, manuscript/Models A-B/Nov22 and teaching saved quietly; Nov22 gate remains open; last_notification unchanged.",
+  "quiet_checkpoint": "Substantive adaptive menu theorem/counterworlds, source/results, empirical identification and integrated manuscript/Nov22/Models A-B, distinct teaching materials completed without claiming scientific novelty or historical CI; no repeating hourly notice.",
   "publication_parent_commit": "3ce75abbe62f7e48de04bc324f96d7f449deec04",
-  "current_proof_gap": "Can real signed controller/dispatch/customer B-order/operator lineage and independent approved target-state comparisons establish any nontrivial eta_j<h_j-l_j for source-copy/no-copy, with each learned policy's own p_ij and qualified whole-service K_i? Source data alone cannot; same fallback pose is insufficient.",
-  "exact_next_action": "Seek actual source-read/controller hashes, signed full original B order and demand/operator/dispatcher records and independently approved matched first-exit target interventions. Estimate p,K and test a genuine paired eta; absent evidence retain eta=h-l, then continue Nov22 integrated argument and official BLS–BEA numeric crosswalk if public source route is available.",
+  "current_proof_gap": "Static randomized whole-network arm means do not identify within-network cross-policy qualification coupling t or policy-specific grounding-after-source conditional transition r; no physically admitted paired/sequential target support and original-order panel is verified.",
+  "exact_next_action": "Assess actual versioned safe paired qualification and sequential after-source-failure intervention support; use policy-closed customer original-order, operator and dispatch records to calibrate conditional joint service or retain response-set bounds. Review the smallest coherent claim and Models A/B at Nov22; pursue official numeric BLS–BEA backbone only via genuinely available comparable-vintage source route.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -378,7 +387,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Which source-use × grounding × embodiment investments improve jointly qualified, safely accepted complete customer production when learning changes its own target support and the demand/dispatch/operator network?",
+  "exact_intellectual_question": "Under which real controller/customer network and resource conditions does a source-first qualification experiment make target grounding or an embodiment change economically worthwhile after the observed first-stage outcome?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -415,5 +424,23 @@
     "independent_peer_review": false,
     "official_numeric_BLS_BEA_backbone": false,
     "paired_economic_discrepancy_verified": false
+  },
+  "validation_adaptive_menu": {
+    "chapter": "research/theory_integration_2026_11_17/data_value/ADAPTIVE_QUALIFICATION_MENU.md",
+    "proof": "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_PROOF_LEDGER.md",
+    "empirical": "research/theory_integration_2026_11_17/data_value/ADAPTIVE_MENU_EMPIRICAL.md",
+    "source": "research/theory_integration_2026_11_17/data_value/adaptive_menu_copula.js",
+    "record": "research/theory_integration_2026_11_17/data_value/adaptive_menu_copula_results.json",
+    "source_blob": "97fcff7577ce692f40189433f3f598c74b410a2e",
+    "record_blob": "85c3e9fbc4b0986fa74a35b4f12cde04111335ba",
+    "exact_assertions": 127,
+    "grid_couplings": 38,
+    "source_blob_reexecuted_and_record_compared": true,
+    "independent_Python_Fraction_spotchecks": true,
+    "mathematical_novelty": false,
+    "field_customer_data": false,
+    "physical_admission": false,
+    "full_CI": false,
+    "official_numerical_BLS_BEA_crosswalk": false
   }
 }
