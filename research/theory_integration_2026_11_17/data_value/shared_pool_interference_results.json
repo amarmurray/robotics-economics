@@ -1,0 +1,112 @@
+{
+  "schema": "cross-network shared-operator source-versus-embodiment synthetic diagnostic v1",
+  "provenance": "Self-contained mathematical synthetic example, not a field trial or source-calibrated payoff table.",
+  "unit": "Each integer tick denotes one half normalized complete-service contribution unit.",
+  "parameters": {
+    "per_site_baseline": {
+      "numerator": 3,
+      "denominator": 1
+    },
+    "source_increment": {
+      "numerator": 4,
+      "denominator": 1
+    },
+    "source_training_cost": {
+      "numerator": 5,
+      "denominator": 2
+    },
+    "second_qualified_slot_cost": {
+      "numerator": 1,
+      "denominator": 1
+    }
+  },
+  "portfolio_total": {
+    "none": {
+      "numerator": 6,
+      "denominator": 1
+    },
+    "one_X": {
+      "numerator": 15,
+      "denominator": 2
+    },
+    "two_X": {
+      "numerator": 5,
+      "denominator": 1
+    },
+    "embodiment_only": {
+      "numerator": 5,
+      "denominator": 1
+    },
+    "one_X_plus_E": {
+      "numerator": 13,
+      "denominator": 2
+    },
+    "two_X_plus_E": {
+      "numerator": 8,
+      "denominator": 1
+    }
+  },
+  "best_qualified_investment": "two_X_plus_E",
+  "fixed_body_absent": {
+    "market_full_X_minus_G_per_site": {
+      "numerator": -1,
+      "denominator": 2
+    },
+    "Bernoulli_half_saturation_own_X_effect": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "mixed_policy_mean_at_half_saturation": {
+      "numerator": 13,
+      "denominator": 2
+    },
+    "independent_saturation_optimum_p": {
+      "numerator": 3,
+      "denominator": 8
+    },
+    "independent_saturation_optimum_total": {
+      "numerator": 105,
+      "denominator": 16
+    },
+    "shared_operator_set_interaction": {
+      "numerator": -4,
+      "denominator": 1
+    },
+    "capacity_added_set_interaction": {
+      "numerator": 0,
+      "denominator": 1
+    },
+    "exact_sensitivity_gap_at_p_half": {
+      "numerator": 1,
+      "denominator": 1
+    }
+  },
+  "pooling_ell_6": {
+    "all_X_total": {
+      "numerator": 11,
+      "denominator": 1
+    },
+    "local_direct_p_half": {
+      "numerator": 2,
+      "denominator": 1
+    },
+    "full_X_minus_G_per_site": {
+      "numerator": 5,
+      "denominator": 2
+    },
+    "source_set_interaction_with_one_slot": {
+      "numerator": 2,
+      "denominator": 1
+    },
+    "source_set_interaction_with_two_slots": {
+      "numerator": 6,
+      "denominator": 1
+    }
+  },
+  "grid": {
+    "parameter_saturation_cases": 33696,
+    "exact_assertions": 202185
+  },
+  "restrictions": "Exactly two fixed prepolicy sites; safe unchanged baseline qualified recipes; one shared incremental-recovery slot, optional second independent qualified slot; fixed v,k,K,ell and demand; separable operator capacity effect; no model update leakage beyond the specified ell term.",
+  "unestablished": "No approved robotic intervention, observed original-order demand, measured learning synergy, verified operator exposure graph, customer contribution calibration, independent novelty review or whole-repository CI."
+}

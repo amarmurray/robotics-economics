@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "cross-network-interference-2026-11-19T14-28-10-337Z-turn11",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T14:28:10.337Z",
     "expires_at_utc": "2026-11-19T15:28:10.337Z",
-    "reason": "Cross-network interference, shared operator allocation and demand spillovers in source/grounding policy evaluation; substantive research in progress."
+    "reason": "Tested integrated shared-source learning/operator-pool interference, cross-policy exposure bound, matched whole-service prospective design, synthetic exact V8 and independent Fraction checks; committed manuscript, program, proofs, source/results, A/B and teaching. No physical/empirical gates passed.",
+    "released_at_utc": "2026-11-19T14:40:02.889Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Single integrated qualified-production J/V framework: actual whole-network policy value versus unobserved technical transfer, with dynamic market demand/operator selection and uncertainty; cross-network interference identification next.",
+  "current_mode": "Integrated qualified-production data-value theory with dynamic cross-network operator, shared-learning, and demand interference; local policy effects versus full-market adoption and source/body complementarity; next empirically grounded exposure bounds.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_WHOLE_NETWORK_POLICY_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SHARED_POOL_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Immediately preceding b0a5a3ea released RESEARCH_STATE.json preserved byte-identically from blob 690383b5158ee48b3b323af0cf55b8b7943c41a1 in PRE_WHOLE_NETWORK_POLICY_STATE.json; all earlier archives, Q1-Q13 historical queue, main and inaccessible Codex work unchanged.",
-  "latest_result": "For physically approved closed network policy regimes, complete network-level uniform randomization identifies finite-population J_X-J_G even with X/G-induced original orders, operator recovery, reporter selection and learning; does NOT identify technical transfer mediators. Exact synthetic eight-network reference table: policy net totals R29 A30 X42 G39 E22, hence X-G=3/8 per network, while accepted-only mean G47/7 > X33/5 reverses rank. All 70 balanced randomizations have expected contrast 3/8 and exact variance 8615/448. Six known paired networks/two missing leave sharp envelope-only difference [-25/8,31/8], so robust ranking fails. Standard causal-design and support mathematics, not observed robots or novelty.",
+  "preservation": "Immediately preceding 9754e041 released RESEARCH_STATE.json preserved byte-identically from blob 6e62c863e452d59d7af300211f8fb929bea6bd22 in PRE_SHARED_POOL_STATE.json; all earlier archives, Q1-Q13 historical queue, main and inaccessible Codex work unchanged.",
+  "latest_result": "Shared operator plus pooled source learning two-site conditional production: F_e(q)=2b+v min(q,1+e)+ell 1{q=2}-kq-Ke; source cross-difference ell-v at one slot and ell at two. Local Bernoulli-p own-X effect differs from full rollout per site by (1-p)(v-ell)/2. General whole-history uniform-neighbor interference certificate |D(p)-T| <= N^-1 sum_ij [(1-p)eps^X_ij+p eps^G_ij] proved and sharp in example. Exact synthetic b3,v4,k5/2,ell0,K1: incumbent6, oneX15/2, allX5, allX+E8; local p1/2 effect +1/2 versus all-X effect -1/2 per site. Positive pooling ell6 reverses transport-error sign. Stable-exposure HT identification requires target exposure support and correct interference graph. Standard conditional math, not field evidence or novel scientific claim.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -164,28 +165,48 @@
       "historical_full_CI": false,
       "independent_novelty": false,
       "nov22_gate_passed": false
+    },
+    "shared_pool_interference": {
+      "chapter": "research/theory_integration_2026_11_17/data_value/SHARED_POOL_INTERFERENCE_THEORY.md",
+      "source_file": "research/theory_integration_2026_11_17/data_value/shared_pool_interference.js",
+      "results_file": "research/theory_integration_2026_11_17/data_value/shared_pool_interference_results.json",
+      "source_blob": "3bdb921fc82d42bbf387991dd07d864fe1c39a14",
+      "results_blob": "df955d4b1a00c62a47cb384de7be5c328d9fe829",
+      "v8_scoped_assertions": 202185,
+      "parameter_saturation_cases": 33696,
+      "retrieved_blob_reexecuted_and_record_equal": true,
+      "independent_python_fraction_checks": 41,
+      "proof_scope": "separable conditional qualified operator capacity with pooled data benefit, exact finite differences, Bernoulli mixed-vs-market effect, uniform exposure sensitivity and standard exposure HT unbiasedness",
+      "actual_controller_or_customer_network": false,
+      "independently_approved_body_or_audit": false,
+      "empirical_interference_epsilon": false,
+      "independent_novelty_review": false,
+      "official_numeric_BLS_BEA_crosswalk": false,
+      "complete_repository_CI": false,
+      "nov22_scientific_gate_passed": false,
+      "deadline_unchanged": true
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/WHOLE_NETWORK_POLICY_IDENTIFICATION.md",
-    "research/theory_integration_2026_11_17/data_value/WHOLE_NETWORK_POLICY_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/WHOLE_NETWORK_POLICY_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_WHOLE_NETWORK_MODELS_AB.md",
-    "research/theory_integration_2026_11_17/data_value/whole_network_policy_history.js",
-    "research/theory_integration_2026_11_17/data_value/whole_network_policy_history_results.json",
+    "research/theory_integration_2026_11_17/data_value/SHARED_POOL_INTERFERENCE_THEORY.md",
+    "research/theory_integration_2026_11_17/data_value/SHARED_POOL_INTERFERENCE_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/SHARED_POOL_INTERFERENCE_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_SHARED_POOL_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/shared_pool_interference.js",
+    "research/theory_integration_2026_11_17/data_value/shared_pool_interference_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory/milestones.md",
     "THEORY_PHASE.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_WHOLE_NETWORK_POLICY_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_SHARED_POOL_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Fixed-law cross-order identification extended to complete policy-closed network assignment estimand, accepted-only inversion and unsupported-network support interval; next cross-network interference.",
-      "question": "When can a qualified productive policy generate enough *decision-useful and physically transferable* data to dominate a deliberate target audit, given that the productive controller changes sampled support, joint qualification and original customer demand, and when must grounding or a new body be purchased instead?",
+      "status": "Two-date source/grounding/embodiment qualified-production comparison now extends to cross-site shared operator and pooled learning interference; mixed-site treatment estimand and complete market policy value may have opposite signs; next dynamic exposure-bound identification.",
+      "question": "Which policy-induced controller/data learning, operator/recovery, and original-customer-order demand histories create economically meaningful cross-network spillovers, and when can source versus grounding versus changed embodiment be ranked under safe policy-closed evidence or a validated interference envelope?",
       "deliverable": "Prove explicit safe policy-closed exposure-mapping or interference bound for shared source-learning/operator networks, preserving customer demand and real accepted-service measurement."
     },
     {
@@ -198,7 +219,7 @@
     {
       "id": "EMPIRICAL-TOPOLOGY",
       "priority": 2,
-      "status": "Prospective signed original-order and A/B/D linked counterfactual panel refined; no approved physical intervention or measured customer economic returns; quantitative official crosswalk remains absent.",
+      "status": "Prospective operator/model/buyer interference graph, closed-market and factorial capacity study alternatives documented; no physically approved interventions, original customer order panel, validated epsilon or official numerical crosswalk.",
       "question": "Which linked full-network controller lineage, operator overlap, original order registry and held-out joint qualification measurements identify meaningful cross-pool economic data value?",
       "deliverable": "Acquire authorized actual complete accepted customer service and controller lineage evidence, then reconcile official 2025–35 BLS matrix with BEA IO vintage/numeric crosswalk, without treating wages as robotic deployable revenue."
     },
@@ -211,7 +232,7 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Integrated demand/qualification sharp bounds, counterexample, proof and empirical ledger, CPU diagnostic, exercise/solution, manuscript and Nov22 Models A/B bridge; scientific gate open.",
+      "status": "Updated same manuscript and Nov22 Model A/B argument with source transfer versus shared human operator scarcity, exact local/full rollout rank reversal and constructive source-plus-embodiment choice; field/scientific acceptance open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
@@ -362,7 +383,7 @@
   },
   "exact_question": "How can economically valuable source-trained versus grounded/embodied production be identified over complete original-customer-order histories when source changes joint qualification, target market demand, operator recovery and reporting? What additional network isolation or exposure assumptions are needed when a supposedly closed controller/operator cluster spills over into another?",
   "proof_gap": "The complete-network randomization theorem requires stable and physically approved X/G regimes, fixed pre-policy target cohort and no interference BETWEEN network clusters; no actual whole-network policy panel or safe architecture exists. Within-network partial original-order support remains broad and stagewise recording is selected. Next extend to cross-network controller/operator/customer-demand spillovers with a defensible exposure mapping or bounded sensitivity, not a forced common conditional law.",
-  "next_action": "Study a two-network shared operator/controller learner and prove a well-defined exposure-conditioned policy comparison or a sharp interference-agnostic bound. Carry the same J/V and R/A/X/G/E menu, original-order demand and rights through the derivation. Map a credible prospective cluster boundary and rejection/accepted-service evidence; do not invent real calibration or rerun same parameter grid.",
+  "next_action": "Inspect shared operator, model-broadcast and demand substitution edge definitions in the prospective network registry; derive a time-indexed influence-bound and a sharp counterexample for an omitted exposure edge, then integrate with Nov22 models A/B. Prioritize theory while advancing only authentic official quantitative atlas source access.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -547,5 +568,6 @@
     "official_numerical_BLS_BEA_crosswalk": false,
     "full_repository_CI": false,
     "nov22_gate_passed": false
-  }
+  },
+  "next_proof_gap": "Extend the uniform cross-site epsilon envelope to temporally evolving heterogeneous operator/model/customer networks without double-counting resource or shared-learning spillovers; define conditions for a valid bound from pre-action original customer orders, not accepted-only outcomes. Test endogenous original demand, source-cost heterogeneity, and E-changes-learning countermodels."
 }
