@@ -1,3 +1,11 @@
+# 19 November continuation — target shadow coverage and economically safe information value
+
+The [partial-support chapter](REPORT_SUPPORT_IDENTIFIED_VALUE.md) extends the same economic source→qualified production thesis to a report whose target conditional rows are observed only for some *pre-action commercial customer opportunities*. It derives a sharp rectangular-row worst-value identity, a single-row certificate bound and an exact randomized-policy floor under retention. In the synthetic qualified service table, one high-state row supports robust 1; an exact low-state target row would support 43/40. This is an increase in **ambiguity certificate** after population information, not Bayesian EVSI or calibrated economics. Pooled 60% accuracy cannot determine which report-conditioned qualified service is best.
+
+**Next actual obligation:** establish a genuinely independently approved nonactuating target shadow reporter and signed original-order denominator with conditional labels; otherwise treat each target conditional row as a finite-confidence/structural set and compare only full approved acquisition policies under J. No field observations, purchased labels, physical intervention or scientific novelty claim. Retain source, grounding, new body, endogenous customer demand and all prior roadmap. November 22/29 and December 6 gates remain open; Dec25 23:59 Eastern unchanged.
+
+---
+
 # 19 November continuation — report transport following source-controller admission
 
 The [new source-to-target report-kernel chapter](SIGNAL_KERNEL_TRANSPORT.md) addresses the assumption that the preceding [information versus physical admission](SIGNAL_VS_ADMISSION.md) held fixed. Data-derived reports calibrated on source trajectories can become decision-misleading after a learned controller or customer policy changes reachable opportunities. A fixed-controller economic total-variation bound, a more precise decision-margin certificate, and an exact same-service stale-policy versus rational calibration comparison now distinguish source-report statistical transfer, target decision grounding and qualified physical learning. The retained specialist and complete original-order V(Q;omega),J remain the economic reference. The prior-art base is Blackwell/TV information decision theory and performative prediction, not new scientific novelty.

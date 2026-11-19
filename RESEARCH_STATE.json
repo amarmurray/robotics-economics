@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "data-value-shadow-coverage-20261119T073828424Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T07:38:28.424Z",
     "expires_at_utc": "2026-11-19T08:33:28.424Z",
-    "reason": "Prove source-to-target shadow support partial-identification and robust approved service valuation under missing conditional report rows; preserve single source-to-qualified production program."
+    "reason": "Published tested exact target shadow-support maximin derivation, proofs and counterworld, public source audit, separate exercise/solution packet and common manuscript/Model A/B integration; no approved customer/robot experiment.",
+    "released_at_utc": "2026-11-19T07:49:57.684Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "When Capabilities Become Production: Nov19 source-to-target signal/report transport, fixed-controller decision regret and calibration EVPI; Nov22 science gate open.",
+  "current_mode": "When Capabilities Become Production: partial target shadow-report row support and robust qualified service, Nov22 science gate open.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_KERNEL_TRANSPORT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Exact preceding published 0015d30 RESEARCH_STATE.json preserved byte-identically as blob 9a2d00e629b7cb82d2a5334555b54130683eba8a at research/theory_integration_2026_11_17/data_value/PRE_KERNEL_TRANSPORT_STATE.json. Prior signal, finance, original Q1–Q13 and main remain untouched.",
-  "latest_result": "Under fixed physically approved whole-network qualified policy menu, source and target signal kernels have optimized contribution difference bounded by statewise qualified-service payoff span weighted conditional total variation; transporting source-optimal signal rule incurs at most twice that bound and can be certified stable by report-specific contribution margins. Synthetic S/G/T example source q=9/10 and target q=3/5: frozen source rule 3/8 vs target-optimized 43/40, stale regret 7/10; fully rational ex-ante target kernel calibration with equally likely q=3/5 or 9/10 has gross EVPI 1/10. If controller alters p,y,menu or support, fixed-controller comparison cannot identify mechanism. Conditional known decision theory, not robotics evidence or independently novel theorem.",
+  "preservation": "Exact prior released e8116c9 RESEARCH_STATE.json preserved as Git blob e49bb9e06682386ba743f4785fbefee5bcf60df8 at research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json; previous Q1-Q13, finance and main unchanged.",
+  "latest_result": "With fixed approved qualified full-network action menu, pre-action original customer opportunity p and payoff y, missing target reporter conditional rows yield a sharp rectangular policy-specific lower envelope and one-row certificate gap at most p(z) whole-network payoff span. Same S/G/T synthetic table: high-state row 3/5 known, low unknown => maximin G=1 even for randomized report decisions; hypothetical exact low row 2/5 => G/S=43/40, guarantee gain 3/40 (not Bayesian finite-label EVSI). Three target kernels share pooled accuracy 3/5 but give optimized service 44/40,47/40,43/40. Standard conditional decision theory, no field validity or novelty established.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -65,33 +66,42 @@
       "observed_original_customer_order_panel": false,
       "full_repository_CI": false,
       "verified_independent_novelty": false
+    },
+    "report_support": {
+      "source_file": "research/theory_integration_2026_11_17/data_value/report_support_value.js",
+      "results_file": "research/theory_integration_2026_11_17/data_value/report_support_results.json",
+      "assertions": 56,
+      "pure_report_rules_checked": 16,
+      "randomized_maximin_upper_proved_analytically": true,
+      "physical_safety_approved": false,
+      "customer_orders_observed": false,
+      "quantitative_BLS_BEA_crosswalk": false,
+      "full_repository_CI": false,
+      "independent_novelty": false
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/SIGNAL_KERNEL_TRANSPORT.md",
-    "research/theory_integration_2026_11_17/data_value/SIGNAL_KERNEL_TRANSPORT_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/SIGNAL_KERNEL_TRANSPORT_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/SIGNAL_KERNEL_TRANSPORT_REPLICATION.md",
-    "research/theory_integration_2026_11_17/data_value/signal_kernel_transport.js",
-    "research/theory_integration_2026_11_17/data_value/signal_kernel_transport_results.json",
-    "research/theory_integration_2026_11_17/data_value/NOV22_ESTIMANDS_SUPPORT_SYNTHESIS.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
-    "research/theory_integration_2026_11_17/data_value/ROBUST_MODELS_AB_SYNTHESIS.md",
-    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_IDENTIFIED_VALUE.md",
+    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/REPORT_SUPPORT_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_REPORT_SUPPORT_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/report_support_value.js",
+    "research/theory_integration_2026_11_17/data_value/report_support_results.json",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
+    "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
+    "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
     "THEORY_PHASE.md",
-    "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_KERNEL_TRANSPORT_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_REPORT_SUPPORT_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Conditional report-channel transport and decision regret/robust policy bounds complete; no versioned approved target report, original-order policy-closed evidence or physical cross-play. Prior source/grounding/body and selected-failure identification remains.",
-      "question": "Can a version-pinned, independently approved nonactuating target shadow-report and same pre-source commercial opportunity support certify source-vs-target conditional signal kernels and actual qualified customer contribution margins, without hiding learned-policy occupancy, dispatch or recovery changes?",
-      "deliverable": "Attempt primary source-based report/qualified-service support audit; distinguish prior-optimal calibration EVPI from stale-rule regret; preserve whole-network identified sets when cross-kernel shadow support absent; then compare source, target physical grounding and embodiment acquisitions under J."
+      "status": "Rectangular target report-support maximin theory and exact multiworld pooled accuracy counterexample complete; no approved versioned target shadow report, original-order commercial evidence or field qualification.",
+      "question": "Can a safe frozen physical controller and independently approved target shadow reporter supply *conditional pre-action customer opportunity labels*, rather than selected accepted-work/report-only accuracy, to identify a target report law and complete qualified service value?",
+      "deliverable": "Audit real conditional report/captured-service support if authorized; otherwise derive defensible finite-confidence or structural target-row sets and compare source, target grounding and new embodiment under complete J without assigning a price to benchmark accuracy."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -122,10 +132,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Conditional target-report transport, action-margin certificate, robust qualified policy and ex-ante calibration value integrated with previous source-to-joint-qualification and dynamic whole-network production results.",
-    "atlas": "No real matched customer-order field panel or official numerical BLS–BEA sector crosswalk. Public technical data routes remain research hypotheses, not commercial valuation.",
-    "paper": "Nov22 integrated manuscript now distinguishes ex-ante value of target calibration from the regret of copying a source-trained signal policy; Model A/B assumption reduction and scientific gate remain open.",
-    "learning": "Six new problems and separate instructor solutions, exact rational Node source/results with 76 checks and 5 independent Python Fraction validations.",
+    "theory": "Sharp missing target report-row robust policy lower envelope, certificate value bound, full randomized-policy fallback proof and same-pooled-accuracy nonidentification, conditional on one qualified complete network.",
+    "atlas": "Official BLS 2025/2035 output, BLS I/O 1997–2025 matrices, BEA concordance route reviewed; comparable-vintage numeric crosswalk and target accepted customer-order records still absent.",
+    "paper": "Same integrated manuscript and new Model A/B bridge; Nov22 synthesis still open.",
+    "learning": "Six student exercises separate from solutions, exact integer JS 16-action rule enumeration.",
     "main_contribution": "Candidate synthesis remains unselected, no independent novelty."
   },
   "known_limitations": [
@@ -204,7 +214,8 @@
     "Top-k protected-set gain supermodularity concerns a worst-case certificate, not monotonicity of actual production. Pinned versus competent specialist requires a pinned lower bound and valid specialist upper, not comparing two independent lower bounds.",
     "New common-residual policy contrast requires same-world full-network conditional remaining contribution across source-trained policies, including original B order displacement, operator dispatch, demand and recovery after accounting for known differences; no actual data verify it. Identical state labels or p cannot justify cancellation; source-to-qualification and policy occupancy remain unobserved.",
     "The signal transport bound fixes the physical controller, qualified menu, pre-source opportunity distribution and whole-network service return table. It does not transport across source-trained policy-induced target occupancy, report/actuation feedback or new-body resource changes.",
-    "Source q=9/10 versus target q=3/5 and every economic payoff are synthetic. Stale rule regret 7/10 differs from ex-ante calibration EVPI 1/10; no target shadow validation, physical safety signoff or independent novelty exists."
+    "Source q=9/10 versus target q=3/5 and every economic payoff are synthetic. Stale rule regret 7/10 differs from ex-ante calibration EVPI 1/10; no target shadow validation, physical safety signoff or independent novelty exists.",
+    "Partial target report-support theorem holds only for one fixed physically approved complete-network action menu, constant pre-action customer p and payoff y; missing-row rectangularity, exact identified population rows, reporter noninterference and safe fallback are unverified. Maximin guarantee gain 3/40 not Bayesian EVSI or observed returns."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",

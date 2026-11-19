@@ -1,0 +1,63 @@
+{
+  "model": "exact synthetic whole-network service; units 1/40",
+  "condition": "target high pre-action state report-high row 3/5 known, target low row completely unknown",
+  "robust_policy": [
+    "G",
+    "G"
+  ],
+  "robust_value_over_40": 40,
+  "certified_low_state_report_high_2_over_5_policy": [
+    "G",
+    "S"
+  ],
+  "certified_value_over_40": 43,
+  "certificate_increase_over_40": 3,
+  "GS_uncertified_floor_over_40": 22,
+  "equal_pooled_accuracy_worlds": [
+    {
+      "conditional_report_high_numerators_over_5": [
+        1,
+        0
+      ],
+      "pooled_accuracy_numerator_over_10": 6,
+      "optimal_value_over_40": 44,
+      "optimal_rule": [
+        "T",
+        "G"
+      ]
+    },
+    {
+      "conditional_report_high_numerators_over_5": [
+        5,
+        4
+      ],
+      "pooled_accuracy_numerator_over_10": 6,
+      "optimal_value_over_40": 47,
+      "optimal_rule": [
+        "G",
+        "S"
+      ]
+    },
+    {
+      "conditional_report_high_numerators_over_5": [
+        3,
+        2
+      ],
+      "pooled_accuracy_numerator_over_10": 6,
+      "optimal_value_over_40": 43,
+      "optimal_rule": [
+        "G",
+        "S"
+      ]
+    }
+  ],
+  "enumerated_rules": 16,
+  "assertions": 56,
+  "not_observed": [
+    "robot qualification",
+    "whole customer order/captured value",
+    "physically approved shadow reporter",
+    "finite-sample calibration",
+    "numeric BLS-BEA crosswalk"
+  ]
+}
