@@ -1,0 +1,92 @@
+{
+  "schema": "synthetic order qualification information and capacity v1",
+  "cases": 7310,
+  "assertions": 146205,
+  "worlds": {
+    "exclusive": {
+      "atoms": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0.5
+        ],
+        [
+          1,
+          0,
+          0.5
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "r": 0,
+      "values": {
+        "U": 4,
+        "F1": 8,
+        "F2": 8,
+        "I": 4,
+        "C": 0,
+        "remaining": 4,
+        "retained": 4,
+        "auditNet": 7,
+        "bodyNet": 6,
+        "selectedSuccess": 0.5
+      }
+    },
+    "synchronized": {
+      "atoms": [
+        [
+          0,
+          0,
+          0.5
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0.5
+        ]
+      ],
+      "r": 0.5,
+      "values": {
+        "U": 4,
+        "F1": 4,
+        "F2": 8,
+        "I": 0,
+        "C": 4,
+        "remaining": 4,
+        "retained": 4,
+        "auditNet": 3,
+        "bodyNet": 6,
+        "selectedSuccess": 0.5
+      }
+    }
+  },
+  "sharpBounds": {
+    "r": [
+      0,
+      0.5
+    ],
+    "auditMinusBody": [
+      -3,
+      1
+    ]
+  },
+  "limits": "fixed-law approved report/body assumption; not real robot economics; finite tests not mathematical proof"
+}

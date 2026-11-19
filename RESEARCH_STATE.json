@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "history-network-20261119-20261119123708-c11",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T12:37:08.598Z",
     "expires_at_utc": "2026-11-19T13:32:08.598Z",
-    "reason": "Full-history joint qualification, operator interference and demand alignment extension of two-date data-acquisition theory."
+    "reason": "Proved conditional cross-order information/capacity identity and sharp investment reversal, tested synthetic diagnostic, integrated manuscript, empirical, A/B and teaching; no field calibration or gate acceptance.",
+    "released_at_utc": "2026-11-19T12:55:55.629Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Same two-date data-value acquisition model with endogenous qualification + original-order demand alignment; sharp joint support limits; full network/history and real policy design next.",
+  "current_mode": "Two-date integrated data-value and original customer production, now including cross-order qualification coincidence, reporter value and operator/embodiment scarcity; full history and transport gap next.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_EXPOSURE_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_OPERATOR_INFORMATION_CAPACITY_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released 2643d9d4 state archived byte-identically as Git blob 3f5105aad2021d218f26c2aa0b3f90427070655f in PRE_ENDOGENOUS_EXPOSURE_STATE.json; PRE_TWO_DATE_DATA_STATE.json and all earlier states, Q1-Q13 backlog, finance, main and inaccessible Codex work preserved.",
-  "latest_result": "Sharp three-event Fréchet-type interval for controller-specific P(A&B&D) from all six marginals/pairs. Two pairwise-identical parity worlds t=0 versus 1/4 reverse optimal source X (13/5 or 23/5) versus qualified grounding G (18/5), because demand is post-X policy-specific. Exact integer 6435 eight-atom enumeration/6105 moment patterns and independent Python Fraction checks. Scope is standard conditional math, not robot calibration/novelty.",
+  "preservation": "Immediately preceding released 57f34acc state preserved byte-identically in PRE_OPERATOR_INFORMATION_CAPACITY_STATE.json; earlier archived states, original Q1–Q13 queue, finance and inaccessible Codex/main unchanged.",
+  "latest_result": "For two simultaneous qualified original customer orders with one scarce operator, conditional fixed-law U=max(g1p1,g2p2), F1=g1p1+g2(p2-r) informed, F2=g1p1+g2p2 second-slot. I+(F2-F1)=min(g1p1,g2p2); exact Frechet r bounds allow same observed per-order selected production but opposite A/E ranking: audit/body net (7,6) exclusive vs (3,6) synchronized. Not portable across policy-induced physical/demand changes.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -147,29 +148,46 @@
       "full_repository_ci": false,
       "independent_review": false,
       "november_22_gate_passed": false
+    },
+    "operator_joint_information": {
+      "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_OPERATOR_INFORMATION_CAPACITY.md",
+      "source": "research/theory_integration_2026_11_17/data_value/joint_operator_information_capacity.js",
+      "results": "research/theory_integration_2026_11_17/data_value/joint_operator_information_capacity_results.json",
+      "scoped_js_assertions": 146205,
+      "feasible_joint_grid_cases": 7310,
+      "independent_fraction_spot_checks": true,
+      "proven_scope": "conditional fixed-law two-order decision and Fréchet allocation formulas",
+      "real_original_customer_order_panel": false,
+      "approved_joint_report": false,
+      "approved_second_slot": false,
+      "measured_source_learning": false,
+      "official_numeric_BLS_BEA_crosswalk": false,
+      "historical_full_CI": false,
+      "independent_novelty": false,
+      "nov22_gate_passed": false
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_EXPOSURE_JOINT_SUPPORT.md",
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_EXPOSURE_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_EXPOSURE_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_ENDOGENOUS_SUPPORT_MODELS_AB.md",
-    "research/theory_integration_2026_11_17/data_value/endogenous_exposure_joint.js",
-    "research/theory_integration_2026_11_17/data_value/endogenous_exposure_results.json",
+    "research/theory_integration_2026_11_17/data_value/JOINT_OPERATOR_INFORMATION_CAPACITY.md",
+    "research/theory_integration_2026_11_17/data_value/JOINT_OPERATOR_INFORMATION_CAPACITY_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/JOINT_OPERATOR_INFORMATION_CAPACITY_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_OPERATOR_INFORMATION_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/joint_operator_information_capacity.js",
+    "research/theory_integration_2026_11_17/data_value/joint_operator_information_capacity_results.json",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory/milestones.md",
     "THEORY_PHASE.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_EXPOSURE_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_OPERATOR_INFORMATION_CAPACITY_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Two-date R/A/X/G/E model extended to controller-dependent original demand and sharp joint A,B,D qualification; pairwise support remains insufficient; fuller operator-interference, selected observation and real-world policy identification open.",
+      "status": "Fixed-order triple followed by cross-order shared-operator information/capacity coupling; history-dependent transfer and original customer demand still open.",
       "question": "When can a qualified productive policy generate enough *decision-useful and physically transferable* data to dominate a deliberate target audit, given that the productive controller changes sampled support, joint qualification and original customer demand, and when must grounding or a new body be purchased instead?",
-      "deliverable": "Continue same two-date J proof under joint operator/customer network and endogenous exposure/report selection: derive partial-support/dominance certificate or direct economically identified complete-policy contrast, and preserve matching physical protocol; keep Nov22 gate open."
+      "deliverable": "Continue the same J under cross-policy original-order demand and operator recovery history; derive supported whole-policy economic bound or resource-price certificate without fixed physical law or omniscient reporter."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
