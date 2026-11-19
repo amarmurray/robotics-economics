@@ -1,0 +1,15 @@
+# Proofs, limitations and rejected shortcuts (19 November 2026)
+
+**D1:** For any feasible y, \( \phi(y)\le\bar\phi(y)\le\sup_{z\ge0}[\bar\phi(z)-\lambda^\top\underline Az]+\lambda^\top\underline Ay\le\sup(\cdots)+\lambda^\top\bar b.\) Apply for every reachable history and take maximum. The claimed matrix and captured-payoff envelopes must be valid *after* source training changes qualification and the original buyer order response. Without a known uniform bound (or Bellman supersolution covering the joint state), the certificate is not economically informative. Current stage contributions plus later actual contributions are counted once.
+
+**D2:** Maximize \((\alpha-\lambda)q-\beta q^2\) over q≥0 to obtain \((\alpha-\lambda)_+^2/(4\beta)\). λ*=(α−2βC)_+ and q*=min(C,α/(2β)) meet stationarity and complementary slackness. Strong duality follows directly by substitution. With β4, α12, capacity2, q*=3/2: forcing q=2 would *understate optimized* revenue.
+
+**D3:** At almost every α, envelope theorem yields \(\partial_\alpha V=q^*(\alpha,\beta,C)\). \(q^*\) weakly increases with C. Integrate α→α+δ to prove weak increasing differences. A grounding policy that changes β, embodied requirements, price bargaining or customer substitution need not satisfy the assumption. X slope counterworld gives the sign ambiguity.
+
+**Sharp partial ID conditional on linear price shape:** Observe Pβ(1)=8 at a single qualified service. For β∈[2,4], \(R_\beta'(1)=8-\beta>0\), so the optimal q at capacity≥1 is never below1. Since \(\partial_\beta R_\beta(q)=q(1-q)\le0\) on q≥1, \(V(2;\beta)\) is nonincreasing. β2 yields q2 and gross12; β4 yields q3/2 and gross9. Both are feasible worlds matching the anchor, so [9,12] is sharp under the *assumed* slope set. Their X-only net is 8−3/2=13/2; adding E cost1 gives net [13/2,19/2]. Retained E alone nets8−1=7. Gross cross-interaction [X C2−X C1]−[R C2−R C1] = 2 or −1.
+
+**No generic revenue cap:** Fix any M and tiny ε<1. A continuous nonincreasing inverse price curve can satisfy P(ε)=M/ε and P(1)=8, with suitable monotone interpolation. At q=ε revenues are M while at q=1 the observed price remains8. A q≤1 physical bound cannot bound gross economic capture without credible price/contract span, even under downward slope.
+
+**Audit EVPI:** Equal-prior no-audit optimum is max(6,13/2,7,(19/2+13/2)/2)=8. Perfect audit yields (max(19/2,7)+max(13/2,7))/2=33/4, increase1/4, not additional future-data income. This is Bayes decision arithmetic under complete assumed safe choices, not demonstrated economic data value in a real market.
+
+**Rejected shortcuts:** Physically limited completed service is not proof of a dollar cap. Benchmark percentages are not provider-captured price. One X-trained price point cannot identify E capacity expansion. Any source data or G grounding value conclusion is conditional on a joint qualified customer recipe, price response and original order denominator. A smooth learned curve, zero joint market interference and an operative fallback cannot be asserted without measurements. The script checks examples; it does not prove the universal claims.

@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "market-envelopes-endogenous-demand-20261119T172842Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T17:28:42.000Z",
     "expires_at_utc": "2026-11-19T18:43:42.000Z",
-    "reason": "Derive policy-consistent endogenous-demand, source/grounding/embodiment production envelopes; test and integrate full roadmap."
+    "reason": "Derived conditional demand-aware source-data/embodiment resource dual, partial-ID demand rank reversal, qualified grounding/embodiment complementarity, audited prior-art and empirical design; scoped exact tests, manuscript and learning materials.",
+    "released_at_utc": "2026-11-19T17:48:15.121Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Whole-market data value under unknown shared controller/operator/customer transitions, source-target transfer and demand; support-aware and certified physical resource bounds within the same R/A/X/G/E qualified production J/V.",
+  "current_mode": "Joint original-customer demand, data learning, qualified service, physical/operator capacity and captured provider value with off-support demand and resource certificates.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MARKET_SUPPORT_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_DEMAND_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released 254f77d3d407e87ab8be5d727d603bb81927f0d0 RESEARCH_STATE.json byte-identically archived in PRE_MARKET_SUPPORT_STATE.json; intermediate lease commits remain in history; previous original Q1–Q13, all prior archives, main and inaccessible Codex work preserved.",
-  "latest_result": "Conditional original-order fully closed-catchment policy support and mathematically sharp rectangular partial-ID interval; joint model/operator/customer spillovers may invalidate nominal cluster closure. Whole-service LP dual over every potentially X-qualified complete recipe can establish a robust paid X rejection without learning-kernel identification. Synthetic cap all-X gross<=7 vs feasible G=6 implies X cost>1 dominated; three independently closed catchments one full-X supported gross13/2 and two X bound[6,7] give cost-half net X-G [-1/3,1/3]. Neither physical cap nor support observed.",
+  "preservation": "Pretranche released state at 8ff3e6c99f666b8f2b333aba5dd70a6777f053cc archived byte-identically in PRE_ENDOGENOUS_DEMAND_STATE.json; original Q1-Q13 backlog, prior finance/state, main and inaccessible Codex work remain unchanged.",
+  "latest_result": "Conditional policy/history-uniform captured-receipts and resource upper dual D1; exact uniform-price quadratic dual D2; demand-slope partial ID: same X source service (q1,price8) but β2/4 yields X+E gross12/9, net19/2 vs13/2 against E net7, flipping source–E economic interaction+2/−1; G intercept×E capacity conditional increasing differences D3; equal-prior perfect audit EVPI1/4. Entirely synthetic.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -184,28 +185,47 @@
       "complete_repository_CI": false,
       "nov22_scientific_gate_passed": false,
       "deadline_unchanged": true
+    },
+    "endogenous_demand_resource_certificates": {
+      "chapter": "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_RESOURCE_CERTIFICATES.md",
+      "source_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_resource_certificates.js",
+      "result_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_resource_certificates_results.json",
+      "source_blob": "4595089f694a3b7b5d336258a0840fd59e3cf30c",
+      "record_blob": "3db1379f788b2c48766bf5a77c25137e3e28adad",
+      "scoped_BigInt_assertions": 1171,
+      "demand_slope_cases": 17,
+      "grounding_capacity_cases": 33,
+      "production_grid_cases": 1056,
+      "independent_python_fraction_spot_checks": true,
+      "conditional_proof": "uniform whole-service captured-receipt envelope, quadratic conjugate, anchored-slope partial-ID endpoints and target-grounding increasing differences; no novelty claim",
+      "real_original_customer_order_price_panel": false,
+      "physical_X_G_E_approval": false,
+      "official_numeric_BLS_BEA_crosswalk": false,
+      "full_repo_CI": false,
+      "independent_novelty": false,
+      "november22_gate_passed": false
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/MARKET_SUPPORT_RESOURCE_ENVELOPES.md",
-    "research/theory_integration_2026_11_17/data_value/MARKET_SUPPORT_RESOURCE_ENVELOPES_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/MARKET_SUPPORT_RESOURCE_ENVELOPES_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_MARKET_SUPPORT_MODELS_AB.md",
-    "research/theory_integration_2026_11_17/data_value/market_support_resource_envelopes.js",
+    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_RESOURCE_CERTIFICATES.md",
+    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_RESOURCE_CERTIFICATES_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_DEMAND_RESOURCE_CERTIFICATES_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_ENDOGENOUS_DEMAND_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/endogenous_demand_resource_certificates.js",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_MARKET_SUPPORT_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_DEMAND_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Horizon-aware state/block-kernel source/operator/customer spillover bound constructed and counterexample to missing joint operator-demand path; next identify honest calibration conditions or partial ID.",
-      "question": "What complete original customer-order policy-value comparisons remain justified for source X versus qualified G/retention, target audit A or changed embodiment E when source changes the *joint* timed controller/operator/customer-demand state law across purported network boundaries? Can the joint graph or whole-kernel influence be bounded without assuming away unseen service losses?",
-      "deliverable": "Translate conditional dynamic response envelope into approved original-order evidence contract or retain ignorance bounds."
+      "status": "Demand-aware capacity dual and two observationally equivalent customer markets derived; X versus E ranking remains unidentifiable absent off-support buyer cash price curves.",
+      "question": "What actual price/volume and all-recipe whole-service evidence bounds X versus target G versus E under shared learner/operator/customer interference?",
+      "deliverable": "Develop nonseparable customer substitute demand and operator-saving G countermodels; formulate minimal enforceable original-order price/captured-receipts support for November22 synthesis."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -230,7 +250,7 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Updated same manuscript and Nov22 Model A/B argument with source transfer versus shared human operator scarcity, exact local/full rollout rank reversal and constructive source-plus-embodiment choice; field/scientific acceptance open.",
+      "status": "Integrated endogenous customer demand source/embodiment theory into living manuscript, Nov22 Model A/B, prospective empirical protocol and separate exercises/solutions; physical and scientific gate open.",
       "question": "Integrate the new information/embodiment mechanism with full qualified-production theory and Models A/B, without claiming Gaussian formulas or EVSI are publication novelty.",
       "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
     }
@@ -380,8 +400,8 @@
     "independent_peer_review": false
   },
   "exact_question": "What investment rankings survive when joint learner/operator/customer-demand spillovers cannot be measured and when only complete-market policy support plus physical resource and demand caps can honestly bound qualified original-customer production?",
-  "proof_gap": "No observed shared learner/operator/customer market closure, no approved original-order full-policy study, no validated uniform all-qualified-recipes dual constraint or demand bound, no certified fallback under changed demand; so numerical upper and lower envelopes are synthetic only.",
-  "next_action": "Assess whether any real version-pinned shared controller/operator/customer market closure and original-order panel support a physically certified all-potential-recipes resource/rights/customer-demand envelope; otherwise carry honest uninformative all-X bounds and retain qualified G/R. Evaluate how a changed E body or target G alters feasible set.",
+  "proof_gap": "Observed one-slot accepted-service and physical operator ceiling do not upper-bound source-induced provider price/quantity response; need an independently validated all-potential-recipes captured price/margin envelope, complete original customer-order/quote support, shared learner/operator/customer closure and qualified E/G physical approval; alternative nonseparable network demand mechanisms may invalidate D3.",
+  "next_action": "At Nov22 integrated synthesis gate, consolidate the exact joint-data-to-captured-production argument and examine an explicit nonseparable two-market/substitute demand countermodel and target grounding that saves operator resources. Determine minimal authorized original-customer quote/decline and off-support price-response evidence to justify the X/G/E policy envelope. Do not invent official numeric BLS–BEA data.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",

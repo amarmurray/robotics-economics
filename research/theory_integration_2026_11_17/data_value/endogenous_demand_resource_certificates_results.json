@@ -1,0 +1,47 @@
+{
+  "kind": "conditional synthetic uniform-price whole-service receipts, not observed robotics data",
+  "knownOneSlotPrice": "8",
+  "sourceDemandSlopeSet": [
+    "2",
+    "4"
+  ],
+  "retainedController": {
+    "capacityOneGross": "6",
+    "capacityTwoGross": "8",
+    "capacityTwoNetOfEmbodiment": "7"
+  },
+  "sourceCost": "3/2",
+  "newEmbodimentCost": "1",
+  "worlds": {
+    "beta_2": {
+      "q1": "1",
+      "gross1": "8",
+      "q2": "2",
+      "gross2": "12",
+      "sourceOnlyNet": "13/2",
+      "sourcePlusEmbodimentNet": "19/2",
+      "sourceCapacityComplementarityVsRetained": "2"
+    },
+    "beta_4": {
+      "q1": "1",
+      "gross1": "8",
+      "q2": "3/2",
+      "gross2": "9",
+      "sourceOnlyNet": "13/2",
+      "sourcePlusEmbodimentNet": "13/2",
+      "sourceCapacityComplementarityVsRetained": "-1"
+    }
+  },
+  "policyAtCapacityOneSourceNet": "13/2",
+  "policyWithSourceAndNewBodyNetBounds": [
+    "13/2",
+    "19/2"
+  ],
+  "compareWithRetainedBodyNet": "7",
+  "perfectPreinvestmentAuditEqualPriorUpperValue": "1/4",
+  "independentSourceToEmbodimentComplementarityCanSwitchSign": true,
+  "slopeGrid": 17,
+  "groundingGrid": 33,
+  "finiteGrid": 1056,
+  "checks": 1171
+}

@@ -1,0 +1,6 @@
+# Instructor-only solutions: demand/source/embodiment
+1. \(q^*=\min(C,\alpha/(2\beta))\), \(V=\alpha q^*-\beta(q^*)^2\); dual \(\min_{\lambda\ge0}\{\lambda C+(\alpha-\lambda)_+^2/(4\beta)\}\) attains at \(\lambda^*=(\alpha-2\beta C)_+\). A price/margin upper bound is additional to C.
+2. \(P_X(q)=8+\beta(1-q)\). β2: α10, q*2 gross12. β4: α12, q*3/2 gross9; feasible capacity2 can be partly idle. Conditional sharp range [9,12].
+3. R1=6, R2=8, E net7. Both X1 gross8/net13/2. β2 X+E gross12/net19/2; β4 gross9/net13/2. Net X+E−E is +5/2 versus−1/2. Gross source/E interaction (VX2−VX1)−(VR2−VR1) is +2 versus−1.
+4. \(\partial V/\partial\alpha=q^*(\alpha,\beta,C)\) almost everywhere, nondecreasing with C; integrate over intercept shift. G changing robot/operator efficiency, slope, rights, or market substitution invalidates fixed-resource/intercept-only mechanism.
+5. No audit optimal ex ante X+E=(19/2+13/2)/2=8; with revelation choose X+E in β2 and E in β4, (19/2+7)/2=33/4; EVPI=1/4 before expense/physical delay. For arbitrary M>8 choose tiny ε>0, P(ε)=M/ε and P(1)=8, monotone interpolate. Then revenue at ε is M with the same observed q1 price8. Real limits need observed/defensible buyer and provider cash spans.
