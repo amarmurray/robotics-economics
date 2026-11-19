@@ -1,0 +1,32 @@
+{
+  "context": "Conditional normalized synthetic buyer markets; price anchors and physical policy validity assumed",
+  "arithmetic": "BigInt exact fractions",
+  "checks": 362,
+  "gridCases": 325,
+  "no_transport": {
+    "min_X": "83/12",
+    "min_G": "69/10",
+    "min_E": "131/20",
+    "R": "7"
+  },
+  "r_positive": {
+    "benchmark_r": "1/2",
+    "delta": "1/4",
+    "X_lower": "197/28",
+    "G_upper": "1119/160",
+    "E_upper": "539/80",
+    "R": "7",
+    "X_gain_before_audit": "1/28"
+  },
+  "r_negative": {
+    "benchmark_r": "-1/2",
+    "delta": "1/4",
+    "G_lower": "1129/160",
+    "X_upper": "251/36",
+    "E_upper": "559/80",
+    "R": "7",
+    "G_gain_before_audit": "9/160"
+  },
+  "sharp_difference": "[D(clamp(L-delta)), D(clamp(U+delta))]",
+  "limitations": "Finite arithmetic checks are not analytic proof, observed robot economics or independent novelty review."
+}
