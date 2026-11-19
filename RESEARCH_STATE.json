@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "joint-choice-priced-menus-2026-11-19T212806017Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T21:28:06.017Z",
     "expires_at_utc": "2026-11-19T22:28:06.017Z",
-    "reason": "Continue original-buyer choice, endogenous posted prices and qualified production under joint substitution; integrate proofs and empirical protocol."
+    "reason": "Joint original-buyer choice and endogenous price-menu analysis committed with conditional capacity/receipt dual, interval and stochastic-choice countermodels, empirical procurement design, manuscript and student/instructor materials.",
+    "released_at_utc": "2026-11-19T21:41:25.926Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
   "current_mode": "Integrated qualified production under heterogeneous data transfer, nonseparable original-customer market demand, resource-saving target grounding, approved embodied capacity and physical/operator/rights closure.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ORIGINAL_BUYER_OFFER_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_JOINT_BUYER_MENU_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released RESEARCH_STATE at fb528a53fe7d5db6dd9d17f33e168939d6e6bb6d preserved byte-identically as PRE_ORIGINAL_BUYER_OFFER_STATE.json (Git blob 9581bf09ffeb5f6028cffea270a21238d457e892). Older versioned research states, Q1-Q13, finance history, main and unrelated Codex work preserved.",
-  "latest_result": "Nonparametric original-buyer fixed-offer threshold support plus separately bounded policy-specific service quality drift yields certain acceptance/refusal margins and qualified complete-service production bounds; one-sided resource LP dual requires actual market/payment and physical caps. Synthetic coarse offers accepted5/refused9 leave X/G reversed across observationally equivalent worlds; additional accepted A8 and refused B6, price7, drift<=1 certifies X10,G5,E4,R6 under a fixed qualified menu. Exact JS source retrieved/reexecuted equal results across 144+9 cases, independently corroborated with Python Fraction. No field demand, physical approval, independent novelty, numerical BLS–BEA or full CI.",
+  "preservation": "Preceding released RESEARCH_STATE at 4adb01b1943b423925584d8738e9de5a2819f64c archived byte-identically as PRE_JOINT_BUYER_MENU_STATE.json (Git blob a6fc3a3c01a65916ebe6433b219b61153ab8214d). Earlier states, Q1-Q13 backlog, historical finance state, main and inaccessible Codex work preserved.",
+  "latest_result": "Conditional original-buyer priced-menu choice extension: for each procurement group, at-most-one substitutable sale; strict utility dominance gives a demand certificate when policy/menu-uniform buyer-value intervals hold. Choice-aware resource dual uses per-buyer max rather than independent additivity. Synthetic price7 X2/G−1/E1/R2 becomes optimized X3/G5/E3/R2; a supported robust interval gives X5>G4>R3>E2; identical coarse quote worlds reverse pointwise X/G. Standard symmetric MNL joint share1/3 versus isolated1/2 discredits naive receipts addition and deterministic guarantees. Executed/retrieved/reexecuted JS 217 scoped checks with exact results and separately checked MNL Fraction identity. No field outcomes, real qualified capacity, menu drift or official numeric BLS–BEA crosswalk; novelty unverified.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -223,19 +224,37 @@
       "full_repository_CI": false,
       "official_numerical_BLS_BEA_crosswalk": false,
       "nov22_gate_passed": false
+    },
+    "joint_buyer_priced_menus": {
+      "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_BUYER_PRICED_MENUS.md",
+      "source_file": "research/theory_integration_2026_11_17/data_value/joint_buyer_priced_menus.js",
+      "results_file": "research/theory_integration_2026_11_17/data_value/joint_buyer_priced_menus_results.json",
+      "source_blob": "1bb3b0868967308ead9c30c8b1ab3815b649ec9e",
+      "result_blob": "6ceaa2cb3ae20d81065d80e38ed26d885505d948",
+      "scoped_integer_half_unit_assertions": 217,
+      "retrieved_source_reexecuted_equal_record": true,
+      "separate_python_fraction_logit_check": true,
+      "proof_scope": "conditional unique customer choice and per-buyer resource dual; static utility interval and optional menu rights, not causal robot transfer law",
+      "physical_approval": false,
+      "actual_original_buyer_offer_panel": false,
+      "verified_policy_quality_transport": false,
+      "numerical_official_BLS_BEA_crosswalk": false,
+      "full_repository_CI": false,
+      "independent_novelty_review": false,
+      "nov22_gate_passed": false
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/ORIGINAL_BUYER_OFFER_SUPPORT.md",
-    "research/theory_integration_2026_11_17/data_value/ORIGINAL_BUYER_OFFER_PROOFS.md",
-    "research/theory_integration_2026_11_17/data_value/ORIGINAL_BUYER_OFFER_EMPIRICAL.md",
-    "research/theory_integration_2026_11_17/data_value/NOV22_ORIGINAL_BUYER_MODELS_AB.md",
-    "research/theory_integration_2026_11_17/data_value/original_buyer_offer_support.js",
+    "research/theory_integration_2026_11_17/data_value/JOINT_BUYER_PRICED_MENUS.md",
+    "research/theory_integration_2026_11_17/data_value/JOINT_BUYER_PRICED_MENUS_PROOFS.md",
+    "research/theory_integration_2026_11_17/data_value/JOINT_BUYER_PRICED_MENUS_EMPIRICAL.md",
+    "research/theory_integration_2026_11_17/data_value/NOV22_JOINT_BUYER_MODELS_AB.md",
+    "research/theory_integration_2026_11_17/data_value/joint_buyer_priced_menus.js",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_ORIGINAL_BUYER_OFFER_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_JOINT_BUYER_MENU_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
@@ -275,11 +294,11 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Same qualified production and policy learning framework now includes nonparametric buyer threshold support with policy quality drift and operator/revenue dual; joint substitution/choice feedback remains next.",
-    "atlas": "Prospective full original-order accepted/refused quote, service, price/rights and operator design; numeric official BLS–BEA crosswalk not obtained.",
-    "paper": "Original buyer support/quality drift theory integrated with living manuscript, Nov22 Model A/B and reproducible exact arithmetic; science gate OPEN.",
-    "learning": "New nonparametric buyer-offer exercises with separate solutions, 153 discrete synthetic state checks.",
-    "main_contribution": "Independently novel contribution not established; direct policy-evaluation methodology is classical."
+    "theory": "Joint original-buyer choice, endogenous admissible price menus and complement versus substitute service are integrated into the qualified-production and data-transfer model; menu-uniform quality interval remains key challenge.",
+    "atlas": "Prospective procurement-group ID, menu/no-purchase and accepted full-service cash/operator join designed; official numeric BLS-BEA crosswalk not obtained.",
+    "paper": "Joint-buyer chapter, proof ledger and A/B bridge appended to living manuscript; November22 scientific gate remains open.",
+    "learning": "Joint-menu choice student/instructor packet, 217 scoped program assertions and MNL exact rational countermodel.",
+    "main_contribution": "Novelty not established; classical choice-based revenue-management and robust optimization methods explicitly credited."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -381,9 +400,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Research committed without routine alert; retain existing last_notification.",
-  "publication_parent_commit": "78c6be6b9068e7989a80872c02ff6659c1007ba4",
-  "current_proof_gap": "The sharp policy-specific gamma transport certificate is exact only with a matched quality/price intercept for each policy, independently justified gamma drift and prior physically approved robot/operator capacity. Real action-induced service quality, buyer population, accepted/refused quotes, receipts and network interference can invalidate it.",
-  "exact_next_action": "Continue one integrated proof: allow bounded policy-induced buyer price intercept/quality drift AND partial original eligible-buyer offer/refusal support in the X/G/E production program, then establish a useful finite captured-receipts/operator dual certificate or prove a nonidentification counterexample. Test with a non-artificial demand/selection functional form before adding parameter scenarios. Compare with approved whole-policy identification. Maintain Nov22 A/B synthesis and official quantitative atlas only via actual BLS/BEA source.",
+  "publication_parent_commit": "176e139b51b250b841d24d76f4f2ee07f62cf2b6",
+  "current_proof_gap": "Policy/menu-uniform buyer-value intervals permit deterministic choice margins, but actual strategic/menu-specific willingness to pay, unbounded logit shocks, off-register eligible buyers and cross-network learner/operator effects can invalidate supported floor and revenue envelope.",
+  "exact_next_action": "Construct set-valued menu-dependent buyer choice from original eligible-offer/no-purchase records (potentially stochastic), with jointly constrained competitor demand, budget and shared operator/controller histories; prove a one-sided demand/receipt bound under minimal empirically defensible closure or a sharp failure; retain old feasible R. Advance Nov22 Model A/B across full paper and actual numerical BLS/BEA only if real source route is obtained.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -401,7 +420,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-19T21:28:06.017Z",
+  "updated_at_utc": "2026-11-19T21:41:25.926Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -419,8 +438,8 @@
     "independent_peer_review": false
   },
   "exact_question": "When source-training X, target-grounding G and embodiment E alter original eligible buyer response and service quality, which independently observable complete-market demand/operator/qualification restrictions identify economic data value and a safe pure investment rather than merely a benchmark or a baseline customer slope?",
-  "proof_gap": "The sharp policy-specific gamma transport certificate is exact only with a matched quality/price intercept for each policy, independently justified gamma drift and prior physically approved robot/operator capacity. Real action-induced service quality, buyer population, accepted/refused quotes, receipts and network interference can invalidate it.",
-  "next_action": "Continue one integrated proof: allow bounded policy-induced buyer price intercept/quality drift AND partial original eligible-buyer offer/refusal support in the X/G/E production program, then establish a useful finite captured-receipts/operator dual certificate or prove a nonidentification counterexample. Test with a non-artificial demand/selection functional form before adding parameter scenarios. Compare with approved whole-policy identification. Maintain Nov22 A/B synthesis and official quantitative atlas only via actual BLS/BEA source.",
+  "proof_gap": "Policy/menu-uniform buyer-value intervals permit deterministic choice margins, but actual strategic/menu-specific willingness to pay, unbounded logit shocks, off-register eligible buyers and cross-network learner/operator effects can invalidate supported floor and revenue envelope.",
+  "next_action": "Construct set-valued menu-dependent buyer choice from original eligible-offer/no-purchase records (potentially stochastic), with jointly constrained competitor demand, budget and shared operator/controller histories; prove a one-sided demand/receipt bound under minimal empirically defensible closure or a sharp failure; retain old feasible R. Advance Nov22 Model A/B across full paper and actual numerical BLS/BEA only if real source route is obtained.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -486,7 +505,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Which original-customer offer, qualification, price and demand-response evidence can order X heterogeneous source training, G target grounding and E embodiment changes when each policy changes service quality, customer choice, captured payment and shared operator/model production?",
+  "exact_intellectual_question": "Which original-buyer joint menu/choice and policy-quality/price observations suffice to bound market-wide captured contribution from X source learning versus G target grounding versus E embodiment, with correlated buyer substitutions and shared learner/operator resources?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -506,7 +525,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Extend the same J/V policy comparison to joint original-buyer choice with endogenous posted prices/quality, and prove which conservative certified production bounds survive without independent customer thresholds. Explicitly construct counterexample if no credible eligibility/payment cap; connect to original buyer audit design, Nov22 Models A/B, accepted-service network and official BLS/BEA quantitative evidence only if authentic source available.",
+  "exact_next": "Construct set-valued menu-dependent buyer choice from original eligible-offer/no-purchase records (potentially stochastic), with jointly constrained competitor demand, budget and shared operator/controller histories; prove a one-sided demand/receipt bound under minimal empirically defensible closure or a sharp failure; retain old feasible R. Advance Nov22 Model A/B across full paper and actual numerical BLS/BEA only if real source route is obtained.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -606,7 +625,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Finite per-order threshold intervals are not jointly sharp under substitutes, policy-endogenous prices, unregistered buyer entry and controller/operator/competitor feedback. Need to derive defensible whole-market one-sided receipt and accepted-service bounds from joint choice and offer records without treating missing original eligible orders as zero or robot capacity as a revenue cap.",
+  "next_proof_gap": "Policy/menu-uniform buyer-value intervals permit deterministic choice margins, but actual strategic/menu-specific willingness to pay, unbounded logit shocks, off-register eligible buyers and cross-network learner/operator effects can invalidate supported floor and revenue envelope.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -686,5 +705,6 @@
     "full_repository_CI": false,
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
-  }
+  },
+  "current_question": "Which original-buyer joint menu/choice and policy-quality/price observations suffice to bound market-wide captured contribution from X source learning versus G target grounding versus E embodiment, with correlated buyer substitutions and shared learner/operator resources?"
 }

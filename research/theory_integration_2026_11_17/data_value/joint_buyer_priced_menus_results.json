@@ -1,0 +1,108 @@
+{
+  "schema": "joint_choice_robust_pricing_v1",
+  "units": "integer half-contribution-units; divide by 2",
+  "price_grid_halves": [
+    10,
+    12,
+    14,
+    16
+  ],
+  "checks": 217,
+  "fixed": {
+    "X": 4,
+    "G": -2,
+    "E": 2,
+    "R": 4
+  },
+  "priced": {
+    "X": {
+      "profit_halves": 6,
+      "menu_halves": [
+        16,
+        null
+      ]
+    },
+    "G": {
+      "profit_halves": 10,
+      "menu_halves": [
+        null,
+        12
+      ]
+    },
+    "E": {
+      "profit_halves": 6,
+      "menu_halves": [
+        null,
+        12
+      ]
+    },
+    "R": {
+      "profit_halves": 4
+    }
+  },
+  "worldResults": [
+    {
+      "X": {
+        "profit_halves": 10,
+        "menu_halves": [
+          16,
+          null
+        ]
+      },
+      "G": {
+        "profit_halves": 8,
+        "menu_halves": [
+          null,
+          10
+        ]
+      }
+    },
+    {
+      "X": {
+        "profit_halves": 4,
+        "menu_halves": [
+          10,
+          null
+        ]
+      },
+      "G": {
+        "profit_halves": 14,
+        "menu_halves": [
+          null,
+          16
+        ]
+      }
+    }
+  ],
+  "certificate": {
+    "X": {
+      "profit_halves": 10,
+      "menu_halves": [
+        16,
+        null
+      ]
+    },
+    "G": {
+      "profit_halves": 8,
+      "menu_halves": [
+        null,
+        10
+      ]
+    },
+    "E": {
+      "profit_halves": 4,
+      "menu_halves": [
+        16,
+        null
+      ]
+    },
+    "R": {
+      "profit_halves": 6
+    }
+  },
+  "naiveSeparate_halves": 28,
+  "jointChoice_halves": 14,
+  "oneBuyerTwoResourcesDual_halves": 14,
+  "twoBuyerOneResourceDual_halves": 14,
+  "interpretation": "All valuations, costs, demand supports and complete qualified recipes are synthetic; verified enumeration is not a scientific novelty or physical experiment."
+}
