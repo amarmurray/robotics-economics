@@ -1,0 +1,49 @@
+{
+  "source": "stage_screening_selection.js",
+  "research_question": "source-first failure selection and action substitution",
+  "model": {
+    "units": "1/20 of hypothetical full-network captured contribution",
+    "initial": {
+      "old": 0,
+      "moreSource": 20
+    },
+    "secondStage": {
+      "old": {
+        "ground": 12,
+        "body": 6,
+        "best": {
+          "max": 12,
+          "act": "ground"
+        }
+      },
+      "moreSource": {
+        "ground": -4,
+        "body": 13,
+        "best": {
+          "max": 13,
+          "act": "body"
+        }
+      }
+    },
+    "policyGainOverRetainedOld": {
+      "oldSourceBest": 12,
+      "moreSourceBestBeforeSourceCost": 33,
+      "moreSourceBestAfterSourceCost": 27,
+      "perfectTypeDiagnosticWithoutMoreSource": 29
+    },
+    "conditionalPerFailure": {
+      "oldGround": 12,
+      "oldBody": 6,
+      "newGround": -8,
+      "newBody": 26
+    },
+    "screeningRanking": {
+      "removedEasyGroundMinusBody": 46,
+      "remainingHardGroundMinusBody": -34
+    },
+    "checks": 5062,
+    "gridCases": 1681,
+    "reversals": 819,
+    "evidence_status": "synthetic algebra only; no customer data, signed safety approval or learned model test"
+  }
+}
