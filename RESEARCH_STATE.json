@@ -2,15 +2,14 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "965d542342a0888d6be58bc9a9efc17250f39f4a",
+  "research_input_commit": "84b7751ce190064b8ecceb56f7bd2184a00109df",
   "lease": {
-    "run_id": "research-data-copula-20261119T013807530Z",
+    "run_id": "research-data-signal-20261119T023257397Z",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-19T01:38:07.530Z",
-    "expires_at_utc": "2026-11-19T02:33:07.530Z",
-    "reason": "Adaptive source-first, ground-on-failure and new-body menu theory; exact checked arithmetic, reproducible model and manuscripts integrated; scientific gates open.",
-    "released_at_utc": "2026-11-19T01:54:32.246Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-19T02:32:57.397Z",
+    "expires_at_utc": "2026-11-19T03:27:57.397Z",
+    "reason": "Follow adaptive menu proof gap: inspect approved paired/sequential evidence and derive robust history-conditioned source/ground/body acquisition under customer service."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -302,7 +301,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-19T00:47:39.885Z",
+  "updated_at_utc": "2026-11-19T02:32:57.397Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
