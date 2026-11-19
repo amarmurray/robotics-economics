@@ -1,0 +1,73 @@
+{
+  "model": "endogenous joint market-demand / target-qualification coupling",
+  "probability_denominator": 8,
+  "composition_tables_checked": 6435,
+  "moment_patterns_exactly_verified": 6105,
+  "bounds_are_sharp_over_all_rational_8_atom_tables_with_denominator_8": true,
+  "parity_worlds": [
+    {
+      "triple_numerator": 0,
+      "atom_numerators": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      "x_value_tenths": 26,
+      "g_value_tenths": 36,
+      "e_value_tenths": 35,
+      "retain_value_tenths": 30
+    },
+    {
+      "triple_numerator": 1,
+      "atom_numerators": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "x_value_tenths": 36,
+      "g_value_tenths": 36,
+      "e_value_tenths": 35,
+      "retain_value_tenths": 30
+    },
+    {
+      "triple_numerator": 2,
+      "atom_numerators": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "x_value_tenths": 46,
+      "g_value_tenths": 36,
+      "e_value_tenths": 35,
+      "retain_value_tenths": 30
+    }
+  ],
+  "counterfactual_choice": "G at t=0; tie X/G at t=1/8; X at t=1/4",
+  "net_value_tenths": {
+    "routine_qualified_incumbent": 30,
+    "grounding": 36,
+    "new_embodiment": 35,
+    "source_training_world_low": 26,
+    "source_training_world_high": 46
+  },
+  "hypothetical_equal_prior_EVPI_tenths": 5,
+  "field_evidence": false,
+  "physical_approval": false,
+  "full_repo_ci": false,
+  "independent_review": false
+}
