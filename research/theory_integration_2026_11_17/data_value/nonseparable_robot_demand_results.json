@@ -1,0 +1,61 @@
+{
+  "field_calibrated": false,
+  "scenario": {
+    "gamma_-1": {
+      "E": {
+        "gross": "37/4",
+        "net": "141/20",
+        "q_a": "1/2",
+        "q_b": "1"
+      },
+      "G": {
+        "gross": "33/4",
+        "net": "143/20",
+        "q_a": "1/2",
+        "q_b": "3/4"
+      },
+      "R": {
+        "gross": "7",
+        "net": "7",
+        "q_a": "1/2",
+        "q_b": "1/2"
+      },
+      "X": {
+        "gross": "43/6",
+        "net": "83/12",
+        "q_a": "2/3",
+        "q_b": "1/3"
+      }
+    },
+    "gamma_1": {
+      "E": {
+        "gross": "35/4",
+        "net": "131/20",
+        "q_a": "1/2",
+        "q_b": "1"
+      },
+      "G": {
+        "gross": "8",
+        "net": "69/10",
+        "q_a": "1/2",
+        "q_b": "3/4"
+      },
+      "R": {
+        "gross": "7",
+        "net": "7",
+        "q_a": "1/2",
+        "q_b": "1/2"
+      },
+      "X": {
+        "gross": "15/2",
+        "net": "29/4",
+        "q_a": "1",
+        "q_b": "0"
+      }
+    },
+    "joint_qualification": {
+      "gross_interaction_G_E": "2/3"
+    }
+  },
+  "type": "exact_synthetic_two_service_demand"
+}
