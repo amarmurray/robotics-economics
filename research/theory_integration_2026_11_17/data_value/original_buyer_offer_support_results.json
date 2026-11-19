@@ -1,0 +1,98 @@
+{
+  "model": "finite_original_buyer_quality_and_quote_support",
+  "date": "2026-11-19",
+  "prior": {
+    "cases": 144,
+    "bounds": {
+      "R": [
+        6,
+        6
+      ],
+      "X": [
+        5,
+        10
+      ],
+      "G": [
+        5,
+        10
+      ],
+      "E": [
+        -1,
+        9
+      ]
+    }
+  },
+  "audit": {
+    "cases": 9,
+    "bounds": {
+      "R": [
+        6,
+        6
+      ],
+      "X": [
+        10,
+        10
+      ],
+      "G": [
+        5,
+        5
+      ],
+      "E": [
+        4,
+        4
+      ]
+    }
+  },
+  "baselineBands": {
+    "A": [
+      5,
+      9
+    ],
+    "B": [
+      5,
+      9
+    ],
+    "delta": 1,
+    "posted": 7,
+    "initialStatus": "unknown"
+  },
+  "targetAdditionalQuotes": {
+    "A": "accepted at 8",
+    "B": "refused at 6",
+    "A_status": "yes",
+    "B_status": "no"
+  },
+  "worlds": {
+    "A_wtp8_B_wtp5": {
+      "R": 6,
+      "X": 10,
+      "G": 5,
+      "E": 4
+    },
+    "A_wtp5_B_wtp8": {
+      "R": 6,
+      "X": 5,
+      "G": 10,
+      "E": 4
+    }
+  },
+  "twoWorldEqualPrior": {
+    "preReportBestExpected": 7.5,
+    "postReportBestExpected": 10,
+    "perfectReportGrossValue": 2.5
+  },
+  "physicalCap": {
+    "incumbentNet6": 6,
+    "A_ifAcceptedGross5": 5,
+    "B_ifAcceptedGross5": 5,
+    "XfixedCost1": 1,
+    "GfixedCost1": 1,
+    "EfixedCost7": 7,
+    "EupperNet": 9
+  },
+  "notes": [
+    "All buyer values and operator constraints are synthetic.",
+    "The audit is assumed accurate, costless and non-disruptive for reported gross value; real costs enter once.",
+    "This integer enumeration checks a general continuous-threshold analytical statement, not proves it."
+  ]
+}

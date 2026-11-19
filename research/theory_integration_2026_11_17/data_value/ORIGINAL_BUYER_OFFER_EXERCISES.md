@@ -1,0 +1,9 @@
+# Student exercises — buyer-offer data and robotic production
+**Companion to [theory](ORIGINAL_BUYER_OFFER_SUPPORT.md). Do not consult [solutions](ORIGINAL_BUYER_OFFER_SOLUTIONS.md) until working independently.**
+
+1. Fix one buyer's stable threshold w_R∈[L,U) and policy drift |w_p−w_R|≤d. Prove the acceptance and refusal certificates at a policy offer t. Explain why the refused boundary uses a strict inequality and why no classification follows in the interior.
+2. Original eligible buyers A and B each accept price5 and reject price9 under a standard benchmark; policy receipt is7, service variable expense2. X supplies A with investment cost1; G supplies B with cost1; E supplies both with investment cost7. R contributes6. Assuming full qualified capacity and d=1, derive the value bounds and construct two observationally equivalent markets with opposite X/G rankings.
+3. The target protocol adds an accepted standard offer8 for A and a refused standard offer6 for B, without affecting eligibility or outside options. Recompute the menu for all feasible policy shifts d≤1. Describe which assumption would fail if an offer were a nonbinding marketing survey.
+4. Derive the Lagrangian upper certificate for complete-service positive-contribution orders with Ax≤b, 0≤x_i≤1. Why is it generally an upper bound for integer robotic job scheduling rather than an exact equality?
+5. Assume (only for this exercise) an equal prior on the two swap worlds w_R=(8,5) and (5,8). Compute optimal pure ex-ante value, post-perfect-audit value and the maximum gross cost of a non-disruptive audit under risk neutrality. Explain why this cannot price an actual dataset.
+6. Construct a closed-resource but unbounded-captured-receipt countermodel when an otherwise unregistered buyer becomes accessible only after source training. Which one measurement restriction restores a finite revenue certificate?
