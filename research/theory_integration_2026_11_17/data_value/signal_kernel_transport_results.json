@@ -1,0 +1,28 @@
+{
+  "model": "synthetic qualified whole-network contribution, not robot field evidence",
+  "report_source_accuracy": "9/10",
+  "possible_target_accuracies": [
+    "3/5",
+    "9/10"
+  ],
+  "source_optimized_fixed_report_policy": [
+    "T",
+    "S"
+  ],
+  "stale_policy_low": "3/8",
+  "stale_policy_high": "15/8",
+  "calibrated_target_low": "43/40",
+  "calibrated_target_high": "15/8",
+  "robust_policy": [
+    "G",
+    "S"
+  ],
+  "robust_guarantee": "43/40",
+  "no_report_retained_value": "1",
+  "previously_misclassified_low_world_regret": "7/10",
+  "kernel_quality_revelation_before_report_value_ex_ante": "1/10",
+  "analytical_switch": "q=5/6",
+  "exact_assertions": 76,
+  "physically_approved_target_trial": false,
+  "commercial_field_calibration": false
+}
