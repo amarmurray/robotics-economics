@@ -1,0 +1,35 @@
+{
+  "assertions": 1248,
+  "arithmetic": "exact integers in quarter units; illustrative, no field observations",
+  "identicalMarginalsDifferentInteraction": {
+    "positive": 1,
+    "negative": -1
+  },
+  "economicDecomposition": {
+    "qualification": 1,
+    "serviceResponse": -1,
+    "total": 0,
+    "eachArm": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "productionCounterexamples": {
+    "complementaryBundle": 3,
+    "substitution": -1,
+    "originalOrderDisplacement": -1
+  },
+  "exactJointDistributionCases": 243,
+  "randomizedWholeNetwork": {
+    "assignments": 24,
+    "averageEstimate": 2,
+    "populationContrast": 2
+  },
+  "missingApproved11Arm": [
+    -1.75,
+    3.25
+  ],
+  "fieldValidation": false
+}
