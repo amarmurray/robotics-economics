@@ -1,0 +1,43 @@
+{
+  "test_status": "passed",
+  "assertions": 20,
+  "design": "two exact response-type couplings; separate sharp-under-rectangularity partial-support calculation",
+  "couplings": [
+    {
+      "label": "nested",
+      "both": 1,
+      "only0": 0,
+      "only1": 2,
+      "neither": 1
+    },
+    {
+      "label": "nonnested",
+      "both": 0,
+      "only0": 1,
+      "only1": 3,
+      "neither": 0
+    }
+  ],
+  "unit_denominator": 20,
+  "observed_dynamic_J": {
+    "x0": "5/4",
+    "x1": "7/4",
+    "difference": "1/2"
+  },
+  "partial_support": {
+    "x0": [
+      "1",
+      "3/2"
+    ],
+    "x1": "7/4",
+    "contrast": [
+      "1/4",
+      "3/4"
+    ],
+    "after_x1_cost_2_over_5": [
+      "-3/20",
+      "7/20"
+    ]
+  },
+  "note": "Exact integer arithmetic for synthetic illustration only; proofs and all field admission assumptions in companion text."
+}

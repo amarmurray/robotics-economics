@@ -1,0 +1,7 @@
+# Exercises — estimand reconciliation and source choice
+
+1. Two source-qualified potential outcomes Q0,Q1 have probabilities 1/4 and 3/4. Derive the sharp Fréchet range for t=P(Q0=Q1=1). Exhibit two response-type populations attaining its endpoints. What does each say about qualification regressions?
+2. In each source regime, stage-one accepted A production is worth 2 for an initially qualified complete order. A separately approved post-failure continuation yields incremental net whole-network contribution 1 and F remains qualified. Compute each regime's mean adaptive policy value. Why is t unnecessary?
+3. Under x0 a quarter of all opportunities pass (each worth 2), a half fail with observed approved continuation gain 1, and the remaining quarter have approved but unstudied gain in [0,2], with F net zero. Under x1 three quarters pass at 2 and the remaining quarter have observed gain 1. Bound the optimal source-policy contrast. Repeat if x1 costs 2/5.
+4. A new-body policy lacks safety qualification and customer authorization in a particular failed-history stratum. Should it contribute an unobserved [L,U] to the economically feasible menu? Explain the difference from an approved but unobserved policy.
+5. State which additional audit would distinguish data that improves initial qualification from a diagnostic which improves only the choice of a later continuation. Include original customer orders and one operator resource.
