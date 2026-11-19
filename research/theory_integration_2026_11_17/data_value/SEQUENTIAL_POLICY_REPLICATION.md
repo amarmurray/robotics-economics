@@ -1,0 +1,3 @@
+# Replication
+
+Run node sequential_policy_identification.js from this directory. The deterministic JSON output must match sequential_policy_identification_results.json. The source enumerates all 20 balanced assignments of six synthetic potential complete-network outcome pairs, tests exact unbiasedness, checks conditional costs and success scenarios with tolerances for floating point, and computes a bounded independent-network confidence precision target. This is **not** hardware, customer, lab training, peer review, or full repository CI; mathematical claims are proved in the chapter and ledger.

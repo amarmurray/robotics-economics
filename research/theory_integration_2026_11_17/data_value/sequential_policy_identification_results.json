@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "balanced_assignments": 20,
+  "unbiased_expected_effect_tenths": 2,
+  "finite_population_effect_tenths": 2,
+  "conditional_r_three_quarters": ".9",
+  "conditional_r_one_fifth": "-.2",
+  "population_pi_one_half_high": ".45",
+  "population_pi_one_half_low": "-.1",
+  "break_even_conditional_success": ".3",
+  "independent_bounded_precision": {
+    "range": 4,
+    "alpha": 0.05,
+    "target_halfwidth": 0.5,
+    "equal_arms_each": 561,
+    "actual_halfwidth": 0.4999551714477346,
+    "power_study": false
+  },
+  "field_effect": false,
+  "physical_approval": false
+}
