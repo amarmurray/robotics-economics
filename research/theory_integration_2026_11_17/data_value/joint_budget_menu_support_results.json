@@ -1,0 +1,31 @@
+{
+  "model": "joint original-buyer procurement budget/menu/qualified resource countermodel",
+  "date_utc": "2026-11-19",
+  "synthetic": true,
+  "denominator": 16,
+  "enumerated_feasible_joint_laws": 969,
+  "marginal_pairs": 289,
+  "exact_assertions": 9984,
+  "same_marginals_t0": {
+    "X": "3",
+    "G_contingent": "5/2",
+    "difference": "-1/2"
+  },
+  "same_marginals_t_half": {
+    "X": "3",
+    "G_contingent": "7/2",
+    "E": "2",
+    "R": "2",
+    "difference": "+1/2"
+  },
+  "matched_t_three_tenths": {
+    "X": "3",
+    "G_contingent": "31/10",
+    "G_fixed_menu": "27/10",
+    "grounding_only_information_gain": "2/5",
+    "whole_decision_information_gain": "1/10"
+  },
+  "conditional_gap": "2 Pr(high_request and budget8)-1/2",
+  "noncontingent_gap": "max(0,4 Pr(high_request and budget8)-2 Pr(high_request))-1/2",
+  "scope": "No source-to-qualification field measurement; no customer budget or offer data; no approval or complete CI."
+}

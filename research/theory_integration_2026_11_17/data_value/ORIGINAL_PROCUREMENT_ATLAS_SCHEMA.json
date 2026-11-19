@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1-design-2026-11-19",
+  "observational_status": "NO ORIGINAL CUSTOMER OR ROBOT RECORDS LOADED",
+  "purpose": "Prospective original-buyer budget/menu and qualified complete-service identification within When Capabilities Become Production",
+  "unit_of_analysis": "original eligible parent buyer × procurement period × policy/menu exposure × safe complete service",
+  "tables": [
+    {
+      "name": "original_eligible_parent_period",
+      "key": [
+        "parent_id",
+        "period_id"
+      ],
+      "required": [
+        "market_id",
+        "original_eligible",
+        "common_budget_ceiling",
+        "budget_verification_source",
+        "budget_payment_currency",
+        "budget_known_before_offer",
+        "permitted_menu_policy",
+        "competitor_options",
+        "no_purchase_observed"
+      ],
+      "risks": [
+        "selection on purchases",
+        "unobserved parent budget",
+        "outside alternative"
+      ]
+    },
+    {
+      "name": "original_division_request",
+      "key": [
+        "parent_id",
+        "period_id",
+        "division_id",
+        "policy_menu_id"
+      ],
+      "required": [
+        "eligible_before_offer",
+        "pre_dispatch_request",
+        "request_timestamp",
+        "accepted_or_refused",
+        "division_service_recipe",
+        "quality_promise",
+        "capacity_censored",
+        "purchase_counterfactual_supported"
+      ],
+      "risks": [
+        "accepted-only demand",
+        "missing joint request timing"
+      ]
+    },
+    {
+      "name": "policy_menu",
+      "key": [
+        "policy_menu_id",
+        "market_id"
+      ],
+      "required": [
+        "investment_arm_R_X_G_E",
+        "source_training_recipe",
+        "target_grounding_recipe",
+        "new_embodiment",
+        "controller_version",
+        "quoted_service_price",
+        "posted_before_request",
+        "legally_price_discriminatory",
+        "service_offer_set"
+      ],
+      "risks": [
+        "policy-induced demand/quality",
+        "contract rights"
+      ]
+    },
+    {
+      "name": "qualification_operator",
+      "key": [
+        "network_id",
+        "period_id",
+        "controller_version",
+        "service_recipe_id"
+      ],
+      "required": [
+        "approved_complete_service",
+        "joint_recovery_deadline",
+        "qualified_operator_slots",
+        "shared_dispatch_pool",
+        "model_update_lineage",
+        "interference_neighbors",
+        "heldout_target_evaluation"
+      ],
+      "risks": [
+        "unverified joint capacity",
+        "unsafe rejected requests"
+      ]
+    },
+    {
+      "name": "complete_cash_capture",
+      "key": [
+        "parent_id",
+        "period_id",
+        "service_recipe_id",
+        "policy_menu_id"
+      ],
+      "required": [
+        "full_service_delivered",
+        "payer_gross_receipt",
+        "actual_collected_cash",
+        "variable_service_cost",
+        "refund_or_liability",
+        "payment_rights",
+        "upfront_policy_cost_allocated_once"
+      ],
+      "risks": [
+        "benchmark to dollars",
+        "double counted parent sales",
+        "collection risk"
+      ]
+    }
+  ],
+  "derived_estimands": [
+    {
+      "name": "q",
+      "definition": "Pr(simultaneous two original requests)",
+      "status": "unobserved"
+    },
+    {
+      "name": "b",
+      "definition": "Pr(verified parent budget is at least 8 in a normalized example)",
+      "status": "unobserved; 8 is a synthetic test threshold only"
+    },
+    {
+      "name": "t",
+      "definition": "Pr(simultaneous requests and sufficient parent budget in SAME procurement window)",
+      "status": "unobserved"
+    },
+    {
+      "name": "policy_complete_mean",
+      "definition": "mean optimized captured contribution net of real variable/upfront costs under eligible whole-network policy",
+      "status": "unobserved"
+    }
+  ],
+  "source_backbone": {
+    "BLS_2025_2035_to_BEA_IO_numerical_crosswalk": "NOT_OBTAINED",
+    "role": "aggregate production topology only; does not identify procurement budgets, qualified service or price demand"
+  },
+  "safe_data_policy": "No confidential employer, private buyer, or live robot data; physical intervention requires separate approval."
+}
