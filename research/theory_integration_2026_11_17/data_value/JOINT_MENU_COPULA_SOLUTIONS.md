@@ -1,0 +1,7 @@
+# Separate instructor solutions — demand dependence and robot production
+
+1. Let t=Pr(A=1,B=1). When both request, only A's contribution6 is fulfilled; when only B requests, contribution4. Thus V_X=6p_A+4(p_B−t)=5−4t, with t∈[0,1/2] by Fréchet bounds. G with two safely qualified operator positions yields 5p_A+5p_B−K_G=4. X−G=1−4t, so X preferred below1/4, G above1/4, tie at1/4. Isolated technical success does not reveal original buyer concurrence, operator slots, captured service margins or admissible prices.
+
+2. With sorted contributions6,4,2, gaps are2,2,2. Lower: 2(max p_1 + max(p_1,p_2)+max(p_1,p_2,p_3))=2(1/2+1/2+1/2)=3. Upper: 2(min(1,p_1)+min(1,p_1+p_2)+min(1,p_1+p_2+p_3))=2(1/2+1+1)=5. Nested events from common U uniform attain3, consecutive arcs on the unit circle attain5. If safe dispatch must commit before buyers reveal demand or a customer offer legally obligates all accepted deliveries, max-after-observation is not a feasible lower production strategy.
+
+3. Without signal E[X]=(5+3)/2=4=G, exceeding E and R2. With perfect signal choose X when t=0 (5), G when t=1/2 (4), expected (5+4)/2=4.5. Gross EVSI=0.5 before signal acquisition cost, assuming stable regimes, truly optional approved policies and signal observed prior to choice. Both regimes have exactly the same pair of marginal demand probabilities, so unpaired p audits reveal nothing about the regime and provide zero EVSI in this closed example.
