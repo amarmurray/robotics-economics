@@ -6,10 +6,11 @@
   "lease": {
     "run_id": "archive-verification-repair-20261119T164520Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-19T16:45:20.000Z",
     "expires_at_utc": "2026-11-19T17:45:20.000Z",
-    "reason": "Correct byte-exact released-state archive provenance and verify published source/results."
+    "reason": "Corrected PRE_MARKET_SUPPORT_STATE.json to byte-identical 254f77d3 pretranche released RESEARCH_STATE.json; verified new whole-market source executed from retrieved content, matching committed results, 14 exact rational assertions, branch and release.",
+    "released_at_utc": "2026-11-19T16:46:30.000Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -17,7 +18,7 @@
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
   "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MARKET_SUPPORT_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous 254f77d3 released state preserved byte-identically in PRE_MARKET_SUPPORT_STATE.json, along with all earlier archived prior states, Q1-Q13 backlog, main and inaccessible Codex work.",
+  "preservation": "Prior released 254f77d3d407e87ab8be5d727d603bb81927f0d0 RESEARCH_STATE.json byte-identically archived in PRE_MARKET_SUPPORT_STATE.json; intermediate lease commits remain in history; previous original Q1–Q13, all prior archives, main and inaccessible Codex work preserved.",
   "latest_result": "Conditional original-order fully closed-catchment policy support and mathematically sharp rectangular partial-ID interval; joint model/operator/customer spillovers may invalidate nominal cluster closure. Whole-service LP dual over every potentially X-qualified complete recipe can establish a robust paid X rejection without learning-kernel identification. Synthetic cap all-X gross<=7 vs feasible G=6 implies X cost>1 dominated; three independently closed catchments one full-X supported gross13/2 and two X bound[6,7] give cost-half net X-G [-1/3,1/3]. Neither physical cap nor support observed.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
@@ -362,7 +363,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-19T16:43:00.000Z",
+  "updated_at_utc": "2026-11-19T16:46:30.000Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -599,6 +600,8 @@
     "quantitative_official_BLS_BEA_crosswalk": false,
     "complete_repository_CI": false,
     "independent_novelty": false,
-    "november22_scientific_gate": false
+    "november22_scientific_gate": false,
+    "retrieved_source_replayed_and_results_equal": true,
+    "prior_released_state_archive_exact": true
   }
 }
