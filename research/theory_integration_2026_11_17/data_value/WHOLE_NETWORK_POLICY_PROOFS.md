@@ -1,0 +1,16 @@
+# Proof and rejection ledger — complete policy-closed history
+**19 November 2026.** Conditional mathematical constructions; no robot results and no novelty claim.
+
+**H1 (whole-policy design unbiasedness).** For a fixed complete reference table W_i(X),W_i(G), each pre-policy network has inclusion probability n_X/N in X and n_G/N in G under uniform balanced assignment. Linearity of expectation gives E_Z[Σ_{X}W_i(X)/n_X]=Σ_iW_i(X)/N and analogously G, proving equation (2). This does **not** require independence of histories inside a cluster, only no interference between clusters and a fixed policy version.
+
+**H2 (finite-population variance).** Let I_i indicate X; Cov(I_i,I_j)=−(n_X/N)(n_G/N)/(N−1) for i≠j. Substituting into the mean difference estimator yields S_X²/n_X+S_G²/n_G−S_Δ²/N. The unobserved S_Δ² term prevents treating the full variance as design-identified from one assignment. The exact synthetic eight-network enumeration and independent variance-formula numerator agree: 8615/448; numerical agreement checks an implementation, not the proof.
+
+**H3 (selected-only rank reversal).** Under the exact complete reference table, Σ_i W_i(X)=42, Σ_i W_i(G)=39, while accepted gross/accepted count equals 66/10 for X, 47/7 for G. Cross multiplication 47×10=470>462=66×7 shows that a post-policy accepted-service denominator changes the ranking. It cannot be repaired by a scalar qualification-percentage-to-$ conversion.
+
+**H4 (partial coverage).** Decompose target J_X−J_G=wΔ_S+(1−w)Δ_U. Payout envelopes imply Δ_U∈[L_X−U_G,U_X−L_G]; both endpoints attainability follows by selecting allowed independent unsupported X/G potential values at their envelope endpoints. Thus (4) is sharp only in that envelope-only class. Adding a structural shared recovery or qualification feasibility constraint may destroy endpoint attainment. An unapproved physical policy is excluded, not imputed.
+
+**H5 (same-world finite-type LP).** Represent target population as probability weights over fully feasible joint response types θ that encode all approved whole-policy counterfactuals, including policy-specific original demand and reports. Observed exact moments impose Mp=m; optimizing d·p is a linear program. Weak duality gives λ·m+α≤d·p for any column-wise witness, and finite-dimensional strong duality gives equality if the primal is feasible and bounded. Arbitrary cross-policy type assumptions are **not** learned from R-selected data. Finite samples need confidence sets.
+
+**H6 (rejected transport and observational inference).** The previous fixed-law conditional identity F_1 and F_2 uses unchanged joint qualifications and demand. No equality follows for J_X−J_G when X changes the recovery/demand/recording law or when cross-cluster interference occurs. A target benchmark accuracy difference does not determine complete-service contribution. Whole-network assignment identifies a *total* economic effect but cannot alone attribute it to model skill, demand stimulation or operator resources.
+
+**Unresolved:** approved true network closures; actual original-order outcomes and captured-value accounting; finite-sample positivity/intervals; source/controller version transport and between-network interference; structural type restriction evidence; official quantitative BLS–BEA atlas, external novelty review and full CI.

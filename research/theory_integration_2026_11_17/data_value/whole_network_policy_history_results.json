@@ -1,0 +1,213 @@
+{
+  "schema": "full-history approved whole-network synthetic policy contrasts v1",
+  "construction": "Eight fixed prepolicy network types; two dates; first failure occupies operator recovery unless safe report A or extra safe capacity E; source X and grounding G can change qualification and future original demand. No field measurements.",
+  "costs": {
+    "R": 0,
+    "A": 1,
+    "X": 3,
+    "G": 1,
+    "E": 2
+  },
+  "per_network": [
+    {
+      "i": 0,
+      "R": 0,
+      "A": -1,
+      "X": -3,
+      "G": -1,
+      "E": -2,
+      "X_original_orders": 1,
+      "G_original_orders": 1,
+      "X_accepted": 0,
+      "G_accepted": 0
+    },
+    {
+      "i": 1,
+      "R": 0,
+      "A": -1,
+      "X": 2,
+      "G": -1,
+      "E": -2,
+      "X_original_orders": 1,
+      "G_original_orders": 1,
+      "X_accepted": 1,
+      "G_accepted": 0
+    },
+    {
+      "i": 2,
+      "R": 0,
+      "A": -1,
+      "X": -3,
+      "G": -1,
+      "E": -2,
+      "X_original_orders": 2,
+      "G_original_orders": 2,
+      "X_accepted": 0,
+      "G_accepted": 0
+    },
+    {
+      "i": 3,
+      "R": 0,
+      "A": 8,
+      "X": 11,
+      "G": -1,
+      "E": 7,
+      "X_original_orders": 2,
+      "G_original_orders": 2,
+      "X_accepted": 2,
+      "G_accepted": 0
+    },
+    {
+      "i": 4,
+      "R": 5,
+      "A": 4,
+      "X": 2,
+      "G": 4,
+      "E": 3,
+      "X_original_orders": 1,
+      "G_original_orders": 1,
+      "X_accepted": 1,
+      "G_accepted": 1
+    },
+    {
+      "i": 5,
+      "R": 5,
+      "A": 4,
+      "X": 11,
+      "G": 13,
+      "E": 3,
+      "X_original_orders": 2,
+      "G_original_orders": 2,
+      "X_accepted": 2,
+      "G_accepted": 2
+    },
+    {
+      "i": 6,
+      "R": 5,
+      "A": 4,
+      "X": 11,
+      "G": 13,
+      "E": 3,
+      "X_original_orders": 2,
+      "G_original_orders": 2,
+      "X_accepted": 2,
+      "G_accepted": 2
+    },
+    {
+      "i": 7,
+      "R": 14,
+      "A": 13,
+      "X": 11,
+      "G": 13,
+      "E": 12,
+      "X_original_orders": 2,
+      "G_original_orders": 2,
+      "X_accepted": 2,
+      "G_accepted": 2
+    }
+  ],
+  "totals": {
+    "R": 29,
+    "A": 30,
+    "X": 42,
+    "G": 39,
+    "E": 22
+  },
+  "means_over_8": {
+    "R": {
+      "numerator": 29,
+      "denominator": 8
+    },
+    "A": {
+      "numerator": 15,
+      "denominator": 4
+    },
+    "X": {
+      "numerator": 21,
+      "denominator": 4
+    },
+    "G": {
+      "numerator": 39,
+      "denominator": 8
+    },
+    "E": {
+      "numerator": 11,
+      "denominator": 4
+    }
+  },
+  "accepted_service_selected_means": {
+    "X": {
+      "numerator": 33,
+      "denominator": 5
+    },
+    "G": {
+      "numerator": 47,
+      "denominator": 7
+    },
+    "counts": {
+      "R": 5,
+      "A": 6,
+      "X": 10,
+      "G": 7,
+      "E": 6
+    }
+  },
+  "X_minus_G_true": {
+    "numerator": 3,
+    "denominator": 8
+  },
+  "complete_randomization": {
+    "units": 8,
+    "assigned_X": 4,
+    "assigned_G": 4,
+    "assignments": 70,
+    "mean_estimate": {
+      "numerator": 3,
+      "denominator": 8
+    },
+    "min_estimate": {
+      "numerator": -10,
+      "denominator": 1
+    },
+    "max_estimate": {
+      "numerator": 43,
+      "denominator": 4
+    },
+    "exact_variance": {
+      "numerator": 8615,
+      "denominator": 448
+    },
+    "neyman_variance": {
+      "numerator": 8615,
+      "denominator": 448
+    },
+    "unidentified_individual_effect_variance": {
+      "numerator": 201,
+      "denominator": 8
+    }
+  },
+  "partially_supported": {
+    "supported_networks": 6,
+    "missing_networks": 2,
+    "supported_sum_difference": 7,
+    "net_bounds_X": [
+      -3,
+      11
+    ],
+    "net_bounds_G": [
+      -1,
+      13
+    ],
+    "contrast_lower": {
+      "numerator": -25,
+      "denominator": 8
+    },
+    "contrast_upper": {
+      "numerator": 31,
+      "denominator": 8
+    },
+    "sharp_only_under": "unrestricted joint response types with independent per-policy payout envelopes for unsupported but approved networks"
+  },
+  "assertions": 97,
+  "limitations": "Counterfactual reference table synthetic; randomization is enumerated, not conducted. No actual network isolation, physical approval, robot production, sector calibration, cost evidence or external replication."
+}

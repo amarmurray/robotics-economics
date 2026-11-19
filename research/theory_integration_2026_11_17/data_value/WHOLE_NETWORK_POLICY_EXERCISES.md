@@ -1,0 +1,8 @@
+# Exercises: complete network policy value and data acquisition (19 November)
+
+1. **Whole-regime mean.** Derive equation (2) under balanced complete randomization of N closed pre-policy networks, with assignment affecting original demand and recoveries. Which exact assumption fails when a controller update is broadcast between nominal clusters?
+2. **Denominator paradox.** From the executable reference table, check R, X, G net totals; prove why X beats G on net contribution while G has larger contribution per accepted service. Name the posttreatment conditioning.
+3. **Unmeasured support.** Six network pairs have summed X−G net difference 7, while two approved pairs are missing. Given X∈[−3,11], G∈[−1,13], derive the sharp envelope-only interval for the eight-network contrast. Would those bounds remain sharp with an enforced qualification-transition law?
+4. **Finite randomization variance.** Derive the classical variance expression of \(\hat\Delta\) in the proof ledger. Why is the individual-network effect variance normally unobservable? Compute the exact synthetic value from all 70 assignments and distinguish unbiasedness from sign certainty.
+5. **Mediation versus policy choice.** Write a finite response-type LP for cross-policy whole-network value using R-selected logging moments. Explain which physical and data selection restrictions must be justified and which source-to-target joint quantities remain unidentified.
+6. **Cost and option accounting.** Explain why source-generated data's future return cannot be added to W_i(k) again; identify when optional, rights-cleared free information can weakly improve a decision menu and why forced X training need not.
