@@ -1,0 +1,69 @@
+{
+  "label": "Entirely synthetic structural diagnostics; no empirical certificate",
+  "dynamic_example": {
+    "components": [
+      "qualified-controller state Q",
+      "shared operator O",
+      "customer original-demand D"
+    ],
+    "q_by_time": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1/10",
+        "1/5",
+        "0"
+      ],
+      [
+        "1/20",
+        "1/50",
+        "1/10"
+      ],
+      [
+        "1/200",
+        "1/50",
+        "1/100"
+      ],
+      [
+        "1/200",
+        "1/500",
+        "1/100"
+      ]
+    ],
+    "weighted_complete_service_by_time": [
+      "2/5",
+      "13/25",
+      "7/100",
+      "13/250"
+    ],
+    "correct_exposure_bound": "521/500",
+    "operator_demand_edge_omitted_bound": "273/500",
+    "understatement": "62/125",
+    "hypothetical_site_direct_D": "2/5",
+    "p": "1/2",
+    "valid_market_T_interval": [
+      "-121/1000",
+      "921/1000"
+    ],
+    "invalid_omitted_edge_interval": [
+      "127/1000",
+      "673/1000"
+    ]
+  },
+  "lagged_spillover_counterexample": {
+    "incumbent_market": "6",
+    "one_site_source": "27/4",
+    "universal_source": "11/2",
+    "randomized_own_site_direct": "1/4",
+    "whole_market_per_site": "-1/4"
+  },
+  "joint_kernel_counterexample": {
+    "each_binary_marginal": "1/2 under both laws",
+    "qualified_complete_recipe_correlated": "1/2",
+    "qualified_complete_recipe_anticorrelated": "0"
+  },
+  "checks": 27
+}
