@@ -1,0 +1,9 @@
+# Exercises — archive inclusion, admission cost and joint qualification
+
+These problems refer to [the conditional source-admission chapter](ADMISSION_BUDGET_CLUSTERED_TRANSFER_AND_ECONOMIC_VALUE.md). All numbers are synthetic, not measured robot data. Do not use external customer records.
+
+1. An archive S contains one length-1 episode with valid-language probability 1 and one length-9 episode with probability 0. T is fully labeled. Derive the episode-average and transition-average eligibility and S's admitted share under w_S=w_T=1/2. Explain why raw episode counts cannot substitute for effective training mix.
+2. In iid proposals with total acceptance probability R, common per-proposal cost c_p and per-accepted-update cost c_u, derive accepted units and expected preprocessing-plus-update cost for fixed B proposals versus stopping at K accepted. Discuss precisely where independence, stationarity and variable update length matter.
+3. Target grounding g increases a source's language eligibility from zero. Differentiate q_s(g)=w_s r_s(g)/Σw_jr_j(g) without dividing by r_s; explain why a zero-eligibility source cannot be restored by weight increases alone, and why this is not proof that its images cannot transfer.
+4. With two accepted source units each independently marginally covering a rare failure mode with probability 1/2, find the sharp coverage bound when dependence is unknown. Construct independent and perfectly positively dependent joints. For a stipulated four-unit qualified-service return and a certified generalist worth 5/2, show how the investment ranking depends on coupling.
+5. A new legal archive can be ignored with zero incremental acquisition and training cost. Prove that the fully optimized policy value weakly increases, even if one forced fixed-share training recipe performs worse. Identify why costless optional availability is not a negative-transfer counterexample.

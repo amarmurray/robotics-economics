@@ -1,0 +1,33 @@
+{
+  "status": "exact-rational-conditional-synthetic",
+  "scoped_assertions": 819,
+  "episode_length_grid_cases": 400,
+  "eligible_episode_mean": "1/2",
+  "eligible_transition_mean": "1/10",
+  "source_admitted_share_correct": "1/11",
+  "source_share_using_episode_mean_wrong": "1/3",
+  "all_source_retention": "11/20",
+  "fixed_10_proposals": {
+    "expected_accepted": "11/2",
+    "expected_source_S_accepted": "1/2",
+    "expected_total_proposal_plus_update_cost": "8"
+  },
+  "fixed_10_accepted": {
+    "expected_proposals": "200/11",
+    "expected_source_S_accepted": "10/11",
+    "expected_total_proposal_plus_update_cost": "160/11"
+  },
+  "equal_marginal_two_unit_rare_context_coverage": {
+    "coupled": "1/2",
+    "independent": "3/4",
+    "anticorrelated": "1"
+  },
+  "stipulated_original_customer_gross": {
+    "coupled": "2",
+    "independent": "3",
+    "anticorrelated": "4",
+    "certified_generalist": "5/2"
+  },
+  "empirical_robot_or_training_data": false,
+  "nov22_scientific_gate_passed": false
+}
