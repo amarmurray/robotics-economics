@@ -1,0 +1,22 @@
+{
+  "scope": "CPU-only conditional arithmetic/public numbers; no raw episode, model training, robot trial, customer payment or measured transfer",
+  "checks": 3797,
+  "cases": 1300,
+  "publisher_total": 60096,
+  "source_teleop": 50365,
+  "source_scripted": 9731,
+  "pmlr_html_abstract": 53896,
+  "unreconciled_difference": 6200,
+  "tfds_processed_total": 28935,
+  "hypothetical": {
+    "rS": "1/4",
+    "rT": "1",
+    "proposed_S": "1/2",
+    "admitted_S": "1/5",
+    "corrected_proposed_S": "4/5",
+    "corrected_admitted_S": "1/2",
+    "qualified_original_service_before": "32/25",
+    "qualified_original_service_after": "2",
+    "safe_generalist": "3/2"
+  }
+}
