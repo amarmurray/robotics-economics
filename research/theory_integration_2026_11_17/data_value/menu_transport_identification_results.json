@@ -1,0 +1,49 @@
+{
+  "kind": "conditional synthetic original-market menu-transport audit",
+  "date_utc": "2026-11-20",
+  "assertions": 58872,
+  "sharp_contract_sensitivity_grid_pairs": 14641,
+  "denominator_for_theta": 120,
+  "normalization": "all contributions are hypothetical; G2(k) = 840+3k in units of 1/240; E2=1080",
+  "natural_high_group_response_worlds": {
+    "low": "0",
+    "high": "1",
+    "natural_G_net_low": "7/2",
+    "natural_G_net_high": "5",
+    "E_net": "9/2",
+    "switch_probability": "2/3"
+  },
+  "contract_transport_example": {
+    "contract_high_response": "1",
+    "sensitivity": "1/4",
+    "natural_response_identified": "[3/4,1]",
+    "G_net_identified": "[37/8,5]",
+    "embodiment_net": "9/2",
+    "conditional_choice": "G only if joint G physically and legally admitted"
+  },
+  "opposite_contract_example": {
+    "contract_high_response": "0",
+    "sensitivity": "1/2",
+    "natural_response_identified": "[0,1/2]",
+    "G_net_identified": "[7/2,17/4]",
+    "embodiment_net": "9/2",
+    "conditional_choice": "E"
+  },
+  "signal_under_equal_prior": {
+    "accuracy": "3/4",
+    "gross_EVSI": "1/16",
+    "nonzero_only_if_accuracy_exceeds": "2/3",
+    "perfect_signal_gross_EVSI": "1/4"
+  },
+  "robust_prior": {
+    "lower_p_zero": "0",
+    "perfect_signal_maximin_increment_at_zero": "0",
+    "lower_p_half": "1/2",
+    "perfect_signal_maximin_increment_at_half": "1/4"
+  },
+  "field_trials": false,
+  "validated_menu_transport": false,
+  "signed_joint_G": false,
+  "observed_customer_panel": false,
+  "scientific_novelty_established": false
+}
