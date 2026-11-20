@@ -1,0 +1,78 @@
+{
+  "kind": "synthetic_exact_rational_audit",
+  "assertions": 23120,
+  "examples": [
+    {
+      "pi": "1/2",
+      "q": "2/5",
+      "alpha": "3/4",
+      "x": "1/5",
+      "F_joint_history": "6/5",
+      "L_joint_history": "1",
+      "flexibility_premium": "1/5",
+      "sharp_range": [
+        "0",
+        "1/5"
+      ],
+      "admissible_x": [
+        "0",
+        "2/5"
+      ]
+    },
+    {
+      "pi": "1/2",
+      "q": "2/5",
+      "alpha": "3/4",
+      "x": "7/20",
+      "F_joint_history": "7/5",
+      "L_joint_history": "7/5",
+      "flexibility_premium": "0",
+      "sharp_range": [
+        "0",
+        "1/5"
+      ],
+      "admissible_x": [
+        "0",
+        "2/5"
+      ]
+    },
+    {
+      "pi": "1/2",
+      "q": "4/5",
+      "alpha": "3/4",
+      "x": "2/5",
+      "F_joint_history": "12/5",
+      "L_joint_history": "2",
+      "flexibility_premium": "2/5",
+      "sharp_range": [
+        "1/5",
+        "2/5"
+      ],
+      "admissible_x": [
+        "3/10",
+        "1/2"
+      ]
+    },
+    {
+      "pi": "1/2",
+      "q": "4/5",
+      "alpha": "3/4",
+      "x": "3/10",
+      "F_joint_history": "12/5",
+      "L_joint_history": "11/5",
+      "flexibility_premium": "1/5",
+      "sharp_range": [
+        "1/5",
+        "2/5"
+      ],
+      "admissible_x": [
+        "3/10",
+        "1/2"
+      ]
+    }
+  ],
+  "safety_approval": false,
+  "original_customer_receipts": false,
+  "empirical_transfer_measurement": false,
+  "scientific_novelty_claim": false
+}
