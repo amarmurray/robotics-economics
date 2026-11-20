@@ -4,13 +4,12 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "b4e7f51c3dd8a27cf2d3fb92e0bfef4868af3303",
   "lease": {
-    "run_id": "20261120-robotecon-nov22-identification-20261120T07332145",
+    "run_id": "20261120-robotecon-certification-evidence-2026-11-20T083734329Z",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-20T07:33:21.450Z",
-    "expires_at_utc": "2026-11-20T08:23:21.450Z",
-    "reason": "Same Nov22 integrated physical-admission/whole-policy economic-identification gate. Proved conditional IPW/partial-overlap results; exact synthetic target-audit EVSI, no field claims. Released before expiry.",
-    "released_at_utc": "2026-11-20T07:46:45.976Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-20T08:37:34.329Z",
+    "expires_at_utc": "2026-11-20T09:19:34.329Z",
+    "reason": "Same November 22 original-order whole-policy certification and resource-priced economic evidence audit; no field approval inferred."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -437,7 +436,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-20T07:46:45.976Z",
+  "updated_at_utc": "2026-11-20T08:37:34.329Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
