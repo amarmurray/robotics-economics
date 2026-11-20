@@ -1,0 +1,175 @@
+{
+  "status": "synthetic-conditional-only",
+  "method": "integer exact numerator enumeration; not scientific field evidence or mathematical proof",
+  "six_cell_laws": 792,
+  "fixed_response_laws": 55,
+  "assertions": 1741,
+  "worlds": {
+    "secondValue3": {
+      "X": {
+        "price": 6,
+        "sales": 1,
+        "net2": 6
+      },
+      "G": {
+        "price": 6,
+        "sales": 1,
+        "net2": 5
+      },
+      "E": {
+        "price": 6,
+        "sales": 1,
+        "net2": 2
+      },
+      "R": {
+        "net2": 4
+      }
+    },
+    "secondValue5": {
+      "X": {
+        "price": 6,
+        "sales": 1,
+        "net2": 6
+      },
+      "G": {
+        "price": 4,
+        "sales": 2,
+        "net2": 7
+      },
+      "E": {
+        "price": 4,
+        "sales": 2,
+        "net2": 4
+      },
+      "R": {
+        "net2": 4
+      }
+    }
+  },
+  "thresholds": [
+    {
+      "conditional_second_purchase_eighths": 0,
+      "G_net_eighths": 20,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 1,
+      "G_net_eighths": 20,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 2,
+      "G_net_eighths": 20,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 3,
+      "G_net_eighths": 20,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 4,
+      "G_net_eighths": 20,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 5,
+      "G_net_eighths": 22,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 6,
+      "G_net_eighths": 24,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 7,
+      "G_net_eighths": 26,
+      "X_net_eighths": 24
+    },
+    {
+      "conditional_second_purchase_eighths": 8,
+      "G_net_eighths": 28,
+      "X_net_eighths": 24
+    }
+  ],
+  "jointWorlds": [
+    {
+      "label": "misaligned",
+      "H": 5,
+      "C": 4,
+      "Q": 5,
+      "CandQ": 0,
+      "net_tenths": {
+        "X": 30,
+        "G": 25,
+        "E": 16,
+        "R": 20
+      }
+    },
+    {
+      "label": "aligned",
+      "H": 5,
+      "C": 4,
+      "Q": 5,
+      "CandQ": 4,
+      "net_tenths": {
+        "X": 30,
+        "G": 31,
+        "E": 16,
+        "R": 20
+      }
+    }
+  ],
+  "informativeAudit": [
+    {
+      "symmetric_error_eighths": 0,
+      "EVSI_sixteenths": 4
+    },
+    {
+      "symmetric_error_eighths": 1,
+      "EVSI_sixteenths": 3
+    },
+    {
+      "symmetric_error_eighths": 2,
+      "EVSI_sixteenths": 2
+    },
+    {
+      "symmetric_error_eighths": 3,
+      "EVSI_sixteenths": 1
+    },
+    {
+      "symmetric_error_eighths": 4,
+      "EVSI_sixteenths": 0
+    },
+    {
+      "symmetric_error_eighths": 5,
+      "EVSI_sixteenths": 1
+    },
+    {
+      "symmetric_error_eighths": 6,
+      "EVSI_sixteenths": 2
+    },
+    {
+      "symmetric_error_eighths": 7,
+      "EVSI_sixteenths": 3
+    },
+    {
+      "symmetric_error_eighths": 8,
+      "EVSI_sixteenths": 4
+    }
+  ],
+  "budget_knapsack_capacity_values_tenths": [
+    0,
+    11,
+    20,
+    30
+  ],
+  "evidence": {
+    "actual_customer_choice_records": false,
+    "actual_robot_qualification": false,
+    "validated_spillover_envelope": false,
+    "full_repo_CI": false,
+    "independent_novelty": false
+  }
+}

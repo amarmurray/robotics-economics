@@ -1,0 +1,8 @@
+# Instructor solutions — stochastic buyer choice and joint qualification
+**20 November 2026 UTC | separate from exercises**
+
+1. For N_h<=h, E[N_h]=sum_{k=1}^h Pr(N_h>=k). Subtract h2-h1 to obtain r(Pr(N2>=2)+Pr(N2>=1)-Pr(N1>=1))-ΔK. For common stable request count N and same policy/menu, N_h=min(N,h), so the first-sale terms cancel. A change in advertised safety/recovery, quality or prices can change even the probability of buying a first service.
+2. At6, a parent cannot buy two services under budget8; it chooses first7 (surplus1), so X=3 both worlds. At5, two services again unaffordable; revenue5 if high. At4 both affordable but first+second is chosen only when second value5 (surplus4 > first-only3). World second3: G=5/2,E=1, R=2; X wins3. World second5: G=7/2,E=2,R=2; G wins7/2. Optimized G prices are6 then4.
+3. G=max(6q,4q(1+a))-1/2; X=6q. With q=1/2, a>3/4 is necessary and sufficient. A survey lacking truthful actual purchase and matched physical feasibility does not establish the counted sale.
+4. Nonnegative four cells give max(0,2/5+1/2-1)=0<=s<=min(2/5,1/2)=2/5. G=max(3,2+4s)-1/2 is 5/2 or31/10; X=3, E=max(3,18/5)-2=8/5, R=2. Matched original parent period × policy/menu × controller/operator network is the minimal correct unit, subject to spillovers; separate marginals cannot supply s.
+5. Counterexample parent B3, one price3 margin11/10 and three price1 margin1. v(h) for h0,1,2,3 is 0,11/10,2,3, with marginal sequence11/10,9/10,1 (not decreasing). If a noisy report changes the optimal X/G/E/R investment, its gross value is already max expected customer production after information minus max expected production before; adding another future-data premium is duplicate accounting.
