@@ -1,0 +1,37 @@
+{
+  "enumerated_integer_baseline_gain_cases": 285,
+  "scoped_exact_assertions": 589,
+  "main": {
+    "denominator": 8,
+    "M": 2,
+    "N": 2,
+    "d": 3,
+    "incremental_paid_numerators": [
+      1,
+      2
+    ],
+    "incremental_net_with_price4_cost_quarter": [
+      "1/4",
+      "3/4"
+    ]
+  },
+  "strata": {
+    "aggregate_paid_gain_numerators": [
+      0,
+      2
+    ],
+    "predeclared_stratum_paid_gain_numerators": [
+      1,
+      1
+    ]
+  },
+  "buyer_drift": {
+    "baseline_paid_numerator": 2,
+    "after_nested_upgrade_fixed_buyer": 3,
+    "after_one_buyer_flip": 2
+  },
+  "menu_response": {
+    "correct_precommitted_menu_value": "7/2",
+    "wrong_shared_first_purchase_value": "3"
+  }
+}

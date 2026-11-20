@@ -1,0 +1,20 @@
+# Proof ledger: nested qualification, demand support and menu-response correction
+
+**20 November 2026 UTC. Standard monotone response/partial-identification constructions, not claimed novel.**
+
+Let B,Q0,Q1 be binary on one *same original predeclared population*; Q1>=Q0 casewise. Partition the Q0=0 mass into M=P(B=1,Q0=0) and N=P(B=0,Q0=0), and let U=1{Q1=1,Q0=0}. By nesting, Q1-Q0=U. Hence d=E[U], 0<=d<=M+N. Let x=P(U=1,B=1) and y=P(U=1,B=0). Then x+y=d, 0<=x<=M, 0<=y<=N. Therefore max(0,d-N)<=x<=min(d,M). Conversely, for every feasible x in this interval, choose (possibly fractional) subsets of each baseline cell of masses x and d-x to convert. Thus the bounds are sharp for divisible populations. On a discrete population of D equally weighted units, require Dx integer and allocate an integer number of cases; all attainable integer endpoints coincide with the scaled bounds when d,M,N have denominator D.
+
+Because B is unchanged, E[BQ1-BQ0]=E[BU]=x. With one unit of qualified second service, fixed captured margin v and no crowd-out, the incremental net production value is vx-k. This conclusion is **not** carried to a changing optimized menu without recomputing V.
+
+**Preintervention stratification:** apply the same argument conditional on Z=z, multiply by P(Z=z), and sum. Since sum max(0,d_z-N_z)>=max(0,sum w_z(d_z-N_z)), and sum min(d_z,M_z)<=min(sum w_z d_z,sum w_z M_z), the sum interval is a subset of the aggregate interval; this tightening is algebraic. When Z is post-treatment customer/visited-state selection, the proof fails.
+
+**Demand drift identity:** for all binary B0,B1,Q0,Q1,
+B1Q1-B0Q0=B0(Q1-Q0)+(B1-B0)Q1. The absolute second term is bounded by 1{B1!=B0}; after averaging, a separately verified cross-world u_B gives the conservative plus/minus-u_B envelope. A policy-specific change in marginal E[B] alone does not bound P(B1!=B0): equal marginals can mask complete churn in a symmetric original population. The conservative combined interval need not be sharp under further joint restrictions.
+
+**Menu correction:** By definition, a precommitted menu is selected before that menu's uncertain buyer responses are realized. For one safe sale at price6 or one/two sales at price4, expected receipts are 6P(H_(a,m6)) and 4[P(H_(a,m4))+P(H_(a,m4)C_(a,m4)Q_(a,m4))]. Choosing the larger precommitted expected receipts produces the formula in the theory note. Equality of the two first-sale rates q_(a,m6)=q_(a,m4) is an *extra assumption*, not a general property of original eligible buyers. Other baseline operating options, contribution costs, buyer outside alternatives and downstream timing enter the full V/J.
+
+**Nested physical policy caveat:** If the upgraded dispatcher can always invoke the entire incumbent qualified policy using the identical safe and legally owned resources, its feasible recipe set includes the old one and Q1>=Q0 is enforceable **at a declared service/window**. If old model rights, body access, recovery hours, customer acceptance or safety certificates expire, inclusion fails. An abstract "old model stored on disk" does not prove retained feasible production.
+
+**Novelty and falsification:** The algebra is a finite-mass version of established monotone treatment response and support overlap. A verified target-service Q1=0 on a case with safely certified Q0=1, under the alleged no-regression fallback, falsifies nesting (or reveals noncomparable original resources). A prospective buyer B1!=B0 in a contract fixed to be menu/quality invariant falsifies the stable-B assumption. Joint original-parent denominators and *unobserved* safe qualification on buyer declines must be audited to avoid selection.
+
+**Executed arithmetic checks:** a self-contained JS CPU script exhausts M,N,d integer counts with denominator 8, checks each bound against independently enumerated feasible buyer/nonbuyer conversions, and verifies the stratum, buyer-drift and price-menu examples. A separate Python Fraction brute force reproduced 285 count configurations and both principal examples. These checks do not prove assumptions or field results.
