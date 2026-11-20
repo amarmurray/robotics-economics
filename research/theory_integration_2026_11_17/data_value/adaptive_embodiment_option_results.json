@@ -1,0 +1,133 @@
+{
+  "scope": "Finite two-regime, common original-market paid and qualified production; all policies hypothetically physically approved; no actual robotics data",
+  "units": "normalized captured-contribution units, not benchmark percentages or actual dollars",
+  "initial_approved_policy": "R=[2,2]",
+  "signal": "symmetric predecision target report with accuracy in [1/2,1], equal prior, unchanged original customer terms",
+  "policies": {
+    "retained": [
+      2,
+      2
+    ],
+    "specialist_A": [
+      4,
+      0
+    ],
+    "specialist_B": [
+      0,
+      4
+    ],
+    "generalist": [
+      3.5,
+      3.5
+    ]
+  },
+  "formula_frontiers": {
+    "retained": "2",
+    "one_source_specialist_with_certified_retained_fallback": "1+2*alpha",
+    "paired_source_flexible_specialists": "4*alpha",
+    "independent_generalist": "7/2",
+    "generalist_and_paired_flexible_specialists": "max(7/2,4*alpha)",
+    "paired_vs_one_source": "2*alpha-1",
+    "generalist_screens_paired_target_grounding": "alpha<=7/8",
+    "packaged_vs_generalist_net_comparison": "4*alpha-C_package > 7/2-C_generalist"
+  },
+  "rows": [
+    {
+      "accuracy": 0.5,
+      "retained": 2,
+      "single_source": 2,
+      "paired_source": 2,
+      "independent_generalist": 3.5,
+      "generalist_plus_paired": 3.5
+    },
+    {
+      "accuracy": 0.625,
+      "retained": 2,
+      "single_source": 2.25,
+      "paired_source": 2.5,
+      "independent_generalist": 3.5,
+      "generalist_plus_paired": 3.5
+    },
+    {
+      "accuracy": 0.75,
+      "retained": 2,
+      "single_source": 2.5,
+      "paired_source": 3,
+      "independent_generalist": 3.5,
+      "generalist_plus_paired": 3.5
+    },
+    {
+      "accuracy": 0.875,
+      "retained": 2,
+      "single_source": 2.75,
+      "paired_source": 3.5,
+      "independent_generalist": 3.5,
+      "generalist_plus_paired": 3.5
+    },
+    {
+      "accuracy": 1,
+      "retained": 2,
+      "single_source": 3,
+      "paired_source": 4,
+      "independent_generalist": 3.5,
+      "generalist_plus_paired": 4
+    }
+  ],
+  "menu_interactions": {
+    "information_complement_from_specialists": 2,
+    "information_substitution_from_generalist": -1.5
+  },
+  "timing": {
+    "locked_specialist_with_certified_retained_option": "1+2*alpha",
+    "irreversible_pre_signal_choice_without_retained_dispatch": "2"
+  },
+  "illustrative_once_only_costs": {
+    "paired_grounding_specialist": 0.6,
+    "generalist": 0.8
+  },
+  "net_rows": [
+    {
+      "accuracy": 0.5,
+      "retained": 2,
+      "paired_grounded_specialist": 1.4,
+      "independent_generalist": 2.7,
+      "preferred": "generalist"
+    },
+    {
+      "accuracy": 0.625,
+      "retained": 2,
+      "paired_grounded_specialist": 1.9,
+      "independent_generalist": 2.7,
+      "preferred": "generalist"
+    },
+    {
+      "accuracy": 0.75,
+      "retained": 2,
+      "paired_grounded_specialist": 2.4,
+      "independent_generalist": 2.7,
+      "preferred": "generalist"
+    },
+    {
+      "accuracy": 0.875,
+      "retained": 2,
+      "paired_grounded_specialist": 2.9,
+      "independent_generalist": 2.7,
+      "preferred": "paired-grounded-specialist"
+    },
+    {
+      "accuracy": 1,
+      "retained": 2,
+      "paired_grounded_specialist": 3.4,
+      "independent_generalist": 2.7,
+      "preferred": "paired-grounded-specialist"
+    }
+  ],
+  "checks": {
+    "assertions": 772,
+    "optional_menu_and_signal_cases": 405,
+    "independent_source_field_effect": false,
+    "physical_policy_approval": false,
+    "customer_payment_panel": false,
+    "november_22_gate_passed": false
+  }
+}
