@@ -1,0 +1,42 @@
+{
+  "type": "metadata_only_exact_conditional_audit",
+  "checked_utc_date": "2026-11-20",
+  "publisher_metadata": {
+    "teleoperated": 50365,
+    "scripted_pick_place": 9731,
+    "total": 60096,
+    "environments": 24,
+    "skill_categories": 13
+  },
+  "source_episode_shares": {
+    "scripted": "9731/60096",
+    "teleoperated": "50365/60096"
+  },
+  "conditional_example_NOT_measured": {
+    "claim": "If at most 1 of 13 equally weighted skill-context generation comparisons has joint source-generation support, and that supported context has unit contrast, the whole-context mean source-generation contrast remains sign-unidentified.",
+    "eligible_generation_support_mass_at_most": "1/13",
+    "supported_effect_assumed": "1",
+    "potential_outcomes_bounded": "[0,1]",
+    "exact_sharp_interval_if_covered_mass_equals_one_thirteenth": [
+      "-11/13",
+      "1"
+    ],
+    "lower_witness_outside_contrast": "-1",
+    "upper_witness_outside_contrast": "+1",
+    "not_an_effect_of_scripted_training_on_other_tasks": true
+  },
+  "code_checks": {
+    "publisher_count_sum": true,
+    "shares_sum_to_one": true,
+    "endpoint_witnesses": true,
+    "no_support_and_full_support": true,
+    "covered_mass_grid_cases": 14
+  },
+  "limitations": [
+    "No episode hashes, sample or metadata manifest, split, model run, evaluation, customer receipts, or signed deployment",
+    "The uniform 13-context distribution, coverage at one context and unit supported effect are explicitly hypothetical",
+    "The source's pick-and-place-only script does NOT prevent cross-task transfer from that archived scripted source",
+    "Training-inclusion contrasts require randomized learner/update components and held-out target evaluation, not task-level source generation overlap",
+    "No numerical economic returns, episode-level license verification or independent novelty claim"
+  ]
+}
