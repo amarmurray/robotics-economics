@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-20",
+  "model": "synthetic normalized entire original-customer network net contribution; no field measures",
+  "components": [
+    "X_source",
+    "G_grounding",
+    "E_embodiment"
+  ],
+  "bitmask": "bit0=X source, bit1=G target grounding, bit2=E new embodiment",
+  "observation": "only baseline v(000)=6 and bundled v(111)=10 are observable in example",
+  "enumeration": {
+    "grid_middle_cell_values": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "candidate_complete_tables": 15625,
+    "monotone_optional_tables": 1884,
+    "bounded_shapley_in_sixths": {
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        24,
+        24,
+        24
+      ]
+    },
+    "three_way_interaction": {
+      "min": -8,
+      "max": 4
+    },
+    "source_embodiment_interaction_at_G0": {
+      "min": -4,
+      "max": 4
+    },
+    "integer_assertions": 7536
+  },
+  "exemplars": {
+    "source_only": {
+      "payoffs_by_bitmask": [
+        6,
+        10,
+        6,
+        10,
+        6,
+        10,
+        6,
+        10
+      ],
+      "shapley_in_sixths": [
+        24,
+        0,
+        0
+      ],
+      "three_way_interaction": 0,
+      "XE_interaction_without_G": 0
+    },
+    "ground_only": {
+      "payoffs_by_bitmask": [
+        6,
+        6,
+        10,
+        10,
+        6,
+        6,
+        10,
+        10
+      ],
+      "shapley_in_sixths": [
+        0,
+        24,
+        0
+      ],
+      "three_way_interaction": 0,
+      "XE_interaction_without_G": 0
+    },
+    "body_only": {
+      "payoffs_by_bitmask": [
+        6,
+        6,
+        6,
+        6,
+        10,
+        10,
+        10,
+        10
+      ],
+      "shapley_in_sixths": [
+        0,
+        0,
+        24
+      ],
+      "three_way_interaction": 0,
+      "XE_interaction_without_G": 0
+    },
+    "all_required": {
+      "payoffs_by_bitmask": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        10
+      ],
+      "shapley_in_sixths": [
+        8,
+        8,
+        8
+      ],
+      "three_way_interaction": 4,
+      "XE_interaction_without_G": 0
+    },
+    "two_suffice": {
+      "payoffs_by_bitmask": [
+        6,
+        6,
+        6,
+        10,
+        6,
+        10,
+        10,
+        10
+      ],
+      "shapley_in_sixths": [
+        8,
+        8,
+        8
+      ],
+      "three_way_interaction": -8,
+      "XE_interaction_without_G": 4
+    },
+    "any_suffice": {
+      "payoffs_by_bitmask": [
+        6,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "shapley_in_sixths": [
+        8,
+        8,
+        8
+      ],
+      "three_way_interaction": 4,
+      "XE_interaction_without_G": -4
+    }
+  },
+  "conditions": "all eight policies physically admissible, original-buyer version constant, free optional components, retained fallback",
+  "limitations": "no causal robot training; no original-customer receipts; bounded finite grid does not prove sharp continuous generality"
+}
