@@ -1,0 +1,7 @@
+# Instructor solutions — joint qualification, information and embodiments
+
+1. P(00)=1-p_A-p_B+q=q-1/5; P(10)=P(01)=3/5-q; P(11)=q. Nonnegativity gives q∈[1/5,3/5]. Independence q=9/25 is one feasible point, not forced by marginals.
+2. Write b=2α-1=1/2. One qualified specialist plus safe R yields 1+2α=5/2; both flexible yield 4α=3; none yields 2. Thus F=2+b(p_A+p_B)=13/5, L=13/5-q/2, B=2+q. At q=1/5: (13/5,5/2,11/5); at q=3/5: (13/5,23/10,13/5).
+3. F-L=q/2, so net flexible advantage after 1/5 cost is q/2-1/5, positive iff q>2/5. Since q∈[1/5,3/5], both rankings are feasible. Independence q=9/25 predicts negative 1/50 but does not identify the decision.
+4. Set P(θ=A)=P(θ=B)=1/2. World 1: in A only Q_A=1; in B only Q_B=1. Gross value=4 because Y reveals the regime and the matching specialist is available. World 2 reverses the qualification in each regime. Gross value=2 via incumbent R because only mismatching specialists exist. Both have p_A=p_B=1/2, q=0 and the same Y accuracy.
+5. Qualification bits describe whether technical programs create usable complete policies; accepted economic production also requires signed physical/organizational admissibility, original buyer demand, a binding price version, scarce operator resources and actual receipts. Without the joint law and causal exposure/assignment, even perfect separate benchmark margins can conceal opposite economic conclusions. Old optional free policies do not become worse merely from extra data, but forced training and real costs may.

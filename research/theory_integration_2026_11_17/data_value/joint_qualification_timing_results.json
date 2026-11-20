@@ -1,0 +1,47 @@
+{
+  "scope": "conditional synthetic paid-production proxy, no empirical qualification/payment/safety evidence",
+  "alpha": "3/4",
+  "pA": "3/5",
+  "pB": "3/5",
+  "sharp_joint_qualification_bounds": [
+    "1/5",
+    "3/5"
+  ],
+  "examples": {
+    "1/5": {
+      "flex": "13/5",
+      "locked": "5/2",
+      "bundle": "11/5",
+      "gross_flexibility": "1/10",
+      "net_flexibility_after_cost_1_5": "-1/10"
+    },
+    "9/25": {
+      "flex": "13/5",
+      "locked": "121/50",
+      "bundle": "59/25",
+      "gross_flexibility": "9/50",
+      "net_flexibility_after_cost_1_5": "-1/50"
+    },
+    "3/5": {
+      "flex": "13/5",
+      "locked": "23/10",
+      "bundle": "13/5",
+      "gross_flexibility": "3/10",
+      "net_flexibility_after_cost_1_5": "1/10"
+    }
+  },
+  "endogenous_regime_counterworld": {
+    "pA": "1/2",
+    "pB": "1/2",
+    "joint_success": "0",
+    "perfect_report": true,
+    "aligned": 4,
+    "anti": 2
+  },
+  "enumerated_joint_laws_by_grid": 1815,
+  "architecture_cases": 7260,
+  "exact_integer_assertions": 39942,
+  "no_actual_physical_admission": true,
+  "no_actual_buyer_panel": true,
+  "no_full_repository_CI": true
+}
