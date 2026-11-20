@@ -1,0 +1,28 @@
+{
+  "checks": 47,
+  "reachable_by_remaining_steps": [
+    [
+      "done"
+    ],
+    [
+      "done",
+      "initial",
+      "retry"
+    ],
+    [
+      "done",
+      "initial",
+      "retry"
+    ]
+  ],
+  "probe_certifications": {
+    "certified": true,
+    "operatorLeak": false,
+    "deadlineLeak": false,
+    "unsafeLeak": false,
+    "alwaysWin": true
+  },
+  "nonempty_proposed_outcome_sets": 31,
+  "robustly_admitted_sets": 3,
+  "interpretation": "finite toy safety game; no physical/certification evidence"
+}
