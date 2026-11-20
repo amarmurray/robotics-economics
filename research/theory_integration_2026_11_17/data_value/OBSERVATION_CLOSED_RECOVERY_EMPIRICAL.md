@@ -1,0 +1,11 @@
+# Prospective original warehouse order / observation closure audit
+
+**Design only; 20 November 2026. No outreach, customer access, hardware trial or deployment permission.**
+
+One experimental unit begins at an **original eligible tote order before policy assignment**. Capture quoted original order/menu, refusal/acceptance, parent procurement budget, quality and deadline, actual paid complete service, credits/penalties, displaced alternate operator/human/specialist production and provider net receipts. Do not restrict the denominator to successful robot clips, selected replays or bought orders.
+
+Physical boundary: robot and end effector, object/fixture, X source-trained policy and source lineage, old R, target G live observation/sensor and training recipe, E independent spare/body/tool, WMS/WES dispatch, shared operator/teleoperator queue, robot and human constraints, network safety monitor, service clock, storage and data-use rights. Define possible alpha/beta/fault states and actions in each, not just observed average success. Verify sensor output error **supports**, rather than classifier accuracy point estimates, and exact time/rights needed to switch actions. A nominal transition graph is not a signed conservative graph.
+
+Identify an interference-closed assignment cluster such as independently schedulable shift × operator pool × buyer procurement parent; if clusters exchange operators or share capacity, build the exposure network instead of assuming independence. Within an approved design, randomization can estimate expected full-policy R/X/G/E original-order contribution, not individual paired counterfactual rescue or hard safety. Register nonadmitted X proposals as screening failures, never as randomized realized X revenue or productive future field data. If no approved X arm exists, do not run it; only permissible R/G/E and observation-only designs remain.
+
+Disaggregate deliberate target tests; retained routine production; field misses, failure/recovery; teleoperation; simulation; synthetic and pretrained/public inputs by provenance, rights, compute/curation, postpolicy selection and held-out **joint** order qualification. New embodiment delay, tool cost and operator substitution are distinct. Field-calibrated margins and a quantitative vintage-aligned BEA use cell are absent. All evidence and scientific gates remain open.

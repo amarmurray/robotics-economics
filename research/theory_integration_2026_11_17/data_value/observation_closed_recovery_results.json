@@ -1,0 +1,37 @@
+{
+  "model": "finite original-order information-consistent X-to-R recovery",
+  "root_outcomes": [
+    "done",
+    "alpha",
+    "beta"
+  ],
+  "observation": {
+    "coarse": "alpha/beta indistinguishable",
+    "fine": "certified distinguishes alpha vs beta",
+    "noisy_99_percent": "same worst-case support as coarse, not robust admission"
+  },
+  "universal_retry": "independently qualified embodiment spare",
+  "possible_x_first_step_subsets": 7,
+  "admitted_subsets": {
+    "coarse": 5,
+    "fine": 7,
+    "embodiment": 7
+  },
+  "fully_supported_x_admitted": {
+    "coarse": false,
+    "fine": true,
+    "embodiment": true
+  },
+  "physical_fault_always_rejected": true,
+  "synthetic_net_original_market_contribution": {
+    "R": 4,
+    "X": 4,
+    "G": 4,
+    "E": 4,
+    "XG": 6,
+    "XE": 5
+  },
+  "source_grounding_complementarity": 2,
+  "zero_fault_trials_needed_for_iid_one_sided_95percent_upper_risk_at_most_one_percent": 299,
+  "assertions": 38
+}
