@@ -1,3 +1,8 @@
+## November 20 — Nov22 certification-aware production and identification acceptance check
+
+[Conditional certificate-to-production theory](../theory_integration_2026_11_17/data_value/CERTIFIED_OPPORTUNITY_VALUE_AND_SUPPORT.md) and [original-order physical/market support ledger](../theory_integration_2026_11_17/data_value/CERTIFIED_OPPORTUNITY_EVIDENCE_AUDIT.md) answer the precise current acceptance question. Four certification subsets with a shared operator give gross V=(4,4,4,7), illustrating zero isolated G value and a three-unit jointly certified original-service complement. Existing dual LP upper certificates 6/5/7 are **not** service returns; matching buyer marginals can still imply zero or positive gain depending on joint procurement. A separate competence-preserving, E-competing synthetic demand signal has gross EVSI 1/10 under a stipulated binding prior. Stdlib exact Fraction executable generated 341 assertions and independent Python arithmetic agreed; no field claims, full historic CI, quantitative BEA flow or independent peer review. **Nov22 Model A/B field/scientific gate OPEN**, as are Nov29 backbone, Dec6 contribution, remaining milestones and final Dec25 23:59 Eastern target. Next: a reproducible synthetic whole-network packet and more source-backed official numeric BEA where genuinely extractable, with original-order/certification/assignment evidence as explicit conditions before any empirical claim.
+
+
 # Theory phase milestone ledger
 
 ## 20 November — November 22 model acceptance correction: safe action is not economically observed action

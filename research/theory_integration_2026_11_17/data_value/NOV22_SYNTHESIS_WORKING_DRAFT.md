@@ -1,3 +1,9 @@
+## 20 November — certification can have strictly complementary economic value without identifying its original-market return
+
+[Same acceptance gate extended](CERTIFIED_OPPORTUNITY_VALUE_AND_SUPPORT.md): certifying a controller/report/embodiment recipe adds a physical-policy *column* but cannot fill its unobserved original buyer order/payment cell. Under independent strata, the new gross option has a sharp positive-part contribution bound; with scarce indivisible shared operators, zero standalone certification values can combine to produce three synthetic contribution units provided a separate **joint physical signature** exists. A tight old resource dual yields upper potential 6/5/7 against realized integer 4/4/7; reduced contribution is not a revenue estimate. Perfect technical qualification and selected incumbent logs still fail to identify target-market purchase. An E comparator and assumed binding predeployment customer signal reduce the conditional decision EVSI to 1/10. The corresponding [actual evidence ledger](CERTIFIED_OPPORTUNITY_EVIDENCE_AUDIT.md) has no signed whole original-network R/G/E plus original order/receipts and approved assignment, so Model A/B field and Nov22 scientific gates remain **OPEN**. Real X remains unapproved, not sampled for research. This is established resource, optionality and partial-identification theory composed into the existing V/J argument, not claimed new math.
+
+---
+
 # November 22 synthesis — working intellectual review, NOT a passed gate
 
 ## November 20 — original-order *policy support* is independent of physical information support

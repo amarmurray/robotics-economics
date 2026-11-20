@@ -1,0 +1,9 @@
+# Student exercises — conditional certification and actual original-order value
+
+*Only synthetic normalized contribution units. Instructor solutions are separately stored in CERTIFIED_OPPORTUNITY_SOLUTIONS.md.*
+
+1. Independent original-order strata A and B each have mass 1/2. Existing best contributions are (4,3). Candidate G-B is unsigned with potential original-buyer contribution \(g_B\in[0,6]\). Certification costs 1. Derive the **sharp gross opportunity** interval after hypothetical physical admission, and separate a rational optional certification decision from a forced upgrade.
+2. Two simultaneous indivisible buyer orders A/B require 2 operator units each under R with contribution 4/3, or 1 unit each under independently and **jointly** approved G with unchanged contribution. Total capacity 2. Derive the four feasible certification-set values and their interaction. Why is a shared network-signature essential?
+3. For the two-order operator case, construct an old LP dual \(\lambda\) and reduced-contribution **upper** certificate for G-A, G-B and both. Explain why a positive reduced contribution does not establish a profitable *integer* reallocation.
+4. Construct two observationally equivalent markets with the same R data and perfect technical qualification under unassigned G but opposite G purchase/receipt outcomes. Specify one lawful prospective measurement that *could*, under a separate behavioral transport model, discriminate them without deploying G before physical certification.
+5. In a separate independent-stratum decision, potential G-B certification net values are 5/2 and 4 with equal prior, E is already physically admitted with net 19/5, and a free binding customer signal perfectly reveals the world before optional certification. Find the signal's gross expected **decision** value, and say whether it may be added on top of an optimized dynamic J that already contains the signal.

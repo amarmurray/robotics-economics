@@ -1,3 +1,8 @@
+### 20 November Nov22 original-network acceptance synthesis — certification versus market identification
+
+The [certification-aware policy opportunity and dual resource screen](research/theory_integration_2026_11_17/data_value/CERTIFIED_OPPORTUNITY_VALUE_AND_SUPPORT.md) and [evidence gate](research/theory_integration_2026_11_17/data_value/CERTIFIED_OPPORTUNITY_EVIDENCE_AUDIT.md) further integrate source-data X, target grounding G, embodiment E, retained R, original demand and scarce shared operators. Three synthetic units of *joint* opportunity appear only when both G recipes and their shared use are signed and purchased; either separate G alone is worthless in that constructed integer system. This is standard resource complementarity with a specified scientific falsification design, not original control or LP theory. Physical certification is not original-order assignment support and neither is a paid receipt. No actual signed market policy cluster/approved intervention; Nov22 still OPEN. Theory-led plan through Dec6 and final Dec25 23:59 Eastern unchanged.
+
+
 # Theory-led Robotics Economics phase — through Christmas 2026
 
 Governing instruction: Amar's full **Codex implementation brief: robotic deployment, learning, and the organization of production**, prepared November 15, 2026 and supplied in this research thread. This file is a compact execution contract and research prospectus, **not a verbatim archive** of that full brief. The user's full instruction governs. This phase supersedes stale active-campaign headings for current execution; it preserves the historical November 7–14 campaign, its original clock, partial acceptance, and results.

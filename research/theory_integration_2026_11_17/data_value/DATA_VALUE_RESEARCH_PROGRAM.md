@@ -1,3 +1,8 @@
+# 20 November continuation — certification-to-opportunity identification audit
+
+The [certified opportunity and missing support chapter](CERTIFIED_OPPORTUNITY_VALUE_AND_SUPPORT.md), [evidence gate](CERTIFIED_OPPORTUNITY_EVIDENCE_AUDIT.md), [exact rational executable](certification_value.py), [results](certification_value_results.json), and separate [exercises](CERTIFIED_OPPORTUNITY_EXERCISES.md)/[solutions](CERTIFIED_OPPORTUNITY_SOLUTIONS.md) continue the **same November 22 Models A–B original-customer, physical safety and whole-policy economic-identification gate**. New conditional result: when physically approved G recipes enter a production system, the gross option is a positive part under independent customer strata, but shared indivisible operators can make separate certifications worthless and a jointly signed pair worth three normalized contribution units. The old production dual offers one-sided upper certificates, not proof of paid service. The prior-dependent hypothetical safe buyer signal is worth 1/10 unit only with a specified binding signal and competent E baseline. Real physically signed R/X/G/E states, original eligible buyer/refusal/payment panels, permitted policy propensities, measured source transfer and the official numerical BEA IO flow remain absent; report conditional results and Nov22 gate OPEN. Keep all source modalities, rights and J accounting distinct; continue theory-majority through December 6.
+
+
 # November 20 observable original-network safety qualification
 
 ## 20 November — November 22 evidence gate: physical admission is not policy overlap

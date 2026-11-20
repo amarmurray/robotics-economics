@@ -1,0 +1,41 @@
+{
+  "dual_upper": {
+    "A": "6",
+    "AB": "7",
+    "B": "5"
+  },
+  "exact_assertions": 341,
+  "field_customer_panels": false,
+  "full_repo_CI": false,
+  "independent_population": {
+    "baseline_R_and_GA": "7/2",
+    "gross_cert_high": "5",
+    "gross_cert_low": "7/2",
+    "gross_signal_EVSI": "1/10",
+    "net_E": "19/5",
+    "net_cert_high": "4",
+    "net_cert_low": "5/2",
+    "perfect_customer_signal_value": "39/10",
+    "pre_signal_policy_value": "19/5"
+  },
+  "interaction": "3",
+  "joint_market": {
+    "alternating": {
+      "AB": "7/2",
+      "R": "7/2"
+    },
+    "joint": {
+      "AB": "7/2",
+      "R": "2"
+    }
+  },
+  "not_empirical": true,
+  "physical_certification": false,
+  "scope": "two indivisible original buyers with one shared operator, and separate two-stratum independent example",
+  "vals": {
+    "A": "4",
+    "AB": "7",
+    "B": "4",
+    "R": "4"
+  }
+}
