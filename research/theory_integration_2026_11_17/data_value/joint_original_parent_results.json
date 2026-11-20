@@ -1,0 +1,31 @@
+{
+  "model": "joint_original_parent",
+  "date": "2026-11-20",
+  "grid_denominator": 8,
+  "exact_assertions": 8107,
+  "marginal_rectangles": 2025,
+  "selection_completions": 301,
+  "respondent_coverage": "3/4",
+  "respondent_C_marginals": [
+    "1/2",
+    "1/2"
+  ],
+  "mean_menu_drift_bounds": [
+    "1/8",
+    "1/8"
+  ],
+  "natural_marginal_bounds": [
+    "1/4",
+    "3/4"
+  ],
+  "one_slot_gross_numerators": [
+    8,
+    30
+  ],
+  "all_or_none_bundle_gross_numerators": [
+    0,
+    42
+  ],
+  "field_observations": false,
+  "physical_certification": false
+}
