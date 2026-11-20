@@ -6,19 +6,20 @@
   "lease": {
     "run_id": "research-20261120-paired-policy-regret-20261120T173138938Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-20T17:31:38.938Z",
     "expires_at_utc": "2026-11-20T18:26:38.938Z",
-    "reason": "Nov22 same-gate constructive paired source/report qualification and whole-policy robust ranking audit"
+    "reason": "Published and tested sharp triple target-report/qualification/original-demand support and physically conditional F/L production comparison; no field-signature or buyer receipt evidence",
+    "released_at_utc": "2026-11-20T17:42:51.753Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "The same Nov22 original buyer/controller/operator data-value gate: source-created qualifications can correlate with original demand, so target-report and embodiment options require paired regime-conditioned support, plus real policy admission and receipts.",
+  "current_mode": "Same November22 original customer buyer–robot–operator scientific gate; policy-specific source qualification and target grounding need source-conditioned *triple* Q×T×Y support, signed policy clocks, original receipts and controlled whole-parent assignment before economically comparing X/G/E.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_REGIME_COUPLING_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PAIRED_SIGNAL_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Archived previous released state from 99c26458ca9979ae9f99046c8a9731a4094cf30b as original blob ffc3ceaf0f32871e2a5610f447cbe3b850b0c25d; preserved all pre-data value and Q1–Q13 backlog, main and unmerged work.",
-  "latest_result": "20 Nov: conditional two-regime source-to-joint-qualification and target-report theorem with x=P(original A,Q11), q=P(Q11), calibrated alpha and physically signed F/L. Gross flexibility premium D=[(2alpha-1)q-2|x-q/2|]_+; prior bq recovered under independence. With known pi,q but missing Q-regime linkage, sharp x Frechet interval and D bounds; conditional paired Q×Y with stable kernel identifies x if alpha>1/2. Original customer receipt support treated separately through finite contingent-policy robust LP; no benchmark-to-dollar map or second data premium. Exact executed Python Fraction 23120 assertions; git hashes matched both locally executed source and record. No real physical/buyer/BEA evidence or full CI. Nov22 gate OPEN.",
+  "preservation": "Prior released 2028760b073c8591ba84b62908e74b7227b23190 RESEARCH_STATE.json preserved byte-identically as git blob 262da0feb2641d7eecdfce589f8b56e9a2ec4649 at PRE_PAIRED_SIGNAL_STATE.json; PRE_REGIME_COUPLING_STATE.json and all earlier states, pre-data-value finance history, PREVIOUS_RESEARCH_STATE.json broad Q1-Q13 backlog, main and unmerged work unchanged.",
+  "latest_result": "20 Nov: conditional F-vs-L report option D=4dist(z,B), with z=P(Q11,T=A,Y=A), B interval of the two zero posterior imbalances; sharp z Fréchet and coarse C/nonC aggregate accuracy intersection. Two fully specified equal-Q×T, equal-Q×Y and 3/4 aggregate accuracy original-parent synthetic worlds give D=0 versus 1/2, reversing a hypothetical 1/4 paid flexibility cost. Hypothetical equal-prior error-free precommitment shadow audit decision gain 1/8 (no extra J premium). Standalone locally executed stdlib Python Fraction exactly matched source blob b008580534f6ac4de327a9e1cbb9911f6869d209 and JSON blob b6e4b90e49bb550d844f747830061fbc9bda28f4; 1680 exhaustive finite margin/agreement cases, 1716 complete joint worlds. No real signed physical F/L, original customer receipts, measured causal X/G/E, official numeric BEA crosswalk, full CI or independent peer review; Nov22 OPEN.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -261,25 +262,25 @@
     }
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/PAIRED_TARGET_SIGNAL_SUPPORT_AND_VALUE.md",
+    "research/theory_integration_2026_11_17/data_value/PAIRED_TARGET_SIGNAL_EMPIRICAL_GATE.md",
+    "research/theory_integration_2026_11_17/data_value/paired_signal_support.py",
+    "research/theory_integration_2026_11_17/data_value/paired_signal_support_results.json",
     "research/theory_integration_2026_11_17/data_value/REGIME_CONDITIONED_QUALIFICATION_AND_FLEXIBILITY.md",
-    "research/theory_integration_2026_11_17/data_value/REGIME_COUPLING_PROSPECTIVE_VALIDATION.md",
-    "research/theory_integration_2026_11_17/data_value/regime_option_check.py",
-    "research/theory_integration_2026_11_17/data_value/regime_option_results.json",
-    "research/theory_integration_2026_11_17/data_value/JOINT_QUALIFICATION_TIMING_AND_DATA_VALUE.md",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_REGIME_COUPLING_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_PAIRED_SIGNAL_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "New exact regime-coupled qualification and information-value theorem plus sharp bounds/conditional source-report inversion; original complete policy physical and paid-buyer evidence still absent; Nov22 acceptance OPEN.",
+      "status": "Same question: conditional source-selected report value and sharp triple Q×T×Y partial-ID now derived, but real whole-network qualification, paid buyer support and causal X/G/E unresolved; Nov22 scientific gate OPEN.",
       "question": "What actual price/volume and all-recipe whole-service evidence bounds X versus target G versus E under shared learner/operator/customer interference?",
-      "deliverable": "Use same original-buyer cluster safe/paid support matrix and bounded demand-conditioned μ to compare causal X/G/E, preserving old R and rights; no invented field ranking."
+      "deliverable": "Continue November22 integrated A–B acceptance and physically signed original-parent evidence search. Require source-specific Q×T×Y on a predecision original buyer parent, independent calibrated T/report, version-locked original offer/refusals/completed/paid receipts, shared operator resources, signed whole-network F/L/R/X/G/E and valid closed-network policy assignment. Distinguish a valid direct whole-policy causal contrast from latent triple identification; if evidence absent retain sharp bounds/open gate and improve concrete atlas/validation rather than another synthetic grid. Seek authenticated official numerical BEA route only when actual bytes accessible; preserve every roadmap workstream."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -310,9 +311,9 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Fixed qualification learning map extended conditionally to source-created embodied options, sign-indefinite Blackwell information complement/substitution, and irreversible customer-service timing; physical/economic support absent.",
-    "atlas": "Previously verified three official BLS numeric sector rows preserved; official BEA SUPPLY-USE workbook route independently located but numeric source bytes/cells inaccessible, no BLS-BEA concordance or field buyer panel.",
-    "paper": "Nov22 source-grounding-embodiment option and original N buyer policy synthesis linked with prospectus and separate student/teacher exercises; scientific gate OPEN.",
+    "theory": "Sharp source-selected Q×T×Y report-value and optional embodiment decision coupling added to earlier qualification/timing theory; full natural original-parent counterworld and cost-adjusted reversal, no field signoff.",
+    "atlas": "Unpopulated original buyer policy-closed Q×T×Y/receipt protocol; preserve verified BLS sector numeric facts. Official BEA numeric transaction still inaccessible; no vendor proxy.",
+    "paper": "Same-Nov22 A/B chapter and evidence schema, executable and separate exercises/solutions integrated into manuscript and program; November22 acceptance OPEN.",
     "learning": "Verified retrieved exact executable source and stored outputs, separate Python rational arithmetic; full CI and independent review remain pending.",
     "main_contribution": "Scientific novelty still unestablished; conditional coupling/partial-ID result and sharp synthetic counterexamples are candidate integrated economic interpretation, not independent theorem originality."
   },
@@ -415,10 +416,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Material original theoretical synthesis integrated; no routine hourly completion notice. Prior last_notification retained.",
-  "publication_parent_commit": "7961b70937ae5bfa2663cb173609d52a21d763f6",
-  "current_proof_gap": "Source-conditioned buyer regime/history and qualified complete-policy contribution are not jointly observed on original parent; distinct source/grounding/embodiment actions have policy-dependent μ, signal kernels and market menus. The conditional sharp coupling theorem does not causally identify interventional X/G/E or certify physical recovery.",
-  "exact_next_action": "Apply the November22 original parent acceptance matrix to any independently evidenced and permitted paired Q×Y/Θ dataset, physically signed F/L/R/G/E policies, original natural-offer buyer receipt/refusal rows and whole-cluster intervention support; identify data/report policy-conditioned μ and test m=(1−alpha)q+(2alpha−1)x where calibration holds. With absent field support, use joint policy/data partial-ID envelopes and preserve open gate; no extra synthetic q grid as progress. Continue official BEA quantitative source only on actual available route.",
+  "quiet_checkpoint": "20 Nov: source-selected conditional report/qualification coupling integrated and verified; no routine alert. New actual scientific evidence required for Nov22 gate; all original dates unchanged.",
+  "publication_parent_commit": "e9fead9c18b18da070b968e0dfbfddd001ebe3cf",
+  "current_proof_gap": "Theoretical joint Q×T and Q×Y margins plus unconditional report accuracy do not identify Q×T×Y option information without qualification-conditional calibration. Worse, physical F/L/X/G/E and original-buyer accepted/paid outcomes are not authenticated, and interventional source policy can alter Q, signals, demand and market menus jointly; therefore no field X/G/E ranking.",
+  "exact_next_action": "Continue November22 integrated A–B acceptance and physically signed original-parent evidence search. Require source-specific Q×T×Y on a predecision original buyer parent, independent calibrated T/report, version-locked original offer/refusals/completed/paid receipts, shared operator resources, signed whole-network F/L/R/X/G/E and valid closed-network policy assignment. Distinguish a valid direct whole-policy causal contrast from latent triple identification; if evidence absent retain sharp bounds/open gate and improve concrete atlas/validation rather than another synthetic grid. Seek authenticated official numerical BEA route only when actual bytes accessible; preserve every roadmap workstream.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -436,7 +437,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-20T16:49:57.321Z",
+  "updated_at_utc": "2026-11-20T17:42:51.753Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -454,8 +455,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Under matched original buyer–robot–operator and correctly signed physical policies, does the paired joint source-qualification × original-demand/report history identify the qualified accepted-and-paid production difference between additional source data X, target grounding G and a newly selectable embodiment E, or only robust bounds?",
-  "proof_gap": "Source-conditioned buyer regime/history and qualified complete-policy contribution are not jointly observed on original parent; distinct source/grounding/embodiment actions have policy-dependent μ, signal kernels and market menus. The conditional sharp coupling theorem does not causally identify interventional X/G/E or certify physical recovery.",
-  "next_action": "Apply the November22 original parent acceptance matrix to any independently evidenced and permitted paired Q×Y/Θ dataset, physically signed F/L/R/G/E policies, original natural-offer buyer receipt/refusal rows and whole-cluster intervention support; identify data/report policy-conditioned μ and test m=(1−alpha)q+(2alpha−1)x where calibration holds. With absent field support, use joint policy/data partial-ID envelopes and preserve open gate; no extra synthetic q grid as progress. Continue official BEA quantitative source only on actual available route.",
+  "proof_gap": "Theoretical joint Q×T and Q×Y margins plus unconditional report accuracy do not identify Q×T×Y option information without qualification-conditional calibration. Worse, physical F/L/X/G/E and original-buyer accepted/paid outcomes are not authenticated, and interventional source policy can alter Q, signals, demand and market menus jointly; therefore no field X/G/E ranking.",
+  "next_action": "Continue November22 integrated A–B acceptance and physically signed original-parent evidence search. Require source-specific Q×T×Y on a predecision original buyer parent, independent calibrated T/report, version-locked original offer/refusals/completed/paid receipts, shared operator resources, signed whole-network F/L/R/X/G/E and valid closed-network policy assignment. Distinguish a valid direct whole-policy causal contrast from latent triple identification; if evidence absent retain sharp bounds/open gate and improve concrete atlas/validation rather than another synthetic grid. Seek authenticated official numerical BEA route only when actual bytes accessible; preserve every roadmap workstream.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -521,7 +522,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Under matched original buyer–robot–operator and correctly signed physical policies, does the paired joint source-qualification × original-demand/report history identify the qualified accepted-and-paid production difference between additional source data X, target grounding G and a newly selectable embodiment E, or only robust bounds?",
+  "exact_intellectual_question": "Which authorized original-policy-closed buyer–robot–operator cohort can jointly support same-parent source-Q × independently grounded original-demand T × predecision report Y, independently signed F/L/R/X/G/E, original natural-offer accept/refuse/paid receipts, whole-policy assignment and noninterference sufficient to identify (or honestly bound) economically actionable X-versus-G-versus-E?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -541,7 +542,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Apply the November22 original parent acceptance matrix to any independently evidenced and permitted paired Q×Y/Θ dataset, physically signed F/L/R/G/E policies, original natural-offer buyer receipt/refusal rows and whole-cluster intervention support; identify data/report policy-conditioned μ and test m=(1−alpha)q+(2alpha−1)x where calibration holds. With absent field support, use joint policy/data partial-ID envelopes and preserve open gate; no extra synthetic q grid as progress. Continue official BEA quantitative source only on actual available route.",
+  "exact_next": "Continue November22 integrated A–B acceptance and physically signed original-parent evidence search. Require source-specific Q×T×Y on a predecision original buyer parent, independent calibrated T/report, version-locked original offer/refusals/completed/paid receipts, shared operator resources, signed whole-network F/L/R/X/G/E and valid closed-network policy assignment. Distinguish a valid direct whole-policy causal contrast from latent triple identification; if evidence absent retain sharp bounds/open gate and improve concrete atlas/validation rather than another synthetic grid. Seek authenticated official numerical BEA route only when actual bytes accessible; preserve every roadmap workstream.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -641,7 +642,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Source-conditioned buyer regime/history and qualified complete-policy contribution are not jointly observed on original parent; distinct source/grounding/embodiment actions have policy-dependent μ, signal kernels and market menus. The conditional sharp coupling theorem does not causally identify interventional X/G/E or certify physical recovery.",
+  "next_proof_gap": "Theoretical joint Q×T and Q×Y margins plus unconditional report accuracy do not identify Q×T×Y option information without qualification-conditional calibration. Worse, physical F/L/X/G/E and original-buyer accepted/paid outcomes are not authenticated, and interventional source policy can alter Q, signals, demand and market menus jointly; therefore no field X/G/E ranking.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -722,7 +723,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Under matched original buyer–robot–operator and correctly signed physical policies, does the paired joint source-qualification × original-demand/report history identify the qualified accepted-and-paid production difference between additional source data X, target grounding G and a newly selectable embodiment E, or only robust bounds?",
+  "current_question": "Which authorized original-policy-closed buyer–robot–operator cohort can jointly support same-parent source-Q × independently grounded original-demand T × predecision report Y, independently signed F/L/R/X/G/E, original natural-offer accept/refuse/paid receipts, whole-policy assignment and noninterference sufficient to identify (or honestly bound) economically actionable X-versus-G-versus-E?",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -978,7 +979,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "latest_questions": "In the same physically admissible buyer–robot–operator original-parent policy comparison, can paired natural N customer A/B offered/refused/completed/paid outcomes be linked to shared dispatch, actual qualifications and certified policy versions to identify source-data X versus grounding G versus embodiment E?",
+  "latest_questions": "Which authorized original-policy-closed buyer–robot–operator cohort can jointly support same-parent source-Q × independently grounded original-demand T × predecision report Y, independently signed F/L/R/X/G/E, original natural-offer accept/refuse/paid receipts, whole-policy assignment and noninterference sufficient to identify (or honestly bound) economically actionable X-versus-G-versus-E?",
   "validation_joint_original_parent": {
     "source": "research/theory_integration_2026_11_17/data_value/joint_original_parent.js",
     "source_blob": "9ac3dfd24fcbbc36f79f9ca32f09fa014928e82a",
@@ -1067,6 +1068,26 @@
     "measured_causal_source_transfer": false,
     "official_BEA_interindustry_numeric_edge": false,
     "full_repository_ci": false,
+    "independent_originality_review": false,
+    "nov22_scientific_gate_passed": false
+  },
+  "validation_paired_target_signal": {
+    "chapter": "research/theory_integration_2026_11_17/data_value/PAIRED_TARGET_SIGNAL_SUPPORT_AND_VALUE.md",
+    "source_file": "research/theory_integration_2026_11_17/data_value/paired_signal_support.py",
+    "result_file": "research/theory_integration_2026_11_17/data_value/paired_signal_support_results.json",
+    "source_blob": "b008580534f6ac4de327a9e1cbb9911f6869d209",
+    "result_blob": "b6e4b90e49bb550d844f747830061fbc9bda28f4",
+    "enumerated_complete_joint_worlds": 1716,
+    "exhaustively_checked_integer_margin_agreement_configs": 1680,
+    "source_and_record_sha_exactly_match_local_executed_files": true,
+    "mathematical_status": "conditional elementary four-cell Fréchet and gross option-value identity; algebraic proof in chapter, finite tests corroborate only integer instances",
+    "physical_F_L_whole_network_signed": false,
+    "original_parent_paired_Q_T_Y_field_rows": false,
+    "original_customer_paid_receipts": false,
+    "randomized_policy_closed_arms": false,
+    "causal_source_to_qualification_field_effect": false,
+    "official_numeric_BEA_IO_join": false,
+    "full_repository_CI": false,
     "independent_originality_review": false,
     "nov22_scientific_gate_passed": false
   }
