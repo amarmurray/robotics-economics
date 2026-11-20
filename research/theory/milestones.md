@@ -1,5 +1,10 @@
 # Theory phase milestone ledger
 
+## 20 November — November 22 model acceptance correction: safe action is not economically observed action
+
+Added the [whole-policy data/identification synthesis](../theory_integration_2026_11_17/data_value/NOV22_SAFE_LOGGING_DATA_VALUE_IDENTIFICATION.md), [prospective original-order coverage protocol](../theory_integration_2026_11_17/data_value/NOV22_SAFE_LOGGING_EMPIRICAL.md), finite [executable](../theory_integration_2026_11_17/data_value/safe_logging_value.js), and separate exercises/solutions. The mathematical result distinguishes a physical observation-closed admissible action set from causal positivity for already-approved original-network policies; non-overlap gives sharp conditional contribution intervals and persistent lack of identification despite more selected production data. Exact synthetic gross target-audit EVSI is 3/8 normalized units only under an asserted two-world prior and free perfect signal. Independently checked rational arithmetic; field original-orders, safety signatures, policy propensities, official quantitative BEA use cells, full repo CI and independent novelty review remain missing. Nov22 gate OPEN, theory-led through Dec6 and Dec25 Eastern deadline unchanged.
+
+
 Original targets from the full November 15, 2026 brief; all dates are America/New_York. Current checkpoint executed November 15 Eastern / November 16 UTC. No stage is complete merely because its window begins. No scheduled execution is implied.
 
 | Stage/window | Target | Actual evidence/status | Unresolved objection and next action |

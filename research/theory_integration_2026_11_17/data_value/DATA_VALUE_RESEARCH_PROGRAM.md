@@ -1,5 +1,12 @@
 # November 20 observable original-network safety qualification
 
+## 20 November — November 22 evidence gate: physical admission is not policy overlap
+
+[Integrated causal/safety chapter](NOV22_SAFE_LOGGING_DATA_VALUE_IDENTIFICATION.md), [prospective audit](NOV22_SAFE_LOGGING_EMPIRICAL.md), [exact synthetic executable](safe_logging_value.js), and separate [exercises](NOV22_SAFE_LOGGING_EXERCISES.md)/[solutions](NOV22_SAFE_LOGGING_SOLUTIONS.md) resolve a missing logical link in the same Nov22 Models A–B review: even *physically admitted* grounded policies are not economically identified by infinitely many selectively generated incumbent production traces if original-network policy assignment lacks support. An approved, entire original-order cluster study with complete purchased-and-refused outcomes, known positive propensities and no crosscluster interference identifies full policy mean contributions by standard inverse weighting, not casewise physical safety. Missing treatment overlap yields sharp bounded identified sets. In a synthetic R/G/E decision, grounded-policy value lies in [3/2,4]; an explicitly prior-conditioned perfect safe target audit has gross decision value 3/8 normalized units. These are not robotics estimates, a second premium or novel bandit theory. Unapproved X remains excluded; no actual full-network records or sensor/transition certificate was obtained. Gate OPEN.
+
+---
+
+
 [Proof and analysis](OBSERVATION_CLOSED_RECOVERY_AND_GROUNDING.md), [prospective original-order evidence](OBSERVATION_CLOSED_RECOVERY_EMPIRICAL.md), and [exact synthetic CPU code](observation_closed_recovery.js) address the **same** November 22 scientific acceptance problem: full-state recoverability does not imply information-consistent R rescue after X. Certification of observation distinctions may give G economic value even if raw X competence is unchanged; E can alternatively provide a common independent recovery. This is conditional standard shielding/reachability and optimized production theory, not field validation or claimed novel control. The next original tote-order observation, customer receipt and full-network approved-policy closure remains unanswered, as do BEA quantitative edges and Christmas scientific gates.
 
 ---

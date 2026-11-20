@@ -1,0 +1,42 @@
+{
+  "synthetic_only": true,
+  "unit": "one eighth normalized contribution",
+  "physical_trial": false,
+  "original_customer_data": false,
+  "qualified_safe_X": false,
+  "original_strata": [
+    "L",
+    "H"
+  ],
+  "weights": [
+    "1/2",
+    "1/2"
+  ],
+  "logged_G_L": "3",
+  "unlogged_G_H_bounds": [
+    "0",
+    "5"
+  ],
+  "identified_G_value_bounds": [
+    "3/2",
+    "4"
+  ],
+  "incumbent_R": "2",
+  "embodiment_E": "9/4",
+  "G_world_values": [
+    "3/2",
+    "4"
+  ],
+  "equal_world_prior": "1/2",
+  "pre_audit_optimized_value": "11/4",
+  "post_audit_optimized_expected_value": "25/8",
+  "gross_audit_value": "3/8",
+  "scan": {
+    "H_grid_step": "1/4",
+    "H_grid_points": 21,
+    "G_preferred": 14,
+    "E_preferred": 6,
+    "ties": 1
+  },
+  "assertions": 93
+}
