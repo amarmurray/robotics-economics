@@ -1,5 +1,9 @@
 # Sustained theory block: operating possibilities and capability acquisition
 
+**20 November latest state:** the [policy/menu exposure transport extension](data_value/JOINT_MENU_EXPOSURE_TRANSPORT.md) asks when an original eligible buyer's *paid second purchase* and its *safely qualified second robotic service* jointly survive source/grounding/menu changes. Sharp two-bit coupling bounds conditional on independently justified cross-policy switching restrictions can certify investment reversals, but those restrictions remain empirically unsupported. Prior original data-technology, demand, production and financing theory and the wider opportunity atlas are retained. Actual BLS Table 2.11 numerical 2025–35 rows are staged in [official slice](data_value/OFFICIAL_BLS_2025_35_NUMERIC_SLICE.md); BEA original interindustry cells and crosswalk still absent. Continue the Nov22 integrated gate as a review, not a completed milestone.
+
+
+
 Amar's November 17 direction shifts the immediate theory majority toward data transfer and economic data value without cancelling the unified production, demand, embodiment, investment, network and atlas roadmap.
 
 **Current continuation, late November 17 Eastern:** productive teleoperation now has an endogenous observation mechanism: exposure, gating and latent error jointly determine recorded corrections, with retained qualification modeled separately. The qualified-customer-production threshold, strong target-only countermodel, optional byproduct result and observational-equivalence example are in [INTERVENTION_SELECTION_THEORY.md](data_value/INTERVENTION_SELECTION_THEORY.md). The exact next proof gap is *sequential observation support*: how an initial control update changes second-deployment visits, useful corrections and qualification. DDA, DAgger, ThriftyDAgger and IntervenGen remain prior art. November 22 and later acceptance gates remain open.

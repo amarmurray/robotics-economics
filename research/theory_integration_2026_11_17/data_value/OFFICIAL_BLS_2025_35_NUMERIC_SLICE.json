@@ -1,0 +1,37 @@
+{
+  "source": "https://www.bls.gov/emp/tables/industry-employment-and-output.htm",
+  "access_date": "2026-11-19",
+  "dataset": "BLS Employment Projections, Table 2.11; 2025 and projected 2035",
+  "classification": "2025 National Employment Matrix code",
+  "employment_unit": "thousand workers",
+  "output_unit": "billion chained 2017 USD",
+  "rows": [
+    {
+      "code": "493000",
+      "name": "Warehousing and storage",
+      "emp_2025": 1865.7,
+      "emp_2035_proj": 1902.4,
+      "output_2025": 133.6,
+      "output_2035_proj": 171.1
+    },
+    {
+      "code": "333000",
+      "name": "Machinery manufacturing",
+      "emp_2025": 1089,
+      "emp_2035_proj": 1078.8,
+      "output_2025": 315,
+      "output_2035_proj": 359.3
+    },
+    {
+      "code": "6220P0",
+      "name": "Hospitals, private",
+      "emp_2025": 5653.8,
+      "emp_2035_proj": 5940.3,
+      "output_2025": 1043.8,
+      "output_2035_proj": 1378.2
+    }
+  ],
+  "observed_bea_numeric_edges": false,
+  "quantitative_bea_crosswalk_complete": false,
+  "robot_deployment_calibration": false
+}

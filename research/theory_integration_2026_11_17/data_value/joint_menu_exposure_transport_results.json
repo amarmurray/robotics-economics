@@ -1,0 +1,56 @@
+{
+  "model": "conditional joint original buyer and safe qualification two-bit transport",
+  "assumption": "same original eligible H registry, policy/menu supported, upper bounds on paired cross-policy bit flips; not observed robotics returns",
+  "baseline_grid_denominator": 8,
+  "baseline_4cell_distributions": 165,
+  "change_budget_pairs": 25,
+  "exhaustive_cases": 4125,
+  "case_A": {
+    "conditional_cells_00_01_10_11": [
+      6,
+      2,
+      4,
+      8
+    ],
+    "conditional_change_budgets": [
+      4,
+      4
+    ],
+    "units": 20,
+    "baseline_global_joint_s": 0.2,
+    "crude_global_upper": 0.4,
+    "sharp_global_upper": 0.35,
+    "X_net": 3,
+    "G_net_upper": 2.9,
+    "retained_R_net": 2,
+    "upper_atom_conversions": {
+      "x": 4,
+      "y": 2,
+      "z": 0
+    }
+  },
+  "case_B": {
+    "conditional_cells_00_01_10_11": [
+      0,
+      2,
+      0,
+      18
+    ],
+    "conditional_change_budgets": [
+      1,
+      1
+    ],
+    "units": 20,
+    "baseline_global_joint_s": 0.45,
+    "sharp_global_lower": 0.4,
+    "X_net": 3,
+    "G_net_lower": 3.1,
+    "retained_R_net": 2
+  },
+  "real_original_buyer_panel": false,
+  "physically_approved_joint_second_service": false,
+  "credible_counterfactual_switch_bounds_estimated": false,
+  "independent_novelty_review": false,
+  "full_repository_CI": false,
+  "nov22_gate_passed": false
+}
