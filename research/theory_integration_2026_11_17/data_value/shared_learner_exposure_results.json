@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-20",
+  "model": "synthetic normalized captured net contribution, not measured robotics",
+  "logger_joint_probs_over_4": {
+    "GG": 2,
+    "XG": 1,
+    "GX": 1,
+    "XX": 0
+  },
+  "per_slot_X_marginal": "1/4",
+  "logged_mean": "11/2",
+  "low": {
+    "net": {
+      "GG": 6,
+      "XG": 5,
+      "GX": 5,
+      "XX": 3,
+      "R": 2,
+      "E": 6
+    },
+    "source_interaction": -1,
+    "XX_minus_GG": -3
+  },
+  "high": {
+    "net": {
+      "GG": 6,
+      "XG": 5,
+      "GX": 5,
+      "XX": 8,
+      "R": 2,
+      "E": 6
+    },
+    "source_interaction": 4,
+    "XX_minus_GG": 2
+  },
+  "conditional_exposure_certificate": {
+    "original_parent_gross_payment_ceilings": [
+      4,
+      5
+    ],
+    "service_slots": 2,
+    "training_cost": 1,
+    "preattempt_R": 2,
+    "XX_net_interval": "[1,8]",
+    "interaction_interval": "[-3,4]",
+    "XX_minus_GG_interval": "[-5,2]"
+  },
+  "eight_integer_completions": [
+    {
+      "XX_net": 1,
+      "interaction": -3,
+      "XX_minus_GG": -5
+    },
+    {
+      "XX_net": 2,
+      "interaction": -2,
+      "XX_minus_GG": -4
+    },
+    {
+      "XX_net": 3,
+      "interaction": -1,
+      "XX_minus_GG": -3
+    },
+    {
+      "XX_net": 4,
+      "interaction": 0,
+      "XX_minus_GG": -2
+    },
+    {
+      "XX_net": 5,
+      "interaction": 1,
+      "XX_minus_GG": -1
+    },
+    {
+      "XX_net": 6,
+      "interaction": 2,
+      "XX_minus_GG": 0
+    },
+    {
+      "XX_net": 7,
+      "interaction": 3,
+      "XX_minus_GG": 1
+    },
+    {
+      "XX_net": 8,
+      "interaction": 4,
+      "XX_minus_GG": 2
+    }
+  ],
+  "exact_assertions": 45,
+  "physical_approval": false,
+  "real_paid_receipt_panel": false
+}
