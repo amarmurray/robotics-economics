@@ -1,0 +1,199 @@
+{
+  "scope": "EXCLUSIVELY SYNTHETIC two-order procurement/operator network. Not empirical robotics economics or physical admission.",
+  "created_at_utc": "2026-11-20",
+  "original_market": "One procurement parent with original eligible orders A(price4), B(price3); common budget 6 or 8; common operator pool; prices and net contributions stipulated equal, except E one-time cost.",
+  "policies": {
+    "RR": "old A=2 op,B=2 op, shared capacity2",
+    "RG": "old A=2,grounded B=1,capacity2",
+    "GR": "grounded A=1,old B=2,capacity2",
+    "GG": "grounded A=1,grounded B=1,capacity2, only if JOINT signed",
+    "E": "new embodiment allows 4 operator units, cost 1 charged once",
+    "X": "unapproved source-trained whole policy explicitly excluded"
+  },
+  "oracle_high_world": [
+    {
+      "cluster_id": "S1",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 6,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 3
+      }
+    },
+    {
+      "cluster_id": "S2",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 6,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 3
+      }
+    },
+    {
+      "cluster_id": "S3",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 8,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 7,
+        "E": 6
+      }
+    },
+    {
+      "cluster_id": "S4",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 8,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 7,
+        "E": 6
+      }
+    }
+  ],
+  "oracle_joint_veto_world": [
+    {
+      "cluster_id": "S1",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 6,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 3
+      }
+    },
+    {
+      "cluster_id": "S2",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 6,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 3
+      }
+    },
+    {
+      "cluster_id": "S3",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 8,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 6
+      }
+    },
+    {
+      "cluster_id": "S4",
+      "original_orders": [
+        "A",
+        "B"
+      ],
+      "pre_assignment_parent_budget": 8,
+      "oracle_y": {
+        "RR": 4,
+        "GG": 4,
+        "E": 6
+      }
+    }
+  ],
+  "mixed_only": {
+    "available_arms": [
+      "RG",
+      "GR"
+    ],
+    "individual_order_grounded_probability": "1/2",
+    "whole_policy_GG_probability": "0/1",
+    "identical_original_market_receipt": "4/1",
+    "observationally_identical_worlds": true
+  },
+  "full_policy_randomization": {
+    "unit": "whole parent/robot/operator cluster",
+    "only_if_physically_approved": true,
+    "each_arm_probability": "1/3",
+    "exact_assignments_enumerated": 81,
+    "high": {
+      "GG-RR": {
+        "assignments": 81,
+        "true_contrast": "3/2",
+        "design_expectation_HT": "3/2",
+        "design_variance_HT": "141/4"
+      },
+      "E-RR": {
+        "assignments": 81,
+        "true_contrast": "1/2",
+        "design_expectation_HT": "1/2",
+        "design_variance_HT": "113/4"
+      },
+      "GG-E": {
+        "assignments": 81,
+        "true_contrast": "1/1",
+        "design_expectation_HT": "1/1",
+        "design_variance_HT": "41/1"
+      }
+    },
+    "low": {
+      "GG-RR": {
+        "assignments": 81,
+        "true_contrast": "0/1",
+        "design_expectation_HT": "0/1",
+        "design_variance_HT": "24/1"
+      },
+      "E-RR": {
+        "assignments": 81,
+        "true_contrast": "1/2",
+        "design_expectation_HT": "1/2",
+        "design_variance_HT": "113/4"
+      },
+      "GG-E": {
+        "assignments": 81,
+        "true_contrast": "-1/2",
+        "design_expectation_HT": "-1/2",
+        "design_variance_HT": "113/4"
+      }
+    }
+  },
+  "conditional_optional_GG_gross_mean_interval": [
+    "4/1",
+    "11/2"
+  ],
+  "hypothetical_buyer_data_value": {
+    "two_world_prior": [
+      "1/2",
+      "1/2"
+    ],
+    "G_certification_cost": "1/2",
+    "E_embodiment_cost": "already counted once",
+    "no_target_signal": "9/2",
+    "perfect_binding_joint_menu_signal": "19/4",
+    "gross_information_gain": "1/4",
+    "routine_only_data_information_gain_about_joint_menu": "0/1"
+  },
+  "scoped_integer_assertions": 52,
+  "real_physical_signature": false,
+  "actual_customer_records": false,
+  "approved_live_assignments": false,
+  "source_X_admitted": false,
+  "independent_novelty_review": false
+}

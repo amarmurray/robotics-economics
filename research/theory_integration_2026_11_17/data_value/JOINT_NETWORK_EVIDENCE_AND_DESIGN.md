@@ -1,0 +1,28 @@
+# Nov22 original-procurement network: prospective, unpopulated evidence contract
+
+**20 November 2026, private research.** Complements [whole-network policy support](JOINT_NETWORK_POLICY_SUPPORT_AND_DATA_VALUE.md) and its [synthetic exact model](joint_network_support.js). This is a scientific acquisition/identification design, **not** field observations, customer access, physical approval or a request for unsafe experiments.
+
+The unit is a predeclared complete procurement-parent–original-order–shift–robot/controller/build–shared-operator network. Enumerate original eligible orders, including zero-sale/refused/abandoned jobs, *before* treatment. Give each original parent the same preassigned key through offered price, budget, accepted service, fulfillment, credits/refunds and collected receipts. Do not define treatment cohorts from accepted robot jobs only.
+
+| Domain | Prospective versioned record | Invalid substitution |
+| --- | --- | --- |
+| Original buyer | Parent and original order IDs; preassignment budget, price/quality menus, contracts, alternatives, refusals, no purchase and paid receipts | Successful robot-task clips |
+| Physical qualification | Robot body, controller, sensor, firmware, operator supervision shared pool, time limits, modeled full disturbances, lawful recovery and **joint-policy-specific independent signatures** | Separate A and B benchmark passes |
+| Causal policy | Entire RR, RG, GR, jointly GG or E policy, arm eligibility and physical admission prior to assignment, preassignment stratum, cluster-level probability, date, model update exposure, no-crosscluster-interference statement | Separate order-level G treatment indicators |
+| Cash/quantity | Qualified and accepted original services, actually collected remittances, SLA credits, displaced jobs, operator capacity, body and recovery costs charged once | Task accuracy as monetary value |
+| Target commercial report | Exact jointly offered original-parent menu, whether legally binding or not, response, quality rights, purchase transport stability, cost and date | An unbinding buyer answer presumed guaranteed |
+| Experience provenance | Directed field trajectory, teleoperation, failures/recovery, simulation, synthetic or public/pretrained input; selection likelihood, compute/curation cost, permissions, destination embodiment, joint accepted-service evaluation | Generic undifferentiated data count |
+
+An empty typed [prospective schema](JOINT_NETWORK_EVIDENCE_SCHEMA.json) has **no field rows and null signoffs**. The CPU program separately contains *oracle potential outcomes* solely because it is an invented finite population; they cannot be mistaken for one real customer's unobserved counterfactual receipts.
+
+**Physical admission gate:** obtain independent permitted signoff for complete simultaneous GG deployment, its observation/recovery and shared operator capacity, or exclude GG. Body E requires separate safe rollout and business/access costs. An unsigned X cannot be assigned, even to collect data. A presumed retained software controller does not qualify as a post-failure physically valid fallback.
+
+**Market-coverage gate:** log the original budget/procurement parent, all accepted/refused/zero-sale, price and SLA, collected cash, unfilled job opportunity cost and competing supplier choice. A binding conditional purchase report might restrict demand outcomes only with legally established commitment and transport. A survey or post-policy quote without market support is not a receipt.
+
+**Causal-design gate:** physically approved whole policies must have positive **joint** assignment probability by preassignment network stratum. An experiment randomizing exactly one G order per procurement parent has per-order positive G rates but *zero GG positivity*. A later observational analysis needs honest propensity/exchangeability, all interference within measured clusters, customer/robot/operator version hashes, missing-outcome audit and predeclared estimands. Shared model training between clusters can violate closure.
+
+**Quantitative evidence and falsification:** (i) test whether separate G qualification really composes into signed joint recovery/operator bounds; (ii) test joint-parent offer response against isolated G purchase and budget, including veto/displacement; (iii) measure intention-to-deploy whole-network original-order contribution for R/GG/E with refusals; (iv) compare source-training, grounding and embodiment on matched held-out joint qualification, controlling source-specific leakage and rights; (v) validate whether target commercial information changes the actual investment action, rather than valuing a signal twice. Report an unsupported policy as **not identified or not admitted**, not as zero or as a robot-market profit.
+
+The [BEA official Input–Output guidance](https://www.bea.gov/resources/guide-interactive-industry-input-output-accounts-tables) confirms that use tables describe commodity/industry transactions. No actual numeric BEA use/supply cell was retrieved in this tranche, and the earlier BLS industry-output slice is not a robot task adoption estimate or an empirical supplier linkage.
+
+**Current evidence status:** no independently authorized real signed whole original-network physical plus market assignment cluster, no actual buyer payment panel, no approved X/GG/E field comparison; Model A–B and Nov22 scientific acceptance remain OPEN. Maintain November 29 backbone attempt, December 6 theory/empirical choice and December 25, 2026, 23:59 Eastern target.

@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UNPOPULATED prospective original buyer–robot–operator economic evidence v1",
+  "description": "SCHEMA ONLY: no real signatory, observation, policy authorization or commercial payment is recorded.",
+  "type": "object",
+  "required": [
+    "record_status",
+    "cluster_id",
+    "original_orders",
+    "preassignment",
+    "physical",
+    "assignment",
+    "commercial",
+    "experience"
+  ],
+  "properties": {
+    "record_status": {
+      "const": "UNPOPULATED"
+    },
+    "cluster_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_orders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "original_order_id",
+          "eligible_preassignment",
+          "original_parent_id",
+          "initial_quoted_price",
+          "refused_or_zero_sale"
+        ],
+        "properties": {
+          "original_order_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "eligible_preassignment": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "original_parent_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "initial_quoted_price": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "refused_or_zero_sale": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "preassignment": {
+      "type": "object",
+      "required": [
+        "budget_stratum",
+        "buyer_quality_menu",
+        "interference_graph"
+      ],
+      "properties": {
+        "budget_stratum": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "buyer_quality_menu": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "interference_graph": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    },
+    "physical": {
+      "type": "object",
+      "required": [
+        "controller_body_sensor_versions",
+        "joint_operator_disturbance_recovery",
+        "joint_policy_signature",
+        "signature_time"
+      ],
+      "properties": {
+        "controller_body_sensor_versions": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "joint_operator_disturbance_recovery": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "joint_policy_signature": {
+          "type": "null"
+        },
+        "signature_time": {
+          "type": "null"
+        }
+      }
+    },
+    "assignment": {
+      "type": "object",
+      "required": [
+        "whole_policy_id",
+        "physically_admitted",
+        "propensity",
+        "model_update_exposure"
+      ],
+      "properties": {
+        "whole_policy_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "physically_admitted": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "propensity": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "model_update_exposure": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    },
+    "commercial": {
+      "type": "object",
+      "required": [
+        "buyer_offer_and_refusal",
+        "qualified_accepted_service",
+        "collected_receipts_and_refunds",
+        "operator_displacement_cost",
+        "net_whole_policy_contribution"
+      ],
+      "properties": {
+        "buyer_offer_and_refusal": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "qualified_accepted_service": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "collected_receipts_and_refunds": {
+          "type": [
+            "array",
+            "null"
+          ]
+        },
+        "operator_displacement_cost": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "net_whole_policy_contribution": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "experience": {
+      "type": "object",
+      "required": [
+        "source_modalities",
+        "collection_selection_propensity",
+        "reuse_rights",
+        "curation_compute_cost",
+        "target_binding_signal_status"
+      ],
+      "properties": {
+        "source_modalities": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "field",
+              "failure_recovery",
+              "teleoperation",
+              "simulation",
+              "synthetic",
+              "public_pretrained"
+            ]
+          }
+        },
+        "collection_selection_propensity": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "reuse_rights": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "curation_compute_cost": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "target_binding_signal_status": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
