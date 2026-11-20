@@ -1,0 +1,32 @@
+{
+  "denominator": 24,
+  "grid_parameters": 15625,
+  "admissible_completions": 390625,
+  "assertions": 421881,
+  "rankings": {
+    "G": 148,
+    "E": 1055,
+    "unranked_or_boundary": 14422
+  },
+  "examples": {
+    "respondents_all_yes_coverage_three_quarters_menu_epsilon_one_eighth": {
+      "theta_N_lower": "5/8",
+      "theta_N_upper": "1",
+      "G_net_lower": "71/16",
+      "E_net": "9/2"
+    },
+    "nonrespondent_conditional_acceptance_lower_half": {
+      "theta_N_lower": "3/4",
+      "G_net_lower": "37/8"
+    },
+    "hypothetical_two_stratum_sample": {
+      "n_each": 400,
+      "alpha_joint": 0.05,
+      "bonferroni_hoeffding_h": 0.07401035936503991,
+      "theta_N_lower": 0.6759896406349601,
+      "G_net_lower": 4.51398446095244,
+      "respondent_only_theta_N_lower": 0.5694922304762201
+    }
+  },
+  "evidence": "synthetic math, not customer estimates"
+}

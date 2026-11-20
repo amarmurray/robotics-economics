@@ -1,0 +1,7 @@
+# Original-menu selection and data-acquisition exercises — separate instructor solutions
+
+1. theta_C=(3/4)*1+(1/4)u in [3/4,1]. theta_N in [3/4-1/8,1]=[5/8,1]. Hence V_G in [71/16,5], crossing E=9/2. Unranked.
+2. L has u=0, theta_C=3/4 and theta_N=5/8, so V_G=71/16<E. H has u=1, theta_C=1, theta_N=1, so V_G=5>E. Both have all observed C respondents accepting and identical response coverage; target natural policy was not offered.
+3. (3/4)+(1/4)u_L-(1/8)>2/3 implies u_L>1/6. The nonrespondent response bound closes selection uncertainty. Additional selected respondents do not identify outcomes in the absent stratum, or the menu-version epsilon.
+4. h=sqrt(log(4/.05)/(2*400))=0.074010359365... . Joint confidence bands give s_L=1-h and u_L=.5-h. Lower theta_N=(3/4)(1-h)+(1/4)(.5-h)-1/8=0.675989640635, so lower V_G approximately 4.51398446 >4.5 under the toy assumptions. But sampling design and cross-menu restriction need independent evidence; neither licenses unsafe physical controller operation nor establishes an original paid receipt.
+5. A forced X training recipe can regress despite a right to discard it. A C offer can change warranty/prices and is not the natural GG policy. A matched and signed evaluation would hold target body, operator, buyer-service recipes, compute and training pipeline fixed where appropriate; randomize source data versus target grounding; record held-out joint physical qualification, failures/recovery, accepted original orders and costs, with legally available old controller as optional fallback only when physically real.
