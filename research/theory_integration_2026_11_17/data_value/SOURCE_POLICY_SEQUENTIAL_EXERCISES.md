@@ -1,0 +1,9 @@
+# Student exercises — sequential X/G/E policy identification
+
+These refer to [source policy identification](SOURCE_POLICY_SEQUENTIAL_IDENTIFICATION.md); all numeric cases are synthetic and physically hypothetical.
+
+1. Derive the two-stage sequential inverse-probability expression when source S is chosen before qualification Q and action A is chosen after observing Q. List consistency, assignment, positivity, safe-action, full-outcome and cross-network interference assumptions. Explain why unmeasured original-buyer regime T need not invalidate the identified mean under genuine randomized assignment, but can obstruct a structural transfer model.
+2. Under equal original-buyer A/B regimes, a source-trained X that qualifies only in A, G that qualifies in both, retained gross R=2, qualified gross X=5, G=4 and both programs with cost 1/4, compute each program's full net contribution. Explain the error in comparing X-qualified output only to G output.
+3. The logger independently assigns X/G with probability 1/2 then deploys or keeps with probability 1/2 when Q=1; for Q=0, it must keep. What are the exact inverse-propensity weights for each path matching the deterministic policy that deploys iff Q=1? Show the policy means using all original parents and the retained fallback.
+4. In a second logger, no qualified-X deploy action is ever selected. Holding all logged information fixed, suppose its unobserved qualified gross customer contribution could be 3 or 7. Calculate the two possible net X policy values and establish whether the same observed G value of 15/4 ranks them.
+5. For DROID and Open X-Embodiment as documented on their original project sites, distinguish the technical evidence available from a robot demonstration dataset from the extra original-buyer, physical signoff, assignment and receipt evidence required to identify actual economic J. Why cannot positivity certify physical safety?

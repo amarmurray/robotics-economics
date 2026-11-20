@@ -1,0 +1,96 @@
+{
+  "study": "synthetic, pre-source randomized X/G; independently hypothetical physical whole-policy permission",
+  "original_parent_regimes": [
+    "A",
+    "B"
+  ],
+  "source_training_cost": "1/4 normalized production unit under both X and G",
+  "retained_policy_gross": "2 units, safe fallback before an unqualified new-policy attempt",
+  "source_X_qualification": "A only",
+  "source_G_qualification": "A and B",
+  "conditional_qualified_gross_X": 5,
+  "conditional_qualified_gross_G": 4,
+  "complete_policy_net_X": "13/4",
+  "complete_policy_net_G": "15/4",
+  "sequential_IPW_policy_contrast_G_minus_X": "2/4",
+  "unsupported_X_deploy_gross_worlds": [
+    3,
+    7
+  ],
+  "unsupported_X_policy_net_identified_examples": [
+    "9/4",
+    "17/4"
+  ],
+  "complete_logging_rows": [
+    {
+      "h": "A",
+      "s": "X",
+      "q": true,
+      "a": "deploy",
+      "p8": 1,
+      "w4": 19
+    },
+    {
+      "h": "A",
+      "s": "X",
+      "q": true,
+      "a": "keep",
+      "p8": 1,
+      "w4": 7
+    },
+    {
+      "h": "A",
+      "s": "G",
+      "q": true,
+      "a": "deploy",
+      "p8": 1,
+      "w4": 15
+    },
+    {
+      "h": "A",
+      "s": "G",
+      "q": true,
+      "a": "keep",
+      "p8": 1,
+      "w4": 7
+    },
+    {
+      "h": "B",
+      "s": "X",
+      "q": false,
+      "a": "keep",
+      "p8": 2,
+      "w4": 7
+    },
+    {
+      "h": "B",
+      "s": "G",
+      "q": true,
+      "a": "deploy",
+      "p8": 1,
+      "w4": 15
+    },
+    {
+      "h": "B",
+      "s": "G",
+      "q": true,
+      "a": "keep",
+      "p8": 1,
+      "w4": 7
+    }
+  ],
+  "assertions": [
+    "logging row probability totals eight eighths",
+    "IPW X is an integer numerator over 8",
+    "IPW G is an integer numerator over 8",
+    "X policy quarter-unit ticks",
+    "G policy quarter-unit ticks",
+    "X source qualifies in exactly one of two customer regimes",
+    "G source qualifies in both regimes",
+    "qualified X nominal gross service beats qualified G",
+    "full-policy G net beats X",
+    "low unsupported X policy ticks",
+    "high unsupported X policy ticks",
+    "unsupported X endpoints reverse ranking against G"
+  ]
+}
