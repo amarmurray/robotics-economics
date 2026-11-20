@@ -1,0 +1,39 @@
+{
+  "denominator": 8,
+  "marginal_triples": 285,
+  "feasible_joint_tables": 495,
+  "exact_assertions": 2577,
+  "worlds": {
+    "incumbent_R_successes": 2,
+    "upgraded_X_successes": 3,
+    "optional_best_ex_ante_successes": 3,
+    "nested": {
+      "lost": 0,
+      "gain": 1,
+      "union": 3
+    },
+    "crossed": {
+      "lost": 1,
+      "gain": 2,
+      "union": 4
+    }
+  },
+  "frontier": {
+    "alpha_1_over_8": {
+      "cap_units_1_over_32": 4,
+      "max_gain_units_1_over_16": 12,
+      "t_A_quarters": 4,
+      "t_B_quarters": 0,
+      "admissible": 15
+    },
+    "alpha_1_over_16": {
+      "cap_units_1_over_32": 2,
+      "max_gain_units_1_over_16": 6,
+      "t_A_quarters": 2,
+      "t_B_quarters": 0,
+      "admissible": 6
+    }
+  },
+  "qualification_and_buyer_data_are_synthetic": true,
+  "physical_safety_certificate": false
+}

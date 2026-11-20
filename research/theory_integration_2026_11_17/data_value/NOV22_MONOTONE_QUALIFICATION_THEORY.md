@@ -1,5 +1,7 @@
 # November 22 adversarial synthesis: demand-matched monotone qualification and menu closure
 
+> **20 November adversarial correction to interpretation.** [Policy availability is not casewise nested qualification](FALLBACK_POLICY_VS_NESTED_QUALIFICATION.md). A physically **selectable** old policy guarantees only enlargement of a feasible decision set under an unchanged world; it does not imply that a *chosen/admitted upgraded controller* succeeds on every old-success history. The proposition below remains correct conditional on the **stronger** Q1>=Q0 for the **implemented** policy, with a verified nonregressing gate, non-destructive retry or genuinely redundant resources and stable original buyer B. A mere reversible model installation or positive arm-average qualification gain is insufficient. See [proofs](FALLBACK_POLICY_VS_NESTED_QUALIFICATION_PROOFS.md) and [prospective safety audit](FALLBACK_POLICY_VS_NESTED_QUALIFICATION_EMPIRICAL.md). This correction keeps the Nov22 gate OPEN.
+
 **20 November 2026 UTC | Private working theorem/proof review | No field estimate; November 22 gate OPEN.**
 
 ## One question, not another independent model

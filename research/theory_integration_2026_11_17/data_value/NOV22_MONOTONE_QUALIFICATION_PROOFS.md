@@ -1,5 +1,7 @@
 # Proof ledger: nested qualification, demand support and menu-response correction
 
+> **Necessary qualification, 20 November.** "The complete old recipe is still selectable" does not imply the *implemented upgrade's* Q1>=Q0 on each original physical history. That requires an actually certified safe observable selector or non-destructive/redundant fallback on every old-success state under complete shared operator, body, dispatch and rights resources. The conditional algebra below remains sound; its physical premise cannot be inferred from globally retained policy options or from mean treatment improvement. See [separate counterexample and proof](FALLBACK_POLICY_VS_NESTED_QUALIFICATION_PROOFS.md).
+
 **20 November 2026 UTC. Standard monotone response/partial-identification constructions, not claimed novel.**
 
 Let B,Q0,Q1 be binary on one *same original predeclared population*; Q1>=Q0 casewise. Partition the Q0=0 mass into M=P(B=1,Q0=0) and N=P(B=0,Q0=0), and let U=1{Q1=1,Q0=0}. By nesting, Q1-Q0=U. Hence d=E[U], 0<=d<=M+N. Let x=P(U=1,B=1) and y=P(U=1,B=0). Then x+y=d, 0<=x<=M, 0<=y<=N. Therefore max(0,d-N)<=x<=min(d,M). Conversely, for every feasible x in this interval, choose (possibly fractional) subsets of each baseline cell of masses x and d-x to convert. Thus the bounds are sharp for divisible populations. On a discrete population of D equally weighted units, require Dx integer and allocate an integer number of cases; all attainable integer endpoints coincide with the scaled bounds when d,M,N have denominator D.
