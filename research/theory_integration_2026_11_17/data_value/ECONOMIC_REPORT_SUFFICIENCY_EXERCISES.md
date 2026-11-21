@@ -1,0 +1,9 @@
+# Student exercises — economic report sufficiency and grounding
+
+*Use only the explicitly stipulated synthetic settings and do not mistake them for real robot evidence.*
+
+1. **Conditional decision sufficiency.** Given a finite common signed action set and coarse report Z=φ(Y), prove that retaining Y cannot lower optimized gross contribution. Provide necessary and sufficient conditions for equality. Explain why the result does not apply if seeing Y requires switching to a different or unsigned controller.
+2. **Two-action regret identity.** Let Δ(Y)=m_A(Y)-m_B(Y). Show that within every Z-cell the exact full-vs-coarse report value equals one half the conditional absolute-margin Jensen gap. Give a positive-value example that does not involve predicting a task class.
+3. **Same X report compression.** In the original three-signal model with g_k(t), r_A=1/4 and r_B=3/4, derive the optimal action conditional on only the majority bit, derive q_M(t) and q_full(t)-q_M(t), and calculate its original-buyer incremental contribution at t=0. Does this change the initial X/G/E choice while E remains net 10?
+4. **Identification.** You observe source reports S, the chosen robot recipe, successes conditional on dispatch, and buyer payments only when successful. Which unobserved data prevent causal evaluation of the alternative fine-report policy? Design a physically admissible whole-network logging/assignment scheme that could identify it without assuming missing signed actions are safe.
+5. **Scarce capacity extension.** Two original customer orders each have a signed complete service yielding 8 captured units, but they share one operator slot. Their reports predict success perfectly. Show why summing the independently optimized customer values exaggerates feasible simultaneous production; define the correctly coupled action set.

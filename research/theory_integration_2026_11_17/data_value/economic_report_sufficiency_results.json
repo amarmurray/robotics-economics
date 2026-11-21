@@ -1,0 +1,128 @@
+{
+  "scope": "exact finite synthetic report compression; no learned robot, real payment, source experiment or empirical transfer",
+  "report_model": "three exchangeable signals, rA=1/4, rB=3/4, t=j/256, original buyer R/X/G/E",
+  "success_denominator": 2048,
+  "full_policies_evaluated": 4352,
+  "compressed_policies_evaluated": 68,
+  "checks": 122,
+  "rows": [
+    {
+      "t": "0/256",
+      "full_paid_success_numerator_2048": 880,
+      "majority_report_paid_success_numerator_2048": 832,
+      "conditional_report_value_numerator_2048": 48
+    },
+    {
+      "t": "1/256",
+      "full_paid_success_numerator_2048": 876,
+      "majority_report_paid_success_numerator_2048": 840,
+      "conditional_report_value_numerator_2048": 36
+    },
+    {
+      "t": "2/256",
+      "full_paid_success_numerator_2048": 872,
+      "majority_report_paid_success_numerator_2048": 848,
+      "conditional_report_value_numerator_2048": 24
+    },
+    {
+      "t": "3/256",
+      "full_paid_success_numerator_2048": 868,
+      "majority_report_paid_success_numerator_2048": 856,
+      "conditional_report_value_numerator_2048": 12
+    },
+    {
+      "t": "4/256",
+      "full_paid_success_numerator_2048": 864,
+      "majority_report_paid_success_numerator_2048": 864,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "5/256",
+      "full_paid_success_numerator_2048": 872,
+      "majority_report_paid_success_numerator_2048": 872,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "6/256",
+      "full_paid_success_numerator_2048": 880,
+      "majority_report_paid_success_numerator_2048": 880,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "7/256",
+      "full_paid_success_numerator_2048": 888,
+      "majority_report_paid_success_numerator_2048": 888,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "8/256",
+      "full_paid_success_numerator_2048": 896,
+      "majority_report_paid_success_numerator_2048": 896,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "9/256",
+      "full_paid_success_numerator_2048": 904,
+      "majority_report_paid_success_numerator_2048": 904,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "10/256",
+      "full_paid_success_numerator_2048": 912,
+      "majority_report_paid_success_numerator_2048": 912,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "11/256",
+      "full_paid_success_numerator_2048": 920,
+      "majority_report_paid_success_numerator_2048": 920,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "12/256",
+      "full_paid_success_numerator_2048": 928,
+      "majority_report_paid_success_numerator_2048": 928,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "13/256",
+      "full_paid_success_numerator_2048": 936,
+      "majority_report_paid_success_numerator_2048": 936,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "14/256",
+      "full_paid_success_numerator_2048": 944,
+      "majority_report_paid_success_numerator_2048": 944,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "15/256",
+      "full_paid_success_numerator_2048": 952,
+      "majority_report_paid_success_numerator_2048": 952,
+      "conditional_report_value_numerator_2048": 0
+    },
+    {
+      "t": "16/256",
+      "full_paid_success_numerator_2048": 960,
+      "majority_report_paid_success_numerator_2048": 960,
+      "conditional_report_value_numerator_2048": 0
+    }
+  ],
+  "report_value_identity": "max(3/128 - 3t/2, 0)",
+  "report_value_at_t_zero_in_qualified_success": "3/128",
+  "report_value_at_t_zero_in_contribution": "15/64",
+  "report_value_after_t_one_over_64": "0",
+  "separately_synthetic_context_example": {
+    "original_regime_label_accuracy_both": "1/2",
+    "coarse_captured_contribution": 5,
+    "fine_captured_contribution": 8,
+    "gross_observation_value": 3,
+    "net_observation_value_at_cost_one": 2
+  },
+  "existing_full_program_E_net": "10",
+  "existing_program_X_max_net": "103/16",
+  "existing_program_G_net": "49/8",
+  "original_investment_choice_t_audit_value": "0",
+  "scientific_novelty": "not established; classical conditional information, Bayes action and production accounting"
+}
