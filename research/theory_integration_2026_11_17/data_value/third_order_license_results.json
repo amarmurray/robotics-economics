@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-21",
+  "scope": "synthetic exact integer arithmetic; 1/400 joint-mass grid; 6561 payoff tables",
+  "denominatorValue": 1600,
+  "denominatorMass": 400,
+  "checks": 34923,
+  "slopeCases": 32805,
+  "zeroThirdTables": 1107,
+  "stageOneMarginal": "1/2 each",
+  "allPairwiseJoint": "1/4",
+  "thirdMassInterval": "[0,1/4]",
+  "programsAtT0": {
+    "R": 1650,
+    "G": 1700,
+    "S": 1650,
+    "SG": 1650,
+    "E": 1750
+  },
+  "programsAtTQuarter": {
+    "R": 1650,
+    "G": 1700,
+    "S": 1700,
+    "SG": 1800,
+    "E": 1750
+  },
+  "sgMinusEIntervalScaled": [
+    -100,
+    50
+  ],
+  "sgMinusEInterval": "[-1/16,+1/32]",
+  "indifferenceT": "3/16",
+  "gridSigns": {
+    "SG": 25,
+    "E": 75,
+    "tie": 1
+  },
+  "meaning": "Two pairwise-indistinguishable paid-history/rights worlds reverse optimized source-plus-grounding versus embodiment investment."
+}
