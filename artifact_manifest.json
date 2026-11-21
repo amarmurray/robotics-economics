@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-fleet-learning-dynamics-20261120",
+  "snapshot_id": "recursive-firm-transfer-validation-20261121",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-fleet-learning-dynamics-20261120",
-      "sha256": "0bdaca72988399d2b22318b4a151e12f061efa8d93e973359dc649b876bea0f3"
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "3fee876610c3ee00a00abe68a081fc8e893155193a9f35cad8128a3f1bf8894d"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-fleet-learning-dynamics-20261120",
-      "sha256": "3197ce81cff022084df81626e435e40f7d1347852a43a0e71929cd6a9e54cf03"
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "9d2f59c0d31b13eebf9837cfc94425dddcb0287ddc370c2ce667b7fd891014ba"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3535,6 +3535,34 @@
       "name": "test_dynamics.py",
       "version": "recursive-firm-fleet-learning-dynamics-20261120",
       "sha256": "8cbb2238ed929960c5eac59191f98cbd6d7aed53bccc6b765df6315a639b3483"
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/transfer_validation/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "dfa0455699b0b96579ff000494e04ec561b0b9adafad3b32eebade6e6660b225"
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/transfer_validation/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "5bc1fb7dc87116a592f581dfcf0828db59a85e0401d5abcd437223b5bf9d5f1b"
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/transfer_validation/study.py",
+      "name": "study.py",
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "431e7706cbb9f190af087c7a6879c145396da173bfbd7bb1cbfc963347473805"
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/test_study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/transfer_validation/test_study.py",
+      "name": "test_study.py",
+      "version": "recursive-firm-transfer-validation-20261121",
+      "sha256": "c03775b3462441ee02bd66aa19e3056696aab30d46c3672e58028960a04fd00e"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3815,7 +3843,8 @@
         "figure": "research/recursive_firm/learning_dynamics/learning_paths.svg",
         "status": "conditional_theory_published_score_reanalysis_and_matched_synthetic_fleets",
         "focus": "production feedback, representation transfer, capability scaling and objective revision"
-      }
+      },
+      "priced_transfer_validation": "research/recursive_firm/transfer_validation/README.md"
     }
   }
 }

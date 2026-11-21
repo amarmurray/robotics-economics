@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-fleet-learning-dynamics-20261120.
+Handoff ID: recursive-firm-transfer-validation-20261121.
+
+## Pricing transfer validation
+
+The [transfer validation study](research/recursive_firm/transfer_validation/README.md) starts from branch head 4968c615c3d2e187e8ca225601b34c2b64c0d625. Forty-eight calibration worlds selected fixed policies and audit intervals. Across 192 fresh worlds, a priced selective checkpoint policy improved net contribution against calibrated fixed sharing under ordinary drift, while losing to separate heads in that regime. Target prioritization had no clear advantage over matched rotation. The larger gain came from redirecting future incident training after a link closed. An additional reversal with slow validation erased the financial advantage over fixed sharing. Three regression checks pass and results reproduce byte for byte. Next test learning a replacement adapter against native heads after surprise changes, charging the full validation and post-training budget.
 
 ## Deployment changes the fleet's next training set
 
