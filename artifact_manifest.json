@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-christmas-checkpoint-12",
+  "snapshot_id": "recursive-firm-branch-registration-20261120",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-christmas-checkpoint-12",
-      "sha256": "29688aa6cf242261149b1644f4c245a304cb26eeea8547c13ca40a37b8040509"
+      "version": "recursive-firm-branch-registration-20261120",
+      "sha256": "d72190130522238b2d32c7aa707535ffa82af48277226ffa0215791e52b006f4"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3330,8 +3330,8 @@
       "repository_path": "research/theory/recursive_firm.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/recursive_firm.md",
       "name": "recursive_firm.md",
-      "version": "theory-christmas-checkpoint-12",
-      "sha256": "97d47d69d0abd5ae5692b0ae40e368acd4f994874b70cf6c6e1254a06ce392aa"
+      "version": "recursive-firm-branch-registration-20261120",
+      "sha256": "0d6e5d9f3979508c6eead494ad0f7729b399cd476c310ecd3674c102590f2991"
     },
     {
       "repository_path": "model/recursive_firm_feedback.py",
@@ -3636,7 +3636,9 @@
       "model": "model/recursive_firm_feedback.py",
       "results": "model/results/recursive_firm_feedback.json",
       "contract_rl": "research/contract_learning_2026_11_17/recursive_firm_rl.py",
-      "status": "conditional_theory_exact_and_held_out_synthetic_checks"
+      "status": "conditional_theory_exact_and_held_out_synthetic_checks",
+      "research_branch": "research/recursive-firm-theory",
+      "branch_research_home": "https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm"
     }
   }
 }

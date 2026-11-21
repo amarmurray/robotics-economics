@@ -2,7 +2,9 @@
 
 ## Who sets the objective, and how fast should it change?
 
-20 November 2026, US Eastern · Theory module for *Deploying to Learn, Learning to Deploy*
+20 November 2026, US Eastern · Foundational note for an independent RoboEcon research branch
+
+The [Recursive Firm Theory program and experiments](https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm) study how agents form and revise organizations, contracts and research priorities. *When Capabilities Become Production* studies qualification, buyer demand, and paid service. Both use deployment evidence and retain distinct research questions.
 
 A robot company sells completed work. It also decides which orders to see, which interventions to record, which models or end effectors to qualify, and who can authorize the next trial. Each decision changes the evidence and feasible investments that the next decision-maker inherits. A firm is **recursive** to the extent that it can spend scarce resources to change that decision process itself. The empirical comparison is against the best feasible organization chosen in advance that can continue ordinary skill learning. Give both the same initial people, models, assets, customers, funds and information rights. Charge redesign, review and deployment to the firm that uses them.
 

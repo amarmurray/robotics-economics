@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-12.
+Handoff ID: recursive-firm-branch-registration-20261120.
+
+## Independent Recursive Firm Theory branch
+
+20 November 2026, Eastern. Amar gave Recursive Firm Theory a distinct scope from *When Capabilities Become Production*. The [dedicated research branch](https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm) owns the continuing experiments on designed and emergent organization, economic learning, and the production of theories. The founding note and the prior Q-learning benchmark remain available on main. This registration identifies the research home. The production paper retains its own research agenda.
+
+**Next question for the branch.** When independent agents can negotiate a change in terms or in who funds a test, which organizational changes survive a comparison to the best feasible fixed contract?
 
 ## Recursive Firm Theory and the value of revising a delegated objective
 
