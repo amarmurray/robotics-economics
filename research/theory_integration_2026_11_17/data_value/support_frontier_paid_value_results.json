@@ -1,0 +1,55 @@
+{
+  "status": "Synthetic mathematical checks, not original-buyer measurements or robots",
+  "lowerCoalition": {
+    "D2": -15,
+    "hypotheticalF_T_M": [
+      -15,
+      -15,
+      -15
+    ]
+  },
+  "allSources": {
+    "noCap": {
+      "lower": -15,
+      "upper": 25
+    },
+    "signedFullHorizonCap": {
+      "lower": -15,
+      "upper": -5
+    },
+    "units": "hundredths of normalized accepted-and-paid contribution"
+  },
+  "dual": {
+    "primal": 50,
+    "minimum": 50,
+    "witness": {
+      "l": 100,
+      "m": 0
+    },
+    "feasibleGridPairs": 5151
+  },
+  "statisticalIllustration": {
+    "supportedSG": [
+      39,
+      41
+    ],
+    "offSupportCeilingSG": 50,
+    "supportedE": [
+      54,
+      56
+    ],
+    "EgapAtLeast": 4,
+    "realConfidenceData": false
+  },
+  "invalidStaticCaps": {
+    "futureLearnedPaidTotal": 90,
+    "postFailureAdaptivePaidTotal": 70
+  },
+  "logging": {
+    "explorationFraction": 0.01,
+    "meanTV": 0.008,
+    "optimizerDensityRatio": 100,
+    "optimizerGap": 0.8
+  },
+  "checks": 8401
+}
