@@ -1,0 +1,4505 @@
+{
+  "worlds": 96,
+  "first_seed": 91000,
+  "days": 72,
+  "warmup": 12,
+  "lanes": [
+    "desk",
+    "arm",
+    "mobile"
+  ],
+  "fixed_reserve_calibration": {
+    "steady": {
+      "selected": "fill",
+      "mean_cash": {
+        "incidents": 5240.90625,
+        "reserve_1": 5345.0,
+        "reserve_2": 5430.88542,
+        "fill": 5482.16667
+      },
+      "selected_horizon": 60,
+      "horizon_mean_cash": {
+        "3": 5244.32292,
+        "12": 5444.625,
+        "36": 5647.21875,
+        "60": 5654.125
+      }
+    },
+    "expensive": {
+      "selected": "incidents",
+      "mean_cash": {
+        "incidents": 4962.80208,
+        "reserve_1": 4953.58333,
+        "reserve_2": 4850.90625,
+        "fill": 4694.66667
+      },
+      "selected_horizon": 60,
+      "horizon_mean_cash": {
+        "3": 4869.77083,
+        "12": 4929.07292,
+        "36": 5107.29167,
+        "60": 5160.19792
+      }
+    },
+    "flip": {
+      "selected": "reserve_2",
+      "mean_cash": {
+        "incidents": 4605.48958,
+        "reserve_1": 4637.5,
+        "reserve_2": 4658.38542,
+        "fill": 4642.16667
+      },
+      "selected_horizon": 60,
+      "horizon_mean_cash": {
+        "3": 4607.23958,
+        "12": 4727.91667,
+        "36": 4830.33333,
+        "60": 4831.72917
+      }
+    }
+  },
+  "means": {
+    "incidents": {
+      "cash": 5223.48438,
+      "tickets": 156.8125,
+      "updates": 156.8125,
+      "native_updates": 45.0,
+      "gate_incidents": 232.16667,
+      "families": 32.0,
+      "mobile_capability": 0.8496,
+      "arm_capability": 0.84694,
+      "desk_capability": 0.84997,
+      "gate_capability": 0.8447,
+      "autonomous_margin": 15.08887,
+      "mobile_pool": 1.0
+    },
+    "patched_incidents": {
+      "cash": 5307.53125,
+      "tickets": 32.0,
+      "updates": 32.0,
+      "native_updates": 45.0,
+      "gate_incidents": 32.125,
+      "families": 28.84375,
+      "mobile_capability": 0.76273,
+      "arm_capability": 0.75993,
+      "desk_capability": 0.75917,
+      "gate_capability": 0.97351,
+      "autonomous_margin": 15.5734,
+      "mobile_pool": 1.0
+    },
+    "patched_uniform": {
+      "cash": 5442.60417,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.83333,
+      "families": 31.6875,
+      "mobile_capability": 0.8481,
+      "arm_capability": 0.84687,
+      "desk_capability": 0.84839,
+      "gate_capability": 0.98433,
+      "autonomous_margin": 17.5312,
+      "mobile_pool": 1.0
+    },
+    "patched_fill": {
+      "cash": 5554.17708,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.61458,
+      "families": 31.75,
+      "mobile_capability": 0.84939,
+      "arm_capability": 0.8481,
+      "desk_capability": 0.84977,
+      "gate_capability": 0.98464,
+      "autonomous_margin": 17.56235,
+      "mobile_pool": 1.0
+    },
+    "patched_coverage": {
+      "cash": 5568.89583,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.85476,
+      "arm_capability": 0.85424,
+      "desk_capability": 0.85736,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 17.68696,
+      "mobile_pool": 1.0
+    },
+    "unpatched_coverage": {
+      "cash": 4880.89583,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 228.54167,
+      "families": 32.0,
+      "mobile_capability": 0.85529,
+      "arm_capability": 0.85461,
+      "desk_capability": 0.85845,
+      "gate_capability": 0.84819,
+      "autonomous_margin": 15.23812,
+      "mobile_pool": 1.0
+    },
+    "matched_coverage": {
+      "cash": 5255.91667,
+      "tickets": 32.0,
+      "updates": 32.0,
+      "native_updates": 45.0,
+      "gate_incidents": 31.89583,
+      "families": 32.0,
+      "mobile_capability": 0.76981,
+      "arm_capability": 0.76785,
+      "desk_capability": 0.76787,
+      "gate_capability": 0.97371,
+      "autonomous_margin": 15.72287,
+      "mobile_pool": 1.0
+    },
+    "sealed_incidents": {
+      "cash": 3726.24479,
+      "tickets": 156.8125,
+      "updates": 156.8125,
+      "native_updates": 45.0,
+      "gate_incidents": 232.16667,
+      "families": 32.0,
+      "mobile_capability": 0.61823,
+      "arm_capability": 0.62028,
+      "desk_capability": 0.61716,
+      "gate_capability": 0.8447,
+      "autonomous_margin": 11.0226,
+      "mobile_pool": 0.0
+    },
+    "sealed_patched": {
+      "cash": 4234.42708,
+      "tickets": 32.0,
+      "updates": 32.0,
+      "native_updates": 45.0,
+      "gate_incidents": 32.125,
+      "families": 28.84375,
+      "mobile_capability": 0.61823,
+      "arm_capability": 0.62028,
+      "desk_capability": 0.61716,
+      "gate_capability": 0.97351,
+      "autonomous_margin": 12.65579,
+      "mobile_pool": 0.0
+    },
+    "native_dense": {
+      "cash": 5159.73438,
+      "tickets": 156.8125,
+      "updates": 156.8125,
+      "native_updates": 180.0,
+      "gate_incidents": 232.16667,
+      "families": 32.0,
+      "mobile_capability": 0.86959,
+      "arm_capability": 0.86698,
+      "desk_capability": 0.86921,
+      "gate_capability": 0.8447,
+      "autonomous_margin": 15.4407,
+      "mobile_pool": 1.0
+    },
+    "native_dense_patched": {
+      "cash": 5429.97917,
+      "tickets": 32.0,
+      "updates": 32.0,
+      "native_updates": 180.0,
+      "gate_incidents": 32.125,
+      "families": 28.84375,
+      "mobile_capability": 0.81735,
+      "arm_capability": 0.81486,
+      "desk_capability": 0.81427,
+      "gate_capability": 0.97351,
+      "autonomous_margin": 16.69104,
+      "mobile_pool": 1.0
+    },
+    "scarce_incidents": {
+      "cash": 4870.26823,
+      "tickets": 39.14583,
+      "updates": 28.92708,
+      "native_updates": 45.0,
+      "gate_incidents": 39.39583,
+      "families": 23.69792,
+      "mobile_capability": 0.72265,
+      "arm_capability": 0.72021,
+      "desk_capability": 0.71949,
+      "gate_capability": 0.96762,
+      "autonomous_margin": 14.67291,
+      "mobile_pool": 1.0
+    },
+    "scarce_coverage": {
+      "cash": 4861.59375,
+      "tickets": 180.0,
+      "updates": 60.0,
+      "native_updates": 45.0,
+      "gate_incidents": 34.75,
+      "families": 32.0,
+      "mobile_capability": 0.77073,
+      "arm_capability": 0.77139,
+      "desk_capability": 0.77124,
+      "gate_capability": 0.97411,
+      "autonomous_margin": 15.774,
+      "mobile_pool": 1.0
+    },
+    "new_mix_incidents": {
+      "cash": 5169.54167,
+      "tickets": 33.25,
+      "updates": 33.25,
+      "native_updates": 45.0,
+      "gate_incidents": 33.38542,
+      "families": 29.33333,
+      "mobile_capability": 0.73745,
+      "arm_capability": 0.74126,
+      "desk_capability": 0.73649,
+      "gate_capability": 0.97241,
+      "autonomous_margin": 15.09164,
+      "mobile_pool": 1.0
+    },
+    "new_mix_coverage": {
+      "cash": 5543.83333,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.375,
+      "families": 32.0,
+      "mobile_capability": 0.8516,
+      "arm_capability": 0.85147,
+      "desk_capability": 0.84894,
+      "gate_capability": 0.98509,
+      "autonomous_margin": 17.60549,
+      "mobile_pool": 1.0
+    },
+    "flipped_pool": {
+      "cash": 4203.79167,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.19125,
+      "arm_capability": 0.85424,
+      "desk_capability": 0.85736,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 11.15209,
+      "mobile_pool": 1.0
+    },
+    "flipped_local": {
+      "cash": 3652.25,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.50234,
+      "arm_capability": 0.62028,
+      "desk_capability": 0.61716,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 11.65637,
+      "mobile_pool": 0.0
+    },
+    "flipped_validated": {
+      "cash": 4627.45833,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.50234,
+      "arm_capability": 0.85132,
+      "desk_capability": 0.84664,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 14.15351,
+      "mobile_pool": 0.0
+    },
+    "steady_validated": {
+      "cash": 5537.35417,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.84431,
+      "arm_capability": 0.85132,
+      "desk_capability": 0.84664,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 17.52153,
+      "mobile_pool": 0.95833
+    },
+    "steady_local": {
+      "cash": 3938.39583,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.22917,
+      "families": 32.0,
+      "mobile_capability": 0.61823,
+      "arm_capability": 0.62028,
+      "desk_capability": 0.61716,
+      "gate_capability": 0.98501,
+      "autonomous_margin": 12.79755,
+      "mobile_pool": 0.0
+    },
+    "economic_steady": {
+      "cash": 5469.5625,
+      "tickets": 46.875,
+      "updates": 46.875,
+      "native_updates": 45.0,
+      "gate_incidents": 28.91667,
+      "families": 31.78125,
+      "mobile_capability": 0.78485,
+      "arm_capability": 0.78236,
+      "desk_capability": 0.77782,
+      "gate_capability": 0.97624,
+      "autonomous_margin": 16.05284,
+      "mobile_pool": 0.98958
+    },
+    "tuned_steady": {
+      "cash": 5670.27344,
+      "tickets": 86.05208,
+      "updates": 86.05208,
+      "native_updates": 45.0,
+      "gate_incidents": 24.57292,
+      "families": 32.0,
+      "mobile_capability": 0.81737,
+      "arm_capability": 0.81697,
+      "desk_capability": 0.80924,
+      "gate_capability": 0.98019,
+      "autonomous_margin": 16.7941,
+      "mobile_pool": 0.97917
+    },
+    "fixed_steady": {
+      "cash": 5517.30208,
+      "tickets": 180.0,
+      "updates": 180.0,
+      "native_updates": 45.0,
+      "gate_incidents": 23.61458,
+      "families": 31.75,
+      "mobile_capability": 0.83908,
+      "arm_capability": 0.84226,
+      "desk_capability": 0.8369,
+      "gate_capability": 0.98464,
+      "autonomous_margin": 17.36994,
+      "mobile_pool": 0.95833
+    },
+    "economic_expensive": {
+      "cash": 4952.35417,
+      "tickets": 17.25,
+      "updates": 17.25,
+      "native_updates": 45.0,
+      "gate_incidents": 33.65625,
+      "families": 26.5625,
+      "mobile_capability": 0.74248,
+      "arm_capability": 0.73523,
+      "desk_capability": 0.72999,
+      "gate_capability": 0.97062,
+      "autonomous_margin": 15.05566,
+      "mobile_pool": 0.97917
+    },
+    "tuned_expensive": {
+      "cash": 5184.66667,
+      "tickets": 43.41667,
+      "updates": 43.41667,
+      "native_updates": 45.0,
+      "gate_incidents": 28.15625,
+      "families": 31.65625,
+      "mobile_capability": 0.78343,
+      "arm_capability": 0.77918,
+      "desk_capability": 0.77031,
+      "gate_capability": 0.97565,
+      "autonomous_margin": 15.98048,
+      "mobile_pool": 0.98958
+    },
+    "fixed_expensive": {
+      "cash": 5009.22917,
+      "tickets": 32.0,
+      "updates": 32.0,
+      "native_updates": 45.0,
+      "gate_incidents": 32.125,
+      "families": 28.84375,
+      "mobile_capability": 0.76081,
+      "arm_capability": 0.75677,
+      "desk_capability": 0.75322,
+      "gate_capability": 0.97351,
+      "autonomous_margin": 15.50979,
+      "mobile_pool": 0.98958
+    },
+    "economic_flip": {
+      "cash": 4695.29427,
+      "tickets": 46.01042,
+      "updates": 46.01042,
+      "native_updates": 45.0,
+      "gate_incidents": 28.97917,
+      "families": 31.64583,
+      "mobile_capability": 0.50029,
+      "arm_capability": 0.78108,
+      "desk_capability": 0.77665,
+      "gate_capability": 0.97612,
+      "autonomous_margin": 13.25718,
+      "mobile_pool": 0.01042
+    },
+    "tuned_flip": {
+      "cash": 4793.15625,
+      "tickets": 85.29167,
+      "updates": 85.29167,
+      "native_updates": 45.0,
+      "gate_incidents": 24.59375,
+      "families": 31.97917,
+      "mobile_capability": 0.50234,
+      "arm_capability": 0.81623,
+      "desk_capability": 0.80868,
+      "gate_capability": 0.98013,
+      "autonomous_margin": 13.69693,
+      "mobile_pool": 0.0
+    },
+    "fixed_flip": {
+      "cash": 4633.17708,
+      "tickets": 120.45833,
+      "updates": 120.45833,
+      "native_updates": 45.0,
+      "gate_incidents": 26.19792,
+      "families": 31.3125,
+      "mobile_capability": 0.49986,
+      "arm_capability": 0.81734,
+      "desk_capability": 0.81733,
+      "gate_capability": 0.98197,
+      "autonomous_margin": 13.74213,
+      "mobile_pool": 0.01042
+    }
+  },
+  "paired": {
+    "patched_incidents minus incidents": {
+      "cash": {
+        "mean": 84.04688,
+        "low": 60.88026,
+        "high": 107.21349
+      },
+      "tickets": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "updates": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -200.04167,
+        "low": -203.15154,
+        "high": -196.93179
+      },
+      "families": {
+        "mean": -3.15625,
+        "low": -3.4666,
+        "high": -2.8459
+      },
+      "mobile_capability": {
+        "mean": -0.08687,
+        "low": -0.09058,
+        "high": -0.08317
+      },
+      "arm_capability": {
+        "mean": -0.08701,
+        "low": -0.09057,
+        "high": -0.08346
+      },
+      "desk_capability": {
+        "mean": -0.09081,
+        "low": -0.09405,
+        "high": -0.08756
+      },
+      "gate_capability": {
+        "mean": 0.12882,
+        "low": 0.12716,
+        "high": 0.13047
+      },
+      "autonomous_margin": {
+        "mean": 0.48453,
+        "low": 0.41928,
+        "high": 0.54977
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "patched_coverage minus unpatched_coverage": {
+      "cash": {
+        "mean": 688.0,
+        "low": 665.22601,
+        "high": 710.77399
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -205.3125,
+        "low": -208.84073,
+        "high": -201.78427
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": -0.00052,
+        "low": -0.00349,
+        "high": 0.00244
+      },
+      "arm_capability": {
+        "mean": -0.00037,
+        "low": -0.00286,
+        "high": 0.00212
+      },
+      "desk_capability": {
+        "mean": -0.00109,
+        "low": -0.00393,
+        "high": 0.00175
+      },
+      "gate_capability": {
+        "mean": 0.13682,
+        "low": 0.1342,
+        "high": 0.13944
+      },
+      "autonomous_margin": {
+        "mean": 2.44884,
+        "low": 2.38189,
+        "high": 2.51579
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "sealed_patched minus sealed_incidents": {
+      "cash": {
+        "mean": 508.18229,
+        "low": 495.67055,
+        "high": 520.69404
+      },
+      "tickets": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "updates": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -200.04167,
+        "low": -203.15154,
+        "high": -196.93179
+      },
+      "families": {
+        "mean": -3.15625,
+        "low": -3.4666,
+        "high": -2.8459
+      },
+      "mobile_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "arm_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "desk_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_capability": {
+        "mean": 0.12882,
+        "low": 0.12716,
+        "high": 0.13047
+      },
+      "autonomous_margin": {
+        "mean": 1.63319,
+        "low": 1.60978,
+        "high": 1.6566
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "native_dense_patched minus native_dense": {
+      "cash": {
+        "mean": 270.24479,
+        "low": 249.20719,
+        "high": 291.28239
+      },
+      "tickets": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "updates": {
+        "mean": -124.8125,
+        "low": -126.23423,
+        "high": -123.39077
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -200.04167,
+        "low": -203.15154,
+        "high": -196.93179
+      },
+      "families": {
+        "mean": -3.15625,
+        "low": -3.4666,
+        "high": -2.8459
+      },
+      "mobile_capability": {
+        "mean": -0.05224,
+        "low": -0.05474,
+        "high": -0.04973
+      },
+      "arm_capability": {
+        "mean": -0.05212,
+        "low": -0.05433,
+        "high": -0.0499
+      },
+      "desk_capability": {
+        "mean": -0.05494,
+        "low": -0.05716,
+        "high": -0.05272
+      },
+      "gate_capability": {
+        "mean": 0.12882,
+        "low": 0.12716,
+        "high": 0.13047
+      },
+      "autonomous_margin": {
+        "mean": 1.25034,
+        "low": 1.20078,
+        "high": 1.29989
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "patched_coverage minus patched_incidents": {
+      "cash": {
+        "mean": 261.36458,
+        "low": 242.19326,
+        "high": 280.53591
+      },
+      "tickets": {
+        "mean": 148.0,
+        "low": 147.05457,
+        "high": 148.94543
+      },
+      "updates": {
+        "mean": 148.0,
+        "low": 147.05457,
+        "high": 148.94543
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -8.89583,
+        "low": -9.42904,
+        "high": -8.36262
+      },
+      "families": {
+        "mean": 3.15625,
+        "low": 2.8459,
+        "high": 3.4666
+      },
+      "mobile_capability": {
+        "mean": 0.09203,
+        "low": 0.08845,
+        "high": 0.09561
+      },
+      "arm_capability": {
+        "mean": 0.09431,
+        "low": 0.09076,
+        "high": 0.09786
+      },
+      "desk_capability": {
+        "mean": 0.09819,
+        "low": 0.09487,
+        "high": 0.10152
+      },
+      "gate_capability": {
+        "mean": 0.0115,
+        "low": 0.01119,
+        "high": 0.01181
+      },
+      "autonomous_margin": {
+        "mean": 2.11356,
+        "low": 2.05236,
+        "high": 2.17476
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "patched_uniform minus patched_incidents": {
+      "cash": {
+        "mean": 135.07292,
+        "low": 113.76311,
+        "high": 156.38272
+      },
+      "tickets": {
+        "mean": 148.0,
+        "low": 147.05457,
+        "high": 148.94543
+      },
+      "updates": {
+        "mean": 148.0,
+        "low": 147.05457,
+        "high": 148.94543
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -8.29167,
+        "low": -8.88927,
+        "high": -7.69406
+      },
+      "families": {
+        "mean": 2.84375,
+        "low": 2.52936,
+        "high": 3.15814
+      },
+      "mobile_capability": {
+        "mean": 0.08537,
+        "low": 0.08162,
+        "high": 0.08912
+      },
+      "arm_capability": {
+        "mean": 0.08694,
+        "low": 0.0828,
+        "high": 0.09108
+      },
+      "desk_capability": {
+        "mean": 0.08922,
+        "low": 0.08534,
+        "high": 0.0931
+      },
+      "gate_capability": {
+        "mean": 0.01082,
+        "low": 0.0105,
+        "high": 0.01114
+      },
+      "autonomous_margin": {
+        "mean": 1.95781,
+        "low": 1.8922,
+        "high": 2.02341
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "patched_coverage minus patched_fill": {
+      "cash": {
+        "mean": 14.71875,
+        "low": -2.82249,
+        "high": 32.25999
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -0.38542,
+        "low": -0.90978,
+        "high": 0.13894
+      },
+      "families": {
+        "mean": 0.25,
+        "low": 0.15373,
+        "high": 0.34627
+      },
+      "mobile_capability": {
+        "mean": 0.00537,
+        "low": 0.0025,
+        "high": 0.00824
+      },
+      "arm_capability": {
+        "mean": 0.00614,
+        "low": 0.00341,
+        "high": 0.00886
+      },
+      "desk_capability": {
+        "mean": 0.00759,
+        "low": 0.00467,
+        "high": 0.01051
+      },
+      "gate_capability": {
+        "mean": 0.00038,
+        "low": 0.00011,
+        "high": 0.00064
+      },
+      "autonomous_margin": {
+        "mean": 0.12461,
+        "low": 0.07438,
+        "high": 0.17483
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "patched_coverage minus patched_uniform": {
+      "cash": {
+        "mean": 126.29167,
+        "low": 107.54413,
+        "high": 145.0392
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -0.60417,
+        "low": -1.17625,
+        "high": -0.03209
+      },
+      "families": {
+        "mean": 0.3125,
+        "low": 0.20269,
+        "high": 0.42231
+      },
+      "mobile_capability": {
+        "mean": 0.00666,
+        "low": 0.00362,
+        "high": 0.00971
+      },
+      "arm_capability": {
+        "mean": 0.00737,
+        "low": 0.00447,
+        "high": 0.01027
+      },
+      "desk_capability": {
+        "mean": 0.00897,
+        "low": 0.00578,
+        "high": 0.01216
+      },
+      "gate_capability": {
+        "mean": 0.00068,
+        "low": 0.0004,
+        "high": 0.00096
+      },
+      "autonomous_margin": {
+        "mean": 0.15575,
+        "low": 0.10182,
+        "high": 0.20969
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "matched_coverage minus patched_incidents": {
+      "cash": {
+        "mean": -51.61458,
+        "low": -66.81341,
+        "high": -36.41576
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -0.22917,
+        "low": -0.67927,
+        "high": 0.22094
+      },
+      "families": {
+        "mean": 3.15625,
+        "low": 2.8459,
+        "high": 3.4666
+      },
+      "mobile_capability": {
+        "mean": 0.00707,
+        "low": 0.00489,
+        "high": 0.00926
+      },
+      "arm_capability": {
+        "mean": 0.00792,
+        "low": 0.00553,
+        "high": 0.01031
+      },
+      "desk_capability": {
+        "mean": 0.0087,
+        "low": 0.0059,
+        "high": 0.0115
+      },
+      "gate_capability": {
+        "mean": 0.0002,
+        "low": -4e-05,
+        "high": 0.00043
+      },
+      "autonomous_margin": {
+        "mean": 0.14947,
+        "low": 0.11147,
+        "high": 0.18748
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "scarce_coverage minus scarce_incidents": {
+      "cash": {
+        "mean": -8.67448,
+        "low": -27.87154,
+        "high": 10.52258
+      },
+      "tickets": {
+        "mean": 140.85417,
+        "low": 139.83004,
+        "high": 141.8783
+      },
+      "updates": {
+        "mean": 31.07292,
+        "low": 30.37375,
+        "high": 31.77208
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -4.64583,
+        "low": -5.31529,
+        "high": -3.97638
+      },
+      "families": {
+        "mean": 8.30208,
+        "low": 7.88639,
+        "high": 8.71778
+      },
+      "mobile_capability": {
+        "mean": 0.04809,
+        "low": 0.04478,
+        "high": 0.05139
+      },
+      "arm_capability": {
+        "mean": 0.05118,
+        "low": 0.04757,
+        "high": 0.0548
+      },
+      "desk_capability": {
+        "mean": 0.05175,
+        "low": 0.04868,
+        "high": 0.05481
+      },
+      "gate_capability": {
+        "mean": 0.00648,
+        "low": 0.00611,
+        "high": 0.00685
+      },
+      "autonomous_margin": {
+        "mean": 1.10109,
+        "low": 1.04955,
+        "high": 1.15263
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "new_mix_coverage minus new_mix_incidents": {
+      "cash": {
+        "mean": 374.29167,
+        "low": 350.97737,
+        "high": 397.60597
+      },
+      "tickets": {
+        "mean": 146.75,
+        "low": 145.75761,
+        "high": 147.74239
+      },
+      "updates": {
+        "mean": 146.75,
+        "low": 145.75761,
+        "high": 147.74239
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -10.01042,
+        "low": -10.7055,
+        "high": -9.31533
+      },
+      "families": {
+        "mean": 2.66667,
+        "low": 2.40118,
+        "high": 2.93216
+      },
+      "mobile_capability": {
+        "mean": 0.11415,
+        "low": 0.10926,
+        "high": 0.11904
+      },
+      "arm_capability": {
+        "mean": 0.11022,
+        "low": 0.10581,
+        "high": 0.11462
+      },
+      "desk_capability": {
+        "mean": 0.11245,
+        "low": 0.10745,
+        "high": 0.11744
+      },
+      "gate_capability": {
+        "mean": 0.01269,
+        "low": 0.01232,
+        "high": 0.01305
+      },
+      "autonomous_margin": {
+        "mean": 2.51384,
+        "low": 2.43633,
+        "high": 2.59135
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "flipped_validated minus flipped_pool": {
+      "cash": {
+        "mean": 423.66667,
+        "low": 403.91709,
+        "high": 443.41625
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": 0.31109,
+        "low": 0.30671,
+        "high": 0.31547
+      },
+      "arm_capability": {
+        "mean": -0.00292,
+        "low": -0.00864,
+        "high": 0.0028
+      },
+      "desk_capability": {
+        "mean": -0.01073,
+        "low": -0.0211,
+        "high": -0.00035
+      },
+      "gate_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "autonomous_margin": {
+        "mean": 3.00143,
+        "low": 2.92875,
+        "high": 3.07411
+      },
+      "mobile_pool": {
+        "mean": -1.0,
+        "low": -1.0,
+        "high": -1.0
+      }
+    },
+    "flipped_validated minus flipped_local": {
+      "cash": {
+        "mean": 975.20833,
+        "low": 948.53787,
+        "high": 1001.87879
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "arm_capability": {
+        "mean": 0.23103,
+        "low": 0.22502,
+        "high": 0.23705
+      },
+      "desk_capability": {
+        "mean": 0.22948,
+        "low": 0.21907,
+        "high": 0.23988
+      },
+      "gate_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "autonomous_margin": {
+        "mean": 2.49715,
+        "low": 2.4374,
+        "high": 2.55689
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "steady_validated minus patched_coverage": {
+      "cash": {
+        "mean": -31.54167,
+        "low": -42.99345,
+        "high": -20.08988
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": -0.01045,
+        "low": -0.02056,
+        "high": -0.00034
+      },
+      "arm_capability": {
+        "mean": -0.00292,
+        "low": -0.00864,
+        "high": 0.0028
+      },
+      "desk_capability": {
+        "mean": -0.01073,
+        "low": -0.0211,
+        "high": -0.00035
+      },
+      "gate_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "autonomous_margin": {
+        "mean": -0.16543,
+        "low": -0.27756,
+        "high": -0.05331
+      },
+      "mobile_pool": {
+        "mean": -0.04167,
+        "low": -0.08185,
+        "high": -0.00148
+      }
+    },
+    "flipped_pool minus flipped_local": {
+      "cash": {
+        "mean": 551.54167,
+        "low": 527.22314,
+        "high": 575.86019
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": -0.31109,
+        "low": -0.31547,
+        "high": -0.30671
+      },
+      "arm_capability": {
+        "mean": 0.23395,
+        "low": 0.23016,
+        "high": 0.23775
+      },
+      "desk_capability": {
+        "mean": 0.2402,
+        "low": 0.23608,
+        "high": 0.24432
+      },
+      "gate_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "autonomous_margin": {
+        "mean": -0.50428,
+        "low": -0.55435,
+        "high": -0.45422
+      },
+      "mobile_pool": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "patched_coverage minus steady_local": {
+      "cash": {
+        "mean": 1630.5,
+        "low": 1602.99107,
+        "high": 1658.00893
+      },
+      "tickets": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "families": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "mobile_capability": {
+        "mean": 0.23653,
+        "low": 0.23253,
+        "high": 0.24053
+      },
+      "arm_capability": {
+        "mean": 0.23395,
+        "low": 0.23016,
+        "high": 0.23775
+      },
+      "desk_capability": {
+        "mean": 0.2402,
+        "low": 0.23608,
+        "high": 0.24432
+      },
+      "gate_capability": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "autonomous_margin": {
+        "mean": 4.88941,
+        "low": 4.82791,
+        "high": 4.9509
+      },
+      "mobile_pool": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0
+      }
+    },
+    "economic_steady minus fixed_steady": {
+      "cash": {
+        "mean": -47.73958,
+        "low": -65.98522,
+        "high": -29.49395
+      },
+      "tickets": {
+        "mean": -133.125,
+        "low": -134.12342,
+        "high": -132.12658
+      },
+      "updates": {
+        "mean": -133.125,
+        "low": -134.12342,
+        "high": -132.12658
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 5.30208,
+        "low": 4.75281,
+        "high": 5.85136
+      },
+      "families": {
+        "mean": 0.03125,
+        "low": -0.10319,
+        "high": 0.16569
+      },
+      "mobile_capability": {
+        "mean": -0.05423,
+        "low": -0.06312,
+        "high": -0.04534
+      },
+      "arm_capability": {
+        "mean": -0.0599,
+        "low": -0.06556,
+        "high": -0.05424
+      },
+      "desk_capability": {
+        "mean": -0.05908,
+        "low": -0.06859,
+        "high": -0.04958
+      },
+      "gate_capability": {
+        "mean": -0.0084,
+        "low": -0.00867,
+        "high": -0.00812
+      },
+      "autonomous_margin": {
+        "mean": -1.3171,
+        "low": -1.42802,
+        "high": -1.20618
+      },
+      "mobile_pool": {
+        "mean": 0.03125,
+        "low": -0.00374,
+        "high": 0.06624
+      }
+    },
+    "economic_expensive minus fixed_expensive": {
+      "cash": {
+        "mean": -56.875,
+        "low": -69.06174,
+        "high": -44.68826
+      },
+      "tickets": {
+        "mean": -14.75,
+        "low": -15.48715,
+        "high": -14.01285
+      },
+      "updates": {
+        "mean": -14.75,
+        "low": -15.48715,
+        "high": -14.01285
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 1.53125,
+        "low": 1.2055,
+        "high": 1.857
+      },
+      "families": {
+        "mean": -2.28125,
+        "low": -2.56815,
+        "high": -1.99435
+      },
+      "mobile_capability": {
+        "mean": -0.01832,
+        "low": -0.02163,
+        "high": -0.01502
+      },
+      "arm_capability": {
+        "mean": -0.02154,
+        "low": -0.02442,
+        "high": -0.01866
+      },
+      "desk_capability": {
+        "mean": -0.02323,
+        "low": -0.02805,
+        "high": -0.01841
+      },
+      "gate_capability": {
+        "mean": -0.00289,
+        "low": -0.00308,
+        "high": -0.00271
+      },
+      "autonomous_margin": {
+        "mean": -0.45413,
+        "low": -0.50464,
+        "high": -0.40362
+      },
+      "mobile_pool": {
+        "mean": -0.01042,
+        "low": -0.03083,
+        "high": 0.01
+      }
+    },
+    "economic_flip minus fixed_flip": {
+      "cash": {
+        "mean": 62.11719,
+        "low": 46.15072,
+        "high": 78.08365
+      },
+      "tickets": {
+        "mean": -74.44792,
+        "low": -75.43044,
+        "high": -73.4654
+      },
+      "updates": {
+        "mean": -74.44792,
+        "low": -75.43044,
+        "high": -73.4654
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 2.78125,
+        "low": 2.29887,
+        "high": 3.26363
+      },
+      "families": {
+        "mean": 0.33333,
+        "low": 0.16492,
+        "high": 0.50175
+      },
+      "mobile_capability": {
+        "mean": 0.00043,
+        "low": -0.00041,
+        "high": 0.00127
+      },
+      "arm_capability": {
+        "mean": -0.03627,
+        "low": -0.04271,
+        "high": -0.02982
+      },
+      "desk_capability": {
+        "mean": -0.04068,
+        "low": -0.04779,
+        "high": -0.03356
+      },
+      "gate_capability": {
+        "mean": -0.00584,
+        "low": -0.00612,
+        "high": -0.00556
+      },
+      "autonomous_margin": {
+        "mean": -0.48494,
+        "low": -0.53983,
+        "high": -0.43006
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "tuned_steady minus fixed_steady": {
+      "cash": {
+        "mean": 152.97135,
+        "low": 134.7212,
+        "high": 171.22151
+      },
+      "tickets": {
+        "mean": -93.94792,
+        "low": -94.83514,
+        "high": -93.06069
+      },
+      "updates": {
+        "mean": -93.94792,
+        "low": -94.83514,
+        "high": -93.06069
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": 0.95833,
+        "low": 0.35581,
+        "high": 1.56085
+      },
+      "families": {
+        "mean": 0.25,
+        "low": 0.15373,
+        "high": 0.34627
+      },
+      "mobile_capability": {
+        "mean": -0.02172,
+        "low": -0.02911,
+        "high": -0.01432
+      },
+      "arm_capability": {
+        "mean": -0.0253,
+        "low": -0.03101,
+        "high": -0.01959
+      },
+      "desk_capability": {
+        "mean": -0.02766,
+        "low": -0.03553,
+        "high": -0.0198
+      },
+      "gate_capability": {
+        "mean": -0.00444,
+        "low": -0.00473,
+        "high": -0.00416
+      },
+      "autonomous_margin": {
+        "mean": -0.57584,
+        "low": -0.67412,
+        "high": -0.47756
+      },
+      "mobile_pool": {
+        "mean": 0.02083,
+        "low": -0.00789,
+        "high": 0.04955
+      }
+    },
+    "tuned_expensive minus fixed_expensive": {
+      "cash": {
+        "mean": 175.4375,
+        "low": 157.38648,
+        "high": 193.48852
+      },
+      "tickets": {
+        "mean": 11.41667,
+        "low": 10.56219,
+        "high": 12.27114
+      },
+      "updates": {
+        "mean": 11.41667,
+        "low": 10.56219,
+        "high": 12.27114
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -3.96875,
+        "low": -4.37349,
+        "high": -3.56401
+      },
+      "families": {
+        "mean": 2.8125,
+        "low": 2.52035,
+        "high": 3.10465
+      },
+      "mobile_capability": {
+        "mean": 0.02262,
+        "low": 0.02023,
+        "high": 0.02502
+      },
+      "arm_capability": {
+        "mean": 0.02241,
+        "low": 0.01863,
+        "high": 0.02619
+      },
+      "desk_capability": {
+        "mean": 0.01709,
+        "low": 0.01102,
+        "high": 0.02316
+      },
+      "gate_capability": {
+        "mean": 0.00214,
+        "low": 0.00192,
+        "high": 0.00236
+      },
+      "autonomous_margin": {
+        "mean": 0.47069,
+        "low": 0.41684,
+        "high": 0.52455
+      },
+      "mobile_pool": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "tuned_flip minus fixed_flip": {
+      "cash": {
+        "mean": 159.97917,
+        "low": 141.00623,
+        "high": 178.95211
+      },
+      "tickets": {
+        "mean": -35.16667,
+        "low": -36.11329,
+        "high": -34.22005
+      },
+      "updates": {
+        "mean": -35.16667,
+        "low": -36.11329,
+        "high": -34.22005
+      },
+      "native_updates": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "gate_incidents": {
+        "mean": -1.60417,
+        "low": -2.23973,
+        "high": -0.9686
+      },
+      "families": {
+        "mean": 0.66667,
+        "low": 0.50858,
+        "high": 0.82476
+      },
+      "mobile_capability": {
+        "mean": 0.00248,
+        "low": -0.00238,
+        "high": 0.00734
+      },
+      "arm_capability": {
+        "mean": -0.00111,
+        "low": -0.00771,
+        "high": 0.00549
+      },
+      "desk_capability": {
+        "mean": -0.00865,
+        "low": -0.01401,
+        "high": -0.00329
+      },
+      "gate_capability": {
+        "mean": -0.00183,
+        "low": -0.00213,
+        "high": -0.00153
+      },
+      "autonomous_margin": {
+        "mean": -0.0452,
+        "low": -0.11964,
+        "high": 0.02925
+      },
+      "mobile_pool": {
+        "mean": -0.01042,
+        "low": -0.03083,
+        "high": 0.01
+      }
+    }
+  },
+  "learning_paths": {
+    "incidents": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.745,
+          0.74323,
+          0.74625
+        ],
+        "autonomous_orders": [
+          0.55665,
+          0.55459,
+          0.55894
+        ],
+        "gate": 0.73902,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78926,
+          0.78794,
+          0.79057
+        ],
+        "autonomous_orders": [
+          0.622,
+          0.6219,
+          0.62553
+        ],
+        "gate": 0.78466,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.81718,
+          0.81618,
+          0.8187
+        ],
+        "autonomous_orders": [
+          0.66427,
+          0.66508,
+          0.66908
+        ],
+        "gate": 0.8119,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84997,
+          0.84694,
+          0.8496
+        ],
+        "autonomous_orders": [
+          0.71849,
+          0.71562,
+          0.72056
+        ],
+        "gate": 0.8447,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "patched_incidents": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.69245,
+          0.69394,
+          0.69411
+        ],
+        "autonomous_orders": [
+          0.67111,
+          0.67263,
+          0.67285
+        ],
+        "gate": 0.96804,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.71365,
+          0.71687,
+          0.71676
+        ],
+        "autonomous_orders": [
+          0.69278,
+          0.69609,
+          0.69594
+        ],
+        "gate": 0.96982,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.72973,
+          0.73365,
+          0.73508
+        ],
+        "autonomous_orders": [
+          0.70925,
+          0.71332,
+          0.71469
+        ],
+        "gate": 0.97119,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.75917,
+          0.75993,
+          0.76273
+        ],
+        "autonomous_orders": [
+          0.73954,
+          0.74043,
+          0.74322
+        ],
+        "gate": 0.97351,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "patched_uniform": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74124,
+          0.7407,
+          0.74
+        ],
+        "autonomous_orders": [
+          0.72242,
+          0.72192,
+          0.72109
+        ],
+        "gate": 0.97334,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78416,
+          0.78449,
+          0.78451
+        ],
+        "autonomous_orders": [
+          0.76739,
+          0.76774,
+          0.76781
+        ],
+        "gate": 0.97775,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.81292,
+          0.81221,
+          0.81345
+        ],
+        "autonomous_orders": [
+          0.79773,
+          0.79708,
+          0.79835
+        ],
+        "gate": 0.98068,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84839,
+          0.84687,
+          0.8481
+        ],
+        "autonomous_orders": [
+          0.83537,
+          0.83401,
+          0.83516
+        ],
+        "gate": 0.98433,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "patched_fill": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74267,
+          0.74164,
+          0.74143
+        ],
+        "autonomous_orders": [
+          0.72394,
+          0.72294,
+          0.72262
+        ],
+        "gate": 0.97356,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78658,
+          0.78629,
+          0.78681
+        ],
+        "autonomous_orders": [
+          0.76993,
+          0.76969,
+          0.77025
+        ],
+        "gate": 0.97805,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.81463,
+          0.81376,
+          0.8153
+        ],
+        "autonomous_orders": [
+          0.79956,
+          0.79876,
+          0.80033
+        ],
+        "gate": 0.98096,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84977,
+          0.8481,
+          0.84939
+        ],
+        "autonomous_orders": [
+          0.83691,
+          0.83544,
+          0.83667
+        ],
+        "gate": 0.98464,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "patched_coverage": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.75451,
+          0.753,
+          0.75113
+        ],
+        "autonomous_orders": [
+          0.73537,
+          0.73377,
+          0.73212
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.79798,
+          0.79594,
+          0.79498
+        ],
+        "autonomous_orders": [
+          0.78106,
+          0.77902,
+          0.7781
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.82596,
+          0.82225,
+          0.82201
+        ],
+        "autonomous_orders": [
+          0.81076,
+          0.80704,
+          0.80673
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.85736,
+          0.85424,
+          0.85476
+        ],
+        "autonomous_orders": [
+          0.84458,
+          0.84147,
+          0.84184
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "unpatched_coverage": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.7539,
+          0.75149,
+          0.75075
+        ],
+        "autonomous_orders": [
+          0.56261,
+          0.56013,
+          0.56092
+        ],
+        "gate": 0.74477,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.79653,
+          0.79366,
+          0.79259
+        ],
+        "autonomous_orders": [
+          0.62714,
+          0.62475,
+          0.62425
+        ],
+        "gate": 0.78713,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.82516,
+          0.82271,
+          0.82294
+        ],
+        "autonomous_orders": [
+          0.67173,
+          0.67039,
+          0.67159
+        ],
+        "gate": 0.81511,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.85845,
+          0.85461,
+          0.85529
+        ],
+        "autonomous_orders": [
+          0.72829,
+          0.72385,
+          0.7258
+        ],
+        "gate": 0.84819,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "matched_coverage": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.69876,
+          0.69945,
+          0.69936
+        ],
+        "autonomous_orders": [
+          0.67718,
+          0.67791,
+          0.678
+        ],
+        "gate": 0.96854,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.72284,
+          0.72432,
+          0.72402
+        ],
+        "autonomous_orders": [
+          0.7016,
+          0.70308,
+          0.70298
+        ],
+        "gate": 0.97035,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.74121,
+          0.74205,
+          0.7425
+        ],
+        "autonomous_orders": [
+          0.72036,
+          0.72121,
+          0.72178
+        ],
+        "gate": 0.97169,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.76787,
+          0.76785,
+          0.76981
+        ],
+        "autonomous_orders": [
+          0.74771,
+          0.74768,
+          0.74982
+        ],
+        "gate": 0.97371,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "sealed_incidents": {
+      "12": {
+        "capability": [
+          0.52729,
+          0.52892,
+          0.52715
+        ],
+        "autonomous_orders": [
+          0.34691,
+          0.34957,
+          0.34939
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.55089,
+          0.55505,
+          0.54821
+        ],
+        "autonomous_orders": [
+          0.4087,
+          0.41142,
+          0.40749
+        ],
+        "gate": 0.73902,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.5699,
+          0.57573,
+          0.56895
+        ],
+        "autonomous_orders": [
+          0.44829,
+          0.45376,
+          0.44919
+        ],
+        "gate": 0.78466,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.5882,
+          0.59288,
+          0.58871
+        ],
+        "autonomous_orders": [
+          0.4782,
+          0.48348,
+          0.4813
+        ],
+        "gate": 0.8119,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.61716,
+          0.62028,
+          0.61823
+        ],
+        "autonomous_orders": [
+          0.52262,
+          0.52507,
+          0.52566
+        ],
+        "gate": 0.8447,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "sealed_patched": {
+      "12": {
+        "capability": [
+          0.52729,
+          0.52892,
+          0.52715
+        ],
+        "autonomous_orders": [
+          0.34691,
+          0.34957,
+          0.34939
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.55089,
+          0.55505,
+          0.54821
+        ],
+        "autonomous_orders": [
+          0.53338,
+          0.53751,
+          0.53085
+        ],
+        "gate": 0.96804,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.5699,
+          0.57573,
+          0.56895
+        ],
+        "autonomous_orders": [
+          0.55283,
+          0.55867,
+          0.55197
+        ],
+        "gate": 0.96982,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.5882,
+          0.59288,
+          0.58871
+        ],
+        "autonomous_orders": [
+          0.57138,
+          0.57619,
+          0.57203
+        ],
+        "gate": 0.97119,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.61716,
+          0.62028,
+          0.61823
+        ],
+        "autonomous_orders": [
+          0.60101,
+          0.60423,
+          0.60221
+        ],
+        "gate": 0.97351,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "native_dense": {
+      "12": {
+        "capability": [
+          0.69378,
+          0.69103,
+          0.69684
+        ],
+        "autonomous_orders": [
+          0.46437,
+          0.46387,
+          0.46975
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.7729,
+          0.76999,
+          0.77423
+        ],
+        "autonomous_orders": [
+          0.57684,
+          0.57381,
+          0.57918
+        ],
+        "gate": 0.73902,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.81504,
+          0.81297,
+          0.81578
+        ],
+        "autonomous_orders": [
+          0.64171,
+          0.64129,
+          0.64504
+        ],
+        "gate": 0.78466,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.84055,
+          0.83957,
+          0.84178
+        ],
+        "autonomous_orders": [
+          0.68295,
+          0.68388,
+          0.68765
+        ],
+        "gate": 0.8119,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.86921,
+          0.86698,
+          0.86959
+        ],
+        "autonomous_orders": [
+          0.73465,
+          0.73252,
+          0.73744
+        ],
+        "gate": 0.8447,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "native_dense_patched": {
+      "12": {
+        "capability": [
+          0.69378,
+          0.69103,
+          0.69684
+        ],
+        "autonomous_orders": [
+          0.46437,
+          0.46387,
+          0.46975
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.73526,
+          0.73417,
+          0.73579
+        ],
+        "autonomous_orders": [
+          0.71245,
+          0.71145,
+          0.71313
+        ],
+        "gate": 0.96804,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.76287,
+          0.7635,
+          0.76459
+        ],
+        "autonomous_orders": [
+          0.74039,
+          0.74122,
+          0.74221
+        ],
+        "gate": 0.96982,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.78343,
+          0.78519,
+          0.78676
+        ],
+        "autonomous_orders": [
+          0.76125,
+          0.76327,
+          0.76473
+        ],
+        "gate": 0.97119,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.81427,
+          0.81486,
+          0.81735
+        ],
+        "autonomous_orders": [
+          0.79304,
+          0.79378,
+          0.79624
+        ],
+        "gate": 0.97351,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "scarce_incidents": {
+      "12": {
+        "capability": [
+          0.58348,
+          0.58448,
+          0.58593
+        ],
+        "autonomous_orders": [
+          0.33644,
+          0.33957,
+          0.34023
+        ],
+        "gate": 0.56791,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.62351,
+          0.62563,
+          0.62428
+        ],
+        "autonomous_orders": [
+          0.59903,
+          0.60138,
+          0.5999
+        ],
+        "gate": 0.95965,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.656,
+          0.65939,
+          0.65821
+        ],
+        "autonomous_orders": [
+          0.63188,
+          0.63555,
+          0.63422
+        ],
+        "gate": 0.96223,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.67945,
+          0.68367,
+          0.68471
+        ],
+        "autonomous_orders": [
+          0.65571,
+          0.66022,
+          0.66123
+        ],
+        "gate": 0.96422,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.71949,
+          0.72021,
+          0.72265
+        ],
+        "autonomous_orders": [
+          0.69688,
+          0.69767,
+          0.70017
+        ],
+        "gate": 0.96762,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "scarce_coverage": {
+      "12": {
+        "capability": [
+          0.58348,
+          0.58448,
+          0.58593
+        ],
+        "autonomous_orders": [
+          0.33644,
+          0.33957,
+          0.34023
+        ],
+        "gate": 0.56791,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.65017,
+          0.65249,
+          0.64744
+        ],
+        "autonomous_orders": [
+          0.62615,
+          0.62841,
+          0.62354
+        ],
+        "gate": 0.96236,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.69636,
+          0.69781,
+          0.69488
+        ],
+        "autonomous_orders": [
+          0.67317,
+          0.67457,
+          0.67181
+        ],
+        "gate": 0.96653,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.72765,
+          0.72829,
+          0.72679
+        ],
+        "autonomous_orders": [
+          0.70563,
+          0.7062,
+          0.70497
+        ],
+        "gate": 0.96963,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.77124,
+          0.77139,
+          0.77073
+        ],
+        "autonomous_orders": [
+          0.75129,
+          0.75144,
+          0.75088
+        ],
+        "gate": 0.97411,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "new_mix_incidents": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.69245,
+          0.69394,
+          0.69411
+        ],
+        "autonomous_orders": [
+          0.67111,
+          0.67263,
+          0.67285
+        ],
+        "gate": 0.96804,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.71365,
+          0.71687,
+          0.71676
+        ],
+        "autonomous_orders": [
+          0.69278,
+          0.69609,
+          0.69594
+        ],
+        "gate": 0.96982,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.70206,
+          0.70697,
+          0.70329
+        ],
+        "autonomous_orders": [
+          0.68112,
+          0.68599,
+          0.68218
+        ],
+        "gate": 0.96925,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.73649,
+          0.74126,
+          0.73745
+        ],
+        "autonomous_orders": [
+          0.71665,
+          0.72155,
+          0.71742
+        ],
+        "gate": 0.97241,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "new_mix_coverage": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.75451,
+          0.753,
+          0.75113
+        ],
+        "autonomous_orders": [
+          0.73537,
+          0.73377,
+          0.73212
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.79798,
+          0.79594,
+          0.79498
+        ],
+        "autonomous_orders": [
+          0.78106,
+          0.77902,
+          0.7781
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.81674,
+          0.82013,
+          0.81765
+        ],
+        "autonomous_orders": [
+          0.80155,
+          0.80503,
+          0.80245
+        ],
+        "gate": 0.98145,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84894,
+          0.85147,
+          0.8516
+        ],
+        "autonomous_orders": [
+          0.83624,
+          0.83889,
+          0.83883
+        ],
+        "gate": 0.98509,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "flipped_pool": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.75451,
+          0.753,
+          0.75113
+        ],
+        "autonomous_orders": [
+          0.73537,
+          0.73377,
+          0.73212
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.79798,
+          0.79594,
+          0.79498
+        ],
+        "autonomous_orders": [
+          0.78106,
+          0.77902,
+          0.7781
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.82596,
+          0.82225,
+          0.19904
+        ],
+        "autonomous_orders": [
+          0.81076,
+          0.80704,
+          0.19535
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.85736,
+          0.85424,
+          0.19125
+        ],
+        "autonomous_orders": [
+          0.84458,
+          0.84147,
+          0.18835
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "flipped_local": {
+      "12": {
+        "capability": [
+          0.52729,
+          0.52892,
+          0.52715
+        ],
+        "autonomous_orders": [
+          0.34691,
+          0.34957,
+          0.34939
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.55089,
+          0.55505,
+          0.54821
+        ],
+        "autonomous_orders": [
+          0.53688,
+          0.54084,
+          0.53428
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.5699,
+          0.57573,
+          0.56895
+        ],
+        "autonomous_orders": [
+          0.55785,
+          0.5635,
+          0.55686
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.5882,
+          0.59288,
+          0.45861
+        ],
+        "autonomous_orders": [
+          0.57742,
+          0.58192,
+          0.4501
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.61716,
+          0.62028,
+          0.50234
+        ],
+        "autonomous_orders": [
+          0.60799,
+          0.61101,
+          0.49474
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "flipped_validated": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74537,
+          0.74658,
+          0.73982
+        ],
+        "autonomous_orders": [
+          0.72648,
+          0.7275,
+          0.72108
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.94792
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78917,
+          0.78862,
+          0.79277
+        ],
+        "autonomous_orders": [
+          0.77243,
+          0.77187,
+          0.77594
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.82596,
+          0.82225,
+          0.44541
+        ],
+        "autonomous_orders": [
+          0.81076,
+          0.80704,
+          0.43712
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          1.0,
+          1.0,
+          0.05208
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84664,
+          0.85132,
+          0.50234
+        ],
+        "autonomous_orders": [
+          0.83401,
+          0.83859,
+          0.49474
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          0.95833,
+          0.98958,
+          0.0
+        ]
+      }
+    },
+    "steady_validated": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74537,
+          0.74658,
+          0.73982
+        ],
+        "autonomous_orders": [
+          0.72648,
+          0.7275,
+          0.72108
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.94792
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78917,
+          0.78862,
+          0.79277
+        ],
+        "autonomous_orders": [
+          0.77243,
+          0.77187,
+          0.77594
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.82596,
+          0.82225,
+          0.82201
+        ],
+        "autonomous_orders": [
+          0.81076,
+          0.80704,
+          0.80673
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.84664,
+          0.85132,
+          0.84431
+        ],
+        "autonomous_orders": [
+          0.83401,
+          0.83859,
+          0.83154
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          0.95833,
+          0.98958,
+          0.95833
+        ]
+      }
+    },
+    "steady_local": {
+      "12": {
+        "capability": [
+          0.52729,
+          0.52892,
+          0.52715
+        ],
+        "autonomous_orders": [
+          0.34691,
+          0.34957,
+          0.34939
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.55089,
+          0.55505,
+          0.54821
+        ],
+        "autonomous_orders": [
+          0.53688,
+          0.54084,
+          0.53428
+        ],
+        "gate": 0.97444,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "36": {
+        "capability": [
+          0.5699,
+          0.57573,
+          0.56895
+        ],
+        "autonomous_orders": [
+          0.55785,
+          0.5635,
+          0.55686
+        ],
+        "gate": 0.97872,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "48": {
+        "capability": [
+          0.5882,
+          0.59288,
+          0.58871
+        ],
+        "autonomous_orders": [
+          0.57742,
+          0.58192,
+          0.57775
+        ],
+        "gate": 0.9815,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.61716,
+          0.62028,
+          0.61823
+        ],
+        "autonomous_orders": [
+          0.60799,
+          0.61101,
+          0.60885
+        ],
+        "gate": 0.98501,
+        "pooled": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "economic_steady": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.71504,
+          0.72024,
+          0.7152
+        ],
+        "autonomous_orders": [
+          0.69489,
+          0.70019,
+          0.69553
+        ],
+        "gate": 0.97154,
+        "pooled": [
+          0.95833,
+          0.95833,
+          0.92708
+        ]
+      },
+      "36": {
+        "capability": [
+          0.74167,
+          0.74469,
+          0.74827
+        ],
+        "autonomous_orders": [
+          0.72201,
+          0.72528,
+          0.72899
+        ],
+        "gate": 0.97342,
+        "pooled": [
+          0.97917,
+          0.96875,
+          0.97917
+        ]
+      },
+      "48": {
+        "capability": [
+          0.75585,
+          0.76119,
+          0.76707
+        ],
+        "autonomous_orders": [
+          0.73665,
+          0.74218,
+          0.74819
+        ],
+        "gate": 0.97462,
+        "pooled": [
+          0.97917,
+          0.97917,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.77782,
+          0.78236,
+          0.78485
+        ],
+        "autonomous_orders": [
+          0.75932,
+          0.76402,
+          0.76674
+        ],
+        "gate": 0.97624,
+        "pooled": [
+          0.97917,
+          0.98958,
+          0.98958
+        ]
+      }
+    },
+    "tuned_steady": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74093,
+          0.74822,
+          0.74583
+        ],
+        "autonomous_orders": [
+          0.72192,
+          0.72946,
+          0.72742
+        ],
+        "gate": 0.97442,
+        "pooled": [
+          0.95833,
+          0.95833,
+          0.9375
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78299,
+          0.79119,
+          0.79816
+        ],
+        "autonomous_orders": [
+          0.76582,
+          0.77425,
+          0.78144
+        ],
+        "gate": 0.97839,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.80199,
+          0.80665,
+          0.81231
+        ],
+        "autonomous_orders": [
+          0.78514,
+          0.79013,
+          0.79604
+        ],
+        "gate": 0.97938,
+        "pooled": [
+          0.98958,
+          0.98958,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.80924,
+          0.81697,
+          0.81737
+        ],
+        "autonomous_orders": [
+          0.79293,
+          0.80087,
+          0.80163
+        ],
+        "gate": 0.98019,
+        "pooled": [
+          0.96875,
+          0.98958,
+          0.97917
+        ]
+      }
+    },
+    "fixed_steady": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.73684,
+          0.73437,
+          0.72074
+        ],
+        "autonomous_orders": [
+          0.71824,
+          0.71582,
+          0.7024
+        ],
+        "gate": 0.97356,
+        "pooled": [
+          0.96875,
+          0.95833,
+          0.90625
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78191,
+          0.77719,
+          0.78229
+        ],
+        "autonomous_orders": [
+          0.76536,
+          0.76077,
+          0.76583
+        ],
+        "gate": 0.97805,
+        "pooled": [
+          0.97917,
+          0.95833,
+          0.97917
+        ]
+      },
+      "48": {
+        "capability": [
+          0.80982,
+          0.81152,
+          0.8153
+        ],
+        "autonomous_orders": [
+          0.79483,
+          0.79656,
+          0.80033
+        ],
+        "gate": 0.98096,
+        "pooled": [
+          0.97917,
+          0.98958,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.8369,
+          0.84226,
+          0.83908
+        ],
+        "autonomous_orders": [
+          0.82425,
+          0.8297,
+          0.82651
+        ],
+        "gate": 0.98464,
+        "pooled": [
+          0.94792,
+          0.97917,
+          0.95833
+        ]
+      }
+    },
+    "economic_expensive": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.67568,
+          0.68038,
+          0.68105
+        ],
+        "autonomous_orders": [
+          0.65411,
+          0.65905,
+          0.65983
+        ],
+        "gate": 0.96732,
+        "pooled": [
+          0.92708,
+          0.9375,
+          0.94792
+        ]
+      },
+      "36": {
+        "capability": [
+          0.69865,
+          0.70293,
+          0.70548
+        ],
+        "autonomous_orders": [
+          0.67691,
+          0.68176,
+          0.68431
+        ],
+        "gate": 0.96846,
+        "pooled": [
+          0.98958,
+          0.96875,
+          0.97917
+        ]
+      },
+      "48": {
+        "capability": [
+          0.71418,
+          0.71783,
+          0.72081
+        ],
+        "autonomous_orders": [
+          0.69241,
+          0.69685,
+          0.69994
+        ],
+        "gate": 0.9694,
+        "pooled": [
+          1.0,
+          0.97917,
+          0.97917
+        ]
+      },
+      "72": {
+        "capability": [
+          0.72999,
+          0.73523,
+          0.74248
+        ],
+        "autonomous_orders": [
+          0.70837,
+          0.7146,
+          0.722
+        ],
+        "gate": 0.97062,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.97917
+        ]
+      }
+    },
+    "tuned_expensive": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.72762,
+          0.73408,
+          0.73317
+        ],
+        "autonomous_orders": [
+          0.70796,
+          0.71464,
+          0.71414
+        ],
+        "gate": 0.97301,
+        "pooled": [
+          0.95833,
+          0.95833,
+          0.9375
+        ]
+      },
+      "36": {
+        "capability": [
+          0.74751,
+          0.75401,
+          0.7609
+        ],
+        "autonomous_orders": [
+          0.72815,
+          0.73505,
+          0.74206
+        ],
+        "gate": 0.97436,
+        "pooled": [
+          0.96875,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.761,
+          0.76552,
+          0.77278
+        ],
+        "autonomous_orders": [
+          0.74168,
+          0.74674,
+          0.75413
+        ],
+        "gate": 0.97498,
+        "pooled": [
+          0.98958,
+          0.97917,
+          1.0
+        ]
+      },
+      "72": {
+        "capability": [
+          0.77031,
+          0.77918,
+          0.78343
+        ],
+        "autonomous_orders": [
+          0.75114,
+          0.76063,
+          0.76515
+        ],
+        "gate": 0.97565,
+        "pooled": [
+          0.96875,
+          0.98958,
+          0.98958
+        ]
+      }
+    },
+    "fixed_expensive": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.68624,
+          0.68512,
+          0.68547
+        ],
+        "autonomous_orders": [
+          0.66509,
+          0.66403,
+          0.66444
+        ],
+        "gate": 0.96804,
+        "pooled": [
+          0.95833,
+          0.9375,
+          0.94792
+        ]
+      },
+      "36": {
+        "capability": [
+          0.71222,
+          0.71124,
+          0.71312
+        ],
+        "autonomous_orders": [
+          0.69139,
+          0.6906,
+          0.69239
+        ],
+        "gate": 0.96982,
+        "pooled": [
+          0.98958,
+          0.95833,
+          0.97917
+        ]
+      },
+      "48": {
+        "capability": [
+          0.7268,
+          0.7307,
+          0.73331
+        ],
+        "autonomous_orders": [
+          0.7064,
+          0.71044,
+          0.71296
+        ],
+        "gate": 0.97119,
+        "pooled": [
+          0.97917,
+          0.97917,
+          0.98958
+        ]
+      },
+      "72": {
+        "capability": [
+          0.75322,
+          0.75677,
+          0.76081
+        ],
+        "autonomous_orders": [
+          0.73374,
+          0.73735,
+          0.74134
+        ],
+        "gate": 0.97351,
+        "pooled": [
+          0.95833,
+          0.97917,
+          0.98958
+        ]
+      }
+    },
+    "economic_flip": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.71504,
+          0.72024,
+          0.7152
+        ],
+        "autonomous_orders": [
+          0.69489,
+          0.70019,
+          0.69553
+        ],
+        "gate": 0.97154,
+        "pooled": [
+          0.95833,
+          0.95833,
+          0.92708
+        ]
+      },
+      "36": {
+        "capability": [
+          0.74167,
+          0.74469,
+          0.74827
+        ],
+        "autonomous_orders": [
+          0.72201,
+          0.72528,
+          0.72899
+        ],
+        "gate": 0.97342,
+        "pooled": [
+          0.97917,
+          0.96875,
+          0.97917
+        ]
+      },
+      "48": {
+        "capability": [
+          0.75552,
+          0.76082,
+          0.4346
+        ],
+        "autonomous_orders": [
+          0.7363,
+          0.74179,
+          0.42367
+        ],
+        "gate": 0.97457,
+        "pooled": [
+          0.97917,
+          0.97917,
+          0.13542
+        ]
+      },
+      "72": {
+        "capability": [
+          0.77665,
+          0.78108,
+          0.50029
+        ],
+        "autonomous_orders": [
+          0.75812,
+          0.76271,
+          0.48858
+        ],
+        "gate": 0.97612,
+        "pooled": [
+          0.97917,
+          0.98958,
+          0.01042
+        ]
+      }
+    },
+    "tuned_flip": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.74093,
+          0.74822,
+          0.74583
+        ],
+        "autonomous_orders": [
+          0.72192,
+          0.72946,
+          0.72742
+        ],
+        "gate": 0.97442,
+        "pooled": [
+          0.95833,
+          0.95833,
+          0.9375
+        ]
+      },
+      "36": {
+        "capability": [
+          0.78299,
+          0.79119,
+          0.79816
+        ],
+        "autonomous_orders": [
+          0.76582,
+          0.77425,
+          0.78144
+        ],
+        "gate": 0.97839,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.80152,
+          0.80606,
+          0.44829
+        ],
+        "autonomous_orders": [
+          0.78465,
+          0.7895,
+          0.43926
+        ],
+        "gate": 0.97933,
+        "pooled": [
+          0.98958,
+          0.98958,
+          0.04167
+        ]
+      },
+      "72": {
+        "capability": [
+          0.80868,
+          0.81623,
+          0.50234
+        ],
+        "autonomous_orders": [
+          0.79235,
+          0.8001,
+          0.49268
+        ],
+        "gate": 0.98013,
+        "pooled": [
+          0.96875,
+          0.98958,
+          0.0
+        ]
+      }
+    },
+    "fixed_flip": {
+      "12": {
+        "capability": [
+          0.66406,
+          0.66424,
+          0.66747
+        ],
+        "autonomous_orders": [
+          0.44552,
+          0.44683,
+          0.45091
+        ],
+        "gate": 0.65921,
+        "pooled": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "24": {
+        "capability": [
+          0.7166,
+          0.71524,
+          0.7088
+        ],
+        "autonomous_orders": [
+          0.69708,
+          0.69577,
+          0.68951
+        ],
+        "gate": 0.97158,
+        "pooled": [
+          0.95833,
+          0.94792,
+          0.92708
+        ]
+      },
+      "36": {
+        "capability": [
+          0.75523,
+          0.75775,
+          0.76204
+        ],
+        "autonomous_orders": [
+          0.73741,
+          0.73986,
+          0.74422
+        ],
+        "gate": 0.9755,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.98958
+        ]
+      },
+      "48": {
+        "capability": [
+          0.78588,
+          0.78524,
+          0.43639
+        ],
+        "autonomous_orders": [
+          0.7693,
+          0.76866,
+          0.4268
+        ],
+        "gate": 0.97821,
+        "pooled": [
+          0.97917,
+          0.97917,
+          0.10417
+        ]
+      },
+      "72": {
+        "capability": [
+          0.81733,
+          0.81734,
+          0.49986
+        ],
+        "autonomous_orders": [
+          0.80292,
+          0.80301,
+          0.49094
+        ],
+        "gate": 0.98197,
+        "pooled": [
+          0.95833,
+          0.96875,
+          0.01042
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-full-stack-hour-20261120.
+Handoff ID: recursive-firm-fleet-learning-dynamics-20261120.
+
+## Deployment changes the fleet's next training set
+
+Amar put feedback dynamics, embedded learning, cross-embodiment transfer and fleet scaling at the center of the independent Recursive Firm Theory branch. The [fleet learning study](research/recursive_firm/learning_dynamics/README.md) extends branch head `127130c5ac2b6c5eb638f3d62cc1d2e5ede1d897`. The primary evidence and ownership questions are distinct. Scoped reuse of records constrains the learning system. Customer negotiation remains a secondary historical thread.
+
+The study derives a conditional deployment-time exponent from the useful-evidence arrival process, distinguishes independent environments from duplicated fleet experience and shows how qualifying a new task can open its own data supply. A reanalysis of 42 published physical-robot scores tests models of data volume and diversity on held-out breadths. In 96 synthetic digital and physical fleets, a routing patch raised routing capability from 84.47% to 97.35%. Mobile skill trailed its unpatched counterfactual by 8.69 points when corrections came only through routing incidents. Model-based data acquisition with an independently selected horizon beat a calibrated fixed reserve on in-window contribution in three specified environments, and a shorter horizon lost in two. An independent review-interval Bellman solution checks when delayed validation ceases to pay for updating the allocation mandate. The [fleet settlement](research/recursive_firm/learning_dynamics/fleet_results.json) and [scaling results](research/recursive_firm/learning_dynamics/scaling_results.json) report assumptions, baselines and outcomes. Ten new regression checks pass.
+
+**Next branch study.** Allocate a finite validation and post-training budget across a changing graph of digital and physical skills. Let agents open, repair and retire transfer links. Compare adaptive rules with independently selected steady rules and a standing sample that survives reductions in incidents. Price the cost of discovering each link, and report case diversity and whole-order economics as well as per-task capability.
 
 ## Full-stack firms, competing data licenses and the marginal operator-hour
 
