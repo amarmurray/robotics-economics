@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-opening-experiments-20261120.
+Handoff ID: recursive-firm-full-stack-hour-20261120.
+
+## Full-stack firms, competing data licenses and the marginal operator-hour
+
+The [research study](research/recursive_firm/stack/README.md) extends the independent Recursive Firm Theory branch from `732e7bf507c30ed301c14929fe5bb907389937ae`. The executable environment covers digital work, plant and mobile robots, data-poor and data-rich deployments, source-specific licenses, opportunities to retrofit or bypass a bottleneck, and authority to act across firms. The first-hour shadow value is the optimized contribution with an hour minus the optimized contribution without one. The fixture lowers this price in 64 of 128 sensitivity cases and raises it in 22. With matched rights, timely integrated dispatch, a complete independent contract and a jointly empowered coalition earn 56.47 in the reference economy. Per-case signatures earn 54.076. An unused competing license offer cuts the preferred seller's payment by 3.02 without changing production. Capturing only half of the downstream gain changes the purchased license.
+
+The [economic accounts](research/recursive_firm/stack/results.json) separate actual resource costs, transfers, the local output vector and fleet contribution. In the [nested training study](research/recursive_firm/stack/nested_results.json), the economic Q allocator beats the lowest-accuracy rule in 12 of 12 matched training comparisons and the best tested repeating schedule in four. Twelve targeted tests pass. The runs use symbolic digital and physical policies, synthetic customer work and finite-action benchmarks.
+
+**Next branch study.** Make customer entry, service/retention offers and continued cooperation endogenous after an unlisted shock. Compare full residual claims with supplier/deployer specialization and transferable agreements. Track who changes a rule, who funds adaptation and the value of an additional hour at the same orders and equipment. The broad production program has its own research queue.
 
 ## Private returns, the installed base and research budgets
 
