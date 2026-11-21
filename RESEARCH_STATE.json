@@ -2,15 +2,14 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "0ea572e238040388c855ba5141769336dcc43395",
+  "research_input_commit": "4c39ae66b5e2d8014676dd493550e882ddc48e36",
   "lease": {
-    "run_id": "research-20261121T033208946Z-dispatch-calibration",
+    "run_id": "research-20261121T043432467Z-original-service-sufficiency",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-21T03:32:08.946Z",
-    "expires_at_utc": "2026-11-21T04:27:08.946Z",
-    "reason": "Published and checked qualification-weighted original buyer source/G/E/R dispatch theorem with finite exhaustive decision and independent exact-rational verification; no real robot or customer evidence.",
-    "released_at_utc": "2026-11-21T03:36:47.652Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-21T04:34:32.467Z",
+    "expires_at_utc": "2026-11-21T05:24:32.467Z",
+    "reason": "Scoped original-customer decision sufficiency and value-of-evidence theory; no field access, no unrelated branch writes."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
