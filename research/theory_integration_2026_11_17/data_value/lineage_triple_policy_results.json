@@ -1,0 +1,75 @@
+{
+  "status": "synthetic conditional exact model; no causal learner or paid production observations",
+  "fixed_assumptions": {
+    "signal_wrong_marginal": "1/4",
+    "signal_pair_wrong": "1/16",
+    "posterior_prior": "1/2 per customer regime",
+    "qualified_correct_capture": "12",
+    "wrong_but_fallback_capture": "2",
+    "source_X_cost": "1/4",
+    "grounding_G_accuracy": "7/8",
+    "grounding_G_cost": "1/4",
+    "certified_generalist_E_net": "10",
+    "old_one_signal_net": "19/2"
+  },
+  "sharp_t_range": [
+    "0",
+    "1/16"
+  ],
+  "posterior_correct_range": [
+    "13/16",
+    "15/16"
+  ],
+  "source_X_net_range": [
+    "79/8",
+    "89/8"
+  ],
+  "grounding_G_net": "21/2",
+  "x_minus_g_range": [
+    "-5/8",
+    "5/8"
+  ],
+  "crossing_t": "1/32",
+  "independent_errors_t": "1/64",
+  "independent_errors_x_net": "163/16",
+  "endpoint_prior_equal_value_of_perfect_triple_audit": "5/16",
+  "audit_requirements": "same-target paired triple outcomes and true regime; independently supported physically signed complete production policy and original buyer payment needed for applied J",
+  "exhaustive_laws": 17,
+  "deterministic_3_signal_policies_per_law": 256,
+  "policy_evaluations": 4352,
+  "integer_assertions": 4543,
+  "selected_cases": [
+    {
+      "k": 0,
+      "triple_all_wrong_fraction": "0/256",
+      "optimal_accuracy_fraction": "208/256",
+      "x_net_fraction": "1264/128",
+      "x_minus_g_fraction": "-80/128",
+      "preferred": "G"
+    },
+    {
+      "k": 4,
+      "triple_all_wrong_fraction": "4/256",
+      "optimal_accuracy_fraction": "216/256",
+      "x_net_fraction": "1304/128",
+      "x_minus_g_fraction": "-40/128",
+      "preferred": "G"
+    },
+    {
+      "k": 8,
+      "triple_all_wrong_fraction": "8/256",
+      "optimal_accuracy_fraction": "224/256",
+      "x_net_fraction": "1344/128",
+      "x_minus_g_fraction": "0/128",
+      "preferred": "tie"
+    },
+    {
+      "k": 16,
+      "triple_all_wrong_fraction": "16/256",
+      "optimal_accuracy_fraction": "240/256",
+      "x_net_fraction": "1424/128",
+      "x_minus_g_fraction": "80/128",
+      "preferred": "X"
+    }
+  ]
+}

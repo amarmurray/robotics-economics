@@ -1,0 +1,13 @@
+# Instructor-only solutions — joint lineage, information and qualified production
+
+Keep distinct from [student problems](SOURCE_LINEAGE_EXERCISES.md).
+
+1. Per bit-pattern masses for 0,1,2,3 errors are respectively \(7/16-t,\ 1/8+t,\ 1/16-t,\ t\), with the middle entries each repeated three times. Their total is one; nonnegative exactly when \(0\le t\le1/16\). The one-way and pairway moments are respectively 1/4 and 1/16 throughout. Full conditional independence gives \(t=(1/4)^3=1/64\), and is not implied by pairwise independence.
+
+2. Condition on a three-report pattern. Unanimous reports favor the unanimous regime because \(7/16-t\ge t\). A two-to-one report favors its majority because \(1/8+t\ge1/16-t\). Both inequalities hold on the feasible interval. Correct majority selection is 0 or 1 errors, with probability \(7/16-t+3(1/8+t)=13/16+2t\), sharp range [13/16,15/16].
+
+3. \(J_X=2+10(13/16+2t)-1/4=79/8+20t\). Because G dominates the original weaker independent report in conflicts, \(J_G=2+10(7/8)-1/4=21/2\). X−G=\(20t-5/8\), so X is favored exactly if \(t>1/32\). At t=0 G wins (10.5 versus 9.875); at t=1/16 X wins (11.125 versus 10.5); E=10 and the retained original policy=9.5 in both. This only values stipulated, fully qualified captured service, not technical scores in observed dollars. If X and G could be combined without displacement, add that feasible arm before optimizing.
+
+4. \(\hat t\) is the share of **independent target clusters** for which all three reports are wrong; under independent Bernoulli cluster draws, \(\lvert\hat t-t\rvert\le\sqrt{\log(2/\delta)/(2n)}\) with probability at least \(1-\delta\). Clipping to [0,1/16] requires the other law restrictions to hold. Major violations: duplicated targets/controller interference, no true regime/qualified-service labels, nonstationarity/unsupported target states, lack of signed physical service policies, unknown original buyer payment, selective missing predictions, joint capacity/rights omissions. An interval crossing 1/32 supports neither X nor G robustly.
+
+5. For any strategy that was feasible before observing optional signal Y, the expanded observation strategy may ignore Y and implement that old strategy; taking a maximum over the expanded set cannot be lower. This is a fixed information/physical action environment. Forced training can displace the former checkpoint or consume compute, rights or production time and so may lower net contribution. Error dependence or predictive mutual information has zero production decision value if only R is legally/physically feasible and it has the same payoff in each regime. The Blackwell/EVSI logic is established prior art, not independently novel.
