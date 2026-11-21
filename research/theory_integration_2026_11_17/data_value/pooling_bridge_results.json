@@ -1,0 +1,33 @@
+{
+  "schema": "synthetic-conditional-v1",
+  "exact_integer_gain_scenarios": 16,
+  "checks": 36,
+  "isolated_gap": 0,
+  "pooled_gap_world_A": 1,
+  "pooled_gap_world_B": -1,
+  "pooled_optional_gain_range": [
+    0,
+    1
+  ],
+  "synthetic_gain_interval": [
+    -2,
+    4
+  ],
+  "synthetic_certified_interval": [
+    3.25,
+    6.25
+  ],
+  "cut_edge_sensitivity": [
+    10,
+    12
+  ],
+  "cut_total_bound": 22,
+  "cut_actual_change": 15,
+  "global_cascade_for_one_external_source_at_N20": 20,
+  "joint_qualification_bundle_contributions": [
+    0,
+    4
+  ],
+  "scientific_novelty_established": false,
+  "customer_data_used": false
+}
