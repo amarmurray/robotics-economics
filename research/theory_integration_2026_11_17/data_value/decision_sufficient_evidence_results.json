@@ -1,0 +1,49 @@
+{
+  "type": "conditional_synthetic_not_robotics_evidence",
+  "economic_bounds": {
+    "SG_net": [
+      -1,
+      5
+    ],
+    "E_net": [
+      3,
+      5
+    ]
+  },
+  "units": "normalized whole original-buyer accepted-paid contribution",
+  "oracle_test": "reveals exact program-average contribution, not a finite sample",
+  "randomized_cluster_menu": {
+    "no_test_worst_regret": "3/2",
+    "SG_joint_paid_oracle_worst_regret": "1/2",
+    "E_whole_program_oracle_worst_regret": "4/3",
+    "SG_max_at": "4",
+    "E_max_at": "3",
+    "baseline_probability_SG": "1/4",
+    "SG_oracle_cost_ceiling_vs_none": "1",
+    "E_oracle_cost_ceiling_vs_none": "1/6",
+    "SG_minus_E_test_cost_difference_limit": "5/6"
+  },
+  "deterministic_menu": {
+    "no_test_worst_regret": "2",
+    "SG_joint_paid_oracle_worst_regret": "1",
+    "E_whole_program_oracle_worst_regret": "2"
+  },
+  "buyer_coupling_counterworlds": [
+    {
+      "p_qualified": "1/2",
+      "p_buyer_willing": "1/2",
+      "p_joint_paid": "1/2",
+      "SG_net": "5"
+    },
+    {
+      "p_qualified": "1/2",
+      "p_buyer_willing": "1/2",
+      "p_joint_paid": "0",
+      "SG_net": "-1"
+    }
+  ],
+  "checked_perfect_SG_reports": 145,
+  "checked_perfect_E_reports": 49,
+  "corner_policy_grid_checks": 291,
+  "assertions": 699
+}
