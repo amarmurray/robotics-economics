@@ -1,0 +1,62 @@
+{
+  "case": "shared-outside-opportunity approximate invariance",
+  "assumptions": "lambda_y in [0,1/2], max pairwise spread <=2epsilon; unchanged original signed A/B rewards, predecision report probabilities, fixed learner and legally permitted network menu",
+  "exact_grid_laws_evaluated": 22185,
+  "rows": [
+    {
+      "epsilon": "0",
+      "min": "1/16",
+      "max": "5/32",
+      "feasible_grid_laws": 17
+    },
+    {
+      "epsilon": "1/32",
+      "min": "1/16",
+      "max": "11/64",
+      "feasible_grid_laws": 293
+    },
+    {
+      "epsilon": "1/16",
+      "min": "1/16",
+      "max": "3/16",
+      "feasible_grid_laws": 857
+    },
+    {
+      "epsilon": "3/32",
+      "min": "1/16",
+      "max": "3/16",
+      "feasible_grid_laws": 1613
+    },
+    {
+      "epsilon": "1/8",
+      "min": "1/16",
+      "max": "3/16",
+      "feasible_grid_laws": 2465
+    },
+    {
+      "epsilon": "5/32",
+      "min": "3/64",
+      "max": "3/16",
+      "feasible_grid_laws": 3317
+    },
+    {
+      "epsilon": "3/16",
+      "min": "1/32",
+      "max": "3/16",
+      "feasible_grid_laws": 4073
+    },
+    {
+      "epsilon": "7/32",
+      "min": "1/64",
+      "max": "3/16",
+      "feasible_grid_laws": 4637
+    },
+    {
+      "epsilon": "1/4",
+      "min": "0",
+      "max": "3/16",
+      "feasible_grid_laws": 4913
+    }
+  ],
+  "status": "exact enumeration corroborates analytic constructive endpoints; synthetic only"
+}
