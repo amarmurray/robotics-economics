@@ -1,0 +1,24 @@
+# Prospective common-opportunity and signed report-value evidence audit
+
+**21 November 2026. Unpopulated research design; no approved robot/customer intervention.** Companion to [the coupled response theory](COUPLED_RESOURCE_REPORT_VALUE_AND_ECONOMIC_SUPPORT.md).
+
+## Object and falsification
+
+The primary target is not technical success: establish or reject the hypothesis that the *same one-slot legally qualified and accepted outside buyer opportunity* with actually paid contribution λ remains available across source/grounding report states for a fixed learner and fixed original service horizon. The original buyer's y1/y2/y3 outcomes, including unattempted, refused, delayed and refunded service, and the outside order must be logged **before** dispatch. An announced customer, simulated order or price quote is not an accepted-paid outside opportunity. The y-dependent counterworld λ_y=(1/2,0,0) is a prespecified negative control: it has the same separate action-margin boxes but zero refinement value.
+
+Record a versioned cohort/network key containing original customer/offer, competing original outside buyer and order/acceptance/receipt, task and predecision report, robot/controller/checkpoint, operator shift and capacity/elapsed time, signed A/B/R/E action menus, safety stop and recovery permissions, offer price/terms, action propensity (only if independently physically authorized), full accepted/refunded/collected service, and source rights/episode lineage/admission if training comparisons are involved. An outside job lost because the current buyer uses the slot is **a measured opportunity**, not automatically a real paid counterfactual. Justify bounds on its value through independent signed contracts and actually settled comparable orders; do not claim an alternative paid receipt was observed.
+
+## Identification path and model rejection
+
+1. Verify original buyer cohort denominator and immutable prechoice Y, Z; show Y did not arise after the decision or itself alter the customer offer process. Check that the same operator slot and same outside order exist at all reports.
+2. Independently verify complete A/B policy signatures and qualifications for every report, including retained R/recovery. If any necessary A/B action is unsafe or unsigned, shrink the menu; do not assign it to learn an absent counterfactual.
+3. Establish original outside-order contribution λ with collected payment net of original operating costs and refund terms. Check whether outside availability/terms/acceptance are report-conditioned, and whether operator service times are genuinely one-slot comparable. If λ varies with Y, use report-specific margins or a defensible coupled joint response polytope, not equation (5).
+4. With legal whole-network assignment support, estimate conditional complete accepted-paid m_A(y),m_B(y) including displaced original outside order, shared operator and customer effects. Supported policy experiments require a closed shared-controller/operator/customer interference cluster; per-robot propensities are insufficient.
+5. Test affine restrictions δ1+δ3=1/2 and δ2+δ3=−1/4 (equivalent to shared λ in the illustrative normalized model), with uncertainty in all measured paid outcomes. These equalities are **toy mechanism equations**, not empirical null values without mapping units and approved policies. Failure requires a larger response set; do not selectively fit a new λ.
+6. Compare the closed-network fine/coarse production policy contrast with the structural model. Separately randomize source-archive inclusion/new independent episode families, G-train and E only if approved; use whole-learner interventions and joint held-out technical qualification before original-customer service. Respect rights, training/curation and manufacturing constraints. G-observe and G-train are not interchangeable.
+
+## Decisive unknown versus imprudent measurement
+
+In the stated cost c=1/8 synthetic decision, a known stable λ would settle whether observation strictly covers cost (1/4<λ<1/2). First measure the feasibility and stability of the outside resource's paid contribution, rather than collecting more transfer benchmark rows. If a real λ/rights/signature cannot be established, no actual positive report-value or investment go/no-go claim follows. New field training, robot operations, purchases, proprietary records or outreach are **not authorized by this protocol**.
+
+This table supplies the minimal atlas edges, each marked observation versus model restriction: source report → signed joint dispatch; original buyer task → accepted paid receipt; operator slot ↔ outside original order; source lineage → training admission → joint qualification; embodiment → physical action-menu expansion. Missing numeric BEA/BLS production-edge values stay missing; do not substitute supplier announcements. All November 22/29 and December gates remain conditional and open absent evidence.

@@ -2,23 +2,24 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "0668403db38620e65743362af305901f4b7026f1",
+  "research_input_commit": "bcd10100603ab9cfef5196f82c5f71d857db1b94",
   "lease": {
     "run_id": "research-20261121T0733374-coupled-policy-regret",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-21T07:33:37.449Z",
     "expires_at_utc": "2026-11-21T08:21:37.449Z",
-    "reason": "Continue same Nov22 theory: evaluate cross-report shared capacity coupling, sharp report-value bounds and truly decisive customer policy cells; avoid adding a proxy-data premium."
+    "reason": "Published checked common outside-original-buyer opportunity coupling proof, resource-constrained signed action counterworld, exact CPU and independent Fraction verification, prospective licensed evidence protocol, separate teaching and integrated A/B synthesis. No field robot/customer results.",
+    "released_at_utc": "2026-11-21T07:38:33.335Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "November22 integrated Model A/B: action-specific accepted-paid production margins under physically signed whole-network support, with sharp partial identification of predecision source/G-observe economic report value; X archive/G-train/E are distinct total-policy treatments.",
+  "current_mode": "November22 integrated Model A/B: coupled cross-report shared scarce operator opportunity versus freely varying original buyer outside service; conditional sharp economic information value, with X/G-train/E distinct whole-policy interventions.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SIGNED_REPORT_ACTION_MARGIN_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COUPLED_RESOURCE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "The complete previous published/released state at 5525282949be9c8a915e34716bbac8bc73c6c46f is preserved as original git blob 5474e1d36f117e1db074bf9a0651d01e0e0d1431 at research/theory_integration_2026_11_17/data_value/PRE_SIGNED_REPORT_ACTION_MARGIN_STATE.json. Existing PRE_ECONOMIC_REPORT_SUFFICIENCY_STATE.json and earlier archives, original Q1-Q13 queue, main and inaccessible Codex work remain untouched.",
-  "latest_result": "21 Nov 2026 UTC: exact conditional within-fixed-learner predecision Y-vs-Z paid-service information value for signed complete A/B original buyer/operator network equals sum of min(positive and negative conditional economic action-margin mass). Under rectangle intervals on partly unsupported signed outcomes, proved sharp closed-form lower and signed-endpoint upper bounds; a forced positive and a forced negative signed action margin within one coarse cell suffice for strictly positive gross value even with other unobserved action outcomes. Three-report synthetic normalized example gives [1/16,1/4], with exact endpoint potential outcome witnesses; if common E uniformly dominates, full-menu value zero and existing E=10 investment dominance unchanged. For arbitrary finite signed whole-network policy sets and compact polytopic response restrictions, derived exact sharp lower/upper envelopes as finite LP families. Pure JS source executed 3,375 interval boxes, 42,875 direct candidate vectors, 6,752 assertions; independent local Python enumeration corroborated. Prospective buyer signed-action evidence and separate teaching integrated into Models A/B, manuscript, program, milestones. Established decision and partial-ID mathematics, not field robot effect or verified independent novelty. Actual signed policies, original paid receipts, transfer and quantitative BEA/BLS numeric flows remain absent; Nov22 science OPEN; final Dec25 23:59 Eastern unchanged.",
+  "preservation": "Previous released research state at 441c80efda45502487c2b32a2a4ed3a272bf1aba preserved exactly as Git blob 65bcc5991356b9d0982b2492dda77581602a3dcf in PRE_COUPLED_RESOURCE_STATE.json; prior active expired lease state at 0668403db38620e65743362af305901f4b7026f1 preserved as blob 2426099fe0f84b29137ea81d67dcea3e97d3bc1d in PRE_EXPIRED_RESOURCE_LEASE_STATE.json. The prior owner lease expired before CAS acquisition; no later head work existed to reconcile. Earlier preserved states, original backlog, main and inaccessible Codex remain unchanged.",
+  "latest_result": "21 Nov 2026 UTC: derived coupled affine shared-capacity action-margin polytope theory, with sharp value upper LP per sign region and minimum at a sign-region vertex. The same hypothetical signed original-buyer A/B whole-network policy and report distribution, with one outside paid-service opportunity common across report states, yields sharp fixed-learner report value [1/16,5/32], versus rectangular [0,3/16]. Individually neither y1 nor y3 is forced strictly A-positive, yet the common opportunity forces at least one A-positive report; negative y2 persists. Report-conditioned outside opportunity destroys the certificate (L=0). Observation cost 1/8 is strictly covered iff 1/4<lambda<1/2 in this example; source X/G-train/E effects remain separate dynamic J estimands. Pure JS executed 33 common-parameter grids, 35,937 rectangle worlds, 73 exact assertions; independent Python Fraction check repeated all cases. Published proof, protocol, teaching and integrated manuscript/Nov22 synthesis. No field original-buyer paid comparator or signed robotics policies, no official quantitative BEA/BLS edge, independent novelty or full repo CI. Nov22 scientific gate OPEN; Dec25 23:59 Eastern unchanged.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -300,17 +301,17 @@
     }
   },
   "read_next": [
-    "research/theory_integration_2026_11_17/data_value/SIGNED_ACTION_MARGIN_SUPPORT_AND_REPORT_VALUE.md",
-    "research/theory_integration_2026_11_17/data_value/SIGNED_ACTION_MARGIN_EVIDENCE_PROTOCOL.md",
-    "research/theory_integration_2026_11_17/data_value/report_value_support_bounds.js",
-    "research/theory_integration_2026_11_17/data_value/report_value_support_bounds_results.json",
-    "research/theory_integration_2026_11_17/data_value/report_value_support_independent.py",
+    "research/theory_integration_2026_11_17/data_value/COUPLED_RESOURCE_REPORT_VALUE_AND_ECONOMIC_SUPPORT.md",
+    "research/theory_integration_2026_11_17/data_value/COUPLED_RESOURCE_EVIDENCE_PROTOCOL.md",
+    "research/theory_integration_2026_11_17/data_value/coupled_resource_report_value.js",
+    "research/theory_integration_2026_11_17/data_value/coupled_resource_report_value_results.json",
+    "research/theory_integration_2026_11_17/data_value/coupled_resource_report_value_independent.py",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_SIGNED_REPORT_ACTION_MARGIN_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_COUPLED_RESOURCE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
@@ -461,7 +462,7 @@
   },
   "publication_parent_commit": "90b379088788ec6bb0d0d886c51582b6e1d03670",
   "current_proof_gap": "No actual signed report-specific A/B/E/R qualified paid outcome response vector, natural original-buyer order/refusal/receipt cohort, or cluster-level action support. Conditional Jensen value is theoretically exact but empirically uncalibrated. New source/G-train/E change learner/menu and are not free Blackwell refinements; Nov22 Model A/B gate remains open.",
-  "exact_next_action": "Specify empirically defensible cross-report/cluster coupled response restrictions beyond rectangularity and evaluate the *economically decisive* licensed original-buyer action cells via robust multi-action LP; then distinguish G-observe common-experiment identification from X archive/new independent episodes, G-train and E total-policy effects on joint qualified and paid service. Keep production-network/demand/manufacturing/rights, 22 Nov scientific gate review, and official BEA/BLS numerical atlas only from actual quantitative primary retrieval.",
+  "exact_next_action": "At Nov22 synthesis gate reconcile common-λ report-response restriction with production LP dual/primal basis stability and report-induced original buyer demand; specify lawful evidence that distinguishes report-invariant outside capacity from the λ_y negative control. Extend to signed multi-action network polytopes only if it adds explanatory/decision power. Continue distinct X existing archive vs new episodes, G-observe vs G-train, E manufacturing whole-network joint qualification/accepted paid original service, resource prices, transfer and rights, plus actual quantitative official BEA/BLS route when retrieved. Hold scientific gate open and preserve Dec25 2026 23:59 Eastern.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -479,7 +480,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-21T07:33:37.449Z",
+  "updated_at_utc": "2026-11-21T07:38:33.335Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -497,8 +498,8 @@
     "independent_peer_review": false
   },
   "exact_question": "For an original-buyer/robot/operator network with known predecision source/target reports, what signed action-specific paid-service contrasts are economically sufficient to value extra information when counterfactual production is only partly observed? Which action-margin cells warrant lawful evidence acquisition versus X source training, G-grounding or E embodiment investment?",
-  "proof_gap": "Rectangular synthetic margin and finite-policy polytope envelopes are proven, but actual original-customer complete signed A/B/R/E action menus, alternative report-conditioned accepted-paid response supports, rights, natural original-buyer opportunity denominator and shared-learner/robot/operator interference are unknown. Cross-report physical dependence could invalidate rectangle sharpness; distinct X/G-train/E change kernel/menu and require separate whole-network estimates.",
-  "next_action": "Specify empirically defensible cross-report/cluster coupled response restrictions beyond rectangularity and evaluate the *economically decisive* licensed original-buyer action cells via robust multi-action LP; then distinguish G-observe common-experiment identification from X archive/new independent episodes, G-train and E total-policy effects on joint qualified and paid service. Keep production-network/demand/manufacturing/rights, 22 Nov scientific gate review, and official BEA/BLS numerical atlas only from actual quantitative primary retrieval.",
+  "proof_gap": "Common stable outside-original-buyer paid contribution is assumed rather than measured, and its feasibility, response-invariance across Y, policy signatures, original buyer natural denominator and shared-controller/operator interference are unverified. If lambda changes with Y, the positive certificate fails; real multi-action network responses and source/G-train/E total effects remain unidentified. The affine polytope LP proof is conditional and prior mathematical foundations are established.",
+  "next_action": "At Nov22 synthesis gate reconcile common-λ report-response restriction with production LP dual/primal basis stability and report-induced original buyer demand; specify lawful evidence that distinguishes report-invariant outside capacity from the λ_y negative control. Extend to signed multi-action network polytopes only if it adds explanatory/decision power. Continue distinct X existing archive vs new episodes, G-observe vs G-train, E manufacturing whole-network joint qualification/accepted paid original service, resource prices, transfer and rights, plus actual quantitative official BEA/BLS route when retrieved. Hold scientific gate open and preserve Dec25 2026 23:59 Eastern.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -564,7 +565,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "For an original-buyer/robot/operator network with known predecision source/target reports, what signed action-specific paid-service contrasts are economically sufficient to value extra information when counterfactual production is only partly observed? Which action-margin cells warrant lawful evidence acquisition versus X source training, G-grounding or E embodiment investment?",
+  "exact_intellectual_question": "Under which empirically justified common outside-original-buyer/robot/operator production restrictions do incomplete alternative signed action outcomes suffice to establish valuable source or G-observe reports? Which actual paid outside-order opportunity cell tests or rejects those cross-report restrictions?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -584,7 +585,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Specify empirically defensible cross-report/cluster coupled response restrictions beyond rectangularity and evaluate the *economically decisive* licensed original-buyer action cells via robust multi-action LP; then distinguish G-observe common-experiment identification from X archive/new independent episodes, G-train and E total-policy effects on joint qualified and paid service. Keep production-network/demand/manufacturing/rights, 22 Nov scientific gate review, and official BEA/BLS numerical atlas only from actual quantitative primary retrieval.",
+  "exact_next": "At Nov22 synthesis gate reconcile common-λ report-response restriction with production LP dual/primal basis stability and report-induced original buyer demand; specify lawful evidence that distinguishes report-invariant outside capacity from the λ_y negative control. Extend to signed multi-action network polytopes only if it adds explanatory/decision power. Continue distinct X existing archive vs new episodes, G-observe vs G-train, E manufacturing whole-network joint qualification/accepted paid original service, resource prices, transfer and rights, plus actual quantitative official BEA/BLS route when retrieved. Hold scientific gate open and preserve Dec25 2026 23:59 Eastern.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -684,7 +685,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Rectangular synthetic margin and finite-policy polytope envelopes are proven, but actual original-customer complete signed A/B/R/E action menus, alternative report-conditioned accepted-paid response supports, rights, natural original-buyer opportunity denominator and shared-learner/robot/operator interference are unknown. Cross-report physical dependence could invalidate rectangle sharpness; distinct X/G-train/E change kernel/menu and require separate whole-network estimates.",
+  "next_proof_gap": "Common stable outside-original-buyer paid contribution is assumed rather than measured, and its feasibility, response-invariance across Y, policy signatures, original buyer natural denominator and shared-controller/operator interference are unverified. If lambda changes with Y, the positive certificate fails; real multi-action network responses and source/G-train/E total effects remain unidentified. The affine polytope LP proof is conditional and prior mathematical foundations are established.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -765,7 +766,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "For an original-buyer/robot/operator network with known predecision source/target reports, what signed action-specific paid-service contrasts are economically sufficient to value extra information when counterfactual production is only partly observed? Which action-margin cells warrant lawful evidence acquisition versus X source training, G-grounding or E embodiment investment?",
+  "current_question": "Under which empirically justified common outside-original-buyer/robot/operator production restrictions do incomplete alternative signed action outcomes suffice to establish valuable source or G-observe reports? Which actual paid outside-order opportunity cell tests or rejects those cross-report restrictions?",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1352,5 +1353,26 @@
     "full_repository_CI": false,
     "independent_novelty": false,
     "nov22_scientific_gate_passed": false
+  },
+  "validation_coupled_resource_report_value": {
+    "chapter": "research/theory_integration_2026_11_17/data_value/COUPLED_RESOURCE_REPORT_VALUE_AND_ECONOMIC_SUPPORT.md",
+    "script": "research/theory_integration_2026_11_17/data_value/coupled_resource_report_value.js",
+    "record": "research/theory_integration_2026_11_17/data_value/coupled_resource_report_value_results.json",
+    "source_blob": "8108564fce9ac40d512a00ee97aeb6c6ccd5f52a",
+    "results_blob": "b29c78f0b3945b0eb156d9c82b36a3747e0cb1ca",
+    "independent_python_blob": "139786e389cc4cfda339f20984d45700385ec8f5",
+    "common_parameter_scenarios": 33,
+    "rectangular_response_worlds": 35937,
+    "exact_integer_assertions": 73,
+    "independent_python_fraction_reproduction": true,
+    "proved_condition": "conditional affine shared primitive with compact polytope, LP maxima and sign-polytope vertex minima",
+    "actual_outside_original_buyer_paid_receipt_panel": false,
+    "actually_approved_A_B_action_set": false,
+    "actual_source_transfer_effect": false,
+    "official_numerical_BEA_BLS_flow": false,
+    "full_repository_CI": false,
+    "independently_verified_novelty": false,
+    "november_22_scientific_gate": false,
+    "final_deadline": "2026-12-25T23:59:00-05:00"
   }
 }

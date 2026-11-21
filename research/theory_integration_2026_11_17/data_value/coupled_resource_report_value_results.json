@@ -1,0 +1,64 @@
+{
+  "question": "Common outside paid-service opportunity ties signed original-customer report action margins across states. Does that tighten identified economic report value?",
+  "unit": "All raw policy and report-value numerators are divided by 256 normalized captured-contribution units.",
+  "structural_model": {
+    "report_probabilities": [
+      "1/2",
+      "1/4",
+      "1/4"
+    ],
+    "lambda_range": "[0,1/2]",
+    "margins": [
+      "1/2-lambda",
+      "-1/4-lambda",
+      "lambda"
+    ],
+    "admissible_fine_rule": "A for y1/y3; B for y2",
+    "common_customer_and_operator_capacity": true
+  },
+  "results": {
+    "coupled_lower": "1/16",
+    "coupled_upper": "5/32",
+    "coupled_max_at_lambda": "3/8",
+    "rectangle_lower": "0",
+    "rectangle_upper": "3/16",
+    "noncommon_lambda_counterworld": "lambda_y=(1/2,0,0) produces zero report value",
+    "cost_1_8": "strictly covered iff 1/4<lambda<1/2; equal at endpoints 1/4 and 1/2"
+  },
+  "checks": {
+    "lambda_grid_points": 33,
+    "rectangular_vectors": 35937,
+    "exact_integer_assertions": 73,
+    "illustrative_cases": [
+      {
+        "lambda": "0/64",
+        "fine": "320/256",
+        "coarse": "304/256",
+        "value": "16/256",
+        "cost_one_eighth_decision": "does_not_cover"
+      },
+      {
+        "lambda": "16/64",
+        "fine": "352/256",
+        "coarse": "320/256",
+        "value": "32/256",
+        "cost_one_eighth_decision": "weakly_covers"
+      },
+      {
+        "lambda": "24/64",
+        "fine": "368/256",
+        "coarse": "328/256",
+        "value": "40/256",
+        "cost_one_eighth_decision": "weakly_covers"
+      },
+      {
+        "lambda": "32/64",
+        "fine": "384/256",
+        "coarse": "352/256",
+        "value": "32/256",
+        "cost_one_eighth_decision": "weakly_covers"
+      }
+    ]
+  },
+  "scope": "Hypothetical signed whole-network A/B, known report masses; no robot, accepted-paid original customer evidence or scientific novelty; fixed learner and common original outside opportunity."
+}
