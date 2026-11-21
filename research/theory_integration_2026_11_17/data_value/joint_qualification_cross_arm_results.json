@@ -1,0 +1,76 @@
+{
+  "type": "conditional_exact_model_not_empirical",
+  "denominator": 20,
+  "arms": [
+    "R",
+    "S",
+    "G",
+    "SG"
+  ],
+  "witnesses": {
+    "monotone_low": {
+      "joint_qualification_numerators_over20": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "net_SG_numerator_over20": 68,
+      "embodiment_E_numerator_over20": 80
+    },
+    "monotone_high": {
+      "joint_qualification_numerators_over20": [
+        4,
+        5,
+        5,
+        9
+      ],
+      "net_SG_numerator_over20": 100,
+      "embodiment_E_numerator_over20": 80
+    },
+    "modular_low": {
+      "joint_qualification_numerators_over20": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "net_SG_numerator_over20": 76,
+      "embodiment_E_numerator_over20": 80
+    },
+    "modular_high": {
+      "joint_qualification_numerators_over20": [
+        4,
+        5,
+        5,
+        9
+      ],
+      "net_SG_numerator_over20": 100,
+      "embodiment_E_numerator_over20": 80
+    }
+  },
+  "identified_sets": {
+    "marginal_only": "[1/5,3/5]",
+    "pathwise_task_monotone": "[1/4,9/20]",
+    "pathwise_task_modular": "[3/10,9/20]"
+  },
+  "economic": {
+    "high_SG_net": "5",
+    "modular_low_SG_net": "19/5",
+    "monotone_low_SG_net": "17/5",
+    "E_only_net": "4",
+    "bundle_gross": "6",
+    "single_slot_gross": "3/2",
+    "mixed_3_4_bundle_gross": "39/8",
+    "mixed_SG_net": "31/8"
+  },
+  "finite_response_pairs_checked": {
+    "monotone": 36,
+    "modular": 16
+  },
+  "exact_integer_assertions": 148,
+  "limitations": [
+    "Hypothetical qualification response types and signed production contributions only",
+    "No field learner, paid customer receipts, signed comparative policies, numerical industry network or independent novelty validation"
+  ]
+}
