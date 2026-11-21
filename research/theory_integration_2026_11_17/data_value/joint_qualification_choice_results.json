@@ -1,0 +1,131 @@
+{
+  "model": "hypothetical closed learner/whole network source-grounding-embodiment",
+  "scale": "all rewards and probabilities in 20ths; no real customer currency",
+  "independent_joint_marginal_bounds_twentieths": [
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      4,
+      12
+    ]
+  ],
+  "exact_feasible_integer_grid_worlds": 9801,
+  "sharp_delta_joint_twentieths": [
+    -16,
+    20
+  ],
+  "sharp_delta_gross_twentieths": [
+    -128,
+    160
+  ],
+  "cross_marginal_A_B_twentieths": 0,
+  "worlds": {
+    "complementary_lineage": {
+      "qAB_twentieths": [
+        4,
+        5,
+        5,
+        10
+      ],
+      "gross_twentieths": [
+        64,
+        80,
+        80,
+        128
+      ],
+      "net_program_twentieths": {
+        "R": 64,
+        "R+E": 80,
+        "S": 70,
+        "S+E": 70,
+        "G": 70,
+        "G+E": 70,
+        "SG": 108,
+        "SG+E": 88
+      },
+      "winner": "SG",
+      "winning_net_twentieths": 108,
+      "interaction_twentieths": 32,
+      "one_slot_interaction_twentieths": -8
+    },
+    "substitutive_lineage": {
+      "qAB_twentieths": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "gross_twentieths": [
+        64,
+        80,
+        80,
+        80
+      ],
+      "net_program_twentieths": {
+        "R": 64,
+        "R+E": 80,
+        "S": 70,
+        "S+E": 70,
+        "G": 70,
+        "G+E": 70,
+        "SG": 60,
+        "SG+E": 60
+      },
+      "winner": "R+E",
+      "winning_net_twentieths": 80,
+      "interaction_twentieths": -16,
+      "one_slot_interaction_twentieths": 4
+    }
+  },
+  "threshold_joint_q11": "13/40 (strictly above: SG beats E)",
+  "switchByQ11": [
+    [
+      4,
+      "R+E"
+    ],
+    [
+      5,
+      "R+E"
+    ],
+    [
+      6,
+      "R+E"
+    ],
+    [
+      7,
+      "SG"
+    ],
+    [
+      8,
+      "SG"
+    ],
+    [
+      9,
+      "SG"
+    ],
+    [
+      10,
+      "SG"
+    ],
+    [
+      11,
+      "SG"
+    ],
+    [
+      12,
+      "SG"
+    ]
+  ],
+  "scoped_assertions": 9826,
+  "physical_data_or_paid_receipts": false
+}
