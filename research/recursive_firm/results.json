@@ -1,0 +1,175 @@
+{
+  "settings": {
+    "gross_qualified_value": 10,
+    "real_cost": 3,
+    "dates": 3,
+    "price_cap": 8,
+    "registry_cost_per_cohort": 1,
+    "fees": [
+      3.25,
+      4.5,
+      6.0,
+      8.0
+    ],
+    "training_cohorts_per_seed": 12000,
+    "test_cohorts_per_seed": 3000,
+    "training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "held_out_world_seeds": [
+      20000,
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007
+    ]
+  },
+  "exact_at_p_quarter": {
+    "one_mature_uniform_8": {
+      "pilot": false,
+      "seller": 15.0,
+      "buyers": 6.0,
+      "joint": 21.0
+    },
+    "one_mature_best_pilot_admitting_uniform_5": {
+      "pilot": true,
+      "seller": 9.0,
+      "buyers": 15.0,
+      "joint": 24.0
+    },
+    "one_mature_verified_first_3_25_repeat_8": {
+      "pilot": true,
+      "seller": 16.75,
+      "buyers": 6.25,
+      "joint": 23.0
+    },
+    "no_mature_uniform_5": {
+      "pilot": true,
+      "seller": 3.0,
+      "buyers": 0.0,
+      "joint": 3.0
+    }
+  },
+  "learned_rules": {
+    "uniform_no_mature": {
+      "frozen_fee_pairs_first_repeat": {
+        "4.5/4.5": 8
+      },
+      "pilot_rate": 1.0,
+      "seller": 2.2523,
+      "buyers": 0.7658,
+      "joint": 3.018,
+      "joint_by_seed": [
+        2.544,
+        3.48,
+        3.192,
+        2.768,
+        2.864,
+        3.504,
+        2.992,
+        2.8
+      ]
+    },
+    "uniform_one_mature": {
+      "frozen_fee_pairs_first_repeat": {
+        "8/8": 8
+      },
+      "pilot_rate": 0.0,
+      "seller": 15.0,
+      "buyers": 6.0,
+      "joint": 21.0,
+      "joint_by_seed": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ]
+    },
+    "registry_available_one_mature": {
+      "frozen_fee_pairs_first_repeat": {
+        "3.25/8": 7,
+        "8/8": 1
+      },
+      "pilot_rate": 0.875,
+      "seller": 16.5138,
+      "buyers": 6.1943,
+      "joint": 22.708,
+      "joint_by_seed": [
+        22.544,
+        21.0,
+        23.192,
+        22.768,
+        22.864,
+        23.504,
+        22.992,
+        22.8
+      ]
+    },
+    "registry_available_unannounced_low_transfer": {
+      "frozen_fee_pairs_first_repeat": {
+        "3.25/8": 7,
+        "8/8": 1
+      },
+      "pilot_rate": 0.875,
+      "seller": 14.795,
+      "buyers": 3.788,
+      "joint": 18.583,
+      "joint_by_seed": [
+        18.056,
+        21.0,
+        18.24,
+        18.144,
+        18.24,
+        18.384,
+        18.208,
+        18.392
+      ]
+    }
+  },
+  "research_agent": {
+    "hypotheses": [
+      0.05,
+      0.25
+    ],
+    "future_sites": 10,
+    "cost_per_probe": 0.2,
+    "ordinary_incumbent_ledger_value_of_information": 0,
+    "batch_gross_gains_over_no_probe": [
+      0.0,
+      0.0,
+      0.0,
+      1.38825
+    ],
+    "no_probe": 6.0,
+    "best_fixed_batch": 6.78825,
+    "adaptive_design": 6.87175,
+    "net_gain_vs_no_probe": 0.87175,
+    "value_of_early_stopping_vs_best_batch": 0.0835,
+    "decisions": {
+      "0_success_0_failure": "probe",
+      "0_success_1_failure": "probe",
+      "0_success_2_failure": "probe",
+      "0_success_3_failure": "decline",
+      "1_success_0_failure": "deploy",
+      "1_success_1_failure": "deploy",
+      "1_success_2_failure": "deploy",
+      "2_success_0_failure": "deploy",
+      "2_success_1_failure": "deploy",
+      "3_success_0_failure": "deploy"
+    }
+  }
+}

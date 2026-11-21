@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-branch-registration-20261120.
+Handoff ID: recursive-firm-opening-experiments-20261120.
+
+## Private returns, the installed base and research budgets
+
+Branch input is the founding Recursive Firm Theory module on main at `f568518ebf0b7194db9a95dd02f4386bc42d75cc`. The [independent program](research/recursive_firm/README.md) gives two additional local studies with proof, assumptions, counterexamples and reproduction commands. In eight held-out uniform-fee evaluations the supplier with a mature customer ceased taking pilots. With verified first use, seven of eight learned the pair 3.25 then 8. The frozen rule lost value when transfer fell. In the distinct Bayesian experiment, a known fixed batch earns 6.78825 and an adaptive stopping rule earns 6.87175 against 6 for isolated authorizations. Five Python checks and two offline Counterworld harness checks passed. A provider-side commerce run needs a configured project key and verified catalog support for the native mutation. No hosted or field outcome is attributed to the local runs.
+
+**Next branch study.** Can local agents propose, accept and propagate a persistent rule for sharing the cost of discovery, using only their private evidence? Compare with an informed, equally resourced contract designer and a manager with costly amendment rights.
 
 ## Independent Recursive Firm Theory branch
 

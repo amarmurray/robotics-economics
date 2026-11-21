@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-branch-registration-20261120",
+  "snapshot_id": "recursive-firm-opening-experiments-20261120",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-branch-registration-20261120",
-      "sha256": "d72190130522238b2d32c7aa707535ffa82af48277226ffa0215791e52b006f4"
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "9b71f6dbacdbe68f28269207d2e618267daf58a33dc9e77a01a7c3e21d26f53c"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3374,6 +3374,55 @@
       "name": "recursive_firm_rl.py",
       "version": "theory-christmas-checkpoint-12",
       "sha256": "386c73e7a157b7e5336b5956e83005dfb42091df02e0b4e93e4168a29919b2a3"
+    },
+    {
+      "repository_path": "research/recursive_firm/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "24ee7f28a7d5c2e9e96bd0c367a2b02d1a2714c793794861f8d5efee896682ab"
+    },
+    {
+      "repository_path": "research/recursive_firm/counterworld.mjs",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/counterworld.mjs",
+      "name": "counterworld.mjs",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "f7c51950e397bf8f30e9594f9a6fc0880d0f2ae8712c6857cbaf9fb0dda60a05"
+    },
+    {
+      "repository_path": "research/recursive_firm/evidence_budget.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/evidence_budget.py",
+      "name": "evidence_budget.py",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "f8b6488bfaf03206fa0cd133e65d0f9e43ec2e63aba2e1fc3af99c113171bc7b"
+    },
+    {
+      "repository_path": "research/recursive_firm/pilot_market.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/pilot_market.py",
+      "name": "pilot_market.py",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "00972a993363cf51f626f0b5657939ac801f35ef661c276772a0538fcf39e343"
+    },
+    {
+      "repository_path": "research/recursive_firm/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "7d6cd817897d94c6c371411b604ea4c67e33da9f3f661383071c5dc37edd46cf"
+    },
+    {
+      "repository_path": "research/recursive_firm/test_counterworld.mjs",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/test_counterworld.mjs",
+      "name": "test_counterworld.mjs",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "145f688e7c00f860f659011fd6c891339e2b473e114f53c4e53011da7ce9f090"
+    },
+    {
+      "repository_path": "research/recursive_firm/test_experiments.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/test_experiments.py",
+      "name": "test_experiments.py",
+      "version": "recursive-firm-opening-experiments-20261120",
+      "sha256": "e2f9c81abe5baf8435e91a87f458db55b37eb635c09db2f5489e644c6477d7f2"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3638,7 +3687,9 @@
       "contract_rl": "research/contract_learning_2026_11_17/recursive_firm_rl.py",
       "status": "conditional_theory_exact_and_held_out_synthetic_checks",
       "research_branch": "research/recursive-firm-theory",
-      "branch_research_home": "https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm"
+      "branch_research_home": "https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm",
+      "branch_index": "research/recursive_firm/README.md",
+      "opening_experiment": "research/recursive_firm/results.json"
     }
   }
 }
