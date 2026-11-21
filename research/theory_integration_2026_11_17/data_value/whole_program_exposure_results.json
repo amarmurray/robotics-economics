@@ -1,0 +1,71 @@
+{
+  "kind": "synthetic_fixed_potential_outcomes_not_robotics_evidence",
+  "probability_SG": 0.5,
+  "N": 4,
+  "neighborhoods_zero_based": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "paid_contribution_units": "integer/20 per originally registered buyer unit; net program costs excluded from random variable",
+  "SG_numerators_over_20": [
+    8,
+    12,
+    18,
+    16
+  ],
+  "E_numerators_over_20": [
+    10,
+    6,
+    15,
+    13
+  ],
+  "mean_SG": "27/40",
+  "mean_E": "11/20",
+  "mean_gap": "1/8",
+  "variance_SG": "2127/1600",
+  "variance_E": "129/160",
+  "covariance_SG_E": "-33/100",
+  "variance_gap": "4473/1600",
+  "conservative_variance_bound": 16,
+  "overlapping_neighborhoods_max": 4,
+  "neighborhood_size_max": 3,
+  "assignment_states": 16,
+  "global_case": [
+    {
+      "N": 4,
+      "probability_any_full_network_exposure": 0.125,
+      "mean_assignments_until_either_full_regime": 8
+    },
+    {
+      "N": 10,
+      "probability_any_full_network_exposure": 0.001953125,
+      "mean_assignments_until_either_full_regime": 512
+    },
+    {
+      "N": 20,
+      "probability_any_full_network_exposure": 0.0000019073486328125,
+      "mean_assignments_until_either_full_regime": 524288
+    }
+  ],
+  "omitted_edge_example": {
+    "true_full_SG_mean": "1/2",
+    "misidentified_own_only_HT_expected_mean": "1/4"
+  },
+  "exact_integer_assertions": 10
+}
