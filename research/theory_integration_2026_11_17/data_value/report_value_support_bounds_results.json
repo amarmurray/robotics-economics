@@ -1,0 +1,46 @@
+{
+  "question": "Sharp missing-action support bounds on Blackwell report refinement for two signed whole-network policies, conditional on rectangular economic action-margin bounds",
+  "normalization": "p=(2,1,1)/4 and delta=a/4; outputs are numerator over 16",
+  "example": {
+    "probabilities": [
+      "1/2",
+      "1/4",
+      "1/4"
+    ],
+    "lower_delta": [
+      "1/4",
+      "-1/2",
+      "-1/2"
+    ],
+    "upper_delta": [
+      "1/2",
+      "-1/4",
+      "1/2"
+    ],
+    "lower_value": "1/16",
+    "upper_value": "1/4",
+    "lower_witness": [
+      "1/4",
+      "-1/4",
+      "0/4"
+    ],
+    "upper_witness": [
+      "2/4",
+      "-2/4",
+      "-2/4"
+    ]
+  },
+  "checks": {
+    "interval_configurations": 3375,
+    "brute_candidate_delta_vectors": 42875,
+    "exact_assertions": 6752,
+    "methods": "independent integer-grid enumeration versus analytic lower formula and signed-endpoint partition for upper"
+  },
+  "restrictions": [
+    "fictional signed two-action customer-production outcomes",
+    "rectangular independent report-cell margin restrictions",
+    "same learner, buyer/robot/operator feasibility, action menu",
+    "not identified from actual customer receipts",
+    "not a new robotics learning law"
+  ]
+}

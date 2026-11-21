@@ -1,0 +1,15 @@
+# Instructor solutions — partially identified robotics-report economics
+
+**Keep separate from** [student exercises](SIGNED_ACTION_MARGIN_EXERCISES.md). These follow the conditional signed full-network policy environment, not actual robot measurements.
+
+**1.** Write coarse-cell A-over-B advantage Δ_z=Σ_{y∈z}p_yδ_y. Fine optimal increment above B is Σ p_y(δ_y)_+; coarse optimum above B is (Δ_z)_+. Let P and N be positive and negative weighted parts. P−(P−N)_+=min(P,N). Classifier accuracy does not enter δ or action permission; if δ_y≥0 throughout each cell, L=0 regardless of prediction score.
+
+**2.** The sharp lower is min[(1/2)(1/4),(1/4)(1/4)]=1/16. To get the upper, if y3 is negative, set δ=(1/2,−1/2,−1/2): P=(1/2)(1/2)=1/4 and N=(1/4)(1/2)+(1/4)(1/2)=1/4, so L=1/4. If y3 is positive, maximum negative mass is (1/4)(1/2)=1/8; thus it cannot exceed 1/4. A lower-bound witness is δ=(1/4,−1/4,0), yielding P=1/8, N=1/16. Define m_B=1/2 and m_A=1/2+δ for each report. All means lie in [0,1]. Point-identifying y3 is unnecessary for a strictly positive two-action information value.
+
+**3.** No. With E always the optimal signed joint policy, both the fine and coarse menus choose E and the true three-action report value is zero. The two-action lower bound did not incorporate the E action and must not be added to the optimized E investment value. This is a menu-scope error, not a contradiction to Blackwell.
+
+**4.** Because min(P,N) is the minimum of two nonnegative functions, its infimum over rectangles is min(inf P,inf N); coordinate monotonicity gives the endpoint formula. For a counterexample, take two fine reports p=(1/2,1/2), individual interval δ_i∈[−1,1], but physically constrain δ_1=δ_2. The true fine-report value is always zero. Rectangular treatment permits δ=(1,−1) and reports a sharp upper of 1/2 that is false under the actual cross-report feasibility constraint.
+
+**5.** Put F_a(m)=Σ_y p_y m_{a(y),y} for a fine signed policy and C_b similarly for a coarse policy. L(m)=max_aF_a(m)−max_bC_b(m). For each coarse b solve min_{m,t} t with m in the polytope and constraints t≥F_a(m)−C_b(m) for all fine a. Take the minimum across b. For each fine a solve max_{m,t} t with constraints t≤F_a(m)−C_b(m) for all coarse b; take the maximum across a. These are exact finite LP envelopes. A shared operator requires actions to encode an entire jointly feasible assignment, not simultaneous independent services.
+
+**6.** No: [1/16,1/4] straddles c=1/8, so both positive and negative net-information scenarios are compatible with the synthetic bounds. Retain approved menu, original buyer cohort, predecision reports, shared resource state, assignments and paid/refunded receipts to tighten action margins. Sensitivity derivatives of lower/upper bound to supported cells determine the economically relevant gaps; randomly filling an unsigned action is unsafe and not admissible. New source-archive training changes controller/qualification and needs a separate network-level causal intervention, not a within-controller information gap.
