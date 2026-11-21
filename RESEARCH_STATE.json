@@ -2,23 +2,24 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "8d1e4b0b602be90e19e67ba7cd319c75fb42ab65",
+  "research_input_commit": "ad0c86f087041a6fe4534b1577b97e6c9d76e194",
   "lease": {
     "run_id": "research-20261121T023408042Z-qualification-bridge",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-21T02:34:08.042Z",
     "expires_at_utc": "2026-11-21T03:29:08.042Z",
-    "reason": "Nov22 constructive source-learning/qualified-production synthesis; no external deployment or training"
+    "reason": "Tested conditionally calibrated source information, qualified buyer production and embodiment option; no real field or novelty claim",
+    "released_at_utc": "2026-11-21T02:40:57.605Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Same Nov22 original-customer X/G/E/R model: test whether apparently independent source families have task-conditioned joint rather than only pairwise transferable information before monetizing qualified production.",
+  "current_mode": "Same November22 original-buyer source X / grounding G / embodiment E / retained R: information accuracy alone does not identify complete qualified accepted-service returns.",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SOURCE_LINEAGE_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_QUALIFICATION_GATE_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Byte-identical prior 8d1e4b0b602be90e19e67ba7cd319c75fb42ab65 released RESEARCH_STATE.json archived as PRE_SOURCE_LINEAGE_STATE.json (Git blob 325e22c8b4e3127faf6f0082ffe48650c8552439); Q1-Q13 backlog and earlier archives preserved; no main/other repo changes.",
-  "latest_result": "20 Nov Eastern: conditional source family three-signal law with wrong rate1/4 each and pair wrong1/16, yet triple wrong t sharply in [0,1/16]. Bayes majority accuracy13/16+2t; same hypothetical signed original buyer/specialist/R/E value/cost table yields source X minus target G net captured-value interval [-5/8,5/8], switch at t=1/32. Pairwise identical worlds give different investment ranking. Explicitly an information/selection channel not actual learned robot competence. Fetched Git blob and reexecuted same V8 source equal recorded results, 17 laws, 4352 deterministic rule evaluations, 4543 integer assertions; separate Python Fraction check 4 t laws. Published formal conditional proof, prospective target/lineage/learner & complete original-buyer validation, separate exercises/solutions, integrated manuscript, research program, Nov22 synthesis, milestones. No actual paired true target data, archive, source learner intervention, signed physical policy, paid service, numeric BEA edge, full CI or independent novelty. Gate OPEN.",
+  "preservation": "Prior released ad0c86f087041a6fe4534b1577b97e6c9d76e194 RESEARCH_STATE.json archived verbatim as research/theory_integration_2026_11_17/data_value/PRE_QUALIFICATION_GATE_STATE.json; prior research archives and original Q1–Q13 backlog retained. Main untouched.",
+  "latest_result": "20 Nov Eastern: derived conditional customer qualification bridge J=7/4+10[p r+ +(1-p)r-] for original X/G/R signed value table, with E=10. Common r makes X/G difference 10r(2t−1/16); perfect t-audit source investment value 0 for r<=22/25, (75r−66)/16 until r=33/35, 5r/16 afterward. At r=4/5 E dominates all signals; at r=9/10 only high-t X beats E and audit gross value 3/32. Same target signals but unequal X/G complete-service reliabilities reverse ranking. Sharp rectangular success bounds, conditional bounded-TV customer transport. Exact connected V8 20,025 integer assertions over 1001×17 cases, independently Python Fraction 1001 reliability grids; source/res record committed. Official BEA and 27 Aug 2026 BLS BEA-derived 2025 nominal IO route verified; binary download unavailable, NO numerical IO edge. No actual robot training/trial, signed original buyer paid orders, independently proven novelty or complete CI. Nov22 science open.",
   "validation": {
     "source_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/stage_screening_selection_results.json",
@@ -300,16 +301,15 @@
     }
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md",
+    "research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_EVIDENCE_PROTOCOL.md",
+    "research/theory_integration_2026_11_17/data_value/qualification_gate_value.js",
+    "research/theory_integration_2026_11_17/data_value/qualification_gate_value_results.json",
     "research/theory_integration_2026_11_17/data_value/SOURCE_LINEAGE_HIGHER_ORDER_TRANSFER_AND_ECONOMIC_DECISION.md",
-    "research/theory_integration_2026_11_17/data_value/SOURCE_LINEAGE_JOINT_PROBE_VALIDATION.md",
-    "research/theory_integration_2026_11_17/data_value/lineage_triple_policy.js",
-    "research/theory_integration_2026_11_17/data_value/lineage_triple_policy_results.json",
-    "research/theory_integration_2026_11_17/data_value/EPISODE_SUPPORT_OCCUPANCY_AND_ECONOMIC_TRANSFER.md",
-    "research/theory_integration_2026_11_17/data_value/DATA_VALUE_RESEARCH_PROGRAM.md",
     "research/theory_integration_2026_11_17/data_value/NOV22_SYNTHESIS_WORKING_DRAFT.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory/milestones.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_SOURCE_LINEAGE_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_QUALIFICATION_GATE_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
@@ -349,11 +349,11 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Continued unified X/G/E/R data-learning-economic production argument with episode-family occupancy and sharp novel-recovery support bound; context vs independent-family counterexample and proofs.",
-    "atlas": "Pinned publisher converter/runtime episode glob and processed latency-adjusted length definitions verified; true archive manifest/label semantics absent, BEA numeric original IO edge still unavailable.",
-    "paper": "Living manuscript, Nov22 synthesis, research program, theory phase and milestones linked to new constructive result; November22 scientific acceptance still open.",
-    "learning": "Exact 130 V8 rational checks across 105 balancing cases; independent Python Fraction enumeration; new distinct student/instructor packets, no field learner training.",
-    "main_contribution": "Conditional synthesis, not independent methodological novelty; real original buyer/robot/operator validation still needed."
+    "theory": "Source-target information and whole qualified-service reliability jointly determine the X/G/E/R investment; conditional embodiment dominance region established.",
+    "atlas": "Verified official 2026-08-27 BLS BEA-derived IO archive route and BEA guide; ZIP inaccessible, no actual nominal IO cell, numeric atlas not yet established.",
+    "paper": "Integrated source→qualification→customer paid service distinction in living manuscript and November22 synthesis; scientific gate open.",
+    "learning": "Exact V8 integer enumeration 20,025 checks and independent Fraction verification; separated student exercises/instructor answers.",
+    "main_contribution": "Conditional enterprise source-to-production Model A/B synthesis, not independently new statistical mathematics; no paid robotics field validation."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -438,7 +438,7 @@
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Exclusive lease acquired by state-only fast-forward CAS; publication pending tested research. Previous released state remains at parent.",
+  "execution_note": "New research and state released together after one writer compare-and-set; no main changes or new workers.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -454,10 +454,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "20 Nov: verified and published conditional higher-order source-family theory, target evidence protocol and separated learning materials; routine research increment, no notification warranted.",
+  "quiet_checkpoint": "20 Nov: substantive Model A-to-B conditional qualification calibration proof, E dominance region, executable and separate teaching published; no routine user notification.",
   "publication_parent_commit": "dfb74d02d061e4fc19436b75def85deb64912bd2",
   "current_proof_gap": "Actual source episode lineages and three-way target-conditioned errors are not measured; pairwise error or sampler admission data cannot determine source transfer. No authorized causal whole-learner source inclusion/grounding/embodiment comparison, jointly qualified customer service or physically signed original buyer/operator/receipt network has been obtained. Binary signal-selector t theorem cannot be transported to real learning-generated Q without a justified observation kernel. Numerical BEA–BLS production flow, full repository CI and independent review outstanding.",
-  "exact_next_action": "Acquire read-only rights-cleared version-locked episode-lineage/admission manifest if genuinely available; identify valid same-target triple error truth and use 8-cell table with clustered uncertainty, refusing to assume the t lemma if margins unsupported. Separately design, not execute without approval, matched whole-learner X×G fixed-B/fixed-K source inclusion versus true collection arms and signed complete original-buyer paid-service policies; otherwise maintain sharp bounds. Continue true official BEA numerical network data source route and Nov22 synthesis; no benchmark-dollar map.",
+  "exact_next_action": "Review integrated November22 Models A and B with this explicit source→admission→target information→qualified service→paid customer bridge; do not pass gate absent original-buyer evidence. Seek authorized version-locked independent episode/admission manifest and supported whole-learner/qualification calibration; distinguish true new collection from archive inclusion, G and E. Retry verified official BEA-derived BLS 2025 nominal IO file through a genuinely accessible official channel, without inventing industry edges.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -475,7 +475,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-21T01:37:03.011Z",
+  "updated_at_utc": "2026-11-21T02:40:57.605Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -493,8 +493,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Under fixed accepted updates and equal admitted source-category shares, can source collection change independent failure/recovery episode support, or can target grounding/reweighting reuse the archive equally well, and which option creates safely qualified original paid customer service relative to changed embodiment?",
-  "proof_gap": "Actual source episode lineages and three-way target-conditioned errors are not measured; pairwise error or sampler admission data cannot determine source transfer. No authorized causal whole-learner source inclusion/grounding/embodiment comparison, jointly qualified customer service or physically signed original buyer/operator/receipt network has been obtained. Binary signal-selector t theorem cannot be transported to real learning-generated Q without a justified observation kernel. Numerical BEA–BLS production flow, full repository CI and independent review outstanding.",
-  "next_action": "Acquire read-only rights-cleared version-locked episode-lineage/admission manifest if genuinely available; identify valid same-target triple error truth and use 8-cell table with clustered uncertainty, refusing to assume the t lemma if margins unsupported. Separately design, not execute without approval, matched whole-learner X×G fixed-B/fixed-K source inclusion versus true collection arms and signed complete original-buyer paid-service policies; otherwise maintain sharp bounds. Continue true official BEA numerical network data source route and Nov22 synthesis; no benchmark-dollar map.",
+  "proof_gap": "No actual matched source triple target errors, no learner-generated complete-service conditional paid acceptance r_X+/r_X-/r_G+/r_G-, no independently signed X/G/E/R whole robot/operator/customer menu or customer receipts, no causal whole-learner intervention, no proven deployment transport epsilon; numeric official BEA/BLS industrial flow join unavailable, full repository CI and peer review outstanding.",
+  "next_action": "Review integrated November22 Models A and B with this explicit source→admission→target information→qualified service→paid customer bridge; do not pass gate absent original-buyer evidence. Seek authorized version-locked independent episode/admission manifest and supported whole-learner/qualification calibration; distinguish true new collection from archive inclusion, G and E. Retry verified official BEA-derived BLS 2025 nominal IO file through a genuinely accessible official channel, without inventing industry edges.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -560,7 +560,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "When does independent source-family evidence jointly — rather than only pairwise — improve target-relevant qualification and change the best signed original-customer production choice X versus G versus E, accounting for R and the full learner/physical network?",
+  "exact_intellectual_question": "When does higher-order independent source-family information increase the source-to-joint-qualification map enough to beat target grounding or an already qualified embodiment in fully signed original-customer production?",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -680,7 +680,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Actual source episode lineages and three-way target-conditioned errors are not measured; pairwise error or sampler admission data cannot determine source transfer. No authorized causal whole-learner source inclusion/grounding/embodiment comparison, jointly qualified customer service or physically signed original buyer/operator/receipt network has been obtained. Binary signal-selector t theorem cannot be transported to real learning-generated Q without a justified observation kernel. Numerical BEA–BLS production flow, full repository CI and independent review outstanding.",
+  "next_proof_gap": "No actual matched source triple target errors, no learner-generated complete-service conditional paid acceptance r_X+/r_X-/r_G+/r_G-, no independently signed X/G/E/R whole robot/operator/customer menu or customer receipts, no causal whole-learner intervention, no proven deployment transport epsilon; numeric official BEA/BLS industrial flow join unavailable, full repository CI and peer review outstanding.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -1263,5 +1263,21 @@
     "full_historical_CI": false,
     "independent_review": false,
     "nov22_passed": false
+  },
+  "validation_qualification_gate": {
+    "chapter": "research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md",
+    "source": "research/theory_integration_2026_11_17/data_value/qualification_gate_value.js",
+    "record": "research/theory_integration_2026_11_17/data_value/qualification_gate_value_results.json",
+    "source_git_blob": "8c32f1cfb839e34468ec580014fa15313f07f723",
+    "record_git_blob": "c80024872ae04c8d7e77fe01b8a8a0e77d66ce73",
+    "connected_V8_exact_integer_assertions": 20025,
+    "independent_python_fraction_1001_grid": true,
+    "actual_robot_qualification": false,
+    "original_buyer_paid_receipts": false,
+    "physically_approved_X_G_E_R": false,
+    "quantitative_BEA_BLS_edge": false,
+    "full_historical_CI": false,
+    "independent_peer_review": false,
+    "nov22_gate_passed": false
   }
 }
