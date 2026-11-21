@@ -1,0 +1,50 @@
+{
+  "status": "synthetic conditional constructions; no real customer or learning data",
+  "source_types": [
+    "field_recovery",
+    "licensed_teleoperation",
+    "simulation_synthetic"
+  ],
+  "normalized_contribution_unit": "one tenth normalized paid-service contribution for source coalition table",
+  "fixed_market_lower_coalition": {
+    "empty": 2,
+    "single": 2.1,
+    "pair": 2.5
+  },
+  "high_order_program_worlds": [
+    {
+      "name": "SG-compatible triple",
+      "sg_all": 3.5,
+      "e_all": 2.7,
+      "sg_dividend": 0.3,
+      "e_dividend": -0.5,
+      "sg_minus_e": 0.8
+    },
+    {
+      "name": "E-compatible triple",
+      "sg_all": 2.7,
+      "e_all": 3.5,
+      "sg_dividend": -0.5,
+      "e_dividend": 0.3,
+      "sg_minus_e": -0.8
+    }
+  ],
+  "exact_pairwise_prediction_for_each_program": 3.2,
+  "whole_program_pooled_rank_with_only_monotone_and_cap_3_5": {
+    "lower": -1,
+    "upper": 1
+  },
+  "conditional_full_program_bounds_2_7_to_3_5": {
+    "lower": -0.8,
+    "upper": 0.8
+  },
+  "additive_technical_threshold_three_way_economic_dividend": 8,
+  "saturating_shared_capacity_three_way_dividend": -1,
+  "two_local_separated_four_source_all_high_order_dividends_zero": true,
+  "buyer_mix_reweighting": {
+    "island_sg_minus_e": 0,
+    "target_sg_minus_e": 1
+  },
+  "executed_checks": 517,
+  "monotone_cohort_completions_examined": 121
+}

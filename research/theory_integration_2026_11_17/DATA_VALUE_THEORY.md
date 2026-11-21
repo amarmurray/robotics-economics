@@ -1,3 +1,5 @@
+**21 November source-mixture continuation:** [source coalition higher-order economic pooling theorem](data_value/SOURCE_COALITION_TAIL_THEORY.md), [prospective evidence](data_value/SOURCE_COALITION_TAIL_EVIDENCE.md) and synthetic executable/independent checker distinguish technical pairwise transfer from three-way original-buyer paid production. Source-pair support cannot rank full pooled SG/E without legitimate high-order economic restrictions; Nov22 scientific gate OPEN.
+
 # Data-value continuation of When Capabilities Become Production
 
 Amar's November 17 direction prioritizes data transfer and economic data value, building on but not overfitting to Data-Driven Automation. Read the full [theoretical continuation chapter](data_value/DATA_VALUE_THEORY.md), its [sustained research program](data_value/DATA_VALUE_RESEARCH_PROGRAM.md), and the exact current next question in `../../RESEARCH_STATE.json`.
