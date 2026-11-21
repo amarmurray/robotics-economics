@@ -1,0 +1,115 @@
+{
+  "type": "conditional_synthetic_finite_sample_no_real_robots",
+  "assumptions": "Independent interference-closed eligible-buyer clusters, frozen lawful whole-program policies, binary complete settled paid-service events, fixed normalized contributions/costs",
+  "outcome_menu": {
+    "SG": "12*k-1, k in [0,1/2]",
+    "E": "8*q-1, q in [1/2,3/4]",
+    "decision_gap": "12*k-8*q"
+  },
+  "example_worlds": [
+    {
+      "k": 0.5,
+      "q": 0.5,
+      "SG_net": 5,
+      "E_net": 3,
+      "gap": 2,
+      "choice": "SG"
+    },
+    {
+      "k": 0.25,
+      "q": 0.5,
+      "SG_net": 2,
+      "E_net": 3,
+      "gap": -1,
+      "choice": "E"
+    },
+    {
+      "k": 0.5,
+      "q": 0.75,
+      "SG_net": 5,
+      "E_net": 5,
+      "gap": 0,
+      "choice": "tie"
+    },
+    {
+      "k": 0.3333333333333333,
+      "q": 0.5,
+      "SG_net": 3,
+      "E_net": 3,
+      "gap": 0,
+      "choice": "tie"
+    }
+  ],
+  "qualifications_same_marginals": {
+    "concordant_k": 0.5,
+    "discordant_k": 0
+  },
+  "confidence": {
+    "alpha": 0.05,
+    "estimate": "12*sample_mean_SG-8*sample_mean_E",
+    "radius_formula": "sqrt((144/n_SG+64/n_E)*ln(2/alpha)/2)",
+    "cost_minimum_100_clusters": {
+      "n_SG": 60,
+      "n_E": 40,
+      "coefficient": 4
+    },
+    "unequal_cost_160": {
+      "c_SG": 4,
+      "c_E": 1,
+      "n_SG": 30,
+      "n_E": 40
+    },
+    "sufficient_margin_2_sample_clusters": 738,
+    "radius_at_600_clusters": 1.1088852441549781,
+    "matched_pair_radius_300_pairs": 1.568200551399371
+  },
+  "enumerated_coverage_outcomes": [
+    {
+      "k": 0.125,
+      "q": 0.5,
+      "noncoverage_probability": 0.0007720495576174628
+    },
+    {
+      "k": 0.125,
+      "q": 0.625,
+      "noncoverage_probability": 0.0006151505299613379
+    },
+    {
+      "k": 0.125,
+      "q": 0.75,
+      "noncoverage_probability": 0.0002791314321095045
+    },
+    {
+      "k": 0.25,
+      "q": 0.5,
+      "noncoverage_probability": 0.0029839989789939778
+    },
+    {
+      "k": 0.25,
+      "q": 0.625,
+      "noncoverage_probability": 0.002581138573976262
+    },
+    {
+      "k": 0.25,
+      "q": 0.75,
+      "noncoverage_probability": 0.0015823792782127958
+    },
+    {
+      "k": 0.5,
+      "q": 0.5,
+      "noncoverage_probability": 0.006186358874025595
+    },
+    {
+      "k": 0.5,
+      "q": 0.625,
+      "noncoverage_probability": 0.005560579745231621
+    },
+    {
+      "k": 0.5,
+      "q": 0.75,
+      "noncoverage_probability": 0.0039031303735878272
+    }
+  ],
+  "assertions": 1043,
+  "scenarios": 748
+}
