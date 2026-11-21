@@ -1,0 +1,164 @@
+{
+  "scope": "conditional synthetic source-error law and signed original-buyer contribution, NOT measured robots",
+  "q_denominator": 2048,
+  "t_denominator": 256,
+  "r_A": "1/4",
+  "r_B": "3/4",
+  "grounding_qualified": "7/16",
+  "retained_net": "7/4",
+  "embodiment_net": "10",
+  "policyChecks": 4352,
+  "pairwiseChecks": 51,
+  "rows": [
+    {
+      "t_fraction": "0/256",
+      "technical_accuracy_numerator_256": 208,
+      "majority_qualified_numerator_2048": 832,
+      "optimized_qualified_numerator_2048": 880,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -16
+    },
+    {
+      "t_fraction": "1/256",
+      "technical_accuracy_numerator_256": 210,
+      "majority_qualified_numerator_2048": 840,
+      "optimized_qualified_numerator_2048": 876,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -20
+    },
+    {
+      "t_fraction": "2/256",
+      "technical_accuracy_numerator_256": 212,
+      "majority_qualified_numerator_2048": 848,
+      "optimized_qualified_numerator_2048": 872,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -24
+    },
+    {
+      "t_fraction": "3/256",
+      "technical_accuracy_numerator_256": 214,
+      "majority_qualified_numerator_2048": 856,
+      "optimized_qualified_numerator_2048": 868,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -28
+    },
+    {
+      "t_fraction": "4/256",
+      "technical_accuracy_numerator_256": 216,
+      "majority_qualified_numerator_2048": 864,
+      "optimized_qualified_numerator_2048": 864,
+      "optimal_rules_count": 8,
+      "relative_to_grounding_qualified_numerator_2048": -32
+    },
+    {
+      "t_fraction": "5/256",
+      "technical_accuracy_numerator_256": 218,
+      "majority_qualified_numerator_2048": 872,
+      "optimized_qualified_numerator_2048": 872,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -24
+    },
+    {
+      "t_fraction": "6/256",
+      "technical_accuracy_numerator_256": 220,
+      "majority_qualified_numerator_2048": 880,
+      "optimized_qualified_numerator_2048": 880,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -16
+    },
+    {
+      "t_fraction": "7/256",
+      "technical_accuracy_numerator_256": 222,
+      "majority_qualified_numerator_2048": 888,
+      "optimized_qualified_numerator_2048": 888,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": -8
+    },
+    {
+      "t_fraction": "8/256",
+      "technical_accuracy_numerator_256": 224,
+      "majority_qualified_numerator_2048": 896,
+      "optimized_qualified_numerator_2048": 896,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 0
+    },
+    {
+      "t_fraction": "9/256",
+      "technical_accuracy_numerator_256": 226,
+      "majority_qualified_numerator_2048": 904,
+      "optimized_qualified_numerator_2048": 904,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 8
+    },
+    {
+      "t_fraction": "10/256",
+      "technical_accuracy_numerator_256": 228,
+      "majority_qualified_numerator_2048": 912,
+      "optimized_qualified_numerator_2048": 912,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 16
+    },
+    {
+      "t_fraction": "11/256",
+      "technical_accuracy_numerator_256": 230,
+      "majority_qualified_numerator_2048": 920,
+      "optimized_qualified_numerator_2048": 920,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 24
+    },
+    {
+      "t_fraction": "12/256",
+      "technical_accuracy_numerator_256": 232,
+      "majority_qualified_numerator_2048": 928,
+      "optimized_qualified_numerator_2048": 928,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 32
+    },
+    {
+      "t_fraction": "13/256",
+      "technical_accuracy_numerator_256": 234,
+      "majority_qualified_numerator_2048": 936,
+      "optimized_qualified_numerator_2048": 936,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 40
+    },
+    {
+      "t_fraction": "14/256",
+      "technical_accuracy_numerator_256": 236,
+      "majority_qualified_numerator_2048": 944,
+      "optimized_qualified_numerator_2048": 944,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 48
+    },
+    {
+      "t_fraction": "15/256",
+      "technical_accuracy_numerator_256": 238,
+      "majority_qualified_numerator_2048": 952,
+      "optimized_qualified_numerator_2048": 952,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 56
+    },
+    {
+      "t_fraction": "16/256",
+      "technical_accuracy_numerator_256": 240,
+      "majority_qualified_numerator_2048": 960,
+      "optimized_qualified_numerator_2048": 960,
+      "optimal_rules_count": 1,
+      "relative_to_grounding_qualified_numerator_2048": 64
+    }
+  ],
+  "sharp_qualified_interval": [
+    "27/64",
+    "15/32"
+  ],
+  "sharp_X_minus_G_qualified_interval": [
+    "-1/64",
+    "1/32"
+  ],
+  "sharp_X_minus_G_net_interval": [
+    "-5/32",
+    "5/16"
+  ],
+  "within_X_precommitment_perfect_t_audit_information_value": "15/128",
+  "complete_X_G_E_portfolio_audit_value": "0"
+}
