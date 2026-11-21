@@ -1,0 +1,53 @@
+{
+  "status": "exact conditional synthetic reference audit, no real archive or robot results",
+  "sampler": "iid with-replacement accepted episode draws, fixed 3 updates",
+  "source_episodes": "A length 9, initial B length 1, source acquires 8 new independent B episodes; grounding reweights existing A/B only",
+  "probabilities": {
+    "old": {
+      "both": "27/100",
+      "two_distinct_B": "0"
+    },
+    "ground": {
+      "both": "3/4",
+      "two_distinct_B": "0"
+    },
+    "source": {
+      "both": "3/4",
+      "two_distinct_B": "1/3"
+    }
+  },
+  "expected_unique_episodes": {
+    "old": "127/100",
+    "ground": "7/4",
+    "source": "743/324"
+  },
+  "episode_hhi": {
+    "old": "41/50",
+    "ground": "1/2",
+    "source": "5/18"
+  },
+  "original_customer_contribution": {
+    "fallback": "2",
+    "certified_success": "12",
+    "fixed_E": "19/5",
+    "cost_ground": "2/5",
+    "cost_new_source": "7/5",
+    "fully_optimized_policy_values": {
+      "both": {
+        "old": "47/10",
+        "ground": "91/10",
+        "source": "81/10",
+        "embodiment": "19/5"
+      },
+      "diverse": {
+        "old": "2",
+        "ground": "8/5",
+        "source": "59/15",
+        "embodiment": "19/5"
+      }
+    }
+  },
+  "exact_checks": 130,
+  "grid_cases": 105,
+  "truth_status": "finite enumeration supports formulas; calculus proofs and causal assumptions are in companion theory text"
+}
