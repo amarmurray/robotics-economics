@@ -1,0 +1,43 @@
+{
+  "classification": "conditional synthetic paid-customer theory; no robot field evidence",
+  "normalized_unit": "one thousandth of a binary accepted-and-settled complete-customer contribution",
+  "source_types": [
+    "field_and_recovery",
+    "licensed_teleoperation",
+    "simulation_and_synthetic"
+  ],
+  "public_pretrained_separate": true,
+  "bounded_kernel_lemma": {
+    "total_reward_range": 1,
+    "one_step_program_tv_bound": "1/100",
+    "per_program_coalition_value_bound": "1/100",
+    "two_step_tv_example": "149/5000"
+  },
+  "uniform_bound": {
+    "D2": "13/50",
+    "tail": "4/25",
+    "full_D": "21/50",
+    "identified_outer_D": [
+      "1/10",
+      "21/50"
+    ],
+    "sg_monotone": true,
+    "e_monotone": true
+  },
+  "activated_only_all_sources": {
+    "D2": "2/5",
+    "tail": "1/50",
+    "full_D": "21/50",
+    "identified_outer_D": [
+      "19/50",
+      "21/50"
+    ]
+  },
+  "invalid_empty_context_calibration": {
+    "all_lower_same": true,
+    "unobserved_three_way_paid_effect": "1/10",
+    "free_optional_value_preserved": true
+  },
+  "exact_checks": 6432,
+  "scoped_synthetic_perturbation_configurations": 6400
+}
