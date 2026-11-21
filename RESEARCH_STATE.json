@@ -2,15 +2,14 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "5525282949be9c8a915e34716bbac8bc73c6c46f",
+  "research_input_commit": "441c80efda45502487c2b32a2a4ed3a272bf1aba",
   "lease": {
-    "run_id": "research-20261121T053142Z-report-support-envelope",
+    "run_id": "research-20261121T063314Z-resource-coupled-report-value",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-21T05:31:42Z",
-    "expires_at_utc": "2026-11-21T06:21:42Z",
-    "reason": "Published conditional signed action-margin sharp report-value bounds, finite general-policy LP envelopes, exact JS/Python checks, original-buyer support protocol, separate teaching and integrated manuscript; no real field effects or independent scientific novelty.",
-    "released_at_utc": "2026-11-21T05:37:15.708Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-21T06:34:09.854Z",
+    "expires_at_utc": "2026-11-21T07:29:09.854Z",
+    "reason": "Derive and test coupled scarce-capacity economic report-value conditions for signed original customer actions; reconcile prior sharp marginal support results."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -480,7 +479,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-21T05:37:15.708Z",
+  "updated_at_utc": "2026-11-21T06:34:09.854Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
