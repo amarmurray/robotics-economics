@@ -1,0 +1,59 @@
+{
+  "generated_from_source_blob": "fa54b964a57cca3b30f6bf5bf29f559c0a5f9ff8",
+  "source_retrieved_and_executed": true,
+  "checks": {
+    "model": "synthetic full-horizon original-buyer paid-service dynamic envelope",
+    "units": "integers /400 for expected service-equivalent contribution",
+    "allTestsPassed": true,
+    "assertions": 1583640,
+    "cases": 166698,
+    "rightsCases": 83349,
+    "dualCases": 666792,
+    "inputs": {
+      "p_first_paid": "2/5",
+      "q_future_paid_conditional": "4/5",
+      "r_recovery_paid_conditional": "1/2",
+      "learning_and_grounding_cost": "3/20",
+      "recovery_cost": "1/20",
+      "licensed_use": true
+    },
+    "policy_ceiling": {
+      "numerator": 372,
+      "denominator": 400
+    },
+    "naive_sum_of_exclusive_branch_ceilings": {
+      "numerator": 600,
+      "denominator": 400
+    },
+    "embodiment_comparator": {
+      "numerator": 380,
+      "denominator": 400
+    },
+    "high_future_demand_counterworld": {
+      "numerator": 388,
+      "denominator": 400
+    },
+    "without_data_rights": {
+      "numerator": 268,
+      "denominator": 400
+    },
+    "future_paid_threshold_for_tie": "17/20",
+    "source_occupancy_times_grounding_cross_difference": {
+      "numerator": 24,
+      "denominator": 400
+    },
+    "optional_substitutive_technical_input_cross_difference": {
+      "numerator": -128,
+      "denominator": 400
+    },
+    "rectangular_hull_example": {
+      "max_actual_world": 0.5,
+      "stagewise_recombined_upper": 1
+    },
+    "interpretation": "Conditional mathematics only. p, q, r are complete paid-service probabilities, not controller benchmark scores."
+  },
+  "empirical_data": false,
+  "independent_python_fraction_checks": true,
+  "full_repository_CI": false,
+  "independent_novelty_review": false
+}
