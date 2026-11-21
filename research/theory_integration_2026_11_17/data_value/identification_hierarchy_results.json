@@ -1,0 +1,46 @@
+{
+  "name": "identified_program_vs_unidentified_crossworld_coupling",
+  "units": "normalized hypothetical contribution; every two-row law has mass 1/2 per row",
+  "conditional_exact": true,
+  "assertions": 90,
+  "factorial": {
+    "arm_mean_success": "1/2 for every R,S,G,SG in both worlds",
+    "population_S_G_interaction": 0,
+    "individual_interaction_common": [
+      0,
+      0
+    ],
+    "individual_interaction_parity": [
+      -2,
+      2
+    ],
+    "within_arm_marginal_evidence_identical": true
+  },
+  "within_SG_qualified_bundle": {
+    "pA": "1/2",
+    "pB": "1/2",
+    "h_concordant": "1/2",
+    "h_discordant": "0",
+    "contribution_if_both_qualified": 12,
+    "SG_cost": 1,
+    "E_net": 4,
+    "SG_net_concordant": 5,
+    "SG_net_discordant": -1,
+    "ordering_concordant": "SG > E",
+    "ordering_discordant": "E > SG"
+  },
+  "endogenous_productive_data": {
+    "marginal_rights_cleared_data": "1/2",
+    "marginal_future_qualified_sale": "1/2",
+    "joint_good_world": "1/2",
+    "joint_bad_world": "0",
+    "gross_if_both": 8,
+    "data_policy_cost": 1,
+    "alternative_net": 1,
+    "data_program_net_good": 3,
+    "data_program_net_bad": -1,
+    "caution": "This joint dependence is not a causal source-data learning effect without intervention support."
+  },
+  "empirical_status": "No actual robot, buyer, signed operator, or admissible training intervention data.",
+  "novelty_status": "Established potential-outcome, missing-data and policy-evaluation identities, not independent novelty."
+}

@@ -1,3 +1,6 @@
+**21 November scope correction.** [The full-program estimand hierarchy](PROGRAM_VALUE_IDENTIFICATION_HIERARCHY.md) narrows when this latent cross-arm response-type analysis is decision-relevant: these sharp monotone/modular bounds are useful for *unobserved* SG interventions, casewise assertions or policy extrapolation, but **not required** for identifying the average paid-production effect of separately and validly randomized whole-network R/S/G/SG arms with jointly observed original buyer outcomes. An observed whole SG program requires within-arm coqualification/customer-demand coupling instead. No experimental field arm exists here. Both results remain conditional and are retained.
+
+
 # Cross-arm qualification support, endogenous customer demand, and the S/G/E choice
 
 **21 November 2026 | Same November 22 Models A/B of *When Capabilities Become Production*.** Conditional mathematical analysis, not a claim of original theorem, real robotics returns, signed customer service or independent scientific novelty.
