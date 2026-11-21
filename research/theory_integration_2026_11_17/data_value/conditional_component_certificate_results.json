@@ -1,0 +1,237 @@
+{
+  "model": "Two first-paid-service original buyers U,V with identical 1/2 marginal, one licensed joint-success future service, one shared later operator slot; q0=1/2, q1=3/4, attempt_cost=1/4; legacy joint=1/4; E=19/16; normalized synthetic units",
+  "value_denominator": 80,
+  "policy_bruteforce_rules_per_law": 16,
+  "checked_conditional_laws": 44,
+  "assertions": 842,
+  "all_checks_passed": true,
+  "first_paid_service_value_eightieths": 80,
+  "old_policy_value_eightieths": 85,
+  "grounding_only_value_eightieths": 90,
+  "embodiment_value_eightieths": 95,
+  "licensed_optional_SG_range_eightieths": [
+    90,
+    100
+  ],
+  "comparison_SG_minus_E_range_eightieths": [
+    -5,
+    5
+  ],
+  "positive_source_grounding_cross_difference_eightieths": 5,
+  "rights_absent_optimal_new_service_value_eightieths": 80,
+  "optional_old_policy_never_worse": true,
+  "forced_worse_recipe_possible": true,
+  "certified": {
+    "w_upper_one_third": {
+      "upper_SG_fraction": "7/6",
+      "embodiment": "19/16",
+      "strict_E": true
+    },
+    "w_lower_two_fifths": {
+      "lower_SG_fraction": "6/5",
+      "embodiment": "19/16",
+      "strict_SG": true
+    },
+    "indifference_threshold_joint_success": "3/8"
+  },
+  "grid": [
+    {
+      "joint_success_numerator": 0,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        0,
+        10,
+        10,
+        0
+      ],
+      "trained_SG_value_eightieths": 80,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 0
+    },
+    {
+      "joint_success_numerator": 1,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        1,
+        9,
+        9,
+        1
+      ],
+      "trained_SG_value_eightieths": 82,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 2
+    },
+    {
+      "joint_success_numerator": 2,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        2,
+        8,
+        8,
+        2
+      ],
+      "trained_SG_value_eightieths": 84,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 4
+    },
+    {
+      "joint_success_numerator": 3,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        3,
+        7,
+        7,
+        3
+      ],
+      "trained_SG_value_eightieths": 86,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 6
+    },
+    {
+      "joint_success_numerator": 4,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        4,
+        6,
+        6,
+        4
+      ],
+      "trained_SG_value_eightieths": 88,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 8
+    },
+    {
+      "joint_success_numerator": 5,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "trained_SG_value_eightieths": 90,
+      "optional_SG_value_eightieths": 90,
+      "SG_minus_E_eightieths": -5,
+      "optional_S_value_eightieths": 85,
+      "direct_joint_training_gain_eightieths": 10
+    },
+    {
+      "joint_success_numerator": 6,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        6,
+        4,
+        4,
+        6
+      ],
+      "trained_SG_value_eightieths": 92,
+      "optional_SG_value_eightieths": 92,
+      "SG_minus_E_eightieths": -3,
+      "optional_S_value_eightieths": 86,
+      "direct_joint_training_gain_eightieths": 12
+    },
+    {
+      "joint_success_numerator": 7,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        7,
+        3,
+        3,
+        7
+      ],
+      "trained_SG_value_eightieths": 94,
+      "optional_SG_value_eightieths": 94,
+      "SG_minus_E_eightieths": -1,
+      "optional_S_value_eightieths": 87,
+      "direct_joint_training_gain_eightieths": 14
+    },
+    {
+      "joint_success_numerator": 8,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        8,
+        2,
+        2,
+        8
+      ],
+      "trained_SG_value_eightieths": 96,
+      "optional_SG_value_eightieths": 96,
+      "SG_minus_E_eightieths": 1,
+      "optional_S_value_eightieths": 88,
+      "direct_joint_training_gain_eightieths": 16
+    },
+    {
+      "joint_success_numerator": 9,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        9,
+        1,
+        1,
+        9
+      ],
+      "trained_SG_value_eightieths": 98,
+      "optional_SG_value_eightieths": 98,
+      "SG_minus_E_eightieths": 3,
+      "optional_S_value_eightieths": 89,
+      "direct_joint_training_gain_eightieths": 18
+    },
+    {
+      "joint_success_numerator": 10,
+      "first_service_paid_marginals": [
+        10,
+        10
+      ],
+      "joint_probs_numerators_00_01_10_11": [
+        10,
+        0,
+        0,
+        10
+      ],
+      "trained_SG_value_eightieths": 100,
+      "optional_SG_value_eightieths": 100,
+      "SG_minus_E_eightieths": 5,
+      "optional_S_value_eightieths": 90,
+      "direct_joint_training_gain_eightieths": 20
+    }
+  ]
+}
