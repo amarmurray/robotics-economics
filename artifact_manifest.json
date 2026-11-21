@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-christmas-checkpoint-11",
+  "snapshot_id": "theory-christmas-checkpoint-12",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-christmas-checkpoint-11",
-      "sha256": "3d3c8f0b8f28752f3341fc50bddc9b12af437b2aac3d997a5c0a72a22a6fc10b"
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "29688aa6cf242261149b1644f4c245a304cb26eeea8547c13ca40a37b8040509"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3239,8 +3239,8 @@
       "repository_path": "research/theory/synthesis.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/synthesis.md",
       "name": "synthesis.md",
-      "version": "theory-christmas-checkpoint-11",
-      "sha256": "c93a3575c8b0668220d42005054ab2ad84b96a6d90a5c4de82c8171515b9df4f"
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "a99a2e5e16a99bd711e5d066f3a7006785b6a8132a34f32f52846ed77f82682c"
     },
     {
       "repository_path": "research/theory/contracting_and_pledgeability.md",
@@ -3325,6 +3325,55 @@
       "name": "test_selection_identification.py",
       "version": "theory-christmas-checkpoint-11",
       "sha256": "eda20ea2a1f782c44bd8ada89b2da33071e5fc4d90ca588f71c264fb40b7af76"
+    },
+    {
+      "repository_path": "research/theory/recursive_firm.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/recursive_firm.md",
+      "name": "recursive_firm.md",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "97d47d69d0abd5ae5692b0ae40e368acd4f994874b70cf6c6e1254a06ce392aa"
+    },
+    {
+      "repository_path": "model/recursive_firm_feedback.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/recursive_firm_feedback.py",
+      "name": "recursive_firm_feedback.py",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "b7d852e32f9b004e3535e99e100aedecbd573c9bdc2166855b51e640aa3e9aef"
+    },
+    {
+      "repository_path": "model/results/recursive_firm_feedback.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/model/results/recursive_firm_feedback.json",
+      "name": "recursive_firm_feedback.json",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "1ae990a270e7f5e6a024dcf135149ddc8ba827060d9a58eb4ba5429ee97c3ade"
+    },
+    {
+      "repository_path": "tests/test_recursive_firm_feedback.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/tests/test_recursive_firm_feedback.py",
+      "name": "test_recursive_firm_feedback.py",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "f7b44c419648735efc1ad5f604c9338de251d54161940e4d38e6b13872ffeb4a"
+    },
+    {
+      "repository_path": "research/contract_learning_2026_11_17/contract_core.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/contract_learning_2026_11_17/contract_core.py",
+      "name": "contract_core.py",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "18361a6df6eb3bbbb6533b9070848b825c1517fcc3787421ad441fe6d0d31610"
+    },
+    {
+      "repository_path": "research/contract_learning_2026_11_17/test_contract_core.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/contract_learning_2026_11_17/test_contract_core.py",
+      "name": "test_contract_core.py",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "73ce049ffb7a75784e70ffb84d345ae15462090cff86e24185197730ebe1b6ca"
+    },
+    {
+      "repository_path": "research/contract_learning_2026_11_17/recursive_firm_rl.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/contract_learning_2026_11_17/recursive_firm_rl.py",
+      "name": "recursive_firm_rl.py",
+      "version": "theory-christmas-checkpoint-12",
+      "sha256": "386c73e7a157b7e5336b5956e83005dfb42091df02e0b4e93e4168a29919b2a3"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3581,6 +3630,13 @@
       "complete_service_pairs": 8,
       "ineligible_pairs": 6,
       "boundary": "Derived synthetic automotive window bounds and modeled work; external payee receipts do not establish supplier resources or profit. Empirical paid work and lifecycle costs remain unknown."
+    },
+    "recursive_firm_theory": {
+      "research": "research/theory/recursive_firm.md",
+      "model": "model/recursive_firm_feedback.py",
+      "results": "model/results/recursive_firm_feedback.json",
+      "contract_rl": "research/contract_learning_2026_11_17/recursive_firm_rl.py",
+      "status": "conditional_theory_exact_and_held_out_synthetic_checks"
     }
   }
 }

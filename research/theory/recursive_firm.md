@@ -1,0 +1,110 @@
+# Recursive Firm Theory
+
+## Who sets the objective, and how fast should it change?
+
+20 November 2026, US Eastern · Theory module for *Deploying to Learn, Learning to Deploy*
+
+A robot company sells completed work. It also decides which orders to see, which interventions to record, which models or end effectors to qualify, and who can authorize the next trial. Each decision changes the evidence and feasible investments that the next decision-maker inherits. A firm is **recursive** to the extent that it can spend scarce resources to change that decision process itself. The empirical comparison is against the best feasible organization chosen in advance that can continue ordinary skill learning. Give both the same initial people, models, assets, customers, funds and information rights. Charge redesign, review and deployment to the firm that uses them.
+
+This module belongs in robotics economics because a purchased hour has an observable production use, an ambiguous learning use, and a contract that determines where the resulting information can be put to work. A software firm can face the same problem when a reviewer handles invoice exceptions. The second domain provides a test of generality. A common model of decision rights does not imply a common transfer coefficient across the two domains.
+
+### 1. What the earlier RL experiment established
+
+A supplier paid per accepted unit produces four units at either speed. At two units per hour, the job takes two hours and contributes 6 today. At four units per hour it takes one hour and contributes 7. Starting cash is 5. The assumed qualification cost for market B is $\max(2,11-2e)$, plus 3 in fixed project expenditure. Here $e$ measures reusable experience. Before deducting that expenditure the supplier's captured B contribution is 15.2. The alternative expansion in the incumbent market A costs 8 and adds 2.4 net. All amounts are normalized. The customer does not pay a premium for a slower job in these rows.
+
+| Reusable experience credited | Slow, total contribution | Fast, total contribution | Best plan |
+| --- | ---: | ---: | --- |
+| Per accepted unit | 15.2 | 16.2 | Run fast, qualify B |
+| Per active hour | 11.2 | 10.2 | Run slowly, qualify B |
+| Reuse withheld | 8.4 | 9.4 | Run fast, expand A |
+
+The extra hour sacrifices 1 of current margin and, in the second row, cuts B's qualification bill by 2. With reuse withheld B costs 14, above either available budget of 11 or 12. In the per-unit row both speeds generate the same experience. The tabular learner used only the context, feasible actions and realized rewards during training. It matched the enumerated best speed, second investment and return in eight recurring settings across five random seeds. The eight cross billing unit, experience unit and reuse rights. The exercise stipulates how experience transfers. Learning which observations actually reduce qualification costs is the next economic problem.
+
+[Runnable RL experiment](../contract_learning_2026_11_17/recursive_firm_rl.py) · [Exact contract primitives](../contract_learning_2026_11_17/contract_core.py) · [Original assumptions and commercial-source discussion](https://github.com/amarmurray/robotics-economics/blob/0ea572e238040388c855ba5141769336dcc43395/research/contract_learning_2026_11_17/RESEARCH_NOTE.md)
+
+### 2. The delegated objective is an investment
+
+| Decision | The firm chooses | What disciplines it |
+| --- | --- | --- |
+| Execute a service | Grasp, retry, escalate, retrieve a record, send a qualified unit | Buyer acceptance, deadline, safety and authority |
+| Invest under today's objectives | Generate a demonstration at site A, sample an existing corpus, buy training compute, add a reviewer or qualify a retrofit | Cash, scarce labor, available rights and complete-service costs |
+| Revise objectives and organization | Set the value an operating unit places on a correction, the speed of revision, and who can report to or instruct whom | Incremental realized contribution on comparable future orders, net of information and redesign costs |
+| Choose the governing mandate | Principals can change whose welfare counts, their risk exposure or their promised obligations | Explicit ownership, bargaining or governance decisions, evaluated separately for each affected party |
+
+Write $G_t$ for the graph of who can observe, reuse evidence, communicate and act. Its vertices can be operators, workcells, LLM agents, customers or teams. A feedback item carries its generating **action and opportunity**, source family, time of settlement, buyer outcome and rights. A common failure ID can link many notifications to one underlying event. A purchased communication edge does not confer qualification or deployment authority. If several independent approvals or components are jointly necessary, a set of nodes must be represented together. The [buyer's qualification model](https://github.com/amarmurray/robotics-economics/blob/0ea572e238040388c855ba5141769336dcc43395/research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md) gives a concrete example in which a more accurate signal still loses to a change in embodiment on accepted-service economics.
+
+Let $w_t$ be the marginal values the firm delegates to local operators. With settled signals $y_t$ in compatible units, a simple revision is $w_{t+1}=w_t+K_t(y_t-w_t)$. A scalar controls the pace of revision. An operator $K_t$ also controls **whose economic objective responds to whose surprise, by how much, and in which direction**. The wider control problem is to select the messages, rights, graph and update rule subject to reporting, verification, retraining and redeployment costs. An economic score held in common across candidates can be discounted receipts for accepted work less all attributable resource costs, with explicit external obligations. Data earns value through the decisions and subsequent output it changes. Crediting both that output and a second reward for the same data would double count it.
+
+The Hayekian question comes first. A site sees a local exception, a reviewer knows their queue, and a customer determines whether the complete order was accepted. Which local messages or scarcity prices can coordinate action, at what delay, with what incentive to report truthfully? A computational implementation could then use a hypernetwork $H_\phi(G_t,\text{messages},\text{rights})$ to generate weights of the downstream RL objective and its revision rule. Calibrate $\phi$ on independently settled outcomes from subsequent deployments, holding resources and the accounting definition comparable. The theorem below uses an analytic rule. The neural implementation is an experiment to compare against that rule. If the firm explicitly changes its terminal purpose, the agreement that authorizes that change and the distribution of gains belong in the model. Production data alone cannot decide whose welfare should count. [Hayek, *The Use of Knowledge in Society*](https://www.econlib.org/library/Essays/hykKnw.html) · [Ha, Dai and Le, *HyperNetworks*](https://arxiv.org/abs/1609.09106) · [Xu and coauthors, *Meta-Gradient Reinforcement Learning with an Objective Discovered Online*](https://arxiv.org/abs/2007.08433)
+
+### 3. A result about the speed and direction of revision
+
+Consider two sites. At date $t$ site $i$ sets a signed adjustment $a_i$ to a baseline production or review assignment. These are local interior deviations. Each site's delegated return is $w_i a_i-a_i^2/2$, so it chooses $a_i=w_i$. At the firm's independent valuation $z_i$, that decision's contribution is $z_i a_i-a_i^2/2$. The loss against a fully informed decision is exactly $(z_i-w_i)^2/2$. This converts a filtering error into forgone contribution in this local quadratic economy. There is no hard fixed-sum constraint in the example. A fixed total budget, capacity corners and discrete qualified orders are extensions for the funded workcell.
+
+One component of $z$ is shared by both sites. The other is the difference between them. In orthonormal coordinates these are $(z_1+z_2)/\sqrt2$ and $(z_1-z_2)/\sqrt2$. Each component follows its own random walk with innovation variance $q$. After the decision, an independently settled audit reports $y=z+\epsilon$ with noise variance $r$. State innovations and measurement errors are independent across modes and dates. The two sites' *raw* reports can therefore be highly correlated. Each new weight affects the following period.
+
+For a constant gain $0<k\le1$ the one-step prediction variance satisfies $P_{t+1}=(1-k)^2P_t+k^2r+q$. The stationary contribution loss is half its stationary value. Minimization yields
+
+$$
+P(k)=\frac{q+k^2r}{k(2-k)},\qquad
+rk^2+qk-q=0,\qquad k^*=\frac{2q}{q+\sqrt{q^2+4qr}}.
+$$
+
+For a single gain shared by both modes, sum the variances and use the same formula with summed $q$ and $r$. In a changing environment use the current prediction uncertainty $P_t$ and audit noise $r_t$. The gain is $k_t=P_t/(P_t+r_t)$ and $P_{t+1}=q_t+(1-k_t)P_t$. A missing audit gives a zero current update and leaves more uncertainty for the next credible audit. Thus even with a stable mandate the allocation hyperparameter can change each period. “Adiabatic” means the downstream policy has time to adjust to the current weights before the next economically material revision. An operation can have many fast cycles per settled audit. When the operating and reporting lags are comparable to the duration of the market regime, this separation itself becomes an empirical assumption. These filtering identities are standard. [Kalman, *A New Approach to Linear Filtering and Prediction Problems*](https://doi.org/10.1115/1.3662552)
+
+| Component of the firm's signal | Innovation variance $q$ | Audit noise $r$ | Best weight on a new surprise |
+| --- | ---: | ---: | ---: |
+| Common to both sites | 3 | 60 | 0.20 |
+| Difference between sites | 32 | 10 | 0.80 |
+| Best single rate across both | 35 in sum | 70 in sum | 0.50 |
+
+**Signed updating.** Back in site coordinates the diagonal gain is $(k_++k_-)/2=0.50$ and the cross-site gain is $(k_+-k_-)/2=-0.30$. Holding B's surprise at zero, one unit of unexpectedly high marginal value at A raises A's delegated value by 0.50 and lowers B's by 0.30. The site difference is informative about a moving bottleneck. The common signal is noisy. A positive shock at A is therefore better evidence that the bottleneck moved toward A than that the whole fleet became more valuable. When common demand is the clearer and faster-changing component, the cross-site sign can reverse.
+
+**The price of the feedback link.** Each site in isolation has the *same* innovation variance 17.5 and audit noise variance 35. Two sites separately tuning their own scalar rules also select 0.50. Their joint steady loss is 35. Paired reports and separately set rates cut this to 27.5. The company can spend up to **7.5 normalized contribution units per two-site decision period** to obtain and act on the pairing before the advantage disappears. A frictionless contract providing the identical data and authority at the same speed realizes the same benefit. If both modes instead have $(q,r)=(17.5,35)$, every site's marginal distribution is unchanged, the efficient cross-site update is zero, and the feedback link earns zero under this comparison. Swapping the two rates in the original economy raises loss to 66.5625. This gives a test of how a company wires feedback, even after separately controlling for each site's apparent productivity.
+
+**Why a fixed learning rate is insufficient.** In the common component the steady prediction variance is 15. If a newly independent customer audit lowers measurement variance from 60 to 15, the *very next* gain rises from 0.20 to 0.50. The noisy common component with stable measurement and the changing quality of its audit are different economic circumstances. Both the right to obtain an independent report and the right to revise an operating team's weights can now be priced.
+
+**How much should the firm believe a report about its own organization?** Now suppose the common and contrast dynamics swap in a second, equally likely regime. Each site's stand-alone distribution is identical in both. For a long contract block the firm must commit to its two gains. It can purchase one independent classification of the regime before committing. The classification has symmetric accuracy $p$. Ordinary within-block messages can update site weights but cannot change those contractually committed gains. Compare steady per-period losses within long blocks and amortize the fee over the same periods. Transients at changes between blocks are outside this calculation.
+
+Without the report even the best precommitted *two-gain* rule chooses 0.50 for both components and loses 35. If the firm treats the report as conclusive, expected loss is $p(27.5)+(1-p)(66.5625)$. Full implementation beats the fixed rule only above **80.8%** accuracy before costs. The firm can instead choose the strength of its response conditional on the report's reliability. After a report of the first regime, the common-mode pair is $(32-29p,10+50p)$ and the contrast pair is $(3+29p,60-50p)$. These are posterior averages because $P(k)$ is linear in the variances for each committed $k$. Apply the one-mode optimum to each pair.
+
+| Reliability of the paid report | Best decision without it | Loss from treating it as conclusive | Loss with calibrated gain | Maximum fee per joint period |
+| --- | ---: | ---: | ---: | ---: |
+| 50% | 35 | 47.03 | 35.00 | 0.00 |
+| 75% | 35 | 37.27 | 33.40 | 1.60 |
+| 100% | 35 | 27.50 | 27.50 | 7.50 |
+
+At 75%, the calibrated gains are about 0.369 and 0.634. **The same information destroys 2.27 units under automatic full adoption and creates 1.60 under a rule allowed to adjust how much authority the report receives.** This prices a form of organizational inventiveness. The audit's value depends on the organization's repertoire of responses to it. An ex ante contingent contract with the same audit, authority and cost can implement the calibrated rule as well. If gains can already be revised freely using informative paired histories, that richer comparator must be re-solved and the reported prices no longer follow.
+
+### 4. Three other mechanisms and their failure conditions
+
+| Mechanism | Formal case or hypothesis | Test that can change the conclusion |
+| --- | --- | --- |
+| The option to hear from a market the firm has stopped serving | A new service yields $+v$ in an actionable good state and $-\ell$ otherwise. If a perfect audit precedes commitment, its gross decision value is $pv-\max(0,pv-(1-p)\ell)$. For $p=1/4,v=8,\ell=4$ the firm rationally declines blind entry, but the audit is worth 2. When both a report and authority to act are necessary, each alone is worth zero here. A fully captured outside contract can realize the same joint value as ownership. | Randomize funded independent audits of some declined opportunities and separately vary preauthorized trial rights. Record all original offers and accepted outcomes, including failures. With cost or delay large enough, purchasing the pair loses money. |
+| An organization can rationally retain an apparently inferior objective | Suppose a permanent change increases per-period comparable profit by $\Delta$. Changing the objective once costs $C$ in validation, training and renegotiation. With discount $\beta$, switch from A to B when $\Delta>(1-\beta)C$. Starting at B, switch back when $\Delta<-(1-\beta)C$. Both incumbent rules can survive in the same interval. More volatile markets require solving the option to wait again. | Vary requalification cost holding the underlying change fixed. A physical cell with costly sign-off should exhibit a wider no-switch interval than a digital unit whose measured validation and rollback costs are lower. Indistinguishable costs or intervals weaken this explanation. |
+| A report that determines next quarter's budget changes what agents report | Let a local unit gain $b x$ from inflating reported need by $x$, with private effort cost $\kappa x^2/2$ and an expected audit penalty $hF x^2/2$. The unit chooses $x=b/(\kappa+hF)$. Increasing reliance on internal signals can buy both real information and strategic distortion. Independent customer settlement or a different contract changes the value of the reporting edge. | Cross a budget-linked score with independent reconciliation. Measure the gap between self-reports and blind buyer outcomes. Separate mechanical incentives from a behavioral hypothesis. In a human-supervisor arm, hold payoffs fixed and vary whether an otherwise identical loss appears provisional or formally closed. A difference specific to people would distinguish the two channels. |
+
+Varian's analysis of information goods explains why copying an observation can be cheap even when producing the first trustworthy observation is costly and its value is hard to judge in advance. Our scarce complements are independent qualification, rights to act, and the scarce attention to interpret it. Farboodi, Koh and Xia formalize endogenous task-specific data and spillovers. Koh and Li show why the disclosure of past observations can change which alternatives agents continue to explore. Imas, Koh and Legg distinguish improvements in competence from improvements in coordination. Imas's realization experiments motivate the human-supervisor arm. None of those results establish a corresponding bias in a software agent. Baker's separation of performance measures and the principal's objective is a prior for strategic reporting. The contribution proposed here is a signed, priced cross-site revision to delegated economic objectives, with a competing fixed-organization benchmark. Priority and field magnitudes remain open.
+
+[Varian, *Markets for Information Goods*](https://people.ischool.berkeley.edu/~hal/Papers/japan/) · [Farboodi, Koh and Xia, *Data-Driven Automation*](https://www.nber.org/papers/w35320) · [Koh and Li, *Balanced Social Learning*](https://arxiv.org/abs/2610.25814) · [Imas, Koh and Legg, *Organizing Intelligence*](https://arxiv.org/abs/2611.05417) · [Imas, *The Realization Effect*](https://doi.org/10.1257/aer.20140386) · [Baker, *Incentive Contracts and Performance Measurement*](https://doi.org/10.1086/261831)
+
+### 5. How to tell whether the firm acquired this capacity
+
+**Synthetic check.** The CPU model simulates two site decision-makers on the same histories, with an analytic allocator and with rates estimated using only paired noisy audits from a separate training seed. If $d_t=y_t-y_{t-1}$, then $\operatorname{Cov}(d_t,d_{t-1})=-r$ and $\operatorname{Var}(d_t)=q+2r$ under the stated timing and independent noise. These moments identify the benchmark variances without access to the true marginal values. Training used 20,000 paired periods. On five distinct synthetic paths of 20,000 scored periods each, the fitted scalar and fitted two-component rules lost 34.885 and 27.978 on average. The theoretical rates on those same paths gave 34.864 and 27.307. These held-out paths share the calibration economy. The analytic result permits the true graph and parameters to be known. The scored experiment relaxes parameter knowledge while assuming the two-site basis. It does not train a neural reward generator.
+
+**Agent-based and field comparisons.** In the [funded workcell](../../model/LEARNING_EXECUTION.md), allow local operators and an LLM dispatch agent to see their queues, a customer to accept or reject a complete kit by deadline, and a capital allocator to fund teleoperation, a training run, a new reporting edge, or a retrofit. A software-only comparison can use exception handlers and an independent invoice reconciler whose final audit reveals rework. Track which original orders were eligible, offered, declined, qualified and paid. Record interruptions, scarce human time, compute and organizational change costs once. Exposure chosen by the current policy can make unvisited alternatives invisible. Serially biased audits, a common labeler and action-dependent selection can invalidate the moment estimator. A randomized bounded probe or independent paired trial on eligible tasks is needed in that case.
+
+Use identical exogenous orders and resources across four organizations. Compare the best fixed local rule, a fixed organization with optimally joint reports and rates, a firm that can pay to alter its reporting and delegation structure as conditions change, and an external contract granting equivalent reports and authority at priced latency. Give all four the same ordinary ability to train task skills. Evaluate later settled contribution, qualification time, and buyer surplus separately. In the stationary example an organization that selected the correct joint rule permanently can match the flexible firm. The incremental **value of recursion** requires the redesignable firm to beat that stronger fixed benchmark *after* paying for redesign. A change in rights, audit quality or demand regime is the informative treatment. A neural hypernetwork must earn its cost against the analytic and simpler adaptive rules on held-out regimes.
+
+[Feedback implementation](../../model/recursive_firm_feedback.py) · [Exact and simulated outputs](../../model/results/recursive_firm_feedback.json) · [Exact tests](../../tests/test_recursive_firm_feedback.py)
+
+Run these commands from the repository root.
+
+~~~sh
+python -m model.recursive_firm_feedback
+python -m unittest discover -s tests -p 'test_recursive_firm_feedback.py'
+python research/contract_learning_2026_11_17/recursive_firm_rl.py
+python -m unittest discover -s research/contract_learning_2026_11_17 -p 'test_contract_core.py'
+~~~
+
+**Next question.** When a second site reports a surprise, does the marginal value of an operator-hour at the first site move up or down on independently settled orders, and is the improvement from acting on that relationship worth the cost of obtaining both reports?

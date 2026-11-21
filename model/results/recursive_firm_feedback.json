@@ -1,0 +1,93 @@
+{
+  "mode_variances": {
+    "common": [
+      3,
+      60
+    ],
+    "contrast": [
+      32,
+      10
+    ]
+  },
+  "optimal_gains": {
+    "common": 0.2,
+    "contrast": 0.8,
+    "one_gain": 0.5
+  },
+  "site_update": {
+    "own": 0.5,
+    "cross": -0.3
+  },
+  "exact_stationary_loss": {
+    "one_gain": 35.0,
+    "paired_feedback": 27.5,
+    "reversed_modes": 66.5625
+  },
+  "break_even_cost_per_joint_period": 7.5,
+  "regime_reports": [
+    {
+      "accuracy": 0.5,
+      "one_gain_loss": 35.0,
+      "full_strength_loss": 47.03125,
+      "calibrated_gains": [
+        0.5,
+        0.5
+      ],
+      "calibrated_loss": 35.0,
+      "report_value_before_cost": 0.0
+    },
+    {
+      "accuracy": 0.75,
+      "one_gain_loss": 35.0,
+      "full_strength_loss": 37.265625,
+      "calibrated_gains": [
+        0.3690022624380723,
+        0.6342719282327011
+      ],
+      "calibrated_loss": 33.399362925522105,
+      "report_value_before_cost": 1.6006370744778948
+    },
+    {
+      "accuracy": 1.0,
+      "one_gain_loss": 35.0,
+      "full_strength_loss": 27.5,
+      "calibrated_gains": [
+        0.2,
+        0.8
+      ],
+      "calibrated_loss": 27.5,
+      "report_value_before_cost": 7.5
+    }
+  ],
+  "precise_common_audit": {
+    "prior_variance": 15,
+    "old_noise": 60,
+    "new_noise": 15,
+    "first_gain": 0.5
+  },
+  "simulation": {
+    "calibration_seed": 17,
+    "test_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "calibration_periods": 20000,
+    "test_periods_per_seed": 20000,
+    "burn_in_per_seed": 500,
+    "estimated_gains": [
+      0.131,
+      0.7932
+    ],
+    "estimated_one_gain": 0.4844,
+    "mean_test_loss": {
+      "common_gain": 34.864,
+      "paired_feedback": 27.307,
+      "reversed_modes": 66.262,
+      "estimated_common_gain": 34.885,
+      "estimated_paired_feedback": 27.978
+    }
+  }
+}

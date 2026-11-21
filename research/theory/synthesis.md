@@ -4,6 +4,10 @@ Initial integrated synthesis, November 16, 2026 UTC. This is a living research e
 
 The program's central distinction is between a productive opportunity and an implementable sequence of investments. A learned policy can improve a task without supplying hardware, customer access, validation, cash or authority. Conversely, a profitable current deployment can fund investments whose learning comes from a different source. The production, learning and payment relationships therefore need separate meanings before they can explain one decision.
 
+## Recursive Firm Theory
+
+The firm can invest in changing which evidence reaches the person or agent that allocates its next dollar, and how strongly the evidence changes local objectives. A two-site benchmark prices that opportunity. A report can warrant increasing the value assigned to a correction at its source and decreasing it at another site. Its economic value depends jointly on reliability, the authority to temper the response, and the cost of acting. The model holds the definition of settled contribution fixed and compares against an ex ante contingent contract with the same access and authority. [Theory, implementation, limits and proposed workcell test](recursive_firm.md)
+
 ## What each seed theory supplies
 
 *Organizing Intelligence* separates competence from coordination and lets firms select composition and scale. In its worked technology, better fixed-composition competence scales productivity without changing the productivity-maximizing size; coordination changes the size term. In its large-market theorem, reproducible machine inputs with suitable increasing returns can concentrate production. The [reconstructed concentration proof](organizing_intelligence.md) depends on linear rental costs, a large machine-only alternative, fixed human supply, sharp cost bounds and the paper's equilibrium efficiency concept. A physical support-cost counterexample shows why the output exponent alone does not determine operating-unit size. Neither result establishes which legal entity should own the robots.

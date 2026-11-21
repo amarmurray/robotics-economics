@@ -1,8 +1,16 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-christmas-2026-checkpoint-11.
+Handoff ID: theory-christmas-2026-checkpoint-12.
 
-## Current checkpoint: closest investment theory and a selection-identification candidate
+## Recursive Firm Theory and the value of revising a delegated objective
+
+20 November 2026, Eastern. Continued from main `ef2ef5809eda042903041bac252a52da932da024`, with the customer-qualification and contract research read at `0ea572e238040388c855ba5141769336dcc43395`. [Recursive Firm Theory](research/theory/recursive_firm.md) is a module of the existing project covering physical workcells and digital service agents. It distinguishes paid execution, capital allocation, revision of delegated objectives and changes to the governing mandate. It carries forward the two-date economic RL example. A second, analytic model establishes when the same surprise should raise a local objective and lower its neighbor's. A 75%-reliable regime report costs 2.27 contribution units if followed at full strength and adds 1.60 if the response is calibrated, before its fee. All quantities are synthetic.
+
+The [executable feedback model](model/recursive_firm_feedback.py) reproduces closed-form and held-out synthetic results. Five targeted tests check the algebra, update timing, sign, prior and calibrated report. Twelve tests pass for the [contract primitives](research/contract_learning_2026_11_17/contract_core.py). The [tabular RL check](research/contract_learning_2026_11_17/recursive_firm_rl.py) recovers the exact contract solution for all eight familiar contexts on each of five seeds. Field transfer, neural objective generation and incremental value over equally informed contingent contracts remain open. No field or first-paper acceptance gate is advanced by this module.
+
+**Next question.** On matched customer orders, does a credible surprise at one site raise or lower the marginal value of another site's operator-hour, and does acting on it pay for independent pairing and delegation?
+
+## Previous theory checkpoint 11: closest investment theory and a selection-identification candidate
 
 Continued from accepted `4b5dac568125c369cd678fb62ebfc7a7dcf85f7d`, November 16, 2026 UTC. The [Caplin source card](research/theory/staged_discovery_prior_art.md) audits the staged-discovery framework and reconstructs its selected Shannon transform. The broad idea that investments change future capabilities, information and inquiry opportunities is already prior art.
 
