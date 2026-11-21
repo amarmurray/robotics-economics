@@ -1,0 +1,21 @@
+{
+  "scope": "synthetic one-original-buyer paid outcome only",
+  "one_stage_cases": 14641,
+  "two_stage_cases": 14641,
+  "assertions": 73210,
+  "passed": true,
+  "cohort": {
+    "D2": -0.15,
+    "Dall": 0.45,
+    "unmeasured_tail": 0.6,
+    "SG_low": 0.4,
+    "SG_full": 1,
+    "E": 0.55
+  },
+  "support": {
+    "logging_risky": 0.01,
+    "logged_TV": 0.01,
+    "optimizer_density_ratio": 100,
+    "valid_upper_error": 1
+  }
+}
