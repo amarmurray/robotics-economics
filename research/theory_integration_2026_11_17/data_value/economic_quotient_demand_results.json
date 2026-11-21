@@ -1,0 +1,171 @@
+{
+  "description": "Exact synthetic two-buyer demand-conditioned licensed recipe and state abstraction counterexample",
+  "denominator": 16,
+  "embodiment_success_num": 12,
+  "midpoint": {
+    "buyerA_num": 8,
+    "den": 16,
+    "old_num": 8,
+    "source_coarse_num": 8,
+    "source_informed_num": 16,
+    "embodiment_num": 12,
+    "cross_num": 8
+  },
+  "one_stage_uniform_reward_error_num": 8,
+  "worlds": [
+    {
+      "buyerA_num": 0,
+      "den": 16,
+      "old_num": 0,
+      "source_coarse_num": 16,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 0
+    },
+    {
+      "buyerA_num": 1,
+      "den": 16,
+      "old_num": 1,
+      "source_coarse_num": 15,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 1
+    },
+    {
+      "buyerA_num": 2,
+      "den": 16,
+      "old_num": 2,
+      "source_coarse_num": 14,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 2
+    },
+    {
+      "buyerA_num": 3,
+      "den": 16,
+      "old_num": 3,
+      "source_coarse_num": 13,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 3
+    },
+    {
+      "buyerA_num": 4,
+      "den": 16,
+      "old_num": 4,
+      "source_coarse_num": 12,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 4
+    },
+    {
+      "buyerA_num": 5,
+      "den": 16,
+      "old_num": 5,
+      "source_coarse_num": 11,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 5
+    },
+    {
+      "buyerA_num": 6,
+      "den": 16,
+      "old_num": 6,
+      "source_coarse_num": 10,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 6
+    },
+    {
+      "buyerA_num": 7,
+      "den": 16,
+      "old_num": 7,
+      "source_coarse_num": 9,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 7
+    },
+    {
+      "buyerA_num": 8,
+      "den": 16,
+      "old_num": 8,
+      "source_coarse_num": 8,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 8
+    },
+    {
+      "buyerA_num": 9,
+      "den": 16,
+      "old_num": 9,
+      "source_coarse_num": 9,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 7
+    },
+    {
+      "buyerA_num": 10,
+      "den": 16,
+      "old_num": 10,
+      "source_coarse_num": 10,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 6
+    },
+    {
+      "buyerA_num": 11,
+      "den": 16,
+      "old_num": 11,
+      "source_coarse_num": 11,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 5
+    },
+    {
+      "buyerA_num": 12,
+      "den": 16,
+      "old_num": 12,
+      "source_coarse_num": 12,
+      "source_informed_num": 16,
+      "embodiment_num": 12,
+      "cross_num": 4
+    },
+    {
+      "buyerA_num": 13,
+      "den": 16,
+      "old_num": 13,
+      "source_coarse_num": 13,
+      "source_informed_num": 16,
+      "embodiment_num": 13,
+      "cross_num": 3
+    },
+    {
+      "buyerA_num": 14,
+      "den": 16,
+      "old_num": 14,
+      "source_coarse_num": 14,
+      "source_informed_num": 16,
+      "embodiment_num": 14,
+      "cross_num": 2
+    },
+    {
+      "buyerA_num": 15,
+      "den": 16,
+      "old_num": 15,
+      "source_coarse_num": 15,
+      "source_informed_num": 16,
+      "embodiment_num": 15,
+      "cross_num": 1
+    },
+    {
+      "buyerA_num": 16,
+      "den": 16,
+      "old_num": 16,
+      "source_coarse_num": 16,
+      "source_informed_num": 16,
+      "embodiment_num": 16,
+      "cross_num": 0
+    }
+  ],
+  "checks": 146
+}
