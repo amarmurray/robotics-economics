@@ -4,13 +4,12 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "cef0192bea7296c8b2db2a2318a6c0e7a1b7d0a6",
   "lease": {
-    "run_id": "roboecon-2026-11-22T14-31-39-740Z-coupled-multidate",
+    "run_id": "roboecon-2026-11-22T14-41-42-655Z-semantic-correction",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-22T14:31:39.740Z",
-    "expires_at_utc": "2026-11-22T15:31:39.740Z",
-    "reason": "Published conditional three-date shared broadcast/worker paid-production theorem, reproducible checks, evidence protocol and integrated manuscript, with exclusive lease released.",
-    "released_at_utc": "2026-11-22T14:40:46.865Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-22T14:41:42.655Z",
+    "expires_at_utc": "2026-11-22T15:11:42.655Z",
+    "reason": "Correct stage-2 causal information and physical slot interpretation before treating multi-date chapter as valid."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -499,7 +498,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-22T14:40:46.865Z",
+  "updated_at_utc": "2026-11-22T14:41:42.655Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
