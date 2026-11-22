@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-transfer-validation-20261121.
+Handoff ID: recursive-firm-adapter-repair-20261122.
+
+## Repairing a transfer link under scarce donor compute
+
+The [adapter repair study](research/recursive_firm/transfer_validation/ADAPTER_REPAIR.md) extends branch head 8396033959d9813471944fc0e1ecdc0c7a217115. Calibrated fixed and adaptive rules were evaluated across 256 new worlds per regime. The additional verified donor annotation broke even at 2.23 units under coherent changes and 0.26 under fragmented changes of equal breadth. Reserving donor compute improved ordinary repair relative to fixed live sharing by 9.45 units under coherent change. Selection-adjusted field returns and discovery of the case grouping remain open. Next compare learned and shuffled groupings on untouched families and sites with separate acquisition and release panels.
 
 ## Pricing transfer validation
 

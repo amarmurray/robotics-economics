@@ -1,0 +1,8354 @@
+{
+  "calibration": [
+    800,
+    863
+  ],
+  "evaluation": [
+    12200,
+    12455
+  ],
+  "fixed": {
+    "modes": [
+      1,
+      1
+    ],
+    "allocation": "uniform"
+  },
+  "local": {
+    "modes": [
+      0,
+      0
+    ],
+    "allocation": "margin"
+  },
+  "raw": {
+    "modes": [
+      1,
+      1
+    ],
+    "allocation": "uniform"
+  },
+  "active": {
+    "modes": [
+      1,
+      1
+    ],
+    "fraction": 0.25,
+    "allocation": "uniform",
+    "audit": "priority",
+    "cadence": 6
+  },
+  "repair": {
+    "modes": [
+      1,
+      2
+    ],
+    "allocation": "uniform"
+  },
+  "regimes": {
+    "coherent_lag2": {
+      "means": {
+        "fixed": {
+          "cash": 711.73242,
+          "orders": 104.97656,
+          "audits": 0.0,
+          "eligible": 54.51953,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "local": {
+          "cash": 676.17422,
+          "orders": 99.83203,
+          "audits": 0.0,
+          "eligible": 58.96484,
+          "donor_updates": 12.75781,
+          "local_updates": 29.42188,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.69531,
+          "mobile": 0.64401,
+          "desk": 0.6564
+        },
+        "raw": {
+          "cash": 711.73242,
+          "orders": 104.97656,
+          "audits": 0.0,
+          "eligible": 54.51953,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "adaptive": {
+          "cash": 708.41523,
+          "orders": 106.80469,
+          "audits": 10.0,
+          "eligible": 54.02344,
+          "donor_updates": 17.59766,
+          "local_updates": 17.03125,
+          "repair_updates": 4.70312,
+          "repaired_orders": 0.0,
+          "retirements": 1.74609,
+          "installs": 7.35938,
+          "arm": 0.60006,
+          "mobile": 0.5635,
+          "desk": 0.71221
+        },
+        "rotation": {
+          "cash": 707.14609,
+          "orders": 106.59375,
+          "audits": 10.0,
+          "eligible": 54.21094,
+          "donor_updates": 17.55859,
+          "local_updates": 17.14453,
+          "repair_updates": 4.71875,
+          "repaired_orders": 0.0,
+          "retirements": 1.78906,
+          "installs": 7.26953,
+          "arm": 0.60629,
+          "mobile": 0.56465,
+          "desk": 0.71137
+        },
+        "no_adapter": {
+          "cash": 707.41094,
+          "orders": 106.73438,
+          "audits": 10.0,
+          "eligible": 54.03516,
+          "donor_updates": 17.54297,
+          "local_updates": 17.14062,
+          "repair_updates": 4.59766,
+          "repaired_orders": 0.0,
+          "retirements": 1.91797,
+          "installs": 6.98828,
+          "arm": 0.60278,
+          "mobile": 0.56248,
+          "desk": 0.70995
+        },
+        "local_spend": {
+          "cash": 711.86211,
+          "orders": 107.24219,
+          "audits": 10.0,
+          "eligible": 53.72656,
+          "donor_updates": 17.59766,
+          "local_updates": 21.54688,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.96094,
+          "installs": 6.78125,
+          "arm": 0.6254,
+          "mobile": 0.57295,
+          "desk": 0.71169
+        },
+        "constant_training": {
+          "cash": 706.94297,
+          "orders": 106.61328,
+          "audits": 10.0,
+          "eligible": 54.15234,
+          "donor_updates": 17.59375,
+          "local_updates": 16.48438,
+          "repair_updates": 5.34375,
+          "repaired_orders": 0.0,
+          "retirements": 1.73438,
+          "installs": 7.44531,
+          "arm": 0.59105,
+          "mobile": 0.56301,
+          "desk": 0.71175
+        },
+        "unpooled_adapter": {
+          "cash": 708.26055,
+          "orders": 106.79297,
+          "audits": 10.0,
+          "eligible": 53.97656,
+          "donor_updates": 17.57422,
+          "local_updates": 17.07422,
+          "repair_updates": 4.61328,
+          "repaired_orders": 0.0,
+          "retirements": 1.83984,
+          "installs": 7.125,
+          "arm": 0.6021,
+          "mobile": 0.56268,
+          "desk": 0.71044
+        },
+        "frozen_prior": {
+          "cash": 708.46406,
+          "orders": 106.83594,
+          "audits": 10.0,
+          "eligible": 53.96094,
+          "donor_updates": 17.55859,
+          "local_updates": 17.08203,
+          "repair_updates": 4.59375,
+          "repaired_orders": 0.0,
+          "retirements": 1.88672,
+          "installs": 7.03516,
+          "arm": 0.60255,
+          "mobile": 0.5625,
+          "desk": 0.71029
+        },
+        "verified_pair": {
+          "cash": 706.48945,
+          "orders": 106.94141,
+          "audits": 10.0,
+          "eligible": 53.89844,
+          "donor_updates": 17.60938,
+          "local_updates": 16.94531,
+          "repair_updates": 4.76953,
+          "repaired_orders": 0.0,
+          "retirements": 1.63672,
+          "installs": 7.53906,
+          "arm": 0.62107,
+          "mobile": 0.57311,
+          "desk": 0.71265
+        },
+        "repair": {
+          "cash": 706.39766,
+          "orders": 104.28125,
+          "audits": 0.0,
+          "eligible": 55.26953,
+          "donor_updates": 19.84766,
+          "local_updates": 0.0,
+          "repair_updates": 9.73828,
+          "repaired_orders": 32.98828,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50503,
+          "mobile": 0.63261,
+          "desk": 0.74111
+        },
+        "repair_spare": {
+          "cash": 715.84805,
+          "orders": 105.73828,
+          "audits": 0.0,
+          "eligible": 54.20312,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 11.67188,
+          "repaired_orders": 33.74219,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.66762,
+          "desk": 0.76006
+        },
+        "raw_spare": {
+          "cash": 711.73242,
+          "orders": 104.97656,
+          "audits": 0.0,
+          "eligible": 54.51953,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "local_spare": {
+          "cash": 687.34336,
+          "orders": 103.27734,
+          "audits": 0.0,
+          "eligible": 55.51953,
+          "donor_updates": 21.46484,
+          "local_updates": 29.42188,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.69531,
+          "mobile": 0.64401,
+          "desk": 0.76006
+        },
+        "fixed_verified": {
+          "cash": 721.21523,
+          "orders": 106.30078,
+          "audits": 0.0,
+          "eligible": 54.43359,
+          "donor_updates": 19.96094,
+          "local_updates": 0.0,
+          "repair_updates": 9.06641,
+          "repaired_orders": 35.00781,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50354,
+          "mobile": 0.71601,
+          "desk": 0.74279
+        },
+        "fixed_frozen_prior": {
+          "cash": 679.23828,
+          "orders": 101.55078,
+          "audits": 0.0,
+          "eligible": 56.57422,
+          "donor_updates": 19.73047,
+          "local_updates": 0.0,
+          "repair_updates": 10.77734,
+          "repaired_orders": 30.33984,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.5052,
+          "mobile": 0.50107,
+          "desk": 0.73996
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            -3.3172,
+            -8.5874,
+            1.9531
+          ],
+          "orders": [
+            1.8281,
+            1.2129,
+            2.4434
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.4961,
+            -0.9755,
+            -0.0167
+          ],
+          "donor_updates": [
+            -3.8672,
+            -4.1104,
+            -3.6239
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0943,
+            0.083,
+            0.1056
+          ],
+          "mobile": [
+            0.0599,
+            0.0509,
+            0.0688
+          ],
+          "desk": [
+            -0.0478,
+            -0.0524,
+            -0.0433
+          ]
+        },
+        "local": {
+          "cash": [
+            32.241,
+            26.792,
+            37.69
+          ],
+          "orders": [
+            6.9727,
+            6.3152,
+            7.6301
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -4.9414,
+            -5.4597,
+            -4.4231
+          ],
+          "donor_updates": [
+            4.8398,
+            4.536,
+            5.1437
+          ],
+          "local_updates": [
+            -12.3906,
+            -12.839,
+            -11.9422
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            -0.0953,
+            -0.1059,
+            -0.0846
+          ],
+          "mobile": [
+            -0.0805,
+            -0.0891,
+            -0.072
+          ],
+          "desk": [
+            0.0558,
+            0.0499,
+            0.0618
+          ]
+        },
+        "raw": {
+          "cash": [
+            -3.3172,
+            -8.5874,
+            1.9531
+          ],
+          "orders": [
+            1.8281,
+            1.2129,
+            2.4434
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.4961,
+            -0.9755,
+            -0.0167
+          ],
+          "donor_updates": [
+            -3.8672,
+            -4.1104,
+            -3.6239
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0943,
+            0.083,
+            0.1056
+          ],
+          "mobile": [
+            0.0599,
+            0.0509,
+            0.0688
+          ],
+          "desk": [
+            -0.0478,
+            -0.0524,
+            -0.0433
+          ]
+        },
+        "rotation": {
+          "cash": [
+            1.2691,
+            -0.4448,
+            2.9831
+          ],
+          "orders": [
+            0.2109,
+            0.0096,
+            0.4122
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1875,
+            -0.3504,
+            -0.0246
+          ],
+          "donor_updates": [
+            0.0391,
+            -0.0127,
+            0.0909
+          ],
+          "local_updates": [
+            -0.1133,
+            -0.2311,
+            0.0045
+          ],
+          "repair_updates": [
+            -0.0156,
+            -0.0931,
+            0.0618
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.043,
+            -0.0906,
+            0.0046
+          ],
+          "installs": [
+            0.0898,
+            -0.0038,
+            0.1835
+          ],
+          "arm": [
+            -0.0062,
+            -0.0116,
+            -0.0008
+          ],
+          "mobile": [
+            -0.0012,
+            -0.0051,
+            0.0028
+          ],
+          "desk": [
+            0.0008,
+            -0.0005,
+            0.0022
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            1.0043,
+            -1.1088,
+            3.1174
+          ],
+          "orders": [
+            0.0703,
+            -0.1826,
+            0.3232
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.0117,
+            -0.2142,
+            0.1908
+          ],
+          "donor_updates": [
+            0.0547,
+            -0.0023,
+            0.1117
+          ],
+          "local_updates": [
+            -0.1094,
+            -0.2567,
+            0.038
+          ],
+          "repair_updates": [
+            0.1055,
+            0.0084,
+            0.2025
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1719,
+            -0.2389,
+            -0.1048
+          ],
+          "installs": [
+            0.3711,
+            0.2451,
+            0.4971
+          ],
+          "arm": [
+            -0.0027,
+            -0.0093,
+            0.0039
+          ],
+          "mobile": [
+            0.001,
+            -0.0035,
+            0.0056
+          ],
+          "desk": [
+            0.0023,
+            0.0006,
+            0.0039
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -3.4469,
+            -6.1665,
+            -0.7273
+          ],
+          "orders": [
+            -0.4375,
+            -0.755,
+            -0.12
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.2969,
+            0.0534,
+            0.5404
+          ],
+          "donor_updates": [
+            0.0,
+            -0.0736,
+            0.0736
+          ],
+          "local_updates": [
+            -4.5156,
+            -4.8151,
+            -4.2162
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.2148,
+            -0.2972,
+            -0.1325
+          ],
+          "installs": [
+            0.5781,
+            0.4254,
+            0.7309
+          ],
+          "arm": [
+            -0.0253,
+            -0.0341,
+            -0.0165
+          ],
+          "mobile": [
+            -0.0095,
+            -0.0164,
+            -0.0025
+          ],
+          "desk": [
+            0.0005,
+            -0.0014,
+            0.0025
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            1.4723,
+            0.687,
+            2.2575
+          ],
+          "orders": [
+            0.1914,
+            0.0988,
+            0.284
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1289,
+            -0.1995,
+            -0.0583
+          ],
+          "donor_updates": [
+            0.0039,
+            -0.0237,
+            0.0316
+          ],
+          "local_updates": [
+            0.5469,
+            0.4447,
+            0.6491
+          ],
+          "repair_updates": [
+            -0.6406,
+            -0.7504,
+            -0.5308
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0117,
+            -0.0085,
+            0.032
+          ],
+          "installs": [
+            -0.0859,
+            -0.128,
+            -0.0438
+          ],
+          "arm": [
+            0.009,
+            0.0054,
+            0.0126
+          ],
+          "mobile": [
+            0.0005,
+            -0.0015,
+            0.0025
+          ],
+          "desk": [
+            0.0005,
+            -0.0004,
+            0.0013
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            0.1547,
+            -1.843,
+            2.1524
+          ],
+          "orders": [
+            0.0117,
+            -0.2248,
+            0.2483
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0469,
+            -0.14,
+            0.2338
+          ],
+          "donor_updates": [
+            0.0234,
+            -0.0296,
+            0.0765
+          ],
+          "local_updates": [
+            -0.043,
+            -0.1812,
+            0.0952
+          ],
+          "repair_updates": [
+            0.0898,
+            0.0014,
+            0.1783
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0938,
+            -0.1578,
+            -0.0297
+          ],
+          "installs": [
+            0.2344,
+            0.1201,
+            0.3487
+          ],
+          "arm": [
+            -0.002,
+            -0.0082,
+            0.0041
+          ],
+          "mobile": [
+            0.0008,
+            -0.0036,
+            0.0052
+          ],
+          "desk": [
+            0.0018,
+            0.0003,
+            0.0032
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            -0.0488,
+            -2.0349,
+            1.9372
+          ],
+          "orders": [
+            -0.0312,
+            -0.2672,
+            0.2047
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0625,
+            -0.1274,
+            0.2524
+          ],
+          "donor_updates": [
+            0.0391,
+            -0.0139,
+            0.092
+          ],
+          "local_updates": [
+            -0.0508,
+            -0.1881,
+            0.0865
+          ],
+          "repair_updates": [
+            0.1094,
+            0.019,
+            0.1998
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1406,
+            -0.2005,
+            -0.0807
+          ],
+          "installs": [
+            0.3242,
+            0.2049,
+            0.4436
+          ],
+          "arm": [
+            -0.0025,
+            -0.0092,
+            0.0043
+          ],
+          "mobile": [
+            0.001,
+            -0.0034,
+            0.0054
+          ],
+          "desk": [
+            0.0019,
+            0.0004,
+            0.0034
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            1.9258,
+            -0.2232,
+            4.0747
+          ],
+          "orders": [
+            -0.1367,
+            -0.3939,
+            0.1205
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.125,
+            -0.0783,
+            0.3283
+          ],
+          "donor_updates": [
+            -0.0117,
+            -0.0716,
+            0.0482
+          ],
+          "local_updates": [
+            0.0859,
+            -0.0675,
+            0.2394
+          ],
+          "repair_updates": [
+            -0.0664,
+            -0.1565,
+            0.0237
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.1094,
+            0.0448,
+            0.174
+          ],
+          "installs": [
+            -0.1797,
+            -0.2897,
+            -0.0697
+          ],
+          "arm": [
+            -0.021,
+            -0.0291,
+            -0.013
+          ],
+          "mobile": [
+            -0.0096,
+            -0.0159,
+            -0.0033
+          ],
+          "desk": [
+            -0.0004,
+            -0.002,
+            0.0011
+          ]
+        },
+        "repair": {
+          "cash": [
+            2.0176,
+            -3.1646,
+            7.1997
+          ],
+          "orders": [
+            2.5234,
+            1.9072,
+            3.1397
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -1.2461,
+            -1.7266,
+            -0.7656
+          ],
+          "donor_updates": [
+            -2.25,
+            -2.4561,
+            -2.0439
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            -5.0352,
+            -5.4244,
+            -4.6459
+          ],
+          "repaired_orders": [
+            -32.9883,
+            -33.4757,
+            -32.5009
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.095,
+            0.0839,
+            0.1061
+          ],
+          "mobile": [
+            -0.0691,
+            -0.0823,
+            -0.056
+          ],
+          "desk": [
+            -0.0289,
+            -0.033,
+            -0.0248
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            -7.4328,
+            -12.4711,
+            -2.3945
+          ],
+          "orders": [
+            1.0664,
+            0.4691,
+            1.6637
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.1797,
+            -0.6547,
+            0.2953
+          ],
+          "donor_updates": [
+            -3.8672,
+            -4.1104,
+            -3.6239
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            -6.9688,
+            -7.3934,
+            -6.5441
+          ],
+          "repaired_orders": [
+            -33.7422,
+            -34.2267,
+            -33.2577
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0943,
+            0.083,
+            0.1056
+          ],
+          "mobile": [
+            -0.1041,
+            -0.1168,
+            -0.0914
+          ],
+          "desk": [
+            -0.0478,
+            -0.0524,
+            -0.0433
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            -3.3172,
+            -8.5874,
+            1.9531
+          ],
+          "orders": [
+            1.8281,
+            1.2129,
+            2.4434
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.4961,
+            -0.9755,
+            -0.0167
+          ],
+          "donor_updates": [
+            -3.8672,
+            -4.1104,
+            -3.6239
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0943,
+            0.083,
+            0.1056
+          ],
+          "mobile": [
+            0.0599,
+            0.0509,
+            0.0688
+          ],
+          "desk": [
+            -0.0478,
+            -0.0524,
+            -0.0433
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            21.0719,
+            15.58,
+            26.5637
+          ],
+          "orders": [
+            3.5273,
+            2.8683,
+            4.1863
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -1.4961,
+            -2.0138,
+            -0.9784
+          ],
+          "donor_updates": [
+            -3.8672,
+            -4.1104,
+            -3.6239
+          ],
+          "local_updates": [
+            -12.3906,
+            -12.839,
+            -11.9422
+          ],
+          "repair_updates": [
+            4.7031,
+            4.4383,
+            4.9679
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            -0.0953,
+            -0.1059,
+            -0.0846
+          ],
+          "mobile": [
+            -0.0805,
+            -0.0891,
+            -0.072
+          ],
+          "desk": [
+            -0.0478,
+            -0.0524,
+            -0.0433
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            -12.8,
+            -17.7288,
+            -7.8712
+          ],
+          "orders": [
+            0.5039,
+            -0.0828,
+            1.0906
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.4102,
+            -0.8882,
+            0.0679
+          ],
+          "donor_updates": [
+            -2.3633,
+            -2.5741,
+            -2.1525
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            -4.3633,
+            -4.7479,
+            -3.9787
+          ],
+          "repaired_orders": [
+            -35.0078,
+            -35.4767,
+            -34.5389
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0965,
+            0.0853,
+            0.1078
+          ],
+          "mobile": [
+            -0.1525,
+            -0.1629,
+            -0.1421
+          ],
+          "desk": [
+            -0.0306,
+            -0.0346,
+            -0.0265
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            29.177,
+            24.2106,
+            34.1433
+          ],
+          "orders": [
+            5.2539,
+            4.6628,
+            5.845
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -2.5508,
+            -3.0357,
+            -2.0659
+          ],
+          "donor_updates": [
+            -2.1328,
+            -2.342,
+            -1.9236
+          ],
+          "local_updates": [
+            17.0312,
+            16.6258,
+            17.4367
+          ],
+          "repair_updates": [
+            -6.0742,
+            -6.4776,
+            -5.6708
+          ],
+          "repaired_orders": [
+            -30.3398,
+            -30.7773,
+            -29.9024
+          ],
+          "retirements": [
+            1.7461,
+            1.6471,
+            1.8451
+          ],
+          "installs": [
+            7.3594,
+            7.1863,
+            7.5324
+          ],
+          "arm": [
+            0.0949,
+            0.0837,
+            0.106
+          ],
+          "mobile": [
+            0.0624,
+            0.0549,
+            0.07
+          ],
+          "desk": [
+            -0.0277,
+            -0.0318,
+            -0.0237
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        35.5582,
+        28.963,
+        42.1534
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        9.4504,
+        6.98,
+        11.9208
+      ],
+      "verified_minus_raw": [
+        9.4828,
+        4.9289,
+        14.0368
+      ],
+      "repair_minus_local": [
+        30.2234,
+        24.0235,
+        36.4233
+      ],
+      "repair_minus_raw": [
+        -5.3348,
+        -9.9795,
+        -0.69
+      ],
+      "repair_spare_minus_raw_spare": [
+        4.1156,
+        -0.5344,
+        8.7657
+      ],
+      "repair_spare_minus_local_spare": [
+        28.5047,
+        22.4823,
+        34.527
+      ],
+      "repair_learning_minus_frozen": [
+        27.1594,
+        23.5283,
+        30.7904
+      ],
+      "verified_minus_repair": [
+        14.8176,
+        11.6209,
+        18.0143
+      ],
+      "pair_fee_ceiling": 2.2343
+    },
+    "fragmented_lag2": {
+      "means": {
+        "fixed": {
+          "cash": 705.79102,
+          "orders": 104.23828,
+          "audits": 0.0,
+          "eligible": 55.17188,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50211,
+          "mobile": 0.49126,
+          "desk": 0.76006
+        },
+        "local": {
+          "cash": 674.67617,
+          "orders": 99.55859,
+          "audits": 0.0,
+          "eligible": 59.35938,
+          "donor_updates": 12.66797,
+          "local_updates": 29.60938,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.7014,
+          "mobile": 0.65006,
+          "desk": 0.65539
+        },
+        "raw": {
+          "cash": 705.79102,
+          "orders": 104.23828,
+          "audits": 0.0,
+          "eligible": 55.17188,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50211,
+          "mobile": 0.49126,
+          "desk": 0.76006
+        },
+        "adaptive": {
+          "cash": 709.18086,
+          "orders": 106.80859,
+          "audits": 10.0,
+          "eligible": 54.19141,
+          "donor_updates": 17.56641,
+          "local_updates": 16.85156,
+          "repair_updates": 4.75781,
+          "repaired_orders": 0.0,
+          "retirements": 1.62891,
+          "installs": 7.32031,
+          "arm": 0.61909,
+          "mobile": 0.58751,
+          "desk": 0.71098
+        },
+        "rotation": {
+          "cash": 707.87578,
+          "orders": 106.61328,
+          "audits": 10.0,
+          "eligible": 54.3125,
+          "donor_updates": 17.53906,
+          "local_updates": 16.94922,
+          "repair_updates": 4.83203,
+          "repaired_orders": 0.0,
+          "retirements": 1.67188,
+          "installs": 7.33203,
+          "arm": 0.61861,
+          "mobile": 0.58539,
+          "desk": 0.71096
+        },
+        "no_adapter": {
+          "cash": 708.73906,
+          "orders": 106.78516,
+          "audits": 10.0,
+          "eligible": 54.14844,
+          "donor_updates": 17.55859,
+          "local_updates": 17.01562,
+          "repair_updates": 4.66797,
+          "repaired_orders": 0.0,
+          "retirements": 1.77734,
+          "installs": 7.00781,
+          "arm": 0.62149,
+          "mobile": 0.58305,
+          "desk": 0.71023
+        },
+        "local_spend": {
+          "cash": 713.71367,
+          "orders": 107.39453,
+          "audits": 10.0,
+          "eligible": 53.6875,
+          "donor_updates": 17.58984,
+          "local_updates": 21.4375,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.84766,
+          "installs": 6.80078,
+          "arm": 0.64384,
+          "mobile": 0.59372,
+          "desk": 0.71101
+        },
+        "constant_training": {
+          "cash": 707.59805,
+          "orders": 106.625,
+          "audits": 10.0,
+          "eligible": 54.31641,
+          "donor_updates": 17.55469,
+          "local_updates": 16.3125,
+          "repair_updates": 5.40234,
+          "repaired_orders": 0.0,
+          "retirements": 1.63672,
+          "installs": 7.37109,
+          "arm": 0.61379,
+          "mobile": 0.58402,
+          "desk": 0.71093
+        },
+        "unpooled_adapter": {
+          "cash": 709.64375,
+          "orders": 106.86719,
+          "audits": 10.0,
+          "eligible": 54.07422,
+          "donor_updates": 17.58984,
+          "local_updates": 16.87891,
+          "repair_updates": 4.6875,
+          "repaired_orders": 0.0,
+          "retirements": 1.69141,
+          "installs": 7.12891,
+          "arm": 0.62325,
+          "mobile": 0.58411,
+          "desk": 0.71091
+        },
+        "frozen_prior": {
+          "cash": 709.78867,
+          "orders": 106.91016,
+          "audits": 10.0,
+          "eligible": 54.03125,
+          "donor_updates": 17.58594,
+          "local_updates": 16.89062,
+          "repair_updates": 4.69141,
+          "repaired_orders": 0.0,
+          "retirements": 1.73828,
+          "installs": 7.07812,
+          "arm": 0.62175,
+          "mobile": 0.58297,
+          "desk": 0.71094
+        },
+        "verified_pair": {
+          "cash": 705.55391,
+          "orders": 106.73828,
+          "audits": 10.0,
+          "eligible": 54.19531,
+          "donor_updates": 17.63281,
+          "local_updates": 16.9375,
+          "repair_updates": 4.67969,
+          "repaired_orders": 0.0,
+          "retirements": 1.69141,
+          "installs": 7.21094,
+          "arm": 0.62084,
+          "mobile": 0.58724,
+          "desk": 0.71184
+        },
+        "repair": {
+          "cash": 691.20313,
+          "orders": 102.61719,
+          "audits": 0.0,
+          "eligible": 56.35938,
+          "donor_updates": 19.76562,
+          "local_updates": 0.0,
+          "repair_updates": 10.27344,
+          "repaired_orders": 31.80469,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50381,
+          "mobile": 0.53913,
+          "desk": 0.73949
+        },
+        "repair_spare": {
+          "cash": 695.89727,
+          "orders": 103.62109,
+          "audits": 0.0,
+          "eligible": 55.42969,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 12.40625,
+          "repaired_orders": 32.10547,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50211,
+          "mobile": 0.54287,
+          "desk": 0.76006
+        },
+        "raw_spare": {
+          "cash": 705.79102,
+          "orders": 104.23828,
+          "audits": 0.0,
+          "eligible": 55.17188,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50211,
+          "mobile": 0.49126,
+          "desk": 0.76006
+        },
+        "local_spare": {
+          "cash": 686.58398,
+          "orders": 103.19531,
+          "audits": 0.0,
+          "eligible": 55.72266,
+          "donor_updates": 21.46484,
+          "local_updates": 29.60938,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.7014,
+          "mobile": 0.65006,
+          "desk": 0.76006
+        },
+        "fixed_verified": {
+          "cash": 687.71133,
+          "orders": 102.86719,
+          "audits": 0.0,
+          "eligible": 56.26953,
+          "donor_updates": 19.77734,
+          "local_updates": 0.0,
+          "repair_updates": 10.15625,
+          "repaired_orders": 32.08594,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.5019,
+          "mobile": 0.53257,
+          "desk": 0.74053
+        },
+        "fixed_frozen_prior": {
+          "cash": 670.09648,
+          "orders": 100.51953,
+          "audits": 0.0,
+          "eligible": 57.24219,
+          "donor_updates": 19.66797,
+          "local_updates": 0.0,
+          "repair_updates": 11.0,
+          "repaired_orders": 29.73438,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50333,
+          "mobile": 0.49537,
+          "desk": 0.73881
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            3.3898,
+            -2.4219,
+            9.2016
+          ],
+          "orders": [
+            2.5703,
+            1.8849,
+            3.2557
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.9805,
+            -1.5074,
+            -0.4535
+          ],
+          "donor_updates": [
+            -3.8984,
+            -4.1308,
+            -3.6661
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.117,
+            0.1058,
+            0.1282
+          ],
+          "mobile": [
+            0.0963,
+            0.0858,
+            0.1067
+          ],
+          "desk": [
+            -0.0491,
+            -0.0534,
+            -0.0447
+          ]
+        },
+        "local": {
+          "cash": [
+            34.5047,
+            28.6309,
+            40.3784
+          ],
+          "orders": [
+            7.25,
+            6.5478,
+            7.9522
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -5.168,
+            -5.7326,
+            -4.6033
+          ],
+          "donor_updates": [
+            4.8984,
+            4.6042,
+            5.1927
+          ],
+          "local_updates": [
+            -12.7578,
+            -13.1903,
+            -12.3253
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            -0.0823,
+            -0.0922,
+            -0.0724
+          ],
+          "mobile": [
+            -0.0626,
+            -0.0717,
+            -0.0534
+          ],
+          "desk": [
+            0.0556,
+            0.0496,
+            0.0616
+          ]
+        },
+        "raw": {
+          "cash": [
+            3.3898,
+            -2.4219,
+            9.2016
+          ],
+          "orders": [
+            2.5703,
+            1.8849,
+            3.2557
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.9805,
+            -1.5074,
+            -0.4535
+          ],
+          "donor_updates": [
+            -3.8984,
+            -4.1308,
+            -3.6661
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.117,
+            0.1058,
+            0.1282
+          ],
+          "mobile": [
+            0.0963,
+            0.0858,
+            0.1067
+          ],
+          "desk": [
+            -0.0491,
+            -0.0534,
+            -0.0447
+          ]
+        },
+        "rotation": {
+          "cash": [
+            1.3051,
+            -0.686,
+            3.2962
+          ],
+          "orders": [
+            0.1953,
+            -0.0492,
+            0.4399
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1211,
+            -0.3048,
+            0.0626
+          ],
+          "donor_updates": [
+            0.0273,
+            -0.0262,
+            0.0809
+          ],
+          "local_updates": [
+            -0.0977,
+            -0.2111,
+            0.0158
+          ],
+          "repair_updates": [
+            -0.0742,
+            -0.153,
+            0.0046
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.043,
+            -0.0867,
+            0.0008
+          ],
+          "installs": [
+            -0.0117,
+            -0.088,
+            0.0646
+          ],
+          "arm": [
+            0.0005,
+            -0.0034,
+            0.0043
+          ],
+          "mobile": [
+            0.0021,
+            -0.002,
+            0.0062
+          ],
+          "desk": [
+            0.0,
+            -0.0013,
+            0.0014
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            0.4418,
+            -1.8716,
+            2.7552
+          ],
+          "orders": [
+            0.0234,
+            -0.2574,
+            0.3042
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.043,
+            -0.1689,
+            0.2548
+          ],
+          "donor_updates": [
+            0.0078,
+            -0.0535,
+            0.0692
+          ],
+          "local_updates": [
+            -0.1641,
+            -0.2899,
+            -0.0382
+          ],
+          "repair_updates": [
+            0.0898,
+            -0.0044,
+            0.1841
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1484,
+            -0.2128,
+            -0.0841
+          ],
+          "installs": [
+            0.3125,
+            0.2152,
+            0.4098
+          ],
+          "arm": [
+            -0.0024,
+            -0.0077,
+            0.0029
+          ],
+          "mobile": [
+            0.0045,
+            -0.0011,
+            0.01
+          ],
+          "desk": [
+            0.0007,
+            -0.0009,
+            0.0023
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -4.5328,
+            -7.2903,
+            -1.7754
+          ],
+          "orders": [
+            -0.5859,
+            -0.9264,
+            -0.2454
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.5039,
+            0.2402,
+            0.7676
+          ],
+          "donor_updates": [
+            -0.0234,
+            -0.0985,
+            0.0517
+          ],
+          "local_updates": [
+            -4.5859,
+            -4.8726,
+            -4.2993
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.2188,
+            -0.2984,
+            -0.1391
+          ],
+          "installs": [
+            0.5195,
+            0.388,
+            0.651
+          ],
+          "arm": [
+            -0.0247,
+            -0.0324,
+            -0.0171
+          ],
+          "mobile": [
+            -0.0062,
+            -0.012,
+            -0.0004
+          ],
+          "desk": [
+            -0.0,
+            -0.0019,
+            0.0018
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            1.5828,
+            0.7041,
+            2.4615
+          ],
+          "orders": [
+            0.1836,
+            0.0846,
+            0.2825
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.125,
+            -0.1994,
+            -0.0506
+          ],
+          "donor_updates": [
+            0.0117,
+            -0.0085,
+            0.032
+          ],
+          "local_updates": [
+            0.5391,
+            0.4374,
+            0.6407
+          ],
+          "repair_updates": [
+            -0.6445,
+            -0.763,
+            -0.526
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0078,
+            -0.0321,
+            0.0164
+          ],
+          "installs": [
+            -0.0508,
+            -0.0886,
+            -0.0129
+          ],
+          "arm": [
+            0.0053,
+            0.0032,
+            0.0073
+          ],
+          "mobile": [
+            0.0035,
+            0.0001,
+            0.0069
+          ],
+          "desk": [
+            0.0,
+            -0.0001,
+            0.0002
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            -0.4629,
+            -2.5479,
+            1.6221
+          ],
+          "orders": [
+            -0.0586,
+            -0.3119,
+            0.1947
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.1172,
+            -0.0739,
+            0.3083
+          ],
+          "donor_updates": [
+            -0.0234,
+            -0.0847,
+            0.0379
+          ],
+          "local_updates": [
+            -0.0273,
+            -0.1419,
+            0.0872
+          ],
+          "repair_updates": [
+            0.0703,
+            -0.0082,
+            0.1488
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0625,
+            -0.114,
+            -0.011
+          ],
+          "installs": [
+            0.1914,
+            0.1041,
+            0.2787
+          ],
+          "arm": [
+            -0.0042,
+            -0.009,
+            0.0007
+          ],
+          "mobile": [
+            0.0034,
+            -0.0017,
+            0.0085
+          ],
+          "desk": [
+            0.0001,
+            -0.0015,
+            0.0017
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            -0.6078,
+            -2.6246,
+            1.409
+          ],
+          "orders": [
+            -0.1016,
+            -0.347,
+            0.1438
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.1602,
+            -0.0281,
+            0.3484
+          ],
+          "donor_updates": [
+            -0.0195,
+            -0.0823,
+            0.0432
+          ],
+          "local_updates": [
+            -0.0391,
+            -0.1533,
+            0.0751
+          ],
+          "repair_updates": [
+            0.0664,
+            -0.0118,
+            0.1446
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1094,
+            -0.1712,
+            -0.0476
+          ],
+          "installs": [
+            0.2422,
+            0.1467,
+            0.3377
+          ],
+          "arm": [
+            -0.0027,
+            -0.0071,
+            0.0018
+          ],
+          "mobile": [
+            0.0045,
+            -0.0004,
+            0.0095
+          ],
+          "desk": [
+            0.0,
+            -0.0016,
+            0.0017
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            3.627,
+            1.6565,
+            5.5974
+          ],
+          "orders": [
+            0.0703,
+            -0.1645,
+            0.3051
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.0039,
+            -0.191,
+            0.1832
+          ],
+          "donor_updates": [
+            -0.0664,
+            -0.1296,
+            -0.0032
+          ],
+          "local_updates": [
+            -0.0859,
+            -0.2082,
+            0.0363
+          ],
+          "repair_updates": [
+            0.0781,
+            -0.0102,
+            0.1664
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0625,
+            -0.128,
+            0.003
+          ],
+          "installs": [
+            0.1094,
+            0.0006,
+            0.2181
+          ],
+          "arm": [
+            -0.0018,
+            -0.008,
+            0.0045
+          ],
+          "mobile": [
+            0.0003,
+            -0.0047,
+            0.0052
+          ],
+          "desk": [
+            -0.0009,
+            -0.0023,
+            0.0006
+          ]
+        },
+        "repair": {
+          "cash": [
+            17.9777,
+            12.6598,
+            23.2956
+          ],
+          "orders": [
+            4.1914,
+            3.5643,
+            4.8185
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -2.168,
+            -2.6432,
+            -1.6927
+          ],
+          "donor_updates": [
+            -2.1992,
+            -2.404,
+            -1.9944
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            -5.5156,
+            -5.9351,
+            -5.0962
+          ],
+          "repaired_orders": [
+            -31.8047,
+            -32.3132,
+            -31.2962
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.1153,
+            0.1037,
+            0.1269
+          ],
+          "mobile": [
+            0.0484,
+            0.0377,
+            0.0591
+          ],
+          "desk": [
+            -0.0285,
+            -0.0326,
+            -0.0244
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            13.2836,
+            7.6313,
+            18.9359
+          ],
+          "orders": [
+            3.1875,
+            2.5213,
+            3.8537
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -1.2383,
+            -1.7309,
+            -0.7456
+          ],
+          "donor_updates": [
+            -3.8984,
+            -4.1308,
+            -3.6661
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            -7.6484,
+            -8.1,
+            -7.1969
+          ],
+          "repaired_orders": [
+            -32.1055,
+            -32.6061,
+            -31.6049
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.117,
+            0.1058,
+            0.1282
+          ],
+          "mobile": [
+            0.0446,
+            0.0337,
+            0.0556
+          ],
+          "desk": [
+            -0.0491,
+            -0.0534,
+            -0.0447
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            3.3898,
+            -2.4219,
+            9.2016
+          ],
+          "orders": [
+            2.5703,
+            1.8849,
+            3.2557
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.9805,
+            -1.5074,
+            -0.4535
+          ],
+          "donor_updates": [
+            -3.8984,
+            -4.1308,
+            -3.6661
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.117,
+            0.1058,
+            0.1282
+          ],
+          "mobile": [
+            0.0963,
+            0.0858,
+            0.1067
+          ],
+          "desk": [
+            -0.0491,
+            -0.0534,
+            -0.0447
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            22.5969,
+            16.697,
+            28.4967
+          ],
+          "orders": [
+            3.6133,
+            2.9183,
+            4.3082
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -1.5312,
+            -2.0658,
+            -0.9967
+          ],
+          "donor_updates": [
+            -3.8984,
+            -4.1308,
+            -3.6661
+          ],
+          "local_updates": [
+            -12.7578,
+            -13.1903,
+            -12.3253
+          ],
+          "repair_updates": [
+            4.7578,
+            4.4931,
+            5.0226
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            -0.0823,
+            -0.0922,
+            -0.0724
+          ],
+          "mobile": [
+            -0.0626,
+            -0.0717,
+            -0.0534
+          ],
+          "desk": [
+            -0.0491,
+            -0.0534,
+            -0.0447
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            21.4695,
+            15.8508,
+            27.0883
+          ],
+          "orders": [
+            3.9414,
+            3.2907,
+            4.5922
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -2.0781,
+            -2.5682,
+            -1.5881
+          ],
+          "donor_updates": [
+            -2.2109,
+            -2.4128,
+            -2.009
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            -5.3984,
+            -5.8136,
+            -4.9832
+          ],
+          "repaired_orders": [
+            -32.0859,
+            -32.5991,
+            -31.5728
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.1172,
+            0.1056,
+            0.1288
+          ],
+          "mobile": [
+            0.0549,
+            0.043,
+            0.0669
+          ],
+          "desk": [
+            -0.0295,
+            -0.0336,
+            -0.0255
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            39.0844,
+            33.8551,
+            44.3137
+          ],
+          "orders": [
+            6.2891,
+            5.6656,
+            6.9125
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -3.0508,
+            -3.5412,
+            -2.5604
+          ],
+          "donor_updates": [
+            -2.1016,
+            -2.3059,
+            -1.8972
+          ],
+          "local_updates": [
+            16.8516,
+            16.4553,
+            17.2478
+          ],
+          "repair_updates": [
+            -6.2422,
+            -6.6785,
+            -5.8059
+          ],
+          "repaired_orders": [
+            -29.7344,
+            -30.229,
+            -29.2397
+          ],
+          "retirements": [
+            1.6289,
+            1.5272,
+            1.7306
+          ],
+          "installs": [
+            7.3203,
+            7.1269,
+            7.5137
+          ],
+          "arm": [
+            0.1158,
+            0.1042,
+            0.1273
+          ],
+          "mobile": [
+            0.0921,
+            0.0834,
+            0.1009
+          ],
+          "desk": [
+            -0.0278,
+            -0.0319,
+            -0.0237
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        31.1148,
+        24.3066,
+        37.9231
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        4.6941,
+        1.9494,
+        7.4389
+      ],
+      "verified_minus_raw": [
+        -18.0797,
+        -22.8431,
+        -13.3163
+      ],
+      "repair_minus_local": [
+        16.527,
+        10.5676,
+        22.4864
+      ],
+      "repair_minus_raw": [
+        -14.5879,
+        -19.7745,
+        -9.4013
+      ],
+      "repair_spare_minus_raw_spare": [
+        -9.8937,
+        -15.2833,
+        -4.5042
+      ],
+      "repair_spare_minus_local_spare": [
+        9.3133,
+        3.411,
+        15.2155
+      ],
+      "repair_learning_minus_frozen": [
+        21.1066,
+        17.3719,
+        24.8414
+      ],
+      "verified_minus_repair": [
+        -3.4918,
+        -7.1177,
+        0.1341
+      ],
+      "pair_fee_ceiling": 0.2562
+    },
+    "stable_lag2": {
+      "means": {
+        "fixed": {
+          "cash": 936.3375,
+          "orders": 134.35547,
+          "audits": 0.0,
+          "eligible": 33.99609,
+          "donor_updates": 15.39844,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.87018,
+          "mobile": 0.87018,
+          "desk": 0.87018
+        },
+        "local": {
+          "cash": 756.71758,
+          "orders": 113.45312,
+          "audits": 0.0,
+          "eligible": 47.25,
+          "donor_updates": 9.37891,
+          "local_updates": 26.71875,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.75407,
+          "mobile": 0.70361,
+          "desk": 0.83784
+        },
+        "raw": {
+          "cash": 936.3375,
+          "orders": 134.35547,
+          "audits": 0.0,
+          "eligible": 33.99609,
+          "donor_updates": 15.39844,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.87018,
+          "mobile": 0.87018,
+          "desk": 0.87018
+        },
+        "adaptive": {
+          "cash": 893.23906,
+          "orders": 131.95703,
+          "audits": 10.0,
+          "eligible": 35.64453,
+          "donor_updates": 13.44922,
+          "local_updates": 12.19141,
+          "repair_updates": 3.75781,
+          "repaired_orders": 0.0,
+          "retirements": 0.00781,
+          "installs": 9.99219,
+          "arm": 0.84793,
+          "mobile": 0.85394,
+          "desk": 0.86059
+        },
+        "rotation": {
+          "cash": 892.10781,
+          "orders": 131.76562,
+          "audits": 10.0,
+          "eligible": 35.80859,
+          "donor_updates": 13.41797,
+          "local_updates": 12.25781,
+          "repair_updates": 3.80859,
+          "repaired_orders": 0.0,
+          "retirements": 0.00781,
+          "installs": 9.99219,
+          "arm": 0.84703,
+          "mobile": 0.85452,
+          "desk": 0.86045
+        },
+        "no_adapter": {
+          "cash": 893.56328,
+          "orders": 131.98828,
+          "audits": 10.0,
+          "eligible": 35.62109,
+          "donor_updates": 13.44922,
+          "local_updates": 12.15234,
+          "repair_updates": 3.75781,
+          "repaired_orders": 0.0,
+          "retirements": 0.01953,
+          "installs": 9.98047,
+          "arm": 0.84568,
+          "mobile": 0.85371,
+          "desk": 0.86048
+        },
+        "local_spend": {
+          "cash": 893.47656,
+          "orders": 131.97656,
+          "audits": 10.0,
+          "eligible": 35.63281,
+          "donor_updates": 13.45703,
+          "local_updates": 15.91797,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.02344,
+          "installs": 9.97266,
+          "arm": 0.84749,
+          "mobile": 0.85379,
+          "desk": 0.86068
+        },
+        "constant_training": {
+          "cash": 893.23906,
+          "orders": 131.95703,
+          "audits": 10.0,
+          "eligible": 35.64453,
+          "donor_updates": 13.44922,
+          "local_updates": 12.19141,
+          "repair_updates": 3.75781,
+          "repaired_orders": 0.0,
+          "retirements": 0.00781,
+          "installs": 9.99219,
+          "arm": 0.84793,
+          "mobile": 0.85394,
+          "desk": 0.86059
+        },
+        "unpooled_adapter": {
+          "cash": 893.9,
+          "orders": 132.03906,
+          "audits": 10.0,
+          "eligible": 35.58594,
+          "donor_updates": 13.45312,
+          "local_updates": 12.14453,
+          "repair_updates": 3.74609,
+          "repaired_orders": 0.0,
+          "retirements": 0.01172,
+          "installs": 9.98828,
+          "arm": 0.84687,
+          "mobile": 0.85456,
+          "desk": 0.86061
+        },
+        "frozen_prior": {
+          "cash": 893.9,
+          "orders": 132.03906,
+          "audits": 10.0,
+          "eligible": 35.58594,
+          "donor_updates": 13.45312,
+          "local_updates": 12.14062,
+          "repair_updates": 3.75,
+          "repaired_orders": 0.0,
+          "retirements": 0.01172,
+          "installs": 9.98828,
+          "arm": 0.84669,
+          "mobile": 0.85468,
+          "desk": 0.86061
+        },
+        "verified_pair": {
+          "cash": 891.22109,
+          "orders": 131.98047,
+          "audits": 10.0,
+          "eligible": 35.60547,
+          "donor_updates": 13.45312,
+          "local_updates": 12.14453,
+          "repair_updates": 3.76953,
+          "repaired_orders": 0.0,
+          "retirements": 0.01172,
+          "installs": 9.98828,
+          "arm": 0.84716,
+          "mobile": 0.85369,
+          "desk": 0.86063
+        },
+        "repair": {
+          "cash": 893.55898,
+          "orders": 130.08594,
+          "audits": 0.0,
+          "eligible": 36.08203,
+          "donor_updates": 14.46484,
+          "local_updates": 0.0,
+          "repair_updates": 7.42188,
+          "repaired_orders": 40.92188,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.86547,
+          "mobile": 0.838,
+          "desk": 0.86547
+        },
+        "repair_spare": {
+          "cash": 900.91172,
+          "orders": 131.0625,
+          "audits": 0.0,
+          "eligible": 35.46875,
+          "donor_updates": 15.39844,
+          "local_updates": 0.0,
+          "repair_updates": 8.32031,
+          "repaired_orders": 41.46484,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.87018,
+          "mobile": 0.84355,
+          "desk": 0.87018
+        },
+        "raw_spare": {
+          "cash": 936.3375,
+          "orders": 134.35547,
+          "audits": 0.0,
+          "eligible": 33.99609,
+          "donor_updates": 15.39844,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.87018,
+          "mobile": 0.87018,
+          "desk": 0.87018
+        },
+        "local_spare": {
+          "cash": 760.97422,
+          "orders": 114.96875,
+          "audits": 0.0,
+          "eligible": 45.73438,
+          "donor_updates": 15.39844,
+          "local_updates": 26.71875,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.75407,
+          "mobile": 0.70361,
+          "desk": 0.87018
+        },
+        "fixed_verified": {
+          "cash": 899.49063,
+          "orders": 131.10156,
+          "audits": 0.0,
+          "eligible": 35.58203,
+          "donor_updates": 14.52344,
+          "local_updates": 0.0,
+          "repair_updates": 6.99219,
+          "repaired_orders": 41.90625,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.86578,
+          "mobile": 0.84932,
+          "desk": 0.86578
+        },
+        "fixed_frozen_prior": {
+          "cash": 840.39922,
+          "orders": 124.80078,
+          "audits": 0.0,
+          "eligible": 38.5,
+          "donor_updates": 14.24219,
+          "local_updates": 0.0,
+          "repair_updates": 9.45312,
+          "repaired_orders": 35.68359,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.86454,
+          "mobile": 0.68246,
+          "desk": 0.86454
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            -43.0984,
+            -45.3752,
+            -40.8217
+          ],
+          "orders": [
+            -2.3984,
+            -2.6823,
+            -2.1146
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.6484,
+            1.4208,
+            1.876
+          ],
+          "donor_updates": [
+            -1.9492,
+            -2.1222,
+            -1.7763
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0222,
+            -0.0255,
+            -0.019
+          ],
+          "mobile": [
+            -0.0162,
+            -0.019,
+            -0.0135
+          ],
+          "desk": [
+            -0.0096,
+            -0.0113,
+            -0.0079
+          ]
+        },
+        "local": {
+          "cash": [
+            136.5215,
+            131.3988,
+            141.6442
+          ],
+          "orders": [
+            18.5039,
+            17.8913,
+            19.1166
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -11.6055,
+            -12.0639,
+            -11.147
+          ],
+          "donor_updates": [
+            4.0703,
+            3.8293,
+            4.3113
+          ],
+          "local_updates": [
+            -14.5273,
+            -14.9429,
+            -14.1118
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            0.0939,
+            0.0876,
+            0.1001
+          ],
+          "mobile": [
+            0.1503,
+            0.1437,
+            0.1569
+          ],
+          "desk": [
+            0.0227,
+            0.0204,
+            0.0251
+          ]
+        },
+        "raw": {
+          "cash": [
+            -43.0984,
+            -45.3752,
+            -40.8217
+          ],
+          "orders": [
+            -2.3984,
+            -2.6823,
+            -2.1146
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.6484,
+            1.4208,
+            1.876
+          ],
+          "donor_updates": [
+            -1.9492,
+            -2.1222,
+            -1.7763
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0222,
+            -0.0255,
+            -0.019
+          ],
+          "mobile": [
+            -0.0162,
+            -0.019,
+            -0.0135
+          ],
+          "desk": [
+            -0.0096,
+            -0.0113,
+            -0.0079
+          ]
+        },
+        "rotation": {
+          "cash": [
+            1.1313,
+            0.1428,
+            2.1197
+          ],
+          "orders": [
+            0.1914,
+            0.0712,
+            0.3116
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1641,
+            -0.2679,
+            -0.0603
+          ],
+          "donor_updates": [
+            0.0312,
+            0.005,
+            0.0575
+          ],
+          "local_updates": [
+            -0.0664,
+            -0.1383,
+            0.0055
+          ],
+          "repair_updates": [
+            -0.0508,
+            -0.0983,
+            -0.0033
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "installs": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "arm": [
+            0.0009,
+            0.0001,
+            0.0018
+          ],
+          "mobile": [
+            -0.0006,
+            -0.0015,
+            0.0003
+          ],
+          "desk": [
+            0.0001,
+            -0.0,
+            0.0003
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            -0.3242,
+            -0.9104,
+            0.262
+          ],
+          "orders": [
+            -0.0312,
+            -0.0998,
+            0.0373
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0234,
+            -0.0285,
+            0.0754
+          ],
+          "donor_updates": [
+            0.0,
+            -0.0108,
+            0.0108
+          ],
+          "local_updates": [
+            0.0391,
+            -0.0041,
+            0.0822
+          ],
+          "repair_updates": [
+            0.0,
+            -0.0153,
+            0.0153
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0117,
+            -0.0249,
+            0.0015
+          ],
+          "installs": [
+            0.0117,
+            -0.0015,
+            0.0249
+          ],
+          "arm": [
+            0.0023,
+            -0.0002,
+            0.0047
+          ],
+          "mobile": [
+            0.0002,
+            -0.0007,
+            0.0012
+          ],
+          "desk": [
+            0.0001,
+            -0.0001,
+            0.0004
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -0.2375,
+            -0.8899,
+            0.4149
+          ],
+          "orders": [
+            -0.0195,
+            -0.0981,
+            0.059
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0117,
+            -0.0529,
+            0.0763
+          ],
+          "donor_updates": [
+            -0.0078,
+            -0.0186,
+            0.003
+          ],
+          "local_updates": [
+            -3.7266,
+            -3.9678,
+            -3.4853
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0156,
+            -0.0343,
+            0.0031
+          ],
+          "installs": [
+            0.0195,
+            -0.0034,
+            0.0424
+          ],
+          "arm": [
+            0.0004,
+            -0.0013,
+            0.0022
+          ],
+          "mobile": [
+            0.0002,
+            -0.0008,
+            0.0011
+          ],
+          "desk": [
+            -0.0001,
+            -0.0002,
+            0.0
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "donor_updates": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_updates": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "repair_updates": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "installs": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "arm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mobile": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "desk": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            -0.6609,
+            -1.1988,
+            -0.1231
+          ],
+          "orders": [
+            -0.082,
+            -0.145,
+            -0.0191
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0586,
+            0.0088,
+            0.1084
+          ],
+          "donor_updates": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "local_updates": [
+            0.0469,
+            0.0082,
+            0.0856
+          ],
+          "repair_updates": [
+            0.0117,
+            -0.0015,
+            0.0249
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "installs": [
+            0.0039,
+            -0.0037,
+            0.0116
+          ],
+          "arm": [
+            0.0011,
+            -0.0002,
+            0.0023
+          ],
+          "mobile": [
+            -0.0006,
+            -0.0014,
+            0.0002
+          ],
+          "desk": [
+            -0.0,
+            -0.0001,
+            0.0
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            -0.6609,
+            -1.1988,
+            -0.1231
+          ],
+          "orders": [
+            -0.082,
+            -0.145,
+            -0.0191
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0586,
+            0.0088,
+            0.1084
+          ],
+          "donor_updates": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "local_updates": [
+            0.0508,
+            0.0114,
+            0.0902
+          ],
+          "repair_updates": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "installs": [
+            0.0039,
+            -0.0037,
+            0.0116
+          ],
+          "arm": [
+            0.0012,
+            -0.0,
+            0.0025
+          ],
+          "mobile": [
+            -0.0007,
+            -0.0016,
+            0.0001
+          ],
+          "desk": [
+            -0.0,
+            -0.0001,
+            0.0
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            2.018,
+            1.428,
+            2.608
+          ],
+          "orders": [
+            -0.0234,
+            -0.0945,
+            0.0476
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0391,
+            -0.0221,
+            0.1002
+          ],
+          "donor_updates": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "local_updates": [
+            0.0469,
+            0.0039,
+            0.0899
+          ],
+          "repair_updates": [
+            -0.0117,
+            -0.032,
+            0.0085
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "installs": [
+            0.0039,
+            -0.0037,
+            0.0116
+          ],
+          "arm": [
+            0.0008,
+            -0.0009,
+            0.0025
+          ],
+          "mobile": [
+            0.0003,
+            -0.0006,
+            0.0011
+          ],
+          "desk": [
+            -0.0,
+            -0.0001,
+            0.0
+          ]
+        },
+        "repair": {
+          "cash": [
+            -0.3199,
+            -3.5391,
+            2.8993
+          ],
+          "orders": [
+            1.8711,
+            1.5172,
+            2.225
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -0.4375,
+            -0.6923,
+            -0.1827
+          ],
+          "donor_updates": [
+            -1.0156,
+            -1.1612,
+            -0.8701
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            -3.6641,
+            -4.0006,
+            -3.3275
+          ],
+          "repaired_orders": [
+            -40.9219,
+            -41.3371,
+            -40.5066
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0175,
+            -0.0205,
+            -0.0146
+          ],
+          "mobile": [
+            0.0159,
+            0.0107,
+            0.0212
+          ],
+          "desk": [
+            -0.0049,
+            -0.0063,
+            -0.0034
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            -7.6727,
+            -10.8758,
+            -4.4695
+          ],
+          "orders": [
+            0.8945,
+            0.5368,
+            1.2522
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            0.1758,
+            -0.0843,
+            0.4358
+          ],
+          "donor_updates": [
+            -1.9492,
+            -2.1222,
+            -1.7763
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            -4.5625,
+            -4.9067,
+            -4.2183
+          ],
+          "repaired_orders": [
+            -41.4648,
+            -41.8799,
+            -41.0498
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0222,
+            -0.0255,
+            -0.019
+          ],
+          "mobile": [
+            0.0104,
+            0.0046,
+            0.0161
+          ],
+          "desk": [
+            -0.0096,
+            -0.0113,
+            -0.0079
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            -43.0984,
+            -45.3752,
+            -40.8217
+          ],
+          "orders": [
+            -2.3984,
+            -2.6823,
+            -2.1146
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.6484,
+            1.4208,
+            1.876
+          ],
+          "donor_updates": [
+            -1.9492,
+            -2.1222,
+            -1.7763
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0222,
+            -0.0255,
+            -0.019
+          ],
+          "mobile": [
+            -0.0162,
+            -0.019,
+            -0.0135
+          ],
+          "desk": [
+            -0.0096,
+            -0.0113,
+            -0.0079
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            132.2648,
+            127.1767,
+            137.353
+          ],
+          "orders": [
+            16.9883,
+            16.3931,
+            17.5834
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -10.0898,
+            -10.5205,
+            -9.6592
+          ],
+          "donor_updates": [
+            -1.9492,
+            -2.1222,
+            -1.7763
+          ],
+          "local_updates": [
+            -14.5273,
+            -14.9429,
+            -14.1118
+          ],
+          "repair_updates": [
+            3.7578,
+            3.521,
+            3.9946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            0.0939,
+            0.0876,
+            0.1001
+          ],
+          "mobile": [
+            0.1503,
+            0.1437,
+            0.1569
+          ],
+          "desk": [
+            -0.0096,
+            -0.0113,
+            -0.0079
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            -6.2516,
+            -9.4439,
+            -3.0592
+          ],
+          "orders": [
+            0.8555,
+            0.5058,
+            1.2051
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            0.0625,
+            -0.1795,
+            0.3045
+          ],
+          "donor_updates": [
+            -1.0742,
+            -1.216,
+            -0.9324
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            -3.2344,
+            -3.5705,
+            -2.8982
+          ],
+          "repaired_orders": [
+            -41.9062,
+            -42.3418,
+            -41.4707
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0179,
+            -0.0208,
+            -0.0149
+          ],
+          "mobile": [
+            0.0046,
+            -0.0007,
+            0.0099
+          ],
+          "desk": [
+            -0.0052,
+            -0.0066,
+            -0.0037
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            52.8398,
+            49.23,
+            56.4497
+          ],
+          "orders": [
+            7.1562,
+            6.7644,
+            7.5481
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -2.8555,
+            -3.1512,
+            -2.5598
+          ],
+          "donor_updates": [
+            -0.793,
+            -0.9437,
+            -0.6422
+          ],
+          "local_updates": [
+            12.1914,
+            11.7967,
+            12.5861
+          ],
+          "repair_updates": [
+            -5.6953,
+            -6.0781,
+            -5.3125
+          ],
+          "repaired_orders": [
+            -35.6836,
+            -36.1311,
+            -35.2361
+          ],
+          "retirements": [
+            0.0078,
+            -0.003,
+            0.0186
+          ],
+          "installs": [
+            9.9922,
+            9.9814,
+            10.003
+          ],
+          "arm": [
+            -0.0166,
+            -0.0196,
+            -0.0136
+          ],
+          "mobile": [
+            0.1715,
+            0.1692,
+            0.1738
+          ],
+          "desk": [
+            -0.0039,
+            -0.0054,
+            -0.0025
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        179.6199,
+        174.605,
+        184.6348
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        7.3527,
+        5.8281,
+        8.8774
+      ],
+      "verified_minus_raw": [
+        -36.8469,
+        -39.5716,
+        -34.1221
+      ],
+      "repair_minus_local": [
+        136.8414,
+        132.1051,
+        141.5777
+      ],
+      "repair_minus_raw": [
+        -42.7785,
+        -45.5087,
+        -40.0483
+      ],
+      "repair_spare_minus_raw_spare": [
+        -35.4258,
+        -37.9175,
+        -32.9341
+      ],
+      "repair_spare_minus_local_spare": [
+        139.9375,
+        135.321,
+        144.554
+      ],
+      "repair_learning_minus_frozen": [
+        53.1598,
+        49.6942,
+        56.6253
+      ],
+      "verified_minus_repair": [
+        5.9316,
+        4.0837,
+        7.7796
+      ],
+      "pair_fee_ceiling": 1.4483
+    },
+    "revert_lag2": {
+      "means": {
+        "fixed": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "local": {
+          "cash": 651.11836,
+          "orders": 96.79688,
+          "audits": 0.0,
+          "eligible": 60.99219,
+          "donor_updates": 12.32031,
+          "local_updates": 30.87891,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.611,
+          "mobile": 0.58859,
+          "desk": 0.64729
+        },
+        "raw": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "adaptive": {
+          "cash": 705.64297,
+          "orders": 106.45703,
+          "audits": 10.0,
+          "eligible": 54.29688,
+          "donor_updates": 17.53906,
+          "local_updates": 17.03906,
+          "repair_updates": 4.78906,
+          "repaired_orders": 0.0,
+          "retirements": 1.48438,
+          "installs": 7.96875,
+          "arm": 0.64684,
+          "mobile": 0.66962,
+          "desk": 0.70964
+        },
+        "rotation": {
+          "cash": 704.27461,
+          "orders": 106.27344,
+          "audits": 10.0,
+          "eligible": 54.44141,
+          "donor_updates": 17.51562,
+          "local_updates": 17.12109,
+          "repair_updates": 4.8125,
+          "repaired_orders": 0.0,
+          "retirements": 1.47656,
+          "installs": 7.94141,
+          "arm": 0.64652,
+          "mobile": 0.67422,
+          "desk": 0.70941
+        },
+        "no_adapter": {
+          "cash": 705.82695,
+          "orders": 106.51562,
+          "audits": 10.0,
+          "eligible": 54.19141,
+          "donor_updates": 17.50391,
+          "local_updates": 17.07031,
+          "repair_updates": 4.6875,
+          "repaired_orders": 0.0,
+          "retirements": 1.60938,
+          "installs": 7.69141,
+          "arm": 0.64692,
+          "mobile": 0.67203,
+          "desk": 0.70794
+        },
+        "local_spend": {
+          "cash": 708.15547,
+          "orders": 106.78516,
+          "audits": 10.0,
+          "eligible": 54.05469,
+          "donor_updates": 17.54688,
+          "local_updates": 21.6875,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.67188,
+          "installs": 7.57422,
+          "arm": 0.64827,
+          "mobile": 0.67324,
+          "desk": 0.70997
+        },
+        "constant_training": {
+          "cash": 704.17891,
+          "orders": 106.28906,
+          "audits": 10.0,
+          "eligible": 54.41797,
+          "donor_updates": 17.51562,
+          "local_updates": 16.49609,
+          "repair_updates": 5.41797,
+          "repaired_orders": 0.0,
+          "retirements": 1.48828,
+          "installs": 7.98438,
+          "arm": 0.64463,
+          "mobile": 0.66812,
+          "desk": 0.70897
+        },
+        "unpooled_adapter": {
+          "cash": 706.20273,
+          "orders": 106.54688,
+          "audits": 10.0,
+          "eligible": 54.20703,
+          "donor_updates": 17.51172,
+          "local_updates": 17.00391,
+          "repair_updates": 4.76953,
+          "repaired_orders": 0.0,
+          "retirements": 1.53516,
+          "installs": 7.82031,
+          "arm": 0.64592,
+          "mobile": 0.67216,
+          "desk": 0.70851
+        },
+        "frozen_prior": {
+          "cash": 706.24219,
+          "orders": 106.57812,
+          "audits": 10.0,
+          "eligible": 54.16797,
+          "donor_updates": 17.52734,
+          "local_updates": 16.97656,
+          "repair_updates": 4.75391,
+          "repaired_orders": 0.0,
+          "retirements": 1.57422,
+          "installs": 7.76172,
+          "arm": 0.64742,
+          "mobile": 0.67308,
+          "desk": 0.7087
+        },
+        "verified_pair": {
+          "cash": 704.33594,
+          "orders": 106.62891,
+          "audits": 10.0,
+          "eligible": 54.22656,
+          "donor_updates": 17.53516,
+          "local_updates": 16.97266,
+          "repair_updates": 4.85156,
+          "repaired_orders": 0.0,
+          "retirements": 1.42969,
+          "installs": 8.0625,
+          "arm": 0.65146,
+          "mobile": 0.66639,
+          "desk": 0.71032
+        },
+        "repair": {
+          "cash": 728.9,
+          "orders": 107.49219,
+          "audits": 0.0,
+          "eligible": 52.83984,
+          "donor_updates": 19.82812,
+          "local_updates": 0.0,
+          "repair_updates": 9.75,
+          "repaired_orders": 32.99609,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74089,
+          "mobile": 0.64131,
+          "desk": 0.74089
+        },
+        "repair_spare": {
+          "cash": 736.79805,
+          "orders": 108.88281,
+          "audits": 0.0,
+          "eligible": 51.69922,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 11.85156,
+          "repaired_orders": 33.40625,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.65986,
+          "desk": 0.76006
+        },
+        "raw_spare": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "local_spare": {
+          "cash": 662.57813,
+          "orders": 100.34766,
+          "audits": 0.0,
+          "eligible": 57.44141,
+          "donor_updates": 21.46484,
+          "local_updates": 30.87891,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.611,
+          "mobile": 0.58859,
+          "desk": 0.76006
+        },
+        "fixed_verified": {
+          "cash": 734.35938,
+          "orders": 108.58984,
+          "audits": 0.0,
+          "eligible": 52.38672,
+          "donor_updates": 19.86719,
+          "local_updates": 0.0,
+          "repair_updates": 9.36719,
+          "repaired_orders": 34.12109,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74064,
+          "mobile": 0.69639,
+          "desk": 0.74064
+        },
+        "fixed_frozen_prior": {
+          "cash": 718.54922,
+          "orders": 106.44141,
+          "audits": 0.0,
+          "eligible": 53.43359,
+          "donor_updates": 19.79297,
+          "local_updates": 0.0,
+          "repair_updates": 10.23828,
+          "repaired_orders": 31.99219,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74128,
+          "mobile": 0.62077,
+          "desk": 0.74128
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            -68.2652,
+            -72.6899,
+            -63.8406
+          ],
+          "orders": [
+            -5.7812,
+            -6.307,
+            -5.2555
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            4.0703,
+            3.6755,
+            4.4651
+          ],
+          "donor_updates": [
+            -3.9258,
+            -4.1651,
+            -3.6864
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.1132,
+            -0.1218,
+            -0.1046
+          ],
+          "mobile": [
+            -0.0904,
+            -0.0972,
+            -0.0837
+          ],
+          "desk": [
+            -0.0504,
+            -0.0549,
+            -0.0459
+          ]
+        },
+        "local": {
+          "cash": [
+            54.5246,
+            48.9613,
+            60.0879
+          ],
+          "orders": [
+            9.6602,
+            8.9708,
+            10.3495
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -6.6953,
+            -7.2552,
+            -6.1355
+          ],
+          "donor_updates": [
+            5.2188,
+            4.9285,
+            5.509
+          ],
+          "local_updates": [
+            -13.8398,
+            -14.2898,
+            -13.3899
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            0.0358,
+            0.0252,
+            0.0464
+          ],
+          "mobile": [
+            0.081,
+            0.0697,
+            0.0924
+          ],
+          "desk": [
+            0.0624,
+            0.056,
+            0.0687
+          ]
+        },
+        "raw": {
+          "cash": [
+            -68.2652,
+            -72.6899,
+            -63.8406
+          ],
+          "orders": [
+            -5.7812,
+            -6.307,
+            -5.2555
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            4.0703,
+            3.6755,
+            4.4651
+          ],
+          "donor_updates": [
+            -3.9258,
+            -4.1651,
+            -3.6864
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.1132,
+            -0.1218,
+            -0.1046
+          ],
+          "mobile": [
+            -0.0904,
+            -0.0972,
+            -0.0837
+          ],
+          "desk": [
+            -0.0504,
+            -0.0549,
+            -0.0459
+          ]
+        },
+        "rotation": {
+          "cash": [
+            1.3684,
+            -0.4894,
+            3.2261
+          ],
+          "orders": [
+            0.1836,
+            -0.0315,
+            0.3987
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1445,
+            -0.3174,
+            0.0283
+          ],
+          "donor_updates": [
+            0.0234,
+            -0.0318,
+            0.0787
+          ],
+          "local_updates": [
+            -0.082,
+            -0.2046,
+            0.0405
+          ],
+          "repair_updates": [
+            -0.0234,
+            -0.0993,
+            0.0524
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0078,
+            -0.0356,
+            0.0512
+          ],
+          "installs": [
+            0.0273,
+            -0.0408,
+            0.0954
+          ],
+          "arm": [
+            0.0003,
+            -0.0039,
+            0.0045
+          ],
+          "mobile": [
+            -0.0046,
+            -0.0071,
+            -0.0021
+          ],
+          "desk": [
+            0.0002,
+            -0.0011,
+            0.0015
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            -0.184,
+            -2.495,
+            2.127
+          ],
+          "orders": [
+            -0.0586,
+            -0.3333,
+            0.2161
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.1055,
+            -0.1113,
+            0.3222
+          ],
+          "donor_updates": [
+            0.0352,
+            -0.0173,
+            0.0876
+          ],
+          "local_updates": [
+            -0.0312,
+            -0.178,
+            0.1155
+          ],
+          "repair_updates": [
+            0.1016,
+            -0.0017,
+            0.2049
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.125,
+            -0.1883,
+            -0.0617
+          ],
+          "installs": [
+            0.2773,
+            0.183,
+            0.3717
+          ],
+          "arm": [
+            -0.0001,
+            -0.006,
+            0.0059
+          ],
+          "mobile": [
+            -0.0024,
+            -0.0061,
+            0.0012
+          ],
+          "desk": [
+            0.0017,
+            0.0002,
+            0.0033
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -2.5125,
+            -5.054,
+            0.029
+          ],
+          "orders": [
+            -0.3281,
+            -0.6292,
+            -0.027
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.2422,
+            -0.0025,
+            0.4868
+          ],
+          "donor_updates": [
+            -0.0078,
+            -0.0692,
+            0.0535
+          ],
+          "local_updates": [
+            -4.6484,
+            -4.9485,
+            -4.3483
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1875,
+            -0.2638,
+            -0.1112
+          ],
+          "installs": [
+            0.3945,
+            0.2744,
+            0.5146
+          ],
+          "arm": [
+            -0.0014,
+            -0.0088,
+            0.0059
+          ],
+          "mobile": [
+            -0.0036,
+            -0.0081,
+            0.0009
+          ],
+          "desk": [
+            -0.0003,
+            -0.0023,
+            0.0016
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            1.4641,
+            0.7963,
+            2.1318
+          ],
+          "orders": [
+            0.168,
+            0.0937,
+            0.2423
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1211,
+            -0.184,
+            -0.0582
+          ],
+          "donor_updates": [
+            0.0234,
+            0.0049,
+            0.042
+          ],
+          "local_updates": [
+            0.543,
+            0.4363,
+            0.6497
+          ],
+          "repair_updates": [
+            -0.6289,
+            -0.7416,
+            -0.5162
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0039,
+            -0.0116,
+            0.0037
+          ],
+          "installs": [
+            -0.0156,
+            -0.0372,
+            0.006
+          ],
+          "arm": [
+            0.0022,
+            0.0004,
+            0.004
+          ],
+          "mobile": [
+            0.0015,
+            0.0,
+            0.003
+          ],
+          "desk": [
+            0.0007,
+            -0.0,
+            0.0014
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            -0.5598,
+            -2.7596,
+            1.6401
+          ],
+          "orders": [
+            -0.0898,
+            -0.3505,
+            0.1709
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0898,
+            -0.1109,
+            0.2906
+          ],
+          "donor_updates": [
+            0.0273,
+            -0.0192,
+            0.0739
+          ],
+          "local_updates": [
+            0.0352,
+            -0.0877,
+            0.1581
+          ],
+          "repair_updates": [
+            0.0195,
+            -0.0734,
+            0.1125
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0508,
+            -0.1063,
+            0.0047
+          ],
+          "installs": [
+            0.1484,
+            0.0671,
+            0.2298
+          ],
+          "arm": [
+            0.0009,
+            -0.0046,
+            0.0065
+          ],
+          "mobile": [
+            -0.0025,
+            -0.0056,
+            0.0005
+          ],
+          "desk": [
+            0.0011,
+            -0.0002,
+            0.0025
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            -0.5992,
+            -2.8441,
+            1.6457
+          ],
+          "orders": [
+            -0.1211,
+            -0.3843,
+            0.1421
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.1289,
+            -0.0739,
+            0.3317
+          ],
+          "donor_updates": [
+            0.0117,
+            -0.0349,
+            0.0584
+          ],
+          "local_updates": [
+            0.0625,
+            -0.0624,
+            0.1874
+          ],
+          "repair_updates": [
+            0.0352,
+            -0.0558,
+            0.1261
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0898,
+            -0.1487,
+            -0.031
+          ],
+          "installs": [
+            0.207,
+            0.1182,
+            0.2958
+          ],
+          "arm": [
+            -0.0006,
+            -0.0063,
+            0.0051
+          ],
+          "mobile": [
+            -0.0035,
+            -0.0065,
+            -0.0004
+          ],
+          "desk": [
+            0.0009,
+            -0.0005,
+            0.0024
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            1.307,
+            -1.0593,
+            3.6734
+          ],
+          "orders": [
+            -0.1719,
+            -0.4594,
+            0.1156
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0703,
+            -0.1645,
+            0.3051
+          ],
+          "donor_updates": [
+            0.0039,
+            -0.0607,
+            0.0685
+          ],
+          "local_updates": [
+            0.0664,
+            -0.075,
+            0.2078
+          ],
+          "repair_updates": [
+            -0.0625,
+            -0.1586,
+            0.0336
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0547,
+            -0.0063,
+            0.1157
+          ],
+          "installs": [
+            -0.0938,
+            -0.1864,
+            -0.0011
+          ],
+          "arm": [
+            -0.0046,
+            -0.0103,
+            0.001
+          ],
+          "mobile": [
+            0.0032,
+            -0.0003,
+            0.0067
+          ],
+          "desk": [
+            -0.0007,
+            -0.0023,
+            0.001
+          ]
+        },
+        "repair": {
+          "cash": [
+            -23.257,
+            -28.1961,
+            -18.318
+          ],
+          "orders": [
+            -1.0352,
+            -1.6129,
+            -0.4574
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.457,
+            1.0175,
+            1.8966
+          ],
+          "donor_updates": [
+            -2.2891,
+            -2.4944,
+            -2.0837
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            -4.9609,
+            -5.36,
+            -4.5619
+          ],
+          "repaired_orders": [
+            -32.9961,
+            -33.4779,
+            -32.5143
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.0941,
+            -0.1023,
+            -0.0858
+          ],
+          "mobile": [
+            0.0283,
+            0.017,
+            0.0396
+          ],
+          "desk": [
+            -0.0312,
+            -0.0354,
+            -0.0271
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            -31.1551,
+            -35.8927,
+            -26.4175
+          ],
+          "orders": [
+            -2.4258,
+            -2.978,
+            -1.8735
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            2.5977,
+            2.1621,
+            3.0332
+          ],
+          "donor_updates": [
+            -3.9258,
+            -4.1651,
+            -3.6864
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            -7.0625,
+            -7.4913,
+            -6.6337
+          ],
+          "repaired_orders": [
+            -33.4062,
+            -33.8918,
+            -32.9207
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.1132,
+            -0.1218,
+            -0.1046
+          ],
+          "mobile": [
+            0.0098,
+            -0.0026,
+            0.0221
+          ],
+          "desk": [
+            -0.0504,
+            -0.0549,
+            -0.0459
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            -68.2652,
+            -72.6899,
+            -63.8406
+          ],
+          "orders": [
+            -5.7812,
+            -6.307,
+            -5.2555
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            4.0703,
+            3.6755,
+            4.4651
+          ],
+          "donor_updates": [
+            -3.9258,
+            -4.1651,
+            -3.6864
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.1132,
+            -0.1218,
+            -0.1046
+          ],
+          "mobile": [
+            -0.0904,
+            -0.0972,
+            -0.0837
+          ],
+          "desk": [
+            -0.0504,
+            -0.0549,
+            -0.0459
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            43.0648,
+            37.5458,
+            48.5839
+          ],
+          "orders": [
+            6.1094,
+            5.4444,
+            6.7744
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -3.1445,
+            -3.6785,
+            -2.6105
+          ],
+          "donor_updates": [
+            -3.9258,
+            -4.1651,
+            -3.6864
+          ],
+          "local_updates": [
+            -13.8398,
+            -14.2898,
+            -13.3899
+          ],
+          "repair_updates": [
+            4.7891,
+            4.5353,
+            5.0429
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            0.0358,
+            0.0252,
+            0.0464
+          ],
+          "mobile": [
+            0.081,
+            0.0697,
+            0.0924
+          ],
+          "desk": [
+            -0.0504,
+            -0.0549,
+            -0.0459
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            -28.7164,
+            -33.4469,
+            -23.9859
+          ],
+          "orders": [
+            -2.1328,
+            -2.6837,
+            -1.5819
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.9102,
+            1.4894,
+            2.331
+          ],
+          "donor_updates": [
+            -2.3281,
+            -2.5326,
+            -2.1237
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            -4.5781,
+            -4.9726,
+            -4.1836
+          ],
+          "repaired_orders": [
+            -34.1211,
+            -34.5968,
+            -33.6454
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.0938,
+            -0.1022,
+            -0.0854
+          ],
+          "mobile": [
+            -0.0268,
+            -0.0366,
+            -0.017
+          ],
+          "desk": [
+            -0.031,
+            -0.0349,
+            -0.0271
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            -12.9062,
+            -17.6169,
+            -8.1956
+          ],
+          "orders": [
+            0.0156,
+            -0.5435,
+            0.5747
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            0.8633,
+            0.4162,
+            1.3103
+          ],
+          "donor_updates": [
+            -2.2539,
+            -2.4587,
+            -2.0491
+          ],
+          "local_updates": [
+            17.0391,
+            16.6372,
+            17.4409
+          ],
+          "repair_updates": [
+            -5.4492,
+            -5.8523,
+            -5.0461
+          ],
+          "repaired_orders": [
+            -31.9922,
+            -32.4181,
+            -31.5663
+          ],
+          "retirements": [
+            1.4844,
+            1.3943,
+            1.5745
+          ],
+          "installs": [
+            7.9688,
+            7.822,
+            8.1155
+          ],
+          "arm": [
+            -0.0944,
+            -0.1029,
+            -0.086
+          ],
+          "mobile": [
+            0.0489,
+            0.0422,
+            0.0555
+          ],
+          "desk": [
+            -0.0316,
+            -0.0357,
+            -0.0276
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        122.7898,
+        116.804,
+        128.7757
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        7.898,
+        5.5576,
+        10.2385
+      ],
+      "verified_minus_raw": [
+        -39.5488,
+        -43.3951,
+        -35.7026
+      ],
+      "repair_minus_local": [
+        77.7816,
+        72.0491,
+        83.5142
+      ],
+      "repair_minus_raw": [
+        -45.0082,
+        -49.272,
+        -40.7444
+      ],
+      "repair_spare_minus_raw_spare": [
+        -37.1102,
+        -41.0028,
+        -33.2175
+      ],
+      "repair_spare_minus_local_spare": [
+        74.2199,
+        68.7966,
+        79.6433
+      ],
+      "repair_learning_minus_frozen": [
+        10.3508,
+        6.984,
+        13.7176
+      ],
+      "verified_minus_repair": [
+        5.4594,
+        2.3447,
+        8.5741
+      ],
+      "pair_fee_ceiling": 1.1828
+    },
+    "late_lag2": {
+      "means": {
+        "fixed": {
+          "cash": 742.7207,
+          "orders": 108.55469,
+          "audits": 0.0,
+          "eligible": 52.20312,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "local": {
+          "cash": 655.98438,
+          "orders": 97.375,
+          "audits": 0.0,
+          "eligible": 60.43359,
+          "donor_updates": 12.26172,
+          "local_updates": 30.55078,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.62296,
+          "mobile": 0.59188,
+          "desk": 0.64453
+        },
+        "raw": {
+          "cash": 742.7207,
+          "orders": 108.55469,
+          "audits": 0.0,
+          "eligible": 52.20312,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "adaptive": {
+          "cash": 696.2207,
+          "orders": 105.24609,
+          "audits": 10.0,
+          "eligible": 54.94141,
+          "donor_updates": 17.42188,
+          "local_updates": 17.23438,
+          "repair_updates": 4.81641,
+          "repaired_orders": 0.0,
+          "retirements": 1.70703,
+          "installs": 7.59375,
+          "arm": 0.56375,
+          "mobile": 0.54976,
+          "desk": 0.70808
+        },
+        "rotation": {
+          "cash": 693.47578,
+          "orders": 104.90234,
+          "audits": 10.0,
+          "eligible": 55.13672,
+          "donor_updates": 17.40625,
+          "local_updates": 17.33594,
+          "repair_updates": 4.88281,
+          "repaired_orders": 0.0,
+          "retirements": 1.73828,
+          "installs": 7.60547,
+          "arm": 0.56371,
+          "mobile": 0.55085,
+          "desk": 0.70796
+        },
+        "no_adapter": {
+          "cash": 695.04922,
+          "orders": 105.12109,
+          "audits": 10.0,
+          "eligible": 54.94141,
+          "donor_updates": 17.41797,
+          "local_updates": 17.36328,
+          "repair_updates": 4.78125,
+          "repaired_orders": 0.0,
+          "retirements": 1.90625,
+          "installs": 7.33203,
+          "arm": 0.56085,
+          "mobile": 0.54478,
+          "desk": 0.70776
+        },
+        "local_spend": {
+          "cash": 698.27852,
+          "orders": 105.52734,
+          "audits": 10.0,
+          "eligible": 54.71875,
+          "donor_updates": 17.4375,
+          "local_updates": 21.97266,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.9375,
+          "installs": 7.20703,
+          "arm": 0.57415,
+          "mobile": 0.54769,
+          "desk": 0.70759
+        },
+        "constant_training": {
+          "cash": 695.00508,
+          "orders": 105.10156,
+          "audits": 10.0,
+          "eligible": 55.02344,
+          "donor_updates": 17.41016,
+          "local_updates": 16.69531,
+          "repair_updates": 5.42188,
+          "repaired_orders": 0.0,
+          "retirements": 1.69531,
+          "installs": 7.64453,
+          "arm": 0.56182,
+          "mobile": 0.54907,
+          "desk": 0.70792
+        },
+        "unpooled_adapter": {
+          "cash": 694.86914,
+          "orders": 105.10156,
+          "audits": 10.0,
+          "eligible": 54.94141,
+          "donor_updates": 17.4375,
+          "local_updates": 17.27344,
+          "repair_updates": 4.80078,
+          "repaired_orders": 0.0,
+          "retirements": 1.81641,
+          "installs": 7.49219,
+          "arm": 0.56059,
+          "mobile": 0.54486,
+          "desk": 0.70817
+        },
+        "frozen_prior": {
+          "cash": 695.00859,
+          "orders": 105.125,
+          "audits": 10.0,
+          "eligible": 54.90625,
+          "donor_updates": 17.42578,
+          "local_updates": 17.28125,
+          "repair_updates": 4.80859,
+          "repaired_orders": 0.0,
+          "retirements": 1.87109,
+          "installs": 7.41406,
+          "arm": 0.55972,
+          "mobile": 0.5455,
+          "desk": 0.70756
+        },
+        "verified_pair": {
+          "cash": 692.78477,
+          "orders": 105.17578,
+          "audits": 10.0,
+          "eligible": 54.92188,
+          "donor_updates": 17.42188,
+          "local_updates": 17.26562,
+          "repair_updates": 4.80078,
+          "repaired_orders": 0.0,
+          "retirements": 1.73828,
+          "installs": 7.57031,
+          "arm": 0.57037,
+          "mobile": 0.55127,
+          "desk": 0.70752
+        },
+        "repair": {
+          "cash": 719.68125,
+          "orders": 106.05469,
+          "audits": 0.0,
+          "eligible": 53.78906,
+          "donor_updates": 19.89062,
+          "local_updates": 0.0,
+          "repair_updates": 9.57031,
+          "repaired_orders": 33.28906,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50428,
+          "mobile": 0.60817,
+          "desk": 0.74176
+        },
+        "repair_spare": {
+          "cash": 727.80547,
+          "orders": 107.41016,
+          "audits": 0.0,
+          "eligible": 52.77344,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 11.56641,
+          "repaired_orders": 33.81641,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.63853,
+          "desk": 0.76006
+        },
+        "raw_spare": {
+          "cash": 742.7207,
+          "orders": 108.55469,
+          "audits": 0.0,
+          "eligible": 52.20312,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50575,
+          "mobile": 0.50364,
+          "desk": 0.76006
+        },
+        "local_spare": {
+          "cash": 667.59844,
+          "orders": 100.96875,
+          "audits": 0.0,
+          "eligible": 56.83984,
+          "donor_updates": 21.46484,
+          "local_updates": 30.55078,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.62296,
+          "mobile": 0.59188,
+          "desk": 0.76006
+        },
+        "fixed_verified": {
+          "cash": 726.30234,
+          "orders": 107.25,
+          "audits": 0.0,
+          "eligible": 53.26172,
+          "donor_updates": 19.91797,
+          "local_updates": 0.0,
+          "repair_updates": 9.14453,
+          "repaired_orders": 34.49609,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50398,
+          "mobile": 0.66039,
+          "desk": 0.74172
+        },
+        "fixed_frozen_prior": {
+          "cash": 698.16953,
+          "orders": 103.90234,
+          "audits": 0.0,
+          "eligible": 54.78516,
+          "donor_updates": 19.80078,
+          "local_updates": 0.0,
+          "repair_updates": 10.36328,
+          "repaired_orders": 31.1875,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.50436,
+          "mobile": 0.5013,
+          "desk": 0.74158
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            -46.5,
+            -51.2491,
+            -41.7509
+          ],
+          "orders": [
+            -3.3086,
+            -3.8939,
+            -2.7233
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            2.7383,
+            2.2662,
+            3.2104
+          ],
+          "donor_updates": [
+            -4.043,
+            -4.2775,
+            -3.8085
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.058,
+            0.0473,
+            0.0687
+          ],
+          "mobile": [
+            0.0461,
+            0.0372,
+            0.055
+          ],
+          "desk": [
+            -0.052,
+            -0.0564,
+            -0.0475
+          ]
+        },
+        "local": {
+          "cash": [
+            40.2363,
+            34.6757,
+            45.797
+          ],
+          "orders": [
+            7.8711,
+            7.1868,
+            8.5554
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -5.4922,
+            -6.0391,
+            -4.9453
+          ],
+          "donor_updates": [
+            5.1602,
+            4.847,
+            5.4733
+          ],
+          "local_updates": [
+            -13.3164,
+            -13.7584,
+            -12.8744
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            -0.0592,
+            -0.0693,
+            -0.0491
+          ],
+          "mobile": [
+            -0.0421,
+            -0.0508,
+            -0.0335
+          ],
+          "desk": [
+            0.0635,
+            0.0571,
+            0.07
+          ]
+        },
+        "raw": {
+          "cash": [
+            -46.5,
+            -51.2491,
+            -41.7509
+          ],
+          "orders": [
+            -3.3086,
+            -3.8939,
+            -2.7233
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            2.7383,
+            2.2662,
+            3.2104
+          ],
+          "donor_updates": [
+            -4.043,
+            -4.2775,
+            -3.8085
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.058,
+            0.0473,
+            0.0687
+          ],
+          "mobile": [
+            0.0461,
+            0.0372,
+            0.055
+          ],
+          "desk": [
+            -0.052,
+            -0.0564,
+            -0.0475
+          ]
+        },
+        "rotation": {
+          "cash": [
+            2.7449,
+            1.0641,
+            4.4258
+          ],
+          "orders": [
+            0.3438,
+            0.1414,
+            0.5461
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1953,
+            -0.3652,
+            -0.0255
+          ],
+          "donor_updates": [
+            0.0156,
+            -0.0316,
+            0.0629
+          ],
+          "local_updates": [
+            -0.1016,
+            -0.2014,
+            -0.0017
+          ],
+          "repair_updates": [
+            -0.0664,
+            -0.1358,
+            0.003
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0312,
+            -0.0745,
+            0.012
+          ],
+          "installs": [
+            -0.0117,
+            -0.0665,
+            0.043
+          ],
+          "arm": [
+            0.0,
+            -0.0034,
+            0.0035
+          ],
+          "mobile": [
+            -0.0011,
+            -0.0035,
+            0.0014
+          ],
+          "desk": [
+            0.0001,
+            -0.0008,
+            0.001
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            1.1715,
+            -1.0467,
+            3.3896
+          ],
+          "orders": [
+            0.125,
+            -0.1416,
+            0.3916
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0,
+            -0.2134,
+            0.2134
+          ],
+          "donor_updates": [
+            0.0039,
+            -0.057,
+            0.0648
+          ],
+          "local_updates": [
+            -0.1289,
+            -0.2602,
+            0.0023
+          ],
+          "repair_updates": [
+            0.0352,
+            -0.0545,
+            0.1248
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1992,
+            -0.2629,
+            -0.1356
+          ],
+          "installs": [
+            0.2617,
+            0.1698,
+            0.3536
+          ],
+          "arm": [
+            0.0029,
+            -0.0037,
+            0.0095
+          ],
+          "mobile": [
+            0.005,
+            0.0,
+            0.0099
+          ],
+          "desk": [
+            0.0003,
+            -0.0012,
+            0.0019
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -2.0578,
+            -4.38,
+            0.2644
+          ],
+          "orders": [
+            -0.2812,
+            -0.5622,
+            -0.0003
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.2227,
+            0.0003,
+            0.445
+          ],
+          "donor_updates": [
+            -0.0156,
+            -0.0938,
+            0.0626
+          ],
+          "local_updates": [
+            -4.7383,
+            -5.0349,
+            -4.4416
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.2305,
+            -0.3204,
+            -0.1405
+          ],
+          "installs": [
+            0.3867,
+            0.2633,
+            0.5101
+          ],
+          "arm": [
+            -0.0104,
+            -0.0185,
+            -0.0023
+          ],
+          "mobile": [
+            0.0021,
+            -0.0038,
+            0.0079
+          ],
+          "desk": [
+            0.0005,
+            -0.0013,
+            0.0023
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            1.2156,
+            0.3635,
+            2.0678
+          ],
+          "orders": [
+            0.1445,
+            0.0507,
+            0.2384
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.082,
+            -0.1495,
+            -0.0146
+          ],
+          "donor_updates": [
+            0.0117,
+            -0.0112,
+            0.0347
+          ],
+          "local_updates": [
+            0.5391,
+            0.4269,
+            0.6512
+          ],
+          "repair_updates": [
+            -0.6055,
+            -0.718,
+            -0.4929
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0117,
+            -0.0085,
+            0.032
+          ],
+          "installs": [
+            -0.0508,
+            -0.087,
+            -0.0145
+          ],
+          "arm": [
+            0.0019,
+            -0.0009,
+            0.0048
+          ],
+          "mobile": [
+            0.0007,
+            -0.0021,
+            0.0035
+          ],
+          "desk": [
+            0.0002,
+            -0.0004,
+            0.0007
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            1.3516,
+            -0.7113,
+            3.4145
+          ],
+          "orders": [
+            0.1445,
+            -0.1009,
+            0.39
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0,
+            -0.2041,
+            0.2041
+          ],
+          "donor_updates": [
+            -0.0156,
+            -0.0698,
+            0.0386
+          ],
+          "local_updates": [
+            -0.0391,
+            -0.1593,
+            0.0812
+          ],
+          "repair_updates": [
+            0.0156,
+            -0.0711,
+            0.1024
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1094,
+            -0.1662,
+            -0.0525
+          ],
+          "installs": [
+            0.1016,
+            0.0228,
+            0.1803
+          ],
+          "arm": [
+            0.0032,
+            -0.0026,
+            0.009
+          ],
+          "mobile": [
+            0.0049,
+            0.0005,
+            0.0093
+          ],
+          "desk": [
+            -0.0001,
+            -0.0012,
+            0.0011
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            1.2121,
+            -0.8805,
+            3.3048
+          ],
+          "orders": [
+            0.1211,
+            -0.1281,
+            0.3703
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0352,
+            -0.1731,
+            0.2434
+          ],
+          "donor_updates": [
+            -0.0039,
+            -0.0638,
+            0.056
+          ],
+          "local_updates": [
+            -0.0469,
+            -0.1651,
+            0.0713
+          ],
+          "repair_updates": [
+            0.0078,
+            -0.079,
+            0.0946
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1641,
+            -0.224,
+            -0.1041
+          ],
+          "installs": [
+            0.1797,
+            0.1001,
+            0.2593
+          ],
+          "arm": [
+            0.004,
+            -0.0019,
+            0.01
+          ],
+          "mobile": [
+            0.0043,
+            -0.0003,
+            0.0088
+          ],
+          "desk": [
+            0.0005,
+            -0.0009,
+            0.0019
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            3.4359,
+            1.214,
+            5.6579
+          ],
+          "orders": [
+            0.0703,
+            -0.1948,
+            0.3355
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.0195,
+            -0.1654,
+            0.2044
+          ],
+          "donor_updates": [
+            0.0,
+            -0.0669,
+            0.0669
+          ],
+          "local_updates": [
+            -0.0312,
+            -0.1609,
+            0.0984
+          ],
+          "repair_updates": [
+            0.0156,
+            -0.0751,
+            0.1064
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0312,
+            -0.1023,
+            0.0398
+          ],
+          "installs": [
+            0.0234,
+            -0.0742,
+            0.121
+          ],
+          "arm": [
+            -0.0066,
+            -0.0132,
+            0.0
+          ],
+          "mobile": [
+            -0.0015,
+            -0.007,
+            0.004
+          ],
+          "desk": [
+            0.0006,
+            -0.0009,
+            0.002
+          ]
+        },
+        "repair": {
+          "cash": [
+            -23.4605,
+            -28.6723,
+            -18.2488
+          ],
+          "orders": [
+            -0.8086,
+            -1.4252,
+            -0.1919
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.1523,
+            0.6926,
+            1.612
+          ],
+          "donor_updates": [
+            -2.4688,
+            -2.6714,
+            -2.2661
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            -4.7539,
+            -5.1598,
+            -4.348
+          ],
+          "repaired_orders": [
+            -33.2891,
+            -33.8187,
+            -32.7594
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.0595,
+            0.049,
+            0.0699
+          ],
+          "mobile": [
+            -0.0584,
+            -0.072,
+            -0.0448
+          ],
+          "desk": [
+            -0.0337,
+            -0.0376,
+            -0.0298
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            -31.5848,
+            -36.7065,
+            -26.463
+          ],
+          "orders": [
+            -2.1641,
+            -2.7762,
+            -1.5519
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            2.168,
+            1.7177,
+            2.6183
+          ],
+          "donor_updates": [
+            -4.043,
+            -4.2775,
+            -3.8085
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            -6.75,
+            -7.1841,
+            -6.3159
+          ],
+          "repaired_orders": [
+            -33.8164,
+            -34.3308,
+            -33.302
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.058,
+            0.0473,
+            0.0687
+          ],
+          "mobile": [
+            -0.0888,
+            -0.1025,
+            -0.075
+          ],
+          "desk": [
+            -0.052,
+            -0.0564,
+            -0.0475
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            -46.5,
+            -51.2491,
+            -41.7509
+          ],
+          "orders": [
+            -3.3086,
+            -3.8939,
+            -2.7233
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            2.7383,
+            2.2662,
+            3.2104
+          ],
+          "donor_updates": [
+            -4.043,
+            -4.2775,
+            -3.8085
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.058,
+            0.0473,
+            0.0687
+          ],
+          "mobile": [
+            0.0461,
+            0.0372,
+            0.055
+          ],
+          "desk": [
+            -0.052,
+            -0.0564,
+            -0.0475
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            28.6223,
+            23.1497,
+            34.0948
+          ],
+          "orders": [
+            4.2773,
+            3.6221,
+            4.9326
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            -1.8984,
+            -2.4153,
+            -1.3816
+          ],
+          "donor_updates": [
+            -4.043,
+            -4.2775,
+            -3.8085
+          ],
+          "local_updates": [
+            -13.3164,
+            -13.7584,
+            -12.8744
+          ],
+          "repair_updates": [
+            4.8164,
+            4.5589,
+            5.0739
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            -0.0592,
+            -0.0693,
+            -0.0491
+          ],
+          "mobile": [
+            -0.0421,
+            -0.0508,
+            -0.0335
+          ],
+          "desk": [
+            -0.052,
+            -0.0564,
+            -0.0475
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            -30.0816,
+            -34.9957,
+            -25.1676
+          ],
+          "orders": [
+            -2.0039,
+            -2.5955,
+            -1.4123
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            1.6797,
+            1.2346,
+            2.1247
+          ],
+          "donor_updates": [
+            -2.4961,
+            -2.6993,
+            -2.2928
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            -4.3281,
+            -4.7178,
+            -3.9384
+          ],
+          "repaired_orders": [
+            -34.4961,
+            -34.9992,
+            -33.9929
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.0598,
+            0.0493,
+            0.0703
+          ],
+          "mobile": [
+            -0.1106,
+            -0.1228,
+            -0.0985
+          ],
+          "desk": [
+            -0.0336,
+            -0.0376,
+            -0.0297
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            -1.9488,
+            -6.9321,
+            3.0344
+          ],
+          "orders": [
+            1.3438,
+            0.7421,
+            1.9454
+          ],
+          "audits": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "eligible": [
+            0.1562,
+            -0.3243,
+            0.6368
+          ],
+          "donor_updates": [
+            -2.3789,
+            -2.5859,
+            -2.1719
+          ],
+          "local_updates": [
+            17.2344,
+            16.8033,
+            17.6655
+          ],
+          "repair_updates": [
+            -5.5469,
+            -5.9662,
+            -5.1276
+          ],
+          "repaired_orders": [
+            -31.1875,
+            -31.6833,
+            -30.6917
+          ],
+          "retirements": [
+            1.707,
+            1.6038,
+            1.8102
+          ],
+          "installs": [
+            7.5938,
+            7.425,
+            7.7625
+          ],
+          "arm": [
+            0.0594,
+            0.049,
+            0.0698
+          ],
+          "mobile": [
+            0.0485,
+            0.0413,
+            0.0557
+          ],
+          "desk": [
+            -0.0335,
+            -0.0375,
+            -0.0294
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        86.7363,
+        80.4496,
+        93.0231
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        8.1242,
+        5.8128,
+        10.4357
+      ],
+      "verified_minus_raw": [
+        -16.4184,
+        -19.9497,
+        -12.887
+      ],
+      "repair_minus_local": [
+        63.6969,
+        57.4188,
+        69.9749
+      ],
+      "repair_minus_raw": [
+        -23.0395,
+        -27.3286,
+        -18.7503
+      ],
+      "repair_spare_minus_raw_spare": [
+        -14.9152,
+        -19.0583,
+        -10.7722
+      ],
+      "repair_spare_minus_local_spare": [
+        60.207,
+        54.1124,
+        66.3017
+      ],
+      "repair_learning_minus_frozen": [
+        21.5117,
+        17.8504,
+        25.173
+      ],
+      "verified_minus_repair": [
+        6.6211,
+        3.6565,
+        9.5857
+      ],
+      "pair_fee_ceiling": 1.324
+    },
+    "revert_lag7": {
+      "means": {
+        "fixed": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "local": {
+          "cash": 651.11836,
+          "orders": 96.79688,
+          "audits": 0.0,
+          "eligible": 60.99219,
+          "donor_updates": 12.32031,
+          "local_updates": 30.87891,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.611,
+          "mobile": 0.58859,
+          "desk": 0.64729
+        },
+        "raw": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "adaptive": {
+          "cash": 688.70508,
+          "orders": 104.26172,
+          "audits": 9.0,
+          "eligible": 55.65234,
+          "donor_updates": 17.30078,
+          "local_updates": 17.51562,
+          "repair_updates": 5.04688,
+          "repaired_orders": 0.0,
+          "retirements": 1.39844,
+          "installs": 7.10156,
+          "arm": 0.63041,
+          "mobile": 0.54852,
+          "desk": 0.70586
+        },
+        "rotation": {
+          "cash": 687.08438,
+          "orders": 103.96875,
+          "audits": 9.0,
+          "eligible": 55.91406,
+          "donor_updates": 17.29688,
+          "local_updates": 17.61328,
+          "repair_updates": 5.12109,
+          "repaired_orders": 0.0,
+          "retirements": 1.41406,
+          "installs": 7.06641,
+          "arm": 0.64666,
+          "mobile": 0.53605,
+          "desk": 0.70605
+        },
+        "no_adapter": {
+          "cash": 689.66719,
+          "orders": 104.37891,
+          "audits": 9.0,
+          "eligible": 55.53906,
+          "donor_updates": 17.30078,
+          "local_updates": 17.48047,
+          "repair_updates": 5.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.53516,
+          "installs": 6.85547,
+          "arm": 0.63294,
+          "mobile": 0.55185,
+          "desk": 0.70513
+        },
+        "local_spend": {
+          "cash": 690.98984,
+          "orders": 104.57422,
+          "audits": 9.0,
+          "eligible": 55.35547,
+          "donor_updates": 17.36719,
+          "local_updates": 22.40625,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 1.59375,
+          "installs": 6.74609,
+          "arm": 0.63254,
+          "mobile": 0.55659,
+          "desk": 0.70729
+        },
+        "constant_training": {
+          "cash": 687.76719,
+          "orders": 104.15234,
+          "audits": 9.0,
+          "eligible": 55.71094,
+          "donor_updates": 17.28516,
+          "local_updates": 16.99609,
+          "repair_updates": 5.60938,
+          "repaired_orders": 0.0,
+          "retirements": 1.39844,
+          "installs": 7.11719,
+          "arm": 0.62737,
+          "mobile": 0.54641,
+          "desk": 0.70549
+        },
+        "unpooled_adapter": {
+          "cash": 689.49375,
+          "orders": 104.34375,
+          "audits": 9.0,
+          "eligible": 55.57031,
+          "donor_updates": 17.29297,
+          "local_updates": 17.5,
+          "repair_updates": 5.01953,
+          "repaired_orders": 0.0,
+          "retirements": 1.47266,
+          "installs": 6.96094,
+          "arm": 0.64034,
+          "mobile": 0.54417,
+          "desk": 0.70525
+        },
+        "frozen_prior": {
+          "cash": 690.26211,
+          "orders": 104.44531,
+          "audits": 9.0,
+          "eligible": 55.52734,
+          "donor_updates": 17.30078,
+          "local_updates": 17.48438,
+          "repair_updates": 4.99219,
+          "repaired_orders": 0.0,
+          "retirements": 1.49609,
+          "installs": 6.92578,
+          "arm": 0.64327,
+          "mobile": 0.54201,
+          "desk": 0.70522
+        },
+        "verified_pair": {
+          "cash": 685.0457,
+          "orders": 104.14844,
+          "audits": 9.0,
+          "eligible": 55.78906,
+          "donor_updates": 17.28516,
+          "local_updates": 17.53516,
+          "repair_updates": 5.11328,
+          "repaired_orders": 0.0,
+          "retirements": 1.34766,
+          "installs": 7.16797,
+          "arm": 0.61544,
+          "mobile": 0.56407,
+          "desk": 0.70591
+        },
+        "repair": {
+          "cash": 728.9,
+          "orders": 107.49219,
+          "audits": 0.0,
+          "eligible": 52.83984,
+          "donor_updates": 19.82812,
+          "local_updates": 0.0,
+          "repair_updates": 9.75,
+          "repaired_orders": 32.99609,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74089,
+          "mobile": 0.64131,
+          "desk": 0.74089
+        },
+        "repair_spare": {
+          "cash": 736.79805,
+          "orders": 108.88281,
+          "audits": 0.0,
+          "eligible": 51.69922,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 11.85156,
+          "repaired_orders": 33.40625,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.65986,
+          "desk": 0.76006
+        },
+        "raw_spare": {
+          "cash": 773.9082,
+          "orders": 112.23828,
+          "audits": 0.0,
+          "eligible": 50.22656,
+          "donor_updates": 21.46484,
+          "local_updates": 0.0,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.76006,
+          "mobile": 0.76006,
+          "desk": 0.76006
+        },
+        "local_spare": {
+          "cash": 662.57813,
+          "orders": 100.34766,
+          "audits": 0.0,
+          "eligible": 57.44141,
+          "donor_updates": 21.46484,
+          "local_updates": 30.87891,
+          "repair_updates": 0.0,
+          "repaired_orders": 0.0,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.611,
+          "mobile": 0.58859,
+          "desk": 0.76006
+        },
+        "fixed_verified": {
+          "cash": 734.35938,
+          "orders": 108.58984,
+          "audits": 0.0,
+          "eligible": 52.38672,
+          "donor_updates": 19.86719,
+          "local_updates": 0.0,
+          "repair_updates": 9.36719,
+          "repaired_orders": 34.12109,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74064,
+          "mobile": 0.69639,
+          "desk": 0.74064
+        },
+        "fixed_frozen_prior": {
+          "cash": 718.54922,
+          "orders": 106.44141,
+          "audits": 0.0,
+          "eligible": 53.43359,
+          "donor_updates": 19.79297,
+          "local_updates": 0.0,
+          "repair_updates": 10.23828,
+          "repaired_orders": 31.99219,
+          "retirements": 0.0,
+          "installs": 0.0,
+          "arm": 0.74128,
+          "mobile": 0.62077,
+          "desk": 0.74128
+        }
+      },
+      "adaptive_minus": {
+        "fixed": {
+          "cash": [
+            -85.2031,
+            -89.6167,
+            -80.7896
+          ],
+          "orders": [
+            -7.9766,
+            -8.4988,
+            -7.4544
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            5.4258,
+            5.0233,
+            5.8283
+          ],
+          "donor_updates": [
+            -4.1641,
+            -4.4087,
+            -3.9194
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1296,
+            -0.1396,
+            -0.1197
+          ],
+          "mobile": [
+            -0.2115,
+            -0.2232,
+            -0.1999
+          ],
+          "desk": [
+            -0.0542,
+            -0.0589,
+            -0.0495
+          ]
+        },
+        "local": {
+          "cash": [
+            37.5867,
+            31.8701,
+            43.3034
+          ],
+          "orders": [
+            7.4648,
+            6.7588,
+            8.1709
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            -5.3398,
+            -5.9071,
+            -4.7726
+          ],
+          "donor_updates": [
+            4.9805,
+            4.6871,
+            5.2739
+          ],
+          "local_updates": [
+            -13.3633,
+            -13.8239,
+            -12.9027
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            0.0194,
+            0.0077,
+            0.0312
+          ],
+          "mobile": [
+            -0.0401,
+            -0.0522,
+            -0.028
+          ],
+          "desk": [
+            0.0586,
+            0.0521,
+            0.065
+          ]
+        },
+        "raw": {
+          "cash": [
+            -85.2031,
+            -89.6167,
+            -80.7896
+          ],
+          "orders": [
+            -7.9766,
+            -8.4988,
+            -7.4544
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            5.4258,
+            5.0233,
+            5.8283
+          ],
+          "donor_updates": [
+            -4.1641,
+            -4.4087,
+            -3.9194
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1296,
+            -0.1396,
+            -0.1197
+          ],
+          "mobile": [
+            -0.2115,
+            -0.2232,
+            -0.1999
+          ],
+          "desk": [
+            -0.0542,
+            -0.0589,
+            -0.0495
+          ]
+        },
+        "rotation": {
+          "cash": [
+            1.6207,
+            -0.0723,
+            3.3137
+          ],
+          "orders": [
+            0.293,
+            0.0925,
+            0.4935
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.2617,
+            -0.4147,
+            -0.1088
+          ],
+          "donor_updates": [
+            0.0039,
+            -0.0374,
+            0.0452
+          ],
+          "local_updates": [
+            -0.0977,
+            -0.2047,
+            0.0093
+          ],
+          "repair_updates": [
+            -0.0742,
+            -0.1515,
+            0.0031
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0156,
+            -0.0562,
+            0.0249
+          ],
+          "installs": [
+            0.0352,
+            -0.0275,
+            0.0978
+          ],
+          "arm": [
+            -0.0162,
+            -0.0229,
+            -0.0096
+          ],
+          "mobile": [
+            0.0125,
+            0.0058,
+            0.0191
+          ],
+          "desk": [
+            -0.0002,
+            -0.0011,
+            0.0007
+          ]
+        },
+        "no_adapter": {
+          "cash": [
+            -0.9621,
+            -2.9498,
+            1.0256
+          ],
+          "orders": [
+            -0.1172,
+            -0.3532,
+            0.1188
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.1133,
+            -0.0653,
+            0.2918
+          ],
+          "donor_updates": [
+            0.0,
+            -0.0574,
+            0.0574
+          ],
+          "local_updates": [
+            0.0352,
+            -0.0877,
+            0.1581
+          ],
+          "repair_updates": [
+            0.0469,
+            -0.0444,
+            0.1381
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1367,
+            -0.1982,
+            -0.0752
+          ],
+          "installs": [
+            0.2461,
+            0.1555,
+            0.3367
+          ],
+          "arm": [
+            -0.0025,
+            -0.0111,
+            0.006
+          ],
+          "mobile": [
+            -0.0033,
+            -0.0113,
+            0.0046
+          ],
+          "desk": [
+            0.0007,
+            -0.0007,
+            0.0021
+          ]
+        },
+        "local_spend": {
+          "cash": [
+            -2.2848,
+            -4.6659,
+            0.0964
+          ],
+          "orders": [
+            -0.3125,
+            -0.598,
+            -0.027
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.2969,
+            0.0852,
+            0.5086
+          ],
+          "donor_updates": [
+            -0.0664,
+            -0.135,
+            0.0022
+          ],
+          "local_updates": [
+            -4.8906,
+            -5.181,
+            -4.6002
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.1953,
+            -0.2682,
+            -0.1224
+          ],
+          "installs": [
+            0.3555,
+            0.2457,
+            0.4652
+          ],
+          "arm": [
+            -0.0021,
+            -0.012,
+            0.0078
+          ],
+          "mobile": [
+            -0.0081,
+            -0.0166,
+            0.0004
+          ],
+          "desk": [
+            -0.0014,
+            -0.0031,
+            0.0002
+          ]
+        },
+        "constant_training": {
+          "cash": [
+            0.9379,
+            0.3094,
+            1.5664
+          ],
+          "orders": [
+            0.1094,
+            0.0395,
+            0.1792
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.0586,
+            -0.1084,
+            -0.0088
+          ],
+          "donor_updates": [
+            0.0156,
+            0.0004,
+            0.0308
+          ],
+          "local_updates": [
+            0.5195,
+            0.4219,
+            0.6171
+          ],
+          "repair_updates": [
+            -0.5625,
+            -0.6646,
+            -0.4604
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "installs": [
+            -0.0156,
+            -0.0308,
+            -0.0004
+          ],
+          "arm": [
+            0.003,
+            0.0012,
+            0.0048
+          ],
+          "mobile": [
+            0.0021,
+            0.0003,
+            0.0039
+          ],
+          "desk": [
+            0.0004,
+            -0.0,
+            0.0007
+          ]
+        },
+        "unpooled_adapter": {
+          "cash": [
+            -0.7887,
+            -2.605,
+            1.0277
+          ],
+          "orders": [
+            -0.082,
+            -0.3,
+            0.1359
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.082,
+            -0.0859,
+            0.25
+          ],
+          "donor_updates": [
+            0.0078,
+            -0.0407,
+            0.0563
+          ],
+          "local_updates": [
+            0.0156,
+            -0.0884,
+            0.1197
+          ],
+          "repair_updates": [
+            0.0273,
+            -0.0458,
+            0.1004
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0742,
+            -0.126,
+            -0.0224
+          ],
+          "installs": [
+            0.1406,
+            0.0651,
+            0.2162
+          ],
+          "arm": [
+            -0.0099,
+            -0.0179,
+            -0.0019
+          ],
+          "mobile": [
+            0.0044,
+            -0.003,
+            0.0117
+          ],
+          "desk": [
+            0.0006,
+            -0.0006,
+            0.0019
+          ]
+        },
+        "frozen_prior": {
+          "cash": [
+            -1.557,
+            -3.4359,
+            0.3218
+          ],
+          "orders": [
+            -0.1836,
+            -0.406,
+            0.0388
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            0.125,
+            -0.0455,
+            0.2955
+          ],
+          "donor_updates": [
+            0.0,
+            -0.052,
+            0.052
+          ],
+          "local_updates": [
+            0.0312,
+            -0.0761,
+            0.1386
+          ],
+          "repair_updates": [
+            0.0547,
+            -0.0202,
+            0.1295
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            -0.0977,
+            -0.1543,
+            -0.041
+          ],
+          "installs": [
+            0.1758,
+            0.0907,
+            0.2609
+          ],
+          "arm": [
+            -0.0129,
+            -0.0199,
+            -0.0059
+          ],
+          "mobile": [
+            0.0065,
+            -0.0008,
+            0.0138
+          ],
+          "desk": [
+            0.0006,
+            -0.0007,
+            0.0019
+          ]
+        },
+        "verified_pair": {
+          "cash": [
+            3.6594,
+            1.4818,
+            5.837
+          ],
+          "orders": [
+            0.1133,
+            -0.1533,
+            0.3799
+          ],
+          "audits": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible": [
+            -0.1367,
+            -0.357,
+            0.0835
+          ],
+          "donor_updates": [
+            0.0156,
+            -0.0457,
+            0.077
+          ],
+          "local_updates": [
+            -0.0195,
+            -0.1677,
+            0.1286
+          ],
+          "repair_updates": [
+            -0.0664,
+            -0.164,
+            0.0312
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            0.0508,
+            -0.0126,
+            0.1142
+          ],
+          "installs": [
+            -0.0664,
+            -0.1578,
+            0.025
+          ],
+          "arm": [
+            0.015,
+            0.0047,
+            0.0253
+          ],
+          "mobile": [
+            -0.0155,
+            -0.0246,
+            -0.0065
+          ],
+          "desk": [
+            -0.0,
+            -0.0015,
+            0.0014
+          ]
+        },
+        "repair": {
+          "cash": [
+            -40.1949,
+            -45.3049,
+            -35.085
+          ],
+          "orders": [
+            -3.2305,
+            -3.8264,
+            -2.6345
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            2.8125,
+            2.3547,
+            3.2703
+          ],
+          "donor_updates": [
+            -2.5273,
+            -2.7388,
+            -2.3159
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            -4.7031,
+            -5.1097,
+            -4.2965
+          ],
+          "repaired_orders": [
+            -32.9961,
+            -33.4779,
+            -32.5143
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1105,
+            -0.1203,
+            -0.1006
+          ],
+          "mobile": [
+            -0.0928,
+            -0.1074,
+            -0.0781
+          ],
+          "desk": [
+            -0.035,
+            -0.0393,
+            -0.0308
+          ]
+        },
+        "repair_spare": {
+          "cash": [
+            -48.093,
+            -52.9861,
+            -43.1999
+          ],
+          "orders": [
+            -4.6211,
+            -5.1889,
+            -4.0533
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            3.9531,
+            3.5036,
+            4.4026
+          ],
+          "donor_updates": [
+            -4.1641,
+            -4.4087,
+            -3.9194
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            -6.8047,
+            -7.2401,
+            -6.3692
+          ],
+          "repaired_orders": [
+            -33.4062,
+            -33.8918,
+            -32.9207
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1296,
+            -0.1396,
+            -0.1197
+          ],
+          "mobile": [
+            -0.1113,
+            -0.1267,
+            -0.096
+          ],
+          "desk": [
+            -0.0542,
+            -0.0589,
+            -0.0495
+          ]
+        },
+        "raw_spare": {
+          "cash": [
+            -85.2031,
+            -89.6167,
+            -80.7896
+          ],
+          "orders": [
+            -7.9766,
+            -8.4988,
+            -7.4544
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            5.4258,
+            5.0233,
+            5.8283
+          ],
+          "donor_updates": [
+            -4.1641,
+            -4.4087,
+            -3.9194
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1296,
+            -0.1396,
+            -0.1197
+          ],
+          "mobile": [
+            -0.2115,
+            -0.2232,
+            -0.1999
+          ],
+          "desk": [
+            -0.0542,
+            -0.0589,
+            -0.0495
+          ]
+        },
+        "local_spare": {
+          "cash": [
+            26.127,
+            20.4985,
+            31.7554
+          ],
+          "orders": [
+            3.9141,
+            3.2393,
+            4.5888
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            -1.7891,
+            -2.325,
+            -1.2531
+          ],
+          "donor_updates": [
+            -4.1641,
+            -4.4087,
+            -3.9194
+          ],
+          "local_updates": [
+            -13.3633,
+            -13.8239,
+            -12.9027
+          ],
+          "repair_updates": [
+            5.0469,
+            4.7857,
+            5.3081
+          ],
+          "repaired_orders": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            0.0194,
+            0.0077,
+            0.0312
+          ],
+          "mobile": [
+            -0.0401,
+            -0.0522,
+            -0.028
+          ],
+          "desk": [
+            -0.0542,
+            -0.0589,
+            -0.0495
+          ]
+        },
+        "fixed_verified": {
+          "cash": [
+            -45.6543,
+            -50.6689,
+            -40.6397
+          ],
+          "orders": [
+            -4.3281,
+            -4.908,
+            -3.7482
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            3.2656,
+            2.8231,
+            3.7082
+          ],
+          "donor_updates": [
+            -2.5664,
+            -2.7766,
+            -2.3562
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            -4.3203,
+            -4.722,
+            -3.9186
+          ],
+          "repaired_orders": [
+            -34.1211,
+            -34.5968,
+            -33.6454
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1102,
+            -0.12,
+            -0.1004
+          ],
+          "mobile": [
+            -0.1479,
+            -0.1606,
+            -0.1352
+          ],
+          "desk": [
+            -0.0348,
+            -0.0388,
+            -0.0307
+          ]
+        },
+        "fixed_frozen_prior": {
+          "cash": [
+            -29.8441,
+            -34.6982,
+            -24.9901
+          ],
+          "orders": [
+            -2.1797,
+            -2.7508,
+            -1.6086
+          ],
+          "audits": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "eligible": [
+            2.2188,
+            1.7586,
+            2.6789
+          ],
+          "donor_updates": [
+            -2.4922,
+            -2.7028,
+            -2.2815
+          ],
+          "local_updates": [
+            17.5156,
+            17.1,
+            17.9313
+          ],
+          "repair_updates": [
+            -5.1914,
+            -5.5995,
+            -4.7833
+          ],
+          "repaired_orders": [
+            -31.9922,
+            -32.4181,
+            -31.5663
+          ],
+          "retirements": [
+            1.3984,
+            1.3053,
+            1.4916
+          ],
+          "installs": [
+            7.1016,
+            6.9557,
+            7.2474
+          ],
+          "arm": [
+            -0.1109,
+            -0.1207,
+            -0.101
+          ],
+          "mobile": [
+            -0.0722,
+            -0.0831,
+            -0.0613
+          ],
+          "desk": [
+            -0.0354,
+            -0.0395,
+            -0.0313
+          ]
+        }
+      },
+      "fixed_minus_local": [
+        122.7898,
+        116.804,
+        128.7757
+      ],
+      "fixed_minus_raw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "capacity_interaction": [
+        7.898,
+        5.5576,
+        10.2385
+      ],
+      "verified_minus_raw": [
+        -39.5488,
+        -43.3951,
+        -35.7026
+      ],
+      "repair_minus_local": [
+        77.7816,
+        72.0491,
+        83.5142
+      ],
+      "repair_minus_raw": [
+        -45.0082,
+        -49.272,
+        -40.7444
+      ],
+      "repair_spare_minus_raw_spare": [
+        -37.1102,
+        -41.0028,
+        -33.2175
+      ],
+      "repair_spare_minus_local_spare": [
+        74.2199,
+        68.7966,
+        79.6433
+      ],
+      "repair_learning_minus_frozen": [
+        10.3508,
+        6.984,
+        13.7176
+      ],
+      "verified_minus_repair": [
+        5.4594,
+        2.3447,
+        8.5741
+      ],
+      "pair_fee_ceiling": 1.1828
+    }
+  }
+}

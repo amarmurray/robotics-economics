@@ -6,6 +6,10 @@ RoboEcon research branch · opened 20 November 2026, US Eastern
 
 **When Capabilities Become Production** asks when a capability, buyer demand, qualification, resources and rights combine to deliver economically accepted work. **Recursive Firm Theory** asks how the organization that performs those conversions comes to exist and changes. A firm can invest in who sees a failure, who may propose an experiment, who bears its loss, and who can revise the operating rule when the result arrives. The latter question applies to a physical fleet, an LLM service business or a federation of independent operators. A single project can supply evidence to both inquiries. Each needs its own outcome and competing explanation. [Foundation and the earlier Q-learning benchmark](../theory/recursive_firm.md) · [Connected production research](https://github.com/amarmurray/robotics-economics/blob/4c39ae66b5e2d8014676dd493550e882ddc48e36/research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md)
 
+## When does a better robot earn less for its fleet?
+
+The [adapter repair study](transfer_validation/ADAPTER_REPAIR.md) prices a second annotation of a robot incident against the opportunity to train the shared digital policy. Across 256 held-out simulated fleets, a correction raised mobile capability by 12.9 percentage points while reducing fleet contribution. Buying a verified donor label beat fixed live sharing when several case families shared a correction and lost to it when the same number of faults were scattered. The next test is learning which cases belong together.
+
 ## When should a fleet validate a transfer link?
 
 The [priced validation study](transfer_validation/README.md) compares selective and rotating audits, local heads and tuned fixed sharing across simultaneous model and demand changes. Redirecting the next correction into a disconnected local head added 23.84 contribution units in the ordinary drift simulation. Selective inspection earned only 0.96 more than a matched rotation, with an interval spanning zero. The strongest next comparison is learning a replacement adapter against staying local under unannounced drift.

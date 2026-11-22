@@ -1,0 +1,40 @@
+# When does repairing transfer earn its training budget?
+
+A mobile robot can become more capable while its fleet completes fewer paid orders. Repairing the interface to a shared digital policy consumes training opportunities on that policy, which also serves the desk and fixed arm. The return to a second annotation of the same incident depends on which other cases the correction can reach. Both mechanisms can be varied independently in this experiment.
+
+## From exposure to usable evidence
+
+The [earlier fleet study](../learning_dynamics/README.md) distinguished added deployment exposure from independent evidence and reanalyzed published robot scores at held-out data breadths. The [validation study](README.md) then found that retiring a link could improve the allocation of subsequent incident training. Here the organization can also learn a replacement mapping between digital and physical actions. The economic question is whether collecting a more diagnostic record of a failure earns its cost across the fleet.
+
+Each of 60 shifts brings one order each for a digital desk, fixed arm and mobile robot. A correct action that clears the completion gate pays 4, 7 or 10 units respectively. Digital and physical jobs share a changing binary action rule over 12 case families. Each robot also experiences a change in its own action convention at a site-specific shift. The mix of incoming work shifts at period 30. Incoming orders are exogenous. Which incidents occur, survive the lane's retention probability (1, 0.8 or 0.45), compete for training, and affect the next policy depends on deployed actions. Only incomplete orders generate training records. A single update costs 0.30 and uses the shift's compute slot. Native robot policies learn only from admitted incidents in this extension.
+
+A robot can use a local policy, the live digital policy, a learned correction to it, or a checkpoint. Ordinary repair uses the digital policy's recorded prediction at incident time and a noisy target label. Verified repair also buys the correct digital action for that same case at a 0.60 premium. Both use a recency-weighted estimate of agreement within each of two observable case groups. Coherent drift changes the action convention for all six members of one group. Fragmented drift changes six randomly selected families. The comparison holds the count and timing of changes, digital shocks, incoming orders and random draws fixed. It changes which incidents are informative about each other.
+
+## Results on independent worlds
+
+Sixty-four calibration worlds selected among 32 fixed combinations of lane policy and training priority. We retained the best overall, the best requiring a repair, and the best with both robots learning locally. A separate search chose the audit interval, training allocation and repair fraction for an adaptive rule starting from the winning fixed configuration. All designs then faced the same 256 fresh worlds per regime. The table reports mean differences in cumulative net contribution per world; brackets are paired 95% Monte Carlo intervals.
+
+| Comparison over 60 shifts | Coherent change | Fragmented change |
+| --- | ---: | ---: |
+| Ordinary mobile repair minus both robots using the live donor | −5.33 [−9.98, −0.69] | −14.59 [−19.77, −9.40] |
+| Same comparison with a reserved donor slot | +4.12 [−0.53, 8.77] | −9.89 [−15.28, −4.50] |
+| Verified mobile repair minus both robots using the live donor | +9.48 [4.93, 14.04] | −18.08 [−22.84, −13.32] |
+| Adaptive link review minus the tuned fixed policy | −3.32 [−8.59, 1.95] | +3.39 [−2.42, 9.20] |
+
+**Capability, paid production and organizational allocation give different rankings.** Under coherent drift, ordinary repair raised terminal mobile accuracy on the uniformly weighted case panel from 50.4% to 63.3%. Across the whole fleet, paid orders fell from 104.98 to 104.28 and contribution fell from 711.73 to 706.40. The firm funded 9.74 mobile repairs and digital updates fell from 21.46 to 19.85. A comparison against local heads alone would have credited repair with a 30.22-unit gain. Comparing the fitted mapping with the same repair rule holding its initial mapping frozen gives a 27.16-unit gain. Both comparisons identify real improvements within the simulation, yet neither establishes that repair was the best use of the firm's compute.
+
+Giving *every* design a reserved digital update slot, charging for every write, improved the ordinary repair differential by 9.45 [6.98, 11.92] under coherent drift. The resulting advantage over live sharing remains uncertain. The experiment isolates contention assuming spare capacity is available; it does not estimate the return to buying hardware.
+
+**What is the second label worth?** At the posted 0.60 fee, verified repair earned 14.82 more than ordinary repair under coherent drift and 3.49 less under fragmentation. For a fixed acquisition rule, the break-even premium per verified incident equals the posted fee plus the mean incremental net contribution divided by the mean number of pairs bought. It was **2.23** under coherent drift and **0.26** under fragmentation. These prices apply to the extra donor annotation, conditional on already having a retained robot incident, the specified representation, and this horizon. A different acquisition rule can earn a different price.
+
+**Delayed release review.** Each audit buys eight independent draws from the current order mix for two units. Their labels only qualify candidates for release. A reviewer can retain a local head or install a tested snapshot of any shared candidate after a delay. Retirement directs more future incident training to the local head. The selected rule reviewed one lane every six shifts. Its age-, margin- and disagreement-based priority earned 1.27 [−0.44, 2.98] more than rotating the same audits under coherent change. Against fixed sharing, it lost 43.10 under stability and 46.50 when the physical shock arrived late. When the convention reverted, the loss was 68.27 with a two-shift lag and 85.20 with seven shifts. A policy may correctly identify a better release yet have too little time left to recover qualification costs.
+
+## Evidence limits and next discriminating experiment
+
+These are symbolic digital and physical control tasks. The experiment ran locally with seeded NumPy policies. It contains no pretrained-agent evaluation, physical rollout, fit to field margins or estimate of a scaling exponent. The public robot measurements analyzed in the earlier study concern empirical task scores and do not identify the price of an incident. This experiment supplies the two groups in advance, assumes a perfectly certified donor annotation is available, and values production only through shift 60. Retention probabilities and acquisition rights are fixed. Statistical intervals describe simulation worlds conditional on the calibrated rules.
+
+The next question is whether the organization can **discover which cases share a correction** cheaply enough to earn the value measured here. Randomize access to paired labels and independently randomize a reserved donor slot across matched releases. Learn the group assignment on an acquisition split. Test on untouched families and sites against a supplied partition, a shuffled partition, individual-family heads and one fleet-wide correction. Record donor updates, target accuracy, paid jobs and net contribution through a reversal. If inferred groups transfer no better than shuffled groups on untouched families, the claimed benefit of discovering reusable corrections fails. If protecting donor training leaves the repair differential unchanged despite binding contention, displacement cannot account for the observed fleet loss there.
+
+[Simulation](adapter_repair.py) · [Results and ablations](adapter_results.json) · [Regression checks](test_adapter_repair.py)
+
+From this directory, run `python adapter_repair.py` to regenerate all results and `python -m unittest -q test_adapter_repair test_study` to check invariants and the preceding study.
