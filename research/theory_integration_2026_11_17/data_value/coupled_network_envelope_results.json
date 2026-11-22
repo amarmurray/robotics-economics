@@ -1,0 +1,83 @@
+{
+  "model": "two-site shared broadcast/recovery/customer regime, unknown common theta",
+  "legal_programs": {
+    "P": [
+      "retained R",
+      "productive source-data pilot"
+    ],
+    "E": [
+      "R after purchased E",
+      "independent embodied capacity"
+    ]
+  },
+  "conditional_paid_net_values_tenths": {
+    "P": [
+      [
+        20,
+        40
+      ],
+      [
+        15,
+        50
+      ]
+    ],
+    "E": [
+      [
+        19,
+        39
+      ],
+      [
+        15,
+        45
+      ]
+    ]
+  },
+  "exact_breakpoints_and_values": [
+    {
+      "theta": "0/1",
+      "p_num": 20,
+      "e_num": 19,
+      "denominator": 10,
+      "gap_num": 1
+    },
+    {
+      "theta": "1/3",
+      "p_num": 80,
+      "e_num": 77,
+      "denominator": 30,
+      "gap_num": 3
+    },
+    {
+      "theta": "2/5",
+      "p_num": 145,
+      "e_num": 135,
+      "denominator": 50,
+      "gap_num": 10
+    },
+    {
+      "theta": "1/1",
+      "p_num": 50,
+      "e_num": 45,
+      "denominator": 10,
+      "gap_num": 5
+    }
+  ],
+  "sharp_coupled_gap_interval": [
+    "1/10",
+    "1/2"
+  ],
+  "independent_program_extrema_lower_gap": "-25/10",
+  "no_fixed_P_action_randomization_dominates_theta_specific_E_optimizer": true,
+  "alternate_E_signed_gap": [
+    "-2/10 at theta=0",
+    "0 at theta=7/12",
+    "+5/10 at theta=1"
+  ],
+  "maximin_fixed_P_versus_theta_tailored_E": "-1/10 at pilot probability 2/5",
+  "exhaustive_theta_grid_denominator": 600,
+  "assertions": 3417,
+  "synthetic": true,
+  "measured_robots": false,
+  "signed_field_evidence": false,
+  "independently_new_theorem": false
+}
