@@ -1,0 +1,38 @@
+{
+  "model": "independent integer-mass implementation",
+  "laws": 257,
+  "checks": 6049,
+  "examples": [
+    {
+      "R": 2048,
+      "T": 2816,
+      "P": 2816,
+      "G": 1920,
+      "E": 2304,
+      "k": 0
+    },
+    {
+      "R": 2048,
+      "T": 2176,
+      "P": 2176,
+      "G": 2240,
+      "E": 2304,
+      "k": 160
+    },
+    {
+      "R": 2048,
+      "T": 1792,
+      "P": 2048,
+      "G": 2432,
+      "E": 2304,
+      "k": 256
+    }
+  ],
+  "precommit": "9/16",
+  "early": "59/96",
+  "early_minus_precommit": "5/96",
+  "post_program_pre_dispatch": "7/12",
+  "program_timing": "1/32",
+  "dispatch_timing": "1/48",
+  "observed_robotics": false
+}

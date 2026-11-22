@@ -1,0 +1,39 @@
+{
+  "model": "synthetic global parity history and conserved 2-window queue",
+  "assertions": 5422,
+  "laws": 257,
+  "sample_worlds": [
+    {
+      "b": "0",
+      "P": "11/16",
+      "G": "15/32",
+      "E": "9/16",
+      "winner": "P"
+    },
+    {
+      "b": "5/32",
+      "P": "17/32",
+      "G": "35/64",
+      "E": "9/16",
+      "winner": "E"
+    },
+    {
+      "b": "1/4",
+      "P": "1/2",
+      "G": "19/32",
+      "E": "9/16",
+      "winner": "G"
+    }
+  ],
+  "early_perfect_b_report": "59/96",
+  "no_precommitment_report": "9/16",
+  "perfect_report_gross_value": "5/96",
+  "intermediate_report": "7/12",
+  "program_timing_value": "1/32",
+  "dispatch_timing_value": "1/48",
+  "grounding_support_zero_worlds": [
+    "15/32",
+    "19/32"
+  ],
+  "empirical_data": false
+}
