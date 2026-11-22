@@ -1,0 +1,41 @@
+{
+  "model": "lawful decision-sensitive network production, synthetic exact numerators",
+  "denominator": 8,
+  "joint_four_cell_laws": 165,
+  "reference_zero_overlap_laws": 95,
+  "general_customer_offer_states": 16,
+  "exact_integer_assertions": 1164,
+  "fixed_q5_h2_rows": [
+    {
+      "QH_joint_fraction": "0/8",
+      "B_fraction": "34/16",
+      "P_optimized_fraction": "34/16",
+      "E_fraction": "33/16",
+      "P_minus_E_fraction": "1/16",
+      "dispatch": "B"
+    },
+    {
+      "QH_joint_fraction": "1/8",
+      "B_fraction": "32/16",
+      "P_optimized_fraction": "32/16",
+      "E_fraction": "33/16",
+      "P_minus_E_fraction": "-1/16",
+      "dispatch": "A or B"
+    },
+    {
+      "QH_joint_fraction": "2/8",
+      "B_fraction": "30/16",
+      "P_optimized_fraction": "32/16",
+      "E_fraction": "33/16",
+      "P_minus_E_fraction": "-1/16",
+      "dispatch": "A"
+    }
+  ],
+  "total_variation_one_zero_economic_error": true,
+  "reference_investment_gap_fraction": "+1/16",
+  "true_high_overlap_investment_gap_fraction": "-1/16",
+  "source": "conditional standard finite-horizon Bellman residual and original-buyer paid service algebra",
+  "field_measurements": false,
+  "physical_approval": false,
+  "independent_novelty": false
+}

@@ -1,0 +1,9 @@
+# Solutions — decision-sensitive dynamic production model
+
+**Instructor-only; separate from [exercises](DECISION_SENSITIVE_NETWORK_EXERCISES.md).**
+
+1. Define g=Vhat-(rhat+beta Khat Vhat) and d=(r-rhat)+beta(K-Khat)Vhat. Rearranging yields r=Vhat-g-beta K Vhat+d. Conditional expectation under the actual law and a policy, discounted summation and Vhat_T=0 telescope to J(pi)=Vhat_0+E_actual,pi sum beta^t(d-g). Supremizing gives optimal J; it is not the expectation under the logged R occupancy because SG may choose newly lawful actions and create different learner/customer/recovery histories.
+2. Valid j in [0,1/4]. With the original C offer precisely when Q_C=1, p_B=5/8-j. B yields 3/4+(1-1/4)+(5/8-j)=17/8-j, A yields 2. P=max(2,17/8-j). E=33/16. P>E iff j<1/16; B>A iff j<1/8. At j=1/8 B and A tie but E already dominates P. These are not real robotics thresholds.
+3. Optimized one-slot date-2 contribution is (1-H)max(O_A,2 Q_C O_C). Expectation = Pr(O_A,!H)+2 Pr(Q_C,O_C,!H)-Pr(Q_C,O_C,O_A,!H). Selected completions omit offers not dispatched or rejected because another buyer occupied the robot/operator, and may omit outages and no-order windows.
+4. TV=1 because the transition supports are disjoint. Both events have H=1, so date-2 revenue 0 under either, and the value-weighted difference is 0. If Q_C persists after the outage resolves, the future V may differ by Q_C and equality may fail; last-date sufficiency does not extend across an altered future menu.
+5. No. Optimized SG can visit legal actions omitted from logging; the sign is unidentified without upper residual/paid-opportunity control for *all* optimizing reachable lawful rows (or another valid whole-policy physical/contractual ceiling). A verified uniform action conditional upper envelope with a feasible policy lower witness suffices via L_SG, U_E; a legally and physically justified full-horizon opportunity ceiling is an alternative. Unknown legal rights are not evidence of prohibition.
