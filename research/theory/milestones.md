@@ -390,3 +390,6 @@ Extended the integrated source X / grounded G / embodied E investment decision w
 
 
 20 November 2026 UTC original-order observability continuation: [observation-closed physical recovery versus learning/grounding/embodiment](../theory_integration_2026_11_17/data_value/OBSERVATION_CLOSED_RECOVERY_AND_GROUNDING.md) and prospective warehouse tote-order validation design. Coarse hidden retry states break perfect-state R rescue despite physical statewise recoverability; certified G live observation or E independent universal retry can repair the toy. 38 scoped V8 checks and independent Python set arithmetic, no real signed physical/market support; known shielding prior art. Nov22 and all future gates **OPEN**.
+
+
+**22 November original eligible offers and capacity:** [same Models A/B endogenous order and shared-operator result](../theory_integration_2026_11_17/data_value/ENDOGENOUS_OFFER_NETWORK_AND_CAPACITY.md), exact constructive P/D/E ranking reversal with policy-specific joint buyer order kernels, no scientific acceptance, actual paid buyer panel, legally signed intervention or official numeric I-O coefficient; November29 stronger theory/evidence, Dec6 contribution choice and original December25 23:59 Eastern remain.

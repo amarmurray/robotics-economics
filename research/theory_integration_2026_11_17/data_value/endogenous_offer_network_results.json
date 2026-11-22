@@ -1,0 +1,45 @@
+{
+  "units": "normalized values; all headline contributions in /400 units",
+  "grid_cases": 41184,
+  "assertions": 123590,
+  "worlds": {
+    "separated": {
+      "P": 300,
+      "D": 180,
+      "E": 240
+    },
+    "coincident": {
+      "P": 200,
+      "D": 260,
+      "E": 240
+    }
+  },
+  "full_joint_half_marginal_series": {
+    "k_0": {
+      "P": 300,
+      "D": 260,
+      "E": 240
+    },
+    "k_6": {
+      "P": 240,
+      "D": 212,
+      "E": 240
+    },
+    "k_10": {
+      "P": 200,
+      "D": 180,
+      "E": 240
+    }
+  },
+  "unseen_original_offer_example": {
+    "withoutHiddenB": {
+      "P": 20,
+      "D": 8
+    },
+    "withHiddenB": {
+      "P": 20,
+      "D": 40
+    }
+  },
+  "limitations": "Exact finite arithmetic. No field data, legal approval, causal identification or empirical calibration."
+}

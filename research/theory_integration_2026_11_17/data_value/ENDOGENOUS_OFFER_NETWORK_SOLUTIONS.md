@@ -1,0 +1,9 @@
+# Instructor solutions — joint customer demand, training data and physical capacity
+
+**Separate from student exercises. Not empirical robot returns.**
+
+1. Four states 00,10,01,11 have optimal one-slot returns 0,v_A,v_B,max(v_A,v_B); hence V_1=v_AZ_A+v_BZ_B-min(v_A,v_B)Z_AZ_B. With independent physical AND organizational slots V_2=v_AZ_A+v_BZ_B. Shared human recovery negates independence.
+2. The four cells are (j,1/2-j,1/2-j,j) in order 00,A-only,B-only,both, so j ranges from 0 to 1/2. P=3/4-j_P/2; D=13/20-2j_D/5; E=3/5. In world P-exclusive/D-coincident: P=3/4,D=9/20,E=3/5, so P. In P-coincident/D-exclusive: P=1/2,D=13/20,E=3/5, so D. For common x P and E tie at x=3/10; x is hypothetical.
+3. P observes A each time and serves it at 1; whether no B offers or an unserved B at the same time, P's selected record stays identical. D with A fallback 2/5 and qualified B value 2 returns 2/5 if B absent, 2 if B present; thus P vs D reverses. An original-buyer eligible order and refusal record including B with timestamps and lawful predispatch observability distinguishes them; a later report cannot authorize earlier action.
+4. Let j_L=max(0,m_A+m_B-1), j_U=min(m_A,m_B). For fixed values a,b the interval is [a m_A+b m_B-min(a,b)j_U,a m_A+b m_B-min(a,b)j_L]; 4-cell construction attains endpoints. Joint counterfactual potential histories can couple P,D so independent extreme endpoints may be mutually incompatible.
+5. Let g_a be first-stage net paid receipts, K_a the full joint future law and V_R any bounded common function on the union of support. Then J(P)-J(D)=(g_P-g_D)+(E_{K_P}V_R-E_{K_D}V_R)+E_{K_P}(V_P-V_R)-E_{K_D}(V_D-V_R). Complete authorized independent network-level assignment can identify total expected J difference with full cleared receipts, not arbitrary mediation/path-specific demand or learner effects. An algebraic reference V_R need not itself be physically/legal feasible under both arms.
