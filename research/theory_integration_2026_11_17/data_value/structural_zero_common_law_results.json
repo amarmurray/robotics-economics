@@ -1,0 +1,78 @@
+{
+  "status": "synthetic_exact_rational_tick_model",
+  "denominator": 160,
+  "feasible_joint_laws_grid": 81,
+  "exact_assertions": 509,
+  "value_extrema_ticks_160": {
+    "P": [
+      20,
+      100
+    ],
+    "G": [
+      10,
+      105
+    ],
+    "E": [
+      72,
+      72
+    ],
+    "GminusP": [
+      -50,
+      5
+    ]
+  },
+  "witnesses": {
+    "0_0": {
+      "p": "4/16",
+      "theta": "0/16",
+      "values_160": {
+        "P": 20,
+        "G": 10,
+        "E": 72
+      },
+      "winner": "E"
+    },
+    "8_0": {
+      "p": "12/16",
+      "theta": "0/16",
+      "values_160": {
+        "P": 100,
+        "G": 50,
+        "E": 72
+      },
+      "winner": "P"
+    },
+    "8_12": {
+      "p": "12/16",
+      "theta": "12/16",
+      "values_160": {
+        "P": 100,
+        "G": 105,
+        "E": 72
+      },
+      "winner": "G"
+    }
+  },
+  "audit": {
+    "missing_binary_weights_sixteenths": [
+      6,
+      4,
+      3,
+      1
+    ],
+    "legal_audit_indices": [
+      1,
+      2,
+      3
+    ],
+    "budget": 2,
+    "chosen_indices": [
+      1,
+      2
+    ],
+    "initial_width_sixteenths": 14,
+    "post_audit_width_sixteenths": 7,
+    "irreducible_forbidden_cell_sixteenths": 6
+  },
+  "limitations": "A conditional synthetic face of the common potential-history polytope, not robot measurements or a complete multi-date calibration."
+}

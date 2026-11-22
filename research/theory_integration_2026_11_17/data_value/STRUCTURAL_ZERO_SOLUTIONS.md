@@ -1,0 +1,7 @@
+# Instructor solutions — lawful support-zero economic transfer
+
+1. The censored half may contain anywhere between zero and half of the population as positives, so p=1/4+x with 0≤x≤1/2. Observed complete cases have success rate 1/2, but that is not a population rate under outcome-dependent recording.
+2. P takes [1/8,5/8]. G's retained option has value p/2−1/16; its target option θ−3/32. Maximum G−P is (p−3/32)−(p−1/8)=1/32, reached θ=p. Minimum is at p=3/4, θ=0: G=5/16, P=5/8, difference −5/16. To construct worlds, split buyer-positive mass into θ T-qualified/worker-clear versus p−θ failed/blocked T; allocate missing buyer positives x=p−1/4. E maximin 9/20 exceeds P's 1/8 and G's 1/16; no observed-population identification is implied.
+3. At each μ, max_i f_i μ − max_j g_j μ = min_j max_i (f_i−g_j)μ = max_i min_j (f_i−g_j)μ. Taking min_μ and moving finite min_j outside yields epigraph LPs; taking max_μ and moving finite max_i outside yields hypograph LPs. Both use the *same μ* for P and G. Independent min/max worlds need not be jointly feasible.
+4. P=5/8, E=9/20, and G can range from 5/16 to 21/32, so P is robust although G may be the oracle winner. θ includes Q^T, Y^T and worker-clear under historically untried T; an audit of old-Y alone observes none of that interventional joint event.
+5. Audit entries 1 and 2 (zero-indexed), removing weights 4+3=7, leaving 6+1=7 sixteenths of width. A shared-job/demand linkage creates correlated missing outcomes; extrema then require the common joint-law program rather than independent endpoint assignment.

@@ -1,0 +1,13 @@
+# Structural-zero action and original-buyer audit evidence ledger (prospective, unpopulated)
+
+**No real records, authorization, or customer outreach obtained.** This is a field-study identification specification, not permission to acquire or reveal private customer data.
+
+For each interference-closed shared learner/robot/operator cluster, register the lawful and physically safe P source-data, G target-grounding and E independent embodiment **menus** before any evaluation. Distinguish: prohibited action (never in the target menu); permitted but historically unused e=0; action logged with censored buyer outcomes; and reliably observed old action. Never write a fictitious positive action or audit propensity.
+
+For each site/time/task/customer service, record original eligible buyer **offer and no-offer** under the relevant versioned original commercial menu, refusals and turned-away orders, qualified/safety-cleared attempts, accepted service, invoice and cleared receipts separately. Preserve original eligible demand that arrives during full worker queue; it may inform future demand even if no current sale. Keep privacy safeguards, written rights and source lineage, customer approvals, audit inclusion and its preoutcome timing, and explicit known selection probabilities. The absence of an audit is not a no-order.
+
+Record signed learning policy/checkpoint IDs, field trajectories versus recoveries versus human teleoperation versus simulation/synthetic/public-pretrained origins, target grounding/curation and compute resources, joint qualification transitions, single-worker incident arrivals and duration by date, displaced throughput elsewhere in the network, and hardware/embodiment availability (including independent E robot and recovery worker proof). Capture costs **once** and assign no price to a benchmark percentage.
+
+**Estimands.** Whole authorized program-policy accepted-paid contribution; fixed-policy original-buyer/worker contrast; and the width of the common-law identified investment gap. Audit choice ranks legal observation rows by their ability to reduce the **economic** identified interval, not classifier entropy; a structural action zero leaves an irreducible potential-outcome dimension even if all old buyer outcomes are reported.
+
+**Explicit exclusions.** No action randomized, no buyer contacted, no data purchased, no robotic policy changed and no confidentiality boundaries crossed. Existing public source references are methodological only. Without verified customer offer/no-offer panels, support, signed rights, independent E staffing and realized recovered-worker transitions, this project offers no field-calibrated investment ranking. The official numerical input-output production backbone also remains absent.
