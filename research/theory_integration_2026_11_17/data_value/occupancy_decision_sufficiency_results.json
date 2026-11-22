@@ -1,0 +1,237 @@
+{
+  "units": "1/40 normalized paid contribution",
+  "synthetic": true,
+  "programs": {
+    "R": {
+      "full": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "coarsened": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "regret": {
+        "firstDecision": 0,
+        "continuation": 0,
+        "total": 0
+      }
+    },
+    "S": {
+      "full": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "coarsened": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "regret": {
+        "firstDecision": 0,
+        "continuation": 0,
+        "total": 0
+      }
+    },
+    "G": {
+      "full": {
+        "first": "pilot",
+        "actions": {
+          "A": "a",
+          "B": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "coarsened": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 28,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "regret": {
+        "firstDecision": 0,
+        "continuation": 0,
+        "total": 0
+      }
+    },
+    "SG": {
+      "full": {
+        "first": "pilot",
+        "actions": {
+          "A": "a",
+          "B": "b"
+        },
+        "gross": 48,
+        "net": 40,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 48
+          }
+        ]
+      },
+      "coarsened": {
+        "first": "pilot",
+        "actions": {
+          "N": "a"
+        },
+        "gross": 28,
+        "net": 20,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 20
+          },
+          {
+            "first": "pilot",
+            "gross": 28
+          }
+        ]
+      },
+      "regret": {
+        "firstDecision": 0,
+        "continuation": 20,
+        "total": 20
+      }
+    },
+    "E": {
+      "full": {
+        "first": "pilot",
+        "actions": {
+          "N": "e"
+        },
+        "gross": 38,
+        "net": 36,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 30
+          },
+          {
+            "first": "pilot",
+            "gross": 38
+          }
+        ]
+      },
+      "coarsened": {
+        "first": "pilot",
+        "actions": {
+          "N": "e"
+        },
+        "gross": 38,
+        "net": 36,
+        "allFirstValues": [
+          {
+            "first": "skip",
+            "gross": 30
+          },
+          {
+            "first": "pilot",
+            "gross": 38
+          }
+        ]
+      },
+      "regret": {
+        "firstDecision": 0,
+        "continuation": 0,
+        "total": 0
+      }
+    }
+  },
+  "gapFull": 4,
+  "gapCoarsened": -16,
+  "exactGapDecomposition": {
+    "reportRegretSG": 20,
+    "reportRegretE": 0
+  },
+  "exhaustiveStructuralChecks": {
+    "twoBuyerPayoffTables": 81,
+    "pilotReceipts": 4,
+    "policyChecks": 1296,
+    "zeroRegretPolicies": 388
+  },
+  "assertions": 1635,
+  "notes": "All buyer receipts, licensed report and recipe payoffs are stipulated; nothing is a field estimate."
+}
