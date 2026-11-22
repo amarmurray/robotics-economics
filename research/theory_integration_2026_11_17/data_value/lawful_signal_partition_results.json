@@ -1,0 +1,29 @@
+{
+  "model": "lawful_signal_partition_model",
+  "test": {
+    "unrestricted": 3,
+    "coarse": 2,
+    "fine": 3,
+    "no_signal": 2,
+    "coarse_min_L1": 2,
+    "coarse_min_L2": 2,
+    "fine_L2": 3
+  },
+  "net": {
+    "SG_legal_coarse": 0.6666666666666666,
+    "SG_legal_fine": 1,
+    "SG_fine_after_cost_eighth": 0.875,
+    "E": 0.75
+  },
+  "checks": 55296,
+  "unimplementable_cases": 3840,
+  "robust_uncertain_Q": {
+    "hidden_regret_deterministic": 1,
+    "hidden_regret_optimal_randomized": 0.5,
+    "revealed_regret": 0
+  },
+  "limitations": "synthetic normalized accepted-paid Q; no field data; zero menu/report cost except indicated case",
+  "exactness": "Checks use integers only; displayed normalized E/SG are numerical divisions of exact rational quantities.",
+  "run_mode": "self-contained V8 source evaluation; standalone Node compatible",
+  "date_utc": "2026-11-22"
+}
