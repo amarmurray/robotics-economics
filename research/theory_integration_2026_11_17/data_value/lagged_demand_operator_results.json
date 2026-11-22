@@ -1,0 +1,27 @@
+{
+  "status": "conditional_synthetic_exact",
+  "triple_law_enumeration": {
+    "denominator": 6,
+    "cases": 1716,
+    "marginal_strata": 343
+  },
+  "recovery_law_enumeration": {
+    "denominator": 8,
+    "cases": 165,
+    "marginal_strata": 81
+  },
+  "exact_integer_assertions": 4188,
+  "program_values_sixteenths": {
+    "P_stagger": 16,
+    "P_sync": 8,
+    "D": 9,
+    "E": 10
+  },
+  "paid_dispatch_advantage_eighths": {
+    "QH_disjoint": 1,
+    "QH_nested": -1
+  },
+  "unobserved_original_buyer_data": true,
+  "actual_intervention_performed": false,
+  "novelty_established": false
+}
