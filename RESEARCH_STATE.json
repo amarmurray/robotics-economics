@@ -4,13 +4,12 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "cef0192bea7296c8b2db2a2318a6c0e7a1b7d0a6",
   "lease": {
-    "run_id": "roboecon-20261122T1644Z-queue-cli-correction",
+    "run_id": "roboecon-20261122T173521-adaptive-queue",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-22T16:43:56.098Z",
-    "expires_at_utc": "2026-11-22T17:03:56.098Z",
-    "reason": "Corrected CLI result printing; verified retrieved JS source matches recorded 163-assertion JSON and renders once under standalone-module simulation; independent Python Fraction audit and replication instructions preserved.",
-    "released_at_utc": "2026-11-22T16:44:47.452Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-22T17:35:21.664Z",
+    "expires_at_utc": "2026-11-22T18:25:21.664Z",
+    "reason": "Derive and test adaptive multi-job recovery with source learning, customer response and grounding/independent-embodiment comparisons."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
