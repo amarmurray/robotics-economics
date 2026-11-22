@@ -4,13 +4,12 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "cef0192bea7296c8b2db2a2318a6c0e7a1b7d0a6",
   "lease": {
-    "run_id": "roboecon-2026-11-22T15-31-01-683Z-worker-carryover",
+    "run_id": "roboecon-20261122T1636Z-grounding-queue",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-22T15:31:01.683Z",
-    "expires_at_utc": "2026-11-22T16:16:01.683Z",
-    "reason": "Published and checked four-date source-broadcast learner/order/worker carryover theory, exact models, evidence and integrated science gate.",
-    "released_at_utc": "2026-11-22T15:40:34.921Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-22T16:34:42.348Z",
+    "expires_at_utc": "2026-11-22T17:29:42.348Z",
+    "reason": "Develop joint physical queue/grounding/embodiment policy and support-sensitive exact network economic identification."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
@@ -499,7 +498,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-22T14:43:37.820Z",
+  "updated_at_utc": "2026-11-22T16:34:42.348Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
