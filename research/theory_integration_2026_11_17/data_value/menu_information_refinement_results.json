@@ -1,0 +1,39 @@
+{
+  "units": "value = numerator/8 normalized paid units",
+  "worlds": {
+    "positive": {
+      "v00": 4,
+      "v01": 4,
+      "v10": 4,
+      "v11": 8,
+      "sourceWithout": 0,
+      "sourceWith": 4,
+      "infoBefore": 0,
+      "infoAfter": 4,
+      "interaction": 4
+    },
+    "negative": {
+      "v00": 4,
+      "v01": 8,
+      "v10": 6,
+      "v11": 8,
+      "sourceWithout": 2,
+      "sourceWith": 0,
+      "infoBefore": 4,
+      "infoAfter": 2,
+      "interaction": -2
+    }
+  },
+  "allNestedFourActionWorlds": {
+    "count": 50,
+    "strictPositive": 37,
+    "strictNegative": 3,
+    "zero": 10,
+    "checks": 154
+  },
+  "oldCommonOptimalAction": true,
+  "sourceTrainedCommonOptimalAction": false,
+  "fieldObservations": false,
+  "originalBuyerSettlementData": false,
+  "authorizedInterventions": false
+}
