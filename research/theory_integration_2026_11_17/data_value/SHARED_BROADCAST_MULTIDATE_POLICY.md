@@ -1,0 +1,64 @@
+# Shared learner broadcasts, two buyer sites and scarce recovery: an adaptive three-date production theorem
+
+**22 November 2026.** Continuation of the single integrated *When Capabilities Become Production* argument, Models A and B. Scientific acceptance **OPEN**. All quantities are synthetic normalized **accepted-and-cleared original-customer net service contributions**, not robotic field estimates or benchmark-to-dollar conversions.
+
+## A common full-stack mechanism, rather than an isolated information oracle
+
+The prior [active signal chapter](ACTIVE_SIGNAL_PRODUCTION_KERNEL_AND_ECONOMIC_TRANSFER.md) derived a one-target, reserved-slot conditional Q/B/F/report identity. It is insufficient when (i) a source field episode changes a common checkpoint broadcast to multiple sites; (ii) a later productive pilot is selected *adaptively* after safe qualification; (iii) the learner changes both sites' future qualification and buyer orders; and (iv) a common recovery operator cannot execute two simultaneous target services. We extend one restricted slice of the existing Bellman production value, not the general multi-layer economic model itself.
+
+At date 0 the authorized P program performs a source acquisition episode and generates a common learner checkpoint L, including a recorded safety/qualification test, failures and recoveries, rights and all r0 receipts/costs. At date 1, after observing L and any timely lawfully available W, the producer chooses the incumbent safe R or a productive B pilot. B is permitted only if L=1. R yields net paid receipt r_R=2; B yields an *already net* accepted paid receipt r_B=3/4, reflecting displaced incumbent work and worker/time costs. The B episode changes the date-2 joint law of two future sites. Under the potential B action define S_i=Q_i O_i A_i C_i, the event that site i's exact recipe is safely qualified, the original buyer actually offers the task, the robot's output is accepted and the payment clears. No S_i is a task benchmark score or a successful-episode selected sample. F=1 means the single shared target recovery/operator slot is free. Its busy condition may be caused by failures at either site. If B is not selected, the example's B-created new recipes are absent, while R remains safely executable. Data retention and cross-site reuse must be legally authorized. Source trajectories, failures/recoveries, targeted teleoperation, simulation/synthetic and public pretrained data remain distinct causal actions, not homogeneous unit-counts.
+
+At date 2 assume original buyer orders, qualification, acceptance/settlement eligibility and F are known before safe dispatch. The incumbent R can still earn 2 using a *separate* reserved physical/organizational resource (critical assumption). New qualified original-customer service i earns v_i >=2, but both sites share exactly **one** operator/service slot, so at most one can be served. Write 1_i=S_i and assume v1>=v2>=2. The **exact** final optimized paid value is
+
+    T = 2 + (v1-2) F S1 + (v2-2) F S2 - (v2-2) F S1 S2.       (1)
+
+Proof: when neither site is executable, dispatch R. When exactly one is executable and F=1, take that service; when both are executable, the operator serves only the higher-valued one. Inclusion-exclusion gives (1) state by state, including the overlap deduction. This is a production-capacity identity, not a stochastic independence assumption. With v1=v2=4, T=2+2 F 1{S1 or S2}. A genuinely independent embodiment/worker route may remove the collision, but an added chassis using this same operator cannot.
+
+## Exact finite-horizon adaptive policy proposition
+
+Let W be finite and lawfully observed at date 1; do not let the date-1 B/R policy condition on future unknown S_i or F. Under the above costs, v1=v2=4, discount 1 and r0=0, define for the **potential B action within P**
+
+    m_w = Pr_P(L=1,W=w),
+    p_w = Pr_P(L=1,W=w,F=1,(S1 or S2)=1 | do B).
+
+Then the optimized *complete* three-date P contribution is exactly
+
+    J_P = 4 + sum_w [2 p_w - (5/4) m_w]_+.                    (2)
+
+On a non-null L=1,W=w atom, B is preferable to the old R when Pr(F(S1 or S2)|L=1,W=w,do B)>5/8. R remains a choice, including all L=0 histories. **Proof:** R at dates 1 and 2 yields baseline 4. B loses 5/4 current net receipt relative to R but creates a date-2 option worth 2 only when the single operator is free and at least one qualified customer actually orders and pays. At observed w, the legally feasible B/R decision chooses the positive part of its conditional difference, independently across the W atoms. Sum, while L=0 must retain R. All continuation production is already counted once in (2). QED.
+
+The theorem is conditional on a well-defined joint `do B` kernel within P, an audited safe gate, a licensed W, original buyer settlement, and ex-post legal order/F observation at date 2. If target order arrives only *after* an irreversible reservation, terminal (1) must be replaced with the reservation decision from the preceding active-signal chapter. If R consumes this same recovery operator, baseline 4 is not guaranteed. If W acquisition changes the causal learning/order/operator kernel, one cannot rank it by a pure fixed-kernel Blackwell comparison. A free optional extra report with unchanged kernel weakly helps, since a richer policy can ignore it; that is **not** a claim that forced/costly training helps.
+
+## Exact economic overlap and a sharp conditional partial-ID result
+
+Let X_i=F S_i. With one shared operator,
+
+    Pr(F (S1 or S2)) = Pr(F S1)+Pr(F S2)-Pr(F S1 S2).          (3)
+
+Therefore even the exact **site-specific paid success** marginals do not determine the multi-site paid contribution. Under the extra *testable* conditional independence of F from the joint site-pair, `f=Pr(F), x_i=Pr(S_i), c=Pr(S1 S2)`, the terminal service probability is f(x1+x2-c). Fréchet coupling yields
+
+    max(0,x1+x2-1) <= c <= min(x1,x2),
+
+with both endpoints attainable and all intermediate coupling laws admissible in this stipulated class. When F is dependent on the pair, joint F,S1,S2 is required: multiplying by f is invalid, and these particular sharp bounds need not hold.
+
+For an explicit *fully synthetic* original-buyer world, let Pr(L=1)=1/2; W is constant; conditional on L=1 and potential B each site has Pr(S_i)=3/4; F is independent of the *pair* with Pr(F=1)=3/4. To expose possible endogenous buyer feedback, choose Q_i=O_i=S_i in this construction (a buyer orders exactly when the common learner makes the specific recipe qualified). Both per-site qualification and original order rates are thus 3/4, identical across two scenarios; that deterministic alignment is **not** assumed generally. After B, L causes qualification/order in both sites; without B these newly qualified recipes do not exist.
+
+**Diversified:** the conditional joint (S1,S2) mass on (11,10,01,00) is (1/2,1/4,1/4,0). Then the union is always eligible, future service with F has probability 3/4, B is selected when L=1, and J_P=4+(1/2)(2·3/4−5/4)=**33/8**.
+
+**Synchronized:** the same joint masses are (3/4,0,0,1/4). Now F and the union coincide with probability 9/16, the pilot's expected incremental payoff is 2·9/16−5/4=−1/8, and the policy keeps R even when L=1. Hence **J_P=4**. Both worlds have identical original buyer and learner marginal event rates, identical F probability and r_B; only the paired cross-site outcome structure changes.
+
+For an auditable *synthetic* E comparison, suppose a physically independent embodiment maintains the same two incumbent accepted paid receipts 2+2=4, generates an additional paid service worth 1/4 with probability 1/2, and incurs 1/16 of total manufacturing/extra operator/ownership costs. Its stipulated complete net value is J_E=4+1/8−1/16=**65/16**. So 33/8>65/16>4, reversing the P-versus-E investment ranking *without* changing site-specific technical learning, original buyer orders or operator utilization. The sharp attainable P interval is [4,33/8] in the above coupling class; any E value in its interior is not signed by the marginals. No economic loss from free optional data is claimed: R ensures J_P>=4. New E capacity is not costless, and its operator truly must be independent.
+
+This is a **different information structure** from the previous one-site reserved-slot theorem. Together they show why both predecision information timing and ex-post execution capacity must be specified before a report/learner statistic becomes economically sufficient.
+
+## General network extension, falsifiers and identification boundary
+
+For three-plus dates, histories include shared learner version, per-site signed qualification, original buyer eligible/no-offer and settled payment outcomes, legal rights, operator/recovery queue, embodied fleet and demand responses. The complete optimized program is still the existing lawful Bellman `J=E sum_t beta^t r_t`; the local (1) is an ex-post production-allocation subproblem, not a universal full-network formula. An LP dual resource price can value an operator slot conditional on a *known* service opportunity, but cannot estimate missing correlated qualification/order or post-pilot demand kernels. Both a new embodiment and target grounding are real alternatives to more source field data. Different source modalities may transfer in opposite directions and use different compute/curation budgets.
+
+Conditions that could reject or modify this model: the recovery worker can serve orders sequentially before deadlines; R shares the scarce worker; target service commits before order arrival; one of the sites lacks data-use rights or a signed physical safe gate; pilot failure deters tomorrow's buyers; accepted service does not clear payment; F depends jointly on both sites' failures; E does not have independent operator capacity; different robots compete for network equipment/manufacturing. Change the event space/policy, not merely a numerical input.
+
+**Evidence obligation:** estimate or bound jointly supported `Pr_P(L,W,F,Q1,Q2,O1,O2,acceptance,clearing|do B)` at the connected-cluster treatment unit, including unserved original buyers, not only paid successful episodes. Separate rights, telemetry clock, causal intervention and prior qualification. The strong illustrative F-independence cannot be assumed when shared recovery failures arise from the learner's actions. The remaining general multi-date proof gap is a sharp, physically supported causal ambiguity envelope with worker occupancy carryover and multiple available legal policies.
+
+**Closest prior art:** This is a conditional application of elementary inclusion-exclusion/Fréchet inequalities, Bellman decisions and O-ring/capacity pooling, not independently established novelty. Farboodi–Koh–Xia's [*Data-Driven Automation* (June 2026)](https://arxiv.org/abs/2606.10127) already values future production-generated data and complementary aggregation; Tong–Manea's [*Data Sharing and Competition in Learning-by-Deploying Industries* (June 2026)](https://arxiv.org/abs/2607.00168) studies pooled learning and product-market competition. The technical mechanisms in [*Learning while Deploying* (May 2026)](https://arxiv.org/abs/2605.00416) and [*Learning from Fleet Experience* (October 2026)](https://arxiv.org/abs/2610.25736) do not estimate original buyer paid opportunity. The candidate research synthesis is the joint *qualified-buyer-paid/worker* test of fleet transfer and investment, not the novelty of these underlying identities. No private or employer data entered.
+
+See [unpopulated original-buyer evidence ledger](SHARED_BROADCAST_MULTIDATE_EVIDENCE.md), [exact executable](shared_broadcast_multidate_exact.js), [results](shared_broadcast_multidate_results.json), [independent Fraction checker](shared_broadcast_multidate_fraction.py), [exercises](SHARED_BROADCAST_MULTIDATE_EXERCISES.md) and [solutions](SHARED_BROADCAST_MULTIDATE_SOLUTIONS.md). The Nov22 science gate remains OPEN. Theory majority through December 6 and final December 25, 2026, 23:59 America/New_York unchanged.

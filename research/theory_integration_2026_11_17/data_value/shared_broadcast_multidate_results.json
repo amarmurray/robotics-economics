@@ -1,0 +1,23 @@
+{
+  "synthetic_only": true,
+  "full_joint_32_state_tables": 5984,
+  "exact_integer_assertions": 11973,
+  "source_checkpoint_probability": "1/2",
+  "site_marginal_eligibility_given_checkpoint": "3/4",
+  "operator_free_probability_given_checkpoint": "3/4",
+  "shared_one_slot": true,
+  "legal_report_atoms": 2,
+  "diversified": {
+    "joint_site_overlap_conditional": "1/2",
+    "paid_event_unconditional": "3/8",
+    "whole_program": "33/8"
+  },
+  "synchronized": {
+    "joint_site_overlap_conditional": "3/4",
+    "paid_event_unconditional": "9/32",
+    "whole_program": "4"
+  },
+  "independent_embodiment_net": "65/16",
+  "scientific_gate": "OPEN",
+  "original_buyer_paid_measurements": false
+}
