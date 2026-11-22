@@ -1,0 +1,32 @@
+{
+  "synthetic_only": true,
+  "denominator": 8,
+  "table_cases": 3876,
+  "frechet_patterns": 125,
+  "exact_integer_assertions": 11769,
+  "P": {
+    "uninformative_F_eighths": 16,
+    "perfect_F_eighths": 20,
+    "paid_pilot_eighths": 4,
+    "net_eighths": 20
+  },
+  "D_world_I": {
+    "uninformative_F_eighths": 16,
+    "perfect_F_eighths": 24,
+    "teleop_cost_eighths": 2,
+    "net_eighths": 22
+  },
+  "D_world_II": {
+    "uninformative_F_eighths": 16,
+    "perfect_F_eighths": 16,
+    "teleop_cost_eighths": 2,
+    "net_eighths": 14
+  },
+  "independent_embodiment_net": "12/5",
+  "kernel_signal_interaction_eighths": {
+    "world_I": 4,
+    "world_II": -4
+  },
+  "science_gate": "OPEN",
+  "customer_paid_data": false
+}
