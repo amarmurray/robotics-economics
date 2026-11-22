@@ -1,0 +1,40 @@
+{
+  "model": "endogenous_program_response_and_missing_support",
+  "laws": 33,
+  "exact_assertions": 399,
+  "scenario_states_per_law": 64,
+  "normalized_amounts": {
+    "R": "1/2",
+    "P": "3/4",
+    "E": "23/32",
+    "G_calibrate": "5/16+2*t",
+    "G_option": "max(1/2,5/16+2*t)",
+    "t_support": "[0,1/4]",
+    "G_beats_P": "t>7/32",
+    "maximin_program": "P",
+    "minimax_regret_G_probability": "1/8",
+    "minimax_regret": "7/128",
+    "pure_P_max_regret": "1/16",
+    "two_endpoint_equal_prior_report_value": "1/32"
+  },
+  "endpoint_records": [
+    {
+      "t": "0/128",
+      "old": "1024/2048",
+      "P": "1536/2048",
+      "G_calibrate": "640/2048",
+      "G_or_old": "1024/2048",
+      "E": "1472/2048",
+      "qualification_demand_free": "0/1024"
+    },
+    {
+      "t": "32/128",
+      "old": "1024/2048",
+      "P": "1536/2048",
+      "G_calibrate": "1664/2048",
+      "G_or_old": "1664/2048",
+      "E": "1472/2048",
+      "qualification_demand_free": "256/1024"
+    }
+  ]
+}
