@@ -1,0 +1,37 @@
+{
+  "schema": "worker-carryover-synthetic-v1",
+  "legal_filtration": "t1 knows L only; t2 observes S2,H2; t3 learns S3,H3 before dispatch but not cleared payment",
+  "input": {
+    "Pr_L": "1/2",
+    "r1_R": "2",
+    "r1_B": "7/4",
+    "r2_R": "2",
+    "r2_T": "9/4",
+    "r3_R": "2",
+    "r3_T": "4",
+    "Pr_recovery_busy_R": "1/2",
+    "Pr_order_after_recovery_R": "1/2",
+    "Pr_terminal_paid_eligibility_after_free_R": "1/2"
+  },
+  "test_summary": {
+    "exhaustive_eight_cell_laws": 330,
+    "exact_integer_assertions": 1666
+  },
+  "diversified": {
+    "h": "1/2",
+    "singleton": "1/2",
+    "free_singleton": "1/2",
+    "B_complete_if_L": "57/8",
+    "P_complete": "105/16"
+  },
+  "synchronized": {
+    "h": "1/2",
+    "singleton": "1/2",
+    "free_singleton": "0",
+    "B_complete_if_L": "13/2",
+    "P_complete": "13/2"
+  },
+  "E_complete": "209/32",
+  "partial_id": "P in [13/2,105/16] for fixed h=singleton=1/2 and unrestricted joint coupling",
+  "observed_robotics_data": false
+}
