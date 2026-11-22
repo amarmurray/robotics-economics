@@ -1,0 +1,51 @@
+{
+  "model": "one common preassignment network regime, lawful binary predecision signal",
+  "payment_rows_tenths": {
+    "P": [
+      [
+        20,
+        40
+      ],
+      [
+        15,
+        50
+      ]
+    ],
+    "E": [
+      [
+        19,
+        39
+      ],
+      [
+        22,
+        45
+      ]
+    ]
+  },
+  "signal_accuracy": "3/4",
+  "prior_factor_prevalence": "1/2",
+  "before_investment": "69/20",
+  "after_investment_best_program": "67/20",
+  "without_signal_best_program": "67/20",
+  "P_locked_after_signal": "53/16",
+  "E_locked_after_signal": "67/20",
+  "report_timing_value": "1/10",
+  "gross_early_report_value_at_accuracy_q": "max(0,3q/5-7/20)",
+  "gross_late_report_value_at_accuracy_q": "max(0,3q/4-3/5)",
+  "accuracy_required_for_positive_early_value": "q>7/12",
+  "accuracy_required_for_positive_late_value": "q>4/5",
+  "robust_theta_interval": [
+    "1/4",
+    "3/4"
+  ],
+  "maximin_no_report": "111/40",
+  "maximin_with_free_optional_report": "111/40",
+  "largest_early_report_cost_at_q_3_4_for_Bayes_improvement": "1/10",
+  "configurations": 7144,
+  "assertions": 23597,
+  "synthetic": true,
+  "observed_paid_customer_data": false,
+  "confirmed_report_licenses": false,
+  "identified_joint_network_laws": false,
+  "scientific_novelty_claim": false
+}
