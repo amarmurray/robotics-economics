@@ -1,0 +1,10 @@
+# Student exercises — joint paid-Q support (no instructor answers)
+
+These are exercises about the *same* SG-versus-embodiment qualified original-buyer production question, not a new independent research program. Unless explicitly stated, all Q values are synthetic complete accepted-and-paid net continuation, not task benchmarks.
+
+1. Start with two eligible original buyer types with probabilities p and 1-p, old legal recipe a and source-trained legal recipe b. If d_A=theta-alpha and d_B=theta-beta, alpha<beta, derive the report value from the ex-post and blind production optimum. Prove it is zero outside [alpha,beta] and identify the interior maximizer.
+2. Let p=1/2, alpha=0, beta=1. Compare the sharp upper report value under the *joint shared-factor segment* d_B=d_A-1, d_A in [0,1], with the Cartesian rectangle having the same coordinate ranges. Why can testing only segment endpoints give an incorrect maximum?
+3. Let C be a closed bounded convex polygon of jointly attainable buyer-specific paid-Q differences. Prove that the loss is affine after partitioning by d_A=0, d_B=0 and p d_A+(1-p)d_B=0. Explain why only the original polygon's vertices need not suffice.
+4. Distinguish a target-demand report from physical target alignment that lowers buyer A's net paid break-even intercept. Prove the increasing-differences result for the physical intervention. Give a region where raising source factor theta reduces the value of the *information* report.
+5. Write the exact SG-versus-E production gap if SG has a buyer report and a separately lawfully supported E program has affine paid value e_0+lambda*theta-C_E. State every boundary point that must be checked on a factor interval; explain why you may not use this answer when E's physical program lacks approval.
+6. Design an admissible original-buyer evidence table that can disprove the common paid-Q factor without running unapproved controllers. Include source types, jointly learned buyer responses, operator scarcity, rights, original no-order outcomes and cleared settlements.
