@@ -1,0 +1,11 @@
+# Instructor solutions (separate from exercises)
+
+1. For z=Pr(U=1,J=0), Frechet gives max(0,3/4+1/2-1)=1/4 <=z<=min(3/4,1/2)=1/2. The four event masses in (U,J) order (1,0),(1,1),(0,0),(0,1) are z,3/4-z,1/2-z,z-1/4. At z=1/4: (1/4,1/2,1/4,0). At z=1/2: (1/2,1/4,0,1/4). The new T job is a real t2 outcome, carried to t3; F3=1-J, rather than an independently drawn worker-free shock. Initial job D1 has already cleared after t2.
+
+2. Under R at t2 the date-3 site-2 target opportunity is (4/5)(5/8)=1/2, with zero new job. If D1=1, T offers 1/8+z; select T iff z>=3/8. If D1=2, T unavailable and the R continuation is 1/2. Thus P=4-1/4+(1/2)(1/2)+(1/2)max{1/2,1/8+z}=4+(1/2)max{1/2,1/8+z}; the sharp interval is [17/4,69/16]. Optional T is not forced after pilot P.
+
+3. G=4+7/10-21/50=107/25=4.28. E=4+9/10-3/5=43/10=4.30, where the old R stays intact and an extra robot/worker is physically required. Low z: 17/4 < 107/25 < 43/10. High z: 69/16 > 43/10 > 107/25. P's technical T qualification, buyer order and recovery marginals coincide across both worlds.
+
+4. A fixed mixed policy gives P(x,z)=17/4+(x/2)(z-3/8). At adverse z=1/4 it is 17/4-x/16, so maximin x=0, guaranteed 17/4; for known favorable z=1/2 an informed policy chooses T and yields 69/16. A credible legally available joint buyer/new-job report before date-2 dispatch, or an identified stable connected-cluster K, is needed for an informed T choice. Observing settled t3 payments **after** t2 cannot supply that signal.
+
+5. A sufficient physical state records worker residual queue B_t, all incident admission times, job durations, worker capacity c_t, robot slots, lawful learned qualification, buyer offer paths and rights. For a first-in-first-out single-worker queue, B_(t+1)=[B_t-c_t]_++sum newly admitted durations, with nonnegative durations, no job admitted without its triggering feasible action, and target service only when the relevant worker is available. A joint intervention-level K (or shared structural disturbance) must generate all counterfactual arms; independent extrema need not. A decisive empirical statistic is Pr(original site-2 eligible offer at t3 AND worker actually free | do T at t2, prior D1=1, original t2 site-1 order), recorded alongside R-action alternative and rights. These are prospective falsification requirements, not executed data.

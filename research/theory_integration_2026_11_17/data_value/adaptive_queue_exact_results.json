@@ -1,0 +1,105 @@
+{
+  "model": "adaptive_multijob_queue_demand_learning",
+  "synthetic": true,
+  "scenario_count": 17,
+  "assertions": 260,
+  "low_P": "17/4",
+  "high_P": "69/16",
+  "grounding_G": "107/25",
+  "embodiment_E": "43/10",
+  "fallback_R": "4",
+  "dispatch_cutoff_z": "3/8",
+  "observational_z_range": [
+    "1/4",
+    "1/2"
+  ],
+  "known_world_policy_values": [
+    {
+      "z": "1/4",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "17/64",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "9/32",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "19/64",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "5/16",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "21/64",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "11/32",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "23/64",
+      "P": "17/4",
+      "dispatch": "R"
+    },
+    {
+      "z": "3/8",
+      "P": "17/4",
+      "dispatch": "tie"
+    },
+    {
+      "z": "25/64",
+      "P": "545/128",
+      "dispatch": "T"
+    },
+    {
+      "z": "13/32",
+      "P": "273/64",
+      "dispatch": "T"
+    },
+    {
+      "z": "27/64",
+      "P": "547/128",
+      "dispatch": "T"
+    },
+    {
+      "z": "7/16",
+      "P": "137/32",
+      "dispatch": "T"
+    },
+    {
+      "z": "29/64",
+      "P": "549/128",
+      "dispatch": "T"
+    },
+    {
+      "z": "15/32",
+      "P": "275/64",
+      "dispatch": "T"
+    },
+    {
+      "z": "31/64",
+      "P": "551/128",
+      "dispatch": "T"
+    },
+    {
+      "z": "1/2",
+      "P": "69/16",
+      "dispatch": "T"
+    }
+  ],
+  "robust_fixed_policy": "R at date 2 when low/high law remains unidentified",
+  "real_qualified_original_buyer_data": false
+}
