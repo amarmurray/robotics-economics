@@ -1,0 +1,10 @@
+# Instructor solutions: physical queue and economic data transfer
+
+These solutions are separate from [student exercises](QUEUE_DURATION_GROUNDING_EXERCISES.md).
+
+1. A pilot sacrifices 2-7/4=1/4 at t1. Future t2/t3 adaptive dispatch yields incremental C(D,U)=1{D<=1}U2+1{D<=2}U3. Pilot or safe R is selected *before* D,U, so max acts on the unconditional expected difference. Putting positive part inside E permits state-contingent knowledge of unobserved future duration and orders.
+2. F2=1{D<=1}, F3=1{D<=2}; thus F2<=F3. Free at t2 but busy at t3 is impossible absent an intervening job. Timestamped queue occupancy showing this pattern without any new job or shift change rejects the simple duration law.
+3. With each U path having 1/4 mass and durations requiring one D=1 path, one distinct D=2 path and two D=3 paths, the high assignment D1:11, D2:01 gives (2+1)/4=3/4. The low assignment D1:00, D2:10 gives 0. C>=0 and C(d,u)<=2 1{d=1}+1 1{d=2}, so these are global bounds. Integrality of this finite transport problem implies the 12 integer assignments suffice for extrema; mixtures cover the interval.
+4. R=6; E(U2+U3)=1. G=6+1-7/10=63/10. E=6+1-13/20=127/20, requiring independent extra robot and worker and target net=1 per eligible order. High P=6+(-1/4+3/4)=13/2, ranks P>E>G>R. Low P=6 from optional no-pilot, ranks E>G>P=R.
+5. F2=F3=F=1{D=1}. Since U2+U3=1 pathwise, C=F, and E(C)=Pr(D=1)=1/2 for any correlation. Each separate Pr(FU_t) lies in [0,1/2], so sum of independent period bounds [0,1] is nonsharp. A second recovery job destroys F2=F3 and requires a dynamic queue law.
+6. Need full connected-cluster intervention exposure and legal source rights, qualified old/new service menus and independent E robot/worker proof; original eligible buyer predispatch orders/no-offers including unserved cells; pilot duration and all intervening worker jobs; target service acceptance/refunds and cleared payments, plus the t1 opportunity cost. Correlation of physical duration with whole buyer path, not just mean utilization or a success benchmark, identifies P.

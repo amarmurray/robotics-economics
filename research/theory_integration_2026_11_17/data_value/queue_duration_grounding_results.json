@@ -1,0 +1,121 @@
+{
+  "model": "synthetic physically nested pilot queue with predecision optional investment",
+  "demand_path_probs": "each of 00,10,01,11 has probability 1/4",
+  "pilot_duration_probs": {
+    "D=1": "1/4",
+    "D=2": "1/4",
+    "D=3": "1/2"
+  },
+  "robot_time_slots_P_G": 1,
+  "additional_robot_and_worker_E": true,
+  "t2_worker_free": "1/4",
+  "t3_worker_free": "1/2",
+  "assignments_count": 12,
+  "finite_assignments": [
+    {
+      "D1_on": "00",
+      "D2_on": "10",
+      "expected_gain_quarters": 0,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "00",
+      "D2_on": "01",
+      "expected_gain_quarters": 1,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "00",
+      "D2_on": "11",
+      "expected_gain_quarters": 1,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "10",
+      "D2_on": "00",
+      "expected_gain_quarters": 1,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "10",
+      "D2_on": "01",
+      "expected_gain_quarters": 2,
+      "P_premium_quarters": 1
+    },
+    {
+      "D1_on": "10",
+      "D2_on": "11",
+      "expected_gain_quarters": 2,
+      "P_premium_quarters": 1
+    },
+    {
+      "D1_on": "01",
+      "D2_on": "00",
+      "expected_gain_quarters": 1,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "01",
+      "D2_on": "10",
+      "expected_gain_quarters": 1,
+      "P_premium_quarters": 0
+    },
+    {
+      "D1_on": "01",
+      "D2_on": "11",
+      "expected_gain_quarters": 2,
+      "P_premium_quarters": 1
+    },
+    {
+      "D1_on": "11",
+      "D2_on": "00",
+      "expected_gain_quarters": 2,
+      "P_premium_quarters": 1
+    },
+    {
+      "D1_on": "11",
+      "D2_on": "10",
+      "expected_gain_quarters": 2,
+      "P_premium_quarters": 1
+    },
+    {
+      "D1_on": "11",
+      "D2_on": "01",
+      "expected_gain_quarters": 3,
+      "P_premium_quarters": 2
+    }
+  ],
+  "transport_expected_qualified_paid_gain_range": [
+    "0",
+    "3/4"
+  ],
+  "optional_P_total_range": [
+    "6",
+    "13/2"
+  ],
+  "G_total": "63/10",
+  "E_total": "127/20",
+  "high_world": {
+    "D1_on": "11",
+    "D2_on": "01",
+    "P": "13/2",
+    "winner": "P"
+  },
+  "low_world": {
+    "D1_on": "00",
+    "D2_on": "10",
+    "P": "6",
+    "winner": "E"
+  },
+  "conserved_demand_example": {
+    "each_worker_duration": "1/2",
+    "each_one_order_path": "1/2",
+    "true_gain": "1/2",
+    "independent_period_naive_range": [
+      "0",
+      "1"
+    ]
+  },
+  "exact_assertions": 163,
+  "science_gate": "OPEN"
+}
