@@ -1,0 +1,99 @@
+{
+  "assertions": 5919,
+  "fraction_grid_points": 257,
+  "latent_bits": [
+    "J_t2_T_incident",
+    "H_t2_other_site_incident",
+    "Y_t4_original_buyer_order"
+  ],
+  "law": "P(J=j,H=h,Y=y)=theta/4 if (j+h+y) even, else (1-theta)/4, theta in [0,1]",
+  "limitations": [
+    "all payoffs, action kernels and legal rights stipulated",
+    "independent R/G/E buyer and qualification subtable assumed",
+    "no real original-buyer offers/cleared settlements",
+    "not a new general data scaling law",
+    "not complete repository CI"
+  ],
+  "minimum_theta_for_P_oracle_over_E": "strictly greater than 13/16",
+  "negative_results": [
+    "t2 T_wait never globally optimal when free R_after_P remains available",
+    "P site-3 technical qualification under T is fixed at 1 across worlds",
+    "Even fully observed pairwise incident and order tables cannot rank programs"
+  ],
+  "pairwise_data": "All three one-bit marginals fair; all three pairwise bit tables exactly 1/4 per cell for every theta",
+  "partial_identification_oracle_P_minus_E": [
+    "-3/32",
+    "+3/32"
+  ],
+  "policy_increment_formulas": {
+    "E": "13/32",
+    "G": "3/8",
+    "P_R_after_pilot": "5/16",
+    "P_T_serve": "theta/2",
+    "P_T_wait": "1/8+theta/4",
+    "P_oracle": "max(5/16,theta/2)"
+  },
+  "robust_E": "13/32, therefore exceeds robust P by 3/32",
+  "robust_fixed_P_without_precommit_report": "5/16 (R_after_P); cannot claim theta-dependent oracle value",
+  "scope": "conditional synthetic four-date P/G/E comparison; NOT measured robotics return",
+  "snapshots": {
+    "0": {
+      "E_increment": "13/32",
+      "G_increment": "3/8",
+      "P_increment": "5/16",
+      "P_minus_E": "-3/32",
+      "P_policy_values": {
+        "R_after_P": "5/16",
+        "T_serve": "0",
+        "T_wait": "1/8"
+      }
+    },
+    "1": {
+      "E_increment": "13/32",
+      "G_increment": "3/8",
+      "P_increment": "1/2",
+      "P_minus_E": "3/32",
+      "P_policy_values": {
+        "R_after_P": "5/16",
+        "T_serve": "1/2",
+        "T_wait": "3/8"
+      }
+    },
+    "1/2": {
+      "E_increment": "13/32",
+      "G_increment": "3/8",
+      "P_increment": "5/16",
+      "P_minus_E": "-3/32",
+      "P_policy_values": {
+        "R_after_P": "5/16",
+        "T_serve": "1/4",
+        "T_wait": "1/4"
+      }
+    },
+    "13/16": {
+      "E_increment": "13/32",
+      "G_increment": "3/8",
+      "P_increment": "13/32",
+      "P_minus_E": "0",
+      "P_policy_values": {
+        "R_after_P": "5/16",
+        "T_serve": "13/32",
+        "T_wait": "21/64"
+      }
+    },
+    "5/8": {
+      "E_increment": "13/32",
+      "G_increment": "3/8",
+      "P_increment": "5/16",
+      "P_minus_E": "-3/32",
+      "P_policy_values": {
+        "R_after_P": "5/16",
+        "T_serve": "5/16",
+        "T_wait": "9/32"
+      }
+    }
+  },
+  "triple_event_P(J=0,H=0,Y=1)": "(1-theta)/4; not identified by any pairwise moments",
+  "units": "normalized full-program accepted customer-production net surplus, relative to baseline 6",
+  "worker": "B3=J+H under T; B4=max(0,B3-1)+K, where K=1 only if T_serve at B3=0"
+}
