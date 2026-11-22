@@ -1,0 +1,71 @@
+{
+  "exact_assertions": 3474,
+  "integer_laws": 165,
+  "inversion": "Selected matched logs falsely rank lawful G above E; full original-buyer menu E > G > P",
+  "model": "synthetic 3-date connected learner/order/operator",
+  "policies": {
+    "E": {
+      "adaptive": {
+        "ipw": "3/4",
+        "naive": "19/28",
+        "reduced": "3/4",
+        "reduced_second_moment": "115/8",
+        "second_moment": "115/8",
+        "true": "3/4"
+      },
+      "retain": {
+        "ipw": "1/2",
+        "naive": "7/20",
+        "reduced": "1/2",
+        "reduced_second_moment": "123/8",
+        "second_moment": "123/8",
+        "true": "1/2"
+      }
+    },
+    "G": {
+      "adaptive": {
+        "ipw": "3/10",
+        "naive": "3/10",
+        "reduced": "3/10",
+        "reduced_second_moment": "363/50",
+        "second_moment": "39/5",
+        "true": "3/10"
+      },
+      "probe": {
+        "ipw": "11/20",
+        "naive": "99/130",
+        "reduced": "11/20",
+        "reduced_second_moment": "151/10",
+        "second_moment": "391/25",
+        "true": "11/20"
+      },
+      "retain": {
+        "ipw": "3/10",
+        "naive": "1/20",
+        "reduced": "3/10",
+        "reduced_second_moment": "392/25",
+        "second_moment": "392/25",
+        "true": "3/10"
+      }
+    },
+    "P": {
+      "adaptive": {
+        "ipw": "1/2",
+        "naive": "41/88",
+        "reduced": "1/2",
+        "reduced_second_moment": "787/64",
+        "second_moment": "787/64",
+        "true": "1/2"
+      },
+      "retain": {
+        "ipw": "3/8",
+        "naive": "5/24",
+        "reduced": "3/8",
+        "reduced_second_moment": "891/64",
+        "second_moment": "891/64",
+        "true": "3/8"
+      }
+    }
+  },
+  "status": "exact conditional model, not robotics evidence"
+}
