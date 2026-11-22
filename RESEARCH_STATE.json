@@ -4,13 +4,12 @@
   "branch": "research/assistant-led-expansion-20261117",
   "research_input_commit": "cef0192bea7296c8b2db2a2318a6c0e7a1b7d0a6",
   "lease": {
-    "run_id": "roboecon-2026-11-22T14-41-42-655Z-semantic-correction",
+    "run_id": "roboecon-2026-11-22T15-31-01-683Z-worker-carryover",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-22T14:41:42.655Z",
-    "expires_at_utc": "2026-11-22T15:11:42.655Z",
-    "reason": "Corrected timing of expected paid values and physical one-robot-slot/target-worker conditions; integrated and released.",
-    "released_at_utc": "2026-11-22T14:43:37.820Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-22T15:31:01.683Z",
+    "expires_at_utc": "2026-11-22T16:16:01.683Z",
+    "reason": "Multi-date worker occupancy carryover and shared learner/customer demand transitions; legal exposure and economic value."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
