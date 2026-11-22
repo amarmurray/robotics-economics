@@ -1,0 +1,42 @@
+{
+  "approved_lawful_physical_comparison": false,
+  "checks": 2083,
+  "interval_grid_cases": 675,
+  "missing_original_buyer_paid_q": {
+    "E_net": "13/20",
+    "G_net": "9/20",
+    "SG_minus_E_net_range": [
+      "-3/10",
+      "1/5"
+    ],
+    "S_net": "2/5",
+    "buyer_report_value_range": [
+      "0/1",
+      "1/2"
+    ],
+    "support": [
+      "0",
+      "1"
+    ],
+    "switch_condition": "q > 3/5 (synthetic only)"
+  },
+  "nov22_scientific_gate_passed": false,
+  "real_R_S_G_SG_E_paid_panel": false,
+  "status": "synthetic exact arithmetic only",
+  "theorem": "sharp two-demand, two-common-action box-identified buyer-information regret",
+  "unit_grid": {
+    "interval_endpoints": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "p": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ]
+  },
+  "verified_full_horizon_Q_ceilings": false
+}
