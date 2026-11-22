@@ -1,0 +1,13 @@
+# Instructor solutions: decision-sufficient reports for qualified robotic production
+
+Keep separate from the student edition.
+
+1. Any single action is paid-optimal on two of the three histories; the best one-symbol value is 2/3, the full-information value 1, regret 1/3. Two symbols suffice by pooling any two histories and choosing their shared optimal action; the third gets a remaining optimal action. Every pair intersects, yet all three sets have empty common intersection, so the incompatibility is a size-three hyperedge rather than a graph edge.
+
+2. For a cell C assigned action a, weighted regret is sum_{h in C} p_h [max_{b in M(h)}q_h(b)-q_h(a)]. With p_h>0 and nonnegative gaps, it vanishes iff a belongs to the intersection of optimal-action sets across C. Each lossless report cell contributes one action; together these chosen actions' F(a) sets cover H. Conversely choose a minimum cover and assign each h to one covering action; map h to that action label. Report cannot be implemented if the relevant state distinctions are not legally observable before dispatch, the report has latency, the permitted policies cannot use it, or its acquisition changes demand and q.
+
+3. W(no)=W(x)=W(y)=1/2 and W(x,y)=1. Joint cross-difference W(x,y)-W(x)-W(y)+W(no)=1/2. The oracle action-label value f(B) assumes a perfect context-to-best-selected-action mapping; a physical field x alone does not identify parity. Two fields exhibit synergy although the set of action choices, conditional on full information and fixed q, has diminishing marginal gains.
+
+4. A reported offer may stimulate or suppress future original-buyer demand; use offered/no-order registry, offer/acceptance/refund/cleared payment sequence on the original cohort, with comparisons matched on reporting regime. A field pilot can consume the single recovery operator, generate failure/recovery trajectories and unlock a new qualified service (or expire licensed rights); use signed robot/learner/operator legality, source provenance, intervention selection, observed queues, follow-on service and settlement. A new E body may alter feasible actions and physical throughput; report oracle cannot transport across those menus. Apply full dynamic J and policy-specific occupancy.
+
+5. Write m_B(h)=max(q_h(a0),max_{a in B cap M(h)}q_h(a)). For B subset C and candidate b, the incremental effect is sum_h p_h max(q_h(b)-m_B(h),0), taking zero for b not lawful at h. Since m_C>=m_B pointwise, this increment cannot increase. Monotonicity follows from max over nested action sets. Source training or embodiment investment may change q, M, the original buyer probability p and training/report costs, so fixed-payoff submodularity provides no general property of economic data-acquisition bundles.

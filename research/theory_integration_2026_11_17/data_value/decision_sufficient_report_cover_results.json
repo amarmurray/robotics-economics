@@ -1,0 +1,61 @@
+{
+  "scope": "synthetic finite one-decision program, fixed lawful menus, exogenous context, integer unit payoffs",
+  "minimal_paid_report": {
+    "all_nonempty_optimal_action_mask_profiles": 19600,
+    "exact_assertions": 931401,
+    "by_state_count": {
+      "2": {
+        "profiles": 49,
+        "partitions": 2,
+        "assertions": 147
+      },
+      "3": {
+        "profiles": 343,
+        "partitions": 5,
+        "assertions": 2058
+      },
+      "4": {
+        "profiles": 2401,
+        "partitions": 15,
+        "assertions": 38416
+      },
+      "5": {
+        "profiles": 16807,
+        "partitions": 52,
+        "assertions": 890771
+      }
+    },
+    "number_candidate_actions": 3
+  },
+  "three_context_example": {
+    "masks": [
+      3,
+      6,
+      5
+    ],
+    "pairwise_common_optima": true,
+    "three_way_common_optimum": false,
+    "minimum_labels": 2,
+    "full_paid": "1",
+    "no_report_paid": "2/3",
+    "lost_paid": "1/3"
+  },
+  "complementary_report_fields": {
+    "no_report_numerator": 2,
+    "first_only_numerator": 2,
+    "second_only_numerator": 2,
+    "both_numerator": 4,
+    "denominator": 4,
+    "information_value_individual": "0",
+    "joint": "1/2"
+  },
+  "submodular_oracle_action_label_budget": {
+    "q_tables": 729,
+    "checks": 39366,
+    "nonnegative_baseline": 0
+  },
+  "source_type": "artificial payoff and admissible optimal-action set tables",
+  "actual_customers": false,
+  "actual_field_robot": false,
+  "validated_paid_Q": false
+}
