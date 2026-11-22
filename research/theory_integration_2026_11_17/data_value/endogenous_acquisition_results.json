@@ -1,0 +1,32 @@
+{
+  "description": "Entirely stipulated dyadic two-date accepted-and-finally-settled original-buyer production; NOT empirical robotics data",
+  "prior": {
+    "A": 0.5,
+    "B": 0.5
+  },
+  "future_actions": [
+    "R",
+    "A",
+    "B"
+  ],
+  "reward_units": "normalized paid contribution",
+  "results": {
+    "productive_with_paid_receipt": 1,
+    "deliberate_with_acquisition_cost": 0.875,
+    "generalist_embodiment_with_cost": 0.8125,
+    "retained_baseline": 0.5,
+    "productive_if_no_current_receipt": 0.75,
+    "deliberate_but_missing_B_qualification": 0.625,
+    "perfect_but_unusable_signal": 0.5,
+    "report_accuracy_by_grounding_interaction": 0.25
+  },
+  "thresholds": {
+    "P_vs_D_current_paid_receipt": 0.125,
+    "P_vs_E_current_paid_receipt": 0.0625
+  },
+  "validation": {
+    "dyadic_assertions": 105,
+    "scenarios_have_optional_retained_R": true,
+    "conditional_menus_and_rights_must_be_lawfully_supported": true
+  }
+}
