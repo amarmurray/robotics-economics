@@ -1,0 +1,33 @@
+{
+  "E_increment": "13/32",
+  "G_increment": "3/8",
+  "P_increment_bounds": [
+    "5/16",
+    "7/16"
+  ],
+  "case_count": 97,
+  "decision_threshold_theta_P_gt_E": "13/16",
+  "endpoint_P_minus_E": [
+    "-3/32",
+    "1/32"
+  ],
+  "exact_checks": 3112,
+  "observed_queue_one_per_jh": {
+    "logged_negative": "1/32",
+    "logged_positive": "1/32",
+    "unlogged": "3/16"
+  },
+  "q1_bounds": [
+    "1/16",
+    "7/16"
+  ],
+  "real_field_data": false,
+  "scientific_novelty_claimed": false,
+  "scope": "synthetic, identified only conditional on complete fair pairwise tables and a specified selection/masking mechanism",
+  "selected_positive_rate_given_logged_and_queue_one": "1/2",
+  "theta_bounds": [
+    "1/8",
+    "7/8"
+  ],
+  "worker_conservation": "B3=J+H; B4=max(0,B3-1)+K, where K=1 only after actual T service at B3=0"
+}
