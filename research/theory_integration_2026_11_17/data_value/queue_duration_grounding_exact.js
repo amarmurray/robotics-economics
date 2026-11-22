@@ -61,4 +61,6 @@ const output={
   conserved_demand_example:{each_worker_duration:"1/2",each_one_order_path:"1/2",true_gain:"1/2",independent_period_naive_range:["0","1"]},
   exact_assertions:checks,science_gate:"OPEN"
 };
-JSON.stringify(output,null,2);
+const rendered=JSON.stringify(output,null,2);
+if(typeof module!=="undefined"&&typeof require==="function"&&require.main===module){console.log(rendered);}
+rendered;
