@@ -1,0 +1,165 @@
+{
+  "model": "three-date budget-and-recovery source P/grounding G/embodiment E synthetic witness",
+  "assertions": 5474,
+  "world_low": {
+    "G_skip": "5/2",
+    "G_serve": "31/20",
+    "P": "2",
+    "E": "21/10",
+    "winner": "G-skip"
+  },
+  "world_high": {
+    "G_skip": "3/2",
+    "G_serve": "31/20",
+    "P": "2",
+    "E": "21/10",
+    "winner": "E"
+  },
+  "minimax_regret": {
+    "G_skip_probability": "2/5",
+    "E_probability": "3/5",
+    "G_serve_probability": "0",
+    "worst_regret": "6/25"
+  },
+  "report": {
+    "accuracy": "3/4",
+    "gross_value": "3/40",
+    "minimum_decisive_accuracy": "3/5"
+  },
+  "rows": [
+    {
+      "overlap_mass_over_20": 0,
+      "G_skip_over_20": 50,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 50
+    },
+    {
+      "overlap_mass_over_20": 1,
+      "G_skip_over_20": 48,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 48
+    },
+    {
+      "overlap_mass_over_20": 2,
+      "G_skip_over_20": 46,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 46
+    },
+    {
+      "overlap_mass_over_20": 3,
+      "G_skip_over_20": 44,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 44
+    },
+    {
+      "overlap_mass_over_20": 4,
+      "G_skip_over_20": 42,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 5,
+      "G_skip_over_20": 40,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 6,
+      "G_skip_over_20": 38,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 7,
+      "G_skip_over_20": 36,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 8,
+      "G_skip_over_20": 34,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 9,
+      "G_skip_over_20": 32,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    },
+    {
+      "overlap_mass_over_20": 10,
+      "G_skip_over_20": 30,
+      "G_serve_over_20": 31,
+      "P_over_20": 40,
+      "E_over_20": 42,
+      "optimal_over_20": 42
+    }
+  ],
+  "reports": [
+    {
+      "accuracy_over_20": 10,
+      "gross_signal_value_over_40": 0
+    },
+    {
+      "accuracy_over_20": 11,
+      "gross_signal_value_over_40": 0
+    },
+    {
+      "accuracy_over_20": 12,
+      "gross_signal_value_over_40": 0
+    },
+    {
+      "accuracy_over_20": 13,
+      "gross_signal_value_over_40": 1
+    },
+    {
+      "accuracy_over_20": 14,
+      "gross_signal_value_over_40": 2
+    },
+    {
+      "accuracy_over_20": 15,
+      "gross_signal_value_over_40": 3
+    },
+    {
+      "accuracy_over_20": 16,
+      "gross_signal_value_over_40": 4
+    },
+    {
+      "accuracy_over_20": 17,
+      "gross_signal_value_over_40": 5
+    },
+    {
+      "accuracy_over_20": 18,
+      "gross_signal_value_over_40": 6
+    },
+    {
+      "accuracy_over_20": 19,
+      "gross_signal_value_over_40": 7
+    },
+    {
+      "accuracy_over_20": 20,
+      "gross_signal_value_over_40": 8
+    }
+  ]
+}

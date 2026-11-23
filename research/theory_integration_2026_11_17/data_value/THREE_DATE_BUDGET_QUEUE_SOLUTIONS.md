@@ -1,0 +1,13 @@
+# Instructor solutions — budget-conserving three-date robotics data value
+
+1. The four (D,T) outcomes make the identity immediate. Let x=Pr(D=T=1), then Fréchet gives 0<=x<=1/2. Value is 5/2-2x in [3/2,5/2], with endpoints achieved by mutually exclusive D and T, or identical D=T, respectively. These are **buyer-overlap** outcomes, not two different technical qualification percentages.
+
+2. A t=1 sale contributes 4/5. A C order pays 3 only if C learns qualification and the worker is free; probability (1/2)(4/5)=2/5. P_serve=4/5+3(2/5)=2. P_skip=2(1/2)=1. If C never orders at that price or learner qualification does not pass actual acceptance, data's C paid contribution is zero; if the old action remains freely selectable, more optional data alone cannot reduce optimized economic value.
+
+3. G_skip=5/2-2x. G_serve=4/5+3(1/2)(1/2)=31/20. Dispatch switches at x=19/40, with serve preferred above it. G_skip exceeds E=21/10 iff x<1/5. Investment and within-program operations have different information requirements; a G investment can lose to E before G dispatch would optimally switch.
+
+4. P_serve=2 and G_serve=31/20 are dominated in **both** worlds by E_skip=21/10. G_skip pays 5/2 in F and 3/2 in H. Commit to G_skip probability q and E probability 1-q. Worst regret max{(1-q)(2/5),q(3/5)}; equating yields q=2/5 and regret 6/25. Maximin expected production chooses E and guarantees 21/10. If the regime were known before commitment, the world oracle chooses G_skip in F and E in H; that cannot be copied without a timely legal signal.
+
+5. With equal prior, favorable signal posterior Pr(F|S)=h. G_skip conditional value 3/2+h exceeds E=21/10 iff h>3/5, so break-even h=3/5. Gross report VOI=(1/2)max(0,h-3/5), which at h=3/4 is 3/40. A P-only report has identical distribution in F and H, so does not update the prior. To identify G overlap x, a supported G assignment and complete (or correctly modeled positive-propensity) records of *original* D2 and C2 even when unserved, plus learner/rights/worker support, are necessary; observing only C invoices conditionally selects served opportunities. If G is never assigned, division by a supposed G propensity is invalid.
+
+6. With two A purchases, early service no longer mechanically eliminates every late A order, changing the feasible t=2 program payoff. If early service changes later demand, D2(u) must be carried in the causal transition and cannot be treated as the same exogenous latent D. Freely available, legally usable optional data preserve the R policy set and weakly raise its supremum; required training license, missed production time, or forced overwrite can lower net return. Evidence from one recipe cannot establish unconditional negative data value.
