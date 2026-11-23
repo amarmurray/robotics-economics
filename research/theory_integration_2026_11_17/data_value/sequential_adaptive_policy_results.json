@@ -1,0 +1,30 @@
+{
+  "kind": "stipulated synthetic t2-G service, t3 one-worker A service versus maintenance, t4 original C buyer and worker availability",
+  "t2_C_paid": "1",
+  "G_program_cost": "1/2",
+  "t3_A_paid_if_S": "1/2",
+  "t4_C_paid": "4",
+  "buyer_response": "D4(S)=U OR V, D4(M)=U, so accepted t3 A service weakly increases original t4 C demand unitwise",
+  "worker_response": "L4(S)=1-U; L4(M)=U in high world or 1-U in low world",
+  "action_information": "U and V unobserved at t3; M not in historical action support",
+  "obs_S_joint": "1/4",
+  "M_D_marginal": "1/2",
+  "M_L_marginal": "1/2",
+  "M_joint_low": "0",
+  "M_joint_high": "1/2",
+  "programs": {
+    "R": "19/10",
+    "P": "21/10",
+    "E": "11/5",
+    "G_S": "2",
+    "G_M_low": "1/2",
+    "G_M_high": "5/2"
+  },
+  "decision": {
+    "minimax_G_M_fraction": "3/20",
+    "minimax_E_fraction": "17/20",
+    "minimax_regret": "51/200"
+  },
+  "assertions": 1026,
+  "caveat": "No field customer records, G assignment or lawful M intervention; no established novelty."
+}
