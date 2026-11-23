@@ -1,0 +1,3 @@
+# Replication
+
+Run `node cross_cluster_occupancy_exact.js` and compare stdout to `cross_cluster_occupancy_results.json`. Run `python cross_cluster_occupancy_fraction.py` for the independent Fraction derivation. V8 execution of the function used to construct the JS source and JSON record passed 7202 assertions, covering nine parity-law grid points, shared anchor perturbations in quarter units and incremental contrast errors in quarter units. Separate Python Fraction check executed 351 assertions on a separate parameter grid; this is not full repository CI or proof of the economic premises. All calculations synthetic, no observations. The continuous-p statements are proved algebraically in the chapter rather than inferred from the grid.

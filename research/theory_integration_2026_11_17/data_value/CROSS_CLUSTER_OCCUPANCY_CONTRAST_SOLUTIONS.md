@@ -1,0 +1,7 @@
+# Instructor solutions — cross-cluster occupancy
+
+1. For each policy, sum the conditional residuals with beta weights; intermediate approximate potentials telescope, terminal zero. Subtract; the original initial potential is common. The expected residual difference is integrated against the signed candidate-minus-incumbent occupation measure, not the incumbent only.
+2. Triangle inequality gives sum b(z)|mu(z)-nu(z)|. Choose each e(z) at the matching signed extreme to attain equality over the rectangular class. A mathematical coupling has the specified marginals but does not establish physical cross-world pairing; restricting it requires compatible marginals and support.
+3. Every pair of bits is uniform because each parity supplies exactly one remaining bit for each pair. The even world contains (0,1,1), the odd does not; mass p/4. P=5, G=9/2+p, independent E=21/4, illegal G=15/2. G strictly wins E iff p>3/4.
+4. Shared X residual cancels by equal pushforwards. G-P>=-1/2+(15/4)(7/32)=41/128; G-E>=9/128. If residuals may differ by early policy, a -1 versus +1 anchor yields -2 additional contrast, invalidating the bound.
+5. Free optional P must reproduce the relevant joint feasible menu, lawful report, timing and transition at lower cost, not just record count or mean accuracy. Shared E occupies the same slots, cannot add B, and if committed costs 7/4 with no extra production. Old P remains optional.
