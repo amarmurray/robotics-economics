@@ -1,0 +1,21 @@
+# Prospective evidence: mediated G buyer response and two repair jobs
+
+This is an **unpopulated** protocol. It does not grant permission to contact customers, run unsafe robots, collect private data, buy licenses or deploy G. It preserves the distinction between legal arm availability and statistical observation.
+
+**Unit:** an originally eligible connected buyer/robot/operator market group with t0 program commitment, t1 original A request, accepted paid outcome and quality, two independently occupied repair jobs, one worker's clearance, t2 original A/C order cutoff, safe dispatch and cleared settled service. Maintain versions, timestamps and cluster links.
+
+Record the t1 original requested offer and **buyer acceptance/payment** separately from technical completion and from customer-notified service quality. A has a one-unit lifetime purchasing budget; the buyer cannot purchase a second A unit merely because a latent willingness-to-buy indicator is high. Preserve refused and unserved offers, not just resulting invoices. Record C's original offers/no-offers even when R cannot qualify C; a C invoice-only source is structurally uninformative under Q_R=0.
+
+**Two repair jobs:** record event origin for A and X, whether concurrent, skill eligibility, occupied vs active operator time, complete/partial physical clearance by cutoff, and residual L=max(0,J_A+J_X−1). Count the worker once. Distinguish technical qualification Q, conserved worker availability W, original buyer demand and final accepted paid service. If early failure causes a cluster incident, do not pretend random independent repair availability.
+
+**Rights + learnability:** for each source (field success, failure/recovery, paid teleop, simulation, synthetic, public/pretrained), document legal recording, permissible training, cross-embodiment derivative use and independent target evaluation. A signed right to train is not authority to market G or run it. Independently verify target Q_G on identical target acceptance gates and hardware/embodiment; count true compute, curation, validation, rollback and safe fallback once. Verify whether E adds an independently available worker and cell, not just a duplicate queue label.
+
+**Identification layers:**
+1. Under R, audit random original A/C offer/no-offer records across each postservice quality/repair state H with positive auditing and H support, before dispatch. If selected reporting is determined by winning invoices, separately record selection mechanism and legally available no-order denominators; don't use missing-at-random weighting without support.
+2. An approved, genuinely service-matched intervention or independently validated transport mechanism must establish p_G(H), including the real buyer acceptance/quality/recovery outcome. A lab-only Q_G score does not.
+3. Conditional transport additionally needs a defensible no-residual-direct-G effect on C demand after H, including price, publicity, rival spillovers, anticipation and after-service feedback. If it fails, record G-specific lawful staggered disclosure or a sensitivity region δ_H; R data do not estimate δ_H.
+4. When worker backlog permanently blocks terminal service, a t2 original-offer report has zero *terminal dispatch value* in the fixed menu. Do not generalize this to persistent future buyers or data generated from delayed jobs.
+
+**Discriminating intervention:** among allowed matched connected clusters, vary disclosure timing separately from actual service quality; compare full original order offers (including rejected, unserved) and independent customer settlement across H, controlling pricing/SLA and authorization. Staggered public disclosure alone can measure buyer expectation response, but not paid production or recovery under G. Real P/G/E program comparisons require positive rights, safety and observational assignment support; absent support retain bounds, not invented outcomes.
+
+**Empirical / atlas boundary:** official BEA InputOutput API and annual 71-industry supply-use detail are documented at https://apps.bea.gov/api/ and https://www.bea.gov/itable/input-output. No interindustry numerical coefficients, commercial robot customer ledger, approved cluster randomization, G assignment, signed data rights or independently verified E hardware were available in this tranche. Do not substitute company announcements.

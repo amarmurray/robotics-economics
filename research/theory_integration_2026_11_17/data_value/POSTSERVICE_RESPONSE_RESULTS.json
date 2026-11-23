@@ -1,0 +1,32 @@
+{
+  "model": "postservice conditional-response, terminal t2",
+  "atom_order": [
+    "D0C0",
+    "D0C1",
+    "D1C0",
+    "D1C1"
+  ],
+  "baseline_R_kernel_quarters": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "conditional_TV_cap": "1/4",
+  "feasible_conditional_kernels": 13,
+  "paired_common_laws": 169,
+  "baseline_Gearly": "33/20",
+  "sharp_Gearly_interval": [
+    "87/80",
+    "177/80"
+  ],
+  "safe_Gskip": "2",
+  "productive_P": "2",
+  "independent_E": "21/10",
+  "regime_unknown_exante_Gearly_share": "1/10",
+  "minimax_regret": "81/800",
+  "max_regret_checked": "81/800",
+  "economic_response_radius_for_any_Gearly_to_exceed_E": "strictly >1/5",
+  "selected_R_invoice_only_C_counterexample_value_gap": "3/2",
+  "assertions": 1024
+}
