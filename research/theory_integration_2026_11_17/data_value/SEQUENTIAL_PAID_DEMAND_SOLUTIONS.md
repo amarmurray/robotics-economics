@@ -1,0 +1,14 @@
+# Instructor solutions — sequential production and data value
+
+1. Write x=Pr(D=1,J2=0). A 2×2 table and nonnegativity imply max(0,d−j)≤x≤min(d,1−j), both attainable by choosing the appropriate Fréchet coupling. Serve value is c+vx; safe skip is v d0, with costs charged once. Serve weakly dominates for every joint law if c+v max(0,d−j)≥v d0. Skip weakly dominates if c+v min(d,1−j)≤v d0. Between them the ranking is not identified by marginals.
+
+2. Let U be fair. In both G worlds set J2=U and serve C successfully for receipt1. In L, D_A3=U gives x=0 and V_G=1; in H, D_A3=1−U gives x=1/2 and V_G=3. E=9/4 lies between. R safe skip always has J2=0,D_A3=U, paid value2. The R full history and G separate marginals agree; the *cross-event association of G original offer and repair* is not observed. Only legitimate G service evidence on the same joint cohort, or a credible structural restriction, identifies it.
+
+3. Without a report, choosing A or C for validation succeeds with probability1/2 and earns 2. With the valid report, condition qualification on its message and earn 4; gross EVSI=2. It becomes 0 for this decision if the only validator is occupied by the inherited repair, or the report arrives after the binding validation deadline. The prior terminal blocked-state zero rule is not applicable across a clearing interval with a separate future-directed choice.
+
+4. M is a descendant of original demand, qualification, worker capacity and acceptance; conditional on H and u it still depends on the missing outcome. A known random independent audit of original buyer opportunity records with η(H,u)>0 and complete eligible exposure denominators yields E[D|H,u]=E[MD/η|H,u] under conditional independence and consistency. Auditing only R has no positivity for a legally unavailable G service intervention and cannot identify G's induced post-service buyer kernel.
+
+5. If policy set A is contained in A' and no new obligation is forced, sup_{π∈A'}J(π)≥sup_{π∈A}J(π); exercise the old optimum. Forced training may degrade Q via harmful transfer or displace a worker/compute slot, reducing J. Once subsequent paid production is in Bellman continuation J, adding a second 'data premium' for that same production counts its benefit twice.
+
+6. The common worker constraint L_{t+1}=(L_t−μ_t)_++ΣJ_{i,t}, μ_t≤1, couples incidents. A fixed latent customer-quality or platform-fault regime may also couple demand and technical qualification across dates, so independently chosen extreme kernels may not jointly correspond to any physical potential-history law. Define one joint law set satisfying shared shocks, budgets, rights, observed selected histories and any defensible sensitivity restrictions, and bound the optimized *nonanticipative* complete-production policy across that set. The informative audit measures the missing original buyer–repair association on legally supported histories rather than fabricating independent marginals.
+

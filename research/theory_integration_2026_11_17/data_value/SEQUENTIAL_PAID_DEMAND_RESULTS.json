@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-11-23",
+  "context": "postservice continuation with t2-induced t3 original buyer response, one-worker queue, optional signal",
+  "script": "sequential_paid_demand_exact.js",
+  "script_blob_sha": "19e6b522caedbae9b749d657c2dbafd3828bf1ea",
+  "v8_retrieved_blob_replayed": true,
+  "independent_python_fraction_grid_checked": true,
+  "exact_assertions": 505,
+  "quarter_eighth_grid_denominator": 8,
+  "joint_tables": 165,
+  "marginal_pairs": 81,
+  "sharp_bound_all_marginal_pairs": true,
+  "low_G": "1",
+  "high_G": "3",
+  "retained_R": "2",
+  "competing_E": "9/4",
+  "productive_P": "11/5",
+  "blocked_t2_audit_value": "2",
+  "G_order_and_job_marginals": "1/2",
+  "limitations": "Synthetic exact conditional integer checks, not real G causal action support, accepted service measurements, signed rights, BEA coefficients, full repository CI or independent proof validation."
+}
