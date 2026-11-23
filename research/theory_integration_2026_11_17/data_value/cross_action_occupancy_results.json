@@ -1,0 +1,36 @@
+{
+  "model": "Common-law target-grounding zero-support sensitivity and queue safety",
+  "exactAssertions": 29345,
+  "discreteSharpObservedTables": 969,
+  "discreteSharpBoundConfigurations": 12597,
+  "infeasibleConfigurations": 3876,
+  "constructedPairwiseMatchedJointLaws": 17,
+  "lawfulSensitivityFeasibleT": "[1/8,1/4]",
+  "P": "3/4",
+  "E": "23/32",
+  "calibratedGInterval": "[9/16,13/16]",
+  "GMinimaxRegretShare": "1/4",
+  "worstRegret": "3/64",
+  "oldUnrestrictedWorstRegret": "7/128",
+  "extremes": [
+    {
+      "t": "1/8",
+      "G": "9/16",
+      "P": "3/4",
+      "E": "23/32",
+      "workerFree": "3/4",
+      "discordance": "3/8",
+      "maxProgram": "P"
+    },
+    {
+      "t": "1/4",
+      "G": "13/16",
+      "P": "3/4",
+      "E": "23/32",
+      "workerFree": "3/4",
+      "discordance": "1/4",
+      "maxProgram": "G"
+    }
+  ],
+  "limitations": "Exact synthetic common histories; cross-arm discordance bound is an unverified sensitivity assumption, no original-buyer field data."
+}
