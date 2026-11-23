@@ -1,0 +1,7 @@
+# Replication — conditional kernels and cross-world ambiguity
+
+Environment: Node.js standard library, no external dependencies. Execute `node research/theory_integration_2026_11_17/data_value/component_kernel_exact.js` from the repository root and compare its pretty-printed JSON to `component_kernel_results.json`. The reported assertions are exact integer equalities/inequalities, not numerical Monte Carlo. Branch-scoped tests do not constitute whole-repository CI.
+
+The 60 equally weighted one-date paths enumerate action-specific qualification (3/4), original-buyer order (2/3) and recovery-incident-free (4/5) outcomes. The 600-path extension adds an independent 9/10 no-new-incident date. The identity-marginal pair of worlds tests unidentifiable cross-world paid-event discordance. The queue recursion is verified for 1,600 finite integer configurations; it is a direct consequence of the positive-part function's Lipschitz property. Record exact source and result blob hashes at publication; the checks do not establish any field assumption, learned model accuracy, signed data-use right or research novelty.
+
+To stress-test theoretically: change the *conditional* G demand law as a function of Q while retaining its unconditional demand marginal, or introduce a job-severity vector and a two-worker assignment. Recalculate the full joint kernel and original-buyer paid-service table; do not multiply univariate margins. Preserve old-policy optionality and complete physical opportunity costs.

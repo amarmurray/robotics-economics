@@ -1,0 +1,26 @@
+{
+  "experiment": "conditional stage kernel and cross-world distinction",
+  "scope": "synthetic exact integer enumeration only",
+  "gate_counts": {
+    "one_date_paths": 60,
+    "one_date_success": 24,
+    "one_date_failures": 36,
+    "two_date_paths": 600,
+    "two_date_success": 216,
+    "two_date_failures": 384
+  },
+  "stage_mismatch_caps": {
+    "qualification": "1/4",
+    "original_buyer_order": "1/3",
+    "recovery_job": "1/5"
+  },
+  "composed_one_date_TV_envelope": "3/5",
+  "two_date_TV_envelope": "16/25",
+  "identical_marginals_crossworld": {
+    "same_coupling_discordance": "0",
+    "opposite_coupling_discordance": "1",
+    "both_within_program_paid_probability": "1/2"
+  },
+  "queue_lipschitz_grid_cases": 1600,
+  "assertions": 2337
+}
