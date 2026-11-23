@@ -1,0 +1,39 @@
+{
+  "kind": "stipulated synthetic four-date common-law G experiment",
+  "programs": {
+    "R": "2",
+    "P": "21/10",
+    "E": "43/20",
+    "G_low": "9/5",
+    "G_high": "51/20"
+  },
+  "paid_t4_moment": {
+    "low": "0",
+    "high": "1/8"
+  },
+  "audited_risk_set": {
+    "low": {
+      "riskMass": 0.25,
+      "orderRate": 0.5,
+      "clearanceRate": 0.5,
+      "jointRate": 0
+    },
+    "high": {
+      "riskMass": 0.25,
+      "orderRate": 0.5,
+      "clearanceRate": 0.5,
+      "jointRate": 0.5
+    }
+  },
+  "identification": "same complete G t3 (H,A,C,W) histories and t3 paid-early/worker-free audit; different G t4 original-order × repair-clearance coupling in paid-early/worker-blocked group",
+  "sharp_G_interval": [
+    "9/5",
+    "51/20"
+  ],
+  "switch_m": "7/120",
+  "minimax_G_share": "8/15",
+  "minimax_E_share": "7/15",
+  "minimax_regret": "14/75",
+  "checks": 239,
+  "limits": "No G field assignment, signed rights, observed receipts, verified E independence or novel empirical estimate."
+}
