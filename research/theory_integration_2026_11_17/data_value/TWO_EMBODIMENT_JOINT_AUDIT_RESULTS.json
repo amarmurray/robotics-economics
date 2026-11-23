@@ -1,0 +1,31 @@
+{
+  "checked_assertions": 226,
+  "laws": 17,
+  "denominator": "1024",
+  "low": {
+    "R": "1/2",
+    "P": "3/4",
+    "G": "7/8",
+    "E": "3/4",
+    "triple": "0"
+  },
+  "high": {
+    "R": "1/2",
+    "P": "1/2",
+    "G": "3/8",
+    "E": "3/4",
+    "triple": "1/4"
+  },
+  "formulas": {
+    "R": "1/2",
+    "P": "3/4-t",
+    "G": "7/8-2t",
+    "E": "3/4",
+    "t": "w/64"
+  },
+  "minimax": {
+    "G_probability": "1/4",
+    "E_probability": "3/4",
+    "worst_regret": "3/32"
+  }
+}
