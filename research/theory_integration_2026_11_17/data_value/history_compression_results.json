@@ -1,0 +1,26 @@
+{
+  "schema": "roboecon.history-compression.v1",
+  "as_of": "2026-11-23",
+  "established_by": "scoped exhaustive four-history Node 22.16 model, not empirical evidence",
+  "terminal": {
+    "full": 4,
+    "count": 2.5,
+    "provenance_signature": 4,
+    "no_history": 2.25,
+    "alternatives": {
+      "E": 3,
+      "P": 2.75,
+      "R": 2
+    },
+    "count_loss": 1.5
+  },
+  "preaction": {
+    "full_signal": 5.5,
+    "no_signal": 3,
+    "E": 4.2
+  },
+  "partitions_checked": 15,
+  "assertions_passed": 64,
+  "independent_check": "Python Fraction exact terminal values and acquisition expectations passed",
+  "limitations": "Synthetic one-budget one-slot buyer: transfer, rights, recoveries, price and demand are stipulated, not calibrated"
+}
