@@ -1,0 +1,113 @@
+{
+  "synthetic": true,
+  "units": "1/128",
+  "checks": 2589,
+  "rows": [
+    {
+      "j": 0,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 832,
+      "odd_policy": 672,
+      "known_law_best": 832,
+      "assumed_E": 800
+    },
+    {
+      "j": 1,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 812,
+      "odd_policy": 692,
+      "known_law_best": 812,
+      "assumed_E": 800
+    },
+    {
+      "j": 2,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 792,
+      "odd_policy": 712,
+      "known_law_best": 792,
+      "assumed_E": 800
+    },
+    {
+      "j": 3,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 772,
+      "odd_policy": 732,
+      "known_law_best": 780,
+      "assumed_E": 800
+    },
+    {
+      "j": 4,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 752,
+      "odd_policy": 752,
+      "known_law_best": 768,
+      "assumed_E": 800
+    },
+    {
+      "j": 5,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 732,
+      "odd_policy": 772,
+      "known_law_best": 780,
+      "assumed_E": 800
+    },
+    {
+      "j": 6,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 712,
+      "odd_policy": 792,
+      "known_law_best": 792,
+      "assumed_E": 800
+    },
+    {
+      "j": 7,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 692,
+      "odd_policy": 812,
+      "known_law_best": 812,
+      "assumed_E": 800
+    },
+    {
+      "j": 8,
+      "denominator": 128,
+      "all_L": 768,
+      "all_M": 768,
+      "all_N": 736,
+      "even_policy": 672,
+      "odd_policy": 832,
+      "known_law_best": 832,
+      "assumed_E": 800
+    }
+  ],
+  "robust_G": 768,
+  "retained_R": 640,
+  "independent_E": 800,
+  "free_P_L": 896,
+  "shared_E_committed": 544,
+  "audit_even_p_at_most_eighth": 812,
+  "uniform_support_lower": 808
+}
