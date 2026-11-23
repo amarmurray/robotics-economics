@@ -1,0 +1,11 @@
+# Instructor solutions — keep separate from student exercises
+
+1. P history H=F and S=F; Pr(F)=1/2, Pr(D_P)=Pr(F OR D0)=3/4 and Pr(W_P)=Pr(NOT F OR NOT R0)=3/4. Full paid event equals F(1−R0), probability 1/4. Marginal multiplication gives 9/32: it ignores correlation caused by accepted early service and the recovery job.
+
+2. The F/T cells sum 20, with F=1 mass (10-k)+k=10, T=1 mass (10-k)+k=10, joint 11 mass k. So x=k/20, Pr(F OR T)=1−x. Independent fair G buyer/worker give paid probability (1−x)/4 and J_G=3(1−x)/4−1/10. E=31/50, crossing at x=(13/20−31/50)/(3/4)=1/25; without G support source marginals and P histories cannot establish x, and even x cannot establish program demand-worker coincidence without extra restrictions.
+
+3. At x=1/4, Q_G=F OR T has probability 3/4 in both; D and W each have probability 1/2. Independent D0/W0 give Pr(QDW)=3/16 and G=37/80; coupled D=F,W=T give Pr(QDW)=Pr(FT)=1/4 and G=13/20. E=31/50 lies between. Randomize rights-supported G at the coupled-cluster level and record complete original buyer offers, signed worker clearances, target qualification and actual paid acceptance on the same risk set, including nonorders/failures.
+
+4. Portfolio lambda O plus (1−lambda) A has sensitivity −lambda dx_O+3(1−lambda)dx_A. If dx_O=dx_A, lambda=3/4 cancels, yielding 7/10. If differentials vary independently, both coefficients must be zero, requiring lambda=0 and 1. Independent uniforms conditional on fair F implement arbitrary action-specific overlaps and show the ambiguity is a coherent common causal population, not just unrelated numbers.
+
+5. At x=0, G−E=3/100; at x=1/2, E−G=69/200. Mix probability p on G. Equalize (1−p)(3/100) and p(69/200), obtaining p=2/25 and worst regret 69/2500. Maximin chooses E. Under a *stipulated* equal prior over endpoints, perfect precommitment regime knowledge earns a gross 3/200 above E; an actual report must be lawful, early, causal-supportable and worth its cost. Adding free optional information to an unchanged feasible menu cannot reduce optimized value, while forcing a G intervention can consume real resources and create extra jobs.

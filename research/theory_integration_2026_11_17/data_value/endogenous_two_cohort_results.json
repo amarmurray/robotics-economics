@@ -1,0 +1,76 @@
+{
+  "model": "endogenous-two-cohort-paid-qualification",
+  "version": 1,
+  "checks": 204,
+  "states": 11,
+  "endpointLow": {
+    "k": 0,
+    "count": 160,
+    "pNum": 960,
+    "gIndependentNum": 1040,
+    "gCoupledNum": -160,
+    "eNum": 992,
+    "rNum": 0,
+    "den": 1600,
+    "observations": {
+      "F": 80,
+      "T": 80,
+      "FT": 0,
+      "DP": 120,
+      "WP": 120,
+      "Ppaid": 40,
+      "QG": 160,
+      "DG": 80,
+      "WG": 80,
+      "Gpaid": 40
+    }
+  },
+  "midpoint": {
+    "k": 5,
+    "count": 160,
+    "pNum": 960,
+    "gIndependentNum": 740,
+    "gCoupledNum": 1040,
+    "eNum": 992,
+    "rNum": 0,
+    "den": 1600,
+    "observations": {
+      "F": 80,
+      "T": 80,
+      "FT": 40,
+      "DP": 120,
+      "WP": 120,
+      "Ppaid": 40,
+      "QG": 120,
+      "DG": 80,
+      "WG": 80,
+      "Gpaid": 30
+    }
+  },
+  "endpointHigh": {
+    "k": 10,
+    "count": 160,
+    "pNum": 960,
+    "gIndependentNum": 440,
+    "gCoupledNum": 2240,
+    "eNum": 992,
+    "rNum": 0,
+    "den": 1600,
+    "observations": {
+      "F": 80,
+      "T": 80,
+      "FT": 80,
+      "DP": 120,
+      "WP": 120,
+      "Ppaid": 40,
+      "QG": 80,
+      "DG": 80,
+      "WG": 80,
+      "Gpaid": 20
+    }
+  },
+  "minimaxGShare": "2/25",
+  "minimaxRegret": "69/2500",
+  "equalPriorPerfectSignalGross": "3/200",
+  "qualifier": "synthetic normalized increments; no empirical calibration"
+}
