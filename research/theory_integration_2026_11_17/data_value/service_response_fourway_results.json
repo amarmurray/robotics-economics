@@ -1,0 +1,60 @@
+{
+  "type": "synthetic_rational_construction",
+  "qualified_service": "accepted buyer offers and shared-worker/independent E capacity; not benchmarks",
+  "checks": 214,
+  "lower_order_joint_tables": "identical for every marginal of up to 3 of H,A,C,W",
+  "worlds": [
+    {
+      "theta": 0,
+      "H_accepted_probability": "1/2",
+      "zeta_numerator": 1,
+      "zeta_denominator": 8,
+      "R_twentieths": 40,
+      "P_twentieths": 42,
+      "G_twentieths": 36,
+      "E_twentieths": 43,
+      "original_R_full_history_same_across_regimes": true
+    },
+    {
+      "theta": 1,
+      "H_accepted_probability": "1/2",
+      "zeta_numerator": 0,
+      "zeta_denominator": 8,
+      "R_twentieths": 40,
+      "P_twentieths": 42,
+      "G_twentieths": 46,
+      "E_twentieths": 43,
+      "original_R_full_history_same_across_regimes": true
+    }
+  ],
+  "assumptions": {
+    "early_C_accepted_contribution": 2,
+    "late_unit_contribution": 4,
+    "G_cost": "1/5",
+    "E_cost": "37/20",
+    "P_qualification_probability": "1/10",
+    "latent_regime_coupled_across_dates": true,
+    "no_real_customer_data": true
+  },
+  "sharp_zeta_interval": [
+    "0",
+    "1/8"
+  ],
+  "G_value_interval": [
+    "9/5",
+    "23/10"
+  ],
+  "retained_R_value": "2",
+  "P_value": "21/10",
+  "E_value": "43/20",
+  "G_investment_threshold_zeta": "3/80",
+  "minimax_probability_G": "3/10",
+  "minimax_probability_E": "7/10",
+  "minimax_regret": "21/200",
+  "worker_free_and_paid_early_risk_set_probability": "1/4",
+  "eligible_risk_set_joint_offers_probability_by_regime": [
+    "1/2",
+    "0"
+  ],
+  "explanation": "Even full G-specific 1-,2-,3-way reports fail to identify the four-way coincidence created by t2 paid quality, t2 job, and t3 original buyer response."
+}
