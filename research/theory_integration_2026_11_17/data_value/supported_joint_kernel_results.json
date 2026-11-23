@@ -1,0 +1,65 @@
+{
+  "provenance_eligible_history_share": 0.5,
+  "source_signature": [
+    "F",
+    "T"
+  ],
+  "worker_slots": 1,
+  "programs": {
+    "R": 1.5,
+    "P": 2,
+    "E": 2.4
+  },
+  "G_supported_S": 2.1,
+  "G_M_interval": [
+    0.7,
+    3.95
+  ],
+  "joint_interval": [
+    0.1,
+    0.75
+  ],
+  "threshold_use_M_T": 0.38,
+  "threshold_G_outperforms_E": 0.4999999999999999,
+  "low": {
+    "world": "disjoint",
+    "states": 20,
+    "marginals": {
+      "arm": 0.75,
+      "mobile": 0.75,
+      "original_offer": 0.8,
+      "worker_free": 0.8
+    },
+    "joint_qualification_and_paid_service": 0.1,
+    "paid_M_value": 0.7000000000000001,
+    "paid_S_value": 2.1,
+    "G_optimal_with_provenance": 2.1,
+    "competitors": {
+      "R": 1.5,
+      "P": 2,
+      "E": 2.4
+    },
+    "qualifying_T_action": "S"
+  },
+  "high": {
+    "world": "nested",
+    "states": 20,
+    "marginals": {
+      "arm": 0.75,
+      "mobile": 0.75,
+      "original_offer": 0.8,
+      "worker_free": 0.8
+    },
+    "joint_qualification_and_paid_service": 0.75,
+    "paid_M_value": 3.9499999999999997,
+    "paid_S_value": 2.1,
+    "G_optimal_with_provenance": 3.025,
+    "competitors": {
+      "R": 1.5,
+      "P": 2,
+      "E": 2.4
+    },
+    "qualifying_T_action": "M"
+  },
+  "assertions": 192
+}

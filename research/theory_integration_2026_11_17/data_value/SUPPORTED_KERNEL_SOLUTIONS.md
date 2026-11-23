@@ -1,0 +1,11 @@
+# Separate solutions — supported kernels and economic qualification
+
+1. Let I=QA QC D W. The classical four-event Frechet lower bound is max(0,ΣPr(event)-3)=max(0,3/4+3/4+4/5+4/5−3)=1/10; upper bound is min marginal=3/4. Expected paid contribution is E[W]+5E[I]−3/5=1/5+5p, hence [7/10,79/20]. For the lower extreme place the arm, mobile, offer, and worker failures on disjoint subsets of sizes 5,5,4,4 among 20 equally likely states, leaving 2 all-success states. For the upper extreme nest the four success sets so 15 states satisfy all four. Independence selects an interior p=(3/4)^2(4/5)^2=9/25, not a justified default.
+
+2. V_G(p)=[21/10+max(21/10,1/5+5p)]/2. M is optimal within T if p>19/50, ties at equality. For p≤19/50 the value is 21/10; for larger p it is 23/20+(5/2)p. Against E=12/5, G wins only if p>1/2, ties at 1/2. At endpoints G is 21/10 and 121/40. Optional M cannot hurt relative to retaining S; costly forced M can.
+
+3. If u is in the row space of all valid known probability moment restrictions (including normalization and structural zeros), then u·q is the same for every feasible q. More precisely, identify it if u is orthogonal to every difference of two feasible q vectors. If inf Q_a>sup Q_b for all other b, a wins under every common feasible law. Separate action-row extrema are jointly sharp only if the law set factorizes over those rows; shared latent and dynamic restrictions may make the endpoints incompatible.
+
+4. For eligible T clusters, use n_T^{-1}Σ 1{M and audited} I/(eη); at e=η=1/2 the summand is 4·1{M,audited,I}. Randomization and independent observation give expectation p. The summand takes value 4 with probability p/4, so variance is 16(p/4)−p²=4p−p². If inclusion depends on hidden D, observed offers are not an unbiased sample, and this weight is wrong.
+
+5. The t4 action changes both clearance and the ability to deliver the t5 order; an apparently blocked t4 observation can affect a later decision through a pending repair, remaining customer budget, permitted training update, and recovery duration. The compressed state must retain the time-dependent job and eligibility transition (or a sufficient conditional distribution of them), and the report's decision time. A terminal zero-outcome rule is invalid for that longer horizon.
