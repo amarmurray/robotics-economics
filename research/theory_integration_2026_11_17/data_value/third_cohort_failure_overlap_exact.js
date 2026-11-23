@@ -1,0 +1,11 @@
+"use strict";
+// Exact integer model, conditional on a failed first-cohort original order.
+// Run with Node >= 18: node third_cohort_failure_overlap_exact.js
+function combinations(items,k){const out=[];function rec(i,part){if(part.length===k){out.push(part.slice());return}if(i===items.length)return;rec(i+1,part.concat(items[i]));rec(i+1,part)}rec(0,[]);return out}
+
+function metrics(g,k){const G=new Set(g),K=new Set(k);const gate=new Set([0,1,2]);const worker=new Set([0,1,2,6]);let both=0,tg=0,tk=0,paidBoth=0,unique=0;for(let i=0;i<8;i++){if(K.has(i)&&!worker.has(i))throw Error("recovery-only qualification without worker clearance");if(G.has(i)&&K.has(i))both++;if(gate.has(i)&&G.has(i))tg++;if(gate.has(i)&&K.has(i))tk++;if(gate.has(i)&&G.has(i)&&K.has(i))paidBoth++;if(gate.has(i)&&K.has(i)&&!G.has(i))unique++}let union=tg+tk-paidBoth;return {qG:G.size,qK:K.size,both,tg,tk,paidBoth,unique,union,R32:28,G32:28+4*tg-4,K32:28+4*tk-2,GK32:28+4*union-6,E32:33}}
+
+function check(c,msg){if(!c)throw Error(msg);return 1}
+
+function runTests(){let checks=0;let A=metrics([1,2,4,5,6,7],[0,6]),B=metrics([1,2,3,4,5,7],[1,6]);const expected=[[A,0,34,1],[B,1,30,0]];for(const [x,pair,gk,uni]of expected){for(const [k,v] of Object.entries({qG:6,qK:2,both:1,tg:2,tk:1,paidBoth:pair,unique:uni,union:3-pair,R32:28,G32:32,K32:30,GK32:gk,E32:33})){checks+=check(x[k]===v,`${k}: expected ${v} got ${x[k]}`)}}const admissible=[];for(const g of combinations([0,1,2,3,4,5,6,7],6))for(const k of combinations([0,1,2,6],2)){const m=metrics(g,k);if(m.both===1&&m.tg===2&&m.tk===1){checks+=check(m.unique>=0&&m.unique<=1,"unique not in bound");checks+=check(m.GK32===30+4*m.unique,"payoff gap identity");checks+=check(m.G32===32&&m.K32===30,"single source mismatch");admissible.push(m)}}checks+=check(admissible.length===18,`admissible count=${admissible.length}`);checks+=check(admissible.some(x=>x.unique===0)&&admissible.some(x=>x.unique===1),"attain both endpoints");const a=34-33,b=33-30;checks+=check(a===1&&b===3,"regret slopes");checks+=check(a*3===b,"equalized p=1/4");checks+=check(3*a===3,"regret 3/128 numerator");return {checks,admissible:admissible.length,worldA:A,worldB:B,lower_payoff_over32:30,upper_payoff_over32:34,hedge_GK_fraction:"1/4",worst_regret:"3/128",type:"synthetic_normalized_no_field_calibration"}}
+console.log(JSON.stringify(runTests(),null,2));

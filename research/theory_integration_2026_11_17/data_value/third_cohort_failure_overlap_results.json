@@ -1,0 +1,39 @@
+{
+  "checks": 85,
+  "admissible": 18,
+  "worldA": {
+    "qG": 6,
+    "qK": 2,
+    "both": 1,
+    "tg": 2,
+    "tk": 1,
+    "paidBoth": 0,
+    "unique": 1,
+    "union": 3,
+    "R32": 28,
+    "G32": 32,
+    "K32": 30,
+    "GK32": 34,
+    "E32": 33
+  },
+  "worldB": {
+    "qG": 6,
+    "qK": 2,
+    "both": 1,
+    "tg": 2,
+    "tk": 1,
+    "paidBoth": 1,
+    "unique": 0,
+    "union": 2,
+    "R32": 28,
+    "G32": 32,
+    "K32": 30,
+    "GK32": 30,
+    "E32": 33
+  },
+  "lower_payoff_over32": 30,
+  "upper_payoff_over32": 34,
+  "hedge_GK_fraction": "1/4",
+  "worst_regret": "3/128",
+  "type": "synthetic_normalized_no_field_calibration"
+}
