@@ -1,0 +1,13 @@
+# Solutions — adaptive source mixtures and qualification topology
+
+23 November 2026 · Instructor version; separate from student exercises.
+
+1. A 2x2 table with p=Pr(F=1), q=Pr(T=1), x=Pr(F=1,T=1) has masses x,p-x,q-x,1-p-q+x; all must be nonnegative. Thus max(0,p+q-1) ≤ x ≤ min(p,q). Expanding Σ probability × payoff yields w00+p(w10-w00)+q(w01-w00)+x(w11-w10-w01+w00). For OR with payoff m whenever any source succeeds, interaction is -m; for AND with payoff m only when both succeed, interaction is +m. A free optional evidence set can always be ignored; a fixed-overlap comparison of data sources is not a comparison of nested feasible sets.
+
+2. After F=i and with a legal acquisition action, buy T iff Pr(T=1|F=i)Li > ci (equality permits either). Integrated over i the gain is Σ_i max(0,Pr(F=i,T=1)Li-Pr(F=i)ci) when Li≥0 and failure leaves the old recipe feasible. Recovery-created jobs or changing deadlines enter the next state of the Bellman recursion; the simple Li shortcut is then insufficient.
+
+3. Put (n00,n01,n10,n11)=(k,10-k,10-k,k); every n≥0 for 0≤k≤10, totals 20, both marginal successes 10. O earns F success 10/20 plus a T acquisition benefit (10-k)/20 less expected cost 1/20, so committed O=(19-k)/20. A earns 3k/20 after the joint success and pays 1/20, hence (3k-1)/20. The optional known-law O is [10+max(0,9-k)]/20 and A is max(0,3k-1)/20. At k0: O=.95>E=.75>A=0; at k5: E=.75>both=.70; at k10: A=1.45>E=.75>O=.50.
+
+4. Multiply committed values by 3/4 and 1/4: [3(19-k)+(3k-1)]/80=56/80=7/10. Randomize **before** learning k, with each assigned policy using only the observed F value before choosing the T action. An unknown k is not an available decision-time signal; max of known-law values is a counterfactual upper benchmark. The external E contributes .75 for every law, exceeding .70; it is robustly preferred under stated qualified separate-resource feasibility. A realized single order may deviate from these expectations.
+
+5. No: T's effect for the F=1 stratum is absent under the selective O policy. With a known stable common T marginal and verified consistency, the 2x2 identity could infer x from a supported F0 conditional event; this assumption must be tested, especially if admitting T changes the learned source distribution or work available. Prospectively randomize T evaluation within F1 clusters (and F0 when common-program comparison needs it), verify rights and worker eligibility, and record qualified paid customer work and no-work. An original buyer's recorded offer/no-offer can change Pr(D=1 and worker free and recipe qualified) without changing Pr(F=1), Pr(T=1) or a held-out model's score.
