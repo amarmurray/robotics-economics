@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-adapter-repair-20261122.
+Handoff ID: recursive-firm-partition-discovery-20261123.
+
+## Discovering and qualifying reusable corrections
+
+The [study](research/recursive_firm/partition_discovery/README.md) extends 4f3e870972640f799641613552d6fa14bb8d61f2. A learner discovered transferable features on 1,024 held-out synthetic worlds, with no clear net advantage over immediate local repair in the independent-rule regime. When both robots shared a rule, learning whether to pool evidence gained 44.52 units over separate learning with matched settings. A target-only shift was invisible to all incumbent training and audit records. Next price a target-site audit against an incumbent audit and an agent learning from aggregate settlements.
 
 ## Repairing a transfer link under scarce donor compute
 
