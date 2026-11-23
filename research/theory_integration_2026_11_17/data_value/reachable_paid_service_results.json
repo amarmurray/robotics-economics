@@ -1,0 +1,20 @@
+{
+  "case_grid": 395,
+  "integer_assertions": 10509,
+  "denominators": [
+    4,
+    8,
+    16
+  ],
+  "example": {
+    "g_low": "5/4",
+    "g_high": "7/4",
+    "p": "3/2",
+    "e": "13/8",
+    "minimax_grounding_fraction": "1/4",
+    "maximum_regret": "3/32",
+    "perfect_information_value": "1/16",
+    "external_j_upper_one_quarter_g_lower": "7/4"
+  },
+  "limitations": "synthetic logical enumeration, not measured robot production"
+}
