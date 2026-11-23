@@ -1,0 +1,11 @@
+# Separate instructor solutions: endogenous source, buyer and worker decisions
+
+1. Subtracting the G whole-value formula from GK, condition on actual first failure, expand the worker event \(CM\), and use \(H\vee T-H=(1-H)T\). The gain is \(p\Delta E[(B\vee S)CM(1-H)T]\), displacement is \(-pE[(B\vee S)C(1-M)(m_0+\Delta H)]\), and acquisition cost is \(-pc_K\). The OR requires independently legally selectable, tested and deployable checkpoints with the same complete recipe and deadlines; forced co-training violates the premise.
+
+2. Technical disjointness \(HT=0\) forces H into non-T atoms \(\{0,3,4,7\}\); one in each B group permits \(\{0,4\},\{0,7\},\{3,4\},\{3,7\}\). The K-available non-T atoms are exactly 3 and 7, giving \(\theta=0,1/8,1/8,1/4\). Convex mixtures permit the full [0,1/4] interval. Each G law has one H per B group, and K/technical laws do not depend on this H–M association.
+
+3. \(J_R=3/4,J_G=11/8,J_K=17/16,J_E=15/8\), while \(J_{GK}=13/8+2\theta\) and therefore ranges [13/8,17/8]. GK exceeds E iff \(\theta>1/8\). For GK fraction \(\alpha\) of independent eligible clusters, endpoint regrets are \(\alpha/4,(1-\alpha)/4\); minimax has \(\alpha=1/2\), worst regret 1/8. These are normalized constructed payoffs under unsupported contractual/physical assumptions, not observed ROI.
+
+4. A free, optionally ignorable source weakly expands the feasible policy menu: \(\max_{\pi\in\mathcal A\cup\mathcal A_K}V(\pi)\ge\max_{\pi\in\mathcal A}V(\pi)\). A mandate to train K changes feasible worker capacity and incurs cK; equation (3) can be negative despite retention of checkpoints. Comparing these objects without distinguishing acquisition from availability is erroneous.
+
+5. Randomize lawful whole-program original buyer/worker clusters with shadow paired H/T technical qualification, register all original offers and no-offers, actual recovery and worker dispatch, quality and **paid** original tickets, as well as rights. Compare complete GK/G/K/R responses at the common horizon. When two firms share a maintenance crew, one treatment's K training can change the other firm's clearance; SUTVA/noninterference and the eight-atom worker potential mapping fail. A shared-pool exposure state or cluster-wide treatment is needed; no off-policy point identification can be asserted from isolated invoices.
