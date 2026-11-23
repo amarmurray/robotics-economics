@@ -2,15 +2,14 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "7efe10507e0c0f901616da59d5e4bdde1b0c4fd2",
+  "research_input_commit": "d2cc28457ed622eec7a9387dcea0f072585aace8",
   "lease": {
-    "run_id": "roboecon-20261123T0929Z-dynamic-influence-closure",
+    "run_id": "roboecon-20261123T102912Z-adaptive-demand-policy",
     "owner": "assistant-led research continuation",
-    "status": "released",
-    "acquired_at_utc": "2026-11-23T09:31:36.671Z",
-    "expires_at_utc": "2026-11-23T10:16:36.671Z",
-    "reason": "Completed tested four-date dynamic economic influence closure, original C t4 buyer and worker-clearance counterworld, sharp P/G/E/R robust decision, lawful audit and teaching; published with release.",
-    "released_at_utc": "2026-11-23T09:39:08.250Z"
+    "status": "active",
+    "acquired_at_utc": "2026-11-23T10:29:12.123Z",
+    "expires_at_utc": "2026-11-23T11:14:12.123Z",
+    "reason": "Derive endogenous t3 dispatch/recovery and t4 original-order response identification with nonanticipative P/G/E/R."
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
