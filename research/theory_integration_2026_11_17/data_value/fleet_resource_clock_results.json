@@ -1,0 +1,60 @@
+{
+  "checks": 90383,
+  "cases": 8281,
+  "maskCases": 21845,
+  "observed": [
+    {
+      "robots": 4,
+      "successes": 61,
+      "trials": 120,
+      "delta_vs_init": -34
+    },
+    {
+      "robots": 8,
+      "successes": 85,
+      "trials": 120,
+      "delta_vs_init": -10
+    },
+    {
+      "robots": 16,
+      "successes": 104,
+      "trials": 120,
+      "delta_vs_init": 9
+    },
+    {
+      "robots": 32,
+      "successes": 111,
+      "trials": 120,
+      "delta_vs_init": 16
+    },
+    {
+      "robots": 64,
+      "successes": 114,
+      "trials": 120,
+      "delta_vs_init": 19
+    },
+    {
+      "robots": 96,
+      "successes": 118,
+      "trials": 120,
+      "delta_vs_init": 23
+    }
+  ],
+  "source_clock": {
+    "window_minutes": 413,
+    "scheduled_robot_hours": 660.8,
+    "approx_active_robot_hours": 447.4166666666667,
+    "approx_inactive_robot_hours": 213.38333333333333,
+    "active_fraction": 0.6770833333333334,
+    "fault_upper_robot_hours": 8.3,
+    "fault_upper_fraction_of_inactive": 0.03889713348433961,
+    "max_fault_only_active_fraction": 0.6896438660209847
+  },
+  "synthetic": {
+    "baseline": 4,
+    "repair_only": 4,
+    "label_only": 4,
+    "combined": 6,
+    "cross": 2
+  }
+}

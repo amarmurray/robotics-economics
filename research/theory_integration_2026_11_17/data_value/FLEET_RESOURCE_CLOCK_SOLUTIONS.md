@@ -1,0 +1,4 @@
+# Solutions — fleet data and resource clocks
+1. 660.8, approximately 447.42, and approximately 213.38 robot-hours. At most 8.3 directly released hours, and less if other blockers overlap. The resulting ratio is neither sold service nor value; scheduling, rights, labels, acceptance and continuation can vary.
+2. Baseline 4, either isolated expansion 4, combined 6. Cross-difference 2. The increment from adding f equals length of [a,a+f] below l; raising l by h adds the interval overlap, max(0,min(a+f,l+h)-max(a,l)).
+3. Two dates, baseline no extra episode and terminal value zero, augmented option one safe episode that produces licensed qualification with certainty and terminal value M. Zero incremental cost and beta=1; advantage M for any M>0. A validated upper bound on the added action's economic advantage, including continuation, is needed. Physical hours alone give no such bound.

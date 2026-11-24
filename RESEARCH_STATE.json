@@ -2,100 +2,90 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "63a755c9fa28b8a4902d8beaf76c933fef3f6ab6",
+  "research_input_commit": "9231262bbc1ec2a3334a2d5cef6304a8c72b85c1",
   "lease": {
     "run_id": "independent-program-20261124T163122Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T16:32:11.056Z",
     "expires_at_utc": "2026-11-24T17:47:11.056Z",
-    "reason": "Independent program evidence and supported continuation bounds"
+    "reason": "Independent program evidence and supported continuation bounds",
+    "released_at_utc": "2026-11-24T16:33:51.597Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed data value: compact evidence matrix and common-checkpoint versus complete-program identification; scientific gate OPEN",
+  "current_mode": "Policy-closed data value: evidence on fleet learning and complementary resource clocks; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COMMON_CHECKPOINT_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FLEET_RESOURCE_CLOCK_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved by original blob f692ee764111338be2bd733f1b06522b9df7ae29; backlog and main unchanged.",
-  "latest_result": "Compact first-paper evidence/assumptions matrix; VLAC-Cut paired common-checkpoint technical evidence with matched recovery counts; unsupported own-checkpoint continuation prevents closed-program inference.",
+  "preservation": "Prior released state preserved by original blob b7958cbc4b7e82c49ca2354dc1b856b91d280056; main and backlog unchanged.",
+  "latest_result": "CEL v3 independent fleet-scale technical configurations and actual robot clock reconciliation; conditional frozen fault-release ceiling and eligibility complementarity, with dynamic advantage certificate. Matched paid service still absent.",
   "validation": {
-    "checks": 21768,
-    "cases": 3840,
-    "observed_technical": [
+    "checks": 90383,
+    "cases": 8281,
+    "maskCases": 21845,
+    "observed": [
       {
-        "task": "refrigerator",
-        "round": 1,
-        "recovery_count": 201,
-        "curated_count": 100,
-        "throughput_difference": 5,
-        "success_pp": 10
+        "robots": 4,
+        "successes": 61,
+        "trials": 120,
+        "delta_vs_init": -34
       },
       {
-        "task": "refrigerator",
-        "round": 2,
-        "recovery_count": 242,
-        "curated_count": 117,
-        "throughput_difference": 9,
-        "success_pp": 20
+        "robots": 8,
+        "successes": 85,
+        "trials": 120,
+        "delta_vs_init": -10
       },
       {
-        "task": "microplate",
-        "round": 1,
-        "recovery_count": 168,
-        "curated_count": 173,
-        "throughput_difference": 2,
-        "success_pp": 5
+        "robots": 16,
+        "successes": 104,
+        "trials": 120,
+        "delta_vs_init": 9
       },
       {
-        "task": "microplate",
-        "round": 2,
-        "recovery_count": 134,
-        "curated_count": 116,
-        "throughput_difference": 17,
-        "success_pp": 30
+        "robots": 32,
+        "successes": 111,
+        "trials": 120,
+        "delta_vs_init": 16
       },
       {
-        "task": "test tube",
-        "round": 1,
-        "recovery_count": 352,
-        "curated_count": 142,
-        "throughput_difference": 1,
-        "success_pp": 10
+        "robots": 64,
+        "successes": 114,
+        "trials": 120,
+        "delta_vs_init": 19
       },
       {
-        "task": "test tube",
-        "round": 2,
-        "recovery_count": 300,
-        "curated_count": 141,
-        "throughput_difference": 9,
-        "success_pp": 25
-      },
-      {
-        "task": "stirrer",
-        "round": 1,
-        "recovery_count": 230,
-        "curated_count": 334,
-        "throughput_difference": 29,
-        "success_pp": 20
+        "robots": 96,
+        "successes": 118,
+        "trials": 120,
+        "delta_vs_init": 23
       }
     ],
-    "synthetic_worlds": [
-      {
-        "H_terminal": 0,
-        "C_terminal": 2,
-        "C_minus_H": 2
-      },
-      {
-        "H_terminal": 4,
-        "C_terminal": 2,
-        "C_minus_H": -2
-      }
-    ],
+    "source_clock": {
+      "window_minutes": 413,
+      "scheduled_robot_hours": 660.8,
+      "approx_active_robot_hours": 447.4166666666667,
+      "approx_inactive_robot_hours": 213.38333333333333,
+      "active_fraction": 0.6770833333333334,
+      "fault_upper_robot_hours": 8.3,
+      "fault_upper_fraction_of_inactive": 0.03889713348433961,
+      "max_fault_only_active_fraction": 0.6896438660209847
+    },
+    "synthetic": {
+      "baseline": 4,
+      "repair_only": 4,
+      "label_only": 4,
+      "combined": 6,
+      "cross": 2
+    },
     "field_economic_effect_identified": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/FLEET_RESOURCE_CLOCK_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/data_value/fleet_resource_clock_exact.js",
+    "research/theory_integration_2026_11_17/data_value/fleet_resource_clock_results.json",
     "research/theory_integration_2026_11_17/data_value/COMMON_CHECKPOINT_EVIDENCE_SYNTHESIS.md",
     "research/theory_integration_2026_11_17/data_value/common_checkpoint_exact.js",
     "research/theory_integration_2026_11_17/data_value/common_checkpoint_results.json",
@@ -113,15 +103,15 @@
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_COSTED_SERVICE_RELEASED_STATE.json",
-    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
+    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_FLEET_RESOURCE_CLOCK_RELEASED_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Compact evidence matrix and common-checkpoint contrast integrated; complete economic program unidentified",
-      "question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+      "status": "Fleet technical rival and robot-clock bounds integrated; full-program economics unidentified",
+      "question": "Identify independently followed paid service learning arms with full human reset/label/correction clocks and dated original recipient acceptance, or externally justified economic continuation-advantage bounds. Keep routine-data emulation as rival and avoid isolated queue extensions.",
       "deliverable": "Whole-program comparative evidence or justified continuation bounds; focused empirical section."
     },
     {
@@ -147,14 +137,14 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Compact evidence matrix and common-checkpoint contrast integrated; complete economic program unidentified",
-      "question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+      "status": "Fleet technical rival and robot-clock bounds integrated; full-program economics unidentified",
+      "question": "Identify independently followed paid service learning arms with full human reset/label/correction clocks and dated original recipient acceptance, or externally justified economic continuation-advantage bounds. Keep routine-data emulation as rival and avoid isolated queue extensions.",
       "deliverable": "Whole-program comparative evidence or justified continuation bounds; focused empirical section."
     }
   ],
   "portfolio_status": {
-    "theory": "Sharp restricted dated release profile value bounds; policy-closed emulation and complete service framework retained",
-    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent",
+    "theory": "Policy-closed emulation retained; conditional clock-mask and homogeneous complementary resource capacity certificate; dynamic bound requires validated economic advantage.",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service)",
     "paper": "Compact first-paper evidence matrix and closed-program identification caveat; scientific gate OPEN",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
@@ -247,11 +237,12 @@
     "Historical 2009 BEA screenshot values are separate vintage; no current official matrix or BLS crosswalk.",
     "Li et al. accepted unedited manuscript parsed; screenshot blocked. Observational operations and projected lifecycle costs are not causal data effects; 38-to-23 minute reduction differs from narrative range. ICU poster DES results differ from abstract and do not measure actual robot hours or redeployed output.",
     "Restricted dated release theorem assumes common opportunity menu, identical service, additive independently capped hours and full nonduplicated costs; real complementary services, changing demand, capacity, rights and learning require full J.",
-    "VLAC-Cut preprint reports common-checkpoint comparisons and matched recovery trajectory counts, not independent closed-program arms or paid worker hours. The sharp unsupported-branch interval is synthetic and conditional; no recipient acceptance or actual economic effect. Parsed abs full text only, no PDF equivalence or independent replication."
+    "VLAC-Cut preprint reports common-checkpoint comparisons and matched recovery trajectory counts, not independent closed-program arms or paid worker hours. The sharp unsupported-branch interval is synthetic and conditional; no recipient acceptance or actual economic effect. Parsed abs full text only, no PDF equivalence or independent replication.",
+    "CEL selected v3 HTML excerpts only; single collection run, rounded executing count, fixed-other-blockers ceiling, no independently measured paid full-program causal contrast; numerical tests synthetic."
   ],
   "last_notification": {
-    "key": "20261124-field-denominator-historical-use",
-    "content": "New named production data evidence and historical official use slice; paid program contrast remains unidentified."
+    "key": "20261124-cel-fleet-resource-clock",
+    "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
   "execution_note": "Exact generated JS executed in connected runtime with 30729 assertions across 15360 allocation cases; separate source-version audit, proofs, exercises, manuscript integration. No field experiments, full CI or novelty review.",
   "validation_previous_data_value": {
@@ -270,9 +261,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Evidence matrix and common-checkpoint technical comparator; no complete economic effect identified.",
-  "publication_parent_commit": "8392ebe5f83d8b323a90a40e1f9b8f463a478c76",
-  "current_proof_gap": "Common-checkpoint technical gains cannot identify H's own subsequent state continuation, nor economic value at the C checkpoint; need independent full-program histories or validated bounds and paid service.",
-  "exact_next_action": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+  "publication_parent_commit": "1c8e4e3ced748ef78829a12cb980276252b24dbc",
+  "current_proof_gap": "No matched independent paid learning programs; CEL lacks dated human support labor, recipient acceptance, cost and validated continuation advantage. Local fault availability is not executing capacity.",
+  "exact_next_action": "Identify independently followed paid service learning arms with full human reset/label/correction clocks and dated original recipient acceptance, or externally justified economic continuation-advantage bounds. Keep routine-data emulation as rival and avoid isolated queue extensions.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -290,7 +281,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T15:33:18.293Z",
+  "updated_at_utc": "2026-11-24T16:33:51.597Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -375,7 +366,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+  "exact_intellectual_question": "Identify independently followed paid service learning arms with full human reset/label/correction clocks and dated original recipient acceptance, or externally justified economic continuation-advantage bounds. Keep routine-data emulation as rival and avoid isolated queue extensions.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -2840,6 +2831,142 @@
     "full_repository_ci": false
   },
   "validation_common_checkpoint": {
+    "checks": 21768,
+    "cases": 3840,
+    "observed_technical": [
+      {
+        "task": "refrigerator",
+        "round": 1,
+        "recovery_count": 201,
+        "curated_count": 100,
+        "throughput_difference": 5,
+        "success_pp": 10
+      },
+      {
+        "task": "refrigerator",
+        "round": 2,
+        "recovery_count": 242,
+        "curated_count": 117,
+        "throughput_difference": 9,
+        "success_pp": 20
+      },
+      {
+        "task": "microplate",
+        "round": 1,
+        "recovery_count": 168,
+        "curated_count": 173,
+        "throughput_difference": 2,
+        "success_pp": 5
+      },
+      {
+        "task": "microplate",
+        "round": 2,
+        "recovery_count": 134,
+        "curated_count": 116,
+        "throughput_difference": 17,
+        "success_pp": 30
+      },
+      {
+        "task": "test tube",
+        "round": 1,
+        "recovery_count": 352,
+        "curated_count": 142,
+        "throughput_difference": 1,
+        "success_pp": 10
+      },
+      {
+        "task": "test tube",
+        "round": 2,
+        "recovery_count": 300,
+        "curated_count": 141,
+        "throughput_difference": 9,
+        "success_pp": 25
+      },
+      {
+        "task": "stirrer",
+        "round": 1,
+        "recovery_count": 230,
+        "curated_count": 334,
+        "throughput_difference": 29,
+        "success_pp": 20
+      }
+    ],
+    "synthetic_worlds": [
+      {
+        "H_terminal": 0,
+        "C_terminal": 2,
+        "C_minus_H": 2
+      },
+      {
+        "H_terminal": 4,
+        "C_terminal": 2,
+        "C_minus_H": -2
+      }
+    ],
+    "field_economic_effect_identified": false,
+    "full_repository_ci": false
+  },
+  "validation_fleet_resource_clock": {
+    "checks": 90383,
+    "cases": 8281,
+    "maskCases": 21845,
+    "observed": [
+      {
+        "robots": 4,
+        "successes": 61,
+        "trials": 120,
+        "delta_vs_init": -34
+      },
+      {
+        "robots": 8,
+        "successes": 85,
+        "trials": 120,
+        "delta_vs_init": -10
+      },
+      {
+        "robots": 16,
+        "successes": 104,
+        "trials": 120,
+        "delta_vs_init": 9
+      },
+      {
+        "robots": 32,
+        "successes": 111,
+        "trials": 120,
+        "delta_vs_init": 16
+      },
+      {
+        "robots": 64,
+        "successes": 114,
+        "trials": 120,
+        "delta_vs_init": 19
+      },
+      {
+        "robots": 96,
+        "successes": 118,
+        "trials": 120,
+        "delta_vs_init": 23
+      }
+    ],
+    "source_clock": {
+      "window_minutes": 413,
+      "scheduled_robot_hours": 660.8,
+      "approx_active_robot_hours": 447.4166666666667,
+      "approx_inactive_robot_hours": 213.38333333333333,
+      "active_fraction": 0.6770833333333334,
+      "fault_upper_robot_hours": 8.3,
+      "fault_upper_fraction_of_inactive": 0.03889713348433961,
+      "max_fault_only_active_fraction": 0.6896438660209847
+    },
+    "synthetic": {
+      "baseline": 4,
+      "repair_only": 4,
+      "label_only": 4,
+      "combined": 6,
+      "cross": 2
+    }
+  },
+  "validation_previous_common_checkpoint": {
     "checks": 21768,
     "cases": 3840,
     "observed_technical": [
