@@ -1,0 +1,79 @@
+{
+  "checks": 6075,
+  "smallCases": 3024,
+  "observed_technical": {
+    "vulcan": {
+      "assigned": 6561,
+      "attempts": 5157,
+      "success": 4690,
+      "no_adaptation_reported": 4447,
+      "planning_rejections": 1270,
+      "nonattempt": 1404,
+      "attempt_success": 0.9094434748885011,
+      "assigned_success": 0.7148300563938425,
+      "reported_adaptation_delta_assigned": 0.037037037037037035,
+      "restricted_planning_ceiling": 0.19356805365035817,
+      "restricted_execution_ceiling": 0.07117817405883249,
+      "conditional_joint_overlap": [
+        3980,
+        4447
+      ],
+      "conditional_gains": [
+        243,
+        710
+      ],
+      "conditional_losses": [
+        0,
+        467
+      ],
+      "conditional_common_eligibility_467": [
+        -467,
+        467
+      ]
+    },
+    "robin": {
+      "baseline_success": 0.9501581391175613,
+      "learned_success_implied_by_failure_and_total_only": 0.9619758784825857,
+      "reported_success_count": 87700,
+      "reported_failed": 3427,
+      "reported_total": 90127,
+      "count_inconsistency": 1000,
+      "conditional_rate_difference": 0.011817739365024393,
+      "training_n": 394872,
+      "replaced_n": 41388,
+      "replacement_share": 0.10481371178508479
+    }
+  },
+  "historical_bea": [
+    {
+      "commodity": 334,
+      "industry": 333,
+      "use_million": 4403,
+      "output_million": 261908,
+      "intermediate": 149250,
+      "value_added": 112658,
+      "direct_use_per_dollar": 0.01681124669731356
+    },
+    {
+      "commodity": 334,
+      "industry": 334,
+      "use_million": 43825,
+      "output_million": 353273,
+      "intermediate": 146845,
+      "value_added": 206428,
+      "direct_use_per_dollar": 0.1240542017080275
+    },
+    {
+      "commodity": 334,
+      "industry": 335,
+      "use_million": 2862,
+      "output_million": 103591,
+      "intermediate": 51913,
+      "value_added": 51678,
+      "direct_use_per_dollar": 0.02762788273112529
+    }
+  ],
+  "field_economic_calibration": false,
+  "conditional_bounds_not_observed_effects": true,
+  "full_repository_ci": false
+}
