@@ -1,0 +1,51 @@
+{
+  "checks": 272165,
+  "cases": 272160,
+  "rates": {
+    "gross_per_hour": 19.058823529411764,
+    "net_per_hour": 20.903225806451612,
+    "nominal_per_hour": 22.641509433962263,
+    "human_break_adjusted_per_hour": 21.27659574468085,
+    "gross_seconds_per_motor": 188.88888888888889,
+    "net_seconds_per_motor": 172.22222222222223,
+    "excluded_seconds_per_motor": 16.666666666666668,
+    "nominal_overhead_gross": 29.888888888888886,
+    "threshold_q_seconds": 16.40740740740742,
+    "per_operation_success": 0.9938271604938271,
+    "recorded_data_minutes": [
+      8,
+      20,
+      4,
+      9
+    ]
+  },
+  "qExamples": [
+    {
+      "q": 0,
+      "manual": 21.27659574468085,
+      "robot": 19.058823529411764
+    },
+    {
+      "q": 10,
+      "manual": 19.867549668874172,
+      "robot": 19.058823529411764
+    },
+    {
+      "q": 20,
+      "manual": 18.633540372670808,
+      "robot": 19.058823529411764
+    },
+    {
+      "q": 40,
+      "manual": 16.574585635359117,
+      "robot": 19.058823529411764
+    }
+  ],
+  "synthetic_complementarity": [
+    4,
+    4,
+    4,
+    6
+  ],
+  "field_costs_and_paid_service_identified": false
+}
