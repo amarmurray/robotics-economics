@@ -1,0 +1,1 @@
+Run `node reserve_contingency_exact.js` in this directory; compare stdout to reserve_contingency_results.json. Exact integer enumeration in connected V8, not field evidence or full CI. Proof in chapter; finite tests do not establish proof.

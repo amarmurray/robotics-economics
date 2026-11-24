@@ -2,35 +2,37 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "f9755f23fefc61c90787b500f7ca78cdedd49728",
+  "research_input_commit": "5ca233cb0e05c6f43d3400d8a653ab75b93e0c6b",
   "lease": {
     "run_id": "reserve-contingency-2026-11-24T09:31:48.624Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T09:31:48.624Z",
     "expires_at_utc": "2026-11-24T10:46:48.624Z",
-    "reason": "Compare joint training and reserve with endogenous recovery successor laws"
+    "reason": "Publish tested reserve contingency results and resumable state",
+    "released_at_utc": "2026-11-24T09:33:29.734Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Joint stochastic worker load and licensed successor value; Nov22 scientific gate OPEN",
+  "current_mode": "Endogenous reserve/stagger response and joint training; Nov22 scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_JOINT_STOCHASTIC_LOAD_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_RESERVE_CONTINGENCY_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved at research/theory_integration_2026_11_17/data_value/PRE_JOINT_STOCHASTIC_LOAD_RELEASED_STATE.json (blob 460d84c5bcb8eae58111357671cca2dcc0d118d7); main and backlog untouched.",
-  "latest_result": "Scenario-wise resource upper certificate and sharp feasible-report closure. Matched marginal loads and license rates permit G=4,1,2 vs E=3; full joint load law p=3/16 permits G=23/8 or 13/4. q>3/8 resolves strict G>E. Congestion flag sufficient, mean load insufficient. Synthetic only.",
+  "preservation": "Prior released state preserved by original blob eecefd1b4ee18a031fbd17add66a7e90080c38fe at research/theory_integration_2026_11_17/data_value/PRE_RESERVE_CONTINGENCY_RELEASED_STATE.json; main and backlog untouched.",
+  "latest_result": "Conditional reserve option and common-law audit contrast; fixed p=q=1/4 and marginal forced S successor 1/4 imply G=11/4+4j, j in [0,1/4], reserve=25/8; comparison threshold 3/32. Reserve can crowd out informative recovery, combined dominated in toy only.",
   "validation": {
     "synthetic": true,
-    "assertions": 211499,
-    "laws": 6435,
-    "scope": "Exact integer V8 enumeration on source function; full CI and field calibration not performed."
+    "assertions": 6599,
+    "laws": 6,
+    "transportCases": 6561,
+    "scope": "exact integer V8 enumeration; no full CI or field calibration"
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/RESERVE_CONTINGENCY.md",
+    "research/theory_integration_2026_11_17/data_value/RESERVE_CONTINGENCY_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/data_value/reserve_contingency_exact.js",
+    "research/theory_integration_2026_11_17/data_value/reserve_contingency_results.json",
     "research/theory_integration_2026_11_17/data_value/JOINT_STOCHASTIC_LOAD.md",
-    "research/theory_integration_2026_11_17/data_value/JOINT_STOCHASTIC_LOAD_EVIDENCE.md",
-    "research/theory_integration_2026_11_17/data_value/joint_stochastic_load_exact.js",
-    "research/theory_integration_2026_11_17/data_value/joint_stochastic_load_results.json",
-    "research/theory_integration_2026_11_17/data_value/RESOURCE_INCIDENCE_TRANSPORT.md",
     "research/theory_integration_2026_11_17/NOV22_INTEGRATED_SCIENTIFIC_GATE_AUDIT.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/DATA_VALUE_THEORY.md",
@@ -38,15 +40,15 @@
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_JOINT_STOCHASTIC_LOAD_RELEASED_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_RESERVE_CONTINGENCY_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Joint stochastic workload support and successor-license closure derived; endogenous contingency law open.",
-      "question": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+      "status": "Safe reserve/stagger comparison and sharp original-denominator successor overlap derived; shared reserve pool and idle drift open.",
+      "question": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
       "deliverable": "Single nonrectangular policy/whole-program identified set with safe old menu, trained technical qualification, real buyer paid outcomes and worker conservation; compare extra source data, target grounding and independently staffed embodiment, then validate against approved matched evidence and official BEA numerical topology."
     },
     {
@@ -78,10 +80,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Scenario-wise resource upper certificate and sharp feasible-report closure. Matched marginal loads and license rates permit G=4,1,2 vs E=3; full joint load law p=3/16 permits G=23/8 or 13/4. q>3/8 resolves strict G>E. Congestion flag sufficient, mean load insufficient. Synthetic only.",
-    "atlas": "Prospective joint lineage and buyer procurement accounting; official numerical BEA edge and original buyer panel still absent.",
-    "paper": "Joint recovery load chapter integrated with Model A/B and existing gate audit; open.",
-    "learning": "Joint recovery load exact model, exercises and separate solutions.",
+    "theory": "Conditional reserve option and common-law audit contrast; fixed p=q=1/4 and marginal forced S successor 1/4 imply G=11/4+4j, j in [0,1/4], reserve=25/8; comparison threshold 3/32. Reserve can crowd out informative recovery, combined dominated in toy only.",
+    "atlas": "Prospective original-buyer reserve/lineage audit; official numeric IO and paid panel still absent",
+    "paper": "Reserve contingency integrated with A/B and open gate",
+    "learning": "Exact reserve contingency model and separate exercises/solutions",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
   "known_limitations": [
@@ -162,13 +164,14 @@
     "The signal transport bound fixes the physical controller, qualified menu, pre-source opportunity distribution and whole-network service return table. It does not transport across source-trained policy-induced target occupancy, report/actuation feedback or new-body resource changes.",
     "Source q=9/10 versus target q=3/5 and every economic payoff are synthetic. Stale rule regret 7/10 differs from ex-ante calibration EVPI 1/10; no target shadow validation, physical safety signoff or independent novelty exists.",
     "Partial target report-support theorem holds only for one fixed physically approved complete-network action menu, constant pre-action customer p and payoff y; missing-row rectangularity, exact identified population rows, reporter noninterference and safe fallback are unverified. Maximin guarantee gain 3/40 not Bayesian EVSI or observed returns.",
-    "Selected-history example externally assumes all J/H/Y pairwise uniform even though censored successful-service logs cannot establish those tables. If observation S depends on unobserved original Y, naive propensity weighting is invalid; no original-buyer/no-order panel or lawful cluster randomized P/G/D/E assignment exists. Proof of complete-menu moment sufficiency is restricted to the exact three-policy four-date queue."
+    "Selected-history example externally assumes all J/H/Y pairwise uniform even though censored successful-service logs cannot establish those tables. If observation S depends on unobserved original Y, naive propensity weighting is invalid; no original-buyer/no-order panel or lawful cluster randomized P/G/D/E assignment exists. Proof of complete-menu moment sufficiency is restricted to the exact three-policy four-date queue.",
+    "Reserve option identity requires unchanged report law and retained idle baseline policies; synthetic safe congestion report, late receipt, reserve availability and successors not validated. Forced stagger marginal fails without report linkage; full CI and independent novelty not established."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Generated source function executed in V8; corrected failed signed-price equality conjecture to upper inequality and positive-part exact penalty. Prospective evidence and bounded prior-art abstracts. No full CI.",
+  "execution_note": "Exact V8 source function executed; prospective original-denominator evidence, chapter, separate teaching and synthesis. No physical intervention or field calibration.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -184,10 +187,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Joint stochastic load proof and countermodel; routine continuation.",
-  "publication_parent_commit": "d8e0890937e1821ba97f4d09a23b166c17f7eece",
-  "current_proof_gap": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
-  "exact_next_action": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "quiet_checkpoint": true,
+  "publication_parent_commit": "634d30874aaa35044c4acf263f67413b42ea562a",
+  "current_proof_gap": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
+  "exact_next_action": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -205,7 +208,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T08:34:38.375Z",
+  "updated_at_utc": "2026-11-24T09:33:29.734Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -222,9 +225,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
-  "proof_gap": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
-  "next_action": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "exact_question": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
+  "proof_gap": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
+  "next_action": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -290,7 +293,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "exact_intellectual_question": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -310,7 +313,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "exact_next": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -410,7 +413,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "next_proof_gap": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -491,7 +494,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "current_question": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1571,7 +1574,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Extend joint stochastic resource-support valuation to safe nonanticipating stagger/reserve/fallback policies that change the subsequent load, customer and licensed source lineage law. Derive a coupled certificate comparing joint training and priced actual reserve capacity; preserve original buyer denominator, distinguish pathwise feasibility from service probability, and do not assume the pre-recovery law transports.",
+  "next_question": "Remove idle-reserve invariance: model a shared reserve pool across simultaneously arriving buyer clusters, state-dependent call costs and action-specific lineage interference. Derive a coupled capacity/continuation certificate and conditions under which local reserve option values transport to pooled allocation; test complementarity with joint controller training and retain common-law original orders.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -2403,6 +2406,21 @@
     "evidence": "research/theory_integration_2026_11_17/data_value/JOINT_STOCHASTIC_LOAD_EVIDENCE.md",
     "source": "research/theory_integration_2026_11_17/data_value/joint_stochastic_load_exact.js",
     "results": "research/theory_integration_2026_11_17/data_value/joint_stochastic_load_results.json",
+    "full_repository_ci": false,
+    "physical_approval": false,
+    "empirical_calibration": false,
+    "independent_novelty": false,
+    "nov22_scientific_gate_passed": false
+  },
+  "validation_reserve_contingency": {
+    "synthetic": true,
+    "assertions": 6599,
+    "laws": 6,
+    "transportCases": 6561,
+    "scope": "exact integer V8 enumeration; no full CI or field calibration",
+    "chapter": "research/theory_integration_2026_11_17/data_value/RESERVE_CONTINGENCY.md",
+    "source": "research/theory_integration_2026_11_17/data_value/reserve_contingency_exact.js",
+    "results": "research/theory_integration_2026_11_17/data_value/reserve_contingency_results.json",
     "full_repository_ci": false,
     "physical_approval": false,
     "empirical_calibration": false,

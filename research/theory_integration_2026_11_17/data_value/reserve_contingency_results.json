@@ -1,0 +1,64 @@
+{
+  "synthetic": true,
+  "assertions": 6599,
+  "laws": 6,
+  "transportCases": 6561,
+  "grid": {
+    "0": {
+      "G": 2.75,
+      "GK": 2.625,
+      "Rk": 3.125,
+      "E": 3,
+      "forcedStagger": 6,
+      "witness": [
+        4,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "1": {
+      "G": 3.25,
+      "GK": 2.625,
+      "Rk": 3.125,
+      "E": 3,
+      "forcedStagger": 6,
+      "witness": [
+        4,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "G": 3.75,
+      "GK": 2.875,
+      "Rk": 3.125,
+      "E": 3,
+      "forcedStagger": 6,
+      "witness": [
+        4,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    }
+  },
+  "sharp_j": [
+    0,
+    0.25
+  ],
+  "threshold_j": 0.09375
+}
