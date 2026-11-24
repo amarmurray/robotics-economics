@@ -1,0 +1,6 @@
+# Solutions — dated reserve and source-to-production
+
+1. Start: 11/2-6j, skip 3. Increment after cost relative to R is max(2-6j,-1/2). E wins when j>1/6. Always start and serve has average occupancy 1 but overload probability j.
+2. Constant price expression lambda+max(5/2-lambda/2,0)+(6-lambda)_+/2 has minimum 11/2 for 0<=lambda<=5, increasing thereafter. Price 6H produces capacity revenue 3, A expected carryover charge 6j, and zero priced B reward: upper 3+max(5/2-6j,0). A uses expected charge before observing H, not the future realized value.
+3. Frechet j in [1/4,1/2]. Start value 7-6j in [4,11/2], skip 3/2. Hence gross bounds [4,11/2]. A fixed skip capacity revenue 3/2 rather than start revenue 9/2 subtracts 3 from the priced start expression, and can make an invalid upper. Coherent four-atom laws and a separate skip coupling attain endpoints.
+4. Uniform conditional error bound on rewards plus expected next potentials for admitted actions, exact occupancy or a justified necessary load relaxation, terminal mismatch bound, and lawful report/menu embedding. Telescope under each actual policy's law. A lower witness must be jointly admissible. Incumbent price revenue is only usable if invariant or a justified upper bound for every relevant policy.

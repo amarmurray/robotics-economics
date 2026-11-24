@@ -1,0 +1,48 @@
+{
+  "assertions": 24442,
+  "laws": 165,
+  "endogenousCases": 1485,
+  "priceChecks": 22275,
+  "restricted": [
+    {
+      "j": 0,
+      "gross": 5.5,
+      "groundingIncrement": 2,
+      "informedGross": 5.5,
+      "E": 1
+    },
+    {
+      "j": 0.125,
+      "gross": 4.75,
+      "groundingIncrement": 1.25,
+      "informedGross": 4.75,
+      "E": 1
+    },
+    {
+      "j": 0.25,
+      "gross": 4,
+      "groundingIncrement": 0.5,
+      "informedGross": 4,
+      "E": 1
+    },
+    {
+      "j": 0.375,
+      "gross": 3.25,
+      "groundingIncrement": -0.25,
+      "informedGross": 4,
+      "E": 1
+    },
+    {
+      "j": 0.5,
+      "gross": 3,
+      "groundingIncrement": -0.5,
+      "informedGross": 4,
+      "E": 1
+    }
+  ],
+  "synthetic": true,
+  "denominator": 8,
+  "full_repository_ci": false,
+  "field_calibration": false,
+  "independent_novelty": false
+}
