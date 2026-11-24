@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "assertions": 211499,
+  "laws": 6435,
+  "reportCells": 51161,
+  "sharpGroups": 81,
+  "cases": {
+    "anti": {
+      "p11": 0,
+      "q": 0.5,
+      "grounding": 4,
+      "hiddenGrounding": 4
+    },
+    "alignedBlocked": {
+      "p11": 0.5,
+      "q": 0,
+      "grounding": 1,
+      "hiddenGrounding": 0
+    },
+    "alignedUseful": {
+      "p11": 0.5,
+      "q": 0.5,
+      "grounding": 2,
+      "hiddenGrounding": 0
+    },
+    "sameLoadLow": {
+      "p11": 0.1875,
+      "q": 0.3125,
+      "grounding": 2.875,
+      "hiddenGrounding": 0
+    },
+    "sameLoadHigh": {
+      "p11": 0.1875,
+      "q": 0.5,
+      "grounding": 3.25,
+      "hiddenGrounding": 0
+    }
+  },
+  "sourceX": 0.5,
+  "independentE": 3
+}
