@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "original_denominator": 64,
+  "common_law_lineage_tables": 200,
+  "audited_tables": 20,
+  "scoped_assertions": 2533,
+  "nominal_range": [
+    "-3/16",
+    "9/32"
+  ],
+  "audit_lower": "3/32",
+  "base_before_third_date": "-1/16",
+  "t2_paid_masses": {
+    "lost_A": "5/16",
+    "added_B": "7/32",
+    "backlog_A": "1/8",
+    "backlog_B": "1/8"
+  },
+  "t3_overlap_ranges": {
+    "recovery_A": "[0,1/16]",
+    "recovery_B": "[0,1/16]",
+    "productive_B": "[0,7/64]"
+  }
+}
