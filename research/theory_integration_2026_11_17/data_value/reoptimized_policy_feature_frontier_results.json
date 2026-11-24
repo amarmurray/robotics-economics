@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "denominator": 8,
+  "compatible_integer_laws": 16,
+  "assertions": 714,
+  "original_joint_range": [
+    0.25,
+    0.75
+  ],
+  "short_queue_joint_range": [
+    0.5,
+    0.75
+  ],
+  "grounding_p1": [
+    5,
+    5
+  ],
+  "grounding_p4": [
+    5,
+    7
+  ],
+  "short_queue_p4": [
+    6,
+    7
+  ],
+  "audited_p4": [
+    6,
+    7
+  ],
+  "independent_E": 5.5,
+  "robust_audit_margin": 0.5
+}

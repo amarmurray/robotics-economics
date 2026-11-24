@@ -1,0 +1,3 @@
+# Replication
+
+Run `node reoptimized_policy_feature_frontier_exact.js` and compare JSON to `reoptimized_policy_feature_frontier_results.json`. Enumerates all integer eight-atom probability compositions of 8 with marginal counts 6, and premiums 0–12. Exact integer 1/8 contribution units, not dollars. Executed the serialized source function in connected V8: 714 scoped assertions over 16 compatible laws. Continuous sharpness follows from analytic endpoint witnesses and mixtures, not grid enumeration. No full CI, independent review or field experiment claimed.
