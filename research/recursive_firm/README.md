@@ -6,6 +6,10 @@ RoboEcon research branch · opened 20 November 2026, US Eastern
 
 **When Capabilities Become Production** asks when a capability, buyer demand, qualification, resources and rights combine to deliver economically accepted work. **Recursive Firm Theory** asks how the organization that performs those conversions comes to exist and changes. A firm can invest in who sees a failure, who may propose an experiment, who bears its loss, and who can revise the operating rule when the result arrives. The latter question applies to a physical fleet, an LLM service business or a federation of independent operators. A single project can supply evidence to both inquiries. Each needs its own outcome and competing explanation. [Foundation and the earlier Q-learning benchmark](../theory/recursive_firm.md) · [Connected production research](https://github.com/amarmurray/robotics-economics/blob/4c39ae66b5e2d8014676dd493550e882ddc48e36/research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md)
 
+## When can paid work diagnose the next repair?
+
+The [settlement learning study](settlement_learning/README.md) compares buying target-site audits with staggering robot releases to diagnose faults from pooled payments. Identifying the successful robot on a random quarter of ambiguous shifts reduced the incremental return to diagnostic deployment from 12.84 to 0.36 simulated units relative to a matched planner.
+
 ## Can the firm discover which cases share a correction?
 
 The [partition discovery experiment](partition_discovery/README.md) learns the grouping the adapter study supplied. Across 1,024 new worlds, robot-specific discovery improved untouched-family agreement by 8.18 points over shuffled features, yet earned no clear premium over immediate local repair. Learning whether to pool evidence across embodiments paid when both shared a fault. A change confined to families excluded from qualification erased the panel gain without altering releases.

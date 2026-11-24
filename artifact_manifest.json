@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-partition-discovery-20261123",
+  "snapshot_id": "recursive-firm-settlement-learning-20261124",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-partition-discovery-20261123",
-      "sha256": "70d45109cf67b56525b9fc38a066dad35e48ab429b0746259c3834424a338292"
+      "version": "recursive-firm-settlement-learning-20261124",
+      "sha256": "83af13a471f777ddb3e2e4837c0b5bbb8d5ce6f58eb2fd7afce1ab22cae5bb39"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-partition-discovery-20261123",
-      "sha256": "5f2e068c56180888e7773f6ecf71f00e1178c752cac7aeb2e9a563a34d6eb7b4"
+      "version": "recursive-firm-settlement-learning-20261124",
+      "sha256": "e6ebadac22a0db3e7533c58b751ebbb4f552613f6f90ee3c1d2addeb13045439"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3619,6 +3619,34 @@
       "name": "results.json",
       "sha256": "e2de3ab0b7fa90e1dae5d8463a8bdaadea69effcad1611b3561ee1addff5bc61",
       "version": "recursive-firm-partition-discovery-20261123"
+    },
+    {
+      "repository_path": "research/recursive_firm/settlement_learning/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/settlement_learning/README.md",
+      "name": "README.md",
+      "sha256": "0b9d73a0780256ac0ba5748d4f196e8acad2dee4b73697decbc8f07c09ec2a8d",
+      "version": "recursive-firm-settlement-learning-20261124"
+    },
+    {
+      "repository_path": "research/recursive_firm/settlement_learning/study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/settlement_learning/study.py",
+      "name": "study.py",
+      "sha256": "c97559d23f9a1644828189a6214224a6fcaa60e89f8f195c45ecc376a7a12042",
+      "version": "recursive-firm-settlement-learning-20261124"
+    },
+    {
+      "repository_path": "research/recursive_firm/settlement_learning/test_study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/settlement_learning/test_study.py",
+      "name": "test_study.py",
+      "sha256": "6f2d4e628773da5d8ed661184d6436bd9588a10193b27e771b8625c4d995d298",
+      "version": "recursive-firm-settlement-learning-20261124"
+    },
+    {
+      "repository_path": "research/recursive_firm/settlement_learning/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/settlement_learning/results.json",
+      "name": "results.json",
+      "sha256": "49076e862a292de12d992924272dcfe0cdc6dbce479b812794594d34e615c3e3",
+      "version": "recursive-firm-settlement-learning-20261124"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3902,7 +3930,8 @@
       },
       "priced_transfer_validation": "research/recursive_firm/transfer_validation/README.md",
       "adapter_repair": "research/recursive_firm/transfer_validation/ADAPTER_REPAIR.md",
-      "partition_discovery": "research/recursive_firm/partition_discovery/README.md"
+      "partition_discovery": "research/recursive_firm/partition_discovery/README.md",
+      "settlement_learning": "research/recursive_firm/settlement_learning/README.md"
     }
   }
 }
