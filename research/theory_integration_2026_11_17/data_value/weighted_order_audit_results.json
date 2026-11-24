@@ -1,0 +1,40 @@
+{
+  "checks": 23334,
+  "cases": 812,
+  "example": {
+    "weights": [
+      1,
+      2,
+      3,
+      10,
+      20,
+      21
+    ],
+    "k": 3,
+    "m": 2,
+    "initial": [
+      6,
+      51
+    ],
+    "best": {
+      "remaining": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "width": 10
+    },
+    "worst": {
+      "remaining": [
+        1,
+        2,
+        20,
+        21
+      ],
+      "width": 38
+    }
+  },
+  "field_calibration": false,
+  "full_repository_ci": false
+}
