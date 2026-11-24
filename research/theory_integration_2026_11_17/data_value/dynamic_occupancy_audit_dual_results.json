@@ -1,0 +1,62 @@
+{
+  "synthetic": true,
+  "ticks_per_unit": 16,
+  "assertions": 68415,
+  "compatible_law_price_cases": 1625,
+  "relaxed_flow_cases": 53625,
+  "cap_profile_at_p6": [
+    {
+      "cap": 0,
+      "pure_optimum_envelope": 5,
+      "flow_upper": 5
+    },
+    {
+      "cap": 0.0625,
+      "pure_optimum_envelope": 5,
+      "flow_upper": 5.25
+    },
+    {
+      "cap": 0.125,
+      "pure_optimum_envelope": 5.25,
+      "flow_upper": 5.5
+    },
+    {
+      "cap": 0.1875,
+      "pure_optimum_envelope": 5.625,
+      "flow_upper": 5.75
+    },
+    {
+      "cap": 0.25,
+      "pure_optimum_envelope": 6,
+      "flow_upper": 6
+    },
+    {
+      "cap": 0.3125,
+      "pure_optimum_envelope": 6,
+      "flow_upper": 6.25
+    },
+    {
+      "cap": 0.375,
+      "pure_optimum_envelope": 6.25,
+      "flow_upper": 6.5
+    },
+    {
+      "cap": 0.4375,
+      "pure_optimum_envelope": 6.625,
+      "flow_upper": 6.75
+    },
+    {
+      "cap": 0.5,
+      "pure_optimum_envelope": 7,
+      "flow_upper": 7
+    }
+  ],
+  "rectangular_upper": 7,
+  "coupled_cap_quarter_upper": 6,
+  "high_world_G": 7,
+  "independent_E": 6.5,
+  "retained_R": 6,
+  "free_routine_low_world": 7,
+  "shared_staff_E": 6,
+  "strict_cap_drift_limit": 0.125
+}
