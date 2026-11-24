@@ -2,61 +2,79 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "e8fecf87c8f76bf7e570ac51cf63d212a280a24a",
+  "research_input_commit": "ce45ca8b55a060ab7257b11337f18593118349f5",
   "lease": {
     "run_id": "program-contrast-2026-11-24T20:31:47.232Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T20:31:47.232Z",
     "expires_at_utc": "2026-11-24T21:46:47.232Z",
-    "reason": "Consolidate prospective whole-program comparison and economic bounds"
+    "reason": "Consolidate prospective whole-program comparison and economic bounds",
+    "released_at_utc": "2026-11-24T20:34:06.739Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed economic data value: recipient delivery and lawful dispatch timing; scientific gate OPEN",
+  "current_mode": "Policy-closed economic data value: compact first-paper evidence and downstream deadlines; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_RECIPIENT_DISPATCH_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_EMPIRICAL_CORE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved by original blob e410f0ef47817b51e5664793929cb33abd3ef0f3; main and backlog unchanged.",
-  "latest_result": "Original medication request coverage, count discrepancy, report timing and conditional selection/VOI certificate; economic program contrast unidentified.",
+  "preservation": "Prior released state preserved as exact original blob a502979dd6ae365656697e5659b7b8d09c39571d; main and backlog unchanged.",
+  "latest_result": "Downstream laboratory validation clock, negative historical adoption and conditional deadline/coverage certificate; matched economic contrast open.",
   "validation": {
-    "checks": 18357461,
-    "cases": 4587825,
-    "observed": {
-      "requests": 135,
-      "eligible": 122,
-      "completed": 108,
-      "classifiedFailures": 14,
-      "excluded": 13,
-      "completionEligible": 0.8852459016393442,
-      "completionOriginal": 0.8,
-      "blockageRestrictedCeiling": 0.06557377049180328,
-      "communicationRestrictedCeiling": 0.01639344262295082,
-      "corridorRestrictedCeiling": 0.03278688524590164,
-      "reportedOverall": 87.03,
-      "reportedLow": 95.52,
-      "roundedLowCandidateFractions": [
-        [
-          64,
-          67
-        ]
-      ],
-      "roundedOverallCandidateFractions": []
-    },
-    "synthetic": {
-      "noContinuation": {
-        "blind": 0.5,
-        "informed": 1.25
+    "checks": 125886,
+    "laws": 41958,
+    "conditional_cap": 200,
+    "illustrative_deadline": 120,
+    "P": [
+      0.5,
+      0.917
+    ],
+    "G": [
+      0.5,
+      1
+    ],
+    "contrast": [
+      -0.41700000000000004,
+      0.5
+    ],
+    "world1": {
+      "P": {
+        "mean": 122.64,
+        "med": 112,
+        "variance": 117.83040000000008,
+        "onTime": 0.51
       },
-      "failureContinuation": {
-        "blind": 1.5,
-        "informed": 1.5
+      "G": {
+        "mean": 106.72,
+        "med": 101,
+        "variance": 34.053844897959195,
+        "onTime": 1
       }
     },
-    "fieldCausalDataValue": false,
-    "fullRepositoryCI": false
+    "world2": {
+      "P": {
+        "mean": 122.64,
+        "med": 112,
+        "variance": 531.5813999999999,
+        "onTime": 0.9
+      },
+      "G": {
+        "mean": 106.72,
+        "med": 101,
+        "variance": 216.3938448979592,
+        "onTime": 0.51
+      }
+    },
+    "reported_mean_change_minutes": 15.920000000000002,
+    "reported_mean_change_fraction": 0.12981082844096545,
+    "field_causal_data_value": false,
+    "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/EMPIRICAL_CORE_DEADLINE.md",
+    "research/theory_integration_2026_11_17/data_value/empirical_core_deadline_exact.js",
+    "research/theory_integration_2026_11_17/data_value/empirical_core_deadline_results.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_EMPIRICAL_CORE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/RECIPIENT_DISPATCH_TIMING.md",
     "research/theory_integration_2026_11_17/data_value/recipient_dispatch_exact.js",
     "research/theory_integration_2026_11_17/data_value/recipient_dispatch_results.json",
@@ -95,9 +113,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Original-order recipient and information timing evidence integrated; economic contrast open",
-      "question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
-      "deliverable": "Focused empirical section with complete-arm acceptance and cost or supported continuation bounds"
+      "status": "Compact downstream evidence integrated; economic contrast open",
+      "question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
+      "deliverable": "Focused evidence section with supported whole-arm timely acceptance, actual costs and conditional bounds"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -122,15 +140,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Original-order recipient and information timing evidence integrated; economic contrast open",
-      "question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
-      "deliverable": "Focused empirical section with complete-arm acceptance and cost or supported continuation bounds"
+      "status": "Compact downstream evidence integrated; economic contrast open",
+      "question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
+      "deliverable": "Focused evidence section with supported whole-arm timely acceptance, actual costs and conditional bounds"
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, conditional rubric and original-order screening bounds; lawful information certificate.",
-    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.",
-    "paper": "First-paper evidence matrix adds original-order medication service, report timing and resource limits; no matched whole-program economic effect.",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.",
+    "paper": "Compact evidence matrix with downstream clock/coverage and conditional moment/residual certificate; no matched causal economic effect.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -225,13 +243,15 @@
     "VLAC-Cut preprint reports common-checkpoint comparisons and matched recovery trajectory counts, not independent closed-program arms or paid worker hours. The sharp unsupported-branch interval is synthetic and conditional; no recipient acceptance or actual economic effect. Parsed abs full text only, no PDF equivalence or independent replication.",
     "CEL selected v3 HTML excerpts only; single collection run, rounded executing count, fixed-other-blockers ceiling, no independently measured paid full-program causal contrast; numerical tests synthetic.",
     "Motor line v1 HTML selected sections only; v2 unavailable. Shared QC worker proposition assumes divisible homogeneous accepted units and no precedence losses beyond clock. No measured QC time or actual cost/payable orders; threshold and synthetic support values are not calibration.",
-    "LWD v1 HTML selected sections read; equal lifetime budgets not established (RECAP Appendix C.1 two rounds ~60 robot-hours). Moment bounds assume stated rubric, unrestricted stage mixture and exact mean; no commercial acceptance, confidence interval or measured economics. Scoped exhaustive convex-hull tests use floating tolerance, not proof or full CI."
+    "LWD v1 HTML selected sections read; equal lifetime budgets not established (RECAP Appendix C.1 two rounds ~60 robot-hours). Moment bounds assume stated rubric, unrestricted stage mixture and exact mean; no commercial acceptance, confidence interval or measured economics. Scoped exhaustive convex-hull tests use floating tolerance, not proof or full CI.",
+    "Lab and old courier/pharmacy studies read abstracts only; no original denominator, exact deadline CDF or causal data intervention identified. Illustrative deadline 120 and cap 200 not clinical/empirical; synthetic witnesses match selected numeric summaries only.",
+    "Moment bounds standard elementary inequalities; no full CI, independent replay or field calibration. No new official numeric topology route."
   ],
   "last_notification": {
     "key": "20261124-cel-fleet-resource-clock",
     "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
-  "execution_note": "Scoped exact JS checks executed; prospective design not field experiment. Full CI not run.",
+  "execution_note": "Executed generated V8 checker; compact empirical integration, original-state preservation; no external study or full CI.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -248,9 +268,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": true,
-  "publication_parent_commit": "e980ff0dbbad6211d677f37df80a06d4a2529d60",
-  "current_proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
-  "exact_next_action": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "publication_parent_commit": "f1bd49f09be2b086b6baf039ae46baf5ec602362",
+  "current_proof_gap": "Downstream validation clock and historical satisfaction/volume evidence exist, but no matched original-order roster with actual deadlines, costs, lawful source lineage and closed program treatment. Deadline/cap and unresolved residual bounds are not validated.",
+  "exact_next_action": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -268,7 +288,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T19:33:42.682Z",
+  "updated_at_utc": "2026-11-24T20:34:06.739Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -285,9 +305,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
-  "proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
-  "next_action": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "exact_question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
+  "proof_gap": "Downstream validation clock and historical satisfaction/volume evidence exist, but no matched original-order roster with actual deadlines, costs, lawful source lineage and closed program treatment. Deadline/cap and unresolved residual bounds are not validated.",
+  "next_action": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -353,7 +373,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "exact_intellectual_question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -373,7 +393,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "exact_next": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -473,7 +493,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
+  "next_proof_gap": "Downstream validation clock and historical satisfaction/volume evidence exist, but no matched original-order roster with actual deadlines, costs, lawful source lineage and closed program treatment. Deadline/cap and unresolved residual bounds are not validated.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -554,7 +574,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "current_question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1634,7 +1654,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "next_question": "Develop the focused first-paper evidence section into a decision-grade whole-program comparison: identify actual original-order timely accepted service and paid occupation under independently followed source interventions, or justify economically weighted continuation/censoring bounds. Test routine P emulation versus G and E; do not extrapolate means, benchmark scores, or retrospective reports. Separately obtain contemporary official numeric topology only from genuine new source routes.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -3517,5 +3537,58 @@
     },
     "fieldCausalDataValue": false,
     "fullRepositoryCI": false
+  },
+  "validation_empirical_core_deadline": {
+    "checks": 125886,
+    "laws": 41958,
+    "conditional_cap": 200,
+    "illustrative_deadline": 120,
+    "P": [
+      0.5,
+      0.917
+    ],
+    "G": [
+      0.5,
+      1
+    ],
+    "contrast": [
+      -0.41700000000000004,
+      0.5
+    ],
+    "world1": {
+      "P": {
+        "mean": 122.64,
+        "med": 112,
+        "variance": 117.83040000000008,
+        "onTime": 0.51
+      },
+      "G": {
+        "mean": 106.72,
+        "med": 101,
+        "variance": 34.053844897959195,
+        "onTime": 1
+      }
+    },
+    "world2": {
+      "P": {
+        "mean": 122.64,
+        "med": 112,
+        "variance": 531.5813999999999,
+        "onTime": 0.9
+      },
+      "G": {
+        "mean": 106.72,
+        "med": 101,
+        "variance": 216.3938448979592,
+        "onTime": 0.51
+      }
+    },
+    "reported_mean_change_minutes": 15.920000000000002,
+    "reported_mean_change_fraction": 0.12981082844096545,
+    "field_causal_data_value": false,
+    "full_repository_ci": false,
+    "source_sha": "fdf9344200e6d20f8e0423fec5bdf9bc1e8a15a0",
+    "result_sha": "4d2a6e10ef387eb3fd76185ba825cdf27739fc22",
+    "scope": "Generated function executed in V8; analytic proof in chapter, no independent replay or full CI."
   }
 }

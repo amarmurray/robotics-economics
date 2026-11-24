@@ -1,0 +1,50 @@
+{
+  "checks": 125886,
+  "laws": 41958,
+  "conditional_cap": 200,
+  "illustrative_deadline": 120,
+  "P": [
+    0.5,
+    0.917
+  ],
+  "G": [
+    0.5,
+    1
+  ],
+  "contrast": [
+    -0.41700000000000004,
+    0.5
+  ],
+  "world1": {
+    "P": {
+      "mean": 122.64,
+      "med": 112,
+      "variance": 117.83040000000008,
+      "onTime": 0.51
+    },
+    "G": {
+      "mean": 106.72,
+      "med": 101,
+      "variance": 34.053844897959195,
+      "onTime": 1
+    }
+  },
+  "world2": {
+    "P": {
+      "mean": 122.64,
+      "med": 112,
+      "variance": 531.5813999999999,
+      "onTime": 0.9
+    },
+    "G": {
+      "mean": 106.72,
+      "med": 101,
+      "variance": 216.3938448979592,
+      "onTime": 0.51
+    }
+  },
+  "reported_mean_change_minutes": 15.920000000000002,
+  "reported_mean_change_fraction": 0.12981082844096545,
+  "field_causal_data_value": false,
+  "full_repository_ci": false
+}
