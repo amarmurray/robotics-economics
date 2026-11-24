@@ -1,0 +1,46 @@
+{
+  "checks": 1876,
+  "observed": {
+    "N": 7453438,
+    "D": 241517,
+    "delivered_share": 0.0324034358372606,
+    "reported_rounded_robot_share": 0.57,
+    "conditional_rounding_robot_count": [
+      136458,
+      138872
+    ],
+    "conditional_rounding_population_penetration": [
+      0.018308061326866878,
+      0.01863193871069968
+    ]
+  },
+  "synthetic": {
+    "P": {
+      "n": 100000,
+      "d": 3000,
+      "r": 1710
+    },
+    "G_low": {
+      "n": 100000,
+      "d": 1000,
+      "r": 600
+    },
+    "G_high": {
+      "n": 100000,
+      "d": 4000,
+      "r": 2400
+    },
+    "conditional_robot_share": [
+      0.57,
+      0.6,
+      0.6
+    ],
+    "robot_population_share": [
+      0.0171,
+      0.006,
+      0.024
+    ]
+  },
+  "field_causal_data_value": false,
+  "full_repository_ci": false
+}
