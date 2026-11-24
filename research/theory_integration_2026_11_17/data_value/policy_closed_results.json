@@ -1,0 +1,83 @@
+{
+  "checks": 10285,
+  "laws": 969,
+  "intervals": 289,
+  "denominator": 16,
+  "rows": [
+    {
+      "overlap": 0,
+      "P": 0,
+      "G": 3,
+      "X": 1,
+      "E": 2,
+      "G_minus_E": 1
+    },
+    {
+      "overlap": 0.0625,
+      "P": 0.5,
+      "G": 3,
+      "X": 1.5,
+      "E": 2.5,
+      "G_minus_E": 0.5
+    },
+    {
+      "overlap": 0.125,
+      "P": 1,
+      "G": 3,
+      "X": 2,
+      "E": 3,
+      "G_minus_E": 0
+    },
+    {
+      "overlap": 0.1875,
+      "P": 1.5,
+      "G": 3,
+      "X": 2.5,
+      "E": 3.5,
+      "G_minus_E": -0.5
+    },
+    {
+      "overlap": 0.25,
+      "P": 2,
+      "G": 3,
+      "X": 3,
+      "E": 4,
+      "G_minus_E": -1
+    },
+    {
+      "overlap": 0.3125,
+      "P": 2.5,
+      "G": 3,
+      "X": 3.5,
+      "E": 4.5,
+      "G_minus_E": -1.5
+    },
+    {
+      "overlap": 0.375,
+      "P": 3,
+      "G": 3,
+      "X": 4,
+      "E": 5,
+      "G_minus_E": -2
+    },
+    {
+      "overlap": 0.4375,
+      "P": 3.5,
+      "G": 3,
+      "X": 4.5,
+      "E": 5.5,
+      "G_minus_E": -2.5
+    },
+    {
+      "overlap": 0.5,
+      "P": 4,
+      "G": 3,
+      "X": 5,
+      "E": 6,
+      "G_minus_E": -3
+    }
+  ],
+  "synthetic": true,
+  "field_calibration": false,
+  "full_repository_ci": false
+}

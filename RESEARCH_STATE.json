@@ -2,72 +2,112 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "259e846cffd4f54fbd0adbf96e4e434692eaa213",
+  "research_input_commit": "9c0cc7a66df9b81b8446e9b8360f18e9c60b1259",
   "lease": {
     "run_id": "policy-closure-2026-11-24T12:31:53.087Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T12:31:53.087Z",
     "expires_at_utc": "2026-11-24T13:46:53.087Z",
-    "reason": "Consolidated common-law economic comparison and routine-data redundancy proof"
+    "reason": "Publish tested policy-closed synthesis; next empirical fixed-program contrast",
+    "released_at_utc": "2026-11-24T12:34:49.985Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Dated reserve price transport and integrated source-to-production synthesis; Nov22 scientific gate OPEN",
+  "current_mode": "Policy-closed first-paper spine and routine-data redundancy; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_DATED_RESERVE_PRICE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_POLICY_CLOSED_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Preceding released state preserved byte-identically using blob d1e2854b92c369f53f72f0896b86eca3b4bac0e3; main and backlog untouched.",
-  "latest_result": "Dated recovery reserve prices: pathwise slack/telescoping certificate with policy-dependent report price revenue. In synthetic G, identical mean duration/authorization and isolated values give net increments 2 to -1/2 vs E=1; missing overlap j, sharp crossing 1/6. Constant prices fail; lawful date-1 6H prices exact under invariant authorization; with endogenous q0,q1, incumbent capacity price revenue can underbound true feasible value. Consolidated assumption map and policy-closed empirical audit.",
+  "preservation": "Prior released state preserved using exact original blob 4c15e28107e7294ba5c01fe8385ad96ba99c224e; main and backlog untouched.",
+  "latest_result": "Uniform policy-emulation bound and common-law implementable witness; equal eventual qualification and readiness/demand margins allow G vs E reversal or routine P redundancy through missed lawful paid service.",
   "validation": {
-    "assertions": 24442,
-    "laws": 165,
-    "endogenousCases": 1485,
-    "priceChecks": 22275,
-    "restricted": [
+    "checks": 10285,
+    "laws": 969,
+    "intervals": 289,
+    "denominator": 16,
+    "rows": [
       {
-        "j": 0,
-        "gross": 5.5,
-        "groundingIncrement": 2,
-        "informedGross": 5.5,
-        "E": 1
+        "overlap": 0,
+        "P": 0,
+        "G": 3,
+        "X": 1,
+        "E": 2,
+        "G_minus_E": 1
       },
       {
-        "j": 0.125,
-        "gross": 4.75,
-        "groundingIncrement": 1.25,
-        "informedGross": 4.75,
-        "E": 1
+        "overlap": 0.0625,
+        "P": 0.5,
+        "G": 3,
+        "X": 1.5,
+        "E": 2.5,
+        "G_minus_E": 0.5
       },
       {
-        "j": 0.25,
-        "gross": 4,
-        "groundingIncrement": 0.5,
-        "informedGross": 4,
-        "E": 1
+        "overlap": 0.125,
+        "P": 1,
+        "G": 3,
+        "X": 2,
+        "E": 3,
+        "G_minus_E": 0
       },
       {
-        "j": 0.375,
-        "gross": 3.25,
-        "groundingIncrement": -0.25,
-        "informedGross": 4,
-        "E": 1
+        "overlap": 0.1875,
+        "P": 1.5,
+        "G": 3,
+        "X": 2.5,
+        "E": 3.5,
+        "G_minus_E": -0.5
       },
       {
-        "j": 0.5,
-        "gross": 3,
-        "groundingIncrement": -0.5,
-        "informedGross": 4,
-        "E": 1
+        "overlap": 0.25,
+        "P": 2,
+        "G": 3,
+        "X": 3,
+        "E": 4,
+        "G_minus_E": -1
+      },
+      {
+        "overlap": 0.3125,
+        "P": 2.5,
+        "G": 3,
+        "X": 3.5,
+        "E": 4.5,
+        "G_minus_E": -1.5
+      },
+      {
+        "overlap": 0.375,
+        "P": 3,
+        "G": 3,
+        "X": 4,
+        "E": 5,
+        "G_minus_E": -2
+      },
+      {
+        "overlap": 0.4375,
+        "P": 3.5,
+        "G": 3,
+        "X": 4.5,
+        "E": 5.5,
+        "G_minus_E": -2.5
+      },
+      {
+        "overlap": 0.5,
+        "P": 4,
+        "G": 3,
+        "X": 5,
+        "E": 6,
+        "G_minus_E": -3
       }
     ],
     "synthetic": true,
-    "denominator": 8,
-    "full_repository_ci": false,
     "field_calibration": false,
-    "independent_novelty": false
+    "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_DATA_VALUE.md",
+    "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_DATA_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/data_value/policy_closed_exact.js",
+    "research/theory_integration_2026_11_17/data_value/policy_closed_results.json",
     "research/theory_integration_2026_11_17/data_value/DATED_RESERVE_PRICE_TRANSPORT.md",
     "research/theory_integration_2026_11_17/data_value/DATED_RESERVE_PRICE_EVIDENCE.md",
     "research/theory_integration_2026_11_17/data_value/dated_reserve_exact.js",
@@ -81,15 +121,16 @@
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_DATED_RESERVE_PRICE_RELEASED_STATE.json",
-    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
+    "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_POLICY_CLOSED_RELEASED_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Dated price/residual and action-specific authorization correction established conditionally; policy-closed empirical synthesis remains open",
-      "question": "Consolidate a policy-closed comparison for the first-paper candidate: one testable common-law source-to-qualified-recipe map with priced dated occupation and original paid buyer/rights moments; one explicit inexpensive production-data redundancy countermodel. Focus on empirical support and concise synthesis before additional isolated queue cases.",
-      "deliverable": "Single nonrectangular policy/whole-program identified set with safe old menu, trained technical qualification, real buyer paid outcomes and worker conservation; compare extra source data, target grounding and independently staffed embodiment, then validate against approved matched evidence and official BEA numerical topology."
+      "status": "Policy-closed spine and rival P redundancy model derived; empirical contrast open",
+      "question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+      "deliverable": "Named matched service unit and lawful whole-program evidence or honest bounds."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -114,16 +155,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Integrated original-buyer capacity learning mechanism into living manuscript, Models A/B gate, data-value program and milestones with exact source/evidence/teaching. Nov22 scientific gate still OPEN; novelty unvalidated.",
-      "question": "Consolidate a policy-closed comparison for the first-paper candidate: one testable common-law source-to-qualified-recipe map with priced dated occupation and original paid buyer/rights moments; one explicit inexpensive production-data redundancy countermodel. Focus on empirical support and concise synthesis before additional isolated queue cases.",
-      "deliverable": "Edit one consistent source-to-production theorem/assumption map and scientific novelty objections; identify actual accepted-service unit and official numerical BLS–BEA crosswalk without inventing losses."
+      "status": "Policy-closed spine and rival P redundancy model derived; empirical contrast open",
+      "question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+      "deliverable": "Named matched service unit and lawful whole-program evidence or honest bounds."
     }
   ],
   "portfolio_status": {
-    "theory": "Dated recovery reserve prices: pathwise slack/telescoping certificate with policy-dependent report price revenue. In synthetic G, identical mean duration/authorization and isolated values give net increments 2 to -1/2 vs E=1; missing overlap j, sharp crossing 1/6. Constant prices fail; lawful date-1 6H prices exact under invariant authorization; with endogenous q0,q1, incumbent capacity price revenue can underbound true feasible value. Consolidated assumption map and policy-closed empirical audit.",
-    "atlas": "Prospective whole-pool dated price/rights audit; paid field evidence and official numerical BEA edge absent",
-    "paper": "Consolidated source-to-production assumption map and narrowed candidate; Nov22 gate open",
-    "learning": "Dated reserve exact model and separate exercises/solutions",
+    "theory": "Uniform policy-emulation bound and common-law implementable witness; equal eventual qualification and readiness/demand margins allow G vs E reversal or routine P redundancy through missed lawful paid service.",
+    "atlas": "Prospective original service register; no new field data or official numeric BEA edge",
+    "paper": "Focused three-claim synthesis and falsifiable routine-data null; Nov22 gate OPEN",
+    "learning": "Separate policy-closed exercises and solutions",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
   "known_limitations": [
@@ -207,13 +248,14 @@
     "Selected-history example externally assumes all J/H/Y pairwise uniform even though censored successful-service logs cannot establish those tables. If observation S depends on unobserved original Y, naive propensity weighting is invalid; no original-buyer/no-order panel or lawful cluster randomized P/G/D/E assignment exists. Proof of complete-menu moment sufficiency is restricted to the exact three-policy four-date queue.",
     "Reserve option identity requires unchanged report law and retained idle baseline policies; synthetic safe congestion report, late receipt, reserve availability and successors not validated. Forced stagger marginal fails without report linkage; full CI and independent novelty not established.",
     "Shared reserve countermodel assumes pool-wide controller version chosen before report; complete old version is retained after sunk training, but hybrid report/site-contingent switching is not included. Actual duration, paid buyer outcomes and conditional lineage spillovers unmeasured.",
-    "Dated reserve price theorem uses a necessary pathwise occupancy inequality, supported conditional residual envelopes and correct policy-specific price revenue; safe action support, real paid receipts, legal rights, official numeric BEA and empirical calibration absent. Exact synthetic integer tests not proof or independent novelty."
+    "Dated reserve price theorem uses a necessary pathwise occupancy inequality, supported conditional residual envelopes and correct policy-specific price revenue; safe action support, real paid receipts, legal rights, official numeric BEA and empirical calibration absent. Exact synthetic integer tests not proof or independent novelty.",
+    "Uniform routine-data emulation and prefix/suffix bounds unmeasured. Synthetic P/G example assumes invariant H, independent X/E contribution and one paid slot. No field calibration, CI, independent novelty or scientific gate acceptance."
   ],
   "last_notification": {
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Created and executed scoped exact integer model; integrated chapter, empirical audit, teaching and living theory. No full CI or field evidence; release and final head subject to CAS verification.",
+  "execution_note": "Executed finite V8 checker and proof synthesis; no numerical BEA cell.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -229,10 +271,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "20261124-shared-reserve-pool: distributional complementarity, coupled residual certificate and retained-version counterexample; no repeated routine alert.",
-  "publication_parent_commit": "9516556ad33c2d4f61bea2ce443745e7b0c9207b",
-  "current_proof_gap": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
-  "exact_next_action": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "quiet_checkpoint": "Policy-closed synthesis; routine checkpoint",
+  "publication_parent_commit": "e1c614f5e6c1270e240e6ae5d90e78f785980dc5",
+  "current_proof_gap": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+  "exact_next_action": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -250,7 +292,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T10:35:31.701Z",
+  "updated_at_utc": "2026-11-24T12:34:49.985Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -267,9 +309,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
-  "proof_gap": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
-  "next_action": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "exact_question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+  "proof_gap": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+  "next_action": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -335,7 +377,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "exact_intellectual_question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -355,7 +397,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "exact_next": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -455,7 +497,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "next_proof_gap": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -536,7 +578,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "current_question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1616,7 +1658,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "next_question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -2537,5 +2579,88 @@
     "signed_rights": false,
     "official_numeric_IO": false,
     "scientific_gate": "OPEN"
+  },
+  "validation_policy_closed_data": {
+    "checks": 10285,
+    "laws": 969,
+    "intervals": 289,
+    "denominator": 16,
+    "rows": [
+      {
+        "overlap": 0,
+        "P": 0,
+        "G": 3,
+        "X": 1,
+        "E": 2,
+        "G_minus_E": 1
+      },
+      {
+        "overlap": 0.0625,
+        "P": 0.5,
+        "G": 3,
+        "X": 1.5,
+        "E": 2.5,
+        "G_minus_E": 0.5
+      },
+      {
+        "overlap": 0.125,
+        "P": 1,
+        "G": 3,
+        "X": 2,
+        "E": 3,
+        "G_minus_E": 0
+      },
+      {
+        "overlap": 0.1875,
+        "P": 1.5,
+        "G": 3,
+        "X": 2.5,
+        "E": 3.5,
+        "G_minus_E": -0.5
+      },
+      {
+        "overlap": 0.25,
+        "P": 2,
+        "G": 3,
+        "X": 3,
+        "E": 4,
+        "G_minus_E": -1
+      },
+      {
+        "overlap": 0.3125,
+        "P": 2.5,
+        "G": 3,
+        "X": 3.5,
+        "E": 4.5,
+        "G_minus_E": -1.5
+      },
+      {
+        "overlap": 0.375,
+        "P": 3,
+        "G": 3,
+        "X": 4,
+        "E": 5,
+        "G_minus_E": -2
+      },
+      {
+        "overlap": 0.4375,
+        "P": 3.5,
+        "G": 3,
+        "X": 4.5,
+        "E": 5.5,
+        "G_minus_E": -2.5
+      },
+      {
+        "overlap": 0.5,
+        "P": 4,
+        "G": 3,
+        "X": 5,
+        "E": 6,
+        "G_minus_E": -3
+      }
+    ],
+    "synthetic": true,
+    "field_calibration": false,
+    "full_repository_ci": false
   }
 }
