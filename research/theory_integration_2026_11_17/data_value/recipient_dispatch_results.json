@@ -1,0 +1,37 @@
+{
+  "checks": 18357461,
+  "cases": 4587825,
+  "observed": {
+    "requests": 135,
+    "eligible": 122,
+    "completed": 108,
+    "classifiedFailures": 14,
+    "excluded": 13,
+    "completionEligible": 0.8852459016393442,
+    "completionOriginal": 0.8,
+    "blockageRestrictedCeiling": 0.06557377049180328,
+    "communicationRestrictedCeiling": 0.01639344262295082,
+    "corridorRestrictedCeiling": 0.03278688524590164,
+    "reportedOverall": 87.03,
+    "reportedLow": 95.52,
+    "roundedLowCandidateFractions": [
+      [
+        64,
+        67
+      ]
+    ],
+    "roundedOverallCandidateFractions": []
+  },
+  "synthetic": {
+    "noContinuation": {
+      "blind": 0.5,
+      "informed": 1.25
+    },
+    "failureContinuation": {
+      "blind": 1.5,
+      "informed": 1.5
+    }
+  },
+  "fieldCausalDataValue": false,
+  "fullRepositoryCI": false
+}

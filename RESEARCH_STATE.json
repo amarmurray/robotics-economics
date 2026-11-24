@@ -2,360 +2,65 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "c0083c2378be75cef4675b2f41de378ea1d5ec37",
+  "research_input_commit": "e8fecf87c8f76bf7e570ac51cf63d212a280a24a",
   "lease": {
     "run_id": "recipient-acceptance-20261124T1932Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T19:31:59.523Z",
     "expires_at_utc": "2026-11-24T20:46:59.523Z",
-    "reason": "First-paper recipient acceptance and resource evidence consolidation"
+    "reason": "First-paper recipient acceptance and resource evidence consolidation",
+    "released_at_utc": "2026-11-24T19:33:42.682Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed economic data value: partial-credit and recipient acceptance bridge; scientific gate OPEN",
+  "current_mode": "Policy-closed economic data value: recipient delivery and lawful dispatch timing; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_SCORE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_RECIPIENT_DISPATCH_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved by original blob 7289bf74817094b28bd48d76ea47139b7d49f117; main/backlog unchanged.",
-  "latest_result": "LWD distinct technical paths and partial-credit scoring, conditional sharp full-service rubric bounds and ranking reversal; economic comparison unidentified.",
+  "preservation": "Prior released state preserved by original blob e410f0ef47817b51e5664793929cb33abd3ef0f3; main and backlog unchanged.",
+  "latest_result": "Original medication request coverage, count discrepancy, report timing and conditional selection/VOI certificate; economic program contrast unidentified.",
   "validation": {
-    "checks": 3239,
-    "cases": 1616,
-    "rows": [
-      {
-        "method": "SFT",
-        "mean": 0.675,
-        "strict_n8": [
-          [
-            0,
-            0.64
-          ],
-          [
-            0,
-            0.66
-          ],
-          [
-            0,
-            0.7
-          ],
-          [
-            0,
-            0.7
-          ]
-        ],
-        "positive_n8": [
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ]
-        ],
-        "strict_n5": [
-          [
-            0,
-            0.64
-          ],
-          [
-            0,
-            0.66
-          ],
-          [
-            0,
-            0.7
-          ],
-          [
-            0,
-            0.7
-          ]
+    "checks": 18357461,
+    "cases": 4587825,
+    "observed": {
+      "requests": 135,
+      "eligible": 122,
+      "completed": 108,
+      "classifiedFailures": 14,
+      "excluded": 13,
+      "completionEligible": 0.8852459016393442,
+      "completionOriginal": 0.8,
+      "blockageRestrictedCeiling": 0.06557377049180328,
+      "communicationRestrictedCeiling": 0.01639344262295082,
+      "corridorRestrictedCeiling": 0.03278688524590164,
+      "reportedOverall": 87.03,
+      "reportedLow": 95.52,
+      "roundedLowCandidateFractions": [
+        [
+          64,
+          67
         ]
+      ],
+      "roundedOverallCandidateFractions": []
+    },
+    "synthetic": {
+      "noContinuation": {
+        "blind": 0.5,
+        "informed": 1.25
       },
-      {
-        "method": "RECAP",
-        "mean": 0.7675000000000001,
-        "strict_n8": [
-          [
-            0,
-            0.84
-          ],
-          [
-            0,
-            0.82
-          ],
-          [
-            0,
-            0.71
-          ],
-          [
-            0,
-            0.7
-          ]
-        ],
-        "positive_n8": [
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ]
-        ],
-        "strict_n5": [
-          [
-            0,
-            0.84
-          ],
-          [
-            0,
-            0.82
-          ],
-          [
-            0,
-            0.71
-          ],
-          [
-            0,
-            0.7
-          ]
-        ]
-      },
-      {
-        "method": "HG_DAgger",
-        "mean": 0.73,
-        "strict_n8": [
-          [
-            0,
-            0.6
-          ],
-          [
-            0,
-            0.66
-          ],
-          [
-            0,
-            0.76
-          ],
-          [
-            0,
-            0.9
-          ]
-        ],
-        "positive_n8": [
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0.20000000000000018,
-            1
-          ]
-        ],
-        "strict_n5": [
-          [
-            0,
-            0.6
-          ],
-          [
-            0,
-            0.66
-          ],
-          [
-            0,
-            0.76
-          ],
-          [
-            0,
-            0.9
-          ]
-        ]
-      },
-      {
-        "method": "LWD_offline",
-        "mean": 0.7875,
-        "strict_n8": [
-          [
-            0,
-            0.72
-          ],
-          [
-            0,
-            0.74
-          ],
-          [
-            0,
-            0.83
-          ],
-          [
-            0,
-            0.86
-          ]
-        ],
-        "positive_n8": [
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ],
-          [
-            0,
-            1
-          ]
-        ],
-        "strict_n5": [
-          [
-            0,
-            0.72
-          ],
-          [
-            0,
-            0.74
-          ],
-          [
-            0,
-            0.83
-          ],
-          [
-            0,
-            0.86
-          ]
-        ]
-      },
-      {
-        "method": "LWD_online",
-        "mean": 0.91,
-        "strict_n8": [
-          [
-            0,
-            0.89
-          ],
-          [
-            0,
-            0.9
-          ],
-          [
-            0,
-            0.93
-          ],
-          [
-            0,
-            0.92
-          ]
-        ],
-        "positive_n8": [
-          [
-            0.1200000000000001,
-            1
-          ],
-          [
-            0.20000000000000018,
-            1
-          ],
-          [
-            0.4400000000000004,
-            1
-          ],
-          [
-            0.3600000000000003,
-            1
-          ]
-        ],
-        "strict_n5": [
-          [
-            0,
-            0.89
-          ],
-          [
-            0,
-            0.9
-          ],
-          [
-            0.3000000000000003,
-            0.93
-          ],
-          [
-            0.20000000000000023,
-            0.92
-          ]
-        ]
+      "failureContinuation": {
+        "blind": 1.5,
+        "informed": 1.5
       }
-    ],
-    "composition_hours": [
-      336.6,
-      88.8,
-      39.2,
-      187.9
-    ],
-    "source_shares": [
-      0.5158620689655172,
-      0.13609195402298851,
-      0.060076628352490426,
-      0.28796934865900387
-    ],
-    "strict_score_countermodels": [
-      {
-        "G": [
-          0.9,
-          0
-        ],
-        "P": [
-          0.8,
-          0.8
-        ]
-      },
-      {
-        "G": [
-          0.9,
-          0.9
-        ],
-        "P": [
-          0.8,
-          0
-        ]
-      }
-    ],
-    "synthetic_net_increment": [
-      -9,
-      8
-    ],
-    "field_calibration": false,
-    "full_repository_ci": false
+    },
+    "fieldCausalDataValue": false,
+    "fullRepositoryCI": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/RECIPIENT_DISPATCH_TIMING.md",
+    "research/theory_integration_2026_11_17/data_value/recipient_dispatch_exact.js",
+    "research/theory_integration_2026_11_17/data_value/recipient_dispatch_results.json",
     "research/theory_integration_2026_11_17/data_value/PARTIAL_SCORE_QUALIFIED_SERVICE.md",
     "research/theory_integration_2026_11_17/data_value/partial_score_qualified_exact.js",
     "research/theory_integration_2026_11_17/data_value/partial_score_qualified_results.json",
@@ -384,14 +89,15 @@
     "RESEARCH_EXECUTION.md",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
     "research/theory_integration_2026_11_17/data_value/PRE_FLEET_RESOURCE_CLOCK_RELEASED_STATE.json",
-    "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_SCORE_RELEASED_STATE.json"
+    "research/theory_integration_2026_11_17/data_value/PRE_PARTIAL_SCORE_RELEASED_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_RECIPIENT_DISPATCH_RELEASED_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Partial-score evidence bridge integrated; complete economic program unidentified",
-      "question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+      "status": "Original-order recipient and information timing evidence integrated; economic contrast open",
+      "question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
       "deliverable": "Focused empirical section with complete-arm acceptance and cost or supported continuation bounds"
     },
     {
@@ -417,15 +123,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Partial-score evidence bridge integrated; complete economic program unidentified",
-      "question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+      "status": "Original-order recipient and information timing evidence integrated; economic contrast open",
+      "question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
       "deliverable": "Focused empirical section with complete-arm acceptance and cost or supported continuation bounds"
     }
   ],
   "portfolio_status": {
-    "theory": "Policy-closed emulation; sharp conditional partial-credit rubric to joint qualification bounds and economic countermodel",
-    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders)",
-    "paper": "First-paper evidence matrix includes LWD separate technical paths but economic acceptance contrast unidentified",
+    "theory": "Policy-closed emulation, conditional rubric and original-order screening bounds; lawful information certificate.",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.",
+    "paper": "First-paper evidence matrix adds original-order medication service, report timing and resource limits; no matched whole-program economic effect.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -526,7 +232,7 @@
     "key": "20261124-cel-fleet-resource-clock",
     "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
-  "execution_note": "New source v1 HTML verified; scoped JS tests executed on authored function; no field test, independent peer review, full CI or contemporary numeric backbone.",
+  "execution_note": "Scoped exact JS checks executed; prospective design not field experiment. Full CI not run.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -542,10 +248,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Partial-credit bridge useful but no material field economic resolution; no duplicate notification.",
-  "publication_parent_commit": "a1a3a6ff04392cc9252562026e915fa4253e0802",
-  "current_proof_gap": "LWD independently evolving technical paths still differ in data/algorithm and apparent exposure; partial-credit mean does not identify full qualification or customer acceptance, actual resource occupancy, paid cost, continuation.",
-  "exact_next_action": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "quiet_checkpoint": true,
+  "publication_parent_commit": "e980ff0dbbad6211d677f37df80a06d4a2529d60",
+  "current_proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
+  "exact_next_action": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -563,7 +269,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T18:33:29.532Z",
+  "updated_at_utc": "2026-11-24T19:33:42.682Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -580,9 +286,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
-  "proof_gap": "LWD independently evolving technical paths still differ in data/algorithm and apparent exposure; partial-credit mean does not identify full qualification or customer acceptance, actual resource occupancy, paid cost, continuation.",
-  "next_action": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "exact_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
+  "proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
+  "next_action": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -648,7 +354,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "exact_intellectual_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -668,7 +374,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "exact_next": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -768,7 +474,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "LWD independently evolving technical paths still differ in data/algorithm and apparent exposure; partial-credit mean does not identify full qualification or customer acceptance, actual resource occupancy, paid cost, continuation.",
+  "next_proof_gap": "Retrospective report cannot certify lawful dispatch; no matched complete data program with original timely recipient acceptance, actual worker/compute costs, and rights.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -849,7 +555,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "current_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1105,7 +811,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "latest_questions": "Extend the same coupled reserve-demand schedule to learning-induced changes in call duration and dated queue occupancy. Derive valid dynamic upper/lower residual certificates with endogenous report dependence and carryover, testing when static order-statistic values can and cannot be transported. Connect the result to a concise source-to-qualified-production theorem/assumption synthesis and actual whole-pool evidence design rather than proliferating detached cases.",
+  "latest_questions": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_joint_original_parent": {
     "source": "research/theory_integration_2026_11_17/data_value/joint_original_parent.js",
     "source_blob": "9ac3dfd24fcbbc36f79f9ca32f09fa014928e82a",
@@ -1929,7 +1635,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Consolidate first-paper original-order recipient acceptance and resource/lineage evidence; seek matched complete commercial arms or externally supported bounds; obtain official contemporary numeric topology only by genuine new route. Distinguish complete-stage rubric from payable service and actual retry/worker cost.",
+  "next_question": "Consolidate a prospective whole-program matched original-order comparison with predecision versus retrospective congestion signals, actual recipient deadlines/fallback and paid occupation; seek independently followed technical lineage with these commercial outcomes or justified bounds. Preserve inexpensive routine logging and embodiment/access as countermodels. Contemporary official numerical topology remains separate.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -3775,5 +3481,42 @@
     ],
     "field_calibration": false,
     "full_repository_ci": false
+  },
+  "validation_recipient_dispatch_timing": {
+    "checks": 18357461,
+    "cases": 4587825,
+    "observed": {
+      "requests": 135,
+      "eligible": 122,
+      "completed": 108,
+      "classifiedFailures": 14,
+      "excluded": 13,
+      "completionEligible": 0.8852459016393442,
+      "completionOriginal": 0.8,
+      "blockageRestrictedCeiling": 0.06557377049180328,
+      "communicationRestrictedCeiling": 0.01639344262295082,
+      "corridorRestrictedCeiling": 0.03278688524590164,
+      "reportedOverall": 87.03,
+      "reportedLow": 95.52,
+      "roundedLowCandidateFractions": [
+        [
+          64,
+          67
+        ]
+      ],
+      "roundedOverallCandidateFractions": []
+    },
+    "synthetic": {
+      "noContinuation": {
+        "blind": 0.5,
+        "informed": 1.25
+      },
+      "failureContinuation": {
+        "blind": 1.5,
+        "informed": 1.5
+      }
+    },
+    "fieldCausalDataValue": false,
+    "fullRepositoryCI": false
   }
 }
