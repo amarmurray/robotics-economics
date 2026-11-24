@@ -1,0 +1,34 @@
+{
+  "checks": 257263,
+  "cases": 10110,
+  "synthetic": {
+    "h": [
+      2,
+      0
+    ],
+    "d": [
+      8,
+      8
+    ],
+    "totalReduction": 4,
+    "peakReductionBounds": [
+      0,
+      3
+    ],
+    "preOwned": 8,
+    "avoidedPurchaseBounds": [
+      0,
+      2
+    ]
+  },
+  "observed": {
+    "distanceReduction": 0.62,
+    "driveRequirementReduction": 0.31,
+    "reportedDriveSavingsUSD": 500000000,
+    "period": "2017–2020",
+    "conditionalDistanceShare": 0.5,
+    "actualShareIdentified": false
+  },
+  "fieldCausalDataValue": false,
+  "fullRepositoryCI": false
+}

@@ -2,70 +2,68 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "b0392b0713a1ce1bad675c4520eca3945f2b6ca3",
+  "research_input_commit": "edd1004fe472451384feef39384aead5c6c16a4a",
   "lease": {
     "run_id": "focused-evidence-2026-11-24T23:32:00.546Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T23:32:00.546Z",
     "expires_at_utc": "2026-11-25T00:32:00.546Z",
-    "reason": "Consolidate focused paper empirical evidence and seek independently costed whole-program comparison"
+    "reason": "Consolidate focused paper empirical evidence and seek independently costed whole-program comparison",
+    "released_at_utc": "2026-11-24T23:33:58.237Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed data value: compact whole-program validation and original demand selection; science OPEN",
+  "current_mode": "Policy-closed data value: focused empirical section and realizable capital savings; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COMPACT_VALIDATION_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_EMPIRICAL_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved as exact original blob d65aa7155ce701182c5693a2d512852c544b3153; main and backlog unchanged.",
-  "latest_result": "Integrated prospective validation protocol and public Cainiao inbound/selected delivery denominator; no matched economic learning effect.",
+  "preservation": "Prior released state preserved as exact original blob d3da8870e1086951fb6a47758d218075f4c7197b; main and backlog unchanged.",
+  "latest_result": "Focused evidence section: published deployed coordination-only comparator with reported drive cost avoidance, and sharp conditional peak-capacity/purchase bounds. Actual causal data-program value remains unidentified.",
   "validation": {
-    "checks": 1876,
-    "observed": {
-      "N": 7453438,
-      "D": 241517,
-      "delivered_share": 0.0324034358372606,
-      "reported_rounded_robot_share": 0.57,
-      "conditional_rounding_robot_count": [
-        136458,
-        138872
-      ],
-      "conditional_rounding_population_penetration": [
-        0.018308061326866878,
-        0.01863193871069968
-      ]
-    },
+    "checks": 257263,
+    "cases": 10110,
     "synthetic": {
-      "P": {
-        "n": 100000,
-        "d": 3000,
-        "r": 1710
-      },
-      "G_low": {
-        "n": 100000,
-        "d": 1000,
-        "r": 600
-      },
-      "G_high": {
-        "n": 100000,
-        "d": 4000,
-        "r": 2400
-      },
-      "conditional_robot_share": [
-        0.57,
-        0.6,
-        0.6
+      "h": [
+        2,
+        0
       ],
-      "robot_population_share": [
-        0.0171,
-        0.006,
-        0.024
+      "d": [
+        8,
+        8
+      ],
+      "totalReduction": 4,
+      "peakReductionBounds": [
+        0,
+        3
+      ],
+      "preOwned": 8,
+      "avoidedPurchaseBounds": [
+        0,
+        2
       ]
     },
-    "field_causal_data_value": false,
-    "full_repository_ci": false
+    "observed": {
+      "distanceReduction": 0.62,
+      "driveRequirementReduction": 0.31,
+      "reportedDriveSavingsUSD": 500000000,
+      "period": "2017–2020",
+      "conditionalDistanceShare": 0.5,
+      "actualShareIdentified": false
+    },
+    "fieldCausalDataValue": false,
+    "fullRepositoryCI": false,
+    "source_blob": "038def05dfde74c72d5bc59346496d98cee0a260",
+    "results_blob": "72e7007cea621e8da4c10a4e817d60bd2de874bd",
+    "scope": "Generated exact finite JS model executed in V8; analytic proof separately documented; independent remote replay and full CI not performed."
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
+    "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity.js",
+    "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity_results.json",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_EMPIRICAL_CAPACITY_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_EMPIRICAL_CAPACITY_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_EMPIRICAL_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
     "research/theory_integration_2026_11_17/data_value/compact_validation.js",
     "research/theory_integration_2026_11_17/data_value/compact_validation_results.json",
@@ -116,9 +114,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Compact validation protocol integrated; actual whole-arm causal comparison unidentified",
-      "question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
-      "deliverable": "Focused evidence section with supported whole-arm timely acceptance, actual costs and conditional bounds"
+      "status": "Focused empirical claim set drafted; matched learning-program comparison unidentified",
+      "question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+      "deliverable": "Focused contribution and Model A/B connection, matched whole-program evidence or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -143,15 +141,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Compact validation protocol integrated; actual whole-arm causal comparison unidentified",
-      "question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
-      "deliverable": "Focused evidence section with supported whole-arm timely acceptance, actual costs and conditional bounds"
+      "status": "Focused empirical claim set drafted; matched learning-program comparison unidentified",
+      "question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+      "deliverable": "Focused contribution and Model A/B connection, matched whole-program evidence or explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, conditional rubric and original-order screening bounds; lawful information certificate.",
-    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.",
-    "paper": "Compact evidence matrix with downstream clock/coverage and conditional moment/residual certificate; no matched causal economic effect.",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
+    "paper": "Focused empirical section drafted with bounded technical, resource, demand and deployed coordination evidence; no matched learning ROI.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -250,13 +248,14 @@
     "Lab and old courier/pharmacy studies read abstracts only; no original denominator, exact deadline CDF or causal data intervention identified. Illustrative deadline 120 and cap 200 not clinical/empirical; synthetic witnesses match selected numeric summaries only.",
     "Moment bounds standard elementary inequalities; no full CI, independent replay or field calibration. No new official numeric topology route.",
     "Fixed-count audit assumes exact independent terminal settlement count and known order-specific conditional net weights; uniform cost and nonadaptive design minimize worst interval width only. No real settlement audit, paired whole-program economic effect, full CI or new official numeric source.",
-    "Cainiao arXiv v1 selected HTML inspected; published inbound and delivery count and rounded robot fraction, selected price regression, no microdata, arm assignment, settlement/cost or learning histories. Nearest-integer rounding interval is conditional, no causal whole-population price response claimed."
+    "Cainiao arXiv v1 selected HTML inspected; published inbound and delivery count and rounded robot fraction, selected price regression, no microdata, arm assignment, settlement/cost or learning histories. Nearest-integer rounding interval is conditional, no causal whole-population price response claimed.",
+    "Amazon Allgor et al. report drive-cost savings, not net learning-program contribution; conditional peak-capacity bounds assume fixed qualified service, fungible dated drive clocks, no carryover and independently supported travel savings. Actual constraints, purchase costs and joint settlement/learning data unavailable."
   ],
   "last_notification": {
     "key": "20261124-cel-fleet-resource-clock",
     "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
-  "execution_note": "Scoped arithmetic executed in V8; compact prospective protocol integrated; no field causal estimate or full CI.",
+  "execution_note": "Bounded public evidence search and focused empirical synthesis; no new official numeric contemporary edge, no field experiment, no full repository CI. Lease released in this publication.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -273,9 +272,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": true,
-  "publication_parent_commit": "19c72506b668b581e2675b5df5ac081bb6f71403",
-  "current_proof_gap": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
-  "exact_next_action": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "publication_parent_commit": "ca79c8fab3f282cddd030372d0a1ff4272cb63b8",
+  "current_proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "exact_next_action": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -293,7 +292,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T22:32:49.144Z",
+  "updated_at_utc": "2026-11-24T23:33:58.237Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -310,9 +309,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
-  "proof_gap": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
-  "next_action": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "exact_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "next_action": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -378,7 +377,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "exact_intellectual_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -398,7 +397,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "exact_next": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -498,7 +497,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "next_proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -579,7 +578,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "current_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1659,7 +1658,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Seek lawful independently evolving whole-program original-order settlements, actual paid clocks and acquisition costs or independently justified residual/continuation envelopes. If not accessible, retain nonidentification and consolidate demonstrated components into focused first-paper empirical claims; no isolated extension solely for checkpoint. Contemporary official numeric topology only via new routes.",
+  "next_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -3681,5 +3680,42 @@
     },
     "field_causal_data_value": false,
     "full_repository_ci": false
+  },
+  "validation_focused_empirical_capacity": {
+    "checks": 257263,
+    "cases": 10110,
+    "synthetic": {
+      "h": [
+        2,
+        0
+      ],
+      "d": [
+        8,
+        8
+      ],
+      "totalReduction": 4,
+      "peakReductionBounds": [
+        0,
+        3
+      ],
+      "preOwned": 8,
+      "avoidedPurchaseBounds": [
+        0,
+        2
+      ]
+    },
+    "observed": {
+      "distanceReduction": 0.62,
+      "driveRequirementReduction": 0.31,
+      "reportedDriveSavingsUSD": 500000000,
+      "period": "2017–2020",
+      "conditionalDistanceShare": 0.5,
+      "actualShareIdentified": false
+    },
+    "fieldCausalDataValue": false,
+    "fullRepositoryCI": false,
+    "source_blob": "038def05dfde74c72d5bc59346496d98cee0a260",
+    "results_blob": "72e7007cea621e8da4c10a4e817d60bd2de874bd",
+    "scope": "Generated exact finite JS model executed in V8; analytic proof separately documented; independent remote replay and full CI not performed."
   }
 }

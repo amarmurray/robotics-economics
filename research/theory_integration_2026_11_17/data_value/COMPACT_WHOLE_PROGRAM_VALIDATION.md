@@ -1,3 +1,5 @@
+**24 November — focused first-paper empirical section and realizable capital savings.** [Draft section](FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md) consolidates supported claims, introduces the deployed Amazon scheduling alternative (62% reported travel reduction, 31% fewer required drives, approximately $500m reported direct drive-cost savings over 2017–20; not a data intervention), and gives conditional sharp peak-capacity and avoided-purchase bounds under fixed qualified service. A coordination-only alternative can defeat a costly learning premium. No matched complete-program economic learning effect, contemporary official numeric edge or independent novelty. Science gate OPEN; December25 Eastern unchanged.
+
 # Compact first-paper validation protocol: original demand, qualified service and learning programs
 
 24 November 2026. Integrates [policy-closed value](POLICY_CLOSED_DATA_VALUE.md), [common-checkpoint evidence](COMMON_CHECKPOINT_EVIDENCE_SYNTHESIS.md), [deadline evidence](EMPIRICAL_CORE_DEADLINE.md) and [weighted-order audits](WEIGHTED_ORDER_AUDIT.md). This is a proposed first-paper evidence protocol, not an additional stand-alone contribution.
