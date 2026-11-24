@@ -2,109 +2,52 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "4bfb7f164226cccda6a10a26cf9ec53e2a6ca740",
+  "research_input_commit": "a7248cca02e0374869774ee591df152023b61d3d",
   "lease": {
     "run_id": "matched-cost-20261124T143121Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T14:31:21Z",
     "expires_at_utc": "2026-11-24T15:46:21Z",
-    "reason": "Matched economic contrast and integrated empirical bridge"
+    "reason": "Matched economic contrast and integrated empirical bridge",
+    "released_at_utc": "2026-11-24T14:35:54.321Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Original service technical evidence, downstream economic partial identification, historical official topology slice; scientific gate OPEN",
+  "current_mode": "Policy-closed data value: field stage and costed service evidence, sharp conditional resource realization bounds; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FIELD_SERVICE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COSTED_SERVICE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state preserved by exact blob 79a7f06ed29b556d6475719c5a029244eea51a4d; backlog and main untouched.",
-  "latest_result": "Robin source composition and ranking evidence (reported Table II discrepancy flagged), Vulcan stage counts and sharp conditional common-H contrast; official historical 2009 BEA use slice.",
+  "preservation": "Prior released state preserved exactly as blob bc4fdeea0c61843f8ee5a72746d205cadb976a23; backlog and main unchanged.",
+  "latest_result": "Observed hospital operating metrics plus projected costs and ICU poster simulation; divergent abstract and poster cost ratios explicitly separated; sharp dated release exposure bounds and optional P preserved.",
   "validation": {
-    "checks": 6075,
-    "smallCases": 3024,
-    "observed_technical": {
-      "vulcan": {
-        "assigned": 6561,
-        "attempts": 5157,
-        "success": 4690,
-        "no_adaptation_reported": 4447,
-        "planning_rejections": 1270,
-        "nonattempt": 1404,
-        "attempt_success": 0.9094434748885011,
-        "assigned_success": 0.7148300563938425,
-        "reported_adaptation_delta_assigned": 0.037037037037037035,
-        "restricted_planning_ceiling": 0.19356805365035817,
-        "restricted_execution_ceiling": 0.07117817405883249,
-        "conditional_joint_overlap": [
-          3980,
-          4447
-        ],
-        "conditional_gains": [
-          243,
-          710
-        ],
-        "conditional_losses": [
-          0,
-          467
-        ],
-        "conditional_common_eligibility_467": [
-          -467,
-          467
-        ]
-      },
-      "robin": {
-        "baseline_success": 0.9501581391175613,
-        "learned_success_implied_by_failure_and_total_only": 0.9619758784825857,
-        "reported_success_count": 87700,
-        "reported_failed": 3427,
-        "reported_total": 90127,
-        "count_inconsistency": 1000,
-        "conditional_rate_difference": 0.011817739365024393,
-        "training_n": 394872,
-        "replaced_n": 41388,
-        "replacement_share": 0.10481371178508479
-      }
+    "checks": 30729,
+    "cases": 15360,
+    "source": "costed_service_exact.js",
+    "synthetic": {
+      "independent": [
+        -7,
+        9
+      ],
+      "nested": [
+        -3,
+        5
+      ]
     },
-    "historical_bea": [
-      {
-        "commodity": 334,
-        "industry": 333,
-        "use_million": 4403,
-        "output_million": 261908,
-        "intermediate": 149250,
-        "value_added": 112658,
-        "direct_use_per_dollar": 0.01681124669731356
-      },
-      {
-        "commodity": 334,
-        "industry": 334,
-        "use_million": 43825,
-        "output_million": 353273,
-        "intermediate": 146845,
-        "value_added": 206428,
-        "direct_use_per_dollar": 0.1240542017080275
-      },
-      {
-        "commodity": 334,
-        "industry": 335,
-        "use_million": 2862,
-        "output_million": 103591,
-        "intermediate": 51913,
-        "value_added": 51678,
-        "direct_use_per_dollar": 0.02762788273112529
-      }
-    ],
-    "field_economic_calibration": false,
-    "conditional_bounds_not_observed_effects": true,
+    "china_projected_payroll_threshold": 0.4515950288925829,
+    "poster_model_icer_NTD_per_hour": 1232.794059263002,
+    "abstract_reported_icer": 2984,
+    "field_data_program_contrast_identified": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/COSTED_SERVICE_RESOURCE_EXPOSURE.md",
+    "research/theory_integration_2026_11_17/data_value/costed_service_exact.js",
+    "research/theory_integration_2026_11_17/data_value/costed_service_results.json",
     "research/theory_integration_2026_11_17/data_value/FIELD_SERVICE_ECONOMIC_BRIDGE.md",
-    "research/theory_integration_2026_11_17/data_value/HISTORICAL_BEA_USE_EDGE.md",
-    "research/theory_integration_2026_11_17/data_value/field_service_exact.js",
-    "research/theory_integration_2026_11_17/data_value/field_service_results.json",
     "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_DATA_VALUE.md",
     "research/theory_integration_2026_11_17/data_value/POLICY_CLOSED_DATA_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/data_value/HISTORICAL_BEA_USE_EDGE.md",
     "research/theory_integration_2026_11_17/NOV22_INTEGRATED_SCIENTIFIC_GATE_AUDIT.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/DATA_VALUE_THEORY.md",
@@ -112,16 +55,16 @@
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_FIELD_SERVICE_RELEASED_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_COSTED_SERVICE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Named stage evidence and conditional bounds; paid contrast open",
-      "question": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
-      "deliverable": "Focused paper evidence bridge and actual downstream contrast or defensible bounds."
+      "status": "Costed service models and observed technical/operating evidence; matched data-program value open",
+      "question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+      "deliverable": "Compact first-paper empirical evidence and assumptions table; matched economic data contrast or justified bounds."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -146,16 +89,16 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Named stage evidence and conditional bounds; paid contrast open",
-      "question": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
-      "deliverable": "Focused paper evidence bridge and actual downstream contrast or defensible bounds."
+      "status": "Costed service models and observed technical/operating evidence; matched data-program value open",
+      "question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+      "deliverable": "Compact first-paper empirical evidence and assumptions table; matched economic data contrast or justified bounds."
     }
   ],
   "portfolio_status": {
-    "theory": "Conditional sharp stage-to-accepted-route contrast and fixed-path technical ceilings",
-    "atlas": "Robin and Vulcan measured production stages and 2009 historical official BEA use slice; current backbone absent",
-    "paper": "Policy-closed candidate with public technical evidence and missing economic contrast; Nov22 OPEN",
-    "learning": "Separate field evidence exercises and solutions",
+    "theory": "Sharp restricted dated release profile value bounds; policy-closed emulation and complete service framework retained",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent",
+    "paper": "Policy-closed candidate updated with costed-service empirical boundary; scientific gate OPEN",
+    "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
   "known_limitations": [
@@ -243,13 +186,15 @@
     "Uniform routine-data emulation and prefix/suffix bounds unmeasured. Synthetic P/G example assumes invariant H, independent X/E contribution and one paid slot. No field calibration, CI, independent novelty or scientific gate acceptance.",
     "Robin training composition and deployed ranking are different interventions; Table II learned row discrepancy 1000 retained, no repair; no causal data-only economic estimate.",
     "Vulcan PDF text checked, screenshot failed due size; no-adaptation comparison not established as randomized; common H and paired marginals hypothetical.",
-    "Historical 2009 BEA screenshot values are separate vintage; no current official matrix or BLS crosswalk."
+    "Historical 2009 BEA screenshot values are separate vintage; no current official matrix or BLS crosswalk.",
+    "Li et al. accepted unedited manuscript parsed; screenshot blocked. Observational operations and projected lifecycle costs are not causal data effects; 38-to-23 minute reduction differs from narrative range. ICU poster DES results differ from abstract and do not measure actual robot hours or redeployed output.",
+    "Restricted dated release theorem assumes common opportunity menu, identical service, additive independently capped hours and full nonduplicated costs; real complementary services, changing demand, capacity, rights and learning require full J."
   ],
   "last_notification": {
     "key": "20261124-field-denominator-historical-use",
     "content": "New named production data evidence and historical official use slice; paid program contrast remains unidentified."
   },
-  "execution_note": "Executed finite V8 checker and proof synthesis; no numerical BEA cell.",
+  "execution_note": "Exact generated JS executed in connected runtime with 30729 assertions across 15360 allocation cases; separate source-version audit, proofs, exercises, manuscript integration. No field experiments, full CI or novelty review.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -265,10 +210,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": false,
-  "publication_parent_commit": "7c4988ab7ab9f3dede614e9fada1545aab7599aa",
-  "current_proof_gap": "Published technical contrasts omit downstream receipt/time/manual recovery/costs; common H and paired technical outcomes are unverified restrictions.",
-  "exact_next_action": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
+  "quiet_checkpoint": "New costed-service evidence and restricted release exposure theorem integrated; no observed matched economic data contrast. No routine notification.",
+  "publication_parent_commit": "0c6ce6ee23dafe9b803001f4a5e0bb22b4e9fe39",
+  "current_proof_gap": "Hospital operating comparison and ICU cost simulation do not identify the matched P/G/E data intervention or actual net redeployment value; no joint accepted-service, dated worker and costs panel, no contemporary official BEA–BLS numeric join.",
+  "exact_next_action": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -286,7 +231,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T13:35:29.836Z",
+  "updated_at_utc": "2026-11-24T14:35:54.321Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -303,9 +248,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
-  "proof_gap": "Published technical contrasts omit downstream receipt/time/manual recovery/costs; common H and paired technical outcomes are unverified restrictions.",
-  "next_action": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
+  "exact_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+  "proof_gap": "Hospital operating comparison and ICU cost simulation do not identify the matched P/G/E data intervention or actual net redeployment value; no joint accepted-service, dated worker and costs panel, no contemporary official BEA–BLS numeric join.",
+  "next_action": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -371,7 +316,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
+  "exact_intellectual_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -391,7 +336,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
+  "exact_next": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -491,7 +436,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+  "next_proof_gap": "Hospital operating comparison and ICU cost simulation do not identify the matched P/G/E data intervention or actual net redeployment value; no joint accepted-service, dated worker and costs panel, no contemporary official BEA–BLS numeric join.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -572,7 +517,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Identify or bound a fixed-program P/G/E paid-service contrast on a named original service unit with lawful readiness/rights, deadlines, accepted contribution and whole-pool occupation; distinguish direct arm means from adaptive-policy identification. Continue official numeric topology separately.",
+  "current_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1652,7 +1597,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Identify actual dated downstream accepted-service, manual recovery occupancy, and net program costs for a named original request cohort or independently supported bounded whole-program P/G/E contrast. Integrate the field denominator and source-selection bridge into the focused paper; continue contemporary official numerical use/supply via genuinely new available route.",
+  "next_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -2734,6 +2679,105 @@
     ],
     "field_economic_calibration": false,
     "conditional_bounds_not_observed_effects": true,
+    "full_repository_ci": false
+  },
+  "validation_previous_field_service": {
+    "checks": 6075,
+    "smallCases": 3024,
+    "observed_technical": {
+      "vulcan": {
+        "assigned": 6561,
+        "attempts": 5157,
+        "success": 4690,
+        "no_adaptation_reported": 4447,
+        "planning_rejections": 1270,
+        "nonattempt": 1404,
+        "attempt_success": 0.9094434748885011,
+        "assigned_success": 0.7148300563938425,
+        "reported_adaptation_delta_assigned": 0.037037037037037035,
+        "restricted_planning_ceiling": 0.19356805365035817,
+        "restricted_execution_ceiling": 0.07117817405883249,
+        "conditional_joint_overlap": [
+          3980,
+          4447
+        ],
+        "conditional_gains": [
+          243,
+          710
+        ],
+        "conditional_losses": [
+          0,
+          467
+        ],
+        "conditional_common_eligibility_467": [
+          -467,
+          467
+        ]
+      },
+      "robin": {
+        "baseline_success": 0.9501581391175613,
+        "learned_success_implied_by_failure_and_total_only": 0.9619758784825857,
+        "reported_success_count": 87700,
+        "reported_failed": 3427,
+        "reported_total": 90127,
+        "count_inconsistency": 1000,
+        "conditional_rate_difference": 0.011817739365024393,
+        "training_n": 394872,
+        "replaced_n": 41388,
+        "replacement_share": 0.10481371178508479
+      }
+    },
+    "historical_bea": [
+      {
+        "commodity": 334,
+        "industry": 333,
+        "use_million": 4403,
+        "output_million": 261908,
+        "intermediate": 149250,
+        "value_added": 112658,
+        "direct_use_per_dollar": 0.01681124669731356
+      },
+      {
+        "commodity": 334,
+        "industry": 334,
+        "use_million": 43825,
+        "output_million": 353273,
+        "intermediate": 146845,
+        "value_added": 206428,
+        "direct_use_per_dollar": 0.1240542017080275
+      },
+      {
+        "commodity": 334,
+        "industry": 335,
+        "use_million": 2862,
+        "output_million": 103591,
+        "intermediate": 51913,
+        "value_added": 51678,
+        "direct_use_per_dollar": 0.02762788273112529
+      }
+    ],
+    "field_economic_calibration": false,
+    "conditional_bounds_not_observed_effects": true,
+    "full_repository_ci": false
+  },
+  "validation_costed_service_resource_exposure": {
+    "checks": 30729,
+    "cases": 15360,
+    "source": "costed_service_exact.js",
+    "synthetic": {
+      "independent": [
+        -7,
+        9
+      ],
+      "nested": [
+        -3,
+        5
+      ]
+    },
+    "china_projected_payroll_threshold": 0.4515950288925829,
+    "poster_model_icer_NTD_per_hour": 1232.794059263002,
+    "abstract_reported_icer": 2984,
+    "field_data_program_contrast_identified": false,
     "full_repository_ci": false
   }
 }

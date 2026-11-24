@@ -1,0 +1,44 @@
+{
+  "checks": 30729,
+  "cases": 15360,
+  "synthetic": {
+    "independent": [
+      -7,
+      9
+    ],
+    "nested": [
+      -3,
+      5
+    ],
+    "embodiment_increment": 2
+  },
+  "china": {
+    "manual_lifecycle_cny": 12633000,
+    "robot_lifecycle_cny": 5705000,
+    "claimed_net": 6928000,
+    "avoidance_break_even": 0.4515950288925829,
+    "net_40pct": -651800,
+    "net_50pct": 611500,
+    "geometric_labor": 12633195.001240756,
+    "trip_total": 78790
+  },
+  "poster": {
+    "manual_tasks_3days": 245,
+    "manual_cost": 527684,
+    "robot_cost": 1893965,
+    "manual_hours": 1233.78,
+    "robot_hours": 125.5,
+    "delta_cost": 1366281,
+    "hours_saved": 1108.28,
+    "icer": 1232.794059263002
+  },
+  "abstract": {
+    "program_cost_reported": 1650000,
+    "hours_saved_reported": 553,
+    "icer_reported": 2984,
+    "ratio_of_rounded_inputs": 2983.72513562387
+  },
+  "source_costs_are_model_not_observed": true,
+  "field_data_program_contrast_identified": false,
+  "full_repository_ci": false
+}
