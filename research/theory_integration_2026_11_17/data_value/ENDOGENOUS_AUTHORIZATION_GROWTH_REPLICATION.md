@@ -1,0 +1,3 @@
+# Replication
+
+Run `node endogenous_authorization_growth_exact.js` and compare stdout with `endogenous_authorization_growth_results.json`. Source executed in V8 before publication: 38409 scoped integer checks, 18404 cap-compatible grid cases. Independent Python Fraction enumeration of 13^3 common-law probability triples checked 13,396 assertions using explicit birth/service outcomes and the typed, batch and forced bounds. Finite checks validate arithmetic, not the stock-potential proof or field assumptions. No full repository CI, actual paid data, approved field trial, or independent scientific novelty. For the grid-sharp forced formula floor(k/2) appears because q lies on a 1/12 grid; the continuous formula is in the chapter.
