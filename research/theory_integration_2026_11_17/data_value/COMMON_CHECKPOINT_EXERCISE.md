@@ -1,0 +1,2 @@
+# Exercise — common checkpoint versus complete programs
+A C arm produces terminal net contribution 5 with training cost 1. H at the selected C checkpoint returns 4, but H at its own checkpoint has terminal contribution in [2,7] and cost 0. What is the sharp C−H interval? Does observed C checkpoint dominance establish investment dominance? What changes when C is a free optional policy rather than forced?

@@ -1,0 +1,2 @@
+# Solution — common checkpoint versus complete programs
+Net C=4. H's own continuation ranges from 2 to 7, so difference lies in [-3,2], attainable at endpoints. The common-checkpoint comparator does not measure H's own trajectory; its score cannot constrain the latter without a validated structural assumption. Optional C added without cost and without removing H cannot reduce the optimized value, even when forcing C would be inferior.

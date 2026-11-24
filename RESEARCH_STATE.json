@@ -2,44 +2,104 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "a7248cca02e0374869774ee591df152023b61d3d",
+  "research_input_commit": "63a755c9fa28b8a4902d8beaf76c933fef3f6ab6",
   "lease": {
     "run_id": "evidence-synthesis-20261124T153119Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T15:31:52.616Z",
     "expires_at_utc": "2026-11-24T16:46:52.616Z",
-    "reason": "Compact evidence synthesis and matched service search"
+    "reason": "Compact evidence synthesis and matched service search",
+    "released_at_utc": "2026-11-24T15:33:18.293Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed data value: field stage and costed service evidence, sharp conditional resource realization bounds; scientific gate OPEN",
+  "current_mode": "Policy-closed data value: compact evidence matrix and common-checkpoint versus complete-program identification; scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COSTED_SERVICE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COMMON_CHECKPOINT_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved exactly as blob bc4fdeea0c61843f8ee5a72746d205cadb976a23; backlog and main unchanged.",
-  "latest_result": "Observed hospital operating metrics plus projected costs and ICU poster simulation; divergent abstract and poster cost ratios explicitly separated; sharp dated release exposure bounds and optional P preserved.",
+  "preservation": "Prior released state preserved by original blob f692ee764111338be2bd733f1b06522b9df7ae29; backlog and main unchanged.",
+  "latest_result": "Compact first-paper evidence/assumptions matrix; VLAC-Cut paired common-checkpoint technical evidence with matched recovery counts; unsupported own-checkpoint continuation prevents closed-program inference.",
   "validation": {
-    "checks": 30729,
-    "cases": 15360,
-    "source": "costed_service_exact.js",
-    "synthetic": {
-      "independent": [
-        -7,
-        9
-      ],
-      "nested": [
-        -3,
-        5
-      ]
-    },
-    "china_projected_payroll_threshold": 0.4515950288925829,
-    "poster_model_icer_NTD_per_hour": 1232.794059263002,
-    "abstract_reported_icer": 2984,
-    "field_data_program_contrast_identified": false,
+    "checks": 21768,
+    "cases": 3840,
+    "observed_technical": [
+      {
+        "task": "refrigerator",
+        "round": 1,
+        "recovery_count": 201,
+        "curated_count": 100,
+        "throughput_difference": 5,
+        "success_pp": 10
+      },
+      {
+        "task": "refrigerator",
+        "round": 2,
+        "recovery_count": 242,
+        "curated_count": 117,
+        "throughput_difference": 9,
+        "success_pp": 20
+      },
+      {
+        "task": "microplate",
+        "round": 1,
+        "recovery_count": 168,
+        "curated_count": 173,
+        "throughput_difference": 2,
+        "success_pp": 5
+      },
+      {
+        "task": "microplate",
+        "round": 2,
+        "recovery_count": 134,
+        "curated_count": 116,
+        "throughput_difference": 17,
+        "success_pp": 30
+      },
+      {
+        "task": "test tube",
+        "round": 1,
+        "recovery_count": 352,
+        "curated_count": 142,
+        "throughput_difference": 1,
+        "success_pp": 10
+      },
+      {
+        "task": "test tube",
+        "round": 2,
+        "recovery_count": 300,
+        "curated_count": 141,
+        "throughput_difference": 9,
+        "success_pp": 25
+      },
+      {
+        "task": "stirrer",
+        "round": 1,
+        "recovery_count": 230,
+        "curated_count": 334,
+        "throughput_difference": 29,
+        "success_pp": 20
+      }
+    ],
+    "synthetic_worlds": [
+      {
+        "H_terminal": 0,
+        "C_terminal": 2,
+        "C_minus_H": 2
+      },
+      {
+        "H_terminal": 4,
+        "C_terminal": 2,
+        "C_minus_H": -2
+      }
+    ],
+    "field_economic_effect_identified": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/COMMON_CHECKPOINT_EVIDENCE_SYNTHESIS.md",
+    "research/theory_integration_2026_11_17/data_value/common_checkpoint_exact.js",
+    "research/theory_integration_2026_11_17/data_value/common_checkpoint_results.json",
     "research/theory_integration_2026_11_17/data_value/COSTED_SERVICE_RESOURCE_EXPOSURE.md",
     "research/theory_integration_2026_11_17/data_value/costed_service_exact.js",
     "research/theory_integration_2026_11_17/data_value/costed_service_results.json",
@@ -61,9 +121,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Costed service models and observed technical/operating evidence; matched data-program value open",
-      "question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
-      "deliverable": "Compact first-paper empirical evidence and assumptions table; matched economic data contrast or justified bounds."
+      "status": "Compact evidence matrix and common-checkpoint contrast integrated; complete economic program unidentified",
+      "question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+      "deliverable": "Whole-program comparative evidence or justified continuation bounds; focused empirical section."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -88,15 +148,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Costed service models and observed technical/operating evidence; matched data-program value open",
-      "question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
-      "deliverable": "Compact first-paper empirical evidence and assumptions table; matched economic data contrast or justified bounds."
+      "status": "Compact evidence matrix and common-checkpoint contrast integrated; complete economic program unidentified",
+      "question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
+      "deliverable": "Whole-program comparative evidence or justified continuation bounds; focused empirical section."
     }
   ],
   "portfolio_status": {
     "theory": "Sharp restricted dated release profile value bounds; policy-closed emulation and complete service framework retained",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent",
-    "paper": "Policy-closed candidate updated with costed-service empirical boundary; scientific gate OPEN",
+    "paper": "Compact first-paper evidence matrix and closed-program identification caveat; scientific gate OPEN",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -187,7 +247,8 @@
     "Vulcan PDF text checked, screenshot failed due size; no-adaptation comparison not established as randomized; common H and paired marginals hypothetical.",
     "Historical 2009 BEA screenshot values are separate vintage; no current official matrix or BLS crosswalk.",
     "Li et al. accepted unedited manuscript parsed; screenshot blocked. Observational operations and projected lifecycle costs are not causal data effects; 38-to-23 minute reduction differs from narrative range. ICU poster DES results differ from abstract and do not measure actual robot hours or redeployed output.",
-    "Restricted dated release theorem assumes common opportunity menu, identical service, additive independently capped hours and full nonduplicated costs; real complementary services, changing demand, capacity, rights and learning require full J."
+    "Restricted dated release theorem assumes common opportunity menu, identical service, additive independently capped hours and full nonduplicated costs; real complementary services, changing demand, capacity, rights and learning require full J.",
+    "VLAC-Cut preprint reports common-checkpoint comparisons and matched recovery trajectory counts, not independent closed-program arms or paid worker hours. The sharp unsupported-branch interval is synthetic and conditional; no recipient acceptance or actual economic effect. Parsed abs full text only, no PDF equivalence or independent replication."
   ],
   "last_notification": {
     "key": "20261124-field-denominator-historical-use",
@@ -209,10 +270,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "New costed-service evidence and restricted release exposure theorem integrated; no observed matched economic data contrast. No routine notification.",
-  "publication_parent_commit": "0c6ce6ee23dafe9b803001f4a5e0bb22b4e9fe39",
-  "current_proof_gap": "Hospital operating comparison and ICU cost simulation do not identify the matched P/G/E data intervention or actual net redeployment value; no joint accepted-service, dated worker and costs panel, no contemporary official BEA–BLS numeric join.",
-  "exact_next_action": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+  "quiet_checkpoint": "Evidence matrix and common-checkpoint technical comparator; no complete economic effect identified.",
+  "publication_parent_commit": "8392ebe5f83d8b323a90a40e1f9b8f463a478c76",
+  "current_proof_gap": "Common-checkpoint technical gains cannot identify H's own subsequent state continuation, nor economic value at the C checkpoint; need independent full-program histories or validated bounds and paid service.",
+  "exact_next_action": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -230,7 +291,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T14:35:54.321Z",
+  "updated_at_utc": "2026-11-24T15:33:18.293Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -248,8 +309,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
-  "proof_gap": "Hospital operating comparison and ICU cost simulation do not identify the matched P/G/E data intervention or actual net redeployment value; no joint accepted-service, dated worker and costs panel, no contemporary official BEA–BLS numeric join.",
-  "next_action": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+  "proof_gap": "Common-checkpoint technical gains cannot identify H's own subsequent state continuation, nor economic value at the C checkpoint; need independent full-program histories or validated bounds and paid service.",
+  "next_action": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -315,7 +376,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+  "exact_intellectual_question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -1596,7 +1657,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Consolidate the named-stage and costed service evidence into a compact first-paper evidence/assumptions table, including incompatible cost versions, and seek a matched source-program intervention with actual original recipient acceptance, dated worker occupancy and incremental costs or externally supported bounds. Continue official contemporary numeric topology only via new routes.",
+  "next_question": "Seek independently followed full-program learning arms with actual dated operator clocks, recipient acceptance and incremental costs or externally supported continuation bounds. Keep routine-data emulation as rival; contemporary official numeric topology remains separate.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -2777,6 +2838,82 @@
     "poster_model_icer_NTD_per_hour": 1232.794059263002,
     "abstract_reported_icer": 2984,
     "field_data_program_contrast_identified": false,
+    "full_repository_ci": false
+  },
+  "validation_common_checkpoint": {
+    "checks": 21768,
+    "cases": 3840,
+    "observed_technical": [
+      {
+        "task": "refrigerator",
+        "round": 1,
+        "recovery_count": 201,
+        "curated_count": 100,
+        "throughput_difference": 5,
+        "success_pp": 10
+      },
+      {
+        "task": "refrigerator",
+        "round": 2,
+        "recovery_count": 242,
+        "curated_count": 117,
+        "throughput_difference": 9,
+        "success_pp": 20
+      },
+      {
+        "task": "microplate",
+        "round": 1,
+        "recovery_count": 168,
+        "curated_count": 173,
+        "throughput_difference": 2,
+        "success_pp": 5
+      },
+      {
+        "task": "microplate",
+        "round": 2,
+        "recovery_count": 134,
+        "curated_count": 116,
+        "throughput_difference": 17,
+        "success_pp": 30
+      },
+      {
+        "task": "test tube",
+        "round": 1,
+        "recovery_count": 352,
+        "curated_count": 142,
+        "throughput_difference": 1,
+        "success_pp": 10
+      },
+      {
+        "task": "test tube",
+        "round": 2,
+        "recovery_count": 300,
+        "curated_count": 141,
+        "throughput_difference": 9,
+        "success_pp": 25
+      },
+      {
+        "task": "stirrer",
+        "round": 1,
+        "recovery_count": 230,
+        "curated_count": 334,
+        "throughput_difference": 29,
+        "success_pp": 20
+      }
+    ],
+    "synthetic_worlds": [
+      {
+        "H_terminal": 0,
+        "C_terminal": 2,
+        "C_minus_H": 2
+      },
+      {
+        "H_terminal": 4,
+        "C_terminal": 2,
+        "C_minus_H": -2
+      }
+    ],
+    "field_economic_effect_identified": false,
     "full_repository_ci": false
   }
 }

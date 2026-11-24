@@ -1,0 +1,76 @@
+{
+  "checks": 21768,
+  "cases": 3840,
+  "observed_technical": [
+    {
+      "task": "refrigerator",
+      "round": 1,
+      "recovery_count": 201,
+      "curated_count": 100,
+      "throughput_difference": 5,
+      "success_pp": 10
+    },
+    {
+      "task": "refrigerator",
+      "round": 2,
+      "recovery_count": 242,
+      "curated_count": 117,
+      "throughput_difference": 9,
+      "success_pp": 20
+    },
+    {
+      "task": "microplate",
+      "round": 1,
+      "recovery_count": 168,
+      "curated_count": 173,
+      "throughput_difference": 2,
+      "success_pp": 5
+    },
+    {
+      "task": "microplate",
+      "round": 2,
+      "recovery_count": 134,
+      "curated_count": 116,
+      "throughput_difference": 17,
+      "success_pp": 30
+    },
+    {
+      "task": "test tube",
+      "round": 1,
+      "recovery_count": 352,
+      "curated_count": 142,
+      "throughput_difference": 1,
+      "success_pp": 10
+    },
+    {
+      "task": "test tube",
+      "round": 2,
+      "recovery_count": 300,
+      "curated_count": 141,
+      "throughput_difference": 9,
+      "success_pp": 25
+    },
+    {
+      "task": "stirrer",
+      "round": 1,
+      "recovery_count": 230,
+      "curated_count": 334,
+      "throughput_difference": 29,
+      "success_pp": 20
+    }
+  ],
+  "synthetic_worlds": [
+    {
+      "H_terminal": 0,
+      "C_terminal": 2,
+      "C_minus_H": 2
+    },
+    {
+      "H_terminal": 4,
+      "C_terminal": 2,
+      "C_minus_H": -2
+    }
+  ],
+  "field_economic_effect_identified": false,
+  "full_repository_ci": false
+}
