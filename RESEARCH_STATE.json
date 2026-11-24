@@ -2,45 +2,37 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "cd7131aaa40469d5a5df006987e7dfaf9a0443cc",
+  "research_input_commit": "cc4f97b80fdcbaa91acffe09e02afba93ed0bd5d",
   "lease": {
     "run_id": "resource-incidence-2026-11-24T07:31:55.016Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-24T07:31:55.016Z",
     "expires_at_utc": "2026-11-24T08:46:55.016Z",
-    "reason": "Resource incidence transport and production graph valuation"
+    "reason": "Publish resource incidence transport proof, synthetic model, evidence and teaching",
+    "released_at_utc": "2026-11-24T07:34:22.212Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Qualified production graph exchange and sequential discovery; Nov22 scientific gate OPEN",
+  "current_mode": "Learning-induced dated resource incidence; Nov22 scientific gate OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_GRAPH_EXCHANGE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_RESOURCE_INCIDENCE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released root state archived byte-identically at research/theory_integration_2026_11_17/data_value/PRE_GRAPH_EXCHANGE_RELEASED_STATE.json (blob 6eccd6c8c1eee9deabe9710290337a599f310606); own active lease at ec01ceb1728969ea13d327be87a4cf3d0d57aeee in ancestry. Older state and backlog preserved; main and other tasks untouched.",
-  "latest_result": "Retained-schedule weight drift plus maximum feasible exchange exactly decomposes graph expansion. Shared resource rows define coupled exchange components. Two optional probes create a matching augmentation only jointly: identical marginal discovery rates give G increments 0, 1/16, 5/16 versus X=1/8 and independently staffed E=1/4; x>7/16 certifies G>E. Strengthening old production crowds out incremental discovery; one procurement slot destroys it. Dynamic residual audit and graph closure, prospective evidence and exact synthetic tests; no field calibration or novelty claim. ",
+  "preservation": "Previous released root state preserved byte-identically at research/theory_integration_2026_11_17/data_value/PRE_RESOURCE_INCIDENCE_RELEASED_STATE.json (blob be650b48619cd081b2902751b1354dd6cd93d0ce); prior archived state and backlog unchanged. Main untouched.",
+  "latest_result": "Finite-change weak-dual transport with explicit old relaxation gap and common-menu opportunity deficit; matched dated buyer alignment rather than aggregate operator release determines feasible incremental production. Same marginals G=0,5/4,11/4 vs E=3/2, threshold a>7/12. Prospective joint audit; no real field evidence.",
   "validation": {
-    "scope": "V8 generated-source function checks; no full CI or independent remote replay",
     "synthetic": true,
-    "assertions": 120137,
-    "graphCases": 6561,
-    "probabilityLaws": 969,
-    "grounding": [
-      0,
-      0.0625,
-      0.3125
-    ],
-    "strengthening": 0.125,
-    "independentEmbodiment": 0.25,
-    "groundingThresholdIntersection": 0.4375,
-    "combinedGroundingIncrementWhenStrengthened": 0.25
+    "assertions": 17220,
+    "cases": 3136,
+    "laws": 2925,
+    "scope": "Generated JS function executed in V8; full CI and independent remote replay not performed."
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/RESOURCE_INCIDENCE_TRANSPORT.md",
+    "research/theory_integration_2026_11_17/data_value/RESOURCE_INCIDENCE_EVIDENCE.md",
+    "research/theory_integration_2026_11_17/data_value/resource_incidence_exact.js",
+    "research/theory_integration_2026_11_17/data_value/resource_incidence_results.json",
     "research/theory_integration_2026_11_17/data_value/GRAPH_EXCHANGE_DISCOVERY.md",
-    "research/theory_integration_2026_11_17/data_value/GRAPH_EXCHANGE_EVIDENCE.md",
-    "research/theory_integration_2026_11_17/data_value/graph_exchange_exact.js",
-    "research/theory_integration_2026_11_17/data_value/graph_exchange_results.json",
-    "research/theory_integration_2026_11_17/data_value/JOINT_LINEAGE_PROCUREMENT.md",
     "research/theory_integration_2026_11_17/NOV22_INTEGRATED_SCIENTIFIC_GATE_AUDIT.md",
     "research/theory_integration_2026_11_17/THEORY_MANUSCRIPT.md",
     "research/theory_integration_2026_11_17/DATA_VALUE_THEORY.md",
@@ -48,15 +40,15 @@
     "THEORY_PHASE.md",
     "research/theory/milestones.md",
     "RESEARCH_EXECUTION.md",
-    "research/theory_integration_2026_11_17/data_value/PRE_GRAPH_EXCHANGE_RELEASED_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_RESOURCE_INCIDENCE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json"
   ],
   "queue": [
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Graph exchange discovery and strengthening derived; dynamic resource incidence transport open. Nov22 gate OPEN.",
-      "question": "Which minimum original-buyer/incident/qualification audits with lawful action support permit implementable dynamic P/G/E/R decisions under joint customer/worker responses?",
+      "status": "Dated resource incidence transport certificate derived; joint stochastic load and successor license feasibility open.",
+      "question": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
       "deliverable": "Single nonrectangular policy/whole-program identified set with safe old menu, trained technical qualification, real buyer paid outcomes and worker conservation; compare extra source data, target grounding and independently staffed embodiment, then validate against approved matched evidence and official BEA numerical topology."
     },
     {
@@ -88,10 +80,10 @@
     }
   ],
   "portfolio_status": {
-    "theory": "Joint lineage conversion and shared procurement: conditional joint-generation support-function potential with signed interaction features, exact old/new controller complementarity reversal and sharp report-conditioned bounds. Same q=1/2, m=s=5/16, different predecision report-success coupling gives G−R=7/8 or 17/16 vs E−R=1. Uniform joint cap m≤1/4 gives G−R≤3/4. Singleton additive predictor fails, shared procurement conserves downstream displacement. Prospective matched whole-program audit, no actual field calibration or novelty claim.",
+    "theory": "Finite-change weak-dual transport with explicit old relaxation gap and common-menu opportunity deficit; matched dated buyer alignment rather than aggregate operator release determines feasible incremental production. Same marginals G=0,5/4,11/4 vs E=3/2, threshold a>7/12. Prospective joint audit; no real field evidence.",
     "atlas": "Prospective joint lineage and buyer procurement accounting; official numerical BEA edge and original buyer panel still absent.",
-    "paper": "Joint conversion mechanism integrated; scientific gate OPEN.",
-    "learning": "Exact integer model and separate exercises and solutions.",
+    "paper": "Resource-incidence certificate integrated into living manuscript and scientific audit; gates OPEN.",
+    "learning": "Resource incidence chapter, model, separate exercises and solutions.",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
   "known_limitations": [
@@ -178,7 +170,7 @@
     "key": "20261117-productive-teleoperation-ordering",
     "content": "Substantial user-directed synthesis: productive teleoperation can create current service, future capability and information that changes the next data acquisition. General policy formula, exact noisy example, Gaussian alternative and free-routine-data counterexample integrated; empirical discrimination and the next intervention-selection proof gap recorded. Do not repeat as a routine hourly notice."
   },
-  "execution_note": "Executed exact V8 model and independent Python Fraction enumeration; published conditional lineage potential, selective audit counterexample and prospective evidence. No field evidence or full CI.",
+  "execution_note": "Executed generated source function on V8; stored exact corresponding source and results. Prospective evidence only; no independent replay/full CI.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -194,10 +186,10 @@
     "independent_peer_review": false,
     "empirical_calibration": false
   },
-  "quiet_checkpoint": "Graph-exchange theorem, synthetic probe example, evidence protocol and teaching; routine continuation.",
-  "publication_parent_commit": "ec01ceb1728969ea13d327be87a4cf3d0d57aeee",
-  "current_proof_gap": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
-  "exact_next_action": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "quiet_checkpoint": "Resource incidence proof and synthetic dated release countermodel; routine continuation, no push notification.",
+  "publication_parent_commit": "9e88157af1238eb83807a2ec12a5a4adc2bbc3ac",
+  "current_proof_gap": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
+  "exact_next_action": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -215,7 +207,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T06:34:47.738Z",
+  "updated_at_utc": "2026-11-24T07:34:22.212Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -232,9 +224,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
-  "proof_gap": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
-  "next_action": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "exact_question": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
+  "proof_gap": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
+  "next_action": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -300,7 +292,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "exact_intellectual_question": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -320,7 +312,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "exact_next": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -420,7 +412,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "next_proof_gap": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -501,7 +493,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "current_question": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1581,7 +1573,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Extend graph exchange valuation to controller changes that alter resource incidences themselves (operator substitution, queue duration, shared procurement and rights); derive a common feasible-menu transport or counterfactual resource-release certificate with observable graph-level audits, distinguishing discovering from physically creating edges.",
+  "next_question": "Extend dated resource release to correlated random load trajectories under simultaneous learned variants sharing recovery/inspection: derive a joint pathwise or safely adaptive load and successor-license certificate, distinguishing expected hours from feasible dated capacity and preserving original buyer denominator and independent E comparison.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -2396,5 +2388,12 @@
     "independentEmbodiment": 0.25,
     "groundingThresholdIntersection": 0.4375,
     "combinedGroundingIncrementWhenStrengthened": 0.25
+  },
+  "validation_resource_incidence": {
+    "synthetic": true,
+    "assertions": 17220,
+    "cases": 3136,
+    "laws": 2925,
+    "scope": "Generated JS function executed in V8; full CI and independent remote replay not performed."
   }
 }
