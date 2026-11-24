@@ -1,0 +1,55 @@
+{
+  "assertions": 147573,
+  "cases": 2500,
+  "laws": 47905,
+  "den": 1024,
+  "oldPoolGross": 2,
+  "oldReserveNet": -0.375,
+  "rows": [
+    {
+      "j": 0,
+      "expectedCalls": 0.75,
+      "poolGross": 2.625,
+      "G": -0.125,
+      "trainedVersion": 0.125,
+      "GK": 0.125,
+      "E": 0.0625,
+      "crossDifference": 0.625,
+      "best": "G+K"
+    },
+    {
+      "j": 0.015625,
+      "expectedCalls": 0.75,
+      "poolGross": 2.5625,
+      "G": -0.125,
+      "trainedVersion": 0.0625,
+      "GK": 0.0625,
+      "E": 0.0625,
+      "crossDifference": 0.5625,
+      "best": "tie"
+    },
+    {
+      "j": 0.15625,
+      "expectedCalls": 0.75,
+      "poolGross": 2,
+      "G": -0.125,
+      "trainedVersion": -0.5,
+      "GK": -0.5,
+      "E": 0.0625,
+      "crossDifference": 0,
+      "best": "E"
+    },
+    {
+      "j": 0.375,
+      "expectedCalls": 0.75,
+      "poolGross": 1.125,
+      "G": -0.125,
+      "trainedVersion": -1.375,
+      "GK": -0.75,
+      "E": 0.0625,
+      "crossDifference": -0.25,
+      "best": "E"
+    }
+  ],
+  "scope": "synthetic exact integer enumeration, retained ex ante old version; no full CI or field evidence"
+}

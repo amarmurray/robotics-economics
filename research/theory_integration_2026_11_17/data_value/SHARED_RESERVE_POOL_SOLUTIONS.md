@@ -1,0 +1,7 @@
+# Solutions — shared reserve and controller learning
+
+1. 4 then 2. Choose lambda=2: lambda+(4-2)=4. Isolated positive sum 6 bounds this exact additive value; a positive joint payoff omitted by the isolated model can violate it, so a residual upper bound is required.
+2. With p_A=p_B=3/8, Frechet gives [0,3/8]. Expected calls 3/4. Gross pool (7/2)(3/4-2j)+3j=21/8-4j; subtract training, fixed reserve, and idle drift for the trained-version 1/8-4j. Including the retained old reserve version after training gives max(1/8-4j,-3/4). Identical isolated audits do not identify j or the pooled simultaneous premium. E=1/16 wins when j>1/64.
+3. The kth order statistic is increasing in each coordinate, including after taking positive parts. But disjoint G makes the first worker useful with probability 3/4 at lower premium 7/2, versus old probability 1/2 at 4; synchronized G reverses it. Marginal rates alone do not fix order statistics.
+4. Increments 0 then 3, not concave. Need evidence bounding positive joint contribution D (and physical joint admission), or a complete recipe-level price relaxation including the bundle. Merely summing isolated zero values is invalid.
+5. Each action-specific conditional continuation error is at most beta epsilon by expectation monotonicity; subtracting yields at most 2 beta epsilon. The old policy remains a feasible option if free data availability leaves costs, rights and old actions unchanged; paying for training or forced use is different.
