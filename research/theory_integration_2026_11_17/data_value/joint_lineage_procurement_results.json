@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "assertions": 13314,
+  "grid_laws": 4845,
+  "denominator": 128,
+  "original_compatible_mass": "1/2",
+  "success_mass": "5/16",
+  "report_positive_mass": "5/16",
+  "uninformative_intersection": "25/128",
+  "perfect_intersection": "5/16",
+  "gain_before_cost": [
+    1.375,
+    1.5625
+  ],
+  "grounding_increment": [
+    0.875,
+    1.0625
+  ],
+  "independent_embodiment_increment": 1,
+  "cap_one_quarter_grounding_upper": 0.75,
+  "free_routine_increment": 1.375,
+  "known_success_compatible_value": 11,
+  "incompatible_value": 6
+}
