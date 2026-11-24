@@ -1,0 +1,75 @@
+{
+  "synthetic": true,
+  "checks": 25052,
+  "rows": [
+    {
+      "N": 16,
+      "units": "1/128",
+      "count": 75,
+      "auditCount": 4,
+      "minG": 576,
+      "maxG": 768,
+      "minE": 672,
+      "maxE": 864,
+      "minD": -288,
+      "maxD": 96,
+      "minAudit": 10,
+      "witness": {
+        "x": 11,
+        "e": 9,
+        "z": 1,
+        "dg": -1,
+        "de": 1,
+        "db": -2
+      }
+    },
+    {
+      "N": 32,
+      "units": "1/256",
+      "count": 405,
+      "auditCount": 10,
+      "minG": 1152,
+      "maxG": 1536,
+      "minE": 1344,
+      "maxE": 1728,
+      "minD": -576,
+      "maxD": 192,
+      "minAudit": 20,
+      "witness": {
+        "x": 22,
+        "e": 18,
+        "z": 2,
+        "dg": -1,
+        "de": 1,
+        "db": -2
+      }
+    },
+    {
+      "N": 64,
+      "units": "1/512",
+      "count": 2601,
+      "auditCount": 35,
+      "minG": 2304,
+      "maxG": 3072,
+      "minE": 2688,
+      "maxE": 3456,
+      "minD": -1152,
+      "maxD": 384,
+      "minAudit": 40,
+      "witness": {
+        "x": 44,
+        "e": 36,
+        "z": 4,
+        "dg": -1,
+        "de": 1,
+        "db": -2
+      }
+    }
+  ],
+  "exact_continuous_base_difference": [
+    "-9/4",
+    "3/4"
+  ],
+  "sharp_drift_audit_lower": "5/64",
+  "separate_rectangle_lower": "3/64"
+}

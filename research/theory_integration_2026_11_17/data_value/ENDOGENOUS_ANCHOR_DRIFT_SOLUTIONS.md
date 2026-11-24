@@ -1,0 +1,7 @@
+# Solutions — endogenous anchors
+
+1. In W=1, the H mass is 1/2 and the R mass is x. Subtract z from the H mass to obtain R=H=1, then complete the other cells by subtraction. Outside W=1 the R mass is 3/4-x, total 1/4. Matching R and W marginals does not fix their intersection.
+2. At x=1/2,e=3/4,z=0 the difference is -9/4. At x=3/4,e=1/2,z=0 it is 3/4. The atom construction proves feasible marginals; their product gives one common type distribution. G can win through retained paid A renewal even with no incremental B dispatch.
+3. Worst coefficients contribute -(x+e)/8-z/4. Worker conservation x+z<=3/4 and audit e<=x-1/8 give x+e<=11/8-2z. Substitute to obtain -11/64+4z>=5/64. At x=11/16,e=9/16,z=1/16 with the adverse coefficient endpoints all inequalities bind. Independent upper bounds x,e<=3/4 produce 3/64.
+4. Fixed known prices require only the contrast linear combination. For varying common prices, independent coordinates x-e and z are sufficient and rank two necessary for linear summaries over the relative interior; arm-specific A prices require x,e,z. State-varying prices require weighted paid-outcome moments or justified bounds.
+5. Shared E yields 7/4+4e<=19/4 below P=5; the committed investment is not needed. Free P must reproduce the entire relevant menu, customer/backlog response, report timing and rights, and feasible continuation without G's incremental cost, not merely match quantity of data.
