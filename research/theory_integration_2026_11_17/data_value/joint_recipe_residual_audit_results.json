@@ -1,0 +1,30 @@
+{
+  "checks": 24940,
+  "cases": 900,
+  "factorialCases": 625,
+  "example": {
+    "incumbent": 6,
+    "singletons": [
+      0,
+      0
+    ],
+    "divisiblePortfolio": [
+      8,
+      10
+    ],
+    "indivisiblePortfolio": [
+      6,
+      10
+    ],
+    "expandedResidual": [
+      0,
+      2
+    ],
+    "netAtCost3": [
+      -1,
+      1
+    ]
+  },
+  "field_calibration": false,
+  "full_repository_ci": false
+}

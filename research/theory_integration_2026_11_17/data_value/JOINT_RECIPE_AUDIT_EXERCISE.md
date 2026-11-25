@@ -1,0 +1,2 @@
+# Exercise: a decision-specific recipe audit
+In the two-order example of the joint recipe residual chapter, compute both h_A and h_B at p=(2,0,4) for the two menus. Give a feasible expanded schedule for each in the divisible model. What changes if orders are indivisible? Why is a sample of low residuals not an upper certificate? With fixed-exposure net returns 2 and independently evolving net returns 5, what can the interaction 3 establish and what extra restrictions are required to interpret it as mediated data value?

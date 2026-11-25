@@ -2,54 +2,61 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "a81d6bf8c2ed2115a81df799c42c8ae1b192127e",
+  "research_input_commit": "f603123c4235ba8f5be69b6076cc4fa247fdf526",
   "lease": {
     "run_id": "joint-portfolio-audit-20261125T1031Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T10:31:00.398Z",
     "expires_at_utc": "2026-11-25T11:46:00.398Z",
-    "reason": "Joint portfolio audit and dynamic exposure identification"
+    "reason": "Joint portfolio audit and dynamic exposure identification",
+    "released_at_utc": "2026-11-25T10:33:01.360Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Integrated qualified recipe topology and portfolio MPK; evidence/independent science OPEN",
+  "current_mode": "Decision-specific portfolio qualification and exposure audit; empirical science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MULTI_RESOURCE_MPK_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_JOINT_RECIPE_AUDIT_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved using original blob ec01b2e6c52972adcd50cebf3efdc5c09f550e96; main and backlog untouched.",
-  "latest_result": "Multi-input recipe LP: finite dual-plane slack, local optimal-price-face portfolio aggregation iff common minimizing prices; same singleton MPK and baseline can hide joint portfolio return enabled by learned shared inspection release.",
+  "preservation": "Prior released state archived by original blob 5de9088f5c671be0963572024d35fa4e041c704f; main and backlog unchanged.",
+  "latest_result": "Per-original-order joint recipe residual certificate with omitted-menu ceilings and feasible witnesses; identical resource-coordinate marginals conceal opposite portfolio returns; controlled retention interaction separates fixed exposure from evolving program.",
   "validation": {
-    "checks": 8805,
-    "cases": 400,
-    "seed": 73939,
-    "portfolio": {
-      "P": [
-        6,
-        6,
-        6,
-        6
+    "checks": 24940,
+    "cases": 900,
+    "factorialCases": 625,
+    "example": {
+      "incumbent": 6,
+      "singletons": [
+        0,
+        0
       ],
-      "G": [
-        6,
-        6,
+      "divisiblePortfolio": [
+        8,
+        10
+      ],
+      "indivisiblePortfolio": [
         6,
         10
       ],
-      "cost_per_body": 1.5,
-      "grounding_cost": 0.5,
-      "net_combined_G": 0.5
+      "expandedResidual": [
+        0,
+        2
+      ],
+      "netAtCost3": [
+        -1,
+        1
+      ]
     },
-    "finite_substitution": [
-      2,
-      3,
-      3,
-      3
-    ],
     "field_calibration": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/JOINT_RECIPE_RESIDUAL_AUDIT.md",
+    "research/theory_integration_2026_11_17/data_value/joint_recipe_residual_audit.js",
+    "research/theory_integration_2026_11_17/data_value/joint_recipe_residual_audit_results.json",
+    "research/theory_integration_2026_11_17/data_value/JOINT_RECIPE_AUDIT_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/JOINT_RECIPE_AUDIT_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_JOINT_RECIPE_AUDIT_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/MULTI_RESOURCE_MPK_PORTFOLIO.md",
     "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
@@ -160,9 +167,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Generalized LP price-face and portfolio aggregation integrated; matched joint economic evidence open",
-      "question": "Establish a minimally informative joint audit of qualified original-order recipe incidence and portfolio capacity response under fixed exposure, then distinguish it from the induced lawful source-specific exposure/qualification trajectory in independently evolving P/G/E and coordination arms. Seek matched commercial evidence or retain partial identification; retrieve official numeric tables only through genuinely usable source routes.",
-      "deliverable": "Compact whole-program validation and conservative jointly supported portfolio/learning comparisons or explicit nonidentification"
+      "status": "Conditional decision-specific joint recipe audit and controlled exposure interaction derived; real residual ceilings and field panel open",
+      "question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+      "deliverable": "Integrated first-paper decision audit with supported fixed-exposure and independently evolving program bounds, or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -187,15 +194,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Generalized LP price-face and portfolio aggregation integrated; matched joint economic evidence open",
-      "question": "Establish a minimally informative joint audit of qualified original-order recipe incidence and portfolio capacity response under fixed exposure, then distinguish it from the induced lawful source-specific exposure/qualification trajectory in independently evolving P/G/E and coordination arms. Seek matched commercial evidence or retain partial identification; retrieve official numeric tables only through genuinely usable source routes.",
-      "deliverable": "Compact whole-program validation and conservative jointly supported portfolio/learning comparisons or explicit nonidentification"
+      "status": "Conditional decision-specific joint recipe audit and controlled exposure interaction derived; real residual ceilings and field panel open",
+      "question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+      "deliverable": "Integrated first-paper decision audit with supported fixed-exposure and independently evolving program bounds, or explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Qualified network cut geometry (restricted), dynamic exposure decomposition and feasible-policy comparison; multiresource aggregation open",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact draft now contains restricted flow cut and general multi-input LP price-face bridge, joint capital returns and full-program validation; field identification still open.",
+    "paper": "Compact first-paper includes qualified production, portfolio MPK, joint recipe residual decision audit and controlled exposure factorial; field evidence absent.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -302,10 +309,11 @@
     "Top-K envelope requires predispatch observable joint qualification, fixed nonnegative unit-resource contribution, known integer interchangeable slots and no other constraints; arbitrary shared learner trajectories/latent qualification/queues need full J. Separate-arm contrast extrema are not sharp under unspecified cross-arm constraints. No field calibration. BEA API route verified only at catalog level.",
     "Nonoptimal-dispatch envelope requires fixed unit-resource recipes, S subset A, invariant potential readiness/payoffs within a window and common costs. No known dispatch-policy restrictions beyond selection feasibility; oracle may not be implementable. No dynamic or empirical extrapolation.",
     "Network MPK exact only for homogeneous accepted single-commodity flow with valid dated capacities and fixed contribution; scalar exposure example assumes monotone deterministic learning. BEA May 2026 TiVA supporting table route identified but no numeric edge/crosswalk retrieved; no field calibration.",
-    "Multi-resource local MPK assumes fixed finite divisible qualified recipes and positive capacities. Dual prices are not observed market payments, finite cross-effects have no universal sign, and integer/dynamic comparisons require separate valid policy bounds. Official concordance XLSX reader and direct download failed; numeric 2024 supporting table unavailable."
+    "Multi-resource local MPK assumes fixed finite divisible qualified recipes and positive capacities. Dual prices are not observed market payments, finite cross-effects have no universal sign, and integer/dynamic comparisons require separate valid policy bounds. Official concordance XLSX reader and direct download failed; numeric 2024 supporting table unavailable.",
+    "Joint recipe residual upper needs complete support or independent uniform upper coverage of missing lawful recipes; sampled maxima are lower bounds. Integer LP gap and counterfactual history support remain. No actual matched original-order panel or contemporary official numeric edge."
   ],
   "last_notification": "2026-11-25 Eastern: shared-resource qualification can change joint robotic capital returns while every separate measured marginal and incumbent output are unchanged; local aggregation iff common minimizing price, conditional theory.",
-  "execution_note": "Scoped numerical primal/dual vertex enumeration executed in connected JS with stated tolerances; no full CI, independent replay or field evidence.",
+  "execution_note": "Generated scoped JS executed in connected V8; no full CI, independent replay or field calibration. Bounded publisher abstract review. Prior state archived.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -322,9 +330,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
-  "publication_parent_commit": "9d05a80596bc5c2af7f946ed73d2650cbe1c1b08",
-  "current_proof_gap": "General fixed-recipe divisible LP geometry established; integer and history-dependent learning/market/rights changes require feasible-policy witnesses and action-uniform continuation bounds. Joint incidence and predispatch qualification remain unobserved.",
-  "exact_next_action": "Establish a minimally informative joint audit of qualified original-order recipe incidence and portfolio capacity response under fixed exposure, then distinguish it from the induced lawful source-specific exposure/qualification trajectory in independently evolving P/G/E and coordination arms. Seek matched commercial evidence or retain partial identification; retrieve official numeric tables only through genuinely usable source routes.",
+  "publication_parent_commit": "ac5dc3fa0726e82202055973d1fee5098ba80fad",
+  "current_proof_gap": "Need independently justified upper coverage of omitted jointly qualified recipe residuals and actual feasible witnesses on a common original-order catchment; missing counterfactual dynamic histories and lawful retention intervention prevent causal mediation.",
+  "exact_next_action": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -342,7 +350,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T09:35:58.637Z",
+  "updated_at_utc": "2026-11-25T10:33:01.360Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -359,9 +367,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Establish a minimally informative joint audit of qualified original-order recipe incidence and portfolio capacity response under fixed exposure, then distinguish it from the induced lawful source-specific exposure/qualification trajectory in independently evolving P/G/E and coordination arms. Seek matched commercial evidence or retain partial identification; retrieve official numeric tables only through genuinely usable source routes.",
-  "proof_gap": "Single-commodity capacities, independently qualified paths and scalar monotone exposure are restrictive; matched original-order joint incidence, cut slack, retained source mix, lawful full-program effects and current numerical official use/supply edge remain unobserved.",
-  "next_action": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+  "exact_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+  "proof_gap": "Need independently justified upper coverage of omitted jointly qualified recipe residuals and actual feasible witnesses on a common original-order catchment; missing counterfactual dynamic histories and lawful retention intervention prevent causal mediation.",
+  "next_action": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -427,7 +435,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+  "exact_intellectual_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -447,7 +455,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+  "exact_next": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -547,7 +555,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Single-commodity capacities, independently qualified paths and scalar monotone exposure are restrictive; matched original-order joint incidence, cut slack, retained source mix, lawful full-program effects and current numerical official use/supply edge remain unobserved.",
+  "next_proof_gap": "Need independently justified upper coverage of omitted jointly qualified recipe residuals and actual feasible witnesses on a common original-order catchment; missing counterfactual dynamic histories and lawful retention intervention prevent causal mediation.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -628,7 +636,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+  "current_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1708,7 +1716,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Establish a minimally informative joint audit of qualified original-order recipe incidence and portfolio capacity response under fixed exposure, then distinguish it from the induced lawful source-specific exposure/qualification trajectory in independently evolving P/G/E and coordination arms. Seek matched commercial evidence or retain partial identification; retrieve official numeric tables only through genuinely usable source routes.",
+  "next_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -4190,6 +4198,36 @@
       3,
       3
     ],
+    "field_calibration": false,
+    "full_repository_ci": false
+  },
+  "validation_joint_recipe_residual_audit": {
+    "checks": 24940,
+    "cases": 900,
+    "factorialCases": 625,
+    "example": {
+      "incumbent": 6,
+      "singletons": [
+        0,
+        0
+      ],
+      "divisiblePortfolio": [
+        8,
+        10
+      ],
+      "indivisiblePortfolio": [
+        6,
+        10
+      ],
+      "expandedResidual": [
+        0,
+        2
+      ],
+      "netAtCost3": [
+        -1,
+        1
+      ]
+    },
     "field_calibration": false,
     "full_repository_ci": false
   }
