@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: roboecon-research-overview-20261125.
+Handoff ID: production-of-capability-dynamics-20261125.
+
+## The Production of Capability and the timing of investment in learning
+
+November 25, 2026, Eastern. [When Faster Learning Pays](papers/autonomous_firm/When_Faster_Learning_Pays.md) extends [The Production of Capability](papers/autonomous_firm/The_Production_of_Capability.pdf) to repeated source shifts, customer deadlines, and a rival that can revise its investigation after observing a discovery. Ordinary production learns in every comparison. The paper derives a single peak for the value of accelerated learning before one fixed deadline, an adaptive rule for buying investigation, and an accounting identity linking the lead firm’s profit to the net capability of its alternatives. A solved public-response game raises the lead firm’s profit by 11 and buyer saving by 9 while reducing net joint value by 1. All quantities are illustrative.
+
+The [dynamic replication](papers/autonomous_firm/replication/capability/learning_deadlines.py) checks 696 terminal values, compares the adaptive rule to 4,572 policies in 126 settings, and enumerates both firms’ source and settlement outcomes. The [foundation replication](papers/autonomous_firm/replication/capability/check_foundation.py) checks the earlier allocation, rights and pricing example independently.
+
+**Next research question.** Can dated receipts, review time, and matched ordinary-operation cohorts distinguish a temporarily valuable learning lead from a permanent change in transfer or execution capability?
 
 The [repository overview](README.md) introduces the program through production and adoption, allocation and competition, and organizational learning. It links the current papers, empirical evidence and replication guides.
 
