@@ -1,15 +1,16 @@
 # Recursive Firm Theory
 
-## How production changes what the firm learns
+## Why the next deployment depends on the last one
 
-A robot’s operating method determines what work it can perform. The operator’s method of inquiry determines what its next hour of deployment, teleoperation or testing can teach it. Earlier work can change either method. Recursive Firm Theory asks **when a firm produces a better way to learn from its next deployment, what that ability is worth, and where the return accrues along the value chain**.
+A firm that puts a robot to work chooses where to produce and where to learn. A dispatcher can route a difficult parcel to a person, an arm can attempt it, and a mobile carrier can determine whether the order arrives on time. Each route leaves different evidence. The people who can observe the failure, change the machine, and collect the savings may work for different firms. **Recursive Firm Theory asks when organizing these decisions today makes the firm better at choosing what to learn or where to deploy tomorrow.**
 
-Begin with a job, its acceptance standard and deadline, the machines and people able to complete it, and the observations their choices leave behind. An attempted grasp yields a different record from a parcel sent to a person. A supplier can see a machine trace while only the customer sees the final disposition. A retained procedure becomes economically consequential when it changes a later decision in time to affect accepted work or real costs. The benchmark is the best feasible existing team and learning routine, including its ability to specialize by site.
+The scarce inputs are people’s time, physical equipment, compute, validation capacity and the right to act before work is due. A qualified method can serve more than one deployment. This gives a site value as a **source** of an otherwise missed discovery and as a **recipient** with work on which to use it. An operator can build a third asset if its experience improves the **procedure** it takes to an unfamiliar site. We compare each effect with the best feasible incumbent team, including ordinary learning and local specialization.
 
-**Start with [How firms learn what to test](inquiry/README.md) or its [PDF reading edition](inquiry/How_Firms_Learn_What_to_Test.pdf).** The paper derives when choosing what to learn can pay, how an incumbent's local knowledge limits the gain, and how changing the learning arrangement can revalue the next robot. Commercial dairy operations, parcel induction and digital service illustrate different ways work enters the record. Complete published benchmark tables test how much apparent adaptation ordinary policy selection can explain.
+Start with [How firms learn what to test](inquiry/README.md) for the firm’s capacity to improve its own inquiry. [What the next deployment teaches the fleet](inquiry/deployment_portfolio/README.md) derives how sources and recipients together change the value of another site. [Where does a better robot raise the return to the next one?](network_mpk/README.md) traces the resulting accepted shipments, labor requirements and private returns across a value chain. The broader [Learning and Capital in Robotic Production](https://github.com/amarmurray/robotics-economics/blob/ed3b9fec57cd87a5d953d06491553d5a3a826a21/papers/learning_and_capital/README.md) asks when that return actually finances more machines.
 
 | Question | What would count as evidence? | Where to read next |
 |---|---|---|
+| Which sites should a learning fleet combine? | In the same source-access experiment, change the work eligible to receive a correction. The interaction distinguishes duplicate discoveries from evidence that must be combined. | [Deployment portfolio and falsification test](inquiry/deployment_portfolio/README.md#the-test-that-would-distinguish-the-mechanisms) |
 | Does deployment teach a reusable way to investigate? | On unfamiliar jobs a carried procedure changes which fresh test runs, at matched hardware, information and review cost. | [Foundations and the field test](inquiry/README.md#the-test-the-theory-should-face) |
 | Does automation change its own supply of evidence? | A release changes which original cases enter training and the choices made by the next release. | [Fleet learning dynamics](learning_dynamics/README.md) · [Validation of transfer](transfer_validation/README.md) |
 | Who can act on what the firm learns? | An independently chosen reference sample changes a release or paid order that supplier receipts alone could not resolve. | [Learning from settlements](settlement_learning/README.md) |
@@ -17,34 +18,35 @@ Begin with a job, its acceptance standard and deadline, the machines and people 
 
 The companion *When Capabilities Become Production* studies how capability and complementary inputs turn into accepted work. The Recursive Firm branch holds that conversion open and asks how the organization can change it over time. The [RoboEcon working-paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) also includes the founding [Recursive Firm note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf), the [intervention note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf) and the related Autonomous Firm work. [Original formalization and Q-learning benchmark](../theory/recursive_firm.md)
 
-## Who pays for reference coverage?
+## Findings from individual studies
+
+Physical and digital benchmarks measure performance on specified tasks. The economic simulations vary the choices and resources that convert performance into paid work. Two results discipline the interpretation. A fixed model matched domain selection when the full published digital menu was available, and a precommitted audit beat adaptive renewal after an unexpected reversal at the source. A claim that production improved a firm’s learning procedure still needs a test on fresh operating sites. [Benchmark reanalysis](inquiry/README.md#what-our-earlier-benchmark-examples-can-establish) · [Reference coverage](reference_coverage/README.md)
+
+### Who pays for reference coverage?
 
 The [standing reference study](reference_coverage/README.md) asks when two firms preserve an independent sample of the jobs their dispatcher can route away. A joint fund bought extra audits under ordinary drift. An unanticipated reversal made one late check more valuable than adaptive renewal. The study prices both outcomes against every feasible fixed audit calendar and a site-matched calendar from a different fleet.
 
-## Findings from individual studies
-
-
-## How does one firm’s automation change the value of another firm’s next robot?
+### How does one firm’s automation change the value of another firm’s next robot?
 
 The [network marginal-product study](network_mpk/README.md) follows accepted orders, investment returns and usable evidence through digital dispatch, a packaging plant, retail fulfillment and hospital supply. A packaging standard increased hospital orders while reducing upstream plant work in 72 of 96 synthetic economies. Across those same economies, packaging and fulfillment investments tended to look attractive together. Installing one nevertheless reduced the value of the other in 79 of 96. The [audit experiment](network_mpk/README.md#which-end-of-the-link-should-buy-an-audit) asks whether the supplier, a recipient archive or a random recipient sample can identify a harmful transfer. [Results by world](network_mpk/baseline_worlds.csv)
 
-## When can paid work diagnose the next repair?
+### When can paid work diagnose the next repair?
 
 The [settlement learning study](settlement_learning/README.md) compares buying target-site audits with staggering robot releases to diagnose faults from pooled payments. Identifying the successful robot on a random quarter of ambiguous shifts reduced the incremental return to diagnostic deployment from 12.84 to 0.36 simulated units relative to a matched planner.
 
-## Can the firm discover which cases share a correction?
+### Can the firm discover which cases share a correction?
 
 The [partition discovery experiment](partition_discovery/README.md) learns the grouping the adapter study supplied. Across 1,024 new worlds, robot-specific discovery improved untouched-family agreement by 8.18 points over shuffled features, yet earned no clear premium over immediate local repair. Learning whether to pool evidence across embodiments paid when both shared a fault. A change confined to families excluded from qualification erased the panel gain without altering releases.
 
-## When does a better robot earn less for its fleet?
+### When does a better robot earn less for its fleet?
 
 The [adapter repair study](transfer_validation/ADAPTER_REPAIR.md) prices a second annotation of a robot incident against the opportunity to train the shared digital policy. Across 256 held-out simulated fleets, a correction raised mobile capability by 12.9 percentage points while reducing fleet contribution. Buying a verified donor label beat fixed live sharing when several case families shared a correction and lost to it when the same number of faults were scattered. The next test is learning which cases belong together.
 
-## When should a fleet validate a transfer link?
+### When should a fleet validate a transfer link?
 
 The [priced validation study](transfer_validation/README.md) compares selective and rotating audits, local heads and tuned fixed sharing across simultaneous model and demand changes. Redirecting the next correction into a disconnected local head added 23.84 contribution units in the ordinary drift simulation. Selective inspection earned only 0.96 more than a matched rotation, with an interval spanning zero. The strongest next comparison is learning a replacement adapter against staying local under unannounced drift.
 
-## Fleet learning dynamics
+### Fleet learning dynamics
 
 A production policy changes which situations generate a labeled case. A learned transfer rule determines which downstream agents use it. The resulting competence changes both the next corpus and the work the fleet qualifies to take. This is the branch's primary question across autonomous digital agents and physical robot embodiments. Economic value is measured on complete work alongside fixed-panel capabilities, the diversity of usable evidence, and genuine operating and post-training costs.
 
@@ -52,7 +54,7 @@ The [fleet learning study](learning_dynamics/README.md) derives the scaling of e
 
 Our working distinction between **design** and **Hayekian emergence** concerns who picks the rule and what that actor knows. A designer can define enforceable messages and legitimate outcomes, while the prices and partnerships that people discover inside that institution are decentralized. Local discovery can in turn reveal a reason to change the institution. Owners with continuing authority to adopt that change constitute one possible firm boundary. Independent parties that achieve the same result through a contingent contract form a second, genuinely competitive explanation.
 
-## How much of a teleoperation hour's buying power does the firm create?
+### How much of a teleoperation hour's buying power does the firm create?
 
 A digital service and two installed robot embodiments share operator time and compute. The firm can buy hardware, seek permission to learn, or negotiate authority to act before the next order. With identical demand, a retrofit raises the first-hour value from 16.62 to 20.76 and changes its best source. A dedicated fixture then lowers that value to 16.47 while improving total contribution. A deployment at which no data are ultimately acquired can still reduce the price of the preferred license by 3.02. A separate nested learning environment compares training on the worst task with training for paid complete orders and with a tuned fixed schedule. [The buying power of a teleoperation hour](stack/README.md) · [Full-stack settlement results](stack/results.json) · [Held-out economic RL comparisons](stack/nested_results.json)
 

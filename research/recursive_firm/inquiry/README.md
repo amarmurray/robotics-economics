@@ -12,6 +12,8 @@ Now consider two operators installing identical equipment at a new site. Both ha
 
 The argument yields a restriction. If one affordable diagnostic is economically best on every job, learning how to choose among diagnostics has no value on that margin. And if different sites already know which checks suit them, a single fleet-wide default can make ordinary specialization look like an organizational discovery. These claims tell us where to look for recursion and when to favor a simpler explanation.
 
+The companion paper asks where to deploy once sites can both generate evidence and earn on its use. It derives when a larger recipient fleet raises the standalone value of two investigative sites while reducing the premium for combining them. [What the next deployment teaches the fleet](deployment_portfolio/README.md)
+
 <!-- page -->
 
 ## The economic premises

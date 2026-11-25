@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-standing-reference-20261125",
+  "snapshot_id": "recursive-firm-deployment-portfolio-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-standing-reference-20261125",
-      "sha256": "ca8ed086fd21c0b28a6530c2fb1e5bae27520fdf8a47af421f9a54b4f15210f2"
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "8589b099ee451672d1a275b98b9e89ab5b04cb84910bda1d66926b0dd01d87d3"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-standing-reference-20261125",
-      "sha256": "6a07693644975fd7834a6cf8eb44a2bd721270785f28214679aa26c3cade5535"
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "3b4806e50991d11da909e491adca2b0f9f324f312135c6236295fc700db4ad41"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3771,8 +3771,8 @@
       "repository_path": "research/recursive_firm/inquiry/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/README.md",
       "name": "README.md",
-      "version": "recursive-firm-inquiry-foundations-20261125",
-      "sha256": "4e03282ba800504e004bdce9e377847c9c564590b076653e363155ec81670751"
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "4a3fdbb3d3d56fccef54b8f1d9a9496affdc9bb1dafd66bcee363997c929b0a6"
     },
     {
       "repository_path": "research/recursive_firm/inquiry/agent_scores.csv",
@@ -3850,6 +3850,34 @@
       "name": "test_study.py",
       "version": "recursive-firm-standing-reference-20261125",
       "sha256": "bd4b5e66e6b924ce4d073116783de3b287efad5c87718fea5225be52d86896d0"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/deployment_portfolio/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/deployment_portfolio/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "ef49524a18201a14269609337781eb54296d771f8e52ea4925afb28da8656842"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/deployment_portfolio/open_x_cells.csv",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/deployment_portfolio/open_x_cells.csv",
+      "name": "open_x_cells.csv",
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "b48ff642887b86c5056be32bc89190ff310c6e92f30706c37b605ad6c74faedc"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/deployment_portfolio/replicate.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/deployment_portfolio/replicate.py",
+      "name": "replicate.py",
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "b03c281735955b250a2e713bb96f13ce86e336b45dc7503804f4ee9b93c4edcd"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/deployment_portfolio/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/deployment_portfolio/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-deployment-portfolio-20261125",
+      "sha256": "7c4a4687522579ecb3e39d8ea18103dcc62d925ed948b166f69e748cbbe9ee76"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3884,7 +3912,7 @@
     "goal": "CODEX_GOAL.md",
     "roadmap": "RESEARCH_ROADMAP.md",
     "campaign_status": "new_168_hour_decision_campaign_in_progress_early_checkpoint",
-    "organizing_unit": "end market \u00d7 value-chain stage \u00d7 operating archetype \u00d7 geography \u00d7 time",
+    "organizing_unit": "end market × value-chain stage × operating archetype × geography × time",
     "workstream_count": 11,
     "ownership_scope": "Customer ownership/organization and adoption; separate retained robotics business-model, asset/control, and value-capture inquiry.",
     "open_question_count": 65,
@@ -4142,7 +4170,13 @@
         "reading_edition": "research/recursive_firm/inquiry/How_Firms_Learn_What_to_Test.pdf",
         "public_benchmark_check": "research/recursive_firm/inquiry/results.json"
       },
-      "standing_reference_coverage": "research/recursive_firm/reference_coverage/README.md"
+      "standing_reference_coverage": "research/recursive_firm/reference_coverage/README.md",
+      "deployment_portfolio": {
+        "paper": "research/recursive_firm/inquiry/deployment_portfolio/README.md",
+        "robot_source_cells": "research/recursive_firm/inquiry/deployment_portfolio/open_x_cells.csv",
+        "replication": "research/recursive_firm/inquiry/deployment_portfolio/replicate.py",
+        "results": "research/recursive_firm/inquiry/deployment_portfolio/results.json"
+      }
     }
   }
 }

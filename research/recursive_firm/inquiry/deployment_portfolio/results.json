@@ -1,0 +1,40 @@
+{
+  "source": "https://arxiv.org/html/2310.08864v9",
+  "table": "II, 55B rows 1–3, reported percentages",
+  "missing_protocol": "Google Robot action plus Bridge without the other added sources",
+  "public_evaluations": {
+    "selected_emergent_skills_pct": {
+      "bridge_given_other_sources_pp": 33.0,
+      "interaction_zero_at_missing_score_pct": 60.3,
+      "unrestricted_interaction_interval_pp": [
+        -39.7,
+        60.3
+      ],
+      "monotone_point_estimates_feasible": true,
+      "monotone_interaction_interval_pp": [
+        -15.5,
+        33.0
+      ]
+    },
+    "generalization_pct": {
+      "bridge_given_other_sources_pp": 7.0,
+      "interaction_zero_at_missing_score_pct": 69.0,
+      "unrestricted_interaction_interval_pp": [
+        -31.0,
+        69.0
+      ],
+      "monotone_point_estimates_feasible": false,
+      "monotone_interaction_interval_pp": null
+    }
+  },
+  "algebra_checks": {
+    "event_and_value_configurations": 216,
+    "dated_source_and_rights_configurations": 256,
+    "monotone_qualification_rules_by_interaction_sign": {
+      "negative": 1,
+      "zero": 4,
+      "positive": 1
+    },
+    "audit_decision_threshold_cases": 42
+  }
+}

@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-standing-reference-20261125.
+Handoff ID: recursive-firm-deployment-portfolio-20261125.
+
+## Where a growing fleet should learn
+
+The revised [Recursive Firm Theory introduction](research/recursive_firm/README.md) leads from scarce physical and review capacity to the distinction between producing evidence, using a correction and improving the procedure for choosing the next experiment. [What the next deployment teaches the fleet](research/recursive_firm/inquiry/deployment_portfolio/README.md) builds on branch ceab1c73a9ba1feb72fb36740f05ea1e71a76225 and the [capital paper on main](https://github.com/amarmurray/robotics-economics/blob/ed3b9fec57cd87a5d953d06491553d5a3a826a21/papers/learning_and_capital/README.md). A recipient-only expansion can raise both sources’ standalone returns while reducing the premium for combining them. Jointly necessary signals reverse the predicted interaction. The sign depends on timed eligibility, the incumbent fallback and the work at stake.
+
+In a one-decision application the return to a second source rises with the work at stake, yet the value of auditing whether to commission it peaks at the ordinary team's decision threshold. The Open X-Embodiment reanalysis shows that even a 33-point conditional gain on selected emergent skills leaves both signs of the interaction possible. One training cell is missing. These are published robot evaluations and algebraic restrictions. An effect on paid production, investment or the organization’s ability to learn remains unmeasured. [Replication and bounds](research/recursive_firm/inquiry/deployment_portfolio/results.json)
+
+**Next unresolved question.** After a release changes which cases reach review, does the best next audit measure overlap between sources or verify that the recipient can still use their correction? Cross source grants with eligibility for additional recipient work at fixed resources, then give independent controllers discretion. At pilot close retain the established late-audit reversal, the strong ordinary specialization baselines and the missing public comparison as rival explanations.
 
 ## Standing coverage under endogenous admission
 
