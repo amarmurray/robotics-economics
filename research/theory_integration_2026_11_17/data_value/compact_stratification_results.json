@@ -1,0 +1,27 @@
+{
+  "checks": 1646092,
+  "pairs": 1646089,
+  "tuples": 1283,
+  "disjoint": {
+    "pooled": [
+      5,
+      10
+    ],
+    "stratified": [
+      10,
+      10
+    ]
+  },
+  "coincident": {
+    "pooled": [
+      5,
+      10
+    ],
+    "stratified": [
+      5,
+      5
+    ]
+  },
+  "field_calibration": false,
+  "full_repository_ci": false
+}

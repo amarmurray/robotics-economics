@@ -1,0 +1,2 @@
+# Exercise — economic strata and selective grounding
+Use the two five-unit strata in Section 4 of [compact draft](WHEN_CAPABILITIES_COMPACT_DRAFT.md). Compute pooled and stratified gross bounds in both worlds; compare universal grounding cost 2. If grounding can instead be chosen independently by stratum for variable cost 1 and fixed setup 1, compare selective net returns. Which assumption fails if C's new routine trajectories train one shared policy across strata?

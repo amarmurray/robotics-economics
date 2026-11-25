@@ -1,0 +1,2 @@
+# Solution
+Both pooled gross intervals are [5,10], so universal net increment is [-2,3]. A stratifies to 10, net +3; B stratifies to 5, net -2. In A only first stratum adds 5 gross, with variable cost 1 and fixed cost 1, selective net +3. In B neither stratum adds service; choose no investment, net 0. Shared training can couple the intervention effects and change the feasible set of joint stratum laws; the additive selective rule may not apply. Use the full dynamic program.

@@ -2,49 +2,58 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "2e7ca37e48a8c9f8d45fcd4f9f73bd6ff9c5b5ff",
+  "research_input_commit": "d7673bed06ae93785f350fbd9c1f4b6c476390e9",
   "lease": {
     "run_id": "compact-integrated-paper-20261125T033119Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T03:32:03.664Z",
     "expires_at_utc": "2026-11-25T04:32:03.664Z",
-    "reason": "Consolidate missing-arm and sensitivity certificates into one paper with practical identified decision procedure"
+    "reason": "Consolidate missing-arm and sensitivity certificates into one paper with practical identified decision procedure",
+    "released_at_utc": "2026-11-25T03:33:37.042Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Focused first-paper structural sensitivity and matched evidence; science OPEN",
+  "current_mode": "Compact integrated paper and empirical validation; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_SENSITIVITY_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COMPACT_INTEGRATED_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state archived by original blob f08d327a11b6d78cec75cac0e2a28a4b34f7097d; backlog and main unchanged.",
-  "latest_result": "Sharp bounded-deviation missing-combination interval, distinct adoption/rejection evidence budgets; no field calibration.",
+  "preservation": "Prior released state archived by original blob b64afe38004f7d20cb364d07c9a5bc87dd959455; backlog and main unchanged.",
+  "latest_result": "Compact first-paper draft integrates policy emulation, missing CG certificate, bounded deviation and pre-treatment economically weighted stratification; strict decision improvement synthetic, no field calibration.",
   "validation": {
-    "checks": 69363,
-    "cases": 69362,
-    "examples": [
-      [
-        7,
-        9
-      ],
-      [
-        7,
+    "checks": 1646092,
+    "pairs": 1646089,
+    "tuples": 1283,
+    "disjoint": {
+      "pooled": [
+        5,
         10
       ],
-      [
-        6,
-        11
-      ],
-      [
-        0,
-        12
+      "stratified": [
+        10,
+        10
       ]
-    ],
-    "scope": "all finite set laws through four equal-mass histories, all integer upper-budget vectors, exact attained sets; synthetic not field evidence",
-    "field_causal_data_value": false,
+    },
+    "coincident": {
+      "pooled": [
+        5,
+        10
+      ],
+      "stratified": [
+        5,
+        5
+      ]
+    },
+    "field_calibration": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/compact_stratification_exact.js",
+    "research/theory_integration_2026_11_17/data_value/compact_stratification_results.json",
+    "research/theory_integration_2026_11_17/data_value/COMPACT_STRATIFICATION_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/COMPACT_STRATIFICATION_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_COMPACT_INTEGRATED_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_STRUCTURAL_SENSITIVITY.md",
     "research/theory_integration_2026_11_17/data_value/focused_sensitivity_exact.js",
     "research/theory_integration_2026_11_17/data_value/focused_sensitivity_results.json",
@@ -119,9 +128,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Focused sensitivity certificate proved conditionally; commercial causal identification open",
-      "question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
-      "deliverable": "Compact argument and independent comparison or explicit nonidentification"
+      "status": "Compact integrated draft and stratum certificate; causal/structural identification open",
+      "question": "Subject the compact draft to adversarial proof/assumption review, especially independent stratum assembly versus shared learner and capacity; seek matched original-order P/G/C/CG net returns or justified weighted exception bounds, otherwise retain nonidentification. Assess genuine official numeric data route separately.",
+      "deliverable": "Adversarially reviewed compact first paper and supported empirical comparison or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -146,15 +155,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Focused sensitivity certificate proved conditionally; commercial causal identification open",
-      "question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
-      "deliverable": "Compact argument and independent comparison or explicit nonidentification"
+      "status": "Compact integrated draft and stratum certificate; causal/structural identification open",
+      "question": "Subject the compact draft to adversarial proof/assumption review, especially independent stratum assembly versus shared learner and capacity; seek matched original-order P/G/C/CG net returns or justified weighted exception bounds, otherwise retain nonidentification. Assess genuine official numeric data route separately.",
+      "deliverable": "Adversarially reviewed compact first paper and supported empirical comparison or explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds and bounded structural sensitivity; field support absent.",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact first-paper candidate with linked decision-specific sensitivity and prospective evidence protocol.",
+    "paper": "Integrated compact draft with proof, sensitivity and pre-treatment stratification, explicit competing intervention and prospective validation protocol.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -318,8 +327,8 @@
     "independent_peer_review": false
   },
   "exact_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
-  "proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
-  "next_action": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "proof_gap": "Commercial support for cross-world weighted exception budgets, stable contribution, and separability across pre-treatment strata, or direct matched-arm J. No commercial panel located in bounded search.",
+  "next_action": "Subject the compact draft to adversarial proof/assumption review, especially independent stratum assembly versus shared learner and capacity; seek matched original-order P/G/C/CG net returns or justified weighted exception bounds, otherwise retain nonidentification. Assess genuine official numeric data route separately.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -4001,6 +4010,33 @@
     ],
     "scope": "all finite set laws through four equal-mass histories, all integer upper-budget vectors, exact attained sets; synthetic not field evidence",
     "field_causal_data_value": false,
+    "full_repository_ci": false
+  },
+  "validation_compact_stratification": {
+    "checks": 1646092,
+    "pairs": 1646089,
+    "tuples": 1283,
+    "disjoint": {
+      "pooled": [
+        5,
+        10
+      ],
+      "stratified": [
+        10,
+        10
+      ]
+    },
+    "coincident": {
+      "pooled": [
+        5,
+        10
+      ],
+      "stratified": [
+        5,
+        5
+      ]
+    },
+    "field_calibration": false,
     "full_repository_ci": false
   }
 }
