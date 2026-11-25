@@ -1,0 +1,2 @@
+# Exercise: what does the accepted ledger tell us about the next robot?
+Three simultaneous orders are worth 12, 8 and 6, respectively. One slot always serves order A; B and C each qualify half the time. Assume exact rank-max dispatch, fixed weights and no other constraints. Find the sharp gross return of one additional slot and two additional slots. At slot cost 5, is the first investment identified? Why does knowing total weighted overflow not resolve the one-slot decision? What would a joint audit measure? Explain how a shared training program changes the interpretation.

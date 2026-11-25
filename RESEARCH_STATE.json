@@ -2,41 +2,58 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "26f2b5747970cb6ad9fc448581a5a0241b6daf19",
+  "research_input_commit": "e54a4eb2221249c2417acdc4218589029808f143",
   "lease": {
     "run_id": "censored-capacity-identification-20261125T0631Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T06:31:19.884Z",
     "expires_at_utc": "2026-11-25T07:46:19.884Z",
-    "reason": "Integrate censored qualification and capacity marginal value into whole-program validation"
+    "reason": "Integrate censored qualification and capacity marginal value into whole-program validation",
+    "released_at_utc": "2026-11-25T06:32:53.641Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Adversarial compact-paper shared-capacity review; science OPEN",
+  "current_mode": "Compact first-paper validation: latent unserved qualification and capacity counterfactual; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_SHARED_CAPACITY_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_CENSORED_CAPACITY_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state preserved by original blob 8caf0cf88a9745b10edab586b2b7aed03adeaa09; main and backlog unchanged.",
-  "latest_result": "Sharp weighted top-K readiness envelope and overflow identity; selective stratum optimization fails under shared slots even with pointwise retained qualifications.",
+  "preservation": "Previous released state preserved by original blob c91f58b8e018fa96f6b3cce1628cd7c4033507fb; main and backlog unchanged.",
+  "latest_result": "Sharp conditional extra-capacity envelope from ranked accepted-order logs plus independent marginal readiness; total overflow may be identified while next-slot return is not.",
   "validation": {
-    "checks": 50653,
-    "cases": 49152,
-    "worlds": {
-      "baseline": 5,
-      "groundingCoincident": 5,
-      "groundingDisjoint": 10,
-      "incrementalCost": 2,
-      "net": [
-        -2,
-        3
+    "checks": 19392,
+    "worlds": 12288,
+    "groups": 7101,
+    "example": {
+      "current": 12,
+      "weightedQualificationPotential": 19,
+      "weightedOverflow": 7,
+      "extraSlotGross": [
+        4,
+        7
+      ],
+      "extraSlotCost": 5,
+      "extraSlotNet": [
+        -1,
+        2
+      ],
+      "twoSlotsGross": [
+        7,
+        7
       ]
     },
-    "field_calibration": false,
-    "full_repository_ci": false
+    "fieldCalibration": false,
+    "fullRepositoryCI": false
   },
   "read_next": [
     "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
+    "research/theory_integration_2026_11_17/data_value/CENSORED_CAPACITY_ENVELOPE.md",
+    "research/theory_integration_2026_11_17/data_value/censored_capacity_envelope.js",
+    "research/theory_integration_2026_11_17/data_value/censored_capacity_envelope_results.json",
+    "research/theory_integration_2026_11_17/data_value/CENSORED_CAPACITY_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/CENSORED_CAPACITY_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_CENSORED_CAPACITY_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/SHARED_CAPACITY_ENVELOPE.md",
     "research/theory_integration_2026_11_17/data_value/shared_capacity_envelope.js",
     "research/theory_integration_2026_11_17/data_value/shared_capacity_envelope_results.json",
@@ -72,7 +89,6 @@
     "research/theory_integration_2026_11_17/data_value/FOCUSED_EMPIRICAL_CAPACITY_EXERCISE.md",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_EMPIRICAL_CAPACITY_SOLUTION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_EMPIRICAL_RELEASED_STATE.json",
-    "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
     "research/theory_integration_2026_11_17/data_value/compact_validation.js",
     "research/theory_integration_2026_11_17/data_value/compact_validation_results.json",
     "research/theory_integration_2026_11_17/data_value/PRE_COMPACT_VALIDATION_RELEASED_STATE.json",
@@ -122,9 +138,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Compact draft adversarially reviewed for shared dated capacity; field identification open",
-      "question": "Integrate the joint economically weighted prefix-overflow statistic into the matched whole-program validation protocol; establish the limits of selective grounding when unserved qualification is latent and training histories interact. Prioritize direct matched original-order evidence or justified bounds, not disconnected counterexamples.",
-      "deliverable": "Compact validated decision procedure with shared capacity and selective policy identification, or explicit nonidentification"
+      "status": "Compact draft and prospective validation amended for censored readiness; field identification open",
+      "question": "Consolidate evidence matrix and first-paper empirical claim around independently evolving fixed-policy accepted contribution versus oracle/capacity counterfactuals; seek direct matched original-order evidence or justified bounds, and explicitly retain nonidentification when not available. Consider joint safe audits and shared learner interference, not disconnected counterexamples.",
+      "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -149,15 +165,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Compact draft adversarially reviewed for shared dated capacity; field identification open",
-      "question": "Integrate the joint economically weighted prefix-overflow statistic into the matched whole-program validation protocol; establish the limits of selective grounding when unserved qualification is latent and training histories interact. Prioritize direct matched original-order evidence or justified bounds, not disconnected counterexamples.",
-      "deliverable": "Compact validated decision procedure with shared capacity and selective policy identification, or explicit nonidentification"
+      "status": "Compact draft and prospective validation amended for censored readiness; field identification open",
+      "question": "Consolidate evidence matrix and first-paper empirical claim around independently evolving fixed-policy accepted contribution versus oracle/capacity counterfactuals; seek direct matched original-order evidence or justified bounds, and explicitly retain nonidentification when not available. Consider joint safe audits and shared learner interference, not disconnected counterexamples.",
+      "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds and bounded structural sensitivity; field support absent.",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact draft with shared capacity adversarial repair, missing combination/sensitivity, pre-treatment strata and overflow evidence discriminator.",
+    "paper": "Compact draft includes censored qualification and sharp conditional capacity envelope; protocol distinguishes observed fixed-arm contributions from counterfactual expansion.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -263,8 +279,8 @@
     "Focused sensitivity bounds assume stable common original-order contribution measure, nested usable capacity, one service per window and independently justified cross-program violation upper bounds; no budget measured, and unrestricted demand/cost changes require complete J. Exact synthetic enumeration not proof or field validation.",
     "Top-K envelope requires predispatch observable joint qualification, fixed nonnegative unit-resource contribution, known integer interchangeable slots and no other constraints; arbitrary shared learner trajectories/latent qualification/queues need full J. Separate-arm contrast extrema are not sharp under unspecified cross-arm constraints. No field calibration. BEA API route verified only at catalog level."
   ],
-  "last_notification": "2026-11-24 Eastern: shared capacity can make the same target grounding gain worthless or valuable; sharp economic envelope and overflow evidence discriminator, no matched field causal estimate.",
-  "execution_note": "Executed exact generated JS model in connected V8; no full CI or independent field replay. Previous released state archived by existing blob. Lease released atomically with research.",
+  "last_notification": "2026-11-25 Eastern: accepted-order records and independent marginal readiness may identify total weighted overflow but not next-slot value; sharp conditional accepted-log bounds and protocol, no matched causal field evidence.",
+  "execution_note": "Exact generated JS checker executed before commit; field calibration, full CI and independent review not performed. Relevant current documents read at input revision; attempted exhaustive historical read_next traversal exceeded connector per-script call limit, so no claim of full archival reread.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -4046,5 +4062,30 @@
     },
     "field_calibration": false,
     "full_repository_ci": false
+  },
+  "validation_censored_capacity": {
+    "checks": 19392,
+    "worlds": 12288,
+    "groups": 7101,
+    "example": {
+      "current": 12,
+      "weightedQualificationPotential": 19,
+      "weightedOverflow": 7,
+      "extraSlotGross": [
+        4,
+        7
+      ],
+      "extraSlotCost": 5,
+      "extraSlotNet": [
+        -1,
+        2
+      ],
+      "twoSlotsGross": [
+        7,
+        7
+      ]
+    },
+    "fieldCalibration": false,
+    "fullRepositoryCI": false
   }
 }

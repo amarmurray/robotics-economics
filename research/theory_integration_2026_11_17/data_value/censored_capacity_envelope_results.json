@@ -1,0 +1,25 @@
+{
+  "checks": 19392,
+  "worlds": 12288,
+  "groups": 7101,
+  "example": {
+    "current": 12,
+    "weightedQualificationPotential": 19,
+    "weightedOverflow": 7,
+    "extraSlotGross": [
+      4,
+      7
+    ],
+    "extraSlotCost": 5,
+    "extraSlotNet": [
+      -1,
+      2
+    ],
+    "twoSlotsGross": [
+      7,
+      7
+    ]
+  },
+  "fieldCalibration": false,
+  "fullRepositoryCI": false
+}
