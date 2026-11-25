@@ -1,68 +1,23 @@
-# Robotics economics
+# Robotics Economics
 
-Research on physical labor, staged humanoid deployment, learning/control, physical-digital coordination, and the organization of production.
+Robotics Economics studies how physical robots and autonomous digital agents change the organization of production. When does a technical capability become work a customer will accept and pay for? How does doing that work change what a firm can learn, produce and invest in next?
 
-## Research papers
+[Working papers and replication code](papers/README.md) · [Integrated research report](REPORT.md)
 
-- [Recursive Firm Theory](https://github.com/amarmurray/robotics-economics/blob/research/recursive-firm-theory/research/recursive_firm/README.md) follows how production changes what a fleet learns, shares and deploys next.
-- [The Autonomous Firm](papers/autonomous_firm/The_Autonomous_Firm.pdf) studies the opportunity cost of learning across agents, robots and operators. [Choosing the First Deployment](papers/autonomous_firm/Choosing_the_First_Deployment.md) develops the allocation and competition models. [Papers and replication](papers/autonomous_firm/README.md)
-- [When Capabilities Become Production](https://github.com/amarmurray/robotics-economics/blob/research/assistant-led-expansion-20261117/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md) develops the qualification and investment argument.
+## Research scope
 
-[All paper editions, companion notes and replication files](papers/README.md)
+The program compares human, assisted and autonomous work across industries such as manufacturing and infrastructure inspection. It follows the value chain from hardware and model suppliers through fleet operators to the firms adopting the technology. The comparisons span industrial arms, mobile robots, humanoids, quadrupeds and drones, as well as LLM-based agents that deliver digital services or coordinate physical fleets.
 
-## Current direction
+Consider a teleoperator who recovers a failed pick. That hour can finish an order and generate a demonstration. Its value to the rest of the fleet depends on who may retain the record, which robots can learn from it and whether the correction can be validated in time. The fleet operator may pay for the recovery while a model provider earns the return from training on it.
 
-Charter **v0.11, 25 October 2026** adopts Amar's end-market and value-chain organizing level. Tasks and task bundles explain mechanisms within those markets. The earlier warehouse-first case, mandatory Excel-first workflow, and delayed dashboard are superseded.
+## Papers and studies
 
-The purpose is to build judgment and evidence for strategy and deployment at a humanoid company: which markets and value-chain stages become viable, what capability and coordination improvements unlock them, how deployment feeds learning, how customer ownership/organization changes adoption and value-chain position, and how robotics business models, asset/control arrangements, and value capture interact with those customer structures. Incumbent adoption, holdco transformation, and AI-native newcos remain customer development pathways to compare; provider, operator, integrator, and financier roles remain a distinct research area.
+- **Production and adoption.** Which combinations of robot capability, human support and shared capacity turn a better task score into more completed orders? [When Capabilities Become Production](https://github.com/amarmurray/robotics-economics/blob/research/assistant-led-expansion-20261117/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md)
+- **Allocation and competition.** How should a firm allocate scarce labor, machines and compute across sites when winning a deployment changes what it or a rival can learn? [The Autonomous Firm](papers/autonomous_firm/The_Autonomous_Firm.md) · [Choosing the First Deployment](papers/autonomous_firm/Choosing_the_First_Deployment.md)
+- **Organizational learning.** A better routing agent can prevent the failures that supplied a robot's training data. When should the firm revise its rules for sampling cases, sharing corrections across embodiments and authorizing the next release? [Recursive Firm Theory](https://github.com/amarmurray/robotics-economics/blob/research/recursive-firm-theory/research/recursive_firm/README.md)
 
-AI-native operating newcos on the customer side are an explicit entry thesis: capital formation, differentiated physical-digital production or faster adoption of widely available robots, conditional labor-capacity advantages, customer acquisition, incumbent response, and build/acquire/hybrid platform choices. Preserve pure newco formation; use Thrive Holdings as a sourced structural comparator, not proof of physical-deployment economics.
+## Evidence and replication
 
-The full LLM/digital-AI ecosystem is substantial Workstream H, detailed in `LLM_ECOSYSTEM_RESEARCH_MODULE.md`. Cover development/physical inputs, scaling and deployment/overhang, retrospective/prospective economic effects, economic benchmarks, multi-agent systems, producer/input/capital/customer competition and deploycos, and lab-linked/complementary firms. Use explicit multivariate analogy tests and direct-contribution maps for robot/fleet/site/enterprise/ERP/routing/scheduling and robotics R&D. Update digital-improved human baselines and joint physical-digital scenarios; keep source and target evidence distinct.
+The empirical work draws on labor statistics, deployment case studies and published evaluations of robots and digital agents. The economic models and agent-based simulations use stated assumptions about demand, costs and learning to trace their effects on paid output and investment returns. [Research design](RESEARCH_PROGRAM_DESIGN.md) · [Reproduction guide](REPRODUCE.md)
 
-Workstream I, detailed in `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md`, makes humanoid/quadruped supply and value chains, components (including actuation, onboard compute and memory), manufacturing/qualification/ramp, embodiment choices, key players and layered openness substantial research subjects. Workstream J, detailed in `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md`, makes quadruped deployments a major empirical module and uses drone deployment, operating, supply-chain and ecosystem evidence through bounded comparisons. Distinguish capability improvement, production cost learning, qualified supply, supported operational scale and economic penetration. Compare embodiments within the existing end-market map; trace time-indexed scale feasibility and preserve human, specialized-machine and mixed-fleet alternatives. SDKs, released weights, open hardware and commercial rights are separate. Use shared records and count activity, resources and benefits once.
-
-Workstream K, detailed in `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md`, adds substantial frontier robotics-model lab and intelligence-layer economics, connecting training/data, model licensing, access, independent/OEM/open architecture, customer deployments and value capture. Added to the ongoing campaign without restarting it; single Astra Max agent usage limit preserved.
-
-## Read and launch
-
-| File | Role |
-| --- | --- |
-| `Robotics_Economics_Research_Charter.md` | Accepted charter, evidence/accounting principles, and project continuity |
-| `RESEARCH_PROGRAM_DESIGN.md` | Authoritative intellectual scope, eleven workstreams, and revisable defaults |
-| `LLM_ECOSYSTEM_RESEARCH_MODULE.md` | Full digital-AI value chain, economic evidence, tested analogies, direct contributions, and joint digital/physical scenarios |
-| `ROBOTICS_SUPPLY_EMBODIMENT_ECOSYSTEM_MODULE.md` | Physical inputs and value chains, embodiment economics, time-indexed production/scale feasibility and layered openness |
-| `QUADRUPED_AND_DRONE_RESEARCH_MODULE.md` | Major quadruped deployment module, drone empirical comparisons, field economics and bounded transfer |
-| `FRONTIER_ROBOTICS_MODELS_RESEARCH_MODULE.md` | Frontier embodied-model labs, models and access, economic competition, integration and value-capture analysis |
-| `WEEK_ONE_RESEARCH_SPEC.md` | Seven-day campaign deliverables, model/dashboard requirements, and acceptance criteria |
-| `CODEX_GOAL.md` | Ready-to-paste `/goal` for activation in the existing Codex project |
-| `RESEARCH_ROADMAP.md` | Stable research questions, dependencies, completion criteria, and follow-on work |
-| `HANDOFF.md` | Current accepted state, preparation/execution status, and next owner/action |
-| `AGENTS.md` | Agent scope, source discipline, and publication workflow |
-| `artifact_manifest.json` | Registered source paths, versions, and content hashes |
-| `SYNC_AUTOMATION.md` | Session-start repository context and publication protocol |
-| `CHATGPT_PROJECT_INSTRUCTIONS.md` | Saved app instructions; presence does not prove live settings were updated |
-
-**Status: research continuation edition 0.11, dated 7 November 2026.** The original October 25–November 1 campaign window has ended with incomplete requirements. This continuation preserves that history and does not claim work during the interruption or a confirmed cloud transfer.
-
-Start with [REPORT.md](REPORT.md), the full integrated report, and [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md) for verified scope and gaps. The newest [Generalist/Dyna analysis](research/generalist_dyna_deployment.md) separates task adaptation, scaling evidence, customer output and unresolved cash returns. Thirteen accepted packages contain 180 claim records; K now has ten bounded dossiers. Counts describe coverage, not independent confirmation or full program acceptance. The [walkthrough](LEARNING_WALKTHROUGH.md) and [thesis register](THESIS_REGISTER.md) remain available for guided review.
-
-Launch the thirteen-view local dashboard with `python3 scripts/serve.py` and open `http://127.0.0.1:8765`; see [REPRODUCE.md](REPRODUCE.md). The common CPU models include annual digital paths, conditional intelligence architectures, bounded monthly commercial contracts and a shared incumbent/entrant customer/cash case. Their synthetic assumptions remain uncalibrated, and the distinct models are not a single empirically qualified company plan. Source evidence, accepted-output arithmetic and official labor data remain separate.
-
-All earlier source and model corrections are retained. The current publication checkout is recorded in local operational files; the canonical Mac checkout is preserved and remains unreconciled. Remote main is the shared accepted state.
-
-## Shared project locations
-
-- Shared accepted source: https://github.com/amarmurray/robotics-economics, private, branch `main`.
-- Canonical local working copy: `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`.
-- Codex project: **Robotics Economics**, ID `f260f846-281f-4d68-9086-44afe32bd163`.
-- ChatGPT project: **robotics economics**, https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
-- Local operational receipt: `sync_receipt.json`, excluded from shared research artifacts.
-
-At each Work session start, resolve current remote `main` and read required files at that exact commit. Identify the revision used. Unpushed local changes and old uploaded sources are not the current shared state. A repository publication does not itself establish that another session has read it.
-
-After substantive authorized work, validate, update accepted artifacts/handoff/manifest, make a scoped commit, and publish normally while preserving unrelated changes and divergence. Work proposals remain in task output unless repository writing is authorized. Do not force-push or silently merge conflicting work.
-
-The former hourly **Sync robotics economics** automation remains paused. The finite research goal is separate from that legacy job. No background transcript sharing, hourly source uploads, or automatic polling is implied.
-
-The separate `robotics-vp/robotics-vp-core` implementation repository can inform research questions. This program does not authorize changes to its controllers, training, rewards, or hardware execution.
+From the repository root, run `python3 scripts/serve.py` to explore the local dashboard at `http://127.0.0.1:8765`.

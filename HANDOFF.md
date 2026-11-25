@@ -1,6 +1,8 @@
 # Robotics economics — current handoff
 
-Handoff ID: autonomous-firm-manuscripts-and-models-20261125.
+Handoff ID: roboecon-research-overview-20261125.
+
+The [repository overview](README.md) introduces the program through production and adoption, allocation and competition, and organizational learning. It links the current papers, empirical evidence and replication guides.
 
 ## Autonomous Firm manuscript sources and replications
 
