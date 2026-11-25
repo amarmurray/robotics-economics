@@ -1,0 +1,4 @@
+function verify(){let checks=0,cases=0;function assert(x){if(!x)throw Error("assertion "+checks);checks++}
+for(let a=0;a<16;a++)for(let b=0;b<16;b++)for(let m=0;m<=4;m++)for(let n=0;n<=4;n++){const t=[1,3,2,5];let optimum=0;function count(x){return x.toString(2).replace(/0/g,"").length}for(let z=0;z<16;z++){if(count(z&a)>m||count(z&b)>n)continue;let val=t.reduce((v,w,i)=>v+((z>>i)&1)*w,0);optimum=Math.max(optimum,val)}let upper=Infinity;for(let u=0;u<=5;u++)for(let v=0;v<=5;v++){const bound=u*m+v*n+t.reduce((sum,w,i)=>sum+Math.max(0,w-u*((a>>i)&1)-v*((b>>i)&1)),0);assert(bound>=optimum);upper=Math.min(upper,bound)}assert(upper>=optimum);cases++}
+return {cases,checks,interpretation:"integer subset and nonnegative multiplier upper-bound checks; not proof or field data",field_calibration:false}}
+console.log(JSON.stringify(verify(),null,2));

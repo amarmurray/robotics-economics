@@ -2,90 +2,38 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "cee7a691d3df170dd83648d56b9cd996f45d279d",
+  "research_input_commit": "905486cf01a78c61ed4eb9dc0f32f6771dda2832",
   "lease": {
     "run_id": "empirical-synthesis-2026-11-25T12:28:30.779Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T12:28:30.779Z",
     "expires_at_utc": "2026-11-25T13:28:30.779Z",
-    "reason": "Consolidate decision-specific empirical evidence and scoped contribution"
+    "reason": "Consolidate decision-specific empirical evidence and scoped contribution",
+    "released_at_utc": "2026-11-25T12:29:53.783Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Applied first-paper empirical bridge and synthesis; science OPEN",
+  "current_mode": "First paper synthesis and contribution triage; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_PHARMACY_BUNDLE_AUDIT_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_EVIDENCE_ARCHITECTURE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved by original blob aa98a7656addc94d3c32d803573cf5a52e8254dd; main and backlog unchanged.",
-  "latest_result": "Applied joint recipe audit to Kobe dispensing case: sharp item-to-prescription grouping envelope and conditional cardinality-limited residual ceiling; staff authorization and work clocks separate; field MPK and learning causal return unidentifiable.",
+  "preservation": "Previous released state preserved by original blob 63a2736251b5f361ee76562ed2c29f47a45f5838; main and backlog unchanged.",
+  "latest_result": "Integrated source-specific empirical decision matrix; overlapping-cohort omitted-recipe residual relaxation and audit multiplier certificate; new public human baseline dataset route located, raw records not retrieved; no commercial causal identification.",
   "validation": {
-    "cases": 49560,
-    "checks": 1076,
-    "published": [
-      {
-        "period": 2,
-        "N": 51482,
-        "T": 106611,
-        "M": 81073,
-        "otherRoutes": [
-          4380,
-          9252,
-          11907
-        ],
-        "B": 25538,
-        "tableRouteSum": 106612,
-        "allDS": [
-          25944,
-          51481
-        ],
-        "allDSShare": [
-          0.5039431257526903,
-          0.9999805757352084
-        ],
-        "affectedNonDS": [
-          1,
-          25538
-        ],
-        "hypotheticalCap4": [
-          25944,
-          45097
-        ]
-      },
-      {
-        "period": 3,
-        "N": 54822,
-        "T": 114111,
-        "M": 87742,
-        "otherRoutes": [
-          4091,
-          9975,
-          12303
-        ],
-        "B": 26369,
-        "tableRouteSum": 114111,
-        "allDS": [
-          28453,
-          54821
-        ],
-        "allDSShare": [
-          0.5190069680055452,
-          0.9999817591477874
-        ],
-        "affectedNonDS": [
-          1,
-          26369
-        ],
-        "hypotheticalCap4": [
-          28453,
-          48229
-        ]
-      }
-    ],
-    "field_calibration": false,
-    "full_repository_ci": false
+    "cases": 6400,
+    "checks": 236800,
+    "interpretation": "integer subset and nonnegative multiplier upper-bound checks; not proof or field data",
+    "field_calibration": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/EVIDENCE_ARCHITECTURE.md",
+    "research/theory_integration_2026_11_17/data_value/evidence_architecture.js",
+    "research/theory_integration_2026_11_17/data_value/evidence_architecture_results.json",
+    "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
+    "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_EVIDENCE_ARCHITECTURE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/PHARMACY_BUNDLE_AUDIT.md",
     "research/theory_integration_2026_11_17/data_value/pharmacy_bundle_audit.js",
     "research/theory_integration_2026_11_17/data_value/pharmacy_bundle_audit_results.json",
@@ -99,8 +47,6 @@
     "research/theory_integration_2026_11_17/data_value/JOINT_RECIPE_AUDIT_SOLUTION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_JOINT_RECIPE_AUDIT_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/MULTI_RESOURCE_MPK_PORTFOLIO.md",
-    "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
-    "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
     "research/theory_integration_2026_11_17/data_value/multi_resource_mpk_portfolio.js",
     "research/theory_integration_2026_11_17/data_value/multi_resource_mpk_portfolio_results.json",
     "research/theory_integration_2026_11_17/data_value/MULTI_RESOURCE_MPK_EXERCISE.md",
@@ -113,7 +59,6 @@
     "research/theory_integration_2026_11_17/data_value/NETWORK_MPK_SOLUTION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_MPK_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/ECONOMIC_OBJECTS_AND_ORACLE_GAP.md",
-    "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
     "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle.js",
     "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle_results.json",
     "research/theory_integration_2026_11_17/data_value/ORACLE_GAP_EXERCISE.md",
@@ -208,9 +153,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Applied complete-bundle count envelope and conditional cardinality ceiling; actual priced recipe/witness and learning exposure open",
-      "question": "Consolidate source-grounded complete-bundle and joint resource ceilings across supported cases into compact empirical matrix. Seek a real original opportunity ledger with dated resource incidence and independently bounded captured value or jointly documented successor exposure; no multiplication of medians or item success. If unavailable retain conditional nonidentification and prioritize integrated contribution choice over another narrow synthetic mechanism.",
-      "deliverable": "Consolidated source-supported empirical design and scope-locked conditional paper argument; actual matched evidence where available"
+      "status": "Consolidated empirical architecture; conditional contribution candidate and residual audit; field evidence open",
+      "question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
+      "deliverable": "Compact contribution hierarchy and discriminating empirical design with explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -235,15 +180,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Applied complete-bundle count envelope and conditional cardinality ceiling; actual priced recipe/witness and learning exposure open",
-      "question": "Consolidate source-grounded complete-bundle and joint resource ceilings across supported cases into compact empirical matrix. Seek a real original opportunity ledger with dated resource incidence and independently bounded captured value or jointly documented successor exposure; no multiplication of medians or item success. If unavailable retain conditional nonidentification and prioritize integrated contribution choice over another narrow synthetic mechanism.",
-      "deliverable": "Consolidated source-supported empirical design and scope-locked conditional paper argument; actual matched evidence where available"
+      "status": "Consolidated empirical architecture; conditional contribution candidate and residual audit; field evidence open",
+      "question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
+      "deliverable": "Compact contribution hierarchy and discriminating empirical design with explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Qualified network cut geometry (restricted), dynamic exposure decomposition and feasible-policy comparison; multiresource aggregation open",
-    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI). Kobe dispensing actual medication-line and prescription counts, conditional complete-bundle grouping, retained pharmacist review and resource-clock medians; no field economic return.",
-    "paper": "Compact draft with applied prescription-bundle grouping, portfolio MPK certificates and unresolved causal identification.",
+    "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI). Kobe dispensing actual medication-line and prescription counts, conditional complete-bundle grouping, retained pharmacist review and resource-clock medians; no field economic return.; public footwear WMS dataset v1 located; raw CSV not retrieved, human baseline only.",
+    "paper": "Compact draft with evidence architecture and decision-specific overlapping cohort certificate; field calibration unresolved.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -355,7 +300,7 @@
     "Kobe Table 1 period 2 route sum differs by one; Table 3 n differs from prose. Item allocation conditional on partition; dispensed cohort excludes unserved opportunities. Cardinality scope, independent contribution caps and dated resource price/schedule absent; no actual MPK or learning intervention."
   ],
   "last_notification": "2026-11-25 Eastern: shared-resource qualification can change joint robotic capital returns while every separate measured marginal and incumbent output are unchanged; local aggregation iff common minimizing price, conditional theory.",
-  "execution_note": "Executed JS checker in V8 and published same function source; no independent replay or full CI. Source PDF Table 1–3 inspected visually. Lease released atomically.",
+  "execution_note": "Executed scoped synthetic multiplier bounds in V8, no independent replication/full CI or raw warehouse data.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -373,8 +318,8 @@
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
   "publication_parent_commit": "b384c03351380c1f0a66830113d0a615750f776e",
-  "current_proof_gap": "Need independently justified upper coverage of omitted jointly qualified recipe residuals and actual feasible witnesses on a common original-order catchment; missing counterfactual dynamic histories and lawful retention intervention prevent causal mediation.",
-  "exact_next_action": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+  "current_proof_gap": "No matched original opportunity settlement panel, independently supported residual margins and feasible schedule witness; contemporary official use/supply backbone absent.",
+  "exact_next_action": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -392,7 +337,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T11:29:37.273Z",
+  "updated_at_utc": "2026-11-25T12:29:53.783Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -678,7 +623,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+  "current_question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -4338,5 +4283,11 @@
     ],
     "field_calibration": false,
     "full_repository_ci": false
+  },
+  "validation_evidence_architecture": {
+    "cases": 6400,
+    "checks": 236800,
+    "interpretation": "integer subset and nonnegative multiplier upper-bound checks; not proof or field data",
+    "field_calibration": false
   }
 }
