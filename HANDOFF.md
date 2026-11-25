@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: robomicroeconomic-foundations-20261125.
+Handoff ID: learning-and-capital-production-networks-20261125.
+
+## Learning and capital across firms
+
+November 25, 2026, Eastern. [Learning and Capital in Robotic Production](papers/learning_and_capital/README.md) connects the two theory programs through the additional funded installations that a marginal deployment causes across sites and owners. It derives the conditions under which cross-market demand, transferable methods and reinvestable cash sustain further investment. The paper separates a learning lead from a permanent increase in viable installations and follows the physical marginal product of a robot as other firms deploy capital. The [replication](papers/learning_and_capital/replication.py) checks the derived generation matrix against dated capital, method and financing states, and verifies the investment, timing and upstream comparative statics.
+
+**Next research question.** Can a change in release rights or payment milestones reveal whether a source deployment induced additional installations at other firms, after comparable sites have had time to learn and invest through ordinary operations?
 
 ## Economic premises for the production and recursive-firm papers
 

@@ -2,6 +2,12 @@
 
 The links to research branches open the current manuscripts, code and numerical results. The PDFs below preserve the dated reading editions.
 
+## Learning and capital in robotic production
+
+What makes one deployment induce another, possibly at a different firm or in a different industry? The common model links the production decisions in *When Capabilities Become Production* to the choices over learning and reinvestment in *Recursive Firm Theory*. It derives the response of robot-capital productivity as the fleet adjusts and a condition under which two markets can sustain additional adoption together. [Working paper](learning_and_capital/README.md) · [PDF](learning_and_capital/Learning_and_Capital_in_Robotic_Production.pdf) · [Replication](learning_and_capital/replication.py)
+
+From the repository root, run `python3 papers/learning_and_capital/replication.py` with NumPy installed.
+
 [How deployment changes the productivity of robot capital](How_Deployment_Changes_Robot_Productivity.md) develops the premises of the two working papers through parcel handling and power inspection. It includes proposed openings, a model of the marginal product of robot hours, and tests of execution, learning and authority.
 
 ## Recursive Firm Theory

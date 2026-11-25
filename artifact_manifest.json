@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "robomicroeconomic-foundations-20261125",
+  "snapshot_id": "learning-and-capital-production-networks-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "robomicroeconomic-foundations-20261125",
-      "sha256": "6caed105e8b928ddc64189a5ec2072a3ab9e5edb0e16282f28c59c5ceb177d0e"
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "8a33a94d4679840bdfa0cd6be34f89d3556695ef261c17039f9d5f513b418669"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,8 +117,8 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "production-of-capability-dynamics-20261125",
-      "sha256": "9483e42442adbead74820ac08073e8fce8c61d3232c830a9365385b7d81cd2ed"
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "40db47b381af738e59b4beab2fca7549a0032ca434c1ea2942c3312cf25c3162"
     },
     {
       "repository_path": "REPORT.md",
@@ -3001,8 +3001,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "41536bb0cc414317f7d4c0c740ce0a71407a3f628c116e6779919790fc0d0a82",
-      "version": "robomicroeconomic-foundations-20261125"
+      "sha256": "28da3758e4b607edb151950e11c33b3cfbad5e2196e0f4a1ea88c586c598414b",
+      "version": "learning-and-capital-production-networks-20261125"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "robomicroeconomic-foundations-20261125",
-      "sha256": "06ffacd8a43329f62d0225b5c6bf7ca90bc0ab43461a9cb174fec31baf109cad"
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "1d50978ce3a3441b979cee6276b876456cad42425f300d439a291aeedb5ae16d"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3689,6 +3689,27 @@
       "name": "How_Deployment_Changes_Robot_Productivity.md",
       "version": "robomicroeconomic-foundations-20261125",
       "sha256": "27e1700563475ecbae3cd265b6f9de1d597c9868e70af4ddd4179a655fed4274"
+    },
+    {
+      "repository_path": "papers/learning_and_capital/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/learning_and_capital/README.md",
+      "name": "README.md",
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "8270406f8a4083453ce1a96664e4cc1d4d5a5c8e6441dc8f8786e45270247b05"
+    },
+    {
+      "repository_path": "papers/learning_and_capital/replication.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/learning_and_capital/replication.py",
+      "name": "replication.py",
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "027270d5966505d82769722220454becf8817f4250e475821d519e63a399aca8"
+    },
+    {
+      "repository_path": "papers/learning_and_capital/Learning_and_Capital_in_Robotic_Production.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/learning_and_capital/Learning_and_Capital_in_Robotic_Production.pdf",
+      "name": "Learning_and_Capital_in_Robotic_Production.pdf",
+      "version": "learning-and-capital-production-networks-20261125",
+      "sha256": "e59c73611453bc794574a32f709b48105d2bd67e82ca676fcf32718cf55f8c81"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
