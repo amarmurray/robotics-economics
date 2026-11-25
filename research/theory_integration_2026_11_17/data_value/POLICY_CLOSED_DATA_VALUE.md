@@ -1,3 +1,5 @@
+**24 November — Model A/B coordination and routine exposure.** [Integrated coordination-grounding chapter](COORDINATION_ROUTINE_MODEL_AB.md) separates coordination-induced usable capacity from routine-data substitution. The signed marginal G interaction is the weighted capacity-only overlap less the routine qualification overlap on already usable capacity; sharp conditional bounds and a matched-marginal eight-history counterexample reverse optimal C versus CG. The economically relevant C rival lets its retained routine learner evolve; a frozen-controller diagnostic is not that rival. Actual matched four-program returns, physical assumptions and scientific novelty remain unverified; science gate OPEN, December25 Eastern unchanged.
+
 # Policy-closed economic data value: first-paper synthesis and routine-data redundancy
 
 24 November 2026. Integrates [dated reserve prices](DATED_RESERVE_PRICE_TRANSPORT.md), [endogenous offers and capacity](ENDOGENOUS_OFFER_NETWORK_AND_CAPACITY.md) and [graph exchange](GRAPH_EXCHANGE_DISCOVERY.md). All numerical quantities are synthetic; no new general decision-theory novelty is claimed.

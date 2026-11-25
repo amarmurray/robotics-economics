@@ -1,0 +1,51 @@
+{
+  "checks": 112960,
+  "cases": 55986,
+  "groupsByN": {
+    "1": 6,
+    "2": 18,
+    "3": 40,
+    "4": 75,
+    "5": 126,
+    "6": 196
+  },
+  "examples": [
+    {
+      "w0": 15,
+      "w1": 63,
+      "s": 193,
+      "counts": [
+        4,
+        6,
+        3,
+        1
+      ],
+      "net": {
+        "P": 0,
+        "G": 0,
+        "C": 1,
+        "CG": 2
+      },
+      "interaction": 1
+    },
+    {
+      "w0": 15,
+      "w1": 63,
+      "s": 7,
+      "counts": [
+        4,
+        6,
+        3,
+        3
+      ],
+      "net": {
+        "P": 0,
+        "G": 0,
+        "C": 3,
+        "CG": 2
+      },
+      "interaction": -1
+    }
+  ],
+  "scope": "synthetic integer enumeration; no field calibration"
+}

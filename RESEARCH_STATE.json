@@ -2,61 +2,84 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "edd1004fe472451384feef39384aead5c6c16a4a",
+  "research_input_commit": "0990733260fddcef7fa366367ecdce2eaea42eb8",
   "lease": {
     "run_id": "coordination-model-ab-2026-11-25T00:31:57.083Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T00:31:57.083Z",
     "expires_at_utc": "2026-11-25T01:31:57.083Z",
-    "reason": "Common Model A/B coordination rival and routine-data emulation"
+    "reason": "Common Model A/B coordination rival and routine-data emulation",
+    "released_at_utc": "2026-11-25T00:33:57.062Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Policy-closed data value: focused empirical section and realizable capital savings; science OPEN",
+  "current_mode": "Policy-closed Model A/B: coordination, routine exposure and grounding interaction; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_EMPIRICAL_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COORDINATION_ROUTINE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Prior released state preserved as exact original blob d3da8870e1086951fb6a47758d218075f4c7197b; main and backlog unchanged.",
-  "latest_result": "Focused evidence section: published deployed coordination-only comparator with reported drive cost avoidance, and sharp conditional peak-capacity/purchase bounds. Actual causal data-program value remains unidentified.",
+  "preservation": "Previous released state retained by original blob b105cd1eb4584abadc2e1bae1846563c853bb670; backlog and main untouched.",
+  "latest_result": "Conditional signed capacity-versus-routine-exposure interaction, sharp partial identification and whole-program C/CG reversal; no field causal estimate.",
   "validation": {
-    "checks": 257263,
-    "cases": 10110,
-    "synthetic": {
-      "h": [
-        2,
-        0
-      ],
-      "d": [
-        8,
-        8
-      ],
-      "totalReduction": 4,
-      "peakReductionBounds": [
-        0,
-        3
-      ],
-      "preOwned": 8,
-      "avoidedPurchaseBounds": [
-        0,
-        2
-      ]
+    "checks": 112960,
+    "cases": 55986,
+    "groupsByN": {
+      "1": 6,
+      "2": 18,
+      "3": 40,
+      "4": 75,
+      "5": 126,
+      "6": 196
     },
-    "observed": {
-      "distanceReduction": 0.62,
-      "driveRequirementReduction": 0.31,
-      "reportedDriveSavingsUSD": 500000000,
-      "period": "2017–2020",
-      "conditionalDistanceShare": 0.5,
-      "actualShareIdentified": false
-    },
-    "fieldCausalDataValue": false,
-    "fullRepositoryCI": false,
-    "source_blob": "038def05dfde74c72d5bc59346496d98cee0a260",
-    "results_blob": "72e7007cea621e8da4c10a4e817d60bd2de874bd",
-    "scope": "Generated exact finite JS model executed in V8; analytic proof separately documented; independent remote replay and full CI not performed."
+    "examples": [
+      {
+        "w0": 15,
+        "w1": 63,
+        "s": 193,
+        "counts": [
+          4,
+          6,
+          3,
+          1
+        ],
+        "net": {
+          "P": 0,
+          "G": 0,
+          "C": 1,
+          "CG": 2
+        },
+        "interaction": 1
+      },
+      {
+        "w0": 15,
+        "w1": 63,
+        "s": 7,
+        "counts": [
+          4,
+          6,
+          3,
+          3
+        ],
+        "net": {
+          "P": 0,
+          "G": 0,
+          "C": 3,
+          "CG": 2
+        },
+        "interaction": -1
+      }
+    ],
+    "scope": "Generated source executed in V8; analytic proof separate; independent replay/full CI not performed",
+    "field_causal_data_value": false,
+    "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_MODEL_AB.md",
+    "research/theory_integration_2026_11_17/data_value/coordination_routine_exact.js",
+    "research/theory_integration_2026_11_17/data_value/coordination_routine_results.json",
+    "research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_COORDINATION_ROUTINE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
     "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity.js",
     "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity_results.json",
@@ -113,9 +136,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Focused empirical claim set drafted; matched learning-program comparison unidentified",
-      "question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
-      "deliverable": "Focused contribution and Model A/B connection, matched whole-program evidence or explicit nonidentification"
+      "status": "Common Model A/B coordination rival integrated; causal comparison unidentified",
+      "question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
+      "deliverable": "Focused contribution, independent full-program comparison or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -140,15 +163,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Focused empirical claim set drafted; matched learning-program comparison unidentified",
-      "question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
-      "deliverable": "Focused contribution and Model A/B connection, matched whole-program evidence or explicit nonidentification"
+      "status": "Common Model A/B coordination rival integrated; causal comparison unidentified",
+      "question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
+      "deliverable": "Focused contribution, independent full-program comparison or explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, conditional rubric and original-order screening bounds; lawful information certificate.",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Focused empirical section drafted with bounded technical, resource, demand and deployed coordination evidence; no matched learning ROI.",
+    "paper": "Focused empirical section and common coordination/routine-grounding interaction integrated; no causal field learning ROI.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -248,13 +271,14 @@
     "Moment bounds standard elementary inequalities; no full CI, independent replay or field calibration. No new official numeric topology route.",
     "Fixed-count audit assumes exact independent terminal settlement count and known order-specific conditional net weights; uniform cost and nonadaptive design minimize worst interval width only. No real settlement audit, paired whole-program economic effect, full CI or new official numeric source.",
     "Cainiao arXiv v1 selected HTML inspected; published inbound and delivery count and rounded robot fraction, selected price regression, no microdata, arm assignment, settlement/cost or learning histories. Nearest-integer rounding interval is conditional, no causal whole-population price response claimed.",
-    "Amazon Allgor et al. report drive-cost savings, not net learning-program contribution; conditional peak-capacity bounds assume fixed qualified service, fungible dated drive clocks, no carryover and independently supported travel savings. Actual constraints, purchase costs and joint settlement/learning data unavailable."
+    "Amazon Allgor et al. report drive-cost savings, not net learning-program contribution; conditional peak-capacity bounds assume fixed qualified service, fungible dated drive clocks, no carryover and independently supported travel savings. Actual constraints, purchase costs and joint settlement/learning data unavailable.",
+    "Coordination interaction assumes fixed H, W1>=W0, retained routine and G effects combine by OR, additive costs and lawful observed qualification; cross-arm latent R and overlap not identified by separate marginal reports."
   ],
   "last_notification": {
     "key": "20261124-cel-fleet-resource-clock",
     "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
-  "execution_note": "Bounded public evidence search and focused empirical synthesis; no new official numeric contemporary edge, no field experiment, no full repository CI. Lease released in this publication.",
+  "execution_note": "Scoped exact V8 synthetic enumeration and analytical proof; source not independently remotely replayed; previous state preserved; no commercial causal inference.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -271,9 +295,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": true,
-  "publication_parent_commit": "ca79c8fab3f282cddd030372d0a1ff4272cb63b8",
-  "current_proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
-  "exact_next_action": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "publication_parent_commit": "8f1a9a411f891bc128bf04d2149560ecff689411",
+  "current_proof_gap": "Actual independently evolved P/G/C/CG paid service and costs, or validated joint original-order capacity/readiness overlap and structural invariance; no external identification. Need distinguish coordination-induced exposure from frozen-controller mechanics.",
+  "exact_next_action": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -291,7 +315,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-24T23:33:58.237Z",
+  "updated_at_utc": "2026-11-25T00:33:57.062Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -308,9 +332,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
-  "proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
-  "next_action": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "exact_question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
+  "proof_gap": "Actual independently evolved P/G/C/CG paid service and costs, or validated joint original-order capacity/readiness overlap and structural invariance; no external identification. Need distinguish coordination-induced exposure from frozen-controller mechanics.",
+  "next_action": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -376,7 +400,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "exact_intellectual_question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -396,7 +420,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "exact_next": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -496,7 +520,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "next_proof_gap": "Actual independently evolved P/G/C/CG paid service and costs, or validated joint original-order capacity/readiness overlap and structural invariance; no external identification. Need distinguish coordination-induced exposure from frozen-controller mechanics.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -577,7 +601,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "current_question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1657,7 +1681,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Use the focused empirical section as the paper's bounded claim set. Seek genuinely new lawful original-order/paid-cost/independently evolving learning evidence or independently justified residual envelopes; avoid further isolated proxies. If unavailable, tighten the Model A/B connection and evaluate the coordination-only rival against routine-data emulation in the common argument, preserving the nonidentification conclusion. Contemporary official numeric topology only through an actually accessible new route.",
+  "next_question": "Can an independently evolving routine learner under a coordination-only change emulate deliberate grounding, or does usable released capacity complement grounding? Identify matched P/G/C/CG complete program returns or justify joint original-order capacity/readiness overlap bounds; if unavailable, consolidate the bounded first-paper contribution and avoid another disconnected proxy. Preserve X/E alternatives and official topology only through genuinely accessible new numeric source.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -3716,5 +3740,58 @@
     "source_blob": "038def05dfde74c72d5bc59346496d98cee0a260",
     "results_blob": "72e7007cea621e8da4c10a4e817d60bd2de874bd",
     "scope": "Generated exact finite JS model executed in V8; analytic proof separately documented; independent remote replay and full CI not performed."
+  },
+  "validation_coordination_routine": {
+    "checks": 112960,
+    "cases": 55986,
+    "groupsByN": {
+      "1": 6,
+      "2": 18,
+      "3": 40,
+      "4": 75,
+      "5": 126,
+      "6": 196
+    },
+    "examples": [
+      {
+        "w0": 15,
+        "w1": 63,
+        "s": 193,
+        "counts": [
+          4,
+          6,
+          3,
+          1
+        ],
+        "net": {
+          "P": 0,
+          "G": 0,
+          "C": 1,
+          "CG": 2
+        },
+        "interaction": 1
+      },
+      {
+        "w0": 15,
+        "w1": 63,
+        "s": 7,
+        "counts": [
+          4,
+          6,
+          3,
+          3
+        ],
+        "net": {
+          "P": 0,
+          "G": 0,
+          "C": 3,
+          "CG": 2
+        },
+        "interaction": -1
+      }
+    ],
+    "scope": "Generated source executed in V8; analytic proof separate; independent replay/full CI not performed",
+    "field_causal_data_value": false,
+    "full_repository_ci": false
   }
 }

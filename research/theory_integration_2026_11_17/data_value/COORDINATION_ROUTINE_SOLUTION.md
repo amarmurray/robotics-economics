@@ -1,0 +1,2 @@
+# Solution
+Overlap count j_n is 1 to 3 by intersection bounds. G after C returns 6-j_n-4=2-j_n, range [-1,1]; profitable iff j_n<2. G alone returns 4-4=0. C returns j_n and CG returns 2; CG wins at j_n=1 and C at 3. Free optional modules preserve old policies, not every forced implementation. Frozen-controller C excludes endogenous production-induced data; it measures a distinct controlled diagnostic. If S=0, the gross interaction is nonnegative because W1>=W0. Costs and other service opportunities must be included in a complete model.

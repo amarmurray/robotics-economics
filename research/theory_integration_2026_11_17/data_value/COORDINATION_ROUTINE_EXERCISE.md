@@ -1,0 +1,2 @@
+# Exercise: coordination and data acquisition
+Eight equiprobable original orders have R=1, old capacity on four, new capacity on six, and incremental routine readiness on three. Net service contribution is 8 and grounding costs 4; early coordination contribution net of its costs is zero. Derive the sharp G-after-C marginal range; identify when it is profitable. Explain why a frozen-controller C experiment is not the complete rival. What if C frees capacity but generates no useful data?
