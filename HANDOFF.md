@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-network-mpk-20261125.
+Handoff ID: recursive-firm-inquiry-foundations-20261125.
+
+## Economic foundations for Recursive Firm Theory
+
+The [branch entry point](research/recursive_firm/README.md) now opens with the premises. [How firms learn what to test](research/recursive_firm/inquiry/README.md) derives the stakes-weighted value of choosing a diagnostic, separates established site specialization from the potential return to a retained inquiry procedure, and ties the latter to the marginal value of a further installation. It follows source branch 6951d24824287b11056e62e3e5221f818086ef5c and the [paired introductions on main](https://github.com/amarmurray/robotics-economics/blob/e9ba30fcafbe216606e33636bdd91cbf418e1582/papers/How_Deployment_Changes_Robot_Productivity.md). The applied cases include commercial dairies, parcel induction and digital service.
+
+The two-model digital rank reversal in the prior network study supplies a menu-dependent illustration. Restoring all 12 original τ-bench options leaves zero domain-selection premium at reported scores. Category-conditioned selection lost to pooled selection on held-out tasks in each of two published robot suites. This is a static benchmark comparison. The network simulations remain conditional mechanism evidence. [Full tables, code and outcomes](research/recursive_firm/inquiry/results.json)
+
+**Next unresolved question.** Does prior operation produce a rule that improves the first costly test at a new site after giving the ordinary team credit for its existing site rules? Cross independent source-program assignment with free versus externally assigned target tests. Hold execution, validation budgets and rights fixed. In the reference-sample study, compare separately funded and jointly funded audits after successful automation changes which exceptions remain visible. This preserves the existing pilot’s other questions and final synthesis.
 
 ## Marginal products across firms and end markets
 

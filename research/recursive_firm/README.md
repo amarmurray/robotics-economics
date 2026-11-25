@@ -2,11 +2,23 @@
 
 ## How production changes what the firm learns
 
-RoboEcon research branch · opened 20 November 2026, US Eastern
+A robot’s operating method determines what work it can perform. The operator’s method of inquiry determines what its next hour of deployment, teleoperation or testing can teach it. Earlier work can change either method. Recursive Firm Theory asks **when a firm produces a better way to learn from its next deployment, what that ability is worth, and where the return accrues along the value chain**.
 
-Read the [founding note (PDF)](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf) or [Intervention as a Production Input (PDF)](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf). The [RoboEcon paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) includes the related Autonomous Firm paper and its replication code.
+Begin with a job, its acceptance standard and deadline, the machines and people able to complete it, and the observations their choices leave behind. An attempted grasp yields a different record from a parcel sent to a person. A supplier can see a machine trace while only the customer sees the final disposition. A retained procedure becomes economically consequential when it changes a later decision in time to affect accepted work or real costs. The benchmark is the best feasible existing team and learning routine, including its ability to specialize by site.
 
-**When Capabilities Become Production** asks when a capability, buyer demand, qualification, resources and rights combine to deliver economically accepted work. **Recursive Firm Theory** asks how the organization that performs those conversions comes to exist and changes. A firm can invest in who sees a failure, who may propose an experiment, who bears its loss, and who can revise the operating rule when the result arrives. The latter question applies to a physical fleet, an LLM service business or a federation of independent operators. A single project can supply evidence to both inquiries. Each needs its own outcome and competing explanation. [Foundation and the earlier Q-learning benchmark](../theory/recursive_firm.md) · [Connected production research](https://github.com/amarmurray/robotics-economics/blob/4c39ae66b5e2d8014676dd493550e882ddc48e36/research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md)
+**Start with [How firms learn what to test](inquiry/README.md) or its [PDF reading edition](inquiry/How_Firms_Learn_What_to_Test.pdf).** The paper derives when choosing what to learn can pay, how an incumbent's local knowledge limits the gain, and how changing the learning arrangement can revalue the next robot. Commercial dairy operations, parcel induction and digital service illustrate different ways work enters the record. Complete published benchmark tables test how much apparent adaptation ordinary policy selection can explain.
+
+| Question | What would count as evidence? | Where to read next |
+|---|---|---|
+| Does deployment teach a reusable way to investigate? | On unfamiliar jobs a carried procedure changes which fresh test runs, at matched hardware, information and review cost. | [Foundations and the field test](inquiry/README.md#the-test-the-theory-should-face) |
+| Does automation change its own supply of evidence? | A release changes which original cases enter training and the choices made by the next release. | [Fleet learning dynamics](learning_dynamics/README.md) · [Validation of transfer](transfer_validation/README.md) |
+| Who can act on what the firm learns? | An independently chosen reference sample changes a release or paid order that supplier receipts alone could not resolve. | [Learning from settlements](settlement_learning/README.md) |
+| How does that revalue capital across markets? | Compare output, labor by role, and the return to a further installation before and after a change elsewhere in the chain. | [Marginal products across firms](network_mpk/README.md) |
+
+The companion *When Capabilities Become Production* studies how capability and complementary inputs turn into accepted work. The Recursive Firm branch holds that conversion open and asks how the organization can change it over time. The [RoboEcon working-paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) also includes the founding [Recursive Firm note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf), the [intervention note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf) and the related Autonomous Firm work. [Original formalization and Q-learning benchmark](../theory/recursive_firm.md)
+
+## Findings from individual studies
+
 
 ## How does one firm’s automation change the value of another firm’s next robot?
 

@@ -1,0 +1,71 @@
+{
+  "units": "percentage points of the published score; equal weight per task within embodiment or per digital domain",
+  "robots": {
+    "WidowX": {
+      "tasks": 17,
+      "in_sample": {
+        "fixed_models": [
+          "OpenVLA"
+        ],
+        "fixed": 70.58823529411765,
+        "family": 71.17647058823529,
+        "task_hindsight": 74.11764705882354,
+        "static_family_gain": 0.5882352941176471,
+        "remaining_within_family": 2.9411764705882355
+      },
+      "leave_one_task_out": {
+        "pooled": 70.58823529411765,
+        "family": 68.97058823529412,
+        "family_gain": -1.6176470588235294
+      },
+      "other_embodiment_choice": [
+        "OpenVLA"
+      ],
+      "other_embodiment_score": 70.58823529411765
+    },
+    "Google": {
+      "tasks": 12,
+      "in_sample": {
+        "fixed_models": [
+          "OpenVLA"
+        ],
+        "fixed": 85.0,
+        "family": 85.0,
+        "task_hindsight": 90.0,
+        "static_family_gain": 0.0,
+        "remaining_within_family": 5.0
+      },
+      "leave_one_task_out": {
+        "pooled": 85.0,
+        "family": 81.66666666666667,
+        "family_gain": -3.3333333333333335
+      },
+      "other_embodiment_choice": [
+        "OpenVLA"
+      ],
+      "other_embodiment_score": 85.0
+    }
+  },
+  "digital": {
+    "previous_pair": {
+      "fixed_models": [
+        "gpt-4-turbo"
+      ],
+      "fixed": 45.05,
+      "family": 46.2,
+      "task_hindsight": 46.2,
+      "static_family_gain": 1.15,
+      "remaining_within_family": 0.0
+    },
+    "all_reported": {
+      "fixed_models": [
+        "gpt-4o"
+      ],
+      "fixed": 48.2,
+      "family": 48.2,
+      "task_hindsight": 48.2,
+      "static_family_gain": 0.0,
+      "remaining_within_family": 0.0
+    }
+  }
+}
