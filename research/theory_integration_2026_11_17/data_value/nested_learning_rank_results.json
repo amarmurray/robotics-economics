@@ -1,0 +1,102 @@
+{
+  "checks": 28,
+  "source_transfer": [
+    [
+      1,
+      0,
+      0.25
+    ],
+    [
+      0,
+      1,
+      0.25
+    ]
+  ],
+  "composition_directions": [
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      -1
+    ]
+  ],
+  "baseline": [
+    1,
+    1,
+    1
+  ],
+  "coordinated": [
+    2,
+    0.5,
+    0.5
+  ],
+  "forms": {
+    "exponential": {
+      "technical_gradient": [
+        [
+          0.21487859764514256,
+          -0.07162619921504752
+        ],
+        [
+          -0.07162619921504752,
+          0.21487859764514256
+        ]
+      ],
+      "determinant": 0.04104249931194939,
+      "finite_difference": [
+        [
+          0.21487861778995976,
+          -0.07162619996115005
+        ],
+        [
+          -0.07162619996115005,
+          0.21487861778995976
+        ]
+      ],
+      "scalar_null_determinant": 0,
+      "collapsed_economic_determinant": 0,
+      "baseline_grounding_gain": 0.11273085340974498,
+      "coordination_grounding_gain": 0.046993211232468246,
+      "capacity_ratio_threshold": 2.398875293967093,
+      "interaction_below": -0.022546170681949,
+      "interaction_above": 0.022546170681948974
+    },
+    "rational": {
+      "technical_gradient": [
+        [
+          0.14814814814814814,
+          -0.04938271604938271
+        ],
+        [
+          -0.04938271604938271,
+          0.14814814814814814
+        ]
+      ],
+      "determinant": 0.019509221155311687,
+      "finite_difference": [
+        [
+          0.1481481646090077,
+          -0.04938271665899663
+        ],
+        [
+          -0.04938271665899663,
+          0.1481481646090077
+        ]
+      ],
+      "scalar_null_determinant": -4.336808689942018e-19,
+      "collapsed_economic_determinant": 0,
+      "baseline_grounding_gain": 0.08080808080808077,
+      "coordination_grounding_gain": 0.044137931034482714,
+      "capacity_ratio_threshold": 1.830808080808082,
+      "interaction_below": -0.016161616161616155,
+      "interaction_above": 0.016161616161616155
+    }
+  },
+  "synthetic": true,
+  "field_calibration": false,
+  "full_repository_ci": false
+}
