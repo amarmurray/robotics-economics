@@ -77,3 +77,6 @@ The candidate contribution is a theory of economic data value in **learned, join
 
 
 **25 November — reference capital and cross-vintage relational knowledge.** [Chapter](VINTAGE_REFERENCE_CAPITAL.md) derives the exact value of a relative alignment bridge against marginally uninformative absolute source/target reports, and solves a persistent joint-belief two-transition problem with endogenous redesign, optional anchor retirement, dated validation and selected production records. An anchor can pay to retain before any current bridge-and-test combination fits. Cheap equivalent external measurement removes the special return. Synthetic checks, no field calibration or historical priority claim.
+
+
+**25 November — reference renewal and the direction of investment.** [Chapter](REFERENCE_RENEWAL_AND_TRANSFER_ROTATION.md) derives how relocating an anchor rotates transfer across legacy and new task families, and solves shared dated validation, overlapping orders, selected ordinary records and successor eligibility. Optional renewal raises value but can increase or decrease starts under different binding complements. Equal conditional outside contrasts remove the special ownership return. Conditional theory, no field calibration.
