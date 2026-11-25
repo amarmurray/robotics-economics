@@ -2,51 +2,45 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "e54a4eb2221249c2417acdc4218589029808f143",
+  "research_input_commit": "e8cc97fed54e3815dda113bac3a7b4a333955331",
   "lease": {
     "run_id": "economic-objects-evidence-20261125T0731Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T07:31:23.449Z",
     "expires_at_utc": "2026-11-25T08:46:23.449Z",
-    "reason": "Consolidate economic primitives and distinguish fixed-program and counterfactual estimands"
+    "reason": "Consolidate economic primitives and distinguish fixed-program and counterfactual estimands",
+    "released_at_utc": "2026-11-25T07:32:59.859Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Compact first-paper validation: latent unserved qualification and capacity counterfactual; science OPEN",
+  "current_mode": "Focused compact paper: economic primitives, network marginal value, fixed-program evidence and oracle gap",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_CENSORED_CAPACITY_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ECONOMIC_OBJECTS_ORACLE_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state preserved by original blob c91f58b8e018fa96f6b3cce1628cd7c4033507fb; main and backlog unchanged.",
-  "latest_result": "Sharp conditional extra-capacity envelope from ranked accepted-order logs plus independent marginal readiness; total overflow may be identified while next-slot return is not.",
+  "preservation": "Previous released state preserved by original blob 499495e6185ac93974e55a3621546b9c63356c96; main and backlog unchanged.",
+  "latest_result": "Sharp accepted-log terminal oracle-gap envelope without assumed optimal dispatch; separates fixed-policy effect from optimized economic value and gives body-specific MPK_r scaffold.",
   "validation": {
-    "checks": 19392,
-    "worlds": 12288,
-    "groups": 7101,
-    "example": {
-      "current": 12,
-      "weightedQualificationPotential": 19,
-      "weightedOverflow": 7,
-      "extraSlotGross": [
-        4,
-        7
-      ],
-      "extraSlotCost": 5,
-      "extraSlotNet": [
-        -1,
-        2
-      ],
-      "twoSlotsGross": [
-        7,
-        7
-      ]
+    "cases": 25576,
+    "assertions": 52635,
+    "illustration": {
+      "accepted": 8,
+      "oracle": 12,
+      "regret": 4
     },
-    "fieldCalibration": false,
-    "fullRepositoryCI": false
+    "field_calibration": false,
+    "full_repository_ci": false
   },
   "read_next": [
     "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/ECONOMIC_OBJECTS_AND_ORACLE_GAP.md",
     "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
+    "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle.js",
+    "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle_results.json",
+    "research/theory_integration_2026_11_17/data_value/ORACLE_GAP_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/ORACLE_GAP_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_ECONOMIC_OBJECTS_ORACLE_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/CENSORED_CAPACITY_ENVELOPE.md",
     "research/theory_integration_2026_11_17/data_value/censored_capacity_envelope.js",
     "research/theory_integration_2026_11_17/data_value/censored_capacity_envelope_results.json",
@@ -82,7 +76,6 @@
     "research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_EXERCISE.md",
     "research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_SOLUTION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_COORDINATION_ROUTINE_RELEASED_STATE.json",
-    "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
     "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity.js",
     "research/theory_integration_2026_11_17/data_value/focused_empirical_capacity_results.json",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_EMPIRICAL_CAPACITY_EXERCISE.md",
@@ -137,8 +130,8 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Compact draft and prospective validation amended for censored readiness; field identification open",
-      "question": "Consolidate evidence matrix and first-paper empirical claim around independently evolving fixed-policy accepted contribution versus oracle/capacity counterfactuals; seek direct matched original-order evidence or justified bounds, and explicitly retain nonidentification when not available. Consider joint safe audits and shared learner interference, not disconnected counterexamples.",
+      "status": "Compact theoretical scaffold and fixed-versus-oracle evidence matrix; commercial identification open",
+      "question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
       "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
     },
     {
@@ -164,15 +157,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Compact draft and prospective validation amended for censored readiness; field identification open",
-      "question": "Consolidate evidence matrix and first-paper empirical claim around independently evolving fixed-policy accepted contribution versus oracle/capacity counterfactuals; seek direct matched original-order evidence or justified bounds, and explicitly retain nonidentification when not available. Consider joint safe audits and shared learner interference, not disconnected counterexamples.",
+      "status": "Compact theoretical scaffold and fixed-versus-oracle evidence matrix; commercial identification open",
+      "question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
       "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
     }
   ],
   "portfolio_status": {
     "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds and bounded structural sensitivity; field support absent.",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact draft includes censored qualification and sharp conditional capacity envelope; protocol distinguishes observed fixed-arm contributions from counterfactual expansion.",
+    "paper": "Compact draft includes economic primitives and body-specific MPK_r scaffold, sensitivity, capacity censoring, nonoptimal dispatch and fixed-policy versus optimized evidence.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -276,10 +269,11 @@
     "Coordination interaction assumes fixed H, W1>=W0, retained routine and G effects combine by OR, additive costs and lawful observed qualification; cross-arm latent R and overlap not identified by separate marginal reports.",
     "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope. Numerical enumeration not proof; independent replay/full CI not performed; no new official numeric edge.",
     "Focused sensitivity bounds assume stable common original-order contribution measure, nested usable capacity, one service per window and independently justified cross-program violation upper bounds; no budget measured, and unrestricted demand/cost changes require complete J. Exact synthetic enumeration not proof or field validation.",
-    "Top-K envelope requires predispatch observable joint qualification, fixed nonnegative unit-resource contribution, known integer interchangeable slots and no other constraints; arbitrary shared learner trajectories/latent qualification/queues need full J. Separate-arm contrast extrema are not sharp under unspecified cross-arm constraints. No field calibration. BEA API route verified only at catalog level."
+    "Top-K envelope requires predispatch observable joint qualification, fixed nonnegative unit-resource contribution, known integer interchangeable slots and no other constraints; arbitrary shared learner trajectories/latent qualification/queues need full J. Separate-arm contrast extrema are not sharp under unspecified cross-arm constraints. No field calibration. BEA API route verified only at catalog level.",
+    "Nonoptimal-dispatch envelope requires fixed unit-resource recipes, S subset A, invariant potential readiness/payoffs within a window and common costs. No known dispatch-policy restrictions beyond selection feasibility; oracle may not be implementable. No dynamic or empirical extrapolation."
   ],
-  "last_notification": "2026-11-25 Eastern: accepted-order records and independent marginal readiness may identify total weighted overflow but not next-slot value; sharp conditional accepted-log bounds and protocol, no matched causal field evidence.",
-  "execution_note": "Exact generated JS checker executed before commit; field calibration, full CI and independent review not performed. Relevant current documents read at input revision; attempted exhaustive historical read_next traversal exceeded connector per-script call limit, so no claim of full archival reread.",
+  "last_notification": "2026-11-25 Eastern: economic primitives and topological MPK_r scaffold; sharp terminal oracle-gap certificate without optimal dispatch, fixed-program effect may reverse against stronger rival.",
+  "execution_note": "Analytical proof plus exact generated JS checker executed in connected V8; full CI, independent replay and matched field estimates not performed.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -297,8 +291,8 @@
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
   "publication_parent_commit": "7906475e81c04010c72bc0649743543988f11a09",
-  "current_proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
-  "exact_next_action": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "current_proof_gap": "A terminal oracle cannot bound dynamic policy improvement on realized endogenous histories; network aggregation needs actual recipe incidence, costs, and independently evolving program support.",
+  "exact_next_action": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -316,7 +310,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T02:31:30.873Z",
+  "updated_at_utc": "2026-11-25T07:32:59.859Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -401,7 +395,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "exact_intellectual_question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -4086,5 +4080,16 @@
     },
     "fieldCalibration": false,
     "fullRepositoryCI": false
+  },
+  "validation_nonoptimal_dispatch_oracle": {
+    "cases": 25576,
+    "assertions": 52635,
+    "illustration": {
+      "accepted": 8,
+      "oracle": 12,
+      "regret": 4
+    },
+    "field_calibration": false,
+    "full_repository_ci": false
   }
 }

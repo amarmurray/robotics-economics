@@ -1,0 +1,2 @@
+# Exercise: learning versus dispatch
+A fixed P program with one slot accepts a job worth 8 while an independent audit certifies a second simultaneous job worth 12. A G program accepts the latter, costing 1 extra. All costs and opportunities otherwise equal. Distinguish observed net change, oracle gap, and optimized comparison. What information condition makes P's oracle attainable? Would an independently evolving longitudinal program with a new training stream permit the same comparison? Explain.
