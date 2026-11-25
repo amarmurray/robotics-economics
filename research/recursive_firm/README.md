@@ -17,6 +17,10 @@ Begin with a job, its acceptance standard and deadline, the machines and people 
 
 The companion *When Capabilities Become Production* studies how capability and complementary inputs turn into accepted work. The Recursive Firm branch holds that conversion open and asks how the organization can change it over time. The [RoboEcon working-paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) also includes the founding [Recursive Firm note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf), the [intervention note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf) and the related Autonomous Firm work. [Original formalization and Q-learning benchmark](../theory/recursive_firm.md)
 
+## Who pays for reference coverage?
+
+The [standing reference study](reference_coverage/README.md) asks when two firms preserve an independent sample of the jobs their dispatcher can route away. A joint fund bought extra audits under ordinary drift. An unanticipated reversal made one late check more valuable than adaptive renewal. The study prices both outcomes against every feasible fixed audit calendar and a site-matched calendar from a different fleet.
+
 ## Findings from individual studies
 
 

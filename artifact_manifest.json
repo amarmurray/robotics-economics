@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-inquiry-foundations-20261125",
+  "snapshot_id": "recursive-firm-standing-reference-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-inquiry-foundations-20261125",
-      "sha256": "5fe2fe290b5c0eb6b533ccee8d6ac741a7e5f2294bee3613ec2343458a2de747"
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "ca8ed086fd21c0b28a6530c2fb1e5bae27520fdf8a47af421f9a54b4f15210f2"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-inquiry-foundations-20261125",
-      "sha256": "5dcc24aaedd3ee737954cd51184b609b676009778e133c6f5fc87d44152aac3d"
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "6a07693644975fd7834a6cf8eb44a2bd721270785f28214679aa26c3cade5535"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3808,6 +3808,48 @@
       "name": "test_evidence.py",
       "version": "recursive-firm-inquiry-foundations-20261125",
       "sha256": "69c65fde2613d21fd6046c75f2e20ede0dd5b10f3dd093be0b1bedb1cffad41b"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "f80aa381f3250903ad013f18a95497b0c2dede79a34f9b6b6c8e40940bc2552c"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/renewal.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/renewal.py",
+      "name": "renewal.py",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "9aa75f9c9ff149cfb081a54405d32b23b90d34ff102378abe679f8dbdc42f0f0"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/renewal_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/renewal_results.json",
+      "name": "renewal_results.json",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "5e10ba4e985bc37ac00d914d182d21185532724c3b87211b1b984bb9da819007"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "9c8ef219f50cd61f8a5124e6865babdb1269d414f48b5848f8019055c43bc924"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/study.py",
+      "name": "study.py",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "0497fde43e28b47b8e72fab0efdafe9a22e1449e2f499ef15222bc6b8523c78c"
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/test_study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/reference_coverage/test_study.py",
+      "name": "test_study.py",
+      "version": "recursive-firm-standing-reference-20261125",
+      "sha256": "bd4b5e66e6b924ce4d073116783de3b287efad5c87718fea5225be52d86896d0"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4099,7 +4141,8 @@
         "paper": "research/recursive_firm/inquiry/README.md",
         "reading_edition": "research/recursive_firm/inquiry/How_Firms_Learn_What_to_Test.pdf",
         "public_benchmark_check": "research/recursive_firm/inquiry/results.json"
-      }
+      },
+      "standing_reference_coverage": "research/recursive_firm/reference_coverage/README.md"
     }
   }
 }

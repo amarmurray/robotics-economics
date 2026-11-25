@@ -1,0 +1,344 @@
+{
+  "0.16_ordinary": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      0.04432,
+      0.02266,
+      0.06598
+    ],
+    "joint_minus_yoked": [
+      0.14629,
+      0.13037,
+      0.1622
+    ],
+    "matched_audits": 2.38825,
+    "joint_minus_site": [
+      0.49198,
+      0.46117,
+      0.52279
+    ],
+    "joint_minus_fixed_one": [
+      0.04432,
+      0.02266,
+      0.06598
+    ],
+    "joint_minus_sponsor": [
+      0.04432,
+      0.02266,
+      0.06598
+    ],
+    "joint_audits": 2.384,
+    "sponsor_audits": 1.0,
+    "joint_counts": [
+      0,
+      0,
+      14784,
+      9216,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  },
+  "0.16_reversal": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      -0.59776,
+      -0.61839,
+      -0.57714
+    ],
+    "joint_minus_yoked": [
+      0.28894,
+      0.2719,
+      0.30599
+    ],
+    "matched_audits": 2.6064166666666666,
+    "joint_minus_site": [
+      0.42026,
+      0.38647,
+      0.45405
+    ],
+    "joint_minus_fixed_one": [
+      -0.59776,
+      -0.61839,
+      -0.57714
+    ],
+    "joint_minus_sponsor": [
+      -0.59776,
+      -0.61839,
+      -0.57714
+    ],
+    "joint_audits": 2.61537,
+    "sponsor_audits": 1.0,
+    "joint_counts": [
+      0,
+      0,
+      9231,
+      14769,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  },
+  "0.16_mobile_interference": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      -0.2543,
+      -0.25963,
+      -0.24896
+    ],
+    "joint_minus_yoked": [
+      -0.01576,
+      -0.02004,
+      -0.01148
+    ],
+    "matched_audits": 2.38825,
+    "joint_minus_site": [
+      -0.48611,
+      -0.49395,
+      -0.47827
+    ],
+    "joint_minus_fixed_one": [
+      -0.2543,
+      -0.25963,
+      -0.24896
+    ],
+    "joint_minus_sponsor": [
+      -0.2543,
+      -0.25963,
+      -0.24896
+    ],
+    "joint_audits": 2.384,
+    "sponsor_audits": 1.0,
+    "joint_counts": [
+      0,
+      0,
+      14784,
+      9216,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  },
+  "0.4_ordinary": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_yoked": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "matched_audits": 1.0,
+    "joint_minus_site": [
+      0.20766,
+      0.17507,
+      0.24025
+    ],
+    "joint_minus_fixed_one": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_sponsor": [
+      0.20766,
+      0.17507,
+      0.24025
+    ],
+    "joint_audits": 1.0,
+    "sponsor_audits": 0.0,
+    "joint_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  },
+  "0.4_reversal": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_yoked": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "matched_audits": 1.0,
+    "joint_minus_site": [
+      0.77802,
+      0.74512,
+      0.81093
+    ],
+    "joint_minus_fixed_one": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_sponsor": [
+      0.77802,
+      0.74512,
+      0.81093
+    ],
+    "joint_audits": 1.0,
+    "sponsor_audits": 0.0,
+    "joint_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  },
+  "0.4_mobile_interference": {
+    "exact_fixed_dates": [
+      [
+        11
+      ],
+      [
+        11
+      ]
+    ],
+    "joint_minus_exact_fixed": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_yoked": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "matched_audits": 1.0,
+    "joint_minus_site": [
+      -0.47181,
+      -0.4799,
+      -0.46373
+    ],
+    "joint_minus_fixed_one": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_minus_sponsor": [
+      -0.47181,
+      -0.4799,
+      -0.46373
+    ],
+    "joint_audits": 1.0,
+    "sponsor_audits": 0.0,
+    "joint_counts": [
+      0,
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sponsor_counts": [
+      24000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "different_installation": 0.0
+  }
+}

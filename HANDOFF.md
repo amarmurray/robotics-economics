@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-inquiry-foundations-20261125.
+Handoff ID: recursive-firm-standing-reference-20261125.
+
+## Standing coverage under endogenous admission
+
+The [reference coverage study](research/recursive_firm/reference_coverage/README.md) extends 1b68c354757c13b5eb0505b0fe6ddd82324a8916. When selection masks which recipient diagnostic is useful, an independent source sample can change paid order mix and the value of a further machine. At fee 0.16 flexible joint funding beat the best fixed schedule by 0.044 under ordinary drift and lost by 0.598 after an unanticipated reversal. At fee 0.40 joint funding gained 0.208 over unilateral sponsorship. New simulations use 24,000 evaluation worlds. No new robot trials were run. Next allocate the marginal audit between the source and recipient when the sign of transfer itself can change. Carry the reversal and the unchanged installation choice into the pilot synthesis.
 
 ## Economic foundations for Recursive Firm Theory
 
