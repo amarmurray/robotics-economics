@@ -2,33 +2,56 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "3dfed55fc78776d28bbc739d8e721037ef2f7453",
+  "research_input_commit": "2e7ca37e48a8c9f8d45fcd4f9f73bd6ff9c5b5ff",
   "lease": {
     "run_id": "focused-assumption-audit-2026-11-25T02:30:14.029Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T02:30:14.029Z",
     "expires_at_utc": "2026-11-25T03:30:14.029Z",
-    "reason": "Strengthen focused missing-combination certificate with bounded structural deviations and a compact validation design"
+    "reason": "Strengthen focused missing-combination certificate with bounded structural deviations and a compact validation design",
+    "released_at_utc": "2026-11-25T02:31:30.873Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Focused first-paper candidate: policy-closed economic value and missing-combination screening; science OPEN",
+  "current_mode": "Focused first-paper structural sensitivity and matched evidence; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_MISSING_COMBINATION_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_SENSITIVITY_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state retained by original blob 77fb7a241f30f4eed12f342e04bc98cf83cdbe14; backlog and main untouched.",
-  "latest_result": "Consolidated argument and sharp missing-CG bounds from three independent program marginals and usable capacity ceilings; no field estimate.",
+  "preservation": "Prior released state archived by original blob f08d327a11b6d78cec75cac0e2a28a4b34f7097d; backlog and main unchanged.",
+  "latest_result": "Sharp bounded-deviation missing-combination interval, distinct adoption/rejection evidence budgets; no field calibration.",
   "validation": {
-    "checks": 363359,
-    "cases": 92377,
-    "groups": 18017,
-    "strata": 30887,
-    "scope": "Exact equal-mass finite response-type enumeration, n=1..10; synthetic, not empirical or proof",
+    "checks": 69363,
+    "cases": 69362,
+    "examples": [
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "scope": "all finite set laws through four equal-mass histories, all integer upper-budget vectors, exact attained sets; synthetic not field evidence",
     "field_causal_data_value": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_STRUCTURAL_SENSITIVITY.md",
+    "research/theory_integration_2026_11_17/data_value/focused_sensitivity_exact.js",
+    "research/theory_integration_2026_11_17/data_value/focused_sensitivity_results.json",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_SENSITIVITY_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/FOCUSED_SENSITIVITY_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_FOCUSED_SENSITIVITY_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_CONTRIBUTION_MISSING_COMBINATION.md",
     "research/theory_integration_2026_11_17/data_value/missing_combination_exact.js",
     "research/theory_integration_2026_11_17/data_value/missing_combination_results.json",
@@ -97,8 +120,8 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Focused candidate consolidated; causal identification open",
-      "question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+      "status": "Focused sensitivity certificate proved conditionally; commercial causal identification open",
+      "question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
       "deliverable": "Compact argument and independent comparison or explicit nonidentification"
     },
     {
@@ -124,15 +147,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Focused candidate consolidated; causal identification open",
-      "question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+      "status": "Focused sensitivity certificate proved conditionally; commercial causal identification open",
+      "question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
       "deliverable": "Compact argument and independent comparison or explicit nonidentification"
     }
   ],
   "portfolio_status": {
-    "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds; structural support absent.",
+    "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds and bounded structural sensitivity; field support absent.",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact first-paper candidate, three linked results, conditional missing-CG screen and evidence protocol; no causal field ROI.",
+    "paper": "Compact first-paper candidate with linked decision-specific sensitivity and prospective evidence protocol.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -234,13 +257,14 @@
     "Cainiao arXiv v1 selected HTML inspected; published inbound and delivery count and rounded robot fraction, selected price regression, no microdata, arm assignment, settlement/cost or learning histories. Nearest-integer rounding interval is conditional, no causal whole-population price response claimed.",
     "Amazon Allgor et al. report drive-cost savings, not net learning-program contribution; conditional peak-capacity bounds assume fixed qualified service, fungible dated drive clocks, no carryover and independently supported travel savings. Actual constraints, purchase costs and joint settlement/learning data unavailable.",
     "Coordination interaction assumes fixed H, W1>=W0, retained routine and G effects combine by OR, additive costs and lawful observed qualification; cross-arm latent R and overlap not identified by separate marginal reports.",
-    "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope. Numerical enumeration not proof; independent replay/full CI not performed; no new official numeric edge."
+    "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope. Numerical enumeration not proof; independent replay/full CI not performed; no new official numeric edge.",
+    "Focused sensitivity bounds assume stable common original-order contribution measure, nested usable capacity, one service per window and independently justified cross-program violation upper bounds; no budget measured, and unrestricted demand/cost changes require complete J. Exact synthetic enumeration not proof or field validation."
   ],
   "last_notification": {
     "key": "20261124-cel-fleet-resource-clock",
     "content": "CEL reports fleet learning without further expert actions after initialization; small fleet regressions and 67.7% active share despite 98.7% local fault availability. No matched commercial contrast."
   },
-  "execution_note": "Scoped exact V8 synthetic enumeration and analytical proof; source not independently remotely replayed; previous state preserved; no commercial causal inference.",
+  "execution_note": "Scoped exact finite source executed in connected V8; full repository CI, independent remote replay, field estimates and independent review not performed.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -257,9 +281,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
-  "publication_parent_commit": "e141c8fc1e0c31c01d48af3b5f278acc7bc05f83",
-  "current_proof_gap": "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope.",
-  "exact_next_action": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "publication_parent_commit": "7906475e81c04010c72bc0649743543988f11a09",
+  "current_proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
+  "exact_next_action": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -277,7 +301,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T01:34:22.316Z",
+  "updated_at_utc": "2026-11-25T02:31:30.873Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -294,9 +318,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
-  "proof_gap": "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope.",
-  "next_action": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "exact_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
+  "next_action": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -362,7 +386,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "exact_intellectual_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -382,7 +406,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "exact_next": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -482,7 +506,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope.",
+  "next_proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -563,7 +587,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "current_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1643,7 +1667,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Consolidate focused first-paper candidate and seek independently followed P/G/C/CG paid original-order programs or supported capacity/authorization strata. If unavailable, use missing-combination bounds only under defensible nesting, stable demand and OR readiness; otherwise retain full-program nonidentification. Prioritize compact draft and genuinely new official numeric route over disconnected proxies.",
+  "next_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -3954,5 +3978,30 @@
       }
     ],
     "scope": "Exact equal-mass finite response-type enumeration, n=1..10; synthetic, not empirical or proof"
+  },
+  "validation_focused_structural_sensitivity": {
+    "checks": 69363,
+    "cases": 69362,
+    "examples": [
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "scope": "all finite set laws through four equal-mass histories, all integer upper-budget vectors, exact attained sets; synthetic not field evidence",
+    "field_causal_data_value": false,
+    "full_repository_ci": false
   }
 }

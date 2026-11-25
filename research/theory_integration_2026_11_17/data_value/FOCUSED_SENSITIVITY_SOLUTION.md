@@ -1,0 +1,2 @@
+# Solution
+The lower endpoint is max(0,7-1,6)=6; t=max(0,6-1,6+7-10)=5, m=5; upper=2+min(10,7+6-5+1)=11. The net interval is [-4,1]. Tightening r does not lower the upper endpoint. Reducing both a and h to zero restores upper=9 and strict rejection; reducing only one to zero gives upper=10 and weak rejection at best. Retaining an executable controller need not preserve original deadlines, worker availability or customer acceptance. Four isolated evolving arms can directly estimate the fixed-program interaction without identifying individual cross-world losses or gains.
