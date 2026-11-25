@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: production-of-capability-installed-base-20261125.
+Handoff ID: full-stack-production-of-capability-20261125.
+
+## Manufacturing, learning and integration under one owner
+
+[The full-stack robotic firm](papers/autonomous_firm/FULL_STACK_FIRM.md) derives when improving mechanical reliability makes sensing more valuable, and when retaining informative precursors on successful jobs changes which hardware the firm builds. The empirical comparison follows accepted work on unmodified target vintages. Joint equilibrium across site entry and successive hardware generations remains open.
 
 ## How the installed fleet directs future inquiry
 

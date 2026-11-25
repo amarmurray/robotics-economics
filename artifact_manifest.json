@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "production-of-capability-installed-base-20261125",
+  "snapshot_id": "full-stack-production-of-capability-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "b49d444e1758cf006a51f7d3013665395cf905715049e5ac96ba1f0d042323ef"
+      "version": "full-stack-production-of-capability-20261125",
+      "sha256": "836688ed04183e3cc9696bfd4c5f94e28c9e18e39024e8968ca70b373c355309"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3715,8 +3715,8 @@
       "repository_path": "papers/autonomous_firm/The_Production_of_Capability.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/The_Production_of_Capability.md",
       "name": "The_Production_of_Capability.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "e77da8bd76b601e36c9f2feea13dee9fa70373324a39a7b052f4ae4457b5ea33"
+      "version": "full-stack-production-of-capability-20261125",
+      "sha256": "f6331e526a16f685fd40877db1795caee6e85e98cc188c2a32d0b3dd732e5a05"
     },
     {
       "repository_path": "papers/autonomous_firm/replication/capability/installed_base.py",
@@ -3731,6 +3731,13 @@
       "name": "PROPOSITION_REGISTER.md",
       "version": "production-of-capability-installed-base-20261125",
       "sha256": "a8d76b8bca7890b18e7c6fd7dc92fee1e040450ee3cf3bc1952148a017d53a24"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/FULL_STACK_FIRM.md",
+      "name": "FULL_STACK_FIRM.md",
+      "sha256": "383b6ef6ff641ac0f24aed2747da5e776c772a0d93fb4cf38d9506851df4bbe4",
+      "version": "full-stack-production-of-capability-20261125"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

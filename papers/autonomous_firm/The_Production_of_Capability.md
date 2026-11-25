@@ -340,3 +340,5 @@ This comparison requires that the release architecture leave the upstream discov
 Farrell and Saloner studied how installed bases affect compatibility choices. Henderson and Clark studied why changing the links between components challenges established firms. Here current production jointly selects future evidence and future obligations, and their interaction determines the return to inquiry. The derivations and simulations establish conditional mechanisms. Field magnitudes and their contribution to market shares remain open. [Farrell and Saloner](https://ideas.repec.org/a/aea/aecrev/v76y1986i5p940-55.html) · [Henderson and Clark](https://dash.harvard.edu/entities/publication/3affcf33-4dea-4371-ab4c-4767380018ab)
 
 [Original model checks](replication/capability/check_foundation.py) · [Installed-base replication](replication/capability/installed_base.py) · [Learning before a rival](When_Faster_Learning_Pays.md)
+
+[Full-stack firm extension](FULL_STACK_FIRM.md) · How manufacturing, model development and field integration jointly determine what the fleet can learn from the next machine.
