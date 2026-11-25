@@ -1,0 +1,253 @@
+{
+  "checks": 157506,
+  "cases": 17500,
+  "substitution": {
+    "cells": [
+      {
+        "old": {
+          "value": 8,
+          "counts": [
+            2,
+            0
+          ],
+          "dates": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "fresh": {
+          "value": 11,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        "best": {
+          "value": 11,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        }
+      },
+      {
+        "old": {
+          "value": 12,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        "fresh": {
+          "value": 11,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        "best": {
+          "value": 12,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        }
+      }
+    ],
+    "source": {
+      "oldPremium": 0.5,
+      "newPremium": -1,
+      "oldResponse": [
+        -1,
+        0.5
+      ],
+      "newResponse": [
+        0,
+        0
+      ]
+    }
+  },
+  "complementarity": {
+    "cells": [
+      {
+        "old": {
+          "value": 8,
+          "counts": [
+            2,
+            0
+          ],
+          "dates": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "fresh": {
+          "value": 3,
+          "counts": [
+            1,
+            0
+          ],
+          "dates": [
+            -1,
+            0,
+            -1
+          ]
+        },
+        "best": {
+          "value": 8,
+          "counts": [
+            2,
+            0
+          ],
+          "dates": [
+            0,
+            0,
+            -1
+          ]
+        }
+      },
+      {
+        "old": {
+          "value": 12,
+          "counts": [
+            0,
+            1
+          ],
+          "dates": [
+            -1,
+            -1,
+            0
+          ]
+        },
+        "fresh": {
+          "value": 15,
+          "counts": [
+            1,
+            1
+          ],
+          "dates": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "best": {
+          "value": 15,
+          "counts": [
+            1,
+            1
+          ],
+          "dates": [
+            -1,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "source": {
+      "oldPremium": -0.5,
+      "newPremium": 1,
+      "oldResponse": [
+        -1,
+        0.5
+      ],
+      "newResponse": [
+        -0.5,
+        0.5
+      ]
+    }
+  },
+  "timing": {
+    "old": {
+      "value": 9.600000000000001,
+      "counts": [
+        0,
+        1
+      ],
+      "dates": [
+        1
+      ]
+    },
+    "fresh": {
+      "value": 11,
+      "counts": [
+        0,
+        1
+      ],
+      "dates": [
+        0
+      ]
+    },
+    "best": {
+      "value": 11,
+      "counts": [
+        0,
+        1
+      ],
+      "dates": [
+        0
+      ]
+    }
+  },
+  "expiry": {
+    "old": {
+      "value": 0,
+      "counts": [
+        0,
+        0
+      ],
+      "dates": [
+        -1
+      ]
+    },
+    "fresh": {
+      "value": 11,
+      "counts": [
+        0,
+        1
+      ],
+      "dates": [
+        0
+      ]
+    },
+    "best": {
+      "value": 11,
+      "counts": [
+        0,
+        1
+      ],
+      "dates": [
+        0
+      ]
+    }
+  },
+  "scope": "Synthetic schedule enumeration and independent subset formula; not empirical or proof"
+}

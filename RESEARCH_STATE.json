@@ -2,30 +2,35 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "015f0d201d0dfcdff9236bace3efd73228b3cfe6",
+  "research_input_commit": "4f7800b99b8ed7a1aca76ebe12879153b4344c64",
   "lease": {
     "run_id": "reference-route-2026-11-25T18:33:44.426Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T18:33:44.426Z",
     "expires_at_utc": "2026-11-25T19:33:44.426Z",
-    "reason": "Endogenous reference route and heterogeneous dated admissions"
+    "reason": "Endogenous reference route and heterogeneous dated admissions",
+    "released_at_utc": "2026-11-25T18:36:14.833Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
   "current_mode": "Endogenous evidence, dated capacity and capital propagation; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_COUPLED_EVIDENCE_CAPACITY_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_REFERENCE_ROUTES_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
   "preservation": "Previous released state archived byte-for-byte; historical backlog, main and review branch untouched.",
-  "latest_result": "Coupled source evidence and dated qualification/commissioning: E changes admission only in the middle crew window conditional on no routine qualification and funding, yet has positive economic value outside. Sufficient timely released crew offsets lost evidence for starts under strict cost/clock restrictions. Optimized source policy examples yield opposite changes in starts; sharp missing-overlap and weighted bounds.",
+  "latest_result": "Endogenous optional reference setup changes donor premium by positive-part difference of setup gains; strict source-entry reversals and signed heterogeneous recipient installation responses; acceleration versus expiry separated.",
   "validation": {
-    "checks": 1005993,
-    "cases": 483840,
+    "checks": 157506,
+    "cases": 17500,
     "field_calibration": false,
     "full_repository_ci": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/ENDOGENOUS_REFERENCE_ROUTES.md",
+    "research/theory_integration_2026_11_17/data_value/endogenous_reference_routes.js",
+    "research/theory_integration_2026_11_17/data_value/endogenous_reference_routes_results.json",
+    "research/theory_integration_2026_11_17/data_value/PRE_ENDOGENOUS_REFERENCE_ROUTES_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/COUPLED_EVIDENCE_CAPACITY.md",
     "research/theory_integration_2026_11_17/data_value/coupled_evidence_capacity.js",
     "research/theory_integration_2026_11_17/data_value/coupled_evidence_capacity_results.json",
@@ -171,9 +176,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Conditional endogenous evidence/dated admission window and sharp overlap derived; route choice and propagation next; field calibration open",
-      "question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
-      "deliverable": "Joint source/recipient allocation with endogenous reference technology, dated capacity and heterogeneous installation response; matched measurement protocol."
+      "status": "Conditional optional reference interaction and signed recipient propagation derived; sequential uncertain compatibility and successor evidence next; field calibration open",
+      "question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
+      "deliverable": "Sequential reference/grounding allocation with joint qualification uncertainty and endogenous next-generation evidence, matched measurement protocol."
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -198,15 +203,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Conditional endogenous evidence/dated admission window and sharp overlap derived; route choice and propagation next; field calibration open",
-      "question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
-      "deliverable": "Joint source/recipient allocation with endogenous reference technology, dated capacity and heterogeneous installation response; matched measurement protocol."
+      "status": "Conditional optional reference interaction and signed recipient propagation derived; sequential uncertain compatibility and successor evidence next; field calibration open",
+      "question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
+      "deliverable": "Sequential reference/grounding allocation with joint qualification uncertainty and endogenous next-generation evidence, matched measurement protocol."
     }
   ],
   "portfolio_status": {
-    "theory": "Qualified network and portfolio geometry, dynamic endogenous evidence/dated capital admission and whole-program value; reference-technology choice and empirical identification open",
+    "theory": "Endogenous reference setup, signed heterogeneous first-generation response, dated qualified production and dynamic evidence; sequential uncertain compatibility/recipient learning open",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI). Kobe dispensing actual medication-line and prescription counts, conditional complete-bundle grouping, retained pharmacist review and resource-clock medians; no field economic return.; public footwear WMS dataset v1 located; raw CSV not retrieved, human baseline only.",
-    "paper": "Compact first paper with nested-state/order audit, dated capacity witnesses and coupled learning/admission result; commercial nonidentification remains",
+    "paper": "Integrated compact paper includes endogenous reference technology and signed propagation; field identification open",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate evolving-counterfactual economic data value in learned jointly qualified production; no independent novelty claim."
   },
@@ -318,8 +323,8 @@
     "Kobe Table 1 period 2 route sum differs by one; Table 3 n differs from prose. Item allocation conditional on partition; dispensed cohort excludes unserved opportunities. Cardinality scope, independent contribution caps and dated resource price/schedule absent; no actual MPK or learning intervention.",
     "Differentiable scalar-index rank restriction requires common baseline, matched nonlearning primitives, smooth panel responses and composition interventions, not arbitrary finite differences across kinks; it does not reject general heterogeneous learning. Footwear data paper methods generate waves and timing descriptions conflict; raw fields unverified."
   ],
-  "last_notification": "2026-11-25 Eastern: shared-resource qualification can change joint robotic capital returns while every separate measured marginal and incumbent output are unchanged; local aggregation iff common minimizing price, conditional theory.",
-  "execution_note": "Read main scaffold and common paper at b784b262, week README at fa572f94, source branch prior fc75dd7. Generated JS executed with 4358 assertions; no field calibration or full CI.",
+  "last_notification": "2026-11-25 Eastern: reference technology can reverse source capital entry in either direction; recipient expansion and donor incentive decouple under shared dated resources.",
+  "execution_note": "Main 97c709f527e7312cc4023a3266db7753b0cdc522; week README fallback fa572f946a2e0a0615addba3df0b1cfbcf283f6c; prior source 4f7800b99b8ed7a1aca76ebe12879153b4344c64. Executed JS schedule and subset checks. No field calibration/full CI.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -336,9 +341,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": true,
-  "publication_parent_commit": "af41b39f5e701246530e6e77348c358d31330330",
-  "current_proof_gap": "No joined original-service source/target retention, native readiness, reference/grounding occupation, dated crew/funding and commissioned-body observations. The conditional admission window assumes equal eventual qualification and same dates; need heterogeneous route efficacy and endogenous choice of reference technology.",
-  "exact_next_action": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "publication_parent_commit": "25653d642f0d5fde66631a68cf11a42c9502c188",
+  "current_proof_gap": "Matched source/target route efficacy, setup and commissioning occupation, original-service contribution and subsequent licensed evidence remain unidentified. Current model conditions on known route eligibility and equal eventual qualification; need sequential uncertain outcomes and endogenous recipient evidence.",
+  "exact_next_action": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -356,7 +361,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T17:35:36.551Z",
+  "updated_at_utc": "2026-11-25T18:36:14.833Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -373,9 +378,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
-  "proof_gap": "No joined original-service source/target retention, native readiness, reference/grounding occupation, dated crew/funding and commissioned-body observations. The conditional admission window assumes equal eventual qualification and same dates; need heterogeneous route efficacy and endogenous choice of reference technology.",
-  "next_action": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "exact_question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
+  "proof_gap": "Matched source/target route efficacy, setup and commissioning occupation, original-service contribution and subsequent licensed evidence remain unidentified. Current model conditions on known route eligibility and equal eventual qualification; need sequential uncertain outcomes and endogenous recipient evidence.",
+  "next_action": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -441,7 +446,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "exact_intellectual_question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -461,7 +466,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "exact_next": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -561,7 +566,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "No joined original-service source/target retention, native readiness, reference/grounding occupation, dated crew/funding and commissioned-body observations. The conditional admission window assumes equal eventual qualification and same dates; need heterogeneous route efficacy and endogenous choice of reference technology.",
+  "next_proof_gap": "Matched source/target route efficacy, setup and commissioning occupation, original-service contribution and subsequent licensed evidence remain unidentified. Current model conditions on known route eligibility and equal eventual qualification; need sequential uncertain outcomes and endogenous recipient evidence.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -642,7 +647,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "current_question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1722,7 +1727,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Endogenize reference technology and compatibility: choose among stable external reference, learned grounding, digital diagnostics or a new source embodiment that changes dated qualification occupation. Derive signed first-generation installation responses across heterogeneous markets and independently evolving no-addition paths, distinguishing speed from expired opportunities.",
+  "next_question": "Extend endogenous reference choice to sequential uncertain qualification, persistent calibration uncertainty and shared dated validation: price a targeted diagnostic versus additional source access or embodiment, preserve ordinary learning and the best fixed contingent procedure, and feed the optimized recipient portfolio into the next generation's evidence law without assuming a positive fixed propagation coefficient.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -4449,5 +4454,258 @@
     },
     "fieldCalibration": false,
     "scope": "Synthetic exact integer allocation enumeration and arithmetic; no empirical calibration or full CI"
+  },
+  "validation_endogenous_reference_routes": {
+    "checks": 157506,
+    "cases": 17500,
+    "substitution": {
+      "cells": [
+        {
+          "old": {
+            "value": 8,
+            "counts": [
+              2,
+              0
+            ],
+            "dates": [
+              0,
+              0,
+              -1
+            ]
+          },
+          "fresh": {
+            "value": 11,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "best": {
+            "value": 11,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "old": {
+            "value": 12,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "fresh": {
+            "value": 11,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "best": {
+            "value": 12,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          }
+        }
+      ],
+      "source": {
+        "oldPremium": 0.5,
+        "newPremium": -1,
+        "oldResponse": [
+          -1,
+          0.5
+        ],
+        "newResponse": [
+          0,
+          0
+        ]
+      }
+    },
+    "complementarity": {
+      "cells": [
+        {
+          "old": {
+            "value": 8,
+            "counts": [
+              2,
+              0
+            ],
+            "dates": [
+              0,
+              0,
+              -1
+            ]
+          },
+          "fresh": {
+            "value": 3,
+            "counts": [
+              1,
+              0
+            ],
+            "dates": [
+              -1,
+              0,
+              -1
+            ]
+          },
+          "best": {
+            "value": 8,
+            "counts": [
+              2,
+              0
+            ],
+            "dates": [
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "old": {
+            "value": 12,
+            "counts": [
+              0,
+              1
+            ],
+            "dates": [
+              -1,
+              -1,
+              0
+            ]
+          },
+          "fresh": {
+            "value": 15,
+            "counts": [
+              1,
+              1
+            ],
+            "dates": [
+              -1,
+              0,
+              0
+            ]
+          },
+          "best": {
+            "value": 15,
+            "counts": [
+              1,
+              1
+            ],
+            "dates": [
+              -1,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "source": {
+        "oldPremium": -0.5,
+        "newPremium": 1,
+        "oldResponse": [
+          -1,
+          0.5
+        ],
+        "newResponse": [
+          -0.5,
+          0.5
+        ]
+      }
+    },
+    "timing": {
+      "old": {
+        "value": 9.600000000000001,
+        "counts": [
+          0,
+          1
+        ],
+        "dates": [
+          1
+        ]
+      },
+      "fresh": {
+        "value": 11,
+        "counts": [
+          0,
+          1
+        ],
+        "dates": [
+          0
+        ]
+      },
+      "best": {
+        "value": 11,
+        "counts": [
+          0,
+          1
+        ],
+        "dates": [
+          0
+        ]
+      }
+    },
+    "expiry": {
+      "old": {
+        "value": 0,
+        "counts": [
+          0,
+          0
+        ],
+        "dates": [
+          -1
+        ]
+      },
+      "fresh": {
+        "value": 11,
+        "counts": [
+          0,
+          1
+        ],
+        "dates": [
+          0
+        ]
+      },
+      "best": {
+        "value": 11,
+        "counts": [
+          0,
+          1
+        ],
+        "dates": [
+          0
+        ]
+      }
+    },
+    "scope": "Synthetic schedule enumeration and independent subset formula; not empirical or proof"
   }
 }
