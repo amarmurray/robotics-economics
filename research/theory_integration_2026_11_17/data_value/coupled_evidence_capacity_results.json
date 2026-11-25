@@ -1,0 +1,85 @@
+{
+  "checks": 1005993,
+  "cases": 483840,
+  "overlapCases": 284,
+  "weightedCases": 7107,
+  "table": [
+    [
+      {
+        "value": 4,
+        "b": 0
+      },
+      {
+        "value": 4,
+        "b": 0
+      }
+    ],
+    [
+      {
+        "value": 4,
+        "b": 0
+      },
+      {
+        "value": 9,
+        "b": 0
+      }
+    ],
+    [
+      {
+        "value": 7,
+        "b": 0
+      },
+      {
+        "value": 11,
+        "b": 1
+      }
+    ],
+    [
+      {
+        "value": 9,
+        "b": 1
+      },
+      {
+        "value": 11,
+        "b": 1
+      }
+    ]
+  ],
+  "gain": [
+    0,
+    5,
+    4,
+    2
+  ],
+  "witness": {
+    "repair_release": {
+      "baseline": {
+        "value": 9,
+        "b": 0
+      },
+      "routine": {
+        "value": 8.5,
+        "b": 0.25
+      },
+      "instrumented": {
+        "value": 10,
+        "b": 0.75
+      }
+    },
+    "repair_no_dated_release": {
+      "baseline": {
+        "value": 11,
+        "b": 1
+      },
+      "routine": {
+        "value": 12,
+        "b": 0.25
+      },
+      "instrumented": {
+        "value": 11,
+        "b": 0.75
+      }
+    }
+  },
+  "scope": "Synthetic exact integer allocation enumeration and arithmetic; no empirical calibration or full CI"
+}
