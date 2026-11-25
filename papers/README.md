@@ -2,6 +2,12 @@
 
 The links to research branches open the current manuscripts, code and numerical results. The PDFs below preserve the dated reading editions.
 
+## Theory week: November 25–December 2
+
+[Research plan](theory_week_20261125/README.md) · [Theoretical scaffold](theory_week_20261125/THEORETICAL_SCAFFOLD.md) · [Propositions and proof gaps](theory_week_20261125/PROPOSITION_REGISTER.md)
+
+Five linked priorities develop the production of capability, multivariate robot-capital productivity, recursive allocation, propagation across firms and markets, and competitive responses. The two continuing source branches retain their scope and history; this week integrates the strongest results into a common argument.
+
 ## Learning and capital in robotic production
 
 What makes one deployment induce another, possibly at a different firm or in a different industry? The common model links the production decisions in *When Capabilities Become Production* to the choices over learning and reinvestment in *Recursive Firm Theory*. It derives the response of robot-capital productivity as the fleet adjusts and a condition under which two markets can sustain additional adoption together. [Working paper](learning_and_capital/README.md) · [PDF](learning_and_capital/Learning_and_Capital_in_Robotic_Production.pdf) · [Replication](learning_and_capital/replication.py)
@@ -48,3 +54,4 @@ The November 17 replication outputs include [deployment expansion](production/re
 ## Program briefs
 
 The original November 15 brief and its expanded Christmas edition document the research questions and milestones at the start of the theory phase. [Original brief](program_briefs/Codex_Robotics_Economics_Theory_Research_Brief.md) · [Through-Christmas edition](program_briefs/Codex_Robotics_Economics_Theory_Research_Brief_Through_Christmas_2026.md)
+

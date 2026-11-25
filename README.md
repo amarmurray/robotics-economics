@@ -4,6 +4,8 @@ Robotics Economics studies how physical robots and autonomous digital agents cha
 
 [Working papers and replication code](papers/README.md) · [Integrated research report](REPORT.md)
 
+**Research week, November 25–December 2:** [Five linked theoretical priorities, initial scaffold and milestones](papers/theory_week_20261125/README.md).
+
 [Learning and Capital in Robotic Production](papers/learning_and_capital/README.md) develops the common theory. Operating a fleet produces service, experience and cash. We derive when those returns bring the same installations forward, when they make new markets viable, and where the marginal product of robot capital rises or falls as firms invest.
 
 ## Research scope
@@ -23,3 +25,4 @@ Consider a teleoperator who recovers a failed pick. That hour can finish an orde
 The empirical work draws on labor statistics, deployment case studies and published evaluations of robots and digital agents. The economic models and agent-based simulations use stated assumptions about demand, costs and learning to trace their effects on paid output and investment returns. [Research design](RESEARCH_PROGRAM_DESIGN.md) · [Reproduction guide](REPRODUCE.md)
 
 From the repository root, run `python3 scripts/serve.py` to explore the local dashboard at `http://127.0.0.1:8765`.
+

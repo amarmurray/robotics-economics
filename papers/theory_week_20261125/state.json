@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "campaign": "roboecon-theory-week-20261125",
+  "status": "active",
+  "start": "2026-11-25T10:49:19-05:00",
+  "deadline": "2026-12-02T10:49:19-05:00",
+  "timezone": "America/New_York",
+  "parent_program_deadline": "2026-12-25T23:59:00-05:00",
+  "input_commits": {
+    "main": "ed3b9fec57cd87a5d953d06491553d5a3a826a21",
+    "research/assistant-led-expansion-20261117": "fc75dd7e4195384187affe8c5992f58b62c93494",
+    "research/recursive-firm-theory": "ceab1c73a9ba1feb72fb36740f05ea1e71a76225"
+  },
+  "writer_scope": "main: papers/theory_week_20261125; read source branches, preserve their sole-writer leases",
+  "lease": null,
+  "completed": [
+    {
+      "item": "Current state and active schedules inspected",
+      "kind": "read-only audit"
+    },
+    {
+      "item": "Economic premises, common state and controlled-transition distinction specified",
+      "kind": "initial theoretical scaffold"
+    },
+    {
+      "item": "Five linked priorities, milestones and acceptance criteria written",
+      "kind": "research plan"
+    },
+    {
+      "item": "Bounded synthesis task created and both existing research tasks aligned",
+      "kind": "confirmed scheduling"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "capability",
+      "status": "active_question",
+      "question": "How do production and collection choices endogenize transferable capability and future evidence?"
+    },
+    {
+      "id": "capital",
+      "status": "active_question",
+      "question": "How do learning and scarce complements change multivariate MPK_r and the timing/extent of investment?"
+    },
+    {
+      "id": "recursion",
+      "status": "active_question",
+      "question": "When does revising the learning-allocation procedure outperform a capable fixed contingent organization after costs?"
+    },
+    {
+      "id": "propagation",
+      "status": "active_question",
+      "question": "How do allocation responses and changing regimes alter diffusion across production, learning and financing networks?"
+    },
+    {
+      "id": "competition",
+      "status": "active_question",
+      "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
+    }
+  ],
+  "next_action": "Reconcile both source branches, map the existing propositions into a common state-dependent transition, and choose the strongest coupled derivation rather than another isolated numerical example.",
+  "schedule": {
+    "week": {
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
+      "timing_mode": "flexible_schedule",
+      "timezone": "America/New_York",
+      "next_run_at_creation": "2026-11-25T17:00:00-05:00",
+      "enabled": true
+    },
+    "production": {
+      "cadence": "existing hourly schedule preserved",
+      "deadline": "2026-12-25T23:59:00-05:00",
+      "week_prompt_updated": true
+    },
+    "recursive": {
+      "cadence": "daily around 09:00 America/New_York",
+      "extended_through": "2026-12-02",
+      "week_prompt_updated": true
+    }
+  },
+  "source_tasks": {
+    "production": "6afbe6a5ebf88191a11858bf26241c98",
+    "recursive": "Automation_8f6101c0a5088191b61410787e40909b"
+  },
+  "week_task": "Automation_9df88010e6a0819199674ddaf21572ff",
+  "notifications": {
+    "midpoint_delivered": false,
+    "final_delivered": false
+  },
+  "final_outputs": {
+    "synthesis": null,
+    "proof_register": "PROPOSITION_REGISTER.md",
+    "empirical_discriminators": null,
+    "final_assessment": null
+  }
+}

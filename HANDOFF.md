@@ -1,6 +1,15 @@
 # Robotics economics — current handoff
 
-Handoff ID: learning-and-capital-production-networks-20261125.
+Handoff ID: roboecon-theory-week-20261125.
+
+## One week across the theoretical priorities
+
+November 25, 2026, Eastern. Amar authorized work on several theoretical priorities together for one week. The [research plan](papers/theory_week_20261125/README.md) records the November 25 10:49 a.m.–December 2 10:49 a.m. Eastern window, five linked priorities, milestones and publication ownership. The [opening scaffold](papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md) starts from economic premises and distinguishes direct structural propagation from the response mediated by allocation. The [register](papers/theory_week_20261125/PROPOSITION_REGISTER.md) carries existing conditional results forward and records the coupled proof gaps.
+
+The production task retains its hourly cadence and December 25 horizon. The daily Recursive Firm task is extended through December 2, preserving its original seven-session pilot as a checkpoint. A bounded morning/evening synthesis task owns this week's main directory and integrates the two branches. Scheduling is confirmed; it is not evidence of future completed research or uninterrupted execution. Source owners keep their branch leases, one writer per file, and no spawned subagents.
+
+**Next research question.** When the same capability gain changes the supply of useful evidence and the binding constraint on the next installation, how does the firm's reallocation alter the induced-deployment network and the marginal product of capital across markets?
+
 
 ## Learning and capital across firms
 
@@ -1190,3 +1199,4 @@ Immediate execution follows the current edition 0.16 checklist above, preserving
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
 Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly, preserve the original elapsed-time window as historical, and date later continuation separately.
+
