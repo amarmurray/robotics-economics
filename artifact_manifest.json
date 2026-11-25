@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-reading-editions-20261125",
+  "snapshot_id": "recursive-firm-network-mpk-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-reading-editions-20261125",
-      "sha256": "4473a778dce44d61ef710a53fad058929859fec03537c53b9ba9cdf7af8e9bdd"
+      "version": "recursive-firm-network-mpk-20261125",
+      "sha256": "fd9d68b90729a20529c9043a3c9b4295993c6c9dc77130459a241038222a1cb5"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-reading-editions-20261125",
-      "sha256": "d1318de436820acc51c11d1d06844c9f917cd228ac6d60e8c606ee2e194fe7d5"
+      "version": "recursive-firm-network-mpk-20261125",
+      "sha256": "a7d13f1a89227313bc23de6767ae1cca8e77cdfa015b3aa0c1e12b53e2c53eca"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3647,6 +3647,118 @@
       "name": "results.json",
       "sha256": "49076e862a292de12d992924272dcfe0cdc6dbce479b812794594d34e615c3e3",
       "version": "recursive-firm-settlement-learning-20261124"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/README.md",
+      "name": "README.md",
+      "sha256": "efa3b843cf9f131c4cfd221ca80f0f2a9d213138d6fd1abc91cd688062ff5ee3",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/audit_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/audit_results.json",
+      "name": "audit_results.json",
+      "sha256": "8be46204d42ed48c6587d7d18ff8c8f7e068ec61d94cc4bcc834f907eaa04eb7",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/baseline_worlds.csv",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/baseline_worlds.csv",
+      "name": "baseline_worlds.csv",
+      "sha256": "7bd04821bf5814a686bfe1bff76749b39737513df7b648815f3dadc79ba1a987",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/chain_routes.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/chain_routes.py",
+      "name": "chain_routes.py",
+      "sha256": "d77cdd46c8466aae3762a0e34a05c5863f15c2336ef2d6fa0416cf00902b785d",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/interaction_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/interaction_results.json",
+      "name": "interaction_results.json",
+      "sha256": "c3712fb027475a8e0ac0ef8838edbce5243d932dfa0bce2539848557000b13c0",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/interactions.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/interactions.py",
+      "name": "interactions.py",
+      "sha256": "a13e30ed2559295e2776bf624762750cf81a6281507f583aa8706d2da71b938e",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/model.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/model.py",
+      "name": "model.py",
+      "sha256": "790f0a13cd4a4cdcf4d5d1a612b099a0ed72daf752fd7d434621fb925eb5a485",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/network_returns.svg",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/network_returns.svg",
+      "name": "network_returns.svg",
+      "sha256": "dbc801c3cc9f550ff465fdd71bd7a2bcdfc10dadab59dc311ee60fe43e707725",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/plot.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/plot.py",
+      "name": "plot.py",
+      "sha256": "8e6a5b44aa8a3776b759564707767ae64ee84ac922a16f2ae56217377caad280",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/published_task_cells.csv",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/published_task_cells.csv",
+      "name": "published_task_cells.csv",
+      "sha256": "8d72b33929558785387aa018b125640a8bd8c251a1d06949198bcf88b7763946",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/reference_audit.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/reference_audit.py",
+      "name": "reference_audit.py",
+      "sha256": "e4592214a657d68cbdd5e2d61c380f50df6b83308ed6de515c8b63de0c261d30",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/results.json",
+      "name": "results.json",
+      "sha256": "83a55b157b04ffaf1bd191440fd14917f44a1a9a20d50b6d91b9f7b5edd2f68d",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/route_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/route_results.json",
+      "name": "route_results.json",
+      "sha256": "32bfd2a819f3d0369ea56fadab0b9442771ba7253afaf3144a878442ea9d563a",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/sector_inputs.csv",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/sector_inputs.csv",
+      "name": "sector_inputs.csv",
+      "sha256": "7dad6c4237219eb1275d9582916e42e5cce8b0eccf070f744ae1f5ee9494233a",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/study.py",
+      "name": "study.py",
+      "sha256": "6ca8c60e91befab43d6295affb584ac05bf9bba178e79692c515e60cee8eae50",
+      "version": "recursive-firm-network-mpk-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/test_model.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/test_model.py",
+      "name": "test_model.py",
+      "sha256": "c1f2b2f8fefa7f94ef6d113c61f353d4faec4aae6e11ca6dff431f0132d72377",
+      "version": "recursive-firm-network-mpk-20261125"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3932,7 +4044,8 @@
       "adapter_repair": "research/recursive_firm/transfer_validation/ADAPTER_REPAIR.md",
       "partition_discovery": "research/recursive_firm/partition_discovery/README.md",
       "settlement_learning": "research/recursive_firm/settlement_learning/README.md",
-      "paper_editions": "https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md#recursive-firm-theory"
+      "paper_editions": "https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md#recursive-firm-theory",
+      "network_marginal_product": "research/recursive_firm/network_mpk/README.md"
     }
   }
 }

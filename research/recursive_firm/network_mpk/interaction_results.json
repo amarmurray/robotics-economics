@@ -1,0 +1,162 @@
+{
+  "evaluation": [
+    37100,
+    37195
+  ],
+  "node_order": [
+    "digital_dispatch",
+    "packaging_plant",
+    "fulfillment",
+    "hospital_supply"
+  ],
+  "covariance_of_value_cost_ratios": [
+    [
+      0.31452,
+      0.01974,
+      -0.00968,
+      0.01594
+    ],
+    [
+      0.01974,
+      0.15071,
+      0.10782,
+      0.01028
+    ],
+    [
+      -0.00968,
+      0.10782,
+      0.16577,
+      0.01773
+    ],
+    [
+      0.01594,
+      0.01028,
+      0.01773,
+      0.01861
+    ]
+  ],
+  "plant_warehouse_spot_resource_checks": {
+    "baseline": {
+      "mean": -0.62097,
+      "p10": -1.91744,
+      "p50": -0.26495,
+      "p90": 0.0
+    },
+    "ample_compute": {
+      "mean": -0.44431,
+      "p10": -1.6436,
+      "p50": -0.00025,
+      "p90": 0.06192
+    },
+    "ample_role_hours": {
+      "mean": -0.27711,
+      "p10": -0.64242,
+      "p50": -0.24313,
+      "p90": 0.0
+    },
+    "both": {
+      "mean": 0.01092,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.0
+    }
+  },
+  "same_world_block_interactions": {
+    "digital_dispatch+packaging_plant": {
+      "spot": {
+        "mean": -0.7275,
+        "p10": -2.26773,
+        "p50": -0.41771,
+        "p90": 0.0
+      },
+      "two_date": {
+        "mean": -1.1018,
+        "p10": -2.82883,
+        "p50": -0.65465,
+        "p90": -0.02687
+      },
+      "share_positive": 0.052083333333333336,
+      "share_negative": 0.9375
+    },
+    "digital_dispatch+fulfillment": {
+      "spot": {
+        "mean": -0.54627,
+        "p10": -1.22821,
+        "p50": -0.18028,
+        "p90": 0.0
+      },
+      "two_date": {
+        "mean": -0.81482,
+        "p10": -2.18705,
+        "p50": -0.34753,
+        "p90": 0.0
+      },
+      "share_positive": 0.041666666666666664,
+      "share_negative": 0.8020833333333334
+    },
+    "digital_dispatch+hospital_supply": {
+      "spot": {
+        "mean": -0.28791,
+        "p10": -0.91734,
+        "p50": -0.02485,
+        "p90": 0.0
+      },
+      "two_date": {
+        "mean": -0.43103,
+        "p10": -1.20134,
+        "p50": -0.0515,
+        "p90": 0.0
+      },
+      "share_positive": 0.09375,
+      "share_negative": 0.5833333333333334
+    },
+    "packaging_plant+fulfillment": {
+      "spot": {
+        "mean": -0.62097,
+        "p10": -1.91744,
+        "p50": -0.26495,
+        "p90": 0.0
+      },
+      "two_date": {
+        "mean": -0.96328,
+        "p10": -3.07029,
+        "p50": -0.40116,
+        "p90": 0.0
+      },
+      "share_positive": 0.03125,
+      "share_negative": 0.8229166666666666
+    },
+    "packaging_plant+hospital_supply": {
+      "spot": {
+        "mean": -0.14207,
+        "p10": -0.52975,
+        "p50": 0.0,
+        "p90": 0.00155
+      },
+      "two_date": {
+        "mean": -0.19728,
+        "p10": -0.78062,
+        "p50": -0.00435,
+        "p90": 0.05847
+      },
+      "share_positive": 0.15625,
+      "share_negative": 0.5104166666666666
+    },
+    "fulfillment+hospital_supply": {
+      "spot": {
+        "mean": -0.22616,
+        "p10": -0.64724,
+        "p50": 0.0,
+        "p90": 0.0
+      },
+      "two_date": {
+        "mean": -0.29794,
+        "p10": -0.83938,
+        "p50": 0.0,
+        "p90": 0.0
+      },
+      "share_positive": 0.0,
+      "share_negative": 0.46875
+    }
+  }
+}

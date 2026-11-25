@@ -1,12 +1,18 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-reading-editions-20261125.
+Handoff ID: recursive-firm-network-mpk-20261125.
+
+## Marginal products across firms and end markets
+
+The [network marginal-product study](research/recursive_firm/network_mpk/README.md) extends research branch head 909f738326475d6fe4a0679b5c51ee8af7594bb9. It derives signed upstream and downstream propagation and measures physical output, operating returns, two-date investment value and income at each stage. In 96 held-out synthetic economies, a new hospital packaging standard raised hospital orders and reduced plant work in 72. Installing the plant block reduced the value of a fulfillment block in 79 despite positive covariance of the two investments’ returns across economies. At the same audit price, a hospital roster beat an archive depleted of diagnostic exceptions and lost to an enriched archive. Digital and physical benchmark reweightings and BLS sector and occupation measurements are documented separately. These runs do not identify population robot returns.
+
+**Next unresolved question.** Endogenize standing cross-firm reference coverage along with installation, selective admission and unknown retention. Compare self-interested local purchasers with jointly funded audits at equal rights and budget. Forecast the sign of recipient transfer and the change in the next site’s marginal product out of regime. Continue the existing pilot’s work on learned transfer, release delays and evidence diversity and synthesize at its scheduled close. [Reproduction and discriminating tests](research/recursive_firm/network_mpk/README.md#what-would-discriminate-among-the-explanations)
 
 ## Learning from settlements and target-site audits
 
 The [study](research/recursive_firm/settlement_learning/README.md) starts from a9dc0e3c647500b7894af9ed7b99191a75a2fab2. Across 1,536 fresh synthetic fleets, varying physical releases for information improved net contribution by 12.84 over a matched planner after a persistent single-robot fault. Identifying the successful lane on 25% of ambiguous settlements reduced the difference to 0.36. Scheduled audits raised paid output yet lost 2.02 against diagnostic deployment alone. A reversal changed that ranking. Next randomize tag coverage by site and compare selective retention with a small independent reference sample.
 
-The [RoboEcon paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) includes the dated Recursive Firm and intervention notes, the Autonomous Firm paper and replication, and links to the separate production manuscript. The experiments and next question above remain the research handoff.
+The [RoboEcon paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) includes the dated Recursive Firm and intervention notes, the Autonomous Firm paper and replication, and links to the separate production manuscript. The settlement results motivate the recipient-reference comparison above.
 
 ## Discovering and qualifying reusable corrections
 

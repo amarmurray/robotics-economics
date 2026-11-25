@@ -1,0 +1,228 @@
+{
+  "evaluation": [
+    37100,
+    37195
+  ],
+  "prior_good": 0.5,
+  "category_share": 0.45,
+  "conditional_test_accuracy": 0.9,
+  "cost_per_sample": 0.12,
+  "open_minus_closed": {
+    "favorable": [
+      1.81126,
+      1.6574,
+      1.96511
+    ],
+    "adverse": [
+      -1.08696,
+      -1.23691,
+      -0.93702
+    ]
+  },
+  "results": {
+    "exceptions_underretained": {
+      "exception_fraction": {
+        "supplier": 0.0,
+        "recipient_archive": 0.07563025210084033,
+        "recipient_roster": 0.45
+      },
+      "by_source": {
+        "supplier": {
+          "gross_wtp": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_if_always_bought": [
+            -0.12,
+            -0.12,
+            -0.12
+          ],
+          "optimal_buy_share": 0.0,
+          "net_if_optional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recipient_archive": {
+          "gross_wtp": [
+            0.02792,
+            0.02392,
+            0.03192
+          ],
+          "net_if_always_bought": [
+            -0.09208,
+            -0.09608,
+            -0.08808
+          ],
+          "optimal_buy_share": 0.0,
+          "net_if_optional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recipient_roster": {
+          "gross_wtp": [
+            0.16612,
+            0.14231,
+            0.18993
+          ],
+          "net_if_always_bought": [
+            0.04612,
+            0.02231,
+            0.06993
+          ],
+          "optimal_buy_share": 0.5833333333333334,
+          "net_if_optional": [
+            0.06931,
+            0.05007,
+            0.08854
+          ]
+        }
+      },
+      "roster_minus_archive_equal_price": [
+        0.1382,
+        0.11839,
+        0.15801
+      ]
+    },
+    "uniform": {
+      "exception_fraction": {
+        "supplier": 0.0,
+        "recipient_archive": 0.45,
+        "recipient_roster": 0.45
+      },
+      "by_source": {
+        "supplier": {
+          "gross_wtp": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_if_always_bought": [
+            -0.12,
+            -0.12,
+            -0.12
+          ],
+          "optimal_buy_share": 0.0,
+          "net_if_optional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recipient_archive": {
+          "gross_wtp": [
+            0.16612,
+            0.14231,
+            0.18993
+          ],
+          "net_if_always_bought": [
+            0.04612,
+            0.02231,
+            0.06993
+          ],
+          "optimal_buy_share": 0.5833333333333334,
+          "net_if_optional": [
+            0.06931,
+            0.05007,
+            0.08854
+          ]
+        },
+        "recipient_roster": {
+          "gross_wtp": [
+            0.16612,
+            0.14231,
+            0.18993
+          ],
+          "net_if_always_bought": [
+            0.04612,
+            0.02231,
+            0.06993
+          ],
+          "optimal_buy_share": 0.5833333333333334,
+          "net_if_optional": [
+            0.06931,
+            0.05007,
+            0.08854
+          ]
+        }
+      },
+      "roster_minus_archive_equal_price": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "exceptions_enriched": {
+      "exception_fraction": {
+        "supplier": 0.0,
+        "recipient_archive": 0.7659574468085106,
+        "recipient_roster": 0.45
+      },
+      "by_source": {
+        "supplier": {
+          "gross_wtp": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "net_if_always_bought": [
+            -0.12,
+            -0.12,
+            -0.12
+          ],
+          "optimal_buy_share": 0.0,
+          "net_if_optional": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "recipient_archive": {
+          "gross_wtp": [
+            0.28276,
+            0.24223,
+            0.32328
+          ],
+          "net_if_always_bought": [
+            0.16276,
+            0.12223,
+            0.20328
+          ],
+          "optimal_buy_share": 0.8229166666666666,
+          "net_if_optional": [
+            0.17992,
+            0.14348,
+            0.21636
+          ]
+        },
+        "recipient_roster": {
+          "gross_wtp": [
+            0.16612,
+            0.14231,
+            0.18993
+          ],
+          "net_if_always_bought": [
+            0.04612,
+            0.02231,
+            0.06993
+          ],
+          "optimal_buy_share": 0.5833333333333334,
+          "net_if_optional": [
+            0.06931,
+            0.05007,
+            0.08854
+          ]
+        }
+      },
+      "roster_minus_archive_equal_price": [
+        -0.11664,
+        -0.13335,
+        -0.09992
+      ]
+    }
+  }
+}
