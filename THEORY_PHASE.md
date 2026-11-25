@@ -10,6 +10,10 @@ The related native goal was already active when this continuation began. After t
 
 One agent, one writer. Authorized: additive research, public/already-authorized sources, CPU models, appropriate tests and documentation, scoped private commits and normal pushes. Prohibited: robotics-vp-core changes, outreach, purchases, public publication/submission, schedules, model/quota/account/access changes, confidential employer material. No claim of uninterrupted execution. Through December 6, protect approximately 60–70% of substantive work for theoretical reconstruction, derivation, counterexamples and interpretation; this is prioritization, not fabricated hours. Empirics and computation discipline theory. UI/infrastructure is supporting work, not a milestone.
 
+## How to develop the working papers
+
+Begin each central claim with the production decision, the institutional or technological feature that makes it economically distinct, and the evidence or argument for that feature. Name the payoff unit, the feasible alternative that also learns, and an observation that would favor a competing account. Keep a real deployment in view through the abstraction and return to its original service outcome after the derivation. Numerical economies can then show a sign, a threshold, or the consequence of a particular institution. The [paired manuscript openings and research design](papers/How_Deployment_Changes_Robot_Productivity.md) apply this approach to embodied capital, selected experience and the firm’s capacity to revise its own learning procedure.
+
 ## Current-state audit and research spine
 
 Input remote main and clean checkout: `654e4ff9dbc1e1eb945a8b2734eaf5e058c6fa9a`, report edition 0.56. Read current guidance, handoff, manifest, charter, program design, roadmap, staging/acceptance context and relevant H–K modules at this revision. Existing historical chapters were inspected selectively. No historical acceptance gate is reclassified by this phase.

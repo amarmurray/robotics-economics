@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: production-of-capability-dynamics-20261125.
+Handoff ID: robomicroeconomic-foundations-20261125.
+
+## Economic premises for the production and recursive-firm papers
+
+November 25, 2026, Eastern. [How deployment changes the productivity of robot capital](papers/How_Deployment_Changes_Robot_Productivity.md) offers distinct working introductions for the two papers, using Amazon’s Robin fleet and National Grid’s Sandy Pond trial. A dated two-input production example distinguishes marginal physical product from time saved and private investment value. The research design crosses the execution policy with the rule choosing the next diagnostic at an unfamiliar site. The [learning-lead paper](papers/autonomous_firm/When_Faster_Learning_Pays.md) now opens with the observed operating decision and identifies the assumed discovery technology and public-information conditions. The [phase brief](THEORY_PHASE.md#how-to-develop-the-working-papers) records the approach for subsequent papers.
+
+**Next research question.** With the same execution model, existing evidence and review budget, does a retained rule for choosing the next test improve the cost or time to qualify work at a fresh site relative to a capable fixed procedure?
 
 ## The Production of Capability and the timing of investment in learning
 

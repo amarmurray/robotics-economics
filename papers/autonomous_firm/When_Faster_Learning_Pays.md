@@ -2,13 +2,13 @@
 
 *The Production of Capability, Part II · RoboEcon working paper · November 25, 2026*
 
-**A learning lead is worth the work that comes due while the firm can use it.** Two firms may end up equally capable, yet the one that learned earlier can earn a return for months. They may also spend different amounts and earn exactly the same amount if ordinary operations catch up before the first paying order. A third possibility arises when a lead is visible. A firm can profit by changing its rival’s decision to learn, even if the change reduces the total value the two firms and the buyer create.
+A fleet operator can let an engineering shift go to customer work and still learn something from the jobs it completes. Why give up that shift to learn faster? The answer depends on what ordinary service already reveals, what the team can do with better evidence, and which orders come due before other suppliers learn the same thing.
 
-The unit we value is a change in a *production program*. A firm assigns a real shift to a paying job, a reusable learning procedure, or extra investigation on an individual job. We compare feasible alternatives that start with the same equipment and execution models. Ordinary work can teach the firm under every alternative. A capability counts at the date it lets the firm deliver an accepted order more cheaply, using the validation capacity and permissions it actually has.
+## 1. What a shift can teach
 
-## 1. From a single deployment to a stream of orders
+At an Amazon Robin workcell, a robot faces several possible grasps. Testing every candidate for reachability and collisions would take too long. The team trained a model on outcomes of actual picks to rank the candidates it would check first. Trying a grasp reveals whether it worked. The untried alternatives leave no physical outcome on that attempt. Some failures also reflected suction-cup wear, a factor absent from the model’s inputs. These features give the firm a meaningful choice over what to attempt, what to record, and whether to spend the next engineering hour on learning or on maintenance. [Li et al., §§ IV–VI](https://roboticsproceedings.org/rss19/p023.pdf)
 
-A robot fleet handles service calls at existing installations. A retained diagnostic procedure tells the team which test to run on a new fixture. The test itself must still be performed locally. Or consider a software firm whose digital agents resolve transaction exceptions. Experience with old cases can teach them which reconciliation to run on a new customer’s ledger. In each example we can hold initial execution quality fixed and vary how often paid source work yields the reusable procedure. A human-led team facing the same opportunities, permissions and response times can use the same technology.
+The field study shows that experience from production can improve a grasp-ranking policy. Our model asks a further question. Can experience yield a procedure for choosing which *fresh test* to run on an unfamiliar installation? A transferable diagnostic can make a technician’s hour more productive while the new fixture still requires local validation. We allow ordinary service and deliberate investigation to teach the procedure at different rates. That difference is an assumption whose size a matched comparison could measure. It can pay to accelerate discovery only on work that falls within a usable lead, given a fixed rival. A rival that observes a qualification may also revise its own investigation.
 
 Let $u$ be the chance that a single source shift yields the procedure, conditional on still searching. Ordinary work has yield $u_0$ and accelerated learning has yield $u_1$, with $0<u_0<u_1<1$. An initial engineering shift costing $F$ can install a capture protocol that raises discovery yield on subsequent source shifts. Costs are incremental present values of real resources or displaced work. Independent opportunities and retention until the last dated order give the probability of finding the procedure by exposure $t$ as $1-(1-u)^t$.
 
@@ -16,7 +16,7 @@ An ordinary target team qualifies the cheaper method with probability $h$. Holdi
 
 $$p_u(t)=h+g[1-(1-u)^t],\qquad 0\le g\le 1-h.$$
 
-For example, if the right diagnostic is one of $K$ equally likely tests, $m$ prepaid tests are available, and the procedure covers a fraction $\tau$ of authorized and compatible targets, then $h=m/K$ and $g=\tau(1-h)$ for $m\ge1$. With zero tests, $g=0$. The first paper derives this from the diagnostic choice. This extension holds the work available to learn from fixed while solving what firms do with it. Source jobs and target orders have reserved capacity, and only source feedback reveals the reusable procedure during the horizon. Each target purchase is counted once.
+For example, if the right diagnostic is one of $K$ equally likely tests, $m$ prepaid tests are available, and the procedure covers a fraction $\tau$ of authorized and compatible targets, then $h=m/K$ and $g=\tau(1-h)$ for $m\ge1$. With zero tests, $g=0$. The founding note derives this from the diagnostic choice. This extension holds the work available to learn from fixed while solving what firms do with it. Source jobs and target orders have reserved capacity, and only source feedback reveals the reusable procedure during the horizon. Each target purchase is counted once.
 
 <!-- page -->
 
@@ -70,6 +70,8 @@ For five shifts, $u_0=0.1$, $u_1=0.4$, $k=4$, $\delta=1$, and $m_5=20$, the firm
 <!-- page -->
 
 ## 4. Competition depends on overlap and on the rival’s response
+
+Until now the rival’s learning path was fixed. An operator that learns of a competitor’s qualification before assigning its own engineering shift can change how much it investigates. If qualification stays private, or engineering budgets are already committed, that particular response is unavailable.
 
 A rival that accelerates on the same task and at the same time reduces the firm’s return to investing there. Index dated, separately serviceable orders by $j$. Write $\Delta p_{ij}$ and $\Delta p_{rj}$ for the gains from each firm’s fixed change in procedure. Under conditional independence, subtracting the two gross returns in Section 2 gives
 

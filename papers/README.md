@@ -2,6 +2,8 @@
 
 The links to research branches open the current manuscripts, code and numerical results. The PDFs below preserve the dated reading editions.
 
+[How deployment changes the productivity of robot capital](How_Deployment_Changes_Robot_Productivity.md) develops the premises of the two working papers through parcel handling and power inspection. It includes proposed openings, a model of the marginal product of robot hours, and tests of execution, learning and authority.
+
 ## Recursive Firm Theory
 
 How does a firm change what it will learn from its next deployment? The research follows a digital agent and physical fleets through incident selection, training allocation, transfer and the release decision. [Live research index](https://github.com/amarmurray/robotics-economics/blob/research/recursive-firm-theory/research/recursive_firm/README.md)
