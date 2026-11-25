@@ -1,0 +1,2 @@
+# Solution — missing coordinated grounding arm
+Equation (4) gives gross probability [0,.3], net [-1.8,1.2]. Interaction/v is [-.1,.2], unidentified. At u=.3, outside-F0 C successes exhaust that stratum; (5) gives gross probability [0,.1], net [-1.8,-.8], so C wins over CG. One arm cannot establish cross-program nesting or qualification transport. With changed demand use complete program J or independently supported bounds, not a benchmark.
