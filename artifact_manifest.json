@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "diagnostic-portfolios-and-design-20261125",
+  "snapshot_id": "theory-week-evidence-reallocation-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "diagnostic-portfolios-and-design-20261125",
-      "sha256": "ae95c679b4904c66e3e663ec7854c6db7e1878b3e4d16dd67add42896313c48b"
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "58a940f145df848bc648898c410af73dc75f5b4405eb9ef20c0d5a2a61cb50fc"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,8 +117,8 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "c770dfe9b828d559c5c584495e4cb87932e44474004312ed85083065d475d3dc"
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "013f8cbf61fe7bf25e7c5f6303ca8e1a1aeec8299458c509775937fc526bdcbc"
     },
     {
       "repository_path": "REPORT.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "diagnostic-portfolios-and-design-20261125",
-      "sha256": "861703a2cc4ba2e60b5841a9ea9638154e4aafecd39800137e05fd02df71f104"
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "56ec3c71b72f924a9ee03615f271e1dfa78ea198fa1adf2a739fbf8983357fa4"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3729,8 +3729,8 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "diagnostic-portfolios-and-design-20261125",
-      "sha256": "5800b0dcfea131cbd044977af16b1c067db90615afa148b7b21049baa26af16e"
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "febbc2d0f8300c05e290b60161282832e4e55312504e96f745b59049e66b6381"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
@@ -3780,6 +3780,48 @@
       "name": "diagnostic_portfolios_results.json",
       "version": "diagnostic-portfolios-and-design-20261125",
       "sha256": "cc41f482b6d054b15d949a381463c250639a5d2cc488a8a1b940bff7be43f00a"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/state.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
+      "name": "state.json",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "88aadffebd014143b10871d930d76a53bacde7fc0db4b342ec481d0db8aa897a"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
+      "name": "README.md",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "0c484c68aae2a581b2df597e2b117257deb207a7c0ef38e884eb4630a89fc421"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
+      "name": "THEORETICAL_SCAFFOLD.md",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "d46e4aede475f1ea484c5fd368b0c28a67e649deeea460d6d0005f398c6995db"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/EVIDENCE_REALLOCATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/EVIDENCE_REALLOCATION.md",
+      "name": "EVIDENCE_REALLOCATION.md",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "bdf870e91066cb5223264e16cb77811acac158c20d7e9cb6ee632ffa29afaa52"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/evidence_reallocation.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/evidence_reallocation.js",
+      "name": "evidence_reallocation.js",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "b7f817174b2bd517856f2582f0c11dc0d2387d88f7c63777164643ccb33d1c5f"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/evidence_reallocation_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/evidence_reallocation_results.json",
+      "name": "evidence_reallocation_results.json",
+      "version": "theory-week-evidence-reallocation-20261125",
+      "sha256": "9266e8fcbb0b8c49fc908cec26c06361c9b1f12a4b20e133ef8450c55434b798"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4046,6 +4088,13 @@
       "research_branch": "research/recursive-firm-theory",
       "branch_research_home": "https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm"
     },
-    "paper_index": "papers/README.md"
+    "paper_index": "papers/README.md",
+    "theory_week": {
+      "index": "papers/theory_week_20261125/README.md",
+      "state": "papers/theory_week_20261125/state.json",
+      "scaffold": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
+      "register": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
+      "status": "active conditional theory; field validation open"
+    }
   }
 }

@@ -2,6 +2,10 @@
 
 The links to research branches open the current manuscripts, code and numerical results. The PDFs below preserve the dated reading editions.
 
+## Current theory week · November 25–December 2
+
+[Research plan and cumulative synthesis](theory_week_20261125/README.md) · [Theoretical scaffold](theory_week_20261125/THEORETICAL_SCAFFOLD.md) · [Propositions and proof gaps](theory_week_20261125/PROPOSITION_REGISTER.md). The first synthesis derives [how evidence reallocation changes cross-market capital productivity](theory_week_20261125/EVIDENCE_REALLOCATION.md).
+
 ## Learning and capital in robotic production
 
 What makes one deployment induce another, possibly at a different firm or in a different industry? The common model links the production decisions in *When Capabilities Become Production* to the choices over learning and reinvestment in *Recursive Firm Theory*. It derives the response of robot-capital productivity as the fleet adjusts and a condition under which two markets can sustain additional adoption together. [Working paper](learning_and_capital/README.md) · [PDF](learning_and_capital/Learning_and_Capital_in_Robotic_Production.pdf) · [Replication](learning_and_capital/replication.py)

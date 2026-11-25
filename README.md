@@ -6,6 +6,8 @@ Robotics Economics studies how physical robots and autonomous digital agents cha
 
 [Learning and Capital in Robotic Production](papers/learning_and_capital/README.md) develops the common theory. Operating a fleet produces service, experience and cash. We derive when those returns bring the same installations forward, when they make new markets viable, and where the marginal product of robot capital rises or falls as firms invest.
 
+[Current theory week: November 25–December 2](papers/theory_week_20261125/README.md) · [Proposition register](papers/theory_week_20261125/PROPOSITION_REGISTER.md)
+
 ## Research scope
 
 The program compares human, assisted and autonomous work across industries such as manufacturing and infrastructure inspection. It follows the value chain from hardware and model suppliers through fleet operators to the firms adopting the technology. The comparisons span industrial arms, mobile robots, humanoids, quadrupeds and drones, as well as LLM-based agents that deliver digital services or coordinate physical fleets.

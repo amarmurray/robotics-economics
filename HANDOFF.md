@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: diagnostic-portfolios-and-design-20261125.
+Handoff ID: theory-week-evidence-reallocation-20261125.
+
+## Theory-week synthesis: when better source execution teaches the recipient less
+
+November 25, 2026 Eastern. [Week research index](papers/theory_week_20261125/README.md) and state reconciled from the review branch onto the current main without replacing its newer studies. [Shared-hour evidence reallocation](papers/theory_week_20261125/EVIDENCE_REALLOCATION.md) derives the sign of recipient evidence from released support minus lost incident advantage; endogenous source expansion can reverse the fixed-workload sign. The result links to conditional physical MPK and installation responses across markets. Synthetic tests, not empirical calibration. **Next:** complementary evidence and a retained portable reference procedure with recipient feedback and competing claims; preserve the independently published studies below.
 
 ## How deployments jointly determine the next hardware design
 

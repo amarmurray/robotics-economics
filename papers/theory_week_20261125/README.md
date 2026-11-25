@@ -8,6 +8,10 @@ This week develops several connected theoretical priorities together. It starts 
 
 [Initial theoretical scaffold](THEORETICAL_SCAFFOLD.md) · [Proposition and proof-gap register](PROPOSITION_REGISTER.md) · [Current research state](state.json) · [Working papers](../README.md) · [Learning and Capital in Robotic Production](../learning_and_capital/README.md)
 
+## Current synthesis
+
+[When a better source robot teaches another fleet less](EVIDENCE_REALLOCATION.md) derives the effective-resource condition linking lost incident evidence, released support and endogenous operating expansion to recipient capability and MPK_r. [Replication](evidence_reallocation.js) · [Results](evidence_reallocation_results.json). The November 25 register also preserves the independently published main results on installed obligations, successive hardware vintages and complementary diagnostic portfolios.
+
 ## The common question
 
 How does an allocation of physical robots, digital agents and complementary resources change current production, the production of future capability, the return to additional capital, and the next allocation of production across firms and industries?

@@ -13,10 +13,11 @@
   },
   "writer_scope": "main: papers/theory_week_20261125; read source branches, preserve their sole-writer leases",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "theory-week-20261125-170425ET",
     "acquired_at": "2026-11-25T17:04:25-05:00",
-    "expires_at": "2026-11-25T18:34:25-05:00"
+    "expires_at": "2026-11-25T18:34:25-05:00",
+    "released_at": "2026-11-25T22:07:47.382Z"
   },
   "completed": [
     {
@@ -34,6 +35,16 @@
     {
       "item": "Bounded synthesis task created and both existing research tasks aligned",
       "kind": "confirmed scheduling"
+    },
+    {
+      "item": "Shared-hour evidence reallocation: fixed exposure sign, endogenous dispatch reversal and conditional cross-market MPK/installation response",
+      "kind": "conditional derivation and synthetic CPU validation",
+      "source": "EVIDENCE_REALLOCATION.md",
+      "checks": 2307
+    },
+    {
+      "item": "Reconciled theory-week navigation and state on fresh main, preserving newer manuscript and register work",
+      "kind": "publication reconciliation"
     }
   ],
   "tracks": [
@@ -63,7 +74,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Reconcile both source branches, map the existing propositions into a common state-dependent transition, and choose the strongest coupled derivation rather than another isolated numerical example.",
+  "next_action": "Extend effective-hour allocation to complementary/non-substitutable evidence and a retained portable reference procedure, with endogenous recipient adoption feeding back into source demand and rivals' captured continuation value. Compare fixed contingent rule and priced external experiment; use whole-program comparisons across binding regimes.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
@@ -93,9 +104,13 @@
     "final_delivered": false
   },
   "final_outputs": {
-    "synthesis": null,
+    "synthesis": "README.md",
     "proof_register": "PROPOSITION_REGISTER.md",
     "empirical_discriminators": null,
     "final_assessment": null
+  },
+  "last_notification": {
+    "key": "20261125-evidence-reallocation",
+    "content": "Shared-hour evidence substitution can reverse sign after source expansion; theory-week publication reconciled on main."
   }
 }
