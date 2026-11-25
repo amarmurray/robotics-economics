@@ -341,4 +341,4 @@ Farrell and Saloner studied how installed bases affect compatibility choices. He
 
 [Original model checks](replication/capability/check_foundation.py) · [Installed-base replication](replication/capability/installed_base.py) · [Learning before a rival](When_Faster_Learning_Pays.md)
 
-[Full-stack firm extension](FULL_STACK_FIRM.md) · How manufacturing, model development and field integration jointly determine what the fleet can learn from the next machine.
+The full-stack model follows the source deployment through two successive factory decisions. It derives when an unusual buyer earns a machine, when better information cancels a hardware change, and how a later buyer’s willingness to share traces changes the first deployment. [Manuscript](FULL_STACK_FIRM.md) · [PDF](The_Full_Stack_Robotic_Firm.pdf) · [Replication](replication/capability/full_stack_vintages.py)

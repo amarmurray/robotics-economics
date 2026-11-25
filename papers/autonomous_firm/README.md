@@ -4,6 +4,7 @@ How should a firm allocate a teleoperator hour, a robot, or a compute slot when 
 
 | Paper | Read on GitHub | PDF edition |
 | --- | --- | --- |
+| **The full-stack robotic firm** · November 25, 2026 | [Site choice, training and successive hardware generations](FULL_STACK_FIRM.md) · [Replication](replication/capability/full_stack_vintages.py) | [Download](The_Full_Stack_Robotic_Firm.pdf) |
 | **When Faster Learning Pays** · November 25, 2026 | [A learning lead, customer deadlines, and rival investment](When_Faster_Learning_Pays.md) · [Exact replication](replication/capability/learning_deadlines.py) | [Download](When_Faster_Learning_Pays.pdf) |
 | **The Production of Capability** · November 25, 2026 | [Learning to choose the next test and support an installed fleet](The_Production_of_Capability.md) · [Foundations](replication/capability/check_foundation.py) · [Installed-base replication](replication/capability/installed_base.py) | [Download](The_Production_of_Capability.pdf) |
 | **Choosing the First Deployment** · November 22, 2026 · 17 pages | [Allocation, site selection, learning, and competition](Choosing_the_First_Deployment.md) | [Download](Choosing_the_First_Deployment.pdf) |
@@ -20,13 +21,16 @@ python -m pip install -r papers/autonomous_firm/replication/requirements.txt
 python papers/autonomous_firm/replication/run.py
 ```
 
-The runner checks the November 20 and 22 papers and regenerates their figures. The November 25 papers have three standalone checks using the Python 3.10+ standard library.
+The runner checks the November 20 and 22 papers and regenerates their figures. The November 25 papers have four standalone checks using the Python 3.10+ standard library.
 
 ```sh
 python papers/autonomous_firm/replication/capability/check_foundation.py
 python papers/autonomous_firm/replication/capability/learning_deadlines.py
 python papers/autonomous_firm/replication/capability/installed_base.py
+python papers/autonomous_firm/replication/capability/full_stack_vintages.py
 ```
+
+To regenerate [Figure 1](figures/full_stack_site_choice.svg) with Matplotlib installed, pass `--figure papers/autonomous_firm/figures/full_stack_site_choice.svg` to the full-stack replication.
 
 The first paper’s six model checks can also run with the Python standard library alone.
 

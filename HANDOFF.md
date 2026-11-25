@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: full-stack-production-of-capability-20261125.
+Handoff ID: full-stack-site-selection-and-hardware-vintages-20261125.
+
+## Field information and the next machine
+
+November 25, 2026, Eastern. [The full-stack robotic firm](papers/autonomous_firm/FULL_STACK_FIRM.md) now solves site selection, model training, two successive tooling choices, and customer participation at given outside options. An informative customer's premium is greatest when different diagnoses would justify different builds. Faster reporting can first favor and then disfavor that customer as ordinary sources catch up. The factory, working-capital and service comparisons distinguish starts, conforming units, acceptance and financed investment. In the three-vintage solution, future trace reuse changes the first customer and moves specialization in opposite directions across the two batches. The [reading edition](papers/autonomous_firm/The_Full_Stack_Robotic_Firm.pdf) and [replication](papers/autonomous_firm/replication/capability/full_stack_vintages.py) present the derivations, an independent contingent-plan enumeration and a field test.
+
+**Next research question.** When two full-stack firms can bid for the same informative customer, under what conditions does a lower service quote expand industry adoption, transfer the deployment between fleets, or shift which hardware gets built?
 
 ## Manufacturing, learning and integration under one owner
 

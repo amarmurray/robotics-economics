@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "full-stack-production-of-capability-20261125",
+  "snapshot_id": "full-stack-site-selection-and-hardware-vintages-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "full-stack-production-of-capability-20261125",
-      "sha256": "836688ed04183e3cc9696bfd4c5f94e28c9e18e39024e8968ca70b373c355309"
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "1d5c038aa98a1f0011e2fe0db9cb23c8ee0aca746a792cfb882e11c45a1fd2d7"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "809cfa58450f9d08f78eae15923238c303c6b5fe60f24e5bdf6cb44290c63a5b"
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "e4c49c3c5ab5e3895ae06eaf6e2fef4f92a69fb02b63092420c7de826e995504"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3540,8 +3540,8 @@
       "repository_path": "papers/autonomous_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/README.md",
       "name": "README.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "ec94e0e6dc7e4afeb09d15ee7e1e695b6a3120b810c4a23eb9b0af5e58b7750d"
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "6dbca2b628ddda2454f50faff11e8ccabcf3bb13e43009489c6718c57f630a0f"
     },
     {
       "repository_path": "papers/autonomous_firm/The_Autonomous_Firm.md",
@@ -3715,8 +3715,8 @@
       "repository_path": "papers/autonomous_firm/The_Production_of_Capability.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/The_Production_of_Capability.md",
       "name": "The_Production_of_Capability.md",
-      "version": "full-stack-production-of-capability-20261125",
-      "sha256": "f6331e526a16f685fd40877db1795caee6e85e98cc188c2a32d0b3dd732e5a05"
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "ea9836d9a8b001b625b0485cae75293731aa846988417495b9031854c8396171"
     },
     {
       "repository_path": "papers/autonomous_firm/replication/capability/installed_base.py",
@@ -3729,15 +3729,36 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "production-of-capability-installed-base-20261125",
-      "sha256": "a8d76b8bca7890b18e7c6fd7dc92fee1e040450ee3cf3bc1952148a017d53a24"
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "b6f1dd5cd514749d89ff2331f74140148a6e1ce5aca06c478a7e5e8eff15544d"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/FULL_STACK_FIRM.md",
       "name": "FULL_STACK_FIRM.md",
-      "sha256": "383b6ef6ff641ac0f24aed2747da5e776c772a0d93fb4cf38d9506851df4bbe4",
-      "version": "full-stack-production-of-capability-20261125"
+      "sha256": "e3750572a2a93dcdda591e7c56faac6c8376fa4bd49dde2b4c75f9522a681860",
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/The_Full_Stack_Robotic_Firm.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/The_Full_Stack_Robotic_Firm.pdf",
+      "name": "The_Full_Stack_Robotic_Firm.pdf",
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "b03b6aaf89d57216c59184036ffa78cf6a2762c66374f5cd4b361aa131768087"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/capability/full_stack_vintages.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/capability/full_stack_vintages.py",
+      "name": "full_stack_vintages.py",
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "4487f0fe2c91aae1626eda1612ab447c6f51dc684c23ffae7f16594ad7302e4b"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/figures/full_stack_site_choice.svg",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/figures/full_stack_site_choice.svg",
+      "name": "full_stack_site_choice.svg",
+      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
+      "sha256": "0d74892def83fac3cccfaeb6e3d74666fa495c68b7994c6bd7194f2268974eda"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
