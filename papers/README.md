@@ -18,9 +18,11 @@ The [learning dynamics study](https://github.com/amarmurray/robotics-economics/b
 | Reading edition | Question |
 | --- | --- |
 | [The Autonomous Firm](autonomous_firm/The_Autonomous_Firm.pdf) · Nov 20 | How do shared capacity and deadlines change the opportunity cost of learning across machines and people? |
-| [What Does the Firm Allocate?](autonomous_firm/Choosing_the_First_Deployment.pdf) · Nov 22 | Which feasible use of capacity should the firm choose when today's work changes tomorrow's alternatives? |
+| [Choosing the First Deployment](autonomous_firm/Choosing_the_First_Deployment.md) · [PDF](autonomous_firm/Choosing_the_First_Deployment.pdf) · Nov 22 | Which feasible use of capacity should the firm choose when today's work changes tomorrow's alternatives? |
 
 Run `python run_all.py` from the replication directory to reproduce the six numerical modules. [Browse the source and reference output](autonomous_firm/replication/README.md) · [Download the original package](autonomous_firm/Autonomous_Firm_Replication.zip)
+
+[Both manuscripts in Markdown, the deployment and competition checks, figures, and original typesetting sources](autonomous_firm/README.md)
 
 ## When Capabilities Become Production
 

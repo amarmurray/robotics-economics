@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: roboecon-paper-editions-20261125.
+Handoff ID: autonomous-firm-manuscripts-and-models-20261125.
+
+## Autonomous Firm manuscript sources and replications
+
+November 25, 2026, Eastern. The [Autonomous Firm research folder](papers/autonomous_firm/README.md) adds Markdown for both issued papers and the executable site-selection, learning-state, capacity and competitive models. The complete runner reproduces the first paper’s recorded results and all five figures. The typesetting sources rebuild the 15- and 17-page manuscripts. One empirical question is whether changing timely validation authority changes which demonstrations a fleet collects at fixed demand, hardware and starting policy.
 
 ## Reading the research on GitHub
 

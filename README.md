@@ -5,7 +5,7 @@ Research on physical labor, staged humanoid deployment, learning/control, physic
 ## Research papers
 
 - [Recursive Firm Theory](https://github.com/amarmurray/robotics-economics/blob/research/recursive-firm-theory/research/recursive_firm/README.md) follows how production changes what a fleet learns, shares and deploys next.
-- [The Autonomous Firm](papers/autonomous_firm/The_Autonomous_Firm.pdf) studies the opportunity cost of learning across agents, robots and operators. [Replication code](papers/autonomous_firm/replication/README.md)
+- [The Autonomous Firm](papers/autonomous_firm/The_Autonomous_Firm.pdf) studies the opportunity cost of learning across agents, robots and operators. [Choosing the First Deployment](papers/autonomous_firm/Choosing_the_First_Deployment.md) develops the allocation and competition models. [Papers and replication](papers/autonomous_firm/README.md)
 - [When Capabilities Become Production](https://github.com/amarmurray/robotics-economics/blob/research/assistant-led-expansion-20261117/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md) develops the qualification and investment argument.
 
 [All paper editions, companion notes and replication files](papers/README.md)
