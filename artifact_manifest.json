@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-audit-location-20261125",
+  "snapshot_id": "recursive-firm-boundaries-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-audit-location-20261125",
-      "sha256": "50fa5a064339b105c26deef50cf60016ff881778d9470032c20a8138ab5a276a"
+      "version": "recursive-firm-boundaries-20261125",
+      "sha256": "991155efd86cd0bbb80d7654296997296aebb2702d03e8d26d969fcb7166561a"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-audit-location-20261125",
-      "sha256": "e7873f55e763c7e1b76c366e6bb5d78e512f5142b62bd945440795d8fe9908e6"
+      "version": "recursive-firm-boundaries-20261125",
+      "sha256": "6c8b1fd9bbd8ea30186178f6fa773c5ce3cff9ccc9e65b10c2c7478e19a1cc1f"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3892,6 +3892,20 @@
       "name": "check.py",
       "sha256": "5f3e7777dff954d61c7feabebf72e539a2d6164b90f074c69ee4c5dfbca52c32",
       "version": "recursive-firm-audit-location-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/boundaries/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/boundaries/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-boundaries-20261125",
+      "sha256": "dc9994683793d1e00a2901e39757e29f3ae280ce20c3ae0a38c2a0a954a92a2d"
+    },
+    {
+      "repository_path": "research/recursive_firm/boundaries/check.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/boundaries/check.py",
+      "name": "check.py",
+      "version": "recursive-firm-boundaries-20261125",
+      "sha256": "aefc0d79f586f057dd5807c151582330dc9f9465fe2c866ecd798076ab176d14"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4191,7 +4205,8 @@
         "replication": "research/recursive_firm/inquiry/deployment_portfolio/replicate.py",
         "results": "research/recursive_firm/inquiry/deployment_portfolio/results.json"
       },
-      "audit_location": "research/recursive_firm/inquiry/audit_location/README.md"
+      "audit_location": "research/recursive_firm/inquiry/audit_location/README.md",
+      "endogenous_scope": "research/recursive_firm/boundaries/README.md"
     }
   }
 }

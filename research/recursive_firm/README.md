@@ -20,6 +20,8 @@ The companion *When Capabilities Become Production* studies how capability and c
 
 [Where should the next audit take place?](inquiry/audit_location/README.md) asks when a growing fleet should move its next hour from measuring source novelty to testing a recipient, and which joint observation its ordinary dashboards miss.
 
+[When should a recursive firm own the stack?](boundaries/README.md) makes the boundary a choice. It compares internal manufacturing, models and deployment with feasible partners, derives when an expiring learning opportunity favors integration, and shows how producing a portable procedure can make outsourcing economical.
+
 ## Findings from individual studies
 
 Physical and digital benchmarks measure performance on specified tasks. The economic simulations vary the choices and resources that convert performance into paid work. Two results discipline the interpretation. A fixed model matched domain selection when the full published digital menu was available, and a precommitted audit beat adaptive renewal after an unexpected reversal at the source. A claim that production improved a firm’s learning procedure still needs a test on fresh operating sites. [Benchmark reanalysis](inquiry/README.md#what-our-earlier-benchmark-examples-can-establish) · [Reference coverage](reference_coverage/README.md)

@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-audit-location-20261125.
+Handoff ID: recursive-firm-boundaries-20261125.
+
+## Endogenous scope of the recursive firm
+
+[When should a recursive firm own the stack?](research/recursive_firm/boundaries/README.md) follows the source-versus-recipient audit study at 50918fd19b75ac4ee937b209ad6e508414011624. It extends the companion production paper by letting the firm choose its boundary. The premium for faster internal response can peak at intermediate persistence. Learning a transferable qualification procedure can justify integration followed by delegation, even when operating margins fall during inquiry. A well-equipped joint lab can reverse the ownership ranking. The proofs and [exact checks](research/recursive_firm/boundaries/check.py) are theoretical. Next vary post-handoff reference coverage separately from who produces and test whether a change of hardware vintage prompts timely re-entry.
 
 ## Which end should receive the next audit?
 
