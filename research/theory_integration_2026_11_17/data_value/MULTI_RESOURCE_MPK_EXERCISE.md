@@ -1,0 +1,3 @@
+# Exercise: capital aggregation with two complementary robot classes
+
+Two final services pay 6 and 4, demand one each, and use one unit each of mobile and stationary capital. Both also require one inspector in P; G qualifies a version of B requiring no inspector, retaining the old option. Initial capacities are one each. Compute (i) both standalone gross marginal values, (ii) the joint gross marginal, (iii) the net decision with individual capital cost 1.5 and G cost .5. Explain using (3) why the individual right derivatives do not identify the joint right derivative. What if P can buy the same inspection release for .25? What prospective measurements would distinguish this from an apparent technical benchmark gain?

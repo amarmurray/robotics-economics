@@ -1,0 +1,30 @@
+{
+  "checks": 8805,
+  "cases": 400,
+  "seed": 73939,
+  "portfolio": {
+    "P": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "G": [
+      6,
+      6,
+      6,
+      10
+    ],
+    "cost_per_body": 1.5,
+    "grounding_cost": 0.5,
+    "net_combined_G": 0.5
+  },
+  "finite_substitution": [
+    2,
+    3,
+    3,
+    3
+  ],
+  "field_calibration": false,
+  "full_repository_ci": false
+}
