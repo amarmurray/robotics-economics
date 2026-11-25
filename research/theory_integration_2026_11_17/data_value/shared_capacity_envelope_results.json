@@ -1,0 +1,16 @@
+{
+  "checks": 50653,
+  "cases": 49152,
+  "worlds": {
+    "baseline": 5,
+    "groundingCoincident": 5,
+    "groundingDisjoint": 10,
+    "incrementalCost": 2,
+    "net": [
+      -2,
+      3
+    ]
+  },
+  "field_calibration": false,
+  "full_repository_ci": false
+}

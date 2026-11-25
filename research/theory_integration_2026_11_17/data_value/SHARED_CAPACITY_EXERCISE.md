@@ -1,0 +1,2 @@
+# Exercise: economically relevant overlap
+Two original orders worth 8 and 3 share one predispatch qualified slot. Their qualification probabilities are .6 and .7. Calculate the sharp gross production envelope. A new target grounding intervention makes the second qualification probability .9 while leaving the first .6; it costs .5, all else fixed. What can one conclude about its incremental return from marginals alone? What joint statistic would identify the restricted contrast? Explain why accepted-order logs alone cannot determine it.
