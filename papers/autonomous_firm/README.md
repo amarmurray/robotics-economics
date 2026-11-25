@@ -5,7 +5,7 @@ How should a firm allocate a teleoperator hour, a robot, or a compute slot when 
 | Paper | Read on GitHub | PDF edition |
 | --- | --- | --- |
 | **When Faster Learning Pays** · November 25, 2026 | [A learning lead, customer deadlines, and rival investment](When_Faster_Learning_Pays.md) · [Exact replication](replication/capability/learning_deadlines.py) | [Download](When_Faster_Learning_Pays.pdf) |
-| **The Production of Capability** · November 25, 2026 | [Learning to select a fresh test and pricing what transfers](The_Production_of_Capability.pdf) · [Exact replication](replication/capability/check_foundation.py) | [Download](The_Production_of_Capability.pdf) |
+| **The Production of Capability** · November 25, 2026 | [Learning to choose the next test and support an installed fleet](The_Production_of_Capability.md) · [Foundations](replication/capability/check_foundation.py) · [Installed-base replication](replication/capability/installed_base.py) | [Download](The_Production_of_Capability.pdf) |
 | **Choosing the First Deployment** · November 22, 2026 · 17 pages | [Allocation, site selection, learning, and competition](Choosing_the_First_Deployment.md) | [Download](Choosing_the_First_Deployment.pdf) |
 | **The Autonomous Firm** · November 20, 2026 · 15 pages | [The opportunity cost of learning across digital agents, physical fleets, and human operators](The_Autonomous_Firm.md) | [Download](The_Autonomous_Firm.pdf) |
 
@@ -20,13 +20,15 @@ python -m pip install -r papers/autonomous_firm/replication/requirements.txt
 python papers/autonomous_firm/replication/run.py
 ```
 
-The runner checks the November 20 and 22 papers and regenerates their figures. The November 25 papers have two standalone checks, both using the Python 3.10+ standard library.
+The runner checks the November 20 and 22 papers and regenerates their figures. The November 25 papers have three standalone checks using the Python 3.10+ standard library.
 
 ```sh
 python papers/autonomous_firm/replication/capability/check_foundation.py
 python papers/autonomous_firm/replication/capability/learning_deadlines.py
+python papers/autonomous_firm/replication/capability/installed_base.py
 ```
- The first paper’s six model checks can also run with the Python standard library alone.
+
+The first paper’s six model checks can also run with the Python standard library alone.
 
 | Material | Location |
 | --- | --- |

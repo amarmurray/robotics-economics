@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: learning-and-capital-production-networks-20261125.
+Handoff ID: production-of-capability-installed-base-20261125.
+
+## How the installed fleet directs future inquiry
+
+November 25, 2026, Eastern. [The Production of Capability](papers/autonomous_firm/The_Production_of_Capability.md) now asks which sites can teach a new method and which sites must be requalified before it can be used. A sale can supply useful new experience while committing engineering time on discoveries the firm would have made anyway. With demand and fleet size fixed, better routine discovery can favor fewer distinct operating environments and cheaper validation can favor more. Retiring the last user of a supported configuration can release capacity for other buyers. A firm can optimally retain the retired workcell for physical experiments when selling, simulating or keeping it in production would sacrifice more future inquiry. The [revised paper](papers/autonomous_firm/The_Production_of_Capability.pdf) states the conditions, including when the predictions disappear. The [replication](papers/autonomous_firm/replication/capability/installed_base.py) checks release choices, investigation, fleet variety, collective migration, persistence and competitive qualification.
+
+**Next research question.** At comparable demand and staffing, does retiring the final supported user of a configuration shorten time to acceptance on unrelated orders more than moving another user from a configuration that remains supported? Record which rare observations disappear and whether a retained test cell can recover them.
 
 ## Learning and capital across firms
 
