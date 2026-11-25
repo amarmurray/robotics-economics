@@ -2,34 +2,42 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "905486cf01a78c61ed4eb9dc0f32f6771dda2832",
+  "research_input_commit": "70cefb95ecb292c8bfc0024729b56ccb6feb2a9c",
   "lease": {
     "run_id": "contribution-hierarchy-2026-11-25T13:32:57.766Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T13:32:57.766Z",
     "expires_at_utc": "2026-11-25T14:32:57.766Z",
-    "reason": "Compress contribution and compare to production economics priors"
+    "reason": "Compress contribution and compare to production economics priors",
+    "released_at_utc": "2026-11-25T13:35:26.189Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "First paper synthesis and contribution triage; science OPEN",
+  "current_mode": "Contribution synthesis and adversarial model reduction; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_EVIDENCE_ARCHITECTURE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_CONTRIBUTION_HIERARCHY_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state preserved by original blob 63a2736251b5f361ee76562ed2c29f47a45f5838; main and backlog unchanged.",
-  "latest_result": "Integrated source-specific empirical decision matrix; overlapping-cohort omitted-recipe residual relaxation and audit multiplier certificate; new public human baseline dataset route located, raw records not retrieved; no commercial causal identification.",
+  "preservation": "Prior released state and previous compact draft preserved by original Git blobs 7820ccbc59f41cd3108fdd27603137d91ecf96b9 and 925309a08c983afac191da7d420e654eccf9dfb4; main/backlog unchanged.",
+  "latest_result": "Reorganized compact manuscript into economic priors, A/B program comparison, one signed coordination/grounding mechanism and restricted decision certificates; archived full detailed draft and audited eight adjacent prior-art traditions. No new independent theorem or field estimate.",
   "validation": {
-    "cases": 6400,
-    "checks": 236800,
-    "interpretation": "integer subset and nonnegative multiplier upper-bound checks; not proof or field data",
-    "field_calibration": false
+    "document_links_checked": 14,
+    "prior_art_abstracts_checked": 8,
+    "prior_draft_chars": 22208,
+    "main_draft_chars": 16333,
+    "archived_original_blob": "925309a08c983afac191da7d420e654eccf9dfb4",
+    "field_calibration": false,
+    "full_repository_ci": false,
+    "new_numerical_checks": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
+    "research/theory_integration_2026_11_17/data_value/CONTRIBUTION_HIERARCHY_20261125.md",
+    "research/theory_integration_2026_11_17/data_value/COMPACT_DRAFT_DETAILED_APPENDIX_20261125.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_CONTRIBUTION_HIERARCHY_RELEASED_STATE.json",
     "research/theory_integration_2026_11_17/data_value/EVIDENCE_ARCHITECTURE.md",
     "research/theory_integration_2026_11_17/data_value/evidence_architecture.js",
     "research/theory_integration_2026_11_17/data_value/evidence_architecture_results.json",
-    "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
     "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
     "research/theory_integration_2026_11_17/data_value/PRE_EVIDENCE_ARCHITECTURE_RELEASED_STATE.json",
@@ -152,9 +160,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Consolidated empirical architecture; conditional contribution candidate and residual audit; field evidence open",
-      "question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
-      "deliverable": "Compact contribution hierarchy and discriminating empirical design with explicit nonidentification"
+      "status": "Main narrative reorganized and eight prior-art traditions compared; contribution not locked",
+      "question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
+      "deliverable": "Nested null-model reduction, discriminatory implication and bounded evidence or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -179,17 +187,17 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Consolidated empirical architecture; conditional contribution candidate and residual audit; field evidence open",
-      "question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
-      "deliverable": "Compact contribution hierarchy and discriminating empirical design with explicit nonidentification"
+      "status": "Main narrative reorganized and eight prior-art traditions compared; contribution not locked",
+      "question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
+      "deliverable": "Nested null-model reduction, discriminatory implication and bounded evidence or explicit nonidentification"
     }
   ],
   "portfolio_status": {
     "theory": "Qualified network cut geometry (restricted), dynamic exposure decomposition and feasible-policy comparison; multiresource aggregation open",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI). Kobe dispensing actual medication-line and prescription counts, conditional complete-bundle grouping, retained pharmacist review and resource-clock medians; no field economic return.; public footwear WMS dataset v1 located; raw CSV not retrieved, human baseline only.",
-    "paper": "Compact draft with evidence architecture and decision-specific overlapping cohort certificate; field calibration unresolved.",
+    "paper": "Reorganized first-paper narrative with detailed technical appendix and adversarial prior-art audit; field support and contribution choice open.",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
-    "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
+    "main_contribution": "Candidate evolving-counterfactual economic data value in learned jointly qualified production; no independent novelty claim."
   },
   "known_limitations": [
     "Inherited limitations and complete prior validations are preserved in PRE_TELEOPERATION_STATE.json and earlier linked states; prior scientific gates remain open.",
@@ -299,7 +307,7 @@
     "Kobe Table 1 period 2 route sum differs by one; Table 3 n differs from prose. Item allocation conditional on partition; dispensed cohort excludes unserved opportunities. Cardinality scope, independent contribution caps and dated resource price/schedule absent; no actual MPK or learning intervention."
   ],
   "last_notification": "2026-11-25 Eastern: shared-resource qualification can change joint robotic capital returns while every separate measured marginal and incumbent output are unchanged; local aggregation iff common minimizing price, conditional theory.",
-  "execution_note": "Executed scoped synthetic multiplier bounds in V8, no independent replication/full CI or raw warehouse data.",
+  "execution_note": "Document-level synthesis, checked relative links against input commit; no new numerical experiments, full CI or field validation. Prior draft and state archived by original blobs.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -316,9 +324,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
-  "publication_parent_commit": "b384c03351380c1f0a66830113d0a615750f776e",
-  "current_proof_gap": "No matched original opportunity settlement panel, independently supported residual margins and feasible schedule witness; contemporary official use/supply backbone absent.",
-  "exact_next_action": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
+  "publication_parent_commit": "7dfe163d23b1cb0ac64f27c2927014c47c4ca6e2",
+  "current_proof_gap": "Need observable economic restriction distinguishing jointly endogenous qualification/capacity/exposure from standard process flexibility and learning by doing; no matched commercial original-order panel, independent costs, or contemporary BEA/BLS numeric join.",
+  "exact_next_action": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -336,7 +344,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T12:29:53.783Z",
+  "updated_at_utc": "2026-11-25T13:35:26.189Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -353,9 +361,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
-  "proof_gap": "Need original-opportunity dated recipe and value support plus lawful successor exposure; counts only bound observed routing composition, not missing economic residual unconditionally.",
-  "next_action": "Consolidate source-grounded complete-bundle and joint resource ceilings across supported cases into compact empirical matrix. Seek a real original opportunity ledger with dated resource incidence and independently bounded captured value or jointly documented successor exposure; no multiplication of medians or item success. If unavailable retain conditional nonidentification and prioritize integrated contribution choice over another narrow synthetic mechanism.",
+  "exact_question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
+  "proof_gap": "Need observable economic restriction distinguishing jointly endogenous qualification/capacity/exposure from standard process flexibility and learning by doing; no matched commercial original-order panel, independent costs, or contemporary BEA/BLS numeric join.",
+  "next_action": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -421,7 +429,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Consolidate source-grounded complete-bundle and joint resource ceilings across supported cases into compact empirical matrix. Seek a real original opportunity ledger with dated resource incidence and independently bounded captured value or jointly documented successor exposure; no multiplication of medians or item success. If unavailable retain conditional nonidentification and prioritize integrated contribution choice over another narrow synthetic mechanism.",
+  "exact_intellectual_question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -441,7 +449,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+  "exact_next": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -541,7 +549,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Need independently justified upper coverage of omitted jointly qualified recipe residuals and actual feasible witnesses on a common original-order catchment; missing counterfactual dynamic histories and lawful retention intervention prevent causal mediation.",
+  "next_proof_gap": "Need observable economic restriction distinguishing jointly endogenous qualification/capacity/exposure from standard process flexibility and learning by doing; no matched commercial original-order panel, independent costs, or contemporary BEA/BLS numeric join.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -622,7 +630,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Compress first paper into coherent economic primitives, program-level comparison, restricted decision certificates and falsifiable field evidence; adversarial prior-art comparison before contribution choice.",
+  "current_question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1702,7 +1710,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Apply the joint recipe-residual/witness protocol to a genuinely available complete service ledger or independently supported engineering ceilings for a single original-order catchment; identify which omitted residual bounds lack support. Relate matched fixed-exposure portfolio response to the separately followed lawful source-specific exposure and successor qualified recipe incidence in evolving P/G/C/E arms; consolidate the first-paper validation design rather than disconnected examples.",
+  "next_question": "Nest fixed process flexibility and ordinary learning-by-doing nulls inside A/B; isolate the minimal joint endogenous state change that reverses a program choice and seek an observable restriction not implied by the separate nulls. If no such restriction or independently supported original-service ledger exists, retain conditional measurement-paper scope.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -4288,5 +4296,15 @@
     "checks": 236800,
     "interpretation": "integer subset and nonnegative multiplier upper-bound checks; not proof or field data",
     "field_calibration": false
+  },
+  "validation_contribution_hierarchy": {
+    "document_links_checked": 14,
+    "prior_art_abstracts_checked": 8,
+    "prior_draft_chars": 22208,
+    "main_draft_chars": 16333,
+    "archived_original_blob": "925309a08c983afac191da7d420e654eccf9dfb4",
+    "field_calibration": false,
+    "full_repository_ci": false,
+    "new_numerical_checks": false
   }
 }
