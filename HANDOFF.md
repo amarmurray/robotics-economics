@@ -1,10 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-settlement-learning-20261124.
+Handoff ID: recursive-firm-reading-editions-20261125.
 
 ## Learning from settlements and target-site audits
 
 The [study](research/recursive_firm/settlement_learning/README.md) starts from a9dc0e3c647500b7894af9ed7b99191a75a2fab2. Across 1,536 fresh synthetic fleets, varying physical releases for information improved net contribution by 12.84 over a matched planner after a persistent single-robot fault. Identifying the successful lane on 25% of ambiguous settlements reduced the difference to 0.36. Scheduled audits raised paid output yet lost 2.02 against diagnostic deployment alone. A reversal changed that ranking. Next randomize tag coverage by site and compare selective retention with a small independent reference sample.
+
+The [RoboEcon paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) includes the dated Recursive Firm and intervention notes, the Autonomous Firm paper and replication, and links to the separate production manuscript. The experiments and next question above remain the research handoff.
 
 ## Discovering and qualifying reusable corrections
 

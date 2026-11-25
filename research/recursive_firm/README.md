@@ -4,6 +4,8 @@
 
 RoboEcon research branch · opened 20 November 2026, US Eastern
 
+Read the [founding note (PDF)](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf) or [Intervention as a Production Input (PDF)](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf). The [RoboEcon paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) includes the related Autonomous Firm paper and its replication code.
+
 **When Capabilities Become Production** asks when a capability, buyer demand, qualification, resources and rights combine to deliver economically accepted work. **Recursive Firm Theory** asks how the organization that performs those conversions comes to exist and changes. A firm can invest in who sees a failure, who may propose an experiment, who bears its loss, and who can revise the operating rule when the result arrives. The latter question applies to a physical fleet, an LLM service business or a federation of independent operators. A single project can supply evidence to both inquiries. Each needs its own outcome and competing explanation. [Foundation and the earlier Q-learning benchmark](../theory/recursive_firm.md) · [Connected production research](https://github.com/amarmurray/robotics-economics/blob/4c39ae66b5e2d8014676dd493550e882ddc48e36/research/theory_integration_2026_11_17/data_value/QUALIFICATION_GATE_AND_DATA_VALUE.md)
 
 ## When can paid work diagnose the next repair?

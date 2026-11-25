@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-settlement-learning-20261124",
+  "snapshot_id": "recursive-firm-reading-editions-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-settlement-learning-20261124",
-      "sha256": "83af13a471f777ddb3e2e4837c0b5bbb8d5ce6f58eb2fd7afce1ab22cae5bb39"
+      "version": "recursive-firm-reading-editions-20261125",
+      "sha256": "4473a778dce44d61ef710a53fad058929859fec03537c53b9ba9cdf7af8e9bdd"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-settlement-learning-20261124",
-      "sha256": "e6ebadac22a0db3e7533c58b751ebbb4f552613f6f90ee3c1d2addeb13045439"
+      "version": "recursive-firm-reading-editions-20261125",
+      "sha256": "d1318de436820acc51c11d1d06844c9f917cd228ac6d60e8c606ee2e194fe7d5"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3931,7 +3931,8 @@
       "priced_transfer_validation": "research/recursive_firm/transfer_validation/README.md",
       "adapter_repair": "research/recursive_firm/transfer_validation/ADAPTER_REPAIR.md",
       "partition_discovery": "research/recursive_firm/partition_discovery/README.md",
-      "settlement_learning": "research/recursive_firm/settlement_learning/README.md"
+      "settlement_learning": "research/recursive_firm/settlement_learning/README.md",
+      "paper_editions": "https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md#recursive-firm-theory"
     }
   }
 }
