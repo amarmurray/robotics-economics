@@ -1,0 +1,53 @@
+{
+  "checks": 4358,
+  "cases": 1200,
+  "interval_panel1_min_A_minus_B": 2,
+  "interval_panel2_min_B_minus_A": 2,
+  "compatible_orders": [],
+  "nested_levels": [
+    [
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        8
+      ]
+    ],
+    [
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        8
+      ]
+    ]
+  ],
+  "dated_recipe_levels": [
+    [
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        10
+      ]
+    ]
+  ],
+  "field_calibration": false,
+  "full_repository_ci": false
+}
