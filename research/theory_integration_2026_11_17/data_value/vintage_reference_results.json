@@ -1,0 +1,203 @@
+{
+  "checks": 594,
+  "scope": "Synthetic finite two-transition model; arithmetic checks, no field calibration or independent novelty",
+  "par": {
+    "c": 0.9,
+    "H": [
+      1,
+      2
+    ],
+    "P": [
+      1,
+      1
+    ],
+    "beta": 0.95,
+    "d": [
+      0.05,
+      0.5
+    ],
+    "a": 3,
+    "b": [
+      4,
+      9
+    ],
+    "setup": [
+      0,
+      0.7
+    ],
+    "carry": [
+      0.3,
+      0.3
+    ],
+    "sourceCost": 0.4,
+    "absCost": 0.4,
+    "extCost": 3,
+    "bridgeCost": 0.1,
+    "sourceQ": 0.9,
+    "absQ": 1,
+    "extQ": 1,
+    "bridgeQ": 1,
+    "uA": 0.4,
+    "qA": 0.8,
+    "uB": 0.2,
+    "qB": 0.7
+  },
+  "witness": {
+    "optional": {
+      "v": 12.219999999999999,
+      "B": 1.45,
+      "A": 0.55,
+      "newB": 1.45,
+      "kept": 2,
+      "bridge": 1,
+      "external": 0,
+      "source": 0,
+      "test": 2,
+      "redesign": 2,
+      "first": {
+        "keep": true,
+        "redesign": 1,
+        "route": "none"
+      }
+    },
+    "retire": {
+      "v": 10.677000000000001,
+      "B": 1.08,
+      "A": 0.9199999999999999,
+      "newB": 1.08,
+      "kept": 0,
+      "bridge": 0,
+      "external": 0,
+      "source": 0,
+      "test": 2,
+      "redesign": 2,
+      "first": {
+        "keep": false,
+        "redesign": 1,
+        "route": "none"
+      }
+    },
+    "forcedKeep": {
+      "v": 12.219999999999999,
+      "B": 1.45,
+      "A": 0.55,
+      "newB": 1.45,
+      "kept": 2,
+      "bridge": 1,
+      "external": 0,
+      "source": 0,
+      "test": 2,
+      "redesign": 2,
+      "first": {
+        "keep": true,
+        "redesign": 1,
+        "route": "none"
+      }
+    },
+    "noRef": {
+      "v": 10.677000000000001,
+      "B": 1.08,
+      "A": 0.9199999999999999,
+      "newB": 1.08,
+      "kept": 0,
+      "bridge": 0,
+      "external": 0,
+      "source": 0,
+      "test": 2,
+      "redesign": 2,
+      "first": {
+        "keep": false,
+        "redesign": 1,
+        "route": "none"
+      }
+    }
+  },
+  "delayedExample": {
+    "H": [
+      1,
+      2
+    ],
+    "carry": 0.05,
+    "drift": 0.15,
+    "ext": 3,
+    "with": {
+      "v": 14.707937500000002,
+      "B": 1.7797499999999997,
+      "A": 0.22024999999999995,
+      "newB": 1.7797499999999997,
+      "kept": 1.815,
+      "bridge": 0.815,
+      "external": 0,
+      "source": 0,
+      "test": 1.9999999999999998,
+      "redesign": 2,
+      "first": {
+        "keep": true,
+        "redesign": 1,
+        "route": "none"
+      }
+    },
+    "without": {
+      "v": 14.22,
+      "B": 1.6649999999999998,
+      "A": 0.33499999999999996,
+      "newB": 1.6649999999999998,
+      "kept": 0,
+      "bridge": 0,
+      "external": 0,
+      "source": 0,
+      "test": 1.9999999999999998,
+      "redesign": 2,
+      "first": {
+        "keep": false,
+        "redesign": 1,
+        "route": "none"
+      }
+    }
+  },
+  "designReversal": null,
+  "cheapExample": {
+    "H": [
+      1,
+      2
+    ],
+    "carry": 0.05,
+    "drift": 0.15,
+    "ext": 0.1,
+    "with": {
+      "v": 14.979999999999999,
+      "B": 1.815,
+      "A": 0.18499999999999997,
+      "newB": 1.815,
+      "kept": 0,
+      "bridge": 0,
+      "external": 0.9999999999999999,
+      "source": 0,
+      "test": 1.9999999999999998,
+      "redesign": 2,
+      "first": {
+        "keep": false,
+        "redesign": 1,
+        "route": "none"
+      }
+    },
+    "without": {
+      "v": 14.979999999999999,
+      "B": 1.815,
+      "A": 0.18499999999999997,
+      "newB": 1.815,
+      "kept": 0,
+      "bridge": 0,
+      "external": 0.9999999999999999,
+      "source": 0,
+      "test": 1.9999999999999998,
+      "redesign": 2,
+      "first": {
+        "keep": false,
+        "redesign": 1,
+        "route": "none"
+      }
+    }
+  },
+  "caseCount": 36
+}
