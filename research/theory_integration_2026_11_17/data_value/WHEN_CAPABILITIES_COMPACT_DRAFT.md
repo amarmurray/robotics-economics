@@ -80,3 +80,6 @@ The candidate contribution is a theory of economic data value in **learned, join
 
 
 **25 November — reference renewal and the direction of investment.** [Chapter](REFERENCE_RENEWAL_AND_TRANSFER_ROTATION.md) derives how relocating an anchor rotates transfer across legacy and new task families, and solves shared dated validation, overlapping orders, selected ordinary records and successor eligibility. Optional renewal raises value but can increase or decrease starts under different binding complements. Equal conditional outside contrasts remove the special ownership return. Conditional theory, no field calibration.
+
+
+**25 November — correlated reference networks and shared access.** [Chapter](REFERENCE_NETWORK_AND_SHARED_ACCESS.md) derives joint-moment closure for portable representations, an external-reference purchase reversal at identical target marginals, and a restricted procurement mechanism where open reference access raises real value but eliminates voluntary private sponsorship. Conditional theory and finite synthetic checks; actual shared metrology and commercial calibration OPEN.

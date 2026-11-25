@@ -1,0 +1,65 @@
+{
+  "checks": 59715,
+  "cases": 108,
+  "scope": "Synthetic finite posterior, safe test and procurement enumeration; not industrial calibration or full CI",
+  "witness": [
+    {
+      "d": 0,
+      "H": 2,
+      "P": 2,
+      "q": 1,
+      "ordinary": {
+        "v": 7,
+        "n": [
+          0.5,
+          0.5
+        ],
+        "first": "0:-1"
+      },
+      "external": {
+        "v": 8.5,
+        "n": [
+          0.5,
+          1
+        ]
+      }
+    },
+    {
+      "d": 0.8,
+      "H": 2,
+      "P": 2,
+      "q": 1,
+      "ordinary": {
+        "v": 11,
+        "n": [
+          0.5,
+          0.9
+        ],
+        "first": "0:-1"
+      },
+      "external": {
+        "v": 10.1,
+        "n": [
+          0.9,
+          1
+        ]
+      }
+    }
+  ],
+  "publicCase": {
+    "gain": [
+      -1.9199999999999997,
+      -1.632
+    ],
+    "realGain": 3.879999999999999,
+    "robotGain": 0.6800000000000004
+  },
+  "exclusiveCase": {
+    "gain": [
+      2.08,
+      -1.9999999999999998
+    ],
+    "realGain": 1,
+    "robotGain": 0.19999999999999996
+  }
+}
