@@ -83,3 +83,6 @@ The candidate contribution is a theory of economic data value in **learned, join
 
 
 **25 November — correlated reference networks and shared access.** [Chapter](REFERENCE_NETWORK_AND_SHARED_ACCESS.md) derives joint-moment closure for portable representations, an external-reference purchase reversal at identical target marginals, and a restricted procurement mechanism where open reference access raises real value but eliminates voluntary private sponsorship. Conditional theory and finite synthetic checks; actual shared metrology and commercial calibration OPEN.
+
+
+**25 November — priced scarce reference capacity and endogenous strategic qualification.** [Chapter](SCARCE_SHARED_METROLOGY_MARKET.md) shows that a technically nested reference improvement can induce rival test exit, lowering robotic awards while raising current real surplus; private willingness to pay exceeds that gain by the displaced rival and buyer wedge. Award-dependent successor learning and scarce alternative reference uses can reverse private versus real capacity allocation. Shared access with correlated qualification and positive test costs can admit multiple entry equilibria. Conditional theory, synthetic enumeration and external metrology feasibility anchors; field calibration OPEN.

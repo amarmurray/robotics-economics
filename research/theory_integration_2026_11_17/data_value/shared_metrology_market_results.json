@@ -1,0 +1,209 @@
+{
+  "checks": 104739,
+  "cases": 4800,
+  "crowdCases": 358,
+  "scope": "Finite synthetic qualification entry, joint outcome enumeration, and capacity menu; no empirical calibration or full CI",
+  "baseline": {
+    "test": [
+      1,
+      1
+    ],
+    "a": 0.5,
+    "b": 0.6000000000000001,
+    "real": 4.1,
+    "n": [
+      0.35,
+      0.44999999999999996
+    ]
+  },
+  "upgradeA": {
+    "test": [
+      1,
+      0
+    ],
+    "a": 5.5,
+    "b": 0,
+    "real": 5.5,
+    "n": [
+      0.7,
+      0
+    ]
+  },
+  "W": 5,
+  "R": 1.4000000000000004,
+  "WC": 2,
+  "RC": 4,
+  "succLoss": -1.7999999999999998,
+  "plans": [
+    {
+      "plan": [
+        0,
+        0
+      ],
+      "capacity": 0,
+      "realCapacityCost": 0,
+      "providerProfit": 0,
+      "realGain": 0,
+      "installations": [
+        0.35,
+        0.44999999999999996,
+        0.3,
+        0.38
+      ],
+      "totalCurrent": 1.0999999999999999,
+      "fees": [
+        0,
+        0
+      ]
+    },
+    {
+      "plan": [
+        0,
+        1
+      ],
+      "capacity": 1,
+      "realCapacityCost": 0.8,
+      "providerProfit": 1.2,
+      "realGain": 3.2,
+      "installations": [
+        0.35,
+        0.44999999999999996,
+        0.8,
+        0.38
+      ],
+      "totalCurrent": 1.6,
+      "fees": [
+        0,
+        2
+      ]
+    },
+    {
+      "plan": [
+        1,
+        0
+      ],
+      "capacity": 1,
+      "realCapacityCost": 0.8,
+      "providerProfit": 4.2,
+      "realGain": -1.1999999999999995,
+      "installations": [
+        0.7,
+        0,
+        0.3,
+        0.2
+      ],
+      "totalCurrent": 1,
+      "fees": [
+        5,
+        0
+      ]
+    },
+    {
+      "plan": [
+        1,
+        1
+      ],
+      "capacity": 2,
+      "realCapacityCost": 3.3,
+      "providerProfit": 3.7,
+      "realGain": 0.3000000000000007,
+      "installations": [
+        0.7,
+        0,
+        0.8,
+        0.2
+      ],
+      "totalCurrent": 1.5,
+      "fees": [
+        5,
+        2
+      ]
+    }
+  ],
+  "privateBest": {
+    "plan": [
+      1,
+      0
+    ],
+    "capacity": 1,
+    "realCapacityCost": 0.8,
+    "providerProfit": 4.2,
+    "realGain": -1.1999999999999995,
+    "installations": [
+      0.7,
+      0,
+      0.3,
+      0.2
+    ],
+    "totalCurrent": 1,
+    "fees": [
+      5,
+      0
+    ]
+  },
+  "realBest": {
+    "plan": [
+      0,
+      1
+    ],
+    "capacity": 1,
+    "realCapacityCost": 0.8,
+    "providerProfit": 1.2,
+    "realGain": 3.2,
+    "installations": [
+      0.35,
+      0.44999999999999996,
+      0.8,
+      0.38
+    ],
+    "totalCurrent": 1.6,
+    "fees": [
+      0,
+      2
+    ]
+  },
+  "shared": {
+    "pure": [
+      {
+        "test": [
+          0,
+          1
+        ],
+        "a": 0,
+        "b": 5.6,
+        "real": 5.6,
+        "n": [
+          0,
+          0.8
+        ]
+      },
+      {
+        "test": [
+          1,
+          0
+        ],
+        "a": 5.5,
+        "b": 0,
+        "real": 5.5,
+        "n": [
+          0.7,
+          0
+        ]
+      }
+    ],
+    "mixed": {
+      "test": [
+        0.9655172413793103,
+        0.9482758620689655
+      ],
+      "a": -5.551115123125783e-17,
+      "b": 1.4155343563970746e-15,
+      "real": 5.310344827586207,
+      "n": [
+        0.41034482758620683,
+        0.49310344827586206
+      ]
+    }
+  },
+  "BprivateContinuationCutoff": 1.5384615384615385
+}
