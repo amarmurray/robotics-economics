@@ -1,0 +1,66 @@
+{
+  "cases": 49560,
+  "checks": 1076,
+  "published": [
+    {
+      "period": 2,
+      "N": 51482,
+      "T": 106611,
+      "M": 81073,
+      "otherRoutes": [
+        4380,
+        9252,
+        11907
+      ],
+      "B": 25538,
+      "tableRouteSum": 106612,
+      "allDS": [
+        25944,
+        51481
+      ],
+      "allDSShare": [
+        0.5039431257526903,
+        0.9999805757352084
+      ],
+      "affectedNonDS": [
+        1,
+        25538
+      ],
+      "hypotheticalCap4": [
+        25944,
+        45097
+      ]
+    },
+    {
+      "period": 3,
+      "N": 54822,
+      "T": 114111,
+      "M": 87742,
+      "otherRoutes": [
+        4091,
+        9975,
+        12303
+      ],
+      "B": 26369,
+      "tableRouteSum": 114111,
+      "allDS": [
+        28453,
+        54821
+      ],
+      "allDSShare": [
+        0.5190069680055452,
+        0.9999817591477874
+      ],
+      "affectedNonDS": [
+        1,
+        26369
+      ],
+      "hypotheticalCap4": [
+        28453,
+        48229
+      ]
+    }
+  ],
+  "field_calibration": false,
+  "full_repository_ci": false
+}
