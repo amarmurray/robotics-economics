@@ -2,38 +2,73 @@
   "schema_version": 3,
   "owner": "assistant-led Robotics Economics",
   "branch": "research/assistant-led-expansion-20261117",
-  "research_input_commit": "e8cc97fed54e3815dda113bac3a7b4a333955331",
+  "research_input_commit": "71c8a7b861454b42cb9c3dc0657bd26bf844cea9",
   "lease": {
     "run_id": "network-mpk-20261125T0831Z",
     "owner": "assistant-led research continuation",
-    "status": "active",
+    "status": "released",
     "acquired_at_utc": "2026-11-25T08:31:22.378Z",
     "expires_at_utc": "2026-11-25T09:46:22.378Z",
-    "reason": "Derive program-dependent marginal embodied returns from network feasibility and program-wide bounds"
+    "reason": "Derive program-dependent marginal embodied returns from network feasibility and program-wide bounds",
+    "released_at_utc": "2026-11-25T08:34:03.554Z"
   },
   "continuation_task_id": "6afbe6a5ebf88191a11858bf26241c98",
   "original_deadline": "2026-12-25T23:59:00-05:00",
-  "current_mode": "Focused compact paper: economic primitives, network marginal value, fixed-program evidence and oracle gap",
+  "current_mode": "Theoretical scaffold: endogenous qualified topology and marginal robotic capital; science OPEN",
   "user_direction": "Amar prioritizes robust sustained theory of economic data transfer from heterogeneous source data through endogenous joint qualification, market-demand response and safely accepted customer production; DDA §5/Appendix B are prior art; preserve all roadmap and the December 25 Eastern deadline.",
-  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_ECONOMIC_OBJECTS_ORACLE_RELEASED_STATE.json",
+  "previous_state_file": "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_MPK_RELEASED_STATE.json",
   "backlog_file": "research/theory_integration_2026_11_17/PREVIOUS_RESEARCH_STATE.json",
-  "preservation": "Previous released state preserved by original blob 499495e6185ac93974e55a3621546b9c63356c96; main and backlog unchanged.",
-  "latest_result": "Sharp accepted-log terminal oracle-gap envelope without assumed optimal dispatch; separates fixed-policy effect from optimized economic value and gives body-specific MPK_r scaffold.",
+  "preservation": "Previous released state preserved by original blob edbabc8c059b663794d8a4c44c76975b90d6e6d1; no main/backlog change.",
+  "latest_result": "Derived cut-slack exact finite body return in homogeneous flow restriction and two-date exposure-mediated MPK decomposition; remote learning can move next-robot return without changing baseline output.",
   "validation": {
-    "cases": 25576,
-    "assertions": 52635,
-    "illustration": {
-      "accepted": 8,
-      "oracle": 12,
-      "regret": 4
+    "checks": 167299,
+    "networks": 5120,
+    "comparisons": 59392,
+    "dynamicCases": 1728,
+    "examples": {
+      "remoteComplement": {
+        "baseline": [
+          1,
+          1
+        ],
+        "marginal": [
+          0,
+          1
+        ]
+      },
+      "remoteSubstitute": {
+        "baseline": [
+          1,
+          2
+        ],
+        "marginal": [
+          1,
+          0
+        ]
+      },
+      "dynamic": {
+        "P": 1,
+        "G": 2,
+        "incumbentSnapshotFutureMPK": 0,
+        "netAtCost1point5": [
+          -0.5,
+          0.5
+        ]
+      }
     },
-    "field_calibration": false,
-    "full_repository_ci": false
+    "fieldCalibration": false,
+    "fullRepositoryCI": false
   },
   "read_next": [
+    "research/theory_integration_2026_11_17/data_value/NETWORK_MPK_CUT_GEOMETRY.md",
     "research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md",
-    "research/theory_integration_2026_11_17/data_value/ECONOMIC_OBJECTS_AND_ORACLE_GAP.md",
     "research/theory_integration_2026_11_17/data_value/COMPACT_WHOLE_PROGRAM_VALIDATION.md",
+    "research/theory_integration_2026_11_17/data_value/network_mpk_cut.js",
+    "research/theory_integration_2026_11_17/data_value/network_mpk_cut_results.json",
+    "research/theory_integration_2026_11_17/data_value/NETWORK_MPK_EXERCISE.md",
+    "research/theory_integration_2026_11_17/data_value/NETWORK_MPK_SOLUTION.md",
+    "research/theory_integration_2026_11_17/data_value/PRE_NETWORK_MPK_RELEASED_STATE.json",
+    "research/theory_integration_2026_11_17/data_value/ECONOMIC_OBJECTS_AND_ORACLE_GAP.md",
     "research/theory_integration_2026_11_17/data_value/FOCUSED_FIRST_PAPER_EMPIRICAL_SECTION.md",
     "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle.js",
     "research/theory_integration_2026_11_17/data_value/nonoptimal_dispatch_oracle_results.json",
@@ -129,9 +164,9 @@
     {
       "id": "DATA-VALUE-THEORY",
       "priority": 1,
-      "status": "Compact theoretical scaffold and fixed-versus-oracle evidence matrix; commercial identification open",
-      "question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
-      "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
+      "status": "Program-dependent network MPK and induced-exposure decomposition; field ID open",
+      "question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+      "deliverable": "Integrated compact paper, qualified multiresource aggregation certificates, matched program evidence or explicit nonidentification"
     },
     {
       "id": "ENDOGENOUS-DATA-PRODUCTION",
@@ -156,15 +191,15 @@
     {
       "id": "PAPER-AND-TEACHING",
       "priority": 1,
-      "status": "Compact theoretical scaffold and fixed-versus-oracle evidence matrix; commercial identification open",
-      "question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
-      "deliverable": "Focused first-paper validation and concise empirical limits, including independently evolving programs and evidence for competing capacity/coordination/learning alternatives."
+      "status": "Program-dependent network MPK and induced-exposure decomposition; field ID open",
+      "question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+      "deliverable": "Integrated compact paper, qualified multiresource aggregation certificates, matched program evidence or explicit nonidentification"
     }
   ],
   "portfolio_status": {
-    "theory": "Policy-closed emulation, coordination interaction, sharp missing-combination bounds and bounded structural sensitivity; field support absent.",
+    "theory": "Qualified network cut geometry (restricted), dynamic exposure decomposition and feasible-policy comparison; multiresource aggregation open",
     "atlas": "Robin, Vulcan, hospital delivery operations and ICU modeled costs, separate historical BEA use and supply shares; current official backbone absent; CEL v3 technical fleet/robot-clock register (no commercial service); motor line gross/net/nominal clocks and stage QC (no settled orders); medication original-order coverage and congestion timestamps.; lab accession-to-validation historical comparison, old courier adoption and pharmacy movement/constant staffing abstract evidence.; Amazon deployed picking scheduler/required drives and firm-reported cost avoidance (not net data ROI).",
-    "paper": "Compact draft includes economic primitives and body-specific MPK_r scaffold, sensitivity, capacity censoring, nonoptimal dispatch and fixed-policy versus optimized evidence.",
+    "paper": "Compact draft with economic primitives, endogenous bottleneck topology and marginal-capital bridge; empirical validation open",
     "learning": "Separate costed-service exercises and solutions plus prior materials",
     "main_contribution": "Candidate endogenous data-to-qualification-to-physical-payable-production mechanism. Negative deadline slope test and observation-timed safe policy; not claimed unique literature contribution."
   },
@@ -269,10 +304,11 @@
     "No matched P/G/C/CG commercial returns or joint capacity/qualification rights and timing. Missing-CG bounds are conditional on fixed authorization/value, nested capacity and OR readiness; not implied by old-policy optionality. Need independent support or explicit conditional paper scope. Numerical enumeration not proof; independent replay/full CI not performed; no new official numeric edge.",
     "Focused sensitivity bounds assume stable common original-order contribution measure, nested usable capacity, one service per window and independently justified cross-program violation upper bounds; no budget measured, and unrestricted demand/cost changes require complete J. Exact synthetic enumeration not proof or field validation.",
     "Top-K envelope requires predispatch observable joint qualification, fixed nonnegative unit-resource contribution, known integer interchangeable slots and no other constraints; arbitrary shared learner trajectories/latent qualification/queues need full J. Separate-arm contrast extrema are not sharp under unspecified cross-arm constraints. No field calibration. BEA API route verified only at catalog level.",
-    "Nonoptimal-dispatch envelope requires fixed unit-resource recipes, S subset A, invariant potential readiness/payoffs within a window and common costs. No known dispatch-policy restrictions beyond selection feasibility; oracle may not be implementable. No dynamic or empirical extrapolation."
+    "Nonoptimal-dispatch envelope requires fixed unit-resource recipes, S subset A, invariant potential readiness/payoffs within a window and common costs. No known dispatch-policy restrictions beyond selection feasibility; oracle may not be implementable. No dynamic or empirical extrapolation.",
+    "Network MPK exact only for homogeneous accepted single-commodity flow with valid dated capacities and fixed contribution; scalar exposure example assumes monotone deterministic learning. BEA May 2026 TiVA supporting table route identified but no numeric edge/crosswalk retrieved; no field calibration."
   ],
-  "last_notification": "2026-11-25 Eastern: economic primitives and topological MPK_r scaffold; sharp terminal oracle-gap certificate without optimal dispatch, fixed-program effect may reverse against stronger rival.",
-  "execution_note": "Analytical proof plus exact generated JS checker executed in connected V8; full CI, independent replay and matched field estimates not performed.",
+  "last_notification": "2026-11-25 Eastern: cut slack and endogenous experience can change marginal robotic capital even when current output is unchanged; restricted model and no commercial estimate.",
+  "execution_note": "Exact generated function serialized from executed source in connected V8; independent replay/full repository CI not performed.",
   "validation_previous_data_value": {
     "scoped_tests_passed": 24,
     "fresh_directory_tests_passed": 24,
@@ -289,9 +325,9 @@
     "empirical_calibration": false
   },
   "quiet_checkpoint": "Focused contribution and missing-CG conditional screen; no new empirical estimate.",
-  "publication_parent_commit": "7906475e81c04010c72bc0649743543988f11a09",
-  "current_proof_gap": "A terminal oracle cannot bound dynamic policy improvement on realized endogenous histories; network aggregation needs actual recipe incidence, costs, and independently evolving program support.",
-  "exact_next_action": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
+  "publication_parent_commit": "9d05a80596bc5c2af7f946ed73d2650cbe1c1b08",
+  "current_proof_gap": "Single-commodity capacities, independently qualified paths and scalar monotone exposure are restrictive; matched original-order joint incidence, cut slack, retained source mix, lawful full-program effects and current numerical official use/supply edge remain unobserved.",
+  "exact_next_action": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_previous_grounding": {
     "source_git_blob": "06f9ace4f88e8f0af0ec167da4eae82b6fda5175",
     "results_git_blob": "c4f2aeaaa73eb3a88e938876c06cc8d95ee24475",
@@ -309,7 +345,7 @@
     "empirical_calibration": false,
     "assumptions": "Gaussian independent scalar measurements and common source latent; qualification a one-dimensional pass proxy; synthetic values. Mathematical proof independent of numerical assertion counts."
   },
-  "updated_at_utc": "2026-11-25T07:32:59.859Z",
+  "updated_at_utc": "2026-11-25T08:34:03.554Z",
   "validation_previous_teleoperation": {
     "record_file": "research/theory_integration_2026_11_17/data_value/TELEOPERATION_VALIDATION.json",
     "scoped_new_tests_passed": 19,
@@ -326,9 +362,9 @@
     "historical_repository_ci": false,
     "independent_peer_review": false
   },
-  "exact_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
-  "proof_gap": "Commercial support for cross-world weighted exception budgets, stable contribution, and separability across pre-treatment strata, or direct matched-arm J. No commercial panel located in bounded search.",
-  "next_action": "Subject the compact draft to adversarial proof/assumption review, especially independent stratum assembly versus shared learner and capacity; seek matched original-order P/G/C/CG net returns or justified weighted exception bounds, otherwise retain nonidentification. Assess genuine official numeric data route separately.",
+  "exact_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
+  "proof_gap": "Single-commodity capacities, independently qualified paths and scalar monotone exposure are restrictive; matched original-order joint incidence, cut slack, retained source mix, lawful full-program effects and current numerical official use/supply edge remain unobserved.",
+  "next_action": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_previous_endogenous_demand": {
     "record_file": "research/theory_integration_2026_11_17/data_value/endogenous_demand_persistent_transfer_results.json",
     "source_blob": "89a8c77c9d37808a4d7919473c4cea81cdfeb4e1",
@@ -394,7 +430,7 @@
     "architectural_zero_verified": false,
     "live_binomial_dominance_verified": false
   },
-  "exact_intellectual_question": "Advance the same economic primitives into program-dependent marginal robotic-capital returns across dated recipe networks; establish an auditable feasible-policy lower/upper bridge, not a sum of isolated or logged-policy oracle gaps. Search for genuine matched original-order evidence and official numeric production edges; retain explicit nonidentification.",
+  "exact_intellectual_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_previous_safe_policy_support": {
     "record_file": "research/theory_integration_2026_11_17/data_value/safe_policy_support_results.json",
     "source_blob": "3e895362a15efa55d95b7cabdee7cb6579153a73",
@@ -414,7 +450,7 @@
     "official_numerical_production_backbone": false,
     "public_open_rmf_example_source_versioned": true
   },
-  "exact_next": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "exact_next": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_previous_paired_residual": {
     "source_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity.js",
     "record_file": "research/theory_integration_2026_11_17/data_value/paired_residual_sensitivity_results.json",
@@ -514,7 +550,7 @@
     "full_repository_CI": false,
     "nov22_gate_passed": false
   },
-  "next_proof_gap": "Independent support for economic incumbent loss, joint-only acceptance and combined-program regression budgets, or direct matched arm J; assumptions are not implied by optional policy retention.",
+  "next_proof_gap": "Single-commodity capacities, independently qualified paths and scalar monotone exposure are restrictive; matched original-order joint incidence, cut slack, retained source mix, lawful full-program effects and current numerical official use/supply edge remain unobserved.",
   "validation_dynamic_exposure": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PRODUCTION.md",
     "proof": "research/theory_integration_2026_11_17/data_value/DYNAMIC_EXPOSURE_PROOFS.md",
@@ -595,7 +631,7 @@
     "scientific_novelty_independently_validated": false,
     "nov22_milestone_passed": false
   },
-  "current_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "current_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_joint_menu_copula": {
     "chapter": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_VALUE.md",
     "proof": "research/theory_integration_2026_11_17/data_value/JOINT_MENU_COPULA_PROOFS.md",
@@ -1675,7 +1711,7 @@
     "independently_validated_novelty": false,
     "nov22_scientific_acceptance": false
   },
-  "next_question": "Integrate focused paper main result and structural sensitivity into a single compact draft; seek independently followed original-order P/G/C/CG net returns or validated economically weighted exception-set bounds. If unavailable retain full-program nonidentification; no more disconnected proxy accumulation. Continue genuinely new official numeric routes.",
+  "next_question": "Extend the same qualified topology framework to multi-input/shared-resource recipes without treating a graph cut as exact; identify conservative program-wide primal/dual bounds and discriminate capacity-changing from exposure-changing learning in matched original-order windows. Retrieve and validate the 2024 official BEA supporting make/use numeric table and its concordance if available.",
   "validation_decision_sensitive_network": {
     "chapter": "research/theory_integration_2026_11_17/data_value/DECISION_SENSITIVE_NETWORK_PRODUCTION.md",
     "source_file": "research/theory_integration_2026_11_17/data_value/decision_sensitive_network_exact.js",
@@ -4090,5 +4126,44 @@
     },
     "field_calibration": false,
     "full_repository_ci": false
+  },
+  "validation_network_mpk_cut": {
+    "checks": 167299,
+    "networks": 5120,
+    "comparisons": 59392,
+    "dynamicCases": 1728,
+    "examples": {
+      "remoteComplement": {
+        "baseline": [
+          1,
+          1
+        ],
+        "marginal": [
+          0,
+          1
+        ]
+      },
+      "remoteSubstitute": {
+        "baseline": [
+          1,
+          2
+        ],
+        "marginal": [
+          1,
+          0
+        ]
+      },
+      "dynamic": {
+        "P": 1,
+        "G": 2,
+        "incumbentSnapshotFutureMPK": 0,
+        "netAtCost1point5": [
+          -0.5,
+          0.5
+        ]
+      }
+    },
+    "fieldCalibration": false,
+    "fullRepositoryCI": false
   }
 }

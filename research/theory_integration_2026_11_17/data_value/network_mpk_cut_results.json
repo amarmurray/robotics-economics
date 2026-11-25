@@ -1,0 +1,39 @@
+{
+  "checks": 167299,
+  "networks": 5120,
+  "comparisons": 59392,
+  "dynamicCases": 1728,
+  "examples": {
+    "remoteComplement": {
+      "baseline": [
+        1,
+        1
+      ],
+      "marginal": [
+        0,
+        1
+      ]
+    },
+    "remoteSubstitute": {
+      "baseline": [
+        1,
+        2
+      ],
+      "marginal": [
+        1,
+        0
+      ]
+    },
+    "dynamic": {
+      "P": 1,
+      "G": 2,
+      "incumbentSnapshotFutureMPK": 0,
+      "netAtCost1point5": [
+        -0.5,
+        0.5
+      ]
+    }
+  },
+  "fieldCalibration": false,
+  "fullRepositoryCI": false
+}
