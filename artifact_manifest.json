@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-boundaries-20261125",
+  "snapshot_id": "recursive-firm-stack-profile-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-boundaries-20261125",
-      "sha256": "991155efd86cd0bbb80d7654296997296aebb2702d03e8d26d969fcb7166561a"
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "1496cdc0907da4f8ab0b5385421f71276df0b273640c09c0cd33b6cd3d76c6a4"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-boundaries-20261125",
-      "sha256": "6c8b1fd9bbd8ea30186178f6fa773c5ce3cff9ccc9e65b10c2c7478e19a1cc1f"
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "7ee55ee22330cab81efbe7287f5cda5518549e419db9d8ca7f5877c7e50a4d21"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3897,8 +3897,8 @@
       "repository_path": "research/recursive_firm/boundaries/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/boundaries/README.md",
       "name": "README.md",
-      "version": "recursive-firm-boundaries-20261125",
-      "sha256": "dc9994683793d1e00a2901e39757e29f3ae280ce20c3ae0a38c2a0a954a92a2d"
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "956508379e0e96019af5f2326c15c5f80ce011464425218fddc48b84d182146b"
     },
     {
       "repository_path": "research/recursive_firm/boundaries/check.py",
@@ -3906,6 +3906,27 @@
       "name": "check.py",
       "version": "recursive-firm-boundaries-20261125",
       "sha256": "aefc0d79f586f057dd5807c151582330dc9f9465fe2c866ecd798076ab176d14"
+    },
+    {
+      "repository_path": "research/recursive_firm/stack_profile/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/stack_profile/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "54a3aef7ebc548ef9790b80e433d240bed69af0dfca70a2ae0481f56fa23a32b"
+    },
+    {
+      "repository_path": "research/recursive_firm/stack_profile/model.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/stack_profile/model.py",
+      "name": "model.py",
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "f99c6b68ec68613a58e5cea1fa216ca1b9eaa325c84218c3fec582e24077e836"
+    },
+    {
+      "repository_path": "research/recursive_firm/stack_profile/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/stack_profile/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-stack-profile-20261125",
+      "sha256": "958f34aae350077abdc66cd7e8513f4f78ebbbc0150ed74a4f8116ec9aa927a0"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4206,7 +4227,12 @@
         "results": "research/recursive_firm/inquiry/deployment_portfolio/results.json"
       },
       "audit_location": "research/recursive_firm/inquiry/audit_location/README.md",
-      "endogenous_scope": "research/recursive_firm/boundaries/README.md"
+      "endogenous_scope": "research/recursive_firm/boundaries/README.md",
+      "stack_profile": {
+        "paper": "research/recursive_firm/stack_profile/README.md",
+        "model": "research/recursive_firm/stack_profile/model.py",
+        "results": "research/recursive_firm/stack_profile/results.json"
+      }
     }
   }
 }

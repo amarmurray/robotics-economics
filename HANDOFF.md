@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-boundaries-20261125.
+Handoff ID: recursive-firm-stack-profile-20261125.
+
+## Degrees and minimum viability of the recursive stack
+
+[Degrees of the full-stack robotic firm](research/recursive_firm/stack_profile/README.md) extends branch 37693fed1f211343d43e2cc73eaa0899056032bb. It defines capacity, internal execution, partner-directed rights and commercial claims separately over a common task and revision population. Evidence coverage sets lower requirements on a portfolio, while qualification labor and cash bound what it can support. Hourly billing, equipment sales and accepted-service payment change private incentives. The branch retains physical marginal product and organizational learning as separate estimands.
+
+The [discounted model](research/recursive_firm/stack_profile/model.py) starts firms at each of eight ownership sets under two interface conditions. In a constructed stricter service regime only internal HMD can maintain a common positive footprint across both vintages under a fixed boundary. The optimal state-contingent policy delegates some layers after portability and reacquires them on drift. This relies on feasible, funded re-entry within the decision window. These are model outcomes. [Minimum sets and all starting positions](research/recursive_firm/stack_profile/results.json)
+
+**Next discriminating test.** Estimate time to detect and requalify a broken interface after delegation. Independently vary a retained reference panel and a reserved revision slot. Test the boundary prediction against matched partner access on fresh vintages from OEM, model, integrator and full-stack origins. Carry the result, including cases with no integration premium, into the existing pilot and theory-week synthesis.
 
 ## Endogenous scope of the recursive firm
 
