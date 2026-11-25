@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "full-stack-site-selection-and-hardware-vintages-20261125",
+  "snapshot_id": "diagnostic-portfolios-and-design-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
-      "sha256": "1d5c038aa98a1f0011e2fe0db9cb23c8ee0aca746a792cfb882e11c45a1fd2d7"
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "ae95c679b4904c66e3e663ec7854c6db7e1878b3e4d16dd67add42896313c48b"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
-      "sha256": "e4c49c3c5ab5e3895ae06eaf6e2fef4f92a69fb02b63092420c7de826e995504"
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "861703a2cc4ba2e60b5841a9ea9638154e4aafecd39800137e05fd02df71f104"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3729,15 +3729,15 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "full-stack-site-selection-and-hardware-vintages-20261125",
-      "sha256": "b6f1dd5cd514749d89ff2331f74140148a6e1ce5aca06c478a7e5e8eff15544d"
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "5800b0dcfea131cbd044977af16b1c067db90615afa148b7b21049baa26af16e"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/FULL_STACK_FIRM.md",
       "name": "FULL_STACK_FIRM.md",
-      "sha256": "e3750572a2a93dcdda591e7c56faac6c8376fa4bd49dde2b4c75f9522a681860",
-      "version": "full-stack-site-selection-and-hardware-vintages-20261125"
+      "sha256": "95c353de9a95906b3c500d02bb934f4f86fe5fd296620c5bc62b2508126f5606",
+      "version": "diagnostic-portfolios-and-design-20261125"
     },
     {
       "repository_path": "papers/autonomous_firm/The_Full_Stack_Robotic_Firm.pdf",
@@ -3759,6 +3759,27 @@
       "name": "full_stack_site_choice.svg",
       "version": "full-stack-site-selection-and-hardware-vintages-20261125",
       "sha256": "0d74892def83fac3cccfaeb6e3d74666fa495c68b7994c6bd7194f2268974eda"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md",
+      "name": "DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md",
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "003b7d2fef3851d53a7ed20f526c46944532c07ea0b04b39c3013eb3c5e86153"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/capability/diagnostic_portfolios.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/capability/diagnostic_portfolios.py",
+      "name": "diagnostic_portfolios.py",
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "bf3fed52e02cce0d934f1ba8ba195f532ef18018b6b75d658f6f5639942c09ff"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/capability/diagnostic_portfolios_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/capability/diagnostic_portfolios_results.json",
+      "name": "diagnostic_portfolios_results.json",
+      "version": "diagnostic-portfolios-and-design-20261125",
+      "sha256": "cc41f482b6d054b15d949a381463c250639a5d2cc488a8a1b940bff7be43f00a"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

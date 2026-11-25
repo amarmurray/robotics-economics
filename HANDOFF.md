@@ -1,6 +1,16 @@
 # Robotics economics — current handoff
 
-Handoff ID: full-stack-site-selection-and-hardware-vintages-20261125.
+Handoff ID: diagnostic-portfolios-and-design-20261125.
+
+## How deployments jointly determine the next hardware design
+
+November 25, 2026, Eastern. Continued from accepted main `b784b262d7503a8baae573d4ff49efcaba48193c` and reconciled with the finite-vintage/customer-demand extension at `734a08d0f64e5b9e209d0a290b99bad15692161d` before publication, with the independent Recursive Firm antecedents inspected at `49811393f67ffb17720371a615ea99705d5ccbc9`. [Deployment portfolios and the next robot](papers/autonomous_firm/DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md) derives a source interaction: a reference operation with no standalone value for a design can make another site's records useful by separating a shared nuisance from the target parameter. The result closes the proposition register's previously noted complementary-evidence exception. More precise ordinary records can increase the value of obtaining a different contrast, under the stated shared-nuisance and fixed-exposure assumptions.
+
+The manufacturer now chooses the next design and manufacturing quantity after the evidence arrives. The marginal value of reducing posterior variance decomposes into avoided design mismatch on the endogenous fleet and contingent scale/entry decisions. A further, solved hardware choice makes the next contrast cheaper, allowing both alternatives to buy the contrast selectively after their ordinary signal and preserving an equivalent external experiment. A hard demand cap supplies a counterexample to inferring more deployments from greater information value. These are conditional firm-level results; repeated endogenous design/observation evolution and market equilibrium remain open. Physical accepted-service MPK_r remains distinct from the model's investment and cost effects.
+
+Validation: the [CPU replication](papers/autonomous_firm/replication/capability/diagnostic_portfolios.py) checks Gaussian posteriors against covariance conditioning, continuation values against integration, the marginal-value identity against differentiation, and source entry against all four portfolio alternatives. It also checks adaptive inquiry, an external substitute, irrelevant uncertainty, independent nuisance variation and the demand-cap counterexample. All checks pass; inputs are synthetic. [Recorded results](papers/autonomous_firm/replication/capability/diagnostic_portfolios_results.json).
+
+**Next research question.** When successive hardware designs change the measurement directions and shared calibration relationships can drift, when should the firm retain a reference configuration, redesign it or buy outside evidence? Solve the repeated choice with dated manufacturing/commissioning capacity and demand before treating the feedback as sustained growth. Existing source/recipient and installed-obligation results remain in force.
 
 ## Field information and the next machine
 

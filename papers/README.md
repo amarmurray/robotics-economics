@@ -28,6 +28,7 @@ The [learning dynamics study](https://github.com/amarmurray/robotics-economics/b
 | [The full-stack robotic firm](autonomous_firm/FULL_STACK_FIRM.md) · [PDF](autonomous_firm/The_Full_Stack_Robotic_Firm.pdf) · Nov 25 | How does a firm choose its next customer, model update and hardware generation when each changes what the fleet can learn? |
 | [When Faster Learning Pays](autonomous_firm/When_Faster_Learning_Pays.md) · [PDF](autonomous_firm/When_Faster_Learning_Pays.pdf) · Nov 25 | How much is a temporary learning lead worth, and how does a rival’s response change its return? |
 | [The Production of Capability](autonomous_firm/The_Production_of_Capability.md) · [PDF](autonomous_firm/The_Production_of_Capability.pdf) · Nov 25 | How does paid work teach a fleet what to try next, and how does the obligation to support existing sites change which discoveries it pursues? |
+| [Deployment portfolios and the next robot](autonomous_firm/DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md) · Nov 25 | How can one deployment make another's data useful, changing the next hardware design and manufacturing quantity? |
 | [The Autonomous Firm](autonomous_firm/The_Autonomous_Firm.pdf) · Nov 20 | How do shared capacity and deadlines change the opportunity cost of learning across machines and people? |
 | [Choosing the First Deployment](autonomous_firm/Choosing_the_First_Deployment.md) · [PDF](autonomous_firm/Choosing_the_First_Deployment.pdf) · Nov 22 | Which feasible use of capacity should the firm choose when today's work changes tomorrow's alternatives? |
 

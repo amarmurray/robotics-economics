@@ -1,0 +1,116 @@
+{
+  "boundary_checks": [
+    "independent nuisance removes A complementarity",
+    "redrawn nuisance removes repetition floor",
+    "irrelevant uncertainty has zero information value",
+    "equivalent external experiment removes hardware advantage",
+    "hard demand cap separates value from capital quantity"
+  ],
+  "counts": {
+    "normal_moment_integrations": 162,
+    "portfolio_optimality_comparisons": 1681,
+    "posterior_matrix_comparisons": 324,
+    "shadow_value_derivatives": 81
+  },
+  "demand_cap_counterexample": {
+    "informed_expected_quantity": 0.5,
+    "informed_expected_value": 2.25,
+    "prior_quantity": 1.0,
+    "prior_value": 1.25,
+    "state_contingent_decisions": [
+      {
+        "design": -1.0,
+        "quantity": 0.0,
+        "theta": -1.0,
+        "value": -0.0
+      },
+      {
+        "design": 1.0,
+        "quantity": 1.0,
+        "theta": 1.0,
+        "value": 4.5
+      }
+    ]
+  },
+  "max_absolute_errors": {
+    "normal_moment_integration": 9.769962616701378e-15,
+    "posterior_matrix": 4.440892098500626e-16,
+    "shadow_value_derivative": 1.3397538634052353e-10
+  },
+  "repetition_and_information_direction": [
+    {
+      "B_repetitions": 1,
+      "incremental_A_value_at_W_one": 0.24521072796934873,
+      "variance_if_nuisance_redrawn": 0.5555555555555556,
+      "variance_with_AB": 0.31034482758620685,
+      "variance_with_B": 0.5555555555555556
+    },
+    {
+      "B_repetitions": 2,
+      "incremental_A_value_at_W_one": 0.2841287458379579,
+      "variance_if_nuisance_redrawn": 0.3846153846153846,
+      "variance_with_AB": 0.24528301886792447,
+      "variance_with_B": 0.5294117647058824
+    },
+    {
+      "B_repetitions": 4,
+      "incremental_A_value_at_W_one": 0.30723072307230725,
+      "variance_if_nuisance_redrawn": 0.23809523809523814,
+      "variance_with_AB": 0.20792079207920788,
+      "variance_with_B": 0.5151515151515151
+    },
+    {
+      "B_repetitions": 16,
+      "incremental_A_value_at_W_one": 0.32649807696139976,
+      "variance_if_nuisance_redrawn": 0.07246376811594202,
+      "variance_with_AB": 0.1773778920308483,
+      "variance_with_B": 0.5038759689922481
+    },
+    {
+      "B_repetitions": 256,
+      "incremental_A_value_at_W_one": 0.3328997378505363,
+      "variance_if_nuisance_redrawn": 0.004859086491739606,
+      "variance_with_AB": 0.1673442836233534,
+      "variance_with_B": 0.5002440214738897
+    },
+    {
+      "B_repetitions": 1000000,
+      "incremental_A_value_at_W_one": 0.3333332222222505,
+      "variance_if_nuisance_redrawn": 1.249998437424793e-06,
+      "variance_with_AB": 0.1666668402777416,
+      "variance_with_B": 0.5000000624999921
+    }
+  ],
+  "scope": "Conditional theory checks; synthetic inputs; no empirical calibration or market equilibrium.",
+  "status": "all_checks_passed",
+  "synthetic_strict_portfolio_complementarity": {
+    "G_AB": 0.2772310347136008,
+    "G_B": 0.12462064344489267,
+    "d_A": 0.03815259781717703,
+    "d_B": 0.1627732412620697,
+    "net_values": {
+      "A": -0.03815259781717703,
+      "AB": 0.07630519563435403,
+      "B": -0.038152597817177045,
+      "none": 0.0
+    },
+    "posterior_variances": {
+      "A": 1.0,
+      "AB": 0.31034482758620685,
+      "B": 0.5555555555555556,
+      "none": 1.0
+    }
+  },
+  "two_hardware_generations": {
+    "adaptive_A_hardware_premium": 0.04875206407474303,
+    "adaptive_external_A_option": 0.014609204194279413,
+    "adaptive_onboard_A_option": 0.1301841732282018,
+    "current_hardware_cost": 0.06104415650748324,
+    "external_A_cost": 0.22489952397493823,
+    "future_incremental_A_value": 0.1606425171249559,
+    "onboard_A_cost": 0.03212850342499118,
+    "precommitted_A_hardware_premium": 0.061044156507483224,
+    "premium_with_equivalent_external_cost": -0.06104415650748324,
+    "premium_without_future_learning": -0.06104415650748324
+  }
+}
