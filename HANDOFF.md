@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-deployment-portfolio-20261125.
+Handoff ID: recursive-firm-audit-location-20261125.
+
+## Which end should receive the next audit?
+
+[Where should the next audit take place?](research/recursive_firm/inquiry/audit_location/README.md) extends branch 49811393f67ffb17720371a615ea99705d5ccbc9. A fleet can move the next investigative hour downstream as eligible work grows. Exact bounds show that even knowing source novelty and recipient pass rates leaves the ranking unresolved when their association is unknown. The derivation and 1,430 finite-state checks concern decisions under stated assumptions. The field test requires paired cases sampled before dispatch and an ordinary recovery comparator. The next question is whether paired evidence survives the lag to a new controller release. The broader theory-week team retains its existing synthesis and publication ownership.
 
 ## Where a growing fleet should learn
 

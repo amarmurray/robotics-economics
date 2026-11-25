@@ -18,6 +18,8 @@ Start with [How firms learn what to test](inquiry/README.md) for the firm’s ca
 
 The companion *When Capabilities Become Production* studies how capability and complementary inputs turn into accepted work. The Recursive Firm branch holds that conversion open and asks how the organization can change it over time. The [RoboEcon working-paper index](https://github.com/amarmurray/robotics-economics/blob/main/papers/README.md) also includes the founding [Recursive Firm note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Recursive_Firm_Theory.pdf), the [intervention note](https://github.com/amarmurray/robotics-economics/blob/main/papers/recursive_firm/Intervention_Economics_Research_Note.pdf) and the related Autonomous Firm work. [Original formalization and Q-learning benchmark](../theory/recursive_firm.md)
 
+[Where should the next audit take place?](inquiry/audit_location/README.md) asks when a growing fleet should move its next hour from measuring source novelty to testing a recipient, and which joint observation its ordinary dashboards miss.
+
 ## Findings from individual studies
 
 Physical and digital benchmarks measure performance on specified tasks. The economic simulations vary the choices and resources that convert performance into paid work. Two results discipline the interpretation. A fixed model matched domain selection when the full published digital menu was available, and a precommitted audit beat adaptive renewal after an unexpected reversal at the source. A claim that production improved a firm’s learning procedure still needs a test on fresh operating sites. [Benchmark reanalysis](inquiry/README.md#what-our-earlier-benchmark-examples-can-establish) · [Reference coverage](reference_coverage/README.md)

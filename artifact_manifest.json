@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-deployment-portfolio-20261125",
+  "snapshot_id": "recursive-firm-audit-location-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-deployment-portfolio-20261125",
-      "sha256": "8589b099ee451672d1a275b98b9e89ab5b04cb84910bda1d66926b0dd01d87d3"
+      "version": "recursive-firm-audit-location-20261125",
+      "sha256": "50fa5a064339b105c26deef50cf60016ff881778d9470032c20a8138ab5a276a"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-deployment-portfolio-20261125",
-      "sha256": "3b4806e50991d11da909e491adca2b0f9f324f312135c6236295fc700db4ad41"
+      "version": "recursive-firm-audit-location-20261125",
+      "sha256": "e7873f55e763c7e1b76c366e6bb5d78e512f5142b62bd945440795d8fe9908e6"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3878,6 +3878,20 @@
       "name": "results.json",
       "version": "recursive-firm-deployment-portfolio-20261125",
       "sha256": "7c4a4687522579ecb3e39d8ea18103dcc62d925ed948b166f69e748cbbe9ee76"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/audit_location/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/audit_location/README.md",
+      "name": "README.md",
+      "sha256": "d2c7b5673f1eccafaa78e5c01ac1953302c53d8302fa00d0ef4d44f62455c3c2",
+      "version": "recursive-firm-audit-location-20261125"
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/audit_location/check.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/inquiry/audit_location/check.py",
+      "name": "check.py",
+      "sha256": "5f3e7777dff954d61c7feabebf72e539a2d6164b90f074c69ee4c5dfbca52c32",
+      "version": "recursive-firm-audit-location-20261125"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4176,7 +4190,8 @@
         "robot_source_cells": "research/recursive_firm/inquiry/deployment_portfolio/open_x_cells.csv",
         "replication": "research/recursive_firm/inquiry/deployment_portfolio/replicate.py",
         "results": "research/recursive_firm/inquiry/deployment_portfolio/results.json"
-      }
+      },
+      "audit_location": "research/recursive_firm/inquiry/audit_location/README.md"
     }
   }
 }
