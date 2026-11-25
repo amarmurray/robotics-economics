@@ -1,0 +1,477 @@
+{
+  "base": {
+    "equal_profiles": false,
+    "initial_cash": 30,
+    "paths": {
+      "bottleneck_rich": {
+        "added_value": {
+          "decimal": 31.94,
+          "exact": "1597/50"
+        },
+        "current_cash": {
+          "decimal": 6.0,
+          "exact": "6"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 25.94,
+            "exact": "1297/50"
+          },
+          "investment": {
+            "decimal": 34.86,
+            "exact": "1743/50"
+          },
+          "new_a": 1,
+          "new_b": 5,
+          "operating_profit": {
+            "decimal": 64.8,
+            "exact": "324/5"
+          },
+          "quantity_a": {
+            "decimal": 2.0,
+            "exact": "2"
+          },
+          "quantity_b": {
+            "decimal": 5.0,
+            "exact": "5"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 13.86,
+          "exact": "693/50"
+        }
+      },
+      "score_rich": {
+        "added_value": {
+          "decimal": 28.82,
+          "exact": "1441/50"
+        },
+        "current_cash": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 20.82,
+            "exact": "1041/50"
+          },
+          "investment": {
+            "decimal": 35.18,
+            "exact": "1759/50"
+          },
+          "new_a": 0,
+          "new_b": 6,
+          "operating_profit": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "quantity_a": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "quantity_b": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 17.18,
+          "exact": "859/50"
+        }
+      }
+    },
+    "verification": 2.0,
+    "weak_demand": false,
+    "winner": "bottleneck_rich"
+  },
+  "high_verification_cost": {
+    "equal_profiles": false,
+    "initial_cash": 30,
+    "paths": {
+      "bottleneck_rich": {
+        "added_value": {
+          "decimal": 14.4,
+          "exact": "72/5"
+        },
+        "current_cash": {
+          "decimal": 6.0,
+          "exact": "6"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 8.4,
+            "exact": "42/5"
+          },
+          "investment": {
+            "decimal": 18.0,
+            "exact": "18"
+          },
+          "new_a": 3,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 30.4,
+            "exact": "152/5"
+          },
+          "quantity_a": {
+            "decimal": 4.0,
+            "exact": "4"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 31.86,
+          "exact": "1593/50"
+        }
+      },
+      "score_rich": {
+        "added_value": {
+          "decimal": 16.4,
+          "exact": "82/5"
+        },
+        "current_cash": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 8.4,
+            "exact": "42/5"
+          },
+          "investment": {
+            "decimal": 18.0,
+            "exact": "18"
+          },
+          "new_a": 3,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 30.4,
+            "exact": "152/5"
+          },
+          "quantity_a": {
+            "decimal": 4.0,
+            "exact": "4"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 35.18,
+          "exact": "1759/50"
+        }
+      }
+    },
+    "verification": 20,
+    "weak_demand": false,
+    "winner": "score_rich"
+  },
+  "no_profile_difference": {
+    "equal_profiles": true,
+    "initial_cash": 30,
+    "paths": {
+      "bottleneck_rich": {
+        "added_value": {
+          "decimal": 26.82,
+          "exact": "1341/50"
+        },
+        "current_cash": {
+          "decimal": 6.0,
+          "exact": "6"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 20.82,
+            "exact": "1041/50"
+          },
+          "investment": {
+            "decimal": 35.18,
+            "exact": "1759/50"
+          },
+          "new_a": 0,
+          "new_b": 6,
+          "operating_profit": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "quantity_a": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "quantity_b": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 17.18,
+          "exact": "859/50"
+        }
+      },
+      "score_rich": {
+        "added_value": {
+          "decimal": 28.82,
+          "exact": "1441/50"
+        },
+        "current_cash": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 20.82,
+            "exact": "1041/50"
+          },
+          "investment": {
+            "decimal": 35.18,
+            "exact": "1759/50"
+          },
+          "new_a": 0,
+          "new_b": 6,
+          "operating_profit": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "quantity_a": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "quantity_b": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 17.18,
+          "exact": "859/50"
+        }
+      }
+    },
+    "verification": 2.0,
+    "weak_demand": false,
+    "winner": "score_rich"
+  },
+  "scarce_cash": {
+    "equal_profiles": false,
+    "initial_cash": 4,
+    "paths": {
+      "bottleneck_rich": {
+        "added_value": {
+          "decimal": 10.4,
+          "exact": "52/5"
+        },
+        "current_cash": {
+          "decimal": 6.0,
+          "exact": "6"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 4.4,
+            "exact": "22/5"
+          },
+          "investment": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "new_a": 1,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 14.4,
+            "exact": "72/5"
+          },
+          "quantity_a": {
+            "decimal": 2.0,
+            "exact": "2"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 13.86,
+          "exact": "693/50"
+        }
+      },
+      "score_rich": {
+        "added_value": {
+          "decimal": 15.2,
+          "exact": "76/5"
+        },
+        "current_cash": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 7.2,
+            "exact": "36/5"
+          },
+          "investment": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "new_a": 2,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 23.2,
+            "exact": "116/5"
+          },
+          "quantity_a": {
+            "decimal": 3.0,
+            "exact": "3"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 17.18,
+          "exact": "859/50"
+        }
+      }
+    },
+    "verification": 2.0,
+    "weak_demand": false,
+    "winner": "score_rich"
+  },
+  "weak_demand": {
+    "equal_profiles": false,
+    "initial_cash": 30,
+    "paths": {
+      "bottleneck_rich": {
+        "added_value": {
+          "decimal": 14.4,
+          "exact": "72/5"
+        },
+        "current_cash": {
+          "decimal": 6.0,
+          "exact": "6"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 8.4,
+            "exact": "42/5"
+          },
+          "investment": {
+            "decimal": 18.0,
+            "exact": "18"
+          },
+          "new_a": 3,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 30.4,
+            "exact": "152/5"
+          },
+          "quantity_a": {
+            "decimal": 4.0,
+            "exact": "4"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 13.86,
+          "exact": "693/50"
+        }
+      },
+      "score_rich": {
+        "added_value": {
+          "decimal": 16.4,
+          "exact": "82/5"
+        },
+        "current_cash": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "decision": {
+          "gain": {
+            "decimal": 8.4,
+            "exact": "42/5"
+          },
+          "investment": {
+            "decimal": 18.0,
+            "exact": "18"
+          },
+          "new_a": 3,
+          "new_b": 0,
+          "operating_profit": {
+            "decimal": 30.4,
+            "exact": "152/5"
+          },
+          "quantity_a": {
+            "decimal": 4.0,
+            "exact": "4"
+          },
+          "quantity_b": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "salvage": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "tooling": false
+        },
+        "qualification_cost": {
+          "decimal": 17.18,
+          "exact": "859/50"
+        }
+      }
+    },
+    "verification": 2.0,
+    "weak_demand": true,
+    "winner": "score_rich"
+  }
+}

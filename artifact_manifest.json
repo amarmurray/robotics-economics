@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-branch-registration-20261120",
+  "snapshot_id": "roboecon-paper-editions-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-branch-registration-20261120",
-      "sha256": "d72190130522238b2d32c7aa707535ffa82af48277226ffa0215791e52b006f4"
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "92a0d25c70e6c56b1c45b43df75b026d5770d86fbb8475429ef10a68c7971624"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,8 +117,8 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "post-window-continuation-0.11",
-      "sha256": "24106a62b79164c31f18d97586ca3c55648c6b70e61c3fc5eae860edad5604c9"
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "478554de6147f3a6ca0023236244fcb233f6eff58f2de779e52d0addae1deddf"
     },
     {
       "repository_path": "REPORT.md",
@@ -3374,6 +3374,160 @@
       "name": "recursive_firm_rl.py",
       "version": "theory-christmas-checkpoint-12",
       "sha256": "386c73e7a157b7e5336b5956e83005dfb42091df02e0b4e93e4168a29919b2a3"
+    },
+    {
+      "repository_path": "papers/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
+      "name": "README.md",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "c391b4e52fa29369f205d14268fdb3abbab99ed9d55407c812c98e10c8ea6305"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/Autonomous_Firm_Replication.zip",
+      "name": "Autonomous_Firm_Replication.zip",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "f8bd1ea9ec5b9f0a4a533910a31428ed816ed7f5d516c0a86d5466e44df35295"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/Choosing_the_First_Deployment.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/Choosing_the_First_Deployment.pdf",
+      "name": "Choosing_the_First_Deployment.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "74695437a21268e154faf2047b47f89de888e8876282db7c8e39e7fc1e495e21"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/The_Autonomous_Firm.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/The_Autonomous_Firm.pdf",
+      "name": "The_Autonomous_Firm.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "e7012548bca4c511e9601cdfd16996c3d8076345ad968f73ab1ada15cec1de93"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/README.md",
+      "name": "README.md",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "8e235e0d1c248fb9df6b4f46e146e6e7aba0cbedf39156a1ea7f6092e9c61db9"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/control_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/control_checks.py",
+      "name": "control_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "feaaf99cf0336650d8a6b820342e886cefb8e9b8bdba1dd59733c94b3b525d37"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/dispatch_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/dispatch_checks.py",
+      "name": "dispatch_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "f990459c36644346703bab501bcd850d302e5685917d1ca365aa8388573c047e"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/labor_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/labor_checks.py",
+      "name": "labor_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "46d0f8dc3cc342052d3b979326ae3c0bd3284eabf067aa37efadcd5ad541e7a4"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/physics_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/physics_checks.py",
+      "name": "physics_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "87d0df147ad738b81bd1eec5f2cb105a55748a7d861a48c4e86a19d171539425"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/probe_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/probe_checks.py",
+      "name": "probe_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "76a3a8aff20a027333f31ab7143d419589a152d79d6cbfbc7405ec2785ef11df"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/reference_output.txt",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/reference_output.txt",
+      "name": "reference_output.txt",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "8b64dd79b88bfe1bf50eaabd4634e6162034eae215b6a01de0c11d4fb4afd335"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/retained_checks.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/retained_checks.py",
+      "name": "retained_checks.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "2d902129a6017f16f6d858c1d5b1f558f5e89ccb18f5736ae70c32a7eee77fd9"
+    },
+    {
+      "repository_path": "papers/autonomous_firm/replication/run_all.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/autonomous_firm/replication/run_all.py",
+      "name": "run_all.py",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "67094de0d63002d110ea6f671acd80fbd16ec8aaf18ff4e0414f65d97d0a897a"
+    },
+    {
+      "repository_path": "papers/production/Teleoperation_and_Economic_Data_Value_2026-11-17.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/production/Teleoperation_and_Economic_Data_Value_2026-11-17.pdf",
+      "name": "Teleoperation_and_Economic_Data_Value_2026-11-17.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "a5438de5754d7601f13fd0173f53a2033f28a5a242d081c984c46fdd8d2769ec"
+    },
+    {
+      "repository_path": "papers/production/When_Capabilities_Become_Production.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/production/When_Capabilities_Become_Production.pdf",
+      "name": "When_Capabilities_Become_Production.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "be46788c11d4f887c0b72502aeb47463a95ba9b62cc9d1996812f582217e9d47"
+    },
+    {
+      "repository_path": "papers/production/results_2026_11_17/bridge_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/production/results_2026_11_17/bridge_results.json",
+      "name": "bridge_results.json",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "0de50af4bf8182007432b11f1f781723995dc15fd26ab0a2fd56ef71cc2337ab"
+    },
+    {
+      "repository_path": "papers/production/results_2026_11_17/deployment_expansion_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/production/results_2026_11_17/deployment_expansion_results.json",
+      "name": "deployment_expansion_results.json",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "bec5be2bd3bfcc2db4368c0785dbf8912f0d3ac2ee77469aeb0a9f04a6ceb154"
+    },
+    {
+      "repository_path": "papers/production/results_2026_11_17/qualification_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/production/results_2026_11_17/qualification_results.json",
+      "name": "qualification_results.json",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "9fafb1490b965baf48d75253266ef91334ea864988cf98174ae5c4d46f042132"
+    },
+    {
+      "repository_path": "papers/program_briefs/Codex_Robotics_Economics_Theory_Research_Brief.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/program_briefs/Codex_Robotics_Economics_Theory_Research_Brief.md",
+      "name": "Codex_Robotics_Economics_Theory_Research_Brief.md",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "1dbd7e0de2b747f56e31cd1ace36ca7dc6d9588571dd2bb8095de34cdbb44f92"
+    },
+    {
+      "repository_path": "papers/program_briefs/Codex_Robotics_Economics_Theory_Research_Brief_Through_Christmas_2026.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/program_briefs/Codex_Robotics_Economics_Theory_Research_Brief_Through_Christmas_2026.md",
+      "name": "Codex_Robotics_Economics_Theory_Research_Brief_Through_Christmas_2026.md",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "cee7b75f05c1d19e15d032dc90705322a9e38ab0b6b72412e00aaaea4b246364"
+    },
+    {
+      "repository_path": "papers/recursive_firm/Intervention_Economics_Research_Note.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/recursive_firm/Intervention_Economics_Research_Note.pdf",
+      "name": "Intervention_Economics_Research_Note.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "aed51a2a255ac0e5c5b68263a32d4cc55e63fd967f72be6fcf551b0a5e81182c"
+    },
+    {
+      "repository_path": "papers/recursive_firm/Recursive_Firm_Theory.pdf",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/recursive_firm/Recursive_Firm_Theory.pdf",
+      "name": "Recursive_Firm_Theory.pdf",
+      "version": "roboecon-paper-editions-20261125",
+      "sha256": "4daaceef2b2625c37f4f60554430b8fd3e8584ccd189812b5457a62ee3b21d22"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -3639,6 +3793,7 @@
       "status": "conditional_theory_exact_and_held_out_synthetic_checks",
       "research_branch": "research/recursive-firm-theory",
       "branch_research_home": "https://github.com/amarmurray/robotics-economics/tree/research/recursive-firm-theory/research/recursive_firm"
-    }
+    },
+    "paper_index": "papers/README.md"
   }
 }

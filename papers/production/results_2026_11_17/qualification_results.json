@@ -1,0 +1,97 @@
+{
+  "epsilon": 0.02,
+  "floor_example": {
+    "adaptation_cost": null,
+    "effort": [],
+    "feasible": false,
+    "multiplier": null,
+    "residual": [
+      0.1,
+      0.1
+    ],
+    "status": "floor_blocks_finite_certificate",
+    "total_cost": null,
+    "verification_cost": 2
+  },
+  "profiles": {
+    "bottleneck_rich": {
+      "components": [
+        {
+          "cost": 1.0,
+          "floor": 0.0,
+          "initial": 0.08,
+          "name": "easy",
+          "rate": 1.0
+        },
+        {
+          "cost": 8,
+          "floor": 0.0,
+          "initial": 0.05,
+          "name": "hard",
+          "rate": 1.0
+        }
+      ],
+      "fixed_equal_budget_cost": 14.954944841152638,
+      "mean_component_success": 0.935,
+      "qualification": {
+        "adaptation_cost": 11.856109078700417,
+        "effort": [
+          3.58351893845611,
+          1.0340737675305385
+        ],
+        "feasible": true,
+        "multiplier": 450.0,
+        "residual": [
+          0.0022222222222222222,
+          0.017777777777777778
+        ],
+        "status": "optimized",
+        "total_cost": 13.856109078700417,
+        "verification_cost": 2
+      }
+    },
+    "score_rich": {
+      "components": [
+        {
+          "cost": 1.0,
+          "floor": 0.0,
+          "initial": 0.002,
+          "name": "easy",
+          "rate": 1.0
+        },
+        {
+          "cost": 8,
+          "floor": 0.0,
+          "initial": 0.12,
+          "name": "hard",
+          "rate": 1.0
+        }
+      ],
+      "fixed_equal_budget_cost": 19.879253198304003,
+      "mean_component_success": 0.9390000000000001,
+      "qualification": {
+        "adaptation_cost": 15.17695987908705,
+        "effort": [
+          0.0,
+          1.8971199848858813
+        ],
+        "feasible": true,
+        "multiplier": 444.44444444444446,
+        "residual": [
+          0.002,
+          0.018
+        ],
+        "status": "optimized",
+        "total_cost": 17.17695987908705,
+        "verification_cost": 2
+      }
+    }
+  },
+  "status": "Synthetic analytical benchmark; not calibrated service reliability",
+  "verification": {
+    "0.9": 29,
+    "0.95": 59,
+    "0.99": 299,
+    "0.999": 2995
+  }
+}

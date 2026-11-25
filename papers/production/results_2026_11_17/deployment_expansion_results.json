@@ -1,0 +1,1007 @@
+{
+  "market_a": {
+    "a": {
+      "decimal": 18.0,
+      "exact": "18"
+    },
+    "b": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "c": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "capture": {
+      "decimal": 0.8,
+      "exact": "4/5"
+    },
+    "outside_profit": {
+      "decimal": 10.0,
+      "exact": "10"
+    }
+  },
+  "market_b_base": {
+    "a": {
+      "decimal": 20.0,
+      "exact": "20"
+    },
+    "b": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "c": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "capture": {
+      "decimal": 0.8,
+      "exact": "4/5"
+    },
+    "outside_profit": {
+      "decimal": 2.0,
+      "exact": "2"
+    }
+  },
+  "market_b_low": {
+    "a": {
+      "decimal": 12.0,
+      "exact": "12"
+    },
+    "b": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "c": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "capture": {
+      "decimal": 0.8,
+      "exact": "4/5"
+    },
+    "outside_profit": {
+      "decimal": 2.0,
+      "exact": "2"
+    }
+  },
+  "mechanism": "Full-value comparison of deployment, expansion, qualification, tooling and retained cash",
+  "nonmonotone_entry": {
+    "11": {
+      "gain": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "investment": {
+        "decimal": 11.0,
+        "exact": "11"
+      },
+      "new_a": 1,
+      "new_b": 1,
+      "operating_profit": {
+        "decimal": 20.0,
+        "exact": "20"
+      },
+      "quantity_a": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "quantity_b": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "salvage": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "tooling": false
+    },
+    "5": {
+      "gain": {
+        "decimal": 0.6,
+        "exact": "3/5"
+      },
+      "investment": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "new_a": 0,
+      "new_b": 1,
+      "operating_profit": {
+        "decimal": 9.6,
+        "exact": "48/5"
+      },
+      "quantity_a": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "quantity_b": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "salvage": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "tooling": false
+    },
+    "6": {
+      "gain": {
+        "decimal": 4.4,
+        "exact": "22/5"
+      },
+      "investment": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "new_a": 1,
+      "new_b": 0,
+      "operating_profit": {
+        "decimal": 14.4,
+        "exact": "72/5"
+      },
+      "quantity_a": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "quantity_b": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "salvage": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "tooling": false
+    }
+  },
+  "source_comparisons": {
+    "ample_initial_cash": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 47.4,
+            "exact": "237/5"
+          },
+          "budget": {
+            "decimal": 108.0,
+            "exact": "108"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 39.4,
+              "exact": "197/5"
+            },
+            "investment": {
+              "decimal": 47.0,
+              "exact": "47"
+            },
+            "new_a": 3,
+            "new_b": 7,
+            "operating_profit": {
+              "decimal": 90.4,
+              "exact": "452/5"
+            },
+            "quantity_a": {
+              "decimal": 4.0,
+              "exact": "4"
+            },
+            "quantity_b": {
+              "decimal": 7.0,
+              "exact": "7"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 51.4,
+            "exact": "257/5"
+          },
+          "budget": {
+            "decimal": 106.0,
+            "exact": "106"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 45.4,
+              "exact": "227/5"
+            },
+            "investment": {
+              "decimal": 41.0,
+              "exact": "41"
+            },
+            "new_a": 3,
+            "new_b": 7,
+            "operating_profit": {
+              "decimal": 90.4,
+              "exact": "452/5"
+            },
+            "quantity_a": {
+              "decimal": 4.0,
+              "exact": "4"
+            },
+            "quantity_b": {
+              "decimal": 7.0,
+              "exact": "7"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "transfer_rich"
+    },
+    "base": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 15.2,
+            "exact": "76/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 7.2,
+              "exact": "36/5"
+            },
+            "investment": {
+              "decimal": 12.0,
+              "exact": "12"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 22.0,
+            "exact": "22"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 16.0,
+              "exact": "16"
+            },
+            "investment": {
+              "decimal": 8.0,
+              "exact": "8"
+            },
+            "new_a": 0,
+            "new_b": 2,
+            "operating_profit": {
+              "decimal": 28.0,
+              "exact": "28"
+            },
+            "quantity_a": {
+              "decimal": 1.0,
+              "exact": "1"
+            },
+            "quantity_b": {
+              "decimal": 2.0,
+              "exact": "2"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "transfer_rich"
+    },
+    "fixed_embodiment": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 15.2,
+            "exact": "76/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 7.2,
+              "exact": "36/5"
+            },
+            "investment": {
+              "decimal": 12.0,
+              "exact": "12"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 10.4,
+            "exact": "52/5"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 4.4,
+              "exact": "22/5"
+            },
+            "investment": {
+              "decimal": 6.0,
+              "exact": "6"
+            },
+            "new_a": 1,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 14.4,
+              "exact": "72/5"
+            },
+            "quantity_a": {
+              "decimal": 2.0,
+              "exact": "2"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "cash_rich"
+    },
+    "manufacturing_tooling_available": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 17.2,
+            "exact": "86/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 9.2,
+              "exact": "46/5"
+            },
+            "investment": {
+              "decimal": 10.0,
+              "exact": "10"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": true
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 30.4,
+            "exact": "152/5"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 24.4,
+              "exact": "122/5"
+            },
+            "investment": {
+              "decimal": 10.0,
+              "exact": "10"
+            },
+            "new_a": 0,
+            "new_b": 3,
+            "operating_profit": {
+              "decimal": 38.4,
+              "exact": "192/5"
+            },
+            "quantity_a": {
+              "decimal": 1.0,
+              "exact": "1"
+            },
+            "quantity_b": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": true
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "transfer_rich"
+    },
+    "no_transfer": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 15.2,
+            "exact": "76/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 7.2,
+              "exact": "36/5"
+            },
+            "investment": {
+              "decimal": 12.0,
+              "exact": "12"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 10.4,
+            "exact": "52/5"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 4.4,
+              "exact": "22/5"
+            },
+            "investment": {
+              "decimal": 6.0,
+              "exact": "6"
+            },
+            "new_a": 1,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 14.4,
+              "exact": "72/5"
+            },
+            "quantity_a": {
+              "decimal": 2.0,
+              "exact": "2"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "cash_rich"
+    },
+    "salvage_25_percent": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 18.2,
+            "exact": "91/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 10.2,
+              "exact": "51/5"
+            },
+            "investment": {
+              "decimal": 12.0,
+              "exact": "12"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 23.5,
+            "exact": "47/2"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 17.5,
+              "exact": "35/2"
+            },
+            "investment": {
+              "decimal": 8.0,
+              "exact": "8"
+            },
+            "new_a": 0,
+            "new_b": 2,
+            "operating_profit": {
+              "decimal": 28.0,
+              "exact": "28"
+            },
+            "quantity_a": {
+              "decimal": 1.0,
+              "exact": "1"
+            },
+            "quantity_b": {
+              "decimal": 2.0,
+              "exact": "2"
+            },
+            "salvage": {
+              "decimal": 1.5,
+              "exact": "3/2"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "transfer_rich"
+    },
+    "weaker_target_demand": {
+      "paths": {
+        "cash_rich": {
+          "added_value": {
+            "decimal": 15.2,
+            "exact": "76/5"
+          },
+          "budget": {
+            "decimal": 12.0,
+            "exact": "12"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 7.2,
+              "exact": "36/5"
+            },
+            "investment": {
+              "decimal": 12.0,
+              "exact": "12"
+            },
+            "new_a": 2,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 23.2,
+              "exact": "116/5"
+            },
+            "quantity_a": {
+              "decimal": 3.0,
+              "exact": "3"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 8.0,
+            "exact": "8"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        },
+        "transfer_rich": {
+          "added_value": {
+            "decimal": 10.4,
+            "exact": "52/5"
+          },
+          "budget": {
+            "decimal": 10.0,
+            "exact": "10"
+          },
+          "decision": {
+            "gain": {
+              "decimal": 4.4,
+              "exact": "22/5"
+            },
+            "investment": {
+              "decimal": 6.0,
+              "exact": "6"
+            },
+            "new_a": 1,
+            "new_b": 0,
+            "operating_profit": {
+              "decimal": 14.4,
+              "exact": "72/5"
+            },
+            "quantity_a": {
+              "decimal": 2.0,
+              "exact": "2"
+            },
+            "quantity_b": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "salvage": {
+              "decimal": 0.0,
+              "exact": "0"
+            },
+            "tooling": false
+          },
+          "source_cash": {
+            "decimal": 6.0,
+            "exact": "6"
+          },
+          "source_quantity": {
+            "decimal": 1.0,
+            "exact": "1"
+          },
+          "target_experience": {
+            "decimal": 1.0,
+            "exact": "1"
+          }
+        }
+      },
+      "winner": "cash_rich"
+    }
+  },
+  "source_definitions": {
+    "cash_rich": [
+      {
+        "a": {
+          "decimal": 13.0,
+          "exact": "13"
+        },
+        "b": {
+          "decimal": 2.0,
+          "exact": "2"
+        },
+        "c": {
+          "decimal": 2.0,
+          "exact": "2"
+        },
+        "capture": {
+          "decimal": 0.8,
+          "exact": "4/5"
+        },
+        "outside_profit": {
+          "decimal": 0.0,
+          "exact": "0"
+        }
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      }
+    ],
+    "transfer_rich": [
+      {
+        "a": {
+          "decimal": 10.5,
+          "exact": "21/2"
+        },
+        "b": {
+          "decimal": 2.0,
+          "exact": "2"
+        },
+        "c": {
+          "decimal": 2.0,
+          "exact": "2"
+        },
+        "capture": {
+          "decimal": 0.8,
+          "exact": "4/5"
+        },
+        "outside_profit": {
+          "decimal": 0.0,
+          "exact": "0"
+        }
+      },
+      {
+        "decimal": 1.0,
+        "exact": "1"
+      }
+    ]
+  },
+  "status": "Synthetic exact benchmark, not empirical estimates or a novelty claim",
+  "technology": {
+    "installed_a": 1,
+    "qualification_base": {
+      "decimal": 8.0,
+      "exact": "8"
+    },
+    "qualification_floor": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "salvage_share": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "tooling_cost": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "tooling_saving_a": {
+      "decimal": 2.0,
+      "exact": "2"
+    },
+    "tooling_saving_b": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "transfer": {
+      "decimal": 6.0,
+      "exact": "6"
+    },
+    "unit_a": {
+      "decimal": 6.0,
+      "exact": "6"
+    },
+    "unit_b": {
+      "decimal": 3.0,
+      "exact": "3"
+    }
+  }
+}

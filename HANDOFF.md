@@ -1,6 +1,12 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-branch-registration-20261120.
+Handoff ID: roboecon-paper-editions-20261125.
+
+## Reading the research on GitHub
+
+The [paper index](papers/README.md) links the independent Recursive Firm studies and the current production manuscript to their continuing research branches. It also holds the Autonomous Firm paper and its six-module replication, the intervention and allocation notes, the November 17 production and teleoperation editions, and the dated research briefs. The six Autonomous Firm modules reproduce the packaged reference output. The three added November 17 deployment and qualification results reproduce from the earlier published code.
+
+The latest [Recursive Firm experiment](https://github.com/amarmurray/robotics-economics/blob/082c8b662af4a41081752f6f23e9b0d6e8ff1ac9/research/recursive_firm/settlement_learning/README.md) asks when a firm can diagnose a fault from paid work. Its next question is how selective data retention changes the value of observing an underrepresented site.
 
 ## Independent Recursive Firm Theory branch
 
