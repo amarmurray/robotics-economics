@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-cohort-rights-v1
+Handoff ID: formal-integration-manufacturing-rights-v1
+
+## Concurrent embodied retention and strategic randomization
+
+November 26. Endogenous kit ordering and assembly restored to the three-date rights/scope economy. All 16 matched cases solved (15 pure roots, one exact two-action mixed root with pure continuations). Installed mobile rights premium survives (+1 private tick); a paid mobile kit without installed hardware makes rights unused. With installed arm and paid mobile kit, rights displace selected assembly; under the higher-total pure continuation rule the root has no pure equilibrium across 170×170 retained profiles. Verified mixed root retains with probabilities 3/5 and 1/2, wealth (171,169.2), 12.8 jobs and surplus 22.4, versus no-right pure wealth (174,169), 12 jobs and surplus 18. Lower-total continuation gives equal private wealth (171,170) with and without rights, but rights add one job. No selected kit orders or endogenous successor acquisition in these three-date cases. [Proof and reproduction](papers/integrated_firm/MANUFACTURING_RIGHTS.md). Next: [recipient scale and from-zero recursion](papers/integrated_firm/NEXT_QUESTION.md). All milestones and source branches preserved.
 
 ## Endogenous evidence retention and organizational scope
 

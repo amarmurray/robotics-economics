@@ -1,0 +1,2612 @@
+{
+  "synthetic": true,
+  "projection": true,
+  "quotient": true,
+  "budget": 6000000,
+  "cases": [
+    {
+      "name": "mobile_0",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 0,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "mobile_1",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "armkit_0",
+      "T": 3,
+      "B": 120,
+      "K": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 0,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "armkit_1",
+      "T": 3,
+      "B": 120,
+      "K": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "kit_0",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 0,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "kit_1",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "empty_0",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 0,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    },
+    {
+      "name": "empty_1",
+      "T": 3,
+      "B": 120,
+      "K": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "M": [
+        2,
+        2
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 2,
+      "cap": 2,
+      "outside": 18,
+      "buy": 10
+    }
+  ],
+  "results": [
+    {
+      "name": "mobile_0",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        175,
+        172
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 5,
+          "modes": [
+            3,
+            0,
+            1
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        716800,
+        704512
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 17,
+          "net1": 16
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        }
+      ],
+      "profiles": 867288,
+      "states": 465,
+      "deviations": 37768
+    },
+    {
+      "name": "mobile_0",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        175,
+        172
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 5,
+          "modes": [
+            3,
+            0,
+            1
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        716800,
+        704512
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 17,
+          "net1": 16
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        }
+      ],
+      "profiles": 867288,
+      "states": 465,
+      "deviations": 37768
+    },
+    {
+      "name": "mobile_1",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        176,
+        172
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        },
+        {
+          "q": 5,
+          "modes": [
+            3,
+            0,
+            1
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        720896,
+        704512
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 11,
+          "net1": 18
+        },
+        {
+          "date": 3,
+          "jobs": 5,
+          "customer_surplus": 9,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 27,
+          "net1": 16
+        }
+      ],
+      "profiles": 2038292,
+      "states": 1089,
+      "deviations": 91560
+    },
+    {
+      "name": "mobile_1",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        176,
+        172
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        },
+        {
+          "q": 5,
+          "modes": [
+            3,
+            0,
+            1
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        720896,
+        704512
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 11,
+          "net1": 18
+        },
+        {
+          "date": 3,
+          "jobs": 5,
+          "customer_surplus": 9,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 27,
+          "net1": 16
+        }
+      ],
+      "profiles": 2038292,
+      "states": 1089,
+      "deviations": 91560
+    },
+    {
+      "name": "armkit_0",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        174,
+        169
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        712704,
+        692224
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 17,
+          "net1": 12
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        }
+      ],
+      "profiles": 741937,
+      "states": 465,
+      "deviations": 35116
+    },
+    {
+      "name": "armkit_0",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        171,
+        170
+      ],
+      "root": [
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        700416,
+        696320
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 12,
+          "net1": 17
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        }
+      ],
+      "profiles": 741937,
+      "states": 465,
+      "deviations": 35116
+    },
+    {
+      "name": "armkit_1",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        171,
+        169.2
+      ],
+      "root": [
+        {
+          "a": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 2,
+            "cost": 9,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0
+          },
+          "b": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 2,
+            "cost": 9,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0
+          },
+          "w": 2
+        },
+        {
+          "a": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 2,
+            "cost": 9,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0
+          },
+          "b": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 3,
+            "cost": 10,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 1,
+            "ng": 1
+          },
+          "w": 2
+        },
+        {
+          "a": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 3,
+            "cost": 10,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 1,
+            "ng": 1
+          },
+          "b": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 2,
+            "cost": 9,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0
+          },
+          "w": 3
+        },
+        {
+          "a": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 3,
+            "cost": 10,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 1,
+            "ng": 1
+          },
+          "b": {
+            "q": 3,
+            "modes": [
+              1,
+              2,
+              0
+            ],
+            "use": 2,
+            "copies": 1,
+            "hh": 3,
+            "cc": 3,
+            "cost": 10,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 1,
+            "ng": 1
+          },
+          "w": 3
+        }
+      ],
+      "mixed_certificate": {
+        "p": [
+          2,
+          5
+        ],
+        "q": [
+          1,
+          2
+        ],
+        "scale": 4096,
+        "den": 10,
+        "num": [
+          2088960,
+          2015232
+        ],
+        "matrix": [
+          [
+            [
+              212992,
+              196608
+            ],
+            [
+              204800,
+              208896
+            ]
+          ],
+          [
+            [
+              208896,
+              204800
+            ],
+            [
+              208896,
+              196608
+            ]
+          ]
+        ],
+        "menuSizes": [
+          170,
+          170
+        ],
+        "best0": 417792,
+        "best1": 1007616,
+        "pureProfiles": 0
+      },
+      "wealth_numerator": [
+        7004160,
+        6930432
+      ],
+      "wealth_denominator": 40960,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 1.1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0.9000000000000001,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 14.399999999999999,
+          "net1": 14.5
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0.8,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1.1,
+          "entry": 0,
+          "exit": 1.1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 13.8,
+          "net1": 15.9
+        },
+        {
+          "date": 3,
+          "jobs": 4.8,
+          "customer_surplus": 8.4,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 21.8,
+          "net1": 17.8
+        }
+      ],
+      "profiles": 1295997,
+      "states": 741,
+      "deviations": 59764
+    },
+    {
+      "name": "armkit_1",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        171,
+        170
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        700416,
+        696320
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 14,
+          "net1": 15
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 11,
+          "net1": 18
+        },
+        {
+          "date": 3,
+          "jobs": 5,
+          "customer_surplus": 9,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 25,
+          "net1": 16
+        }
+      ],
+      "profiles": 1295997,
+      "states": 741,
+      "deviations": 59764
+    },
+    {
+      "name": "kit_0",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        173,
+        168
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        708608,
+        688128
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 17,
+          "net1": 12
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        }
+      ],
+      "profiles": 2000001,
+      "states": 1045,
+      "deviations": 86312
+    },
+    {
+      "name": "kit_0",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        170,
+        169
+      ],
+      "root": [
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        696320,
+        692224
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 12,
+          "net1": 17
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        }
+      ],
+      "profiles": 2000001,
+      "states": 1045,
+      "deviations": 86312
+    },
+    {
+      "name": "kit_1",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        173,
+        168
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        708608,
+        688128
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 17,
+          "net1": 12
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 17
+        }
+      ],
+      "profiles": 2003393,
+      "states": 1045,
+      "deviations": 86328
+    },
+    {
+      "name": "kit_1",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        170,
+        169
+      ],
+      "root": [
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 3,
+          "cost": 10,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "assemble",
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        696320,
+        692224
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 1,
+          "orders": 0,
+          "net0": 12,
+          "net1": 17
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        }
+      ],
+      "profiles": 2003393,
+      "states": 1045,
+      "deviations": 86328
+    },
+    {
+      "name": "empty_0",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        173,
+        167
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 2,
+          "cc": 2,
+          "cost": 7,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        708608,
+        684032
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 17,
+          "net1": 15
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        }
+      ],
+      "profiles": 1350401,
+      "states": 1045,
+      "deviations": 70752
+    },
+    {
+      "name": "empty_0",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        167,
+        167
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        684032,
+        684032
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 15,
+          "net1": 15
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        }
+      ],
+      "profiles": 1350401,
+      "states": 1045,
+      "deviations": 70752
+    },
+    {
+      "name": "empty_1",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        173,
+        167
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 6,
+          "modes": [
+            0,
+            2,
+            1
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 2,
+          "cc": 2,
+          "cost": 7,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        708608,
+        684032
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 17,
+          "net1": 15
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 6,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 18,
+          "net1": 16
+        }
+      ],
+      "profiles": 1356017,
+      "states": 1045,
+      "deviations": 70776
+    },
+    {
+      "name": "empty_1",
+      "status": "solved",
+      "rule": -1,
+      "wealth": [
+        167,
+        167
+      ],
+      "root": [
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        },
+        {
+          "q": 3,
+          "modes": [
+            1,
+            2,
+            0
+          ],
+          "use": 2,
+          "copies": 1,
+          "hh": 3,
+          "cc": 2,
+          "cost": 9,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        684032,
+        684032
+      ],
+      "wealth_denominator": 4096,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 15,
+          "net1": 15
+        },
+        {
+          "date": 2,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        },
+        {
+          "date": 3,
+          "jobs": 4,
+          "customer_surplus": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 16,
+          "net1": 16
+        }
+      ],
+      "profiles": 1356017,
+      "states": 1045,
+      "deviations": 70776
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-cohort-rights-v1",
+  "snapshot_id": "formal-integration-manufacturing-rights-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "03985aae347d7bc90a05a4b9965a534c02733bd53902ba2e8e01a1ca0dbf884b"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "ff20c512bd66a2ddf08a8e6899d6eb430ffb5eee4ff4ad34ca25ed848bd3149e"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,8 +3785,8 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "162f6f4e77eff057a4a1b57b70138a3bb2e91436988561cd9ba9e7e9b35d59a8"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "7a5da384b6dcfd609866c78f0c598cc21f6712bc7aa68dfe12985ebb6007aed4"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
@@ -3848,15 +3848,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "338409bc4b9533c69690b203472132b17c095bf693228682540dffecd5ede8a7"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "993aa3c09ac2f900573d2bf52c347625117768b0f1763e4c1035dec469c5e635"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "0e6ca6454368851fd715d9f03ada6e8d22e50ed098e945bc0611d0b5b1d5ac9c"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "72869020ddfc753b04c6a4f844afb7ce99185706e2791bb36924fd2debbd5323"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3876,22 +3876,22 @@
       "repository_path": "papers/integrated_firm/RESULTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/RESULTS.md",
       "name": "RESULTS.md",
-      "version": "formal-integration-cohort-scale-v1",
-      "sha256": "43c200abbd55bf9b00907eae4c6135174af3a6deb003b201e3690a5ae640a603"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "833e240ba164257bd24debc0833d2244b672a0c99f67d93bfac98093d06fdcc6"
     },
     {
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "5d0c1a3587b76a30739c04957d58b6faa5d39999ccbe4c9fdd58dbe288988e59"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "e0c3c51b8e04eb5cd2d1c99e5e0d657a218a1fdcbe994f2eb0cd05b1bdbd4882"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "f17eb1ec623dafc120329987aa91d128ada63dcedc5b98cb33b9b9493592f803"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "1dfdbf77350cf2cf8b8bfbbe921ff7f17594b98fb24f058749d06ea1497a5ce1"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "75f58ff5e39730f3bb7cedd14cc3a5b1cd22608960cd8671ee3a3370dd73309f"
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "4c9e2907a919265fa256d9645ad9a94eb9a54069ccff7ca94e1053b70f208b58"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4214,6 +4214,27 @@
       "name": "COHORT_RIGHTS.md",
       "version": "formal-integration-cohort-rights-v1",
       "sha256": "64d6145fdf285960ba9339332515a758b8267e21a4119994adbe02fe961d0f02"
+    },
+    {
+      "repository_path": "papers/integrated_firm/manufacturing_rights.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/manufacturing_rights.js",
+      "name": "manufacturing_rights.js",
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "95c1d2fb6e9b5bc13e3f988d6cd7f1eb05cf005b77463ec80895af83101457fc"
+    },
+    {
+      "repository_path": "papers/integrated_firm/manufacturing_rights_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/manufacturing_rights_results.json",
+      "name": "manufacturing_rights_results.json",
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "42dbf3b485beecd52c9ca9eac05622c06ff298790a8e576a8cf9c71bebf35aa9"
+    },
+    {
+      "repository_path": "papers/integrated_firm/MANUFACTURING_RIGHTS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/MANUFACTURING_RIGHTS.md",
+      "name": "MANUFACTURING_RIGHTS.md",
+      "version": "formal-integration-manufacturing-rights-v1",
+      "sha256": "278c24dff7619c8b9ce18ff072697c183866eb5ef436370bbda6eecf1c86b5cf"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4490,13 +4511,13 @@
       "latest_synthesis": "papers/integrated_firm/COHORT_SCALE.md"
     },
     "formal_integration": {
-      "status": "Finite core and multiple exact competitive restrictions including endogenous local retention and lab scope solved; simultaneous longer-horizon manufacturing, positive active-rival from-zero cap-2, directed transfer/public latent reports, Economic RL approximation and calibration open.",
+      "status": "Finite core and multiple exact competitive restrictions, including concurrent embodied rights/scope and one mixed root, solved; longer binding cash, positive active-rival from-zero cap-2, directed transfer/public latent reports, Economic RL approximation and calibration open.",
       "paper": "papers/integrated_firm/UNIFIED_MODEL.md",
       "results": "papers/integrated_firm/RESULTS.md",
       "ledger": "papers/integrated_firm/CLAIM_LEDGER.md",
       "state": "papers/integrated_firm/state.json",
       "next_question": "papers/integrated_firm/NEXT_QUESTION.md",
-      "published_source_replay": "Fetched candidate source replayed original sixteen primary cases identically, then solved eight matched cheap/binding cases and twelve projection-off checks; all reported cash histories reconstructed exactly."
+      "published_source_replay": "All 16 exact cases solved; one mixed root verified against 170 actions per player and independently reconstructed forward cash and stock histories within the same implementation."
     }
   }
 }
