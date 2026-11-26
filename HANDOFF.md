@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-cohort-scale-v1.
+Handoff ID: formal-integration-cohort-rights-v1
+
+## Endogenous evidence retention and organizational scope
+
+November 26. Endogenous archive retention, paid outside training/data and dated lab entry/exit now enter the same three-recipient competitive technology. 24/24 primary pure-game cases and 12 projection-off comparisons solved. With an inherited procedure 2, installed mobile and costly outside research, retention rights induce one ordinary-service archive→internal physical qualification→extra accepted job: combined wealth 347→348, jobs 12→13, customer surplus 18→21. At cheap outside research or binding B=9, rights add zero selected private value. With inherited physical archives, open rather than closed initial lab scope raises wealth 349→362 and jobs 13→16; without enough useful opportunity the lab exits. This is a matched rights/scope comparison, not an endogenous second-generation acquisition result. Three-date positive cases fix hardware, while two-date cash/scope cases allow assembly. [Proof and replication](papers/integrated_firm/COHORT_RIGHTS.md). Next: [joint embodied extension](papers/integrated_firm/NEXT_QUESTION.md). The original milestone clocks and both source branches remain intact.
 
 ## Terminal projection and completed four-date cohort comparisons
 
