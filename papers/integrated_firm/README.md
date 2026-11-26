@@ -75,3 +75,10 @@ Endogenous kit ordering and assembly restored to the three-date rights/scope eco
 
 
 - [Service window and positive active-rival paid cap-2 acquisition](SERVICE_WINDOW.md) · [40-shift results](service_window_40_results.json) · [60-shift results](service_window_60_results.json).
+
+
+## November 26: internally produced successor robustness
+
+Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.
+
+[Derivation and exact comparisons](INTERNAL_SUCCESSOR.md) · [Reproduction](internal_successor.js) · [Results](internal_successor_results.json).

@@ -1,0 +1,350 @@
+{
+  "synthetic": true,
+  "columns": [
+    "wealth0",
+    "wealth1",
+    "terminal_jobs",
+    "develop_attempts",
+    "licenses",
+    "contract_develop_attempts",
+    "profiles"
+  ],
+  "cases": [
+    [
+      "original_cheap_outside",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "outside": 5,
+        "buy": 2
+      },
+      [
+        [
+          10974.5,
+          10971.28125,
+          232.5,
+          0,
+          2,
+          0,
+          1777517
+        ],
+        [
+          10974.5,
+          10971.28125,
+          232.5,
+          0,
+          2,
+          0,
+          2098733
+        ]
+      ]
+    ],
+    [
+      "original_low_selection",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "rules": [
+          -1
+        ]
+      },
+      [
+        [
+          10947.28125,
+          10946.21875,
+          232.5,
+          0,
+          2,
+          0,
+          1777517
+        ],
+        [
+          10955,
+          10954,
+          240,
+          0,
+          4,
+          0,
+          2098733
+        ]
+      ]
+    ],
+    [
+      "original_costly_successors_c2",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 2
+      },
+      [
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          1777517
+        ],
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          2098733
+        ]
+      ]
+    ],
+    [
+      "original_costly_successors_c3",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100
+      },
+      [
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          1777517
+        ],
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          2098733
+        ]
+      ]
+    ],
+    [
+      "improved_costly_successors_c2",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 2,
+        "developBase": 3
+      },
+      [
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          1918697
+        ],
+        [
+          10872,
+          10870,
+          240,
+          2,
+          2,
+          0,
+          2249993
+        ]
+      ]
+    ],
+    [
+      "internal_positive",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 1,
+        "developBase": 3
+      },
+      [
+        [
+          10939.1875,
+          10936.654296875,
+          226.875,
+          2,
+          0,
+          0,
+          1938237
+        ],
+        [
+          10950.625,
+          10948.390625,
+          232.5,
+          3.5,
+          0,
+          0,
+          2270877
+        ]
+      ]
+    ],
+    [
+      "internal_low_selection",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 1,
+        "developBase": 3,
+        "rules": [
+          -1
+        ]
+      },
+      [
+        [
+          10937.751953125,
+          10936.654296875,
+          226.875,
+          2,
+          0,
+          0,
+          1938237
+        ],
+        [
+          10950.15625,
+          10948.390625,
+          232.5,
+          3.5,
+          0,
+          0,
+          2270877
+        ]
+      ]
+    ],
+    [
+      "improved_cheap_successor_contracts",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 10,
+        "contractDev": 6,
+        "developCompute": 1,
+        "developBase": 3
+      },
+      [
+        [
+          10947.75,
+          10946.21875,
+          232.5,
+          0,
+          2,
+          0,
+          1938237
+        ],
+        [
+          10964,
+          10963,
+          240,
+          2,
+          2,
+          0,
+          2270877
+        ]
+      ]
+    ],
+    [
+      "improved_cheap_outside",
+      {
+        "N": 60,
+        "only": [
+          "scale_1",
+          "scale_2"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 1,
+        "developBase": 3,
+        "outside": 5,
+        "buy": 2
+      },
+      [
+        [
+          10961.875,
+          10957.626953125,
+          226.875,
+          2,
+          0,
+          0,
+          1938237
+        ],
+        [
+          10961.8515625,
+          10957.392578125,
+          226.875,
+          2,
+          0,
+          0,
+          2270877
+        ]
+      ]
+    ],
+    [
+      "internal_ordinary",
+      {
+        "N": 60,
+        "only": [
+          "scale_0"
+        ],
+        "license": 100,
+        "contractDev": 100,
+        "developCompute": 1,
+        "developBase": 3
+      },
+      [
+        [
+          10890.5,
+          10881.75,
+          210,
+          0,
+          0,
+          0,
+          611501
+        ]
+      ]
+    ]
+  ],
+  "legacy_default_60_exact": true,
+  "analytical": {
+    "ordinary_probability": 0.75,
+    "cap1_probability": 0.890625,
+    "cap2_probability": 0.9375,
+    "incremental_terminal_jobs": 5.625
+  }
+}

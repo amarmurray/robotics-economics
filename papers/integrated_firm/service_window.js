@@ -1,9 +1,9 @@
 // Exact CPU-only restricted extension of manufacturing_rights.js at dec70fab2.
 // Run node service_window.js 40 or node service_window.js 60. N terminal shifts, same state and per-shift resources; no investment/learning within final block.
-function windowStudy({N=40,budget=3000000,projection=true,quotient=true,only=null,rules=[1]}={}){
+function windowStudy({N=40,budget=3000000,projection=true,quotient=true,only=null,rules=[1],outside=100,buy=100,license=10,contractDev=6,developCompute=3,developBase=2}={}){
  if(!Number.isInteger(N)||N<1||10000<12*N+3*620||!quotient)throw Error('prefunded terminal block only');
  const H=3,C=5,A=[18,14,14],parts=[1,500],pop=m=>+(!!(m&1))+(!!(m&2))+(!!(m&4)),swap=m=>m,L=h=>h?12*N+620*(h-1):0;
- const cases=[0,1,2].map(cap=>({name:"scale_"+cap,T:4,B:10000,K:[1,0,0,0],M:[0,0],D:[0,0],R:1,g:1,p:0,cap,outside:100,buy:100,N}));
+ const cases=[0,1,2].map(cap=>({name:"scale_"+cap,T:4,B:10000,K:[1,0,0,0],M:[0,0],D:[0,0],R:1,g:1,p:0,cap,outside,buy,N}));
  function solve(c,rule){
  let memo=new Map(),menus=new Map(),profiles=0,dev=0;
  const S=c.M.map((m,i)=>[...c.K,m,c.p,c.B,c.D[i],c.g]),sal=s=>s[0]+2*s[1];
@@ -27,11 +27,11 @@ function windowStudy({N=40,budget=3000000,projection=true,quotient=true,only=nul
      rs.push(["contract",1,0,c.outside??5,2+old,j]);
     }
     if(p<c.cap&&!(projection&&quotient&&h===2&&B>=L(h))){
-     if(g)rs.push(["develop",1,3,0,2+old,3]);
-     rs.push(["contract_develop",1,0,6,2+old,3]);
+     if(g)rs.push(["develop",1,developCompute,0,developBase+old,3]);
+     rs.push(["contract_develop",1,0,contractDev,2+old,3]);
     }
    }
-   if(p<c.cap&&!(projection&&quotient&&h===2&&B>=L(h)))rs.push(["license",1,0,10,4,3]);
+   if(p<c.cap&&!(projection&&quotient&&h===2&&B>=L(h)))rs.push(["license",1,0,license,4,3]);
    if(h>=3)for(let j=0;j<2;j++)if(!(D&(1<<j))&&!(m&(1<<j)))rs.push(["buy_archive",1,0,c.buy??2,4,j]);
    if(!c.fixedHardware)for(let j=0;j<2;j++)if(!s[j]){if(s[j+2])bs.push(["assemble",1,1,0,j,1]);else if(h>2)bs.push(["order",0,0,parts[j],j,0])}
   }

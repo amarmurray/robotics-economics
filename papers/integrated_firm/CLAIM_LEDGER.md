@@ -119,3 +119,10 @@ Four investment dates with 40 or 60 independently resourced terminal service shi
 
 [Derivation and exact results](SERVICE_WINDOW.md). Conditional fixed-profile break-even N=3896/97; not a global threshold or internal-development result.
 Falsifiers: cheap equivalent external research or hardware, changing equilibrium selection, learning within the operating window, binding finance and more general investment concurrency. The next mechanism is internally produced successors, not merely purchased procedures.
+
+
+## November 26: internally produced successor robustness
+
+Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.
+
+[Derivation and exact comparisons](INTERNAL_SUCCESSOR.md) · [Reproduction](internal_successor.js) · [Results](internal_successor_results.json).

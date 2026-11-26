@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-service-window-v1
+Handoff ID: formal-integration-internal-successor-v1
+
+## Internally produced successor procedures and robustness
+
+November 26. Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained. [Proof and reproduction](papers/integrated_firm/INTERNAL_SUCCESSOR.md). Next: [staggered entry and concurrent investment](papers/integrated_firm/NEXT_QUESTION.md). All original milestones preserved.
 
 ## Economically usable service window and active-rival successor acquisition
 
