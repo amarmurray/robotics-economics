@@ -1,0 +1,1451 @@
+{
+  "synthetic": true,
+  "terminal": "cash plus one salvage tick per retained reference; no dividends; all other noncash stocks zero salvage",
+  "selection": "among all pure equilibria maximize/minimize sum then maximize firm 0 wealth; if none, first verified 2x2 support, not full mixed correspondence",
+  "cases": [
+    {
+      "name": "two_target_low_cash",
+      "initial": {
+        "sites": [
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "firms": [
+          {
+            "B": 5,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          },
+          {
+            "B": 5,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          }
+        ],
+        "odds": [
+          "3",
+          "2"
+        ],
+        "market": 0
+      },
+      "results": [
+        {
+          "horizon": 2,
+          "cap": 1,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 131,
+          "terminal_classes": 130,
+          "profiles": 949,
+          "deviations": 1238,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            15,
+            15
+          ],
+          "pure_count": 7,
+          "selected": [
+            "8/1",
+            "8/1"
+          ],
+          "payoff_set": [
+            "8/1,8/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 1,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 131,
+          "terminal_classes": 130,
+          "profiles": 949,
+          "deviations": 1238,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            15,
+            15
+          ],
+          "pure_count": 7,
+          "selected": [
+            "8/1",
+            "8/1"
+          ],
+          "payoff_set": [
+            "8/1,8/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 131,
+          "terminal_classes": 130,
+          "profiles": 949,
+          "deviations": 1238,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            15,
+            15
+          ],
+          "pure_count": 7,
+          "selected": [
+            "8/1",
+            "8/1"
+          ],
+          "payoff_set": [
+            "8/1,8/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 131,
+          "terminal_classes": 130,
+          "profiles": 949,
+          "deviations": 1238,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            15,
+            15
+          ],
+          "pure_count": 7,
+          "selected": [
+            "8/1",
+            "8/1"
+          ],
+          "payoff_set": [
+            "8/1,8/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "two_target_high_demand",
+      "initial": {
+        "sites": [
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "firms": [
+          {
+            "B": 9,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          },
+          {
+            "B": 9,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          }
+        ],
+        "odds": [
+          "3",
+          "2"
+        ],
+        "market": 1
+      },
+      "results": [
+        {
+          "horizon": 2,
+          "cap": 1,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 1731,
+          "terminal_classes": 1730,
+          "profiles": 48676,
+          "deviations": 35810,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            74,
+            74
+          ],
+          "pure_count": 1,
+          "selected": [
+            "22/1",
+            "85/4"
+          ],
+          "payoff_set": [
+            "22/1,85/4"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 1,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 1731,
+          "terminal_classes": 1730,
+          "profiles": 48676,
+          "deviations": 35810,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            74,
+            74
+          ],
+          "pure_count": 1,
+          "selected": [
+            "43/2",
+            "43/2"
+          ],
+          "payoff_set": [
+            "43/2,43/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 1731,
+          "terminal_classes": 1730,
+          "profiles": 49600,
+          "deviations": 35822,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            80,
+            80
+          ],
+          "pure_count": 1,
+          "selected": [
+            "22/1",
+            "85/4"
+          ],
+          "payoff_set": [
+            "22/1,85/4"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 1731,
+          "terminal_classes": 1730,
+          "profiles": 49600,
+          "deviations": 35822,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            80,
+            80
+          ],
+          "pure_count": 1,
+          "selected": [
+            "43/2",
+            "43/2"
+          ],
+          "payoff_set": [
+            "43/2,43/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 9
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "three_target_low_cash",
+      "initial": {
+        "sites": [
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "firms": [
+          {
+            "B": 7,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          },
+          {
+            "B": 7,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          }
+        ],
+        "odds": [
+          "3",
+          "2"
+        ],
+        "market": 0
+      },
+      "results": [
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 545,
+          "terminal_classes": 544,
+          "profiles": 10321,
+          "deviations": 18794,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            49,
+            49
+          ],
+          "pure_count": 37,
+          "selected": [
+            "10/1",
+            "10/1"
+          ],
+          "payoff_set": [
+            "10/1,10/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 2,
+          "cap": 2,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 545,
+          "terminal_classes": 544,
+          "profiles": 10321,
+          "deviations": 18794,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            49,
+            49
+          ],
+          "pure_count": 37,
+          "selected": [
+            "10/1",
+            "10/1"
+          ],
+          "payoff_set": [
+            "10/1,10/1"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -2,
+                  -1
+                ],
+                "retain": [
+                  0,
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2,
+                  -1,
+                  -2
+                ],
+                "retain": [
+                  0,
+                  0,
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "one_target_three_period",
+      "initial": {
+        "sites": [
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "firms": [
+          {
+            "B": 4,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          },
+          {
+            "B": 4,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          }
+        ],
+        "odds": [
+          "3",
+          "2"
+        ],
+        "market": 0
+      },
+      "results": [
+        {
+          "horizon": 3,
+          "cap": 1,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 205,
+          "terminal_classes": 156,
+          "profiles": 572,
+          "deviations": 760,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            4,
+            4
+          ],
+          "pure_count": 1,
+          "selected": [
+            "37/4",
+            "13/2"
+          ],
+          "payoff_set": [
+            "37/4,13/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 1,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 205,
+          "terminal_classes": 156,
+          "profiles": 572,
+          "deviations": 760,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            4,
+            4
+          ],
+          "pure_count": 1,
+          "selected": [
+            "13/2",
+            "13/2"
+          ],
+          "payoff_set": [
+            "13/2,13/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 2,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 205,
+          "terminal_classes": 156,
+          "profiles": 572,
+          "deviations": 760,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            4,
+            4
+          ],
+          "pure_count": 1,
+          "selected": [
+            "37/4",
+            "13/2"
+          ],
+          "payoff_set": [
+            "37/4,13/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 2,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 205,
+          "terminal_classes": 156,
+          "profiles": 572,
+          "deviations": 760,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            4,
+            4
+          ],
+          "pure_count": 1,
+          "selected": [
+            "13/2",
+            "13/2"
+          ],
+          "payoff_set": [
+            "13/2,13/2"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "one_target_funded_three_period",
+      "initial": {
+        "sites": [
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "firms": [
+          {
+            "B": 6,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          },
+          {
+            "B": 6,
+            "psi": 1,
+            "lab": 1,
+            "phys": 1,
+            "ref": 0
+          }
+        ],
+        "odds": [
+          "3",
+          "2"
+        ],
+        "market": 0
+      },
+      "results": [
+        {
+          "horizon": 3,
+          "cap": 1,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 2923,
+          "terminal_classes": 1882,
+          "profiles": 20854,
+          "deviations": 22858,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            18,
+            18
+          ],
+          "pure_count": 2,
+          "selected": [
+            "45/4",
+            "145/16"
+          ],
+          "payoff_set": [
+            "45/4,17/2",
+            "45/4,145/16"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 1,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 2923,
+          "terminal_classes": 1882,
+          "profiles": 20854,
+          "deviations": 22878,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            18,
+            18
+          ],
+          "pure_count": 2,
+          "selected": [
+            "41/4",
+            "17/2"
+          ],
+          "payoff_set": [
+            "41/4,17/2",
+            "17/2,41/4"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 2,
+          "rule": "max total private terminal wealth",
+          "status": "solved",
+          "states": 3085,
+          "terminal_classes": 1882,
+          "profiles": 22780,
+          "deviations": 25582,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            20,
+            20
+          ],
+          "pure_count": 2,
+          "selected": [
+            "45/4",
+            "145/16"
+          ],
+          "payoff_set": [
+            "45/4,17/2",
+            "45/4,145/16"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ]
+          ]
+        },
+        {
+          "horizon": 3,
+          "cap": 2,
+          "rule": "min total private terminal wealth",
+          "status": "solved",
+          "states": 3085,
+          "terminal_classes": 1882,
+          "profiles": 22780,
+          "deviations": 25602,
+          "mixed": 0,
+          "missing": 0,
+          "action_counts": [
+            20,
+            20
+          ],
+          "pure_count": 2,
+          "selected": [
+            "41/4",
+            "17/2"
+          ],
+          "payoff_set": [
+            "41/4,17/2",
+            "17/2,41/4"
+          ],
+          "all_root_research_pairs": [
+            "none / none"
+          ],
+          "selected_actions": [
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -1
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 1,
+                "build": 0,
+                "cost": 5
+              }
+            ],
+            [
+              {
+                "prob": "1/1",
+                "service": [
+                  -2
+                ],
+                "retain": [
+                  0
+                ],
+                "research": "none",
+                "target": -1,
+                "method": 0,
+                "lab": 0,
+                "build": 0,
+                "cost": 0
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

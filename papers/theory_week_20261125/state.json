@@ -77,6 +77,15 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json"
       ]
+    },
+    {
+      "item": "Exact two-/three-period concurrent public-state digital-recipient game with two continuation selections, matched funded cap-2 null and direct recursion clock.",
+      "kind": "conditional proof and exact CPU solution",
+      "evidence": [
+        "papers/integrated_firm/JOINT_GAME.md",
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/joint_game_verification.json"
+      ]
     }
   ],
   "tracks": [
@@ -106,7 +115,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Read NEXT_QUESTION.md. Backward-induct the public-state game on the tested joint transition and action generator; verify unilateral deviations and selection, then enlarge horizon, recipient and physical/embodiment menu.",
+  "next_action": "Read NEXT_QUESTION.md. Solve a funded multi-recipient four-or-more-period game from psi=0 under matched cap-0/1/2 and fixed continuation selections; use an exact justified restriction or quotient, then restore physical manufacturing. Preserve November 27 pilot and subsequent gates.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",

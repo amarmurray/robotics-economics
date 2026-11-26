@@ -125,3 +125,8 @@ See [JOINT_COUNTS.md](JOINT_COUNTS.md) and [exact results](joint_counts_results.
 ## Joint conditional report benchmark (November 26)
 
 See [JOINT_TRANSITION.md](JOINT_TRANSITION.md) and [exact results](joint_transition_results.json). With strong-regime success probabilities 3/4 and 1/2, weak-regime probabilities both 1/4 and prior 3/5, concurrent successes have probability 1/4 (not 11/50) and posterior odds 9:1. 1001 concurrent profiles and 2899 terminal profiles agree exactly with latent-first enumeration; 3003 relabelings preserve the joint law. These are transition checks, not game-equilibrium results. All parameters synthetic.
+
+
+## November 26: exact competitive continuation on the joint-recipient kernel
+
+[JOINT_GAME](JOINT_GAME.md) reports exact root payoff sets for two-/three-period digital-recipient games under two pure-equilibrium selection rules. In the funded one-target, three-period case (B=6, inherited psi=1, both archives), permitting generation 2 adds two legal root actions per firm but selected terminal wealth is unchanged: (45/4,145/16) under highest-total continuation selection; (41/4,17/2) under lowest-total. All reported root equilibria choose no research. The two-target high-demand game has identical first-period actions but different terminal total wealth across selection rules (173/4 versus 43). This is selection dependence, not a productivity effect. Full results and alternate reference replay are in joint_game_results.json and joint_game_verification.json.

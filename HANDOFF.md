@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-joint-transition-v1.
+Handoff ID: formal-integration-joint-game-v1.
+
+## Exact short-horizon concurrent competitive game
+
+November 26. [Game, timing theorem and exact results](papers/integrated_firm/JOINT_GAME.md): full legal labeled action menus and exact rational backward induction solve two-/three-period digital-recipient games under two continuation selections, independently replayed with the latent-first kernel. In the funded one-target three-period case, cap 2 expands the root menu but does not induce research or increase selected private wealth. Acquiring both successors from zero needs at least four periods for direct accepted service; three from an inherited first procedure. Selection changes private rents and can change current scope/dispatch without a technology change. Mixed fallback not used; multi-recipient longer-horizon generation acquisition and physical manufacturing remain open. Next: [funded multi-recipient cap-0/1/2 solve and pilot synthesis](papers/integrated_firm/NEXT_QUESTION.md).
 
 ## Exact concurrent public-report transition
 
