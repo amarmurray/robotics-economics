@@ -156,3 +156,9 @@ Globally reoptimized integer threshold mapping in the accepted four-block econom
 | Long-run nonlinear dynamics and stability | Defined research target | Finite four-block solution establishes neither cycles nor asymptotic instability |
 
 Evidence: [theory and derivation](GLOBAL_EQUILIBRIUM_THRESHOLDS.md), [code](global_thresholds.js), [results](global_thresholds_results.json). All seven integration obligations and original milestone clocks remain active.
+
+## Intermediate mixed continuation (November 26)
+
+The exclusive S=10 gap is closed by exact intermediate mixed continuation. At nine date-two public states under the higher-total pure-first rule, certified two-by-two supports replace missing pure continuations; at the first state, lab retention probabilities are 24/25 and 3/5. Exclusive cap-1/cap-2 and alternative lower-total selection give 160 generated wealth each, 44 jobs and 88 customer surplus. Concurrent cap-2 gives 163.625 each, 42 jobs and 84 customer surplus: +7.25 combined private wealth, -2 jobs and -4 customer surplus. A local lab-retention fee interval [0,1/2] is certified against every retained action at the first mixed subgame, conditional on unchanged downstream policies and prefunding. Complete dynamic parameter-region certificates and full mixed correspondence remain open.
+
+Established in stated restrictions: exact public-state selected mixed continuation, full-menu incentive checks, dated replay and local affine fee interval. Falsifiers: a profitable original-menu deviation, an invalid projected cash history, or an endpoint slack below zero. Strong alternatives: lower-total pure selection, ordinary learning, outside qualification, and exclusive hardware sequencing. Open: complete equilibrium correspondence, whole-game parameter certificates, binding finance, continuous within-block learning, actual Economic RL or LLM evaluation, identification and calibration.

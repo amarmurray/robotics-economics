@@ -1,3 +1,9 @@
+# Next integration dependency
+
+Extend the exact local incentive certificate to complete contingent profiles across parameter regions, starting with a common kit-price or research-cost perturbation. Propagate mixed rational continuation values and track denominator changes, legal-menu changes, and selector inequalities separately; retain ordinary learning and outside research. Then vary service timing, qualification/transfer probabilities and costs, and test within-block contingent learning, binding finance, directed archives, common latent reports and input-market closure. Long-run stability requires a solved repeated/infinite-horizon economy. Preserve November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.
+
+## Prior checkpoint (preserved)
+
 # Next dependency: globally reoptimized equilibrium regions
 
 Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.

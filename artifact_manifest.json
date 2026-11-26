@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-global-thresholds-v1",
+  "snapshot_id": "formal-integration-mixed-continuation-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "02ef8f6a2fdc15c6d9bc5afa32500799e0c887b0f73d2398fc351296f454dfe9"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "80b7b088288dbe0c008f8069626b6db1033312b554eba162705024880c96c983"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,8 +3785,8 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-concurrent-window-v1",
-      "sha256": "e519a7646311132b37f6c7fc1f72d285a978d675d81362896507607d1fd5fa38"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "bc21439ef1c3f5e07482306576787e985dcb9fa1b71c3d4b83462550c8af194f"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
@@ -3883,15 +3883,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "3ad7881fc47e012dc1bdc8cc225d5b887ed3bbf78343289cf74087d7face35eb"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "aa7eb74c690ba7c9c488b83a2b272a330dcb0ebe671adf0887f9ccfc42d4bd90"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "fe4532bacc283c91de0838475cb447c34ccdffa59437ed5702deebc60c3e0842"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "b70605b596d2650c193fd1976ddaedce0a6e4bfd8e84938ef7205299a92cd4ce"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "6324dd36cd1ebaebd5bae907d43cad89dcc15317a5b6bb138c25997348f54687"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "775e55a3f640e473e21e2e5522a06ae4a3c9b9675f2846e27f5e5aa442f1cba4"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4331,8 +4331,8 @@
       "repository_path": "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
       "name": "GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "8b243d7a91fb7702c6cef905e4c38b4480824c602f64285193be844bc0dff6e4"
+      "version": "formal-integration-mixed-continuation-v1",
+      "sha256": "de71ac240612e88d09d864a3d0651bda07d71bdb029c8a68a1232296c6ce2776"
     },
     {
       "repository_path": "papers/integrated_firm/global_thresholds.js",
@@ -4347,6 +4347,27 @@
       "name": "global_thresholds_results.json",
       "version": "formal-integration-global-thresholds-v1",
       "sha256": "311e2921ca637dc7a370670f576c66e631d0675a6c62d5ef6627e22b2fa43071"
+    },
+    {
+      "repository_path": "papers/integrated_firm/MIXED_CONTINUATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/MIXED_CONTINUATION.md",
+      "name": "MIXED_CONTINUATION.md",
+      "sha256": "789274842117eab5a322bf47593eb6537ae519580e9026a8a64cc8cd0b9090ac",
+      "version": "formal-integration-mixed-continuation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/mixed_continuation.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/mixed_continuation.js",
+      "name": "mixed_continuation.js",
+      "sha256": "1b7207e5c5b15eb65eb4de4f25a30d5fbb1607d03cc92dbfed1ca0f06a03ebbe",
+      "version": "formal-integration-mixed-continuation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/mixed_continuation_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/mixed_continuation_results.json",
+      "name": "mixed_continuation_results.json",
+      "sha256": "3aaf24ac5502f837866fd4abf1557bc4fc0167c2ecf56bda597264778d4774bb",
+      "version": "formal-integration-mixed-continuation-v1"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4620,18 +4641,20 @@
       "scaffold": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
       "register": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "status": "active conditional theory; field validation open",
-      "latest_synthesis": "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md"
+      "latest_synthesis": "papers/integrated_firm/MIXED_CONTINUATION.md"
     },
     "formal_integration": {
-      "status": "Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.",
+      "status": "The exclusive S=10 gap is closed by exact intermediate mixed continuation. At nine date-two public states under the higher-total pure-first rule, certified two-by-two supports replace missing pure continuations; at the first state, lab retention probabilities are 24/25 and 3/5. Exclusive cap-1/cap-2 and alternative lower-total selection give 160 generated wealth each, 44 jobs and 88 customer surplus. Concurrent cap-2 gives 163.625 each, 42 jobs and 84 customer surplus: +7.25 combined private wealth, -2 jobs and -4 customer surplus. A local lab-retention fee interval [0,1/2] is certified against every retained action at the first mixed subgame, conditional on unchanged downstream policies and prefunding. Complete dynamic parameter-region certificates and full mixed correspondence remain open.",
       "paper": "papers/integrated_firm/UNIFIED_MODEL.md",
       "results": "papers/integrated_firm/RESULTS.md",
       "ledger": "papers/integrated_firm/CLAIM_LEDGER.md",
       "state": "papers/integrated_firm/state.json",
       "next_question": "papers/integrated_firm/NEXT_QUESTION.md",
-      "published_source_replay": "Final exact replay:56 records/51 distinct solves; all retained-menu deviations and dated accounting; one explicit mixed-continuation gap.",
+      "published_source_replay": "Four exact comparisons executed; primary replay matched; full original-menu deviations and forward ledger verified.",
       "threshold_framework": "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-      "threshold_results": "papers/integrated_firm/global_thresholds_results.json"
+      "threshold_results": "papers/integrated_firm/global_thresholds_results.json",
+      "mixed_continuation": "papers/integrated_firm/MIXED_CONTINUATION.md",
+      "mixed_results": "papers/integrated_firm/mixed_continuation_results.json"
     }
   }
 }

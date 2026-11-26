@@ -276,3 +276,5 @@ Then vary the allocation of the service window as well as its total, transfer/qu
 After a repeated or infinite-horizon model is actually solved, study stationary distributions or fixed states, policy and price derivatives, basins and stability. Economic RL should be judged against these equilibria or disclosed best-response errors, with the learning/adjustment process specified. Neither successful optimization nor a nonconvergent training run establishes a nonlinear economic result on its own.
 
 The November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates remain intact. This extension changes the order and precision of the next theoretical target, not the program clocks or empirical claim status.
+
+**Subsequent November 26 result:** [Exact intermediate mixed continuation](MIXED_CONTINUATION.md) closes the exclusive S=10 gap and certifies a conditional lab-fee interval. Historical pure-only results above remain as provenance.

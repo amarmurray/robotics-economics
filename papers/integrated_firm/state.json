@@ -16,11 +16,12 @@
   },
   "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "integration-mixed-continuation-20261126T222706Z",
     "acquired_at": "2026-11-26T22:27:06Z",
     "expires_at": "2026-11-26T23:57:06Z",
-    "scope": "Exact intermediate mixed continuation and parameter-region certificates"
+    "scope": "Exact intermediate mixed continuation and parameter-region certificates",
+    "released_at": "2026-11-26T22:27:06Z"
   },
   "obligations": {
     "1": {
@@ -105,9 +106,11 @@
         "papers/integrated_firm/concurrent_window.js",
         "papers/integrated_firm/concurrent_window_results.json",
         "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-        "papers/integrated_firm/global_thresholds_results.json"
+        "papers/integrated_firm/global_thresholds_results.json",
+        "papers/integrated_firm/MIXED_CONTINUATION.md",
+        "papers/integrated_firm/mixed_continuation_results.json"
       ],
-      "remaining": "Integer concurrent equilibrium thresholds solved under stated continuation rules; exclusive S=10 mixed continuation, within-block learning and binding cash remain open."
+      "remaining": "Integer concurrent equilibrium thresholds solved under stated continuation rules; within-block learning and binding cash remain open. Complete dynamic parameter-region certificates and mixed correspondence remain open."
     },
     "3": {
       "status": "established_in_stated_restrictions",
@@ -150,9 +153,11 @@
         "papers/integrated_firm/concurrent_window.js",
         "papers/integrated_firm/concurrent_window_results.json",
         "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-        "papers/integrated_firm/global_thresholds_results.json"
+        "papers/integrated_firm/global_thresholds_results.json",
+        "papers/integrated_firm/MIXED_CONTINUATION.md",
+        "papers/integrated_firm/mixed_continuation_results.json"
       ],
-      "remaining": "Exact competitive benchmark; learned Economic RL and actual LLM workload open."
+      "remaining": "Exact competitive benchmark; learned Economic RL and actual LLM workload open. Complete dynamic parameter-region certificates and mixed correspondence remain open."
     },
     "4": {
       "status": "established_in_stated_restrictions",
@@ -239,9 +244,11 @@
         "papers/integrated_firm/concurrent_window.js",
         "papers/integrated_firm/concurrent_window_results.json",
         "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-        "papers/integrated_firm/global_thresholds_results.json"
+        "papers/integrated_firm/global_thresholds_results.json",
+        "papers/integrated_firm/MIXED_CONTINUATION.md",
+        "papers/integrated_firm/mixed_continuation_results.json"
       ],
-      "remaining": "First-generation research and manufacturing coexist; cap-2 null in this regime; continuous learning and richer successor comparisons open."
+      "remaining": "First-generation research and manufacturing coexist; cap-2 null in this regime; continuous learning and richer successor comparisons open. Complete dynamic parameter-region certificates and mixed correspondence remain open."
     },
     "6": {
       "status": "established_in_stated_restrictions",
@@ -287,9 +294,11 @@
         "papers/integrated_firm/concurrent_window.js",
         "papers/integrated_firm/concurrent_window_results.json",
         "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-        "papers/integrated_firm/global_thresholds_results.json"
+        "papers/integrated_firm/global_thresholds_results.json",
+        "papers/integrated_firm/MIXED_CONTINUATION.md",
+        "papers/integrated_firm/mixed_continuation_results.json"
       ],
-      "remaining": "Complete equilibrium correspondence, exact parameter-region certificates, intermediate mixed continuations, endogenous input markets and long-run economic stability remain open."
+      "remaining": "Complete equilibrium correspondence, exact parameter-region certificates, endogenous input markets and long-run economic stability remain open. Complete dynamic parameter-region certificates and mixed correspondence remain open."
     },
     "7": {
       "status": "established_in_stated_restrictions",
@@ -335,14 +344,16 @@
         "papers/integrated_firm/concurrent_window.js",
         "papers/integrated_firm/concurrent_window_results.json",
         "papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md",
-        "papers/integrated_firm/global_thresholds_results.json"
+        "papers/integrated_firm/global_thresholds_results.json",
+        "papers/integrated_firm/MIXED_CONTINUATION.md",
+        "papers/integrated_firm/mixed_continuation_results.json"
       ],
-      "remaining": "Exact replay and full retained-menu checks; independent equilibrium implementation, identification and calibration open."
+      "remaining": "Exact replay and full retained-menu checks; independent equilibrium implementation, identification and calibration open. Complete dynamic parameter-region certificates and mixed correspondence remain open."
     }
   },
-  "next_action": "Make globally reoptimized equilibrium regions the organizing target. Next implement exact parameter-region incentive certificates and propagate mixed continuations at intermediate subgames, beginning with the exclusive S=10 gap. Retain ordinary contingent learning, outside research, hardware, rights, scope and dated resources. Separate equilibrium eligibility from selection, and test all off-path deviations. Then vary service timing, qualification/transfer probabilities and costs, and test within-block contingent learning against the mapped regions. Binding finance, directed archives, common latent reports and input-market closure remain cumulative extensions. Long-run stability requires a solved repeated/infinite-horizon economy and its economic transition law; solver failure, missing pure equilibria and nonlinear nonstationarity are distinct. Preserve November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.",
-  "completion": "Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.",
-  "edition": "formal-integration-global-thresholds-v1",
+  "next_action": "Extend the exact local incentive certificate to complete contingent profiles across parameter regions, starting with a common kit-price or research-cost perturbation. Propagate mixed rational continuation values and track denominator changes, legal-menu changes, and selector inequalities separately; retain ordinary learning and outside research. Then vary service timing, qualification/transfer probabilities and costs, and test within-block contingent learning, binding finance, directed archives, common latent reports and input-market closure. Long-run stability requires a solved repeated/infinite-horizon economy. Preserve November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.",
+  "completion": "The exclusive S=10 gap is closed by exact intermediate mixed continuation. At nine date-two public states under the higher-total pure-first rule, certified two-by-two supports replace missing pure continuations; at the first state, lab retention probabilities are 24/25 and 3/5. Exclusive cap-1/cap-2 and alternative lower-total selection give 160 generated wealth each, 44 jobs and 88 customer surplus. Concurrent cap-2 gives 163.625 each, 42 jobs and 84 customer surplus: +7.25 combined private wealth, -2 jobs and -4 customer surplus. A local lab-retention fee interval [0,1/2] is certified against every retained action at the first mixed subgame, conditional on unchanged downstream policies and prefunding. Complete dynamic parameter-region certificates and full mixed correspondence remain open.",
+  "edition": "formal-integration-mixed-continuation-v1",
   "results": {
     "concurrent_core": "Joint finite stochastic firm solved and independently replayed in 10 cases.",
     "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
@@ -363,9 +374,10 @@
     "internal_successor": "Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.",
     "staggered_window": "Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) eliminates the +23.173828125 cap-2 premium under the higher-total continuation; both choose first-generation learning. Advancing the 29 shifts another date changes the selected investment to costly outside qualification and also yields a cap-2 null. Early digital admission and alternative selection tested; concurrent inexpensive-kit diagnostic is explicitly budget-limited if unsolved.",
     "concurrent_window": "The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.",
-    "global_equilibrium_thresholds": "Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open."
+    "global_equilibrium_thresholds": "Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.",
+    "mixed_continuation": "The exclusive S=10 gap is closed by exact intermediate mixed continuation. At nine date-two public states under the higher-total pure-first rule, certified two-by-two supports replace missing pure continuations; at the first state, lab retention probabilities are 24/25 and 3/5. Exclusive cap-1/cap-2 and alternative lower-total selection give 160 generated wealth each, 44 jobs and 88 customer surplus. Concurrent cap-2 gives 163.625 each, 42 jobs and 84 customer surplus: +7.25 combined private wealth, -2 jobs and -4 customer surplus. A local lab-retention fee interval [0,1/2] is certified against every retained action at the first mixed subgame, conditional on unchanged downstream policies and prefunding. Complete dynamic parameter-region certificates and full mixed correspondence remain open."
   },
-  "last_input_main": "4f3290f668664ce940b497c0cfcb269223cd685f",
+  "last_input_main": "85ec881b7ef01c31954c64087f8ebf9457ec78f5",
   "threshold_direction": {
     "user_instruction": "I feel like we should be trying to do globally re-optimized equilibrium thresholds, even if we end up finding non-equilibria and non-linear dynamics",
     "status": "Active organizing objective; distinguish equilibrium existence, stationarity, stability and numerical convergence.",
