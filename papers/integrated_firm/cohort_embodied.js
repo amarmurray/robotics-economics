@@ -1,5 +1,5 @@
 // CPU-only exact public-state game. Run: node cohort_embodied.js
-function cohortStudy(){
+function cohortStudy({terminalProjection=false,fourDatesOnly=false,profileBudget=1800000,selectedCap=null,selectedRule=null}={}){
  const H=3,C=5,A=[18,14,14],parts=[1,2],Cbar=24,pow=h=>16**h;
  const capCash=h=>h?12+(h-1)*Cbar:0;
  const swap=m=>(m&1)|((m&2)<<1)|((m&4)>>1),pop=m=>+(!!(m&1))+(!!(m&2))+(!!(m&4));
@@ -11,12 +11,14 @@ function cohortStudy(){
   ...[0,1,2].map(cap=>({name:"four_dates_cap"+cap,T:4,B:120,K:[0,0,0,0],M:[0,0],P:0,cap})),
   ...[1,2].map(cap=>({name:"inherited_three_dates_cap"+cap,T:3,B:80,K:[0,0,1,1],M:[0,0],P:1,cap}))
  ];
- const budget=1800000;
+ const budget=profileBudget;
  function solve(c,rule,quotient=true){
   let memo=new Map(),mc=new Map(),profiles=0,dev=0;
   const S=c.M.map(m=>[...c.K,m,c.P,c.B]),sal=s=>s[0]+2*s[1];
   function canon(s,z,h){
    let a=s.slice(),b=z.slice();
+   // Terminal service and salvage ignore kits and procedure generation.
+   if(terminalProjection&&quotient&&h===1){for(const x of [a,b]){x[2]=x[3]=x[5]=0}}
    if(quotient){
     a[6]=Math.min(a[6],capCash(h));b[6]=Math.min(b[6],capCash(h));
     let x=swap(a[4]),y=swap(b[4]);if(x<a[4]||x===a[4]&&y<b[4]){a[4]=x;b[4]=y}
@@ -27,9 +29,9 @@ function cohortStudy(){
    let [ka,kb,ia,ib,m,p,B]=s,rs=[["none",0,0,0,0,-1]],bs=[["none",0,0,0,-1,0]];
    if(h>1)for(let old=0;old<=p;old++){
     for(let j=0;j<3;j++)if(!(m&(1<<j)))rs.push(["train",1,2,0,2+old,j],["contract",1,0,5,2+old,j]);
-    if(p<c.cap)rs.push(["develop",1,3,0,2+old,3],["contract_develop",1,0,6,2+old,3]);
+    if(p<c.cap&&!(terminalProjection&&quotient&&h===2&&B>=capCash(h)))rs.push(["develop",1,3,0,2+old,3],["contract_develop",1,0,6,2+old,3]);
    }
-   if(h>1&&p<c.cap)rs.push(["license",1,0,10,4,3]);
+   if(h>1&&p<c.cap&&!(terminalProjection&&quotient&&h===2&&B>=capCash(h)))rs.push(["license",1,0,10,4,3]);
    if(h>1)for(let j=0;j<2;j++)if(!s[j]){if(s[j+2])bs.push(["assemble",1,1,0,j,1]);else if(h>2)bs.push(["order",0,0,parts[j],j,0])}
    let out=new Map();
    for(let pr=0;pr<4;pr++){
@@ -126,13 +128,13 @@ function cohortStudy(){
    return {status:"solved",rule,quotient,wealth:wealth.map(x=>x/den),new_cash:cash.map(x=>x/den-c.B),salvage:salvage.map(x=>x/den),p2:p2.map(x=>x/den),root:[root.a,root.b],root_equilibria:root.n,profiles,states:memo.size,deviations:dev,dated};
   }catch(e){return {status:"open",rule,quotient,reason:String(e),profiles,states:memo.size}}
  }
- let results=cases.map(c=>({parameters:c,results:[1,-1].map(r=>solve(c,r))}));
+ let results=cases.filter(c=>!fourDatesOnly||c.T===4).filter(c=>selectedCap===null||c.cap===selectedCap).map(c=>({parameters:c,results:(selectedRule===null?[1,-1]:[selectedRule]).map(r=>solve(c,r))}));
  let checks=[];
- for(const c of cases.slice(0,4))for(let r of [1,-1]){
+ for(const c of (fourDatesOnly?[]:cases.slice(0,4)))for(let r of [1,-1]){
   let a=results.find(x=>x.parameters.name===c.name).results.find(x=>x.rule===r),b=solve(c,r,false);
   if(a.status!=="solved"||b.status!=="solved"||a.wealth.some((x,i)=>x!==b.wealth[i]))throw Error("labeled uncapped value check "+c.name+" "+r+" "+JSON.stringify([a,b]));
   checks.push({case:c.name,rule:r,quotient_profiles:a.profiles,labeled_uncapped_profiles:b.profiles,wealth:a.wealth});
  }
  return {synthetic:true,description:"One physical site and two distinct exchangeable digital sites; exact capped-cash and joint permutation quotient with binary local qualification. No scope or archive changes.",Cbar,terminal_cost_bound:12,profile_budget:budget,results,labeled_value_checks:checks};
 }
-console.log(JSON.stringify(cohortStudy(),null,2));
+if(typeof module!=="undefined"&&module.exports){module.exports={cohortStudy};if(require.main===module)console.log(JSON.stringify(cohortStudy(),null,2));}else console.log(JSON.stringify(cohortStudy(),null,2));

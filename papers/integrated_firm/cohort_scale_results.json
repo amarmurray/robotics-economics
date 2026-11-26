@@ -1,0 +1,212 @@
+{
+  "synthetic": true,
+  "profile_budget": 12000000,
+  "baseline": [
+    {
+      "cap": 0,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 636843,
+      "states": 3695,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 0,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 636843,
+      "states": 3695,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 3766620,
+      "states": 11550,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 3766620,
+      "states": 11550,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 2,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 6689725,
+      "states": 17538,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 2,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 6689725,
+      "states": 17538,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "projected": [
+    {
+      "cap": 0,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 536637,
+      "states": 1495,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 0,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 536637,
+      "states": 1495,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 2206358,
+      "states": 3142,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 1,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 2206358,
+      "states": 3142,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 2,
+      "rule": 1,
+      "status": "solved",
+      "wealth": [
+        166,
+        166
+      ],
+      "profiles": 3239595,
+      "states": 3754,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "cap": 2,
+      "rule": -1,
+      "status": "solved",
+      "wealth": [
+        166,
+        164
+      ],
+      "profiles": 3239595,
+      "states": 3754,
+      "successors": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

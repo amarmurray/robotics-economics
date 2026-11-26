@@ -54,3 +54,9 @@ The common state and resource account provide the integration architecture. The 
 ## Four-date funded embodied game
 
 [Proof and results](FUNDED_EMBODIED.md) · [Solver](funded_embodied.js) · [Results](funded_embodied_results.json). Run `node funded_embodied.js`. Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open.
+
+## November 26: terminal economic irrelevance and solved four-date cohort game
+
+Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both continuation selections: wealth (166,166) or (166,164), no successor attempts in any case. Terminal projection and funded penultimate successor dominance reduce cap-2 from 6,689,725 to 3,239,595 profiles and 17,538 to 3,754 memo states; unprojected higher-budget solve matches exact selected wealth and successor counts. Five-date batch exceeded execution limit; positive active-rival second-generation return, endogenous retention/scope and longer binding finance remain open.
+
+[Proof, exact results and falsifiers](COHORT_SCALE.md) · [Reproduction](cohort_scale.js) · [Results](cohort_scale_results.json). The projection is conditional on the selected terminal game and funding bound; binding penultimate actions remain intact. No learned-policy, empirical calibration or universal superiority claim.

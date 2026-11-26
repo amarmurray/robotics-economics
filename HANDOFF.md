@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-cohort-embodied-v1.
+Handoff ID: formal-integration-cohort-scale-v1.
+
+## Terminal projection and completed four-date cohort comparisons
+
+November 26. Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both continuation selections: wealth (166,166) or (166,164), no successor attempts in any case. Terminal projection and funded penultimate successor dominance reduce cap-2 from 6,689,725 to 3,239,595 profiles and 17,538 to 3,754 memo states; unprojected higher-budget solve matches exact selected wealth and successor counts. Five-date batch exceeded execution limit; positive active-rival second-generation return, endogenous retention/scope and longer binding finance remain open. [Proof and replication](papers/integrated_firm/COHORT_SCALE.md). Next: [endogenous evidence rights and scope](papers/integrated_firm/NEXT_QUESTION.md). All checkpoint clocks and source branches are preserved.
 
 ## Local recipient cohorts and partial funding quotient
 

@@ -122,6 +122,15 @@
         "papers/integrated_firm/cohort_embodied.js",
         "papers/integrated_firm/cohort_embodied_results.json"
       ]
+    },
+    {
+      "item": "Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both continuation selections: wealth (166,166) or (166,164), no successor attempts in any case. Terminal projection and funded penultimate successor dominance reduce cap-2 from 6,689,725 to 3,239,595 profiles and 17,538 to 3,754 memo states; unprojected higher-budget solve matches exact selected wealth and successor counts. Five-date batch exceeded execution limit; positive active-rival second-generation return, endogenous retention/scope and longer binding finance remain open.",
+      "kind": "conditional proof and exact CPU solution with matched projection check",
+      "evidence": [
+        "papers/integrated_firm/COHORT_SCALE.md",
+        "papers/integrated_firm/cohort_scale.js",
+        "papers/integrated_firm/cohort_scale_results.json"
+      ]
     }
   ],
   "tracks": [
@@ -151,7 +160,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Exploit the exact clipped-cash and joint-type quotient: replace repeated terminal profile evaluation with the terminal Cournot potential/best-response table, cache continuation kernels by labeled quantity and qualified target, and test cost dominance only with identical clipped transitions. Complete the from-zero four-date cap-0/1/2 comparison for the three-recipient economy or report the next measured budget; enlarge useful recipient opportunities and test active-rival positive cap-2 without discarding nulls. Restore endogenous archives/rights and scope via the same transition key. Complete November 27 pilot synthesis from the pinned draft at its checkpoint; preserve November 29, December 2, December 6 and December 25 gates.",
+  "next_action": "Carry the exact cohort transition into endogenous evidence rights and lab scope, retaining joint recipient types and dated resource competition. First build a minimal binary local archive/retention and lab entry/exit extension in which paid outside data and old policies remain lawful; derive the terminal equivalence projection again rather than ignoring economically relevant scope/cash. Solve matched rights/scope and cash cases, then revisit longer or larger useful-recipient cap-0/1/2 with active rival quantities using streamed per-case budgets and cached terminal best responses. Preserve the five-date timeout as open, not an economic null. Complete November 27 pilot synthesis from the pinned draft at its checkpoint; preserve November 29, December 2, December 6 and December 25 gates.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
