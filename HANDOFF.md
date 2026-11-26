@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-organizational-recursion-20261125.
+Handoff ID: recursive-firm-economic-rl-20261125.
+
+## Conditioning economic RL on the marginal product of robotic capital
+
+[What should the firm tell its agents about the next robot-hour?](research/recursive_firm/economic_rl/README.md) follows recursive-firm commit 917f5a4fa3b60caf45a57f43e717fedb0bd8903a and the autonomous-firm and generalization studies on main at f5eaf0d549a8682923026358a02d45fe0e5de8f5. The inherited stack and its operating policy condition the causal matrix of additional accepted work. Forecasts of that matrix can inform digital decision-makers. The relevant action criterion includes work displaced, subsequent learning and the claimant's dated proceeds. The new derivation gives a finite ceiling on timely, reusable discoveries from a team of agents with common errors and constrained review. A higher stake across the fleet favors whichever feasible team is more likely to qualify a successor in time.
+
+In a two-release tabular experiment the product-conditioned joint Q rule and a dynamic ordinary rule fitted to the same raw records tie across 40 independent test economies in each regime. With cross-use rights their average contribution is 9.21 in the training family, compared with 8.90 for current margin. Reversing transfer makes current margin better in all 40 worlds. A corrupted common report lets the original local instruments outperform both shared rules. Robin Table III supplies a separate four-cell physical pick comparison under two operating constraints. The RL results are synthetic, and the organizational return to actual LLM delegation remains unmeasured. [Reproduction](research/recursive_firm/economic_rl/study.py) · [Outcomes](research/recursive_firm/economic_rl/results.json)
+
+**Next discriminating test.** Separately assign forecast access, authority to change allocation, and verification capacity on a pre-admission panel. Compare an experienced hybrid team with single and coordinated agents at matched information and dated cost. Carry only the resulting research procedure into a second cohort and randomize passage of its successor to a third. Keep the matched-rule null and both transfer and reporting reversals in the November 27 pilot synthesis. The theory-week integration remains under its existing writer.
 
 ## The firm as the recursive economic object
 

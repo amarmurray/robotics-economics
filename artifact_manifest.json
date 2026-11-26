@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-organizational-recursion-20261125",
+  "snapshot_id": "recursive-firm-economic-rl-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-organizational-recursion-20261125",
-      "sha256": "65d6d9c02b08cebec32b7f6dc5d1c01094de4c076d885b2c7d769bd61c36c963"
+      "version": "recursive-firm-economic-rl-20261125",
+      "sha256": "7e5c24276b39d8bb9910e959ae017a171393f63b7ac208903d6cd95ac9ca83a1"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-organizational-recursion-20261125",
-      "sha256": "df368941074258ceaebc42f5fc20a78c7ce999c3f0897863a391fb3b3fe2b603"
+      "version": "recursive-firm-economic-rl-20261125",
+      "sha256": "3384cfeb13ce4988ca065764ff68563c62d399a5f26571355122b397b3ebfc7c"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3652,8 +3652,8 @@
       "repository_path": "research/recursive_firm/network_mpk/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/network_mpk/README.md",
       "name": "README.md",
-      "sha256": "a3a142ee88fd478d90c7f48bef79b5be1bcecb5e5cacf5d8d439d4055a49e925",
-      "version": "recursive-firm-inquiry-foundations-20261125"
+      "sha256": "7c63c3dc37de26f32f713265703eddc93604ff2399aa23b30a27695d45a3729e",
+      "version": "recursive-firm-economic-rl-20261125"
     },
     {
       "repository_path": "research/recursive_firm/network_mpk/audit_results.json",
@@ -3948,6 +3948,27 @@
       "name": "results.json",
       "version": "recursive-firm-organizational-recursion-20261125",
       "sha256": "a254dcc355c559aa187dcc84e230286ac92e25cc5e582cb65b8d788919fa30fe"
+    },
+    {
+      "repository_path": "research/recursive_firm/economic_rl/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/economic_rl/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-economic-rl-20261125",
+      "sha256": "17683b6c6b81e31b4d2c9e0a93cda09f10667b8025c182d29d433265339e59c5"
+    },
+    {
+      "repository_path": "research/recursive_firm/economic_rl/study.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/economic_rl/study.py",
+      "name": "study.py",
+      "version": "recursive-firm-economic-rl-20261125",
+      "sha256": "7bc5b2733639a0946af111b36b354ebe3af2b9c1626ce1b57df8d315b5320351"
+    },
+    {
+      "repository_path": "research/recursive_firm/economic_rl/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/economic_rl/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-economic-rl-20261125",
+      "sha256": "2db2e088f5c62979469098c8f365c6dae71a6a33f8e0d15b211f5e7f31dafd18"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4258,6 +4279,11 @@
         "paper": "research/recursive_firm/organizational_recursion/README.md",
         "model": "research/recursive_firm/organizational_recursion/reentry.py",
         "results": "research/recursive_firm/organizational_recursion/results.json"
+      },
+      "economic_rl": {
+        "paper": "research/recursive_firm/economic_rl/README.md",
+        "model": "research/recursive_firm/economic_rl/study.py",
+        "results": "research/recursive_firm/economic_rl/results.json"
       }
     }
   }

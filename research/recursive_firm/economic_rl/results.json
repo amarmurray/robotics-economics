@@ -1,0 +1,678 @@
+{
+  "total_source_episodes_per_seed": 60000,
+  "separate_calibration_episodes_per_seed": 12000,
+  "critic_and_incumbent_episodes_per_seed": 48000,
+  "reported_physical_evaluation": {
+    "source": "https://roboticsproceedings.org/rss19/p023.pdf",
+    "table": "III",
+    "total_attempts_and_failed_picks": {
+      "TopoZ-Center": [
+        1158353,
+        89378
+      ],
+      "TopoLPR-Center": [
+        1156697,
+        83535
+      ],
+      "Z-Center": [
+        1157739,
+        89866
+      ],
+      "LPR-Center": [
+        1160005,
+        72789
+      ]
+    },
+    "gain_with_topological_ordering_pp": 0.4941,
+    "gain_without_topological_ordering_pp": 1.4873,
+    "difference_in_gains_pp": 0.9932
+  },
+  "training_seeds": [
+    104,
+    205,
+    306,
+    407
+  ],
+  "independent_test_world_seeds": [
+    8400,
+    8401,
+    8402,
+    8403,
+    8404,
+    8405,
+    8406,
+    8407,
+    8408,
+    8409,
+    8410,
+    8411,
+    8412,
+    8413,
+    8414,
+    8415,
+    8416,
+    8417,
+    8418,
+    8419,
+    8420,
+    8421,
+    8422,
+    8423,
+    8424,
+    8425,
+    8426,
+    8427,
+    8428,
+    8429,
+    8430,
+    8431,
+    8432,
+    8433,
+    8434,
+    8435,
+    8436,
+    8437,
+    8438,
+    8439
+  ],
+  "both_lanes_ready_first_action_at_first_training_seed": {
+    "0": {
+      "joint_q": [
+        1,
+        1
+      ],
+      "blind_q": [
+        1,
+        1
+      ],
+      "current_margin": [
+        1,
+        1
+      ],
+      "raw_rule": [
+        1,
+        1
+      ],
+      "local_rules": [
+        1,
+        1
+      ]
+    },
+    "1": {
+      "joint_q": [
+        2,
+        2
+      ],
+      "blind_q": [
+        2,
+        2
+      ],
+      "current_margin": [
+        1,
+        1
+      ],
+      "raw_rule": [
+        2,
+        2
+      ],
+      "local_rules": [
+        2,
+        2
+      ]
+    }
+  },
+  "regimes": {
+    "training_family": {
+      "policies": {
+        "joint_q": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 9.20913,
+            "accepted_arm": 1.06036,
+            "accepted_mobile": 1.18628,
+            "qualified_procedure": 0.61423,
+            "slots_used": 3.46343
+          },
+          "break_even_grant_fee": 1.17001
+        },
+        "blind_q": {
+          "local_rights": {
+            "value": 6.15861,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 4.0
+          },
+          "cross_rights": {
+            "value": 6.91807,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 1.12989,
+            "qualified_procedure": 0.59309,
+            "slots_used": 4.0
+          },
+          "break_even_grant_fee": 0.75945
+        },
+        "current_margin": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 8.90198,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.49614,
+            "qualified_procedure": 0.25749,
+            "slots_used": 3.57857
+          },
+          "break_even_grant_fee": 0.86286
+        },
+        "raw_rule": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 9.20913,
+            "accepted_arm": 1.06036,
+            "accepted_mobile": 1.18628,
+            "qualified_procedure": 0.61423,
+            "slots_used": 3.46343
+          },
+          "break_even_grant_fee": 1.17001
+        },
+        "local_rules": {
+          "local_rights": {
+            "value": 6.63596,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.50683
+          },
+          "cross_rights": {
+            "value": 7.42581,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 1.12989,
+            "qualified_procedure": 0.59309,
+            "slots_used": 3.47348
+          },
+          "break_even_grant_fee": 0.78985
+        },
+        "world_optimum": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 9.20982,
+            "accepted_arm": 1.07187,
+            "accepted_mobile": 1.17022,
+            "qualified_procedure": 0.6062,
+            "slots_used": 3.46553
+          },
+          "break_even_grant_fee": 1.17069
+        }
+      },
+      "joint_q_minus_rival_with_cross_rights": {
+        "blind_q": {
+          "paired_mean": 2.29107,
+          "world_se": 0.0582,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "current_margin": {
+          "paired_mean": 0.30715,
+          "world_se": 0.01677,
+          "worlds_ahead": 39,
+          "worlds_behind": 1
+        },
+        "raw_rule": {
+          "paired_mean": 0.0,
+          "world_se": 0.0,
+          "worlds_ahead": 0,
+          "worlds_behind": 0
+        },
+        "local_rules": {
+          "paired_mean": 1.78333,
+          "world_se": 0.05053,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "world_optimum": {
+          "paired_mean": -0.00068,
+          "world_se": 0.00068,
+          "worlds_ahead": 0,
+          "worlds_behind": 1
+        }
+      }
+    },
+    "transfer_reversed": {
+      "policies": {
+        "joint_q": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 8.00455,
+            "accepted_arm": 1.06036,
+            "accepted_mobile": 0.94426,
+            "qualified_procedure": 0.25944,
+            "slots_used": 3.59179
+          },
+          "break_even_grant_fee": -0.03457
+        },
+        "blind_q": {
+          "local_rights": {
+            "value": 6.15861,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 4.0
+          },
+          "cross_rights": {
+            "value": 5.03834,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 0.71218,
+            "qualified_procedure": 0.06421,
+            "slots_used": 4.0
+          },
+          "break_even_grant_fee": -1.12028
+        },
+        "current_margin": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 10.0587,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.74145,
+            "qualified_procedure": 0.61618,
+            "slots_used": 3.51986
+          },
+          "break_even_grant_fee": 2.01958
+        },
+        "raw_rule": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 8.00455,
+            "accepted_arm": 1.06036,
+            "accepted_mobile": 0.94426,
+            "qualified_procedure": 0.25944,
+            "slots_used": 3.59179
+          },
+          "break_even_grant_fee": -0.03457
+        },
+        "local_rules": {
+          "local_rights": {
+            "value": 6.63596,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.50683
+          },
+          "cross_rights": {
+            "value": 5.52229,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 0.71218,
+            "qualified_procedure": 0.06421,
+            "slots_used": 3.4999
+          },
+          "break_even_grant_fee": -1.11366
+        },
+        "world_optimum": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 10.0587,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.74145,
+            "qualified_procedure": 0.61618,
+            "slots_used": 3.51986
+          },
+          "break_even_grant_fee": 2.01958
+        }
+      },
+      "joint_q_minus_rival_with_cross_rights": {
+        "blind_q": {
+          "paired_mean": 2.96622,
+          "world_se": 0.07926,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "current_margin": {
+          "paired_mean": -2.05415,
+          "world_se": 0.04719,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        },
+        "raw_rule": {
+          "paired_mean": 0.0,
+          "world_se": 0.0,
+          "worlds_ahead": 0,
+          "worlds_behind": 0
+        },
+        "local_rules": {
+          "paired_mean": 2.48226,
+          "world_se": 0.07156,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "world_optimum": {
+          "paired_mean": -2.05415,
+          "world_se": 0.04719,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        }
+      }
+    },
+    "little_joint_demand": {
+      "policies": {
+        "joint_q": {
+          "local_rights": {
+            "value": 6.52264,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.49226,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.11631
+          },
+          "cross_rights": {
+            "value": 6.21995,
+            "accepted_arm": 0.61942,
+            "accepted_mobile": 0.9924,
+            "qualified_procedure": 0.62046,
+            "slots_used": 2.72879
+          },
+          "break_even_grant_fee": -0.30269
+        },
+        "blind_q": {
+          "local_rights": {
+            "value": 3.38071,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 4.0
+          },
+          "cross_rights": {
+            "value": 3.01134,
+            "accepted_arm": 0.40079,
+            "accepted_mobile": 0.87904,
+            "qualified_procedure": 0.59839,
+            "slots_used": 4.0
+          },
+          "break_even_grant_fee": -0.36937
+        },
+        "current_margin": {
+          "local_rights": {
+            "value": 6.52264,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.49226,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.11631
+          },
+          "cross_rights": {
+            "value": 6.77031,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.51542,
+            "qualified_procedure": 0.26153,
+            "slots_used": 2.95692
+          },
+          "break_even_grant_fee": 0.24767
+        },
+        "raw_rule": {
+          "local_rights": {
+            "value": 6.52264,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.49226,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.11631
+          },
+          "cross_rights": {
+            "value": 6.21995,
+            "accepted_arm": 0.61942,
+            "accepted_mobile": 0.9924,
+            "qualified_procedure": 0.62046,
+            "slots_used": 2.72879
+          },
+          "break_even_grant_fee": -0.30269
+        },
+        "local_rules": {
+          "local_rights": {
+            "value": 4.25489,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.06589
+          },
+          "cross_rights": {
+            "value": 3.90886,
+            "accepted_arm": 0.40079,
+            "accepted_mobile": 0.87904,
+            "qualified_procedure": 0.59839,
+            "slots_used": 3.04039
+          },
+          "break_even_grant_fee": -0.34603
+        },
+        "world_optimum": {
+          "local_rights": {
+            "value": 6.52264,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.49226,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.11631
+          },
+          "cross_rights": {
+            "value": 6.77031,
+            "accepted_arm": 1.06589,
+            "accepted_mobile": 0.51542,
+            "qualified_procedure": 0.26153,
+            "slots_used": 2.95692
+          },
+          "break_even_grant_fee": 0.24767
+        }
+      },
+      "joint_q_minus_rival_with_cross_rights": {
+        "blind_q": {
+          "paired_mean": 3.20861,
+          "world_se": 0.06362,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "current_margin": {
+          "paired_mean": -0.55036,
+          "world_se": 0.01844,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        },
+        "raw_rule": {
+          "paired_mean": 0.0,
+          "world_se": 0.0,
+          "worlds_ahead": 0,
+          "worlds_behind": 0
+        },
+        "local_rules": {
+          "paired_mean": 2.31109,
+          "world_se": 0.05437,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "world_optimum": {
+          "paired_mean": -0.55036,
+          "world_se": 0.01844,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        }
+      }
+    },
+    "display_reversed": {
+      "policies": {
+        "joint_q": {
+          "local_rights": {
+            "value": 3.98531,
+            "accepted_arm": 1.13259,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 4.79121,
+            "accepted_arm": 0.74825,
+            "accepted_mobile": 0.71997,
+            "qualified_procedure": 0.40017,
+            "slots_used": 3.56652
+          },
+          "break_even_grant_fee": 0.8059
+        },
+        "blind_q": {
+          "local_rights": {
+            "value": 6.15861,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 4.0
+          },
+          "cross_rights": {
+            "value": 6.91807,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 1.12989,
+            "qualified_procedure": 0.59309,
+            "slots_used": 4.0
+          },
+          "break_even_grant_fee": 0.75945
+        },
+        "current_margin": {
+          "local_rights": {
+            "value": 3.98531,
+            "accepted_arm": 1.13259,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 4.15205,
+            "accepted_arm": 1.13259,
+            "accepted_mobile": 0.0344,
+            "qualified_procedure": 0.04343,
+            "slots_used": 3.63844
+          },
+          "break_even_grant_fee": 0.16674
+        },
+        "raw_rule": {
+          "local_rights": {
+            "value": 3.98531,
+            "accepted_arm": 1.13259,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 4.79121,
+            "accepted_arm": 0.74825,
+            "accepted_mobile": 0.71997,
+            "qualified_procedure": 0.40017,
+            "slots_used": 3.56652
+          },
+          "break_even_grant_fee": 0.8059
+        },
+        "local_rules": {
+          "local_rights": {
+            "value": 6.63596,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.0,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.50683
+          },
+          "cross_rights": {
+            "value": 7.42581,
+            "accepted_arm": 0.84173,
+            "accepted_mobile": 1.12989,
+            "qualified_procedure": 0.59309,
+            "slots_used": 3.47348
+          },
+          "break_even_grant_fee": 0.78985
+        },
+        "world_optimum": {
+          "local_rights": {
+            "value": 8.03912,
+            "accepted_arm": 1.50683,
+            "accepted_mobile": 0.31903,
+            "qualified_procedure": 0.0,
+            "slots_used": 3.65172
+          },
+          "cross_rights": {
+            "value": 9.20982,
+            "accepted_arm": 1.07187,
+            "accepted_mobile": 1.17022,
+            "qualified_procedure": 0.6062,
+            "slots_used": 3.46553
+          },
+          "break_even_grant_fee": 1.17069
+        }
+      },
+      "joint_q_minus_rival_with_cross_rights": {
+        "blind_q": {
+          "paired_mean": -2.12686,
+          "world_se": 0.08249,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        },
+        "current_margin": {
+          "paired_mean": 0.63916,
+          "world_se": 0.02149,
+          "worlds_ahead": 40,
+          "worlds_behind": 0
+        },
+        "raw_rule": {
+          "paired_mean": 0.0,
+          "world_se": 0.0,
+          "worlds_ahead": 0,
+          "worlds_behind": 0
+        },
+        "local_rules": {
+          "paired_mean": -2.6346,
+          "world_se": 0.07784,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        },
+        "world_optimum": {
+          "paired_mean": -4.41861,
+          "world_se": 0.07616,
+          "worlds_ahead": 0,
+          "worlds_behind": 40
+        }
+      }
+    }
+  }
+}

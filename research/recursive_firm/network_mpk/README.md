@@ -11,6 +11,8 @@ A hospital changes the packaging it will accept. Its supply robots can serve mor
 
 This study develops a multivariate marginal product of robotic capital, measures how a change at one firm revalues capacity at another, and tests where to buy the next piece of evidence. The main example uses digital dispatch, a packaging arm, a fulfillment robot and a hospital supply robot. It compares 96 independent synthetic economies, two supply-chain architectures and a separately priced recipient audit. The joint returns belong to the modeled technologies and markets. Public data below indicate what an empirical version could measure.
 
+The next question is what the firm should do with a forecast of this marginal product. A digital dispatcher and a release team can share the same physical estimate while taking different actions once rights, future learning and the opportunity cost of review enter. [Economic RL conditioned on the stack and its marginal products](../economic_rl/README.md)
+
 ## One unit of capital, three economic questions
 
 Let $K_i$ denote **usable service capacity** of a particular embodiment at a site and $Y_m$ completed and accepted final work for end market $m$. Digital service capacity has its own coordinate $K_d$. A unit of mobile delivery capacity and a unit of arm capacity have different physical meanings. Three quantities answer different questions.
