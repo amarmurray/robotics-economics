@@ -1,0 +1,53 @@
+{
+  "evidence_status": "synthetic exact rational enumeration; no field calibration",
+  "graph_likelihoods": {
+    "incorrect_independent_cycle_product": 1.423828125,
+    "noisy_graph_pattern_equalities": 729,
+    "overlapping_cycle_likelihood_ratio": 1.6875,
+    "perfect_graph_pattern_equalities": 729
+  },
+  "sequential_allocation": {
+    "adaptive_best_first_values_with_external": {
+      "audit": 1.09,
+      "bridge": 0.7,
+      "external_direct": 0.5
+    },
+    "adaptive_pair_net_without_external": 0.94,
+    "audit_reliability_indifference": 0.8422459893048129,
+    "best_one_slot": 0.5,
+    "gross_pair_value": 2.0,
+    "noisy_audit_first_value": 0.342,
+    "noisy_audit_reliability": 0.8,
+    "noisy_best_action": "external_direct",
+    "parameters": {
+      "audit_cost": 0.5,
+      "bridge_cost": 0.8,
+      "external_direct_cost": 19.5,
+      "ordinary_direct_reliability": 0.4,
+      "p": 0.4,
+      "source_reliability": 0.8,
+      "terminal_weight": 100.0
+    },
+    "perfect_audit_negative_action": "external_direct",
+    "perfect_audit_positive_action": "bridge",
+    "perfect_audit_positive_posterior": 0.5714285714285714,
+    "perfect_audit_positive_probability": 0.7,
+    "simultaneous_pair_net": 0.7
+  },
+  "status": "all checks passed",
+  "structural_noise_nonidentification": {
+    "observationally_equivalent_triangle_patterns": 8,
+    "world_1": {
+      "measurement_reliability": 0.5,
+      "repeat_product_expectation": 0.25,
+      "structural_reliability": 1,
+      "unobserved_relation_prediction": 0.25
+    },
+    "world_2": {
+      "measurement_reliability": 1,
+      "repeat_product_expectation": 1,
+      "structural_reliability": 0.5,
+      "unobserved_relation_prediction": 0.125
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-week-evidence-reallocation-20261125",
+  "snapshot_id": "learning-generalization-structure-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "58a940f145df848bc648898c410af73dc75f5b4405eb9ef20c0d5a2a61cb50fc"
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "f1e9c29a9d5fb32b0245da9ca01709a2550f30f0a2c99009679213c90d641555"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "56ec3c71b72f924a9ee03615f271e1dfa78ea198fa1adf2a739fbf8983357fa4"
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "e412f49fc00a7a795efd62c46087d24855505287ee31401506e583e575554e17"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3729,8 +3729,8 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "febbc2d0f8300c05e290b60161282832e4e55312504e96f745b59049e66b6381"
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "bdc548a94acd0c9aac94c34e9cca3cdd40a82fdcb61715b052717743c23c93eb"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
@@ -3785,15 +3785,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "88aadffebd014143b10871d930d76a53bacde7fc0db4b342ec481d0db8aa897a"
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "50bdceffc71e1121dcd2326a91009e5d232276e28f1531324a8553e5d1d68466"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "0c484c68aae2a581b2df597e2b117257deb207a7c0ef38e884eb4630a89fc421"
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "28cf26a4dc767870d3ad4de9356d5d61755df2ede386abae81ccde5776ab0e68"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3822,6 +3822,27 @@
       "name": "evidence_reallocation_results.json",
       "version": "theory-week-evidence-reallocation-20261125",
       "sha256": "9266e8fcbb0b8c49fc908cec26c06361c9b1f12a4b20e133ef8450c55434b798"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md",
+      "name": "LEARNING_GENERALIZATION_STRUCTURE.md",
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "1bdcdb60042d480bfa587586149d2ac9305c1d42c2c5fc19d4b0f708d1fb52d5"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/generalization_allocation.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/generalization_allocation.py",
+      "name": "generalization_allocation.py",
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "f0f181a938c7eff1ca97b3f0fa001137b8ee65daeb44792eb6d061db5371d1bf"
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/generalization_allocation_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/generalization_allocation_results.json",
+      "name": "generalization_allocation_results.json",
+      "version": "learning-generalization-structure-20261125",
+      "sha256": "4b8e443f13142a1b5c99b31c5017f7f99ff102095b0575fdb52462954c92f02c"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4094,7 +4115,8 @@
       "state": "papers/theory_week_20261125/state.json",
       "scaffold": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
       "register": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
-      "status": "active conditional theory; field validation open"
+      "status": "active conditional theory; field validation open",
+      "latest_synthesis": "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md"
     }
   }
 }

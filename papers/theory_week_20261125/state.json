@@ -7,8 +7,8 @@
   "timezone": "America/New_York",
   "parent_program_deadline": "2026-12-25T23:59:00-05:00",
   "input_commits": {
-    "main": "97c709f527e7312cc4023a3266db7753b0cdc522",
-    "research/assistant-led-expansion-20261117": "f25390d784b9721043b2eebe0eeb79b7f31f7ace",
+    "main": "e27351d38593b2b489fa6f49a752fe5433a1fa6a",
+    "research/assistant-led-expansion-20261117": "bb8d87b86d6a679e55de777c59f6e5d82e4ecb3b",
     "research/recursive-firm-theory": "ec919bd95c52521051414b5f99315854b9700879"
   },
   "writer_scope": "main: papers/theory_week_20261125; read source branches, preserve their sole-writer leases",
@@ -45,6 +45,13 @@
     {
       "item": "Reconciled theory-week navigation and state on fresh main, preserving newer manuscript and register work",
       "kind": "publication reconciliation"
+    },
+    {
+      "item": "Endogenous bridge/audit/direct experiment choice, staging, noisy graph likelihoods and structural/measurement nonidentification connected to firm scope and capital allocation",
+      "kind": "conditional derivations with exact rational synthetic validation",
+      "source": "LEARNING_GENERALIZATION_STRUCTURE.md",
+      "replication": "generalization_allocation.py",
+      "validation": "729 noisy plus 729 exact graph/sign patterns; exhaustive finite adaptive experiment program; observational equivalence"
     }
   ],
   "tracks": [
@@ -74,7 +81,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Extend effective-hour allocation to complementary/non-substitutable evidence and a retained portable reference procedure, with endogenous recipient adoption feeding back into source demand and rivals' captured continuation value. Compare fixed contingent rule and priced external experiment; use whole-program comparisons across binding regimes.",
+  "next_action": "Jointly choose the representation class or partition, measurement technology and next deployment when relations drift across hardware vintages. Solve when retained references or paid external standards improve subsequent inquiry per scarce research hour, with recipient adoption, source capacity and rival sponsorship feeding back; preserve ordinary learning, direct experiments, dated constraints and delegation.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
@@ -110,7 +117,7 @@
     "final_assessment": null
   },
   "last_notification": {
-    "key": "20261125-evidence-reallocation",
-    "content": "Shared-hour evidence substitution can reverse sign after source expansion; theory-week publication reconciled on main."
+    "key": "learning-generalization-structure-20261125",
+    "content": "Complementary transfer reach and audits generate an optimal staging problem; noisy comparisons can confound measurement with structural limits, changing the experiment investment."
   }
 }

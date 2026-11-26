@@ -1,6 +1,20 @@
 # Robotics economics — current handoff
 
-Handoff ID: theory-week-evidence-reallocation-20261125.
+Handoff ID: learning-generalization-structure-20261125.
+
+## Learning where generalization works: choosing the next deployment and test
+
+November 25, 2026, America/Chicago. [New synthesis](papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md), built on main `e27351d38593b2b489fa6f49a752fe5433a1fa6a`, production `bb8d87b86d6a679e55de777c59f6e5d82e4ecb3b`, and recursive-firm `ec919bd95c52521051414b5f99315854b9700879`. Source branches and their writing ownership are preserved.
+
+The synthesis advances the existing relation-learning and reach/coherence results to endogenous experiment choice. A connection to another context and a test of composability can each have zero standalone value but positive joint value, invalidating a generic diminishing-return ranking of deployments. Testing first can avoid paying for reach after a contradiction. The exact finite program allows ordinary learning, history-responsive choices and an external direct target experiment; the synthetic optimal increment is 1.09 versus .50 for the best direct route. Reducing audit reliability to .8 reverses the ranking. These units are illustrative, not estimated robot economics.
+
+The note derives the full noisy graph likelihood, avoiding an incorrect independence assumption for overlapping cycles. It also proves a limit to learning the structure: with only one reading per pair, structural error and measurement error enter through their product, so observationally equivalent archives can imply different true target performance. Repeated readings of a stable pair can separate these mechanisms under independent measurement noise. This gives retained reference equipment and outside standards a role in the production of transferable capability.
+
+Connections cover hardware/model/deployment scope, minimum viable learning routes, data rights, equivalent partner experiments, physical MPK versus investment value, dated capital recycling, scarce-resource displacement, shared evidence and the strong contingent-policy comparator. Bayesian adaptation alone establishes no recursive-organization or full-integration premium. Finite graph learning establishes no sustained-growth result.
+
+[CPU replication](papers/theory_week_20261125/generalization_allocation.py) uses exact rational enumeration: 729 noisy graph/sign patterns, 729 exact patterns, the complete finite experiment decision tree, and the measurement/structure equivalence. [Results](papers/theory_week_20261125/generalization_allocation_results.json) pass. Current research remains conditional theory; field identification and a full strategic equilibrium remain open.
+
+**Next question:** jointly choose the representation class or partition, measurement technology and next deployment when relations drift across hardware vintages. Determine when a retained reference or paid external standard improves the next investigation per scarce research hour, allowing recipient adoption and rival sponsorship to feed back into source work. Preserve dated constraints and the option to delegate. The existing theory-week and December 25 clocks remain unchanged; no new schedules or workers were created.
 
 ## Theory-week synthesis: when better source execution teaches the recipient less
 
