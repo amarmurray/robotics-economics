@@ -1,8 +1,14 @@
 # Recursive Firm Theory
 
+## From recursive self-improvement to the recursive firm
+
+Recursive self-improvement asks whether a system can improve the means of making its next improvement. Language-model researchers have studied agents that revise the code used for their own subsequent experiments. Put one of those agents inside a robotics business and a wider choice appears. The firm can train the agent, change what a robot senses, give a technician time to investigate, or use that hour to complete a paid order. Each decision changes what the next round inherits. [STOP](https://www.microsoft.com/en-us/research/publication/self-taught-optimizer-stop-recursively-self-improving-code-generation/) · [AIDE²](https://arxiv.org/abs/2609.26457)
+
+**A recursive firm uses its means of production to change how it selects, produces and deploys its future means of production.** Models, data capital, physical robots and human expertise all enter. The firm is the relevant economic unit where it can redirect those means, carry the resulting procedure across deployments and finance its next use. It can do so with the same underlying model. When a supplier controls revisions and only the customer can observe the outcome, the feedback can extend across several firms. [Read the theory, its empirical test and the state of the roadmap](organizational_recursion/README.md)
+
 ## Why the next deployment depends on the last one
 
-A firm that puts a robot to work chooses where to produce and where to learn. A dispatcher can route a difficult parcel to a person, an arm can attempt it, and a mobile carrier can determine whether the order arrives on time. Each route leaves different evidence. The people who can observe the failure, change the machine, and collect the savings may work for different firms. **Recursive Firm Theory asks when organizing these decisions today makes the firm better at choosing what to learn or where to deploy tomorrow.**
+A dispatcher can route a difficult parcel to a person, an arm can attempt it, and a mobile carrier can determine whether the order arrives on time. Each route leaves different evidence. The economic question is when organizing these decisions today changes what the firm can learn or where it can deploy tomorrow. A method that resolves more of today's problems can leave fewer discoveries that qualify for use elsewhere. The [successor-procedure result](organizational_recursion/README.md#a-better-improver-for-which-generation) derives when that tradeoff changes the research program and another firm's next installation.
 
 The scarce inputs are people’s time, physical equipment, compute, validation capacity and the right to act before work is due. A qualified method can serve more than one deployment. This gives a site value as a **source** of an otherwise missed discovery and as a **recipient** with work on which to use it. An operator can build a third asset if its experience improves the **procedure** it takes to an unfamiliar site. We compare each effect with the best feasible incumbent team, including ordinary learning and local specialization.
 
@@ -12,6 +18,7 @@ Start with [How firms learn what to test](inquiry/README.md) for the firm’s ca
 
 | Question | What would count as evidence? | Where to read next |
 |---|---|---|
+| Did the firm produce a better way to improve? | With the same executor and ordinary learning, carry only the investigation procedure to fresh work. Then vary passage of the new procedure it produces to a third cohort. | [Three-cohort test and roadmap](organizational_recursion/README.md#evidence-and-the-next-discriminating-test) |
 | What is the least stack that can sustain a service through change? | Follow the same job and revision across layers. Vary partner rights, reserved capacity and time to re-enter across firms with different initial assets. | [Minimum viable structures and boundary dynamics](stack_profile/README.md#a-minimum-viable-stack-is-a-frontier) |
 | Which sites should a learning fleet combine? | In the same source-access experiment, change the work eligible to receive a correction. The interaction distinguishes duplicate discoveries from evidence that must be combined. | [Deployment portfolio and falsification test](inquiry/deployment_portfolio/README.md#the-test-that-would-distinguish-the-mechanisms) |
 | Does deployment teach a reusable way to investigate? | On unfamiliar jobs a carried procedure changes which fresh test runs, at matched hardware, information and review cost. | [Foundations and the field test](inquiry/README.md#the-test-the-theory-should-face) |

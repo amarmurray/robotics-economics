@@ -1,0 +1,664 @@
+{
+  "successor_routines": {
+    "0": {
+      "broad": {
+        "current_net": 2.0,
+        "with_successor_option": 2.0
+      },
+      "focused": {
+        "current_net": 4.4,
+        "with_successor_option": 4.4
+      },
+      "focused_minus_broad_current": 2.4,
+      "focused_minus_broad_total": 2.4,
+      "effect_on_value_of_passing_successor": 0.0
+    },
+    "8": {
+      "broad": {
+        "current_net": 2.0,
+        "with_successor_option": 4.54
+      },
+      "focused": {
+        "current_net": 4.4,
+        "with_successor_option": 5.12
+      },
+      "focused_minus_broad_current": 2.4,
+      "focused_minus_broad_total": 0.58,
+      "effect_on_value_of_passing_successor": -1.82
+    },
+    "16": {
+      "broad": {
+        "current_net": 2.0,
+        "with_successor_option": 7.58
+      },
+      "focused": {
+        "current_net": 4.4,
+        "with_successor_option": 6.64
+      },
+      "focused_minus_broad_current": 2.4,
+      "focused_minus_broad_total": -0.94,
+      "effect_on_value_of_passing_successor": -3.34
+    }
+  },
+  "recipient_feedback": {
+    "no_return_right": {
+      "users_if_method_qualifies": 2,
+      "new_machines_if_method_qualifies": 1,
+      "usable_return_trace_probability_if_installed": 0.0,
+      "source_stakes_at_generation_three": 8.0,
+      "chosen_program": "focused",
+      "current_resolution_probability": 0.8,
+      "expected_induced_machines": 0.2
+    },
+    "licensed_and_informative_half_the_time": {
+      "users_if_method_qualifies": 2,
+      "new_machines_if_method_qualifies": 1,
+      "usable_return_trace_probability_if_installed": 0.5,
+      "source_stakes_at_generation_three": 16.0,
+      "chosen_program": "broad",
+      "current_resolution_probability": 0.5,
+      "expected_induced_machines": 0.4
+    }
+  },
+  "reentry": {
+    "one_release": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "both"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "both"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": 0.4688,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 4.4688,
+          "anticipated_net_gain": 5.4688,
+          "net_gain_over_ordinary": 5.4688
+        }
+      }
+    },
+    "two_releases": {
+      "lag": 2,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "both"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "both"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -0.863632,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 3.136368,
+          "anticipated_net_gain": 4.136368,
+          "net_gain_over_ordinary": 4.136368
+        }
+      }
+    },
+    "five_releases": {
+      "lag": 5,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "reference"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "reference"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -3.166961061232,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.833038938768,
+          "anticipated_net_gain": 1.833038938768,
+          "net_gain_over_ordinary": 1.833038938768
+        }
+      }
+    },
+    "rights_expire": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.0,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "reference"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "reference"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -4.0,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 1.0,
+          "net_gain_over_ordinary": 1.0
+        }
+      }
+    },
+    "quarter_claim": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 6.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "fallback",
+      "chosen_at_planning_law": [
+        "reference"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "reference"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -3.3008,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.6992,
+          "anticipated_net_gain": 1.6992,
+          "net_gain_over_ordinary": 1.6992
+        }
+      }
+    },
+    "routine_matches_procedure": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "reference"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "reference"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -4.0,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "local_specialist",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "local_specialist",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "local_specialist",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "local_specialist",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 1.0,
+          "net_gain_over_ordinary": 1.0
+        }
+      }
+    },
+    "unannounced_reversal": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": -0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "both"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "reference"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": -11.2048,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": -7.2048,
+          "anticipated_net_gain": 5.4688,
+          "net_gain_over_ordinary": -6.2048
+        }
+      }
+    },
+    "anticipated_reversal": {
+      "lag": 1,
+      "assumed_persistence": -0.8,
+      "actual_persistence": -0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 0,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "both"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "both"
+      ],
+      "operating_interaction": -4,
+      "net_interaction": 0.4688,
+      "programs": {
+        "ordinary": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 4,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 3.0,
+          "net_gain_over_ordinary": 3.0
+        },
+        "reserved_revision": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 2.0,
+          "net_gain_over_ordinary": 2.0
+        },
+        "both": {
+          "ready_at": 1,
+          "incremental_current_orders": 2,
+          "current_operating_contribution": 6,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.8,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 4.4688,
+          "anticipated_net_gain": 5.4688,
+          "net_gain_over_ordinary": 5.4688
+        }
+      }
+    },
+    "two_day_tooling_delay": {
+      "lag": 1,
+      "assumed_persistence": 0.8,
+      "actual_persistence": 0.8,
+      "claim": 24.0,
+      "retention": 0.8,
+      "extra_delay": 2,
+      "target_ordinary_rule": "local_specialist",
+      "chosen_at_planning_law": [
+        "ordinary",
+        "both"
+      ],
+      "best_in_hindsight_among_scored_programs": [
+        "ordinary",
+        "both"
+      ],
+      "operating_interaction": 5,
+      "net_interaction": 5.0,
+      "programs": {
+        "ordinary": {
+          "ready_at": 8,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 0,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        },
+        "reference": {
+          "ready_at": 6,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 2,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": -2.0,
+          "net_gain_over_ordinary": -2.0
+        },
+        "reserved_revision": {
+          "ready_at": 5,
+          "incremental_current_orders": 0,
+          "current_operating_contribution": 0,
+          "standing_cost": 3,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": -3.0,
+          "net_gain_over_ordinary": -3.0
+        },
+        "both": {
+          "ready_at": 3,
+          "incremental_current_orders": 1,
+          "current_operating_contribution": 5,
+          "standing_cost": 5,
+          "probability_of_retained_procedure": 0.0,
+          "target_choice_if_procedure_available": "carried_test_selector",
+          "discounted_target_gain_over_ordinary": 0.0,
+          "anticipated_net_gain": 0.0,
+          "net_gain_over_ordinary": 0.0
+        }
+      }
+    }
+  },
+  "independent_synthetic_panels": {
+    "one_release": {
+      "worlds": 64,
+      "cohorts_per_world": 600,
+      "first_seed": 26000,
+      "mean_interaction": 0.5756,
+      "monte_carlo_se_across_world_means": 0.0618
+    },
+    "two_releases": {
+      "worlds": 64,
+      "cohorts_per_world": 600,
+      "first_seed": 26100,
+      "mean_interaction": -0.9211,
+      "monte_carlo_se_across_world_means": 0.0673
+    },
+    "unannounced_reversal": {
+      "worlds": 64,
+      "cohorts_per_world": 600,
+      "first_seed": 26200,
+      "mean_interaction": -11.2396,
+      "monte_carlo_se_across_world_means": 0.0636
+    },
+    "quarter_claim": {
+      "worlds": 64,
+      "cohorts_per_world": 600,
+      "first_seed": 26300,
+      "mean_interaction": -3.3068,
+      "monte_carlo_se_across_world_means": 0.0094
+    }
+  }
+}

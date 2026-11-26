@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: recursive-firm-stack-profile-20261125.
+Handoff ID: recursive-firm-organizational-recursion-20261125.
+
+## The firm as the recursive economic object
+
+The [branch introduction](research/recursive_firm/README.md) now starts with recursive self-improvement in AI and develops the firm as the unit that can choose, retain and finance changes to its own means of production. [From recursive self-improvement to the recursive firm](research/recursive_firm/organizational_recursion/README.md) integrates branch ec919bd95c52521051414b5f99315854b9700879 with the [theory-week synthesis](https://github.com/amarmurray/robotics-economics/blob/e27351d38593b2b489fa6f49a752fe5433a1fa6a/papers/theory_week_20261125/EVIDENCE_REALLOCATION.md). The new restriction separates current research resolution from the yield of independent successor procedures. Downstream entry, equipment margins and the right to a useful return observation can change which program the source undertakes.
+
+The dated re-entry extension crosses reference coverage with reserved revision capacity. In the constructed one-release regime their interaction is negative on current work and positive including the carried method. An unanticipated convention reversal makes the ordinary specialist valuable. At two releases the interaction is negative while retaining both rights still maximizes value. The [replication](research/recursive_firm/organizational_recursion/reentry.py) uses exact states and independent synthetic panels. Public RSI and robot evaluations establish narrower technical effects. No field estimate of the organizational return is available.
+
+**Next discriminating test.** Give ordinary teams the matched raw archive, preserve model and resource controls, and transplant only the organizational procedure. Then vary passage of the successor produced on a second independent cohort to a third. At the November 27 pilot checkpoint retain both the successful benchmark transfers and the reversals under strong incumbents, delays and changed recipient regimes. The December 2 integration remains under its existing writer.
 
 ## Degrees and minimum viability of the recursive stack
 

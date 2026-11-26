@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "recursive-firm-stack-profile-20261125",
+  "snapshot_id": "recursive-firm-organizational-recursion-20261125",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "recursive-firm-stack-profile-20261125",
-      "sha256": "1496cdc0907da4f8ab0b5385421f71276df0b273640c09c0cd33b6cd3d76c6a4"
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "65d6d9c02b08cebec32b7f6dc5d1c01094de4c076d885b2c7d769bd61c36c963"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "version": "recursive-firm-stack-profile-20261125",
-      "sha256": "7ee55ee22330cab81efbe7287f5cda5518549e419db9d8ca7f5877c7e50a4d21"
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "df368941074258ceaebc42f5fc20a78c7ce999c3f0897863a391fb3b3fe2b603"
     },
     {
       "repository_path": "research/recursive_firm/counterworld.mjs",
@@ -3911,8 +3911,8 @@
       "repository_path": "research/recursive_firm/stack_profile/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/stack_profile/README.md",
       "name": "README.md",
-      "version": "recursive-firm-stack-profile-20261125",
-      "sha256": "54a3aef7ebc548ef9790b80e433d240bed69af0dfca70a2ae0481f56fa23a32b"
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "cbb742fcf4ab9dc43918e71d96caabd4e20281a40a55b319b1e59af1caad20cb"
     },
     {
       "repository_path": "research/recursive_firm/stack_profile/model.py",
@@ -3927,6 +3927,27 @@
       "name": "results.json",
       "version": "recursive-firm-stack-profile-20261125",
       "sha256": "958f34aae350077abdc66cd7e8513f4f78ebbbc0150ed74a4f8116ec9aa927a0"
+    },
+    {
+      "repository_path": "research/recursive_firm/organizational_recursion/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/organizational_recursion/README.md",
+      "name": "README.md",
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "fd39a3d279d8ef5ce51c05e2802b63a1135270025c7e4c94fa0ab2fc76b3fb80"
+    },
+    {
+      "repository_path": "research/recursive_firm/organizational_recursion/reentry.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/organizational_recursion/reentry.py",
+      "name": "reentry.py",
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "1dc23a64157feb07a80a1368f824293e345f7ccdf1aeaa755f40264e0a4d4b23"
+    },
+    {
+      "repository_path": "research/recursive_firm/organizational_recursion/results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/organizational_recursion/results.json",
+      "name": "results.json",
+      "version": "recursive-firm-organizational-recursion-20261125",
+      "sha256": "a254dcc355c559aa187dcc84e230286ac92e25cc5e582cb65b8d788919fa30fe"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4232,6 +4253,11 @@
         "paper": "research/recursive_firm/stack_profile/README.md",
         "model": "research/recursive_firm/stack_profile/model.py",
         "results": "research/recursive_firm/stack_profile/results.json"
+      },
+      "organizational_recursion": {
+        "paper": "research/recursive_firm/organizational_recursion/README.md",
+        "model": "research/recursive_firm/organizational_recursion/reentry.py",
+        "results": "research/recursive_firm/organizational_recursion/results.json"
       }
     }
   }
