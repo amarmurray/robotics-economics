@@ -1,0 +1,102 @@
+{
+  "checks": 49264,
+  "cases": 49247,
+  "ordinary": [
+    {
+      "x": 1,
+      "y": 1,
+      "A": 0.375,
+      "B": 0.375,
+      "awards": 0.75,
+      "uA": 1,
+      "uB": 0.5,
+      "real": 6.25
+    }
+  ],
+  "exclusive": [
+    {
+      "x": 1,
+      "y": 0,
+      "A": 0.7,
+      "B": 0,
+      "awards": 0.7,
+      "uA": 5.5,
+      "uB": 0,
+      "real": 5.5
+    }
+  ],
+  "broadcastCommon": [
+    {
+      "x": 0,
+      "y": 1,
+      "A": 0,
+      "B": 0.7,
+      "awards": 0.7,
+      "uA": 0,
+      "uB": 5,
+      "real": 9.2
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "A": 0.7,
+      "B": 0,
+      "awards": 0.7,
+      "uA": 5.5,
+      "uB": 0,
+      "real": 5.5
+    },
+    {
+      "x": 0.7142857142857143,
+      "y": 0.7857142857142857,
+      "A": 0.3035714285714286,
+      "B": 0.35357142857142854,
+      "awards": 0.6571428571428571,
+      "uA": 1.5860328923216522e-16,
+      "uB": -3.489272363107635e-16,
+      "real": 6.05
+    }
+  ],
+  "broadcastIndependent": [
+    {
+      "x": 1,
+      "y": 1,
+      "A": 0.45499999999999996,
+      "B": 0.45499999999999996,
+      "awards": 0.9099999999999999,
+      "uA": 0.5999999999999996,
+      "uB": 0.09999999999999964,
+      "real": 8.329999999999998
+    }
+  ],
+  "priceCases": [
+    {
+      "outside": 0.5,
+      "cap": 0.5,
+      "price": null,
+      "chosen": "outside",
+      "externalMargin": 0
+    },
+    {
+      "outside": 2,
+      "cap": 2,
+      "price": 1.2,
+      "chosen": "external",
+      "externalMargin": 0.3999999999999999
+    },
+    {
+      "outside": 8,
+      "cap": 4.5,
+      "price": 1.2,
+      "chosen": "external",
+      "externalMargin": 0.3999999999999999
+    }
+  ],
+  "source": {
+    "old": 0.1999999999999999,
+    "mapped": 1.6000000000000003,
+    "directSubstitute": 0,
+    "cost": 0.8
+  },
+  "scope": "Synthetic finite posterior/entry enumeration; no empirical calibration or full CI"
+}
