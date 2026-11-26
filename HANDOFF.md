@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-funded-embodied-v1.
+Handoff ID: formal-integration-cohort-embodied-v1.
+
+## Local recipient cohorts and partial funding quotient
+
+November 26. A joint qualification mask with one physical and two separate digital recipient markets preserves overlap; exact cash clipping works even with binding cash under a specified quotient-based equilibrium selection. 14/18 primary cases solved; eight labeled, uncapped, distinct-cost checks agree on private wealth. Funded split vs overlapping qualifications raises combined wealth 224→228 at the same eight accepted jobs and customer surplus 12 (highest-total selection); at B=7 the comparison is 72→74, with both firms' qualified counts unchanged and active financing. Three-date inherited psi=1 cap-1/2 remains a matched null (118,118); from-zero four-date cap-0 solves, cap-1/2 reach the 1.8m profile budget, not an economic null. [Proof and solved cases](papers/integrated_firm/COHORT_EMBODIED.md). Next: [scale the exact cohort game](papers/integrated_firm/NEXT_QUESTION.md).
 
 ## Four-date funded embodied continuation
 

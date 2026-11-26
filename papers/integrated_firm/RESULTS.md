@@ -147,3 +147,7 @@ Concurrent embodied competitive game: paid kits, delayed assembly, installed arm
 | qualified_procedure | 58 → 56 | 7.5 → 10 | 10.5 → 20 |
 | qualified_procedure_cap2 | 58 → 56 | 7.5 → 10 | 10.5 → 20 |
 | procure_low_parts_cost | 81 → 86 | 8.125 → 8 | 14.375 → 12 |
+
+## November 26: local recipient cohorts and exact bounded cash
+
+A joint qualification mask with one physical and two separate digital recipient markets preserves overlap; exact cash clipping works even with binding cash under a specified quotient-based equilibrium selection. 14/18 primary cases solved; eight labeled, uncapped, distinct-cost checks agree on private wealth. Funded split vs overlapping qualifications raises combined wealth 224→228 at the same eight accepted jobs and customer surplus 12 (highest-total selection); at B=7 the comparison is 72→74, with both firms' qualified counts unchanged and active financing. Three-date inherited psi=1 cap-1/2 remains a matched null (118,118); from-zero four-date cap-0 solves, cap-1/2 reach the 1.8m profile budget, not an economic null. [Derivation, technology, exact results and falsifiers](COHORT_EMBODIED.md). Unlike the prior fully funded quotient, partial cash clipping preserves binding states and retains cost differences there. The digital level-2 shared controller is not retained in the binary local qualification restriction. No new RL training or actual calibration.
