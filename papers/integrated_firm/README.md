@@ -2,6 +2,12 @@
 
 The main result is a solved finite firm in which accepted service, digital/human execution, retained evidence, learning, procedure development, hardware and internal scope compete for one dated resource and cash account. A recipient-cohort restriction solves two generations of procedure improvement with the payoff derived from the same production technology. A two-firm restriction solves product-market competition and first-period research under disclosed continuation-equilibrium selections.
 
+## Globally reoptimized equilibrium thresholds
+
+Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.
+
+[Formal framework, exact transition and limitations](GLOBAL_EQUILIBRIUM_THRESHOLDS.md) · [Solver](global_thresholds.js) · [Results](global_thresholds_results.json). Reproduce: `node global_thresholds.js --reproduce all`.
+
 ## Read the economic argument
 
 1. [UNIFIED_MODEL.md](UNIFIED_MODEL.md): common primitives, timing, production, learning, digital stocks/flows, cash, value and the source-to-core crosswalk.
@@ -88,3 +94,4 @@ Nineteen exact service-window games separate execution qualification from intern
 The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.
 
 [Derivation and exact comparisons](CONCURRENT_WINDOW.md) · [Reproduction](concurrent_window.js) · [Results](concurrent_window_results.json). Fixed-program private break-even at nine later shifts, not a globally reoptimized threshold. The later accepted-output frontier is unchanged, yet qualified execution reduces complementary resource use. No empirical estimate.
+

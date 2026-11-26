@@ -139,3 +139,20 @@ Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) elimin
 The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.
 
 [Derivation and exact comparisons](CONCURRENT_WINDOW.md) · [Reproduction](concurrent_window.js) · [Results](concurrent_window_results.json). Fixed-program private break-even at nine later shifts, not a globally reoptimized threshold. The later accepted-output frontier is unchanged, yet qualified execution reduces complementary resource use. No empirical estimate.
+
+
+
+## November 26: globally reoptimized threshold regions
+
+Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open.
+
+| Claim | Status | Boundary |
+| --- | --- | --- |
+| Integer adoption transition S=8/9/10 | Established in the finite concurrent game under both tested pure continuation rules and caps | Product prices respond; input prices and entry are not fully endogenous |
+| Mixed adoption at S=9 | Exact root support and all 92 retained-action deviations verified; forward accounting replayed | Pure selected continuations; no general intermediate mixed solver |
+| Fixed-profile affine equilibrium region | Proved with finite state/actions, fixed transitions/menus and affine rewards | Selected region may be disconnected; parameter-dependent transitions need new analysis |
+| Diagnostic fractional thresholds 272/33 and 304/33 | Exact for the two-program diagnostic | Not full-game continuous certificates; adaptive off-path continuations differ at S=7/8 |
+| Exclusive S=10 comparator | Open: no pure equilibrium in a tested off-path continuation subgame | No claim of absence of mixed or dynamic equilibrium; no comparative premium reported |
+| Long-run nonlinear dynamics and stability | Defined research target | Finite four-block solution establishes neither cycles nor asymptotic instability |
+
+Evidence: [theory and derivation](GLOBAL_EQUILIBRIUM_THRESHOLDS.md), [code](global_thresholds.js), [results](global_thresholds_results.json). All seven integration obligations and original milestone clocks remain active.

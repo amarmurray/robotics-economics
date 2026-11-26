@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-concurrent-window-v1
+Handoff ID: formal-integration-global-thresholds-v1
+
+## Globally reoptimized equilibrium thresholds and mixed adoption
+
+November 26. Globally reoptimized integer threshold mapping in the accepted four-block economy: balanced later service windows give no selected learning through S=8, two asymmetric pure root equilibria at S=9, and bilateral learning at S=10. The boundary cases agree under cap-1/cap-2 and higher/lower-total pure continuation selections. At S=9 an exact symmetric mixed root uses research probability 25/32 each, checks all 92 retained actions per firm with zero regret, and passes forward dated accounting. The exclusive S=10 comparison reaches an off-path subgame without a pure equilibrium under its chosen continuations; mixed continuation remains open. A fixed-profile affine incentive-region theorem and selection counterexample are proved; the diagnostic fractional crossings are not promoted to full-game thresholds. All 56 result records (51 distinct solves) replay exactly; 33/34 primary comparisons solve and one remains explicitly open. [Theory, proof and exact computations](papers/integrated_firm/GLOBAL_EQUILIBRIUM_THRESHOLDS.md). The current user direction prioritizes equilibrium regions and their induced dynamics. Next: Make globally reoptimized equilibrium regions the organizing target. Next implement exact parameter-region incentive certificates and propagate mixed continuations at intermediate subgames, beginning with the exclusive S=10 gap. Retain ordinary contingent learning, outside research, hardware, rights, scope and dated resources. Separate equilibrium eligibility from selection, and test all off-path deviations. Then vary service timing, qualification/transfer probabilities and costs, and test within-block contingent learning against the mapped regions. Binding finance, directed archives, common latent reports and input-market closure remain cumulative extensions. Long-run stability requires a solved repeated/infinite-horizon economy and its economic transition law; solver failure, missing pure equilibria and nonlinear nonstationarity are distinct. Preserve November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.
 
 ## Concurrent manufacturing and the cost return to learning
 
@@ -1308,3 +1312,4 @@ Immediate execution follows the current edition 0.16 checklist above, preserving
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
 Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly, preserve the original elapsed-time window as historical, and date later continuation separately.
+
