@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "program": "roboecon-formal-integration",
+  "status": "active",
+  "authorization": "Amar: Attack 1–7 systematically; connections, solved models and a solved unified model; work continuously.",
+  "input_commits": {
+    "main": "f5eaf0d549a8682923026358a02d45fe0e5de8f5",
+    "production": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
+    "recursive": "af1cabb95772524db1b34dda3b2667a54c203b43"
+  },
+  "milestones": {
+    "theory_week_start": "2026-11-25T10:49:19-05:00",
+    "theory_week_deadline": "2026-12-02T10:49:19-05:00",
+    "contribution_gate": "2026-12-06",
+    "program_deadline": "2026-12-25T23:59:00-05:00"
+  },
+  "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
+  "lease": {
+    "status": "active",
+    "run_id": "formal-integration-20261126T0520Z",
+    "acquired_at": "2026-11-26T05:20:00Z",
+    "expires_at": "2026-11-26T06:50:00Z"
+  },
+  "obligations": {
+    "1": {
+      "status": "active",
+      "evidence": []
+    },
+    "2": {
+      "status": "active",
+      "evidence": []
+    },
+    "3": {
+      "status": "active",
+      "evidence": []
+    },
+    "4": {
+      "status": "active",
+      "evidence": []
+    },
+    "5": {
+      "status": "active",
+      "evidence": []
+    },
+    "6": {
+      "status": "active",
+      "evidence": []
+    },
+    "7": {
+      "status": "active",
+      "evidence": []
+    }
+  },
+  "next_action": "Specify and solve the common finite firm, with one resource/cash account, digital stocks and flows, production-generated evidence, qualified learning, successor research procedures and hardware/scope decisions.",
+  "completion": "Not complete; ongoing integration with explicit scientific gates."
+}
