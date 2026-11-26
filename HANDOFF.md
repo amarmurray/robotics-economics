@@ -1,6 +1,24 @@
 # Robotics economics — current handoff
 
-Handoff ID: learning-generalization-structure-20261125.
+Handoff ID: formal-integration-v1.
+
+## Formal integration: one firm, one economic account
+
+[The unified model](papers/integrated_firm/UNIFIED_MODEL.md) now specifies and solves a finite firm whose accepted physical/digital service, human/agent recipes, production-generated evidence, training, inquiry, research procedures, hardware, lab scope and cash share one dated account. [Computed results](papers/integrated_firm/RESULTS.md) distinguish new cash from principal and equipment salvage. The source-to-core crosswalk preserves the assumptions of the existing graph, design, capital-propagation and recursive studies. Main input was f5eaf0d549a8682923026358a02d45fe0e5de8f5; production input 8dba84f45e18fe5896e75cd9a98539e4b87a83fb; recursive input af1cabb95772524db1b34dda3b2667a54c203b43, including its latest Economic RL result.
+
+The four-period baseline chooses cross-domain training followed by lab exit and generates 26.5125 cash ticks, versus 26.0625 without training/procedure learning. Increasing initial cash from 12 to 18 raises value while changing the first action to current service without research. A qualified entrant builds an arm, raising generated cash from 42 to 51 plus one salvage tick. A separate admitted-workflow regime starts without archives, pays for ordinary-service case retention, then trains when the case arrives; its retention right adds 0.109375 ticks after reoptimization against paid outside data.
+
+[Successor procedures](papers/integrated_firm/SUCCESSOR_PROCEDURES.md) enlarge the set of distinct recipient tasks while deriving their operating payoff from the same production recipes. The eight-period qualification gain is exactly 3841/128. With eight targets and 16 research windows, a second procedure raises incremental net value from 173.3710 to 179.9733. It is developed using the first procedure on most paths, with a guaranteed external license used on a small subset. A two-target economy trains directly. This is a staged, sufficiently funded, independent-market restriction; no indefinite growth claim follows.
+
+The two-firm extension solves service and first-period research under common prices and conditional correlation through the transfer regime. The matched reviewed-research economy chooses no research; reducing the declared research coordination/compute requirements makes both firms train. The joint private cash-flow gain is 0.1875 ticks in that matched comparison. Two continuation tie-breaks expose rather than hide equilibrium selection. Physical MPK, private capital value and liquidity premium remain separate.
+
+[Ten propositions and boundaries](papers/integrated_firm/PROPOSITIONS.md) cover cash telescoping, optional-policy preservation, information value, reward shaping, local sensitivity, global adaptation, endogenous successor value, coordination and the terminal Cournot potential. The [claim ledger](papers/integrated_firm/CLAIM_LEDGER.md) maps all seven obligations. No new actual LLM training, industrial calibration or general-equilibrium solution is asserted.
+
+**Validation:** independent reconstruction of 7,434 joint kernels and optimal-policy cash/belief replay; exact rational agreement on 18 cohort cases; exhaustive reported equilibrium deviations and terminal potential checks. Published-source replay is pending as the final publication gate; the single integration writer's lease remains active until that gate completes.
+
+**Continuous execution:** the existing hourly task 6afbe6a5ebf88191a11858bf26241c98 is now the sole formal-integration writer. The separate recursive and theory-week scheduled writers are paused, with their intellectual obligations and original milestones transferred to this task. The November 25–December 2 week, December 6 contribution gate and Christmas deadline are preserved. Source branches remain preserved, without a bulk merge.
+
+**Next cumulative question:** [restore shared resources and competitive recipient continuation while retaining enough tasks for second-generation procedure improvement](papers/integrated_firm/NEXT_QUESTION.md). Prove any count aggregation, retain the common posterior, and derive the recipient payoff in the coupled program. A capable ordinary contingent organization and paid equivalent contracts remain required comparators.
 
 ## Learning where generalization works: choosing the next deployment and test
 

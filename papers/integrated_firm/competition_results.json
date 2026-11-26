@@ -1,0 +1,1760 @@
+{
+  "symmetric_low_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      119,
+      119
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      86,
+      86
+    ],
+    "terminal_games_solved": 10552,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          19.0,
+          21.0
+        ],
+        "net_wealth_including_salvage": [
+          7.0,
+          9.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          19.0,
+          21.0
+        ],
+        "net_wealth_including_salvage": [
+          7.0,
+          9.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          20.0,
+          20.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 3,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then low_indices."
+  },
+  "inherited_digital_lead_low_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 1,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      224,
+      119
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      130,
+      86
+    ],
+    "terminal_games_solved": 14206,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 9,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 9,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 10,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 10,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 4,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then low_indices."
+  },
+  "symmetric_high_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      119,
+      119
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      86,
+      86
+    ],
+    "terminal_games_solved": 10552,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          20.0,
+          20.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          21.0,
+          19.0
+        ],
+        "net_wealth_including_salvage": [
+          9.0,
+          7.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          21.0,
+          19.0
+        ],
+        "net_wealth_including_salvage": [
+          9.0,
+          7.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 3,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then high_indices."
+  },
+  "inherited_digital_lead_high_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 1,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 0,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 12,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      224,
+      119
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      130,
+      86
+    ],
+    "terminal_games_solved": 14206,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 9,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 9,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 10,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 10,
+            "human": 3,
+            "tokens": 2,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.25,
+          18.499999999999996
+        ],
+        "net_wealth_including_salvage": [
+          15.25,
+          6.4999999999999964
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 4,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then high_indices."
+  },
+  "prefunded_reviewed_research_low_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      300,
+      300
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      263,
+      263
+    ],
+    "terminal_games_solved": 46724,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          25.0,
+          27.0
+        ],
+        "net_wealth_including_salvage": [
+          7.0,
+          9.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          25.0,
+          27.0
+        ],
+        "net_wealth_including_salvage": [
+          7.0,
+          9.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.0,
+          26.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.0,
+          26.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 4,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then low_indices."
+  },
+  "automated_research_low_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 1,
+      "procedure_tokens": 1,
+      "research_human": 0,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      474,
+      474
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      375,
+      375
+    ],
+    "terminal_games_solved": 76900,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 1,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 4,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          25.500000000000004,
+          26.6875
+        ],
+        "net_wealth_including_salvage": [
+          7.5000000000000036,
+          8.6875
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 4,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 1,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.5,
+          25.6875
+        ],
+        "net_wealth_including_salvage": [
+          8.5,
+          7.6875
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 2,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then low_indices."
+  },
+  "prefunded_reviewed_research_high_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 2,
+      "procedure_tokens": 3,
+      "research_human": 1,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      300,
+      300
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      263,
+      263
+    ],
+    "terminal_games_solved": 46724,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.0,
+          26.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.0,
+          26.0
+        ],
+        "net_wealth_including_salvage": [
+          8.0,
+          8.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 7,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.0,
+          25.0
+        ],
+        "net_wealth_including_salvage": [
+          9.0,
+          7.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 12,
+            "human": 4,
+            "tokens": 3,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "none",
+            "method": 0,
+            "build": "none",
+            "next_lab": 0,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 0,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          27.0,
+          25.0
+        ],
+        "net_wealth_including_salvage": [
+          9.0,
+          7.0
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 4,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then high_indices."
+  },
+  "automated_research_high_indices": {
+    "horizon": 2,
+    "config": {
+      "human_capacity": 4,
+      "compute_capacity": 7,
+      "wage": 2,
+      "token_price": 1,
+      "rights_fee": 1,
+      "rights_mask": 3,
+      "arm_parts": 6,
+      "mobile_parts": 8,
+      "reference_parts": 3,
+      "lab_entry": 4,
+      "lab_exit": 1,
+      "lab_overhead": 1,
+      "outside_training_fee": 5,
+      "outside_research_fee": 6,
+      "outside_audit_fee": 3,
+      "exact_audit_fee": 6,
+      "direct_data_fee": 6,
+      "method_license_fee": 10,
+      "coordination_tokens": 1,
+      "training_tokens": 1,
+      "procedure_tokens": 1,
+      "research_human": 0,
+      "demand_intercepts": [
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "market_persistence": 0.75,
+      "allow_training": true,
+      "allow_procedure": true,
+      "allow_build": true,
+      "allow_boundary": true,
+      "allow_outside": true,
+      "max_procedure": 2,
+      "diagnostic_collection": true
+    },
+    "initial": [
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      },
+      {
+        "arm": 1,
+        "mobile": 0,
+        "reference": 0,
+        "physical_model": 0,
+        "digital_model": 0,
+        "physical_data": 1,
+        "digital_data": 1,
+        "procedure": 0,
+        "internal_lab": 1,
+        "cash": 18,
+        "odds_one": 3,
+        "odds_zero": 2,
+        "market": 0
+      }
+    ],
+    "raw_root_action_counts": [
+      474,
+      474
+    ],
+    "root_actions_after_exact_continuation_equivalence": [
+      375,
+      375
+    ],
+    "terminal_games_solved": 76900,
+    "maximum_terminal_potential_identity_residual": 0.0,
+    "maximum_terminal_selected_nash_residual": 0.0,
+    "root_pure_equilibria": [
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 1,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 4,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          25.6875,
+          26.5
+        ],
+        "net_wealth_including_salvage": [
+          7.6875,
+          8.5
+        ],
+        "unilateral_deviation_gain": 0.0
+      },
+      {
+        "actions": [
+          {
+            "physical": 1,
+            "digital": 1,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 13,
+            "human": 4,
+            "tokens": 4,
+            "retain_physical": 0,
+            "retain_digital": 0
+          },
+          {
+            "physical": 1,
+            "digital": 0,
+            "research": "train_digital_to_digital",
+            "method": 0,
+            "build": "none",
+            "next_lab": 1,
+            "outlay": 8,
+            "human": 3,
+            "tokens": 1,
+            "retain_physical": 0,
+            "retain_digital": 0
+          }
+        ],
+        "wealth": [
+          26.6875,
+          25.500000000000004
+        ],
+        "net_wealth_including_salvage": [
+          8.6875,
+          7.5000000000000036
+        ],
+        "unilateral_deviation_gain": 0.0
+      }
+    ],
+    "root_pure_equilibrium_count": 2,
+    "minimum_pure_profile_max_deviation_gain": 0.0,
+    "continuation_selection": "Among terminal pure Nash equilibria, maximize sum of operating profits; then minimum operating profit; then high_indices."
+  }
+}

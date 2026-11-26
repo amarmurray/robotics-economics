@@ -1,5 +1,11 @@
 # RoboEcon papers and replications
 
+## Formal integration of the robotic and recursive firm
+
+[Unified model](integrated_firm/UNIFIED_MODEL.md) · [Solved results](integrated_firm/RESULTS.md) · [Successor procedures](integrated_firm/SUCCESSOR_PROCEDURES.md) · [Proofs and boundaries](integrated_firm/PROPOSITIONS.md) · [Seven-obligation ledger](integrated_firm/CLAIM_LEDGER.md) · [Replication](integrated_firm/README.md)
+
+The concurrent finite firm puts service, evidence, models, digital operating flows, procedure development, construction, scope and cash in one program. A cohort restriction derives recipient value from that service technology and solves two generations of improvement. A public-state two-firm restriction solves service and research under common final-market prices. The broader competitive multi-generation closure remains active.
+
 The links to research branches open the current manuscripts, code and numerical results. The PDFs below preserve the dated reading editions.
 
 ## Current theory week · November 25–December 2

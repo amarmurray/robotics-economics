@@ -2,7 +2,7 @@
   "schema_version": 1,
   "program": "roboecon-formal-integration",
   "status": "active",
-  "authorization": "Amar: Attack 1–7 systematically; connections, solved models and a solved unified model; work continuously.",
+  "authorization": "Amar: Attack 1\u20137 systematically; connections, solved models and a solved unified model; work continuously.",
   "input_commits": {
     "main": "f5eaf0d549a8682923026358a02d45fe0e5de8f5",
     "production": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
@@ -24,34 +24,73 @@
   },
   "obligations": {
     "1": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/UNIFIED_MODEL.md"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "2": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/core.py",
+        "papers/integrated_firm/integrated_results.json",
+        "papers/integrated_firm/verification_results.json"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "3": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/PROPOSITIONS.md",
+        "papers/integrated_firm/marginal_results.json"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "4": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/core.py",
+        "papers/integrated_firm/UNIFIED_MODEL.md"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "5": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/SUCCESSOR_PROCEDURES.md",
+        "papers/integrated_firm/cohort_results.json",
+        "papers/integrated_firm/cohort_verification.json"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "6": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/PROPOSITIONS.md",
+        "papers/integrated_firm/competition_results.json",
+        "papers/integrated_firm/marginal_results.json"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
     "7": {
-      "status": "active",
-      "evidence": []
+      "status": "established_in_stated_restrictions",
+      "evidence": [
+        "papers/integrated_firm/CLAIM_LEDGER.md",
+        "papers/integrated_firm/verify.py",
+        "papers/integrated_firm/verify_cohorts.py"
+      ],
+      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     }
   },
-  "next_action": "Specify and solve the common finite firm, with one resource/cash account, digital stocks and flows, production-generated evidence, qualified learning, successor research procedures and hardware/scope decisions.",
-  "completion": "Not complete; ongoing integration with explicit scientific gates."
+  "next_action": "Read NEXT_QUESTION.md. Derive a valid count aggregation and solve competitive continuation with enough recipient tasks and periods for two successor procedures, restoring concurrent shared resources and dated cash. Preserve ordinary policies, outside licenses and the common transfer posterior.",
+  "completion": "Finite concurrent core and scoped successor/competition restrictions solved. Broader many-generation competitive integration remains active; no industrial calibration or sustained-growth claim.",
+  "edition": "formal-integration-v1",
+  "results": {
+    "concurrent_core": "Joint finite stochastic firm solved and independently replayed in 10 cases.",
+    "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
+    "competition": "Two-period public-state game solved under two continuation selections in four economic cases, including matched reviewed versus automated research.",
+    "replay_gate": "Independent implementations passed; published-source replay pending.",
+    "next_question": "Can second-generation procedure gains survive concurrent shared resources, dated cash and competitive recipient continuation?"
+  }
 }

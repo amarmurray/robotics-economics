@@ -11,7 +11,7 @@
     "research/assistant-led-expansion-20261117": "bb8d87b86d6a679e55de777c59f6e5d82e4ecb3b",
     "research/recursive-firm-theory": "ec919bd95c52521051414b5f99315854b9700879"
   },
-  "writer_scope": "main: papers/theory_week_20261125; read source branches, preserve their sole-writer leases",
+  "writer_scope": "main: papers/integrated_firm plus additive theory-week synthesis; sole hourly writer; source branches preserved read-only",
   "lease": {
     "status": "released",
     "run_id": "theory-week-20261125-170425ET",
@@ -52,6 +52,15 @@
       "source": "LEARNING_GENERALIZATION_STRUCTURE.md",
       "replication": "generalization_allocation.py",
       "validation": "729 noisy plus 729 exact graph/sign patterns; exhaustive finite adaptive experiment program; observational equivalence"
+    },
+    {
+      "item": "Common finite concurrent firm, staged two-generation procedure model with derived recipient value, and two-period competitive continuation solved; seven-obligation claim ledger added.",
+      "kind": "bounded formal integration",
+      "evidence": [
+        "papers/integrated_firm/UNIFIED_MODEL.md",
+        "papers/integrated_firm/RESULTS.md",
+        "papers/integrated_firm/CLAIM_LEDGER.md"
+      ]
     }
   ],
   "tracks": [
@@ -81,24 +90,30 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Jointly choose the representation class or partition, measurement technology and next deployment when relations drift across hardware vintages. Solve when retained references or paid external standards improve subsequent inquiry per scarce research hour, with recipient adoption, source capacity and rival sponsorship feeding back; preserve ordinary learning, direct experiments, dated constraints and delegation.",
+  "next_action": "Read NEXT_QUESTION.md. Derive a valid count aggregation and solve competitive continuation with enough recipient tasks and periods for two successor procedures, restoring concurrent shared resources and dated cash. Preserve ordinary policies, outside licenses and the common transfer posterior.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
       "timing_mode": "flexible_schedule",
       "timezone": "America/New_York",
       "next_run_at_creation": "2026-11-25T17:00:00-05:00",
-      "enabled": true
+      "enabled": false,
+      "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
     },
     "production": {
       "cadence": "existing hourly schedule preserved",
       "deadline": "2026-12-25T23:59:00-05:00",
-      "week_prompt_updated": true
+      "week_prompt_updated": true,
+      "enabled": true,
+      "current_title": "RoboEcon formal integration",
+      "scope": "sole hourly integration writer; existing cadence and final deadline preserved"
     },
     "recursive": {
       "cadence": "daily around 09:00 America/New_York",
       "extended_through": "2026-12-02",
-      "week_prompt_updated": true
+      "week_prompt_updated": true,
+      "enabled": false,
+      "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
     }
   },
   "source_tasks": {
@@ -117,7 +132,13 @@
     "final_assessment": null
   },
   "last_notification": {
-    "key": "learning-generalization-structure-20261125",
-    "content": "Complementary transfer reach and audits generate an optimal staging problem; noisy comparisons can confound measurement with structural limits, changing the experiment investment."
+    "key": "formal-integration-v1",
+    "content": "Concurrent economic core, derived-payoff second-generation procedure solution, and scoped competitive continuation; broader integration remains active."
+  },
+  "current_integration": "papers/integrated_firm/state.json",
+  "integration_inputs": {
+    "main": "f5eaf0d549a8682923026358a02d45fe0e5de8f5",
+    "production": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
+    "recursive": "af1cabb95772524db1b34dda3b2667a54c203b43"
   }
 }

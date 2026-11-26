@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "learning-generalization-structure-20261125",
+  "snapshot_id": "formal-integration-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "learning-generalization-structure-20261125",
-      "sha256": "f1e9c29a9d5fb32b0245da9ca01709a2550f30f0a2c99009679213c90d641555"
+      "version": "formal-integration-v1",
+      "sha256": "c7834f7fde1f5f1e87524db179bfb691a912b31a5fd33d0cae5a04c59f6897a9"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3379,8 +3379,8 @@
       "repository_path": "papers/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/README.md",
       "name": "README.md",
-      "version": "learning-generalization-structure-20261125",
-      "sha256": "e412f49fc00a7a795efd62c46087d24855505287ee31401506e583e575554e17"
+      "version": "formal-integration-v1",
+      "sha256": "db38197b4ea665e0aebbee1515130f9178d81faef2d0ee4f798b911c6193e734"
     },
     {
       "repository_path": "papers/autonomous_firm/Autonomous_Firm_Replication.zip",
@@ -3729,8 +3729,8 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "learning-generalization-structure-20261125",
-      "sha256": "bdc548a94acd0c9aac94c34e9cca3cdd40a82fdcb61715b052717743c23c93eb"
+      "version": "formal-integration-v1",
+      "sha256": "f7a47ce73f1886a750f2a578b3cc7d5e7ccf017c06f05c2a04dce1ac5a6af9e1"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
@@ -3785,15 +3785,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "learning-generalization-structure-20261125",
-      "sha256": "50bdceffc71e1121dcd2326a91009e5d232276e28f1531324a8553e5d1d68466"
+      "version": "formal-integration-v1",
+      "sha256": "081d744c7394e681ff1271109c91c1c840cafbfbef61c301d9d5af73b06732a9"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "learning-generalization-structure-20261125",
-      "sha256": "28cf26a4dc767870d3ad4de9356d5d61755df2ede386abae81ccde5776ab0e68"
+      "version": "formal-integration-v1",
+      "sha256": "530ccb997f911a9326d9521fbc87bc47c3d9b907b15e8609ce536837c2e2bc09"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3843,6 +3843,160 @@
       "name": "generalization_allocation_results.json",
       "version": "learning-generalization-structure-20261125",
       "sha256": "4b8e443f13142a1b5c99b31c5017f7f99ff102095b0575fdb52462954c92f02c"
+    },
+    {
+      "repository_path": "papers/integrated_firm/README.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
+      "name": "README.md",
+      "version": "formal-integration-v1",
+      "sha256": "8cafcc11658af3a4aea9f058fda5c2ae7fe996da193a3f4ac93b204b53e272a5"
+    },
+    {
+      "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
+      "name": "UNIFIED_MODEL.md",
+      "version": "formal-integration-v1",
+      "sha256": "8eba6b99c60d6cbafba11516d5476d5530a327324824ee28aaa3796c786b15ec"
+    },
+    {
+      "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/PROPOSITIONS.md",
+      "name": "PROPOSITIONS.md",
+      "version": "formal-integration-v1",
+      "sha256": "e45821f789609615c11447ee75e51a57fe95cae1a63d2091deee6724685adb19"
+    },
+    {
+      "repository_path": "papers/integrated_firm/SUCCESSOR_PROCEDURES.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/SUCCESSOR_PROCEDURES.md",
+      "name": "SUCCESSOR_PROCEDURES.md",
+      "version": "formal-integration-v1",
+      "sha256": "d8068548a006a21080b7b43a5652c1c55348f6be4b50916290af382673e45ff2"
+    },
+    {
+      "repository_path": "papers/integrated_firm/RESULTS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/RESULTS.md",
+      "name": "RESULTS.md",
+      "version": "formal-integration-v1",
+      "sha256": "ae96867d02af97f206ecbe0b3e5cc970e96ed03751766b6d1f7a808d51887a63"
+    },
+    {
+      "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
+      "name": "CLAIM_LEDGER.md",
+      "version": "formal-integration-v1",
+      "sha256": "d7172e6fa61fad15795d4b36661dff91a5256d851f797df74557823ad1072e4b"
+    },
+    {
+      "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
+      "name": "NEXT_QUESTION.md",
+      "version": "formal-integration-v1",
+      "sha256": "c207f6354c70b76ad9debfc69e739dc317b96f3778edac435aec4c04281e2d9f"
+    },
+    {
+      "repository_path": "papers/integrated_firm/core.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/core.py",
+      "name": "core.py",
+      "version": "formal-integration-v1",
+      "sha256": "08112a1cee26e4013a7a924ce8c08f5d76d5f02ffa09f576dd4a32964408b937"
+    },
+    {
+      "repository_path": "papers/integrated_firm/verify.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/verify.py",
+      "name": "verify.py",
+      "version": "formal-integration-v1",
+      "sha256": "fee5e959dff154af588d26046473ed58df96c2d00f17455b3eee99543e6e198d"
+    },
+    {
+      "repository_path": "papers/integrated_firm/competition.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/competition.py",
+      "name": "competition.py",
+      "version": "formal-integration-v1",
+      "sha256": "397fd686e677fccc3403eade7627b4b512a9a3cae3cc7d9b3955ad9f6861078d"
+    },
+    {
+      "repository_path": "papers/integrated_firm/cohorts.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/cohorts.py",
+      "name": "cohorts.py",
+      "version": "formal-integration-v1",
+      "sha256": "2564b14dd81502268319a262335d0e12d14de3087c1c3bec560a64db51bb5061"
+    },
+    {
+      "repository_path": "papers/integrated_firm/verify_cohorts.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/verify_cohorts.py",
+      "name": "verify_cohorts.py",
+      "version": "formal-integration-v1",
+      "sha256": "3e00a796600c5942612768ee541b34d98641aaed98e9422ffd12bb67e3e8b468"
+    },
+    {
+      "repository_path": "papers/integrated_firm/margins.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/margins.py",
+      "name": "margins.py",
+      "version": "formal-integration-v1",
+      "sha256": "06f95e90d067b10e665b9c484ec4ee842619879095473026bacd2a26904dc3e9"
+    },
+    {
+      "repository_path": "papers/integrated_firm/run.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/run.py",
+      "name": "run.py",
+      "version": "formal-integration-v1",
+      "sha256": "52b04ef39035e23e7c1a386a9fa00f5854d7043f1c26944d08e6e1b687f7ab90"
+    },
+    {
+      "repository_path": "papers/integrated_firm/integrated_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/integrated_results.json",
+      "name": "integrated_results.json",
+      "version": "formal-integration-v1",
+      "sha256": "aae77024a543a845076a2f0d62f6c744697d319750f9f00a187bb18fec78352b"
+    },
+    {
+      "repository_path": "papers/integrated_firm/verification_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/verification_results.json",
+      "name": "verification_results.json",
+      "version": "formal-integration-v1",
+      "sha256": "badcb997e88b4257df14726a41856385da02ae2b9a1d59c595fa1b31eeabb2dd"
+    },
+    {
+      "repository_path": "papers/integrated_firm/competition_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/competition_results.json",
+      "name": "competition_results.json",
+      "version": "formal-integration-v1",
+      "sha256": "b85a399dd79fadf96483d9f2388b238e75f8504c9a64f4b73e11743911a4841f"
+    },
+    {
+      "repository_path": "papers/integrated_firm/cohort_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/cohort_results.json",
+      "name": "cohort_results.json",
+      "version": "formal-integration-v1",
+      "sha256": "a7181d4d6f700c3822b62a6c7471ea355a015c9023dfeb3b6a8db9d42729b5df"
+    },
+    {
+      "repository_path": "papers/integrated_firm/cohort_verification.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/cohort_verification.json",
+      "name": "cohort_verification.json",
+      "version": "formal-integration-v1",
+      "sha256": "73cd4f6159ecbbdb6fba31b888df6f00fa810496b743b0b1d8d6259b4e6321d3"
+    },
+    {
+      "repository_path": "papers/integrated_firm/marginal_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/marginal_results.json",
+      "name": "marginal_results.json",
+      "version": "formal-integration-v1",
+      "sha256": "43d90366c8291af19925e673f34e7f7583f6c6e7f2226ddb2a734d9b1a930d4b"
+    },
+    {
+      "repository_path": "papers/integrated_firm/INTEGRATION_CONTRACT.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/INTEGRATION_CONTRACT.md",
+      "name": "INTEGRATION_CONTRACT.md",
+      "version": "formal-integration-v1",
+      "sha256": "2446bf0fff52d5e802d8b6fcc048366b062b529a833762208778e3b9dcf2f26b"
+    },
+    {
+      "repository_path": "papers/integrated_firm/state.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
+      "name": "state.json",
+      "version": "formal-integration-v1",
+      "sha256": "23118333fe7bc36bea3765e0920e83a7b69f8d10490a54e92ab8784a49bb6d63"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4117,6 +4271,14 @@
       "register": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "status": "active conditional theory; field validation open",
       "latest_synthesis": "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md"
+    },
+    "formal_integration": {
+      "status": "finite core and restricted successors/competition solved; broader integration active",
+      "paper": "papers/integrated_firm/UNIFIED_MODEL.md",
+      "results": "papers/integrated_firm/RESULTS.md",
+      "ledger": "papers/integrated_firm/CLAIM_LEDGER.md",
+      "state": "papers/integrated_firm/state.json",
+      "next_question": "papers/integrated_firm/NEXT_QUESTION.md"
     }
   }
 }

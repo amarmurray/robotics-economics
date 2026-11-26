@@ -10,6 +10,9 @@ This week develops several connected theoretical priorities together. It starts 
 
 ## Current synthesis
 
+The current task is [formal integration](../integrated_firm/README.md): a solved concurrent finite firm, a derived-payoff successor-procedure restriction and a scoped competitive extension. [Results](../integrated_firm/RESULTS.md) · [Seven-obligation ledger](../integrated_firm/CLAIM_LEDGER.md). The existing hourly task is the single integration writer; the separate week and recursive scheduled writers are paused during consolidation. Their questions and the original week/Christmas milestones remain active.
+
+
 [When a better source robot teaches another fleet less](EVIDENCE_REALLOCATION.md) derives the effective-resource condition linking lost incident evidence, released support and endogenous operating expansion to recipient capability and MPK_r. [Replication](evidence_reallocation.js) · [Results](evidence_reallocation_results.json). The November 25 register also preserves the independently published main results on installed obligations, successive hardware vintages and complementary diagnostic portfolios.
 
 [Learning where generalization works](LEARNING_GENERALIZATION_STRUCTURE.md) extends source-branch relation learning to the choice and ordering of deployments and experiments. A bridge and an audit can be complements; a fully adaptive program can test first and choose between expansion and a priced direct route. The noisy extension derives the exact graph likelihood and proves that one-off pair comparisons can confound structural limits with measurement error. Connections span minimum viable scope, hardware and model investment, rights, MPK, capital timing and competition. [Replication](generalization_allocation.py) · [Results](generalization_allocation_results.json).

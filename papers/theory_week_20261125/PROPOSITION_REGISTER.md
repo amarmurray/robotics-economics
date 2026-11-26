@@ -70,3 +70,21 @@ Derive how evidence supply and the active capital-admission constraint respond t
 [Exact rational checks](generalization_allocation.py) compare 729 noisy graph/sign likelihoods with direct latent-label enumeration and 729 exact cases with cycle counting, solve the full finite experiment tree, and enumerate the observational-equivalence example. [Results](generalization_allocation_results.json). Standard Bayesian decision theory, synchronization, active learning and real-option principles are prior art. No unrestricted novelty or empirical claim is made.
 
 **Next dependency:** jointly choose representation classes, reference/measurement investments and deployments across changing hardware vintages. Retain endogenous recipient adoption and source capacity, competing sponsors, ordinary learning, external experiments and delegation. The nonidentification result makes improving the experiment menu a prerequisite in some states; collecting more distinct pairs alone need not resolve it.
+
+
+## Formal integration edition
+
+The [common finite firm](../integrated_firm/UNIFIED_MODEL.md) now determines its production, learning and investment continuation within one resource/cash program. The [claim ledger](../integrated_firm/CLAIM_LEDGER.md) maps the seven obligations without marking the broader agenda complete.
+
+| New connection/result | Status | Boundary and next dependency |
+| --- | --- | --- |
+| Resource/cash account and optimal contingent policy | Solved finite program, independently replayed | Two domains, capped model/procedure levels and short concurrent horizon |
+| Physical output versus private value and liquidity | Defined and computed with typed finite changes | Reoptimization differs from fixed-dispatch derivatives |
+| Local transition effects and global adaptation | Conditional identities proved | Check active constraints and feasibility before extrapolation |
+| Production-generated evidence followed by qualified learning | Positive solved retention example | Stated research-workflow technology; outside data retained as an alternative |
+| Retained procedure produces a successor | Positive derived-payoff cohort result; exact rational verification | Staged research, sufficient prefunding, fixed hardware and independent local markets |
+| Concurrent research and competitive response | Two-period public-state equilibrium computed | Multiple continuation equilibria disclosed; many-generation game remains open |
+| Economic RL reward account | Potential telescoping with terminal adjustment | No learned-policy convergence or intrinsic RL premium claimed |
+| Calibration versus interpretability | Separate observation channel, conditional calibration and empirical estimation | No industrial structural parameters estimated |
+
+[Proofs](../integrated_firm/PROPOSITIONS.md) · [Numerical results](../integrated_firm/RESULTS.md) · [Next cumulative question](../integrated_firm/NEXT_QUESTION.md)

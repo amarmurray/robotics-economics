@@ -1,0 +1,87 @@
+{
+  "independent_operating_margins": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      13
+    ]
+  ],
+  "exact_derived_gain": "3841/128",
+  "cases": {
+    "N2_R16_cap0": {
+      "exact_value": "167814647/4194304",
+      "absolute_discrepancy": 0.0
+    },
+    "N2_R16_cap1": {
+      "exact_value": "167814647/4194304",
+      "absolute_discrepancy": 0.0
+    },
+    "N2_R16_cap2": {
+      "exact_value": "167814647/4194304",
+      "absolute_discrepancy": 0.0
+    },
+    "N4_R16_cap0": {
+      "exact_value": "167292203/2097152",
+      "absolute_discrepancy": 0.0
+    },
+    "N4_R16_cap1": {
+      "exact_value": "11179974000865/137438953472",
+      "absolute_discrepancy": 0.0
+    },
+    "N4_R16_cap2": {
+      "exact_value": "22360740391453/274877906944",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R16_cap0": {
+      "exact_value": "151357661/1048576",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R16_cap1": {
+      "exact_value": "11913961608425/68719476736",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R16_cap2": {
+      "exact_value": "1474341/8192",
+      "absolute_discrepancy": 0.0
+    },
+    "N12_R16_cap0": {
+      "exact_value": "335129899/2097152",
+      "absolute_discrepancy": 0.0
+    },
+    "N12_R16_cap1": {
+      "exact_value": "16622822312579/68719476736",
+      "absolute_discrepancy": 0.0
+    },
+    "N12_R16_cap2": {
+      "exact_value": "4461/16",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R10_cap0": {
+      "exact_value": "3270397/32768",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R10_cap1": {
+      "exact_value": "4791578653/33554432",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R10_cap2": {
+      "exact_value": "2785/16",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R20_cap0": {
+      "exact_value": "1306220123/8388608",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R20_cap1": {
+      "exact_value": "3071660651002149/17592186044416",
+      "absolute_discrepancy": 0.0
+    },
+    "N8_R20_cap2": {
+      "exact_value": "377606661/2097152",
+      "absolute_discrepancy": 0.0
+    }
+  }
+}

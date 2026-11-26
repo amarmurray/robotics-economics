@@ -1,0 +1,38 @@
+{
+  "channels": {
+    "joint_kernels_independently_reconstructed": 7434,
+    "posterior_martingale": "passed"
+  },
+  "replays": {
+    "2": {
+      "bellman_value": 25.25,
+      "independent_hidden_world_value": 25.25,
+      "absolute_discrepancy": 0.0,
+      "net_cash_generation": 12.25,
+      "cash_ledger_discrepancy": 0.0,
+      "shaping_telescoping_discrepancy": 0.0,
+      "unadjusted_potential_windfall": 0.0,
+      "selected_public_state_periods_checked": 3
+    },
+    "4": {
+      "bellman_value": 39.5125,
+      "independent_hidden_world_value": 39.5125,
+      "absolute_discrepancy": 0.0,
+      "net_cash_generation": 26.512499999999985,
+      "cash_ledger_discrepancy": 1.7763568394002505e-14,
+      "shaping_telescoping_discrepancy": 0.0,
+      "unadjusted_potential_windfall": 1.2,
+      "selected_public_state_periods_checked": 25
+    }
+  },
+  "free_optional_endowment_value_changes_t3": {
+    "cash": 2.0,
+    "physical_model": 9.375,
+    "digital_model": 11.25,
+    "physical_data": 0.0,
+    "digital_data": 0.0,
+    "procedure": 0.03125,
+    "mobile": 8.375,
+    "reference": 1.0
+  }
+}

@@ -1,0 +1,62 @@
+# Claim and integration ledger
+
+## The seven obligations
+
+| Obligation | What this edition establishes | Evidence | What remains open |
+| --- | --- | --- | --- |
+| 1. Existing solved models | A common state/action/timing vocabulary and a restriction-by-restriction crosswalk; incompatible source assumptions are preserved | UNIFIED_MODEL §1; pinned inputs below | Recover further source results in the enlarged economy; the graph, Gaussian design and three-vintage models are not all implemented by the two-domain code |
+| 2. Economic integration | A concurrent finite firm jointly chooses service, human/agent recipes, retention, training/inquiry, procedure development, construction, scope and cash; continuation payoffs come from the same program | core.py; integrated_results.json; verify.py | Larger heterogeneous site/embodiment menus, separate skill pools, endogenous credit and provider supply |
+| 3. Economic RL | Physical marginal products, private values and liquidity premiums are separated; an exact planning benchmark, legal belief state and reward-accounting theorem are specified | PROPOSITIONS P4–P6; margins.py | Train and assess an approximation on this common model with matched ordinary information/actions/costs; the earlier branch's RL study is separate |
+| 4. Digital agents | Retained models/procedures are stocks; instances, inference, coordination and human review are paid flows in the same service program | UNIFIED_MODEL §3; core.py | Real workload measurements, correlated errors across actual agents, endogenous compute supply and richer digital research skills |
+| 5. Organizational recursion | The core contains procedure 0→1→2; the staged cohort restriction optimally uses the first improvement to produce a second, with recipient payoff derived from production and paid outside licenses retained | SUCCESSOR_PROCEDURES; cohorts.py; cohort_verification.json | Restore concurrent shared resources and strategic recipient markets; further generations, changing representations and sustained growth |
+| 6. Local/global and competition | Local derivative identities, global policy/adaptation decomposition and finite changes; a solved two-period public-state competitive game, including a positive-research regime | PROPOSITIONS P5–P10; competition.py | Many-generation competitive continuation, entry/input prices, private reports and broader equilibrium-selection analysis |
+| 7. Theory versus measurement | Synthetic numbers are labeled, proofs scoped, implemented results replayable; calibration is separated from informativeness and an empirical discriminator is specified | UNIFIED_MODEL §7; RESULTS; verification files | Joined deployment/qualification/resource/receipt data and identification of structural channels; no industrial parameter calibration or new empirical effect |
+
+“Established” means established for the stated model or proof assumptions. It does not mean all seven obligations are finished at the generality originally intended.
+
+## Result classifications
+
+| Result | Classification | Conditions / strongest limitation |
+| --- | --- | --- |
+| Backward induction and cash telescoping | Standard conditional theorem | Finite horizon/menus; unit discount for the no-dividend restriction |
+| An optional old policy preserves value | Standard feasible-set argument | No mandatory new cost, lost action or adverse changed rival policy |
+| A signal pays through changed decisions | Standard decision-theory calculation | Correctly understood lawful channel; its costs must be included |
+| Potential reward shaping preserves the objective | Application of established RL theorem | Terminal adjustment required; no learning-convergence claim |
+| Local derivative and global adaptation decomposition | Identities under stated regularity | No extrapolation across binding constraints or policy switches |
+| A physical robot increment can raise digital service | Computed conditional result | Three-period reoptimization with stated complementary resources |
+| Additional cash removes baseline first-period research | Computed conditional result | Same technology; six extra cash ticks; optimized value rises |
+| Ordinary service generates retained evidence followed by training | Computed conditional result | Explicit admitted-workflow automation and retention rights |
+| Qualified models make construction optimal | Computed conditional result | Entry with no robot, a qualified controller, stated demand and three periods |
+| Second-generation procedure adds value | Exact computed result and independent rational reconstruction | Staged research, prefunding, fixed hardware, independent recipient markets |
+| Tight deadlines favor external licenses | Exact computed result | A guaranteed externally available successor at its stated price |
+| Terminal linear Cournot has a pure equilibrium | Conditional exact-potential theorem | Independent finite feasible sets at that stage |
+| Two-period firms invest in the lower-review-cost regime | Computed public-state equilibrium | Matched cash/archives, stated technology change and continuation selection |
+| Recursive improvement implies sustained acceleration | **Not established** | Finite opportunity sets saturate; no continuing task-entry/growth model |
+| RL or ownership intrinsically beats a capable ordinary organization | **Not established; unrestricted claim rejected** | The same contingent policy and equivalent contracts can reproduce the allocation |
+
+## Verification actually performed
+
+The finite firm's checker reconstructs costs, case generation, report laws, belief updates and next states without calling the solver's transition function. It examines 7,434 feasible joint kernels across selected states, checks posterior martingales and replays selected optimal policies by integrating separately over the latent regime. Each accepted concurrent case carries its replay result. Accounting discrepancies are at floating-point rounding scale.
+
+The cohort checker independently enumerates operating recipes, derives \(G=3841/128\), and solves the research problem with rational arithmetic. It agrees exactly on all 18 scope/deadline/menu combinations.
+
+The competitive solver checks every retained root action as a unilateral deviation and enumerates all terminal pure equilibria at each used continuation state. It verifies the potential identity and reports two equilibrium-selection conventions. This is a finite exhaustive solution of the stated game, not a generic equilibrium-selection theorem.
+
+These are independent implementations by one writer, not independent external review. Replay from the published package is a separate publication gate, recorded in the handoff.
+
+## Provenance and intellectual boundaries
+
+- Main input: f5eaf0d549a8682923026358a02d45fe0e5de8f5.
+- Production input: 8dba84f45e18fe5896e75cd9a98539e4b87a83fb.
+- Recursive-firm input: af1cabb95772524db1b34dda3b2667a54c203b43, including its Economic RL study.
+- Integration initialization: 656ca84c7118e11d7803e69877b96c128d76d64b.
+- Primary external foundations: Ng–Harada–Russell on policy-invariant reward shaping; Guo–Pleiss–Sun–Weinberger on predictive calibration; Daskalakis–Farina on finite stochastic games. The manuscript and propositions give direct links and the result boundaries used here.
+
+There is no claim of novelty for broad dynamic programming, option value, information value, reward shaping or Cournot mechanisms. A later contribution claim must isolate a consequence that survives the closest source model and the strong ordinary-policy/contracting comparator.
+
+## One next integration question
+
+Can a positive second-generation procedure effect survive in a common multi-firm economy when concurrent service, shared support, cash commitments and rival responses jointly determine its recipient payoff?
+
+The next work is a cumulative extension of these primitives. It should prove any exchangeability/count aggregation used for tractability, retain the common posterior over transfer, and solve the continuation game. It should not insert a new independent payoff table or assume the cohort's \(G\) survives competition unchanged.
+
