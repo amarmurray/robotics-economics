@@ -16,10 +16,11 @@
   },
   "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "formal-integration-20261126T073325Z",
     "acquired_at": "2026-11-26T07:33:25Z",
-    "expires_at": "2026-11-26T09:03:25Z"
+    "expires_at": "2026-11-26T09:03:25Z",
+    "released_at": "2026-11-26T07:36:38.470Z"
   },
   "obligations": {
     "1": {
@@ -61,28 +62,31 @@
         "papers/integrated_firm/cohort_results.json",
         "papers/integrated_firm/cohort_verification.json"
       ],
-      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
+      "remaining": "Joint-count reduction now proved; concurrent competitive successor stages still open."
     },
     "6": {
       "status": "established_in_stated_restrictions",
       "evidence": [
         "papers/integrated_firm/PROPOSITIONS.md",
         "papers/integrated_firm/competition_results.json",
-        "papers/integrated_firm/marginal_results.json"
+        "papers/integrated_firm/marginal_results.json",
+        "papers/integrated_firm/JOINT_COUNTS.md",
+        "papers/integrated_firm/joint_counts_results.json"
       ],
-      "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
+      "remaining": "Implement joint conditional transitions and solve longer recursive-stage game; preserve selection and common posterior."
     },
     "7": {
       "status": "established_in_stated_restrictions",
       "evidence": [
         "papers/integrated_firm/CLAIM_LEDGER.md",
         "papers/integrated_firm/verify.py",
-        "papers/integrated_firm/verify_cohorts.py"
+        "papers/integrated_firm/verify_cohorts.py",
+        "papers/integrated_firm/joint_counts.js"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     }
   },
-  "next_action": "Read NEXT_QUESTION.md. Derive a valid count aggregation and solve competitive continuation with enough recipient tasks and periods for two successor procedures, restoring concurrent shared resources and dated cash. Preserve ordinary policies, outside licenses and the common transfer posterior.",
+  "next_action": "Read NEXT_QUESTION.md. Implement and validate joint conditional transitions on canonical labeled representatives, then solve longer concurrent competitive successor-procedure stages with old policies and paid outside options.",
   "completion": "Finite concurrent core and scoped successor/competition restrictions solved. Broader many-generation competitive integration remains active; no industrial calibration or sustained-growth claim.",
   "edition": "formal-integration-v1",
   "results": {
@@ -90,6 +94,7 @@
     "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
     "competition": "Two-period public-state game solved under two continuation selections in four economic cases, including matched reviewed versus automated research.",
     "replay_gate": "Passed: full standard suite run from freshly fetched published source files; all six generated JSON reports exactly match accepted data.",
-    "next_question": "Can second-generation procedure gains survive concurrent shared resources, dated cash and competitive recipient continuation?"
+    "next_question": "Can second-generation procedure gains survive concurrent shared resources, dated cash and competitive recipient continuation?",
+    "joint_counts": "Conditional joint-count quotient proved; exact shared-resource terminal recipient game solved, 64 labeled states in 20 classes; marginal count and action count counterexamples. Multi-generation game open."
   }
 }

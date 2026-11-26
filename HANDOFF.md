@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-v1.
+Handoff ID: formal-integration-joint-counts-v1.
+
+## Joint recipient configurations and the competitive continuation
+
+November 26. [Proof and solved terminal game](papers/integrated_firm/JOINT_COUNTS.md): simultaneous relabeling permits exact aggregation by joint task types (not separate firm counts), with labeled unilateral actions retained. Same qualification totals can yield unique equilibrium private cash (2,2) versus (4,4) because of rival overlap; both produce two jobs. The shared resource and prefunding constraints are explicit, customer surplus is separate, and the common-report posterior example rules out multiplying marginal mixtures. CPU enumeration checks 64 labeled configurations in 20 classes plus all terminal deviations in the reported cases. This resolves the aggregation dependency, not the longer multi-generation game. Next: [joint conditional transition and backward-induction recursive-stage game](papers/integrated_firm/NEXT_QUESTION.md). The previous integrated edition and all source branches remain preserved.
 
 ## Formal integration: one firm, one economic account
 

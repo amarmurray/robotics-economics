@@ -116,3 +116,7 @@ The competitive files record all pure root equilibria under both selected contin
 
 The larger integration problem is now specific: retain enough recipient tasks for a second procedure to matter while restoring concurrent shared resources, cash commitments and competing recipient markets. That next model must determine its recipient payoff internally. It cannot simply carry this cohort's additive \(G\) into a different economy.
 
+
+## Cumulative result: competitive recipient pairing
+
+See [JOINT_COUNTS.md](JOINT_COUNTS.md) and [exact results](joint_counts_results.json). In the three-target digital-only restriction, with H=2, compute=2, cash=3, each firm has one qualification. Aligned qualifications yield unique equilibrium new private cash (2,2) and customer surplus 4; split qualifications yield (4,4) and customer surplus 2. Both serve two jobs. Under the stated linear demand and resource-cost convention total surplus rises from 8 to 10. The report also enumerates all equilibria in relaxed-resource cases. The 64 labeled binary configurations reduce to 20 joint-count classes; all 44 noncanonical comparisons preserve equilibrium payoff/output/cost multisets. No multi-generation competitive solution yet.

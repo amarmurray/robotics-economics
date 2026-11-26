@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-v1",
+  "snapshot_id": "formal-integration-joint-counts-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-v1",
-      "sha256": "7bd8d557e4b74be270f4a509036d64fbbf77187a4e1c0bf3ab589a0a2e4aef9b"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "f147f3842976ca6405cb24f2de50c0e681b2d6d926d6bbd246f55476b47bfd28"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,8 +3785,8 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-v1",
-      "sha256": "081d744c7394e681ff1271109c91c1c840cafbfbef61c301d9d5af73b06732a9"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "8367299cacdba0212e8b056864c1180b66086beb3d4c6d309031963f0b127dff"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
@@ -3855,8 +3855,8 @@
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-v1",
-      "sha256": "8eba6b99c60d6cbafba11516d5476d5530a327324824ee28aaa3796c786b15ec"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "64de44d644ee9458a2153afa6763258c227d0a7b2331f37a61ad7c8a665b286c"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3876,22 +3876,22 @@
       "repository_path": "papers/integrated_firm/RESULTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/RESULTS.md",
       "name": "RESULTS.md",
-      "version": "formal-integration-v1",
-      "sha256": "ae96867d02af97f206ecbe0b3e5cc970e96ed03751766b6d1f7a808d51887a63"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "7cb5034ec234d87ec06fffa3067229d80cec1e191f9a5136008ac3fd62460af0"
     },
     {
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-v1",
-      "sha256": "6bbac5f050b37ba74dcda4ecaf19b87d6fec9738d59d76c3bae53474a0178abf"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "0a1180cd104503558b72c345c0a44ffa4e22cdb555eecf7770fd642ba4975895"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-v1",
-      "sha256": "c207f6354c70b76ad9debfc69e739dc317b96f3778edac435aec4c04281e2d9f"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "bc4a8701bd7727334241a645b4fd48d9389d089c1e105a2b9931ce592b0f9e99"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,29 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-v1",
-      "sha256": "30efd5e19be81206d659e828f99eb84fdb0a0d12a163daa5be427df81c484315"
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "036ccc66139fcd111f64e00cc8501ab964d3b48c2f0aa5d04493654684a9dbec"
+    },
+    {
+      "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/JOINT_COUNTS.md",
+      "name": "JOINT_COUNTS.md",
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "7c4f3c433cce8a25acef7afe7a9307ba3668e51be3976134ad7704869a015a93"
+    },
+    {
+      "repository_path": "papers/integrated_firm/joint_counts.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/joint_counts.js",
+      "name": "joint_counts.js",
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "7e2b4f2c3e568123c4a762d7571d2f093df6875a7154a676fa864ae8765e7505"
+    },
+    {
+      "repository_path": "papers/integrated_firm/joint_counts_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/joint_counts_results.json",
+      "name": "joint_counts_results.json",
+      "version": "formal-integration-joint-counts-v1",
+      "sha256": "461550802070c8bd232ee0e2ae642f33f9635b37ab7818a0a7bd3159720c5058"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

@@ -61,6 +61,14 @@
         "papers/integrated_firm/RESULTS.md",
         "papers/integrated_firm/CLAIM_LEDGER.md"
       ]
+    },
+    {
+      "item": "Exact joint-count state reduction and shared-resource terminal competitive recipient game; marginal counts lose rivalry pairing.",
+      "kind": "conditional proof and exhaustive terminal computation",
+      "evidence": [
+        "papers/integrated_firm/JOINT_COUNTS.md",
+        "papers/integrated_firm/joint_counts_results.json"
+      ]
     }
   ],
   "tracks": [
@@ -90,7 +98,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Read NEXT_QUESTION.md. Derive a valid count aggregation and solve competitive continuation with enough recipient tasks and periods for two successor procedures, restoring concurrent shared resources and dated cash. Preserve ordinary policies, outside licenses and the common transfer posterior.",
+  "next_action": "Read NEXT_QUESTION.md. Implement and validate joint conditional transitions on canonical labeled representatives, then solve longer concurrent competitive successor-procedure stages with old policies and paid outside options.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",

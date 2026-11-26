@@ -351,3 +351,7 @@ For recursion, keep the executor and reference task population fixed while trans
 
 The current edition establishes a common economic state/action/account, an exact finite firm solution, an independently reconstructed replay, a scoped competitive solution, and explicit analytical identities. It provides no new empirical effect estimate and no evidence that an actual LLM firm improves itself indefinitely. The [claim ledger](CLAIM_LEDGER.md) distinguishes proved statements, computed results, source inheritances and open obligations. The next cumulative extension is a competitive horizon long enough for successor procedures to affect another firm's production and research choices, without replacing the strong ordinary-policy comparator.
 
+
+## Cumulative extension: joint recipient configuration
+
+[Joint-count state aggregation and the shared-resource terminal game](JOINT_COUNTS.md) establish that a competitive continuation can be compressed by joint local types under permutation symmetry, but not by each firm's separate qualification or action counts. Two otherwise identical three-target economies with equal marginal qualification counts have unique equilibrium private cash (2,2) versus (4,4) under the same dated cash and compute constraints. The long-horizon recursion game is not yet solved. The theorem and exact terminal solver are the next building block, not an independent recipient-value coefficient.
