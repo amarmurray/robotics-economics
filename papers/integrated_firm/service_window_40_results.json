@@ -1,0 +1,628 @@
+{
+  "synthetic": true,
+  "projection": true,
+  "quotient": true,
+  "budget": 3000000,
+  "cases": [
+    {
+      "name": "scale_0",
+      "T": 4,
+      "B": 10000,
+      "K": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "M": [
+        0,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 0,
+      "cap": 0,
+      "outside": 100,
+      "buy": 100,
+      "N": 40
+    },
+    {
+      "name": "scale_1",
+      "T": 4,
+      "B": 10000,
+      "K": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "M": [
+        0,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 0,
+      "cap": 1,
+      "outside": 100,
+      "buy": 100,
+      "N": 40
+    },
+    {
+      "name": "scale_2",
+      "T": 4,
+      "B": 10000,
+      "K": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "M": [
+        0,
+        0
+      ],
+      "D": [
+        0,
+        0
+      ],
+      "R": 1,
+      "g": 1,
+      "p": 0,
+      "cap": 2,
+      "outside": 100,
+      "buy": 100,
+      "N": 40
+    }
+  ],
+  "results": [
+    {
+      "name": "scale_0",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        10600.5,
+        10594.25
+      ],
+      "root": [
+        {
+          "q": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 1,
+          "cost": 8,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        },
+        {
+          "q": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 1,
+          "cost": 8,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        694714368,
+        694304768
+      ],
+      "wealth_denominator": 65536,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 2,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 6,
+          "net1": 6
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 2,
+          "physical": 1,
+          "digital": 1,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 4,
+          "net1": 3
+        },
+        {
+          "date": 3,
+          "jobs": 3,
+          "customer_surplus": 5,
+          "physical": 1.75,
+          "digital": 1.25,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 9.5,
+          "net1": 9.25
+        },
+        {
+          "date": 4,
+          "jobs": 140,
+          "customer_surplus": 260,
+          "physical": 77.5,
+          "digital": 62.5,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.5,
+          "contested_market_shifts": 60,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 580,
+          "net1": 575
+        }
+      ],
+      "profiles": 611501,
+      "states": 2754,
+      "deviations": 66806
+    },
+    {
+      "name": "scale_1",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        10635.25,
+        10633.875
+      ],
+      "root": [
+        {
+          "q": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 4,
+          "cost": 21,
+          "r": [
+            "license",
+            1,
+            0,
+            10,
+            4,
+            3
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        },
+        {
+          "q": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 4,
+          "cost": 21,
+          "r": [
+            "license",
+            1,
+            0,
+            10,
+            4,
+            3
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        696991744,
+        696901632
+      ],
+      "wealth_denominator": 65536,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 2,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 2,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": -7,
+          "net1": -7
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 2,
+          "physical": 1,
+          "digital": 1,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 4,
+          "net1": 3
+        },
+        {
+          "date": 3,
+          "jobs": 3.5,
+          "customer_surplus": 6.5,
+          "physical": 1.9375,
+          "digital": 1.5625,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.5,
+          "contested_market_shifts": 1.5,
+          "retain": 0,
+          "internal": 0.5,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 12.25,
+          "net1": 12.1875
+        },
+        {
+          "date": 4,
+          "jobs": 155,
+          "customer_surplus": 305,
+          "physical": 79.84375,
+          "digital": 75.15625,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.875,
+          "contested_market_shifts": 75,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 625,
+          "net1": 624.6875
+        }
+      ],
+      "profiles": 1777517,
+      "states": 5250,
+      "deviations": 148790
+    },
+    {
+      "name": "scale_2",
+      "status": "solved",
+      "rule": 1,
+      "wealth": [
+        10635,
+        10634
+      ],
+      "root": [
+        {
+          "q": 2,
+          "modes": [
+            0,
+            1,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 17,
+          "r": [
+            "license",
+            1,
+            0,
+            10,
+            4,
+            3
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 0,
+          "ng": 1
+        },
+        {
+          "q": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 4,
+          "cost": 21,
+          "r": [
+            "license",
+            1,
+            0,
+            10,
+            4,
+            3
+          ],
+          "b": [
+            "none",
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1
+        }
+      ],
+      "mixed_certificate": null,
+      "wealth_numerator": [
+        696975360,
+        696909824
+      ],
+      "wealth_denominator": 65536,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 2,
+          "physical": 1,
+          "digital": 1,
+          "licenses": 2,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": -5,
+          "net1": -5
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 2,
+          "physical": 1,
+          "digital": 1,
+          "licenses": 2,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": -5,
+          "net1": -5
+        },
+        {
+          "date": 3,
+          "jobs": 2,
+          "customer_surplus": 2,
+          "physical": 1,
+          "digital": 1,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 4,
+          "net1": 3
+        },
+        {
+          "date": 4,
+          "jobs": 160,
+          "customer_surplus": 320,
+          "physical": 80,
+          "digital": 80,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 2,
+          "contested_market_shifts": 80,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 640,
+          "net1": 640
+        }
+      ],
+      "profiles": 2098733,
+      "states": 5810,
+      "deviations": 170422
+    }
+  ]
+}

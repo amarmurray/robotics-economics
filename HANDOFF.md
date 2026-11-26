@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-manufacturing-rights-v1
+Handoff ID: formal-integration-service-window-v1
+
+## Economically usable service window and active-rival successor acquisition
+
+November 26. Three investment dates followed by 40 or 60 independently resourced terminal service shifts: six exact prefunded public-state games from procedure zero. Both firms retain local physical evidence and acquire both paid successor licenses when permitted; ordinary contingent training, paid outside training/data, lab entry/exit and kit procurement/assembly remain feasible, subject to one shared investment slot per early date. At N=40 the cap-2 minus cap-1 combined private wealth is -0.125 despite more jobs; at N=60 it is +15.03125, positive for each firm (+7.25,+7.78125), with terminal jobs 232.5→240 and contested market shifts 112.5→120. Cap-2 acquisition via licenses, not internal development; neither hardware order nor assembly selected. The positive active-quantity from-zero cap-2 acquisition witness is conditional on the enlarged terminal service window, high outside/kit costs, prefunding and higher-total pure continuation. [Proof and reproduction](papers/integrated_firm/SERVICE_WINDOW.md). Next: [internal successor production and robustness](papers/integrated_firm/NEXT_QUESTION.md). All original gates preserved.
 
 ## Concurrent embodied retention and strategic randomization
 
