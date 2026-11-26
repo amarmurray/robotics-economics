@@ -42,7 +42,7 @@ The cohort checker independently enumerates operating recipes, derives \(G=3841/
 
 The competitive solver checks every retained root action as a unilateral deviation and enumerates all terminal pure equilibria at each used continuation state. It verifies the potential identity and reports two equilibrium-selection conventions. This is a finite exhaustive solution of the stated game, not a generic equilibrium-selection theorem.
 
-These are independent implementations by one writer, not independent external review. Replay from the published package is a separate publication gate, recorded in the handoff.
+These are independent implementations by one writer, not independent external review. The full suite was rerun from fresh copies of the 13 published source/result files. All six generated JSON reports match the accepted results exactly. The handoff records that completed publication gate.
 
 ## Provenance and intellectual boundaries
 

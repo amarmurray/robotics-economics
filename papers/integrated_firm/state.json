@@ -16,11 +16,12 @@
   },
   "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "formal-integration-20261126T0520Z",
     "acquired_at": "2026-11-26T05:20:00Z",
     "expires_at": "2026-11-26T08:00:12.000Z",
-    "renewed_at": "2026-11-26T06:30:12Z"
+    "renewed_at": "2026-11-26T06:30:12Z",
+    "released_at": "2026-11-26T06:55:40Z"
   },
   "obligations": {
     "1": {
@@ -90,7 +91,7 @@
     "concurrent_core": "Joint finite stochastic firm solved and independently replayed in 10 cases.",
     "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
     "competition": "Two-period public-state game solved under two continuation selections in four economic cases, including matched reviewed versus automated research.",
-    "replay_gate": "Independent implementations passed; published-source replay pending.",
+    "replay_gate": "Passed: full standard suite run from freshly fetched published source files; all six generated JSON reports exactly match accepted data.",
     "next_question": "Can second-generation procedure gains survive concurrent shared resources, dated cash and competitive recipient continuation?"
   }
 }

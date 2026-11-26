@@ -83,7 +83,7 @@
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
       "version": "formal-integration-v1",
-      "sha256": "c7834f7fde1f5f1e87524db179bfb691a912b31a5fd33d0cae5a04c59f6897a9"
+      "sha256": "7bd8d557e4b74be270f4a509036d64fbbf77187a4e1c0bf3ab589a0a2e4aef9b"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3884,7 +3884,7 @@
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
       "version": "formal-integration-v1",
-      "sha256": "d7172e6fa61fad15795d4b36661dff91a5256d851f797df74557823ad1072e4b"
+      "sha256": "6bbac5f050b37ba74dcda4ecaf19b87d6fec9738d59d76c3bae53474a0178abf"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
@@ -3996,7 +3996,7 @@
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
       "version": "formal-integration-v1",
-      "sha256": "23118333fe7bc36bea3765e0920e83a7b69f8d10490a54e92ab8784a49bb6d63"
+      "sha256": "30efd5e19be81206d659e828f99eb84fdb0a0d12a163daa5be427df81c484315"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4278,7 +4278,8 @@
       "results": "papers/integrated_firm/RESULTS.md",
       "ledger": "papers/integrated_firm/CLAIM_LEDGER.md",
       "state": "papers/integrated_firm/state.json",
-      "next_question": "papers/integrated_firm/NEXT_QUESTION.md"
+      "next_question": "papers/integrated_firm/NEXT_QUESTION.md",
+      "published_source_replay": "passed; six generated reports exactly matched"
     }
   }
 }
