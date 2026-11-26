@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-joint-game-v1",
+  "snapshot_id": "formal-integration-pooled-recursion-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "4866b6382debb4caa73bf5851b62747d34d1d1a22ce36a919088107c22000667"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "1e630afc5796a697cfa70f364b241d5dfad04a86d279eb2115def04c39408233"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,8 +3785,8 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "d8c9b2fe3882348dd1fe4d4b936b9548a8418e6d4ceb5852bfea0faf4303171d"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "c8279016731ae1ad490026e5ca6ec75f301e27cd2b2fa3c09384177bd122c0cf"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
@@ -3855,8 +3855,8 @@
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "bbee29587819d8d80fd5f9334b3a8e0f49d071296a092fe72e5dfd2c382fd543"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "fa1f117c27563cea405fda266b39bb03400db758dffa175aa6acbc26e5419017"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3883,15 +3883,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "fda60e59afdc1e3bb53f989e622c31e400dd121281202f16dda52d1826dbf87d"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "2cb2a630f2d418751278dae96d459da1ce4f71b027b1f50cb63e78b1bd1dd4a6"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "058b54f176d5a5217991ed8e578e1e72b5f186a1918d69ed5ff58bd67f51f71f"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "6fefa4dd094f97052e7588fdd7a0c12c567995b25af09813813d5b8752c89f28"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-joint-game-v1",
-      "sha256": "8875921befcbd896a10eeae3a5c85715579914a4ed86d437b8eb90ab047c4acc"
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "086c016272e38d4289715c574478c2ae6e12a066460411c19ec331a34e7f7c0c"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4067,6 +4067,27 @@
       "name": "JOINT_GAME.md",
       "version": "formal-integration-joint-game-v1",
       "sha256": "2ec35ed19b0ea6dae7fe5d106ec2bc0271840d8ba31f0e3048a583749716b15b"
+    },
+    {
+      "repository_path": "papers/integrated_firm/pooled_recursion.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/pooled_recursion.js",
+      "name": "pooled_recursion.js",
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "eaefe7cbce081c6b30bb1e19bc183b5f03932934fb90933b720c7a314a032d7f"
+    },
+    {
+      "repository_path": "papers/integrated_firm/pooled_recursion_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/pooled_recursion_results.json",
+      "name": "pooled_recursion_results.json",
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "8e4a69160c83e92225966ca6907c17e9423aee715df1752fc3a14a1ec08ab0ff"
+    },
+    {
+      "repository_path": "papers/integrated_firm/POOLED_RECURSION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/POOLED_RECURSION.md",
+      "name": "POOLED_RECURSION.md",
+      "version": "formal-integration-pooled-recursion-v1",
+      "sha256": "311ba3feb9d581ebc301cb51c2c109fb86df5c73757ef746ec86b07f5a3b77ed"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

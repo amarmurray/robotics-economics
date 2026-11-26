@@ -86,6 +86,14 @@
         "papers/integrated_firm/joint_game_results.json",
         "papers/integrated_firm/joint_game_verification.json"
       ]
+    },
+    {
+      "item": "Funded concurrent pooled-output cap-0/1/2 game; count/cash quotient and strict output saturation; positive second-generation return with saturated competitive quantities, active cases separately reported.",
+      "kind": "conditional proof and exact CPU solution",
+      "evidence": [
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
+      ]
     }
   ],
   "tracks": [
@@ -115,7 +123,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Read NEXT_QUESTION.md. Solve a funded multi-recipient four-or-more-period game from psi=0 under matched cap-0/1/2 and fixed continuation selections; use an exact justified restriction or quotient, then restore physical manufacturing. Preserve November 27 pilot and subsequent gates.",
+  "next_action": "Restore physical service and arm/mobile manufacturing in the concurrent competitive economy; retain priced quantity and local qualification, separate installed assets, parts, construction delay and dated cash. Also solve nonsaturated positive cap-2 or record mixed-game blocker; preserve Nov 27 pilot synthesis.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",

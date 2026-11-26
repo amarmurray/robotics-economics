@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-joint-game-v1.
+Handoff ID: formal-integration-pooled-recursion-v1.
+
+## Funded concurrent multi-recipient recursion
+
+November 26. [Concurrent pooled-output recursive game](papers/integrated_firm/POOLED_RECURSION.md): exact cash/action quotients with independently enumerated labeled service menus, funded cap-0/1/2 comparisons from procedure zero, and a strict output-saturation dominance theorem. Eight-target saturated cap 2 adds 5.967401 ticks per firm after reoptimization; active competition cases are separately solved or explicitly flagged open. The positive case has invariant quantities and customer surplus, so the premium is cost-side rather than higher physical output; binding funding, active-rival positive cap-2, public transfer uncertainty and manufacturing remain open. Next: [physical and competitive enlargement](papers/integrated_firm/NEXT_QUESTION.md).
 
 ## Exact short-horizon concurrent competitive game
 

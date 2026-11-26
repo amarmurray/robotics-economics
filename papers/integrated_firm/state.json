@@ -16,10 +16,11 @@
   },
   "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "formal-integration-20261126T103102Z",
     "acquired_at": "2026-11-26T10:31:02Z",
-    "expires_at": "2026-11-26T12:01:02Z"
+    "expires_at": "2026-11-26T12:01:02Z",
+    "released_at": "2026-11-26T10:37:44.867Z"
   },
   "obligations": {
     "1": {
@@ -27,7 +28,9 @@
       "evidence": [
         "papers/integrated_firm/UNIFIED_MODEL.md",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -40,7 +43,9 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -52,7 +57,9 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -64,7 +71,9 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -77,9 +86,11 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
-      "remaining": "Three-period funded inherited-psi=1 cap-2 null solved; acquire both successive procedures from zero in a larger concurrent game."
+      "remaining": "Positive saturated concurrent cap-2 from zero established; active rival output, binding finance/coordination, evolving representations and physical manufacturing remain open."
     },
     "6": {
       "status": "established_in_stated_restrictions",
@@ -92,9 +103,11 @@
         "papers/integrated_firm/JOINT_TRANSITION.md",
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json"
+        "papers/integrated_firm/joint_game_results.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
-      "remaining": "Two-/three-period game under two continuation conventions solved; longer multi-recipient, physical/manufacturing and complete mixed-equilibrium extension open."
+      "remaining": "Exact pooled demand and saturation theorem; positive active-rival cap-2, complete mixed solver and physical manufacturing remain open."
     },
     "7": {
       "status": "established_in_stated_restrictions",
@@ -107,22 +120,25 @@
         "papers/integrated_firm/joint_transition_results.json",
         "papers/integrated_firm/JOINT_GAME.md",
         "papers/integrated_firm/joint_game_results.json",
-        "papers/integrated_firm/joint_game_verification.json"
+        "papers/integrated_firm/joint_game_verification.json",
+        "papers/integrated_firm/POOLED_RECURSION.md",
+        "papers/integrated_firm/pooled_recursion_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     }
   },
-  "next_action": "Read NEXT_QUESTION.md. Solve a funded multi-recipient four-or-more-period game from psi=0 under matched cap-0/1/2 and fixed continuation selections; use an exact justified restriction or quotient, then restore physical manufacturing. Preserve November 27 pilot and subsequent gates.",
-  "completion": "Finite concurrent core, staged successor restriction, joint transition and exact two-/three-period digital-recipient competitive games solved. Positive concurrent multi-generation effect, physical enlargement and broader equilibrium/calibration open.",
-  "edition": "formal-integration-v1",
+  "next_action": "Restore physical service and arm/mobile manufacturing in the concurrent competitive economy; retain priced quantity and local qualification, separate installed assets, parts, construction delay and dated cash. Also solve nonsaturated positive cap-2 or record mixed-game blocker; preserve Nov 27 pilot synthesis.",
+  "completion": "Finite concurrent core, staged successor restriction, exact short-horizon public-report game and longer pooled-output competitive restriction solved under stated assumptions. Positive active-rival cap-2, physical manufacturing and broader equilibrium/calibration open.",
+  "edition": "formal-integration-pooled-recursion-v1",
   "results": {
     "concurrent_core": "Joint finite stochastic firm solved and independently replayed in 10 cases.",
     "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
     "competition": "Two-period public-state game solved under two continuation selections in four economic cases, including matched reviewed versus automated research.",
     "replay_gate": "Passed: full standard suite run from freshly fetched published source files; all six generated JSON reports exactly match accepted data.",
-    "next_question": "What equilibrium continuation is obtained after concurrent public reports, service and successor investment, and does cap 2 add private value after matched reoptimization?",
+    "next_question": "Restore physical service and arm/mobile manufacturing in the concurrent competitive economy; retain priced quantity and local qualification, separate installed assets, parts, construction delay and dated cash. Also solve nonsaturated positive cap-2 or record mixed-game blocker; preserve Nov 27 pilot synthesis.",
     "joint_counts": "Conditional joint-count quotient proved; exact shared-resource terminal recipient game solved, 64 labeled states in 20 classes; marginal count and action count counterexamples. Multi-generation game open.",
     "joint_transition": "Exact digital-recipient kernel: 1001 stratified concurrent profiles, 3003 permutation checks, 2899 terminal profiles; longer equilibrium open.",
-    "joint_game": "18 exact restricted runs, all pure continuations under stated selections; independent latent-first replay matches. Funded one-target cap-2 adds feasible options but no selected research/wealth. Selection changes rents and scope."
+    "joint_game": "18 exact restricted runs, all pure continuations under stated selections; independent latent-first replay matches. Funded one-target cap-2 adds feasible options but no selected research/wealth. Selection changes rents and scope.",
+    "pooled_recursion": "18/18 longer funded pooled-output cap comparisons solved; eight-target saturated cap-2 premium 5.967401 each; exact labeled-menu/cash verification; positive active-rival and physical manufacturing open."
   }
 }
