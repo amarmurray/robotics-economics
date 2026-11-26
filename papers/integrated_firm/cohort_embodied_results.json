@@ -1,0 +1,1998 @@
+{
+  "synthetic": true,
+  "description": "One physical site and two distinct exchangeable digital sites; exact capped-cash and joint permutation quotient with binary local qualification. No scope or archive changes.",
+  "Cbar": 24,
+  "terminal_cost_bound": 12,
+  "profile_budget": 1800000,
+  "results": [
+    {
+      "parameters": {
+        "name": "overlap_two_dates",
+        "T": 2,
+        "B": 80,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          2,
+          2
+        ],
+        "P": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            112,
+            112
+          ],
+          "new_cash": [
+            32,
+            32
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 3,
+              "modes": [
+                1,
+                2,
+                0
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 5381,
+          "states": 82,
+          "deviations": 1238,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 15,
+              "net1": 17
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 95,
+              "cash1": 97,
+              "net0": 17,
+              "net1": 15
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            112,
+            111
+          ],
+          "new_cash": [
+            32,
+            29
+          ],
+          "salvage": [
+            0,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 3,
+              "modes": [
+                1,
+                2,
+                0
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 3,
+              "cc": 3,
+              "cost": 10,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 5381,
+          "states": 82,
+          "deviations": 1238,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 1,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 17,
+              "net1": 12
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 97,
+              "cash1": 92,
+              "net0": 15,
+              "net1": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "split_two_dates",
+        "T": 2,
+        "B": 80,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          2,
+          4
+        ],
+        "P": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            114,
+            114
+          ],
+          "new_cash": [
+            34,
+            34
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 3,
+              "modes": [
+                1,
+                2,
+                0
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 5,
+              "modes": [
+                1,
+                0,
+                2
+              ],
+              "use": 4,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 5381,
+          "states": 82,
+          "deviations": 1238,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 17,
+              "net1": 17
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 97,
+              "cash1": 97,
+              "net0": 17,
+              "net1": 17
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            114,
+            114
+          ],
+          "new_cash": [
+            34,
+            34
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 3,
+              "modes": [
+                1,
+                2,
+                0
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 5,
+              "modes": [
+                1,
+                0,
+                2
+              ],
+              "use": 4,
+              "copies": 1,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 5381,
+          "states": 82,
+          "deviations": 1238,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 17,
+              "net1": 17
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 97,
+              "cash1": 97,
+              "net0": 17,
+              "net1": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "binding_overlap",
+        "T": 2,
+        "B": 7,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          2,
+          2
+        ],
+        "P": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            37,
+            35
+          ],
+          "new_cash": [
+            30,
+            28
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 3276,
+          "states": 154,
+          "deviations": 1366,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 7,
+              "cash1": 7,
+              "net0": 13,
+              "net1": 13
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 20,
+              "cash1": 20,
+              "net0": 17,
+              "net1": 15
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            35,
+            35
+          ],
+          "new_cash": [
+            28,
+            28
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 3276,
+          "states": 154,
+          "deviations": 1366,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 7,
+              "cash1": 7,
+              "net0": 13,
+              "net1": 13
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 20,
+              "cash1": 20,
+              "net0": 15,
+              "net1": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "binding_split",
+        "T": 2,
+        "B": 7,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          2,
+          4
+        ],
+        "P": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            37,
+            37
+          ],
+          "new_cash": [
+            30,
+            30
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 4,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 2981,
+          "states": 145,
+          "deviations": 1262,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 7,
+              "cash1": 7,
+              "net0": 13,
+              "net1": 13
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 20,
+              "cash1": 20,
+              "net0": 17,
+              "net1": 17
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            37,
+            37
+          ],
+          "new_cash": [
+            30,
+            30
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                2,
+                1
+              ],
+              "use": 2,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 4,
+              "copies": 1,
+              "hh": 2,
+              "cc": 2,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 2981,
+          "states": 145,
+          "deviations": 1262,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 7,
+              "cash1": 7,
+              "net0": 13,
+              "net1": 13
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 20,
+              "cash1": 20,
+              "net0": 17,
+              "net1": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "four_dates_cap0",
+        "T": 4,
+        "B": 120,
+        "K": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          0
+        ],
+        "P": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            166,
+            166
+          ],
+          "new_cash": [
+            44,
+            44
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 0,
+              "copies": 1,
+              "hh": 3,
+              "cc": 3,
+              "cost": 12,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "order",
+                0,
+                0,
+                2,
+                1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 0,
+              "copies": 1,
+              "hh": 3,
+              "cc": 3,
+              "cost": 12,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "order",
+                0,
+                0,
+                2,
+                1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 636843,
+          "states": 3695,
+          "deviations": 81938,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 2,
+              "assembly": 0,
+              "cash0": 120,
+              "cash1": 120,
+              "net0": 8,
+              "net1": 8
+            },
+            {
+              "date": 2,
+              "jobs": 2,
+              "customer_surplus": 2,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 2,
+              "cash0": 128,
+              "cash1": 128,
+              "net0": 4,
+              "net1": 4
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 132,
+              "cash1": 132,
+              "net0": 16,
+              "net1": 16
+            },
+            {
+              "date": 4,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 148,
+              "cash1": 148,
+              "net0": 16,
+              "net1": 16
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            166,
+            164
+          ],
+          "new_cash": [
+            46,
+            42
+          ],
+          "salvage": [
+            0,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 0,
+              "copies": 1,
+              "hh": 3,
+              "cc": 3,
+              "cost": 10,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": 6,
+              "modes": [
+                0,
+                1,
+                2
+              ],
+              "use": 0,
+              "copies": 1,
+              "hh": 3,
+              "cc": 3,
+              "cost": 12,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "order",
+                0,
+                0,
+                2,
+                1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 636843,
+          "states": 3695,
+          "deviations": 81938,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 4,
+              "customer_surplus": 8,
+              "train": 0,
+              "successor": 0,
+              "orders": 1,
+              "assembly": 0,
+              "cash0": 120,
+              "cash1": 120,
+              "net0": 10,
+              "net1": 8
+            },
+            {
+              "date": 2,
+              "jobs": 3,
+              "customer_surplus": 5,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 1,
+              "cash0": 130,
+              "cash1": 128,
+              "net0": 12,
+              "net1": 2
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 142,
+              "cash1": 130,
+              "net0": 12,
+              "net1": 16
+            },
+            {
+              "date": 4,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 154,
+              "cash1": 146,
+              "net0": 12,
+              "net1": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "four_dates_cap1",
+        "T": 4,
+        "B": 120,
+        "K": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          0
+        ],
+        "P": 0,
+        "cap": 1
+      },
+      "results": [
+        {
+          "status": "open",
+          "rule": 1,
+          "quotient": true,
+          "reason": "Error: profile budget",
+          "profiles": 1800001,
+          "states": 7685
+        },
+        {
+          "status": "open",
+          "rule": -1,
+          "quotient": true,
+          "reason": "Error: profile budget",
+          "profiles": 1800001,
+          "states": 7685
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "four_dates_cap2",
+        "T": 4,
+        "B": 120,
+        "K": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "M": [
+          0,
+          0
+        ],
+        "P": 0,
+        "cap": 2
+      },
+      "results": [
+        {
+          "status": "open",
+          "rule": 1,
+          "quotient": true,
+          "reason": "Error: profile budget",
+          "profiles": 1800001,
+          "states": 9053
+        },
+        {
+          "status": "open",
+          "rule": -1,
+          "quotient": true,
+          "reason": "Error: profile budget",
+          "profiles": 1800001,
+          "states": 9053
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "inherited_three_dates_cap1",
+        "T": 3,
+        "B": 80,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          0,
+          0
+        ],
+        "P": 1,
+        "cap": 1
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            118,
+            118
+          ],
+          "new_cash": [
+            36,
+            36
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 4,
+              "modes": [
+                0,
+                0,
+                1
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": 2,
+              "modes": [
+                0,
+                1,
+                0
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 261799,
+          "states": 555,
+          "deviations": 15750,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 2,
+              "customer_surplus": 2,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 2,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 4,
+              "net1": 4
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 84,
+              "cash1": 84,
+              "net0": 16,
+              "net1": 16
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 100,
+              "cash1": 100,
+              "net0": 16,
+              "net1": 16
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            118,
+            118
+          ],
+          "new_cash": [
+            36,
+            36
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 4,
+              "modes": [
+                0,
+                0,
+                1
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": 2,
+              "modes": [
+                0,
+                1,
+                0
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 261799,
+          "states": 555,
+          "deviations": 15750,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 2,
+              "customer_surplus": 2,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 2,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 4,
+              "net1": 4
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 84,
+              "cash1": 84,
+              "net0": 16,
+              "net1": 16
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 100,
+              "cash1": 100,
+              "net0": 16,
+              "net1": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "inherited_three_dates_cap2",
+        "T": 3,
+        "B": 80,
+        "K": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "M": [
+          0,
+          0
+        ],
+        "P": 1,
+        "cap": 2
+      },
+      "results": [
+        {
+          "status": "solved",
+          "rule": 1,
+          "quotient": true,
+          "wealth": [
+            118,
+            118
+          ],
+          "new_cash": [
+            36,
+            36
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 4,
+              "modes": [
+                0,
+                0,
+                1
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": 2,
+              "modes": [
+                0,
+                1,
+                0
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 1003196,
+          "states": 1322,
+          "deviations": 39860,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 2,
+              "customer_surplus": 2,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 2,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 4,
+              "net1": 4
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 84,
+              "cash1": 84,
+              "net0": 16,
+              "net1": 16
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 100,
+              "cash1": 100,
+              "net0": 16,
+              "net1": 16
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "rule": -1,
+          "quotient": true,
+          "wealth": [
+            118,
+            118
+          ],
+          "new_cash": [
+            36,
+            36
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "p2": [
+            0,
+            0
+          ],
+          "root": [
+            {
+              "q": 4,
+              "modes": [
+                0,
+                0,
+                1
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": 2,
+              "modes": [
+                0,
+                1,
+                0
+              ],
+              "use": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 1003196,
+          "states": 1322,
+          "deviations": 39860,
+          "dated": [
+            {
+              "date": 1,
+              "jobs": 2,
+              "customer_surplus": 2,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 2,
+              "cash0": 80,
+              "cash1": 80,
+              "net0": 4,
+              "net1": 4
+            },
+            {
+              "date": 2,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 84,
+              "cash1": 84,
+              "net0": 16,
+              "net1": 16
+            },
+            {
+              "date": 3,
+              "jobs": 4,
+              "customer_surplus": 6,
+              "train": 0,
+              "successor": 0,
+              "orders": 0,
+              "assembly": 0,
+              "cash0": 100,
+              "cash1": 100,
+              "net0": 16,
+              "net1": 16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "labeled_value_checks": [
+    {
+      "case": "overlap_two_dates",
+      "rule": 1,
+      "quotient_profiles": 5381,
+      "labeled_uncapped_profiles": 1060526,
+      "wealth": [
+        112,
+        112
+      ]
+    },
+    {
+      "case": "overlap_two_dates",
+      "rule": -1,
+      "quotient_profiles": 5381,
+      "labeled_uncapped_profiles": 1060526,
+      "wealth": [
+        112,
+        111
+      ]
+    },
+    {
+      "case": "split_two_dates",
+      "rule": 1,
+      "quotient_profiles": 5381,
+      "labeled_uncapped_profiles": 1059374,
+      "wealth": [
+        114,
+        114
+      ]
+    },
+    {
+      "case": "split_two_dates",
+      "rule": -1,
+      "quotient_profiles": 5381,
+      "labeled_uncapped_profiles": 1059374,
+      "wealth": [
+        114,
+        114
+      ]
+    },
+    {
+      "case": "binding_overlap",
+      "rule": 1,
+      "quotient_profiles": 3276,
+      "labeled_uncapped_profiles": 16662,
+      "wealth": [
+        37,
+        35
+      ]
+    },
+    {
+      "case": "binding_overlap",
+      "rule": -1,
+      "quotient_profiles": 3276,
+      "labeled_uncapped_profiles": 16662,
+      "wealth": [
+        35,
+        35
+      ]
+    },
+    {
+      "case": "binding_split",
+      "rule": 1,
+      "quotient_profiles": 2981,
+      "labeled_uncapped_profiles": 15537,
+      "wealth": [
+        37,
+        37
+      ]
+    },
+    {
+      "case": "binding_split",
+      "rule": -1,
+      "quotient_profiles": 2981,
+      "labeled_uncapped_profiles": 15537,
+      "wealth": [
+        37,
+        37
+      ]
+    }
+  ]
+}
