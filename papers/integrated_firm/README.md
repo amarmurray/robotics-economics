@@ -46,3 +46,6 @@ This edition solves a concurrent finite firm and two precisely stated extensions
 
 The common state and resource account provide the integration architecture. The open task is to restore the restrictions removed in the cohort solution and carry the competitive response through enough generations for successor procedures to matter. The current [state](state.json) and [integration contract](INTEGRATION_CONTRACT.md) preserve the existing theory-week and Christmas research obligations.
 
+## Dated physical manufacturing and rival response
+
+[Embodied competitive game](EMBODIED_GAME.md) · [Code](embodied_game.js) · [Results](embodied_game_results.json). Reproduce: `node embodied_game.js > embodied_game_results.json`. Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.

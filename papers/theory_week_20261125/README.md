@@ -96,3 +96,8 @@ All committed outputs remain private in amarmurray/robotics-economics. Source-br
 
 At completion, stop this bounded week task. The wider production program remains on its existing December 25 schedule. Do not start new schedules, workers, outreach, paid compute, public publication or unrelated changes from a future run without separate authorization.
 
+## November 26: embodied competitive integration
+
+Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.
+
+[Derivation and replay](../integrated_firm/EMBODIED_GAME.md). The original week clock and midpoint/final synthesis obligations remain unchanged.

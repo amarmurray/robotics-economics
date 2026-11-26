@@ -1,0 +1,6062 @@
+{
+  "synthetic": true,
+  "units": "cash ticks, accepted jobs, human and compute slots, kit and installed machine counts",
+  "cases": [
+    {
+      "parameters": {
+        "name": "kit_endowment_low_cash",
+        "T": 2,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 7,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          1,
+          1
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            17,
+            13
+          ],
+          "new_cash": [
+            10,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "4352/256",
+            "3328/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 232,
+          "states": 50,
+          "deviation_checks": 208,
+          "menu_checks": 10,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 7,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 7,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 12,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 10,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            13,
+            13
+          ],
+          "new_cash": [
+            6,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "3328/256",
+            "3328/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 232,
+          "states": 50,
+          "deviation_checks": 208,
+          "menu_checks": 10,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 7,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 7,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 10,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 10,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            17,
+            13
+          ],
+          "new_cash": [
+            10,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "4352/256",
+            "3328/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 320,
+          "states": 82,
+          "deviation_checks": 304,
+          "menu_checks": 12,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 7,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 7,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 12,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 10,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            13,
+            13
+          ],
+          "new_cash": [
+            6,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "3328/256",
+            "3328/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 320,
+          "states": 82,
+          "deviation_checks": 304,
+          "menu_checks": 12,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 7,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 7,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 10,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 10,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "kit_endowment_funded",
+        "T": 2,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          1,
+          1
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            26,
+            22
+          ],
+          "new_cash": [
+            10,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "6656/256",
+            "5632/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 3267,
+          "states": 298,
+          "deviation_checks": 1938,
+          "menu_checks": 27,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 21,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 19,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            22,
+            22
+          ],
+          "new_cash": [
+            6,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "5632/256",
+            "5632/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 3267,
+          "states": 298,
+          "deviation_checks": 1938,
+          "menu_checks": 27,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 19,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            26,
+            24
+          ],
+          "new_cash": [
+            8,
+            8
+          ],
+          "salvage": [
+            2,
+            0
+          ],
+          "exact": [
+            "6656/256",
+            "6144/256"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 14415,
+          "states": 1410,
+          "deviation_checks": 8754,
+          "menu_checks": 55,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 18,
+              "cost0": 10,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            26,
+            24
+          ],
+          "new_cash": [
+            8,
+            8
+          ],
+          "salvage": [
+            2,
+            0
+          ],
+          "exact": [
+            "6656/256",
+            "6144/256"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 14415,
+          "states": 1410,
+          "deviation_checks": 8754,
+          "menu_checks": 55,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 18,
+              "cost0": 10,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "qualified_kit_funded",
+        "T": 2,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          1,
+          1
+        ],
+        "m": [
+          1,
+          0
+        ],
+        "p": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            26,
+            22
+          ],
+          "new_cash": [
+            10,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "6656/256",
+            "5632/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 3267,
+          "states": 298,
+          "deviation_checks": 1938,
+          "menu_checks": 27,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 21,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 19,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            22,
+            22
+          ],
+          "new_cash": [
+            6,
+            6
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "5632/256",
+            "5632/256"
+          ],
+          "root": [
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 3267,
+          "states": 298,
+          "deviation_checks": 1938,
+          "menu_checks": 27,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 10,
+              "cost0": 7,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 19,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            25,
+            25
+          ],
+          "new_cash": [
+            7,
+            7
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "6400/256",
+            "6400/256"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 16947,
+          "states": 1410,
+          "deviation_checks": 9538,
+          "menu_checks": 55,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 7,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 7,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            25,
+            25
+          ],
+          "new_cash": [
+            7,
+            7
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "6400/256",
+            "6400/256"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 16947,
+          "states": 1410,
+          "deviation_checks": 9538,
+          "menu_checks": 55,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 7,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 7,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "procure_then_assemble",
+        "T": 3,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          0,
+          0
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            29,
+            27
+          ],
+          "new_cash": [
+            13,
+            11
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "118784/4096",
+            "110592/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 122241,
+          "states": 10519,
+          "deviation_checks": 62814,
+          "menu_checks": 145,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 5,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 24,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 24,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            27,
+            27
+          ],
+          "new_cash": [
+            11,
+            11
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "110592/4096",
+            "110592/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 122241,
+          "states": 10519,
+          "deviation_checks": 62814,
+          "menu_checks": 145,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 14,
+              "cost0": 8,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.5
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 14,
+              "cost0": 8,
+              "cash_start0": 21,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 24,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.5
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            29,
+            27
+          ],
+          "new_cash": [
+            13,
+            11
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "118784/4096",
+            "110592/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 2,
+              "cc": 0,
+              "cost": 5,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 3,
+          "profiles": 497873,
+          "states": 59820,
+          "deviation_checks": 313302,
+          "menu_checks": 351,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 5,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0,
+              "revenue0": 12,
+              "cost0": 7,
+              "cash_start0": 24,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 8,
+              "cost1": 5,
+              "cash_start1": 24,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            27,
+            27
+          ],
+          "new_cash": [
+            11,
+            11
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "110592/4096",
+            "110592/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 497873,
+          "states": 59820,
+          "deviation_checks": 313302,
+          "menu_checks": 351,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 14,
+              "cost0": 8,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.5
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 14,
+              "cost0": 8,
+              "cash_start0": 21,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10,
+              "cost1": 7,
+              "cash_start1": 24,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "procure_then_assemble_higher_demand",
+        "T": 3,
+        "H": 3,
+        "C": 4,
+        "A": [
+          18,
+          14
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          0,
+          0
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 0
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            40.75,
+            40.25
+          ],
+          "new_cash": [
+            24.75,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "166912/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 227815,
+          "states": 16912,
+          "deviation_checks": 113028,
+          "menu_checks": 181,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.75,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.875,
+              "digital1": 0.75,
+              "revenue1": 20.75,
+              "cost1": 8,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.625,
+              "cs1": 1.75
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            40.5,
+            40.25
+          ],
+          "new_cash": [
+            24.5,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "165888/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 227815,
+          "states": 16912,
+          "deviation_checks": 113028,
+          "menu_checks": 181,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.5,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0.625,
+              "revenue1": 21,
+              "cost1": 8.25,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 1.625
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            40.75,
+            40.25
+          ],
+          "new_cash": [
+            24.75,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "166912/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 1225241,
+          "states": 117451,
+          "deviation_checks": 714836,
+          "menu_checks": 498,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.75,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.875,
+              "digital1": 0.75,
+              "revenue1": 20.75,
+              "cost1": 8,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.625,
+              "cs1": 1.75
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            40.5,
+            40.25
+          ],
+          "new_cash": [
+            24.5,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "165888/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 1225241,
+          "states": 117451,
+          "deviation_checks": 714836,
+          "menu_checks": 498,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.5,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0.625,
+              "revenue1": 21,
+              "cost1": 8.25,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 1.625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "qualified_procedure",
+        "T": 3,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          1,
+          1
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 1,
+        "cap": 1
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            30.5,
+            27.5
+          ],
+          "new_cash": [
+            14.5,
+            11.5
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "124928/4096",
+            "112640/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                3,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 206013,
+          "states": 10519,
+          "deviation_checks": 67778,
+          "menu_checks": 145,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 1,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 0.75,
+              "digital0": 1,
+              "revenue0": 15.5,
+              "cost0": 8,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10.5,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16.5,
+              "cost0": 8.5,
+              "cash_start0": 22.5,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.25,
+              "revenue1": 9.5,
+              "cost1": 6.5,
+              "cash_start1": 24.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            30.5,
+            27.125
+          ],
+          "new_cash": [
+            14.5,
+            11.125
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "124928/4096",
+            "111104/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                3,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 206013,
+          "states": 10519,
+          "deviation_checks": 67778,
+          "menu_checks": 145,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 1,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16.5,
+              "cost0": 8.5,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.25,
+              "revenue1": 9.5,
+              "cost1": 7.5,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0.25,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16,
+              "cost0": 8.5,
+              "cash_start0": 23,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0.1875,
+              "revenue1": 11.5,
+              "cost1": 7.375,
+              "cash_start1": 23,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.9375
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            28,
+            28
+          ],
+          "new_cash": [
+            10,
+            10
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "114688/4096",
+            "114688/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 1983450,
+          "states": 84294,
+          "deviation_checks": 542738,
+          "menu_checks": 399,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 20,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 20,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            28,
+            28
+          ],
+          "new_cash": [
+            10,
+            10
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "114688/4096",
+            "114688/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 1983450,
+          "states": 84294,
+          "deviation_checks": 542738,
+          "menu_checks": 399,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 20,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 20,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "qualified_procedure_cap2",
+        "T": 3,
+        "H": 3,
+        "C": 4,
+        "A": [
+          14,
+          10
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          1,
+          1
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 1,
+        "cap": 2
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            30.5,
+            27.5
+          ],
+          "new_cash": [
+            14.5,
+            11.5
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "124928/4096",
+            "112640/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                3,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 566461,
+          "states": 22168,
+          "deviation_checks": 143712,
+          "menu_checks": 201,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 1,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 0.75,
+              "digital0": 1,
+              "revenue0": 15.5,
+              "cost0": 8,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 10.5,
+              "cost1": 7,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16.5,
+              "cost0": 8.5,
+              "cash_start0": 22.5,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.25,
+              "revenue1": 9.5,
+              "cost1": 6.5,
+              "cash_start1": 24.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            30.5,
+            27.125
+          ],
+          "new_cash": [
+            14.5,
+            11.125
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "124928/4096",
+            "111104/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                3,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 7,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 566461,
+          "states": 22168,
+          "deviation_checks": 143712,
+          "menu_checks": 201,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 8,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 1,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 12,
+              "cost1": 7,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16.5,
+              "cost0": 8.5,
+              "cash_start0": 15,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.25,
+              "revenue1": 9.5,
+              "cost1": 7.5,
+              "cash_start1": 21,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0.25,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.75,
+              "revenue0": 16,
+              "cost0": 8.5,
+              "cash_start0": 23,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0.1875,
+              "revenue1": 11.5,
+              "cost1": 7.375,
+              "cash_start1": 23,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 0.9375
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            28,
+            28
+          ],
+          "new_cash": [
+            10,
+            10
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "114688/4096",
+            "114688/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 4509415,
+          "states": 162931,
+          "deviation_checks": 1024612,
+          "menu_checks": 531,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 20,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 20,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            28,
+            28
+          ],
+          "new_cash": [
+            10,
+            10
+          ],
+          "salvage": [
+            2,
+            2
+          ],
+          "exact": [
+            "114688/4096",
+            "114688/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 1,
+              "cost": 8,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "assemble1",
+                1,
+                1,
+                0,
+                1,
+                1
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 4509415,
+          "states": 162931,
+          "deviation_checks": 1024612,
+          "menu_checks": 531,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 6,
+              "cost0": 8,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 1,
+              "mobile_kit0": 1,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 1,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 6,
+              "cost1": 8,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 1,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 14,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 14,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 1,
+              "revenue0": 16,
+              "cost0": 10,
+              "cash_start0": 20,
+              "arm0": 0,
+              "mobile0": 1,
+              "arm_kit0": 1,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 1,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 16,
+              "cost1": 10,
+              "cash_start1": 20,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 1,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 1,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "name": "procure_low_parts_cost",
+        "T": 3,
+        "H": 3,
+        "C": 4,
+        "A": [
+          18,
+          14
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          0,
+          0
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 0,
+        "parts": [
+          1,
+          2
+        ]
+      },
+      "results": [
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": 1,
+          "wealth": [
+            40.75,
+            40.25
+          ],
+          "new_cash": [
+            24.75,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "166912/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 227815,
+          "states": 16912,
+          "deviation_checks": 113028,
+          "menu_checks": 181,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.75,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.875,
+              "digital1": 0.75,
+              "revenue1": 20.75,
+              "cost1": 8,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.625,
+              "cs1": 1.75
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": false,
+          "rule": -1,
+          "wealth": [
+            40.5,
+            40.25
+          ],
+          "new_cash": [
+            24.5,
+            24.25
+          ],
+          "salvage": [
+            0,
+            0
+          ],
+          "exact": [
+            "165888/4096",
+            "164864/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 1,
+          "profiles": 227815,
+          "states": 16912,
+          "deviation_checks": 113028,
+          "menu_checks": 181,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 10,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 10,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 1,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 0,
+              "cs1": 4
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 20,
+              "cost0": 8,
+              "cash_start0": 17,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0.75,
+              "digital1": 0.75,
+              "revenue1": 19,
+              "cost1": 8.5,
+              "cash_start1": 17,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0.25,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 3.25,
+              "cs1": 1.75
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19.5,
+              "cost0": 8,
+              "cash_start0": 29,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0.625,
+              "revenue1": 21,
+              "cost1": 8.25,
+              "cash_start1": 27.5,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 1.625
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": 1,
+          "wealth": [
+            43,
+            43
+          ],
+          "new_cash": [
+            27,
+            25
+          ],
+          "salvage": [
+            0,
+            2
+          ],
+          "exact": [
+            "176128/4096",
+            "176128/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "order1",
+                0,
+                0,
+                2,
+                1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 3644986,
+          "states": 292499,
+          "deviation_checks": 1868746,
+          "menu_checks": 757,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 12,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 16,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 1,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 21,
+              "cost0": 8,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 11,
+              "cost1": 8,
+              "cash_start1": 23,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 1,
+              "cs1": 2.5
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19,
+              "cost0": 8,
+              "cash_start0": 32,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 25,
+              "cost1": 10,
+              "cash_start1": 26,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 2.5
+            }
+          ]
+        },
+        {
+          "status": "solved",
+          "manufacture": true,
+          "rule": -1,
+          "wealth": [
+            43,
+            43
+          ],
+          "new_cash": [
+            27,
+            25
+          ],
+          "salvage": [
+            0,
+            2
+          ],
+          "exact": [
+            "176128/4096",
+            "176128/4096"
+          ],
+          "root": [
+            {
+              "q": [
+                0,
+                1
+              ],
+              "pr": 0,
+              "dg": 1,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 2,
+              "cost": 9,
+              "r": [
+                "train1",
+                1,
+                2,
+                0,
+                2,
+                5
+              ],
+              "b": [
+                "none",
+                0,
+                0,
+                0,
+                -1,
+                0
+              ]
+            },
+            {
+              "q": [
+                1,
+                0
+              ],
+              "pr": 1,
+              "dg": 0,
+              "ep": 0,
+              "ed": 0,
+              "copies": 0,
+              "hh": 3,
+              "cc": 0,
+              "cost": 9,
+              "r": [
+                "none",
+                0,
+                0,
+                0,
+                0,
+                -1
+              ],
+              "b": [
+                "order1",
+                0,
+                0,
+                2,
+                1,
+                0
+              ]
+            }
+          ],
+          "root_equilibria": 2,
+          "profiles": 3644986,
+          "states": 292499,
+          "deviation_checks": 1868746,
+          "menu_checks": 757,
+          "dated": [
+            {
+              "date": 1,
+              "physical0": 0,
+              "digital0": 1,
+              "revenue0": 12,
+              "cost0": 9,
+              "cash_start0": 16,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 1,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 0,
+              "revenue1": 16,
+              "cost1": 9,
+              "cash_start1": 16,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 1,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 1,
+              "cs1": 1
+            },
+            {
+              "date": 2,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 21,
+              "cost0": 8,
+              "cash_start0": 19,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 0,
+              "digital1": 1,
+              "revenue1": 11,
+              "cost1": 8,
+              "cash_start1": 23,
+              "arm1": 0,
+              "mobile1": 0,
+              "arm_kit1": 0,
+              "mobile_kit1": 1,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 1,
+              "cs0": 1,
+              "cs1": 2.5
+            },
+            {
+              "date": 3,
+              "physical0": 1,
+              "digital0": 0.5,
+              "revenue0": 19,
+              "cost0": 8,
+              "cash_start0": 32,
+              "arm0": 0,
+              "mobile0": 0,
+              "arm_kit0": 0,
+              "mobile_kit0": 0,
+              "train0": 0,
+              "procedure0": 0,
+              "order0_0": 0,
+              "order1_0": 0,
+              "assemble0_0": 0,
+              "assemble1_0": 0,
+              "physical1": 1,
+              "digital1": 1,
+              "revenue1": 25,
+              "cost1": 10,
+              "cash_start1": 26,
+              "arm1": 0,
+              "mobile1": 1,
+              "arm_kit1": 0,
+              "mobile_kit1": 0,
+              "train1": 0,
+              "procedure1": 0,
+              "order0_1": 0,
+              "order1_1": 0,
+              "assemble0_1": 0,
+              "assemble1_1": 0,
+              "cs0": 4,
+              "cs1": 2.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

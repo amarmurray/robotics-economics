@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-pooled-recursion-v1.
+Handoff ID: formal-integration-embodied-game-v1.
+
+## Dated embodied competitive integration
+
+November 26. [Exact embodied game](papers/integrated_firm/EMBODIED_GAME.md): Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open. Next: [active-rival second generation and pilot synthesis](papers/integrated_firm/NEXT_QUESTION.md).
 
 ## Funded concurrent multi-recipient recursion
 

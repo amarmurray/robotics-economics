@@ -130,3 +130,20 @@ See [JOINT_TRANSITION.md](JOINT_TRANSITION.md) and [exact results](joint_transit
 ## November 26: exact competitive continuation on the joint-recipient kernel
 
 [JOINT_GAME](JOINT_GAME.md) reports exact root payoff sets for two-/three-period digital-recipient games under two pure-equilibrium selection rules. In the funded one-target, three-period case (B=6, inherited psi=1, both archives), permitting generation 2 adds two legal root actions per firm but selected terminal wealth is unchanged: (45/4,145/16) under highest-total continuation selection; (41/4,17/2) under lowest-total. All reported root equilibria choose no research. The two-target high-demand game has identical first-period actions but different terminal total wealth across selection rules (173/4 versus 43). This is selection dependence, not a productivity effect. Full results and alternate reference replay are in joint_game_results.json and joint_game_verification.json.
+
+## Embodied competitive economy
+
+Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.
+
+[Methods](EMBODIED_GAME.md) · [Dated results](embodied_game_results.json). Highest-total pure continuation selection:
+
+| Case | Combined wealth, prohibited → allowed | Accepted jobs | Customer surplus |
+| --- | ---: | ---: | ---: |
+| kit_endowment_low_cash | 30 → 30 | 4 → 4 | 4 → 4 |
+| kit_endowment_funded | 48 → 50 | 4 → 5 | 4 → 7 |
+| qualified_kit_funded | 48 → 50 | 4 → 6 | 4 → 12 |
+| procure_then_assemble | 56 → 56 | 6 → 6 | 6 → 6 |
+| procure_then_assemble_higher_demand | 81 → 81 | 8.125 → 8.125 | 14.375 → 14.375 |
+| qualified_procedure | 58 → 56 | 7.5 → 10 | 10.5 → 20 |
+| qualified_procedure_cap2 | 58 → 56 | 7.5 → 10 | 10.5 → 20 |
+| procure_low_parts_cost | 81 → 86 | 8.125 → 8 | 14.375 → 12 |
