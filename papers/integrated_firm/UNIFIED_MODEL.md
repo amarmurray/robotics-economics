@@ -417,3 +417,10 @@ Four investment dates with 40 or 60 independently resourced terminal service shi
 Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.
 
 [Derivation and exact comparisons](INTERNAL_SUCCESSOR.md) · [Reproduction](internal_successor.js) · [Results](internal_successor_results.json).
+
+
+## November 26: calendar composition and staggered service
+
+Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) eliminates the +23.173828125 cap-2 premium under the higher-total continuation; both choose first-generation learning. Advancing the 29 shifts another date changes the selected investment to costly outside qualification and also yields a cap-2 null. Early digital admission and alternative selection tested; concurrent inexpensive-kit diagnostic is explicitly budget-limited if unsolved.
+
+[Derivation and exact block-restricted comparisons](STAGGERED_WINDOW.md) · [Reproduction](staggered_window.js) · [Results](staggered_window_results.json). Fixed-program identity, not a universal threshold. No empirical estimate.

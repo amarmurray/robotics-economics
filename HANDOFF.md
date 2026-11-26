@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-internal-successor-v1
+Handoff ID: formal-integration-staggered-window-v1
+
+## Staggered recipient entry and timing of usable capability
+
+November 26. Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) eliminates the +23.173828125 cap-2 premium under the higher-total continuation; both choose first-generation learning. Advancing the 29 shifts another date changes the selected investment to costly outside qualification and also yields a cap-2 null. Early digital admission and alternative selection tested; concurrent inexpensive-kit diagnostic is explicitly budget-limited if unsolved. [Derivation and reproduction](papers/integrated_firm/STAGGERED_WINDOW.md). Next: [concurrent investment](papers/integrated_firm/NEXT_QUESTION.md). Original gates preserved.
 
 ## Internally produced successor procedures and robustness
 

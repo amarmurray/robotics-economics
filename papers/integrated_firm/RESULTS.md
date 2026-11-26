@@ -163,3 +163,10 @@ Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both
 Endogenous kit ordering and assembly restored to the three-date rights/scope economy. All 16 matched cases solved (15 pure roots, one exact two-action mixed root with pure continuations). Installed mobile rights premium survives (+1 private tick); a paid mobile kit without installed hardware makes rights unused. With installed arm and paid mobile kit, rights displace selected assembly; under the higher-total pure continuation rule the root has no pure equilibrium across 170×170 retained profiles. Verified mixed root retains with probabilities 3/5 and 1/2, wealth (171,169.2), 12.8 jobs and surplus 22.4, versus no-right pure wealth (174,169), 12 jobs and surplus 18. Lower-total continuation gives equal private wealth (171,170) with and without rights, but rights add one job. No selected kit orders or endogenous successor acquisition in these three-date cases.
 
 [Derivation and exact mixed certificate](MANUFACTURING_RIGHTS.md) · [Solver](manufacturing_rights.js) · [Results](manufacturing_rights_results.json). Conditional pure continuation selections, no unrestricted mixed solver or empirical calibration.
+
+
+## November 26: calendar composition and staggered service
+
+Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) eliminates the +23.173828125 cap-2 premium under the higher-total continuation; both choose first-generation learning. Advancing the 29 shifts another date changes the selected investment to costly outside qualification and also yields a cap-2 null. Early digital admission and alternative selection tested; concurrent inexpensive-kit diagnostic is explicitly budget-limited if unsolved.
+
+[Derivation and exact block-restricted comparisons](STAGGERED_WINDOW.md) · [Reproduction](staggered_window.js) · [Results](staggered_window_results.json). Fixed-program identity, not a universal threshold. No empirical estimate.

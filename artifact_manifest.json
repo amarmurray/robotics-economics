@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-internal-successor-v1",
+  "snapshot_id": "formal-integration-staggered-window-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "83d9d6c04e547ac88d0b5b6b94587baab7be730c5c03012b93d9d0b3bd464049"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "369abd2451c149d7ca495e9b36f428d03d615b3f03a38ca6c94a2456c80343ef"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,8 +3785,8 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "26977f73eb7947e08fe3f40fe09e1487f1553477423333208166d1e037a717cb"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "b4ebe9c071bb6dfc2bd66289bdccd49e8edcac40d82a9567bacaffaced403115"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
@@ -3855,8 +3855,8 @@
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "5df92640a6eb6bd083e5d7e1320d8fde192497eaf5c95782c817fa735c93e561"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "c09a4567f552dbc52503feab57cbae1b2630599547af104be7461f6af8c1184d"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3876,22 +3876,22 @@
       "repository_path": "papers/integrated_firm/RESULTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/RESULTS.md",
       "name": "RESULTS.md",
-      "version": "formal-integration-manufacturing-rights-v1",
-      "sha256": "833e240ba164257bd24debc0833d2244b672a0c99f67d93bfac98093d06fdcc6"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "664efc0234eeb32c997f8a735f2dc3161b70b74d409fcc3e4cb67143133cd12a"
     },
     {
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "ed58acc6da5c3527870cc7801b6fa412826da6e54ab6f3464a68fbddff4b198f"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "683c5dc203a81eabaf7346dfa94f33fd8fdf9bf353732088e97365db5f4109ae"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "e520f869508ba25cebf454468390fdf5c4008a65dfcb7e2735030ab86dbd4e88"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "01a13931ac37bc006e7bdf3f7f12c046097f047d2270e654b51136d48a9c78dd"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "9c94fe7bb57dc8629689149b12193e3dd7ec0e3c654ec31a3c2a0d79ad6ba50b"
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "55d9108e1dd39abdb5e197f2545774fb5cf78f228ff7035873df56930c4cf9fb"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4284,6 +4284,27 @@
       "name": "INTERNAL_SUCCESSOR.md",
       "version": "formal-integration-internal-successor-v1",
       "sha256": "b2df2fa12437f2eae40bae45684b69c5071a3087fe0f4d4b1f3e1976506f9927"
+    },
+    {
+      "repository_path": "papers/integrated_firm/STAGGERED_WINDOW.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/STAGGERED_WINDOW.md",
+      "name": "STAGGERED_WINDOW.md",
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "65ee09e65478c5ab7280a3aab284ebb52e905a533a6af75f5b60f9ec3b5fa72d"
+    },
+    {
+      "repository_path": "papers/integrated_firm/staggered_window.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/staggered_window.js",
+      "name": "staggered_window.js",
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "d60d120033a4c5fcaacd0b11791bb89008a59138d8a51c8861ad0bd8ada13730"
+    },
+    {
+      "repository_path": "papers/integrated_firm/staggered_window_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/staggered_window_results.json",
+      "name": "staggered_window_results.json",
+      "version": "formal-integration-staggered-window-v1",
+      "sha256": "ff2ad9c431c9ce7fef4dcd5c8911c8a188dd541272ceca492ff602b4d307a1c2"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
@@ -4557,16 +4578,16 @@
       "scaffold": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
       "register": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "status": "active conditional theory; field validation open",
-      "latest_synthesis": "papers/integrated_firm/COHORT_SCALE.md"
+      "latest_synthesis": "papers/integrated_firm/STAGGERED_WINDOW.md"
     },
     "formal_integration": {
-      "status": "Finite core and multiple exact competitive restrictions, including concurrent embodied rights/scope and one mixed root, solved; longer binding cash, positive active-rival from-zero cap-2, directed transfer/public latent reports, Economic RL approximation and calibration open.",
+      "status": "Equal-total 63-shift calendar reallocation from (1,1,1,60) to (1,1,30,31) eliminates the +23.173828125 cap-2 premium under the higher-total continuation; both choose first-generation learning. Advancing the 29 shifts another date changes the selected investment to costly outside qualification and also yields a cap-2 null. Early digital admission and alternative selection tested; concurrent inexpensive-kit diagnostic is explicitly budget-limited if unsolved. Earlier restrictions remain solved; general concurrency, binding cash, directed evidence and RL/calibration open.",
       "paper": "papers/integrated_firm/UNIFIED_MODEL.md",
       "results": "papers/integrated_firm/RESULTS.md",
       "ledger": "papers/integrated_firm/CLAIM_LEDGER.md",
       "state": "papers/integrated_firm/state.json",
       "next_question": "papers/integrated_firm/NEXT_QUESTION.md",
-      "published_source_replay": "All 16 exact cases solved; one mixed root verified against 170 actions per player and independently reconstructed forward cash and stock histories within the same implementation."
+      "published_source_replay": "Staggered block comparisons checked with exact best responses and forward dated resource/cash reconstruction; reproduction wrapper and source digest included."
     }
   }
 }
