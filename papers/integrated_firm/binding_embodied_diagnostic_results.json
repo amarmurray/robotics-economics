@@ -1,0 +1,47 @@
+{
+  "synthetic": true,
+  "units": "cash ticks, accepted jobs, human and compute slots, kit and installed machine counts",
+  "cases": [
+    {
+      "parameters": {
+        "name": "four_date_from_zero",
+        "T": 4,
+        "H": 3,
+        "C": 4,
+        "A": [
+          18,
+          14
+        ],
+        "B": 16,
+        "K": [
+          0,
+          0
+        ],
+        "I": [
+          0,
+          0
+        ],
+        "m": [
+          0,
+          0
+        ],
+        "p": 0,
+        "cap": 2,
+        "parts": [
+          1,
+          2
+        ]
+      },
+      "results": [
+        {
+          "status": "open",
+          "manufacture": true,
+          "rule": 1,
+          "reason": "Error: profile budget",
+          "profiles": 300001,
+          "states": 33480
+        }
+      ]
+    }
+  ]
+}

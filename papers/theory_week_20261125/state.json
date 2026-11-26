@@ -103,6 +103,16 @@
         "papers/integrated_firm/embodied_game.js",
         "papers/integrated_firm/embodied_game_results.json"
       ]
+    },
+    {
+      "item": "Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open.",
+      "kind": "conditional proof and exact CPU solution with measured budget diagnostic",
+      "evidence": [
+        "papers/integrated_firm/FUNDED_EMBODIED.md",
+        "papers/integrated_firm/funded_embodied_results.json",
+        "papers/integrated_firm/binding_embodied_diagnostic_results.json",
+        "papers/integrated_firm/PILOT_PREPARATION.md"
+      ]
     }
   ],
   "tracks": [
@@ -132,7 +142,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Solve a longer/multi-recipient nonsaturated competitive embodiment economy with both procedure generations acquired from zero, explicit kit/assembly clocks and dated cash, or record the exact computational/mixed-equilibrium blocker. Restore endogenous evidence/rights and scope only when their transitions remain exact. Prepare November 27 recursive-pilot synthesis using pinned ordinary-policy and transfer-reversal results; preserve November 29, December 2, December 6 and December 25 gates.",
+  "next_action": "Enlarge the four-date funded embodied quotient to distinct physical/digital recipient cohorts with heterogeneous demand and shared manufacturing/validation slots; prove the joint count/action reduction before computing cap-0/1/2, retaining ordinary learning and paid alternatives. Seek positive active-rival cap-2 without tuning away nulls; restore binding finance through an exact bounded cash state or report the measured budget. Complete the November 27 recursive-pilot synthesis from the pinned pilot draft; preserve all subsequent gates.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",

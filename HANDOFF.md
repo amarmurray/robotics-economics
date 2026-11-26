@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-embodied-game-v1.
+Handoff ID: formal-integration-funded-embodied-v1.
+
+## Four-date funded embodied continuation
+
+November 26. [Proof and solution](papers/integrated_firm/FUNDED_EMBODIED.md). Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open. Next: [multi-recipient scale](papers/integrated_firm/NEXT_QUESTION.md). [Pilot preparation](papers/integrated_firm/PILOT_PREPARATION.md) preserves the November 27 checkpoint.
 
 ## Dated embodied competitive integration
 

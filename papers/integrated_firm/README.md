@@ -49,3 +49,8 @@ The common state and resource account provide the integration architecture. The 
 ## Dated physical manufacturing and rival response
 
 [Embodied competitive game](EMBODIED_GAME.md) · [Code](embodied_game.js) · [Results](embodied_game_results.json). Reproduce: `node embodied_game.js > embodied_game_results.json`. Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.
+
+
+## Four-date funded embodied game
+
+[Proof and results](FUNDED_EMBODIED.md) · [Solver](funded_embodied.js) · [Results](funded_embodied_results.json). Run `node funded_embodied.js`. Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open.

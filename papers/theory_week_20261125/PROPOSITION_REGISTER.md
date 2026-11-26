@@ -88,3 +88,6 @@ The [common finite firm](../integrated_firm/UNIFIED_MODEL.md) now determines its
 | Calibration versus interpretability | Separate observation channel, conditional calibration and empirical estimation | No industrial structural parameters estimated |
 
 [Proofs](../integrated_firm/PROPOSITIONS.md) · [Numerical results](../integrated_firm/RESULTS.md) · [Next cumulative question](../integrated_firm/NEXT_QUESTION.md)
+
+
+**Funded strategic cash quotient (conditional proof).** With nonnegative receipts and prefunding above worst-case dated outlays, cash-independent continuation selection supports an exact public-state equilibrium on noncash stocks; lower-cost equal-transition/equal-quantity actions dominate in that selection. Cash-signaled equilibria, binding finance and differing archive transitions are not covered. Six four-date cap comparisons from zero return the same selected wealth and no successor attempts. [Proof, solved restriction and budget diagnostic](../integrated_firm/FUNDED_EMBODIED.md).

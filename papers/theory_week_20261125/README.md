@@ -101,3 +101,8 @@ At completion, stop this bounded week task. The wider production program remains
 Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.
 
 [Derivation and replay](../integrated_firm/EMBODIED_GAME.md). The original week clock and midpoint/final synthesis obligations remain unchanged.
+
+
+## November 26: funded four-date embodied continuation
+
+Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open. [Proof and results](../integrated_firm/FUNDED_EMBODIED.md); [pilot preparation](../integrated_firm/PILOT_PREPARATION.md). Original clocks unchanged.
