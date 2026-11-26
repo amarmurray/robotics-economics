@@ -355,3 +355,8 @@ The current edition establishes a common economic state/action/account, an exact
 ## Cumulative extension: joint recipient configuration
 
 [Joint-count state aggregation and the shared-resource terminal game](JOINT_COUNTS.md) establish that a competitive continuation can be compressed by joint local types under permutation symmetry, but not by each firm's separate qualification or action counts. Two otherwise identical three-target economies with equal marginal qualification counts have unique equilibrium private cash (2,2) versus (4,4) under the same dated cash and compute constraints. The long-horizon recursion game is not yet solved. The theorem and exact terminal solver are the next building block, not an independent recipient-value coefficient.
+
+
+### Concurrent joint recipient transitions
+
+The next enlargement of the common competitive model now has an [exact public-history transition](JOINT_TRANSITION.md) and [tested generator](joint_transition.js). The local digital qualification, archive and rights coordinates and both firms' global stocks enter the same observed next state; the shared latent transfer regime is mixed only after multiplying its conditional report likelihoods. This completes the transition dependency of the joint-count result, not a backward-inducted many-generation game. The digital-only binary restriction fixes physical production and arm/mobile investment outside the menu while retaining reference construction and scope. The public information externality must be separated from private archive capture and from a physical MPK effect.

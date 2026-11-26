@@ -16,10 +16,11 @@
   },
   "writer_scope": "main: papers/integrated_firm plus additive index, handoff, manifest and theory-week synthesis updates",
   "lease": {
-    "status": "active",
+    "status": "released",
     "run_id": "formal-integration-20261126T083427Z",
     "acquired_at": "2026-11-26T08:34:27Z",
-    "expires_at": "2026-11-26T10:04:27Z"
+    "expires_at": "2026-11-26T10:04:27Z",
+    "released_at": "2026-11-26T08:40:00Z"
   },
   "obligations": {
     "1": {
@@ -34,7 +35,9 @@
       "evidence": [
         "papers/integrated_firm/core.py",
         "papers/integrated_firm/integrated_results.json",
-        "papers/integrated_firm/verification_results.json"
+        "papers/integrated_firm/verification_results.json",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -42,7 +45,9 @@
       "status": "established_in_stated_restrictions",
       "evidence": [
         "papers/integrated_firm/PROPOSITIONS.md",
-        "papers/integrated_firm/marginal_results.json"
+        "papers/integrated_firm/marginal_results.json",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -50,7 +55,9 @@
       "status": "established_in_stated_restrictions",
       "evidence": [
         "papers/integrated_firm/core.py",
-        "papers/integrated_firm/UNIFIED_MODEL.md"
+        "papers/integrated_firm/UNIFIED_MODEL.md",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     },
@@ -59,9 +66,11 @@
       "evidence": [
         "papers/integrated_firm/SUCCESSOR_PROCEDURES.md",
         "papers/integrated_firm/cohort_results.json",
-        "papers/integrated_firm/cohort_verification.json"
+        "papers/integrated_firm/cohort_verification.json",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
-      "remaining": "Joint-count reduction now proved; concurrent competitive successor stages still open."
+      "remaining": "Exact digital-recipient concurrent successor transition validated; backward-inducted competitive multi-generation solution open."
     },
     "6": {
       "status": "established_in_stated_restrictions",
@@ -70,9 +79,11 @@
         "papers/integrated_firm/competition_results.json",
         "papers/integrated_firm/marginal_results.json",
         "papers/integrated_firm/JOINT_COUNTS.md",
-        "papers/integrated_firm/joint_counts_results.json"
+        "papers/integrated_firm/joint_counts_results.json",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
-      "remaining": "Implement joint conditional transitions and solve longer recursive-stage game; preserve selection and common posterior."
+      "remaining": "Joint conditional transition validated; solve longer public-state game with equilibrium selection, then physical and manufacturing expansion."
     },
     "7": {
       "status": "established_in_stated_restrictions",
@@ -80,20 +91,23 @@
         "papers/integrated_firm/CLAIM_LEDGER.md",
         "papers/integrated_firm/verify.py",
         "papers/integrated_firm/verify_cohorts.py",
-        "papers/integrated_firm/joint_counts.js"
+        "papers/integrated_firm/joint_counts.js",
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
       ],
       "remaining": "See the corresponding row of CLAIM_LEDGER.md; broader closure remains active."
     }
   },
-  "next_action": "Read NEXT_QUESTION.md. Implement and validate joint conditional transitions on canonical labeled representatives, then solve longer concurrent competitive successor-procedure stages with old policies and paid outside options.",
-  "completion": "Finite concurrent core and scoped successor/competition restrictions solved. Broader many-generation competitive integration remains active; no industrial calibration or sustained-growth claim.",
+  "next_action": "Read NEXT_QUESTION.md. Backward-induct the public-state game on the tested joint transition and action generator; verify unilateral deviations and selection, then enlarge horizon, recipient and physical/embodiment menu.",
+  "completion": "Finite concurrent core, staged successor/competition restrictions and exact digital-recipient concurrent transition solved. Longer competitive equilibrium and physical enlargement open; no calibration or sustained-growth claim.",
   "edition": "formal-integration-v1",
   "results": {
     "concurrent_core": "Joint finite stochastic firm solved and independently replayed in 10 cases.",
     "successor_procedures": "Same service technology yields G=3841/128; 18 scope/deadline/menu cases checked with rational arithmetic; positive second-generation effect at eight targets.",
     "competition": "Two-period public-state game solved under two continuation selections in four economic cases, including matched reviewed versus automated research.",
     "replay_gate": "Passed: full standard suite run from freshly fetched published source files; all six generated JSON reports exactly match accepted data.",
-    "next_question": "Can second-generation procedure gains survive concurrent shared resources, dated cash and competitive recipient continuation?",
-    "joint_counts": "Conditional joint-count quotient proved; exact shared-resource terminal recipient game solved, 64 labeled states in 20 classes; marginal count and action count counterexamples. Multi-generation game open."
+    "next_question": "What equilibrium continuation is obtained after concurrent public reports, service and successor investment, and does cap 2 add private value after matched reoptimization?",
+    "joint_counts": "Conditional joint-count quotient proved; exact shared-resource terminal recipient game solved, 64 labeled states in 20 classes; marginal count and action count counterexamples. Multi-generation game open.",
+    "joint_transition": "Exact digital-recipient kernel: 1001 stratified concurrent profiles, 3003 permutation checks, 2899 terminal profiles; longer equilibrium open."
   }
 }

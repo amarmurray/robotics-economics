@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-joint-counts-v1.
+Handoff ID: formal-integration-joint-transition-v1.
+
+## Exact concurrent public-report transition
+
+November 26. [Kernel, economic mechanism and validation](papers/integrated_firm/JOINT_TRANSITION.md): binary digital recipient restriction now generates feasible concurrent service, retention, ordinary training, old and successor procedures, paid contracts/licenses, audits, reference construction and scope under dated cash and shared resources. Joint likelihood mixes the common regime only after conditional reports; two concurrent successes have probability 1/4 and posterior odds 9:1 in the stated witness. 1001 stratified concurrent profiles match independent exact labeled-history reconstruction; 3003 transported profiles preserve canonical transition. Public informational spillovers are distinct from capture and MPK. Longer competitive equilibrium and physical/arm/mobile enlargement remain open. Next: [backward induction with verified unilateral deviations and continuation selection](papers/integrated_firm/NEXT_QUESTION.md).
 
 ## Joint recipient configurations and the competitive continuation
 

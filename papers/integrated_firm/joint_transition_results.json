@@ -1,0 +1,90 @@
+{
+  "synthetic": true,
+  "restriction": "digital binary recipient sites, fixed physical archive endowment, reference construction and lab scope; common public transfer regime",
+  "cases": [
+    {
+      "odds": [
+        "3",
+        "2"
+      ],
+      "cash": [
+        16,
+        16
+      ],
+      "action_counts": [
+        1577,
+        1052
+      ],
+      "sample_counts": [
+        127,
+        83
+      ]
+    },
+    {
+      "odds": [
+        "1",
+        "0"
+      ],
+      "cash": [
+        16,
+        16
+      ],
+      "action_counts": [
+        1338,
+        813
+      ],
+      "sample_counts": [
+        105,
+        61
+      ]
+    },
+    {
+      "odds": [
+        "0",
+        "1"
+      ],
+      "cash": [
+        16,
+        16
+      ],
+      "action_counts": [
+        1338,
+        813
+      ],
+      "sample_counts": [
+        105,
+        61
+      ]
+    },
+    {
+      "odds": [
+        "3",
+        "2"
+      ],
+      "cash": [
+        3,
+        5
+      ],
+      "action_counts": [
+        3,
+        14
+      ],
+      "sample_counts": [
+        2,
+        5
+      ]
+    }
+  ],
+  "checks": {
+    "joint_profiles_independent_latent_first": 1001,
+    "permuted_profiles": 3003,
+    "terminal_profiles": 2899,
+    "max_next_state_support": 32
+  },
+  "joint_report_witness": {
+    "probability_both_success": "1/4",
+    "posterior_odds": "9:1",
+    "note": "method 1 and method 0, weak law 1/4 for both"
+  },
+  "status": "Exact kernel and action generator tested; longer game equilibrium not yet solved."
+}

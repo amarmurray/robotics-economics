@@ -69,6 +69,14 @@
         "papers/integrated_firm/JOINT_COUNTS.md",
         "papers/integrated_firm/joint_counts_results.json"
       ]
+    },
+    {
+      "item": "Exact public-history joint conditional transition and legal concurrent digital-recipient action generator validated; longer equilibrium open.",
+      "kind": "conditional derivation and exact CPU check",
+      "evidence": [
+        "papers/integrated_firm/JOINT_TRANSITION.md",
+        "papers/integrated_firm/joint_transition_results.json"
+      ]
     }
   ],
   "tracks": [
@@ -98,7 +106,7 @@
       "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
     }
   ],
-  "next_action": "Read NEXT_QUESTION.md. Implement and validate joint conditional transitions on canonical labeled representatives, then solve longer concurrent competitive successor-procedure stages with old policies and paid outside options.",
+  "next_action": "Read NEXT_QUESTION.md. Backward-induct the public-state game on the tested joint transition and action generator; verify unilateral deviations and selection, then enlarge horizon, recipient and physical/embodiment menu.",
   "schedule": {
     "week": {
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",

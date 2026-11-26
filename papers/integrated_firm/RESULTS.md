@@ -120,3 +120,8 @@ The larger integration problem is now specific: retain enough recipient tasks fo
 ## Cumulative result: competitive recipient pairing
 
 See [JOINT_COUNTS.md](JOINT_COUNTS.md) and [exact results](joint_counts_results.json). In the three-target digital-only restriction, with H=2, compute=2, cash=3, each firm has one qualification. Aligned qualifications yield unique equilibrium new private cash (2,2) and customer surplus 4; split qualifications yield (4,4) and customer surplus 2. Both serve two jobs. Under the stated linear demand and resource-cost convention total surplus rises from 8 to 10. The report also enumerates all equilibria in relaxed-resource cases. The 64 labeled binary configurations reduce to 20 joint-count classes; all 44 noncanonical comparisons preserve equilibrium payoff/output/cost multisets. No multi-generation competitive solution yet.
+
+
+## Joint conditional report benchmark (November 26)
+
+See [JOINT_TRANSITION.md](JOINT_TRANSITION.md) and [exact results](joint_transition_results.json). With strong-regime success probabilities 3/4 and 1/2, weak-regime probabilities both 1/4 and prior 3/5, concurrent successes have probability 1/4 (not 11/50) and posterior odds 9:1. 1001 concurrent profiles and 2899 terminal profiles agree exactly with latent-first enumeration; 3003 relabelings preserve the joint law. These are transition checks, not game-equilibrium results. All parameters synthetic.
