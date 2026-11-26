@@ -1,0 +1,112 @@
+{
+  "checks": 24996,
+  "graphCases": 729,
+  "portfolioCases": 1440,
+  "examples": {
+    "induced": {
+      "base": {
+        "val": 6.5,
+        "u": 0,
+        "ix": [
+          0
+        ],
+        "starts": 0.65,
+        "successor": 0
+      },
+      "pass": {
+        "val": 6.7857142857142865,
+        "u": 1,
+        "ix": [
+          0
+        ],
+        "starts": 0.7285714285714286,
+        "successor": 0
+      },
+      "fail": {
+        "val": 6.5,
+        "u": 0,
+        "ix": [
+          0
+        ],
+        "starts": 0.65,
+        "successor": 0
+      },
+      "passProbability": 0.7,
+      "auditGross": 0.20000000000000018,
+      "expectedUpgrade": 0.7,
+      "expectedStarts": 0.7050000000000001,
+      "expectedSuccessor": 0
+    },
+    "displaced": {
+      "base": {
+        "val": 7.5,
+        "u": 1,
+        "ix": [
+          0
+        ],
+        "starts": 0.8,
+        "successor": 0
+      },
+      "pass": {
+        "val": 8.25,
+        "u": 1,
+        "ix": [
+          0
+        ],
+        "starts": 0.875,
+        "successor": 0
+      },
+      "fail": {
+        "val": 6.5,
+        "u": 0,
+        "ix": [
+          0
+        ],
+        "starts": 0.65,
+        "successor": 0
+      },
+      "passProbability": 0.8,
+      "auditGross": 0.40000000000000036,
+      "expectedUpgrade": 0.8,
+      "expectedStarts": 0.8300000000000001,
+      "expectedSuccessor": 0
+    },
+    "startsDecline": {
+      "base": {
+        "val": 9.2,
+        "u": 0,
+        "ix": [
+          1
+        ],
+        "starts": 1,
+        "successor": 1
+      },
+      "pass": {
+        "val": 9.42857142857143,
+        "u": 0,
+        "ix": [
+          0
+        ],
+        "starts": 0.7857142857142858,
+        "successor": 0
+      },
+      "fail": {
+        "val": 9.2,
+        "u": 0,
+        "ix": [
+          1
+        ],
+        "starts": 1,
+        "successor": 1
+      },
+      "passProbability": 0.7,
+      "auditGross": 0.16000000000000192,
+      "expectedUpgrade": 0,
+      "expectedStarts": 0.8500000000000001,
+      "expectedSuccessor": 0.30000000000000004
+    }
+  },
+  "field_calibration": false,
+  "full_repository_ci": false,
+  "scope": "Synthetic finite graph patterns, posterior and independent event-tree enumeration; conditional theory"
+}
