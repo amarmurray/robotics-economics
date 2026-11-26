@@ -1,6 +1,10 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-staggered-window-v1
+Handoff ID: formal-integration-concurrent-window-v1
+
+## Concurrent manufacturing and the cost return to learning
+
+November 26. The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution. [Derivation and reproduction](papers/integrated_firm/CONCURRENT_WINDOW.md). Next: [within-block contingent operation](papers/integrated_firm/NEXT_QUESTION.md). All original gates preserved.
 
 ## Staggered recipient entry and timing of usable capability
 

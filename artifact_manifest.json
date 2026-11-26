@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-staggered-window-v1",
+  "snapshot_id": "formal-integration-concurrent-window-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "369abd2451c149d7ca495e9b36f428d03d615b3f03a38ca6c94a2456c80343ef"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "7bd3e3b912370776489c14b6b3546f3320a81474946f28bc42ae86a87cf9954d"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3729,8 +3729,8 @@
       "repository_path": "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/PROPOSITION_REGISTER.md",
       "name": "PROPOSITION_REGISTER.md",
-      "version": "formal-integration-cohort-rights-v1",
-      "sha256": "7b9dcafb76808655dd4b7c4d128e196a1c1573e4b6024c386a5d9186c262fa91"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "2e594d3babbb96e2e9bc2bab0187752ac54c56ad0bcf28157d752a5f2aacc6a5"
     },
     {
       "repository_path": "papers/autonomous_firm/FULL_STACK_FIRM.md",
@@ -3785,15 +3785,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "b4ebe9c071bb6dfc2bd66289bdccd49e8edcac40d82a9567bacaffaced403115"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "e519a7646311132b37f6c7fc1f72d285a978d675d81362896507607d1fd5fa38"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "695a23f2c442a3d8595ead191a21ebc20b74c3c154b96fbb64f1241743900be1"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "37471fb3d443d3697bb6dc79ef3cbb5708059c1d667fe162e3631c4a82e9b156"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3848,15 +3848,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "d5eef2c90e12855d9c544c5be7552d454b712cf5cef01a69fd1a25f64f634dfa"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "15a0c4d61ae7dc5b2f14716a5d6543d453971b0a48e146d24717c7fae384bdcb"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "c09a4567f552dbc52503feab57cbae1b2630599547af104be7461f6af8c1184d"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "7b510dd64da9e6574e46bf30cf51110e24bb3bad75e4fd73c45a24e3eae43135"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3883,15 +3883,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "683c5dc203a81eabaf7346dfa94f33fd8fdf9bf353732088e97365db5f4109ae"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "a9050a784d3e9d8ec4b2e25fb54168bffdaa0fe969257ff7395a03ca28a95588"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "01a13931ac37bc006e7bdf3f7f12c046097f047d2270e654b51136d48a9c78dd"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "1216cdc30cb845543966da1d38fab848576833cc13fead401276b338a8ea9e00"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "55d9108e1dd39abdb5e197f2545774fb5cf78f228ff7035873df56930c4cf9fb"
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "2b8dbda78aa04f48766632d98e8e356a58d6dfb0002cd171b9855a10a0be4448"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4305,6 +4305,27 @@
       "name": "staggered_window_results.json",
       "version": "formal-integration-staggered-window-v1",
       "sha256": "ff2ad9c431c9ce7fef4dcd5c8911c8a188dd541272ceca492ff602b4d307a1c2"
+    },
+    {
+      "repository_path": "papers/integrated_firm/CONCURRENT_WINDOW.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CONCURRENT_WINDOW.md",
+      "name": "CONCURRENT_WINDOW.md",
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "802d9c2ed49ef9af290ac255de7f78b7748466b3cf1628c6349aab3510bb2861"
+    },
+    {
+      "repository_path": "papers/integrated_firm/concurrent_window.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/concurrent_window.js",
+      "name": "concurrent_window.js",
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "81093d955cc3b0b019075d50d7981200a72e0aed6df568d199f21940a66d1e97"
+    },
+    {
+      "repository_path": "papers/integrated_firm/concurrent_window_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/concurrent_window_results.json",
+      "name": "concurrent_window_results.json",
+      "version": "formal-integration-concurrent-window-v1",
+      "sha256": "13258bb874457fcc51ac6bddc3d5180157ee2cae9b08c8ec9ca560c91f1551e4"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
