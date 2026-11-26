@@ -1,0 +1,715 @@
+{
+  "synthetic": true,
+  "input_commit": "90adeff078811aab2ef02885d432a5cfc47c50e2",
+  "interpretation": "Exact eligibility intervals for complete seed behavioral profiles, including mixed continuations and every retained-menu deviation. Not full equilibrium correspondence or continuation-selector invariance.",
+  "parameter": "Common price per actual mobile-kit order at any date",
+  "domain": [
+    0,
+    500
+  ],
+  "calendar": [
+    1,
+    1,
+    5,
+    5
+  ],
+  "seed_selection": "Higher-total pure-first; nondegenerate 2x2 mixed fallback when no pure continuation exists",
+  "source_sha256": {
+    "service_window.js": "eee77cfda63e9e61478026e57a15f50d0f7545cb6300337615c9c5bedce5370f",
+    "staggered_window.js": "9e705e070964de703383f2c75d7b3c89b9f868427e47a19ac86ef72e4068efae",
+    "concurrent_window.js": "cd32e8e36e21d31f716fb427553649277644e6306227aeff0c6efc3de8556de7",
+    "mixed_continuation.js": "7457f682f5bbd1933f386b5ad1167715cc134dfa195366a3a22ea3e38d038514"
+  },
+  "runs": [
+    {
+      "seed": 4,
+      "concurrent": false,
+      "cap": 2,
+      "rule": 1,
+      "status": "certified",
+      "endpoint_replay": [
+        {
+          "price": 0,
+          "states": 3898,
+          "full_deviations": 114578,
+          "max_deviation_gain": 0,
+          "generated_wealth": [
+            164,
+            164
+          ],
+          "jobs": 44,
+          "customer_surplus": 88,
+          "dated_accounting": "passed",
+          "all_state_affine_values": "passed"
+        },
+        {
+          "price": 8,
+          "states": 3898,
+          "full_deviations": 114578,
+          "max_deviation_gain": 0,
+          "generated_wealth": [
+            156,
+            156
+          ],
+          "jobs": 44,
+          "customer_surplus": 88,
+          "dated_accounting": "passed",
+          "all_state_affine_values": "passed"
+        }
+      ],
+      "root_order_envelope": {
+        "expected_total_orders": 2,
+        "total_price_slope": -2
+      },
+      "interval": {
+        "lower": [
+          0,
+          1
+        ],
+        "upper": [
+          8,
+          1
+        ],
+        "closed": true
+      },
+      "binding_counts": {
+        "lower": 264,
+        "upper": 44
+      },
+      "binding_examples": {
+        "lower": [
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,1,0,1348,0,0",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,1,0,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,2,0,1348,0,0",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,2,0,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          }
+        ],
+        "upper": [
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,0,1,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "develop",
+              "build": "none",
+              "retain": 1,
+              "next_scope": 1
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,1,1,0,0,0,0,1,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "develop",
+              "build": "none",
+              "retain": 1,
+              "next_scope": 1
+            }
+          },
+          {
+            "state": "3,1,0,0,1,0,0,1348,0,0,1,0,0,0,0,1,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "develop",
+              "build": "none",
+              "retain": 1,
+              "next_scope": 1
+            }
+          },
+          {
+            "state": "3,1,0,0,1,0,0,1348,0,1,1,0,0,0,0,1,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "develop",
+              "build": "none",
+              "retain": 1,
+              "next_scope": 1
+            }
+          }
+        ]
+      },
+      "certificate_count": 114578,
+      "identical_slacks": 8310,
+      "mixed_subgames": 9,
+      "mixed_probabilities": [
+        {
+          "state": "3,1,0,0,0,0,0,1348,1,1,1,0,0,0,0,0,1348,1,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,1,1,1,0,0,0,0,0,1348,2,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,1,1,1,0,0,0,0,0,1348,3,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,2,1,1,0,0,0,0,0,1348,1,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,2,1,1,0,0,0,0,0,1348,2,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,2,1,1,0,0,0,0,0,1348,3,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,3,1,1,0,0,0,0,0,1348,1,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,3,1,1,0,0,0,0,0,1348,2,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        },
+        {
+          "state": "3,1,0,0,0,0,0,1348,3,1,1,0,0,0,0,0,1348,3,1",
+          "p": [
+            24,
+            25
+          ],
+          "q": [
+            3,
+            5
+          ]
+        }
+      ],
+      "generated_wealth": [
+        160,
+        160
+      ],
+      "root_slope": [
+        -1,
+        -1
+      ],
+      "states": 3898,
+      "profiles": 1108797,
+      "full_deviations": 114578,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4
+        },
+        {
+          "date": 3,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "concurrent": true,
+      "cap": 2,
+      "rule": 1,
+      "status": "certified",
+      "endpoint_replay": [
+        {
+          "price": 0,
+          "states": 13025,
+          "full_deviations": 479768,
+          "max_deviation_gain": 0,
+          "generated_wealth": [
+            167.625,
+            167.625
+          ],
+          "jobs": 42,
+          "customer_surplus": 84,
+          "dated_accounting": "passed",
+          "all_state_affine_values": "passed"
+        },
+        {
+          "price": 6,
+          "states": 13025,
+          "full_deviations": 479768,
+          "max_deviation_gain": 0,
+          "generated_wealth": [
+            161.625,
+            161.625
+          ],
+          "jobs": 42,
+          "customer_surplus": 84,
+          "dated_accounting": "passed",
+          "all_state_affine_values": "passed"
+        }
+      ],
+      "root_order_envelope": {
+        "expected_total_orders": 2,
+        "total_price_slope": -2
+      },
+      "interval": {
+        "lower": [
+          0,
+          1
+        ],
+        "upper": [
+          6,
+          1
+        ],
+        "closed": true
+      },
+      "binding_counts": {
+        "lower": 504,
+        "upper": 8
+      },
+      "binding_examples": {
+        "lower": [
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,1,0,1348,0,0",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,1,0,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,2,0,1348,0,0",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,2,0,1348,0,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 2048000,
+            "slope": 512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "none",
+              "build": "order",
+              "retain": 0,
+              "next_scope": 0
+            }
+          }
+        ],
+        "upper": [
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,0,1,0,0,0,0,1,1348,1,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 1024000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "train",
+              "build": "none",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,0,1348,0,1,1,0,0,0,0,1,1348,1,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 1024000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "train",
+              "build": "none",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,1,1348,0,0,1,0,0,0,0,1,1348,1,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 1024000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "train",
+              "build": "none",
+              "retain": 0,
+              "next_scope": 0
+            }
+          },
+          {
+            "state": "3,1,0,0,0,0,1,1348,0,1,1,0,0,0,0,1,1348,1,1",
+            "player": 1,
+            "kind": "pure",
+            "slack_at_seed": 1024000,
+            "slope": -512000,
+            "scale": 512000,
+            "action": {
+              "q": 1,
+              "research": "train",
+              "build": "none",
+              "retain": 0,
+              "next_scope": 0
+            }
+          }
+        ]
+      },
+      "certificate_count": 479768,
+      "identical_slacks": 26812,
+      "mixed_subgames": 0,
+      "mixed_probabilities": [],
+      "generated_wealth": [
+        163.625,
+        163.625
+      ],
+      "root_slope": [
+        -1,
+        -1
+      ],
+      "states": 13025,
+      "profiles": 6431973,
+      "full_deviations": 479768,
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 2,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 2,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 2,
+          "net0": -2,
+          "net1": -2
+        },
+        {
+          "date": 2,
+          "jobs": 0,
+          "customer_surplus": 0,
+          "physical": 0,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 2,
+          "orders": 0,
+          "net0": -8,
+          "net1": -8
+        },
+        {
+          "date": 3,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125
+        }
+      ]
+    }
+  ]
+}

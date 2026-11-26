@@ -1,5 +1,17 @@
 # One firm, one economic account: integrating deployment, learning and recursive improvement
 
+## Current extension: complete regions and recursive propagation
+
+Complete-game common mobile-kit-price certificates now include every retained deviation and off-path continuation. The S=10 exclusive seed profile, with nine intermediate mixed subgames, is an equilibrium for all κ in [0,8]; the concurrent profile is an equilibrium for all κ in [0,6]. Generated wealth per firm is 164−κ and 167.625−κ, respectively. All-state direct endpoint replays pass 114,578 exclusive and 479,768 concurrent deviations at each endpoint, with dated cash/resource/hardware accounting. The upper boundaries are off-path incentive changes, not root adoption cutoffs. These certify complete-profile eligibility, not the full correspondence or persistence of a selector.
+
+[Exact common-price regions](DYNAMIC_KIT_REGION.md) · [Event time, equilibrium geometry and market closure](RECURSIVE_PROPAGATION.md) · [Solver](dynamic_kit_certificate.js) · [Results](dynamic_kit_certificate_results.json)
+
+This extension keeps capital, qualified capability, evidence rights, procedures, cash, receivables, unfinished work and organization in one dated state. It adds the equations and acceptance contracts for causal propagation inside operating blocks and for labor, compute, supplier, finance and entry responses. Earlier finite solutions remain restrictions. A successful experiment, released qualification, installed embodiment and collected payment are separate events. The general event-time and market-closure economy remains a research target; the new executable result is the whole-game common-price certificate.
+
+Next dependency: Continue from the certified complete profiles: solve adjacent branches and introduce a common research-cost parameter at every date, preserving parameter-dependent menu alternatives and propagating changing mixed probabilities through all continuations. In the same cumulative economy, implement the exact event-time embedding of S=8/9/10, then permit one response to within-block qualification before expanding evidence-driven learning and collected-cash funding. Separate observation, release/dispatch, further learning and collection changes; re-certify thresholds after each extension. Add explicit labor/compute, supplier-capacity, finance and entry closures with realized allocation feasibility. Study long-run dynamics only after solving the repeated/infinite-horizon economy. Preserve all seven obligations and existing November 27, November 29, December 2, December 6 and December 25 gates.
+
+Earlier checkpoint statements below retain their historical scope; resolved gaps are superseded by this current section.
+
 *Formal integration manuscript · finite economy edition · November 2026*
 
 ## What has been integrated
@@ -440,3 +452,4 @@ Globally reoptimized integer threshold mapping in the accepted four-block econom
 [The full extension](GLOBAL_EQUILIBRIUM_THRESHOLDS.md) defines regime values on an equilibrium branch, proves affine incentive regions for complete pure profiles under parameter-independent transitions and menus, and separates them from equilibrium selection and stationary stability. The numerical extension checks global firm best responses in the finite legal menus; it does not claim unrestricted general equilibrium or complete enumeration of continuation selections. The first selected learning crossing and bilateral-adoption crossing differ because a producing rival gains from temporary service withdrawal.
 
 Make globally reoptimized equilibrium regions the organizing target. Next implement exact parameter-region incentive certificates and propagate mixed continuations at intermediate subgames, beginning with the exclusive S=10 gap. Retain ordinary contingent learning, outside research, hardware, rights, scope and dated resources. Separate equilibrium eligibility from selection, and test all off-path deviations. Then vary service timing, qualification/transfer probabilities and costs, and test within-block contingent learning against the mapped regions. Binding finance, directed archives, common latent reports and input-market closure remain cumulative extensions. Long-run stability requires a solved repeated/infinite-horizon economy and its economic transition law; solver failure, missing pure equilibria and nonlinear nonstationarity are distinct. Preserve November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.
+

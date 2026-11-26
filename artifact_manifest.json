@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-mixed-continuation-v1",
+  "snapshot_id": "formal-integration-recursive-propagation-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-mixed-continuation-v1",
-      "sha256": "80b7b088288dbe0c008f8069626b6db1033312b554eba162705024880c96c983"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "9445487da0e87a39fc9160f47e5010493d75e62e22d9f977187c5ce5456ad9dd"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3848,15 +3848,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "df9d92c9dc52de1ca9550df5fa6c258f1a73e9601bf71e6965f0fae8a36f44ee"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "c6fd2630a1a2c0e3e698ff3818677f78e8d0444d2854456ab3e9af876ac6a683"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-global-thresholds-v1",
-      "sha256": "af30a9c96e0c638c34cce90cc8fd382ab09f901166d89191d1189876047186b9"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "da44a2185d9d1c19572df56ee9be2b54b3d6e164fda3bc104220e6d89025df2d"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3883,15 +3883,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-mixed-continuation-v1",
-      "sha256": "aa7eb74c690ba7c9c488b83a2b272a330dcb0ebe671adf0887f9ccfc42d4bd90"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "1f942f730dbd635281138ab7cb76f1404a857308f7c82f10bfaa2042e81f1a8a"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-mixed-continuation-v1",
-      "sha256": "b70605b596d2650c193fd1976ddaedce0a6e4bfd8e84938ef7205299a92cd4ce"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "6099644f37ea4ddb66166ea789cce6588f643284ff5b6acb13b4669c42930416"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-mixed-continuation-v1",
-      "sha256": "775e55a3f640e473e21e2e5522a06ae4a3c9b9675f2846e27f5e5aa442f1cba4"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "ccb957f87c97b09f9ea54bd637801b0dde1e3291e67d0bb13d149bfff48aded8"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4247,8 +4247,8 @@
       "repository_path": "papers/integrated_firm/service_window.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/service_window.js",
       "name": "service_window.js",
-      "version": "formal-integration-internal-successor-v1",
-      "sha256": "186a31e6242696293ba43d0de99adb04f29243ab9029a0bf945d3d0940d58269"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "eee77cfda63e9e61478026e57a15f50d0f7545cb6300337615c9c5bedce5370f"
     },
     {
       "repository_path": "papers/integrated_firm/service_window_40_results.json",
@@ -4296,8 +4296,8 @@
       "repository_path": "papers/integrated_firm/staggered_window.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/staggered_window.js",
       "name": "staggered_window.js",
-      "version": "formal-integration-staggered-window-v1",
-      "sha256": "d60d120033a4c5fcaacd0b11791bb89008a59138d8a51c8861ad0bd8ada13730"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "9e705e070964de703383f2c75d7b3c89b9f868427e47a19ac86ef72e4068efae"
     },
     {
       "repository_path": "papers/integrated_firm/staggered_window_results.json",
@@ -4317,8 +4317,8 @@
       "repository_path": "papers/integrated_firm/concurrent_window.js",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/concurrent_window.js",
       "name": "concurrent_window.js",
-      "version": "formal-integration-concurrent-window-v1",
-      "sha256": "81093d955cc3b0b019075d50d7981200a72e0aed6df568d199f21940a66d1e97"
+      "version": "formal-integration-recursive-propagation-v1",
+      "sha256": "cd32e8e36e21d31f716fb427553649277644e6306227aeff0c6efc3de8556de7"
     },
     {
       "repository_path": "papers/integrated_firm/concurrent_window_results.json",
@@ -4368,6 +4368,34 @@
       "name": "mixed_continuation_results.json",
       "sha256": "3aaf24ac5502f837866fd4abf1557bc4fc0167c2ecf56bda597264778d4774bb",
       "version": "formal-integration-mixed-continuation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/DYNAMIC_KIT_REGION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/DYNAMIC_KIT_REGION.md",
+      "name": "DYNAMIC_KIT_REGION.md",
+      "sha256": "2a9a26ecd6052b80b30f19439ea6ea7ca40f2cc2e7ccf60dfb11caaf32572525",
+      "version": "formal-integration-recursive-propagation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/RECURSIVE_PROPAGATION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/RECURSIVE_PROPAGATION.md",
+      "name": "RECURSIVE_PROPAGATION.md",
+      "sha256": "ab401d4239384744dea656790409079ea787b32d4a08ef387007916c484ba07d",
+      "version": "formal-integration-recursive-propagation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/dynamic_kit_certificate.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/dynamic_kit_certificate.js",
+      "name": "dynamic_kit_certificate.js",
+      "sha256": "223f028e1f4ebc509b4120212ca6c3d23ef952c59fca493afa82c91e35a926ad",
+      "version": "formal-integration-recursive-propagation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/dynamic_kit_certificate_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/dynamic_kit_certificate_results.json",
+      "name": "dynamic_kit_certificate_results.json",
+      "sha256": "28218c139748dea51c48caff80eab61e96a982acb86ad838f8527187298d71d5",
+      "version": "formal-integration-recursive-propagation-v1"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

@@ -1,6 +1,22 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-mixed-continuation-v1
+Handoff ID: formal-integration-recursive-propagation-v1
+
+## Current: complete parameter regions and recursive event propagation
+
+November 26. Complete-game common mobile-kit-price certificates now include every retained deviation and off-path continuation. The S=10 exclusive seed profile, with nine intermediate mixed subgames, is an equilibrium for all κ in [0,8]; the concurrent profile is an equilibrium for all κ in [0,6]. Generated wealth per firm is 164−κ and 167.625−κ, respectively. All-state direct endpoint replays pass 114,578 exclusive and 479,768 concurrent deviations at each endpoint, with dated cash/resource/hardware accounting. The upper boundaries are off-path incentive changes, not root adoption cutoffs. These certify complete-profile eligibility, not the full correspondence or persistence of a selector.
+
+New artifacts: [DYNAMIC_KIT_REGION.md](papers/integrated_firm/DYNAMIC_KIT_REGION.md), [RECURSIVE_PROPAGATION.md](papers/integrated_firm/RECURSIVE_PROPAGATION.md), [dynamic_kit_certificate.js](papers/integrated_firm/dynamic_kit_certificate.js) and [results](papers/integrated_firm/dynamic_kit_certificate_results.json). The theory derives fixed-behavior affine regions including mixing, regular rational support branches and the finite polynomial/rational semialgebraic equilibrium graph. It specifies exact block-to-event embedding, separate observation/release/learning/collection changes, qualified-use prerequisite paths, cash/receivable identities, capital-velocity clocks, input-market and entry closures, and the conditional closed-market Jacobian. These are not claims that the general event or repeated economy is already solved.
+
+Validation: both complete certificates and four direct endpoint replays reproduce exactly; source hashes guard all four antecedent JS files. Endpoint evaluation uses actual costs and frozen full strategies, independently of derivative propagation, at all 3,898 or 13,025 canonical states. Root slopes match the forward count of one actual mobile-kit order per firm. All retained-menu deviations and dated probability/resource/cash accounts pass. Read-only mathematical and endpoint-code review found no blocking issue; the primary session remains the sole repository writer.
+
+Input accepted main: 90adeff078811aab2ef02885d432a5cfc47c50e2; integration lease commit e9f042c339904cb0c97e6c4da6de2a04d81cd0b4. Manifest-only repair: the service_window.js, staggered_window.js and concurrent_window.js entries had stale hashes; they now match the unchanged files at input main and the already accepted mixed-continuation source guards. No antecedent source was rewritten.
+
+The existing hourly integration task was updated to carry the latest user directions, all five stages and broader market/event closures. Its schedule, one-writer rule and original milestone clocks were preserved; periodic sessions are not uninterrupted background execution.
+
+Next: Continue from the certified complete profiles: solve adjacent branches and introduce a common research-cost parameter at every date, preserving parameter-dependent menu alternatives and propagating changing mixed probabilities through all continuations. In the same cumulative economy, implement the exact event-time embedding of S=8/9/10, then permit one response to within-block qualification before expanding evidence-driven learning and collected-cash funding. Separate observation, release/dispatch, further learning and collection changes; re-certify thresholds after each extension. Add explicit labor/compute, supplier-capacity, finance and entry closures with realized allocation feasibility. Study long-run dynamics only after solving the repeated/infinite-horizon economy. Preserve all seven obligations and existing November 27, November 29, December 2, December 6 and December 25 gates.
+
+
 
 ## Exact intermediate mixed continuation and local incentive region
 
@@ -1316,4 +1332,5 @@ Immediate execution follows the current edition 0.16 checklist above, preserving
 One writer per file: the sole lead currently owns the integration, research, model, dashboard and verification work. Do not spawn specialists or claim new independent reviews under the current usage cap. Historical review authorship is preserved; exact current actions remain in ignored operational state.
 
 Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly, preserve the original elapsed-time window as historical, and date later continuation separately.
+
 

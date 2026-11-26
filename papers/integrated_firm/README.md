@@ -1,5 +1,15 @@
 # Formal integration of the robotic and recursive firm
 
+## Current extension: complete regions and recursive propagation
+
+Complete-game common mobile-kit-price certificates now include every retained deviation and off-path continuation. The S=10 exclusive seed profile, with nine intermediate mixed subgames, is an equilibrium for all κ in [0,8]; the concurrent profile is an equilibrium for all κ in [0,6]. Generated wealth per firm is 164−κ and 167.625−κ, respectively. All-state direct endpoint replays pass 114,578 exclusive and 479,768 concurrent deviations at each endpoint, with dated cash/resource/hardware accounting. The upper boundaries are off-path incentive changes, not root adoption cutoffs. These certify complete-profile eligibility, not the full correspondence or persistence of a selector.
+
+[Exact common-price regions](DYNAMIC_KIT_REGION.md) · [Event time, equilibrium geometry and market closure](RECURSIVE_PROPAGATION.md) · [Solver](dynamic_kit_certificate.js) · [Results](dynamic_kit_certificate_results.json)
+
+Next dependency: Continue from the certified complete profiles: solve adjacent branches and introduce a common research-cost parameter at every date, preserving parameter-dependent menu alternatives and propagating changing mixed probabilities through all continuations. In the same cumulative economy, implement the exact event-time embedding of S=8/9/10, then permit one response to within-block qualification before expanding evidence-driven learning and collected-cash funding. Separate observation, release/dispatch, further learning and collection changes; re-certify thresholds after each extension. Add explicit labor/compute, supplier-capacity, finance and entry closures with realized allocation feasibility. Study long-run dynamics only after solving the repeated/infinite-horizon economy. Preserve all seven obligations and existing November 27, November 29, December 2, December 6 and December 25 gates.
+
+Earlier checkpoint statements below retain their historical scope; resolved gaps are superseded by this current section.
+
 The main result is a solved finite firm in which accepted service, digital/human execution, retained evidence, learning, procedure development, hardware and internal scope compete for one dated resource and cash account. A recipient-cohort restriction solves two generations of procedure improvement with the payoff derived from the same production technology. A two-firm restriction solves product-market competition and first-period research under disclosed continuation-equilibrium selections.
 
 ## Globally reoptimized equilibrium thresholds
@@ -94,4 +104,5 @@ Nineteen exact service-window games separate execution qualification from intern
 The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.
 
 [Derivation and exact comparisons](CONCURRENT_WINDOW.md) · [Reproduction](concurrent_window.js) · [Results](concurrent_window_results.json). Fixed-program private break-even at nine later shifts, not a globally reoptimized threshold. The later accepted-output frontier is unchanged, yet qualified execution reduces complementary resource use. No empirical estimate.
+
 

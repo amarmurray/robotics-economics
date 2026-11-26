@@ -1,5 +1,24 @@
 # Claim and integration ledger
 
+## Current extension: complete regions and recursive propagation
+
+Complete-game common mobile-kit-price certificates now include every retained deviation and off-path continuation. The S=10 exclusive seed profile, with nine intermediate mixed subgames, is an equilibrium for all κ in [0,8]; the concurrent profile is an equilibrium for all κ in [0,6]. Generated wealth per firm is 164−κ and 167.625−κ, respectively. All-state direct endpoint replays pass 114,578 exclusive and 479,768 concurrent deviations at each endpoint, with dated cash/resource/hardware accounting. The upper boundaries are off-path incentive changes, not root adoption cutoffs. These certify complete-profile eligibility, not the full correspondence or persistence of a selector.
+
+[Exact common-price regions](DYNAMIC_KIT_REGION.md) · [Event time, equilibrium geometry and market closure](RECURSIVE_PROPAGATION.md) · [Solver](dynamic_kit_certificate.js) · [Results](dynamic_kit_certificate_results.json)
+
+| Claim | Status | Material boundary |
+| --- | --- | --- |
+| Common-price complete-profile intervals | Exact in the accepted finite funded game | κ∈[0,8] exclusive and [0,6] concurrent; not all equilibria or root adoption thresholds |
+| Mixed profile sensitivity | Exact fixed-probability continuation slopes and endpoint replays | Common research costs may require endogenous mixing and different menus |
+| Rational mixed-support branches | Derived for regular two-player finite-horizon branches | Degeneracy, additional strategic players and market-clearing prices require broader algebraic treatment |
+| Semialgebraic equilibrium graph | Derived under finite polynomial/rational assumptions | Exponential physical-time primitives and infinite-horizon coupling need separate treatment |
+| Within-block learning/dispatch/receipts | Event state, embedding, conditional flexibility and accounting propositions specified | Expanded event economy is not yet solved |
+| Input markets and long-run feedback | Closure equations and conditional Jacobian derived | Full market closure, repeated solution and stability results remain open |
+
+Next dependency: Continue from the certified complete profiles: solve adjacent branches and introduce a common research-cost parameter at every date, preserving parameter-dependent menu alternatives and propagating changing mixed probabilities through all continuations. In the same cumulative economy, implement the exact event-time embedding of S=8/9/10, then permit one response to within-block qualification before expanding evidence-driven learning and collected-cash funding. Separate observation, release/dispatch, further learning and collection changes; re-certify thresholds after each extension. Add explicit labor/compute, supplier-capacity, finance and entry closures with realized allocation feasibility. Study long-run dynamics only after solving the repeated/infinite-horizon economy. Preserve all seven obligations and existing November 27, November 29, December 2, December 6 and December 25 gates.
+
+Earlier checkpoint statements below retain their historical scope; resolved gaps are superseded by this current section.
+
 ## The seven obligations
 
 | Obligation | What this edition establishes | Evidence | What remains open |
@@ -162,3 +181,4 @@ Evidence: [theory and derivation](GLOBAL_EQUILIBRIUM_THRESHOLDS.md), [code](glob
 The exclusive S=10 gap is closed by exact intermediate mixed continuation. At nine date-two public states under the higher-total pure-first rule, certified two-by-two supports replace missing pure continuations; at the first state, lab retention probabilities are 24/25 and 3/5. Exclusive cap-1/cap-2 and alternative lower-total selection give 160 generated wealth each, 44 jobs and 88 customer surplus. Concurrent cap-2 gives 163.625 each, 42 jobs and 84 customer surplus: +7.25 combined private wealth, -2 jobs and -4 customer surplus. A local lab-retention fee interval [0,1/2] is certified against every retained action at the first mixed subgame, conditional on unchanged downstream policies and prefunding. Complete dynamic parameter-region certificates and full mixed correspondence remain open.
 
 Established in stated restrictions: exact public-state selected mixed continuation, full-menu incentive checks, dated replay and local affine fee interval. Falsifiers: a profitable original-menu deviation, an invalid projected cash history, or an endpoint slack below zero. Strong alternatives: lower-total pure selection, ordinary learning, outside qualification, and exclusive hardware sequencing. Open: complete equilibrium correspondence, whole-game parameter certificates, binding finance, continuous within-block learning, actual Economic RL or LLM evaluation, identification and calibration.
+
