@@ -1,3 +1,17 @@
+# Robotics Economics — current charter authority
+
+The user-authorized [AGENTS.md](AGENTS.md) and [THEORY_PHASE.md](THEORY_PHASE.md) now govern execution. Exactly three canonical papers, Lane 4 empirical/canon stewardship, sequential A/B/C gates, the hard integrated_firm freeze and the predeclared oracle exception supersede all conflicting older calendar, one-agent, writer-lease, edition or solver instructions below.
+
+Preserve this earlier charter's A–K research scope, evidence standards, explicit nulls, exact replication and permission boundaries. Its content remains a source; its dated packaging is permanently retired. [Canonical ownership and source map](research/portfolio/CANON.md).
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Original research charter and empirical scope</summary>
+
 # Robotics Economics: Research Charter
 
 Version 0.11 · 25 October 2026 · Amar Murray
@@ -350,3 +364,7 @@ The economic framework above is a proposed research design developed for this di
 - **0.3 — 5 September 2026:** Defined the paired Codex and ChatGPT Work arrangement for robotics economics. Added shared artifact ownership, versioned source snapshots, reciprocal review, explicit handoffs and receipt checks, conflict handling, and truthful synchronization status. Preserved the separately scoped review before adopting work into the existing repository.
 - **0.2 — 5 September 2026:** Promoted provider mapping to an equal analytical workstream alongside end markets and customer deployment value chains. Added initial sourced robot references, version and evidence rules, provider economics and competition, ecosystem relationships, dynamic update logic, and links to the first economic case.
 - **0.1 — 5 September 2026:** Established the research purpose, workspace, accounting boundaries, penetration waterfall, learning framework, and first-case plan.
+
+
+
+</details>

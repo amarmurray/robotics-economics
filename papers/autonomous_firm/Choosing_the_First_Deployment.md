@@ -1,3 +1,9 @@
+# Archived source edition — Paper 2 consolidation
+
+This is preserved supporting text, not an independently evolving paper. The sole active manuscript is [The Autonomous and Full-Stack Firm](The_Production_of_Capability.md). [Source-to-section routing](../../research/portfolio/CANON.md#paper-2-one-manuscript-five-results) sends financing/disclosure to Paper 1 and organizational recursion, scaling and dynamic boundaries to Paper 3. Existing proofs, links, scripts, counterexamples and empirical limitations remain valid only within their original scope. Old packaging dates are provenance, not deadlines.
+
+---
+
 # Choosing the First Deployment
 
 [PDF edition](Choosing_the_First_Deployment.pdf) · [Replication and reading guide](README.md)

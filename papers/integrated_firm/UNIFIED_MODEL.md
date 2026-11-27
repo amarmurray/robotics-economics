@@ -1,3 +1,5 @@
+> **FROZEN VERIFICATION ARCHIVE — not an active solver queue.** The hourly integrated_firm writer is paused under [AGENTS.md](../../AGENTS.md). All suffix/reservation expansions, further within-block learning/collection, B=16+ binding-cash searches and joint price/mixed-support/market-closure sweeps are frozen. An exact finite run is permitted only for a named Paper 1–3 analytical proposition after its falsification question, minimum domain, command and budget are logged in [ORACLE_REQUESTS](../../research/portfolio/ORACLE_REQUESTS.md). The historical deadlines, lease descriptions and next actions below are retired. [Current canon](../../research/portfolio/CANON.md) · [Current state](../../research/portfolio/state.json).
+
 # One firm, one economic account: integrating deployment, learning and recursive improvement
 
 ## November 27: exact factored independent-reservation concurrent game

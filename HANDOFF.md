@@ -1,3 +1,52 @@
+# Current handoff — three-paper research charter
+
+## Accepted direction
+
+The user has replaced all calendar-based research deadlines and the exhaustive integrated_firm discovery loop with the portfolio in [AGENTS.md](AGENTS.md). [THEORY_PHASE.md](THEORY_PHASE.md) and [CANON.md](research/portfolio/CANON.md) govern subsequent work. The records below are historical, even if they contain old imperative language.
+
+Input main was f3a6d0f8146c773ca7906f395f5eb52ec6fac910. A preliminary freeze/coordination commit was 064455511e8352ce078c110bcd1d0bf40794dc37. The current publication retains the source pins and source branches; it does not rewrite their history.
+
+## Operational status
+
+- Hourly RoboEcon formal integration task 6afbe6a5ebf88191a11858bf26241c98: disabled. Its last recorded run completed at 2026-11-27T21:51:53.818082Z; the pause does not claim to have cancelled a running process.
+- Legacy theory-week task Automation_9df88010e6a0819199674ddaf21572ff and recursive task Automation_8f6101c0a5088191b61410787e40909b: remain disabled, with old deadline/expansion prompts retired.
+- Dated prototype/contribution reminder 6ade2f1294388191808ce849901a29a4: disabled; its calendar acceptance gate is retired.
+- No replacement solver schedule was created. No solver or synthetic-world run was performed for this consolidation.
+- All old solver leases are retired. Current publication/lease status is recorded in research/portfolio/state.json and the frozen integrated state. A released lease is not proof that another runtime has consumed the charter.
+
+## Canonical manuscripts and source disposition
+
+| Lane | Sole active manuscript | What changed |
+| --- | --- | --- |
+| 1 | papers/learning_and_capital/README.md | Two-proposition deployment core, three networks, signed coordination/grounding and cash-time foundations consolidated |
+| 2 | papers/autonomous_firm/The_Production_of_Capability.md | Retitled The Autonomous and Full-Stack Firm; six source manuscripts organized into five results; other editions archived |
+| 3 | research/recursive_firm/README.md | Four pillars imported/distilled from the recursive branch and the two later main syntheses; common-cost analytical appendix added |
+| 4 | research/portfolio/CANON.md and empirical_target_symbotic.json | Shared notation, four-source prior-art positioning, source/proof routing and first explicit-null empirical packet |
+
+The full merge map accounts for all 16 recursive-branch Markdown documents and all six autonomous-firm manuscripts. Existing proof scripts and saved output bytes are unchanged. Historical source bodies remain at their pinned commits or under explicit archive banners; not every retained appendix has completed notation reconciliation.
+
+## What was established, and what remains open
+
+The prior common-research-cost next step is carried forward analytically as Paper 3 Appendix A.COST. It proves an affine fixed-policy value, a globally optimized fixed-rival piecewise-affine envelope, monotonicity of total weighted research attempts, and all-history fixed-profile equilibrium regions on a common feasible finite tree. Fixed mixing over an open cost interval requires equal continuation intercepts and research counts. A direct analytical entry-game counterexample shows why equilibrium profit need not decline with a common surcharge. These are conditional derivations, not a completed global solve of the cash-constrained dynamic economy.
+
+All papers remain Gate A in progress, Gate B pending and Gate C pending. The current independent editorial checks do not substitute for paper-specific hostile-referee passes. The [claim register](research/portfolio/CLAIMS.json) records boundaries; CANON records reproduction gaps, including that the old autonomous replication/run.py omits capability checks.
+
+The first empirical target maps the public Symbotic–Walmart agreement's acceptance, payment and data categories separately. Qualification cost/probability, realized commissioning duration, project cash, causal transfer, supplemental permissions and rival prebid information remain null. FY2026 company contract balances were measured before the new agreement; they cannot be a project-level treatment outcome. The 12-kit $336 replay difference remains synthetic.
+
+## Next admissible action
+
+Finish proof/notation/source reconciliation inside the owning canonical manuscripts, and gather discriminating public observations for Lane 4. Route new derivations to the owning manuscript or a named scoped appendix/referee note. Do not create a fourth paper, reactivate a dated program, or continue an archived solver next_action.
+
+Any exact finite verification requires a named proposition and a predeclared falsification question, domain, command, arithmetic, budget and stopping rule in research/portfolio/ORACLE_REQUESTS.md before execution. No oracle request was registered or run in this charter turn.
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Historical handoffs, exact results, nulls and superseded next actions</summary>
+
 # Robotics economics — current handoff
 
 ## Current direction
@@ -1394,3 +1443,7 @@ One writer per file: the sole lead currently owns the integration, research, mod
 Earlier coordination history and user corrections above remain authoritative. The shared repository supersedes old uploads and Documents snapshots. No research performed during an interruption is implied; record interruptions honestly, preserve the original elapsed-time window as historical, and date later continuation separately.
 
 
+
+
+
+</details>

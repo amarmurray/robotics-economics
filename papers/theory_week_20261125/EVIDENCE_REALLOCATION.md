@@ -1,3 +1,5 @@
+> **Historical synthesis / scoped proof appendix.** The dated theory-week program and its solver queues are retired. Analytical results are owned by [Paper 3](../../research/recursive_firm/README.md) under the [canon map](../../research/portfolio/CANON.md); other claims follow that map. The preserved text, dates, scripts, nulls and saved results below are provenance, not a calendar deadline, live lease or authority to expand the frozen solver.
+
 # When a better source robot teaches another fleet less
 
 25 November 2026 Eastern — theory-week synthesis, conditional derivation and synthetic CPU check. Input main 97c709f527e7312cc4023a3266db7753b0cdc522; production f25390d784b9721043b2eebe0eeb79b7f31f7ace; recursive firm ec919bd95c52521051414b5f99315854b9700879.

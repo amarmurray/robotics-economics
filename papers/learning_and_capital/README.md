@@ -1,24 +1,22 @@
-# Learning and Capital in Robotic Production
+# Deploying to Learn, Learning to Deploy
 
-*Working theory for the RoboEcon program · November 25, 2026*
+**Canonical Paper 1.** Gate A: in progress. Gate B: pending independent hostile-referee pass. Gate C: pending. This manuscript consolidates the two-proposition core, signed coordination–grounding result and production/learning/financing foundations. [Canon and source map](../../research/portfolio/CANON.md) governs ownership. Existing exact scripts and source proofs are retained; no new solver was run for this consolidation.
 
-**Under what conditions does deploying a robot today cause more robotic capital to be deployed tomorrow, and where does that capital go?** Buying a machine adds productive capacity in a particular place. Operating it can also produce knowledge usable in other places and cash that its owner can invest again. Those three benefits can reach three different firms. The direction of automation depends on how their decisions fit together.
+## 1. The deployment decision
 
-### The economic premises
+A robot can complete a job for one party, create experience useful at a second site, and leave a third party responsible for paying to qualify that next deployment. A firm choosing its first job must therefore consider where useful learning arrives and which actor can act on it. A second distinction arises when qualification changes what a rival can infer before pricing.
 
-A body, a technician and a commissioning bay occupy time in one location. A validated control policy or diagnostic procedure can be copied to several compatible machines. Operating experience arises from actions actually taken. A fleet can run longer while encountering fewer of the failures another fleet needs to understand. Finally, a technically viable project needs a customer, someone willing to absorb the installation cost, and resources available on the dates they are required. A machine can be ready to work before a financier recovers the cash needed for the next installation.
+The paper has two principal propositions. **Where the saving lands** concerns payer-specific prerequisites and implementable contracts. **Who sees qualification** concerns the information and competitive institution through which a technical improvement changes captured value. The liquidity reversal is a corollary of the first. Customer-verifiable evidence and rival-visible evidence are different objects.
 
-These asymmetries give us three maps of the same economy. The **production network** specifies who supplies which input to which customer. The **learning network** specifies where experience can change a future production decision. The **financing network** specifies who receives cash from one deployment and can commit it to another. The three maps can overlap or cross. A packaging line may supply a hospital, teach a gripper supplier something useful in food fulfillment, and remit its cash to an owner investing in a third market.
+The competent counterfactual can learn, retain its existing controller and use human fallback. Ordinary funding, incentive and information arguments are prior art. The contribution question is whether the specified physical qualification, lawful data use and timing restrictions produce a portable additional implication. Novelty remains subject to Gate B.
 
-Our central economic object is the **matrix of induced deployments**. An entry gives the additional funded installations of one type ultimately caused by a marginal installation of another type, before counting what those new installations induce in turn. It is relative to ordinary production that also learns and invests. Its units are installations per installation. It counts a serviceable deployment of a specified embodiment at a specified kind of site. Downloads, announced orders and transfers between business units have different units.
+## 2. Common service, learning and cash primitives
 
-The model yields two distinct meanings of faster progress. Earlier delivery of the same usable knowledge can accelerate adoption in calendar time. Changing who can use a lesson, whether it arrives before its opportunity expires, or how soon working capital is released can also change how much adoption a generation of machines induces. Two end markets that each fail to sustain additional investment on their own can sustain it together. We derive when that is possible and when diminishing opportunities limit its extent.
+Accepted service has a stated task, configuration, deadline and acceptance criterion. Physical marginal product measures an increment in that service under a stated resource comparison. Its monetary value depends on demand, the contract, complementary costs and who receives the cash. Qualification probability, lawful transfer and realized service are distinct.
 
-*When Capabilities Become Production* supplies the feasible operating alternatives. *Recursive Firm Theory* supplies the choices that change how experience is generated and used. Here the adoption decisions of subsequent firms feed back into the distribution of productive capital. [Production manuscript](https://github.com/amarmurray/robotics-economics/blob/e8cc97fed54e3815dda113bac3a7b4a333955331/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md) · [Recursive-firm network study](https://github.com/amarmurray/robotics-economics/blob/6951d24824287b11056e62e3e5221f818086ef5c/research/recursive_firm/network_mpk/README.md)
+The three source foundations below retain their original local notation. They are now sections of this paper, not a parallel Learning and Capital monograph. [Shared notation](../../research/portfolio/CANON.md#one-shared-notation-table) governs new text; complete legacy-symbol reconciliation remains part of Gate A.
 
-<!-- page -->
-
-## 1. The marginal product of a particular robot
+### Foundation 1. The marginal product of a particular robot
 
 A deployment type specifies an embodiment, task stage, end market, controlling firm and operating window. Two firms can work in the same industry and occupy different positions in the three networks. A digital agent may dispatch jobs or review evidence from many physical sites. The robots, the available technical labor and permission to install a release remain site-specific.
 
@@ -36,7 +34,7 @@ What makes this about programmable production? The site at which a machine works
 
 <!-- page -->
 
-## 2. Data generation, collection and the firm's choice
+### Foundation 2. Data generation, collection and the firm's choice
 
 A source site $i$ encounters $A_i$ attempts per period. They include recoveries and failed jobs. The operating policy selects the cases attempted. Let $q_{0i}$ be the useful records per attempt obtained in ordinary work, after accounting for novelty at the margin. Investigation intensity $z_i$ between zero and one adds $q_{1i}z_i$ records per attempt in this restriction. These rates are conditional on the current corpus and operating policy. A million nearly identical records can carry little additional evidence.
 
@@ -56,7 +54,7 @@ Write $L_{ji}$ for the net marginal additions to validated method $j$ per extra 
 
 <!-- page -->
 
-## 3. Capital velocity and the decision to install
+### Foundation 3. Capital velocity and the decision to install
 
 Operating turnover is qualified work per installed machine-period. Commissioning velocity is installations per crew-period. Both can rise while the cash available for the next purchase stays tied up. We use **financial capital velocity** for how often a unit of revolving funds can be committed, recovered and recommitted. If each installation ties up $c_j$ dollars for $T_j$ periods, each start occupies $c_jT_j$ dollar-periods. With financing base $W_j$, a balanced pipeline can start at most $W_j/(c_jT_j)$ installations per period. The turnover of identical fully occupied dollars is $1/T_j$. For staged collections use $m_j=\int b_j(s)\,ds$, the area under the outstanding recoverable cash balance of one project. Advance payments and interim releases change this area. Count permanent asset cost in the investment calculation. [Little's flow and occupancy relation](https://doi.org/10.1287/opre.9.3.383)
 
@@ -78,123 +76,100 @@ When profitability binds, the response to a method improvement is proportional t
 
 <!-- page -->
 
-## 4. Closing the loop between firms
 
-Consider marginal changes around ordinary production and investment over one decision period. The vectors $k,h,w$ are changes in active installed units by type, stocks of validated methods, and available revolving financing bases by owner. The diagonal matrices $S_K,S_H,S_W$ give the fractions of these increments retained each period. Put $D_X=I-S_X$ with strictly positive diagonal losses. Funds can be distributed or reallocated outside the modeled pool. The return of an installation's original working capital is already included in its cash-time requirement.
+The cash-time bound W_j/m_j requires m_j>0. Define b_j(s) as nonnegative recoverable cash actually tied up by that claimant. A fully prepaid or otherwise zero-occupancy type has no cap from this particular finance constraint; interpret its bound as infinite, not division by zero. Customer prepayments require separate customer accounting, not negative supplier occupancy credited as extra starts.
 
-In a locally constant operating and contracting regime let $C$ and $B$ be the derivatives of the *same* admissions decision in Section 3 with respect to methods and financing. Let $U$ give new starts due to a change in the orders or physical capacity available to another firm, holding methods and funds fixed. For example, extra downstream output induces upstream demand for components. At a profitable-applicant threshold its installation effect is the induced component demand times the resulting change in the candidate project’s value per component, times the density of eligible candidates at that threshold. An incumbent supplier with spare capacity may fill those orders with no new installation. Let $P$ be additional net cash retained for investment per active unit and $R$ the change in retained cash due to better methods on the incumbent base at fixed units. Transfers across owners are tracked at the receiving fund. The three dated equations are
+## 3. P1.1 — Where the saving lands
 
-$$k_{t+1}=S_K k_t+U k_t+C h_t+B w_t,$$
+### Financing feasibility and deployment reversal
 
-$$h_{t+1}=S_H h_t+Lk_t,\qquad w_{t+1}=S_Ww_t+Pk_t+Rh_t.$$
+For initial deployment j, let k_a^j be payer a's remaining prerequisite bill, b_a^j its available cash before commitment, and t the capacity of enforceable payment links. In the divisible, costless payment benchmark, the follow-on can be funded exactly when every payer subset U satisfies
+$$
+k^j(U)\le b^j(U)+t(\mathrm{incoming}\ U).
+$$
+Necessity follows by adding resources available to the subset; sufficiency is the standard funding-flow/min-cut argument. The theorem's indivisible physical follow-on and its financing arrangement must not be conflated.
 
-The installation equation allows a one-period decision-to-operation lag. Longer lags appear below. $P$ and $R$ are new net cash accruing to the financing base after costs and distributions. Adding recovered principal to either would count the same dollars twice. The method equation assumes constant marginal collection and transfer within the regime. If firms redesign their policies in response to the impulse, the coefficients must include the responses or the regimes must be solved separately.
+Let pi_j^0 be the current combined net return, chi_j^fund the indicator that all funding cuts hold, and g_j the participants' combined incremental follow-on return over their feasible fallback. After counting prerequisite costs once, and requiring feasible participation and implementation, this restricted additive combined-surplus benchmark ranks deployments by
+$$
+\pi_j^0+\chi_j^{\mathrm{fund}}\max(0,g_j).
+$$
+If H earns more now and only L funds the target, L is preferred precisely when g_L exceeds pi_H^0−pi_L^0. This is not a newly solved individual-firm equilibrium policy. Equal aggregate technical savings can put the two deployments on opposite sides of a payer-specific funding cut. Pooling or a feasible equivalent contract can remove that difference.
 
-**Proposition 1.** Over an installation's remaining life, the matrix of first-generation additional deployments is
+These statements are conditional financing arithmetic, not an intrinsic superiority of integration or a new max-flow theorem. Full proof and comparisons remain in [qualification_finance.md](../../research/theory/qualification_finance.md) and [learning_funding_alignment.md](../../research/theory/learning_funding_alignment.md).
 
-$$G=\left(U+CD_H^{-1}L+BD_W^{-1}P+BD_W^{-1}RD_H^{-1}L\right)D_K^{-1}.$$
+### Financing a test versus inducing the test
 
-The four paths are **additional orders or complementary capacity**, **experience that qualifies sites or shortens their cash tie-up**, **cash earned by additional machines**, and **learning that raises retained cash on the existing fleet**. Each path ends at a funded installation. The last factor counts the expected active periods of each source machine. The inverse loss rates inside each path count the usable periods of the method or funding increment. No data premium is added to customer revenue.
+Consider an operator that alone controls target validation and can fill the same shipment with human fallback. Let k_O be its avoidable validation cost, v_O its private gain, and d the expected enforceable transfer difference between validating and using fallback. Once the action is funded, strict validation requires
+$$
+v_O+d>k_O.
+$$
+An unconditional advance enters the cash of both actions equally. If all admissible settlement records have the same distribution under validation and fallback, d=0 for a contract written on those records. Increasing the advance can fund validation without changing its incentive.
 
-On a reachable, strongly connected component with nonnegative marginal responses, additional deployment fades across generations when the largest eigenvalue $\rho(G)$ is below one. It amplifies locally when that eigenvalue exceeds one. At one the linear benchmark is on its boundary. The comparison is for the *increment* over ordinary replacement and learning. For two types each below replacement in isolation, the condition for joint amplification is exactly
+A saving s on operator commissioning can cross the incentive threshold when
+$$
+k_O-s<v_O<k_O,
+$$
+while the same total saving on supplier adaptation does not. An auditable target test can permit a conditional bonus and remove the wedge, provided the test distinguishes the actions, verification is feasible and both parties participate.
 
-$$g_{12}g_{21}>(1-g_{11})(1-g_{22}).$$
+The source's synthetic example uses supplier/operator cash (5,1), initial bills (2,2), one unit of saving and private gains (4,1.5). Operator-side saving induces validation. Supplier-side saving plus a one-unit advance funds but does not induce it. Adding a 0.75 pass bonus makes validation strictly preferred and leaves the supplier positive surplus. These are synthetic units, not estimates from the automotive replay.
 
-<!-- page -->
+The claim fails where the operator already gains enough to validate, settlement can distinguish the actions without the proposed audit, a supplier can directly procure the target test, or another feasible contract implements it. The complete assumptions, proof and counterexamples are in [qualification_observability.md §1](../../research/theory/qualification_observability.md).
 
-## 5. The speed and extent of automation
+## 4. P1.2 — Who sees qualification
 
-Let $G_\ell$ count first-generation installations arriving $\ell$ periods after the source. Its sum over all lags is $G$. If $b_t$ is an external seed of new starts, the linear sequence of additional starts satisfies
+A customer may verify target performance without disclosing it to competitors. Distinguish actual qualification, the procedure chosen, admissible payment records and the rival's pre-bid information.
 
-$$n_t=b_t+\sum_{\ell\ge1}G_\ell n_{t-\ell}.$$
+### Public bid pricing
 
-**Proposition 2.** Moving an otherwise identical response to an earlier date leaves $G$ unchanged. It raises the discounted value of a positive dated response. In the amplifying regime it raises the calendar growth rate if the accelerated link participates in the active irreducible component. In an amplifying component the gross calendar growth factor $r>1$ satisfies $\rho(\sum_\ell r^{-\ell}G_\ell)=1$. Earlier lags increase the left side at the old $r$, so the new solution is larger. A common time shift does not by itself create a self-sustaining component. An earlier release that preserves a license, beats obsolescence or lowers the cash tied up per start can also increase the entries of $G$. It can then change the extent of adoption. These conclusions separate a pure delay change from changes in realized technical yield, demand, financing or entry incentives.
+In the preserved two-price example, quotes are 4 or 2, demand is 7−2 times own quote plus the rival quote, and firm 1's capacity increases from four to eight. Its low quote is feasible only after qualification. Failure supports high quotes and a payoff of 12; public success induces the rival's low quote and a payoff of 10. Holding the rival's high quote fixed would instead give 14.
 
-**Proposition 3. A bounded economy can sustain a positive additional deployment rate.** Take a fresh cohort of $m_j>0$ eligible opportunities of each type in each generation. Ordinary adoption is already accounted for. Feasible offers induced by the current deployments independently reach the remaining sites, which can adopt at most once. In a continuum with uniform Poisson matching, the average number of offers per site of type $j$ is $(Gn)_j/m_j$. Unused duplicate offers lapse in that cohort. The exact expected mass of new deployments in the continuum is
+Thus, among equal-cost attempts, a higher qualification probability changes the first firm's payoff by −2 times the probability increase under this public-capacity institution. Abstention remains a separate feasible action; the comparison does not establish that an optimally chosen initial research program becomes harmful.
 
-$$n'_j=m_j\left[1-\exp\left(-\frac{(Gn)_j}{m_j}\right)\right].$$
+### Private qualification and disclosed procedures
 
-For a primitive nonnegative $G$, a one-off positive seed fades to zero if $\rho(G)\le1$. If $\rho(G)>1$, every strictly positive seed converges to one positive, finite deployment flow. Overlap between offers limits the share of each cohort that adopts. This is a specified saturation mechanism with replenishing eligible cohorts. Other scarcity or price changes can produce other long-run paths. In finite populations an individual seed can still die out by chance.
+If the actual outcome and procedure choice are private and there is no additional signal, a unilateral change of procedure does not change the rival's information. At the common rival belief, realized qualification improves the firm's payoff against either quote.
 
-The distribution follows from the same object. Under a primitive, fixed $G$, the shares of types in successive marginal generations approach its normalized positive right eigenvector. A high standalone $MPK_r$ and a large eventual share of new machines are different predictions. Type units and any expenditure weights have to be specified. A one-way transfer can make the recipient much more productive. When each market is below replacement on its own, sustained amplification requires a sufficiently strong return path. It may run through demand, reinvested cash or shared learning. Crowding out another firm's deployment or training on harmful transfers can give signed responses. Those cases require the full controlled transition and actual feasible alternatives.
+If the procedure is credibly disclosed before bids, the rival can react to its success probability even if the realized outcome stays private. In the source example, the rival changes its quote at p=1/2; moving from p=1/4 to p=3/4 reduces the first firm's ex-ante payoff from 12.5 to 8.5. The equality case and mixed rival response remain explicit boundaries.
 
-The distinction matters commercially. More fleet hours, faster releases and cheaper inference can bring the same contracts forward. A new approved embodiment, timely cross-customer rights, or a financing change can enlarge the number of viable contracts and establish a return path between markets. Measured robot sales alone can look similar early in both transitions. Dated first use, qualification failures, expired opportunities and subsequent capital commitments distinguish them.
+### Quantity benchmark and institutional scope
 
-<!-- page -->
+With the same demand/cost/capacity numbers and continuous quantity competition, the source's unique solution raises the first firm's profit by 6/25 after qualification. In the archived funded embodied quantity calibration, both published selectors produce gains or ties and no strict loss across matched probability increases.
 
-## 6. Where the marginal product of capital rises and falls
+These are boundaries, not a universal quantity-monotonicity theorem. The later reservation/suffix institution admits off-path, selection-dependent conditional losses while leaving the relevant selected initial outcomes unchanged; it is preserved in the frozen verification archive. No new expansion is authorized.
 
-Suppose a release improves the method used by an installed fleet. On impact we observe what existing machines can do with that release. After firms have had time to buy machines, change the dispatch policy or hire technicians, we observe the productivity of a different fleet. A comparison of mature sites can miss the very improvement that induced them to install.
+The exact payoff table, private-information timing, quantity derivation and existing checker are retained in [qualification_observability.md §§2–3](../../research/theory/qualification_observability.md). The checker is subject to the [targeted oracle rule](../../research/portfolio/ORACLE_REQUESTS.md) before another invocation.
 
-Consider one price-taking site producing accepted service $Y=aK^\alpha$, with $0<\alpha<1$. The parameter $a$ summarizes the method and the complementary inputs held fixed here. Let $p$ be the service price and $u$ the competitive rental cost per machine-period. Start at a positive interior optimum. Over an operating window in which the fleet cannot change, a one-percent increase in $a$ raises physical $MPK_r=\alpha aK^{\alpha-1}$ by one percent. Once the site can adjust its entire fleet, the interior investment condition is
+## 5. P1.X1 — Signed coordination and grounding
 
-$$p\alpha a(K^*)^{\alpha-1}=u,\qquad \frac{d\log K^*}{d\log a}=\frac{1}{1-\alpha}.$$
+This extension imports Result 2 from the pinned production-theory source. Consider two dates, one final authorized service of contribution v≥0, no other competing orders, stable demand and additive costs. H is authorization, L timely baseline qualification, T incremental qualification from grounding G, S incremental routine qualification created by coordination C, and W_0≤W_1 usable capacity before/after C. These indicators have a joint distribution and are lawfully observable at dispatch. Qualification composes by OR; set R*=H(1−L)T.
 
-At unchanged service and rental prices, the improvement ultimately appears in a larger fleet and higher output. Its long-run marginal physical product returns to $u/p$. A site held at a binding fleet ceiling can instead exhibit a rising marginal product and flat investment. If the ceiling is then released, the site can add robots while its measured marginal product is falling. The timing of measurement and the state of the complementary inputs determine what an observation of $MPK_r$ means. A changing price or service mix must be recorded separately.
+The four-program interaction is
+$$
+I=J_{CG}-J_C-J_G+J_P
+=v\,E[R^*(W_1-W_0)(1-S)]-v\,E[R^*W_0S].
+$$
+Subtract the grounding benefit without coordination from that with coordination and rearrange. Newly usable capacity creates complementarity; routine learning can make grounding redundant. Capacity release alone weakly complements G, whereas a pure routine-readiness improvement weakly substitutes under these restrictions.
 
-The same reasoning applies across markets. Write $x=(K,h,W)$ for the levels of capital, methods and revolving funds, and $T$ for the block transition in Section 4. Let $e_i^K$ place one unit of type $i$ in the capital block and zero in the other states. Around a stationary regime, the first-order change in the marginal physical product of machine $j$ for final service $m$, per small initial addition of machine $i$, at date $t$ is
+General demand, shared orders, cost interactions or additional training interactions require the complete program comparison. The ordinary coordination comparator itself learns; freezing it would change the question.
 
-$$\nabla_x J_{mj}(\bar x)^\top T^t e_i^K.$$
+Source and proof appendix: [WHEN_CAPABILITIES_COMPACT_DRAFT, Result 2](https://github.com/amarmurray/robotics-economics/blob/8dba84f45e18fe5896e75cd9a98539e4b87a83fb/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md) and [COORDINATION_ROUTINE_MODEL_AB](https://github.com/amarmurray/robotics-economics/blob/8dba84f45e18fe5896e75cd9a98539e4b87a83fb/research/theory_integration_2026_11_17/data_value/COORDINATION_ROUTINE_MODEL_AB.md). Its later portfolio/design material belongs to Paper 2; procedure recursion belongs to Paper 3.
 
-This is a response of *another marginal product*, with units of service per target machine per source machine. It differs from the matrix counting new installations. Local demand schedules and other exogenous resources are held fixed, while induced orders and the dispatch rule are included in the service map. Funds may have no direct effect on an already paid-for shift and still matter at later dates through $T$. At a binding constraint or a discrete change of embodiment, replace the derivative with the two feasible differences on either side of the change. Even where every adoption link is positive, the marginal-product response can have either sign.
+## 6. Operational mapping and explicit nulls
 
-<!-- page -->
+The saved automotive comparison delivers the same 12 kits by the same modeled deadlines under human service and a prepared fixed cell. The customer outlays are 572 and 908 synthetic dollars, respectively. The 336 difference is conditional accounting within the declared replay window. The actual industrial source motivates a competent fixed alternative; it does not supply those numerical inputs.
 
-## 7. How the transformation travels through the value chain
+Retain the job-level match, station versus upstream preparation, due bills, avoidable commitments and incomplete comparisons. Actual integration/qualification costs, supplier margins, support/maintenance costs, reuse permissions, target learning probability and financing terms remain unidentified. The deficit is not an observed advance or incentive-payment requirement. [Workcell bounds](../../research/workcell_cash_decision.md) · [Replay contract](../../model/WORKCELL_COMPARISON.md).
 
-A downstream improvement can shrink an upstream industry that supplies its learning data. Let one final unit require $b$ units of an upstream input at price $p_U$. Suppose other unit cost $c_0$ is constant, final competition passes through costs, and final demand is $y=A(c_0+p_Ub)^{-\epsilon}$ with $\epsilon>0$. Define the upstream cost share $s=p_Ub/(c_0+p_Ub)$. Upstream sales are $x_U=by$. Then
+Public anchors remain distinct: Amazon Robin informs a technical learning/operating relation; National Grid Sandy Pond informs site qualification and permission; Symbotic records inform commercial acceptance, rights and accounting categories. They are not one joined causal panel.
 
-$$\frac{d\log y}{d\log b}=-\epsilon s,\qquad \frac{d\log x_U}{d\log b}=1-\epsilon s.$$
+The first Lane 4 packet uses the October 29, 2026 Symbotic–Walmart agreement and FY2026 filing to map acceptance, payment, data use and information separately. Its [structured record](../../research/portfolio/empirical_target_symbotic.json) retains missing project-level variables as null. This is preparation for Gate C; A and B remain open.
 
-When an improved method saves upstream material, final buyers demand more. Upstream volume contracts if $\epsilon s<1$ and expands if $\epsilon s>1$. If useful upstream records are produced in proportion to volume, the stream feeding the next downstream improvement moves with upstream volume. The downstream firm can therefore improve its present product while eroding a source of its future productivity. Inspection of successes, product redesign or a change in retention rights can alter that transmission. Similarly, total labor in a role equals its hours per unit times volume. A lower routine-labor requirement per unit can coexist with more total technical review after the market expands.
+## 7. Claim boundaries, reproduction and next editorial test
 
-The existing network study traces a packaging plant, digital dispatch, retail fulfillment and hospital supply. Its synthetic economies show how a new hospital specification can expand accepted hospital work and contract upstream work. Here the response of upstream evidence and cash can also change *future* installations. This is a causal hypothesis about successive cohorts. Public input-output accounts measure buyer–supplier relationships. Transfer tests, contracts and settlement records are needed to measure the other two networks. [RoboEcon network study](https://github.com/amarmurray/robotics-economics/blob/6951d24824287b11056e62e3e5221f818086ef5c/research/recursive_firm/network_mpk/README.md) · [BEA requirements tables](https://www.bea.gov/resources/guide-interactive-industry-input-output-accounts-tables)
+P1.1 must survive pooling, competent contracts, human fallback and the distinction between liquidity and incentives. P1.2 must retain the exact offer/observability institution and the non-reversal comparisons. P1.X1 must retain the joint law and the evolving ordinary-learning comparator. Each empirical extension must state which of those premises is actually observed.
 
-| Firm position | Which additional deployment it may induce |
-| --- | --- |
-| Site operator paid for accepted service | A faster local policy can release labor or cash. If the next buyer cannot use the update, the gain can end at that site. |
-| Model or component supplier serving many operators | A record from one customer can improve several eligible fleets. A per-use royalty, a flat fee and competitive pass-through give the supplier different incentives to acquire that record. |
-| Integrated fleet owner or deployer | A loss of volume in one unit can be covered by a gain or newly available funds elsewhere. A shared commissioning crew or financing line can also displace another launch. |
-| Consortium of independent firms | A timely contingent license and shared funding can implement the same decision as an integrated organization. Missing rights, delays or separate claimants can break the return path. |
+The [existing referee report](../../reviews/integrated_firm_referee.md) is an antecedent objection ledger, not the independent paper-specific Gate B pass. Next complete common notation, proof dependencies and every cross-paper route; then commission the adversarial pass.
 
-Opening cross-customer reuse can widen technical reach while reducing the originator’s willingness to pay for investigation. For example, under two-supplier competitive procurement a given improvement in qualification earns less private margin when a rival can already supply the same low-cost method. Rights can therefore change both the destinations reached and the amount collected at the source. [Competitive learning model](../autonomous_firm/When_Faster_Learning_Pays.md)
+Existing replication.py is retained without modification. The [canon register](../../research/portfolio/CANON.md#reproduction-ownership-and-completeness) maps the workcell and coordination scripts. No new computation was performed for this consolidation.
 
-<!-- page -->
-
-## 8. The value of changing how the firm learns
-
-The firm can spend an engineer-week to change evidence collection or validation. It can buy an adapter, delegate release authority to a digital agent, or renegotiate a milestone that releases cash sooner. Each action may change the *matrix* of future opportunities. This gives the higher-order decision an economic price.
-
-Let $G_\beta=\sum_\ell\beta^\ell G_\ell$, assume $\rho(G_\beta)<1$, and set $Z=(I-G_\beta)^{-1}$. For an initial vector of new deployments $b$ and discounted direct net value $v$ per installation, the value attributable to these seeds is $v^\top Zb$. A redesign can also change the value of work on already installed machines even if it induces no new start. Include that direct incumbent effect separately when it is outside the seed account. Use real net value for the whole chain or the firm's own cash claims for a private decision. Direct values are attributed once and exclude benefits from descendant installations. Cash available for reinvestment is a financing state. The same operating surplus contributes to real value only once. In an environment where only one link changes locally,
-
-$$\frac{\partial(v^\top Zb)}{\partial (G_\beta)_{ji}}=(v^\top Z)_j(Zb)_i.$$
-
-The right factor counts how much activity reaches the source. The left values the destination and what it can induce. A source with little direct operating margin can therefore merit a scarce learning investment. A frequently visited source can have little incremental value when no additional recipient can use or finance the result. For a finite redesign, compare the two complete discounted systems and charge real design and displacement costs. When $v$ or $b$ changes, include those differences too. When a rival responds, recompute the links, prices and private claims under that response. The production of learning capacity is a choice inside the theory.
-
-**Discriminating observations.** To measure physical $MPK_r$, use additional machines or service blocks at known staffing, demand and deadlines, recording declined jobs and fallback, as well as deliveries. To measure $L$, compare fresh compatible sites under ordinary updating and a changed sampling or release rule, at matched executor, rights and budget. Collect all attempted work, its condition and its path to a validated release. To estimate $C$ and $B$, follow all eligible prospects, including refusals. Observe when qualification, cash headroom or a commissioning slot becomes available. A change in payment milestones at unchanged machine performance is especially informative where finance binds.
-
-To distinguish a timing response from wider adoption, compare installation dates *and cumulative funded starts* across cohorts after long enough for routine learning to catch up. Record contracts or technical regimes that expire while sites wait. Test for cross-site spillovers where sites share methods but no material input, and for demand-only effects where they share a supplier but no evidence rights. Common demand, hardware upgrades and subsidized financing can generate correlated installations without one site causing the next. The target is a causal marginal response from independent variation or identified bounds. A count of later customers at the same vendor cannot identify a matrix entry by itself.
-
-To aggregate, retain the joint distribution of final-work vectors, labor mix, data yields, rights, cash occupation and eligible adopters at each investment threshold. Weight physical service by defined end-market units or explicit valuations, private gains by their recipient, and aggregate real output by original final demand. Large rollouts require updating marginal products and constraints as production moves. The model delivers a local propagation law and one bounded long-run economy. Sector-specific estimates of the links and the response of prices, wages, entry and financing supply are the next empirical and equilibrium questions.
-
-<!-- page -->
-
-## Appendix. Derivations and replication
-
-**First-generation accounting.** Group the method and funding states into one vector. Write $A=(C\ B)$, let $E$ stack $L$ above $P$, and let $M$ have diagonal blocks $S_H,S_W$, lower-left block $R$ and zero upper-right block. Suppress all induced deployments while attributing the first generation from the seed. A source still operating $s$ periods after installation contributes $E S_K^s$ to the other states. Those increments last through $M^u$ after $u$ more periods. A subsequent start arrives at lag $s+u+2$. Hence
-
-$$G_\ell=U S_K^{\ell-1}+\sum_{s+u+2=\ell} A M^u E S_K^s.$$
-
-Here the first term of the dated kernel is the direct operating route. Inverting the triangular blocks gives the four paths in Proposition 1. More generally, the discounted kernel is
-
-$$G_\beta=[\beta U+\beta^2 A(I-\beta M)^{-1}E](I-\beta S_K)^{-1}.$$
-
-Setting the discount factor to one recovers $G$. The matrices $M$ and $S_K$ here have spectral radii below one. With signed interactions the accounting of first-round paths still applies, but the nonnegative comparison theorem need not. For the positive two-type case in the text, the determinant of $I-G$ changes sign at the stated threshold because both diagonal entries of $G$ are below one. The Perron root crosses one there.
-
-**Bounded cohorts.** Denote the map in Proposition 3 by $\Phi$. It is increasing, bounded above by $m$, with derivative $G$ at zero. At every active positive coordinate, $1-\exp(-x)<x$ for $x>0$. A positive fixed point therefore requires $\rho(G)>1$ by multiplication by a positive left Perron vector. A nonzero boundary fixed point is excluded by irreducibility. When $\rho(G)\le1$, monotone iteration from $m$ decreases to zero and bounds all trajectories after one step. When $\rho(G)>1$, a sufficiently small positive multiple of the right Perron vector is a strict lower solution. Iteration from it and from $m$ gives positive fixed points. They coincide because $\Phi(\alpha x)<\alpha\Phi(x)$ for positive $x$ and $\alpha>1$ coordinatewise. Scaling either fixed point up to touch the other at one coordinate would contradict this inequality. Every strictly positive seed can be bounded below by a sufficiently small such lower solution. The upper bound applies after the first step. Here each generation is a fresh cohort with one common decision date.
-
-**Economic lineage.** Data-Driven Automation treats data as a task-specific byproduct with spillovers, derives an automation frontier and studies endogenous capital accumulation. The economics of nonrival data explains why ownership affects access and why one record can support multiple users. Production-network economics establishes how substitution and bottlenecks propagate shocks. Organizing Intelligence distinguishes reproducible expertise from the capacity to coordinate it. Our question is which other firm can turn a given shift’s orders, experience or cash into a qualified and funded deployment that generates further experience of its own. The matrix and occupancy mathematics are established tools. [Farboodi, Koh and Xia](https://arxiv.org/abs/2606.10127) · [Jones and Tonetti](https://doi.org/10.1257/aer.20191330) · [Baqaee and Farhi](https://doi.org/10.3982/ECTA15202) · [Imas, Koh and Legg](https://arxiv.org/abs/2611.05417)
-
-The [Python replication](replication.py) uses NumPy. It compares direct simulations of stocks and installation dates with the derived responses and checks capital adjustment and input demand independently. Its economies are illustrative.
-
-[PDF reading edition](Learning_and_Capital_in_Robotic_Production.pdf) · [Applied foundations and proposed paper openings](../How_Deployment_Changes_Robot_Productivity.md)
+The earlier full Learning and Capital text, its first-generation network illustration and proofs remain preserved at the [input main revision](https://github.com/amarmurray/robotics-economics/blob/f3a6d0f8146c773ca7906f395f5eb52ec6fac910/papers/learning_and_capital/README.md). Its §§4–7 provide a fixed-primitive network appendix; endogenous procedure/multigeneration material in §8 is routed to Paper 3. This immutable source is a historical supporting edition, not a fourth active paper.

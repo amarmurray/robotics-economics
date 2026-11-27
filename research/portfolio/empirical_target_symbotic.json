@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "record_id": "lane4_symbotic_walmart_acceptance_cash_rights",
+  "status": "preparatory_evidence_for_gate_c_no_gate_pass",
+  "evidence_class": "primary_contract_and_corporate_accounting",
+  "research_question": "Does the observed contract support or defeat the separation of target-test auditability, payment incentives, lawful learning use and rival prebid information?",
+  "owning_papers": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "primary_owner": "Lane 4 empirical identification and canon stewardship",
+  "contract_document_date": "2026-10-29",
+  "accounting_measurement_date": "2026-09-26",
+  "accounting_scope": "consolidated_company_not_customer_or_project",
+  "accounting_is_project_panel": false,
+  "accounting_predates_contract": true,
+  "gate_c_passed": false,
+  "gate_a_status": "in_progress",
+  "gate_b_status": "pending",
+  "sources": [
+    {
+      "id": "EMAA_2026",
+      "issuer": "Symbotic / Walmart",
+      "document": "Enterprise Master Automation Agreement",
+      "document_date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000119312526437874/d182210dex101.htm",
+      "inspected_date": "2026-11-27",
+      "locators": [
+        "2.16 Testing and Acceptance",
+        "7.2 Invoicing",
+        "8.5 System Data and Walmart Data"
+      ],
+      "source_kind": "filed_contract_with_omissions",
+      "source_boundary": "Read the agreement and its category definitions; omitted SOW, pricing and supplemental terms cannot be imputed.",
+      "exact_source_byte_sha256": null,
+      "hash_null_reason": "Public rendered source inspected; exact downloaded source bytes were not archived in this packet."
+    },
+    {
+      "id": "FORM10K_FY2026",
+      "issuer": "Symbotic",
+      "document": "Form 10-K fiscal year ended September 26, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000049/sym-20260926.htm",
+      "inspected_date": "2026-11-27",
+      "locators": [
+        "Note 4, Revenue, Contract Balances"
+      ],
+      "source_kind": "corporate_financial_filing",
+      "source_boundary": "Aggregate accounting stocks measured before the new agreement; not spendable project cash or realized cash effects of the agreement.",
+      "exact_source_byte_sha256": null,
+      "hash_null_reason": "Public rendered source inspected; exact downloaded source bytes were not archived in this packet."
+    }
+  ],
+  "observed_institutional_features": [
+    {
+      "formal_objects": [
+        "accepted_service",
+        "p_qualification"
+      ],
+      "source": "EMAA_2026",
+      "locator": "2.16",
+      "observation": "Project-SOW tests govern preliminary and final acceptance, notices and disputes.",
+      "classification": "contractual_process_not_realized_performance"
+    },
+    {
+      "formal_objects": [
+        "funding_links",
+        "payment_incentive_difference"
+      ],
+      "source": "EMAA_2026",
+      "locator": "7.2",
+      "observation": "Pricing exhibit governs invoices; unpaid undisputed charges can permit delivery and installation suspension after notice.",
+      "classification": "contractual_process_not_observed_cash_path"
+    },
+    {
+      "formal_objects": [
+        "R_use",
+        "transfer_kernel"
+      ],
+      "source": "EMAA_2026",
+      "locator": "8.5",
+      "observation": "System/Aggregate Data and Walmart Data receive different treatment; specified Walmart-data AI/ML uses need express written agreement.",
+      "classification": "data_category_rights_not_measured_transfer"
+    },
+    {
+      "formal_objects": [
+        "B_cash",
+        "AR",
+        "cash_time_occupancy"
+      ],
+      "source": "FORM10K_FY2026",
+      "locator": "Note 4 Contract Balances",
+      "observation": "The filing distinguishes receivables, unbilled receivables and contract liabilities.",
+      "classification": "corporate_accounting_not_project_liquidity"
+    }
+  ],
+  "corporate_contract_balances": {
+    "unit": "USD_thousands",
+    "scope": "consolidated_company",
+    "source": "FORM10K_FY2026",
+    "2026-09-26": {
+      "accounts_receivable": 134371,
+      "unbilled_accounts_receivable": 487716,
+      "contract_liabilities": 1866578
+    },
+    "2025-09-27": {
+      "accounts_receivable": 186705,
+      "unbilled_accounts_receivable": 181658,
+      "contract_liabilities": 1367244
+    },
+    "not_a_cash_measure": true,
+    "not_an_estimate_of_project_capital_occupancy": true
+  },
+  "unidentified_parameters": {
+    "realized_commissioning_duration": {
+      "value": null,
+      "reason": "No matched project start/qualification/acceptance dates in the inspected packet.",
+      "needed_observation": "Dated project-level commissioning records."
+    },
+    "realized_acceptance_date": {
+      "value": null,
+      "reason": "The master process is observed; actual site outcomes are not.",
+      "needed_observation": "Named project acceptance notice."
+    },
+    "qualification_probability": {
+      "value": null,
+      "reason": "No denominator of all comparable attempted qualifications.",
+      "needed_observation": "Assigned or complete project cohort including failures."
+    },
+    "qualification_cost": {
+      "value": null,
+      "reason": "No matched incremental validation cost or fallback account.",
+      "needed_observation": "Project-specific labor, tests, delay and fallback costs."
+    },
+    "incremental_accepted_service": {
+      "value": null,
+      "reason": "No matched service counterfactual.",
+      "needed_observation": "Accepted original jobs under comparable alternatives."
+    },
+    "contingent_payment_difference": {
+      "value": null,
+      "reason": "Pricing details do not establish the proposed action-contingent incentive in this packet.",
+      "needed_observation": "Actual payment rule conditional on validation and fallback."
+    },
+    "actual_advance_payments": {
+      "value": null,
+      "reason": "No project collection history for this contract.",
+      "needed_observation": "Project-level dated customer receipts."
+    },
+    "project_spendable_cash_path": {
+      "value": null,
+      "reason": "Company accounting balances are not payer-specific project cash.",
+      "needed_observation": "Dated payer cash, due bills and usable credit."
+    },
+    "project_cash_time_occupancy": {
+      "value": null,
+      "reason": "Cash commitment and recovery dates by claimant are unidentified.",
+      "needed_observation": "Matched cash tie-up and recovery schedule."
+    },
+    "binding_liquidity_constraint": {
+      "value": null,
+      "reason": "A payment remedy does not prove either party was liquidity constrained.",
+      "needed_observation": "Feasible credit and cash at the relevant commitments."
+    },
+    "actual_supplemental_data_permissions": {
+      "value": null,
+      "reason": "No named supplemental learning permission identified for the focal target.",
+      "needed_observation": "Express applicable data-use grant and category."
+    },
+    "causal_transfer_kernel": {
+      "value": null,
+      "reason": "Legal permissions do not measure technical generalization.",
+      "needed_observation": "Matched source-target qualification experiment."
+    },
+    "rival_prebid_information": {
+      "value": null,
+      "reason": "Customer auditability does not establish rival observability.",
+      "needed_observation": "Tender disclosure and information available before offers."
+    },
+    "hidden_action_wedge_established": {
+      "value": null,
+      "reason": "No direct action/payoff/observability comparison establishes the wedge.",
+      "needed_observation": "Comparable validation and fallback records plus incentives."
+    },
+    "successor_procedure_effect": {
+      "value": null,
+      "reason": "No three-cohort carrier experiment or equivalent identification.",
+      "needed_observation": "Executor/procedure separation and incremental successor transfer."
+    },
+    "shared_release_validation_burden": {
+      "value": null,
+      "reason": "The public agreement does not quantify the last legacy configuration cost.",
+      "needed_observation": "Configuration-level release and validation hours."
+    }
+  },
+  "discriminating_next_observations": [
+    "A public project-specific SOW or acceptance milestone paired with its actual outcome dates.",
+    "A public payment schedule identifying whether payment changes with the target test or only with equivalent accepted service.",
+    "An explicit permitted learning use for a named data category and target, kept separate from general ownership.",
+    "Evidence on what rivals knew before pricing, distinct from customer test verification.",
+    "A matched implementation case with original offered work, accepted service, costs, fallback and exclusions; use bounds where fields remain missing."
+  ],
+  "claim_boundaries": [
+    "This institutional mapping neither establishes a hidden-action wedge nor calibrates its magnitude.",
+    "The paper's 12-kit 336-dollar difference remains synthetic and is not fitted to these filings.",
+    "The corporate balances cannot be linked causally to the later agreement or attributed specifically to Walmart.",
+    "Unobserved is not absent. Nulls cannot be filled with zero, synthetic inputs or unrelated company averages.",
+    "No outreach, private-contract request or new computation was performed."
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "purpose": "Scoped claim ownership and boundary ledger, not a fourth paper",
+  "input_main": "f3a6d0f8146c773ca7906f395f5eb52ec6fac910",
+  "gate_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "claims": [
+    {
+      "id": "P1.1",
+      "owner": "P1",
+      "statement": "Where a saving lands can change funding feasibility and implementable first deployment.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "payer-specific dated cash and enforceable payment links",
+        "combined-surplus benchmark only with feasible participation and implementation",
+        "human fallback and action-specific validation cost"
+      ],
+      "boundaries": [
+        "max-flow/min-cut is prior art",
+        "funding does not itself induce hidden validation",
+        "pooling, direct target procurement or equivalent contracts can defeat the wedge"
+      ],
+      "source_or_proof": [
+        "research/theory/qualification_finance.md",
+        "research/theory/learning_funding_alignment.md",
+        "research/theory/qualification_observability.md section 1"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P1.2",
+      "owner": "P1",
+      "statement": "Public qualification can reverse profit rankings in the specified bid-pricing institution.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "declared public/private qualification and procedure information",
+        "specified bid menu, fallback and rival response"
+      ],
+      "boundaries": [
+        "retain private-qualification and continuous/funded-quantity non-reversal comparisons",
+        "do not extrapolate to reservation/suffix institutions or arbitrary competition"
+      ],
+      "source_or_proof": [
+        "research/theory/qualification_observability.md sections 2-3",
+        "frozen integrated_firm institutional checks"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P1.X1",
+      "owner": "P1",
+      "statement": "Coordination can complement grounding through released capacity and substitute through routine learning.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "one authorized final service",
+        "joint event law",
+        "OR qualification and additive costs",
+        "ordinary coordination itself learns"
+      ],
+      "boundaries": [
+        "general shared demand or cost interactions require complete program comparisons",
+        "sign not universal"
+      ],
+      "source_or_proof": [
+        "production branch pinned WHEN_CAPABILITIES_COMPACT_DRAFT.md Result 2",
+        "COORDINATION_ROUTINE_MODEL_AB.md"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P1.F",
+      "owner": "P1",
+      "statement": "Production, learning and funding networks and cash-time occupancy govern different constraints.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "typed accepted service and separate claimant accounts",
+        "balanced pipeline for Little's Law",
+        "nonnegative occupancy with zero-occupancy convention"
+      ],
+      "boundaries": [
+        "steady-state relation does not establish transient rollout or equilibrium growth",
+        "receivables are not spendable cash"
+      ],
+      "source_or_proof": [
+        "papers/learning_and_capital/README.md foundations",
+        "input main historical network appendix"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P2.1",
+      "owner": "P2",
+      "statement": "Joint timing can reverse sampling; hourly billing can penalize faster service.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "shared dated validation slot and observed opportunity cost",
+        "hourly result: fixed price, constant elasticity, slack capacity, nonbinding minimum, full pass-through"
+      ],
+      "boundaries": [
+        "covariance shortcut needs validation valuable whenever a trace exists",
+        "binding capacity/minimums, alternate contracts or redeployment change hourly comparison"
+      ],
+      "source_or_proof": [
+        "Choosing_the_First_Deployment.md timing section",
+        "The_Autonomous_Firm.md hourly section"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P2.2",
+      "owner": "P2",
+      "statement": "A fixed dated cohort can yield an intermediate learning peak.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "ordinary and accelerated discovery paths",
+        "fixed rival",
+        "independent qualification in the proof",
+        "full coverage for the single-peak formula"
+      ],
+      "boundaries": [
+        "adding cohorts changes demand",
+        "partial coverage and responding rivals need separate proof"
+      ],
+      "source_or_proof": [
+        "When_Faster_Learning_Pays.md sections 1-3",
+        "replication/capability/learning_deadlines.py"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P2.3",
+      "owner": "P2",
+      "statement": "The last legacy customer can block a shared release; conditional subsidy T_min implements participation under the stated contracting restriction.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "configuration-wide shared obligation",
+        "positive individual moving costs",
+        "noncharging sponsor and binding conditional agreement",
+        "funding on actual migration dates"
+      ],
+      "boundaries": [
+        "independent additive checks remove the discontinuity",
+        "shared release value must include best adapter, partner and waiting alternatives",
+        "legacy teacher loss can offset release gain"
+      ],
+      "source_or_proof": [
+        "input main The_Production_of_Capability.md installed-base sections",
+        "replication/capability/installed_base.py"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P2.4",
+      "owner": "P2",
+      "statement": "Future reuse rights can change the first deployment; source reliability fixes can raise demand for precursor sensing.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "funded three-vintage finite example with fixed prices",
+        "incremental lawful future reuse and design-dependent access",
+        "sensor recovers useful records lost to the source fix"
+      ],
+      "boundaries": [
+        "permission premium vanishes with duplicate evidence or equal access",
+        "recompute target value if the fix also removes downstream need"
+      ],
+      "source_or_proof": [
+        "FULL_STACK_FIRM.md vintages and sensor sections",
+        "replication/capability/full_stack_vintages.py"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P2.5",
+      "owner": "P2",
+      "statement": "A nuisance-isolating source can complement another source and change optimal design, scale and entry.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "Gaussian independent prior and measurement errors",
+        "shared persistent nuisance",
+        "quadratic mismatch and stated manufacturing cost",
+        "fixed experiment portfolio for unconditional formulas"
+      ],
+      "boundaries": [
+        "correlated/unstable nuisances and adaptive selection alter formulas",
+        "caps and indivisible batches can reverse quantity effects",
+        "paid equivalent experiments and feasibility must be retained"
+      ],
+      "source_or_proof": [
+        "DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md sections 1-9",
+        "replication/capability/diagnostic_portfolios.py"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.1",
+      "owner": "P3",
+      "statement": "A current investigation with lower resolution probability can be preferred for successor-production value.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "defined carriers and competent comparator",
+        "constant continuation stake within restriction",
+        "success-contingent optional qualification"
+      ],
+      "boundaries": [
+        "positive-part regions required",
+        "reuse alone does not establish successor production",
+        "physical MPK is not monetary reward"
+      ],
+      "source_or_proof": [
+        "recursive branch organizational_recursion/README.md",
+        "recursive branch economic_rl/README.md"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.2",
+      "owner": "P3",
+      "statement": "Endogenous informative-arrival slowdown and optimized source expansion can reduce the speed or amount of recipient learning.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "conditional example-time law",
+        "informative independent records, fixed transfer, slack processing",
+        "shared-hour crowdout: substitutable streams and stated concave mixed interior"
+      ],
+      "boundaries": [
+        "corners require feasible frontier",
+        "endogenous prices or changed yields add terms",
+        "raw logs do not identify effective evidence"
+      ],
+      "source_or_proof": [
+        "recursive branch learning_dynamics/README.md",
+        "papers/theory_week_20261125/EVIDENCE_REALLOCATION.md"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.3",
+      "owner": "P3",
+      "statement": "Transfer/noise products and novelty-transfer joint laws can remain unidentified by their usual marginal observations.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "declared binary signed-edge likelihood",
+        "stable independent repeated measurements for separation",
+        "perfect scoped source/recipient audits"
+      ],
+      "boundaries": [
+        "admission bias and settlement symmetry are distinct failures",
+        "marginal rates do not justify independence",
+        "changed payoffs/audits require rebuilt action values"
+      ],
+      "source_or_proof": [
+        "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md",
+        "recursive branch inquiry/audit_location/README.md",
+        "reference_coverage/README.md",
+        "settlement_learning/README.md"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.4",
+      "owner": "P3",
+      "statement": "Integration can create a portable interface that subsequently makes delegation economical; fixed-pair speed premiums can be nonmonotone.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "stationary unresolved state and persistent portability",
+        "nonnegative switch costs, adequate funding",
+        "competent outside arrangements",
+        "fixed delays and payoff with independent survival"
+      ],
+      "boundaries": [
+        "joint lab or reservation can defeat ownership ranking",
+        "changing prices/cash and new information can make waiting valuable",
+        "optimized organizational envelope need not have one hump"
+      ],
+      "source_or_proof": [
+        "recursive branch boundaries/README.md",
+        "recursive branch stack_profile/README.md"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.A.COST",
+      "owner": "P3",
+      "statement": "Complete-policy common-cost values are affine and fixed-rival optimized values are convex piecewise affine; fixed-profile equilibrium regions require all-history inequalities.",
+      "status": "conditional_analytical_claim_gate_A_reconciliation_open",
+      "assumptions": [
+        "finite common game tree and objective-consistent nonnegative cost weights",
+        "uniform feasibility for all relevant deviations",
+        "fixed counterpart policies on corresponding histories",
+        "perfect monitoring for one-shot SPNE certificate",
+        "risk-neutral expected additive monetary payoff",
+        "perfect recall for the complete-policy best-response statement"
+      ],
+      "boundaries": [
+        "not equilibrium-payoff convexity or date-specific research monotonicity",
+        "adjusting mixed probabilities and cash-conditioned responses can change paths",
+        "private information needs beliefs and a specified equilibrium concept"
+      ],
+      "source_or_proof": [
+        "research/recursive_firm/README.md Appendix A.COST"
+      ],
+      "independent_hostile_referee_status": "pending",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false
+    }
+  ],
+  "preserved_antecedent_ledgers": [
+    "papers/integrated_firm/CLAIM_LEDGER.md",
+    "papers/theory_week_20261125/PROPOSITION_REGISTER.md",
+    "reviews/integrated_firm_referee.md"
+  ]
+}

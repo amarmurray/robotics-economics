@@ -1,3 +1,27 @@
+# Papers, appendices and reproducible sources
+
+## Active manuscripts — exactly three
+
+| Paper | Canonical file | Scope |
+| --- | --- | --- |
+| 1 — Deploying to Learn, Learning to Deploy | [learning_and_capital/README.md](learning_and_capital/README.md) | Financing incidence, disclosure, signed coordination/grounding and three networks |
+| 2 — The Autonomous and Full-Stack Firm | [autonomous_firm/The_Production_of_Capability.md](autonomous_firm/The_Production_of_Capability.md) | Five allocation, deadline, installed-base, vintage and diagnostic results |
+| 3 — Recursive Firm Theory | [research/recursive_firm/README.md](../research/recursive_firm/README.md) | Four organizational, scaling, identification and boundary pillars |
+
+All three remain Gate A in progress; B and C are pending. [Canon, notation, source dispositions and replication coverage](../research/portfolio/CANON.md).
+
+The integrated_firm directory is a frozen exact-results/oracle archive. The theory_week_20261125 directory is historical synthesis/proof support; its two analytical syntheses belong to Paper 3. The five noncanonical autonomous drafts, earlier Learning and Capital edition, branch modules and dated PDFs are historical source editions. They are not additional active papers. No PDF was regenerated or claimed equivalent to the new canon in this turn.
+
+Scripts and saved outputs are preserved. The old autonomous replication/run.py does not cover every capability result. Do not describe it as full-paper replication or run the frozen exhaustive scripts for an editorial change. Any targeted solver run must satisfy [the preregistration rule](../research/portfolio/ORACLE_REQUESTS.md).
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Historical paper and PDF index — source editions only</summary>
+
 # RoboEcon papers and replications
 
 ## Formal integration of the robotic and recursive firm
@@ -62,3 +86,7 @@ The November 17 replication outputs include [deployment expansion](production/re
 ## Program briefs
 
 The original November 15 brief and its expanded Christmas edition document the research questions and milestones at the start of the theory phase. [Original brief](program_briefs/Codex_Robotics_Economics_Theory_Research_Brief.md) · [Through-Christmas edition](program_briefs/Codex_Robotics_Economics_Theory_Research_Brief_Through_Christmas_2026.md)
+
+
+
+</details>

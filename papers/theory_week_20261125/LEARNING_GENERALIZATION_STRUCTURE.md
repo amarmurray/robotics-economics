@@ -1,3 +1,5 @@
+> **Historical synthesis / scoped proof appendix.** The dated theory-week program and its solver queues are retired. Analytical results are owned by [Paper 3](../../research/recursive_firm/README.md) under the [canon map](../../research/portfolio/CANON.md); other claims follow that map. The preserved text, dates, scripts, nulls and saved results below are provenance, not a calendar deadline, live lease or authority to expand the frozen solver.
+
 # Learning where generalization works
 
 ## Deployment choice, experiments and the production of transferable capability

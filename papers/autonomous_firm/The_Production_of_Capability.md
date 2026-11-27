@@ -1,157 +1,141 @@
-# The Production of Capability
+# The Autonomous and Full-Stack Firm
 
-*How work changes what a firm can learn, deploy and earn · Revised working paper · November 25, 2026*
+**Canonical Paper 2.** Gate A: in progress; Gate B: pending independent hostile-referee pass; Gate C: pending. This file consolidates the six earlier autonomous-firm manuscripts around five analytical results. The [canon register](../../research/portfolio/CANON.md) specifies every source's owner and archival status. The five other manuscripts are preserved historical editions. No new simulation or solver was run for this consolidation.
 
-A warehouse robot clears a jam. A software agent resolves an invoice discrepancy. Either service can be completed without learning how to handle a different job. Someone must choose which cases to inspect, which observations belong together, and which fresh test is worth a scarce validation slot. A firm produces a capability when that work changes the set of services it can deliver at a given cost, quality and deadline. It produces a capability for learning when earlier work changes what the next experiment can accomplish.
+## 1. One allocation problem across dates and vintages
 
-**A deployment leaves the firm with both experience and commitments.** A correction found at one site may teach a gripper supplier which calibration to try at another. If using the correction requires changing a shared controller, existing sites may also have to demonstrate that they can still deliver their orders. Those sites can consume the validation time needed to reach the new buyer, even when the correction offers them no direct gain. A supplier that can update the new site separately faces a different investment decision with the same robots, evidence and discovery.
+A robotic firm allocates current paid work, diagnostic opportunities, shared validation hours and future hardware commitments. Its best first deployment can depend on when other jobs need the same resources, which old configurations it must continue to support, and what a later customer's records can lawfully teach. These are connected choices within one firm. The paper's five results identify separate reasons a site-level learning score can rank deployments incorrectly.
 
-### Two questions about the same hour of work
+The common state contains the dated order book and accepted-service criteria; installed machines and legacy obligations; the joint posterior over production and diagnostic uncertainties; retained procedures and authorized records; engineering, training and release capacity; feasible contract rights; and dated payer-specific cash. A feasible policy specifies what the firm does after each observed result. It may retain an old policy, use human or fixed-machine service, shelve a discovery, buy an equivalent outside experiment, or wait when deadlines permit.
 
-What should the firm give up today to obtain a reusable method of inquiry? The first model derives the value of an instrumented job when ordinary work also teaches, target sites still need local tests, and a rival can qualify the same orders. A better diagnostic rule makes the first test more valuable and the extra tests used for search less valuable. Competition can reward a firm for keeping a source from its rival even when it cannot learn from that source itself.
+Current contribution, a report's usefulness and the ability to act on it must be distinguished. Information has economic value through a changed feasible decision. A source can have no standalone value and still improve another source's interpretation. A better design can reduce the need to manufacture a particular machine while raising optimized value.
 
-What makes the firm willing to put the discovery to work? The extension beginning on page 7 values each way of using a new method while honoring the installed fleet's commitments. It explains why better routine learning can favor a more uniform fleet while cheaper validation can favor a more varied one. It also identifies when the final customer using an old configuration can hold up upgrades elsewhere, and when a firm will take a workcell out of paid service to keep it for experiments. The final pages propose observations that would distinguish these mechanisms from slower discovery, poorer hardware or stronger demand.
+The five results use explicit restrictions of this common problem. They are not asserted to hold simultaneously in an already solved general equilibrium. Paper 1 owns payer incidence, qualification disclosure and product-market bidding. Paper 3 owns production of successor decision procedures, endogenous deployment-time scaling and dynamic firm boundaries. This paper cites those interfaces rather than recreating their arguments.
 
-In both models the comparison is the best feasible program that keeps learning through ordinary operations. The unit of value is additional accepted customer work or avoidable real cost. The firm's private return also depends on what the next-best supplier can do and who captures the saving.
+## 2. State, units and scope
 
-<!-- page -->
+Use accepted service, physical robot marginal product, firm value and spendable cash as different quantities, following the [shared notation table](../../research/portfolio/CANON.md#one-shared-notation-table). Track shipments, manufacturing starts, conforming hardware, installed units, successfully commissioned usable machines and accepted service separately. Commissioned machines enter usable capital; a start or shipment need not. Data possession does not establish training permission or compatibility. A shared test consumes its resources once only if its result really covers the named configurations.
 
-## How experience produces a method
+Each result states its own information structure and fixed comparisons. Local legacy symbols are retained explicitly: I is a useful-trace indicator in P2.1; I is the installed-obligation set in P2.3; B in P2.3 is the present value of a release benefit, not dated cash B_(a,t); S,T and s in P2.5 are variances. Beta or delta discounts the stated continuation. Complete notation reconciliation remains a Gate A obligation.
 
-At the first date, each supplier has $B$ opportunities to do source work. At the second date, two suppliers compete for $N$ new jobs. Jobs meet a common acceptance standard. A conventional method costs $C$ per job. A qualified new method costs $C - d$, with $d$ positive. Both methods deliver the same service. This restriction makes prices and real resource savings separately observable.
+## 3. P2.1 — Timing covariance and the unit sold
 
-### Source allocation
 
-Each firm commits in advance which $n$ of its $B$ opportunities to instrument. Ordinary service can already produce a record that reveals a reusable rule, with probability $u_{0}$. An instrumented opportunity does so with probability $u_1>u_0$. A revealing record pairs a known context with a verified diagnostic. Other records supply no information about the rule. With independent opportunities, the chance of acquiring the rule is
 
-$$s(n)=1-(1-u_1)^n(1-u_0)^{B-n}.$$
+### When the timing of scarcity changes the answer
 
-The proof counts the chance that every record misses. At equal output, a preauthorized recording procedure can increase $u$ by capturing informative cases that would expire during approval. If the procedures differ only in response time, the increase equals the probability of a permitted, informative case that only the faster procedure can capture in time. Either a human or an agent may hold that authority.
+*Allocation  /  A derived implication*
 
-### Target qualification
+Two firms can have identical demand, robots, error rates, teleoperator costs and available compute, yet rationally collect different data.
 
-Each fresh job has a visible marker $z$ and a local setting that must be verified. Exactly one of $K$ diagnostics certifies the setting. On compatible jobs its index is $(z+\theta_i)\bmod K$. The firm-specific offset $\theta_{i}$ is initially uniform. A revealing source record identifies it. On other jobs the correct index is independently uniform. The compatible and authorized share is $\tau$. A source record never supplies the fresh setting itself.
+An operator can handle a paying job today or sample a fault at site A. Sampling gives up k in contribution. With probability one half it yields a usable trace (I = 1). Tomorrow, validating that trace delivers target contribution v by the deadline. It consumes a slot otherwise earning X on another job. Without a trace the other job runs. The authorized scheduler observes I and X before committing the slot. All amounts are in present-value units.
 
-Each firm has prepaid capacity for $m$ distinct checks per target before expiry, with $0\le m\le K$. Without the rule its best success chance is $h = m/K$, since any $m$ distinct indices cover the same fraction. With the rule it succeeds on a compatible job whenever at least one check is available. Let $b$ equal $1-h$ when $m>0$, and zero otherwise. Qualification thus has probability
+Gain from sampling = E[I × max(v − X, 0)] − k
 
-$$p_i(n)=h+\tau b s(n).$$
+Suppose k = 7, v = 24, and the alternative job earns either 2 or 18 with equal probability. The slot is always worth using when there is a trace. The two schedules differ solely in which state coincides with a usable trace.
 
-Target checks for the batch must be assigned before cross-site feedback arrives. The two firms’ local conventions, applicability draws, and capture events are independent across firms for a given job. Jobs within a firm may share one rule. Marginal test costs are sunk in this benchmark.
+| Timing of useful traces | Alternative displaced when I = 1 | Gain from sampling | Allocate operator to |
+| --- | --- | --- | --- |
+| All arrive in quiet windows | 2 | ½(24 − 2) − 7 = +4 | Sampling |
+| Timing is independent | 10 on average | ½(24 − 10) − 7 = 0 | Either use |
+| All arrive in busy windows | 18 | ½(24 − 18) − 7 = −4 | Paying job |
 
-<!-- page -->
+#### Why a site-level score misses the reversal
 
-## The price of a learning opportunity
+In this range the gain is Pr(I = 1) × (v − E[X]) − Cov(I, X) − k. A score built from average transfer yield, average compute utilization and target value gives zero in all three rows. The omitted covariance gives the entire ranking here. With higher congestion the option to decline validation also matters. The positive-part formula continues to hold when the covariance shortcut fails.
 
-A buyer awards each target job by reverse second-price procurement. Both suppliers know their realized costs before bidding. The low-cost supplier wins and receives the other bid. If only firm $i$ qualifies, it earns $d$. If both qualify, the price falls by $d$ and neither earns a margin. With a discount factor $\beta$, define $D = \beta Nd$. Holding the rival’s qualification probability $p_{r}$ fixed, firm $i$’s expected target profit is $D p_i(1-p_r)$.
+An operating prediction follows. Retiming an unrelated batch job, without adding compute or improving the model, can make a previously rejected demonstration worth collecting. The prediction requires a shared, deadline-bound slot. If traces can wait costlessly until spare capacity arrives, the relevant alternative is whatever that later slot would displace. The immediate congestion effect can disappear.
 
-### Proposition 1 · The marginal value of instrumenting a source job
+#### A test at the level of the firm
 
-For $0\le n<B$, the largest current contribution the firm would give up to switch one more opportunity from ordinary to instrumented service, before observing any source results, is
+Randomize and announce eligible batch-job schedules before sampling decisions, holding total capacity and booked work fixed. Record the trace yield with occasional assigned sampling shifts, including windows the controller would normally skip. Then observe its discretionary sampling choices, accepted target work and displaced jobs. This tests a change in the allocation ranking and the firm-wide contribution it predicts. Samples gathered only on chosen shifts would confound the decision with the evidence used to evaluate it.
 
-$$w_n=D(1-p_r)\tau b(u_1-u_0)(1-u_1)^n(1-u_0)^{B-n-1}.$$
 
-**Proof.** The switch adds a rule only if the switched case supplies incremental evidence and every other opportunity misses. Multiply that probability by the gain $\tau b$ in qualification and by the expected margin on the reachable orders. Independence supports the product. At constant or nondecreasing marginal instrumentation cost, the firm switches jobs while their marginal value exceeds cost. Ties permit either choice.
+### Fixed hourly RaaS can penalize a speed improvement
 
-Operator effort, a digital workload displaced from a validation slot, consent fees, and delayed current service all belong in this comparison. A shared model that improves the rival’s fallback can depress the bid for field experience even while own technical transfer is unchanged. Actual costs of testing, if avoidable, also belong in the comparison.
+Let r be the contracted price per robot-hour, q accepted units per billable hour, c(q) supplier cost per hour and epsilon the constant elasticity of demand for accepted service. With slack capacity, full pass-through of r/q into the service price and a nonbinding billing minimum,
 
-### An investment in the process of learning
+$$H(q)=D(r/q)/q\;\propto\;q^{\varepsilon-1}.$$
 
-Suppose a firm can pay $F$ for a better procedure that raises the instrumented yield from $u$ to $u'$. Let $V(u)$ be the maximum over $n$ of target profit less the cost of instrumenting $n$ source jobs at that yield. The investment pays if $V(u') - V(u) > F$. Both versions can change the number of cases they inspect. A reusable procedure that earlier work discovered is one candidate investment. A purchased system or timely standing agreement is another.
+For a g-fold speed improvement, holding the hourly price fixed,
 
-**A retained method and the first validation slot are complements. Once one slot exists, the same method substitutes for the extra capacity used to search.**
+$$\frac{\Pi_1}{\Pi_0}=\frac{r-c_1}{r-c_0}\,g^{\varepsilon-1}.$$
 
-This result extends to any increasing ordinary qualification curve H(m) with H(0) = 0. Let λ be the chance a usable rule identifies the right first test. The first slot gains H(1) + λ[1 − H(1)], increasing in λ if H(1) < 1. Every subsequent slot gains (1 − λ)[H(m+1) − H(m)], decreasing in λ where extra slots help. With multi-stage validation or avoidable test costs, the sign can differ.
+Demand for accepted output can increase while billed hours decrease. Whether the supplier gains depends on the margin improvement as well as elasticity. Development cost must then be deducted. Binding capacity, minimum billing, renewal, redeployment into another queue, incomplete pass-through and a per-accepted-unit contract change the comparison. For an intermediate service, the relevant demand response must account for its share in the customer's final cost and actual pass-through; an end-product elasticity cannot be inserted unchanged.
 
-<!-- page -->
+Tutor Intelligence's [posted pricing](https://tutorintelligence.com/pricing) is a contract-form anchor: the historical source edition records hourly palletizing and per-pick alternatives, with minimums and implementation/deposit terms. The archived posted terms are not a signed customer contract, realized utilization, labor substitution estimate or supplier margin. Verify the current terms before using a new numerical case. No wage-to-hourly-price comparison alone establishes profitability at matched accepted service.
 
-## Why identical firms can diverge
+**Boundary.** P2.1 combines two reasons the timing and denominator of a service contract matter. The covariance result concerns the joint timing of evidence and opportunity cost. The hourly result concerns how accepted throughput changes the billed unit. Neither proves an industry-wide equilibrium effect.
 
-Allow one source job per firm. Let $p_{0}$ and $p_{1}$ denote the target probabilities under ordinary and instrumented source work, and let $\Delta=p_1-p_0>0$. The firms decide simultaneously. Instrumenting costs each firm $k$ in current contribution.
+## 4. P2.2 — A fixed deadline can produce an intermediate learning peak
 
-### Proposition 2 · An investment equilibrium
 
-Investment earns $G_0=D\Delta(1-p_0)$ before cost if the rival continues ordinary work, and $G_1=D\Delta(1-p_1)$ if the rival instruments. When $k$ is below $G_{1}$, each invests. Above $G_{0}$, neither does. Between them, each firm’s best response is to do the opposite of its rival. Exactly one invests in either pure equilibrium. In the symmetric mixed equilibrium each invests with probability $(G_0-k)/(D\Delta^2)$, obtained by equating the expected incremental gain to cost. At the boundaries there is indifference.
 
-### A worked economy
+### 1. What a shift can teach
 
-Use two diagnostics, one available test, complete compatibility, and an ordinary source yield of 0.20. Active capture raises yield to 0.80. Thus $p_0=0.60$ and $p_1=0.90$. With a discounted cohort saving $D$ of 100, the same thirty-point qualification gain earns 12 against an ordinary rival and 3 against an instrumenting rival. Set $k=6$.
+At an Amazon Robin workcell, a robot faces several possible grasps. Testing every candidate for reachability and collisions would take too long. The team trained a model on outcomes of actual picks to rank the candidates it would check first. Trying a grasp reveals whether it worked. The untried alternatives leave no physical outcome on that attempt. Some failures also reflected suction-cup wear, a factor absent from the model’s inputs. These features give the firm a meaningful choice over what to attempt, what to record, and whether to spend the next engineering hour on learning or on maintenance. [Li et al., §§ IV–VI](https://roboticsproceedings.org/rss19/p023.pdf)
 
-| Source choices | Firm 1 net | Firm 2 net | Buyer saving | Net total |
-| --- | --- | --- | --- | --- |
-| Both ordinary | 24 | 24 | 36 | 84 |
-| Only firm 1 instruments | 30 | 6 | 54 | 90 |
-| Both instrument | 3 | 3 | 81 | 87 |
+The field study shows that experience from production can improve a grasp-ranking policy. Our model asks a further question. Can experience yield a procedure for choosing which *fresh test* to run on an unfamiliar installation? A transferable diagnostic can make a technician’s hour more productive while the new fixture still requires local validation. We allow ordinary service and deliberate investigation to teach the procedure at different rates. That difference is an assumption whose size a matched comparison could measure. It can pay to accelerate discovery only on work that falls within a usable lead, given a fixed rival. A rival that observes a qualification may also revise its own investigation.
 
-All entries use conventional service at cost $C$ as the reference. The buyer saves 100 times the probability both firms qualify. Gross real cost avoided is 100 times the probability at least one qualifies. The net figures deduct each firm’s instrumentation cost once. In the symmetric mixed equilibrium each invests with probability two thirds.
+Let $u$ be the chance that a single source shift yields the procedure, conditional on still searching. Ordinary work has yield $u_0$ and accelerated learning has yield $u_1$, with $0<u_0<u_1<1$. An initial engineering shift costing $F$ can install a capture protocol that raises discovery yield on subsequent source shifts. Costs are incremental present values of real resources or displaced work. Independent opportunities and retention until the last dated order give the probability of finding the procedure by exposure $t$ as $1-(1-u)^t$.
 
-### A temporary demand shock changes future supply
+An ordinary target team qualifies the cheaper method with probability $h$. Holding the execution model and target test budget fixed, a retained procedure adds $g$ to that probability. Thus
 
-Give one firm a current order that raises its displacement cost above 12. Give the other spare staff so its cost is below 3. Their choices are now strict whatever the other does. After those orders expire, the firms face the same fresh work with qualification probabilities of 0.60 and 0.90. The better-paying current opportunity can leave a firm less prepared for the next market. The example derives a one-cohort difference. Its duration depends on how quickly the rival can recover the procedure.
+$$p_u(t)=h+g[1-(1-u)^t],\qquad 0\le g\le 1-h.$$
 
-### What would a rival pay to copy?
+For example, if the right diagnostic is one of $K$ equally likely tests, $m$ prepaid tests are available, and the procedure covers a fraction $\tau$ of authorized and compatible targets, then $h=m/K$ and $g=\tau(1-h)$ for $m\ge1$. With zero tests, $g=0$. The [preserved foundation](https://github.com/amarmurray/robotics-economics/blob/f3a6d0f8146c773ca7906f395f5eb52ec6fac910/papers/autonomous_firm/The_Production_of_Capability.md#how-experience-produces-a-method) derives this from the diagnostic choice. This extension holds the work available to learn from fixed while solving what firms do with it. Source jobs and target orders have reserved capacity, and only source feedback reveals the reusable procedure during the horizon. Each target purchase is counted once.
 
-If a purchasable method increases the rival’s qualification probability by $\Delta$ at an all-in price $L$, it buys when $D\Delta(1-p_{\mathrm{leader}})>L$, given the leader’s current program. Cheap, transferable software can replicate a routine. Permissions, calibration and a scarce commissioning window can raise the price of an equivalent installed capability.
+### 2. The value of a lead depends on when work is due
 
-<!-- page -->
+Two suppliers can perform the same accepted job. A qualified supplier saves $d$ on real cost relative to a feasible fallback. In one-shot reverse second-price procurement the sole low-cost supplier earns $d$. If both have low cost, the buyer receives $d$ through the price. Let $w_t$ denote discounted target volume times the saving per order at date $t$. Conditional on date and target type, the two firms’ qualification draws are independent in this section. With a fixed rival qualification path $p_r(t)$, upgrading from ordinary to accelerated learning is worth the following amount **before** paying $F$:
 
-## Who controls the source?
+$$G_r=\sum_t w_t\,[p_{u_1}(t)-p_{u_0}(t)]\,[1-p_r(t)].$$
 
-Keep the same qualification technology and downstream market. Change one institution. Only the firm awarded a particular source deployment gains the additional opportunity to learn from it. Without the award the firms qualify with probabilities $p_{i}$ and $p_{r}$. The winner’s own probability rises by $\Delta_{i}$ or $\Delta_{r}$, as determined by capture and target testing. Both keep their ordinary alternatives.
+This compares the accelerated program with the firm’s own ordinary learning path. A higher eventual success rate on a benchmark need not imply a larger $G_r$. Orders may be due too early, too late, or where another supplier already qualifies.
 
-### Proposition 3 · Productive use and exclusion enter the same bid
+**P2.2a. A fixed future order can make faster learning valuable only at intermediate exposure.** Suppose there is one order pool at a fixed calendar deadline, with discounted savings $D$. Every target is covered, so $g=1-h>0$. Let $a=1-u_0$, $b=1-u_1$ and $c=1-u_r$ for the rival’s fixed program, with $0<c<1$. Both firms get $n$ source opportunities before the deadline. Then
 
-Let $W_i$ be firm $i$’s willingness to pay for exclusive access.
+$$G_r(n)=Dg^2[(ac)^n-(bc)^n].$$
 
-$$W_i=D\left[(1-p_r)\Delta_i+p_i\Delta_r\right].$$
+It starts at zero, becomes positive, then returns toward zero. It has one peak, allowing a tie at adjacent integers. To see this, put $x=ac$ and $z=bc$. The change from $n$ to $n+1$ is positive precisely when $(z/x)^n>(1-x)/(1-z)$. The left side falls strictly from one to zero. Consequently the exposures at which the upgrade covers a fixed positive cost form a single interval, possibly empty. The simple peak proof uses full coverage. The decaying difference between own ordinary and accelerated learning survives partial coverage in this model.
 
-**Proof.** If $i$ wins, its target profit is $D(p_i+\Delta_i)(1-p_r)$. If its rival wins, it is $D p_i(1-p_r-\Delta_r)$. Their difference gives the two terms. The first values new production capability. The second values preserving a margin the rival would otherwise erase. A source service fee also reflects current service costs and displaced work.
+| Shifts before the deadline | Value against an ordinary rival | Value against an accelerated rival |
+| ---: | ---: | ---: |
+| 1 | 6.75 | 4.50 |
+| 2 | 9.11 | 4.05 |
+| 3 | 9.35 | 2.77 |
+| 4 | 8.64 | 1.71 |
+| 5 | 7.57 | 1.00 |
+| 8 | 4.45 | 0.17 |
 
-Suppose the rival cannot learn from this source. It can still value excluding the learner from it. With equal current service costs and one mandatory award, the rival outbids the learner when its independent probability of qualifying exceeds one half. It values exclusion at $D p_r\Delta_i$ while the learner values access at $D(1-p_r)\Delta_i$. Giving both the same learning rights regardless of the award erases this component of both bids.
+Illustrative values use $D=100$, $h=g=0.5$, $u_0=0.1$, $u_1=0.4$. At a setup cost of 8 the firm invests at two through four exposures against an ordinary rival. Now hold target demand, resources and five total source shifts fixed. Move the target deadline from after shift five to after shift three. The decision flips from passing at 7.57 to investing at 9.35, in undiscounted units. This isolates timing from customer volume.
 
-| Rival readiness | Learner’s bid for access | Rival’s bid for exclusion |
-| --- | --- | --- |
-| 0 | 30 | 0 |
-| 1/2 | 15 | 15 |
-| 1 | 0 | 30 |
+If another paying cohort is *added* after each shift, the gain through date $N$ is a sum of nonnegative dated gains. It rises with $N$ whenever another cohort falls inside the lead, even though the gain on the last cohort declines. This comparison expands demand. It answers a different commercial question from retiming the same order.
 
-Gross bid values in the case $D=100$, $\Delta_i=0.30$ and $\Delta_r=0$. These bid schedules follow from the procurement example. Only the learner can lower production cost by obtaining this source.
+### 3. When to spend the next engineering shift
 
-### How long is the advantage worth having?
+Now let the firm choose separately on each source shift. While searching it can do ordinary work or give up $k_t$ in current net contribution to raise that shift’s discovery probability from $u_0$ to $u_1$. It observes its own discovery immediately. Once acquired, the procedure already works, and further investigation cannot improve it. Target orders are dated, the rival follows a fixed path, and the firm observes no signal that changes its forecast of that path. This is an adaptive alternative to committing the full setup cost in advance.
 
-If the relative advantage is identical in each active cohort and disappears permanently once the rival catches up or the method expires, discounted rent is the sum of each cohort’s rent times the probability the lead survives to that cohort. With per-cohort rent $R$, first cohort next period, and constant conditional survival $\rho$, the sum is $\beta R/(1-\beta\rho)$. Catch-up that depends on rival investment requires solving that investment decision. A durable claim needs evidence on copying costs, access terms and the timing of decay.
+Let $m_t$ be the **undiscounted** incremental margin at date $t$ if the firm knows the procedure by settlement rather than remaining without it. With target value $d_t$ times volume $N_t$, $m_t=N_td_t g[1-p_r(t)]$. Write $B_t$ for the difference in optimized value, before the source shift, between already knowing and still searching. With one-period discount factor $0<\delta\le1$ and $B_{T+1}=0$, define
 
-<!-- page -->
+$$S_t=m_t+\delta B_{t+1}.$$
 
-## Across tasks, machines and markets
+**P2.2b.** Buy extra investigation when $(u_1-u_0)S_t>k_t$, skip when it is smaller, and take either action at equality. The exact recursion is
 
-At firm scale, current capability consists of the portfolios of work achievable at each cost and deadline. An operating choice changes today’s payoff and tomorrow’s attainable portfolios. Recursion occurs when a choice changes the procedure by which later work expands those portfolios.
+$$B_t=(1-u_0)S_t-\max\{0,(u_1-u_0)S_t-k_t\}.$$
 
-### A generalization that allows correlated learning
+**Proof.** Relative to an unknown firm that gets no discovery this shift, a known firm gets $S_t$. An unknown firm already earns $u_0S_t$ through ordinary operations. Accelerating adds the probability difference times $S_t$ and costs $k_t$. Both alternatives can reoptimize on every later shift. Subtract the best unknown value from the known value to get the recursion.
 
-For original target opportunity $j$, let $Y_{ij}$ be one if the firm qualifies for the cost saving before the deadline. Index the firm’s complete, separately evolving programs by 0 and 1. Let $v_{j}$ be the discounted real cost saving. With the same two-supplier pricing and a rival whose outcomes are unaffected, the gross private difference is
+**Why waiting can be optimal.** Suppose only the final cohort pays, costs and yields are constant, and the rival path is given. Before the deadline $S_t=\delta B_{t+1}\le\delta(1-u_0)S_{t+1}\le S_{t+1}$. Thus, conditional on still searching, the dates on which extra investigation is strictly preferred form a suffix. Early ordinary production has time to reveal the answer. As the deadline approaches, the option to wait expires. Earlier orders can reverse the timing of investment.
 
-$$\sum_j v_j E\left[(Y_{ij}^{1}-Y_{ij}^{0})(1-Y_{rj})\right].$$
+For five shifts, $u_0=0.1$, $u_1=0.4$, $k=4$, $\delta=1$, and $m_5=20$, the firm buys extra investigation only on shifts three through five if still searching. Move the same margin of 20 to shift one and it buys only on shift one. In both cases it stops paying for investigation as soon as the procedure is found. This comparison gives a fleet planner a different metric from total hours logged. The planner needs the dated work a discovery could change and the remaining chances that routine service will teach it anyway.
 
-Each program’s margin uses its joint outcome with the rival and allows regressions as well as gains. Multiplying average technical improvement by average rival failure requires zero covariance. Learning on a rival’s strongest tasks can yield the same benchmark gain as learning on underserved work and a different private return. If rivals respond, use the new joint outcomes under each program.
 
-**Where to deploy.** Two source jobs of equal current value each raise qualification by 0.30 in a different market worth 50. Against rival readiness of 0.90 and 0.60, the respective future gains are 1.50 and 6.00. A rival release raising readiness in the second market to 0.95 cuts its gain to 0.75 and reverses the preferred source. Neither source’s technical yield has changed.
+## 5. P2.3 — Installed obligations and the last legacy customer
 
-### Two different relationships connect tasks
+A discovered procedure must pass through a feasible release arrangement. Separate interfaces, adapters, outside testing and a retained old version belong in the comparison. The following result isolates a configuration-level obligation rather than assuming every customer adds an identical cost.
 
-Similar faults can make a pair of sites good teaching partners. Synchronized deadlines can make them poor partners for sharing an operator. The sum above requires that the wins and their savings be jointly attainable. With a shared launch team or robot, optimize a feasible schedule under each program. Adding individual opportunities can otherwise claim the same hour twice.
-
-| Economic object | A physical deployment | A digital deployment |
-| --- | --- | --- |
-| Work the customer accepts | Pack a complete order by cutoff | Resolve an invoice exception by cutoff |
-| Evidence to retain | Correction paired with pre-jam sensor readings | Transaction history paired with the verified resolution |
-| What can travel | Which calibration test to run on a new fixture | Which reconciliation check to run in a new ledger |
-| A binding complement | An operator or test cell before shift end | A qualified reviewer before release |
-
-These are illustrations. Authority changes which actions are feasible after a signal. An integrated firm or a contractual network can supply it. Ownership raises captured value only where actual timing, permissions, incentives or costs differ.
-
-<!-- page -->
-
-## What a working fleet commits the firm to
+### What a working fleet commits the firm to
 
 In November 2024, Universal Robots told owners moving certain arms from a PolyScope 5 controller to PolyScope X that programs and settings had to be recreated and earlier plug-ins could not simply be reused. Its announcement to developers described a period of parallel support for the two platforms. The physical task could still be familiar to a gripper supplier while the implementation needed fresh work. An industry standard can change this margin too. VDA 5050 specifies the exchange of jobs and status between a fleet controller and mobile robots from different manufacturers. The documents establish feasible engineering arrangements. The economic costs, deadlines and customer commitments below are model assumptions. [Universal Robots migration guidance](https://www.universal-robots.com/articles/ur/documentation/upgrading-from-a-polyscope-5-controller-to-a-polyscope-x-controller/) · [Developer announcement](https://forum.universal-robots.com/t/polyscope-x-open-beta-announcement/36988) · [VDA interface specification](https://www.vda.de/en/news/publications/publication/vda-5050)
 
@@ -163,182 +147,403 @@ $$R(I,H)=W_1(I,H)-W_0(I,H).$$
 
 The firm can shelve a discovery, so this option is nonnegative when acquiring it adds no obligation. A plan can pool tests, isolate a pilot, migrate customers, buy outside testing, or wait if the opportunity survives. A test shared by three sites occupies its resources once when its result is genuinely reusable. If the sites need independent checks, each consumes time. Holding the beneficiaries fixed, an extra obligation can lower $R$. Duplicating an already covered configuration adds no check in this case. An extra buyer that also benefits from the change can raise $R$.
 
-<!-- page -->
-
-## What release capacity does to the return on inquiry
-
-Consider one prospective use. Conditional on discovery, $g$ is its incremental captured value relative to the best ordinary continuation, before extra release costs. In the first model with a fixed rival and prepaid local diagnostics, $g=Nd(1-p_r)\tau b$. Let $t$ be the additional hours to introduce the new procedure at its target. Updating a common release also requires $L$ hours to cover distinct incumbent obligations. The extra work has variable cost $w$ per hour. The hard limit $H$ and the cost of performing an hour are separate. If those hours are prepaid and would otherwise be idle, set $w=0$.
-
-Let $R_P$ be the best value when the new use shares the existing release. It is the maximum of zero and $g-w(t+L)$ if $t+L\le H$, and zero otherwise. If the firm prepared an independent release path, it also has the option of using $t$ hours and paying $f$ to support a second version. Its value $R_V$ is the maximum of $R_P$ and $g-wt-f$ when $t\le H$. Preparing the option costs $F$ at date zero. The original version can remain available on legacy sites under the independent path. Any still-required common checks belong in $t$ or the separate plan.
-
-Now let ordinary work discover the procedure with probability $s_0$. Investigation effort $e$ between zero and one raises it to $s_0+\gamma e$, with $0\le\gamma\le1-s_0$. Effort costs $\kappa e^2/2$ in current contribution, with $\kappa>0$. In this restriction available hours are independent of the discovery and effort. Write $r=E[R]$, and discount date one by $\beta$. Then
-
-$$\Phi(r)=\max_{0\le e\le1}\left\{\beta(s_0+\gamma e)r-\frac{\kappa e^2}{2}\right\},\qquad e^*(r)=\min\left\{1,\frac{\beta\gamma r}{\kappa}\right\}.$$
-
-**Proposition 4.** Preparing an independent release pays when $F<\Phi(E[R_V])-\Phi(E[R_P])$, holding ordinary service fixed. The first-order condition gives the effort above. Raising the value of a usable discovery raises the return to investigation by $\beta\gamma$ times that change per unit of effort. The firm can rationally change both its architecture and how much it investigates. If ordinary capture improves while the best possible discovery rate stays fixed, $s_0$ rises and $\gamma$ falls. Deliberate investigation can decline even as more useful discoveries arrive.
-
-If discovery arrives at date $u$ before deadline $T$ and the crew has $h$ free hours per time unit, $H=h\max(T-u,0)$. An earlier discovery can cross the common-release threshold in one step. With uncertain arrival, use the joint distribution of discovery, remaining hours and value. Multiplying unconditional averages can misprice faster learning.
-
-<!-- page -->
-
-## Which capability gets investigated?
-
-An arm supplier can improve a diagnostic embedded in the common controller, or a diagnostic that runs entirely on one fixture. A new customer bringing an unfamiliar configuration can alter the ranking of these projects before its robot does any work. This is a prediction about the *direction* of technical progress within a firm.
-
-Suppose two research programs compete for one engineer shift. They produce incremental discovery probabilities $\Delta s_A,\Delta s_B$ over their respective ordinary programs. In this restriction the future service gains are additive in distinct windows, and choosing a source leaves the other program's ordinary yield unchanged. Write $r_A,r_B$ for their conditional release values. At equal shift costs the firm chooses $A$ when $\Delta s_A r_A>\Delta s_B r_B$. If both draws would compete for one release slot, the correct comparison instead uses the jointly optimized portfolio in each state.
-
-**An illustrative restriction.** A shared diagnostic has gain 12, takes one target hour and requires two further hours for each distinct legacy configuration. A local diagnostic has gain 7, takes one hour and leaves the shared release unchanged. Four hours are available at unit cost. Deliberate search adds one-half to the common discovery probability or one-quarter to the local probability. The quantities are illustrative.
-
-| Existing commitments | Value after a common discovery | Value after a local discovery | Preferred use of the shift |
-| --- | --- | --- | --- |
-| One legacy configuration | 9 | 6 | Common diagnostic |
-| Two distinct configurations | 0 | 6 | Local diagnostic |
-| Two, with an independent path costing 5 per use | 6 | 6 | Common diagnostic |
-
-The numbers are net of release resources. In the last row, the extra search returns 3 on the common diagnostic and 1.5 on the local one. Treat the independent path as already available in that row. To price it beforehand, take $s_0=1/4$, $\gamma=3/4$, $\kappa=6$ and $\beta=1$ for the common candidate alone. At two configurations it is worth $51/16$ after reoptimizing effort, or $3/2$ if the firm keeps effort at zero. A setup cost of 2 therefore changes both decisions. This second calculation allows continuous effort on one candidate.
-
-A sale can carry a claim on future engineering capacity. At fixed policies let $m$ include a site's direct net contribution and the change in continuation without the focal discovery. Routine source hits are already inside $s$. Its arrival changes discovery probability and conditional release value from $(s,r)$ to $(s',r')$. Its private value is
-
-$$m+\beta\left[(s'-s)r'+s(r'-r)\right].$$
-
-The first term inside brackets values the extra evidence. The second prices what the new commitment does to discoveries the fleet would already make. With endogenous design and inquiry, maximize both complete programs before differencing. A freely disposable additional robot can sit idle. A signed promise to support a new configuration changes the feasible release plans. Only the latter has this potential cost.
-
-<!-- page -->
-
-## How varied should the operating fleet be?
-
-Teaching value and support cost need not attach to the same distinctions. A robot can encounter many objects without changing its release interface. Lin and coauthors varied the environments, objects and demonstrations used to train manipulation policies. On the tasks they studied, additional demonstrations in a fixed set of conditions yielded progressively smaller gains, while broader coverage improved generalization. That result motivates measuring exposure separately from robot-hours. It gives neither a required number of live customer environments nor a cost of supporting them. [Lin et al., manipulation experiments](https://arxiv.org/abs/2410.18647)
-
-To see how diversity itself becomes a choice, suppose that at fixed fleet size and current service margin the firm may support $k$ distinct optional operating environments. A switch can reassign existing capacity among sites. An ordinary common source independently supplies the sought diagnostic with probability $s_0$. Each distinct environment adds an independent chance $u$, where $0<u<1$. Each also adds a separate condition to check if the discovery is released. This one-to-one relation is a restriction on the fleet design. A stable interface or an independent reference cell can break it.
-
-Let $A$ be the gain from a usable discovery after target costs, and $c>0$ the cost of checking each extra environment. On a fixed feasible range $0\le k\le K$ with $A-cK>0$, the firm can meet the deadline. The search budget and technology are held fixed in this comparison. The probability of discovery is $s_k=1-(1-s_0)(1-u)^k$, and the conditional value of a common release is $r_k=A-ck$. Set $V_k=s_k r_k$. The value of one more distinct live environment is exactly
-
-$$V_{k+1}-V_k=(1-s_k)u\,r_{k+1}-s_k c.$$
-
-The first term counts cases revealed only by the additional environment. The second charges its check whenever the firm would already have discovered the procedure. As variety rises, the first term falls and the second rises weakly. Thus the smallest maximizing fleet adds environments while this increment is positive. It can stop while further environments still improve the technical discovery rate.
-
-**Two improvements can move fleet variety in opposite directions.** Raising ordinary discovery $s_0$ reduces the incremental return to every further environment. The chosen number weakly falls. Reducing the cost per additional support condition $c$, holding $A$ and the feasible range fixed, raises those incremental returns. The chosen number weakly rises. A firm can acquire more usable knowledge from routine work and deliberately narrow its future exposure. Improving an interface can instead let it keep more kinds of work in production. If a new environment also earns different service margins, include those. If it consumes no new support, the second term vanishes for that addition.
-
-With correlated environments, replace $(1-s_k)u$ by the probability that the added environment reveals a useful case missed by every existing source. A smaller site exposing a distinct failure can then contribute more than a high-volume site that repeats a familiar one. With complementary pieces of evidence required for discovery, increments need not diminish. Were two sites' records useful only together, pricing either site on its own would miss their joint opportunity.
-
-A field comparison would hold the eligible order mix and machine count fixed across a change in the ordinary archive or in the cost of reusing a validation test. Record which environments the firm elects to support, the rare cases that each supplies, and the tests each requires.
-
-<!-- page -->
-
-## Why the last site matters
+### Why the last site matters
 
 Suppose several customers use one legacy configuration. Each can migrate to a supported alternative. As long as one customer remains, the same legacy check is required whenever a common change is released. Migrating the first customer can improve its own operation. Migrating the last one can also free a validation window for an unrelated buyer. The additional benefit comes from eliminating a distinct obligation. If every site instead requires its own additive checks, that particular discontinuity disappears.
 
 Let $B$ be the present value of the shared continuation gain from retiring this final obligation. Calculate it after both regimes choose their best investigation and release paths, including an adapter or outside support if feasible. Exclude the customers' separate migration costs. There are $n\ge2$ customers with net moving costs $c_i>0$ after direct local benefits. Suppose configuration-wide learning and release benefits change only at collective migration. If all migrate, customer $i$ receives share $\alpha_i$ of $B$. Count gains across beneficiaries once. A payment from one participant to another reallocates the gain.
 
-**Proposition 5.** When $B>0$, retiring the configuration is jointly worthwhile if $B>\sum_i c_i$. In a simultaneous, uncoordinated decision, staying put is a strict equilibrium. A lone mover pays and leaves the common obligation in place. Full migration is also an equilibrium precisely when $\alpha_i B\ge c_i$ for every customer. With positive costs, any partial set of movers includes someone who could save money by staying. Thus a jointly valuable transition can fail even when everyone knows the technology and its costs.
+**P2.3.** When $B>0$, retiring the configuration is jointly worthwhile if $B>\sum_i c_i$. In a simultaneous, uncoordinated decision, staying put is a strict equilibrium. A lone mover pays and leaves the common obligation in place. Full migration is also an equilibrium precisely when $\alpha_i B\ge c_i$ for every customer. With positive costs, any partial set of movers includes someone who could save money by staying. Thus a jointly valuable transition can fail even when everyone knows the technology and its costs.
 
-A sponsor with a share $\alpha_S$ and authority to sign a binding, all-party migration agreement can offer conditional payments. If it can subsidize but cannot charge other beneficiaries, the smallest total subsidy making full participation individually rational is
+The customer shares $\alpha_i$ and sponsor share $\alpha_S$ are nonnegative, nonoverlapping claims on the same benefit $B$, with $\sum_i\alpha_i+\alpha_S\le1$. If the sponsor is also a customer, count its claim and migration cost once. A sponsor with share $\alpha_S$ and authority to sign a binding, all-party migration agreement can offer conditional payments. If it can subsidize but cannot charge other beneficiaries, the smallest total subsidy making full participation individually rational is
 
 $$T_{\min}=\sum_i\max(0,c_i-\alpha_i B).$$
 
 The sponsor can cover it from its gain when $\alpha_S B\ge T_{\min}$ and the required financing is available on the migration dates. A fleet owner, a controller supplier or a buying cooperative can play this role. Ownership matters through the claims, authority and financing it conveys.
 
-**The legacy site may also be a teacher.** If retiring it reduces useful field exposure from $s$ to $s'$ while raising release value from $r$ to $r'$, the fixed-policy gain per opportunity before discounting is $s(r'-r)-(s-s')r'$. It can have either sign. This changes the migration calculation. Removing a production obligation and disposing of the physical machine can be separate choices.
+**The legacy site may also be a teacher.** Let $s,s'$ be the probabilities of a useful discovery per opportunity before and after retirement, and $r,r'$ the respective conditional values of a usable discovery. If retirement lowers $s$ to $s'$ while raising $r$ to $r'$,  the fixed-policy gain per opportunity before discounting is $s(r'-r)-(s-s')r'$. It can have either sign. This changes the migration calculation. Removing a production obligation and disposing of the physical machine can be separate choices.
 
-<!-- page -->
 
-## When a robot is worth more off the line
+## 6. P2.4 — Future rights can change the first deployment
 
-A workcell can supply three things to the firm. It can complete paid orders. It can expose a diagnostic to physical variation that the rest of the fleet rarely encounters. And, while serving a customer under a common release, it can require the operator to keep an older configuration qualified. These services need not be bundled forever. The supplier may be able to end production at that site and retain the machine, fixture, data rights and test protocol.
+The installed base has two roles: it supplies current obligations and can receive improvements discovered by a later vintage. Backward induction must value future rights before choosing the first site. The exact example below is synthetic and uses fixed prices, funded builds and a restricted information technology. It establishes a strict mechanism within those assumptions; it does not estimate the magnitude in a commercial fleet.
 
-Compare three feasible uses of the last legacy cell, valued at the same date. In production it provides ordinary net contribution $m_P$ and additional discovery value $\phi_P$. This value already optimizes inquiry and release, including any affordable separate version. Selling or redeploying it elsewhere gives ordinary net value $m_D$ and discovery value $\phi_D$. A dedicated test cell supplies no paid service in this comparison, costs $C_X$ to convert and operate, and gives discovery value $\phi_X$. Use the same time horizon for all three. Incremental discovery values include the benefit of useful routine experience. Avoid counting the sale proceeds as a second cost of keeping the asset.
+### Three vintages with paid customer work
 
-The firm retains the machine for experimentation precisely when
+A legacy robot has one operating shift. The firm chooses a routine or unusual site. It must then commit design 1, standard or specialized. Commissioning reveals the first bottleneck regardless of whether a diagnosis arrived early. Design 1 fills one order window, then operates a separate shift that can produce evidence for design 2. Design 2 is the final build. One unit per build is already commercially justified and funded. This restriction isolates the composition of new machines. Optional manufacturing starts are treated separately in the historical source appendix and in P2.5 below.
 
-$$C_X\le \phi_X-\max\{m_P+\phi_P,\ m_D+\phi_D\}.$$
+Each generation has an independent mechanical or control bottleneck, equally likely. A routine site's conclusive report is timely with probability $1/4$, an unusual site's with probability $3/4$. Without a report the firm retains its prior. The standard machine earns 4 units of contribution on routine work. A specialized machine can do the same work, costs 4 extra to build, and can qualify for a higher-paying order in the mechanical state. That order earns 10 in the first generation and 14 in the second, before the extra build cost. The firm chooses the best qualified buyer. All values are illustrative, after common costs, in one numeraire with $\beta=1$.
 
-The expression prices a use of capital whose direct paid output is zero. It requires a way to preserve relevant exposure without keeping the production obligation. If the old customer's behavior or final dispositions cannot be reproduced off-line, or the firm loses permission to use the records, reduce $\phi_X$ accordingly. If a simulator, retained archive or rented reference cell supplies equivalent future tests more cheaply, include that in the best alternative to ownership.
+| Field decision | Routine customer | Unusual customer |
+| --- | --- | --- |
+| Contribution from the legacy robot's shift | 2 | $11/8$ |
+| Contribution from design 1's later field shift | 2 | $1/2$ |
+| Access to that later shift | Always | Requires the first specialized design and successful mechanical-state qualification |
+| Chance of a reusable model candidate in the later shift | $1/4$ from the common source | $3/4$ with permission and $1/4$ from the common source alone |
 
-**An illustrative allocation.** Continue the four-hour example. Keeping the legacy customer yields one-half in ordinary margin and $19/16$ in optimized discovery value after buying the optional independent path. Removing the last obligation lets the common procedure earn 9 when discovered. Suppose a test cell preserves the original discovery technology. Then effort reaches one, and $\phi_X=9-3=6$. With conversion and operating cost 2, its net value is 4. Selling instead yields 1. If remaining ordinary discovery probability is $1/50$ and investigation can add at most $1/20$, its additional optimized discovery value is about 0.197. The firm chooses the test cell even though it could keep earning on customer work or sell the machine. All three choices use the same executor and prices.
+A retained model candidate in the later shift can be trained for 1. It lets a separate surviving old workcell accept two additional orders at contribution 2 each. The old unit has the spare time and rights to serve those orders. Training therefore earns 3 net when the candidate exists. The model does not affect qualification for the new unit's higher-paying order in this restriction. Local disclosure of the bottleneck for hardware diagnosis remains available in both permission regimes. The permission change governs reuse of the future trace for fleet training. The candidate is independent of the bottleneck and the timing of its diagnosis. The first field shift has no differential trainable-candidate return. Common training or production can be added to both first-site alternatives.
 
-The result has a direct falsification. If retaining the customer leaves exactly the same release options and produces the same useful evidence as the test cell, positive current margin and a positive conversion cost make ordinary operation preferable. Compare the independent cell, replay or simulation, and a matched live source at the same all-in budget. Score which fresh diagnostic each chooses and the accepted work on held-out sites. A physical test facility earns its place here by preserving future inquiry while freeing another group of machines to change.
+### A future customer's data rights change the first deployment
 
-<!-- page -->
+Start with the final factory decision. Gross advantages are $a_M=14-4=10$ and $a_C=0$, with switching cost 4. The firm ordinarily specializes. A timely control-state diagnosis avoids spending 4. Thus the expected value of a conclusive final-factory diagnosis is $I_2=(1/2)4=2$. At the later unusual site the extra probability of timely diagnosis earns $(3/4-1/4)2=1$. With reuse permission, the extra probability of a trainable candidate adds $(3/4-1/4)3=3/2$. The sacrifice in current site margin is $3/2$. Access to this customer is worth 1 after the firm chooses its best site. Without reuse, the extra return to training disappears and the firm chooses the routine site even when the unusual one is accessible.
 
-## When deployment histories persist
+At the first factory, the specialized design's mechanical-state advantage is $10-4=6$ for the first service window. If its successful qualification opens the valuable subsequent shift, that advantage becomes 7. In the control state the advantage stays zero. With cost 4 the firm would ordinarily build the standard version in either permission regime. The value of an early diagnosis is 1 with future reuse denied and $3/2$ with future reuse permitted. The first unusual site's reporting advantage of $1/2$ is therefore worth $1/2$ or $3/4$. The initial service margin forgone is $5/8$. The optimal first site changes strictly.
 
-A single missed customer can represent a timing loss. Persistent differences require a state that survives into the next opportunity. Here that state is the configuration the firm and its customers have undertaken to support. Consider two ways to operate the same installed equipment, legacy $O$ and migrated $M$. Each period brings a fresh class of diagnostic problems with an expiring buyer. A past solution cannot qualify those new jobs on its own.
+| Outcome from the initial decision | Future reuse denied | Future reuse permitted |
+| --- | --- | --- |
+| First deployment | Routine | Unusual |
+| Expected optimized net contribution | $29/2$ | $59/4$ |
+| Probability of a specialized first build | $1/8$ | $3/8$ |
+| Probability of a specialized second build | $7/8$ | $25/32$ |
+| Expected additional accepted orders on the old workcell | $1/2$ | $7/8$ |
 
-Let $v_O,v_M$ be the optimized net contributions of one period in the two regimes. Each includes ordinary service, access to informative cases, development effort, and the ability to put what is discovered to work. Sunk setup costs are charged only on transition. Recurrent costs to support a version belong in its flow. Write $d=v_M-v_O$ and let $0<\delta<1$ discount these periods. After delivering its current work, the firm chooses whether to incur a one-time switching cost $C_{OM}$ or $C_{MO}$, both positive, for a change effective next period.
+The first build specializes more often because evidence can authorize entry to a customer whose traces now have a future use. The second specializes less often because better evidence sometimes cancels a poor hardware change. The surviving old workcell gains more accepted work through its own model update. Both new units still get built. Those three outcomes are compatible inside one firm at the same prices and order book.
 
-$$V_a=v_a+\max\left\{\delta V_a,\ -C_{ab}+\delta V_b\right\},\qquad a\ne b.$$
+The first-site reversal holds for every forgone margin strictly between $1/2$ and $3/4$. If future traces add no genuinely new training information, or the future customer is equally reachable with the standard first design, the permission premium on that earlier hardware decision disappears. The [replication](replication/capability/full_stack_vintages.py) checks the recursion against 2,048 contingent site and hardware plans per permission regime, with training and dispatch optimized in each state.
 
-**Proposition 6.** With a known permanent environment, an operator on the legacy configuration migrates strictly when $d>(1-\delta)C_{OM}/\delta$. An operator on the migrated configuration returns strictly when $d<-(1-\delta)C_{MO}/\delta$. Between those thresholds each continues in its inherited regime. At a threshold the affected firm is indifferent. To see this, a firm already in the higher-flow regime has no reason to leave. The discounted flow gain from entering it next period is $\delta |d|/(1-\delta)$. Delaying a profitable switch in a stationary environment only postpones its net gain.
+### Why better hardware can increase the demand for sensing
 
-Two fleets with the same current demand, hardware and access to the same discovery technology can consequently keep different release arrangements. Where a configuration changes the value of discoveries it can also change their subsequent search effort. A temporary grant or large new order can leave a lasting difference if it pays for migration and the environment afterward lies inside the interval in which both stay put. For a known temporary shock, use its dated gains plus continuation value in the post-shock regime. Applying the permanent-flow threshold to a one-time order would overstate its effect.
+The site-choice result conditions on how evidence is produced. The firm can also change that technology in the factory. Consider one source workcell and a horizon with $N$ other compatible uses. A mechanical fix eliminates a fraction $h$ of the otherwise informative failures on the source cell. Let $p_f$ be the initial probability of a useful failure and $q_c$ the probability of capturing a usable record conditional on that failure. For a single source opportunity, yield falls from $p_f q_c$ to $(1-h)p_f q_c$. Suppose the downstream demand for the learned correction survives the source redesign. A usable record creates expected incremental saving $b$ per reachable target after local costs and ordinary learning.
 
-This source of persistence has a boundary. If firms can switch freely in both directions, the interval contracts to the point of equal flows. If old evidence accumulates indefinitely or ordinary practice eventually catches up, the period values change over time. The same calculation then requires the remaining path of gains. Durable heterogeneity in the model comes from observable maintenance obligations and costly transition.
+Let $G$ be the discounted direct net gain from improving source reliability, including design, installation and displaced work. Under failure-based recording, the value of redesign is $G-\beta h p_f q_cNb$. A sensor costing $C$ can recover a fraction $\lambda$ of the *useful records lost to the fix* by measuring force precursors on otherwise successful picks. If the sensor has no other use on the original machine, the optimized gain from the option to redesign is
 
-<!-- page -->
+$$\left[G-\beta h p_f q_cNb+[\beta\lambda h p_f q_cNb-C]_+\right]_+.$$
 
-## Who gets the next deployment?
+The inner expression is the best payoff conditional on redesign; the outer positive part preserves the original machine. This follows from choosing among the original machine, redesign alone, and redesign with instrumentation. The sensor changes which hardware is manufactured when redesign alone loses but redesign with the sensor earns a positive gain. Here measurement and mechanical reliability are complements, although mechanical reliability reduces the supply of failure data. An instrument already useful on the standard machine must be priced on both alternatives.
 
-A firm can be a better discoverer and a less frequent qualified supplier. Let $s_i$ be the probability that firm $i$ discovers the relevant method and $a_i$ its probability of qualifying the new use on time conditional on discovery. For this market, assume qualification requires that method, and take these probabilities after each firm has chosen its feasible search, staffing and release arrangements. Then $q_i=s_i a_i$. With an ordinary chance of qualifying without the method, add that route in each state.
+Replace $Nb$ by $\sum_j N_j b_j$ for different tasks, remaining service lives and compatible vintages. A sensor on the new batch can pay because its records improve old machines that will never receive it. Imminent retirement of that installed base can change the new bill of materials. If the same mechanical fix removes the need for the learned correction everywhere, the downstream value must be recomputed. The relative return to operating a reference cell, retaining an archive or simulating rare events depends on whether it supplies equally useful diagnoses on fresh physical jobs.
 
-For a newcomer $E$ and incumbent $I$, the newcomer's probability of being the only qualified low-cost supplier minus the incumbent's probability of being the only one is exactly
+A recovered trace can supply a trainable policy and can change the information available for the next hardware choice. These are separate margins only after conditioning on what the trained policy itself reveals; assigning both an independent premium can double-count information.
 
-$$\Pr(E,\neg I)-\Pr(I,\neg E)=q_E-q_I.$$
 
-The common event cancels, even if the two firms' breakthroughs are correlated. Under the equal-cost-saving procurement rule of the first model this ranks expected gross competitive margins. The newcomer leads when $s_Ea_E>s_Ia_I$, which is compatible with $s_I>s_E$. Fixed engineering costs, the size of each firm's current business and the terms of sale determine total profit. The result gives a reason to compare an incumbent's isolated new site with its own older installations before attributing a newcomer's advantage to better AI.
+## 7. P2.5 — Complementary diagnostics carried into manufacturing scale
 
-The effect also reaches the marginal product of physical capital. For an added unit at a recipient, let $J_0$ and $J_1$ be its accepted work per period under the old and released methods at given complementary staffing and demand. If this unit does not itself move release probabilities, and $J_0,J_1$ are constant within their states, its expected physical marginal product is $J_0+q(J_1-J_0)$ for probability $q$ of a qualified change at the site. A supplier's decision to isolate an update, or the last buyer's decision to migrate, can raise the return to a different buyer's robot. An observed change in released code is consequential only if the recipient has work, equipment and complementary capacity that can use it.
+A diagnostic portfolio must preserve the joint law of what its observations mean. The next result endogenizes the recipient fleet instead of treating data value as a fixed premium per deployment.
 
-If the next equipment payment depends on acceptance, a delayed release can also extend the time that cash is tied up. If a fixed balance $c$ remains outstanding for an additional $\Delta T$, the extra financing requirement per start is $c\Delta T$ dollar-periods. This can slow portfolio investment even when the machine's physical productivity at a qualified site is unchanged. The [cross-market model](../learning_and_capital/README.md) counts new capital when another installation becomes profitable, feasible and funded. A conditional release, a sale and a funded installation are separate observations.
+### 2. A production problem with two unresolved causes
 
-Applied across the value chain, the interface supplier may earn for keeping two versions compatible, the field integrator may pay for fresh validation, and a third operator may obtain the next order. The ownership of the source data alone cannot identify the firm that captures or finances this change.
+Let $\theta$ be a parameter relevant to the next hardware design. Let $\nu$ be a shared nuisance parameter affecting the interpretation of operating records. Before the focal experiments,
 
-<!-- page -->
+$$
+\theta\sim N(\mu_0,S),\qquad
+\nu\sim N(\nu_0,T),\qquad \theta\perp\nu,
+\qquad S,T>0.
+$$
 
-## How to test the theory
+Here $S$ and $T$ are variances. The prior includes what the firm has already learned through ordinary work. The comparison does not make the ordinary firm forget its existing evidence.
 
-A field test should distinguish a better executor, a better method for learning, and the competitive return to either. The maintained unit is an original opportunity with a buyer, deadline, and fallback.
+Two feasible source configurations produce
 
-### 1  ·  Isolate the return to learning how to qualify
+$$
+y_A=\nu+\varepsilon_A,\qquad
+y_B=\theta+\nu+\varepsilon_B,
+$$
 
-Start source teams with the same execution model, robots, and resource budget. Assign capture procedures across independent sharing groups. Allow ordinary production to continue learning. At unfamiliar target sites, independently vary access to the retained procedure and the number of fresh tests allowed. Keep the starting executor and target opportunities matched. Measure qualification and realized accepted work per dollar, including displaced jobs. Compare the revised procedure with a standing rule, same-budget replay, and a human with equivalent information and authority.
+where measurement errors are mutually independent Gaussian variables, independent of $(\theta,\nu)$, with zero means and variances $r_A,r_B>0$. Gaussianity is required for the conditioning and ex ante formulas below; moments alone are insufficient.
 
-The model predicts no advantage with zero target tests, a positive advantage when scarce checks can be redirected, and equality when all relevant checks are prepaid and feasible. A gain without fresh evidence points toward a directly reusable execution policy. A gain that survives exhaustive checks points toward other channels, including speed, test costs, or execution quality.
+For an applied interpretation, suppose the next design must accommodate a task-specific load, while an uncertain calibration parameter affects the readings used to infer that load. Production configuration $B$ mixes the two. A reference operation at $A$ isolates the calibration parameter. This is a local, stylized measurement model. It requires a reason that the same nuisance affects both records; arbitrary sites do not satisfy it.
 
-### 2  ·  Observe who captures the saving
+The firm first chooses a source portfolio $E\subseteq\{A,B\}$. Its current net cost includes hardware, integration, measurement, permissions, support and the value of ordinary service displaced. After the records arrive, the firm chooses its next design and manufacturing quantity. Both sources and all subsequent designs satisfy the maintained service requirements. Failure to meet those requirements is not a free learning technology.
 
-Record the eligible supplier set, qualification outcomes, costs, accepted volume, and the fee of the winning bid. A change in rival readiness should shift the division between supplier margin and buyer saving for a given technical gain. Compare exclusive and nonexclusive source rights at matched service quality. Independent measurement of transfer helps distinguish productive learning from a bid that protects an existing margin.
+#### The state must preserve relationships between unknowns
 
-### 3  ·  Test where the lead ends
+Let $s_E$ denote the posterior variance of $\theta$. Gaussian conditioning gives
 
-Restore the retained procedure to a random subset of comparison teams before a fresh task and re-optimize both sides. Track how quickly the best alternative learns from ordinary work, purchases a comparable procedure, or qualifies another embodiment. A persistent advantage after those inputs and capabilities have been equalized calls for a different firm-specific resource.
+$$
+s_\varnothing=s_A=S,
+$$
 
-### Intellectual lineage
+$$
+s_B=S-\frac{S^2}{S+T+r_B}.
+$$
 
-Learning by doing and learning to learn have a long history. Cohen and Levinthal make research investment build absorptive capacity. Farboodi, Koh and Xia make task-specific data a byproduct of production. Imas, Koh and Legg distinguish competence from coordination in firms. Cabral and Riordan study pricing with learning. The specific claim here links a procedure learned in production to the choice of a fresh, scarce experiment and to the margin it earns against a learning rival. Historical priority and field magnitudes remain open.
+Observing $A$ first leaves nuisance uncertainty
 
-**Primary reading**   [Stiglitz (1987)](https://cepr.org/chapters/learning-learn-localized-learning-and-technological-progress)   ·   [Cohen & Levinthal (1989)](https://doi.org/10.2307/2233763)   ·   [Cabral & Riordan (1994)](https://ideas.repec.org/a/ecm/emetrp/v62y1994i5p1115-40.html)   ·   [Data-Driven Automation](https://www.nber.org/papers/w35320)   ·   [Organizing Intelligence](https://arxiv.org/abs/2611.05417)
+$$
+T_A=\frac{Tr_A}{T+r_A}.
+$$
 
-**Related RoboEcon work**   [The Autonomous Firm](The_Autonomous_Firm.md)   ·   [Choosing the First Deployment](Choosing_the_First_Deployment.md)   ·   [Fleet learning dynamics](https://github.com/amarmurray/robotics-economics/blob/082c8b662af4a41081752f6f23e9b0d6e8ff1ac9/research/recursive_firm/learning_dynamics/README.md)   ·   [Shared-capacity result](https://github.com/amarmurray/robotics-economics/blob/e54a4eb2221249c2417acdc4218589029808f143/research/theory_integration_2026_11_17/data_value/SHARED_CAPACITY_ENVELOPE.md)
+Therefore,
 
-<!-- page -->
+$$
+s_{AB}=S-\frac{S^2}{S+T_A+r_B}
+<s_B<S.
+$$
 
-## A field test of the installed-base mechanism
+The order of acquiring the two measurements does not change this final posterior. After $B$, the posterior covariance between $\theta$ and $\nu$ is
 
-Follow one new test-selection procedure across a controller supplier, a fleet integrator and buyer sites. Before results arrive, record a fixed list of eligible changes, fresh target jobs, acceptance standards, deadlines and fallback services. For each proposed change, record separately the sites whose traces could teach it, the sites that stand to gain from it, and the still-supported configurations that a common deployment would touch. Include shelving, refused launches and missed opportunities. A sample limited to shipped changes cannot distinguish poor discovery from discoveries the firm chose to leave unused.
+$$
+\operatorname{Cov}(\theta,\nu\mid y_B)
+=-\frac{ST}{S+T+r_B}.
+$$
 
-**Cross the inquiry decision with the release decision.** Across independently supported groups, vary ordinary versus enhanced case capture and access to a prepared isolated release path versus the best available ordinary path. Hold the initial executor, service standards and resource endowments fixed. Both arms can learn, use existing alternatives and decline a release. Measure discoveries using the same held-out fresh diagnostic before commercial rollout. Then follow accepted service, real validation hours, lost orders, net outside support costs, release date and which party received the saving. A randomized or predetermined sequence of independent pilot capacity can supply variation. Assign at the scale of shared crews and software, or measure the displaced work elsewhere.
+This covariance explains the mechanism. If the firm subsequently learns that more of the observed discrepancy came from calibration, it revises how much came from the task requirement.
 
-With assigned search yields $s_1,s_0$, conditional release values $r_V,r_P$, and additive arm-specific setup or search costs, the model predicts a difference between the effect of better capture with and without isolation equal to
+A scalar record of current task performance is not generally a sufficient state for this subsequent decision. The firm needs the relevant joint posterior, or records and a valid likelihood from which it can recover it. Retaining raw files is not itself necessary if a sufficient statistic preserves the required relationships. Retaining files without an interpretable measurement model is not sufficient either.
 
-$$\beta(s_1-s_0)(r_V-r_P).$$
+### 3. Proposition: individually weak sources can be jointly valuable
 
-This comparison requires that the release architecture leave the upstream discovery yield unchanged *at assigned effort*. If the isolated fleet generates different experiences or engineers change their search choices, the observed interaction also contains those responses. Measure them in a second design that allows reallocation. Feeding the same previously identified candidate into each path isolates the release margin. A local change touching no shared obligation is a negative comparison. A deadline slack enough for both plans removes the timing difference, while avoidable testing costs can remain.
+Begin with a fixed recipient exposure $W>0$. The firm's future design $x$ incurs expected loss
 
-**Test the last-customer prediction.** Compare retiring the final production user of a configuration with removing another unit from a configuration that remains supported. Measure check sets, review hours and acceptance on unrelated jobs before and after. Planned hardware retirements, temporary losses of demand and simultaneous staffing changes can shift both timing and workloads. Track those events and the informative cases that disappear. If obligations actually stay in force after the last production user moves, date the change when support expires. If each unit consumes its own independent validation time, the measured effect should be gradual.
+$$
+W E[(x-\theta)^2\mid D].
+$$
 
-Farrell and Saloner studied how installed bases affect compatibility choices. Henderson and Clark studied why changing the links between components challenges established firms. Here current production jointly selects future evidence and future obligations, and their interaction determines the return to inquiry. The derivations and simulations establish conditional mechanisms. Field magnitudes and their contribution to market shares remain open. [Farrell and Saloner](https://ideas.repec.org/a/aea/aecrev/v76y1986i5p940-55.html) · [Henderson and Clark](https://dash.harvard.edu/entities/publication/3affcf33-4dea-4371-ab4c-4767380018ab)
+The optimal design is the posterior mean, $x^*=E[\theta\mid D]$, and its remaining expected loss is $Ws_E$. Define gross information value relative to the existing prior as $L_E=W(S-s_E)$.
 
-[Original model checks](replication/capability/check_foundation.py) · [Installed-base replication](replication/capability/installed_base.py) · [Learning before a rival](When_Faster_Learning_Pays.md)
+It follows that
 
-The full-stack model follows the source deployment through two successive factory decisions. It derives when an unusual buyer earns a machine, when better information cancels a hardware change, and how a later buyer’s willingness to share traces changes the first deployment. [Manuscript](FULL_STACK_FIRM.md) · [PDF](The_Full_Stack_Robotic_Firm.pdf) · [Replication](replication/capability/full_stack_vintages.py)
+$$
+L_A=0,\qquad
+L_B=\frac{WS^2}{S+T+r_B},
+$$
+
+while
+
+$$
+L_{AB}=\frac{WS^2}{S+T_A+r_B}.
+$$
+
+Hence
+
+$$
+\boxed{
+L(A\mid B)
+=
+\frac{WS^2(T-T_A)}
+{(S+T_A+r_B)(S+T+r_B)}
+>0=L(A\mid\varnothing).
+}
+$$
+
+**Proof.** The posterior mean minimizes quadratic loss. Substituting the posterior variances and subtracting gives the displayed expression. Since a finite-precision observation of $\nu$ reduces its variance, $T_A<T$, and every denominator is positive.
+
+The information sources are complements for this decision. A site supplying no standalone improvement to the target design can belong in the optimal portfolio because it explains a different site's evidence. Ranking each deployment by its standalone data contribution would miss that portfolio.
+
+The claim is about this decision and these signals. It does not say that $A$ lacks value for every purpose, or that all additional environments are complements. Correlated priors, redundant measurements and different payoffs can change the result.
+
+#### Faster accumulation can increase the value of a different source
+
+Suppose $B$ is observed $n$ times with independent measurement errors but the same $\theta$ and $\nu$. Its mean reading has noise variance $r_B/n$. Replacing $r_B$ by this quantity gives
+
+$$
+s_{B,n}=S-\frac{S^2}{S+T+r_B/n}.
+$$
+
+Thus
+
+$$
+\lim_{n\to\infty}s_{B,n}=\frac{ST}{S+T}>0.
+$$
+
+The repetition identifies $\theta+\nu$ increasingly well. It does not identify the decomposition.
+
+In the fixed-exposure benchmark, more precise $B$ observations also increase the marginal value of $A$. Writing $r$ for the remaining noise of the average $B$ observation,
+
+$$
+\frac{\partial L(A\mid B)}{\partial r}
+=
+-L(A\mid B)
+\left[
+\frac{1}{S+T_A+r}+\frac{1}{S+T+r}
+\right]<0.
+$$
+
+This contrasts with independent chances of finding the same rule: for a fixed prize and common success probability u, discovery probability 1-(1-u)^n has diminishing increments across n opportunities. One source can then substitute for another. When one source separates causes mixed by another, improving the latter can make the former more valuable. “Faster learning” has to identify which part of the learning technology improved.
+
+For a fixed cost of obtaining $A$, a firm can therefore initially concentrate on $B$ and later add $A$ as the accumulated $B$ evidence makes the contrast worth buying. That is a comparative static holding the recipient exposure and costs fixed. Aging recipients, shorter remaining deadlines or changing demand can reverse the chronological prediction.
+
+The information floor also has a sharp boundary. If each $B$ observation redraws an independent nuisance with a known mean, averaging removes nuisance uncertainty. If the firm can vary $B$'s known loading on $\nu$, it may generate the necessary contrast without another site. A cheap factory test may dominate a new deployment.
+
+### 4. The next design and fleet are choices
+
+A fixed $W$ makes the recipient fleet an external input. To endogenize it, let one unit of the next vintage produce operating surplus
+
+$$
+m+a\theta-\kappa(x-\theta)^2.
+$$
+
+The constant $m$ is captured service value net of ordinary linear costs, including the relevant per-unit manufacturing expense. The coefficient $a$ lets the same unknown influence the attractiveness of the opportunity. The mismatch term prices avoidable rework, adjustment or another real cost of choosing the wrong design. It is a cost specification, not a formula for physical throughput.
+
+Let expanding the cohort to $N\geq0$ units incur an additional cost $\gamma N^2/2$, with $\gamma>0$ and $\kappa>0$. This represents a specified increasing marginal manufacturing or integration cost. An appropriate declining marginal demand value can produce the same reduced form. We do not count both explanations as separate costs. Capacity is continuous here; integer units require finite differences.
+
+After evidence $D$, suppose $\theta\mid D\sim N(\mu_D,s)$. Expected profit is
+
+$$
+\Pi(N,x\mid D)
+=
+N\left[m+a\mu_D-\kappa\{(x-\mu_D)^2+s\}\right]
+-\frac{\gamma}{2}N^2.
+$$
+
+Both design and quantity are chosen after the observations and before the new batch is committed.
+
+#### Proposition: evidence changes design, scale and entry
+
+For positive production, the optimal design is
+
+$$
+\boxed{x^*(D)=\mu_D.}
+$$
+
+The optimal manufacturing quantity and continuation value are
+
+$$
+\boxed{
+N^*(D)=\frac{[m+a\mu_D-\kappa s]_+}{\gamma},
+\qquad
+V(D)=\frac{[m+a\mu_D-\kappa s]_+^2}{2\gamma}.
+}
+$$
+
+Here $[z]_+=\max(z,0)$.
+
+**Proof.** Conditional expected squared mismatch equals $(x-\mu_D)^2+s$, minimized at $x=\mu_D$. The remaining objective is a strictly concave quadratic in $N$; its nonnegative maximizer gives the two expressions. If $N=0$, the unused design is immaterial.
+
+There are two effects. A more accurate design reduces expected mismatch costs. The content of the evidence also changes the chosen quantity: favorable evidence can justify a larger batch, while unfavorable evidence can stop a batch. Information is valued against a competent manufacturer that already chooses its best design and quantity from its prior.
+
+#### An exact ex ante value
+
+For a predetermined Gaussian experiment portfolio, posterior variance $s$ is nonrandom and
+
+$$
+\mu_D\sim N(\mu_0,S-s).
+$$
+
+Define
+
+$$
+M(s)=m+a\mu_0-\kappa s,\qquad
+\omega(s)=|a|\sqrt{S-s},\qquad z(s)=M(s)/\omega(s).
+$$
+
+Let $\Phi$ and $\phi$ be the standard normal distribution and density. Integrating the positive part of the optimized profit gives
+
+$$
+\boxed{
+H(s)
+=
+\frac{
+\{M(s)^2+\omega(s)^2\}\Phi(z(s))
++M(s)\omega(s)\phi(z(s))
+}{2\gamma}.
+}
+$$
+
+For $\omega(s)=0$, the expression is understood as $[M(s)]_+^2/(2\gamma)$. The corresponding expected quantity and entry probability, when $\omega>0$, are
+
+$$
+E[N^*]=\frac{M\Phi(z)+\omega\phi(z)}{\gamma},
+\qquad
+\Pr(N^*>0)=\Phi(z).
+$$
+
+These moments apply before a fixed portfolio's outcomes are seen. If the firm selects further measurements in response to early signals, the selection must be integrated explicitly; the unconditional formula cannot simply be applied to the selected sample.
+
+### 5. What determines the marginal value of learning?
+
+Differentiating the preceding continuation value yields
+
+$$
+\boxed{
+-H'(s)
+=
+\kappa E[N^*]
++
+\frac{a^2}{2\gamma}\Pr(N^*>0).
+}
+$$
+
+**Proof.** Write optimized value as $Z_+^2/(2\gamma)$ for a normal variable $Z$ of mean $M$ and variance $\omega^2$. Its expected derivative with respect to $M$ is $E[N^*]$. Its derivative with respect to $\omega^2$ is $\Pr(Z>0)/(2\gamma)$. Since $dM/ds=-\kappa$ and $d\omega^2/ds=-a^2$, the result follows. The formula holds in the interior with positive dispersion; at degenerate boundaries use one-sided limits.
+
+The first term values reducing mismatch on the units the firm ends up manufacturing. The second values adapting entry and scale to what the evidence reveals. It is not exclusively an entry term: it also covers resizing opportunities that remain profitable.
+
+This is a concrete replacement for multiplying a learning gain by an externally fixed fleet. The exposure that makes precision valuable is partly created by the same precision. For a finite variance reduction, integrate the marginal expression over the interval; adding a separate data premium to $H$ would double-count its effect on production value.
+
+For the next investment, the marginal expected net surplus conditional on the chosen design is
+
+$$
+m+a\mu_D-\kappa s-\gamma N.
+$$
+
+At an unconstrained interior optimum it is zero. An improvement can initially raise this margin, induce a larger batch, and leave the margin on the final chosen unit back at zero. This is an investment condition in value units. It is not a claim that physical $MPK_r$ equals zero.
+
+The existing definition of physical $MPK_r$ remains the vector of additional accepted services from a specified commissioned robot, holding other stocks and the order book fixed while reoptimizing dispatch. Knowledge can change that vector when it changes physical feasibility. The present mismatch-cost model can instead increase investment value by reducing costs without changing accepted physical output. The two outcomes must be measured separately.
+
+### 6. Joint source entry with endogenous manufacturing
+
+Let $\beta$ discount the manufacturing continuation to the source decision date, and let $d_A,d_B$ be the sources' current net costs relative to the maintained ordinary-production alternative. Define
+
+$$
+G_B=\beta[H(s_B)-H(S)],
+\qquad
+G_{AB}=\beta[H(s_{AB})-H(S)].
+$$
+
+The four feasible portfolio values, relative to neither new source, are
+
+| Source portfolio | Incremental optimized value |
+| --- | --- |
+| Neither | $0$ |
+| $A$ | $-d_A$ |
+| $B$ | $G_B-d_B$ |
+| Both | $G_{AB}-d_A-d_B$ |
+
+#### Proposition: the portfolio can pay when neither site pays alone
+
+For $d_A,d_B\geq0$, both sources are optimal, allowing ties, exactly when
+
+$$
+\boxed{
+d_A+d_B\leq G_{AB},
+\qquad
+d_A\leq G_{AB}-G_B.
+}
+$$
+
+**Proof.** The first inequality compares both sources with neither. The second compares both with $B$. Since $A$ alone has nonpositive value, those comparisons also dominate $A$. Necessity follows from the same comparisons.
+
+Because $H$ falls with residual variance, the extra contrast can produce a strictly positive gap $G_{AB}-G_B$. Costs can then satisfy $d_A>0$, $d_B>G_B$ and $d_A+d_B<G_{AB}$. Neither source is attractive alone, but the pair is.
+
+If source costs are negative because current service earns sufficient contribution, retain the additional comparison $d_B\leq G_{AB}$. If source obligations create shared costs, replace $d_A+d_B$ with the actual portfolio cost. If cash, engineering or customer permissions rule out a portfolio, remove it from the feasible menu. Positive expected value does not establish dated funding feasibility.
+
+The mechanism is complementary evidence plus contingent manufacturing. It does not require subsidizing every atypical customer. The exact comparison can favor a test cell, a purchased calibration or a modified operating policy over either new deployment.
+
+#### A conditional competitive implication
+
+In this uncapped expansion model, reducing posterior variance weakly increases expected manufacturing quantity. Also $H_m(s)=E[N^*(s)]$. Thus
+
+$$
+\frac{\partial}{\partial m}
+\{H(s_{AB})-H(s_B)\}
+=
+E[N^*(s_{AB})]-E[N^*(s_B)]\geq0.
+$$
+
+A reduction in captured unit margin can weaken the firm's incentive to acquire the complementary source, even with the same observation technology. This is a partial-equilibrium comparison in a stipulated margin. Competition, customer pricing and industry-wide quantities are not solved here.
+
+
+## 8. Boundaries, empirical discrimination and proof ownership
+
+The five mechanisms are distinct. A deadline peak requires retiming a fixed cohort, while adding future cohorts changes total demand. A timing covariance requires a genuinely shared dated slot. A last-site discontinuity requires a shared configuration obligation, while additive site checks behave differently. The three-vintage reversal requires incremental lawful reuse and design-dependent access to the future site. The nuisance contrast requires a shared persistent confounder, not arbitrary environmental variety.
+
+In P2.5's uncapped Gaussian expansion model, information can increase expected manufacturing. With a hard cap, indivisible batches, deadline constraints or changes in recipients, more information can instead cancel bad starts and reduce expected units. Its decision value remains nonnegative only when the firm can ignore costless evidence and retains the original menu. Purchasing an experiment or reserving cash/resources can change the feasible alternatives; compare net investment value over the complete cash-feasible programs. A cash constraint by itself does not destroy the value of free, ignorable information when the menu is unchanged. The historical portfolio appendix keeps the capped and two-generation cases; they are not silently extrapolated from the uncapped formula.
+
+Operational anchors establish particular premises: Tutor identifies a posted contract unit; Universal Robots identifies an actual migration/interface issue; a commercial data agreement can identify a permission structure. None identifies every model parameter. The first cross-paper [Lane 4 record](../../research/portfolio/empirical_target_symbotic.json) preserves actual implementation times, costs, transfer probabilities and joint signal laws as null. A later Paper 2 case must map a release or vintage decision specifically before Gate C can pass.
+
+### Proof and replication map
+
+| Claim | Preserved source / script | Qualification |
+| --- | --- | --- |
+| P2.1 timing | Choosing_the_First_Deployment.md; replication/deployment/allocation_and_bids.py, check_allocation | Procurement functions in the same file belong to P1 |
+| P2.1 hourly service | The_Autonomous_Firm.md; replication/labor_checks.py | Conditional price/demand arithmetic; no causal deployment estimate |
+| P2 supporting allocation appendix | The_Autonomous_Firm.md; replication/physics_checks.py | Correlated rescue-fault allocation, not the hourly-price check |
+| P2.2 | When_Faster_Learning_Pays.md; replication/capability/learning_deadlines.py | Fixed-rival timing proof; rival-response extensions are P1 interfaces |
+| P2.3 | [Original manuscript](https://github.com/amarmurray/robotics-economics/blob/f3a6d0f8146c773ca7906f395f5eb52ec6fac910/papers/autonomous_firm/The_Production_of_Capability.md); replication/capability/installed_base.py | Shared-release, migration and reference-cell restrictions |
+| P2.4 | FULL_STACK_FIRM.md; replication/capability/full_stack_vintages.py | Exact synthetic contingent-plan comparison in the saved implementation |
+| P2.5 | DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md; replication/capability/diagnostic_portfolios.py | Analytic Gaussian formulas and numerical checks with stated tolerances |
+
+The earlier complete manuscripts are preserved at input main [f3a6d0f8146c773ca7906f395f5eb52ec6fac910](https://github.com/amarmurray/robotics-economics/tree/f3a6d0f8146c773ca7906f395f5eb52ec6fac910/papers/autonomous_firm). The five noncanonical files now carry archive banners. The old replication/run.py does not invoke every capability script and cannot certify this whole paper. Code and saved output bytes have not been changed or rerun for this consolidation. A new finite solver invocation requires a named proposition and preregistered falsification question under AGENTS.md.
+
+Gate A still requires complete notation/proof-link reconciliation, a claim-level comparison with the closest prior art and disposition of all source qualifications. Gate B then requires an independent hostile referee. The historical general referee report and this editorial integration do not satisfy that pass. Allocator self-revision, deployment-time scaling and dynamic make-versus-buy arguments are routed to [Paper 3](../../research/recursive_firm/README.md); general cash incidence and disclosure competition are routed to [Paper 1](../learning_and_capital/README.md).
+

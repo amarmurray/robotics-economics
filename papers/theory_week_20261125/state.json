@@ -1,272 +1,296 @@
 {
-  "schema_version": 1,
-  "campaign": "roboecon-theory-week-20261125",
-  "status": "active",
-  "start": "2026-11-25T10:49:19-05:00",
-  "deadline": "2026-12-02T10:49:19-05:00",
-  "timezone": "America/New_York",
-  "parent_program_deadline": "2026-12-25T23:59:00-05:00",
-  "input_commits": {
-    "main": "e27351d38593b2b489fa6f49a752fe5433a1fa6a",
-    "research/assistant-led-expansion-20261117": "bb8d87b86d6a679e55de777c59f6e5d82e4ecb3b",
-    "research/recursive-firm-theory": "ec919bd95c52521051414b5f99315854b9700879"
-  },
-  "writer_scope": "main: papers/integrated_firm plus additive theory-week synthesis; sole hourly writer; source branches preserved read-only",
+  "schema_version": 2,
+  "campaign": "theory_week_20261125",
+  "status": "retired_historical_synthesis_appendices",
+  "deadline": null,
+  "parent_program_deadline": null,
+  "calendar_acceptance_deadlines_active": false,
+  "authority": "AGENTS.md",
+  "canonical_portfolio_state": "research/portfolio/state.json",
   "lease": {
-    "status": "released",
-    "run_id": "theory-week-20261125-170425ET",
-    "acquired_at": "2026-11-25T17:04:25-05:00",
-    "expires_at": "2026-11-25T18:34:25-05:00",
-    "released_at": "2026-11-25T22:07:47.382Z"
+    "status": "retired",
+    "run_id": null,
+    "expires_at": null,
+    "retired_at": "2026-11-27T22:39:30Z",
+    "reason": "Historical program retired; original released lease retained only below."
   },
-  "completed": [
-    {
-      "item": "Current state and active schedules inspected",
-      "kind": "read-only audit"
-    },
-    {
-      "item": "Economic premises, common state and controlled-transition distinction specified",
-      "kind": "initial theoretical scaffold"
-    },
-    {
-      "item": "Five linked priorities, milestones and acceptance criteria written",
-      "kind": "research plan"
-    },
-    {
-      "item": "Bounded synthesis task created and both existing research tasks aligned",
-      "kind": "confirmed scheduling"
-    },
-    {
-      "item": "Shared-hour evidence reallocation: fixed exposure sign, endogenous dispatch reversal and conditional cross-market MPK/installation response",
-      "kind": "conditional derivation and synthetic CPU validation",
-      "source": "EVIDENCE_REALLOCATION.md",
-      "checks": 2307
-    },
-    {
-      "item": "Reconciled theory-week navigation and state on fresh main, preserving newer manuscript and register work",
-      "kind": "publication reconciliation"
-    },
-    {
-      "item": "Endogenous bridge/audit/direct experiment choice, staging, noisy graph likelihoods and structural/measurement nonidentification connected to firm scope and capital allocation",
-      "kind": "conditional derivations with exact rational synthetic validation",
-      "source": "LEARNING_GENERALIZATION_STRUCTURE.md",
-      "replication": "generalization_allocation.py",
-      "validation": "729 noisy plus 729 exact graph/sign patterns; exhaustive finite adaptive experiment program; observational equivalence"
-    },
-    {
-      "item": "Common finite concurrent firm, staged two-generation procedure model with derived recipient value, and two-period competitive continuation solved; seven-obligation claim ledger added.",
-      "kind": "bounded formal integration",
-      "evidence": [
-        "papers/integrated_firm/UNIFIED_MODEL.md",
-        "papers/integrated_firm/RESULTS.md",
-        "papers/integrated_firm/CLAIM_LEDGER.md"
-      ]
-    },
-    {
-      "item": "Exact joint-count state reduction and shared-resource terminal competitive recipient game; marginal counts lose rivalry pairing.",
-      "kind": "conditional proof and exhaustive terminal computation",
-      "evidence": [
-        "papers/integrated_firm/JOINT_COUNTS.md",
-        "papers/integrated_firm/joint_counts_results.json"
-      ]
-    },
-    {
-      "item": "Exact public-history joint conditional transition and legal concurrent digital-recipient action generator validated; longer equilibrium open.",
-      "kind": "conditional derivation and exact CPU check",
-      "evidence": [
-        "papers/integrated_firm/JOINT_TRANSITION.md",
-        "papers/integrated_firm/joint_transition_results.json"
-      ]
-    },
-    {
-      "item": "Exact two-/three-period concurrent public-state digital-recipient game with two continuation selections, matched funded cap-2 null and direct recursion clock.",
-      "kind": "conditional proof and exact CPU solution",
-      "evidence": [
-        "papers/integrated_firm/JOINT_GAME.md",
-        "papers/integrated_firm/joint_game_results.json",
-        "papers/integrated_firm/joint_game_verification.json"
-      ]
-    },
-    {
-      "item": "Funded concurrent pooled-output cap-0/1/2 game; count/cash quotient and strict output saturation; positive second-generation return with saturated competitive quantities, active cases separately reported.",
-      "kind": "conditional proof and exact CPU solution",
-      "evidence": [
-        "papers/integrated_firm/POOLED_RECURSION.md",
-        "papers/integrated_firm/pooled_recursion_results.json"
-      ]
-    },
-    {
-      "item": "Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.",
-      "kind": "conditional derivation and exact CPU solution",
-      "evidence": [
-        "papers/integrated_firm/EMBODIED_GAME.md",
-        "papers/integrated_firm/embodied_game.js",
-        "papers/integrated_firm/embodied_game_results.json"
-      ]
-    },
-    {
-      "item": "Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open.",
-      "kind": "conditional proof and exact CPU solution with measured budget diagnostic",
-      "evidence": [
-        "papers/integrated_firm/FUNDED_EMBODIED.md",
-        "papers/integrated_firm/funded_embodied_results.json",
-        "papers/integrated_firm/binding_embodied_diagnostic_results.json",
-        "papers/integrated_firm/PILOT_PREPARATION.md"
-      ]
-    },
-    {
-      "item": "A joint qualification mask with one physical and two separate digital recipient markets preserves overlap; exact cash clipping works even with binding cash under a specified quotient-based equilibrium selection. 14/18 primary cases solved; eight labeled, uncapped, distinct-cost checks agree on private wealth. Funded split vs overlapping qualifications raises combined wealth 224→228 at the same eight accepted jobs and customer surplus 12 (highest-total selection); at B=7 the comparison is 72→74, with both firms' qualified counts unchanged and active financing. Three-date inherited psi=1 cap-1/2 remains a matched null (118,118); from-zero four-date cap-0 solves, cap-1/2 reach the 1.8m profile budget, not an economic null.",
-      "kind": "conditional proof, exact CPU solution and measured budget",
-      "evidence": [
-        "papers/integrated_firm/COHORT_EMBODIED.md",
-        "papers/integrated_firm/cohort_embodied.js",
-        "papers/integrated_firm/cohort_embodied_results.json"
-      ]
-    },
-    {
-      "item": "Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both continuation selections: wealth (166,166) or (166,164), no successor attempts in any case. Terminal projection and funded penultimate successor dominance reduce cap-2 from 6,689,725 to 3,239,595 profiles and 17,538 to 3,754 memo states; unprojected higher-budget solve matches exact selected wealth and successor counts. Five-date batch exceeded execution limit; positive active-rival second-generation return, endogenous retention/scope and longer binding finance remain open.",
-      "kind": "conditional proof and exact CPU solution with matched projection check",
-      "evidence": [
-        "papers/integrated_firm/COHORT_SCALE.md",
-        "papers/integrated_firm/cohort_scale.js",
-        "papers/integrated_firm/cohort_scale_results.json"
-      ]
-    },
-    {
-      "item": "Endogenous archive retention, paid outside training/data and dated lab entry/exit now enter the same three-recipient competitive technology. 24/24 primary pure-game cases and 12 projection-off comparisons solved. With an inherited procedure 2, installed mobile and costly outside research, retention rights induce one ordinary-service archive→internal physical qualification→extra accepted job: combined wealth 347→348, jobs 12→13, customer surplus 18→21. At cheap outside research or binding B=9, rights add zero selected private value. With inherited physical archives, open rather than closed initial lab scope raises wealth 349→362 and jobs 13→16; without enough useful opportunity the lab exits. This is a matched rights/scope comparison, not an endogenous second-generation acquisition result. Three-date positive cases fix hardware, while two-date cash/scope cases allow assembly.",
-      "kind": "conditional proof and exact CPU solution with projection-off checks",
-      "evidence": [
-        "papers/integrated_firm/COHORT_RIGHTS.md",
-        "papers/integrated_firm/cohort_rights.js",
-        "papers/integrated_firm/cohort_rights_results.json"
-      ]
-    },
-    {
-      "item": "Endogenous kit ordering and assembly restored to the three-date rights/scope economy. All 16 matched cases solved (15 pure roots, one exact two-action mixed root with pure continuations). Installed mobile rights premium survives (+1 private tick); a paid mobile kit without installed hardware makes rights unused. With installed arm and paid mobile kit, rights displace selected assembly; under the higher-total pure continuation rule the root has no pure equilibrium across 170×170 retained profiles. Verified mixed root retains with probabilities 3/5 and 1/2, wealth (171,169.2), 12.8 jobs and surplus 22.4, versus no-right pure wealth (174,169), 12 jobs and surplus 18. Lower-total continuation gives equal private wealth (171,170) with and without rights, but rights add one job. No selected kit orders or endogenous successor acquisition in these three-date cases.",
-      "kind": "conditional proof, exact mixed root and forward cash reconstruction",
-      "evidence": [
-        "papers/integrated_firm/MANUFACTURING_RIGHTS.md",
-        "papers/integrated_firm/manufacturing_rights.js",
-        "papers/integrated_firm/manufacturing_rights_results.json"
-      ]
-    },
-    {
-      "item": "Three investment dates followed by 40 or 60 independently resourced terminal service shifts: six exact prefunded public-state games from procedure zero. Both firms retain local physical evidence and acquire both paid successor licenses when permitted; ordinary contingent training, paid outside training/data, lab entry/exit and kit procurement/assembly remain feasible, subject to one shared investment slot per early date. At N=40 the cap-2 minus cap-1 combined private wealth is -0.125 despite more jobs; at N=60 it is +15.03125, positive for each firm (+7.25,+7.78125), with terminal jobs 232.5→240 and contested market shifts 112.5→120. Cap-2 acquisition via licenses, not internal development; neither hardware order nor assembly selected. The positive active-quantity from-zero cap-2 acquisition witness is conditional on the enlarged terminal service window, high outside/kit costs, prefunding and higher-total pure continuation.",
-      "kind": "conditional proof and exact CPU solution",
-      "evidence": [
-        "papers/integrated_firm/SERVICE_WINDOW.md",
-        "papers/integrated_firm/service_window_40_results.json",
-        "papers/integrated_firm/service_window_60_results.json"
-      ]
-    },
-    {
-      "item": "Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.",
-      "kind": "conditional probability identity and 19 exact competitive solutions with forward cash replay",
-      "evidence": [
-        "papers/integrated_firm/INTERNAL_SUCCESSOR.md",
-        "papers/integrated_firm/internal_successor.js",
-        "papers/integrated_firm/internal_successor_results.json"
-      ]
-    },
-    {
-      "item": "The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.",
-      "kind": "conditional proof, six exact competitive solutions and forward cash reconstruction",
-      "evidence": [
-        "papers/integrated_firm/CONCURRENT_WINDOW.md",
-        "papers/integrated_firm/concurrent_window.js",
-        "papers/integrated_firm/concurrent_window_results.json"
-      ]
-    }
-  ],
-  "tracks": [
-    {
-      "id": "capability",
-      "status": "active_question",
-      "question": "How do production and collection choices endogenize transferable capability and future evidence?"
-    },
-    {
-      "id": "capital",
-      "status": "active_question",
-      "question": "How do learning and scarce complements change multivariate MPK_r and the timing/extent of investment?"
-    },
-    {
-      "id": "recursion",
-      "status": "active_question",
-      "question": "When does revising the learning-allocation procedure outperform a capable fixed contingent organization after costs?"
-    },
-    {
-      "id": "propagation",
-      "status": "active_question",
-      "question": "How do allocation responses and changing regimes alter diffusion across production, learning and financing networks?"
-    },
-    {
-      "id": "competition",
-      "status": "active_question",
-      "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
-    }
-  ],
-  "next_action": "Introduce one separately costed further experiment from eligible evidence actually retained after shift one; solve the intervening joint service/research choice before its report, preserve qualification/report authorization, old recipes, physical durations, shared H/C and dated receipts. Do not repeat completed independent-reserve S=8/9/10 probability audits. Test the conditional calendar sign boundary after restoring further learning (not as a global threshold). Endogenize actual early collection and binding payer cash, distinguish advance/escrow from an enforceable target-pass bonus, test bridge funding and abstention. Reconcile prior unpublished adjacent-price/research-fee objects if recoverable; certify joint cost/probability regions and changing mixed supports across the enlarged game, including legal menu and selector changes. Preserve directed transfer, common latent reports, rights, endogenous factor prices, realized supplier capacity/queues, finance and entry. Solve repeated/infinite-horizon economy before stability claims. Preserve November 27 recursive-pilot (prepared; actual execution unestablished), November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates in explicit integration; keep separate Codex analytical-paper direction intact.",
   "schedule": {
-    "week": {
-      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
-      "timing_mode": "flexible_schedule",
-      "timezone": "America/New_York",
-      "next_run_at_creation": "2026-11-25T17:00:00-05:00",
-      "enabled": false,
-      "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
+    "is_enabled": false,
+    "id": "Automation_9df88010e6a0819199674ddaf21572ff",
+    "status": "retired"
+  },
+  "next_action": "EVIDENCE_REALLOCATION and LEARNING_GENERALIZATION_STRUCTURE are scoped Paper 3 proof appendices. No dated theory-week or exhaustive solver queue remains active.",
+  "historical_checkpoint": {
+    "schema_version": 1,
+    "campaign": "roboecon-theory-week-20261125",
+    "status": "active",
+    "start": "2026-11-25T10:49:19-05:00",
+    "deadline": "2026-12-02T10:49:19-05:00",
+    "timezone": "America/New_York",
+    "parent_program_deadline": "2026-12-25T23:59:00-05:00",
+    "input_commits": {
+      "main": "e27351d38593b2b489fa6f49a752fe5433a1fa6a",
+      "research/assistant-led-expansion-20261117": "bb8d87b86d6a679e55de777c59f6e5d82e4ecb3b",
+      "research/recursive-firm-theory": "ec919bd95c52521051414b5f99315854b9700879"
     },
-    "production": {
-      "cadence": "existing hourly schedule preserved",
-      "deadline": "2026-12-25T23:59:00-05:00",
-      "week_prompt_updated": true,
-      "enabled": true,
-      "current_title": "RoboEcon formal integration",
-      "scope": "sole hourly integration writer; existing cadence and final deadline preserved"
+    "writer_scope": "main: papers/integrated_firm plus additive theory-week synthesis; sole hourly writer; source branches preserved read-only",
+    "lease": {
+      "status": "released",
+      "run_id": "theory-week-20261125-170425ET",
+      "acquired_at": "2026-11-25T17:04:25-05:00",
+      "expires_at": "2026-11-25T18:34:25-05:00",
+      "released_at": "2026-11-25T22:07:47.382Z"
     },
-    "recursive": {
-      "cadence": "daily around 09:00 America/New_York",
-      "extended_through": "2026-12-02",
-      "week_prompt_updated": true,
-      "enabled": false,
-      "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
+    "completed": [
+      {
+        "item": "Current state and active schedules inspected",
+        "kind": "read-only audit"
+      },
+      {
+        "item": "Economic premises, common state and controlled-transition distinction specified",
+        "kind": "initial theoretical scaffold"
+      },
+      {
+        "item": "Five linked priorities, milestones and acceptance criteria written",
+        "kind": "research plan"
+      },
+      {
+        "item": "Bounded synthesis task created and both existing research tasks aligned",
+        "kind": "confirmed scheduling"
+      },
+      {
+        "item": "Shared-hour evidence reallocation: fixed exposure sign, endogenous dispatch reversal and conditional cross-market MPK/installation response",
+        "kind": "conditional derivation and synthetic CPU validation",
+        "source": "EVIDENCE_REALLOCATION.md",
+        "checks": 2307
+      },
+      {
+        "item": "Reconciled theory-week navigation and state on fresh main, preserving newer manuscript and register work",
+        "kind": "publication reconciliation"
+      },
+      {
+        "item": "Endogenous bridge/audit/direct experiment choice, staging, noisy graph likelihoods and structural/measurement nonidentification connected to firm scope and capital allocation",
+        "kind": "conditional derivations with exact rational synthetic validation",
+        "source": "LEARNING_GENERALIZATION_STRUCTURE.md",
+        "replication": "generalization_allocation.py",
+        "validation": "729 noisy plus 729 exact graph/sign patterns; exhaustive finite adaptive experiment program; observational equivalence"
+      },
+      {
+        "item": "Common finite concurrent firm, staged two-generation procedure model with derived recipient value, and two-period competitive continuation solved; seven-obligation claim ledger added.",
+        "kind": "bounded formal integration",
+        "evidence": [
+          "papers/integrated_firm/UNIFIED_MODEL.md",
+          "papers/integrated_firm/RESULTS.md",
+          "papers/integrated_firm/CLAIM_LEDGER.md"
+        ]
+      },
+      {
+        "item": "Exact joint-count state reduction and shared-resource terminal competitive recipient game; marginal counts lose rivalry pairing.",
+        "kind": "conditional proof and exhaustive terminal computation",
+        "evidence": [
+          "papers/integrated_firm/JOINT_COUNTS.md",
+          "papers/integrated_firm/joint_counts_results.json"
+        ]
+      },
+      {
+        "item": "Exact public-history joint conditional transition and legal concurrent digital-recipient action generator validated; longer equilibrium open.",
+        "kind": "conditional derivation and exact CPU check",
+        "evidence": [
+          "papers/integrated_firm/JOINT_TRANSITION.md",
+          "papers/integrated_firm/joint_transition_results.json"
+        ]
+      },
+      {
+        "item": "Exact two-/three-period concurrent public-state digital-recipient game with two continuation selections, matched funded cap-2 null and direct recursion clock.",
+        "kind": "conditional proof and exact CPU solution",
+        "evidence": [
+          "papers/integrated_firm/JOINT_GAME.md",
+          "papers/integrated_firm/joint_game_results.json",
+          "papers/integrated_firm/joint_game_verification.json"
+        ]
+      },
+      {
+        "item": "Funded concurrent pooled-output cap-0/1/2 game; count/cash quotient and strict output saturation; positive second-generation return with saturated competitive quantities, active cases separately reported.",
+        "kind": "conditional proof and exact CPU solution",
+        "evidence": [
+          "papers/integrated_firm/POOLED_RECURSION.md",
+          "papers/integrated_firm/pooled_recursion_results.json"
+        ]
+      },
+      {
+        "item": "Concurrent embodied competitive game: paid kits, delayed assembly, installed arm/mobile, local qualified recipes, cash, ordinary learning and successor menu in one exact dated two-market account. 32/32 matched cases; inherited-procedure manufacturing increases accepted jobs 7.5→10 and customer surplus 10.5→20 while combined terminal wealth falls 58→56 (higher-total pure selection); cheaper kits induce actual order→assembly→service and change rival research; matched cap-2 null. Positive active-rival cap-2, endogenous retention/scope, longer horizons and general mixed solver open.",
+        "kind": "conditional derivation and exact CPU solution",
+        "evidence": [
+          "papers/integrated_firm/EMBODIED_GAME.md",
+          "papers/integrated_firm/embodied_game.js",
+          "papers/integrated_firm/embodied_game_results.json"
+        ]
+      },
+      {
+        "item": "Four-date embodied cap-0/1/2 from zero solved under guaranteed funding and two pure selections via a cash-independent continuation quotient; all six yield wealth (160.5,159), 12.5 accepted jobs and customer surplus 22.5, with ordinary training and actual mobile-kit orders/assembly but no successor attempts. Binding-cash cap-2 diagnostic stopped at 300,001 profiles (33,480 solved states), not an equilibrium nonexistence result. Positive active-rival cap-2, larger recipient sets, rights/scope and binding finance remain open.",
+        "kind": "conditional proof and exact CPU solution with measured budget diagnostic",
+        "evidence": [
+          "papers/integrated_firm/FUNDED_EMBODIED.md",
+          "papers/integrated_firm/funded_embodied_results.json",
+          "papers/integrated_firm/binding_embodied_diagnostic_results.json",
+          "papers/integrated_firm/PILOT_PREPARATION.md"
+        ]
+      },
+      {
+        "item": "A joint qualification mask with one physical and two separate digital recipient markets preserves overlap; exact cash clipping works even with binding cash under a specified quotient-based equilibrium selection. 14/18 primary cases solved; eight labeled, uncapped, distinct-cost checks agree on private wealth. Funded split vs overlapping qualifications raises combined wealth 224→228 at the same eight accepted jobs and customer surplus 12 (highest-total selection); at B=7 the comparison is 72→74, with both firms' qualified counts unchanged and active financing. Three-date inherited psi=1 cap-1/2 remains a matched null (118,118); from-zero four-date cap-0 solves, cap-1/2 reach the 1.8m profile budget, not an economic null.",
+        "kind": "conditional proof, exact CPU solution and measured budget",
+        "evidence": [
+          "papers/integrated_firm/COHORT_EMBODIED.md",
+          "papers/integrated_firm/cohort_embodied.js",
+          "papers/integrated_firm/cohort_embodied_results.json"
+        ]
+      },
+      {
+        "item": "Four-date from-zero three-recipient embodied cap-0/1/2 now all solved under both continuation selections: wealth (166,166) or (166,164), no successor attempts in any case. Terminal projection and funded penultimate successor dominance reduce cap-2 from 6,689,725 to 3,239,595 profiles and 17,538 to 3,754 memo states; unprojected higher-budget solve matches exact selected wealth and successor counts. Five-date batch exceeded execution limit; positive active-rival second-generation return, endogenous retention/scope and longer binding finance remain open.",
+        "kind": "conditional proof and exact CPU solution with matched projection check",
+        "evidence": [
+          "papers/integrated_firm/COHORT_SCALE.md",
+          "papers/integrated_firm/cohort_scale.js",
+          "papers/integrated_firm/cohort_scale_results.json"
+        ]
+      },
+      {
+        "item": "Endogenous archive retention, paid outside training/data and dated lab entry/exit now enter the same three-recipient competitive technology. 24/24 primary pure-game cases and 12 projection-off comparisons solved. With an inherited procedure 2, installed mobile and costly outside research, retention rights induce one ordinary-service archive→internal physical qualification→extra accepted job: combined wealth 347→348, jobs 12→13, customer surplus 18→21. At cheap outside research or binding B=9, rights add zero selected private value. With inherited physical archives, open rather than closed initial lab scope raises wealth 349→362 and jobs 13→16; without enough useful opportunity the lab exits. This is a matched rights/scope comparison, not an endogenous second-generation acquisition result. Three-date positive cases fix hardware, while two-date cash/scope cases allow assembly.",
+        "kind": "conditional proof and exact CPU solution with projection-off checks",
+        "evidence": [
+          "papers/integrated_firm/COHORT_RIGHTS.md",
+          "papers/integrated_firm/cohort_rights.js",
+          "papers/integrated_firm/cohort_rights_results.json"
+        ]
+      },
+      {
+        "item": "Endogenous kit ordering and assembly restored to the three-date rights/scope economy. All 16 matched cases solved (15 pure roots, one exact two-action mixed root with pure continuations). Installed mobile rights premium survives (+1 private tick); a paid mobile kit without installed hardware makes rights unused. With installed arm and paid mobile kit, rights displace selected assembly; under the higher-total pure continuation rule the root has no pure equilibrium across 170×170 retained profiles. Verified mixed root retains with probabilities 3/5 and 1/2, wealth (171,169.2), 12.8 jobs and surplus 22.4, versus no-right pure wealth (174,169), 12 jobs and surplus 18. Lower-total continuation gives equal private wealth (171,170) with and without rights, but rights add one job. No selected kit orders or endogenous successor acquisition in these three-date cases.",
+        "kind": "conditional proof, exact mixed root and forward cash reconstruction",
+        "evidence": [
+          "papers/integrated_firm/MANUFACTURING_RIGHTS.md",
+          "papers/integrated_firm/manufacturing_rights.js",
+          "papers/integrated_firm/manufacturing_rights_results.json"
+        ]
+      },
+      {
+        "item": "Three investment dates followed by 40 or 60 independently resourced terminal service shifts: six exact prefunded public-state games from procedure zero. Both firms retain local physical evidence and acquire both paid successor licenses when permitted; ordinary contingent training, paid outside training/data, lab entry/exit and kit procurement/assembly remain feasible, subject to one shared investment slot per early date. At N=40 the cap-2 minus cap-1 combined private wealth is -0.125 despite more jobs; at N=60 it is +15.03125, positive for each firm (+7.25,+7.78125), with terminal jobs 232.5→240 and contested market shifts 112.5→120. Cap-2 acquisition via licenses, not internal development; neither hardware order nor assembly selected. The positive active-quantity from-zero cap-2 acquisition witness is conditional on the enlarged terminal service window, high outside/kit costs, prefunding and higher-total pure continuation.",
+        "kind": "conditional proof and exact CPU solution",
+        "evidence": [
+          "papers/integrated_firm/SERVICE_WINDOW.md",
+          "papers/integrated_firm/service_window_40_results.json",
+          "papers/integrated_firm/service_window_60_results.json"
+        ]
+      },
+      {
+        "item": "Nineteen exact service-window games separate execution qualification from internal successor success. Two-date endpoint probability premium b(q-p)-p(1-p); original internal kernel ties ordinary retry at p=b=3/4,q=1. Improved internal development (one compute slot, success (3+old)/4), costly but feasible substitutes, N=60: cap-2 internally develops both generations from zero with expected attempts 3.5, zero licenses/contracts, combined private wealth premium 23.173828125 (both gain), terminal jobs 226.875→232.5; positive under lower-total selection too. Original kernel with costly successors selects ordinary learning; improved two-compute variant buys first and develops second yet loses combined 30.25; cheap outside qualification erases original premium and reverses improved one (-0.2578125). No selected kit orders; terminal reset block, funding, slot bottleneck and local archives retained.",
+        "kind": "conditional probability identity and 19 exact competitive solutions with forward cash replay",
+        "evidence": [
+          "papers/integrated_firm/INTERNAL_SUCCESSOR.md",
+          "papers/integrated_firm/internal_successor.js",
+          "papers/integrated_firm/internal_successor_results.json"
+        ]
+      },
+      {
+        "item": "The previously budget-limited concurrent cheap-kit staggered comparison now solves both cap-1 and cap-2. At fixed 63 shifts (1,1,30,31), entry date 3, and kit price 4, enabling one research and one hardware action concurrently increases combined generated private wealth 1850→2067.625 while accepted jobs fall 248→246 and customer surplus 496→492. Both firms order and assemble a mobile robot; in the concurrent regime both also develop a first successor and train on deployment archives, saving expected 2.0625 per later service shift at unchanged later quantities/prices. No second successor selected in either regime. The six exact selected pure games include an exact replay of the accepted costly-kit late-entry comparison, full retained-menu deviations, and forward dated accounting. Exact projected transition-class caching and two-pass profile streaming remove redundant continuation evaluations; this is not an unrestricted mixed or binding-finance solution.",
+        "kind": "conditional proof, six exact competitive solutions and forward cash reconstruction",
+        "evidence": [
+          "papers/integrated_firm/CONCURRENT_WINDOW.md",
+          "papers/integrated_firm/concurrent_window.js",
+          "papers/integrated_firm/concurrent_window_results.json"
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "id": "capability",
+        "status": "active_question",
+        "question": "How do production and collection choices endogenize transferable capability and future evidence?"
+      },
+      {
+        "id": "capital",
+        "status": "active_question",
+        "question": "How do learning and scarce complements change multivariate MPK_r and the timing/extent of investment?"
+      },
+      {
+        "id": "recursion",
+        "status": "active_question",
+        "question": "When does revising the learning-allocation procedure outperform a capable fixed contingent organization after costs?"
+      },
+      {
+        "id": "propagation",
+        "status": "active_question",
+        "question": "How do allocation responses and changing regimes alter diffusion across production, learning and financing networks?"
+      },
+      {
+        "id": "competition",
+        "status": "active_question",
+        "question": "How do rival and input-market responses change evidence effort, rents and heterogeneous firm structure?"
+      }
+    ],
+    "next_action": "Introduce one separately costed further experiment from eligible evidence actually retained after shift one; solve the intervening joint service/research choice before its report, preserve qualification/report authorization, old recipes, physical durations, shared H/C and dated receipts. Do not repeat completed independent-reserve S=8/9/10 probability audits. Test the conditional calendar sign boundary after restoring further learning (not as a global threshold). Endogenize actual early collection and binding payer cash, distinguish advance/escrow from an enforceable target-pass bonus, test bridge funding and abstention. Reconcile prior unpublished adjacent-price/research-fee objects if recoverable; certify joint cost/probability regions and changing mixed supports across the enlarged game, including legal menu and selector changes. Preserve directed transfer, common latent reports, rights, endogenous factor prices, realized supplier capacity/queues, finance and entry. Solve repeated/infinite-horizon economy before stability claims. Preserve November 27 recursive-pilot (prepared; actual execution unestablished), November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates in explicit integration; keep separate Codex analytical-paper direction intact.",
+    "schedule": {
+      "week": {
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261125T170000\nRRULE:FREQ=DAILY;BYHOUR=9,17;BYMINUTE=0;BYSECOND=0;UNTIL=20261202T154919Z\nEND:VEVENT",
+        "timing_mode": "flexible_schedule",
+        "timezone": "America/New_York",
+        "next_run_at_creation": "2026-11-25T17:00:00-05:00",
+        "enabled": false,
+        "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
+      },
+      "production": {
+        "cadence": "existing hourly schedule preserved",
+        "deadline": "2026-12-25T23:59:00-05:00",
+        "week_prompt_updated": true,
+        "enabled": true,
+        "current_title": "RoboEcon formal integration",
+        "scope": "sole hourly integration writer; existing cadence and final deadline preserved"
+      },
+      "recursive": {
+        "cadence": "daily around 09:00 America/New_York",
+        "extended_through": "2026-12-02",
+        "week_prompt_updated": true,
+        "enabled": false,
+        "consolidated_into": "6afbe6a5ebf88191a11858bf26241c98"
+      }
+    },
+    "source_tasks": {
+      "production": "6afbe6a5ebf88191a11858bf26241c98",
+      "recursive": "Automation_8f6101c0a5088191b61410787e40909b"
+    },
+    "week_task": "Automation_9df88010e6a0819199674ddaf21572ff",
+    "notifications": {
+      "midpoint_delivered": false,
+      "final_delivered": false
+    },
+    "final_outputs": {
+      "synthesis": "README.md",
+      "proof_register": "PROPOSITION_REGISTER.md",
+      "empirical_discriminators": null,
+      "final_assessment": null
+    },
+    "last_notification": {
+      "key": "formal-integration-v1",
+      "content": "Concurrent economic core, derived-payoff second-generation procedure solution, and scoped competitive continuation; broader integration remains active."
+    },
+    "current_integration": {
+      "latest_synthesis": "papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
+      "status": "The previously runtime-limited concurrent independent-reservation S=10 game is solved under both total-payoff selectors. A factored payoff representation separates first-shift accepted service and actual cost, expected suffix net, and stock-contingent terminal value; it preserves all retained legal actions, not a restriction of the equilibrium search. Both selectors give generated wealth (163.625,163.625), 42 jobs and surplus 84, with bilateral initial successor research and hardware order; each solves 51,349,065 reduced profiles, 13,025 states and 1,634,504 retained-menu unilateral checks. The exclusive independent replay agrees with prior wealth (160,160), 44 jobs and surplus 88. Its full same-cost probability audit has 3,635,268 strict gains, 1,020 strict losses, no ties in 3,636,288 matched comparisons (minimum -0.75). Independent reservation therefore does not eliminate the conditional adverse continuation-value effect; the new witness holds both first-shift quantities at zero and reserves later service separately. All selected cash/resource accounts reconcile. No optimal initial research reversal, general mixed correspondence, binding finance or calibration claim.",
+      "next_action": "Extend the independent-reservation same-cost probability audit to the concurrent selectors and S=8/9 (including exclusive lower-total), using the proved factorization; do not rerun the solved S=10 concurrent comparator merely for its root. Then introduce one separately costed further experiment from eligible evidence actually retained after shift one, with qualification/report authorization, old recipes, physical durations, shared H/C and dated receipts intact. Endogenize actual early collection and binding payer cash, distinguish advance/escrow from an enforceable target-pass bonus, test bridge funding and abstention. Reconcile prior unpublished adjacent-price/research-fee objects if recoverable; certify joint cost/probability regions and changing mixed supports across the enlarged game, including legal menu and selector changes. Preserve directed transfer, common latent reports, rights, endogenous factor prices, realized supplier capacity/queues, finance and entry. Solve repeated/infinite-horizon economy before stability claims. Preserve November 27 recursive-pilot (prepared; actual execution unestablished), November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates in explicit integration; keep separate Codex analytical-paper direction intact.",
+      "edition": "formal-integration-reserve-factor-v1",
+      "summary": "The previously runtime-limited concurrent independent-reservation S=10 game is solved under both total-payoff selectors. A factored payoff representation separates first-shift accepted service and actual cost, expected suffix net, and stock-contingent terminal value; it preserves all retained legal actions, not a restriction of the equilibrium search. Both selectors give generated wealth (163.625,163.625), 42 jobs and surplus 84, with bilateral initial successor research and hardware order; each solves 51,349,065 reduced profiles, 13,025 states and 1,634,504 retained-menu unilateral checks. The exclusive independent replay agrees with prior wealth (160,160), 44 jobs and surplus 88. Its full same-cost probability audit has 3,635,268 strict gains, 1,020 strict losses, no ties in 3,636,288 matched comparisons (minimum -0.75). Independent reservation therefore does not eliminate the conditional adverse continuation-value effect; the new witness holds both first-shift quantities at zero and reserves later service separately. All selected cash/resource accounts reconcile. No optimal initial research reversal, general mixed correspondence, binding finance or calibration claim.",
+      "artifacts": [
+        "papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
+        "papers/integrated_firm/event_reserve_factor.js",
+        "papers/integrated_firm/event_reserve_factor_results.json"
+      ],
+      "probability_calendar_audit": "All eleven outstanding independent-reservation probability audits solve (both selectors, S=8/9/10, exclusive and concurrent; prior exclusive-high S=10 retained). 191,241,264 new matched retained-menu comparisons, 46,680 adverse, no ties. Every regime/selector/calendar has adverse conditional effects; the worst matched effects are -1/2, -1/4, -3/4 ticks at S=8,9,10 respectively. Selected roots remain no/one/both initial development in concurrent S=8/9/10; exclusive never develops. A conditional mechanism has suffix success-minus-failure margin -2 and terminal +1 under each tested selector (different rival inherited masks); for block lengths n,N, increasing qualification probability by 1/4 changes captured continuation value by [N-2(n-1)]/4, versus N/4 holding failure-branch rival quantities fixed. Exact conditional sign boundary N=2(n-1), not a root adoption or full-game equilibrium-region threshold. Qualification creates input savings; the adverse effect is selection-dependent and off path; no reversal of optimal research or empirical calibration.",
+      "artifact": "papers/integrated_firm/EVENT_PROBABILITY_AUDIT.md"
+    },
+    "integration_inputs": {
+      "main": "f5eaf0d549a8682923026358a02d45fe0e5de8f5",
+      "production": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
+      "recursive": "af1cabb95772524db1b34dda3b2667a54c203b43"
     }
   },
-  "source_tasks": {
-    "production": "6afbe6a5ebf88191a11858bf26241c98",
-    "recursive": "Automation_8f6101c0a5088191b61410787e40909b"
-  },
-  "week_task": "Automation_9df88010e6a0819199674ddaf21572ff",
-  "notifications": {
-    "midpoint_delivered": false,
-    "final_delivered": false
-  },
-  "final_outputs": {
-    "synthesis": "README.md",
-    "proof_register": "PROPOSITION_REGISTER.md",
-    "empirical_discriminators": null,
-    "final_assessment": null
-  },
-  "last_notification": {
-    "key": "formal-integration-v1",
-    "content": "Concurrent economic core, derived-payoff second-generation procedure solution, and scoped competitive continuation; broader integration remains active."
-  },
-  "current_integration": {
-    "latest_synthesis": "papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
-    "status": "The previously runtime-limited concurrent independent-reservation S=10 game is solved under both total-payoff selectors. A factored payoff representation separates first-shift accepted service and actual cost, expected suffix net, and stock-contingent terminal value; it preserves all retained legal actions, not a restriction of the equilibrium search. Both selectors give generated wealth (163.625,163.625), 42 jobs and surplus 84, with bilateral initial successor research and hardware order; each solves 51,349,065 reduced profiles, 13,025 states and 1,634,504 retained-menu unilateral checks. The exclusive independent replay agrees with prior wealth (160,160), 44 jobs and surplus 88. Its full same-cost probability audit has 3,635,268 strict gains, 1,020 strict losses, no ties in 3,636,288 matched comparisons (minimum -0.75). Independent reservation therefore does not eliminate the conditional adverse continuation-value effect; the new witness holds both first-shift quantities at zero and reserves later service separately. All selected cash/resource accounts reconcile. No optimal initial research reversal, general mixed correspondence, binding finance or calibration claim.",
-    "next_action": "Extend the independent-reservation same-cost probability audit to the concurrent selectors and S=8/9 (including exclusive lower-total), using the proved factorization; do not rerun the solved S=10 concurrent comparator merely for its root. Then introduce one separately costed further experiment from eligible evidence actually retained after shift one, with qualification/report authorization, old recipes, physical durations, shared H/C and dated receipts intact. Endogenize actual early collection and binding payer cash, distinguish advance/escrow from an enforceable target-pass bonus, test bridge funding and abstention. Reconcile prior unpublished adjacent-price/research-fee objects if recoverable; certify joint cost/probability regions and changing mixed supports across the enlarged game, including legal menu and selector changes. Preserve directed transfer, common latent reports, rights, endogenous factor prices, realized supplier capacity/queues, finance and entry. Solve repeated/infinite-horizon economy before stability claims. Preserve November 27 recursive-pilot (prepared; actual execution unestablished), November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates in explicit integration; keep separate Codex analytical-paper direction intact.",
-    "edition": "formal-integration-reserve-factor-v1",
-    "summary": "The previously runtime-limited concurrent independent-reservation S=10 game is solved under both total-payoff selectors. A factored payoff representation separates first-shift accepted service and actual cost, expected suffix net, and stock-contingent terminal value; it preserves all retained legal actions, not a restriction of the equilibrium search. Both selectors give generated wealth (163.625,163.625), 42 jobs and surplus 84, with bilateral initial successor research and hardware order; each solves 51,349,065 reduced profiles, 13,025 states and 1,634,504 retained-menu unilateral checks. The exclusive independent replay agrees with prior wealth (160,160), 44 jobs and surplus 88. Its full same-cost probability audit has 3,635,268 strict gains, 1,020 strict losses, no ties in 3,636,288 matched comparisons (minimum -0.75). Independent reservation therefore does not eliminate the conditional adverse continuation-value effect; the new witness holds both first-shift quantities at zero and reserves later service separately. All selected cash/resource accounts reconcile. No optimal initial research reversal, general mixed correspondence, binding finance or calibration claim.",
-    "artifacts": [
-      "papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
-      "papers/integrated_firm/event_reserve_factor.js",
-      "papers/integrated_firm/event_reserve_factor_results.json"
-    ],
-    "probability_calendar_audit": "All eleven outstanding independent-reservation probability audits solve (both selectors, S=8/9/10, exclusive and concurrent; prior exclusive-high S=10 retained). 191,241,264 new matched retained-menu comparisons, 46,680 adverse, no ties. Every regime/selector/calendar has adverse conditional effects; the worst matched effects are -1/2, -1/4, -3/4 ticks at S=8,9,10 respectively. Selected roots remain no/one/both initial development in concurrent S=8/9/10; exclusive never develops. A conditional mechanism has suffix success-minus-failure margin -2 and terminal +1 under each tested selector (different rival inherited masks); for block lengths n,N, increasing qualification probability by 1/4 changes captured continuation value by [N-2(n-1)]/4, versus N/4 holding failure-branch rival quantities fixed. Exact conditional sign boundary N=2(n-1), not a root adoption or full-game equilibrium-region threshold. Qualification creates input savings; the adverse effect is selection-dependent and off path; no reversal of optimal research or empirical calibration.",
-    "artifact": "papers/integrated_firm/EVENT_PROBABILITY_AUDIT.md"
-  },
-  "integration_inputs": {
-    "main": "f5eaf0d549a8682923026358a02d45fe0e5de8f5",
-    "production": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
-    "recursive": "af1cabb95772524db1b34dda3b2667a54c203b43"
-  }
+  "historical_checkpoint_is_execution_authority": false
 }

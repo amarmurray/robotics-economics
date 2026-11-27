@@ -1,3 +1,25 @@
+# Epistemic milestone ledger
+
+All research calendar deadlines and edition-count targets are retired under [AGENTS.md](../../AGENTS.md). Source dates remain provenance. This ledger follows the [three-paper canon](../portfolio/CANON.md).
+
+| Paper | Gate A — analytical core and deduplication | Gate B — independent hostile referee | Gate C — operational mapping |
+| --- | --- | --- | --- |
+| P1 | In progress: consolidate proof/notation and source qualifications | Pending A | Pending B; workcell/public-source preparations retained |
+| P2 | In progress: five-result manuscript and full replication coverage reconciliation | Pending A | Pending B; contract/release anchors preparatory |
+| P3 | In progress: four pillars, competent alternatives and claim/proof map | Pending A | Pending B; successor-production estimate remains null |
+
+Pass A only when each proposition's assumptions, proof and boundaries are portable and every overlap has one owner. Pass B only when objections are resolved or claims validly narrowed; a fatal unresolved objection keeps B pending. Pass C only with a concrete case mapped to states and all unidentified parameters explicitly null. Negative results can pass a gate when valid and correctly scoped.
+
+Evidence collection and early criticism are allowed while A remains open. They do not authorize skipping gate order or treating a citation list as empirical identification. No solver lease, elapsed time or additional edition closes a gate.
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Previous milestones — superseded acceptance calendar</summary>
+
 # Theory phase milestone ledger
 
 ## Milestone sequence
@@ -61,3 +83,7 @@ Checkpoint 9 (November 16 UTC): sparse technical/financial evidence slices linke
 Checkpoint 10 (November 16 UTC): responsive-demand RaaS billing diagnostic and five tests complete; pricing and policy-retention counterexamples narrow its claim. This is another small analytical benchmark, not the December main experiment/scope lock or a selected contribution.
 
 Checkpoint 11 (November 16 UTC): additional closest-literature audit, current-version diagnostic reconstruction and conditional financing/selection non-identification example checked. Candidate contribution is under adversarial review, not selected; the broader empirical and release gates remain open.
+
+
+
+</details>

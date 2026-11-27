@@ -1,5 +1,39 @@
 # Robotics Economics
 
+The research portfolio asks which deployments, learning procedures and organizational arrangements remain worthwhile when their physical, informational and financial consequences are included.
+
+## Three canonical papers
+
+| Paper | Central question | Manuscript |
+| --- | --- | --- |
+| 1 — Deploying to Learn, Learning to Deploy | Which first deployment pays when production, learning and financing sit on different balance sheets, or rivals observe qualification? | [Read Paper 1](papers/learning_and_capital/README.md) |
+| 2 — The Autonomous and Full-Stack Firm | How do calendars, deadlines, installed obligations and future hardware vintages govern allocation and design? | [Read Paper 2](papers/autonomous_firm/The_Production_of_Capability.md) |
+| 3 — Recursive Firm Theory | When can current production improve the means of selecting and producing future improvements, and when is that capability dormant? | [Read Paper 3](research/recursive_firm/README.md) |
+
+All three are at Gate A in progress; independent hostile-referee and empirical-mapping gates remain pending. The [canon register](research/portfolio/CANON.md) is the single source map, shared notation table and prior-art positioning matrix. Lane 4 supplies empirical identification and anti-duplication stewardship; it is not a fourth paper.
+
+The two-proposition core formerly presented here is consolidated in Paper 1: where the saving lands, and who sees qualification. Its full proof appendices and the synthetic 12-kit $336 cash comparison remain linked and explicitly scoped. The six autonomous manuscripts are consolidated into one five-result Paper 2. The recursive branch and later analytical syntheses are distilled into four Paper 3 pillars.
+
+## Working rules and evidence
+
+[AGENTS.md](AGENTS.md) · [Theory phase](THEORY_PHASE.md) · [Handoff](HANDOFF.md) · [Current state](research/portfolio/state.json) · [Paper/source index](papers/README.md)
+
+Progress is milestone-driven; all calendar acceptance deadlines are retired. The hourly integrated_firm exhaustive solver is paused. Existing exact results remain a [frozen verification archive](papers/integrated_firm/README.md). A new finite run requires a named analytical proposition and preregistered falsification question under [the oracle register](research/portfolio/ORACLE_REQUESTS.md).
+
+First Lane 4 target: [Symbotic–Walmart acceptance, payment and data permissions](research/portfolio/empirical_target_symbotic.json). Real contract facts, corporate accounting stocks, unidentified project parameters and synthetic model inputs are separate.
+
+The wider physical/digital ecosystem, end-market and A–K empirical agenda remains available through the preserved research charter and historical index below. Source branches and dated PDFs are historical support, not independently evolving monographs.
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Previous root navigation and two-proposition summary</summary>
+
+# Robotics Economics
+
 When a robot completes a job, the customer receives the service, another site may be able to use the lesson, and a third party may have to pay to qualify the next deployment. Which job should a firm take first when those parties differ? A second question arises when rivals can see what the robot has qualified to do. [Production, learning and payment networks](papers/learning_and_capital/README.md)
 
 ## Two propositions for the paper
@@ -31,3 +65,7 @@ The wider program follows hardware and model suppliers, fleet operators and cust
 [Working papers and replication code](papers/README.md) · [Integrated research report](REPORT.md) · [Research design](RESEARCH_PROGRAM_DESIGN.md) · [Reproduction guide](REPRODUCE.md) · [Theory-week proposition register](papers/theory_week_20261125/PROPOSITION_REGISTER.md)
 
 From the repository root, run `python3 scripts/serve.py` to explore the local dashboard at `http://127.0.0.1:8765`.
+
+
+
+</details>

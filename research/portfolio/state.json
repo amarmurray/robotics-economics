@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "program": "three_canonical_papers_and_empirical_stewardship",
+  "authority": "AGENTS.md",
+  "status": "gate_a_consolidation_in_progress",
+  "calendar_acceptance_deadline": null,
+  "edition_count_target": null,
+  "progress_standard": [
+    "analytical_portability",
+    "hostile_referee_survival",
+    "empirical_anchoring"
+  ],
+  "input_commits": {
+    "main": "f3a6d0f8146c773ca7906f395f5eb52ec6fac910",
+    "freeze_coordination": "064455511e8352ce078c110bcd1d0bf40794dc37",
+    "production_branch": "8dba84f45e18fe5896e75cd9a98539e4b87a83fb",
+    "recursive_branch": "af1cabb95772524db1b34dda3b2667a54c203b43",
+    "theory_week_branch": "fa572f946a2e0a0615addba3df0b1cfbcf283f6c"
+  },
+  "lease": {
+    "status": "released",
+    "run_id": "multi-agent-charter-20261127",
+    "acquired_at": "2026-11-27T22:19:04Z",
+    "expires_at": "2026-11-27T23:49:04Z",
+    "scope": "Governance, canonical routing, deadline retirement and source-preserving deduplication; no solver execution.",
+    "released_at": "2026-11-27T22:44:55Z",
+    "release_effective": "publication_of_this_state_on_main",
+    "release_reason": "Charter consolidation prepared; no solver writer lease or permission survives."
+  },
+  "coordination": {
+    "publisher": "coordinator",
+    "one_writer_per_file": true,
+    "parallel_scoped_research": true,
+    "independent_referee_required": true,
+    "new_standalone_duplicate_monographs_allowed": false
+  },
+  "papers": {
+    "P1": {
+      "title": "Deploying to Learn, Learning to Deploy",
+      "canonical_manuscript": "papers/learning_and_capital/README.md",
+      "owner_role": "lane1_paper_lead",
+      "gates": {
+        "A": "in_progress",
+        "B": "pending_A",
+        "C": "pending_B"
+      },
+      "gate_A_remaining": [
+        "proof_and_notation_reconciliation",
+        "complete_source_qualification_disposition",
+        "claim_to_reproduction_coverage"
+      ],
+      "claim_register": "research/portfolio/CLAIMS.json",
+      "empirical_parameter_estimates": null
+    },
+    "P2": {
+      "title": "The Autonomous and Full-Stack Firm",
+      "canonical_manuscript": "papers/autonomous_firm/The_Production_of_Capability.md",
+      "owner_role": "lane2_paper_lead",
+      "gates": {
+        "A": "in_progress",
+        "B": "pending_A",
+        "C": "pending_B"
+      },
+      "gate_A_remaining": [
+        "proof_and_notation_reconciliation",
+        "complete_source_qualification_disposition",
+        "claim_to_reproduction_coverage"
+      ],
+      "claim_register": "research/portfolio/CLAIMS.json",
+      "empirical_parameter_estimates": null
+    },
+    "P3": {
+      "title": "Recursive Firm Theory",
+      "canonical_manuscript": "research/recursive_firm/README.md",
+      "owner_role": "lane3_paper_lead",
+      "gates": {
+        "A": "in_progress",
+        "B": "pending_A",
+        "C": "pending_B"
+      },
+      "gate_A_remaining": [
+        "proof_and_notation_reconciliation",
+        "complete_source_qualification_disposition",
+        "claim_to_reproduction_coverage"
+      ],
+      "claim_register": "research/portfolio/CLAIMS.json",
+      "empirical_parameter_estimates": null
+    }
+  },
+  "lane4": {
+    "owner": "empirical_and_canon_steward",
+    "first_target": "research/portfolio/empirical_target_symbotic.json",
+    "shared_notation_and_positioning": "research/portfolio/CANON.md",
+    "status": "preparatory_empirical_mapping",
+    "new_schedule_created": false
+  },
+  "solver": {
+    "status": "frozen_oracle_only",
+    "state": "papers/integrated_firm/state.json",
+    "preregistration": "research/portfolio/ORACLE_REQUESTS.md",
+    "invoked_this_turn": false
+  },
+  "paused_tasks": [
+    {
+      "id": "6afbe6a5ebf88191a11858bf26241c98",
+      "is_enabled": false,
+      "role": "former_hourly_integrated_firm_solver"
+    },
+    {
+      "id": "Automation_9df88010e6a0819199674ddaf21572ff",
+      "is_enabled": false,
+      "role": "retired_theory_week"
+    },
+    {
+      "id": "Automation_8f6101c0a5088191b61410787e40909b",
+      "is_enabled": false,
+      "role": "retired_recursive_research"
+    },
+    {
+      "id": "6ade2f1294388191808ce849901a29a4",
+      "is_enabled": false,
+      "role": "retired_dated_contribution_reminder"
+    }
+  ],
+  "analytical_next_step": {
+    "claim": "P3.A.COST",
+    "destination": "research/recursive_firm/README.md#appendix-acost--a-common-research-cost-across-all-dates",
+    "status": "derived_conditionally_no_solver",
+    "relevant_intermediate_subgame_count_differences": null,
+    "fixed_mix_equilibrium_intervals": null,
+    "globally_reoptimized_equilibrium_correspondence": null,
+    "null_reason": "Not computed; common-feasibility fixed-rival/probability derivations do not supply the responding dynamic-economy coefficients."
+  },
+  "verification": {
+    "guardrail_review": "read_only_independent_editorial_audit",
+    "gate_b_passed_by_editorial_audit": false,
+    "replication_scripts_modified": false,
+    "existing_solver_results_recomputed": false,
+    "pdf_equivalence_claimed": false,
+    "source_and_link_checks": "passed_local_relative_targets_and_exact_historical_preservation",
+    "publication_readback": "record_in_local_sync_receipt",
+    "editorial_audits": {
+      "paper1": "concrete corrections resolved; not Gate B",
+      "paper2": "outside option, accounting, references and source preservation corrected; not Gate B",
+      "paper3": "common-cost assumptions, profile definitions and boundary scopes corrected; not Gate B"
+    },
+    "automation_pause_rechecked_at": "2026-11-27T22:42:00Z",
+    "automation_pause_rechecked_date": "2026-11-27"
+  },
+  "next_action": "Complete each owning manuscript's Gate A proof/notation and source disposition work. Prepare Lane 4 discriminating public observations. Do not bypass gates or expand the solver."
+}

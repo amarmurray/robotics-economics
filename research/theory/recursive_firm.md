@@ -1,3 +1,5 @@
+> **Scoped Paper 3 appendix, not a parallel manuscript.** Preserve the common-versus-contrast filtering and paid-report/calibrated-authority derivations below. [Recursive Firm Theory](../recursive_firm/README.md) owns the central argument; [CANON](../portfolio/CANON.md) governs claim routing. Historical schedules and synthetic witnesses are not current acceptance gates.
+
 # Recursive Firm Theory
 
 ## Who sets the objective, and how fast should it change?

@@ -1,3 +1,47 @@
+# Milestone-driven Robotics Economics research portfolio
+
+[AGENTS.md](AGENTS.md) is the governing charter. [Canon and merge map](research/portfolio/CANON.md) · [Current state](research/portfolio/state.json) · [Scoped claim register](research/portfolio/CLAIMS.json).
+
+## Progress has epistemic gates, not calendar targets
+
+The December 25 / Christmas-edition deadline, dated theory-week packaging, November 27/29 checkpoints, December 6 contribution gate and all other calendar acceptance deadlines are permanently retired. Historical dates identify source versions and past actions. Lease expirations coordinate writers; they never close a scientific milestone. Do not reactivate an old task from the archive below.
+
+| Paper | Canonical manuscript | Current milestone |
+| --- | --- | --- |
+| 1 — Deploying to Learn, Learning to Deploy | [Paper 1](papers/learning_and_capital/README.md) | Gate A in progress; B and C pending |
+| 2 — The Autonomous and Full-Stack Firm | [Paper 2](papers/autonomous_firm/The_Production_of_Capability.md) | Gate A in progress; B and C pending |
+| 3 — Recursive Firm Theory | [Paper 3](research/recursive_firm/README.md) | Gate A in progress; B and C pending |
+
+Gate A requires portable propositions, explicit assumptions and boundaries, complete ownership/deduplication and proof/notation reconciliation. Gate B then requires an independent hostile micro-theory/econometrics referee; any objection defeating a retained claim keeps the gate open. Gate C then requires at least one concrete case mapped to formal states with unidentified parameters explicitly null. Preparatory evidence and criticism may proceed now, without skipping gates.
+
+## Solver freeze and capacity reallocation
+
+The hourly integrated_firm automation is paused. Its last recorded run completed before the pause; no new solver run was initiated for this charter. Freeze suffix/reservation games, further within-block learning/collection, B=16-and-beyond binding-cash searches, joint price/mixed-support sweeps and market-closure combinatorics. The exact solver is only a bounded oracle for a named Paper 1–3 proposition with a falsification question registered in [ORACLE_REQUESTS](research/portfolio/ORACLE_REQUESTS.md) before execution. The old roadmap, model lease and archive confer no exception.
+
+EVENT_RESERVE_FACTOR's 51,349,065 reduced profiles per concurrent selector preserved root wealth and research; its adverse witness was conditional, off path and abstention dominated. Preserve this scoped negative evidence. More exhaustive enumeration is no longer the primary discovery engine.
+
+Reassign capacity to analytical portability and Lane 4: public commissioning/acceptance/contract observables, explicit identification bounds, the shared notation table and prior-art matrix. The first packet is [Symbotic–Walmart acceptance, payment and data permissions](research/portfolio/empirical_target_symbotic.json). Its corporate balances predate the new agreement and are not project cash. The workcell's $336 difference remains synthetic.
+
+## Parallel work, one canon
+
+The older one-agent rule is superseded by the user-authorized multi-agent portfolio. Assign one lead per paper, one writer per file and one coordinating publisher. Agents can read, derive and review in parallel within named scopes. A referee is distinct from the claim's author. Shared-file mutations and publication are coordinated. No new duplicate monograph, independent schedule or broadened access authority is implied.
+
+The complete source-to-section disposition is in CANON.md. Existing scripts, saved results, nulls and counterexamples remain traceable at immutable input commits. Dated PDFs and the five superseded Paper 2 drafts are historical editions. Branch sources are imported by named result, never bulk-merged to erase provenance.
+
+## Immediate analytical continuation
+
+Paper 3 Appendix A.COST derives common-cost sensitivity across all future research dates, complete-policy best-response regions, fixed-mixing restrictions and all-history fixed-profile equilibrium certificates under a common feasible finite tree. It explicitly separates those restrictions from responding rivals, changing cash feasibility and mixed-support branches. The relevant intermediate-subgame coefficients remain null; no global equilibrium interval is asserted.
+
+The next milestone is completing each paper's Gate A proof/notation/source reconciliation. Only then does its independent Gate B pass begin. Preserve the wider A–K evidence agenda and all research authority exclusions in AGENTS.md.
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Previous theory phase and preserved research scope</summary>
+
 # Theory-led Robotics Economics research program
 
 Amar's strategic redirect retires the December 25 deadline and the intermediate edition calendar in the November 15 brief. Research advances on the strength of derivations, counterexamples and evidence. The earlier brief and campaign records retain their historical scope.
@@ -99,3 +143,7 @@ Checkpoint 9: [public RaaS assignment-finance contrast](research/theory/raas_ass
 Checkpoint 10: [hourly-receipts and demand model](research/theory/raas_receipts.md) supplies a conditional financing interval and competent pricing/retention counterexamples. Five exact scoped tests pass. The unrestricted adverse-learning claim fails; actual contract restrictions remain unidentified and novelty unselected.
 
 Checkpoint 11: two closer investment sources audited with version discipline, including Frankel et al.’s December 2024 revision. Financing-induced observational equivalence is the next candidate to challenge, not a selected novel contribution. Four new exact tests pass; the observed-policy distinction requires liquidity or future-learning evidence.
+
+
+
+</details>

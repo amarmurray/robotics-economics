@@ -1,3 +1,21 @@
+# Paper 2 — The Autonomous and Full-Stack Firm
+
+The sole active manuscript is [The_Production_of_Capability.md](The_Production_of_Capability.md), retaining its existing path with the new canonical title. It unifies timing covariance/hourly RaaS, deadline learning peaks, legacy release hold-up, three hardware vintages and complementary diagnostic portfolios with manufacturing scale.
+
+The_Autonomous_Firm.md, Choosing_the_First_Deployment.md, When_Faster_Learning_Pays.md, FULL_STACK_FIRM.md and DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md are historical source editions. Their bodies, links, scripts and saved outputs are retained; new derivations go into the canonical manuscript or a named scoped appendix. The original contents of the canonical path are preserved at [input main](https://github.com/amarmurray/robotics-economics/blob/f3a6d0f8146c773ca7906f395f5eb52ec6fac910/papers/autonomous_firm/The_Production_of_Capability.md).
+
+[Full merge and route-out map](../../research/portfolio/CANON.md#paper-2-one-manuscript-five-results). Paper 1 owns general financing and qualification disclosure. Paper 3 owns allocator recursion, deployment-time scaling and dynamic firm boundaries. Dated PDFs remain historical editions; no new PDF equivalence is claimed.
+
+Gate A is in progress; B and C are pending. Replication coverage must be reconciled claim by claim: replication/run.py omits capability scripts. No script was rerun for this consolidation.
+
+
+## Archived source — no execution authority
+
+The following input at f3a6d0f8146c773ca7906f395f5eb52ec6fac910 is preserved for provenance. Its dates, old task queues, one-agent restriction and solver instructions are retired wherever they conflict with AGENTS.md. It is not an active deadline, schedule, lease or standalone-paper assignment.
+
+<details>
+<summary>Historical autonomous-firm paper/PDF index</summary>
+
 # Autonomous Firm Theory
 
 How should a firm allocate a teleoperator hour, a robot, or a compute slot when delivering work today changes what its fleet can learn tomorrow?
@@ -45,3 +63,7 @@ The first paper’s six model checks can also run with the Python standard libra
 [When Capabilities Become Production](https://github.com/amarmurray/robotics-economics/blob/research/assistant-led-expansion-20261117/research/theory_integration_2026_11_17/data_value/WHEN_CAPABILITIES_COMPACT_DRAFT.md) develops the production and qualification argument. [Recursive Firm Theory](https://github.com/amarmurray/robotics-economics/blob/research/recursive-firm-theory/research/recursive_firm/README.md) develops the organization and learning experiments. The links follow the respective working branches. [Dated PDF editions](../README.md) provide a fixed reading copy.
 
 [Original typesetting sources and PDF rebuild instructions](replication/Typesetting_sources.zip)
+
+
+
+</details>
