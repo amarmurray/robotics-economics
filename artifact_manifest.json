@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "theory-milestone-redirect-v1",
+  "snapshot_id": "qualification-observability-checks-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "theory-milestone-redirect-v1",
-      "sha256": "7fcf22a31342ba6164c758e3789ed2bdebab80e9e17d4f453b3d943f7cea017d"
+      "version": "qualification-observability-checks-v1",
+      "sha256": "482833acc30ca8b364716254e73b075f73550c3ae40c96f5dd82302c7786f2ee"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,8 +117,8 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "theory-milestone-redirect-v1",
-      "sha256": "68dae10430b0d692331e08de2b8902cbb6da200707cab573d44465c285657ef6"
+      "version": "qualification-observability-checks-v1",
+      "sha256": "70adb938ea652b4b5927adea7a256ec18c62658f32bbc051f1f282421a4491cd"
     },
     {
       "repository_path": "REPORT.md",
@@ -2168,8 +2168,8 @@
       "repository_path": "reviews/integrated_firm_referee.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/integrated_firm_referee.md",
       "name": "integrated_firm_referee.md",
-      "sha256": "23c257f381639a54b193dde4915c506fceb2f347c6f54d2055e49bab3b6c253b",
-      "version": "theory-milestone-redirect-v1"
+      "sha256": "ebe41aa1bcc9902e63f9792515b3bc05706298f5acf15323482c1e6474fe18e0",
+      "version": "qualification-observability-checks-v1"
     },
     {
       "repository_path": "reviews/laredo_procurement_review.md",
@@ -3008,8 +3008,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "d530802beb2a4a4d650587a8a7cd1145ce98099303900623ac47e83b5016fde8",
-      "version": "theory-milestone-redirect-v1"
+      "sha256": "bff6c217e59e5359a15692298d71dfb48faf9ab540866d039fca17cdc8077951",
+      "version": "qualification-observability-checks-v1"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3043,8 +3043,8 @@
       "repository_path": "research/theory/milestones.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/milestones.md",
       "name": "milestones.md",
-      "sha256": "07e45233193247e57cfb7f2b9afcf4d51c30da1d397b259cc9c84301ae465402",
-      "version": "theory-milestone-redirect-v1"
+      "sha256": "722e320f0e79a6a0eb88d118be5ed129fe518db0ecefd60072166d3dbfe7abb7",
+      "version": "qualification-observability-checks-v1"
     },
     {
       "repository_path": "research/theory/organizing_intelligence.md",
@@ -3194,11 +3194,25 @@
       "sha256": "6faf38e3e120f50a0d58fcbc46d8605d5db8bef22c0736b191b2ac6441dc61fd"
     },
     {
+      "repository_path": "research/theory/qualification_observability.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/qualification_observability.md",
+      "name": "qualification_observability.md",
+      "version": "qualification-observability-checks-v1",
+      "sha256": "2606b39c141140fc045e23689cbcb546d8dad2968359f250fe99514e664d6cc7"
+    },
+    {
       "repository_path": "scripts/check_qualification_evidence.py",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/check_qualification_evidence.py",
       "name": "check_qualification_evidence.py",
       "version": "theory-christmas-checkpoint-4",
       "sha256": "0459579eb7acc1ad8e8b3ef22232e278ea063d28ce91fd1dc0c245a0f4e405a8"
+    },
+    {
+      "repository_path": "scripts/check_qualification_quantities.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/scripts/check_qualification_quantities.js",
+      "name": "check_qualification_quantities.js",
+      "version": "qualification-observability-checks-v1",
+      "sha256": "8aa79a407f28dba32081fe8339b81287e1f50b2537de3ed7e4764f15aa5e79ce"
     },
     {
       "repository_path": "reviews/theory_checkpoint_04.md",
@@ -3890,8 +3904,8 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-event-clock-v1",
-      "sha256": "18c5aa32e4c106d4615ae47d89838597271f3d3327059193bc7e19cd2a96b077"
+      "version": "qualification-observability-checks-v1",
+      "sha256": "5da7cd6aee6b11100b07fc0cae385c51b88cd85a6ca83b3527086ce373d0c752"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
@@ -4716,7 +4730,8 @@
       "charter": "THEORY_PHASE.md",
       "canonical_synthesis": "README.md",
       "milestones": "research/theory/milestones.md",
-      "referee_report": "reviews/integrated_firm_referee.md"
+      "referee_report": "reviews/integrated_firm_referee.md",
+      "qualification_comparisons": "research/theory/qualification_observability.md"
     }
   }
 }

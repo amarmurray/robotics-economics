@@ -2,6 +2,12 @@
 
 ## Current direction
 
+The strict adverse effect of better qualification is a bidding result. Under each published selector, the funded quantity game gives 413,584 strict gains, 239,456 ties and zero losses across matched increases in qualification probability. The two-price example also distinguishes private success from an announced procedure. In the funding example, a target operator can use human fallback to fill the same order. A prepayment can fund its validation team without inducing it to validate. A bonus on a verifiable target test repairs the example. These are conditional results. The workcell identifies neither institution. [Referee checks](research/theory/qualification_observability.md) · [Claim ledger](papers/integrated_firm/CLAIM_LEDGER.md)
+
+Input main `7f96d7709ce4ead273e55b7a70c52f2dbf7eef9e`. The only solver exception was the matched quantity comparison. It is complete. **Next question.** Which record would let the payer enforce a target-specific validation payment, and which capacity information would a competing bidder see before it priced the service? [Milestones](research/theory/milestones.md)
+
+## Previous milestone redirect
+
 The edition deadline and calendar gates are retired. The proposed paper turns on the destination of validated savings across payers and the effect of public qualification on a rival facing the same service obligation. The finite-game queue below records earlier priorities. The recommended pause covers post-release dispatch, binding-cash expansion and parameter sweeps until a particular computation can test a proposition. [Governing phase](THEORY_PHASE.md) · [Revised sequence](research/theory/milestones.md)
 
 Input main `205ed54ff63dc9362a7c15e05d0f06bf829a5ea5`. The root synthesis maps the prepared-input fixture to accepted output, upstream and station constraints, and customer cash. Field transfer and payer margins remain open. The self-review challenges generalization beyond the tested calendars, funding and payoff assumptions. The two-price illustration in the proposal has its own service and pricing assumptions. Both unique continuations were checked directly. The workcell export reproduced and 50 scoped finance, deployment and workcell tests passed. [Canonical synthesis](README.md) · [Referee report](reviews/integrated_firm_referee.md)

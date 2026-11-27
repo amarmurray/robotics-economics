@@ -4,7 +4,7 @@ Amar's strategic redirect retires the December 25 deadline and the intermediate 
 
 ## Objective and authority
 
-Develop a working paper around two questions. When does learning from an accepted service relieve the qualification bill of the payer who can fund the next site? When can a publicly qualified recipe change a competitor's offer enough to reverse the private ranking of two research procedures? Use the automotive prepared-input fixture as the first bounded model comparison. The exhaustive game supplies checks of edge cases and counterexamples to specific analytical claims. [Canonical synthesis](README.md) · [Proposed milestones and acceptance conditions](research/theory/milestones.md)
+Develop a working paper around two questions. When does learning reduce the target operator’s validation bill in a way an enforceable contract cannot reproduce? Under what bidding and disclosure rules can a rival’s response to certified capacity reverse the private ranking of two research procedures? The automotive prepared-input fixture bounds the customer cash comparison. The single funded quantity check is complete. The solver freeze applies while the two analytical propositions are developed. [Canonical synthesis](README.md) · [Referee checks](research/theory/qualification_observability.md) · [Milestones and acceptance conditions](research/theory/milestones.md)
 
 The November 15 brief was activated in its original thread. Its recorded activation and Eastern calendar are historical.
 
@@ -78,7 +78,7 @@ The first atlas extraction should keep node/relation/direction, configuration, g
 
 ## Milestones and acceptance
 
-The milestone ledger gives each proposed claim a proof target and a comparison that could overturn it. Carry failed comparisons, matched nulls and unidentified inputs into the paper. Revisit the case or use an existing solver when it can distinguish competing predictions. A narrower or negative result closes a question when its assumptions and counterexample are explicit. [Milestone ledger](research/theory/milestones.md) · [Referee report](reviews/integrated_firm_referee.md)
+The milestone ledger gives each proposed claim a proof target and a comparison that could overturn it. Carry failed comparisons, matched nulls and unidentified inputs into the paper. Use the completed quantity check as the computational boundary for this phase. Revisit the workcell when new evidence could distinguish the contracting or disclosure rules. A narrower or negative result closes a question when its assumptions and counterexample are explicit. [Milestone ledger](research/theory/milestones.md) · [Referee report](reviews/integrated_firm_referee.md)
 
 ## Historical checkpoints
 
