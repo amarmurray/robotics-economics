@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-independent-reservations-v1",
+  "snapshot_id": "formal-integration-reserve-factor-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "a02ca03670b8560f5fb522eb95c8ced15878bf6cf03412eb54d06861bf9dc71e"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "79379a40fad2fb769374fc33f29d3ceadd7e5de312241cd20ef0be1a5a4ace91"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3806,15 +3806,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "aed3b12fa6f166c0d5981c63313096a4f4187c3b0933400f922529ff111259c6"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "013db01a6767049fb94721e54ace8e8b21e00e3997bab530fe5ae7ddfb4659dc"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "41ff98323626c6131f8e11cd6697b53e62fa3178d2b83ebaae530d1e48136090"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "13b2c351db11e5116233e32e0ef7a7bcb46b7858e44cb930bb8c761603cbf746"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3869,15 +3869,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "7fa885e5effbb43031af5c7bd9edf4bbbae56a3176e45b9d6687a10887530478"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "8ff47402984ea42bf2e1d0e5b0a57ae79ce40c9ece02314537dccbdf60ec9715"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "9b38294055883b57b39b0e6b3e5c7ae2d888ea982a1f29cc8b9e854c2c1ae325"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "27d28f6db3b71024b675dc71cabf8a6a84afa47dd0525543f4448d75ac7bdb4f"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3904,15 +3904,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "1434198d3e8a73a3564bcc1225dfcc62513509355fc77f5b5a7721f1d1f0b18e"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "ce6f2f2c541e797804e8994bd088b82826090849b4a7d57d8f2375bf8f5f2122"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "2cd52ed95d7514d727fac9e28cbbe3043d7c614d44f0a4403d46861f28a4d725"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "f6d81a9b9e2969a75e17e23832e4166c97bd19e6b5a4c14b5c8550fd44c52a95"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -4016,8 +4016,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-independent-reservations-v1",
-      "sha256": "6fb77d091661efb862e6f4ceab8810a39f6fb0da27ef3e8c410476d6db7fa560"
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "4cba5717ccac6afdd1ac2785bba5a79ee9399f4c9ce76a58944738365cfcf365"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4480,6 +4480,27 @@
       "name": "event_reservations_results.json",
       "version": "formal-integration-independent-reservations-v1",
       "sha256": "3bcb7480a2fc1af4b06d08c7e80d3d37bd551cbd22a5f5e4375f56c79754f323"
+    },
+    {
+      "repository_path": "papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/EVENT_RESERVE_FACTOR.md",
+      "name": "EVENT_RESERVE_FACTOR.md",
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "243ed7c52b6041def658eae5cc69a882470a84dd2d574a2eb3f32d82b3df99c0"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_reserve_factor.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_reserve_factor.js",
+      "name": "event_reserve_factor.js",
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "ed9ccb1184868a8d17d22570e4479b5fdae4c908447e0e51ff55811c77afed29"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_reserve_factor_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_reserve_factor_results.json",
+      "name": "event_reserve_factor_results.json",
+      "version": "formal-integration-reserve-factor-v1",
+      "sha256": "d1190b15d7314fe11a8f325613c5fa4b317975c5d8d6ebba62b46e2e88618475"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
