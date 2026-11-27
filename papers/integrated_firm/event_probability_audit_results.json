@@ -1,0 +1,5797 @@
+{
+  "input_main": "f73050112bc49c3d26f24daa0bca913960bacdbb",
+  "lease_commit": "134d2ceaf759e80c0fbdb9eacc36970c0b406d8a",
+  "source_blobs": {
+    "service_window.js": "004bb37abae4176ab49a144b40c82d95fa7a11d6",
+    "staggered_window.js": "dc0243b11599ef87e584824eebf7a66a91394007",
+    "concurrent_window.js": "8d7d8090bf90f160835b72793e108f5c1fad9216",
+    "mixed_continuation.js": "4c27fbb1b0a4b59a3fd6de51feaf0ff019df1b06",
+    "event_suffix.js": "80f6d3f4f5987d1cc2a8e138d447a92203094a7e",
+    "event_reservations.js": "f7080853c2e697d6e23b6802ff10051190f18547",
+    "event_reserve_factor.js": "e76f2da938bc48cd52e6bdb615cf9b122dfe811c"
+  },
+  "runs": [
+    {
+      "spec": {
+        "S": 8,
+        "concurrent": false,
+        "cap": 2,
+        "rule": 1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10130,
+        10130
+      ],
+      "wealth_numerator": [
+        663879680,
+        663879680
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 8682797,
+      "states": 3898,
+      "deviations": 364718,
+      "fullDev": 365602,
+      "kernelPairs": 267769,
+      "checks": {
+        "comparisons": 3636288,
+        "gain": 3635268,
+        "tie": 0,
+        "loss": 1020,
+        "min": -0.5,
+        "max": 17.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            704,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            704,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 6,
+          "highValue": 5.5
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 8,
+        "concurrent": false,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10130,
+        10130
+      ],
+      "wealth_numerator": [
+        663879680,
+        663879680
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 8682797,
+      "states": 3898,
+      "deviations": 364718,
+      "fullDev": 365602,
+      "kernelPairs": 267769,
+      "checks": {
+        "comparisons": 3636288,
+        "gain": 3634848,
+        "tie": 0,
+        "loss": 1440,
+        "min": -0.5,
+        "max": 17.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            704,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            704,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": -2,
+          "highValue": -2.5
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 9,
+        "concurrent": false,
+        "cap": 2,
+        "rule": 1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10145,
+        10145
+      ],
+      "wealth_numerator": [
+        664862720,
+        664862720
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 8682797,
+      "states": 3898,
+      "deviations": 364718,
+      "fullDev": 365602,
+      "kernelPairs": 267769,
+      "checks": {
+        "comparisons": 3636288,
+        "gain": 3635448,
+        "tie": 0,
+        "loss": 840,
+        "min": -0.25,
+        "max": 20,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            716,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            716,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 24.5,
+          "highValue": 24.25
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 9,
+        "concurrent": false,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10145,
+        10145
+      ],
+      "wealth_numerator": [
+        664862720,
+        664862720
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 8682797,
+      "states": 3898,
+      "deviations": 364718,
+      "fullDev": 365602,
+      "kernelPairs": 267769,
+      "checks": {
+        "comparisons": 3636288,
+        "gain": 3635424,
+        "tie": 0,
+        "loss": 864,
+        "min": -0.25,
+        "max": 20,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            716,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            716,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 14.5,
+          "highValue": 14.25
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 10,
+        "concurrent": false,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10160,
+        10160
+      ],
+      "wealth_numerator": [
+        665845760,
+        665845760
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 75,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 8682797,
+      "states": 3898,
+      "deviations": 364718,
+      "fullDev": 365602,
+      "kernelPairs": 267769,
+      "checks": {
+        "comparisons": 3636288,
+        "gain": 3634848,
+        "tie": 0,
+        "loss": 1440,
+        "min": -0.75,
+        "max": 22.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            728,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            728,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 24,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 24,
+            "independent": true
+          },
+          "lowValue": 25.5,
+          "highValue": 24.75
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 8,
+        "concurrent": true,
+        "cap": 2,
+        "rule": 1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10130,
+        10130
+      ],
+      "wealth_numerator": [
+        663879680,
+        663879680
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28838192,
+        "tie": 0,
+        "loss": 5112,
+        "min": -0.5,
+        "max": 17.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            704,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            704,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 6,
+          "highValue": 5.5
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 8,
+        "concurrent": true,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10130,
+        10130
+      ],
+      "wealth_numerator": [
+        663879680,
+        663879680
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": 3,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 4,
+          "net1": 4,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 60,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28832648,
+        "tie": 0,
+        "loss": 10656,
+        "min": -0.5,
+        "max": 17.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            704,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            704,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": -2,
+          "highValue": -2.5
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 9,
+        "concurrent": true,
+        "cap": 2,
+        "rule": 1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10147,
+        10146.5625
+      ],
+      "wealth_numerator": [
+        664993792,
+        664965120
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 1,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 1,
+          "lab": 2,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": -2,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 1,
+          "customer_surplus": 1,
+          "physical": 1,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 6,
+          "net1": -8,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0.6875,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 68.25,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0.6875,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 85.3125,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28839668,
+        "tie": 0,
+        "loss": 3636,
+        "min": -0.25,
+        "max": 20,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            716,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            716,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 24.5,
+          "highValue": 24.25
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 9,
+        "concurrent": true,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10147,
+        10146.5625
+      ],
+      "wealth_numerator": [
+        664993792,
+        664965120
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            1,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 0,
+          "hh": 3,
+          "cc": 0,
+          "cost": 11,
+          "r": [
+            "none",
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 0,
+          "ng": 0,
+          "reopen": false,
+          "reservation": 7,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 1,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 1,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 1,
+          "lab": 2,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 0,
+          "orders": 2,
+          "net0": 3,
+          "net1": -2,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 1,
+          "customer_surplus": 1,
+          "physical": 1,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 1,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 1,
+          "entry": 0,
+          "exit": 1,
+          "assembly": 2,
+          "orders": 0,
+          "net0": 6,
+          "net1": -8,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 16,
+          "customer_surplus": 32,
+          "physical": 8,
+          "digital": 8,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0.6875,
+          "contested_market_shifts": 8,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 60,
+          "net1": 68.25,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0.6875,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 75,
+          "net1": 85.3125,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28837400,
+        "tie": 0,
+        "loss": 5904,
+        "min": -0.25,
+        "max": 20,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            716,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            716,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 114,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 12,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 4,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 18,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 18,
+            "independent": true
+          },
+          "lowValue": 14.5,
+          "highValue": 14.25
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 10,
+        "concurrent": true,
+        "cap": 2,
+        "rule": 1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10163.625,
+        10163.625
+      ],
+      "wealth_numerator": [
+        666083328,
+        666083328
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 2,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 2,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 2,
+          "net0": -2,
+          "net1": -2,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 0,
+          "customer_surplus": 0,
+          "physical": 0,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 2,
+          "orders": 0,
+          "net0": -8,
+          "net1": -8,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28838192,
+        "tie": 0,
+        "loss": 5112,
+        "min": -0.75,
+        "max": 22.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            728,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            728,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 24,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 24,
+            "independent": true
+          },
+          "lowValue": 35.5,
+          "highValue": 34.75
+        }
+      },
+      "mixed_subgames": []
+    },
+    {
+      "spec": {
+        "S": 10,
+        "concurrent": true,
+        "cap": 2,
+        "rule": -1,
+        "enabled": true,
+        "mixed": false,
+        "scaleFactor": 125,
+        "alwaysOpen": true,
+        "independent": true,
+        "audit": true
+      },
+      "status": "solved",
+      "wealth": [
+        10163.625,
+        10163.625
+      ],
+      "wealth_numerator": [
+        666083328,
+        666083328
+      ],
+      "wealth_denominator": 65536,
+      "root": [
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        },
+        {
+          "q": 1,
+          "shifts": 1,
+          "modes": [
+            2,
+            0,
+            0
+          ],
+          "use": 0,
+          "copies": 1,
+          "hh": 3,
+          "cc": 5,
+          "cost": 16,
+          "r": [
+            "develop",
+            1,
+            1,
+            0,
+            3,
+            3
+          ],
+          "b": [
+            "order",
+            0,
+            0,
+            4,
+            1,
+            0
+          ],
+          "keep": 1,
+          "ng": 1,
+          "reopen": false,
+          "reservation": 8,
+          "reserveExtra": 0
+        }
+      ],
+      "dated": [
+        {
+          "date": 1,
+          "jobs": 2,
+          "customer_surplus": 4,
+          "physical": 2,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 2,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 1,
+          "retain": 2,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 2,
+          "lab": 2,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 2,
+          "net0": -2,
+          "net1": -2,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 2,
+          "jobs": 0,
+          "customer_surplus": 0,
+          "physical": 0,
+          "digital": 0,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 0,
+          "contested_market_shifts": 0,
+          "retain": 0,
+          "internal": 2,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 2,
+          "entry": 0,
+          "exit": 2,
+          "assembly": 2,
+          "orders": 0,
+          "net0": -8,
+          "net1": -8,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 3,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125,
+          "suffix_gate": 1,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        },
+        {
+          "date": 4,
+          "jobs": 20,
+          "customer_surplus": 40,
+          "physical": 10,
+          "digital": 10,
+          "licenses": 0,
+          "develop": 0,
+          "contract_develop": 0,
+          "qualified_physical": 1.375,
+          "contested_market_shifts": 10,
+          "retain": 0,
+          "internal": 0,
+          "contract": 0,
+          "buy": 0,
+          "successor": 0,
+          "lab": 0,
+          "entry": 0,
+          "exit": 0,
+          "assembly": 0,
+          "orders": 0,
+          "net0": 85.3125,
+          "net1": 85.3125,
+          "suffix_gate": 0,
+          "suffix_refunds": 0,
+          "suffix_revenue_change": 0
+        }
+      ],
+      "profiles": 51349065,
+      "states": 13025,
+      "deviations": 1631040,
+      "fullDev": 1634504,
+      "kernelPairs": 1768420,
+      "checks": {
+        "comparisons": 28843304,
+        "gain": 28832648,
+        "tie": 0,
+        "loss": 10656,
+        "min": -0.75,
+        "max": 22.5,
+        "witness": {
+          "firm": 1,
+          "s": [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            728,
+            0,
+            0
+          ],
+          "z": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            728,
+            0,
+            0
+          ],
+          "low": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              2,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "high": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 1,
+            "cc": 0,
+            "cost": 118,
+            "r": [
+              "contract",
+              1,
+              0,
+              100,
+              3,
+              1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 4,
+            "reserveExtra": 16,
+            "independent": true
+          },
+          "rival": {
+            "q": 0,
+            "shifts": 5,
+            "modes": [
+              0,
+              0,
+              0
+            ],
+            "use": 0,
+            "copies": 0,
+            "hh": 0,
+            "cc": 0,
+            "cost": 24,
+            "r": [
+              "none",
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "b": [
+              "none",
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "keep": 0,
+            "ng": 0,
+            "reopen": true,
+            "reservation": 6,
+            "reserveExtra": 24,
+            "independent": true
+          },
+          "lowValue": 25.5,
+          "highValue": 24.75
+        }
+      },
+      "mixed_subgames": []
+    }
+  ],
+  "witnesses": [
+    {
+      "rule": 1,
+      "s": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        728,
+        0,
+        0
+      ],
+      "z": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        728,
+        0,
+        0
+      ],
+      "suffix": [
+        {
+          "a": {
+            "q": 2,
+            "pr": 0,
+            "d": 1,
+            "use": 0,
+            "h": 2,
+            "c": 0,
+            "cost": 4
+          },
+          "b": {
+            "q": 1,
+            "pr": 2,
+            "d": 0,
+            "use": 1,
+            "h": 1,
+            "c": 2,
+            "cost": 4
+          },
+          "v": [
+            8,
+            12
+          ],
+          "equilibria": 2,
+          "full": [
+            4,
+            3
+          ]
+        },
+        {
+          "a": {
+            "q": 1,
+            "pr": 1,
+            "d": 0,
+            "use": 0,
+            "h": 3,
+            "c": 0,
+            "cost": 6
+          },
+          "b": {
+            "q": 2,
+            "pr": 0,
+            "d": 2,
+            "use": 2,
+            "h": 0,
+            "c": 2,
+            "cost": 2
+          },
+          "v": [
+            10,
+            10
+          ],
+          "equilibria": 3,
+          "full": [
+            4,
+            4
+          ]
+        }
+      ],
+      "terminal": [
+        {
+          "a": {
+            "q": 1,
+            "pr": 1,
+            "d": 0,
+            "use": 0,
+            "h": 3,
+            "c": 0,
+            "cost": 6
+          },
+          "b": {
+            "q": 3,
+            "pr": 2,
+            "d": 1,
+            "use": 1,
+            "h": 3,
+            "c": 2,
+            "cost": 8
+          },
+          "v": [
+            8,
+            18
+          ],
+          "equilibria": 1,
+          "full": [
+            5,
+            7
+          ]
+        },
+        {
+          "a": {
+            "q": 1,
+            "pr": 1,
+            "d": 0,
+            "use": 0,
+            "h": 3,
+            "c": 0,
+            "cost": 6
+          },
+          "b": {
+            "q": 3,
+            "pr": 2,
+            "d": 2,
+            "use": 3,
+            "h": 1,
+            "c": 5,
+            "cost": 7
+          },
+          "v": [
+            8,
+            19
+          ],
+          "equilibria": 1,
+          "full": [
+            5,
+            10
+          ]
+        }
+      ],
+      "d": [
+        -2,
+        1,
+        0,
+        1
+      ],
+      "calendars": [
+        {
+          "n": 2,
+          "N": 1,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 2,
+          "N": 2,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 2,
+          "N": 3,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 2,
+          "N": 4,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 2,
+          "N": 5,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 2,
+          "N": 6,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 2,
+          "N": 7,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 2,
+          "N": 8,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 2,
+          "N": 9,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 2,
+          "N": 10,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 2,
+          "N": 11,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 2,
+          "N": 12,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 2,
+          "N": 13,
+          "conditionalDifference": 11,
+          "probabilityQuarterDifference": 2.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 2,
+          "N": 14,
+          "conditionalDifference": 12,
+          "probabilityQuarterDifference": 3,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 2,
+          "N": 15,
+          "conditionalDifference": 13,
+          "probabilityQuarterDifference": 3.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 2,
+          "N": 16,
+          "conditionalDifference": 14,
+          "probabilityQuarterDifference": 3.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 3,
+          "N": 1,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 3,
+          "N": 2,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 3,
+          "N": 3,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 3,
+          "N": 4,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 3,
+          "N": 5,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 3,
+          "N": 6,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 3,
+          "N": 7,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 3,
+          "N": 8,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 3,
+          "N": 9,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 3,
+          "N": 10,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 3,
+          "N": 11,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 3,
+          "N": 12,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 3,
+          "N": 13,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 3,
+          "N": 14,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 3,
+          "N": 15,
+          "conditionalDifference": 11,
+          "probabilityQuarterDifference": 2.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 3,
+          "N": 16,
+          "conditionalDifference": 12,
+          "probabilityQuarterDifference": 3,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 4,
+          "N": 1,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 4,
+          "N": 2,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 4,
+          "N": 3,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 4,
+          "N": 4,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 4,
+          "N": 5,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 4,
+          "N": 6,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 4,
+          "N": 7,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 4,
+          "N": 8,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 4,
+          "N": 9,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 4,
+          "N": 10,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 4,
+          "N": 11,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 4,
+          "N": 12,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 4,
+          "N": 13,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 4,
+          "N": 14,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 4,
+          "N": 15,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 4,
+          "N": 16,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 5,
+          "N": 1,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 5,
+          "N": 2,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 5,
+          "N": 3,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 5,
+          "N": 4,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 5,
+          "N": 5,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 5,
+          "N": 6,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 5,
+          "N": 7,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 5,
+          "N": 8,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 5,
+          "N": 9,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 5,
+          "N": 10,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 5,
+          "N": 11,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 5,
+          "N": 12,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 5,
+          "N": 13,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 5,
+          "N": 14,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 5,
+          "N": 15,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 5,
+          "N": 16,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 6,
+          "N": 1,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 6,
+          "N": 2,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 6,
+          "N": 3,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 6,
+          "N": 4,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 6,
+          "N": 5,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 6,
+          "N": 6,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 6,
+          "N": 7,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 6,
+          "N": 8,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 6,
+          "N": 9,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 6,
+          "N": 10,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 6,
+          "N": 11,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 6,
+          "N": 12,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 6,
+          "N": 13,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 6,
+          "N": 14,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 6,
+          "N": 15,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 6,
+          "N": 16,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 7,
+          "N": 1,
+          "conditionalDifference": -11,
+          "probabilityQuarterDifference": -2.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 7,
+          "N": 2,
+          "conditionalDifference": -10,
+          "probabilityQuarterDifference": -2.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 7,
+          "N": 3,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 7,
+          "N": 4,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 7,
+          "N": 5,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 7,
+          "N": 6,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 7,
+          "N": 7,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 7,
+          "N": 8,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 7,
+          "N": 9,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 7,
+          "N": 10,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 7,
+          "N": 11,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 7,
+          "N": 12,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 7,
+          "N": 13,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 7,
+          "N": 14,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 7,
+          "N": 15,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 7,
+          "N": 16,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 8,
+          "N": 1,
+          "conditionalDifference": -13,
+          "probabilityQuarterDifference": -3.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 8,
+          "N": 2,
+          "conditionalDifference": -12,
+          "probabilityQuarterDifference": -3,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 8,
+          "N": 3,
+          "conditionalDifference": -11,
+          "probabilityQuarterDifference": -2.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 8,
+          "N": 4,
+          "conditionalDifference": -10,
+          "probabilityQuarterDifference": -2.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 8,
+          "N": 5,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 8,
+          "N": 6,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 8,
+          "N": 7,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 8,
+          "N": 8,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 8,
+          "N": 9,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 8,
+          "N": 10,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 8,
+          "N": 11,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 8,
+          "N": 12,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 8,
+          "N": 13,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 8,
+          "N": 14,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 8,
+          "N": 15,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 8,
+          "N": 16,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 4
+        }
+      ]
+    },
+    {
+      "rule": -1,
+      "s": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        728,
+        0,
+        0
+      ],
+      "z": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        728,
+        0,
+        0
+      ],
+      "suffix": [
+        {
+          "a": {
+            "q": 2,
+            "pr": 0,
+            "d": 2,
+            "use": 2,
+            "h": 0,
+            "c": 2,
+            "cost": 2
+          },
+          "b": {
+            "q": 1,
+            "pr": 2,
+            "d": 0,
+            "use": 1,
+            "h": 1,
+            "c": 2,
+            "cost": 4
+          },
+          "v": [
+            10,
+            12
+          ],
+          "equilibria": 1,
+          "full": [
+            5,
+            3
+          ]
+        },
+        {
+          "a": {
+            "q": 1,
+            "pr": 1,
+            "d": 0,
+            "use": 0,
+            "h": 3,
+            "c": 0,
+            "cost": 6
+          },
+          "b": {
+            "q": 2,
+            "pr": 0,
+            "d": 2,
+            "use": 2,
+            "h": 0,
+            "c": 2,
+            "cost": 2
+          },
+          "v": [
+            10,
+            10
+          ],
+          "equilibria": 2,
+          "full": [
+            5,
+            4
+          ]
+        }
+      ],
+      "terminal": [
+        {
+          "a": {
+            "q": 3,
+            "pr": 1,
+            "d": 2,
+            "use": 2,
+            "h": 3,
+            "c": 2,
+            "cost": 8
+          },
+          "b": {
+            "q": 3,
+            "pr": 2,
+            "d": 1,
+            "use": 1,
+            "h": 3,
+            "c": 2,
+            "cost": 8
+          },
+          "v": [
+            16,
+            16
+          ],
+          "equilibria": 1,
+          "full": [
+            7,
+            7
+          ]
+        },
+        {
+          "a": {
+            "q": 3,
+            "pr": 1,
+            "d": 2,
+            "use": 2,
+            "h": 3,
+            "c": 2,
+            "cost": 8
+          },
+          "b": {
+            "q": 3,
+            "pr": 2,
+            "d": 2,
+            "use": 3,
+            "h": 1,
+            "c": 5,
+            "cost": 7
+          },
+          "v": [
+            16,
+            17
+          ],
+          "equilibria": 1,
+          "full": [
+            7,
+            10
+          ]
+        }
+      ],
+      "d": [
+        -2,
+        1,
+        0,
+        1
+      ],
+      "calendars": [
+        {
+          "n": 2,
+          "N": 1,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 2,
+          "N": 2,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 2,
+          "N": 3,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 2,
+          "N": 4,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 2,
+          "N": 5,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 2,
+          "N": 6,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 2,
+          "N": 7,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 2,
+          "N": 8,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 2,
+          "N": 9,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 2,
+          "N": 10,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 2,
+          "N": 11,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 2,
+          "N": 12,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 2,
+          "N": 13,
+          "conditionalDifference": 11,
+          "probabilityQuarterDifference": 2.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 2,
+          "N": 14,
+          "conditionalDifference": 12,
+          "probabilityQuarterDifference": 3,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 2,
+          "N": 15,
+          "conditionalDifference": 13,
+          "probabilityQuarterDifference": 3.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 2,
+          "N": 16,
+          "conditionalDifference": 14,
+          "probabilityQuarterDifference": 3.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 3,
+          "N": 1,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 3,
+          "N": 2,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 3,
+          "N": 3,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 3,
+          "N": 4,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 3,
+          "N": 5,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 3,
+          "N": 6,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 3,
+          "N": 7,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 3,
+          "N": 8,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 3,
+          "N": 9,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 3,
+          "N": 10,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 3,
+          "N": 11,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 3,
+          "N": 12,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 3,
+          "N": 13,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 3,
+          "N": 14,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 3,
+          "N": 15,
+          "conditionalDifference": 11,
+          "probabilityQuarterDifference": 2.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 3,
+          "N": 16,
+          "conditionalDifference": 12,
+          "probabilityQuarterDifference": 3,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 4,
+          "N": 1,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 4,
+          "N": 2,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 4,
+          "N": 3,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 4,
+          "N": 4,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 4,
+          "N": 5,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 4,
+          "N": 6,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 4,
+          "N": 7,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 4,
+          "N": 8,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 4,
+          "N": 9,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 4,
+          "N": 10,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 4,
+          "N": 11,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 4,
+          "N": 12,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 4,
+          "N": 13,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 4,
+          "N": 14,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 4,
+          "N": 15,
+          "conditionalDifference": 9,
+          "probabilityQuarterDifference": 2.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 4,
+          "N": 16,
+          "conditionalDifference": 10,
+          "probabilityQuarterDifference": 2.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 5,
+          "N": 1,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 5,
+          "N": 2,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 5,
+          "N": 3,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 5,
+          "N": 4,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 5,
+          "N": 5,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 5,
+          "N": 6,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 5,
+          "N": 7,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 5,
+          "N": 8,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 5,
+          "N": 9,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 5,
+          "N": 10,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 5,
+          "N": 11,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 5,
+          "N": 12,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 5,
+          "N": 13,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 5,
+          "N": 14,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 5,
+          "N": 15,
+          "conditionalDifference": 7,
+          "probabilityQuarterDifference": 1.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 5,
+          "N": 16,
+          "conditionalDifference": 8,
+          "probabilityQuarterDifference": 2,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 6,
+          "N": 1,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 6,
+          "N": 2,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 6,
+          "N": 3,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 6,
+          "N": 4,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 6,
+          "N": 5,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 6,
+          "N": 6,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 6,
+          "N": 7,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 6,
+          "N": 8,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 6,
+          "N": 9,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 6,
+          "N": 10,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 6,
+          "N": 11,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 6,
+          "N": 12,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 6,
+          "N": 13,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 6,
+          "N": 14,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 6,
+          "N": 15,
+          "conditionalDifference": 5,
+          "probabilityQuarterDifference": 1.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 6,
+          "N": 16,
+          "conditionalDifference": 6,
+          "probabilityQuarterDifference": 1.5,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 7,
+          "N": 1,
+          "conditionalDifference": -11,
+          "probabilityQuarterDifference": -2.75,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 7,
+          "N": 2,
+          "conditionalDifference": -10,
+          "probabilityQuarterDifference": -2.5,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 7,
+          "N": 3,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 7,
+          "N": 4,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 7,
+          "N": 5,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 7,
+          "N": 6,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 7,
+          "N": 7,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 7,
+          "N": 8,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 7,
+          "N": 9,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 7,
+          "N": 10,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 7,
+          "N": 11,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 7,
+          "N": 12,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 7,
+          "N": 13,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 7,
+          "N": 14,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 7,
+          "N": 15,
+          "conditionalDifference": 3,
+          "probabilityQuarterDifference": 0.75,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 7,
+          "N": 16,
+          "conditionalDifference": 4,
+          "probabilityQuarterDifference": 1,
+          "fixedRivalDifference": 4
+        },
+        {
+          "n": 8,
+          "N": 1,
+          "conditionalDifference": -13,
+          "probabilityQuarterDifference": -3.25,
+          "fixedRivalDifference": 0.25
+        },
+        {
+          "n": 8,
+          "N": 2,
+          "conditionalDifference": -12,
+          "probabilityQuarterDifference": -3,
+          "fixedRivalDifference": 0.5
+        },
+        {
+          "n": 8,
+          "N": 3,
+          "conditionalDifference": -11,
+          "probabilityQuarterDifference": -2.75,
+          "fixedRivalDifference": 0.75
+        },
+        {
+          "n": 8,
+          "N": 4,
+          "conditionalDifference": -10,
+          "probabilityQuarterDifference": -2.5,
+          "fixedRivalDifference": 1
+        },
+        {
+          "n": 8,
+          "N": 5,
+          "conditionalDifference": -9,
+          "probabilityQuarterDifference": -2.25,
+          "fixedRivalDifference": 1.25
+        },
+        {
+          "n": 8,
+          "N": 6,
+          "conditionalDifference": -8,
+          "probabilityQuarterDifference": -2,
+          "fixedRivalDifference": 1.5
+        },
+        {
+          "n": 8,
+          "N": 7,
+          "conditionalDifference": -7,
+          "probabilityQuarterDifference": -1.75,
+          "fixedRivalDifference": 1.75
+        },
+        {
+          "n": 8,
+          "N": 8,
+          "conditionalDifference": -6,
+          "probabilityQuarterDifference": -1.5,
+          "fixedRivalDifference": 2
+        },
+        {
+          "n": 8,
+          "N": 9,
+          "conditionalDifference": -5,
+          "probabilityQuarterDifference": -1.25,
+          "fixedRivalDifference": 2.25
+        },
+        {
+          "n": 8,
+          "N": 10,
+          "conditionalDifference": -4,
+          "probabilityQuarterDifference": -1,
+          "fixedRivalDifference": 2.5
+        },
+        {
+          "n": 8,
+          "N": 11,
+          "conditionalDifference": -3,
+          "probabilityQuarterDifference": -0.75,
+          "fixedRivalDifference": 2.75
+        },
+        {
+          "n": 8,
+          "N": 12,
+          "conditionalDifference": -2,
+          "probabilityQuarterDifference": -0.5,
+          "fixedRivalDifference": 3
+        },
+        {
+          "n": 8,
+          "N": 13,
+          "conditionalDifference": -1,
+          "probabilityQuarterDifference": -0.25,
+          "fixedRivalDifference": 3.25
+        },
+        {
+          "n": 8,
+          "N": 14,
+          "conditionalDifference": 0,
+          "probabilityQuarterDifference": 0,
+          "fixedRivalDifference": 3.5
+        },
+        {
+          "n": 8,
+          "N": 15,
+          "conditionalDifference": 1,
+          "probabilityQuarterDifference": 0.25,
+          "fixedRivalDifference": 3.75
+        },
+        {
+          "n": 8,
+          "N": 16,
+          "conditionalDifference": 2,
+          "probabilityQuarterDifference": 0.5,
+          "fixedRivalDifference": 4
+        }
+      ]
+    }
+  ],
+  "classification": "Exact public qualification and independent refundable reserves; matched retained-menu comparisons, conditional calendar boundary, not empirical or global adoption threshold."
+}

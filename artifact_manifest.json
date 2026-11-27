@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-reserve-factor-v1",
+  "snapshot_id": "formal-integration-probability-calendar-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "79379a40fad2fb769374fc33f29d3ceadd7e5de312241cd20ef0be1a5a4ace91"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "967e8e980f7736b40ae28d4be5a9b49e05e586bf61c61ac37489818cb81b1212"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3806,15 +3806,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "013db01a6767049fb94721e54ace8e8b21e00e3997bab530fe5ae7ddfb4659dc"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "1f80023ba78607bb09c9c69c25cd3b1af27098915fdba72c52094e976007597d"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "13b2c351db11e5116233e32e0ef7a7bcb46b7858e44cb930bb8c761603cbf746"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "ffac177be4abe2eec812ad1b4651fbb665ee4f070bfa89d3a023908818137b0c"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3869,15 +3869,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "8ff47402984ea42bf2e1d0e5b0a57ae79ce40c9ece02314537dccbdf60ec9715"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "fc0dc8c39a555be26087ccbf071eef4dfd0cda03f088f38d127ba4f1ac4277e2"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "27d28f6db3b71024b675dc71cabf8a6a84afa47dd0525543f4448d75ac7bdb4f"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "02597e06bb11a8e3a191a61f7620f2509f33c7da96d2875a7dfca8baf264fca6"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3904,15 +3904,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "ce6f2f2c541e797804e8994bd088b82826090849b4a7d57d8f2375bf8f5f2122"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "dc71a28e20a1ccf46f6f3c474e626f12c86d7413b15fd4fe7ec6e49cda42cd1d"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "f6d81a9b9e2969a75e17e23832e4166c97bd19e6b5a4c14b5c8550fd44c52a95"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "5db596317f8cf00e0e996379a0813f1bc06496a74b6ed9b6ac7bcd0154d8aef5"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -4016,8 +4016,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-reserve-factor-v1",
-      "sha256": "4cba5717ccac6afdd1ac2785bba5a79ee9399f4c9ce76a58944738365cfcf365"
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "0057c4972c102457ebebcbc54d024c0d78d480fc52a8dc58844933165fa805a7"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4501,6 +4501,27 @@
       "name": "event_reserve_factor_results.json",
       "version": "formal-integration-reserve-factor-v1",
       "sha256": "d1190b15d7314fe11a8f325613c5fa4b317975c5d8d6ebba62b46e2e88618475"
+    },
+    {
+      "repository_path": "papers/integrated_firm/EVENT_PROBABILITY_AUDIT.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/EVENT_PROBABILITY_AUDIT.md",
+      "name": "EVENT_PROBABILITY_AUDIT.md",
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "71279feb7534e2ac70821b247d35c82450f454c425d0199d8fdc8a5e4023dbd3"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_probability_audit.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_probability_audit.js",
+      "name": "event_probability_audit.js",
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "ca34bf84067e5bc903f6cd4a6cd809bd805b9c7d78ec595962bcc61ee5a753c2"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_probability_audit_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_probability_audit_results.json",
+      "name": "event_probability_audit_results.json",
+      "version": "formal-integration-probability-calendar-v1",
+      "sha256": "380799078840c37bf0536274d19802aef8ddc7dd2c8a35107b9a73fa06f0c8c1"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",

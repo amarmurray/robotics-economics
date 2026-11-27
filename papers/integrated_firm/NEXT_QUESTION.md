@@ -1,3 +1,9 @@
+# Current integration dependency (November 27: probability/calendar audit complete)
+
+Introduce one separately costed further experiment from eligible evidence actually retained after shift one; solve the intervening joint service/research choice before its report, preserve qualification/report authorization, old recipes, physical durations, shared H/C and dated receipts. Do not repeat completed independent-reserve S=8/9/10 probability audits. Test the conditional calendar sign boundary after restoring further learning (not as a global threshold). Endogenize actual early collection and binding payer cash, distinguish advance/escrow from an enforceable target-pass bonus, test bridge funding and abstention. Reconcile prior unpublished adjacent-price/research-fee objects if recoverable; certify joint cost/probability regions and changing mixed supports across the enlarged game, including legal menu and selector changes. Preserve directed transfer, common latent reports, rights, endogenous factor prices, realized supplier capacity/queues, finance and entry. Solve repeated/infinite-horizon economy before stability claims. Preserve November 27 recursive-pilot (prepared; actual execution unestablished), November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates in explicit integration; keep separate Codex analytical-paper direction intact.
+
+[Completed audit](EVENT_PROBABILITY_AUDIT.md). Earlier checkpoints preserved below.
+
 # Next integration dependency
 
 ## Current dependency (November 27: factored concurrent closure; supersedes preceding checkpoint)

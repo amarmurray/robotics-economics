@@ -221,3 +221,10 @@ The exclusive S=10 gap is closed by exact intermediate mixed continuation. At ni
 
 Established in stated restrictions: exact public-state selected mixed continuation, full-menu incentive checks, dated replay and local affine fee interval. Falsifiers: a profitable original-menu deviation, an invalid projected cash history, or an endpoint slack below zero. Strong alternatives: lower-total pure selection, ordinary learning, outside qualification, and exclusive hardware sequencing. Open: complete equilibrium correspondence, whole-game parameter certificates, binding finance, continuous within-block learning, actual Economic RL or LLM evaluation, identification and calibration.
 
+
+
+## November 27: independent-reserve probability audit and conditional calendar sign boundary
+
+All eleven outstanding independent-reservation probability audits solve (both selectors, S=8/9/10, exclusive and concurrent; prior exclusive-high S=10 retained). 191,241,264 new matched retained-menu comparisons, 46,680 adverse, no ties. Every regime/selector/calendar has adverse conditional effects; the worst matched effects are -1/2, -1/4, -3/4 ticks at S=8,9,10 respectively. Selected roots remain no/one/both initial development in concurrent S=8/9/10; exclusive never develops. A conditional mechanism has suffix success-minus-failure margin -2 and terminal +1 under each tested selector (different rival inherited masks); for block lengths n,N, increasing qualification probability by 1/4 changes captured continuation value by [N-2(n-1)]/4, versus N/4 holding failure-branch rival quantities fixed. Exact conditional sign boundary N=2(n-1), not a root adoption or full-game equilibrium-region threshold. Qualification creates input savings; the adverse effect is selection-dependent and off path; no reversal of optimal research or empirical calibration.
+
+[Derivation](EVENT_PROBABILITY_AUDIT.md) · [Implementation](event_probability_audit.js) · [Results](event_probability_audit_results.json). Distinct timing and reservation institution from the separate Codex quantity and bidding comparisons. No scientific gate passed.
