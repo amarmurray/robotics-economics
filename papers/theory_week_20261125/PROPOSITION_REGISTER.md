@@ -101,3 +101,8 @@ Conditional fixed-program private-return identity: at equal later quantities/pri
 ### Public suffix quantity equilibrium (November 27)
 
 Conditional exact potential with independent reservation-constrained menus. A common boundary stock/quantity kernel no longer justifies cheapest-initial-recipe reduction when the first recipe fixes future feasible reservations. The exact witness gives 9 additional expected ticks at the higher reserve. A separate unique-equilibrium success-only market reopening can lower own suffix profit even while qualification raises own profit with the gate held fixed. Selected losses under an always-open gate involve quantity-equilibrium multiplicity in at least one arm in the scanned restriction. No adverse full continuation or root procedure choice established. The matched locked/expanded four-block initial adoption results are unchanged. [Proof and exact results](../integrated_firm/EVENT_SUFFIX.md).
+
+
+## November 27: full probability comparison and independent reservation
+
+Conditional exact proof and computed off-path counterexample: equal-cost higher qualification probability may reduce full private continuation in the both-open reservation-constrained quantity game through equilibrium selection; it raises the matched fixed-rival value. No root reversal, no unique-equilibrium-both-sides claim. Exact independent reservation quotient for prefunded refunded suffixes; five complete selected games, independent concurrent open. [Derivation and tests](../integrated_firm/EVENT_RESERVATIONS.md).

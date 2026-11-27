@@ -1,5 +1,13 @@
 # Claim and integration ledger
 
+## November 27: both-open dispatch, independent reserves and full qualification value
+
+The ten-shift public-state game now reopens the date-three suffix regardless of qualification success or failure. Four tied-reservation games and the exclusive independent-reservation game solve exactly (all pure selected continuations); selected root wealth, jobs and research remain unchanged. At 383,800 matched equal-cost qualification-probability comparisons per exclusive selector, both-open has 588/576 strict own-value losses; concurrent higher-total has 2,528 losses in 2,841,696 comparisons. These include terminal continuation, not only current suffix payoff. A legal off-path contract witness has conditional full value 45 on failure and 42 on success, while against fixed failure-branch rival quantities the matched values are 45 and 50. Raising success from 1/2 to 3/4 thus decreases selected private value by 3/4 but increases fixed-rival value by 5/4. The reversal relies on changed suffix equilibrium selection, not unique equilibrium on both sides, and abstention dominates these costly attempts. Independently reserving suffix cash rather than tying it to the first recipe changes a matched expected block payoff 51/66 to 69; the exact independent reservation menu quotient passes 1,600 checks. The independent exclusive root still earns (160,160); concurrent independent runtime remains open. No empirical calibration or scientific gate passed.
+
+[Derivation and exact tests](EVENT_RESERVATIONS.md) · [Implementation](event_reservations.js) · [Results](event_reservations_results.json).
+
+Conditional exact counterexample, not root reversal; old funded-quantity and bidding results retain their own scope. The independent concurrent game and its probability audit remain open. No actual LLM training or pilot gate completed.
+
 ## Scope of a lower-success procedure's private advantage
 
 In the four-date funded embodied quantity game ($B=120$, cap 2), comparing equal-cost local qualification attempts at adjacent success probabilities against the same simultaneous rival action gives 413,584 strict gains, 239,456 ties and zero strict losses per published continuation selector. Future play responds to both public outcomes. The comparison covers both firms and off-path states where a retained older method is legal. Both complete replays match the archive. The result concerns this calibration and these selectors. A weak tie can matter to the equilibrium correspondence. [Checker](../../scripts/check_qualification_quantities.js) · [Funded assumptions](FUNDED_EMBODIED.md)
