@@ -1,5 +1,11 @@
 # RoboEcon theory week: production of capability and the recursive firm
 
+## November 26/27 integrated event-clock checkpoint
+
+Exact locked event embedding reproduces the accepted S=8,9,10 exclusive/concurrent cap-2 games, including the nine intermediate mixed S=10 continuations. All generated pre-duplicate-reduction actions are checked against each rival quantity mask and every outcome; factorization proves the paired boundary kernel. Allowing a successful qualification to save one human and one compute unit on the same already committed automated service in remaining shifts (gross cash reserved, savings refunded at block boundary) leaves selected initial research, wealth, jobs, and customer surplus unchanged at all six matched primary cases. In the exclusive S=10 cap-2 higher-total selection, intermediate mixed states fall from nine to one and the new mix is (11/15,1/5), with all 40/46 retained deviations checked. Cap-1 exclusive changes to three mixed states; cap-1 and cap-2 root wealth remain equal. Lower-total cap-2 checks agree on root outcomes. Two initial denominator failures are resolved by exact scaling factors 375 and 750. 20 solved runs; two preserved arithmetic diagnostics. Not free redispatch, additional learning, earlier collection, binding finance, or full equilibrium correspondence.
+
+[Derivation and tests](../integrated_firm/EVENT_RELEASE.md). All original scientific gates and deadlines remain open.
+
 **Research window:** November 25, 2026, 10:49 a.m. to December 2, 2026, 10:49 a.m., America/New_York (168 elapsed hours).
 **Authority:** Amar's request: “Let's tackle multiple theoretical priorities at once. Work on this for a week.”
 **Status:** Activated research plan; individual results remain subject to derivation and review. The separate December 25 program continues on its existing horizon.

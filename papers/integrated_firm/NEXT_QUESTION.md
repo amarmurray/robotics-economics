@@ -1,5 +1,12 @@
 # Next integration dependency
 
+## Current dependency (supersedes the previous checkpoint)
+
+Extend event flexibility beyond same-quantity recipe substitution: first allow a post-release service/quantity decision with public qualification and explicit unchanged pre-release reservations; solve the suffix quantity game, preserve old recipes and actual resource/settlement timing, test S=8/9/10 and cap-1/2 under both selectors. Then allow new eligible evidence and a separately costed subsequent attempt, and actual early collections with binding cash. In parallel reconcile the prior unpublished adjacent-price/research-fee Git objects if recoverable; reproduce and certify continuously varying mixed supports jointly in research and kit costs, preserving all legal menus. Do not infer equilibrium absence from arithmetic or support failure. Complete directed transfer/qualification, rights and finance dimensions, input-market/realized capacity, supplier queues and entry, then solve repeated/infinite-horizon dynamics. Preserve the November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.
+
+Earlier checkpoint text below is preserved as provenance.
+
+
 Continue from the certified complete profiles: solve adjacent branches and introduce a common research-cost parameter at every date, preserving parameter-dependent menu alternatives and propagating changing mixed probabilities through all continuations. In the same cumulative economy, implement the exact event-time embedding of S=8/9/10, then permit one response to within-block qualification before expanding evidence-driven learning and collected-cash funding. Separate observation, release/dispatch, further learning and collection changes; re-certify thresholds after each extension. Add explicit labor/compute, supplier-capacity, finance and entry closures with realized allocation feasibility. Study long-run dynamics only after solving the repeated/infinite-horizon economy. Preserve all seven obligations and existing November 27, November 29, December 2, December 6 and December 25 gates.
 
 ## Newly accepted result

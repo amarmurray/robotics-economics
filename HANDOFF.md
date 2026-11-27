@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-Handoff ID: formal-integration-recursive-propagation-v1
+## Current integration checkpoint: exact event clock, changed off-path incentives
+
+Exact locked event embedding reproduces the accepted S=8,9,10 exclusive/concurrent cap-2 games, including the nine intermediate mixed S=10 continuations. All generated pre-duplicate-reduction actions are checked against each rival quantity mask and every outcome; factorization proves the paired boundary kernel. Allowing a successful qualification to save one human and one compute unit on the same already committed automated service in remaining shifts (gross cash reserved, savings refunded at block boundary) leaves selected initial research, wealth, jobs, and customer surplus unchanged at all six matched primary cases. In the exclusive S=10 cap-2 higher-total selection, intermediate mixed states fall from nine to one and the new mix is (11/15,1/5), with all 40/46 retained deviations checked. Cap-1 exclusive changes to three mixed states; cap-1 and cap-2 root wealth remain equal. Lower-total cap-2 checks agree on root outcomes. Two initial denominator failures are resolved by exact scaling factors 375 and 750. 20 solved runs; two preserved arithmetic diagnostics. Not free redispatch, additional learning, earlier collection, binding finance, or full equilibrium correspondence.
+
+[Derivation](papers/integrated_firm/EVENT_RELEASE.md) · [Code](papers/integrated_firm/event_release.js) · [Results](papers/integrated_firm/event_release_results.json). Input 741aafbfcd48ebfe72ea81193e9089e9942820f5. Previous adjacent/research-fee tranche not present on current main; its provisional findings are not promoted to accepted state. Source SHA-256 discrepancies remain documented; older guards unchanged. No scientific gate completed.
+
+**Next dependency:** Extend event flexibility beyond same-quantity recipe substitution: first allow a post-release service/quantity decision with public qualification and explicit unchanged pre-release reservations; solve the suffix quantity game, preserve old recipes and actual resource/settlement timing, test S=8/9/10 and cap-1/2 under both selectors. Then allow new eligible evidence and a separately costed subsequent attempt, and actual early collections with binding cash. In parallel reconcile the prior unpublished adjacent-price/research-fee Git objects if recoverable; reproduce and certify continuously varying mixed supports jointly in research and kit costs, preserving all legal menus. Do not infer equilibrium absence from arithmetic or support failure. Complete directed transfer/qualification, rights and finance dimensions, input-market/realized capacity, supplier queues and entry, then solve repeated/infinite-horizon dynamics. Preserve the November 27 recursive-pilot, November 29 program, December 2 theory-week, December 6 contribution and December 25 final gates.
+
+Handoff ID: formal-integration-event-clock-v1
 
 ## Current: complete parameter regions and recursive event propagation
 

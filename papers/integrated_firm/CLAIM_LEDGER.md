@@ -1,5 +1,14 @@
 # Claim and integration ledger
 
+## November 26/27: exact event-clock embedding and first qualification release
+
+Exact locked event embedding reproduces the accepted S=8,9,10 exclusive/concurrent cap-2 games, including the nine intermediate mixed S=10 continuations. All generated pre-duplicate-reduction actions are checked against each rival quantity mask and every outcome; factorization proves the paired boundary kernel. Allowing a successful qualification to save one human and one compute unit on the same already committed automated service in remaining shifts (gross cash reserved, savings refunded at block boundary) leaves selected initial research, wealth, jobs, and customer surplus unchanged at all six matched primary cases. In the exclusive S=10 cap-2 higher-total selection, intermediate mixed states fall from nine to one and the new mix is (11/15,1/5), with all 40/46 retained deviations checked. Cap-1 exclusive changes to three mixed states; cap-1 and cap-2 root wealth remain equal. Lower-total cap-2 checks agree on root outcomes. Two initial denominator failures are resolved by exact scaling factors 375 and 750. 20 solved runs; two preserved arithmetic diagnostics. Not free redispatch, additional learning, earlier collection, binding finance, or full equilibrium correspondence.
+
+[Event-clock embedding and qualification release](EVENT_RELEASE.md) · [Solver](event_release.js) · [Results](event_release_results.json)
+
+Earlier checkpoint text below is preserved as provenance.
+
+
 ## Current extension: complete regions and recursive propagation
 
 Complete-game common mobile-kit-price certificates now include every retained deviation and off-path continuation. The S=10 exclusive seed profile, with nine intermediate mixed subgames, is an equilibrium for all κ in [0,8]; the concurrent profile is an equilibrium for all κ in [0,6]. Generated wealth per firm is 164−κ and 167.625−κ, respectively. All-state direct endpoint replays pass 114,578 exclusive and 479,768 concurrent deviations at each endpoint, with dated cash/resource/hardware accounting. The upper boundaries are off-path incentive changes, not root adoption cutoffs. These certify complete-profile eligibility, not the full correspondence or persistence of a selector.

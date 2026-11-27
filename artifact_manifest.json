@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-recursive-propagation-v1",
+  "snapshot_id": "formal-integration-event-clock-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "9445487da0e87a39fc9160f47e5010493d75e62e22d9f977187c5ce5456ad9dd"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "5e4e423096f857ad9457eb394b81fd9bd7389b42fb9190eb222f7163ef6922c7"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -3785,15 +3785,15 @@
       "repository_path": "papers/theory_week_20261125/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/state.json",
       "name": "state.json",
-      "version": "formal-integration-mixed-continuation-v1",
-      "sha256": "bc21439ef1c3f5e07482306576787e985dcb9fa1b71c3d4b83462550c8af194f"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "530a42417c963645e9ea7b70989340a88d8ab86c5320703b52050dcfc8b13f83"
     },
     {
       "repository_path": "papers/theory_week_20261125/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/theory_week_20261125/README.md",
       "name": "README.md",
-      "version": "formal-integration-concurrent-window-v1",
-      "sha256": "37471fb3d443d3697bb6dc79ef3cbb5708059c1d667fe162e3631c4a82e9b156"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "2a70bb26a6b958187489269beb2c0413a03e170e47bd58004df287913831fea5"
     },
     {
       "repository_path": "papers/theory_week_20261125/THEORETICAL_SCAFFOLD.md",
@@ -3848,15 +3848,15 @@
       "repository_path": "papers/integrated_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/README.md",
       "name": "README.md",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "c6fd2630a1a2c0e3e698ff3818677f78e8d0444d2854456ab3e9af876ac6a683"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "c8e774f6ef3fdd3cd352d74cbd15437ba0007f133bbceadc649c3390fbbc145b"
     },
     {
       "repository_path": "papers/integrated_firm/UNIFIED_MODEL.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/UNIFIED_MODEL.md",
       "name": "UNIFIED_MODEL.md",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "da44a2185d9d1c19572df56ee9be2b54b3d6e164fda3bc104220e6d89025df2d"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "29b40a91c19427604c0b670344e363e33a30b36eee38b5945673f3a861235889"
     },
     {
       "repository_path": "papers/integrated_firm/PROPOSITIONS.md",
@@ -3883,15 +3883,15 @@
       "repository_path": "papers/integrated_firm/CLAIM_LEDGER.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/CLAIM_LEDGER.md",
       "name": "CLAIM_LEDGER.md",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "1f942f730dbd635281138ab7cb76f1404a857308f7c82f10bfaa2042e81f1a8a"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "18c5aa32e4c106d4615ae47d89838597271f3d3327059193bc7e19cd2a96b077"
     },
     {
       "repository_path": "papers/integrated_firm/NEXT_QUESTION.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/NEXT_QUESTION.md",
       "name": "NEXT_QUESTION.md",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "6099644f37ea4ddb66166ea789cce6588f643284ff5b6acb13b4669c42930416"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "7414ec1a2d314174feca06133940a4b3690e03cf45a0ba2fcf542c228f434a59"
     },
     {
       "repository_path": "papers/integrated_firm/core.py",
@@ -3995,8 +3995,8 @@
       "repository_path": "papers/integrated_firm/state.json",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/state.json",
       "name": "state.json",
-      "version": "formal-integration-recursive-propagation-v1",
-      "sha256": "ccb957f87c97b09f9ea54bd637801b0dde1e3291e67d0bb13d149bfff48aded8"
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "663aa7324930051184c285538ec6f8963e7e8146a384a7a1c828298a57e83626"
     },
     {
       "repository_path": "papers/integrated_firm/JOINT_COUNTS.md",
@@ -4396,6 +4396,27 @@
       "name": "dynamic_kit_certificate_results.json",
       "sha256": "28218c139748dea51c48caff80eab61e96a982acb86ad838f8527187298d71d5",
       "version": "formal-integration-recursive-propagation-v1"
+    },
+    {
+      "repository_path": "papers/integrated_firm/EVENT_RELEASE.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/EVENT_RELEASE.md",
+      "name": "EVENT_RELEASE.md",
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "34e25986598acf0ff7baf90ae4459cf71210ba726b049173410109193eb7f9c7"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_release.js",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_release.js",
+      "name": "event_release.js",
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "1481e42f9f715de4e536227e82458dc6d2980b3b6f65461354ffb6b89b022083"
+    },
+    {
+      "repository_path": "papers/integrated_firm/event_release_results.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/papers/integrated_firm/event_release_results.json",
+      "name": "event_release_results.json",
+      "version": "formal-integration-event-clock-v1",
+      "sha256": "a840d1e0a0720040075c0ccbec9b59c1179ce16ae2ae831b30ad3f95fd7b5e10"
     }
   ],
   "manifest_repository_path": "artifact_manifest.json",
