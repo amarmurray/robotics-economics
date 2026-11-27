@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "formal-integration-event-clock-v1",
+  "snapshot_id": "theory-milestone-redirect-v1",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -40,8 +40,8 @@
       "repository_path": "AGENTS.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/AGENTS.md",
       "name": "AGENTS.md",
-      "version": "theory-christmas-checkpoint-1",
-      "sha256": "2f45ba760cfb662debbfb4abd63838593c090f7c0115f67af7e45d8881546d07"
+      "version": "theory-milestone-redirect-v1",
+      "sha256": "7dd68877c6a10d5c47935af1ee68d6d46bbea758fbc4da1f13765b8ac0390968"
     },
     {
       "repository_path": "CHATGPT_PROJECT_INSTRUCTIONS.md",
@@ -82,8 +82,8 @@
       "repository_path": "HANDOFF.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/HANDOFF.md",
       "name": "HANDOFF.md",
-      "version": "formal-integration-event-clock-v1",
-      "sha256": "5e4e423096f857ad9457eb394b81fd9bd7389b42fb9190eb222f7163ef6922c7"
+      "version": "theory-milestone-redirect-v1",
+      "sha256": "7fcf22a31342ba6164c758e3789ed2bdebab80e9e17d4f453b3d943f7cea017d"
     },
     {
       "repository_path": "LEARNING_WALKTHROUGH.md",
@@ -117,8 +117,8 @@
       "repository_path": "README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/README.md",
       "name": "README.md",
-      "version": "theory-week-evidence-reallocation-20261125",
-      "sha256": "013f8cbf61fe7bf25e7c5f6303ca8e1a1aeec8299458c509775937fc526bdcbc"
+      "version": "theory-milestone-redirect-v1",
+      "sha256": "68dae10430b0d692331e08de2b8902cbb6da200707cab573d44465c285657ef6"
     },
     {
       "repository_path": "REPORT.md",
@@ -2165,6 +2165,13 @@
       "sha256": "819fc406cf6434f619d6aa00d5d2bad781487f7ff70b596686042a2e18d5edf2"
     },
     {
+      "repository_path": "reviews/integrated_firm_referee.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/integrated_firm_referee.md",
+      "name": "integrated_firm_referee.md",
+      "sha256": "23c257f381639a54b193dde4915c506fceb2f347c6f54d2055e49bab3b6c253b",
+      "version": "theory-milestone-redirect-v1"
+    },
+    {
       "repository_path": "reviews/laredo_procurement_review.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/reviews/laredo_procurement_review.md",
       "name": "laredo_procurement_review.md",
@@ -3001,8 +3008,8 @@
       "repository_path": "THEORY_PHASE.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/THEORY_PHASE.md",
       "name": "THEORY_PHASE.md",
-      "sha256": "28da3758e4b607edb151950e11c33b3cfbad5e2196e0f4a1ea88c586c598414b",
-      "version": "learning-and-capital-production-networks-20261125"
+      "sha256": "d530802beb2a4a4d650587a8a7cd1145ce98099303900623ac47e83b5016fde8",
+      "version": "theory-milestone-redirect-v1"
     },
     {
       "repository_path": "model/results/theory_deployment.json",
@@ -3036,8 +3043,8 @@
       "repository_path": "research/theory/milestones.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/theory/milestones.md",
       "name": "milestones.md",
-      "sha256": "08b430498a05f7067226685cc620201025bcfede6e8c0562e91d2e245a15a4c7",
-      "version": "theory-christmas-checkpoint-11"
+      "sha256": "07e45233193247e57cfb7f2b9afcf4d51c30da1d397b259cc9c84301ae465402",
+      "version": "theory-milestone-redirect-v1"
     },
     {
       "repository_path": "research/theory/organizing_intelligence.md",
@@ -4704,6 +4711,12 @@
       "threshold_results": "papers/integrated_firm/global_thresholds_results.json",
       "mixed_continuation": "papers/integrated_firm/MIXED_CONTINUATION.md",
       "mixed_results": "papers/integrated_firm/mixed_continuation_results.json"
+    },
+    "theory_phase": {
+      "charter": "THEORY_PHASE.md",
+      "canonical_synthesis": "README.md",
+      "milestones": "research/theory/milestones.md",
+      "referee_report": "reviews/integrated_firm_referee.md"
     }
   }
 }

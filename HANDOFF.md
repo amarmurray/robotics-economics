@@ -1,6 +1,14 @@
 # Robotics economics — current handoff
 
-## Current integration checkpoint: exact event clock, changed off-path incentives
+## Current direction
+
+The edition deadline and calendar gates are retired. The proposed paper turns on the destination of validated savings across payers and the effect of public qualification on a rival facing the same service obligation. The finite-game queue below records earlier priorities. The recommended pause covers post-release dispatch, binding-cash expansion and parameter sweeps until a particular computation can test a proposition. [Governing phase](THEORY_PHASE.md) · [Revised sequence](research/theory/milestones.md)
+
+Input main `205ed54ff63dc9362a7c15e05d0f06bf829a5ea5`. The root synthesis maps the prepared-input fixture to accepted output, upstream and station constraints, and customer cash. Field transfer and payer margins remain open. The self-review challenges generalization beyond the tested calendars, funding and payoff assumptions. The two-price illustration in the proposal has its own service and pricing assumptions. Both unique continuations were checked directly. The workcell export reproduced and 50 scoped finance, deployment and workcell tests passed. [Canonical synthesis](README.md) · [Referee report](reviews/integrated_firm_referee.md)
+
+**Next question.** With the same accepted service and aggregate validated cost saving, which payer's qualification bill must fall to change the first deployment, and would an enforceable prepayment remove that difference?
+
+## Previous integration checkpoint: exact event clock, changed off-path incentives
 
 Exact locked event embedding reproduces the accepted S=8,9,10 exclusive/concurrent cap-2 games, including the nine intermediate mixed S=10 continuations. All generated pre-duplicate-reduction actions are checked against each rival quantity mask and every outcome; factorization proves the paired boundary kernel. Allowing a successful qualification to save one human and one compute unit on the same already committed automated service in remaining shifts (gross cash reserved, savings refunded at block boundary) leaves selected initial research, wealth, jobs, and customer surplus unchanged at all six matched primary cases. In the exclusive S=10 cap-2 higher-total selection, intermediate mixed states fall from nine to one and the new mix is (11/15,1/5), with all 40/46 retained deviations checked. Cap-1 exclusive changes to three mixed states; cap-1 and cap-2 root wealth remain equal. Lower-total cap-2 checks agree on root outcomes. Two initial denominator failures are resolved by exact scaling factors 375 and 750. 20 solved runs; two preserved arithmetic diagnostics. Not free redispatch, additional learning, earlier collection, binding finance, or full equilibrium correspondence.
 

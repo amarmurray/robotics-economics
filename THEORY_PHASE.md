@@ -1,14 +1,14 @@
-# Theory-led Robotics Economics phase — through Christmas 2026
+# Theory-led Robotics Economics research program
 
-Governing instruction: Amar's full **Codex implementation brief: robotic deployment, learning, and the organization of production**, prepared November 15, 2026 and supplied in this research thread. This file is a compact execution contract and research prospectus, **not a verbatim archive** of that full brief. The user's full instruction governs. This phase supersedes stale active-campaign headings for current execution; it preserves the historical November 7–14 campaign, its original clock, partial acceptance, and results.
+Amar's strategic redirect retires the December 25 deadline and the intermediate edition calendar in the November 15 brief. Research advances on the strength of derivations, counterexamples and evidence. The earlier brief and campaign records retain their historical scope.
 
 ## Objective and authority
 
-Deliver by **December 25, 2026, 11:59 p.m. America/New_York** (**December 26, 04:59 UTC**) a private, review-ready theory-led edition in `amarmurray/robotics-economics`: focused working paper, living theory synthesis, evidence-grounded multilayer/multipayer production-and-opportunity atlas, reproducible analytical and CPU computational package, technical appendix, learning packets with separate solutions, and decision/validation brief. Provisional title: *Deploying to Learn, Learning to Deploy: Capital Allocation and the Expansion of Robotic Production*. Revise the title and claim to fit findings.
+Develop a working paper around two questions. When does learning from an accepted service relieve the qualification bill of the payer who can fund the next site? When can a publicly qualified recipe change a competitor's offer enough to reverse the private ranking of two research procedures? Use the automotive prepared-input fixture as the first bounded model comparison. The exhaustive game supplies checks of edge cases and counterexamples to specific analytical claims. [Canonical synthesis](README.md) · [Proposed milestones and acceptance conditions](research/theory/milestones.md)
 
-The related native goal was already active when this continuation began. After the full brief arrived, the same thread's objective was updated and the tool returned `status: active`. This is actual tool confirmation, distinct from saving this file. The original activation timestamp is unavailable in the retained context and is not reconstructed. Ignored `work/theory_phase_activation.json` records the observed event and times. No schedule or additional worker was created. Source retrieval and execution crossed UTC November 16 while Eastern date was still November 15; the milestone calendar remains Eastern.
+The November 15 brief was activated in its original thread. Its recorded activation and Eastern calendar are historical.
 
-One agent, one writer. Authorized: additive research, public/already-authorized sources, CPU models, appropriate tests and documentation, scoped private commits and normal pushes. Prohibited: robotics-vp-core changes, outreach, purchases, public publication/submission, schedules, model/quota/account/access changes, confidential employer material. No claim of uninterrupted execution. Through December 6, protect approximately 60–70% of substantive work for theoretical reconstruction, derivation, counterexamples and interpretation; this is prioritization, not fabricated hours. Empirics and computation discipline theory. UI/infrastructure is supporting work, not a milestone.
+One agent, one writer. The authorization covers additive research, public or already-authorized sources, CPU models, appropriate tests and documentation, scoped private commits and normal pushes. The existing exclusions cover robotics-vp-core changes, outreach, purchases, public publication or submission, schedules, model/quota/account/access changes and confidential employer material.
 
 ## How to develop the working papers
 
@@ -16,7 +16,7 @@ Begin each central claim with the production decision, the institutional or tech
 
 The common model in [Learning and Capital in Robotic Production](papers/learning_and_capital/README.md) follows an installed machine into three distinct networks. Goods reach customers, usable methods reach compatible fleets, and reinvestable earnings reach whoever can commit the funds. A matrix counts the first additional installations induced by each source type. Its dated entries distinguish speed from extent, and the changing physical marginal products show where later investment reinforces or offsets the original technical gain.
 
-## Current-state audit and research spine
+## Original audit and research spine
 
 Input remote main and clean checkout: `654e4ff9dbc1e1eb945a8b2734eaf5e058c6fa9a`, report edition 0.56. Read current guidance, handoff, manifest, charter, program design, roadmap, staging/acceptance context and relevant H–K modules at this revision. Existing historical chapters were inspected selectively. No historical acceptance gate is reclassified by this phase.
 
@@ -39,7 +39,7 @@ Input remote main and clean checkout: `654e4ff9dbc1e1eb945a8b2734eaf5e058c6fa9a`
 
 **Scope ladder.** A: static surplus, pricing and outside option. B: exact two-period cash/learning/access and investment. C: directed transfer and costly new/modified embodiment eligibility; introduce uncertainty only to study a real information decision. D: coordination, organization or competition only if a core result requires it. Do not call a central optimization decentralized competition. Distinguish a changing edge weight from an actually new reachable configuration/customer/link.
 
-## Research prospectus and argument outline
+## Original prospectus and argument outline
 
 The prospective paper studies deployment sequencing when initial service changes both future production possibilities and the ability of specific actors to fund them. A tractable service benchmark endogenizes customer output against a matched alternative. A two-period provider chooses a current deployment and a subsequent supported-capacity investment. The first exact example shows that a bridge loan changes the preferred deployment without changing its engineering potential, and that access or learning ablations remove the reversal. This is a diagnostic, not a demonstrated contribution beyond constrained dynamic investment. The next model must explain a consequence of directed transfer, complementary qualification, or contractual cash allocation that a generic option-value narrative would conceal. Empirical cases will restrict feasible edges and parameter bounds, not supply fictional calibrated returns.
 
@@ -64,7 +64,7 @@ Current paper argument: (1) state the puzzle and unresolved prior-art objection;
 
 Targeted foundations to acquire only as needed: task automation/new tasks, O-ring complementarity, production networks, learning by doing, directed innovation, dynamic programming/experimentation, incomplete contracts, pricing/demand. Do not expand bibliography disconnected from a model question. Each central source needs a mechanism card, verified version/locators, a checked derivation, and explicit nontransferable assumptions.
 
-## Theory-discriminating empirical contrast
+## Earlier empirical contrast for subsequent work
 
 Compare **within-configuration inspection expansion** with **cross-configuration manipulation transfer**. They expose different missing links rather than simply selecting the old three dossiers. Inspection can have recurring access and a named contracting authority while lacking intervention/maintenance benefits or transferable control evidence. Manipulation papers can report transfer evaluations while lacking customer demand and provider cash records. Neither population estimates the other's transition.
 
@@ -78,13 +78,9 @@ The first atlas extraction should keep node/relation/direction, configuration, g
 
 ## Milestones and acceptance
 
-See the [single milestone ledger](research/theory/milestones.md). All targets use Eastern time. A passed date is not a passed gate. Weekly synthesis targets: November 22/29, December 6/13/20, then December 25. Each uses actual research to state clearer mechanism, surviving/failed result, evidence change and next test, plus one teach-back problem and separate solution. Packet production does not establish Amar's mastery.
+The milestone ledger gives each proposed claim a proof target and a comparison that could overturn it. Carry failed comparisons, matched nulls and unidentified inputs into the paper. Revisit the case or use an existing solver when it can distinguish competing predictions. A narrower or negative result closes a question when its assumptions and counterexample are explicit. [Milestone ledger](research/theory/milestones.md) · [Referee report](reviews/integrated_firm_referee.md)
 
-Lock core model/experiment scope December 13. Later major extensions require repair of a material central flaw; optional equilibrium, embodiment, sector and interface expansions enter the subsequent-paper queue. Reserve December 19–25 for skeptical self-review, corrections, replication and handoff. Label review as single-writer self-review, never independent review.
-
-Release requires a defensible central contribution (possibly negative/narrower), readable and editable paper, verified references, complete derivations/counterexamples, traceable figures and inputs, CPU run/environment instructions, actual clean-checkout replay, theory synthesis and atlas with observed/hypothesized links separated, learning solutions, decision/validation note, and explicit established/rejected/unidentified/deferred/blocked audit. A dashboard, file count or untested conjecture is not completion. Render the paper when supported. No outreach or external release.
-
-If a milestone slips, record original target, cause, consequence and bounded recovery. Narrow peripheral scope before sacrificing correctness, matched alternatives, draft or replication. Preserve Christmas unless Amar explicitly changes it. At cutoff (or first available session after it), deliver the actual strongest verified edition and mark partial completion honestly. No fabricated effort between sessions.
+## Historical checkpoints
 
 Checkpoint 2 advances the narrow Model C diagnostic with an exact [demand–funding phase figure](model/results/qualification_finance_phase.svg). A permitted separate-firm payment can reproduce pooled-cash feasibility; this is a counterexample to inferring necessary integration from the financing bottleneck. No endogenous embodiment design or organizational equilibrium is claimed.
 

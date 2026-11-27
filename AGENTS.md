@@ -2,9 +2,9 @@
 
 Version: program-design-2026-10-25-v0.11.
 
-Current execution override: Amar activated the theory-led Christmas phase described in `THEORY_PHASE.md` and `research/theory/milestones.md`. Follow that phase through December 25, 2026, 23:59 America/New_York, protecting theory as the majority workstream through December 6. The November 7–14 campaign and the older execution headings below are historical. Preserve their clocks/results and one-agent/one-writer boundary. Do not interpret the old dashboard emphasis or approximately one-third H allocation as overriding the new theory-led priorities.
+Amar's current direction is a milestone-driven theory program. The governing [phase](THEORY_PHASE.md) and [milestone ledger](research/theory/milestones.md) supersede calendar targets and solver queues in earlier briefs, paper state snapshots and handoffs. Prioritize portable analytical propositions, the matched automotive case, and counterexamples to the paper's claims. Preserve historical clocks, results, explicit nulls and the one-agent/one-writer boundary.
 
-Current execution: the user activated a new 168-hour Deployment and Entry Decision Edition on 7 November 2026. Read `DEPLOYMENT_ENTRY_CAMPAIGN.md` and the current handoff for its single recorded clock and acceptance contract. The October campaign directions below remain historical where they concern the old window; the substantive A–K scope and single-writer restriction remain in force.
+The historical 168-hour Deployment and Entry Decision Edition began on 7 November 2026. Its recorded clock and acceptance contract are in `DEPLOYMENT_ENTRY_CAMPAIGN.md` and the handoff. The substantive A–K scope and single-writer restriction remain in force.
 
 The shared accepted source is the `main` branch of the private repository https://github.com/amarmurray/robotics-economics. The canonical local working copy is `/Users/amarmurray/Documents/ChatGPT/Robotics Economics`, paired with the ChatGPT Work project https://chatgpt.com/g/g-p-6a9cdcdb891c819190d2ea406ab0a03c/project.
 
