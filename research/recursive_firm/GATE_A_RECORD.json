@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "record_id": "lane3_gate_A_dormancy_activation",
+  "paper": "P3",
+  "canonical_manuscript": "research/recursive_firm/README.md",
+  "input_main": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+  "recursive_source_commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+  "user_facing_record_date": "2026-11-27",
+  "timezone": "America/Chicago",
+  "calendar_acceptance_deadline": null,
+  "authority": "User Lane 3 implementation directive; AGENTS.md at input main",
+  "single_writer": "root coordinator acting as Lane 3 lead",
+  "support_roles": "Read-only co-derivation, source and proof checks; no separate-author Gate B report created.",
+  "gate_status": {
+    "A": "closed_for_the_explicitly_restricted_canonical_claims_and_source_deduplication",
+    "B": "pending_independent_hostile_referee",
+    "C": "pending_B_and_empirical_identification"
+  },
+  "closure_scope": [
+    "P3.1",
+    "P3.2",
+    "P3.3",
+    "P3.4",
+    "P3.5",
+    "P3.A.COST"
+  ],
+  "supersedes_only": [
+    "P3 entries in input-version research/portfolio/state.json and CLAIMS.json"
+  ],
+  "other_paper_status_changed": false,
+  "new_standalone_manuscript_created": false,
+  "claims": [
+    {
+      "id": "P3.1",
+      "owner": "P3",
+      "statement": "A current investigation with lower resolution probability can be preferred for successor-production value.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "assumptions": [
+        "defined carriers and competent comparator",
+        "constant continuation stake within restriction",
+        "success-contingent optional qualification"
+      ],
+      "boundaries": [
+        "positive-part regions required",
+        "reuse alone does not establish successor production",
+        "physical MPK is not monetary reward"
+      ],
+      "source_or_proof": [
+        "recursive branch organizational_recursion/README.md",
+        "recursive branch economic_rl/README.md"
+      ],
+      "independent_hostile_referee_status": "pending_separate_author",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false,
+      "proof_in_this_revision": "PROOFS.md#a1-successor-production-and-economic-rl",
+      "reconciled_assumptions": [
+        "Explicit retained procedure and controlled state, including competent ordinary learning and economic payoff.",
+        "Success-contingent optional qualification is feasible and no outcome-specific information is omitted from the common stake.",
+        "Three-cohort assignments are randomized with consistent procedure carriers, interference control, matched executor and all assigned failures retained."
+      ],
+      "retained_boundaries": [
+        "Positive-part regions matter; fixed technology ranking does not establish its endogenous invention.",
+        "Post-production procedure passage and preannounced rights are different estimands.",
+        "Information-matched ordinary-planner ties and non-universality of MPK reward remain."
+      ]
+    },
+    {
+      "id": "P3.2",
+      "owner": "P3",
+      "statement": "Endogenous informative-arrival slowdown and optimized source expansion can reduce the speed or amount of recipient learning.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "assumptions": [
+        "conditional example-time law",
+        "informative independent records, fixed transfer, slack processing",
+        "shared-hour crowdout: substitutable streams and stated concave mixed interior"
+      ],
+      "boundaries": [
+        "corners require feasible frontier",
+        "endogenous prices or changed yields add terms",
+        "raw logs do not identify effective evidence"
+      ],
+      "source_or_proof": [
+        "recursive branch learning_dynamics/README.md",
+        "papers/theory_week_20261125/EVIDENCE_REALLOCATION.md"
+      ],
+      "independent_hostile_referee_status": "pending_separate_author",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false,
+      "proof_in_this_revision": "PROOFS.md#a2-evidence-time-and-allocation",
+      "reconciled_assumptions": [
+        "Useful distinct admitted records and slack processing; declared stable fluid arrival law.",
+        "Independent informative audit floor for restored linear record growth.",
+        "Concave resource frontier, fixed yields/prices/stakes and feasible mixed interior for the displayed derivatives."
+      ],
+      "retained_boundaries": [
+        "Passive evidence starvation differs from active shared-hour crowding.",
+        "Capacity, demand and incident/reference corners use the full feasible frontier.",
+        "No empirical scaling exponent is estimated; review-cadence theorem remains historical analytical support."
+      ]
+    },
+    {
+      "id": "P3.3",
+      "owner": "P3",
+      "statement": "Transfer/noise products and novelty-transfer joint laws can remain unidentified by their usual marginal observations.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "assumptions": [
+        "declared binary signed-edge likelihood",
+        "stable independent repeated measurements for separation",
+        "perfect scoped source/recipient audits"
+      ],
+      "boundaries": [
+        "admission bias and settlement symmetry are distinct failures",
+        "marginal rates do not justify independence",
+        "changed payoffs/audits require rebuilt action values"
+      ],
+      "source_or_proof": [
+        "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md",
+        "recursive branch inquiry/audit_location/README.md",
+        "reference_coverage/README.md",
+        "settlement_learning/README.md"
+      ],
+      "independent_hostile_referee_status": "pending_separate_author",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false,
+      "proof_in_this_revision": "PROOFS.md#a3-identification-and-audit-location",
+      "reconciled_assumptions": [
+        "Independent sign-valued structural and measurement families with a common latent prior.",
+        "Stable-pair repeat measurements have refreshed independent noise.",
+        "Nonnegative commissioning cost, positive recipient stake, declared perfect audit information.",
+        "Selected-admission example draws fresh cases conditional on a fixed hidden convention.",
+        "Settlement product uses conditionally independent Bernoulli outcomes and symmetric action/transition/observation laws."
+      ],
+      "retained_boundaries": [
+        "Measurement reliability identification does not automatically identify structural reliability; forest counterexample retained.",
+        "Unknown joint law is bounded by the Frechet interval, not silently made independent.",
+        "Known propensities, roster samples, settlement tags or asymmetric diagnostics may break different equivalences."
+      ]
+    },
+    {
+      "id": "P3.4",
+      "owner": "P3",
+      "statement": "Integration can create a portable interface that subsequently makes delegation economical; fixed-pair speed premiums can be nonmonotone.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "assumptions": [
+        "stationary unresolved state and persistent portability",
+        "nonnegative switch costs, adequate funding",
+        "competent outside arrangements",
+        "fixed delays and payoff with independent survival"
+      ],
+      "boundaries": [
+        "joint lab or reservation can defeat ownership ranking",
+        "changing prices/cash and new information can make waiting valuable",
+        "optimized organizational envelope need not have one hump"
+      ],
+      "source_or_proof": [
+        "recursive branch boundaries/README.md",
+        "recursive branch stack_profile/README.md"
+      ],
+      "independent_hostile_referee_status": "pending_separate_author",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false,
+      "proof_in_this_revision": "PROOFS.md#a4-portable-interfaces-and-boundaries",
+      "reconciled_assumptions": [
+        "Stationary unresolved state; failure gives no new drift, calendar or finance change; persistent portability.",
+        "Nonnegative switching costs and mature flows v_P>v_I>=0; attained effort choice and costless idling when available.",
+        "One arrangement choice before operation per date; sufficient finance.",
+        "Speed premium compares fixed positive delays and a fixed captured stake."
+      ],
+      "retained_boundaries": [
+        "Joint labs and reservable external resources can defeat the restricted two-arrangement ranking.",
+        "Informative failure, changing rights or cash can make waiting valuable.",
+        "A fixed-pair hump need not survive an optimized partner envelope or be reachable under the discount bound."
+      ]
+    },
+    {
+      "id": "P3.5",
+      "owner": "P3",
+      "statement": "With fixed successor-producing technical capability, the restricted economic state admits a closed-form gain threshold, an all-deviation invariant dormancy certificate and a pathwise operation-funded regenerative basin.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "proof_in_this_revision": "PROOFS.md#a5-dormancy-cash-invariance-and-sustained-recursion",
+      "five_brakes": {
+        "capture_share": "theta in (0,1]",
+        "evidence_starvation": "lambda_ev=f^gamma",
+        "shared_hours": "h*v_op",
+        "dated_financing": "B_t and remaining cash bridge L_t(d)",
+        "imitation_obsolescence": "delta_obs before acceptance"
+      },
+      "closed_form": {
+        "receipt": "R_rec=theta*e_rec*G*beta^d*lambda/(1-a+a*lambda), a=beta*(1-delta_obs)",
+        "activation": "H_G>C and lambda>C*(1-a)/(H_G-a*C), H_G=theta*e_rec*G*beta^d, C=c+h*v_op",
+        "funding": "B_t>=c+L_t under the declared robust admission rule; fresh L_0=w*d",
+        "sandbox": "e_rec*G>c"
+      },
+      "assumptions": [
+        "Known primitives, risk-neutral discounted payoff and fixed rival/market/rights menu.",
+        "Fixed c>0, e_rec>0, h and one-cohort incremental G; technical sandbox return e_rec*G-c>0.",
+        "Prospectively tagged useful evidence; independent geometric arrival, technical success and opportunity-specific preacceptance hazard.",
+        "Additive noninterfering cohort payoffs; all ordinary alternatives optimized or accounted as nonpositive residuals; no omitted positive resale, rights, refund or future benefit.",
+        "Dormancy set forward invariant under every feasible deviation, not merely the realized no-research path.",
+        "Self-funding construction assumes replenished useful cohorts/stakes, a retained predecessor, guaranteed free operating surplus and no global enterprise extinction.",
+        "No-renewal tail assumes no informative rollback, repeated known errors or duplicate-stake escape."
+      ],
+      "components": [
+        "exact gain threshold with equality/denominator domains",
+        "stopped-sum or Bellman supersolution trap",
+        "exact zero-successor-receipt cash-prefix requirement",
+        "temporary financing wait versus permanent liquidity/economic dormancy",
+        "pathwise cash invariant through arbitrarily long failure streaks",
+        "finite-mean renewal and positive constructed continuation value",
+        "cash-rich dormancy derivative and exact constructed sign reversal",
+        "finite-depth no-renewal stopping and bounded-stake extension",
+        "ordinal evidence-delay generalization",
+        "sandbox limit and endogenous strategic-response boundary"
+      ],
+      "boundaries": [
+        "A negative current margin alone does not exclude an experiment unlocking a positive later regime.",
+        "The constructed refill policy need not optimize cadence; no universal optimal-path rate is proved.",
+        "Expected profit without guaranteed refill/insurance does not guarantee solvency.",
+        "A permanent global obsolescence hazard invalidates the infinite-renewal claim.",
+        "Banked evidence, refunds, useful rollback, new rights/references or alternative organizations change the admitted menu.",
+        "Fixed c/e repeated successors do not prove an improving or accelerating improver.",
+        "FUNDED_EMBODIED is a compatible frozen finite-game null, not a calibrated instance or rerun.",
+        "The globally reoptimized equilibrium correspondence is uncomputed."
+      ],
+      "competent_alternatives": [
+        "optimized ordinary learning",
+        "retained old procedures",
+        "idling and waiting",
+        "equivalent external tests and feasible contracting within the declared institution"
+      ],
+      "constructed_example": {
+        "classification": "exact synthetic arithmetic witness, not empirical dollars",
+        "receipt": "1215/119",
+        "active_margin": "382/119",
+        "cash_rich_dormant_margin": "-213/119",
+        "sandbox_margin": "18"
+      },
+      "actual_deployment_parameter_estimates": null,
+      "FUNDED_EMBODIED_parameter_attribution": null,
+      "null_reason": "No matched data identify the new threshold inputs in an actual deployment or the archived four-date game.",
+      "independent_hostile_referee_status": "pending_separate_author",
+      "new_solver_run_this_turn": false
+    },
+    {
+      "id": "P3.A.COST",
+      "owner": "P3",
+      "statement": "Complete-policy common-cost values are affine and fixed-rival optimized values are convex piecewise affine; fixed-profile equilibrium regions require all-history inequalities.",
+      "status": "gate_A_closed_restricted_analytical_claim",
+      "assumptions": [
+        "finite common game tree and objective-consistent nonnegative cost weights",
+        "uniform feasibility for all relevant deviations",
+        "fixed counterpart policies on corresponding histories",
+        "perfect monitoring for one-shot SPNE certificate",
+        "risk-neutral expected additive monetary payoff",
+        "perfect recall for the complete-policy best-response statement"
+      ],
+      "boundaries": [
+        "not equilibrium-payoff convexity or date-specific research monotonicity",
+        "adjusting mixed probabilities and cash-conditioned responses can change paths",
+        "private information needs beliefs and a specified equilibrium concept"
+      ],
+      "source_or_proof": [
+        "research/recursive_firm/README.md Appendix A.COST"
+      ],
+      "independent_hostile_referee_status": "pending_separate_author",
+      "empirical_parameter_estimates": null,
+      "null_reason": "No case-matched causal parameter identification claimed.",
+      "new_solver_run_this_turn": false,
+      "proof_in_this_revision": "PROOFS.md#a6-common-cost-and-strategic-boundaries",
+      "reconciled_assumptions": [
+        "Finite common feasible tree, fixed rivals/chance laws, additive payoff with only -c*d_obj*n depending on c.",
+        "Risk-neutral objective, perfect recall and nonnegative objective weights.",
+        "Perfect-monitoring all-history one-shot conditions for the subgame-perfect fixed-profile statement.",
+        "Nonsingular square indifference systems and rational primitives for regular two-player mixed-support branches."
+      ],
+      "retained_boundaries": [
+        "Total optimal weighted attempts decline at fixed rivals; individual-date decisions and equilibrium profit need not.",
+        "Finance-induced menu changes break the common-tree envelope.",
+        "Private information, degeneracy, endogenous entry/withdrawal or higher-player mixing need additional analysis."
+      ]
+    }
+  ],
+  "deduplication": {
+    "register": "SOURCE_DISPOSITION.md",
+    "recursive_markdown_documents": 16,
+    "additional_main_antecedents": 5,
+    "portfolio_source_owner": "P2.5",
+    "historical_sweeps_main_proof_weight": false,
+    "historical_source_or_script_bytes_modified": false,
+    "historical_pdf_equivalence_certified": false
+  },
+  "source_fingerprints": [
+    {
+      "repository_path": "research/recursive_firm/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 30701,
+      "git_blob_sha1": "3988dc903d821a2066b743dd31efa0bd58cef0a0",
+      "sha256": "3384cfeb13ce4988ca065764ff68563c62d399a5f26571355122b397b3ebfc7c",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/boundaries/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 15560,
+      "git_blob_sha1": "c2e00b5acceefb7eb3a4a50c6c9fba938e22564b",
+      "sha256": "956508379e0e96019af5f2326c15c5f80ce011464425218fddc48b84d182146b",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/economic_rl/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 24818,
+      "git_blob_sha1": "bdceb52a83b0255b4fe5a87ab4d835fa957f5420",
+      "sha256": "17683b6c6b81e31b4d2c9e0a93cda09f10667b8025c182d29d433265339e59c5",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 26550,
+      "git_blob_sha1": "1a115e499ed13379a6db8ce79f772c1ce5b26793",
+      "sha256": "4a3fdbb3d3d56fccef54b8f1d9a9496affdc9bb1dafd66bcee363997c929b0a6",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/audit_location/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 10906,
+      "git_blob_sha1": "63cf97596ab99a430d193825bb7fdfea02da82af",
+      "sha256": "d2c7b5673f1eccafaa78e5c01ac1953302c53d8302fa00d0ef4d44f62455c3c2",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/inquiry/deployment_portfolio/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 28106,
+      "git_blob_sha1": "124004fe322560a81b3644f01daec5c65a4a27cb",
+      "sha256": "ef49524a18201a14269609337781eb54296d771f8e52ea4925afb28da8656842",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/learning_dynamics/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 24660,
+      "git_blob_sha1": "b8b4c9c70df16ddaa12448863cd7f20c6a8da39f",
+      "sha256": "6a9d668f71f221a6fdbe6c94396ff66f9e4c963fc9448267d1528f497c34ffdf",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/network_mpk/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 30330,
+      "git_blob_sha1": "63654903d82fbab2989a2e37e8b7951d34b2f48e",
+      "sha256": "7c63c3dc37de26f32f713265703eddc93604ff2399aa23b30a27695d45a3729e",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/organizational_recursion/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 24043,
+      "git_blob_sha1": "7a59a7fad7b9cc31cec3ef6239d5e5158f2a6542",
+      "sha256": "fd39a3d279d8ef5ce51c05e2802b63a1135270025c7e4c94fa0ab2fc76b3fb80",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/partition_discovery/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 8988,
+      "git_blob_sha1": "4a64abccc44124fa6487ae74437da66ad7be0c04",
+      "sha256": "787f0bb2c7c683a7d1e12e9d58408906f6ace8297e01be3aba5aa541139dda67",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/reference_coverage/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 13707,
+      "git_blob_sha1": "b099cbb57616a5602005c353b30d6119a780e4cb",
+      "sha256": "f80aa381f3250903ad013f18a95497b0c2dede79a34f9b6b6c8e40940bc2552c",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/settlement_learning/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 9817,
+      "git_blob_sha1": "b2a144a466b5a734d0de54efb05d6ac6f7e4b7d4",
+      "sha256": "0b9d73a0780256ac0ba5748d4f196e8acad2dee4b73697decbc8f07c09ec2a8d",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/stack/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 24711,
+      "git_blob_sha1": "41b2456e10b5b203fcf12203d3ee306278f047de",
+      "sha256": "d2600a7619c2338fd649e3ddbc969ab96fdc03472e8728a4620e2eb0bbc63c75",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/stack_profile/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 28256,
+      "git_blob_sha1": "99d2736dbd50d69575aefe0a1d5d44187166e479",
+      "sha256": "cbb742fcf4ab9dc43918e71d96caabd4e20281a40a55b319b1e59af1caad20cb",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/ADAPTER_REPAIR.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 8082,
+      "git_blob_sha1": "94718a7ce809bce359ab3c39ef42f68082940ddf",
+      "sha256": "3b7ee6ab95d40ec536a4625845ab1fe027c8af006d63d3e4e514d6b84e1a023e",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/transfer_validation/README.md",
+      "commit": "af1cabb95772524db1b34dda3b2667a54c203b43",
+      "bytes": 8534,
+      "git_blob_sha1": "b2e187d1d288653d66c86946e6be48043aae4c6f",
+      "sha256": "dfa0455699b0b96579ff000494e04ec561b0b9adafad3b32eebade6e6660b225",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/EVIDENCE_REALLOCATION.md",
+      "commit": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+      "bytes": 16047,
+      "git_blob_sha1": "43ce7afecc379329bd1c882ad736b720882ad21c",
+      "sha256": "d00b8e78ae98d641589c2b1b5c1d17a998a32fef0a52520c0175781d7c5e2576",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "papers/theory_week_20261125/LEARNING_GENERALIZATION_STRUCTURE.md",
+      "commit": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+      "bytes": 38434,
+      "git_blob_sha1": "37a45b841347434754db6339abdba1601a50a564",
+      "sha256": "56fba3efa2685f63b4976f2aab46b7c48cb75dcbe8a6756076dc7fe76f59c2a5",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/theory/recursive_firm.md",
+      "commit": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+      "bytes": 22809,
+      "git_blob_sha1": "ab63b61d1106a9b798c1c4fba48c0031a0bf94f8",
+      "sha256": "213e2609f6a8037376c1638094f9e820de746fef3d47fae240a853a1465a1b45",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "papers/integrated_firm/FUNDED_EMBODIED.md",
+      "commit": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+      "bytes": 7477,
+      "git_blob_sha1": "0aa1c723c46a4015cfce675f515066b7dbef260e",
+      "sha256": "3a036d621a33ee087896564c9228a9d72e97f5424fad330f6d5058910ae1997b",
+      "source_bytes_verified": true
+    },
+    {
+      "repository_path": "research/recursive_firm/README.md",
+      "commit": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+      "bytes": 31406,
+      "git_blob_sha1": "fa5891dadaef3954b440f889290d5966c446a095",
+      "sha256": "4b3244481af313506cd13155bbd5b028740e7466c3079cf359df3517fe0a02b8",
+      "source_bytes_verified": true
+    }
+  ],
+  "protected_input_git_blobs": {
+    "papers/learning_and_capital/README.md": "02953bcc1905f8d8b50369e3841b064151630637",
+    "papers/autonomous_firm/The_Production_of_Capability.md": "59b4bc4ac42981c7ce253df0726b6f4637048f2d",
+    "research/portfolio/empirical_target_symbotic.json": "ebed8521100c469aa93a954e8a5daac6fc8827b5",
+    "AGENTS.md": "faf7a569fac775101b6d08fe288d2b3d11b5e246",
+    "THEORY_PHASE.md": "e502599799c12b081ae0a1b8dec677e33a7b186c",
+    "HANDOFF.md": "3702b6e057dd40ab6ea6f6798798de460c3f5519",
+    "research/portfolio/state.json": "fc037e7dd717c37a1b30ff875b509ced91a37f36",
+    "research/portfolio/CLAIMS.json": "a69c06977fe1fe8562bf9f28fed24c5c92cb8c35",
+    "research/portfolio/ORACLE_REQUESTS.md": "6e68d1decde88aa52771bd3ed806bef5567c2b74",
+    "papers/integrated_firm/state.json": "359cec7ba82f66885514e3cf70c1d07d82d4c9de"
+  },
+  "verification": {
+    "exact_arithmetic_check": {
+      "command": "python research/recursive_firm/verify_p35_dormancy.py",
+      "physical_lines": 87,
+      "imports": [
+        "fractions"
+      ],
+      "arithmetic": "fractions.Fraction with integer indices and exponents",
+      "elapsed_seconds": 0.019782935999955953,
+      "runtime_bound_seconds": 2,
+      "exit_code": 0,
+      "stdout": "PASS P3.5 exact identities, cash-rich sign flip, funding, renewal, stopping, sandbox\nreceipt=1215/119; active_margin=382/119; dormant_margin=-213/119; sandbox_margin=18\n",
+      "stderr": "",
+      "sha256": "be9a234b0129c11ceac0c43f703c2ec0b9f7f0144841e5ac75a7dd96eebd835b",
+      "solver_invoked": false,
+      "historical_script_executed": false
+    },
+    "gate_A_checks": "Proof/source/notation review and file/link/hash audits; publication byte readback recorded separately in sync_receipt.json.",
+    "internal_proof_findings_resolved": [
+      "Full sign/latent-prior and lane independence; fresh selected-roster kernels.",
+      "Positive audit stakes, nonnegative mature flow/idling and exact switching timing.",
+      "Full surcharge/payoff independence and regular mixed-support rationality proof.",
+      "Additive all-policy payoff accounting and no hidden positive continuation.",
+      "Zero-receipt cash-prefix necessity; no repeated working-capital bridge.",
+      "No informative rollback or duplicate benefits in the no-renewal trap.",
+      "Gross G distinguished from theta-captured value in empirical calibration."
+    ],
+    "gate_B_passed_by_internal_checks": false,
+    "oracle_invocations": 0,
+    "finite_game_solver_runs": 0,
+    "historical_script_runs": 0,
+    "new_numpy_worlds": 0,
+    "only_numerical_model_execution": "verify_p35_dormancy.py"
+  },
+  "empirical": {
+    "Robin_record": "operational_anchor_robin.json",
+    "Robin_parameter_nulls": 22,
+    "Symbotic_record": "research/portfolio/empirical_target_symbotic.json",
+    "Symbotic_parameter_nulls": 16,
+    "Symbotic_modified": false,
+    "new_empirical_parameter_estimates": null,
+    "claim_classification": "analytical restrictions, exact constructed arithmetic, and separate author-reported operational evidence"
+  },
+  "uncomputed": {
+    "global_equilibrium_surfaces": null,
+    "optimal_cadence_policy": null,
+    "broad_market_closure": null,
+    "case_calibrated_activation_threshold": null,
+    "third_cohort_causal_successor_lift": null
+  },
+  "handoffs": {
+    "notation": "LANE3_HANDOFF.md#a-notation-delta-for-lane-4",
+    "independent_referee_brief": "LANE3_HANDOFF.md#b-gate-b-referee-brief-for-an-independent-author",
+    "operational_anchor_scope": "LANE3_HANDOFF.md#c-gate-c-operational-anchor-proposal--robin-complementary-to-symboticwalmart",
+    "canon": "research/portfolio/CANON.md",
+    "shared_ledger_refresh_owner": "Lane 4; use this scoped P3 record without modifying P1/P2 statuses"
+  },
+  "paused_schedule_check": {
+    "observation_window_start_utc": "2026-11-28 04:09:19 UTC",
+    "observation_window_end_utc": "2026-11-28 04:09:20 UTC",
+    "tasks": [
+      {
+        "id": "6ade2f1294388191808ce849901a29a4",
+        "title": "Robotic Fleet Prototype",
+        "is_enabled": false
+      },
+      {
+        "id": "Automation_8f6101c0a5088191b61410787e40909b",
+        "title": "Recursive Firm Research",
+        "is_enabled": false
+      },
+      {
+        "id": "Automation_9df88010e6a0819199674ddaf21572ff",
+        "title": "RoboEcon theory week",
+        "is_enabled": false
+      },
+      {
+        "id": "6afbe6a5ebf88191a11858bf26241c98",
+        "title": "RoboEcon formal integration",
+        "is_enabled": false
+      }
+    ],
+    "scope": "Read-only schedule enabled-status check; no task executed or schedule changed."
+  },
+  "publication_integrity": {
+    "manifest": "artifact_manifest.json",
+    "manifest_self_hash": "local sync_receipt.json only",
+    "new_commit_sha": "local sync_receipt.json after normal expected-head publication",
+    "file_bytes": "SHA-256 in manifest; Git blob identities and all unchanged paths checked before ref update, then read back",
+    "no_force_push": true
+  },
+  "next_falsifiable_question": "Can any admitted ordinary action, retained procedure or competent outside arrangement escape the claimed invariant dormant set after all effects on dated cash, useful evidence and continuation value are accounted for?"
+}

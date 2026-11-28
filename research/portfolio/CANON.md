@@ -1,6 +1,6 @@
 # Canon, ownership and consolidation map
 
-This is a governance and source-disposition register, not a fourth paper. It implements the multi-agent charter in [AGENTS.md](../../AGENTS.md). Main input: f3a6d0f8146c773ca7906f395f5eb52ec6fac910. Source pins are provenance; future work must resolve current main and deliberately record any new source revision.
+This is a governance and source-disposition register, not a fourth paper. It implements the multi-agent charter in [AGENTS.md](../../AGENTS.md). Initial charter input: f3a6d0f8146c773ca7906f395f5eb52ec6fac910. The Lane 3 Gate A revision below builds on main a03659f79395ce9b7d9c06235e660a0d5e704f76. Source pins are provenance; future work must resolve current main and deliberately record any new source revision.
 
 ## Exactly three active manuscripts
 
@@ -8,12 +8,12 @@ This is a governance and source-disposition register, not a fourth paper. It imp
 | --- | --- | --- | --- |
 | 1 | [Deploying to Learn, Learning to Deploy](../../papers/learning_and_capital/README.md) | A in progress; B and C pending | Deployment order, payer incidence, contractible target tests, qualification observability and three networks |
 | 2 | [The Autonomous and Full-Stack Firm](../../papers/autonomous_firm/The_Production_of_Capability.md) | A in progress; B and C pending | Allocation/timing, deadlines, legacy releases, hardware vintages and diagnostic portfolios |
-| 3 | [Recursive Firm Theory](../recursive_firm/README.md) | A in progress; B and C pending | Successor procedures, endogenous learning time, identification and dynamic firm boundaries |
+| 3 | [Recursive Firm Theory](../recursive_firm/README.md) | A closed for restricted P3.1–P3.5/A.COST; B independent review pending; C pending | Successor procedures, endogenous learning time, identification, dynamic boundaries and dormancy/activation |
 | 4 | Empirical identification and canon stewardship | Cross-cutting support; no standalone monograph | Shared notation, source/claim ownership, prior art, empirical records and duplication prevention |
 
 The other five autonomous-firm drafts are historical source editions. Recursive-branch modules are preserved at the pinned revision as proof/evidence appendices or historical witnesses, with owners below. The dated theory-week syntheses are Paper 3 source appendices. The integrated_firm directory is a frozen verification archive. Old PDFs and ZIPs remain historical editions; equivalence to the newly consolidated manuscript is not certified by their existence.
 
-This charter establishes single ownership and a source-preserving consolidation. It does not certify that all notation, proof dependencies and manuscript transitions have passed Gate A. The remaining editorial and analytical reconciliation is explicit work, not another solver queue.
+This charter establishes single ownership and source-preserving consolidation. Paper 3 now closes Gate A for its explicitly restricted P3.1–P3.5/A.COST claims, with proofs and source dispositions in its [current scoped record](../recursive_firm/GATE_A_RECORD.json). Papers 1–2 retain their existing status. This does not pass any paper through Gate B or C, certify novelty, or reopen the solver queue.
 
 ## Source pins
 
@@ -66,6 +66,10 @@ Canonical file retains the existing The_Production_of_Capability.md path and ado
 **Other archived editions.** The_Autonomous_Firm.md, Choosing_the_First_Deployment.md, When_Faster_Learning_Pays.md, FULL_STACK_FIRM.md and DEPLOYMENT_PORTFOLIOS_AND_DESIGN.md retain their text and links as historical source editions, not independently evolving papers. Dated PDFs/ZIPs remain historical. Future derivations go to the canon or a named proof appendix.
 
 ## Paper 3: four pillars and all 16 branch documents
+
+**Lane 3 Gate A handoff (input main a03659f79395ce9b7d9c06235e660a0d5e704f76).** The four pillars are now formally unified in the canonical manuscript, with the cross-pillar P3.5 dormancy/activation theorem and retained A.COST. [PROOFS.md](../recursive_firm/PROOFS.md) supplies the analytical arguments. [SOURCE_DISPOSITION.md](../recursive_firm/SOURCE_DISPOSITION.md) completes the claim-level integrated/historical/routed decisions for all 16 documents, including nonredundant analytical material and negative results. It is the operative refinement of the original routing table below. Historical source bytes remain unchanged.
+
+[LANE3_HANDOFF.md](../recursive_firm/LANE3_HANDOFF.md) contains the complete notation delta, separate-author Gate B brief and Robin operational proposal. The [Paper 3 claim/gate record](../recursive_firm/GATE_A_RECORD.json) supersedes only the older P3 gate/claim status in portfolio state.json and CLAIMS.json; those input-version records and other lanes are preserved for Lane 4’s next shared refresh. No new parallel manuscript is registered.
 
 All branch paths below are relative to research/recursive_firm/ at af1cabb95772524db1b34dda3b2667a54c203b43.
 
@@ -121,6 +125,8 @@ Canonical notation applies to new text. A retained proof using legacy notation m
 | Cash-time occupancy | m_j = integral b_j(s) ds, in money × elapsed time | A monetary cost or an unrestricted growth rate |
 | Opportunity indicator / investment | I^opp for the timing/covariance indicator; i_(j,t) for investment flow | Reuse of an unqualified I in incompatible propositions |
 
+**Accepted Paper 3 aliases and collision resolutions.** The complete [Lane 3 delta](../recursive_firm/LANE3_HANDOFF.md#a-notation-delta-for-lane-4) extends this table, rather than introducing a second cross-paper canon. Paper 3 uses $m_t=\psi_t$ for the retained procedure; P1’s cash-time $m_j$ retains its original meaning and must be explicitly typed in joint summaries. $z$ denotes validated evidence, $\varepsilon_i$ execution error, $e_{rec}$ successor yield, $\lambda_{ev}$ useful-record arrival and $\lambda_e^{meas}$ measurement reliability. Legacy evidence-allocation $B,E,m$ become $H^{free},\mathcal H,z$; $B$ remains spendable cash. P3.5 capture $\theta$ and starvation $\gamma$ use $\theta_{cap},\gamma_{ev}$ in cross-paper summaries to avoid P2 latent-design/manufacturing meanings. Settlement $d$ is distinct from source curvature $\kappa_u$ and A.COST objective weights $d_t^{obj}$. Required cash bridge $L_t$ and $wd$ are money, not cash-time occupancy. No P1/P2 manuscript notation is silently changed.
+
 Typed units, claimant, timing and counterfactual are mandatory whenever a marginal object enters Economic RL. Forecasts of MPK_r may inform the state or policy; adding a technical-success reward to cash already reflecting that success duplicates value.
 
 ## Unified prior-art positioning
@@ -132,7 +138,7 @@ Typed units, claimant, timing and counterfactual are mandatory whenever a margin
 | Grossman–Hart, The Costs and Benefits of Ownership | Ownership/control allocation and investment incentives under contractual incompleteness | Integration that endogenously creates a portable specification, followed by economical delegation (P3) | Is the time-varying interface genuinely produced, and does ownership beat feasible contracts/hybrids? |
 | Cabral–Riordan, The Learning Curve, Market Dominance, and Predatory Pricing | Strategic dynamic competition with learning-by-doing | Exact qualification-disclosure institutions (P1), installed release/vintage decisions (P2), endogenous learning/observation procedures (P3) | Is the comparative result already dynamic learning competition under another name? |
 
-The rows are candidate positioning, not cleared novelty. Preserve the inspected source versions and reading boundaries in research/theory/data_driven_automation.md and organizing_intelligence.md. The Grossman–Hart author source is https://hart.scholars.harvard.edu/publications/costs-and-benefits-ownership-theory-vertical-and-lateral-integration. Cabral–Riordan’s 1994 Econometrica article has the title above; a full mechanism/proof reconstruction remains a Gate B obligation. Adding references is not that reconstruction.
+The [Paper 3 referee brief](../recursive_firm/LANE3_HANDOFF.md#b-gate-b-referee-brief-for-an-independent-author) adds scoped comparisons with dynamic capabilities, absorptive capacity, learning-to-learn, experimentation/active learning, STOP, AIDE² and physical-AI RSI. It preserves the four shared rows here and their ownership. The rows are candidate positioning, not cleared novelty. Preserve the inspected source versions and reading boundaries in research/theory/data_driven_automation.md and organizing_intelligence.md. The Grossman–Hart author source is https://hart.scholars.harvard.edu/publications/costs-and-benefits-ownership-theory-vertical-and-lateral-integration. Cabral–Riordan’s 1994 Econometrica article has the title above; a full mechanism/proof reconstruction remains a Gate B obligation. Adding references is not that reconstruction.
 
 ## Reproduction ownership and completeness
 
@@ -148,7 +154,7 @@ Keep existing code bytes and output provenance. Do not run frozen exhaustive scr
 | P2.3 | autonomous_firm/replication/capability/installed_base.py | Release, variety, migration and test-cell checks |
 | P2.4 | autonomous_firm/replication/capability/full_stack_vintages.py | Rights, sensing, vintages, yield and demand restrictions |
 | P2.5 | autonomous_firm/replication/capability/diagnostic_portfolios.py and saved results | NumPy/SciPy and stated tolerances; not rational-arithmetic verification |
-| P3 | Existing module scripts and main evidence_reallocation.js / generalization_allocation.py | Proof-linked appendices; historical sweeps are not portable proofs |
+| P3 | PROOFS.md A.0–A.6; verify_p35_dormancy.py; immutable module scripts and main evidence_reallocation.js / generalization_allocation.py | Active claims are analytical. The 87-line Fraction checker ran below 2 seconds; no historical script or solver was run. Historical sweeps remain scoped source support, not main-text proofs |
 | Frozen integrated games | Existing pinned exact JS/Python and saved outputs | Oracle-only; registration required before a new invocation |
 
 The old autonomous_firm/replication/run.py does not cover all five capability scripts. Its success must not be reported as full Paper 2 replication. Reconcile the complete claim-to-function map in Gate A before a named reproduction request.
@@ -169,13 +175,13 @@ The new canon defines Gaussian measurement errors where Gaussian conditioning is
 
 ## Next work and gate discipline
 
-1. Complete analytical integration and proof/notation reconciliation in each canonical manuscript; resolve the mapped overlap without adding another monograph.
-2. Continue the common-research-cost next step as P3 Appendix A.COST: a portable sensitivity and fixed-mixing condition, with no new solver run.
-3. Prepare an independent hostile-referee assignment only after each paper’s Gate A is passed. Use the protocol below; preserve unresolved boundaries.
+1. Continue the remaining Gate A integration in Papers 1–2. Paper 3’s restricted core is closed in its current scoped record; no new monograph is needed.
+2. Preserve P3 A.COST and its P3.5 dynamic extension; globally reoptimized equilibrium correspondence remains null and the solver remains frozen.
+3. Assign Paper 3’s independent hostile referee using the prepared brief. Other papers advance only after their own Gate A; no author or co-derivation reviewer can certify its own Gate B.
 4. Collect and classify the Symbotic case now; later test whether it is sufficient for a case-to-state mapping after A and B.
 5. No next step reopens the exhaustive integration queue.
 
-The [scoped claim register](CLAIMS.json) assigns 14 consolidated claim groups to a single owner and records their assumptions, counterexamples, empirical nulls and proof sources. It supplements the preserved historical ledgers; it does not certify the claims.
+The original [scoped claim register](CLAIMS.json) assigns 14 consolidated claim groups to a single owner. Paper 3’s [current scoped extension](../recursive_firm/GATE_A_RECORD.json) updates its assumptions, proofs and status and adds P3.5; Lane 4 owns incorporation into the next shared register. It supplements the preserved historical ledgers; it does not certify the claims.
 
 ## Referee and handoff protocol
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_id": "three-paper-milestone-charter-20261127",
+  "snapshot_id": "lane3-gate-a-dormancy-activation",
   "canonical_root": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics",
   "canonical_root_role": "Local working copy; only accepted commits published to remote main are the shared accepted state.",
   "shared_source": {
@@ -3113,8 +3113,8 @@
       "repository_path": "research/portfolio/CANON.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/portfolio/CANON.md",
       "name": "CANON.md",
-      "sha256": "f73f1176dcdb42a81e122e5b398ac133123040a1c325be493dc7eb8e9275081b",
-      "version": "three-paper-milestone-charter"
+      "sha256": "6422df9db7b06582f3cd03784900203463340de151450dc78427a6df9c5705e7",
+      "version": "lane3-gate-a-dormancy-activation"
     },
     {
       "repository_path": "research/portfolio/CLAIMS.json",
@@ -3152,11 +3152,53 @@
       "sha256": "8396b6b23fb04cd9a639091bc778e4ee74259e71450ccbc17b5b4aa4b7afcdeb"
     },
     {
+      "repository_path": "research/recursive_firm/GATE_A_RECORD.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/GATE_A_RECORD.json",
+      "name": "GATE_A_RECORD.json",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "e95b38b3bba9676aaca1f162813ded8b0baeb5e825d8b0277ecb4479f8f6eec9"
+    },
+    {
+      "repository_path": "research/recursive_firm/LANE3_HANDOFF.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/LANE3_HANDOFF.md",
+      "name": "LANE3_HANDOFF.md",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "d2a8e2bb1bf9ea2b9492e0b9c0e8ce7684bdcc7e463a36b82ddba67cf1c28bf3"
+    },
+    {
+      "repository_path": "research/recursive_firm/PROOFS.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/PROOFS.md",
+      "name": "PROOFS.md",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "929bc776e592de417ba2023ae9ae1a40317bf8a36d878197a6dcceccde5723dc"
+    },
+    {
       "repository_path": "research/recursive_firm/README.md",
       "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/README.md",
       "name": "README.md",
-      "sha256": "4b3244481af313506cd13155bbd5b028740e7466c3079cf359df3517fe0a02b8",
-      "version": "three-paper-milestone-charter"
+      "sha256": "8b82240063207a69a1613a18a79c4415390f5402fafab4a668d46a8f9b3173c7",
+      "version": "lane3-gate-a-dormancy-activation"
+    },
+    {
+      "repository_path": "research/recursive_firm/SOURCE_DISPOSITION.md",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/SOURCE_DISPOSITION.md",
+      "name": "SOURCE_DISPOSITION.md",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "005d1d2bd6c1e90df981ce1c1091d720a3889b18c9092f0b80624b4f54841add"
+    },
+    {
+      "repository_path": "research/recursive_firm/operational_anchor_robin.json",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/operational_anchor_robin.json",
+      "name": "operational_anchor_robin.json",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "0567cc2aeb3005168d539d5d98c287b1321303f506034a0b9c8acbe4b6d649c0"
+    },
+    {
+      "repository_path": "research/recursive_firm/verify_p35_dormancy.py",
+      "path": "/Users/amarmurray/Documents/ChatGPT/Robotics Economics/research/recursive_firm/verify_p35_dormancy.py",
+      "name": "verify_p35_dormancy.py",
+      "version": "lane3-gate-a-dormancy-activation",
+      "sha256": "be9a234b0129c11ceac0c43f703c2ec0b9f7f0144841e5ac75a7dd96eebd835b"
     },
     {
       "repository_path": "research/regional_frontier_models.md",
@@ -4596,7 +4638,7 @@
     "authority": "AGENTS.md",
     "phase": "THEORY_PHASE.md",
     "handoff": "HANDOFF.md",
-    "status": "milestone_driven_gate_A_in_progress",
+    "status": "milestone_driven_P3_gate_A_closed_other_lanes_unchanged",
     "canonical_paper_count": 3,
     "working_lane_count": 4,
     "canon": "research/portfolio/CANON.md",
@@ -4881,6 +4923,15 @@
         "qualification_comparisons": "research/theory/qualification_observability.md"
       }
     },
-    "historical_metadata_is_execution_authority": false
+    "historical_metadata_is_execution_authority": false,
+    "paper3": {
+      "canonical_manuscript": "research/recursive_firm/README.md",
+      "scoped_claim_and_gate_record": "research/recursive_firm/GATE_A_RECORD.json",
+      "handoff": "research/recursive_firm/LANE3_HANDOFF.md",
+      "gate_A": "closed_restricted_analytical_core",
+      "gate_B": "pending_independent_referee",
+      "gate_C": "pending_B",
+      "solver_runs_this_revision": 0
+    }
   }
 }

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "record_id": "p3_robin_operational_anchor",
+  "owning_paper": "P3",
+  "owner_role": "Lane 3 proposal; Lane 4 empirical stewardship handoff",
+  "status": "preparatory_public_operational_mapping_no_gate_B_or_C_pass",
+  "evidence_class": "author_reported_industrial_deployment_not_independent_replication",
+  "input_main": "a03659f79395ce9b7d9c06235e660a0d5e704f76",
+  "primary_source": {
+    "title": "Demonstrating Large-Scale Package Manipulation via Learned Metrics of Pick Success",
+    "authors": [
+      "Shuai Li",
+      "Azarakhsh Keipour",
+      "Kevin Jamieson",
+      "Nicolas Hudson",
+      "Charles Swan",
+      "Kostas Bekris"
+    ],
+    "venue": "Robotics: Science and Systems",
+    "year": 2023,
+    "version": "arXiv:2305.10272v2",
+    "version_date": "2023-06-27",
+    "url": "https://arxiv.org/html/2305.10272v2",
+    "inspection_date": "2026-11-27",
+    "inspection_timezone": "America/Chicago",
+    "inspected_sections": [
+      "III Problem Statement",
+      "IV-A Training Dataset",
+      "V Pick Ranking",
+      "VI Experiments and Results",
+      "VII Conclusion"
+    ],
+    "source_byte_sha256": null,
+    "hash_null_reason": "Rendered primary source inspected; exact source bytes not archived."
+  },
+  "observations": [
+    {
+      "formal_objects": [
+        "D",
+        "observation kernel",
+        "configuration"
+      ],
+      "observation": "Logged images and outcomes carry station, arm and tool metadata.",
+      "source_locator": "IV-A"
+    },
+    {
+      "formal_objects": [
+        "sampling action",
+        "selected evidence"
+      ],
+      "observation": "Failures are oversampled; centered and spatially varied picks are compared.",
+      "source_locator": "IV-A; VI"
+    },
+    {
+      "formal_objects": [
+        "q",
+        "feasible action filter"
+      ],
+      "observation": "Learned success estimates rank candidates before feasibility filtering.",
+      "source_locator": "III; V"
+    },
+    {
+      "formal_objects": [
+        "hardware condition",
+        "unobserved causes"
+      ],
+      "observation": "Malfunctioning suction cups motivate proposed health monitoring.",
+      "source_locator": "VII"
+    }
+  ],
+  "layer_mapping": {
+    "execution_policy_improvement": "author_reported",
+    "researcher_designed_sampling_comparison": "author_reported",
+    "isolated_inquiry_procedure_improvement": null,
+    "successor_procedure_production_lift": null,
+    "null_reason": "The inspected disclosure does not supply the matched three-cohort causal comparison."
+  },
+  "unidentified_parameters": {
+    "deliberate_sampling_opportunity_cost": {
+      "value": null,
+      "formal_object": "v_op; h",
+      "identifying_observation_needed": "Displaced accepted service, time, labor, damage and contribution margins for assigned sampling slots."
+    },
+    "sampling_intensity_per_operating_hour": {
+      "value": null,
+      "formal_object": "H; sampling action",
+      "identifying_observation_needed": "Complete operating exposure and actual sampling allocation, including unsampled attempts."
+    },
+    "marginal_useful_record_yield": {
+      "value": null,
+      "formal_object": "lambda_ev; P3.2 evidence law",
+      "identifying_observation_needed": "Novelty, admissibility and downstream usefulness per additional record and opportunity."
+    },
+    "failure_starvation_elasticity": {
+      "value": null,
+      "formal_object": "gamma_ev",
+      "identifying_observation_needed": "Repeated exposure-adjusted useful-record arrivals as execution error changes, holding selection and processing fixed."
+    },
+    "cross_cell_causal_transfer_kernel": {
+      "value": null,
+      "formal_object": "T_(s_to_j)",
+      "identifying_observation_needed": "Matched source-target transfers with permissions, configurations and ordinary learning controlled."
+    },
+    "appropriable_share_of_learning_value": {
+      "value": null,
+      "formal_object": "theta_cap",
+      "identifying_observation_needed": "Beneficiary-specific incremental value and enforceable capture/appropriation terms."
+    },
+    "lawful_cross_site_or_external_use_rights": {
+      "value": null,
+      "formal_object": "R_use",
+      "identifying_observation_needed": "Applicable use, retention, disclosure and transfer permissions; possession alone is insufficient."
+    },
+    "suction_cup_wear_transition": {
+      "value": null,
+      "formal_object": "K condition transition",
+      "identifying_observation_needed": "Longitudinal physical-condition, replacement and maintenance histories; malfunction alone is insufficient."
+    },
+    "wear_to_margin_elasticity": {
+      "value": null,
+      "formal_object": "operating contribution versus condition",
+      "identifying_observation_needed": "Matched wear, downtime, service, maintenance and contribution-margin observations."
+    },
+    "successor_qualification_probability": {
+      "value": null,
+      "formal_object": "e_rec; p_qual",
+      "identifying_observation_needed": "All proposed successor procedures, qualified and failed, under a fixed protocol and evidence budget."
+    },
+    "isolated_inquiry_procedure_lift": {
+      "value": null,
+      "formal_object": "m_to_m_prime",
+      "identifying_observation_needed": "Fresh-site comparison with matched executor, information, evaluator, resources and carrier controls."
+    },
+    "next_test_selection_changes": {
+      "value": null,
+      "formal_object": "m action law",
+      "identifying_observation_needed": "Versioned records of how inherited experience changes experiment selection and interpretation."
+    },
+    "third_cohort_successor_procedure_lift": {
+      "value": null,
+      "formal_object": "D3",
+      "identifying_observation_needed": "Randomized source history and post-production procedure passage; failed and absent successors retained."
+    },
+    "accepted_service_robot_marginal_product": {
+      "value": null,
+      "formal_object": "MPK_r",
+      "identifying_observation_needed": "Matched capital counterfactual, horizon and service acceptance rule."
+    },
+    "direct_successor_construction_cost": {
+      "value": null,
+      "formal_object": "c",
+      "identifying_observation_needed": "Dated attributable cash outlays and separately priced shared resource use."
+    },
+    "incremental_recipient_stake": {
+      "value": null,
+      "formal_object": "G",
+      "identifying_observation_needed": "One-cohort incremental benefit before applying capture share theta, relative to competent ordinary learning and outside alternatives; exclude future successor value."
+    },
+    "project_spendable_cash_and_receivables": {
+      "value": null,
+      "formal_object": "B_t; AR_t; L_t",
+      "identifying_observation_needed": "Dated payer-specific outlays, collectible receipts, funding terms and every relevant cash prefix."
+    },
+    "settlement_lag": {
+      "value": null,
+      "formal_object": "d",
+      "identifying_observation_needed": "Acceptance-to-collection timestamps for the relevant enforceable receipt, if this institution applies."
+    },
+    "guaranteed_operating_refill_surplus": {
+      "value": null,
+      "formal_object": "s",
+      "identifying_observation_needed": "A supported lower bound on free operating cash after mandatory outlays and working-capital needs."
+    },
+    "imitation_or_obsolescence_hazard": {
+      "value": null,
+      "formal_object": "delta_obs",
+      "identifying_observation_needed": "Matched opportunity survival before acceptance, separated from collection risk after acceptance."
+    },
+    "joint_novelty_and_transfer_law": {
+      "value": null,
+      "formal_object": "j=P(U intersect T)",
+      "identifying_observation_needed": "Joint source novelty and recipient benefit/harm outcomes; separate dashboards are insufficient."
+    },
+    "P35_calibrated_activation_region": {
+      "value": null,
+      "formal_object": "Delta_rec and lambda_star",
+      "identifying_observation_needed": "Joint identification or credible bounds for all required inputs; no parameter is filled from a synthetic witness."
+    }
+  },
+  "unidentified_parameter_count": 22,
+  "next_observation_protocol": {
+    "status": "proposal_only_no_experiment_or_outreach_performed",
+    "unit": "fresh operating cell/cohort with explicit task and configuration",
+    "cohort_1": "Record a source history and the procedure artifact it changes.",
+    "cohort_2": "Assign the inherited history/procedure with a matched executor and resource/information budget; log all next-test choices and produced successor artifacts.",
+    "cohort_3": "Randomize passage of the incremental cohort-2 artifact after its production under a common announced passage probability; preserve all assigned failures.",
+    "outcomes": [
+      "next-test efficiency under a declared cost measure",
+      "accepted service and displaced contribution",
+      "successor qualification and incremental third-cohort lift"
+    ],
+    "exclusions": [
+      "transmitted answers or extra raw target information",
+      "unmatched executor changes",
+      "different lawful rights or evaluation budgets",
+      "post-treatment selection of only successful procedures"
+    ]
+  },
+  "complementary_contractual_anchor": {
+    "path": "research/portfolio/empirical_target_symbotic.json",
+    "input_git_blob_sha1": "ebed8521100c469aa93a954e8a5daac6fc8827b5",
+    "input_sha256": "83f59fa4589b4247803a58d5eee0b4c940c2fd051030256d60d66013fa733958",
+    "unidentified_parameter_count": 16,
+    "modified_this_turn": false,
+    "scope": "contractual rights and payment architecture; learning and recursive effects remain open",
+    "cross_case_parameter_substitution_allowed": false
+  },
+  "claim_boundaries": [
+    "Selected training failures do not identify the population failure rate.",
+    "Dataset composition does not identify operating-time sampling intensity.",
+    "Pick success is not successor qualification.",
+    "Malfunction is disclosed; a measured wear law and its cost are not.",
+    "Retraining and executor gains do not identify a better improver.",
+    "No P3.5 threshold or economic return is calibrated.",
+    "No new primary field data, confidential information, outreach or experiment was collected."
+  ],
+  "gate_status": {
+    "A": "Paper 3 analytical record controls; this packet is preparatory evidence",
+    "B": "pending independent referee",
+    "C": "pending B and identifying case mapping"
+  }
+}
